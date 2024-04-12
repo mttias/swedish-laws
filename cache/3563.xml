@@ -1,0 +1,828 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="1990-06-06" /> 
+ <meta id="rattsinfo-edited" content="2013-08-16" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3563</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3562">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3564">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1990:226 ·
+                    <a href="/sfsr?bet=1990:226">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1990:226) om handr&#228;ckning i skatte&#228;renden mellan de nordiska l&#228;nderna</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1990-04-26
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad SFS 1990:226 har iakttagits.
+
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1991-05-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+Det avtal mellan de nordiska l&#228;nderna om handr&#228;ckning i skatte&#228;renden
+som Danmarks regering tillsammans med F&#228;r&#246;arnas landsstyre och Gr&#246;nlands
+landsstyre samt Finlands, Islands, Norges och Sveriges regeringar
+undertecknade den 7 december 1989 skall i originaltexternas lydelse
+g&#228;lla som lag h&#228;r i landet. Avtalet &#228;r avfattat p&#229; danska, f&#228;r&#246;iska,
+gr&#246;nl&#228;ndska, finska, isl&#228;ndska, norska och svenska spr&#229;ken. P&#229; svenska
+spr&#229;ket finns tv&#229; texter, en f&#246;r Finland och en f&#246;r Sverige. Alla
+originaltexterna skall ha samma giltighet.
+
+Den f&#246;r Sverige avfattade texten &#228;r intagen som en bilaga till denna lag.
+
+De &#246;vriga texterna finns tillg&#228;ngliga hos utrikesdepartementet.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1990:226
+
+Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer och till&#228;mpas p&#229;
+&#228;renden som efter ikrafttr&#228;dandet av det den 7 december 1989
+undertecknade avtalet inkommit till den beh&#246;riga myndigheten i den
+avtalsslutande stat till vilken framst&#228;llningen riktats.
+
+
+Bilaga
+
+
+Avtal
+mellan de nordiska l&#228;nderna om handr&#228;ckning i skatte&#228;renden
+
+Danmarks regering tillsammans med F&#228;r&#246;arnas landsstyre och Gr&#246;nlands
+landsstyre samt Finlands, Islands, Norges och Sveriges regeringar
+
+som &#246;nskar ing&#229; ett avtal om handr&#228;ckning i skatte&#228;renden,
+
+som konstaterar att i fr&#229;ga om F&#228;r&#246;arna och Gr&#246;nland handhavandet &#228;ven i
+f&#246;rh&#229;llande till utlandet av de sakomr&#229;den som omfattas av detta avtal
+h&#246;r till F&#228;r&#246;arnas och Gr&#246;nlands sj&#228;lvstyrelsekompetens,
+
+har kommit &#246;verens om f&#246;ljande:
+
+
+Allm&#228;nna best&#228;mmelser
+
+Artikel 1
+
+De avtalsslutande staterna f&#246;rbinder sig att l&#228;mna varandra handr&#228;ckning
+i skatte&#228;renden enligt detta avtal i fr&#229;ga om:
+
+a) delgivning av handlingar,
+
+b) utredning i skatte&#228;renden, s&#229;som inf&#246;rskaffande av deklarationer
+eller andra uppgifter och utbyte av upplysningar utan s&#228;rskild beg&#228;ran
+eller efter framst&#228;llning i det enskilda fallet,
+
+c) tillhandah&#229;llande av deklarationsblanketter och andra
+skatteblanketter,
+
+d) &#229;tg&#228;rder f&#246;r att undvika att prelimin&#228;r skatt tas ut i mer &#228;n en
+avtalsslutande stat
+
+e) uppb&#246;rd av skatt,
+
+f) &#246;verf&#246;ring av skatt, och
+
+g) indrivning av skatt och s&#228;kerst&#228;llande av betalning f&#246;r fordran p&#229;
+skatt.
+
+Artikel 2
+
+1. De f&#246;r n&#228;rvarande utg&#229;ende skatter p&#229; vilka detta avtal till&#228;mpas,
+&#228;r:
+a)  i Danmark
+1)      inkomstskatten till staten,
+2)      den kommunala inkomstskatten,
+3)      den amtskommunala inkomstskatten,
+4)      den s&#228;rskilda inkomstskatten,
+5)      kyrkoskatten,
+6)      utdelningsskatten,
+7)      r&#228;nteskatten,
+8)      royaltyskatten,
+9)      skatterna enligt kolv&#228;teskattelagen,
+10)     f&#246;rm&#246;genhetsskatten till staten, och
+11)     sj&#246;mansskatten;
+
+b) p&#229; F&#228;r&#246;arna
+1)      skatten till landskassan,
+2)      skatten till kommunerna,
+3)      kyrkoskatten,
+4)      utdelningsskatten, och
+5)      royaltyskatten;
+
+c) p&#229; Gr&#246;nland
+
+1)      landsskatten,
+2)      den s&#228;rskilda landsskatten,
+3)      kommunskatten,
+4)      utdelningsskatten,
+5)      den gemensamma kommunala skatten, och
+6)      skatterna enligt kolv&#228;teskattelagen;
+
+d)  i Finland
+
+1)      den statliga inkomst- och f&#246;rm&#246;genhetsskatten,
+2)      kommunalskatten,
+3)      kyrkoskatten, och
+4)      k&#228;llskatten;
+
+e)  i Island
+
+1)      den statliga inkomstskatten,
+2)      den kommunala inkomstskatten, och
+3)      den statliga f&#246;rm&#246;genhetsskatten;
+
+f)  i Norge
+
+1)      inkomst- och f&#246;rm&#246;genhetsskatten till staten,
+2)      inkomst- och f&#246;rm&#246;genhetsskatten till
+                        kommunerna,
+3)      inkomstskatten till fylkena,
+4)      den gemensamma skatten till
+                        skattef&#246;rdelningfonden,
+5)      skatterna enligt petroleumskattelagen,
+6)      avgiften till staten p&#229; ers&#228;ttningar till
+                        utl&#228;ndska artister, och
+7)      sj&#246;mansskatten;
+
+g)  i Sverige
+
+1)      den statliga inkomstskatten, d&#228;ri inbegripet
+                        sj&#246;mansskatten och kupongskatten,
+2)      bevillningsavgiften f&#246;r vissa offentliga
+                        f&#246;rest&#228;llningar,
+3)      ers&#228;ttningsskatten,
+4)      utskiftningsskatten,
+5)      vinstdelningsskatten,
+6)      den kommunala inkomstskatten, och
+7)      den statliga f&#246;rm&#246;genhetsskatten;
+
+h) i samtliga avtalsslutande stater
+
+1)              skatt p&#229; arv och p&#229; g&#229;va,
+2)              motorfordonsskatt, i den omfattning som anges i
+                        &#246;verenskommelse enligt artikel 20,
+3)              merv&#228;rdesskatt och annan allm&#228;n oms&#228;ttningsskatt,
+                        i den omfattning som anges i &#246;verenskommelse
+                enligt artikel 20,
+4)              punktskatter, i den omfattning som anges i
+                        &#246;verenskommelse enligt artikel 20, och
+5)              socialf&#246;rs&#228;kringsavgifter och andra offentliga
+                        avgifter, i den omfattning som anges i
+                        &#246;verenskommelse enligt artikel 20.
+
+2. Med skatt likst&#228;lls f&#246;rskott p&#229; s&#229;dan skatt och avgift som avses i
+punkt 1 a) - g).
+
+3. Avtalet till&#228;mpas ocks&#229; p&#229; skatter av samma eller i huvudsak likartat
+slag, som efter undertecknandet av avtalet p&#229;f&#246;rs vid sidan av eller i
+st&#228;llet f&#246;r de f&#246;r n&#228;rvarande utg&#229;ende skatterna.
+
+Artikel 3
+
+Om inte sammanhanget f&#246;ranleder annat, har vid till&#228;mpningen av detta
+avtal f&#246;ljande uttryck nedan angiven betydelse:
+
+a) uttrycket &quot;avtalsslutande stat&quot; &#229;syftar Danmark, Finland, Island,
+Norge och Sverige; vid till&#228;mpningen av detta avtal omfattar uttrycket
+ocks&#229; de i det danska riket sj&#228;lvstyrande folksamfunden F&#228;r&#246;arna och
+Gr&#246;nland;
+
+ b) &quot;beh&#246;rig myndighet&quot; &#229;syftar
+
+1)      i Danmark: skatteministeriet,
+2)   p&#229; F&#228;r&#246;arna: F&#228;r&#246;arnas ligningsr&#229;d,
+3)      p&#229; Gr&#246;nland: skattedirektoratet,
+4)      i Finland: finansministeriet,
+5)      i Island: finansministeriet,
+6)      i Norge: finans- och tulldepartementet,
+7)      i Sverige: finansdepartementet,
+
+eller den myndighet i envar av dessa stater &#229;t vilken uppdras att i
+ovann&#228;mnda myndigheters st&#228;lle handha fr&#229;gor enligt avtalet;
+
+c) &quot;nordiskt dubbelbeskattningsavtal&quot; &#229;syftar avtalet den 12 september
+1989 mellan de nordiska l&#228;nderna f&#246;r att undvika dubbelbeskattning
+betr&#228;ffande skatter p&#229; inkomst och p&#229; f&#246;rm&#246;genhet och avtalet den 12
+september 1989 mellan Danmark, Finland, Island, Norge och Sverige f&#246;r
+att undvika dubbelbeskattning betr&#228;ffande skatter p&#229; arv och p&#229; g&#229;va
+samt motsvarande avtal mellan nordiska l&#228;nder som efter undertecknandet
+av f&#246;revarande avtal ing&#229;s vid sidan av eller i st&#228;llet f&#246;r dessa avtal.
+
+Artikel 4
+
+1. En avtalsslutande stat &#228;r skyldig l&#228;mna handr&#228;ckning enligt artikel 1
+i alla de skatte&#228;renden och i fr&#229;ga om alla de skatteanspr&#229;k som
+uppkommit i annan avtalsslutande stat i enlighet med dess lagstiftning
+betr&#228;ffande de skatter och avgifter som omfattas av artikel 2.
+
+2.  Handr&#228;ckning f&#229;r avse &#229;tg&#228;rd inte endast mot skattskyldig utan ocks&#229;
+mot annan som enligt lagstiftningen i den avtalsslutande stat till
+vilken ans&#246;kningen &#228;r riktad &#228;r skyldig att l&#228;mna bist&#229;nd till
+skattemyndigheterna.
+
+3.  Framst&#228;llning om handr&#228;ckning f&#229;r g&#246;ras endast om den beg&#228;rda
+&#229;tg&#228;rden inte kan vidtas i den egna staten utan v&#228;sentliga sv&#229;righeter
+och om den avtalsslutande stat som g&#246;r framst&#228;llningen enligt sin egen
+lagstiftning kan p&#229; beg&#228;ran av den avtalsslutande stat till vilken
+framst&#228;llningen riktats verkst&#228;lla motsvarande handr&#228;ckning.
+
+4. Framst&#228;llning om handr&#228;ckning och skriftv&#228;xling mellan de
+avtalsslutande staterna enligt detta avtal ombes&#246;rjs av beh&#246;rig
+myndighet i dessa stater.
+
+Artikel 5
+
+1. Framst&#228;llningar och andra handlingar i &#228;renden ang&#229;ende handr&#228;ckning
+skall vara avfattade p&#229; danska, norska eller svenska spr&#229;ket eller vara
+&#229;tf&#246;ljda av en &#246;vers&#228;ttning till n&#229;got av dessa spr&#229;k. Betr&#228;ffande
+&#228;renden om delgivning g&#228;ller detta dock endast framst&#228;llningen om
+delgivning.
+
+2. I framst&#228;llning om handr&#228;ckning skall anges den myndighet som i
+f&#246;rsta hand beg&#228;rt handr&#228;ckningen samt namn, yrke eller titel, adress,
+f&#246;delsedata och hemortskommun samt, om m&#246;jligt, arbetsplats och
+vistelseort betr&#228;ffande den person saken g&#228;ller. Framst&#228;llningen b&#246;r
+vidare inneh&#229;lla uppgift om &#246;vriga omst&#228;ndigheter som kan tj&#228;na till
+ledning f&#246;r att identifiera denna person.
+
+Artikel 6
+
+1. Framst&#228;llning om handr&#228;ckning kan avb&#246;jas, om den avtalsslutande stat
+hos vilken handr&#228;ckningen beg&#228;rts, anser denna &#228;gnad att strida mot dess
+allm&#228;nna intresse.
+
+2.  N&#228;r fr&#229;ga om till&#228;mpning av best&#228;mmelse i n&#229;got av de nordiska
+dubbelbeskattningsavtalen &#228;r anh&#228;ngig hos den beh&#246;riga myndigheten i den
+avtalslutande stat hos vilken handr&#228;ckningen beg&#228;rts, kan denna stat
+efter samr&#229;d med den avtalsslutande stat som beg&#228;rt handr&#228;ckningen
+f&#246;rklara framst&#228;llning om handr&#228;ckning f&#246;r indrivning av skatt vilande.
+
+Artikel 7
+
+1. Efterkoms inte framst&#228;llning om handr&#228;ckning, skall den
+avtalsslutande stat som beg&#228;rt handr&#228;ckningen s&#229; snart som m&#246;jligt
+underr&#228;ttas om beslutet och sk&#228;len f&#246;r detta.
+
+2. Verkst&#228;lls handr&#228;ckning, skall den avtalsslutande stat hos vilken
+handr&#228;ckningen beg&#228;rts snarast underr&#228;tta den andra avtalsslutande
+staten om resultatet av handr&#228;ckningen.
+
+3. I underr&#228;ttelse enligt denna artikel skall ocks&#229; anges s&#229;dana
+omst&#228;ndigheter som kan vara av betydelse f&#246;r vidare &#229;tg&#228;rder i
+skatte&#228;rendet.
+
+Artikel 8
+
+Handling som utf&#228;rdats eller bestyrkts av domstol eller
+f&#246;rvaltningsmyndighet i en avtalsslutande stat beh&#246;ver inte legaliseras
+f&#246;r att anv&#228;ndas i skatte&#228;rende inom annan avtalsslutande stats omr&#229;de.
+Motsvarande g&#228;ller i fr&#229;ga om handling som underskrivits av tj&#228;nsteman
+hos domstolen eller myndigheten, om s&#229;dan underskrift &#228;r tillr&#228;cklig
+enligt lagstiftningen i den avtalsslutande stat domstolen eller
+myndigheten tillh&#246;r.
+
+Delgivning av handlingar
+
+Artikel 9
+
+1. Delgivning enligt detta avtal skall ske i den ordning som f&#246;r
+liknande delgivning till&#228;mpas enligt lagstiftning eller administrativ
+praxis i den avtalsslutande stat hos vilken delgivningen beg&#228;rts.
+Beg&#228;ran om delgivning av handling skall inneh&#229;lla kort uppgift om
+handlingens inneh&#229;ll.
+
+2. Om den avtalsslutande stat som beg&#228;r delgivningen s&#229; &#246;nskar, kan
+delgivningen ske i s&#228;rskild form, i den m&#229;n det beg&#228;rda f&#246;rfarandet st&#229;r
+i &#246;verensst&#228;mmelse med lagstiftningen i den avtalsslutande stat i vilken
+delgivningen skall ske.
+
+3. S&#229;som bevis om delgivning skall g&#228;lla antingen ett daterat och
+bestyrkt erk&#228;nnande av den, med vilken delgivningen skett, eller ett
+intyg av vederb&#246;rande myndighet i den avtalsslutande stat hos vilken
+delgivningen beg&#228;rts, utvisande formen och tiden f&#246;r delgivningen.
+
+Inf&#246;rskaffande av uppgifter m. m.
+
+Artikel 10
+
+1. Uppgifter skall inf&#246;rskaffas i enlighet med lagstiftningen i den
+avtalsslutande stat till vilken framst&#228;llningen riktats.
+
+2. Framst&#228;llning om inf&#246;rskaffande av uppgifter kan avb&#246;jas, om aff&#228;rs-,
+fabrikations- eller yrkeshemlighet skulle yppas om framst&#228;llningen
+efterkoms.
+
+Artikel 11
+
+1. Beh&#246;rig myndighet i en avtalsslutande stat skall, i den m&#229;n det kan
+ske p&#229; grundval av tillg&#228;ngliga kontrolluppgifter eller motsvarande
+uppgifter, snarast m&#246;jligt efter utg&#229;ngen av varje kalender&#229;r, utan
+s&#228;rskild framst&#228;llning, tillst&#228;lla beh&#246;rig myndighet i envar av de andra
+avtalsslutande staterna upplysningar i fr&#229;ga om i denna stat bosatta
+fysiska personer eller d&#228;r hemmah&#246;rande juridiska personer betr&#228;ffande
+
+a) utdelningar fr&#229;n aktiebolag och liknande juridiska personer,
+
+b) r&#228;ntor p&#229; obligationer och liknande v&#228;rdepapper,
+
+c) tillgodohavanden hos banker, sparbanker och liknande inr&#228;ttningar
+samt r&#228;ntor p&#229; s&#229;dana tillgodohavanden,
+
+d) innehav av fast egendom,
+
+e) royalty och annan periodisk avgift f&#246;r utnyttjande av upphovsr&#228;tt,
+patent, m&#246;nster, varum&#228;rke eller annan s&#229;dan r&#228;ttighet eller egendom,
+
+f) l&#246;ner, arvoden, pensioner och livr&#228;ntor,
+
+g) skade-, f&#246;rs&#228;krings- och annan s&#229;dan ers&#228;ttning som erh&#229;llits i
+samband med n&#228;ringsverksamhet, och
+
+h) andra inkomster eller tillg&#229;ngar, i den m&#229;n &#246;verenskommelse tr&#228;ffats
+d&#228;rom enligt artikel 20.
+
+2. Beh&#246;rig myndighet i en avtalsslutande stat skall verka f&#246;r att
+uppgifter, som framkommer vid utredning i denna stat i &#228;rende ang&#229;ende
+skatt och som kan antas vara av intresse f&#246;r annan avtalsslutande stat,
+snarast &#246;verl&#228;mnas till den beh&#246;riga myndigheten i denna andra stat.
+
+3. Om det i den avtalsslutande stat som tagit emot upplysningarna
+framkommer att upplysningarna icke motsvarar de verkliga f&#246;rh&#229;llandena,
+skall den beh&#246;riga myndigheten i denna stat p&#229; l&#228;mpligt s&#228;tt underr&#228;tta
+den beh&#246;riga myndigheten i den avtalsslutande stat som l&#228;mnat
+upplysningarna om f&#246;rh&#229;llandet.
+
+4. D&#229; person bosatt i en avtalsslutande stat avlidit och efterl&#228;mnat
+fast egendom i annan avtalsslutande stat eller tillg&#229;ngar nedlagda i
+r&#246;relse d&#228;r, skall den beh&#246;riga myndigheten i den f&#246;rstn&#228;mnda staten, s&#229;
+snart k&#228;nnedom vunnits om f&#246;rh&#229;llandet, underr&#228;tta den beh&#246;riga
+myndigheten i den andra staten d&#228;rom.
+
+Artikel 12
+
+1. Efter framst&#228;llning av en avtalsslutande stat skall tv&#229; eller flera
+avtalsslutande stater samr&#229;da f&#246;r att best&#228;mma f&#246;rem&#229;l och
+tillv&#228;gag&#229;ngss&#228;tt f&#246;r samtidiga skatteutredningar. Varje avtalsslutande
+stat avg&#246;r sj&#228;lv om den vill medverka vid viss samtidig skatteutredning.
+
+2. Med samtidig skatteutredning i punkt 1 f&#246;rst&#229;s en &#246;verenskommelse
+mellan tv&#229; eller flera avtalsslutande stater, enligt vilken var och en
+inom sitt omr&#229;de f&#246;ranstaltar om en samtidig unders&#246;kning av
+skattef&#246;rh&#229;llanden betr&#228;ffande en person av gemensamt eller
+komplement&#228;rt intresse i syfte att utbyta de upplysningar av betydelse
+som d&#228;rvid framkommer.
+
+Artikel 13
+
+1. F&#246;retr&#228;dare f&#246;r myndighet i en avtalsslutande stat kan i skatte&#228;rende
+av v&#228;sentligt intresse f&#246;r denna stat efter framst&#228;llning av den
+beh&#246;riga myndigheten i samma stat till&#229;tas n&#228;rvara vid utredning i
+s&#229;dant skatte&#228;rende i annan avtalsslutande stat. Framst&#228;llning h&#228;rom
+pr&#246;vas av den beh&#246;riga myndigheten i denna andra stat, som snarast
+underr&#228;ttar den beh&#246;riga myndigheten i den f&#246;rstn&#228;mnda staten om sitt
+beslut. Bifalls framst&#228;llningen, anges i underr&#228;ttelsen tid och plats
+f&#246;r utredningen samt de &#246;vriga uppgifter som bed&#246;ms erforderliga f&#246;r den
+beh&#246;riga myndighet som gjort framst&#228;llningen.
+
+2. F&#246;retr&#228;dare som avses i punkt 1 f&#229;r inte fatta beslut i fr&#229;gor som
+g&#228;ller utredningen men kan framf&#246;ra f&#246;rslag i s&#229;dana fr&#229;gor till
+myndighet eller tj&#228;nsteman &#229;t vilken uppdragits att verkst&#228;lla
+utredningen. Beslut i anledning av s&#229;dant f&#246;rslag fattas av myndigheten
+eller tj&#228;nstemannen.
+
+3. Upplysningar som kommit fram vid utredning som avses i punkt 1 skall
+behandlas s&#229;som hemliga och f&#229;r inte yppas f&#246;r andra personer eller
+myndigheter, h&#228;ri inbegripna personer som tj&#228;nstg&#246;r vid domstolar och
+andra judiciella myndigheter, &#228;n dem som handl&#228;gger taxering, uppb&#246;rd
+eller indrivning av skatter som avses i detta avtal eller avg&#246;r besv&#228;r
+eller fr&#229;gor om &#229;tal i anslutning h&#228;rtill.
+
+4. Avsl&#229;s framst&#228;llning som avses i punkt 1, &#228;ger best&#228;mmelserna i
+artikel 7 punkt 1 motsvarande till&#228;mpning.
+
+Indrivning av skatt
+
+Artikel 14
+
+1. Beslut i skatte&#228;rende som enligt lagstiftningen i en avtalsslutande
+stat &#228;r exigibelt i denna stat skall erk&#228;nnas som exigibelt i annan
+avtalsslutande stat.
+
+2. I fr&#229;gor som g&#228;ller tidsfrist efter vilken skattefordran inte kan
+verkst&#228;llas skall lagstiftningen i den ans&#246;kande staten till&#228;mpas.
+
+3. Indrivnings&#229;tg&#228;rder som vidtas av den anmodade staten efter
+framst&#228;llning om handr&#228;ckning och som enligt lagstiftningen i denna stat
+uppskjuter eller avbryter tidsfrist som avses i punkt 2 skall ocks&#229; ha
+denna verkan vid till&#228;mpningen av lagstiftningen i den ans&#246;kande staten.
+Den anmodade staten skall underr&#228;tta den ans&#246;kande staten i de fall att
+s&#229;dana &#229;tg&#228;rder vidtas.
+
+4. Den myndighet som i f&#246;rsta hand beg&#228;r handr&#228;ckning f&#246;r indrivning
+skall i framst&#228;llningen intyga att beslutet &#228;r exigibelt samt ange den
+tidpunkt d&#229; r&#228;tten att ta ut skatten helt eller delvis upph&#246;r p&#229; grund
+av preskription. Denna myndighets beh&#246;righet skall bestyrkas av
+myndighet som avses i artikel 3.
+
+Artikel 15
+
+Har skattskyldig eller annan som avses i artikel 4 punkt 2 avlidit, f&#229;r
+indrivning inte ske med belopp &#246;verstigande v&#228;rdet av tillg&#229;ngarna i
+d&#246;dsboet. &#196;r boet skiftat, f&#229;r av arvinge eller annan som f&#246;rv&#228;rvat
+egendom p&#229; grund av d&#246;dsfallet icke drivas in mer &#228;n som motsvarar
+v&#228;rdet av egendomen vid tiden f&#246;r f&#246;rv&#228;rvet.
+
+Artikel 16
+
+1. F&#246;r skatt som skall drivas in enligt detta avtal &#229;tnjuts inte i den
+avtalsslutande stat hos vilken handr&#228;ckning beg&#228;rts s&#229;dan s&#228;rskild
+f&#246;rm&#229;nsr&#228;tt som d&#228;r kan g&#228;lla f&#246;r dess egna skatter.
+
+2. I &#228;rende ang&#229;ende indrivning av skatt enligt detta avtal f&#229;r &#229;tg&#228;rd
+f&#246;r att inleda r&#228;tteg&#229;ngsf&#246;rfarande vid annan domstol &#228;n
+f&#246;rvaltningsdomstol eller konkursf&#246;rfarande inte vidtas i den
+avtalsslutande stat hos vilken indrivningen beg&#228;rts, med mindre den
+beh&#246;riga myndigheten i denna stat efter framst&#228;llning av den beh&#246;riga
+myndigheten i den avtalsslutande stat som gjort framst&#228;llningen,
+uttryckligen samtycker till s&#229;dan &#229;tg&#228;rd.
+
+Artikel 17
+
+1. Upph&#246;r, innan &#228;rende ang&#229;ende indrivning av skatt enligt detta avtal
+avslutats, r&#228;tten att ta ut skatten helt eller delvis enligt
+lagstiftningen i den avtalsslutande stat som beg&#228;rt handr&#228;ckningen p&#229;
+grund av betalning, neds&#228;ttning eller undanr&#246;jande av taxering,
+avkortning eller annan anledning, skall den beh&#246;riga myndigheten i denna
+stat snarast m&#246;jligt anm&#228;la det intr&#228;ffade till den beh&#246;riga myndigheten
+i den andra avtalsslutande staten.
+
+2. Best&#228;mmelserna i punkt 1 skall &#228;ga motsvarande till&#228;mpning i fall d&#229;
+anst&#229;nd med betalning av skatten medgivits.
+
+Artikel 18
+
+N&#228;r indrivning enligt detta avtal skett i en  avtalsslutande stat och
+indrivet belopp kommit indrivningsmyndighet i denna stat till handa, &#228;r
+denna stat ansvarig gentemot den avtalsslutande stat som beg&#228;rt
+indrivningen f&#246;r det indrivna beloppet.
+
+S&#228;kerst&#228;llande av betalning f&#246;r fordran p&#229; skatt
+
+Artikel 19
+
+1. S&#228;kerst&#228;llande av betalning f&#246;r fordran p&#229; skatt enligt detta avtal
+skall ske enligt lagstiftning eller administrativ praxis i den
+avtalsslutande stat hos vilken s&#228;kerst&#228;llande beg&#228;rts. S&#229;dant
+s&#228;kerst&#228;llande kan ske ocks&#229; om fordran inte &#228;r fastst&#228;lld.
+
+2. Bortfaller fordran p&#229; skatt helt eller delvis sedan &#229;tg&#228;rd f&#246;r
+s&#228;kerst&#228;llande enligt detta avtal vidtagits, skall den beh&#246;riga
+myndigheten i den avtalsslutande stat som gjort framst&#228;llningen snarast
+m&#246;jligt anm&#228;la det intr&#228;ffade till den beh&#246;riga myndigheten i den andra
+avtalsslutande staten.
+
+3. Best&#228;mmelserna i artiklarna 14-18 skall i till&#228;mpliga delar g&#228;lla
+&#228;ven betr&#228;ffande s&#228;kerst&#228;llande av betalning f&#246;r fordran p&#229; skatt enligt
+detta avtal.
+
+S&#228;rskilda best&#228;mmelser
+
+Artikel 20
+
+1. De beh&#246;riga myndigheterna i de avtalsslutande staterna kan tr&#228;ffa
+&#246;verenskommelse f&#246;r att genomf&#246;ra best&#228;mmelserna i detta avtal. De kan
+s&#228;rskilt komma &#246;verens om utbyte av upplysningar enligt artikel 11 punkt
+1 h), om minsta belopp som framst&#228;llning om indrivning f&#229;r avse, om
+handr&#228;ckning betr&#228;ffande skatter och avgifter enligt artikel 2 punkt 1
+h) 2-5, om &#229;tg&#228;rder f&#246;r att undvika att prelimin&#228;r skatt tas ut i mer &#228;n
+en avtalsslutande stat, om uppb&#246;rd av skatt eller om &#246;verf&#246;ring av skatt
+samt betr&#228;ffande r&#228;ntor, r&#228;tteg&#229;ngskostnader, viten och andra liknande
+belopp som utg&#229;r i samband med beskattning eller indrivning, om
+fastst&#228;llande av kurs f&#246;r omr&#228;kning av belopp som skall drivas in, samt
+om redovisning av indrivna belopp.
+
+2. Om sv&#229;righeter eller tvivelsm&#229;l uppkommer mellan tv&#229; eller flera
+avtalsslutande stater betr&#228;ffande tolkningen eller till&#228;mpningen av
+avtalet, skall de beh&#246;riga myndigheterna i dessa stater &#246;verl&#228;gga f&#246;r
+att s&#246;ka l&#246;sa fr&#229;gan genom s&#228;rskild &#246;verenskommelse. Resultatet av
+s&#229;dana &#246;verl&#228;ggningar skall snarast delges de beh&#246;riga myndigheterna i
+&#246;vriga avtalsslutande stater.
+
+3. Finner den beh&#246;riga myndigheten i en avtalsslutande stat att
+&#246;verl&#228;ggningar i fr&#229;ga som avses i punkt 2 b&#246;r ske mellan de beh&#246;riga
+myndigheterna i samtliga avtalsslutande stater, skall s&#229;dana
+&#246;verl&#228;ggningar &#228;ga rum p&#229; beg&#228;ran av denna stat.
+
+4. Om ans&#246;kan om handr&#228;ckning f&#246;r indrivning av ett skattekrav avser
+inkomst som har beskattats i annan avtalsslutande stat &#228;n den som beg&#228;r
+handr&#228;ckningen, och s&#229;dan dubbelbeskattning inte har reglerats i avtal
+f&#246;r att undvika dubbelbeskattning, kan den beh&#246;riga myndigheten i den
+anmodade staten ta upp &#228;rendet med den beh&#246;riga myndigheten i den
+ans&#246;kande staten i syfte att genom &#246;msesidig &#246;verenskommelse s&#246;ka
+undvika att inkomsten dubbelbeskattas. Indrivningen av skattekravet kan
+inst&#228;llas till dess s&#229;dan &#246;verenskommelse har tr&#228;ffats.
+
+Artikel 21
+
+Betr&#228;ffande f&#246;rfr&#229;gningar, upplysningar, uppgifter och andra
+meddelanden, som enligt detta avtal inkommer till en avtalsslutande
+stat, till&#228;mpas de sekretessbest&#228;mmelser som g&#228;ller enligt
+lagstiftningen i denna stat.
+
+Artikel 22
+
+F&#246;r handr&#228;ckning enligt detta avtal &#228;r den avtalsslutande stat som
+beg&#228;rt handr&#228;ckningen skyldig ers&#228;tta kostnad endast f&#246;r s&#229;dant
+r&#228;tteg&#229;ngsf&#246;rfarande vid annan domstol &#228;n f&#246;rvaltningsdomstol eller
+konkursf&#246;rfarande i den andra avtalsslutande staten som f&#246;ranleds av
+handr&#228;ckningen.
+
+Artikel 23
+
+Detta avtal till&#228;mpas inte p&#229; Svalbard och Jan Mayen samt de norska
+besittningarna utanf&#246;r Europa.
+
+Artikel 24
+
+1. Detta avtal tr&#228;der i kraft trettionde dagen efter den d&#229; samtliga
+avtalsslutande stater har meddelat det danska utrikesministeriet, att
+avtalet har godk&#228;nts. Det danska utrikesministeriet underr&#228;ttar de
+&#246;vriga avtalsslutande staterna om mottagandet av dessa meddelanden och
+om tidpunkten f&#246;r avtalets ikrafttr&#228;dande.
+
+2. Sedan detta avtal har tr&#228;tt i kraft, till&#228;mpas dess best&#228;mmelser p&#229;
+&#228;renden som efter ikrafttr&#228;dandet har inkommit till den beh&#246;riga
+myndigheten i den avtalsslutande stat till vilken framst&#228;llningen har
+riktats.
+
+3. Avtalet den 9 november 1972 mellan Sverige, Danmark, Finland, Island
+och Norge om handr&#228;ckning i skatte&#228;renden, med senare &#228;ndringar, upph&#246;r
+att g&#228;lla och till&#228;mpas sista g&#229;ngen i fr&#229;ga om &#228;renden som f&#246;re
+ikrafttr&#228;dandet av detta avtal har inkommit till den beh&#246;riga
+myndigheten i den avtalsslutande stat till vilken framst&#228;llningen har
+riktats.
+
+4. Detta avtal begr&#228;nsar inte och begr&#228;nsas inte av avtalet den 18
+oktober 1979 mellan den danska regeringen och Gr&#246;nlands landsstyre f&#246;r
+att undvika dubbelbeskattning m.m. samt &#246;verenskommelsen enligt punkt 20
+i bilagan till det sistn&#228;mnda avtalet.
+
+5. Detta avtal begr&#228;nsar inte och begr&#228;nsas inte av best&#228;mmelserna om
+handr&#228;ckning i avtalet den 12 augusti 1986 mellan den danska regeringen
+och F&#228;r&#246;arnas landsstyre f&#246;r att undvika dubbelbeskattning m.m.
+
+Artikel 25
+
+En avtalsslutande stat kan senast den 30 juni under ett kalender&#229;r s&#228;ga
+upp avtalet genom skriftligt meddelande h&#228;rom till det danska
+utrikesministeriet, som underr&#228;ttar de &#246;vriga avtalsslutande staterna om
+mottagandet av s&#229;dant meddelande och om dess inneh&#229;ll. Har
+upps&#228;gningstiden iakttagits, upph&#246;r avtalet att g&#228;lla i f&#246;rh&#229;llandet
+mellan den stat som verkst&#228;llt upps&#228;gningen och &#246;vriga avtalsslutande
+stater vid kalender&#229;rets utg&#229;ng.
+
+Originalexemplaret till detta avtal deponeras hos det danska
+utrikesministeriet, som tillst&#228;ller de &#246;vriga avtalsslutande staterna
+bestyrkta kopior d&#228;rav.
+
+Till bekr&#228;ftelse h&#228;rav har de vederb&#246;rligen befullm&#228;ktigade ombuden
+undertecknat detta avtal.
+
+Som skedde i K&#246;penhamn den 7 december 1989 i ett exemplar p&#229; danska,
+f&#228;r&#246;iska, gr&#246;nl&#228;ndska, finska, isl&#228;ndska, norska och svenska spr&#229;ken,
+varvid p&#229; svenska spr&#229;ket utf&#228;rdades tv&#229; texter, en f&#246;r Finland och en
+f&#246;r Sverige, vilka samtliga texter har samma giltighet.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3562">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3564">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

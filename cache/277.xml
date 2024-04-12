@@ -1,0 +1,596 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-10-12" /> 
+ <meta id="rattsinfo-edited" content="2023-10-12 10:43:27" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>277</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=276">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=278">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2022:183 ·
+                    <a href="/sfsr?bet=2022:183">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2022:183) om alkoholskatt</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2022-03-03
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:431
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2023-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">F&#246;rordningens till&#228;mpningsomr&#229;de
+
+1 &#167; Denna f&#246;rordning g&#228;ller vid till&#228;mpning av lagen 
+(2022:156) om alkoholskatt. 
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 
+
+- 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 3 &#167; och 8 &#167; andra 
+stycket
+
+- 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga best&#228;mmelser.
+
+Termer och uttryck
+
+2 &#167; Termer och uttryck som anv&#228;nds i denna f&#246;rordning har 
+samma betydelse och till&#228;mpningsomr&#229;de som i lagen (2022:156) 
+om alkoholskatt.
+
+Bemyndiganden att meddela f&#246;reskrifter
+
+3 &#167; Skatteverket f&#229;r meddela f&#246;reskrifter om
+
+1. tillsynen enligt 2 kap. 12 &#167; 2 och 9 kap. 18 &#167; 2 lagen 
+(2022:156) om alkoholskatt &#246;ver att skattepliktiga varor 
+f&#246;rst&#246;rs, 
+
+2. godk&#228;nnande av skatteupplag,
+
+3. upplagshavares bokf&#246;ring och inventering av lager enligt 
+3 kap. 4 &#167; lagen om alkoholskatt och skattebefriade 
+f&#246;rbrukares bokf&#246;ring enligt 10 kap. 4 &#167; lagen om 
+alkoholskatt, 
+
+4. s&#228;kerhet enligt lagen om alkoholskatt, 
+
+5. det tekniska f&#246;rfarandet f&#246;r uppgiftsl&#228;mnande i det 
+datoriserade systemet, 
+
+6. hantering av mottagningsrapporter, n&#228;r varor tas emot av 
+mottagare som avses i 4 kap. 3 &#167; f&#246;rsta stycket 5 lagen om 
+alkoholskatt, 
+
+7. hantering och dokumentation av alternativa bevis enligt 
+5 kap. 12 &#167; andra stycket eller 8 kap. 9 &#167; lagen om 
+alkoholskatt och av ers&#228;ttningsdokument i reservsystemet, 
+
+8. mottagande av varor utan skatt enligt 9 kap. 23 &#167; och 
+10 kap. 2 &#167; andra stycket lagen om alkoholskatt, 
+
+9. avdrag f&#246;r skatt p&#229; varor enligt 11 kap. 2 &#167; f&#246;rsta 
+stycket 2 och 3 och 4 &#167; lagen om alkoholskatt, och 
+
+10. upplagshavare som bedriver verksamhet i exportbutik enligt 
+lagen (1999:445) om exportbutiker.
+
+Skatteverket f&#229;r meddela de ytterligare f&#246;reskrifter som 
+beh&#246;vs f&#246;r verkst&#228;lligheten av lagen om alkoholskatt.
+
+Underr&#228;ttelse vid oegentlighetsbeskattning
+
+4 &#167; Om Skatteverket tar ut skatt enligt 9 kap. 25 eller 27 &#167; 
+lagen (2022:156) om alkoholskatt, ska Skatteverket underr&#228;tta 
+den beh&#246;riga myndigheten i avs&#228;ndarmedlemsstaten. Om 
+Skatteverket tar ut skatt enligt 9 kap. 27 &#167; lagen om 
+alkoholskatt och mottagaren inte finns i Sverige, ska 
+Skatteverket &#228;ven underr&#228;tta den beh&#246;riga myndigheten i 
+destinationsmedlemsstaten.
+
+Godk&#228;nnanden och anm&#228;lningar
+
+5 &#167; I en ans&#246;kan om godk&#228;nnande som upplagshavare, registrerad 
+varumottagare, tillf&#228;lligt registrerad varumottagare eller 
+registrerad avs&#228;ndare eller av skatteupplag ska det anges 
+vilket eller vilka varuslag den s&#246;kande avser att godk&#228;nnandet 
+ska omfatta. 
+
+I en anm&#228;lan f&#246;r registrering som tillf&#228;lligt registrerad 
+distansf&#246;rs&#228;ljare, registrerad distansf&#246;rs&#228;ljare, tillf&#228;lligt 
+certifierad mottagare, certifierad mottagare, tillf&#228;lligt 
+certifierad avs&#228;ndare eller certifierad avs&#228;ndare ska det 
+anges vilket eller vilka varuslag anm&#228;lan avser. 
+
+I ett beslut om godk&#228;nnande eller registrering ska det anges 
+f&#246;r vilket eller vilka varuslag godk&#228;nnandet eller 
+registreringen g&#228;ller. 
+
+Varuslag ska anges enligt de koder som finns i bilaga II i 
+kommissionens delegerade f&#246;rordning (EU) 2022/1636 av den 
+5 juli 2022 om komplettering av r&#229;dets direktiv (EU) 2020/262 
+genom fastst&#228;llande av form och inneh&#229;ll f&#246;r de dokument som 
+utbyts i samband med flyttning av punktskattepliktiga varor 
+och om fastst&#228;llande av ett tr&#246;skelv&#228;rde f&#246;r f&#246;rluster till 
+f&#246;ljd av varornas beskaffenhet. F&#246;rordning (2022:1744).
+
+6 &#167; Upplagshavare, registrerade varumottagare, tillf&#228;lligt 
+registrerade varumottagare, registrerade avs&#228;ndare och 
+skattebefriade f&#246;rbrukare ska anm&#228;la till Skatteverket om 
+
+1. det sker betydande &#228;ndringar av &#228;garf&#246;rh&#229;llandena, 
+
+2. firmatecknare, revisor eller styrelse &#228;ndras, eller 
+
+3. det i &#246;vrigt sker &#228;ndringar av de uppgifter som 
+
+a) har l&#228;mnats eller skulle ha l&#228;mnats i samband med ans&#246;kan 
+om godk&#228;nnande, eller 
+
+b) efter godk&#228;nnandet har anm&#228;lts till Skatteverket. 
+
+Upplagshavare ska &#228;ven anm&#228;la till Skatteverket om det sker 
+&#228;ndringar av de uppgifter som l&#228;mnats i ans&#246;kan om godk&#228;nnande 
+av skatteupplag eller av s&#229;dana uppgifter om det godk&#228;nda 
+skatteupplaget som senare l&#228;mnats till Skatteverket.
+
+7 &#167; Upplagshavare och registrerade varumottagare som avser att 
+ta emot varor p&#229; en direkt leveransplats ska anm&#228;la den 
+direkta leveransplatsen till Skatteverket. Anm&#228;lan ska ha 
+kommit in till Skatteverket innan flyttningen av varorna till 
+den direkta leveransplatsen p&#229;b&#246;rjas. 
+
+Skatteverket f&#229;r tilldela en direkt leveransplats en kod f&#246;r 
+identifiering. Identifikationskoden f&#229;r ers&#228;tta uppgift om 
+adressen till den direkta leveransplatsen i dokument som 
+uppr&#228;ttas i samband med flyttning till Sverige enligt 
+uppskovsf&#246;rfarandet. 
+
+Upplagshavare och registrerade avs&#228;ndare som avs&#228;nder varor 
+enligt uppskovsf&#246;rfarandet f&#229;r i dokument som uppr&#228;ttas i 
+samband med flyttningen ers&#228;tta uppgift om adressen till den 
+direkta leveransplatsen i destinationsmedlemsstaten med den 
+identifikationskod som tilldelats platsen av den beh&#246;riga 
+myndigheten i den medlemsstaten.
+
+Former f&#246;r anm&#228;lan och ans&#246;kan 
+
+8 &#167; Anm&#228;lningar som avses i 6 kap. 2, 3 och 6 &#167;&#167; och 7 kap. 5, 
+7, 10 och 11 &#167;&#167; lagen (2022:156) om alkoholskatt samt i 7 &#167; 
+denna f&#246;rordning samt ans&#246;kningar som avses i 3 kap. 18 &#167; och 
+10 kap. 3 &#167; lagen om alkoholskatt ska g&#246;ras enligt ett 
+fastst&#228;llt formul&#228;r. 
+
+Skatteverket ska fastst&#228;lla s&#229;dana formul&#228;r som avses i f&#246;rsta 
+stycket.
+
+Punktskattenummer
+
+9 &#167; Skatteverket tilldelar godk&#228;nda skatteupplag och den som 
+godk&#228;nns som upplagshavare, registrerad varumottagare, 
+tillf&#228;lligt registrerad varumottagare eller registrerad 
+avs&#228;ndare eller registreras som tillf&#228;lligt certifierad 
+avs&#228;ndare, certifierad avs&#228;ndare, tillf&#228;lligt certifierad 
+mottagare eller certifierad mottagare ett s&#229;dant 
+punktskattenummer som avses i artikel 19.2 a i r&#229;dets 
+f&#246;rordning (EU) nr 389/2012 av den 2 maj 2012 om 
+administrativt samarbete i fr&#229;ga om punktskatter och om 
+upph&#228;vande av f&#246;rordning (EG) nr 2073/2004.
+
+Krav p&#229; viss lagerkapacitet
+
+10 &#167; Vid pr&#246;vning av en ans&#246;kan om godk&#228;nnande som 
+upplagshavare ska kravet p&#229; lagerh&#229;llning enligt 3 kap. 2 &#167; 
+f&#246;rsta stycket 1 lagen (2022:156) om alkoholskatt f&#246;r den som 
+avser att i st&#246;rre omfattning lagra alkoholvaror anses 
+uppfyllt om den s&#246;kande disponerar &#246;ver en lagerkapacitet f&#246;r 
+skattepliktiga varor p&#229; minst 5 000 liter. 
+
+Beslut om skattebefriad f&#246;rbrukare
+
+11 &#167; I ett beslut om godk&#228;nnande av skattebefriad f&#246;rbrukare 
+enligt 10 kap. 1 &#167; lagen (2022:156) om alkoholskatt ska 
+Skatteverket ange 
+
+1. f&#246;r vilka &#228;ndam&#229;l f&#246;rbrukaren har r&#228;tt att ta emot 
+alkoholvaror utan skatt, och 
+
+2. vilka villkor som g&#228;ller f&#246;r godk&#228;nnandet. 
+
+Allm&#228;nt om dokumenthantering
+
+12 &#167; Best&#228;mmelser om dokument och om hanteringen av dokument i 
+det datoriserade systemet samt om formen f&#246;r pappersdokument i 
+reservsystemet finns i 
+
+- kommissionens delegerade f&#246;rordning (EU) 2022/1636 av den 
+5 juli 2022 om komplettering av r&#229;dets direktiv (EU) 2020/262 
+genom fastst&#228;llande av form och inneh&#229;ll f&#246;r de dokument som 
+utbyts i samband med flyttning av punktskattepliktiga varor 
+och om fastst&#228;llande av ett tr&#246;skelv&#228;rde f&#246;r f&#246;rluster till 
+f&#246;ljd av varornas beskaffenhet, och 
+
+- kommissionens genomf&#246;randef&#246;rordning (EU) 2022/1637 av den 
+5 juli 2022 om fastst&#228;llande av till&#228;mpningsf&#246;reskrifter f&#246;r 
+r&#229;dets direktiv (EU) 2020/262 vad g&#228;ller anv&#228;ndning av 
+dokument i samband med flyttning av punktskattepliktiga varor 
+under ett uppskovsf&#246;rfarande och flyttning av 
+punktskattepliktiga varor efter frisl&#228;ppande f&#246;r konsumtion, 
+samt om fastst&#228;llande av det formul&#228;r som ska anv&#228;ndas f&#246;r 
+intyget om undantag. F&#246;rordning (2022:1744).
+
+Dokumenthantering vid flyttningar under uppskovsf&#246;rfarandet
+
+13 &#167; N&#228;r Skatteverket har tilldelat ett elektroniskt 
+administrativt dokument en administrativ referenskod, ska 
+Skatteverket utan dr&#246;jsm&#229;l via det datoriserade systemet 
+vidarebefordra dokumentet till de beh&#246;riga myndigheterna i 
+destinationsmedlemsstaten eller, vid export eller flyttning 
+till ett utf&#246;rseltullkontor som &#228;ven &#228;r avg&#229;ngstullkontor f&#246;r 
+f&#246;rfarandet f&#246;r extern transitering, till de beh&#246;riga 
+myndigheterna i det land d&#228;r exportdeklarationen har getts in.
+
+14 &#167; Om en exportdeklaration har getts in till Tullverket f&#246;r 
+skattepliktiga varor som omfattas av ett elektroniskt 
+administrativt dokument, ska Tullverket underr&#228;tta 
+Skatteverket ifall det vid en kontroll eller p&#229; annat s&#228;tt 
+framkommer att uppgifter i det elektroniska administrativa 
+dokumentet inte st&#228;mmer &#246;verens med uppgifter i den eller de 
+exportdeklarationer som avser varorna. Skatteverket ska 
+d&#228;refter via det datoriserade systemet underr&#228;tta de beh&#246;riga 
+myndigheterna i avs&#228;ndarmedlemsstaten om den bristande 
+&#246;verensst&#228;mmelsen.
+
+15 &#167; Skatteverket ska vidarebefordra mottagningsrapporter f&#246;r 
+varor som tagits emot i Sverige till den beh&#246;riga myndigheten 
+i respektive avs&#228;ndarmedlemsstat via det datoriserade 
+systemet. 
+
+Skatteverket ska g&#246;ra en elektronisk kontroll av 
+mottagningsrapporten. &#196;r uppgifterna i mottagningsrapporten 
+giltiga, ska Skatteverket bekr&#228;fta mottagandet av rapporten. 
+Om uppgifterna inte &#228;r giltiga, ska Skatteverket i st&#228;llet 
+utan dr&#246;jsm&#229;l underr&#228;tta den som uppr&#228;ttat 
+mottagningsrapporten om detta. 
+
+N&#228;r det datoriserade systemet inte &#228;r tillg&#228;ngligt, ska 
+Skatteverket i st&#228;llet skicka en kopia av det 
+ers&#228;ttningsdokument som avses i 5 kap. 16 &#167; lagen (2022:156) 
+om alkoholskatt till den beh&#246;riga myndigheten i 
+avs&#228;ndarmedlemsstaten. F&#246;rordning (2023:431).
+
+16 &#167; Skatteverket ska vidarebefordra elektroniska 
+administrativa dokument som &#228;r st&#228;llda till upplagshavare, 
+registrerade varumottagare eller tillf&#228;lligt registrerade 
+varumottagare i Sverige, till mottagaren via det datoriserade 
+systemet. Detsamma g&#228;ller mottagningsrapporter och 
+exportrapporter som &#228;r st&#228;llda till upplagshavare eller 
+registrerade avs&#228;ndare i Sverige.
+
+17 &#167; En exportrapport ska grundas p&#229; den underr&#228;ttelse om att 
+de punktskattepliktiga varorna har l&#228;mnat unionens territorium 
+som l&#228;mnas av utf&#246;rseltullkontoret enligt artikel 329 i 
+kommissionens genomf&#246;randef&#246;rordning (EU) 2015/2447 av den 
+24 november 2015 om n&#228;rmare regler f&#246;r genomf&#246;rande av vissa 
+best&#228;mmelser i Europaparlamentets och r&#229;dets f&#246;rordning (EU) 
+nr 952/2013 om fastst&#228;llande av en tullkodex f&#246;r unionen eller 
+av det kontor d&#228;r formaliteterna enligt artikel 2.2 i 
+punktskatte-direktivet fullgjorts. 
+
+I de fall som avses i artikel 16.1 av i punktskattedirektivet 
+ska export-rapporten grundas p&#229; underr&#228;ttelse om att varorna 
+&#246;verg&#229;tt till f&#246;rfarandet f&#246;r extern transitering som l&#228;mnas 
+av utf&#246;rseltullkontoret enligt artikel 329.5 i kommissionens 
+genomf&#246;randef&#246;rordning (EU) 2015/2447. 
+
+Skatteverket ska g&#246;ra en elektronisk kontroll av uppgifterna i 
+underr&#228;ttelsen. Om varorna har avs&#228;nts fr&#229;n ett annat EU-land, 
+ska exportrapporten d&#228;refter snarast s&#228;ndas till den beh&#246;riga 
+myndigheten i det landet via det datoriserade systemet. Har 
+varorna avs&#228;nts fr&#229;n Sverige, ska exportrapporten i st&#228;llet 
+vidarebefordras via det datoriserade systemet till den som 
+avs&#228;nt varorna. N&#228;r det datoriserade systemet inte &#228;r 
+tillg&#228;ngligt, ska Skatteverket i st&#228;llet skicka en kopia av 
+det ers&#228;ttningsdokument som avses i 5 kap. 16 &#167; lagen 
+(2022:156) om alkoholskatt till den beh&#246;riga myndigheten i 
+avs&#228;ndarmedlemsstaten respektive den som fr&#229;n Sverige avs&#228;nt 
+varorna. F&#246;rordning (2023:431).
+
+18 &#167; Om varor f&#246;r vilka en exportdeklaration har getts in till 
+Tullverket har avs&#228;nts under uppskovsf&#246;rfarandet till en 
+destination som avses i 4 kap. 3 &#167; f&#246;rsta stycket 3 eller 4 
+lagen (2022:156) om alkoholskatt fr&#229;n en plats i ett annat EU-
+land och Skatteverket f&#229;r uppgifter fr&#229;n Tullverket om att 
+varorna inte l&#228;ngre ska f&#246;ras ut ur unionens tullomr&#229;de, ska 
+Skatteverket underr&#228;tta de beh&#246;riga myndigheterna i 
+avs&#228;ndarmedlemsstaten om detta. 
+
+19 &#167; N&#228;r Skatteverket fr&#229;n en annan medlemsstat f&#229;r ett s&#229;dant 
+dokument som avses i artikel 27 i punktskattedirektivet om att 
+varor tagits emot eller exporterats eller att varor inte 
+l&#228;ngre ska f&#246;ras ut, ska Skatteverket l&#228;mna en kopia av 
+dokumentet till den som avs&#228;nt varorna eller p&#229; annat s&#228;tt 
+h&#229;lla dokumentet tillg&#228;ngligt f&#246;r denne.
+
+Dokumenthantering vid flyttningar under f&#246;rfarandet f&#246;r 
+beskattade varor
+
+20 &#167; N&#228;r Skatteverket har tilldelat ett elektroniskt f&#246;renklat 
+administrativt dokument en f&#246;renklad administrativ 
+referenskod, ska Skatteverket utan dr&#246;jsm&#229;l vidarebefordra 
+dokumentet till de beh&#246;riga myndigheterna i 
+destinationsmedlemsstaten via det datoriserade systemet.
+
+21 &#167; N&#228;r Skatteverket vidarebefordrar mottagningsrapporter f&#246;r 
+varor som tagits emot i Sverige till den beh&#246;riga myndigheten 
+i respektive avs&#228;ndarmedlemsstat enligt 8 kap. 8 &#167; lagen 
+(2022:156) om alkoholskatt, ska det ske via det datoriserade 
+systemet. 
+
+Skatteverket ska g&#246;ra en elektronisk kontroll av 
+mottagningsrapporten. &#196;r uppgifterna i mottagningsrapporten 
+giltiga, ska Skatteverket bekr&#228;fta mottagandet av rapporten. 
+Om uppgifterna inte &#228;r giltiga, ska Skatteverket i st&#228;llet 
+utan dr&#246;jsm&#229;l underr&#228;tta den som uppr&#228;ttat 
+mottagningsrapporten om detta. 
+
+N&#228;r det datoriserade systemet inte &#228;r tillg&#228;ngligt, ska 
+Skatteverket i st&#228;llet, om f&#246;ruts&#228;ttningarna i f&#246;rsta stycket 
+&#228;r uppfyllda, skicka en kopia av det ers&#228;ttningsdokument som 
+avses i 8 kap. 11 &#167; lagen om alkoholskatt till den beh&#246;riga 
+myndigheten i avs&#228;ndarmedlemsstaten. F&#246;rordning (2023:431).
+
+22 &#167; Skatteverket ska vidarebefordra elektroniska f&#246;renklade 
+administrativa dokument som &#228;r st&#228;llda till tillf&#228;lligt 
+certifierade mottagare eller certifierade mottagare i Sverige, 
+till mottagaren via det datoriserade systemet. Detsamma g&#228;ller 
+mottagningsrapporter som &#228;r st&#228;llda till tillf&#228;lligt 
+certifierade avs&#228;ndare eller certifierade avs&#228;ndare i Sverige.
+
+23 &#167; N&#228;r Skatteverket fr&#229;n en annan medlemsstat f&#229;r en s&#229;dan 
+rapport om att varor tagits emot som avses i artikel 39 i 
+punktskattedirektivet, ska Skatteverket l&#228;mna en kopia av 
+dokumentet till den som avs&#228;nt varorna eller p&#229; annat s&#228;tt 
+h&#229;lla dokumentet tillg&#228;ngligt f&#246;r denne.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2022:183
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2023 i fr&#229;ga 
+om 5, 8 och 9 &#167;&#167; och i &#246;vrigt den 13 februari 2023.
+
+2. Genom f&#246;rordningen upph&#228;vs f&#246;rordningen (2010:173) om 
+alkoholskatt den 13 februari 2023.
+
+3. Den upph&#228;vda f&#246;rordningen g&#228;ller fortfarande f&#246;r 
+f&#246;rh&#229;llanden som h&#228;nf&#246;r sig till tiden f&#246;re upph&#228;vandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=276">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=278">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

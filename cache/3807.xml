@@ -1,0 +1,894 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2013-08-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3807</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3806">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3808">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1983:769 ·
+                    <a href="/sfsr?bet=1983:769">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1983:769) om dubbelbeskattningsavtal mellan Sverige och Japan</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1983-08-25
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> F&#246;rordningen upph&#228;vs den dag regeringen best&#228;mmer.
+
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1983-10-04 &#246;verg.best.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Författningen har upphävts genom:</span> SFS 1999:891
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 &#167; Lagen (1983:203) om dubbelbeskattningsavtal mellan Sverige och
+Japan skall tr&#228;da i kraft den dag denna f&#246;rordning tr&#228;der i kraft och
+till&#228;mpas p&#229; inkomst som f&#246;rv&#228;rvas den 1 januari 1984 eller senare.
+Avtalet tr&#228;der i kraft den 18 september 1983.
+
+2 &#167; Vid till&#228;mpningen av dubbelbeskattningsavtalet skall iakttas de
+anvisningar som framg&#229;r av bilagorna 1 och 2.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1983:769
+
+1. Denna f&#246;rordning tr&#228;der i kraft tv&#229; veckor efter den dag d&#229;
+f&#246;rordningen enligt uppgift p&#229; den har kommit ut fr&#229;n trycket i Svensk
+f&#246;rfattningssamling.
+
+2. Genom f&#246;rordningen upph&#228;vs kung&#246;relsen (1965:918) om till&#228;mpning av
+avtal den 12 december 1956 mellan Sverige och Japan f&#246;r undvikande av
+dubbelbeskattning och f&#246;rhindrande av skatteflykt betr&#228;ffande
+inkomstskatter och kung&#246;relsen (1972:541) om kupongskatt f&#246;r person
+som &#228;r bosatt i Japan, m.m.
+
+3. De upph&#228;vda kung&#246;relserna till&#228;mpas fortfarande p&#229; inkomst som
+f&#246;rv&#228;rvas f&#246;re den 1 januari 1984.
+
+
+Bilaga 1
+
+Anvisningar till best&#228;mmelserna i avtalet
+
+till art. 1 och 4
+
+Avtalets best&#228;mmelser &#228;r i allm&#228;nhet till&#228;mpliga endast p&#229; fysiska och
+juridiska personer som har hemvist i Sverige eller Japan.
+
+Huruvida en fysisk eller juridisk person skall anses ha hemvist i
+endera staten avg&#246;rs i f&#246;rsta hand med ledning av lagstiftningen i
+denna stat. I art. 4 punkterna 2 och 3 regleras fall av s. k. dubbel
+bos&#228;ttning, dvs. fall d&#228;r den skattskyldige enligt svenska
+beskattningsregler anses bosatt i Sverige och enligt japanska
+beskattningsregler anses bosatt i Japan. I fr&#229;ga om fysisk person
+avg&#246;r i s&#229;dant fall de beh&#246;riga myndigheterna genom &#246;msesidig
+&#246;verenskommelse enligt art. 24 var den skattskyldige skall anses ha
+hemvist vid till&#228;mpning av avtalet. Annan person &#228;n fysisk person
+anses i s&#229;dant fall vid till&#228;mpning av avtalet ha hemvist endast i den
+stat d&#228;r han har hemvist enligt art. 4 punkt 3.
+
+Person, som avses i 69 &#167; kommunalskattelagen (1928:370) och 17 &#167; lagen
+(1947:576) om statlig inkomstskatt och som tillh&#246;r svensk beskickning
+eller l&#246;nat svenskt konsulat i Japan, skall vid till&#228;mpningen av art.
+4 punkt 1 anses bosatt i Sverige.
+
+Person, som avses i 70 &#167; 1 mom. kommunalskattelagen och 18 &#167; 1 mom.
+lagen om statlig inkomstskatt och som tillh&#246;r japansk beskickning
+eller l&#246;nat japanskt konsulat i Sverige, skall vid till&#228;mpningen av
+art. 4 punkt 1 anses bosatt i Japan.
+
+till art. 2
+
+Avtalet g&#228;ller de skatter som anges i art. 2. Ang&#229;ende annan
+beskattning, se dock art. 8 punkt 2 och art. 23 punkt 5.
+
+till art. 6
+
+Enligt svensk lagstiftning beskattas inkomst som h&#228;rr&#246;r fr&#229;n fastighet
+i vissa fall som inkomst av r&#246;relse *(jfr bl. a. 27 &#167;
+kommunalskattelagen (1928:370)*). Inkomst som omfattas av art. 6
+beskattas emellertid alltid i den stat d&#228;r fastigheten &#228;r bel&#228;gen.
+Denna regel g&#228;ller &#228;ven betr&#228;ffande royalty fr&#229;n fastighet eller f&#246;r
+nyttjandet av eller r&#228;tten att nyttja mineralf&#246;rekomst, k&#228;lla eller
+annan naturtillg&#229;ng.
+
+Annan royalty beskattas enligt art. 12.
+
+till art. 7
+
+Inkomst av r&#246;relse, som bedrivs fr&#229;n fast driftst&#228;lle, beskattas i
+regel enligt art. 7. Vad som f&#246;rst&#229;s med uttrycket &quot;fast driftst&#228;lle&#39;&#39;
+anges i art. 5.
+
+Om en fysisk eller juridisk person med hemvist i Sverige bedriver
+r&#246;relse fr&#229;n fast driftst&#228;lle i Japan, skall den till driftst&#228;llet
+h&#228;nf&#246;rliga inkomsten enligt art. 22 punkt 2 b) undantas fr&#229;n
+beskattning i Sverige. Inkomsten f&#229;r dock enligt
+art. 22 punkt 2 c) beaktas vid ber&#228;kningen av skatten p&#229; &#246;vriga
+inkomster. I fr&#229;ga om f&#246;rfarandet vid s&#229;dan ber&#228;kning h&#228;nvisas till
+anvisningspunkten 3 till art. 22.
+
+Inkomst av r&#246;relse, som en fysisk eller juridisk person med hemvist i
+Japan bedriver fr&#229;n fast driftst&#228;lle i Sverige, ber&#228;knas enligt art. 7
+punkterna 2--6. Till grund f&#246;r inkomstber&#228;kningen b&#246;r l&#228;ggas i f&#246;rsta
+hand den s&#228;rskilda bokf&#246;ring som kan ha f&#246;rts vid det fasta
+driftst&#228;llet. I m&#229;n av behov skall denna bokf&#246;ring justeras s&#229;, att
+inkomstber&#228;kningen sker i enlighet med den i punkterna 2 och 3 angivna
+principen. Avdrag medges f&#246;r s&#229; stor del av huvudkontorets allm&#228;nna
+omkostnader som sk&#228;ligen kan antas bel&#246;pa p&#229; det fasta driftst&#228;llet.
+
+Om inkomst av sj&#246;fart och luftfart i internationell trafik finns
+s&#228;rskilda best&#228;mmelser i art. 8.
+
+till art. 8
+
+Inkomst av sj&#246;fart eller luftfart i internationell trafik beskattas
+enligt art. 8 punkt 1 endast i den stat d&#228;r f&#246;retaget har hemvist. I
+s&#228;rskild &#246;verenskommelse regleras till&#228;mpningen av art. 8 i fr&#229;ga om
+Scandinavian Airlines System (SAS). &#214;verenskommelsen har f&#246;ljande
+lydelse:
+
+&quot;Betr&#228;ffande den gemensamma svenska, norska och danska
+luftfartsorganisationen Scandinavian Airlines System (SAS) till&#228;mpas
+best&#228;mmelserna i artikel 8 betr&#228;ffande inkomst som denna organisation
+f&#246;rv&#228;rvar genom anv&#228;ndningen av luftfartyg, men endast i fr&#229;ga om s&#229;
+stor del av denna inkomst som &#228;r h&#228;nf&#246;rlig till den svenske del&#228;garen
+i organisationen i f&#246;rh&#229;llande till dennes andel i denna.&quot;
+
+till art. 9
+
+Art. 9 inneh&#229;ller en allm&#228;n regel om omr&#228;kning av vinstf&#246;rdelningen
+mellan f&#246;retag med intressegemenskap. F&#246;r Sveriges del kan omr&#228;kning
+vid taxering ske enligt 43 &#167; kommunalskattelagen (1928:370).
+
+Om s&#229;dan omr&#228;kning sker mellan f&#246;retag i Sverige och Japan, skall
+l&#228;nsstyrelsen anm&#228;la detta till regeringen och i korthet redog&#246;ra f&#246;r
+vad som f&#246;rekommit.
+
+till art. 10
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;utdelning&quot; anges i art. 10 punkt 4.
+
+2. N&#228;r en fysisk eller juridisk person med hemvist i Sverige
+uppb&#228;r utdelning fr&#229;n bolag med hemvist i Japan och utdelningen inte
+&#228;r h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med fast
+driftst&#228;lle eller stadigvarande anordning som den
+utdelningsber&#228;ttigade har i Japan, iakttas best&#228;mmelserna i andra och
+tredje styckena.
+
+Om utdelningen uppb&#228;rs av ett aktiebolag eller ekonomisk f&#246;rening, &#228;r
+utdelningen undantagen fr&#229;n beskattning i Sverige i den m&#229;n art. 10
+punkt 3 f&#246;ranleder det. De svenska best&#228;mmelserna om befrielse fr&#229;n
+skattskyldighet f&#246;r utdelning som avses i art. 10 punkt 3 finns i 54 &#167;
+kommunalskattelagen (1928:370) och 7 &#167; lagen (1947:576) om statlig
+inkomstskatt.
+
+I &#246;vriga fall ber&#228;knas svensk skatt p&#229; utdelningens bruttobelopp utan
+avdrag f&#246;r japansk skatt. Avdrag medges dock i vanlig ordning f&#246;r
+f&#246;rvaltningskostnader och r&#228;nta p&#229; skuld som bel&#246;per p&#229; utdelningen.
+Svensk skatt p&#229; utdelningen neds&#228;tts enligt art. 22 punkt 2 a) genom
+avr&#228;kning av japansk skatt som tagits ut enligt art. 10 punkt 2. Den
+japanska skatten f&#229;r d&#228;rvid inte &#246;verstiga 15 % eller, i fall som
+avses i art. 10 punkt 2 a), 10 % av utdelningens bruttobelopp. I fr&#229;ga
+om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 22.
+
+3. N&#228;r en fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Japan och utdelningen &#228;r h&#228;nf&#246;rlig
+till andel, som &#228;ger verkligt samband med fast driftst&#228;lle eller
+stadigvarande anordning som den utdelningsber&#228;ttigade har i Japan,
+till&#228;mpas art. 7 resp. art. 14. Om utdelningen inte &#228;r undantagen fr&#229;n
+beskattning i Sverige enligt art. 10 punkt 3 skall den undantas fr&#229;n
+beskattning h&#228;r enligt art. 22 punkt 2 b). Utdelningen f&#229;r dock i
+sistn&#228;mnda fall enligt art. 22 punkt 2 c) beaktas vid ber&#228;kningen av
+skatten p&#229; &#246;vrig inkomst. I fr&#229;ga om f&#246;rfarandet vid s&#229;dan ber&#228;kning
+h&#228;nvisas till anvisningspunkten 3 till art. 22.
+
+4. N&#228;r aktiebolag i Sverige verkst&#228;ller utdelning till en fysisk eller
+juridisk person med hemvist i Japan och utdelningen inte &#228;r h&#228;nf&#246;rlig
+till andel som &#228;ger verkligt samband med fast driftst&#228;lle eller
+stadigvarande anordning som den utdelningsber&#228;ttigade har i Sverige,
+tas kupongskatt ut med 15 % eller, i fall som avses i art. 10 punkt 2
+a), 10 % av utdelningens bruttobelopp. Utdelning fr&#229;n svensk ekonomisk
+f&#246;rening beskattas i s&#229;dant fall enligt 6 &#167; 1 mom. a eller c lagen
+(1947:576) om statlig inkomstskatt men den statliga inkomstskatten f&#229;r
+inte &#246;verstiga 15 % eller, i fall som avses i art. 10 punkt 2 a), 10 %
+av utdelningens bruttobelopp. Vid taxering till statlig inkomstskatt
+f&#246;r utdelning fr&#229;n svensk ekonomisk f&#246;rening skall taxeringsn&#228;mnd i
+deklarationen anteckna de uppgifter som beh&#246;vs f&#246;r debitering.
+L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning g&#246;rs i
+skattel&#228;ngden.
+
+Ang&#229;ende f&#246;rfarandet vid neds&#228;ttning av svensk skatt p&#229; utdelning
+till&#228;mpas i &#246;vrigt s&#228;rskilda best&#228;mmelser; se bilaga 2.
+
+Om den som har r&#228;tt till utdelningen har fast driftst&#228;lle eller
+stadigvarande anordning i Sverige och utdelningen &#228;r h&#228;nf&#246;rlig till
+andel, som &#228;ger verkligt samband med det fasta driftst&#228;llet eller den
+stadigvarande anordningen, till&#228;mpas art. 7 resp. art. 14. I s&#229;dant
+fall g&#228;ller inte ovan angivna regler om begr&#228;nsning av svensk skatt p&#229;
+utdelning.
+
+till art. 11
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;r&#228;nta&#39;&#39; anges i art. 11 punkt 3.
+
+2. R&#228;nta, som betalas fr&#229;n Japan till en fysisk eller juridisk person
+med hemvist i Sverige, beskattas h&#228;r.
+
+&#196;r r&#228;ntan inte h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt samband med
+fast driftst&#228;lle eller stadigvarande anordning, som den som har r&#228;tt
+till r&#228;ntan har i Japan, ber&#228;knas svensk skatt p&#229; r&#228;ntans bruttobelopp
+utan avdrag f&#246;r japansk skatt. Avdrag medges dock i vanlig ordning f&#246;r
+f&#246;rvaltningskostnader. Svensk skatt p&#229; r&#228;ntan neds&#228;tts enligt art. 22
+punkt 2 a) genom avr&#228;kning av japansk skatt som tagits ut enligt art.
+11 punkt 2. Om inte fall f&#246;religger som avses i art. 11 punkt 4 f&#229;r
+denna skatt inte &#246;verstiga 10 % av r&#228;ntans bruttobelopp. I fr&#229;ga om
+f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 22.
+
+&#196;r r&#228;ntan h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt samband med fast
+driftst&#228;lle eller stadigvarande anordning som den som har r&#228;tt till
+r&#228;ntan har i Japan, till&#228;mpas art. 7 resp. art. 14. R&#228;ntan skall i
+s&#229;dant fall enligt art. 22 punkt 2 b) undantas fr&#229;n beskattning i
+Sverige. Den f&#229;r dock enligt art. 22 punkt 2 c) beaktas vid
+ber&#228;kningen av skatten p&#229; &#246;vrig inkomst. I fr&#229;ga om f&#246;rfarandet vid
+s&#229;dan ber&#228;kning h&#228;nvisas till anvisningspunkten 3 till art. 22.
+
+3. R&#228;nta, som utbetalas fr&#229;n Sverige till en fysisk eller juridisk
+person med hemvist i Japan, kan enligt g&#228;llande skattef&#246;rfattningar
+inte beskattas i Sverige. Detta g&#228;ller dock endast betr&#228;ffande r&#228;nta
+som utg&#246;r inkomst av f&#246;rv&#228;rvsk&#228;llan kapital. &#196;r r&#228;ntan att h&#228;nf&#246;ra
+till inkomst av r&#246;relse *(jfr punkt 2 av anvisningarna till 28 &#167;
+kommunalskattelagen (1928:370)*), beskattas r&#228;ntan i Sverige, under
+f&#246;ruts&#228;ttning att r&#228;ntan &#228;r h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt
+samband med fast driftst&#228;lle eller stadigvarande anordning som den som
+har r&#228;tt till r&#228;ntan har i Sverige (art. 11 punkt 4).
+
+till art. 12
+
+1. Betr&#228;ffande beskattning av s&#229;dan royalty som avses i art. 12 punkt
+3 g&#228;ller f&#246;ljande.
+
+Royalty, som utbetalas fr&#229;n Japan till en fysisk eller juridisk person
+med hemvist i Sverige, beskattas h&#228;r.
+
+&#196;r royaltyn inte h&#228;nf&#246;rlig till r&#228;ttighet eller egendom, som &#228;ger
+verkligt samband med fast driftst&#228;lle eller stadigvarande anordning
+som den som har r&#228;tt till royaltyn har i Japan, ber&#228;knas svensk skatt
+p&#229; royaltyns bruttobelopp utan avdrag f&#246;r japansk skatt. Avdrag medges
+dock i vanlig ordning f&#246;r
+f&#246;rvaltningskostnader. Svensk skatt p&#229; royaltyn neds&#228;tts enligt art.
+22 punkt 2 a) genom avr&#228;kning av japansk skatt som tagits ut enligt
+art. 12 punkt 2. Denna skatt f&#229;r inte &#246;verstiga 10 % av royaltyns
+bruttobelopp. I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till
+anvisningspunkten 2 till art. 22.
+
+&#196;r royaltyn h&#228;nf&#246;rlig till r&#228;ttighet eller egendom, som &#228;ger verkligt
+samband med fast driftst&#228;lle eller stadigvarande anordning som den som
+har r&#228;tt till royaltyn har i Japan, till&#228;mpas art. 7 resp. art. 14.
+Royaltyn skall i s&#229;dant fall enligt art. 22 punkt 2 b) undantas fr&#229;n
+beskattning i Sverige. Den f&#229;r dock enligt art. 22 punkt 2 c) beaktas
+vid ber&#228;kningen av skatten p&#229; &#246;vrig inkomst. I fr&#229;ga om f&#246;rfarandet
+vid s&#229;dan ber&#228;kning h&#228;nvisas till anvisningspunkten 3 till art. 22.
+
+Royalty, som utbetalas fr&#229;n Sverige till en fysisk eller juridisk
+person med hemvist i Japan, beskattas i Sverige enligt 28 &#167; 1 mom.
+kommunalskattelagen (1928:370) j&#228;mf&#246;rt med 2 och 3 &#167;&#167; lagen (1947:576)
+om statlig inkomstskatt. Om inte fall som avses i art. 12 punkt 4
+f&#246;religger, f&#229;r emellertid summan av den statliga och kommunala
+inkomstskatt som bel&#246;per p&#229; royaltyn inte &#246;verstiga 10 % av royaltyns
+bruttobelopp. Vid till&#228;mpningen av denna maximeringsregel iakttas
+best&#228;mmelserna i f&#246;ljande stycken.
+
+Om inkomsttagaren uppb&#228;r &#228;ven annan inkomst fr&#229;n Sverige &#228;n royaltyn,
+anses p&#229; royaltyn bel&#246;pa s&#229; stor andel av hela den statliga
+inkomstskatten som royaltyn -- efter avdrag f&#246;r kostnader som &#228;r
+h&#228;nf&#246;rliga till royaltyn -- utg&#246;r av inkomsttagarens sammanlagda
+inkomst av olika f&#246;rv&#228;rvsk&#228;llor.
+
+Taxeringsn&#228;mnd skall i deklaration anteckna royaltyns bruttobelopp och
+i f&#246;rekommande fall den nyss angivna delen av den statliga
+inkomstskatten samt ange dels att summan av den enligt allm&#228;nna regler
+utr&#228;knade och p&#229; royaltyn bel&#246;pande statliga och kommunala
+inkomstskatten skall, om den &#246;verstiger 10 % av royaltyns
+bruttobelopp, neds&#228;ttas med det &#246;verskjutandet beloppet, dels att den
+kommunala inkomstskatten f&#229;r nedbringas endast i den m&#229;n det
+&#246;verskjutande beloppet &#246;verstiger den statliga inkomstskatten.
+L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning f&#246;rs &#246;ver till
+skattel&#228;ngden.
+
+Exempel: En person med hemvist i Japan uppb&#228;r s&#229;dan royalty som avses
+i art. 12 punkt 3 fr&#229;n Sverige med ett bruttobelopp av 10 000 kronor.
+Till royaltyn h&#228;nf&#246;rliga avdragsgilla kostnader uppg&#229;r till 500
+kronor. Den skattskyldige antas vidare uppb&#228;ra i Sverige skattepliktig
+nettoint&#228;kt av andra f&#246;rv&#228;rvsk&#228;llor med ett belopp av 5 000 kronor och
+vid taxeringen till statlig inkomstskatt &#229;tnjuta allm&#228;nna avdrag med 1
+000 kronor. Den till statlig inkomstskatt taxerade inkomsten blir
+s&#229;lunda (9 500+5 000--1 000=) 13 500 kronor. I deklarationen
+antecknas: &quot;Enligt avtalet med Japan skall den statliga resp. den
+kommunala inkomstskatten neds&#228;ttas med det be-
+
+                     9 500
+lopp varmed summan av------av hela den statliga inkomstskatten och
+                    14 500
+
+den kommunala inkomstskatt, som bel&#246;per p&#229; 9 500 kronor, &#246;verstiger 10
+% av 10 000 kronor. Den kommunala inkomstskatten f&#229;r nedbringas
+
+                                                      9 500
+endast i den m&#229;n det &#246;verskjutande beloppet &#246;verstiger------av hela
+                                                     14 500
+den
+
+statliga inkomstskatten.&quot;
+
+2. Royalty eller annat belopp, som utbetalas s&#229;som ers&#228;ttning f&#246;r
+nyttjandet av mineralf&#246;rekomst, k&#228;lla eller annan naturtillg&#229;ng,
+beskattas enligt art. 6.
+
+till art. 13
+
+Vinst, som en fysisk eller juridisk person med hemvist i Japan
+f&#246;rv&#228;rvar genom avyttring av fast egendom i Sverige, beskattas h&#228;r
+(art. 13 punkt 1). Vidare beskattas i Sverige vinst genom icke
+yrkesm&#228;ssig avyttring av l&#246;s egendom som utg&#246;r del av
+r&#246;relsetillg&#229;ngarna i fast driftst&#228;lle som person med hemvist i Japan
+har h&#228;r (art. 13 punkt 2). Motsvarande g&#228;ller i fr&#229;ga om l&#246;s egendom
+som ing&#229;r i stadigvarande anordning f&#246;r att ut&#246;va sj&#228;lvst&#228;ndig
+yrkesverksamhet vilken inkomsttagaren har i Sverige.
+
+Realisationsvinst, som avses i art. 13 och som f&#246;rv&#228;rvas av en fysisk
+eller juridisk person med hemvist i Sverige, beskattas h&#228;r. Enligt
+art. 13 punkt 1 f&#229;r japansk skatt tas ut p&#229; realisationsvinsten, om
+den avyttrade egendomen utg&#246;rs av fast egendom i Japan. Motsvarande
+g&#228;ller enligt art. 13 punkt 2 i fr&#229;ga om l&#246;s egendom som ing&#229;r i fast
+driftst&#228;lle som inkomsttagaren har i Japan, eller l&#246;s egendom som
+ing&#229;r i stadigvarande anordning f&#246;r att ut&#246;va sj&#228;lvst&#228;ndig
+yrkesverksamhet vilken inkomsttagaren har i Japan.
+
+Svensk skatt p&#229; realisationsvinsten neds&#228;tts enligt art. 22 punkt 2 a)
+genom avr&#228;kning av den japanska skatt som i enlighet med
+best&#228;mmelserna i art. 13 p&#229;f&#246;rts samma vinst. I fr&#229;ga om f&#246;rfarandet
+vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till art. 22.
+
+Realisationsvinst p&#229; grund av avyttring av annan egendom &#228;n s&#229;dan som
+behandlas i art. 13, t. ex. aktier som inte utg&#246;r del av
+r&#246;relsetillg&#229;ngarna i fast driftst&#228;lle, beskattas enligt art. 21.
+
+till art. 14
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;fritt yrke&#39;&#39; exemplifieras i art. 14
+punkt 2.
+
+2. Inkomst av fritt yrke eller annan sj&#228;lvst&#228;ndig verksamhet beskattas
+i regel endast i den stat d&#228;r den skattskyldige har hemvist. &#196;r
+inkomsten h&#228;nf&#246;rlig till verksamhet, som ut&#246;vas vid s&#229;dan
+stadigvarande anordning som avses i art. 14 punkt 1, f&#229;r inkomsten
+beskattas i den stat d&#228;r anordningen finns.
+
+Om en person med hemvist i Sverige f&#246;rv&#228;rvar inkomst av fritt yrke
+eller annan sj&#228;lvst&#228;ndig verksamhet vid stadigvarande anordning i
+Japan, skall inkomsten enligt art. 22 punkt 2 b) undantas fr&#229;n
+beskattning i Sverige. Inkomsten f&#229;r dock enligt art. 22 punkt 2 c)
+beaktas vid ber&#228;kningen av skatten p&#229; &#246;vrig inkomst. I fr&#229;ga om
+f&#246;rfarandet vid s&#229;dan ber&#228;kning h&#228;nvisas till anvisningspunkten 3 till
+art. 22.
+
+3. Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av idrottsm&#228;n,
+sk&#229;despelare, musiker m. fl. se anvisningarna till art. 17.
+
+till art. 15
+
+Inkomst av enskild tj&#228;nst f&#229;r enligt art. 15 punkt 1 i regel beskattas
+i den stat d&#228;r arbetet utf&#246;rs. Undantag fr&#229;n denna regel f&#246;reskrivs i
+art. 15 punkterna 2 och 3 samt i art. 16 och 21.
+
+F&#246;r att undanr&#246;ja den tveksamhet som skulle kunna uppkomma vid
+till&#228;mpningen av art. 15 i fr&#229;ga om anst&#228;llda hos
+luftfartsorganisationen Scandinavian Airlines System (SAS) har i ett i
+samband med avtalet undertecknat diskussionsprotokoll f&#246;ljande
+antecknats:
+
+&quot;Om person med hemvist i Sverige uppb&#228;r inkomst av arbete utf&#246;rt
+ombord p&#229; luftfartyg som anv&#228;nds i internationell trafik av den
+gemensamma svenska, norska och danska luftfartsorganisationen
+Scandinavian Airlines System (SAS) till&#228;mpas best&#228;mmelserna i art. 15
+punkterna 1 och 2 p&#229; s&#229;dan inkomst.&quot;
+
+Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av idrottsm&#228;n,
+sk&#229;despelare, musiker m. fl. se anvisningarna till art. 17.
+
+till art. 16
+
+N&#228;r svenskt bolag utbetalar styrelsearvode till en person med
+hemvist i Japan, beskattas ers&#228;ttningen i Sverige, om det kan ske
+enligt g&#228;llande beskattningsregler. Har s&#229;dan ers&#228;ttning uppburits av
+en person med hemvist i Sverige fr&#229;n bolag med hemvist i Japan, f&#229;r
+inkomsten beskattas i Sverige men japansk skatt p&#229; inkomsten avr&#228;knas
+fr&#229;n den svenska skatten enligt art. 22 punkt 2 a). I fr&#229;ga om
+f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 22.
+
+till art. 17
+
+Inkomst, som teater- eller filmsk&#229;despelare, radio- eller
+televisionsartister, musiker och liknande yrkesut&#246;vare samt idrottsm&#228;n
+f&#246;rv&#228;rvar genom sin yrkesverksamhet, beskattas i regel i den stat d&#228;r
+verksamheten ut&#246;vas (art. 17 punkt 1 f&#246;rsta stycket). Detta g&#228;ller
+oavsett om inkomsten f&#246;rv&#228;rvas under ut&#246;vande av fritt yrke eller p&#229;
+grund av anst&#228;llning. Enligt art. 17 punkt 2 f&#246;rsta stycket f&#229;r
+inkomsten i regel beskattas i den stat d&#228;r artisten eller
+idrottsmannen utf&#246;r arbetet, &#228;ven om ers&#228;ttningen utbetalas till annan
+person (t. ex. arbetsgivare hos vilken artisten &#228;r anst&#228;lld) &#228;n
+artisten eller idrottsmannen sj&#228;lv. Enligt andra styckena i b&#229;da dessa
+punkter g&#228;ller att inkomsten kan undantas fr&#229;n beskattning efter
+&#246;verenskommelse mellan de avtalsslutande staternas regeringar. F&#246;r
+Sveriges vidkommande iakttas vid till&#228;mpningen av art. 17 punkterna 1
+och 2 best&#228;mmelserna i 54 &#167; f&#246;rsta stycket c kommunalskattelagen
+(1928:370) och 7 &#167; f&#246;rsta stycket b lagen (1947:576) om statlig
+inkomstskatt.
+
+till art. 18
+
+Ers&#228;ttning, med undantag f&#246;r pension, som utbetalas av n&#229;gon av
+staterna eller dess lokala myndigheter f&#246;r arbete utf&#246;rt p&#229; grund av
+offentligt uppdrag i denna stats eller i dess lokala myndigheters
+tj&#228;nst beskattas enligt huvudregeln i art. 18 punkt 1 a) endast i den
+stat varifr&#229;n ers&#228;ttningen utbetalas. Har arbetet utf&#246;rts i den andra
+staten av person med hemvist i denna stat, beskattas emellertid
+ers&#228;ttningen enligt art. 18 punkt 1 b) endast i den staten, om
+mottagaren &#228;r medborgare i den staten eller inte fick hemvist d&#228;r
+uteslutande f&#246;r att utf&#246;ra ifr&#229;gavarande arbete.
+
+Pension, som betalas av n&#229;gon av staterna eller dess lokala
+myndigheter p&#229; grund av arbete som utf&#246;rts i denna stats eller dess
+lokala myndigheters tj&#228;nst, beskattas enligt art. 18 punkt 2 a) i
+regel endast i denna stat. Om mottagaren av pensionen &#228;r medborgare i
+den andra staten och har hemvist  d&#228;r, beskattas emellertid pensionen
+enligt art. 18 punkt 2 b) endast i denna stat.
+
+Ers&#228;ttning (inkl. pension), som utbetalas f&#246;r tj&#228;nst utf&#246;rd i samband
+med r&#246;relse, som den utbetalande staten eller dess lokala myndigheter
+bedrivit, beskattas som inkomst p&#229; grund av enskild tj&#228;nst enligt art.
+15, 16, 17 och 21.
+
+
+till art. 21
+
+Enligt art. 21 punkt 1 beskattas inkomst som inte har behandlats
+s&#228;rskilt i f&#246;reg&#229;ende artiklar i avtalet endast i den stat d&#228;r
+inkomsttagaren har hemvist. Om emellertid inkomsten h&#228;rr&#246;r fr&#229;n den
+andra staten f&#229;r inkomsten enligt art. 21 punkt 3 beskattas d&#228;r. Detta
+inneb&#228;r bl. a. att pension fr&#229;n Sverige p&#229; grund av enskild tj&#228;nst, t.
+ex. ATP, SPP-pension o. d., som utbetalas till person med hemvist i
+Japan, beskattas h&#228;r, om det kan ske enligt g&#228;llande
+beskattningsregler. Motsvarande g&#228;ller &#228;ven vissa andra utbetalningar,
+exempelvis folkpension och livr&#228;ntor, samt realisationsvinst vid
+f&#246;rs&#228;ljning av aktier.
+
+En person med hemvist i Sverige som uppb&#228;r inkomst som avses i art. 21
+punkt 3 och som h&#228;rr&#246;r fr&#229;n Japan beskattas h&#228;r f&#246;r s&#229;dan inkomst men
+japansk skatt p&#229; inkomsten avr&#228;knas fr&#229;n den svenska skatten enligt
+art. 22 punkt 2 a). I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas
+till anvisningspunkten 2 till art. 22.
+
+till art. 22
+
+1. Inkomst fr&#229;n Sverige, som uppb&#228;rs av en person med hemvist i Japan,
+beskattas h&#228;r i den m&#229;n svenska skattef&#246;rfattningar f&#246;ranleder det och
+inskr&#228;nkning av skattskyldigheten inte f&#246;ljer av &#246;vriga artiklar. Om
+inkomsten kan beskattas &#228;ven i Japan, medges l&#228;ttnad vid den japanska
+beskattningen enligt art. 22 punkt 1.
+
+2. Inkomst fr&#229;n Japan, som uppb&#228;rs av en person med hemvist i Sverige,
+tas med vid taxering i Sverige med undantag f&#246;r utdelning i vissa fall
+fr&#229;n bolag i Japan. I fr&#229;ga om utdelning se punkt 2 andra stycket och
+punkt 3 av anvisningarna till art. 10. Svensk skatt p&#229; inkomsten s&#228;tts
+ned genom avr&#228;kning enligt art. 22 punkt 2 a) om inte fall f&#246;religger
+som anges i anvisningspunkten 3.
+
+Svensk inkomstskatt ber&#228;knas p&#229; inkomstens bruttobelopp utan avdrag
+f&#246;r japansk skatt som omfattas av avtalet. Avdrag medges i vanlig
+ordning f&#246;r kostnader som h&#228;nf&#246;r sig till inkomsten. Fr&#229;n den s&#229;lunda
+ber&#228;knande svenska skatten avr&#228;knas enligt art. 22 punkt 2 a) ett
+belopp motsvarande den japanska skatt som bel&#246;per p&#229; inkomsten.
+Betr&#228;ffande storleken av japansk skatt p&#229; utdelning, r&#228;nta och royalty
+h&#228;nvisas till anvisningspunkten 2 till art. 10, anvisningspunkten 2
+till art. 11 och anvisningspunkten 1 till art. 12.
+
+Den skattskyldige b&#246;r i samband med sin sj&#228;lvdeklaration f&#246;r det
+beskattnings&#229;r, f&#246;r vilket inkomsten tas upp till beskattning, f&#246;rete
+bevis eller annan utredning om den japanska skatt som har p&#229;f&#246;rts
+inkomsten.
+
+Avr&#228;kning av japansk inkomstskatt f&#229;r ske med belopp motsvarande h&#246;gst
+summan av de svenska skatter som bel&#246;per
+p&#229; inkomsten. Vid till&#228;mpningen av denna regel anses p&#229; inkomsten fr&#229;n
+Japan bel&#246;pa s&#229; stor andel av hela den statliga inkomstskatten som
+inkomsten -- efter avdrag f&#246;r kostnader -- utg&#246;r av den skattskyldiges
+sammanlagda inkomst av olika f&#246;rv&#228;rvsk&#228;llor. Kommunal inkomstskatt
+anses bel&#246;pa p&#229; inkomst fr&#229;n Japan till s&#229; stor andel som inkomsten --
+efter avdrag f&#246;r kostnader -- utg&#246;r av den skattskyldiges sammanlagda
+inkomst av olika f&#246;rv&#228;rvsk&#228;llor som skall taxeras i samma kommun som
+inkomsten fr&#229;n Japan.
+
+Avr&#228;kning sker i f&#246;rsta hand fr&#229;n den statliga inkomstskatten. F&#246;rsl&#229;r
+ej denna, avr&#228;knas &#229;terstoden fr&#229;n kommunal inkomstskatt som bel&#246;per
+p&#229; inkomsten.
+
+Taxeringsn&#228;mnd skall i deklaration anteckna motv&#228;rdet i svenska kronor
+av den japanska skatten p&#229; inkomsten och ange att avr&#228;kning skall ske
+med detta skattebelopp, dock h&#246;gst med beloppet av de svenska
+skatterna p&#229; inkomsten. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att
+anteckning om avr&#228;kning g&#246;rs i skattel&#228;ngden.
+
+Exempel: En person med hemvist i Sverige uppb&#228;r inkomst av fast
+egendom i Japan med ett belopp av 10 000 kronor. P&#229; inkomsten antas
+bel&#246;pa japansk skatt med ett belopp av 1 500 kronor. Avdragsgilla
+kostnader uppg&#229;r till 500 kronor. Den skattskyldige antas vidare
+uppb&#228;ra nettoint&#228;kter av i Sverige lokaliserade f&#246;rv&#228;rvsk&#228;llor med ett
+belopp av 90 000 kronor och vid taxeringen till statlig inkomstskatt
+&#229;tnjuta allm&#228;nna avdrag med 10 000 kronor. Den till statlig
+inkomstskatt taxerade inkomsten blir s&#229;lunda (9 500 + 90 000 -- 10
+000=) 89 500 kronor. I deklarationen antecknas: &quot;Avr&#228;kning fr&#229;n
+inkomstskatt enligt avtalet med Japan skall ske med 1 500 kronor, dock
+h&#246;gst med summan av den kommunala inkomstskatt,
+
+                                 9 500
+som bel&#246;per p&#229; 9 500 kronor, och ----- av hela den statliga
+                                99 500
+inkomstskatten. Avr&#228;kning sker i f&#246;rsta hand fr&#229;n den statliga
+inkomstskatten.&quot;
+
+Har den skattskyldige flera inkomster fr&#229;n utlandet kan vid
+avr&#228;kningsf&#246;rfarandet &#228;ven best&#228;mmelserna i 25 &#167; f&#246;rsta stycket lagen
+(1947:576) om statlig inkomstskatt bli till&#228;mpliga.
+
+Har den skattskyldige flera inkomster fr&#229;n utlandet kan vid
+avr&#228;kningsf&#246;rfarandet &#228;ven best&#228;mmelserna i 25 &#167; f&#246;rsta stycket lagen
+(1947:576) om statlig inkomstskatt bli till&#228;mpliga.
+
+3. Om en person med hemvist i Sverige uppb&#228;r inkomst, som enligt art.
+18 skall beskattas endast i Japan eller enligt art. 22 punkt 2 b) &#228;r
+undantagen fr&#229;n skatt i Sverige, medtas inkomsten vid taxering i
+Sverige. Statlig och kommunal
+inkomstskatt utr&#228;knas i vanlig ordning. De s&#229;lunda utr&#228;knade
+inkomstskatterna s&#228;tts ned med ett belopp motsvarande den del av
+inkomsterna som vid en proportionell ber&#228;kning bel&#246;per p&#229; den inkomst
+som enligt avtalet skall beskattas endast i Japan eller vara
+undantagen fr&#229;n skatt i Sverige.
+
+Exempel: En japansk medborgare med hemvist i Sverige uppb&#228;r pension
+fr&#229;n japanska staten med ett belopp som efter avdrag f&#246;r kostnader
+motsvarar 10 050 kronor. Den skattskyldige antas uppb&#228;ra i Sverige
+skattepliktiga nettoint&#228;kter och inkomster av andra f&#246;rv&#228;rvsk&#228;llor med
+50 000 kronor samt &#229;tnjuta allm&#228;nna avdrag och grundavdrag med 4 500
+kronor resp. 7 500 kronor. Den beskattningsbara inkomsten blir
+statligt (10 050 + 50 000 -- 4 500=) 55 500 kronor och kommunalt (10
+050 + 50 000 -- 4 500-- 7 500=) 48 000 kronor, sedan avrundning skett.
+Hade pensionen inte medr&#228;knats skulle den beskattningsbara inkomsten
+ha blivit statligt (50 000 -- 4 500=) 45 500 kronor och kommunalt (50
+000 -- 4 500 -- 7 500=) 38 000 kronor. Den statliga och kommunala
+inkomstskatten ber&#228;knad p&#229; 55 500 resp. 48 000 kronor, neds&#228;tts med
+
+55 500--45 500         48 000--38 000
+--------------  resp.  --------------
+    55 500                 48 000
+
+I fall som nu n&#228;mnts skall taxeringsn&#228;mnd i deklarationen anteckna
+grunden f&#246;r utr&#228;kningen av inkomstskatterna. L&#228;ngdf&#246;rande myndighet
+svarar f&#246;r att anteckning om neds&#228;ttning g&#246;rs i skattel&#228;ngden.
+
+till art. 23
+
+Av art. 23 punkt 5 f&#246;ljer att bolag i Japan inte f&#229;r p&#229;f&#246;ras
+f&#246;rm&#246;genhetsskatt i Sverige. Best&#228;mmelsen inneb&#228;r ett undantag fr&#229;n
+regeln i 6 &#167; 1 mom. f&#246;rsta stycket c lagen (1947:577) om statlig
+f&#246;rm&#246;genhetsskatt.
+
+
+Bilaga 2
+
+Anvisningar om kupongskatt, m. m.
+
+Kupongskatt f&#246;r person med hemvist i Japan
+
+1. Den som enligt lagen (1983:203) om dubbelbeskattningsavtal
+mellan Sverige och Japan har hemvist i Japan kan, under de
+f&#246;ruts&#228;ttningar som anges i art. 10 i avtalet, f&#229; neds&#228;ttning av den
+skatt p&#229; utdelning som annars skulle utg&#229; enligt kupongskattelagen
+(1970:624).
+
+2. Om r&#228;tt till neds&#228;ttning f&#246;religger enligt art. 10 i avtalet tas
+kupongskatt ut efter den skattesats som anges d&#228;r. I &#246;vrigt skall den
+som betalar utdelningen till&#228;mpa best&#228;mmelserna i kupongskattelagen
+(1970:624) och kupongskattekung&#246;relsen (1971:49).
+
+S&#229;lunda g&#228;ller att uppgifter enligt 14 &#167; kupongskattelagen (1970:624)
+skall l&#228;mnas d&#229; det &#228;r fr&#229;ga om utdelning fr&#229;n aktiebolag eller
+aktiefond som avses i 13 &#167; samma lag. Som ytterligare f&#246;ruts&#228;ttning
+f&#246;r neds&#228;ttning av kupongskatten p&#229; s&#229;dan utdelning g&#228;ller att
+utbetalaren genom intyg av japansk myndighet eller bank i Japan visar
+att den utdelningsber&#228;ttigade har hemvist i Japan.
+
+3. Har kupongskatt inneh&#229;llits med h&#246;gre belopp &#228;n den skattskyldige
+skall erl&#228;gga enligt lagen (1983:203) om dubbelbeskattningsavtal
+mellan Sverige och Japan, kan den skattskyldige f&#229; ut det f&#246;r h&#246;gt
+uttagna beloppet (restitution) efter ans&#246;kan hos riksskatteverket
+enligt 27 &#167; kupongskattelagen (1970:624).
+
+4. Riksskatteverkets beslut i &#228;rende om restitution f&#229;r &#246;verklagas p&#229;
+det s&#228;tt som anges i 29 &#167; kupongskattelagen (1970:624).
+
+Statlig inkomstskatt p&#229; utdelning fr&#229;n svensk ekonomisk
+f&#246;rening till person med hemvist i Japan
+
+5. Den som enligt lagen (1983:203) om dubbelbeskattningsavtal mellan
+Sverige och Japan har hemvist i Japan och som enligt 6 &#167; 1 mom. a och
+c lagen (1947:576) om statlig inkomstskatt &#228;r skattskyldig i Sverige
+f&#246;r utdelning p&#229; andel i svensk ekonomisk f&#246;rening kan erh&#229;lla
+neds&#228;ttning av statlig inkomstskatt enligt art. 10 i avtalet under de
+f&#246;ruts&#228;ttningar som anges d&#228;r.
+
+6. Ans&#246;kan om neds&#228;ttning g&#246;rs hos den taxeringsn&#228;mnd som taxerar den
+utdelningsber&#228;ttigade till statlig inkomstskatt f&#246;r det &#229;r d&#229;
+utdelningen beskattas eller, om taxeringsn&#228;mndens arbete betr&#228;ffande
+taxeringen detta &#229;r avslutats, hos den domstol som handl&#228;gger besv&#228;r
+&#246;ver n&#228;mnda taxering. Ans&#246;kan b&#246;r g&#246;ras f&#246;re utg&#229;ngen av tredje
+kalender&#229;ret efter det d&#229; utdelningen blev tillg&#228;nglig f&#246;r lyftning.
+
+I samband med ans&#246;kningen skall den utdelningsber&#228;ttigade genom intyg
+fr&#229;n japansk myndighet eller bank i Japan visa att han har hemvist i
+Japan.
+
+7. Beslut i &#228;rende som avses i punkt 6 f&#229;r &#246;verklagas p&#229; det s&#228;tt som
+anges i taxeringslagen (1956:623) och f&#246;rvaltningsprocesslagen
+(1971:291).
+
+1999:891
+
+Den upph&#228;vda f&#246;rordningen skall dock fortfarande till&#228;mpas
+
+a) n&#228;r det g&#228;ller k&#228;llskatter: p&#229; belopp som betalas eller krediteras
+f&#246;re den 1 januari kalender&#229;ret n&#228;rmast efter det &#229;r d&#229; lagen
+tr&#228;der i kraft,
+
+b) n&#228;r det g&#228;ller annan skatt p&#229; inkomst: p&#229; beskattnings&#229;r som b&#246;rjar
+f&#246;re den 1 januari kalender&#229;ret n&#228;rmast efter det &#229;r d&#229; lagen
+tr&#228;der i kraft.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3806">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3808">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

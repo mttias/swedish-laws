@@ -1,0 +1,885 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2014-07-14" /> 
+ <meta id="rattsinfo-edited" content="2021-09-20 15:06:54" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1208</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1207">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1209">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2014:966 ·
+                    <a href="/sfsr?bet=2014:966">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2014:966) om kapitalbuffertar</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet B
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2014-06-26
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:482
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2014-08-02
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om olika slag av 
+kapitalbuffertar och om ingripanden och restriktioner n&#228;r ett 
+institut inte uppfyller vissa krav p&#229; kapitalbuffertar.
+Lag (2020:1212).
+
+2 &#167; I denna lag betyder
+
+1. blandade finansiella moderholdingf&#246;retag inom EES: f&#246;retag 
+som avses i artikel 4.1.33 i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) nr 575/2013 av den 26 juni 2013 om 
+tillsynskrav f&#246;r kreditinstitut och om &#228;ndring av f&#246;rordning 
+(EU) nr 648/2012 (tillsynsf&#246;rordningen),
+
+2. dotterf&#246;retag: s&#229;dant f&#246;retag som avses i artikel 4.1.16 i 
+tillsynsf&#246;rordningen, 
+
+3. EES: Europeiska ekonomiska samarbetsomr&#229;det, 
+
+4. ESRB: Europeiska systemriskn&#228;mnden enligt 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) nr 1092/2010 av 
+den 24 november 2010 om makrotillsyn av det finansiella 
+systemet p&#229; EU-niv&#229; och om inr&#228;ttande av en europeisk 
+systemriskn&#228;mnd, 
+
+5. finansiella moderholdingf&#246;retag inom EES: f&#246;retag som avses 
+i artikel 4.1.31 i tillsynsf&#246;rordningen, 
+
+6. institut: kreditinstitut enligt lagen (2014:968) om 
+s&#228;rskild tillsyn &#246;ver kreditinstitut och v&#228;rdepappersbolag,
+
+7. kapitalt&#228;ckningsdirektivet: Europaparlamentets och r&#229;dets 
+direktiv 2013/36/EU av den 26 juni 2013 om beh&#246;righet att 
+ut&#246;va verksamhet i kreditinstitut och om tillsyn av 
+kreditinstitut, om &#228;ndring av direktiv 2002/87/EG och om 
+upph&#228;vande av direktiven 2006/48/EG och 2006/49/EG, i lydelsen 
+enligt Europaparlamentets och r&#229;dets direktiv (EU) 2019/2034,
+
+8. k&#228;rnprim&#228;rkapital: kapital som avses i artikel 50 i 
+tillsynsf&#246;rordningen, 
+
+9. moderinstitut inom EES: f&#246;retag som avses i artikel 4.1.29 
+i tillsynsf&#246;rordningen, 
+
+10. prim&#228;rkapital: prim&#228;rkapital som avses i artikel 4.1.101 i 
+tillsynsf&#246;rordningen,
+
+11. p&#229; grupp- eller undergruppsniv&#229;: det s&#228;tt som institut i 
+enlighet med best&#228;mmelser om tillsyn p&#229; gruppniv&#229; i 
+artiklarna 6-24 i tillsynsf&#246;rordningen ska uppfylla st&#228;llda 
+krav, 
+
+12. systemrisk: risk f&#246;r en st&#246;rning i det finansiella 
+systemet som kan f&#229; allvarliga negativa konsekvenser f&#246;r det 
+finansiella systemet och samh&#228;llsekonomin, 
+
+13. systemviktigt institut: ett institut vars fallissemang 
+eller bristande funktion kan leda till systemrisk,
+
+14. tillsynsf&#246;rordningen: Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) nr 575/2013 av den 26 juni 2013 om 
+tillsynskrav f&#246;r kreditinstitut och om &#228;ndring av f&#246;rordning 
+(EU) nr 648/2012,
+
+15. totalt riskv&#228;gt exponeringsbelopp: det belopp som avses i 
+artikel 92 i tillsynsf&#246;rordningen, och
+
+16. v&#228;rde&#246;verf&#246;ringar kopplade till k&#228;rnprim&#228;rkapitalet:
+
+a) utbetalning i form av en kontant utdelning, 
+
+b) fondemission eller partiell fondemission eller &#246;verf&#246;ring 
+eller utdelning av helt eller delvis betalda fondaktier eller 
+andra kapitalinstrument som anges i artikel 26.1 a i 
+tillsynsf&#246;rordningen, 
+
+c) inl&#246;sen eller uppk&#246;p av egna aktier eller andelar eller 
+andra kapitalinstrument som anges i artikel 26.1 a i 
+tillsynsf&#246;rordningen, 
+
+d) &#229;terbetalning av belopp som utbetalas med anknytning till 
+kapitalinstrument som anges i artikel 26.1 a i 
+tillsynsf&#246;rordningen, 
+
+e) en &#246;verf&#246;ring eller utdelning av poster som avses i 
+artikel 26.1 b-e i tillsynsf&#246;rordningen. Lag (2021:482).
+
+3 &#167; Finansinspektionen har tillsyn &#246;ver att best&#228;mmelserna i
+denna lag f&#246;ljs.
+
+2 kap. Institutspecifika krav p&#229; kapitalbuffertar
+
+Kombinerat buffertkrav
+
+1 &#167; Ett institut ska ha ett k&#228;rnprim&#228;rkapital som motsvarar 
+det kombinerade buffertkravet enligt 2 &#167;.
+
+F&#246;rsta stycket g&#228;ller ut&#246;ver det krav p&#229; k&#228;rnprim&#228;rkapital som 
+f&#246;ljer av 
+
+1. artikel 92.1 a-c i tillsynsf&#246;rordningen, 
+
+2. ett beslut om s&#228;rskilt kapitalbaskrav enligt 2 kap. 1 &#167; 
+f&#246;rsta stycket 2 lagen (2014:968) om s&#228;rskild tillsyn &#246;ver 
+kreditinstitut och v&#228;rdepappersbolag, och 
+
+3. en underr&#228;ttelse enligt 2 kap. 1 c &#167; lagen om s&#228;rskild 
+tillsyn &#246;ver kreditinstitut och v&#228;rdepappersbolag som avser 
+andra risker &#228;n risken f&#246;r alltf&#246;r l&#229;g bruttosoliditet.
+
+K&#228;rnprim&#228;rkapital som avses i f&#246;rsta stycket f&#229;r inte anv&#228;ndas 
+f&#246;r att uppfylla de riskbaserade komponenterna i kraven p&#229; 
+kapitalbas och kvalificerade skulder i
+
+1. artiklarna 92a och 92b i tillsynsf&#246;rordningen, och 
+
+2. artiklarna 45c och 45d i Europaparlamentets och r&#229;dets 
+direktiv 2014/59/EU av den 15 maj 2014 om inr&#228;ttande av en ram 
+f&#246;r &#229;terh&#228;mtning och resolution av kreditinstitut och 
+v&#228;rdepappersf&#246;retag och om &#228;ndring av r&#229;dets direktiv 
+82/891/EEG och Europaparlamentets och r&#229;dets direktiv 
+2001/24/EG, 2002/47/EG, 2004/25/EG, 2005/56/EG, 2007/36/EG, 
+2011/35/EU, 2012/30/EU och 2013/36/EU samt Europaparlamentets 
+och r&#229;dets f&#246;rordningar (EU) nr 1093/2010 och (EU) nr 
+648/2012, i lydelsen enligt Europaparlamentets och r&#229;dets 
+direktiv (EU) 2019/879. Lag (2020:1212).
+
+2 &#167; Det kombinerade buffertkravet utg&#246;rs av summan av
+
+1. kapitalkonserveringsbufferten,
+
+2. den institutspecifika kontracykliska kapitalbufferten,
+
+3. systemriskbufferten, och
+
+4. till&#228;mplig kapitalbuffert enligt 5 kap. 6 &#167;.
+Lag (2020:1212).
+
+3 kap. Kapitalkonserveringsbuffert
+
+1 &#167; Institut ska p&#229; individuell niv&#229; och gruppniv&#229; ha en
+kapitalkonserveringsbuffert.
+
+2 &#167; Kapitalkonserveringsbufferten ska best&#229; av
+k&#228;rnprim&#228;rkapital motsvarande 2,5 procent av institutets
+totala riskv&#228;gda exponeringsbelopp.
+
+3 &#167; Har upph&#228;vts genom lag (2021:482).
+
+4 kap. Systemriskbuffert
+
+Allm&#228;nt om systemriskbuffert
+
+1 &#167; Finansinspektionen f&#229;r, i syfte att motverka en systemrisk 
+som kan medf&#246;ra allvarliga konsekvenser f&#246;r stabiliteten i det 
+finansiella systemet och den reala ekonomin i Sverige, besluta 
+att institut f&#246;r alla eller vissa av sina exponeringar p&#229; 
+individuell niv&#229;, undergruppsniv&#229; och gruppniv&#229; ska ha en 
+systemriskbuffert.
+
+Systemriskbufferten f&#229;r inte anv&#228;ndas f&#246;r att t&#228;cka 
+makrotillsyns- eller systemrisker som t&#228;cks av 
+
+1. ett kapitalbaskrav enligt tillsynsf&#246;rordningen, eller
+
+2. en kapitalbuffert enligt 5 eller 6 kap. denna lag.
+Lag (2020:1212).
+
+2 &#167; Systemriskbufferten enligt 1 &#167; ska best&#229; av 
+k&#228;rnprim&#228;rkapital och uppg&#229; till ett belopp som ber&#228;knas i 
+enlighet med artikel 133.2 och 133.5 i 
+kapitalt&#228;ckningsdirektivet.
+
+Till grund f&#246;r ber&#228;kningen ska Finansinspektionen fastst&#228;lla 
+ett systemriskbuffertv&#228;rde f&#246;r till&#228;mpliga exponeringar. Om en 
+exponering omfattas av flera systemriskbuffertv&#228;rden, ska 
+dessa l&#228;ggas samman till ett kombinerat buffertv&#228;rde.
+Lag (2020:1212).
+
+Systemriskbuffertv&#228;rde
+
+3 &#167; Finansinspektionen f&#229;r efter det att ESRB har underr&#228;ttats 
+enligt artikel 133.9 i kapitalt&#228;ckningsdirektivet fastst&#228;lla 
+ett systemriskbuffertv&#228;rde som f&#246;r en exponering 
+
+1. inte &#246;verstiger 3 procent, om f&#246;ruts&#228;ttningarna enligt 
+artikel 133.10 i samma direktiv &#228;r uppfyllda,
+
+2. &#246;verstiger 3 procent men inte 5 procent, om 
+f&#246;ruts&#228;ttningarna enligt artikel 133.11 i samma direktiv &#228;r 
+uppfyllda, eller 
+
+3. &#246;verstiger 5 procent, om f&#246;ruts&#228;ttningarna enligt artikel 
+133.12 i samma direktiv &#228;r uppfyllda.
+
+I systemriskbuffertv&#228;rdet enligt f&#246;rsta stycket 1 ska ett 
+buffertv&#228;rde som har erk&#228;nts enligt 7 &#167; inte r&#228;knas med.
+Lag (2020:1212).
+
+4 &#167; Om ett systemriskbuffertv&#228;rde enligt 3 &#167; &#228;r mindre &#228;n 
+eller lika stort som det senast fastst&#228;llda buffertv&#228;rdet, 
+beh&#246;ver f&#246;ruts&#228;ttningarna enligt artikel 133.11 eller 133.12 i 
+kapitalt&#228;ckningsdirektivet inte vara uppfyllda. 
+Lag (2020:1212).
+
+5 &#167; Om Finansinspektionen beslutar om en systemriskbuffert f&#246;r 
+exponeringar i andra l&#228;nder inom EES, ska samma buffertniv&#229; 
+g&#228;lla f&#246;r institutets alla exponeringar utanf&#246;r Sverige men 
+inom EES.
+
+F&#246;rsta stycket g&#228;ller dock inte om systemriskbufferten grundas 
+p&#229; ett beslut om erk&#228;nnande enligt 7 &#167;. Lag (2020:1212).
+
+6 &#167; Har upph&#228;vts genom lag (2020:1212).
+
+Erk&#228;nnande av andra l&#228;nders systemriskbuffertar
+
+7 &#167; Om Finansinspektionen har erk&#228;nt ett 
+systemriskbuffertv&#228;rde som fastst&#228;llts i ett annat land inom 
+EES, f&#229;r inspektionen besluta att ett institut med 
+exponeringar i det landet f&#246;r dessa exponeringar ska ha en 
+systemriskbuffert motsvarande den som fastst&#228;llts i det 
+landet.
+
+Systemriskbufferten enligt f&#246;rsta stycket g&#228;ller ut&#246;ver 
+systemriskbufferten enligt 1 &#167;, om buffertarna avser att t&#228;cka 
+olika risker. Om buffertarna avser att t&#228;cka samma risker 
+g&#228;ller den h&#246;gsta av dem. Lag (2020:1212).
+
+5 kap. Buffertar f&#246;r systemviktiga institut och finansiella
+holdingf&#246;retag
+
+Kapitalbuffert p&#229; gruppniv&#229; f&#246;r globalt systemviktiga
+institut
+
+1 &#167; Finansinspektionen ska besluta vilka institut som p&#229;
+gruppniv&#229; ska ha en kapitalbuffert f&#246;r globalt systemviktiga
+institut enligt 2 &#167;.
+
+F&#246;rsta stycket g&#228;ller inte institut som &#228;r dotterf&#246;retag till
+antingen ett moderinstitut, ett finansiellt
+moderholdingf&#246;retag eller ett blandat finansiellt
+moderholdingf&#246;retag inom EES.
+
+2 &#167; Kapitalbufferten enligt 1 &#167; ska best&#229; av k&#228;rnprim&#228;rkapital 
+och uppg&#229; till minst 1 procent av institutets totala riskv&#228;gda 
+exponeringsbelopp. Lag (2020:1212).
+
+Kapitalbuffert f&#246;r &#246;vriga systemviktiga institut
+
+3 &#167; Finansinspektionen f&#229;r, ut&#246;ver vad som f&#246;ljer av 1 och 2
+&#167;&#167;, besluta att institut p&#229; individuell niv&#229;, undergruppsniv&#229;
+eller gruppniv&#229; ska ha en kapitalbuffert f&#246;r &#246;vriga
+systemviktiga institut enligt 4 &#167;.
+
+4 &#167; Kapitalbufferten f&#246;r &#246;vriga systemviktiga institut ska 
+best&#229; av k&#228;rnprim&#228;rkapital och f&#229;r fastst&#228;llas till h&#246;gst 
+3 procent av institutets totala riskv&#228;gda exponeringsbelopp.
+
+Kapitalbufferten f&#229;r dock fastst&#228;llas till mer &#228;n 3 procent, 
+om ESRB har underr&#228;ttats enligt artikel 131.7 i 
+kapitalt&#228;ckningsdirektivet och f&#246;ruts&#228;ttningarna enligt 
+artikel 131.5a i samma direktiv &#228;r uppfyllda. 
+Lag (2020:1212).
+
+5 &#167; Om ett institut som ska ha en kapitalbuffert f&#246;r &#246;vriga 
+systemviktiga institut &#228;r ett dotterf&#246;retag till ett globalt 
+systemviktigt institut eller till ett moderinstitut inom EES 
+som ska ha en kapitalbuffert f&#246;r &#246;vriga systemviktiga 
+institut, g&#228;ller f&#246;ljande. Den kapitalbuffert f&#246;r 
+systemviktiga institut som institutet kan f&#246;rpliktas ha p&#229; 
+individuell niv&#229; eller undergruppsniv&#229; f&#229;r inte uppg&#229; till mer 
+&#228;n det l&#228;gsta av
+
+1. summan av 1 procent av institutets totala riskv&#228;gda 
+exponeringsbelopp och det h&#246;gsta av 
+
+a) buffertv&#228;rdet f&#246;r globalt systemviktiga institut, eller
+
+b) buffertv&#228;rdet f&#246;r &#246;vriga systemviktiga institut p&#229; 
+gruppniv&#229;, eller
+
+2. 3 procent, eller den procentsats som har fastst&#228;llts enligt 
+4 &#167; andra stycket p&#229; gruppniv&#229;, av det totala riskv&#228;gda 
+exponeringsbeloppet. Lag (2020:1212).
+
+Konkurrerande buffertkrav
+
+6 &#167; Om en till&#228;mpning av 1–4 &#167;&#167; skulle medf&#246;ra att ett
+institut &#228;r skyldigt att p&#229; gruppniv&#229; ha fler &#228;n en
+kapitalbuffert f&#246;r systemviktiga institut, ska p&#229; den niv&#229;n
+endast den h&#246;gsta av dessa kapitalbuffertar g&#228;lla.
+
+7 &#167; Om ett institut omfattas av en systemriskbuffert enligt 
+4 kap. g&#228;ller systemriskbufferten ut&#246;ver till&#228;mplig 
+kapitalbuffert f&#246;r systemviktiga institut. 
+
+Summan av systemriskbuffertv&#228;rdet enligt 4 kap. 2 &#167; och 
+till&#228;mplig kapitalbuffert f&#246;r systemviktiga institut f&#246;r ett 
+institut f&#229;r &#246;verstiga 5 procent, om Finansinspektionen har 
+underr&#228;ttat ESRB enligt artikel 131.7 i 
+kapitalt&#228;ckningsdirektivet och f&#246;ruts&#228;ttningarna enligt 
+artikel 131.5a i samma direktiv &#228;r uppfyllda.
+Lag (2020:1212).
+
+8 &#167; Har upph&#228;vts genom lag (2020:1212).
+
+6 kap. Kontracyklisk kapitalbuffert
+
+Storleken p&#229; den institutspecifika kontracykliska
+kapitalbufferten
+
+1 &#167; Ett institut ska ha en institutspecifik kontracyklisk
+kapitalbuffert best&#229;ende av k&#228;rnprim&#228;rkapital som uppg&#229;r till
+institutets totala riskv&#228;gda exponeringsbelopp multiplicerat
+med ett viktat genomsnitt av de kontracykliska buffertv&#228;rden
+som enligt 4 och 5 &#167;&#167; till&#228;mpas f&#246;r de l&#228;nder d&#228;r institutet
+har sina ber&#246;rda kreditexponeringar.
+
+2 &#167; Den kontracykliska kapitalbufferten ska uppfyllas &#228;ven p&#229;
+gruppniv&#229;.
+
+3 &#167; Har upph&#228;vts genom lag (2021:482).
+
+Kontracykliska buffertv&#228;rden
+
+4 &#167; Den institutspecifika kontracykliska kapitalbufferten ska
+ber&#228;knas utifr&#229;n de kontracykliska buffertv&#228;rden som
+fastst&#228;lls enligt 7 kap.
+
+5 &#167; Om det inte har fastst&#228;llts ett kontracykliskt
+buffertv&#228;rde f&#246;r kreditexponeringar i ett annat land,
+till&#228;mpas vid ber&#228;kningen av den institutspecifika
+kontracykliska kapitalbufferten det kontracykliska
+buffertv&#228;rde som beh&#246;rig myndighet i det landet har beslutat,
+dock h&#246;gst 2,5 procent.
+
+6 &#167; Om den institutspecifika kontracykliska kapitalbufferten
+ska ber&#228;knas utifr&#229;n ett kontracykliskt buffertv&#228;rde som har
+fastst&#228;llts av en utl&#228;ndsk beh&#246;rig myndighet inom EES, ska
+buffertv&#228;rdena g&#228;lla fr&#229;n och med det datum som har
+fastst&#228;llts av den utl&#228;ndska myndigheten.
+
+Om den institutspecifika kontracykliska kapitalbufferten ska
+ber&#228;knas utifr&#229;n ett kontracykliskt buffertv&#228;rde som har
+fastst&#228;llts av en beh&#246;rig myndighet utanf&#246;r EES, ska beslut
+om att h&#246;ja buffertv&#228;rdet b&#246;rja g&#228;lla tolv m&#229;nader efter den
+dag d&#229; det nya v&#228;rdet offentliggjordes av myndigheten.
+
+Beslut som inneb&#228;r att buffertv&#228;rdet s&#228;nks ska g&#228;lla
+omedelbart.
+
+Krav p&#229; metoder f&#246;r att ber&#228;kna h&#246;gsta f&#246;rfogandebelopp
+
+7 &#167; Ett institut ska ha metoder som g&#246;r det m&#246;jligt att i 
+enlighet med f&#246;reskrifter som meddelats med st&#246;d av 10 kap. 
+1 &#167; 9 fortl&#246;pande ber&#228;kna institutets h&#246;gsta f&#246;rfogandebelopp.
+Lag (2021:482).
+
+7 kap. Beslut om kontracykliska buffertv&#228;rden
+
+Ber&#228;kning och fastst&#228;llande av kontracykliska buffertv&#228;rden
+
+1 &#167; Finansinspektionen ska f&#246;r varje kvartal
+
+1. ber&#228;kna ett kontracykliskt buffertriktv&#228;rde, och
+
+2. vid behov fastst&#228;lla eller &#228;ndra ett kontracykliskt 
+buffertv&#228;rde.
+
+Det kontracykliska buffertriktv&#228;rdet ska anv&#228;ndas som ett 
+referensv&#228;rde f&#246;r att fastst&#228;lla det kontracykliska 
+buffertv&#228;rdet.
+
+Det kontracykliska buffertv&#228;rdet ska ligga till grund f&#246;r 
+ber&#228;kningen av storleken p&#229; den institutspecifika 
+kontracykliska kapitalbufferten i enlighet med 6 kap.
+Lag (2020:1212).
+
+2 &#167; Det kontracykliska buffertriktv&#228;rdet och buffertv&#228;rdet ska 
+ber&#228;knas och vid behov fastst&#228;llas i enlighet med 
+artikel 136.2 och 136.3 i kapitalt&#228;ckningsdirektivet.
+Lag (2020:1212).
+
+3 &#167; Det kontracykliska buffertv&#228;rdet ska ligga mellan 0 och
+2,5 procent av totalt riskv&#228;gt exponeringsbelopp och anges i
+intervall p&#229; 0,25 procent. Om det &#228;r motiverat utifr&#229;n de
+faktorer som anges i artikel 136.2 och 136.3 i
+kapitalt&#228;ckningsdirektivet, f&#229;r Finansinspektionen fastst&#228;lla
+ett kontracykliskt buffertv&#228;rde som &#228;r h&#246;gre &#228;n 2,5 procent
+av det totala riskv&#228;gda exponeringsbeloppet.
+
+Beslut om kontracykliska buffertv&#228;rden f&#246;r exponeringar i
+andra l&#228;nder
+
+4 &#167; Om en utl&#228;ndsk myndighet har fastst&#228;llt ett
+kontracykliskt buffertv&#228;rde som uppg&#229;r till mer &#228;n 2,5
+procent av totalt riskv&#228;gt exponeringsbelopp, f&#229;r
+Finansinspektionen besluta att svenska institut f&#246;r ber&#246;rda
+kreditexponeringar i det landet ska till&#228;mpa ett buffertv&#228;rde
+som &#246;verstiger 2,5 procent av totalt riskv&#228;gt
+exponeringsbelopp.
+
+Beslut enligt f&#246;rsta stycket f&#229;r inte medf&#246;ra att institut
+f&#246;r ber&#246;rda exponeringar ska till&#228;mpa ett h&#246;gre buffertv&#228;rde
+&#228;n det som fastst&#228;llts av den utl&#228;ndska myndigheten.
+
+5 &#167; Finansinspektionen f&#229;r fastst&#228;lla ett kontracykliskt
+buffertv&#228;rde som svenska institut med kreditexponeringar i
+ett land utanf&#246;r EES ska till&#228;mpa vid ber&#228;kningen av den
+institutspecifika kontracykliska kapitalbufferten om beh&#246;rig
+myndighet i det landet
+
+1. inte har fastst&#228;llt och offentliggjort ett kontracykliskt
+buffertv&#228;rde, eller
+
+2. har fastst&#228;llt ett kontracykliskt buffertv&#228;rde som &#228;r
+otillr&#228;ckligt f&#246;r att p&#229; ett tillfredsst&#228;llande s&#228;tt skydda
+institut mot risker i samband med en alltf&#246;r stor
+kredittillv&#228;xt i det landet.
+
+Datum f&#246;r n&#228;r beslut om buffertv&#228;rden b&#246;rjar g&#228;lla
+
+6 &#167; Ett beslut om att fastst&#228;lla eller h&#246;ja ett
+kontracykliskt buffertv&#228;rde ska inneh&#229;lla uppgift om den
+tidpunkt d&#229; buffertv&#228;rdet b&#246;rjar g&#228;lla.
+
+Beslut som inneb&#228;r att niv&#229;n p&#229; buffertv&#228;rdet h&#246;js ska b&#246;rja
+g&#228;lla tolv m&#229;nader efter det att beslutet offentliggjordes.
+Om det finns s&#228;rskilda sk&#228;l, f&#229;r beslutet b&#246;rja g&#228;lla vid ett
+tidigare datum.
+
+Beslut om att s&#228;nka buffertv&#228;rdet ska g&#228;lla omedelbart.
+
+7 &#167; N&#228;r ett kontracykliskt buffertv&#228;rde s&#228;nks ska beslutet
+inneh&#229;lla information om hur l&#228;nge det l&#228;gre buffertv&#228;rdet
+f&#246;rv&#228;ntas best&#229;.
+
+Offentligg&#246;rande av beslut
+
+8 &#167; Finansinspektionen ska informera ESRB och offentligg&#246;ra
+beslut om kontracykliska buffertv&#228;rden i enlighet med
+artiklarna 136.7, 137.2 och 139.5 i
+kapitalt&#228;ckningsdirektivet.
+
+8 kap. Ingripanden och restriktioner om vissa 
+kapitalbuffertar inte uppfylls
+
+H&#246;gsta f&#246;rfogandebelopp och kapitalkonserveringsplan
+
+1 &#167; Ett institut som inte uppfyller det kombinerade 
+buffertkravet enligt 2 kap. 2 &#167; eller kravet p&#229; 
+bruttosoliditetsbuffert enligt artikel 92.1a i 
+tillsynsf&#246;rordningen ska till Finansinspektionen
+
+1. i enlighet med f&#246;reskrifter som meddelats med st&#246;d av 
+10 kap. 1 &#167; 9 rapportera h&#246;gsta f&#246;rfogandebelopp, och
+
+2. inom fem arbetsdagar fr&#229;n den dag d&#229; det konstaterades att 
+buffertkravet inte &#228;r uppfyllt l&#228;mna in en 
+kapitalkonserveringsplan som visar hur institutet inom rimlig 
+tid &#229;ter ska uppn&#229; kravet. 
+
+Om det med beaktande av arten och omfattningen av institutets 
+verksamhet finns sk&#228;l f&#246;r det, f&#229;r Finansinspektionen medge 
+att kapitalkonserveringsplanen ges in till inspektionen inom 
+h&#246;gst tio arbetsdagar. Lag (2021:482).
+
+2 &#167; Finansinspektionen ska ingripa om den bed&#246;mer att de 
+&#229;tg&#228;rder som framg&#229;r av kapitalkonserveringsplanen inte 
+&#229;terst&#228;ller institutets
+
+1. k&#228;rnprim&#228;rkapital n&#228;r det g&#228;ller det kombinerade 
+buffertkravet, och 
+
+2. prim&#228;rkapital n&#228;r det g&#228;ller kravet p&#229; 
+bruttosoliditetsbuffert.
+
+Finansinspektionen ska d&#229; f&#246;rel&#228;gga institutet att st&#228;rka 
+kapitalbasen eller besluta om inskr&#228;nkningar som &#228;r striktare 
+&#228;n de som anges i 3 &#167;. Lag (2020:1212).
+
+Inskr&#228;nkningar i institutens r&#228;tt att vidta v&#228;rde&#246;verf&#246;ringar
+m.m.
+
+3 &#167; Ett institut som inte uppfyller ett buffertkrav f&#229;r inte
+
+1. g&#246;ra en v&#228;rde&#246;verf&#246;ring som har koppling till institutets 
+k&#228;rnprim&#228;rkapital n&#228;r det g&#228;ller det kombinerade buffertkravet 
+eller prim&#228;rkapital n&#228;r det g&#228;ller kravet p&#229; 
+bruttosoliditetsbuffert,
+
+2. f&#246;rbinda sig att betala ut r&#246;rlig ers&#228;ttning eller 
+diskretion&#228;ra pensionsf&#246;rm&#229;ner eller betala ut s&#229;dan r&#246;rlig 
+ers&#228;ttning d&#228;r skyldigheten att betala uppstod vid en tidpunkt 
+d&#229; institutet inte uppfyllde buffertkravet,
+
+3. g&#246;ra utbetalningar som har koppling till 
+prim&#228;rkapitaltillskottsinstrument enligt artikel 52 i 
+tillsynsf&#246;rordningen.
+
+Ett institut f&#229;r inte heller vidta en &#229;tg&#228;rd som avses i 
+f&#246;rsta stycket, om &#229;tg&#228;rden medf&#246;r att institutet inte l&#228;ngre 
+uppfyller buffertkravet.
+
+&#197;tg&#228;rder som inte medf&#246;r en minskning av institutets vinst 
+eller k&#228;rnprim&#228;rkapital n&#228;r det g&#228;ller det kombinerade 
+buffertkravet och prim&#228;rkapital n&#228;r det g&#228;ller kravet p&#229; 
+bruttosoliditetsbuffert omfattas inte av f&#246;rbudet i f&#246;rsta 
+stycket. Lag (2020:1212).
+
+4 &#167; F&#246;rbudet i 3 &#167; g&#228;ller inte
+
+1. f&#246;r ett institut som i enlighet med 1 &#167; har ber&#228;knat h&#246;gsta 
+f&#246;rfogandebelopp och &#229;tg&#228;rderna ryms inom detta belopp, eller
+
+2. om en till&#228;mpning av best&#228;mmelsen leder till en 
+betalningsinst&#228;llelse som kan utg&#246;ra grund f&#246;r att f&#246;rs&#228;tta 
+institutet i resolution eller konkurs. Lag (2020:1212).
+
+5 &#167; Ett institut som avser att vidta &#229;tg&#228;rder med st&#246;d av 4 &#167;
+1 ska underr&#228;tta Finansinspektionen innan &#229;tg&#228;rden vidtas.
+
+6 &#167; Om ett institut inte uppfyller kraven i detta kapitel,
+f&#229;r Finansinspektionen till&#228;mpa best&#228;mmelserna om ingripande
+i de lagar som reglerar institutets verksamhet.
+
+Detsamma g&#228;ller om
+
+1. ett institut inte uppfyller en systemriskbuffert som
+beslutats av Finansinspektionen i enlighet med 4 kap., och
+
+2. ett ingripande med st&#246;d av 2 &#167; inte bed&#246;ms leda till en
+tillfredsst&#228;llande hantering av relevant systemrisk.
+
+N&#228;r ett institut inte ska anses uppfylla ett buffertkrav
+
+7 &#167; Ett institut ska inte anses uppfylla det kombinerade 
+buffertkravet enligt detta kapitel om det inte har kapitalbas 
+i den m&#228;ngd och av den kvalitet som beh&#246;vs f&#246;r att samtidigt 
+uppfylla det kombinerade buffertkravet enligt 2 kap. 2 &#167; med 
+till&#228;gg av de krav som f&#246;ljer av
+
+1. artikel 92.1 a, b eller c i tillsynsf&#246;rordningen, och
+
+2. ett beslut om s&#228;rskilt kapitalbaskrav enligt 2 kap. 1 &#167; 
+f&#246;rsta stycket 2 lagen (2014:968) om s&#228;rskild tillsyn &#246;ver 
+kreditinstitut och v&#228;rdepappersbolag. 
+
+Ett institut ska inte anses uppfylla kravet p&#229; en 
+bruttosoliditetsbuffert, om det inte har prim&#228;rkapital i den 
+m&#228;ngd som beh&#246;vs f&#246;r att samtidigt uppfylla kravet p&#229; 
+bruttosoliditetsbuffert enligt artikel 92.1a i 
+tillsynsf&#246;rordningen med till&#228;gg av de krav som f&#246;ljer av 
+
+1. artikel 92.1 d i samma f&#246;rordning, och
+
+2. ett beslut om s&#228;rskilt kapitalbaskrav enligt 2 kap. 1 &#167; 
+f&#246;rsta stycket 1 lagen om s&#228;rskild tillsyn &#246;ver kreditinstitut 
+och v&#228;rdepappersbolag. Lag (2020:1212).
+
+9 kap. Avgifter
+
+1 &#167; Finansinspektionen f&#229;r ta ut avgifter f&#246;r pr&#246;vning av
+ans&#246;kningar och anm&#228;lningar enligt denna lag.
+
+10 kap. Bemyndiganden
+
+1 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om 
+
+1. de principer som ska beaktas vid fastst&#228;llandet och 
+graderingen av systemriskbufferten enligt 4 kap. 1 &#167;,
+
+2. fastst&#228;llandet av geografisk tillh&#246;righet hos exponeringar 
+avseende systemriskbufferten samt hur de geografiska 
+systemriskbuffertkraven ska sammanv&#228;gas,
+
+3. hur systemriskbufferten ska ber&#228;knas enligt 4 kap. 2 &#167; och 
+vilka exponeringar bufferten f&#229;r g&#228;lla,
+
+4. bed&#246;mningsgrunder f&#246;r n&#228;r ett institut ska utses till 
+globalt systemviktigt eller ska flyttas till en h&#246;gre kategori 
+av globalt systemviktiga institut,
+
+5. hur &#246;vriga systemviktiga institut ska identifieras och hur 
+bed&#246;mning av tillh&#246;rande kapitalbuffertkrav ska ske enligt 
+5 kap. 3 och 4 &#167;&#167;,
+
+6. vilka kreditexponeringar som i enlighet med 6 kap. 1 &#167; ska 
+beaktas vid ber&#228;kningen av den kontracykliska 
+kapitalbufferten,
+
+7. ber&#228;kningen av det viktade genomsnittet av de 
+kontracykliska buffertv&#228;rdena enligt 6 kap. 1 &#167;,
+
+8. skyldighet f&#246;r instituten att ange sina kreditexponeringars 
+geografiska omr&#229;de,
+
+9. hur h&#246;gsta f&#246;rfogandebelopp enligt 8 kap. 1 &#167; ska ber&#228;knas 
+och rapporteras,
+
+10. de krav som en kapitalkonserveringsplan enligt 8 kap. 1 &#167; 
+ska uppfylla, och
+
+11. underr&#228;ttelseskyldigheten enligt 8 kap. 5 &#167;.
+Lag (2021:482).
+
+2 &#167; Regeringen f&#229;r meddela f&#246;reskrifter om s&#229;dana avgifter
+som avses i 9 kap. 1 &#167;.
+
+11 kap. &#214;verklaganden
+
+1 &#167; Finansinspektionens beslut enligt denna lag eller med 
+st&#246;d av f&#246;reskrifter som har meddelats med st&#246;d av lagen f&#229;r 
+&#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till 
+kammarr&#228;tten.
+
+Finansinspektionen f&#229;r best&#228;mma att ett beslut ska g&#228;lla 
+omedelbart. Lag (2018:855).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2020:1212
+
+1. Denna lag tr&#228;der i kraft den 29 december 2020.
+
+2. Best&#228;mmelserna i 8 kap. avseende kravet p&#229; 
+bruttosoliditetsbuffert enligt artikel 92.1a i 
+tillsynsf&#246;rordningen till&#228;mpas f&#246;rsta g&#229;ngen den 1 januari 
+2023.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1207">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1209">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

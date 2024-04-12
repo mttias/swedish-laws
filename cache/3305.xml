@@ -1,0 +1,908 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="1993-11-24" /> 
+ <meta id="rattsinfo-edited" content="2018-12-14" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3305</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3304">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3306">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1993:1153 ·
+                    <a href="/sfsr?bet=1993:1153">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1993:1153) om redovisning av studier m.m. vid universitet och h&#246;gskolor</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Utbildningsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1993-10-28
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Omtryck:</span> 2001:1133
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:1361
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1993-12-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+Inledning
+
+1 &#167; I denna f&#246;rordning finns det best&#228;mmelser om 
+
+1. registrering av uppgifter om studier inom utbildning p&#229; 
+grundniv&#229;, avancerad niv&#229; och forskarniv&#229; vid statliga 
+universitet och h&#246;gskolor (2 kap.), 
+
+2. rapportering av uppgifter till Statistiska centralbyr&#229;n 
+(SCB) om studenter f&#246;r officiell statistik (3 kap.), 
+
+3. framst&#228;llning av personalstatistik vid SCB (3 kap.), 
+
+4. registrering av uppgifter om studie- och yrkesmeriter vid 
+Universitets- och h&#246;gskoler&#229;det (4 kap.). 
+
+Denna f&#246;rordning g&#228;ller vid helt eller delvis automatiserad 
+behandling av personuppgifter. 
+
+Ett universitet, en h&#246;gskola, SCB och Universitets- och 
+h&#246;gskoler&#229;det &#228;r personuppgiftsansvariga f&#246;r behandling av 
+personuppgifter i sin verksamhet. F&#246;rordning (2018:1361).
+
+F&#246;rh&#229;llandet till annan reglering
+
+1 a &#167; Denna f&#246;rordning kompletterar Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2016/679 av den 27 april 2016 om skydd 
+f&#246;r fysiska personer med avseende p&#229; behandling av 
+personuppgifter och om det fria fl&#246;det av s&#229;dana uppgifter 
+och om upph&#228;vande av direktiv 95/46/EG (allm&#228;n 
+dataskyddsf&#246;rordning), h&#228;r ben&#228;mnd EU:s 
+dataskyddsf&#246;rordning.
+
+Termer och uttryck i denna f&#246;rordning har samma betydelse som 
+i EU:s dataskyddsf&#246;rordning. F&#246;rordning (2018:1361).
+
+1 b &#167; Vid behandling av personuppgifter enligt denna 
+f&#246;rordning g&#228;ller lagen (2018:218) med kompletterande 
+best&#228;mmelser till EU:s dataskyddsf&#246;rordning och f&#246;reskrifter 
+som har meddelats i anslutning till den lagen, om inte annat 
+f&#246;ljer av denna f&#246;rordning. F&#246;rordning (2018:1361).
+
+Definitioner
+
+2 &#167; Med h&#246;gskolor avses i forts&#228;ttningen b&#229;de universitet och
+h&#246;gskolor. F&#246;rordning (2007:264).
+
+3 &#167; I denna f&#246;rordning avses med
+
+student: den som ans&#246;ker till utbildning vid en h&#246;gskola, den
+som antas till utbildning vid en h&#246;gskola och den som bedriver
+studier vid h&#246;gskolan, och
+
+doktorand: en student som antas till utbildning p&#229; forskarniv&#229;
+vid en h&#246;gskola och den som bedriver studier p&#229; forskarniv&#229; vid
+h&#246;gskolan. F&#246;rordning (2007:264).
+
+4 &#167; Har upph&#228;vts genom f&#246;rordning (2018:1361).
+
+5 &#167; Har upph&#228;vts genom f&#246;rordning (2018:1361).
+
+6 &#167; Har upph&#228;vts genom f&#246;rordning (2018:1361).
+
+2 kap. Studieregister
+
+Allm&#228;nna best&#228;mmelser
+
+1 &#167; Varje h&#246;gskola ska dokumentera uppgifter om 
+studenter.
+Varje h&#246;gskola ska f&#246;ra ett studieregister och d&#228;r ange 
+uppgifterna individuellt f&#246;r varje student. Registret f&#229;r 
+f&#246;ras med hj&#228;lp av automatiserad behandling. 
+
+Om en h&#246;gskola avser att inf&#246;ra ett nytt system f&#246;r att f&#246;ra 
+registret eller g&#246;ra v&#228;sentliga f&#246;r&#228;ndringar i ett befintligt 
+system, ska h&#246;gskolan samr&#229;da dels med Ekonomistyrningsverket 
+i syfte att s&#228;kerst&#228;lla att de uppgifter i registret som 
+ligger till grund f&#246;r resurstilldelningen blir 
+tillf&#246;rlitliga, dels med Universitetskanslers&#228;mbetet och 
+Universitets- och h&#246;gskoler&#229;det i syfte att s&#228;kerst&#228;lla att 
+uppgifterna i registret uppfyller krav p&#229; kvalitet och 
+j&#228;mf&#246;rbarhet mellan olika h&#246;gskolor. F&#246;rordning (2018:1361).
+
+&#196;ndam&#229;let med registret
+
+2 &#167; &#196;ndam&#229;let med studieregistret &#228;r att s&#228;kra att uppgifter
+om s&#246;kande till utbildning, genomg&#229;ngna studier, betyg &#246;ver
+utbildningar och examina bevaras. H&#228;rut&#246;ver ska uppgifterna
+kunna l&#228;ggas till grund f&#246;r uppf&#246;ljning och utv&#228;rdering, f&#246;r
+antagning av studenter, f&#246;r beslut om anm&#228;lningsavgift och
+studieavgift, f&#246;r avst&#228;ngning av studieavgiftsskyldiga
+studenter, f&#246;r administration inom respektive h&#246;gskola, f&#246;r
+&#228;ndam&#229;l som anges i 6 och 6 a &#167;&#167;, f&#246;r s&#229;dan officiell
+statistik som avses i 3 kap. samt f&#246;r resurstilldelning.
+
+Registret f&#229;r anv&#228;ndas &#228;ven f&#246;r forskning.
+F&#246;rordning (2010:595).
+
+Uppgifter om studenter
+
+3 &#167; I studieregistret ska det f&#246;r varje student dokumenteras
+uppgifter om
+
+1. beh&#246;righet,
+
+2. urvalsgrund,
+
+3. skyldighet att betala anm&#228;lningsavgift och studieavgift,
+
+4. betalning av anm&#228;lningsavgift och studieavgift,
+
+5. antagning,
+
+6. deltagande i utbildning och prov,
+
+7. studieresultat,
+
+8. betyg,
+
+9. tillgodor&#228;knad utbildning eller annan tillgodor&#228;knad
+verksamhet, och
+
+10. examen.
+
+Studieregistret ska d&#228;rut&#246;ver inneh&#229;lla s&#229;dana uppgifter som
+kr&#228;vs f&#246;r att h&#246;gskolan ska kunna l&#228;mna uppgifter till SCB
+enligt 3 kap. och Universitets- och h&#246;gskoler&#229;det enligt 4
+kap.
+
+Studieregistret f&#229;r ocks&#229; inneh&#229;lla de uppgifter om studenter
+som beh&#246;vs f&#246;r resultatredovisning. F&#246;rordning (2012:713).
+
+4 &#167; Uppgifterna i studieregistret om dels deltagande i
+utbildning, dels studieresultat skall f&#246;ras i kronologisk och
+systematisk ordning. Underlaget f&#246;r uppgifterna skall behandlas
+i enlighet med f&#246;reskrifterna om verifikationer i f&#246;rordningen
+(2000:606) om myndigheters bokf&#246;ring. F&#246;rordning (2001:1133).
+
+5 &#167; I studieregistret skall varje students identitet anges med
+hj&#228;lp av namn och personnummer. Om ett svenskt personnummer
+saknas, anges ett f&#246;r denna student vid h&#246;gskolan unikt nummer.
+
+Behandling av k&#228;nsliga personuppgifter
+
+5 a &#167; Best&#228;mmelser om myndigheters behandling av k&#228;nsliga 
+personuppgifter finns i 3 kap. 3 &#167; lagen (2018:218) med 
+kompletterande best&#228;mmelser till EU:s dataskyddsf&#246;rordning.
+F&#246;rordning (2018:1361). 
+
+Utl&#228;mnande av uppgifter
+
+6 &#167; Uppgifter p&#229; medium f&#246;r automatiserad behandling f&#229;r
+l&#228;mnas ut fr&#229;n en h&#246;gskolas studieregister till
+
+1. en annan h&#246;gskola, om uppgifterna r&#246;r beh&#246;righet och
+underlag f&#246;r urval eller studiemeriter som en student vill
+tillgodor&#228;kna sig eller &#229;beropa i samband med antagning till
+en utbildning eller utf&#228;rdande av examen, eller om
+uppgifterna beh&#246;vs f&#246;r utbildningssamarbete eller annan
+&#246;verenskommen samverkan mellan h&#246;gskolorna,
+
+2. ett l&#228;ros&#228;te i en annan stat inom Europeiska ekonomiska
+samarbetsomr&#229;det eller i Schweiz under samma f&#246;ruts&#228;ttningar
+som uppgifter f&#229;r l&#228;mnas ut till en h&#246;gskola enligt 1,
+
+3. Centrala studiest&#246;dsn&#228;mnden, om uppgifterna beh&#246;vs f&#246;r
+beviljande och utbetalning av studiest&#246;d,
+
+4. Universitets- och h&#246;gskoler&#229;det eller n&#229;got annat organ
+som bitr&#228;der h&#246;gskolan med automatiserad behandling av
+ans&#246;kningar till en utbildning, om uppgifterna beh&#246;vs f&#246;r att
+genomf&#246;ra arbetet,
+
+5. SCB, enligt best&#228;mmelserna i denna f&#246;rordning,
+
+6. en annan myndighet, om uppgifterna beh&#246;vs f&#246;r att
+handl&#228;gga &#228;renden om utf&#228;rdande av yrkeslegitimation eller
+meddelande av annan beh&#246;righet f&#246;r ett yrke,
+
+7. en myndighet i en annan stat inom Europeiska ekonomiska
+samarbetsomr&#229;det eller i Schweiz under samma f&#246;ruts&#228;ttningar
+som uppgifter f&#229;r l&#228;mnas ut till svenska myndigheter enligt
+denna paragraf,
+
+8. en studentk&#229;r som har s&#229;dan st&#228;llning enligt beslut av
+h&#246;gskolan enligt 4 kap. 8 &#167; h&#246;gskolelagen (1992:1434) eller
+en nation som har s&#229;dan st&#228;llning enligt 4 kap. 15 &#167;
+h&#246;gskolelagen, om uppgifterna r&#246;r en students registrering p&#229;
+kurser och beh&#246;vs f&#246;r att studentk&#229;ren eller nationen ska
+kunna best&#228;mma om han eller hon har r&#228;tt att vara medlem i
+studentk&#229;ren eller nationen,
+
+9. en student, om uppgifterna r&#246;r honom eller henne
+sj&#228;lv,
+
+10. Vetenskapsr&#229;det, Verket f&#246;r innovationssystem,
+Forskningsr&#229;det f&#246;r milj&#246;, areella n&#228;ringar och
+samh&#228;llsbyggande samt Forskningsr&#229;det f&#246;r h&#228;lsa, arbetsliv
+och v&#228;lf&#228;rd, om uppgifterna beh&#246;vs f&#246;r beviljande av medel
+f&#246;r forskning,
+
+11. Svenska institutet, om uppgifterna beh&#246;vs f&#246;r beviljande
+och utbetalning av stipendier, och
+
+12. Universitetskanslers&#228;mbetet, om uppgifterna beh&#246;vs f&#246;r
+uppf&#246;ljning eller f&#246;r att granska hur effektivt verksamheten
+bedrivs vid universitet och h&#246;gskolor. F&#246;rordning (2015:133).
+
+6 a &#167; H&#246;gskolan ska utan dr&#246;jsm&#229;l till Migrationsverket l&#228;mna
+ut uppgift om att
+
+1. en studieavgiftsskyldig student har antagits till en
+utbildning, och
+
+2. en student som avses i 1 inte har registrerat sig p&#229;
+utbildningen.
+
+Om det, utifr&#229;n de uppgifter som finns registrerade om en
+studieavgiftsskyldig student, finns anledning att anta att
+studenten har avbrutit sina studier, ska h&#246;gskolan meddela
+Migrationsverket detta.
+
+De uppgifter som avses i f&#246;rsta och andra styckena f&#229;r l&#228;mnas
+ut p&#229; medium f&#246;r automatiserad behandling.
+F&#246;rordning (2010:595).
+
+Gallring
+
+7 &#167; F&#246;r gallring av studieregistret g&#228;ller 10 &#167; f&#246;rsta och
+andra styckena arkivlagen (1990:782), om inte n&#229;got annat
+f&#246;reskrivs i denna f&#246;rordning.
+
+Uppgifter om den utbildning som en student har genomg&#229;tt med
+godk&#228;nt resultat eller f&#229;tt tillgodor&#228;kna sig vid h&#246;gskolan, om
+studentens betyg i godk&#228;nda prov och om den eller de examina
+som studenten har avlagt f&#229;r inte gallras.
+
+Uppgifter om en s&#246;kande som inte har antagits till utbildning
+vid h&#246;gskolan eller om en s&#246;kande som har antagits men inte
+p&#229;b&#246;rjat sina studier skall gallras s&#229; snart det kan g&#246;ras med
+h&#228;nsyn till
+
+1. h&#246;gskolans eget behov av material f&#246;r uppf&#246;ljningar och
+statistiska bearbetningar,
+
+2. kraven p&#229; resultatredovisning, och
+
+3. kraven p&#229; rapportering f&#246;r den officiella statistiken.
+F&#246;rordning (2001:1133).
+
+8 &#167; En uppgift om medborgarskap som h&#246;gskolan beh&#246;ver f&#246;r
+beslut om skyldighet att betala anm&#228;lningsavgift eller
+studieavgift ska gallras s&#229; snart studieregistret har
+uppdaterats med uppgift om huruvida studenten tillh&#246;r den
+personkrets som ska betala anm&#228;lningsavgift eller
+studieavgift. F&#246;rordning (2010:595).
+
+3 kap. Rapportering f&#246;r officiell statistik
+
+Statistiska centralbyr&#229;ns universitets- och h&#246;gskoleregister
+
+&#196;ndam&#229;let med registret
+
+1 &#167; SCB skall f&#246;ra ett register och d&#228;r ange uppgifterna
+individuellt f&#246;r varje student. Registret f&#229;r f&#246;ras med hj&#228;lp
+av automatiserad behandling. F&#246;rordning (2001:1133).
+
+2 &#167; Registret f&#229;r anv&#228;ndas av SCB f&#246;r att ge underlag f&#246;r att
+framst&#228;lla s&#229;dan officiell statistik &#246;ver utbildningen vid
+landets h&#246;gskolor som beh&#246;vs f&#246;r uppf&#246;ljning, utv&#228;rdering och
+information samt annan statistik, om &#228;ndam&#229;let med behandlingen
+inte &#228;r of&#246;renligt med n&#228;mnda &#228;ndam&#229;l.
+
+Registret f&#229;r anv&#228;ndas ocks&#229; f&#246;r forskning. F&#246;rordning
+(2001:1133).
+
+Uppgifter om studenter i utbildning p&#229; grundniv&#229; och avancerad
+niv&#229;
+
+3 &#167; Registret ska inneh&#229;lla uppgifter om samtliga studenter i
+utbildning p&#229; grundniv&#229; och avancerad niv&#229;. Uppgifterna f&#229;r
+h&#228;mtas fr&#229;n h&#246;gskolornas studieregister och ska omfatta
+f&#246;ljande:
+
+1. identitetsuppgifter,
+
+2. uppgifter om h&#246;gskola, registrering p&#229; kurser per termin
+eller kalenderhalv&#229;r,
+
+3. skyldighet att betala anm&#228;lningsavgift och studieavgift,
+
+4. betalning av anm&#228;lningsavgift och studieavgift,
+
+5. eventuellt utbildningsprogram som studenten har antagits
+till,
+
+6. avklarade h&#246;gskolepo&#228;ng p&#229; kurser f&#246;r varje termin eller
+kalenderhalv&#229;r,
+
+7. f&#246;r avlagd examen: examens namn och niv&#229;, inriktning,
+omfattning i h&#246;gskolepo&#228;ng, datum f&#246;r utf&#228;rdande av
+examensbevis och det huvudsakliga omr&#229;det (huvudomr&#229;det) f&#246;r
+utbildningen f&#246;r en kandidat-, magister- eller masterexamen,
+
+8. f&#246;r varje kurs:
+
+a) om kursen &#228;r p&#229; grundniv&#229; eller avancerad niv&#229;,
+
+b) kursens &#228;mnesgrupp enligt den definition som SCB anv&#228;nder,
+utbildningsomr&#229;de, f&#246;rdjupning enligt h&#246;gskolans bed&#246;mning och
+kursens omfattning i h&#246;gskolepo&#228;ng,
+
+c) kurstakt, kurstid och distributionsform,
+
+d) den kommun eller det land d&#228;r kursen huvudsakligen ges, och
+
+e) termin d&#229; kursen ges, samt
+
+9. f&#246;r studenter som har avlagt en generell eller konstn&#228;rlig
+examen p&#229; avancerad niv&#229;: tidigare avlagd examen enligt
+examenskraven f&#246;r den aktuella examen p&#229; avancerad niv&#229;.
+F&#246;rordning (2010:595).
+
+4 &#167; F&#246;ljande uppgifter fr&#229;n andra register inom SCB f&#229;r f&#246;ras
+in i SCB:s universitets- och h&#246;gskoleregister:
+
+1. genomg&#229;ngen linje, program eller kurs i gymnasieskolan,
+annan utbildningsbakgrund samt betyg,
+
+2. boendekommun f&#246;re och efter h&#246;gskolestudierna, och
+
+3. det land d&#228;r studenten har genomg&#229;tt utbildning som gett
+beh&#246;righet till den s&#246;kta utbildningen p&#229; grundniv&#229; eller
+avancerad niv&#229;. F&#246;rordning (2007:264).
+
+5 &#167; Fr&#229;n systemen f&#246;r antagning av studenter vid h&#246;gskolorna
+och Universitets- och h&#246;gskoler&#229;det f&#229;r uppgifter om f&#246;ljande
+f&#246;ras in i SCB:s universitets- och h&#246;gskoleregister:
+
+1. identitetsuppgifter,
+
+2. kurs, utbildningsprogram och h&#246;gskola som studenten s&#246;kt
+respektive antagits till,
+
+3. studentens prioritering av de s&#246;kta utbildningarna,
+
+4. beh&#246;righet,
+
+5. skyldighet att betala anm&#228;lningsavgift och studieavgift,
+och
+
+6. betalning av anm&#228;lningsavgift och studieavgift.
+F&#246;rordning (2012:713).
+
+6 &#167; Fr&#229;n Centrala studiest&#246;dsn&#228;mndens register (STIS) f&#229;r
+f&#246;ljande uppgifter p&#229;f&#246;ras SCB:s universitets- och
+h&#246;gskoleregister:
+
+1. identitetsuppgifter,
+
+2. utbetalade studiemedel f&#246;rdelade p&#229; bidrag och l&#229;n per
+kalenderhalv&#229;r, och
+
+3. utlandsstudier.
+
+Uppgifter om doktorander
+
+7 &#167; Registret ska inneh&#229;lla uppgifter om samtliga doktorander.
+Uppgifterna f&#229;r h&#228;mtas fr&#229;n h&#246;gskolornas studieregister och
+ska omfatta f&#246;ljande:
+
+1. identitetsuppgifter,
+
+2. datum f&#246;r antagning och termin f&#246;r studiernas p&#229;b&#246;rjande,
+
+3. &#228;mne och h&#246;gskola samt, i f&#246;rekommande fall, s&#229;dan
+forskarskola som regeringen best&#228;mt,
+
+4. terminsvis registrering och aktivitet,
+
+5. typ av studiefinansiering,
+
+6. tidigare utbildning som gett beh&#246;righet till utbildningen
+p&#229; forskarniv&#229;,
+
+7. tillgodor&#228;knad utbildning eller annan tillgodor&#228;knad
+verksamhet i h&#246;gskolepo&#228;ng och, i f&#246;rekommande fall, om
+tillgodor&#228;knandet avser utbildning p&#229; grundniv&#229; eller
+avancerad niv&#229;,
+
+8. h&#246;gskola i Sverige eller det land d&#228;r doktoranden har
+genomg&#229;tt s&#229;dan utbildning som avses i 6 eller 7, och
+
+9. f&#246;r avlagd examen: examens namn och &#228;mne samt datum f&#246;r
+utf&#228;rdande av examensbevis. F&#246;rordning (2012:501).
+
+Gallring
+
+8 &#167; F&#246;r gallring av universitets- och h&#246;gskoleregistret g&#228;ller
+10 &#167; f&#246;rsta och andra styckena arkivlagen (1990:782), om inte
+n&#229;got annat f&#246;reskrivs i denna f&#246;rordning.
+
+Uppgifter om personnummer och h&#246;gskola f&#229;r gallras efter 30 &#229;r.
+
+Uppgifter om en s&#246;kande som inte har antagits till utbildning
+vid en h&#246;gskola eller om en s&#246;kande som har antagits men inte
+p&#229;b&#246;rjat sina studier ska gallras efter tio &#229;r.
+F&#246;rordning (2008:712).
+
+N&#228;rmare f&#246;reskrifter
+
+9 &#167; SCB f&#229;r, efter samr&#229;d med Universitetskanslers&#228;mbetet och
+h&#246;gskolorna, meddela n&#228;rmare f&#246;reskrifter om hur uppgifterna
+ska rapporteras till SCB. F&#246;rordning (2012:713).
+
+Personalstatistik
+
+10 &#167; Som underlag f&#246;r statistik &#246;ver h&#246;gskolornas personal ska
+SCB ur s&#229;dana register som finns inom SCB sammanst&#228;lla
+f&#246;ljande uppgifter om de personer som &#228;r anst&#228;llda vid en
+h&#246;gskola:
+
+1. identitetsuppgifter,
+
+2. h&#246;gskola,
+
+3. anst&#228;llningskategori,
+
+4. grupper av &#228;mnen som en l&#228;rare och, i f&#246;rekommande fall,
+&#246;vrig personal huvudsakligen &#228;r verksam inom,
+
+5. arbetets omfattning och om personen har en anst&#228;llning
+tills vidare eller en tidsbegr&#228;nsad anst&#228;llning,
+
+6. utbildningsbakgrund, och
+
+7. h&#246;gskola d&#228;r examen avlagts.
+
+Uppgifterna ska sammanst&#228;llas i ett register som f&#246;rs med
+hj&#228;lp av automatiserad behandling. F&#246;rordning (2012:501).
+
+11 &#167; Ny beteckning 1 kap. 5 &#167; genom f&#246;rordning (2005:665).
+
+12 &#167; Ny beteckning 1 kap. 6 &#167; genom f&#246;rordning (2005:665).
+
+4 kap. Antagningsregister
+
+&#196;ndam&#229;let med registret
+
+1 &#167; Universitets- och h&#246;gskoler&#229;det f&#229;r f&#246;ra ett
+antagningsregister och d&#228;r ange uppgifterna individuellt f&#246;r
+varje student. Registret f&#229;r f&#246;ras med hj&#228;lp av automatiserad
+behandling.
+
+&#196;ndam&#229;let med registret &#228;r att vara till hj&#228;lp f&#246;r h&#246;gskolor
+vid antagning av studenter. Uppgifterna f&#229;r ocks&#229; anv&#228;ndas f&#246;r
+&#228;ndam&#229;l som anges i 4 &#167;, f&#246;r s&#229;dan officiell statistik som
+avses i 3 kap. och f&#246;r forskning. F&#246;rordning (2012:713).
+
+Uppgifter om studenter
+
+2 &#167; Uppgifterna i antagningsregistret f&#229;r h&#228;mtas in fr&#229;n
+h&#246;gskolornas studieregister och f&#229;r omfatta f&#246;ljande:
+
+1. de uppgifter som anges i 2 kap. 3 &#167; f&#246;rsta stycket,
+
+2. beh&#246;righetsgrundande meriter,
+
+3. urvalsgrundande meriter och uppgifter, och
+
+4. de uppgifter i &#246;vrigt som en student &#229;beropar i samband med
+antagning till en utbildning, med undantag f&#246;r s&#229;dana
+uppgifter som en student l&#228;mnar in som underlag f&#246;r beslut om
+anm&#228;lningsavgift eller studieavgift.
+
+Varje students identitet ska anges p&#229; det s&#228;tt som f&#246;reskrivs
+i 2 kap. 5 &#167;. F&#246;rordning (2010:595).
+
+Behandling av k&#228;nsliga personuppgifter
+
+3 &#167; Best&#228;mmelser om myndigheters behandling av k&#228;nsliga 
+personuppgifter finns i 3 kap. 3 &#167; lagen (2018:218) med 
+kompletterande best&#228;mmelser till EU:s dataskyddsf&#246;rordning.
+F&#246;rordning (2018:1361).
+
+Utl&#228;mnande av uppgifter
+
+4 &#167; Uppgifter p&#229; medium f&#246;r automatiserad behandling f&#229;r 
+l&#228;mnas ut fr&#229;n antagningsregistret till
+
+1. en h&#246;gskola, om uppgifterna r&#246;r
+
+a) beh&#246;righet och underlag f&#246;r urval eller studiemeriter som 
+en student vill tillgodor&#228;kna sig eller &#229;beropa i samband med 
+antagning till en utbildning eller utf&#228;rdande av examen,
+
+b) skyldighet att betala anm&#228;lningsavgift och studieavgift, 
+och
+
+c) uppgift om betald anm&#228;lningsavgift och studieavgift,
+
+2. Centrala studiest&#246;dsn&#228;mnden, om uppgifterna beh&#246;vs f&#246;r 
+beviljande och utbetalning av studiest&#246;d,
+
+3. SCB, enligt best&#228;mmelserna i denna f&#246;rordning,
+
+4. en student, om uppgifterna r&#246;r honom eller henne sj&#228;lv,
+
+5. Svenska institutet, om uppgifterna beh&#246;vs f&#246;r beviljande 
+och utbetalning av stipendier, och
+
+6. S&#228;kerhetspolisen, om uppgifterna beh&#246;vs f&#246;r att 
+myndigheten ska kunna fullg&#246;ra verksamhet som anges i 3 &#167; 
+polislagen (1984:387). F&#246;rordning (2017:260).
+
+Direkt&#229;tkomst
+
+5 &#167; Den registrerade f&#229;r ha direkt&#229;tkomst till s&#229;dana
+personuppgifter om sig sj&#228;lv i antagningsregistret som f&#229;r
+l&#228;mnas ut till henne eller honom. Vid s&#229;dan direkt&#229;tkomst skall
+den registrerades identitet kontrolleras genom en s&#228;ker metod
+f&#246;r identifiering. F&#246;rordning (2005:665).
+
+Gallring
+
+6 &#167; F&#246;r gallring av antagningsregistret g&#228;ller 10 &#167; f&#246;rsta
+och andra styckena arkivlagen (1990:782), om inte n&#229;got annat
+f&#246;reskrivs i denna f&#246;rordning.
+
+Uppgifter om en student ska gallras tio &#229;r efter det att
+uppgifterna senast har p&#229;f&#246;rts.
+
+En uppgift om medborgarskap som Universitets- och
+h&#246;gskoler&#229;det beh&#246;ver som underlag f&#246;r beslut om
+anm&#228;lningsavgift eller studieavgift ska gallras s&#229; snart
+antagningsregistret har uppdaterats med uppgift om huruvida
+studenten tillh&#246;r den personkrets som ska betala
+anm&#228;lningsavgift eller studieavgift.
+F&#246;rordning (2013:78).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1993:1153
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 december 1993, d&#229;
+f&#246;rordningen (1981:516) om studiedokumentation och statistik
+r&#246;rande h&#246;gskolestuderande upph&#246;r att g&#228;lla.
+
+2. Register som har f&#246;rts med st&#246;d av den f&#246;rordningen skall
+bevaras till dess att regeringen meddelar annat. De f&#229;r dock
+gallras. Gallring skall ske enligt best&#228;mmelserna i 2 kap. 6 &#167;
+respektive 3 kap. 9 &#167; i denna f&#246;rordning.
+
+3. Denna f&#246;rordning skall till&#228;mpas p&#229; verksamhet som har
+bedrivits fr&#229;n och med den 1 juli 1993.
+
+4. F&#246;reskriften i 4 kap. 8 &#167; om j&#228;mf&#246;relse med tidigare &#229;rs
+resultat till&#228;mpas s&#229; l&#229;ngt det &#228;r m&#246;jligt n&#228;r det g&#228;ller
+j&#228;mf&#246;relse med verksamhets&#229;r f&#246;re ikrafttr&#228;dandet.
+
+5. F&#246;reskriften i 1 kap. 4 &#167; om information g&#228;ller ans&#246;kningar
+till utbildning som b&#246;rjar efter utg&#229;ngen av juni 1994.
+
+1994:1094
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1994. En h&#246;gskola
+f&#229;r dock tilll&#228;mpa 4 kap. 11 &#167; vid redovisningen av
+verksamheten under budget&#229;ret den 1 juli 1993-den 30 juni 1994.
+
+1995:668
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 15 juni 1995.
+
+2. Best&#228;mmelsen i 4 kap. 2 &#167; skall, n&#228;r det g&#228;ller j&#228;mf&#246;relser
+med verksamhets&#229;r f&#246;re budget&#229;ret den 1 juli 1993-den 30 juni
+1994, till&#228;mpas i den m&#229;n det &#228;r m&#246;jligt.
+
+3. Best&#228;mmelserna i 4 kap. 13 &#167; till&#228;mpas fr&#229;n och med
+budget&#229;ret den 1 juli 1995 - den 31 december 1996. H&#246;gskolan
+skall dock till&#228;mpa best&#228;mmelserna i sin redovisning av
+verksamheten under budget&#229;ret den 1 juli 1994 - den 30 juni
+1995 i den m&#229;n det &#228;r m&#246;jligt. &#196;r detta inte m&#246;jligt skall
+h&#246;gskolan avseende studenter som antagits som g&#228;ststudenter
+redovisa antalet hel&#229;rsstudenter f&#246;rdelade p&#229;
+utbildningsomr&#229;den.
+
+4. Best&#228;mmelsen i 4 kap. 14 &#167; femte stycket om att
+myndighetskapitalet skall redovisas uppdelat p&#229;
+verksamhetsgrenar till&#228;mpas fr&#229;n och med budget&#229;ret den 1 juli
+1995 - den 31 december 1996.
+
+5. Best&#228;mmelserna i 4 kap. 17 &#167; till&#228;mpas fr&#229;n och med
+budget&#229;ret den 1 juli 1995 - den 31 december 1996.
+
+1999:1418
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 februari 2000.
+
+2. De nya best&#228;mmelserna skall till&#228;mpas, i fr&#229;ga om 3 kap. 8 &#167;
+f&#246;rsta stycket 4 fr&#229;n och med budget&#229;ret 2001, och i &#246;vrigt
+fr&#229;n och med budget&#229;ret 2000.
+
+3. &#196;ldre best&#228;mmelser skall till&#228;mpas f&#246;r budget&#229;ret 1999.
+Uppgifter om verksamheten och forskarutbildningen enligt &#228;ldre
+best&#228;mmelser i 4 kap. 3 &#167; 4 och 9 &#167; f&#246;rsta stycket 2 skall dock
+inte redovisas i &#229;rsredovisningen f&#246;r &#229;r 1999. Redovisning av
+all personal i antal person&#229;r f&#246;rdelade p&#229; tj&#228;nstekategorier
+och l&#228;rarna f&#246;rdelade p&#229; tj&#228;nstekategorier f&#246;r varje fakultet
+eller motsvarande enligt &#228;ldre best&#228;mmelser i 4 kap. 11 &#167;
+f&#246;rsta och andra stycket samt angivande av f&#246;rdelningen p&#229;
+&#229;ldersgrupper och k&#246;n enligt &#228;ldre best&#228;mmelser i 4 kap. 12 &#167; 1
+skall inte heller redovisas i &#229;rsredovisningen f&#246;r &#229;r 1999;
+dessa uppgifter skall dock l&#228;mnas till H&#246;gskoleverket.
+
+2001:1133
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2002. &#196;ldre
+best&#228;mmelser i 4 kap. 7 och 8 &#167;&#167; samt 16 &#167; andra stycket skall
+dock till&#228;mpas f&#246;r budget&#229;ret 2001.
+
+2007:264
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2007.
+
+2. De &#228;ldre best&#228;mmelserna skall till&#228;mpas i fr&#229;ga om uppgifter
+om studenter p&#229; kurser eller motsvarande del av
+forskarutbildning som b&#246;rjar f&#246;re den 1 juli 2007 och
+forts&#228;tter d&#228;refter.
+
+3. De &#228;ldre best&#228;mmelserna i 3 kap. 3 &#167; 5 skall till&#228;mpas i
+fr&#229;ga om uppgifter om examina som utf&#228;rdas efter utg&#229;ngen av
+juni 2007, om den utbildning som examensbeviset omfattar i sin
+helhet har slutf&#246;rts dessf&#246;rinnan eller om en student enligt
+punkt 5 i &#246;verg&#229;ngsbest&#228;mmelserna till f&#246;rordningen (2006:1053)
+om &#228;ndring i h&#246;gskolef&#246;rordningen (1993:100) utnyttjat sin r&#228;tt
+att slutf&#246;ra sin utbildning f&#246;r att f&#229; en examen enligt &#228;ldre
+best&#228;mmelser.
+
+4. I s&#229;dana fall som avses i 3 skall Statistiska centralbyr&#229;ns
+universitets- och h&#246;gskoleregister inneh&#229;lla uppgift om examens
+omfattning i b&#229;de h&#246;gskolepo&#228;ng och po&#228;ng enligt vad som anges
+om examensbevis i punkt 7 i &#246;verg&#229;ngsbest&#228;mmelserna till
+f&#246;rordningen (2006:1053) om &#228;ndring i h&#246;gskolef&#246;rordningen
+(1993:100).
+
+2010:595
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2010 och till&#228;mpas
+f&#246;rsta g&#229;ngen p&#229; uppgifter som avser utbildning som avses
+bedrivas efter den 31 juli 2011.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3304">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3306">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

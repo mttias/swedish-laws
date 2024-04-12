@@ -1,0 +1,872 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2022-05-04" /> 
+ <meta id="rattsinfo-edited" content="2022-09-19 10:30:35" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>265</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=264">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=266">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2022:301 ·
+                    <a href="/sfsr?bet=2022:301">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2022:301) om till&#228;mpning av avtalet om social trygghet mellan Sverige och Japan</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2022-04-28
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2022-06-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Den administrativa &#246;verenskommelse om till&#228;mpning av 
+avtalet om social trygghet mellan Sverige och Japan vilken 
+undertecknades den 10 februari 2022 ska g&#228;lla som f&#246;rordning 
+h&#228;r i landet. Till&#228;mpnings&#246;verenskommelsens inneh&#229;ll framg&#229;r 
+av en bilaga till denna f&#246;rordning.
+
+2 &#167; F&#246;rs&#228;kringskassan f&#229;r meddela f&#246;reskrifter om den 
+procentsats som sjukf&#246;rs&#228;kringsavgiften ska uppg&#229; till enligt 
+2 &#167; lagen (2021:989) om avtal om social trygghet mellan 
+Sverige och Japan.
+
+
+Bilaga
+
+TILL&#196;MPNINGS&#214;VERENSKOMMELSE OM GENOMF&#214;RANDE AV AVTALET MELLAN 
+KONUNGARIKET SVERIGE OCH JAPAN OM SOCIAL TRYGGHET
+
+I enlighet med artikel 19.1 a i avtalet mellan Konungariket 
+Sverige och Japan om social trygghet, som undertecknades i 
+Stockholm den 11 april 2019, har de beh&#246;riga myndigheterna i 
+Konungariket Sverige (nedan kallat Sverige) och Japan beslutat 
+f&#246;ljande.
+
+AVDELNING I
+
+ALLM&#196;NNA BEST&#196;MMELSER
+
+Artikel 1
+
+Definitioner
+
+1. I denna till&#228;mpnings&#246;verenskommelse avses med avtal avtalet 
+mellan Konungariket Sverige och Japan om social trygghet, som 
+undertecknades i Stockholm den 11 april 2019.
+
+2. Alla andra ord och uttryck som anv&#228;nds i denna 
+till&#228;mpnings&#246;verenskommelse ska ha samma betydelse som i 
+avtalet.
+
+Artikel 2
+
+Beh&#246;riga institutioner
+
+De beh&#246;riga institutioner som avses i artikel 1.1 e i avtalet 
+&#228;r f&#246;ljande:
+
+a) F&#246;r Japan:
+
+i) Ministern f&#246;r h&#228;lsa, arbete och v&#228;lf&#228;rd och Japans 
+pensionstj&#228;nst (the Minister of Health, Labour and Welfare and 
+the Japan Pension Service), f&#246;r den nationella pensionen (the 
+National Pension) och f&#246;r pensionsf&#246;rs&#228;kringen f&#246;r anst&#228;llda 
+(the Employees&#39; Pension Insurance) om f&#246;rs&#228;kringstagare i 
+kategori I i pensionsf&#246;rs&#228;kringen f&#246;r anst&#228;llda &#228;r ber&#246;rda, 
+
+ii) Centralorganisationen f&#246;r offentliganst&#228;lldas f&#246;rs&#228;krings-
+kassor (the Federation of National Public Service Personnel 
+Mutual Aid Associations) och varje enskild f&#246;rs&#228;kringskassa 
+f&#246;r offentliganst&#228;llda (National Public Service Personnel 
+Mutual Aid Associations), f&#246;r pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda (the Employees&#39; Pension Insurance) om 
+f&#246;rs&#228;kringstagare i kategori II i pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda &#228;r ber&#246;rda,
+
+iii) Pensionsfondsf&#246;reningen f&#246;r anst&#228;llda vid lokala 
+myndigheter (the Pension Fund Association for Local Government 
+Officials) och varje pensionsfond f&#246;r anst&#228;llda vid lokala 
+myndigheter (Pension Fund for Local Government Officials), f&#246;r 
+pensionsf&#246;rs&#228;kringen f&#246;r anst&#228;llda (the Employees&#39; Pension 
+Insurance) om f&#246;rs&#228;kringstagare i kategori III i 
+pensionsf&#246;rs&#228;kringen f&#246;r anst&#228;llda &#228;r ber&#246;rda, och
+
+iv) Organisationen f&#246;r fr&#228;mjande av och f&#246;rs&#228;kringskassan f&#246;r 
+Japans privatskolor (the Promotion and Mutual Aid Corporation 
+for Private Schools of Japan), f&#246;r pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda (the Employees&#39; Pension Insurance) om 
+f&#246;rs&#228;kringstagare i kategori IV i pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda &#228;r ber&#246;rda.
+
+b) F&#246;r Sverige:
+
+i) F&#246;rs&#228;kringskassan, vid till&#228;mpning av best&#228;mmelserna i del 
+II och till&#228;mpliga best&#228;mmelser i avtalet,
+
+ii) F&#246;rs&#228;kringskassan, f&#246;r sjukers&#228;ttning och 
+aktivitetsers&#228;ttning,
+
+iii) Pensionsmyndigheten, f&#246;r inkomstgrundade &#229;lderspensioner, 
+garantipensioner, efterlevandepensioner och efterlevandest&#246;d, 
+och 
+
+iv) Skatteverket, f&#246;r socialavgifter med avseende p&#229; den lag-
+stiftning som avses i led b ii och b iii.
+
+Artikel 3
+
+F&#246;rbindelseorgan
+
+I enlighet med artikel 19.1 b i avtalet utses f&#246;ljande till 
+f&#246;rbindelseorgan:
+
+a) F&#246;r Japan:
+
+i) Ministern f&#246;r h&#228;lsa, arbete och v&#228;lf&#228;rd och Japans 
+pensionstj&#228;nst (the Minister of Health, Labour and Welfare and 
+the Japan Pension Service), f&#246;r den nationella pensionen (the 
+National Pension) och f&#246;r pensionsf&#246;rs&#228;kringen f&#246;r anst&#228;llda 
+(the Employees&#39; Pension Insurance) om f&#246;rs&#228;kringstagare i 
+kategori I i pensionsf&#246;rs&#228;kringen f&#246;r anst&#228;llda &#228;r ber&#246;rda,
+
+ii) Centralorganisationen f&#246;r offentliganst&#228;lldas f&#246;rs&#228;krings-
+kassor (the Federation of National Public Service Personnel 
+Mutual Aid Associations), f&#246;r pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda (the Employees&#39; Pension Insurance) om 
+f&#246;rs&#228;kringstagare i kategori II i pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda &#228;r ber&#246;rda,
+
+iii) Pensionsfondsf&#246;reningen f&#246;r anst&#228;llda vid lokala 
+myndigheter (the Pension Fund Association for 
+
+Local Government Officials), f&#246;r pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda (the Employees&#39; Pension Insurance) om 
+f&#246;rs&#228;kringstagare i kategori III i pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda &#228;r ber&#246;rda, och 
+
+iv) Organisationen f&#246;r fr&#228;mjande av och f&#246;rs&#228;kringskassan f&#246;r 
+Japans privatskolor (the Promotion and Mutual Aid Corporation 
+for Private Schools of Japan), f&#246;r pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda (the Employees&#39; Pension Insurance) om 
+f&#246;rs&#228;kringstagare i kategori IV i pensionsf&#246;rs&#228;kringen f&#246;r 
+anst&#228;llda &#228;r ber&#246;rda.
+
+b) F&#246;r Sverige:
+
+i) F&#246;rs&#228;kringskassan, vid till&#228;mpning av best&#228;mmelserna i del 
+II och till&#228;mpliga best&#228;mmelser i avtalet,
+
+ii) F&#246;rs&#228;kringskassan, f&#246;r sjukers&#228;ttning och 
+aktivitetsers&#228;ttning,
+
+iii) Pensionsmyndigheten, f&#246;r inkomstgrundade &#229;lderspensioner, 
+garantipensioner, efterlevandepensioner och efterlevandest&#246;d, 
+och
+
+iv) Skatteverket, f&#246;r socialavgifter med avseende p&#229; den lag-
+stiftning som avses i led b ii och b iii.
+
+AVDELNING II
+
+BEST&#196;MMELSER OM TILL&#196;MPLIG LAGSTIFTNING
+
+Artikel 4
+
+F&#246;rs&#228;kringsintyg f&#246;r anst&#228;llda och egenf&#246;retagare
+
+Om lagstiftningen i en avtalsslutande stat &#228;r till&#228;mplig p&#229; en 
+anst&#228;lld eller en egenf&#246;retagare i enlighet med artikel 7, 8, 
+9.2 eller 10 i avtalet ska den beh&#246;riga institutionen eller 
+f&#246;rbindelseorganet i den avtalsslutande staten utf&#228;rda ett 
+intyg till den ber&#246;rda personen som anger att den anst&#228;llda 
+eller egenf&#246;retagaren omfattas av lagstiftningen i den 
+avtalsslutande staten och som visar intygets giltighetstid. 
+Intyget ska styrka att den anst&#228;llda eller egenf&#246;retagaren &#228;r 
+undantagen fr&#229;n den andra avtalsslutande statens lagstiftning 
+om obligatorisk f&#246;rs&#228;kring.
+
+Artikel 5
+
+Kontakt f&#246;r en &#246;verenskommelse om ett undantag
+
+F&#246;r att komma &#246;verens om ett undantag i enlighet med artikel 
+10 i avtalet ska den beh&#246;riga institutionen i en 
+avtalsslutande stat som tar emot en beg&#228;ran om undantag fr&#229;n 
+en anst&#228;lld, en arbetsgivare eller en egenf&#246;retagare, genom 
+sitt f&#246;rbindelseorgan, kontakta den beh&#246;riga institutionen i 
+den andra avtalsslutande staten. 
+
+AVDELNING III
+
+BEST&#196;MMELSER OM F&#214;RM&#197;NER
+
+Artikel 6
+
+Ans&#246;kningar, &#246;verklaganden och meddelanden
+
+1. Om en beh&#246;rig myndighet eller beh&#246;rig institution i en av-
+talsslutande stat tar emot en ans&#246;kan om f&#246;rm&#229;n f&#246;r en person 
+av vilken det framg&#229;r att han eller hon har 
+f&#246;rs&#228;kringsperioder i den andra avtalsslutande staten, ett 
+&#246;verklagande eller ett annat meddelande i enlighet med den 
+andra avtalsslutande statens lagstiftning, ska den, genom sitt 
+f&#246;rbindelseorgan utan dr&#246;jsm&#229;l skicka den ans&#246;kan, det 
+&#246;verklagandet eller det meddelandet till den beh&#246;riga institu-
+tionen eller f&#246;rbindelseorganet i den andra avtalsslutande 
+staten och ange datum f&#246;r mottagande. 
+
+2. N&#228;r det g&#228;ller en ans&#246;kan ska den beh&#246;riga institutionen i 
+den f&#246;rsta avtalsslutande staten, genom sitt f&#246;rbindelseorgan, 
+f&#246;rse den beh&#246;riga institutionen eller f&#246;rbindelseorganet i 
+den andra avtalsslutande staten med all tillg&#228;nglig 
+information som den f&#246;rfogar &#246;ver och som kan vara n&#246;dv&#228;ndig 
+f&#246;r att den beh&#246;riga institutionen i den andra avtalsslutande 
+staten ska kunna fastst&#228;lla r&#228;tten till f&#246;rm&#229;ner.
+
+3. Den beh&#246;riga institutionen i en avtalsslutande stat ska, 
+genom sitt f&#246;rbindelseorgan, p&#229; beg&#228;ran fr&#229;n den beh&#246;riga 
+institutionen eller f&#246;rbindelseorganet i den andra avtals-
+slutande staten, utan dr&#246;jsm&#229;l f&#246;rse den beh&#246;riga 
+institutionen eller f&#246;rbindelseorganet i den andra avtals-
+slutande staten med all tillg&#228;nglig information som den 
+f&#246;rfogar &#246;ver och som kan vara n&#246;dv&#228;ndig f&#246;r att den beh&#246;riga 
+institutionen i den andra avtalsslutande staten ska kunna 
+fastst&#228;lla r&#228;tten till f&#246;rm&#229;ner.
+
+4. De personuppgifter som r&#246;r en enskild person i ans&#246;kan ska 
+kontrolleras av den beh&#246;riga institutionen eller 
+f&#246;rbindelseorganet i den f&#246;rsta avtalsslutande staten genom 
+att bekr&#228;fta att uppgifterna styrks av handlingar. Vilken typ 
+av uppgifter som denna punkt &#228;r till&#228;mplig p&#229; och alla d&#228;rmed 
+f&#246;rbundna f&#246;rfaranden ska beslutas gemensamt av de beh&#246;riga 
+institutionerna eller f&#246;rbindelseorganen i de avtalsslutande 
+staterna.
+
+5. Ut&#246;ver den ans&#246;kan och de uppgifter som avses i punkterna 
+1, 2 och 3 i denna artikel ska den beh&#246;riga institutionen 
+eller f&#246;rbindelseorganet i den f&#246;rsta avtalsslutande staten 
+skicka en f&#246;rbindelseblankett p&#229; b&#229;de svenska och japanska 
+till den beh&#246;riga institutionen eller f&#246;rbindelseorganet i den 
+andra avtalsslutande staten.
+
+Artikel 7
+
+Medicinsk information och dokumentation 
+
+1. Den beh&#246;riga institutionen i en avtalsslutande stat ska, i 
+den utstr&#228;ckning som den lagstiftning som den till&#228;mpar medger 
+det, p&#229; beg&#228;ran av den beh&#246;riga institutionen i den andra 
+avtalsslutande staten, genom sitt f&#246;rbindelseorgan, 
+tillhandah&#229;lla den medicinska information och dokumentation 
+som den f&#246;rfogar &#246;ver om den nedsatta funktionsf&#246;rm&#229;gan hos en 
+person som ans&#246;ker om eller har beviljats en 
+invaliditetsf&#246;rm&#229;n inom ramen f&#246;r lagstiftningen i den avtals-
+slutande staten.
+
+2. All eventuell s&#229;dan medicinsk information och dokumentation 
+som n&#228;mns i punkt 1 i denna artikel ska &#246;verl&#228;mnas utan 
+kostnad i enlighet med artikel 19.2 i avtalet.
+
+AVDELNING IV
+
+&#214;VRIGA BEST&#196;MMELSER
+
+Artikel 8
+
+Utbyte av statistik
+
+De avtalsslutande staternas f&#246;rbindelseorgan ska utbyta 
+statistik om antalet intyg som utf&#228;rdats i enlighet med 
+artikel 4 i denna till&#228;mpnings&#246;verenskommelse. De ska &#228;ven 
+utbyta statistik om utbetalningar som i enlighet med lagstift-
+ningen i respektive avtalsslutande stat gjorts till 
+f&#246;rm&#229;nstagare inom den andra avtalsslutande statens 
+territorium, inklusive antalet f&#246;rm&#229;nstagare och det totala 
+f&#246;rm&#229;nsbeloppet efter f&#246;rm&#229;nstyp. Denna statistik ska 
+tillhandah&#229;llas &#229;rligen p&#229; ett s&#228;tt som ska beslutas av de 
+avtalsslutande staternas f&#246;rbindelseorgan.
+
+Artikel 9
+
+Blanketter och n&#228;rmare f&#246;rfaranden
+
+De avtalsslutande staternas f&#246;rbindelseorgan ska gemensamt 
+besluta om de blanketter och n&#228;rmare f&#246;rfaranden som &#228;r 
+n&#246;dv&#228;ndiga f&#246;r till&#228;mpningen av avtalet i samarbete med de 
+beh&#246;riga myndigheterna eller beh&#246;riga institutionerna.
+
+Artikel 10
+
+Ikrafttr&#228;dande
+
+Denna till&#228;mpnings&#246;verenskommelse tr&#228;der i kraft samma dag som 
+avtalet tr&#228;der i kraft och ska g&#228;lla under samma period som 
+avtalet.
+
+Artikel 11
+
+&#196;ndringar i denna till&#228;mpnings&#246;verenskommelse
+
+1. De beh&#246;riga myndigheterna f&#229;r beg&#228;ra att denna 
+till&#228;mpnings&#246;verenskommelse ska omarbetas eller &#228;ndras. En 
+s&#229;dan omarbetning eller &#228;ndring ska ske efter samr&#229;d eller 
+&#246;verenskommelse.
+
+2. De beh&#246;riga myndigheterna kan skriftligen meddela varandra 
+f&#246;r&#228;ndringar av de beh&#246;riga institutionernas och 
+f&#246;rbindelseorganens namn, utan att denna till&#228;mpnings-
+&#246;verenskommelse beh&#246;ver &#228;ndras.
+
+Uppr&#228;ttad i tv&#229; exemplar den 10 februari 2022 p&#229; svenska, 
+japanska och engelska, vilka alla texter &#228;r lika giltiga. Vid 
+skiljaktiga tolkningar ska den engelska texten g&#228;lla.
+
+ADMINISTRATIVE ARRANGEMENT FOR THE IMPLEMENTATION OF THE 
+AGREEMENT BETWEEN THE KINGDOM OF SWEDEN AND JAPAN ON SOCIAL 
+SECURITY
+
+In accordance with subparagraph (a) of paragraph 1 of Article 
+19 of the Agreement between the Kingdom of Sweden and Japan on 
+Social Security, signed at Stockholm on 11 April 2019, the 
+competent authorities of the Kingdom of Sweden (hereinafter 
+referred to as &quot;Sweden&quot;) and Japan have decided upon as 
+follows:
+
+PART I
+
+GENERAL PROVISIONS
+
+Article 1
+
+Definitions
+
+1. For the purposes of this Administrative Arrangement, 
+&quot;Agreement&quot; means the Agreement between the Kingdom of Sweden 
+and Japan on Social Security, signed at Stockholm on 11 April 
+2019.
+
+2. Any other term used in this Administrative Arrangement will 
+have the same meaning given to it in the Agreement.
+
+Article 2
+
+Competent Institutions
+
+The competent institutions referred to in subparagraph (e) of 
+paragraph 1 of Article 1 of the Agreement will be:
+
+(a) for Japan:
+
+(i) for the National Pension and for the Employees&#39; Pension 
+Insurance to the extent that the Category I insured persons 
+under the Employees&#39; Pension Insurance are concerned, 
+
+the Minister of Health, Labour and Welfare and the Japan 
+Pension Service;
+
+(ii) for the Employees&#39; Pension Insurance to the extent that 
+the Category II insured persons under the Employees&#39; Pension 
+Insurance are concerned,
+
+the Federation of National Public Service Personnel Mutual Aid 
+Associations and each National Public Service Personnel Mutual 
+Aid Associations;
+
+(iii) for the Employees&#39; Pension Insurance to the extent that 
+the Category III insured persons under the Employees&#39; Pension 
+Insurance are concerned,
+
+the Pension Fund Association for Local Government Officials 
+and each Pension Fund for Local Government Officials; and
+
+(iv) for the Employees&#39; Pension Insurance to the extent that 
+the Category IV insured persons under the Employees&#39; Pension 
+Insurance are concerned,
+
+the Promotion and Mutual Aid Corporation for Private Schools 
+of Japan.
+
+(b) for Sweden:
+
+(i) for the application of the provisions in Part II and 
+relevant provisions of the Agreement,
+
+the Swedish Social Insurance Agency;
+
+(ii) for sickness compensation and activity compensation,
+
+the Swedish Social Insurance Agency;
+
+(iii) for income-based old-age pensions, guarantee pensions, 
+survivor&#39;s pensions and surviving children&#39;s allowance, 
+
+the Swedish Pensions Agency; and
+
+(iv) for social security contributions as regards the 
+legislation specified in (ii) and (iii) of this paragraph,
+
+the Swedish Tax Agency.
+
+Article 3
+
+Liaison Agencies
+
+In accordance with subparagraph (b) of paragraph 1 of Article 
+19 of the Agreement, the following are designated as liaison 
+agencies:
+
+(a) for Japan:
+
+(i) for the National Pension and for the Employees&#39; Pension 
+Insurance to the extent that the Category I insured persons 
+under the Employees&#39; Pension Insurance are concerned,
+
+the Minister of Health, Labour and Welfare and the Japan 
+Pension Service;
+
+(ii) for the Employees&#39; Pension Insurance to the extent that 
+the Category II insured persons under the Employees&#39; Pension 
+Insurance are concerned,
+
+the Federation of National Public Service Personnel Mutual Aid 
+Associations;
+
+(iii) for the Employees&#39; Pension Insurance to the extent that 
+the Category III insured persons under the Employees&#39; Pension 
+Insurance are concerned, 
+
+the Pension Fund Association for Local Government Officials; 
+and
+
+(iv) for the Employees&#39; Pension Insurance to the extent that 
+the Category IV insured persons under the Employees&#39; Pension 
+Insurance are concerned,
+
+the Promotion and Mutual Aid Corporation for Private Schools 
+of Japan.
+
+(b) for Sweden:
+
+(i) for the application of the provisions in Part II and 
+relevant provisions of the Agreement,
+
+the Swedish Social Insurance Agency;
+
+(ii) for sickness compensation and activity compensation,
+
+the Swedish Social Insurance Agency;
+
+(iii) for income-based old-age pensions, guarantee pensions, 
+survivor&#39;s pensions and surviving children&#39;s allowance,
+
+the Swedish Pensions Agency; and
+
+(iv) for social security contributions as regards the 
+legislation specified in (ii) and (iii) of this paragraph,
+
+the Swedish Tax Agency.
+
+PART II
+
+PROVISIONS CONCERNING THE APPLICABLE LEGISLATION
+
+Article 4
+
+Certificate of Coverage of Employed and Self-employed Persons
+
+If the legislation of a Contracting State applies to an 
+employee or a self-employed person pursuant to Article 7, 
+Article 8, paragraph 2 of Article 9 or Article 10 of the 
+Agreement, the competent institution or liaison agency of that 
+Contracting State, will issue a certificate to the person 
+concerned stating that the employee or the self-employed per-
+son is subject to the legislation of that Contracting State 
+and indicating the duration for which the certificate will be 
+valid. The certificate will be evidence that the employee or 
+the self-employed person is exempt from the legislation on 
+compulsory coverage of the other Contracting State.
+
+Article 5
+
+Contact for an Agreement on an Exception
+
+For an agreement on an exception in accordance with Article 10 
+of the Agreement the competent institution of a Contracting 
+State which receives a request of exception from the employee, 
+the employer or the self-employed person will, through its 
+liaison agency, contact the competent institution of the other 
+Contracting State. 
+
+PART III
+
+PROVISIONS CONCERNING BENEFITS
+
+Article 6
+
+Applications, Appeals and Declarations
+
+1. If a competent authority or competent institution of a Con-
+tracting State receives an application for a benefit regarding 
+a person indicating that he or she has periods of coverage in 
+the other Contracting State, an appeal or any other 
+declaration under the legislation of the other Contracting 
+State, it will, through its liaison agency, without delay, 
+send that application, appeal or declaration to the competent 
+institution or liaison agency of the other Contracting State, 
+indicating the date on which it has been received. 
+
+2. With respect to an application, the competent institution 
+of the first Contracting State will, through its liaison 
+agency, furnish the competent institution or liaison agency of 
+the other Contracting State with any available information in 
+its possession, which may be necessary for the competent 
+institution of that other Contracting State to determine 
+entitlement to benefits.
+
+3. The competent institution of a Contracting State will, 
+through its liaison agency, upon the request of the competent 
+institution or liaison agency of the other Contracting State, 
+without delay, furnish the competent institution or liaison 
+agency of that other Contracting State with any available 
+information in its possession which may be necessary for the 
+competent institution of that other Contracting State to 
+determine entitlement to benefits.
+
+4. The personal information regarding an individual contained 
+in the application will be checked by the competent 
+institution or liaison agency of the first Contracting State 
+by confirming that the information is corroborated by 
+documentary evidence. The type of information to which this 
+paragraph applies and any associated procedures will be 
+mutually decided upon by the competent institutions or liaison 
+agencies of the Contracting States.
+
+5. In addition to the application and information referred to 
+in paragraphs 1, 2 and 3 of this Article, the competent 
+institution or liaison agency of the first Contracting State 
+will send to the competent institution or liaison agency of 
+the other Contracting State a liaison form in both the Swedish 
+and Japanese languages.
+
+Article 7
+
+Medical Information and Documentation
+
+1. The competent institution of a Contracting State will 
+provide, through its liaison agency, upon request of the 
+competent institution of the other Contracting State, to the 
+competent institution of the other Contracting State, medical 
+information and documentation in its possession concerning the 
+disability of an applicant to or a beneficiary of a disability 
+or invalidity benefit under the legislation of that 
+Contracting State, to the extent permitted by the legislation 
+which it administers.
+
+2. Any medical information and documentation mentioned in 
+paragraph 1 of this Article will be provided free of charge in 
+accordance with paragraph 2 of Article 19 of the Agreement. 
+
+PART IV
+
+MISCELLANEOUS PROVISIONS
+
+Article 8
+
+Exchange of Statistics
+
+The liaison agencies of the Contracting States will exchange 
+statistics regarding the number of certificates issued under 
+Article 4 of this Administrative Arrangement. They will also 
+exchange the statistics on the payments made under the 
+legislation of each Contracting State to beneficiaries in the 
+territory of the other Contracting State, including the number 
+of beneficiaries and the total amount of benefits by the 
+benefit types. These statistics will be furnished annually in 
+a form to be decided upon by the liaison agencies of the 
+Contracting States.
+
+Article 9
+
+Forms and Detailed Procedures
+
+The liaison agencies of the Contracting States will mutually 
+decide upon the forms and detailed procedures necessary to 
+implement the Agreement in cooperation with the competent 
+authorities or competent institutions.
+
+Article 10
+
+Entry into Effect
+
+This Administrative Arrangement will take effect on the same 
+date of 
+
+entry into force of the Agreement and will be applicable for 
+the same period as the Agreement.
+
+Article 11
+
+Amendment to this Administrative Arrangement
+
+1. The competent authorities may request a revision of or an 
+amendment to this Administrative Arrangement. Such revision or 
+amendment will be made after mutual consultation or agreement.
+
+2. The competent authorities may notify each other, in 
+writing, of changes in the names of the competent institutions 
+and liaison agencies without the need to amend this 
+Administrative Arrangement.
+
+DONE in duplicate on 10 February 2022, in the Swedish, 
+Japanese and English languages, each text being equally 
+authentic. In case of any divergence of interpretation, the 
+English text will prevail.
+
+F&#214;R SVERIGES BEH&#214;RIGA MYNDIGHET
+
+FOR THE COMPETENT AUTHORITY OF SWEDEN
+
+Socialf&#246;rs&#228;kringsministern / Minister for Social Security
+
+F&#214;R JAPANS BEH&#214;RIGA MYNDIGHETER
+
+FOR THE COMPETENT AUTHORITIES OF JAPAN
+
+Polismyndigheten / National Police Agency
+
+Ministeriet f&#246;r inrikes fr&#229;gor och kommunikation / Ministry of 
+Internal Affairs and Communications
+
+Finansministeriet / Ministry of Finance
+
+Ministeriet f&#246;r utbildning, kultur, idrott, vetenskap och 
+teknik / Ministry of Education, Culture, Sports, Science and 
+Technology
+
+Ministeriet f&#246;r h&#228;lsa, arbete och v&#228;lf&#228;rd / Ministry of 
+Health, Labour and Welfare</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=264">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=266">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

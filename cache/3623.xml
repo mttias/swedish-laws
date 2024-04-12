@@ -1,0 +1,786 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="1988-12-12" /> 
+ <meta id="rattsinfo-edited" content="2021-05-18" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3623</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3622">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3624">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1988:1188 ·
+                    <a href="/sfsr?bet=1988:1188">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Kulturmilj&#246;f&#246;rordning (1988:1188)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Kulturdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1988-11-10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:122
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1989-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Allm&#228;nna best&#228;mmelser om samr&#229;d m.m.
+
+1 &#167; Innan l&#228;nsstyrelsen fattar beslut i ett &#228;rende enligt 
+kulturmilj&#246;lagen (1988:950) som kan medf&#246;ra 
+ers&#228;ttningsskyldighet f&#246;r staten, ska l&#228;nsstyrelsen samr&#229;da 
+med Riksantikvarie&#228;mbetet. F&#246;rordning (2017:1083).
+
+2 &#167; L&#228;nsstyrelsen ska inom ramen f&#246;r sitt ansvar f&#246;r
+kulturmilj&#246;arbetet i l&#228;net samverka med kulturmilj&#246;v&#229;rdande
+organ inom l&#228;net, s&#228;rskilt l&#228;nsmuseerna och motsvarande
+museer. F&#246;rordning (2013:554).
+
+3 &#167; N&#228;r l&#228;nsstyrelsen har fattat ett beslut enligt
+kulturmilj&#246;lagen (1988:950) ska en kopia av beslutet genast
+s&#228;ndas till Riksantikvarie&#228;mbetet.
+
+L&#228;nsstyrelsen ska vidare underr&#228;tta Riksantikvarie&#228;mbetet n&#228;r
+en fr&#229;ga om &#229;tal enligt 2 kap. 21 &#167; eller 3 kap. 18 &#167;
+kulturmilj&#246;lagen har uppkommit. Riksantikvarie&#228;mbetet ska
+ocks&#229; underr&#228;ttas n&#228;r en fr&#229;ga om skadest&#229;nd p&#229; grund av
+&#229;sidos&#228;ttande av f&#246;reskrifter i n&#228;mnda lag har uppkommit.
+F&#246;rordning (2013:554).
+
+4 &#167; Riksantikvarie&#228;mbetet ska underr&#228;tta
+lantm&#228;terimyndigheten om s&#229;dana fornl&#228;mningar som kan antas
+&#228;nnu inte vara inf&#246;rda i fastighetsregistrets allm&#228;nna del.
+F&#246;rordning (2013:554).
+
+Fornminnen
+
+5 &#167; L&#228;nsstyrelsen ska genast underr&#228;tta kommunen om beslut i
+&#228;renden som avses i 2 kap. 2, 9 och 12 &#167;&#167; kulturmilj&#246;lagen
+(1988:950). N&#228;r beslutet har vunnit laga kraft, ska
+l&#228;nsstyrelsen underr&#228;tta lantm&#228;terimyndigheten.
+F&#246;rordning (2013:554).
+
+6 &#167; Riksantikvarie&#228;mbetet ska underr&#228;tta l&#228;nsstyrelsen innan
+myndigheten vidtar en &#229;tg&#228;rd enligt 2 kap. 7 eller 8 &#167;
+kulturmilj&#246;lagen (1988:950). L&#228;nsstyrelsen ska samr&#229;da med
+Riksantikvarie&#228;mbetet innan l&#228;nsstyrelsen vidtar motsvarande
+&#229;tg&#228;rd. Underr&#228;ttelse eller samr&#229;d beh&#246;ver dock inte ske om
+&#229;tg&#228;rden &#228;r br&#229;dskande. F&#246;rordning (2013:554).
+
+7 &#167; Innan l&#228;nsstyrelsen ger n&#229;gon tillst&#229;nd att vidta
+&#229;tg&#228;rder enligt 2 kap. 7 eller 8 &#167; kulturmilj&#246;lagen
+(1988:950), ska l&#228;nsstyrelsen f&#246;rvissa sig om att denne har
+tillr&#228;cklig kunskap f&#246;r att utf&#246;ra &#229;tg&#228;rderna p&#229; ett
+tillfredsst&#228;llande s&#228;tt.
+
+Innan l&#228;nsstyrelsen fattar beslut enligt 2 kap. 11 och 13 &#167;&#167;
+samma lag ska l&#228;nsstyrelsen f&#246;rvissa sig om att den som ska
+utf&#246;ra utredningen eller unders&#246;kningen har tillr&#228;cklig
+kunskap f&#246;r att utf&#246;ra den p&#229; ett tillfredsst&#228;llande s&#228;tt.
+F&#246;rordning (2013:554).
+
+8 &#167; Om Polismyndigheten eller Kustbevakningen tar emot ett 
+fornfynd eller en anm&#228;lan om fornfynd ska l&#228;nsstyrelsen 
+genast underr&#228;ttas skriftligen om detta. Underr&#228;ttelsen ska 
+inneh&#229;lla en kortfattad beskrivning av fornfyndet och av 
+fyndplatsen samt upphittarens namn och adress. Har 
+upphittaren l&#228;mnat ytterligare uppgifter om omst&#228;ndigheterna 
+vid fyndet, ska dessa uppgifter bifogas. Upphittaren ska f&#229; 
+en kopia av underr&#228;ttelsen. F&#246;rordning (2017:1083).
+
+9 &#167; L&#228;nsstyrelsen f&#229;r meddela s&#229;dana f&#246;reskrifter som avses i
+2 kap. 9 &#167; kulturmilj&#246;lagen (1988:950).
+F&#246;rordning (2013:554).
+
+10 &#167; Riksantikvarie&#228;mbetet f&#229;r meddela f&#246;reskrifter om
+verkst&#228;lligheten av 2 kap. kulturmilj&#246;lagen (1988:950).
+F&#246;rordning (2013:554).
+
+Avgift
+
+10 a &#167; Avgift tas ut av l&#228;nsstyrelsen f&#246;r pr&#246;vning av &#228;renden 
+enligt 2 kap. 18–20 &#167;&#167; kulturmilj&#246;lagen (1988:950) om 
+tillst&#229;nd att anv&#228;nda och medf&#246;ra metalls&#246;kare. I fr&#229;ga om 
+ans&#246;kningsavgiftens storlek ska 10 &#167; avgiftsf&#246;rordningen 
+(1992:191) och avgiftsklass 2 till&#228;mpas. F&#246;r 
+ans&#246;kningsavgiften till&#228;mpas i &#246;vrigt 11–14 &#167;&#167; 
+avgiftsf&#246;rordningen (1992:191). F&#246;rordning (2017:1083).
+
+10 b &#167; Varje geografiskt avgr&#228;nsat omr&#229;de som en ans&#246;kan 
+avser ska behandlas som ett avgiftsbelagt &#228;rende.
+F&#246;rordning (2017:1083).
+
+Byggnadsminnen
+
+11 &#167; Innan en byggnad f&#246;rklaras f&#246;r byggnadsminne skall l&#228;nsstyrelsen ge
+kommunen tillf&#228;lle att yttra sig, om det inte &#228;r uppenbart obeh&#246;vligt.
+
+12 &#167; N&#228;r beslut enligt 3 kap. 1, 5–7, 14 och 15 &#167;&#167;
+kulturmilj&#246;lagen (1988:950)  har vunnit laga kraft, ska
+l&#228;nsstyrelsen underr&#228;tta den eller de kommunala n&#228;mnder som
+fullg&#246;r uppgifter inom plan- och byggnadsv&#228;sendet.
+F&#246;rordning (2013:554).
+
+13 &#167; Ett byggnadsminne ska, om l&#228;nsstyrelsen finner anledning
+till detta och &#228;garen samtycker, genom l&#228;nsstyrelsens f&#246;rsorg
+och p&#229; statens bekostnad f&#246;rses med ett anslag om att
+byggnaden &#228;r skyddad enligt kulturmilj&#246;lagen (1988:950).
+F&#246;rordning (2013:554).
+
+14 &#167; Riksantikvarie&#228;mbetet ska f&#246;ra en f&#246;rteckning &#246;ver
+byggnadsminnena i landet. L&#228;nsstyrelsen ska f&#246;ra en
+f&#246;rteckning &#246;ver byggnadsminnena i l&#228;net. L&#228;nsstyrelsen ska
+ocks&#229; f&#246;ra en f&#246;rteckning &#246;ver s&#229;dana byggnader som avses i 3
+kap. 6 &#167; kulturmilj&#246;lagen (1988:950). F&#246;rordning (2013:554).
+
+15 &#167; N&#228;r en fr&#229;ga om ers&#228;ttning enligt 3 kap. 10 &#167;
+kulturmilj&#246;lagen (1988:950) uppkommer ska l&#228;nsstyrelsen
+f&#246;rs&#246;ka f&#229; till st&#229;nd en frivillig uppg&#246;relse med sak&#228;garen
+om ers&#228;ttningens storlek. F&#246;rordning (2013:554).
+
+16 &#167; I villkoren f&#246;r ett tillst&#229;nd enligt 3 kap. 14 &#167;
+kulturmilj&#246;lagen (1988:950) ska det alltid ing&#229; att
+byggnadens utseende och beskaffenhet f&#246;re &#228;ndringen ska
+dokumenteras p&#229; ett l&#228;mpligt s&#228;tt. F&#246;rordning (2013:554).
+
+17 &#167; Av 3 kap. 13 &#167; f&#246;rsta stycket kulturmilj&#246;lagen
+(1988:950) f&#246;ljer att expropriationslagen (1972:719) ska
+till&#228;mpas i vissa fall n&#228;r det g&#228;ller ers&#228;ttning och inl&#246;sen.
+Best&#228;mmelser om utbetalning av ers&#228;ttning till innehavare av
+fideikommiss finns i punkt 6 i &#246;verg&#229;ngsbest&#228;mmelserna till
+expropriationslagen och i 18 &#167; expropriationskung&#246;relsen
+(1972:727). F&#246;rordning (2013:554).
+
+17 a &#167; Riksantikvarie&#228;mbetet f&#229;r meddela f&#246;reskrifter om
+verkst&#228;lligheten av 3 kap. kulturmilj&#246;lagen (1988:950).
+F&#246;rordning (2013:554).
+
+Kyrkliga kulturminnen
+
+18 &#167; I &#228;renden enligt 4 kap. kulturmilj&#246;lagen (1988:950) ska
+Riksantikvarie&#228;mbetet och l&#228;nsstyrelserna samr&#229;da med
+stiftet, om det beh&#246;vs. F&#246;rordning (2013:554).
+
+18 a &#167; L&#228;nsstyrelsen ska genast underr&#228;tta kommunen om beslut 
+i &#228;renden som avses i 4 kap. 2 a &#167; kulturmilj&#246;lagen 
+(1988:950). N&#228;r beslutet har f&#229;tt laga kraft, ska 
+l&#228;nsstyrelsen underr&#228;tta lantm&#228;terimyndigheten.
+F&#246;rordning (2017:561).
+
+19 &#167; Till kyrkliga inventarier som avses i 4 kap. 6 &#167;
+kulturmilj&#246;lagen (1988:950) h&#246;r bland annat &#228;ldre skrudar,
+r&#246;kelsekar, k&#228;rl, b&#246;cker, altartavlor, kors och krucifix,
+dopfuntar, andra m&#229;lningar och konstarbeten, avlatsskrin,
+f&#246;rvaringskistor, fattigb&#246;ssor, ljuskronor och ljusstakar,
+epitafier, vapensk&#246;ldar, ban&#233;r, sorgfanor, vapen, rustningar,
+votivskepp, kyrkklockor, musikinstrument samt vissa &#228;ldre
+gravv&#229;rdar. F&#246;rordning (2013:554).
+
+20 &#167; Har upph&#228;vts genom f&#246;rordning (1999:881).
+
+21 &#167; N&#228;r l&#228;nsstyrelsen har fattat beslut eller vidtagit n&#229;gon
+&#229;tg&#228;rd enligt 4&#160;kap. 10 &#167; andra och tredje styckena
+kulturmilj&#246;lagen (1988:950) ska stiftet underr&#228;ttas om
+beslutet eller &#229;tg&#228;rden. F&#246;rordning (2013:554).
+
+22 &#167; Riksantikvarie&#228;mbetet f&#229;r meddela f&#246;reskrifter om
+verkst&#228;lligheten av 4 kap. kulturmilj&#246;lagen (1988:950).
+F&#246;rordning (2013:554).
+
+Skydd mot utf&#246;rsel av vissa kulturf&#246;rem&#229;l
+
+23 &#167; Den som vill f&#246;ra ut ett kulturf&#246;rem&#229;l ur landet ska 
+enligt 5 kap. kulturmilj&#246;lagen (1988:950) ha tillst&#229;nd till 
+utf&#246;rseln om 
+
+1. f&#246;rem&#229;let 
+
+a)  &#228;r ett kulturf&#246;rem&#229;l inom de kategorier som anges i 
+bilaga 1 till r&#229;dets f&#246;rordning (EG) nr 116/2009 av den 18 
+december 2008 om export av kulturf&#246;rem&#229;l, och
+
+b) &#228;r upptaget i bilagan till denna f&#246;rordning med de &#229;lders- 
+och v&#228;rdegr&#228;nser samt andra best&#228;mningar som anges i den, 
+eller
+
+2. f&#246;rem&#229;let &#228;r ett samiskt f&#246;rem&#229;l som
+
+a) &#228;r &#228;ldre &#228;n 75 &#229;r och v&#228;rt mer &#228;n 5 000 kr,
+
+b) omfattas av 1, &#228;r arkeologiskt och h&#228;rr&#246;r fr&#229;n tiden f&#246;re 
+&#229;r 1850 oavsett material och v&#228;rde, eller
+
+c) omfattas av 1, &#228;r gjort av tr&#228;, ben, keramik, metall eller 
+textil och framst&#228;llt i Sverige f&#246;re &#229;r 1650 oavsett v&#228;rde.
+F&#246;rordning (2017:561).
+
+23 a &#167; N&#228;r det enligt f&#246;rordningen ska best&#228;mmas om ett 
+f&#246;rem&#229;l ska anses vara framst&#228;llt i Sverige &#228;r de gr&#228;nser som 
+Sverige hade den 1 juli 1986 avg&#246;rande. F&#246;rordning (2017:561).
+
+24 &#167; Har upph&#228;vts genom f&#246;rordning (2011:1066).
+
+25 &#167; Har upph&#228;vts genom f&#246;rordning (2011:1066).
+
+26 &#167; Fr&#229;gor om tillst&#229;nd till utf&#246;rsel av kulturf&#246;rem&#229;l 
+enligt 5 kap. kulturmilj&#246;lagen (1988:950) och om licens 
+enligt r&#229;dets f&#246;rordning (EG) nr 116/2009 om export av 
+kulturf&#246;rem&#229;l pr&#246;vas av Kungl. biblioteket, 
+Riksantikvarie&#228;mbetet, Riksarkivet, Nationalmuseum och 
+Stiftelsen Nordiska museet (tillst&#229;ndsmyndigheter) enligt 
+den f&#246;rdelning som anges i 27–31 &#167;&#167;. Om det &#228;r fr&#229;ga om 
+f&#246;rem&#229;l som innehas eller f&#246;rvaltas av n&#229;gon annan av 
+tillst&#229;ndsmyndigheterna &#228;n Riksantikvarie&#228;mbetet, ska 
+pr&#246;vningen dock g&#246;ras av Riksantikvarie&#228;mbetet.
+
+Licenser enligt r&#229;dets f&#246;rordning kan vara av alla de slag 
+som anges i kommissionens genomf&#246;randef&#246;rordning (EU) nr 
+1081/2012 av den 9 november 2012 f&#246;r r&#229;dets f&#246;rordning (EG) 
+nr 116/2009 om export av kulturf&#246;rem&#229;l.
+F&#246;rordning (2017:561).
+
+27 &#167; Riksantikvarie&#228;mbetet pr&#246;var fr&#229;gor om tillst&#229;nd och 
+licens
+
+1. inom kategorierna A1, A2 och A13 f&#246;r samtliga f&#246;rem&#229;l, och
+
+2. inom kategori A15 f&#246;r 
+
+a) f&#246;rem&#229;l framst&#228;llda i Sverige f&#246;re &#229;r 1650 av ben, keramik, 
+metall, textil eller tr&#228;, och 
+
+b) kyrkliga inventarier.
+F&#246;rordning (2019:600).
+
+28 &#167; Nationalmuseum pr&#246;var fr&#229;gor om tillst&#229;nd och licens
+
+1. inom kategorierna A3-A7 f&#246;r samtliga f&#246;rem&#229;l,
+
+2. inom kategori A15 f&#246;r 
+
+a) f&#246;rem&#229;l av glas, sten eller b&#228;rnsten samt ljuskronor, 
+lyktor, armaturer och tapeter av l&#228;der, 
+
+b) kakelugnar och f&#246;rem&#229;l av metall, med undantag f&#246;r dem som 
+&#228;r framst&#228;llda i Sverige f&#246;re &#229;r 1650, och
+
+c) i utlandet framst&#228;llda m&#246;bler, lackarbeten, speglar, 
+mekaniska ur, musikinstrument, fajanser, textilier, f&#246;rem&#229;l av 
+keramik, tr&#228;, ben eller horn samt vetenskapliga instrument, 
+tekniska modeller och prototyper. F&#246;rordning (2019:600).
+
+29 &#167; Kungl. biblioteket pr&#246;var fr&#229;gor om tillst&#229;nd och licens
+
+1. inom kategori A8 f&#246;r filmer och negativ av dessa,
+
+2. inom kategori A9 f&#246;r inkunabler, och
+
+3. inom kategorierna A10 och A11 f&#246;r samtliga f&#246;rem&#229;l.
+F&#246;rordning (2019:600).
+
+30 &#167; Riksarkivet pr&#246;var fr&#229;gor om tillst&#229;nd och licens
+
+1. inom kategori A9 f&#246;r samtliga f&#246;rem&#229;l, med undantag f&#246;r 
+inkunabler, och
+
+2. inom kategori A12 f&#246;r samtliga f&#246;rem&#229;l.
+F&#246;rordning (2019:600).
+
+31 &#167; Stiftelsen Nordiska museet pr&#246;var fr&#229;gor om tillst&#229;nd och 
+licens
+
+1. inom kategori A8 f&#246;r fotografier och negativ av dessa,
+
+2. inom kategori A14 f&#246;r samtliga f&#246;rem&#229;l,
+
+3. inom kategori A15 f&#246;r f&#246;rem&#229;l som inte omfattas av 27-
+28 &#167;&#167;, och
+
+4. f&#246;r samiska f&#246;rem&#229;l som inte omfattas av kategori A1.
+F&#246;rordning (2019:600).
+
+32 &#167; Ans&#246;kan om tillst&#229;nd och licens l&#228;mnas in till
+Riksantikvarie&#228;mbetet, som i fall n&#229;gon annan skall pr&#246;va
+tillst&#229;ndsfr&#229;gan, skall &#246;verl&#228;mna ans&#246;kningen till den
+tillst&#229;ndsmyndigheten. F&#246;rordning (2000:337).
+
+33 &#167; Riksantikvarie&#228;mbetet f&#229;r meddela f&#246;reskrifter om
+verkst&#228;lligheten av 5 kap. kulturmilj&#246;lagen (1988:950).
+F&#246;rordning (2013:554).
+
+Beh&#246;rig myndighet
+
+33 a &#167; Riksantikvarie&#228;mbetet &#228;r beh&#246;rig myndighet enligt 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2019/880 av den 
+17 april 2019 om inf&#246;rsel och import av kulturf&#246;rem&#229;l.
+F&#246;rordning (2021:122).
+
+&#197;terl&#228;mnande av kulturf&#246;rem&#229;l
+
+34 &#167; Riksantikvarie&#228;mbetet &#228;r central myndighet enligt 6 kap.
+kulturmilj&#246;lagen (1988:950). F&#246;rordning (2013:554).
+
+35 &#167; Riksantikvarie&#228;mbetet ska som central myndighet
+
+1. efter ans&#246;kan av en annan stat som ing&#229;r i Europeiska 
+ekonomiska samarbetsomr&#229;det (EES) s&#246;ka efter n&#228;rmare angivna 
+kulturf&#246;rem&#229;l som olagligt har f&#246;rts bort fr&#229;n den staten och 
+identifiera den som innehar f&#246;rem&#229;let,
+
+2. underr&#228;tta ber&#246;rda stater som ing&#229;r i EES d&#229; kulturf&#246;rem&#229;l 
+p&#229;tr&#228;ffats i Sverige som kan antas ha olagligt f&#246;rts bort 
+fr&#229;n en annan stat som ing&#229;r i EES samt ta emot motsvarande 
+underr&#228;ttelser,
+
+3. g&#246;ra det m&#246;jligt f&#246;r de beh&#246;riga myndigheterna i den stat 
+som kan &#229;terkr&#228;va ett s&#229;dant f&#246;rem&#229;l enligt 6 kap. 
+kulturmilj&#246;lagen (1988:950) att kontrollera att det &#228;r fr&#229;ga 
+om ett kulturf&#246;rem&#229;l och vara en s&#229;dan beh&#246;rig myndighet i 
+Sverige,
+
+4. i samarbete med den ber&#246;rda staten vidta n&#246;dv&#228;ndiga 
+&#229;tg&#228;rder f&#246;r att bevara ett enligt 2 p&#229;tr&#228;ffat 
+kulturf&#246;rem&#229;l,
+
+5. vidta n&#246;dv&#228;ndiga &#229;tg&#228;rder f&#246;r att f&#246;rhindra handlingar som 
+syftar till att undvika ett &#229;terl&#228;mnande,
+
+6. agera som f&#246;rmedlare mellan den &#229;terkr&#228;vande staten och 
+den som innehar f&#246;rem&#229;let med avseende p&#229; &#229;terl&#228;mnandet,
+
+7. underr&#228;tta den centrala myndigheten i den stat d&#228;r svenska 
+staten v&#228;ckt talan om &#229;terl&#228;mnande och ta emot motsvarande 
+underr&#228;ttelser,
+
+8. underr&#228;tta centrala myndigheter i andra stater om att 
+talan om &#229;terl&#228;mnande v&#228;ckts i Sverige och ta emot 
+motsvarande underr&#228;ttelser, och
+
+9. i &#246;vrigt samarbeta med centrala myndigheter i andra 
+stater.
+
+Kontroll enligt f&#246;rsta stycket 3 ska g&#246;ras inom sex m&#229;nader 
+fr&#229;n det att underr&#228;ttelse skett enligt samma stycke 2. 
+Annars ska det som s&#228;gs i samma stycke 4 och 5 inte 
+till&#228;mpas. F&#246;rordning (2015:853).
+
+35 a &#167; Har upph&#228;vts genom f&#246;rordning (2015:853).
+
+35 b &#167; Svenska statens talan om &#229;terl&#228;mnande av s&#229;dana
+kulturf&#246;rem&#229;l som avses i 6 och 7 kap. kulturmilj&#246;lagen
+(1988:950) f&#246;rs utomlands av Riksantikvarie&#228;mbetet.
+F&#246;rordning (2013:554).
+
+35 c &#167; Informationssystemet f&#246;r den inre marknaden (IMI) ska 
+anv&#228;ndas f&#246;r utbyte av information mellan beh&#246;riga 
+myndigheter i Sverige och i andra stater inom EES enligt 
+kulturmilj&#246;lagen (1988:950) och denna f&#246;rordning. 
+
+Beh&#246;riga att anv&#228;nda IMI f&#246;r kulturf&#246;rem&#229;l &#228;r 
+Riksantikvarie&#228;mbetet, Kungl. biblioteket, Riksarkivet, 
+Nationalmuseum och Stiftelsen Nordiska museet. 
+Riksantikvarie&#228;mbetet ska vara samordnare f&#246;r IMI f&#246;r 
+kulturf&#246;rem&#229;l, vilket innefattar att f&#246;r Sveriges r&#228;kning 
+ansvara f&#246;r att ta emot och s&#228;nda iv&#228;g ans&#246;kningar och 
+underr&#228;ttelser i f&#246;rh&#229;llande till andra stater inom EES och 
+att fungera som samtalspartner f&#246;r Europeiska kommissionen i 
+IMI-fr&#229;gor om kulturf&#246;rem&#229;l. 
+
+Best&#228;mmelser om IMI finns i f&#246;rordningen (2009:1078) om 
+tj&#228;nster p&#229; den inre marknaden och i f&#246;reskrifter meddelade 
+med st&#246;d av den f&#246;rordningen samt i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) nr 1024/2012 av den 25 oktober 2012 om 
+administrativt samarbete genom informationssystemet f&#246;r den 
+inre marknaden och om upph&#228;vande av kommissionens beslut 
+2008/49/EG. F&#246;rordning (2017:561).
+
+&#214;vriga best&#228;mmelser
+
+36 &#167; Riksantikvarie&#228;mbetet, eller efter dess f&#246;rordnande
+l&#228;nsstyrelsen, ska f&#246;ra statens talan i m&#229;l som avses i 2
+kap. 25 &#167; andra stycket och 3 kap. 20 &#167; kulturmilj&#246;lagen
+(1988:950). F&#246;rordning (2013:554).
+
+
+Bilaga 
+
+De &#229;lders- och v&#228;rdegr&#228;nser samt andra best&#228;mningar som avses 
+i 23 &#167; &#228;r f&#246;ljande.
+
+1. Arkeologiska f&#246;rem&#229;l inom kategori A1 som h&#228;rr&#246;r fr&#229;n 
+tiden f&#246;re &#229;r 1850, oavsett material och v&#228;rde.
+
+2. M&#229;lningar inom kategori A3:
+
+a) m&#229;lningar som &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 100 000 
+kronor, och
+
+b) portr&#228;tt som &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 40 000 
+kronor som f&#246;rest&#228;ller personer med anknytning till 
+Sverige.
+
+3. Teckningar inom kategorierna A4 och A5:
+
+a) teckningar, akvareller, gouacher och pasteller som &#228;r 
+&#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 100 000 kronor, och
+
+b) portr&#228;tt som f&#246;rest&#228;ller personer med anknytning till 
+Sverige i form av teckningar, akvareller, gouacher och 
+pasteller, &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 40 000 
+kronor.
+
+4. Tr&#228;snitt och kopparstick inom kategori A6 som &#228;r 
+framst&#228;llda i Sverige f&#246;re &#229;r 1700, oavsett v&#228;rde.
+
+5. Originalskulpturer och repliker inom kategori A7 som &#228;r 
+framst&#228;llda enligt samma process som originalet, oavsett 
+material, &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 100 000 
+kronor.
+
+6. Enstaka eller samlingar av fotografier och filmer och 
+negativ av dessa inom kategori A8 som &#228;r &#228;ldre &#228;n 100 &#229;r och 
+v&#228;rda mer &#228;n 20 000 kr.
+
+7. Inkunabler och icke tryckt material inom kategori A9:
+
+a) enstaka eller samlingar av inkunabler, oavsett v&#228;rde,
+
+b) enstaka eller samlingar av handskrifter p&#229; pergament eller 
+papper framst&#228;llda f&#246;re &#229;r 1700, oavsett v&#228;rde,
+
+c) icke tryckta protokoll, brev, dagb&#246;cker, manuskript, 
+noter, r&#228;kenskaper samt handritade kartor och ritningar, som 
+&#228;r &#228;ldre &#228;n 75 &#229;r och v&#228;rda mer &#228;n 5 000 kronor, och
+
+d) &#246;vriga samlingar av icke tryckt material enligt b och c 
+som &#228;r &#228;ldre &#228;n 75 &#229;r och v&#228;rda mer &#228;n 50 000 kronor.
+
+8. B&#246;cker inom kategori A10:
+
+a) b&#246;cker tryckta i Sverige f&#246;re &#229;r 1700, oavsett v&#228;rde, 
+och
+
+b) &#246;vriga b&#246;cker som &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 
+20 000 kronor.
+
+9. Tryckta kartor och glober inom kategori A11 som &#228;r &#228;ldre 
+&#228;n 100 &#229;r och v&#228;rda mer &#228;n 20 000 kronor.
+
+10. Arkiv av icke tryckta protokoll, brev, dagb&#246;cker, 
+manuskript, noter, r&#228;kenskaper, handritade kartor och 
+ritningar inom kategori A12 som &#228;r &#228;ldre &#228;n 75 &#229;r och v&#228;rda 
+mer &#228;n 5 000 kronor.
+
+11. Transportmedel inom kategori A14 som &#228;r &#228;ldre &#228;n 100 &#229;r 
+och v&#228;rda mer &#228;n 100 000 kronor.
+
+12. Andra antikviteter inom kategori A15, om de inte ing&#229;r i 
+kategorierna A1–A14:
+
+a) f&#246;rem&#229;l av tr&#228;, ben, keramik, metall eller textil som &#228;r 
+framst&#228;llda i Sverige f&#246;re &#229;r 1650, oavsett v&#228;rde,
+
+b) m&#246;bler, speglar, ljuskronor, lyktor och armaturer som &#228;r 
+framst&#228;llda i Sverige, &#228;r &#228;ldre &#228;n 75 &#229;r, och v&#228;rda mer &#228;n 
+50 000 kronor,
+
+c) m&#246;bler, speglar, ljuskronor, lyktor och armaturer som &#228;r 
+framst&#228;llda utomlands, &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 
+100 000 kronor,
+
+d) hantverksm&#228;ssigt tillverkade tapeter, v&#228;vda och av l&#228;der, 
+mattor, ryor, bonadsm&#229;leri och broderad eller m&#246;nsterv&#228;vd 
+textil, hantverksm&#228;ssigt bearbetade f&#246;rem&#229;l av tr&#228;, mekaniska 
+ur, musikinstrument, skjutvapen, blankvapen samt skyddsvapen 
+som &#228;r framst&#228;llda i Sverige, &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda 
+mer &#228;n 20 000 kronor, 
+
+e) hantverksm&#228;ssigt tillverkade tapeter, v&#228;vda och av l&#228;der, 
+mattor, broderad eller m&#246;nsterv&#228;vd textil, hantverksm&#228;ssigt 
+bearbetade f&#246;rem&#229;l av tr&#228;, lackarbeten, mekaniska ur, 
+musikinstrument, skjutvapen, blankvapen samt skyddsvapen som 
+&#228;r framst&#228;llda utomlands, &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 
+100 000 kronor,
+
+f) leksaker och spel, kakelugnar, fajanser och andra 
+hantverksm&#228;ssigt tillverkade f&#246;rem&#229;l av keramik, glas, sten, 
+ben, horn eller b&#228;rnsten, och hantverksm&#228;ssigt tillverkade 
+eller gjutna f&#246;rem&#229;l av metall med undantag f&#246;r smycken, mynt 
+och medaljer, som &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 50 000 
+kronor,
+
+g) smycken av guld och silver som &#228;r &#228;ldre &#228;n 100 &#229;r och 
+v&#228;rda mer &#228;n 100 000 kronor,
+
+h) f&#246;rem&#229;l som h&#246;r samman med de tidiga fotografiska 
+teknikerna, &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 20 000 kr,
+
+i) f&#246;rem&#229;l som utg&#246;r kyrkliga inventarier enligt 4 kap. 
+kulturmilj&#246;lagen (1988:950) om de inte omfattas av a–f och 
+som &#228;r &#228;ldre &#228;n 100 &#229;r, oavsett v&#228;rde, och
+
+j) vetenskapliga instrument, tekniska modeller och prototyper 
+som &#228;r &#228;ldre &#228;n 100 &#229;r och v&#228;rda mer &#228;n 10 000 kronor.
+F&#246;rordning (2017:561).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1994:1524
+
+Denna f&#246;rordning tr&#228;der i kraft s&#229;vitt avser 23 a &#167; den dag lagen
+(1994:1500) med anledning av Sveriges anslutning till den
+Europeiska unionen tr&#228;der i kraft och i &#246;vrigt den 1 januari 1995.
+
+1994:1448
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1996.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om
+fastighetsregistermyndigheter som inr&#228;ttats enligt lagen (1971:133)
+om kommunal fastighetsbildningsmyndighet och
+fastighetsregistermyndighet.
+
+2000:337
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2000. &#196;ldre
+best&#228;mmelser g&#228;ller dock i fr&#229;ga om ans&#246;kningar som kommit in
+f&#246;re den 1 juli 2000.
+
+2002:18
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 mars 2002. De nya
+best&#228;mmelserna skall dock till&#228;mpas f&#246;r tid fr&#229;n och med den 1
+januari 2002.
+
+2017:1083
+
+1. F&#246;rordningen tr&#228;der i kraft den 1 januari 2018.
+
+2. Avgift enligt 10 a &#167; ska inte tas ut f&#246;r &#228;renden d&#228;r 
+ans&#246;kan gjorts f&#246;re ikrafttr&#228;dandet.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3622">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3624">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

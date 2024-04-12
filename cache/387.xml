@@ -1,0 +1,723 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2021-06-08" /> 
+ <meta id="rattsinfo-edited" content="2021-10-21 16:22:23" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>387</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=386">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=388">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2021:518 ·
+                    <a href="/sfsr?bet=2021:518">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Fastighetsm&#228;klarf&#246;rordning (2021:518)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2021-06-03
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2021-07-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller kompletterande best&#228;mmelser 
+till fastighetsm&#228;klarlagen (2021:516). 
+
+2 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av 
+
+- 5 kap. 2 &#167; fastighetsm&#228;klarlagen (2021:516) i fr&#229;ga om 25, 
+26 och 38 &#167;&#167;,
+
+- 5 kap. 3 &#167; samma lag i fr&#229;ga om 16-18 &#167;&#167;,
+
+- 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 39 &#167;, och 
+
+- 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga best&#228;mmelser. 
+
+3 &#167; De uttryck som anv&#228;nds i denna f&#246;rordning har samma 
+betydelse som i fastighetsm&#228;klarlagen (2021:516).
+
+4 &#167; Det som i denna f&#246;rordning f&#246;reskrivs om personnummer ska, 
+om s&#229;dant nummer saknas, i st&#228;llet g&#228;lla samordningsnummer, 
+eller f&#246;delsedatum om &#228;ven samordningsnummer saknas. 
+
+Det som i f&#246;rordningen f&#246;reskrivs om organisationsnummer ska, 
+om s&#229;dant nummer saknas, i st&#228;llet g&#228;lla n&#229;got annat 
+identifieringsnummer. 
+
+Det som i f&#246;rordningen f&#246;reskrivs om folkbokf&#246;ringsadress ska, 
+om s&#229;dan adress saknas, i st&#228;llet g&#228;lla bostadsadress.
+
+Ans&#246;kan om registrering 
+
+5 &#167; En ans&#246;kan om registrering som fastighetsm&#228;klare eller 
+fastighetsm&#228;klarf&#246;retag g&#246;rs skriftligen hos 
+Fastighetsm&#228;klarinspektionen. 
+
+Ans&#246;kan ska vara undertecknad av s&#246;kanden. 
+
+Det ska framg&#229; av ans&#246;kan vilken registreringskategori enligt 
+2 kap. 5 &#167; fastighetsm&#228;klarlagen (2021:516) som registrering 
+s&#246;ks f&#246;r. 
+
+6 &#167; En ans&#246;kan om registrering som fastighetsm&#228;klare ska 
+inneh&#229;lla uppgifter om s&#246;kandens namn, personnummer, 
+folkbokf&#246;ringsadress, e-postadress och telefonnummer. 
+
+Om s&#246;kanden avser att bedriva f&#246;rmedlingsverksamhet i ett 
+registreringsskyldigt fastighetsm&#228;klarf&#246;retag, ska 
+m&#228;klarf&#246;retagets namn och organisationsnummer anges. Om 
+m&#228;klarf&#246;retaget har flera verksamhetsst&#228;llen, ska det ocks&#229; 
+anges vid vilket eller vilka verksamhetsst&#228;llen som s&#246;kanden 
+avser att bedriva f&#246;rmedlingsverksamhet. 
+
+7 &#167; Tillsammans med en ans&#246;kan om registrering som 
+fastighetsm&#228;klare ska s&#246;kanden ge in bevis om att han eller 
+hon
+
+1. har en s&#229;dan ansvarsf&#246;rs&#228;kring som avses i 2 kap. 8 &#167; 3 
+fastighetsm&#228;klarlagen (2021:516),
+
+2. har tillfredsst&#228;llande utbildning, och
+
+3. inte har f&#246;rvaltare enligt 11 kap. 7 &#167; f&#246;r&#228;ldrabalken.
+
+8 &#167; En ans&#246;kan om registrering som fastighetsm&#228;klarf&#246;retag ska 
+inneh&#229;lla uppgifter om m&#228;klarf&#246;retagets namn, 
+organisationsnummer, verksamhetsform, postadress, 
+e-postadress, telefonnummer och, om s&#229;dan finns, webbplats. 
+
+Om fastighetsm&#228;klarf&#246;retaget har flera verksamhetsst&#228;llen, ska 
+samtliga verksamhetsst&#228;llen och postadresserna till dessa 
+anges. Om m&#228;klarf&#246;retaget avser att anv&#228;nda ett annat 
+k&#228;nnetecken f&#246;r sin verksamhet &#228;n m&#228;klarf&#246;retagets namn, ska 
+&#228;ven detta anges. Om m&#228;klarf&#246;retaget har en s&#228;rskild 
+faktureringsadress, ska &#228;ven den adressen anges. 
+
+Ans&#246;kan ska ocks&#229; inneh&#229;lla uppgifter om
+
+1. namn, personnummer och e-postadress f&#246;r dem som ing&#229;r i 
+fastighetsm&#228;klarf&#246;retagets ledning, 
+
+2. namn, person- eller organisationsnummer och e-postadress 
+f&#246;r de &#228;gare som har ett kvalificerat innehav av andelar i 
+m&#228;klarf&#246;retaget, och
+
+3. namn, personnummer och, om m&#228;klarf&#246;retaget har flera 
+verksamhetsst&#228;llen, verksamhetsst&#228;lle eller verksamhetsst&#228;llen 
+f&#246;r varje registrerad fastighetsm&#228;klare som ska bedriva 
+verksamhet i m&#228;klarf&#246;retaget.
+
+9 &#167; Tillsammans med en ans&#246;kan om att ett handelsbolag eller 
+ett kommanditbolag ska registreras som fastighetsm&#228;klarf&#246;retag 
+ska bolaget ge in bolagsavtalet och utdrag ur 
+handelsregistret. 
+
+Tillsammans med en ans&#246;kan om att ett aktiebolag ska 
+registreras som fastighetsm&#228;klarf&#246;retag ska bolaget ge in 
+bolagsordningen, utdrag ur aktiebolagsregistret som visar 
+bolagsledningens sammans&#228;ttning, kopia av bolagets aktiebok 
+och uppgift om var aktieboken h&#229;lls tillg&#228;nglig.
+
+Tillsammans med en ans&#246;kan om att en ekonomisk f&#246;rening ska 
+registreras som fastighetsm&#228;klarf&#246;retag ska f&#246;reningen ge in 
+stadgar och utdrag ur f&#246;reningsregistret.
+
+10 &#167; Tillsammans med en ans&#246;kan om att ett utl&#228;ndskt f&#246;retag 
+ska registreras som fastighetsm&#228;klarf&#246;retag ska f&#246;retaget ge 
+in handlingar och uppgifter som motsvarar dem som anges i 9 &#167; 
+f&#246;rsta, andra eller tredje stycket. 
+
+Underr&#228;ttelse om tillf&#228;llig yrkesut&#246;vning i Sverige
+
+11 &#167; Den som f&#246;r f&#246;rsta g&#229;ngen avser att tillf&#228;lligt ut&#246;va 
+fastighetsm&#228;klaryrket i Sverige enligt de best&#228;mmelser som 
+avses i 2 kap. 4 &#167; fastighetsm&#228;klarlagen (2021:516) ska p&#229; 
+f&#246;rhand ge in en skriftlig underr&#228;ttelse till 
+Fastighetsm&#228;klarinspektionen i st&#228;llet f&#246;r att ans&#246;ka om 
+registrering enligt 5 &#167;. 
+
+Underr&#228;ttelsen ska vara undertecknad av den fastighetsm&#228;klare 
+som underr&#228;ttelsen avser. Underr&#228;ttelsen ska inneh&#229;lla 
+uppgifter om fastighetsm&#228;klarens namn, personnummer, 
+bostadsadress, e-postadress och telefonnummer. Om 
+fastighetsm&#228;klaren avser att bedriva f&#246;rmedlingsverksamhet i 
+ett registreringsskyldigt fastighetsm&#228;klarf&#246;retag, ska &#228;ven 
+m&#228;klarf&#246;retagets namn och organisationsnummer anges i 
+underr&#228;ttelsen. Om m&#228;klarf&#246;retaget har flera 
+verksamhetsst&#228;llen, ska det ocks&#229; anges vid vilket eller vilka 
+verksamhetsst&#228;llen som fastighetsm&#228;klaren avser att bedriva 
+f&#246;rmedlingsverksamhet. 
+
+I underr&#228;ttelsen ska det &#228;ven anges under vilken tid som 
+fastighetsm&#228;klaren avser att bedriva verksamhet i Sverige. Det 
+ska vidare framg&#229; av underr&#228;ttelsen om verksamheten omfattar 
+f&#246;rmedling av all egendom som anges i 1 kap. 2 &#167; f&#246;rsta 
+stycket 1 fastighetsm&#228;klarlagen (2021:516) eller endast 
+f&#246;rmedling av hyresr&#228;tter. Om verksamheten endast omfattar 
+f&#246;rmedling av hyresr&#228;tter, ska det framg&#229; om f&#246;rmedlingen 
+endast avser s&#229;dana hyresr&#228;tter som har en m&#229;nadshyra som 
+understiger ett belopp motsvarande 10 000 euro eller om 
+f&#246;rmedlingen &#228;ven avser hyresr&#228;tter som uppg&#229;r till eller 
+&#246;verstiger det beloppet. 
+
+12 &#167; Tillsammans med underr&#228;ttelsen ska det ges in
+
+1. bevis om fastighetsm&#228;klarens nationalitet,
+
+2. bevis om att m&#228;klaren har f&#246;rs&#228;kring f&#246;r skadest&#229;ndsansvar 
+enligt 3 kap. 25 &#167; fastighetsm&#228;klarlagen (2021:516), och
+
+3. intyg om att m&#228;klaren uppfyller kraven f&#246;r tillf&#228;llig 
+yrkesut&#246;vning enligt lagen (2016:145) om erk&#228;nnande av 
+yrkeskvalifikationer och de f&#246;reskrifter som har meddelats i 
+anslutning till den lagen.
+
+13 &#167; N&#228;r en fullst&#228;ndig underr&#228;ttelse med bifogade handlingar 
+har kommit in till Fastighetsm&#228;klarinspektionen, ska 
+fastighetsm&#228;klaren anses registrerad enligt 2 kap. 
+fastighetsm&#228;klarlagen (2021:516). Registreringen g&#228;ller under 
+ett &#229;r och f&#229;r f&#246;rnyas p&#229; beg&#228;ran av den registrerade. 
+
+14 &#167; Ett innehav av ett s&#229;dant europeiskt yrkeskort som anges 
+i 5 &#167; 9 lagen (2016:145) om erk&#228;nnande av yrkeskvalifikationer 
+och som g&#228;ller yrkesut&#246;vning i Sverige ska anses utg&#246;ra en 
+f&#246;rhandsunderr&#228;ttelse enligt 11 &#167;.
+
+En registrering enligt 13 &#167; som grundas p&#229; en underr&#228;ttelse 
+enligt f&#246;rsta stycket g&#228;ller under 18 m&#229;nader.
+
+Elektronisk underskrift 
+
+15 &#167; En ans&#246;kan om registrering eller en underr&#228;ttelse om 
+tillf&#228;llig yrkesut&#246;vning i Sverige f&#229;r undertecknas med en 
+s&#229;dan avancerad elektronisk underskrift som avses i artikel 3 
+i Europaparlamentets och r&#229;dets f&#246;rordning (EU) nr 910/2014 av 
+den 23 juli 2014 om elektronisk identifiering och betrodda 
+tj&#228;nster f&#246;r elektroniska transaktioner p&#229; den inre marknaden 
+och om upph&#228;vande av direktiv 1999/93/EG.
+
+Ans&#246;kningsavgift, &#229;rlig avgift och p&#229;minnelseavgift
+
+16 &#167; F&#246;r pr&#246;vning av en ans&#246;kan enligt 5 &#167; tas en avgift ut 
+enligt 9-14 &#167;&#167; avgiftsf&#246;rordningen (1992:191). F&#246;r 
+ans&#246;kningsavgiften till&#228;mpas avgiftsklass 4.
+
+17 &#167; Registrerade fastighetsm&#228;klare och registrerade 
+fastighetsm&#228;klarf&#246;retag ska fr&#229;n och med kalender&#229;ret efter 
+att registrering skett betala en &#229;rlig avgift p&#229; 3 250 kronor. 
+Detta g&#228;ller dock inte en fastighetsm&#228;klare som registrerats 
+enligt 13 &#167;.
+
+18 &#167; Om den &#229;rliga avgiften inte betalas inom f&#246;reskriven tid, 
+ska Fastighetsm&#228;klarinspektionen skicka en p&#229;minnelse till 
+fastighetsm&#228;klaren respektive fastighetsm&#228;klarf&#246;retaget. 
+P&#229;minnelsen ska inneh&#229;lla en uppmaning att betala inom en viss 
+tid som inspektionen best&#228;mmer. 
+
+F&#246;r p&#229;minnelsen ska inspektionen ta ut en avgift p&#229; 
+500 kronor, som ska betalas inom den tid som best&#228;ms enligt 
+f&#246;rsta stycket. 
+
+Inkomsterna fr&#229;n p&#229;minnelseavgifter f&#229;r disponeras av 
+inspektionen.
+
+Fastighetsm&#228;klares och fastighetsm&#228;klarf&#246;retags anm&#228;lan till 
+Fastighetsm&#228;klarinspektionen om &#228;ndrade f&#246;rh&#229;llanden
+
+19 &#167; Om en registrerad fastighetsm&#228;klare upph&#246;r med sin 
+verksamhet, f&#246;rs&#228;tts i konkurs eller f&#229;r n&#228;ringsf&#246;rbud, ska 
+m&#228;klaren anm&#228;la det till Fastighetsm&#228;klarinspektionen. 
+Detsamma g&#228;ller om n&#229;got f&#246;rh&#229;llande som ska uppges enligt 5-
+7, 11 eller 12 &#167; &#228;ndras.
+
+Om ett registrerat fastighetsm&#228;klarf&#246;retag upph&#246;r med sin 
+verksamhet, f&#246;rs&#228;tts i konkurs, blir f&#246;rem&#229;l f&#246;r 
+f&#246;retagsrekonstruktion eller g&#229;r i likvidation, ska 
+m&#228;klarf&#246;retaget anm&#228;la det till Fastighetsm&#228;klarinspektionen. 
+Detsamma g&#228;ller om n&#229;got f&#246;rh&#229;llande som ska uppges enligt 5 
+eller 8-10 &#167; &#228;ndras.
+
+Myndighets anm&#228;lan till Fastighetsm&#228;klarinspektionen
+
+20 &#167; Om en myndighet anser att det finns anledning att ge en 
+fastighetsm&#228;klare eller ett fastighetsm&#228;klarf&#246;retag en erinran 
+eller varning eller att &#229;terkalla m&#228;klarens eller 
+m&#228;klarf&#246;retagets registrering, ska myndigheten anm&#228;la det till 
+Fastighetsm&#228;klarinspektionen.
+
+Intyg, upplysningar och underr&#228;ttelser fr&#229;n 
+Fastighetsm&#228;klarinspektionen
+
+21 &#167; Fastighetsm&#228;klarinspektionen ska p&#229; beg&#228;ran utf&#228;rda intyg 
+om att en fastighetsm&#228;klares eller ett 
+fastighetsm&#228;klarf&#246;retags registrering inte har &#229;terkallats 
+eller att m&#228;klaren eller m&#228;klarf&#246;retaget inte har getts en 
+varning eller erinran.
+
+22 &#167; Fastighetsm&#228;klarinspektionen ska l&#228;mna de upplysningar 
+och utf&#228;rda de intyg om beh&#246;righet, yrkesverksamhet eller 
+liknande f&#246;rh&#229;llanden som en beh&#246;rig myndighet i en EES-stat 
+eller Schweiz beg&#228;r. 
+
+23 &#167; Om Fastighetsm&#228;klarinspektionen har &#229;terkallat 
+registreringen f&#246;r en fastighetsm&#228;klare som registrerats 
+enligt 13 &#167; eller har gett en s&#229;dan m&#228;klare en varning eller 
+erinran, ska inspektionen sedan beslutet f&#229;tt laga kraft 
+underr&#228;tta beh&#246;rig myndighet eller organisation i m&#228;klarens 
+etableringsstat.
+
+Fastighetsm&#228;klarinspektionens anm&#228;lan till allm&#228;n &#229;klagare
+
+24 &#167; Om Fastighetsm&#228;klarinspektionen har anledning att anta 
+att n&#229;gon yrkesm&#228;ssigt f&#246;rmedlar fastigheter i strid mot det 
+som f&#246;reskrivs i 2 kap. fastighetsm&#228;klarlagen (2021:516) om 
+fastighetsm&#228;klares skyldighet att vara registrerad, ska 
+inspektionen anm&#228;la det till allm&#228;n &#229;klagare.
+
+Utbildning
+
+25 &#167; Den utbildning som avses i 2 kap. 8 &#167; 4 
+fastighetsm&#228;klarlagen (2021:516) ska omfatta 
+fastighetsf&#246;rmedling, fastighetsr&#228;tt och annan civilr&#228;tt, 
+skatter&#228;tt, ekonomi, byggnadsteknik och fastighetsv&#228;rdering.
+
+F&#246;rsta stycket g&#228;ller inte vid registrering f&#246;r 
+hyresf&#246;rmedling eller s&#228;rskild registrering f&#246;r 
+hyresf&#246;rmedling. Vid registrering f&#246;r hyresf&#246;rmedling ska 
+utbildningen omfatta handledd praktik hos en registrerad 
+fastighetsm&#228;klare som &#228;gnar sig &#229;t f&#246;rmedling av hyresr&#228;tter 
+avseende bostadsl&#228;genheter. Vid s&#228;rskild registrering f&#246;r 
+hyresf&#246;rmedling ska utbildningen omfatta handledd praktik hos 
+en registrerad fastighetsm&#228;klare som &#228;gnar sig &#229;t f&#246;rmedling 
+av hyresr&#228;tter.
+
+Fastighetsm&#228;klarinspektionen f&#229;r i enskilda fall besluta om 
+undantag fr&#229;n f&#246;rsta eller andra stycket, om det finns 
+s&#228;rskilda sk&#228;l f&#246;r det. 
+
+F&#246;rs&#228;kring
+
+26 &#167; En f&#246;rs&#228;kring som avses i 2 kap. 8 &#167; 3 
+fastighetsm&#228;klarlagen (2021:516) ska tecknas hos en 
+f&#246;rs&#228;kringsgivare som har tillst&#229;nd att driva 
+f&#246;rs&#228;kringsr&#246;relse i en EES-stat eller i ett land som &#228;r 
+medlem i Organisationen f&#246;r ekonomiskt samarbete (OECD). 
+Fastighetsm&#228;klarinspektionen f&#229;r i enskilda fall besluta att 
+f&#246;rs&#228;kringen f&#229;r tecknas hos en annan f&#246;rs&#228;kringsgivare, om 
+denne &#228;r underkastad motsvarande krav p&#229; soliditet, 
+likviditet, riskhantering och tillsyn som g&#228;ller f&#246;r svenska 
+f&#246;rs&#228;kringsf&#246;retag.
+
+F&#246;rs&#228;kringsvillkoren ska inneb&#228;ra att
+
+1. f&#246;rs&#228;kringen f&#246;r varje skadefall t&#228;cker 
+skadest&#229;ndsskyldighet upp till 2 000 000 kronor f&#246;r 
+fastighetsm&#228;klare med fullst&#228;ndig registrering och upp till 
+200 000 kronor f&#246;r fastighetsm&#228;klare med registrering f&#246;r 
+hyresf&#246;rmedling eller s&#228;rskild registrering f&#246;r 
+hyresf&#246;rmedling,
+
+2. f&#246;rs&#228;kringsskyddet g&#228;ller f&#246;r skador som har orsakats under 
+den tid d&#229; f&#246;rs&#228;kringen varit i kraft,
+
+3. ers&#228;ttningen betalas ut till den skadelidande utan avdrag 
+f&#246;r sj&#228;lvrisk,
+
+4. f&#246;rs&#228;kringsskyddet kan upph&#246;ra tidigast en m&#229;nad efter det 
+att Fastighetsm&#228;klarinspektionen har underr&#228;ttats om 
+upph&#246;randet, och
+
+5. f&#246;rs&#228;kringsskyddet i &#246;vrigt &#228;r tillfredsst&#228;llande i de 
+avseenden som &#228;r av betydelse f&#246;r den skadelidandes r&#228;tt.
+
+F&#246;r en fastighetsm&#228;klare som registrerats enligt 13 &#167; g&#228;ller 
+inte andra stycket 4.
+
+Fastighetsm&#228;klarregistret
+
+27 &#167; Fastighetsm&#228;klarinspektionen ska med hj&#228;lp av 
+automatiserad behandling f&#246;ra ett register &#246;ver registrerade 
+fastighetsm&#228;klare och registrerade fastighetsm&#228;klarf&#246;retag 
+(fastighetsm&#228;klarregistret).
+
+Inspektionen &#228;r personuppgiftsansvarig f&#246;r registret.
+
+28 &#167; Personuppgifter f&#229;r behandlas i fastighetsm&#228;klarregistret 
+om det beh&#246;vs f&#246;r
+
+1. pr&#246;vning av en ans&#246;kan om registrering eller en 
+underr&#228;ttelse om tillf&#228;llig yrkesut&#246;vning,
+
+2. den tillsyn som Fastighetsm&#228;klarinspektionen ut&#246;var mot 
+fastighetsm&#228;klare och fastighetsm&#228;klarf&#246;retag enligt 4 kap. 
+fastighetsm&#228;klarlagen (2021:516), och
+
+3. information till allm&#228;nheten om m&#228;klare och m&#228;klarf&#246;retag 
+som &#228;r eller har varit registrerade.
+
+Personuppgifter som behandlas f&#246;r &#228;ndam&#229;l som anges i f&#246;rsta 
+stycket f&#229;r ocks&#229; behandlas f&#246;r att fullg&#246;ra uppgiftsl&#228;mnande 
+som sker i &#246;verensst&#228;mmelse med lag eller f&#246;rordning. 
+Uppgifterna f&#229;r &#228;ven behandlas f&#246;r andra &#228;ndam&#229;l, under 
+f&#246;ruts&#228;ttning att uppgifterna inte behandlas p&#229; ett s&#228;tt som 
+&#228;r of&#246;renligt med det &#228;ndam&#229;l f&#246;r vilket uppgifterna samlades 
+in.
+
+29 &#167; I fastighetsm&#228;klarregistret ska f&#246;ljande uppgifter 
+antecknas om varje fastighetsm&#228;klare:
+
+1. namn, personnummer, folkbokf&#246;ringsadress, e-postadress och 
+telefonnummer,
+
+2. registreringskategori,
+
+3. nuvarande och tidigare ansvarsf&#246;rs&#228;kring, 
+
+4. n&#228;r registrering beslutades, och
+
+5. n&#228;r avregistrering beslutades.
+
+Om registreringen avser f&#246;rmedlingsverksamhet i ett 
+registreringsskyldigt fastighetsm&#228;klarf&#246;retag, ska &#228;ven 
+uppgifter om m&#228;klarf&#246;retagets namn och organisationsnummer 
+antecknas. Om fastighetsm&#228;klaren har angett ett eller flera 
+verksamhetsst&#228;llen d&#228;r han eller hon avser att bedriva 
+f&#246;rmedlingsverksamhet, ska dessa antecknas. 
+
+Om registreringen avser tillf&#228;llig yrkesut&#246;vning, ska det 
+antecknas.
+
+30 &#167; F&#246;r en fastighetsm&#228;klare som registrerats enligt 13 &#167; ska 
+det i fastighetsm&#228;klarregistret, f&#246;rutom uppgifter enligt 
+29 &#167;, antecknas m&#228;klarens etableringsstat och den tid f&#246;r 
+vilken registreringen g&#228;ller.
+
+31 &#167; I fastighetsm&#228;klarregistret ska f&#246;ljande uppgifter 
+antecknas om varje fastighetsm&#228;klarf&#246;retag:
+
+1. namn, organisationsnummer, verksamhetsform och samtliga 
+verksamhetsst&#228;llen,
+
+2. postadress, e-postadress, och telefonnummer samt, om s&#229;dana 
+uppgifter finns, webbplats, k&#228;nnetecken f&#246;r verksamheten och 
+s&#228;rskild faktureringsadress,
+
+3. namn, personnummer och e-postadress f&#246;r dem som ing&#229;r i 
+m&#228;klarf&#246;retagets ledning,
+
+4. namn, person- eller organisationsnummer och e-postadress 
+f&#246;r &#228;gare som har ett kvalificerat innehav av andelar i 
+m&#228;klarf&#246;retaget,
+
+5. namn, personnummer och, om m&#228;klarf&#246;retaget har flera 
+verksamhetsst&#228;llen, verksamhetsst&#228;lle eller verksamhetsst&#228;llen 
+f&#246;r varje registrerad fastighetsm&#228;klare som bedriver 
+verksamhet i m&#228;klarf&#246;retaget, 
+
+6. registreringskategori,
+
+7. n&#228;r registrering beslutades, och
+
+8. n&#228;r avregistrering beslutades.
+
+32 &#167; I fastighetsm&#228;klarregistret f&#229;r en uppgift om ett 
+tillsyns&#228;rende eller ett beslut om en disciplinp&#229;f&#246;ljd 
+antecknas. &#196;ven i &#246;vrigt f&#229;r s&#229;dana uppgifter antecknas i 
+registret som beh&#246;vs f&#246;r Fastighetsm&#228;klarinspektionens 
+pr&#246;vning av fr&#229;gor om registrering eller f&#246;r inspektionens 
+tillsyn &#246;ver fastighetsm&#228;klare och fastighetsm&#228;klarf&#246;retag.
+
+33 &#167; Fastighetsm&#228;klarinspektionen ska i fr&#229;ga om en 
+registrerad fastighetsm&#228;klare p&#229; sin webbplats h&#229;lla f&#246;ljande 
+uppgifter i fastighetsm&#228;klarregistret tillg&#228;ngliga:
+
+1. namn,
+
+2. n&#228;r den senaste registreringen beslutades, 
+
+3. registreringskategori,
+
+4. i f&#246;rekommande fall, namn och postadress f&#246;r det 
+fastighetsm&#228;klarf&#246;retag d&#228;r fastighetsm&#228;klaren bedriver sin 
+verksamhet, och
+
+5. m&#228;klarens etableringsstat och den tid f&#246;r vilken 
+registreringen g&#228;ller, om det &#228;r fr&#229;ga om tillf&#228;llig 
+yrkesut&#246;vning.
+
+Det som f&#246;reskrivs i f&#246;rsta stycket 1-3 om uppgifter om en 
+registrerad fastighetsm&#228;klare ska &#228;ven g&#228;lla motsvarande 
+uppgifter om ett registrerat fastighetsm&#228;klarf&#246;retag. 
+D&#228;rut&#246;ver ska Fastighetsm&#228;klarinspektionen i fr&#229;ga om ett 
+registrerat fastighetsm&#228;klarf&#246;retag h&#229;lla f&#246;ljande uppgifter i 
+registret tillg&#228;ngliga: 
+
+1. postadress,
+
+2. samtliga verksamhetsst&#228;llen och postadresser till dessa, 
+
+3. ett annat k&#228;nnetecken f&#246;r m&#228;klarf&#246;retagets verksamhet &#228;n 
+m&#228;klarf&#246;retagets namn, och
+
+4. namn och verksamhetsst&#228;lle f&#246;r varje registrerad 
+fastighetsm&#228;klare som bedriver verksamhet i m&#228;klarf&#246;retaget. 
+
+34 &#167; Personuppgifter i fastighetsm&#228;klarregistret ska gallras 
+n&#228;r de inte l&#228;ngre beh&#246;vs f&#246;r registrets &#228;ndam&#229;l och senast 
+vid den tidpunkt som anges i 35-37 &#167;&#167;.
+
+35 &#167; Om en domstol har beslutat att en disciplinp&#229;f&#246;ljd ska 
+upph&#228;vas, ska uppgift om p&#229;f&#246;ljden gallras n&#228;r beslutet om 
+upph&#228;vande har f&#229;tt laga kraft.
+
+36 &#167; En uppgift om ett tillsyns&#228;rende eller en annan 
+disciplinp&#229;f&#246;ljd &#228;n &#229;terkallelse ska gallras senast fem &#229;r 
+efter det att Fastighetsm&#228;klarinspektionen genom beslut skilt 
+&#228;rendet ifr&#229;n sig. 
+
+37 &#167; &#214;vriga uppgifter som antecknats om en fastighetsm&#228;klare 
+eller ett fastighetsm&#228;klarf&#246;retag enligt 29-32 &#167;&#167; ska gallras 
+senast tio &#229;r efter det att m&#228;klaren respektive 
+m&#228;klarf&#246;retaget avregistrerades.
+
+Bemyndiganden
+
+38 &#167; Fastighetsm&#228;klarinspektionen f&#229;r meddela f&#246;reskrifter om 
+inneh&#229;llet i och omfattningen av den utbildning som anges i 
+25 &#167;. 
+
+39 &#167; Fastighetsm&#228;klarinspektionen f&#229;r meddela n&#228;rmare 
+f&#246;reskrifter om
+
+1. de bevis, intyg och andra handlingar som ska ges in 
+tillsammans med en ans&#246;kan om registrering eller en 
+underr&#228;ttelse om tillf&#228;llig yrkesut&#246;vning, och
+
+2. vid vilken tidpunkt den &#229;rliga avgiften ska betalas.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=386">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=388">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

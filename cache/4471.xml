@@ -1,0 +1,766 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2022-09-08 15:56:34" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4471</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4470">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4472">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1947:847 ·
+                    <a href="/sfsr?bet=1947:847">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Kung&#246;relse (1947:847) med vissa best&#228;mmelser 
+r&#246;rande till&#228;mpningen av lagen den 20 december
+1946 (nr 817) om bevisupptagning vid utl&#228;ndsk 
+domstol</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet BIRS
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1947-10-31
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2000:708
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Har framst&#228;llning om bevisupptagning vid utl&#228;ndsk domstol
+kommit in till Justitiedepartementet skall departementet vid
+behov se till att framst&#228;llningen &#246;vers&#228;tts till den andra
+statens spr&#229;k eller annat spr&#229;k som den staten godtar. Uppgift
+om kostnaden f&#246;r &#246;vers&#228;ttningen skall omedelbart &#246;verl&#228;mnas
+till den svenska domstolen.
+
+G&#246;r svensk domstol framst&#228;llning enligt den i Haag den 18 mars
+1970 dagtecknade konventionen om bevisupptagning i utlandet i
+m&#229;l och &#228;renden av civil eller kommersiell natur direkt till
+det centrala organet i den andra staten eller i &#214;sterrike,
+skall vad som s&#228;gs om Justitiedepartementet i f&#246;rsta stycket
+f&#246;rsta meningen g&#228;lla domstolen. F&#246;rordning (2000:708).
+
+2 &#167;  Har i fall, d&#229; kostnad f&#246;r bevisupptagning vid utl&#228;ndsk domstol
+enligt lag skall utgivas av enskild part, r&#228;tten sj&#228;lvmant f&#246;rordnat
+om bevisupptagningen, m&#229; r&#228;tten, om f&#246;rel&#228;ggande att st&#228;lla s&#228;kerhet
+f&#246;r kostnaden icke efterkommes, genast l&#229;ta uttaga det belopp som
+angivits i f&#246;rel&#228;ggandet.
+
+Vid tingsr&#228;tt skall belopp, som s&#229;lunda indrivits eller som part
+enligt givet f&#246;rel&#228;ggande erlagt till domstolen, of&#246;rdr&#246;jligen
+ins&#228;ttas p&#229; tj&#228;nstepostgirokonto. F&#246;rordning (1970:527).
+
+3 &#167; Sedan uppgift om samtliga kostnader f&#246;r bevisupptagningen
+inkommit till den svenska domstolen har denna, om kostnaden
+enligt lag skall utgivas av part, att s&#229;vitt t&#228;ckning ej kan
+erh&#229;llas ur inbetalt f&#246;rskott vidtaga erforderliga &#229;tg&#228;rder f&#246;r
+kostnadsbeloppets uttagande samt &#246;vers&#228;nda det till
+
+1. Justitiedepartementet eller
+
+2. om omedelbar skriftv&#228;xling &#228;gt rum med den utl&#228;ndska
+domstolen, till denna, eller
+
+3. om bevisupptagningen &#228;gt rum enligt den i 1 &#167; andra stycket
+n&#228;mnda konventionen, till det centrala organet i den fr&#228;mmande
+staten.
+
+Skall kostnaden betalas av allm&#228;nna medel, verkst&#228;lls
+utbetalningen i den ordning som &#228;r f&#246;reskriven f&#246;r ers&#228;ttning
+av allm&#228;nna medel till vittnen. F&#246;rordning (2000:708).
+
+4 &#167; I framst&#228;llning om bevisupptagning vid utl&#228;ndsk domstol
+anges
+
+1. den ans&#246;kande domstolens namn och postadress samt, om det &#228;r
+m&#246;jligt, den domstol som skall ta upp beviset,
+
+2. parternas namn och postadress och i f&#246;rekommande fall
+motsvarande uppgifter betr&#228;ffande ombud,
+
+3. m&#229;lets beskaffenhet och en kort redog&#246;relse f&#246;r saken,
+
+4. den &#229;tg&#228;rd som skall vidtas.
+
+I f&#246;rekommande fall anges dessutom
+
+1. namn och postadress i fr&#229;ga om den som skall h&#246;ras,
+
+2. de fr&#229;gor som skall st&#228;llas till den som skall h&#246;ras eller
+de omst&#228;ndigheter som han skall h&#246;ras om,
+
+3. den skriftliga handling som skall f&#246;retes eller den egendom
+betr&#228;ffande vilken syn skall h&#229;llas,
+
+4. om visst f&#246;rfarande skall iakttas vid bevisupptagningen,
+
+5. i vad m&#229;n den som skall h&#246;ras eller fullg&#246;ra n&#229;got enligt
+svensk lag &#228;r ber&#228;ttigad eller skyldig att v&#228;gra g&#246;ra vad som
+beg&#228;rs av honom. F&#246;rordning (2000:708).
+
+5 &#167;  Har svensk domstol beslutat om bevisupptagning vid domstol i
+Danmark, Finland, Island eller Norge, &#228;ger i m&#229;let eller &#228;rendet
+omedelbar skriftv&#228;xling rum med den utl&#228;ndska domstolen.
+
+Skall bevisupptagningen ske i Finland eller Island, f&#229;r den svenska
+domstolen beg&#228;ra att protokoll och andra handlingar &#246;ver
+bevisupptagningen &#246;vers&#228;ttes till svenska, danska eller norska spr&#229;ket.
+F&#246;rordning (1975:619).
+
+6 &#167;  &#214;vers&#228;ttning av framst&#228;llning enligt 4 &#167; skall var bestyrkt.
+S&#229;dant bestyrkande skall i fr&#229;ga om framst&#228;llning som s&#228;gs i 1 &#167; andra
+stycket ske av diplomatisk eller konsul&#228;r tj&#228;nsteman eller av notarius
+publicus.
+
+Kostnad f&#246;r &#246;vers&#228;ttning betalas i fall som avses i f&#246;rsta stycket
+andra meningen av den svenska domstolen. I fr&#229;ga om s&#229;dan kostnad &#228;ger
+3 &#167; andra stycket motsvarande till&#228;mpning. F&#246;rordning (1975:306).
+
+7 &#167; I bilaga till denna f&#246;rordning framg&#229;r de centrala organ
+som avses i 1 &#167; andra stycket och de krav som de staterna
+st&#228;ller p&#229; vilket spr&#229;k en framst&#228;llning skall vara &#246;versatt
+till. F&#246;rordning (2000:708).
+
+2000:708
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 oktober 2000.
+
+Genom denna f&#246;rordning upph&#228;vs cirkul&#228;r (1975:305) med
+anledning av Sveriges tilltr&#228;de till Haagkonventionen om
+bevisupptagning i utlandet i m&#229;l och &#228;renden av civil eller
+kommersiell natur och Utrikesdepartementets f&#246;reskrifter
+(1988:252) om f&#246;rfarandet vid &#246;vers&#228;ndande av framst&#228;llning om
+bevisupptagning enligt Haagkonventionen den 18 mars 1970 om
+bevisupptagning i utlandet i m&#229;l och &#228;renden av civil eller
+kommersiell natur.
+
+
+Bilaga
+
+Stat    		Centralt organ  		Krav p&#229; &#246;ver-
+                        				s&#228;ttning
+
+Amerikas f&#246;renta
+stater j&#228;mte Guam,
+Jungfru&#246;arna och
+Puerto Rico		U.S. Departement of Justice
+        		Civil Division
+        		Office of Foreign Litigation,
+        		(adr.: 10th and Constitution
+			Avenue, N.W. Washington D.C.
+			20004, USA)			engelska
+
+Argentina		Ministerio de Relaciones
+        		Exteriores y Culto
+        		(adr.: Reconquista 1088,
+			Buenos Aires, Argentina)	spanska
+
+Australien		Attorney-General&#39;s Department,
+			Central Office
+        		(adr.: National Circuit, Barter,
+        		ACT 2600, Australien)
+
+Barbados		The Registrar of the Supreme
+			Court of Barbados
+        		(adr.: Law Courts, Bridgetown,
+			Barbados)
+
+Cypern			Ministry of Justice
+        		(adr.: Nicosia, Cypern)		ej franska
+
+Estland			Justiitsministeerium
+        		(adr.: Suur-Karja 19, EE-0100
+        		Tallinn, Estland
+
+Frankrike		Le Minist&#232;re de la Justice,
+			Service civil de l&#39;entraide
+			judiciaire internationale
+        		(adr.: 13, Place Vend&#244;me,
+			75042 Paris Cedex 01,
+			Frankrike)			franska
+
+Israel			The Director of Courts
+        		(adr.: 19, Jaffa Road,
+        		Jerusalem, Israel)
+
+Italien			Ministry of Foreign Affairs
+        		(adr.: Rom, Italien)
+
+Kina (avser endast
+Hongkong)		The Registrar of hte Supreme
+			Court (art. 24, 35)
+        		The Chief Secretary, Hong Kong
+        		(art. 16, 17 35)
+        		(adr.: Hongkong)        	ej franska
+
+Lettland		Ministry of Justice
+        		(adr.: Brivibas Bulvaris 36,
+			LV-1536 Riga, Lettland)
+
+Luxemburg		Le Parquet g&#233;n&#233;ral pr&#232;s la
+			Cour sup&#233;rieure de Justice
+        		(adr.: 12, C&#244;te d&#39;Eich,
+			Luxembourg-Ville, Luxemburg)	franska eller
+							tyska
+
+Mexico			Secretaria de Relaciones
+			Exteriores Direccion General de
+			Asuntos Juridicos (adr.: Ricardo
+			Flores Mag&#243;n No. 1, Mexico)	spanska
+
+Monaco			The Directorate of Judicial
+			Services (adr.: MC 98025,
+			Monaco Cedex)			franska
+
+Nederl&#228;nderna		The Public Prosecutor with
+			the district court of the Hague
+        		(adr.: Juliana van Stolberglaan
+			2-4, Haag)			engelska, franska,
+							nederl&#228;ndska eller
+							tyska
+
+Aruba			The Attorney-General in
+			Aruba of the Joint Court
+			of Justice of the Netherlands
+			Antilles and of Aruba
+			(adr.: Aruba)			nederl&#228;ndska,
+							engelska eller
+							spanska
+
+Polen			Ministerstwo Sprawiedliwosci
+			Departament Wspolpracy
+        		Miedzynarodowej i Prawa
+        		Europejskiego
+        		(adr.: Al. Ujazdowskie 11,
+			00-567 Warszawa, Polen)
+
+Portugal		The Director General of the
+        		Judiciary Department of
+			Ministry of Justice
+        		(adr.: Praca do Com&#233;rcio,
+			1194 Lisboa Codex, Portugal)	portugisiska
+
+Schweiz			Departement f&#233;d&#233;ral de
+			Justice et Police
+        		(adr.: Bunderain 20,
+			3003 Bern)			tyska, franska
+							eller italienska
+
+Appenzell
+Ausserrhoden		antonsgericht Appenzell
+			A. Rh. (adr.: 9043 Trogen)	tyska
+
+Appenzell
+Innerrhoden		Kantonsgericht Appenzell
+			A. Rh (adr.: 9050 Appenzell)	tyska
+
+Aargau			Obergericht des Kantons
+			Aarga (adr.: 5000 Aargau)	tyska
+
+Basel-Landschaft	Obergericht des Kantons
+			Basel-Landschaft
+        		(adr.: 4410 Liestal)		tyska
+
+Basel-Stadt		Appellationsgericht
+			Basel-Stadt
+        		(adr.: 4054 Basel)		tyska
+
+Bern			Justitzdirektion des
+			Kantons Bern
+        		(adr.: 3011 Bern)		tyska eller
+							franska
+
+Fribourg		Tribunal cantonal
+        		(adr.: 1700 Fribourg)		tyska eller
+							franska
+
+Gen&#232;ve			Parquet du Procureur
+			g&#233;n&#233;ral	(adr.: 1211
+			Gen&#232;ve 3)			franska
+
+Glarus			Obergericht des Kantons
+			Glarus (adr.: 8750 Glarus)	tyska
+
+Graub&#252;nden		Justitz-, Polizei- und
+			Sanit&#228;tsdepartement
+			Graub&#252;nden (adr.: 7001
+			Chur)				tyska
+
+Jura			Departement de la Justice
+        		(adr.: 2800 Del&#233;mont)		franska
+
+Luzern			Obergericht des Kantons
+			Luzern (adr.: 6002 Luzern)	tyska
+
+Neuch&#226;tel		Departement de Justice
+			(adr.: 2001 Neuch&#226;tel)		franska
+
+Nidwalden		Kantonsgericht Nidwalden
+        		(adr.: 6370 Stans)		tyska
+
+Obwalden		Kantonsgericht des Kantons
+        		Obwalden (adr.: 6060 Sarnen)	tyska
+
+St. Gallen		Kantonsgericht St. Gallen
+        		(adr.: 9001 St. Gallen)		tyska
+
+Schaffhausen		Obergericht des Kantons
+			Schaffhausen
+        		(adr.: 8201 Schaffhausen)	tyska
+
+Schwyz			Kantonsgericht Schwyz
+        		(adr.: 6430 Schwyz)		tyska
+
+Solothurn		Obergericht des Kantons
+			Solothurn (adr.: 4500
+			Solothurn)			tyska
+
+Tessin			Tribunale di appello
+        		(adr.: 6901 Lugano)		italienska
+
+Thurgau			Obergericht des Kantons
+			Thurgau (adr.: 8500
+			Frauenfeld)			tyska
+
+Uri			Gerichtskanlzei Uri
+        		(adr.: 6460 Altdorf)		tyska
+
+Valais			Tribunal cantonal
+        		(adr.: 1950 Sion)		franska eller
+							tyska
+
+Vaud			Tribunal cantonal
+        		(adr.: 1014 Lausanne)		franska
+
+Zug			Obergericht des Kantons
+			Zug Rechtshilfe
+        		(adr.: 6300 Zug)		tyska
+
+Z&#252;rich			Obergericht des Kantons
+			Z&#252;rich Rechtshilfe
+        		(adr.: 8023 Z&#252;rich)		tyska
+
+Singapor		The Registrar of the
+			Supreme Court
+        		(adr.: St Andrew&#39;s Road,
+			Singapore 0617)			engelska
+
+Slovakien		Ministry of Justice
+        		Ministerstvo spravodlivosti
+        		Slovenskej republiky
+        		Department of International
+			Law
+        		(adr.: Zupn&#233; n&#225;mestie 13,
+			813 11 Bratislava, Slovakiska
+			Republiken)			slovakiska
+
+Spanien			Ministry of Justice,
+        		Technical Secretariat General
+        		(adr.: San Bernardo 45, 28015
+        		Madrid, Spanien)		spanska
+
+Storbritannien och
+Nordirland j&#228;mte
+vissa omr&#229;den f&#246;r
+vilkas internationella
+f&#246;rbindelser
+Storbritannien svarar:
+England och Wales	The Foreign and Common
+			wealth Office
+        		(adr.: London SW1A 2AL,
+        		Storbritannien) (art. 2,
+			16-17)
+        		The Senior Master of the
+			Supreme Court
+        		(adr.: Royal Courts of Justice,
+			Strand, London WC2A 2LL,
+        		Storbritannien)			engelska
+
+Skottland		The Scottish Executive Justice
+        		Departement, Civil Justice &amp;
+        		International Division
+        		(adr.: Hayweight House, 23
+			Lauriston Street, Edinburgh,
+			EH3, 9DQ
+
+Nordirland		The Master (Queen&#39;s Bench and
+			Appeals), Royal Courts of
+			Justice (adr.: Chichester Street
+			BT1 3JF Belfast, Nordirland)
+
+Suver&#228;na basomr&#229;dena
+Akrotiri och Dhekelia	The Senior Registrar of the
+			Judge&#39;s Court of the Sovereign
+			Base Areas (adr.: Akrotiri och
+			Dhekelia)
+        		(art. 16, 17, 18, 24)		ej franska
+
+Anguilla		The Registrar of the East
+			Caribbean Supreme Court
+        		(art.16-18)
+        		The Governor of Anguilla
+        		(art. 24)
+        		(adr.: Anguilla)		ej franska
+
+Cayman&#246;arna		His Excellency the Governor
+			(art. 24)
+        		The Attorney-General
+        		(art.16, 17)
+        		The Clerk of the Grand Court
+        		(art. 18)
+        		(adr.: Cayman Islands)		ej franska
+
+Falklands&#246;arna		The Governor (art. 24)
+        		The Judge of the Supreme
+			Court of the Falkland Islands
+        		(art. 16, 17, 18)
+        		(adr.: Stanley, Falkland
+			Islands)			ej franska
+
+Gibraltar		The Deputy Governor
+        		(art. 16, 17, 24)
+        		The Registrar of the Supreme
+			Court of Gibraltar
+        		(art. 18)
+        		(adr.: Gibraltar)		ej franska
+
+Guernsey		The Bailiff, Deputy Bailiff,
+			any Jurat of the Royal
+			Court of Guernsey, the
+			Chairman of a Jurat of the Court
+			of Alderney and
+			the Seneschal (or Deputy) of
+			the Court of the Seneschal
+			of Sark
+        		(adr.: Guernsey, Channel
+			Islands)
+
+Isle of Man		er Majesty&#39;s First Deemster
+			and Clerk of the Rolls
+        		(adr.: Rolls Office, Douglas,
+			Isle of Man)			ej franska
+
+Jersey			The Royal Court of Jersey
+        		(adr.: Jersey, Channel Islands,
+			Storbritannien)
+
+Sydafrika		Departement of Justice, The
+			Director General
+        		(adr.: Private Bag X81,
+			Pretoria, RSA 0001		ej franska
+
+Tjeckiska republiken	The Ministry of Justice
+			of the Czech Republic
+        		(adr.: 128 10 Praha 2,
+			Vysehradsk&#225; 16, Tjeckiska
+			republiken)
+
+Tyskland		tyska av auktoriserad
+			&#246;vers&#228;ttare
+
+Baden-W&#252;rtemberg	Justizministerium
+        		Baden-W&#252;rttemberg
+        		(adr.: Schillerplatz 4,
+        		D-70173 Stuttgart)
+
+Bayern			Bayerisches Staatsministerium
+			der Justiz, Justizpalast
+        		(adr.: Prielmayerstrasse 7,
+        		D-80335 M&#252;nchen)
+
+Berlin			Senatsverwaltung f&#252;r Justiz
+			von Berlin
+        		(adr.: Salzburger Strasse 21-25,
+        		D-10825 Berlin)
+
+Brandenburg		Ministerium der Justiz des
+			Landes Brandenburg
+        		(adr.: Heinrich-Mann-Allee 107,
+			D-14460 Potsdam)
+
+Bremen			Der Pr&#228;sident des Landgerichts
+			(adr.: Domsheide 16,
+        		D-28195 Bremen)
+
+Hamburg			Pr&#228;sident des Amtsgerichts
+			Hamburg
+        		(adr.: Sievekingplatz 1,
+        		D-20335 Hamburg)
+
+Hessen			Hessisches Ministerium der
+			Justiz (adr.: Luisenstrasse 13
+        		D-65185 Wiesbaden)
+
+Mecklenburg-Vorpommern	Ministerium f&#252;r Justiz, Bundes-
+			und Europaangelegenheiten des
+Landes
+Mecklenburg-Vorpommern	(adr.: Demmlerplatz 14,
+        		D-19053 Schwerin)
+
+Niedersachsen		Nieders&#228;chsisches Justizministerium
+        		(adr.: Am Waterlooplatz 1,
+        		D-30169 Hannover)
+
+Nordrhein-Westfalen	Pr&#228;sident des Oberlandesgerichts
+			D&#252;sseldorf
+        		(adr.: Cecilienallee 3
+        		D-40474 D&#252;sseldorf)
+
+Rheinland-Pfalz		Ministerium der Justiz
+        		(adr.: Ernst-Ludwig-Strasse 3,
+        		D-55116 Mainz)
+
+Saarland		Ministerium der Justiz des
+			Saarlandes
+        		(adr.: Z&#228;hringerstrasse 12
+        		D-66119 Saarbr&#252;cken)
+
+Sachsen			S&#228;chsisches Staatsministerium
+			der Justiz
+        		(adr.: Archivstrasse 1,
+        		D-01097 Dresden)
+
+Sachsen-Anhalt		Ministerium der Justiz des
+			Landes Sachsen-Anhalt
+        		(adr.: Wilhelm-H&#246;pfner-Ring 6,
+        		D-39116 Magdeburg)
+
+Schleswig-Holstein	Der Justizminister des Landes
+			Schleswig-Holstein
+        		D-24103 Kiel)
+
+Th&#252;ringen		Th&#252;ringer Justizministerium
+        		(adr.: Alfred-Hess-Strasse 8
+        		D-99094 Erfurt)
+
+Venezuela		Ministerio de Relaciones
+			Exteriores
+        		Direcci&#243;n de Servicio
+			Consular Nacional
+        		(adr.: Esquina Principal frente a
+			la Plaza Bol&#237;var, Caracas,
+			Venezuela)			spanska
+
+&#214;sterrike		Bundesministerium f&#252;r Justiz,
+        		(adr.: Museumstrasse 7
+        		A-1070 Wien)			tyska</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4470">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4472">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

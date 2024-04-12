@@ -1,0 +1,772 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2021-10-12 15:33:04" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4349</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4348">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4350">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1963:193 ·
+                    <a href="/sfsr?bet=1963:193">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1963:193) om samarbete med Danmark, Finland, Island och Norge ang&#229;ende verkst&#228;llighet av straff m.m.</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet BIRS
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1963-05-22
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:444
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Om verkst&#228;llighet av b&#246;ter m.m.
+
+1 &#167; En dom som meddelats i Danmark, Finland, Island eller 
+Norge, varigenom d&#246;mts till b&#246;ter eller f&#246;rverkande av egendom 
+eller i brottm&#229;l utd&#246;mts ers&#228;ttning f&#246;r r&#228;tteg&#229;ngskostnad, f&#229;r 
+p&#229; beg&#228;ran verkst&#228;llas i Sverige.
+
+Det som s&#228;gs i f&#246;rsta stycket ska ocks&#229; g&#228;lla beslut, som i 
+n&#229;gon av n&#228;mnda stater till tryggande av anspr&#229;k p&#229; b&#246;ter, 
+f&#246;rverkande av egendom, skadest&#229;nd eller ers&#228;ttning f&#246;r 
+r&#228;tteg&#229;ngskostnad meddelats i fr&#229;ga om kvarstad eller beslag 
+av egendom tillh&#246;rande n&#229;gon som &#228;r misst&#228;nkt f&#246;r brott.
+
+I lagen (2009:1427) om erk&#228;nnande och verkst&#228;llighet av 
+b&#246;tesstraff inom Europeiska unionen finns best&#228;mmelser om 
+verkst&#228;llighet av b&#246;tesstraff i vissa fall. 
+
+Best&#228;mmelser om erk&#228;nnande och verkst&#228;llighet av beslut om 
+f&#246;rverkande i vissa fall finns i 
+
+1. lagen (2011:423) om erk&#228;nnande och verkst&#228;llighet av beslut 
+om f&#246;rverkande i vissa fall, 
+
+2. Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2018/1805 av 
+den 14 november 2018 om &#246;msesidigt erk&#228;nnande av beslut om 
+frysning och beslut om f&#246;rverkande, och 
+
+3. lagen (2020:968) med kompletterande best&#228;mmelser till EU:s 
+f&#246;rordning om &#246;msesidigt erk&#228;nnande av beslut om frysning och 
+beslut om f&#246;rverkande. Lag (2020:969).
+
+2 &#167; Verkst&#228;llighet sker enligt svensk lag; dock m&#229; beslut om
+f&#246;rvandling av b&#246;ter ej meddelas.
+
+3 &#167; &#197;t myndighet i Danmark, Finland, Island eller Norge m&#229; &#246;verl&#228;mnas
+att verkst&#228;lla h&#228;r i riket meddelad dom eller beslut som avses i 1 &#167;.
+
+4 &#167; Det som i denna lag s&#228;gs om b&#246;ter ska &#228;ven g&#228;lla utd&#246;mda 
+viten, som
+
+1. har f&#246;relagts en part eller n&#229;gon annan till fullg&#246;rande 
+av en skyldighet i en r&#228;tteg&#229;ng,
+
+2. i Sverige har f&#246;relagts av Konsumentombudsmannen, 
+Konkurrensverket eller domstol i ett m&#229;l eller &#228;rende som 
+avses i 1 kap. 4 &#167; 3 lagen (2016:188) om patent- och 
+marknadsdomstolar,
+
+3. i Finland har d&#246;mts ut av Marknadsdomstolen eller, efter 
+&#246;verklagande av ett avg&#246;rande av denna domstol, av H&#246;gsta 
+domstolen.
+
+F&#246;rsta stycket g&#228;ller &#228;ven tvangsgebyr som i Norge har 
+f&#246;relagts av Forbrukerombudet och som har godk&#228;nts av 
+n&#228;ringsidkaren eller har d&#246;mts ut av domstol.
+Lag (2016:191).
+
+4 a &#167; Best&#228;mmelser om anv&#228;ndning av beslag och kvarstad p&#229;
+beg&#228;ran av myndigheter i Danmark, Finland, Island och Norge
+finns i lagen (2000:562) om internationell r&#228;ttslig hj&#228;lp i
+brottm&#229;l. Lag (2000:568).
+
+Om verkst&#228;llighet av frihetsstraff
+
+5 &#167; I Danmark, Finland, Island eller Norge meddelad dom, varigenom
+d&#246;mts i Danmark till faengsel eller haefte, i Finland till tukthus
+eller f&#228;ngelse, i Island till fangelsi eller vardhald och i Norge till
+fengsel eller hefte, m&#229; p&#229; beg&#228;ran verkst&#228;llas h&#228;r i riket, om den
+d&#246;mde n&#228;r verkst&#228;llighet skall ske &#228;r svensk medborgare eller har
+hemvist i Sverige. Uppeh&#229;ller han sig h&#228;r i riket, m&#229; &#228;ven eljest
+domen verkst&#228;llas h&#228;r, om det med h&#228;nsyn till omst&#228;ndigheterna finnes
+l&#228;mpligast.
+
+5 a &#167; Om den d&#246;mde genom att fly till Sverige f&#246;rs&#246;ker att 
+helt eller delvis undandra sig verkst&#228;llighet av ett 
+frihetsstraff och fallet kan f&#246;ranleda en framst&#228;llning om 
+&#246;verf&#246;rande av verkst&#228;llighet, f&#229;r den d&#246;mde, p&#229; beg&#228;ran av 
+beh&#246;rig myndighet i Danmark, Finland, Island eller Norge, 
+h&#228;ktas om det finns risk f&#246;r att han eller hon avviker eller 
+p&#229; n&#229;got annat s&#228;tt undandrar sig verkst&#228;lligheten av p&#229;f&#246;ljden. 
+Beslut om h&#228;ktning kan meddelas &#228;ven efter det att 
+framst&#228;llningen om &#246;verf&#246;rande av verkst&#228;llighet har gjorts 
+eller beviljats.
+
+I fr&#229;ga om h&#228;ktning och anh&#229;llande g&#228;ller det som f&#246;reskrivs i 
+r&#228;tteg&#229;ngsbalken om brottm&#229;l. Det som s&#228;gs d&#228;r om offentlig 
+f&#246;rsvarare ska till&#228;mpas i fr&#229;ga om offentligt bitr&#228;de om 
+n&#229;got annat inte f&#246;ljer av 36 &#167;. Av best&#228;mmelserna i 24 kap. 
+r&#228;tteg&#229;ngsbalken till&#228;mpas endast 1 &#167; tredje stycket, 4 &#167; 
+f&#246;rsta och andra styckena, 5 &#167; f&#246;rsta stycket, 6 &#167; f&#246;rsta och 
+tredje styckena, 7 &#167; f&#246;rsta stycket, 8 &#167; andra och tredje 
+styckena, 9-13 &#167;&#167;, 14-17 &#167;&#167;, 20 &#167; f&#246;rsta stycket 3, 21 a &#167;, 
+22 &#167; f&#246;rsta stycket och 24 &#167;.
+
+En ny f&#246;rhandling om h&#228;ktning ska, om den d&#246;mde beg&#228;r det, 
+h&#229;llas senast tv&#229; dagar efter det att en s&#229;dan beg&#228;ran har 
+kommit in till r&#228;tten. En f&#246;rhandling beh&#246;ver dock inte h&#229;llas 
+tidigare &#228;n efter tv&#229; veckor fr&#229;n det att beslut i 
+h&#228;ktningsfr&#229;gan senast meddelats. Lag (2021:286).
+
+5 b &#167; Om det finns sk&#228;l att anh&#229;lla eller h&#228;kta den d&#246;mde
+enligt 5 a &#167; men syftet d&#228;rmed kan uppn&#229;s genom resef&#246;rbud
+eller anm&#228;lningsskyldighet, f&#229;r s&#229;dant tv&#229;ngsmedel beslutas.
+F&#246;r det g&#228;ller vad som f&#246;reskrivs i r&#228;tteg&#229;ngsbalken om
+brottm&#229;l. Vad som d&#228;r s&#228;gs om offentlig f&#246;rsvarare skall
+till&#228;mpas betr&#228;ffande offentligt bitr&#228;de i den m&#229;n annat inte
+f&#246;ljer av 36 &#167;. Av best&#228;mmelserna i 25 kap. r&#228;tteg&#229;ngsbalken
+till&#228;mpas endast 1 &#167; tredje stycket, 2-5 &#167;&#167;, 7 &#167; f&#246;rsta och
+andra styckena och 9 &#167;. Lag (2000:459).
+
+5 c &#167; Beslut om tv&#229;ngsmedel g&#228;ller till dess att &#228;rendet 
+om &#246;verf&#246;rande av verkst&#228;llighet har avgjorts eller, om 
+framst&#228;llningen bifalls, till dess att p&#229;f&#246;ljden har b&#246;rjat 
+verkst&#228;llas i Sverige, om beslutet inte h&#228;vs dessf&#246;rinnan.
+
+&#197;klagaren eller r&#228;tten ska h&#228;va ett beslut om anh&#229;llande, 
+h&#228;ktning, resef&#246;rbud eller anm&#228;lningsskyldighet, om inte en 
+framst&#228;llning om &#246;verf&#246;rande av verkst&#228;llighet g&#246;rs inom 
+fyrtio dagar fr&#229;n det att den d&#246;mde anh&#246;lls eller h&#228;ktades 
+eller beslut om resef&#246;rbud eller anm&#228;lningsskyldighet 
+meddelades.
+
+&#197;klagaren eller r&#228;tten ska ocks&#229; h&#228;va ett beslut om 
+anh&#229;llande eller h&#228;ktning senast n&#228;r det finns sk&#228;l att anta 
+att den sammanlagda tid som den d&#246;mde har varit ber&#246;vad 
+friheten h&#228;r i landet med st&#246;d av 5 a &#167; och i den andra 
+staten uppg&#229;r till den tid som den d&#246;mde skulle ha varit 
+ber&#246;vad friheten f&#246;r det fall verkst&#228;llighet av p&#229;f&#246;ljden 
+hade skett i den andra staten. lag (2018:1254).
+
+6 &#167; Bifalles framst&#228;llning om verkst&#228;llighet h&#228;r i riket, skall i
+beslutet d&#228;rom det &#229;d&#246;mda straffet omvandlas till f&#228;ngelse p&#229; lika
+l&#229;ng tid. Lag (1964:548).
+
+7 &#167; Det till f&#228;ngelse omvandlade straffet &#228;r verkst&#228;llbart s&#229;som hade
+straffet &#229;d&#246;mts h&#228;r i riket genom dom, som vunnit laga kraft.
+
+Har straffet b&#246;rjat verkst&#228;llas i den stat, d&#228;r domen meddelats, skall
+strafftiden r&#228;knas fr&#229;n verkst&#228;llighetens b&#246;rjan i den staten.
+
+F&#246;rvandlingsstraff f&#246;r b&#246;ter m&#229; ej verkst&#228;llas, om betalning f&#246;r
+b&#246;terna erl&#228;gges. Om b&#246;terna delvis g&#228;ldas, skall f&#246;rvandlingsstraffet
+i motsvarande m&#229;n neds&#228;ttas; neds&#228;ttningen m&#229; dock ej avse del av dag.
+Lag (l964:548).
+
+8 &#167; En i Sverige meddelad dom, genom vilken n&#229;gon d&#246;mts till 
+f&#228;ngelse, f&#229;r verkst&#228;llas i Danmark, Finland, Island eller 
+Norge, om den d&#246;mde n&#228;r verkst&#228;llighet ska &#228;ga rum &#228;r 
+medborgare eller har hemvist i den andra staten. Uppeh&#229;ller 
+han eller hon sig i n&#229;gon av n&#228;mnda stater, f&#229;r domen &#228;ven 
+verkst&#228;llas d&#228;r, om det med h&#228;nsyn till omst&#228;ndigheterna 
+bed&#246;ms l&#228;mpligast.
+
+Bifalls en framst&#228;llning om verkst&#228;llighet av domen i den 
+andra staten, ska Kriminalv&#229;rden vid behov ombes&#246;rja att den 
+d&#246;mde &#246;verf&#246;rs till den staten. Vid en s&#229;dan transport 
+till&#228;mpas f&#246;ljande best&#228;mmelser i h&#228;kteslagen (2010:611):
+
+– 4 kap. 4 &#167; om kroppsvisitation,
+
+– 4 kap. 10 &#167; f&#246;rsta stycket om anv&#228;ndning av f&#228;ngsel, och 
+
+– 8 kap. 2 a &#167; om m&#246;jligheten att i vissa fall beg&#228;ra hj&#228;lp 
+av Polismyndigheten.
+
+P&#229;tr&#228;ffas den d&#246;mde i Sverige f&#246;re frigivningen, f&#229;r 
+Polismyndigheten p&#229; beg&#228;ran av en myndighet i den andra 
+staten eller med anledning av en d&#228;r utf&#228;rdad efterlysning 
+ombes&#246;rja att han eller hon &#246;verf&#246;rs till den staten f&#246;r 
+verkst&#228;llighet av straffet.
+
+Om det &#228;r n&#246;dv&#228;ndigt f&#246;r att en transport ska kunna 
+genomf&#246;ras, f&#229;r den d&#246;mde h&#229;llas i f&#246;rvar av 
+Polismyndigheten, dock l&#228;ngst under 48 timmar.
+
+Ska den d&#246;mde enligt vad som nu har sagts &#246;verf&#246;ras fr&#229;n 
+Sverige till den andra staten, anses den tid, under vilken 
+han eller hon f&#246;r &#228;ndam&#229;let har varit omh&#228;ndertagen av svensk 
+myndighet, som strafftid. Lag (2017:140).
+
+8 a &#167; Om en frihetsber&#246;vande p&#229;f&#246;ljd enligt 5 &#167; ska 
+verkst&#228;llas i Sverige, ska Kriminalv&#229;rden ansvara f&#246;r 
+transporten i Sverige. Vid en s&#229;dan transport till&#228;mpas 
+f&#246;ljande best&#228;mmelser i h&#228;kteslagen (2010:611):
+
+– 4 kap. 4 &#167; om kroppsvisitation,
+
+– 4 kap. 10 &#167; f&#246;rsta stycket om anv&#228;ndning av f&#228;ngsel, och 
+
+– 8 kap. 2 a &#167; om m&#246;jligheten att i vissa fall beg&#228;ra hj&#228;lp 
+av Polismyndigheten. Lag (2017:140).
+
+9 &#167; Om n&#229;gon, som i Sverige har d&#246;mts till f&#228;ngelse, ska
+&#246;verf&#246;ras till Danmark, Finland, Island eller Norge f&#246;r
+verkst&#228;llighet av domen, ska som villkor uppst&#228;llas att han
+eller hon dels inte f&#229;r &#229;talas eller straffas f&#246;r n&#229;got annat
+brott som beg&#229;tts f&#246;re &#246;verf&#246;randet, dels inte f&#229;r
+vidare&#246;verl&#228;mnas eller vidareutl&#228;mnas till en stat utanf&#246;r
+Norden. Det g&#228;ller dock inte om den d&#246;mde har samtyckt till
+&#229;tg&#228;rden eller haft m&#246;jlighet att l&#228;mna den mottagande
+nordiska staten men inte gjort detta inom 45 dagar efter sitt
+slutliga frigivande eller har &#229;terv&#228;nt dit efter att ha l&#228;mnat
+landet.
+
+P&#229; framst&#228;llning av den mottagande nordiska staten kan avsteg
+fr&#229;n villkoret beviljas. Om framst&#228;llningen g&#228;ller &#229;tal eller
+straff f&#246;r n&#229;got annat brott som beg&#229;tts f&#246;re &#246;verf&#246;randet,
+ska 5 kap. 7 &#167; lagen (2011:1165) om &#246;verl&#228;mnande fr&#229;n Sverige
+enligt en nordisk arresteringsorder till&#228;mpas. Pr&#246;vningen ska
+&#228;ven omfatta om ett &#246;verl&#228;mnande f&#246;r g&#228;rningen hade kunnat
+beviljas enligt 2 kap. 5 &#167; 1–3 samma lag. Om framst&#228;llningen
+g&#228;ller vidare&#246;verl&#228;mnande eller vidareutl&#228;mning till en stat
+utanf&#246;r Norden, ska 6 kap. 8 &#167; lagen (2003:1156) om
+&#246;verl&#228;mnande fr&#229;n Sverige enligt en europeisk
+arresteringsorder eller 24 &#167; lagen (1957:668) om utl&#228;mning f&#246;r
+brott till&#228;mpas. Beh&#246;rig tingsr&#228;tt vid pr&#246;vning enligt
+arresteringsorderlagen &#228;r Stockholms tingsr&#228;tt.
+
+F&#246;rsta och andra styckena g&#228;ller inte om den d&#246;mde enligt vad
+d&#228;rom &#228;r f&#246;reskrivet ska utvisas fr&#229;n Sverige och d&#228;rvid f&#229;r
+befordras till den andra staten. Lag (2011:1167).
+
+Om &#246;vervakning av villkorligt d&#246;md m.m.
+
+10 &#167; &#214;vervakning av den, som i Danmark, Finland, Island eller Norge
+blivit villkorligt d&#246;md med f&#246;reskrift om &#246;vervakning, m&#229; p&#229; beg&#228;ran
+anordnas h&#228;r i riket. Lag (1964:548).
+
+11 &#167; Kriminalv&#229;rden skall ha hand om &#246;vervakningen och f&#246;rordna
+&#246;vervakare f&#246;r den d&#246;mde. Lag (2005:968).
+
+12 &#167; Det som &#228;r best&#228;mt om pr&#246;votid och &#246;vervakningstid i den 
+stat d&#228;r domen meddelats ska g&#228;lla p&#229; samma s&#228;tt som om domen 
+meddelats i Sverige. De f&#246;reskrifter ang&#229;ende den d&#246;mdes 
+skyldigheter som har meddelats i anslutning till domen ska 
+g&#228;lla, om inte Kriminalv&#229;rden beslutar n&#229;got annat. I &#246;vrigt 
+ska det som g&#228;ller enligt svensk lag om skyddstillsyn 
+till&#228;mpas.
+
+Beslutas i Danmark, Finland, Island eller Norge &#228;ndrade 
+best&#228;mmelser ang&#229;ende domen eller om f&#246;rverkande av anst&#229;ndet, 
+ska beslutet g&#228;lla i Sverige. Lag (2021:444).
+
+13 &#167; Om det, n&#228;r &#246;vervakning anordnats i Sverige, finns 
+anledning att vidta en &#229;tg&#228;rd mot den som villkorligt d&#246;mts i 
+Danmark, Finland, Island eller Norge, f&#229;r domstolen eller 
+Kriminalv&#229;rden h&#228;nskjuta fr&#229;gan till beh&#246;rig myndighet i den 
+stat d&#228;r domen meddelats om det bed&#246;ms l&#228;mpligare att fr&#229;gan 
+pr&#246;vas d&#228;r. Lag (2021:444).
+
+14 &#167; Om n&#229;gon, som villkorligt d&#246;mts i Danmark, Finland, Island eller
+Norge, h&#228;r i riket &#246;vertygas om annat brott som beg&#229;tts under
+pr&#246;votiden eller f&#246;re dess b&#246;rjan, m&#229; r&#228;tten, &#228;nd&#229; att &#246;vervakning i
+anledning av den tidigare domen ej anordnats h&#228;r, undanr&#246;ja den &#229;d&#246;mda
+p&#229;f&#246;ljden och f&#246;r brotten d&#246;ma till gemensam p&#229;f&#246;ljd. D&#228;rvid skall den
+tidigare domen anses som dom &#229; skyddstillsyn. Lag (1964:548).
+
+15 &#167; &#214;vervakning av den som i Sverige d&#246;mts till skyddstillsyn 
+f&#229;r &#246;verflyttas till Danmark, Finland, Island eller Norge.
+
+Beslutas i den andra staten &#228;ndrade best&#228;mmelser avseende 
+skyddstillsynen, ska beslutet g&#228;lla i Sverige.
+
+&#196;ven om &#246;vervakningen &#246;verflyttats f&#229;r &#229;tg&#228;rd i fr&#229;ga om 
+skyddstillsynen beslutas i Sverige, om den d&#246;mde d&#246;ms i 
+Sverige f&#246;r ett annat brott eller om beh&#246;rig myndighet i 
+Danmark, Finland, Island eller Norge h&#228;nskjuter ett &#228;rende om 
+s&#229;dan &#229;tg&#228;rd till en svensk myndighet. Ett s&#229;dant h&#228;nskjutet 
+&#228;rende tas upp av Kriminalv&#229;rden. Lag (2021:444).
+
+16 &#167; Har i Danmark, Finland, Island eller Norge beslutats undanr&#246;jande
+av villkorlig dom eller skyddstillsyn, som &#229;d&#246;mts h&#228;r i riket, skall
+beslutet &#228;ga giltighet h&#228;r. Lag (1964:548).
+
+Om &#246;vervakning av villkorligt frigiven m.m.
+
+17 &#167; &#214;vervakning av den, som villkorligt frigivits efter avtj&#228;nande i
+Danmark av faengsel, i Finland av tukthus eller f&#228;ngelse, i Island av
+fangelsi eller i Norge av fengsel, m&#229; p&#229; beg&#228;ran anordnas h&#228;r i riket.
+Lag (1964:548).
+
+18 &#167; Kriminalv&#229;rden skall ha hand om &#246;vervakningen och f&#246;rordna
+&#246;vervakare f&#246;r den frigivne. Lag (2005:968).
+
+19 &#167; Det som &#228;r best&#228;mt om pr&#246;votid och &#246;vervakningstid i den 
+stat d&#228;r frigivningen skett ska g&#228;lla p&#229; samma s&#228;tt som om 
+frigivningen skett i Sverige. De f&#246;reskrifter ang&#229;ende den 
+frigivnes skyldigheter som har meddelats i anslutning till den 
+villkorliga frigivningen ska g&#228;lla, om inte Kriminalv&#229;rden 
+beslutar n&#229;got annat. I &#246;vrigt ska vad som g&#228;ller enligt 
+svensk lag om villkorlig frigivning till&#228;mpas, om inget annat 
+anges i denna lag. Pr&#246;votiden f&#229;r dock inte f&#246;rl&#228;ngas.
+
+Om den villkorligt medgivna friheten helt eller delvis 
+f&#246;rklaras f&#246;rverkad i Sverige, ska verkst&#228;llighet ske h&#228;r av 
+vad som f&#246;rverkats, omvandlat till f&#228;ngelse p&#229; lika l&#229;ng tid.
+
+Beslutas i Danmark, Finland, Island eller Norge &#228;ndrade 
+best&#228;mmelser ang&#229;ende den villkorliga frigivningen eller 
+f&#246;rverkande av den villkorligt medgivna friheten, ska beslutet 
+g&#228;lla i Sverige. Lag (2020:370).
+
+20 &#167; Om det, n&#228;r &#246;vervakning anordnats i Sverige, finns 
+anledning att vidta en &#229;tg&#228;rd under villkorlig frigivning som 
+beslutats i Danmark, Finland, Island eller Norge, f&#229;r 
+Kriminalv&#229;rden eller, n&#228;r den d&#246;mde d&#246;mts f&#246;r ett annat brott, 
+domstolen h&#228;nskjuta fr&#229;gan till beh&#246;rig myndighet i den stat 
+d&#228;r frigivningen skett om det bed&#246;ms l&#228;mpligare att fr&#229;gan 
+pr&#246;vas d&#228;r. Lag (2020:370).
+
+21 &#167; Om n&#229;gon, som villkorligt frigivits efter avtj&#228;nande i Danmark av
+faengsel, i Finland av tukthus eller f&#228;ngelse, i Island av fangelsi
+eller i Norge av fengsel, h&#228;r i riket &#246;vertygas om
+annat brott som han beg&#229;tt under pr&#246;votiden, m&#229; r&#228;tten, &#228;nd&#229; att
+&#246;vervakning i anledning av den villkorliga frigivningen ej anordnats
+h&#228;r, med till&#228;mpning av vad i svensk lag &#228;r stadgat om villkorlig
+frigivning f&#246;rklara den villkorligt medgivna friheten helt eller
+delvis f&#246;rverkad. D&#228;rvid skola best&#228;mmelserna i 19 &#167; andra stycket
+&#228;ga till&#228;mpning. Lag (1979:683).
+
+22 &#167; &#214;vervakning av den som villkorligt frigetts i Sverige f&#229;r 
+&#246;verflyttas till Danmark, Finland, Island eller Norge.
+
+Beslutas i den andra staten &#228;ndrade best&#228;mmelser avseende den 
+villkorliga frigivningen, ska beslutet g&#228;lla i Sverige.
+
+&#196;ven om &#246;vervakningen &#246;verflyttats f&#229;r &#229;tg&#228;rd i fr&#229;ga om den 
+villkorliga frigivningen beslutas i Sverige, om den frigivne 
+d&#246;ms i Sverige f&#246;r ett annat brott eller om beh&#246;rig myndighet 
+i Danmark, Finland, Island eller Norge h&#228;nskjuter ett &#228;rende 
+om s&#229;dan &#229;tg&#228;rd till en svensk myndighet. Ett s&#229;dant 
+h&#228;nskjutet &#228;rende tas upp av Kriminalv&#229;rden. Kriminalv&#229;rden 
+ska &#246;verl&#228;mna ett &#228;rende som myndigheten inte sj&#228;lv &#228;r beh&#246;rig 
+att besluta om till den &#246;vervakningsn&#228;mnd inom vars 
+verksamhetsomr&#229;de &#246;vervakningen bedrevs eller kunde ha 
+bedrivits vid tiden f&#246;r beslutet om &#246;verflyttning.
+Lag (2020:370).
+
+23 &#167; Har i Danmark, Finland, Island eller Norge beslutats f&#246;rverkande
+av villkorligt medgiven frihet, varom f&#246;rordnats h&#228;r i riket, skall
+beslutet &#228;ga giltighet h&#228;r.
+
+Gemensamma best&#228;mmelser
+
+24 &#167; Framst&#228;llning om verkst&#228;llighet enligt 1 eller 5 &#167; eller om
+anordnande av &#246;vervakning enligt 10 eller 17 &#167; g&#246;res av vederb&#246;rande
+myndighet i Danmark, Finland, Island eller Norge.
+
+Framst&#228;llningen m&#229; ej bifallas, med mindre domen &#228;r verkst&#228;llbar i den
+stat d&#228;r den meddelats. Lag (1971:573).
+
+25 &#167; Framst&#228;llning om verkst&#228;llighet enligt 1 eller 5 &#167; eller 
+om anordnande av &#246;vervakning enligt 10 eller 17 &#167; pr&#246;vas av 
+Kriminalv&#229;rden.
+
+Framst&#228;llning om verkst&#228;llighet enligt 3 eller 8 &#167; eller om 
+anordnande av &#246;vervakning enligt 15 eller 22 &#167; g&#246;rs av 
+Kriminalv&#229;rden. Lag (2021:444).
+
+26 &#167; Kriminalv&#229;rdens beslut enligt denna lag f&#229;r &#246;verklagas 
+till allm&#228;n f&#246;rvaltningsdomstol. Kriminalv&#229;rdens beslut enligt 
+13 och 20 &#167;&#167; f&#229;r dock inte &#246;verklagas. Kriminalv&#229;rdens och 
+domstolens beslut g&#228;ller omedelbart, om inte annat beslutas.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2021:444).
+
+26 a &#167; Ett beslut f&#229;r inte &#246;verklagas enligt 26 &#167; innan
+beslutet har ompr&#246;vats av Kriminalv&#229;rden. En s&#229;dan ompr&#246;vning
+f&#229;r beg&#228;ras av den som beslutet ang&#229;r om det har g&#229;tt honom
+eller henne emot. Ett &#246;verklagande av ett beslut som inte har
+ompr&#246;vats skall anses som en beg&#228;ran om ompr&#246;vning.
+
+Vid ompr&#246;vning enligt denna paragraf f&#229;r beslutet inte &#228;ndras
+till den d&#246;mdes nackdel. Lag (2005:968).
+
+26 b &#167; En beg&#228;ran om ompr&#246;vning skall vara skriftlig och ha
+kommit in till Kriminalv&#229;rden inom tre veckor fr&#229;n den dag d&#229;
+den d&#246;mde fick del av beslutet. I beg&#228;ran om ompr&#246;vning skall
+den d&#246;mde ange vilket beslut som avses och vilken &#228;ndring i
+beslutet som han eller hon beg&#228;r. Lag (2005:968).
+
+26 c &#167; Kriminalv&#229;rden pr&#246;var om skrivelsen med beg&#228;ran om
+ompr&#246;vning har kommit in i r&#228;tt tid. Om skrivelsen har kommit
+in f&#246;r sent skall den avvisas, om inte f&#246;rseningen beror p&#229; att
+myndigheten l&#228;mnat den d&#246;mde felaktig underr&#228;ttelse om hur man
+beg&#228;r ompr&#246;vning. Lag (2005:968).
+
+26 d &#167; Kriminalv&#229;rdens beslut enligt 26 &#167; &#246;verklagas till den
+f&#246;rvaltningsr&#228;tt inom vars domkrets den kriminalv&#229;rdsanstalt,
+det h&#228;kte eller det friv&#229;rdskontor &#228;r bel&#228;get d&#228;r den d&#246;mde var
+inskriven n&#228;r det f&#246;rsta beslutet i &#228;rendet fattades.
+
+Beslut som g&#228;ller en person som inte &#228;r inskriven vid en
+kriminalv&#229;rdsanstalt, ett h&#228;kte eller ett friv&#229;rdskontor i
+landet &#246;verklagas till den f&#246;rvaltningsr&#228;tt som regeringen
+best&#228;mmer. Lag (2009:779).
+
+27 &#167; &#214;vervakningsn&#228;mndens beslut om f&#246;rklaring som avses i 
+19 &#167; andra stycket f&#229;r &#246;verklagas till tingsr&#228;tten i den ort 
+d&#228;r &#246;vervakningsn&#228;mnden ligger. &#214;verklagandet ska ges in till 
+&#246;vervakningsn&#228;mnden. Klagotiden r&#228;knas fr&#229;n den dag d&#229; den 
+d&#246;mde fick del av beslutet. Vid &#246;verklagande g&#228;ller lagen 
+(1996:242) om domstols&#228;renden. &#214;vervakningsn&#228;mnden ska dock 
+inte vara part i domstolen.
+
+&#214;vervakningsn&#228;mndens beslut som avses i denna paragraf g&#228;ller 
+omedelbart, om inte annat beslutas. Lag (2021:444).
+
+28 &#167; Bifalls en framst&#228;llning om verkst&#228;llighet enligt 5 &#167; och
+har det f&#246;r den d&#246;mdes &#246;verf&#246;rande hit uppst&#228;llts villkor, ska
+de villkoren g&#228;lla h&#228;r. Lag (2011:1167).
+
+29 &#167; Har framst&#228;llning om verkst&#228;llighet av straff enligt 1 eller 5 &#167;
+eller om anordnande av &#246;vervakning enligt 10 eller 17 &#167; bifallits
+eller har undanr&#246;jande beslutats enligt 14 &#167; eller f&#246;rverkande enligt
+21 &#167;, m&#229; ej h&#228;r i riket v&#228;ckas &#229;tal f&#246;r g&#228;rning som avses i den i den
+andra staten meddelade domen. Med avseende &#229; best&#228;mmelser i svensk lag
+om sammantr&#228;ffande av brott och om f&#246;r&#228;ndring av p&#229;f&#246;ljd skall s&#229;
+anses som hade domen meddelats h&#228;r i riket. Vad som f&#246;reskrivs i 19 &#167;
+b&#246;tesverkst&#228;llighetslagen (1979:189) skall dock inte till&#228;mpas. Lag
+(1983:356).
+
+30 &#167; har upph&#228;vts genom lag (1964:548).
+
+31 &#167; Uppkommer, sedan framst&#228;llning enligt 1 eller 5 &#167; bifallits,
+fr&#229;ga om hinder mot verkst&#228;llighet h&#228;r i riket p&#229; grund av
+preskription, skall denna fr&#229;ga pr&#246;vas enligt lagen i den stat, d&#228;r
+domen meddelats.
+
+Vad i svensk lag &#228;r stadgat om n&#229;d i brottm&#229;l skall, s&#229;vitt avser
+verkst&#228;llighet h&#228;r i riket, &#228;ga motsvarande till&#228;mpning betr&#228;ffande
+dansk, finsk, isl&#228;ndsk och norsk dom, som avses i denna lag.
+
+Vid verkst&#228;llighet h&#228;r i riket av dansk, finsk, isl&#228;ndsk eller norsk
+dom, som avses i denna lag, skall vad av n&#229;d best&#228;mts i den stat, d&#228;r
+domen meddelats, l&#228;nda till efterr&#228;ttelse.
+
+32 &#167; Den som f&#246;r verkst&#228;llighet av frihetsstraff &#246;verf&#246;rs 
+fr&#229;n Danmark, Finland, Island eller Norge till en annan av 
+dessa stater f&#229;r utan s&#228;rskilt tillst&#229;nd f&#246;ras genom Sverige. 
+
+Om det &#228;r n&#246;dv&#228;ndigt f&#246;r att en transport ska kunna 
+genomf&#246;ras, f&#229;r Polismyndigheten h&#229;lla den som &#246;verf&#246;rs i 
+f&#246;rvar, dock l&#228;ngst under 48 timmar. Lag (2017:140).
+
+33 &#167; Regeringen &#228;ger f&#246;rordna att befogenhet som enligt denna lag
+tillkommer Kriminalv&#229;rden m&#229; ut&#246;vas av annan myndighet.
+
+F&#246;ranleder verkst&#228;llighet enligt 1 &#167; talan inf&#246;r domstol h&#228;r i
+riket, skall i fr&#229;ga om beh&#246;righet att ta emot st&#228;mning samt att
+tala och svara g&#228;lla samma regler som om det &#228;r fr&#229;ga om en
+svenska statens fordran. Lag (2005:968).
+
+34 &#167; Lika med dom anses i denna lag beslut eller f&#246;rel&#228;ggande, som
+efter lagstiftningen i den stat d&#228;r det meddelats &#228;ger samma verkan
+som dom.
+
+35 &#167; Kostnader f&#246;r verkst&#228;llighet enligt 1 &#167;, som icke bliva t&#228;ckta
+genom f&#246;retagen verkst&#228;llighets&#229;tg&#228;rd, s&#229; ock kostnader f&#246;r
+verkst&#228;llighet och &#229;tg&#228;rder i &#246;vrigt enligt denna lag stanna &#229;
+statsverket.
+
+36 &#167; I m&#229;l och &#228;renden ang&#229;ende verkst&#228;llighet utomlands av
+frihetsber&#246;vande p&#229;f&#246;ljd skall offentligt bitr&#228;de f&#246;rordnas f&#246;r den
+som &#229;tg&#228;rden avser, om det inte m&#229;ste antas att behov av bitr&#228;de
+saknas.
+
+F&#246;rsta stycket g&#228;ller &#228;ven i m&#229;l och &#228;renden som avses i 5 a och
+5 b &#167;&#167;. (Lag (2000:459).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1985:221
+
+Denna lag tr&#228;der i kraft i f&#246;rh&#229;llande till Finland fyra veckor fr&#229;n
+den dag d&#229; lagen enligt uppgift p&#229; den utkomit fr&#229;n trycket i Svensk
+f&#246;rfattningssamling samt i f&#246;rh&#229;llande till Danmark, Island och Norge
+den dag regeringen best&#228;mmer. I fr&#229;ga om vite som har f&#246;relagts f&#246;re
+ikrafttr&#228;dandet g&#228;ller dock &#228;ldre best&#228;mmelser.
+
+1994:437
+
+Denna lag tr&#228;der i kraft den 1 oktober 1994. Beslut som meddelats
+av Kriminalv&#229;rdsstyrelsen f&#246;re ikrafttr&#228;dandet &#246;verklagas enligt
+&#228;ldre best&#228;mmelser.
+
+2005:968
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2006.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande dels i fr&#229;ga om
+Kriminalv&#229;rdsstyrelsens pr&#246;vning av annan
+kriminalv&#229;rdsmyndighets beslut som har fattats f&#246;re
+ikrafttr&#228;dandet, dels i fr&#229;ga om &#246;verklagande av
+Kriminalv&#229;rdsstyrelsens beslut som har fattats f&#246;re
+ikrafttr&#228;dandet. Vad som i de &#228;ldre f&#246;reskrifterna s&#228;gs om
+Kriminalv&#229;rdsstyrelsen skall efter ikrafttr&#228;dandet i st&#228;llet
+g&#228;lla Kriminalv&#229;rden.
+
+2008:489
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2008.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om
+verkst&#228;llighet av vite som enligt 4 &#167; f&#246;rsta stycket 2
+f&#246;relagts enligt marknadsf&#246;ringslagen (1995:450).
+
+2010:614
+
+Denna lag tr&#228;der i kraft den 1 april 2011. &#196;renden som kommit in
+till hovr&#228;tten f&#246;re ikrafttr&#228;dandet men &#228;nnu inte avgjorts
+handl&#228;ggs enligt &#228;ldre best&#228;mmelser.
+
+2011:1167
+1. Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r &#228;renden om &#246;verf&#246;rande som
+har inletts f&#246;re ikrafttr&#228;dandet. 
+
+2016:191
+
+1. Denna lag tr&#228;der i kraft den 1 september 2016.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om 
+verkst&#228;llighet av vite som enligt 4 &#167; f&#246;rsta stycket 2 
+f&#246;relagts av Stockholms tingsr&#228;tt eller Marknadsdomstolen.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4348">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4350">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

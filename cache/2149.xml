@@ -1,0 +1,768 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-11-06" /> 
+ <meta id="rattsinfo-edited" content="2023-11-06 13:32:39" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2149</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2148">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2150">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2007:414 ·
+                    <a href="/sfsr?bet=2007:414">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2007:414) om jobb- och utvecklingsgarantin</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Arbetsmarknadsdepartementet AA
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2007-05-31
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:555
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2007-07-02 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om det
+arbetsmarknadspolitiska programmet jobb- och
+utvecklingsgarantin.
+
+Syftet med jobb- och utvecklingsgarantin &#228;r att erbjuda
+personer som varit arbetsl&#246;sa under l&#229;ng tid individuellt
+utformade insatser f&#246;r att de s&#229; snabbt som m&#246;jligt skall f&#229;
+arbete.
+
+2 &#167; Inom ramen f&#246;r jobb- och utvecklingsgarantin ska 
+Arbetsf&#246;rmedlingen
+
+1. kartl&#228;gga vilka ytterligare insatser deltagaren beh&#246;ver f&#246;r 
+att kunna st&#228;rka sin position p&#229; arbetsmarknaden, 
+
+2. l&#228;mna det st&#246;d som deltagaren beh&#246;ver f&#246;r att uppfylla det 
+som framg&#229;r av den individuella handlingsplanen, och 
+
+3. kontinuerligt f&#246;lja upp dels resultatet av de insatser 
+deltagaren tagit del av inom programmet, dels att deltagaren 
+har b&#229;de insatser och tid att s&#246;ka arbete i s&#229;dan omfattning 
+som beh&#246;vs f&#246;r att uppn&#229; syftet med programmet.
+F&#246;rordning (2023:555).
+
+Anvisningar till programmet
+
+3 &#167; En anvisning till jobb- och utvecklingsgarantin inneb&#228;r 
+att den som anvisas erbjuds att ta del av programmet.
+
+Fr&#229;gor om anvisningar pr&#246;vas av Arbetsf&#246;rmedlingen.
+F&#246;rordning (2015:949).
+
+4 &#167; En anvisning till jobb- och utvecklingsgarantin ska avse 
+verksamhet p&#229; heltid.
+
+En anvisning f&#229;r dock avse verksamhet p&#229; deltid, om den 
+enskildes arbetsutbud understiger det arbetsutbud som 
+motsvarar verksamhet p&#229; heltid och detta beror p&#229;
+
+1. sjukdom eller funktionsneds&#228;ttning som medf&#246;r nedsatt 
+arbetsf&#246;rm&#229;ga,
+
+2. f&#246;r&#228;ldraledighet, eller
+
+3. annat hinder som anm&#228;lts till och godtagits av 
+Arbetsf&#246;rmedlingen.
+
+I fall som avses i andra stycket ska anvisningen g&#246;ras f&#246;r den 
+tid som motsvarar arbetsutbudet.
+
+En anvisning f&#229;r &#228;ven g&#246;ras p&#229; deltid i en omfattning som 
+understiger den enskildes arbetsutbud om den enskilde 
+samtidigt studerar p&#229; deltid i l&#228;ngst tolv m&#229;nader eller 
+arbetar, om studietiden eller arbetstiden och tiden i 
+programmet sammanlagt motsvarar hans eller hennes arbetsutbud.
+F&#246;rordning (2021:243).
+
+4 a &#167; F&#246;r den som har ett nedsatt arbetsutbud p&#229; grund av
+sjukdom eller funktionsneds&#228;ttning som medf&#246;r nedsatt
+arbetsf&#246;rm&#229;ga ska en anvisning g&#246;ras p&#229; heltid, trots att den
+enskilde har ett l&#228;gre arbetsutbud. Detta g&#228;ller dock endast
+under f&#246;ruts&#228;ttning att han eller hon inte kan f&#229; sjukpenning
+enligt socialf&#246;rs&#228;kringsbalken med anledning av sjukdomen
+eller funktionsneds&#228;ttningen samtidigt som han eller hon &#228;r
+inskriven i programmet och f&#229;r aktivitetsst&#246;d.
+
+F&#246;r den som avses i f&#246;rsta stycket och samtidigt har ett
+nedsatt arbetsutbud p&#229; grund av f&#246;r&#228;ldraledighet eller annat
+hinder som anm&#228;lts till och godtagits av Arbetsf&#246;rmedlingen
+eller &#228;gnar sig &#229;t s&#229;dana aktiviteter som avses i 4 &#167; fj&#228;rde
+stycket, ska anvisningen avse verksamhet i s&#229;dan omfattning
+att den sammanlagda tiden motsvarar verksamhet p&#229; heltid.
+F&#246;rordning (2010:1731).
+
+4 b &#167; Om en anvisning g&#246;rs till verksamhet p&#229; deltid, ska
+sk&#228;len f&#246;r beslutet anges i beslutet. Vidare ska de
+uppgifter som ligger till grund f&#246;r beslutet dokumenteras
+hos Arbetsf&#246;rmedlingen. F&#246;rordning (2010:63).
+
+Vem som f&#229;r anvisas till programmet
+
+5 &#167; En anvisning till jobb- och utvecklingsgarantin f&#229;r g&#246;ras 
+f&#246;r en person som &#228;r arbetsl&#246;s och anm&#228;ld som arbetss&#246;kande 
+hos den offentliga arbetsf&#246;rmedlingen och som
+
+1. har f&#229;tt arbetsl&#246;shetsers&#228;ttning enligt lagen (1997:238) 
+om arbetsl&#246;shetsf&#246;rs&#228;kring, men som har f&#246;rbrukat 300 
+ers&#228;ttningsdagar i en ers&#228;ttningsperiod och inte kvalificerat 
+sig f&#246;r en ny period med arbetsl&#246;shetsers&#228;ttning,
+
+2. &#228;r ensamst&#229;ende och, p&#229; grund av v&#229;rdnad eller umg&#228;nge, 
+har egna barn under 18 &#229;r boende helt eller delvis i sitt hem 
+och som har f&#246;rbrukat 60 veckor med utf&#246;rt eller deklarerat 
+deltidsarbete inom en period med arbetsl&#246;shetsers&#228;ttning,
+
+3. inte har f&#229;tt arbetsl&#246;shetsers&#228;ttning enligt lagen om 
+arbetsl&#246;shetsf&#246;rs&#228;kring, men som under 14 sammanh&#228;ngande 
+m&#229;nader har varit arbetsl&#246;s och anm&#228;ld som arbetss&#246;kande hos 
+den offentliga arbetsf&#246;rmedlingen eller som har deltagit i 
+arbetsmarknadspolitiska program,
+
+4. har deltagit i jobbgarantin f&#246;r ungdomar i 15 m&#229;nader, 
+f&#246;rutsatt att anvisningen sker direkt efter deltagandet i 
+jobbgarantin,
+
+5. har d&#246;mts till f&#228;ngelse och &#228;r beviljad vistelse utanf&#246;r 
+anstalt enligt 11 kap. 1 &#167; f&#228;ngelselagen (2010:610) eller som 
+&#228;r villkorligt frigiven men inte har fullgjort ett &#229;r av 
+pr&#246;votiden, eller
+
+6. har deltagit i insatser enligt f&#246;rordningen (2017:820) om 
+etableringsinsatser f&#246;r vissa nyanl&#228;nda invandrare under 
+maximal tid enligt den f&#246;rordningen. 
+
+F&#246;r den som omfattas av f&#246;rsta stycket 1 f&#229;r en anvisning 
+g&#246;ras tidigast 20 ers&#228;ttningsdagar innan de 300 
+ers&#228;ttningsdagarna i perioden med arbetsl&#246;shetsers&#228;ttning har 
+f&#246;rbrukats. Detta g&#228;ller under f&#246;ruts&#228;ttning att personen d&#229; 
+inte bed&#246;ms kvalificera sig f&#246;r en ny period med 
+arbetsl&#246;shetsers&#228;ttning.
+
+F&#246;r den som omfattas av f&#246;rsta stycket 2 f&#229;r en anvisning 
+g&#246;ras tidigast n&#228;r personen har f&#246;rbrukat 56 veckor med 
+utf&#246;rt eller deklarerat deltidsarbete i perioden med 
+arbetsl&#246;shetsers&#228;ttning. 
+
+F&#246;r en person som omfattas av f&#246;rsta stycket 3 f&#229;r en 
+anvisning g&#246;ras endast om personen inte f&#229;r delta i insatser 
+enligt f&#246;rordningen om etableringsinsatser f&#246;r vissa 
+nyanl&#228;nda invandrare. F&#246;rordning (2017:827).
+
+Vad man kan ta del av inom programmet
+
+6 &#167; Inom ramen f&#246;r programmet f&#229;r den enskilde ta del av 
+s&#229;dana insatser som f&#246;ljer av 5 &#167; f&#246;rordningen (2000:628) om 
+den arbetsmarknadspolitiska verksamheten som 
+
+1. bed&#246;ms l&#228;mpliga f&#246;r den enskilde att ta del av inom ramen 
+f&#246;r jobb- och utvecklingsgarantin, och 
+
+2. den enskilde uppfyller f&#246;ruts&#228;ttningarna f&#246;r, med undantag 
+f&#246;r &#229;ldersgr&#228;nser.
+
+Den enskilde f&#229;r inom programmet &#228;ven ta del av arbetstr&#228;ning 
+och f&#246;rst&#228;rkt arbetstr&#228;ning enligt 10 &#167; samt 
+bristyrkesutbildning enligt 11 &#167;. 
+
+Inom ramen f&#246;r programmet ska deltagaren aktivt s&#246;ka arbete 
+och regelbundet redovisa sitt arbetss&#246;kande i en s&#229;dan 
+aktivitetsrapport som avses i 6 a &#167; f&#246;rordningen om den 
+arbetsmarknadspolitiska verksamheten. F&#246;rordning (2015:949).
+
+7 &#167; Har upph&#228;vts genom f&#246;rordning (2015:949).
+
+8 &#167; Har upph&#228;vts genom f&#246;rordning (2015:949).
+
+9 &#167; Har upph&#228;vts genom f&#246;rordning (2015:949).
+
+9 a &#167; Har upph&#228;vts genom f&#246;rordning (2010:1464).
+
+10 &#167; Med arbetstr&#228;ning avses att den enskilde f&#229;r arbetstr&#228;na 
+p&#229; en arbetsplats. Arbetstr&#228;ning f&#229;r anordnas av den som 
+Arbetsf&#246;rmedlingen ing&#229;r &#246;verenskommelse om arbetstr&#228;ning med. 
+Arbetstr&#228;ning f&#229;r p&#229;g&#229; under l&#228;ngst sex m&#229;nader.
+
+Med f&#246;rst&#228;rkt arbetstr&#228;ning avses att den enskilde erbjuds en 
+arbetsplats f&#246;r utredning av arbetsf&#246;rm&#229;ga eller f&#246;r 
+arbetstr&#228;ning. F&#246;rst&#228;rkt arbetstr&#228;ning f&#229;r anordnas av den som 
+Arbetsf&#246;rmedlingen ing&#229;r &#246;verenskommelse om f&#246;rst&#228;rkt 
+arbetstr&#228;ning med. Arbetsgivaren har inget inflytande &#246;ver 
+vilken person som erbjuds arbetsplatsen. F&#246;rst&#228;rkt 
+arbetstr&#228;ning f&#229;r p&#229;g&#229; under l&#228;ngst tolv m&#229;nader.
+
+F&#246;r den som har deltagit i jobb- och utvecklingsgarantin i 450 
+dagar som det kan l&#228;mnas ers&#228;ttning f&#246;r f&#229;r arbetstr&#228;ning p&#229;g&#229; 
+under l&#228;ngst tolv m&#229;nader.
+
+Den som anordnar arbetstr&#228;ning eller f&#246;rst&#228;rkt arbetstr&#228;ning 
+ska ha &#229;tagit sig att ansvara f&#246;r att den enskilde f&#229;r 
+handledning av en utsedd handledare.
+
+Inf&#246;r varje period av arbetstr&#228;ning eller f&#246;rst&#228;rkt 
+arbetstr&#228;ning ska Arbetsf&#246;rmedlingen pr&#246;va om insatsen &#228;r den 
+mest l&#228;mpliga f&#246;r att uppn&#229; syftet med programmet. 
+F&#246;rordning (2022:1351).
+
+11 &#167; Med bristyrkesutbildning avses s&#229;dan yrkesinriktad 
+utbildning p&#229; folkh&#246;gskola under l&#228;ngst 24 m&#229;nader, som 
+syftar till att underl&#228;tta f&#246;r den enskilde att f&#229; eller 
+beh&#229;lla ett arbete och som motverkar brist p&#229; arbetskraft 
+inom ett visst yrke p&#229; arbetsmarknaden. F&#246;rordning (2015:949).
+
+12 &#167; Har upph&#228;vts genom f&#246;rordning (2009:8).
+
+Hur l&#229;ng tid man f&#229;r ta del av programmet
+
+13 &#167; Den som har anvisats till jobb- och utvecklingsgarantin 
+f&#229;r ta del av insatserna i programmet till dess att han eller 
+hon
+
+1. p&#229;b&#246;rjar ett arbete p&#229; heltid med eller utan statligt st&#246;d,
+
+2. p&#229;b&#246;rjar en utbildning som inte ber&#228;ttigar till 
+aktivitetsst&#246;d eller utvecklingsers&#228;ttning,
+
+3. p&#229;b&#246;rjar en utbildning p&#229; heltid inom kommunal 
+vuxenutbildning p&#229; grundl&#228;ggande eller gymnasial niv&#229; enligt 
+20 kap. skollagen (2010:800), eller motsvarande utbildning p&#229; 
+heltid vid folkh&#246;gskola, enligt 30 &#167; andra stycket 4 
+f&#246;rordningen (2000:634) om arbetsmarknadspolitiska program 
+eller en utbildning som avses i 30 &#167; andra stycket 5 den 
+f&#246;rordningen,
+
+4. p&#229;b&#246;rjar en fr&#229;nvaroperiod med f&#246;r&#228;ldrapenningsf&#246;rm&#229;n 
+enligt socialf&#246;rs&#228;kringsbalken p&#229; heltid,
+
+5. p&#229;b&#246;rjar en period med sjukfr&#229;nvaro p&#229; heltid, eller
+
+6. uppfyller ett nytt arbetsvillkor enligt lagen (1997:238) om 
+arbetsl&#246;shetsf&#246;rs&#228;kring.
+
+Den som inte l&#228;ngre f&#229;r ta del av insatserna i programmet ska 
+skrivas ut ur programmet. Vid en s&#229;dan fr&#229;nvaro enligt f&#246;rsta 
+stycket 1, 2, 3 eller 4 som kan antas vara kortvarig, f&#229;r 
+Arbetsf&#246;rmedlingen avvakta med utskrivning till dess att 
+fr&#229;nvaron har varat mer &#228;n 30 kalenderdagar i f&#246;ljd. Vid 
+fr&#229;nvaro enligt f&#246;rsta stycket 5 ska utskrivning ske f&#246;rst n&#228;r 
+fr&#229;nvaron har varat mer &#228;n 30 kalenderdagar i f&#246;ljd.
+
+&#196;renden om utskrivning ska handl&#228;ggas skyndsamt.
+F&#246;rordning (2022:1733).
+
+13 a &#167; I fr&#229;ga om den som &#228;r fr&#229;nvarande fr&#229;n ett program p&#229; 
+grund av sjukdom enligt 13 &#167; f&#246;rsta stycket 5 ska 
+Arbetsf&#246;rmedlingen inom 30 kalenderdagar fr&#229;n f&#246;rsta sjukdagen 
+unders&#246;ka om en utskrivning enligt 13 &#167; andra stycket kan 
+undvikas genom att aktiviteterna i programmet anpassas s&#229; att 
+den enskilde &#229;ter kan delta i programmet. 
+F&#246;rordning (2019:1158).
+
+&#197;terintr&#228;de i programmet
+
+14 &#167; Den som har skrivits ut ur jobb- och utvecklingsgarantin 
+enligt 13 &#167; f&#246;rsta stycket 1 och andra stycket har m&#246;jlighet 
+att &#229;terintr&#228;da i programmet, under f&#246;ruts&#228;ttning att han 
+eller hon inte uppfyller ett nytt arbetsvillkor enligt lagen 
+(1997:238) om arbetsl&#246;shetsf&#246;rs&#228;kring och inte heller erbjuds 
+en anst&#228;llning. 
+
+Den som har skrivits ut ur jobb- och utvecklingsgarantin 
+enligt 13 &#167; f&#246;rsta stycket 2-5 och andra stycket har m&#246;jlighet 
+att &#229;terintr&#228;da i programmet, under f&#246;ruts&#228;ttning att 
+avbrottet i programmet har varat i h&#246;gst ett &#229;r. Den som 
+skrivits ut f&#246;r att p&#229;b&#246;rja en utbildning inom skolv&#228;sendet 
+eller motsvarande utbildning vid en folkh&#246;gskola har dock 
+m&#246;jlighet att &#229;terintr&#228;da under f&#246;ruts&#228;ttning att avbrottet 
+har varat i h&#246;gst tre &#229;r.
+
+&#197;terintr&#228;de enligt f&#246;rsta och andra styckena ska anses ske 
+dagen efter den ers&#228;ttningsdag d&#229; den enskilde l&#228;mnade 
+programmet. F&#246;rordning (2019:1158).
+
+&#197;terkallelse av anvisning till programmet
+
+15 &#167; En anvisning till programmet ska &#229;terkallas om
+
+1. den som anvisats missk&#246;ter sig eller st&#246;r verksamheten, 
+eller
+
+2. det i &#246;vrigt finns s&#228;rskilda sk&#228;l f&#246;r att &#229;terkalla 
+anvisningen.
+
+F&#246;r den som f&#246;rbrukat sina 450 dagar med ers&#228;ttning enligt 2 
+kap. 8 &#167; f&#246;rordningen (2017:819) om ers&#228;ttning till deltagare 
+i arbetsmarknadspolitiska insatser, ska anvisningen dessutom 
+&#229;terkallas om han eller hon
+
+1. avvisar n&#229;gon insats inom programmet eller n&#229;gon annan 
+arbetsmarknadspolitisk &#229;tg&#228;rd,
+
+2. utan godtagbart sk&#228;l avvisar ett erbjudet l&#228;mpligt 
+arbete,
+
+3. inte redovisar sina jobbs&#246;karaktiviteter, eller
+
+4. inte har regelbunden kontakt med en arbetsf&#246;rmedlare.
+
+Ett beslut om &#229;terkallelse g&#228;ller omedelbart.
+F&#246;rordning (2017:827).
+
+Ny anvisning till programmet
+
+16 &#167; Om en anvisning till jobb- och utvecklingsgarantin har 
+&#229;terkallats enligt 15 &#167; f&#246;rsta stycket 1 eller andra stycket 
+f&#229;r den enskilde p&#229; nytt anvisas till programmet om han eller 
+hon 
+
+1. anm&#228;lt sig som arbetss&#246;kande hos den offentliga 
+arbetsf&#246;rmedlingen inom 60 kalenderdagar efter &#229;terkallelsen, 
+och 
+
+2. efter &#229;terkallelsen varit inskriven som arbetss&#246;kande hos 
+den offentliga arbetsf&#246;rmedlingen under 45 dagar som det 
+skulle ha l&#228;mnats aktivitetsst&#246;d f&#246;r om inte &#229;terkallelsen 
+gjorts. 
+
+Vid till&#228;mpning av f&#246;rsta stycket 2 ska dagar d&#229; den enskilde 
+utf&#246;rt f&#246;rv&#228;rvsarbete r&#228;knas in i de 45 dagarna. 
+
+Den som p&#229; nytt anvisas till jobb- och utvecklingsgarantin 
+tr&#228;der in i garantin dagen efter den ers&#228;ttningsdag d&#229; han 
+eller hon l&#228;mnade programmet. F&#246;rordning (2015:949).
+
+Ers&#228;ttning till den enskilde
+
+17 &#167; I f&#246;rordningen (2017:819) om ers&#228;ttning till deltagare i 
+arbetsmarknadspolitiska insatser finns best&#228;mmelser om att 
+den som tar del av programmet jobb- och utvecklingsgarantin 
+kan f&#229; ekonomiskt st&#246;d f&#246;r sin f&#246;rs&#246;rjning i form av 
+aktivitetsst&#246;d eller utvecklingsers&#228;ttning.
+F&#246;rordning (2017:827).
+
+Ekonomiskt st&#246;d till anordnare
+
+18 &#167; Ekonomiskt st&#246;d f&#229;r l&#228;mnas till den som anordnar 
+arbetstr&#228;ning eller f&#246;rst&#228;rkt arbetstr&#228;ning enligt 10 &#167;. 
+Arbetsf&#246;rmedlingen beslutar om och betalar ut st&#246;det. 
+
+N&#228;r ekonomiskt st&#246;d l&#228;mnas till privata arbetsgivare eller 
+offentliga arbetsgivare vid drift av aff&#228;rsverksamhet, ska 
+Arbetsf&#246;rmedlingen s&#228;kerst&#228;lla att inte vissa f&#246;retag eller 
+viss produktion gynnas p&#229; det s&#228;tt som framg&#229;r av artikel 
+107.1 i f&#246;rdraget om Europeiska unionens funktionss&#228;tt. 
+F&#246;rordning (2015:949).
+
+19 &#167; Arbetsf&#246;rmedlingen ska se till att st&#246;d enligt denna
+f&#246;rordning anv&#228;nds p&#229; f&#246;reskrivet s&#228;tt. F&#246;rordning (2007:932).
+
+&#197;terbetalning och &#229;terkrav
+
+20 &#167; En mottagare av ekonomiskt st&#246;d enligt denna f&#246;rordning
+&#228;r &#229;terbetalningsskyldig om han eller hon genom att l&#228;mna
+oriktiga uppgifter eller p&#229; n&#229;got annat s&#228;tt har f&#246;rorsakat
+att st&#246;d har l&#228;mnats p&#229; felaktig grund eller med ett f&#246;r h&#246;gt
+belopp.
+
+Om st&#246;d i annat fall har l&#228;mnats p&#229; felaktig grund eller med
+ett f&#246;r h&#246;gt belopp, &#228;r mottagaren &#229;terbetalningsskyldig
+endast om han eller hon insett eller sk&#228;ligen borde ha insett
+felet. F&#246;rordning (2010:397).
+
+20 a &#167; Om en mottagare av ekonomiskt st&#246;d &#228;r
+&#229;terbetalningsskyldig enligt 20 &#167;, ska Arbetsf&#246;rmedlingen
+besluta att &#229;terkr&#228;va det felaktigt utbetalda beloppet.
+F&#246;rordning (2010:397).
+
+20 b &#167; Vid &#229;terkrav enligt 20 a &#167; f&#229;r Arbetsf&#246;rmedlingen
+bevilja anst&#229;nd med betalningen eller tr&#228;ffa avtal med den
+&#229;terbetalningsskyldige om en avbetalningsplan.
+Arbetsf&#246;rmedlingen ska i s&#229;dana fall ta ut r&#228;nta p&#229; det
+obetalda beloppet.
+
+R&#228;nta ska tas ut fr&#229;n den dag d&#229; anst&#229;ndet beviljades eller
+avtalet om avbetalningsplan tr&#228;ffades, dock inte f&#246;r tid innan
+det &#229;terkr&#228;vda beloppet har f&#246;rfallit till betalning.
+
+R&#228;nta ska tas ut efter en r&#228;ntesats som vid varje tidpunkt
+&#246;verstiger statens utl&#229;ningsr&#228;nta med tv&#229; procentenheter.
+F&#246;rordning (2010:397).
+
+20 c &#167; Om ett belopp som har &#229;terkr&#228;vts med st&#246;d av 20 &#167; inte
+betalas i r&#228;tt tid, ska dr&#246;jsm&#229;lsr&#228;nta enligt r&#228;ntelagen
+(1975:635) tas ut p&#229; beloppet. Detsamma g&#228;ller n&#228;r den
+&#229;terbetalningsskyldige beviljats anst&#229;nd med betalningen eller
+tr&#228;ffat ett avtal om en avbetalningsplan enligt 20 b &#167; och
+betalning inte sker inom den tid som f&#246;ljer av beslutet om
+anst&#229;nd eller avtalet. F&#246;rordning (2010:397).
+
+20 d &#167; Om det med h&#228;nsyn till den &#229;terbetalningsskyldiges
+personliga eller ekonomiska f&#246;rh&#229;llanden eller andra
+omst&#228;ndigheter finns s&#228;rskilda sk&#228;l f&#246;r det, f&#229;r
+Arbetsf&#246;rmedlingen helt eller delvis efterge ett krav p&#229;
+&#229;terbetalning enligt 20 a &#167; eller ett krav p&#229; r&#228;nta enligt
+20 b eller 20 c &#167;. Myndigheten ska i s&#229;dant fall i beslutet
+ange vilka de s&#228;rskilda sk&#228;len &#228;r och dokumentera den
+information som ligger till grund f&#246;r beslutet.
+F&#246;rordning (2010:397).
+
+20 e &#167; Vid &#229;terkrav enligt 20 a &#167; f&#229;r Arbetsf&#246;rmedlingen, vid
+en senare utbetalning av st&#246;d till den &#229;terbetalningsskyldige,
+besluta att dra av ett sk&#228;ligt belopp i avr&#228;kning p&#229; vad som
+har betalats ut f&#246;r mycket. Detsamma g&#228;ller skyldighet att
+betala r&#228;nta enligt 20 b eller 20 c &#167;. F&#246;rordning (2010:397).
+
+Tillsyn
+
+21 &#167; Arbetsf&#246;rmedlingen ska till Inspektionen f&#246;r
+arbetsl&#246;shetsf&#246;rs&#228;kringen l&#228;mna de uppgifter som har betydelse
+f&#246;r inspektionens granskning av handl&#228;ggningen av och rutinerna
+f&#246;r handl&#228;ggningen av &#228;renden om &#229;terkallande av anvisningar
+till programmet. F&#246;rordning (2007:932).
+
+Ompr&#246;vning och &#246;verklagande
+
+22 &#167; Arbetsf&#246;rmedlingens beslut enligt denna f&#246;rordning ska
+ompr&#246;vas hos myndighetens centrala enhet f&#246;r ompr&#246;vning, om
+det beg&#228;rs av den som beslutet g&#228;ller. Vid ompr&#246;vningen f&#229;r
+beslutet inte &#228;ndras till den enskildes nackdel.
+
+En beg&#228;ran om ompr&#246;vning ska vara skriftlig. Beg&#228;ran ska ges
+in till Arbetsf&#246;rmedlingen och ska ha kommit in dit inom tre
+veckor fr&#229;n den dag d&#229; den som beg&#228;r ompr&#246;vning fick del av
+beslutet. F&#246;rordning (2010:397).
+
+22 a &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns 
+best&#228;mmelser om &#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. 
+Andra beslut &#228;n beslut om ompr&#246;vning av beslut enligt 13, 14, 
+15 och 20 e &#167;&#167; f&#229;r dock inte &#246;verklagas.
+
+Om ett beslut &#246;verklagas innan det har ompr&#246;vats, ska 
+&#246;verklagandet anses som en beg&#228;ran om ompr&#246;vning.
+F&#246;rordning (2018:1022).
+
+Bemyndigande
+
+23 &#167; Arbetsf&#246;rmedlingen f&#229;r meddela de f&#246;reskrifter som beh&#246;vs
+f&#246;r verkst&#228;lligheten av denna f&#246;rordning.
+F&#246;rordning (2007:932).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2007:414
+
+Denna f&#246;rordning tr&#228;der i kraft den 2 juli 2007.
+
+2. Har utg&#229;tt genom f&#246;rordning (2007:602).
+
+2009:1603
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2010.
+
+2. Vid till&#228;mpning av 13 &#167; f&#246;rsta stycket 4 och andra
+stycket ska endast sjukdagar fr&#229;n och med den 1 januari 2010
+beaktas.
+
+2010:397
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2010.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande i fr&#229;ga om &#229;terkrav
+av belopp som har betalats ut f&#246;re ikrafttr&#228;dandet.
+
+2010:1464
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2011.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r den som f&#246;re
+ikrafttr&#228;dandet p&#229;b&#246;rjat den det arbetsmarknadspolitiska
+insatsen lyft.
+
+2012:608
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 15 november 2012.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r fr&#229;nvaroperiod
+som p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet.
+
+2014:878
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 mars 2015.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r f&#246;rh&#229;llanden som intr&#228;ffat
+f&#246;re ikrafttr&#228;dandet.
+
+2015:949
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 februari 2016.
+
+2. F&#246;r den som f&#246;re ikrafttr&#228;dandet har p&#229;b&#246;rjat deltagande i 
+det arbetsmarknadspolitiska programmet arbetslivsintroduktion 
+g&#228;ller 5 &#167; i den &#228;ldre lydelsen till och med den 31 december 
+2016. 
+
+3. Den som vid ikrafttr&#228;dandet &#228;r eller har varit sysselsatt 
+hos en anordnare som f&#246;rmedlats av Arbetsf&#246;rmedlingen enligt 
+7 &#167; i den &#228;ldre lydelsen f&#229;r &#228;ven forts&#228;ttningsvis 
+syssels&#228;ttas hos en s&#229;dan anordnare, dock l&#228;ngst till och med 
+den 31 januari 2018. Det som s&#228;gs om Arbetsf&#246;rmedlingens 
+kontakter med anordnaren och deltagaren i den upph&#228;vda 7 &#167; 
+tredje stycket g&#228;ller d&#229; fortfarande. D&#229; g&#228;ller ocks&#229; 18 &#167; i 
+den &#228;ldre lydelsen. 
+
+2017:827
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2018.
+
+2. F&#246;r den som har deltagit i insatser enligt den upph&#228;vda 
+lagen (2010:197) om etableringsinsatser f&#246;r vissa nyanl&#228;nda 
+invandrare och som inte f&#229;r ta del av insatser enligt 
+f&#246;rordningen (2017:820) om etableringsinsatser f&#246;r vissa 
+nyanl&#228;nda invandrare g&#228;ller 5 &#167; i den &#228;ldre lydelsen. 
+
+3. Vid ber&#228;kningen enligt 15 &#167; i den nya lydelsen om en 
+person har f&#246;rbrukat 450 dagar med ers&#228;ttning enligt 2 kap. 8 
+&#167; f&#246;rordningen (2017:819) om ers&#228;ttning till deltagare i 
+arbetsmarknadspolitiska insatser ska &#228;ven dagar med 
+ers&#228;ttning enligt 5 a &#167; den upph&#228;vda f&#246;rordningen (1996:1100) 
+om aktivitetsst&#246;d ing&#229;. 
+
+2019:1158
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2020.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r den som vid 
+ikrafttr&#228;dandet bedriver studier inom ramen f&#246;r ett 
+utbildningskontrakt enligt f&#246;rordningen (2015:502) om viss 
+samverkan om unga och nyanl&#228;nda, dock l&#228;ngst till och med den 
+20 september 2020.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2148">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2150">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

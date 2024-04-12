@@ -1,0 +1,908 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-05" /> 
+ <meta id="rattsinfo-edited" content="2024-01-05 11:18:40" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>279</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=278">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=280">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2022:181 ·
+                    <a href="/sfsr?bet=2022:181">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2022:181) om skatt p&#229; energi</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2022-03-03
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:813
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2023-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">F&#246;rordningens till&#228;mpningsomr&#229;de
+
+1 &#167; Denna f&#246;rordning g&#228;ller vid till&#228;mpning av lagen 
+(1994:1776) om skatt p&#229; energi. 
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 
+
+- 2 kap. 9 a &#167; lagen om skatt p&#229; energi i fr&#229;ga om 18 &#167; 
+
+- 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 4 &#167; och 14 &#167; andra 
+stycket
+
+- 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga best&#228;mmelser.
+
+Termer och uttryck
+
+2 &#167; Termer och uttryck som anv&#228;nds i denna f&#246;rordning har 
+samma betydelse och till&#228;mpningsomr&#229;de som i lagen (1994:1776) 
+om skatt p&#229; energi.
+
+3 &#167; Med huvudsaklig verksamhet f&#246;rst&#229;s 
+
+1. i 9 och 10 &#167;&#167; den verksamhet d&#228;r den st&#246;rsta volymen 
+br&#228;nsle avses att tillverkas, bearbetas, lagras eller tas 
+emot, och 
+
+2. i 20 &#167; den verksamhet d&#228;r den st&#246;rsta volymen br&#228;nsle 
+f&#246;rbrukats under den period som ans&#246;kan om &#229;terbetalning 
+avser.
+
+Bemyndiganden att meddela f&#246;reskrifter
+
+4 &#167; Skatteverket f&#229;r meddela f&#246;reskrifter om 
+
+1. f&#246;rfarandet vid m&#228;rkning och f&#228;rgning enligt 18 &#167;, 
+
+2. godk&#228;nnande av skatteupplag,  
+
+3. s&#228;kerhet enligt lagen (1994:1776) om skatt p&#229; energi,  
+
+4. inbetalning av s&#228;rskild avgift enligt 10 kap. 5 &#167; lagen om 
+skatt p&#229; energi, 
+
+5. det tekniska f&#246;rfarandet f&#246;r uppgiftsl&#228;mnande i det 
+datoriserade systemet,  
+
+6. hantering och dokumentation av alternativa bevis enligt 
+4 b kap. 12 &#167; andra stycket och 4 e kap. 8 &#167; lagen om skatt p&#229; 
+energi och av ers&#228;ttningsdokument i reservsystemet,  
+
+7. ink&#246;p av br&#228;nsle befriat fr&#229;n skatt enligt 8 kap. 1 &#167; 
+tredje stycket lagen om skatt p&#229; energi,  
+
+8. avdrag f&#246;r skatt p&#229; br&#228;nsle enligt 7 kap. 1 &#167; f&#246;rsta 
+stycket 3-5 lagen om skatt p&#229; energi,  
+
+9. upplagshavares bokf&#246;ring och inventering av lager enligt 
+4 kap. 3 &#167; lagen om skatt p&#229; energi och skattebefriade 
+f&#246;rbrukares bokf&#246;ring enligt 8 kap. 2 &#167; lagen om skatt p&#229; 
+energi,  
+
+10. hantering av mottagningsrapporter, n&#228;r br&#228;nsle tas emot av 
+mottagare som avses i 4 a kap. 2 &#167; f&#246;rsta stycket 5 lagen om 
+skatt p&#229; energi, och
+
+11. bokf&#246;ring av flyttningar vid proviantering till havs 
+enligt 8 kap. 6 &#167; lagen om skatt p&#229; energi. 
+
+Skatteverket f&#229;r meddela de ytterligare f&#246;reskrifter som 
+beh&#246;vs f&#246;r verkst&#228;lligheten av lagen om skatt p&#229; energi.
+F&#246;rordning (2022:1742).
+
+Underr&#228;ttelse vid oegentlighetsbeskattning
+
+5 &#167; Om Skatteverket tar ut skatt enligt 5 kap. 22 eller 24 &#167; 
+lagen (1994:1776) om skatt p&#229; energi, ska Skatteverket 
+underr&#228;tta den beh&#246;riga myndigheten i avs&#228;ndarmedlemsstaten. 
+Om Skatteverket tar ut skatt enligt 5 kap. 24 &#167; lagen om skatt 
+p&#229; energi och mottagaren inte finns i Sverige, ska 
+Skatteverket &#228;ven underr&#228;tta den beh&#246;riga myndigheten i 
+destinationsmedlemsstaten.
+
+Godk&#228;nnanden och anm&#228;lningar
+
+6 &#167; Skatteverket beslutar i fr&#229;ga om godk&#228;nnande av frivilligt 
+skattskyldiga efter s&#228;rskild ans&#246;kan.
+
+7 &#167; I en ans&#246;kan om godk&#228;nnande som upplagshavare, registrerad 
+varumottagare, tillf&#228;lligt registrerad varumottagare eller 
+registrerad avs&#228;ndare eller av skatteupplag ska det anges 
+vilket eller vilka br&#228;nslen den s&#246;kande avser att godk&#228;nnandet 
+ska omfatta.  
+
+I en anm&#228;lan f&#246;r registrering som tillf&#228;lligt registrerad 
+distansf&#246;rs&#228;ljare, registrerad distansf&#246;rs&#228;ljare, tillf&#228;lligt 
+certifierad mottagare, certifierad mottagare, tillf&#228;lligt 
+certifierad avs&#228;ndare eller certifierad avs&#228;ndare ska det 
+anges vilket eller vilka br&#228;nslen anm&#228;lan avser. 
+
+I ett beslut om godk&#228;nnande eller registrering ska det anges 
+f&#246;r vilket eller vilka br&#228;nslen godk&#228;nnandet eller 
+registreringen g&#228;ller.
+
+Br&#228;nslet ska anges enligt de koder som finns i bilaga II i 
+kommissionens delegerade f&#246;rordning (EU) 2022/1636 av den 5 
+juli 2022 om komplettering av r&#229;dets direktiv (EU) 2020/262 
+genom fastst&#228;llande av form och inneh&#229;ll f&#246;r de dokument som 
+utbyts i samband med flyttning av punktskattepliktiga varor 
+och om fastst&#228;llande av ett tr&#246;skelv&#228;rde f&#246;r f&#246;rluster till 
+f&#246;ljd av varornas beskaffenhet. F&#246;rordning (2022:1742).
+
+8 &#167; Ett f&#246;retag som ans&#246;ker om godk&#228;nnande som upplagshavare, 
+registrerad varumottagare eller lagerh&#229;llare ska i sin ans&#246;kan 
+l&#228;mna uppgifter om
+
+1. vilken typ av f&#246;retag (inom kategorin sm&#229; eller medelstora 
+respektive inom kategorin stora) det h&#246;r till enligt bilaga I 
+till kommissionens f&#246;rordning (EU) nr 651/2014 av den 17 juni 
+2014 genom vilken vissa kategorier av st&#246;d f&#246;rklaras f&#246;renliga 
+med den inre marknaden enligt artiklarna 107 och 108 i 
+f&#246;rdraget,
+
+2. den region d&#228;r det &#228;r bel&#228;get p&#229; NUTS 2-niv&#229; enligt 
+bilaga 1 till Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 
+1059/2003 av den 26 maj 2003 om inr&#228;ttande av en gemensam 
+nomenklatur f&#246;r statistiska territoriella enheter (NUTS) i 
+lydelsen enligt kommissionens f&#246;rordning (EU) nr 868/2014 av 
+den 8 augusti 2014 om &#228;ndring av bilagorna till 
+Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 1059/2003 om 
+inr&#228;ttande av en gemensam nomenklatur f&#246;r statistiska 
+territoriella enheter (Nuts), och
+
+3. det verksamhetsomr&#229;de det h&#246;r till p&#229; Nace-gruppniv&#229; enligt 
+bilaga 1 till Europaparlamentets och r&#229;dets f&#246;rordning (EG) 
+nr 1893/2006 av den 20 december 2006 om fastst&#228;llande av den 
+statistiska n&#228;ringsgrensindelningen Nace rev. 2 och om &#228;ndring 
+av r&#229;dets f&#246;rordning (EEG) nr 3037/90, i den ursprungliga 
+lydelsen.
+
+Den som bedriver eller avser att bedriva yrkesm&#228;ssig 
+jordbruks- eller skogsbruksverksamhet och kommer att f&#229; st&#246;d 
+genom den st&#246;dordning som avses i 1 kap. 11 a &#167; 3 lagen 
+(1994:1776) om skatt p&#229; energi ska &#228;ven l&#228;mna uppgift om
+
+1. huruvida f&#246;retaget bedriver prim&#228;r jordbruksproduktion i 
+den mening som avses i artikel 2.9 i kommissionens f&#246;rordning 
+(EU) nr 651/2014 av den 17 juni 2014 genom vilken vissa 
+kategorier av st&#246;d f&#246;rklaras f&#246;renliga med den inre marknaden 
+enligt artiklarna 107 och 108 i f&#246;rdraget om Europeiska 
+unionens funktionss&#228;tt, och
+
+2. hur stor andel av br&#228;nslef&#246;rbrukningen inom ramen f&#246;r 
+st&#246;dordningen som h&#228;nf&#246;r sig till prim&#228;r jordbruksproduktion.
+F&#246;rordning (2023:813).
+
+9 &#167; Ett f&#246;retag som ans&#246;ker om godk&#228;nnande som upplagshavare, 
+registrerad varumottagare eller lagerh&#229;llare ska vid 
+fullg&#246;randet av sin uppgiftsskyldighet enligt 8 &#167; f&#246;rsta 
+stycket 2 ange den region p&#229; NUTS 2-niv&#229; d&#228;r f&#246;retagets 
+huvudkontor finns. 
+
+Om f&#246;retaget ans&#246;ker om godk&#228;nnande som upplagshavare eller 
+lagerh&#229;llare och avser att driva verksamhet som inneb&#228;r att 
+f&#246;retaget &#228;r en st&#246;dmottagare enligt 1 kap. 11 b &#167; lagen 
+(1994:1776) om skatt p&#229; energi, ska &#228;ven regionen f&#246;r s&#229;dan 
+verksamhet anges p&#229; den NUTS 2-niv&#229; d&#228;r f&#246;retagets 
+huvudsakliga verksamhet avses att drivas inom respektive 
+st&#246;dordning. 
+
+Andra stycket g&#228;ller &#228;ven ett f&#246;retag som ans&#246;ker om 
+godk&#228;nnande som registrerad varumottagare och avser att driva 
+en verksamhet som inneb&#228;r att f&#246;retaget &#228;r en st&#246;dmottagare 
+enligt 1 kap. 11 b &#167; 2 lagen om skatt p&#229; energi.
+F&#246;rordning (2023:141).
+
+10 &#167; Ett f&#246;retag som ans&#246;ker om godk&#228;nnande som upplagshavare, 
+registrerad varumottagare eller lagerh&#229;llare ska vid 
+fullg&#246;randet av sin uppgiftsskyldighet enligt 8 &#167; f&#246;rsta 
+stycket 3 ange det verksamhetsomr&#229;de som f&#246;retagets verksamhet 
+huvudsakligen h&#246;r till p&#229; Nace-gruppniv&#229;. Om f&#246;retaget avser 
+att driva verksamhet som inneb&#228;r att f&#246;retaget &#228;r en 
+st&#246;dmottagare enligt 1 kap. 11 b &#167; lagen (1994:1776) om skatt 
+p&#229; energi, ska huvudsakligt verksamhetsomr&#229;de &#228;ven anges f&#246;r 
+respektive st&#246;dordning. F&#246;rordning (2023:141).
+
+11 &#167; I en ans&#246;kan om godk&#228;nnande som frivilligt skattskyldig 
+ska den s&#246;kande ange vilket eller vilka f&#246;rbruknings&#228;ndam&#229;l 
+godk&#228;nnandet &#228;r avsett att grundas p&#229;. 
+
+I ett beslut om godk&#228;nnande ska det anges vilket eller vilka 
+f&#246;rbruknings&#228;ndam&#229;l godk&#228;nnandet grundas p&#229;.
+
+12 &#167; Upplagshavare, registrerade varumottagare, tillf&#228;lligt 
+registrerade varumottagare, registrerade avs&#228;ndare, 
+lagerh&#229;llare, skattebefriade f&#246;rbrukare, frivilligt 
+skattskyldiga och de som har godk&#228;nnande f&#246;r s&#228;rskild 
+hantering av proviantering till havs ska anm&#228;la till 
+Skatteverket om  
+
+1. det sker betydande &#228;ndringar av &#228;garf&#246;rh&#229;llandena,  
+
+2. firmatecknare, revisor eller styrelse &#228;ndras, eller  
+
+3. det i &#246;vrigt sker &#228;ndringar av de uppgifter som  
+
+a) har l&#228;mnats eller skulle ha l&#228;mnats i samband med ans&#246;kan 
+om godk&#228;nnande, eller  
+
+b) efter godk&#228;nnandet har anm&#228;lts till Skatteverket.  
+
+Upplagshavare ska &#228;ven anm&#228;la till Skatteverket om det sker 
+&#228;ndringar av de uppgifter som l&#228;mnats i ans&#246;kan om godk&#228;nnande 
+av skatteupplag eller av s&#229;dana uppgifter om det godk&#228;nda 
+skatteupplaget som senare l&#228;mnats till Skatteverket.
+F&#246;rordning (2022:1742).
+
+13 &#167; Upplagshavare och registrerade varumottagare som avser 
+att ta emot br&#228;nsle p&#229; en direkt leveransplats ska anm&#228;la den 
+direkta leveransplatsen till Skatteverket. Anm&#228;lan ska ha 
+kommit in till Skatteverket innan flyttningen av br&#228;nslet till 
+den direkta leveransplatsen p&#229;b&#246;rjas. 
+
+Skatteverket f&#229;r tilldela en direkt leveransplats en kod f&#246;r 
+identifiering. Identifikationskoden f&#229;r ers&#228;tta uppgift om 
+adressen till den direkta leveransplatsen i dokument som 
+uppr&#228;ttas i samband med flyttning till Sverige enligt 
+uppskovsf&#246;rfarandet. 
+
+Upplagshavare och registrerade avs&#228;ndare som avs&#228;nder br&#228;nsle 
+enligt uppskovsf&#246;rfarandet f&#229;r i dokument som uppr&#228;ttas i 
+samband med flyttningen ers&#228;tta uppgift om adressen till den 
+direkta leveransplatsen i destinationsmedlemsstaten med den 
+identifikationskod som tilldelats platsen av den beh&#246;riga 
+myndigheten i den medlemsstaten.
+
+Former f&#246;r anm&#228;lan och ans&#246;kan
+
+14 &#167; Anm&#228;lningar som avses i 4 c kap. 2, 3 och 6 &#167;&#167; och 
+4 d kap. 3, 5, 8, 9 och 13 &#167;&#167; lagen (1994:1776) om skatt p&#229; 
+energi samt i 13 &#167; denna f&#246;rordning samt ans&#246;kningar som avses 
+i 4 kap. 16 &#167;, 6 kap. 2 &#167; och 8 kap. 1 a och 4 &#167;&#167; lagen om 
+skatt p&#229; energi samt i 6 &#167; denna f&#246;rordning ska g&#246;ras enligt 
+ett fastst&#228;llt formul&#228;r. 
+
+Skatteverket ska fastst&#228;lla s&#229;dana formul&#228;r som avses i f&#246;rsta 
+stycket. F&#246;rordning (2022:1742).
+
+Punktskattenummer
+
+15 &#167; Skatteverket tilldelar godk&#228;nda skatteupplag och den som 
+godk&#228;nns som upplagshavare, registrerad varumottagare, 
+tillf&#228;lligt registrerad varumottagare eller registrerad 
+avs&#228;ndare eller registreras som tillf&#228;lligt certifierad 
+avs&#228;ndare, certifierad avs&#228;ndare, tillf&#228;lligt certifierad 
+mottagare eller certifierad mottagare ett s&#229;dant 
+punktskattenummer som avses i artikel 19.2 a i r&#229;dets 
+f&#246;rordning (EU) nr 389/2012 av den 2 maj 2012 om 
+administrativt samarbete i fr&#229;ga om punktskatter och om 
+upph&#228;vande av f&#246;rordning (EG) nr 2073/2004.
+
+Krav p&#229; viss lagerkapacitet eller f&#246;rbrukning av viss 
+omfattning
+
+16 &#167; Vid pr&#246;vning av en ans&#246;kan om godk&#228;nnande som 
+upplagshavare ska kravet p&#229; lagerh&#229;llning enligt 4 kap. 1 &#167; 
+f&#246;rsta stycket 3 lagen (1994:1776) om skatt p&#229; energi anses 
+uppfyllt om den s&#246;kande disponerar &#246;ver en lagerkapacitet f&#246;r 
+br&#228;nslen som avses i 1 kap. 3 a &#167; lagen om skatt p&#229; energi p&#229; 
+minst 500 kubikmeter.
+
+17 &#167; Vid pr&#246;vning av en ans&#246;kan om godk&#228;nnande som 
+lagerh&#229;llare enligt 6 kap. 2 &#167; f&#246;rsta stycket 1 b lagen 
+(1994:1776) om skatt p&#229; energi ska kravet p&#229; lagerh&#229;llning 
+anses uppfyllt om den s&#246;kande disponerar &#246;ver en 
+lagerkapacitet f&#246;r andra skattepliktiga br&#228;nslen &#228;n dem som 
+avses i 1 kap. 3 a &#167; samma lag p&#229; minst 500 kubikmeter 
+flytande br&#228;nsle eller minst 750 ton fast br&#228;nsle. Om den 
+s&#246;kande har kapacitet att lagra b&#229;de fasta och flytande 
+skattepliktiga br&#228;nslen, ska varje kubikmeter flytande br&#228;nsle 
+r&#228;knas om till 1,5 ton fast br&#228;nsle. 
+
+Vid pr&#246;vning av en ans&#246;kan om godk&#228;nnande som lagerh&#229;llare 
+enligt 6 kap. 2 &#167; f&#246;rsta stycket 1 b lagen om skatt p&#229; energi 
+ska kravet p&#229; &#229;terf&#246;rs&#228;ljning eller f&#246;rbrukning anses uppfyllt 
+om den s&#246;kande ber&#228;knas ha en &#229;rlig oms&#228;ttning p&#229; minst 
+3 miljoner kubikmeter gasformigt br&#228;nsle. 
+
+M&#228;rk- och f&#228;rg&#228;mnen
+
+18 &#167; En oljeprodukt ska enligt 2 kap. 1 &#167; f&#246;rsta stycket 3 a 
+och 9 &#167; lagen (1994:1776) om skatt p&#229; energi anses vara 
+f&#246;rsedd med
+
+1. m&#228;rk&#228;mne om den inneh&#229;ller minst 9,5 och h&#246;gst 
+14,25 milligram butoxibensen (CAS-nummer 1126-79-0) per liter 
+olja, och
+
+2. f&#228;rg&#228;mne om den inneh&#229;ller ett stabilt bl&#229;tt f&#228;rg&#228;mne som 
+&#228;r ett derivat av 1,4-diaminoantrakinon av s&#229;dan halt att 
+oljan f&#229;r en tydligt bl&#229;, bl&#229;gr&#246;n eller gr&#246;n f&#228;rg.
+
+Med CAS-nummer avses s&#229;dan unik numerisk identifiering av 
+kemisk f&#246;rening som tilldelas av The American Chemical Society 
+genom dess avdelning Chemical Abstracts Service (CAS).
+F&#246;rordning (2023:675).
+
+Avdrag f&#246;r skatt eller &#229;terbetalning av skatt
+
+19 &#167; Har upph&#228;vts genom f&#246;rordning (2023:813).
+
+20 &#167; Den som ans&#246;ker om &#229;terbetalning av skatt p&#229; br&#228;nsle och 
+enligt 9 kap. 2 &#167; andra stycket lagen (1994:1776) om skatt p&#229; 
+energi &#228;r skyldig att l&#228;mna s&#229;dana uppgifter om st&#246;dmottagare 
+f&#246;r sin verksamhet som avses i 1 kap. 13 &#167; 2 och 3 den lagen 
+ska vid fullg&#246;randet av sin uppgiftsskyldighet f&#246;r respektive 
+st&#246;dordning ange 
+
+1. den region p&#229; NUTS 2-niv&#229; d&#228;r f&#246;retagets huvudsakliga 
+verksamhet bedrivits under den period som ans&#246;kan avser, och 
+
+2. det verksamhetsomr&#229;de som f&#246;retaget h&#246;r till p&#229; Nace-
+gruppniv&#229; f&#246;r den huvudsakliga verksamhet som &#229;terbetalning av 
+skatt s&#246;ks f&#246;r.
+
+21 &#167; Den som yrkar avdrag f&#246;r eller ans&#246;ker om &#229;terbetalning 
+av skatt och enligt 9 kap. 8 &#167; tredje stycket eller 11 kap. 
+17 &#167; lagen (1994:1776) om skatt p&#229; energi &#228;r skyldig att l&#228;mna 
+s&#229;dana uppgifter om st&#246;dmottagare som avses i 1 kap. 13 &#167; 2 
+och 3 den lagen ska vid fullg&#246;randet av sin uppgiftsskyldighet 
+f&#246;r respektive st&#246;dordning ange 
+
+1. den region p&#229; NUTS 2-niv&#229; d&#228;r st&#246;dmottagaren har f&#246;rbrukat 
+de br&#228;nslen och den elektriska kraft som skatteneds&#228;ttningen 
+avser, och 
+
+2. det verksamhetsomr&#229;de p&#229; Nace-gruppniv&#229; inom vilket 
+st&#246;dmottagaren har f&#246;rbrukat de br&#228;nslen och den elektriska 
+kraft som skatteneds&#228;ttningen avser. 
+
+Om br&#228;nsle eller elektrisk kraft har f&#246;rbrukats i flera 
+regioner eller inom flera verksamhetsomr&#229;den, ska uppgifterna 
+enligt f&#246;rsta stycket avse den region respektive det 
+verksamhetsomr&#229;de d&#228;r f&#246;rbrukningen motsvarar den st&#246;rsta 
+andelen av st&#246;dmottagarens skatteneds&#228;ttning. Motsvarande 
+g&#228;ller om b&#229;de br&#228;nsle och elektrisk kraft har f&#246;rbrukats i 
+flera regioner eller inom flera verksamhetsomr&#229;den.
+
+Beslut om skattebefriad f&#246;rbrukare
+
+22 &#167; I ett beslut om godk&#228;nnande av skattebefriad f&#246;rbrukare 
+ska Skatteverket ange 
+
+1. f&#246;r vilka &#228;ndam&#229;l f&#246;rbrukaren har r&#228;tt att ta emot br&#228;nsle 
+befriat fr&#229;n skatt, 
+
+2. vilka br&#228;nslen som f&#229;r tas emot med skattebefrielse, 
+
+3. skattebefrielsens storlek, och 
+
+4. vilka villkor som g&#228;ller f&#246;r godk&#228;nnandet.
+
+Allm&#228;nt om dokumenthantering
+
+23 &#167; Best&#228;mmelser om dokument och om hanteringen av dokument i 
+det datoriserade systemet samt om formen f&#246;r pappersdokument i 
+reservsystemet finns i 
+
+- kommissionens delegerade f&#246;rordning (EU) 2022/1636 av den 
+5 juli 2022 om komplettering av r&#229;dets direktiv (EU) 2020/262 
+genom fastst&#228;llande av form och inneh&#229;ll f&#246;r de dokument som 
+utbyts i samband med flyttning av punktskattepliktiga varor 
+och om fastst&#228;llande av ett tr&#246;skelv&#228;rde f&#246;r f&#246;rluster till 
+f&#246;ljd av varornas beskaffenhet, och 
+
+- kommissionens genomf&#246;randef&#246;rordning (EU) 2022/1637 av den 
+5 juli 2022 om fastst&#228;llande av till&#228;mpningsf&#246;reskrifter f&#246;r 
+r&#229;dets direktiv (EU) 2020/262 vad g&#228;ller anv&#228;ndning av 
+dokument i samband med flyttning av punktskattepliktiga varor 
+under ett uppskovsf&#246;rfarande och flyttning av 
+punktskattepliktiga varor efter frisl&#228;ppande f&#246;r konsumtion, 
+samt om fastst&#228;llande av det formul&#228;r som ska anv&#228;ndas f&#246;r 
+intyget om undantag. F&#246;rordning (2022:1742).
+
+Dokumenthantering vid flyttningar under uppskovsf&#246;rfarandet
+
+Hantering av elektroniska administrativa dokument, 
+mottagningsrapporter, exportrapporter och ers&#228;ttningsdokument
+
+24 &#167; N&#228;r Skatteverket har tilldelat ett elektroniskt 
+administrativt dokument en administrativ referenskod, ska 
+Skatteverket utan dr&#246;jsm&#229;l via det datoriserade systemet 
+vidarebefordra dokumentet till de beh&#246;riga myndigheterna i 
+destinationsmedlemsstaten eller, vid export eller flyttning 
+till ett utf&#246;rseltullkontor som &#228;ven &#228;r avg&#229;ngstullkontor f&#246;r 
+f&#246;rfarandet f&#246;r extern transitering, till de beh&#246;riga 
+myndigheterna i det land d&#228;r exportdeklarationen har getts in.
+
+25 &#167; Om en exportdeklaration har getts in till Tullverket f&#246;r 
+br&#228;nsle som omfattas av ett elektroniskt administrativt 
+dokument, ska Tullverket underr&#228;tta Skatteverket ifall det vid 
+en kontroll eller p&#229; annat s&#228;tt framkommer att uppgifter i det 
+elektroniska administrativa dokumentet inte st&#228;mmer &#246;verens 
+med uppgifter i den eller de exportdeklarationer som avser 
+br&#228;nslet. Skatteverket ska d&#228;refter via det datoriserade 
+systemet underr&#228;tta de beh&#246;riga myndigheterna i 
+avs&#228;ndarmedlemsstaten om den bristande &#246;verensst&#228;mmelsen.
+
+26 &#167; Skatteverket ska vidarebefordra mottagningsrapporter f&#246;r 
+br&#228;nsle som tagits emot i Sverige till den beh&#246;riga 
+myndigheten i respektive avs&#228;ndarmedlemsstat via det 
+datoriserade systemet. 
+
+Skatteverket ska g&#246;ra en elektronisk kontroll av 
+mottagningsrapporten. &#196;r uppgifterna i mottagningsrapporten 
+giltiga, ska Skatteverket bekr&#228;fta mottagandet av rapporten. 
+Om uppgifterna inte &#228;r giltiga, ska Skatteverket i st&#228;llet 
+utan dr&#246;jsm&#229;l underr&#228;tta den som uppr&#228;ttat 
+mottagningsrapporten om detta. 
+
+N&#228;r det datoriserade systemet inte &#228;r tillg&#228;ngligt, ska 
+Skatteverket i st&#228;llet skicka en kopia av det 
+ers&#228;ttningsdokument som avses i 4 b kap. 16 &#167; lagen 
+(1994:1776) om skatt p&#229; energi till den beh&#246;riga myndigheten i 
+avs&#228;ndarmedlemsstaten. F&#246;rordning (2023:429).
+
+27 &#167; Skatteverket ska vidarebefordra elektroniska 
+administrativa dokument som &#228;r st&#228;llda till upplagshavare, 
+registrerade varumottagare eller tillf&#228;lligt registrerade 
+varumottagare i Sverige, till mottagaren via det datoriserade 
+systemet. Detsamma g&#228;ller mottagningsrapporter och 
+exportrapporter som &#228;r st&#228;llda till upplagshavare eller 
+registrerade avs&#228;ndare i Sverige. 
+
+28 &#167; En exportrapport ska grundas p&#229; den underr&#228;ttelse om att 
+det punktskattepliktiga br&#228;nslet har l&#228;mnat unionens 
+territorium som l&#228;mnas av utf&#246;rseltullkontoret enligt 
+artikel 329 i kommissionens genomf&#246;randef&#246;rordning (EU) 
+2015/2447 av den 24 november 2015 om n&#228;rmare regler f&#246;r 
+genomf&#246;rande av vissa best&#228;mmelser i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) nr 952/2013 om fastst&#228;llande av en 
+tullkodex f&#246;r unionen eller av det kontor d&#228;r formaliteterna 
+enligt artikel 2.2 i punktskattedirektivet fullgjorts. 
+
+I de fall som avses i artikel 16.1 a v i punktskattedirektivet 
+ska exportrapporten grundas p&#229; underr&#228;ttelse om att varorna 
+&#246;verg&#229;tt till f&#246;rfarandet f&#246;r extern transitering som l&#228;mnas 
+av utf&#246;rseltullkontoret enligt artikel 329.5 i kommissionens 
+genomf&#246;randef&#246;rordning (EU) 2015/2447.
+
+Skatteverket ska g&#246;ra en elektronisk kontroll av uppgifterna i 
+underr&#228;ttelsen. Om br&#228;nslet har avs&#228;nts fr&#229;n ett annat EU-
+land, ska exportrapporten d&#228;refter snarast s&#228;ndas till den 
+beh&#246;riga myndigheten i det landet via det datoriserade 
+systemet. Har br&#228;nslet avs&#228;nts fr&#229;n Sverige, ska 
+exportrapporten i st&#228;llet vidarebefordras via det datoriserade 
+systemet till den som avs&#228;nt br&#228;nslet. N&#228;r det datoriserade 
+systemet inte &#228;r tillg&#228;ngligt, ska Skatteverket i st&#228;llet 
+skicka en kopia av det ers&#228;ttningsdokument som avses i 
+4 b kap. 16 &#167; lagen (1994:1776) om skatt p&#229; energi till den 
+beh&#246;riga myndigheten i avs&#228;ndarmedlemsstaten respektive den 
+som fr&#229;n Sverige avs&#228;nt br&#228;nslet. F&#246;rordning (2023:429).
+
+29 &#167; Om br&#228;nsle f&#246;r vilket en exportdeklaration har getts in 
+till Tullverket har avs&#228;nts under uppskovsf&#246;rfarandet till en 
+destination som avses i 4 a kap. 2 &#167; f&#246;rsta stycket 3 eller 4 
+lagen (1994:1776) om skatt p&#229; energi fr&#229;n en plats i ett annat 
+EU-land och Skatteverket f&#229;r uppgifter fr&#229;n Tullverket om att 
+br&#228;nslet inte l&#228;ngre ska f&#246;ras ut ur unionens tullomr&#229;de, ska 
+Skatteverket underr&#228;tta de beh&#246;riga myndigheterna i 
+avs&#228;ndarmedlemsstaten om detta.
+
+30 &#167; N&#228;r Skatteverket fr&#229;n en annan medlemsstat f&#229;r ett s&#229;dant 
+dokument som avses i artikel 27 i punktskattedirektivet om att 
+br&#228;nsle tagits emot eller exporterats eller att br&#228;nsle inte 
+l&#228;ngre ska f&#246;ras ut, ska Skatteverket l&#228;mna en kopia av 
+dokumentet till den som avs&#228;nt br&#228;nslet eller p&#229; annat s&#228;tt 
+h&#229;lla dokumentet tillg&#228;ngligt f&#246;r denne.
+
+Flyttning till mottagare som inte &#228;r slutligt k&#228;nd
+
+31 &#167; Om mottagaren inte &#228;r slutligt k&#228;nd n&#228;r upplagshavaren 
+eller den registrerade avs&#228;ndaren l&#228;mnar in det elektroniska 
+administrativa dokumentet enligt 4 b kap. 4 &#167; lagen 
+(1994:1776) om skatt p&#229; energi, f&#229;r uppgifter om mottagaren 
+och leveransplatsen utel&#228;mnas. Detta g&#228;ller endast n&#228;r 
+br&#228;nslet flyttas med fartyg och f&#229;r inte till&#228;mpas p&#229; 
+flyttningar som avses i 4 a kap. 2 &#167; f&#246;rsta stycket 3 eller 4.
+
+S&#229; snart uppgifterna om mottagaren och leveransplatsen &#228;r 
+k&#228;nda f&#246;r avs&#228;ndaren eller senast n&#228;r flyttningen avslutats, 
+ska uppgifterna l&#228;mnas till Skatteverket via det datoriserade 
+systemet enligt best&#228;mmelserna om &#228;ndrad destinationsort i 
+artikel 20.7 i punktskattedirektivet.  
+
+N&#228;rmare best&#228;mmelser om uppr&#228;ttande och hantering av dokument 
+finns i 
+
+- artikel 6 i kommissionens delegerade f&#246;rordning (EU) 
+2022/1636 av den 5 juli 2022 om komplettering av r&#229;dets 
+direktiv (EU) 2020/262 genom fastst&#228;llande av form och 
+inneh&#229;ll f&#246;r de dokument som utbyts i samband med flyttning av 
+punktskattepliktiga varor och om fastst&#228;llande av ett 
+tr&#246;skelv&#228;rde f&#246;r f&#246;rluster till f&#246;ljd av varornas 
+beskaffenhet, och
+
+- artikel 4 i kommissionens genomf&#246;randef&#246;rordning (EU) 
+2022/1637 av den 5 juli 2022 om fastst&#228;llande av 
+till&#228;mpningsf&#246;reskrifter f&#246;r r&#229;dets direktiv (EU) 2020/262 vad 
+g&#228;ller anv&#228;ndning av dokument i samband med flyttning av 
+punktskattepliktiga varor under ett uppskovsf&#246;rfarande och 
+flyttning av punktskattepliktiga varor efter frisl&#228;ppande f&#246;r 
+konsumtion, samt om fastst&#228;llande av det formul&#228;r som ska 
+anv&#228;ndas f&#246;r intyget om undantag. F&#246;rordning (2022:1742).
+
+Uppdelning av en flyttning under uppskovsf&#246;rfarande
+
+32 &#167; S&#229;dan uppdelning av en flyttning av br&#228;nsle under 
+uppskovsf&#246;rfarande som avses i artikel 23 i 
+punktskattedirektivet d&#228;r flyttningen p&#229;b&#246;rjats i en annan 
+medlemsstat f&#229;r ske p&#229; svenskt territorium.
+
+33 &#167; F&#246;r s&#229;dan uppdelning av en flyttning av br&#228;nsle under 
+uppskovsf&#246;rfarande som avses i artikel 23 i 
+punktskattedirektivet d&#228;r flyttningen p&#229;b&#246;rjats i Sverige 
+kr&#228;vs att 
+
+1. uppdelningen sker p&#229; svenskt territorium eller p&#229; 
+territoriet hos en annan medlemsstat som till&#229;ter s&#229;dan 
+uppdelning,  
+
+2. den totala kvantiteten skattepliktigt br&#228;nsle inte &#228;ndras, 
+och  
+
+3. avs&#228;ndaren via det datoriserade systemet informerar 
+Skatteverket om i vilken medlemsstat uppdelningen sker. 
+
+N&#228;r det datoriserade systemet inte &#228;r tillg&#228;ngligt, f&#229;r 
+avs&#228;ndaren p&#229; annat s&#228;tt informera Skatteverket om en s&#229;dan 
+uppdelning. Informationen ska l&#228;mnas till Skatteverket innan 
+uppdelningen sker. N&#228;r det datoriserade systemet &#229;ter &#228;r 
+tillg&#228;ngligt ska avs&#228;ndaren snarast l&#228;mna uppgifter i systemet 
+om uppdelningen. 
+
+F&#246;rsta stycket 3 och andra stycket g&#228;ller inte flyttning av 
+br&#228;nsle som sker enbart p&#229; svenskt territorium. 
+
+N&#228;rmare best&#228;mmelser om meddelanden som ska utbytas genom det 
+datoriserade systemet vid uppdelning av flyttning och om 
+ers&#228;ttningsdokument finns i 
+
+- artikel 5 i kommissionens genomf&#246;randef&#246;rordning (EU) 
+2022/1637 av den 5 juli 2022 om fastst&#228;llande av 
+till&#228;mpningsf&#246;reskrifter f&#246;r r&#229;dets direktiv (EU) 2020/262 vad 
+g&#228;ller anv&#228;ndning av dokument i samband med flyttning av 
+punktskattepliktiga varor under ett uppskovsf&#246;rfarande och 
+flyttning av punktskattepliktiga varor efter frisl&#228;ppande f&#246;r 
+konsumtion, samt om fastst&#228;llande av det formul&#228;r som ska 
+anv&#228;ndas f&#246;r intyget om undantag, och 
+
+- artiklarna 7 och 9.2 i kommissionens delegerade f&#246;rordning 
+(EU) 2022/1636 av den 5 juli 2022 om komplettering av r&#229;dets 
+direktiv (EU) 2020/262 genom fastst&#228;llande av form och 
+inneh&#229;ll f&#246;r de dokument som utbyts i samband med flyttning av 
+punktskattepliktiga varor och om fastst&#228;llande av ett 
+tr&#246;skelv&#228;rde f&#246;r f&#246;rluster till f&#246;ljd av varornas 
+beskaffenhet. F&#246;rordning (2023:429).
+
+Dokumenthantering vid flyttningar under f&#246;rfarandet f&#246;r 
+beskattade varor
+
+34 &#167; N&#228;r Skatteverket har tilldelat ett elektroniskt f&#246;renklat 
+administrativt dokument en f&#246;renklad administrativ 
+referenskod, ska Skatteverket utan dr&#246;jsm&#229;l vidarebefordra 
+dokumentet till de beh&#246;riga myndigheterna i 
+destinationsmedlemsstaten via det datoriserade systemet. 
+
+35 &#167; N&#228;r Skatteverket vidarebefordrar mottagningsrapporter f&#246;r 
+br&#228;nsle som tagits emot i Sverige till den beh&#246;riga 
+myndigheten i respektive avs&#228;ndarmedlemsstat enligt 4 e kap. 
+7 &#167; lagen (1994:1776) om skatt p&#229; energi, ska det ske via det 
+datoriserade systemet. 
+
+Skatteverket ska g&#246;ra en elektronisk kontroll av 
+mottagningsrapporten. &#196;r uppgifterna i mottagningsrapporten 
+giltiga, ska Skatteverket bekr&#228;fta mottagandet av rapporten. 
+Om uppgifterna inte &#228;r giltiga, ska Skatteverket i st&#228;llet 
+utan dr&#246;jsm&#229;l underr&#228;tta den som uppr&#228;ttat 
+mottagningsrapporten om detta. 
+
+N&#228;r det datoriserade systemet inte &#228;r tillg&#228;ngligt, ska 
+Skatteverket i st&#228;llet, om f&#246;ruts&#228;ttningarna i f&#246;rsta stycket 
+&#228;r uppfyllda, skicka en kopia av det ers&#228;ttningsdokument som 
+avses i 4 e kap. 10 &#167; lagen om skatt p&#229; energi till den 
+beh&#246;riga myndigheten i avs&#228;ndarmedlemsstaten.
+F&#246;rordning (2023:429).
+
+36 &#167; Skatteverket ska vidarebefordra elektroniska f&#246;renklade 
+administrativa dokument som &#228;r st&#228;llda till tillf&#228;lligt 
+certifierade mottagare eller certifierade mottagare i Sverige, 
+till mottagaren via det datoriserade systemet. Detsamma g&#228;ller 
+mottagningsrapporter som &#228;r st&#228;llda till tillf&#228;lligt 
+certifierade avs&#228;ndare eller certifierade avs&#228;ndare i Sverige.
+
+37 &#167; N&#228;r Skatteverket fr&#229;n en annan medlemsstat f&#229;r en s&#229;dan 
+rapport om att br&#228;nsle tagits emot som avses i artikel 39 i 
+punktskattedirektivet, ska Skatteverket l&#228;mna en kopia av 
+dokumentet till den som avs&#228;nt br&#228;nslet eller p&#229; annat s&#228;tt 
+h&#229;lla dokumentet tillg&#228;ngligt f&#246;r denne.
+
+&#214;verenskommelser om s&#228;kerhet
+
+38 &#167; Skatteverket f&#229;r ing&#229; s&#229;dana &#246;verenskommelser med andra 
+medlemsstater inom EU om att g&#246;ra undantag fr&#229;n krav p&#229; 
+s&#228;kerhet som avses i artikel 17.5 b i punktskattedirektivet.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2022:181
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2023 i fr&#229;ga 
+om 7, 14 och 15 &#167;&#167; och i &#246;vrigt den 13 februari 2023.
+
+2. Genom f&#246;rordningen upph&#228;vs f&#246;rordningen (2010:178) om skatt 
+p&#229; energi den 13 februari 2023.
+
+3. Den upph&#228;vda f&#246;rordningen g&#228;ller fortfarande f&#246;r 
+f&#246;rh&#229;llanden som h&#228;nf&#246;r sig till tiden f&#246;re upph&#228;vandet.
+
+2023:141
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2023.
+
+2. En oljeprodukt som uppfyller det som anges i 18 &#167; i den 
+&#228;ldre lydelsen ska anses vara f&#246;rsedd med m&#228;rk&#228;mne respektive 
+f&#228;rg&#228;mne till och med den 17 januari 2024. 
+
+3. Fram till och med den 31 december 2024 ska en oljeprodukt 
+som inneh&#229;ller m&#228;rk&#228;mne enligt 18 &#167; 1 i den &#228;ldre lydelsen 
+eller fr&#229;n vilken s&#229;dant m&#228;rk&#228;mne avl&#228;gsnats anses vara en 
+oljeprodukt som &#228;r f&#246;rsedd med m&#228;rk&#228;mne eller fr&#229;n vilken 
+m&#228;rk&#228;mnet har avl&#228;gsnats enligt 2 kap. 9 &#167; lagen (1994:1776) 
+om skatt p&#229; energi vid till&#228;mpning av den best&#228;mmelsen och 
+best&#228;mmelserna i 10 kap. lagen om skatt p&#229; energi.
+
+2023:675
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 18 december 2023.
+
+2. Best&#228;mmelsen i 18 &#167; f&#246;rsta stycket 2 i den nya lydelsen 
+till&#228;mpas dock f&#246;r tid fr&#229;n och med den 1 juli 2023.
+
+2023:813
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2024.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som 
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=278">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=280">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

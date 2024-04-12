@@ -1,0 +1,818 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2009-12-08" /> 
+ <meta id="rattsinfo-edited" content="2013-08-29" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1780</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1779">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1781">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2009:1285 ·
+                    <a href="/sfsr?bet=2009:1285">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2009:1285) om avtal mellan Sverige och Nederl&#228;nderna s&#229;vitt avser Nederl&#228;ndska Antillerna f&#246;r att fr&#228;mja ekonomiska f&#246;rbindelser</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2009-11-26
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2011:483
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2011-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Det avtal mellan Konungariket Sverige och Konungariket
+Nederl&#228;nderna s&#229;vitt avser Nederl&#228;ndska Antillerna f&#246;r att
+fr&#228;mja ekonomiska f&#246;rbindelser som undertecknades den 10
+september 2009 ska g&#228;lla som lag h&#228;r i landet. Avtalet &#228;r
+avfattat p&#229; engelska och framg&#229;r av bilaga till denna lag.
+
+2 &#167; Avtalets beskattningsregler ska till&#228;mpas endast till den
+del dessa medf&#246;r inskr&#228;nkning av den skattskyldighet i
+Sverige som annars skulle f&#246;religga.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2009:1285
+
+1. Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer.
+
+2. Denna lag ska till&#228;mpas p&#229; skatt som tas ut f&#246;r
+beskattnings&#229;r som b&#246;rjar den 1 januari det &#229;r som f&#246;ljer
+n&#228;rmast efter det &#229;r d&#229; lagen tr&#228;der i kraft eller senare.
+
+
+Bilaga
+
+AGREEMENT BETWEEN THE KINGDOM OF SWEDEN AND THE KINGDOM OF
+THE NETHERLANDS, IN RESPECT OF THE NETHERLANDS ANTILLES, TO
+PROMOTE ECONOMIC RELATIONS
+
+Whereas the Kingdom of Sweden and the Kingdom of the
+Netherlands, in respect of the Netherlands Antilles, (“the
+Contracting Parties”) have signed an Agreement for the
+Exchange of Information with respect to Taxes;
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Now, therefore, the Contracting Parties have agreed as
+follows:
+
+Article 1
+
+Taxes covered
+
+1. The taxes to which this Agreement shall apply are:
+
+(a) in the Netherlands Antilles:
+
+(i) the income tax (inkomstenbelasting);
+
+(ii) the profit tax (winstbelasting); and
+
+(iii) the surtaxes on the income and profit tax (opcenten op
+de inkomsten – en winstbelasting);
+
+(hereinafter referred to as “Netherlands Antilles tax”);
+
+(b) in Sweden: the national income tax (den statliga
+inkomstskatten) (hereinafter referred to as “Swedish tax”).
+
+2. The Agreement shall apply also to any identical or
+substantially similar taxes that are imposed after the date
+of signature of the Agreement in addition to, or in place of,
+the taxes referred to in paragraph 1. The competent
+authorities of the Contracting Parties shall notify each
+other of any significant changes which have been made in
+their respective taxation laws.
+
+Article 2
+
+Definitions
+
+1. For the purposes of this Agreement, unless the context
+otherwise requires:
+
+(a) the term “Contracting Party” means the Kingdom of the
+Netherlands, in respect of the Netherlands Antilles, or the
+Kingdom of Sweden as the context requires;
+
+(b) the term “Sweden” means the Kingdom of Sweden and, when
+used in a geographical sense, includes the national
+territory, the territorial sea of Sweden as well as other
+maritime areas over which Sweden in accordance with
+international law exercises sovereign rights or jurisdiction;
+
+(c) the term “the Netherlands Antilles” means that part of
+the Kingdom of the Netherlands that is situated in the
+Caribbean Sea and consisting of the Island Territories of
+Bonaire, Cura&#231;ao, Saba, St. Eustatius and St. Maarten (Dutch
+part) including the territorial waters thereof and the part
+of the seabed and its subsoil under the Caribbean Sea over
+which the Kingdom of the Netherlands has sovereign rights in
+accordance with international law but excluding the part
+thereof relating to Aruba;
+
+(d) the term “company” means any body corporate or any entity
+that is treated as a body corporate for tax purposes;
+
+(e) the term “competent authority” means:
+
+(i) in the case of Sweden, the Minister of Finance, his
+authorized representative or the authority which is
+designated as a competent authority for the purposes of this
+Agreement;
+
+(ii) in the case of the Netherlands Antilles, the Minister of
+Finance or his authorized representative.
+
+2. As regards the application of the Agreement at any time by
+a Contracting Party, any term not defined therein shall,
+unless the context otherwise requires, have the meaning that
+it has at that time under the law of that Party for the
+purposes of the taxes to which the Agreement applies, any
+meaning under the applicable tax laws of that Party
+prevailing over a meaning given to the term under other laws
+of that Party.
+
+Article 3
+
+Resident
+
+1. For the purposes of this Agreement, the terms “company
+resident in Sweden” and “company resident in the Netherlands
+Antilles” mean any company, which under the laws of that
+Party, is liable to tax therein by reason of its domicile,
+residence, place of management or any other criterion of a
+similar nature. The terms “company resident in Sweden” and
+“company resident in the Netherlands Antilles” do not include
+any company which is liable to tax in that Party in respect
+only of income from sources in that Party.
+
+2. Where by reason of the provisions of paragraph 1, a
+company is a resident of both Contracting Parties, the
+competent authorities of the Contracting Parties shall
+endeavour to settle the question by mutual agreement.
+
+Article 4
+
+Elimination of double taxation
+
+1. Where a company resident in Sweden derives income
+attributable to a permanent establishment in the  Netherlands
+Antilles which under
+
+the laws of the Netherlands Antilles may be taxed in the
+Netherlands Antilles, Sweden shall allow – subject to the
+provisions of the laws of Sweden concerning credit for
+foreign tax (as it may be amended from time to time without
+changing the general principle hereof) – as a deduction from
+the tax on such income, an amount equal to the Netherlands
+Antilles tax paid in respect of such income. The term “the
+Netherlands Antilles tax paid” shall be deemed to include the
+Netherlands Antilles tax which would have been paid, but for
+any time-limited reduction or exemption of tax granted under
+incentive provisions contained in the Netherlands Antilles
+laws designed to promote economic development to the extent
+that such reduction or exemption is granted for income
+derived from activities mentioned in Article 5 and provided
+that the activities have been carried out in the Netherlands
+Antilles.
+
+2. Where a company resident in Sweden directly holds shares
+representing 100 per cent of the voting power in a company
+resident in the Netherlands Antilles, Sweden shall exempt
+from tax dividends distributed by the last-mentioned company
+to the extent that the dividends would have been exempt under
+Swedish law if both companies had been Swedish companies, and
+provided that the profits of the last-mentioned company are
+derived from activities listed in Article 5 and provided that
+the activities have been carried out in the Netherlands
+Antilles.
+
+3. The provisions of the second sentence of paragraph 1 and
+of paragraph 2 shall only apply for the first ten years
+during which this Agreement is effective. This period may be
+extended by mutual agreement between the competent
+authorities.
+
+Article 5
+
+Activities covered
+
+1. Article 4 applies to the following activities (excluding
+financial activities other than financial activities directly
+incidental and ancillary to the listed activities):
+
+(a) industrial and manufacturing activities;
+
+(b) tourism (including restaurants and hotels);
+
+(c) a building site or a construction, assembly or
+installation project;
+
+(d) oil and gas activities and energy production;
+
+(e) mining;
+
+(f) agriculture; and
+
+(g) the installation, operation or maintenance of fixed or
+mobile telecommunication systems.
+
+2. The right of any Swedish company to engage in the
+Netherlands Antilles in the activities listed in the
+preceding paragraph remains subject to the domestic
+legislation in force in the Netherlands Antilles.
+
+Article 6
+
+Mutual agreement procedure
+
+1. Where a company considers that the actions of one or both
+of the Contracting Parties result or will result for it in
+taxation not in accordance with the provisions of this
+Agreement, it may, irrespective of the remedies provided by
+the domestic law of those Contracting Parties, present its
+case to the competent authority of the Contracting Party of
+which it is a resident. The case must be presented within
+three years from the first notification of the action
+resulting in taxation not in accordance with the provisions
+of the Agreement.
+
+2. The competent authority shall endeavour, if the objection
+appears to it to be justified and if it is not itself able to
+arrive at a satisfactory solution, to resolve the case by
+mutual agreement with the competent authority of the other
+Contracting Party, with a view to the avoidance of taxation
+which is not in accordance with the Agreement. Any agreement
+reached shall be implemented notwithstanding any time limits
+in the domestic law of the Contracting Parties.
+
+3. The competent authorities of the Contracting Parties shall
+endeavour to resolve by mutual agreement any difficulties or
+doubts arising as to the interpretation or application of the
+Agreement.
+
+4. The competent authorities of the Contracting Parties may
+communicate with each other directly for the purpose of
+reaching an agreement in the sense of the preceding
+paragraphs.
+
+Article 7
+
+Entry into force
+
+1. This Agreement shall enter into force on the thirtieth day
+after the later of the dates on which each of the Contracting
+Parties has notified the other in writing, through diplomatic
+channels, that the internal procedures required by its law
+have been complied with. The Agreement shall have effect on
+taxes chargeable for any tax year beginning on or after the
+first day of January of the year next following that in which
+this Agreement enters into force.
+
+2. This Agreement is supplementary to the Agreement between
+the Kingdom of Sweden and the Kingdom of the Netherlands in
+respect of the Netherlands Antilles for the Exchange of
+Information with respect to Taxes. Notwithstanding para-graph
+1, this Agreement shall only have effect when the Agreement
+signed on 10 September 2009 for the Exchange of Information
+with respect to Taxes between the Contracting Parties shall
+have effect.
+
+Article 8
+
+Termination
+
+1. This Agreement shall remain in force until terminated by a
+Contracting Party. Either Contracting Party may terminate the
+Agreement, through diplomatic channels, by giving written
+notice of termination at least six months before the end of
+any calendar year. In such event, the Agreement shall cease
+to have effect on taxes chargeable for any tax year beginning
+on or after the first day of January of the year next
+following the end of the six month period.
+
+2. Notwithstanding paragraph 1, this Agreement shall, on
+receipt through diplomatic channels of written notice of
+termination of the Agreement between the Kingdom of Sweden
+and the Kingdom of the Netherlands, in respect of the
+Netherlands Antilles, for the Exchange of Information with
+respect to Taxes, terminate and cease to be effective on the
+day the Agreement for the Exchange of Information with
+respect to Taxes between the Contracting Parties terminates.
+
+In witness whereof the undersigned, being duly authorised
+thereto, have signed this Agreement.
+
+Done at Paris, this 10th day of September 2009, in duplicate
+in the English language.
+
+For the Kingdom of Sweden
+
+Per Holmstr&#246;m
+
+For the Kingdom of the Netherlands, in respect of the
+Netherlands Antilles
+
+Ersilia de Lannooy
+
+(&#214;vers&#228;ttning)
+
+AVTAL MELLAN KONUNGARIKET SVERIGE OCH KONUNGARIKET
+NEDERL&#196;NDERNA S&#197;VITT AVSER NEDERL&#196;NDSKA ANTILLERNA F&#214;R ATT
+FR&#196;MJA EKONOMISKA F&#214;RBINDELSER
+
+D&#229; Konungariket Sverige och Konungariket Nederl&#228;nderna
+s&#229;vitt avser Nederl&#228;ndska Antillerna (&quot;de avtalsslutande
+parterna&quot;) undertecknat ett avtal f&#246;r utbyte av upplysningar
+avseende skatter,
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+har de avtalsslutande parterna kommit &#246;verens om f&#246;ljande:
+
+Artikel 1
+
+Skatter som omfattas av avtalet
+
+1. De skatter som omfattas av avtalet &#228;r:
+
+a) i Nederl&#228;ndska Antillerna:
+
+1) inkomstskatten,
+
+2) vinstskatten, och
+
+3) till&#228;ggsskatterna p&#229; inkomst och vinst,
+
+(i det f&#246;ljande ben&#228;mnda ”skatt i Nederl&#228;ndska Antillerna”),
+
+b) i Sverige: den statliga inkomstskatten (i det f&#246;ljande ben&#228;mnd ”svensk
+skatt”).
+
+2. Avtalet till&#228;mpas &#228;ven p&#229; skatter av samma eller i huvudsak likartat slag,
+som efter undertecknandet av avtalet tas ut vid sidan av eller i st&#228;llet f&#246;r de
+i punkt 1 n&#228;mnda skatterna. De avtalsslutande parternas beh&#246;riga myndigheter ska
+meddela varandra v&#228;sentliga &#228;ndringar som har gjorts i respektive parts
+skattelagstiftning.
+
+Artikel 2
+
+Definitioner
+
+1. Om inte sammanhanget f&#246;ranleder annat, har vid
+till&#228;mpningen av detta avtal f&#246;ljande uttryck nedan angiven
+betydelse:
+
+a) ”avtalsslutande part” avser Konungariket Nederl&#228;nderna
+s&#229;vitt avser Nederl&#228;ndska Antillerna eller Konungariket
+Sverige, beroende p&#229; sammanhanget,
+
+b) ”Sverige” avser Konungariket Sverige och innefattar, n&#228;r
+det anv&#228;nds i geografisk betydelse, Sveriges territorium,
+Sveriges territorialvatten och andra havsomr&#229;den &#246;ver vilka
+Sverige, i &#246;verensst&#228;mmelse med folkr&#228;ttens regler, ut&#246;var
+suver&#228;na r&#228;ttigheter eller jurisdiktion,
+
+c) ”Nederl&#228;ndska Antillerna” avser den del av Konungariket
+Nederl&#228;nderna som &#228;r bel&#228;gen i Karibiska havet och best&#229;r av
+territorierna Bonaire, Cura&#231;ao, Saba, St. Eustatius och St.
+Maarten (den del som tillh&#246;r Nederl&#228;nderna) inbegripet
+tillh&#246;rande territorialvatten och den del av Karibiska havets
+havsbotten och dess underlag &#246;ver vilka Konungariket
+Nederl&#228;nderna ut&#246;var suver&#228;na r&#228;ttigheter i &#246;verensst&#228;mmelse
+med folkr&#228;ttens regler, med undantag f&#246;r den del som tillh&#246;r
+Aruba,
+
+d) ”bolag” avser juridisk person eller annan som vid
+beskattningen behandlas som en juridisk person,
+
+e) ”beh&#246;rig myndighet” avser:
+
+1) i fr&#229;ga om Sverige, finansministern, dennes
+befullm&#228;ktigade ombud eller den myndighet &#229;t vilken uppdras
+att vara beh&#246;rig myndighet vid till&#228;mpningen av detta avtal,
+
+2) i fr&#229;ga om Nederl&#228;ndska Antillerna, finansministern eller
+dennes befullm&#228;ktigade ombud.
+
+2. D&#229; en avtalsslutande part till&#228;mpar avtalet vid n&#229;gon
+tidpunkt anses, s&#229;vida sammanhanget inte f&#246;ranleder annat,
+varje uttryck som inte definierats i avtalet ha den betydelse
+som uttrycket har vid denna tidpunkt enligt den partens
+lagstiftning i fr&#229;ga om s&#229;dana skatter p&#229; vilka avtalet
+till&#228;mpas och den betydelse som uttrycket har enligt
+till&#228;mplig skattelagstiftning i denna part &#228;ger f&#246;retr&#228;de
+framf&#246;r den betydelse som uttrycket har enligt annan
+lagstiftning i denna part.
+
+Artikel 3
+
+Hemvist
+
+1. Vid till&#228;mpningen av detta avtal avser uttrycken ”bolag
+med hemvist i Sverige” och ”bolag med hemvist i Nederl&#228;ndska
+Antillerna” varje bolag som enligt lagstiftningen i denna
+part &#228;r skattskyldigt d&#228;r p&#229; grund av domicil, hemvist, plats
+f&#246;r f&#246;retagsledning eller annan liknande omst&#228;ndighet.
+Uttrycken ”bolag med hemvist i Sverige” och ”bolag med
+hemvist i Nederl&#228;ndska Antillerna” inbegriper inte bolag som
+&#228;r skattskyldigt i denna part endast f&#246;r inkomst fr&#229;n k&#228;lla i
+denna part.
+
+2. D&#229; ett bolag till f&#246;ljd av best&#228;mmelserna i punkt 1 har
+hemvist i b&#229;da avtalsslutande parterna, ska de avtalsslutande
+parternas beh&#246;riga myndigheter s&#246;ka l&#246;sa fr&#229;gan genom
+&#246;msesidig &#246;verenskommelse.
+
+Artikel 4
+
+Undanr&#246;jande av dubbelbeskattning
+
+1. Om ett bolag med hemvist i Sverige f&#246;rv&#228;rvar inkomst
+h&#228;nf&#246;rlig till fast driftst&#228;lle i Nederl&#228;ndska  Antillerna
+som enligt lagstiftningen i
+Nederl&#228;ndska Antillerna f&#229;r beskattas i Nederl&#228;ndska
+Antillerna, ska Sverige – med beaktande av best&#228;mmelserna i
+svensk lagstiftning betr&#228;ffande avr&#228;kning av utl&#228;ndsk skatt
+(&#228;ven i den lydelse de framdeles kan f&#229; genom att &#228;ndras utan
+att den allm&#228;nna princip som anges h&#228;r &#228;ndras) – fr&#229;n den
+svenska skatten p&#229; inkomsten avr&#228;kna ett belopp motsvarande
+den skatt p&#229; inkomsten som erlagts i Nederl&#228;ndska Antillerna.
+Uttrycket ”den skatt som erlagts i Nederl&#228;ndska Antillerna”
+inbegriper skatt i Nederl&#228;ndska Antillerna som skulle ha
+erlagts om inte tidsbegr&#228;nsad neds&#228;ttning av eller befrielse
+fr&#229;n skatt medgivits enligt best&#228;mmelser om skattel&#228;ttnader i
+lagstiftning i Nederl&#228;ndska Antillerna avsedd att fr&#228;mja
+ekonomisk utveckling i den utstr&#228;ckning som neds&#228;ttningen
+eller befrielsen givits betr&#228;ffande inkomst fr&#229;n n&#229;gon av de
+i artikel 5 angivna verksamheterna och under f&#246;ruts&#228;ttning
+att verksamheterna har bedrivits i Nederl&#228;ndska Antillerna.
+
+2. Om ett bolag med hemvist i Sverige direkt innehar aktier
+som motsvarar 100 procent av det sammanlagda r&#246;stv&#228;rdet i ett
+bolag med hemvist i Nederl&#228;ndska Antillerna, ska utdelning
+fr&#229;n det sistn&#228;mnda bolaget undantas fr&#229;n beskattning i
+Sverige i den utstr&#228;ckning som utdelningen skulle ha varit
+undantagen fr&#229;n beskattning enligt svensk lag om b&#229;da bolagen
+hade varit svenska, och under f&#246;ruts&#228;ttning att vinsterna i
+detta sistn&#228;mnda bolag h&#228;rr&#246;r fr&#229;n n&#229;gon av de i artikel 5
+angivna verksamheterna och att verksamheterna har bedrivits i
+Nederl&#228;ndska Antillerna.
+
+3. Best&#228;mmelserna i punkt 1 andra meningen och i punkt 2
+till&#228;mpas endast under de f&#246;rsta tio &#229;ren under vilka detta
+avtal till&#228;mpas. Denna period kan f&#246;rl&#228;ngas genom &#246;msesidig
+&#246;verenskommelse mellan de beh&#246;riga myndigheterna.
+
+Artikel 5
+
+Verksamheter som omfattas av avtalet
+
+1. Artikel 4 till&#228;mpas p&#229; f&#246;ljande verksamheter (med undantag
+f&#246;r annan finansiell verksamhet &#228;n s&#229;dan som &#228;r direkt
+underordnad och utg&#246;r en integrerad del av de angivna
+verksamheterna):
+
+a) industri och tillverkning,
+
+b) turism (inbegripet restaurang- och hotellverksamhet),
+
+c) plats f&#246;r byggnads-, anl&#228;ggnings-, monterings- eller
+installationsverksamhet,
+
+d) olje- och gasverksamhet samt energiproduktion,
+
+e) gruvdrift,
+
+f) jordbruk, och
+
+g) installation, drift eller underh&#229;ll av station&#228;ra eller
+mobila telekommunikationssystem.
+
+2. R&#228;tten f&#246;r svenska bolag att i Nederl&#228;ndska Antillerna
+bedriva verksamheter som anges i f&#246;reg&#229;ende punkt avg&#246;rs &#228;ven
+forts&#228;ttningsvis enligt den interna lagstiftning som g&#228;ller i
+Nederl&#228;ndska Antillerna.
+
+Artikel 6
+
+&#214;msesidig &#246;verenskommelse
+
+1. Om ett bolag anser att en part eller b&#229;da avtalsslutande
+parterna vidtagit &#229;tg&#228;rder som f&#246;r bolaget medf&#246;r eller
+kommer att medf&#246;ra beskattning som strider mot best&#228;mmelserna
+i detta avtal, kan det, utan att det p&#229;verkar bolagets r&#228;tt
+att anv&#228;nda sig av de r&#228;ttsmedel som finns i dessa
+avtalsslutande parters interna r&#228;ttsordningar, l&#228;gga fram
+saken f&#246;r den beh&#246;riga myndigheten i den avtalsslutande part
+d&#228;r bolaget har hemvist. Saken ska l&#228;ggas fram inom tre &#229;r
+fr&#229;n den tidpunkt d&#229; bolaget fick vetskap om den &#229;tg&#228;rd som
+givit upphov till beskattning som strider mot best&#228;mmelserna
+i avtalet.
+
+2. Om den beh&#246;riga myndigheten finner inv&#228;ndningen grundad,
+men inte sj&#228;lv kan f&#229; till st&#229;nd en tillfredsst&#228;llande
+l&#246;sning, ska myndigheten s&#246;ka l&#246;sa fr&#229;gan genom &#246;msesidig
+&#246;verenskommelse med den beh&#246;riga myndigheten i den andra
+avtalsslutande parten i syfte att undvika beskattning som
+strider mot avtalet. &#214;verenskommelse som tr&#228;ffats genomf&#246;rs
+utan hinder av tidsgr&#228;nser i de avtalsslutande parternas
+interna lagstiftning.
+
+3. De avtalsslutande parternas beh&#246;riga myndigheter ska genom
+&#246;msesidig &#246;verenskommelse s&#246;ka avg&#246;ra sv&#229;righeter eller
+tvivelsm&#229;l som uppkommer i fr&#229;ga om tolkningen eller
+till&#228;mpningen av avtalet.
+
+4. De avtalsslutande parternas beh&#246;riga myndigheter kan tr&#228;da
+i direkt f&#246;rbindelse med varandra i syfte att tr&#228;ffa
+&#246;verenskommelse i den mening som avses i f&#246;reg&#229;ende punkter.
+
+Artikel 7
+
+Ikrafttr&#228;dande
+
+1. Detta avtal tr&#228;der i kraft den trettionde dagen efter den
+dag d&#229; den sista av de skriftliga underr&#228;ttelser – som b&#229;da
+avtalsslutande parterna p&#229; diplomatisk v&#228;g ska l&#228;mna n&#228;r de
+nationella &#229;tg&#228;rder vidtagits som kr&#228;vs enligt respektive
+parts lagstiftning – har l&#228;mnats. Avtalet ska till&#228;mpas p&#229;
+skatter som tas ut f&#246;r beskattnings&#229;r som b&#246;rjar den
+1 januari det &#229;r som f&#246;ljer n&#228;rmast efter det &#229;r d&#229; avtalet
+tr&#228;der i kraft eller senare.
+
+2. Detta avtal utg&#246;r ett komplement till avtalet mellan
+Konungariket Sverige och Konungariket Nederl&#228;nderna s&#229;vitt
+avser Nederl&#228;ndska Antillerna om utbyte av upplysningar
+avseende skatter. Utan hinder av punkt 1, ska avtalet endast
+till&#228;mpas under tid d&#229; avtalet under tecknat den 10 september
+2009 om utbyte av upplysningar avseende skatter mellan de
+avtalsslutande parterna &#228;r till&#228;mpligt.
+
+Artikel 8
+
+Upph&#246;rande
+
+1. Detta avtal ska f&#246;rbli i kraft till dess att det s&#228;gs upp
+av en avtalsslutande part. Vardera avtalsslutande parten kan
+p&#229; diplomatisk v&#228;g skriftligen s&#228;ga upp avtalet genom
+underr&#228;ttelse minst sex m&#229;nader f&#246;re utg&#229;ngen av n&#229;got
+kalender&#229;r. I s&#229;dant fall ska avtalet upph&#246;ra att g&#228;lla i
+fr&#229;ga om skatt som tas ut f&#246;r beskattnings&#229;r som b&#246;rjar den
+1 januari det &#229;r som f&#246;ljer n&#228;rmast efter utg&#229;ngen av
+sexm&#229;nadersperioden eller senare.
+
+2. Utan hinder av punkt 1, ska detta avtal upph&#246;ra att g&#228;lla
+den dag d&#229; avtalet mellan Konungariket Sverige och
+Konungariket Nederl&#228;nderna s&#229;vitt avser Nederl&#228;ndska
+Antillerna om utbyte av upplysningar avseende skatter genom
+skriftlig underr&#228;ttelse om upps&#228;gning p&#229; diplomatisk v&#228;g
+upph&#246;r att g&#228;lla.
+
+Till bekr&#228;ftelse h&#228;rav har undertecknade, d&#228;rtill
+vederb&#246;rligen bemyndigade, undertecknat detta avtal.
+
+Som skedde i Paris den 10 september 2009 i tv&#229; exemplar p&#229;
+engelska spr&#229;ket.
+
+F&#246;r Konungariket Sverige
+
+Per Holmstr&#246;m
+
+F&#246;r Konungariket Nederl&#228;nderna s&#229;vitt avser Nederl&#228;ndska
+Antillerna
+
+Ersilia de Lannooy
+
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1779">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1781">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

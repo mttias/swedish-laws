@@ -1,0 +1,785 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2008-06-12" /> 
+ <meta id="rattsinfo-edited" content="2022-01-13 15:35:57" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1977</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1976">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1978">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2008:414 ·
+                    <a href="/sfsr?bet=2008:414">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2008:414) om kvalitets- och s&#228;kerhetsnormer vid hantering av m&#228;nskliga v&#228;vnader och celler</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2008-05-22
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:633
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2008-07-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelse
+
+1 &#167; I denna f&#246;rordning ges kompletterande f&#246;reskrifter till
+lagen (2008:286) om kvalitets- och s&#228;kerhetsnormer vid
+hantering av m&#228;nskliga v&#228;vnader och celler. De uttryck och
+ben&#228;mningar som anv&#228;nds i lagen har samma betydelse i denna
+f&#246;rordning.
+
+Beh&#246;rig myndighet
+
+2 &#167; Inspektionen f&#246;r v&#229;rd och omsorg pr&#246;var fr&#229;gor om 
+tillst&#229;nd att bedriva verksamhet vid en v&#228;vnadsinr&#228;ttning som 
+r&#246;r hantering av m&#228;nskliga v&#228;vnader eller celler avsedda f&#246;r 
+anv&#228;ndning p&#229; m&#228;nniskor. Inspektionen beslutar ocks&#229; om de 
+villkor som i det enskilda fallet ska g&#228;lla f&#246;r s&#229;dan 
+verksamhet.
+
+Inspektionen f&#246;r v&#229;rd och omsorg ut&#246;var tillsyn &#246;ver 
+verksamhet som anges i f&#246;rsta stycket. Inspektionen f&#229;r, 
+efter inbjudan av en leverant&#246;r i ett tredjeland, genomf&#246;ra 
+inspektioner och kontroller i en verksamhet som bedrivs av en 
+leverant&#246;r i ett tredjeland.
+
+Inspektionen f&#246;r v&#229;rd och omsorg ska p&#229; beg&#228;ran av Europeiska 
+kommissionen eller en beh&#246;rig myndighet i en annan 
+medlemsstat i Europeiska unionen eller i en stat inom EES 
+l&#228;mna information till kommissionen eller den beg&#228;rande 
+myndigheten om resultaten av den tillsyn, inspektion och 
+kontroll som avses i andra stycket. F&#246;rordning (2017:225).
+
+3 &#167; L&#228;kemedelsverket beslutar om tillst&#229;nd till att bedriva 
+verksamhet vid en v&#228;vnadsinr&#228;ttning som r&#246;r hantering av 
+m&#228;nskliga v&#228;vnader eller celler avsedda f&#246;r tillverkning av 
+l&#228;kemedel avsedda f&#246;r anv&#228;ndning p&#229; m&#228;nniskor samt import av 
+v&#228;vnadsprodukter. L&#228;kemedelsverket beslutar ocks&#229; om de 
+villkor som i det enskilda fallet ska g&#228;lla f&#246;r s&#229;dan 
+verksamhet.
+
+L&#228;kemedelsverket ut&#246;var tillsyn &#246;ver verksamhet som anges i 
+f&#246;rsta stycket. L&#228;kemedelsverket f&#229;r, efter inbjudan av en 
+leverant&#246;r i ett tredjeland, genomf&#246;ra inspektioner och 
+kontroller i en verksamhet som bedrivs av en leverant&#246;r i ett 
+tredjeland.
+
+L&#228;kemedelsverket ska p&#229; beg&#228;ran av Europeiska kommissionen 
+eller en beh&#246;rig myndighet i en annan medlemsstat i 
+Europeiska unionen eller i en stat inom EES l&#228;mna information 
+till kommissionen eller den beg&#228;rande myndigheten om 
+resultaten av den tillsyn, inspektion och kontroll som avses 
+i andra stycket. F&#246;rordning (2017:225).
+
+3 a &#167; Har upph&#228;vts genom f&#246;rordning (2021:633).
+
+Ans&#246;kan om tillst&#229;nd
+
+4 &#167; Ans&#246;kan om tillst&#229;nd till att bedriva en
+v&#228;vnadsinr&#228;ttning enligt 9 &#167; lagen (2008:286) om kvalitets-
+och s&#228;kerhetsnormer vid hantering av m&#228;nskliga v&#228;vnader och
+celler ska inneh&#229;lla uppgifter om
+
+1.&#160;v&#228;vnadsinr&#228;ttningens namn och adress,
+
+2.&#160;&#228;ndam&#229;let med v&#228;vnadsinr&#228;ttningen,
+
+3. den verksamhet eller de verksamheter som
+v&#228;vnadsinr&#228;ttningen ska innefatta,
+
+4.&#160;vilken omfattning verksamheten vid v&#228;vnadsinr&#228;ttningen
+avses f&#229;,
+
+5. namnet p&#229; den som enligt 13 &#167; i lagen ska svara f&#246;r
+verksamheten (verksamhetschefen) samt dennes adress, och
+
+6. namnet eller namnen p&#229; den eller de befattningshavare som
+avses f&#229; i uppdrag att utf&#246;ra vissa ledningsuppgifter.
+
+Ans&#246;kan ska g&#246;ras innan verksamheten vid v&#228;vnadsinr&#228;ttningen
+p&#229;b&#246;rjas. Om n&#229;got f&#246;rh&#229;llande som omfattas av en tidigare
+ans&#246;kan &#228;ndras, ska detta omg&#229;ende anm&#228;las till Inspektionen
+f&#246;r v&#229;rd och omsorg respektive L&#228;kemedelsverket. Inspektionen
+f&#246;r v&#229;rd och omsorg och L&#228;kemedelsverket ska vid behov
+samverka med varandra. F&#246;rordning (2013:189).
+
+4 a &#167; En v&#228;vnadsinr&#228;ttning som avser att importera m&#228;nskliga 
+v&#228;vnader, celler eller v&#228;vnadsprodukter fr&#229;n tredjeland ska 
+ut&#246;ver uppgifter enligt 4 &#167; &#228;ven l&#228;mna f&#246;ljande uppgifter i 
+ans&#246;kan om tillst&#229;nd att bedriva v&#228;vnadsinr&#228;ttning:
+
+1. den ans&#246;kande enhetens namn och adress, om till&#228;mpligt, 
+
+2. den mottagande anl&#228;ggningens namn och adress, om 
+till&#228;mpligt, 
+
+3. namn och adress p&#229; en leverant&#246;r i ett tredjeland f&#246;r 
+varje typ av v&#228;vnader, celler eller v&#228;vnadsprodukt som ska 
+importeras, 
+
+4. uppgifter om den verksamhet som utf&#246;rs av en leverant&#246;r 
+och underleverant&#246;r i ett tredjeland f&#246;re import, 
+
+5. kopia av det skriftliga avtalet med en leverant&#246;r i ett 
+tredjeland, 
+
+6. en detaljerad fl&#246;desbeskrivning f&#246;r de importerade 
+v&#228;vnaderna, cellerna eller v&#228;vnadsprodukterna fr&#229;n 
+tillvaratagandet till mottagandet av den importerande 
+v&#228;vnadsinr&#228;ttningen, samt 
+
+7. intyg fr&#229;n beh&#246;rig myndighet att leverant&#246;ren har 
+tillst&#229;nd att bedriva verksamhet som r&#246;r m&#228;nskliga v&#228;vnader, 
+celler eller v&#228;vnadsprodukter, inklusive export.
+
+En v&#228;vnadsinr&#228;ttning ska &#228;ven tillhandah&#229;lla och p&#229; beg&#228;ran 
+av den myndighet som utf&#246;r tillst&#229;ndspr&#246;vningen l&#228;mna den 
+dokumentation som anges i avsnitt B i bilagan till denna 
+f&#246;rordning. F&#246;rordning (2017:225).
+
+Intyg 
+
+4 b &#167; Den myndighet som har beviljat ett tillst&#229;nd till 
+import av m&#228;nskliga v&#228;vnader, celler eller v&#228;vnadsprodukter 
+ska utf&#228;rda ett intyg om detta till ber&#246;rd 
+v&#228;vnadsinr&#228;ttning. F&#246;rordning (2017:225).
+
+5 &#167; Inspektionen f&#246;r v&#229;rd och omsorg och L&#228;kemedelsverket ska
+samverka med varandra vid den tillsyn som enligt 15–18 &#167;&#167;
+lagen (2008:286) om kvalitets- och s&#228;kerhetsnormer vid
+hantering av m&#228;nskliga v&#228;vnader och celler r&#246;r inspektion och
+kontroll av v&#228;vnadsinr&#228;ttningar samt vid fr&#229;gor om r&#228;ttelse,
+&#229;terkallelse av tillst&#229;nd och anm&#228;lan om brott enligt
+29–33 &#167;&#167; samma lag. F&#246;rordning (2013:189).
+
+Sp&#229;rbarhet
+
+5 a &#167; Varje inr&#228;ttning som har tillst&#229;nd att bedriva en 
+verksamhet som v&#228;vnadsinr&#228;ttning enligt 9 &#167; lagen (2008:286) 
+om kvalitets- och s&#228;kerhetsnormer vid hantering av m&#228;nskliga 
+v&#228;vnader och celler ska tilldelas en unik kod f&#246;r 
+identifiering (v&#228;vnadsinr&#228;ttningens EU-kod). 
+F&#246;rordning (2016:1127).
+
+5 b &#167; En unik kod f&#246;r identifiering (en enhetlig europeisk 
+kod) ska anv&#228;ndas f&#246;r alla v&#228;vnader och celler som 
+distribueras f&#246;r anv&#228;ndning p&#229; m&#228;nniska. Denna kod ska best&#229; 
+av en sekvens f&#246;r donationsidentifiering och en sekvens f&#246;r 
+produktidentifiering. 
+
+Sekvensen f&#246;r donationsidentifiering ska tilldelas efter det 
+att v&#228;vnaderna och cellerna har tillvaratagits eller n&#228;r de 
+tas emot av en organisation f&#246;r tillvaratagande eller 
+importeras fr&#229;n en leverant&#246;r i tredjeland. 
+
+Sekvensen f&#246;r produktidentifiering ska tilldelas senast innan 
+v&#228;vnaderna och cellerna distribueras f&#246;r anv&#228;ndning p&#229; 
+m&#228;nniska.
+
+F&#246;r v&#228;vnader och celler som frisl&#228;pps f&#246;r anv&#228;ndning och 
+spridning f&#246;r andra &#228;ndam&#229;l &#228;n anv&#228;ndning p&#229; m&#228;nniska, ska 
+sekvensen f&#246;r donationsidentifiering anv&#228;ndas i den 
+medf&#246;ljande dokumentationen. F&#246;rordning (2016:1127).
+
+5 c &#167; Socialstyrelsen f&#229;r meddela f&#246;reskrifter om undantag 
+fr&#229;n 5 b &#167; samt ytterligare f&#246;reskrifter om den enhetliga 
+europeiska kod som avses i 5 b &#167; i fr&#229;ga om s&#229;dan verksamhet 
+som avses i 2 &#167;.
+
+L&#228;kemedelsverket f&#229;r meddela f&#246;reskrifter om undantag fr&#229;n 
+5 b &#167; samt ytterligare f&#246;reskrifter om den enhetliga 
+europeiska kod som avses i 5 b &#167; i fr&#229;ga om s&#229;dan verksamhet 
+som avses i 3 &#167;.
+
+Inspektionen f&#246;r v&#229;rd och omsorg ska tilldela varje 
+v&#228;vnadsinr&#228;ttning en s&#229;dan EU-kod som avses i 5 a &#167;.
+F&#246;rordning (2016:1127).
+
+5 d &#167; Verksamhetschefen vid en v&#228;vnadsinr&#228;ttning ska anm&#228;la 
+om 
+
+1. informationen beh&#246;ver uppdateras eller korrigeras i den 
+EU-f&#246;rteckning &#246;ver v&#228;vnadsinr&#228;ttningar som avses i artikel 
+10 c i kommissionens direktiv 2006/86/EG av den 24 oktober 
+2006 om till&#228;mpning av Europaparlamentets och r&#229;dets direktiv 
+2004/23/EG med avseende p&#229; sp&#229;rbarhetskrav, anm&#228;lan av 
+allvarliga biverkningar och komplikationer samt vissa 
+tekniska krav f&#246;r kodning, bearbetning, konservering, 
+f&#246;rvaring och distribution av m&#228;nskliga v&#228;vnader och celler, 
+i lydelsen enligt kommissionens direktiv (EU) 2015/565,
+
+2. den EU-f&#246;rteckning &#246;ver v&#228;vnader och celler som avses i 
+artikel 10 c i kommissionens direktiv 2006/86/EG, i lydelsen 
+enligt kommissionens direktiv (EU) 2015/565, beh&#246;ver 
+uppdateras, 
+
+3. v&#228;vnader och celler som har tagits emot fr&#229;n andra 
+v&#228;vnadsinr&#228;ttningar i betydande utstr&#228;ckning inte uppfyller 
+kraven p&#229; en s&#229;dan enhetlig europeisk kod som avses i 5 b &#167;. 
+
+Anm&#228;lan ska g&#246;ras till den myndighet som enligt 2 eller 3 &#167; 
+gett anm&#228;lande v&#228;vnadsinr&#228;ttning tillst&#229;nd att bedriva 
+verksamhet. F&#246;rordning (2016:1127).
+
+5 e &#167; Om Inspektionen f&#246;r v&#229;rd och omsorg eller 
+L&#228;kemedelsverket f&#229;r k&#228;nnedom om att uppgifter i den 
+EU-f&#246;rteckning &#246;ver v&#228;vnadsinr&#228;ttningar som avses i artikel 
+10 c i kommissionens direktiv 2006/86/EG, i lydelsen enligt 
+kommissionens direktiv (EU) 2015/565, &#228;r felaktiga i fr&#229;ga om 
+en v&#228;vnadsinr&#228;ttning i en annan medlemsstat ska myndigheten 
+meddela detta till de beh&#246;riga myndigheterna i den ber&#246;rda 
+medlemsstaten.
+
+Om Inspektionen f&#246;r v&#229;rd och omsorg eller L&#228;kemedelsverket 
+konstaterar att kraven f&#246;r den enhetliga europeiska koden som 
+avses i 5 b &#167; i betydande utstr&#228;ckning inte &#228;r uppfyllda i 
+fr&#229;ga om en annan medlemsstat, ska myndigheten meddela detta 
+till de beh&#246;riga myndigheterna i den ber&#246;rda medlemsstaten. 
+
+Om Inspektionen f&#246;r v&#229;rd och omsorg eller L&#228;kemedelsverket 
+bed&#246;mer att den EU-f&#246;rteckning &#246;ver v&#228;vnader och celler som 
+avses i artikel 10 c i kommissionens direktiv 2006/86/EG, i 
+lydelsen enligt kommissionens direktiv (EU) 2015/565, beh&#246;ver 
+uppdateras, ska myndigheten meddela Europeiska kommissionen 
+och &#246;vriga beh&#246;riga myndigheter detta. F&#246;rordning (2016:1127).
+
+Import och export
+
+6 &#167; Socialstyrelsen f&#229;r meddela f&#246;reskrifter om undantag 
+enligt 14 a &#167; lagen (2008:286) om kvalitets- och 
+s&#228;kerhetsnormer vid hantering av m&#228;nskliga v&#228;vnader och 
+celler i fr&#229;ga om s&#229;dan verksamhet som avses i 2 &#167;.
+
+Inspektionen f&#246;r v&#229;rd och omsorg f&#229;r i enskilda fall besluta 
+om undantag enligt 14 a &#167; lagen  om kvalitets- och 
+s&#228;kerhetsnormer vid hantering av m&#228;nskliga v&#228;vnader och 
+celler i fr&#229;ga om s&#229;dan verksamhet som avses i 2 &#167;. 
+Inspektionen f&#229;r ocks&#229; besluta om villkor som ska g&#228;lla i det 
+enskilda fallet.
+
+L&#228;kemedelsverket f&#229;r meddela f&#246;reskrifter och i enskilda fall 
+besluta om undantag enligt 14 a &#167; samma lag i fr&#229;ga om s&#229;dan 
+verksamhet som avses i 3 &#167;. L&#228;kemedelsverket f&#229;r ocks&#229; 
+besluta om villkor som ska g&#228;lla i det enskilda fallet.
+F&#246;rordning (2017:225).
+
+6 a &#167; F&#246;reskrifter eller beslut i enskilda fall om undantag 
+fr&#229;n krav p&#229; tillst&#229;nd till import eller export i n&#246;dl&#228;gen 
+eller f&#246;r omedelbar transplantation f&#229;r meddelas endast om 
+tillr&#228;ckliga s&#228;kerhets- eller kvalitetsnormer &#228;r uppfyllda.
+F&#246;rordning (2017:225).
+
+6 b &#167; Vid eng&#229;ngsimport f&#229;r undantag enligt 6 &#167; medges 
+
+1. fr&#229;n kravet p&#229; skriftligt avtal enligt 13 a &#167; lagen 
+(2008:286) om kvalitets- och s&#228;kerhetsnormer vid hantering av 
+m&#228;nskliga v&#228;vnader och celler, och
+
+2. fr&#229;n kravet att l&#228;mna in de uppgifter som anges i 4 a &#167; 
+5–7 samt i avsnitt B i bilagan till denna f&#246;rordning. 
+
+Undantag vid eng&#229;ngsimport f&#229;r f&#246;reskrivas om eller beslutas 
+i enskilda fall endast om det g&#229;r att s&#228;kerst&#228;lla 
+
+1. sp&#229;rbarhet fr&#229;n givare till mottagare och omv&#228;nt, och
+
+2. att de importerade v&#228;vnaderna, cellerna eller 
+v&#228;vnadsprodukterna endast anv&#228;nds p&#229; de avsedda mottagarna.
+F&#246;rordning (2017:225).
+
+6 c &#167; Undantag fr&#229;n kraven p&#229; en enhetlig europeisk kod i 5 a 
+och 5 b &#167;&#167; denna f&#246;rordning f&#229;r beslutas i enskilda fall 
+enligt 6 &#167; n&#228;r det g&#228;ller
+
+1. i ett n&#246;dl&#228;ge, 
+
+2. vid omedelbar transplantation, eller
+
+3. v&#228;vnader och celler som finns inom samma inr&#228;ttning under 
+alla steg fr&#229;n import till anv&#228;ndning. 
+F&#246;rordning (2017:225).
+
+Anm&#228;lan av &#228;ndringar g&#228;llande en leverant&#246;r i ett 
+tredjeland
+
+6 d &#167; Verksamhetschefen vid en v&#228;vnadsinr&#228;ttning som 
+importerar m&#228;nskliga v&#228;vnader, celler eller v&#228;vnadsprodukter 
+ska utan dr&#246;jsm&#229;l anm&#228;la till den myndighet som utf&#228;rdat 
+tillst&#229;nd att bedriva v&#228;vnadsinr&#228;ttning 
+
+a) varje &#229;terkallande eller upph&#228;vande, helt eller delvis, av 
+den auktorisering som leverant&#246;ren i ett tredjeland har att 
+exportera m&#228;nskliga v&#228;vnader, celler eller v&#228;vnadsprodukter, 
+och 
+
+b) alla andra beslut som den eller de beh&#246;riga myndigheterna 
+i det tredjeland d&#228;r leverant&#246;ren &#228;r etablerad fattar p&#229; 
+grund av bristande efterlevnad och som kan vara relevanta f&#246;r 
+de importerade v&#228;vnadernas, cellernas eller 
+v&#228;vnadsprodukternas kvalitet och s&#228;kerhet. 
+F&#246;rordning (2017:225).
+
+Register
+
+7 &#167; Socialstyrelsen f&#229;r meddela n&#228;rmare f&#246;reskrifter om vilka 
+uppgifter s&#229;dana register som anges i 21 &#167; lagen (2008:286) 
+om kvalitets- och s&#228;kerhetsnormer vid hantering av m&#228;nskliga 
+v&#228;vnader och celler ska inneh&#229;lla i fr&#229;ga om s&#229;dan verksamhet 
+som avses i 2 &#167;.
+
+L&#228;kemedelsverket f&#229;r meddela n&#228;rmare f&#246;reskrifter om vilka 
+uppgifter s&#229;dana register som anges i 21 &#167; lagen om 
+kvalitets- och s&#228;kerhetsnormer vid hantering av m&#228;nskliga 
+v&#228;vnader och celler ska inneh&#229;lla i fr&#229;ga om s&#229;dan verksamhet 
+som avses i 3 &#167;. F&#246;rordning (2016:853).
+
+8 &#167; Socialstyrelsen f&#229;r meddela f&#246;reskrifter om att 
+uppgifterna i det register som anges i 21 &#167; lagen (2008:286) 
+om kvalitets- och s&#228;kerhetsnormer vid hantering av m&#228;nskliga 
+v&#228;vnader och celler ska bevaras under l&#228;ngre tid &#228;n som s&#228;gs 
+d&#228;r i fr&#229;ga om s&#229;dan verksamhet som avses i 2 &#167;.
+
+L&#228;kemedelsverket f&#229;r meddela f&#246;reskrifter om att uppgifterna 
+i det register som anges i 21 &#167; lagen om kvalitets- och 
+s&#228;kerhetsnormer vid hantering av m&#228;nskliga v&#228;vnader och 
+celler ska bevaras under l&#228;ngre tid &#228;n som s&#228;gs d&#228;r i fr&#229;ga 
+om s&#229;dan verksamhet som avses i 3 &#167;. F&#246;rordning (2016:853).
+
+9 &#167; Inspektionen f&#246;r v&#229;rd och omsorgs register enligt 23 &#167;
+lagen (2008:286) om kvalitets- och s&#228;kerhetsnormer vid
+hantering av m&#228;nskliga v&#228;vnader och celler ska inneh&#229;lla
+uppgifter om
+
+1.&#160;v&#228;vnadsinr&#228;ttningens namn och adress,
+
+2.&#160;verksamhetschefens namn och adress,
+
+3.&#160;&#228;ndam&#229;let med verksamheten och dess omfattning, och
+
+4. den verksamhet eller de verksamheter som
+v&#228;vnadsinr&#228;ttningen ska innefatta. F&#246;rordning (2013:189).
+
+10 &#167; L&#228;kemedelsverket ska till Inspektionen f&#246;r v&#229;rd och
+omsorg l&#228;mna de uppgifter som &#228;r n&#246;dv&#228;ndiga f&#246;r att
+inspektionen ska kunna f&#246;ra sitt register enligt 23 &#167; lagen
+(2008:286) om kvalitets- och s&#228;kerhetsnormer vid hantering av
+m&#228;nskliga v&#228;vnader och celler.
+
+L&#228;kemedelsverket och Socialstyrelsen f&#229;r ha direkt&#229;tkomst
+till Inspektionen f&#246;r v&#229;rd och omsorgs register.
+F&#246;rordning (2013:189).
+
+10 a &#167; Inspektionen f&#246;r v&#229;rd och omsorg ska till Europeiska 
+kommissionen l&#228;mna och uppdatera uppgifter till den 
+EU-f&#246;rteckning &#246;ver v&#228;vnadsinr&#228;ttningar som avses i artikel 
+10 c i kommissionens direktiv 2006/86/EG, i lydelsen enligt 
+kommissionens direktiv (EU) 2015/565. Vilka uppgifter som ska 
+l&#228;mnas anges i avsnitt A i bilagan till denna f&#246;rordning.
+
+Uppgifterna ska l&#228;mnas senast tio arbetsdagar efter det att 
+den beh&#246;riga myndigheten har l&#228;mnat skriftligt godk&#228;nnande om 
+v&#228;sentlig f&#246;r&#228;ndring respektive beslut om tillst&#229;nd att 
+bedriva verksamhet vid en v&#228;vnadsinr&#228;ttning.
+F&#246;rordning (2016:1127).
+
+&#197;rsrapporter
+
+10 b &#167; Verksamhetschefen vid en v&#228;vnadsinr&#228;ttning ska till 
+tillst&#229;ndsmyndigheten senast den 15 februari varje &#229;r l&#228;mna 
+in en &#229;rsrapport f&#246;r den verksamhet som bedrivits vid 
+v&#228;vnadsinr&#228;ttningen det f&#246;reg&#229;ende verksamhets&#229;ret och en 
+rapport om anm&#228;lda misst&#228;nkta eller konstaterade allvarliga 
+avvikande h&#228;ndelser och allvarliga biverkningar.
+
+Rapporten om den verksamhet som v&#228;vnadsinr&#228;ttningen bedrivit 
+ska g&#246;ras allm&#228;nt tillg&#228;nglig av tillst&#229;ndsmyndigheten.
+F&#246;rordning (2017:225).
+
+Avgifter
+
+11 &#167; Den som ans&#246;ker om tillst&#229;nd att bedriva en
+v&#228;vnadsinr&#228;ttning enligt 9 &#167; lagen (2008:286) om kvalitets-
+och s&#228;kerhetsnormer vid hantering av m&#228;nskliga v&#228;vnader och
+celler ska betala ans&#246;kningsavgift med 2 000 kr. &#197;rsavgift
+f&#246;r s&#229;dant tillst&#229;nd tas ut av tillst&#229;ndsmyndigheten med
+18 000 kr.
+
+Inspektionen f&#246;r v&#229;rd och omsorg f&#229;r meddela ytterligare
+f&#246;reskrifter om avgifter som inte r&#246;r avgifternas storlek i
+fr&#229;ga om s&#229;dan verksamhet som avses i 2 &#167;.
+
+L&#228;kemedelsverket f&#229;r meddela ytterligare f&#246;reskrifter om
+avgifter som inte r&#246;r avgifternas storlek i fr&#229;ga om s&#229;dan
+verksamhet som avses i 3 &#167;. F&#246;rordning (2013:189).
+
+Ytterligare f&#246;reskrifter
+
+12 &#167; Socialstyrelsen f&#229;r meddela ytterligare f&#246;reskrifter om
+v&#228;vnadsinr&#228;ttningar och hanteringen av m&#228;nskliga v&#228;vnader och
+celler som beh&#246;vs till skydd f&#246;r liv och h&#228;lsa i fr&#229;ga om
+s&#229;dan verksamhet som avses i 2 &#167;.
+
+L&#228;kemedelsverket f&#229;r meddela ytterligare f&#246;reskrifter om
+v&#228;vnadsinr&#228;ttningar och hanteringen av m&#228;nskliga v&#228;vnader och
+celler som beh&#246;vs till skydd f&#246;r liv och h&#228;lsa f&#246;r s&#229;dan
+verksamhet som avses i 3 &#167;. F&#246;rordning (2013:189).
+
+13 &#167; Inspektionen f&#246;r v&#229;rd och omsorg f&#229;r meddela ytterligare 
+f&#246;reskrifter om verkst&#228;lligheten av lagen (2008:286) om 
+kvalitets- och s&#228;kerhetsnormer vid hantering av m&#228;nskliga 
+v&#228;vnader och celler och denna f&#246;rordning i fr&#229;gor som r&#246;r 
+s&#229;dan verksamhet som avses i 2 &#167;.
+
+L&#228;kemedelsverket f&#229;r meddela ytterligare f&#246;reskrifter om 
+verkst&#228;lligheten av lagen om kvalitets- och s&#228;kerhetsnormer 
+vid hantering av m&#228;nskliga v&#228;vnader och celler och denna 
+f&#246;rordning i fr&#229;gor som r&#246;r s&#229;dan verksamhet som avses i 
+3 &#167;. F&#246;rordning (2016:1127).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2016:1127
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 29 april 2017.
+
+2. V&#228;vnader och celler som redan f&#246;rvaras den 29 oktober 2016 
+undantas fr&#229;n kraven avseende den enhetliga europeiska koden, 
+f&#246;rutsatt att v&#228;vnaderna och cellerna &#228;r frisl&#228;ppta f&#246;r 
+anv&#228;ndning och spridning i unionen senast fem &#229;r efter det 
+datumet och p&#229; villkor att fullst&#228;ndig sp&#229;rbarhet s&#228;kerst&#228;lls 
+p&#229; andra s&#228;tt.
+
+2017:225
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 maj 2017 i fr&#229;ga om 
+10 b &#167;, den 30 april 2017 i fr&#229;ga om bilagan och i &#246;vrigt 
+den 29 april 2017. F&#246;rordning (2017:287).
+
+
+Bilaga 
+
+Avsnitt A
+
+Information om v&#228;vnadsinr&#228;ttningen
+
+1. V&#228;vnadsinr&#228;ttningens namn. 
+
+2. V&#228;vnadsinr&#228;ttningens nationella eller internationella kod. 
+
+3. Namn p&#229; den organisation d&#228;r v&#228;vnadsinr&#228;ttningen finns (i 
+f&#246;rekommande fall). 
+
+4. V&#228;vnadsinr&#228;ttningens adress. 
+
+5. Kontaktuppgifter: funktionell e-postadress, telefon och 
+fax. 
+
+Uppgifter om v&#228;vnadsinr&#228;ttningens tillst&#229;nd att bedriva 
+verksamhet
+
+1. Namn p&#229; myndighet som beviljat tillst&#229;nd. 
+
+2. Namn p&#229; myndigheter som ansvarar f&#246;r underh&#229;llet av 
+EU-f&#246;rteckningen &#246;ver v&#228;vnadsinr&#228;ttningar. 
+
+3. Namn p&#229; innehavaren av tillst&#229;ndet (i f&#246;rekommande fall). 
+
+4. V&#228;vnader och celler f&#246;r vilka tillst&#229;ndet beviljats. 
+
+5. Den faktiskt ut&#246;vade verksamhet f&#246;r vilken tillst&#229;ndet 
+beviljats. 
+
+6. Status f&#246;r tillst&#229;ndet (godk&#228;nt, upph&#228;vt, &#229;terkallat, 
+delvis eller helt, frivilligt upph&#246;rande av verksamheten). 
+
+7. Uppgifter om eventuella villkor eller undantag g&#228;llande 
+tillst&#229;ndet (i till&#228;mpliga fall).
+
+Avsnitt B
+
+Dokumentation om v&#228;vnadsinr&#228;ttning som importerar
+
+1. En arbetsbeskrivning f&#246;r den ansvariga personen och 
+uppgifter om hans eller hennes kvalifikationer och utbildning 
+enligt direktiv 2004/23/EG. 
+
+2. En kopia av prim&#228;rf&#246;rpackningens m&#228;rkning, 
+ytterf&#246;rpackningens m&#228;rkning, ytterf&#246;rpackningen och 
+transportbeh&#229;llaren. 
+
+3. En f&#246;rteckning &#246;ver relevanta och aktuella versioner av 
+standardrutiner f&#246;r inr&#228;ttningens importverksamhet, inklusive 
+standardrutiner f&#246;r anv&#228;ndning av den enhetliga europeiska 
+koden, mottagande och f&#246;rvaring av de importerade v&#228;vnaderna 
+och cellerna vid den importerande v&#228;vnadsinr&#228;ttningen, 
+hantering av komplikationer och biverkningar, hantering av 
+&#229;terkallanden samt sp&#229;rbarhet fr&#229;n givare till mottagare. 
+
+Dokumentation om leverant&#246;r i tredjeland
+
+1. En detaljerad beskrivning av de kriterier som anv&#228;nds f&#246;r 
+identifiering och utv&#228;rdering av givare, den information som 
+l&#228;mnas till givaren eller givarens familj, hur samtycke 
+erh&#229;lls fr&#229;n givaren eller givarens familj och om donationen 
+var frivillig och obetald eller inte. 
+
+2. Detaljerad information om det eller de centrum f&#246;r 
+kontroll som anv&#228;nds av leverant&#246;rerna i tredjeland och de 
+kontroller som genomf&#246;rs av dessa centrum. 
+
+3. Detaljerad information om de metoder som anv&#228;nds vid 
+bearbetning av v&#228;vnader och celler, inklusive uppgifter om 
+valideringen av den kritiska bearbetningsmetoden. 
+
+4. En detaljerad beskrivning av de anl&#228;ggningar, den kritiska 
+utrustning, de kritiska material och de kriterier som anv&#228;nds 
+f&#246;r kvalitetskontroll och kontroll av milj&#246;n f&#246;r varje 
+verksamhet som leverant&#246;ren i tredjeland bedriver. 
+
+5. Detaljerad information om villkoren f&#246;r 
+tredjelandsleverant&#246;rens eller leverant&#246;rernas frisl&#228;ppande 
+av v&#228;vnader och celler. 
+
+6. Uppgifter om eventuella underleverant&#246;rer till 
+leverant&#246;rer i tredjeland, bl.a. namn, plats och verksamhet. 
+
+7. En sammanfattning av den senaste inspektion av 
+leverant&#246;ren i tredjeland som gjorts av beh&#246;rig myndighet i 
+det tredjelandet, inklusive inspektionsdatum, typ av 
+inspektion och viktigaste slutsatser. 
+
+8. En sammanfattning av den senaste revision av leverant&#246;ren 
+i tredjeland som gjorts av den importerande 
+v&#228;vnadsinr&#228;ttningen eller f&#246;r dennas r&#228;kning. 
+
+9. Relevant nationell eller internationell ackreditering.
+F&#246;rordning (2017:225).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1976">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1978">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

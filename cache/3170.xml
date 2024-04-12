@@ -1,0 +1,592 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-18" /> 
+ <meta id="rattsinfo-edited" content="2023-01-18 15:15:34" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3170</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3169">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3171">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1994:1830 ·
+                    <a href="/sfsr?bet=1994:1830">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1994:1830) om inf&#246;rsel av levande djur m.m.</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1994-12-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:256
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1995-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning har till syfte att 
+
+1. f&#246;rebygga att smittsamma eller &#228;rftliga djursjukdomar 
+kommer in i landet och f&#229;r ytterligare spridning h&#228;r, 
+
+2. f&#246;rhindra en inplantering av utl&#228;ndska djurarter som &#228;r 
+skadlig f&#246;r landets fauna, och
+
+3. tillgodose djurskyddsintresset.
+
+F&#246;rordningen ska inte till&#228;mpas vid s&#229;dan f&#246;rflyttning av djur 
+fr&#229;n Finland eller Norge som g&#246;rs i anledning av rensk&#246;tseln 
+och sker enligt internationella &#246;verenskommelser, utom n&#228;r det 
+g&#228;ller f&#246;rebyggande av smittsamma djursjukdomar vid inf&#246;rsel 
+enligt Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2016/429 
+av den 9 mars 2016 om &#246;verf&#246;rbara djursjukdomar och om &#228;ndring 
+och upph&#228;vande av vissa akter med avseende p&#229; djurh&#228;lsa 
+(&quot;djurh&#228;lsolag&quot;). F&#246;rordning (2021:256).
+
+1 a &#167; Statens jordbruksverk ska, om inte annat anges i andra 
+stycket, utf&#246;ra de uppgifter som 
+
+1. en medlemsstat har enligt artiklarna 5.3, 5.4, 24.1, 27, 
+34.3, 34.4, 37.1 och 37.3 i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) nr 576/2013 av den 12 juni 2013 om 
+f&#246;rflyttning av s&#228;llskapsdjur utan kommersiellt syfte och om 
+upph&#228;vande av f&#246;rordning (EG) nr 998/2003,
+
+2. en beh&#246;rig myndighet har enligt f&#246;rordning (EU) nr 576/2013 
+om inte annat f&#246;ljer av 10 &#167;,
+
+3. en beh&#246;rig myndighet har enligt Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2017/625 av den 15 mars 2017 om 
+offentlig kontroll och annan offentlig verksamhet f&#246;r att 
+s&#228;kerst&#228;lla till&#228;mpningen av livsmedels- och 
+foderlagstiftningen och av best&#228;mmelser om djurs h&#228;lsa och 
+djurskydd, v&#228;xtskydd och v&#228;xtskyddsmedel samt om &#228;ndring av 
+Europaparlamentets och r&#229;dets f&#246;rordningar (EG) nr 999/2001, 
+(EG) nr 396/2005, (EG) nr 1069/2009, (EG) nr 1107/2009, (EU) 
+nr 1151/2012, (EU) nr 652/2014, (EU) 2016/429 och (EU) 
+2016/2031, r&#229;dets f&#246;rordningar (EG) nr 1/2005 och (EG) nr 
+1099/2009 och r&#229;dets direktiv 98/58/EG, 1999/74/EG, 
+2007/43/EG, 2008/119/EG och 2008/120/EG och om upph&#228;vande av 
+Europaparlamentets och r&#229;dets f&#246;rordningar (EG) nr 854/2004 
+och (EG) nr 882/2004, r&#229;dets direktiv 89/608/EEG, 89/662/EEG, 
+90/425/EEG, 91/496/EEG, 96/23/EG, 96/93/EG och 97/78/EG samt 
+r&#229;dets beslut 92/438/EEG (f&#246;rordningen om offentlig kontroll), 
+och som faller inom till&#228;mpningsomr&#229;det f&#246;r den h&#228;r 
+f&#246;rordningen, 
+
+4. en beh&#246;rig myndighet har enligt f&#246;rordning (EU) 2016/429, 
+och som faller inom till&#228;mpningsomr&#229;det f&#246;r den h&#228;r 
+f&#246;rordningen, och
+
+5. en medlemsstat har enligt artiklarna 128, 139.3, 153.3, 
+220.3 och 262.1 b i f&#246;rordning (EU) 2016/429.
+
+Best&#228;mmelser om offentlig kontroll av produkter av animaliskt 
+ursprung som f&#246;rs in i Europeiska unionen finns i f&#246;rordningen 
+(2006:812) om offentlig kontroll av livsmedel som importeras 
+fr&#229;n ett tredjeland.
+
+Innan Jordbruksverket fattar beslut som avser f&#246;rflyttning av 
+ren enligt artikel 128 i f&#246;rordning (EU) 2016/429 ska 
+myndigheten ge Sametinget tillf&#228;lle att yttra sig.
+F&#246;rordning (2021:256).
+
+1 b &#167; Jordbruksverket f&#229;r meddela tillst&#229;nd f&#246;r
+f&#246;rflyttningar i enlighet med undantagsbest&#228;mmelserna i
+artiklarna 7.1, 10.3, 11.1 och 32.1 i f&#246;rordning (EU) nr
+576/2013. F&#246;rordning (2014:1380).
+
+1 c &#167; N&#228;r djur, avelsmaterial eller produkter av animaliskt 
+ursprung f&#246;rs in fr&#229;n ett tredjeland eller ett territorium 
+till&#228;mpas kraven i artikel 229-239 i f&#246;rordning (EU) 2016/429.
+F&#246;rordning (2021:256).
+
+1 d &#167; Jordbruksverket f&#229;r ing&#229; s&#229;dana internationella 
+&#246;verenskommelser som avses i artikel 139.2 i f&#246;rordning (EU) 
+2016/429. Detta g&#228;ller dock inte om &#246;verenskommelsen kr&#228;ver 
+riksdagens eller Utrikesn&#228;mndens medverkan.
+
+Innan Jordbruksverket ing&#229;r &#246;verenskommelser som avser 
+f&#246;rflyttning av ren enligt artikel 139.2 i f&#246;rordning (EU) 
+2016/429 ska myndigheten ge Sametinget tillf&#228;lle att yttra 
+sig. F&#246;rordning (2021:256).
+
+Officiell veterin&#228;r
+
+2 &#167; Jordbruksverket f&#229;r f&#246;rordna officiell veterin&#228;r att utf&#246;ra
+kontroller av djur och vissa andra varor.
+
+Jordbruksverkets befogenhet att besluta i enskilda fall enligt
+f&#246;rordningen eller enligt f&#246;reskrifter som meddelats med st&#246;d
+av f&#246;rordningen f&#229;r verket helt eller delvis &#246;verl&#229;ta p&#229;
+officiell veterin&#228;r. F&#246;rordning (2004:682).
+
+Inf&#246;rseltillst&#229;nd och inf&#246;rself&#246;rbud
+
+3 &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om krav p&#229;
+s&#228;rskilt tillst&#229;nd och om andra villkor f&#246;r inf&#246;rsel av djur,
+produkter av djur, sjukdomsalstrande organismer, h&#246;, halm och
+annat material som anv&#228;nds vid hantering av djur.
+
+Verket f&#229;r vidare meddela f&#246;reskrifter om inf&#246;rself&#246;rbud f&#246;r
+s&#229;dana djur och produkter av djur som f&#246;r att hindra spridning
+av smittsamma djursjukdomar inte f&#229;r f&#246;rflyttas enligt
+s&#228;rskilda beslut meddelade av Europeiska unionen.
+
+Verket f&#229;r ocks&#229; meddela f&#246;reskrifter om
+registreringsskyldighet f&#246;r den som f&#246;r in djur och
+djurprodukter i landet.
+
+Innan Jordbruksverket fattar beslut i ett &#228;rende om tillst&#229;nd
+att f&#246;ra in djur f&#246;r utplantering ska verket h&#246;ra
+
+1. Havs- och vattenmyndigheten, om &#228;rendet g&#228;ller fisk,
+fiskrom, bl&#246;tdjur, kr&#228;ftdjur och andra akvatiska djurslag
+eller &#228;gg fr&#229;n s&#229;dana djurslag, och
+
+2. Naturv&#229;rdsverket, om &#228;rendet g&#228;ller andra djurslag eller
+&#228;gg &#228;n s&#229;dana som avses i 1. F&#246;rordning (2011:647).
+
+3 a &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om 
+
+1. s&#229;dana tillst&#229;nd till inf&#246;rsel som avses i artiklarna 128 
+och 138 i f&#246;rordning (EU) 2016/429,
+
+2. undantag fr&#229;n krav vid inf&#246;rsel enligt artikel 139.1 i 
+f&#246;rordning (EU) 2016/429,
+
+3. inf&#246;rsel av avelsmaterial enligt artikel 158 i f&#246;rordning 
+(EU) 2016/429,
+
+4. undantag fr&#229;n de krav f&#246;r f&#246;rflyttning fr&#229;n en annan EU-
+medlemsstat av vattenbruksdjur som framg&#229;r av artikel 197.1 
+och 197.2 i f&#246;rordning (EU) 2016/429 i enlighet med 
+artikel 198 i samma f&#246;rordning,
+
+5. krav enligt artikel 199 i f&#246;rordning (EU) 2016/429, n&#228;r det 
+g&#228;ller f&#246;rflyttning fr&#229;n en annan EU-medlemsstat till Sverige, 
+p&#229; att vattenlevande djur endast s&#228;tts ut i naturen om de 
+kommer fr&#229;n en medlemsstat, zon eller anl&#228;ggningskrets som 
+f&#246;rklarats sjukdomsfri,
+
+6. riskreducerande &#229;tg&#228;rder i enlighet med artikel 200.3 
+f&#246;rordning (EU) 2016/429, n&#228;r det g&#228;ller f&#246;rflyttning fr&#229;n en 
+annan EU-medlemsstat till Sverige, och
+
+7. undantag fr&#229;n kravet i artikel 220.1 i f&#246;rordning (EU) 
+2016/429 p&#229; anm&#228;lan av f&#246;rflyttningar av vattenlevande djur 
+genom en beh&#246;rig myndighet i enlighet med artikel 220.4 i 
+samma f&#246;rordning.
+
+Innan Jordbruksverket meddelar f&#246;reskrifter som kan komma att 
+p&#229;verka milj&#246;n i sj&#246;ar, vattendrag eller hav ska myndigheten 
+ge Havs- och vattenmyndigheten tillf&#228;lle att yttra sig.
+
+Innan Jordbruksverket meddelar f&#246;reskrifter som avser 
+f&#246;rflyttning av ren enligt f&#246;rsta stycket 1 och 2 ska 
+myndigheten ge Sametinget tillf&#228;lle att yttra sig.
+F&#246;rordning (2021:256).
+
+3 b &#167; Jordbruksverket ska, vid behov, g&#246;ra en s&#229;dan beg&#228;ran 
+till kommissionen om n&#246;d&#229;tg&#228;rder som avses i artikel 261.1 i 
+f&#246;rordning (EU) 2016/429. F&#246;rordning (2021:256).
+
+4 &#167; Inf&#246;rsel av djur och produkter av djur fr&#229;n ett land utanf&#246;r
+Europeiska unionen &#228;r inte till&#229;ten om djuren eller
+djurprodukterna
+
+1. kommer fr&#229;n ett omr&#229;de fr&#229;n vilket inf&#246;rsel inte f&#229;r ske till
+Europeiska unionen,
+
+2. omfattas av ett inf&#246;rself&#246;rbud enligt s&#228;rskilt beslut inom
+Europeiska unionen,
+
+3. transporten inte uppfyller svenska djurskyddsbest&#228;mmelser.
+
+Inf&#246;rselkontroll
+
+5 &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om hur kontrollen
+skall genomf&#246;ras vid inf&#246;rsel av djur och varor.
+
+6 &#167; Inf&#246;rsel fr&#229;n land utanf&#246;r Europeiska unionen av djur eller
+varor som avses i 3 &#167; f&#246;rsta stycket f&#229;r ske endast p&#229; de platser som
+Jordbruksverket f&#246;reskriver.
+
+7 &#167; Vid inf&#246;rsel fr&#229;n land utanf&#246;r Europeiska unionen av levande
+djur f&#229;r djuren inte lastas ur utan medgivande av en officiell
+veterin&#228;r.
+
+8 &#167; Om gods m&#229;ste lastas ur p&#229; annan plats eller p&#229; annat
+s&#228;tt &#228;n som f&#246;reskrivs i f&#246;rordningen eller i f&#246;reskrifter
+som meddelats med st&#246;d av f&#246;rordningen, ska Tullverket eller
+Polismyndigheten beg&#228;ra besked hos en officiell veterin&#228;r om
+vilka &#229;tg&#228;rder som ska vidtas i avvaktan p&#229; Jordbruksverkets
+beslut om vad man ska g&#246;ra med godset. Om det &#228;r n&#246;dv&#228;ndigt
+ska veterin&#228;ren besikta platsen. F&#246;rordning (2014:1235).
+
+9 &#167; Vid inf&#246;rsel fr&#229;n land inom Europeiska unionen av djur och
+produkter av djur f&#229;r en transport stoppas under f&#228;rd till
+destinationsorten om
+
+1. det finns s&#228;rskild anledning att misst&#228;nka f&#246;rekomst av smittsam
+sjukdom,
+
+2. det finns anledning att misst&#228;nka att djuret eller djurprodukten
+p&#229; annat s&#228;tt utg&#246;r en allvarlig h&#228;lsorisk f&#246;r m&#228;nniskor eller djur,
+
+3. medf&#246;ljande dokument &#228;r ofullst&#228;ndiga, felaktiga eller saknas
+helt, eller
+
+4. de villkor som g&#228;ller f&#246;r inf&#246;rsel till landet inte &#228;r uppfyllda.
+
+10 &#167; Tullverket ska &#246;vervaka att inf&#246;rsel sker enligt denna 
+f&#246;rordning och de f&#246;reskrifter som meddelats med st&#246;d av denna 
+f&#246;rordning samt enligt f&#246;rordning (EU) nr 576/2013. 
+
+Tullverket ska utf&#246;ra de uppgifter som 
+
+1. en medlemsstat har enligt artikel 33.1 i f&#246;rordning (EU) nr 
+576/2013, 
+
+2. en beh&#246;rig myndighet har enligt artiklarna 33.2 och 34.1 i 
+f&#246;rordning (EU) nr 576/2013, och
+
+3. en tullmyndighet har enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2017/625. F&#246;rordning (2019:702).
+
+&#197;tg&#228;rder vid v&#228;grad inf&#246;rsel
+
+11 &#167; Om inf&#246;rsel inte &#228;r till&#229;ten p&#229; grund av meddelade f&#246;rbud eller
+d&#228;rf&#246;r att villkoren f&#246;r inf&#246;rseln inte &#228;r uppfyllda, skall
+Jordbruksverket best&#228;mma vad som skall g&#246;ras med godset. Till dess
+Jordbruksverket meddelat sitt beslut f&#229;r godset inte lossas eller
+l&#228;mnas ut. I avvaktan p&#229; Jordbruksverkets beslut f&#229;r officiell
+veterin&#228;r best&#228;mma hur levande djur skall tas om hand.
+F&#246;rordning (1996:223).
+
+12 &#167; Om det &#228;r n&#246;dv&#228;ndigt f&#246;r att f&#246;rebygga djursjukdom, f&#229;r
+Jordbruksverket i fr&#229;ga om varor som avses i 3 &#167; f&#246;rsta stycket och i
+fr&#229;ga om levande v&#228;xter, potatis, rotfrukter, uts&#228;desvaror,
+vegetabiliska fodermedel och sp&#229;nads&#228;mnen meddela f&#246;reskrifter
+om desinfektion av varor, emballage, f&#246;rvaringsk&#228;rl och
+transportmedel.
+
+13 &#167; I fr&#229;ga om r&#228;tten att hantera of&#246;rtullade varor som inte f&#229;r
+f&#246;ras in i landet g&#228;ller lagen (1973:980) om transport, f&#246;rvaring och
+f&#246;rst&#246;ring av inf&#246;rselreglerade varor m. m., om inte n&#229;got annat
+f&#246;ljer av f&#246;rordningen eller f&#246;reskrifter som meddelats med st&#246;d av
+f&#246;rordningen.
+
+Jordbruksverket f&#229;r meddela f&#246;reskrifter om begr&#228;nsning av r&#228;tten
+att hantera of&#246;rtullade varor.
+
+14 &#167; Har upph&#228;vts genom f&#246;rordning (2021:256).
+
+15 &#167; Har upph&#228;vts genom f&#246;rordning (2021:256).
+
+Avgifter m. m.
+
+16 &#167; Jordbruksverket kan meddela f&#246;reskrifter med st&#246;d av
+f&#246;rordningen (1994:1313) om avgifter vid veterin&#228;r
+yrkesut&#246;vning om ers&#228;ttning f&#246;r besiktning eller annan
+f&#246;rr&#228;ttning som utf&#246;rs enligt denna f&#246;rordning eller enligt
+f&#246;reskrifter som meddelats med st&#246;d av f&#246;rordningen.
+
+Kostnader f&#246;r &#229;tg&#228;rder enligt f&#246;rordningen eller enligt
+f&#246;reskrifter som meddelats med st&#246;d av f&#246;rordningen eller
+enligt f&#246;rordning (EU) nr 576/2013 ska betalas av den som
+vill f&#246;ra in djur eller produkter av djur i landet eller av
+den som &#228;ger eller ansvarar f&#246;r transportmedel som anv&#228;nds
+vid inf&#246;rseln.
+
+Kostnaden f&#246;r stickprovskontroll ska betalas av statsmedel.
+F&#246;rordning (2014:1380).
+
+17 &#167; Om ett djur avlivas till f&#246;ljd av best&#228;mmelser i f&#246;rordningen
+eller f&#246;reskrifter som meddelats med st&#246;d av f&#246;rordningen, l&#228;mnas
+inte n&#229;gon ers&#228;ttning av statsmedel f&#246;r djurets v&#228;rde.
+
+18 &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om avgifter
+f&#246;r
+
+1. registrering och tillst&#229;nd enligt 3 &#167; denna f&#246;rordning
+eller enligt f&#246;rordning (EU) nr 576/2013, och
+
+2. tillhandah&#229;llande av pass som avses i f&#246;rordning (EU) nr
+576/2013. F&#246;rordning (2014:1380).
+
+18 a &#167; Har upph&#228;vts genom f&#246;rordning (2014:1380).
+
+&#214;verklagande
+
+19 &#167; En officiell veterin&#228;rs beslut enligt denna 
+f&#246;rordning eller enligt f&#246;reskrifter som har meddelats med 
+st&#246;d av f&#246;rordningen f&#229;r &#246;verklagas till Jordbruksverket.
+
+I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser om 
+&#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol.
+
+Beslut enligt denna f&#246;rordning g&#228;ller omedelbart om inte 
+n&#229;got annat best&#228;ms. Detsamma g&#228;ller beslut enligt 
+f&#246;reskrifter som har meddelats med st&#246;d av denna f&#246;rordning 
+och beslut enligt f&#246;rordning (EU) nr 576/2013.
+F&#246;rordning (2018:965).
+
+Ansvarsbest&#228;mmelser m. m.
+
+20 &#167; Best&#228;mmelser om p&#229;f&#246;ljd f&#246;r olovlig inf&#246;rsel av djur eller
+produkter av djur och f&#246;r f&#246;rs&#246;k d&#228;rtill finns i lagen
+(2000:1275) om straff f&#246;r smuggling. I fr&#229;ga om beslagtaget
+gods skall de f&#246;rsiktighetsm&#229;tt iakttas som Jordbruksverket
+efter anm&#228;lan av Tullverket anser n&#246;dv&#228;ndiga.
+
+Den som upps&#229;tligen eller av oaktsamhet bryter mot en
+f&#246;reskrift som har meddelats med st&#246;d av denna f&#246;rordning d&#246;ms
+till b&#246;ter, om inte g&#228;rningen &#228;r belagd med straff i lagen om
+straff f&#246;r varusmuggling. F&#246;rordning (2000:1275).
+
+21 &#167; Ytterligare f&#246;reskrifter om verkst&#228;lligheten av f&#246;rordningen f&#229;r
+beslutas av Jordbruksverket. Om det d&#229; uppkommer n&#229;gon fr&#229;ga
+som ber&#246;r en annan myndighet, skall Jordbruksverket samr&#229;da
+med den myndigheten.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1994:1830
+
+Denna f&#246;rordning tr&#228;der i kraft den dag lagen (1994:1500) med
+anledning av Sveriges anslutning till Europeiska unionen tr&#228;der i
+kraft.
+
+Genom f&#246;rordningen upph&#228;vs veterin&#228;ra inf&#246;rselkung&#246;relsen
+(1958:551).
+
+I fr&#229;ga om beslut som har meddelats f&#246;re ikrafttr&#228;dandet g&#228;ller
+&#228;ldre best&#228;mmelser.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3169">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3171">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

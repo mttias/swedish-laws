@@ -1,0 +1,801 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2017-02-07" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4609</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4608">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4610">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1736:0123 1 ·
+                    <a href="/sfsr?bet=1736:0123 1">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Byggningabalk (1736:0123 1)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1736-01-23
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 1981:426
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 kap. har upph&#228;vts genom f&#246;rordning (1926:327).
+
+2 kap. Huru &#229; tomt byggas
+
+1 &#167; Tomt skall byggas till mang&#229;rd och ladug&#229;rd. I mang&#229;rden skola vara
+stuga med f&#246;rstuga och kammare, s&#229; ock g&#228;ststuga, d&#228;r g&#229;rden s&#229; stor &#228;r,
+k&#228;llare, visthus och s&#228;desbod, redskapshus, och hemligt hus, port och
+lider. Tarvar bonde flera hus; bygge sig till l&#228;genhet det b&#228;sta han
+gitter. Ladug&#229;rden bygges s&#228;rskilt ifr&#229;n mang&#229;rden, och d&#228;r skola vara
+stall, f&#228;hus, f&#229;rhus, och svinhus, med n&#246;diga forderrum, s&#229; ock loge och
+lador, efter som g&#229;rden &#228;r stor till. (Badstuva eller m&#228;lthus skall ock
+byggas,) s&#229; ock ria, d&#228;r skog &#228;r, och de avsides s&#228;ttas. Ej m&#229; n&#229;gon
+n&#228;rmare till grannens tomt bygga, &#228;n att han till st&#246;dje eller stolparum
+en och en halv aln &#229; sin tomt l&#228;mnar.
+
+2 &#167; Bygger n&#229;gon annan till men; rive det upp, d&#229; han varder d&#228;rom
+tillsagd. G&#246;r han det ej; b&#246;te tre daler, och g&#228;lde skadan &#229;ter, d&#229;
+d&#228;r&#246;ver klagas &#229; tinget.
+
+3 &#167; Nu haver bonde byggt hus, efter ty, som sagt &#228;r; d&#229; &#228;ger han dem vid
+makt h&#229;lla. Brister n&#229;got i h&#228;vd eller byggnad; b&#228;ttre och b&#246;te, som i
+27 kap. skils.
+
+4 &#167; Rives eller brinner en g&#229;rd i by, d&#228;r b&#246;nder varannan f&#246;r n&#228;r byggt
+hava; d&#229; skola byam&#228;n f&#246;r den g&#229;rd utse annan tom, j&#228;mngod och lika stor
+av oskifto, om l&#228;genhet d&#228;r till &#228;r, och ligge den f&#246;rra till byamark
+igen.
+
+3 kap. Om &#246;desby
+
+1 &#167; &#196;r by &#246;de, d&#228;r flera hemman &#228;ro, och vill en sitt upptaga, och de
+andre vilja ej bygga eller t&#228;ppa med honom; n&#228;mne d&#229; h&#228;radsh&#246;vding n&#229;gra
+av n&#228;mnden, som dit fara, och l&#228;gga hoonm till s&#229; mycket av &#228;gorna, som
+emot dess hemman svarar, och b&#228;st h&#228;gnas och h&#228;vdas kan.
+
+2 &#167; Nu haver han sin del uppbrukat och avr&#246;jt i &#229;ker och &#228;ng och vilja
+de andre sedan nyttja var sin &#228;godel; bruke d&#229; upp och r&#246;dje, som han
+gjort. Och n&#228;r de alla uppbrukat och b&#228;ttrat sina delar som han; njute
+d&#229; genom skifte var sin lott i &#229;ker, &#228;ng och alla &#228;gor, som f&#246;rr &#228;r
+sagt. Tager n&#229;gon annorledes del i by; b&#246;te, som i 10 kap. arskils.
+
+4 kap. Huru v&#228;gar (och diken) i by l&#228;ggas skola, och vad
+tiill&#246;kning den njuta skall, som sin &#229;ker d&#228;rvid f&#229;r
+
+1 &#167; Farv&#228;g till och ifr&#229;n by, s&#229; ock till &#229;ker och &#228;ng, kyrka och kvarn
+b&#246;r l&#228;ggas av oskifto, (sex alnar bred,) och dess utom (tv&#229; alnar) &#229;
+varadera sidan till dike, om s&#229; tarvas. (Allm&#228;n landsv&#228;g skall vara tio
+alnar bred emellan diken; d&#228;r landsv&#228;g redan tolv alnar bred &#228;r, varde
+den s&#229; vid makt h&#229;llen.)
+
+2 &#167; (Avloppsdike b&#246;r l&#228;ggas av oskift mark, fyra och en halv aln brett,
+tv&#229; alnar djupt och en halv aln p&#229; botten, eller mera, allt som n&#246;digt
+&#228;r och l&#228;genhet d&#228;rtill finnes; och den sin &#229;ker d&#228;rvid f&#229;r, njute en
+aln till ren utom byam&#229;l.) Samma lag vare, d&#228;r v&#228;g eller g&#228;rdesg&#229;rd &#229;ker
+m&#246;ter. G&#229;r v&#228;g (eller dike) vid &#228;ngsvall; d&#228;r gives ingen till&#246;kning.
+(Tarvar dike l&#228;ggas emellan grannars &#229;krar; d&#229; g&#229;nge halvt dike &#229;
+varderas &#229;ker. Vid &#228;ndan f&#246;r &#229;ker, dike var av sitt.)
+
+5 kap. har upph&#228;vts genom f&#246;rordning (1933:269).
+
+6 kap. Huru &#229;ker och &#228;ng skola h&#228;vdas och &#246;kas, g&#228;rdesg&#229;rdar
+st&#228;ngas, och diken gr&#228;vas
+
+7 kap. upph&#228;vd genom f&#246;rordning (1860:56 s.3).
+
+8 kap. Om &#229;verkan i &#229;ker och &#228;ng
+
+1 &#167; Sk&#228;r eller sl&#229;r n&#229;gon in p&#229; sin grannes &#229;ker eller &#228;ngsteg; g&#228;lde
+&#229;ter s&#228;d mot s&#228;d, och h&#246; mot h&#246;; b&#246;te ock f&#246;r &#229;verkan &#229; varje teg en
+daler.
+
+2 &#167; S&#229;r n&#229;gon &#229; annans &#229;kerskifte; tage han gr&#246;dan, som skiftet &#228;ger.
+B&#228;rgar han som s&#229;dde; b&#246;te en daler, och give ut det han inf&#246;rt haver.
+
+3 &#167; Intager n&#229;gon sin grannes &#228;godel och skifte; b&#246;te tre daler och
+bryte sj&#228;lv upp.
+
+Bryter han ej upp, d&#229; han d&#228;rom varnad bliver; ligge det i tveb&#246;te.
+Intager han annans del med sj&#228;lva r&#229;m&#228;rket; b&#246;te sex daler, och bryte
+sammanledes sj&#228;lv upp, eller b&#246;te dubbelt. Haver han r&#229;m&#228;rket vridit,
+&#228;ndrat, borttagit eller h&#246;ljt; plikte som sagt &#228;r i jordabalkens 13 kap.
+
+4 &#167; Kastar n&#229;gon i annans &#229;ker, landhavra, snarbindel, sk&#228;rvfr&#246;, eller
+annat vad det helst &#228;r, att ogr&#228;s d&#228;rav v&#228;xa m&#229;; vare &#228;gel&#246;s, r&#228;tte upp
+all skada, och b&#246;te femtio daler f&#246;r var &#229;ker, som han s&#229; f&#246;rd&#228;rva
+velat: orkar han ej skadan fylla; tj&#228;ne den av med arbete.
+
+5 &#167; Landbo m&#229; ej l&#229;ta annan nyttja och bruka n&#229;gon av g&#229;rdens &#228;gor, vid
+bot tio daler, utan jord&#228;garen giver d&#228;r lov till.
+
+9 kap. Huru skada skall g&#228;ldas, som f&#228; g&#246;r i annans &#228;gor, s&#229; ock
+huru f&#228; intagas m&#229;
+
+1 &#167; upph&#228;vd genom f&#246;rordning (1933:269).
+
+2 &#167; upph&#228;vd genom f&#246;rordning (1933:269).
+
+3 &#167; upph&#228;vd genom f&#246;rordning (1933:269).
+
+4 &#167; upph&#228;vd genom f&#246;rordning (1933:269).
+
+5 &#167; Bryter n&#229;gon g&#228;rdesg&#229;rd eller led neder, och sker skada d&#228;rigenom av
+f&#228;; b&#246;te som i 5 kap. sagt &#228;r, och g&#228;lde skadan &#229;ter. Far n&#229;gon genom
+led eller grind, och den icke st&#228;nger efter sig; b&#246;te en daler, &#228;nd&#229; att
+ingen skada sker.
+
+6 &#167; upph&#228;vd genom f&#246;rordning (1933:269).
+
+7 &#167; upph&#228;vd genom f&#246;rordning (1933:269).
+
+8 &#167; upph&#228;vd genom f&#246;rordning (1933:269).
+
+9 &#167; upph&#228;vd genom f&#246;rordning (1933:269).
+
+10 kap. Huru bys oskifte &#228;gor i skog och mark m&#229; nyttjas eller
+intagas; s&#229; ock om &#229;verkan &#229; oskift, eller annans mans skog och mark
+
+1 &#167; I oskift skog och mark m&#229; alla jord&#228;gare i by taga torv, n&#228;ver, ved,
+timmer, g&#228;rdsel, l&#246;v och annat, som till hus och g&#229;rd tarvas, men ej
+f&#246;ra det av bole, eller &#229;t annan s&#228;lja eller uppl&#229;ta. Var som h&#228;r emot
+g&#246;r; b&#246;te f&#246;r timmer eller s&#229;gstock sexton &#246;re, f&#246;r vart lass av det
+andra sexton &#246;re, och f&#246;r mans b&#246;rda fyra &#246;re: betale ock dessutom till
+de andra jord&#228;gare s&#229; mycket, som p&#229; deras del av v&#228;rdet l&#246;per. &#196;ger man
+jord i tvenne byar; nyttje ej den ena byns oskifta skog eller mark till
+annan by, vid samma bot. S&#228;ljer n&#229;gon av bys oskifta &#228;gor och mark,
+sedan skifte lagligen beg&#228;rt &#228;r; b&#246;te, som s&#228;gs i 5 &#167;.
+
+2 &#167; Torv m&#229; ej sk&#228;ras &#229; oskift mark, som till &#228;ng tj&#228;nar, vid bot, som i
+1 &#167; sagt &#228;r. Ej m&#229; ock tr&#228;d f&#228;llas, eller topphuggas till l&#246;v och n&#228;ver,
+utan fl&#229;s och kvistas.
+
+3 &#167; Mastetr&#228; m&#229; ingen hugga p&#229; krono&#228;gor, utan Konungens
+befallningshavandes lov. G&#246;r det n&#229;gon; betale dess v&#228;rde, och b&#246;te
+femtio daler. Finnes mastetr&#228; p&#229; skattejord; det m&#229; ej huggas eller
+s&#228;ljas, f&#246;rr&#228;n det kronan hembudet &#228;r, vid samma bot.
+
+4 &#167; Vill jord&#228;gare i by intaga n&#229;got det oskift &#228;r; s&#228;ge d&#229; alla byam&#228;n
+till. Vilja de ej st&#228;nga och h&#228;vda med honom; s&#246;ke d&#229; r&#228;tten om laga
+skifte, och njute var sin del i allt, som skiftas kan. Var som
+annorlunda intager och nyttjar; vare f&#246;rverkat sitt arbete och det &#229;rets
+gr&#246;da till de andra jord&#228;gare, och b&#246;te fem daler f&#246;r det han s&#229; intagit
+och h&#228;vdat haver. Samma lag vare, d&#228;r skog och mark ligger odelad flera
+byar emellan.
+
+5 &#167; Tager n&#229;gon torv, n&#228;ver, l&#246;v, bast, eller hugger ved, g&#228;rdsel, st&#246;r,
+timmer, eller vad det helst &#228;r, &#229; den bys &#228;gor, d&#228;r i han sj&#228;lv ingen
+del haver, eller &#229; annans avdelta och enskilda skog i den by han del
+&#228;ger; betale v&#228;rdet f&#246;r det han tagit, och b&#246;te dubbelt emot det som i 1 &#167;
+sagt &#228;r. Have ock domaren makt, d&#228;r s&#229;dan &#229;verkan oftare sker, utom
+dessa b&#246;ter, vite f&#246;rel&#228;gga. G&#246;r n&#229;gon s&#229;dan &#229;verkan i Konungens parker
+och djurg&#229;rdar; b&#246;te f&#246;r vart mastetr&#228; hundrade daler, f&#246;r annat stort
+tr&#228; tio daler, och betale dessutom v&#228;rdet; och vare bot f&#246;r det andra,
+som h&#228;r ovan n&#228;mnt &#228;r, fyradubbel, Konungens ensak.
+
+6 &#167; har upph&#228;vts genom f&#246;rordning (1946:804).
+
+7 &#167; Landbo, eller den annans jord brukar, have ej v&#229;ld att s&#228;lja timmer,
+ved, g&#228;rdsel eller annat s&#229;dant av g&#229;rdens &#228;gor, utan han haver d&#228;r
+jord&#228;garens lov till. G&#246;r han det, eller till&#229;ter han annan det g&#246;ra;
+b&#246;ten b&#229;de, som i 5 &#167; sagt &#228;r.
+
+8 &#167; Skattebonde m&#229; nyttja sin enskilda skog till hustarv och salu; dock
+det s&#229; sparsamt, att skogen ej ut&#246;des, och hemmanet f&#246;rd&#228;rvas. Vare ock
+skyldig, att f&#246;rst taga vindf&#228;lle, torra tr&#228;n, kvistar och stubbar till
+vedbrand, innan friske tr&#228;n d&#228;r till f&#228;llas. Finnes skattebonde sin
+frihet missbruka; b&#246;te tio daler. Den r&#228;ntan av hemmanet &#228;ger, have d&#228;r
+inseende &#229;.
+
+9 &#167; I de skogar, som till bergsbruk h&#246;ra, m&#229; ingen till kolning eller
+andra &#228;mnen, f&#228;lla n&#229;gon tr&#228;, som till storbyggnad vid bergverken
+nyttigt &#228;r, vid femtio dalers bot f&#246;r vart tr&#228;.
+
+10 &#167; Ej m&#229; ock inv&#229;nare i st&#228;derna, utan lov och minne, hugga p&#229; andras
+skogar, som ligga d&#228;r omkring inom en och en halv mil, vid tio dalers
+bot f&#246;r vart lass, och v&#228;rdet &#229;ter.
+
+11 kap. Om mulbete, hjordav&#229;rd, och vallg&#229;ng
+
+1 &#167; Ost&#228;ngdmark och hjordavall m&#229; alla, som d&#228;r i del hava, till mulbete
+nyttja, och l&#229;ta d&#228;r f&#229; sitt vart om annat g&#229;. Men ej m&#229; n&#229;gon driva
+eller valla sitt f&#228; &#229; annans enskilda skog eller mark, vid bot, som i 9
+kap. och 7 &#167; s&#228;gs.
+
+2 &#167; Hava de, som bo samman i en by eller flera, f&#246;rent sig om boskapens
+v&#229;rd och hjordah&#229;ll, och f&#246;rummar n&#229;gon det att uppeh&#229;lla; g&#228;lde den
+skada, som f&#228; av hans v&#229;llande eller f&#246;rsummelse g&#246;r, eller f&#229;r. Lag
+(1981:426).
+
+3 &#167; Tappar vallhjon bort f&#228;, eller g&#246;r vilddjur skada, d&#228;r vallhjonet
+pr&#246;vas det hindra kunnat; umg&#228;lle det med sin l&#246;n, eller arbete.
+
+4 &#167; D&#229; tj&#228;le &#228;r ur jord, skola svin ringade vara. Tr&#228;ffas oringade svin
+den tid utom &#228;garens h&#228;gnad eller &#229; allm&#228;n v&#228;g, tage den, som vill och
+gitter, dem upp, och l&#246;se &#228;garen dem igen av honom med fem daler f&#246;r
+vartdera. Vill &#228;garen ej l&#246;sa, st&#228;mme d&#229; den, som upptog, till r&#228;tten,
+och betale &#228;garen dubbelt f&#246;r vart svin.
+
+12 kap. Huru svin m&#229; i ollonskog sl&#228;ppas
+
+1 &#167; &#196;ga flere ollonskog samman; d&#229; skola de i r&#228;ttan tid sig f&#246;rena,
+huru m&#229;nga svin d&#228;r kunna f&#246;das, och sl&#228;ppe sedan var in efter ty, som
+han del i skog &#228;ger. Sl&#228;pper n&#229;gon flera in; haven de andre v&#229;ld att
+taga dem upp, och han b&#246;te en mark f&#246;r vart svin, och skadan &#229;ter. &#196;ger
+han ej sj&#228;lv s&#229; m&#229;nga svin, som han p&#229; sin del f&#246;da kan; st&#229;nde honom
+fritt andras svin f&#246;r lega intaga. G&#246;r han det ej; d&#229; m&#229; de andre hans
+del sakl&#246;st nyttja.
+
+2 &#167; Var som tager annans svin f&#246;r lega, skaffe dem &#229;ter, eller g&#228;lde det
+de v&#228;rde voro, d&#229; de togos emot. Gitter han visa, att de av sot d&#246;tt,
+eller f&#246;rkommit av annan h&#228;ndelse, och finnes han ej hava varit d&#228;r
+v&#229;llande till; vare sakl&#246;s. Samma lag vare, d&#228;r boskap f&#246;r lega till
+bete eller foder tages.
+
+3 &#167; L&#246;pa svin ur en skog i annan, som ej ligga samman; s&#228;ge d&#229;
+skogs&#228;garen f&#246;rsta och andra g&#229;ngen honom till, som svinen &#228;ger, att
+taga dem bort, och h&#229;lla dem d&#228;r ifr&#229;n. Finnas de d&#228;r sedan; d&#229; m&#229;
+skogs&#228;garen dem upptaga, och l&#229;te goda m&#228;n pr&#246;va, vad f&#246;r dem betalas
+skall, d&#228;r dem b&#228;gge ej d&#228;rom &#229;s&#228;mjer.
+
+4 &#167; Sl&#228;pper n&#229;gon med vilja svin &#229; annans ollonskog, som inh&#228;gnad &#228;r;
+have dem till skogs&#228;garen f&#246;rverkat. Komma svin, eller annat f&#228;, som
+ollon &#228;ter, annorledes d&#228;r in; g&#229;nge d&#228;rom som i 9 kap. urskilt &#228;r.
+Varda svin dr&#228;pne, eller slagne; d&#229; b&#246;tes, och g&#228;ldes de &#229;ter, som om
+annat f&#228; i 22 kap. stadgas.
+
+13 kap. Huru b&#246;tas skall, n&#228;r b&#228;rande tr&#228; olovligen hugges, och
+huru andre igen planteras skola
+
+1 &#167; Ingen have makt &#229; kronans &#228;gor och allm&#228;nningar, eller &#229; skattejord,
+att hugga och f&#228;lla b&#228;rande tr&#228;, som &#228;ro ek, bok, apel och oxel, eller &#229;
+varjehanda annat s&#228;tt dem f&#246;rd&#228;rva. Var som det g&#246;r; b&#246;te f&#246;r ek och bok
+nio daler, och f&#246;r apel och oxel tre daler, allt till treskiftes, och
+g&#228;lde tr&#228;s v&#228;rde till Konungen. Sker det &#229; fr&#228;lsejord, eller &#229;
+skattefr&#228;lse; njute fr&#228;lseman samma r&#228;tt, som Konungen. Hugger eller
+skadar fr&#228;lseman b&#228;rande tr&#228; i oskifta bya &#228;gor, eller &#229; allm&#228;nning;
+vare lag samma, och tr&#228; vare f&#246;rfallet till kronan, eller fr&#228;lseman, d&#228;r
+n&#229;gon i samma by med honom del &#228;ger, vardera efter lott sin.
+
+2 &#167; Nu sker det i Konungens park, eller djurg&#229;rd; ligge det i tveb&#246;te,
+Konungens ensak.
+
+3 &#167; Hugger n&#229;gon neder, eller f&#246;rd&#228;rvar med vilja annans tr&#228;d, som man
+till prydnad vid hus, v&#228;gar eller annorst&#228;des haver planterat; plikte
+som i missg&#228;rningsbalken s&#228;gs.
+
+4 &#167; Finnes &#229; allm&#228;nning, eller &#229; skatte eller kronojord, gammal och
+f&#246;rtorkad ek eller bok, eller st&#229; de &#229;ker eller &#228;ng till men och skada;
+s&#246;ke den, som det tr&#228; f&#228;lla vill, eller skada d&#228;rav lider, KB:s lov, och
+l&#229;te han, genom j&#228;geri betj&#228;nte och tvenne av n&#228;mnden, det tr&#228; syna, och
+f&#246;rordne sedan vad sk&#228;ligt och nyttigt pr&#246;vas; dock m&#229; ej n&#229;got s&#229;dant
+tr&#228; f&#228;llas, f&#246;rr&#228;n det med kronans hammar utm&#228;rkt &#228;r. Vittna synem&#228;n h&#228;r
+om annorlunda &#228;n sant &#228;r; b&#246;te vardera tio daler. Apel och oxel m&#229; i ty
+fall sakl&#246;st f&#228;llas.
+
+5 &#167; Alle de d&#228;r b&#228;rande tr&#228;n &#229; skatte eller kronomord hugga, skola
+planteras f&#246;r vart tr&#228; tu av samma slag, men fyra, d&#228;r hygget &#229;
+Konungens park skett: v&#229;rde ock dem sedan, till dess de undan boskaps
+bet vuxne &#228;ro, eller b&#246;te f&#246;r vart tr&#228;, som ej planteras och v&#229;rdas,
+fj&#228;rdung av bot f&#246;r olovligt hygge. F&#228;ller, eller tager man upp l&#246;nn,
+lind, alm, ask, eller annat s&#229;dant tr&#228;, som st&#246;rre nytta med sig haver,
+&#228;n andre ofruktbare tr&#228;n; plantere andra i st&#228;llet, och v&#229;rde som sagt
+&#228;r. G&#246;r han det ej; b&#246;te en daler f&#246;r vart tr&#228;.
+
+6 &#167; N&#228;r tr&#228; f&#228;lles, antingen till timmer, ved, g&#228;rdsel eller vad det
+helst &#228;r; skola topp och kvistar borttagas, att mulbetet d&#228;r av ej
+skadas m&#229;, vid sex markers bot, och skola, vid lika bot, torre tr&#228;n,
+vindf&#228;llen, ris och stubbar, efter hand utr&#246;jas.
+
+14 kap. Om svedjande
+
+1 &#167; I &#229;kerg&#228;rde, &#228;ng och beteshage, m&#229; var och en f&#228;lla och svedja sm&#229;
+oduglig skog; dock att b&#228;rande tr&#228;, mastetr&#228;, skepps eller timmer virke
+ej d&#228;rmed skadas, eller det missbruk sker, att skog och mark till &#228;ng
+och &#229;kerg&#228;rdet st&#228;nges, och skogen, under sken av r&#246;jning, bortsvedjes.
+Bryter n&#229;gon h&#228;remot; b&#246;te f&#246;r b&#228;rande tr&#228;, mastetr&#228; och timmerstock,
+som i 10 och 13 kap, sagt &#228;r.
+
+2 &#167; Utom h&#228;gnad m&#229; ingen svedja, d&#228;r han &#229;ker och &#228;ng ej r&#246;ja vill, och
+l&#228;genhet ej d&#228;r till finnes inom v&#228;rn och h&#228;gnad, eller det f&#246;r mulbetet
+n&#246;digt &#228;r. Vill n&#229;gon &#229; skatte eller kronojord f&#246;r den orsak svedja;
+give det h&#228;radsh&#246;vdingen tillk&#228;nna, och f&#246;rordne han tvenne av n&#228;mnden,
+som med n&#229;gon j&#228;geri eller kronobetj&#228;nt den l&#228;genhet sk&#229;da; sedan de
+h&#246;rda &#228;ro, pr&#246;ve tingsr&#228;tten, om det tillst&#228;djas kan, eller ej; l&#229;te ock
+Konungens befallningshavande det veta, som d&#228;r till lov givet, om han
+det nyttigt finner. Svedjar n&#229;gon utan lov, eller mera, &#228;n han haver lov
+till; plikte tio daler, och miste arbetet sitt och gr&#246;dan. &#196;r han &#229;bo
+och sj&#228;lv ej jord&#228;gare; r&#228;tte ock upp all skada. I oskift skog m&#229; ingen,
+vid samma bot, svedja, utan alle jord&#228;gare d&#228;rom ense &#228;ro, och lov
+d&#228;rtill give, som h&#228;r stadgat &#228;r. L&#228;gge ock ut till mulbete, det han
+d&#228;rtill svedjat, sedan han det tre &#229;r nyttjat, eller b&#246;te, som i 10 kap.
+sagt &#228;r.
+
+3 &#167; Ej m&#229; synem&#228;n annan mark till svedjeland utsyna, vid tio dalers bot,
+eller r&#228;tten det bevilja, &#228;n nu sagt &#228;r. Ej m&#229; de ock f&#246;r arvode sitt
+eller lovsedel betalning taga: var som det g&#246;r; miste ett &#229;rs l&#246;n.
+
+4 &#167; &#197; fr&#228;lsejord m&#229; &#228;garen sj&#228;lv svedja, eller det annan till&#229;ta, &#229; sin
+enskilda skog, inom, eller utom h&#228;gnad. Svedjer landbo &#229; fr&#228;lsejord,
+utan &#228;garens lov och minne; b&#246;te som i 2 &#167; sagt &#228;r.
+
+5 &#167; D&#228;r bruk och bergverk nu &#228;ro, eller uppr&#228;ttade varda, m&#229; ingen
+svedja inom den ort Konungen bjuder, ej eller &#229; allm&#228;nning, vid hundrade
+dalers bot. Sker det &#229; Konungens enskilda parker; ligge i tveb&#246;te,
+Konungens ensak, och skadan &#229;ter.
+
+15 kap. Om skogseld
+
+16 kap. Huru allm&#228;nningar nyttjas m&#229;
+
+1 &#167; Lands allm&#228;nning m&#229; de nyttja, som inom l&#228;net bygga och bo, och
+h&#228;rads eller sockne allm&#228;nning de, som i h&#228;radet eller socknen &#228;ro. D&#228;r
+m&#229; de, som ej hava s&#229;dant p&#229; egna &#228;gor, njuta mulbete, timmer, ved,
+g&#228;rdsel, l&#246;v, n&#228;ver, torv, bast och annat, som d&#228;r finnes, till egen
+n&#246;dtorft, men ej n&#229;got d&#228;rav till annan uppl&#229;ta eller s&#228;lja. Vill man
+d&#228;r hugga timmer, ved, g&#228;rdsel och st&#246;r; give det f&#246;rst vid tinget
+tillk&#228;nna, och pr&#246;ve d&#228;r r&#228;tten huru mycket han tarvar, sedan s&#246;ke han
+lov d&#228;r till av Konungens befallningshavande, som i 14 kap. sagt &#228;r.
+Nyttjar n&#229;gon allm&#228;nning annorledes; b&#246;te som i 10 kap. 1 &#167; stadgat &#228;r.
+
+2 &#167; &#196;ger man g&#229;rd i annat l&#228;n, h&#228;rad eller socken; f&#246;re ej n&#229;got ifr&#229;n
+allm&#228;nning till den g&#229;rd, som d&#228;r utom ligger, eller b&#246;te f&#246;r &#229;verkan,
+som sagt &#228;r.
+
+3 &#167; Varder n&#229;gon del av allm&#228;nning i frid lyst, att skogen tillv&#228;xa m&#229;,
+eller f&#246;r annan orsak; b&#246;te den, som d&#228;r hugger, f&#246;r &#229;verkan, och betale
+d&#228;rtill vitet, som f&#246;relagt &#228;r, och skadan &#229;ter.
+
+4 &#167; Ej m&#229; n&#229;gon till&#229;tas att g&#246;ra intagor &#229; allm&#228;nning. Tager n&#229;gon d&#228;r
+av in, rive det genast upp, och b&#246;te, som i 10 kap. sagt &#228;r.
+
+&#214;vriga paragrafer har upph&#228;vts vad g&#228;ller h&#228;radsallm&#228;nningar
+genom lag (1932:107).
+
+17 kap. har upph&#228;vts genom f&#246;rordning (1896:42).
+
+18 kap. har upph&#228;vts genom f&#246;rordning (1896:42).
+
+19 kap. Om avg&#228;rda bys r&#228;tt
+
+1 &#167; Bolby &#228;r gammal by, och avg&#228;rda by den, som &#229; bolbys mark byggd &#228;r,
+och haver sina &#228;gor, inom hank och st&#246;r, av bolbyn.
+
+2 &#167; Avg&#228;rda by njuter med bolby, till sin n&#246;dtorft, &#229; dess utmark,
+timmer, g&#228;rdsel och vedbrand, n&#228;verfl&#228;t, torvskyrd, sand och lert&#228;kt,
+mulbete och hjordavall f&#246;r sina kreatur, s&#229; m&#229;nga, som vid dess loge och
+lada f&#246;das, s&#229; ock k&#228;rresl&#229;tter, som ej inst&#228;ngde &#228;ro, s&#229; l&#228;nge bolby ej
+sj&#228;lv vill eller kan dem h&#228;vda. Han &#228;ger ock fiske och notvarp vid den
+strand, som ligger i hans r&#228;tta intagor och h&#228;gnader; dock m&#229; bolby ej
+hindras, att fiska d&#228;r utanf&#246;re i sj&#246;n. Ej m&#229; avg&#228;rda by av dessa
+r&#228;ttigheter n&#229;got till annan uppl&#229;ta, eller av bolbys skog och mark mer
+intaga, &#228;n det han inom g&#229;rd och v&#229;rd, eller vissa r&#229;m&#228;rken, av &#229;lder
+haft; ej heller av bolbys skog och mark, eller egna h&#228;gnader avsalu
+g&#246;ra. Sker annorledes; b&#246;te f&#246;r &#229;verkan, som i 10 kap. sagt &#228;r.
+
+3 &#167; Vill bolby intaga n&#229;got av sin skog och mark; d&#229; skall den ej
+avg&#228;rda by st&#228;nga fr&#229;n utmark, mulbete, och vatteng&#229;ng, vid bot, som i
+25 kap. 9 &#167; s&#228;gs; och g&#246;re ej st&#246;rre intagor, &#228;n att avg&#228;rda by haver
+sin n&#246;dtorft, som f&#246;rr &#228;r sagt.
+
+4 &#167; har upph&#228;vts genom f&#246;rordning (1926:327).
+
+20 kap. har upph&#228;vts genom f&#246;rordning (1880:57 s. 1).
+
+21 kap. Om bi
+
+1 &#167; Flyga bi bort i annans skog, och f&#246;ljer &#228;garen dem till stock och
+h&#229;l, m&#228;rker samma tr&#228;d, och giver det byam&#228;n tillk&#228;nna; have ingen v&#229;ld
+honom dem f&#246;rtaga. Haver bisv&#228;rm satt sig i b&#228;rande och fridlyst tr&#228;d;
+d&#229; skall den stockas, och ej tr&#228;d huggas, eller spillas, vid bot, som i
+13 kap. &#228;r sagt. &#196;r den i annat tr&#228;d; hugge neder, och tage bi sin
+sakl&#246;st.
+
+2 &#167; Hittar man bi &#229; egen bolstad, eller den han &#228;ger lott i; vare hans,
+som hitte. &#196;r det landbo; njute han tridjung, och jord&#228;garen tv&#229; lotter.
+Hittar man dem inom annans h&#228;gnad; njute ingen lott d&#228;rav: hittar man
+dem utom h&#228;gnad, i annans skog och mark; &#228;ge tridjung, och jord&#228;garen
+tv&#229; lotter. S&#228;ga tvenne sig samma bi hittat; njute han denna hittel&#246;n,
+som f&#246;rst lyste. Om den, som &#229; annans &#228;gor hittar, och ej lyser, utan
+borttager, och om den, som med mat och bete till sig lockar annan mans
+bi, urskils i missg&#228;rningsbalken.
+
+22 kap. Om den, som s&#229;rar eller d&#246;dar annans f&#228; eller hund, och om
+n&#229;gon k&#246;per eller s&#228;ljer sjukt f&#228;; s&#229; ock om f&#228; eller hund skadar annans
+f&#228;
+
+1 &#167; Sl&#229;r man annans f&#228; v&#228;rre, &#228;n man ville, d&#229; man det ur sina &#228;gor och
+h&#228;gnader driver eller intager, och d&#246;r det d&#228;rav; give honom j&#228;mngott
+igen, eller dess fulla v&#228;rde. D&#246;r det ej, utan varder sargat; tage det
+hem till sig och l&#228;ke. Varder det lagt och lytt; beh&#229;lle det sj&#228;lv, och
+give &#228;garen olytt igen, eller dess v&#228;rde.
+
+2 &#167; Sargar man med vilja annans f&#228; annan tid, eller d&#229; man det intaga
+vill; l&#228;ke det s&#229;ra, och b&#246;te fj&#228;rdung av dess v&#228;rde. &#196;r det h&#228;st, oxe
+eller ko; s&#228;tte ock genast s&#229; gott f&#228; i st&#228;llet till hans bruk och
+nytta. Bliver det f&#228; friskt, som f&#246;rr; tage var sitt &#229;ter. D&#246;r det,
+eller varder lamt eller lytt; g&#228;lde &#229;ter j&#228;mngott, och b&#246;te, som sagt
+&#228;r.
+
+3 &#167; Dr&#228;per man med v&#229;da annans f&#228;, som &#228;tas kan; betale v&#228;rdet, och
+beh&#229;lle det f&#228; sj&#228;lv. F&#246;r annat f&#228;, som ej matnytt &#228;r, g&#228;lde fj&#228;rdung av
+ty det v&#228;rt &#228;r.
+
+4 &#167; har upph&#228;vts genom f&#246;rordning (1975:410).
+
+5 &#167; &#196;ger n&#229;gon f&#228;, som smittosam sjuka haver; h&#229;lle det s&#228;rskilt, att
+annans f&#228; d&#228;rav ej smittas m&#229;. G&#246;r han det ej; b&#246;te tre daler, och
+skadan &#229;ter. Ur by, d&#228;r boskaps sot &#228;r, m&#229; ingen s&#228;lja eller k&#246;pa f&#228;.
+Sker det; g&#228;lde skadan som d&#228;rav h&#228;nder, och b&#246;te vardera tio daler,
+eller v&#228;rje sig med laga sk&#228;l eller ed, att han ej visste d&#228;r sot vara:
+dr&#228;pe ock den f&#228;, som k&#246;pt, och hem till sig f&#246;rt, d&#229; grannar d&#228;r om
+p&#229;minna; eller b&#246;te dubbelt och haven de makt det f&#228; d&#246;da. Oxe, h&#228;st,
+hund, eller vad f&#228; det helst &#228;r, som av farsot d&#246;r, eller m&#229;ste dr&#228;pas,
+som sagt &#228;r, skall genast med hud och allo gr&#228;vas tv&#229; alnar djupt ned i
+jord, avsides ifr&#229;n by, v&#228;gar och sj&#246;ar, och vare legohjon skyldigt det
+att g&#246;ra: grannar hj&#228;lpe ock d&#228;rtill, om s&#229; tarvas. Drager sig legohjon
+undan; miste halvt &#229;rs l&#246;n: d&#246;r f&#228; av annan sjuka, eller eljest d&#246;das;
+d&#229; m&#229; hud avdragas och g&#246;re det legohjon vid bot, som sagt &#228;r. Var som
+f&#246;revitar n&#229;gon s&#229;dant, eller att han f&#228; hulpit, &#229;derl&#229;tit, botat eller
+sn&#246;pt; b&#246;te tjugu daler, eller plikte med kroppen.
+
+6 &#167; Dr&#228;per man annans hund med vilja; b&#246;te tre daler. &#196;r det vallhund,
+jakthund, eller bunden g&#229;rdshund; b&#246;te dubbel och v&#228;rdet &#229;ter. Okynnes
+hund, som biter folk eller f&#229;, b&#246;r ej l&#246;s vara.
+
+7 &#167; Dr&#228;per f&#228; annans f&#228;, som ej &#228;tas kan; betale &#228;garen h&#228;lften av dess
+v&#228;rde, som dr&#228;pt blev. Kan det &#228;tas; g&#228;lde fj&#228;rdung, och det d&#246;da tage
+han, som det f&#246;rr &#228;gde. Nu varder f&#228; sargat av f&#228;; betale halva l&#228;kesl&#246;n
+och halva skadan. &#196;r f&#228; vant att skada g&#246;ra, och vet det &#228;garen, eller
+&#228;r han d&#228;r om varnad; g&#228;lde dubbelt mer &#228;n sagt &#228;r. Samma lag vare om
+hund, som f&#228; biter, eller sargar. G&#246;r hund skada tredje g&#229;ngen; betale
+dess &#228;gare som sagt &#228;r, och d&#246;de hunden.
+
+8 &#167; Hund, eller annat djur, som vilt varder, skall &#228;garen strax
+inst&#228;nga, eller d&#246;da, d&#229; han det veta f&#229;r. G&#246;r han det ej; b&#246;te tio
+daler. Sker skada; g&#228;lde ock den &#229;ter. Hissar man hund &#229; annans f&#228;, och
+f&#229;r det skada; g&#228;lde fullt &#229;ter, och b&#246;te fj&#228;rdung av dess v&#228;rde. F&#229;r
+hunden skada, vare det ogillt. Haver man vilda djur, bj&#246;rn, varg,
+lokatt, r&#228;v, eller annat odjur, och ej h&#228;ktar eller st&#228;nger dem s&#229; inne,
+att de annans f&#228; ej kunna skada; b&#246;te tio daler, och skadan &#229;ter. Sker
+det annan g&#229;ng; b&#246;te dubbelt, och fylle skadan. Sargar eller dr&#228;per
+okynnes f&#228;, hund eller annat odjur, n&#229;gon m&#228;nniska; d&#228;rom skils i
+missg&#246;rningsbalken.
+
+23 kap. har upph&#228;vts genom f&#246;rordning (1864:68 s. 1).
+
+24 kap. har upph&#228;vts genom f&#246;rordning (1944:521).
+
+25 kap. har upph&#228;vts genom f&#246;rordning (1971:?).
+
+26 kap. Huru allm&#228;nna hus skola byggas
+
+1 &#167; har upph&#228;vts genom f&#246;rordning (1885:28 s. 4).
+
+2 &#167; har upph&#228;vts genom f&#246;rordning  ?
+
+3 &#167; I staden byggen och f&#246;rb&#228;ttren de hus och g&#229;rd f&#246;r pr&#228;st, som d&#228;r
+hus eller grund &#228;ga, eller d&#228;r borgerlig n&#228;ring idka, och ej s&#228;rskilt
+d&#228;rf&#246;re befriade &#228;ro. Sedan de hus lagligen byggda &#228;ro; v&#229;rde dem pr&#228;st,
+att de ej f&#246;rd&#228;rvas, och av v&#229;rdsl&#246;shet f&#246;rfalla.
+
+4 &#167; har upph&#228;vts genom f&#246;rordning (1970:392).
+
+5 &#167; D&#228;r tiondebod n&#246;dig &#228;r; bygge den alle de i socknen, eller staden,
+som kronotionde utg&#246;ra.
+
+6 &#167; Varda h&#228;rads eller socknem&#228;n b&#229;dade till denna allm&#228;nna byggnad, och
+bliver n&#229;gon borta; b&#246;te f&#246;r dr&#228;ngedagsverke en daler, och f&#246;r
+&#246;kedagsverke dubbelt. Kommer byggnad genom n&#229;gon tredska att stanna;
+b&#246;te tre daler, och fylle &#228;nd&#229; dagsverket. Desse b&#246;ter skola till samma
+byggnad g&#229;.
+
+27 kap. Huru husesyn skall h&#229;llas
+
+1 &#167; Vart tredje &#229;r, eller oftare d&#228;r s&#229; tarvas, skall kronofogde eller
+l&#228;nsman, med tvenne av n&#228;mnden, &#229; tid, som i 14 kap. 2 &#167; jordabalken
+sagt &#228;r, sk&#229;da, huru bonde, &#229; kronojord, byggt och h&#228;vdat haver, och &#229;
+skattejord, n&#228;r vanh&#228;vd och missbyggnad d&#228;r &#229; m&#228;rkes: och tills&#228;ge d&#229;
+bonde att bygga och b&#228;ttra det, som felar. M&#228;rkes d&#228;r stor vanh&#228;vd vara;
+syne de d&#229; hus till syllar, v&#228;ggar, tak, golv, skorstenar, eldst&#228;der och
+ugnar, f&#246;nster, l&#229;s, spj&#228;ll och d&#246;rrar, s&#229; ock &#229;ker, &#228;ng, diken,
+g&#228;rdesg&#229;rdar och skog; och teckne noga upp, vad hus han byggt haver, s&#229;
+ock all den brist, som vid g&#229;rden finnes; och s&#228;tte i penningar ut, vad
+det kostar att b&#228;ttra eller bygga, som han f&#246;r sin tid f&#246;rsummat.
+
+2 &#167; Den husesyn skall sedan &#229; tinget visas, och av r&#228;tten pr&#246;vas. Kan
+det, som tvistigt &#228;r, d&#228;r ej slitas, eller beg&#228;rer n&#229;gon ny syn; d&#229;
+skall h&#228;radsh&#246;vding med halv n&#228;mnd syn h&#229;lla, och strax vid synen d&#246;ma.
+Finnes skada &#229; hus, som f&#228;rdigt var, d&#229; bonde tr&#228;dde d&#228;r till; b&#246;te f&#246;r
+r&#246;ta &#229; stock tv&#229; &#246;re, f&#246;r annan och tredje fyra &#246;re; f&#246;r flera, och f&#246;r
+r&#246;ta &#229; kropp&#229;s och syll, som ej b&#228;ttras kan, b&#246;te sex mark, och f&#246;r
+ogillt och f&#246;rfallet hus, tv&#229; daler. &#228;r r&#246;ste bart &#229; hus, b&#246;te sex &#246;re.
+G&#229;r vatten genom tak, v&#228;gg eller golv, eller &#228;r r&#246;ta &#229; r&#246;ste b&#246;te tre
+mark. F&#246;r d&#246;rr, som oduglig &#228;r, en mark, och f&#246;r skorsten tv&#229; daler.
+
+3 &#167; F&#246;r tre &#229;rs byggnad r&#228;knas &#229; hel g&#229;rd desse hus: stuva tolv eller
+fjorton alnar l&#229;ng, och tio alnar bred, inom knutar, med spisel och ugn,
+spj&#228;ll i skorstenen, gott tak, f&#246;nster, l&#229;s, och allt innanrede, som
+v&#228;ggfast &#228;r: tvenne bodar av samma storlek tillhopa, eller en h&#228;lften
+mindre med loft, alle med innanrede: loge och tu golv, tolv eller
+fjorton alnar l&#229;ngt vartdera: f&#228;hus sexton alnar l&#229;ngt med fullt
+innanrede: s&#229; ock stall, eller andre hus s&#229; store, eller mindre med
+flera knutar byggde. Andre gille hus av fyra knutar, i mang&#229;rd eller
+ladug&#229;rd, r&#228;knas f&#246;r ett &#229;rs byggnad. &#197; mindre hemman m&#229; sm&#228;rre hus vara
+efter n&#246;dtorften, och g&#228;lle de f&#246;r lika &#229;rs byggnad, som sagt &#228;r. Vare
+ock &#229;bo skyldig, att t&#228;cka tjugu alnar nytt tak varje &#229;r, d&#228;r s&#229;
+beh&#246;ves, och h&#229;lla de hus, som byggde &#228;ro, vid makt. Ingen vare pliktig
+att bygga mera, &#228;n g&#229;rden tarvar, efter landets bruk och l&#228;genhet.
+
+4 &#167; &#196;r &#229;ker ej upptagen av nyo, d&#228;r l&#228;genhet d&#228;rtill finnes, eller haver
+bonde lagt i linda det, som brukas kan, eller &#228;r &#228;ng skoglupen, eller av
+svin uppgr&#228;ven; b&#246;te &#229;tta &#246;re f&#246;r vart spannland. &#196;r dike eller
+g&#228;rdesg&#229;rd ogill; b&#246;te f&#246;r varje tre famnar ett &#246;re.
+
+5 &#167; Vad som brister i byggnad och h&#228;vd, skall bonde, utom b&#246;terna,
+b&#228;ttra innan han av bole far; eller g&#228;lda efter ty, som synem&#228;n, eller
+r&#228;tten, det m&#228;tit hava. Beg&#228;rer han dag d&#228;rtill; s&#228;tte pant eller borgen
+d&#228;rf&#246;re.
+
+6 &#167; Nu &#228;r skog &#246;ver n&#246;dtorften och olagligen brukad och utd&#246;d, eller har
+bonde f&#228;llt b&#228;rande tr&#228;, mastetr&#228;, och skeppsvirke; g&#228;lde skadan &#229;ter,
+och b&#246;te, som i 10 och 13 kap. stadgat &#228;r.
+
+7 &#167; N&#228;r hemman uppsagt &#228;r, skall husesyn h&#229;llas f&#246;rr &#228;n bonde avflyttar,
+och l&#228;mnas honom, som tilltr&#228;der, en avskrift d&#228;rav, till bevis, huru
+han det hemman emottager.
+
+8 &#167; Fr&#228;lseman m&#229; med sin fr&#228;lsebonde husesyn h&#229;lla, genom tvenne
+ov&#228;ldiga m&#228;n av n&#228;mnden, s&#229; ofta han det n&#246;digt finner, och bristen
+utm&#228;ta. Menar landbo att honom d&#228;rvid f&#246;rn&#228;r skett; st&#229;nde honom fritt,
+att det vid h&#228;radsr&#228;tten &#229;tervinna.
+
+9 &#167; Nu n&#246;jes man ej &#229;t h&#228;radsr&#228;ttens slut i dessa m&#229;l: &#196;r det kronog&#229;rd,
+d&#228;r &#229; syn h&#229;llen &#228;r; s&#246;ke d&#229;, inom en m&#229;nads tid, Konungens
+befallningshavande, och &#228;ge han v&#229;ld den syn pr&#246;va och r&#228;tta. &#196;r det
+fr&#228;lse eller skatte; fullf&#246;lje hos domaren sin klagan, som i
+r&#228;tteg&#229;ngsbalken om laga vad s&#228;gs.
+
+10 &#167; D&#229; bonde fr&#229;n hemman flytta skall, m&#229; han ej av bole f&#246;ra n&#228;ver,
+g&#228;rdsel, torv, ved, timmer, eller vad det helst &#228;r, som han av g&#229;rdens
+&#228;gor tagit, ej eller g&#246;dsel. G&#246;r han det; b&#246;te som i 10 kap. s&#228;gs och
+f&#246;re det &#229;ter. Ej eller m&#229; han f&#246;re fardag f&#228; eller foder av bole f&#246;ra,
+vid tio dalers bot. Haver han, d&#229; fardag inne &#228;r, foder &#246;ver, och vill
+det s&#228;lja; bjude det jord&#228;garen, eller honom, som efterkommer. Vare ock
+bonde skyldig, att kvar vid g&#229;rden l&#228;mna de l&#229;s, som vid d&#246;rr eller v&#228;gg
+f&#228;ste &#228;ro, s&#229; ock spj&#228;ll, f&#246;nster, l&#229;ngbord och s&#228;te, v&#228;ggfasta b&#228;nkar
+och s&#228;ngar, och annat fast innanrede, som till bod, k&#246;lna, lada, stall
+och f&#228;hus h&#246;rer. F&#246;rer han n&#229;got d&#228;rav bort; b&#246;te f&#246;r vardera tv&#229; mark,
+och skatte det &#229;ter.
+
+28 kap. upph&#228;vd genom lag (1911:63)
+
+29 kap. upph&#228;vd genom lag (1964:655).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4608">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4610">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,582 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2022-04-20 14:30:22" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3985</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3984">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3986">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1978:801 ·
+                    <a href="/sfsr?bet=1978:801">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1978:801) om internationellt samarbete r&#246;rande kriminalv&#229;rd i frihet</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet BIRS
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1978-11-30
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:1022
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna lag &#228;ger enligt f&#246;rordnande av regeringen till&#228;mpning vid
+samarbete r&#246;rande kriminalv&#229;rd i frihet med stat, som har tilltr&#228;tt den
+europeiska konventionen den 30 november 1964 r&#246;rande &#246;vervakning av
+villkorligt d&#246;mda eller villkorligt frigivna personer, eller annan stat,
+med vilken Sverige har ing&#229;tt &#246;verenskommelse om s&#229;dant samarbete.
+
+Om synnerliga sk&#228;l f&#246;religger, kan regeringen f&#246;r visst fall f&#246;rordna
+att samarbete enligt lagen skall &#228;ga rum &#228;ven om f&#246;rordnande som avses i
+f&#246;rsta stycket ej har meddelats.
+
+2 &#167; Samarbete enligt denna lag avser
+
+1. verkst&#228;llighet i Sverige av
+
+a) utl&#228;ndsk brottsm&#229;lsdom, varigenom den d&#246;mde har erh&#229;llit villkorligt
+anst&#229;nd med &#229;d&#246;mande av straff eller verkst&#228;llighet av frihetsstraff
+eller p&#229; annat liknande s&#228;tt &#229;lagts att under en pr&#246;votid underg&#229;
+kriminalv&#229;rd i frihet,
+
+b) utl&#228;ndsk brottsm&#229;lsdom avseende frihetsber&#246;vande p&#229;f&#246;ljd, sedan den
+d&#246;mde enligt beslut i den fr&#228;mmande staten har frigivits villkorligt
+eller annars &#246;verf&#246;rts till kriminalv&#229;rd utom anstalt,
+
+2. verkst&#228;llighet i fr&#228;mmande stat av
+
+a) svensk dom p&#229; skyddstillsyn,
+
+b) svensk dom p&#229; f&#228;ngelse, sedan den d&#246;mde enligt beslut h&#228;r i landet
+har frigivits villkorligt.
+
+Vad som f&#246;reskrivs i denna lag om utl&#228;ndsk brottm&#229;lsdom g&#228;ller &#228;ven i
+fr&#229;ga om annat avg&#246;rande i fr&#228;mmande stat som har meddelats efter
+r&#228;tteg&#229;ng i brottm&#229;l. Lag (1981:222).
+
+3 &#167; Vid samarbete som anges i 2 &#167; &#246;verl&#228;mnar den stat i vilken domen har
+meddelats &#229;t den andra staten att antingen anordna kriminalv&#229;rd i frihet
+enligt domen (begr&#228;nsad verkst&#228;llighet) eller helt &#246;vertaga
+verkst&#228;lligheten av denna (fullst&#228;ndig verkst&#228;llighet).
+Verkst&#228;llighet i Sverige av utl&#228;ndsk brottm&#229;lsdom
+
+Allm&#228;nna best&#228;mmelser
+
+4 &#167; Verkst&#228;llighet i Sverige av utl&#228;ndsk brottm&#229;lsdom f&#229;r ske 
+endast efter framst&#228;llning av den fr&#228;mmande staten.
+
+Framst&#228;llningen f&#229;r inte bifallas
+
+1. om domen inte har f&#229;tt laga kraft eller om p&#229;f&#246;ljden inte 
+f&#229;r verkst&#228;llas i den fr&#228;mmande staten,
+
+2. om g&#228;rning som p&#229;f&#246;ljden avser inte motsvarar brott enligt 
+svensk lag eller g&#228;rningsmannen, om g&#228;rningen beg&#229;tts h&#228;r i 
+landet, p&#229; annan grund &#228;n som avses i 5 &#167; 3 inte skulle ha 
+kunnat d&#246;mas till p&#229;f&#246;ljd f&#246;r brottet,
+
+3. om den d&#246;mde inte har eller tar hemvist i Sverige,
+
+4. om verkst&#228;llighet i Sverige skulle vara of&#246;renlig med 
+grunderna f&#246;r r&#228;ttsordningen h&#228;r i landet eller annat 
+v&#228;sentligt svenskt intresse,
+
+5. om dom i m&#229;l om ansvar f&#246;r g&#228;rning som p&#229;f&#246;ljden avser har 
+meddelats h&#228;r i landet eller h&#228;r utf&#228;rdat straff&#246;rel&#228;ggande 
+eller f&#246;rel&#228;ggande av ordningsbot f&#246;r samma g&#228;rning har 
+godk&#228;nts,
+
+6. om fr&#229;ga om ansvar f&#246;r g&#228;rning som p&#229;f&#246;ljden avser har 
+pr&#246;vats i en annan stat &#228;n den som har gjort framst&#228;llningen 
+genom en dom som f&#229;tt laga kraft och det d&#228;rf&#246;r skulle ha 
+funnits hinder enligt 2 kap. 9 &#167; brottsbalken mot lagf&#246;ring 
+f&#246;r g&#228;rningen h&#228;r i landet,
+
+7. om g&#228;rning som p&#229;f&#246;ljden avser utg&#246;r eller har samband med 
+politiskt brott eller utg&#246;r milit&#228;rt brott,
+
+8. om g&#228;rning som p&#229;f&#246;ljden avser utg&#246;r fiskaliskt brott, 
+s&#229;vida inte annat f&#246;ranleds av &#246;verenskommelse mellan Sverige 
+och den fr&#228;mmande staten,
+
+9. om en till&#228;mpning av 35 kap. 8-10 &#167;&#167; brottsbalken skulle 
+inneb&#228;ra att p&#229;f&#246;ljden bortfallit,
+
+10. om verkst&#228;llighet i Sverige i annat h&#228;nseende &#228;n som f&#246;rut 
+har n&#228;mnts skulle strida mot den &#246;verenskommelse mellan 
+Sverige och fr&#228;mmande stat som ligger till grund f&#246;r 
+framst&#228;llningen. Lag (2021:1022).
+
+5 &#167; Framst&#228;llningen kan avsl&#229;s
+
+1. om g&#228;rning som p&#229;f&#246;ljden avser omfattas av h&#228;r i landet v&#228;ckt &#229;tal,
+utf&#228;rdat straff&#246;rel&#228;ggande eller f&#246;rel&#228;ggande av ordningsbot eller
+meddelat beslut att &#229;tal ej skall v&#228;ckas eller fullf&#246;ljas,
+
+2. om domen har meddelats utan att den d&#246;mde har varit personligen
+n&#228;rvarande vid f&#246;rhandling i saken inf&#246;r domstol,
+
+3. om den d&#246;mde vid tiden f&#246;r brottet ej hade fyllt femton &#229;r,
+
+4. om domen av annat sk&#228;l &#228;n som f&#246;rut har angivits m&#229;ste anses
+of&#246;renlig med principerna f&#246;r till&#228;mpning av svensk strafflag,
+
+5. om det med h&#228;nsyn till omst&#228;ndigheterna i det s&#228;rskilda fallet &#228;r
+l&#228;mpligast att verkst&#228;llighet h&#228;r i landet anordnas enligt annan i 3 &#167;
+angiven samarbetsform &#228;n som avses i framst&#228;llningen.
+
+6 &#167; Avser den utl&#228;ndska domen tv&#229; eller flera brott och f&#246;religger
+hinder mot verkst&#228;llighet s&#229;vitt avser n&#229;got eller n&#229;gra av dem, f&#229;r
+framst&#228;llningen bifallas s&#229;vitt avser &#246;vriga brott endast om
+
+1. i domen eller framst&#228;llningen har angivits vilken del av p&#229;f&#246;ljden
+som avser detta eller dessa brott, eller
+
+2. det &#228;r uppenbart att det eller de brott, betr&#228;ffande vilka hinder mot
+verkst&#228;llighet f&#246;religger, har varit utan n&#228;mnv&#228;rd betydelse f&#246;r
+p&#229;f&#246;ljdsbest&#228;mningen i den fr&#228;mmande staten.
+
+7 &#167; Framst&#228;llning om verkst&#228;llighet inges till Justitiedepartementet.
+
+Finner regeringen uppenbart att framst&#228;llningen ej g&#228;ller utl&#228;ndsk
+brottm&#229;lsdom som avses i 2 &#167; 1 eller att hinder mot verkst&#228;llighet m&#246;ter
+enligt 4 &#167; andra stycket 1-6 eller 9, skall framst&#228;llningen omedelbart
+avsl&#229;s.
+
+Regeringen pr&#246;var om framst&#228;llningen skall avsl&#229;s p&#229; grund av
+f&#246;rh&#229;llande som avses i 4 &#167; andra stycket 7, 8 eller 10 eller 5 &#167; 5.
+Regeringen kan avsl&#229; framst&#228;llningen, om det &#228;r uppenbart att
+f&#246;rh&#229;llande som avses i 5 &#167; 1-4 f&#246;religger. Lag (2000:572).
+
+Begr&#228;nsad verkst&#228;llighet
+
+8 &#167; Framst&#228;llning om begr&#228;nsad verkst&#228;llighet h&#228;r i landet av
+utl&#228;ndsk brottm&#229;lsdom skall, om regeringen inte avsl&#229;r
+framst&#228;llningen, &#246;verl&#228;mnas till Kriminalv&#229;rden f&#246;r handl&#228;ggning.
+Lag (2005:975).
+
+9 &#167; Kriminalv&#229;rden pr&#246;var om annat hinder mot verkst&#228;llighet
+f&#246;religger &#228;n som avses i 4 &#167; andra stycket 7, 8 eller 10 eller
+5 &#167; 5. Lag (2005:975).
+
+10 &#167; Finner Kriminalv&#229;rden att det inte finns n&#229;got som hindrar
+verkst&#228;llighet, beslutar myndigheten att kriminalv&#229;rd i frihet
+skall anordnas h&#228;r i landet. I beslutet skall det anges var
+verkst&#228;lligheten skall handl&#228;ggas. Lag (2005:975).
+
+11 &#167; En f&#246;reskrift om pr&#246;votid f&#246;r den d&#246;mde och om vad som 
+ska g&#228;lla f&#246;r honom eller henne under denna tid, som f&#246;ljer av 
+domen eller ett s&#228;rskilt beslut som under pr&#246;votiden har 
+meddelats i den fr&#228;mmande staten, g&#228;ller h&#228;r i landet om 
+motsvarande f&#246;reskrift skulle ha kunnat meddelas eller annars 
+skulle ha kunnat g&#228;lla enligt svensk lag. Om s&#229; inte &#228;r 
+fallet, ska f&#246;reskriften j&#228;mkas av Kriminalv&#229;rden. J&#228;mkningen 
+f&#229;r inte inneb&#228;ra att f&#246;reskriften sk&#228;rps. Lag (2021:445).
+
+12 &#167; Om inget annat f&#246;ljer av domen eller ett s&#228;rskilt beslut 
+som har meddelats i den fr&#228;mmande staten ska den d&#246;mde under 
+pr&#246;votiden st&#229; under &#246;vervakning. Bed&#246;ms &#246;vervakningen inte 
+l&#228;ngre vara n&#246;dv&#228;ndig ska den upph&#246;ra. S&#229; l&#228;nge pr&#246;votiden 
+varar f&#229;r den d&#246;mde, n&#228;r det finns sk&#228;l till det, p&#229; nytt 
+st&#228;llas under &#246;vervakning. Beslut i fr&#229;ga om &#246;vervakning 
+fattas av Kriminalv&#229;rden.
+
+Meddelas i den fr&#228;mmande staten beslut som inneb&#228;r att 
+kriminalv&#229;rden i frihet ska upph&#246;ra, g&#228;ller beslutet h&#228;r.
+Lag (2021:445).
+
+13 &#167; I fr&#229;ga om kriminalv&#229;rden under pr&#246;votiden till&#228;mpas 
+26 kap. 11, 13-18 &#167;&#167; och 19 &#167; f&#246;rsta stycket brottsbalken. 
+
+En f&#246;reskrift eller ett beslut enligt 26 kap. 16 eller 17 &#167; 
+brottsbalken f&#229;r inte inneb&#228;ra en sk&#228;rpning i f&#246;rh&#229;llande till 
+vad som best&#228;mts i den fr&#228;mmande staten. Lag (2021:445).
+
+14 &#167; Om den fr&#228;mmande staten beg&#228;r upplysning om hur den d&#246;mde 
+har sk&#246;tt sig under pr&#246;votiden, ska Kriminalv&#229;rden l&#228;mna 
+upplysning om detta.
+
+Om den d&#246;mde beg&#229;r ett nytt brott och under pr&#246;votiden d&#246;ms av 
+svensk domstol f&#246;r brottet till p&#229;f&#246;ljd som avses i 3 &#167; f&#246;rsta 
+stycket 1 eller 2 lagen (1998:620) om belastningsregister, ska 
+Kriminalv&#229;rden underr&#228;tta den fr&#228;mmande staten om domen.
+
+Om den d&#246;mde i annat fall &#228;n som avses i andra stycket 
+allvarligt har &#229;sidosatt sina skyldigheter och Kriminalv&#229;rden 
+bed&#246;mer att det finns anledning f&#246;r den fr&#228;mmande staten att 
+besluta om &#229;tg&#228;rd med anledning av p&#229;f&#246;ljden, ska 
+Kriminalv&#229;rden anm&#228;la detta till den staten. Lag (2021:445).
+
+Fullst&#228;ndig verkst&#228;llighet
+
+15 &#167; Framst&#228;llning om fullst&#228;ndig verkst&#228;llighet h&#228;r i landet av
+utl&#228;ndsk brottm&#229;lsdom skall, om regeringen inte avsl&#229;r framst&#228;llningen,
+&#246;verl&#228;mnas till riks&#229;klagaren f&#246;r handl&#228;ggning.
+
+16 &#167; Sedan framst&#228;llningen om verkst&#228;llighet har &#246;verl&#228;mnats till
+riks&#229;klagaren, g&#246;r denne hos r&#228;tten ans&#246;kan om dess pr&#246;vning av
+framst&#228;llningen. R&#246;rande sakens handl&#228;ggning g&#228;ller i till&#228;mpliga delar
+vad som &#228;r f&#246;reskrivet om brottm&#229;l i allm&#228;nhet, om annat ej f&#246;ljer av
+denna lag. R&#228;ttens avg&#246;rande av saken sker genom dom.
+
+Vid f&#246;rhandling i m&#229;let skall den d&#246;mde h&#246;ras personligen, om han beg&#228;r
+det. &#196;r den d&#246;mde ber&#246;vad friheten i den stat d&#228;r domen har meddelats,
+f&#229;r dock f&#246;rhandling &#228;ga rum i hans fr&#229;nvaro, &#228;ven om han har beg&#228;rt att
+bli h&#246;rd personligen.
+
+17 &#167; I m&#229;l som avses i 16 &#167; pr&#246;var r&#228;tten om annat hinder mot
+verkst&#228;llighet m&#246;ter &#228;n som avses i 4 &#167; andra stycket 7, 8 eller 10
+eller 5 &#167; 5.
+
+Ny pr&#246;vning av fr&#229;gan huruvida den d&#246;mde &#228;r skyldig till brottet f&#229;r ej
+ske i m&#229;let.
+
+18 &#167; Finner r&#228;tten hinder ej m&#246;ta mot verkst&#228;llighet h&#228;r i landet, skall
+r&#228;tten best&#228;mma ny p&#229;f&#246;ljd enligt svensk lag f&#246;r brott som avses i
+framst&#228;llningen. Den nya p&#229;f&#246;ljden f&#229;r dock ej inneb&#228;ra att den d&#246;mde
+ber&#246;vas friheten. Ej heller f&#229;r p&#229;f&#246;ljden best&#228;mmas till enbart b&#246;ter.
+Detta g&#228;ller &#228;ven om annan p&#229;f&#246;ljd &#228;n b&#246;ter ej enligt svensk lag kan
+f&#246;lja p&#229; motsvarande brott.
+
+Har f&#246;rhandling i saken enligt 16 &#167; andra stycket andra meningen &#228;gt rum
+i den d&#246;mdes fr&#229;nvaro, f&#229;r ny p&#229;f&#246;ljd ej best&#228;mmas f&#246;rr&#228;n den d&#246;mde har
+varit i tillf&#228;lle att bli personligen h&#246;rd.
+
+19 &#167; Laga domstol i m&#229;l som avses i 16 &#167; &#228;r Stockholms tingsr&#228;tt.
+Ans&#246;kan f&#229;r dock upptagas &#228;ven av den r&#228;tt, d&#228;r den d&#246;mde skall svara i
+tvistem&#229;l i allm&#228;nhet, eller r&#228;tten i den ort, d&#228;r den d&#246;mde mera
+varaktigt uppeh&#229;ller sig, om r&#228;tten med h&#228;nsyn till utredningen samt
+kostnader och andra omst&#228;ndigheter finner det l&#228;mpligt.
+
+20 &#167; Undanr&#246;js villkorlig dom eller skyddstillsyn, som har &#229;d&#246;mts enligt
+18 &#167;, och d&#246;ms i st&#228;llet till f&#228;ngelse p&#229; viss tid, skall den d&#246;mde, i
+den m&#229;n det med h&#228;nsyn till omst&#228;ndigheterna pr&#246;vas sk&#228;ligt, r&#228;knas till
+godo dels vad han kan ha utst&#229;tt av frihetsber&#246;vande p&#229;f&#246;ljd som &#229;d&#246;mts
+genom den utl&#228;ndska domen f&#246;r brott som omfattades av framst&#228;llningen om
+verkst&#228;llighet, dels tid varunder han med anledning av s&#229;dant brott
+varit anh&#229;llen eller h&#228;ktad i den fr&#228;mmande staten. D&#228;rvid f&#229;r best&#228;mmas
+lindrigare straff &#228;n vad som &#228;r f&#246;reskrivet f&#246;r g&#228;rningen.
+
+Verkst&#228;llighet utomlands av svensk dom
+
+Allm&#228;nna best&#228;mmelser
+
+21 &#167; Fr&#229;ga om verkst&#228;llighet i fr&#228;mmande stat av svensk dom
+enligt denna lag upptas i fall som avses i 1 &#167; f&#246;rsta stycket av
+Kriminalv&#229;rden. Framst&#228;llning om verkst&#228;llighet f&#229;r g&#246;ras endast
+om den d&#246;mde har eller tar hemvist i den fr&#228;mmande staten och det
+ej med motsvarande till&#228;mpning av 4 &#167; andra stycket eller 5 &#167; 1-4
+kan antagas f&#246;religga hinder mot verkst&#228;llighet i den staten.
+
+Har regeringen med st&#246;d av 1 &#167; andra stycket f&#246;rordnat att
+verkst&#228;llighet av p&#229;f&#246;ljd i visst fall f&#229;r anf&#246;rtros &#229;t myndighet
+i fr&#228;mmande stat, ombes&#246;rjer Kriminalv&#229;rden att framst&#228;llning om
+verkst&#228;llighet g&#246;rs i den fr&#228;mmande staten. Lag (2005:975).
+
+22 &#167; Framst&#228;llning som avses i 21 &#167; j&#228;mte den dom varigenom p&#229;f&#246;ljden
+har &#229;d&#246;mts och &#246;vriga handlingar i &#228;rendet &#246;verl&#228;mnas till
+Justitiedepartementet, som vidarebefordrar framst&#228;llningen till beh&#246;rig
+myndighet i den fr&#228;mmande staten. Lag (2000:572).
+
+Begr&#228;nsad verkst&#228;llighet
+
+23 &#167; Bifalls framst&#228;llning om begr&#228;nsad verkst&#228;llighet utomlands,
+skall Kriminalv&#229;rden, om &#246;vervakning har anordnats h&#228;r i landet,
+entlediga &#246;vervakaren f&#246;r den d&#246;mde. Lag (2005:975).
+
+24 &#167; Beslutas i den fr&#228;mmande staten &#228;ndrade f&#246;reskrifter om 
+vad som ska g&#228;lla f&#246;r den d&#246;mde under pr&#246;votiden eller tiden 
+f&#246;r v&#229;rd utom anstalt, g&#228;ller beslutet i Sverige om 
+motsvarande beslut skulle ha kunnat meddelas enligt svensk lag 
+och beslutet inte inneb&#228;r sk&#228;rpning f&#246;r den d&#246;mde i 
+f&#246;rh&#229;llande till vad som har best&#228;mts i Sverige.
+
+Sedan kriminalv&#229;rden i frihet &#246;verflyttats, f&#229;r &#229;tg&#228;rd i fr&#229;ga 
+om den utd&#246;mda p&#229;f&#246;ljden beslutas i Sverige endast om den 
+d&#246;mde d&#246;ms i Sverige f&#246;r ett annat brott eller beh&#246;rig 
+myndighet i den fr&#228;mmande staten h&#228;nskjuter ett &#228;rende om 
+s&#229;dan &#229;tg&#228;rd hit. Ett s&#229;dant h&#228;nskjutet &#228;rende tas upp av 
+Kriminalv&#229;rden. Kriminalv&#229;rden ska &#246;verl&#228;mna ett &#228;rende som 
+myndigheten inte sj&#228;lv &#228;r beh&#246;rig att besluta om till den 
+&#246;vervakningsn&#228;mnd inom vars verksamhetsomr&#229;de &#246;vervakningen 
+bedrevs eller kunde ha bedrivits vid tiden f&#246;r beslutet om 
+&#246;verflyttning.
+
+Upph&#246;r den d&#246;mde att ha hemvist i den fr&#228;mmade staten, kan 
+Kriminalv&#229;rden besluta att verkst&#228;llighet i den staten inte 
+l&#228;ngre ska ske. G&#246;rs inte framst&#228;llning om verkst&#228;llighet av 
+domen i en annan fr&#228;mmande stat i samband med detta, ska 
+Kriminalv&#229;rden besluta att verkst&#228;lligheten ska &#229;terupptas i 
+Sverige. Lag (2020:371).
+
+Fullst&#228;ndig verkst&#228;llighet
+
+25 &#167; Bifalls framst&#228;llning om fullst&#228;ndig verkst&#228;llighet
+utomlands, skall Kriminalv&#229;rden f&#246;rklara verkst&#228;lligheten
+&#246;verf&#246;rd till den fr&#228;mmande staten. Sedan s&#229;dan f&#246;rklaring har
+meddelats, f&#229;r verkst&#228;llighet av p&#229;f&#246;ljden inte l&#228;ngre ske h&#228;r i
+landet. Ej heller f&#229;r h&#228;r beslutas annan &#229;tg&#228;rd enligt
+brottsbalken i fr&#229;ga om p&#229;f&#246;ljden.
+
+Fr&#229;ntr&#228;der den fr&#228;mmande staten sitt &#229;tagande betr&#228;ffande
+verkst&#228;lligheten, f&#229;r Kriminalv&#229;rden f&#246;rordna om
+verkst&#228;llighetens &#229;terupptagande h&#228;r i landet. Lag (2005:975).
+
+Fullf&#246;ljd av talan
+
+26 &#167; Kriminalv&#229;rdens beslut i fr&#229;gor som avses i 10 &#167;, 21 &#167; 
+f&#246;rsta stycket, 24 &#167; tredje stycket eller 25 &#167; andra stycket 
+f&#229;r &#246;verklagas till regeringen. Kriminalv&#229;rdens beslut i andra 
+fr&#229;gor enligt lagen f&#229;r inte &#246;verklagas.
+
+I fr&#229;ga om Kriminalv&#229;rdens och &#246;vervakningsn&#228;mndens beslut 
+enligt brottsbalken g&#228;ller 37 och 38 kap. brottsbalken.
+Lag (2020:371).
+
+S&#228;rskilda best&#228;mmelser
+
+27 &#167; Riks&#229;klagaren f&#229;r i den omfattning regeringen best&#228;mmer f&#246;rordna
+annan &#229;klagare att fullg&#246;ra vad som enligt denna lag &#229;ligger
+riks&#229;klagaren.
+
+28 &#167; Skall p&#229;f&#246;ljd, som har &#229;d&#246;mts n&#229;gon i fr&#228;mmande stat, enligt denna
+lag verkst&#228;llas i Sverige, f&#229;r &#229;tal f&#246;r g&#228;rning, som p&#229;f&#246;ljden avser, ej
+i n&#229;got fall v&#228;ckas h&#228;r i landet. Har &#229;talet redan v&#228;ckts n&#228;r
+framst&#228;llningen om verkst&#228;llighet bifalls, skall detta f&#246;rh&#229;llande anses
+utg&#246;ra r&#228;tteg&#229;ngshinder i brottm&#229;let.
+
+29 &#167; Av allm&#228;nna medel utgiven ers&#228;ttning till offentlig f&#246;rsvarare
+skall stanna p&#229; staten om det inte finns s&#228;rskilda sk&#228;l f&#246;r att den
+d&#246;mde skall &#229;terbetala ers&#228;ttningen. Lag (1996:1641).
+
+30 &#167; Denna lag g&#228;ller inte i fr&#229;ga om verkst&#228;llighet eller 
+annan &#229;tg&#228;rd som regleras genom lagen (1963:193) om samarbete 
+med Danmark, Finland, Island och Norge ang&#229;ende 
+verkst&#228;llighet av straff m.m. eller genom lagen (2015:650) om 
+erk&#228;nnande och verkst&#228;llighet av friv&#229;rdsp&#229;f&#246;ljder inom 
+Europeiska unionen. Lag (2015:651).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3984">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3986">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

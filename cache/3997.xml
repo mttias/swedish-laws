@@ -1,0 +1,786 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-03-27" /> 
+ <meta id="rattsinfo-edited" content="2023-03-27 09:43:13" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3997</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3996">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3998">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1978:304 ·
+                    <a href="/sfsr?bet=1978:304">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Hyresf&#246;rhandlingslag (1978:304)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1978-06-01
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1658
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; F&#246;rhandling om hyresf&#246;rh&#229;llanden i fr&#229;ga om
+bostadsl&#228;genheter f&#229;r enligt denna lag f&#246;ras mellan &#229; ena sidan
+hyresv&#228;rd eller hyresv&#228;rd och organisation av fastighets&#228;gare,
+i vilken hyresv&#228;rden &#228;r medlem, och &#229; andra sidan organisation
+av hyresg&#228;ster. F&#246;rhandling f&#246;rs p&#229; grundval av
+f&#246;rhandlingsordning, som kommer till st&#229;nd genom avtal mellan
+de f&#246;rhandlande parterna eller genom beslut av hyresn&#228;mnd.
+
+Som hyresv&#228;rd anses i lagen den som f&#246;r annat &#228;ndam&#229;l &#228;n
+fritids&#228;ndam&#229;l regelm&#228;ssigt hyr ut mer &#228;n tv&#229;
+bostadsl&#228;genheter, vilka ej utg&#246;r del av uppl&#229;tarens bostad.
+
+Vad som i lagen s&#228;gs om avtal om f&#246;rhandlingsordning och om
+verkan av att s&#229;dant avtal har slutits g&#228;ller i till&#228;mpliga
+delar &#228;ven i fr&#229;ga om f&#246;rhandlingsordning som har beslutats av
+hyresn&#228;mnd.
+
+Lagen &#228;r inte till&#228;mplig vid uppl&#229;telse med kooperativ
+hyresr&#228;tt. Lag (2002:98).
+
+2 &#167; Med en f&#246;rhandlingsklausul avses i denna lag en 
+best&#228;mmelse i ett hyresavtal genom vilken en hyresg&#228;st, sedan 
+en f&#246;rhandlingsordning kommit till st&#229;nd enligt denna lag, 
+godk&#228;nner att det gentemot honom eller henne f&#229;r till&#228;mpas en 
+best&#228;mmelse om hyra eller n&#229;got annat hyresvillkor som det har 
+ing&#229;tts en &#246;verenskommelse om med st&#246;d av 
+f&#246;rhandlingsordningen eller den f&#246;rhandlingsordning som ersatt 
+denna (f&#246;rhandlings&#246;verenskommelse).
+
+En tvist om att inf&#246;ra eller slopa en f&#246;rhandlingsklausul i 
+ett hyresavtal kan pr&#246;vas av hyresn&#228;mnd enligt 12 kap. 51 &#167; 
+f&#246;rsta stycket andra meningen eller 54 &#167; jordabalken. Om 
+hyresg&#228;sten har angett sin uppfattning, ska hyresn&#228;mnden 
+avg&#246;ra tvisten i enlighet med denna, om inte synnerliga sk&#228;l 
+talar emot det. Om hyresg&#228;sten inte har angett sin 
+uppfattning, ska hyresn&#228;mnden avg&#246;ra tvisten i enlighet med 
+hyresv&#228;rdens uppfattning.
+
+Om det finns s&#228;rskilda sk&#228;l, f&#229;r hyresn&#228;mnden besluta att 
+inf&#246;randet eller slopandet av en f&#246;rhandlingsklausul ska g&#228;lla 
+f&#246;rst fr&#229;n och med en viss dag. Lag (2022:1658).
+
+3 &#167; En f&#246;rhandlingsordning omfattar samtliga bostadsl&#228;genheter
+i ett eller flera planerade, p&#229;b&#246;rjade eller befintliga hus, om
+inte n&#229;got annat f&#246;ljer av andra eller tredje stycket.
+
+En f&#246;rhandlingsordning g&#228;ller inte f&#246;r en l&#228;genhet, om
+hyresv&#228;rden och hyresg&#228;sten skriftligen har kommit &#246;verens om
+att hyresavtalet inte skall inneh&#229;lla en f&#246;rhandlingsklausul.
+En s&#229;dan &#246;verenskommelse kan tr&#228;ffas tidigast sedan
+hyresf&#246;rh&#229;llandet har varat tre m&#229;nader i f&#246;ljd.
+&#214;verenskommelsen skall undertecknas av hyresv&#228;rden och
+hyresg&#228;sten. En &#246;verenskommelse som inte uppfyller dessa
+f&#246;reskrifter &#228;r ogiltig.
+
+En f&#246;rhandlingsordning g&#228;ller inte heller f&#246;r en l&#228;genhet, om
+hyresavtalet enligt beslut av hyresn&#228;mnden inte skall inneh&#229;lla
+en f&#246;rhandlingsklausul. Ett s&#229;dant beslut f&#229;r b&#246;rja g&#228;lla
+tidigast n&#228;r hyresf&#246;rh&#229;llandet har varat tre m&#229;nader i f&#246;ljd.
+Lag (2006:409).
+
+3 a &#167; Om det finns s&#228;rskilda sk&#228;l, f&#229;r hyresn&#228;mnden p&#229; ans&#246;kan
+av en organisation av hyresg&#228;ster besluta att en
+f&#246;rhandlingsordning inte l&#228;ngre skall g&#228;lla f&#246;r ett eller flera
+av de hus som f&#246;rhandlingsordningen avser.
+
+I &#228;rendet &#228;r hyresv&#228;rden och den hyresg&#228;storganisation som &#228;r
+part i f&#246;rhandlingsordningen s&#246;kandens motparter. Om
+f&#246;rhandlingsordningen g&#228;ller &#228;ven f&#246;r en organisation av
+fastighets&#228;gare, &#228;r &#228;ven den organisationen s&#246;kandens motpart.
+Lag (2002:30).
+
+4 &#167; Om en hyresv&#228;rd &#228;r part i ett avtal om en
+f&#246;rhandlingsordning f&#246;r ett visst eller vissa hus med en viss
+organisation av hyresg&#228;ster som motpart, f&#229;r hyresv&#228;rden ing&#229;
+avtal om en f&#246;rhandlingsordning som avser huset eller husen med
+en annan organisation av hyresg&#228;ster f&#246;rst sedan den f&#246;rra
+f&#246;rhandlingsordningen har upph&#246;rt att g&#228;lla d&#228;r.
+Lag (1997:64).
+
+5 &#167; En f&#246;rhandlingsordning medf&#246;r skyldighet f&#246;r hyresv&#228;rden 
+att p&#229; eget initiativ f&#246;rhandla med hyresg&#228;storganisationen i 
+fr&#229;ga om
+
+1. h&#246;jning av hyran f&#246;r en l&#228;genhet, om inte h&#246;jningen avser 
+ett tillval och h&#246;gst motsvarar ett pris som 
+f&#246;rhandlingsordningens parter har rekommenderat,
+
+2. best&#228;mmande av hyran f&#246;r en ny hyresg&#228;st, om den beg&#228;rda 
+hyran &#246;verstiger den tidigare hyresg&#228;stens hyra och h&#246;jningen 
+inte avser ett tillval och h&#246;gst motsvarar ett pris som 
+f&#246;rhandlingsordningens parter har rekommenderat,
+
+3. &#228;ndring av grunderna f&#246;r ber&#228;kning av s&#229;dan s&#228;rskild 
+ers&#228;ttning som avses i 12 kap. 19 &#167; jordabalken, eller
+
+4. &#228;ndring av villkor som avser hyresg&#228;sternas r&#228;tt att 
+anv&#228;nda utrymmen som &#228;r avsedda att anv&#228;ndas gemensamt av 
+hyresg&#228;sterna.
+
+En f&#246;rhandlingsordning medf&#246;r vidare, om parterna inte enas om 
+annat, skyldighet att, om en av dem beg&#228;r det, f&#246;rhandla i 
+fr&#229;ga om 
+
+1. hyresvillkoren,
+
+2. l&#228;genheternas och husets skick,
+
+3. gemensamma anordningar i huset,
+
+4. &#246;vriga boendef&#246;rh&#229;llanden i den utstr&#228;ckning de r&#246;r 
+hyresg&#228;sterna gemensamt.
+
+Om parterna &#228;r ense om det kan en f&#246;rhandlingsordning ocks&#229; 
+medf&#246;ra r&#228;tt f&#246;r hyresg&#228;storganisationen att f&#229; till st&#229;nd 
+f&#246;rhandling om fr&#229;ga som r&#246;r till&#228;mpning av enskilt hyresavtal 
+under f&#246;ruts&#228;ttning att hyresg&#228;sten genom skriftlig fullmakt 
+har bemyndigat hyresg&#228;storganisationen att f&#246;re-tr&#228;da 
+hyresg&#228;sten i saken.
+
+En f&#246;rhandlingsordning medf&#246;r inte n&#229;gon inskr&#228;nkning i 
+hyresg&#228;stens r&#228;tt att beg&#228;ra pr&#246;vning av hyresvillkoren enligt 
+12 kap. 54 &#167; jordabalken. Vid s&#229;dan pr&#246;vning g&#228;ller 
+best&#228;mmelserna i 12 kap. 53, 54 och 55-55 e &#167;&#167; samma balk.
+Lag (2019:535).
+
+Avtal om f&#246;rhandlingsordning
+
+6 &#167; Ett avtal om f&#246;rhandlingsordning skall avse ett eller flera
+planerade, p&#229;b&#246;rjade eller befintliga hus. Avtalet skall
+uppr&#228;ttas skriftligen och dagtecknas. Lag (2006:409).
+
+7 &#167; Om parterna vill avvika fr&#229;n det som anges i 5 &#167; andra 
+stycket eller om de vill att f&#246;rhandlingsr&#228;tt ska finnas i en 
+fr&#229;ga som avses i 5 &#167; tredje stycket, ska detta anges i 
+avtalet om f&#246;rhandlingsordning.
+
+Om parterna &#228;r &#246;verens om att en skiljeman ska kunna utses 
+enligt 23 a &#167; f&#246;r att pr&#246;va en tvist som avses d&#228;r, ska det 
+ocks&#229; anges i avtalet om f&#246;rhandlingsordning. Motsvarande 
+g&#228;ller i fr&#229;ga om villkor f&#246;r att en ans&#246;kan om en skiljeman 
+ska f&#229; g&#246;ras.
+
+I ett avtal om f&#246;rhandlingsordning ska det anges fr&#229;n vilken 
+tidpunkt f&#246;rhandlingsordningen ska till&#228;mpas. Om det inte har 
+angetts n&#229;gon tidpunkt tr&#228;der den i kraft omedelbart.
+Lag (2022:1658).
+
+8 &#167; Avtal om f&#246;rhandlingsordning g&#228;ller &#228;ven f&#246;r ny hyresv&#228;rd.
+
+Har den tidigare hyresv&#228;rden f&#246;rsummat att upplysa om att
+f&#246;rhandlingsordning g&#228;ller och har den nye hyresv&#228;rden varken &#228;gt
+eller bort &#228;ga k&#228;nnedom om f&#246;rhandlingsordningen, &#228;r den tidigare
+hyresv&#228;rden skyldig att ers&#228;tta skada som f&#246;rorsakas den nye
+hyresv&#228;rden p&#229; grund av f&#246;rsummelsen.
+
+R&#228;tt till f&#246;rhandlingsordning
+
+9 &#167; V&#228;grar hyresv&#228;rd att efter skriftlig beg&#228;ran fr&#229;n
+organisation av hyresg&#228;ster sluta avtal om f&#246;rhandlingsordning
+f&#246;r ett p&#229;b&#246;rjat eller befintligt hus, har organisationen r&#228;tt
+att f&#229; fr&#229;gan om f&#246;rhandlingsordning pr&#246;vad av hyresn&#228;mnden.
+Motsvarande r&#228;tt tillkommer hyresv&#228;rd, om organisation av
+hyresg&#228;ster v&#228;grar att efter skriftlig beg&#228;ran fr&#229;n hyresv&#228;rden
+sluta avtal om f&#246;rhandlingsordning. Lag (2006:409).
+
+10 &#167; Vid pr&#246;vning av tvist som avses i 9 &#167; skall
+hyresg&#228;storganisationen respektive hyresv&#228;rden ha r&#228;tt till
+f&#246;rhandlingsordning, om det med h&#228;nsyn till organisationens
+kvalifikationer, det antal l&#228;genheter som
+f&#246;rhandlingsordningen kan f&#246;rv&#228;ntas komma att omfatta och
+omst&#228;ndigheterna i &#246;vrigt kan anses sk&#228;ligt mot hyresv&#228;rden
+respektive hyresg&#228;storganisationen att den beg&#228;rda
+f&#246;rhandlingsordningen skall g&#228;lla. Lag (1997:64).
+
+11 &#167; Finner hyresn&#228;mnden part ber&#228;ttigad till f&#246;rhandlingsordning,
+skall n&#228;mnden fastst&#228;lla f&#246;rhandlingsordningens inneh&#229;ll. Den
+tidpunkt, fr&#229;n vilken f&#246;rhandlingsordningen skall till&#228;mpas, skall
+best&#228;mmas s&#229; att hyresv&#228;rden f&#229;r sk&#228;lig tid f&#246;r att tr&#228;ffa avtal med
+hyresg&#228;sterna om inf&#246;rande av f&#246;rhandlingsklausul i hyresavtalen.
+
+Upps&#228;gning och f&#246;rl&#228;ngning av f&#246;rhandlingsordning
+
+12 &#167; F&#246;rhandlingsordning upph&#246;r att g&#228;lla efter upps&#228;gning. Upps&#228;gning
+skall vara skriftlig och skall delges motparten.
+
+G&#228;ller f&#246;rhandlingsordning tills vidare, upph&#246;r den att g&#228;lla tidigast
+vid det m&#229;nadsskifte som intr&#228;ffar n&#228;rmast efter tre m&#229;nader fr&#229;n
+upps&#228;gningen.
+
+G&#228;ller f&#246;rhandlingsordning f&#246;r best&#228;md tid, skall upps&#228;gningen ske
+senast tre m&#229;nader f&#246;re utg&#229;ngen av den best&#228;mda tiden.
+
+Saknar f&#246;rhandlingsordning, som avses i tredje stycket, best&#228;mmelse om
+verkan av utebliven upps&#228;gning och sker ej upps&#228;gning i r&#228;tt tid,
+anses f&#246;rhandlingsordningen f&#246;rl&#228;ngd p&#229; ett &#229;r.
+
+13 &#167; Upps&#228;gs f&#246;rhandlingsordning, har motparten r&#228;tt att h&#228;nskjuta
+fr&#229;ga om f&#246;rl&#228;ngning av f&#246;rhandlingsordningen till pr&#246;vning av
+hyresn&#228;mnden. Ans&#246;kan h&#228;rom skall g&#246;ras inom tre veckor fr&#229;n den dag
+d&#229; han fick del av upps&#228;gningen. Senare inkommen ans&#246;kan upptas ej
+till behandling.
+
+Tvist som avses i f&#246;rsta stycket skall pr&#246;vas enligt de grunder som
+anges i 10 &#167;.
+
+Om part p&#229;kallar det, skall hyresn&#228;mnden i samband med att
+f&#246;rhandlingsordning f&#246;rl&#228;ngs pr&#246;va fr&#229;ga om &#228;ndring av dess inneh&#229;ll.
+
+14 &#167; &#196;r fr&#229;ga om f&#246;rl&#228;ngning av f&#246;rhandlingsordning &#228;nnu ej avgjord,
+n&#228;r f&#246;rhandlingsordningen p&#229; grund av upps&#228;gningen skulle ha upph&#246;rt
+att g&#228;lla, skall f&#246;rhandlingsordningen till&#228;mpas till dess att fr&#229;gan
+&#228;r slutligt avgjord.
+
+F&#246;rhandlingen
+
+15 &#167; En part som vill f&#246;rhandla ska g&#246;ra en framst&#228;llning till 
+motparten om det. &#196;r b&#229;de en hyresv&#228;rd och en 
+fastighets&#228;garorganisation parter enligt 
+f&#246;rhandlingsordningen, ska b&#229;da beg&#228;ra f&#246;rhandling och en 
+framst&#228;llning om f&#246;rhandling fr&#229;n motpartens sida g&#246;ras till 
+var och en av dem.
+
+En framst&#228;llning om f&#246;rhandling ska vara skriftlig och 
+inneh&#229;lla den eller de fr&#229;gor som det beg&#228;rs f&#246;rhandling om. 
+Den ska ocks&#229; inneh&#229;lla f&#246;rslag p&#229; tidpunkter och plats f&#246;r 
+sammantr&#228;de f&#246;r f&#246;rhandling.
+
+Ett f&#246;rhandlingssammantr&#228;de ska h&#229;llas inom tre veckor fr&#229;n 
+det att motparten f&#229;tt del av f&#246;rhandlingsframst&#228;llningen.
+
+Parterna f&#229;r avvika fr&#229;n best&#228;mmelserna i denna paragraf genom 
+skriftligt avtal. Lag (2022:1658).
+
+16 &#167; F&#246;rhandlingsskyldig part skall sj&#228;lv eller genom ombud inst&#228;lla
+sig vid f&#246;rhandlingssammantr&#228;de och l&#228;gga fram motiverat f&#246;rslag till
+l&#246;sning av den fr&#229;ga som f&#246;rhandlingen avser.
+
+F&#246;rhandling skall bedrivas skyndsamt. Om part beg&#228;r det, skall f&#246;ras
+protokoll som justeras av b&#229;da parter.
+
+17 &#167; Part som vid f&#246;rhandling &#229;beropar viss handling skall vid
+sammantr&#228;de h&#229;lla den tillg&#228;nglig f&#246;r motparten, om denne beg&#228;r det.
+
+18 &#167; Om parterna inte enas om n&#229;got annat ska en f&#246;rhandling 
+anses avslutad n&#228;r en part, som har fullgjort sin 
+f&#246;rhandlingsskyldighet enligt 16 &#167; f&#246;rsta stycket, har gett 
+motparten ett skriftligt besked om att parten fr&#229;ntr&#228;der 
+f&#246;rhandlingen.
+
+En f&#246;rhandling ska dock inte anses avslutad om ett s&#229;dant 
+besked l&#228;mnas under den tid som
+
+1. parterna har m&#246;jlighet att ans&#246;ka om att en skiljeman ska 
+utses enligt 23 a &#167;, 
+
+2. hyresn&#228;mndens handl&#228;ggning av &#228;rendet om att utse en 
+skiljeman p&#229;g&#229;r, eller
+
+3. skiljemannen utf&#246;r sitt uppdrag.
+
+Har en f&#246;rhandling om en fr&#229;ga avslutats utan att en 
+&#246;verenskommelse har tr&#228;ffats och beg&#228;r en part att 
+f&#246;rhandlingen ska &#229;terupptas, &#228;r motparten inte skyldig att 
+f&#246;rhandla p&#229; grund av denna framst&#228;llning. Lag (2022:1658).
+
+F&#246;rhandlings&#246;verenskommelsen
+
+19 &#167; F&#246;rhandlings&#246;verenskommelse skall avfattas skriftligen och
+undertecknas av f&#246;rhandlingsordningens parter.
+
+Hyresv&#228;rden skall underr&#228;tta hyresg&#228;sterna om inneh&#229;llet i
+f&#246;rhandlings&#246;verenskommelse.
+
+20 &#167; Genom en f&#246;rhandlings&#246;verenskommelse f&#229;r best&#228;mmas att i
+hyran f&#246;r samtliga l&#228;genheter som omfattas av
+f&#246;rhandlingsordningen skall ing&#229; ett visst belopp som utg&#246;r
+ers&#228;ttning till hyresg&#228;storganisationen f&#246;r dess f&#246;rhandlingsarbete.
+Av f&#246;rhandlings&#246;verenskommelsen skall det framg&#229; hur stor del av
+hyran som utg&#246;r ers&#228;ttning av detta slag. Beloppet f&#229;r inte &#246;verstiga
+vad som kan anses sk&#228;ligt med h&#228;nsyn till hyran i &#246;vrigt,
+f&#246;rhandlingskostnadernas storlek och &#246;vriga omst&#228;ndigheter.
+Lag (1994:816).
+
+21 &#167; I en f&#246;rhandlings&#246;verenskommelse om hyra ska samma hyra 
+best&#228;mmas f&#246;r s&#229;dana l&#228;genheter som &#228;r lika stora och som 
+omfattas av samma f&#246;rhandlingsordning, om det inte med h&#228;nsyn 
+till vad som &#228;r k&#228;nt om l&#228;genheternas beskaffenhet och &#246;vriga 
+omst&#228;ndigheter kan anses vara skillnad mellan dem i fr&#229;ga om 
+bruksv&#228;rdet. Detta g&#228;ller dock inte om hyran best&#228;ms enligt 
+12 kap. 55 c &#167; jordabalken och inte heller i den del hyran 
+best&#228;ms enligt 12 kap. 55 d &#167; samma balk.
+
+F&#246;rsta stycket hindrar inte att det i en 
+f&#246;rhandlings&#246;verenskommelse, p&#229; de grunder som anges i 12 kap. 
+55 &#167; sj&#228;tte stycket jordabalken, best&#228;ms att hyra ska betalas 
+med l&#228;gre belopp under sk&#228;lig tid eller att hyresg&#228;ster som 
+deltar i ett system f&#246;r sj&#228;lvf&#246;rvaltning som &#228;r &#246;ppet f&#246;r 
+samtliga ber&#246;rda hyresg&#228;ster ska ha r&#228;tt till avdrag p&#229; den 
+ordinarie hyran. Detta avdrag f&#229;r dock inte vara st&#246;rre &#228;n vad 
+som motiveras av sj&#228;lvf&#246;rvaltningens omfattning.
+Lag (2019:535).
+
+22 &#167; Har f&#246;rhandlings&#246;verenskommelse tr&#228;ffats om hyran eller annat
+hyresvillkor f&#246;r hyresg&#228;st, har hyresg&#228;sten r&#228;tt att hos hyresn&#228;mnden
+ans&#246;ka om &#228;ndring av &#246;verenskommelsen i den del den avser honom. F&#246;r
+att kunna upptas till behandling skall ans&#246;kan ha kommit in till
+hyresn&#228;mnden inom tre m&#229;nader fr&#229;n den dag d&#229; hyresg&#228;sten fick
+underr&#228;ttelse om det nya villkoret eller, i fr&#229;ga om hyra, tre m&#229;nader
+fr&#229;n den dag d&#229; villkoret b&#246;rjade till&#228;mpas mot honom.
+
+Vid pr&#246;vning av hyresvillkor enligt f&#246;rsta stycket skall 12 kap. 55 &#167;
+jordabalken till&#228;mpas med den avvikelse som kan f&#246;lja av 21 &#167;.
+Sk&#228;ligheten av belopp som avses i 20 &#167; f&#229;r pr&#246;vas &#228;ven utan samband
+med pr&#246;vning av hyran i &#246;vrigt.
+
+Beslut varigenom hyresvillkor &#228;ndras tr&#228;der i st&#228;llet f&#246;r
+f&#246;rhandlings&#246;verenskommelsen i den delen. Avser beslutet hyra, skall
+hyresv&#228;rden samtidigt &#229;l&#228;ggas att till hyresg&#228;sten betala tillbaka vad
+han till f&#246;ljd d&#228;rav har uppburit f&#246;r mycket j&#228;mte r&#228;nta. R&#228;ntan skall
+ber&#228;knas enligt 5 &#167; r&#228;ntelagen (1975:635) f&#246;r tiden fr&#229;n dagen f&#246;r
+beloppets mottagande till dess att beslutet har vunnit laga kraft och
+enligt 6 &#167; r&#228;ntelagen f&#246;r tiden d&#228;refter.
+
+Best&#228;mmelserna i denna paragraf g&#228;ller ej i fr&#229;ga om &#246;verenskommelse
+som har ing&#229;tts efter f&#246;rhandling enligt 5 &#167; tredje stycket.
+Lag (1984:696).
+
+23 &#167; Omfattas l&#228;genhet av f&#246;rhandlingsordning, &#228;r avtal som
+hyresv&#228;rden tr&#228;ffar med hyresg&#228;sten i fr&#229;ga som avses i 5 &#167; f&#246;rsta
+stycket ogiltigt, om f&#246;rhandling enligt f&#246;rhandlingsordningen ej har
+&#228;gt rum. S&#229;dant avtal &#228;r &#228;ven ogiltigt, om det avser hyresh&#246;jning
+ut&#246;ver vad som medges i tr&#228;ffad f&#246;rhandlings&#246;verenskommelse eller
+&#228;ndring av grunderna f&#246;r ber&#228;kning av s&#229;dan s&#228;rskild ers&#228;ttning som
+avses i 12 kap. 19 &#167; jordabalken eller av villkor som avser
+hyresg&#228;sternas r&#228;tt anv&#228;nda utrymmen som &#228;r avsedda att anv&#228;ndas
+gemensamt av hyresg&#228;sterna och avtalet strider mot en
+f&#246;rhandlings&#246;verenskommelse. Hyresv&#228;rden &#228;r skyldig att betala
+tillbaka vad han har uppburit f&#246;r mycket j&#228;mte r&#228;nta d&#228;rp&#229; enligt 6 &#167;
+r&#228;ntelagen (1975:635) fr&#229;n dagen f&#246;r beloppets mottagande.
+
+F&#246;rsta stycket g&#228;ller ej, om mot f&#246;rhandling har m&#246;tt hinder som ej
+har berott av hyresv&#228;rden eller av fastighets&#228;garorganisation som &#228;r
+part enligt f&#246;rhandlingsordningen. Lag (1984:696).
+
+S&#228;rskild skiljeman
+
+23 a &#167; Om parterna har avtalat om att en tvist om &#228;ndring av 
+hyran med h&#228;nsyn till den ekonomiska utvecklingen p&#229; orten f&#229;r 
+pr&#246;vas av en s&#228;rskild skiljeman, ska hyresn&#228;mnden p&#229; ans&#246;kan 
+av en part utse en skiljeman.
+
+En ans&#246;kan ska ges in till hyresn&#228;mnden tidigast tre och 
+senast fyra m&#229;nader efter det att motparten f&#229;tt del av 
+f&#246;rhandlingsframst&#228;llningen enligt 15 &#167;, om parterna inte har 
+kommit &#246;verens om n&#229;got annat. En ans&#246;kan f&#229;r g&#246;ras trots att 
+det inte har g&#229;tt tre m&#229;nader om det har uppst&#229;tt n&#229;got hinder 
+mot f&#246;rhandlingen som har berott p&#229; motparten. Lag (2022:1658).
+
+23 b &#167; Den som utses till skiljeman ska vara opartisk, 
+oberoende och i &#246;vrigt l&#228;mplig f&#246;r uppdraget.
+
+En skiljeman som inte &#228;r l&#228;mplig eller av n&#229;gon annan orsak 
+b&#246;r skiljas fr&#229;n uppdraget ska, p&#229; ans&#246;kan av en part eller av 
+skiljemannen sj&#228;lv, entledigas av hyresn&#228;mnden. N&#228;mnden ska i 
+s&#229; fall utse en annan skiljeman. Lag (2022:1658).
+
+23 c &#167; Vid skiljemannens handl&#228;ggning av en tvist ska lagen 
+(2022:1657) om tvistl&#246;sning inom ramen f&#246;r vissa kollektiva 
+hyresf&#246;rhandlingar till&#228;mpas. Lag (2022:1658).
+
+24 &#167; Har f&#246;rhandling enligt f&#246;rhandlingsordning avslutats utan att
+&#246;verenskommelse tr&#228;ffats, har hyresv&#228;rden och hyresg&#228;st r&#228;tt att hos
+hyresn&#228;mnden ans&#246;ka om &#228;ndring av hyresvillkoren i den del som
+f&#246;rhandlingen har avsett. Detsamma g&#228;ller om mot f&#246;rhandling har m&#246;tt
+hinder, som ej har berott av den som har p&#229;kallat &#228;ndring av
+hyresvillkoren eller av organisation som enligt f&#246;rhandlingsordningen
+&#228;r part p&#229; hans sida.
+
+Beslut om &#228;ndring av hyresvillkoren f&#229;r inte avse tiden f&#246;re det
+m&#229;nadsskifte som intr&#228;ffar n&#228;rmast efter tre m&#229;nader fr&#229;n dagen f&#246;r
+ans&#246;kningen. Om det finns sk&#228;l till det, f&#229;r hyresn&#228;mnden dock
+f&#246;rordna att beslut om villkors&#228;ndring skall g&#228;lla fr&#229;n en tidigare
+tidpunkt.
+
+I ans&#246;kningen skall anges den tidpunkt fr&#229;n vilken &#228;ndring av
+hyresvillkoren yrkas. Beg&#228;rs till&#228;mpning av best&#228;mmelsen i andra
+stycket andra meningen, skall sk&#228;len h&#228;rf&#246;r anges. Lag (1984:696).
+
+25 &#167; Vid pr&#246;vning av tvist som avses i 24 &#167; g&#228;ller f&#246;ljande.
+
+Hyran och andra hyresvillkor ska fastst&#228;llas enligt 12 kap. 
+55 &#167; jordabalken.
+
+Om s&#228;rskilda sk&#228;l f&#246;religger, f&#229;r hyresn&#228;mnden pr&#246;va &#228;ven 
+hyresvillkor som har samband med det villkor som f&#246;rhandlingen 
+har avsett.
+
+Best&#228;mmelserna i 12 kap. 50 &#167; tredje stycket och 55 e &#167; 
+fj&#228;rde-&#229;ttonde styckena jordabalken ska till&#228;mpas.
+
+Beslut om att hyresvillkoren &#228;ndras anses som avtal om 
+villkoren f&#246;r fortsatt f&#246;rhyrning. Lag (2019:535).
+
+Skadest&#229;nd
+
+26 &#167; Iakttar hyresv&#228;rd inte sin skyldighet att f&#246;rhandla enligt 5 &#167;
+f&#246;rsta stycket eller enligt f&#246;reskrift i f&#246;rhandlingsordning, &#228;r han
+skyldig att ers&#228;tta hyresg&#228;storganisationen skada som har uppst&#229;tt
+till f&#246;ljd av hans f&#246;rsummelse. Lag (1994:816).
+
+27 &#167; En part &#228;r, om motparten p&#229; r&#228;tt s&#228;tt har beg&#228;rt 
+f&#246;rhandling, skyldig att ers&#228;tta motparten f&#246;r den skada som 
+uppst&#229;r till f&#246;ljd av att parten
+
+1. inte inst&#228;ller sig till det sammantr&#228;de f&#246;r f&#246;rhandling som 
+enligt 15 &#167; tredje stycket ska h&#229;llas inom tre veckor fr&#229;n det 
+att motparten f&#229;tt del av f&#246;rhandlingsframst&#228;llningen, utan 
+att ha giltig urs&#228;kt f&#246;r det, eller
+
+2. inte fullg&#246;r sin f&#246;rhandlingsskyldighet enligt 16 &#167; f&#246;rsta 
+stycket eller enligt en best&#228;mmelse i en f&#246;rhandlingsordning.
+
+En part &#228;r skyldig att ers&#228;tta motparten &#228;ven f&#246;r den skada 
+som uppst&#229;r till f&#246;ljd av att parten bryter mot 16 &#167; andra 
+stycket eller mot 17 &#167;. Lag (2022:1658).
+
+28 &#167; Vid bed&#246;mningen av om, och i vilken utstr&#228;ckning, skada 
+har uppst&#229;tt ska h&#228;nsyn tas &#228;ven till intresset av att denna 
+lag och f&#246;rhandlingsordningen f&#246;ljs och till &#246;vriga 
+omst&#228;ndigheter av annan &#228;n rent ekonomisk betydelse.
+
+Ers&#228;ttning f&#246;r annan skada &#228;n ekonomisk skada ska uppg&#229; till 
+minst h&#228;lften av det prisbasbelopp enligt 2 kap. 6 och 7 &#167;&#167; 
+socialf&#246;rs&#228;kringsbalken som g&#228;ller f&#246;r det &#229;r d&#229; 
+skadeh&#228;ndelsen intr&#228;ffade, om det inte finns s&#228;rskilda sk&#228;l 
+f&#246;r att best&#228;mma ers&#228;ttningen till ett l&#228;gre belopp.
+Lag (2022:1658).
+
+29 &#167; Den som vill fordra skadest&#229;nd enligt 26 eller 27 &#167; skall dels
+inom tv&#229; m&#229;nader fr&#229;n det han fick k&#228;nnedom om den omst&#228;ndighet p&#229;
+vilken anspr&#229;ket grundas underr&#228;tta motparten om sitt anspr&#229;k, dels
+ocks&#229; inom tv&#229; &#229;r fr&#229;n det skadan intr&#228;ffade h&#228;nskjuta tvist om
+anspr&#229;ket till hyresn&#228;mnden. F&#246;rsummas det, &#228;r r&#228;tten till talan
+f&#246;rlorad.
+
+&#214;vriga best&#228;mmelser
+
+30 &#167; Fr&#229;ga enligt denna lag pr&#246;vas av hyresn&#228;mnd. Fr&#229;ga om skadest&#229;nd
+som avses i 8 &#167; andra stycket pr&#246;vas dock av allm&#228;n domstol.
+
+I fr&#229;ga om f&#246;rfarandet vid hyresn&#228;mnden finns best&#228;mmelser i lagen
+(1973:188) om arrenden&#228;mnder och hyresn&#228;mnder.
+
+Fastighets&#228;garorganisation eller hyresg&#228;storganisation &#228;r ej part i
+&#228;rende enligt 22 &#167;.
+
+31 &#167; Hyresn&#228;mndens beslut enligt denna lag f&#229;r &#246;verklagas hos 
+Svea hovr&#228;tt inom tre veckor fr&#229;n den dag beslutet meddelades. 
+Beslut om att utse en skiljeman enligt 23 a &#167; eller entlediga 
+en skiljeman enligt 23 b &#167; f&#229;r dock inte &#246;verklagas.
+
+Ett &#246;verklagande ska ges in till hyresn&#228;mnden. Lag (2022:1658).
+
+32 &#167; I tvist som avses i 22 eller 24 &#167; skall vardera parten svara f&#246;r
+sin r&#228;tteg&#229;ngskostnad i hovr&#228;tten, i den m&#229;n ej annat f&#246;ljer av 18
+kap. 6 &#167; r&#228;tteg&#229;ngsbalken. Lag (1994:838).
+
+33 &#167; Om s&#228;rskilda sk&#228;l f&#246;religger, kan l&#228;nsstyrelsen medge undantag fr&#229;n
+till&#228;mpningen av lagen i fr&#229;ga om hus som &#228;gs av en f&#246;rening eller
+aktiebolag som avses i punkt 7 &#246;verg&#229;ngsbest&#228;mmelserna till
+bostadsr&#228;ttslagen (1991:614). Lag (1991:624).
+
+34 &#167; Ett protokoll enligt 16 &#167; f&#229;r justeras och en 
+f&#246;rhandlings&#246;verens-kommelse enligt 19 &#167; f&#229;r undertecknas med 
+en s&#229;dan avancerad elektronisk underskrift som avses i 
+artikel 3 i Europaparlamentets och r&#229;dets f&#246;rordning (EU) 
+nr 910/2014 av den 23 juli 2014 om elektronisk identifiering 
+och betrodda tj&#228;nster f&#246;r elektroniska transaktioner p&#229; den 
+inre marknaden och om upph&#228;vande av direktiv 1999/93/EG, i den 
+ursprungliga lydelsen. Lag (2019:1171).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1986:1178
+
+Denna lag tr&#228;der i kraft den 1 januari 1987. I fr&#229;ga om beslut som har
+meddelats f&#246;re ikrafttr&#228;dandet g&#228;ller dock &#228;ldre f&#246;reskrifter.
+
+1994:816
+
+1. Denna lag tr&#228;der i kraft den 1 juli 1994.
+
+2. Den nya lydelsen av 3 &#167; skall till&#228;mpas &#228;ven p&#229; en
+f&#246;rhandlingsordning som har kommit till st&#229;nd f&#246;re
+ikrafttr&#228;dandet.
+
+1997:64
+
+1. Denna lag tr&#228;der i kraft den 1 april 1997.
+
+2. Om hyresv&#228;rden och hyresg&#228;sten f&#246;re ikrafttr&#228;dandet har
+tr&#228;ffat en skriftlig &#246;verenskommelse om att hyresavtalet inte
+skall inneh&#229;lla en f&#246;rhandlingsklausul, &#228;r &#246;verenskommelsen
+giltig &#228;ven efter ikrafttr&#228;dandet. Detsamma g&#228;ller beslut av
+hyresn&#228;mnden som har meddelats f&#246;re ikrafttr&#228;dandet och som
+inneb&#228;r att hyresavtalet inte skall inneh&#229;lla n&#229;gon
+f&#246;rhandlingsklausul.
+
+3. Om det f&#246;re ikrafttr&#228;dandet har slutits avtal om tv&#229; eller
+flera f&#246;rhandlingsordningar f&#246;r ett visst eller vissa hus,
+g&#228;ller fr&#229;n ikrafttr&#228;dandet den f&#246;rhandlingsordning som
+omfattar flest l&#228;genheter. Om f&#246;rhandlingsordningarna
+omfattar samma antal l&#228;genheter, g&#228;ller den senast tillkomna
+f&#246;rhandlingsordningen.
+
+2002:30
+
+1. Denna lag tr&#228;der i kraft den 1 april 2002.
+
+2. I fr&#229;ga om en tvist enligt 2 &#167; andra stycket som har
+h&#228;nskjutits till hyresn&#228;mnden f&#246;re ikrafttr&#228;dandet g&#228;ller 3 a &#167;
+i sin &#228;ldre lydelse.
+
+2006:409
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2006.
+
+2. I fr&#229;ga om hyresavtal som har ing&#229;tts f&#246;re ikrafttr&#228;dandet
+skall 5 och 21 &#167;&#167; till&#228;mpas i sina &#228;ldre lydelser.
+
+2022:1658
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2023.
+
+2. Best&#228;mmelsen i 2 &#167; i den nya lydelsen till&#228;mpas &#228;ven f&#246;r 
+hyresavtal som har ing&#229;tts f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3996">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3998">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

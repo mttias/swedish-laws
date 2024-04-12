@@ -1,0 +1,607 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-07-10" /> 
+ <meta id="rattsinfo-edited" content="2023-07-10 10:12:49" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>235</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=234">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=236">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2022:666 ·
+                    <a href="/sfsr?bet=2022:666">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Terroristbrottslag (2022:666)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L5
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2022-06-02
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:262
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2022-07-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens inneh&#229;ll
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om terrorism och annan 
+s&#228;rskilt allvarlig brottslighet.
+
+Ord och uttryck i lagen
+
+2 &#167; Med s&#228;rskilt allvarlig brottslighet avses i denna lag
+
+1. mord, dr&#229;p, misshandel, grov misshandel, synnerligen grov 
+misshandel, m&#228;nniskorov, olaga frihetsber&#246;vande, grov 
+skadeg&#246;relse, mordbrand och grov mordbrand, om g&#228;rningen 
+utf&#246;rs mot n&#229;gon s&#229;dan internationellt skyddad person som 
+avses i konventionen den 14 december 1973 om f&#246;rebyggande och 
+bestraffning av brott mot diplomater och andra internationellt 
+skyddade personer, 
+
+2. m&#228;nniskorov och olaga frihetsber&#246;vande, om avsikten med 
+g&#228;rningen &#228;r att tvinga n&#229;gon att vidta eller avst&#229; fr&#229;n att 
+vidta en &#229;tg&#228;rd,
+
+3. mordbrand, grov mordbrand, grov allm&#228;nfarlig &#246;del&#228;ggelse 
+och spridande av gift eller smitta, grovt brott, om brottet 
+riktas mot en allm&#228;n plats, en offentlig anl&#228;ggning, ett 
+allm&#228;nt transportsystem eller en infrastrukturanl&#228;ggning,
+
+4. grovt sabotage, kapning, sj&#246;- eller luftfartssabotage och 
+flygplatssabotage, 
+
+5. f&#246;ljande brott, i s&#229;dana fall som avses i artikel 7 i 
+konventionen den 3 mars 1980 om fysiskt skydd av k&#228;rn&#228;mne och 
+artikel 2 i den internationella konventionen den 13 april 2005 
+f&#246;r bek&#228;mpande av nukle&#228;r terrorism:
+
+a) grov allm&#228;nfarlig &#246;del&#228;ggelse och spridande av gift eller 
+smitta, grovt brott,
+
+b) upps&#229;tligt brott enligt 25 &#167; f&#246;rsta stycket 1 och 2 lagen 
+(1984:3) om k&#228;rnteknisk verksamhet samt motsvarande grova 
+brott enligt 25 a &#167; samma lag, och 
+
+c) upps&#229;tligt brott enligt 9 kap. 2 &#167; 1 str&#229;lskyddslagen 
+(2018:396) som avser tillst&#229;ndsplikt enligt 6 kap. 1 &#167; samma 
+lag avseende s&#229;dan verksamhet som avses i 1 kap. 7 &#167; 1 och 2 
+samma lag, samt 
+
+6. upps&#229;tligt brott enligt n&#229;gon annan lag &#228;n denna som beg&#229;s 
+med en s&#229;dan avsikt som avses i 4 &#167;. Lag (2023:262).
+
+3 &#167; Med terroristorganisation avses i denna lag en 
+sammanslutning av personer som beg&#229;r eller p&#229; annat s&#228;tt 
+medverkar till terroristbrott eller g&#246;r sig skyldiga till 
+f&#246;rs&#246;k, f&#246;rberedelse eller st&#228;mpling till terroristbrott.
+
+Ansvar
+
+4 &#167; F&#246;r terroristbrott d&#246;ms den som beg&#229;r eller f&#246;rs&#246;ker beg&#229; 
+ett upps&#229;tligt brott om
+
+1. g&#228;rningen allvarligt kan skada ett land eller en 
+mellanstatlig organisation, och
+
+2. g&#228;rningen beg&#229;s i avsikt att
+
+a) injaga allvarlig fruktan hos en befolkning eller en del av 
+en befolkning,
+
+b) otillb&#246;rligen tvinga ett offentligt organ eller en 
+mellanstatlig organisation att vidta eller att avst&#229; fr&#229;n att 
+vidta en &#229;tg&#228;rd, eller
+
+c) allvarligt destabilisera eller f&#246;rst&#246;ra grundl&#228;ggande 
+politiska, konstitutionella, ekonomiska eller sociala 
+strukturer i ett land eller i en mellanstatlig organisation.
+
+Straffet &#228;r f&#228;ngelse p&#229; viss tid, l&#228;gst fyra och h&#246;gst arton 
+&#229;r, eller p&#229; livstid.
+
+Om brottet &#228;r mindre grovt, d&#246;ms till f&#228;ngelse i l&#228;gst tv&#229; och 
+h&#246;gst sex &#229;r.
+
+Om ett h&#246;gre l&#228;gsta straff f&#246;r g&#228;rningen har f&#246;reskrivits i 
+annan lag, g&#228;ller vad som s&#228;gs d&#228;r i fr&#229;ga om l&#228;gsta straff.
+
+4 a &#167; F&#246;r deltagande i en terroristorganisation d&#246;ms den som 
+deltar i verksamheten i en terroristorganisation p&#229; ett s&#228;tt 
+som &#228;r &#228;gnat att fr&#228;mja, st&#228;rka eller underst&#246;dja 
+organisationen.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst fyra &#229;r.
+
+Om brottet &#228;r grovt, d&#246;ms till f&#228;ngelse i l&#228;gst tv&#229; och h&#246;gst 
+&#229;tta &#229;r. Vid bed&#246;mningen av om brottet &#228;r grovt ska det 
+s&#228;rskilt beaktas om g&#228;rningsmannen har haft en central roll 
+inom terroristorganisationen, om g&#228;rningen har varit &#228;gnad att 
+p&#229;tagligt bidra till organisationens f&#246;rm&#229;ga att beg&#229; 
+terroristbrott eller om g&#228;rningen p&#229; annat s&#228;tt har varit av 
+s&#228;rskilt farlig art. Har g&#228;rningsmannen lett 
+terroristorganisationen d&#246;ms i st&#228;llet till f&#228;ngelse p&#229; viss 
+tid, l&#228;gst tv&#229; och h&#246;gst arton &#229;r, eller p&#229; livstid.
+
+G&#228;rningen utg&#246;r inte brott, om den &#228;r ringa eller om den med 
+h&#228;nsyn till omst&#228;ndigheterna &#228;r f&#246;rsvarlig. Lag (2023:227).
+
+5 &#167; F&#246;r samr&#246;re med en terroristorganisation d&#246;ms, om 
+g&#228;rningen &#228;r &#228;gnad att fr&#228;mja, st&#228;rka eller underst&#246;dja en 
+terroristorganisation, den som, i annat fall &#228;n som avses i 
+4 a &#167;,
+
+1. f&#246;r terroristorganisationen tar befattning med vapen, 
+ammunition, brandfarliga eller explosiva varor eller 
+transportmedel,
+
+2. uppl&#229;ter lokal eller mark till terroristorganisationen, 
+eller
+
+3. l&#228;mnar annat liknande st&#246;d till terroristorganisationen.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst fyra &#229;r.
+
+Om brottet &#228;r grovt, d&#246;ms till f&#228;ngelse i l&#228;gst ett &#229;r och sex 
+m&#229;nader och h&#246;gst sju &#229;r. Vid bed&#246;mningen av om brottet &#228;r 
+grovt ska det s&#228;rskilt beaktas om g&#228;rningen har ing&#229;tt som ett 
+led i en verksamhet som har bedrivits i st&#246;rre omfattning 
+eller om den p&#229; annat s&#228;tt har varit av s&#228;rskilt farlig art.
+
+G&#228;rningen utg&#246;r inte brott, om den &#228;r ringa eller om den med 
+h&#228;nsyn till omst&#228;ndigheterna &#228;r f&#246;rsvarlig. Lag (2023:227).
+
+6 &#167; F&#246;r finansiering av terrorism eller s&#228;rskilt allvarlig 
+brottslighet d&#246;ms den som samlar in, tar emot eller 
+tillhandah&#229;ller pengar eller annan egendom i avsikt att 
+egendomen ska anv&#228;ndas eller med vetskap om att den &#228;r avsedd 
+att anv&#228;ndas
+
+1. f&#246;r att beg&#229; eller p&#229; annat s&#228;tt medverka till
+
+a) terroristbrott eller f&#246;rs&#246;k, f&#246;rberedelse eller st&#228;mpling 
+till terroristbrott, eller
+
+b) s&#228;rskilt allvarlig brottslighet eller brott som avses i 
+4 a eller 5 &#167; eller n&#229;gon av 7-10 &#167;&#167;, eller
+
+2. av 
+
+a) en person som beg&#229;r eller p&#229; annat s&#228;tt medverkar till 
+terroristbrott eller s&#228;rskilt allvarlig brottslighet eller g&#246;r 
+sig skyldig till f&#246;rs&#246;k, f&#246;rberedelse eller st&#228;mpling till 
+terroristbrott eller s&#228;rskilt allvarlig brottslighet,
+
+b) en terroristorganisation, eller
+
+c) en sammanslutning av personer som beg&#229;r eller p&#229; annat s&#228;tt 
+medverkar till s&#228;rskilt allvarlig brottslighet eller g&#246;r sig 
+skyldiga till f&#246;rs&#246;k, f&#246;rberedelse eller st&#228;mpling till 
+s&#228;rskilt allvarlig brottslighet.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst tre &#229;r.
+
+Om brottet &#228;r grovt, d&#246;ms till f&#228;ngelse i l&#228;gst ett och h&#246;gst 
+sex &#229;r. Vid bed&#246;mningen av om brottet &#228;r grovt ska det 
+s&#228;rskilt beaktas om g&#228;rningen
+
+1. har avsett brottslighet som innefattar fara f&#246;r flera 
+m&#228;nniskoliv eller f&#246;r egendom av s&#228;rskild betydelse, 
+
+2. har ing&#229;tt som ett led i en verksamhet som har bedrivits i 
+st&#246;rre omfattning, 
+
+3. har avsett betydande v&#228;rde, eller
+
+4. p&#229; annat s&#228;tt har varit av s&#228;rskilt farlig art.
+
+Ringa fall utg&#246;r inte brott. Lag (2023:227).
+
+7 &#167; F&#246;r offentlig uppmaning till terrorism eller s&#228;rskilt 
+allvarlig brottslighet d&#246;ms den som i ett meddelande till 
+allm&#228;nheten uppmanar eller p&#229; annat s&#228;tt s&#246;ker f&#246;rleda till 
+terroristbrott, s&#228;rskilt allvarlig brottslighet eller brott 
+som avses i n&#229;gon av 4 a-6 &#167;&#167; eller 8-10 &#167;&#167;.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst tre &#229;r.
+
+Om brottet &#228;r grovt, d&#246;ms till f&#228;ngelse i l&#228;gst ett och h&#246;gst 
+sex &#229;r. Vid bed&#246;mningen av om brottet &#228;r grovt ska det 
+s&#228;rskilt beaktas om g&#228;rningen
+
+1. har avsett brottslighet som innefattar fara f&#246;r flera 
+m&#228;nniskoliv eller f&#246;r egendom av s&#228;rskild betydelse,
+
+2. har ing&#229;tt som ett led i en verksamhet som har bedrivits i 
+st&#246;rre omfattning, eller
+
+3. p&#229; annat s&#228;tt har varit av s&#228;rskilt farlig art.
+
+Ringa fall utg&#246;r inte brott. Lag (2023:227).
+
+8 &#167; F&#246;r rekrytering till terrorism eller s&#228;rskilt allvarlig 
+brottslighet d&#246;ms den som, i annat fall &#228;n som avses i 7 &#167;, 
+s&#246;ker f&#246;rm&#229; n&#229;gon annan att beg&#229; eller p&#229; annat s&#228;tt medverka 
+till
+
+1. terroristbrott eller f&#246;rs&#246;k, f&#246;rberedelse eller st&#228;mpling 
+till terroristbrott, eller
+
+2. s&#228;rskilt allvarlig brottslighet eller brott som avses i 
+n&#229;gon av 4 a-6 &#167;&#167;.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst tre &#229;r.
+
+Om brottet &#228;r grovt, d&#246;ms till f&#228;ngelse i l&#228;gst ett och h&#246;gst 
+sex &#229;r. Vid bed&#246;mningen av om brottet &#228;r grovt ska det 
+s&#228;rskilt beaktas om g&#228;rningen
+
+1. har avsett brottslighet som innefattar fara f&#246;r flera 
+m&#228;nniskoliv eller f&#246;r egendom av s&#228;rskild betydelse, 
+
+2. har ing&#229;tt som ett led i en verksamhet som har bedrivits i 
+st&#246;rre omfattning, eller
+
+3. p&#229; annat s&#228;tt har varit av s&#228;rskilt farlig art.
+
+Ringa fall utg&#246;r inte brott. Lag (2023:227).
+
+9 &#167; F&#246;r utbildning f&#246;r terrorism eller s&#228;rskilt allvarlig 
+brottslighet d&#246;ms den som
+
+1. till n&#229;gon annan meddelar eller s&#246;ker meddela instruktioner 
+om tillverkning eller anv&#228;ndning av s&#229;dana hj&#228;lpmedel eller om 
+s&#229;dana metoder eller tekniker som &#228;r s&#228;rskilt &#228;gnade att 
+anv&#228;ndas vid terroristbrott, s&#228;rskilt allvarlig brottslighet 
+eller brott som avses i 6 &#167;, i avsikt att instruktionerna ska 
+anv&#228;ndas eller med vetskap om att de &#228;r avsedda att anv&#228;ndas 
+f&#246;r att beg&#229; eller p&#229; annat s&#228;tt medverka till s&#229;dan 
+brottslighet, eller
+
+2. tar del av s&#229;dana instruktioner som avses i 1 i avsikt att 
+anv&#228;nda dem f&#246;r att beg&#229; eller p&#229; annat s&#228;tt medverka till 
+terroristbrott, s&#228;rskilt allvarlig brottslighet eller brott 
+som avses i 6 &#167;.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst tre &#229;r.
+
+Om brottet &#228;r grovt, d&#246;ms till f&#228;ngelse i l&#228;gst ett och h&#246;gst 
+sex &#229;r. Vid bed&#246;mningen av om brottet &#228;r grovt ska det 
+s&#228;rskilt beaktas om g&#228;rningen
+
+1. har avsett brottslighet som innefattar fara f&#246;r flera 
+m&#228;nniskoliv eller f&#246;r egendom av s&#228;rskild betydelse,
+
+2. har ing&#229;tt som ett led i en verksamhet som har bedrivits i 
+st&#246;rre omfattning, eller
+
+3. p&#229; annat s&#228;tt har varit av s&#228;rskilt farlig art.
+
+Ringa fall utg&#246;r inte brott.
+
+10 &#167; F&#246;r resa f&#246;r terrorism eller s&#228;rskilt allvarlig 
+brottslighet d&#246;ms den som reser eller p&#229;b&#246;rjar en resa till 
+ett annat land i avsikt att
+
+1. beg&#229; eller p&#229; annat s&#228;tt medverka till terroristbrott, 
+s&#228;rskilt allvarlig brottslighet eller brott som avses i 6 &#167; 
+eller g&#246;ra sig skyldig till f&#246;rberedelse eller st&#228;mpling till 
+terroristbrott, s&#228;rskilt allvarlig brottslighet eller brott 
+som avses i 6 &#167;, eller
+
+2. beg&#229; brott som avses i 4 a, 5 eller 9 &#167;.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst tv&#229; &#229;r.
+
+Ringa fall utg&#246;r inte brott.
+
+F&#246;rsta stycket g&#228;ller inte den som &#228;r svensk medborgare och 
+som reser eller p&#229;b&#246;rjar en resa till Sverige. Lag (2023:227).
+
+11 &#167; Om sk&#228;let till att ett terroristbrott inte har 
+fullbordats endast &#228;r att det krav som f&#246;ljer av 4 &#167; f&#246;rsta 
+stycket 1 inte &#228;r uppfyllt, d&#246;ms det till ansvar f&#246;r f&#246;rs&#246;k 
+till terroristbrott enligt 23 kap. brottsbalken. F&#246;r 
+f&#246;rberedelse och st&#228;mpling till samt underl&#229;tenhet att avsl&#246;ja 
+eller f&#246;rhindra terroristbrott samt f&#246;r f&#246;rs&#246;k till brott som 
+avses i n&#229;gon av 4 a-6 &#167;&#167; d&#246;ms det ocks&#229; till ansvar enligt 
+samma kapitel. Lag (2023:227).
+
+F&#246;rsv&#229;rande omst&#228;ndighet
+
+12 &#167; Om n&#229;gon har beg&#229;tt ett brott enligt annan lag ska det 
+som en f&#246;rsv&#229;rande omst&#228;ndighet vid bed&#246;mningen av 
+straffv&#228;rdet, vid sidan av vad som g&#228;ller f&#246;r varje s&#228;rskild 
+brottstyp och enligt best&#228;mmelserna i 29 kap. 2 &#167; 
+brottsbalken, beaktas om brottet har beg&#229;tts med upps&#229;t att 
+fr&#228;mja brott som avses i n&#229;gon av 4-10 &#167;&#167;.
+
+F&#246;rverkande
+
+13 &#167; Om det inte &#228;r uppenbart osk&#228;ligt, ska f&#246;ljande egendom 
+f&#246;rklaras f&#246;rverkad:
+
+1. pengar eller annan egendom som har varit f&#246;rem&#229;l f&#246;r brott 
+som avses i 6 &#167; eller f&#246;rs&#246;k till s&#229;dant brott,
+
+2. utbyte av brott enligt denna lag, och
+
+3. vad n&#229;gon har tagit emot som ers&#228;ttning f&#246;r kostnader i 
+samband med ett brott enligt denna lag, om mottagandet utg&#246;r 
+brott enligt lagen.
+
+I st&#228;llet f&#246;r egendomen f&#229;r dess v&#228;rde f&#246;rklaras f&#246;rverkat.
+
+I 36 kap. 5 &#167; brottsbalken finns best&#228;mmelser om hos vem 
+f&#246;rverkande f&#229;r ske. F&#246;rverkande enligt f&#246;rsta stycket 1 f&#229;r 
+dock ske hos g&#228;rningsmannen eller hos den som har medverkat 
+till brottet, &#228;ven om egendomen vid brottet tillh&#246;rde n&#229;gon 
+annan.
+
+14 &#167; Egendom som har anv&#228;nts som hj&#228;lpmedel vid brott enligt 
+denna lag f&#229;r f&#246;rklaras f&#246;rverkad, om det beh&#246;vs f&#246;r att 
+f&#246;rebygga brott eller om det finns andra s&#228;rskilda sk&#228;l. 
+Detsamma g&#228;ller
+
+1. egendom som har varit avsedd att anv&#228;ndas som hj&#228;lpmedel 
+vid brott enligt denna lag, om brottet har fullbordats eller 
+om f&#246;rfarandet har utgjort ett straffbart f&#246;rs&#246;k eller en 
+straffbar f&#246;rberedelse eller st&#228;mpling, och
+
+2. egendom som n&#229;gon har tagit befattning med p&#229; ett s&#228;tt som 
+utg&#246;r brott enligt denna lag.
+
+I st&#228;llet f&#246;r egendomen f&#229;r dess v&#228;rde f&#246;rklaras f&#246;rverkat.
+
+I 36 kap. 5 &#167; brottsbalken finns best&#228;mmelser om hos vem 
+f&#246;rverkande f&#229;r ske.
+
+Penningbeslag
+
+15 &#167; Egendom i form av pengar, en fordran eller en annan 
+r&#228;ttighet som sk&#228;ligen kan antas vara f&#246;rem&#229;l f&#246;r brott som 
+avses i 6 &#167; eller f&#246;rs&#246;k till s&#229;dant brott f&#229;r tas i beslag 
+(penningbeslag). I st&#228;llet f&#246;r egendomen f&#229;r motsvarande v&#228;rde 
+tas i beslag.
+
+Penningbeslag f&#229;r beslutas endast om sk&#228;len f&#246;r &#229;tg&#228;rden 
+uppv&#228;ger det intr&#229;ng eller men i &#246;vrigt som &#229;tg&#228;rden inneb&#228;r 
+f&#246;r den misst&#228;nkte eller f&#246;r n&#229;got annat motst&#229;ende intresse.
+
+16 &#167; Unders&#246;kningsledaren eller &#229;klagaren beslutar om 
+penningbeslag. Penningbeslag f&#229;r avse endast s&#229;dan egendom som 
+finns tillg&#228;nglig.
+
+Avser penningbeslaget en fordran eller en annan r&#228;ttighet, ska 
+g&#228;lden&#228;ren eller n&#229;gon annan f&#246;rpliktad meddelas f&#246;rbud att 
+fullg&#246;ra sin f&#246;rpliktelse till n&#229;gon annan &#228;n 
+Polismyndigheten. 
+
+F&#246;r penningbeslag g&#228;ller i &#246;vrigt best&#228;mmelserna om beslag i 
+r&#228;tteg&#229;ngsbalken.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=234">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=236">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

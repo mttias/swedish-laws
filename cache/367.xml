@@ -1,0 +1,889 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2021-06-30" /> 
+ <meta id="rattsinfo-edited" content="2021-07-30" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>367</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=366">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=368">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2021:713 ·
+                    <a href="/sfsr?bet=2021:713">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2021:713) med kompletterande best&#228;mmelser om straffr&#228;ttsligt samarbete mellan Europeiska unionen och F&#246;renade kungariket</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet BIRS
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2021-06-23
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2021-07-15
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser som kompletterar 
+vissa delar av avtalet om handel och samarbete mellan 
+Europeiska unionen och Europeiska atomenergigemenskapen, &#229; ena 
+sidan, och F&#246;renade konungariket Storbritannien och 
+Nordirland, &#229; andra sidan, i denna f&#246;rordning kallat avtalet, 
+och lagen (2021:709) med kompletterande best&#228;mmelser om 
+straffr&#228;ttsligt samarbete mellan Europeiska unionen och 
+F&#246;renade kungariket.
+
+De delar av avtalet som kompletteras &#228;r avdelning VII om 
+&#246;verl&#228;mnande (artiklarna 596-632) och avdelning XI om frysning 
+och f&#246;rverkande (artiklarna 656-689) i del 3 om 
+brottsbek&#228;mpning och straffr&#228;ttsligt samarbete.
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen. 
+
+2 &#167; Termer och uttryck i denna f&#246;rordning har samma betydelse 
+som i avtalet.
+
+3 &#167; Riks&#229;klagaren best&#228;mmer vilka &#229;klagare 
+
+1. som &#228;r beh&#246;riga enligt 2 kap. 1 &#167; och 3 kap. 1 &#167; lagen 
+(2021:709) med kompletterande best&#228;mmelser om straffr&#228;ttsligt 
+samarbete mellan Europeiska unionen och F&#246;renade kungariket, 
+och
+
+2. som &#228;r beh&#246;riga att handl&#228;gga en ans&#246;kan enligt 4 kap. 5 &#167; 
+lagen (2021:709) med kompletterande best&#228;mmelser om 
+straffr&#228;ttsligt samarbete mellan Europeiska unionen och 
+F&#246;renade kungariket.
+
+Detta g&#228;ller dock inte i ett s&#229;dant fall d&#228;r Justitiekanslern 
+eller n&#229;gon av riksdagens ombudsm&#228;n till f&#246;ljd av f&#246;reskrifter 
+i en annan f&#246;rfattning &#228;r s&#228;rskild &#229;klagare.
+
+4 &#167; I 11 kap. 5 &#167; lagen (1991:1559) med f&#246;reskrifter p&#229; 
+tryckfrihetsf&#246;rordningens och yttrandefrihetsgrundlagens 
+omr&#229;den finns en best&#228;mmelse om att Justitiekanslern ska ges 
+tillf&#228;lle att yttra sig i vissa fall.
+
+5 &#167; All kommunikation med den utf&#228;rdande eller verkst&#228;llande 
+r&#228;ttsliga myndigheten i F&#246;renade kungariket med st&#246;d av 
+avdelning VII om &#246;verl&#228;mnande i del 3 om brottsbek&#228;mpning och 
+straffr&#228;ttsligt samarbete i avtalet samt 2 och 3 kap. i denna 
+f&#246;rordning ska ske genom centralmyndigheten i F&#246;renade 
+kungariket, om inte direkt kommunikation sker med st&#246;d av 
+avtalet.
+
+6 &#167; All kommunikation med F&#246;renade kungariket med st&#246;d av 
+avdelning XI om frysning och f&#246;rverkande i del 3 om 
+brottsbek&#228;mpning och straffr&#228;ttsligt samarbete i avtalet samt 
+4 och 5 kap. i denna f&#246;rordning ska ske genom 
+Regeringskansliet, om inte direkt kommunikation sker enligt 
+artikel 677 i avtalet. 
+
+Den myndighet som &#246;vers&#228;nder handlingar till F&#246;renade 
+kungariket ansvarar f&#246;r att &#246;vers&#228;tta handlingarna till 
+engelska, n&#228;r ett s&#229;dant krav p&#229; &#246;vers&#228;ttning f&#246;ljer av 
+avtalet.
+
+2 kap. &#214;verl&#228;mnande av misst&#228;nkta eller d&#246;mda till Sverige
+
+Arresteringsorder f&#246;r lagf&#246;ring
+
+1 &#167; En arresteringsorder f&#246;r lagf&#246;ring f&#229;r utf&#228;rdas av 
+&#229;klagaren f&#246;r ett brott som den efters&#246;kte &#228;r h&#228;ktad p&#229; 
+sannolika sk&#228;l misst&#228;nkt f&#246;r och som det &#228;r f&#246;reskrivet 
+f&#228;ngelse i ett &#229;r eller mer f&#246;r.
+
+Arresteringsorder f&#246;r verkst&#228;llighet av en frihetsber&#246;vande 
+p&#229;f&#246;ljd
+
+2 &#167; En arresteringsorder f&#246;r verkst&#228;llighet av en 
+frihetsber&#246;vande p&#229;f&#246;ljd utf&#228;rdas av &#229;klagaren p&#229; beg&#228;ran av 
+
+- Kriminalv&#229;rden f&#246;r verkst&#228;llighet av f&#228;ngelse,
+
+- Socialstyrelsen f&#246;r verkst&#228;llighet av r&#228;ttspsykiatrisk v&#229;rd, 
+och
+
+- Statens institutionsstyrelse f&#246;r verkst&#228;llighet av sluten 
+ungdomsv&#229;rd.
+
+En arresteringsorder f&#229;r utf&#228;rdas f&#246;r en dom som har f&#229;tt laga 
+kraft, om en frihetsber&#246;vande p&#229;f&#246;ljd i minst fyra m&#229;nader 
+eller utan tidsbegr&#228;nsning har d&#246;mts ut.
+
+Direkt &#246;vers&#228;ndande av en arresteringsorder
+
+3 &#167; Om arresteringsordern s&#228;nds &#246;ver direkt enligt artikel 607 
+i avtalet, ansvarar &#229;klagaren f&#246;r &#229;tg&#228;rder enligt 7 &#167;. En 
+kopia av arresteringsordern ska s&#228;ndas till Polismyndigheten.
+
+&#197;terkallelse
+
+4 &#167; N&#228;r det inte l&#228;ngre finns sk&#228;l att beg&#228;ra den efters&#246;kte 
+&#246;verl&#228;mnad, ska &#229;klagaren &#229;terkalla arresteringsordern. 
+&#197;klagaren ska omedelbart underr&#228;tta den verkst&#228;llande 
+r&#228;ttsliga myndigheten i F&#246;renade kungariket och 
+Polismyndigheten om &#229;terkallelsen.
+
+&#197;tg&#228;rder efter det att den efters&#246;kte antr&#228;ffas
+
+5 &#167; N&#228;r &#229;klagaren f&#229;r information om att den efters&#246;kte har 
+antr&#228;ffats, ska &#229;klagaren omedelbart vidarebefordra 
+informationen till Polismyndigheten, om den inte redan har 
+f&#229;tt informationen. 
+
+Om en annan myndighet &#228;n &#229;klagaren f&#229;r information om att den 
+efters&#246;kte har antr&#228;ffats, ska den myndigheten omedelbart 
+vidarebefordra informationen till &#229;klagaren.
+
+6 &#167; Efter det att &#229;klagaren har f&#229;tt den information som anges 
+i 5 &#167;, ska han eller hon utf&#228;rda en arresteringsorder.
+
+7 &#167; Efter det att &#229;klagaren har utf&#228;rdat en arresteringsorder 
+enligt 6 &#167; ska Polismyndigheten omedelbart &#246;vers&#228;tta 
+arresteringsordern till engelska och &#246;vers&#228;nda den till den 
+verkst&#228;llande r&#228;ttsliga myndigheten i F&#246;renade kungariket.
+
+F&#246;rsvarare eller bitr&#228;de
+
+8 &#167; Om &#229;klagaren informeras om att den efters&#246;kte vill anlita 
+en f&#246;rsvarare eller ett bitr&#228;de i Sverige enligt artikel 609.4 
+i avtalet, ska &#229;klagaren s&#229; snart som m&#246;jligt ge den 
+efters&#246;kte information som underl&#228;ttar f&#246;r honom eller henne 
+att anlita en f&#246;rsvarare eller ett bitr&#228;de. Om den efters&#246;kte 
+har en offentlig f&#246;rsvarare f&#246;rordnad i Sverige, ska &#229;klagaren 
+informera den efters&#246;kte om det. 
+
+Garantier f&#246;r &#246;verl&#228;mnande
+
+9 &#167; &#197;klagaren pr&#246;var fr&#229;gor om garantier som den verkst&#228;llande 
+r&#228;ttsliga myndigheten i F&#246;renade kungariket kr&#228;ver f&#246;r 
+&#246;verl&#228;mnande. Vid &#246;verl&#228;mnande f&#246;r lagf&#246;ring pr&#246;var dock 
+riks&#229;klagaren fr&#229;gor om garantier om &#229;terf&#246;rande av den 
+efters&#246;kte. 
+
+Transport
+
+10 &#167; &#197;klagaren ansvarar f&#246;r att den efters&#246;kte f&#246;rs till 
+Sverige n&#228;r den verkst&#228;llande r&#228;ttsliga myndigheten i F&#246;renade 
+kungariket har beslutat om &#246;verl&#228;mnande hit. &#197;klagaren ska se 
+till att den efters&#246;kte h&#228;mtas till Sverige inom den utsatta 
+tiden, om inte annat har &#246;verenskommits med den ber&#246;rda 
+myndigheten i F&#246;renade kungariket. &#197;klagaren f&#229;r beg&#228;ra hj&#228;lp 
+av Polismyndigheten om det beh&#246;vs. 
+
+Best&#228;mmelser om transport i Sverige finns i 2 kap. 3 &#167; lagen 
+(2021:709) med kompletterande best&#228;mmelser om straffr&#228;ttsligt 
+samarbete mellan Europeiska unionen och F&#246;renade kungariket.
+
+&#214;verf&#246;rande av verkst&#228;llighet av en frihetsber&#246;vande p&#229;f&#246;ljd
+
+11 &#167; N&#228;r den efters&#246;kte &#246;verl&#228;mnats till Sverige f&#246;r lagf&#246;ring 
+p&#229; villkor att han eller hon &#229;terf&#246;rs till F&#246;renade kungariket 
+f&#246;r att d&#228;r verkst&#228;lla en frihetsber&#246;vande p&#229;f&#246;ljd som d&#246;mts 
+ut med anledning av &#246;verl&#228;mnandet, ska &#229;klagaren s&#229; snart 
+domen har f&#229;tt laga kraft mot den d&#246;mde pr&#246;va om 
+f&#246;ruts&#228;ttningarna f&#246;r &#229;terf&#246;rande &#228;r uppfyllda.
+
+Om den som har &#246;verl&#228;mnats ska &#229;terf&#246;ras till F&#246;renade 
+kungariket, ska &#229;klagaren omedelbart underr&#228;tta 
+
+- Kriminalv&#229;rden, om p&#229;f&#246;ljden &#228;r f&#228;ngelse,
+
+- Socialstyrelsen, om p&#229;f&#246;ljden &#228;r r&#228;ttspsykiatrisk v&#229;rd, och
+
+- Statens institutionsstyrelse, om p&#229;f&#246;ljden &#228;r sluten 
+ungdomsv&#229;rd.
+
+Den myndighet som underr&#228;ttats ska besluta om att 
+verkst&#228;lligheten av p&#229;f&#246;ljden &#246;verf&#246;rs till F&#246;renade 
+kungariket och underr&#228;tta centralmyndigheten i F&#246;renade 
+kungariket om detta. Myndigheten ska underr&#228;tta 
+Polismyndigheten om n&#228;r &#229;terf&#246;randet ska &#228;ga rum. 
+Centralmyndigheten i F&#246;renade kungariket ska i samband med 
+&#229;terf&#246;randet informeras om n&#228;r verkst&#228;lligheten p&#229;b&#246;rjades i 
+Sverige och om frihetsber&#246;vanden som har &#228;gt rum h&#228;r.
+
+12 &#167; Om en beg&#228;ran om &#246;verl&#228;mnande till Sverige f&#246;r 
+verkst&#228;llighet av en frihetsber&#246;vande p&#229;f&#246;ljd har avslagits p&#229; 
+den grunden att F&#246;renade kungariket &#246;vertar verkst&#228;lligheten 
+av p&#229;f&#246;ljden, ska den myndighet som avses i 11 &#167; andra stycket 
+ansvara f&#246;r att verkst&#228;lligheten &#246;verf&#246;rs till F&#246;renade 
+kungariket. S&#229; snart &#229;klagaren har informerats om avslaget ska 
+&#229;klagaren underr&#228;tta den ber&#246;rda myndigheten.
+
+Underr&#228;ttelse vid villkorat &#246;verl&#228;mnande
+
+13 &#167; N&#228;r en person som har &#246;verl&#228;mnats till Sverige ska 
+&#229;terf&#246;ras till F&#246;renade kungariket enligt 2 kap. 2 &#167; lagen 
+(2021:709) med kompletterande best&#228;mmelser om straffr&#228;ttsligt 
+samarbete mellan Europeiska unionen och F&#246;renade kungariket 
+och artikel 622.2 i avtalet, ska &#229;klagaren underr&#228;tta 
+Polismyndigheten om n&#228;r &#229;terf&#246;randet ska &#228;ga rum.
+
+Samtycke till utvidgat &#246;verl&#228;mnande
+
+14 &#167; Den &#246;verl&#228;mnade personens samtycke till utvidgat 
+&#246;verl&#228;mnande enligt artikel 625.3 f i avtalet ska l&#228;mnas till 
+&#229;klagaren.
+
+Att den som har &#246;verl&#228;mnats har samtyckt ska antecknas p&#229; ett 
+formul&#228;r som fastst&#228;lls av &#197;klagarmyndigheten. Formul&#228;ret ska 
+om m&#246;jligt vara skrivet p&#229; det spr&#229;k som normalt anv&#228;nds av 
+den som har &#246;verl&#228;mnats. Om ett annat spr&#229;k anv&#228;nds, ska det 
+antecknas p&#229; handlingen vilka &#229;tg&#228;rder som har vidtagits f&#246;r 
+att kontrollera att den som har &#246;verl&#228;mnats har f&#246;rst&#229;tt 
+inneb&#246;rden av samtycket.
+
+Handl&#228;ggningen av utvidgat &#246;verl&#228;mnande
+
+15 &#167; Om &#246;verl&#228;mnande till Sverige har beviljats och det blir 
+fr&#229;ga om att beg&#228;ra ett samtycke fr&#229;n den verkst&#228;llande 
+r&#228;ttsliga myndigheten i F&#246;renade kungariket enligt 
+artikel 625.3 g i avtalet, ska 1 kap. 3 &#167; om beh&#246;rig &#229;klagare, 
+2 kap. 4 &#167; om &#229;terkallelse, 9 &#167; om garantier och 11 &#167; om 
+&#246;verf&#246;rande av straffverkst&#228;llighet till&#228;mpas.
+
+3 kap. &#214;verl&#228;mnande av misst&#228;nkta eller d&#246;mda fr&#229;n Sverige
+
+Utredningen i ett &#228;rende om &#246;verl&#228;mnande 
+
+1 &#167; Den efters&#246;kte ska underr&#228;ttas enligt artikel 609.1 i 
+avtalet s&#229; snart som m&#246;jligt efter att han eller hon har 
+antr&#228;ffats. Samtidigt ska han eller hon f&#229; skriftlig 
+information om sin m&#246;jlighet att l&#228;mna s&#229;dant samtycke till 
+&#246;verl&#228;mnande som avses i 3 kap. 8 &#167; lagen (2021:709) med 
+kompletterande best&#228;mmelser om straffr&#228;ttsligt samarbetet 
+mellan Europeiska unionen och F&#246;renade kungariket och om 
+inneb&#246;rden av ett s&#229;dant samtycke.
+
+Den efters&#246;kte ska vid samma tillf&#228;lle informeras om sin r&#228;tt 
+att anlita ett juridiskt ombud i F&#246;renade kungariket enligt 
+artikel 609.4 i avtalet. Om den efters&#246;kte vill ut&#246;va denna 
+r&#228;tt, ska &#229;klagaren omedelbart underr&#228;tta den utf&#228;rdande 
+r&#228;ttsliga myndigheten om det.
+
+&#197;klagaren ska omedelbart underr&#228;tta den utf&#228;rdande r&#228;ttsliga 
+myndigheten om den efters&#246;ktes beg&#228;ran om att f&#229; en kopia av 
+domen enligt artikel 601.2 i avtalet. Domen ska &#246;verl&#228;mnas 
+till den efters&#246;kte s&#229; snart den kommit fr&#229;n den utf&#228;rdande 
+r&#228;ttsliga myndigheten.
+
+Verkst&#228;llighet i Sverige av en frihetsber&#246;vande p&#229;f&#246;ljd
+
+2 &#167; Om den efters&#246;kte beg&#228;rs &#246;verl&#228;mnad f&#246;r verkst&#228;llighet av 
+en frihetsber&#246;vande p&#229;f&#246;ljd och han eller hon uppeh&#229;ller sig i 
+eller &#228;r bosatt i Sverige, ska &#229;klagaren fr&#229;ga den efters&#246;kte 
+om han eller hon beg&#228;r att p&#229;f&#246;ljden ska verkst&#228;llas i 
+Sverige. &#197;klagaren kan ge en polis som bitr&#228;der utredningen i 
+uppdrag att st&#228;lla fr&#229;gan till den efters&#246;kte.
+
+Den efters&#246;kte ska upplysas om inneb&#246;rden av att p&#229;f&#246;ljden 
+verkst&#228;lls i Sverige.
+
+En beg&#228;ran om att p&#229;f&#246;ljden ska verkst&#228;llas i Sverige ska 
+l&#228;mnas skriftligen enligt ett formul&#228;r som fastst&#228;lls av 
+&#197;klagarmyndigheten.
+
+3 &#167; Om den efters&#246;kte beg&#228;r att p&#229;f&#246;ljden ska verkst&#228;llas i 
+Sverige, ska &#229;klagaren omedelbart underr&#228;tta den utf&#228;rdande 
+r&#228;ttsliga myndigheten om den efters&#246;ktes beg&#228;ran.
+
+&#197;klagaren ska underr&#228;tta Regeringskansliet om den efters&#246;ktes 
+beg&#228;ran om att p&#229;f&#246;ljden ska verkst&#228;llas i Sverige och om 
+andra f&#246;rh&#229;llanden som har betydelse f&#246;r ett beslut om 
+verkst&#228;llighet h&#228;r.
+
+Om r&#228;tten med st&#246;d av artikel 601.1 f i avtalet har v&#228;grat att 
+verkst&#228;lla arresteringsordern, ska &#229;klagaren omedelbart 
+underr&#228;tta Regeringskansliet.
+
+4 &#167; Om den efters&#246;kte beg&#228;rs &#246;verl&#228;mnad f&#246;r lagf&#246;ring och han 
+eller hon &#228;r bosatt i Sverige, ska &#229;klagaren fr&#229;ga den 
+efters&#246;kte om han eller hon beg&#228;r att en frihetsber&#246;vande 
+p&#229;f&#246;ljd som utd&#246;mts efter &#246;verl&#228;mnandet ska verkst&#228;llas i 
+Sverige. &#197;klagaren kan ge en polis som bitr&#228;der utredningen i 
+uppdrag att st&#228;lla fr&#229;gan till den efters&#246;kte. Best&#228;mmelserna 
+i 2 &#167; andra och tredje styckena ska till&#228;mpas.
+
+Samtycke och medgivande
+
+5 &#167; Ett samtycke och medgivande som avses i 3 kap. 8 &#167; lagen 
+(2021:709) med kompletterande best&#228;mmelser om straffr&#228;ttsligt 
+samarbetet mellan Europeiska unionen och F&#246;renade kungariket 
+ska l&#228;mnas till &#229;klagaren. Den efters&#246;ktes &#229;terkallelse av ett 
+l&#228;mnat samtycke eller medgivande ska l&#228;mnas till &#229;klagaren 
+eller till en polis.
+
+Att den efters&#246;kte l&#228;mnat ett samtycke och medgivande samt en 
+&#229;terkallelse av dem ska antecknas p&#229; ett formul&#228;r som 
+fastst&#228;lls av &#197;klagarmyndigheten. Formul&#228;ret f&#246;r samtycke och 
+medgivande ska om m&#246;jligt vara skrivet p&#229; det spr&#229;k som 
+normalt anv&#228;nds av den efters&#246;kte. Om ett annat spr&#229;k anv&#228;nds 
+ska det antecknas p&#229; handlingen vilka &#229;tg&#228;rder som har 
+vidtagits f&#246;r att kontrollera att den efters&#246;kte har f&#246;rst&#229;tt 
+inneb&#246;rden av samtycket och medgivandet.
+
+&#197;klagaren ska i samband med att ett beslut om &#246;verl&#228;mnande 
+verkst&#228;lls, underr&#228;tta den utf&#228;rdande r&#228;ttsliga myndigheten om 
+att den som &#246;verl&#228;mnas har l&#228;mnat ett samtycke och medgivande.
+
+Underr&#228;ttelse n&#228;r tidsfristerna &#246;verskrids
+
+6 &#167; &#197;klagaren ska underr&#228;tta den utf&#228;rdande r&#228;ttsliga 
+myndigheten om fr&#229;gan om &#246;verl&#228;mnande inte har avgjorts genom 
+ett beslut som f&#229;tt laga kraft inom de tidsfrister som 
+f&#246;reskrivs i artikel 615.2-615.4 i avtalet. 
+
+Underr&#228;ttelse n&#228;r &#246;verl&#228;mnande sker med krav p&#229; &#229;terf&#246;rande
+
+7 &#167; Om ett &#246;verl&#228;mnande beviljas med ett villkor om 
+&#229;terf&#246;rande enligt artikel 604 b i avtalet, ska &#229;klagaren 
+underr&#228;tta den utf&#228;rdande r&#228;ttsliga myndigheten om att 
+Regeringskansliet ska kontaktas n&#228;r ett &#229;terf&#246;rande ska &#228;ga 
+rum. Efter att beslutet om &#246;verl&#228;mnande f&#229;tt laga kraft ska 
+r&#228;tten s&#228;nda en kopia av beslutet till Regeringskansliet.
+
+F&#246;rklaring om att avst&#229; fr&#229;n &#246;verklagande
+
+8 &#167; I fr&#229;ga om information om och dokumentation av en s&#229;dan 
+f&#246;rklaring om att den efters&#246;kte avst&#229;r fr&#229;n &#246;verklagande som 
+avses i 3 kap. 13 &#167; lagen (2021:709) med kompletterande 
+best&#228;mmelser om straffr&#228;ttsligt samarbete mellan Europeiska 
+unionen och F&#246;renade kungariket ska 11-13 &#167;&#167; 
+strafftidsf&#246;rordningen (2019:95) till&#228;mpas. 
+
+N&#228;r Kriminalv&#229;rden eller Polismyndigheten har tagit emot en 
+s&#229;dan f&#246;rklaring, ska myndigheten omedelbart underr&#228;tta 
+&#229;klagaren.
+
+Underr&#228;ttelse om ett beslut i fr&#229;ga om &#246;verl&#228;mnande
+
+9 &#167; N&#228;r &#229;klagaren underr&#228;ttar den utf&#228;rdande r&#228;ttsliga 
+myndigheten om beslutet i fr&#229;ga om &#246;verl&#228;mnande enligt 
+artikel 620 i avtalet, ska &#228;ven Polismyndigheten underr&#228;ttas 
+om beslutet. Om beslutet inneb&#228;r att &#246;verl&#228;mnande beviljas, 
+ska det av underr&#228;ttelsen framg&#229; n&#228;r beslutet senast ska 
+verkst&#228;llas. &#197;klagaren ska s&#229; snart som m&#246;jligt s&#228;nda en kopia 
+av beslutet till den utf&#228;rdade r&#228;ttsliga myndigheten.
+
+Verkst&#228;llighet av ett beslut om &#246;verl&#228;mnande
+
+10 &#167; &#197;klagaren ansvarar f&#246;r att ett beslut om &#246;verl&#228;mnande 
+verkst&#228;lls inom r&#228;tt tid.
+
+&#197;klagaren ska samr&#229;da med den utf&#228;rdande r&#228;ttsliga myndigheten 
+om verkst&#228;lligheten av &#246;verl&#228;mnandet i enlighet med 
+artiklarna 621.1, 621.3-621.5 och 622.2 i avtalet och, vid 
+behov, ing&#229; de &#246;verenskommelser som f&#246;ljer av dessa 
+best&#228;mmelser.
+
+11 &#167; &#197;klagaren och Polismyndigheten ska utbyta information i 
+den utstr&#228;ckning som beh&#246;vs f&#246;r att ett beslut om &#246;verl&#228;mnande 
+ska kunna verkst&#228;llas.
+
+Polismyndigheten ska underr&#228;tta &#229;klagaren n&#228;r beslutet har 
+verkst&#228;llts.
+
+Polismyndigheten ska omedelbart underr&#228;tta &#229;klagaren om 
+&#246;verl&#228;mnandet inte sker inom r&#228;tt tid.
+
+12 &#167; &#197;klagaren ska underr&#228;tta den utf&#228;rdande r&#228;ttsliga 
+myndigheten om hur l&#228;nge den efters&#246;kte har varit 
+frihetsber&#246;vad p&#229; grundval av arresteringsordern enligt 
+artikel 624.2 i avtalet.
+
+Underr&#228;ttelse vid uppskjutet &#246;verl&#228;mnande
+
+13 &#167; Om verkst&#228;lligheten av ett beslut om &#246;verl&#228;mnande har 
+skjutits upp med st&#246;d av artikel 622.1 i avtalet, ska den 
+myndighet som ansvarar f&#246;r verkst&#228;lligheten av p&#229;f&#246;ljden 
+underr&#228;tta &#229;klagaren i god tid innan myndigheten friger den 
+efters&#246;kte.
+
+Underr&#228;ttelse vid villkorat &#246;verl&#228;mnande
+
+14 &#167; N&#228;r ett &#246;verl&#228;mnande beviljas med ett s&#229;dant villkor om 
+&#229;terf&#246;rande som avses i artikel 622.2 i avtalet, ska &#229;klagaren 
+underr&#228;tta den utf&#228;rdande r&#228;ttsliga myndigheten om att 
+&#229;klagaren ska kontaktas n&#228;r &#229;terf&#246;randet kan &#228;ga rum. 
+&#197;klagaren ska s&#228;nda en kopia av underr&#228;ttelsen till 
+Polismyndigheten. 
+
+Utvidgat &#246;verl&#228;mnande och vidare&#246;verl&#228;mnande
+
+15 &#167; Best&#228;mmelserna i 1 kap. och detta kapitel g&#228;ller i 
+till&#228;mpliga delar i &#228;renden om tillst&#229;nd till utvidgat 
+&#246;verl&#228;mnande eller vidare&#246;verl&#228;mnande enligt 3 kap. 15 &#167; lagen 
+(2021:709) med kompletterande best&#228;mmelser om straffr&#228;ttsligt 
+samarbetet mellan Europeiska unionen och F&#246;renade kungariket.
+
+I fr&#229;ga om vidare&#246;verl&#228;mnande fr&#229;n Sverige av n&#229;gon som har 
+&#246;verl&#228;mnats hit till&#228;mpas 2 kap. 15 och 16 &#167;&#167;.
+
+4 kap. Ans&#246;kan om interimistiska &#229;tg&#228;rder och verkst&#228;llighet 
+av ett beslut om f&#246;rverkande i F&#246;renade kungariket
+
+Ans&#246;kan om interimistiska &#229;tg&#228;rder i F&#246;renade kungariket
+
+Underr&#228;ttelse om att en ans&#246;kan om en provisorisk &#229;tg&#228;rd s&#228;nds 
+&#246;ver
+
+1 &#167; &#197;klagaren ska underr&#228;tta Kronofogdemyndigheten innan en 
+ans&#246;kan om en interimistisk &#229;tg&#228;rd som syftar till att 
+s&#228;kerst&#228;lla verkst&#228;llighet av ett svenskt beslut om 
+f&#246;rverkande s&#228;nds av &#229;klagaren till F&#246;renade kungariket.
+
+I br&#229;dskande fall f&#229;r &#229;klagaren s&#228;nda &#246;ver en ans&#246;kan om en 
+interimistisk &#229;tg&#228;rd utan att underr&#228;tta 
+Kronofogdemyndigheten. &#197;klagaren ska d&#229; i st&#228;llet underr&#228;tta 
+Kronofogdemyndigheten s&#229; snart m&#246;jligt efter det att ans&#246;kan 
+har s&#228;nts &#246;ver.
+
+Ans&#246;kningar som s&#228;nds direkt till beh&#246;rig r&#228;ttslig myndighet i 
+F&#246;renade kungariket
+
+2 &#167; Om &#229;klagaren s&#228;nder en ans&#246;kan om en interimistisk &#229;tg&#228;rd 
+direkt till den beh&#246;riga r&#228;ttsliga myndigheten i F&#246;renade 
+kungariket enligt artikel 677.2 i avtalet, ska &#229;klagaren 
+samtidigt skicka en kopia av ans&#246;kan till Regeringskansliet. 
+
+Information till F&#246;renade kungariket
+
+3 &#167; &#197;klagaren ansvarar f&#246;r att l&#228;mna den information eller 
+kompletterande uppgifter som f&#246;ljer av artiklarna 664.1 och 
+684.2 b i avtalet.
+
+F&#246;rdelning av kostnader
+
+4 &#167; &#197;klagaren ansvarar f&#246;r det samr&#229;d som f&#246;ljer av 
+artikel 687 i avtalet och &#228;r beh&#246;rig att ing&#229; en 
+&#246;verenskommelse om f&#246;rdelningen av kostnader enligt samma 
+artikel.
+
+Ans&#246;kan om verkst&#228;llighet av ett beslut om f&#246;rverkande i 
+F&#246;renade kungariket
+
+Underr&#228;ttelse till Kronofogdemyndigheten om att ett beslut om 
+f&#246;rverkande har meddelats
+
+5 &#167; &#197;klagaren ska omedelbart underr&#228;tta Kronofogdemyndigheten 
+n&#228;r ett beslut om f&#246;rverkande har meddelats som avser egendom 
+som omfattas av en interimistisk &#229;tg&#228;rd i F&#246;renade kungariket 
+enligt avdelning XI om frysning och f&#246;rverkande i del 3 om 
+brottsbek&#228;mpning och straffr&#228;ttsligt samarbete i avtalet.
+
+Kronofogdemyndigheten ska ans&#246;ka om verkst&#228;llighet av beslutet 
+om f&#246;rverkande i F&#246;renade kungariket s&#229; snart som m&#246;jligt 
+efter &#229;klagarens underr&#228;ttelse.
+
+Samr&#229;d vid samtidig verkst&#228;llighet
+
+6 &#167; Kronofogdemyndigheten ansvarar f&#246;r det samr&#229;d som f&#246;ljer 
+av artikel 668.2 i avtalet och 4 kap. 3 &#167; lagen (2021:709) med 
+kompletterande best&#228;mmelser om straffr&#228;ttsligt samarbete 
+mellan Europeiska unionen och F&#246;renade kungariket. 
+
+Information om omst&#228;ndigheter som p&#229;verkar verkst&#228;llbarheten 
+av ett beslut 
+
+7 &#167; Kronofogdemyndigheten ansvarar f&#246;r att l&#228;mna information i 
+enlighet med artikel 684.2 och 684.3 i avtalet.
+
+&#197;terkallelse av ans&#246;kan
+
+8 &#167; Om beslutet om f&#246;rverkande, helt eller delvis, inte l&#228;ngre 
+kan verkst&#228;llas i F&#246;renade kungariket, ska 
+Kronofogdemyndigheten &#229;terkalla ans&#246;kan i den del som beslutet 
+inte kan verkst&#228;llas.
+
+F&#246;rfogande &#246;ver f&#246;rverkad egendom och f&#246;rdelning av kostnader. 
+
+9 &#167; Kronofogdemyndigheten &#228;r beh&#246;rig att ing&#229; en 
+&#246;verenskommelse om f&#246;rfogande &#246;ver f&#246;rverkad egendom enligt 
+artikel 667.4 i avtalet. 
+
+10 &#167; Kronofogdemyndigheten ansvarar f&#246;r det samr&#229;d som f&#246;ljer 
+av artikel 687 i avtalet och &#228;r beh&#246;rig att ing&#229; en 
+&#246;verenskommelse om f&#246;rdelningen av kostnader enligt samma 
+artikel. 
+
+5. kap. Ans&#246;kan om interimistiska &#229;tg&#228;rder och om 
+verkst&#228;llighet av ett beslut om f&#246;rverkande i Sverige
+
+&#197;tg&#228;rder n&#228;r en ans&#246;kan skickats till en obeh&#246;rig myndighet
+
+1 &#167; Om en myndighet i F&#246;renade kungariket s&#228;nder &#246;ver en 
+ans&#246;kan enligt artikel 677.2 i avtalet men den svenska 
+myndighet som tar emot ans&#246;kan inte &#228;r beh&#246;rig att pr&#246;va den, 
+ska myndigheten l&#228;mna ans&#246;kan till beh&#246;rig &#229;klagare och 
+omedelbart informera den myndighet i F&#246;renade kungariket som 
+s&#228;nde &#246;ver ans&#246;kan om det.
+
+Ofullst&#228;ndiga ans&#246;kningar
+
+2 &#167; &#197;klagaren ansvarar f&#246;r att beg&#228;ra kompletteringar och 
+fastst&#228;lla tidsfrister enligt artikel 681.1 och 681.2 i 
+avtalet.
+
+Underr&#228;ttelser vid beg&#228;ran om sekretess
+
+3 &#167; &#197;klagaren ansvarar f&#246;r att underr&#228;tta F&#246;renade kungariket 
+enligt artikel 686.1 och 686.3 i avtalet.
+
+Ans&#246;kan om interimistiska &#229;tg&#228;rder i Sverige
+
+&#197;klagarens ansvar
+
+4 &#167; &#197;klagaren ansvarar f&#246;r att 
+
+- s&#228;nda bekr&#228;ftelser enligt artikel 663.3 och 663.4 i avtalet, 
+
+- underr&#228;tta och samr&#229;da enligt artikel 663.5 i avtalet, 
+
+- inh&#228;mta kompletteringar enligt artikel 664.2 i avtalet, 
+
+- samr&#229;da och beg&#228;ra n&#246;dv&#228;ndiga uppgifter enligt artikel 671 i 
+avtalet,
+
+- samr&#229;da enligt artikel 673 i avtalet, och 
+
+- l&#228;mna information enligt artikel 684.1 i avtalet.
+
+Samr&#229;d med svenska myndigheter
+
+5 &#167; &#197;klagaren ska vid behov samr&#229;da med andra svenska 
+myndigheter i fr&#229;gor om att vidta interimistiska &#229;tg&#228;rder i 
+Sverige. 
+
+Underr&#228;ttelser mellan svenska myndigheter
+
+6 &#167; Om egendom har tagits i f&#246;rvar enligt lagen (2000:562) om 
+internationell r&#228;ttslig hj&#228;lp i brottm&#229;l, ska &#229;klagaren 
+skyndsamt underr&#228;tta Kronofogdemyndigheten om f&#246;rvaret.
+
+7 &#167; Den myndighet i Sverige som har verkst&#228;llt en 
+interimistisk &#229;tg&#228;rd ska skyndsamt underr&#228;tta &#229;klagaren n&#228;r 
+verkst&#228;llighet har skett.
+
+8 &#167; Om den myndighet i Sverige som ansvarar f&#246;r 
+verkst&#228;lligheten av en interimistisk &#229;tg&#228;rd konstaterar att 
+det inte &#228;r m&#246;jligt att verkst&#228;lla &#229;tg&#228;rden, ska myndigheten 
+underr&#228;tta &#229;klagaren.
+
+9 &#167; Om en &#229;klagare eller domstol meddelar ett beslut som 
+inneb&#228;r att verkst&#228;lligheten av den interimistiska &#229;tg&#228;rden 
+avbryts, ska den som har meddelat beslutet genast underr&#228;tta 
+den myndighet i Sverige som ansvarar f&#246;r verkst&#228;lligheten av 
+&#229;tg&#228;rden.
+
+10 &#167; Kronofogdemyndigheten ska underr&#228;tta &#229;klagaren i de fall 
+myndighetens beslut vid verkst&#228;llighet av en interimistisk 
+&#229;tg&#228;rd &#246;verklagas enligt uts&#246;kningsbalkens best&#228;mmelser.
+
+F&#246;rdelning av kostnader
+
+11 &#167; &#197;klagaren ansvarar f&#246;r det samr&#229;d som f&#246;ljer av 
+artikel 687 i avtalet och &#228;r beh&#246;rig att ing&#229; en 
+&#246;verenskommelse om f&#246;rdelningen av kostnader enligt samma 
+artikel.
+
+Ans&#246;kan om verkst&#228;llighet av ett beslut om f&#246;rverkande i 
+Sverige
+
+Straff&#246;rel&#228;ggande
+
+12 &#167; I fr&#229;ga om straff&#246;rel&#228;ggande som utf&#228;rdas av &#229;klagare med 
+st&#246;d av 4 kap. 6 &#167; lagen (2021:709) med kompletterande 
+best&#228;mmelser om straffr&#228;ttsligt samarbete mellan Europeiska 
+unionen och F&#246;renade kungariket g&#228;ller 5-12 &#167;&#167; 
+straff&#246;rel&#228;ggandekung&#246;relsen (1970:60) i till&#228;mpliga delar. 
+
+Underr&#228;ttelser till F&#246;renade kungariket
+
+13 &#167; &#197;klagaren ansvarar f&#246;r att underr&#228;tta F&#246;renade kungariket 
+enligt artikel 665.7 och 665.8 i avtalet.
+
+14 &#167; &#197;klagaren ansvarar f&#246;r att l&#228;mna information om 
+samarbetet till F&#246;renade kungariket enligt artikel 684.1 fram 
+till dess att ett beslut om f&#246;rverkande enligt 4 kap. 6 &#167; 
+lagen (2021:709) med kompletterande best&#228;mmelser om 
+straffr&#228;ttsligt samarbete mellan Europeiska unionen och 
+F&#246;renade kungariket har f&#229;tt laga kraft. D&#228;refter ansvarar 
+Kronofogdemyndigheten f&#246;r att l&#228;mna s&#229;dan information till 
+F&#246;renade kungariket. 
+
+15 &#167; Kronofogdemyndigheten ska underr&#228;tta F&#246;renade kungariket 
+om 
+
+1. att ett beslut om f&#246;rverkande inte f&#229;r verkst&#228;llas genom en 
+&#229;tg&#228;rd enligt artikel 669 i avtalet som ers&#228;tter ett 
+f&#246;rverkande, om det av ans&#246;kan eller p&#229; annat s&#228;tt framg&#229;r att 
+F&#246;renade kungariket har medgett en s&#229;dan verkst&#228;llighet, och 
+
+2. myndighetens beslut enligt 4 kap. 7 &#167; andra stycket lagen 
+(2021:709) med kompletterande best&#228;mmelser om straffr&#228;ttsligt 
+samarbete mellan Europeiska unionen och F&#246;renade kungariket. 
+
+Samr&#229;d med F&#246;renade kungariket
+
+16 &#167; &#197;klagaren ansvarar f&#246;r att samr&#229;da med F&#246;renade 
+kungariket enligt artiklarna 665.8, 671, 673 och 682.2 i 
+avtalet.
+
+Innan &#229;klagaren samr&#229;der med F&#246;renade kungariket enligt 
+artikel 682.2 i avtalet ska han eller hon r&#229;dg&#246;ra med 
+Kronofogdemyndigheten i de fall den konkurrerande beg&#228;ran har 
+gjorts av en medlemsstat i Europeiska unionen, Island eller 
+Norge. 
+
+17 &#167; Kronofogdemyndigheten ansvarar f&#246;r att samr&#229;da med 
+F&#246;renade kungariket enligt artikel 668.2 i avtalet. 
+
+Kronofogdemyndighetens samr&#229;d med &#229;klagare
+
+18 &#167; Innan Kronofogdemyndigheten beslutar om uppskov enligt 
+artikel 673 i avtalet ska myndigheten, vid behov, samr&#229;da med 
+&#229;klagare.
+
+&#214;verl&#228;mnande av &#228;rendet till Regeringskansliet
+
+19 &#167; Om F&#246;renade kungariket har beg&#228;rt att f&#246;rverkad egendom 
+ska f&#246;rfogas &#246;ver enligt artikel 667.2 eller 667.4 i avtalet 
+ska Kronofogdemyndigheten &#246;verl&#228;mna &#228;rendet tillsammans med 
+ett eget yttrande i fr&#229;gan till Regeringskansliet.
+
+&#214;verenskommelser om omvandling och f&#246;rdelning av kostnader
+
+20 &#167; Kronofogdemyndigheten f&#229;r ing&#229; en &#246;verenskommelse om 
+omvandling enligt artikel 665.4 i avtalet, om det &#228;r l&#228;mpligt 
+i det enskilda fallet.
+
+21 &#167; Kronofogdemyndigheten ansvarar f&#246;r det samr&#229;d som f&#246;ljer 
+av artikel 687 i avtalet och &#228;r beh&#246;rig att ing&#229; en 
+&#246;verenskommelse om f&#246;rdelningen av kostnader enligt samma 
+artikel. 
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=366">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=368">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

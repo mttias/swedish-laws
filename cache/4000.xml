@@ -1,0 +1,838 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2020-01-24" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4000</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3999">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4001">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1978:262 ·
+                    <a href="/sfsr?bet=1978:262">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rfogandelag (1978:262)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> F&#246;rsvarsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1978-05-18
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:854
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Kommer riket i krig, tr&#228;der 4 - 6 &#167;&#167; i till&#228;mpning.
+
+2 &#167; Regeringen f&#229;r f&#246;reskriva att 4 - 6 &#167;&#167; helt eller delvis skall
+till&#228;mpas fr&#229;n tidpunkt som regeringen best&#228;mmer,
+
+1. om Sverige &#228;r i krigsfara,
+
+2. om det r&#229;der s&#229;dana utomordentliga f&#246;rh&#229;llanden som &#228;r
+f&#246;ranledda av att det &#228;r krig utanf&#246;r Sveriges gr&#228;nser eller av att
+Sverige har varit i krig eller krigsfara och om det till f&#246;ljd av
+dessa f&#246;rh&#229;llanden f&#246;religger knapphet eller betydande fara f&#246;r
+knapphet inom riket p&#229; egendom av vikt f&#246;r totalf&#246;rsvaret eller
+folkf&#246;rs&#246;rjningen,
+
+3. om det &#228;r n&#246;dv&#228;ndigt att med h&#228;nsyn till f&#246;rsvarsberedskapen
+inkalla totalf&#246;rsvarspliktiga till tj&#228;nstg&#246;ring med st&#246;d av 4 kap. 7
+eller 8 &#167; lagen (1994:1809) om totalf&#246;rsvarsplikt.
+
+F&#246;reskrift enligt f&#246;rsta stycket skall underst&#228;llas riksdagens
+pr&#246;vning inom en m&#229;nad fr&#229;n det den utf&#228;rdades. Sker ej
+underst&#228;llning eller godk&#228;nner riksdagen ej f&#246;reskriften inom tv&#229;
+m&#229;nader fr&#229;n det underst&#228;llning skedde, upph&#246;r f&#246;reskriften att
+g&#228;lla. Lag (1994:1813).
+
+3 &#167; F&#246;religger ej l&#228;ngre f&#246;rh&#229;llande som avses i 1 &#167; eller 2 &#167; f&#246;rsta
+stycket, skall regeringen f&#246;reskriva att till&#228;mpningen av 4 - 6 &#167;&#167;
+skall upph&#246;ra.
+
+F&#246;rfogande
+
+4 &#167; F&#246;r att tillgodose totalf&#246;rsvarets eller folkf&#246;rs&#246;rjningens
+ofr&#229;nkomliga behov av egendom eller tj&#228;nster, som icke utan ol&#228;genhet
+kan tillgodoses p&#229; annat s&#228;tt, f&#229;r f&#246;r statens eller annans r&#228;kning
+f&#246;rfogande ske enligt denna lag.
+
+F&#246;rfogande f&#229;r icke riktas mot staten.
+
+5 &#167; Genom f&#246;rfogande kan
+
+1. fastighet tagas i anspr&#229;k med nyttjander&#228;tt och annan
+egendom tagas i anspr&#229;k med &#228;gander&#228;tt eller nyttjander&#228;tt,
+
+2. nyttjander&#228;tt, servitut eller liknande r&#228;tt till egendom
+upph&#228;vas eller begr&#228;nsas och nyttjander&#228;tt i andra hand
+tillskapas,
+
+3. &#228;gare eller innehavare av fastighet, gruva, byggnad,
+industrianl&#228;ggning eller annan anl&#228;ggning eller av
+transportmedel, arbetsmaskin eller liknande &#229;l&#228;ggas att ut&#246;va
+verksamhet f&#246;r eller p&#229; annat s&#228;tt medverka till
+framst&#228;llning av egendom f&#246;r statens eller annans r&#228;kning,
+
+4. &#228;gare eller innehavare av lageranl&#228;ggning &#229;l&#228;ggas att
+f&#246;rvara egendom,
+
+5. &#228;gare eller innehavare av transportmedel &#229;l&#228;ggas att
+ombes&#246;rja transporter,
+
+6. viss person &#229;l&#228;ggas tillf&#228;llig uppgift f&#246;r f&#246;rsvarsmakten
+som v&#228;gvisare, budb&#228;rare, arbetsmanskap eller
+sjukv&#229;rdspersonal.
+
+Radios&#228;ndare eller s&#228;ndarutrustning f&#229;r inte tas i anspr&#229;k om
+den stadigvarande utnyttjas f&#246;r tillst&#229;ndspliktiga ljudradio-
+eller tv-s&#228;ndningar enligt radio- och tv-lagen (2010:696).
+Detsamma g&#228;ller anl&#228;ggning f&#246;r tr&#229;ds&#228;ndning som s&#229;dana
+s&#228;ndningar vidares&#228;nds i.
+
+&#196;gare eller innehavare av egendom som omfattas av f&#246;rfogande
+f&#229;r icke &#246;verl&#229;ta, f&#246;rbruka, skada, g&#246;mma undan eller f&#246;ra
+bort egendomen. Lag (2010:723).
+
+6 &#167; Kan f&#246;rfogande &#246;ver egendom antagas bli n&#246;dv&#228;ndigt, f&#229;r &#228;gare eller
+innehavare i avvaktan p&#229; beslut om f&#246;rfogande f&#246;rbjudas att &#246;verl&#229;ta,
+f&#246;rbruka, skada, g&#246;mma undan eller f&#246;ra bort egendomen
+(dispositionsf&#246;rbud).
+
+Har ej beslut om f&#246;rfogande meddelats och blivit g&#228;llande mot &#228;gare
+eller innehavare av egendom inom en m&#229;nad fr&#229;n det dispositionsf&#246;rbud
+enligt f&#246;rsta stycket beslutades, upph&#246;r f&#246;rbudet att g&#228;lla mot honom.
+F&#246;religger s&#228;rskilda sk&#228;l, kan dock tiden f&#246;r f&#246;rbudet f&#246;rl&#228;ngas med
+h&#246;gst en m&#229;nad.
+
+7 &#167; Beslut om f&#246;rfogande fattas av regeringen eller, efter 
+regeringens bemyndigande, kommuner, regioner eller statliga 
+myndigheter. F&#246;rfogande &#246;ver egendom ska riktas mot en best&#228;md 
+&#228;gare eller innehavare av egendomen. I fall som avses i 1 &#167; 
+eller 2 &#167; f&#246;rsta stycket 1 eller 2 f&#229;r dock regeringen 
+f&#246;reskriva om f&#246;rfogande som avser alla eller en viss krets av 
+&#228;gare och innehavare av egendom av det slag som f&#246;rfogandet 
+g&#228;ller.
+
+Dispositionsf&#246;rbud och f&#246;rl&#228;ngning av tiden f&#246;r s&#229;dant f&#246;rbud 
+beslutas av den myndighet som har r&#228;tt att besluta om 
+f&#246;rfogandet.
+
+Om f&#246;rfogande g&#246;rs f&#246;r n&#229;gon annans r&#228;kning &#228;n statens, g&#228;ller 
+vad som i denna lag s&#228;gs om staten i till&#228;mpliga delar den f&#246;r 
+vars r&#228;kning f&#246;rfogandet sker. Lag (2019:854).
+
+8 &#167; Vid till&#228;mpning av denna lag och med st&#246;d av lagen meddelade
+f&#246;reskrifter skall tillses att den vars r&#228;tt ber&#246;res icke lider st&#246;rre
+f&#246;rf&#229;ng &#228;n som &#228;r n&#246;dv&#228;ndigt. Egendom som oundg&#228;ngligen beh&#246;vs f&#246;r
+n&#229;gons f&#246;rv&#228;rvsverksamhet f&#229;r ej utan tvingande sk&#228;l tagas i anspr&#229;k.
+
+9 &#167; Har &#228;gare eller innehavare av byggnad eller del av byggnad, som
+omfattas av f&#246;rfogande, stadigvarande bostad i byggnaden eller skall han
+i h&#228;ndelse av utrymning inkvarteras i orten, har han r&#228;tt till det
+bostadsutrymme i byggnaden som han beh&#246;ver. Detta g&#228;ller dock ej, om
+hans utnyttjande av byggnaden skulle medf&#246;ra allvarligt hinder f&#246;r den
+anv&#228;ndning av byggnaden som &#229;syftas med f&#246;rfogandet. I s&#229;dant fall skall
+den myndighet som beslutar om f&#246;rfogandet tillhandah&#229;lla annat
+bostadsutrymme, om m&#246;jligt inom samma eller n&#228;rbel&#228;gen ort.
+
+F&#246;rsta stycket har motsvarande till&#228;mpning p&#229; medlem av &#228;garens eller
+innehavarens familj.
+
+10 &#167; L&#246;s egendom som kan antagas bli f&#246;rbrukad eller f&#246;rst&#246;rd eller
+v&#228;sentligt minska i v&#228;rde tages i anspr&#229;k med &#228;gander&#228;tt. Annan l&#246;s
+egendom tages i anspr&#229;k med nyttjander&#228;tt. Om den myndighet som meddelar
+beslutet om f&#246;rfogande finner l&#228;mpligt och &#228;garen medger det, f&#229;r dock
+egendomen tagas i anspr&#229;k i det f&#246;rra fallet med nyttjander&#228;tt och i det
+senare med &#228;gander&#228;tt.
+
+Tages fast eller l&#246;s egendom i anspr&#229;k med nyttjander&#228;tt, skall
+nyttjander&#228;tten g&#228;lla tills vidare, om ej s&#228;rskilda sk&#228;l f&#246;ranleder att
+den best&#228;mmes att g&#228;lla f&#246;r viss tid.
+
+11 &#167; &#196;gare eller innehavare av egendom som tages i anspr&#229;k &#228;r skyldig
+att innan han avst&#229;r fr&#229;n egendomen se till att den s&#228;ttes i s&#229;dant
+skick att den blir anv&#228;ndbar f&#246;r avsett &#228;ndam&#229;l, om &#229;tg&#228;rden enligt vad
+som &#228;r brukligt skulle ha vidtagits av &#228;garen eller innehavaren vid
+frivillig &#246;verl&#229;telse eller uppl&#229;telse av egendomen.
+
+12 &#167; &#196;gare eller innehavare av egendom, som tages i anspr&#229;k med
+nyttjander&#228;tt, &#228;r skyldig att t&#229;la eller vidtaga &#228;ndring eller
+f&#246;rflyttning av inredning eller utrustning som h&#246;r till egendomen och
+att i &#246;vrigt t&#229;la de &#229;tg&#228;rder i fr&#229;ga om egendomen vilka den myndighet
+som meddelar beslutet om f&#246;rfogande finner n&#246;dv&#228;ndiga.
+
+13 &#167; &#196;gare eller innehavare av egendom som omfattas av beslut om
+f&#246;rfogande eller dispositionsf&#246;rbud &#228;r skyldig att v&#229;rda egendomen samt
+att, om det p&#229;fordras, avl&#228;mna egendom som tages i anspr&#229;k genom
+f&#246;rfogande. Tid och plats f&#246;r avl&#228;mnande fastst&#228;lles av den myndighet
+som har meddelat beslutet eller av myndighet som regeringen best&#228;mmer.
+
+Den som icke tillfredsst&#228;llande kan fullg&#246;ra skyldighet enligt f&#246;rsta
+stycket skall utan dr&#246;jsm&#229;l anm&#228;la detta till l&#228;nsstyrelsen eller till
+den myndighet som har meddelat beslutet eller best&#228;mmelse om fullg&#246;rande
+av det.
+
+14 &#167; Beslut om f&#246;rfogande och om dispositionsf&#246;rbud blir g&#228;llande mot
+&#228;gare, innehavare eller annan, som avses med beslutet, n&#228;r han har f&#229;tt
+del av detta. G&#228;ller beslutet egendom och kommer n&#229;gon f&#246;rst efter
+delf&#229;endet i det l&#228;get att han, om beslutet ej hade meddelats, skulle ha
+kunnat r&#229;da &#246;ver egendomen, blir det g&#228;llande mot honom fr&#229;n den senare
+tidpunkten.
+
+Att beslut om f&#246;rfogande i visst fall kan verkst&#228;llas innan det har
+blivit g&#228;llande mot &#228;garen eller innehavaren f&#246;ljer av 56 &#167; andra
+stycket.
+
+15 &#167; Egendom, som enligt denna lag tages i anspr&#229;k med &#228;gander&#228;tt eller
+framst&#228;lles f&#246;r statens r&#228;kning, &#246;verg&#229;r i statens &#228;go n&#228;r den avl&#228;mnas
+eller p&#229; annat s&#228;tt kommer i statens besittning.
+
+16 &#167; Mot beslut om f&#246;rfogande och dispositionsf&#246;rbud som har meddelats
+av annan myndighet &#228;n regeringen f&#229;r talan f&#246;ras hos regeringen genom
+besv&#228;r. Om ej annat f&#246;reskrives i beslutet, l&#228;nder det till
+efterr&#228;ttelse utan hinder av anf&#246;rda besv&#228;r.
+
+Ers&#228;ttning
+
+17 &#167; Vid f&#246;rfogande utg&#229;r ers&#228;ttning enligt de grunder som anges i
+29 - 36 &#167;&#167;. Om ers&#228;ttning f&#246;r skada till f&#246;ljd av dispositionsf&#246;rbud
+f&#246;reskrives i 37 &#167;.
+
+Ers&#228;ttning utges av den f&#246;r vars r&#228;kning beslutet om f&#246;rfogande eller
+dispositionsf&#246;rbud har meddelats. &#196;r denne annan &#228;n staten och fullg&#246;r
+han ej sin ers&#228;ttningsskyldighet, skall staten p&#229; beg&#228;ran utge
+ers&#228;ttningen. Vad staten s&#229;lunda har utgivit, f&#229;r staten kr&#228;va &#229;ter av
+den ers&#228;ttningsskyldige.
+
+V&#228;rderingsn&#228;mnder
+
+18 &#167; F&#246;r handl&#228;ggning av &#228;renden om ers&#228;ttning enligt denna lag
+finns en central v&#228;rderingsn&#228;mnd (riksv&#228;rderingsn&#228;mnden) samt lokala
+v&#228;rderingsn&#228;mnder till det antal och med de verksamhetsomr&#229;den som
+f&#246;reskrives av regeringen eller myndighet som regeringen best&#228;mmer.
+
+F&#246;r handl&#228;ggning av ers&#228;ttnings&#228;renden r&#246;rande visst slag av egendom
+kan inr&#228;ttas s&#228;rskild v&#228;rderingsn&#228;mnd f&#246;r hela riket. I fr&#229;ga om s&#229;dan
+n&#228;mnd g&#228;ller vad i denna lag f&#246;reskrives om riksv&#228;rderingsn&#228;mnden.
+
+19 &#167; Riksv&#228;rderingsn&#228;mnden best&#229;r av ordf&#246;rande och fyra andra
+ledam&#246;ter.
+
+F&#246;r varje ledamot finns en eller flera ers&#228;ttare. Best&#228;mmelserna i
+20 - 23 &#167;&#167; om ledamot g&#228;ller &#228;ven ers&#228;ttare.
+
+20 &#167; Ledam&#246;terna i riksv&#228;rderingsn&#228;mnden utses f&#246;r viss tid av
+regeringen.
+
+Ledam&#246;terna skall vara svenska medborgare. Den som &#228;r under&#229;rig eller
+i konkurstillst&#229;nd eller som har f&#246;rvaltare enligt 11 kap. 7 &#167;
+f&#246;r&#228;ldrabalken f&#229;r inte ut&#246;va befattning som ledamot. Ordf&#246;randen och
+ytterligare en ledamot skall vara eller ha varit ordinarie domare.
+Lag (1988:1299).
+
+21 &#167; Innan ledamot b&#246;rjar tj&#228;nstg&#246;ra i riksv&#228;rderingsn&#228;mnden, skall
+han ha avlagt domared.
+
+22 &#167; Best&#228;mmelserna i 4 kap. r&#228;tteg&#229;ngsbalken om j&#228;v mot domare skall
+till&#228;mpas p&#229; ledamot i riksv&#228;rderingsn&#228;mnden.
+
+23 &#167; Riksv&#228;rderingsn&#228;mnden &#228;r beslutf&#246;r n&#228;r ordf&#246;randen och minst tre
+andra ledam&#246;ter &#228;r n&#228;rvarande.
+
+I fr&#229;ga om omr&#246;stning i n&#228;mnden skall 16 kap. r&#228;tteg&#229;ngsbalken g&#228;lla
+i till&#228;mpliga delar.
+
+24 &#167; Regeringen kan f&#246;reskriva att riksv&#228;rderingsn&#228;mnden skall arbeta
+p&#229; avdelningar. Best&#228;mmelserna i 19 - 23 &#167;&#167; g&#228;ller d&#229; i fr&#229;ga om
+avdelning.
+
+25 &#167; Lokal v&#228;rderingsn&#228;mnd best&#229;r av ordf&#246;rande och tv&#229; andra ledam&#246;ter.
+
+
+F&#246;r varje ledamot finns en eller flera ers&#228;ttare. Best&#228;mmelserna i 26 &#167;
+om ledamot g&#228;ller &#228;ven ers&#228;ttare.
+
+26 &#167; Ledam&#246;terna i lokal v&#228;rderingsn&#228;mnd utses f&#246;r viss tid av
+regeringen eller myndighet som regeringen best&#228;mmer. Uppdrag att vara
+ledamot f&#229;r bara den undandraga sig som har fyllt sextio &#229;r eller har
+haft s&#229;dant uppdrag i tre &#229;r eller har f&#246;rhinder p&#229; grund av sin tj&#228;nst.
+
+Ledamot skall ha allm&#228;n erfarenhet i ers&#228;ttnings- och v&#228;rderingsfr&#229;gor.
+Ledamot i lokal v&#228;rderingsn&#228;mnd f&#246;r visst slag av egendom skall ha
+ing&#229;ende erfarenhet av v&#228;rdering av s&#229;dan egendom.
+
+Ledamot skall vara svensk medborgare. Den som &#228;r under&#229;rig eller i
+konkurstillst&#229;nd eller som har f&#246;rvaltare enligt 11 kap. 7 &#167;
+f&#246;r&#228;ldrabalken f&#229;r ej ut&#246;va befattning som ledamot. Ej f&#229;r n&#229;gon
+samtidigt vara ledamot i riksv&#228;rderingsn&#228;mnden och lokal
+v&#228;rderingsn&#228;mnd. Lag (1988:1299).
+
+27 &#167; Lokal v&#228;rderingsn&#228;mnd &#228;r beslutf&#246;r n&#228;r n&#228;mnden &#228;r fulltalig.
+
+I fr&#229;ga om omr&#246;stning i n&#228;mnden skall 16 kap. r&#228;tteg&#229;ngsbalken g&#228;lla i
+till&#228;mpliga delar.
+
+28 &#167; Statens r&#228;tt bevakas inf&#246;r v&#228;rderingsn&#228;mnd av ombud som utses av
+regeringen eller myndighet som regeringen best&#228;mmer.
+
+Ers&#228;ttningsgrunder
+
+29 &#167; Tages egendom i anspr&#229;k med &#228;gander&#228;tt, utg&#229;r sk&#228;lig ers&#228;ttning f&#246;r
+n&#246;dv&#228;ndiga kostnader vid framst&#228;llning eller &#229;teranskaffning eller, om
+egendomen tages i anspr&#229;k hos &#229;terf&#246;rs&#228;ljare, vid &#229;teranskaffning och
+&#229;terf&#246;rs&#228;ljning av s&#229;dan egendom.
+
+30 &#167; Tages egendom i anspr&#229;k med nyttjander&#228;tt, utg&#229;r sk&#228;lig ers&#228;ttning
+f&#246;r f&#246;rlorad avkastning eller nytta och f&#246;r kostnader i samband med
+&#229;tg&#228;rd som avses i 12 &#167; samt f&#246;r skada p&#229; eller avsev&#228;rd f&#246;rs&#228;mring
+av egendomen.
+
+F&#246;rsta stycket g&#228;ller i till&#228;mpliga delar vid f&#246;rfogande som avses i 5 &#167;
+f&#246;rsta stycket 2.
+
+31 &#167; Ut&#246;vas verksamhet enligt 5 &#167; f&#246;rsta stycket 3 - 5, utg&#229;r ers&#228;ttning
+med h&#228;nsyn till n&#246;dv&#228;ndiga kostnader f&#246;r verksamheten.
+
+32 &#167; F&#246;r uppgift som avses i 5 &#167; f&#246;rsta stycket 6 och f&#246;r &#229;tg&#228;rd enligt
+13 &#167; f&#246;rsta stycket f&#246;rsta meningen utg&#229;r sk&#228;lig ers&#228;ttning.
+
+33 &#167; I den m&#229;n det &#228;r m&#246;jligt och l&#228;mpligt skall p&#229; f&#246;rhand f&#246;reskrivas
+det pris som vid f&#246;rfogande skall g&#228;lla s&#229;som ers&#228;ttning f&#246;r egendom,
+&#229;tg&#228;rd eller tj&#228;nst. S&#229;dant pris upptages i taxa.
+
+Taxa fastst&#228;lles av regeringen eller, efter regeringens bemyndigande,
+av riksv&#228;rderingsn&#228;mnden eller lokal v&#228;rderingsn&#228;mnd med beaktande av
+29 - 31 &#167;&#167;. Taxa kan fastst&#228;llas att g&#228;lla f&#246;r hela riket eller del av
+riket.
+
+34 &#167; Ett pris som har f&#246;reskrivits med st&#246;d av prisregleringslagen
+(1989:978) g&#228;ller vid till&#228;mpning av f&#246;rfogandelagen som taxepris.
+
+Om riksv&#228;rderingsn&#228;mnden p&#229; grund av s&#228;rskilda omst&#228;ndigheter finner
+en till&#228;mpning av taxepris vara i visst fall obillig f&#246;r den
+ers&#228;ttningsber&#228;ttigade, f&#229;r n&#228;mnden best&#228;mma ers&#228;ttningen till h&#246;gre
+belopp. Lag (1989:979).
+
+35 &#167; Ers&#228;ttning best&#228;mmes med h&#228;nsyn till omst&#228;ndigheterna och g&#228;llande
+taxepris vid den tid d&#229; egendomen avl&#228;mnas eller p&#229; annat s&#228;tt kommer i
+statens besittning eller d&#229; &#229;tg&#228;rden eller tj&#228;nsten utf&#246;res. &#196;r
+egendomen i f&#228;rdigt skick vid den tidpunkt d&#229; beslutet om f&#246;rfogande
+meddelas, best&#228;mmes ers&#228;ttningen med h&#228;nsyn till omst&#228;ndigheterna och
+g&#228;llande taxepris vid den tidpunkten.
+
+Fastst&#228;lld ers&#228;ttning f&#229;r j&#228;mkas efter vad som &#228;r sk&#228;ligt, om &#228;ndrade
+f&#246;rh&#229;llanden p&#229;kallar det.
+
+36 &#167; Har beslut om f&#246;rfogande meddelats i fr&#229;ga om egendom och m&#246;ter ej
+genom f&#246;rv&#229;llande av den mot vilken f&#246;rfogandet riktats hinder att taga
+egendomen i besittning f&#246;r statens r&#228;kning, st&#229;r staten faran f&#246;r att
+egendomen av v&#229;da f&#246;rst&#246;res, f&#246;rs&#228;mras eller minskas.
+
+37 &#167; Upph&#246;r dispositionsf&#246;rbud att g&#228;lla enligt 6 &#167; andra stycket, utg&#229;r
+sk&#228;lig ers&#228;ttning f&#246;r skada, som till f&#246;ljd av f&#246;rbudet har uppkommit p&#229;
+den med f&#246;rbudet avsedda egendomen, och f&#246;r &#229;tg&#228;rd enligt 13 &#167; f&#246;rsta
+stycket f&#246;rsta meningen.
+
+Handl&#228;ggning av ers&#228;ttnings&#228;renden
+
+38 &#167; Ers&#228;ttning enligt taxa best&#228;mmes av den myndighet som har meddelat
+beslutet om f&#246;rfogande eller av myndighet som regeringen best&#228;mmer.
+
+Ers&#228;ttning som ej utg&#229;r enligt taxa best&#228;mmes av lokal v&#228;rderingsn&#228;mnd.
+Om s&#228;rskilda sk&#228;l f&#246;religger, kan riksv&#228;rderingsn&#228;mnden efter ans&#246;kan av
+parterna omedelbart taga upp fr&#229;ga om s&#229;dan ers&#228;ttning. Har enligt 18 &#167;
+andra stycket inr&#228;ttats s&#228;rskild v&#228;rderingsn&#228;mnd f&#246;r visst slag av
+egendom, best&#228;mmes dock i fr&#229;ga om s&#229;dan egendom ers&#228;ttning som ej utg&#229;r
+enligt taxa av den s&#228;rskilda v&#228;rderingsn&#228;mnden.
+
+Har nyttjander&#228;tt till egendom uppl&#229;tits genom frivillig &#246;verenskommelse
+i st&#228;llet f&#246;r att tillskapas genom f&#246;rfogande och skadas egendomen eller
+f&#246;rs&#228;mras den avsev&#228;rt, skall ers&#228;ttningsfr&#229;gan pr&#246;vas av lokal
+v&#228;rderingsn&#228;mnd, om uppl&#229;taren beg&#228;r det och skadan eller f&#246;rs&#228;mringen
+ej beaktades n&#228;r &#246;verenskommelsen ingicks.
+
+39 &#167; Talan mot beslut av annan myndighet &#228;n lokal v&#228;rderingsn&#228;mnd i
+&#228;rende som avses i 38 &#167; f&#246;rsta stycket f&#229;r av den som beg&#228;r ers&#228;ttning
+f&#246;ras hos lokal v&#228;rderingsn&#228;mnd genom besv&#228;r.
+
+Mot lokal v&#228;rderingsn&#228;mnds beslut i &#246;verklagat &#228;rende eller i &#228;rende om
+fastst&#228;llande av taxa f&#229;r talan ej f&#246;ras. I annat fall f&#229;r talan mot
+lokal v&#228;rderingsn&#228;mnds beslut f&#246;ras hos riksv&#228;rderingsn&#228;mnden genom
+besv&#228;r.
+
+Vill n&#229;gon med st&#246;d av 34 &#167; andra stycket g&#246;ra anspr&#229;k p&#229; ers&#228;ttning
+ut&#246;ver taxepris, skall han inom besv&#228;rstiden g&#246;ra ans&#246;kan om det hos
+riksv&#228;rderingsn&#228;mnden.
+
+40 &#167; Mot riksv&#228;rderingsn&#228;mdnens beslut enligt denna lag f&#229;r talan ej
+f&#246;ras.
+
+Utbetalning av ers&#228;ttning
+
+41 &#167; Sedan beslut om ers&#228;ttning har vunnit laga kraft, skall fastst&#228;llt
+ers&#228;ttningsbelopp genast betalas ut till den ers&#228;ttningsber&#228;ttigade, om
+ej annat f&#246;ljer av 42 - 44 &#167;&#167;.
+
+42 &#167; Om n&#229;gon till s&#228;kerhet f&#246;r fordran har pantr&#228;tt eller
+retentionsr&#228;tt i egendom som tages i anspr&#229;k med &#228;gander&#228;tt enligt denna
+lag, har han r&#228;tt att utf&#229; sin fordran ur ers&#228;ttningen f&#246;r egendomen,
+&#228;ven om fordringen ej &#228;r f&#246;rfallen till betalning. I ers&#228;ttning som nu
+n&#228;mnts inr&#228;knas &#228;ven ers&#228;ttning i fall som avses i 5 &#167; f&#246;rsta stycket 2.
+
+
+Utg&#229;r enligt denna lag ers&#228;ttning f&#246;r skada p&#229; eller avsev&#228;rd f&#246;rs&#228;mring
+av egendom, har f&#246;rsta stycket motsvarande till&#228;mpning.
+
+Fordran, som avses i f&#246;rsta stycket och som ej &#228;r f&#246;rfallen till
+betalning och icke l&#246;per med r&#228;nta f&#246;re f&#246;rfallodagen, ber&#228;knas till det
+belopp som efter fem procent &#229;rlig r&#228;nta utg&#246;r fordringens v&#228;rde p&#229;
+betalningsdagen. Motsvarande g&#228;ller om utf&#228;st r&#228;nta &#228;r l&#228;gre &#228;n fem
+procent.
+
+43 &#167; I fr&#229;ga om neds&#228;ttning, f&#246;rdelning och utbetalning av ers&#228;ttning,
+som fastst&#228;llts att utg&#229; f&#246;r skada p&#229; eller avsev&#228;rd f&#246;rs&#228;mring av
+fastighet, samt om verkan d&#228;rav g&#228;ller i till&#228;mpliga delar
+expropriationslagen (1972:719).
+
+Kan flera g&#246;ra anspr&#229;k p&#229; betalning ur ers&#228;ttning, som i annat fall &#228;n
+som avses i f&#246;rsta stycket fastst&#228;llts enligt denna lag, och enas de ej
+om hur ers&#228;ttningen skall f&#246;rdelas mellan dem, skall ers&#228;ttningen
+neds&#228;ttas hos l&#228;nsstyrelsen. I fr&#229;ga om nedsatt belopp skall i
+till&#228;mpliga delar iakttagas lagen (1927:56) om neds&#228;ttning av pengar hos
+myndighet. Lag (1981:838).
+
+44 &#167; Ers&#228;ttning f&#246;r egendom som &#228;r utm&#228;tt, belagd med kvarstad eller
+tagen i anspr&#229;k genom betalningss&#228;kring skall utges till
+kronofogdemyndigheten. Lag (1981:838).
+
+Uppgiftsskyldighet m.m.
+
+45 &#167; Den mot vilken f&#246;rfogande riktas &#228;r skyldig att l&#228;mna uppgift om
+r&#228;tt som annan har i fr&#229;ga om den med f&#246;rfogandet avsedda egendomen.
+
+46 &#167; I den m&#229;n det beh&#246;vs f&#246;r att genomf&#246;ra f&#246;rfogande i fr&#229;ga om
+egendom skall var och en p&#229; anfordran av myndighet som f&#229;r besluta om
+f&#246;rfogandet l&#228;mna uppgift om den m&#228;ngd av egendomen som han innehar
+eller som han har tillverkat eller till vars framst&#228;llning han har
+medverkat.
+
+Har n&#229;gon underl&#229;tit att fullg&#246;ra skyldighet enligt f&#246;rsta stycket,
+f&#229;r l&#228;nsstyrelse eller, enligt regeringens best&#228;mmande, annan myndighet
+f&#246;rel&#228;gga honom vid vite att fullg&#246;ra skyldigheten.
+
+47 &#167; F&#246;r kontroll av att uppgift som har l&#228;mnats enligt 46 &#167;
+&#228;r riktig och fullst&#228;ndig ska en uppgiftsskyldig p&#229; beg&#228;ran
+av l&#228;nsstyrelse eller av annan myndighet som regeringen
+best&#228;mmer tillhandah&#229;lla myndigheten handelsb&#246;cker och andra
+aff&#228;rshandlingar p&#229; tid och plats som myndigheten
+fastst&#228;ller.
+
+Efterkommer den uppgiftsskyldige inte beg&#228;ran enligt f&#246;rsta
+stycket eller finns det s&#228;rskild anledning till kontroll, f&#229;r
+en myndighet som s&#228;gs i f&#246;rsta stycket besluta om
+unders&#246;kning av kontor, fabrik, butik, serveringslokal,
+lagerlokal, ladug&#229;rd eller annat utrymme eller
+f&#246;rvaringsst&#228;lle, som den uppgiftsskyldige r&#229;der &#246;ver, och om
+omh&#228;ndertagande av hans eller hennes handelsb&#246;cker och andra
+aff&#228;rshandlingar.
+
+Vid unders&#246;kning och omh&#228;ndertagande enligt andra stycket ska
+best&#228;mmelserna i 28 kap. r&#228;tteg&#229;ngsbalken om husrannsakan
+g&#228;lla i till&#228;mpliga delar. Myndigheten ut&#246;var den befogenhet
+som vid husrannsakan tillkommer unders&#246;kningsledaren,
+&#229;klagaren eller r&#228;tten. Polismyndigheten ska l&#228;mna den
+handr&#228;ckning som beh&#246;vs f&#246;r unders&#246;kningen och
+omh&#228;ndertagandet. Lag (2014:682).
+
+48 &#167; &#196;gare eller innehavare av egendom, betr&#228;ffande vilken
+f&#246;rberedelser f&#246;r f&#246;rfogande enligt 63 &#167; kommer i fr&#229;ga, &#228;r
+p&#229; beg&#228;ran av myndighet som regeringen best&#228;mmer skyldig att
+l&#228;mna f&#246;r s&#229;dant &#228;ndam&#229;l n&#246;dv&#228;ndiga uppgifter om egendomen
+och att tillhandah&#229;lla den f&#246;r besiktning p&#229; tid och plats
+som myndigheten fastst&#228;ller.
+
+Om n&#229;gon inte har fullgjort skyldighet enligt f&#246;rsta stycket,
+f&#229;r l&#228;nsstyrelsen f&#246;rel&#228;gga honom eller henne vid vite att
+fullg&#246;ra skyldigheten.
+
+F&#246;ljs inte ett f&#246;rel&#228;ggande vid vite att h&#229;lla egendom
+tillg&#228;nglig f&#246;r besiktning, f&#229;r l&#228;nsstyrelsen i st&#228;llet f&#246;r
+att f&#246;rel&#228;gga nytt vite besluta om handr&#228;ckning f&#246;r att
+genomf&#246;ra besiktningen. S&#229;dan handr&#228;ckning l&#228;mnas av
+Polismyndigheten p&#229; den f&#246;rsumliges bekostnad. Lag (2014:682).
+
+49 &#167; Skyldighet enligt 45 - 48 &#167;&#167; skall fullg&#246;ras utan ers&#228;ttning, om ej
+regeringen best&#228;mmer annat.
+
+50 &#167; Beslut om f&#246;rel&#228;ggande som har f&#246;renats med vite enligt
+denna lag f&#229;r &#246;verklagas endast i samband med &#246;verklagande av
+beslut om utd&#246;mande av vitet.
+
+Beslut om &#229;tg&#228;rd enligt 47 &#167; andra stycket eller en
+l&#228;nsstyrelses beslut om handr&#228;ckning enligt 48 &#167; tredje
+stycket f&#229;r &#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. Ett
+s&#229;dant beslut g&#228;ller omedelbart, om inte n&#229;got annat anges i
+beslutet.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2013:90).
+
+51 &#167; Den som p&#229; grund av best&#228;mmelse i denna lag har f&#229;tt
+k&#228;nnedom om en enskilds aff&#228;rs- eller driftf&#246;rh&#229;llanden eller
+f&#246;rh&#229;llande av betydelse f&#246;r folkf&#246;rs&#246;rjningen eller f&#246;r
+rikets s&#228;kerhet f&#229;r inte obeh&#246;rigen r&#246;ja eller utnyttja vad
+han eller hon s&#229;lunda har f&#229;tt veta.
+
+I det allm&#228;nnas verksamhet till&#228;mpas i st&#228;llet best&#228;mmelserna
+i offentlighets- och sekretesslagen (2009:400).
+Lag (2009:423).
+
+Ansvarsbest&#228;mmelser m.m.
+
+52 &#167; Till b&#246;ter eller f&#228;ngelse i h&#246;gst sex m&#229;nader d&#246;mes, om ej
+g&#228;rningen &#228;r belagd med straff i brottsbalken, den som upps&#229;tligen
+
+1. bryter mot f&#246;reskrift, &#229;l&#228;ggande, f&#246;rbud eller villkor som g&#228;ller
+enligt eller har meddelats med st&#246;d av 5, 6, 11, 12 eller 13 &#167;,
+
+2. underl&#229;ter att fullg&#246;ra uppgiftsskyldighet som &#229;ligger honom enligt
+45, 46 eller 48 &#167;,
+
+3. vid fullg&#246;rande av uppgiftsskyldighet som &#229;ligger honom enligt 45,
+46 eller 48 &#167; l&#228;mnar oriktig uppgift, om uppgiften inneb&#228;r fara i
+bevish&#228;nseende,
+
+4. underl&#229;ter att efterkomma beg&#228;ran enligt 47 eller 48 &#167;.
+
+&#196;r brott som avses i f&#246;rsta stycket att anse som grovt, d&#246;mes till
+f&#228;ngelse i h&#246;gst tv&#229; &#229;r. Vid bed&#246;mande huruvida brottet &#228;r grovt skall
+s&#228;rskilt beaktas, om det har skett i vinningssyfte eller har avsett en
+betydande m&#228;ngd av egendom eller eljest har varit av s&#228;rskilt farlig
+art.
+
+Beg&#229;r n&#229;gon av oaktsamhet g&#228;rning som avses i f&#246;rsta stycket, d&#246;mes till
+b&#246;ter eller, om brottet &#228;r grovt, till f&#228;ngelse i h&#246;gst sex m&#229;nader. I
+ringa fall d&#246;mes ej till ansvar.
+
+Den som har underl&#229;tit att fullg&#246;ra skyldighet, som omfattas av
+vitesf&#246;rel&#228;ggande enligt denna lag, f&#229;r icke d&#246;mas till straff f&#246;r
+underl&#229;tenheten.
+
+53 &#167; N&#228;ringsidkare ansvarar f&#246;r g&#228;rning som avses i 52 &#167;, om den har
+beg&#229;tts i hans r&#246;relse och han har haft eller bort ha vetskap om
+g&#228;rningen.
+
+54 &#167; Har n&#229;gon beg&#229;tt brott som avses i 52 &#167;, skall egendom,
+som han i samband med brottet har mottagit eller genom brottet
+har undanh&#229;llit, f&#246;rklaras f&#246;rverkad. Detsamma g&#228;ller annat
+utbyte av s&#229;dant brott. I st&#228;llet f&#246;r egendomen kan dess v&#228;rde
+f&#246;rklaras f&#246;rverkat. F&#246;rverkande f&#229;r inte ske om det &#228;r
+uppenbart osk&#228;ligt.
+
+&#196;ger den brottslige ytterligare s&#229;dan egendom som brottet har
+avsett, kan &#228;ven denna f&#246;rklaras f&#246;rverkad. Annan egendom som
+han eller hon &#228;ger och som omfattas av beslut om f&#246;rfogande
+eller dispositionsf&#246;rbud kan ocks&#229; f&#246;rklaras f&#246;rverkad, om det
+finns s&#228;rskilda sk&#228;l. Lag (2005:296).
+
+55 &#167; Har beslag lagts p&#229; egendom, som kan antagas bli f&#246;rverkad, och &#228;r
+den underkastad f&#246;rsk&#228;mning eller snar f&#246;rst&#246;relse eller annan nedg&#229;ng i
+v&#228;rde, f&#229;r den genast f&#246;rs&#228;ljas. S&#229;dan f&#246;rs&#228;ljning skall alltid ske om
+&#228;garen beg&#228;r det. Uppskattas egendomens v&#228;rde till ettusen kronor eller
+mera och har ej f&#246;rs&#228;ljning p&#229;kallats av &#228;garen, skall dock tillst&#229;nd
+till f&#246;rs&#228;ljningen s&#246;kas hos r&#228;tten, om omst&#228;ndigheterna medger detta.
+R&#228;tten f&#229;r utan att h&#246;ra &#228;garen meddela beslut i &#228;rendet.
+
+S&#228;rskilda best&#228;mmelser
+
+56 &#167; Om n&#229;gon inte p&#229; r&#228;tt s&#228;tt eller i r&#228;tt tid
+tillhandah&#229;ller egendom, som omfattas av beslut om
+f&#246;rfogande, ska Polismyndigheten l&#228;mna den handr&#228;ckning som
+beh&#246;vs f&#246;r verkst&#228;llighet av beslutet. Om dr&#246;jsm&#229;l kan
+medf&#246;ra fara och Polismyndigheten inte &#228;r tillg&#228;nglig, f&#229;r
+den myndighet som har ut&#246;vat f&#246;rfogander&#228;tten sj&#228;lv
+verkst&#228;lla beslutet.
+
+&#196;r det fr&#229;ga om f&#246;rfogande f&#246;r F&#246;rsvarsmaktens behov och
+skulle dr&#246;jsm&#229;l med verkst&#228;llighet av beslutet om f&#246;rfogande
+medf&#246;ra allvarlig ol&#228;genhet, f&#229;r en myndighet som avses i
+f&#246;rsta stycket vidta &#229;tg&#228;rd som d&#228;r s&#228;gs, &#228;ven om &#228;garen
+eller innehavaren inte har f&#229;tt del av beslutet. 
+Lag (2014:682).
+
+57 &#167; N&#228;r till&#228;mpningen av 4 - 6 &#167;&#167; upph&#246;r, iakttages vad som f&#246;reskrives
+i 58 - 61 &#167;&#167;.
+
+58 &#167; Har egendom, som till f&#246;ljd av beslut enligt 5 &#167; f&#246;rsta stycket 1
+skall tagas i anspr&#229;k med &#228;gander&#228;tt, &#228;nnu ej &#246;verg&#229;tt i statens &#228;go vid
+den i 57 &#167; angivna tidpunkten, f&#246;rfaller beslutet.
+
+59 &#167; Har beslut enligt 5 &#167; f&#246;rsta stycket 1 eller 2 om ianspr&#229;ktagande
+av egendom med nyttjander&#228;tt ej g&#229;tt i verkst&#228;llighet vid den i 57 &#167;
+angivna tidpunkten, f&#246;rfaller beslutet.
+
+Har beslutet b&#246;rjat verkst&#228;llas f&#246;re nyssn&#228;mnda tidpunkt och avser
+nyttjander&#228;tten icke best&#228;md tid, skall den d&#228;refter icke g&#228;lla under
+l&#228;ngre tid &#228;n som erfordras f&#246;r avveckling av r&#228;ttsf&#246;rh&#229;llandet.
+Detsamma g&#228;ller om nyttjander&#228;tt avser best&#228;md tid och egendomens &#228;gare
+p&#229;fordrar att nyttjander&#228;tten skall upph&#246;ra.
+
+Har beslut enligt 5 &#167; f&#246;rsta stycket 2 om upph&#228;vande eller begr&#228;nsning
+av nyttjander&#228;tt, servitut eller liknande r&#228;tt till egendom ej vunnit
+laga kraft vid den i 57 &#167; angivna tidpunkten f&#246;rfaller beslutet, dock
+tidigast n&#228;r annan genom f&#246;rfogande i st&#228;llet tillskapad r&#228;tt upph&#246;r.
+
+60 &#167; Har beslut om f&#246;rfogande enligt 5 &#167; f&#246;rsta stycket 3 - 6 ej b&#246;rjat
+till&#228;mpas vid den i 57 &#167; angivna tidpunkten, f&#246;rfaller beslutet. I
+annat fall skall beslutet icke g&#228;lla under l&#228;ngre tid &#228;n som erfordras
+f&#246;r avveckling av r&#228;ttsf&#246;rh&#229;llandet.
+
+61 &#167; Dispositionsf&#246;rbud enligt 6 &#167; g&#228;ller ej efter den i 57 &#167; angivna
+tidpunkten.
+
+62 &#167; Genom denna lag inskr&#228;nkes ej den r&#228;tt att tv&#229;ngsvis taga i anspr&#229;k
+egendom eller tj&#228;nster som f&#246;ljer av annan lagstiftning.
+
+63 &#167; Under fredstid skall f&#246;rfogande enligt denna lag f&#246;rberedas enligt
+de grunder och av de myndigheter som regeringen best&#228;mmer.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1994:1813
+
+Denna lag tr&#228;der i kraft den 1 januari 1995 s&#229;vitt avser andra
+stycket. &#214;vriga delar i lagen tr&#228;der i kraft den 1 juli 1995.
+
+2013:90
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2013.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller f&#246;r beslut som har meddelats
+f&#246;re ikrafttr&#228;dandet.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3999">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4001">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

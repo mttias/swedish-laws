@@ -1,0 +1,885 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2019-01-16" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3921</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3920">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3922">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1980:1102 ·
+                    <a href="/sfsr?bet=1980:1102">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1980:1102) om handelsbolag och enkla bolag</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1980-12-11
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:1662
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 kap. Inledande best&#228;mmelser
+
+1 &#167; Ett handelsbolag f&#246;religger, om tv&#229; eller flera har 
+avtalat att gemensamt ut&#246;va n&#228;ringsverksamhet i ett bolag och 
+bolaget har f&#246;rts in i handelsregistret.
+
+Best&#228;mmelser om f&#246;retagsnamn f&#246;r handelsbolag finns i lagen 
+(2018:1653) om f&#246;retagsnamn och handelsregisterlagen 
+(1974:157). Lag (2018:1662).
+
+2 &#167; Ett kommanditbolag &#228;r ett handelsbolag i vilket en eller flera
+bolagsm&#228;n har f&#246;rbeh&#229;llit sig att inte svara f&#246;r bolagets f&#246;rbindelser
+med mera &#228;n han har satt in eller &#229;tagit sig att s&#228;tta in i bolaget. En
+s&#229;dan bolagsman kallas kommanditdel&#228;gare. Annan bolagsman i
+kommanditbolaget kallas komplement&#228;r.
+
+2 a &#167; En pensionsstiftelse enligt 9 &#167; lagen (1967:531) om
+tryggande av pensionsutf&#228;stelse m.m. f&#229;r inte vara bolagsman i
+ett handelsbolag. Detsamma g&#228;ller f&#246;r en personalstiftelse
+enligt 27 &#167; samma lag. Lag (2005:247).
+
+3 &#167; Ett enkelt bolag f&#246;religger, om tv&#229; eller flera har avtalat att
+ut&#246;va verksamhet i bolag utan att handelsbolag f&#246;religger enligt 1 &#167;.
+Lag (1993:760).
+
+4 &#167; Ett handelsbolag men inte ett enkelt bolag kan f&#246;rv&#228;rva r&#228;ttigheter
+och ikl&#228;da sig skyldigheter samt f&#246;ra talan inf&#246;r domstolar och andra
+myndigheter.
+
+2 kap. Handelsbolag
+
+Bolagsm&#228;nnens inb&#246;rdes r&#228;ttigheter och skyldigheter
+
+1 &#167; Bolagsm&#228;nnens inb&#246;rdes r&#228;ttigheter och skyldigheter under bolagets
+best&#229;nd best&#228;ms genom avtal.
+
+I den m&#229;n bolagsm&#228;nnen inte har tr&#228;ffat avtal om n&#229;got annat skall 2-4
+och 6-16 &#167;&#167; till&#228;mpas. Oavsett vad bolagsm&#228;nnen har avtalat skall 5 &#167;
+till&#228;mpas.
+
+2 &#167; F&#246;r att en ny bolagsman skall f&#229; intr&#228;da i bolaget fordras samtycke
+av samtliga bolagsm&#228;n.
+
+3 &#167; Varje bolagsman &#228;r ber&#228;ttigad att vidta &#229;tg&#228;rder i f&#246;rvaltningen av
+bolagets angel&#228;genheter, om inte dessa &#229;tg&#228;rder f&#246;rbjuds av n&#229;gon annan
+bolagsman som inte &#228;r utesluten fr&#229;n f&#246;rvaltningen.
+
+&#197;tg&#228;rder som &#228;r fr&#228;mmande f&#246;r bolagets &#228;ndam&#229;l f&#229;r vidtas endast med
+samtliga bolagsm&#228;ns samtycke. En bolagsman som &#228;r f&#246;rvaltningsber&#228;ttigad
+f&#229;r dock  till allm&#228;nnyttigt eller d&#228;rmed j&#228;mf&#246;rligt &#228;ndam&#229;l anv&#228;nda
+tillg&#229;ng som med h&#228;nsyn till bolagets st&#228;llning &#228;r av ringa betydelse.
+
+Skall f&#246;rvaltningen eller en viss del av den p&#229; grund av avtal sk&#246;tas av
+flera bolagsm&#228;n gemensamt, f&#229;r en &#229;tg&#228;rd som inte t&#229;l uppskov vidtas
+fast&#228;n n&#229;gon av bolagsm&#228;nnen inte har deltagit i beslutet om &#229;tg&#228;rden,
+om bolagsmannen inte har hunnit tillkallas eller om han till f&#246;ljd av
+sjukdom eller av annan anledning inte &#228;r i st&#229;nd att ta del i
+f&#246;rvaltningen av bolagets angel&#228;genheter.
+
+3 a &#167; I bokf&#246;ringslagen (1999:1078) finns best&#228;mmelser om n&#228;r
+ett handelsbolag skall uppr&#228;tta en &#229;rsredovisning eller ett
+&#229;rsbokslut. Lag (2006:867).
+
+4 &#167; Om ett bolagsavtal f&#246;reskriver att en bolagsman skall sk&#246;ta
+f&#246;rvaltningen eller viss del av den, f&#229;r han skiljas fr&#229;n uppdraget
+eller avs&#228;ga sig detta endast om det finns en viktig grund.
+
+5 &#167; &#196;ven en bolagsman som &#228;r utesluten fr&#229;n f&#246;rvaltningen har r&#228;tt att
+granska bolagets r&#228;kenskaper och att f&#229; k&#228;nnedom om bolagets
+angel&#228;genheter. Denna kontrollr&#228;tt f&#229;r inte ut&#246;vas vid en tidpunkt eller
+p&#229; ett s&#228;tt som inneb&#228;r s&#228;rskilda ol&#228;genheter f&#246;r bolaget.
+
+6 &#167; F&#246;r varje r&#228;kenskaps&#229;r skall en bolagsman tillgodor&#228;knas
+dels r&#228;nta p&#229; den insats han hade kvar i bolaget vid
+r&#228;kenskaps&#229;rets b&#246;rjan, dels ett sk&#228;ligt arvode f&#246;r sin
+f&#246;rvaltning av bolagets angel&#228;genheter. R&#228;ntan skall ber&#228;knas
+enligt den r&#228;ntefot som motsvarar den av Riksbanken fastst&#228;llda
+referensr&#228;nta enligt 9 &#167; r&#228;ntelagen (1975:635) som g&#228;llde vid
+r&#228;kenskaps&#229;rets b&#246;rjan med ett till&#228;gg av tv&#229; procentenheter.
+Lag (2002:353).
+
+7 &#167; Det &#246;verskott eller den brist som finns sedan bolagsm&#228;nnen har
+tillgodor&#228;knats r&#228;nta och arvode enligt 6 &#167; utg&#246;r r&#228;kenskaps&#229;rets
+resultat.
+
+8 &#167; Resultatet f&#246;rdelas lika mellan bolagsm&#228;nnen.
+
+&#196;r viss grund avtalad f&#246;r f&#246;rdelningen endast av vinsten eller endast av
+f&#246;rlusten, g&#228;ller den grunden vid f&#246;rdelningen av s&#229;v&#228;l vinst som
+f&#246;rlust.
+
+9 &#167; Sedan &#229;rsredovisningen eller &#229;rsbokslutet har uppr&#228;ttats,
+har bolagsm&#228;nnen r&#228;tt att f&#229; ut vad som har tillgodof&#246;rts dem
+enligt 6 och 8 &#167;&#167;. Om en bolagsmans beh&#229;llna insats &#228;r l&#228;gre &#228;n
+den skall vara enligt vad som avtalats mellan bolagsm&#228;nnen,
+skall dock s&#229; mycket av vad som tillkommer honom h&#229;llas inne
+som beh&#246;vs f&#246;r att fylla bristen. Lag (1999:1089).
+
+10 &#167; Vad en bolagsman har r&#228;tt att lyfta f&#246;r ett r&#228;kenskaps&#229;r skall
+l&#228;ggas till hans insats, om han inte f&#246;re utg&#229;ngen av f&#246;ljande
+r&#228;kenskaps&#229;r begagnar sig av lyftningsr&#228;tten. Hans beh&#229;llna insats f&#229;r
+dock inte mot n&#229;gon annan bolagsmans bestridande &#246;kas ut&#246;ver vad den
+skall vara enligt vad som avtalats mellan bolagsm&#228;nnen.
+
+11 &#167; En bolagsman &#228;r inte skyldig att p&#229; beg&#228;ran av de &#246;vriga
+bolagsm&#228;nnen &#246;ka sin beh&#229;llna insats i bolaget ut&#246;ver vad den skall vara
+enligt vad som avtalats mellan bolagsm&#228;nnen.
+
+12 &#167; Under bolagets best&#229;nd har en bolagsman inte r&#228;tt att mot n&#229;gon
+annan bolagsman g&#246;ra g&#228;llande fordran p&#229; grund av utgifter f&#246;r bolagets
+r&#228;kning, fordran p&#229; f&#246;rvaltningsarvode eller fordran p&#229; r&#228;nta p&#229; insats.
+
+13 &#167; Har en bolagsman haft n&#246;dv&#228;ndig eller nyttig kostnad f&#246;r bolagets
+r&#228;kning, &#228;r han ber&#228;ttigad till r&#228;nta p&#229; sin fordran fr&#229;n den dag
+fordringen kom till. R&#228;ntan ber&#228;knas enligt 5 &#167; r&#228;ntelagen (1975:635)
+f&#246;r tiden fram till dess r&#228;nta skall utg&#229; enligt 6 &#167; samma lag.
+
+F&#246;rsummar en bolagsman att g&#246;ra avtalat tillskott eller att redovisa
+influtna medel, skall han betala r&#228;nta ber&#228;knad enligt 6 &#167; r&#228;ntelagen
+fr&#229;n den dag tillskottet eller redovisningen bort ske.
+
+14 &#167; En bolagsman som upps&#229;tligen eller av oaktsamhet skadar bolaget n&#228;r
+han fullg&#246;r sina uppgifter skall ers&#228;tta skadan. Skadest&#229;ndet kan j&#228;mkas
+efter vad som &#228;r sk&#228;ligt med h&#228;nsyn till handlingens beskaffenhet,
+skadans storlek och omst&#228;ndigheterna i &#246;vrigt.
+
+Skall flera ers&#228;tta samma skada, svarar de solidariskt f&#246;r skadest&#229;ndet
+i den m&#229;n inte skadest&#229;ndsskyldigheten har j&#228;mkats f&#246;r n&#229;gon av dem
+enligt f&#246;rsta stycket. Vad n&#229;gon har betalat i skadest&#229;nd f&#229;r s&#246;kas &#229;ter
+av de andra efter vad som &#228;r sk&#228;ligt med h&#228;nsyn till omst&#228;ndigheterna.
+
+15 &#167; Talan f&#246;r bolagets r&#228;kning mot en bolagsman om skadest&#229;nd
+p&#229; grund av beslut eller &#229;tg&#228;rd under ett r&#228;kenskaps&#229;r skall
+v&#228;ckas, om talan f&#246;rs i en bolagsmans namn, senast ett &#229;r fr&#229;n
+det &#229;rsredovisningen eller &#229;rsbokslutet blev tillg&#228;ngligt f&#246;r
+sistn&#228;mnde bolagsman eller, om talan f&#246;rs i bolagets namn,
+senast ett &#229;r fr&#229;n det &#229;rsredovisningen eller &#229;rsbokslutet blev
+tillg&#228;ngligt f&#246;r samtliga bolagsm&#228;n.
+
+Har tiden f&#246;r talan f&#246;rsuttits eller har &#229;rsredovisning eller
+&#229;rsbokslut inte uppr&#228;ttats, kan talan &#228;nd&#229; v&#228;ckas, om det inte
+i &#229;rsredovisningen eller &#229;rsbokslutet eller p&#229; annat s&#228;tt till
+bolagsm&#228;nnen har l&#228;mnats i v&#228;sentliga h&#228;nseenden riktiga och
+fullst&#228;ndiga uppgifter om det beslut eller den &#229;tg&#228;rd som
+ligger till grund f&#246;r talan. Talan som avses i detta stycke kan
+dock inte v&#228;ckas sedan tre &#229;r har f&#246;rflutit fr&#229;n utg&#229;ngen av
+det r&#228;kenskaps&#229;r d&#229; beslutet fattades eller &#229;tg&#228;rden vidtogs.
+
+Utan hinder av f&#246;rsta eller andra stycket kan skadest&#229;ndstalan
+som grundas p&#229; brott f&#246;ras mot en bolagsman. Lag (1999:1089).
+
+16 &#167; En bolagsman som vill klandra en &#229;rsredovisning eller ett
+&#229;rsbokslut skall v&#228;cka talan senast ett &#229;r efter det att
+&#229;rsredovisningen eller &#229;rsbokslutet blev tillg&#228;ngligt f&#246;r
+honom. Lag (1999:1089).
+
+Bolagets och bolagsm&#228;nnens f&#246;rh&#229;llande till tredje man
+
+17 &#167; Var och en av bolagsm&#228;nnen f&#246;retr&#228;der bolaget, om inte n&#229;got annat
+har avtalats eller f&#246;ljer av 31 &#167;.
+
+En bolagsman som har visat trol&#246;shet i bolagets angel&#228;genheter kan p&#229;
+talan av n&#229;gon annan bolagsman av domstol skiljas fr&#229;n r&#228;tten att
+f&#246;retr&#228;da bolaget. Domstolens avg&#246;rande f&#229;r verkst&#228;llas utan hinder av
+att det inte har vunnit laga kraft.
+
+18 &#167; Har en bolagsman &#246;verskridit sin befogenhet n&#228;r han f&#246;retog en
+r&#228;ttshandling f&#246;r bolaget, g&#228;ller inte r&#228;ttshandlingen mot bolaget, om
+den mot vilken r&#228;ttshandlingen f&#246;retogs ins&#229;g eller borde ha insett att
+bolagsmannen &#246;verskred sin befogenhet.
+
+19 &#167; Prokura f&#229;r meddelas endast av samtliga bolagsm&#228;n i f&#246;rening. Varje
+bolagsman som &#228;r beh&#246;rig att f&#246;retr&#228;da bolaget kan &#229;terkalla prokuran.
+
+F&#246;rsta stycket g&#228;ller inte, om n&#229;got annat har avtalats mellan
+bolagsm&#228;nnen.
+
+I &#246;vrigt finns best&#228;mmelser om prokura i prokuralagen (1974:158).
+
+20 &#167; Bolagsm&#228;nnen svarar solidariskt f&#246;r bolagets f&#246;rpliktelser.
+
+I en bolagsmans konkurs skall utdelning f&#246;r en bolagsborgen&#228;rs fordran
+ber&#228;knas p&#229; fordringens belopp efter avdrag f&#246;r vad bolagsborgen&#228;ren kan
+f&#229; ut av bolaget.
+
+21 &#167; &#214;verl&#229;ter en bolagsman utan samtycke av de &#246;vriga bolagsm&#228;nnen sin
+andel i bolaget till n&#229;gon annan eller utm&#228;ts och f&#246;rs&#228;ljs andelen eller
+&#246;verg&#229;r annars en bolagsmans andel utan samtycke av de &#246;vriga
+bolagsm&#228;nnen till n&#229;gon annan, har &#246;verl&#229;telsen, f&#246;rs&#228;ljningen eller
+&#246;verg&#229;ngen f&#246;ljande verkan mot bolaget. Bolagsmannens r&#228;ttsinnehavare
+har r&#228;tt att under bolagets best&#229;nd f&#229; ut vad bolagsmannen enligt 9 &#167;
+har haft r&#228;tt att lyfta och att vid bolagsskiftet f&#229; ut den del av
+beh&#229;llna tillg&#229;ngar som bel&#246;per p&#229; bolagsmannen. R&#228;ttsinnehavaren har
+samma r&#228;tt som bolagsmannen att s&#228;ga upp bolaget eller att p&#229; annat s&#228;tt
+kr&#228;va dess uppl&#246;sning.
+
+I bolagsavtalet kan intas f&#246;rbeh&#229;ll att en bolagsman eller n&#229;gon annan
+skall ha r&#228;tt att l&#246;sa en r&#228;ttighet som enligt f&#246;rsta stycket &#246;verg&#229;r
+till ny innehavare. F&#246;rbeh&#229;llet skall ange
+
+1. vilka som &#228;r l&#246;sningsber&#228;ttigade och, om l&#246;sningsr&#228;tt inte skall
+kunna ut&#246;vas vid vissa f&#229;ng, vilka slags f&#229;ng som har undantagits,
+
+2. den ordning i vilken l&#246;sningsr&#228;tten tillkommer de l&#246;sningsber&#228;ttigade
+inb&#246;rdes,
+
+3. den tid, inte &#246;verstigande tv&#229; m&#229;nader fr&#229;n anm&#228;lan hos den uppgivne
+l&#246;sningsber&#228;ttigade om en r&#228;ttighets &#246;verg&#229;ng, inom vilken
+l&#246;sningsanspr&#229;k skall framst&#228;llas hos bolaget,
+
+4. den tid inom vilken l&#246;sen skall erl&#228;ggas, vilken tid inte f&#229;r
+&#246;verstiga en m&#229;nad r&#228;knat fr&#229;n den tidpunkt d&#229; l&#246;senbeloppet blev
+best&#228;mt.
+
+Om till&#228;mpningen av en f&#246;reskrift i bolagsavtalet r&#246;rande l&#246;senbeloppet
+skulle bereda n&#229;gon otillb&#246;rlig f&#246;rdel, kan j&#228;mkning ske.
+
+Tvister om l&#246;sningsr&#228;tt och om l&#246;senbeloppets storlek pr&#246;vas av tre
+skiljem&#228;n enligt lagen (1929:145) om skiljem&#228;n, om inte annat f&#246;reskrivs
+i bolagsavtalet.
+
+Innan det visar sig att l&#246;sningsr&#228;tten inte begagnas, kan den till
+vilken r&#228;ttigheterna enligt f&#246;rsta stycket har &#246;verg&#229;tt inte ut&#246;va annan
+av f&#229;nget h&#228;rflytande r&#228;tt gentemot bolaget &#228;n r&#228;tt att f&#229; ut vad
+f&#229;ngesmannen under bolagets best&#229;nd skulle ha haft r&#228;tt att lyfta enligt
+9 &#167;.
+
+22 &#167; Intr&#228;der en ny bolagsman i bolaget, svarar han &#228;ven f&#246;r de
+f&#246;rbindelser som bolaget har ing&#229;tt dessf&#246;rinnan. En bolagsman som avg&#229;r
+svarar inte f&#246;r de f&#246;rbindelser av bolaget som uppkommer efter avg&#229;ngen,
+om bolagets medkontrahent k&#228;nde till eller borde ha k&#228;nt till att
+bolagsmannen avg&#229;tt.
+
+22 a &#167; En fordran mot en bolagsman p&#229; grund av bolagsmannens
+ansvar enligt 20 eller 22 &#167; preskriberas senast fem &#229;r efter
+det att bolagsmannens avg&#229;ng registrerades i
+handelsregistret, om inte preskriptionen dessf&#246;rinnan avbryts
+mot bolagsmannen. Lag (2014:540).
+
+23 &#167; Om ett handelsbolag f&#246;rs&#228;tts i konkurs, kan en fordran mot bolaget
+genast g&#246;ras g&#228;llande mot bolagsm&#228;nnen, &#228;ven om fordringen annars inte
+&#228;r f&#246;rfallen till betalning.
+
+Bolagets likvidation och uppl&#246;sning
+
+24 &#167; Ett bolagsavtal kan tr&#228;ffas f&#246;r best&#228;md eller obest&#228;md tid eller
+f&#246;r en bolagsmans livstid.
+
+Har ett bolagsavtal slutits f&#246;r obest&#228;md tid, kan en bolagsman s&#228;ga upp
+avtalet n&#228;r som helst. Bolaget skall d&#229; tr&#228;da i likvidation sex m&#229;nader
+efter upps&#228;gningen, om inte n&#229;gon annan upps&#228;gningstid har avtalats.
+
+Har ett bolagsavtal slutits f&#246;r best&#228;md tid och forts&#228;tts bolagets
+r&#246;relse efter utg&#229;ngen av den tiden, anses avtal d&#228;refter slutet f&#246;r
+obest&#228;md tid.
+
+25 &#167; P&#229; beg&#228;ran av en bolagsman skall ett bolag genast tr&#228;da i
+likvidation, om n&#229;gon annan bolagsman v&#228;sentligt &#229;sidos&#228;tter sina
+skyldigheter enligt bolagsavtalet eller om det annars finns en viktig
+grund f&#246;r bolagets uppl&#246;sning.
+
+26 &#167; D&#246;r en bolagsman, skall bolaget genast tr&#228;da i likvidation, om inte
+n&#229;got annat har avtalats eller f&#246;ljer av 29 eller 30 &#167;.
+
+27 &#167; F&#246;rs&#228;tts en bolagsman i konkurs, skall bolaget genast tr&#228;da i lik
+vidation, om inte n&#229;got annat f&#246;ljer av 29 eller 30 &#167;.
+
+28 &#167; Ett handelsbolag i vilket antalet bolagsm&#228;n har g&#229;tt ned till en
+skall, n&#228;r detta f&#246;rh&#229;llande har best&#229;tt under sex m&#229;nader, anses ha
+tr&#228;tt i likvidation, om s&#229; ej skett tidigare.
+
+29 &#167; Bolagsm&#228;nnen f&#229;r avtala att, om det finns grund f&#246;r likvidation
+enligt 24-27 &#167;&#167;, en bolagsman eller hans r&#228;ttsinnehavare skall uttr&#228;da
+ur bolaget i st&#228;llet f&#246;r att bolaget skall tr&#228;da i likvidation. Ett
+s&#229;dant avtal g&#228;ller inte mot en bolagsmans konkursbo s&#229;vida inte
+konkursboet har bitr&#228;tt avtalet.
+
+30 &#167; Om det finns grund f&#246;r likvidation enligt 24-27 &#167;&#167;, kan i st&#228;llet
+f&#246;r att bolaget tr&#228;der i likvidation uteslutning ske av den bolagsman
+till vilken likvidationsgrunden kan h&#228;nf&#246;ras eller dennes
+r&#228;ttsinnehavare. F&#246;r att uteslutning skall f&#229; ske m&#229;ste f&#246;ljande
+iakttas. De &#246;vriga bolagsm&#228;nnen skall vara ense om uteslutningen. Den
+som beg&#228;rs utesluten skall erh&#229;lla ett l&#246;senbelopp som kan antas
+motsvara vad han skulle ha erh&#229;llit om bolagsskifte i st&#228;llet hade &#228;gt
+rum. Den som beg&#228;rs utesluten har r&#228;tt att kr&#228;va att s&#228;kerhet st&#228;lls f&#246;r
+att hans ansvar f&#246;r bolagets f&#246;rbindelser inte tas i anspr&#229;k i st&#246;rre
+omfattning &#228;n som kan antas ha blivit fallet om i st&#228;llet f&#246;r
+uteslutning bolagsskifte hade &#228;gt rum.
+
+F&#246;rsta stycket g&#228;ller inte, om n&#229;got annat har avtalats mellan
+bolagsm&#228;nnen.
+
+31 &#167; Under likvidationen vidtas f&#246;rvaltnings&#229;tg&#228;rder av alla
+bolagsm&#228;nnen i f&#246;rening, om inte n&#229;got annat har avtalats eller s&#228;rskild
+likvidator har f&#246;rordnats. Vad som nu sagts g&#228;ller &#228;ven r&#228;tten att
+f&#246;retr&#228;da bolaget.
+
+En bolagsman har r&#228;tt att under likvidationen l&#229;ta sig f&#246;retr&#228;das av
+ombud vid medverkan i bolagets angel&#228;genheter, om inte n&#229;got annat har
+avtalats mellan bolagsm&#228;nnen.
+
+Under likvidationen f&#229;r d&#246;dsboet efter en bolagsman f&#246;retr&#228;das av endast
+en st&#228;llf&#246;retr&#228;dare eller ett ombud, om inte n&#229;got annat har avtalats
+mellan bolagsm&#228;nnen.
+
+32 &#167; Best&#228;mmelserna i 5 &#167; g&#228;ller under likvidationen.
+
+Om inte n&#229;got annat har avtalats i fr&#229;ga om bolagsm&#228;nnens inb&#246;rdes
+r&#228;ttigheter och skyldigheter, g&#228;ller under likvidationen 2 &#167;, 3 &#167; tredje
+stycket, 4, 6, 8 och 12-16 &#167;&#167;. Best&#228;mmelserna i 3 &#167; tredje stycket och 4
+&#167; g&#228;ller dock inte, om s&#228;rskild likvidator har f&#246;rordnats.
+
+N&#228;r bolaget har tr&#228;tt i likvidation, f&#229;r kallelse p&#229; bolagets ok&#228;nda
+borgen&#228;rer s&#246;kas av bolagsman eller likvidator.
+
+33 &#167; N&#228;r bolaget har tr&#228;tt i likvidation, skall bolagets egendom i den
+m&#229;n det beh&#246;vs f&#246;r likvidationen s&#229; snart det kan ske f&#246;rvandlas till
+pengar genom f&#246;rs&#228;ljning p&#229; offentlig auktion eller p&#229; annat l&#228;mpligt
+s&#228;tt. Bolagets r&#246;relse f&#229;r forts&#228;ttas, om det beh&#246;vs f&#246;r en
+&#228;ndam&#229;lsenlig avveckling eller f&#246;r att de anst&#228;llda skall f&#229; sk&#228;lig tid
+f&#246;r att skaffa ny anst&#228;llning.
+
+34 &#167; Om inte n&#229;got annat har avtalats mellan bolagsm&#228;nnen, f&#229;r
+tillg&#229;ngarna inte skiftas innan alla k&#228;nda skulder har blivit
+betalda eller beh&#246;vliga medel har avsatts f&#246;r s&#229;dan betalning.
+
+Varje bolagsman har r&#228;tt att ur de beh&#229;llna tillg&#229;ngarna f&#229;
+tillbaka sin beh&#229;llna insats enligt den senaste
+&#229;rsredovisningen eller det senaste &#229;rsbokslutet. Om varken
+&#229;rsredovisning eller &#229;rsbokslut har uppr&#228;ttats, har varje
+bolagsman r&#228;tt att f&#229; ut vad han har betalat in till bolaget
+som insats. Om inte beh&#229;llningen r&#228;cker till, r&#228;knas bristen
+som f&#246;rlust. Uppst&#229;r ett &#246;verskott, utg&#246;r detta den slutliga
+vinsten. Lag (1999:1089).
+
+35 &#167; Om ett handelsbolag i vilket antalet bolagsm&#228;n har g&#229;tt ned till en
+har tr&#228;tt i likvidation, f&#229;r bolagets r&#246;relse forts&#228;ttas eller annars
+r&#228;ttshandlingar eller andra &#229;tg&#228;rder vidtas endast i den m&#229;n det beh&#246;vs
+f&#246;r en &#228;ndam&#229;lsenlig avveckling eller f&#246;r att de anst&#228;llda skall f&#229;
+sk&#228;lig tid f&#246;r att skaffa ny anst&#228;llning.
+
+En r&#228;ttshandling, som &#228;r otill&#229;ten enligt f&#246;rsta stycket, f&#229;r &#229;beropas
+mot bolaget av den mot vilken r&#228;ttshandlingen f&#246;retogs endast om denne
+varken k&#228;nde till eller borde ha k&#228;nt till de omst&#228;ndigheter som
+medf&#246;rde att r&#228;ttshandlingen var otill&#229;ten.
+
+36 &#167; Bolagsskiften som inte sker i skriftlig form &#228;r ogiltiga.
+
+37 &#167; Om det &#228;r sannolikt att likvidationen osk&#228;ligt uppeh&#229;lls
+eller annars utf&#246;rs p&#229; ett s&#229;dant s&#228;tt att en bolagsmans r&#228;tt
+d&#228;rigenom &#228;ventyras, f&#229;r en domstol p&#229; ans&#246;kan av
+bolagsmannen besluta att likvidationen ska verkst&#228;llas av en
+eller flera likvidatorer som utses av domstolen.
+
+Ans&#246;kan ska g&#246;ras hos r&#228;tten i den ort d&#228;r bolaget har sin
+hemvist. Ans&#246;kan ska inneh&#229;lla uppgift om samtliga bolagsm&#228;ns
+namn och adress. De bolagsm&#228;n som inte har deltagit i ans&#246;kan
+ska delges denna p&#229; det s&#228;tt som &#228;r f&#246;reskrivet om st&#228;mning i
+tvistem&#229;l. De ska ges tillf&#228;lle att yttra sig &#246;ver ans&#246;kan.
+
+En bolagsman f&#229;r utses till likvidator.
+
+En likvidator f&#229;r inte vara under&#229;rig eller i konkurs eller
+ha f&#246;rvaltare enligt 11 kap. 7 &#167; f&#246;r&#228;ldrabalken.
+
+Om bolaget inte har n&#229;gon likvidator som &#228;r bosatt i Sverige,
+ska likvidatorerna bemyndiga en i Sverige bosatt person att
+ta emot delgivning p&#229; bolagets v&#228;gnar. Ett s&#229;dant
+bemyndigande f&#229;r inte l&#228;mnas till n&#229;gon som &#228;r under&#229;rig
+eller som har f&#246;rvaltare enligt 11 kap. 7 &#167; f&#246;r&#228;ldrabalken.
+Lag (2014:540).
+
+38 &#167; Har flera likvidatorer blivit utsedda, skall de ha hand om
+uppdraget gemensamt, om inte r&#228;tten f&#246;rordnar att uppdraget skall delas
+p&#229; visst s&#228;tt mellan dem.
+
+En likvidator kan n&#228;r som helst entledigas av r&#228;tten. &#196;r bolagsm&#228;nnen
+ense om att &#229;terta likvidationen, skall r&#228;tten &#229;terkalla f&#246;rordnandet
+f&#246;r likvidator.
+
+Ett beslut om f&#246;rordnande eller entledigande av likvidator skall g&#228;lla
+omedelbart &#228;ven om det &#246;verklagas.
+
+39 &#167; En likvidator skall med iakttagande av 33 och 34 &#167;&#167; genomf&#246;ra
+likvidationen i bolagsm&#228;nnens st&#228;lle.
+
+En likvidator som inte &#228;r bolagsman f&#229;r inte handl&#228;gga fr&#229;gor om avtal
+mellan honom och bolaget. Inte heller f&#229;r han handl&#228;gga fr&#229;gor om avtal
+mellan bolaget och tredje man, om han har ett v&#228;sentligt intresse i
+fr&#229;gan som kan strida mot bolagets. Vad som nu har sagts om avtal g&#228;ller
+&#228;ven r&#228;tteg&#229;ng och annan talan.
+
+40 &#167; En likvidator har r&#228;tt till sk&#228;ligt arvode och till ers&#228;ttning f&#246;r
+kostnader f&#246;r att utf&#246;ra uppdraget.
+
+41 &#167; Sedan en likvidator har fullgjort sitt uppdrag, skall han s&#229; snart
+det kan ske avge slutredovisning f&#246;r sin f&#246;rvaltning genom en
+f&#246;rvaltningsber&#228;ttelse r&#246;rande likvidationen i dess helhet. Ber&#228;ttelsen
+skall &#228;ven inneh&#229;lla en redog&#246;relse f&#246;r bolagsskiftet. Till ber&#228;ttelsen
+skall fogas redovisningshandlingar f&#246;r hela likvidationstiden.
+Ber&#228;ttelsen och redovisningshandlingarna skall av likvidatorn delges var
+och en av bolagsm&#228;nnen.
+
+42 &#167; Best&#228;mmelserna i 14 och 15 &#167;&#167; g&#228;ller &#228;ven i fr&#229;ga om
+skadest&#229;ndsskyldighet f&#246;r likvidatorer. Best&#228;mmelserna i 15 &#167;
+om &#229;rsredovisning och &#229;rsbokslut skall i st&#228;llet g&#228;lla
+slutredovisningen. Lag (1999:1089).
+
+43 &#167; Om ett bolagsskifte har f&#246;rr&#228;ttats av likvidator, har varje
+bolagsman r&#228;tt att klandra skiftet genom att v&#228;cka talan mot de &#246;vriga
+bolagsm&#228;nnen inom tre m&#229;nader fr&#229;n det slutredovisningen delgavs honom.
+
+44 &#167; Bolaget &#228;r uppl&#246;st n&#228;r skifte har &#228;gt rum eller, om en 
+likvidator har haft hand om likvidationen, n&#228;r 
+slutredovisningen har delgetts var och en av bolagsm&#228;nnen.
+
+Om bolaget &#228;r f&#246;rsatt i konkurs och denna avslutas utan 
+&#246;verskott, &#228;r bolaget uppl&#246;st n&#228;r konkursen avslutas. Finns 
+det &#246;verskott, ska bolaget tr&#228;da i likvidation.
+
+I artikel 48.2 i Europaparlamentets och r&#229;dets f&#246;rordning 
+(EU) 2015/848 av den 20 maj 2015 om insolvensf&#246;rfaranden 
+finns en s&#228;rskild best&#228;mmelse om n&#228;r en juridisk person eller 
+ett f&#246;retag ska anses uppl&#246;st. Lag (2017:474).
+
+45 &#167; Om det framkommer n&#229;gon tillg&#229;ng f&#246;r bolaget efter dess uppl&#246;sning
+eller om talan v&#228;cks mot bolaget eller om det p&#229; annat s&#228;tt uppkommer
+behov av en likvidations&#229;tg&#228;rd, skall likvidationen forts&#228;ttas.
+
+3 kap. Kommanditbolag
+
+1 &#167; I fr&#229;ga om kommanditbolag g&#228;ller 2 kap., om inte n&#229;got annat
+f&#246;reskrivs.
+
+2 &#167; Samtliga bolagsm&#228;n f&#229;r inte vara kommanditdel&#228;gare. Stiftelser eller
+ideella f&#246;reningar f&#229;r inte vara komplement&#228;rer. &#197;sidos&#228;tts dessa
+f&#246;reskrifter, anses bolaget som handelsbolag enligt 2 kap.
+
+3 &#167; Om inte n&#229;got annat har avtalats, f&#229;r en kommanditdel&#228;gare vid
+bolagets uppl&#246;sning eller n&#228;r han uttr&#228;der ur bolaget inte p&#229;f&#246;ras en
+f&#246;rlust som &#246;verstiger vad han har satt in eller &#229;tagit sig att s&#228;tta in
+i bolaget.
+
+4 &#167; Om inte n&#229;got annat har avtalats, har en kommanditdel&#228;gare inte r&#228;tt
+att ta del i f&#246;rvaltningen av bolagets angel&#228;genheter. I fr&#229;ga om
+f&#246;rvaltnings&#229;tg&#228;rder under likvidation g&#228;ller dock 2 kap. 31 &#167;.
+
+5 &#167; Om det inte genom avtal har best&#228;mts efter vilken grund en
+kommanditdel&#228;gare skall ta del i vinst och f&#246;rlust och bolagsm&#228;nnen inte
+heller kan enas om det, ankommer det p&#229; r&#228;tten att avg&#246;ra denna fr&#229;ga
+efter sk&#228;lighet.
+
+6 &#167; Bolagsm&#228;nnen f&#229;r avtala att kommanditdel&#228;gare inte skall ha
+kontrollr&#228;tt som avses i 2 kap. 5 &#167;.
+
+7 &#167; Kommanditdel&#228;gare &#228;r inte beh&#246;riga att f&#246;retr&#228;da bolaget.
+
+En r&#228;ttshandling som en kommanditdel&#228;gare f&#246;retar f&#246;r bolaget blir dock
+bindande f&#246;r bolaget, om den mot vilken r&#228;ttshandlingen f&#246;retogs varken
+ins&#229;g eller borde ha insett att den som f&#246;retog r&#228;ttshandlingen var
+kommanditdel&#228;gare.
+
+8 &#167; En kommanditdel&#228;gare fullg&#246;r sin skyldighet att svara f&#246;r bolagets
+f&#246;rpliktelser genom att betala in sin utf&#228;sta insats till bolaget.
+
+P&#229; beg&#228;ran av den som har en fordran mot bolaget som &#228;r f&#246;rfallen till
+betalning &#228;r en kommanditdel&#228;gare skyldig att betala in sin utf&#228;sta
+insats till bolaget.
+
+En kommanditdel&#228;gares utf&#228;sta insats anses som inte inbetald i den m&#229;n
+han har &#229;tertagit n&#229;got av insatsen eller, innan en uppkommen brist i
+insatsen har blivit fylld, lyft vad som har tillgodof&#246;rts honom enligt 2
+kap. 6 eller 8 &#167;.
+
+9 &#167; Om kommanditbolaget ing&#229;r ett avtal med tredje man och 
+denne vid avtalets ing&#229;ende varken k&#228;nde till eller borde ha 
+k&#228;nt till att det skett ett f&#246;rbeh&#229;ll enligt 1 kap. 2 &#167;, 
+svarar den kommanditdel&#228;gare som f&#246;rbeh&#229;llet avser s&#229;som 
+komplement&#228;r f&#246;r de f&#246;rbindelser som uppkommit f&#246;r bolaget 
+genom avtalet.
+
+Om ett avtal ing&#229;s f&#246;r bolagets r&#228;kning och d&#228;rvid med en 
+kommanditdel&#228;gares vetskap och vilja ett f&#246;retagsnamn anv&#228;nds 
+som inte inneh&#229;ller ordet ”kommanditbolag”, svarar 
+kommanditdel&#228;garen s&#229;som komplement&#228;r gentemot den med vilken 
+avtalet ingicks, &#228;ven om denne p&#229; grund av 19 &#167; 
+handelsregisterlagen (1974:157) ska anses ha haft vetskap om 
+att det skett ett f&#246;rbeh&#229;ll enligt 1 kap. 2 &#167;. 
+Lag (2018:1662).
+
+10 &#167; Neds&#228;tts det belopp med vilket en kommanditdel&#228;gare svarar enligt 1
+kap. 2 &#167; p&#229; grund av &#246;verenskommelse mellan bolagsm&#228;nnen, &#228;r
+neds&#228;ttningen utan verkan i fr&#229;ga om f&#246;rpliktelser vid vars tillkomst
+medkontrahenten varken k&#228;nde till eller borde ha k&#228;nt till
+neds&#228;ttningen.
+
+11 &#167; Om inte n&#229;got annat har avtalats, medf&#246;r en kommanditdel&#228;gares d&#246;d
+inte att bolaget skall tr&#228;da i likvidation.
+
+4 kap. Enkla bolag
+
+Bolagsm&#228;nnens inb&#246;rdes r&#228;ttigheter och skyldigheter
+
+1 &#167; Bolagsm&#228;nnens inb&#246;rdes r&#228;ttigheter och skyldigheter under bolagets
+best&#229;nd best&#228;ms genom avtal.
+
+I den m&#229;n bolagsm&#228;nnen inte har tr&#228;ffat avtal om n&#229;got annat skall 2-4
+&#167;&#167; till&#228;mpas.
+
+2 &#167; Best&#228;mmelserna i 2 kap. 2, 4, 5, 8, 9, 11, 13 och 14 &#167;&#167; g&#228;ller f&#246;r
+enkla bolag. H&#228;rvid skall det som f&#246;reskrivs i 2 kap. 14 &#167; om skada f&#246;r
+bolaget i st&#228;llet g&#228;lla skada f&#246;r n&#229;gon annan bolagsman.
+
+3 &#167; &#197;tg&#228;rder i f&#246;rvaltningen av bolagets angel&#228;genheter f&#229;r vidtas
+endast med samtliga bolagsm&#228;ns samtycke. Dock f&#229;r en &#229;tg&#228;rd som inte t&#229;l
+uppskov vidtas fast&#228;n en bolagsman inte har deltagit i beslutet om
+&#229;tg&#228;rden, om bolagsmannen inte har hunnit tillkallas eller om han till
+f&#246;ljd av sjukdom eller av annan anledning inte &#228;r i st&#229;nd att ta del i
+f&#246;rvaltningen av bolagets angel&#228;genheter.
+
+Har bolagsm&#228;nnen avtalat att en f&#246;rvaltnings&#229;tg&#228;rd f&#229;r vidtas utan
+samtycke av samtliga bolagsm&#228;n, f&#229;r &#229;tg&#228;rden dock inte vidtas, om den
+f&#246;rbjuds av en bolagsman som inte &#228;r utesluten fr&#229;n f&#246;rvaltningen.
+
+4 &#167; Talan om skadest&#229;nd av en bolagsman mot n&#229;gon annan bolagsman skall
+v&#228;ckas senast tre &#229;r efter utg&#229;ngen av det &#229;r d&#229; det beslut fattades
+eller den &#229;tg&#228;rd vidtogs som ligger till grund f&#246;r talan.
+
+Utan hinder av f&#246;rsta stycket kan skadest&#229;ndstalan som grundas p&#229; brott
+f&#246;ras mot en bolagsman.
+
+Bolagsm&#228;nnens f&#246;rh&#229;llande till tredje man
+
+5 &#167; Genom ett avtal som sluts p&#229; bolagsm&#228;nnens v&#228;gnar eller under en
+ben&#228;mning varmed bolagsm&#228;nnen samf&#228;llt betecknas blir endast den
+bolagsman som har deltagit i avtalet ber&#228;ttigad eller f&#246;rpliktad i
+f&#246;rh&#229;llande till medkontrahenten.
+
+Har flera bolagsm&#228;n deltagit i avtalet, har de lika r&#228;tt i f&#246;rh&#229;llande
+till medkontrahenten och svarar solidariskt f&#246;r vad som har utf&#228;sts. Vad
+som nu har sagts g&#228;ller inte, om n&#229;got annat har best&#228;mts i avtalet.
+
+6 &#167; Anv&#228;nds vid ing&#229;ende av ett avtal en ben&#228;mning varmed bolagsm&#228;nnen
+samf&#228;llt betecknas, f&#229;r ben&#228;mningen inte inneh&#229;lla n&#229;got av orden
+&quot;handelsbolag&quot;, &quot;aktiebolag&quot;, &quot;f&#246;rening&quot; eller &quot;stiftelse&quot;. Om s&#229; &#228;nd&#229;
+sker, svarar de bolagsm&#228;n med vilkas vetskap och vilja det har skett
+solidariskt f&#246;r f&#246;rbindelser gentemot den som varken ins&#229;g eller borde
+ha insett att ben&#228;mningen avs&#229;g ett enkelt bolag.
+
+Bolagets likvidation och uppl&#246;sning
+
+7 &#167; Under bolagets likvidation g&#228;ller i fr&#229;ga om bolagsm&#228;nnens inb&#246;rdes
+r&#228;ttigheter och skyldigheter 2 kap. 2, 4, 5, 8, 13 och 14 &#167;&#167; samt 3 och
+4 &#167;&#167; i detta kapitel, om inte n&#229;got annat har avtalats. Vad som nu har
+sagts om 2 kap. 4 &#167; och 3 &#167; i detta kapitel g&#228;ller dock inte, om
+s&#228;rskild likvidator har f&#246;rordnats.
+
+I &#246;vrigt g&#228;ller i fr&#229;ga om bolagets likvidation och uppl&#246;sning 2 kap.
+24-27, 29 och 30 &#167;&#167;, 31 &#167; andra och tredje styckena, 33, 34 och 36 &#167;&#167;,
+37 &#167; f&#246;rsta stycket, andra stycket andra-fj&#228;rde meningarna och
+tredje-femte styckena, 38-43 &#167;&#167;, 44 &#167; f&#246;rsta stycket samt 45 &#167;.
+
+8 &#167; Ans&#246;kan om f&#246;rordnande av likvidator skall g&#246;ras hos r&#228;tten i den
+ort d&#228;r n&#229;gon av bolagsm&#228;nnen har sitt hemvist. F&#246;religger s&#229;dana
+ans&#246;kningar vid skilda domstolar, skall den ans&#246;kan som kom in senare
+inte tas upp till pr&#246;vning.
+
+9 &#167; En likvidator &#228;r beh&#246;rig att f&#246;reta r&#228;ttshandlingar p&#229; bolagsm&#228;nnens
+v&#228;gnar endast i den m&#229;n det beh&#246;vs f&#246;r att bolagsm&#228;nnens f&#246;r bolaget
+avsedda tillg&#229;ngar skall kunna f&#246;rvandlas till pengar enligt 2 kap. 33
+&#167;. &#214;verskrider likvidatorn sin beh&#246;righet, &#228;r r&#228;ttshandlingen dock
+bindande f&#246;r bolagsm&#228;nnen, om tredje man varken ins&#229;g eller borde ha
+insett att beh&#246;righeten &#246;verskreds.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1980:1102
+
+4. Fr&#229;ga huruvida handelsbolag eller enkelt bolag f&#246;religger skall
+intill utg&#229;ngen av &#229;r 1994 bed&#246;mas enligt &#228;ldre lag. Enkelt bolag, som
+fr&#229;n och med den 1 januari 1995 blir handelsbolag, skall ans&#246;ka om
+registrering f&#246;re n&#228;mnda dag. Lag (1992:1210).
+
+1993:760
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1995.
+
+2. F&#246;r handelsbolag och enkla bolag som har bildats enligt &#228;ldre lag
+g&#228;ller den nya lagen med det undantag som f&#246;ljer av punkten 3.
+
+3. F&#246;r handelsbolag som har bildats f&#246;re den 1 januari 1995 g&#228;ller 1
+kap. 1 &#167; i sin &#228;ldre lydelse till utg&#229;ngen av &#229;r 1995. Om ett s&#229;dant
+bolag vid utg&#229;ngen av 1995 inte har f&#246;rts in i handelsregistret &#228;r
+bolaget uppl&#246;st.
+
+1999:1089
+
+Denna lag tr&#228;der i kraft den 1 januari 2000 och till&#228;mpas
+f&#246;rsta g&#229;ngen f&#246;r det r&#228;kenskaps&#229;r som inleds n&#228;rmast efter den
+31 december 1999.
+
+2000:184
+
+Denna lag tr&#228;der i kraft den 1 juli 2000. &#196;ldre f&#246;reskrifter
+g&#228;ller f&#246;r ber&#228;kning av r&#228;nta som avser tid f&#246;re
+ikrafttr&#228;dandet.
+
+2002:353
+
+Denna lag tr&#228;der i kraft den 1 juli 2002. I fr&#229;ga om
+r&#228;kenskaps&#229;r som inleds f&#246;re ikrafttr&#228;dandet g&#228;ller &#228;ldre
+best&#228;mmelser.
+
+2005:247
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2005.
+
+2. Best&#228;mmelserna i 1 kap. 2 a &#167; g&#228;ller inte om pensions- eller
+personalstiftelsen har intr&#228;tt som bolagsman i handelsbolaget
+f&#246;re lagens ikrafttr&#228;dande och ans&#246;kan om registrering av
+bolagsavtalet har kommit in till Bolagsverket f&#246;re utg&#229;ngen av
+december 2005.
+
+2006:867
+
+Denna lag tr&#228;der i kraft den 1 januari 2007 och till&#228;mpas
+f&#246;rsta g&#229;ngen f&#246;r det r&#228;kenskaps&#229;r som inleds n&#228;rmast efter den
+31 december 2006.
+
+2014:540
+
+1. Denna lag tr&#228;der i kraft den 1 augusti 2014.
+
+2. Best&#228;mmelsen i 2 kap. 22 a &#167; till&#228;mpas ocks&#229; p&#229; fordringar
+som har kommit till f&#246;re ikrafttr&#228;dandet, om bolagsmannens
+avg&#229;ng har registrerats i handelsregistret efter
+ikrafttr&#228;dandet.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3920">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3922">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

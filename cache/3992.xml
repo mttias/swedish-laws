@@ -1,0 +1,526 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2020-01-24" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3992</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3991">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3993">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1978:558 ·
+                    <a href="/sfsr?bet=1978:558">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rfogandef&#246;rordning (1978:558)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> F&#246;rsvarsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1978-06-08
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:1004
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Myndigheter som f&#229;r besluta om f&#246;rfogande
+
+1 &#167; Om f&#246;rfogande f&#246;r F&#246;rsvarsmaktens r&#228;kning beslutar
+F&#246;rsvarsmakten, Fortifikationsverket och F&#246;rsvarets materielverk.
+
+Beslut om f&#246;rfogande &#246;ver fastighet, som beh&#246;vs f&#246;r s&#229;dant
+bef&#228;stningsarbete eller liknande arbete som inte &#228;r av tillf&#228;llig natur
+f&#229;r dock endast meddelas av F&#246;rsvarsmakten och
+Fortifikationsverket.
+
+Ett beslut som F&#246;rsvarsmakten fattar om f&#246;rfogande f&#229;r meddelas
+av befattningshavare som har l&#228;gst majors tj&#228;nstegrad eller som &#228;r
+l&#228;gst chef f&#246;r bataljon eller annan enhet av motsvarande storlek
+eller som uppeh&#229;ller befattning som transportledare eller milit&#228;rt
+flygplats-, hamn- eller stationsbef&#228;l. F&#246;rordning (1994:393).
+
+2 &#167; F&#246;rfogande f&#246;r n&#229;gon annans r&#228;kning &#228;n F&#246;rsvarsmaktens 
+beslutas, om f&#246;rfogandet avser
+
+1. transportmedel: av Trafikverket, Sj&#246;fartsverket, 
+Transportstyrelsen eller l&#228;nsstyrelsen i det l&#228;n d&#228;r 
+transportmedlet finns,
+
+2. fastigheter: av l&#228;nsstyrelsen i det l&#228;n d&#228;r fastigheten 
+ligger,
+
+3. radioanl&#228;ggningar: av l&#228;nsstyrelsen i det l&#228;n d&#228;r 
+anl&#228;ggningen finns,
+
+4. annan egendom &#228;n som anges i 1-3 och tj&#228;nster: av kommunen, 
+regionen eller den statliga myndighet som regeringen best&#228;mmer 
+s&#228;rskilt.
+
+Har f&#246;rfogande f&#246;rberetts genom uttagning eller p&#229; annat s&#228;tt, 
+f&#229;r beslut om f&#246;rfogandet meddelas ocks&#229; av myndighet f&#246;r vars 
+behov f&#246;rberedelsen har gjorts. 
+
+F&#246;rfogande enligt 5 &#167; f&#246;rsta stycket 5 f&#246;rfogandelagen 
+(1978:262) f&#229;r dessutom meddelas av v&#228;gtrafikombud.
+F&#246;rordning (2019:1004).
+
+F&#246;retr&#228;desr&#228;tt till egendom
+
+3 &#167; F&#246;rfogande &#246;ver egendom, som genom uttagning eller p&#229; annat s&#228;tt har
+f&#246;rberetts f&#246;r f&#246;rfogande, f&#229;r inte avse annat &#228;n det avsedda &#228;ndam&#229;let,
+om inte regeringen best&#228;mmer annat eller medgivande l&#228;mnas av den, f&#246;r
+vars behov egendomen &#228;r avsedd, eller av den myndighet som har beslutat
+om uttagningen eller vidtagit annan f&#246;rberedande &#229;tg&#228;rd.
+
+4 &#167; G&#246;r flera myndigheter, kommuner eller regioner som har 
+r&#228;tt att besluta om f&#246;rfogande samtidigt anspr&#229;k p&#229; egendom 
+som inte &#228;r f&#246;rberedd f&#246;r f&#246;rfogande, avg&#246;rs fr&#229;gan om 
+f&#246;retr&#228;desr&#228;tt i samr&#229;d mellan dem. Kan enighet inte n&#229;s, f&#229;r 
+&#228;rendet h&#228;nskjutas till regeringen. Om ett beslut i s&#229;dan 
+ordning inte kan inh&#228;mtas eller avvaktas, har F&#246;rsvarsmakten 
+f&#246;retr&#228;desr&#228;tt till egendomen f&#246;rutsatt att den oundg&#228;ngligen 
+beh&#246;vs f&#246;r verksamheten. F&#246;rordning (2019:1004).
+
+Besluts inneh&#229;ll m.m.
+
+5 &#167; Beslut om f&#246;rfogande skall avfattas skriftligt och inneh&#229;lla uppgift
+om
+
+1. dagen f&#246;r beslutet och myndighet som fattat det,
+
+2. den som f&#246;rfogandet riktar sig mot,
+
+3. den f&#246;r vars behov f&#246;rfogandet sker,
+
+4. egendom eller tj&#228;nst som beslutet avser,
+
+5. huruvida egendom tas i anspr&#229;k med &#228;gander&#228;tt eller nyttjander&#228;tt,
+
+6. i fall d&#229; egendom tas i anspr&#229;k med nyttjander&#228;tt, den tid som
+f&#246;rfogandet skall omfatta,
+
+7. tid och plats f&#246;r besiktning,
+
+8. besv&#228;rsh&#228;nvisning.
+
+Uppgift om dagen f&#246;r beslutet f&#229;r utel&#228;mnas, om beslutet avser egendom
+som genom uttagning eller p&#229; annat s&#228;tt har f&#246;rberetts f&#246;r f&#246;rfogande
+och beslutet av beredskapssk&#228;l har f&#246;rberetts i fred. F&#246;rordning
+(1980:513).
+
+6 &#167; Skall vid f&#246;rfogande egendom avl&#228;mnas, skall beslutet om f&#246;rfogande
+inneh&#229;lla uppgift om tid och plats f&#246;r avl&#228;mnandet. F&#246;ljer med
+f&#246;rfogandet andra skyldigheter f&#246;r &#228;garen eller innehavaren av
+egendomen, skall uppgift h&#228;rom tas in i beslutet.
+
+Beslutet skall ocks&#229; inneh&#229;lla f&#246;reskrift om &#229;tg&#228;rder som skall vidtas,
+om skyldighet enligt f&#246;rsta stycket inte kan fullg&#246;ras.
+
+7 &#167; Om ers&#228;ttning vid f&#246;rfogande skall best&#228;mmas enligt taxa, skall
+ers&#228;ttningen framg&#229; av beslutet om f&#246;rfogande. I s&#229;dant fall skall
+beslutet ocks&#229; inneh&#229;lla uppgift om vad som skall iakttagas vid talan
+mot beslutet om ers&#228;ttning och om den i 34 &#167; andra stycket
+f&#246;rfogandelagen (1978:262) angivna m&#246;jligheten att f&#229; fr&#229;gan om
+ers&#228;ttning pr&#246;vad av riksv&#228;rderingsn&#228;mnden.
+
+Om beslutet om f&#246;rfogande av beredskapssk&#228;l har f&#246;rberetts i fred,
+beh&#246;ver ers&#228;ttningen inte framg&#229; av beslutet. I s&#229;dant fall skall beslut
+om ers&#228;ttningens storlek l&#228;mnas senast n&#228;r egendomen avl&#228;mnas eller
+fr&#229;ntr&#228;ds. F&#246;rordning (1980:513).
+
+8 &#167; Skall ers&#228;ttning vid f&#246;rfogande best&#228;mmas av v&#228;rderingsn&#228;mnd, skall
+beslutet om f&#246;rfogande inneh&#229;lla uppgift om f&#246;rfarandet vid
+framst&#228;llande av anspr&#229;k p&#229; ers&#228;ttning.
+
+9 &#167; Beslut om f&#246;rfogande skall delges med den som f&#246;rfogandet riktar sig
+mot.
+
+Beslut om f&#246;rfogande skall tillst&#228;llas l&#228;nsstyrelsen i det l&#228;n d&#228;r den
+med f&#246;rfogandet avsedda egendomen finns eller d&#228;r den med f&#246;rfogandet
+avsedda tj&#228;nsten eller &#229;tg&#228;rden skall utf&#246;ras.
+
+10 &#167; Best&#228;mmelserna i 5, 8 och 9 &#167;&#167; skall i till&#228;mpliga delar g&#228;lla i
+fr&#229;ga om beslut om dispositionsf&#246;rbud.
+
+11 &#167; Den som mottar den egendom, &#229;tg&#228;rd eller tj&#228;nst som beslut om
+f&#246;rfogande avser skall utf&#228;rda kvitto om mottagandet. &#196;r mottagaren inte
+samma myndighet som har meddelat beslutet, skall avskrift eller kopia av
+kvittot s&#228;ndas till denna myndighet.
+
+12 &#167; Varje myndighet, kommun eller region som avses i 1 eller 
+2 &#167; ska f&#246;ra f&#246;rteckning &#246;ver &#228;renden om f&#246;rfogande. &#196;rendena 
+ska tas upp i nummerf&#246;ljd. F&#246;r varje &#228;rende ska beslut och 
+annan &#229;tg&#228;rd antecknas. Kopia av beslut och andra handlingar i 
+&#228;rendet ska f&#246;rses med &#228;rendets nummer och f&#246;ras samman i en 
+akt. N&#228;r akten eller n&#229;gon handling ur denna l&#228;mnas till annan 
+myndighet, kommun eller region, ska detta antecknas.
+F&#246;rordning (2019:1004).
+
+Taxor
+
+13 &#167; Taxa fastst&#228;lls av riksv&#228;rderingsn&#228;mnden efter samr&#229;d med statens
+pris- och kartelln&#228;mnd.
+
+14 &#167; Om taxas kung&#246;rande finns best&#228;mmelser i lagen (1976:633) om
+kung&#246;rande av lagar och andra f&#246;rfattningar och i
+f&#246;rfattningssamlingsf&#246;rordningen (1976:725).
+
+Besiktning
+
+15 &#167; Besiktning skall ske av egendom som avses med f&#246;rfogande.
+Besiktning skall ocks&#229; ske, om ers&#228;ttning beg&#228;rs f&#246;r skada som till
+f&#246;ljd av dispositionsf&#246;rbud har uppkommit p&#229; den egendom som avses med
+f&#246;rbudet. F&#246;rordning (1980:513).
+
+16 &#167; Besiktning skall f&#246;rr&#228;ttas av tre gode m&#228;n, om inte annat f&#246;ljer av
+tredje stycket.
+
+Av de gode m&#228;nnen utses en av den f&#246;r vars behov f&#246;rfogandet g&#246;rs och en
+av den som f&#246;rfogandet riktar sig mot. Riktar sig f&#246;rfogandet mot flera
+och kan dessa parter inte ena sig om vem som skall utses till god man
+eller vill en part inte utse god man, utses denne av l&#228;nsstyrelse som
+anges i 9 &#167; andra stycket. De s&#229;lunda utsedda gode m&#228;nnen utser den
+tredje.
+
+I fr&#229;ga om egendom som genom uttagning eller p&#229; annat s&#228;tt har
+f&#246;rberetts f&#246;r f&#246;rfogande eller n&#228;r ers&#228;ttningen skall best&#228;mmas enligt
+taxa f&#229;r besiktningen f&#246;rr&#228;ttas av en god man. Denne utses av den
+myndighet som tar emot egendomen bland personer som l&#228;nsstyrelsen i
+f&#246;rv&#228;g har utsett f&#246;r detta &#228;ndam&#229;l. Medger omst&#228;ndigheterna inte
+besiktning genom gode m&#228;n, sker besiktningen genom
+mottagningsmyndighetens f&#246;rsorg. F&#246;rordning (1983:808).
+
+17 &#167; &#214;ver besiktning skall f&#246;ras protokoll.
+
+I protokollet skall anges
+
+1. egendomens beskaffenhet och v&#228;rde vid avl&#228;mnandet och, i f&#246;rekommande
+fall, vid &#229;terl&#228;mnandet,
+
+2. kostnad f&#246;r &#229;tg&#228;rd som avses i 12 &#167; och 13 &#167; f&#246;rsta stycket f&#246;rsta
+meningen f&#246;rfogandelagen (1978:262),
+
+3. &#246;vriga omst&#228;ndigheter som kan ha betydelse f&#246;r ers&#228;ttningsfr&#229;gan.
+
+18 &#167; Protokoll &#246;ver besiktning tillst&#228;lls den som f&#246;rfogandet riktar sig
+mot, den f&#246;r vars behov f&#246;rfogandet g&#246;rs och den l&#228;nsstyrelse som anges
+i 9 &#167; andra stycket.
+
+Lokala v&#228;rderingsn&#228;mnder
+
+19 &#167; I varje l&#228;n finns lokala v&#228;rderingsn&#228;mnder till det antal och med
+de verksamhetsomr&#229;den som fastst&#228;lls av l&#228;nsstyrelsen efter samr&#229;d med
+F&#246;rsvarsmakten. F&#246;rordning (1994:393).
+
+20 &#167; Ordf&#246;rande och &#246;vriga ledam&#246;ter i lokal v&#228;rderingsn&#228;mnd, ers&#228;ttare
+f&#246;r dem samt statens ombud inf&#246;r s&#229;dan n&#228;mnd utses f&#246;r tre &#229;r av
+l&#228;nsstyrelsen efter samr&#229;d med F&#246;rsvarsmakten.
+
+L&#228;nsstyrelsen skall l&#228;mna riksv&#228;rderingsn&#228;mnden en f&#246;rteckning &#246;ver
+lokala v&#228;rderingsn&#228;mnder med uppgift om ledam&#246;ter, ers&#228;ttare och statens
+ombud. F&#246;rordning (1994:393).
+
+Handl&#228;ggning av ers&#228;ttnings&#228;renden
+
+21 &#167; Ans&#246;kan om ers&#228;ttning som inte skall utg&#229; efter taxa g&#246;rs hos
+l&#228;nsstyrelse som anges i 9 &#167; andra stycket. I ans&#246;kningen skall uppges
+den ers&#228;ttning som beg&#228;rs. Till ans&#246;kningen skall fogas kvitto som avses
+i 11 &#167;. P&#229;kallas till&#228;mpning av 38 &#167; andra stycket andra meningen
+f&#246;rfogandelagen (1978:262), skall ans&#246;kningen uppta de sk&#228;l som &#229;beropas
+h&#228;rf&#246;r.
+
+22 &#167; L&#228;nsstyrelsen s&#228;nder ans&#246;kningen, beslutet om f&#246;rfogande,
+besiktningsprotokollet, kvittot och &#246;vriga handlingar till den
+v&#228;rderingsn&#228;mnd som skall pr&#246;va &#228;rendet.
+
+23 &#167; V&#228;rderingsn&#228;mnd f&#229;r kalla enskild sak&#228;gare, statens ombud och
+sakkunnig att h&#246;ras muntligen inf&#246;r n&#228;mnden. N&#228;mnden f&#229;r ocks&#229; f&#246;reta
+syn och g&#246;ra besiktning av egendom.
+
+Till muntlig f&#246;rhandling, syn och besiktning skall enskild sak&#228;gare och
+statens ombud kallas.
+
+24 &#167; Enskild sak&#228;gare och sakkunnig som inst&#228;ller sig inf&#246;r
+v&#228;rderingsn&#228;mnd har r&#228;tt till ers&#228;ttning av allm&#228;nna medel enligt de
+grunder som g&#228;ller f&#246;r ers&#228;ttning till vittnen.
+
+25 &#167; Enskild sak&#228;gare, statens ombud och den l&#228;nsstyrelse som har att
+betala ut ers&#228;ttningen skall underr&#228;ttas om v&#228;rderingsn&#228;mnds beslut i
+ers&#228;ttnings&#228;rende.
+
+Utbetalning av ers&#228;ttning
+
+26 &#167; Ers&#228;ttning betalas ut av l&#228;nsstyrelse som anges i 9 &#167; andra stycket
+med iakttagande av 41-44 &#167;&#167; f&#246;rfogandelagen (1978:262).
+
+Innan utbetalning sker, skall l&#228;nsstyrelsen i den omfattning som
+omst&#228;ndigheterna p&#229;kallar det utreda huruvida annan &#228;n den som
+f&#246;rfogandet riktar sig mot har r&#228;tt till den med f&#246;rfogandet avsedda
+egendomen.
+
+Neds&#228;ttning enligt 43 &#167; andra stycket f&#246;rfogandelagen g&#246;rs, om inte
+&#246;verenskommelse om f&#246;rdelning har tr&#228;ffats inom en m&#229;nad fr&#229;n det
+beslutet om ers&#228;ttning har vunnit laga kraft.
+
+27 &#167; Ers&#228;ttning som l&#228;nsstyrelse har betalat ut p&#229; grund av
+f&#246;rfogande f&#246;r F&#246;rsvarsmaktens behov, har l&#228;nsstyrelsen r&#228;tt att f&#229;
+tillbaka av F&#246;rsvarsmakten. F&#246;rordning (1994:393).
+
+Uppgiftsskyldighet m.m.
+
+28 &#167; Uppgift enligt 45 &#167; f&#246;rfogandelagen (1978:262) ska l&#228;mnas 
+till den myndighet, kommun eller region som tar emot egendomen 
+n&#228;r denna avl&#228;mnas eller fr&#229;ntr&#228;ds, om inte myndigheten, 
+kommunen eller regionen medger att uppgiften l&#228;mnas senare. 
+Uppgiften l&#228;mnas p&#229; blankett som fastst&#228;lls av F&#246;rsvarsmakten. 
+Myndigheten, kommunen eller regionen ska skicka en kopia av 
+handlingen till den l&#228;nsstyrelse som anges i 9 &#167; andra stycket 
+denna f&#246;rordning. F&#246;rordning (2019:1004).
+
+29 &#167; Om en myndighet, kommun eller region som f&#229;r besluta om 
+f&#246;rfogande anser att det kr&#228;vs en &#229;tg&#228;rd enligt 46 &#167; andra 
+stycket eller 47 &#167; f&#246;rsta eller andra stycket f&#246;rfogandelagen 
+(1978:262), ska myndigheten, kommunen eller regionen g&#246;ra 
+framst&#228;llning om &#229;tg&#228;rden hos den l&#228;nsstyrelse som anges i 9 &#167; 
+andra stycket denna f&#246;rordning. F&#246;rordning (2019:1004).
+
+S&#228;rskilda best&#228;mmelser
+
+30 &#167; Inskr&#228;nks genom f&#246;rfogande j&#228;rnv&#228;gs, kanals, luftfartsanl&#228;ggnings
+eller annan trafikanl&#228;ggnings m&#246;jligheter att betj&#228;na allm&#228;nheten, skall
+l&#228;nsstyrelsen i det l&#228;n d&#228;r anl&#228;ggningen finns underr&#228;ttas om
+f&#246;rh&#229;llandet av den myndighet som har meddelat beslutet om f&#246;rfogande.
+
+31 &#167; Myndigheten f&#246;r samh&#228;llsskydd och beredskap skall efter
+samr&#229;d med ber&#246;rda centrala f&#246;rvaltningsmyndigheter uppr&#228;tta en
+f&#246;rteckning &#246;ver sakkunniga som kan anlitas av v&#228;rderingsn&#228;mnd.
+
+F&#246;rteckningen skall revideras vartannat &#229;r. Den skall tillhandah&#229;llas
+v&#228;rderingsn&#228;mnderna och l&#228;nsstyrelserna. F&#246;rordning (2008:1087).
+
+32 &#167; F&#246;rsvarsmakten skall i fr&#229;ga om f&#246;rfogande fastst&#228;lla
+formul&#228;r till blanketter samt utarbeta information.
+F&#246;rordning (1994:393).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3991">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3993">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

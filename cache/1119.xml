@@ -1,0 +1,759 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2015-05-06" /> 
+ <meta id="rattsinfo-edited" content="2015-09-08" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1119</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1118">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1120">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2015:225 ·
+                    <a href="/sfsr?bet=2015:225">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2015:225) om till&#228;mpning av konventionen om social trygghet mellan Sverige och Sydkorea</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2015-04-23
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> Endast den svenska och den engelska texten i bilagan &#228;r med h&#228;r.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2015-06-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Den administrativa &#246;verenskommelsen om till&#228;mpning av
+konventionen om social trygghet mellan Sverige och Sydkorea
+som undertecknades i Seoul den 9 september 2013 ska g&#228;lla som
+f&#246;rordning h&#228;r i landet. Till&#228;mpnings&#246;verenskommelsens
+inneh&#229;ll framg&#229;r av en bilaga till denna f&#246;rordning.
+
+2 &#167; F&#246;rs&#228;kringskassan f&#229;r meddela f&#246;reskrifter om den
+procentsats som sjukf&#246;rs&#228;kringsavgiften ska uppg&#229; till enligt
+2 &#167; lagen (2014:834) om konvention om social trygghet mellan
+Sverige och Sydkorea.
+
+
+Bilaga
+
+TILL&#196;MPNINGS&#214;VERENSKOMMELSE OM GENOMF&#214;RANDE AV KONVENTIONEN
+OM SOCIAL TRYGGHET MELLAN KONUNGARIKET SVERIGES REGERING OCH
+REPUBLIKEN KOREAS REGERING
+
+Konungariket Sveriges regerings och Republiken Koreas
+regerings beh&#246;riga myndigheter har,
+
+i enlighet med artikel 15.1 i konventionen om social trygghet
+mellan Konungariket Sveriges regering (nedan kallad Sverige)
+och Republiken Koreas regering (nedan kallad Sydkorea)
+undertecknat i Seoul den 9 september 2013 (nedan kallat
+konventionen),
+
+kommit &#246;verens om f&#246;ljande.
+
+AVDELNING I
+
+ALLM&#196;NNA BEST&#196;MMELSER
+
+Artikel 1
+
+Definitioner
+
+De termer och uttryck som anv&#228;nds i denna
+till&#228;mpnings&#246;verenskommelse ska ha samma betydelse som i
+konventionen.
+
+Artikel 2
+
+Beh&#246;riga institutioner
+
+De beh&#246;riga institutioner som avses i artikel 1.1 d i
+konventionen &#228;r:
+
+a) f&#246;r Sydkorea:
+
+Den nationella pensionstj&#228;nsten,
+
+b) f&#246;r Sverige:
+
+i) F&#246;rs&#228;kringskassan, n&#228;r det g&#228;ller till&#228;mpningen av
+best&#228;mmelserna i avdelning II i konventionen och n&#228;r det
+g&#228;ller sjukers&#228;ttning och aktivitetsers&#228;ttning, och
+
+ii) Pensionsmyndigheten, n&#228;r det g&#228;ller &#229;lderspensioner och
+efterlevandepensioner.
+
+Artikel 3
+
+F&#246;rbindelseorgan
+
+1. De f&#246;rbindelseorgan som avses i artikel 15.2 i
+konventionen &#228;r:
+
+a) f&#246;r Sydkorea:
+
+Den nationella pensionstj&#228;nsten,
+
+b) f&#246;r Sverige:
+
+i) F&#246;rs&#228;kringskassan, n&#228;r det g&#228;ller till&#228;mpningen av
+best&#228;mmelserna i avdelning II i konventionen och n&#228;r det
+g&#228;ller sjukers&#228;ttning och aktivitetsers&#228;ttning, och
+
+ii) Pensionsmyndigheten, n&#228;r det g&#228;ller &#229;lderspensioner och
+efterlevandepensioner.
+
+2.  F&#246;rbindelseorganen ska komma &#246;verens om de f&#246;rfaranden
+och blanketter som beh&#246;vs f&#246;r till&#228;mpningen  av  konventionen
+och denna till&#228;mpnings&#246;verenskommelse.
+
+AVDELNING II
+
+BEST&#196;MMELSER OM TILL&#196;MPLIG LAGSTIFTNING
+
+Artikel 4
+
+F&#246;rs&#228;kringsintyg
+
+1. N&#228;r lagstiftningen i en avtalsslutande stat  &#228;r
+till&#228;mplig i enlighet med n&#229;gon av best&#228;mmelserna i avdelning
+II i konventionen, ska den beh&#246;riga institutionen i den
+avtalsslutande staten, p&#229; beg&#228;ran utf&#228;rda ett intyg som anger
+att personen omfattas av lagstiftningen i den avtalsslutande
+staten och som visar intygets giltighetstid.
+
+2. Den beh&#246;riga institution i en avtalsslutande stat som
+utf&#228;rdar det intyg som avses i punkt 1 i denna artikel ska
+l&#228;mna en kopia av detta intyg s&#229;v&#228;l till den anst&#228;llde, eller
+egenf&#246;retagaren i fr&#229;ga, som till den anst&#228;lldes arbetsgivare
+och den beh&#246;riga institutionen i den andra avtalsslutande
+staten. Kopian till den beh&#246;riga institutionen ska normalt
+skickas elektroniskt.
+
+AVDELNING III
+
+BEST&#196;MMELSER OM F&#214;RM&#197;NER
+
+Artikel 5
+
+Handl&#228;ggning av en ans&#246;kan
+
+1. N&#228;r den beh&#246;riga institutionen i en avtalsslutande stat
+tar  emot  en  ans&#246;kan om en f&#246;rm&#229;n f&#246;r en person som anger
+att han eller hon har fullgjort f&#246;rs&#228;kringsperioder enligt
+den andra avtalsslutande statens lagstiftning, ska
+institutionen anv&#228;nda den f&#246;reskrivna blanketten och utan
+dr&#246;jsm&#229;l  skicka  ans&#246;kan till den beh&#246;riga institutionen i
+den andra avtalsslutande staten. Den beh&#246;riga institutionen
+ska d&#229; &#228;ven ange vilken dag ans&#246;kan togs emot.
+
+2. Den beh&#246;riga institutionen i den f&#246;rstn&#228;mnda
+avtalsslutande  staten  ska till ans&#246;kan &#228;ven bifoga andra
+handlingar som den har till sitt f&#246;rfogande och som den
+beh&#246;riga institutionen i den andra avtalsslutande staten kan
+beh&#246;va f&#246;r att kunna fastst&#228;lla om s&#246;kanden &#228;r ber&#228;ttigad
+till f&#246;rm&#229;nen.
+
+3. Uppgifter om en s&#246;kande och dennes familjemedlemmar som
+finns i ans&#246;kan ska kontrolleras av den beh&#246;riga
+institutionen i den f&#246;rstn&#228;mnda avtalsslutande staten som ska
+bekr&#228;fta att informationen kan styrkas genom dokumentation.
+
+4. Ut&#246;ver ans&#246;kan och de handlingar som avses i punkterna 1
+och 2 i denna artikel ska den beh&#246;riga institutionen i den
+f&#246;rstn&#228;mnda avtalsslutande staten skicka en blankett om
+intj&#228;nade f&#246;rs&#228;kringsperioder enligt den f&#246;rstn&#228;mnda statens
+lagstiftning till den beh&#246;riga institutionen i den andra
+avtalsslutande staten.
+
+5. Den beh&#246;riga institutionen i den avtalsslutande staten
+ska underr&#228;tta s&#246;kanden och den beh&#246;riga institutionen i den
+andra avtalsslutande  staten  om sitt beslut ang&#229;ende
+s&#246;kandens r&#228;tt till f&#246;rm&#229;nen.
+
+Artikel 6
+
+Utbetalning av f&#246;rm&#229;ner
+
+1. De beh&#246;riga institutionerna ska betala ut f&#246;rm&#229;ner
+direkt till de ber&#228;ttigade f&#246;rm&#229;nstagarna.
+
+2. N&#228;r den beh&#246;riga institutionen i en avtalsslutande stat
+betalar ut f&#246;rm&#229;ner i en annan valuta &#228;n den avtalsslutande
+statens, ska omr&#228;kningskursen vara den valutakurs som g&#228;ller
+den dag d&#229; utbetalningen genomf&#246;rs.
+
+AVDELNING IV
+
+&#214;VRIGA BEST&#196;MMELSER
+
+Artikel 7
+
+Administrativt bist&#229;nd
+
+1. Vid beg&#228;ran om administrativt bist&#229;nd enligt artikel
+16.1 i konventionen ska de kostnader f&#246;r ordinarie   personal
+och   drift som detta medf&#246;r f&#246;r den beh&#246;riga institution
+som l&#228;mnar bist&#229;nd inte ers&#228;ttas. Ers&#228;ttningskrav kan
+framst&#228;llas f&#246;r andra kostnader, f&#246;rutom n&#228;r de beh&#246;riga
+myndigheterna eller de beh&#246;riga institutionerna i de b&#229;da
+avtalsslutande staterna kommer &#246;verens om annat.
+
+2. Den beh&#246;riga institutionen i en avtalsslutande stat ska
+p&#229; beg&#228;ran, utan kostnad, &#246;verl&#228;mna all medicinsk information
+och dokumentation  som  den har till sitt f&#246;rfogande och som
+&#228;r av betydelse f&#246;r att kunna bed&#246;ma en s&#246;kandes eller
+f&#246;rm&#229;nstagares nedsatta funktionsf&#246;rm&#229;ga till den beh&#246;riga
+institutionen i den andra avtalsslutande staten.
+
+3. Om den beh&#246;riga institutionen i en avtalsslutande stat
+beg&#228;r att en s&#246;kande eller en f&#246;rm&#229;nstagare,  som  &#228;r  bosatt
+i  eller som vistas inom den andra avtalsslutande statens
+territorium, genomg&#229;r en l&#228;karunders&#246;kning ska den beh&#246;riga
+institutionen i den senare avtalsslutande staten, p&#229; beg&#228;ran
+av den beh&#246;riga institutionen i den f&#246;rstn&#228;mnda
+avtalsslutande staten, ombes&#246;rja att denna unders&#246;kning
+genomf&#246;rs i enlighet med dess best&#228;mmelser och p&#229; bekostnad
+av den  beh&#246;riga  institution som beg&#228;r unders&#246;kningen.
+
+4. N&#228;r detaljerade uppgifter har mottagits, om vilka
+kostnader som har uppst&#229;tt, ska den beh&#246;riga institutionen i
+den f&#246;rstn&#228;mnda avtalsslutande staten  utan  dr&#246;jsm&#229;l
+ers&#228;tta den beh&#246;riga institutionen i den andra avtalsslutande
+staten f&#246;r det belopp som ska betalas ut till f&#246;ljd av
+till&#228;mpningen av punkt 3 i denna artikel.
+
+5. Den beh&#246;riga institutionen i var och en av de
+avtalsslutande staterna ska minst en g&#229;ng om &#229;ret informera
+den beh&#246;riga institutionen i den andra avtalsslutande staten
+om tidpunkter f&#246;r d&#246;dsfall, adress&#228;ndringar och &#228;ndringar n&#228;r
+det g&#228;ller civilst&#229;nd f&#246;r ber&#246;rda f&#246;rm&#229;nstagare.
+F&#246;rbindelseorganen  ska fatta beslut om detaljer f&#246;r
+f&#246;rfarandet.
+
+Artikel 8
+
+Utbyte av statistik
+
+F&#246;rbindelseorganen i de avtalsslutande  staterna  ska i
+enlighet med artikel 16.3 i konventionen &#229;rligen utbyta
+statistik om antalet intyg som varje beh&#246;rig institution har
+utf&#228;rdat enligt artikel 4 i denna till&#228;mpnings&#246;verenskommelse
+och de utbetalningar som har gjorts enligt konventionen.
+Denna statistik ska inneh&#229;lla uppgifter om antalet
+f&#246;rm&#229;nstagare och det totala beloppet f&#246;r utbetalda f&#246;rm&#229;ner,
+f&#246;rdelat p&#229; f&#246;rm&#229;nsslag. Denna statistik ska tillhandah&#229;llas
+genom det formul&#228;r som f&#246;rbindelseorganen kommer &#246;verens
+om.
+
+Artikel 9
+
+&#196;ndring av &#246;verenskommelsen
+
+1. Var och en av de avtalsslutande staterna f&#229;r beg&#228;ra att
+denna &#246;verenskommelse &#228;ndras. En s&#229;dan &#228;ndring ska genomf&#246;ras
+efter samr&#229;d eller &#246;verenskommelse.
+
+2. De beh&#246;riga myndigheterna f&#229;r meddela varandra
+skriftligen om de beh&#246;riga institutionernas och
+f&#246;rbindelseorganens namn &#228;ndras, utan att
+till&#228;mpnings&#246;verenskommelsen m&#229;ste &#228;ndras.
+
+Artikel 10
+
+Ikrafttr&#228;dande
+
+Denna till&#228;mpnings&#246;verenskommelse tr&#228;der i kraft samma dag
+som konventionen tr&#228;der i kraft och har samma
+giltighetstid.
+
+
+Undertecknat i tv&#229; exemplar i Seoul den 9 september 2013, p&#229;
+svenska, koreanska och engelska, vilka alla texter &#228;r lika
+giltiga.
+
+Vid skiljaktiga tolkningar ska den engelska texten g&#228;lla.
+
+
+
+ADMINISTRATIVE ARRANGEMENT FOR THE IMPLEMENTATION OF THE
+AGREEMENT ON SOCIAL SECURITY BETWEEN THE GOVERNMENT OF THE
+KINGDOM OF SWEDEN AND THE GOVERNMENT OF THE REPUBLIC OF
+KOREA
+
+The Competent Authorities of the Government of the Kingdom of
+Sweden and of the Government of the Republic of Korea,
+
+In conformity with paragraph 1 of Article 15 of the Agreement
+on Social Security between the Government of the Kingdom of
+Sweden (hereinafter referred to as &quot;Sweden&quot;) and the
+Government of the Republic of Korea (hereinafter referred
+to as &quot;Korea&quot;), signed at Seoul, on 9 September 2013,
+(hereinafter referred to as the &quot;Agreement&quot;),
+
+Have reached the following arrangement:
+
+PART I
+
+GENERAL PROVISIONS
+
+Article 1
+
+Definitions
+
+The terms used in this Administrative Arrangement shall have
+the same meaning as in the Agreement.
+
+Article 2
+
+Competent Institutions
+
+The Competent Institutions referred to in paragraph 1 (d) of
+Article 1 of the Agreement shall be:
+
+(a) for Korea,
+
+The National Pension Service;
+
+(b) for Sweden,
+
+i) The Swedish Social Insurance Agency, in relation to the
+application of the provisions in part II of the Agreement
+and to sickness compensation and activity compensation; and
+
+ii) The Swedish Pensions Agency, in relation to the old-age
+pensions and survivors’ pensions.
+
+Article 3
+
+Liaison Agencies
+
+1. The Liaison Agencies referred to in paragraph 2 of Article
+15 of the Agreement shall be:
+
+(a) for Korea,
+
+the National Pension Service;
+
+(b) for Sweden,
+
+i) The Swedish Social Insurance Agency, in relation to the
+application of the provisions in part II of the Agreement
+and to sickness compensation and activity compensation; and
+
+ii) The Swedish Pensions Agency, in relation to the old-age
+pensions and survivors’ pensions.
+
+2. The Liaison Agencies shall jointly decide on the
+procedures and forms necessary for the implementation of
+the Agreement and this Administrative Arrangement.
+
+PART II
+
+PROVISIONS ON COVERAGE
+
+Article 4
+
+Certificate of Coverage
+
+1. Where the legislation of one Contracting Party is
+applicable in accordance with any of the provisions of Part
+II of the Agreement, the Competent Institution of that
+Contracting Party shall upon the request issue a
+certificate stating that the person is subject to the
+legislation of that Contracting Party and indicating the
+duration for which the certificate will be valid.
+
+2. The Competent Institution of one Contracting Party which
+issues the certificate referred to in para- graph 1 of this
+Article will furnish one copy of this certificate to the
+employee or self-employed person in question as well as the
+employer of the employee and the Competent Institution of
+the other Contracting Party. The copy to the Competent
+Institution shall normally be sent electronically.
+
+PART III
+
+PROVISIONS ON BENEFITS
+
+Article 5
+
+Processing an Application
+
+1. When the Competent Institution of one Contracting Party
+receives an application for a benefit regarding a person
+indicating that he or she has completed periods of coverage
+under the legislation of the other Contracting Party, it
+shall without delay send the application, using the form
+prescribed, to the Competent Institution of the other
+Contracting Party, indicating the date on which the
+application has been received.
+
+2. Along with the application, the Competent Institution of
+the first Contracting Party shall also transmit any
+documentation available to it which may be necessary for the
+Competent Institution of the other Contracting Party to
+establish the applicant&#39;s eligibility for the benefit.
+
+3. The personal data regarding an applicant and his or her
+family members contained in the application shall be verified
+by the Competent Institution of the first Contracting
+Party, which shall confirm that the information is
+corroborated by documentary evidence.
+
+4. In addition to the application and documentation referred
+to in paragraphs 1 and 2 of this Article, the Competent
+Institution of the first Contracting Party shall send to the
+Competent Institution of the other Contracting Party a
+liaison form which shall indicate the creditable periods of
+coverage under the legislation of the first Contracting
+Party.
+
+5. The Competent Institution of the Contracting Party shall
+after determination of the applicant&#39;s eligibility notify the
+applicant and the Competent Institution of the other
+Contracting Party of its decision.
+
+Article 6
+
+Payment of Benefits
+
+1. The Competent Institutions shall pay benefits directly to
+the entitled beneficiaries.
+
+2. When the Competent Institution of one Contracting Party
+pays benefits in a foreign currency other than that
+Contracting Party, the conversion rate will be the rate of
+exchange in effect on the day when the payment is made.
+
+PART IV
+
+MISCELLANEOUS PROVISIONS
+
+Article 7
+
+Administrative Assistance
+
+1. Where administrative assistance is requested under
+paragraph 1 of Article 16 of the Agreement, regular
+personnel and operating costs of the Competent Institution
+providing the assistance will be provided free of charge.
+Reimbursement may be sought for other costs, except as may be
+agreed to by the Competent Authorities or Competent
+Institutions of both Contracting Parties.
+
+2. The Competent Institution of one Contracting Party will
+provide, upon request, without cost, to the Competent
+Institution of the other Contracting Party any medical
+information and documentation in its possession relevant to
+the disability of an applicant or beneficiary.
+
+3. If the Competent Institution of one Contracting Party
+requires that an applicant or a beneficiary who resides or
+stays in the territory of the other Contracting Party undergo
+a medical examination, the Competent Institution of the
+latter Contracting Party, at the request of the Competent
+Institution of the first Contracting Party, will make
+arrangements for carrying out this examination in accordance
+with its rules and at the expense of the Competent
+Institution which requests the examination.
+
+4. On receipt of a detailed statement of the costs incurred,
+the Competent Institution of the first Contracting Party
+shall, without delay, reimburse the Competent Institution of
+the other Contracting Party for the amounts due as a result
+of applying paragraph 3 of this Article.
+
+5. The Competent Institution of each Contracting Party shall
+supply to the Competent Institution of the other
+Contracting Party, at least on an annual basis, information
+on date of death, change of address and change of marital
+status for relevant beneficiaries. The detailed procedures
+shall be determined between the Liaison Agencies.
+
+Article 8
+
+Exchange of Statistics
+
+The Liaison Agencies of the Contracting Parties shall
+according to paragraph 3 of Article 16 of the Agreement
+exchange statistics on an annual basis regarding the number
+of certificates which each Competent Institution has issued
+under Article 4 of this Administrative Arrangement, and the
+payments which each has made under the Agreement. These
+statistics shall include data on the number of beneficiaries
+and the total amount of benefits paid, by type of benefit.
+These statistics shall be furnished in a form to be agreed
+upon by the Liaison Agencies.
+
+Article 9
+
+Revision of and Amendment to the Arrangement
+
+1. Each Contracting Party may request a revision of or an
+amendment to this Arrangement. Such revision or amendment
+shall be made after mutual consultation or agreement.
+
+2. The Competent Authorities may notify each other, in
+writing, of changes in the names of the Competent
+Institutions or Liaison Agencies without the need to modify
+the Administrative Arrangement.
+
+Article 10
+
+Entry into Force
+
+This Administrative Arrangement shall enter into force on the
+date of entry into force of the Agreement and shall have the
+same period of application.
+
+Signed in duplicate at Seoul, on 9 September 2013, in the
+Swedish, Korean and English languages, each text being
+equally valid.
+
+In case of any divergence of interpretation, the English
+text will prevail.
+
+
+
+F&#246;r Konungariket Sveriges beh&#246;riga myndighet
+
+For the Competent Authority of the Kingdom of Sweden
+
+Ulf Kristersson
+
+F&#246;r Republiken Koreas beh&#246;riga myndighet
+
+For the Competent Authority of the Republic of Korea
+
+Kim Kyou-hyun
+
+
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1118">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1120">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

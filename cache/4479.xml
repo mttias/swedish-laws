@@ -1,0 +1,665 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2021-10-04 15:38:17" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4479</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4478">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4480">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1946:804 ·
+                    <a href="/sfsr?bet=1946:804">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1946:804) om inf&#246;rande av nya r&#228;tteg&#229;ngsbalken</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet D&#197;
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1946-12-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:534
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Den av riksdagen &#229;r 1942 antagna och den 18 juli samma &#229;r (nr 740)
+utf&#228;rdade nya r&#228;tteg&#229;ngsbalken skall j&#228;mte vad nedan stadgas tr&#228;da i
+kraft den 1 januari 1948; dock m&#229; dessf&#246;rinnan best&#228;mmelser meddelas av
+Konungen enligt vad i nya r&#228;tteg&#229;ngsbalken och denna lag &#228;r f&#246;r vissa
+fall stadgat.
+
+2 &#167; Genom nya r&#228;tteg&#229;ngsbalken upph&#228;vas
+
+r&#228;tteg&#229;ngsbalken i 1734 &#229;rs lag;
+
+5, 6, 12 och 13 &#167;&#167; lagen den 14 juni 1901 om vad iakttagas skall i
+avseende &#229; inf&#246;rande av lagen om &#228;ndring i vissa delar av
+r&#228;tteg&#229;ngsbalken;
+
+14 kap. jordabalken i 1734 &#229;rs lag;
+
+10 kap. 6 &#167; byggningabalken i 1734 &#229;rs lag;
+
+f&#246;rordningen den 6 mars 1751 om r&#228;tteg&#229;ngens f&#246;rkortande i brottm&#229;l, d&#229;
+flera under s&#228;rskilda domstolar h&#246;rande personer &#228;ro d&#228;ruti delaktiga;
+
+kung&#246;relsen den 18 december 1823 ang&#229;ende &#228;ndring av 10 kap. 21 &#167;
+r&#228;tteg&#229;ngsbalken samt huru f&#246;rh&#229;llas b&#246;r, d&#229; emot redan d&#246;mda personer
+yppas brott, varom rannsakning tillf&#246;rene icke varit anst&#228;lld;
+
+f&#246;rordningen den 17 april 1828 ang&#229;ende upph&#246;rande av kommerskollegii
+domsr&#228;tt i vissa m&#229;l, s&#229;vitt d&#228;rigenom f&#246;rklarats tillkomma Svea hovr&#228;tt
+att upptaga tvistiga fr&#229;gor om skyldighet f&#246;r rederier att ers&#228;tta
+kostnad f&#246;r n&#246;dst&#228;llda sj&#246;m&#228;ns underh&#229;ll och hemf&#246;rskaffande;
+
+f&#246;rordningen den 10 juni 1841 ang&#229;ende r&#228;tt domstol f&#246;r fr&#229;gor, som r&#246;ra
+rikets st&#228;nders bank och riksg&#228;ldskontor;
+
+f&#246;rordningen den 30 april 1844 ang&#229;ende f&#246;r&#228;ndrade f&#246;reskrifter i
+avseende p&#229; fullf&#246;ljden av polism&#229;l;
+
+2 &#167; f&#246;rordningen den 19 december 1844 om upph&#246;rande av vissa s&#228;rskilda
+domstolar;
+
+f&#246;rordningen den 20 november 1845 ang&#229;ende gemensamma rannsakningsh&#228;kten
+och tingsst&#228;llen f&#246;r s&#228;rskilda h&#228;rader;
+
+f&#246;rordningen den 6 februari 1849 ang&#229;ende vittnesm&#229;l av mosaisk
+trosbek&#228;nnare;
+
+16 &#167; 5 punkten samt 19 &#167; 1-12 och 14-20 punkterna f&#246;rordningen den 16
+februari 1864 om nya strafflagens inf&#246;rande och vad i avseende d&#228;r&#229;
+iakttagas skall;
+
+f&#246;rordningen den 24 mars 1871 ang&#229;ende vissa f&#246;r&#228;ndrade f&#246;reskrifter i
+avseende &#229; ber&#228;kning av tid f&#246;r klagan mot hovr&#228;tts utslag i brottm&#229;l;
+
+16 &#167; f&#246;rordningen den 31 oktober 1873 ang&#229;ende fr&#228;mmande trosbek&#228;nnare
+och deras religions&#246;vning;
+
+f&#246;rordningen den 22 april 1881 om offentlighet vid underdomstolarna;
+
+f&#246;rordningen den 6 oktober 1882 ang&#229;ende b&#246;ter f&#246;r svarandeparts ute
+blivande fr&#229;n underr&#228;tt;
+
+lagen den 30 oktober 1885 ang&#229;ende lydelsen av judes edliga f&#246;rplik
+telse;
+
+lagen den 10 juli 1899 ang&#229;ende p&#229;f&#246;ljd i vissa fall av parts utebli
+vande i brottm&#229;l;
+
+lagen den 13 juni 1902 om tolks anlitande vid domstol;
+
+lagen den 20 juni 1905 om s&#228;rskild sammans&#228;ttning av vissa r&#229;dstuvu
+r&#228;tter vid behandling av handelsm&#229;l;
+
+lagen den 7 maj 1918 om s&#228;rskilda tingssammantr&#228;den f&#246;r handl&#228;ggning av
+vissa m&#229;l och &#228;renden;
+
+lagen den 19 juni 1919 ang&#229;ende f&#246;rordnande av r&#228;tteg&#229;ngsbitr&#228;de &#229;t
+h&#228;ktad;
+
+stadgan den 11 juni 1920 om m&#229;ls handl&#228;ggning i vissa fall av Kungl.
+Maj:ts h&#246;gsta domstol i dess helhet;
+
+lagen den 2 juni 1922 om tiden f&#246;r f&#246;retagande av rannsakning med
+h&#228;ktad;
+
+lagen den 22 februari 1924 ang&#229;ende domstols beh&#246;righet i fr&#229;ga om
+upptagande av vissa brottm&#229;l;
+
+lagen den 23 mars 1928 om meddelande av r&#228;tteg&#229;ngsfullmakt genom
+telegram;
+
+lagen den 13 maj 1932 om h&#228;radsn&#228;mnds tj&#228;nstg&#246;ring;
+
+lagen den 12 maj 1933 om vissa tv&#229;ngsmedel i brottm&#229;l;
+
+lagen den 7 juni 1934 om bevisning genom sakkunnig;
+
+lagen den 15 juni 1934 om handl&#228;ggning inom st&#228;ngda d&#246;rrar av m&#229;l om
+utpressning;
+
+lagen den 8 mars 1935 med vissa best&#228;mmelser om h&#228;radsting;
+
+lagen samma dag om kung&#246;rande av h&#228;radsr&#228;tts sammantr&#228;den;
+
+lagen den 29 maj 1936 om offentlighet vid f&#246;rh&#246;r inf&#246;r hovr&#228;tt;
+
+lagen den 12 mars 1938 med vissa best&#228;mmelser om doms avkunnande vid
+r&#229;dhusr&#228;tt; samt
+
+lagen den 22 juni 1939 om s&#228;rskilda r&#228;ttsmedel;
+
+tillika med, om ej annat nedan stadgas, alla de s&#228;rskilda &#228;nnu g&#228;llande
+stadganden, vilka innefatta &#228;ndring eller f&#246;rklaring av eller till&#228;gg
+till vad s&#229;lunda upph&#228;vda lagrum inneh&#229;lla.
+
+S&#229;som upph&#228;vda skola anses
+
+kungl. brevet den 24 juli 1741 huru parter och s&#246;kande b&#246;ra sina
+skrifter i r&#228;tterna underteckna;
+
+kungl. brevet den 22 november 1749 ang&#229;ende r&#228;tteg&#229;ngens f&#246;rkortande i
+de m&#229;l, som r&#246;ra uppror och orolighet i riket;
+
+kungl. brevet den 18 oktober 1750 om r&#228;tteg&#229;ngens f&#246;rkortande i
+brottm&#229;l;
+
+kungl. resolutionen p&#229; Stockholms stads konsistorii besv&#228;r den 7 augusti
+1753;
+
+kungl. brevet den 24 april 1754 ang&#229;ende vittnesf&#246;rh&#246;r om s&#229;dant som
+blivit sagt mellan fyra &#246;gon;
+
+kungl. brevet den 12 mars 1756 ang&#229;ende advokater, som f&#246;rleda n&#229;gon
+till osk&#228;lig r&#228;tteg&#229;ng;
+
+kungl. resolutionen p&#229; st&#228;dernas besv&#228;r den 19 januari 1757 &#167; 18;
+
+kungl. brevet den 1 februari 1758 ang&#229;ende fullm&#228;ktiges brukande vid
+tingen;
+
+kungl. cirkul&#228;ret den 19 augusti 1761 att &#246;verr&#228;tternas domar h&#228;danefter
+ej b&#246;ra offentligen avkunnas;
+
+kungl. brevet den 27 maj 1801 ang&#229;ende vissa oordningars f&#246;rekommande i
+tj&#228;nsten av de under hovr&#228;tternas jurisdiktion lydande domare m.m.;
+
+29, 33, 36, 38, 39 och 40 punkterna kungl. f&#246;rklaringen den 23 mars 1807
+&#246;ver allm&#228;nna lagens stadganden i &#229;tskilliga rum m.m.;
+
+kungl. brevet den 29 juli 1812 ang&#229;ende h&#228;ktads f&#246;rvisning till annan
+domstol;
+
+kungl. brevet den 12 februari 1824 ang&#229;ende h&#228;rads och tingslags
+f&#246;rdelning i vissa n&#228;mndemansdistrikt;
+
+kungl. f&#246;rklaringen den 8 september 1829 &#246;ver kungl. brevet den 27 maj
+1801 r&#246;rande r&#228;ttigheten att f&#246;ra andras talan;
+
+kungl. cirkul&#228;ret den 7 januari 1830 att ej n&#229;gon m&#229; till domar&#228;mbetets
+ut&#246;vande f&#246;rordnas, som icke fyllt tjugufem &#229;r;
+
+kung&#246;relsen den 16 december 1921 om tiden f&#246;r &#246;vers&#228;ndande av
+rannsakningshandlingar i m&#229;l, som av underr&#228;tt blivit f&#246;r fortsatt
+handl&#228;ggning h&#228;nvisat till annan domstol; samt
+
+kung&#246;relsen den 30 april 1925 ang&#229;ende underr&#228;ttelse i visst fall till
+part r&#246;rande av domstol meddelat uppskovsbeslut;
+
+s&#229; ock, om ej annat nedan stadgas, vad i &#246;vrigt finnes i lag eller
+f&#246;rfattning stridande mot nya r&#228;tteg&#229;ngsbalkens best&#228;mmelser.
+
+3 &#167; F&#246;rekommer i lag eller f&#246;rfattning h&#228;nvisning till eller avses d&#228;ri
+eljest lagrum, som ersatts genom best&#228;mmelse i nya r&#228;tteg&#229;ngsbalken
+eller i denna lag, skall den best&#228;mmelsen i st&#228;llet till&#228;mpas.
+
+F&#246;reskrift i &#228;ldre lag eller f&#246;rfattning, att i fr&#229;ga om klagan &#246;ver
+domstols beslut skall g&#228;lla vad i allm&#228;nhet &#228;r stadgat ang&#229;ende besv&#228;r i
+brottm&#229;l, skall avse best&#228;mmelserna i nya r&#228;tteg&#229;ngsbalken om fullf&#246;ljd
+av talan mot dom och beslut i brottm&#229;l.
+
+4 &#167; Om s&#228;rskilda domstolar och r&#228;tteg&#229;ngen vid dessa g&#228;lle vad d&#228;rom &#228;r
+stadgat.
+
+Vad om r&#228;tteg&#229;ngen i vissa m&#229;l vid allm&#228;n domstol &#228;r i lag eller
+f&#246;rfattning s&#228;rskilt stadgat vare g&#228;llande, &#228;ven om det strider mot
+best&#228;mmelse i nya r&#228;tteg&#229;ngsbalken.
+
+5 &#167; Stadgande i lag eller f&#246;rfattning om allm&#228;n domstols beh&#246;righet att
+upptaga m&#229;l, som tidigare handlagts av f&#246;rvaltningsmyndighet eller av
+s&#228;rskild domstol, skall alltj&#228;mt g&#228;lla.
+
+6 &#167; Om behandlingen av &#228;renden, som domstol eller domare har att
+upptaga, g&#228;lle vad d&#228;rom &#228;r stadgat.
+
+7 &#167; Vad i 12 kap. 3 &#167; handelsbalken &#228;r f&#246;reskrivet om ed skall upph&#246;ra
+att g&#228;lla. Stadgandena om ed i 5 kap. 6 &#167; och 7 kap. 7 &#167; jordabalken
+samt 20 och 203 &#167;&#167; sj&#246;lagen skola icke avse ed i r&#228;tteg&#229;ng.
+
+8 &#167; Stadgandena i 27 kap. byggningabalken eller eljest i lag eller
+f&#246;rfattning om s&#228;rskild sammans&#228;ttning av underdomstol i m&#229;l ang&#229;ende
+husesyn skola upph&#246;ra att g&#228;lla; om fullf&#246;ljd av talan i s&#229;dant m&#229;l
+l&#228;nde till efterr&#228;ttelse vad ang&#229;ende tvistem&#229;l i allm&#228;nhet &#228;r
+f&#246;reskrivet.
+
+9 &#167; har upph&#228;vts genom lag (1958:213).
+
+10 &#167; har upph&#228;vts genom lag (1989:881).
+
+11 &#167; Vad i &#228;ldre lag eller f&#246;rfattning &#228;r stadgat om vittnesm&#229;l av den,
+som f&#246;rordnats att f&#246;rr&#228;tta offentligt tj&#228;nste&#228;rende, skall upph&#246;ra att
+g&#228;lla.
+
+12 &#167; M&#229;l, vari st&#228;mning utf&#228;rdats eller r&#228;tteg&#229;ng eljest inletts f&#246;re
+nya r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande, skall behandlas enligt &#228;ldre lag;
+dock g&#228;lle f&#246;ljande avvikelser:
+
+1. I fr&#229;ga om r&#228;tteg&#229;ngen vid underr&#228;tt skola best&#228;mmelserna i 1 och 5
+kap., 9 kap. 5-9 &#167;&#167;, 11, 12, 15 och 16 kap., 17 kap. 1 och 14 &#167;&#167;, 18,
+21, 24-29 kap., 30 kap. 1 och 12 &#167;&#167;, 31 samt 35-40 kap. nya
+r&#228;tteg&#229;ngsbalken, med iakttagande av vad nedan stadgas, i till&#228;mpliga
+delar l&#228;nda till efterr&#228;ttelse. H&#228;rvid skall vad i omf&#246;rm&#228;lda kapitel &#228;r
+stadgat om huvudf&#246;rhandling avse s&#229;dan f&#246;rhandling vid r&#228;tten, som &#228;ger
+rum med till&#228;mpning av &#228;ldre lag.
+
+D&#229; r&#229;dhusr&#228;tt enligt nya r&#228;tteg&#229;ngsbalken skall best&#229; av en lagfaren
+domare och n&#228;mnd, skall r&#229;dhusr&#228;tten i st&#228;llet &#228;ga den sammans&#228;ttning,
+som i n&#228;mnda balk &#228;r i allm&#228;nhet f&#246;reskriven f&#246;r domf&#246;rhet vid
+huvudf&#246;rhandling.
+
+Den som enligt &#228;ldre lag f&#246;rklarats j&#228;vig att vittna i m&#229;let m&#229; utan
+hinder d&#228;rav h&#246;ras som vittne. Har f&#246;re nya r&#228;tteg&#229;ngsbalkens
+ikrafttr&#228;dande edg&#229;ng f&#246;relagts part, skall i fr&#229;ga om parts ed &#228;ldre
+lag l&#228;nda till efterr&#228;ttelse; vad i nya r&#228;tteg&#229;ngsbalken &#228;r stadgat om
+parts h&#246;rande under sanningsf&#246;rs&#228;kran skall icke till&#228;mpas i m&#229;let.
+
+2. Ang&#229;ende fullf&#246;ljd av talan mot underr&#228;tts dom eller beslut, som
+meddelats efter nya r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande, samt mot hovr&#228;tts
+dom eller beslut i s&#229;lunda fullf&#246;ljt m&#229;l s&#229; ock om r&#228;tteg&#229;ngen i h&#246;gre
+r&#228;tt i s&#229;dant m&#229;l skola, med iakttagande av vad nedan stadgas,
+best&#228;mmelserna i nya r&#228;tteg&#229;ngsbalken till&#228;mpas.
+
+Mot dom, som enligt 12 kap. 3 &#167; &#228;ldre r&#228;tteg&#229;ngsbalken meddelats mot
+utebliven svarande, m&#229; svaranden f&#246;ra talan allenast genom s&#246;kande av
+&#229;tervinning; d&#228;rom g&#228;lle vad i 44 kap. 9 och 10 &#167;&#167; nya r&#228;tteg&#229;ngsbalken
+&#228;r stadgat. Ang&#229;ende uppeh&#229;ll med handl&#228;ggningen av m&#229;l i anledning av
+att missn&#246;je anm&#228;lts med beslut under r&#228;tteg&#229;ngen skola best&#228;mmelserna i
+nya r&#228;tteg&#229;ngsbalken till&#228;mpas. I brottm&#229;l &#228;ge underst&#228;llning ej rum.
+
+Ang&#229;ende meddelande av underr&#228;ttelse om vad part eller annan, som vill
+fullf&#246;lja talan, har att iakttaga skola best&#228;mmelserna i nya
+r&#228;tteg&#229;ngsbalken l&#228;nda till efterr&#228;ttelse.
+
+Vad i &#228;ldre lag &#228;r f&#246;reskrivet om skyldighet f&#246;r den som fullf&#246;ljer
+talan att vid fullf&#246;ljdsinlagan foga underr&#228;ttens utslag och &#246;vriga
+protokoll samt &#228;ventyret, om det f&#246;rsummas, skall fortfarande g&#228;lla;
+f&#246;rel&#228;ggande att inkomma med felande handlingar skall meddelas av den
+r&#228;tt, till vilken talan skall fullf&#246;ljas.
+
+Best&#228;mmelserna i nya r&#228;tteg&#229;ngsbalken om att &#228;ndring i l&#228;gre r&#228;tts dom i
+visst fall ej m&#229; ske med mindre bevis upptages &#229;nyo skola ej &#228;ga
+till&#228;mpning.
+
+3. Har i samband med dom eller slutligt beslut, som meddelats f&#246;re nya
+r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande, brottm&#229;l h&#228;nvisats till fortsatt
+handl&#228;ggning vid annan r&#228;tt, skall talan mot domen eller beslutet
+fullf&#246;ljas i samma ordning som &#228;r f&#246;reskriven f&#246;r talan mot dom eller
+beslut, som sist meddelats. Sedan nya r&#228;tteg&#229;ngsbalken tr&#228;tt i kraft, m&#229;
+s&#229;dan h&#228;nvisning ej ske.
+
+4. Betr&#228;ffande ans&#246;kan om resning eller om &#229;terst&#228;llande av f&#246;rsutten
+tid eller besv&#228;r &#246;ver domvilla, som inkommit efter nya r&#228;tteg&#229;ngsbal
+ken ikrafttr&#228;dande, skall denna till&#228;mpas, ehuru m&#229;let behandlats enligt
+&#228;ldre lag.
+
+5. M&#229;l, som efter nya r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande p&#229; grund av
+&#229;terf&#246;rvisning eller av annan s&#229;dan anledning &#229;terupptages av den
+domstol, som f&#246;rst handlagt m&#229;let, skall behandlas enligt nya
+r&#228;tteg&#229;ngsbalken; vad nu sagts g&#228;lle ock m&#229;l ang&#229;ende &#229;tervinning, om
+st&#228;mning i &#229;tervinningsm&#229;let utf&#228;rdats eller &#229;tervinning eljest s&#246;kts
+efter nya r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande.
+
+13 &#167; I fr&#229;ga om r&#228;tteg&#229;ngsfullmakt, som givits f&#246;re nya
+r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande, skall vad i &#228;ldre lag &#228;r f&#246;reskrivet
+ang&#229;ende fullmakts form och inneh&#229;ll samt ombuds beh&#246;righet p&#229; grund av
+fullmakten fortfarande g&#228;lla.
+
+14 &#167; Har enligt 12 kap. 2 &#167; &#228;ldre r&#228;tteg&#229;ngsbalken beslut meddelats i
+anledning av k&#228;randens uteblivande fr&#229;n r&#228;tten, skall vad d&#228;r s&#228;gs om
+tid f&#246;r f&#246;rnyad st&#228;mning i saken &#228;ga till&#228;mpning, ehuru tiden utl&#246;per
+efter nya r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande.
+
+Skall f&#246;r &#229;tg&#228;rd, som n&#229;gon eljest har att vidtaga, tid r&#228;knas fr&#229;n dag
+f&#246;re nya r&#228;tteg&#229;ngsbalken ikrafttr&#228;dande, g&#228;lle i fr&#229;ga om l&#228;ngden av
+s&#229;dan tid &#228;ldre lag.
+
+&#196;r i lag eller f&#246;rfattning stadgat, att &#229;tg&#228;rd skall vidtagas sist &#229; det
+ting, som f&#246;rst infaller sedan visst f&#246;rh&#229;llande intr&#228;tt eller viss
+d&#228;rifr&#229;n r&#228;knad tid f&#246;rflutit, skall d&#228;rmed, om ej annat &#228;r angivet,
+avses det allm&#228;nna ting, som d&#229; infaller; skall talan inst&#228;mmas till
+visst ting, anses vad s&#229;lunda &#228;r f&#246;reskrivet fullgjort, om talan blivit
+v&#228;ckt f&#246;re tinget.
+
+15 &#167; Polisunders&#246;kning, som &#229;klagare eller polismyndighet f&#246;re nya
+r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande h&#229;llit ang&#229;ende brott, m&#229; i m&#229;l
+ang&#229;ende allm&#228;nt &#229;tal f&#246;r brottet anses som f&#246;runders&#246;kning enligt 23
+kap. n&#228;mnda balk.
+
+16 &#167; Har n&#229;gon f&#246;re nya r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande h&#228;ktats f&#246;r
+brott, skall i fr&#229;ga om h&#228;ktningen och dess fortsatta best&#229;nd &#228;ldre lag
+till&#228;mpas intill dess m&#229;let efter n&#228;mnda tidpunkt f&#246;rsta g&#229;ngen
+f&#246;rekommer vid r&#228;tten; &#228;r, d&#229; nya r&#228;tteg&#229;ngsbalken tr&#228;der i kraft, n&#229;gon
+kvarh&#229;llen f&#246;r brott, skall han anses som anh&#229;llen enligt nya
+r&#228;tteg&#229;ngsbalken den dag, d&#229; kvarh&#229;llandet besl&#246;ts.
+
+I fr&#229;ga om verkan och det fortsatta best&#229;ndet av &#229;tg&#228;rd, som med st&#246;d av
+lagen den 12 maj 1933 om vissa tv&#229;ngsmedel i brottm&#229;l vidtagits f&#246;re nya
+r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande, skall &#228;ldre lag till&#228;mpas.
+
+17 &#167; har upph&#228;vts genom lag (1986:1011).
+
+18 &#167; har upph&#228;vts genom lag (1985:207).
+
+19 &#167; En person som har d&#246;mts till straff eller n&#229;gon 
+annan p&#229;f&#246;ljd f&#246;r brott genom en dom som f&#229;r verkst&#228;llas 
+trots att den inte har f&#229;tt laga kraft, och som &#228;r intagen i 
+kriminalv&#229;rdsanstalt eller i s&#228;rskilt ungdomshem med st&#246;d av 
+32 kap. 5 &#167; brottsbalken f&#246;r verkst&#228;llighet av p&#229;f&#246;ljden, ska 
+vid &#246;verklagande av domen anses som h&#228;ktad f&#246;r brottet. 
+Detsamma g&#228;ller den som &#228;r omh&#228;ndertagen enligt 28 kap. 11 &#167; 
+brottsbalken.
+
+Det som i r&#228;tteg&#229;ngsbalken f&#246;reskrivs f&#246;r brottm&#229;l ska g&#228;lla 
+&#228;ven vid f&#246;rfarande om undanr&#246;jande av p&#229;f&#246;ljd och utd&#246;mande 
+av annan p&#229;f&#246;ljd f&#246;r brott eller om n&#229;gon annan &#229;tg&#228;rd i 
+fr&#229;ga om utd&#246;md p&#229;f&#246;ljd, om inget annat &#228;r f&#246;reskrivet. Om 
+den d&#246;mde &#228;r intagen i anstalt eller i s&#228;rskilt ungdomshem 
+som avses i f&#246;rsta stycket, f&#246;r verkst&#228;llighet av p&#229;f&#246;ljd, 
+ska han eller hon anses som h&#228;ktad f&#246;r brottet.
+
+Om en offentlig f&#246;rsvarare har f&#246;rordnats f&#246;r den d&#246;mde i m&#229;l 
+om undanr&#246;jande av p&#229;f&#246;ljd enligt 27 kap. 6 &#167; eller 28 kap. 
+8 &#167; brottsbalken, ska 31 kap. r&#228;tteg&#229;ngsbalken om 
+ers&#228;ttningsskyldighet f&#246;r den tilltalade tilll&#228;mpas. I &#246;vriga 
+m&#229;l om undanr&#246;jande av p&#229;f&#246;ljd eller n&#229;gon annan &#229;tg&#228;rd i 
+fr&#229;ga om utd&#246;md p&#229;f&#246;ljd ska ers&#228;ttning till f&#246;rsvararen 
+alltid betalas av staten. Lag (2018:534).
+
+20 &#167; har upph&#228;vts genom lag (1990:447).
+
+21 &#167; Vad i nya r&#228;tteg&#229;ngsbalken &#228;r stadgat om fullf&#246;ljd av talan till
+hovr&#228;tt och h&#246;gsta domstolen samt r&#228;tteg&#229;ngen d&#228;rst&#228;des i m&#229;l, som
+v&#228;ckts vid underr&#228;tt, skall, om ej s&#228;rskild f&#246;reskrift d&#228;rom &#228;r
+meddelad, &#228;ga motsvarande till&#228;mpning i fr&#229;ga om fullf&#246;ljd i h&#246;gre r&#228;tt
+av m&#229;l, som upptagits av annan v&#228;rldslig domstol eller myndighet och
+enligt lag eller f&#246;rfattning m&#229; fullf&#246;ljas i hovr&#228;tt; dock skall talan
+f&#246;ras genom besv&#228;r.
+
+22 &#167; har upph&#228;vts genom lag (1975:1293).
+
+23 &#167; Vad i nya r&#228;tteg&#229;ngsbalken &#228;r stadgat om lydelsen av ed &#228;ge
+motsvarande till&#228;mpning i andra fall, d&#229; enligt lag eller f&#246;rfattning ed
+skall avl&#228;ggas inf&#246;r domstol eller annan myndighet.
+
+Ed eller f&#246;rs&#228;kran, som avlagts enligt &#228;ldre lag, vare alltj&#228;mt
+bindande. Lag (1975:1293).
+
+24 &#167; &#196;r i lag eller f&#246;rfattning f&#246;reskrivet, att vid offentlig
+f&#246;rr&#228;ttning vittne skall n&#228;rvara, b&#246;r trov&#228;rdig person anlitas.
+
+Skall enligt lag eller f&#246;rfattning f&#246;r besiktning, uppskattning eller
+annan s&#229;dan uppgift oj&#228;vig person anlitas och &#228;r ej s&#228;rskild f&#246;reskrift
+d&#228;rom meddelad, m&#229; d&#228;rtill ej tagas n&#229;gon, mot vilken f&#246;rekommer j&#228;v,
+som g&#228;ller mot domare.
+
+&#197;beropas den, vilken anlitats som vittne enligt f&#246;rsta stycket eller f&#246;r
+uppgift, som s&#228;gs i andra stycket, till vittne eller sakkunnig i
+r&#228;tteg&#229;ng, g&#228;lle vad om s&#229;dant bevis &#228;r stadgat.
+
+25 &#167; Den domsr&#228;tt, som i stad tillkommer polisdomstol, skall &#246;verg&#229; &#229;
+stadens r&#229;dhusr&#228;tt. M&#229;l, som f&#246;re nya r&#228;tteg&#229;ngsbalkens ikrafttr&#228;dande
+v&#228;ckts vid polisdomstol, skall dock d&#228;r slutbehandlas.
+
+26 &#167; R&#229;dhusr&#228;tt, i vilken icke finnas f&#246;rutom borgm&#228;staren minst tv&#229;
+ledam&#246;ter, som skola vara lagfarna, m&#229; utan hinder d&#228;rav bibeh&#229;llas i
+sin hittillsvarande sammans&#228;ttning, till dess Konungen annat f&#246;rordnar.
+Om ledamot, som ej &#228;r lagfaren, g&#228;lle vad om lagfaren ledamot &#228;r
+stadgat; dock m&#229; allenast lagfaren ledamot vara ordf&#246;rande i r&#228;tten
+eller handl&#228;gga fr&#229;ga, i vilken enligt 1 kap. 11 &#167; nya r&#228;tteg&#229;ngsbalken
+r&#229;dhusr&#228;tt &#228;r domf&#246;r med en lagfaren domare.
+
+Ang&#229;ende tills&#228;ttning av ledamot, som icke skall vara lagfaren, l&#228;nde
+till efterr&#228;ttelse vad hittills varit g&#228;llande, om ej Konungen annat
+f&#246;rordnar.
+
+27 &#167; har upph&#228;vts genom lag (1972:431).
+
+28 &#167; Utan hinder av nya r&#228;tteg&#229;ngsbalken eller vad i denna lag
+f&#246;rordnats skall lagen (1930:173) om ber&#228;kning av lagstadgad tid
+alltj&#228;mt anses som g&#228;llande. Lag (1980:308).
+
+29 &#167; Konungen meddelar de ytterligare best&#228;mmelser som erfordras f&#246;r
+&#246;verg&#229;ngen till nya r&#228;tteg&#229;ngsbalken.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1990:447
+
+&#196;ldre f&#246;reskrifter g&#228;ller fortfarande
+
+1. i fr&#229;ga om p&#229;f&#246;ljd f&#246;r parts utevaro, om parten f&#246;re ikrafttr&#228;dandet
+kallats till f&#246;rhandling, och
+
+2. i fr&#229;ga om ordningen f&#246;r m&#229;lets fullf&#246;ljd i h&#246;gre r&#228;tt, om det
+avg&#246;rande mot vilket talan fullf&#246;ljts har meddelats f&#246;re
+ikrafttr&#228;dandet.
+
+2018:534
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2018.
+
+2. Om en offentlig f&#246;rsvarare har f&#246;rordnats f&#246;re 
+ikrafttr&#228;dandet g&#228;ller 19 &#167; i den &#228;ldre lydelsen.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4478">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4480">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

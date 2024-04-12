@@ -1,0 +1,909 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2013-08-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3752</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3751">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3753">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1985:49 ·
+                    <a href="/sfsr?bet=1985:49">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1985:49) om dubbelbeskattningsavtal mellan Sverige samt Trinidad och Tobago</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1985-01-24
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1985-03-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 &#167; Lagen (1984:246) om dubbelbeskattningsavtal mellan Sverige samt
+Trinidad och Tobago skall tr&#228;da i kraft den 1 mars 1985 och till&#228;mpas
+betr&#228;ffande kupongskatt p&#229; aktieutdelning som betalas eller &#246;verf&#246;rs
+till person med hemvist i Trinidad och Tobago den 1 januari 1985 eller
+senare och betr&#228;ffande andra inkomstskatter p&#229; inkomst som f&#246;rv&#228;rvas
+den 1 januari 1985 eller senare.
+
+Avtalet tr&#228;dde i kraft den 12 december 1984.
+
+2 &#167; Vid till&#228;mpningen av dubbelbeskattningsavtalet skall iakttas
+de anvisningar som framg&#229;r av bilagorna 1 och 2.
+
+
+Bilaga 1
+
+Anvisningar till best&#228;mmelserna i avtalet
+
+till art. 1 och 4
+
+Avtalets best&#228;mmelser &#228;r i allm&#228;nhet till&#228;mpliga endast p&#229; fysiska och
+juridiska personer som har hemvist i Sverige eller Trinidad och
+Tobago.
+
+Fr&#229;gan om en fysisk eller juridisk person skall anses ha
+hemvist i endera staten avg&#246;rs i f&#246;rsta hand med ledning av
+lagstiftningen i resp. stat. I art. 4 punkterna 2 och 3 regleras fall
+av s. k. dubbel bos&#228;ttning, dvs. fall d&#228;r den skattskyldige enligt
+svenska beskattningsregler anses bosatt i Sverige och enligt
+beskattningsreglerna i Trinidad och Tobago anses bosatt d&#228;r. Vid
+till&#228;mpningen av avtalet skall i s&#229;dana fall den skattskyldige anses
+ha hemvist endast i den avtalsslutande stat i vilken han har hemvist
+enligt n&#228;mnda avtalsbest&#228;mmelser.
+
+Person, som avses i 69 &#167; kommunalskattelagen (1928:370) och 17 &#167; lagen
+(1947:576) om statlig inkomstskatt och som tillh&#246;r svensk beskickning
+eller l&#246;nat svenskt konsulat i Trinidad och Tobago skall vid
+till&#228;mpningen av art. 4 punkt 1 anses bosatt i Sverige.
+
+Person, som avses i 70 &#167; 1 mom. kommunalskattelagen och 18 &#167; 1 mom.
+lagen om statlig inkomstskatt och som tillh&#246;r beskickning eller l&#246;nat
+konsulat som Trinidad och Tobago har i Sverige, skall vid
+till&#228;mpningen av art. 4 punkt 1 anses bosatt i Trinidad och Tobago.
+
+till art. 2
+
+Avtalet g&#228;ller de skatter som anges i art. 2. Ang&#229;ende annan
+beskattning se dock art. 24 punkt 5. I art. 2 punkt 1 anges de skatter
+som utgick vid avtalets undertecknande och p&#229; vilka avtalet till&#228;mpas.
+Avtalet skall dock till&#228;mpas &#228;ven p&#229; skatter av samma eller i huvudsak
+likartat slag som efter avtalets undertecknande inf&#246;rs vid sidan av
+eller i st&#228;llet f&#246;r de angivna skatterna.
+
+till art. 6--22
+
+En inkomst beskattas i Sverige om s&#229; kan ske enligt g&#228;llande
+skattef&#246;rfattningar och inskr&#228;nkning av skattskyldigheten inte f&#246;ljer
+av best&#228;mmelse i avtalet. &#196;ven om en inkomst enligt avtalet beskattas
+endast i Trinidad och Tobago kan den likv&#228;l komma att p&#229;verka
+storleken av svensk skatt p&#229; annan inkomst *(jfr art. 23 punkt 2 b)*).
+Vid beskattningen h&#228;nf&#246;rs en inkomst alltid till den f&#246;rv&#228;rvsk&#228;lla
+till vilken den h&#246;r enligt de svenska skattef&#246;rfattningarna oavsett
+till vilket inkomstslag inkomsten har h&#228;nf&#246;rts enligt avtalet.
+
+till art. 6
+
+Enligt bl. a. 27 &#167; kommunalskattelagen (1928:370) beskattas inkomst
+som h&#228;rr&#246;r fr&#229;n fastighet i vissa fall som inkomst av r&#246;relse. Inkomst
+som omfattas av art. 6 skall emellertid vid till&#228;mpningen av avtalet
+anses som inkomst av fast egendom. Detta medf&#246;r att inkomsten f&#229;r
+beskattas i den stat d&#228;r den fasta egendomen &#228;r bel&#228;gen. Denna regel
+g&#228;ller &#228;ven betr&#228;ffande royalty fr&#229;n fast egendom eller f&#246;r nyttjandet
+av eller r&#228;tten att nyttja mineralf&#246;rekomst, k&#228;lla eller annan
+naturtillg&#229;ng. Annan royalty beskattas enligt art. 12.
+
+till art. 7
+
+Inkomst av r&#246;relse, som bedrivs fr&#229;n fast driftst&#228;lle, beskattas i
+regel enligt art. 7. Vad som f&#246;rst&#229;s med uttrycket &quot;fast driftst&#228;lle&#39;&#39;
+anges i art. 5.
+
+Om en fysisk eller juridisk person med hemvist i Sverige bedriver
+r&#246;relse fr&#229;n fast driftst&#228;lle i Trinidad och Tobago, f&#229;r den till
+driftst&#228;llet h&#228;nf&#246;rliga inkomsten beskattas i Sverige men skatt p&#229;
+inkomsten som erlagts i Trinidad och Tobago avr&#228;knas fr&#229;n den svenska
+skatten enligt art. 23 punkt 2 a). I fr&#229;ga om avr&#228;kning i vissa fall
+av h&#246;gre trinidadisk skatt &#228;n som faktiskt erlagts (art. 23 punkt 3)
+samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till punkt 2 av
+anvisningarna till art. 23.
+
+Inkomst av r&#246;relse, som en fysisk eller juridisk person med hemvist i
+Trinidad och Tobago bedriver fr&#229;n fast driftst&#228;lle i Sverige, ber&#228;knas
+enligt art. 7 punkterna 2--7. Till grund f&#246;r inkomstber&#228;kningen b&#246;r
+l&#228;ggas i f&#246;rsta hand den s&#228;rskilda bokf&#246;ring som kan ha f&#246;rts vid det
+fasta driftst&#228;llet. I m&#229;n av behov skall denna bokf&#246;ring justeras s&#229;,
+att inkomstber&#228;kningen sker i enlighet med den i punkterna 3 och 4
+angivna principen. Avdrag medges f&#246;r s&#229; stor del av huvudkontorets
+allm&#228;nna omkostnader som sk&#228;ligen kan antas bel&#246;pa p&#229; det fasta
+driftst&#228;llet.
+
+Om beskattning av inkomst av sj&#246;fart och luftfart i internationell
+trafik finns s&#228;rskilda best&#228;mmelser i art. 8.
+
+till art. 8
+
+Inkomst av sj&#246;fart och luftfart i internationell trafik beskattas
+enligt art. 8 punkt 1 endast i den stat d&#228;r f&#246;retaget har sin verkliga
+ledning.
+
+till art. 9
+
+Art. 9 inneh&#229;ller en allm&#228;n regel om omr&#228;kning av vinstf&#246;rdelningen
+mellan f&#246;retag med intressegemenskap. F&#246;r Sveriges del kan omr&#228;kning
+vid taxering ske enligt 43 &#167; kommunalskattelagen (1928:370).
+
+Om s&#229;dan omr&#228;kning sker mellan f&#246;retag i Sverige samt Trinidad och
+Tobago skall l&#228;nsstyrelsen anm&#228;la detta till regeringen och i korthet
+redog&#246;ra f&#246;r vad som f&#246;rekommit.
+
+till art. 10
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;utdelning&quot; anges i art. 10 punkt 3.
+
+2. N&#228;r en fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Trinidad och Tobago och utdelningen
+inte &#228;r h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med fast
+driftst&#228;lle som den som har r&#228;tt till utdelningen har i Trinidad och
+Tobago, iakttas best&#228;mmelserna i andra och tredje styckena.
+
+Om aktiebolag eller ekonomisk f&#246;rening uppb&#228;r utdelningen, &#228;r denna
+undantagen fr&#229;n taxering i Sverige i den m&#229;n art. 10 punkt 4
+f&#246;ranleder det. De svenska best&#228;mmelserna om befrielse fr&#229;n
+skattskyldighet f&#246;r utdelning som avses i art. 10 punkt 4 finns i 7 &#167;
+8 mom. lagen (1947:576) om statlig inkomstskatt.
+
+I &#246;vriga fall ber&#228;knas svensk skatt p&#229; utdelningen p&#229; vanligt s&#228;tt.
+Vid inkomstber&#228;kningen medges s&#229;lunda avdrag f&#246;r f&#246;rvaltningskostnader
+och r&#228;nta p&#229; skuld som bel&#246;per p&#229; aktie eller annan andel till vilken
+utdelningen &#228;r h&#228;nf&#246;rlig. Avdrag medges dock inte f&#246;r skatt p&#229;
+utdelningen som erlagts i Trinidad och Tobago. Den s&#229;lunda ber&#228;knade
+skatten neds&#228;tts enligt art. 23 punkt 2 a) genom avr&#228;kning av skatt
+som tagits ut i Trinidad och Tobago enligt art. 10 punkt 2. Denna
+skatt f&#229;r inte &#246;verstiga 20 % eller, i fall som avses i art. 10 punkt
+2 a), 10 % av utdelningens bruttobelopp. I fr&#229;ga om avr&#228;kning i vissa
+fall av h&#246;gre trinidadisk skatt &#228;n som faktiskt erlagts (art. 23 punkt
+3) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till punkt 2 av
+anvisningarna till art. 23.
+
+3. N&#228;r en fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Trinidad och Tobago och utdelningen
+&#228;r h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med fast
+driftst&#228;lle, som den som har r&#228;tt till utdelningen har i Trinidad och
+Tobago, till&#228;mpas art. 7. Utdelningen skall, om inte annat g&#228;ller p&#229;
+grund av art. 10 punkt 4, i detta fall beskattas i Sverige men skatt
+p&#229; utdelningen som erlagts i Trinidad och Tobago avr&#228;knas fr&#229;n den
+svenska skatten enligt art. 23 punkt 2 a). I fr&#229;ga om avr&#228;kning i
+vissa fall av h&#246;gre trinidadisk skatt &#228;n som faktiskt erlagts (art. 23
+punkt 3) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till punkt 2 av
+anvisningarna till art. 23.
+
+4. N&#228;r aktiebolag i Sverige verkst&#228;ller utdelning till en fysisk eller
+juridisk person med hemvist i Trinidad och Tobago och utdelningen inte
+&#228;r h&#228;nf&#246;rlig till andel som &#228;ger verkligt samband med fast driftst&#228;lle
+som den som har r&#228;tt till utdelningen har i Sverige, tas kupongskatt
+ut med 20 % eller, i fall som avses i art. 10 punkt 2 a), 10 % av
+utdelningens bruttobelopp. Utdelning fr&#229;n svensk ekonomisk f&#246;rening
+beskattas i s&#229;dant fall enligt 6 &#167; 1 mom. a och c lagen (1947:576) om
+statlig inkomstskatt men den statliga inkomstskatten f&#229;r inte
+&#246;verstiga 20 % eller, i fall som avses i art. 10 punkt 2 a), 10 % av
+utdelningens bruttobelopp. Vid taxering till statlig inkomstskatt f&#246;r
+utdelning fr&#229;n svensk ekonomisk f&#246;rening skall taxeringsn&#228;mnd i
+deklarationen anteckna de uppgifter som beh&#246;vs f&#246;r debitering.
+L&#228;ngdf&#246;rande myndighet svarar f&#246;r att anteckning om den s&#228;rskilda
+debiteringen g&#246;rs i skattel&#228;ngden.
+
+Ang&#229;ende f&#246;rfarandet vid neds&#228;ttning av svensk skatt p&#229; utdelning
+till&#228;mpas i &#246;vrigt s&#228;rskilda best&#228;mmelser; se bilaga 2.
+
+Om den som har r&#228;tt till utdelningen har fast driftst&#228;lle i Sverige
+och utdelningen &#228;r h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med
+det fasta driftst&#228;llet g&#228;ller inte ovan angivna regler om begr&#228;nsning
+av svensk skatt p&#229; utdelning.
+
+till art. 11
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;r&#228;nta&#39;&#39; anges i art. 11 punkt 4.
+
+2. R&#228;nta, som betalas fr&#229;n Trinidad och Tobago till en fysisk eller
+juridisk person med hemvist i Sverige, beskattas h&#228;r.
+
+&#196;r r&#228;ntan inte h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt samband med
+fast driftst&#228;lle, som den som har r&#228;tt till r&#228;ntan har i Trinidad och
+Tobago eller med s&#229;dan verksamhet som avses i artikel 7 punkt 2,
+ber&#228;knas svensk skatt p&#229; r&#228;ntan p&#229; vanligt s&#228;tt. Vid
+inkomstber&#228;kningen medges s&#229;lunda avdrag f&#246;r kostnader som &#228;r
+h&#228;nf&#246;rliga till r&#228;ntan. Avdrag medges dock inte f&#246;r skatt p&#229; r&#228;ntan
+som erlagts i Trinidad och Tobago. Svensk skatt p&#229; r&#228;ntan neds&#228;tts
+enligt art. 23 punkt 2 a) genom avr&#228;kning av trinidadisk skatt som
+tagits ut enligt art. 11 punkt 2. Denna skatt f&#229;r inte &#246;verstiga 15 %
+eller, i fall som avses i art. 11 punkt 2 a), 10 % av r&#228;ntans
+bruttobelopp. I fr&#229;ga om avr&#228;kning i vissa fall av h&#246;gre trinidadisk
+skatt &#228;n som faktiskt erlagts (art. 23 punkt 3) samt f&#246;rfarandet vid
+avr&#228;kningen h&#228;nvisas till punkt 2 av anvisningarna till art. 23.
+
+I fall som avses i art. 11 punkt 3 f&#229;r trinidadisk skatt inte tas ut
+p&#229; r&#228;ntan.
+
+&#196;r r&#228;ntan h&#228;nf&#246;rlig till fordran som &#228;ger verkligt samband med fast
+driftst&#228;lle, som den som har r&#228;tt till r&#228;ntan har i Trinidad och
+Tobago eller med s&#229;dan verksamhet som avses i artikel 7 punkt 2,
+till&#228;mpas art. 7. Trinidadisk skatt p&#229; r&#228;ntan avr&#228;knas i s&#229;dant fall
+fr&#229;n den svenska skatten enligt art. 23 punkt 2 a). I fr&#229;ga om
+avr&#228;kning i vissa fall av h&#246;gre trinidadisk skatt &#228;n som faktiskt
+erlagts (art. 23 punkt 3) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas
+till punkt 2 av anvisningarna till art. 23.
+
+3. R&#228;nta, vilken utbetalas fr&#229;n Sverige till en fysisk eller
+juridisk person som har hemvist i Trinidad och Tobago och som enligt
+svensk skattelagstiftning inte &#228;r bosatt i Sverige, kan enligt
+g&#228;llande svenska regler inte beskattas i Sverige. Detta g&#228;ller dock
+endast betr&#228;ffande r&#228;nta som utg&#246;r inkomst av f&#246;rv&#228;rvsk&#228;llan kapital.
+&#196;r r&#228;ntan enligt punkt 2 av anvisningarna till 28 &#167;
+kommunalskattelagen (1928:370) att h&#228;nf&#246;ra till inkomst av r&#246;relse,
+beskattas r&#228;ntan enligt art. 11 punkt 2 i Sverige -- utom i fall som
+avses i art. 11 punkt 3 -- under f&#246;ruts&#228;ttning att den fordran f&#246;r
+vilken r&#228;ntan betalas inte &#228;ger verkligt samband med fast driftst&#228;lle
+som den som har r&#228;tt till r&#228;ntan har i Sverige eller med s&#229;dan
+verksamhet som avses i art. 7 punkt 2. Skatten f&#229;r d&#228;rvid inte
+&#246;verstiga 15 % eller, i fall som avses i art. 11 punkt 2 a), 10 % av
+r&#228;ntans bruttobelopp.
+
+Om den som har r&#228;tt till r&#228;ntan har fast driftst&#228;lle i Sverige och
+r&#228;ntan &#228;r h&#228;nf&#246;rlig till fordran som &#228;ger verkligt samband med det
+fasta driftst&#228;llet eller med s&#229;dan verksamhet som avses i art. 7 punkt
+2 g&#228;ller inte ovan angivna regler om begr&#228;nsning av svensk skatt p&#229;
+r&#228;ntan (art. 11 punkt 5).
+
+till art. 12
+
+1. Betr&#228;ffande beskattning av s&#229;dan royalty som avses i art. 12 punkt
+3 a) g&#228;ller f&#246;ljande.
+
+Royalty, som betalas fr&#229;n Trinidad och Tobago till en fysisk eller
+juridisk person med hemvist i Sverige, beskattas h&#228;r.
+
+&#196;r royaltyn inte h&#228;nf&#246;rlig till r&#228;ttighet eller egendom, som &#228;ger
+verkligt samband med fast driftst&#228;lle som den som har r&#228;tt till
+royaltyn har i Trinidad och Tobago eller med s&#229;dan verksamhet som
+avses i artikel 7 punkt 2, ber&#228;knas svensk skatt p&#229; royaltyn p&#229;
+vanligt s&#228;tt. Vid inkomstber&#228;kningen medges s&#229;lunda avdrag f&#246;r
+kostnader som &#228;r h&#228;nf&#246;rliga till royaltyn. Avdrag medges dock inte f&#246;r
+skatt p&#229; royaltyn som erlagts i Trinidad och Tobago. Svensk skatt p&#229;
+royaltyn neds&#228;tts enligt art. 23 punkt 2 a) genom avr&#228;kning av
+trinidadisk skatt som tagits ut enligt artikel 12 punkt 2. Denna skatt
+f&#229;r inte &#246;verstiga 20 % av royaltyns bruttobelopp. I fr&#229;ga om
+avr&#228;kning i vissa fall av h&#246;gre trinidadisk skatt &#228;n som faktiskt
+erlagts (art. 23 punkt 3) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas
+till punkt 2 av anvisningarna till art. 23.
+
+I fall som avses i art. 12 punkt 4 f&#229;r trinidadisk skatt inte tas ut
+p&#229; royaltyn.
+
+&#196;r royaltyn h&#228;nf&#246;rlig till r&#228;ttighet eller egendom, som &#228;ger verkligt
+samband med fast driftst&#228;lle som den som har r&#228;tt till royaltyn har i
+Trinidad och Tobago eller med s&#229;dan verksamhet som avses i artikel 7
+punkt 2, till&#228;mpas art. 7. Trinidadisk skatt p&#229; royaltyn avr&#228;knas i
+s&#229;dant fall fr&#229;n den svenska skatten enligt art. 23 punkt 2 a). I
+fr&#229;ga om avr&#228;kning i vissa fall av h&#246;gre trinidadisk skatt &#228;n som
+faktiskt erlagts (art. 23 punkt 3) samt f&#246;rfarandet vid avr&#228;kningen
+h&#228;nvisas till punkt 2 av anvisningarna till art. 23.
+
+Om inte annat f&#246;ljer av art. 12 punkt 4, skall royalty, som utbetalas
+fr&#229;n Sverige till en fysisk eller juridisk person med hemvist i
+Trinidad och Tobago, beskattas h&#228;r enligt 28 &#167; kommunalskattelagen
+(1928:370) j&#228;mf&#246;rt med 2 &#167; 1 mom. och 3 &#167; lagen (1947:576) om statlig
+inkomstskatt. Om inte fall som avses i art. 12 punkt 5 f&#246;religger, f&#229;r
+emellertid summan av den statliga och kommunala inkomstskatt som
+bel&#246;per p&#229; royaltyn inte &#246;verstiga 20 % av royaltyns bruttobelopp. Vid
+till&#228;mpningen av denna begr&#228;nsningsregel iakttas best&#228;mmelserna i
+f&#246;ljande stycke.
+
+Om inkomsttagaren uppb&#228;r &#228;ven annan inkomst fr&#229;n Sverige &#228;n royaltyn,
+anses p&#229; royaltyn bel&#246;pa s&#229; stor andel av hela den statliga och
+kommunala inkomstskatten som royaltyn -- efter avdrag f&#246;r kostnader
+som &#228;r h&#228;nf&#246;rliga till royaltyn -- utg&#246;r av inkomsttagarens
+sammanr&#228;knade inkomst av olika f&#246;rv&#228;rvsk&#228;llor. Taxeringsn&#228;mnden skall
+i deklarationen anteckna royaltyns bruttobelopp och i f&#246;rekommande
+fall den nyss angivna andelen av den statliga resp. kommunala
+inkomstskatten samt ange att summan av den p&#229; vanligt s&#228;tt utr&#228;knade
+och p&#229; royaltyn bel&#246;pande statliga och kommunala inkomstskatten skall,
+om den &#246;verstiger 20 % av royaltyns bruttobelopp, neds&#228;ttas med det
+&#246;verskjutande beloppet i f&#246;rh&#229;llande till hur stor andel den statliga
+resp. kommunala inkomstskatten utg&#246;r av den sammanlagda skatten p&#229;
+royaltyn. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att anteckning om den
+s&#228;rskilda debiteringen g&#246;rs i skattel&#228;ngden.
+
+2. Royalty eller annat belopp, som utbetalas s&#229;som ers&#228;ttning f&#246;r
+nyttjandet av mineralf&#246;rekomst, k&#228;lla eller annan naturtillg&#229;ng,
+beskattas enligt art. 6.
+
+till art. 13
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;ers&#228;ttning f&#246;r f&#246;retagsledning&quot;
+anges i art. 13 punkt 3.
+
+Ers&#228;ttning f&#246;r f&#246;retagsledning, som betalas fr&#229;n Trinidad och Tobago
+till en fysisk eller juridisk person med hemvist i Sverige, beskattas
+h&#228;r.
+
+&#196;r ers&#228;ttningen inte h&#228;nf&#246;rlig till tj&#228;nster, som &#228;ger verkligt
+samband med fast driftst&#228;lle som den som uppb&#228;r ers&#228;ttningen har i
+Trinidad och Tobago eller med s&#229;dan verksamhet som avses i artikel 7
+punkt 2, ber&#228;knas svensk skatt p&#229; ers&#228;ttningen p&#229; vanligt s&#228;tt. Vid
+inkomstber&#228;kningen medges s&#229;lunda avdrag f&#246;r kostnader som &#228;r
+h&#228;nf&#246;rliga till ers&#228;ttningen. Avdrag medges dock inte f&#246;r skatt p&#229;
+ers&#228;ttningen som erlagts i Trinidad och Tobago. Den s&#229;lunda ber&#228;knade
+skatten neds&#228;tts enligt art. 23 punkt 2 a) genom avr&#228;kning av skatt
+som tagits ut i Trinidad och Tobago enligt art. 13 punkt 2. Denna
+skatt f&#229;r inte &#246;verstiga 12,5 % av ers&#228;ttningens bruttobelopp. I fr&#229;ga
+om avr&#228;kning i vissa fall av h&#246;gre trinidadisk skatt &#228;n som faktiskt
+erlagts (art. 23 punkt 3) samt om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas
+till punkt 2 av anvisningarna till art. 23.
+
+2. N&#228;r en fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+ers&#228;ttning f&#246;r f&#246;retagsledning och ers&#228;ttningen &#228;r h&#228;nf&#246;rlig till
+tj&#228;nster som &#228;ger verkligt samband med fast driftst&#228;lle som den som
+uppb&#228;r ers&#228;ttningen har i Trinidad och Tobago eller med s&#229;dan
+verksamhet som avses i artikel 7 punkt 2, till&#228;mpas art. 7.
+Ers&#228;ttningen skall i detta fall beskattas i Sverige men skatt p&#229;
+ers&#228;ttningen som erlagts i Trinidad och Tobago avr&#228;knas fr&#229;n den
+svenska skatten enligt art. 23 punkt 2 a). I fr&#229;ga om avr&#228;kning i
+vissa fall av h&#246;gre trinidadisk skatt &#228;n som faktiskt erlagts (art. 23
+punkt 3) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till punkt 2 av
+anvisningarna till art. 23.
+
+3. Ers&#228;ttning f&#246;r f&#246;retagsledning, som utbetalas fr&#229;n Sverige till en
+fysisk eller juridisk person med hemvist i Trinidad och Tobago,
+beskattas i Sverige, om det kan ske enligt g&#228;llande
+beskattningsregler. Om inte fall som avses i art. 13 punkt 4
+f&#246;religger, f&#229;r emellertid summan av den statliga och kommunala
+inkomstskatt som bel&#246;per p&#229; ers&#228;ttningen inte &#246;verstiga 12,5 % av
+ers&#228;ttningens bruttobelopp.
+
+till art. 14
+
+1. Vad som f&#246;rst&#229;s med &quot;fritt yrke&quot; exemplifieras i art. 14 punkt 2.
+
+2. Inkomst av fritt yrke eller annan sj&#228;lvst&#228;ndig verksamhet beskattas
+i regel endast i den stat d&#228;r den skattskyldige har hemvist. Om
+arbetet utf&#246;rs i den andra staten och ers&#228;ttningen som f&#246;rv&#228;rvas d&#228;r
+under ifr&#229;gavarande inkomst&#229;r &#246;verstiger ett bruttobelopp motsvarande
+6 000 US-dollar samt ers&#228;ttningen betalas av eller p&#229; uppdrag av
+person med hemvist i denna andra stat eller ett fast driftst&#228;lle som
+&#228;r bel&#228;get d&#228;r, f&#229;r inkomsten beskattas i denna andra stat.
+
+Om en person med hemvist i Sverige f&#246;rv&#228;rvar inkomst av fritt yrke
+eller annan sj&#228;lvst&#228;ndig verksamhet som f&#229;r beskattas i Trinidad och
+Tobago, f&#229;r inkomsten beskattas i Sverige men trinidadisk skatt p&#229;
+inkomsten avr&#228;knas fr&#229;n den svenska skatten enligt art. 23 punkt 2 a).
+I fr&#229;ga om avr&#228;kning i vissa fall av h&#246;gre trinidadisk skatt &#228;n som
+faktiskt erlagts (art. 23 punkt 3) samt om f&#246;rfarandet vid avr&#228;kningen
+h&#228;nvisas till punkt 2 av anvisningarna till art. 23.
+
+3. Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av sk&#229;despelare,
+musiker, idrottsm&#228;n m. fl. se anvisningarna till art. 17.
+
+till art. 15
+
+Inkomst av enskild tj&#228;nst f&#229;r enligt art. 15 punkt 1 i regel
+beskattas i den stat d&#228;r arbetet utf&#246;rs. Undantag fr&#229;n denna regel
+f&#246;reskrivs i art. 15 punkterna 2 och 3 samt i art. 16, 20 och 21.
+
+Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av sk&#229;despelare,
+musiker, idrottsm&#228;n m. fl. se anvisningarna till art. 17.
+
+Beskattningen av pension p&#229; grund av enskild tj&#228;nst regleras av
+best&#228;mmelserna i art. 18.
+
+till art. 16
+
+N&#228;r ett svenskt bolag utbetalar styrelsearvode eller ers&#228;ttning som
+avses i art. 16 punkt 2 till en person med hemvist i Trinidad och
+Tobago, beskattas ers&#228;ttningen i Sverige, om det kan ske enligt
+g&#228;llande beskattningsregler. Har s&#229;dan ers&#228;ttning uppburits av en
+person med hemvist i Sverige fr&#229;n ett bolag med hemvist i Trinidad och
+Tobago, f&#229;r inkomsten beskattas i Sverige men skatt p&#229; inkomsten som
+erlagts i Trinidad och Tobago avr&#228;knas fr&#229;n den svenska skatten enligt
+art. 23 punkt 2 a). I fr&#229;ga om avr&#228;kning i vissa fall av h&#246;gre
+trinidadisk skatt &#228;n som faktiskt erlagts (art. 23 punkt 3) samt
+f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till punkt 2 av anvisningarna
+till art. 23.
+
+till art. 17
+
+Inkomst, som teater- eller filmsk&#229;despelare, radio- eller
+televisionsartister, musiker och liknande yrkesut&#246;vare samt idrottsm&#228;n
+f&#246;rv&#228;rvar genom sin yrkesverksamhet, f&#229;r beskattas i den stat d&#228;r
+verksamheten ut&#246;vas (art. 17 punkt 1). Detta g&#228;ller oavsett om
+inkomsten f&#246;rv&#228;rvas under ut&#246;vande av fritt yrke eller p&#229; grund av
+anst&#228;llning. Enligt art. 17 punkt 2 f&#229;r inkomsten beskattas i den stat
+d&#228;r artisten eller idrottsmannen utf&#246;r arbetet, &#228;ven om ers&#228;ttningen
+utbetalas till en annan person (t. ex. arbetsgivare hos vilken
+artisten eller idrottsmannen &#228;r anst&#228;lld) &#228;n artisten eller
+idrottsmannen sj&#228;lv. Detta g&#228;ller enligt art. 17 punkt 3 &#228;ven i fr&#229;ga
+om inkomst som f&#246;rv&#228;rvas av f&#246;retag i den andra avtalsslutande staten
+genom att tillhandah&#229;lla tj&#228;nster av h&#228;r ifr&#229;gavarande yrkesut&#246;vare.
+F&#246;r Sveriges vidkommande iakttas vid till&#228;mpningen av art. 17
+punkterna 1 och 2 best&#228;mmelserna i 54 &#167; f&#246;rsta stycket b
+kommunalskattelagen (1928:370) och 7 &#167; 11 mom. lagen (1947:576) om
+statlig inkomstskatt.
+
+till art. 18
+
+Pension som omfattas av art. 18 f&#229;r beskattas i den stat fr&#229;n
+vilken pensionen h&#228;rr&#246;r. Detta inneb&#228;r bl. a. att s&#229;dan pension fr&#229;n
+Sverige som betalas till person med hemvist i Trinidad och Tobago,
+beskattas h&#228;r, om det kan ske enligt g&#228;llande beskattningsregler.
+
+Person med hemvist i Sverige som fr&#229;n Trinidad och Tobago uppb&#228;r
+pension som omfattas av art. 18 beskattas h&#228;r f&#246;r s&#229;dan inkomst.
+Svensk skatt p&#229; inkomsten neds&#228;tts enligt art. 23 punkt 2 a) genom
+avr&#228;kning av den skatt p&#229; inkomsten som erlagts i Trinidad och Tobago.
+I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till punkt 2 av
+anvisningarna till art. 23.
+
+till art. 19
+
+Ers&#228;ttning, med undantag f&#246;r pension, som utbetalas av n&#229;gon av
+staterna eller dess lokala myndigheter f&#246;r arbete utf&#246;rt i denna stats
+eller dess lokala myndigheters tj&#228;nst, beskattas enligt huvudregeln i
+art. 19 punkt 1 a) endast i den stat varifr&#229;n ers&#228;ttningen utbetalas.
+Har arbetet utf&#246;rts i den andra staten av en person med hemvist i
+denna stat, beskattas emellertid ers&#228;ttningen enligt art. 19 punkt 1
+b) endast i den staten, om mottagaren &#228;r medborgare i den staten eller
+inte fick hemvist d&#228;r endast f&#246;r att utf&#246;ra ifr&#229;gavarande arbete.
+
+Pension, som utbetalas av, eller fr&#229;n fonder inr&#228;ttade av, en av
+staterna eller dess lokala myndigheter p&#229; grund av arbete som utf&#246;rts
+i denna stats eller dess lokala myndigheters tj&#228;nst, beskattas enligt
+art. 19 punkt 2 a) i regel endast i denna stat. Om mottagaren av
+pensionen &#228;r medborgare i den andra staten och har hemvist d&#228;r,
+beskattas emellertid pensionen enligt art. 19 punkt 2 b) endast i
+denna andra stat.
+
+Ers&#228;ttning och pension, som utbetalas f&#246;r tj&#228;nst utf&#246;rd i samband med
+r&#246;relse, som den utbetalande staten eller dess lokala myndigheter
+bedrivit, beskattas som inkomst p&#229; grund av enskild tj&#228;nst enligt art.
+15, 16, 18, 20 och 21.
+
+till art. 22
+
+Enligt art. 22 punkt 1 beskattas inkomst som inte har behandlats
+s&#228;rskilt i f&#246;reg&#229;ende artiklar i avtalet endast i den stat d&#228;r
+inkomsttagaren har hemvist. Om emellertid inkomsten h&#228;rr&#246;r fr&#229;n den
+andra staten f&#229;r inkomsten enligt art. 22 punkt 3 beskattas d&#228;r.
+
+Person med hemvist i Sverige, vilken uppb&#228;r inkomst som avses i art.
+22 punkt 3 och som h&#228;rr&#246;r fr&#229;n Trinidad och Tobago, beskattas h&#228;r f&#246;r
+s&#229;dan inkomst men trinidadisk skatt p&#229; inkomsten avr&#228;knas enligt art.
+23 punkt 2 a). I fr&#229;ga om avr&#228;kning i vissa fall av h&#246;gre trinidadisk
+skatt &#228;n som faktiskt erlagts (art. 23 punkt 3) samt f&#246;rfarandet vid
+avr&#228;kningen h&#228;nvisas till punkt 2 av anvisningarna till art. 23.
+
+till art. 23
+
+1. Inkomst fr&#229;n Sverige, som uppb&#228;rs av en person med hemvist i
+Trinidad och Tobago, beskattas h&#228;r i den m&#229;n svenska
+skattef&#246;rfattningar f&#246;ranleder det och inskr&#228;nkning av
+skattskyldigheten inte f&#246;ljer av &#246;vriga artiklar. Om inkomsten
+beskattas &#228;ven i Trinidad och Tobago, medges l&#228;ttnad vid beskattningen
+i Trinidad och Tobago enligt art. 23 punkt 1.
+
+2. Inkomst fr&#229;n Trinidad och Tobago, som f&#246;rv&#228;rvas av en person med
+hemvist i Sverige, tas med vid taxering i Sverige med undantag f&#246;r
+utdelning i vissa fall fr&#229;n bolag i Trinidad och Tobago. I fr&#229;ga om
+s&#229;dan utdelning se punkt 2 andra stycket och punkt 3 av anvisningarna
+till art. 10. Svensk skatt p&#229; inkomsten s&#228;tts ned genom avr&#228;kning
+enligt art. 23 punkt 2 a), om inte fall f&#246;religger som anges i punkt 3
+nedan.
+
+Svensk inkomstskatt ber&#228;knas p&#229; inkomsten p&#229; vanligt s&#228;tt. Vid
+inkomstber&#228;kningen medges s&#229;lunda avdrag f&#246;r kostnader som &#228;r
+h&#228;nf&#246;rliga till inkomsten. Avdrag medges dock inte f&#246;r skatt som
+erlagts i Trinidad och Tobago och som omfattas av avtalet. Fr&#229;n den
+s&#229;lunda ber&#228;knade svenska skatten avr&#228;knas enligt art. 23 punkt 2 a)
+ett belopp motsvarande den inkomstskatt som erlagts i Trinidad och
+Tobago. Betr&#228;ffande storleken av skatt p&#229; utdelning, r&#228;nta, royalty
+och ers&#228;ttning f&#246;r f&#246;retagsledning i Trinidad och Tobago h&#228;nvisas till
+punkt 2 av anvisningarna till art. 10, punkt 2 av anvisningarna till
+art. 11, punkt 1 av anvisningarna till art. 12 och punkt 1 av
+anvisningarna till art. 13. Vidare iakttas att i fall som avses i art.
+23 punkt 3 h&#246;gre trinidadisk skatt skall avr&#228;knas &#228;n vad som utg&#229;tt p&#229;
+inkomsten i fr&#229;ga. Har skatt enligt avtalet tagits ut i Trinidad och
+Tobago p&#229; inkomst av r&#246;relse som har bedrivits i Trinidad och Tobago,
+iakttas att inkomsten ber&#228;knats enligt art. 7 och att, i det fall
+skatt ocks&#229; tagits ut p&#229; inkomst som &#246;verf&#246;rts fr&#229;n fast driftst&#228;lle,
+denna ber&#228;knats enligt art. 10 punkt 7.
+
+Den skattskyldige b&#246;r i samband med sin sj&#228;lvdeklaration f&#246;r det
+beskattnings&#229;r, f&#246;r vilket inkomsten tas upp till beskattning, f&#246;rete
+utredning om den skatt som har erlagts i Trinidad och Tobago eller
+skulle ha erlagts om inte s&#229;dan befrielse eller neds&#228;ttning som avses
+i art. 23 punkt 3 hade meddelats.
+
+Avr&#228;kning av skatt p&#229; viss inkomst som erlagts eller skulle ha erlagts
+i Trinidad och Tobago f&#229;r ske med belopp motsvarande h&#246;gst summan av
+de svenska skatter som bel&#246;per p&#229; inkomsten. Vid till&#228;mpningen av
+denna regel anses p&#229; inkomsten fr&#229;n Trinidad och Tobago bel&#246;pa s&#229; stor
+andel av statlig inkomstskatt som utg&#229;r p&#229; grund av lagen (1947:576)
+om statlig inkomstskatt som inkomsten -- efter avdrag f&#246;r kostnader --
+utg&#246;r av den skattskyldiges sammanlagda inkomst av olika
+f&#246;rv&#228;rvsk&#228;llor. Kommunal inkomstskatt anses bel&#246;pa p&#229; inkomsten fr&#229;n
+Trinidad och Tobago till s&#229; stor andel som inkomsten -- efter avdrag
+f&#246;r kostnader -- utg&#246;r av den skattskyldiges sammanlagda inkomst av
+olika f&#246;rv&#228;rvsk&#228;llor vilken skall taxeras i samma kommun som inkomsten
+fr&#229;n Trinidad och Tobago.
+
+Avr&#228;kning sker i f&#246;rsta hand fr&#229;n statlig inkomstskatt som utg&#229;r p&#229;
+grund av lagen om statlig inkomstskatt, i andra hand fr&#229;n kommunal
+inkomstskatt och i sista hand fr&#229;n &#246;vrig inkomstskatt.
+
+Taxeringsn&#228;mnd skall i deklaration anteckna motv&#228;rdet i svenska kronor
+av den trinidadiska skatten p&#229; inkomsten och ange att avr&#228;kning skall
+ske med detta skattebelopp, dock h&#246;gst med beloppet av de svenska
+skatterna p&#229; inkomsten. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att
+anteckning om avr&#228;kning g&#246;rs i skattel&#228;ngden.
+
+Exempel: En person med hemvist i Sverige uppb&#228;r inkomst av fast
+egendom i Trinidad och Tobago med ett belopp motsvarande 10 000
+kronor. P&#229; inkomsten antas ha erlagts skatt i Trinidad och Tobago med
+ett belopp av 1 500 kronor. Avdragsgilla kostnader uppg&#229;r till 1 000
+kronor. Den skattskyldige antas vidare uppb&#228;ra nettoint&#228;kter av olika
+f&#246;rv&#228;rvsk&#228;llor i hemortskommunen med ett belopp av 165 000 kronor vid
+den statliga taxeringen och 150 000 kronor vid den kommunala
+taxeringen. Vidare antas att allm&#228;nna avdrag uppg&#229;r till 7 000 kronor.
+Den till statlig och kommunal inkomstskatt taxerade inkomsten blir
+s&#229;lunda (9 000+165 000--7 000=) 167 000 resp. (9 000+150 000--7 000=)
+152 000 kronor. I deklarationen antecknas: &quot;Avr&#228;kning fr&#229;n
+inkomstskatt enligt avtalet med Trinidad och Tobago skall ske med 1
+500 kronor, dock h&#246;gst med summan
+
+     9 000                                           9 000
+av 174 000 av hela den statliga inkomstskatten och 159 000 av hela den
+kommunala inkomstskatten. Avr&#228;kning sker i f&#246;rsta hand fr&#229;n statlig
+inkomstskatt som utg&#229;r p&#229; grund av lagen om statlig inkomstskatt, i
+andra hand fr&#229;n kommunal inkomstskatt och i sista hand fr&#229;n &#246;vrig
+inkomstskatt.&quot;
+
+Har den skattskyldige flera inkomster fr&#229;n utlandet kan vid
+avr&#228;kningsf&#246;rfarandet &#228;ven best&#228;mmelserna i 25 &#167; f&#246;rsta stycket lagen
+om statlig inkomstskatt bli till&#228;mpliga.
+
+3. Om en person med hemvist i Sverige uppb&#228;r inkomst som enligt art. 8
+eller art. 19 punkt 1 eller punkt 2 skall beskattas endast i Trinidad
+och Tobago, medtas inkomsten vid taxering i Sverige. Statlig och
+kommunal inkomstskatt utr&#228;knas i vanlig ordning. De s&#229;lunda utr&#228;knade
+inkomstskatterna s&#228;tts ned med ett belopp motsvarande den del av
+inkomstskatterna som bel&#246;per p&#229; den inkomst som enligt avtalet skall
+beskattas endast i Trinidad och Tobago. Denna del skall utg&#246;ra lika
+stor andel av den totala skatten som den minskning av den
+beskattningsbara inkomsten, som skulle f&#246;lja om inkomsten fr&#229;n
+Trinidad och Tobago inte tagits med, utg&#246;r av den verkliga
+beskattningsbara inkomsten. Om den beskattningsbara inkomsten, som
+skulle uppkomma om inkomsten fr&#229;n Trinidad och Tobago inte tas med,
+blir 0, skall neds&#228;ttning av den statliga inkomstskatten dock ske till
+ett belopp motsvarande den skatt som uppkommer n&#228;r skatten ber&#228;knas
+utan beaktande av inkomsten fr&#229;n Trinidad och Tobago.
+
+Exempel: En medborgare i Trinidad och Tobago med hemvist i Sverige
+uppb&#228;r pension fr&#229;n Trinidad och Tobago p&#229; grund av arbete som utf&#246;rts
+i denna stats tj&#228;nst med ett belopp som efter avdrag f&#246;r kostnader
+motsvarar 10 050 kronor. Den skattskyldige antas uppb&#228;ra i Sverige
+skattepliktiga nettoint&#228;kter av andra f&#246;rv&#228;rvsk&#228;llor med 160 000
+kronor och &#229;tnjuta underskottsavdrag i hemortskommunen med 20 000
+kronor, &#246;vriga allm&#228;nna avdrag med 4 500 kronor och grundavdrag med
+7 500 kronor. Den beskattningsbara inkomsten blir statligt
+(10 050+160 000--20 000--4 500=) 145 500 kronor och kommunalt
+(10 050+160 000--20 000--4 500--7 500=) 138 000 kronor, sedan
+avrundning skett. Hade pensionen inte medr&#228;knats skulle den
+beskattningsbara inkomsten ha blivit statligt (160 000--20 000--
+4 500=) 135 500 kronor och kommunalt (160 000--20 000--4 500--
+7 500=) 128 000 kronor. Den statliga inkomstskatten och den kommunala
+inkomstskatten,
+
+ber&#228;knas p&#229; 145 500 resp. 138 000 kronor, neds&#228;tts med
+145 500--135 500       138 000--128 000
+     145 500     resp.      138 000.
+I F&#246;rekommande fall skall s.k. extra avdrag beh&#229;llas
+
+
+I f&#246;rekommande fall skall s. k. extra avdrag beh&#229;llas of&#246;r&#228;ndrat vid
+ber&#228;kningen av den antagna beskattningsbara inkomsten.
+
+I fall som nu n&#228;mnts skall taxeringsn&#228;mnd i deklarationen anteckna
+grunden f&#246;r utr&#228;kningen av inkomstskatterna. L&#228;ngdf&#246;rande myndighet
+svarar f&#246;r att anteckning om neds&#228;ttning g&#246;rs i skattel&#228;ngden.
+
+till art. 24
+
+Av art. 24 punkt 2 f&#246;ljer att bolag i Trinidad och Tobago inte f&#229;r
+p&#229;f&#246;ras f&#246;rm&#246;genhetsskatt i Sverige. Best&#228;mmelsen inneb&#228;r ett undantag
+fr&#229;n regeln i 6 &#167; 1 mom. f&#246;rsta stycket c lagen (1947:577) om statlig
+f&#246;rm&#246;genhetsskatt.
+
+Bilaga 2
+
+Anvisningar om kupongskatt, m. m.
+
+Kupongskatt f&#246;r person med hemvist i Trinidad och Tobago
+
+1. Den som enligt lagen (1984:246) om dubbelbeskattningsavtal mellan
+Sverige samt Trinidad och Tobago har hemvist i Trinidad och Tobago
+kan, under de f&#246;ruts&#228;ttningar som anges i art. 10 i avtalet, f&#229;
+neds&#228;ttning av den skatt p&#229; utdelning som annars skulle utg&#229; enligt
+kupongskattelagen (1970:624).
+
+2. Om r&#228;tt till neds&#228;ttning f&#246;religger enligt art. 10 i avtalet, tas
+kupongskatt ut efter den skattesats som anges d&#228;r. I &#246;vrigt skall den
+som betalar utdelningen till&#228;mpa best&#228;mmelserna i kupongskattelagen
+(1970:624) och kupongskattekung&#246;relsen (1971:49).
+
+S&#229;lunda g&#228;ller att uppgifter enligt 14 &#167; kupongskattelagen (1970:624)
+skall l&#228;mnas d&#229; det &#228;r fr&#229;ga om utdelning fr&#229;n aktiebolag eller
+aktiefond som avses i 13 &#167; samma lag. Som ytterligare f&#246;ruts&#228;ttning
+f&#246;r neds&#228;ttning av kupongskatten p&#229; s&#229;dan utdelning g&#228;ller att
+utbetalaren genom intyg av myndighet eller bank i Trinidad och Tobago
+visar att den som har r&#228;tt till utdelningen har hemvist i Trinidad och
+Tobago.
+
+3. Har kupongskatt inneh&#229;llits med h&#246;gre belopp &#228;n den skattskyldige
+skall erl&#228;gga enligt lagen (1984:246) om dubbelbeskattningsavtal
+mellan Sverige samt Trinidad och Tobago kan den skattskyldige f&#229; ut
+det f&#246;r h&#246;gt uttagna beloppet (restitution) efter ans&#246;kan hos
+riksskatteverket enligt 27 &#167; kupongskattelagen (1970:624).
+
+4. Riksskatteverkets beslut i &#228;rende om restitution f&#229;r &#246;verklagas p&#229;
+det s&#228;tt som anges i 29 &#167; kupongskattelagen (1970:624).
+
+Statlig inkomstskatt p&#229; utdelning fr&#229;n svensk ekonomisk f&#246;rening
+till person med hemvist i Trinidad och Tobago
+
+5. Den som enligt lagen (1984:246) om dubbelbeskattningsavtal mellan
+Sverige samt Trinidad och Tobago har hemvist i Trinidad och Tobago och
+som enligt 6 &#167; 1 mom. a och c lagen (1947:576) om statlig inkomstskatt
+&#228;r skattskyldig i Sverige f&#246;r utdelning p&#229; andel i svensk ekonomisk
+f&#246;rening kan erh&#229;lla neds&#228;ttning av statlig inkomstskatt enligt art.
+10 i avtalet under de f&#246;ruts&#228;ttningar som anges d&#228;r.
+
+6. Ans&#246;kan om neds&#228;ttning g&#246;rs hos den taxeringsn&#228;mnd som taxerar den
+utdelningsber&#228;ttigade till statlig inkomstskatt f&#246;r det &#229;r d&#229;
+utdelningen beskattas eller, om taxeringsn&#228;mndens arbete betr&#228;ffande
+taxeringen detta &#229;r avslutats, hos den domstol som handl&#228;gger besv&#228;r
+&#246;ver n&#228;mnda taxering. Ans&#246;kan b&#246;r g&#246;ras f&#246;re utg&#229;ngen av tredje
+kalender&#229;ret efter det d&#229; utdelningen blev tillg&#228;nglig f&#246;r lyftning.
+
+I samband med ans&#246;kningen skall den utdelningsber&#228;ttigade genom intyg
+fr&#229;n myndighet eller bank i Trinidad och Tobago visa att han har
+hemvist i Trinidad och Tobago.
+
+7. Beslut i &#228;rende som avses i punkt 6 f&#229;r &#246;verklagas p&#229; det s&#228;tt som
+anges i taxeringslagen (1956:623) och f&#246;rvaltningsprocesslagen
+(1971:291).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3751">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3753">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,854 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-02-13" /> 
+ <meta id="rattsinfo-edited" content="2023-02-13 15:29:27" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1717</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1716">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1718">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2010:611 ·
+                    <a href="/sfsr?bet=2010:611">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">H&#228;kteslag (2010:611)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L5
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2010-06-10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:932
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2011-04-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+Lagens inneh&#229;ll och till&#228;mpningsomr&#229;de
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om verkst&#228;llighet av
+beslut om h&#228;ktning och vissa andra tillf&#228;lliga
+frihetsber&#246;vanden i h&#228;kte eller i annan f&#246;rvaringslokal.
+Best&#228;mmelserna avser
+
+- placering och vissa r&#228;ttigheter (2 kap.),
+
+- bes&#246;k och andra kontakter (3 kap.),
+
+- s&#228;rskilda kontroll- och tv&#229;ngs&#229;tg&#228;rder (4 kap.),
+
+- h&#228;lso- och sjukv&#229;rd (5 kap.),
+
+- restriktioner f&#246;r intagna som &#228;r misst&#228;nkta f&#246;r brott (6
+kap.), samt
+
+- beslut och &#246;verklagande m.m. (7 och 8 kap.).
+
+2 &#167; Denna lag g&#228;ller den som &#228;r 
+
+1. h&#228;ktad, anh&#229;llen eller gripen p&#229; grund av misstanke om 
+brott, 
+
+2. h&#228;ktad av annan anledning &#228;n misstanke om brott, 
+
+3. intagen i ett h&#228;kte eller en polisarrest i avvaktan p&#229; att 
+han eller hon ska f&#246;rpassas till en kriminalv&#229;rdsanstalt eller 
+ett s&#228;rskilt ungdomshem, 
+
+4. tillf&#228;lligt placerad i ett h&#228;kte med st&#246;d av f&#228;ngelselagen 
+(2010:610), eller 
+
+5. omh&#228;ndertagen enligt 28 kap. 11 &#167; fj&#228;rde stycket 
+brottsbalken i avvaktan p&#229; att ett beslut om undanr&#246;jande av 
+skyddstillsyn f&#229;r laga kraft. 
+
+F&#246;rsta stycket 1 g&#228;ller inte den som &#228;r gripen enligt 35 &#167; 
+lagen (1964:167) med s&#228;rskilda best&#228;mmelser om unga 
+lag&#246;vertr&#228;dare. Lag (2022:932).
+
+3 &#167; Denna lag g&#228;ller, om inte annat f&#246;reskrivs i lag eller
+annan f&#246;rfattning, ocks&#229; den som &#228;r intagen i
+
+1. en kriminalv&#229;rdsanstalt eller ett h&#228;kte f&#246;r annat &#228;ndam&#229;l
+&#228;n verkst&#228;llighet av p&#229;f&#246;ljd f&#246;r brott, eller
+
+2. en polisarrest f&#246;r f&#246;rvar.
+
+Verkst&#228;llighetens utformning
+
+4 &#167; Varje intagen ska bem&#246;tas med respekt f&#246;r sitt
+m&#228;nniskov&#228;rde och med f&#246;rst&#229;else f&#246;r de s&#228;rskilda sv&#229;righeter
+som &#228;r f&#246;renade med frihetsber&#246;vandet.
+
+5 &#167; Verkst&#228;lligheten ska utformas s&#229; att negativa f&#246;ljder av
+frihetsber&#246;vandet motverkas. I den utstr&#228;ckning det &#228;r
+l&#228;mpligt och den intagne samtycker till det, ska &#229;tg&#228;rder
+vidtas f&#246;r att ge honom eller henne det st&#246;d och den hj&#228;lp som
+beh&#246;vs.
+
+6 &#167; Verkst&#228;lligheten f&#229;r inte inneb&#228;ra andra begr&#228;nsningar i
+den intagnes frihet &#228;n som f&#246;ljer av denna lag eller som &#228;r
+n&#246;dv&#228;ndiga f&#246;r att ordningen eller s&#228;kerheten ska kunna
+uppr&#228;tth&#229;llas.
+
+En kontroll- eller tv&#229;ngs&#229;tg&#228;rd f&#229;r endast anv&#228;ndas om den
+st&#229;r i rimlig proportion till syftet med &#229;tg&#228;rden. Om en
+mindre ingripande &#229;tg&#228;rd &#228;r tillr&#228;cklig ska den anv&#228;ndas.
+
+2 kap. Placering och vissa r&#228;ttigheter
+
+Placering
+
+1 &#167; En intagen har r&#228;tt att placeras i enrum.
+
+Tv&#229; eller flera intagna f&#229;r placeras i samma rum om det &#228;r
+n&#246;dv&#228;ndigt av utrymmessk&#228;l eller n&#229;gon annan s&#228;rskild
+anledning.
+
+2 &#167; En intagen f&#229;r inte placeras s&#229; att han eller hon vistas
+tillsammans med intagna av motsatt k&#246;n. En intagen f&#229;r dock
+medges att vistas med intagna av motsatt k&#246;n, om det &#228;r
+l&#228;mpligt och de intagna samtycker till det.
+
+3 &#167; En intagen som &#228;r under arton &#229;r f&#229;r inte placeras s&#229; att 
+han eller hon vistas tillsammans med intagna &#246;ver arton &#229;r, om 
+det inte kan anses vara till hans eller hennes b&#228;sta.
+
+Om en intagen fyller arton &#229;r under tiden f&#246;r 
+frihetsber&#246;vandet f&#229;r den intagne &#228;ven forts&#228;ttningsvis 
+placeras s&#229; att han eller hon vistas tillsammans med intagna 
+under arton &#229;r, om det &#228;r motiverat med h&#228;nsyn till hans eller 
+hennes personliga f&#246;rh&#229;llanden och i &#246;vrigt anses l&#228;mpligt.
+Lag (2019:265).
+
+4 &#167; En intagen f&#229;r medges att ha sitt sp&#228;dbarn hos sig, om det
+kan anses vara till barnets b&#228;sta.
+
+Vistelse i gemensamhet och avskildhet
+
+5 &#167; En intagen ska ges m&#246;jlighet att dagtid vistas tillsammans
+med andra intagna (gemensamhet), om inte
+
+1. den intagne &#228;r placerad i en annan f&#246;rvaringslokal &#228;n i ett
+h&#228;kte och lokalf&#246;rh&#229;llandena inte till&#229;ter gemensamhet,
+
+2. det av s&#228;kerhetssk&#228;l &#228;r n&#246;dv&#228;ndigt att h&#229;lla den intagne
+avskild fr&#229;n andra intagna, eller
+
+3. det &#228;r n&#246;dv&#228;ndigt f&#246;r att genomf&#246;ra en kroppsbesiktning.
+
+Vistelse med en annan person
+
+5 a &#167; Den som &#228;r under arton &#229;r och som &#228;r h&#228;ktad eller 
+anh&#229;llen och intagen i h&#228;kte har r&#228;tt att vistas med personal 
+eller n&#229;gon annan minst fyra timmar varje dag. Lag (2021:289).
+
+Syssels&#228;ttning och ers&#228;ttning
+
+6 &#167; En intagen ska, om det &#228;r m&#246;jligt, beredas l&#228;mplig
+syssels&#228;ttning i form av arbete eller annan j&#228;mf&#246;rbar
+verksamhet.
+
+En intagen som utf&#246;r eller deltar i den syssels&#228;ttning som
+anordnas av Kriminalv&#229;rden har r&#228;tt till ers&#228;ttning.
+
+Om en intagen upps&#229;tligen har skadat egendom som tillh&#246;r eller
+har uppl&#229;tits till Kriminalv&#229;rden, f&#229;r Kriminalv&#229;rden av den
+ers&#228;ttning som avses i andra stycket ta ut ett belopp som
+motsvarar kostnaderna f&#246;r att ers&#228;tta eller p&#229; annat s&#228;tt
+&#229;terst&#228;lla egendomen.
+
+Vistelse utomhus
+
+7 &#167; En intagen ska ges m&#246;jlighet att vistas utomhus minst en
+timme varje dag, om det inte finns synnerliga sk&#228;l mot det.
+
+F&#246;rstr&#246;else
+
+8 &#167; En intagen ska ges m&#246;jlighet att p&#229; l&#228;mpligt s&#228;tt &#228;gna sig
+&#229;t f&#246;rstr&#246;else.
+
+Utbud av massmedier
+
+9 &#167; En intagen ska ges m&#246;jlighet att p&#229; l&#228;mpligt s&#228;tt f&#246;lja
+vad som h&#228;nder i omv&#228;rlden.
+
+Religionsut&#246;vning
+
+10 &#167; En intagen ska ges m&#246;jlighet att p&#229; l&#228;mpligt s&#228;tt ut&#246;va
+sin religion.
+
+Personliga tillh&#246;righeter
+
+11 &#167; En intagen f&#229;r ta emot och inneha b&#246;cker, tidskrifter,
+tidningar och andra personliga tillh&#246;righeter som inte kan
+&#228;ventyra ordningen eller s&#228;kerheten.
+
+12 &#167; Tillh&#246;righeter som en intagen inte f&#229;r ta emot och inneha
+enligt 11 &#167; f&#229;r omh&#228;ndertas och f&#246;rvaras f&#246;r den intagnes
+r&#228;kning. Tillh&#246;righeter som omh&#228;ndertagits ska l&#228;mnas ut till
+den intagne senast i samband med att han eller hon inte l&#228;ngre
+ska vara ber&#246;vad friheten.
+
+Permission
+
+13 &#167; En intagen f&#229;r, om det finns s&#228;rskilt &#246;mmande sk&#228;l,
+beviljas tillst&#229;nd att vistas utanf&#246;r f&#246;rvaringslokalen f&#246;r
+viss kort tid (permission), om det inte finns hinder mot det
+av s&#228;kerhetssk&#228;l.
+
+Ett tillst&#229;nd till permission ska f&#246;renas med de villkor som
+beh&#246;vs. Om det inte &#228;r uppenbart obeh&#246;vligt, ska den intagne
+st&#229; under bevakning.
+
+Innan ett tillst&#229;nd till permission beviljas den som &#228;r &#229;lagd
+restriktioner enligt 6 kap. ska medgivande inh&#228;mtas fr&#229;n
+unders&#246;kningsledaren eller &#229;klagaren.
+
+3 kap. Bes&#246;k och andra kontakter
+
+Bes&#246;k
+
+1 &#167; En intagen f&#229;r ta emot bes&#246;k i den utstr&#228;ckning det
+l&#228;mpligen kan ske. Ett bes&#246;k f&#229;r dock v&#228;gras om det kan
+&#228;ventyra s&#228;kerheten p&#229; ett s&#228;tt som inte kan avhj&#228;lpas genom
+kontroll enligt 2 eller 3 &#167;.
+
+Best&#228;mmelser om r&#228;tten f&#246;r den som &#228;r h&#228;ktad eller anh&#229;llen
+att ta emot bes&#246;k fr&#229;n sin f&#246;rsvarare finns i 21 kap. 9 &#167;
+r&#228;tteg&#229;ngsbalken.
+
+2 &#167; Ett bes&#246;k f&#229;r, om det &#228;r n&#246;dv&#228;ndigt av s&#228;kerhetssk&#228;l,
+kontrolleras genom att
+
+1. personal &#246;vervakar bes&#246;ket, eller
+
+2. bes&#246;ket &#228;ger rum i ett bes&#246;ksrum som &#228;r s&#229; utformat att det
+om&#246;jligg&#246;r att f&#246;rem&#229;l &#246;verl&#228;mnas.
+
+3 &#167; Ett bes&#246;k f&#229;r, om det &#228;r n&#246;dv&#228;ndigt av s&#228;kerhetssk&#228;l,
+villkoras av att bes&#246;karen underkastar sig kroppsvisitation
+eller ytlig kroppsbesiktning.
+
+Elektronisk kommunikation
+
+4 &#167; En intagen f&#229;r st&#229; i f&#246;rbindelse med en annan person 
+genom elektronisk kommunikation i den utstr&#228;ckning det 
+l&#228;mpligen kan ske. 
+
+Elektronisk kommunikation f&#229;r v&#228;gras om den kan &#228;ventyra 
+s&#228;kerheten p&#229; ett s&#228;tt som inte kan avhj&#228;lpas genom 
+avlyssning enligt 5 &#167;. Om den intagne har utsett en 
+f&#246;rsvarare som inte uppfyller de krav som st&#228;lls i 21 kap. 
+5 &#167; f&#246;rsta stycket r&#228;tteg&#229;ngsbalken, f&#229;r dock elektronisk 
+kommunikation mellan den intagne och f&#246;rsvararen endast 
+v&#228;gras om det &#228;r n&#246;dv&#228;ndigt f&#246;r att avv&#228;rja fara f&#246;r n&#229;gons 
+liv, fysiska h&#228;lsa eller frihet. 
+
+Elektronisk kommunikation mellan en intagen och hans eller 
+hennes offentliga f&#246;rsvarare f&#229;r inte v&#228;gras. Detsamma g&#228;ller 
+elektronisk kommunikation mellan en intagen och en f&#246;rsvarare 
+som den intagne har utsett om f&#246;rsvararen uppfyller de krav 
+som st&#228;lls i 21 kap. 5 &#167; f&#246;rsta stycket r&#228;tteg&#229;ngsbalken. 
+Lag (2016:931).
+
+5 &#167; Elektronisk kommunikation mellan en intagen och en annan 
+person f&#229;r avlyssnas, om det &#228;r n&#246;dv&#228;ndigt av s&#228;kerhetssk&#228;l. 
+De som ska kommunicera med varandra ska i f&#246;rv&#228;g informeras 
+om kontrollen. 
+
+Elektronisk kommunikation mellan en intagen och hans eller 
+hennes f&#246;rsvarare f&#229;r inte avlyssnas. Lag (2016:931).
+
+F&#246;rs&#228;ndelser
+
+6 &#167; F&#246;rs&#228;ndelser mellan en intagen och hans eller hennes 
+offentliga f&#246;rsvarare, en svensk myndighet eller ett 
+internationellt organ som har av Sverige erk&#228;nd beh&#246;righet 
+att ta emot klagom&#229;l fr&#229;n enskilda ska vidarebefordras utan 
+granskning. Detsamma g&#228;ller f&#246;rs&#228;ndelser mellan en intagen 
+och en f&#246;rsvarare som den intagne har utsett om f&#246;rsvararen 
+uppfyller de krav som st&#228;lls i 21 kap. 5 &#167; f&#246;rsta stycket 
+r&#228;tteg&#229;ngsbalken. En s&#229;dan f&#246;rs&#228;ndelse till en intagen ska 
+dock inte vidarebefordras utan h&#229;llas kvar, om det finns 
+anledning att anta att uppgiften om avs&#228;ndare av f&#246;rs&#228;ndelsen 
+&#228;r oriktig. Lag (2016:931).
+
+7 &#167; Om en intagen har utsett en f&#246;rsvarare som inte uppfyller 
+de krav som st&#228;lls i 21 kap. 5 &#167; f&#246;rsta stycket 
+r&#228;tteg&#229;ngsbalken, ska f&#246;rs&#228;ndelser mellan den intagne och 
+f&#246;rsvararen vidarebefordras s&#229;vida det inte &#228;r n&#246;dv&#228;ndigt att 
+v&#228;gra vidarebefordran f&#246;r att avv&#228;rja fara f&#246;r n&#229;gons liv, 
+fysiska h&#228;lsa eller frihet.
+
+I andra fall &#228;n som avses i f&#246;rsta stycket eller i 6 &#167; f&#229;r en 
+intagen v&#228;gras att s&#228;nda eller ta emot en f&#246;rs&#228;ndelse, om det 
+&#228;r n&#246;dv&#228;ndigt med h&#228;nsyn till ordningen eller s&#228;kerheten.
+
+En f&#246;rs&#228;ndelse som den intagne inte f&#229;r s&#228;nda eller ta emot 
+f&#229;r h&#229;llas kvar. Lag (2016:931).
+
+8 &#167; En f&#246;rs&#228;ndelse som h&#229;lls kvar f&#229;r granskas endast om
+
+1. den intagne har medgett det, eller
+
+2. det i fall som avses i 7 &#167; andra stycket &#228;r absolut 
+n&#246;dv&#228;ndigt av s&#228;kerhetssk&#228;l.
+
+En f&#246;rs&#228;ndelse som avses i 6 &#167; eller 7 &#167; f&#246;rsta stycket f&#229;r 
+endast granskas f&#246;r att utreda vem avs&#228;ndaren &#228;r.
+Lag (2016:931).
+
+9 &#167; En f&#246;rs&#228;ndelse som h&#229;lls kvar ska, om inte s&#228;rskilda sk&#228;l
+talar mot det, l&#228;mnas ut till den intagne s&#229; snart som m&#246;jligt
+och senast n&#228;r han eller hon inte l&#228;ngre ska vara ber&#246;vad
+friheten.
+
+Gemensamma best&#228;mmelser
+
+10 &#167; Den som &#228;r placerad i ett h&#228;kte f&#246;r utredning av
+missk&#246;tsamhet enligt 6 kap. 8 &#167; tredje stycket f&#228;ngelselagen
+(2010:610) f&#229;r hindras fr&#229;n kontakter med andra personer genom
+bes&#246;k, elektronisk kommunikation eller f&#246;rs&#228;ndelser, om det &#228;r
+absolut n&#246;dv&#228;ndigt f&#246;r att syftet med utredningen inte ska
+&#228;ventyras.
+
+11 &#167; Om det beh&#246;vs f&#246;r att kunna bed&#246;ma om bes&#246;k eller
+elektronisk kommunikation kan till&#229;tas enligt 1 &#167; f&#246;rsta
+stycket eller 4 &#167; eller ska kontrolleras enligt 2 eller 5 &#167;,
+ska det i f&#246;rv&#228;g unders&#246;kas om den som kontakten ska &#228;ga rum
+med &#228;r d&#246;md eller misst&#228;nkt f&#246;r brott eller f&#246;r att ut&#246;va
+brottslig verksamhet. I den utstr&#228;ckning det beh&#246;vs ska
+upplysningar ocks&#229; inh&#228;mtas om hans eller hennes personliga
+f&#246;rh&#229;llanden i &#246;vrigt.
+
+4 kap. S&#228;rskilda kontroll- och tv&#229;ngs&#229;tg&#228;rder
+
+Kontroll av bostadsrum
+
+1 &#167; En intagens bostadsrum och hans eller hennes
+tillh&#246;righeter f&#229;r kontrolleras i den utstr&#228;ckning det &#228;r
+n&#246;dv&#228;ndigt f&#246;r att ordningen eller s&#228;kerheten ska kunna
+uppr&#228;tth&#229;llas.
+
+F&#246;rsta stycket g&#228;ller &#228;ven andra slutna f&#246;rvaringsst&#228;llen som
+den intagne disponerar.
+
+Kroppsvisitation och kroppsbesiktning
+
+2 &#167; Den som ska tas in i en f&#246;rvaringslokal ska senast vid
+ankomsten kroppsvisiteras eller kroppsbesiktigas f&#246;r
+efters&#246;kande av otill&#229;tna f&#246;rem&#229;l, om det inte &#228;r uppenbart
+obeh&#246;vligt.
+
+3 &#167; En intagen f&#229;r kroppsvisiteras eller kroppsbesiktigas f&#246;r
+efters&#246;kande av otill&#229;tna f&#246;rem&#229;l om
+
+1. det finns anledning att anta att ett s&#229;dant f&#246;rem&#229;l kommer
+att antr&#228;ffas p&#229; honom eller henne,
+
+2. han eller hon &#229;terkommer efter en vistelse utanf&#246;r
+f&#246;rvaringslokalen,
+
+3. han eller hon ska ha eller har haft ett bes&#246;k utan s&#229;dan
+kontroll som avses i 3 kap. 2 &#167;, eller
+
+4. det sker i en stickprovskontroll eller i anslutning till en
+st&#246;rre unders&#246;kning som av s&#228;kerhetssk&#228;l g&#246;rs av ett utrymme
+inom f&#246;rvaringslokalen och den intagne har eller har haft
+s&#228;rskild anknytning till utrymmet.
+
+4 &#167; En intagen f&#229;r &#228;ven i andra fall &#228;n som avses i 2 och 3 &#167;&#167;
+kroppsvisiteras f&#246;r efters&#246;kande av vapen och andra farliga
+f&#246;rem&#229;l, om det &#228;r n&#246;dv&#228;ndigt av s&#228;kerhetssk&#228;l.
+
+5 &#167; Urin-, utandnings-, saliv-, svett-, blod- eller h&#229;rprov
+f&#229;r, om inte annat motiveras av medicinska eller liknande
+sk&#228;l, tas p&#229; en intagen som sk&#228;ligen kan misst&#228;nkas vara
+p&#229;verkad av alkohol, narkotika, n&#229;got annat berusningsmedel,
+n&#229;got s&#229;dant medel som avses i 1 &#167; lagen (1991:1969) om f&#246;rbud
+mot vissa dopningsmedel eller n&#229;gon s&#229;dan vara som omfattas av
+lagen (1999:42) om f&#246;rbud mot vissa h&#228;lsofarliga varor.
+
+6 &#167; Prov som avses i 5 &#167; f&#229;r ocks&#229; tas n&#228;r en intagen sj&#228;lv
+&#246;nskar det, om det beh&#246;vs f&#246;r att utreda hans eller hennes
+drogkonsumtion inf&#246;r en v&#229;rd- eller behandlingsinsats.
+
+7 &#167; Kroppsvisitation eller kroppsbesiktning f&#229;r inte utf&#246;ras
+eller bevittnas av n&#229;gon av motsatt k&#246;n som inte &#228;r l&#228;kare
+eller legitimerad sjuksk&#246;terska. Detta g&#228;ller dock inte
+
+1. en kroppsvisitation som avses i 4 &#167;,
+
+2. en kroppsvisitation som enbart inneb&#228;r att f&#246;rem&#229;l som en
+person b&#228;r med sig unders&#246;ks,
+
+3. en kroppsvisitation med metalldetektor eller liknande
+teknisk anordning, eller
+
+4. en kroppsbesiktning som enbart inneb&#228;r att andra prov &#228;n
+urinprov tas enligt 5 eller 6 &#167;.
+
+Om det &#228;r n&#246;dv&#228;ndigt f&#229;r en kroppsvisitation eller en
+kroppsbesiktning av en man utf&#246;ras eller bevittnas av en
+kvinna &#228;ven i andra fall &#228;n som avses i f&#246;rsta stycket.
+
+Omh&#228;ndertagande av otill&#229;tna f&#246;rem&#229;l
+
+8 &#167; Alkohol, narkotika, andra berusningsmedel, s&#229;dana medel
+som avses i 1 &#167; lagen (1991:1969) om f&#246;rbud mot vissa
+dopningsmedel eller s&#229;dana varor som omfattas av lagen
+(1999:42) om f&#246;rbud mot vissa h&#228;lsofarliga varor f&#229;r
+omh&#228;ndertas och f&#246;rst&#246;ras
+
+1. om de medf&#246;rs av n&#229;gon som ska tas in i en f&#246;rvaringslokal,
+
+2. om de p&#229;tr&#228;ffas hos en intagen,
+
+3. om de s&#228;nds till en intagen, eller
+
+4. om de p&#229; annat s&#228;tt p&#229;tr&#228;ffas inom en f&#246;rvaringslokal och
+det inte finns n&#229;gon k&#228;nd &#228;gare till dem.
+
+F&#246;rsta stycket g&#228;ller &#228;ven injektionssprutor, kanyler och
+andra f&#246;rem&#229;l som &#228;r s&#228;rskilt &#228;gnade att anv&#228;ndas vid
+narkotikamissbruk eller f&#246;r annan befattning med narkotika.
+
+9 &#167; Ett f&#246;rem&#229;l som p&#229;tr&#228;ffas i en f&#246;rvaringslokal f&#229;r i andra
+fall &#228;n som anges i 8 &#167; och 2 kap. 12 &#167; omh&#228;ndertas, om det
+kan antas att f&#246;rem&#229;let kommer att tas i beslag.
+Omh&#228;ndertagandet ska s&#229; snart som m&#246;jligt anm&#228;las till den som
+f&#229;r besluta om beslag.
+
+F&#228;ngsel
+
+10 &#167; En intagen f&#229;r bel&#228;ggas med f&#228;ngsel
+
+1. vid f&#246;rflyttning inom f&#246;rvaringslokalen och vid transport
+eller annan vistelse utanf&#246;r lokalen, om det &#228;r n&#246;dv&#228;ndigt av
+s&#228;kerhetssk&#228;l, eller
+
+2. om han eller hon upptr&#228;der v&#229;ldsamt och det &#228;r absolut
+n&#246;dv&#228;ndigt med h&#228;nsyn till den intagnes egen eller n&#229;gon
+annans s&#228;kerhet till liv eller h&#228;lsa.
+
+En l&#228;kare ska s&#229; snart som m&#246;jligt unders&#246;ka en intagen som
+belagts med f&#228;ngsel enligt f&#246;rsta stycket 2.
+
+Allm&#228;n inpasseringskontroll
+
+11 &#167; Om det &#228;r n&#246;dv&#228;ndigt f&#246;r att s&#228;kerheten ska kunna
+uppr&#228;tth&#229;llas vid ett h&#228;kte f&#229;r Kriminalv&#229;rden besluta att
+alla personer som passerar in i h&#228;ktet ska kroppsvisiteras
+(allm&#228;n inpasseringskontroll). Syftet med allm&#228;n
+inpasseringskontroll ska vara att s&#246;ka efter otill&#229;tna
+f&#246;rem&#229;l. Skriftliga meddelanden f&#229;r inte granskas.
+
+Ett beslut om allm&#228;n inpasseringskontroll f&#229;r g&#228;lla i h&#246;gst
+tre m&#229;nader.
+
+Kriminalv&#229;rden f&#229;r i enskilda fall medge undantag fr&#229;n allm&#228;n
+inpasseringskontroll, om det finns s&#228;rskilda sk&#228;l.
+
+Kontroll av fordon
+
+12 &#167; Om det &#228;r n&#246;dv&#228;ndigt f&#246;r att s&#228;kerheten ska kunna
+uppr&#228;tth&#229;llas vid ett h&#228;kte, f&#229;r ett fordon i anslutning till
+att det passerar in i eller ut ur h&#228;ktet genoms&#246;kas efter
+otill&#229;tna f&#246;rem&#229;l eller personer som utan till&#229;telse f&#246;rs&#246;ker
+ta sig in i eller ut ur h&#228;ktet. Skriftliga meddelanden f&#229;r
+inte granskas.
+
+5 kap. H&#228;lso- och sjukv&#229;rd
+
+1 &#167; En intagen som beh&#246;ver h&#228;lso- och sjukv&#229;rd ska unders&#246;kas
+av l&#228;kare. L&#228;kare ska ocks&#229; tillkallas om en intagen beg&#228;r det
+och det inte &#228;r uppenbart att en s&#229;dan unders&#246;kning inte
+beh&#246;vs.
+
+En intagen som beh&#246;ver h&#228;lso- och sjukv&#229;rd ska v&#229;rdas enligt
+de anvisningar som ges av l&#228;kare. Om en intagen inte kan
+unders&#246;kas eller behandlas p&#229; ett l&#228;mpligt s&#228;tt i
+f&#246;rvaringslokalen, ska den allm&#228;nna sjukv&#229;rden anlitas. Om det
+beh&#246;vs, ska den intagne f&#246;ras &#246;ver till sjukhus.
+
+Ett tillst&#229;nd till vistelse utanf&#246;r f&#246;rvaringslokalen enligt
+andra stycket ska f&#246;renas med de villkor som beh&#246;vs. Om det &#228;r
+n&#246;dv&#228;ndigt av s&#228;kerhetssk&#228;l, ska den intagne st&#229; under
+bevakning.
+
+2 &#167; Best&#228;mmelser om psykiatrisk tv&#229;ngsv&#229;rd av den som &#228;r
+intagen finns i lagen (1991:1129) om r&#228;ttspsykiatrisk v&#229;rd.
+
+Om en intagen har f&#246;rts &#246;ver till en sjukv&#229;rdsinr&#228;ttning
+eller en unders&#246;kningsenhet som avses i 6 &#167; lagen om
+r&#228;ttspsykiatrisk v&#229;rd, g&#228;ller denna lag endast i fr&#229;ga om
+restriktioner enligt 6 kap. N&#228;r det g&#228;ller en
+unders&#246;kningsenhet inom R&#228;ttsmedicinalverket finns &#228;ven
+best&#228;mmelser i lagen (1991:1137) om r&#228;ttspsykiatrisk
+unders&#246;kning.
+
+Best&#228;mmelserna i 18–24 &#167;&#167; lagen (1991:1128) om psykiatrisk
+tv&#229;ngsv&#229;rd och best&#228;mmelserna i 8 &#167; andra stycket lagen om
+r&#228;ttspsykiatrisk v&#229;rd om befogenhet f&#246;r Kriminalv&#229;rden att
+besluta om s&#228;rskilda restriktioner f&#246;r en viss intagen och i
+8 a &#167; ska till&#228;mpas p&#229; en intagen som f&#246;r frivillig psykiatrisk
+v&#229;rd eller r&#228;ttspsykiatrisk unders&#246;kning har f&#246;rts &#246;ver till en
+sjukv&#229;rdsinr&#228;ttning eller unders&#246;kningsenhet inom h&#228;lso- och
+sjukv&#229;rden. Lag (2014:815).
+
+3 &#167; Om en transport kan befaras skada den intagnes h&#228;lsa, ska
+l&#228;kares medgivande till transporten inh&#228;mtas.
+
+6 kap. Restriktioner f&#246;r intagna som &#228;r misst&#228;nkta f&#246;r brott
+
+1 &#167; En intagen som &#228;r h&#228;ktad, anh&#229;llen eller gripen p&#229; grund
+av misstanke om brott f&#229;r &#229;l&#228;ggas inskr&#228;nkningar i sin r&#228;tt
+till kontakt med omv&#228;rlden (restriktioner), om det finns risk
+f&#246;r att han eller hon undanr&#246;jer bevis eller p&#229; n&#229;got annat
+s&#228;tt f&#246;rsv&#229;rar sakens utredning.
+
+F&#246;r den som &#228;r h&#228;ktad f&#229;r restriktioner enligt f&#246;rsta stycket
+meddelas endast om han eller hon f&#229;r underkastas restriktioner
+enligt 24 kap. 5 a &#167; r&#228;tteg&#229;ngsbalken.
+
+2 &#167; Ett beslut om restriktioner enligt 1 &#167; f&#229;r avse 
+inskr&#228;nkningar i r&#228;tten att
+
+1. placeras tillsammans med andra intagna enligt 2 kap. 1 &#167; 
+andra stycket,
+
+2. vistas i gemensamhet enligt 2 kap. 5 &#167;,
+
+3. f&#246;lja vad som h&#228;nder i omv&#228;rlden enligt 2 kap. 9 &#167;,
+
+4. inneha tidskrifter och tidningar enligt 2 kap. 11 &#167;,
+
+5. ta emot bes&#246;k enligt 3 kap. 1 &#167; f&#246;rsta stycket,
+
+6. st&#229; i f&#246;rbindelse med annan genom elektronisk 
+kommunikation enligt 3 kap. 4 &#167; f&#246;rsta och andra styckena, 
+eller
+
+7. s&#228;nda och ta emot f&#246;rs&#228;ndelser enligt 3 kap. 7 &#167;.
+Lag (2016:931).
+
+3 &#167; En fr&#229;ga om restriktioner pr&#246;vas av unders&#246;kningsledaren
+eller &#229;klagaren. Ett beslut i en s&#229;dan fr&#229;ga ska ompr&#246;vas s&#229;
+ofta det finns anledning till det.
+
+4 &#167; Har upph&#228;vts genom lag (2021:289).
+
+7 kap. Beslut och &#246;verklagande
+
+Beslut
+
+1 &#167; Om inte annat anges fattas beslut enligt denna lag av
+Kriminalv&#229;rden eller, om den intagne &#228;r placerad i en
+f&#246;rvaringslokal som st&#229;r under annan myndighets tillsyn, av
+den myndigheten.
+
+2 &#167; Ett beslut enligt denna lag g&#228;ller omedelbart, om inte
+n&#229;got annat f&#246;rordnas.
+
+&#214;verklagande
+
+3 &#167; Ett beslut som avses i 1 &#167; f&#229;r &#246;verklagas till allm&#228;n
+f&#246;rvaltningsdomstol.
+
+Ett beslut &#246;verklagas till den f&#246;rvaltningsr&#228;tt inom vars
+domkrets den f&#246;rvaringslokal &#228;r bel&#228;gen d&#228;r klaganden var
+intagen n&#228;r det f&#246;rsta beslutet i &#228;rendet fattades.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+4 &#167; Kriminalv&#229;rdens beslut enligt 1 &#167; f&#229;r inte &#246;verklagas
+innan beslutet har ompr&#246;vats av Kriminalv&#229;rden. En s&#229;dan
+ompr&#246;vning f&#229;r beg&#228;ras av den som beslutet ang&#229;r om det har
+g&#229;tt honom eller henne emot. Ett &#246;verklagande av ett beslut
+som inte har ompr&#246;vats ska anses som en beg&#228;ran om ompr&#246;vning.
+
+ Vid ompr&#246;vning enligt f&#246;rsta stycket f&#229;r beslutet inte &#228;ndras
+till den klagandes nackdel.
+
+5 &#167; En beg&#228;ran om ompr&#246;vning ska vara skriftlig och ha kommit
+in till Kriminalv&#229;rden inom tre veckor fr&#229;n den dag d&#229; den
+klagande fick del av beslutet. I beg&#228;ran om ompr&#246;vning ska den
+klagande ange vilket beslut som avses och vilken &#228;ndring i
+beslutet som han eller hon beg&#228;r.
+
+Kriminalv&#229;rden pr&#246;var om skrivelsen med beg&#228;ran om ompr&#246;vning
+har kommit in i r&#228;tt tid. Om skrivelsen har kommit in f&#246;r sent
+ska den      avvisas, om inte f&#246;rseningen beror p&#229; att
+myndigheten l&#228;mnat den klagande felaktig underr&#228;ttelse om hur
+man beg&#228;r ompr&#246;vning.
+
+8 kap. &#214;vriga best&#228;mmelser
+
+Bevakningsf&#246;retag
+
+1 &#167; Kriminalv&#229;rden f&#229;r f&#246;rordna en v&#228;ktare i ett auktoriserat
+bevakningsf&#246;retag att, inom ramen f&#246;r sin anst&#228;llning i
+f&#246;retaget, utf&#246;ra vissa bevakningsuppdrag n&#228;r en intagen ska
+vistas utanf&#246;r en f&#246;rvaringslokal. Om det finns s&#228;rskilda
+sk&#228;l, f&#229;r ett s&#229;dant f&#246;rordnande avse vissa
+bevakningsuppgifter inom en f&#246;rvaringslokal. I f&#246;rordnandet
+ska uppdragets art och omfattning anges. F&#246;rordnandet f&#229;r
+&#229;terkallas.
+
+2 &#167; En v&#228;ktare med ett f&#246;rordnande enligt 1 &#167; f&#229;r inte
+obeh&#246;rigen r&#246;ja eller utnyttja vad han p&#229; grund av sitt
+uppdrag har f&#229;tt veta om en enskilds personliga f&#246;rh&#229;llanden
+eller f&#246;rh&#229;llanden av betydelse f&#246;r rikets s&#228;kerhet eller f&#246;r
+att utreda och lagf&#246;ra brott.
+
+I det allm&#228;nnas verksamhet till&#228;mpas i st&#228;llet offentlighets-
+och sekretesslagen (2009:400).
+
+Hj&#228;lp vid transport
+
+2 a &#167; Om det p&#229; grund av risk f&#246;r fritagning eller av n&#229;gon 
+annan s&#228;rskild anledning beh&#246;vs f&#246;r att en transport ska 
+kunna genomf&#246;ras p&#229; ett betryggande s&#228;tt, f&#229;r Kriminalv&#229;rden 
+beg&#228;ra hj&#228;lp av Polismyndigheten. Lag (2017:125).
+
+Verkst&#228;llighetsf&#246;reskrifter
+
+3 &#167; F&#246;reskrifter om verkst&#228;llighet av lagen meddelas av
+regeringen eller den myndighet som regeringen best&#228;mmer.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2021:289
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2021. 
+
+2. Den upph&#228;vda 6 kap. 4 &#167; g&#228;ller dock fortfarande f&#246;r 
+&#246;verklagande av beslut som har meddelats f&#246;re den 1 juli 2021.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1716">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1718">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

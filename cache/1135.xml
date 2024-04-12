@@ -1,0 +1,736 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-05-10" /> 
+ <meta id="rattsinfo-edited" content="2023-05-10 13:45:54" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1135</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1134">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1136">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2015:109 ·
+                    <a href="/sfsr?bet=2015:109">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2015:109) om erk&#228;nnande och verkst&#228;llighet av frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska unionen</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet BIRS
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2015-02-26
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1874
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2015-04-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om till&#228;mpningen
+av lagen (2015:96) om erk&#228;nnande och verkst&#228;llighet av
+frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska unionen.
+
+2 &#167; De termer och uttryck som anv&#228;nds i denna f&#246;rordning har
+samma betydelse som i lagen (2015:96) om erk&#228;nnande och
+verkst&#228;llighet av frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska
+unionen.
+
+3 &#167; All kommunikation och allt samr&#229;d r&#246;rande
+verkst&#228;lligheten av en svensk eller utl&#228;ndsk dom p&#229;
+frihetsber&#246;vande p&#229;f&#246;ljd i en annan medlemsstat eller i
+Sverige ska ske mellan Kriminalv&#229;rden och den beh&#246;riga
+myndigheten i den andra staten.
+
+Kommunikationen och samr&#229;det f&#229;r ske p&#229; det s&#228;tt som &#228;r
+l&#228;mpligast i det enskilda fallet.
+
+2 kap. Erk&#228;nnande och verkst&#228;llighet av en svensk dom p&#229;
+frihetsber&#246;vande p&#229;f&#246;ljd i en annan medlemsstat inom
+Europeiska unionen
+
+Skyldighet att pr&#246;va om &#246;vers&#228;ndande kan ske
+
+1 &#167; Kriminalv&#229;rden ska s&#229; snart det &#228;r m&#246;jligt pr&#246;va om en dom 
+p&#229; frihetsber&#246;vande p&#229;f&#246;ljd kan bli aktuell att s&#228;nda &#246;ver 
+till en annan medlemsstat f&#246;r att d&#228;r erk&#228;nnas och verkst&#228;llas 
+enligt lagen (2015:96) om erk&#228;nnande och verkst&#228;llighet av 
+frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska unionen.
+F&#246;rordning (2020:387).
+
+Upplysningsskyldighet
+
+1 a &#167; Om det enligt lagen (2015:96) om erk&#228;nnande och
+verkst&#228;llighet av frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska
+unionen finns f&#246;ruts&#228;ttningar f&#246;r att s&#228;nda &#246;ver en dom p&#229;
+frihetsber&#246;vande p&#229;f&#246;ljd till en annan medlemsstat f&#246;r att
+d&#228;r erk&#228;nnas och verkst&#228;llas, ska den d&#246;mde upplysas om detta
+om han eller hon befinner sig i Sverige. Den d&#246;mde ska &#228;ven
+upplysas om inneb&#246;rden av att domen erk&#228;nns och verkst&#228;lls i
+den andra staten.
+
+Ansvaret f&#246;r att upplysa den d&#246;mde har
+
+1. Kriminalv&#229;rden, om p&#229;f&#246;ljden &#228;r f&#228;ngelse,
+
+2. Statens institutionsstyrelse, om p&#229;f&#246;ljden &#228;r sluten
+ungdomsv&#229;rd, och
+
+3. chefs&#246;verl&#228;karen vid den sjukv&#229;rdsinr&#228;ttning d&#228;r den d&#246;mde
+&#228;r inskriven, om p&#229;f&#246;ljden inneb&#228;r &#246;verl&#228;mnande till
+r&#228;ttspsykiatrisk v&#229;rd. F&#246;rordning (2020:387).
+
+Beg&#228;ran att en dom p&#229; frihetsber&#246;vande p&#229;f&#246;ljd ska s&#228;ndas
+&#246;ver
+
+2 &#167; Den d&#246;mde eller en beh&#246;rig myndighet i en annan
+medlemsstat f&#229;r hos Kriminalv&#229;rden beg&#228;ra att en dom p&#229; en
+frihetsber&#246;vande p&#229;f&#246;ljd ska s&#228;ndas &#246;ver till den andra
+staten.
+
+En s&#229;dan beg&#228;ran f&#229;r ocks&#229; g&#246;ras av Statens
+institutionsstyrelse om p&#229;f&#246;ljden &#228;r sluten ungdomsv&#229;rd och
+av chefs&#246;verl&#228;karen vid den sjukv&#229;rdsinr&#228;ttning d&#228;r den d&#246;mde
+&#228;r inskriven om p&#229;f&#246;ljden inneb&#228;r &#246;verl&#228;mnande till
+r&#228;ttspsykiatrisk v&#229;rd. Om den d&#246;mde sj&#228;lv hos Statens
+institutionsstyrelse eller en v&#229;rdinr&#228;ttning beg&#228;r att domen
+s&#228;nds &#246;ver till en annan stat, ska den d&#246;mdes beg&#228;ran
+&#246;verl&#228;mnas till Kriminalv&#229;rden.
+
+Samr&#229;d med andra myndigheter
+
+3 &#167; Vid Kriminalv&#229;rdens pr&#246;vning av om det finns 
+f&#246;ruts&#228;ttningar f&#246;r att s&#228;nda &#246;ver en dom p&#229; frihetsber&#246;vande 
+p&#229;f&#246;ljd till en annan medlemsstat ska myndigheten samr&#229;da med
+
+1. den beh&#246;riga myndigheten i den andra staten, om den statens 
+medgivande beh&#246;vs f&#246;r att domen ska f&#229; s&#228;ndas &#246;ver enligt 2 
+kap. 2 &#167; lagen (2015:96) om erk&#228;nnande och verkst&#228;llighet av 
+frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska unionen,
+
+2. Statens institutionsstyrelse, om p&#229;f&#246;ljden &#228;r sluten 
+ungdomsv&#229;rd, och
+
+3. chefs&#246;verl&#228;karen vid den sjukv&#229;rdsinr&#228;ttning d&#228;r den d&#246;mde 
+&#228;r inskriven, om p&#229;f&#246;ljden inneb&#228;r &#246;verl&#228;mnande till 
+r&#228;ttspsykiatrisk v&#229;rd.
+
+Kriminalv&#229;rden f&#229;r i andra fall &#228;n som avses i f&#246;rsta stycket 
+1 samr&#229;da med den beh&#246;riga myndigheten i den andra staten n&#228;r 
+det &#228;r l&#228;mpligt.
+
+N&#228;r det beh&#246;vs f&#246;r pr&#246;vningen enligt f&#246;rsta stycket f&#229;r 
+Kriminalv&#229;rden inh&#228;mta upplysningar fr&#229;n Migrationsverket, 
+Skatteverket, Polismyndigheten och andra myndigheter &#228;n de som 
+anges i f&#246;rsta stycket.
+
+Statens institutionsstyrelse, chefs&#246;verl&#228;karen, 
+Migrationsverket, Skatteverket och Polismyndigheten ska l&#228;mna 
+de uppgifter som beh&#246;vs f&#246;r Kriminalv&#229;rdens pr&#246;vning.
+F&#246;rordning (2022:1874).
+
+Den d&#246;mdes inst&#228;llning
+
+4 &#167; Den d&#246;mde kan redog&#246;ra f&#246;r sin inst&#228;llning till att en
+dom p&#229; frihetsber&#246;vande p&#229;f&#246;ljd s&#228;nds &#246;ver till en annan
+medlemsstat. Redog&#246;relsen l&#228;mnas i s&#229; fall till
+
+1. Kriminalv&#229;rden,
+
+2. Statens institutionsstyrelse, om p&#229;f&#246;ljden &#228;r sluten
+ungdomsv&#229;rd, eller
+
+3. chefs&#246;verl&#228;karen vid den sjukv&#229;rdsinr&#228;ttning d&#228;r den d&#246;mde
+&#228;r inskriven, om p&#229;f&#246;ljden inneb&#228;r &#246;verl&#228;mnande till
+r&#228;ttspsykiatrisk v&#229;rd.
+
+Den d&#246;mdes inst&#228;llning till att en dom s&#228;nds &#246;ver ska
+dokumenteras p&#229; ett l&#228;mpligt s&#228;tt. Den som anges i f&#246;rsta
+stycket 2 eller 3 ska skicka dokumentationen till
+Kriminalv&#229;rden.
+
+5 &#167; Om den d&#246;mde samtycker till att en dom s&#228;nds &#246;ver, ska
+den som tar emot samtycket f&#246;rvissa sig om att den d&#246;mde har
+l&#228;mnat samtycket med full vetskap om dess inneb&#246;rd.
+
+En &#229;terkallelse av ett samtycke kan l&#228;mnas till
+Kriminalv&#229;rden eller den som anges i 4 &#167; f&#246;rsta stycket 2
+eller 3.
+
+Tv&#229;ngsmedel
+
+6 &#167; Om en beg&#228;ran enligt 2 kap. 7 &#167; lagen (2015:96) om
+erk&#228;nnande och verkst&#228;llighet av frihetsber&#246;vande p&#229;f&#246;ljder
+inom Europeiska unionen g&#246;rs innan en dom s&#228;nds &#246;ver till den
+andra medlemsstaten, b&#246;r en s&#229;dan beg&#228;ran inneh&#229;lla de
+uppgifter som framg&#229;r av det intyg som utg&#246;r bilaga I till
+r&#229;dets rambeslut 2008/909/RIF av den 27 november 2008 om
+till&#228;mpning av principen om &#246;msesidigt erk&#228;nnande p&#229;
+brottm&#229;lsdomar avseende f&#228;ngelse eller andra frihetsber&#246;vande
+&#229;tg&#228;rder i syfte att verkst&#228;lla dessa inom Europeiska
+unionen. I beg&#228;ran ska ocks&#229; sk&#228;len f&#246;r &#229;tg&#228;rden anges.
+
+Underr&#228;ttelse till den d&#246;mde
+
+7 &#167; Kriminalv&#229;rden ska underr&#228;tta den d&#246;mde om sitt beslut i
+fr&#229;ga om att s&#228;nda &#246;ver en dom p&#229; frihetsber&#246;vande p&#229;f&#246;ljd
+till en annan medlemsstat f&#246;r att d&#228;r erk&#228;nnas och
+verkst&#228;llas. Om den d&#246;mde befinner sig i den andra staten,
+f&#229;r Kriminalv&#229;rden i st&#228;llet underr&#228;tta den beh&#246;riga
+myndigheten i den staten.
+
+En underr&#228;ttelse enligt f&#246;rsta stycket ska uppr&#228;ttas i
+enlighet med bilaga II till r&#229;dets rambeslut 2008/909/RIF.
+
+Om det beh&#246;vs ska Kriminalv&#229;rden &#246;vers&#228;tta underr&#228;ttelsen
+till ett spr&#229;k som den d&#246;mde f&#246;rst&#229;r.
+
+&#214;vers&#228;ndande av domen
+
+8 &#167; En dom p&#229; frihetsber&#246;vande p&#229;f&#246;ljd ska s&#228;ndas &#246;ver 
+skriftligen till den beh&#246;riga myndigheten i den andra 
+medlemsstaten.
+
+Domen ska &#229;tf&#246;ljas av ett intyg som &#228;r uppr&#228;ttat i enlighet 
+med bilaga I till r&#229;dets rambeslut 2008/909/RIF och den 
+dokumentation som uppr&#228;ttats enligt 4 &#167; andra stycket.
+
+Intyget och den dokumentation som avses i 4 &#167; andra stycket 
+ska skrivas p&#229; eller &#246;vers&#228;ttas till den andra medlemsstatens 
+officiella spr&#229;k eller ett annat spr&#229;k som den staten godtar.
+F&#246;rordning (2022:1874).
+
+9 &#167; Domen, intyget och &#246;vrig dokumentation ska s&#228;ndas &#246;ver
+genom post eller bud. Kriminalv&#229;rden f&#229;r dock efter
+&#246;verenskommelse med den beh&#246;riga myndigheten i den andra
+medlemsstaten s&#228;nda &#246;ver dessa handlingar genom telefax eller
+elektronisk post eller p&#229; annat s&#228;tt.
+
+10 &#167; Har upph&#228;vts genom f&#246;rordning (2020:387).
+
+&#214;vers&#228;ttning av domen
+
+11 &#167; Om den beh&#246;riga myndigheten i den andra medlemsstaten,
+efter det att domen har s&#228;nts &#246;ver enligt 10 &#167;, beg&#228;r att
+hela domen eller v&#228;sentliga delar av domen &#246;vers&#228;tts till den
+statens officiella spr&#229;k eller ett annat spr&#229;k som den staten
+godtar, ska Kriminalv&#229;rden, efter samr&#229;d med den andra
+statens beh&#246;riga myndighet, ansvara f&#246;r att en s&#229;dan
+&#246;vers&#228;ttning g&#246;rs.
+
+Underr&#228;ttelser till den andra medlemsstaten
+
+12 &#167; Kriminalv&#229;rden ska genast underr&#228;tta den beh&#246;riga
+myndigheten i den andra medlemsstaten om ett beslut enligt 2
+kap. 8 eller 9 &#167;&#167; lagen (2015:96) om erk&#228;nnande och
+verkst&#228;llighet av frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska
+unionen. Om ett beslut enligt 2 kap. 8 &#167; den lagen inte har
+f&#229;tt laga kraft, ska detta anges.
+
+Delvis erk&#228;nnande och verkst&#228;llighet
+
+13 &#167; Kriminalv&#229;rden ska samr&#229;da med den beh&#246;riga myndigheten 
+i den andra medlemsstaten innan en dom &#246;verl&#228;mnas till 
+&#229;klagare f&#246;r anm&#228;lan enligt 34 kap. 8 &#167; brottsbalken.
+F&#246;rordning (2016:499).
+
+&#214;verf&#246;rande och transport av den d&#246;mde
+
+14 &#167; Kriminalv&#229;rden ska samr&#229;da med den beh&#246;riga myndigheten
+i den andra medlemsstaten i fr&#229;gor som r&#246;r &#246;verf&#246;rande och
+transport av den d&#246;mde.
+
+Om det beh&#246;vs f&#246;r att transportera den d&#246;mde till en
+medlemsstat, f&#229;r Kriminalv&#229;rden beg&#228;ra tillst&#229;nd till
+transport genom en annan medlemsstat. En s&#229;dan beg&#228;ran ska
+g&#246;ras skriftligen och &#229;tf&#246;ljas av ett intyg som &#228;r uppr&#228;ttat
+i enlighet med bilaga I till r&#229;dets rambeslut 2008/909/RIF.
+
+Om den stat som enligt andra stycket har tagit emot
+framst&#228;llningen beg&#228;r det, ska intyget &#246;vers&#228;ttas till den
+statens spr&#229;k eller ett annat spr&#229;k som den staten godtar.
+
+Framst&#228;llning om undantag fr&#229;n specialitetsprincipen
+
+15 &#167; Om en beh&#246;rig myndighet i en annan medlemsstat hos
+Kriminalv&#229;rden har gjort en framst&#228;llning enligt 2 kap. 13 &#167;
+lagen (2015:96) om erk&#228;nnande och verkst&#228;llighet av
+frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska unionen, ska
+framst&#228;llningen genast vidarebefordras till
+&#197;klagarmyndigheten.
+
+3 kap. Erk&#228;nnande och verkst&#228;llighet av en utl&#228;ndsk dom p&#229;
+frihetsber&#246;vande p&#229;f&#246;ljd
+
+Beg&#228;ran att en dom p&#229; frihetsber&#246;vande p&#229;f&#246;ljd ska s&#228;ndas
+&#246;ver
+
+1 &#167; Kriminalv&#229;rden f&#229;r beg&#228;ra att en dom p&#229; frihetsber&#246;vande
+p&#229;f&#246;ljd s&#228;nds &#246;ver fr&#229;n en annan medlemsstat till Sverige f&#246;r
+att erk&#228;nnas och verkst&#228;llas h&#228;r.
+
+Den d&#246;mde f&#229;r hos Kriminalv&#229;rden ans&#246;ka om att en beg&#228;ran
+enligt f&#246;rsta stycket g&#246;rs. Kriminalv&#229;rden ska underr&#228;tta den
+beh&#246;riga myndigheten i den andra staten, om den d&#246;mde har
+gjort en s&#229;dan ans&#246;kan.
+
+Mottagande av en utl&#228;ndsk dom
+
+2 &#167; Om en utl&#228;ndsk dom har s&#228;nts till en annan myndighet &#228;n
+Kriminalv&#229;rden, ska den myndigheten genast vidarebefordra
+domen och &#246;vriga handlingar i &#228;rendet till Kriminalv&#229;rden.
+Kriminalv&#229;rden ska underr&#228;tta den beh&#246;riga myndigheten i den
+andra medlemsstaten om detta.
+
+Den d&#246;mdes inst&#228;llning
+
+3 &#167; Om den d&#246;mde befinner sig i Sverige n&#228;r en utl&#228;ndsk dom
+s&#228;nds &#246;ver f&#246;r att erk&#228;nnas och verkst&#228;llas h&#228;r, f&#229;r
+Kriminalv&#229;rden bist&#229; den andra medlemsstaten med att inh&#228;mta
+den d&#246;mdes inst&#228;llning till att domen s&#228;nds &#246;ver.
+
+&#214;vers&#228;ttning av en utl&#228;ndsk dom
+
+4 &#167; Kriminalv&#229;rden f&#229;r, efter samr&#229;d med den beh&#246;riga
+myndigheten i den andra medlemsstaten, beg&#228;ra att den
+utl&#228;ndska domen &#246;vers&#228;tts helt eller delvis till svenska,
+danska, norska eller engelska om det beh&#246;vs f&#246;r att
+myndigheten ska kunna pr&#246;va om domen ska erk&#228;nnas och
+verkst&#228;llas h&#228;r.
+
+Samr&#229;d med den beh&#246;riga myndigheten i den andra
+medlemsstaten
+
+5 &#167; Kriminalv&#229;rden ska samr&#229;da med den beh&#246;riga myndigheten i 
+den andra medlemsstaten om det kan antas att det saknas 
+f&#246;ruts&#228;ttningar f&#246;r att erk&#228;nna och verkst&#228;lla en utl&#228;ndsk dom 
+enligt 3 kap. 2 eller 3 &#167; eller 4 &#167; 3, 4, 7 eller 8 lagen 
+(2015:96) om erk&#228;nnande och verkst&#228;llighet av frihetsber&#246;vande 
+p&#229;f&#246;ljder inom Europeiska unionen.
+
+Kriminalv&#229;rden f&#229;r dessutom samr&#229;da med den beh&#246;riga 
+myndigheten i den andra staten innan en beg&#228;ran enligt 1 &#167; 
+g&#246;rs och &#228;ven i andra fall n&#228;r det &#228;r l&#228;mpligt.
+
+Kriminalv&#229;rden f&#229;r i de fall som avses i artikel 4.4 r&#229;dets 
+rambeslut 2008/909/RIF l&#228;mna ett yttrande till den beh&#246;riga 
+myndigheten i den andra staten. F&#246;rordning (2022:1874).
+
+6 &#167; Kriminalv&#229;rden ska samr&#229;da med den beh&#246;riga myndigheten i
+den andra medlemsstaten i fr&#229;gor som r&#246;r &#246;verf&#246;rande och
+transport av den d&#246;mde.
+
+Samr&#229;d med andra myndigheter i Sverige
+
+7 &#167; Kriminalv&#229;rden ska vid pr&#246;vningen av om det finns
+f&#246;ruts&#228;ttningar f&#246;r att erk&#228;nna och verkst&#228;lla en utl&#228;ndsk
+dom samr&#229;da med
+
+1. Statens institutionsstyrelse, om en utl&#228;ndsk p&#229;f&#246;ljd kan
+komma att verkst&#228;llas som sluten ungdomsv&#229;rd, och
+
+2. Socialstyrelsen, om en utl&#228;ndsk p&#229;f&#246;ljd kan komma att
+verkst&#228;llas som &#246;verl&#228;mnande till r&#228;ttspsykiatrisk v&#229;rd.
+
+Statens institutionsstyrelse och Socialstyrelsen ska l&#228;mna de
+uppgifter som beh&#246;vs f&#246;r Kriminalv&#229;rdens pr&#246;vning av om det
+finns f&#246;ruts&#228;ttningar f&#246;r att erk&#228;nna och verkst&#228;lla en
+dom.
+
+8 &#167; N&#228;r det beh&#246;vs f&#246;r pr&#246;vningen av om det finns
+f&#246;ruts&#228;ttningar f&#246;r att erk&#228;nna och verkst&#228;lla en utl&#228;ndsk
+dom, f&#229;r Kriminalv&#229;rden inh&#228;mta upplysningar fr&#229;n
+Migrationsverket, Skatteverket, Polismyndigheten eller andra
+myndigheter.
+
+Migrationsverket, Skatteverket och Polismyndigheten ska l&#228;mna
+de uppgifter som beh&#246;vs f&#246;r Kriminalv&#229;rdens pr&#246;vning av om
+det finns f&#246;ruts&#228;ttningar f&#246;r att erk&#228;nna och verkst&#228;lla en
+dom.
+
+9 &#167; Om en utl&#228;ndsk dom r&#246;r en g&#228;rning p&#229;
+tryckfrihetsf&#246;rordningens eller yttrandefrihetsgrundlagens
+omr&#229;den, ska Kriminalv&#229;rden samr&#229;da med och vid behov inh&#228;mta
+yttrande fr&#229;n Justitiekanslern.
+
+Underr&#228;ttelser till den andra medlemsstaten
+
+10 &#167; Kriminalv&#229;rden ska omedelbart underr&#228;tta den beh&#246;riga
+myndigheten i den andra medlemsstaten, om ett beslut i fr&#229;ga
+om erk&#228;nnande och verkst&#228;llighet inte kan fattas inom nittio
+dagar efter det att myndigheten har tagit emot domen.
+Kriminalv&#229;rden ska ange orsaken till f&#246;rseningen och den tid
+som uppskattningsvis beh&#246;vs f&#246;r ett beslut.
+
+11 &#167; Kriminalv&#229;rden ska underr&#228;tta den beh&#246;riga myndigheten i
+den andra medlemsstaten om
+
+1. beslut att medge att en dom s&#228;nds &#246;ver till Sverige,
+
+2. till&#228;mpliga best&#228;mmelser om villkorlig frigivning, om
+detta efterfr&#229;gas av den andra staten,
+
+3. ett beslut att v&#228;gra erk&#228;nnande och verkst&#228;llighet,
+
+4. ett beslut om verkst&#228;llbarhetsf&#246;rklaring samt datumet f&#246;r
+beslutet, och
+
+5. en dom i fr&#229;ga om best&#228;mmande av ny p&#229;f&#246;ljd.
+
+Kriminalv&#229;rden ska ocks&#229; underr&#228;tta den beh&#246;riga myndigheten
+i den andra staten om
+
+1. den d&#246;mde inte kan p&#229;tr&#228;ffas p&#229; svenskt territorium,
+
+2. verkst&#228;lligheten i Sverige upph&#246;r,
+
+3. den d&#246;mde har avvikit fr&#229;n verkst&#228;lligheten, och
+
+4. den d&#246;mde har blivit frigiven fr&#229;n den frihetsber&#246;vande
+p&#229;f&#246;ljden.
+
+Om p&#229;f&#246;ljden &#228;r sluten ungdomsv&#229;rd eller inneb&#228;r &#246;verl&#228;mnande
+till r&#228;ttspsykiatrisk v&#229;rd, ska Statens institutionsstyrelse
+eller chefs&#246;verl&#228;karen vid den sjukv&#229;rdsinr&#228;ttning d&#228;r den
+d&#246;mde &#228;r inskriven underr&#228;tta Kriminalv&#229;rden om
+omst&#228;ndigheter som anges i andra stycket 2–4.
+
+Tv&#229;ngsmedel
+
+12 &#167; En beg&#228;ran om anv&#228;ndande av tv&#229;ngsmedel mot en d&#246;md
+person som kommer in till Kriminalv&#229;rden fr&#229;n en annan
+medlemsstat ska genast &#246;verl&#228;mnas till &#197;klagarmyndigheten.
+
+13 &#167; N&#228;r Kriminalv&#229;rden har beslutat att &#246;verl&#228;mna &#229;t
+&#197;klagarmyndigheten att ans&#246;ka hos tingsr&#228;tten om best&#228;mmande
+av en ny p&#229;f&#246;ljd enligt 3 kap. 12 &#167; f&#246;rsta stycket 2 lagen
+(2015:96) om erk&#228;nnande och verkst&#228;llighet av
+frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska unionen, ska
+&#197;klagarmyndigheten genast underr&#228;ttas om detta.
+
+14 &#167; &#197;klagarmyndigheten ska underr&#228;tta Kriminalv&#229;rden om de
+&#229;tg&#228;rder som vidtas i fr&#229;ga om tv&#229;ngsmedel. Kriminalv&#229;rden
+ska i sin tur underr&#228;tta den beh&#246;riga myndigheten i den andra
+medlemsstaten om &#229;tg&#228;rderna och om att ett beslut om
+tv&#229;ngsmedel h&#228;vs om inte den utl&#228;ndska domen har tagits emot
+inom fyrtio dagar fr&#229;n det att beslutet meddelades.
+
+15 &#167; Kriminalv&#229;rden ska genast underr&#228;tta &#197;klagarmyndigheten
+och domstolen n&#228;r den utl&#228;ndska domen har tagits emot enligt
+3 kap. 6 &#167; lagen (2015:96) om erk&#228;nnande och verkst&#228;llighet
+av frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska unionen.
+
+Framst&#228;llning om undantag fr&#229;n specialitetsprincipen
+
+16 &#167; En framst&#228;llning om tillst&#229;nd till en s&#229;dan &#229;tg&#228;rd som
+avses i 3 kap. 4 &#167; 9 eller 24 &#167; lagen (2015:96) om erk&#228;nnande
+och verkst&#228;llighet av frihetsber&#246;vande p&#229;f&#246;ljder inom
+Europeiska unionen g&#246;rs av Kriminalv&#229;rden hos den beh&#246;riga
+myndigheten i den andra medlemsstaten.
+
+Innan en s&#229;dan framst&#228;llning g&#246;rs, ska Kriminalv&#229;rden samr&#229;da
+med &#197;klagarmyndigheten eller Polismyndigheten. Dessa
+myndigheter ska l&#228;mna de uppgifter som beh&#246;vs f&#246;r
+Kriminalv&#229;rdens pr&#246;vning.
+
+Framst&#228;llningen ska inneh&#229;lla de uppgifter som avses i 17 &#167;
+andra stycket f&#246;rordningen (2003:1178) om &#246;verl&#228;mnande till
+Sverige enligt en europeisk arresteringsorder.
+
+Avst&#229;ende fr&#229;n skyddet enligt specialitetsprincipen
+
+17 &#167; Om den d&#246;mde avser att avst&#229; fr&#229;n det skydd som framg&#229;r
+av 3 kap. 24 &#167; f&#246;rsta stycket lagen (2015:96) om erk&#228;nnande
+och verkst&#228;llighet av frihetsber&#246;vande p&#229;f&#246;ljder inom
+Europeiska unionen, ska en f&#246;rklaring om detta l&#228;mnas till
+&#197;klagarmyndigheten.
+
+F&#246;rklaringen ska antecknas p&#229; ett formul&#228;r som fastst&#228;lls av
+&#197;klagarmyndigheten. Formul&#228;ret ska vid behov &#246;vers&#228;ttas till
+ett spr&#229;k som den d&#246;mde f&#246;rst&#229;r. Om ett annat spr&#229;k anv&#228;nds,
+ska det antecknas vilka &#229;tg&#228;rder som har vidtagits f&#246;r att
+kontrollera att den som har &#246;verf&#246;rts har f&#246;rst&#229;tt inneb&#246;rden
+av att avst&#229; fr&#229;n skyddet.
+
+Underr&#228;ttelser till Kriminalv&#229;rden vid best&#228;mmande av ny
+p&#229;f&#246;ljd
+
+18 &#167; Om domstolen best&#228;mmer en ny p&#229;f&#246;ljd enligt 3 kap. 14 &#167;
+lagen (2015:96) om erk&#228;nnande och verkst&#228;llighet av
+frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska unionen, ska
+domstolen skicka en kopia av domen till Kriminalv&#229;rden.
+
+Underr&#228;ttelser till den andra medlemsstaten vid &#246;vers&#228;ndande
+av en dom till f&#246;ljd av en arresteringsorder
+
+19 &#167; Om verkst&#228;lligheten av en frihetsber&#246;vande p&#229;f&#246;ljd ska
+&#246;verf&#246;ras till Sverige till f&#246;ljd av ett beslut enligt 7 kap.
+1 &#167; lagen (2003:1156) om &#246;verl&#228;mnande fr&#229;n Sverige enligt en
+europeisk arresteringsorder eller 6 kap. 1 &#167; lagen
+(2011:1165) om &#246;verl&#228;mnande fr&#229;n Sverige enligt en nordisk
+arresteringsorder, ska Kriminalv&#229;rden underr&#228;tta den andra
+staten om vilka best&#228;mmelser som ska till&#228;mpas vid
+&#246;verf&#246;randet.
+
+4 kap. &#214;vriga best&#228;mmelser
+
+1 &#167; Om den d&#246;mde har barn i Sverige, ska Kriminalv&#229;rden
+samr&#229;da med och inh&#228;mta yttrande fr&#229;n socialn&#228;mnden.
+
+Socialn&#228;mnden ska till Kriminalv&#229;rden l&#228;mna upplysningar om
+barnets tidigare kontakt med den d&#246;mde, barnets fortsatta
+behov av kontakt och hur kontakten skulle p&#229;verkas av att en
+frihetsber&#246;vande p&#229;f&#246;ljd verkst&#228;lls i Sverige eller en annan
+medlemsstat.
+
+2 &#167; En beg&#228;ran om tillst&#229;nd till transport genom Sverige
+enligt 4 kap. 6 &#167; lagen (2015:96) om erk&#228;nnande och
+verkst&#228;llighet av frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska
+unionen ska g&#246;ras skriftligen och &#229;tf&#246;ljas av ett intyg som
+&#228;r uppr&#228;ttat i enlighet med bilaga I till r&#229;dets rambeslut
+2008/909/RIF. Polismyndigheten f&#229;r beg&#228;ra att intyget
+&#246;vers&#228;tts till svenska, danska, norska eller engelska.
+
+Polismyndigheten ska informera den stat som har beg&#228;rt
+tillst&#229;nd enligt f&#246;rsta stycket om den d&#246;mde &#228;r misst&#228;nkt f&#246;r
+brott i Sverige eller har d&#246;mts till en p&#229;f&#246;ljd som &#228;nnu inte
+har avtj&#228;nats h&#228;r.
+
+3 &#167; Kriminalv&#229;rden f&#229;r meddela ytterligare f&#246;reskrifter om
+till&#228;mpningen av lagen (2015:96) om erk&#228;nnande och
+verkst&#228;llighet av frihetsber&#246;vande p&#229;f&#246;ljder inom Europeiska
+unionen och denna f&#246;rordning.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2022:1874
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 februari 2023.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r beslut om att 
+s&#228;nda &#246;ver en dom till en annan medlemsstat som har meddelats 
+av Kriminalv&#229;rden f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1134">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1136">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

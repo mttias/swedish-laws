@@ -1,0 +1,822 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2018-07-12" /> 
+ <meta id="rattsinfo-edited" content="2018-12-11" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>715</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=714">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=716">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2018:1202 ·
+                    <a href="/sfsr?bet=2018:1202">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Brottsdataf&#246;rordning (2018:1202)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L4
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2018-06-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2018-08-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+1 &#167; I denna f&#246;rordning finns kompletterande f&#246;reskrifter 
+om s&#229;dan behandling av personuppgifter som omfattas av 
+brottsdatalagen (2018:1177).
+
+2 &#167; Uttryck som anv&#228;nds i denna f&#246;rordning har samma 
+inneb&#246;rd och till&#228;mpningsomr&#229;de som i brottsdatalagen 
+(2018:1177).
+
+2 kap. Behandling av personuppgifter
+
+1 &#167; Om det visar sig att s&#229;dana personuppgifter som anges 
+i 2 kap. 15 &#167; f&#246;rsta stycket eller 16 &#167; f&#246;rsta stycket 
+brottsdatalagen (2018:1177) har l&#228;mnats ut, ska mottagaren 
+omedelbart underr&#228;ttas om det. Om s&#229;dana personuppgifter har 
+gjorts tillg&#228;ngliga ska, s&#229; l&#229;ngt det &#228;r m&#246;jligt, &#228;ven den 
+som har tagit del av personuppgifterna omedelbart 
+underr&#228;ttas.
+
+2 &#167; Den personuppgiftsansvarige ska se till att det finns 
+rutiner f&#246;r
+
+1. att s&#228;kerst&#228;lla att de som behandlar personuppgifter 
+respekterar tidsfristerna f&#246;r n&#228;r personuppgifter inte l&#228;ngre 
+f&#229;r behandlas, och
+
+2. &#229;rlig &#246;versyn av behovet av att lagra personuppgifter.
+
+3 &#167; Den som l&#228;mnar ut personuppgifter ska underr&#228;tta 
+mottagaren om s&#229;dana s&#228;rskilda villkor f&#246;r behandlingen som 
+har st&#228;llts upp med st&#246;d av en bindande EU-r&#228;ttsakt, en lag 
+eller en f&#246;rordning.
+
+3 kap. Personuppgiftsansvarigas skyldigheter
+
+Tekniska och organisatoriska &#229;tg&#228;rder
+
+1 &#167; De tekniska och organisatoriska &#229;tg&#228;rder som den 
+personuppgiftsansvarige ska vidta enligt 3 kap. 2 och 3 &#167;&#167; 
+brottsdatalagen (2018:1177) ska vara rimliga med h&#228;nsyn till 
+behandlingens art, omfattning, sammanhang och &#228;ndam&#229;l och de 
+s&#228;rskilda riskerna med behandlingen. N&#228;r den 
+personuppgiftsansvarige vidtar &#229;tg&#228;rder enligt 3 kap. 3 &#167; 
+samma lag ska &#228;ven de tekniska m&#246;jligheterna och kostnaderna 
+f&#246;r &#229;tg&#228;rderna beaktas.
+
+Dokumentationsskyldighet
+
+Interna strategier
+
+2 &#167; De tekniska och organisatoriska &#229;tg&#228;rder som avses i 
+3 kap. 2 &#167; brottsdatalagen (2018:1177) ska innefatta antagande 
+och dokumentation av interna strategier f&#246;r dataskydd, om det 
+inte &#228;r uppenbart obeh&#246;vligt med h&#228;nsyn till verksamhetens 
+begr&#228;nsade omfattning.
+
+F&#246;rteckning &#246;ver behandlingar
+
+3 &#167; Den personuppgiftsansvarige ska f&#246;ra en f&#246;rteckning 
+&#246;ver de kategorier av behandlingar av personuppgifter som 
+denne ansvarar f&#246;r. F&#246;rteckningen ska inneh&#229;lla namnet p&#229; och 
+kontaktuppgifter till den personuppgiftsansvarige, gemensamt 
+personuppgiftsansvariga och dataskyddsombud. F&#246;rteckningen 
+ska dessutom, f&#246;r varje kategori av behandling, inneh&#229;lla 
+f&#246;ljande uppgifter:
+
+1. den r&#228;ttsliga grunden f&#246;r behandlingen,
+
+2. &#228;ndam&#229;len med behandlingen,
+
+3. de kategorier av tj&#228;nstem&#228;n som har tillg&#229;ng till de 
+personuppgifter som behandlas,
+
+4. de kategorier av mottagare som uppgifterna kan komma att 
+l&#228;mnas ut till, &#228;ven i tredjeland eller internationella 
+organisationer,
+
+5. de kategorier av registrerade som ber&#246;rs av 
+behandlingen,
+6. de kategorier av personuppgifter som kan 
+komma att behandlas,
+
+7. samlingar av &#246;verf&#246;ringar av personuppgifter till 
+tredjeland eller internationella organisationer,
+
+8. anv&#228;ndning av profilering,
+
+9. om det &#228;r m&#246;jligt, tidsfrister f&#246;r hur l&#228;nge kategorierna 
+av personuppgifter f&#229;r behandlas, och
+
+10. om det &#228;r m&#246;jligt, en allm&#228;n beskrivning av vilka 
+s&#228;kerhets&#229;tg&#228;rder som har vidtagits.
+
+Loggning
+
+4 &#167; Skyldigheten att f&#246;ra loggar i automatiserade 
+behandlingssystem enligt 3 kap. 5 &#167; brottsdatalagen 
+(2018:1177) ska omfatta behandlingar som inneb&#228;r insamling, 
+&#228;ndring, l&#228;sning, utl&#228;mning, &#246;verf&#246;ring till tredjeland eller 
+internationella organisationer, sammanf&#246;ring och radering av 
+personuppgifter. Loggarna &#246;ver l&#228;sning och utl&#228;mning ska visa 
+datum och tidpunkt f&#246;r behandlingen och, s&#229; l&#229;ngt det &#228;r 
+m&#246;jligt, vem som har l&#228;st eller l&#228;mnat ut personuppgifterna 
+och vem som har f&#229;tt ta del av personuppgifterna.
+
+Tillg&#229;ngen till personuppgifter
+
+5 &#167; Vid tilldelning av beh&#246;righet f&#246;r &#229;tkomst till 
+personuppgifter ska, ut&#246;ver behovet av uppgifterna, 
+utbildning och erfarenhet s&#228;rskilt beaktas.
+
+
+6 &#167; I en beh&#246;rig myndighet ska det finnas rutiner f&#246;r 
+tilldelning, f&#246;r&#228;ndring, borttagning och regelbunden 
+uppf&#246;ljning av beh&#246;righeter f&#246;r &#229;tkomst till 
+personuppgifter.
+
+7 &#167; Tillg&#229;ngen till uppgifter om tidigare brottsmisstankar 
+ska s&#228;rskilt begr&#228;nsas.
+
+Konsekvensbed&#246;mning och f&#246;rhandssamr&#229;d
+
+8 &#167; Konsekvensbed&#246;mningar som avses i 3 kap. 7 &#167; f&#246;rsta 
+stycket brottsdatalagen (2018:1177) ska dokumenteras och 
+inneh&#229;lla f&#246;ljande uppgifter:
+
+1. en allm&#228;n beskrivning av den planerade behandlingen,
+
+2. en bed&#246;mning av riskerna f&#246;r intr&#229;ng i registrerades 
+personliga integritet,
+
+3. vilka &#229;tg&#228;rder som planeras f&#246;r att hantera riskerna,
+
+4. &#229;tg&#228;rder och rutiner f&#246;r att s&#228;kerst&#228;lla skyddet av 
+personuppgifterna, och
+
+5. rutiner f&#246;r att visa att till&#228;mpliga dataskyddsregler 
+f&#246;ljs.
+
+9 &#167; Vid f&#246;rhandssamr&#229;d enligt 3 kap. 7 &#167; andra stycket 
+brottsdatalagen (2018:1177) ska den personuppgiftsansvarige 
+l&#228;mna in konsekvensbed&#246;mningen till tillsynsmyndigheten och 
+tillhandah&#229;lla den &#246;vriga information som beg&#228;rs av 
+myndigheten.
+
+Vid bed&#246;mningen av om typen av behandling inneb&#228;r en s&#229;dan 
+risk f&#246;r intr&#229;ng i registrerades personliga integritet att 
+f&#246;rhandssamr&#229;d ska &#228;ga rum ska ny teknik, nya rutiner eller 
+nya f&#246;rfaranden s&#228;rskilt beaktas.
+
+Anm&#228;lan av &#246;vertr&#228;delser
+
+10 &#167; Den personuppgiftsansvarige ska ha interna rutiner 
+f&#246;r anm&#228;lan av &#246;vertr&#228;delser av best&#228;mmelser om 
+personuppgiftsbehandling som garanterar att anm&#228;larens 
+identitet skyddas.
+
+S&#228;kerheten vid behandling av personuppgifter
+
+S&#228;kerhets&#229;tg&#228;rder
+
+11 &#167; S&#228;kerhets&#229;tg&#228;rder enligt 3 kap. 8 &#167; brottsdatalagen 
+(2018:1177) ska &#229;stadkomma en skyddsniv&#229; som &#228;r l&#228;mplig med 
+h&#228;nsyn till
+
+1. de tekniska m&#246;jligheterna,
+
+2. kostnaderna f&#246;r &#229;tg&#228;rderna,
+
+3. behandlingens art, omfattning, sammanhang och &#228;ndam&#229;l,
+
+4. de s&#228;rskilda riskerna med behandlingen,
+
+5. om k&#228;nsliga personuppgifter behandlas, och
+
+6. hur integritetsk&#228;nsliga &#246;vriga personuppgifter som 
+behandlas &#228;r.
+
+Personuppgiftsincidenter
+
+12 &#167; En anm&#228;lan enligt 3 kap. 9 &#167; f&#246;rsta stycket 
+brottsdatalagen (2018:1177) ska inneh&#229;lla f&#246;ljande 
+information:
+
+1. en beskrivning av personuppgiftsincidenten och n&#228;r den 
+intr&#228;ffade,
+
+2. om det &#228;r m&#246;jligt, kategorier av registrerade och det 
+uppskattade antalet registrerade som ber&#246;rs samt kategorier 
+av personuppgiftsposter och det uppskattade antalet poster 
+som ber&#246;rs,
+
+3. sannolika konsekvenser av incidenten,
+
+4. vilka &#229;tg&#228;rder som vidtagits eller kommer att vidtas med 
+anledning av incidenten,
+
+5. genomf&#246;rda eller planerade underr&#228;ttelser till 
+registrerade, och
+
+6. namnet p&#229; och kontaktuppgifter till dataskyddsombud eller 
+annan l&#228;mplig kontaktpunkt.
+
+All information enligt f&#246;rsta stycket ska l&#228;mnas samtidigt om 
+det &#228;r m&#246;jligt.
+
+Om anm&#228;lan g&#246;rs senare &#228;n 72 timmar efter det att 
+personuppgiftsincidenten blev k&#228;nd f&#246;r den 
+personuppgiftsansvarige, ska f&#246;rseningen f&#246;rklaras.
+
+13 &#167; En underr&#228;ttelse enligt 3 kap. 10 &#167; f&#246;rsta stycket 
+brottsdatalagen (2018:1177) ska inneh&#229;lla f&#246;ljande 
+uppgifter:
+
+1. en beskrivning av personuppgiftsincidenten och n&#228;r den 
+intr&#228;ffade,
+
+2. bed&#246;mda konsekvenser f&#246;r den registrerade,
+
+3. vilka &#229;tg&#228;rder som vidtagits eller kommer att vidtas med 
+anledning av personuppgiftsincidenten,
+
+4. &#229;tg&#228;rder som den registrerade kan vidta f&#246;r att begr&#228;nsa 
+skadan, och
+
+5. kontaktuppgifter till dataskyddsombud eller annan l&#228;mplig 
+kontaktpunkt.
+
+14 &#167; Den personuppgiftsansvarige ska dokumentera alla 
+personupp-giftsincidenter. Av dokumentationen ska 
+omst&#228;ndigheterna kring incidenten framg&#229; tillsammans med dess 
+effekter och de &#229;tg&#228;rder som vidtagits med anledning av 
+den.
+
+15 &#167; Om en personuppgiftsincident som enligt 3 kap. 9 &#167; 
+brottsdatalagen (2018:1177) ska anm&#228;las till 
+tillsynsmyndigheten r&#246;r personuppgifter som kommer fr&#229;n eller 
+har l&#228;mnats till en beh&#246;rig myndighet i en annan medlemsstat, 
+ska s&#229;dan information som anges i 12 &#167; f&#246;rsta stycket utan 
+on&#246;digt dr&#246;jsm&#229;l l&#228;mnas till den myndigheten.
+
+Dataskyddsombud
+
+16 &#167; Den personuppgiftsansvarige ska s&#228;kerst&#228;lla att 
+dataskyddsombud ges m&#246;jlighet att delta i de fr&#229;gor som r&#246;r 
+skyddet av personuppgifter.
+
+Den personuppgiftsansvarige ska se till att dataskyddsombud 
+kan utf&#246;ra de uppgifter som anges i 3 kap. 14 &#167; 
+brottsdatalagen (2018:1177) genom att tillhandah&#229;lla 
+n&#246;dv&#228;ndiga resurser, ge tillg&#229;ng till dokumentation om 
+behandling av personuppgifter och vid behov medge &#229;tkomst 
+till personuppgifter som behandlas. Den 
+personuppgiftsansvarige ska ocks&#229; se till att dataskyddsombud 
+har den sakkunskap som kr&#228;vs och att de ges m&#246;jlighet att 
+uppr&#228;tth&#229;lla denna.
+
+Personuppgiftsbitr&#228;den
+
+Avtalets eller &#246;verenskommelsens inneh&#229;ll
+
+17 &#167; Ett avtal eller en annan &#246;verenskommelse enligt 
+3 kap. 16 &#167; andra stycket brottsdatalagen (2018:1177) ska 
+ange vad behandlingen av personuppgifter ska avse, hur l&#228;nge 
+behandlingen ska p&#229;g&#229;, dess art och &#228;ndam&#229;l, typen av 
+personuppgifter, kategorier av registrerade och den 
+personuppgiftsansvariges skyldigheter och r&#228;ttigheter. I 
+avtalet eller &#246;verenskommelsen ska det s&#228;rskilt f&#246;reskrivas 
+att personuppgiftsbitr&#228;det ska
+
+1. behandla personuppgifter bara enligt instruktioner fr&#229;n 
+den person-uppgiftsansvarige,
+
+2. s&#228;kerst&#228;lla att personer som har tillst&#229;nd att behandla 
+personuppgifter antingen har f&#246;rbundit sig att iaktta regler 
+om tystnadsplikt eller omfattas av lagstadgad 
+tystnadsplikt,
+
+3. hj&#228;lpa den personuppgiftsansvarige att 
+s&#228;kerst&#228;lla att best&#228;mmelserna om registrerades r&#228;ttigheter 
+f&#246;ljs,
+
+4. radera eller &#229;terl&#228;mna alla personuppgifter till den 
+personuppgiftsansvarige n&#228;r uppdraget har slutf&#246;rts och, om 
+inte annat f&#246;ljer av lag eller f&#246;rordning, radera befintliga 
+kopior,
+
+5. ge den personuppgiftsansvarige tillg&#229;ng till den 
+information som kr&#228;vs f&#246;r att visa att det som s&#228;gs i denna 
+paragraf, 18 &#167; och 3 kap. 16–18 &#167;&#167; brottsdatalagen f&#246;ljs, 
+och
+
+6. respektera de villkor som framg&#229;r av denna paragraf, 18 &#167; 
+och 3 kap. 17 &#167; brottsdatalagen n&#228;r ett annat 
+personuppgiftsbitr&#228;de anlitas.
+
+Underbitr&#228;den
+
+18 &#167; Om den personuppgiftsansvarige har l&#228;mnat ett 
+generellt tillst&#229;nd enligt 3 kap. 17 &#167; brottsdatalagen 
+(2018:1177), ska personuppgiftsbitr&#228;det informera den 
+personuppgiftsansvarige innan nya personuppgiftsbitr&#228;den 
+anlitas.
+
+F&#246;rteckning &#246;ver behandlingar
+
+19 &#167; Varje personuppgiftsbitr&#228;de ska f&#246;ra en f&#246;rteckning 
+&#246;ver kategorier av behandlingar av personuppgifter som utf&#246;rs 
+f&#246;r en personuppgiftsansvarigs r&#228;kning. F&#246;rteckningen ska 
+inneh&#229;lla namnet p&#229; och kontaktuppgifter till 
+personuppgiftsbitr&#228;det och dessutom, f&#246;r varje kategori av 
+behandling, f&#246;ljande uppgifter:
+
+1. namnet p&#229; och kontaktuppgifter till eventuella 
+underbitr&#228;den,
+
+2. namnet p&#229; och kontaktuppgifter till den 
+personuppgiftsansvarige som personuppgiftsbitr&#228;det agerar 
+f&#246;r
+,
+3. vilka uppgifter som har &#246;verf&#246;rts och till vem, om 
+&#246;verf&#246;ringar av personuppgifter har gjorts till ett 
+tredjeland eller en internationell organisation, och
+
+4. om det &#228;r m&#246;jligt, en allm&#228;n beskrivning av de 
+s&#228;kerhets&#229;tg&#228;rder som har vidtagits.
+
+Underr&#228;ttelseskyldighet
+
+20 &#167; Ett personuppgiftsbitr&#228;de ska utan on&#246;digt dr&#246;jsm&#229;l 
+underr&#228;tta den personuppgiftsansvarige om en 
+personuppgiftsincident.
+
+&#214;vriga skyldigheter
+
+21 &#167; Det som s&#228;gs om den personuppgiftsansvariges 
+skyldigheter i 4 och 11 &#167;&#167; g&#228;ller &#228;ven f&#246;r 
+personuppgiftsbitr&#228;den.
+
+Gemensamt personuppgiftsansvariga
+
+22 &#167; Gemensamt personuppgiftsansvariga ska i en skriftlig 
+&#246;verenskommelse reglera sina respektive f&#246;rpliktelser i 
+egenskap av personuppgiftsansvarig. I &#246;verenskommelsen ska 
+det s&#228;rskilt regleras
+
+1. hur ansvaret f&#246;r enskildas r&#228;ttigheter ska ut&#246;vas och vars 
+och ens skyldighet att tillhandah&#229;lla information enligt 
+4 kap. 1 och 2 &#167;&#167; brottsdatalagen (2018:1177), och
+
+2. vem som ska vara kontaktpunkt f&#246;r registrerade.
+
+En s&#229;dan &#246;verenskommelse som anges i f&#246;rsta stycket f&#229;r inte 
+inneb&#228;ra att de personuppgiftsansvarigas f&#246;rfattningsenliga 
+skyldigheter inte fullg&#246;rs.
+
+Bemyndiganden
+
+23 &#167; Tillsynsmyndigheten f&#229;r meddela ytterligare 
+f&#246;reskrifter om
+
+1. s&#229;dana &#229;tg&#228;rder som avses i 3 kap. 2–4 och 8 &#167;&#167; 
+brottsdatalagen (2018:1177),
+
+2. krav och rutiner f&#246;r loggning enligt 3 kap. 5 &#167; 
+brottsdatalagen,
+
+3. vilka typer av behandlingar som ska omfattas av 
+f&#246;rhandssamr&#229;d enligt 3 kap. 7 &#167; andra stycket 
+brottsdatalagen, och
+
+4. anm&#228;lan och underr&#228;ttelse om personuppgiftsincidenter.
+
+4 kap. Enskildas r&#228;ttigheter
+
+Krav p&#229; utformningen av information
+
+1 &#167; Information enligt 3 kap. 10 &#167; f&#246;rsta stycket och 
+4 kap. 1–4 &#167;&#167; brottsdatalagen (2018:1177) ska vara 
+l&#228;ttillg&#228;nglig och l&#228;ttbegriplig och l&#228;mnas i l&#228;mplig form. 
+Detsamma g&#228;ller information enligt 3–7 &#167;&#167;, 3 kap. 13 &#167; och 
+5 kap. 2 &#167; denna f&#246;rordning.
+
+Enskilds beg&#228;ran
+
+2 &#167; En beg&#228;ran enligt 4 kap. 3, 4, 9 eller 10 &#167; 
+brottsdatalagen (2018:1177) ska g&#246;ras skriftligen hos den 
+personuppgiftsansvarige.
+
+Den personuppgiftsansvarige ska s&#228;kerst&#228;lla att beg&#228;ran g&#246;rs 
+av en beh&#246;rig person.
+
+Beslut
+
+3 &#167; Beslut enligt 4 kap. 5, 7, 9 och 10 &#167;&#167; och 12 &#167; andra 
+stycket brotts-datalagen (2018:1177) ska vara skriftliga. 
+Beslut som g&#229;r den registrerade emot ska motiveras.
+
+Av 4 kap. 5 &#167; andra och tredje styckena brottsdatalagen 
+framg&#229;r att sk&#228;len f&#246;r vissa beslut inte beh&#246;ver l&#228;mnas ut.
+
+Underr&#228;ttelser
+
+Underr&#228;ttelser till enskilda
+
+4 &#167; S&#246;kanden ska utan on&#246;digt dr&#246;jsm&#229;l underr&#228;ttas om 
+beslut enligt 4 kap. 5 &#167; f&#246;rsta eller tredje stycket 
+brottsdatalagen (2018:1177) i fr&#229;ga om information enligt 
+4 kap. 3 &#167; samma lag. S&#246;kanden ska i s&#229;dana fall ocks&#229; 
+underr&#228;ttas om m&#246;jligheterna att l&#228;mna in klagom&#229;l till 
+tillsynsmyndigheten och beg&#228;ra kontroll enligt 5 kap. 3 &#167; 
+brottsdatalagen. N&#229;gon underr&#228;ttelse beh&#246;ver inte l&#228;mnas om 
+det skulle skada det intresse som f&#246;ranleder att information 
+inte l&#228;mnas.
+
+5 &#167; S&#246;kanden ska underr&#228;ttas om beslut enligt 4 kap. 7 &#167; 
+f&#246;rsta stycket eller 12 &#167; andra stycket brottsdatalagen 
+(2018:1177).
+
+6 &#167; Den registrerade ska underr&#228;ttas om beslut enligt 
+4 kap. 9 eller 10 &#167; brottsdatalagen (2018:1177) och om 
+m&#246;jligheten att l&#228;mna in klagom&#229;l till tillsynsmyndigheten. 
+Om den personuppgiftsansvarige med st&#246;d av 4 kap. 5 &#167; andra 
+eller tredje stycket brottsdatalagen inte har l&#228;mnat ut 
+sk&#228;len f&#246;r beslutet, ska den registrerade ocks&#229; underr&#228;ttas 
+om m&#246;jligheten att beg&#228;ra kontroll enligt 5 kap. 3 &#167; 
+brottsdatalagen.
+
+7 &#167; Den registrerade ska underr&#228;ttas innan en begr&#228;nsning 
+enligt 4 kap. 9 &#167; andra stycket brottsdatalagen (2018:1177) 
+upph&#246;r.
+
+Underr&#228;ttelser till andra
+
+8 &#167; Den myndighet fr&#229;n vilken personuppgifter kommer ska 
+underr&#228;ttas om beslut enligt 4 kap. 9 &#167; f&#246;rsta stycket 
+brottsdatalagen (2018:1177).
+
+Den som har tagit emot personuppgifter ska underr&#228;ttas om 
+beslut enligt 4 kap. 9 eller 10 &#167; brottsdatalagen.
+
+5 kap. Tillsyn
+
+Kontroll genom tillsynsmyndigheten
+
+1 &#167; En beg&#228;ran enligt 5 kap. 3 &#167; brottsdatalagen 
+(2018:1177) ska g&#246;ras skriftligen och ange beh&#246;rig myndighet 
+och m&#229;l, &#228;rende, f&#246;rteckning eller verksamhetsomr&#229;de som 
+beg&#228;ran om kontroll g&#228;ller.
+
+Tillsynsmyndigheten ska s&#228;kerst&#228;lla att beg&#228;ran g&#246;rs av en 
+beh&#246;rig person.
+
+2 &#167; Tillsynsmyndigheten ska skriftligen underr&#228;tta den 
+s&#246;kande om att kontroll enligt 5 kap. 3 &#167; brottsdatalagen 
+(2018:1177) har utf&#246;rts.
+
+Beslut att v&#228;gra utf&#246;ra kontroll ska vara skriftliga och 
+motiveras.
+
+F&#246;rhandssamr&#229;d
+
+3 &#167; Om tillsynsmyndigheten anser att en s&#229;dan planerad 
+behandling som avses i 3 kap. 7 &#167; brottsdatalagen (2018:1177) 
+kan komma att st&#229; i strid med lag eller annan f&#246;rfattning, 
+ska myndigheten senast sex veckor efter det att beg&#228;ran om 
+samr&#229;d togs emot skriftligen l&#228;mna r&#229;d enligt 5 kap. 6 &#167; 
+f&#246;rsta stycket samma lag. Om det finns s&#228;rskilda sk&#228;l, f&#229;r 
+tiden f&#246;rl&#228;ngas med en m&#229;nad. Tillsynsmyndigheten ska inom en 
+m&#229;nad fr&#229;n det att beg&#228;ran om samr&#229;d togs emot informera om 
+f&#246;rl&#228;ngningen och om orsakerna till den.
+
+Samarbete med utl&#228;ndska tillsynsmyndigheter
+
+Utl&#228;ndsk beg&#228;ran om bist&#229;nd
+
+4 &#167; En beg&#228;ran om bist&#229;nd fr&#229;n en tillsynsmyndighet i en 
+annan medlemsstat ska besvaras s&#229; snabbt som m&#246;jligt och 
+senast en m&#229;nad efter det att beg&#228;ran togs emot. Den som 
+beg&#228;rt bist&#229;nd ska underr&#228;ttas om handl&#228;ggningen och om 
+resultatet av beg&#228;ran.
+
+5 &#167; Om bist&#229;nd till en tillsynsmyndighet i en annan stat 
+v&#228;gras, ska den som beg&#228;rt bist&#229;ndet underr&#228;ttas. I 
+underr&#228;ttelsen ska sk&#228;len f&#246;r v&#228;gran anges.
+
+Svensk beg&#228;ran om bist&#229;nd av en annan medlemsstat
+
+6 &#167; Tillsynsmyndigheten f&#229;r beg&#228;ra bist&#229;nd av en 
+tillsynsmyndighet i en annan medlemsstat med s&#229;dana &#229;tg&#228;rder 
+som myndigheten f&#229;r vidta n&#228;r den ut&#246;var tillsyn.
+
+7 &#167; En beg&#228;ran om bist&#229;nd ska inneh&#229;lla all information 
+som beh&#246;vs f&#246;r att tillsynsmyndigheten i den andra 
+medlemsstaten ska kunna besvara beg&#228;ran. Syftet med och 
+sk&#228;len f&#246;r &#229;tg&#228;rden ska anges.
+
+Internationella &#246;verenskommelser
+
+8 &#167; Tillsynsmyndigheten f&#229;r, trots det som s&#228;gs i 9 &#167;, 
+ing&#229; &#246;verenskommelser med tillsynsmyndigheter i andra 
+medlemsstater om avgifter f&#246;r internationellt bist&#229;nd.
+
+Avgiftsfrihet
+
+9 &#167; Tillsynsmyndigheten ska utf&#246;ra sina tillsynsuppgifter 
+avgiftsfritt, om inte n&#229;got annat best&#228;ms.
+
+6 kap. Administrativa sanktionsavgifter
+
+1 &#167; Sanktionsavgifter ska betalas till Kammarkollegiet. 
+
+2 &#167; En beslutad sanktionsavgift faller bort till den del 
+beslutet om avgiften inte har verkst&#228;llts inom fem &#229;r fr&#229;n 
+det att beslutet fick laga kraft.
+
+3 &#167; Om betalningsansvaret har upph&#228;vts genom ett beslut 
+som f&#229;tt laga kraft, ska sanktionsavgiften betalas tillbaka. 
+F&#246;r en sanktionsavgift som betalas tillbaka betalas &#228;ven 
+r&#228;nta enligt 5 &#167; r&#228;ntelagen (1975:635) f&#246;r tiden fr&#229;n den dag 
+d&#229; avgiften betalades till och med den dag den betalas 
+tillbaka.
+
+7 kap. &#214;verf&#246;ring av personuppgifter till tredjeland och 
+internationella organisationer
+
+1 &#167; Den som har &#246;verf&#246;rt personuppgifter till ett 
+tredjeland eller en internationell organisation utan ett 
+f&#246;rhandsmedgivande enligt 8 kap. 2 &#167; andra stycket 
+brottsdatalagen (2018:1177) ska utan dr&#246;jsm&#229;l informera den 
+medlemsstat som l&#228;mnat uppgifterna till en svensk myndighet 
+om &#246;verf&#246;ringen.
+
+2 &#167; Om en svensk myndighet har &#246;verf&#246;rt personuppgifter 
+enligt 8 kap. 8 &#167; brottsdatalagen (2018:1177), ska 
+myndigheten utan on&#246;digt dr&#246;jsm&#229;l informera beh&#246;rig myndighet 
+i det tredjelandet om &#246;verf&#246;ringen. Det som nu har sagts 
+g&#228;ller inte om det skulle vara ineffektivt eller ol&#228;mpligt 
+att informera om &#246;verf&#246;ringen.
+
+3 &#167; &#214;verf&#246;ringar av personuppgifter enligt 8 kap. 4 &#167; 2 
+och 5 &#167; brotts-datalagen (2018:1177) ska dokumenteras. Av 
+dokumentationen ska det framg&#229; vilka personuppgifter som 
+&#246;verf&#246;rts, datum och tidpunkt f&#246;r &#246;verf&#246;ringen, &#228;ndam&#229;let med 
+och grunden f&#246;r &#246;verf&#246;ringen och till vilken myndighet som 
+personuppgifterna &#246;verf&#246;rdes.
+
+P&#229; beg&#228;ran ska dokumentationen g&#246;ras tillg&#228;nglig f&#246;r 
+tillsynsmyndigheten.
+
+4 &#167; Den personuppgiftsansvarige ska informera 
+tillsynsmyndigheten om samlingar av &#246;verf&#246;ringar som g&#246;rs 
+enligt 8 kap. 4 &#167; 2 brottsdatalagen (2018:1177).
+
+5 &#167; &#214;verf&#246;ringar av personuppgifter enligt 8 kap. 8 &#167; 
+brottsdatalagen (2018:1177) ska dokumenteras. Den 
+personuppgiftsansvarige ska informera tillsynsmyndigheten om 
+s&#229;dana &#246;verf&#246;ringar.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2018:1202
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 augusti 2018.
+
+2. Genom f&#246;rordningen upph&#228;vs f&#246;rordningen (2013:343) med 
+vissa best&#228;mmelser om skydd f&#246;r personuppgifter vid 
+polissamarbete och straffr&#228;ttsligt samarbete inom Europeiska 
+unionen.
+
+3. Best&#228;mmelsen i 3 kap. 4 &#167; om loggning till&#228;mpas fr&#229;n och 
+med den 6 maj 2023 i fr&#229;ga om automatiserade 
+behandlingssystem som inr&#228;ttats f&#246;re den 6 maj 2016.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=714">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=716">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

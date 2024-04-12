@@ -1,0 +1,777 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-04" /> 
+ <meta id="rattsinfo-edited" content="2024-01-04 11:00:51" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1012</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1011">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1013">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2016:188 ·
+                    <a href="/sfsr?bet=2016:188">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2016:188) om patent- och marknadsdomstolar</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet D&#197;
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2016-03-10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:731
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2016-09-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+1 &#167; Denna lag g&#228;ller handl&#228;ggningen av m&#229;l och &#228;renden i 
+Patent- och marknadsdomstolen och Patent- och 
+marknads&#246;verdomstolen samt s&#229;dan handl&#228;ggning i H&#246;gsta 
+domstolen som f&#246;ljer av best&#228;mmelser i denna lag. 
+
+2 &#167; Patent- och marknadsdomstol &#228;r Stockholms tingsr&#228;tt. 
+
+Patent- och marknads&#246;verdomstol &#228;r Svea hovr&#228;tt. 
+
+3 &#167; Patent- och marknadsdomstolens domar och beslut f&#229;r 
+&#246;verklagas till Patent- och marknads&#246;verdomstolen, om inte 
+n&#229;got annat &#228;r f&#246;reskrivet. 
+
+Patent- och marknads&#246;verdomstolens domar och beslut i 
+brottm&#229;l f&#229;r &#246;verklagas till H&#246;gsta domstolen, om inte n&#229;got 
+annat &#228;r f&#246;reskrivet.
+
+Patent- och marknads&#246;verdomstolens domar och beslut i 
+tvistem&#229;l och &#228;renden f&#229;r inte &#246;verklagas. Patent- och 
+marknads&#246;verdomstolen f&#229;r dock, utom i de fall som avses i
+4 kap. 13 &#167; konkurrenslagen (2008:579), till&#229;ta att ett 
+avg&#246;rande &#246;verklagas till H&#246;gsta domstolen om det &#228;r av vikt 
+f&#246;r ledning av r&#228;ttstill&#228;mpningen att &#246;verklagandet pr&#246;vas av 
+H&#246;gsta domstolen. 
+
+4 &#167; Patent- och marknadsdomstolen handl&#228;gger m&#229;l och &#228;renden 
+enligt det som f&#246;reskrivs i 
+
+1. lagen (1949:345) om r&#228;tten till arbetstagares uppfinningar, 
+patentlagen (1967:837), lagen (1971:1078) om 
+f&#246;rsvarsuppfinningar, lagen (1978:152) om svensk domstols 
+beh&#246;righet i vissa m&#229;l p&#229; patentr&#228;ttens omr&#229;de m.m. och 
+v&#228;xtf&#246;r&#228;dlarr&#228;ttslagen (1997:306), 
+
+2. lagen (1960:729) om upphovsr&#228;tt till litter&#228;ra och 
+konstn&#228;rliga verk, m&#246;nsterskyddslagen (1970:485), lagen 
+(1992:1685) om skydd f&#246;r kretsm&#246;nster f&#246;r halvledarprodukter, 
+varum&#228;rkeslagen (2010:1877), lagen (2017:322) om medling i 
+vissa upphovsr&#228;ttstvister, lagen (2018:1653) om f&#246;retagsnamn 
+och lagen (2018:1654) om skydd f&#246;r beteckningar p&#229; 
+jordbruksprodukter och livsmedel, 
+
+3. konkurrenslagen (2008:579), marknadsf&#246;ringslagen 
+(2008:486), lagen (1984:292) om avtalsvillkor mellan 
+n&#228;ringsidkare, lagen (1994:1512) om avtalsvillkor i 
+konsumentf&#246;rh&#229;llanden, f&#246;rs&#228;kringsavtalslagen (2005:104), 
+lagen (2005:590) om insyn i vissa finansiella f&#246;rbindelser 
+m.m., lagen (2006:484) om franchisegivares 
+informationsskyldighet, lagen (2010:510) om lufttransporter, 
+lagen (2010:1350) om uppgiftsskyldighet i fr&#229;ga om marknads- 
+och konkurrensf&#246;rh&#229;llanden, lagen (2014:836) om n&#228;ringsf&#246;rbud, 
+lagen (2014:1344) med kompletterande best&#228;mmelser till EU:s 
+t&#229;g-, fartygs- och busspassagerarf&#246;rordningar, 
+konkurrensskadelagen (2016:964), lagen (2016:977) om kollektiv 
+f&#246;rvaltning av upphovsr&#228;tt, lagen (2020:514) med 
+kompletterande best&#228;mmelser till EU:s plattformsf&#246;rordning och 
+lagen (2023:730) om grupptalan till skydd f&#246;r konsumenters 
+kollektiva intressen, och
+
+4. annan lag.
+Lag (2023:731).
+
+5 &#167; I samband med ett tvistem&#229;l som avses i 4 &#167; f&#229;r Patent- 
+och marknadsdomstolen pr&#246;va &#228;ven ett annat tvistem&#229;l mellan 
+samma eller olika parter, om domstolen anser att det &#228;r 
+l&#228;mpligt med h&#228;nsyn till utredningen och &#246;vriga 
+omst&#228;ndigheter. Domstolen f&#229;r dock inte pr&#246;va en tvist som 
+ska handl&#228;ggas enligt lagen (1974:371) om r&#228;tteg&#229;ngen i 
+arbetstvister.
+
+6 &#167; Best&#228;mmelserna i 19 kap. 3–12 &#167;&#167; r&#228;tteg&#229;ngsbalken ska 
+till&#228;mpas &#228;ven i f&#246;rh&#229;llande till Patent- och 
+marknadsdomstolen och Patent- och marknads&#246;verdomstolen, 
+varvid Patent- och marknadsdomstolen ska j&#228;mst&#228;llas med en 
+s&#229;dan annan allm&#228;n underr&#228;tt som avses i 19 kap. 9 &#167; f&#246;rsta 
+stycket r&#228;tteg&#229;ngsbalken. Vid &#229;tal f&#246;r brott enligt de lagar 
+som avses i 4 &#167; 1 ska dock inte 19 kap. 3, 6 och 7 &#167;&#167; 
+r&#228;tteg&#229;ngsbalken till&#228;mpas. 
+
+7 &#167; Patent- och marknads&#246;verdomstolen pr&#246;var ans&#246;kningar om 
+resning, klagan &#246;ver domvilla och &#229;terst&#228;llande av f&#246;rsutten 
+tid n&#228;r det g&#228;ller en dom eller ett beslut av Patent- och 
+marknadsdomstolen eller ett avg&#246;rande av en 
+f&#246;rvaltningsmyndighet, om avg&#246;randet skulle ha &#246;verklagats 
+till Patent- och marknadsdomstolen. Vid handl&#228;ggningen 
+till&#228;mpas r&#228;tteg&#229;ngsbalken om ans&#246;kan avser ett avg&#246;rande i 
+ett m&#229;l och annars lagen (1996:242) om domstols&#228;renden.
+
+2 kap. Ledam&#246;ter 
+
+1 &#167; I Patent- och marknadsdomstolen och Patent- och 
+marknads&#246;verdomstolen ska det finnas lagfarna domare och 
+patentr&#229;d.
+
+I domstolarna d&#246;mer ocks&#229; tekniska och ekonomiska experter 
+och n&#228;mndem&#228;n. Patentr&#229;d och tekniska experter ben&#228;mns i 
+denna lag tekniska ledam&#246;ter. 
+
+R&#228;ttens ordf&#246;rande ska alltid vara en lagfaren domare. N&#228;r 
+r&#228;tten best&#229;r av fler &#228;n en lagfaren domare till&#228;mpas 
+best&#228;mmelserna i 1 kap. 3 f &#167; r&#228;tteg&#229;ngsbalken i Patent- och 
+marknadsdomstolen och best&#228;mmelserna i 2 kap. 4 b &#167; 
+r&#228;tteg&#229;ngsbalken i Patent- och marknads&#246;verdomstolen.
+Lag (2018:422).
+
+2 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+utser vilka av de lagfarna domarna i Stockholms tingsr&#228;tt och 
+Svea hovr&#228;tt som ska tj&#228;nstg&#246;ra i Patent- och 
+marknadsdomstolen eller Patent- och marknads&#246;verdomstolen.
+
+3 &#167; I lagen (2010:1390) om utn&#228;mning av ordinarie domare 
+finns best&#228;mmelser om utn&#228;mning av patentr&#229;d. 
+
+Regeringen eller den myndighet som regeringen best&#228;mmer 
+anst&#228;ller vikarier f&#246;r patentr&#229;d samt f&#246;rordnar tekniska och 
+ekonomiska experter i Patent- och marknadsdomstolen och 
+Patent- och marknads&#246;verdomstolen. 
+
+Tekniska och ekonomiska experter f&#246;rordnas f&#246;r viss tid. Om 
+det medan en teknisk eller ekonomisk expert deltar i 
+behandlingen av ett m&#229;l eller &#228;rende intr&#228;ffar en 
+omst&#228;ndighet som medf&#246;r att f&#246;rordnandet upph&#246;r att g&#228;lla, 
+ska f&#246;rordnandet &#228;nd&#229; g&#228;lla i det p&#229;g&#229;ende m&#229;let eller 
+&#228;rendet. Den som ska tj&#228;nstg&#246;ra som teknisk eller ekonomisk 
+expert ska vara svensk medborgare och f&#229;r inte vara 
+under&#229;rig, i konkurstillst&#229;nd eller ha f&#246;rvaltare enligt
+11 kap. 7 &#167; f&#246;r&#228;ldrabalken.
+
+4 &#167; En teknisk ledamot ska ha teknisk eller annan relevant 
+utbildning och erfarenhet av s&#229;dana sakfr&#229;gor som handl&#228;ggs i 
+patent- och marknadsdomstolarna.
+
+En ekonomisk expert ska ha ekonomisk eller annan relevant 
+utbildning och erfarenhet av s&#229;dana sakfr&#229;gor som handl&#228;ggs i 
+patent- och marknadsdomstolarna.
+
+5 &#167; De n&#228;mndem&#228;n som ska medverka i Patent- och 
+marknadsdomstolens avg&#246;randen ska vara n&#228;mndem&#228;n i Stockholms 
+tingsr&#228;tt.
+
+De n&#228;mndem&#228;n som ska medverka i Patent- och 
+marknads&#246;verdomstolens avg&#246;randen ska vara n&#228;mndem&#228;n i Svea 
+hovr&#228;tt.
+
+3 kap. F&#246;rfarandet 
+
+Handl&#228;ggning av m&#229;l 
+
+1 &#167; Vid handl&#228;ggning av m&#229;l till&#228;mpas r&#228;tteg&#229;ngsbalkens 
+best&#228;mmelser om tvistem&#229;l eller brottm&#229;l, om inte n&#229;got annat 
+f&#246;reskrivs i denna eller n&#229;gon annan lag. 
+
+Handl&#228;ggning av &#228;renden 
+
+2 &#167; Vid handl&#228;ggning av &#228;renden som inleds i Patent- och 
+marknadsdomstolen genom &#246;verklagande av en 
+f&#246;rvaltningsmyndighets beslut till&#228;mpas lagen (1996:242) om 
+domstols&#228;renden, om inte n&#229;got annat f&#246;reskrivs i denna eller 
+n&#229;gon annan lag.
+
+Det &#228;r s&#228;rskilt reglerat att lagen om domstols&#228;renden i vissa 
+fall &#228;r till&#228;mplig &#228;ven vid handl&#228;ggning av &#228;renden som 
+inleds i Patent- och marknadsdomstolen genom ans&#246;kan.
+
+3 &#167; Patent- och registreringsverket ska inte vara part i 
+domstolen i &#228;renden om inv&#228;ndning mot ett meddelat patent 
+enligt patentlagen (1967:837) eller mot en registrering 
+enligt m&#246;nsterskyddslagen (1970:485) eller varum&#228;rkeslagen 
+(2010:1877). Statens jordbruksverk ska inte vara part i 
+domstolen i &#228;renden om inv&#228;ndning mot en registrering enligt 
+v&#228;xtf&#246;r&#228;dlarr&#228;ttslagen (1997:306). 
+
+4 &#167; I &#228;renden om inv&#228;ndning mot ett meddelat patent enligt 
+patentlagen (1967:837) eller mot en registrering enligt 
+m&#246;nsterskyddslagen (1970:485), v&#228;xtf&#246;r&#228;dlarr&#228;ttslagen 
+(1997:306) eller varum&#228;rkeslagen (2010:1877) ska vardera 
+parten svara f&#246;r sina r&#228;tteg&#229;ngskostnader om det inte finns 
+s&#228;rskilda sk&#228;l.
+
+Handl&#228;ggning av m&#229;l om utd&#246;mande av vite
+
+5 &#167; M&#229;l om utd&#246;mande av vite ska handl&#228;ggas enligt reglerna i 
+r&#228;tteg&#229;ngsbalken om &#229;tal f&#246;r brott f&#246;r vilket sv&#229;rare straff 
+&#228;n b&#246;ter inte &#228;r f&#246;reskrivet. 
+
+F&#246;rening av m&#229;l och &#228;renden
+
+6 &#167; &#196;ven i andra fall &#228;n de som regleras i r&#228;tteg&#229;ngsbalken 
+f&#229;r m&#229;l eller &#228;renden som avses i 1 kap. 4 &#167; handl&#228;ggas 
+gemensamt med andra m&#229;l eller &#228;renden som avses i 1 kap. 4 &#167; 
+i en r&#228;tteg&#229;ng, om domstolen anser att det &#228;r l&#228;mpligt med 
+h&#228;nsyn till utredningen och &#246;vriga omst&#228;ndigheter. M&#229;l eller 
+&#228;renden d&#228;r det finns behov av teknisk sakkunskap f&#229;r dock 
+inte handl&#228;ggas i samma r&#228;tteg&#229;ng som m&#229;l eller &#228;renden d&#228;r 
+det finns behov av ekonomisk sakkunskap.
+
+M&#229;l och &#228;renden som handl&#228;ggs gemensamt f&#229;r s&#228;rskiljas n&#228;r 
+det finns sk&#228;l f&#246;r det.
+
+7 &#167; Ett tvistem&#229;l som avses i 1 kap. 4 &#167; och ett tvistem&#229;l 
+som avses i 5 &#167; samma kapitel ska handl&#228;ggas gemensamt i en 
+r&#228;tteg&#229;ng. 
+
+Omr&#246;stning
+
+8 &#167; Om b&#229;de lagfarna domare och tekniska ledam&#246;ter eller 
+ekonomiska experter ing&#229;r i r&#228;tten, ska vid omr&#246;stning f&#246;rst 
+de lagfarna domarna s&#228;ga sin mening och d&#228;refter de tekniska 
+ledam&#246;terna eller ekonomiska experterna. Om m&#229;let eller 
+&#228;rendet har beretts av en viss ledamot s&#228;ger han eller hon 
+sin mening f&#246;rst. 
+
+Nya omst&#228;ndigheter och ny bevisning
+
+9 &#167; Best&#228;mmelserna i 42 kap. 15 och 15 a &#167;&#167; och 50 kap. 25 &#167; 
+tredje stycket r&#228;tteg&#229;ngsbalken ska till&#228;mpas &#228;ven i 
+tvistem&#229;l d&#228;r f&#246;rlikning om saken inte &#228;r till&#229;ten och i 
+&#228;renden. 
+
+F&#246;rh&#246;r med en part under sanningsf&#246;rs&#228;kran 
+
+10 &#167; I ett &#228;rende f&#229;r det h&#229;llas f&#246;rh&#246;r med en part under 
+sanningsf&#246;rs&#228;kran enligt 37 kap. r&#228;tteg&#229;ngsbalken. 
+
+4 kap. Sammans&#228;ttningen i Patent- och marknadsdomstolen
+
+M&#229;l
+
+1 &#167; Vid huvudf&#246;rhandling i m&#229;l som avses i 1 kap. 4 &#167; 1 ska 
+Patent- och marknadsdomstolen best&#229; av fyra ledam&#246;ter, av 
+vilka tv&#229; ska vara lagfarna domare och tv&#229; tekniska 
+ledam&#246;ter. Om det finns sk&#228;l f&#246;r det f&#229;r antalet lagfarna 
+domare ut&#246;kas med en. Detsamma g&#228;ller i fr&#229;ga om antalet 
+tekniska ledam&#246;ter. Om det inte finns behov av teknisk 
+sakkunskap f&#229;r r&#228;tten i st&#228;llet best&#229; av tre lagfarna domare. 
+
+
+I de fall som avses i 1 kap. 3 a &#167; andra och tredje styckena 
+r&#228;tteg&#229;ngsbalken ska r&#228;tten best&#229; av en lagfaren domare eller 
+en lagfaren domare och en teknisk ledamot. 
+
+2 &#167; I m&#229;l som avses i 1 kap. 4 &#167; 1 ska Patent- och 
+marknadsdomstolen vid avg&#246;rande av ett m&#229;l utan 
+huvudf&#246;rhandling och vid annan handl&#228;ggning som inte sker vid 
+huvudf&#246;rhandling best&#229; av en lagfaren domare eller en 
+lagfaren domare och en teknisk ledamot. Om det finns 
+s&#228;rskilda sk&#228;l f&#246;r det med h&#228;nsyn till m&#229;let eller fr&#229;gan, 
+f&#229;r dock r&#228;tten ha den sammans&#228;ttning som anges i 1 &#167; f&#246;rsta 
+stycket vid avg&#246;rande av ett m&#229;l utan huvudf&#246;rhandling och 
+vid pr&#246;vning av fr&#229;gor som h&#246;r till r&#228;tteg&#229;ngen. 
+
+3 &#167; I m&#229;l som avses i 1 kap. 4 &#167; 1 ska Patent- och 
+marknadsdomstolen, i de fall som avses i 1 kap. 3 d &#167; f&#246;rsta 
+stycket r&#228;tteg&#229;ngsbalken, best&#229; av en lagfaren domare eller 
+en lagfaren domare och en teknisk ledamot. 
+
+4 &#167; Vid huvudf&#246;rhandling i m&#229;l som avses i 1 kap. 4 &#167; 3 ska 
+Patent- och marknadsdomstolen best&#229; av fyra ledam&#246;ter, av 
+vilka tv&#229; ska vara lagfarna domare och tv&#229; ekonomiska 
+experter. Om det finns sk&#228;l f&#246;r det f&#229;r antalet lagfarna 
+domare ut&#246;kas med en. Detsamma g&#228;ller i fr&#229;ga om antalet 
+ekonomiska experter. Om det inte finns behov av ekonomisk 
+sakkunskap f&#229;r r&#228;tten i st&#228;llet best&#229; av tre lagfarna domare. 
+
+I de fall som avses i 1 kap. 3 a &#167; andra och tredje styckena 
+r&#228;tteg&#229;ngsbalken ska r&#228;tten best&#229; av en lagfaren domare eller 
+en lagfaren domare och en ekonomisk expert. 
+
+5 &#167; I m&#229;l som avses i 1 kap. 4 &#167; 3 ska Patent- och 
+marknadsdomstolen vid avg&#246;rande av ett m&#229;l utan 
+huvudf&#246;rhandling och vid annan handl&#228;ggning som inte sker vid 
+huvudf&#246;rhandling best&#229; av en lagfaren domare eller en 
+lagfaren domare och en ekonomisk expert. Om det finns 
+s&#228;rskilda sk&#228;l f&#246;r det med h&#228;nsyn till m&#229;let eller fr&#229;gan, 
+f&#229;r dock r&#228;tten ha den sammans&#228;ttning som anges i 4 &#167; f&#246;rsta 
+stycket vid avg&#246;rande av ett m&#229;l utan huvudf&#246;rhandling och 
+vid pr&#246;vning av fr&#229;gor som h&#246;r till r&#228;tteg&#229;ngen. 
+
+6 &#167; I m&#229;l som avses i 1 kap. 4 &#167; 3 ska Patent- och 
+marknadsdomstolen, i de fall som avses i 1 kap. 3 d &#167; f&#246;rsta 
+stycket r&#228;tteg&#229;ngsbalken, best&#229; av en lagfaren domare eller 
+en lagfaren domare och en ekonomisk expert. 
+
+&#196;renden 
+
+7 &#167; Vid avg&#246;rande i sak av &#228;renden som avses i 1 kap. 4 &#167; 1 
+ska Patent- och marknadsdomstolen best&#229; av tre ledam&#246;ter, av 
+vilka minst en ska vara lagfaren domare och, om det finns 
+behov av teknisk sakkunskap, en eller tv&#229; ska vara tekniska 
+ledam&#246;ter. Om det finns s&#228;rskilda sk&#228;l f&#246;r det med h&#228;nsyn 
+till &#228;rendet f&#229;r r&#228;tten best&#229; av fyra ledam&#246;ter, av vilka tv&#229; 
+ska vara lagfarna domare och tv&#229; ska vara tekniska ledam&#246;ter. 
+
+Om det &#228;r tillr&#228;ckligt med h&#228;nsyn till &#228;rendet, f&#229;r Patent- 
+och marknadsdomstolen i st&#228;llet best&#229; av en lagfaren domare 
+eller en lagfaren domare och en teknisk ledamot. 
+
+Vid annan handl&#228;ggning av ett &#228;rende som avses i f&#246;rsta 
+stycket ska Patent- och marknadsdomstolen best&#229; av en 
+lagfaren domare eller en lagfaren domare och en teknisk 
+ledamot.
+
+8 &#167; Vid avg&#246;rande i sak av &#228;renden som avses i 1 kap. 4 &#167; 3 
+ska Patent- och marknadsdomstolen best&#229; av tre ledam&#246;ter, av 
+vilka minst en ska vara lagfaren domare och, om det finns 
+behov av ekonomisk sakkunskap, en eller tv&#229; ska vara 
+ekonomiska experter. Om det finns s&#228;rskilda sk&#228;l f&#246;r det med 
+h&#228;nsyn till &#228;rendet f&#229;r r&#228;tten best&#229; av fyra ledam&#246;ter, av 
+vilka tv&#229; ska vara lagfarna domare och tv&#229; ska vara 
+ekonomiska experter. 
+
+Om det &#228;r tillr&#228;ckligt med h&#228;nsyn till &#228;rendet, f&#229;r Patent- 
+och marknadsdomstolen i st&#228;llet best&#229; av en lagfaren domare 
+eller en lagfaren domare och en ekonomisk expert. 
+
+Vid annan handl&#228;ggning av ett &#228;rende som avses i f&#246;rsta 
+stycket ska Patent- och marknadsdomstolen best&#229; av en 
+lagfaren domare eller en lagfaren domare och en ekonomisk 
+expert. 
+
+Berednings&#229;tg&#228;rder
+
+9 &#167; I fr&#229;ga om berednings&#229;tg&#228;rder i s&#229;dana m&#229;l och &#228;renden 
+som avses i 1 kap. 4 &#167; 1 och 3 till&#228;mpas 1 kap. 3 e &#167; 
+r&#228;tteg&#229;ngsbalken.
+
+Teknisk eller ekonomisk sakkunskap
+
+10 &#167; Om det ska ing&#229; andra &#228;n lagfarna domare i r&#228;tten, 
+best&#228;mmer r&#228;ttens ordf&#246;rande vilken eller vilka tekniska 
+ledam&#246;ter eller ekonomiska experter som ska ing&#229; med h&#228;nsyn 
+till vilken sakkunskap som beh&#246;vs och &#246;vriga f&#246;rh&#229;llanden i 
+m&#229;let eller &#228;rendet. 
+
+F&#246;rhinder f&#246;r en ledamot
+
+11 &#167; Om Patent- och marknadsdomstolen i ett &#228;rende som avses 
+i 1 kap. 4 &#167; eller i ett m&#229;l som avses i samma paragraf 1 
+eller 3 best&#229;r av fler &#228;n tv&#229; ledam&#246;ter och en av ledam&#246;terna 
+f&#229;r f&#246;rhinder sedan huvudf&#246;rhandling eller motsvarande 
+handl&#228;ggning har p&#229;b&#246;rjats, &#228;r r&#228;tten &#228;nd&#229; domf&#246;r om en av de 
+kvarvarande ledam&#246;terna &#228;r lagfaren domare.
+
+5 kap. Sammans&#228;ttningen i Patent- och marknads&#246;verdomstolen
+
+M&#229;l
+
+1 &#167; Vid avg&#246;rande av m&#229;l som avses i 1 kap. 4 &#167; 1 ska Patent- 
+och marknads&#246;verdomstolen best&#229; av minst tre lagfarna domare. 
+Om tre lagfarna domare har deltagit i Patent- och 
+marknadsdomstolens avg&#246;rande ska dock minst fyra lagfarna 
+domare delta i Patent- och marknads&#246;verdomstolens avg&#246;rande. 
+Om en eller flera tekniska ledam&#246;ter har deltagit i Patent- 
+och marknadsdomstolens avg&#246;rande ska minst samma antal 
+tekniska ledam&#246;ter delta i Patent- och marknads&#246;verdomstolens 
+avg&#246;rande. Patent- och marknads&#246;verdomstolen &#228;r dock domf&#246;r 
+utan tekniska ledam&#246;ter om medverkan av s&#229;dana ledam&#246;ter inte 
+beh&#246;vs. Fler &#228;n fem lagfarna domare och tre tekniska 
+ledam&#246;ter f&#229;r inte delta i r&#228;ttens avg&#246;rande.
+
+Vid beslut om avskrivning av ett m&#229;l som avses i f&#246;rsta 
+stycket efter &#229;terkallelse eller efter det att ett 
+&#246;verklagande f&#246;rfallit vid ett sammantr&#228;de som avses i 
+50 kap. 10 &#167; eller 51 kap. 10 &#167; r&#228;tteg&#229;ngsbalken f&#229;r r&#228;tten 
+best&#229; av en lagfaren domare. Detsamma g&#228;ller vid beslut om 
+undanr&#246;jande av Patent- och marknadsdomstolens avg&#246;rande 
+sedan k&#228;rom&#229;let &#229;terkallats.
+
+2 &#167; Vid annan handl&#228;ggning &#228;n avg&#246;rande av m&#229;l som avses i 1 
+kap. 4 &#167; 1 och vid behandling av fr&#229;gor om pr&#246;vningstillst&#229;nd 
+i s&#229;dana m&#229;l ska Patent- och marknads&#246;verdomstolen best&#229; av 
+tre lagfarna domare. En teknisk ledamot f&#229;r ing&#229; i r&#228;tten i 
+st&#228;llet f&#246;r en lagfaren domare. Ett pr&#246;vningstillst&#229;nd som 
+inte &#228;r begr&#228;nsat enligt 49 kap. 14 a &#167; f&#246;rsta stycket 
+r&#228;tteg&#229;ngsbalken f&#229;r meddelas av en lagfaren domare, om 
+fr&#229;gan &#228;r enkel.
+
+3 &#167; Vid avg&#246;rande av m&#229;l som avses i 1 kap. 4 &#167; 3 ska Patent- 
+och marknads&#246;verdomstolen best&#229; av minst tre lagfarna domare. 
+Om tre lagfarna domare har deltagit i Patent- och 
+marknadsdomstolens avg&#246;rande ska dock minst fyra lagfarna 
+domare delta i Patent- och marknads&#246;verdomstolens avg&#246;rande. 
+Om en eller flera ekonomiska experter har deltagit i Patent- 
+och marknadsdomstolens avg&#246;rande ska minst samma antal 
+ekonomiska experter delta i Patent- och 
+marknads&#246;verdomstolens avg&#246;rande. Patent- och 
+marknads&#246;verdomstolen &#228;r dock domf&#246;r utan ekonomiska experter 
+om medverkan av s&#229;dana experter inte beh&#246;vs. Fler &#228;n fem 
+lagfarna domare och tre ekonomiska experter f&#229;r inte delta i 
+r&#228;ttens avg&#246;rande.
+
+Vid beslut om avskrivning av ett m&#229;l som avses i f&#246;rsta 
+stycket efter &#229;terkallelse eller efter det att ett 
+&#246;verklagande f&#246;rfallit vid ett sammantr&#228;de som avses i 50 
+kap. 10 &#167; eller 51 kap. 10 &#167; r&#228;tteg&#229;ngsbalken f&#229;r r&#228;tten 
+best&#229; av en lagfaren domare. Detsamma g&#228;ller vid beslut om 
+undanr&#246;jande av Patent- och marknadsdomstolens avg&#246;rande 
+sedan k&#228;rom&#229;let &#229;terkallats.
+
+4 &#167; Vid annan handl&#228;ggning &#228;n avg&#246;rande av m&#229;l som avses i 1 
+kap. 4 &#167; 3 och vid behandling av fr&#229;gor om pr&#246;vningstillst&#229;nd 
+i s&#229;dana m&#229;l ska Patent- och marknads&#246;verdomstolen best&#229; av 
+tre lagfarna domare. En ekonomisk expert f&#229;r ing&#229; i r&#228;tten i 
+st&#228;llet f&#246;r en lagfaren domare. Ett pr&#246;vningstillst&#229;nd som 
+inte &#228;r begr&#228;nsat enligt 49 kap. 14 a &#167; f&#246;rsta stycket 
+r&#228;tteg&#229;ngsbalken f&#229;r meddelas av en lagfaren domare, om 
+fr&#229;gan &#228;r enkel.
+
+&#196;renden
+
+5 &#167; Vid avg&#246;rande av &#228;renden som avses i 1 kap. 4 &#167; 1 ska 
+Patent- och marknads&#246;verdomstolen best&#229; av fyra ledam&#246;ter. Om 
+Patent- och marknadsdomstolen har best&#229;tt av fyra ledam&#246;ter 
+ska Patent- och marknads&#246;verdomstolen i st&#228;llet best&#229; av fem 
+ledam&#246;ter. Antalet tekniska ledam&#246;ter som deltar i Patent- 
+och marknads&#246;verdomstolens avg&#246;rande ska vara detsamma som 
+antalet tekniska ledam&#246;ter som har deltagit i Patent- och 
+marknadsdomstolens avg&#246;rande. Antalet lagfarna domare som 
+deltar i Patent- och marknads&#246;verdomstolens avg&#246;rande ska 
+vara fler &#228;n antalet lagfarna domare som har deltagit i 
+Patent- och marknadsdomstolens avg&#246;rande.
+
+Om det i Patent- och marknads&#246;verdomstolen inte finns behov 
+av medverkan av tekniska ledam&#246;ter, trots att en eller flera 
+s&#229;dana ledam&#246;ter har deltagit i Patent- och 
+marknadsdomstolen, ska r&#228;tten i st&#228;llet f&#246;r det som anges i 
+f&#246;rsta stycket best&#229; av tre lagfarna domare. Detsamma g&#228;ller 
+om Patent- och marknadsdomstolen har best&#229;tt av en lagfaren 
+domare. 
+
+Vid beslut om avskrivning av ett &#228;rende som avses i f&#246;rsta 
+stycket efter &#229;terkallelse och vid undanr&#246;jande av Patent- 
+och marknadsdomstolens avg&#246;rande sedan ans&#246;kan &#229;terkallats 
+f&#229;r r&#228;tten best&#229; av en lagfaren domare. 
+
+6 &#167; Vid annan handl&#228;ggning &#228;n avg&#246;rande av &#228;renden som avses 
+i 1 kap. 4 &#167; 1 och vid behandling av fr&#229;gor om 
+pr&#246;vningstillst&#229;nd i s&#229;dana &#228;renden ska Patent- och 
+marknads&#246;verdomstolen best&#229; av tre lagfarna domare. En 
+teknisk ledamot f&#229;r ing&#229; i r&#228;tten i st&#228;llet f&#246;r en lagfaren 
+domare. Ett pr&#246;vningstillst&#229;nd som inte &#228;r begr&#228;nsat enligt 
+49 kap. 14 a &#167; f&#246;rsta stycket r&#228;tteg&#229;ngsbalken f&#229;r meddelas 
+av en lagfaren domare, om fr&#229;gan &#228;r enkel.
+
+7 &#167; Vid avg&#246;rande av &#228;renden som avses i 1 kap. 4 &#167; 3 ska 
+Patent- och marknads&#246;verdomstolen best&#229; av fyra ledam&#246;ter. Om 
+Patent- och marknadsdomstolen har best&#229;tt av fyra ledam&#246;ter 
+ska Patent- och marknads&#246;verdomstolen i st&#228;llet best&#229; av fem 
+ledam&#246;ter. Antalet ekonomiska experter som deltar i Patent- 
+och marknads&#246;verdomstolens avg&#246;rande ska vara detsamma som 
+antalet ekonomiska experter som har deltagit i Patent- och 
+marknadsdomstolens avg&#246;rande. Antalet lagfarna domare som 
+deltar i Patent- och marknads&#246;verdomstolens avg&#246;rande ska 
+vara fler &#228;n antalet lagfarna domare som har deltagit i 
+Patent- och marknadsdomstolens avg&#246;rande.
+
+Om det i Patent- och marknads&#246;verdomstolen inte finns behov 
+av medverkan av ekonomiska experter, trots att en eller flera 
+s&#229;dana experter har deltagit i Patent- och marknadsdomstolen, 
+ska r&#228;tten i st&#228;llet f&#246;r det som anges i f&#246;rsta stycket best&#229; 
+av tre lagfarna domare. Detsamma g&#228;ller om Patent- och 
+marknadsdomstolen har best&#229;tt av en lagfaren domare. 
+
+Vid beslut om avskrivning av ett &#228;rende som avses i f&#246;rsta 
+stycket efter &#229;terkallelse och vid undanr&#246;jande av Patent- 
+och marknadsdomstolens avg&#246;rande sedan ans&#246;kan &#229;terkallats 
+f&#229;r r&#228;tten best&#229; av en lagfaren domare.
+
+8 &#167; Vid annan handl&#228;ggning &#228;n avg&#246;rande av &#228;renden som avses 
+i 1 kap. 4 &#167; 3 och vid behandling av fr&#229;gor om 
+pr&#246;vningstillst&#229;nd i s&#229;dana &#228;renden ska Patent- och 
+marknads&#246;verdomstolen best&#229; av tre lagfarna domare. En 
+ekonomisk expert f&#229;r ing&#229; i r&#228;tten i st&#228;llet f&#246;r en lagfaren 
+domare. Ett pr&#246;vningstillst&#229;nd som inte &#228;r begr&#228;nsat enligt 
+49 kap. 14 a &#167; f&#246;rsta stycket r&#228;tteg&#229;ngsbalken f&#229;r meddelas 
+av en lagfaren domare, om fr&#229;gan &#228;r enkel.
+
+Berednings&#229;tg&#228;rder
+
+9 &#167; I fr&#229;ga om berednings&#229;tg&#228;rder i s&#229;dana m&#229;l och &#228;renden 
+som avses i 1 kap. 4 &#167; 1 och 3 till&#228;mpas 2 kap. 4 &#167; femte och 
+sj&#228;tte styckena r&#228;tteg&#229;ngsbalken.
+
+S&#228;rskilda r&#228;ttsmedel
+
+10 &#167; Vid pr&#246;vning av en ans&#246;kan om resning, klagan &#246;ver 
+domvilla eller &#229;terst&#228;llande av f&#246;rsutten tid n&#228;r det g&#228;ller 
+ett m&#229;l eller &#228;rende som avses i 1 kap. 4 &#167; 1 ska Patent- och 
+marknads&#246;verdomstolen best&#229; av tre lagfarna domare. En 
+teknisk ledamot f&#229;r ing&#229; i r&#228;tten i st&#228;llet f&#246;r en lagfaren 
+domare. 
+
+Vid pr&#246;vning av en ans&#246;kan om resning, klagan &#246;ver domvilla 
+eller &#229;terst&#228;llande av f&#246;rsutten tid n&#228;r det g&#228;ller ett m&#229;l 
+eller &#228;rende som avses i 1 kap. 4 &#167; 3 ska Patent- och 
+marknads&#246;verdomstolen best&#229; av tre lagfarna domare. En 
+ekonomisk expert f&#229;r ing&#229; i r&#228;tten i st&#228;llet f&#246;r en lagfaren 
+domare. 
+
+Teknisk eller ekonomisk sakkunskap
+
+11 &#167; Om det ska ing&#229; andra &#228;n lagfarna domare i r&#228;tten, 
+best&#228;mmer r&#228;ttens ordf&#246;rande vilken eller vilka tekniska 
+ledam&#246;ter eller ekonomiska experter som ska ing&#229; med h&#228;nsyn 
+till vilken sakkunskap som beh&#246;vs och &#246;vriga f&#246;rh&#229;llanden i 
+m&#229;let eller &#228;rendet. Lag (2016:968).
+
+F&#246;rhinder f&#246;r en ledamot
+
+12 &#167; Om Patent- och marknads&#246;verdomstolen i ett &#228;rende som 
+avses i 1 kap. 4 &#167; eller i ett m&#229;l som avses i samma paragraf 
+1 eller 3 best&#229;r av fler &#228;n tv&#229; ledam&#246;ter och en av 
+ledam&#246;terna f&#229;r f&#246;rhinder sedan huvudf&#246;rhandling eller 
+motsvarande handl&#228;ggning har p&#229;b&#246;rjats, &#228;r r&#228;tten &#228;nd&#229; domf&#246;r 
+om en av de kvarvarande ledam&#246;terna &#228;r lagfaren domare.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2023:731
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2024.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande om talan har v&#228;ckts 
+f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1011">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1013">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

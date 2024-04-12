@@ -1,0 +1,801 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-11" /> 
+ <meta id="rattsinfo-edited" content="2023-01-11 13:11:07" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>914</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=913">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=915">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2016:1128 ·
+                    <a href="/sfsr?bet=2016:1128">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2016:1128) om fluorerade v&#228;xthusgaser</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2016-11-17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1197
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2017-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av
+
+– 14 kap. 8 &#167; milj&#246;balken i fr&#229;ga om 7–11, 13–43 och 45 &#167;&#167;,
+
+– 15 kap. 6 &#167; milj&#246;balken i fr&#229;ga om 12 &#167;, och
+
+– 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga 
+best&#228;mmelser.
+
+EU-f&#246;rordningar
+
+2 &#167; I denna f&#246;rordning avses med
+
+EU-f&#246;rordningen om f-gaser: Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) nr 517/2014 av den 16 april 2014 om 
+fluorerade v&#228;xthusgaser och om upph&#228;vande av f&#246;rordning (EG) 
+nr 842/2006,
+
+genomf&#246;randef&#246;rordningen om certifiering f&#246;r kyl- och 
+v&#228;rmeutrustning: kommissionens genomf&#246;randef&#246;rordning (EU) 
+2015/2067 av den 17 november 2015 om fastst&#228;llande, i 
+enlighet med Europaparlamentets och r&#229;dets f&#246;rordning (EU) nr 
+517/2014, av minimikrav och villkor f&#246;r &#246;msesidigt erk&#228;nnande 
+f&#246;r certifiering av fysiska personer vad g&#228;ller station&#228;r 
+kyl-, luftkonditionerings- och v&#228;rmepumpsutrustning samt 
+kylenheter i lastbilar och sl&#228;pfordon med kylaggregat som 
+inneh&#229;ller fluorerade v&#228;xthusgaser samt f&#246;r certifiering av 
+f&#246;retag vad g&#228;ller station&#228;r kyl-, luftkonditionerings- och 
+v&#228;rmepumpsutrustning som inneh&#229;ller fluorerade 
+v&#228;xthusgaser,
+
+EU-f&#246;rordningen om certifiering f&#246;r brandskyddssystem: 
+kommissionens f&#246;rordning (EG) nr 304/2008 av den 2 april 
+2008 om fastst&#228;llande enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EG) nr 842/2006 av minimikrav och villkor f&#246;r 
+&#246;msesidigt erk&#228;nnande f&#246;r certifiering av f&#246;retag och 
+personal med avseende p&#229; station&#228;ra brandskyddssystem och 
+brandsl&#228;ckare som inneh&#229;ller vissa fluorerade v&#228;xthusgaser,
+
+genomf&#246;randef&#246;rordningen om certifiering f&#246;r elektriska 
+brytare: kommissionens genomf&#246;randef&#246;rordning (EU) 2015/2066 
+av den 17 november 2015 om fastst&#228;llande, i enlighet med 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) nr 517/2014, av 
+minimikrav och villkor f&#246;r &#246;msesidigt erk&#228;nnande f&#246;r 
+certifiering av fysiska personer som utf&#246;r installation, 
+service, underh&#229;ll, reparation eller nedmontering av 
+elektriska brytare som inneh&#229;ller fluorerade v&#228;xthusgaser 
+eller &#229;tervinning av fluorerade v&#228;xthusgaser fr&#229;n station&#228;ra 
+elektriska brytare,
+
+EU-f&#246;rordningen om certifiering f&#246;r l&#246;sningsmedel: 
+kommissionens f&#246;rordning (EG) nr 306/2008 av den 2 april 2008 
+om fastst&#228;llande enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EG) nr 842/2006 av minimikrav och villkor f&#246;r 
+&#246;msesidigt erk&#228;nnande f&#246;r certifiering av personal som 
+&#229;tervinner vissa l&#246;sningsmedel som inneh&#229;ller fluorerade 
+v&#228;xthusgaser fr&#229;n utrustning, och
+
+EU-f&#246;rordningen om utbildning f&#246;r luftkonditionering i 
+motorfordon: kommissionens f&#246;rordning (EG) nr 307/2008 av den 
+2 april 2008 om fastst&#228;llande enligt Europaparlamentets och 
+r&#229;dets f&#246;rordning (EG) nr 842/2006 av minimikrav f&#246;r 
+utbildningsprogram och villkor f&#246;r &#246;msesidigt erk&#228;nnande av 
+utbildningsintyg f&#246;r personal med avseende p&#229; 
+luftkonditioneringssystem som inneh&#229;ller vissa fluorerade 
+v&#228;xthusgaser i vissa motorfordon.
+
+Ordf&#246;rklaringar
+
+3 &#167; I denna f&#246;rordning avses med ackrediterat 
+certifieringsorgan en fysisk eller juridisk person som genom 
+att uppfylla kraven i Internationella 
+standardiseringsorganisationens och Internationella 
+elektrotekniska kommissionens standard f&#246;r bed&#246;mning av 
+&#246;verensst&#228;mmelse med allm&#228;nna krav p&#229; organ som certifierar 
+personer (SS-EN ISO/IEC 17024:2003)
+
+1. &#228;r ackrediterad enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EG) nr 765/2008 av den 9 juli 2008 om krav f&#246;r 
+ackreditering och upph&#228;vande av f&#246;rordning (EEG) nr 339/93 och 
+lagen (2011:791) om ackreditering och teknisk kontroll, eller
+
+2. i ett annat land i Europeiska unionen eller Europeiska 
+ekonomiska samarbetsomr&#229;det eller i Turkiet &#228;r ett 
+certifieringsorgan som
+
+a) har ackrediterats av ett ackrediteringsorgan som uppfyller 
+kraven i Internationella standardiseringsorganisationens och 
+Internationella elektrotekniska kommissionens standard f&#246;r 
+bed&#246;mning av &#246;verensst&#228;mmelse med allm&#228;nna krav p&#229; 
+ackrediteringsorgan som ackrediterar organ f&#246;r bed&#246;mning av 
+&#246;verensst&#228;mmelse (ISO/IEC 17011:2004), eller
+
+b) p&#229; annat s&#228;tt visar att motsvarande kvalitetskrav &#228;r 
+uppfyllda i fr&#229;ga om oberoende och teknisk och yrkesm&#228;ssig 
+kompetens, om de uppgifter som personen ska fullg&#246;ra avser 
+s&#229;dant som kr&#228;vs f&#246;r att f&#246;rsta g&#229;ngen sl&#228;ppa ut en produkt p&#229; 
+marknaden. F&#246;rordning (2022:1197).
+
+4 &#167; I denna f&#246;rordning avses med
+
+f-gas: en fluorerad v&#228;xthusgas enligt definitionen i artikel 
+2.1 i EU-f&#246;rordningen om f-gaser,
+
+k&#246;ldmedium: ett medium som best&#229;r av eller inneh&#229;ller en 
+f-gas och &#228;r avsett att anv&#228;ndas i ett k&#246;ldmediesystem och 
+som vid en viss temperatur och ett visst tryck tar upp 
+v&#228;rmeenergi och vid en h&#246;gre temperatur och ett h&#246;gre tryck 
+avger v&#228;rmeenergi, vanligen med ett &#228;ndrat 
+aggregationstillst&#229;nd,
+
+k&#246;ldmediesystem: sammankopplade k&#246;ldmedieh&#229;llande delar som 
+bildar en sluten krets som ett k&#246;ldmedium cirkulerar i f&#246;r 
+att uppta eller avge energi,
+
+anl&#228;ggning: de kyl-, luftkonditionerings- eller 
+v&#228;rmepumpsutrustningar som anv&#228;nds i en och samma verksamhet 
+av samma operat&#246;r,
+
+mobil utrustning: mobil utrustning som inneh&#229;ller ett 
+k&#246;ldmedium,
+
+luftkonditioneringsutrustning i fordon: en utrustning i ett 
+fordon, som inneh&#229;ller ett k&#246;ldmedium och &#228;r avsedd f&#246;r 
+luftkonditionering i fordonet,
+
+personal: en fysisk person som utf&#246;r ett arbete,
+
+ingrepp i k&#246;ldmediesystem: en &#229;tg&#228;rd som inneb&#228;r att n&#229;gon 
+del av k&#246;ldmediesystemet &#246;ppnas, oavsett om systemet &#228;r 
+trycksatt eller inte, eller en &#229;tg&#228;rd p&#229; en kringutrustning 
+som kan p&#229;verka systemets s&#228;kerhet mot k&#246;ldmedieutsl&#228;pp, 
+och
+
+konvertering: en &#229;tg&#228;rd som inneb&#228;r att fluorkolv&#228;ten 
+(HFC) i en kyl-, luftkonditionerings- eller 
+v&#228;rmepumpsutrustning byts ut mot ett annat k&#246;ldmedium.
+
+5 &#167; I &#246;vrigt har ord och uttryck i denna f&#246;rordning samma 
+betydelse som i de EU-f&#246;rordningar som anges i 2 &#167;.
+
+F&#246;rbud
+
+6 &#167; Best&#228;mmelser om f&#246;rbud i denna f&#246;rordning g&#228;ller endast 
+om motsvarande f&#246;rbud inte redan f&#246;ljer av EU-f&#246;rordningen om 
+f-gaser. Best&#228;mmelser om undantag fr&#229;n f&#246;rbud enligt denna 
+f&#246;rordning f&#229;r inte till&#228;mpas i strid mot EU-f&#246;rordningen om 
+f-gaser.
+
+7 &#167; Det &#228;r f&#246;rbjudet att leverera k&#246;ldmedium till andra 
+mottagare &#228;n
+
+1. den som enligt denna f&#246;rordning f&#229;r fylla p&#229; f-gaser i 
+kyl-, luftkonditionerings- och v&#228;rmepumpsutrustning,
+
+2. den som tillverkar kyl-, luftkonditionerings- och 
+v&#228;rmepumpsutrustning som inneh&#229;ller f-gaser, och
+
+3. den som bedriver verksamhet f&#246;r rening eller destruktion 
+av f-gaser.
+
+Trots f&#246;rsta stycket f&#229;r k&#246;ldmedium som &#228;r avsett f&#246;r en 
+verksamhet f&#246;r forskning, utbildning och utveckling av kyl-, 
+luftkonditionerings- och v&#228;rmepumpsutrustning levereras till 
+den som bedriver verksamheten. Detsamma g&#228;ller k&#246;ldmedium som 
+&#228;r avsett f&#246;r verksamhet som bedrivs av F&#246;rsvarsmakten, 
+F&#246;rsvarets materielverk eller Fortifikationsverket.
+
+Drift- och sk&#246;tselinstruktioner
+
+8 &#167; Den som tillverkar en ny hermetiskt sluten utrustning ska 
+se till att utrustningen &#228;r f&#246;rsedd med noggranna och 
+l&#228;ttfattliga drift- och sk&#246;tselinstruktioner p&#229; svenska med 
+de anvisningar som beh&#246;vs f&#246;r att f&#246;rebygga utsl&#228;pp av 
+k&#246;ldmedium. 
+
+Station&#228;r hermetiskt sluten utrustning och mobil utrustning 
+som inneh&#229;ller mindre &#228;n 5 ton koldioxidekvivalenter 
+k&#246;ldmedier beh&#246;ver dock inte f&#246;rses med drift- och 
+sk&#246;tselinstruktioner.
+
+9 &#167; Den som importerar eller till Sverige f&#246;r in en kyl-, 
+luftkonditionerings- eller v&#228;rmepumpsutrustning som &#228;r 
+tillverkad utomlands, eller installerar eller &#228;r operat&#246;r av 
+en ny s&#229;dan utrustning, ska se till att utrustningen &#228;r 
+f&#246;rsedd med noggranna och l&#228;ttfattliga drift- och 
+sk&#246;tselinstruktioner p&#229; svenska med de anvisningar som beh&#246;vs 
+f&#246;r att f&#246;rebygga utsl&#228;pp av k&#246;ldmedier.
+
+Station&#228;r hermetiskt sluten utrustning och mobil utrustning 
+som inneh&#229;ller mindre &#228;n 5 ton koldioxidekvivalenter 
+k&#246;ldmedium beh&#246;ver dock inte f&#246;rses med drift- och 
+sk&#246;tselinstruktioner. 
+
+L&#228;ckagekontroll och begr&#228;nsning av utsl&#228;pp
+
+10 &#167; Den som installerar en hermetiskt sluten utrustning 
+eller s&#228;tter en s&#229;dan utrustning i drift f&#246;r f&#246;rsta g&#229;ngen, 
+eller installerar, bygger om eller g&#246;r n&#229;got annat ingrepp i 
+k&#246;ldmediesystemet i en kyl-, luftkonditionerings- eller 
+v&#228;rmepumpsutrustning, ska se till att l&#228;ckagekontroll utf&#246;rs 
+i samband med arbetet.
+
+F&#246;rsta stycket g&#228;ller inte station&#228;r hermetiskt sluten 
+utrustning som inneh&#229;ller mindre &#228;n 5 ton 
+koldioxidekvivalenter f-gaser.
+
+11 &#167; Den som &#228;r operat&#246;r av en mobil kyl-, 
+luftkonditionerings- eller v&#228;rmepumpsutrustning ska i fr&#229;ga 
+om s&#229;dan utrustning vidta de f&#246;rebyggande &#229;tg&#228;rder mot 
+utsl&#228;pp av f-gaser som anges i artikel 3.2, 3.3, 4.1, 4.2, 
+4.3, 4.4 eller 5.1 i EU-f&#246;rordningen om f-gaser &#228;ven om 
+utrustningen inte omfattas av artikelns krav.
+
+&#197;tertagande av k&#246;ldmedium
+
+12 &#167; Den som yrkesm&#228;ssigt importerar eller &#246;verl&#229;ter 
+k&#246;ldmedier &#228;r skyldig att kostnadsfritt &#229;terta levererade 
+k&#246;ldmedier som omh&#228;ndertagits och tillhandah&#229;lla beh&#229;llare 
+f&#246;r det &#228;ndam&#229;let.
+
+Register f&#246;r mobil utrustning
+
+13 &#167; Den som &#228;r operat&#246;r av en mobil kyl-, 
+luftkonditionerings- eller v&#228;rmepumpsutrustning ska i fr&#229;ga 
+om s&#229;dan utrustning f&#246;ra register i enlighet med det som 
+anges i artikel 6.1, 6.2 och 6.3 i EU-f&#246;rordningen om f-gaser 
+&#228;ven om utrustningen inte omfattas av artikelns krav. 
+
+Underr&#228;ttelse och rapportering till tillsynsmyndigheten
+
+14 &#167; Den som &#228;r eller avser att bli operat&#246;r av en station&#228;r 
+kyl-, luftkonditionerings- eller v&#228;rmepumpsutrustning som 
+inneh&#229;ller 14 ton koldioxidekvivalenter eller mer ska innan 
+installation eller konvertering av s&#229;dan utrustning 
+underr&#228;tta tillsynsmyndigheten.
+
+En underr&#228;ttelse ska l&#228;mnas i s&#229; god tid att samr&#229;d om 
+&#229;tg&#228;rdens utformning och milj&#246;p&#229;verkan kan h&#229;llas med 
+tillsynsmyndigheten.
+
+F&#246;rsta stycket g&#228;ller inte
+
+1. f&#246;r en installation eller en konvertering till f&#246;ljd av 
+ett of&#246;rutsett haveri om omedelbara &#229;tg&#228;rder kr&#228;vs f&#246;r att 
+undvika ol&#228;genhet f&#246;r m&#228;nniskors h&#228;lsa eller milj&#246;n eller 
+betydande ekonomisk skada, eller
+
+2. om valet av utrustning och k&#246;ldmedium behandlas inom ramen 
+f&#246;r en ans&#246;kan om tillst&#229;nd eller en anm&#228;lan enligt 9 kap. 
+milj&#246;balken.
+
+15 &#167; Den som &#228;r operat&#246;r ska l&#228;mna en rapport till 
+tillsynsmyndigheten om det under n&#229;gon del av ett kalender&#229;r 
+finns minst 14 ton koldioxidekvivalenter i en station&#228;r 
+anl&#228;ggning, i en anl&#228;ggning p&#229; ett fartyg eller i en mobil 
+utrustning som omfattas av l&#228;ckagekontroll enligt 11 &#167; eller 
+enligt artikel 3.3 andra stycket och 4.1–4.3 i 
+EU-f&#246;rordningen om f-gaser. 
+
+Rapporten ska l&#228;mnas in senast den 31 mars &#229;ret efter 
+kalender&#229;ret och vara undertecknad av operat&#246;ren eller 
+f&#246;rsedd med dennes elektroniska underskrift.
+
+Rapporten ska inneh&#229;lla
+
+1. resultatet av de l&#228;ckagekontroller som gjorts under 
+kalender&#229;ret,
+
+2. information om utrustning som skrotats under 
+kalender&#229;ret,
+
+3. de uppgifter som anges i artikel 6.1 i f&#246;rordningen om 
+f-gaser,
+
+4. operat&#246;rens organisationsnummer, postadress och 
+faktureringsadress,
+
+5. adress till och fastighetsbeteckning p&#229; den fastighet d&#228;r 
+utrustningen finns, om utrustningen &#228;r station&#228;r,
+
+6. en f&#246;rteckning &#246;ver utrustningen, och
+
+7. i fr&#229;ga om utrustning p&#229; ett fartyg, fartygets namn, 
+signalbokst&#228;ver eller liknande.
+
+Certifiering f&#246;r personal och f&#246;retag
+
+16 &#167; Personal som utf&#246;r en l&#228;ckagekontroll enligt 10 eller 
+11 &#167; p&#229; kyl-, luftkonditionerings- eller 
+v&#228;rmepumpsutrustning ska ha ett personalcertifikat enligt 
+artiklarna 3 och 4 i genomf&#246;randef&#246;rordningen om 
+certifiering f&#246;r kyl- och v&#228;rmeutrustning.
+
+17 &#167; De krav p&#229; certifiering som anges i 
+genomf&#246;randef&#246;rordningen om certifiering f&#246;r kyl- och 
+v&#228;rmeutrustning ska ocks&#229; uppfyllas av personal som utf&#246;r 
+l&#228;ckagekontroll, &#229;tervinning, installation eller underh&#229;ll av 
+eller service p&#229; mobil utrustning som inneh&#229;ller f-gaser. 
+Certifieringen ska uppfylla kraven i artiklarna 3 och 4 i 
+genomf&#246;randef&#246;rordningen.
+
+18 &#167; De krav p&#229; certifiering som anges i 
+genomf&#246;randef&#246;rordningen om certifiering f&#246;r kyl- och 
+v&#228;rmeutrustning ska ocks&#229; uppfyllas av f&#246;retag som bedriver 
+verksamhet med l&#228;ckagekontroll, &#229;tervinning, installation 
+eller underh&#229;ll av eller service p&#229; mobil utrustning eller 
+luftkonditioneringsutrustning i fordon. Certifieringen ska 
+uppfylla kraven i artikel 6 i genomf&#246;randef&#246;rordningen.
+
+19 &#167; F&#246;r installation, service och underh&#229;ll av mobil 
+luftkonditioneringsutrustning i fordon &#228;r det trots 18 &#167; 
+tillr&#228;ckligt att 
+
+1. certifieringen avser de minimikrav p&#229; f&#228;rdigheter och 
+kunskaper enligt kategori I och II i bilaga I till 
+genomf&#246;randef&#246;rordningen om certifiering f&#246;r kyl- och 
+v&#228;rmeutrustning som &#228;r relevanta f&#246;r arbetet, eller
+
+2. arbetet leds av n&#229;gon som &#228;r certifierad och det finns 
+tillg&#229;ng till n&#246;dv&#228;ndiga verktyg och rutiner, om utrustningen 
+inneh&#229;ller mindre &#228;n 5 ton koldioxidekvivalenter 
+k&#246;ldmedier.
+
+20 &#167; Om det p&#229; ett fartyg till sj&#246;ss kan komma 
+att utf&#246;ras installation, ombyggnad, reparation eller andra 
+ingrepp p&#229; en kyl-, luftkonditionerings- eller 
+v&#228;rmepumpsutrustning, ska det p&#229; fartyget finnas
+
+1. n&#229;gon som &#228;r certifierad enligt kraven i artiklarna 3 och 
+4 i genomf&#246;randef&#246;rordningen om certifiering f&#246;r kyl- och 
+v&#228;rmeutrustning, och
+
+2. de verktyg som &#228;r n&#246;dv&#228;ndiga f&#246;r att arbetet ska kunna 
+utf&#246;ras p&#229; ett s&#229;dant s&#228;tt att tillr&#228;cklig s&#228;kerhet mot 
+utsl&#228;pp till atmosf&#228;ren uppn&#229;s.
+
+Sk&#246;tsel av anl&#228;ggningar
+
+21 &#167; En operat&#246;r ska se till att den som sk&#246;ter operat&#246;rens 
+anl&#228;ggning har kunskap om och erfarenhet av kyl-, 
+luftkonditionerings- eller v&#228;rmepumpsutrustningens funktion, 
+drift och sk&#246;tsel.
+
+F&#246;ruts&#228;ttningar f&#246;r att ett certifikat ska vara giltigt
+
+22 &#167; Ett certifikat enligt denna f&#246;rordning ska vara utf&#228;rdat 
+av ett certifieringsorgan som &#228;r ackrediterat f&#246;r de 
+uppgifter som certifikatet g&#228;ller och har sin 
+certifieringsverksamhet anm&#228;ld hos Naturv&#229;rdsverket.
+
+23 &#167; Ett personalcertifikat enligt artikel 4 i 
+genomf&#246;randef&#246;rordningen om certifiering f&#246;r kyl- och 
+v&#228;rmeutrustning ska vara utf&#228;rdat av n&#229;gon enligt 22 &#167; som 
+har
+
+1. rutiner f&#246;r att fortl&#246;pande bevaka att f&#246;ruts&#228;ttningarna 
+f&#246;r certifikatet &#228;r uppfyllda och vidta &#229;tg&#228;rder enligt 
+artikel 7 i genomf&#246;randef&#246;rordningen, och
+
+2. utsett ett s&#229;dant bed&#246;mningsorgan som avses i artiklarna 
+4.1 och 4.4 i genomf&#246;randef&#246;rordningen f&#246;r den kompetens som 
+certifikatet g&#228;ller.
+
+24 &#167; Ett f&#246;retagscertifikat enligt artikel 6 i 
+genomf&#246;randef&#246;rordningen om certifiering f&#246;r kyl- och 
+v&#228;rmeutrustning ska vara utf&#228;rdat av n&#229;gon enligt 22 &#167; som 
+har 
+
+1. rutiner f&#246;r att fortl&#246;pande bevaka att f&#246;ruts&#228;ttningarna 
+f&#246;r certifikatet &#228;r uppfyllda och vidta &#229;tg&#228;rder enligt 
+artikel 7 i genomf&#246;randef&#246;rordningen, och
+
+2. utsett ett s&#229;dant bed&#246;mningsorgan som avses i artikel 8 i 
+genomf&#246;randef&#246;rordningen f&#246;r den kompetens som certifikatet 
+g&#228;ller.
+
+25 &#167; Ett personalcertifikat enligt artikel 5 och ett 
+f&#246;retagscertifikat enligt artikel 8 i EU-f&#246;rordningen om 
+certifiering f&#246;r brandskyddssystem ska vara utf&#228;rdat av n&#229;gon 
+enligt 22 &#167; som har 
+
+1. rutiner f&#246;r att fortl&#246;pande bevaka att f&#246;ruts&#228;ttningarna 
+f&#246;r certifikatet &#228;r uppfyllda och vidta &#229;tg&#228;rder enligt 
+artikel 10 i EU-f&#246;rordningen, och
+
+2. utsett ett s&#229;dant utv&#228;rderingsorgan som avses i artiklarna 
+5.1 och 5.4 i EU-f&#246;rordningen f&#246;r den kompetens som 
+certifikatet g&#228;ller.
+
+26 &#167; Ett certifikat om s&#229;dana kunskaper och f&#228;rdigheter som 
+avses i artikel 3 i genomf&#246;randef&#246;rordningen om certifiering 
+f&#246;r elektriska brytare ska vara utf&#228;rdat av n&#229;gon enligt 22 &#167; 
+som 
+
+1. uppfyller kraven p&#229; opartiskhet i artikel 4.1 i 
+genomf&#246;randef&#246;rordningen,
+
+2. har kontrollerat att de f&#246;ruts&#228;ttningar som anges i 
+artikel 3 i genomf&#246;randef&#246;rordningen &#228;r uppfyllda, och
+
+3. har rutiner f&#246;r att fortl&#246;pande bevaka att 
+f&#246;ruts&#228;ttningarna f&#246;r certifikatet &#228;r uppfyllda och vidta 
+&#229;tg&#228;rder enligt artikel 4.2 i genomf&#246;randef&#246;rordningen.
+
+27 &#167; Ett f&#246;retagscertifikat enligt 24 eller 25 &#167; f&#229;r inte 
+vara &#228;ldre &#228;n fem &#229;r.
+
+28 &#167; Ett personalcertifikat enligt 23 eller 25 &#167; eller ett 
+certifikat enligt 26 &#167; f&#229;r i fr&#229;ga om utbildning i de 
+teoretiska momenten i bilagan till den angivna 
+EU-f&#246;rordningen inte avse en examination som &#228;r &#228;ldre &#228;n fem 
+&#229;r.
+
+F&#246;ruts&#228;ttningar f&#246;r att ett intyg ska vara giltigt
+
+29 &#167; Ett intyg enligt denna f&#246;rordning ska vara utf&#228;rdat av 
+ett certifieringsorgan som har ackrediterats f&#246;r att utf&#228;rda 
+personalcertifikat enligt 23 eller 25 &#167; och yrkesm&#228;ssigt 
+bedriver en intygsverksamhet som &#228;r anm&#228;ld hos 
+Naturv&#229;rdsverket.
+
+30 &#167; Ett intyg om s&#229;dana kunskaper och f&#228;rdigheter som avses 
+i artikel 3 i EU-f&#246;rordningen om utbildning f&#246;r 
+luftkonditionering i motorfordon ska vara utf&#228;rdat av n&#229;gon 
+enligt 29 &#167; som har kontrollerat att de f&#246;ruts&#228;ttningar som 
+anges i artikel 3 i EU-f&#246;rordningen &#228;r uppfyllda.
+
+Organ f&#246;r ackreditering och certifiering
+
+31 &#167; Ackreditering enligt 22 &#167; f&#246;rsta stycket ska vara gjord 
+av Styrelsen f&#246;r ackreditering och teknisk kontroll enligt 
+f&#246;rordning (EG) nr 765/2008 och lagen (2011:791) om 
+ackreditering och teknisk kontroll.
+
+32 &#167; Naturv&#229;rdsverket &#228;r det certifieringsorgan som avses i 
+artikel 4 i EU-f&#246;rordningen om certifiering f&#246;r l&#246;sningsmedel 
+och utser bed&#246;mningsorgan enligt artikel 5.1 i 
+EU-f&#246;rordningen.
+
+33 &#167; Om det f&#246;r en certifiering eller ett intyg inte finns 
+n&#229;got organ som har sin certifierings- eller intygsverksamhet 
+anm&#228;ld hos Naturv&#229;rdsverket, ska Naturv&#229;rdsverket pr&#246;va 
+fr&#229;gan om certifiering eller intyg.
+
+Undantag f&#246;r utl&#228;ndska certifikat och intyg
+
+34 &#167; Best&#228;mmelserna i 22–30 &#167;&#167; g&#228;ller inte om certifikatet 
+eller intyget
+
+1. har utf&#228;rdats i ett annat land i Europeiska unionen eller 
+Europeiska ekonomiska samarbetsomr&#229;det och enligt det landets 
+best&#228;mmelser uppfyller kraven i de angivna EU-f&#246;rordningarna 
+eller genomf&#246;randef&#246;rordningarna, och
+
+2. visas upp i &#246;vers&#228;ttning till svenska.
+
+Undantag f&#246;r kyl-, luftkonditionerings- och 
+v&#228;rmepumpsutrustningar f&#246;r icke yrkesm&#228;ssigt bruk
+
+35 &#167; Underr&#228;ttelseskyldigheten i 14 &#167; och rapporteringskravet 
+i 15 &#167; g&#228;ller inte kyl-, luftkonditionerings- eller 
+v&#228;rmepumpsutrustningar f&#246;r icke yrkesm&#228;ssigt bruk. 
+
+Undantag f&#246;r fordon som &#228;r registrerade i utlandet
+
+36 &#167; Rapporteringskravet i 15 &#167; och certifieringskravet i 
+16 &#167; g&#228;ller inte mobil utrustning i ett fordon som &#228;r 
+registrerat i utlandet.
+
+Undantag f&#246;r fartyg och rederier
+
+37 &#167; Kravet i 8 &#167; f&#246;rsta stycket och 9 &#167; att drift- och 
+sk&#246;tselinstruktioner ska vara utf&#228;rdade p&#229; svenska g&#228;ller 
+inte fartyg i internationell trafik. Drift- och 
+sk&#246;tselinstruktioner p&#229; s&#229;dana fartyg f&#229;r i st&#228;llet vara 
+utf&#228;rdade p&#229; engelska.
+
+38 &#167; Rapporteringskravet i 15 &#167; och certifieringskravet i 
+16 &#167; g&#228;ller inte mobil utrustning i ett fartyg som &#228;r 
+registrerat i utlandet. 
+
+39 &#167; Kravet p&#229; l&#228;ckagekontroll i 10 och 11 &#167;&#167; och 
+certifieringskravet i 17 &#167; g&#228;ller inte fartyg som under ett 
+kalender&#229;r aldrig anl&#246;per svensk hamn.
+
+40 &#167; Kravet p&#229; certifiering f&#246;r personer och f&#246;retag i 17 och 
+18 &#167;&#167; g&#228;ller inte arbeten som utf&#246;rs p&#229; F&#246;rsvarsmaktens 
+fartyg av en underh&#229;llsorganisation som &#228;r knuten till ett 
+fartygsf&#246;rband, om det i underh&#229;llsorganisationen ing&#229;r en 
+person som &#228;r certifierad enligt artiklarna 3 och 4 i 
+genomf&#246;randef&#246;rordningen om certifiering f&#246;r kyl- och 
+v&#228;rmeutrustning.
+
+41 &#167; Certifieringskravet i 16 &#167; g&#228;ller inte l&#228;ckagekontroll 
+enligt 10 &#167; som utf&#246;rs av ett rederi ombord p&#229; ett fartyg som 
+tillh&#246;r rederiet.
+
+42 &#167; Certifieringskravet i 18 &#167; g&#228;ller inte arbeten som 
+utf&#246;rs av ett rederi p&#229; ett fartyg som tillh&#246;r rederiet.
+
+Undantag f&#246;r forskning, utbildning och utveckling inom kyl- 
+och v&#228;rmeomr&#229;det
+
+43 &#167; Kravet p&#229; drift- och sk&#246;tselinstruktioner i 8 &#167; f&#246;rsta 
+stycket, kravet p&#229; l&#228;ckagekontroll i 10 &#167;, 
+&#229;tg&#228;rdsskyldigheten i 11 &#167;, registerkravet i 13 &#167;, 
+underr&#228;ttelseskyldigheten i 14 &#167;, rapporteringskravet i 15 &#167; 
+och certifieringskravet i 16 &#167; g&#228;ller inte kyl-, 
+luftkonditionerings- och v&#228;rmepumpsutrustningar som 
+inneh&#229;ller f-gaser och som enbart anv&#228;nds f&#246;r forskning, 
+utbildning och utveckling inom kyl- och v&#228;rmeomr&#229;det.
+
+Beh&#246;rig myndighet
+
+44 &#167; Naturv&#229;rdsverket &#228;r den beh&#246;riga myndighet som avses i 
+EU-f&#246;rordningen om f-gaser.
+
+45 &#167; Naturv&#229;rdsverket ska fullg&#246;ra de anm&#228;lningar som f&#246;ljer 
+av artikel 10.10 i EU-f&#246;rordningen om f-gaser.
+
+Tillsyn och avgifter
+
+46 &#167; Best&#228;mmelser om tillsyn finns i 26 kap. milj&#246;balken och i 
+milj&#246;tillsynsf&#246;rordningen (2011:13). 
+
+Best&#228;mmelser om det tillsynsansvar som h&#246;r samman med denna 
+f&#246;rordning finns i 2 kap. 4, 21, 27 och 29-32 &#167;&#167; 
+milj&#246;tillsynsf&#246;rordningen. 
+
+Best&#228;mmelser om avgifter finns i f&#246;rordningen (1998:940) om 
+avgifter f&#246;r pr&#246;vning och tillsyn enligt milj&#246;balken.
+F&#246;rordning (2020:655).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2016:1128
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2017 i fr&#229;ga om 
+16–20, 24 och 27 &#167;&#167; och i &#246;vrigt den 1 januari 2017.
+
+2. Genom f&#246;rordningen upph&#228;vs f&#246;rordningen (2007:846) om 
+fluorerade v&#228;xthusgaser och ozonnedbrytande &#228;mnen.
+
+3. F&#246;reskrifterna i 11 och 13 &#167;&#167; ska inte till&#228;mpas p&#229; mobil 
+utrustning i F&#246;rsvarsmakten, Fortifikationsverket och 
+F&#246;rsvarets materielverk under perioden 1 januari 2017 till 
+och med den 31 december 2020. &#196;ldre f&#246;reskrifter g&#228;ller f&#246;r 
+s&#229;dan utrustning under den perioden. 
+F&#246;rordning (2018:2049).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=913">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=915">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,826 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-04" /> 
+ <meta id="rattsinfo-edited" content="2024-01-04 11:16:00" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>167</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=166">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=168">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2022:1467 ·
+                    <a href="/sfsr?bet=2022:1467">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2022:1467) om statligt st&#246;d till regionala investeringar</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2022-11-17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:779
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2023-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om statligt st&#246;d 
+till f&#246;retag.
+
+Syftet med st&#246;det &#228;r att fr&#228;mja en h&#229;llbar tillv&#228;xt och st&#228;rka 
+konkurrenskraften i f&#246;retag och d&#228;rmed fr&#228;mja en h&#229;llbar 
+regional utveckling. 
+
+2 &#167; St&#246;d l&#228;mnas i form av bidrag om inte annat f&#246;ljer av denna 
+f&#246;rordning. St&#246;d l&#228;mnas i m&#229;n av medel.
+
+3 &#167; Inom ramen f&#246;r den regionala utvecklingspolitiken f&#229;r st&#246;d 
+enligt denna f&#246;rordning l&#228;mnas av Tillv&#228;xtverket. 
+
+St&#246;d f&#229;r &#228;ven l&#228;mnas av de regioner som beviljats tilldelning 
+av statliga medel. 
+
+4 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen. 
+
+I lagen (2010:630) om regionalt utvecklingsansvar finns 
+best&#228;mmelser om att regioner och Gotlands kommun ska besluta 
+om anv&#228;ndningen av vissa statliga medel f&#246;r regionalt 
+tillv&#228;xtarbete. 
+
+Det som s&#228;gs i denna f&#246;rordning om regioner g&#228;ller ocks&#229; f&#246;r 
+Gotlands kommun.
+
+5 &#167; Ord och uttryck som anv&#228;nds i denna f&#246;rordning har samma 
+betydelse som i 
+
+- kommissionens f&#246;rordning (EU) nr 651/2014 av den 17 juni 
+2014 genom vilken vissa kategorier av st&#246;d f&#246;rklaras f&#246;renliga 
+med den inre marknaden enligt artiklarna 107 och 108 i 
+f&#246;rdraget, och 
+
+- kommissionens f&#246;rordning (EU) nr 1407/2013 av den 
+18 december 2013 om till&#228;mpningen av artiklarna 107 och 108 i 
+f&#246;rdraget om Europeiska unionens funktionss&#228;tt p&#229; st&#246;d av 
+mindre betydelse. 
+
+6 &#167; Med st&#246;domr&#229;de 1, st&#246;domr&#229;de 2 respektive st&#246;domr&#229;de 3 
+avses i denna f&#246;rordning vissa kommuner eller delar av 
+kommuner som n&#228;rmare framg&#229;r av f&#246;rordningen (1999:1382) om 
+st&#246;domr&#229;den f&#246;r vissa regionala f&#246;retagsst&#246;d. 
+
+St&#246;domr&#229;de 1, st&#246;domr&#229;de 2 och st&#246;domr&#229;de 3 ska, om de ing&#229;r i 
+den godk&#228;nda regionalst&#246;dskartan f&#246;r den aktuella perioden, 
+anses vara st&#246;domr&#229;den i den mening som avses i artikel 2.27 i 
+f&#246;rordning (EU) nr 651/2014 med till&#228;mpning av artikel 107.3 c 
+i f&#246;rdraget om Europeiska unionens funktionss&#228;tt.
+
+7 &#167; Med glesbygd avses i denna f&#246;rordning stora sammanh&#228;ngande 
+omr&#229;den med gles bebyggelse och l&#229;nga avst&#229;nd till st&#246;rre 
+orter, syssel-s&#228;ttning och service. 
+
+Med sk&#228;rg&#229;rd avses i denna f&#246;rordning &#246;ar l&#228;ngs kusterna 
+liksom angr&#228;nsande fastlandsomr&#229;den och &#246;ar i st&#246;rre insj&#246;ar 
+d&#228;r f&#246;rh&#229;llandena i &#246;vrigt kan j&#228;mf&#246;ras med sk&#228;rg&#229;rden. 
+
+L&#228;nsstyrelsen f&#229;r, efter att ha gett Tillv&#228;xtverket och 
+angr&#228;nsande l&#228;nsstyrelser tillf&#228;lle att yttra sig, meddela 
+f&#246;reskrifter om vilka omr&#229;den inom ett l&#228;n som enligt denna 
+f&#246;rordning ska anses som glesbygd. 
+
+F&#246;ruts&#228;ttningar f&#246;r st&#246;d
+
+8 &#167; St&#246;d till f&#246;retag f&#229;r endast l&#228;mnas under f&#246;ruts&#228;ttning 
+att 
+
+1. ans&#246;kan om st&#246;d har l&#228;mnats in innan &#229;tg&#228;rden har 
+p&#229;b&#246;rjats, 
+
+2. l&#246;ner och andra anst&#228;llningsf&#246;rm&#229;ner hos f&#246;retaget f&#246;ljer 
+av kollektivavtal eller &#228;r likv&#228;rdiga med l&#246;ner och andra 
+anst&#228;llningsf&#246;rm&#229;ner enligt kollektivavtal inom branschen, och 
+
+3. de s&#228;rskilda f&#246;ruts&#228;ttningarna f&#246;r st&#246;det enligt 9-26 &#167;&#167; &#228;r 
+uppfyllda. 
+
+St&#246;d f&#246;r till&#228;ggsinvesteringar eller &#246;kade kostnader som har 
+uppkommit sedan &#229;tg&#228;rden p&#229;b&#246;rjades f&#229;r l&#228;mnas endast om det 
+finns synnerliga sk&#228;l. 
+
+St&#246;d enligt 13 och 20 &#167;&#167; f&#229;r l&#228;mnas trots att 
+f&#246;ruts&#228;ttningarna enligt 8 &#167; 1 inte &#228;r uppfyllda. 
+
+Regionalt investeringsst&#246;d 
+
+9 &#167; St&#246;d i form av regionalt investeringsst&#246;d f&#229;r l&#228;mnas i 
+enlighet med kapitel I och artikel 13 och artikel 14.1-14.16 i 
+f&#246;rordning (EU) nr 651/2014, med de begr&#228;nsningar som f&#246;ljer 
+av 10 och 11 &#167;&#167;. F&#246;rordning (2023:779).
+
+10 &#167; Regionalt investeringsst&#246;d f&#229;r l&#228;mnas i st&#246;domr&#229;de 1, 
+st&#246;domr&#229;de 2 och st&#246;domr&#229;de 3 med f&#246;ljande st&#246;dniv&#229;er:
+
+- I st&#246;domr&#229;de 1 f&#229;r regionalt investeringsst&#246;d l&#228;mnas med 
+h&#246;gst 40 procent f&#246;r sm&#229; f&#246;retag, med h&#246;gst 30 procent f&#246;r 
+medelstora f&#246;retag och med h&#246;gst 20 procent f&#246;r stora f&#246;retag.
+
+- I st&#246;domr&#229;de 2 f&#229;r regionalt investeringsst&#246;d l&#228;mnas med 
+h&#246;gst 35 procent f&#246;r sm&#229; f&#246;retag, med h&#246;gst 25 procent f&#246;r 
+medelstora f&#246;retag och med h&#246;gst 15 procent f&#246;r stora f&#246;retag. 
+
+- I st&#246;domr&#229;de 3 f&#229;r regionalt investeringsst&#246;d l&#228;mnas med 
+h&#246;gst 30 procent f&#246;r sm&#229; f&#246;retag, med h&#246;gst 20 procent f&#246;r 
+medelstora f&#246;retag och med h&#246;gst 10 procent f&#246;r stora f&#246;retag. 
+
+Trots f&#246;rsta stycket ska de h&#246;gsta till&#229;tna st&#246;dniv&#229;erna f&#246;r 
+stora f&#246;retag till&#228;mpas &#228;ven p&#229; sm&#229; och medelstora f&#246;retag i 
+fr&#229;ga om st&#246;d till stora investeringsprojekt.
+
+11 &#167; Regionalt investeringsst&#246;d f&#229;r l&#228;mnas f&#246;r verksamhet som 
+bed&#246;ms
+
+1. f&#229; betydelse f&#246;r n&#228;ringslivets utveckling i regionen eller 
+annars ha s&#228;rskild betydelse f&#246;r den regionala utvecklingen, 
+och
+
+2. kunna uppn&#229; l&#246;nsamhet och en varaktig syssels&#228;ttning f&#246;r de 
+anst&#228;llda. 
+
+Investeringsst&#246;d till sm&#229; och medelstora f&#246;retag 
+
+12 &#167; St&#246;d i form av investeringsst&#246;d till sm&#229; och medelstora 
+f&#246;retag f&#229;r l&#228;mnas i enlighet med kapitel I och artikel 17 i 
+f&#246;rordning (EU) nr 651/2014. 
+
+St&#246;d f&#229;r endast l&#228;mnas f&#246;r verksamhet som bed&#246;ms kunna uppn&#229; 
+l&#246;nsamhet och en varaktig syssels&#228;ttning f&#246;r de anst&#228;llda.
+
+St&#246;d till nystartade f&#246;retag
+
+13 &#167; St&#246;d till nystartade f&#246;retag f&#229;r l&#228;mnas i enlighet med 
+kapitel I och artikel 22 i f&#246;rordning (EU) nr 651/2014, med de 
+begr&#228;nsningar som f&#246;ljer av 14 och 15 &#167;&#167;. 
+
+14 &#167; St&#246;d till nystartade f&#246;retag f&#229;r endast l&#228;mnas till sm&#229; 
+f&#246;retag som &#228;r innovativa f&#246;retag. 
+
+Med innovativa f&#246;retag avses i denna best&#228;mmelse f&#246;retag som 
+kan visa att det inom &#246;versk&#229;dlig framtid kommer att utveckla 
+produkter, tj&#228;nster eller processer som &#228;r nyskapande eller 
+v&#228;sentligt f&#246;rb&#228;ttrade p&#229; marknaden.
+
+15 &#167; St&#246;d till nystartade f&#246;retag f&#229;r inte l&#228;mnas i form av 
+investeringar i eget kapital. 
+
+Best&#228;mmelserna om h&#246;jda st&#246;dniv&#229;er f&#246;r f&#246;retag etablerade i 
+st&#246;domr&#229;den i artikel 22.3 i f&#246;rordning (EU) nr 651/2014 &#228;r 
+inte till&#228;mpliga.
+
+Investeringsst&#246;d till forskningsinfrastruktur 
+
+16 &#167; St&#246;d i form av investeringsst&#246;d till 
+forskningsinfrastruktur f&#229;r l&#228;mnas i enlighet med kapitel I 
+och artikel 26 i f&#246;rordning (EU) nr 651/2014.
+
+Investeringsst&#246;d till testnings- och experimentinfrastruktur
+
+16 a &#167; St&#246;d i form av investeringsst&#246;d till testnings- och 
+experimentinfrastruktur f&#229;r l&#228;mnas i enlighet med kapitel I 
+och artikel 26a i f&#246;rordning (EU) nr 651/2014.
+F&#246;rordning (2023:779).
+
+Investeringsst&#246;d till laddnings- eller tankningsinfrastruktur
+
+16 b &#167; St&#246;d i form av investeringsst&#246;d till laddnings- eller 
+tankningsinfrastruktur f&#229;r l&#228;mnas i enlighet med kapitel I och 
+artikel 36a i f&#246;rordning (EU) nr 651/2014. 
+F&#246;rordning (2023:779).
+
+Investeringsst&#246;d till andra energieffektivitets&#229;tg&#228;rder &#228;n i 
+byggnader 
+
+17 &#167; St&#246;d i form av investeringsst&#246;d till andra 
+energieffektivitets&#229;tg&#228;rder &#228;n i byggnader f&#229;r l&#228;mnas i 
+enlighet med kapitel I och artikel 38.1-38.5 och 38.7-38.8 i 
+f&#246;rordning (EU) nr 651/2014. F&#246;rordning (2023:779).
+
+Investeringsst&#246;d till energieffektivitets&#229;tg&#228;rder i byggnader
+
+17 a &#167; St&#246;d i form av investeringsst&#246;d till 
+energieffektivitets&#229;tg&#228;rder i byggnader f&#229;r l&#228;mnas i enlighet 
+med kapitel I och artikel 38a i f&#246;rordning (EU) nr 651/2014.
+F&#246;rordning (2023:779).
+
+Investeringsst&#246;d till resurseffektivitet och till att st&#246;dja 
+&#246;verg&#229;ngen till en cirkul&#228;r ekonomi
+
+18 &#167; St&#246;d i form av investeringsst&#246;d till resurseffektivitet 
+och till att st&#246;dja &#246;verg&#229;ngen till en cirkul&#228;r ekonomi f&#229;r 
+l&#228;mnas i enlighet med kapitel I och artikel 47.1-47.8 och 
+47.10 i f&#246;rordning (EU) nr 651/2014. F&#246;rordning (2023:779).
+
+St&#246;d till fasta bredbandsn&#228;t
+
+19 &#167; St&#246;d till fasta bredbandsn&#228;t f&#246;r utbyggnad av accessn&#228;t 
+f&#229;r l&#228;mnas i enlighet med kapitel I och artikel 52 i 
+f&#246;rordning (EU) nr 651/2014 och endast genom medfinansiering 
+inom programmet f&#246;r Europeiska regionala utvecklingsfonden f&#246;r 
+&#214;vre Norrland 2021-2027 enligt f&#246;rordningen (2022:1379) om 
+f&#246;rvaltning av program f&#246;r vissa EU-fonder.
+
+St&#246;d f&#229;r l&#228;mnas med h&#246;gst 60 procent av de st&#246;dber&#228;ttigande 
+kostnaderna. F&#246;rordning (2023:779).
+
+St&#246;d till backhauln&#228;t
+
+19 a &#167; St&#246;d till backhauln&#228;t f&#229;r l&#228;mnas i enlighet med kapitel 
+I och artikel 52d i f&#246;rordning (EU) nr 651/2014. 
+
+St&#246;d f&#229;r l&#228;mnas med h&#246;gst 50 procent av de st&#246;dber&#228;ttigande 
+kostnaderna. 
+
+St&#246;d f&#229;r l&#228;mnas med h&#246;gst 60 procent av de st&#246;dber&#228;ttigande 
+kostnaderna, om medfinansiering l&#228;mnas till en &#229;tg&#228;rd enligt 
+f&#246;rsta stycket inom programmet f&#246;r Europeiska regionala 
+utvecklingsfonden f&#246;r Mellersta Norrland 2021-2027 och 
+programmet f&#246;r Europeiska regionala utvecklingsfonden f&#246;r &#214;vre 
+Norrland 2021-2027 enligt f&#246;rordningen (2022:1379) om 
+f&#246;rvaltning av program f&#246;r vissa EU-fonder. 
+F&#246;rordning (2023:779).
+
+St&#246;d till kultur och bevarande av kulturarvet 
+
+20 &#167; St&#246;d till kultur och bevarande av kulturarvet f&#229;r l&#228;mnas 
+i enlighet med kapitel I och artikel 53.1-3a, 53.4, 53.6 och 
+53.8 i f&#246;rordning (EU) nr 651/2014.
+
+St&#246;d till idrottsinfrastruktur och multifunktionell 
+rekreationsinfrastruktur 
+
+21 &#167; St&#246;d till idrottsinfrastruktur och multifunktionell 
+rekreationsinfrastruktur f&#229;r l&#228;mnas i enlighet med kapitel I 
+och artikel 55.1-7a, 55.8, 55.10 och 55.12 i f&#246;rordning (EU) 
+nr 651/2014.
+
+Investeringsst&#246;d till lokal infrastruktur 
+
+22 &#167; St&#246;d i form av investeringsst&#246;d till lokal infrastruktur 
+f&#229;r l&#228;mnas i enlighet med kapitel I och artikel 56 i 
+f&#246;rordning (EU) nr 651/2014. 
+
+Trots f&#246;rsta stycket f&#229;r investeringsst&#246;d inte l&#228;mnas till 
+forskningsinfrastruktur eller bredbandsinfrastruktur.
+
+S&#228;rskilt investeringsst&#246;d till sm&#229; och medelstora f&#246;retag 
+
+23 &#167; St&#246;d i form av investeringsst&#246;d till sm&#229; och medelstora 
+f&#246;retag f&#229;r l&#228;mnas i enlighet med f&#246;rordning (EU) 
+nr 1407/2013, med de begr&#228;nsningar som f&#246;ljer av 24-26 &#167;&#167;.
+
+24 &#167; Investeringsst&#246;d till sm&#229; och medelstora f&#246;retag f&#229;r 
+endast l&#228;mnas f&#246;r investeringar i 
+
+1. byggnader eller anl&#228;ggningar som &#228;r avsedda f&#246;r 
+stadigvarande bruk, 
+
+2. maskiner eller andra inventarier, dock inte fordon, och 
+
+3. b&#229;tar som &#228;r n&#246;dv&#228;ndiga f&#246;r drift av f&#246;retag i sk&#228;rg&#229;rd.
+
+St&#246;d f&#229;r &#228;ven l&#228;mnas f&#246;r andra n&#246;dv&#228;ndiga kostnader som har 
+ett direkt samband med den investering som avses i f&#246;rsta 
+stycket. St&#246;d f&#246;r andra n&#246;dv&#228;ndiga kostnader f&#229;r l&#228;mnas med 
+ett belopp som motsvarar h&#246;gst 30 procent av det totala 
+st&#246;dbeloppet. 
+
+St&#246;det f&#229;r endast l&#228;mnas f&#246;r verksamhet som bed&#246;ms kunna uppn&#229; 
+l&#246;nsamhet och en varaktig syssels&#228;ttning f&#246;r de anst&#228;llda.
+
+25 &#167; Investeringsst&#246;d till sm&#229; och medelstora f&#246;retag f&#229;r inte 
+l&#228;mnas till ett f&#246;retag som har skulder f&#246;r svenska skatter 
+eller avgifter hos Kronofogdemyndigheten eller som &#228;r i 
+likvidation eller f&#246;rsatt i konkurs. 
+
+26 &#167; Investeringsst&#246;d till sm&#229; och medelstora f&#246;retag f&#229;r 
+l&#228;mnas med h&#246;gst ett belopp som motsvarar 
+
+- 50 procent av de kostnader som godk&#228;nts f&#246;r investeringen om 
+investeringen sker i glesbygd, 
+
+- 35 procent av de kostnader som godk&#228;nts f&#246;r investeringen om 
+investeringen sker utanf&#246;r glesbygd men inom st&#246;domr&#229;de 1, 
+st&#246;domr&#229;de 2 eller st&#246;domr&#229;de 3, eller
+
+- 25 procent av de kostnader som godk&#228;nts f&#246;r investeringen om 
+investeringen sker utanf&#246;r glesbygd eller st&#246;domr&#229;den.
+
+St&#246;dets storlek
+
+27 &#167; St&#246;d som l&#228;mnas f&#229;r inte vara st&#246;rre &#228;n vad som beh&#246;vs 
+med h&#228;nsyn till &#246;vriga finansieringsm&#246;jligheter och andra 
+omst&#228;ndigheter f&#246;r att den &#229;tg&#228;rd som st&#246;det avser ska kunna 
+genomf&#246;ras. 
+
+Handl&#228;ggning av st&#246;d&#228;renden 
+
+28 &#167; Regionerna pr&#246;var fr&#229;gor om st&#246;d enligt 9, 12, 13 och 
+16-23 &#167;&#167;. 
+
+Trots f&#246;rsta stycket ska fr&#229;gor om st&#246;d enligt 9 &#167; pr&#246;vas av 
+Tillv&#228;xtverket om 
+
+1. den totala investeringskostnaden som ligger till grund f&#246;r 
+ans&#246;kan &#246;verstiger 25 miljoner kronor, 
+
+2. ans&#246;kan avser en &#229;tg&#228;rd som inneb&#228;r att en verksamhet 
+flyttas fr&#229;n ett l&#228;n till ett annat, eller
+
+3. ans&#246;kan avser st&#246;d till till&#228;ggsinvesteringar eller till 
+&#246;kade kostnader som har uppkommit sedan &#229;tg&#228;rden p&#229;b&#246;rjades. 
+
+Tillv&#228;xtverket ska ge regionen, eller i till&#228;mpliga fall 
+regionerna, tillf&#228;lle att yttra sig innan ett beslut om st&#246;d 
+enligt andra stycket fattas, om det inte &#228;r uppenbart 
+obeh&#246;vligt. 
+
+29 &#167; En ans&#246;kan om st&#246;d ska ges in till den myndighet som 
+ansvarar f&#246;r utlysningen. 
+
+Ans&#246;kan ska vara skriftlig och undertecknad av s&#246;kanden. 
+Ans&#246;kan ska inneh&#229;lla en beskrivning av den &#229;tg&#228;rd som st&#246;det 
+avser, uppgifter om annat st&#246;d som f&#246;retaget tidigare ans&#246;kt 
+om eller beviljats och som avser samma st&#246;dber&#228;ttigande 
+kostnader som det st&#246;d som omfattas av ans&#246;kan samt de &#246;vriga 
+uppgifter som beh&#246;vs f&#246;r pr&#246;vningen av ans&#246;kan. 
+
+30 &#167; Om ans&#246;kan avser st&#246;d som omfattas av f&#246;rordning (EU) nr 
+1407/2013 ska den &#228;ven inneh&#229;lla en redog&#246;relse f&#246;r allt annat 
+st&#246;d av mindre betydelse som f&#246;retaget beviljats under de tv&#229; 
+f&#246;reg&#229;ende beskattnings&#229;ren och det innevarande 
+beskattnings&#229;ret.
+
+31 &#167; St&#246;dgivaren ska prioritera mellan inkomna ans&#246;kningar som 
+uppfyller f&#246;ruts&#228;ttningarna f&#246;r st&#246;d och ge f&#246;retr&#228;de till de 
+ans&#246;kningar som bed&#246;ms ha b&#228;st f&#246;ruts&#228;ttningar att uppfylla 
+det syfte med st&#246;det som anges i 1 &#167; andra stycket. 
+
+32 &#167; Om ans&#246;kan avser st&#246;d som omfattas av f&#246;rordning (EU) nr 
+1407/2013 ska st&#246;dgivaren innan den beviljar st&#246;d 
+
+1. l&#228;mna de upplysningar till st&#246;dmottagaren som framg&#229;r av 
+artikel 6.1 i den f&#246;rordningen, och 
+
+2. kontrollera att det sammanlagda st&#246;det av mindre betydelse 
+inte &#246;verskrider det tak som f&#246;ljer av artikel 6.3 i den 
+f&#246;rordningen. 
+
+33 &#167; Om uppgifter om ett st&#246;d till ett f&#246;retag ska 
+offentligg&#246;ras enligt artikel 9 i f&#246;rordning (EU) nr 651/2014, 
+f&#229;r st&#246;det endast beviljas om f&#246;retaget samtycker till 
+offentligg&#246;randet.
+
+Beslut om st&#246;d 
+
+34 &#167; Ett beslut om st&#246;d ska inneh&#229;lla uppgifter om den &#229;tg&#228;rd 
+som f&#246;retaget ska genomf&#246;ra. 
+
+35 &#167; Ett beslut om st&#246;d enligt 9 eller 18 &#167; ska f&#246;renas med 
+villkor om att st&#246;dmottagaren inte ans&#246;ker om st&#246;d f&#246;r 
+&#229;tg&#228;rden inom det nationella programmet f&#246;r Fonden f&#246;r en 
+r&#228;ttvis omst&#228;llning 2021-2027.
+
+Ett beslut om st&#246;d enligt 16, 19 eller 19 a &#167;&#167; ska, i 
+till&#228;mpliga fall, f&#246;renas med villkor om s&#229;dan &#246;vervakning och 
+&#229;terbetalning eller &#229;tervinning som avses i artikel 26.7, 
+artikel 52.10 respektive artikel 52d.9 i f&#246;rordning (EU) nr 
+651/2014.
+
+Ett beslut f&#229;r f&#246;renas med de ytterligare villkor som kr&#228;vs 
+f&#246;r att syftet med st&#246;det ska tillgodoses. Villkoren ska 
+framg&#229; av beslutet. F&#246;rordning (2023:779).
+
+S&#228;kerhet 
+
+36 &#167; St&#246;dgivaren ska vid beslut om st&#246;d enligt 9 &#167; pr&#246;va om 
+s&#228;kerhet ska st&#228;llas f&#246;r de &#229;terkrav som st&#246;dmottagaren genom 
+beslut enligt 47 &#167;, 48 &#167; f&#246;rsta stycket 2 eller 49 &#167; f&#246;rsta 
+stycket 2 kan bli skyldig att betala. 
+
+Vid pr&#246;vningen enligt f&#246;rsta stycket ska h&#228;nsyn tas till 
+st&#246;dets storlek, st&#246;dmottagarens ekonomiska st&#228;llning och 
+&#246;vriga omst&#228;ndigheter.
+
+37 &#167; S&#228;kerheten ska, om det inte finns s&#228;rskilda sk&#228;l, best&#229; 
+av full eller begr&#228;nsad borgen. S&#228;kerheten ska st&#228;llas av den 
+som, direkt eller indirekt, har ett v&#228;sentligt inflytande &#246;ver 
+f&#246;retaget.
+
+S&#228;kerheten ska st&#228;llas f&#246;r fem &#229;r eller f&#246;r den tid som anges 
+i st&#246;dbeslutet enligt 45 &#167; andra stycket. 
+
+Utbetalning av st&#246;d 
+
+38 &#167; St&#246;det betalas ut allteftersom st&#246;dmottagaren redovisar 
+genomf&#246;rda &#229;tg&#228;rder.
+
+39 &#167; Ett st&#246;d enligt 9, 12, 13 och 16-22 &#167;&#167; f&#229;r inte betalas 
+ut till ett f&#246;retag som &#228;r f&#246;rem&#229;l f&#246;r betalningskrav p&#229; grund 
+av ett beslut av Europeiska kommissionen som f&#246;rklarar ett 
+st&#246;d beviljat av en svensk st&#246;dgivare olagligt och of&#246;renligt 
+med den inre marknaden.
+
+40 &#167; Om st&#246;dgivaren har beslutat att s&#228;kerhet ska st&#228;llas f&#229;r 
+st&#246;d enligt 9 &#167; inte betalas ut f&#246;rr&#228;n st&#246;dmottagaren har 
+st&#228;llt s&#228;kerhet enligt 37 &#167;. 
+
+41 &#167; St&#246;dgivaren ska besluta att ett st&#246;d helt eller delvis 
+inte ska betalas ut om 
+
+1. den som har ans&#246;kt om st&#246;d genom att l&#228;mna oriktiga 
+uppgifter eller p&#229; n&#229;got annat s&#228;tt har f&#246;rorsakat att st&#246;det 
+beviljats felaktigt eller med f&#246;r h&#246;gt belopp,
+
+2. st&#246;det av n&#229;got annat sk&#228;l har beviljats felaktigt eller 
+med f&#246;r h&#246;gt belopp och mottagaren sk&#228;ligen borde ha insett 
+detta,
+
+3. st&#246;det inte har utnyttjats eller anv&#228;nts eller det finns 
+anledning att anta att st&#246;det inte kommer att utnyttjas eller 
+anv&#228;ndas f&#246;r det &#228;ndam&#229;l som det har beviljats f&#246;r, eller
+
+4. villkoren f&#246;r st&#246;det inte har f&#246;ljts.
+
+Uppf&#246;ljning och utv&#228;rdering
+
+42 &#167; St&#246;dgivaren ansvarar f&#246;r uppf&#246;ljning av st&#246;d som betalats 
+ut enligt denna f&#246;rordning.
+
+En st&#246;dmottagare ska p&#229; st&#246;dgivarens beg&#228;ran l&#228;mna de 
+uppgifter som beh&#246;vs f&#246;r uppf&#246;ljning av den &#229;tg&#228;rd som st&#246;d 
+har l&#228;mnats f&#246;r.
+
+43 &#167; Den som tagit emot st&#246;d enligt 9 &#167; ska ut&#246;ver vad som 
+f&#246;ljer av 42 &#167; skriftligen underr&#228;tta st&#246;dgivaren, om 
+
+1. verksamheten l&#228;ggs ned helt eller delvis, 
+
+2. den st&#228;llda s&#228;kerheten f&#246;rs&#228;mras, eller
+
+3. beslut om &#229;tg&#228;rder fattas som medf&#246;r en direkt eller 
+indirekt &#228;ndring i &#228;gander&#228;tten till det f&#246;retag som har 
+beviljats st&#246;det.
+
+Skyldigheten att underr&#228;tta st&#246;dgivaren g&#228;ller fr&#229;n f&#246;rsta 
+utbetalningen av st&#246;det och d&#228;refter i fem &#229;r fr&#229;n det att 
+st&#246;det slutligt har betalats ut eller under den tid som anges 
+i st&#246;dbeslutet enligt 45 &#167; andra stycket.
+
+&#197;terbetalning och &#229;terkrav
+
+44 &#167; En st&#246;dmottagare &#228;r &#229;terbetalningsskyldig om det finns 
+n&#229;gon grund f&#246;r det enligt 41 &#167;. 
+
+P&#229; det belopp som en st&#246;dmottagare &#228;r &#229;terbetalningsskyldig 
+f&#246;r ska r&#228;nta betalas fr&#229;n och med den dag som infaller en 
+m&#229;nad efter det att beslutet om &#229;terkrav enligt 47 &#167; har 
+fattats och efter en r&#228;ntesats som vid varje tidpunkt 
+&#246;verstiger statens utl&#229;ningsr&#228;nta med tv&#229; procentenheter.
+
+45 &#167; Den som tagit emot st&#246;d enligt 9 &#167; &#228;r, ut&#246;ver vad som 
+f&#246;ljer av 44 &#167;, helt eller delvis &#229;terbetalningsskyldig om
+
+1. n&#229;gon v&#228;sentlig del av verksamheten l&#228;ggs ned, 
+
+2. den st&#228;llda s&#228;kerheten v&#228;sentligen f&#246;rs&#228;mras, eller
+
+3. beslut om &#229;tg&#228;rder fattas som medf&#246;r en v&#228;sentlig direkt 
+eller indirekt &#228;ndring i &#228;gander&#228;tten till det f&#246;retag som har 
+beviljats st&#246;det. 
+
+&#197;terbetalningsskyldigheten g&#228;ller i fem &#229;r fr&#229;n det att st&#246;det 
+slutligt har betalats ut. Om det finns s&#228;rskilda sk&#228;l f&#229;r 
+st&#246;dgivaren i st&#246;dbeslutet ange att &#229;terbetalningsskyldigheten 
+ska g&#228;lla i h&#246;gst tio &#229;r. 
+
+P&#229; det belopp som en st&#246;dmottagare &#228;r &#229;terbetalningsskyldig 
+f&#246;r ska r&#228;nta betalas fr&#229;n och med den dag som infaller en 
+m&#229;nad efter det att beslutet om &#229;terkrav enligt 47 &#167;, 48 &#167; 
+f&#246;rsta stycket 2 eller 49 &#167; f&#246;rsta stycket 2 har fattats och 
+efter en r&#228;ntesats som vid varje tidpunkt &#246;verstiger statens 
+utl&#229;ningsr&#228;nta med tv&#229; procentenheter.
+
+46 &#167; St&#246;dmottagarens &#229;terbetalningsskyldighet enligt 45 &#167; 
+upph&#246;r successivt under den tidsperiod som anges i 45 &#167; andra 
+stycket. St&#246;dbeloppet som st&#246;dmottagaren &#228;r 
+&#229;terbetalningsskyldig f&#246;r minskar &#229;rligen med 30, 25, 20, 15 
+respektive 10 procent av det slutligt utbetalda st&#246;dbeloppet. 
+
+Om det finns s&#228;rskilda sk&#228;l, f&#229;r st&#246;dgivaren i st&#246;dbeslutet 
+ange att beloppet ska minskas p&#229; ett annat s&#228;tt. 
+
+47 &#167; Om en st&#246;dmottagare &#228;r &#229;terbetalningsskyldig enligt 44 &#167; 
+eller 45 &#167; f&#246;rsta stycket 1, ska st&#246;dgivaren besluta att helt 
+eller delvis kr&#228;va tillbaka st&#246;det tillsammans med r&#228;nta. 
+Kravet eller r&#228;ntan f&#229;r helt eller delvis s&#228;ttas ned om det 
+finns s&#228;rskilda sk&#228;l. 
+
+48 &#167; Om en st&#246;dmottagare &#228;r &#229;terbetalningsskyldig enligt 45 &#167; 
+f&#246;rsta stycket 2, ska st&#246;dgivaren ompr&#246;va fr&#229;gan om st&#246;d. 
+St&#246;dgivaren f&#229;r d&#229; 
+
+1. besluta om &#228;ndring av s&#228;kerheten, eller
+
+2. besluta att helt eller delvis kr&#228;va tillbaka st&#246;det 
+tillsammans med r&#228;nta.
+
+Kravet eller r&#228;ntan f&#229;r helt eller delvis s&#228;ttas ned om det 
+finns s&#228;rskilda sk&#228;l. 
+
+49 &#167; Om en st&#246;dmottagare &#228;r &#229;terbetalningsskyldig enligt 45 &#167; 
+f&#246;rsta stycket 3, ska st&#246;dgivaren ompr&#246;va fr&#229;gan om st&#246;d. 
+St&#246;dgivaren f&#229;r d&#229;
+
+1. besluta att st&#246;det &#246;vertas p&#229; of&#246;r&#228;ndrade villkor av den 
+nya &#228;garen, eller 
+
+2. besluta att helt eller delvis kr&#228;va tillbaka st&#246;det 
+tillsammans med r&#228;nta.
+
+Kravet eller r&#228;ntan f&#229;r helt eller delvis s&#228;ttas ned om det 
+finns s&#228;rskilda sk&#228;l. 
+
+50 &#167; Om st&#246;dgivaren har beslutat om &#229;terkrav eller r&#228;nta 
+enligt 47 &#167;, 48 &#167; f&#246;rsta stycket 2 eller 49 &#167; f&#246;rsta stycket 2 
+f&#229;r det belopp som ska betalas enligt beslutet r&#228;knas av mot 
+annan utbetalning av st&#246;d enligt f&#246;rordningen. 
+
+Avr&#228;kning f&#229;r inte ske i det fall som avses i 39 &#167;. 
+
+51 &#167; Tillv&#228;xtverket ska vid domstolar och myndigheter och i 
+&#246;vrigt f&#246;ra statens talan mot st&#246;dmottagaren i fr&#229;ga om 
+statliga medel enligt denna f&#246;rordning. Tillv&#228;xtverket f&#229;r 
+anta ackordsf&#246;rslag eller p&#229; annat s&#228;tt efterge statens r&#228;tt i 
+enlighet med vad som framg&#229;r av f&#246;rordningen (1993:1138) om 
+hantering av statliga fordringar. 
+
+Regionen ska underr&#228;tta och bist&#229; Tillv&#228;xtverket n&#228;r en &#229;tg&#228;rd 
+fr&#229;n verket enligt denna best&#228;mmelse beh&#246;ver vidtas.
+
+Offentligg&#246;rande, rapportering och registerf&#246;ring
+
+52 &#167; Best&#228;mmelser om offentligg&#246;rande, rapportering och 
+registerf&#246;ring finns i 12 a &#167; lagen (2013:388) om till&#228;mpning 
+av Europeiska unionens statsst&#246;dsregler och i f&#246;rordningen 
+(2016:605) om till&#228;mpning av Europeiska unionens 
+statsst&#246;dsregler. 
+
+Bemyndigande
+
+53 &#167; Tillv&#228;xtverket f&#229;r meddela f&#246;reskrifter om 
+verkst&#228;lligheten av denna f&#246;rordning.
+
+&#214;verklagande
+
+54 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser om 
+&#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. Andra beslut &#228;n 
+beslut enligt 39-41 och 47 &#167;&#167;, 48 &#167; f&#246;rsta stycket 2, 49 &#167; 
+f&#246;rsta stycket 2 och 50 &#167; f&#229;r dock inte &#246;verklagas.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2022:1467
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2023. 
+
+2. Genom f&#246;rordningen upph&#228;vs f&#246;rordningen (2015:211) om 
+statligt st&#246;d till regionala investeringar. 
+
+3. Den upph&#228;vda f&#246;rordningen g&#228;ller dock fortfarande f&#246;r st&#246;d 
+som har beslutats enligt den f&#246;rordningen.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=166">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=168">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,679 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2022-02-22 14:55:51" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4508</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4507">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4509">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1937:73 ·
+                    <a href="/sfsr?bet=1937:73">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1937:73) om befordran med luftfartyg</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1937-03-05
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:1136
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens till&#228;mpningsomr&#229;de
+
+1 &#167; Denna lag g&#228;ller befordran med luftfartyg av passagerare, resgods
+eller gods, vilken utf&#246;res mot vederlag eller av lufttrafikf&#246;retag
+verkst&#228;lles vederlagsfritt.
+
+I denna lag f&#246;rst&#229;s med Warszawakonventionen den i Warszawa den 12
+oktober 1929 undertecknade konventionen om internationell luftbefordran
+och med Guadalajarakonventionen den i Guadalajara den 18 september 1961
+undertecknade konventionen om internationell luftbefordran som utf&#246;res
+av annan &#228;n den avtalslutande fraktf&#246;raren. Lag (1967:69).
+
+2 &#167; &#197; luftbefordran, som utf&#246;res i enlighet med internationella
+&#246;verenskommelser om postbefordran, &#228;ger denna lag icke till&#228;mpning, ej
+heller &#229; befordran, som verkst&#228;lles av lufttrafikf&#246;retag s&#229;som f&#246;rsta
+f&#246;rs&#246;k i syfte att uppr&#228;tta regulj&#228;r luftbefordringslinje, eller &#229;
+befordran, som utf&#246;res under osedvanliga f&#246;rh&#229;llanden och faller utom
+normal ut&#246;vning av lufttrafik.
+
+Befordringshandlingar
+
+Biljett
+
+3 &#167; Vid befordran av passagerare skall fraktf&#246;raren utf&#228;rda biljett,
+inneh&#229;llande f&#246;ljande uppgifter:
+
+a. ort och dag f&#246;r utf&#228;rdandet;
+
+b. avg&#229;ngsort och best&#228;mmelseort;
+
+c. avsedda mellanlandningar, fraktf&#246;raren obetaget att f&#246;rbeh&#229;lla sig
+r&#228;tt till n&#246;dig &#228;ndring;
+
+d. fraktf&#246;rarens eller fraktf&#246;rarnas namn och adress; samt
+
+e. att befordringen utf&#246;res under den ansvarighet, som stadgas i denna
+lag.
+
+&#196;r biljett ej utf&#228;rdad, har den ej f&#246;reskrivet inneh&#229;ll eller har den
+f&#246;rkommit, vare befordringsavtalet &#228;ndock g&#228;llande och underkastat
+best&#228;mmelserna i denna lag. Har fraktf&#246;raren mottagit passageraren utan
+att biljett utf&#228;rdats, &#228;ge han likv&#228;l ej &#229;beropa de best&#228;mmelser, som
+utesluta eller begr&#228;nsa hans ansvarighet.
+
+II Resgodsbevis
+
+4 &#167; Vid befordran av resgods, som passageraren l&#228;mnat i fraktf&#246;rarens
+v&#229;rd (inskrivet resgods), skall denne utf&#228;rda resgodsbevis.
+
+Resgodsbevis skall uppr&#228;ttas i tv&#229; exemplar, det ena f&#246;r passageraren,
+det andra f&#246;r fraktf&#246;raren. Beviset skall inneh&#229;lla f&#246;ljande uppgifter:
+
+a. ort och dag f&#246;r utf&#228;rdandet;
+
+b. avg&#229;ngsort och best&#228;mmelseort;
+
+c. fraktf&#246;rarens eller fraktf&#246;rarnas namn och adress;
+
+d. biljettens nummer;
+
+e. att resgodset utl&#228;mnas till innehavaren av beviset;
+
+f. kollinas antal och vikt;
+
+g. belopp, som uppgivits i enlighet med 22 &#167; andra stycket; samt
+
+h. att befordringen utf&#246;res under den ansvarighet, som stadgas i denna
+lag.
+
+&#196;r resgodsbevis ej utf&#228;rdat, har beviset ej f&#246;reskrivet inneh&#229;ll eller
+har det f&#246;rkommit, vare befordringsavtalet &#228;ndock g&#228;llande och
+underkastat best&#228;mmelserna i denna lag. Har fraktf&#246;raren mottagit
+resgodset utan att resgodsbevis utf&#228;rdats eller inneh&#229;ller beviset icke
+de i andra stycket under d., f. och h. f&#246;reskrivna uppgifter, &#228;ge han
+likv&#228;l ej &#229;beropa de best&#228;mmelser, som utesluta eller begr&#228;nsa hans
+ansvarighet.
+
+III Flygfraktsedel
+
+5 &#167; Vid befordran av gods &#228;ge fraktf&#246;raren fordra, att avs&#228;ndaren
+uppr&#228;ttar och avl&#228;mnar en befordringshandling, betecknad flygfraktsedel.
+Avs&#228;ndaren &#228;ge fordra, att s&#229;dan handling mottages av fraktf&#246;raren.
+
+&#196;r flygfraktsedel ej utf&#228;rdad, har den ej f&#246;reskrivet inneh&#229;ll eller har
+den f&#246;rkommit, vare befordringsavtalet &#228;ndock g&#228;llande och, med det
+undantag som f&#246;ljer av 9 &#167;, underkastat best&#228;mmelserna i denna lag.
+
+6 &#167; Flygfraktsedeln skall uppr&#228;ttas av avs&#228;ndaren i tre originalexemplar
+och avl&#228;mnas tillsammans med godset. Det f&#246;rsta exemplaret skall f&#246;rses
+med beteckningen &quot;f&#246;r fraktf&#246;raren&quot; och undertecknas av avs&#228;ndaren. Det
+andra exemplaret skall betecknas &quot;f&#246;r mottagaren&quot;; det undertecknas av
+avs&#228;ndaren och fraktf&#246;raren samt &#229;tf&#246;ljer godset. Det tredje exemplaret
+undertecknas av fraktf&#246;raren och &#229;terst&#228;lles av honom till avs&#228;ndaren
+efter godsets mottagande.
+
+Fraktf&#246;rarens underskrift skall tecknas vid godsets mottagande; den kan
+ers&#228;ttas med st&#228;mpel. Avs&#228;ndarens underskrift kan vara tryckt eller
+ers&#228;ttas med st&#228;mpel.
+
+D&#228;r fraktf&#246;raren p&#229; avs&#228;ndarens beg&#228;ran uppr&#228;ttat flygfraktsedeln, anses
+han, d&#228;r ej annat styrkes, hava handlat f&#246;r avs&#228;ndarens r&#228;kning.
+
+7 &#167; Avser befordringen flera kolli, skall avs&#228;ndaren, d&#228;r fraktf&#246;raren
+det beg&#228;r, uppr&#228;tta s&#228;rskilda flygfraktsedlar.
+
+8 &#167; Flygfraktsedeln skall inneh&#229;lla f&#246;ljande uppgifter:
+
+a. ort och dag f&#246;r utf&#228;rdandet;
+
+b. avg&#229;ngsort och best&#228;mmelseort;
+
+c. avsedda mellanlandningar, fraktf&#246;raren obetaget att f&#246;rbeh&#229;lla sig
+r&#228;tt till n&#246;dig &#228;ndring;
+
+d. avs&#228;ndarens namn och adress;
+
+e. den f&#246;rste fraktf&#246;rarens namn och adress;
+
+f. om viss mottagare angives, hans namn och adress;
+
+g. godsets art;
+
+h. stycketal, f&#246;rpackningss&#228;tt och kollinas s&#228;rskilda m&#228;rken eller
+nummer;
+
+i. godsets vikt, myckenhet, rymd eller m&#229;tt;
+
+j. godsets och f&#246;rpackningens synliga tillst&#229;nd;
+
+k. frakten, om den &#228;r best&#228;md, dag och ort f&#246;r betalningen, s&#229; ock av
+vem den skall erl&#228;ggas;
+
+l. om godset s&#228;ndes mot efterkrav, vederlaget f&#246;r godset, s&#229; ock kostnad
+som skall g&#228;ldas av mottagaren;
+
+m. belopp, som uppgivits i enlighet med 22 &#167; andra stycket;
+
+n. i huru m&#229;nga exemplar flygfraktsedeln utf&#228;rdats;
+
+o. handlingar, som avl&#228;mnats till fraktf&#246;raren att &#229;tf&#246;lja
+flygfraktsedeln;
+
+p. befordringstiden och kortfattad uppgift &#229; den avsedda v&#228;gen (via),
+s&#229;vitt avtal d&#228;rutinnan tr&#228;ffats; samt
+
+q. att befordringen utf&#246;res under den ansvarighet, som stadgas i denna
+lag.
+
+9 &#167; Har fraktf&#246;raren mottagit godset utan att flygfraktsedel utf&#228;rdats
+eller inneh&#229;ller fraktsedeln icke de i 8 &#167; a.--i. och q. f&#246;reskrivna
+uppgifter, &#228;ge han icke &#229;beropa de best&#228;mmelser i denna lag, som
+utesluta eller begr&#228;nsa hans ansvarighet.
+
+10 &#167; Avs&#228;ndaren svare f&#246;r skada, som tillskyndas fraktf&#246;raren eller
+annan i f&#246;ljd av att uppgifter r&#246;rande godset, vilka han upptagit i
+flygfraktsedeln, ej hava f&#246;reskrivet inneh&#229;ll eller eljest &#228;ro
+ofullst&#228;ndiga eller oriktiga.
+
+11 &#167; Flygfraktsedeln skall, d&#228;r ej annat styrkes, g&#228;lla s&#229;som bevis om
+avtalets slutande, om mottagandet av godset och om villkoren f&#246;r
+befordringen.
+
+Uppgifterna i flygfraktsedeln ang&#229;ende godsets vikt, m&#229;tt, f&#246;rpackning
+och stycktetal skola, d&#228;r ej annat styrkes, &#228;ga vitsord. Annan uppgift
+om godsets myckenhet eller rymd samt uppgift om dess tillst&#229;nd &#228;ge
+d&#228;remot ej vitsord mot fraktf&#246;raren, med mindre han i avs&#228;ndarens
+n&#228;rvaro unders&#246;kt uppgiften och d&#228;rom tecknat intyg &#229; flygfraktsedeln
+eller ock uppgiften avser godsets synliga tillst&#229;nd.
+
+R&#228;tt att f&#246;rfoga &#246;ver godset och godsets utl&#228;mnande
+
+12 &#167; Mot uppfyllande av sina f&#246;rpliktelser p&#229; grund av
+befordringsavtalet &#228;ge avs&#228;ndaren, d&#228;r det kan ske utan skada f&#246;r
+fraktf&#246;raren eller annan avs&#228;ndare, f&#246;rfoga &#246;ver godset genom att
+&#229;tertaga det &#229; avg&#229;ngs- eller best&#228;mmelseflygplatsen, stoppa det vid
+landning under resan, p&#229; best&#228;mmelseorten eller under resan l&#229;ta utl&#228;mna
+det till annan &#228;n den i flygfraktsedeln angivne mottagaren eller beg&#228;ra
+dess &#229;ters&#228;ndande till avg&#229;ngsflygplatsen; g&#228;lde dock kostnad som d&#228;rav
+kommer. Kan avs&#228;ndarens order ej verkst&#228;llas, skall fraktf&#246;raren d&#228;rom
+omedelbart underr&#228;tta honom.
+
+Utf&#246;r fraktf&#246;raren avs&#228;ndarens order utan att dennes exemplar av
+flygfraktsedeln f&#246;retes, vare fraktf&#246;raren ansvarig f&#246;r skada, som
+d&#228;rigenom tillskyndas r&#228;tte innehavaren av flygfraktsedeln, fraktf&#246;raren
+obetaget att s&#246;ka sitt &#229;ter av avs&#228;ndaren.
+
+Avs&#228;ndarens r&#228;tt upph&#246;re, d&#229; efter vad i 13 &#167; stadgas mottagarens r&#228;tt
+intr&#228;der. V&#228;grar mottagaren att mottaga fraktsedeln eller godset eller
+&#228;r han icke att tr&#228;ffa, g&#229;nge r&#228;tten att f&#246;rfoga &#246;ver godset &#229;ter till
+avs&#228;ndaren.
+
+13 &#167; N&#228;r godset framkommit till best&#228;mmelseorten, &#228;ge mottagaren, d&#228;r ej
+annat f&#246;ranledes av vad i 12 &#167; stadgas, av fraktf&#246;raren utf&#229;
+flygfraktsedeln och godset, d&#228;rest han g&#228;ldar vad denne &#228;ger fordra och
+i &#246;vrigt fullg&#246;r de befordringsvillkor, som angivits i flygfraktsedeln.
+
+D&#228;r ej annat avtalats, skall fraktf&#246;raren, s&#229; snart godset framkommit,
+underr&#228;tta mottagaren d&#228;rom.
+
+14 &#167; Vidg&#229;r fraktf&#246;raren att godset f&#246;rkommit eller har det ej
+framkommit senast inom sju dagar efter det godset bort anl&#228;nda, &#228;ge
+mottagaren mot fraktf&#246;raren g&#246;ra g&#228;llande de r&#228;ttigheter, som h&#228;rflyta
+ur befordringsavtalet.
+
+15 &#167; F&#246;rbeh&#229;ll, som innefattar avvikelse fr&#229;n best&#228;mmelserna i 12, 13
+eller 14 &#167;, vare ej g&#228;llande, med mindre det intagits i flygfraktsedeln.
+
+16 &#167; Avs&#228;ndaren vare pliktig att l&#228;mna de upplysningar och att vid
+flygfraktsedeln foga de handlingar, som erfordras f&#246;r att tull-, accis-
+och ordningsf&#246;reskrifter m&#229; kunna fullg&#246;ras f&#246;re godsets avl&#228;mnande till
+mottagaren. Skada i f&#246;ljd av att s&#229;dan upplysning eller handling saknas,
+&#228;r ofullst&#228;ndig eller felaktig vare avs&#228;ndaren pliktig att ers&#228;tta,
+utan s&#229; &#228;r att fel eller f&#246;rsummelse ligger fraktf&#246;raren eller hans folk
+till last.
+
+Fraktf&#246;raren vare icke pliktig att unders&#246;ka, om dessa upplysningar och
+handlingar &#228;ro riktiga eller fullst&#228;ndiga.
+
+Fraktf&#246;rarens ansvarighet
+
+17 &#167; Drabbas passagerare, ombord &#229; luftfartyget eller vid p&#229;stigning
+eller avstigning, av skada &#229; person, vare fraktf&#246;raren, s&#229;vitt ej annat
+f&#246;ljer av vad nedan stadgas, d&#228;rf&#246;r ansvarig.
+
+
+18 &#167; F&#246;rkommer, minskas eller skadas inskrivet resgods eller gods, medan
+det &#228;r i fraktf&#246;rarens v&#229;rd, p&#229; flygplats, ombord p&#229; luftfartyg eller,
+vid landning utanf&#246;r flygplats, varhelts godset befinner sig, vare
+fraktf&#246;raren, med nedan stadgade undantag, d&#228;rf&#246;r ansvarig.
+
+Har p&#229; grund av befordringsavtalet vid lastning, avl&#228;mnande eller
+omlastning befordran verkst&#228;llts till lands eller sj&#246;ledes utanf&#246;r
+flygplats, ligge &#229; fraktf&#246;raren att visa att skada, som drabbat
+resgodset eller godset, ej uppkommit under den i f&#246;rsta stycket avsedda
+tiden.
+
+19 &#167; F&#246;r skada i f&#246;ljd av dr&#246;jsm&#229;l vid luftbefordran av passagerare,
+inskrivet resgods eller gods vare fraktf&#246;raren ansvarig, d&#228;r ej nedan
+annorlunda stadgas.
+
+20 &#167; Fraktf&#246;raren vare fri fr&#229;n ansvarighet, d&#228;r antagas m&#229;, att skadan
+icke orsakats genom fel eller f&#246;rsummelse av fraktf&#246;raren sj&#228;lv eller
+av hans folk i tj&#228;nsten.
+
+Samma lag vare, d&#228;r vid befordran av inskrivet resgods eller gods skadan
+tillkommit genom fel eller f&#246;rsummelse vid styrningen, f&#246;randet eller
+navigeringen av luftfartyget och fel eller f&#246;rsummelse i annat h&#228;nseende
+ej f&#246;religger.
+
+21 &#167; Har den, som lidit skadan, genom eget v&#229;llande d&#228;rtill medverkat,
+varde ers&#228;ttningen j&#228;mkad efter ty sk&#228;lighet pr&#246;vas.
+
+22 &#167; Vid befordran av passagerare vare fraktf&#246;rarens ansvarighet f&#246;r
+envar av dem begr&#228;nsad till adertontusentv&#229;hundrafemtio kronor; och m&#229;
+f&#246;rty, d&#228;r ers&#228;ttningen skall utg&#229; i form av r&#228;nta, dennas
+kapitaliserade v&#228;rde icke &#246;verskrida sagda gr&#228;ns. Avtal m&#229; dock tr&#228;ffas
+om h&#246;gre gr&#228;ns f&#246;r ansvarigheten.
+
+Betr&#228;ffande inskrivet resgods eller gods vare fraktf&#246;rarens ansvarighet
+begr&#228;nsad till trettiosju kronor f&#246;r kilogram. Har avs&#228;ndaren vid
+godsets avl&#228;mnande till fraktf&#246;rarens s&#228;rskilt uppgivit det intresse,
+som &#228;r f&#246;rbundet med befordringen, och guldit f&#246;reskriven
+till&#228;ggsavgift, g&#228;lle det uppgivna beloppet s&#229;som gr&#228;ns f&#246;r frakf&#246;rarens
+ansvarighet, d&#228;r han ej visar, att avs&#228;ndarens intresse &#228;r l&#228;gre.
+
+F&#246;r resgods, som passageraren icke l&#228;mnat i fraktf&#246;rarens v&#229;rd, vare
+ansvarigheten begr&#228;nsad till sjuhundratrettio kronor f&#246;r envar
+passagerare.
+
+23 &#167; F&#246;rbeh&#229;ll, som innefattar inskr&#228;nkning i fraktf&#246;rarens ansvarighet
+eller best&#228;mmer l&#228;gre g&#228;ns d&#228;rf&#246;r &#228;n i 22 &#167; s&#228;gs, vare ogiltigt.
+
+Vid befordran av gods, vilken utf&#246;res av annan &#228;n den som genom
+befordringsavtalet &#229;tagit sig befordringen och vilken &#228;r underkastad
+Guadalajarakonventionen, &#228;ger best&#228;mmelsen i f&#246;rsta stycket icke
+till&#228;mpning p&#229; f&#246;rbeh&#229;ll avseende f&#246;rlust, minskning eller skada, som
+h&#228;rr&#246;r av godsets egen beskaffenhet eller fel i godset. Lag (1967:69).
+
+24 &#167; D&#228;r passagerare drabbats av skada &#229; person, skall enligt de i
+strafflagen stadgade grunder best&#228;mmas vem ers&#228;ttningen skall tillkomma
+och vad d&#228;runder skall r&#228;knas.
+
+25 &#167; Har skada med upps&#229;t eller grov v&#229;rdsl&#246;shet orsakats av
+fraktf&#246;raren sj&#228;lv eller av hans folk i tj&#228;nsten, &#228;ge han icke &#229;beropa
+de best&#228;mmelser i denna lag, som utesluta eller begr&#228;nsa hans
+ansvarighet.
+
+F&#246;res talan mot n&#229;gon av fraktf&#246;rarens folk p&#229; den grund att han v&#229;llat
+skada genom fel eller f&#246;rsummelse i tj&#228;nsten av ringare grad &#228;n som
+avses i f&#246;rsta stycket, m&#229; vad han och fraktf&#246;raren kunna f&#246;rpliktas att
+sammanlagt utgiva i ers&#228;ttning icke &#246;verskrida den gr&#228;ns f&#246;r
+ansvarigheten som fraktf&#246;raren &#228;ger &#229;beropa.
+
+Om j&#228;mkning i vissa fall av skadeers&#228;ttning stadgas i 10 kap. 3 &#167;
+luftfartslagen den 6 juni 1957 (nr 297). Lag (1967:69).
+
+26 &#167; Mottages inskrivet resgods eller gods utan anm&#228;rkning, skall
+godset, d&#228;r ej annat styrkes, anses avl&#228;mnat i oskadat skick och i
+&#246;verenst&#228;mmelse med befordringshandlingen.
+
+Om skada eller minskning skall anm&#228;rkning g&#246;ras hos fraktf&#246;raren
+omedelbart efter uppt&#228;ckten och senast, betr&#228;ffande resgods, inom tre
+dagar samt, betr&#228;ffande gods, inom sju dagar fr&#229;n mottagandet. Vid
+dr&#246;jsm&#229;l skall anm&#228;rkning framst&#228;llas inom fjorton dagar fr&#229;n den dag,
+d&#229; avl&#228;mnande skedde.
+
+Anm&#228;rkning skall g&#246;ras genom anteckning p&#229; fraktf&#246;rarens exemplar av
+befordringshandlingen eller eljest i skrift, avs&#228;nd inom tid som i andra
+stycket s&#228;gs.
+
+27 &#167; Har ej anm&#228;rkning enligt 26 &#167; framst&#228;llts inom tid som d&#228;r s&#228;gs,
+vare r&#228;tten till talan mot fraktf&#246;raren f&#246;rlorad, utan s&#229; &#228;r att han
+f&#246;rfarit svikligen.
+
+28 &#167; Talan om ansvarighet skall f&#246;ras vid r&#228;tten i den ort, d&#228;r
+fraktf&#246;raren har sitt hemvist, d&#228;r hans huvudkontor eller det kontor
+finnes, genom vars medverkan avtalet slutits, eller ock p&#229;
+best&#228;mmelseorten.
+
+29 &#167; Varder ej talan om ansvarighet anh&#228;ngiggjord inom tv&#229; &#229;r fr&#229;n
+luftfartygets ankomst till best&#228;mmelseorten eller fr&#229;n den dag, d&#229; det
+skolat anl&#228;nda eller d&#229; befordringen avbr&#246;ts, vare r&#228;tten till talan
+f&#246;rlorad.
+
+30 &#167; Skall befordran, som enligt vad d&#228;rom avtalats &#228;r att anse s&#229;som en
+enhet, utf&#246;ras av flera fraktf&#246;rare var efter annan, vare envar av dem,
+sedan han mottagit passageraren, det inskrivna resgodset eller godset,
+ansvarig f&#246;r den del av befordringen, vars utf&#246;rande ankommer p&#229; honom.
+
+Vid befordran av inskrivet resgods eller gods m&#229; avs&#228;ndaren j&#228;mv&#228;l h&#229;lla
+sig till den f&#246;rste fraktf&#246;raren och den som &#228;ger utf&#229; godset till den
+siste, &#228;nd&#229; att skadan eller dr&#246;jsm&#229;let intr&#228;ffat, medan godset var i
+annan fraktf&#246;rares v&#229;rd. &#196;ro tv&#229; fraktf&#246;rare ansvariga efter vad nu
+sagts, svare de en f&#246;r b&#229;da och b&#229;da f&#246;r en.
+
+Befordran som utf&#246;res av annan &#228;n den avtalsslutande fraktf&#246;raren
+
+31 &#167; I fr&#229;ga om befordran som helt eller delvis utf&#246;res av annan &#228;n den
+som genom befordringsavtalet &#229;tagit sig befordringen (den avtalsslutande
+fraktf&#246;raren) &#228;ga 32--36 &#167;&#167; till&#228;mpning, om det ej visas att
+befordringen utf&#246;rts utan den avtalsslutande fraktf&#246;rarens bemyndigande.
+Best&#228;mmelserna i 33, 35 och 36 &#167;&#167; till&#228;mpas dock endast i fr&#229;ga om den
+del av befordringen som utf&#246;res av annan &#228;n den avtalsslutande
+fraktf&#246;raren. Lag (1967:69).
+
+32 &#167; B&#229;de den avtalsslutande fraktf&#246;raren och den som utf&#246;r befordringen
+anses vid till&#228;mpning av denna lag som fraktf&#246;rare, den f&#246;rre i fr&#229;ga om
+hela befordringen och den senare i fr&#229;ga om den del av befordringen som
+han utf&#246;r. Lag (1967:69).
+
+33 &#167; Vid till&#228;mpning av best&#228;mmelserna om fraktf&#246;rarens ansvarighet
+j&#228;mst&#228;llas vardera fraktf&#246;raren och hans folk med den andre
+fraktf&#246;rarens folk. Detta medf&#246;r dock icke att ansvarigheten f&#246;r den som
+utf&#246;r befordringen i den avtalsslutande fraktf&#246;rarens st&#228;lle &#246;verskrider
+de i 22 &#167; angivna gr&#228;nserna.
+
+Har den avtalsslutande fraktf&#246;raren &#229;tagit sig l&#228;ngre g&#229;ende
+f&#246;rpliktelser &#228;n som f&#246;ljer av denna lag eller har passagerare eller
+avs&#228;ndare enligt 22 &#167; andra stycket s&#228;rskilt uppgivit det intresse som
+&#228;r f&#246;rbundet med befordringen, d&#228;r den som utf&#246;r befordringen i den
+avtalsslutande fraktf&#246;rarens st&#228;lle icke utan eget godk&#228;nnande bunden
+h&#228;rav. Lag (1967:69).
+
+34 &#167; Anvisning eller anm&#228;rkning, som enligt best&#228;mmelse i denna lag
+tillst&#228;lles den ene fraktf&#246;raren, &#228;ger verkan &#228;ven mot den andre. S&#229;dan
+order som avses i 12 &#167; &#228;ger dock verkan endast om den tillst&#228;lles den
+avtalsslutande fraktf&#246;raren. Lag (1967:69).
+
+35 &#167; Vad de b&#229;da fraktf&#246;rarna och deras folk kunna f&#246;rpliktas att
+sammanlagt utgiva i ers&#228;ttning m&#229; icke &#246;verskrida det h&#246;gsta
+ers&#228;ttningsbelopp som n&#229;gon av fraktf&#246;rarna kan &#229;l&#228;ggas att utgiva.
+Varje skadest&#229;ndsskyldig &#228;r ansvarig endast intill den gr&#228;ns som &#228;r
+till&#228;mpning f&#246;r honom. Lag (1967:69).
+
+36 &#167; Talan om ansvarighet f&#229;r, vare sig den riktas mot b&#229;da fraktf&#246;rarna
+eller en av dem, f&#246;ras vid dom stol som enligt 28 &#167; &#228;r beh&#246;rig vid talan
+mot n&#229;gon av fraktf&#246;rarna.
+
+Sammansatt befordran
+
+37 &#167; D&#228;r befordran skall utf&#246;ras delvis med luftfartyg och delvis med
+annat befordringsmedel, vare denna lag till&#228;mplig allenast betr&#228;ffande
+luftbefordringen.
+
+Villkor, som avser befordringen med annat befordringsmedel, m&#229; intagas i
+luftbefordringshandlingen. Lag (1967:69).
+
+38 &#167; G&#246;res i befordringsavtal eller eljest innan skada timat, med
+avvikelse fr&#229;n vad i denna lag stadgas, f&#246;rbeh&#229;ll om till&#228;mplig lag
+eller om domstols beh&#246;righet, vare det f&#246;rbeh&#229;ll utan verkan.
+
+Har skiljeavtal i fr&#229;ga om befordran av gods tr&#228;ffats innan skada timat,
+g&#228;ller avtalet utan hinder av best&#228;mmelsen i f&#246;rsta stycket, om
+skiljemannaf&#246;rfarandet skall &#228;ga rum i stat som &#228;r ansluten till
+Warszawakonventionen inom en i 28 &#167; avsedd domstols domv&#228;rjo och
+tvistefr&#229;gan, i den m&#229;n Warszawakonventionen och Guadalajarakonventionen
+&#228;ro till&#228;mpliga d&#228;rp&#229;, skall pr&#246;vas enligt konventionernas best&#228;mmelser.
+Lag (1967:69).
+
+39 &#167; Best&#228;mmelserna i denna lag skola &#228;ga till&#228;mpning j&#228;mv&#228;l &#229;
+internationell luftbefordran, vad i 24 &#167; stadgas dock allenast d&#228;r
+enligt i allm&#228;nhet g&#228;llande regler svensk lag skall komma till
+anv&#228;ndning. Har stat, som &#228;r ansluten till den i 32 &#167; omf&#246;rm&#228;lda
+konventionen, avgivit s&#229;dan f&#246;rklaring, som avses i till&#228;ggsprotokollet
+till samma konvention, skall lagen ej &#228;ga till&#228;mpning &#229; internationell
+luftbefordran, som utf&#246;res omedelbart av den staten.
+
+Vid internationell luftbefordran skola f&#246;ljande belopp till&#228;mpas i
+st&#228;llet f&#246;r de i 22 &#167; angivna
+
+1. i fr&#229;ga om passagerare, &#229;ttatusentrehundra s&#228;rskilda dragningsr&#228;tter
+per person;
+
+2. i fr&#229;ga om resgods eller gods, sjutton s&#228;rskilda dragningsr&#228;tter;
+
+3. i fr&#229;ga om f&#246;rem&#229;l som passageraren beh&#229;ller i sin v&#229;rd,
+trehundratrettiotv&#229; s&#228;rskilda dragningsr&#228;tter.
+
+Med uttrycket &quot;s&#228;rskilda dragningsr&#228;tter&quot; avses i denna lag de av
+Internationella valutafonden anv&#228;nda s&#228;rskilda dragningsr&#228;tterna. F&#246;res
+talan om ers&#228;ttning, skall omr&#228;kning fr&#229;n s&#228;rskilda dragningsr&#228;tter till
+svenskt mynt ske efter kursen den dag dom meddelas. D&#228;rvid skall kronans
+v&#228;rde best&#228;mmas i enlighet med den ber&#228;kningsmetod, som Internationella
+valutafonden sagda dag till&#228;mpar f&#246;r sin verksamhet och sina
+transaktioner. Lag (1978:133).
+
+40 &#167; S&#229;vitt ang&#229;r inrikes luftbefordran, &#228;ger Konungen meddela
+best&#228;mmelser avvikande fr&#229;n vad i 3 &#167; f&#246;rsta stycket, 4 &#167; andra stycket
+samt 8 &#167; stadgas ang&#229;ende biljett, resgodsbevis och flygfraktsedel. Lag
+(1967:69).
+
+41 &#167; S&#228;rskilda best&#228;mmelser om radiologisk skada finns i lagen 
+(2010:950) om ansvar och ers&#228;ttning vid radiologiska olyckor.
+Lag (2010:970).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4507">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4509">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

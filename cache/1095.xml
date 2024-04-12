@@ -1,0 +1,814 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-02-29" /> 
+ <meta id="rattsinfo-edited" content="2024-02-29 15:52:59" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1095</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1094">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1096">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2015:517 ·
+                    <a href="/sfsr?bet=2015:517">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2015:517) om st&#246;d till lokala klimatinvesteringar</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2015-06-25
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2024:17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2015-07-15
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Om det finns medel, f&#229;r statligt st&#246;d i form av bidrag 
+ges enligt denna f&#246;rordning i syfte att varaktigt minska 
+utsl&#228;ppen av v&#228;xthusgaser.
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen.
+
+Ord och uttryck i f&#246;rordningen
+
+2 &#167; I denna f&#246;rordning betyder
+
+v&#228;xthusgas: koldioxid, metan, dikv&#228;veoxid, fluorkolv&#228;ten, 
+perfluorkolv&#228;ten, svavelhexafluorid eller kv&#228;vetrifluorid,
+
+laddningspunkt f&#246;r AC-laddning: en laddningspunkt f&#246;r 
+v&#228;xelstr&#246;m d&#228;r el kan &#246;verf&#246;ras till elfordon,
+
+laddningspunkt f&#246;r DC-laddning: en laddningspunkt f&#246;r likstr&#246;m 
+d&#228;r el kan &#246;verf&#246;ras till elfordon,
+
+l&#228;tt lastbil: en l&#228;tt lastbil enligt lagen (2001:559) om 
+v&#228;gtrafikdefinitioner,
+
+l&#228;tt buss: en l&#228;tt buss enligt lagen om v&#228;gtrafikdefinitioner,
+
+buss i klass I: en buss enligt lagen om v&#228;gtrafikdefinitioner 
+som
+
+1. har en maximal transportkapacitet om minst 15 passagerare,
+
+2. &#228;r konstruerad med utrymme f&#246;r st&#229;ende passagerare,
+
+3. inte &#228;r utrustad med b&#228;lten, och
+
+4. anv&#228;nds f&#246;r stadstrafik,
+
+personbil: en personbil enligt lagen om v&#228;gtrafikdefinitioner, 
+och
+
+konkurrensutsatt anbudsf&#246;rfarande: ett s&#229;dant f&#246;rfarande som 
+avses i artikel 2.38 i kommissionens f&#246;rordning (EU) 
+nr 651/2014 av den 17 juni 2014 genom vilken vissa kategorier 
+av st&#246;d f&#246;rklaras f&#246;renliga med den inre marknaden enligt 
+artiklarna 107 och 108 i f&#246;rdraget. 
+
+I &#246;vrigt har ord och uttryck i f&#246;rordningen samma betydelse 
+som i kommissionens f&#246;rordning (EU) nr 651/2014.
+F&#246;rordning (2024:17).
+
+2 a &#167; Med biodrivmedel, biobr&#228;nslen och livsmedels- och 
+fodergr&#246;dor avses i denna f&#246;rordning detsamma som i lagen 
+(2010:598) om h&#229;llbarhetskriterier f&#246;r biodrivmedel och 
+biobr&#228;nslen. F&#246;rordning (2022:1848).
+
+Allm&#228;nna f&#246;ruts&#228;ttningar f&#246;r st&#246;d
+
+3 &#167; St&#246;d f&#229;r endast ges till en &#229;tg&#228;rd som bidrar till att 
+
+1. uppfylla strategier, planer eller program f&#246;r klimat och 
+energi i det eller de l&#228;n eller i den eller de kommuner d&#228;r 
+&#229;tg&#228;rden &#228;r avsedd att genomf&#246;ras, och
+
+2. &#246;ka takten f&#246;r att n&#229; milj&#246;kvalitetsm&#229;let Begr&#228;nsad 
+klimatp&#229;verkan och dess etappm&#229;l. F&#246;rordning (2017:815).
+
+4 &#167; St&#246;d ska i f&#246;rsta hand ges till den eller de &#229;tg&#228;rder som 
+vid varje pr&#246;vningstillf&#228;lle bed&#246;ms ge den st&#246;rsta varaktiga 
+minskningen av utsl&#228;pp av v&#228;xthusgaser per investeringskrona. 
+Om minskningen av utsl&#228;pp av v&#228;xthusgaser &#228;r likv&#228;rdiga f&#246;r 
+flera ans&#246;kningar, ska h&#228;nsyn ocks&#229; tas till 
+
+1. &#229;tg&#228;rdernas m&#246;jlighet att bidra till att minska utsl&#228;pp av 
+v&#228;xthusgaser inom jordbruket,
+
+2. &#229;tg&#228;rdernas m&#246;jlighet att bidra till spridning av teknik 
+och till marknadsintroduktion, och
+
+3. &#229;tg&#228;rdernas effekter p&#229; andra milj&#246;kvalitetsm&#229;l, h&#228;lsa och 
+syssels&#228;ttning. F&#246;rordning (2019:526).
+
+4 a &#167; Om st&#246;d ges genom ett konkurrensutsatt anbudsf&#246;rfarande 
+f&#229;r andra urvalskriterier &#228;n de som anges i 4 &#167; anv&#228;ndas. 
+Urvalskriterierna ska offentligg&#246;ras inf&#246;r varje 
+pr&#246;vningstillf&#228;lle. F&#246;rordning (2022:439).
+
+5 &#167; St&#246;d f&#229;r inte ges till privatpersoner. 
+
+6 &#167; St&#246;d f&#229;r ges till en verksamhet som &#228;r tillst&#229;ndspliktig 
+enligt 3 kap. 1 &#167; f&#246;rordningen (2020:1180) om vissa utsl&#228;pp av 
+v&#228;xthusgaser endast om
+
+1. st&#246;det avser &#229;tg&#228;rder som inneb&#228;r &#246;kad anv&#228;ndning av 
+spillv&#228;rme, och
+
+2. s&#246;kanden visar att &#229;tg&#228;rden medf&#246;r eller kommer att medf&#246;ra 
+utsl&#228;pp som v&#228;sentligt understiger de relevanta 
+riktm&#228;rkesv&#228;rdena f&#246;r gratis tilldelning av utsl&#228;ppsr&#228;tter 
+enligt kommissionens genomf&#246;randef&#246;rordning (EU) 2021/447 av 
+den 12 mars 2021 om fastst&#228;llande av reviderade 
+riktm&#228;rkesv&#228;rden f&#246;r gratis tilldelning av utsl&#228;ppsr&#228;tter f&#246;r 
+perioden 2021-2025 i enlighet med artikel 10a.2 i 
+Europaparlamentets och r&#229;dets direktiv 2003/87/EG.
+
+Om &#229;tg&#228;rden medf&#246;r utsl&#228;pp som inte v&#228;sentligt understiger 
+riktm&#228;rkesv&#228;rdena f&#229;r st&#246;d dock ges om ans&#246;kan inneh&#229;ller en 
+godtagbar f&#246;rklaring till varf&#246;r det inte &#228;r m&#246;jligt att uppn&#229; 
+s&#229; l&#229;ga utsl&#228;pp. F&#246;rordning (2022:1848).
+
+6 a &#167; St&#246;d f&#229;r ges till en &#229;tg&#228;rd som avser investering i en 
+anl&#228;ggning f&#246;r elproduktion endast om elproduktionen baseras 
+p&#229; biogas som
+
+1. har producerats genom r&#246;tning, och
+
+2. omvandlas till el i en eller flera station&#228;ra motorer.
+F&#246;rordning (2021:1277).
+
+6 b &#167; Om en &#229;tg&#228;rd p&#229;verkar m&#246;jligheten att f&#246;lja en 
+milj&#246;kvalitetsnorm f&#246;r luft i ett omr&#229;de d&#228;r det har 
+uppr&#228;ttats ett &#229;tg&#228;rdsprogram f&#246;r milj&#246;kvalitetsnormen f&#229;r 
+st&#246;d endast ges om s&#246;kanden visar att &#229;tg&#228;rden &#228;r f&#246;renlig med 
+&#229;tg&#228;rdsprogrammet. F&#246;rordning (2022:1848).
+
+6 c &#167; St&#246;d f&#246;r produktion av biodrivmedel och biobr&#228;nslen och 
+st&#246;d f&#246;r anv&#228;ndning av biobr&#228;nslen f&#246;r produktion av el, v&#228;rme 
+och kyla f&#229;r ges endast om br&#228;nslet omfattas av ett 
+h&#229;llbarhetsbesked enligt lagen (2010:598) om 
+h&#229;llbarhetskriterier f&#246;r biodrivmedel och biobr&#228;nslen. Om det 
+&#228;r fr&#229;ga om anv&#228;ndning av fasta eller gasformiga biobr&#228;nslen 
+f&#246;r produktion av el, v&#228;rme eller kyla i en annan anl&#228;ggning 
+&#228;n en s&#229;dan anl&#228;ggning som avses i 1 kap. 3 a &#167; lagen om 
+h&#229;llbarhetskriterier f&#246;r biodrivmedel och biobr&#228;nslen f&#229;r st&#246;d 
+ges &#228;ven om br&#228;nslet inte omfattas av ett h&#229;llbarhetsbesked 
+enligt samma lag.
+
+St&#246;d f&#246;r produktion av biodrivmedel och biobr&#228;nslen och st&#246;d 
+f&#246;r anv&#228;ndning av biobr&#228;nslen f&#246;r produktion av el, v&#228;rme och 
+kyla f&#229;r inte ges om br&#228;nslet &#228;r framst&#228;llt av livsmedels- 
+eller fodergr&#246;dor. F&#246;rordning (2022:1848).
+
+6 d &#167; Om finansieringen helt eller delvis kommer fr&#229;n 
+Europeiska unionen f&#229;r st&#246;d inte ges till en &#229;tg&#228;rd som &#228;r 
+relaterad till fossila br&#228;nslen eller som har samband med en 
+s&#229;dan verksamhet.
+
+St&#246;d f&#229;r trots f&#246;rsta stycket ges till en &#229;tg&#228;rd som avser 
+kraft- eller v&#228;rmeproduktion samt tillh&#246;rande &#246;verf&#246;rings- och 
+distributionsinfrastruktur d&#228;r naturgas anv&#228;nds, om &#229;tg&#228;rden 
+uppfyller villkoren i bilaga III till kommissionens 
+tillk&#228;nnagivande med teknisk v&#228;gledning om principen om att 
+inte orsaka betydande skada inom ramen f&#246;r f&#246;rordningen om 
+faciliteten f&#246;r &#229;terh&#228;mtning och resiliens (2021/C 58/01).
+F&#246;rordning (2022:1848).
+
+6 e &#167; Om finansieringen helt eller delvis kommer fr&#229;n 
+Europeiska unionen f&#229;r st&#246;d inte ges till
+
+1. deponering av avfall, eller
+
+2. f&#246;rbr&#228;nning av avfall.
+
+Under f&#246;ruts&#228;ttning att &#229;tg&#228;rden inte &#246;kar anl&#228;ggningarnas 
+kapacitet f&#246;r avfallshantering eller f&#246;rl&#228;nger anl&#228;ggningens 
+livsl&#228;ngd f&#229;r st&#246;d trots f&#246;rsta stycket ges till en &#229;tg&#228;rd
+
+1. som uteslutande &#228;r avsedd f&#246;r behandling av farligt avfall 
+som inte kan &#229;tervinnas, eller
+
+2. p&#229; en befintlig anl&#228;ggning, om &#229;tg&#228;rden syftar till att
+
+a) &#246;ka energieffektiviteten,
+
+b) avskilja avgaser f&#246;r lagring, eller
+
+c) &#229;tervinna material fr&#229;n f&#246;rbr&#228;nningsaska.
+F&#246;rordning (2022:1848).
+
+6 f &#167; Om finansieringen helt eller delvis kommer fr&#229;n 
+Europeiska unionen f&#229;r st&#246;d inte ges till mekanisk biologisk 
+behandling av avfall.
+
+Under f&#246;ruts&#228;ttning att &#229;tg&#228;rden inte &#246;kar anl&#228;ggningarnas 
+kapacitet f&#246;r avfallshantering eller f&#246;rl&#228;nger anl&#228;ggningens 
+livsl&#228;ngd f&#229;r st&#246;d trots f&#246;rsta stycket ges till en &#229;tg&#228;rd p&#229; 
+en befintlig anl&#228;ggning om &#229;tg&#228;rden syftar till att
+
+1. &#246;ka energieffektiviteten, eller
+
+2. kompostera eller anaerobt bryta ned bioavfall.
+F&#246;rordning (2022:1848).
+
+7 &#167; St&#246;d f&#229;r inte ges till en &#229;tg&#228;rd som 
+
+1. m&#229;ste genomf&#246;ras f&#246;r att uppfylla en skyldighet enligt lag 
+eller annan f&#246;rfattning eller enligt villkor i ett tillst&#229;nd, 
+
+2. ber&#228;ttigar till bidrag enligt f&#246;rordningen (2019:525) om 
+statligt st&#246;d f&#246;r installation av laddningspunkter f&#246;r 
+elfordon, 
+
+3. ber&#228;ttigar till bidrag enligt f&#246;rordningen (2020:750) om 
+statligt st&#246;d till vissa milj&#246;fordon,
+
+4. ber&#228;ttigar till bidrag enligt f&#246;rordningen (2016:836) om 
+elbusspremie,
+
+5. har p&#229;b&#246;rjats innan beslut i fr&#229;gan om st&#246;d har fattats, 
+
+6. &#228;r marknadsf&#246;ring enligt definitionen i 3 &#167; 
+marknadsf&#246;ringslagen (2008:486), 
+
+7. avser k&#246;p av en personbil, l&#228;tt lastbil, l&#228;tt buss, eller 
+buss i klass I, eller
+
+8. huvudsakligen &#228;r informationsinsatser. 
+F&#246;rordning (2024:17).
+
+S&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r st&#246;d till f&#246;retag
+
+8 &#167; St&#246;d till f&#246;retag f&#229;r endast ges
+
+1. i enlighet med de villkor och till s&#229;dana &#229;tg&#228;rder som 
+anges i kapitel 1 och i n&#229;gon av artiklarna 36–41, 46–49, 56, 
+56a.1, 56a.3–14, 56b och 56c i kommissionens f&#246;rordning (EU) 
+nr 651/2014, eller 
+
+2. i enlighet med de villkor som anges i kommissionens 
+f&#246;rordning (EU) nr 1407/2013 av den 18 december 2013 om 
+till&#228;mpningen av artiklarna 107 och 108 i f&#246;rdraget om 
+Europeiska unionens funktionss&#228;tt p&#229; st&#246;d av mindre 
+betydelse.
+
+Trots f&#246;rsta stycket 1 f&#229;r st&#246;d ges till f&#246;retag i de fall d&#229; 
+st&#246;det f&#246;r n&#229;gon av de angivna &#229;tg&#228;rderna &#246;verstiger de 
+tr&#246;skelv&#228;rden som anges i artikel 4.1 i kommissionens 
+f&#246;rordning (EU) nr 651/2014, om st&#246;det har godk&#228;nts av 
+Europeiska kommissionen.
+
+St&#246;det f&#229;r uppg&#229; till h&#246;gst 70 procent av f&#246;retagets 
+investeringskostnad. F&#246;rordning (2018:1456).
+
+8 a &#167; Om uppgifter om ett st&#246;d till ett f&#246;retag ska 
+offentligg&#246;ras enligt artikel 9 i kommissionens f&#246;rordning 
+(EU) nr 651/2014, f&#229;r st&#246;det endast beviljas om f&#246;retaget 
+samtycker till offentligg&#246;randet. F&#246;rordning (2021:1277).
+
+S&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r st&#246;d till andra &#228;n f&#246;retag
+
+9 &#167; St&#246;d till andra &#228;n f&#246;retag f&#229;r endast ges i den 
+omfattning som kr&#228;vs f&#246;r att en &#229;tg&#228;rd ska genomf&#246;ras, dock 
+h&#246;gst med 50 procent av investeringskostnaden.
+F&#246;rordning (2016:358).
+
+S&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r st&#246;d som avser laddningspunkter 
+f&#246;r elfordon
+
+10 &#167; St&#246;d som avser en laddningspunkt f&#246;r AC-laddning eller 
+DC-laddning av elfordon f&#229;r ges endast om laddningspunkten 
+
+1. &#228;r f&#246;rberedd f&#246;r elm&#228;tning och debitering av elkostnad, 
+
+2. utrustas p&#229; ett s&#229;dant s&#228;tt att informationen om 
+laddningspunkten kan f&#246;rmedlas i realtid, i de fall 
+laddningspunkten &#228;r tillg&#228;nglig f&#246;r allm&#228;nheten, och 
+
+3. placeras s&#229; att den kan anses bidra till en &#228;ndam&#229;lsenlig 
+f&#246;rdelning av laddningspunkter i det aktuella omr&#229;det. 
+
+St&#246;det f&#229;r ges med h&#246;gst 50 procent av investeringskostnaden 
+om 
+
+1. st&#246;det beviljas i enlighet med kommissionens f&#246;rordning 
+(EU) nr 1407/2013, eller
+
+2. laddningspunkten inte &#228;r tillg&#228;nglig f&#246;r allm&#228;nheten. 
+
+St&#246;d f&#229;r inte ges till laddningspunkter som installeras i 
+privata hush&#229;ll. F&#246;rordning (2022:439).
+
+10 a &#167; Om en laddningspunkt som avses i 10 &#167; utrustas med 
+uttag eller don f&#246;r kabelanslutning f&#246;r fordon ska uttaget 
+eller donet vara utformat i enlighet med typ 2 som beskrivs i 
+standarden EN 62196-2 f&#246;r AC-laddning eller typ Combo 2 som 
+beskrivs i standarden EN 62196-3 f&#246;r DC-laddning.
+F&#246;rordning (2022:439).
+
+10 b &#167; L&#228;nsstyrelsen ska h&#229;lla &#246;ppna offentliga samr&#229;d f&#246;r att 
+utreda behov av st&#246;d enligt artikel 36a.7 i kommissionens 
+f&#246;rordning (EU) nr 651/2014. Ett s&#229;dant samr&#229;d ska h&#229;llas 
+endast om Naturv&#229;rdsverket har bed&#246;mt att ett samr&#229;d ska 
+genomf&#246;ras. F&#246;rordning (2022:439).
+
+Ans&#246;kan om st&#246;d
+
+11 &#167; En ans&#246;kan om st&#246;d ska g&#246;ras skriftligen och l&#228;mnas till 
+l&#228;nsstyrelsen i det l&#228;n d&#228;r &#229;tg&#228;rden ska genomf&#246;ras. 
+
+12 &#167; En ans&#246;kan om st&#246;d ska inneh&#229;lla 
+
+1. uppgifter om s&#246;kanden, &#229;tg&#228;rdens plats och &#229;tg&#228;rdens 
+start- och slutdatum, 
+
+2. en beskrivning av &#229;tg&#228;rden och dess finansiering, 
+genomf&#246;rande och tidsplan, 
+
+3. en f&#246;rteckning &#246;ver kostnaderna f&#246;r att genomf&#246;ra &#229;tg&#228;rden 
+och hur stor andel av kostnaderna som det s&#246;ks st&#246;d f&#246;r, 
+
+4. en l&#246;nsamhetskalkyl, 
+
+5. en beskrivning av hur stor minskning av utsl&#228;ppen av 
+v&#228;xthusgaser som &#229;tg&#228;rden ber&#228;knas medf&#246;ra i f&#246;rh&#229;llande till 
+om &#229;tg&#228;rden inte genomf&#246;rs och en redovisning av de uppgifter 
+som anv&#228;nts vid ber&#228;kningen av utsl&#228;ppsminskningen, 
+
+6. en beskrivning dels av hur &#229;tg&#228;rden kan bidra till 
+spridning av teknik och till marknadsintroduktion, dels av 
+&#229;tg&#228;rdens effekter p&#229; andra milj&#246;m&#229;l, m&#228;nniskors h&#228;lsa och 
+syssels&#228;ttning,
+
+7. i f&#246;rekommande fall, en beskrivning av samverkan och 
+synergieffekter med andra verksamheter eller projekt, och
+
+8. en upplysning om huruvida s&#246;kanden har s&#246;kt eller f&#229;tt 
+annat statligt st&#246;d eller st&#246;d fr&#229;n Europeiska unionen f&#246;r 
+samma &#229;tg&#228;rd. F&#246;rordning (2017:815).
+
+13 &#167; Om ans&#246;kan avser ett f&#246;retag, ska den ocks&#229; inneh&#229;lla 
+uppgifter om f&#246;retagets namn, antal anst&#228;llda, &#229;rsoms&#228;ttning 
+och balansomslutning.
+
+14 &#167; Om ans&#246;kan avser st&#246;d som omfattas av kommissionens 
+f&#246;rordning (EU) nr 1407/2013, ska ans&#246;kan ocks&#229; inneh&#229;lla en 
+redog&#246;relse f&#246;r allt annat st&#246;d av mindre betydelse som 
+s&#246;kanden har mottagit under de tv&#229; f&#246;reg&#229;ende 
+beskattnings&#229;ren och det innevarande beskattnings&#229;ret.
+
+L&#228;nsstyrelsens hantering av ans&#246;kningar
+
+15 &#167; L&#228;nsstyrelsen ska &#246;verl&#228;mna ans&#246;kningshandlingarna till 
+Naturv&#229;rdsverket tillsammans med ett eget yttrande. 
+
+Yttrandet ska inneh&#229;lla l&#228;nsstyrelsens bed&#246;mning i fr&#229;ga om 
+
+1. &#229;tg&#228;rdens f&#246;renlighet med den strategi eller plan eller 
+det program som avses i 3 &#167; 1 eller det m&#229;l, den prioritering 
+och den vision som avses i 3 &#167; 2,
+
+2. huruvida &#229;tg&#228;rden kan f&#246;rb&#228;ttras, effektiviseras eller 
+generera synergieffekter genom samarbete med andra s&#246;kande i 
+l&#228;net och deras &#229;tg&#228;rder, 
+
+3. f&#246;ruts&#228;ttningarna i 6 och 7 &#167;&#167;, och
+
+4. huruvida specifika villkor f&#246;r st&#246;det b&#246;r fastst&#228;llas. 
+
+Naturv&#229;rdsverkets pr&#246;vning
+
+16 &#167; Naturv&#229;rdsverket pr&#246;var ans&#246;kningarna och beslutar om 
+st&#246;d.
+
+Naturv&#229;rdsverket beslutar om antalet pr&#246;vningstillf&#228;llen per 
+&#229;r och publicerar uppgifter om pr&#246;vningstillf&#228;llena p&#229; sin 
+webbplats. F&#246;rordning (2017:815).
+
+16 a &#167; En ans&#246;kan som avser en s&#229;dan &#229;tg&#228;rd som anges i 8 &#167; 
+andra stycket ska pr&#246;vas av Naturv&#229;rdsverket i enlighet med 
+kommissionens meddelande riktlinjer f&#246;r statligt st&#246;d till 
+klimat, milj&#246;skydd och energi 2022 (C/2022/481). Om 
+Naturv&#229;rdsverket bed&#246;mer att det finns f&#246;ruts&#228;ttningar f&#246;r att 
+ge st&#246;d till &#229;tg&#228;rden enligt denna f&#246;rordning, ska verket 
+enligt 12 &#167; f&#246;rsta stycket lagen (2013:388) om till&#228;mpning av 
+Europeiska unionens statsst&#246;dsregler l&#228;mna upplysningar om 
+&#229;tg&#228;rderna till regeringen eller den myndighet som regeringen 
+best&#228;mmer. F&#246;rordning (2022:439).
+
+16 b &#167; I &#228;renden d&#228;r st&#246;d ges genom ett konkurrensutsatt 
+anbudsf&#246;rfarande f&#229;r en s&#246;kande r&#228;tta, f&#246;rtydliga eller 
+komplettera en ans&#246;kan eller en handling som l&#228;mnats in av 
+s&#246;kanden tillsammans med ans&#246;kan endast om Naturv&#229;rdsverket 
+till&#229;ter eller beg&#228;r det.
+
+En &#229;tg&#228;rd enligt f&#246;rsta stycket ska vara f&#246;renlig med 
+principerna om likabehandling och &#246;ppenhet. 
+F&#246;rordning (2022:439).
+
+17 &#167; Naturv&#229;rdsverkets beslut att ge st&#246;d ska f&#246;renas med 
+villkor om n&#228;r &#229;tg&#228;rden senast ska vara slutf&#246;rd och med de 
+&#246;vriga villkor som beh&#246;vs f&#246;r att tillgodose syftet med 
+st&#246;det. 
+
+Om beslutet avser st&#246;d till en laddningspunkt f&#246;r elfordon 
+och punkten &#228;r avsedd att vara tillg&#228;nglig f&#246;r allm&#228;nheten, 
+ska beslutet f&#246;renas med ett villkor om att st&#246;dmottagaren 
+ska s&#228;kerst&#228;lla att information om laddningspunktens 
+placering g&#246;rs offentlig och att informationen kan f&#246;rmedlas 
+i realtid. F&#246;rordning (2017:815).
+
+17 a &#167; Om finansieringen helt eller delvis kommer fr&#229;n 
+Europeiska unionen ska Naturv&#229;rdsverkets beslut att ge st&#246;d, 
+ut&#246;ver det som anges i 17 &#167;, f&#246;renas med villkor om att 
+st&#246;dmottagaren 
+
+1. ska till&#229;ta Europeiska kommissionen, Europeiska byr&#229;n f&#246;r 
+bedr&#228;geribek&#228;mpning och Europeiska revisionsr&#228;tten att ut&#246;va 
+sina r&#228;ttigheter, d&#228;ribland att genomf&#246;ra utredningar, 
+kontroller p&#229; plats och inspektioner, i enlighet med artikel 
+129.1 i Europaparlamentets och r&#229;dets f&#246;rordning (EU, Euratom) 
+2018/1046 av den 18 juli 2018 om finansiella regler f&#246;r 
+unionens allm&#228;nna budget, om &#228;ndring av f&#246;rordningarna (EU) nr 
+1296/2013, (EU) nr 1301/2013, (EU) nr 1303/2013, (EU) nr 
+1304/2013, (EU) nr 1309/2013, (EU) nr 1316/2013, (EU) nr 
+223/2014, (EU) nr 283/2014 och beslut nr 541/2014/EU samt om 
+upph&#228;vande av f&#246;rordning (EU, Euratom) nr 966/2012,
+
+2. ska se till att kraven i 1 &#228;ven st&#228;lls p&#229; den som utf&#246;r 
+eller medverkar till arbetet med &#229;tg&#228;rden, 
+
+3. p&#229; beg&#228;ran av Ekonomistyrningsverket ska l&#228;mna de uppgifter 
+till myndigheten som kr&#228;vs f&#246;r att f&#246;lja upp st&#246;det samt ge 
+myndigheten m&#246;jlighet att bes&#246;ka st&#246;dmottagaren och d&#228;r ta del 
+av information som beh&#246;vs f&#246;r uppf&#246;ljningen,
+
+4. bevara dokumentation i enlighet med artikel 132 i 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU, Euratom) 
+2018/1046, och 
+
+5. l&#228;mna information om att &#229;tg&#228;rden helt eller delvis 
+finansieras av medel fr&#229;n Europeiska unionen, i enlighet med 
+artikel 34.2 i Europaparlamentets och r&#229;dets f&#246;rordning (EU) 
+2021/241 av den 12 februari 2021 om inr&#228;ttande av faciliteten 
+f&#246;r &#229;terh&#228;mtning och resiliens. F&#246;rordning (2021:1277).
+
+17 b &#167; I &#228;renden d&#228;r st&#246;d ges genom ett konkurrensutsatt 
+anbudsf&#246;rfarande ska Naturv&#229;rdsverket inte till&#228;mpa 
+best&#228;mmelserna i 10 och 25 &#167;&#167; f&#246;rvaltningslagen (2017:900) om 
+partsinsyn och kommunikation. F&#246;rordning (2022:439).
+
+Uppgifter fr&#229;n Statens energimyndighet
+
+18 &#167; Statens energimyndighet ska inf&#246;r varje 
+pr&#246;vningstillf&#228;lle l&#228;mna uppgifter till Naturv&#229;rdsverket om 
+f&#246;rdelningen av laddningspunkter f&#246;r elfordon i varje region, 
+om vilka prioriteringar som b&#246;r g&#246;ras f&#246;r att s&#228;kerst&#228;lla en 
+effektiv utveckling av laddinfrastrukturen i regionerna och 
+om de &#246;vriga uppgifter som har betydelse f&#246;r en s&#229;dan 
+utveckling. F&#246;rordning (2017:815).
+
+Utbetalning av st&#246;d 
+
+19 &#167; Ett beslutat st&#246;dbelopp f&#229;r betalas ut i omg&#229;ngar. Dock 
+f&#229;r h&#246;gst 75 procent av beloppet betalas ut innan en &#229;tg&#228;rd 
+har slutf&#246;rts. 
+
+En slutlig beg&#228;ran om utbetalning av st&#246;d ska ha kommit in 
+till Naturv&#229;rdsverket inom tre m&#229;nader fr&#229;n det att en 
+&#229;tg&#228;rd, enligt Naturv&#229;rdsverkets beslut, senast ska vara 
+slutf&#246;rd. Till beg&#228;ran om utbetalning ska st&#246;dmottagaren 
+bifoga specificerade skriftliga underlag f&#246;r att styrka den 
+kostnad som st&#246;det avser. F&#246;rordning (2016:358).
+
+20 &#167; Ett st&#246;d enligt denna f&#246;rordning f&#229;r inte betalas ut 
+till ett f&#246;retag som &#228;r f&#246;rem&#229;l f&#246;r betalningskrav p&#229; grund 
+av ett beslut av Europeiska kommissionen som f&#246;rklarar ett 
+st&#246;d olagligt och of&#246;renligt med den inre marknaden. 
+
+21 &#167; Om Naturv&#229;rdsverket beslutar att st&#246;d ska betalas ut, 
+ska beslutet f&#246;renas med villkor om att st&#246;dmottagaren ska 
+l&#228;mna de uppgifter som kr&#228;vs f&#246;r uppf&#246;ljning och utv&#228;rdering 
+av st&#246;det. Uppgifterna ska l&#228;mnas p&#229; beg&#228;ran av 
+l&#228;nsstyrelsen, Naturv&#229;rdsverket eller Statens 
+energimyndighet. F&#246;rordning (2017:815).
+
+22 &#167; Naturv&#229;rdsverket f&#229;r besluta att ett st&#246;d inte ska 
+betalas ut om 
+
+1. s&#246;kanden genom oriktiga uppgifter eller p&#229; annat s&#228;tt 
+orsakat att st&#246;det getts felaktigt eller med f&#246;r h&#246;gt belopp, 
+
+2. st&#246;det av annan orsak getts felaktigt eller med f&#246;r h&#246;gt 
+belopp och mottagaren sk&#228;ligen borde ha insett detta, 
+
+3. det visar sig att det inte funnits f&#246;ruts&#228;ttningar f&#246;r 
+st&#246;det och den som ans&#246;kt om st&#246;det borde ha insett detta, 
+eller 
+
+4. villkoren f&#246;r st&#246;det inte har f&#246;ljts.
+
+&#197;terbetalning och &#229;terkrav 
+
+23 &#167; Om ett st&#246;d har betalats ut trots att det enligt 22 &#167; 
+funnits f&#246;ruts&#228;ttningar f&#246;r att inte betala ut det, &#228;r 
+mottagaren &#229;terbetalningsskyldig.
+
+P&#229; det belopp som en st&#246;dmottagare &#228;r &#229;terbetalningsskyldig 
+f&#246;r ska r&#228;nta betalas fr&#229;n och med den dag som infaller en 
+m&#229;nad efter det att beslut om &#229;terkrav enligt 24 &#167; har fattats 
+och efter en r&#228;ntesats som vid varje tidpunkt &#246;verstiger 
+statens utl&#229;ningsr&#228;nta med tv&#229; procentenheter.
+F&#246;rordning (2024:17).
+
+24 &#167; Om en st&#246;dmottagare &#228;r &#229;terbetalningsskyldig enligt 23 &#167;, 
+ska Naturv&#229;rdsverket besluta att helt eller delvis kr&#228;va 
+tillbaka st&#246;det tillsammans med r&#228;nta. Om det finns s&#228;rskilda 
+sk&#228;l f&#229;r Naturv&#229;rdsverket helt eller delvis avst&#229; fr&#229;n kravet 
+p&#229; &#229;terbetalning eller kravet p&#229; r&#228;nta. F&#246;rordning (2024:17).
+
+Uppf&#246;ljning och utv&#228;rdering 
+
+25 &#167; St&#246;d enligt denna f&#246;rordning ska f&#246;ljas upp och 
+utv&#228;rderas av Statens energimyndighet i fr&#229;ga om 
+laddningspunkter och av Naturv&#229;rdsverket i &#246;vrigt. 
+L&#228;nsstyrelsen ska hj&#228;lpa myndigheterna med uppf&#246;ljningen och 
+utv&#228;rderingen.
+
+Om finansieringen helt eller delvis kommer fr&#229;n Europeiska 
+unionen ska Ekonomistyrningsverket i revisionssyfte f&#246;lja upp 
+st&#246;det och beg&#228;ra in n&#246;dv&#228;ndiga uppgifter fr&#229;n st&#246;dmottagaren.
+F&#246;rordning (2021:1277).
+
+26 &#167; Best&#228;mmelser om offentligg&#246;rande, rapportering och 
+registerf&#246;ring finns i 12 a &#167; lagen (2013:388) om till&#228;mpning 
+av Europeiska unionens statsst&#246;dsregler och i f&#246;rordningen 
+(2016:605) om till&#228;mpning av Europeiska unionens 
+statsst&#246;dsregler. F&#246;rordning (2017:815).
+
+26 a &#167; Om ans&#246;kan avser st&#246;d enligt kommissionens f&#246;rordning 
+(EU) nr 1407/2013, ska Naturv&#229;rdsverket l&#228;mna de upplysningar 
+till f&#246;retaget som framg&#229;r av artikel 6.1 i den 
+f&#246;rordningen. F&#246;rordning (2017:815).
+
+Bemyndigande 
+
+27 &#167; Naturv&#229;rdsverket f&#229;r meddela 
+
+1. ytterligare f&#246;reskrifter om de uppgifter som ska l&#228;mnas i 
+ans&#246;kan om st&#246;d och i samband med beg&#228;ran om utbetalning, 
+
+2. f&#246;reskrifter om de uppgifter som ska l&#228;mnas inf&#246;r 
+uppf&#246;ljning och utv&#228;rdering av st&#246;det, och 
+
+3. de &#246;vriga f&#246;reskrifter som beh&#246;vs f&#246;r verkst&#228;lligheten av 
+denna f&#246;rordning. 
+
+Innan Naturv&#229;rdsverket meddelar f&#246;rskrifter som avser 
+laddningspunkter ska verket ge Statens energimyndighet 
+tillf&#228;lle att yttra sig. F&#246;rordning (2017:815).
+
+&#214;verklagande 
+
+28 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser om 
+&#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. Andra beslut &#228;n 
+beslut av Naturv&#229;rdsverket enligt 20, 22 eller 24 &#167; f&#229;r dock 
+inte &#246;verklagas. F&#246;rordning (2024:17).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2021:1277
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 18 januari 2022.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r st&#246;d som har 
+beviljats f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1094">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1096">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

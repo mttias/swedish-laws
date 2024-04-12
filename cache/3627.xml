@@ -1,0 +1,958 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="1988-07-25" /> 
+ <meta id="rattsinfo-edited" content="2019-07-10" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3627</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3626">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3628">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1988:870 ·
+                    <a href="/sfsr?bet=1988:870">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1988:870) om v&#229;rd av missbrukare i vissa fall</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1988-06-14
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:357
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1989-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; De i 1 kap. 1 &#167; socialtj&#228;nstlagen (2001:453) angivna m&#229;len
+f&#246;r samh&#228;llets socialtj&#228;nst skall vara v&#228;gledande f&#246;r all v&#229;rd
+som syftar till att hj&#228;lpa enskilda m&#228;nniskor att komma ifr&#229;n
+missbruk av alkohol, narkotika eller flyktiga l&#246;sningsmedel.
+V&#229;rden skall bygga p&#229; respekt f&#246;r den enskildes
+sj&#228;lvbest&#228;mmander&#228;tt och integritet och skall s&#229; l&#229;ngt det &#228;r
+m&#246;jligt utformas och genomf&#246;ras i samverkan med den enskilde.
+Lag (2005:467).
+
+2 &#167; V&#229;rd inom socialtj&#228;nsten ges en missbrukare i samf&#246;rst&#229;nd
+med honom eller henne enligt best&#228;mmelserna i socialtj&#228;nstlagen
+(2001:453). En missbrukare skall dock beredas v&#229;rd oberoende av
+eget samtycke under de f&#246;ruts&#228;ttningar som anges i denna lag
+(tv&#229;ngsv&#229;rd).
+
+F&#246;r tv&#229;ngsv&#229;rdens inneh&#229;ll och utformning g&#228;ller best&#228;mmelserna
+i socialtj&#228;nstlagen, om inte n&#229;got annat anges i denna lag.
+Lag (2005:467).
+
+3 &#167; Tv&#229;ngsv&#229;rden skall syfta till att genom beh&#246;vliga insatser
+motivera missbrukaren s&#229; att han eller hon kan antas vara i
+st&#229;nd att frivilligt medverka till fortsatt behandling och ta
+emot st&#246;d f&#246;r att komma ifr&#229;n sitt missbruk. Lag (2005:467).
+
+Beredande av v&#229;rd
+
+4 &#167; Tv&#229;ngsv&#229;rd skall beslutas om,
+
+1. n&#229;gon till f&#246;ljd av ett fortg&#229;ende missbruk av alkohol,
+narkotika eller flyktiga l&#246;sningsmedel &#228;r i behov av v&#229;rd f&#246;r
+att komma ifr&#229;n sitt missbruk,
+
+2. v&#229;rdbehovet inte kan tillgodoses enligt socialtj&#228;nstlagen
+(2001:453) eller p&#229; n&#229;got annat s&#228;tt, och
+
+3. han eller hon till f&#246;ljd av missbruket
+
+a) uts&#228;tter sin fysiska eller psykiska h&#228;lsa f&#246;r allvarlig
+fara,
+
+b) l&#246;per en uppenbar risk att f&#246;rst&#246;ra sitt liv, eller
+
+c) kan befaras komma att allvarligt skada sig sj&#228;lv eller n&#229;gon
+n&#228;rst&#229;ende.
+
+Om n&#229;gon f&#246;r kortare tid ges v&#229;rd med st&#246;d av lagen (1991:1128)
+om psykiatrisk tv&#229;ngsv&#229;rd hindrar detta inte ett beslut om
+tv&#229;ngsv&#229;rd enligt denna lag. Lag (2005:467).
+
+5 &#167; F&#246;rvaltningsr&#228;tten beslutar om beredande av tv&#229;ngsv&#229;rd.
+Lag (2009:800).
+
+6 &#167; Myndigheter som i sin verksamhet regelbundet kommer i
+kontakt med missbrukare &#228;r skyldiga att genast anm&#228;la till
+socialn&#228;mnden om de f&#229;r k&#228;nnedom om att n&#229;gon kan antas vara i
+behov av v&#229;rd enligt denna lag. Detta skall dock inte g&#228;lla
+myndigheter inom h&#228;lso- och sjukv&#229;rden i vidare m&#229;n &#228;n som
+f&#246;ljer av andra stycket.
+
+En l&#228;kare skall genast g&#246;ra anm&#228;lan till socialn&#228;mnden, om han
+eller hon i sin verksamhet kommer i kontakt med n&#229;gon som kan
+antas vara i behov av omedelbart omh&#228;ndertagande enligt 13 &#167;
+eller v&#229;rd enligt denna lag och l&#228;karen bed&#246;mer att denne inte
+kan beredas tillfredsst&#228;llande v&#229;rd eller behandling genom
+l&#228;karens egen f&#246;rsorg eller i &#246;vrigt inom h&#228;lso- och
+sjukv&#229;rden. Lag (2005:467).
+
+7 &#167; Socialn&#228;mnden skall inleda utredning, n&#228;r den genom anm&#228;lan
+enligt 6 &#167; eller p&#229; n&#229;got annat s&#228;tt har f&#229;tt k&#228;nnedom om att det kan
+finnas sk&#228;l att bereda n&#229;gon tv&#229;ngsv&#229;rd.
+
+Myndigheter som avses i 6 &#167; f&#246;rsta stycket &#228;r skyldiga att l&#228;mna
+socialn&#228;mnden alla uppgifter som kan vara av betydelse f&#246;r en
+s&#229;dan utredning. Lag (1994:96).
+
+8 &#167; Har upph&#228;vts genom lag (2005:467).
+
+9 &#167; N&#228;r utredningen har inletts skall socialn&#228;mnden, om det inte &#228;r
+uppenbart obeh&#246;vligt, besluta om l&#228;karunders&#246;kning av
+missbrukaren samt utse en l&#228;kare f&#246;r unders&#246;kningen. L&#228;karen
+skall i ett intyg ange missbrukarens aktuella h&#228;lsotillst&#229;nd.
+Lag (1994:96).
+
+10 &#167; Av socialn&#228;mndens utredning skall framg&#229; missbrukarens
+f&#246;rh&#229;llanden samt tidigare vidtagna och planerade &#229;tg&#228;rder. Av
+utredningen skall ocks&#229; framg&#229; i vilket hem intagning kan ske och
+vilken v&#229;rd utanf&#246;r hemmet som planeras, om intagning sker.
+Lag (1994:96).
+
+11 &#167; Anser socialn&#228;mnden efter utredning att det finns sk&#228;l att
+bereda n&#229;gon tv&#229;ngsv&#229;rd, skall n&#228;mnden ans&#246;ka om s&#229;dan v&#229;rd hos
+f&#246;rvaltningsr&#228;tten.
+
+Till ans&#246;kan skall fogas den utredning n&#228;mnden gjort och ett
+s&#229;dant l&#228;karintyg som avses i 9 &#167;.
+
+Om ans&#246;kan inte inneh&#229;ller l&#228;karintyg eller om det beh&#246;vs av
+n&#229;got annat sk&#228;l, f&#229;r r&#228;tten besluta om l&#228;karunders&#246;kning.
+Lag (2009:800).
+
+12 &#167; Har r&#228;tten beslutat om tv&#229;ngsv&#229;rd skall socialn&#228;mnden se
+till att beslutet verkst&#228;lls genom att missbrukaren bereds v&#229;rd
+i ett hem som avses i 22 &#167; eller, i fall som avses i 24 &#167;
+f&#246;rsta stycket, p&#229; sjukhus.
+
+R&#228;ttens beslut upph&#246;r att g&#228;lla, om v&#229;rden inte har p&#229;b&#246;rjats
+inom fyra veckor fr&#229;n den dag d&#229; beslutet vann laga kraft.
+
+Beslutet upph&#246;r ocks&#229; att g&#228;lla om, sedan v&#229;rden har p&#229;b&#246;rjats,
+den tid som enligt 21 &#167; inte skall r&#228;knas som v&#229;rdtid, uppg&#229;r
+till sammanlagt minst sex m&#229;nader i f&#246;ljd. Lag (2001:464).
+
+Omedelbart omh&#228;ndertagande
+
+13 &#167; Socialn&#228;mnden f&#229;r besluta att en missbrukare omedelbart
+skall omh&#228;ndertas, om
+
+1. det &#228;r sannolikt att missbrukaren kan beredas v&#229;rd med st&#246;d
+av denna lag, och
+
+2. r&#228;ttens beslut om v&#229;rd inte kan avvaktas p&#229; grund av att
+missbrukaren kan antas f&#229; sitt h&#228;lsotillst&#229;nd allvarligt
+f&#246;rs&#228;mrat, om han eller hon inte f&#229;r omedelbar v&#229;rd, eller p&#229;
+grund av att det finns en &#246;verh&#228;ngande risk f&#246;r att
+missbrukaren till f&#246;ljd av sitt tillst&#229;nd kommer att allvarligt
+skada sig sj&#228;lv eller n&#229;gon n&#228;rst&#229;ende.
+
+Kan socialn&#228;mndens beslut om omh&#228;ndertagande inte avvaktas, f&#229;r
+beslut om omh&#228;ndertagande fattas av n&#228;mndens ordf&#246;rande eller
+n&#229;gon annan ledamot som n&#228;mnden har f&#246;rordnat. Beslutet skall
+anm&#228;las vid n&#228;mndens n&#228;sta sammantr&#228;de.
+
+N&#228;r socialn&#228;mnden har ans&#246;kt om tv&#229;ngsv&#229;rd, f&#229;r &#228;ven r&#228;tten p&#229;
+n&#229;gon av de grunder som anges i f&#246;rsta stycket besluta att
+missbrukaren omedelbart skall omh&#228;ndertas. Lag (2005:467).
+
+14 &#167; Har upph&#228;vts genom lag (1994:96).
+
+15 &#167; Har socialn&#228;mnden beslutat om omedelbart omh&#228;ndertagande,
+skall beslutet utan dr&#246;jsm&#229;l och senast dagen efter beslutet
+underst&#228;llas f&#246;rvaltningsr&#228;tten eller, om beslutet har fattats
+efter det att n&#228;mnden har ans&#246;kt om tv&#229;ngsv&#229;rd, den r&#228;tt som
+pr&#246;var fr&#229;gan om v&#229;rd.
+
+Av underst&#228;llningen skall de f&#246;rh&#229;llanden framg&#229; som legat till
+grund f&#246;r beslutet om omedelbart omh&#228;ndertagande och de &#246;vriga
+omst&#228;ndigheter som &#228;r av betydelse f&#246;r r&#228;ttens pr&#246;vning av om
+omh&#228;ndertagandet skall best&#229;. Handlingarna i &#228;rendet skall
+fogas till underst&#228;llningen. Lag (2009:800).
+
+16 &#167; I samband med att ett beslut om omedelbart omh&#228;ndertagande
+underst&#228;lls r&#228;tten skall socialn&#228;mnden, om det &#228;r m&#246;jligt, l&#229;ta
+den omh&#228;ndertagne f&#229; del av handlingarna i &#228;rendet samt
+underr&#228;tta honom eller henne om sin r&#228;tt att
+
+1. yttra sig skriftligt till r&#228;tten inom en viss angiven tid,
+
+2. beg&#228;ra muntlig f&#246;rhandling vid r&#228;tten, och
+
+3. av r&#228;tten f&#229; offentligt bitr&#228;de.
+
+Socialn&#228;mnden skall ocks&#229; upplysa den enskilde om att r&#228;tten
+kan komma att avg&#246;ra m&#229;let &#228;ven om det inte l&#228;mnas n&#229;got
+yttrande. Lag (2005:467).
+
+17 &#167; R&#228;tten skall s&#229; snart det kan ske och senast inom fyra dagar fr&#229;n
+det att beslutet underst&#228;lldes r&#228;tten eller, om beslutet inte &#228;r
+verkst&#228;llt n&#228;r det underst&#228;lls, fr&#229;n det att beslutet verkst&#228;lldes,
+pr&#246;va om omh&#228;ndertagandet skall best&#229;. Denna tid f&#229;r f&#246;rl&#228;ngas till en
+vecka, om det p&#229; grund av n&#229;gon s&#228;rskild omst&#228;ndighet &#228;r n&#246;dv&#228;ndigt.
+
+Om det inte finns sk&#228;l f&#246;r omh&#228;ndertagande, skall r&#228;tten genast upph&#228;va
+beslutet.
+
+18 &#167; Om omh&#228;ndertagande har beslutats enligt 13 &#167; f&#246;rsta eller
+andra stycket, skall ans&#246;kan om tv&#229;ngsv&#229;rd ha kommit in till
+f&#246;rvaltningssr&#228;tten inom en vecka fr&#229;n det att
+f&#246;rvaltningsr&#228;tten meddelade beslut att omh&#228;ndertagandet skulle
+best&#229;. Lag (2009:800).
+
+18 a &#167; Ett beslut om omedelbart omh&#228;ndertagande upph&#246;r att
+g&#228;lla
+
+1. om beslutet inte har underst&#228;llts f&#246;rvaltningsr&#228;tten inom
+den tid som anges i 15 &#167;,
+
+2. om ans&#246;kan om v&#229;rd inte har gjorts inom den tid som anges i
+18 &#167;,
+
+3. n&#228;r r&#228;tten avg&#246;r fr&#229;gan om v&#229;rd, eller
+
+4. om den omh&#228;ndertagne h&#228;ktas. Lag (2009:800).
+
+18 b &#167; Om det inte l&#228;ngre finns sk&#228;l f&#246;r ett omh&#228;ndertagande,
+skall socialn&#228;mnden genast besluta att detta genast skall
+upph&#246;ra. Ett s&#229;dant beslut f&#229;r meddelas ocks&#229; av r&#228;tten.
+Lag (2005:467).
+
+19 &#167; Socialn&#228;mnden skall se till att den som &#228;r omh&#228;ndertagen enligt
+13 &#167; utan dr&#246;jsm&#229;l bereds v&#229;rd i ett hem som avses i 22 &#167; eller, i
+fall som avses i 24 &#167; f&#246;rsta stycket, p&#229; sjukhus.
+
+V&#229;rdtid
+
+20 &#167; Tv&#229;ngsv&#229;rden skall upph&#246;ra s&#229; snart syftet med v&#229;rden &#228;r uppn&#229;tt
+och senast n&#228;r v&#229;rden har p&#229;g&#229;tt i sex m&#229;nader (v&#229;rdtid). V&#229;rden skall
+anses p&#229;b&#246;rjad n&#228;r missbrukaren p&#229; grund av beslut om omedelbart
+omh&#228;ndertagande eller tv&#229;ngsv&#229;rd inst&#228;llt sig vid eller f&#246;rts till ett
+hem som avses i 22 &#167; eller ett sjukhus. V&#229;rden upph&#246;r genom beslut om
+utskrivning enligt 25 &#167;.
+
+21 &#167; Som v&#229;rdtid r&#228;knas inte den tid d&#229; missbrukaren
+
+1. olovligen vistas utanf&#246;r ett hem som avses i 22 &#167; eller
+
+2. &#228;r h&#228;ktad eller intagen i kriminalv&#229;rdsanstalt.
+
+V&#229;rden
+
+22 &#167; Tv&#229;ngsv&#229;rd l&#228;mnas genom hem som &#228;r s&#228;rskilt avsedda att
+l&#228;mna v&#229;rd enligt denna lag (LVM-hem). Lag (2001:464).
+
+23 &#167; F&#246;r missbrukare som beh&#246;ver st&#229; under s&#228;rskilt noggrann
+tillsyn skall det finnas LVM-hem som &#228;r anpassade f&#246;r s&#229;dan
+tillsyn. Lag (1993:3).
+
+24 &#167; V&#229;rden skall inledas p&#229; sjukhus, om f&#246;ruts&#228;ttningar f&#246;r
+sjukhusv&#229;rd &#228;r uppfyllda och det anses l&#228;mpligt med h&#228;nsyn till
+den planerade v&#229;rden i &#246;vrigt.
+
+Om n&#229;gon beh&#246;ver sjukhusv&#229;rd under v&#229;rdtiden, skall han eller
+hon ges tillf&#228;lle till s&#229;dan v&#229;rd.
+
+Verksamhetschefen f&#246;r den sjukhusenhet d&#228;r missbrukaren vistas
+skall se till att socialn&#228;mnden eller Statens
+institutionsstyrelse genast underr&#228;ttas, om missbrukaren &#246;nskar
+l&#228;mna eller redan har l&#228;mnat sjukhuset. Verksamhetschefen skall
+besluta att missbrukaren skall hindras fr&#229;n att l&#228;mna sjukhuset
+under den tid som beh&#246;vs f&#246;r att s&#228;kerst&#228;lla att missbrukaren
+kan f&#246;ras &#246;ver till ett LVM-hem. Lag (2005:467).
+
+25 &#167; Om beslut har fattats om tv&#229;ngsv&#229;rd eller omedelbart 
+omh&#228;ndertagande enligt denna lag ska Statens 
+institutionsstyrelse efter anm&#228;lan av socialn&#228;mnden anvisa 
+plats i ett LVM-hem. I akuta situationer ska Statens 
+institutionsstyrelse omedelbart anvisa en s&#229;dan plats.
+
+Statens institutionsstyrelse beslutar om intagning i och om 
+utskrivning fr&#229;n ett LVM-hem.
+
+Statens institutionsstyrelse f&#229;r besluta att en intagen ska 
+flyttas till ett annat LVM-hem, om det anses l&#228;mpligt fr&#229;n 
+v&#229;rdsynpunkt. Lag (2018:651).
+
+26 &#167; Statens institutionsstyrelse skall fortl&#246;pande h&#229;lla
+socialn&#228;mnden underr&#228;ttad om hur v&#229;rden framskrider och samr&#229;da
+med n&#228;mnden i alla fr&#229;gor av vikt. F&#246;re &#246;verflyttning till ett
+annat hem och f&#246;re utskrivning skall samr&#229;d alltid ske.
+Lag (2005:467).
+
+26 a &#167; F&#229;r n&#229;gon som tillh&#246;r h&#228;lso- och sjukv&#229;rdspersonalen och
+&#228;r verksam vid ett LVM-hem k&#228;nnedom om att en intagen har en
+s&#229;dan smittsam sjukdom som enligt 1 kap. 3 &#167; andra stycket
+smittskyddslagen (2004:168) utg&#246;r allm&#228;nfarlig sjukdom, skall
+Statens institutionsstyrelse underr&#228;ttas, om det inte st&#229;r
+klart att det inte finns risk f&#246;r smittspridning.
+Lag (2005:467).
+
+27 &#167; Statens institutionsstyrelse skall, s&#229; snart det kan ske
+med h&#228;nsyn till den planerade v&#229;rden, besluta att den intagne
+skall beredas tillf&#228;lle att vistas utanf&#246;r LVM-hemmet f&#246;r v&#229;rd
+i annan form.
+
+Socialn&#228;mnden skall se till att s&#229;dan v&#229;rd anordnas.
+
+Om det inte l&#228;ngre finns f&#246;ruts&#228;ttningar f&#246;r v&#229;rd i annan form,
+f&#229;r Statens institutionsstyrelse besluta att missbrukaren skall
+h&#228;mtas tillbaka till hemmet. Lag (2005:467).
+
+28 &#167; Innan v&#229;rd i annan form p&#229;b&#246;rjas skall socialn&#228;mnden, i
+samr&#229;d med den intagne och Statens institutionsstyrelse,
+uppr&#228;tta en plan f&#246;r den fortsatta v&#229;rden. Lag (2005:467).
+
+29 &#167; Har upph&#228;vts genom lag (2005:467).
+
+30 &#167; Socialn&#228;mnden skall aktivt verka f&#246;r att den enskilde
+efter v&#229;rdtiden f&#229;r bostad och arbete eller utbildning samt se
+till att han eller hon f&#229;r personligt st&#246;d eller behandling f&#246;r
+att varaktigt komma ifr&#229;n sitt missbruk. Lag (2005:467).
+
+30 a &#167; Statens institutionsstyrelse skall f&#246;lja upp
+verksamheten enligt denna lag. Uppf&#246;ljningen skall omfatta
+tiden s&#229;v&#228;l under som efter avslutad v&#229;rd.
+
+Socialn&#228;mnden skall till Statens institutionsstyrelse l&#228;mna de
+uppgifter om enskilda som Statens institutionsstyrelse beh&#246;ver
+f&#246;r att fullg&#246;ra den skyldighet som f&#246;ljer av f&#246;rsta stycket.
+Lag (2005:467).
+
+S&#228;rskilda befogenheter
+
+31 &#167; Den som v&#229;rdas enligt denna lag i ett LVM-hem f&#229;r inte
+inneha alkoholhaltiga drycker, narkotika, flyktiga
+l&#246;sningsmedel, s&#229;dana medel som avses i lagen (1991:1969) om
+f&#246;rbud mot vissa dopningsmedel eller s&#229;dana varor som omfattas
+av lagen (1999:42) om f&#246;rbud mot vissa h&#228;lsofarliga varor eller
+injektionssprutor, kanyler eller andra f&#246;rem&#229;l som &#228;r s&#228;rskilt
+&#228;gnade att anv&#228;ndas f&#246;r missbruk av eller annan befattning med
+narkotika. Han eller hon f&#229;r inte heller inneha n&#229;got annat som
+kan vara till men f&#246;r v&#229;rden eller ordningen vid hemmet. Om
+s&#229;dan egendom p&#229;tr&#228;ffas, skall den omh&#228;ndertas. Lag (2005:467).
+
+32 &#167; Om det beh&#246;vs, f&#229;r den som v&#229;rdas enligt denna lag 
+kroppsvisiteras eller ytligt kroppsbesiktigas, vid ankomsten 
+till LVM-hemmet, f&#246;r kontroll av att denne inte b&#228;r p&#229; sig 
+n&#229;got som han eller hon enligt 31 &#167; inte f&#229;r inneha. Detsamma 
+g&#228;ller om det under vistelsen i hemmet uppkommer misstanke 
+att s&#229;dan egendom ska p&#229;tr&#228;ffas hos honom eller henne.
+
+En kroppsvisitation eller ytlig kroppsbesiktning ska 
+genomf&#246;ras i n&#228;rvaro av ett vittne om inte den intagne avst&#229;r 
+fr&#229;n den r&#228;tten. 
+
+All den h&#228;nsyn som omst&#228;ndigheterna medger ska iakttas vid 
+kroppsvisitation och ytlig kroppsbesiktning.
+Lag (2018:651). 
+
+32 a &#167; Den intagne &#228;r, om inte annat motiveras av 
+medicinska eller liknande sk&#228;l, skyldig att vid ankomsten 
+till LVM-hemmet l&#228;mna blod-, urin-, utandnings-, saliv- eller 
+svettprov f&#246;r kontroll av om han eller hon &#228;r p&#229;verkad av 
+narkotika, alkoholhaltiga drycker, andra berusningsmedel, 
+s&#229;dant medel som avses i 1 &#167; lagen (1991:1969) om f&#246;rbud mot 
+vissa dopningsmedel eller s&#229;dan vara som omfattas av lagen 
+(1999:42) om f&#246;rbud mot vissa h&#228;lsofarliga varor. Den intagne 
+f&#229;r uppmanas att l&#228;mna prov endast om det finns anledning 
+till det.
+
+F&#246;rsta stycket f&#246;rsta meningen g&#228;ller ocks&#229; om det under 
+vistelsen i hemmet kan misst&#228;nkas att den intagne &#228;r p&#229;verkad 
+av n&#229;gon s&#229;dan dryck eller vara eller n&#229;got s&#229;dant medel som 
+anges i f&#246;rsta stycket. Lag (2018:651).
+
+32 b &#167; Om det beh&#246;vs f&#246;r att genomf&#246;ra v&#229;rden eller 
+uppr&#228;tth&#229;lla ordningen vid hemmet, f&#229;r den intagnes 
+bostadsrum och andra slutna f&#246;rvaringsst&#228;llen som den intagne 
+disponerar unders&#246;kas (rumsvisitation). En rumsvisitation f&#229;r 
+endast utf&#246;ras f&#246;r att s&#246;ka efter f&#246;rem&#229;l som den intagne 
+enligt 31 &#167; inte f&#229;r inneha. 
+
+En rumsvisitation ska genomf&#246;ras i n&#228;rvaro av ett vittne. All 
+den h&#228;nsyn som omst&#228;ndigheterna medger ska iakttas.
+Lag (2018:651).
+
+32 c &#167; Om det beh&#246;vs f&#246;r att genomf&#246;ra v&#229;rden eller 
+uppr&#228;tth&#229;lla ordningen vid hemmet, f&#229;r s&#228;kerhetskontroll 
+genomf&#246;ras med metalldetektor eller annan liknande anordning 
+p&#229; de LVM-hem som Statens institutionsstyrelse best&#228;mmer. Det 
+ska f&#246;r varje LVM-hem anges i vilka situationer kontroller 
+f&#229;r genomf&#246;ras p&#229; intagna som v&#229;rdas enligt denna lag. S&#229;dan 
+kontroll f&#229;r bara genomf&#246;ras f&#246;r att s&#246;ka efter f&#246;rem&#229;l som 
+den intagne enligt 31 &#167; inte f&#229;r inneha. Lag (2018:651).
+
+33 &#167; Best&#228;mmelserna i 31, 32, 32 b och 32 c &#167;&#167; ska g&#228;lla 
+f&#246;r alla som v&#229;rdas i ett LVM-hem, om det &#228;r n&#246;dv&#228;ndigt f&#246;r 
+att genomf&#246;ra v&#229;rden och uppr&#228;tth&#229;lla ordningen vid hemmet 
+och regeringen eller, efter regeringens bemyndigande, Statens 
+institutionsstyrelse medger det. Lag (2018:651).
+
+33 a &#167; Den som v&#229;rdas enligt denna lag i ett LVM-hem har 
+r&#228;tt att anv&#228;nda elektroniska kommunikationstj&#228;nster samt ta 
+emot bes&#246;k i den utstr&#228;ckning det &#228;r l&#228;mpligt. Den intagnes 
+r&#228;tt att anv&#228;nda elektroniska kommunikationstj&#228;nster och ta 
+emot bes&#246;k f&#229;r dock v&#228;gras eller begr&#228;nsas, om det kan 
+&#228;ventyra v&#229;rden eller ordningen vid hemmet.
+
+Ett beslut om inskr&#228;nkning i r&#228;tten att anv&#228;nda elektroniska 
+kommunikationstj&#228;nster eller ta emot bes&#246;k f&#229;r g&#228;lla i h&#246;gst 
+14 dagar. N&#228;r det inte l&#228;ngre finns f&#246;ruts&#228;ttningar f&#246;r 
+beslutet ska det upph&#228;vas.
+
+I lagen (1996:981) om bes&#246;ksinskr&#228;nkningar vid viss 
+tv&#229;ngsv&#229;rd finns best&#228;mmelser om bes&#246;k p&#229; v&#229;rdinstitutioner 
+enligt denna lag. Lag (2018:651).
+
+34 &#167; Den som v&#229;rdas enligt denna lag i ett LVM-hem f&#246;r 
+s&#228;rskilt noggrann tillsyn f&#229;r hindras att l&#228;mna hemmet och i 
+&#246;vrigt underkastas den begr&#228;nsning i r&#246;relsefriheten som &#228;r 
+n&#246;dv&#228;ndig f&#246;r att v&#229;rden ska kunna genomf&#246;ras.
+
+Den intagne f&#229;r beredas v&#229;rd vid en enhet inom hemmet som &#228;r 
+l&#229;sbar eller p&#229; n&#229;got annat s&#228;tt inr&#228;ttad f&#246;r s&#228;rskilt 
+noggrann tillsyn (v&#229;rd vid l&#229;sbar enhet), 
+
+1. om det &#228;r n&#246;dv&#228;ndigt med h&#228;nsyn till den intagnes, &#246;vriga 
+intagnas eller personalens s&#228;kerhet, eller
+
+2. om det &#228;r n&#246;dv&#228;ndigt f&#246;r att f&#246;rhindra att den intagne 
+avviker eller f&#246;r att i &#246;vrigt genomf&#246;ra v&#229;rden. 
+
+Den som v&#229;rdas vid en l&#229;sbar enhet ska ges m&#246;jlighet att 
+dagligen vistas utomhus och ges m&#246;jlighet att &#228;gna sig &#229;t 
+fysisk aktivitet eller n&#229;gon annan fritidssyssels&#228;ttning.
+
+Den intagne f&#229;r v&#229;rdas inom en s&#229;dan enhet under h&#246;gst tv&#229; 
+m&#229;nader i f&#246;ljd. Om s&#228;rskilda behandlingssk&#228;l f&#246;ranleder det, 
+f&#229;r dock v&#229;rden vid enheten p&#229;g&#229; l&#228;ngre tid, f&#246;rutsatt att 
+n&#229;gon av de omst&#228;ndigheter som anges i andra stycket 
+fortfarande g&#228;ller och att den intagne samtidigt ges 
+m&#246;jlighet till vistelse i &#246;ppnare former eller utanf&#246;r 
+hemmet. Lag (2018:651).
+
+34 a &#167; Om det kr&#228;vs med h&#228;nsyn till den intagnes speciella 
+behov av v&#229;rd, hans eller hennes s&#228;kerhet eller &#246;vriga 
+intagnas s&#228;kerhet f&#229;r en intagen hindras fr&#229;n att tr&#228;ffa 
+andra intagna (v&#229;rd i enskildhet).
+
+V&#229;rd i enskildhet ska vara anpassad efter den intagnes 
+individuella v&#229;rdbehov.
+
+En fr&#229;ga om v&#229;rd i enskildhet ska pr&#246;vas fortl&#246;pande och 
+alltid ompr&#246;vas inom sju dagar fr&#229;n senaste pr&#246;vning.
+Lag (2018:651).
+
+34 b &#167; Om det &#228;r s&#228;rskilt p&#229;kallat p&#229; grund av att den 
+intagne upptr&#228;der v&#229;ldsamt eller &#228;r s&#229; p&#229;verkad av 
+berusningsmedel att han eller hon inte kan h&#229;llas till 
+ordningen, f&#229;r den intagne h&#229;llas i avskildhet. Han eller hon 
+ska d&#229; st&#229; under fortl&#246;pande uppsikt av personalen. Den 
+intagne f&#229;r dock inte h&#229;llas i s&#229;dan avskildhet l&#228;ngre tid &#228;n 
+vad som &#228;r oundg&#228;ngligen n&#246;dv&#228;ndigt och inte i n&#229;got fall 
+under l&#228;ngre tid &#228;n 24 timmar i f&#246;ljd. Lag (2018:651).
+
+35 &#167; F&#246;rs&#228;ndelser till den som v&#229;rdas enligt denna lag i ett LVM-hem f&#246;r
+s&#228;rskilt noggrann tillsyn f&#229;r kontrolleras, om det beh&#246;vs med h&#228;nsyn
+till ordningen vid hemmet eller till den intagnes s&#228;rskilda
+f&#246;rh&#229;llanden. Om en ankommande f&#246;rs&#228;ndelse inneh&#229;ller egendom som inte
+f&#229;r innehas enligt 31 &#167;, f&#229;r egendomen omh&#228;ndertas.
+
+36 &#167; Har alkoholhaltiga drycker, narkotika, flyktiga 
+l&#246;sningsmedel, s&#229;dana medel som avses i lagen (1991:1969) om 
+f&#246;rbud mot vissa dopningsmedel eller s&#229;dana varor som omfattas 
+av lagen (1999:42) om f&#246;rbud mot vissa h&#228;lsofarliga varor 
+omh&#228;ndertagits enligt 31 eller 35 &#167; eller p&#229;tr&#228;ffats inom ett 
+LVM-hem utan att det finns n&#229;gon k&#228;nd &#228;gare till dem, ska 
+Statens institutionsstyrelse l&#229;ta f&#246;rst&#246;ra eller s&#228;lja 
+egendomen enligt best&#228;mmelserna om beslagtagen egendom i 2 &#167; 1 
+f&#246;rsta stycket lagen (1958:205) om f&#246;rverkande av alkohol m.m. 
+Belopp som erh&#229;lls vid f&#246;rs&#228;ljning tillfaller staten.
+
+Detsamma ska g&#228;lla i fr&#229;ga om injektionssprutor, kanyler och 
+andra f&#246;rem&#229;l som &#228;r s&#228;rskilt &#228;gnade att anv&#228;ndas f&#246;r missbruk 
+av eller annan befattning med narkotika. Lag (2019:357).
+
+36 a &#167; Tv&#229;ngs&#229;tg&#228;rder enligt 32-35 &#167;&#167; f&#229;r anv&#228;ndas endast om de
+st&#229;r i rimlig proportion till syftet med &#229;tg&#228;rden. &#196;r mindre
+ingripande &#229;tg&#228;rder tillr&#228;ckliga, skall de anv&#228;ndas.
+Lag (2005:467).
+
+36 b &#167; I 25, 27, 32 c, 33 och 36 &#167;&#167; finns best&#228;mmelser om 
+att beslut fattas av Statens institutionsstyrelse. H&#228;rut&#246;ver 
+fattas beslut enligt 31–32 b och 33 a–35 &#167;&#167; av Statens 
+institutionsstyrelse.
+
+Beslut om &#246;verflyttning enligt 25 &#167; tredje stycket f&#229;r 
+f&#246;rordnas att g&#228;lla omedelbart, om det beh&#246;vs fr&#229;n 
+v&#229;rdsynpunkt. Andra beslut av Statens institutionsstyrelse 
+g&#228;ller omedelbart om inte n&#229;got annat f&#246;rordnas.
+Lag (2018:651).
+
+Best&#228;mmelser om handl&#228;ggningen
+
+37 &#167; M&#229;l och &#228;renden enligt denna lag skall handl&#228;ggas skyndsamt.
+
+38 &#167; I m&#229;l om beredande av tv&#229;ngsv&#229;rd, d&#228;r omh&#228;ndertagande har
+beslutats enligt 13 &#167; f&#246;rsta eller andra stycket, skall
+f&#246;rvaltningsr&#228;tten ta upp m&#229;let till avg&#246;rande inom en vecka
+fr&#229;n den dag d&#229; ans&#246;kan om v&#229;rd kom in eller, om beslutet om
+omh&#228;ndertagande har fattats efter det att socialn&#228;mnden har
+ans&#246;kt om v&#229;rd, inom en vecka fr&#229;n den dag d&#229; underst&#228;llningen
+skedde. Om ett beslut om omedelbart omh&#228;ndertagande inte &#228;r
+verkst&#228;llt n&#228;r det underst&#228;lls eller om f&#246;rvaltningsr&#228;tten har
+beslutat om omedelbart omh&#228;ndertagande enligt 13 &#167; tredje
+stycket, skall m&#229;let tas upp till avg&#246;rande inom en vecka fr&#229;n
+den dag d&#229; beslutet verkst&#228;lldes.
+
+F&#246;rvaltningsr&#228;tten f&#229;r f&#246;rl&#228;nga dessa tider, om det beh&#246;vs
+ytterligare utredning eller om n&#229;gon annan s&#228;rskild
+omst&#228;ndighet g&#246;r det n&#246;dv&#228;ndigt. Lag (2009:800).
+
+39 &#167; I m&#229;l om beredande av tv&#229;ngsv&#229;rd skall f&#246;rvaltningsr&#228;tten
+och kammarr&#228;tten h&#229;lla muntlig f&#246;rhandling, om detta inte &#228;r
+uppenbart obeh&#246;vligt. I andra m&#229;l enligt denna lag pr&#246;var
+r&#228;tten om det finns sk&#228;l att h&#229;lla muntlig f&#246;rhandling.
+
+Om n&#229;gon part beg&#228;r muntlig f&#246;rhandling, skall s&#229;dan h&#229;llas.
+Parterna skall upplysas om sin r&#228;tt att beg&#228;ra muntlig
+f&#246;rhandling.
+
+Om en enskild part som har kallats vid vite att inst&#228;lla sig
+personligen till en f&#246;rhandling uteblir, f&#229;r r&#228;tten f&#246;rordna
+att han eller hon skall h&#228;mtas till r&#228;tten antingen omedelbart
+eller till en senare dag. Lag (2009:800).
+
+40 &#167; Vid handl&#228;ggning i kammarr&#228;tt av andra m&#229;l enligt denna lag &#228;n m&#229;l
+om omedelbart omh&#228;ndertagande skall n&#228;mndem&#228;n ing&#229; i r&#228;tten.
+
+41 &#167; Vid delgivning med enskild i m&#229;l eller &#228;rende enligt denna
+lag f&#229;r 34–38 och 47–51 &#167;&#167; delgivningslagen (2010:1932) inte
+till&#228;mpas. Lag (2010:1954).
+
+42 &#167; I m&#229;l i allm&#228;n f&#246;rvaltningsdomstol ang&#229;ende beredande av v&#229;rd
+enligt denna lag eller ang&#229;ende omedelbart omh&#228;ndertagande enligt 13 &#167;
+skall offentligt bitr&#228;de f&#246;rordnas f&#246;r den som &#229;tg&#228;rden avser, om
+det inte m&#229;ste antas att behov av bitr&#228;de saknas. Lag (1996:1645).
+
+43 &#167; Beslut om omh&#228;ndertagande enligt 13 &#167; g&#228;ller omedelbart.
+
+R&#228;tten f&#229;r f&#246;rordna att beslut som r&#228;tten har meddelat skall
+g&#228;lla omedelbart. Lag (2005:467).
+
+Best&#228;mmelser om &#246;verklagande
+
+44 &#167; Beslut av Statens institutionsstyrelse enligt denna 
+lag f&#229;r &#246;verklagas av den enskilde till allm&#228;n 
+f&#246;rvaltningsdomstol, om beslutet
+
+1. g&#228;ller &#246;verflyttning eller avslag p&#229; beg&#228;ran om 
+utskrivning enligt 25 &#167;,
+
+2. inneb&#228;r inskr&#228;nkningar i s&#228;rskilt fall av r&#228;tten f&#246;r den 
+som vistas i hemmet att enligt 33 a &#167; anv&#228;nda elektroniska 
+kommunikationstj&#228;nster eller ta emot bes&#246;k,
+
+3. g&#228;ller v&#229;rd i enskildhet enligt 34 a &#167; eller avskildhet 
+enligt 34 b &#167;, eller
+
+4. g&#228;ller f&#246;rst&#246;rande eller f&#246;rs&#228;ljning av egendom enligt 
+36 &#167;.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till 
+kammarr&#228;tten.
+
+Andra beslut enligt denna lag av Statens 
+institutionsstyrelse f&#229;r inte &#246;verklagas.
+
+Beslut om l&#228;karunders&#246;kning enligt 9 &#167; eller 11 &#167; tredje 
+stycket f&#229;r inte &#246;verklagas.
+
+Beslut om omh&#228;ndertagande enligt 13 &#167; f&#246;rsta eller andra 
+stycket f&#229;r inte &#246;verklagas. &#214;verklagande av r&#228;ttens beslut 
+om omh&#228;ndertagande enligt 13 &#167; tredje stycket &#228;r inte 
+inskr&#228;nkt till viss tid. Lag (2018:651).
+
+Handr&#228;ckning av Polismyndigheten och Kriminalv&#229;rden
+
+45 &#167; Polismyndigheten eller, om det g&#228;ller transport av 
+n&#229;gon som &#228;r frihetsber&#246;vad, Kriminalv&#229;rden ska l&#228;mna hj&#228;lp 
+f&#246;r att
+
+1. p&#229; beg&#228;ran av socialn&#228;mnden eller r&#228;tten f&#246;ra en 
+missbrukare till en beslutad l&#228;karunders&#246;kning,
+
+2. p&#229; beg&#228;ran av socialn&#228;mnden f&#246;ra den som ska beredas v&#229;rd 
+eller som &#228;r omedelbart omh&#228;ndertagen enligt denna lag till 
+ett LVM-hem eller sjukhus,
+
+3. p&#229; beg&#228;ran av verksamhetschefen i fall som avses i 24 &#167; 
+tredje stycket f&#246;ra den som ska beredas v&#229;rd eller som &#228;r 
+omedelbart omh&#228;ndertagen enligt denna lag till ett LVM-hem, 
+samt
+
+4. p&#229; beg&#228;ran av Statens institutionsstyrelse efterforska, 
+h&#228;mta eller f&#246;rflytta n&#229;gon som ska tas in i hemmet eller som 
+v&#229;rdas d&#228;r med st&#246;d av denna lag.
+
+En beg&#228;ran enligt f&#246;rsta stycket f&#229;r g&#246;ras endast om 
+
+1. det p&#229; grund av s&#228;rskilda omst&#228;ndigheter kan befaras att 
+&#229;tg&#228;rden inte kan utf&#246;ras utan att de s&#228;rskilda befogenheter 
+som anges i 10 och 10 a &#167;&#167; polislagen (1984:387) eller, om 
+det g&#228;ller en transport som utf&#246;rs av Kriminalv&#229;rden, 4 kap. 
+4 &#167; och 10 &#167; f&#246;rsta stycket h&#228;kteslagen (2010:611) beh&#246;ver 
+tillgripas, eller
+
+2. det annars finns synnerliga sk&#228;l.
+
+Andra stycket g&#228;ller inte en beg&#228;ran av r&#228;tten och inte 
+heller en beg&#228;ran av Statens institutionsstyrelse om 
+efterforskning. Lag (2017:136).
+
+45 a &#167; Kriminalv&#229;rden ska vid en transport enligt 45 &#167; 
+till&#228;mpa f&#246;ljande best&#228;mmelser i h&#228;kteslagen (2010:611):
+
+– 4 kap. 4 &#167; om kroppsvisitation,
+
+– 4 kap. 10 &#167; f&#246;rsta stycket om anv&#228;ndning av f&#228;ngsel, och 
+
+– 8 kap. 2 a &#167; om m&#246;jligheten att i vissa fall beg&#228;ra hj&#228;lp 
+av Polismyndigheten. Lag (2017:136).
+
+45 b &#167; Den som beg&#228;r hj&#228;lp enligt 45 &#167; ska utan hinder av 
+sekretess l&#228;mna den verkst&#228;llande myndigheten de uppgifter om 
+missbrukaren som beh&#246;vs f&#246;r planeringen och genomf&#246;randet av 
+&#229;tg&#228;rden. Lag (2017:136).
+
+45 c &#167; Missbrukaren f&#229;r tas i f&#246;rvar, om det &#228;r n&#246;dv&#228;ndigt 
+f&#246;r att en transport enligt 45 &#167; ska kunna genomf&#246;ras.
+Lag (2017:136).
+
+&#197;talspr&#246;vning
+
+46 &#167; &#196;r n&#229;gon som har beretts v&#229;rd med st&#246;d av denna lag
+misst&#228;nkt f&#246;r brott, f&#246;r vilket inte f&#246;reskrivs str&#228;ngare
+straff &#228;n f&#228;ngelse i ett &#229;r och som h&#246;r under allm&#228;nt &#229;tal,
+samt har brottet beg&#229;tts innan v&#229;rden p&#229;b&#246;rjades eller under
+v&#229;rdtiden, skall &#229;klagaren pr&#246;va om &#229;tal l&#228;mpligen b&#246;r ske.
+Statens institutionsstyrelse eller, om v&#229;rden har upph&#246;rt,
+socialn&#228;mnden skall d&#228;rvid h&#246;ras om det inte &#228;r obeh&#246;vligt.
+Lag (2005:467).
+
+&#214;vriga best&#228;mmelser
+
+47 &#167; Med socialn&#228;mnden avses i denna lag socialn&#228;mnden i den
+kommun som enligt 2 a kap. socialtj&#228;nstlagen (2001:453) har
+ansvaret f&#246;r att den enskilde f&#229;r det st&#246;d och den hj&#228;lp som
+han eller hon beh&#246;ver. Att &#246;verflyttning av &#228;renden till en
+annan socialn&#228;mnd kan ske i vissa fall framg&#229;r av 2 a kap. 10
+och 11 &#167;&#167; socialtj&#228;nstlagen.
+
+Beslut om tv&#229;ngsv&#229;rd enligt 5 &#167; och beslut med anledning av
+omh&#228;ndertagande enligt 13 &#167; fattas av den f&#246;rvaltningsr&#228;tt
+inom vars domkrets den ansvariga kommunen &#228;r bel&#228;gen. Den
+f&#246;rvaltningsr&#228;tt som meddelade beslutet om v&#229;rd beslutar ocks&#229;
+i fr&#229;gor som avses i 44 &#167; f&#246;rsta stycket. Lag (2011:330).
+
+48 &#167; Har upph&#228;vts genom lag (1993:3).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1988:870
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1989, d&#229; lagen (1981:1243) om
+v&#229;rd av missbrukare i vissa fall skall upph&#246;ra att g&#228;lla.
+
+2. Den gamla lagen g&#228;ller dock fortfarande n&#228;r ans&#246;kan om v&#229;rd med st&#246;d
+av den lagen har kommit in till l&#228;nsr&#228;tten f&#246;re den 1 januari 1989.
+
+3. Har ett beslut fattats om omh&#228;ndertagande enligt 8 &#167; i den gamla
+lagen och har ans&#246;kan om v&#229;rd inte kommit in till l&#228;nsr&#228;tten f&#246;re den 1
+januari 1989, skall beslutet anses som ett beslut enligt 13 &#167; i den nya
+lagen.
+
+4. Om det i en lag eller i en f&#246;rfattning som har beslutats av
+regeringen h&#228;nvisas till den gamla lagen, skall h&#228;nvisningen i st&#228;llet
+avse denna lag. H&#228;nvisas det till en f&#246;reskrift som har ersatts genom en
+f&#246;reskrift i denna lag, skall den nya f&#246;reskriften till&#228;mpas.
+
+1993:3
+
+Denna lag tr&#228;der i kraft den 1 juli 1993.
+
+&#196;ldre best&#228;mmelser till&#228;mpas i fr&#229;ga om v&#229;rd som l&#228;mnas under
+tiden den 1 juli 1993--den 1 juli 1994. Har staten f&#246;re den 1 juli
+1994 med st&#246;d av 23 a &#167; socialtj&#228;nstlagen (1980:620) tagit &#246;ver ett hem som
+avses i 22 eller 23 &#167; till&#228;mpas dock de nya best&#228;mmelserna i fr&#229;ga om
+v&#229;rden fr&#229;n och med den dag &#246;vertagandet skedde.
+
+1994:96
+
+1. Denna lag tr&#228;der i kraft den 1 juli 1994.
+
+2. Om ett &#228;rende som har anh&#228;ngiggjorts hos l&#228;nsr&#228;tten f&#246;re den 1
+juli 1994 inte har avgjorts slutligt vid lagens ikrafttr&#228;dande
+till&#228;mpas &#228;ldre best&#228;mmelser.
+
+2001:464
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2001.
+
+2. H&#228;nvisningar i denna lag till socialtj&#228;nstlagen (2001:453)
+skall till utg&#229;ngen av &#229;r 2001 i st&#228;llet avse motsvarande
+best&#228;mmelser i socialtj&#228;nstlagen (1980:620).
+
+2005:467
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2005.
+
+2. Betr&#228;ffande beslut om omedelbart omh&#228;ndertagande som fattats
+f&#246;re lagens ikrafttr&#228;dande g&#228;ller best&#228;mmelserna i 15, 16 och
+18 &#167;&#167; i sina tidigare lydelser. Best&#228;mmelserna i 18 a &#167; och
+18 b &#167; skall inte till&#228;mpas p&#229; beslut om omedelbart
+omh&#228;ndertagande som fattats f&#246;re lagens ikrafttr&#228;dande.
+
+3. Beslut som f&#246;re lagens ikrafttr&#228;dande fattats av den som
+f&#246;rest&#229;r v&#229;rden vid ett LVM-hem skall vid till&#228;mpningen av
+denna lag anses fattade av Statens institutionsstyrelse.
+
+2010:1954
+
+1. Denna lag tr&#228;der i kraft den 1 april 2011.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller om en handling har skickats eller
+l&#228;mnats f&#246;re den 1 april 2011.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3626">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3628">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

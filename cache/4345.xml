@@ -1,0 +1,606 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2000-01-14" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4345</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4344">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4346">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1963:583 ·
+                    <a href="/sfsr?bet=1963:583">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1963:583) om avveckling av fideikommiss
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1963-12-06
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 1999:1042
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+Inledande best&#228;mmelser
+
+1 &#167; Fideikommiss, som uppr&#228;ttats f&#246;r obegr&#228;nsad tid till f&#246;rm&#229;n f&#246;r
+medlemmar av en eller flera sl&#228;kter, skall avvecklas enligt vad i denna
+lag s&#228;gs.
+
+2 &#167; I denna lag f&#246;rst&#229;s med innehavare av fideikommiss den som innehar
+egendomen med den r&#228;tt som f&#246;ljer av fideikommissurkunden. Besittes
+efter f&#246;rutvarande innehavares d&#246;d egendomen enligt s&#228;rskild f&#246;reskrift
+av efterlevande make, d&#246;dsbodel&#228;gare eller annan, skall dock den anses
+som fideikommissets innehavare, vilken skulle varit ber&#228;ttigad att
+innehava egendomen, om s&#229;dan s&#228;rskild r&#228;tt ej funnits.
+
+Med fideikommissinnehavarens eftertr&#228;dare f&#246;rst&#229;s den som enligt
+fideikommissurkunden eller d&#228;rp&#229; grundat f&#246;rordnande &#228;r ber&#228;ttigad att,
+n&#228;r innehavarens r&#228;tt upph&#246;r, bliva ny innehavare av fideikommisset.
+S&#229;som eftertr&#228;dare skall dock, om fideikommisset enligt urkunden ej m&#229;
+tilltr&#228;das av innehavare av annat fideikommiss, ej anses den som j&#228;mlikt
+7 &#167; tagit och icke d&#228;refter avst&#229;tt fr&#229;n eftertr&#228;darandel i annat
+fideikommiss &#228;n det varom &#228;r fr&#229;ga.
+
+Tiden f&#246;r upph&#246;randet
+
+3 &#167; Fideikommiss som avses i 1 &#167; skall, om ej i denna lag annorlunda
+stadgas, upph&#246;ra, n&#228;r den som vid lagens ikrafttr&#228;dande &#228;r innehavare av
+fideikommisset avlider.
+
+4 &#167; &#196;r vid fideikommiss i l&#246;s egendom, som ej skall &#229;tf&#246;lja visst
+fastighetsfideikommiss, den i 3 &#167; angivne innehavarens eftertr&#228;dare
+avlad f&#246;re instiftandet eller, om fideikommisset instiftats genom
+testamente, f&#246;re testators d&#246;d, skall fideikommisset upph&#246;ra f&#246;rst n&#228;r
+den innehavare avlider, vars eftertr&#228;dare &#228;r avlad efter sagda tidpunkt.
+
+5 &#167; Fr&#229;ntr&#228;der innehavare, vid vars d&#246;d fideikommisset eljest skolat
+upph&#246;ra, egendomen f&#246;r att kunna tilltr&#228;da annat fideikommiss eller taga
+eftertr&#228;darandel d&#228;ri j&#228;mlikt 7 &#167;, skall fideikommisset upph&#246;ra, n&#228;r
+n&#228;ste innehavare avlider.
+
+6 &#167; Har fideikommissegendom synnerligt kulturhistoriskt v&#228;rde eller
+&#228;ro eljest s&#228;rskilda sk&#228;l d&#228;rtill, m&#229; regeringen f&#246;rordna att
+fideikommissurkundens best&#228;mmelser skola &#228;ga till&#228;mpning tills vidare
+eller till dess i beslutet angiven innehavare av fideikommisset avlider.
+Lag (1999:1042).
+
+Egendomens f&#246;rdelning
+
+7 &#167; N&#228;r fideikommiss upph&#246;r, skall den avlidnes eftertr&#228;dare taga
+h&#228;lften av egendomen. I &#229;terstoden skall tagas arv eller testamente
+som om den tillh&#246;rt den avlidne.
+
+8 &#167; Vid skifte av egendomen &#228;ger eftertr&#228;daren, utan hinder av vad i
+testamente m&#229; vara f&#246;rordnat, p&#229; sin lott erh&#229;lla fideikommissets
+huvudg&#229;rd med d&#228;r f&#246;rvarade samlingar s&#229; ock annan fast egendom, p&#229;
+vilken bedrives jord- eller skogsbruk och som l&#228;mpligen b&#246;r bevaras
+odelad. Finnas flera huvudg&#229;rdar, m&#229; eftertr&#228;daren taga en av dem efter
+eget val. F&#246;rsl&#229;r ej lotten, m&#229; eftertr&#228;daren l&#228;mna l&#246;sen i pengar.
+
+9 &#167; Inneh&#229;ller fideikommissurkunden f&#246;reskrift om vem egendomen skall
+tillfalla d&#228;rest fideikommisset upph&#228;ves, l&#228;nder denna f&#246;reskrift till
+efterr&#228;ttelse utan hinder av vad i 7 och 8 &#167;&#167; stadgas.
+
+10 &#167; Finnes ej eftertr&#228;dare, skall i egendomen tagas arv eller
+testamente som om den tillh&#246;rt den avlidne. F&#246;reskrives i
+fideikommissurkunden f&#246;r s&#229;dant fall, att egendomen skall f&#246;rdelas
+mellan siste innehavarens arvingar eller andra sl&#228;ktmedlemmar eller
+anv&#228;ndas f&#246;r v&#228;lg&#246;rande eller annat &#228;ndam&#229;l, l&#228;nder i st&#228;llet denna
+f&#246;reskrift till efterr&#228;ttelse.
+
+F&#246;rm&#229;ner m.m.
+
+11 &#167; Utan hinder av att fideikommisset upph&#246;rt, m&#229; envar njuta till godo
+den r&#228;tt att efter innehavarens d&#246;d kvarsitta till fardag, som m&#229;
+tillkomma honom enligt fideikommissurkunden eller d&#228;rp&#229; grundat
+f&#246;rordnande eller ock enligt f&#246;rordningen den 3 april 1810 huruledes
+r&#228;ttelse och f&#246;rklaring uti gjorde fideikommissf&#246;rfattningar m&#229; s&#246;kas
+samt vad i avseende p&#229; fardag av fideikommissegendom kommer att
+iakttagas.
+
+12 &#167; &#196;ger efterlevande make eller annan enligt fideikommissurkunden
+eller d&#228;rp&#229; grundat f&#246;rordnande r&#228;tt till annan f&#246;rm&#229;n &#228;n i 11 &#167; s&#228;gs,
+m&#229; han njuta f&#246;rm&#229;nen till godo, &#228;nd&#229; att fideikommisset upph&#246;rt. &#196;r han
+p&#229; grund av vad i denna lag stadgas ber&#228;ttigad att taga del i egendomen,
+&#228;ger han dock icke utan att avst&#229; d&#228;rifr&#229;n tillgodonjuta f&#246;rm&#229;nen; utan
+hinder av vad nu sagts m&#229; likv&#228;l f&#246;rm&#229;n, som b&#246;rjat utg&#229; f&#246;re
+fideikommissets upph&#246;rande, tillgodonjutas intill dess den till f&#246;rm&#229;nen
+ber&#228;ttigade tagit del i egendomen.
+
+Var innehavaren skyldig att i enlighet med vad i fideikommissurkunden
+eller d&#228;rp&#229; grundat f&#246;rordnande stadgas svara f&#246;r underh&#229;ll av grav,
+underst&#246;d &#229;t fattiga eller annat dylikt, skall det avsedda &#228;ndam&#229;let i
+erforderlig m&#229;n tillgodoses &#228;ven efter det fideikommisset upph&#246;rt.
+
+13 &#167; Pension eller annan dylik f&#246;rm&#229;n vilken, n&#228;r fideikommisset upph&#246;r,
+utg&#229;r p&#229; grund av tj&#228;nst eller annan arbetsanst&#228;llning, som
+f&#246;rm&#229;nstagaren eller anh&#246;rig till honom innehaft p&#229; fideikommiss-
+fastighet, m&#229; &#228;ven d&#228;refter njutas till godo.
+
+Vad nu sagts skall &#228;ga motsvarande till&#228;mpning p&#229; pension eller annan
+dylik f&#246;rm&#229;n i anledning av arrende.
+
+14 &#167; F&#246;rm&#229;n som avses i 11 &#167;, 12 &#167; f&#246;rsta stycket eller 13 &#167; skall, om
+det beg&#228;res av f&#246;rm&#229;nstagaren, s&#228;kerst&#228;llas genom inteckning i fastighet
+eller p&#229; annat betryggande s&#228;tt. &#196;r f&#246;rm&#229;nen best&#228;md annorledes &#228;n i
+pengar, skall den, om sk&#228;l &#228;ro d&#228;rtill, p&#229; yrkande av egendomens &#228;gare
+ers&#228;ttas med penningbelopp att utg&#229; p&#229; en g&#229;ng eller &#229; s&#228;rskilda tider.
+
+Vad nu sagts skall i till&#228;mpliga delar g&#228;lla j&#228;mv&#228;l i fall som avses i
+12 &#167; andra stycket.
+
+Nyttjander&#228;ttsavtal
+
+15 &#167; Har f&#246;re fideikommissets upph&#246;rande slutits arrende- eller hyres-
+avtal betr&#228;ffande s&#229;dan fastighet, som ej &#228;r att anse s&#229;som huvudg&#229;rd,
+g&#228;ller avtalet j&#228;mv&#228;l f&#246;r den som erh&#229;ller egendomen j&#228;mlikt denna lag;
+dock skall, om de avtalade villkoren med h&#228;nsyn till f&#246;rh&#229;llandena vid
+tiden f&#246;r avtalets ing&#229;ende icke kunna anses sk&#228;liga eller eljest &#228;ro i
+v&#228;sentlig m&#229;n stridande mot hans ber&#228;ttigade anspr&#229;k, vara honom &#246;ppet
+att upps&#228;ga avtalet. Sker ej upps&#228;gning inom sex m&#229;nader efter det
+&#228;garen tilltr&#228;dde egendomen, &#228;r han sin r&#228;tt f&#246;rlustig.
+
+Upps&#228;ges avtalet av anledning som nu sagts, &#228;r &#228;garen, om han ej &#229;tn&#246;jes
+med det i avtalet betingade vederlaget, ber&#228;ttigad att av
+nyttjander&#228;ttshavaren erh&#229;lla sk&#228;lig ers&#228;ttning f&#246;r den tid denne efter
+&#228;garens tilltr&#228;de av egendomen ut&#246;vat nyttjander&#228;tten.
+
+Har i avtalet intagits villkor, som strider mot vad i denna paragraf &#228;r
+stadgat, &#228;r villkoret utan verkan mot nyttjander&#228;ttshavaren.
+
+St&#246;rre jord- och skogsegendomar
+
+16 &#167; Har fast egendom, p&#229; vilken bedrives jord- eller skogsbruk, s&#229;dan
+storlek, bel&#228;genhet och beskaffenhet i &#246;vrigt, att dess bevarande s&#229;som
+en enhet &#228;r av betydande allm&#228;nt intresse, m&#229; regeringen, om det
+erfordras f&#246;r att f&#246;rebygga uppdelning av egendomen, i samband med
+fideikommissets avveckling f&#246;rordna att egendomen skall mot l&#246;sen
+avst&#229;s till staten eller till kommun, som regeringen best&#228;mmer.
+
+Inl&#246;sningsr&#228;tten m&#229; f&#246;rklaras omfatta &#228;ven s&#229;gverk och annan fast
+anl&#228;ggning, som l&#228;mpligen b&#246;r nyttjas i samband med jord- eller
+skogsbruket, samt, om det finnes p&#229;kallat f&#246;r vinnande av l&#228;mplig
+&#228;goanordning eller &#228;ndam&#229;lsenlig drift, j&#228;mv&#228;l annan mark.
+
+Betr&#228;ffande inl&#246;sen skola i till&#228;mpliga delar g&#228;lla de allm&#228;nna
+best&#228;mmelserna i lagen om expropriation. Lag (1999:1042).
+
+Kulturv&#228;rden
+
+17 &#167; Till f&#246;rebyggande av att samling av m&#246;bler, tavlor, b&#246;cker eller andra
+f&#246;rem&#229;l av s&#228;rskilt kulturhistoriskt v&#228;rde erh&#229;ller f&#246;rs&#228;mrad v&#229;rd,
+skingras eller bortflyttas, m&#229; regeringen, n&#228;r fideikommisset avvecklas,
+f&#246;rordna att samlingen skall mot l&#246;sen avst&#229;s till staten eller
+kulturv&#229;rdande institution, som regeringen best&#228;mmer.
+
+Kan enighet ej n&#229;s om l&#246;sesummans storlek, skall fr&#229;gan avg&#246;ras av
+skiljem&#228;n. Betr&#228;ffande s&#229;dan tvist skall lagen om skiljem&#228;n g&#228;lla i
+till&#228;mpliga delar; dock skall inl&#246;saren, om ej synnerliga sk&#228;l till
+annat f&#246;ranleda, svara f&#246;r ers&#228;ttningen till skiljem&#228;nnen och g&#228;lda
+motpartens sk&#228;liga kostnad f&#246;r f&#246;rfarandet. Lag (1999:1042).
+
+Fideikommissn&#228;mnden
+
+18 &#167; Avvecklingen av fideikommiss skall ske under medverkan av
+en s&#228;rskild n&#228;mnd, fideikommissn&#228;mnden.
+
+Fideikommissn&#228;mnden skall utreda fr&#229;gor som avses i 6, 16, 17
+och 38 &#167;&#167; samt hos regeringen g&#246;ra de framst&#228;llningar, som
+f&#246;ranleds av utredningen. Vidare skall n&#228;mnden genom r&#229;dgivning
+och p&#229; annat s&#228;tt verka f&#246;r att lagens syften fullf&#246;ljs samt
+meddela beslut, som enligt vad nedan stadgas ankommer p&#229;
+n&#228;mnden. Lag (1999:1042).
+
+19 &#167; Fideikommissn&#228;mnden best&#229;r av ordf&#246;rande och fyra ledam&#246;ter, vilka
+utses av regeringen f&#246;r en tid av fem &#229;r eller, vid komplettering av
+n&#228;mnden, f&#246;r &#229;terst&#229;ende tid av l&#246;pande period. Suppleanter utses till
+det antal regeringen best&#228;mmer.
+
+Har fideikommissn&#228;mnden avslagit framst&#228;llning om tillst&#229;nd eller
+medgivande som avses i 27-29 &#167;&#167;, m&#229; klagan &#246;ver beslutet f&#246;ras hos
+regeringen genom besv&#228;r, vilka skola ingivas till n&#228;mnden. I &#246;vrigt m&#229;
+talan ej f&#246;ras mot beslut av fideikommissn&#228;mnden enligt denna lag.
+
+N&#228;rmare f&#246;reskrifter om n&#228;mnden och dess verksamhet meddelas av
+regeringen. Lag (1999:1042).
+
+20 &#167; Fideikommissn&#228;mnden och den n&#228;mnden f&#246;rordnar &#228;ga erh&#229;lla tilltr&#228;de
+till egendom, som omfattas av avvecklingen, samt taga del av
+handlingar, som r&#246;ra egendomen. Den som har egendomen i sin v&#229;rd &#228;r
+pliktig att efter anmaning l&#228;mna n&#228;mnden f&#246;rteckning &#246;ver egendomen.
+
+Underl&#229;ter n&#229;gon att st&#228;lla sig till efterr&#228;ttelse vad n&#228;mnden med st&#246;d
+av denna paragraf f&#246;reskrivit, &#228;ger n&#228;mnden f&#246;rel&#228;gga honom vite.
+
+F&#246;rfarandet vid avvecklingen
+
+21 &#167; Avlider fideikommissinnehavare, skall den som har egendomen i sin
+v&#229;rd inom en m&#229;nad anm&#228;la d&#246;dsfallet till fideikommissn&#228;mnden.
+
+22 &#167; N&#228;r fideikommiss upph&#246;r enligt vad ovan stadgas, skall
+fideikommissets egendom behandlas som ett s&#228;rskilt bo, fideikommissbo.
+
+23 &#167; Om f&#246;rvaltning och utredning av fideikommissbo samt om skifte av
+boets egendom skall, i den m&#229;n ej annat f&#246;ljer av best&#228;mmelerna i denna
+lag, vad i 18-20 och 22-24 kap. &#228;rvdabalken s&#228;gs &#228;ga motsvarande
+till&#228;mpning. I fr&#229;ga om konkurs, s&#229; ock om laga domstol och delgivning
+skall i till&#228;mpliga delar g&#228;lla vad i allm&#228;n lag &#228;r stadgat f&#246;r d&#246;dsbo.
+
+Fideikommissurkunden skall intagas i bouppteckningen eller fogas d&#228;rvid
+i bestyrkt avskrift.
+
+24 &#167; Fideikommissn&#228;mnden &#228;ger p&#229;kalla, att egendomen avtr&#228;des till
+f&#246;rvaltning av boutredningsman. Har egendomen avtr&#228;tts till s&#229;dan
+f&#246;rvaltning, m&#229; del&#228;garna icke utan n&#228;mndens medgivande sj&#228;lva &#246;vertaga
+f&#246;rvaltningen.
+
+Boutredningsman skall vid fullg&#246;randet av sitt uppdrag samr&#229;da med
+n&#228;mnden. Han &#228;r pliktig att p&#229; beg&#228;ran l&#228;mna n&#228;mnden upplysningar om
+boet och dess f&#246;rvaltning.
+
+25 &#167; P&#229; ans&#246;kan av fideikommissboet eller del&#228;gare d&#228;ri skall r&#228;tten
+genom kung&#246;relse f&#246;rel&#228;gga dem som vilja g&#246;ra g&#228;llande anspr&#229;k p&#229; annan
+f&#246;rm&#229;n &#228;n fardagsr&#228;tt eller p&#229; fullg&#246;rande av skyldighet som s&#228;gs i 12 &#167;
+andra stycket att inom viss tid ej understigande tre och ej &#246;verstigande
+sex m&#229;nader fr&#229;n kung&#246;randet hos r&#228;tten anm&#228;la anspr&#229;ken vid &#228;ventyr att
+dessa eljest f&#246;rfalla, om de ej &#228;nd&#229; &#228;ro k&#228;nda.
+
+Ans&#246;kningen skall g&#246;ras hos r&#228;tten i den ort d&#228;r fideikommissets
+huvudg&#229;rd &#228;r eller, om huvudg&#229;rd ej finnes, r&#228;tten i den ort d&#228;r den
+avlidne fideikommissinnehavaren skolat svara i tvistem&#229;l i allm&#228;nhet.
+Vid ans&#246;kningen skall vara fogad f&#246;rteckning &#246;ver k&#228;nda anspr&#229;k. Sedan
+kung&#246;relse utf&#228;rdats, skall den inf&#246;ras i Post- och Inrikes Tidningar
+och i ortstidning. Om handl&#228;ggningen skall i &#246;vrigt vad om kallelse &#229;
+ok&#228;nda borgen&#228;rer &#228;r stadgat &#228;ga motsvarande till&#228;mpning.
+
+Hava del&#228;garna giltig anledning antaga att f&#246;rm&#229;n som angives i urkunden
+ej vidare skall utg&#229;, skall vid till&#228;mpningen av denna paragraf den
+f&#246;rm&#229;nen ej anses s&#229;som k&#228;nd. Lag (1977:660).
+
+26 &#167; Fideikommissn&#228;mnden &#228;ger under avvecklingen f&#246;ra talan om
+s&#228;kerst&#228;llande av &#228;ndam&#229;l som avses i 12 &#167; andra stycket.
+
+27 &#167; Fideikommissn&#228;mnden m&#229; meddela f&#246;rbud vid vite att under
+avvecklingen utan n&#228;mndens tillst&#229;nd riva, &#228;ndra eller flytta byggnad,
+&#228;ndra tr&#228;dg&#229;rd eller parkanl&#228;ggning eller skingra eller bortflytta
+samling som avses i 17 &#167;.
+
+28 &#167; Utan regeringens medgivande m&#229; ej under avvecklingen genom tillskott
+i samband med teckning av aktier &#246;verl&#229;tas s&#229;dan fideikommissboet
+tillh&#246;rig egendom, som avses i 1 &#167; lagen den 18 juni 1925 ang&#229;ende
+f&#246;rbud i vissa fall f&#246;r bolag, f&#246;rening och stiftelse att f&#246;rv&#228;rva fast
+egendom. I &#246;vrigt m&#229; icke under avvecklingen med mindre
+fideikommissn&#228;mnden medgiver det egendom, som ing&#229;r i fideikommissboet,
+&#246;verl&#229;tas eller d&#228;r&#246;ver eljest f&#246;rfogas i vidare m&#229;n &#228;n som
+&#246;verensst&#228;mmer med sedvanlig hush&#229;llning.
+
+Fideikommisskapital, som st&#228;llts under s&#228;rskild f&#246;rvaltning, m&#229; ej under
+avvecklingen utl&#228;mnas utan fideikommissn&#228;mndens medgivande.
+Lag (1999:1042).
+
+29 &#167; Utan fideikommissn&#228;mndens medgivande m&#229; ej skifte ske, ej heller
+legat utgivas eller &#228;ndam&#229;lsbest&#228;mmelse verkst&#228;llas ur oskiftat bo.
+
+Avvecklingen &#228;r att anse som slutf&#246;rd, n&#228;r fideikommissn&#228;mnden l&#228;mnat
+tillst&#229;nd till skifte eller meddelat bevis att vidare &#229;tg&#228;rd f&#246;r
+avvecklingen ej p&#229;kallas.
+
+30 &#167; F&#246;retages r&#228;ttshandling, f&#246;r vilken enligt vad ovan stadgas
+regeringens eller fideikommisn&#228;mndens medgivande erfordras, utan att
+s&#229;dant medgivande inh&#228;mtats, skall r&#228;ttshandlingen vara ogill.
+Lag (1999:1042).
+
+Aktiebolagsbildning
+
+31 &#167; Regeringen m&#229; medgiva innehavare av fideikommiss att tillskjuta
+fideikommissegendom i samband med teckning av aktier i bolag, s&#229;framt
+denne &#228;ger eller tecknar samtliga aktier i bolaget. Aktierna och annat
+vederlag skola d&#228;refter f&#246;rvaltas s&#229;som fideikommisskapital.
+Lag (1999:1042).
+
+32 &#167; har upph&#228;vts genom lag (1999:1042).
+
+33 &#167; Vid bildande av aktiebolag med tillskott av fideikommissbos
+egendom och vid &#246;verf&#246;rande av s&#229;dan egendom till aktiebolag genom
+tillskott i samband med aktieteckning m&#229; eftertr&#228;daren under
+avvecklingen f&#246;retr&#228;da fideikommissboet.
+
+34 &#167; I bolagsordning f&#246;r aktiebolag, i vilket aktier tecknats
+med tillskott av egendom som utg&#246;r fideikommiss eller ing&#229;r i
+fideikommissbo under avveckling, skall intagas best&#228;mmelse att
+bolagsordningen skall vara fastst&#228;lld av regeringen och att, om
+ej regeringen annat f&#246;reskrivit, bolagsordningen m&#229; &#228;ndras
+allenast med regeringens medgivande. Lag (1999:1042).
+
+S&#228;rskilda best&#228;mmelser
+
+35 &#167; Upph&#246;ra tv&#229; eller flera fideikommiss med anledning av samma
+d&#246;sfall, skola de vid avvecklingen anses s&#229;som ett enda fideikommiss, om
+eftertr&#228;daren &#228;r samma person.
+
+36 &#167; Besittes, n&#228;r fideikommiss upph&#246;r, egendomen p&#229; grund av stadgande
+i fideikommissurkunden eller d&#228;rp&#229; grundat f&#246;rordnande av efterlevande
+make till f&#246;rutvarande innehavare, skall med &#229;tg&#228;rder f&#246;r avvecklingens
+genomf&#246;rande anst&#229;, till dess efterlevande makens r&#228;tt upph&#246;rt.
+
+37 &#167; Omfattar fideikommiss allenast egendom av ringa v&#228;rde eller &#228;ro
+eljest synnerliga sk&#228;l d&#228;rtill, m&#229; regeringen p&#229; framst&#228;llning av
+innehavaren f&#246;rordna, att fideikommisset genast skall upph&#246;ra. N&#228;r
+fideikommisset upph&#246;r, tillfaller egendomen innehavaren, om ej
+regeringen annat f&#246;rordnar. Lag (1999:1042).
+
+38 &#167; Kan enligt fideikommissurkunden egendomen innehavas av tv&#229; eller
+flera samtidigt eller f&#246;reskriver urkunden att, n&#228;r innehavarens r&#228;tt
+upph&#246;r, annan &#228;n avkomling till honom skall vara n&#228;rmast ber&#228;ttigad till
+egendomen, skall fideikommisset upph&#246;ra vid den tidpunkt regeringen
+f&#246;rordnar.
+
+Regeringen best&#228;mmer ock, efter vad som pr&#246;vas sk&#228;ligt med h&#228;nsyn till
+fideikommissurkundens inneh&#229;ll och &#246;vriga omst&#228;ndigheter, huruvida
+egendomen skall tillfalla fideikommissets innehavare eller s&#228;ttas under
+s&#228;rskild f&#246;rvaltning f&#246;r beredande av underst&#246;d &#229;t beh&#246;vande medlemmar
+av den sl&#228;kt, som stiftaren avsett att gynna, eller hur med egendomen
+eljest skall f&#246;rfaras. F&#246;rordnande som nu sagts m&#229; icke inkr&#228;kta p&#229;
+innehavares r&#228;tt till fideikommissegendomen, med mindre denne l&#228;mnat
+medgivande d&#228;rtill.
+
+Har beslut om upph&#246;rande av fideikommiss som avses i f&#246;rsta stycket icke
+meddelats f&#246;re den 1 januari 1980, skall fideikommisset upph&#246;ra n&#228;mnda
+dag. Regeringen meddelar d&#228;refter p&#229; framst&#228;llning f&#246;rordnande enligt
+andra stycket.
+
+Vad i denna paragraf stadgas skall &#228;ga motsvarande till&#228;mpning i fr&#229;ga
+om fideikommiss, betr&#228;ffande vilket i fideikommissurkunden insatts
+s&#228;rskild &#228;gare till egendomen, dock m&#229; i s&#229;dant fall f&#246;rordnande enligt
+andra stycket ej utan &#228;garens medgivande inkr&#228;kta p&#229; hans r&#228;tt till
+egendomen. Lag (1999:1042).
+
+39 &#167; Den som f&#246;rsummar vad som &#229;ligger honom enligt 21 &#167;, d&#246;ms till
+b&#246;ter. Allm&#228;nt &#229;tal f&#229;r v&#228;ckas endast efter medgivande av
+fideikommissn&#228;mnden. Lag (1991:287).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1963:583
+
+Denna lag tr&#228;der i kraft den 1 januari 1964.
+
+Vad i 5 &#167; lagen den 25 april 1930 ang&#229;ende inf&#246;rande av lagen om
+testamente &#228;r stadgat om giltighet i visst fall av f&#246;rordnande, som
+enligt 1 kap. 2 &#167; sistn&#228;mnda lag skulle sakna laga verkan, skall med
+avseende &#229; f&#246;rordnande av det inneh&#229;ll som avses i 1 &#167; denna lag g&#228;lla
+allenast om testator avlidit f&#246;re lagens ikrafttr&#228;dande.
+
+1977:660
+
+Denna lag tr&#228;der i kraft den 1 januari 1978.
+
+&#196;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om kung&#246;rande som har
+beslutats eller b&#246;rjat verkst&#228;llas f&#246;re ikrafttr&#228;dandet.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4344">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4346">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

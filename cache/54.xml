@@ -1,0 +1,904 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-11-21" /> 
+ <meta id="rattsinfo-edited" content="2023-11-21 16:23:26" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>54</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=53">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=55">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2023:676 ·
+                    <a href="/sfsr?bet=2023:676">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2023:676) om vissa produkters och tj&#228;nsters tillg&#228;nglighet</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2023-11-16
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2025-06-28
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">/Tr&#228;der i kraft I:2025-06-28/
+F&#246;rordningens till&#228;mpningsomr&#229;de och inneh&#229;ll
+
+1 &#167; Denna f&#246;rordning g&#228;ller s&#229;dana produkter och tj&#228;nster som 
+omfattas av lagen (2023:254) om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet. F&#246;rordningen inneh&#229;ller kompletterande 
+best&#228;mmelser till lagen.
+
+F&#246;rordningen inneh&#229;ller ocks&#229; best&#228;mmelser om marknadskontroll 
+som kompletterar Europaparlamentets och r&#229;dets f&#246;rordning (EU) 
+2019/1020 av den 20 juni 2019 om marknadskontroll och 
+&#246;verensst&#228;mmelse f&#246;r produkter och om &#228;ndring av direktiv 
+2004/42/EG och f&#246;rordningarna (EG) nr 765/2008 och (EU) 
+nr 305/2011.
+
+2 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av
+
+- 6 &#167; lagen (2023:254) om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet i fr&#229;ga om 4-7 &#167;&#167;,
+
+- 8 &#167; samma lag i fr&#229;ga om 8-11 &#167;&#167;,
+
+- 11 &#167; samma lag i fr&#229;ga om 12 &#167;,
+
+- 12 &#167; samma lag i fr&#229;ga om 13 och 15 &#167;&#167;,
+
+- 13 &#167; samma lag i fr&#229;ga om 16 &#167;,
+
+- 14 &#167; samma lag i fr&#229;ga om 17 och 18 &#167;&#167;,
+
+- 15 och 16 &#167;&#167; samma lag i fr&#229;ga om 19 &#167;,
+
+- 15 &#167; samma lag i fr&#229;ga om 21 &#167;,
+
+- 22 &#167; samma lag i fr&#229;ga om 14, 20 och 22 &#167;&#167;,
+
+- 23 &#167; samma lag i fr&#229;ga om 23 &#167;,
+
+- 25 &#167; samma lag i fr&#229;ga om 24 &#167;,
+
+- 28 &#167; samma lag i fr&#229;ga om 25 &#167;,
+
+- 30 &#167; samma lag i fr&#229;ga om 28-31 &#167;&#167;,
+
+- 31 &#167; samma lag i fr&#229;ga om 32 &#167;,
+
+- 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 34 &#167;, och
+
+- 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga best&#228;mmelser.
+
+Ord och uttryck
+
+3 &#167; Ord och uttryck som anv&#228;nds i denna f&#246;rordning har samma 
+betydelse som i lagen (2023:254) om vissa produkters och 
+tj&#228;nsters tillg&#228;nglighet.
+
+Tillg&#228;nglighetskrav
+
+Tillg&#228;nglighetskrav f&#246;r produkter 
+
+4 &#167; Produkter som omfattas av lagen (2023:254) om vissa 
+produkters och tj&#228;nsters tillg&#228;nglighet ska uppfylla de 
+tillg&#228;nglighetskrav som anges i bilaga 1 till denna 
+f&#246;rordning. 
+
+5 &#167; Post- och telestyrelsen f&#229;r meddela ytterligare 
+f&#246;reskrifter om tillg&#228;nglighetskrav f&#246;r produkter som omfattas 
+av lagen (2023:254) om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet. 
+
+Tillg&#228;nglighetskrav f&#246;r tj&#228;nster 
+
+6 &#167; Tj&#228;nster som omfattas av lagen (2023:254) om vissa 
+produkters och tj&#228;nsters tillg&#228;nglighet ska uppfylla de 
+tillg&#228;nglighetskrav som anges i bilaga 2 till denna 
+f&#246;rordning.
+
+7 &#167; F&#246;ljande myndigheter f&#229;r meddela ytterligare f&#246;reskrifter 
+om tillg&#228;nglighetskrav f&#246;r tj&#228;nster:
+
+1. Post- och telestyrelsen i fr&#229;ga om tj&#228;nster enligt 4 &#167; 
+f&#246;rsta stycket 1, 5 och 7 lagen (2023:254) om vissa produkters 
+och tj&#228;nsters tillg&#228;nglighet.
+
+2. Myndigheten f&#246;r press, radio och tv i fr&#229;ga om tj&#228;nster 
+enligt 4 &#167; f&#246;rsta stycket 2 lagen om vissa produkters och 
+tj&#228;nsters tillg&#228;nglighet.
+
+3. Konsumentverket i fr&#229;ga om tj&#228;nster enligt 4 &#167; f&#246;rsta 
+stycket 3 a-c lagen om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet. 
+
+4. Transportstyrelsen i fr&#229;ga om tj&#228;nster enligt 4 &#167; f&#246;rsta 
+stycket 3 d, 3 e och 4 lagen om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet.
+
+5. Myndigheten f&#246;r tillg&#228;ngliga medier i fr&#229;ga om tj&#228;nster 
+enligt 4 &#167; f&#246;rsta stycket 6 lagen om vissa produkters och 
+tj&#228;nsters tillg&#228;nglighet. 
+
+F&#246;reskrifter som ber&#246;r en annan myndighets ansvarsomr&#229;de &#228;n 
+den som meddelar f&#246;reskrifterna f&#229;r meddelas f&#246;rst efter att 
+den myndigheten har getts tillf&#228;lle att yttra sig. 
+
+Bed&#246;mning av att ett tillg&#228;nglighetskrav inte ska g&#228;lla
+
+8 &#167; Vid bed&#246;mningen av om ett tillg&#228;nglighetskrav medf&#246;r en 
+oproportionerligt stor b&#246;rda f&#246;r den ber&#246;rda ekonomiska 
+akt&#246;ren enligt 7 &#167; f&#246;rsta stycket 2 lagen (2023:254) om vissa 
+produkters och tj&#228;nsters tillg&#228;nglighet ska den ekonomiska 
+akt&#246;ren utg&#229; fr&#229;n
+
+1. f&#246;rh&#229;llandet mellan nettokostnaderna f&#246;r efterlevnad av 
+tillg&#228;nglighetskraven och de ekonomiska akt&#246;rernas totala 
+kostnader f&#246;r tillverkning, distribution eller import av 
+produkten eller tillhandah&#229;llandet av tj&#228;nsten,
+
+2. f&#246;rh&#229;llandet mellan nettokostnaderna f&#246;r efterlevnad av 
+tillg&#228;nglighetskraven och den ekonomiska akt&#246;rens 
+nettooms&#228;ttning, och
+
+3. uppskattade kostnader och f&#246;rdelar f&#246;r de ekonomiska 
+akt&#246;rerna, inklusive tillverkningsprocesser och investeringar, 
+i f&#246;rh&#229;llande till den uppskattade f&#246;rdelen f&#246;r personer med 
+funktionsneds&#228;ttning, med h&#228;nsyn tagen till antalet specifika 
+produkter eller tj&#228;nster och hur ofta de anv&#228;nds. 
+
+9 &#167; Post- och telestyrelsen f&#229;r meddela ytterligare 
+f&#246;reskrifter om kriterier f&#246;r den ekonomiska akt&#246;rens 
+bed&#246;mning n&#228;r det g&#228;ller st&#246;rre f&#246;r&#228;ndring av grundl&#228;ggande 
+karakt&#228;r och oproportionerligt stor b&#246;rda enligt 7 &#167; lagen 
+(2023:254) om vissa produkters och tj&#228;nsters tillg&#228;nglighet.
+
+10 &#167; En tj&#228;nsteleverant&#246;r som &#229;beropar att ett 
+tillg&#228;nglighetskrav inte g&#228;ller eftersom det medf&#246;r en 
+oproportionerligt stor b&#246;rda f&#246;r den ber&#246;rda ekonomiska 
+akt&#246;ren enligt 7 &#167; f&#246;rsta stycket 2 lagen (2023:254) om vissa 
+produkters och tj&#228;nsters tillg&#228;nglighet ska g&#246;ra en ny 
+bed&#246;mning av om ett s&#229;dant undantag &#228;r till&#228;mpligt inom fem &#229;r 
+r&#228;knat fr&#229;n det att den senaste bed&#246;mningen gjordes. 
+
+Om den ber&#246;rda tj&#228;nsten &#228;ndras eller om en tillsynsmyndighet 
+beg&#228;r det, ska en ny bed&#246;mning g&#246;ras &#228;ven om kortare tid &#228;n 
+fem &#229;r har f&#246;rflutit sedan den senaste bed&#246;mningen gjordes. 
+
+11 &#167; Den ekonomiska akt&#246;ren ska spara dokumentation enligt 8 &#167; 
+f&#246;rsta stycket lagen (2023:254) om vissa produkters och 
+tj&#228;nsters tillg&#228;nglighet i minst fem &#229;r r&#228;knat fr&#229;n det att en 
+produkt senast tillhandah&#229;llits p&#229; marknaden eller fr&#229;n det 
+att en tj&#228;nst senast tillhandah&#229;llits. 
+
+Tillverkarens skyldigheter
+
+Bed&#246;mning av &#246;verensst&#228;mmelse och teknisk dokumentation 
+
+12 &#167; Den tekniska dokumentation som tillverkaren ska utarbeta 
+enligt 11 &#167; f&#246;rsta stycket lagen (2023:254) om vissa 
+produkters och tj&#228;nsters tillg&#228;nglighet ska inneh&#229;lla 
+till&#228;mpliga tillg&#228;nglighetskrav och, i den m&#229;n det &#228;r 
+n&#246;dv&#228;ndigt f&#246;r bed&#246;mning av &#246;verensst&#228;mmelse, en beskrivning 
+av produktens utformning, tillverkning och funktion.
+
+Post- och telestyrelsen f&#229;r meddela ytterligare f&#246;reskrifter 
+om f&#246;rfarandet f&#246;r bed&#246;mning av &#246;verensst&#228;mmelse och 
+f&#246;rfarandet vid utarbetandet av den tekniska dokumentationen. 
+
+Post- och telestyrelsen f&#229;r &#228;ven meddela f&#246;reskrifter om de 
+rutiner som kr&#228;vs enligt 11 &#167; andra stycket lagen om vissa 
+produkters och tj&#228;nsters tillg&#228;nglighet. 
+
+EU-f&#246;rs&#228;kran
+
+13 &#167; En EU-f&#246;rs&#228;kran om &#246;verensst&#228;mmelse enligt 12 &#167; lagen 
+(2023:254) om vissa produkters och tj&#228;nsters tillg&#228;nglighet 
+ska vara utformad enligt f&#246;rlagan i bilaga III till 
+Europaparlamentets och r&#229;dets beslut nr 768/2008/EG av den 
+9 juli 2008 om en gemensam ram f&#246;r saluf&#246;ring av produkter och 
+upph&#228;vande av r&#229;dets beslut 93/465/EEG. Genom att EU-f&#246;rs&#228;kran 
+om &#246;verensst&#228;mmelse uppr&#228;ttas ansvarar tillverkaren f&#246;r att 
+produkten &#246;verensst&#228;mmer med tillg&#228;nglighetskraven.
+
+Det ska uppr&#228;ttas en EU-f&#246;rs&#228;kran om &#246;verensst&#228;mmelse f&#246;r 
+varje produktmodell. Om en produkt omfattas av mer &#228;n en 
+unionsr&#228;ttsakt d&#228;r det st&#228;lls krav p&#229; EU-f&#246;rs&#228;kran om 
+&#246;verensst&#228;mmelse, ska en gemensam EU-f&#246;rs&#228;kran om 
+&#246;verensst&#228;mmelse uppr&#228;ttas f&#246;r samtliga unionsr&#228;ttsakter.
+
+Post- och telestyrelsen f&#229;r meddela ytterligare f&#246;reskrifter 
+om tillverkarens skyldigheter och ansvar i samband med att en 
+EU-f&#246;rs&#228;kran om &#246;verensst&#228;mmelse uppr&#228;ttas. 
+
+Bevarande av teknisk dokumentation och EU-f&#246;rs&#228;kran
+
+14 &#167; Tillverkaren ska bevara den tekniska dokumentationen och 
+EU-f&#246;rs&#228;kran om &#246;verensst&#228;mmelse i fem &#229;r r&#228;knat fr&#229;n det att 
+produkten sl&#228;pptes ut p&#229; marknaden. 
+
+Placering av CE-m&#228;rkning
+
+15 &#167; CE-m&#228;rkningen ska placeras p&#229; produkten eller dess 
+m&#228;rkskylt s&#229; att den &#228;r synlig, l&#228;sbar och outpl&#229;nlig. Om 
+detta inte &#228;r m&#246;jligt eller l&#228;mpligt p&#229; grund av produktens 
+art, ska m&#228;rket placeras p&#229; f&#246;rpackningen och i de medf&#246;ljande 
+dokumenten. 
+
+Ytterligare f&#246;reskrifter om information
+
+16 &#167; Post- och telestyrelsen f&#229;r meddela f&#246;reskrifter om 
+inneh&#229;llet i den informationstext som tillverkaren ska f&#246;rse 
+produkten med enligt 13 &#167; lagen (2023:254) om vissa produkters 
+och tj&#228;nsters tillg&#228;nglighet samt om placeringen och 
+utformningen i &#246;vrigt av informationstexten. 
+
+Fullmakt till tillverkarens representant
+
+Representantens uppgifter
+
+17 &#167; Om tillverkaren har utsett en representant enligt 14 &#167; 
+lagen (2023:254) om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet, ska representanten utf&#246;ra de uppgifter som 
+anges i fullmakten fr&#229;n tillverkaren. 
+
+Fullmakten ska ge representanten r&#228;tt att &#229;tminstone
+
+1. uppvisa den tekniska dokumentationen och EU-f&#246;rs&#228;kran om 
+&#246;verensst&#228;mmelse enligt 11 och 12 &#167;&#167; lagen om vissa produkters 
+och tj&#228;nsters tillg&#228;nglighet f&#246;r en marknadskontrollmyndighet 
+under en period p&#229; fem &#229;r, 
+
+2. p&#229; beg&#228;ran av beh&#246;rig marknadskontrollmyndighet ge 
+myndigheten all information och dokumentation som beh&#246;vs f&#246;r 
+att visa att produkten &#246;verensst&#228;mmer med 
+tillg&#228;nglighetskraven, och
+
+3. p&#229; beg&#228;ran samarbeta med beh&#246;rig marknadskontrollmyndighet 
+om de &#229;tg&#228;rder som vidtas f&#246;r att undanr&#246;ja bristande 
+&#246;verensst&#228;mmelse med de till&#228;mpliga tillg&#228;nglighetskraven hos 
+de produkter som omfattas av fullmakten. 
+
+Uppgifter som tillverkaren inte f&#229;r &#246;verl&#229;ta till 
+representanten
+
+18 &#167; Tillverkarens skyldighet att konstruera och tillverka 
+produkter som &#246;verensst&#228;mmer med till&#228;mpliga 
+tillg&#228;nglighetskrav samt att uppr&#228;tta den tekniska 
+dokumentationen enligt 11 &#167; lagen (2023:254) om vissa 
+produkters och tj&#228;nsters tillg&#228;nglighet f&#229;r inte delegeras 
+till representanten. 
+
+Import&#246;rens och distribut&#246;rens skyldigheter 
+
+Skyldighet att informera om att en produkt inte uppfyller 
+tillg&#228;nglighetskraven
+
+19 &#167; En import&#246;r eller distribut&#246;r som anser, eller har 
+anledning att anta, att en produkt som de avser att sl&#228;ppa ut 
+eller tillhandah&#229;lla p&#229; marknaden inte &#246;verensst&#228;mmer med 
+tillg&#228;nglighetskraven, ska informera tillverkaren och Post- 
+och telestyrelsen om detta. I st&#228;llet f&#246;r att informera 
+tillverkaren kan distribut&#246;ren informera import&#246;ren om 
+produktens bristande &#246;verensst&#228;mmelse med 
+tillg&#228;nglighetskraven. 
+
+Import&#246;rens skyldighet att uppvisa EU-f&#246;rs&#228;kran
+
+20 &#167; Import&#246;ren ska kunna visa upp en s&#229;dan EU-f&#246;rs&#228;kran om 
+&#246;verensst&#228;mmelse som ska uppr&#228;ttas enligt 12 &#167; lagen 
+(2023:254) om vissa produkters och tj&#228;nsters tillg&#228;nglighet 
+till marknadskontrollmyndigheten under en period om fem &#229;r 
+r&#228;knat fr&#229;n det att produkten sl&#228;pptes ut p&#229; marknaden. 
+
+Ytterligare f&#246;reskrifter om import&#246;rens skyldigheter
+
+21 &#167; Post- och telestyrelsen f&#229;r meddela ytterligare 
+f&#246;reskrifter om import&#246;rens skyldigheter enligt 15 &#167; lagen 
+(2023:254) om vissa produkters och tj&#228;nsters tillg&#228;nglighet. 
+
+Informationens spr&#229;k
+
+22 &#167; Post- och telestyrelsen f&#229;r meddela f&#246;reskrifter om 
+vilket spr&#229;k som ska anv&#228;ndas i den information som 
+tillverkare, representanter, import&#246;rer och distribut&#246;rer ska 
+l&#228;mna till myndigheten enligt 22 &#167; f&#246;rsta stycket lagen 
+(2023:254) om vissa produkters och tj&#228;nsters tillg&#228;nglighet.
+
+Uppgifter om leverans
+
+23 &#167; Post- och telestyrelsen f&#229;r meddela f&#246;reskrifter om hur 
+l&#228;nge en tillverkare, representant, import&#246;r eller distribut&#246;r 
+som har levererat en produkt eller tagit emot en produkt ska 
+kunna l&#228;mna uppgifter om detta till myndigheten enligt 23 &#167; 
+f&#246;rsta stycket lagen (2023:254) om vissa produkters och 
+tj&#228;nsters tillg&#228;nglighet. 
+
+Tj&#228;nsteleverant&#246;rens skyldigheter att ta fram information 
+
+24 &#167; Information om hur en tj&#228;nst uppfyller de 
+tillg&#228;nglighetskrav som tj&#228;nsteleverant&#246;ren tar fram enligt 
+25 &#167; lagen (2023:254) om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet ska inneh&#229;lla en redog&#246;relse f&#246;r de krav p&#229; 
+tillg&#228;nglighet som &#228;r till&#228;mpliga p&#229; tj&#228;nsten. I den m&#229;n det 
+&#228;r n&#246;dv&#228;ndigt f&#246;r bed&#246;mningen av &#246;verensst&#228;mmelse ska 
+informationen &#228;ven inneh&#229;lla en beskrivning av tj&#228;nstens 
+utformning och funktion. 
+
+Tj&#228;nsteleverant&#246;ren ska ge allm&#228;nheten tillg&#229;ng till 
+informationen i skriftlig och muntlig form samt p&#229; ett s&#228;tt 
+som &#228;r tillg&#228;ngligt f&#246;r personer med funktionsneds&#228;ttning. 
+Tj&#228;nsteleverant&#246;ren ska spara informationen s&#229; l&#228;nge som 
+tj&#228;nsten tillhandah&#229;lls.
+
+Post- och telestyrelsen f&#229;r meddela ytterligare f&#246;reskrifter 
+om inneh&#229;llet i den information som tj&#228;nsteleverant&#246;ren ska ta 
+fram och p&#229; vilket s&#228;tt informationen ska l&#228;mnas. 
+
+Marknadskontroll
+
+Marknadskontrollmyndighet
+
+25 &#167; Post- och telestyrelsen &#228;r marknadskontrollmyndighet 
+enligt 28 &#167; lagen (2023:254) om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet. 
+
+Best&#228;mmelser om marknadskontrollmyndighetens befogenhet att 
+besluta om &#229;tg&#228;rder enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2019/1020 finns i lagen om vissa produkters 
+och tj&#228;nsters tillg&#228;nglighet. 
+
+Information till andra medlemsstater och Europeiska 
+kommissionen
+
+26 &#167; Om Post- och telestyrelsen konstaterar att en produkt 
+inte &#246;verensst&#228;mmer med tillg&#228;nglighetskraven och produkten 
+&#228;ven tillhandah&#229;lls p&#229; marknaden i en annan medlemsstat, ska 
+Post- och telestyrelsen informera marknadskontrollmyndigheten 
+i den andra medlemsstaten och Europeiska kommissionen om detta 
+samt om de &#229;tg&#228;rder som myndigheten har beslutat om med 
+anledning av den bristande &#246;verensst&#228;mmelsen. 
+
+N&#228;r Post- och telestyrelsen informerar 
+marknadskontrollmyndigheten i den andra medlemsstaten och 
+Europeiska kommissionen, ska myndigheten l&#228;mna de uppgifter 
+som anges i artikel 20.5 i Europaparlamentets och r&#229;dets 
+direktiv (EU) 2019/882 av den 17 april 2019 om 
+tillg&#228;nglighetskrav f&#246;r produkter och tj&#228;nster, i den 
+ursprungliga lydelsen.
+
+27 &#167; N&#228;r en marknadskontrollmyndighet i en annan medlemsstat 
+l&#228;mnar information om en produkts bristande &#246;verensst&#228;mmelse 
+till Post- och telestyrelsen, ska Post- och telestyrelsen s&#229; 
+snart som m&#246;jligt informera Europeiska kommissionen och 
+marknadskontrollmyndigheterna i de andra medlemsstaterna om de 
+&#229;tg&#228;rder som myndigheten har vidtagit avseende produkten, om 
+andra relevanta uppgifter samt om eventuella inv&#228;ndningar mot 
+den &#229;tg&#228;rd som marknadskontrollmyndigheten i den andra 
+medlemsstaten har vidtagit. 
+
+Tillsyn
+
+Tillsynsmyndighet med ansvar f&#246;r samordning
+
+28 &#167; Post- och telestyrelsen ut&#246;var tillsyn &#246;ver elektroniska 
+kommunikationstj&#228;nster, banktj&#228;nster och e-handelstj&#228;nster som 
+omfattas av 4 &#167; f&#246;rsta stycket 1, 5 och 7 lagen (2023:254) om 
+vissa produkters och tj&#228;nsters tillg&#228;nglighet. 
+
+Post- och telestyrelsen ska samordna ett tillsynsuppdrag om 
+ett enskilt tillsyns&#228;rende kan komma att ber&#246;ra flera 
+tillsynsmyndigheters ansvarsomr&#229;den. 
+
+N&#228;r en tillsynsmyndighet inleder ett tillsyns&#228;rende ska 
+uppgift om det samt uppgift om vad &#228;rendet r&#246;r l&#228;mnas till 
+Post- och telestyrelsen. Uppgift ska &#228;ven l&#228;mnas till Post- 
+och telestyrelsen n&#228;r tillsyns&#228;rendet avslutas.
+
+Tillsynsmyndighet avseende tj&#228;nster som ger &#229;tkomst till 
+audiovisuella medietj&#228;nster
+
+29 &#167; Myndigheten f&#246;r press, radio och tv ut&#246;var tillsyn &#246;ver 
+tj&#228;nster som ger &#229;tkomst till audiovisuella medietj&#228;nster som 
+omfattas av 4 &#167; f&#246;rsta stycket 2 lagen (2023:254) om vissa 
+produkters och tj&#228;nsters tillg&#228;nglighet. 
+
+Tillsynsmyndighet avseende tillhandah&#229;llande av e-b&#246;cker
+
+30 &#167; Myndigheten f&#246;r tillg&#228;ngliga medier ut&#246;var tillsyn &#246;ver 
+tj&#228;nster som utg&#246;r tillhandah&#229;llande av e-b&#246;cker och som 
+omfattas av 4 &#167; f&#246;rsta stycket 6 lagen (2023:254) om vissa 
+produkters och tj&#228;nsters tillg&#228;nglighet. 
+
+Tillsynsmyndighet avseende inslag i 
+passagerartransporttj&#228;nster
+
+31 &#167; Konsumentverket ut&#246;var tillsyn &#246;ver inslag i 
+passagerartransporttj&#228;nster som omfattas av 4 &#167; f&#246;rsta stycket 
+3 a-c lagen (2023:254) om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet.
+
+Transportstyrelsen ut&#246;var tillsyn &#246;ver inslag i 
+passagerartransporttj&#228;nster som omfattas av 4 &#167; f&#246;rsta stycket 
+3 d, 3 e och 4 lagen om vissa produkters och tj&#228;nsters 
+tillg&#228;nglighet. 
+
+Avgifter f&#246;r tillsyn
+
+32 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om avgifter 
+f&#246;r sin tillsyn enligt lagen (2023:254) om vissa produkters 
+och tj&#228;nsters tillg&#228;nglighet och enligt f&#246;reskrifter som har 
+meddelats med st&#246;d av lagen. 
+
+Sanktionsavgifter
+
+33 &#167; Sanktionsavgift som beslutas enligt 37 &#167; lagen (2023:254) 
+om vissa produkters och tj&#228;nsters tillg&#228;nglighet ska betalas 
+till Kammarkollegiet. 
+
+Verkst&#228;llighetsf&#246;reskrifter
+
+34 &#167; Post- och telestyrelsen f&#229;r meddela f&#246;reskrifter om 
+verkst&#228;lligheten av lagen (2023:254) om vissa produkters och 
+tj&#228;nsters tillg&#228;nglighet och denna f&#246;rordning. 
+
+Bilaga 1
+
+F&#246;ljande krav p&#229; tillg&#228;nglighet g&#228;ller f&#246;r samtliga produkter 
+som omfattas av lagen (2023:254) om vissa produkters och 
+tj&#228;nsters tillg&#228;nglighet
+
+1. Produkter ska &#229;tf&#246;ljas, om m&#246;jligt i eller p&#229; produkterna, 
+av l&#228;ttillg&#228;nglig information om deras funktion och 
+tillg&#228;nglighetsfunktioner.
+
+Krav p&#229; tillhandah&#229;llande av information
+
+2. Den information om anv&#228;ndningen av produkten som 
+tillhandah&#229;lls p&#229; sj&#228;lva produkten (m&#228;rkning, bruksanvisning 
+och varning) ska
+
+a) kunna uppfattas med mer &#228;n ett sinne,
+
+b) presenteras p&#229; ett begripligt s&#228;tt,
+
+c) presenteras f&#246;r anv&#228;ndarna p&#229; s&#228;tt som de kan uppfatta,
+
+d) presenteras i ett typsnitt med l&#228;mplig storlek och form, 
+med beaktande av f&#246;rutsebara anv&#228;ndningsf&#246;rh&#229;llanden, och med 
+tillr&#228;cklig kontrast samt justerbart avst&#229;nd mellan bokst&#228;ver, 
+rader och stycken.
+
+3. Produktbruksanvisningar som inte tillhandah&#229;lls p&#229; sj&#228;lva 
+produkten utan som g&#246;rs tillg&#228;ngliga genom anv&#228;ndning av 
+produkten eller p&#229; annat s&#228;tt, till exempel p&#229; en webbplats, 
+inklusive information om produktens tillg&#228;nglighetsfunktioner 
+samt hur de aktiveras och deras interoperabilitet med 
+hj&#228;lpl&#246;sningar, ska vara offentligt tillg&#228;ngliga n&#228;r produkten 
+sl&#228;pps ut p&#229; marknaden och ska
+
+a) kunna uppfattas med mer &#228;n ett sinne,
+
+b) presenteras p&#229; ett begripligt s&#228;tt,
+
+c) presenteras f&#246;r anv&#228;ndarna p&#229; s&#228;tt som de kan uppfatta,
+
+d) presenteras i ett typsnitt med l&#228;mplig storlek och form, 
+med beaktande av f&#246;rutsebara anv&#228;ndningsf&#246;rh&#229;llanden, och med 
+tillr&#228;cklig kontrast samt justerbart avst&#229;nd mellan bokst&#228;ver, 
+rader och stycken,
+
+e) n&#228;r det g&#228;ller inneh&#229;ll, g&#246;ras tillg&#228;ngliga i textformat 
+som kan anv&#228;ndas f&#246;r att skapa alternativa st&#246;djande format 
+som kan presenteras p&#229; olika s&#228;tt och kunna uppfattas med mer 
+&#228;n ett sinne,
+
+f) &#229;tf&#246;ljas av en alternativ presentation av eventuella delar 
+som inte best&#229;r av text,
+
+g) inbegripa den beskrivning av produktens anv&#228;ndargr&#228;nssnitt 
+(hantering, kontroll och &#229;terkoppling, input och output) som 
+tillhandah&#229;lls i enlighet med punkt 4; i beskrivningen ska man 
+f&#246;r vart och ett av leden i punkt 4 ange om produkten har 
+dessa egenskaper,
+
+h) inbegripa en beskrivning av produktens funktionalitet, som 
+tillhandah&#229;lls genom funktioner som syftar till att tillgodose 
+behoven hos personer med funktionsneds&#228;ttning, i enlighet med 
+punkt 4; i beskrivningen ska man f&#246;r vart och ett av leden i 
+punkt 4 ange om produkten har dessa egenskaper,
+
+i) inbegripa en beskrivning av produktens programvaru- och 
+maskinvarugr&#228;nssnitt med hj&#228;lpmedel; beskrivningen ska 
+inneh&#229;lla en f&#246;rteckning &#246;ver de hj&#228;lpmedel som har testats 
+tillsammans med produkten.
+
+Anv&#228;ndargr&#228;nssnitt och funktionell utformning
+
+4. Produkten, inklusive dess anv&#228;ndargr&#228;nssnitt, ska ha 
+egenskaper, delar och funktioner som g&#246;r att personer med 
+funktionsneds&#228;ttning kan f&#229; tillg&#229;ng till, uppfatta, hantera, 
+begripa och kontrollera produkten genom att man s&#228;kerst&#228;ller 
+f&#246;ljande:
+
+a) Att n&#228;r produkten tillhandah&#229;ller kommunikation, d&#228;ribland 
+interpersonell kommunikation, hantering, information, kontroll 
+och orientering, g&#246;r den det via mer &#228;n ett sinne. Detta ska 
+inbegripa tillhandah&#229;llande av alternativ till syn, h&#246;rsel, 
+tal och k&#228;nsel.
+
+b) Att n&#228;r produkten anv&#228;nder tal ger den alternativ till tal 
+och talkommandon f&#246;r kommunikation, hantering, kontroll och 
+orientering.
+
+c) Att n&#228;r produkten anv&#228;nder visuella element tillhandah&#229;ller 
+den flexibel f&#246;rstoring, ljusstyrka och kontrast f&#246;r 
+kommunikation, information och hantering samt s&#228;kerst&#228;ller 
+interoperabilitet med programvara och hj&#228;lpmedel f&#246;r 
+navigering i gr&#228;nssnittet.
+
+d) Att n&#228;r produkten anv&#228;nder f&#228;rg f&#246;r att f&#246;rmedla 
+information, ange en &#229;tg&#228;rd, kr&#228;va ett svar eller identifiera 
+delar, tillhandah&#229;ller den ett alternativ till f&#228;rger.
+
+e) Att n&#228;r produkten anv&#228;nder ljudsignaler f&#246;r att f&#246;rmedla 
+information, ange en &#229;tg&#228;rd, kr&#228;va ett svar eller identifiera 
+delar, tillhandah&#229;ller den ett alternativ till ljudsignaler.
+
+f) Att n&#228;r produkten anv&#228;nder visuella element s&#246;rjer den f&#246;r 
+flexibla s&#228;tt att f&#246;rb&#228;ttra synsk&#228;rpan.
+
+g) Att n&#228;r produkten anv&#228;nder ljud ser den till att anv&#228;ndaren 
+kan st&#228;lla in volymen och hastigheten och att det finns en 
+funktion f&#246;r f&#246;rst&#228;rkt ljud, d&#228;ribland f&#246;r minskning av 
+st&#246;rningar fr&#229;n ljudsignaler fr&#229;n produkter i omgivningen och 
+ljudsk&#228;rpa.
+
+h) Att n&#228;r produkten kr&#228;ver manuell hantering och kontroll 
+s&#246;rjer den f&#246;r sekventiell styrning och ger alternativ till 
+finmotorisk styrning, s&#229; att det inte kr&#228;vs samtidiga 
+kontroller f&#246;r manipulering, och anv&#228;nder delar som kan 
+f&#246;rnimmas med k&#228;nseln.
+
+i) Att produkten undviker driftsl&#228;gen som kr&#228;ver betydande 
+r&#228;ckvidd och styrka.
+
+j) Att produkten inte utl&#246;ser anfall p&#229; grund av 
+ljusk&#228;nslighet.
+
+k) Att produkten skyddar anv&#228;ndarens privatliv n&#228;r han eller 
+hon anv&#228;nder tillg&#228;nglighetsfunktionerna.
+
+l) Att produkten tillhandah&#229;ller ett alternativ till 
+biometrisk identifiering och kontroll.
+
+m) Att produkten s&#228;kerst&#228;ller konsekvent funktionalitet och 
+ger tillr&#228;cklig och flexibel tidsperiod f&#246;r interaktion.
+
+n) Att produkten tillhandah&#229;ller programvaru- och 
+maskinvarugr&#228;nssnitt f&#246;r tekniska hj&#228;lpmedel.
+
+St&#246;dtj&#228;nster
+
+5. Om st&#246;dtj&#228;nster (helpdeskar, teletj&#228;nstcentraler, teknisk 
+support, samtalsf&#246;rmedlande tj&#228;nster och utbildningstj&#228;nster) 
+finns att tillg&#229; ska de, via tillg&#228;ngliga kommunikationss&#228;tt, 
+tillhandah&#229;lla information om produktens tillg&#228;nglighet och 
+dess kompatibilitet med tekniska hj&#228;lpmedel.
+
+F&#246;rpackningar och anvisningar
+
+6. Med undantag f&#246;r sj&#228;lvbetj&#228;ningsterminaler ska, ut&#246;ver de 
+krav som anges i punkterna 1-5, f&#246;rpackningar och anvisningar 
+f&#246;r produkter g&#246;ras l&#228;ttillg&#228;ngliga. Detta inneb&#228;r f&#246;ljande:
+
+a) Produktens f&#246;rpackning och den information som ges p&#229; den 
+(t.ex. om hur den ska &#246;ppnas, tillslutas, anv&#228;ndas och 
+bortskaffas), inklusive, i f&#246;rekommande fall, information om 
+produktens egenskaper n&#228;r det g&#228;ller tillg&#228;nglighet, ska g&#246;ras 
+tillg&#228;nglig och, om s&#229; &#228;r m&#246;jligt, ska den l&#228;ttillg&#228;ngliga 
+informationen tillhandah&#229;llas p&#229; f&#246;rpackningen.
+
+b) Anvisningar f&#246;r installation, underh&#229;ll, f&#246;rvaring och 
+bortskaffande av produkten som inte tillhandah&#229;lls p&#229; sj&#228;lva 
+produkten men som g&#246;rs tillg&#228;ngliga p&#229; annat s&#228;tt, till 
+exempel genom en webbplats, ska vara offentligt tillg&#228;ngliga 
+n&#228;r produkten sl&#228;pps ut p&#229; marknaden och ska uppfylla f&#246;ljande 
+krav:
+
+- De ska kunna uppfattas med mer &#228;n ett sinne.
+
+- De ska presenteras p&#229; ett begripligt s&#228;tt.
+
+- De ska presenteras f&#246;r anv&#228;ndarna p&#229; s&#228;tt som de kan 
+uppfatta.
+
+- De ska presenteras i ett typsnitt med l&#228;mplig storlek och 
+form, med beaktande av f&#246;rutsebara anv&#228;ndningsf&#246;rh&#229;llanden, 
+och med tillr&#228;cklig kontrast samt justerbart avst&#229;nd mellan 
+bokst&#228;ver, rader och stycken.
+
+- Inneh&#229;llet i anvisningarna ska g&#246;ras tillg&#228;ngligt i 
+textformat som kan anv&#228;ndas f&#246;r att skapa alternativa 
+st&#246;djande format som kan presenteras p&#229; olika s&#228;tt och 
+uppfattas med mer &#228;n ett sinne.
+
+- Anvisningar som inneh&#229;ller eventuella delar som inte best&#229;r 
+av text ska &#229;tf&#246;ljas av en alternativ presentation av detta 
+inneh&#229;ll.
+
+Bilaga 2
+
+F&#246;ljande krav p&#229; tillg&#228;nglighet g&#228;ller f&#246;r samtliga tj&#228;nster 
+som omfattas av lagen (2023:254) om vissa produkters och 
+tj&#228;nsters tillg&#228;nglighet
+
+1. Tillg&#228;ngligheten f&#246;r de produkter som anv&#228;nds vid 
+tillhandah&#229;llandet av tj&#228;nsten ska s&#228;kerst&#228;llas i enlighet med 
+vad som anges i bilaga 1.
+
+2. Information ska tillhandah&#229;llas om hur tj&#228;nsten fungerar 
+och, om produkter anv&#228;nds vid tillhandah&#229;llandet av tj&#228;nsten, 
+om dess koppling till dessa produkter samt om deras egenskaper 
+n&#228;r det g&#228;ller tillg&#228;nglighet och interoperabilitet med 
+hj&#228;lpmedel. Denna information ska
+
+a) kunna uppfattas med mer &#228;n ett sinne,
+
+b) presenteras p&#229; ett begripligt s&#228;tt,
+
+c) presenteras f&#246;r anv&#228;ndarna p&#229; s&#228;tt som de kan uppfatta,
+
+d) g&#246;ra informationsinneh&#229;llet tillg&#228;ngligt i textformat som 
+kan anv&#228;ndas f&#246;r att skapa alternativa st&#246;djande format som 
+anv&#228;ndarna ska kunna presentera p&#229; olika s&#228;tt och uppfatta med 
+mer &#228;n ett sinne,
+
+e) presenteras i ett typsnitt med l&#228;mplig storlek och form, 
+med beaktande av f&#246;rutsebara anv&#228;ndningsf&#246;rh&#229;llanden, och med 
+tillr&#228;cklig kontrast samt justerbart avst&#229;nd mellan bokst&#228;ver, 
+rader och stycken,
+
+f) komplettera eventuella delar som inte best&#229;r av text med en 
+alternativ presentation av detta inneh&#229;ll,
+
+g) ge den elektroniska information som kr&#228;vs vid 
+tillhandah&#229;llandet av tj&#228;nsten, p&#229; ett enhetligt och 
+&#228;ndam&#229;lsenligt s&#228;tt genom att g&#246;ra den uppfattningsbar, 
+hanterbar, begriplig och robust.
+
+3. Webbplatser, inklusive tillh&#246;rande n&#228;tapplikationer, och 
+tj&#228;nster f&#246;r mobila enheter, inklusive mobilapplikationer, ska 
+g&#246;ras tillg&#228;ngliga p&#229; ett enhetligt och &#228;ndam&#229;lsenligt s&#228;tt 
+genom att de g&#246;rs uppfattningsbara, hanterbara, begripliga och 
+robusta.
+
+4. Om st&#246;dtj&#228;nster (helpdeskar, teletj&#228;nstcentraler, teknisk 
+support, samtalsf&#246;rmedlande tj&#228;nster och utbildningstj&#228;nster) 
+finns att tillg&#229; ska de, via tillg&#228;ngliga kommunikationss&#228;tt, 
+tillhandah&#229;lla information om tj&#228;nstens tillg&#228;nglighet och 
+kompatibilitet med tekniska hj&#228;lpmedel.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=53">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=55">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

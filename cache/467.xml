@@ -1,0 +1,811 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-02-29" /> 
+ <meta id="rattsinfo-edited" content="2024-02-29 16:02:21" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>467</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=466">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=468">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2020:750 ·
+                    <a href="/sfsr?bet=2020:750">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2020:750) om statligt st&#246;d till vissa milj&#246;fordon</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2020-08-13
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2024:21
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2020-09-07
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; /Upph&#246;r att g&#228;lla U:2025-10-01/
+F&#246;r att fr&#228;mja introduktionen av milj&#246;arbetsmaskiner, 
+utsl&#228;ppsfria tunga lastbilar, milj&#246;lastbilar, l&#228;tta 
+ellastbilar och fordonsgaslastbilar p&#229; marknaden och bidra 
+till att minska utsl&#228;ppen av v&#228;xthusgaser, f&#229;r Statens 
+energimyndighet bevilja statligt st&#246;d i form av bidrag enligt 
+denna f&#246;rordning f&#246;r k&#246;p av s&#229;dana fordon. Bidrag ges om det 
+finns medel.
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 8 kap. 11 &#167; 
+regeringsformen i fr&#229;ga om 19 &#167; och 8 kap. 7 &#167; regeringsformen 
+i fr&#229;ga om &#246;vriga best&#228;mmelser. F&#246;rordning (2024:18).
+
+1 &#167; /Tr&#228;der i kraft I:2025-10-01/
+F&#246;r att fr&#228;mja introduktionen av milj&#246;arbetsmaskiner, 
+utsl&#228;ppsfria tunga lastbilar, milj&#246;lastbilar och 
+fordonsgaslastbilar p&#229; marknaden och bidra till att minska 
+utsl&#228;ppen av v&#228;xthusgaser, f&#229;r Statens energimyndighet bevilja 
+statligt st&#246;d i form av bidrag enligt denna f&#246;rordning f&#246;r k&#246;p 
+av s&#229;dana fordon. Bidrag ges om det finns medel.
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 8 kap. 11 &#167; 
+regeringsformen i fr&#229;ga om 19 &#167; och 8 kap. 7 &#167; regeringsformen 
+i fr&#229;ga om &#246;vriga best&#228;mmelser. F&#246;rordning (2024:21).
+
+Ordf&#246;rklaringar
+
+2 &#167; /Upph&#246;r att g&#228;lla U:2025-10-01/
+I denna f&#246;rordning betyder
+
+milj&#246;arbetsmaskin: ett motorredskap eller en traktor enligt 
+lagen (2001:559) om v&#228;gtrafikdefinitioner, som har en 
+nettoeffekt p&#229; minst 15 kW och som &#228;r avsedd att drivas med el 
+eller s&#229;dana br&#228;nslen som &#228;r till&#229;tna enligt artikel 36 i 
+kommissionens f&#246;rordning (EU) nr 651/2014 av den 17 juni 2014 
+genom vilken vissa kategorier av st&#246;d f&#246;rklaras f&#246;renliga med 
+den inre marknaden enligt artiklarna 107 och 108 i f&#246;rdraget,
+
+utsl&#228;ppsfri tung lastbil: en tung lastbil enligt lagen om 
+v&#228;gtrafikdefinitioner som &#228;r ett utsl&#228;ppsfritt fordon enligt 
+artikel 2.102g c i kommissionens f&#246;rordning (EU) nr 651/2014,
+
+milj&#246;lastbil: en tung lastbil enligt lagen om 
+v&#228;gtrafikdefinitioner som &#228;r ett rent fordon enligt 
+artikel 2.102f b i kommissionens f&#246;rordning (EU) nr 651/2014 
+och som delvis drivs med el eller v&#228;tgas,
+
+l&#228;tt ellastbil: en l&#228;tt lastbil enligt lagen om 
+v&#228;gtrafikdefinitioner som &#228;r ett utsl&#228;ppsfritt fordon enligt 
+artikel 2.102g b i kommissionens f&#246;rordning (EU) nr 651/2014,
+
+fordonsgaslastbil: en tung lastbil enligt lagen om 
+v&#228;gtrafikdefinitioner som &#228;r avsedd att drivas med biogas, och
+
+v&#228;gtrafikregistret: den uppgiftssamling som avses i 2 kap. 1 &#167; 
+v&#228;gtrafikdatalagen (2019:369).
+
+I &#246;vrigt har ord och uttryck i f&#246;rordningen samma betydelse 
+som i kommissionens f&#246;rordning (EU) nr 651/2014 och 
+kommissionens f&#246;rordning (EU) 2023/2831 av den 13 december 
+2023 om till&#228;mpningen av artiklarna 107 och 108 i f&#246;rdraget om 
+Europeiska unionens funktionss&#228;tt p&#229; st&#246;d av mindre betydelse.
+F&#246;rordning (2024:18).
+
+2 &#167; /Tr&#228;der i kraft I:2025-10-01/
+I denna f&#246;rordning betyder
+
+milj&#246;arbetsmaskin: ett motorredskap eller en traktor enligt 
+lagen (2001:559) om v&#228;gtrafikdefinitioner, som har en 
+nettoeffekt p&#229; minst 15 kW och som &#228;r avsedd att drivas med el 
+eller s&#229;dana br&#228;nslen som &#228;r till&#229;tna enligt artikel 36 i 
+kommissionens f&#246;rordning (EU) nr 651/2014 av den 17 juni 2014 
+genom vilken vissa kategorier av st&#246;d f&#246;rklaras f&#246;renliga med 
+den inre marknaden enligt artiklarna 107 och 108 i f&#246;rdraget,
+
+utsl&#228;ppsfri tung lastbil: en tung lastbil enligt lagen om 
+v&#228;gtrafikdefinitioner som &#228;r ett utsl&#228;ppsfritt fordon enligt 
+artikel 2.102g c i kommissionens f&#246;rordning (EU) nr 651/2014,
+
+milj&#246;lastbil: en tung lastbil enligt lagen om 
+v&#228;gtrafikdefinitioner som &#228;r ett rent fordon enligt 
+artikel 2.102f b i kommissionens f&#246;rordning (EU) nr 651/2014 
+och som delvis drivs med el eller v&#228;tgas, 
+
+fordonsgaslastbil: en tung lastbil enligt lagen om 
+v&#228;gtrafikdefinitioner som &#228;r avsedd att drivas med biogas, och
+
+v&#228;gtrafikregistret: den uppgiftssamling som avses i 2 kap. 1 &#167; 
+v&#228;gtrafikdatalagen (2019:369).
+
+I &#246;vrigt har ord och uttryck i f&#246;rordningen samma betydelse 
+som i kommissionens f&#246;rordning (EU) nr 651/2014.
+F&#246;rordning (2024:21).
+
+2 a &#167; Best&#228;mmelser om kriterier f&#246;r att best&#228;mma storlek p&#229; 
+f&#246;retag finns i bilaga I till kommissionens f&#246;rordning 
+(EU) nr 651/2014. F&#246;rordning (2024:18).
+
+F&#246;ruts&#228;ttningar f&#246;r st&#246;d
+
+3 &#167; /Upph&#246;r att g&#228;lla U:2025-10-01/
+St&#246;d f&#229;r beviljas f&#246;retag, kommuner och regioner f&#246;r k&#246;p 
+av en milj&#246;arbetsmaskin, utsl&#228;ppsfri tung lastbil, 
+milj&#246;lastbil, l&#228;tt ellastbil eller fordonsgaslastbil som
+
+1. &#228;r eller ska bli registrerad enligt f&#246;rordningen (2019:383) 
+om fordons registrering och anv&#228;ndning, 
+
+2. ska st&#228;llas p&#229; enligt f&#246;rordningen om fordons registrering 
+och anv&#228;ndning och inte tidigare har varit p&#229;st&#228;lld enligt den 
+f&#246;rordningen, och 
+
+3. inte tidigare har tagits i bruk i Sverige eller n&#229;gon 
+annanstans.
+
+St&#246;d f&#229;r &#228;ven beviljas f&#246;r k&#246;p av en milj&#246;arbetsmaskin som 
+inte tidigare har tagits i bruk i Sverige eller n&#229;gon 
+annanstans och som inte omfattas av kraven p&#229; registrering i 
+f&#246;rordningen om fordons registrering och anv&#228;ndning, om 
+maskinen kan identifieras med hj&#228;lp av ett unikt 
+identifikationsnummer eller annan uppgift som g&#246;r maskinen 
+m&#246;jlig att identifiera. F&#246;rordning (2024:18).
+
+3 &#167; /Tr&#228;der i kraft I:2025-10-01/
+St&#246;d f&#229;r beviljas f&#246;retag, kommuner och regioner f&#246;r k&#246;p 
+av en milj&#246;arbetsmaskin, utsl&#228;ppsfri tung lastbil, 
+milj&#246;lastbil eller fordonsgaslastbil som
+
+1. &#228;r eller ska bli registrerad enligt f&#246;rordningen (2019:383) 
+om fordons registrering och anv&#228;ndning, 
+
+2. ska st&#228;llas p&#229; enligt f&#246;rordningen om fordons registrering 
+och anv&#228;ndning och inte tidigare har varit p&#229;st&#228;lld enligt den 
+f&#246;rordningen, och 
+
+3. inte tidigare har tagits i bruk i Sverige eller n&#229;gon 
+annanstans.
+
+St&#246;d f&#229;r &#228;ven beviljas f&#246;r k&#246;p av en milj&#246;arbetsmaskin som 
+inte tidigare har tagits i bruk i Sverige eller n&#229;gon 
+annanstans och som inte omfattas av kraven p&#229; registrering i 
+f&#246;rordningen om fordons registrering och anv&#228;ndning, om 
+maskinen kan identifieras med hj&#228;lp av ett unikt 
+identifikationsnummer eller annan uppgift som g&#246;r maskinen 
+m&#246;jlig att identifiera. F&#246;rordning (2024:21).
+
+4 &#167; St&#246;d till f&#246;retag f&#246;r k&#246;p av milj&#246;arbetsmaskiner f&#229;r 
+endast beviljas i enlighet med de villkor som anges i 
+kapitel I och artikel 36 i kommissionens f&#246;rordning (EU) 
+nr 651/2014. F&#246;rordning (2024:18).
+
+4 a &#167; /Upph&#246;r att g&#228;lla U:2025-10-01/
+St&#246;d till f&#246;retag f&#246;r k&#246;p av utsl&#228;ppsfria tunga 
+lastbilar, milj&#246;lastbilar eller l&#228;tta ellastbilar f&#229;r endast 
+beviljas i enlighet med de villkor som anges i kapitel I och 
+artikel 36b i kommissionens f&#246;rordning (EU) nr 651/2014.
+F&#246;rordning (2024:18).
+
+4 a &#167; /Tr&#228;der i kraft I:2025-10-01/
+St&#246;d till f&#246;retag f&#246;r k&#246;p av utsl&#228;ppsfria tunga 
+lastbilar eller milj&#246;lastbilar f&#229;r endast beviljas i enlighet 
+med de villkor som anges i kapitel I och artikel 36b i 
+kommissionens f&#246;rordning (EU) nr 651/2014.
+F&#246;rordning (2024:21).
+
+4 b &#167; St&#246;d till f&#246;retag f&#246;r k&#246;p av fordonsgaslastbilar f&#229;r 
+endast beviljas i enlighet med de villkor som anges i 
+kommissionens f&#246;rordning (EU) 2023/2831. 
+F&#246;rordning (2024:18).
+
+5 &#167; Om uppgifter om ett st&#246;d till ett f&#246;retag ska 
+offentligg&#246;ras enligt artikel 9 i kommissionens f&#246;rordning 
+(EU) nr 651/2014, f&#229;r st&#246;det endast beviljas om f&#246;retaget 
+samtycker till offentligg&#246;randet. F&#246;rordning (2021:1274).
+
+6 &#167; /Upph&#246;r att g&#228;lla U:2025-10-01/
+St&#246;d f&#229;r inte beviljas f&#246;r k&#246;p av milj&#246;arbetsmaskiner, 
+utsl&#228;ppsfria tunga lastbilar, milj&#246;lastbilar, l&#228;tta 
+ellastbilar eller fordonsgaslastbilar som 
+
+1. m&#229;ste genomf&#246;ras f&#246;r att uppfylla en skyldighet enligt lag 
+eller annan f&#246;rfattning eller villkor i ett tillst&#229;nd, eller
+
+2. har best&#228;llts innan ans&#246;kan om st&#246;d har getts in till 
+Statens energimyndighet. F&#246;rordning (2024:18).
+
+6 &#167; /Tr&#228;der i kraft I:2025-10-01/
+St&#246;d f&#229;r inte beviljas f&#246;r k&#246;p av milj&#246;arbetsmaskiner, 
+utsl&#228;ppsfria tunga lastbilar, milj&#246;lastbilar eller 
+fordonsgaslastbilar som 
+
+1. m&#229;ste genomf&#246;ras f&#246;r att uppfylla en skyldighet enligt lag 
+eller annan f&#246;rfattning eller villkor i ett tillst&#229;nd, eller
+
+2. har best&#228;llts innan ans&#246;kan om st&#246;d har getts in till 
+Statens energimyndighet. F&#246;rordning (2024:21).
+
+6 a &#167; St&#246;d f&#229;r inte beviljas ett f&#246;retag om Statens 
+energimyndighet har beslutat att stoppa en utbetalning till 
+f&#246;retaget av ett tidigare beviljat st&#246;d enligt 15 &#167; p&#229; grund 
+av omst&#228;ndigheter som h&#228;nf&#246;r sig till f&#246;retaget.
+F&#246;rordning (2024:18).
+
+6 b &#167; St&#246;d av mindre betydelse som omfattas av kommissionens 
+f&#246;rordning (EU) 2023/2831 f&#229;r inte ges till s&#229;dana f&#246;retag i 
+sv&#229;righeter som avses i artikel 2.18 i kommissionens 
+f&#246;rordning (EU) nr 651/2014. F&#246;rordning (2024:18).
+
+St&#246;dber&#228;ttigande kostnader
+
+7 &#167; /Upph&#246;r att g&#228;lla U:2025-10-01/
+Den st&#246;dber&#228;ttigande kostnaden utg&#246;rs av prisskillnaden 
+mellan milj&#246;arbetsmaskinen, den utsl&#228;ppsfria tunga lastbilen, 
+milj&#246;lastbilen, den l&#228;tta ellastbilen eller 
+fordonsgaslastbilen och n&#228;rmast j&#228;mf&#246;rbara fordon.
+F&#246;rordning (2024:18).
+
+7 &#167; /Tr&#228;der i kraft I:2025-10-01/
+Den st&#246;dber&#228;ttigande kostnaden utg&#246;rs av prisskillnaden 
+mellan milj&#246;arbetsmaskinen, den utsl&#228;ppsfria tunga lastbilen, 
+milj&#246;lastbilen eller fordonsgaslastbilen och n&#228;rmast 
+j&#228;mf&#246;rbara fordon. F&#246;rordning (2024:21).
+
+8 &#167; St&#246;d f&#246;r k&#246;p av en milj&#246;arbetsmaskin f&#229;r beviljas med ett 
+belopp som motsvarar h&#246;gst 20 procent av ink&#246;pskostnaden, dock 
+
+1. h&#246;gst 40 procent av den st&#246;dber&#228;ttigande kostnaden, eller 
+
+2. h&#246;gst 50 procent av den st&#246;dber&#228;ttigande kostnaden, om 
+maskinen enbart drivs med el. F&#246;rordning (2024:18).
+
+8 a &#167; St&#246;d f&#246;r k&#246;p av en utsl&#228;ppsfri tung lastbil f&#229;r beviljas 
+med ett belopp som motsvarar h&#246;gst 25 procent av 
+ink&#246;pskostnaden, dock 
+
+1. h&#246;gst 30 procent av den st&#246;dber&#228;ttigande kostnaden n&#228;r det 
+g&#228;ller stora f&#246;retag, 
+
+2. h&#246;gst 50 procent av den st&#246;dber&#228;ttigande kostnaden n&#228;r det 
+g&#228;ller medelstora f&#246;retag, eller 
+
+3. h&#246;gst 60 procent av den st&#246;dber&#228;ttigande kostnaden n&#228;r det 
+g&#228;ller sm&#229; f&#246;retag. F&#246;rordning (2024:18).
+
+8 b &#167; St&#246;d f&#246;r k&#246;p av en milj&#246;lastbil f&#229;r beviljas med ett 
+belopp som motsvarar h&#246;gst 20 procent av ink&#246;pskostnaden, dock 
+
+1. h&#246;gst 20 procent av den st&#246;dber&#228;ttigande kostnaden n&#228;r det 
+g&#228;ller stora f&#246;retag, 
+
+2. h&#246;gst 40 procent av den st&#246;dber&#228;ttigande kostnaden n&#228;r det 
+g&#228;ller medelstora f&#246;retag, eller 
+
+3. h&#246;gst 50 procent av den st&#246;dber&#228;ttigande kostnaden n&#228;r det 
+g&#228;ller sm&#229; f&#246;retag. F&#246;rordning (2024:18).
+
+8 c &#167; /Upph&#246;r att g&#228;lla U:2025-01-01/
+St&#246;d f&#246;r k&#246;p av en l&#228;tt ellastbil f&#229;r beviljas med ett 
+belopp som motsvarar h&#246;gst 30 procent av den st&#246;dber&#228;ttigande 
+kostnaden, dock h&#246;gst 50 000 kronor per lastbil.
+F&#246;rordning (2024:18).
+
+8 c &#167; /Tr&#228;der i kraft I:2025-01-01/
+St&#246;d f&#246;r k&#246;p av en l&#228;tt ellastbil f&#229;r beviljas med ett 
+belopp som motsvarar h&#246;gst 30 procent av den st&#246;dber&#228;ttigande 
+kostnaden, dock h&#246;gst 40 000 kronor per lastbil.
+F&#246;rordning (2024:19).
+
+8 c &#167; /Tr&#228;der i kraft I:2025-07-01/
+St&#246;d f&#246;r k&#246;p av en l&#228;tt ellastbil f&#229;r beviljas med ett 
+belopp som motsvarar h&#246;gst 30 procent av den st&#246;dber&#228;ttigande 
+kostnaden, dock h&#246;gst 30 000 kronor per lastbil.
+F&#246;rordning (2024:20).
+
+8 c &#167; /Upph&#246;r att g&#228;lla U:2025-10-01 genom f&#246;rordning (2024:21)./
+St&#246;d f&#246;r k&#246;p av en l&#228;tt ellastbil f&#229;r beviljas med ett 
+belopp som motsvarar h&#246;gst 30 procent av den st&#246;dber&#228;ttigande 
+kostnaden, dock h&#246;gst 30 000 kronor per lastbil.
+F&#246;rordning (2024:20).
+
+8 d &#167; St&#246;d f&#246;r k&#246;p av en fordonsgaslastbil f&#229;r beviljas med 
+ett belopp som motsvarar h&#246;gst 20 procent av ink&#246;pskostnaden, 
+dock h&#246;gst 40 procent av den st&#246;dber&#228;ttigande kostnaden.
+F&#246;rordning (2024:18).
+
+9 &#167; En kostnad som annat offentligt st&#246;d har beviljats f&#246;r &#228;r 
+inte st&#246;dber&#228;ttigande.
+
+Ans&#246;kan om st&#246;d
+
+10 &#167; /Upph&#246;r att g&#228;lla U:2025-10-01/
+En ans&#246;kan om st&#246;d ska vara skriftlig, ges in till 
+Statens energimyndighet och inneh&#229;lla
+
+1. s&#246;kandens namn och organisationsnummer,
+
+2. uppgifter om antalet milj&#246;arbetsmaskiner, utsl&#228;ppsfria 
+tunga lastbilar, milj&#246;lastbilar, l&#228;tta ellastbilar eller 
+fordonsgaslastbilar som ans&#246;kan avser,
+
+3. dokumentation som styrker att f&#246;ruts&#228;ttningarna enligt 3-
+6 &#167;&#167; &#228;r uppfyllda, 
+
+4. uppgifter om den st&#246;dber&#228;ttigande kostnaden, och 
+
+5. upplysningar om allt annat offentligt st&#246;d som s&#246;kts eller 
+beviljats och som avser samma st&#246;dber&#228;ttigande kostnad som 
+ans&#246;kan avser.
+
+Om s&#246;kanden &#228;r ett f&#246;retag ska ans&#246;kan &#228;ven inneh&#229;lla 
+uppgifter om antal anst&#228;llda, &#229;rsoms&#228;ttning och 
+balansomslutning. F&#246;rordning (2024:18).
+
+10 &#167; /Tr&#228;der i kraft I:2025-10-01/
+En ans&#246;kan om st&#246;d ska vara skriftlig, ges in till 
+Statens energimyndighet och inneh&#229;lla
+
+1. s&#246;kandens namn och organisationsnummer,
+
+2. uppgifter om antalet milj&#246;arbetsmaskiner, utsl&#228;ppsfria 
+tunga lastbilar, milj&#246;lastbilar eller fordonsgaslastbilar som 
+ans&#246;kan avser,
+
+3. dokumentation som styrker att f&#246;ruts&#228;ttningarna enligt 3-
+6 &#167;&#167; &#228;r uppfyllda, 
+
+4. uppgifter om den st&#246;dber&#228;ttigande kostnaden, och 
+
+5. upplysningar om allt annat offentligt st&#246;d som s&#246;kts eller 
+beviljats och som avser samma st&#246;dber&#228;ttigande kostnad som 
+ans&#246;kan avser.
+
+Om s&#246;kanden &#228;r ett f&#246;retag ska ans&#246;kan &#228;ven inneh&#229;lla 
+uppgifter om antal anst&#228;llda, &#229;rsoms&#228;ttning och 
+balansomslutning. F&#246;rordning (2024:21).
+
+10 a &#167; Om ans&#246;kan avser st&#246;d som omfattas av kommissionens 
+f&#246;rordning (EU) 2023/2831, ska ans&#246;kan ocks&#229; inneh&#229;lla en 
+redog&#246;relse f&#246;r 
+
+1. allt annat st&#246;d av mindre betydelse som s&#246;kande har f&#229;tt 
+under det kalender&#229;r som ans&#246;kan l&#228;mnas och under de tv&#229; 
+f&#246;reg&#229;ende kalender&#229;ren, och
+
+2. annat st&#246;d som s&#246;kanden tidigare har ans&#246;kt om eller 
+beviljats och som avser samma st&#246;dber&#228;ttigande kostnader som 
+ans&#246;kan avser. F&#246;rordning (2024:18).
+
+10 b &#167; Ett st&#246;d enligt kommissionens f&#246;rordning (EU) 2023/2831 
+f&#229;r inte beviljas f&#246;rr&#228;n den kontroll som f&#246;reskrivs i 
+artikel 6.4 har genomf&#246;rts. F&#246;rordning (2024:18).
+
+10 c &#167; Innan ett st&#246;d beviljas enligt kommissionens f&#246;rordning 
+(EU) 2023/2831 ska Statens energimyndighet l&#228;mna de 
+upplysningar till st&#246;dmottagaren som framg&#229;r av artikel 7.4. 
+F&#246;rordning (2024:18).
+
+Pr&#246;vning och beslut om beviljande av st&#246;d
+
+11 &#167; Statens energimyndighet pr&#246;var fr&#229;gor om st&#246;d enligt 
+denna f&#246;rordning.
+
+12 &#167; I ett beslut att bevilja st&#246;d ska Statens energimyndighet 
+ange 
+
+1. den tidpunkt d&#229; det st&#246;dber&#228;ttigande k&#246;pet ska vara 
+genomf&#246;rt,
+
+2. de ytterligare villkor som beh&#246;vs f&#246;r att kraven enligt 
+denna f&#246;rordning ska uppfyllas och syftet med st&#246;det enligt 
+1 &#167; ska tillgodoses, 
+
+3. den tidpunkt d&#229; beg&#228;ran om utbetalning senast ska ha kommit 
+in till Statens energimyndighet enligt 13 &#167;, och 
+
+4. att st&#246;dmottagaren ska l&#228;mna de uppgifter som kr&#228;vs f&#246;r att 
+Statens energimyndighet ska kunna f&#246;lja upp och utv&#228;rdera 
+st&#246;det. F&#246;rordning (2024:18).
+
+Utbetalning av st&#246;d
+
+13 &#167; En beg&#228;ran om utbetalning av ett beviljat st&#246;d ska ha 
+kommit in till Statens energimyndighet inom sex m&#229;nader fr&#229;n 
+det att k&#246;pet senast ska vara genomf&#246;rt. St&#246;dmottagaren ska 
+bifoga skriftliga underlag f&#246;r att styrka den st&#246;dber&#228;ttigande 
+kostnaden och att &#246;vriga krav f&#246;r st&#246;det &#228;r uppfyllda till 
+beg&#228;ran om utbetalning.
+
+13 a &#167; /Upph&#246;r att g&#228;lla U:2025-10-01/
+N&#228;r det g&#228;ller s&#229;dana milj&#246;arbetsmaskiner, utsl&#228;ppsfria 
+tunga lastbilar, milj&#246;lastbilar, l&#228;tta ellastbilar eller 
+fordonsgaslastbilar som registreras i v&#228;gtrafikregistret ska 
+st&#246;det betalas ut till den som k&#246;pt ett nytt s&#229;dant fordon och 
+st&#228;llt p&#229; det enligt f&#246;rordningen (2019:383) om fordons 
+registrering och anv&#228;ndning. 
+
+Statens energimyndighet ska betala ut det beviljade 
+st&#246;dbeloppet tidigast sex m&#229;nader efter det att fordonet har 
+st&#228;llts p&#229;. Beloppet ska betalas ut om 
+
+1. uppgifterna i v&#228;gtrafikregistret visar att den som k&#246;pt och 
+st&#228;llt p&#229; fordonet fortfarande &#228;r registrerad som &#228;gare och 
+att fordonet &#228;r registrerat i Sverige, och 
+
+2. f&#246;ruts&#228;ttningarna f&#246;r utbetalning enligt 13, 14 och 14 a &#167;&#167; 
+&#228;r uppfyllda. F&#246;rordning (2024:18).
+
+13 a &#167; /Tr&#228;der i kraft I:2025-10-01/
+N&#228;r det g&#228;ller s&#229;dana milj&#246;arbetsmaskiner, utsl&#228;ppsfria 
+tunga lastbilar, milj&#246;lastbilar eller fordonsgaslastbilar som 
+registreras i v&#228;gtrafikregistret ska st&#246;det betalas ut till 
+den som k&#246;pt ett nytt s&#229;dant fordon och st&#228;llt p&#229; det enligt 
+f&#246;rordningen (2019:383) om fordons registrering och 
+anv&#228;ndning.
+
+Statens energimyndighet ska betala ut det beviljade 
+st&#246;dbeloppet tidigast sex m&#229;nader efter det att fordonet har 
+st&#228;llts p&#229;. Beloppet ska betalas ut om
+
+1. uppgifterna i v&#228;gtrafikregistret visar att den som k&#246;pt och 
+st&#228;llt p&#229; fordonet fortfarande &#228;r registrerad som &#228;gare och 
+att fordonet &#228;r registrerat i Sverige, och
+
+2. f&#246;ruts&#228;ttningarna f&#246;r utbetalning enligt 13, 14 och 14 a &#167;&#167; 
+&#228;r uppfyllda. F&#246;rordning (2024:21).
+
+13 b &#167; N&#228;r det g&#228;ller milj&#246;arbetsmaskiner som inte omfattas av 
+krav p&#229; registrering i v&#228;gtrafikregistret ska st&#246;det betalas 
+ut till den som k&#246;pt en ny s&#229;dan maskin. 
+
+Statens energimyndighet ska betala ut det beviljade 
+st&#246;dbeloppet tidigast sex m&#229;nader efter det att myndigheten 
+har tagit emot en beg&#228;ran om utbetalning. Beloppet ska betalas 
+ut om 
+
+1. st&#246;dmottagaren har l&#228;mnat in ett intyg om att mottagaren 
+fortfarande &#228;ger maskinen och att den finns i och anv&#228;nds i 
+Sverige, och 
+
+2. f&#246;ruts&#228;ttningarna f&#246;r utbetalning enligt 13, 14 och 14 a &#167;&#167; 
+&#228;r uppfyllda. F&#246;rordning (2024:18).
+
+13 c &#167; Ett s&#229;dant intyg som avses i 13 b &#167; ska inneh&#229;lla en 
+f&#246;rs&#228;kran p&#229; heder och samvete fr&#229;n st&#246;dmottagaren om att 
+mottagaren fortfarande &#228;ger milj&#246;arbetsmaskinen och att den 
+finns i och anv&#228;nds i Sverige. 
+
+Intyget ska ha kommit in till Statens energimyndighet tidigast 
+sex m&#229;nader och senast &#229;tta m&#229;nader efter det att beg&#228;ran om 
+utbetalning har l&#228;mnats till myndigheten. 
+F&#246;rordning (2024:18).
+
+14 &#167; Ett st&#246;d f&#229;r inte betalas ut till ett f&#246;retag som &#228;r 
+f&#246;rem&#229;l f&#246;r betalningskrav p&#229; grund av ett beslut av 
+Europeiska kommissionen som f&#246;rklarar ett st&#246;d beviljat av en 
+svensk st&#246;dgivare olagligt och of&#246;renligt med den inre 
+marknaden.
+
+14 a &#167; St&#246;d f&#229;r inte betalas ut till ett f&#246;retag som har 
+skulder hos Kronofogdemyndigheten 
+
+1. som avser &#229;terkrav av statligt st&#246;d eller bidrag, eller 
+
+2. f&#246;r svenska skatter eller avgifter. F&#246;rordning (2024:18).
+
+15 &#167; Statens energimyndighet f&#229;r besluta att ett beviljat st&#246;d 
+helt eller delvis inte ska betalas ut om
+
+1. den som har ans&#246;kt om eller beviljats st&#246;d genom att l&#228;mna 
+oriktiga uppgifter har orsakat att st&#246;det beviljats felaktigt 
+eller med f&#246;r h&#246;gt belopp,
+
+2. st&#246;det har beviljats felaktigt eller med f&#246;r h&#246;gt belopp p&#229; 
+grund av att uppgifterna i v&#228;gtrafikregistret &#228;r felaktiga,
+
+3. st&#246;det av n&#229;got annat sk&#228;l har beviljats felaktigt eller 
+med f&#246;r h&#246;gt belopp och mottagaren sk&#228;ligen borde ha insett 
+detta, eller
+
+4. ett villkor f&#246;r st&#246;det inte har f&#246;ljts.
+
+Tillsyn
+
+16 &#167; Statens energimyndighet ut&#246;var tillsyn &#246;ver att villkoren 
+f&#246;r st&#246;det f&#246;ljs.
+
+&#197;terbetalning och &#229;terkrav
+
+17 &#167; Mottagaren av ett utbetalat st&#246;d &#228;r &#229;terbetalningsskyldig 
+om st&#246;det inte skulle ha betalats ut enligt 15 &#167;.
+
+R&#228;nta enligt r&#228;ntelagen (1975:635) ska betalas p&#229; det belopp 
+som en st&#246;dmottagare &#228;r &#229;terbetalningsskyldig f&#246;r.
+
+18 &#167; Om en st&#246;dmottagare &#228;r &#229;terbetalningsskyldig ska Statens 
+energimyndighet besluta att helt eller delvis kr&#228;va tillbaka 
+st&#246;det tillsammans med r&#228;nta.
+
+Statens energimyndighet f&#229;r besluta att helt eller delvis 
+avst&#229; fr&#229;n kravet i f&#246;rsta stycket, om det finns s&#228;rskilda 
+sk&#228;l.
+
+Bemyndigande
+
+19 &#167; Statens energimyndighet f&#229;r meddela f&#246;reskrifter om 
+verkst&#228;lligheten av denna f&#246;rordning.
+
+Uppf&#246;ljning och utv&#228;rdering
+
+20 &#167; Statens energimyndighet ska f&#246;lja upp och utv&#228;rdera de 
+st&#246;d som ges enligt denna f&#246;rordning.
+
+Offentligg&#246;rande, rapportering och registerf&#246;ring
+
+21 &#167; Best&#228;mmelser om offentligg&#246;rande, rapportering och 
+registerf&#246;ring finns i 12 a &#167; lagen (2013:388) om till&#228;mpning 
+av Europeiska unionens statsst&#246;dsregler och i f&#246;rordningen 
+(2016:605) om till&#228;mpning av Europeiska unionens 
+statsst&#246;dsregler.
+
+&#214;verklagande
+
+22 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser om 
+&#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. Andra beslut &#228;n 
+beslut enligt 6 a, 14, 14 a, 15 eller 18 &#167; f&#229;r dock inte 
+&#246;verklagas. F&#246;rordning (2024:18).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2024:18
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 13 februari 2024.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r st&#246;d som 
+beviljats f&#246;re ikrafttr&#228;dandet.
+
+2024:19
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2025.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r st&#246;d som 
+beviljats f&#246;re ikrafttr&#228;dandet.
+
+2024:20
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2025.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r st&#246;d som 
+beviljats f&#246;re ikrafttr&#228;dandet.
+
+2024:21
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 oktober 2025.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r ans&#246;kningar om 
+st&#246;d som avser l&#228;tta ellastbilar och som gjorts f&#246;re 
+ikrafttr&#228;dandet. I s&#229;dana fall g&#228;ller dock, i st&#228;llet f&#246;r 13 &#167; 
+f&#246;rsta meningen, att beg&#228;ran om utbetalning ska ha kommit in 
+till Statens energimyndighet inom tv&#229; m&#229;nader fr&#229;n den 
+tidpunkt som avses i 12 &#167; 1, dock senast den 30 april 2026.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=466">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=468">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

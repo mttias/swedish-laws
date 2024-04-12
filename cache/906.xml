@@ -1,0 +1,842 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-03" /> 
+ <meta id="rattsinfo-edited" content="2024-01-03 15:29:32" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>906</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=905">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=907">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2016:1162 ·
+                    <a href="/sfsr?bet=2016:1162">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Upphandlingsf&#246;rordning (2016:1162)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet OU
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2016-12-01
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:543
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2017-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser som kompletterar
+
+- lagen (2016:1145) om offentlig upphandling,
+
+- lagen (2016:1146) om upphandling inom 
+f&#246;rs&#246;rjningssektorerna,
+
+- lagen (2016:1147) om upphandling av koncessioner, och
+
+- lagen (2011:1029) om upphandling p&#229; f&#246;rsvars- och 
+s&#228;kerhetsomr&#229;det.
+
+F&#246;rordningen kompletterar &#228;ven kommissionens 
+genomf&#246;randef&#246;rordning (EU) 2019/1780 av den 23 september 2019 
+om fastst&#228;llande av standardformul&#228;r f&#246;r offentligg&#246;rande av 
+meddelanden om offentlig upphandling och om upph&#228;vande av 
+genomf&#246;randef&#246;rordning (EU) 2015/1986 (&quot;eForms&quot;). 
+F&#246;rordning (2023:543).
+
+Annonsering av direktivstyrda upphandlingar
+
+Publicering av annonser genom Europeiska unionens 
+publikationsbyr&#229;
+
+2 &#167; En annons om upphandling enligt 10 kap., 17 kap. 16 &#167; och 
+18 kap. 2 &#167; lagen (2016:1145) om offentlig upphandling, 
+10 kap., 16 kap. 16 &#167; och 17 kap. 2 &#167; lagen (2016:1146) om 
+upphandling inom f&#246;rs&#246;rjningssektorerna och 8 kap. och 14 kap. 
+16 &#167; lagen (2016:1147) om upphandling av koncessioner ska 
+skickas elektroniskt till Europeiska unionens publikationsbyr&#229; 
+f&#246;r publicering. Detsamma g&#228;ller f&#246;r annonser om upphandlingar 
+av tj&#228;nster av s&#229;dant slag som anges i bilaga 2 till lagen om 
+offentlig upphandling och i bilaga 2 till lagen om upphandling 
+inom f&#246;rs&#246;rjningssektorerna, om v&#228;rdet uppg&#229;r till minst det 
+tr&#246;skelv&#228;rde som avses i 5 kap. 1 &#167; i samma lagar.
+
+En annons enligt 8 kap. lagen (2011:1029) om upphandling p&#229; 
+f&#246;rsvars- och s&#228;kerhetsomr&#229;det ska skickas elektroniskt eller 
+p&#229; annat s&#228;tt till publikationsbyr&#229;n f&#246;r publicering. Vid 
+f&#246;rfarande med f&#246;rkortade tidsfrister enligt 9 kap. 7 &#167; samma 
+lag ska annonsen eller meddelandet skickas antingen med 
+elektroniska medel eller med telefax. F&#246;rordning (2021:1331).
+
+Publicering av f&#246;rhandsannonser p&#229; upphandlarprofil
+
+3 &#167; Med upphandlarprofil avses en sammanst&#228;llning av uppgifter 
+som &#228;r tillg&#228;ngliga p&#229; internet och som inneh&#229;ller information 
+om den upphandlande myndigheten eller enheten och dess 
+upphandlingar. F&#246;rordning (2020:565).
+
+4 &#167; En upphandlande myndighet eller enhet f&#229;r, i st&#228;llet f&#246;r 
+vad som anges i 2 &#167;, publicera en f&#246;rhandsannons enligt 
+10 kap. 3 &#167; lagen (2016:1145) om offentlig upphandling, 
+10 kap. 3 &#167; lagen (2016:1146) om upphandling inom 
+f&#246;rs&#246;rjningssektorerna eller 8 kap. 2 &#167; lagen (2011:1029) om 
+upphandling p&#229; f&#246;rsvars- och s&#228;kerhetsomr&#229;det p&#229; myndighetens 
+eller enhetens upphandlarprofil. I s&#229;dant fall ska myndigheten 
+eller enheten skicka ett meddelande elektroniskt till 
+Europeiska unionens publikationsbyr&#229; om detta. 
+F&#246;rhandsannonsen f&#229;r inte publiceras p&#229; upphandlarprofilen 
+innan meddelandet har skickats till publikationsbyr&#229;n.
+
+En f&#246;rhandsannons som publiceras p&#229; upphandlarprofilen ska 
+inneh&#229;lla en uppgift om vilken dag meddelandet om 
+publiceringen skickades till publikationsbyr&#229;n.
+F&#246;rordning (2020:565).
+
+Utformningen av annonser och f&#246;rfarandet f&#246;r annonsering
+
+5 &#167; En annons eller ett meddelande som ska skickas till 
+Europeiska unionens publikationsbyr&#229; ska utformas enligt 
+kommissionens genomf&#246;randef&#246;rordning (EU) 2019/1780. &#196;ven en 
+f&#246;rhandsannons som en upphandlande myndighet eller enhet 
+publicerar p&#229; upphandlarprofilen ska utformas enligt samma 
+f&#246;rordning.
+
+En annons eller ett meddelande enligt lagen (2011:1029) om 
+upphandling p&#229; f&#246;rsvars- och s&#228;kerhetsomr&#229;det som skickas utan 
+anv&#228;ndande av elektroniska medel ska begr&#228;nsas till ca 
+650 ord. F&#246;rordning (2023:543).
+
+Inneh&#229;ll i annonser f&#246;r anbudsinfordran
+
+5 a &#167; En annons om anbudsinfordran enligt 10 kap. 1 &#167; lagen 
+(2016:1145) om offentlig upphandling, 10 kap. 1 &#167; lagen 
+(2016:1146) om upphandling inom f&#246;rs&#246;rjningssektorerna eller 
+8 kap. 1 &#167; lagen (2016:1147) om upphandling av koncessioner 
+ska inneh&#229;lla information
+
+1. om kontraktets eller ramavtalets uppskattade v&#228;rde vid 
+tidpunkten f&#246;r annonsen om anbudsinfordran, och
+
+2. om huruvida det i upphandlingen st&#228;lls krav p&#229;, anges 
+villkor om eller i &#246;vrigt tas h&#228;nsyn till
+
+a) milj&#246;,
+
+b) sociala aspekter, s&#229;som arbetsr&#228;ttsliga villkor, eller
+
+c) innovation.
+
+Om det i upphandlingen tas s&#229;dana h&#228;nsyn som anges i f&#246;rsta 
+stycket 2 a eller b ska det i annonsen &#228;ven anges vilken typ 
+av h&#228;nsyn som tas. F&#246;rordning (2023:543).
+
+5 b &#167; Vad som anges i 5 a &#167; g&#228;ller &#228;ven f&#246;r annonser om 
+anbudsinfordringar av tj&#228;nster av s&#229;dant slag som anges i 
+bilaga 2 till lagen (2016:1145) om offentlig upphandling och i 
+bilaga 2 till lagen (2016:1146) om upphandling inom 
+f&#246;rs&#246;rjningssektorerna, om v&#228;rdet uppg&#229;r till minst det 
+tr&#246;skelv&#228;rde som avses i 5 kap. 1 &#167; i samma lagar.
+
+En s&#229;dan annons ska &#228;ven inneh&#229;lla information om huruvida
+
+1. upphandlingen avser ett kontrakt eller ett ramavtal,
+
+2. upphandlingen avser inr&#228;ttandet av ett dynamiskt 
+ink&#246;pssystem och i s&#229; fall systemets giltighetstid och om det 
+f&#229;r anv&#228;ndas av andra upphandlande myndigheter och enheter &#228;n 
+de som f&#246;rtecknas i annonsen, och
+
+3. en elektronisk auktion kommer att anv&#228;ndas.
+
+Om upphandlingen avser ett ramavtal, ska det i annonsen &#228;ven 
+informeras om huruvida de kontrakt som grundar sig p&#229; 
+ramavtalet ska tilldelas med f&#246;rnyad konkurrensuts&#228;ttning.
+F&#246;rordning (2023:543).
+
+Anm&#228;lan om &#228;ndring i giltighetstid f&#246;r ett dynamiskt 
+ink&#246;pssystem
+
+6 &#167; En upphandlande myndighet eller enhet ska anm&#228;la 
+&#228;ndringar i giltighetstiden f&#246;r ett dynamiskt ink&#246;pssystem 
+genom att till Europeiska unionens publikationsbyr&#229; skicka en 
+annons med anv&#228;ndande av det standardformul&#228;r som skickades 
+n&#228;r systemet inr&#228;ttades. En &#228;ndring som inneb&#228;r att systemet 
+avslutas ska anm&#228;las till publikationsbyr&#229;n genom en 
+efterannons.
+
+F&#246;rsta stycket g&#228;ller &#228;ven vid &#228;ndringar i giltighetstiden 
+f&#246;r ett kvalificeringssystem.
+
+Spr&#229;k
+
+7 &#167; En upphandlande myndighet eller enhet f&#229;r v&#228;lja p&#229; vilket 
+eller vilka av Europeiska unionens spr&#229;k en annons som 
+skickas till Europeiska unionens publikationsbyr&#229; ska 
+publiceras. Om annonsen avser upphandling enligt lagen 
+(2011:1029) om upphandling p&#229; f&#246;rsvars- och s&#228;kerhetsomr&#229;det 
+f&#229;r myndigheten eller enheten dock v&#228;lja endast ett av 
+unionens spr&#229;k. 
+
+Endast den eller de publicerade spr&#229;kversionerna ska g&#228;lla.
+
+Bevis
+
+8 &#167; En upphandlande myndighet eller enhet ska kunna visa 
+vilken dag en annons enligt 2 &#167; eller ett meddelande enligt 4 
+eller 6 &#167; har skickats till Europeiska unionens 
+publikationsbyr&#229;.
+
+Tidpunkt f&#246;r offentligg&#246;rande av annonser p&#229; nationell niv&#229;
+
+9 &#167; En upphandlande myndighet eller enhet f&#229;r inte publicera 
+en annons enligt 2 &#167; f&#246;rsta stycket i en annonsdatabas som &#228;r 
+registrerad enligt lagen (2019:668) om upphandlingsstatistik 
+eller offentligg&#246;ra inneh&#229;llet i annonsen p&#229; n&#229;got annat s&#228;tt, 
+innan den har publicerats av Europeiska unionens 
+publikationsbyr&#229;. Myndigheten eller enheten f&#229;r dock 
+offentligg&#246;ra inneh&#229;llet, om den inte inom 48 timmar fr&#229;n det 
+att publikationsbyr&#229;n bekr&#228;ftade att annonsen tagits emot har 
+f&#229;tt n&#229;gon underr&#228;ttelse fr&#229;n publikationsbyr&#229;n om att 
+annonsen har publicerats.
+
+En upphandlande myndighet eller enhet f&#229;r inte publicera en 
+annons enligt 2 &#167; andra stycket i en registrerad annonsdatabas 
+eller offentligg&#246;ra inneh&#229;llet i annonsen p&#229; n&#229;got annat s&#228;tt, 
+innan den har skickats till publikationsbyr&#229;n.
+
+Andra stycket g&#228;ller inte efterannonsering enligt 8 kap. 3 &#167; 
+f&#246;rsta stycket lagen (2011:1029) om upphandling p&#229; f&#246;rsvars- 
+och s&#228;kerhetsomr&#229;det. F&#246;rordning (2020:565).
+
+9 a &#167; En upphandlande myndighet eller enhet f&#229;r inte 
+offentligg&#246;ra inneh&#229;llet i en f&#246;rhandsannons enligt 4 &#167;, innan 
+det har publicerats p&#229; upphandlarprofilen. 
+F&#246;rordning (2020:565).
+
+Inneh&#229;ll i annonser som offentligg&#246;rs p&#229; nationell niv&#229;
+
+10 &#167; En annons som publiceras av en upphandlande myndighet 
+eller enhet i en annonsdatabas som &#228;r registrerad enligt lagen 
+(2019:668) om upphandlingsstatistik eller offentligg&#246;rs 
+nationellt p&#229; n&#229;got annat s&#228;tt, ska inneh&#229;lla samma 
+information som har skickats till Europeiska unionens 
+publikationsbyr&#229; enligt 2 &#167; eller har publicerats p&#229; 
+upphandlarprofilen enligt 4 &#167;. Annonsen ska &#228;ven inneh&#229;lla en 
+uppgift om vilken dag den skickades till publikationsbyr&#229;n 
+eller publicerades p&#229; upphandlarprofilen. 
+F&#246;rordning (2020:565).
+
+F&#246;rhandsannons som anv&#228;nds som anbudsinfordran
+
+11 &#167; En f&#246;rhandsannons som anv&#228;nds som anbudsinfordran enligt 
+10 kap. 2 &#167; lagen (2016:1145) om offentlig upphandling eller 
+10 kap. 2 &#167; lagen (2016:1146) om upphandling inom 
+f&#246;rs&#246;rjningssektorerna ska skickas f&#246;r publicering senast 
+35 dagar men tidigast 12 m&#229;nader f&#246;re den dag d&#229; inbjudan att 
+bekr&#228;fta intresse skickas. F&#246;rhandsannonsen f&#229;r avse en period 
+om l&#228;ngst 12 m&#229;nader fr&#229;n den dag annonsen skickades.
+
+F&#246;rsta stycket g&#228;ller &#228;ven f&#246;r f&#246;rhandsannonser om 
+upphandlingar av tj&#228;nster av s&#229;dant slag som anges i bilaga 2 
+enligt 19 kap. 6 &#167; lagen om offentlig upphandling och i 
+bilaga 2 enligt 19 kap. 6 &#167; lagen om upphandling inom 
+f&#246;rs&#246;rjningssektorerna, om v&#228;rdet uppg&#229;r till minst det 
+tr&#246;skelv&#228;rde som avses i 5 kap. 1 &#167; i samma lagar.
+F&#246;rordning (2021:1331).
+
+11 a &#167; Den upphandlande myndigheten eller enheten ska i en 
+f&#246;rhandsannons enligt 11 &#167; f&#246;rsta stycket ange
+
+1. vilka varor, tj&#228;nster eller byggentreprenader kontraktet 
+kommer att omfatta, och
+
+2. att kontraktet kommer att tilldelas genom selektivt 
+f&#246;rfarande eller f&#246;rhandlat f&#246;rfarande utan n&#229;gon ytterligare 
+annonsering och att intresserade leverant&#246;rer ska anm&#228;la sitt 
+intresse.
+
+I en f&#246;rhandsannons enligt 11 &#167; andra stycket ska det anges
+
+1. vilken typ av tj&#228;nster kontrakten kommer att omfatta, och
+
+2. att kontrakten kommer att tilldelas utan n&#229;gon ytterligare 
+annonsering och att intresserade leverant&#246;rer ska anm&#228;la sitt 
+intresse. F&#246;rordning (2021:1331).
+
+F&#246;rhandsannons p&#229; f&#246;rsvars- och s&#228;kerhetsomr&#229;det
+
+12 &#167; En f&#246;rhandsannons enligt 8 kap. 2 &#167; lagen (2011:1029) om 
+upphandling p&#229; f&#246;rsvars- och s&#228;kerhetsomr&#229;det ska s&#229; snart 
+det &#228;r m&#246;jligt skickas till Europeiska unionens 
+publikationsbyr&#229; f&#246;r publicering.
+
+Den upphandlande myndigheten eller enheten ska i 
+f&#246;rhandsannonsen ange
+
+1. det totala ber&#228;knade v&#228;rdet per varuomr&#229;de, med h&#228;nvisning 
+till den CPV-nomenklatur som avses i 2 kap. 5 &#167; lagen om 
+upphandling p&#229; f&#246;rsvars- och s&#228;kerhetsomr&#229;det, om 
+f&#246;rhandsannonsen avser upphandling av varor, 
+
+2. det totala ber&#228;knade v&#228;rdet av varje tj&#228;nstekategori som 
+anges i bilaga 2 (A-tj&#228;nster) till lagen, om f&#246;rhandsannonsen 
+avser tj&#228;nster, och
+
+3. v&#228;sentliga karakteristika f&#246;r varje kontrakt eller 
+ramavtal, om f&#246;rhandsannonsen avser byggentreprenader.
+
+Inneh&#229;ll i efterannonser
+
+12 a &#167; En efterannons enligt 10 kap. 4 &#167; lagen (2016:1145) om 
+offentlig upphandling, 10 kap. 5 &#167; lagen (2016:1146) om 
+upphandling inom f&#246;rs&#246;rjningssektorerna och 8 kap. 6 &#167; lagen 
+(2016:1147) om upphandling av koncessioner ska inneh&#229;lla 
+uppgifter om namn och organisationsnummer f&#246;r den eller de som 
+har l&#228;mnat anbud eller ans&#246;kt om att l&#228;mna anbud i 
+upphandlingen.
+
+Samma uppgifter ska l&#228;mnas i efterannonser enligt 19 kap. 7 &#167; 
+lagen om offentlig upphandling och 19 kap. 7 &#167; lagen om 
+upphandling inom f&#246;rs&#246;rjningssektorerna, om upphandlingen 
+avser tj&#228;nster av s&#229;dant slag som anges i bilaga 2 till 
+respektive lag och v&#228;rdet uppg&#229;r till minst det tr&#246;skelv&#228;rde 
+som avses i 5 kap. 1 &#167; samma lagar. F&#246;rordning (2023:543).
+
+Efterannons enligt lagen om upphandling inom 
+f&#246;rs&#246;rjningssektorerna vid tj&#228;nstekontrakt som avser 
+forskning och utveckling 
+
+13 &#167; Vid efterannonsering enligt 10 kap. 5 &#167; lagen 
+(2016:1146) om upphandling inom f&#246;rs&#246;rjningssektorerna i 
+fr&#229;ga om s&#229;dan tilldelning av ett tj&#228;nstekontrakt avseende 
+forskning och utveckling som enligt 6 kap. 9 &#167; samma lag g&#246;rs 
+utan f&#246;reg&#229;ende annonsering, f&#229;r den upphandlande enheten i 
+st&#228;llet f&#246;r uppgifter om tj&#228;nsternas art och m&#228;ngd ange att 
+kontraktet avser forsknings- och utvecklingstj&#228;nster. 
+
+Om en upphandlande enhet efter ett f&#246;rfarande med annonsering 
+har tilldelat ett tj&#228;nstekontrakt som avser forskning och 
+utveckling, f&#229;r uppgifterna i efterannonsen om tj&#228;nsternas 
+art och kvalitet begr&#228;nsas, dock inte mer &#228;n att uppgifterna 
+&#228;r minst lika utf&#246;rliga som i annonsen om upphandling.
+F&#246;rordning (2020:565).
+
+Annonsering av icke-direktivstyrda upphandlingar 
+
+Inneh&#229;ll i annonser om anbudsinfordran
+
+14 &#167; En annons om upphandling enligt 19 kap. 6 och 26 &#167;&#167; lagen 
+(2016:1145) om offentlig upphandling, 19 kap. 6 och 26 &#167;&#167; 
+lagen (2016:1146) om upphandling inom f&#246;rs&#246;rjningssektorerna 
+och 15 kap. 5 &#167; lagen (2011:1029) om upphandling p&#229; f&#246;rsvars- 
+och s&#228;kerhetsomr&#229;det ska inneh&#229;lla f&#246;ljande information:
+
+1. den upphandlande myndighetens eller enhetens namn, 
+organisationsnummer och kontaktuppgifter,
+
+2. en beskrivning av den upphandlande myndighetens eller 
+enhetens huvudsakliga verksamhet,
+
+3. om den upphandlande myndigheten eller enheten &#228;r en 
+ink&#246;pscentral och om upphandlingen genomf&#246;rs tillsammans med 
+eller p&#229; uppdrag av annan myndighet eller enhet,
+
+4. vad som ska upphandlas samt huvudsaklig CPV-kod och 
+till&#228;ggskod f&#246;r CPV,
+
+5. art samt omfattning eller m&#228;ngd av det som ska upphandlas,
+
+6. om upphandlingen avser ett kontrakt eller ett ramavtal,
+
+7. om de kontrakt som grundar sig p&#229; ett ramavtal ska 
+tilldelas med f&#246;rnyad konkurrensuts&#228;ttning,
+
+8. om annonsen avser inr&#228;ttandet av ett dynamiskt ink&#246;pssystem 
+och i s&#229; fall systemets giltighetstid och om det f&#229;r anv&#228;ndas 
+av andra upphandlande myndigheter och enheter &#228;n de som 
+f&#246;rtecknas i annonsen,
+
+9. om en elektronisk auktion kommer att anv&#228;ndas,
+
+10. upphandlingens titel och en kortfattad beskrivning av 
+upphandlingen,
+
+11. NUTS-kod f&#246;r den huvudsakliga leveransplatsen,
+
+12. datum f&#246;r publicering av annonsen,
+
+13. vilket upphandlingsf&#246;rfarande som ska till&#228;mpas,
+
+14. hur en anbudsans&#246;kan eller ett anbud f&#229;r l&#228;mnas,
+
+15. den dag d&#229; en anbudsans&#246;kan eller ett anbud senast ska ha 
+kommit in,
+
+16. hur l&#228;nge ett anbud ska vara bindande,
+
+17. kontraktets eller ramavtalets l&#246;ptid,
+
+18. kontraktets eller ramavtalets uppskattade v&#228;rde vid 
+tidpunkten f&#246;r annonsen om anbudsinfordran,
+
+19. om det i upphandlingen st&#228;lls krav p&#229;, anges villkor om 
+eller i &#246;vrigt tas h&#228;nsyn till
+
+a) milj&#246;,
+
+b) sociala aspekter, s&#229;som arbetsr&#228;ttsliga villkor, eller
+
+c) innovation, och
+
+20. om det tas s&#229;dana h&#228;nsyn som anges i 19 a eller b, vilken 
+typ av h&#228;nsyn som tas.
+
+Annonsen f&#229;r &#228;ven inneh&#229;lla de upplysningar i &#246;vrigt som &#228;r 
+relevanta.
+
+Best&#228;mmelserna i f&#246;rsta och andra stycket g&#228;ller inte vid 
+upphandling av en tj&#228;nst av s&#229;dant slag som anges i bilaga 2 
+till lagen om offentlig upphandling eller i bilaga 2 till 
+lagen om upphandling inom f&#246;rs&#246;rjningssektorerna.
+F&#246;rordning (2023:543).
+
+14 a &#167; En f&#246;rhandsannons enligt 15 kap. 5 &#167; f&#246;rsta stycket 
+lagen (2016:1147) om upphandling av koncessioner ska inneh&#229;lla 
+f&#246;ljande information: 
+
+1. den upphandlande myndighetens eller enhetens namn, 
+organisationsnummer och kontaktuppgifter, 
+
+2. en beskrivning av den upphandlande myndighetens eller 
+enhetens huvudsakliga verksamhet, 
+
+3. vad som ska upphandlas samt huvudsaklig CPV-kod och 
+till&#228;ggskod f&#246;r CPV, 
+
+4. upphandlingens titel och en kortfattad beskrivning av 
+upphandlingen, och 
+
+5. datum f&#246;r publicering av annonsen.
+
+En annons enligt f&#246;rsta stycket f&#229;r &#228;ven inneh&#229;lla de 
+upplysningar i &#246;vrigt som &#228;r relevanta. F&#246;rordning (2020:565).
+
+Inneh&#229;ll i en annons om avsikt att tilldela kontrakt genom 
+direktupphandling
+
+14 b &#167; En annons enligt 19 a kap. 9 &#167; lagen (2016:1145) om 
+offentlig upphandling, 19 a kap. 8 &#167; lagen (2016:1146) om 
+upphandling inom f&#246;rs&#246;rjningssektorerna och 15 a kap. 7 &#167; 
+lagen (2011:1029) om upphandling p&#229; f&#246;rsvars- och 
+s&#228;kerhetsomr&#229;det ska inneh&#229;lla f&#246;ljande information:
+
+1. den upphandlande myndighetens eller enhetens namn, 
+organisationsnummer och kontaktuppgifter,
+
+2. vad som ska upphandlas och v&#228;rdet av kontraktet,
+
+3. namn, organisationsnummer och kontaktuppgifter avseende den 
+eller de som har tilldelats kontraktet, och
+
+4. sk&#228;len till att upphandlingen inte har annonserats.
+
+En annons enligt f&#246;rsta stycket f&#229;r &#228;ven inneh&#229;lla de 
+upplysningar i &#246;vrigt som &#228;r relevanta. F&#246;rordning (2021:1331).
+
+Inneh&#229;ll i efterannonser
+
+14 c &#167; En efterannons enligt 19 kap. 7 &#167; och 19 a kap. 13 &#167; 
+lagen (2016:1145) om offentlig upphandling, 19 kap. 7 &#167; och 
+19 a kap. 12 &#167; lagen (2016:1146) om upphandling inom 
+f&#246;rs&#246;rjningssektorerna, 15 kap. 5 &#167; tredje stycket lagen 
+(2016:1147) om upphandling av koncessioner och 15 kap. 6 &#167; och 
+15 a kap. 11 &#167; lagen (2011:1029) om upphandling p&#229; f&#246;rsvars- 
+och s&#228;kerhetsomr&#229;det ska inneh&#229;lla f&#246;ljande information:
+
+1. den upphandlande myndighetens eller enhetens namn, 
+organisationsnummer och kontaktuppgifter,
+
+2. tidpunkten f&#246;r ing&#229;ende av kontraktet eller ramavtalet,
+
+3. vad som har upphandlats samt huvudsaklig CPV-kod och 
+till&#228;ggskod f&#246;r CPV,
+
+4. NUTS-kod f&#246;r den huvudsakliga leveransplatsen,
+
+5. namn, organisationsnummer och kontaktuppgifter f&#246;r den 
+eller de som har tilldelats kontraktet eller ramavtalet,
+
+6. om det &#228;r sannolikt att underleverant&#246;rer kommer att 
+anv&#228;ndas f&#246;r utf&#246;rande av kontraktet,
+
+7. det uppskattade v&#228;rdet av kontraktet eller ramavtalet vid 
+tidpunkten f&#246;r efterannonsen,
+
+8. hur m&#229;nga anbud som har l&#228;mnats i upphandlingen, och
+
+9. namn och organisationsnummer f&#246;r den eller de som har 
+l&#228;mnat anbud eller ans&#246;kt om att l&#228;mna anbud i upphandlingen 
+utan att ha tilldelats kontraktet eller ramavtalet.
+
+En annons enligt f&#246;rsta stycket f&#229;r &#228;ven inneh&#229;lla de 
+upplysningar i &#246;vrigt som &#228;r relevanta.
+
+F&#246;rsta stycket 6 g&#228;ller inte efterannonser enligt 15 kap. 5 &#167; 
+tredje stycket lagen om upphandling av koncessioner, och 
+f&#246;rsta stycket 9 g&#228;ller inte efterannonser enligt 15 kap. 6 &#167; 
+och 15 a kap. 11 &#167; lagen om upphandling p&#229; f&#246;rsvars- och 
+s&#228;kerhetsomr&#229;det.
+
+Best&#228;mmelserna i f&#246;rsta och andra stycket g&#228;ller inte vid 
+upphandling av en tj&#228;nst av s&#229;dant slag som anges i bilaga 2 
+till lagen om offentlig upphandling eller i bilaga 2 till 
+lagen om upphandling inom f&#246;rs&#246;rjningssektorerna, om v&#228;rdet av 
+upphandlingen uppg&#229;r till minst det tr&#246;skelv&#228;rde som avses i 
+5 kap. 1 &#167; i samma lagar. F&#246;rordning (2023:543).
+
+Begr&#228;nsningar i skyldigheten att offentligg&#246;ra uppgifter i en 
+annons
+
+14 d &#167; En upphandlande myndighets eller enhets skyldighet att 
+offentligg&#246;ra uppgifter i en annons enligt 14, 14 a och 
+14 c &#167;&#167; g&#228;ller inte s&#229;dana uppgifter som 
+
+1. omfattas av sekretess eller tystnadsplikt enligt lag, eller 
+
+2. &#228;r s&#228;kerhetsskyddsklassificerade enligt 
+s&#228;kerhetsskyddslagen (2018:585) eller vars offentligg&#246;rande 
+kan medf&#246;ra en risk f&#246;r att s&#228;kerhetsk&#228;nslig verksamhet enligt 
+samma lag skadas. F&#246;rordning (2020:565).
+
+S&#228;kerhetsanordning f&#246;r utrustning f&#246;r elektronisk mottagning 
+av handlingar
+
+15 &#167; S&#228;kerhetsanordningarna enligt 12 kap. 8 &#167; lagen 
+(2016:1145) om offentlig upphandling, 12 kap. 8 &#167; lagen 
+(2016:1146) om upphandling inom f&#246;rs&#246;rjningssektorerna och 10 
+kap. 8 &#167; lagen (2016:1147) om upphandling av koncessioner ska 
+&#228;ven vara utformade s&#229; att det kan s&#228;kerst&#228;llas att endast 
+beh&#246;riga personer f&#229;r best&#228;mma datum f&#246;r n&#228;r ins&#228;nda 
+uppgifter ska g&#246;ras tillg&#228;ngliga och efter det datumet 
+bevilja tillg&#229;ng till uppgifterna.
+
+S&#228;kerhetsanordningarna enligt 10 kap. 3 &#167; lagen (2011:1029) 
+om upphandling p&#229; f&#246;rsvars- och s&#228;kerhetsomr&#229;det ska 
+
+1. g&#246;ra det m&#246;jligt att f&#229; fram en exakt tidpunkt n&#228;r 
+handlingarna togs emot,
+
+2. inom rimliga gr&#228;nser s&#228;kerst&#228;lla att ingen har tillg&#229;ng 
+till de uppgifter som &#246;verf&#246;rts elektroniskt innan angivna 
+tidsfrister f&#246;r olika &#229;tg&#228;rder har l&#246;pt ut,
+
+3. s&#228;kerst&#228;lla att det finns system som inneb&#228;r att det g&#229;r 
+att f&#229; del av samtliga eller en del av de ins&#228;nda uppgifterna 
+i en upphandling eller projektt&#228;vling bara om de personer som 
+&#228;r beh&#246;riga agerar samtidigt, och
+
+4. s&#228;kerst&#228;lla att ins&#228;nda uppgifter inte &#228;r tillg&#228;ngliga 
+f&#246;rr&#228;n efter ett best&#228;mt datum.
+
+Inneh&#229;ll i individuella rapporter och protokoll 
+
+Individuella rapporter vid offentlig upphandling
+
+16 &#167; En individuell rapport ska, ut&#246;ver det som anges i 12 
+kap. 16 &#167; lagen (2016:1145) om offentlig upphandling, 
+inneh&#229;lla uppgifter om
+
+1. den upphandlande myndighetens namn och adress samt 
+f&#246;rem&#229;let f&#246;r och v&#228;rdet av kontraktet, ramavtalet eller det 
+dynamiska ink&#246;pssystemet,
+
+2. namnen p&#229; de utvalda anbudss&#246;kandena eller anbudsgivarna 
+och sk&#228;len till att de valts,
+
+3. namnen p&#229; de anbudss&#246;kande eller anbudsgivare som inte 
+godtagits och sk&#228;len till det, 
+
+4. namnet p&#229; den leverant&#246;r som tilldelats kontraktet och 
+sk&#228;len till att den anbudsgivarens anbud valts, 
+
+5. hur stor del av fullg&#246;randet av kontraktet eller 
+ramavtalet som leverant&#246;ren avser att l&#228;gga ut p&#229; n&#229;gon 
+annan, om det &#228;r k&#228;nt, och
+
+6. namn p&#229; eventuella underleverant&#246;rer.
+
+Om den upphandlande myndigheten har beslutat att inte 
+tilldela kontrakt, ing&#229; ramavtal eller inr&#228;tta ett dynamiskt 
+ink&#246;pssystem, ska rapporten inneh&#229;lla sk&#228;len f&#246;r detta.
+
+Om uppgifterna i f&#246;rsta och andra stycket framg&#229;r av 
+efterannonsen enligt 10 kap. 4 &#167; lagen om offentlig 
+upphandling, f&#229;r den upphandlande myndigheten i st&#228;llet 
+h&#228;nvisa till den.
+
+Protokoll vid upphandling p&#229; f&#246;rsvars- och s&#228;kerhetsomr&#229;det
+
+17 &#167; Protokoll ska, ut&#246;ver det som anges i 10 kap. 12 &#167; lagen 
+(2011:1029) om upphandling p&#229; f&#246;rsvars- och s&#228;kerhetsomr&#229;det, 
+inneh&#229;lla uppgifter om
+
+1. den upphandlande myndighetens eller enhetens namn och 
+adress samt f&#246;rem&#229;let f&#246;r och v&#228;rdet av kontraktet eller 
+ramavtalet,
+
+2. namnen p&#229; de utvalda anbudss&#246;kandena eller anbudsgivarna 
+och sk&#228;len till att de valts,
+
+3. namnen p&#229; de anbudss&#246;kande eller anbudsgivare som inte 
+godtagits och sk&#228;len till det, och
+
+4. namnet p&#229; den leverant&#246;r som tilldelats kontraktet, sk&#228;len 
+till att hans eller hennes anbud valts och, om det &#228;r k&#228;nt, 
+uppgift om hur stor del av fullg&#246;randet av kontraktet eller 
+ramavtalet som leverant&#246;ren avser att l&#228;gga ut p&#229; n&#229;gon 
+annan. 
+
+Om den upphandlande myndigheten eller enheten har beslutat 
+att inte tilldela kontrakt eller ing&#229; ramavtal, ska rapporten 
+inneh&#229;lla sk&#228;len f&#246;r detta.
+
+Allm&#228;nna f&#246;rvaltningsdomstolars underr&#228;ttelseskyldighet
+
+18 &#167; En allm&#228;n f&#246;rvaltningsdomstol ska till Konkurrensverket 
+skicka en dom eller ett slutligt beslut i ett m&#229;l om 
+&#246;verpr&#246;vning enligt lagen (2016:1145) om offentlig 
+upphandling, lagen (2016:1146) om upphandling inom 
+f&#246;rs&#246;rjningssektorerna, lagen (2016:1147) om upphandling av 
+koncessioner och lagen (2011:1029) om upphandling p&#229; f&#246;rsvars- 
+och s&#228;kerhetsomr&#229;det. F&#246;rordning (2020:565).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2023:543
+
+Denna f&#246;rordning tr&#228;der i kraft den 25 oktober 2023 i fr&#229;ga om 
+1 och 5 &#167;&#167; och i &#246;vrigt den 1 januari 2024.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=905">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=907">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

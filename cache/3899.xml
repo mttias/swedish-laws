@@ -1,0 +1,606 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2006-07-27" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3899</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3898">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3900">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1981:775 ·
+                    <a href="/sfsr?bet=1981:775">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1981:775) om inf&#246;rande av 
+uts&#246;kningsbalken
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1981-06-25
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2006:700
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+Allm&#228;nna best&#228;mmelser
+
+1 &#167; Uts&#246;kningsbalken och denna lag tr&#228;der i kraft den 1 januari 1982.
+
+2 &#167; Genom uts&#246;kningsbalken upph&#228;vs med den begr&#228;nsning som f&#246;ljer av
+denna lag
+
+uts&#246;kningslagen (1877:31 s. 1),
+
+f&#246;rordningen (1877:31 s. 51) om nya uts&#246;kningslagens inf&#246;rande och vad
+i avseende d&#228;r&#229; iakttagas skall,
+
+lagen (1921:244) om utm&#228;tningsed,
+
+lagen (1949:249) om upph&#246;rande i vissa fall av den verkan tredskodom
+eller utslag i lags&#246;kningsm&#229;l enligt 77 a &#167; uts&#246;kningslagen medf&#246;rt,
+
+inf&#246;rsellagen (1968:621),
+
+lagen (1971:494) om exekutiv f&#246;rs&#228;ljning av fast egendom,
+
+lagen (1971:500) om exekutiv f&#246;rs&#228;ljning av luftfartyg m.m.,
+
+lagen (1973:1130) om exekutiv f&#246;rs&#228;ljning av registrerat skepp m.m.,
+
+f&#246;rordningen (1844:46 s. 2) om upph&#246;rande av vissa s&#228;rskilda
+domstolar,
+
+f&#246;rordningen (1855:66 s. 1) ang&#229;ende handelsb&#246;cker och
+handelsr&#228;kningar och
+
+f&#246;rordningen (1863:5 s. 3) ang&#229;ende f&#246;rnyande av svensk myndighets
+beslut, som f&#246;rlorat sin exekutiva kraft i fr&#228;mmande stat.
+
+3 &#167; F&#246;rekommer i en lag eller annan f&#246;rfattning h&#228;nvisning till
+en f&#246;reskrift som har ersatts genom en best&#228;mmelse i
+uts&#246;kningsbalken eller i denna lag, till&#228;mpas i st&#228;llet den
+nya best&#228;mmelsen.
+
+Gemensamma &#246;verg&#229;ngsbest&#228;mmelser
+
+4 &#167; Best&#228;mmelserna i 1 &#167; uts&#246;kningslagen (1877:31 s. 1) om vem som
+&#228;r &#246;verexekutor skall fortfarande g&#228;lla i fr&#229;ga om m&#229;l som skall
+handl&#228;ggas av &#246;verexekutor efter ikrafttr&#228;dandet av balken.
+
+5 &#167; M&#229;l som &#228;r anh&#228;ngiga hos &#246;verexekutor vid balkens ikrafttr&#228;dande
+skall &#228;ven d&#228;refter handl&#228;ggas av &#246;verexekutor, om ej annat f&#246;ljer
+av andra stycket. Betr&#228;ffande s&#229;dana m&#229;l g&#228;ller &#228;ldre lag i fr&#229;ga om
+f&#246;rfarandet men de nya best&#228;mmelserna i uts&#246;kningsbalken,
+r&#228;tteg&#229;ngsbalken och handr&#228;ckningslagen (1981:847) i fr&#229;ga om m&#229;lens
+pr&#246;vning i sak, om ej annat f&#246;reskrivs i denna lag.
+
+&#214;verexekutors befattning med m&#229;l som ej avser klagan &#246;ver
+utm&#228;tningsmannens f&#246;rfarande upph&#246;r senast vid utg&#229;ngen av &#229;r 1982.
+M&#229;l som ej avser handr&#228;ckning eller klagan &#246;ver utm&#228;tningsmannens
+f&#246;rfarande f&#229;r &#228;ven dessf&#246;rinnan &#246;verl&#228;mnas till en beh&#246;rig
+kronofogdemyndighet, om det &#228;r l&#228;mpligt.
+
+6 &#167; Betr&#228;ffande m&#229;l som &#228;r anh&#228;ngiga hos kronofogdemyndigheten vid
+balkens ikrafttr&#228;dande g&#228;ller balkens best&#228;mmelser i fr&#229;ga om s&#229;v&#228;l
+f&#246;rfarandet som m&#229;lens pr&#246;vning i sak, om ej annat f&#246;reskrivs i
+denna lag. Detsamma g&#228;ller m&#229;l som enligt 5 &#167; andra stycket &#246;verl&#228;mnas
+till kronofogdemyndigheten f&#246;r handl&#228;ggning.
+
+7 &#167; Vad som f&#246;reskrivs i balken om f&#246;ruts&#228;ttningar f&#246;r verkst&#228;llighet
+inverkar ej p&#229; giltigheten av &#229;tg&#228;rder som har vidtagits eller beslut
+om verkst&#228;llighet som har meddelats f&#246;re balkens ikrafttr&#228;dande.
+
+Vad som, efter upph&#228;vandet av uts&#246;kningslagen (1877:31 s. 1), g&#228;ller
+enligt r&#228;tteg&#229;ngsbalken eller handr&#228;ckningslagen (1981:847) i fr&#229;ga
+om f&#246;ruts&#228;ttningar f&#246;r kvarstad eller annan liknande s&#228;kerhets&#229;tg&#228;rd
+eller f&#246;r handr&#228;ckning inverkar ej p&#229; giltigheten av handr&#228;ckning som
+har beviljats enligt uts&#246;kningslagen, om ej annat f&#246;reskrivs i denna lag.
+
+&#214;verg&#229;ngsbest&#228;mmelser till 1 kap. uts&#246;kningsbalken
+
+8 &#167; Betr&#228;ffande m&#229;l som &#228;r anh&#228;ngiga hos kronofogdemyndigheten vid
+balkens ikrafttr&#228;dande skall &#228;ldre best&#228;mmelser till&#228;mpas i fr&#229;gan
+huruvida de skall anses som enskilda eller allm&#228;nna m&#229;l.
+
+9 &#167; Vad som s&#228;gs i balken om tomtr&#228;tt g&#228;ller &#228;ven vattenfallsr&#228;tt som
+har uppl&#229;tits enligt lagen (1907:36 s. 1) om nyttjander&#228;tt till fast
+egendom.
+
+&#214;verg&#229;ngsbest&#228;mmelser till 3 kap. uts&#246;kningsbalken
+
+10 &#167; Har en domstol efter balkens ikrafttr&#228;dande med st&#246;d av annan
+lag &#228;n r&#228;tteg&#229;ngsbalken f&#246;rordnat att en dom eller ett beslut f&#229;r
+verkst&#228;llas innan domen eller beslutet har vunnit laga kraft, f&#229;r
+kronofogdemyndigheten vid till&#228;mpning av 3 kap. 9 &#167; i balken
+f&#246;reskriva att s&#228;kerhet skall st&#228;llas f&#246;r skadest&#229;nd som s&#246;kanden
+kan bli skyldig att utge om domen eller beslutet &#228;ndras.
+
+11 &#167; Har en domstol f&#246;re balkens ikrafttr&#228;dande f&#246;rordnat att en dom
+eller ett beslut f&#229;r verkst&#228;llas innan domen eller beslutet har vunnit
+laga kraft, skall 42 &#167; 2 mom. uts&#246;kningslagen (1877:31 s. 1)
+fortfarande till&#228;mpas.
+
+12 &#167; Annan skiljedom som enligt lag skall l&#228;nda till efterr&#228;ttelse &#228;n
+s&#229;dan som avses i 3 kap. 15 eller 16 &#167; i balken f&#229;r verkst&#228;llas, om
+det ej f&#246;religger n&#229;gon omst&#228;ndighet som g&#246;r domen ogiltig, &#228;ven om
+talan ej f&#246;rs mot domen. I fr&#229;ga om verkst&#228;lligheten g&#228;ller 3 kap. 17
+och 18 &#167;&#167; i balken.
+
+13 &#167; En f&#246;rvaltningsmyndighets beslut, som har meddelats enligt en
+best&#228;mmelse som har tillkommit f&#246;re balkens ikrafttr&#228;dande, f&#229;r utan
+hinder av 3 kap. 1 &#167; f&#246;rsta stycket 6 i balken verkst&#228;llas, om ett
+s&#229;dant beslut f&#246;re ikrafttr&#228;dandet har f&#229;tt verkst&#228;llas utan st&#246;d av
+s&#228;rskild f&#246;reskrift. I fr&#229;ga om verkst&#228;lligheten g&#228;ller 3 kap. 20 &#167;
+f&#246;rsta stycket i balken.
+
+14 &#167; Betr&#228;ffande verkst&#228;llighet av s&#229;dana beslut av &#246;verexekutor som
+avses i 51 &#167; 4 mom. och 52 &#167; 1 mom. andra meningen uts&#246;kningslagen
+(1877:31 s. 1) g&#228;ller vad som s&#228;gs i balken om en underr&#228;tts dom. I
+fr&#229;ga om andra beslut av &#246;verexekutor till&#228;mpas 46 &#167; 3 och 4 mom. samt
+53 och 210 &#167;&#167; uts&#246;kningslagen.
+
+15 &#167; F&#246;r en fordran p&#229; grund av inrop av l&#246;s egendom vid en offentlig
+auktion, som har &#228;gt rum f&#246;re balkens ikrafttr&#228;dande, f&#229;r utm&#228;tning
+fortfarande ske enligt 55 &#167; uts&#246;kningslagen (1877:31 s. 1).
+
+En skriftlig, av tv&#229; personer bevittnad f&#246;rbindelse ang&#229;ende bidrag
+som tillkommer kommun f&#246;r barns v&#229;rd enligt 72 &#167; andra stycket
+barnav&#229;rdslagen (1960:97), vilken har tillkommit f&#246;re balkens
+ikrafttr&#228;dande, f&#229;r verkst&#228;llas &#228;ven d&#228;refter. I fr&#229;ga om villkoren
+f&#246;r utm&#228;tning eller inf&#246;rsel till&#228;mpas &#228;ldre best&#228;mmelser.
+
+&#214;verg&#229;ngsbest&#228;mmelser till 4-6 kap. uts&#246;kningsbalken
+
+16 &#167; Vid till&#228;mpning av 4 kap. 10 &#167; tredje stycket i balken skall
+h&#228;nsyn ej tas till anst&#229;nd som har l&#246;pt ut f&#246;re ikrafttr&#228;dandet.
+
+17 &#167; I fr&#229;ga om verkan av f&#246;rel&#228;ggande, som har meddelats enligt 69
+eller 91 a &#167; uts&#246;kningslagen (1877:31 s. 1) eller 5 &#167; lagen (1971:494)
+om exekutiv f&#246;rs&#228;ljning av fast egendom, g&#228;ller &#228;ldre best&#228;mmelser.
+
+18 &#167; Best&#228;mmelserna i 4 kap. 27 &#167; i balken g&#228;ller ej n&#228;r en fordran
+f&#246;re balkens ikrafttr&#228;dande har fastst&#228;llts till betalning i annat
+fall &#228;n som avses i 77 a &#167; uts&#246;kningslagen (1877:31 s. 1).
+
+19 &#167; Om utm&#228;tning har beslutats f&#246;re balkens ikrafttr&#228;dande, g&#228;ller
+&#228;ldre best&#228;mmelser i fr&#229;ga om intr&#228;det av f&#246;rm&#229;nsr&#228;tt eller i fr&#229;ga
+om f&#246;retr&#228;de i fall som avses i 4 kap. 30 &#167; tredje stycket i balken.
+Har enligt dessa best&#228;mmelser f&#246;rm&#229;nsr&#228;tt ej intr&#228;tt n&#228;r balken
+tr&#228;der i kraft, medf&#246;r utm&#228;tningen f&#246;rm&#229;nsr&#228;tt i och med
+ikrafttr&#228;dandet eller, vid utm&#228;tning av l&#246;n som f&#246;rfaller till
+betalning efter ikrafttr&#228;dandet, n&#228;r f&#246;rfallotiden har intr&#228;tt.
+
+20 &#167; Vad som f&#246;reskrivs om bostadsr&#228;tt i 5 kap. 1 &#167; 6 och 6 kap. 3 &#167;
+andra stycket i balken till&#228;mpas &#228;ven i fr&#229;ga om andelsr&#228;tt i en
+f&#246;rening, som ej &#228;r bostadsr&#228;ttsf&#246;rening, eller i ett handelsbolag
+eller ett aktiebolag, om det med andelsr&#228;tten f&#246;ljer r&#228;tt att besitta
+eller hyra en l&#228;genhet.
+
+Best&#228;mmelsen i 5 kap. 13 &#167; f&#246;rsta stycket i balken &#228;r ej till&#228;mplig i
+fall d&#229; en hyresv&#228;rd eller jord&#228;gare enligt 34 &#167; lagen (1970:995) om
+inf&#246;rande av nya jordabalken har r&#228;tt att kvarh&#229;lla egendom till
+s&#228;kerhet f&#246;r en fordran hos en hyresg&#228;st eller arrendator.
+
+&#214;verg&#229;ngsbest&#228;mmelser till 8-12 kap. uts&#246;kningsbalken
+
+21 &#167; Best&#228;mmelserna i 8 kap. 12 &#167; i balken och 13 &#167; i samma kapitel
+s&#229;vitt avser en fordran som &#228;r f&#246;renad med f&#246;rm&#229;nsr&#228;tt enligt 5 &#167;
+f&#246;rsta stycket 1 f&#246;rm&#229;nsr&#228;ttslagen (1970:979) &#228;r ej till&#228;mpliga, n&#228;r
+utm&#228;tning har skett f&#246;re balkens ikrafttr&#228;dande. Detsamma g&#228;ller 8
+kap. 15 &#167; andra stycket, om utm&#228;tningen avser annan egendom &#228;n som
+n&#228;mns i 139 &#167; 4 mom. uts&#246;kningslagen (1877:31 s. 1).
+
+Har vid en f&#246;rs&#228;ljning f&#246;re balkens ikrafttr&#228;dande av egendom som
+avses i 9 kap. anst&#229;nd l&#228;mnats med betalningen av k&#246;peskillingen,
+g&#228;ller &#228;ldre best&#228;mmelser i fr&#229;ga om ianspr&#229;ktagande av erlagd
+handpenning.
+
+22 &#167; Har utm&#228;tning skett av egendom som g&#228;lden&#228;ren har f&#246;rv&#228;rvat p&#229;
+kredit under f&#246;rbeh&#229;ll om &#229;tertagander&#228;tt f&#246;r kreditgivaren och &#228;r
+lagen (1915:219) om avbetalningsk&#246;p till&#228;mplig p&#229; avtalet, skall vid
+till&#228;mpning av 9 kap. 10 &#167; i balken kreditgivarens fordran best&#228;mmas
+enligt 6 &#167; tredje stycket n&#228;mnda lag.
+
+23 &#167; Om ett skuldebrev som enligt &#228;ldre best&#228;mmelser &#228;r intecknat i
+fartyg eller fast egendom pantf&#246;rskrivs enligt 9 kap. 15 &#167; i balken,
+upph&#246;r personligt betalningsansvar p&#229; grund av skuldebrevet.
+
+24 &#167; Om en g&#228;lden&#228;rs r&#228;tt till andel i inteckning i hans luftfartyg
+eller d&#228;rtill h&#246;rande reservdelar har blivit utm&#228;tt och ett &#228;rende
+ang&#229;ende avskrivning av det belopp som tillkommer g&#228;lden&#228;ren har
+tagits upp p&#229; en inskrivningsdag f&#246;re balkens ikrafttr&#228;dande, skall
+9 kap. 16 &#167; i balken till&#228;mpas betr&#228;ffande den handling p&#229; grund av
+vilken inteckning har meddelats f&#246;r det avskrivna beloppet.
+
+N&#228;r en g&#228;lden&#228;rs r&#228;tt till inteckning i hans luftfartyg eller d&#228;rtill
+h&#246;rande reservdelar eller till andel d&#228;ri har utm&#228;tts f&#246;re balkens
+ikrafttr&#228;dande, skall den tid inom vilken s&#246;kanden har att framst&#228;lla
+yrkande enligt 9 kap. 16 &#167; f&#246;rsta stycket j&#228;mf&#246;rt med 14 &#167; f&#246;rsta
+stycket r&#228;knas fr&#229;n ikrafttr&#228;dandet.
+
+25 &#167; Om ett skepp som enligt 16 &#167; lagen (1984:650) om
+inf&#246;rande av lagen (1984:649) om f&#246;retagshypotek omfattas av
+ett f&#246;retagshypotek, skall s&#228;ljas exekutivt enligt 10 kap. i
+balken, skall borgen&#228;ren underr&#228;ttas och fordran som anm&#228;ls tas
+upp i sak&#228;garf&#246;rteckningen.
+
+Best&#228;mmelserna i 10 kap. i balken om till&#228;gg enligt 3 kap. 4 &#167;
+sj&#246;lagen (1994:1009) till&#228;mpas betr&#228;ffande r&#228;nta, som enligt
+punkt 14 eller 15 &#246;verg&#229;ngsbest&#228;mmelserna till lagen
+(1973:1064) om &#228;ndring i sj&#246;lagen (1891:35 s. 1) i st&#228;llet f&#246;r
+s&#229;dant till&#228;gg skall ber&#228;knas p&#229; kapitalbeloppet av en
+inteckning enligt &#228;ldre lag.
+
+Vad som s&#228;gs i balken om registrerat skepp g&#228;ller &#228;ven i fr&#229;ga
+om b&#229;t som enligt punkt 5 &#246;verg&#229;ngsbest&#228;mmelserna till lagen
+(1973:1064) om &#228;ndring i sj&#246;lagen (1891:35 s. 1) &#228;r upptagen i
+fartygsregistrets skeppsdel. Lag (2001:380).
+
+26 &#167; Best&#228;mmelserna i 12 kap. i balken om till&#228;gg enligt 6 kap. 3 &#167;
+jordabalken till&#228;mpas betr&#228;ffande r&#228;nta, som enligt 26 eller 27 &#167;
+lagen (1970: 995) om inf&#246;rande av nya jordabalken skall i st&#228;llet f&#246;r
+s&#229;dant till&#228;gg ber&#228;knas p&#229; kapitalbeloppet av en inteckning enligt
+&#228;ldre lag.
+
+27 &#167; R&#228;nta som &#228;r intecknad enligt &#228;ldre best&#228;mmelser eller en annan
+s&#229;dan fordran som ej &#228;r best&#228;md till kapitalet tas upp i
+sak&#228;garf&#246;rteckningen enligt balkens regler om fordringar med pantr&#228;tt
+och ber&#228;knas d&#228;rvid till det belopp som efter fem procent &#229;rlig r&#228;nta
+utg&#246;r fordringens v&#228;rde p&#229; tilltr&#228;desdagen. &#196;r det fr&#229;ga om en
+livr&#228;nta, skall dock ber&#228;kningen ske med ledning av 3 &#167; lagen
+(1967:531) om tryggande av pensionsutf&#228;stelse m.m.
+
+28 &#167; Best&#228;mmelserna i 12 kap. i balken om nyttjander&#228;tt, servitut och
+r&#228;tt till elektrisk kraft g&#228;ller ocks&#229; annan s&#229;dan s&#228;rskild r&#228;ttighet
+som besv&#228;rar fast egendom p&#229; grund av en uppl&#229;telse enligt &#228;ldre
+best&#228;mmelser.
+
+29 &#167; Skall ers&#228;ttning utg&#229; till en innehavare av r&#228;tt till avkomst
+eller annan f&#246;rm&#229;n, som enligt &#228;ldre best&#228;mmelser besv&#228;rar fast egendom
+och ej bibeh&#229;lls vid f&#246;rs&#228;ljning av egendomen, ber&#228;knas utdelning f&#246;r
+det kapitalv&#228;rde till vilket f&#246;rm&#229;nen i pengar eller varor efter ortens
+pris ber&#228;knas uppg&#229; p&#229; tilltr&#228;desdagen. I fr&#229;ga om kapitalv&#228;rdets
+ber&#228;kning till&#228;mpas d&#228;rvid 27 &#167;.
+
+&#214;verg&#229;ngsbest&#228;mmelser till 13 och 14 kap. uts&#246;kningsbalken
+
+30 &#167; N&#228;r en exekutiv f&#246;rs&#228;ljning har &#228;gt rum eller en utm&#228;tt fordran
+har drivits in f&#246;re balkens ikrafttr&#228;dande, g&#228;ller &#228;ldre lag i de
+avseenden som regleras i 13 och 14 kap. i balken.
+
+Vad som s&#228;gs om &#229;tervinning i 153 &#167; uts&#246;kningslagen (1877:31 s. 1)
+g&#228;ller fortfarande, n&#228;r ett beslut om f&#246;rdelning har meddelats enligt
+&#228;ldre lag.
+
+&#214;verg&#229;ngsbest&#228;mmelse till 15 kap. uts&#246;kningsbalken
+
+31 &#167; N&#228;r medel f&#246;re ikrafttr&#228;dandet av balken har inneh&#229;llits enligt
+ett beslut om inf&#246;rsel, g&#228;ller 24 &#167; inf&#246;rsellagen (1968:621) i fr&#229;ga
+om befrielse f&#246;r g&#228;lden&#228;ren fr&#229;n betalningsskyldighet.
+
+&#214;verg&#229;ngsbest&#228;mmelser till 16 kap. uts&#246;kningsbalken
+
+32 &#167; N&#228;r en ans&#246;kan om avhysning har gjorts f&#246;re ikrafttr&#228;dandet av
+balken, skall vid till&#228;mpning av 16 kap. 5 &#167; i balken den tid om
+sex m&#229;nader som anges d&#228;r r&#228;knas fr&#229;n ikrafttr&#228;dandet.
+
+33 &#167; I fr&#229;ga om skringringsf&#246;rbud som har meddelats enligt
+uts&#246;kningslagen (1877:31 s. 1) eller annan lag till&#228;mpas vad som s&#228;gs
+i balken om kvarstad.
+
+&#214;verg&#229;ngsbest&#228;mmelser till 17 kap. uts&#246;kningsbalken
+
+34 &#167; N&#228;r utm&#228;tning eller annan verkst&#228;llighet har &#228;gt rum f&#246;re balkens
+ikrafttr&#228;dande, till&#228;mpas &#228;ldre lag i fr&#229;ga om kostnader i m&#229;let.
+Best&#228;mmelserna i 17 kap. 12 &#167; i balken g&#228;ller dock, n&#228;r en tvist vid
+en f&#246;rdelning av medel pr&#246;vas av kronofogdemyndigheten enligt 13 kap.
+7 &#167; tredje stycket.
+
+I m&#229;l som efter ikrafttr&#228;dandet handl&#228;ggs av &#246;verexekutor till&#228;mpas
+&#228;ldre lag i fr&#229;ga om kostnader &#228;ven i andra fall &#228;n som anges i f&#246;rsta
+stycket.
+
+&#214;verg&#229;ngsbest&#228;mmelser till 18 kap. uts&#246;kningsbalken
+
+35 &#167; I fr&#229;ga om talan mot beslut som har meddelats av utm&#228;tningsmannen
+f&#246;re balkens ikrafttr&#228;dande och f&#246;rfarandet hos &#246;verexekutor i m&#229;let
+till&#228;mpas &#228;ldre lag. Best&#228;mmelsen i 201 &#167; 4 mom. uts&#246;kningslagen
+(1877:31 s. 1) g&#228;ller dock endast om egendom som avses d&#228;r har s&#229;lts
+f&#246;re balkens ikrafttr&#228;dande.
+
+Betr&#228;ffande talan mot beslut av &#246;verexekutor och f&#246;rfarandet i
+hovr&#228;tten i m&#229;let till&#228;mpas &#228;ldre lag.
+
+I fr&#229;ga om talan mot hovr&#228;ttens beslut i m&#229;l som har fullf&#246;ljts fr&#229;n
+&#246;verexekutor och f&#246;rfarandet i h&#246;gsta domstolen i m&#229;let till&#228;mpas
+ocks&#229; &#228;ldre lag.
+
+Andra best&#228;mmelser
+
+36 &#167; Resef&#246;rbud som har meddelats enligt uts&#246;kningslagen (1877:31 s.1)
+upph&#246;r att g&#228;lla, n&#228;r balken tr&#228;der i kraft.
+
+Fr&#229;gan om h&#228;vande av en s&#228;kerhets&#229;tg&#228;rd som har beviljats enligt
+uts&#246;kningslagen pr&#246;vas av domstol eller, om talan ej har v&#228;ckts i
+saken, av &#246;verexekutor.
+
+37 &#167; Vad som i s&#228;rskild lag eller annan f&#246;rfattning &#228;r f&#246;reskrivet
+om skingringsf&#246;rbud skall i st&#228;llet avse kvarstad.
+
+Har &#246;verexekutor beviljat en s&#228;kerhets&#229;tg&#228;rd enligt annan lag &#228;n
+uts&#246;kningslagen (1877:31 s. 1), till&#228;mpas 36 &#167;.
+
+38 &#167; Vad som i s&#228;rskild lag eller annan f&#246;rfattning s&#228;gs om
+utm&#228;tningsmannen skall i st&#228;llet avse kronofogdemyndigheten.
+
+Talan mot beslut, som efter balkens ikrafttr&#228;dande meddelas av
+kronofogdemyndigheten enligt s&#228;rskild lag eller annan f&#246;rfattning,
+skall f&#246;ras i hovr&#228;tten i st&#228;llet f&#246;r hos &#246;verexekutor.
+
+39 &#167; M&#229;l, som enligt s&#228;rskild lag eller annan f&#246;rfattning skall
+pr&#246;vas av &#246;verexekutor och ej avser klagan &#246;ver
+Kronofogdemyndighetens beslut, skall i st&#228;llet handl&#228;ggas av
+Kronofogdemyndigheten.
+
+M&#229;l enligt s&#228;rskild lag eller annan f&#246;rfattning som &#228;r
+anh&#228;ngiga hos &#246;verexekutor vid balkens ikrafttr&#228;dande skall
+&#228;ven d&#228;refter handl&#228;ggas av &#246;verexekutor, om ej annat f&#246;ljer av
+tredje stycket.
+
+&#214;verexekutors befattning med m&#229;l som ej avser klagan &#246;ver
+beslut av Kronofogdemyndigheten upph&#246;r senast vid utg&#229;ngen av
+&#229;r 1982. M&#229;l av s&#229;dan art som enligt de nya best&#228;mmelserna
+skall handl&#228;ggas av Kronofogdemyndigheten f&#229;r &#228;ven dessf&#246;rinnan
+&#246;verl&#228;mnas till Kronofogdemyndigheten, om det &#228;r l&#228;mpligt.
+Lag (2006:700).
+
+40 &#167; Best&#228;mmelserna i 35 &#167; g&#228;ller i till&#228;mpliga delar &#228;ven i fall
+som avses i 38 och 39 &#167;&#167;.
+
+41 &#167; Lagen (1921:244) om utm&#228;tningsed till&#228;mpas fortfarande i fr&#229;ga
+om ans&#246;kningar enligt lagen som har kommit in till konkursdomaren
+f&#246;re balkens ikrafttr&#228;dande.
+
+F&#246;rordningen (1855:66 s. 1) ang&#229;ende handelsb&#246;cker och
+handelsr&#228;kningar till&#228;mpas fortfarande betr&#228;ffande handelsr&#228;kningar
+som har utf&#228;rdats medan f&#246;rordningen var g&#228;llande.
+
+42 &#167; Har en svensk domstol eller f&#246;rvaltningsmyndighet &#229;lagt n&#229;gon
+betalningsskyldighet och har s&#229; l&#229;ng tid f&#246;rflutit efter &#229;l&#228;ggandet
+att hinder m&#246;ter f&#246;r verkst&#228;llighet i en fr&#228;mmande stat, vars lag
+annars medger verkst&#228;llighet, skall hovr&#228;tten p&#229; ans&#246;kan av borgen&#228;ren
+f&#246;rnya betalnings&#229;l&#228;ggandet, s&#229;vida ej hinder f&#246;religger mot
+verkst&#228;llighet enligt svensk lag eller annat s&#228;rskilt sk&#228;l f&#246;rekommer.
+Innan ett s&#229;dant beslut meddelas, skall g&#228;lden&#228;ren beredas tillf&#228;lle
+att yttra sig.
+
+F&#246;rordningen (1863:5 s. 3) ang&#229;ende f&#246;rnyande av svensk myndighets
+beslut, som f&#246;rlorat sin exekutiva kraft i fr&#228;mmande stat, g&#228;ller
+fortfarande i fr&#229;ga om en ans&#246;kan som har gjorts hos l&#228;nsstyrelsen
+medan f&#246;rordningen g&#228;llde.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3898">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3900">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

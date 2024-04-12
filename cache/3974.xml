@@ -1,0 +1,612 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-06-30" /> 
+ <meta id="rattsinfo-edited" content="2023-06-30 15:19:38" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3974</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3973">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3975">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1979:230 ·
+                    <a href="/sfsr?bet=1979:230">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Jordf&#246;rv&#228;rvslag (1979:230)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1979-05-03
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Omtryck:</span> SFS 2005:423
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:142
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; I denna lag avses med
+
+lantbruksegendom: fast egendom som
+
+1. &#228;r taxerad som lantbruksenhet, eller
+
+2. har ombildats eller nybildats f&#246;r &#228;ndam&#229;let jordbruk eller 
+skogsbruk men som &#228;nnu inte varit f&#246;rem&#229;l f&#246;r 
+fastighetstaxering,
+
+glesbygd: stora sammanh&#228;ngande omr&#229;den med gles bebyggelse och 
+l&#229;nga avst&#229;nd till syssels&#228;ttning eller service och 
+sk&#228;rg&#229;rdsomr&#229;de, om det &#228;r av regionalpolitisk betydelse att 
+syssels&#228;ttning eller bos&#228;ttning inom omr&#229;dena fr&#228;mjas,
+
+omarronderingsomr&#229;de: omr&#229;de med mycket stark &#228;gosplittring 
+f&#246;r vilket l&#228;nsstyrelsen har fastst&#228;llt en plan f&#246;r 
+rationalisering av &#228;gostrukturen.
+
+Regeringen best&#228;mmer vilka kommuner eller delar av kommuner 
+som ska vara glesbygd och omarronderingsomr&#229;den.
+Lag (2023:142).
+
+2 &#167; Lagen g&#228;ller f&#246;rv&#228;rv av lantbruksegendom som sker genom
+
+1. k&#246;p, byte eller g&#229;va,
+
+2. tillskott till bolag eller f&#246;rening,
+
+3. utdelning eller skifte fr&#229;n bolag eller f&#246;rening.
+
+Lagen g&#228;ller ocks&#229; d&#229; n&#229;gon genom k&#246;p, byte eller g&#229;va
+f&#246;rv&#228;rvar ett d&#246;dsbo i vilket ing&#229;r lantbruksegendom eller d&#229;
+n&#229;gon, som genom k&#246;p, byte eller g&#229;va har f&#246;rv&#228;rvat en andel i
+ett s&#229;dant d&#246;dsbo och inte p&#229; n&#229;gon annan grund &#228;r del&#228;gare i
+boet, tillskiftas den fasta egendomen eller en del av den. Lag
+(2005:423).
+
+3 &#167; Lagen g&#228;ller inte
+
+1. om egendomen f&#246;rv&#228;rvas fr&#229;n staten genom &#246;verl&#229;telse av 
+regeringen, l&#228;nsstyrelsen eller Statens jordbruksverk,
+
+2. om staten f&#246;rv&#228;rvar egendomen genom n&#229;gon annan myndighet 
+&#228;n statens aff&#228;rsdrivande verk,
+
+3. om en kommun f&#246;rv&#228;rvar egendomen fr&#229;n staten,
+
+4. om egendomen f&#246;rv&#228;rvas av en kreditinr&#228;ttning som enligt 
+lag eller enligt reglemente eller bolagsordning som regeringen 
+har fastst&#228;llt, &#228;r skyldig att &#229;ter avyttra egendomen,
+
+5. om f&#246;rv&#228;rvaren &#228;r gift med &#246;verl&#229;taren och inte heller om 
+f&#246;rv&#228;rvaren eller, n&#228;r makar f&#246;rv&#228;rvar gemensamt, n&#229;gon av dem 
+&#228;r &#246;verl&#229;tarens avkomling, allt under f&#246;ruts&#228;ttning att 
+&#246;verl&#229;taren inte &#228;r skyldig att avyttra egendomen enligt 13 &#167;,
+
+6. om egendomen enligt detaljplan eller omr&#229;desbest&#228;mmelser &#228;r 
+avsedd f&#246;r annat &#228;ndam&#229;l &#228;n jordbruk eller skogsbruk,
+
+7. om f&#246;rv&#228;rvet omfattar ett omr&#229;de som &#228;r avsett f&#246;r annat 
+&#228;ndam&#229;l &#228;n jordbruk eller skogsbruk, eller
+
+8. om en andel i en fastighet f&#246;rv&#228;rvas av n&#229;gon som redan 
+&#228;ger en andel i fastigheten som h&#246;r till samma taxeringsenhet 
+och f&#246;rv&#228;rvaren inte &#228;r skyldig att avyttra sistn&#228;mnda andel 
+enligt 13 &#167;. Lag (2023:142).
+
+F&#246;rv&#228;rvstillst&#229;nd
+
+4 &#167; Tillst&#229;nd enligt denna lag kr&#228;vs f&#246;r f&#246;rv&#228;rv av
+lantbruksegendom om
+
+1. f&#246;rv&#228;rvet avser egendom i glesbygd och 5 &#167; inte &#228;r
+till&#228;mplig,
+
+2. f&#246;rv&#228;rvet avser egendom i omarronderingsomr&#229;de, eller
+
+3. f&#246;rv&#228;rvaren &#228;r en juridisk person som f&#246;rv&#228;rvar egendomen
+fr&#229;n en fysisk person eller ett d&#246;dsbo.
+
+Tillst&#229;nd kr&#228;vs dock inte om f&#246;rv&#228;rvet sker genom inrop p&#229;
+exekutiv auktion. Lag (2005:423).
+
+5 &#167; Utan tillst&#229;nd enligt denna lag f&#229;r egendom i glesbygd som
+inte ing&#229;r i omarronderingsomr&#229;de f&#246;rv&#228;rvas av den som sedan
+minst ett &#229;r &#228;r folkbokf&#246;rd i glesbygd inom den kommun d&#228;r
+egendomen &#228;r bel&#228;gen. Lag (2005:423).
+
+6 &#167; En juridisk person f&#229;r l&#228;mnas f&#246;rv&#228;rvstillst&#229;nd, om
+
+1. f&#246;rv&#228;rvaren avst&#229;r, kan antas komma att avst&#229; eller under de
+fem n&#228;rmast f&#246;reg&#229;ende &#229;ren har avst&#229;tt lantbruksegendom som i
+fr&#229;ga om produktionsf&#246;rm&#229;ga ungef&#228;r motsvarar den egendom som
+avses med f&#246;rv&#228;rvet, och
+
+2. avst&#229;endet sker, kan antas komma att ske eller har skett
+till
+
+a) en fysisk person, eller
+
+b) staten f&#246;r naturv&#229;rds&#228;ndam&#229;l.
+
+Ut&#246;ver vad som s&#228;gs i f&#246;rsta stycket f&#229;r en juridisk person
+l&#228;mnas f&#246;rv&#228;rvstillst&#229;nd, om
+
+1. egendomen &#228;r avsedd f&#246;r annat &#228;ndam&#229;l &#228;n jordbruk eller
+skogsbruk,
+
+2. f&#246;rv&#228;rvet huvudsakligen avser skogsmark och f&#246;rv&#228;rvaren p&#229;
+orten bedriver s&#229;dan industriell verksamhet i vilken egendomens
+virkesavkastning beh&#246;vs,
+
+3. f&#246;rv&#228;rvet sker fr&#229;n annan juridisk person &#228;n d&#246;dsbo, eller
+
+4. det annars finns s&#228;rskilda sk&#228;l. Lag (2005:423).
+
+7 &#167; Tillst&#229;nd till f&#246;rv&#228;rv av egendom i glesbygd f&#229;r v&#228;gras, om
+egendomen beh&#246;vs f&#246;r att fr&#228;mja syssels&#228;ttningen eller
+bos&#228;ttningen p&#229; orten. Detta g&#228;ller dock inte om f&#246;rv&#228;rvaren
+g&#246;r sannolikt att han inom tolv m&#229;nader fr&#229;n f&#246;rv&#228;rvet
+varaktigt kommer att bos&#228;tta sig p&#229; fastigheten eller att
+f&#246;rv&#228;rvet varaktigt kommer att fr&#228;mja syssels&#228;ttningen p&#229;
+orten.
+
+Oavsett vad som s&#228;gs i f&#246;rsta stycket f&#229;r tillst&#229;nd till
+f&#246;rv&#228;rv av egendom i omarronderingsomr&#229;de v&#228;gras, om f&#246;rv&#228;rvet
+skulle g&#246;ra det sv&#229;rare att genomf&#246;ra rationaliseringen av
+&#228;gostrukturen. Lag (2005:423).
+
+8 &#167; Kommun f&#229;r inte v&#228;gras tillst&#229;nd till f&#246;rv&#228;rv av s&#229;dan fast
+egendom som med h&#228;nsyn till den framtida utvecklingen till
+n&#229;gon del kr&#228;vs f&#246;r t&#228;tbebyggelse eller d&#228;rmed sammanh&#228;ngande
+anordning.
+
+&#214;vriga best&#228;mmelser
+
+9 &#167; Fr&#229;ga om tillst&#229;nd enligt denna lag pr&#246;vas av
+l&#228;nsstyrelsen, om inte regeringen f&#246;reskriver att pr&#246;vningen
+skall g&#246;ras av Jordbruksverket.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om avgifter f&#246;r pr&#246;vning av
+ans&#246;kan om f&#246;rv&#228;rvstillst&#229;nd enligt denna lag. Lag (2005:1241).
+
+10 &#167; F&#246;rv&#228;rvstillst&#229;nd ska s&#246;kas inom tre m&#229;nader fr&#229;n det
+f&#246;rv&#228;rvet skedde, om inte fr&#229;gan om f&#246;rv&#228;rvstillst&#229;nd enligt
+10 kap. 3 &#167; andra stycket fastighetsbildningslagen (1970:988)
+ska underst&#228;llas tillst&#229;ndsmyndigheten av
+lantm&#228;terimyndigheten.
+
+Fr&#229;ga om f&#246;rv&#228;rvstillst&#229;nd f&#229;r inte pr&#246;vas f&#246;rr&#228;n f&#246;rv&#228;rvet
+skett utom i fall som avses i 2 &#167; 2 eller 3. Tillst&#229;nd att
+f&#246;rv&#228;rva egendom p&#229; offentlig auktion enligt 15 &#167; l&#228;mnas f&#246;re
+auktionen. Lag (2010:266).
+
+11 &#167; G&#246;rs inte ans&#246;kan om f&#246;rv&#228;rvstillst&#229;nd inom f&#246;reskriven
+tid och p&#229; f&#246;reskrivet s&#228;tt eller v&#228;gras f&#246;rv&#228;rvstillst&#229;nd, &#228;r
+f&#246;rv&#228;rvet ogiltigt.
+
+Har lagfart meddelats i strid mot 20 kap. 6 &#167; 8 eller 7 &#167; 13
+jordabalken, g&#228;ller inte f&#246;rsta stycket.
+
+12 &#167; Blir ett k&#246;p ogiltigt till f&#246;ljd av att f&#246;rv&#228;rvstillst&#229;nd
+v&#228;gras enligt 7 &#167; &#228;r staten skyldig att l&#246;sa egendomen till det
+pris som har avtalats, om s&#228;ljaren beg&#228;r det. S&#229;dan skyldighet
+f&#246;religger dock inte, om k&#246;peskillingen eller annan ers&#228;ttning
+inte endast obetydligt &#246;verstiger egendomens v&#228;rde med h&#228;nsyn
+till dess avkastning och &#246;vriga omst&#228;ndigheter eller om
+avtalsvillkoren i &#246;vrigt &#228;r osk&#228;liga.
+
+Beg&#228;ran om inl&#246;sen skall framst&#228;llas hos l&#228;nsstyrelsen inom tre
+m&#229;nader efter det att avslagsbeslutet vunnit laga kraft. Talan
+om inl&#246;sen skall v&#228;ckas vid den mark- och milj&#246;domstol inom
+vars omr&#229;de egendomen &#228;r bel&#228;gen inom sex m&#229;nader fr&#229;n n&#228;mnda
+tidpunkt. Har s&#228;ljaren f&#229;tt del av beslutet f&#246;rst sedan detta
+vunnit laga kraft, r&#228;knas dock tidsfristerna fr&#229;n dagen f&#246;r
+delf&#229;endet. Iakttar inte s&#228;ljaren vad som har sagts nu,
+f&#246;rlorar han sin talan. Lag (2010:929).
+
+13 &#167; Egendom som har f&#246;rv&#228;rvats genom inrop p&#229; exekutiv auktion
+under s&#229;dana f&#246;rh&#229;llanden att f&#246;rv&#228;rvstillst&#229;nd skulle ha
+kr&#228;vts vid vanligt k&#246;p skall &#229;ter avyttras inom tv&#229; &#229;r efter
+det att auktionen vunnit laga kraft. Detta g&#228;ller dock inte, om
+dessf&#246;rinnan n&#228;mnda f&#246;rh&#229;llanden har upph&#246;rt eller inroparen
+har f&#229;tt tillst&#229;nd att beh&#229;lla egendomen. I fr&#229;ga om s&#229;dant
+tillst&#229;nd till&#228;mpas best&#228;mmelserna om f&#246;rv&#228;rvstillst&#229;nd i 
+6-8 &#167;&#167;.
+
+Om inropet har skett f&#246;r att skydda en fordran, f&#246;r vilken
+inroparen har pantr&#228;tt i egendomen, eller annan r&#228;ttighet som
+&#228;r inskriven i den, f&#229;r l&#228;nsstyrelsen medge sk&#228;ligt anst&#229;nd med
+avyttrandet, om det &#228;r sannolikt att f&#246;rlust annars skulle
+uppkomma f&#246;r inroparen.
+
+Avyttras inte egendomen inom f&#246;reskriven tid, skall
+l&#228;nsstyrelsen besluta att egendomen skall s&#228;ljas av
+kronofogdemyndigheten p&#229; offentlig auktion enligt 15 &#167;.
+
+Anteckning om best&#228;mmelserna i f&#246;rsta-tredje styckena skall
+g&#246;ras i det k&#246;pebrev som utf&#228;rdas med anledning av den
+exekutiva auktionen och, n&#228;r lagfart s&#246;ks, inf&#246;ras i
+fastighetsregistrets inskrivningsdel, om inte s&#246;kanden visar
+att avyttringsskyldigheten har upph&#246;rt. Lag (2005:423).
+
+14 &#167; Har l&#228;nsstyrelsen beslutat om auktion enligt 13 &#167; och har
+inroparen dessf&#246;rinnan eller senare avyttrat egendomen, skall
+beslutet trots detta g&#229; i verkst&#228;llighet, om inte l&#228;nsstyrelsen
+best&#228;mmer n&#229;got annat. Lag (2005:423).
+
+15 &#167; Vid s&#229;dan offentlig auktion som avses i 13 &#167; g&#228;ller att
+
+1. egendomen skall anses utm&#228;tt f&#246;r fordran med b&#228;sta
+f&#246;rm&#229;nsr&#228;tt efter s&#229;dana r&#228;ttigheter som besv&#228;rade egendomen
+redan vid den exekutiva auktionen och som har f&#246;retr&#228;de framf&#246;r
+alla befintliga fordringar,
+
+2. f&#246;rs&#228;ljning f&#229;r ske endast om den bjudna k&#246;peskillingen
+t&#228;cker &#228;ven
+
+a) det v&#228;rde som i &#228;rendet har &#229;satts egendomen enligt 12 kap.
+uts&#246;kningsbalken, eller
+
+b) det v&#228;rde som egendomen kan uppskattas till av v&#228;rderingsm&#228;n
+som l&#228;nsstyrelsen utser, om &#228;garen eller innehavare av en
+fordran som &#228;r f&#246;renad med pantr&#228;tt i egendomen i god tid f&#246;re
+auktionen har p&#229;kallat s&#228;rskild v&#228;rdering.
+
+Egendomen f&#229;r s&#228;ljas endast till den som har f&#229;tt
+f&#246;rv&#228;rvstillst&#229;nd eller enligt 3 &#167; 1, 2, 4 eller 8 f&#229;r f&#246;rv&#228;rva
+egendomen utan s&#229;dant tillst&#229;nd.
+
+Om det vid auktionen avges bud som f&#229;r antas enligt vad som
+s&#228;gs i f&#246;rsta och andra styckena skall egendomen s&#228;ljas, &#228;ven
+om innehavare av fordran mots&#228;tter sig det. Lag (2005:423).
+
+16 &#167; Kommer f&#246;rs&#228;ljning inte till st&#229;nd vid s&#229;dan auktion som
+avses i 13 &#167;, f&#229;r l&#228;nsstyrelsen inom tv&#229; &#229;r efter det att
+auktionen har vunnit laga kraft besluta om ny auktion. Meddelas
+inte n&#229;got s&#229;dant beslut inom f&#246;reskriven tid eller avges inte
+heller vid den senare auktionen bud som f&#229;r antas, &#228;r fr&#229;gan om
+f&#246;rs&#228;ljning av egendomen f&#246;rfallen.
+
+Kostnad i samband med auktion som inte har lett till
+f&#246;rs&#228;ljning betalas av staten. Lag (2005:423).
+
+17 &#167; L&#228;nsstyrelsens beslut enligt denna lag f&#229;r &#246;verklagas hos
+Jordbruksverket.
+
+Jordbruksverkets beslut f&#229;r &#246;verklagas hos allm&#228;n
+f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (1995:45).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1979:230
+
+1. Denna lag tr&#228;der i kraft den 1 juli 1979 d&#229;
+jordf&#246;rv&#228;rvslagen (1965:290) skall upph&#246;ra att g&#228;lla.
+
+2. &#196;ldre best&#228;mmelser skall till&#228;mpas p&#229; f&#246;rv&#228;rv som har skett
+f&#246;re den 1 juli 1979.
+
+3. F&#246;rekommer i lag eller annan f&#246;rfattning h&#228;nvisning till
+f&#246;reskrift som har ersatts genom best&#228;mmelse i denna lag,
+till&#228;mpas i st&#228;llet den nya best&#228;mmelsen.
+
+4. Lagen skall inte till&#228;mpas p&#229; egendom som utg&#246;r fideikommiss
+eller ing&#229;r i fideikommissbo under avveckling, om f&#246;rv&#228;rvet
+sker genom tillskott i samband med teckning av aktier.
+
+5. Best&#228;mmelsen i 15 &#167; om till&#228;mpning av 4 kap. 3 &#167;
+expropriationslagen (1972:719) g&#228;ller inte i fr&#229;ga om
+v&#228;rde&#246;kning som har &#228;gt rum f&#246;re utg&#229;ngen av juni 1971.
+
+1987:468
+
+Denna lag tr&#228;der i kraft den 1 juli 1987, varigenom lagen
+(1987:137) om &#228;ndring i jordf&#246;rv&#228;rvslagen (1979:230) upph&#228;vs.
+De nya best&#228;mmelserna skall till&#228;mpas i &#228;renden om
+f&#246;rv&#228;rvstillst&#229;nd som inte &#228;r slutligt avgjorda den 1 juli
+1987.
+
+1990:1492
+
+Denna lag tr&#228;der i kraft den 1 juli 1991.
+
+Skall fr&#229;ga om tillst&#229;nd till ett f&#246;rv&#228;rv pr&#246;vas enligt 7 &#167;
+jordf&#246;rv&#228;rvslagen i den lydelse paragrafen hade f&#246;re den 1 juli
+1991 g&#228;ller &#228;ven 14 &#167; i sin &#228;ldre lydelse.
+
+I fr&#229;ga om &#246;verklagande av beslut som har meddelats av
+lantbruksstyrelsen f&#246;re ikrafttr&#228;dandet g&#228;ller 18 &#167; i sin &#228;ldre
+lydelse. Lag (1991:669).
+
+1991:670
+
+Denna lag tr&#228;der i kraft den 1 juli 1991.
+
+De nya best&#228;mmelserna skall till&#228;mpas i &#228;renden om
+f&#246;rv&#228;rvstillst&#229;nd som inte &#228;r slutligt avgjorda den 1 juli
+1991. Om de nya f&#246;reskrifterna inneb&#228;r att tillst&#229;nd fordras
+till f&#246;rv&#228;rv av egendom i glesbygd skall dock f&#246;rv&#228;rvet pr&#246;vas
+enligt den upph&#228;vda 7 &#167; i st&#228;llet f&#246;r enligt 4 &#167; f&#246;rsta
+stycket. &#196;ven 10 &#167; skall i fr&#229;ga om s&#229;dana f&#246;rv&#228;rv g&#228;lla i sin
+&#228;ldre lydelse s&#229;vitt avser f&#246;rel&#228;ggande om bos&#228;ttning. I fr&#229;ga
+om f&#246;rel&#228;gganden om bos&#228;ttning som har meddelats med st&#246;d av
+&#228;ldre lag g&#228;ller 10 &#167; i sin gamla lydelse.
+
+Har l&#228;nsstyrelsen f&#246;rordnat om auktion enligt 16 &#167; och skulle
+tillst&#229;nd till f&#246;rv&#228;rvet inte l&#228;ngre kr&#228;vas vid vanligt k&#246;p,
+skall l&#228;nsstyrelsens beslut inte verkst&#228;llas.
+
+1995:45
+
+Denna lag tr&#228;der i kraft den 1 april 1995. Beslut som har
+meddelats f&#246;re ikrafttr&#228;dandet &#246;verklagas enligt &#228;ldre
+best&#228;mmelser.
+
+1995:1408
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1996.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om
+fastighetsbildningsmyndigheter som inr&#228;ttats enligt lagen
+(1971:133) om kommunal fastighetsbildningsmyndighet och
+fastighetsregistermyndighet.
+
+2005:423
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2005.
+
+2. Har f&#246;re ikrafttr&#228;dandet f&#246;rv&#228;rv anm&#228;lts enligt 3 b &#167; eller
+f&#246;rel&#228;ggande om bos&#228;ttning meddelats enligt 10 &#167; g&#228;ller
+fortfarande &#228;ldre best&#228;mmelser i 10 a och 15 &#167;&#167;.
+
+3. 5 &#167; andra och tredje styckena skall till&#228;mpas i sin &#228;ldre
+lydelse i fall d&#229; ans&#246;kan om f&#246;rv&#228;rvstillst&#229;nd gjorts f&#246;re
+ikrafttr&#228;dandet, om f&#246;rv&#228;rvaren inte bedriver industriell
+verksamhet p&#229; orten.
+
+4. I &#246;vrigt skall de nya best&#228;mmelserna till&#228;mpas i &#228;renden om
+f&#246;rv&#228;rvstillst&#229;nd som inte &#228;r slutligt avgjorda vid utg&#229;ngen av
+juni 2005.
+
+2010:266
+
+1. Denna lag tr&#228;der i kraft den 1 maj 2010.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande i fall d&#228;r kommunen
+f&#246;re den 1 maj 2010 har gjort en anm&#228;lan till
+inskrivningsmyndigheten enligt 7 &#167; f&#246;rk&#246;pslagen (1967:868).
+
+2023:142
+
+1. Denna lag tr&#228;der i kraft den 15 april 2023.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r f&#246;rv&#228;rv som har 
+skett f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3973">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3975">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

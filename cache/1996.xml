@@ -1,0 +1,844 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2008-05-07" /> 
+ <meta id="rattsinfo-edited" content="2019-05-23" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1996</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1995">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1997">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2008:193 ·
+                    <a href="/sfsr?bet=2008:193">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2008:193) om statligt tandv&#229;rdsst&#246;d
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2008-04-24
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:116
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2008-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelse
+
+1 &#167; I denna f&#246;rordning ges kompletterande f&#246;reskrifter till
+lagen (2008:145) om statligt tandv&#229;rdsst&#246;d.
+
+De ord och ben&#228;mningar som anv&#228;nds i f&#246;rordningen har samma
+betydelse som i lagen.
+
+Ers&#228;ttningsber&#228;ttigande tandv&#229;rds&#229;tg&#228;rder och referenspriser
+
+2 &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket f&#229;r meddela
+f&#246;reskrifter om
+
+1. vilka tandv&#229;rds&#229;tg&#228;rder som kan ber&#228;ttiga till ers&#228;ttning
+enligt lagen (2008:145) om statligt tandv&#229;rdsst&#246;d och under
+vilka f&#246;ruts&#228;ttningar ers&#228;ttning kan l&#228;mnas f&#246;r &#229;tg&#228;rderna
+(ers&#228;ttningsber&#228;ttigande tandv&#229;rds&#229;tg&#228;rder), samt
+
+2. referenspriser f&#246;r de ers&#228;ttningsber&#228;ttigande
+tandv&#229;rds&#229;tg&#228;rderna. F&#246;rordning (2008:844).
+
+3 &#167; Tandv&#229;rds&#229;tg&#228;rder som uppenbarligen har utf&#246;rts i strid 
+med vetenskap och bepr&#246;vad erfarenhet och som har medf&#246;rt en 
+v&#229;rdskada eller risk f&#246;r s&#229;dan skada &#228;r inte 
+ers&#228;ttningsber&#228;ttigande.
+
+Tandv&#229;rds&#229;tg&#228;rder d&#228;r amalgam har anv&#228;nts som material &#228;r inte 
+heller ers&#228;ttningsber&#228;ttigande. F&#246;rordning (2019:114).
+
+Allm&#228;nt tandv&#229;rdsbidrag
+
+4 &#167; Allm&#228;nt tandv&#229;rdsbidrag l&#228;mnas med 300 kronor om 
+&#229;ret. 
+
+F&#246;r patienter som fyller l&#228;gst 24 &#229;r och h&#246;gst 29 &#229;r eller 
+l&#228;gst 65 &#229;r under det &#229;r som tandv&#229;rdsbidraget tidigast kan 
+anv&#228;ndas, l&#228;mnas bidrag med 600 kronor om &#229;ret.
+F&#246;rordning (2018:1593).
+
+S&#228;rskilt tandv&#229;rdsbidrag
+
+4 a &#167; S&#228;rskilt tandv&#229;rdsbidrag f&#229;r anv&#228;ndas f&#246;r betalning
+av ers&#228;ttningsber&#228;ttigande f&#246;rebyggande tandv&#229;rds&#229;tg&#228;rder
+om patienten
+
+1. &#228;r muntorr p&#229; grund av l&#229;ngvarig l&#228;kemedelsbehandling,
+
+2. &#228;r muntorr p&#229; grund av str&#229;lbehandling i &#246;ron-, n&#228;s-,
+mun- eller halsregionen,
+
+3. har Sj&#246;grens syndrom,
+
+4. har kronisk obstruktiv lungsjukdom och har ordinerats
+syrgas eller n&#228;ringsdryck,
+
+5. har cystisk fibros,
+
+6. har ulcer&#246;s colit,
+
+7. har Crohns sjukdom,
+
+8. har tarmsvikt,
+
+9. har fr&#228;tskador p&#229; t&#228;nderna och anorexia nervosa,
+bulimia nervosa eller gastroesofageal refluxsjukdom,
+
+10. har sv&#229;rinst&#228;lld diabetes,
+
+11. genomg&#229;r dialysbehandling,
+
+12. &#228;r immunosupprimerad p&#229; grund av l&#228;kemedelsbehandling,
+eller
+
+13. har genomg&#229;tt en organtransplantation.
+
+Om det inte finns s&#228;rskilda sk&#228;l, ska patienten med intyg
+eller p&#229; annat s&#228;tt styrka att han eller hon har en s&#229;dan
+sjukdom eller funktionsneds&#228;ttning som avses i f&#246;rsta
+stycket. F&#246;rordning (2011:1184).
+
+4 b &#167; S&#228;rskilt tandv&#229;rdsbidrag l&#228;mnas med h&#246;gst 600 kr per
+halv&#229;r. F&#246;rordning (2011:1184).
+
+4 c &#167; Socialstyrelsen f&#229;r meddela ytterligare f&#246;reskrifter
+om
+
+1. de sjukdomar och funktionsneds&#228;ttningar som anges i 4 a &#167;
+f&#246;rsta stycket, och
+
+2. det underlag som avses i 4 a &#167; andra stycket.
+F&#246;rordning (2011:1184).
+
+Abonnemangstandv&#229;rd
+
+4 d &#167; Ett avtal om abonnemangstandv&#229;rd enligt 2 kap. 2 &#167; lagen
+(2008:145) om statligt tandv&#229;rdsst&#246;d beh&#246;ver inte omfatta
+tandv&#229;rd till f&#246;ljd av arbetsskada eller olycksfall i &#246;vrigt.
+F&#246;rordning (2012:784).
+
+Tandv&#229;rdsers&#228;ttning
+
+5 &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket f&#229;r meddela
+f&#246;reskrifter om
+
+1. vilket belopp som patientens sammanlagda tandv&#229;rdskostnader
+under en ers&#228;ttningsperiod ska &#246;verstiga f&#246;r att
+tandv&#229;rdsers&#228;ttning ska kunna l&#228;mnas, samt
+
+2. med vilken andel av patientens sammanlagda kostnader
+&#246;verstigande beloppet enligt 1 som tandv&#229;rdsers&#228;ttning ska
+l&#228;mnas. F&#246;rordning (2008:844).
+
+6 &#167; Om en protetisk behandling beh&#246;ver g&#246;ras om och den nya
+behandlingen
+
+1. enligt f&#246;reskrifter som meddelats med st&#246;d av 2 &#167; 1 inte &#228;r
+ers&#228;ttningsber&#228;ttigande, och
+
+2. utf&#246;rs av en annan v&#229;rdgivare &#228;n den som utf&#246;rde den
+behandling som beh&#246;ver g&#246;ras om,
+
+f&#229;r F&#246;rs&#228;kringskassan l&#228;mna ers&#228;ttning till den v&#229;rdgivare som
+g&#246;r om behandlingen med ett belopp motsvarande det belopp som
+f&#229;r kr&#228;vas &#229;ter eller r&#228;knas av fr&#229;n en annan fordran enligt
+4 kap. 3 &#167; andra stycket lagen (2008:145) om statligt
+tandv&#229;rdsst&#246;d.
+
+Ers&#228;ttning enligt f&#246;rsta stycket f&#229;r dock inte &#246;verstiga det
+l&#228;gsta av f&#246;ljande belopp:
+
+- v&#229;rdgivarens pris f&#246;r att g&#246;ra om behandlingen f&#246;r den
+aktuella patienten, och
+
+- referenspriset f&#246;r att g&#246;ra om behandlingen.
+
+Om den nya behandlingen &#228;r mer omfattande eller i &#246;vrigt
+best&#229;r av andra ers&#228;ttningsber&#228;ttigande tandv&#229;rds&#229;tg&#228;rder &#228;n
+den behandling som beh&#246;ver g&#246;ras om, f&#229;r tandv&#229;rdsers&#228;ttning
+l&#228;mnas f&#246;r kostnaderna f&#246;r dessa &#229;tg&#228;rder enligt vad som anges
+i 2 kap. 4 &#167; lagen om statligt tandv&#229;rdsst&#246;d. Kostnaderna f&#229;r
+dock inte ber&#228;knas h&#246;gre &#228;n ett belopp motsvarande skillnaden
+mellan kostnaden f&#246;r den nya behandlingen och kostnaden f&#246;r
+den behandling som beh&#246;ver g&#246;ras om. Ber&#228;kningen av
+kostnaderna f&#246;r de &#229;tg&#228;rder som ing&#229;r i behandlingarna ska ske
+med utg&#229;ngspunkt i referenspriserna f&#246;r dessa &#229;tg&#228;rder, dock
+h&#246;gst v&#229;rdgivarens pris f&#246;r den aktuella patienten.
+F&#246;rordning (2011:83).
+
+7 &#167; Ers&#228;ttning l&#228;mnas inte f&#246;r en tandv&#229;rds&#229;tg&#228;rd som har
+utf&#246;rts utan att en f&#246;rhandspr&#246;vning har gjorts d&#228;r s&#229;dan
+kr&#228;vs. Detta g&#228;ller dock inte om &#229;tg&#228;rden har varit av s&#229;dan
+karakt&#228;r att det av odontologiska eller medicinska sk&#228;l varit
+n&#246;dv&#228;ndigt att genomf&#246;ra den utan att inv&#228;nta en
+f&#246;rhandspr&#246;vning eller om det i &#246;vrigt funnits s&#228;rskilda sk&#228;l
+att p&#229;b&#246;rja &#229;tg&#228;rden innan en f&#246;rhandspr&#246;vning har gjorts.
+
+V&#229;rdgivarens ansvar gentemot patienten
+
+8 &#167; V&#229;rdgivaren ska tillhandah&#229;lla prislistor med uppgifter om
+
+1. v&#229;rdgivarens priser samt referenspriser f&#246;r de
+ers&#228;ttningsber&#228;ttigande tandv&#229;rds&#229;tg&#228;rder som v&#229;rdgivaren
+utf&#246;r,
+
+2. vilka garantier som v&#229;rdgivaren l&#228;mnar f&#246;r sina arbeten,
+samt
+
+3. patientens r&#228;tt att p&#229; beg&#228;ran f&#229; skriftlig information om
+vilka material som anv&#228;nts vid protetiska arbeten och andra
+behandlingar som syftat till att permanent ers&#228;tta f&#246;rlorad
+v&#228;vnad.
+
+9 &#167; Om v&#229;rdgivaren f&#246;resl&#229;r en tandv&#229;rds&#229;tg&#228;rd som inte &#228;r
+ers&#228;ttningsber&#228;ttigande, ska v&#229;rdgivaren upplysa patienten
+huruvida det finns n&#229;gon annan &#229;tg&#228;rd som kan ber&#228;ttiga till
+statligt tandv&#229;rdsst&#246;d.
+
+10 &#167; Om en patient beh&#246;ver behandlas vid mer &#228;n ett tillf&#228;lle,
+ska v&#229;rdgivaren ge patienten en prelimin&#228;r skriftlig
+prisuppgift &#246;ver den totala behandlingskostnaden.
+
+Om patienten beh&#246;ver en mer omfattande behandling, ska
+v&#229;rdgivaren &#228;ven ge patienten en skriftlig behandlingsplan.
+Behandlingsplanen ska inneh&#229;lla uppgifter om
+
+1. vilken diagnos som har st&#228;llts,
+
+2. den f&#246;reslagna behandlingen och sk&#228;len f&#246;r denna,
+
+3. eventuella alternativa behandlingsf&#246;rslag,
+
+4. huruvida tandv&#229;rds&#229;tg&#228;rderna &#228;r ers&#228;ttningsber&#228;ttigande,
+samt
+
+5. v&#229;rdgivarens priser, referenspriser och &#229;tg&#228;rdskoder f&#246;r
+tandv&#229;rds&#229;tg&#228;rderna.
+
+11 &#167; P&#229; det kvitto som patienten f&#229;r &#246;ver erlagd betalning, ska
+v&#229;rdgivaren ange
+
+1. sitt pris f&#246;r varje utf&#246;rd tandv&#229;rds&#229;tg&#228;rd f&#246;r den aktuella
+patienten,
+
+2. referenspris och &#229;tg&#228;rdskod f&#246;r varje utf&#246;rd
+tandv&#229;rds&#229;tg&#228;rd, samt
+
+3. i f&#246;rekommande fall den ers&#228;ttning som l&#228;mnas enligt lagen
+(2008:145) om statligt tandv&#229;rdsst&#246;d.
+
+Om tandtekniskt arbete har ing&#229;tt i behandlingen, ska det till
+kvittot fogas en kopia av det underlag som det tandtekniska
+laboratoriet l&#228;mnat &#246;ver kostnaderna f&#246;r det tandtekniska
+arbetet.
+
+12 &#167; Efter varje unders&#246;kning som inte enbart har avsett
+enstaka t&#228;nder eller ett enstaka problem, ska v&#229;rdgivaren
+uppr&#228;tta ett unders&#246;kningsprotokoll. Protokollet ska l&#228;mnas
+till patienten direkt efter unders&#246;kningen.
+
+13 &#167; V&#229;rdgivaren ska, om det inte finns s&#228;rskilda sk&#228;l, efter
+utf&#246;rd unders&#246;kning eller behandling erbjuda patienten att f&#229;
+en kallelse till en ny unders&#246;kning inom l&#228;mplig tid.
+
+14 &#167; F&#246;rs&#228;kringskassan ska p&#229; beg&#228;ran av en v&#229;rdgivare
+tillhandah&#229;lla uppgifter enligt 4 kap. 1 &#167; lagen
+(2008:145) om statligt tandv&#229;rdsst&#246;d om
+
+1. huruvida patienten omfattas av r&#228;tten till statligt
+tandv&#229;rdsst&#246;d,
+
+2. patientens utnyttjande av tandv&#229;rdsbidrag,
+
+3. patientens sammanlagda kostnader f&#246;r
+ers&#228;ttningsber&#228;ttigande tandv&#229;rds&#229;tg&#228;rder som har
+slutf&#246;rts under p&#229;g&#229;ende ers&#228;ttningsperiod,
+
+4. vilket datum p&#229;g&#229;ende ers&#228;ttningsperiod b&#246;rjade l&#246;pa,
+
+5. vilket datum den senast slutf&#246;rda
+ers&#228;ttningsber&#228;ttigande tandv&#229;rds&#229;tg&#228;rden slutf&#246;rdes,
+
+6. f&#246;rekomst av avtal om abonnemangstandv&#229;rd enligt 2 kap.
+2 &#167; lagen om statligt tandv&#229;rdsst&#246;d samt, i f&#246;rekommande
+fall, abonnemangsperiod f&#246;r avtalet och vilken tandv&#229;rd
+som omfattas av det, och
+
+7. beslut i &#228;renden om f&#246;rhandspr&#246;vning enligt 4 kap.
+5 a &#167; lagen om statligt tandv&#229;rdsst&#246;d.
+
+Uppgifterna f&#229;r endast avse patienter som v&#229;rdgivaren st&#229;r
+i begrepp att behandla eller har behandlat.
+F&#246;rordning (2011:1184).
+
+V&#229;rdgivarens uppgiftsskyldighet
+
+15 &#167; V&#229;rdgivaren ska uppr&#228;tta ett underlag f&#246;r uppf&#246;ljning och 
+statistik samt f&#246;r ber&#228;kning av statligt tandv&#229;rdsst&#246;d f&#246;r 
+samtliga ers&#228;ttningsber&#228;ttigande tandv&#229;rds&#229;tg&#228;rder som 
+v&#229;rdgivaren har utf&#246;rt p&#229; en patient. Underlaget ska ges in 
+till F&#246;rs&#228;kringskassan inom tv&#229; veckor fr&#229;n det att respektive 
+tandv&#229;rds&#229;tg&#228;rd har slutf&#246;rts. 
+
+Underlaget ska inneh&#229;lla uppgifter om 
+
+1. behandlande tandl&#228;kares eller tandhygienists namn och 
+personnummer,
+
+2. patientens namn och personnummer,
+
+3. datum n&#228;r &#229;tg&#228;rden slutf&#246;rdes, 
+
+4. tillst&#229;nds- och &#229;tg&#228;rdskod f&#246;r den &#229;tg&#228;rd som &#228;r 
+ers&#228;ttningsber&#228;ttigande i det enskilda fallet, 
+
+5. tillst&#229;nds- och &#229;tg&#228;rdskod f&#246;r den faktiskt utf&#246;rda 
+&#229;tg&#228;rden, om denna inte &#228;r ers&#228;ttningsber&#228;ttigande i det 
+enskilda fallet, 
+
+6. tandnummer och tandposition,
+
+7. v&#229;rdgivarens totala pris f&#246;r den utf&#246;rda &#229;tg&#228;rden f&#246;r den 
+aktuella patienten, och
+
+8. grunden f&#246;r beg&#228;ran om ers&#228;ttning i form av s&#228;rskilt 
+tandv&#229;rdsbidrag.
+
+I samband med beg&#228;ran om ers&#228;ttning i form av allm&#228;nt 
+tandv&#229;rdsbidrag ska v&#229;rdgivaren &#228;ven l&#228;mna uppgift till 
+Socialstyrelsen om patientens antal kvarvarande respektive 
+intakta t&#228;nder.
+
+Uppgiftsskyldigheten g&#228;ller &#228;ven s&#229;dan tandv&#229;rd som omfattas 
+av ett g&#228;llande abonnemangsavtal. F&#246;rordning (2019:116).
+
+16 &#167; N&#228;r ett avtal om abonnemangstandv&#229;rd enligt 2 kap. 2 &#167;
+lagen (2008:145) om statligt tandv&#229;rdsst&#246;d har ing&#229;tts eller
+upph&#246;rt att g&#228;lla i f&#246;rtid, ska v&#229;rdgivaren inom tv&#229; veckor
+fr&#229;n det att avtalet har ing&#229;tts eller upph&#246;rt att g&#228;lla l&#228;mna
+uppgift om detta till F&#246;rs&#228;kringskassan.
+
+N&#228;r ett avtal har ing&#229;tts ska uppgift l&#228;mnas om
+
+1. abonnemangsperioden,
+
+2. vilken tandv&#229;rd som omfattas av avtalet, och
+
+3. avgiften f&#246;r abonnemanget.
+
+Inl&#228;mnande av uppgifter
+
+17 &#167; Underlag enligt 15 &#167; f&#246;rsta och andra styckena, uppgifter
+enligt 15 &#167; tredje stycket och 16 &#167; samt ans&#246;kan om
+f&#246;rhandspr&#246;vning och ans&#246;kan om ers&#228;ttning enligt lagen
+(2008:145) om statligt tandv&#229;rdsst&#246;d ska l&#228;mnas p&#229; elektronisk
+v&#228;g.
+
+F&#246;rs&#228;kringskassan f&#229;r meddela f&#246;reskrifter om i vilka fall
+uppgifter f&#229;r l&#228;mnas p&#229; annat s&#228;tt.
+
+Anslutningen till F&#246;rs&#228;kringskassans elektroniska system f&#246;r
+statligt tandv&#229;rdsst&#246;d
+
+18 &#167; Ans&#246;kan om anslutning till F&#246;rs&#228;kringskassans 
+elektroniska system f&#246;r statligt tandv&#229;rdsst&#246;d ska g&#246;ras av 
+v&#229;rdgivaren. Ans&#246;kan ska vara skriftlig och ges in till 
+F&#246;rs&#228;kringskassan.
+
+F&#246;r att bli ansluten till det elektroniska systemet ska 
+v&#229;rdgivaren vara legitimerad tandl&#228;kare eller tandhygienist 
+eller, genom anst&#228;llning eller p&#229; annat s&#228;tt, anlita s&#229;dan 
+personal. V&#229;rdgivare i enskilt bedriven verksamhet ska vidare 
+vara godk&#228;nd f&#246;r F-skatt f&#246;r att bli ansluten till 
+systemet.
+
+I ans&#246;kan ska v&#229;rdgivaren l&#228;mna uppgift om f&#246;ljande personer:
+
+1. i aktiebolag och ekonomiska f&#246;reningar den verkst&#228;llande 
+direkt&#246;ren, om det finns en s&#229;dan, samtliga styrelseledam&#246;ter 
+och styrelsesuppleanter samt andra som genom ledande 
+st&#228;llning eller p&#229; annat s&#228;tt har ett best&#228;mmande inflytande 
+&#246;ver verksamheten,
+
+2. i aktiebolag och ekonomiska f&#246;reningar som &#228;r 
+f&#229;mansf&#246;retag enligt 56 kap. 2 &#167; inkomstskattelagen 
+(1999:1229) samtliga del&#228;gare,
+
+3. i kommanditbolag och andra handelsbolag samtliga bolagsm&#228;n 
+och andra som genom ledande st&#228;llning eller p&#229; annat s&#228;tt har 
+ett best&#228;mmande inflytande &#246;ver verksamheten, 
+
+4. i enskild n&#228;ringsverksamhet den enskilde n&#228;ringsidkaren,
+
+5. verksamhetschefen, och 
+
+6. samtliga behandlande tandl&#228;kare eller tandhygienister om 
+det finns tio eller f&#228;rre s&#229;dana hos v&#229;rdgivaren. 
+
+V&#229;rdgivaren ska &#228;ven ange om n&#229;gon av de personer som anges i 
+tredje stycket tidigare har varit v&#229;rdgivare eller verksamma 
+hos en v&#229;rdgivare som varit ansluten till F&#246;rs&#228;kringskassans 
+elektroniska system f&#246;r statligt tandv&#229;rdsst&#246;d. 
+F&#246;rordning (2017:432).
+
+18 a &#167; Om v&#229;rdgivaren efter det att en ans&#246;kan enligt 18 &#167; har 
+gjorts inte l&#228;ngre uppfyller de krav som anges i 18 &#167; andra 
+stycket, eller om n&#229;gon s&#229;dan person som anges i 18 &#167; tredje 
+stycket ers&#228;tts av en annan person eller om n&#229;gon annan person 
+tillkommer, ska v&#229;rdgivaren utan dr&#246;jsm&#229;l anm&#228;la detta till 
+F&#246;rs&#228;kringskassan. F&#246;rordning (2019:114).
+
+18 b &#167; F&#246;rs&#228;kringskassan f&#229;r neka en v&#229;rdgivare anslutning 
+till det elektroniska systemet f&#246;r statligt tandv&#229;rdsst&#246;d om 
+v&#229;rdgivaren inte uppfyller kraven i 18 &#167; andra-fj&#228;rde 
+styckena.
+
+Anslutning f&#229;r &#228;ven nekas om n&#229;gon av de personer som 
+v&#229;rdgivaren l&#228;mnat uppgift om enligt 18 &#167; tredje stycket 
+tidigare har varit v&#229;rdgivare eller verksam hos en v&#229;rdgivare 
+som varit ansluten till F&#246;rs&#228;kringskassans elektroniska system 
+f&#246;r statligt tandv&#229;rdsst&#246;d och den v&#229;rdgivaren allvarligt har 
+&#229;sidosatt best&#228;mmelserna i lagen (2008:145) om statligt 
+tandv&#229;rdsst&#246;d eller i f&#246;reskrifter som har meddelats med st&#246;d 
+av lagen och som avser v&#229;rdgivarens skyldigheter eller 
+f&#246;ruts&#228;ttningar f&#246;r ers&#228;ttning. F&#246;rordning (2019:114).
+
+19 &#167; F&#246;rs&#228;kringskassan f&#229;r besluta att anslutningen till det 
+elektroniska systemet f&#246;r statligt tandv&#229;rdsst&#246;d ska upph&#246;ra 
+om v&#229;rdgivaren 
+
+1. skriftligen beg&#228;r att anslutningen ska upph&#246;ra,
+
+2. har upph&#246;rt att bedriva tandv&#229;rd, 
+
+3. inte l&#228;ngre uppfyller de krav som anges i 18 &#167; andra 
+stycket, 
+
+4. ers&#228;tter en s&#229;dan person som anges i 18 &#167; tredje stycket 
+med en annan person eller om n&#229;gon annan person tillkommer och 
+det medf&#246;r att f&#246;rh&#229;llandena &#228;r s&#229;dana att v&#229;rdgivaren hade 
+nekats anslutning enligt 18 b &#167; andra stycket om det varit 
+fr&#229;ga om en ans&#246;kan om anslutning, 
+
+5. allvarligt har &#229;sidosatt best&#228;mmelserna i lagen (2008:145) 
+om statligt tandv&#229;rdsst&#246;d eller i f&#246;reskrifter som har 
+meddelats med st&#246;d av lagen och som avser v&#229;rdgivarens 
+skyldigheter eller f&#246;ruts&#228;ttningar f&#246;r ers&#228;ttning, eller
+
+6. inte har p&#229;b&#246;rjat verksamheten senast sex m&#229;nader efter det 
+att F&#246;rs&#228;kringskassan meddelat beslut om anslutning.
+
+Om en anslutning har upph&#246;rt enligt f&#246;rsta stycket, f&#229;r beslut 
+om ny anslutning meddelas efter ans&#246;kan om f&#246;ruts&#228;ttningarna 
+f&#246;r anslutning &#228;r uppfyllda. F&#246;rordning (2019:114).
+
+F&#246;rs&#228;kringskassans uppgiftsskyldighet
+
+19 a &#167; F&#246;r att Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket ska 
+kunna fullg&#246;ra sin verksamhet i fr&#229;ga om beslut om 
+utformningen av det statliga tandv&#229;rdsst&#246;det och f&#246;lja upp 
+utvecklingen p&#229; tandv&#229;rdsomr&#229;det ska F&#246;rs&#228;kringskassan till 
+verket l&#228;mna uppgifter om:
+
+1. l&#246;pnummer f&#246;r patientens personnummer och i f&#246;rekommande 
+fall samordningsnummer,
+
+2. patientens k&#246;n och &#229;lder, tillst&#229;nds- respektive &#229;tg&#228;rdskod 
+f&#246;r den utf&#246;rda &#229;tg&#228;rden, tandnummer och tandposition, datum 
+n&#228;r &#229;tg&#228;rden slutf&#246;rdes samt i f&#246;rekommande fall om patienten 
+remitterats f&#246;r &#229;tg&#228;rden till tandl&#228;kare med bevis om 
+specialistkompetens,
+
+3. patientens ers&#228;ttningsperiod, start- och slutdatum samt 
+nyttjande av tandv&#229;rdsbidrag,
+
+4. v&#229;rdgivarens pris f&#246;r den utf&#246;rda &#229;tg&#228;rden f&#246;r den aktuella 
+patienten samt om huruvida behandlande tandl&#228;kare har bevis om 
+specialistkompetens,
+
+5. i f&#246;rekommande fall avtal om abonnemangstandv&#229;rd enligt 
+2 kap. 2 &#167; lagen (2008:145) om statligt tandv&#229;rdsst&#246;d, 
+abonnemangsperiod och om utf&#246;rd tandv&#229;rd som omfattas av 
+s&#229;dant avtal samt avgiften f&#246;r abonnemanget,
+
+6. referenspris per utf&#246;rd &#229;tg&#228;rd, med vilket belopp patienten 
+har f&#229;tt statligt tandv&#229;rdsst&#246;d, patientens pris per bes&#246;k, 
+ers&#228;ttningsgrundande belopp per bes&#246;k, v&#229;rdgivares pris f&#246;r 
+bes&#246;k, ackumulerat ers&#228;ttningsgrundande belopp under 
+ers&#228;ttningsperioden samt f&#246;rekommande korrigeringsbelopp,
+
+7. tandv&#229;rdsmottagningens geografiska l&#228;ge i fr&#229;ga om l&#228;n och 
+uppgifter om slag av v&#229;rdgivare: offentlig, privat eller 
+annan, eller i f&#246;rekommande fall om &#229;tg&#228;rden utf&#246;rdes i ett 
+annat EU- eller EES-land,
+
+8. l&#246;pnummer f&#246;r v&#229;rdgivares organisationsnummer och 
+tandv&#229;rdsmottagning,
+
+9. datum n&#228;r v&#229;rdgivares fordran mot staten uppkommer, datum 
+n&#228;r v&#229;rdgivares fordran mot staten regleras, datum n&#228;r &#228;rendet 
+registreras eller &#228;ndras i databas hos F&#246;rs&#228;kringskassan, och
+
+10. l&#246;pnummer f&#246;r administrativa uppgifter som &#228;rendenummer, 
+radnummer fr&#229;n databas hos F&#246;rs&#228;kringskassan, &#228;rendetyp och 
+&#228;rendestatus.
+
+Varje personnummer, samordningsnummer, organisationsnummer och 
+tandv&#229;rdsmottagningsnummer ska innan uppgifter enligt f&#246;rsta 
+stycket l&#228;mnas ut vara krypterade p&#229; ett s&#229;dant s&#228;tt att 
+identifiering inte &#228;r m&#246;jlig.
+
+Uppgifterna f&#229;r l&#228;mnas ut p&#229; medium f&#246;r automatiserad 
+behandling. F&#246;rordning (2019:116).
+
+19 b &#167; F&#246;r att Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket ska 
+kunna fullg&#246;ra sin verksamhet i fr&#229;ga om att tillhandah&#229;lla 
+information i en prisj&#228;mf&#246;relsetj&#228;nst f&#246;r tandv&#229;rd inom det 
+statliga tandv&#229;rdsst&#246;det ska F&#246;rs&#228;kringskassan till verket 
+l&#228;mna uppgifter om:
+
+1. &#229;tg&#228;rdskod och tandv&#229;rdsmottagningens pris f&#246;r varje utf&#246;rd 
+&#229;tg&#228;rd samt i f&#246;rekommande fall om patienten remitterats f&#246;r 
+&#229;tg&#228;rden till tandl&#228;kare med bevis om specialistkompetens,
+
+2. datum n&#228;r &#229;tg&#228;rden slutf&#246;rdes, 
+
+3. F&#246;rs&#228;kringskassans mottagningsidentitet och 
+tandv&#229;rdsmottagningens namn, adress, postnummer och ort,
+
+4. datum f&#246;r tandv&#229;rdsmottagningens anslutning till 
+F&#246;rs&#228;kringskassans elektroniska system f&#246;r statligt 
+tandv&#229;rdsst&#246;d och datum n&#228;r anslutningen ska upph&#246;ra,
+
+5. v&#229;rdgivarens namn, adress, postnummer, ort och 
+organisationsnummer samt slag av v&#229;rdgivare: offentlig, privat 
+eller annan, och
+
+6. administrativa uppgifter som &#228;rendetyp, &#228;rendestatus och 
+&#229;tg&#228;rdsstatus.
+
+Uppgifterna f&#229;r l&#228;mnas ut p&#229; medium f&#246;r automatiserad 
+behandling. F&#246;rordning (2019:116).
+
+&#214;vriga bemyndiganden
+
+20 &#167; F&#246;rs&#228;kringskassan f&#229;r meddela f&#246;reskrifter om
+
+1. ans&#246;kan om samt ber&#228;kning och utbetalning av ers&#228;ttning
+enligt lagen (2008:145) om statligt tandv&#229;rdsst&#246;d,
+
+2. abonnemangstandv&#229;rd,
+
+3. anm&#228;lan om ny ers&#228;ttningsperiod enligt 2 kap. 4 &#167; lagen om
+statligt tandv&#229;rdsst&#246;d och om n&#228;r en s&#229;dan period ska b&#246;rja
+l&#246;pa,
+
+4. anslutningen till F&#246;rs&#228;kringskassans elektroniska system f&#246;r
+statligt tandv&#229;rdsst&#246;d,
+
+5. v&#229;rdgivarens uppgiftsskyldighet enligt 3 kap. 3 &#167; f&#246;rsta
+stycket lagen om statligt tandv&#229;rdsst&#246;d,
+
+6. ans&#246;kan om f&#246;rhandspr&#246;vning,
+
+7. prislistor enligt 8 &#167;,
+
+8. behandlingsplaner enligt 10 &#167;, samt
+
+9. unders&#246;kningsprotokoll enligt 12 &#167;.
+
+F&#246;rs&#228;kringskassan f&#229;r meddela ytterligare f&#246;reskrifter om
+verkst&#228;lligheten av lagen om statligt tandv&#229;rdsst&#246;d och av
+denna f&#246;rordning.
+
+21 &#167; Socialstyrelsen f&#229;r meddela f&#246;reskrifter om v&#229;rdgivarens
+uppgiftsskyldighet enligt 3 kap. 3 &#167; andra stycket lagen
+(2008:145) om statligt tandv&#229;rdsst&#246;d.
+
+22 &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket f&#229;r meddela
+f&#246;reskrifter om n&#228;r f&#246;rhandspr&#246;vning ska ske i andra fall
+&#228;n som avses i 4 kap. 5–6 &#167;&#167; lagen (2008:145) om statligt
+tandv&#229;rdsst&#246;d. F&#246;rordning (2011:1184).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2008:193
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2008, d&#229;
+f&#246;rordningen (1998:1337) om tandv&#229;rdstaxa ska upph&#246;ra att
+g&#228;lla.
+
+2. F&#246;r tandv&#229;rds&#229;tg&#228;rder som har p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet
+g&#228;ller &#228;ldre ers&#228;ttningsbest&#228;mmelser.
+
+2008:844
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 december 2008. De
+upph&#228;vda bilagorna och 5 &#167; i sin &#228;ldre lydelse g&#228;ller dock
+fortfarande f&#246;r s&#229;dana tandv&#229;rds&#229;tg&#228;rder som har p&#229;b&#246;rjats f&#246;re
+utg&#229;ngen av december 2008.
+
+2017:432
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2017.
+
+2. De krav som anges i 18 &#167; tredje och fj&#228;rde styckena g&#228;ller 
+endast ans&#246;kningar om anslutning till F&#246;rs&#228;kringskassans 
+elektroniska system f&#246;r statligt tandv&#229;rdsst&#246;d som kommer in 
+till F&#246;rs&#228;kringskassan efter ikrafttr&#228;dandet.
+F&#246;rordning (2019:114).
+
+2018:106 
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 15 april 2018.
+
+2. F&#246;rordningen till&#228;mpas &#228;ven f&#246;r allm&#228;nt tandv&#229;rdsbidrag 
+som kunnat anv&#228;ndas f&#246;r betalning av ers&#228;ttningsber&#228;ttigande 
+tandv&#229;rds&#229;tg&#228;rder fr&#229;n och med den 1 juli 2016 eller fr&#229;n och 
+med den 1 juli 2017 och som l&#228;mnas efter ikrafttr&#228;dandet.
+
+2019:114
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 maj 2019.
+
+2. F&#246;r tandv&#229;rds&#229;tg&#228;rder som har p&#229;b&#246;rjats f&#246;re 
+ikrafttr&#228;dandet g&#228;ller 3 &#167; i den &#228;ldre lydelsen.
+
+
+Bilaga 1 Har upph&#228;vts genom f&#246;rordning (2008:844).
+
+Bilaga 2 Har upph&#228;vts genom f&#246;rordning (2008:844).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1995">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1997">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

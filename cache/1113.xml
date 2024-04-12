@@ -1,0 +1,822 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-10-04" /> 
+ <meta id="rattsinfo-edited" content="2023-10-04 10:34:58" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1113</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1112">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1114">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2015:284 ·
+                    <a href="/sfsr?bet=2015:284">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2015:284) med instruktion f&#246;r Socialstyrelsen</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2015-05-21
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:404
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2015-07-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Uppgifter
+
+Allm&#228;nna uppgifter
+
+1 &#167; Socialstyrelsen &#228;r f&#246;rvaltningsmyndighet f&#246;r verksamhet 
+som r&#246;r h&#228;lso- och sjukv&#229;rd och annan medicinsk verksamhet, 
+tandv&#229;rd, socialtj&#228;nst, st&#246;d och service till vissa personer 
+med funktionsneds&#228;ttning samt fr&#229;gor om alkohol och 
+missbruksmedel. Vidare ska Socialstyrelsen bist&#229; regeringen 
+med underlag och expertkunskap f&#246;r utvecklingen inom sitt 
+verksamhetsomr&#229;de.
+
+Socialstyrelsens ansvar g&#228;ller i den utstr&#228;ckning s&#229;dana 
+fr&#229;gor inte ska handl&#228;ggas av n&#229;gon annan myndighet. 
+F&#246;rordning (2023:404).
+
+1 a &#167; Socialstyrelsen &#228;r beredskapsmyndighet och 
+sektorsansvarig myndighet enligt f&#246;rordningen (2022:524) om 
+statliga myndigheters beredskap. F&#246;rordning (2022:560).
+
+2 &#167; Socialstyrelsen ska samordna de statliga insatserna inom 
+socialtj&#228;nst och h&#228;lso- och sjukv&#229;rd n&#228;r det g&#228;ller barn och 
+unga samt inf&#246;r beslut eller andra &#229;tg&#228;rder som r&#246;r barn 
+analysera konsekvenserna f&#246;r barn och d&#229; ta s&#228;rskild h&#228;nsyn 
+till barns b&#228;sta. 
+
+Socialstyrelsen har ett samlat ansvar, sektorsansvar, f&#246;r 
+genomf&#246;randet av det funktionshinderspolitiska m&#229;let med 
+anknytning till Socialstyrelsens verksamhetsomr&#229;de. 
+Socialstyrelsen ska inom ramen f&#246;r detta ansvar vara samlande, 
+st&#246;djande och p&#229;drivande i f&#246;rh&#229;llande till &#246;vriga ber&#246;rda 
+parter. 
+
+Socialstyrelsen ska inom sitt verksamhetsomr&#229;de fr&#228;mja 
+j&#228;mst&#228;lldhet samt ha ett samlat ansvar f&#246;r att fr&#228;mja lika 
+r&#228;ttigheter och m&#246;jligheter oavsett sexuell l&#228;ggning, 
+k&#246;nsidentitet och k&#246;nsuttryck. F&#246;rordning (2023:404).
+
+Uppgifter som r&#246;r statlig styrning med kunskap
+
+3 &#167; Best&#228;mmelser om statlig styrning med kunskap finns i
+f&#246;rordningen (2015:155) om statlig styrning med kunskap
+avseende h&#228;lso- och sjukv&#229;rd och socialtj&#228;nst.
+
+4 &#167; Socialstyrelsen ska
+
+1. genom kunskapsst&#246;d och f&#246;reskrifter bidra till att h&#228;lso- 
+och sjukv&#229;rden och socialtj&#228;nsten bedrivs enligt vetenskap och 
+bepr&#246;vad erfarenhet,
+
+2. ansvara f&#246;r kunskapsutveckling och kunskapsf&#246;rmedling inom 
+sitt verksamhetsomr&#229;de,
+
+3. arbeta med och ge st&#246;d till metodutveckling inom sitt 
+verksamhetsomr&#229;de,
+
+4. fr&#228;mja utvecklingen av metoder och arbetsformer i socialt 
+arbete genom forskning, systematisk pr&#246;vning och v&#228;rdering av 
+utfall och effekter 
+
+av insatser enligt socialtj&#228;nstlagen (2001:453) och lagen 
+(1993:387) om st&#246;d och service till vissa funktionshindrade, 
+inbegripet metoder som m&#246;jligg&#246;r f&#246;r enskilda att ge uttryck 
+f&#246;r sina &#229;sikter n&#228;r s&#229;dana insatser r&#246;r dem, samt f&#246;rmedla 
+kunskap om verkningsfulla metoder och arbetsformer,
+
+5. st&#246;dja familjehemsv&#229;rden och bidra till 
+kvalitetsutvecklingen p&#229; omr&#229;det,
+
+6. st&#246;dja h&#228;lso- och sjukv&#229;rdens arbete med f&#246;rs&#228;kringsmedicin 
+och bidra till kvalitetsutvecklingen p&#229; omr&#229;det,
+
+7. f&#246;lja, analysera och rapportera om h&#228;lsa, h&#228;lso- och 
+sjukv&#229;rd, socialtj&#228;nst samt st&#246;d och service till vissa 
+personer med funktionsneds&#228;ttning genom 
+statistikframst&#228;llning, uppf&#246;ljning, utv&#228;rdering och 
+epidemiologiska studier,
+
+8. f&#246;lja forsknings- och utvecklingsarbete av s&#228;rskild 
+betydelse inom sitt verksamhetsomr&#229;de och verka f&#246;r att s&#229;dant 
+arbete kommer till st&#229;nd,
+
+9. skapa och tillhandah&#229;lla enhetliga begrepp, termer och 
+klassifikationer inom sitt verksamhetsomr&#229;de,
+
+10. skapa, beskriva och tillhandah&#229;lla en &#228;ndam&#229;lsenlig 
+informationsstruktur inom sitt verksamhetsomr&#229;de, och 
+
+11. efter att ha h&#246;rt Livsmedelsverket utarbeta och sprida 
+objektivt och sakligt informations- och utbildningsmaterial om 
+uppf&#246;dning av sp&#228;dbarn och sm&#229;barn i enlighet med artikel 15 i 
+kommissionens direktiv 2006/141/EG av den 22 december 2006 om 
+modersmj&#246;lksers&#228;ttning och tillskottsn&#228;ring och om &#228;ndring av 
+direktiv 1999/21/EG, i lydelsen enligt kommissionens 
+f&#246;rordning (EG) nr 1243/2008. F&#246;rordning (2023:404).
+
+F&#246;rvaltningsuppgifter
+
+5 &#167; Socialstyrelsen ansvarar f&#246;r f&#246;rvaltningsuppgifter i 
+enlighet med vad som anges i lag och f&#246;rordning. 
+
+Myndigheten ska s&#228;rskilt ansvara f&#246;r 
+
+1. pr&#246;vning av s&#229;dana beh&#246;righetsfr&#229;gor som anges i 4 kap. 
+10 &#167; patients&#228;kerhetslagen (2010:659), inklusive pr&#246;vning 
+enligt 6 kap. 1 &#167; patients&#228;kerhetsf&#246;rordningen (2010:1369),
+
+2. officiell statistik enligt f&#246;rordningen (2001:100) om den 
+officiella statistiken, 
+
+3. h&#228;lsodataregister, och 
+
+4. att pr&#246;va fr&#229;gor om statsbidrag. 
+
+Vidare &#228;r Socialstyrelsen tillsynsv&#228;gledande myndighet i 
+enlighet med vad som anges i milj&#246;tillsynsf&#246;rordningen 
+(2011:13). F&#246;rordning (2016:13).
+
+6 &#167; Socialstyrelsen ska, ut&#246;ver vad som anges i andra 
+f&#246;rfattningar, ansvara f&#246;r
+
+1. att ta fram och utveckla statistik och register inom sitt 
+verksamhetsomr&#229;de, och
+
+2. att besluta om tillhandah&#229;llande och f&#246;rdelning av platser 
+till de specialistkompetenskurser som ing&#229;r i l&#228;kares 
+vidareutbildning och som anordnas med statliga medel.
+
+Myndigheten utf&#246;r de uppgifter som f&#246;ljer av f&#246;rordningen 
+(2016:157) om erk&#228;nnande av yrkeskvalifikationer.
+
+Myndigheten ska ansvara f&#246;r en f&#246;rteckning &#246;ver personer som 
+har f&#229;tt ers&#228;ttning enligt lagen (2012:663) om ers&#228;ttning p&#229; 
+grund av &#246;vergrepp eller f&#246;rsummelser i samh&#228;llsv&#229;rden av 
+barn och unga i vissa fall. Myndigheten ska &#228;ven ers&#228;tta 
+intyg som kommit bort och p&#229; beg&#228;ran l&#228;mna den information 
+till kommuner och myndigheter som f&#246;ljer av 17 &#167; samma lag.
+F&#246;rordning (2018:308).
+
+6 a &#167; Socialstyrelsen ska &#229;rligen senast den 31 mars till 
+regeringen (Socialdepartementet) l&#228;mna in l&#228;gesrapporter om 
+individ- och familjeomsorg, v&#229;rd och omsorg om &#228;ldre, 
+insatser och st&#246;d till personer med funktionsneds&#228;ttning samt 
+om tillst&#229;ndet och utvecklingen inom h&#228;lso- och sjukv&#229;rd och 
+tandv&#229;rd. F&#246;rordning (2018:1381).
+
+Uppgifter i fr&#229;ga om regelgivning
+
+7 &#167; Socialstyrelsen ansvarar f&#246;r f&#246;reskrifter och allm&#228;nna
+r&#229;d inom sitt verksamhetsomr&#229;de.
+
+Myndigheten kung&#246;r sina f&#246;reskrifter i samt &#228;r utgivande
+myndighet f&#246;r Gemensamma f&#246;rfattningssamlingen avseende
+h&#228;lso- och sjukv&#229;rd, socialtj&#228;nst, l&#228;kemedel, folkh&#228;lsa m.m.
+i enlighet med bilaga 1 till f&#246;rfattningssamlingsf&#246;rordningen
+(1976:725).
+
+Uppgifter som r&#246;r donations- och transplantationsfr&#229;gor
+
+7 a &#167; Socialstyrelsen ska ansvara f&#246;r nationell samordning 
+och spridning av kunskap avseende fr&#229;gor om donation och 
+transplantation av organ och v&#228;vnader.
+
+Myndigheten ska s&#228;rskilt 
+
+1. ansvara f&#246;r kunskapsst&#246;djande insatser inom donations- och 
+transplantationsomr&#229;det till h&#228;lso- och sjukv&#229;rden, 
+
+2. ansvara f&#246;r att allm&#228;nheten f&#229;r kontinuerlig information i 
+donationsfr&#229;gor, och
+
+3. verka f&#246;r &#228;ndam&#229;lsenliga m&#246;jligheter f&#246;r enskilda att g&#246;ra 
+sin inst&#228;llning till donation k&#228;nd. F&#246;rordning (2018:11).
+
+Uppgifter r&#246;rande beredskap
+
+8 &#167; Socialstyrelsen har ett samlat ansvar f&#246;r att expertis
+utvecklas och uppr&#228;tth&#229;lls samt att kunskap sprids om
+
+1. katastrofmedicin, och
+
+2. krisberedskap inom myndighetens verksamhetsomr&#229;de.
+
+Myndigheten ska verka f&#246;r att expertis inom dessa omr&#229;den
+st&#229;r till samh&#228;llets f&#246;rfogande vid kriser och katastrofer.
+
+Inom ramen f&#246;r vad som s&#228;gs i f&#246;rsta stycket, f&#229;r
+Socialstyrelsen finansiera verksamhet som bedrivs i
+kunskapscentrum vid de myndigheter som valts ut av
+myndigheten i syfte att uppr&#228;tth&#229;lla kvalificerad nationell
+kompetens inom katastrofmedicin och krisberedskap.
+Socialstyrelsen ska besluta om inriktningen f&#246;r s&#229;dan
+verksamhet som avses ovan och som finansieras av myndigheten
+samt st&#246;dja och f&#246;lja upp verksamheten och se till att den
+bedrivs effektivt.
+
+9 &#167; Socialstyrelsen ska
+
+1. samordna och &#246;vervaka planl&#228;ggningen av den civila h&#228;lso- 
+och sjukv&#229;rdens och socialtj&#228;nstens beredskap,
+
+2. inom sitt verksamhetsomr&#229;de fullg&#246;ra de uppgifter som 
+f&#246;ljer av Europaparlamentets och r&#229;dets beslut nr 1082/2013/EU 
+av den 22 oktober 2013 om allvarliga gr&#228;ns&#246;verskridande hot 
+mot m&#228;nniskors h&#228;lsa och om upph&#228;vande av beslut nr 
+2119/98/EG,
+
+3. p&#229; regeringens uppdrag samordna f&#246;rberedelserna f&#246;r 
+f&#246;rs&#246;rjningen med l&#228;kemedel och sjukv&#229;rdsmateriel inf&#246;r h&#246;jd 
+beredskap och f&#246;r att uppr&#228;tth&#229;lla en katastrofmedicinsk 
+beredskap, och
+
+4. vara sammanh&#229;llande myndighet i fr&#229;ga om 2002 &#229;rs nordiska 
+h&#228;lsoberedskapsavtal och verka f&#246;r att intentionerna i avtalet 
+genomf&#246;rs. F&#246;rordning (2022:560).
+
+Uppgifter inom det internationella samarbetet
+
+10 &#167; Socialstyrelsen ska f&#246;lja och medverka i EU-arbetet och 
+annat internationellt samarbete, i f&#246;rekommande fall p&#229; 
+instruktion fr&#229;n Regeringskansliet. Socialstyrelsen ska h&#229;lla 
+Regeringskansliet informerat om det arbete som myndigheten &#228;r 
+engagerad i.
+
+Socialstyrelsen ska
+
+1. vara nationell kontaktpunkt enligt Europaparlamentets och 
+r&#229;dets direktiv 2011/24/EU av den 9 mars 2011 om till&#228;mpning 
+av patientr&#228;ttigheter vid gr&#228;ns&#246;verskridande h&#228;lso- och 
+sjukv&#229;rd och fullg&#246;ra de uppgifter som en s&#229;dan kontaktpunkt 
+har enligt artiklarna 6.1 i fr&#229;ga om samr&#229;d, i den 
+ursprungliga lydelsen, 6.2, 6.3 och 6.5, i den ursprungliga 
+lydelsen, samt enligt artikel 4 i kommissionens 
+genomf&#246;randedirektiv 2012/52/EU av den 20 december 2012 om 
+&#229;tg&#228;rder f&#246;r att underl&#228;tta erk&#228;nnandet av recept som 
+utf&#228;rdats i en annan medlemsstat, i den ursprungliga lydelsen,
+
+2. vara nationell kontaktpunkt f&#246;r samordning av fr&#229;gor som 
+g&#228;ller genomf&#246;randet av artikel 5 i konventionen den 30 maj 
+2008 om klusterammunition,
+
+3. bidra till genomf&#246;randet av Sveriges politik f&#246;r global 
+utveckling,
+
+4. inom ramen f&#246;r arbetet inom V&#228;rldsh&#228;lsoorganisationen (WHO) 
+utse Chief Medical Officer, Chief Nurse Officer, Chief Dental 
+Officer och Chief Midwifery Officer, och
+
+5. vara kontaktpunkt och representant i styrelsen f&#246;r The 
+European Observatory on Health Systems and Policies. 
+F&#246;rordning (2023:404).
+
+Samverkan
+
+11 &#167; Socialstyrelsen ska samverka med relevanta akt&#246;rer inom
+sitt verksamhetsomr&#229;de f&#246;r att uppn&#229; m&#229;len med verksamheten.
+
+Myndighetens arbete med att styra med kunskap ska planeras
+och utf&#246;ras i samverkan med andra ber&#246;rda myndigheter s&#229; att
+den statliga styrningen med kunskap avseende av h&#228;lso- och
+sjukv&#229;rd och socialtj&#228;nst &#228;r samordnad.
+
+Best&#228;mmelser om samverkan med vissa andra myndigheter finns i
+f&#246;rordningen (2015:155) om statlig styrning med kunskap
+avseende h&#228;lso- och sjukv&#229;rd och socialtj&#228;nst.
+
+12 &#167; Socialstyrelsen ska s&#228;rskilt samverka med
+F&#246;rs&#228;kringskassan, Arbetsf&#246;rmedlingen och Arbetsmilj&#246;verket i
+syfte att uppn&#229; en effektivare anv&#228;ndning av tillg&#228;ngliga
+resurser inom rehabiliteringsomr&#229;det.
+
+Ledning
+
+13 &#167; Myndigheten leds av en styrelse. 
+
+Regeringen utser vice ordf&#246;rande i styrelsen.
+F&#246;rordning (2023:404).
+
+14 &#167; Styrelsen best&#229;r av h&#246;gst nio ledam&#246;ter. 
+F&#246;rordning (2016:13).
+
+Delegering
+
+14 a &#167; Styrelsen f&#229;r &#246;verl&#229;ta till myndighetschefen att 
+besluta Socialstyrelsens f&#246;reskrifter. Detta g&#228;ller inte 
+f&#246;reskrifter som har s&#228;rskild principiell betydelse eller 
+annars &#228;r av st&#246;rre vikt. F&#246;rordning (2016:13).
+
+Organisation
+
+15 &#167; Socialstyrelsen utf&#246;r administrativa och handl&#228;ggande
+uppgifter &#229;t H&#228;lso- och sjukv&#229;rdens ansvarsn&#228;mnd.
+
+15 a &#167; Vid myndigheten finns ett nationellt kompetenscentrum 
+f&#246;r &#228;ldreomsorg. 
+
+Socialstyrelsen ska genom kompetenscentrumet vara ett 
+nationellt st&#246;d till kommuner och verksamheter som ska &#246;ka 
+kunskapen om och bidra till utvecklingen av &#228;ldreomsorgen p&#229; 
+nationell niv&#229; genom att 
+
+1. arbeta ut&#229;triktat och verksamhetsn&#228;ra med att samla 
+information om kommuners och verksamheters organisation och 
+f&#246;ruts&#228;ttningar i fr&#229;ga om &#228;ldreomsorg, och 
+
+2. regelbundet samverka tv&#228;rprofessionellt med relevanta 
+akt&#246;rer och tillsammans med dem utveckla och st&#246;dja 
+implementering av m&#229;lgruppsanpassade praktiska st&#246;d och nya 
+arbetss&#228;tt inom &#228;ldreomsorgen.
+
+Kompetenscentrumet ska vid utf&#246;randet av sitt uppdrag anv&#228;nda 
+myndighetens samlade kompetens inom sina olika 
+verksamhetsomr&#229;den. 
+
+Myndigheten ska &#229;rligen redovisa kompetenscentrumets vidtagna 
+&#229;tg&#228;rder och aktiviteter till Regeringskansliet 
+(Socialdepartementet). Redovisningen ska &#246;verl&#228;mnas senast den 
+30 september &#229;ret efter det &#229;r som redovisningen avser. 
+F&#246;rordning (2022:1223).
+
+S&#228;rskilda organ
+
+R&#229;dgivande organ
+
+16 &#167; Har upph&#228;vts genom f&#246;rordning (2018:11).
+
+16 &#167; Inom myndigheten finns ett r&#229;dgivande organ som 
+ben&#228;mns Nationella r&#229;det f&#246;r specialiseringstj&#228;nstg&#246;ring. Det 
+r&#229;dgivande organet ska bist&#229; Socialstyrelsen med att 
+
+1. dela in och ben&#228;mna de specialiteter inom vilka 
+specialistkompetens kan uppn&#229;s samt med att avg&#246;ra vad som 
+ska kr&#228;vas f&#246;r att f&#229; bevis om specialistkompetens, 
+
+2. utarbeta m&#229;lbeskrivningar som avses i 4 kap. 5 &#167; 3 
+patients&#228;kerhetsf&#246;rordningen (2010:1369), 
+
+3. st&#246;dja huvudm&#228;nnen f&#246;r att uppn&#229; h&#246;g kvalitet i 
+specialiseringstj&#228;nstg&#246;ringen, 
+
+4. fr&#228;mja utbildning av handledare inom 
+specialiseringstj&#228;nstg&#246;ringen, 
+
+5. f&#246;lja upp kvaliteten i specialiseringstj&#228;nstg&#246;ringen, 
+samt
+
+6. utarbeta kriterier f&#246;r utbildande enheter f&#246;r att 
+s&#228;kerst&#228;lla att verksamheten har den bredd och inriktning som 
+beh&#246;vs f&#246;r att erbjuda specialiseringstj&#228;nstg&#246;ring av h&#246;g 
+kvalitet. 
+
+R&#229;det ska vidare bist&#229; Socialstyrelsen i fr&#229;gor om enskilda 
+l&#228;kares och tandl&#228;kares kompetens i f&#246;rh&#229;llande till 
+fastst&#228;llda m&#229;lbeskrivningar. 
+
+Om Socialstyrelsen best&#228;mmer det, f&#229;r r&#229;det &#228;ven fullg&#246;ra 
+andra uppgifter. F&#246;rordning (2018:1381).
+
+17 &#167; Nationella r&#229;det f&#246;r specialiseringstj&#228;nstg&#246;ring best&#229;r 
+av en ordf&#246;rande samt sju andra ledam&#246;ter f&#246;r fr&#229;gor om 
+l&#228;kares specialiseringstj&#228;nstg&#246;ring och sex andra ledam&#246;ter 
+f&#246;r fr&#229;gor om tandl&#228;kares specialiseringstj&#228;nstg&#246;ring. 
+Ordf&#246;randen ska vara en representant fr&#229;n Socialstyrelsen.
+
+F&#246;r fr&#229;gor om l&#228;kares specialiseringstj&#228;nstg&#246;ring ska minst en 
+av ledam&#246;terna utses p&#229; f&#246;rslag av Sveriges Kommuner och 
+Regioner, minst en p&#229; f&#246;rslag av Svenska L&#228;kares&#228;llskapet, 
+minst en p&#229; f&#246;rslag av Sveriges l&#228;karf&#246;rbund och minst en p&#229; 
+f&#246;rslag av Sveriges universitets- och h&#246;gskolef&#246;rbund.
+
+F&#246;r fr&#229;gor om tandl&#228;kares specialiseringstj&#228;nstg&#246;ring ska 
+minst en av ledam&#246;terna utses p&#229; f&#246;rslag av Sveriges Kommuner 
+och Regioner, minst en p&#229; f&#246;rslag av professionen, minst en p&#229; 
+f&#246;rslag av v&#229;rdgivarna och minst en p&#229; f&#246;rslag av Sveriges 
+universitets- och h&#246;gskolef&#246;rbund. F&#246;rordning (2020:133).
+
+17 a &#167; Inom myndigheten finns ett r&#229;dgivande organ som ben&#228;mns 
+Nationella v&#229;rdkompetensr&#229;det. Det r&#229;dgivande organet ska 
+bidra till en god planering av v&#229;rdens kompetensf&#246;rs&#246;rjning 
+genom att 
+
+1. g&#246;ra samlade bed&#246;mningar av kompetensf&#246;rs&#246;rjningsbehoven 
+baserade p&#229; tillg&#228;ngliga kunskapsunderlag och tillg&#228;ngligg&#246;ra 
+sammanst&#228;llningar av kunskapsunderlag, 
+
+2. st&#246;dja beslutsfattare och andra ber&#246;rda akt&#246;rer p&#229; 
+nationell och regional niv&#229; i fr&#229;gor av betydelse f&#246;r 
+kompetensf&#246;rs&#246;rjningen n&#228;r det g&#228;ller h&#228;lso- och 
+sjukv&#229;rdspersonal,
+
+3. &#229;stadkomma samverkan mellan och f&#246;ra dialog med ber&#246;rda 
+akt&#246;rer, och 
+
+4. st&#246;dja de sjukv&#229;rdsregionala r&#229;den.
+
+Myndigheten ansvarar f&#246;r administration, beredning och 
+f&#246;redragning av &#228;renden och d&#228;rmed sammanh&#228;ngande uppgifter. 
+
+Myndigheten ska &#229;rligen redovisa r&#229;dets vidtagna &#229;tg&#228;rder och 
+aktiviteter till Regeringskansliet (Socialdepartementet). 
+Redovisningen ska &#246;verl&#228;mnas senast den 28 februari &#229;ret efter 
+det &#229;r som redovisningen avser. F&#246;rordning (2021:201).
+
+17 b &#167; Nationella v&#229;rdkompetensr&#229;det best&#229;r av en ordf&#246;rande 
+och 13 andra ledam&#246;ter. Ordf&#246;randen ska ha kunskaper om s&#229;v&#228;l 
+h&#246;gskolesektorn som h&#228;lso- och sjukv&#229;rdssektorn. Av 
+ledam&#246;terna ska fem representera l&#228;ros&#228;tena, tre representera 
+regionerna, tv&#229; representera kommunerna, en representera 
+Socialstyrelsen, en representera Universitetskanslers&#228;mbetet 
+och en representera de sjukv&#229;rdsregionala r&#229;den.
+F&#246;rordning (2021:201).
+
+Beslutande organ
+
+18 &#167; Inom myndigheten finns ett s&#228;rskilt beslutsorgan som 
+ben&#228;mns Socialstyrelsens r&#229;d f&#246;r vissa r&#228;ttsliga, sociala och 
+medicinska fr&#229;gor. Beslutsorganet ska avg&#246;ra 
+
+1. r&#228;ttsmedicinska &#228;renden,
+
+2. &#228;renden om fastst&#228;llelse av k&#246;nstillh&#246;righet eller 
+tillst&#229;nd till ingrepp i k&#246;nsorgan enligt lagen (1972:119) om 
+fastst&#228;llande av k&#246;nstillh&#246;righet i vissa fall, 
+
+3. &#228;renden om tillst&#229;nd till sterilisering enligt 
+steriliseringslagen (1975:580),
+
+4. &#228;renden om tillst&#229;nd till ing&#229;ende av &#228;ktenskap enligt 
+15 kap. 1 &#167; &#228;ktenskapsbalken, 
+
+5. &#228;renden om tillst&#229;nd till abort och tillst&#229;nd till 
+avbrytande av havandeskap enligt abortlagen (1974:595),
+
+6. &#228;renden om insemination eller befruktning utanf&#246;r kroppen 
+som har v&#228;grats enligt lagen (2006:351) om genetisk 
+integritet m.m.,
+
+7. &#228;renden om utl&#229;tande om en persons h&#228;lsotillst&#229;nd i 
+samband med pr&#246;vning av en persons l&#228;mplighet att ta emot ett 
+barn med hemvist utomlands i syfte att adoptera det, 
+
+8. &#228;renden d&#228;r Socialstyrelsen ska yttra sig &#246;ver en s&#229;dan 
+utredning med ett utl&#229;tande om risk f&#246;r &#229;terfall i 
+brottslighet som avses i 10 &#167; lagen (2006:45) om omvandling 
+av f&#228;ngelse p&#229; livstid, och 
+
+9. andra &#228;renden i vilka Socialstyrelsen p&#229; beg&#228;ran av en 
+domstol, en &#229;klagarmyndighet eller Polismyndigheten ska avge 
+ett utl&#229;tande om n&#229;gons h&#228;lsotillst&#229;nd. 
+
+Om Socialstyrelsen best&#228;mmer det, f&#229;r r&#229;det avg&#246;ra &#228;ven andra 
+&#228;renden.
+
+R&#229;det best&#229;r av en ordf&#246;rande, tv&#229; ers&#228;ttare f&#246;r ordf&#246;randen 
+och det antal ledam&#246;ter som regeringen best&#228;mmer. Ordf&#246;randen 
+och hans eller hennes ers&#228;ttare ska ha erfarenhet som 
+lagfaren domare. F&#246;rordning (2018:1381).
+
+18 a &#167; Socialstyrelsens r&#229;d f&#246;r vissa r&#228;ttsliga, sociala 
+och medicinska fr&#229;gor ansvarar f&#246;r sina beslut. R&#229;det 
+ansvarar f&#246;r sin verksamhet inf&#246;r myndighetens ledning.
+F&#246;rordning (2018:1381).
+
+18 b &#167; Myndighetens ledning ansvarar inf&#246;r regeringen f&#246;r 
+att Socialstyrelsens r&#229;d f&#246;r vissa r&#228;ttsliga, sociala och 
+medicinska fr&#229;gor tilldelas medel och resurser f&#246;r sin 
+verksamhet samt f&#246;r att verksamheten bedrivs 
+f&#246;rfattningsenligt och effektivt och redovisas p&#229; ett 
+tillf&#246;rlitligt s&#228;tt. F&#246;rordning (2018:1381).
+
+19 &#167; Inom myndigheten finns ett s&#228;rskilt beslutsorgan som 
+ben&#228;mns N&#228;mnden f&#246;r nationell h&#246;gspecialiserad v&#229;rd. 
+Beslutsorganet ska fatta beslut om tillst&#229;nd och villkor f&#246;r 
+att bedriva nationell h&#246;gspecialiserad v&#229;rd samt om 
+&#229;terkallelse av ett s&#229;dant tillst&#229;nd enligt 7 kap. 5 a &#167; 
+h&#228;lso- och sjukv&#229;rdslagen (2017:30).
+
+Om Socialstyrelsen best&#228;mmer det, f&#229;r n&#228;mnden &#228;ven fullg&#246;ra 
+andra uppgifter.
+
+N&#228;mnden f&#246;r nationell h&#246;gspecialiserad v&#229;rd best&#229;r av en 
+ordf&#246;rande och sex andra ledam&#246;ter. Varje ledamot ska ha en 
+ers&#228;ttare. Ordf&#246;randen och dennes ers&#228;ttare ska vara 
+representanter fr&#229;n Socialstyrelsen. &#214;vriga ledam&#246;ter och 
+deras ers&#228;ttare ska representera regionerna.
+F&#246;rordning (2019:1106).
+
+19 a &#167; N&#228;mnden f&#246;r nationell h&#246;gspecialiserad v&#229;rd ansvarar 
+f&#246;r sina beslut. N&#228;mnden ansvarar f&#246;r sin verksamhet inf&#246;r 
+myndighetens ledning. F&#246;rordning (2018:145).
+
+19 b &#167; Myndighetens ledning ansvarar inf&#246;r regeringen f&#246;r att 
+N&#228;mnden f&#246;r nationell h&#246;gspecialiserad v&#229;rd tilldelas medel 
+och resurser f&#246;r sin verksamhet samt f&#246;r att verksamheten 
+bedrivs f&#246;rfattningsenligt och effektivt och redovisas p&#229; ett 
+tillf&#246;rlitligt s&#228;tt. F&#246;rordning (2018:145).
+
+Anst&#228;llningar och uppdrag
+
+20 &#167; Generaldirekt&#246;ren &#228;r myndighetschef.
+
+21 &#167; Generaldirekt&#246;ren &#228;r enligt f&#246;rordningen (2015:155) om
+statlig styrning med kunskap avseende h&#228;lso- och sjukv&#229;rd och
+socialtj&#228;nst ordf&#246;rande i R&#229;det f&#246;r statlig styrning med
+kunskap avseende h&#228;lso- och sjukv&#229;rd och socialtj&#228;nst samt i
+Huvudmannagruppen f&#246;r behovsanpassad styrning med kunskap
+avseende h&#228;lso- och sjukv&#229;rd och socialtj&#228;nst.
+
+22 &#167; Ledam&#246;terna i Nationella r&#229;det f&#246;r 
+specialiseringstj&#228;nstg&#246;ring utses av Socialstyrelsen f&#246;r en 
+best&#228;md tid. F&#246;rordning (2018:1381).
+
+22 a &#167; Ledam&#246;terna i Nationella v&#229;rdkompetensr&#229;det utses av 
+regeringen f&#246;r en best&#228;md tid. Med undantag f&#246;r ordf&#246;randen 
+utses ledam&#246;terna i r&#229;det p&#229; gemensamt f&#246;rslag av 
+Socialstyrelsen och Universitetskanslers&#228;mbetet. 
+F&#246;rordning (2021:201).
+
+23 &#167; Ledam&#246;terna i Socialstyrelsens r&#229;d f&#246;r vissa r&#228;ttsliga, 
+sociala och medicinska fr&#229;gor utses av regeringen f&#246;r en 
+best&#228;md tid efter f&#246;rslag fr&#229;n Socialstyrelsen. Ledam&#246;ter som 
+kan anses f&#246;retr&#228;da allm&#228;nhetens intresse utses dock av 
+regeringen f&#246;r en best&#228;md tid. F&#246;rordning (2019:77).
+
+23 a &#167; De ledam&#246;ter som ska representera regionerna i N&#228;mnden 
+f&#246;r nationell h&#246;gspecialiserad v&#229;rd utses av regeringen f&#246;r en 
+best&#228;md tid. Detsamma g&#228;ller f&#246;r ledam&#246;ternas ers&#228;ttare.
+F&#246;rordning (2019:1106).
+
+Personalansvarsn&#228;mnd
+
+24 &#167; Vid myndigheten ska det finnas en personalansvarsn&#228;mnd.
+
+Till&#228;mpligheten av vissa f&#246;rordningar
+
+25 &#167; Myndigheten ska till&#228;mpa personalf&#246;retr&#228;darf&#246;rordningen 
+(1987:1101) och internrevisionsf&#246;rordningen (2006:1228).
+F&#246;rordning (2016:13).
+
+&#214;verklagande
+
+26 &#167; Har upph&#228;vts genom f&#246;rordning (2023:404).
+
+27 &#167; Socialstyrelsens beslut om tillhandah&#229;llande och
+f&#246;rdelning av platser till de specialistkompetenskurser som
+ing&#229;r i l&#228;kares vidareutbildning och som anordnas med
+statliga medel f&#229;r inte &#246;verklagas.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2016:13
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2016 i fr&#229;ga om 25 &#167; 
+och i &#246;vrigt den 1 mars 2016. 
+
+2018:1381
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 augusti 2018.
+
+2. En ledamot i Socialstyrelsens r&#229;d f&#246;r vissa r&#228;ttsliga, 
+sociala och medicinska fr&#229;gor som har utsetts med st&#246;d av 
+&#228;ldre f&#246;reskrifter kvarst&#229;r som ledamot i r&#229;det under den tid 
+som denne har utsetts f&#246;r.
+
+2021:201
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 maj 2021. 
+
+2. Den f&#246;rsta redovisningen enligt 17 a &#167; ska &#246;verl&#228;mnas till 
+Regeringskansliet (Socialdepartementet) senast den 28 februari 
+2022.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1112">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1114">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

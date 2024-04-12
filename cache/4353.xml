@@ -1,0 +1,603 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2020-03-19" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4353</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4352">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4354">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1962:652 ·
+                    <a href="/sfsr?bet=1962:652">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1962:652) om Sveriges f&#246;rfattarfond</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Kulturdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1962-11-23
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Omtryck:</span> SFS 1979:394
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:1270
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om statlig
+biblioteksers&#228;ttning f&#246;r litter&#228;ra verk och om styrelsen f&#246;r
+Sveriges f&#246;rfattarfond. F&#246;rordning (2014:1522).
+
+1 a &#167; &#196;ndam&#229;let med biblioteksers&#228;ttningen &#228;r att fr&#228;mja
+litteraturens utveckling och bidra till att f&#246;rb&#228;ttra de
+litter&#228;ra upphovsm&#228;nnens ekonomiska villkor genom att ers&#228;tta
+dem f&#246;r tillg&#229;ngen till och anv&#228;ndningen av deras verk p&#229;
+bibliotek. F&#246;rordning (2014:1522).
+
+2 &#167; Verksamheten vid Sveriges f&#246;rfattarfond leds av
+styrelsen. F&#246;rordning (2014:1522).
+
+3 &#167; I denna f&#246;rordning avses med
+
+bibliotek: folkbibliotek och skolbibliotek,
+
+referensexemplar: volym av ett litter&#228;rt verk som vid en viss
+tidpunkt under kalender&#229;ret funnits tillg&#228;nglig p&#229; bibliotek
+f&#246;r l&#228;sning men inte f&#246;r heml&#229;n.
+
+Det som s&#228;gs om upphovsm&#228;n till litter&#228;ra verk ska till&#228;mpas
+&#228;ven betr&#228;ffande illustrat&#246;rer, bildkonstn&#228;rer och fotografer
+n&#228;r det g&#228;ller s&#229;dana litter&#228;ra verk som till v&#228;sentlig del
+best&#229;r av illustrationer, bildkonst eller fotografier, om
+inte annat anges. F&#246;rordning (2014:1522).
+
+4 &#167; Till fonden &#246;verf&#246;rs det varje &#229;r av statsmedel en
+biblioteksers&#228;ttning med
+
+– ett grundbelopp f&#246;r varje heml&#229;n fr&#229;n bibliotek av ett
+fysiskt exemplar av ett litter&#228;rt verk i original,
+
+– fyra g&#229;nger grundbeloppet f&#246;r varje referensexemplar av ett
+s&#229;dant verk,
+
+– h&#228;lften av grundbeloppet f&#246;r varje heml&#229;n av ett fysiskt
+exemplar av ett litter&#228;rt verk i &#246;vers&#228;ttning till eller fr&#229;n
+svenska spr&#229;ket, och
+
+– tv&#229; g&#229;nger grundbeloppet f&#246;r varje referensexemplar av en
+s&#229;dan &#246;vers&#228;ttning.
+
+Med litter&#228;rt verk i original enligt f&#246;rsta stycket avses
+verk som upphovsmannen har skrivit p&#229; svenska eller verk av
+en upphovsman som har sin vanliga vistelseort i Sverige, om
+upphovsr&#228;tt enligt lagen (1960:729) om upphovsr&#228;tt till
+litter&#228;ra och konstn&#228;rliga verk fortfarande g&#228;ller.
+
+F&#246;rsta stycket g&#228;ller i fr&#229;ga om &#246;vers&#228;ttning till eller fr&#229;n
+svenska spr&#229;ket om upphovsr&#228;tt till &#246;vers&#228;ttningen enligt
+lagen om upphovsr&#228;tt till litter&#228;ra och konstn&#228;rliga verk
+fortfarande g&#228;ller.
+
+Har ett verk tv&#229; eller flera upphovsm&#228;n eller &#246;vers&#228;ttare
+g&#228;ller andra och tredje styckena om en av dem uppfyller
+kraven. F&#246;rordning (2014:1522).
+
+4 a &#167; Storleken p&#229; grundbeloppet i 4 &#167; best&#228;ms genom
+&#246;verenskommelse mellan regeringen, Sveriges F&#246;rfattarf&#246;rbund,
+F&#246;reningen Svenska Tecknare och Svenska Fotografers F&#246;rbund.
+
+Biblioteksers&#228;ttningen ber&#228;knas med utg&#229;ngspunkt fr&#229;n
+medelv&#228;rdet av antalet heml&#229;n och referensexemplar under tv&#229;
+kalender&#229;r i f&#246;ljd (ber&#228;kningsperiod).
+
+Medelv&#228;rdet under en ber&#228;kningsperiod ska utg&#246;ra grunden f&#246;r
+den biblioteksers&#228;ttning som &#246;verf&#246;rs under tv&#229; &#229;r i f&#246;ljd,
+med b&#246;rjan tre &#229;r efter det sista kalender&#229;ret i
+ber&#228;kningsperioden. F&#246;rordning (2014:1522).
+
+5 &#167; Fr&#229;n fonden ska ers&#228;ttning l&#228;mnas till enskilda
+upphovsm&#228;n till litter&#228;ra verk i original f&#246;r antalet heml&#229;n
+av fysiska exemplar fr&#229;n bibliotek och f&#246;r antalet fysiska
+referensexemplar av verket (individuell ers&#228;ttning till
+f&#246;rfattare).
+
+Fr&#229;n fonden ska ers&#228;ttning l&#228;mnas till enskilda &#246;vers&#228;ttare
+av litter&#228;ra verk till eller fr&#229;n svenska spr&#229;ket f&#246;r antalet
+heml&#229;n av fysiska exemplar fr&#229;n bibliotek och f&#246;r antalet
+referensexemplar av verket (individuell ers&#228;ttning till
+&#246;vers&#228;ttare).
+
+F&#246;rsta stycket g&#228;ller endast om antalet upphovsm&#228;n till ett
+verk &#228;r h&#246;gst tre och upphovsmannen har skrivit p&#229; svenska
+eller har sin vanliga vistelseort i Sverige och upphovsr&#228;tt
+till verket enligt lagen (1960:729) om upphovsr&#228;tt till
+litter&#228;ra och konstn&#228;rliga verk fortfarande g&#228;ller.
+
+Andra stycket g&#228;ller om antalet &#246;vers&#228;ttare till verket &#228;r
+h&#246;gst tre och upphovsr&#228;tt till &#246;vers&#228;ttningen fortfarande
+g&#228;ller. F&#246;rordning (2014:1522).
+
+6 &#167; Individuell ers&#228;ttning till f&#246;rfattare l&#228;mnas med 60
+procent av grundbeloppet enligt 4 a &#167; f&#246;r varje heml&#229;n och
+fyra g&#229;nger detta belopp f&#246;r varje referensexemplar. Finns
+det tv&#229; eller tre ers&#228;ttningsber&#228;ttigade upphovsm&#228;n, ska
+ers&#228;ttningen delas lika mellan dem.
+
+N&#228;r det g&#228;ller litter&#228;ra verk som till en v&#228;sentlig del
+best&#229;r av illustrationer, bildkonst eller fotografier f&#229;r
+dock styrelsen best&#228;mma en annan f&#246;rdelning av ers&#228;ttningen
+mellan &#229; ena sidan f&#246;rfattare och &#229; andra sidan illustrat&#246;r,
+bildkonstn&#228;r eller fotograf.
+
+Individuell ers&#228;ttning till &#246;vers&#228;ttare l&#228;mnas med 30 procent
+av grundbeloppet f&#246;r varje heml&#229;n av litter&#228;rt verk i
+&#246;vers&#228;ttning och fyra g&#229;nger detta belopp f&#246;r varje
+referensexemplar av s&#229;dan &#246;vers&#228;ttning.
+
+Finns det tv&#229; eller tre ers&#228;ttningsber&#228;ttigade &#246;vers&#228;ttare
+till ett litter&#228;rt verk, ska ers&#228;ttningen delas lika mellan
+dem. F&#246;rordning (2014:1522).
+
+6 a &#167; Ers&#228;ttning enligt 6 &#167; l&#228;mnas f&#246;r varje kalender&#229;r och
+ber&#228;knas p&#229; antalet heml&#229;n och referensexemplar f&#246;r
+kalender&#229;ret f&#246;re det &#229;r ers&#228;ttningen avser. Ber&#228;kningen av
+ers&#228;ttningen till en upphovsman ska samordnas i fr&#229;ga om
+heml&#229;n och referensexemplar i original och &#246;vers&#228;ttningar.
+
+En upphovsman &#228;r inte ber&#228;ttigad till ers&#228;ttning om den
+sammanlagda ers&#228;ttningen understiger ett belopp som motsvarar
+ers&#228;ttning f&#246;r 2 000 l&#229;n av verk i original. &#214;verstiger
+ers&#228;ttningen ett belopp som motsvarar ers&#228;ttning f&#246;r 200 000
+l&#229;n av verk i original, ska ers&#228;ttningen minskas med 80
+procent av den &#246;verstigande delen. &#214;verstiger ers&#228;ttningen
+ett belopp som motsvarar ers&#228;ttning f&#246;r 400 000 l&#229;n av verk i
+original, ska ers&#228;ttningen minskas med 90 procent till den
+del den &#246;verstiger denna niv&#229;.
+
+Styrelsen f&#229;r besluta att ers&#228;ttningen till en viss
+upphovsman ska l&#228;mnas med h&#246;gre belopp &#228;n vad som f&#246;ljer av
+6 &#167; samt av f&#246;rsta och andra styckena i denna best&#228;mmelse.
+F&#246;rordning (2014:1522).
+
+7 &#167; Ut&#246;ver individuella ers&#228;ttningar till f&#246;rfattare och
+&#246;vers&#228;ttare f&#229;r biblioteksers&#228;ttningen anv&#228;ndas till
+
+1. verksamheten vid Sveriges f&#246;rfattarfond,
+
+2. stipendier och bidrag till enskilda upphovsm&#228;n till
+litter&#228;ra verk och bidrag till deras efterlevande,
+
+3. bidrag till upphovsm&#228;nnens organisationer f&#246;r insatser som
+syftar till att st&#228;rka de litter&#228;ra upphovsm&#228;nnens st&#228;llning,
+och
+
+4. bidrag till s&#228;rskilda &#228;ndam&#229;l som avser litter&#228;r
+verksamhet. F&#246;rordning (2015:393).
+
+8 &#167; Antalet heml&#229;n och referensexemplar av litter&#228;ra verk som
+avses i 4 och 5 &#167;&#167; ska best&#228;mmas genom &#229;rliga unders&#246;kningar
+som genomf&#246;rs av Sveriges f&#246;rfattarfond.
+F&#246;rordning (2014:1522).
+
+9 &#167; Efter upphovsmannens d&#246;d &#246;verg&#229;r r&#228;tten till individuell 
+ers&#228;ttning enligt lagstiftningen om bodelning, arv och 
+testamente.  
+
+R&#228;tten till individuell ers&#228;ttning &#246;verg&#229;r dock inte om 
+ers&#228;ttningen till den enskilda mottagaren understiger h&#228;lften 
+av den niv&#229; som ber&#228;ttigar en upphovsman till ers&#228;ttning 
+enligt 6 a &#167;. 
+
+R&#228;tten till individuell ers&#228;ttning som inte &#228;r tillg&#228;nglig 
+f&#246;r lyftning kan inte &#246;verl&#229;tas och f&#229;r d&#228;rf&#246;r inte utm&#228;tas. 
+F&#246;rordning (2015:797).
+
+10 &#167; Individuell ers&#228;ttning tillfaller fonden, om den fem &#229;r
+efter utg&#229;ngen av det kalender&#229;r som ers&#228;ttningen g&#228;ller
+fortfarande inte har kunnat betalas ut till r&#228;tt mottagare p&#229;
+grund av att mottagarens adress &#228;r ok&#228;nd eller det inte
+kunnat styrkas till vem en upphovsmans r&#228;tt har &#246;verg&#229;tt.
+F&#246;rordning (2014:1522).
+
+11 &#167; Styrelsen f&#246;r f&#246;rfattarfonden ska best&#229; av en ordf&#246;rande
+och tio andra ledam&#246;ter.
+
+Ordf&#246;randen och tv&#229; andra ledam&#246;ter f&#246;rordnas av regeringen.
+Av &#246;vriga ledam&#246;ter utses sex av Sveriges F&#246;rfattarf&#246;rbund,
+en av F&#246;reningen Svenska Tecknare och en av Svenska
+Fotografers F&#246;rbund.
+
+Ordf&#246;rande och &#246;vriga ledam&#246;ter utses f&#246;r h&#246;gst tre &#229;r i
+s&#228;nder.
+
+Styrelsen v&#228;ljer inom sig vice ordf&#246;rande.
+
+Regeringen best&#228;mmer ers&#228;ttningen till ordf&#246;rande och
+ledam&#246;ter. F&#246;rordning (2015:393).
+
+12 &#167; Styrelsen ska utse ett s&#228;rskilt organ med ledam&#246;ter som 
+p&#229; styrelsens v&#228;gnar fattar beslut i fr&#229;gor om bidrag till 
+dramatiker enligt f&#246;rordningen (2019:1269) om statsbidrag till 
+konstn&#228;rer och om bidrag enligt f&#246;rordningen (1998:1369) om 
+statsbidrag f&#246;r best&#228;llning av nyskriven svensk dramatik. Det 
+s&#228;rskilda organet ska best&#229; av en ordf&#246;rande och fem andra 
+ledam&#246;ter. Fyra av ledam&#246;terna ska utses efter f&#246;rslag av 
+Sveriges Dramatikerf&#246;rbund. 
+
+Styrelsen f&#229;r ocks&#229; utse andra s&#228;rskilda organ och delegera 
+r&#228;tten att fatta beslut till dessa. F&#246;rordning (2019:1270).
+
+13 &#167; Styrelsen anst&#228;ller den personal som beh&#246;vs f&#246;r
+verksamheten.
+
+Styrelsen f&#229;r anlita sakkunniga och experter f&#246;r s&#228;rskilda
+uppdrag. F&#246;rordning (2014:1522).
+
+14 &#167; Styrelsen &#228;r beslutsf&#246;r om minst h&#228;lften av ledam&#246;terna
+&#228;r n&#228;rvarande ut&#246;ver ordf&#246;randen. F&#246;rordning (2014:1522).
+
+15 &#167; Har upph&#228;vts genom f&#246;rordning (2014:1522).
+
+16 &#167; Styrelsen ska fatta de beslut som beh&#246;vs om arbetet inom
+styrelsen, s&#228;rskilda organ, personalfr&#229;gor och formen i
+&#246;vrigt f&#246;r verksamheten. F&#246;rordning (2014:1522).
+
+17 &#167; Styrelsen f&#229;r av myndigheter beg&#228;ra de upplysningar och
+det bist&#229;nd som kr&#228;vs f&#246;r styrelsens verksamhet och som kan
+l&#228;mnas av myndigheterna. F&#246;rordning (2014:1522).
+
+18 &#167; Styrelsen ska &#229;rligen till Regeringskansliet
+(Kulturdepartementet) l&#228;mna en verksamhetsber&#228;ttelse med en
+ekonomisk redovisning och en rapport av en auktoriserad
+revisor &#246;ver granskningen av r&#228;kenskaperna och den ekonomiska
+redovisningen.
+
+Om rapporten inneh&#229;ller n&#229;gon inv&#228;ndning, ska styrelsen
+redovisa f&#246;r regeringen vilka &#229;tg&#228;rder man har vidtagit eller
+avser att vidta med anledningen av inv&#228;ndningen.
+
+Styrelsen ska ocks&#229; l&#228;mna in budgetunderlag med f&#246;rslag till
+finansiering av verksamheten f&#246;r de tre n&#228;stkommande
+budget&#229;ren.
+
+Styrelsen ansvarar f&#246;r att utse en auktoriserad revisor.
+F&#246;rordning (2014:1522).
+
+19 &#167; Styrelsens beslut i anst&#228;llnings&#228;renden f&#229;r &#246;verklagas
+hos Statens &#246;verklaganden&#228;mnd. N&#228;mndens beslut f&#229;r inte
+&#246;verklagas.
+
+Andra beslut enligt denna f&#246;rordning f&#229;r inte &#246;verklagas.
+F&#246;rordning (2014:1522).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1983:613
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1983. Den skall till&#228;mpas
+f&#246;rsta g&#229;ngen i fr&#229;ga om heml&#229;n som har skett efter utg&#229;ngen av &#229;r
+1982 och p&#229; referensexemplar som har funnits tillg&#228;ngligt efter
+samma tidpunkt.
+
+1984:584
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1984. Den skall i fr&#229;ga om
+4 och 6 &#167;&#167; till&#228;mpas f&#246;rsta g&#229;ngen i fr&#229;ga om heml&#229;n som har skett efter
+utg&#229;ngen av &#229;r 1983 och p&#229; referensexemplar som har funnits tillg&#228;ngligt
+efter samma tidpunkt.
+
+1985:546
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1985. Den skall till&#228;mpas
+f&#246;rsta g&#229;ngen i fr&#229;ga om heml&#229;n som har skett efter utg&#229;ngen av &#229;r
+1984 och p&#229; referensexemplar som har funnits tillg&#228;ngligt efter samma
+tidpunkt.
+
+1986:1257
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1987. Den skall i fr&#229;ga om
+4 och 6 &#167;&#167; till&#228;mpas f&#246;rsta g&#229;ngen i fr&#229;ga om heml&#229;n som har skett efter
+utg&#229;ngen av &#229;r 1985 och p&#229; referensexemplar som har funnits tillg&#228;ngligt
+efter samma tidpunkt.
+
+1987:506
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1987. Den skall i fr&#229;ga om
+4 och 6 &#167;&#167; till&#228;mpas f&#246;rsta g&#229;ngen p&#229; heml&#229;n som har skett efter
+utg&#229;ngen av &#229;r 1986 och p&#229; referensexemplar som har funnits tillg&#228;ngligt
+efter samma tidpunkt.
+
+1988:1548
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1989. Den skall i fr&#229;ga om
+4 och 6 &#167;&#167; till&#228;mpas f&#246;rsta g&#229;ngen i fr&#229;ga om heml&#229;n som har skett efter
+utg&#229;ngen av &#229;r 1987 och p&#229; referensexemplar som har funnits tillg&#228;ngligt
+efter samma tidpunkt.
+
+1989:415
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1989. Den skall till&#228;mpas
+f&#246;rsta g&#229;ngen p&#229; heml&#229;n som har skett efter utg&#229;ngen av &#229;r 1988 och p&#229;
+referensexemplar som har funnits tillg&#228;ngligt efter samma tidpunkt.
+
+1990:1481
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1991. Den skall till&#228;mpas
+f&#246;rsta g&#229;ngen p&#229; heml&#229;n som har skett efter utg&#229;ngen av &#229;r 1989 och p&#229;
+referensexemplar som har funnits tillg&#228;ngligt efter samma tidpunkt.
+
+1991:551
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1991. Den skall till&#228;mpas
+f&#246;rsta g&#229;ngen p&#229; heml&#229;n som har skett efter utg&#229;ngen av &#229;r 1990 och
+p&#229; referensexemplar som har funnits tillg&#228;ngligt efter samma tidpunkt.
+
+1993:240
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juni 1993. Den skall i fr&#229;ga
+om 6 &#167; till&#228;mpas p&#229; ers&#228;ttning avseende kalender&#229;ret 1993.
+
+1993:1366
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1994. Den skall i fr&#229;ga
+om 6 &#167; till&#228;mpas p&#229; ers&#228;ttning avseende kalender&#229;ret 1994.
+
+1993:1451
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1994 och till&#228;mpas f&#246;rsta
+g&#229;ngen f&#246;r budget&#229;ret 1995/96.
+
+1995:321
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 maj 1995. Den skall i fr&#229;ga om
+6 &#167; till&#228;mpas p&#229; ers&#228;ttning avseende kalender&#229;ret 1995.
+
+1995:634
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1995. Den skall i fr&#229;ga
+om 6 &#167; f&#246;rsta g&#229;ngen till&#228;mpas p&#229; ers&#228;ttning avseende kalender&#229;ret
+1996.
+
+2002:1151
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 februari 2003. Den skall
+dock tilll&#228;mpas f&#246;r tid fr&#229;n och med den 1 januari 2003.
+
+2007:1437
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 februari 2008. De nya
+best&#228;mmelserna ska dock till&#228;mpas f&#246;r tid fr&#229;n och med den 1
+januari 2008.
+
+2014:1522
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2015.
+
+2. F&#246;r individuell ers&#228;ttning som har &#246;verg&#229;tt genom
+bodelning, arv och testamente f&#246;re ikrafttr&#228;dandet g&#228;ller 9 &#167;
+i den &#228;ldre lydelsen. 
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4352">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4354">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

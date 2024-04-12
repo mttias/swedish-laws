@@ -1,0 +1,754 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2020-05-11" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3759</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3758">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3760">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1984:1042 ·
+                    <a href="/sfsr?bet=1984:1042">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1984:1042) om pensionsvillkor f&#246;r icke-svenska medborgare som &#228;r lokalanst&#228;llda vid svenska utlandsmyndigheter</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet ESA
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1984-12-13
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2020:121
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1985-02-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; I denna f&#246;rordning finns f&#246;reskrifter om pensionsvillkoren f&#246;r
+icke-svenska medborgare som &#228;r lokalanst&#228;llda arbetstagare vid svenska
+utlandsmyndigheter.
+
+2 &#167; I f&#246;rordningen avses med
+
+myndighet beskickning, delegation, l&#246;nat konsulat, handelskontor och
+bist&#229;ndskontor,
+
+arbetstagare icke-svensk medborgare som &#228;r anst&#228;lld i utlandet f&#246;r att
+tj&#228;nstg&#246;ra vid en svensk utlandsmyndighet,
+
+anst&#228;llningsmyndighet utrikesdepartementet eller annan statlig
+arbetsgivare.
+
+3 &#167; Arbetstagaren skall i den m&#229;n det &#228;r m&#246;jligt anslutas till det
+pensionssystem som finns i respektive land och som arbetstagarna i
+landet normalt ansluts till.
+
+Anses det systemet inte godtagbart skall arbetstagaren omfattas av
+pensionsvillkoren i denna f&#246;rordning i den omfattning som framg&#229;r av
+18 &#167;.
+
+4 &#167; R&#228;tt till familje- eller sjukpension f&#246;religger tidigast efter sex
+m&#229;naders anst&#228;llning i f&#246;ljd.
+
+R&#228;tt till &#229;lderspension f&#246;religger efter fem &#229;rs anst&#228;llning. R&#228;tt till
+&#229;lderspension f&#246;religger ocks&#229; f&#246;r den som avg&#229;r ur tj&#228;nst vid
+pensions&#229;ldern och d&#229; varit anst&#228;lld oavbrutet i minst tv&#229; &#229;r.
+
+5 &#167; Syssels&#228;ttningsgraden i anst&#228;llningen skall uppg&#229; till minst 40
+procent av den f&#246;r myndigheten normala arbetstiden.
+
+6 &#167; Efter pensions&#229;ldern kan pensionsf&#246;rm&#229;nerna inte tj&#228;nas
+in. Statens tj&#228;nstepensionsverk f&#229;r dock besluta om viss
+ytterligare intj&#228;nandetid om det finns s&#228;rskilda sk&#228;l.
+F&#246;rordning (2010:547).
+
+Skyldigheten att avg&#229; ur tj&#228;nsten
+
+7 &#167; Regeringen fastst&#228;ller pensions&#229;ldern med beaktande av den
+pensions&#229;lder som g&#228;ller f&#246;r motsvarande arbetstagarna i
+tj&#228;nstg&#246;ringslandet.
+
+Arbetstagaren &#228;r skyldig att avg&#229; ur tj&#228;nst vid pensions&#229;ldern eller n&#228;r
+r&#228;tt till sjukpension f&#246;religger.
+
+R&#228;tten att kvarst&#229; i tj&#228;nsten
+
+8 &#167; Om anst&#228;llningsmyndigheten medger det och arbetstagaren &#228;r fullt
+tj&#228;nstduglig, f&#229;r arbetstagaren kvarst&#229; i tj&#228;nsten &#228;ven efter det att
+pensions&#229;ldern uppn&#229;tts.
+
+Pensionsf&#246;rm&#229;nerna och r&#228;tten till dem
+
+9 &#167; Pensionsf&#246;rm&#229;nerna omfattar &#229;lderspension, sjukpension och
+familjepension.
+
+10 &#167; &#197;lderspension utg&#229;r fr&#229;n och med dagen efter anst&#228;llningens
+upph&#246;rande, dock tidigast fr&#229;n pensions&#229;ldern. Detta g&#228;ller &#228;ven om
+anst&#228;llningen upph&#246;rt f&#246;re pensions&#229;ldern.
+
+Arbetstagare har r&#228;tt att tidigast fem &#229;r f&#246;re pensions&#229;ldern g&#246;ra
+f&#246;rtida uttag av &#229;lderspensionen. F&#246;rordning (1989:379).
+
+11 &#167; &#197;lderspensionen utg&#229;r till och med den m&#229;nad under vilken den
+pensionsber&#228;ttigade avlidit.
+
+12 &#167; Arbetstagaren har r&#228;tt till sjukpension, om arbetsf&#246;rm&#229;gan
+bed&#246;ms vara s&#229; nedsatt p&#229; grund av sjukdom att han eller hon &#228;r
+of&#246;rm&#246;gen att f&#246;r framtiden fullg&#246;ra sina arbetsuppgifter p&#229;
+tillfredsst&#228;llande s&#228;tt.
+
+Bed&#246;mningen ska ske av en l&#228;kare samt Statens
+tj&#228;nstepensionsverk efter samr&#229;d med anst&#228;llningsmyndigheten.
+F&#246;rordning (2010:547).
+
+13 &#167; Sjukpensionen utg&#229;r fr&#229;n och med dagen efter avg&#229;ngen ur tj&#228;nsten
+och till den tidpunkt d&#229; pensions&#229;ldern uppn&#229;s eller, vid d&#246;dsfall
+dessf&#246;rinnan, till och med den m&#229;nad under vilken d&#246;dsfallet intr&#228;ffat.
+
+14 &#167; Familjepension utg&#229;r efter arbetstagare
+
+som avlidit i tj&#228;nsten,
+
+som vid sitt fr&#229;nf&#228;lle uppbar &#229;lders- eller sjukpension enligt denna
+f&#246;rordning, eller
+
+som avg&#229;tt ur tj&#228;nst med r&#228;tt att framdeles uppb&#228;ra &#229;lderspension n&#228;r
+g&#228;llande pensions&#229;lder uppn&#229;s.
+
+15 &#167; Familjepensionen utg&#229;r till den efterlevande maken och de barn som
+inte fyllt 19 &#229;r.
+
+16 &#167; R&#228;tten till familjepension upph&#246;r f&#246;r den efterlevande maken n&#228;r
+han eller hon ing&#229;r nytt &#228;ktenskap.
+
+17 &#167; Familjepensionen utg&#229;r fr&#229;n och med dagen efter arbetstagarens
+fr&#229;nf&#228;lle och till och med den m&#229;nad under vilken den f&#246;rm&#229;nsber&#228;ttigade
+avlidit.
+
+Om r&#228;tten till f&#246;rm&#229;nen upph&#246;rt f&#246;re fr&#229;nf&#228;llet, utg&#229;r familjepensionen
+till och med den m&#229;nad under vilken r&#228;tten upph&#246;rt.
+
+Ber&#228;kningen av pensionsf&#246;rm&#229;nernas storlek
+
+18 &#167; Pensionsf&#246;rm&#229;nen skall utg&#246;ra en viss andel av arbetstagarnas l&#246;n
+vid avg&#229;ngen ur tj&#228;nst. Andelen ber&#228;knas som en summa av procenttal
+enligt 23--25 &#167;&#167;. F&#246;rordning (1989:379).
+
+19 &#167; Med l&#246;n avses den kontanta &#229;rsl&#246;n vid heltidsanst&#228;llning som
+anst&#228;llningsmyndigheten fastst&#228;llt och &#229;rsv&#228;rdet av fri bostad.
+
+20 &#167; F&#246;r varje land och varje slag av pensionsf&#246;rm&#229;n anges ett
+procenttal i en bilaga till f&#246;rordningen.
+
+Om en arbetstagare i ett land, f&#246;r vilket procenttalet &#228;r 0, inte varit
+f&#246;rs&#228;krad i ett lokalt pensionssystem f&#246;r samma tid som pensionen avser,
+skall procenttalet vara 2 avseende &#229;lders- och sjukpension och 1
+avseende familjepension f&#246;r varje kalender&#229;r som avses i 21 &#167;.
+Pensions&#229;ldern skall vara 65 &#229;r, om det inte finns sk&#228;l att till&#228;mpa en
+l&#228;gre pensions&#229;lder. F&#246;rordning (1989:379).
+
+21 &#167; F&#246;r varje kalender&#229;r under vilket den anst&#228;lldes syssels&#228;ttning
+uppg&#229;tt till minst 40 procent av den normalarbetstid som g&#228;ller f&#246;r
+myndigheten f&#246;r helt &#229;r (heltiden), ber&#228;knas procenttal f&#246;r den
+anst&#228;llde. Syssels&#228;ttningen &#228;r produkten av anst&#228;llningstiden och
+syssels&#228;ttningsgraden.
+
+Om syssels&#228;ttningen &#228;r st&#246;rre &#228;n eller lika med heltiden tillgodor&#228;knas
+den anst&#228;llde de i 20 &#167; omn&#228;mnda procenttalen, i andra fall den andel av
+dessa procenttal som syssels&#228;ttningen utg&#246;r av heltiden.
+
+22 &#167; H&#246;gst 40 &#229;r med anst&#228;llning vid svensk utlandsmyndighet kan beaktas
+f&#246;r pension.
+
+23 &#167; &#197;lderspensionens andel av l&#246;nen &#228;r summan av procenttalen f&#246;r
+&#229;lderspension enligt 21 &#167;. Om arbetstagaren har uppburit sjukpension,
+skall andelen ber&#228;knas med antagande av att arbetstagaren under tiden
+f&#246;r sjukpensionen innehaft anst&#228;llning med den syssels&#228;ttningsgrad som
+g&#228;llde f&#246;r arbetstagaren vid avg&#229;ng med r&#228;tt till sjukpension.
+
+Vid f&#246;rtida uttag av &#229;lderspension minskas pensionen med 0,5 procent f&#246;r
+varje m&#229;nad som &#229;terst&#229;r till pensions&#229;ldern, r&#228;knat fr&#229;n den m&#229;nad d&#229;
+pensionen b&#246;rjar betalas ut. F&#246;rordning (1989:379).
+
+24 &#167; Sjukpensionens andel av l&#246;nen &#228;r summan av procenttalen f&#246;r
+sjukpension enligt 21 &#167; f&#246;r tiden f&#246;re avg&#229;ngen &#246;kad med ett antaget
+procenttal f&#246;r varje kalender&#229;r som &#229;terst&#229;r fr&#229;n tiden f&#246;r avg&#229;ngen
+till pensions&#229;ldern.
+
+25 &#167; F&#246;r ensamber&#228;ttigad &#228;r familjepensionens andel av l&#246;nen summan av
+procenttalan f&#246;r familjepension enligt 21 &#167;. Om den anst&#228;llde avlidit i
+tj&#228;nst &#246;kas andelen med antagna procenttal f&#246;r varje kalender&#229;r som fr&#229;n
+tidpunkten fr&#229;n d&#246;dsfallet &#229;terst&#229;r till pensions&#229;ldern. Om
+familjepension skall utbetalas efter den som beviljats sjukpension &#246;kas
+andelen med antagna procenttal f&#246;r samma kalender&#229;r som antagna
+procenttal tillgodor&#228;knats f&#246;r sjukpension.
+
+26 &#167; Om arbetstagaren efterl&#228;mnar flera
+familjepensionsber&#228;ttigade &#246;kar den sammanlagda
+familjepensionen f&#246;r varje ber&#228;ttigad ut&#246;ver en med 20 procent
+av vad som utg&#229;r till en ensamber&#228;ttigad, dock h&#246;gst till 200
+procent av sistn&#228;mnda belopp. H&#228;rvid betraktas tv&#229; eller flera
+makar som en ber&#228;ttigad.
+
+Av de f&#246;rm&#229;nsbelopp som &#228;r gemensamma f&#246;r make och barn, f&#229;r
+maken 80 procent av vad som annars betalas till en
+ensamber&#228;ttigad. &#197;terstoden f&#246;rdelas lika mellan barnen.
+
+Statens tj&#228;nstepensionsverk f&#229;r, efter samr&#229;d med
+anst&#228;llningsmyndigheten, med h&#228;nsyn till lokal lagstiftning
+eller sedv&#228;nja besluta om annan f&#246;rdelning av familjepensionen
+mellan makar. F&#246;rordning (2010:547).
+
+V&#228;rdes&#228;kringen
+
+27 &#167; Pensionsf&#246;rm&#229;nerna som &#228;r fastst&#228;llda eller utg&#229;r enligt denna
+f&#246;rordning skall fr&#229;n och med &#229;ret efter det under vilket avg&#229;ngen
+skedde v&#228;rdes&#228;kras genom att f&#246;rm&#229;nerna r&#228;knas upp med det indextal som
+utrikesdepartementet till&#228;mpar som l&#246;neindextal f&#246;r lokalanst&#228;llda vid
+respektive myndighet.
+
+Fastst&#228;llandet och utbetalningen av pensionen
+
+28 &#167; Pensionsf&#246;rm&#229;nerna enligt 9 &#167; fastst&#228;lls av Statens
+tj&#228;nstepensionsverk sedan yttrande inh&#228;mtats fr&#229;n
+anst&#228;llningsmyndigheten.
+
+Pensionsf&#246;rm&#229;n ska minskas med f&#246;rm&#229;ner som den lokalanst&#228;llde
+&#228;r ber&#228;ttigad till enligt den lokala lagstiftningen om allm&#228;n
+pensionsf&#246;rs&#228;kring eller n&#229;gon annan socialf&#246;rs&#228;kring eller
+d&#228;rmed j&#228;mf&#246;rlig anordning. Minskningen g&#246;rs bara i den m&#229;n
+f&#246;rm&#229;nerna avser samma tid.
+
+Myndigheten ska betala f&#246;rm&#229;nen till arbetstagaren m&#229;nadsvis i
+lokal valuta samma dag som l&#246;neutbetalningar normalt sker.
+F&#246;rordning (2010:547).
+
+Eng&#229;ngsbelopp i st&#228;llet f&#246;r pension
+
+29 &#167; Om det finns s&#228;rskilda sk&#228;l f&#229;r hela pensionen eller en
+del av pensionen betalas som ett eng&#229;ngsbelopp. Statens
+tj&#228;nstepensionsverk beslutar i samr&#229;d med
+anst&#228;llningsmyndigheten p&#229; vilket s&#228;tt betalningen ska ske i
+varje s&#228;rskilt fall. F&#246;rordning (2010:547).
+
+30 &#167; Om en anst&#228;llning som varat mer &#228;n fem &#229;r upph&#246;r f&#246;re
+pensions&#229;ldern och det inte &#228;r fr&#229;ga om sjukpension eller familjepension
+kan -- i st&#228;llet f&#246;r en pension vid pensions&#229;ldern -- ett eng&#229;ngsbelopp
+betalas ut efter avg&#229;ngen ur tj&#228;nst.
+
+Till den som har varit anst&#228;lld kortare tid &#228;n tio &#229;r eller som har
+minst femton &#229;r kvar till pensions&#229;ldern skall alltid betalas ett
+eng&#229;ngsbelopp.
+
+31 &#167; Ett eng&#229;ngsbelopp ska vara h&#228;lften av pensionens
+kapitaliserade v&#228;rde. Kapitaliseringen ska ske enligt de
+grunder som till&#228;mpas vid ber&#228;kningen av pensionsreserv i
+pensionsstiftelse (SOU 1964:28).
+
+Statens tj&#228;nstepensionsverk fastst&#228;ller eng&#229;ngsbeloppet.
+F&#246;rordning (2010:547).
+
+Verkst&#228;llighetsf&#246;reskrifter
+
+32 &#167; Ytterligare f&#246;reskrifter om verkst&#228;lligheten av denna
+f&#246;rordning f&#229;r meddelas av Statens tj&#228;nstepensionsverk.
+F&#246;rordning (2010:547).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1984:1042
+
+1. Denna f&#246;rordning tr&#228;der i kraft tv&#229; veckor efter den dag, d&#229;
+f&#246;rordningen enligt uppgift p&#229; den utkommit fr&#229;n trycket i Svensk
+f&#246;rfattningssamling.
+
+2. De po&#228;ng som framg&#229;r av bilagan till f&#246;rordningen till&#228;mpas &#228;ven p&#229;
+anst&#228;llningstid f&#246;re ikrafttr&#228;dandet.
+
+3. F&#246;rordningen till&#228;mpas inte p&#229; arbetstagare som i
+anst&#228;llningskontrakt tillf&#246;rs&#228;krats pensionsr&#228;tt enligt statens allm&#228;nna
+tj&#228;nstepensionsreglemente (1959:287 -- SPR), s&#229;vida inte arbetstagaren
+anm&#228;ler till arbetsgivaren att f&#246;rordningen skall till&#228;mpas i st&#228;llet
+f&#246;r SPR.
+
+4. De arbetstagare som har mindre &#228;n tre &#229;r kvar fr&#229;n best&#228;mmelsernas
+ikrafttr&#228;dande till nedre gr&#228;nsen av den pensioneringsperiod som skulle
+ha till&#228;mpats om arbetstagaren hade varit underkastad SPR, kan f&#229;
+pension enligt grunderna i SPR.
+
+1985:918
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1986. De nya
+best&#228;mmelserna i bilagan skall dock till&#228;mpas f&#246;r tid fr&#229;n och med
+den 1 februari 1985.
+
+1989:379
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1989.
+
+2. De procentsatser som framg&#229;r av bilagan till f&#246;rordningen till&#228;mpas
+&#228;ven p&#229; anst&#228;llningstid f&#246;re ikrafttr&#228;dandet.
+
+1992:479
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1992.
+
+2. De procentsatser som framg&#229;r av bilagan till f&#246;rordningen till&#228;mpas
+&#228;ven p&#229; anst&#228;llningstid f&#246;re ikrafttr&#228;dandet.
+
+3. Ecuador skall anses vara upptagen i bilagan t.o.m. den 30 september
+1992 och Oman t.o.m. den 31 december 1992.
+
+
+Bilaga
+
+------------------------------------------------------------------------
+Land d&#228;r utlands-       Maximal procentsats enligt      Pensions&#229;lder,
+myndigheten &#228;r          18 &#167; f&#246;rordningen f&#246;r		&#229;r, enligt
+bel&#228;gen                 				7 &#167; f&#246;rord-
+                        &#229;lders- sjuk-	familje-     	ningen
+                        pension	pension	pension
+------------------------------------------------------------------------
+
+Afghanistan		2	2	1		65
+
+Albanien 		2	2	1		65
+
+Algeriet 		2	2	1		60
+
+Angola 			2	2	1		60
+
+Argentina		2	2	1		65
+
+Armenien 		2	2	1		65
+
+Australien 		2	2	1		65
+
+Azerbajdzjan		2	2	1		65
+
+Bangladesh 		2	2	1		60
+
+Belarus			2	2	1		60
+
+Belgien 		2	2	1		65
+
+Bolivia 		2	2	1		65
+
+Bosnien och 
+Hercegovina		2	2	1		65
+
+Brasilien 		2	2	1		65
+
+Bulgarien 		2	2	1		63
+
+Burkina Faso 		2	2	1		60
+
+Chile 			2	2	1		65
+
+Colombia 		2	2	1		60
+
+Cypern 			2	2	1		65
+
+Danmark 		0	0	0		-
+
+Demokratiska 
+republiken Kongo 	2	2	1		60
+
+Egypten			2	2	1		65
+
+Eritrea			2	2	1		60
+
+Estland 		2	2	1		65
+
+Etiopien 		2	2	1		60
+
+Filippinerna		2	2	1		60
+
+Finland 		0	0	0		-
+
+Frankrike		0	0	0		-
+
+F&#246;renade arabemiraten	2	2	1		65
+
+F&#246;renade kungariket	2	2	1		65
+
+F&#246;renta staterna	2	2	1		65
+
+Georgien		2	2	1		60
+
+Grekland 		0	0	0		-
+
+Guatemala 		2	2	1		65
+
+Honduras 		2	2	1		65
+
+Hongkong 		2	2	1		65
+
+Indien 			2	2	1		60
+
+Indonesien 		2	2	1		60
+
+Irak 			2	2	1		60
+
+Iran 			2	2	1		60
+
+Irland 			2	2	1		65
+	
+Island 			0	0	0		-
+
+Israel 			2	2	1		65
+
+Italien 		0	0	0		-
+
+Japan 			0	0	0		-
+
+Jordanien 		2	2	1		60
+
+Kambodja 		2	2	1		60
+
+Kanada 			2	2	1		65
+
+Kazakstan		2	2	1		65
+
+Kenya 			2	2	1		55
+
+Kina 			0	0	0		-
+
+Kosovo 			2	2	1		65
+
+Kroatien 		2	2	1		65
+
+Kuba			2	2	1		60
+
+Laos 			2	2	1		60
+
+Lettland 		2	2	1		65
+
+Libanon			2	2	1		65
+
+Liberia 		2	2	1		60
+
+Litauen 		2	2	1		65
+
+Luxemburg 		2	2	1		65
+
+Malaysia 		2	2	1		60
+
+Mali			2	2	1		60
+
+Marocko			2	2	1		60
+
+Mexiko			2	2	1		65
+
+Mo&#231;ambique		2	2	1		60
+
+Moldavien 		2	2	1		60
+
+Nederl&#228;nderna  		2	2	1		65
+
+Nicaragua 		2	2	1		60
+
+Nigeria 		2	2	1		60
+
+Nordkorea		0	0	0		-
+
+Nordmakedonien		2	2	1		65
+
+Norge 			0	0	0		-
+
+Pakistan 		2	2	1		60
+
+Peru			2	2	1		65
+
+Polen 			2	2	1		65
+
+Portugal 		0	0	0		-
+
+Qatar			2	2	1		65
+	
+Rum&#228;nien 		2	2	1		60
+
+Rwanda  		2	2	1		60
+
+Ryssland 		2	2	1		60
+	
+Saudiarabien 		2	2	1		60
+
+Schweiz 		2	2	1		65
+
+Senegal 		2	2	1		60
+
+Serbien 		2	2	1		65
+
+Singapore 		0	0	0		-
+
+Slovakien  		2	2	1		65
+
+Slovenien 		2	2	1		65
+
+Spanien 		0	0	0		-
+
+Sudan 			2	2	1		60
+
+Sydafrika 		2	2	1		65
+
+Sydkorea		2	2	1		60
+
+Sydsudan		2	2	1		60
+
+Syrien 			2	2	1		60
+
+Tadzjikistan 		2	2	1		60
+
+Tanzania 		2	2	1		60
+
+Thailand 		2	2	1		60
+
+Tjeckien 		2	2	1		65
+
+Tunisien		2	2	1		60
+
+Turkiet 		0	0	0		-
+
+Tyskland		0	0	0		-
+
+Uganda			2	2	1		60
+
+Ukraina 		2	2	1		60
+
+Ungern 			2	2	1		60
+
+Vietnam 		2	2	1		60
+
+Zambia 			2	2	1		55
+
+Zimbabwe		2	2	1		65
+
+&#214;sterrike 		0	0	0		-
+F&#246;rordning (2020:121).
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3758">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3760">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

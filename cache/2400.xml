@@ -1,0 +1,794 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-20" /> 
+ <meta id="rattsinfo-edited" content="2023-01-20 15:22:02" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2400</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2399">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2401">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2004:875 ·
+                    <a href="/sfsr?bet=2004:875">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2004:875) om s&#228;rskild f&#246;rvaltning av vissa elektriska anl&#228;ggningar</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSE
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2004-11-04
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:597
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2005-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+Till&#228;mpningsomr&#229;de och definitioner
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om s&#228;rskild f&#246;rvaltning 
+och om inl&#246;sen av elektriska anl&#228;ggningar. Lag (2022:597).
+
+1 a &#167; I lagen avses med
+
+elektrisk anl&#228;ggning: en starkstr&#246;msanl&#228;ggning f&#246;r &#246;verf&#246;ring 
+av el med de s&#228;rskilda f&#246;rem&#229;l som finns i anl&#228;ggningen och 
+som beh&#246;vs f&#246;r driften av den,
+
+n&#228;tf&#246;retag: den som st&#228;ller en starkstr&#246;msledning till 
+f&#246;rfogande f&#246;r &#246;verf&#246;ring av el f&#246;r n&#229;gon annans r&#228;kning, 
+
+n&#228;tmyndigheten: den myndighet som regeringen enligt 1 kap. 5 &#167; 
+ellagen (1997:857) har utsett att handl&#228;gga de fr&#229;gor som 
+ligger p&#229; n&#228;tmyndigheten. Lag (2022:597).
+
+F&#246;ruts&#228;ttningar och former f&#246;r s&#228;rskild f&#246;rvaltning
+
+2 &#167; Om ett n&#228;tf&#246;retag, som anv&#228;nder en elektrisk anl&#228;ggning med
+st&#246;d av en n&#228;tkoncession enligt 2 kap. 1 &#167; f&#246;rsta stycket
+ellagen (1997:857), i v&#228;sentlig m&#229;n inte fullg&#246;r sina
+skyldigheter enligt ellagen, enligt f&#246;reskrifter som har
+meddelats med st&#246;d av den lagen eller enligt villkor i
+n&#228;tkoncessionen, skall f&#246;rvaltningsr&#228;tten, efter ans&#246;kan av
+n&#228;tmyndigheten, besluta om s&#228;rskild f&#246;rvaltning av den
+elektriska anl&#228;ggningen.
+
+Om ett n&#228;tf&#246;retag anv&#228;nder en elektrisk anl&#228;ggning utan st&#246;d av
+n&#228;tkoncession, d&#228;r s&#229;dan beh&#246;vs, skall f&#246;rvaltningsr&#228;tten,
+efter ans&#246;kan av n&#228;tmyndigheten, besluta om s&#228;rskild
+f&#246;rvaltning av den elektriska anl&#228;ggningen.
+
+Ans&#246;kan om s&#228;rskild f&#246;rvaltning skall g&#246;ras hos den
+f&#246;rvaltningsr&#228;tt inom vars domkrets n&#228;tmyndigheten &#228;r bel&#228;gen.
+
+S&#229;dana beslut som avses i f&#246;rsta och andra styckena f&#229;r
+meddelas bara om anl&#228;ggningen alltj&#228;mt beh&#246;vs f&#246;r en s&#228;ker
+elf&#246;rs&#246;rjning.
+
+Den s&#228;rskilda f&#246;rvaltningen skall utformas s&#229;, att en
+tillfredsst&#228;llande f&#246;rvaltning av den ber&#246;rda anl&#228;ggningen kan
+&#229;stadkommas. Lag (2009:844).
+
+3 &#167; Ett beslut om s&#228;rskild f&#246;rvaltning omfattar, ut&#246;ver
+n&#228;tf&#246;retagets elektriska anl&#228;ggning, den egendom som kr&#228;vs f&#246;r
+att verksamheten vid anl&#228;ggningen skall kunna bedrivas p&#229; ett
+tillfredsst&#228;llande s&#228;tt.
+
+I ett beslut om s&#228;rskild f&#246;rvaltning skall f&#246;rvaltningsr&#228;tten
+f&#246;rel&#228;gga n&#228;tf&#246;retaget att helt eller delvis &#246;verl&#228;mna
+f&#246;rvaltningen till en s&#228;rskild f&#246;rvaltare
+(f&#246;rvaltningsf&#246;rel&#228;ggande). Om ett s&#229;dant f&#246;rel&#228;ggande
+sannolikt inte &#228;r tillr&#228;ckligt f&#246;r att &#229;stadkomma en
+tillfredsst&#228;llande f&#246;rvaltning, skall f&#246;rvaltningsr&#228;tten i
+st&#228;llet f&#246;rordna att anl&#228;ggningen skall st&#228;llas under
+f&#246;rvaltning av en s&#228;rskild f&#246;rvaltare (tv&#229;ngsf&#246;rvaltning).
+
+Under den tid som den s&#228;rskilda f&#246;rvaltningen p&#229;g&#229;r skall den
+s&#228;rskilde f&#246;rvaltaren, i st&#228;llet f&#246;r n&#228;tf&#246;retaget, anses som
+innehavare av den n&#228;tkoncession med vars st&#246;d den elektriska
+anl&#228;ggningen anv&#228;nds eller, om 2 &#167; andra stycket &#228;r
+till&#228;mpligt, som den som senast haft n&#228;tkoncession f&#246;r
+anl&#228;ggningen. Om f&#246;rvaltningen endast delvis har &#246;verl&#228;mnats
+till en s&#228;rskild f&#246;rvaltare g&#228;ller detta bara f&#246;rvaltningen av
+de angel&#228;genheter som har &#246;verl&#228;mnats till den s&#228;rskilde
+f&#246;rvaltaren.
+
+Ett beslut om s&#228;rskild f&#246;rvaltning f&#229;r inte avse en elektrisk
+anl&#228;ggning som anv&#228;nds med st&#246;d av en n&#228;tkoncession som innehas
+av staten. Detsamma g&#228;ller om staten anv&#228;nder en elektrisk
+anl&#228;ggning utan st&#246;d av n&#228;tkoncession, d&#228;r s&#229;dan beh&#246;vs.
+Lag (2009:844).
+
+4 &#167; Om ett beslut om s&#228;rskild f&#246;rvaltning riktas mot n&#229;gon som
+innehar mer &#228;n en n&#228;tkoncession och bristerna enligt 2 &#167; f&#246;rsta
+stycket inte g&#228;ller samtliga anl&#228;ggningar, skall beslutet
+best&#228;mmas att avse endast anl&#228;ggning till vilken bristerna &#228;r
+att h&#228;nf&#246;ra. Beslutet skall dock ha avseende p&#229; samtliga
+anl&#228;ggningar, om det kr&#228;vs f&#246;r att den samlade f&#246;rvaltningen av
+dessa anl&#228;ggningar inte skall f&#246;rsv&#229;ras i n&#228;mnv&#228;rd omfattning.
+
+Inl&#246;sen
+
+5 &#167; Om en tillfredsst&#228;llande f&#246;rvaltning av en elektrisk
+anl&#228;ggning sannolikt inte kan &#229;stadkommas genom
+tv&#229;ngsf&#246;rvaltning eller en tillfredsst&#228;llande f&#246;rvaltning
+sannolikt inte kommer att best&#229; efter utg&#229;ngen av tiden f&#246;r
+en tv&#229;ngsf&#246;rvaltning f&#229;r staten, efter ans&#246;kan av
+n&#228;tmyndigheten, l&#246;sa anl&#228;ggningen fr&#229;n &#228;garen.
+
+Om anl&#228;ggningens &#228;gare ocks&#229; &#228;r &#228;gare till en fastighet p&#229;
+vilken anl&#228;ggningen, helt eller delvis, &#228;r bel&#228;gen ska &#228;ven
+fastigheten eller, om det &#228;r l&#228;mpligt, del av fastigheten
+l&#246;sas. Om ledningsr&#228;tt &#228;r uppl&#229;ten f&#246;r anl&#228;ggningen p&#229; en
+annan fastighet ska &#228;ven ledningsr&#228;tten l&#246;sas.
+
+M&#229;l om inl&#246;sen ska tas upp av den mark- och milj&#246;domstol inom
+vars omr&#229;de anl&#228;ggningen eller st&#246;rre delen av den ligger. I
+fr&#229;ga om inl&#246;sen g&#228;ller i &#246;vrigt expropriationslagen (1972:719)
+i till&#228;mpliga delar, dock med undantag f&#246;r 4 kap. 1 &#167; andra
+stycket. Lag (2010:940).
+
+2 kap. F&#246;rvaltningsf&#246;rel&#228;ggande
+
+F&#246;rel&#228;ggandet
+
+1 &#167; I ett f&#246;rvaltningsf&#246;rel&#228;ggande skall f&#246;rvaltningsr&#228;tten
+best&#228;mma en viss tid inom vilken n&#228;tf&#246;retaget skall ge in ett
+f&#246;rvaltningsavtal till f&#246;rvaltningsr&#228;tten.
+
+Med f&#246;rvaltningsavtal avses ett skriftligt avtal, varigenom
+n&#228;tf&#246;retaget till en s&#228;rskild f&#246;rvaltare helt eller delvis
+&#246;verl&#228;mnar f&#246;rvaltningen av dels den eller de anl&#228;ggningar som
+omfattas av f&#246;rvaltningsf&#246;rel&#228;ggandet, dels den egendom som
+kr&#228;vs f&#246;r att verksamheten vid anl&#228;ggningarna skall kunna
+bedrivas p&#229; ett tillfredsst&#228;llande s&#228;tt.
+
+F&#246;rvaltningsr&#228;tten f&#229;r p&#229; ans&#246;kan av n&#228;tf&#246;retaget f&#246;rl&#228;nga den
+tid som har best&#228;mts f&#246;r att ge in ett f&#246;rvaltningsavtal.
+Ans&#246;kan om f&#246;rl&#228;ngning skall ges in f&#246;re utg&#229;ngen av den
+best&#228;mda tiden. Lag (2009:844).
+
+2 &#167; Om ett f&#246;rvaltningsf&#246;rel&#228;ggande har meddelats och
+n&#228;tkoncessionen f&#246;r en anl&#228;ggning som omfattas av f&#246;rel&#228;ggandet
+d&#228;refter &#246;verg&#229;r till en ny innehavare, f&#246;rfaller
+f&#246;rel&#228;ggandet.
+
+F&#246;rvaltningsavtalets inneh&#229;ll m.m.
+
+3 &#167; Ett f&#246;rvaltningsavtal skall vara utformat s&#229;, att en
+tillfredsst&#228;llande f&#246;rvaltning av anl&#228;ggningen kan antas komma
+till st&#229;nd. F&#246;r detta &#228;ndam&#229;l skall avtalet bland annat
+
+1. ha en giltighetstid om minst ett &#229;r,
+
+2. ange de angel&#228;genheter som omfattas av f&#246;rvaltningen, och
+
+3. vara f&#246;renat med fullmakt f&#246;r f&#246;rvaltaren att f&#246;retr&#228;da
+n&#228;tf&#246;retaget i de angel&#228;genheter som omfattas av
+f&#246;rvaltningsuppdraget.
+
+Om ett f&#246;rvaltningsavtal inte uppfyller dessa krav f&#229;r
+f&#246;rvaltningsr&#228;tten ge n&#228;tf&#246;retaget en m&#246;jlighet att, inom en
+viss angiven tid, avtala om de &#228;ndringar och till&#228;gg som beh&#246;vs
+f&#246;r att avtalet skall uppfylla kraven. S&#229;dana &#228;ndringar och
+till&#228;gg f&#229;r bara vara av mindre omfattning.
+
+Om avtalet uppfyller kraven skall det godk&#228;nnas av
+f&#246;rvaltningsr&#228;tten.
+
+Ett avtal som inte godk&#228;nns blir ogiltigt. Lag (2009:844).
+
+Bristf&#228;lliga f&#246;rvaltningsavtal m.m.
+
+4 &#167; Om n&#228;tf&#246;retaget inte ger in ett f&#246;rvaltningsavtal till
+f&#246;rvaltningsr&#228;tten inom den tid som best&#228;mts eller om
+f&#246;rvaltningsr&#228;tten beslutar att inte godk&#228;nna ett ingivet
+f&#246;rvaltningsavtal skall r&#228;tten f&#246;rordna att den eller de
+ber&#246;rda anl&#228;ggningarna skall st&#228;llas under tv&#229;ngsf&#246;rvaltning.
+Om n&#228;tf&#246;retaget kan f&#246;rv&#228;ntas ge in ett godtagbart
+f&#246;rvaltningsavtal inom rimlig tid f&#229;r f&#246;rvaltningsr&#228;tten i
+st&#228;llet meddela ett nytt f&#246;rvaltningsf&#246;rel&#228;ggande.
+Lag (2009:844).
+
+5 &#167; Om ett f&#246;rvaltningsavtal, som har godk&#228;nts enligt 3 &#167;
+tredje stycket, upph&#246;r att g&#228;lla eller &#228;ndras eller om
+avtalsparterna inte f&#246;ljer avtalet skall f&#246;rvaltaren genast
+anm&#228;la detta till n&#228;tmyndigheten.
+
+F&#246;rvaltningsr&#228;tten skall i ett beslut om att godk&#228;nna ett
+f&#246;rvaltningsavtal upplysa f&#246;rvaltaren om
+anm&#228;lningsskyldigheten. Lag (2009:844).
+
+3 kap. Tv&#229;ngsf&#246;rvaltning
+
+F&#246;rvaltare
+
+1 &#167; F&#246;rvaltningsr&#228;tten skall i ett beslut om tv&#229;ngsf&#246;rvaltning
+f&#246;rordna en s&#228;rskild f&#246;rvaltare. Till f&#246;rvaltare skall utses
+n&#229;gon som kan antas &#229;stadkomma en tillfredsst&#228;llande
+f&#246;rvaltning av den ber&#246;rda anl&#228;ggningen.
+
+F&#246;rvaltningsr&#228;tten skall, p&#229; ans&#246;kan av n&#228;tmyndigheten,
+entlediga f&#246;rvaltaren om denne inte fullg&#246;r sitt uppdrag p&#229; ett
+tillfredsst&#228;llande s&#228;tt. F&#246;rvaltningsr&#228;tten skall ocks&#229;
+entlediga f&#246;rvaltaren om denne beg&#228;r det. Samtidigt som
+f&#246;rvaltaren entledigas skall f&#246;rvaltningsr&#228;tten f&#246;rordna en ny
+f&#246;rvaltare.
+
+N&#228;tmyndigheten skall l&#228;mna f&#246;rslag till f&#246;rvaltare.
+Lag (2009:844).
+
+Tiden f&#246;r f&#246;rvaltningen
+
+2 &#167; F&#246;rvaltningsr&#228;tten ska, sedan f&#246;rvaltaren gett in den plan
+som avses i 4 &#167; fj&#228;rde stycket, besluta hur l&#228;nge f&#246;rvaltningen
+ska p&#229;g&#229;. Tiden ska best&#228;mmas s&#229;, att en tillfredsst&#228;llande
+f&#246;rvaltning kan &#229;stadkommas. Tiden f&#229;r best&#228;mmas till h&#246;gst fem
+&#229;r fr&#229;n f&#246;rvaltningsr&#228;ttens beslut.
+
+Om det vid utg&#229;ngen av den tid som best&#228;mts alltj&#228;mt finns sk&#228;l
+f&#246;r tv&#229;ngsf&#246;rvaltning ska f&#246;rvaltningsr&#228;tten, p&#229; ans&#246;kan av
+n&#228;tmyndigheten, f&#246;rl&#228;nga tiden med h&#246;gst tre &#229;r i s&#228;nder.
+Beslutet om tv&#229;ngsf&#246;rvaltning g&#228;ller till dess att ans&#246;kan har
+pr&#246;vats slutligt.
+
+Innan f&#246;rvaltningsr&#228;tten beslutar enligt f&#246;rsta stycket ska
+n&#228;tmyndigheten ges tillf&#228;lle att yttra sig. Lag (2009:844).
+
+3 &#167; Om det inte l&#228;ngre finns sk&#228;l f&#246;r tv&#229;ngsf&#246;rvaltning, skall
+f&#246;rvaltningsr&#228;tten, p&#229; ans&#246;kan av n&#228;tmyndigheten eller
+n&#228;tf&#246;retaget, besluta att den skall upph&#246;ra.
+
+Innan f&#246;rvaltningsr&#228;tten, efter ans&#246;kan av n&#228;tf&#246;retaget, avg&#246;r
+ett &#228;rende enligt f&#246;rsta stycket skall n&#228;tmyndigheten ges
+tillf&#228;lle att yttra sig. Lag (2009:844).
+
+F&#246;rvaltarens uppgifter m.m.
+
+4 &#167; F&#246;rvaltaren ska s&#228;rskilt verka f&#246;r att de missf&#246;rh&#229;llanden
+som har f&#246;ranlett beslutet om tv&#229;ngsf&#246;rvaltning undanr&#246;js.
+
+F&#246;rvaltaren ska dessutom svara f&#246;r en tillfredsst&#228;llande
+f&#246;rvaltning av anl&#228;ggningen och d&#228;rvid verka f&#246;r att
+verksamheten ger en sk&#228;lig avkastning.
+
+F&#246;rvaltaren ska kontinuerligt pr&#246;va om f&#246;ruts&#228;ttningar f&#246;r en
+tillfredsst&#228;llande f&#246;rvaltning f&#246;religger.
+
+F&#246;rvaltaren ska s&#229; snart som m&#246;jligt och senast inom tre
+m&#229;nader fr&#229;n det att han eller hon f&#246;rordnades enligt 1 &#167;
+f&#246;rsta eller andra stycket ge in en plan till
+f&#246;rvaltningsr&#228;tten. I planen ska det anges vilka &#229;tg&#228;rder som
+kr&#228;vs f&#246;r att undanr&#246;ja de missf&#246;rh&#229;llanden som har f&#246;ranlett
+beslutet om tv&#229;ngsf&#246;rvaltning, hur dessa &#229;tg&#228;rder ska
+genomf&#246;ras och den tid som kr&#228;vs f&#246;r att genomf&#246;ra &#229;tg&#228;rderna.
+
+Om det finns synnerliga sk&#228;l f&#229;r f&#246;rvaltningsr&#228;tten f&#246;rl&#228;nga
+den tid inom vilken planen ska ges in. Lag (2009:844).
+
+5 &#167; F&#246;rvaltaren f&#229;r besluta att en angel&#228;genhet som saknar
+betydelse f&#246;r &#228;ndam&#229;let med f&#246;rvaltningen skall undantas fr&#229;n
+denna. Ett s&#229;dant beslut f&#229;r &#228;ndras eller upph&#228;vas av
+f&#246;rvaltaren. F&#246;rvaltaren skall genast underr&#228;tta n&#228;tmyndigheten
+om beslut enligt denna paragraf.
+
+6 &#167; F&#246;rvaltaren f&#229;r inte &#246;verl&#229;ta anl&#228;ggningen eller p&#229; annat
+s&#228;tt f&#246;rfoga &#246;ver den s&#229; att den helt eller delvis fr&#229;nh&#228;nds
+&#228;garen.
+
+F&#246;rvaltaren f&#229;r inte &#246;verl&#229;ta den n&#228;tkoncession med vars st&#246;d
+den elektriska anl&#228;ggningen anv&#228;nds.
+
+F&#246;rvaltaren f&#229;r inte p&#229; n&#228;tf&#246;retagets v&#228;gnar ing&#229; borgen.
+
+7 &#167; F&#246;rvaltaren skall genast underr&#228;tta varje k&#228;nd g&#228;lden&#228;r,
+vars skuld h&#228;nf&#246;r sig till verksamheten vid den ber&#246;rda
+anl&#228;ggningen, om ett beslut om tv&#229;ngsf&#246;rvaltning och om ett
+beslut att f&#246;rordna en ny f&#246;rvaltare.
+
+En g&#228;lden&#228;r som har f&#229;tt en s&#229;dan underr&#228;ttelse kan, s&#229; l&#228;nge
+f&#246;rvaltningen p&#229;g&#229;r, inte med befriande verkan betala sin skuld
+till annan &#228;n f&#246;rvaltaren eller den som f&#246;rvaltaren har
+anvisat. En upplysning om detta skall tas in i underr&#228;ttelsen.
+
+F&#246;rvaltaren skall ocks&#229; s&#229; snart det kan ske underr&#228;tta varje
+k&#228;nd g&#228;lden&#228;r, vars skuld h&#228;nf&#246;r sig till verksamheten vid den
+ber&#246;rda anl&#228;ggningen, om f&#246;rvaltningsr&#228;ttens beslut enligt 2 &#167;.
+Lag (2009:844).
+
+Vissa skyldigheter f&#246;r n&#228;tf&#246;retaget
+
+8 &#167; N&#228;tf&#246;retaget skall st&#228;lla de kontorslokaler och andra
+utrymmen som kr&#228;vs f&#246;r f&#246;rvaltningen till f&#246;rvaltarens
+f&#246;rfogande. Detta g&#228;ller dock inte bost&#228;der.
+
+9 &#167; N&#228;tf&#246;retaget &#228;r skyldigt att l&#228;mna f&#246;rvaltaren de
+upplysningar om anl&#228;ggningen som beh&#246;vs f&#246;r en
+tillfredsst&#228;llande f&#246;rvaltning.
+
+F&#246;rvaltningsr&#228;tten skall, p&#229; ans&#246;kan av f&#246;rvaltaren, kalla
+st&#228;llf&#246;retr&#228;dare f&#246;r n&#228;tf&#246;retaget att inf&#246;r r&#228;tten under ed
+l&#228;mna upplysningar enligt f&#246;rsta stycket. Best&#228;mmelserna i 36
+kap. 6, 11, 14, 20 och 21 &#167;&#167; r&#228;tteg&#229;ngsbalken skall d&#228;rvid &#228;ga
+motsvarande till&#228;mpning. &#196;ven f&#246;rvaltaren och n&#228;tmyndigheten
+skall kallas. Lag (2009:844).
+
+10 &#167; N&#228;tf&#246;retaget &#228;r skyldigt att tillhandah&#229;lla f&#246;rvaltaren
+handlingar och andra f&#246;rem&#229;l av betydelse f&#246;r f&#246;rvaltningen.
+
+10 a &#167; Om n&#228;tf&#246;retaget inte fullg&#246;r sin skyldighet enligt 8 &#167;
+till f&#246;ljd av att f&#246;retaget inte f&#246;rfogar &#246;ver lokalerna eller
+utrymmena, f&#229;r n&#228;tmyndigheten, p&#229; ans&#246;kan av f&#246;rvaltaren,
+f&#246;rel&#228;gga innehavaren av lokalerna eller utrymmena att fullg&#246;ra
+skyldigheten.
+
+Ett s&#229;dant f&#246;rel&#228;ggande f&#229;r ges endast om sk&#228;len f&#246;r &#229;tg&#228;rden
+uppv&#228;ger den ol&#228;genhet eller det men i &#246;vrigt som &#229;tg&#228;rden
+inneb&#228;r f&#246;r den som drabbas av den eller f&#246;r n&#229;got annat
+motst&#229;ende intresse. Lag (2008:381).
+
+10 b &#167; Om det &#228;r sannolikt att st&#228;llf&#246;retr&#228;darna f&#246;r
+n&#228;tf&#246;retaget saknar k&#228;nnedom om f&#246;rh&#229;llanden som n&#228;tf&#246;retaget
+enligt 9 &#167; f&#246;rsta stycket &#228;r skyldigt att upplysa f&#246;rvaltaren
+om ska f&#246;rvaltningsr&#228;tten, p&#229; ans&#246;kan av f&#246;rvaltaren, kalla den
+som kan antas k&#228;nna till f&#246;rh&#229;llandena att inf&#246;r r&#228;tten under
+ed l&#228;mna dessa upplysningar. D&#228;rvid ska 9 &#167; andra stycket
+till&#228;mpas. Lag (2009:844).
+
+10 c &#167; Om n&#228;tf&#246;retaget inte fullg&#246;r sin skyldighet enligt 10 &#167;
+till f&#246;ljd av att f&#246;retaget inte f&#246;rfogar &#246;ver handlingarna
+eller f&#246;rem&#229;len, f&#229;r n&#228;tmyndigheten, p&#229; ans&#246;kan av f&#246;rvaltaren,
+f&#246;rel&#228;gga innehavaren av handlingarna eller f&#246;rem&#229;len att
+fullg&#246;ra skyldigheten.
+
+Ett s&#229;dant f&#246;rel&#228;ggande f&#229;r ges endast om sk&#228;len f&#246;r &#229;tg&#228;rden
+uppv&#228;ger den ol&#228;genhet eller det men i &#246;vrigt som &#229;tg&#228;rden
+inneb&#228;r f&#246;r den som drabbas av den eller f&#246;r n&#229;got annat
+motst&#229;ende intresse. Lag (2008:381).
+
+10 d &#167; F&#246;rvaltaren f&#229;r beg&#228;ra handr&#228;ckning av
+Kronofogdemyndigheten f&#246;r att genomf&#246;ra de &#229;tg&#228;rder som avses i
+8 och 10 &#167;&#167;.
+
+
+D&#228;rvid g&#228;ller best&#228;mmelserna i uts&#246;kningsbalken om
+verkst&#228;llighet av f&#246;rpliktelser som inte avser
+betalningsskyldighet eller avhysning. Lag (2008:381).
+
+Den ekonomiska f&#246;rvaltningen
+
+11 &#167; F&#246;rvaltaren uppb&#228;r de l&#246;pande int&#228;kterna och disponerar de
+tillg&#229;ngar i &#246;vrigt som &#228;r h&#228;nf&#246;rliga till den verksamhet som
+omfattas av f&#246;rvaltningen. F&#246;rvaltaren f&#246;retr&#228;der &#228;ven i &#246;vrigt
+n&#228;tf&#246;retaget i de angel&#228;genheter som omfattas av f&#246;rvaltningen,
+om inte annat f&#246;ljer av andra stycket eller 6 &#167;.
+
+F&#246;rvaltaren f&#229;r bara ta upp s&#229;dana l&#229;n som kr&#228;vs f&#246;r den
+l&#246;pande verksamheten och som kan finansieras med de l&#246;pande
+int&#228;kterna under f&#246;rvaltningstiden. Innan f&#246;rvaltningstiden
+best&#228;mts skall den anses vara tre &#229;r. F&#246;rvaltaren f&#229;r, efter
+tillst&#229;nd av n&#228;tmyndigheten, &#228;ven ta upp andra typer av l&#229;n.
+Tillst&#229;nd skall meddelas om l&#229;net &#228;r till gagn f&#246;r den framtida
+verksamheten vid anl&#228;ggningen och inte st&#229;r i missf&#246;rh&#229;llande
+till de ekonomiska f&#246;ruts&#228;ttningarna f&#246;r denna verksamhet.
+
+Innan n&#228;tmyndigheten beslutar i tillst&#229;ndsfr&#229;gan skall
+n&#228;tf&#246;retaget ges tillf&#228;lle att yttra sig.
+
+12 &#167; Medel som f&#246;rvaltaren har hand om f&#246;r anl&#228;ggningens
+f&#246;rvaltning skall h&#229;llas skilda fr&#229;n andra medel.
+
+13 &#167; Medel som inte beh&#246;ver avs&#228;ttas f&#246;r f&#246;rvaltningen skall
+f&#246;rvaltaren betala ut till n&#228;tf&#246;retaget.
+
+14 &#167; Om f&#246;rvaltaren inte kan f&#229; tillr&#228;ckliga medel till
+f&#246;rvaltningen genom l&#246;pande int&#228;kter och l&#229;n f&#229;r
+n&#228;tmyndigheten, p&#229; ans&#246;kan av f&#246;rvaltaren, &#229;l&#228;gga n&#228;tf&#246;retaget
+och, i f&#246;rekommande fall, &#228;garen till anl&#228;ggningen att st&#228;lla
+ytterligare medel f&#246;r f&#246;rvaltningen till f&#246;rvaltarens
+f&#246;rfogande. Beslutet skall grundas p&#229; vad som &#228;r sk&#228;ligt med
+h&#228;nsyn till behovet av ytterligare medel och n&#228;tf&#246;retagets och
+&#228;garens ekonomiska f&#246;rh&#229;llanden.
+
+Om n&#228;tf&#246;retaget &#246;verl&#229;ter den n&#228;tkoncession som avser den
+tv&#229;ngsf&#246;rvaltade anl&#228;ggningen kvarst&#229;r n&#228;tf&#246;retagets
+betalningsskyldighet enligt beslut, som har meddelats enligt
+f&#246;rsta stycket innan koncessionen har &#246;verg&#229;tt till den nye
+koncessionshavaren.
+
+Om &#228;garen till den tv&#229;ngsf&#246;rvaltade anl&#228;ggningen &#246;verl&#229;ter
+denna kvarst&#229;r &#228;garens betalningsskyldighet enligt beslut, som
+har meddelats enligt f&#246;rsta stycket innan &#228;gander&#228;tten har
+&#246;verg&#229;tt till den nye &#228;garen. Detta g&#228;ller dock bara om &#228;garen
+inte har n&#228;tkoncession f&#246;r den tv&#229;ngsf&#246;rvaltade anl&#228;ggningen.
+
+Om det finns sk&#228;l f&#246;r det, f&#229;r n&#228;tmyndigheten, p&#229; ans&#246;kan av
+n&#228;tf&#246;retaget eller, i f&#246;rekommande fall, anl&#228;ggningens &#228;gare
+besluta att en betalningsskyldighet som beslutats enligt f&#246;rsta
+stycket inte l&#228;ngre beh&#246;ver fullg&#246;ras.
+
+14 a &#167; Om det beh&#246;vs medel f&#246;r en &#229;tg&#228;rd under
+tv&#229;ngsf&#246;rvaltningen som inte kan skjutas upp utan risk f&#246;r att
+n&#229;gon drabbas av allvarlig skada eller annan nackdel, ska
+n&#228;tmyndigheten, p&#229; ans&#246;kan av f&#246;rvaltaren, tillskjuta medel
+till f&#246;rvaltningen. Lag (2008:381).
+
+15 &#167; F&#246;rvaltaren skall l&#229;ta n&#228;tf&#246;retaget ta del av det
+r&#228;kenskapsmaterial som g&#228;ller anl&#228;ggningen.
+
+F&#246;rvaltarens redovisning
+
+16 &#167; F&#246;rvaltaren skall f&#246;r varje r&#228;kenskaps&#229;r l&#228;mna en
+skriftlig redovisning av sin f&#246;rvaltning till n&#228;tmyndigheten
+och n&#228;tf&#246;retaget. N&#228;r f&#246;rvaltaren l&#228;mnar sitt uppdrag skall en
+redovisning f&#246;r den g&#229;ngna delen av r&#228;kenskaps&#229;ret l&#228;mnas.
+
+Regeringen eller, efter regeringens bemyndigande,
+n&#228;tmyndigheten f&#229;r meddela n&#228;rmare f&#246;reskrifter om f&#246;rvaltarens
+redovisning.
+
+17 &#167; Om n&#228;tf&#246;retaget vill klandra f&#246;rvaltningen, skall talan
+v&#228;ckas mot f&#246;rvaltaren vid mark- och milj&#246;domstolen inom ett &#229;r
+fr&#229;n det att n&#228;tf&#246;retaget tog emot redovisningen. Om
+n&#228;tf&#246;retaget som grund f&#246;r sin talan &#229;beropar en omst&#228;ndighet
+som inte h&#228;nf&#246;r sig till en viss redovisning, f&#229;r talan v&#228;ckas
+inom ett &#229;r fr&#229;n det n&#228;tf&#246;retaget tog emot den redovisning som
+l&#228;mnats med anledning av att f&#246;rvaltarens uppdrag upph&#246;rde.
+
+Ett n&#228;tf&#246;retag som inte g&#246;r vad som s&#228;gs i f&#246;rsta stycket har
+f&#246;rlorat sin r&#228;tt till talan, om inte f&#246;rvaltaren har gjort sig
+skyldig till brottslig g&#228;rning, som inneburit skada f&#246;r
+n&#228;tf&#246;retaget. Lag (2010:940).
+
+F&#246;rvaltararvode
+
+18 &#167; F&#246;rvaltningsr&#228;tten ska fastst&#228;lla arvode till f&#246;rvaltaren
+f&#246;r varje r&#228;kenskaps&#229;r. Om det finns s&#228;rskilda sk&#228;l, f&#229;r
+arvodet fastst&#228;llas f&#246;r kortare tid. Arvodet ska vara sk&#228;ligt.
+
+Arvodet ska anses utg&#246;ra en kostnad i den verksamhet som
+omfattas av tv&#229;ngsf&#246;rvaltningen.
+
+I den omfattning arvodet inte utan v&#228;sentlig tidsutdr&#228;kt kan
+betalas med medel ur den verksamhet som omfattas av
+tv&#229;ngsf&#246;rvaltningen, ska n&#228;tmyndigheten, p&#229; ans&#246;kan av
+f&#246;rvaltaren, tillskjuta medel till f&#246;rvaltningen.
+Lag (2009:844).
+
+&#197;terbetalning av tillskjutna medel
+
+19 &#167; Belopp som enligt 14 a &#167; och 18 &#167; tredje stycket
+tillskjutits av n&#228;tmyndigheten ska betalas tillbaka till
+n&#228;tmyndigheten med r&#228;nta enligt 6 &#167; r&#228;ntelagen (1975:635) fr&#229;n
+dagen f&#246;r utbetalningen.
+
+&#197;terbetalning ska ske s&#229; snart som det &#228;r m&#246;jligt utan att en
+tillfredsst&#228;llande f&#246;rvaltning av anl&#228;ggningen &#228;ventyras.
+
+Om f&#246;rvaltaren inte kan f&#229; tillr&#228;ckliga medel till
+&#229;terbetalningen genom l&#246;pande int&#228;kter och l&#229;n f&#229;r
+n&#228;tmyndigheten, p&#229; ans&#246;kan av f&#246;rvaltaren, &#229;l&#228;gga n&#228;tf&#246;retaget
+och, i f&#246;rekommande fall, &#228;garen till anl&#228;ggningen att
+tillskjuta ytterligare medel till f&#246;rvaltningen. Beslutet ska
+grundas p&#229; vad som &#228;r sk&#228;ligt med h&#228;nsyn till behovet av
+ytterligare medel och n&#228;tf&#246;retagets och &#228;garens ekonomiska
+f&#246;rh&#229;llanden. Lag (2008:381).
+
+20 &#167; Om den n&#228;tkoncession som avser den tv&#229;ngsf&#246;rvaltade
+anl&#228;ggningen &#246;verl&#229;ts, kvarst&#229;r n&#228;tf&#246;retagets
+&#229;terbetalningsskyldighet enligt beslut, som har meddelats
+enligt 19 &#167; tredje stycket innan koncessionen har &#246;verg&#229;tt till
+den nye koncessionshavaren.
+
+Om &#228;garen till den tv&#229;ngsf&#246;rvaltade anl&#228;ggningen &#246;verl&#229;ter
+denna, och &#228;garen inte sj&#228;lv innehar n&#228;tkoncessionen f&#246;r
+anl&#228;ggningen, kvarst&#229;r &#228;garens &#229;terbetalningsskyldighet enligt
+beslut, som har meddelats enligt 19 &#167; tredje stycket innan
+&#228;gander&#228;tten har &#246;verg&#229;tt till den nye &#228;garen.
+
+Om det finns sk&#228;l f&#246;r det, f&#229;r n&#228;tmyndigheten, p&#229; ans&#246;kan av
+n&#228;tf&#246;retaget eller, i f&#246;rekommande fall, anl&#228;ggningens &#228;gare
+besluta att &#229;terbetalningsskyldighet inte beh&#246;ver fullg&#246;ras.
+Lag (2008:381).
+
+4 kap. &#214;vriga best&#228;mmelser
+
+Ny innehavare av n&#228;tkoncessionen
+
+1 &#167; Om n&#228;tkoncessionen f&#246;r en elektrisk anl&#228;ggning som har
+st&#228;llts under s&#228;rskild f&#246;rvaltning &#246;verg&#229;r p&#229; n&#229;gon annan,
+upph&#246;r beslutet om s&#228;rskild f&#246;rvaltning omedelbart att g&#228;lla.
+
+Best&#228;mmelser om r&#228;tteg&#229;ngen
+
+2 &#167; F&#246;rvaltningsr&#228;ttens beslut att enligt 1 kap. 3 &#167; andra
+stycket meddela ett f&#246;rvaltningsf&#246;rel&#228;ggande, att enligt 2 kap.
+3 &#167; tredje stycket godk&#228;nna ett ingivet f&#246;rvaltningsavtal och
+att enligt 1 kap. 3 &#167; andra stycket f&#246;rordna att en elektrisk
+anl&#228;ggning skall st&#228;llas under tv&#229;ngsf&#246;rvaltning g&#228;ller
+omedelbart.
+
+F&#246;rvaltningsr&#228;tten f&#229;r &#228;ven n&#228;r det g&#228;ller annat beslut enligt
+denna lag f&#246;rordna att det skall g&#228;lla omedelbart.
+Lag (2009:844).
+
+3 &#167; Om det finns sk&#228;l f&#246;r det f&#229;r f&#246;rvaltningsr&#228;tten f&#246;rordna
+att en elektrisk anl&#228;ggning skall st&#228;llas under
+tv&#229;ngsf&#246;rvaltning f&#246;r tiden intill dess att f&#246;rvaltningsr&#228;tten
+har avgjort fr&#229;gan om s&#228;rskild f&#246;rvaltning. Lag (2009:844).
+
+4 &#167; M&#229;l om s&#228;rskild f&#246;rvaltning enligt denna lag skall pr&#246;vas
+skyndsamt.
+
+Tillsyn &#246;ver f&#246;rvaltningen
+
+5 &#167; Tillsynen &#246;ver f&#246;rvaltarens efterlevnad av denna lag och av
+f&#246;reskrifter och villkor som har meddelats med st&#246;d av lagen
+ut&#246;vas av n&#228;tmyndigheten.
+
+6 &#167; N&#228;tmyndigheten har r&#228;tt att p&#229; beg&#228;ran f&#229; de upplysningar
+och ta del av de handlingar som beh&#246;vs f&#246;r tillsynen. En
+beg&#228;ran f&#229;r f&#246;renas med vite.
+
+7 &#167; N&#228;tmyndigheten f&#229;r meddela de f&#246;rel&#228;gganden som beh&#246;vs f&#246;r
+att trygga efterlevnaden av de f&#246;reskrifter och villkor som
+omfattas av tillsynen. Ett f&#246;rel&#228;ggande f&#229;r f&#246;renas med vite.
+
+Tvistpr&#246;vning och &#246;verklagande
+
+8 &#167; Tvister om n&#228;tf&#246;retagets skyldigheter enligt 3 kap. 8 &#167;,
+9 &#167; f&#246;rsta stycket och 10 &#167; samt om f&#246;rvaltarens skyldigheter
+enligt 3 kap. 13 och 15 &#167;&#167; pr&#246;vas av n&#228;tmyndigheten.
+
+N&#228;tmyndigheten f&#229;r f&#246;rordna att ett beslut om n&#228;tf&#246;retagets
+skyldigheter enligt 3 kap. 8 &#167;, 9 &#167; f&#246;rsta stycket och 10 &#167; ska
+g&#228;lla omedelbart.
+
+N&#228;tmyndighetens beslut om n&#228;tf&#246;retagets skyldigheter enligt 3
+kap. 8 och 10 &#167;&#167; och n&#228;tmyndighetens f&#246;rel&#228;ggande enligt 3 kap.
+10 a och 10 c &#167;&#167; f&#229;r verkst&#228;llas enligt uts&#246;kningsbalkens
+best&#228;mmelser. Lag (2008:381).
+
+9 &#167; Andra beslut av n&#228;tmyndigheten enligt denna lag &#228;n beslut
+enligt 3 kap. 14 a &#167; och 18 &#167; tredje stycket f&#229;r &#246;verklagas hos
+allm&#228;n f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2008:381).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2010:830
+
+1. Denna lag tr&#228;der i kraft den 1 augusti 2010.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r ers&#228;ttningen, om
+talan om inl&#246;sen har v&#228;ckts f&#246;re ikrafttr&#228;dandet. I ett
+s&#229;dant fall ska h&#228;nvisningarna till expropriationslagen
+(1972:719) avse den lagens lydelse vid utg&#229;ngen av juli 2010.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2399">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2401">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

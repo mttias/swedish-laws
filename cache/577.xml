@@ -1,0 +1,769 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-03-08" /> 
+ <meta id="rattsinfo-edited" content="2023-03-08 15:51:45" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>577</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=576">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=578">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2019:414 ·
+                    <a href="/sfsr?bet=2019:414">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2019:414) med kompletterande best&#228;mmelser till EU:s prospektf&#246;rordning</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet V
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2019-06-05
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:973
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2019-07-21 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+1 &#167; Denna lag kompletterar Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2017/1129 av den 14 juni 2017 om prospekt som 
+ska offentligg&#246;ras n&#228;r v&#228;rdepapper erbjuds till allm&#228;nheten 
+eller tas upp till handel p&#229; en reglerad marknad, och om 
+upph&#228;vande av direktiv 2003/71/EG, i denna lag kallad 
+EU:s prospektf&#246;rordning.
+
+Termer och uttryck i denna lag har samma betydelse som i 
+EU:s prospektf&#246;rordning.
+
+2 &#167; Denna lag omfattar &#228;ven frivilligt uppr&#228;ttade prospekt 
+enligt artikel 4 i EU:s prospektf&#246;rordning.
+
+3 &#167; Om information som enligt EU:s prospektf&#246;rordning ska 
+framg&#229; av prospekt och marknadsf&#246;ringsmaterial inte 
+tillhandah&#229;lls p&#229; det s&#228;tt och i den form som f&#246;ljer av 
+f&#246;rordningen, ska &#228;ven marknadsf&#246;ringslagen (2008:486) 
+till&#228;mpas, med undantag f&#246;r best&#228;mmelserna i 29-36 &#167;&#167; om 
+marknadsst&#246;rningsavgift. S&#229;dan information ska anses vara 
+v&#228;sentlig enligt 10 &#167; tredje stycket den lagen.
+
+4 &#167; Finansinspektionen &#228;r beh&#246;rig myndighet enligt EU:s 
+prospektf&#246;rordning.
+
+5 &#167; F&#246;r att bekosta Finansinspektionens verksamhet enligt 
+denna lag ska de f&#246;retag som st&#229;r under inspektionens tillsyn 
+betala &#229;rliga avgifter. 
+
+Finansinspektionen f&#229;r ta ut avgifter f&#246;r pr&#246;vning av 
+ans&#246;kningar och anm&#228;lningar enligt EU:s prospektf&#246;rordning 
+eller denna lag.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om avgifterna.
+
+2 kap. Vissa best&#228;mmelser om uppr&#228;ttande av prospekt m.m.
+
+Tr&#246;skelv&#228;rde f&#246;r prospektskyldighet
+
+1 &#167; N&#228;r v&#228;rdepapper erbjuds till allm&#228;nheten beh&#246;ver prospekt 
+inte uppr&#228;ttas om det sammanlagda vederlaget f&#246;r de 
+v&#228;rdepapper som erbjuds till investerare inom Europeiska 
+ekonomiska samarbetsomr&#229;det (EES) under en tid av tolv m&#229;nader 
+motsvarar h&#246;gst 2,5 miljoner euro.
+
+Godk&#228;nnande av prospekt i vissa fall
+
+2 &#167; Om det finns s&#228;rskilda sk&#228;l f&#229;r Finansinspektionen 
+godk&#228;nna ett prospekt trots att inspektionen har fattat ett 
+beslut enligt 5 kap. 5 &#167; om att inte godk&#228;nna s&#229;dana prospekt 
+under en viss tid.
+
+Ytterligare best&#228;mmelser i EU:s f&#246;rordning om referensv&#228;rden
+
+3 &#167; F&#246;r ett prospekt som avser v&#228;rdepapper som h&#228;nvisar till 
+ett referensv&#228;rde finns ytterligare best&#228;mmelser om vad 
+prospektet ska inneh&#229;lla i artikel 29.2 i Europaparlamentets 
+och r&#229;dets f&#246;rordning (EU) 2016/1011 av den 8 juni 2016 om 
+index som anv&#228;nds som referensv&#228;rden f&#246;r finansiella 
+instrument och finansiella avtal eller f&#246;r att m&#228;ta 
+investeringsfonders resultat, och om &#228;ndring av direktiven 
+2008/48/EG och 2014/17/EU och f&#246;rordning (EU) nr 596/2014.
+
+Kompletterande uppgifter i ett prospekt
+
+4 &#167; Om Finansinspektionen vid granskningen av ett prospekt 
+enligt artikel 20 i EU:s prospektf&#246;rordning bed&#246;mer att det 
+beh&#246;vs f&#246;r att investerare ska kunna g&#246;ra en v&#228;lgrundad 
+bed&#246;mning av emittenten eller erbjudandet, f&#229;r inspektionen 
+kr&#228;va att emittenten, erbjudaren eller den person som ans&#246;ker 
+om upptagande av v&#228;rdepapperen till handel p&#229; en reglerad 
+marknad kompletterar prospektet med ytterligare uppgifter 
+ut&#246;ver dem som prospektet ska inneh&#229;lla enligt f&#246;rordningen. 
+
+Granskning av dokument som i vissa fall f&#229;r anv&#228;ndas i st&#228;llet 
+f&#246;r ett prospekt
+
+5 &#167; Vid ett offentligt uppk&#246;pserbjudande enligt lagen 
+(2006:451) om offentliga uppk&#246;pserbjudanden p&#229; aktiemarknaden 
+d&#228;r vederlaget utg&#246;rs av v&#228;rdepapper, f&#229;r budgivaren samtidigt 
+med ans&#246;kan om godk&#228;nnande av erbjudandehandlingen beg&#228;ra att 
+Finansinspektionen ska granska om erbjudandehandlingen 
+inneh&#229;ller den information som kr&#228;vs enligt artikel 1.4 f och 
+1.5 f&#246;rsta stycket e i EU:s prospektf&#246;rordning. Om 
+Finansinspektionen bed&#246;mer att erbjudandehandlingen inte 
+inneh&#229;ller den information som kr&#228;vs, ska inspektionen inom de 
+tidsfrister som anges i artik- 
+el 20.2-20.4 i f&#246;rordningen meddela beslut om att ett prospekt 
+ska uppr&#228;ttas.
+
+6 &#167; Vid en fusion enligt 23 kap. aktiebolagslagen (2005:551) 
+eller en delning enligt 24 kap. samma lag d&#228;r minst ett av 
+bolagen &#228;r ett publikt aktiebolag, f&#229;r de deltagande bolagen 
+beg&#228;ra att Finansinspektionen ska granska om ett dokument 
+inneh&#229;ller den information som kr&#228;vs enligt artikel 1.4 g och 
+1.5 f&#246;rsta stycket f i EU:s prospektf&#246;rordning. Om 
+Finansinspektionen bed&#246;mer att dokumentet inte inneh&#229;ller den 
+information som kr&#228;vs, ska inspektionen inom de tidsfrister 
+som anges i artikel 20.2-20.4 i f&#246;rordningen meddela beslut om 
+att ett prospekt ska uppr&#228;ttas.
+
+Bemyndigande
+
+7 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om 
+
+1. hur det tr&#246;skelv&#228;rde som avses i 1 &#167; ska ber&#228;knas n&#228;r 
+erbjudandet g&#246;rs i en annan valuta &#228;n euro, 
+
+2. p&#229; vilket spr&#229;k ett prospekt, till&#228;gg till prospekt eller 
+universellt registreringsdokument ska uppr&#228;ttas, och
+
+3. p&#229; vilket spr&#229;k s&#229;dana dokument som avses i artikel 1.4 f 
+och g och 1.5 f&#246;rsta stycket e, f och j v i EU:s 
+prospektf&#246;rordning ska uppr&#228;ttas.
+
+3 kap. Tillsyns- och utredningsbefogenheter 
+
+F&#246;rel&#228;ggande om att l&#228;mna uppgifter
+
+1 &#167; F&#246;r tillsynen &#246;ver att best&#228;mmelserna i EU:s 
+prospektf&#246;rordning f&#246;ljs f&#229;r Finansinspektionen besluta att 
+f&#246;rel&#228;gga 
+
+1. en fysisk eller juridisk person att tillhandah&#229;lla 
+uppgifter, handlingar eller annat, och 
+
+2. den som f&#246;rv&#228;ntas kunna l&#228;mna upplysningar i saken att 
+inst&#228;lla sig till f&#246;rh&#246;r p&#229; tid och plats som inspektionen 
+best&#228;mmer. 
+
+F&#246;rsta stycket g&#228;ller inte i den utstr&#228;ckning 
+uppgiftsl&#228;mnandet skulle strida mot den i lag reglerade 
+tystnadsplikten f&#246;r advokater.
+
+F&#246;rbud
+
+2 &#167; Finansinspektionen f&#229;r tillf&#228;lligt f&#246;rbjuda ett planerat 
+eller p&#229;b&#246;rjat erbjudande av v&#228;rdepapper till allm&#228;nheten 
+eller ett upptagande av v&#228;rdepapper till handel p&#229; en reglerad 
+marknad, om det finns sk&#228;lig anledning att anta att 
+erbjudandet eller upptagandet till handel strider mot 
+best&#228;mmelserna i EU:s prospektf&#246;rordning. 
+
+Finansinspektionen f&#229;r tillf&#228;lligt f&#246;rbjuda marknadsf&#246;ring av 
+ett planerat eller p&#229;b&#246;rjat erbjudande av v&#228;rdepapper till 
+allm&#228;nheten eller ett upptagande av v&#228;rdepapper till handel p&#229; 
+en reglerad marknad, om det finns sk&#228;lig anledning att anta 
+att marknadsf&#246;ringen, erbjudandet eller upptagandet till 
+handel strider mot best&#228;mmelserna i EU:s prospektf&#246;rordning.
+
+Ett beslut om f&#246;rbud som avses i f&#246;rsta eller andra stycket 
+f&#229;r g&#228;lla under h&#246;gst tio arbetsdagar. 
+
+3 &#167; Om ett planerat eller p&#229;b&#246;rjat erbjudande av v&#228;rdepapper 
+till allm&#228;nheten eller ett upptagande av v&#228;rdepapper till 
+handel p&#229; en reglerad marknad strider mot best&#228;mmelserna i 
+EU:s prospektf&#246;rordning eller om det finns sk&#228;lig anledning 
+att anta att erbjudandet eller upptagandet till handel skulle 
+g&#246;ra det, f&#229;r Finansinspektionen f&#246;rbjuda 
+
+1. erbjudandet eller upptagandet till handel, och
+
+2. marknadsf&#246;ring av erbjudandet eller upptagandet till 
+handel. 
+
+Ett s&#229;dant f&#246;rbud ska upph&#228;vas om erbjudandet eller 
+upptagandet till handel inte l&#228;ngre strider mot best&#228;mmelserna 
+i EU:s prospektf&#246;rordning eller om det inte l&#228;ngre finns 
+sk&#228;lig anledning att anta att erbjudandet eller upptagandet 
+till handel skulle g&#246;ra det.
+
+Handelsstopp
+
+4 &#167; Finansinspektionen f&#229;r besluta att handeln med ett 
+finansiellt instrument p&#229; en reglerad marknad, en MTF-
+plattform eller en OTF-plattform ska avbrytas tillf&#228;lligt om 
+det finns sk&#228;lig anledning att anta att best&#228;mmelserna i EU:s 
+prospektf&#246;rordning har &#246;vertr&#228;tts.
+
+Beslutet f&#229;r g&#228;lla under h&#246;gst tio arbetsdagar. 
+
+5 &#167; Finansinspektionen f&#229;r besluta att handeln med ett 
+finansiellt instrument p&#229; en reglerad marknad, en MTF-
+plattform eller en OTF-plattform ska avbrytas om 
+best&#228;mmelserna i EU:s prospektf&#246;rordning har &#246;vertr&#228;tts. 
+Beslutet ska upph&#228;vas om &#246;vertr&#228;delsen har upph&#246;rt. 
+
+6 &#167; I 22 kap. 1 &#167; lagen (2007:528) om v&#228;rdepappersmarknaden 
+finns ytterligare best&#228;mmelser om r&#228;tt f&#246;r Finansinspektionen 
+att besluta om handelsstopp i vissa fall.
+
+Korrigering av felaktig eller vilseledande information
+
+7 &#167; Om det f&#246;rekommer felaktiga eller vilseledande uppgifter i 
+ett prospekt, f&#229;r Finansinspektionen offentligg&#246;ra korrekta 
+uppgifter. 
+
+Avbruten prospektgranskning och f&#246;rel&#228;ggande vid 
+produktingripande
+
+8 &#167; Om ett v&#228;rdepapper omfattas av ett produktingripande som 
+Finansinspektionen har beslutat enligt artikel 42 i 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) nr 600/2014 av 
+den 15 maj 2014 om marknader f&#246;r finansiella instrument, f&#229;r 
+Finansinspektionen 
+
+1. avbryta granskningen av ett prospekt som har getts in till 
+inspektionen f&#246;r godk&#228;nnande, eller 
+
+2. f&#246;rel&#228;gga en emittent, erbjudare eller person som ans&#246;ker 
+om upptagande av v&#228;rdepapper till handel p&#229; en reglerad 
+marknad att avbryta eller begr&#228;nsa erbjudandet av v&#228;rdepapper 
+till allm&#228;nheten eller upptagandet till handel i enlighet med 
+produktingripandet. 
+
+Platsunders&#246;kning
+
+9 &#167; Om det &#228;r n&#246;dv&#228;ndigt f&#246;r tillsynen &#246;ver att en fysisk 
+eller juridisk person f&#246;ljer best&#228;mmelserna i EU:s 
+prospektf&#246;rordning, f&#229;r Finansinspektionen genomf&#246;ra en 
+unders&#246;kning i personens verksamhetslokaler.
+
+Vite
+
+10 &#167; Ett f&#246;rel&#228;ggande eller f&#246;rbud enligt 1, 2, 3 eller 8 &#167; 
+f&#229;r f&#246;renas med vite. Detsamma g&#228;ller ett f&#246;rel&#228;ggande om 
+&#228;ndring eller komplettering av ett universellt 
+registreringsdokument enligt artikel 9.9 i EU:s 
+prospektf&#246;rordning.
+
+Internationellt samarbete
+
+11 &#167; Finansinspektionen ska inom ramen f&#246;r sin befogenhet, 
+efter beg&#228;ran fr&#229;n en myndighet i ett land utanf&#246;r EES som har 
+beh&#246;righet att ut&#246;va tillsyn motsvarande den tillsyn som 
+inspektionen bedriver enligt denna lag, l&#228;mna eller 
+kontrollera information som beh&#246;vs f&#246;r att den utl&#228;ndska 
+myndigheten ska kunna ut&#246;va sin tillsyn. Detta g&#228;ller dock 
+bara i den utstr&#228;ckning det f&#246;ljer av ett avtal om samarbete 
+som Finansinspektionen, med st&#246;d av regeringens bemyndigande, 
+har ing&#229;tt med den utl&#228;ndska myndigheten.
+
+Om en beg&#228;ran avser r&#228;ttslig hj&#228;lp i brottm&#229;l, g&#228;ller 
+i st&#228;llet lagen (2000:562) om internationell r&#228;ttslig hj&#228;lp i 
+brottm&#229;l.
+
+4 kap. Ansvaret f&#246;r prospekt
+
+1 &#167; I 29 kap. 1 &#167; aktiebolagslagen (2005:551) finns 
+best&#228;mmelser om ansvar f&#246;r skada som har tillfogats en 
+aktie&#228;gare eller n&#229;gon annan n&#228;r ett prospekt har uppr&#228;ttats 
+och EU:s prospektf&#246;rordning har &#246;vertr&#228;tts. 
+
+2 &#167; En person f&#229;r g&#246;ras ansvarig f&#246;r uppgifter som ing&#229;r i 
+eller saknas i sammanfattningen i ett prospekt eller en 
+&#246;vers&#228;ttning av den bara om sammanfattningen eller 
+&#246;vers&#228;ttningen &#228;r vilseledande eller felaktig i f&#246;rh&#229;llande 
+till de andra delarna av prospektet eller om sammanfattningen, 
+tillsammans med de andra delarna av prospektet, inte f&#246;rmedlar 
+nyckelinformation.
+
+5 kap. Ingripanden
+
+&#214;vertr&#228;delser
+
+1 &#167; Finansinspektionen ska ingripa mot en emittent, erbjudare 
+eller person som ans&#246;ker om upptagande av v&#228;rdepapper till 
+handel p&#229; en reglerad marknad och som har &#229;sidosatt sina 
+skyldigheter enligt EU:s prospektf&#246;rordning genom att 
+
+1. inte registrera det slutliga emissionsbeloppet och volymen 
+v&#228;rdepapper hos den beh&#246;riga myndigheten i hemmedlemsstaten 
+eller g&#246;ra dessa uppgifter tillg&#228;ngliga f&#246;r allm&#228;nheten enligt 
+artikel 17.2,
+
+2. inte ans&#246;ka om godk&#228;nnande av ett prospekt enligt 
+artikel 20 trots att det finns en s&#229;dan skyldighet,
+
+3. inte offentligg&#246;ra, eller h&#229;lla tillg&#228;ngligt, ett prospekt, 
+till&#228;gg till prospekt eller universellt registreringsdokument 
+enligt artikel 21,
+
+4. inte ange n&#228;r giltighetstiden f&#246;r ett prospekt och ett 
+eventuellt till&#228;gg till prospekt l&#246;per ut enligt artikel 21.8,
+
+5. inte l&#228;mna ut en kostnadsfri kopia av ett prospekt eller 
+till&#228;gg till prospekt till investerare enligt artikel 21.11,
+
+6. inte uppfylla kraven p&#229; inneh&#229;llet i en annons eller i 
+s&#229;dan information som ska l&#228;mnas i skriftlig eller muntlig 
+form enligt artikel 22.2-22.5,
+
+7. inte ans&#246;ka om godk&#228;nnande av ett till&#228;gg till ett prospekt 
+enligt artikel 23,
+
+8. inte informera investerare om r&#228;tten att &#229;terkalla ett 
+tidigare l&#228;mnat samtycke till att k&#246;pa eller teckna sig f&#246;r 
+v&#228;rdepapper enligt artikel 23.2 och 23.3, eller
+
+9. inte uppfylla kraven i fr&#229;ga om spr&#229;k enligt artikel 27 
+eller f&#246;reskrifter om spr&#229;k som har meddelats med st&#246;d av 
+2 kap. 7 &#167;. Lag (2021:973).
+
+2 &#167; Finansinspektionen ska ingripa mot en emittent, erbjudare 
+eller person som ans&#246;ker om upptagande av v&#228;rdepapper till 
+handel p&#229; en reglerad marknad och som i ett prospekt eller 
+till&#228;gg till prospekt har utel&#228;mnat v&#228;sentlig information 
+eller som har l&#228;mnat information som &#228;r vilseledande eller 
+felaktig p&#229; ett s&#228;tt som &#228;r &#228;gnat att p&#229;verka allm&#228;nhetens 
+m&#246;jlighet att g&#246;ra en v&#228;lgrundad bed&#246;mning av emittenten eller 
+de v&#228;rdepapper som erbjuds eller tas upp till handel p&#229; en 
+reglerad marknad.
+
+Det som anges i 4 kap. 2 &#167; om ansvar f&#246;r brister i en 
+sammanfattning eller en &#246;vers&#228;ttning av den ska beaktas vid 
+bed&#246;mningen av om ingripande ska ske. 
+
+3 &#167; Finansinspektionen ska ingripa mot den som, i egenskap av 
+finansiell mellanhand, har &#229;sidosatt sina skyldigheter enligt 
+EU:s prospektf&#246;rordning genom att 
+
+1. &#229;terf&#246;rs&#228;lja v&#228;rdepapper till icke-kvalificerade 
+investerare i strid med artikel 5.2,
+
+2. inte l&#228;mna ut en kostnadsfri kopia av ett prospekt eller 
+till&#228;gg till prospekt till investerare enligt artikel 21.11, 
+eller
+
+3. inte l&#228;mna information till investerare enligt 
+artikel 23.3. Lag (2021:973).
+
+Olika typer av ingripanden
+
+4 &#167; Ett ingripande enligt n&#229;gon av 1-3 &#167;&#167; sker genom beslut om
+
+1. f&#246;rel&#228;ggande att inom viss tid vidta en viss &#229;tg&#228;rd eller 
+upph&#246;ra med ett visst agerande, 
+
+2. anm&#228;rkning,
+
+3. att inte godk&#228;nna prospekt enligt 5 &#167;, eller
+
+4. sanktionsavgift enligt 6 &#167;.
+
+Ett beslut om f&#246;rel&#228;ggande enligt f&#246;rsta stycket 1 f&#229;r f&#246;renas 
+med vite.
+
+Ett ingripande f&#229;r inte ske om &#246;vertr&#228;delsen omfattas av ett 
+f&#246;rel&#228;ggande som har f&#246;renats med vite och en ans&#246;kan om 
+utd&#246;mande av vitet har gjorts. 
+
+Beslut att inte godk&#228;nna prospekt under viss tid
+
+5 &#167; Finansinspektionen f&#229;r besluta att prospekt som uppr&#228;ttas 
+av en viss emittent, erbjudare eller person som ans&#246;ker om 
+upptagande av v&#228;rdepapper till handel p&#229; en reglerad marknad 
+inte ska godk&#228;nnas under en viss tid, h&#246;gst fem &#229;r, om 
+emittenten, erbjudaren eller personen som ans&#246;ker om 
+upptagande till handel allvarligt och vid upprepade tillf&#228;llen 
+har &#229;sidosatt sina skyldigheter enligt EU:s 
+prospektf&#246;rordning. 
+
+Finansinspektionen f&#229;r trots ett beslut enligt f&#246;rsta stycket 
+godk&#228;nna ett prospekt om f&#246;ruts&#228;ttningarna i 2 kap. 2 &#167; &#228;r 
+uppfyllda.
+
+Sanktionsavgifter
+
+6 &#167; Sanktionsavgiften f&#246;r en &#246;vertr&#228;delse som anges i 1-3 &#167;&#167; 
+ska fastst&#228;llas till h&#246;gst det h&#246;gsta av
+
+1. f&#246;r en juridisk person: 
+
+a) ett belopp som per den 20 juli 2017 i svenska kronor 
+motsvarade 5 000 000 euro, 
+
+b) tre procent av den juridiska personens oms&#228;ttning n&#228;rmast 
+f&#246;reg&#229;ende r&#228;kenskaps&#229;r eller, i f&#246;rekommande fall, 
+motsvarande oms&#228;ttning p&#229; koncernniv&#229;, eller
+
+c) tv&#229; g&#229;nger den vinst som den juridiska personen gjort till 
+f&#246;ljd av regel&#246;vertr&#228;delsen, om beloppet g&#229;r att fastst&#228;lla, 
+
+2. f&#246;r en fysisk person: 
+
+a) ett belopp som per den 20 juli 2017 i svenska kronor 
+motsvarade 700 000 euro, eller
+
+b) tv&#229; g&#229;nger den vinst som den fysiska personen gjort till 
+f&#246;ljd av regel&#246;vertr&#228;delsen, om beloppet g&#229;r att fastst&#228;lla.
+
+Avgiften tillfaller staten.
+
+7 &#167; Om en &#246;vertr&#228;delse har skett under den juridiska personens 
+f&#246;rsta verksamhets&#229;r eller om uppgifter om oms&#228;ttningen annars 
+saknas eller &#228;r bristf&#228;lliga, f&#229;r oms&#228;ttningen uppskattas n&#228;r 
+den h&#246;gsta sanktionsavgiften ska ber&#228;knas enligt 6 &#167;.
+
+Val av ingripande
+
+8 &#167; Vid valet av ingripande ska Finansinspektionen ta h&#228;nsyn 
+till hur allvarlig &#246;vertr&#228;delsen &#228;r och hur l&#228;nge den har 
+p&#229;g&#229;tt. S&#228;rskild h&#228;nsyn ska tas till graden av ansvar f&#246;r den 
+som har beg&#229;tt &#246;vertr&#228;delsen och skador som uppkommit till 
+f&#246;ljd av &#246;vertr&#228;delsen. 
+
+9 &#167; Ut&#246;ver det som anges i 8 &#167; ska det i f&#246;rsv&#229;rande riktning 
+beaktas om den som har beg&#229;tt &#246;vertr&#228;delsen tidigare har 
+beg&#229;tt en &#246;vertr&#228;delse. Vid denna bed&#246;mning ska s&#228;rskild vikt 
+f&#228;stas vid om &#246;vertr&#228;delserna &#228;r likartade och den tid som har 
+g&#229;tt mellan de olika &#246;vertr&#228;delserna. 
+
+I f&#246;rmildrande riktning ska det beaktas om den som har beg&#229;tt 
+&#246;vertr&#228;delsen 
+
+1. i v&#228;sentlig utstr&#228;ckning genom ett aktivt samarbete har 
+underl&#228;ttat Finansinspektionens utredning, och 
+
+2. har vidtagit &#229;tg&#228;rder efter &#246;vertr&#228;delsen f&#246;r att undvika 
+att den upprepas.
+
+10 &#167; Finansinspektionen f&#229;r avst&#229; fr&#229;n ingripande, om 
+
+1. &#246;vertr&#228;delsen &#228;r ringa eller urs&#228;ktlig, 
+
+2. personen i fr&#229;ga g&#246;r r&#228;ttelse, 
+
+3. n&#229;got annat organ har vidtagit &#229;tg&#228;rder mot personen och 
+dessa &#229;tg&#228;rder bed&#246;ms tillr&#228;ckliga, eller 
+
+4. det annars finns s&#228;rskilda sk&#228;l.
+
+11 &#167; N&#228;r sanktionsavgiftens storlek ska best&#228;mmas, ska 
+s&#228;rskild h&#228;nsyn tas till s&#229;dana omst&#228;ndigheter som anges i 8 
+och 9 &#167;&#167; samt till den ber&#246;rda personens finansiella st&#228;llning 
+och, om det g&#229;r att best&#228;mma, den vinst som personen gjort 
+till f&#246;ljd av regel&#246;vertr&#228;delsen.
+
+Verkst&#228;llighet av beslut om sanktionsavgift 
+
+12 &#167; En sanktionsavgift ska betalas till Finansinspektionen 
+inom 30 dagar efter det att ett beslut om den har f&#229;tt laga 
+kraft eller den l&#228;ngre tid som anges i beslutet.
+
+13 &#167; Om sanktionsavgiften inte har betalats inom den tid som 
+anges i 12 &#167;, ska Finansinspektionen l&#228;mna avgiften f&#246;r 
+indrivning. Best&#228;mmelser om indrivning finns i lagen 
+(1993:891) om indrivning av statliga fordringar m.m. Vid 
+indrivning f&#229;r verkst&#228;llighet ske enligt uts&#246;kningsbalken.
+
+14 &#167; En sanktionsavgift som har beslutats faller bort i den 
+utstr&#228;ckning verkst&#228;llighet inte har skett inom fem &#229;r fr&#229;n 
+det att beslutet fick laga kraft.
+
+6 kap. &#214;verklagande m.m.
+
+1 &#167; Finansinspektionens beslut enligt denna lag f&#229;r &#246;verklagas 
+till allm&#228;n f&#246;rvaltningsdomstol. 
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+2 &#167; Finansinspektionen f&#229;r best&#228;mma att ett beslut om 
+f&#246;rel&#228;ggande eller f&#246;rbud enligt EU:s prospektf&#246;rordning eller 
+enligt denna lag ska g&#228;lla omedelbart.
+
+3 &#167; Om Finansinspektionen i ett &#228;rende om granskning och 
+godk&#228;nnande av ett prospekt enligt artikel 20 i EU:s 
+prospektf&#246;rordning inte har meddelat beslut om att godk&#228;nna 
+eller avsl&#229; en ans&#246;kan inom den tid som anges i f&#246;rordningen, 
+ska inspektionen underr&#228;tta s&#246;kanden om sk&#228;len f&#246;r detta. 
+Detsamma g&#228;ller om Finansinspektionen inte har beg&#228;rt n&#229;gra 
+&#228;ndringar eller kompletterande information inom de tidsgr&#228;nser 
+som anges i den artikeln. S&#246;kanden f&#229;r d&#228;refter beg&#228;ra 
+f&#246;rklaring av domstol att &#228;rendet on&#246;digt uppeh&#229;lls.
+
+En beg&#228;ran om en f&#246;rklaring som avses i f&#246;rsta stycket ska 
+g&#246;ras hos allm&#228;n f&#246;rvaltningsdomstol. Pr&#246;vningstillst&#229;nd kr&#228;vs 
+vid &#246;verklagande till kammarr&#228;tten.
+
+Om Finansinspektionen inte har meddelat ett beslut eller 
+beg&#228;rt n&#229;gra &#228;ndringar eller kompletterande information som 
+avses i f&#246;rsta stycket inom de tidsfrister som anges i 
+artikel 20 i EU:s prospektf&#246;rordning fr&#229;n det att en 
+f&#246;rklaring har l&#228;mnats, ska ans&#246;kan anses ha avslagits. 
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2019:414
+
+1. Denna lag tr&#228;der i kraft den 21 juli 2019. 
+
+2. Lagen till&#228;mpas inte i fr&#229;ga om s&#229;dana prospekt, 
+erbjudandehandlingar eller dokument som uppr&#228;ttats vid 
+fusioner eller delningar som omfattas av punkt 2 i 
+ikrafttr&#228;dande- och &#246;verg&#229;ngsbest&#228;mmelserna till lagen 
+(2019:415) om &#228;ndring i lagen (1991:980) om handel med 
+finansiella instrument.
+
+3. Finansinspektionen f&#229;r ta ut avgifter &#228;ven f&#246;re lagens 
+ikrafttr&#228;dande f&#246;r ans&#246;kningar enligt denna lag och EU:s 
+prospektf&#246;rordning, n&#228;r s&#229;dana ans&#246;kningar har kommit in till 
+inspektionen f&#246;re lagens ikrafttr&#228;dande.
+
+2021:972
+
+1. Denna lag tr&#228;der i kraft den 1 december 2021.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r &#246;vertr&#228;delser som har &#228;gt rum 
+f&#246;re ikrafttr&#228;dandet.
+
+2021:973
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2023.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r &#246;vertr&#228;delser som har &#228;gt rum 
+f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=576">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=578">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

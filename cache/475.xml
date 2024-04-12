@@ -1,0 +1,708 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2020-06-18" /> 
+ <meta id="rattsinfo-edited" content="2021-07-06" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>475</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=474">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=476">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2020:548 ·
+                    <a href="/sfsr?bet=2020:548">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2020:548) om omst&#228;llningsst&#246;d</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2020-06-17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:284
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2020-06-22
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Omst&#228;llningsst&#246;d
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om ekonomiskt st&#246;d till 
+f&#246;retag vars nettooms&#228;ttning har minskat i st&#246;rre omfattning 
+till f&#246;ljd av spridningen av sjukdomen covid-19 
+(omst&#228;llningsst&#246;d). 
+
+Vem har r&#228;tt till omst&#228;llningsst&#246;d?
+
+2 &#167; R&#228;tt till omst&#228;llningsst&#246;d har f&#246;retag som &#228;r en fysisk 
+eller juridisk person som vid tidpunkten f&#246;r pr&#246;vningen av 
+ans&#246;kan om omst&#228;llningsst&#246;d
+
+1. bedriver s&#229;dan n&#228;ringsverksamhet i Sverige som avses i 
+13 kap. 1 &#167; inkomstskattelagen (1999:1229), och
+
+2. &#228;r godk&#228;nd f&#246;r F-skatt enligt 9 kap. 1 &#167; 
+skattef&#246;rfarandelagen (2011:1244) eller &#228;r en s&#229;dan stiftelse, 
+f&#246;rening eller registrerat trossamfund som undantas fr&#229;n 
+skattskyldighet enligt 7 kap. 3 &#167; inkomstskattelagen eller &#228;r 
+ett privatbostadsf&#246;retag enligt 2 kap. 17 &#167; samma lag.
+
+En ideell f&#246;rening har r&#228;tt till omst&#228;llningsst&#246;d endast om 
+organisationsnummer f&#246;r f&#246;reningen har fastst&#228;llts senast vid 
+utg&#229;ngen av 2019.
+
+3 &#167; R&#228;tt till omst&#228;llningsst&#246;d har inte
+
+1. staten, regioner, kommuner och kommunalf&#246;rbund,
+
+2. f&#246;retag &#246;ver vilka staten, regioner, kommuner och 
+kommunalf&#246;rbund var f&#246;r sig eller tillsammans, har ett direkt 
+eller indirekt r&#228;ttsligt best&#228;mmande inflytande, om inte 
+verksamheten som ett s&#229;dant f&#246;retag bedriver avser 
+aff&#228;rsverksamhet, 
+
+3. f&#246;retag som h&#246;r hemma i en stat eller jurisdiktion som &#228;r 
+upptagen i en f&#246;rteckning &#246;ver stater eller jurisdiktioner 
+utanf&#246;r Europeiska unionen som av medlemsstaterna gemensamt 
+eller inom ramen f&#246;r Organisationen f&#246;r ekonomiskt samarbete 
+och utveckling (OECD) har bed&#246;mts vara icke samarbetsvilliga 
+p&#229; skatteomr&#229;det, 
+
+4. f&#246;retag som ing&#229;r i samma intressegemenskap som ett f&#246;retag 
+som avses i 3, och
+
+5. begr&#228;nsat skattskyldiga enligt 3 kap. 17 &#167; och 6 kap. 7 &#167; 
+inkomstskattelagen (1999:1229), om n&#228;ringsverksamheten i 
+Sverige inte bedrivs fr&#229;n ett s&#229;dant fast driftst&#228;lle som 
+avses i 2 kap. 29 &#167; samma lag.
+
+F&#246;retag ska anses vara i s&#229;dan intressegemenskap som avses i 
+f&#246;rsta stycket 4 om 
+
+1. f&#246;retagen ing&#229;r i en koncern av s&#229;dant slag som anges i 
+1 kap. 4 &#167; &#229;rsredovisningslagen (1995:1554), eller
+
+2. det f&#246;retag som ans&#246;ker om omst&#228;llningsst&#246;d, direkt eller 
+indirekt, innehar minst 25 procent av kapitalet eller r&#246;sterna 
+i det andra f&#246;retaget eller har r&#228;tt till minst 25 procent av 
+vinsten i det andra f&#246;retaget. 
+
+Skattepliktigt n&#228;ringsbidrag
+
+4 &#167; Vid till&#228;mpning av best&#228;mmelserna om n&#228;ringsbidrag i 
+29 kap. 2-8 &#167;&#167; inkomstskattelagen (1999:1229) ska 
+omst&#228;llningsst&#246;d tas upp i sin helhet det beskattnings&#229;r d&#229; 
+st&#246;det beslutas. Detta g&#228;ller dock inte till den del st&#246;det 
+motsvarar kostnader som &#228;r h&#228;nf&#246;rliga till en verksamhet som 
+f&#246;retaget inte &#228;r skattskyldigt f&#246;r enligt 7 kap. 3 &#167; 
+inkomstskattelagen. Till den del st&#246;det &#228;r h&#228;nf&#246;rligt till 
+kostnader under det f&#246;reg&#229;ende beskattnings&#229;ret f&#229;r det tas 
+upp detta &#229;r i st&#228;llet. 
+
+&#197;terbetalas st&#246;d som tagits upp, ska det &#229;terbetalda beloppet 
+dras av.
+
+Handl&#228;ggningen av en ans&#246;kan om omst&#228;llningsst&#246;d
+
+5 &#167; En ans&#246;kan om omst&#228;llningsst&#246;d pr&#246;vas av Skatteverket och 
+ska inneh&#229;lla f&#246;ljande uppgifter:
+
+1. nedg&#229;ngen i f&#246;retagets nettooms&#228;ttning vid en j&#228;mf&#246;relse 
+mellan nettooms&#228;ttningen f&#246;r de m&#229;nader som st&#246;det avser och 
+nettooms&#228;ttningen f&#246;r referensperioden,
+
+2. vad nedg&#229;ngen i nettooms&#228;ttning beror p&#229;,
+
+3. om f&#246;retaget har redovisat ett negativt r&#246;relseresultat 
+f&#246;re finansiella poster f&#246;r det r&#228;kenskaps&#229;r som avslutats 
+n&#228;rmast f&#246;re den 1 maj 2020,
+
+4. de fasta kostnader som ans&#246;kan avser,
+
+5. ett skriftligt undertecknat yttrande fr&#229;n en auktoriserad 
+eller godk&#228;nd revisor eller ett registrerat revisionsbolag om 
+det s&#246;kta omst&#228;llningsst&#246;det uppg&#229;r till minst 100 000 kronor,
+
+6. f&#246;rs&#228;kringsers&#228;ttning, skadest&#229;nd och annan liknande 
+ers&#228;ttning f&#246;r s&#229;dan f&#246;rlorad oms&#228;ttning eller s&#229;dana 
+kostnader som st&#246;det ska ber&#228;knas p&#229;,
+
+7. statligt st&#246;d som f&#246;retaget har tagit emot f&#246;r s&#229;dan 
+f&#246;rlorad oms&#228;ttning eller s&#229;dana kostnader som st&#246;det ska 
+ber&#228;knas p&#229;, och
+
+8. de &#246;vriga uppgifter som Skatteverket beh&#246;ver f&#246;r att kunna 
+fatta beslut om omst&#228;llningsst&#246;d.
+
+Uppgifterna i en ans&#246;kan om omst&#228;llningsst&#246;d ska l&#228;mnas p&#229; 
+heder och samvete. Lag (2021:284).
+
+6 &#167; Ett f&#246;retag som ans&#246;kt om omst&#228;llningsst&#246;d ska till 
+Skatteverket omg&#229;ende anm&#228;la om de uppgifter som l&#228;mnats till 
+Skatteverket visar sig vara felaktiga eller om det intr&#228;ffat 
+s&#229;dana f&#246;r&#228;ndringar som kan p&#229;verka r&#228;tten till st&#246;d eller 
+st&#246;dets storlek. 
+
+Ett f&#246;retag som har f&#229;tt omst&#228;llningsst&#246;d ska till 
+Skatteverket omg&#229;ende anm&#228;la omst&#228;ndigheter som skulle ha 
+p&#229;verkat r&#228;tten till st&#246;d eller st&#246;dets storlek om 
+omst&#228;ndigheterna varit k&#228;nda vid tidpunkten f&#246;r pr&#246;vningen av 
+ans&#246;kan. Skatteverkets beslut om st&#246;d ska inneh&#229;lla en 
+upplysning om denna skyldighet.
+
+Kreditering p&#229; skattekonto
+
+7 &#167; Omst&#228;llningsst&#246;d tillgodof&#246;rs ett f&#246;retag genom 
+kreditering p&#229; ett s&#229;dant skattekonto som avses i 61 kap. 1 &#167; 
+skattef&#246;rfarandelagen (2011:1244).
+
+Om en avst&#228;mning av skattekontot visar att det finns ett 
+&#246;verskott p&#229; kontot efter kreditering av ett omst&#228;llningsst&#246;d, 
+ska utbetalning ske om det inte finns hinder mot detta enligt 
+64 kap. 4 &#167; skattef&#246;rfarandelagen.
+
+Om det finns ett &#246;verskott p&#229; skattekontot efter kreditering 
+av ett omst&#228;llningsst&#246;d, ska int&#228;ktsr&#228;nta enligt 65 kap. 4 &#167; 
+tredje stycket skattef&#246;rfarandelagen ber&#228;knas p&#229; &#246;verskottet 
+fr&#229;n och med dagen efter tillgodof&#246;randet. 
+
+Utredning och kontroll
+
+8 &#167; Ett f&#246;retag som har ans&#246;kt om eller f&#229;tt omst&#228;llningsst&#246;d 
+ska ge Skatteverket tillf&#228;lle att granska verksamheten med 
+avseende p&#229; f&#246;retagets r&#228;tt till st&#246;d och l&#228;mna de uppgifter 
+som beh&#246;vs f&#246;r granskningen.
+
+Skatteverket f&#229;r beg&#228;ra att f&#246;retaget l&#228;mnar ett s&#229;dant 
+revisorsintyg som avses i 5 &#167; f&#246;rsta stycket 5, &#228;ven om det 
+s&#246;kta st&#246;det understiger 100 000 kr. 
+
+9 &#167; Skatteverket f&#229;r f&#246;rel&#228;gga ett f&#246;retag att fullg&#246;ra sina 
+skyldigheter enligt 8 &#167;. Om f&#246;retagets ans&#246;kan om 
+omst&#228;llningsst&#246;d &#228;nnu inte har pr&#246;vats, f&#229;r ans&#246;kan avvisas om 
+f&#246;retaget inte f&#246;ljer ett s&#229;dant f&#246;rel&#228;ggande. F&#246;rel&#228;ggandet 
+ska inneh&#229;lla en upplysning om detta.
+
+Kontroll av n&#229;gon annans uppgiftsskyldighet
+
+10 &#167; Skatteverket f&#229;r f&#246;rel&#228;gga en fysisk eller juridisk 
+person att l&#228;mna uppgift om en r&#228;ttshandling med den som har 
+f&#229;tt omst&#228;llningsst&#246;d. Fysiska personer som inte &#228;r eller inte 
+kan antas vara bokf&#246;ringsskyldiga enligt bokf&#246;ringslagen 
+(1999:1078) f&#229;r dock f&#246;rel&#228;ggas endast om det finns s&#228;rskilda 
+sk&#228;l.
+
+F&#246;rel&#228;ggandet ska avse f&#246;rh&#229;llanden som &#228;r av betydelse f&#246;r 
+kontroll av att den som har f&#229;tt st&#246;det har l&#228;mnat riktiga och 
+fullst&#228;ndiga uppgifter i sin ans&#246;kan om omst&#228;llningsst&#246;d.
+
+11 &#167; Ett f&#246;rel&#228;ggande enligt 10 &#167; f&#229;r f&#246;renas med vite.
+
+F&#246;rel&#228;ggandet f&#229;r dock inte f&#246;renas med vite om
+
+1. det finns anledning att anta att den som ska f&#246;rel&#228;ggas har 
+beg&#229;tt en g&#228;rning som &#228;r straffbelagd, och
+
+2. f&#246;rel&#228;ggandet avser utredning av en fr&#229;ga som har samband 
+med den misst&#228;nkta g&#228;rningen. 
+
+Om den som ska f&#246;rel&#228;ggas &#228;r en juridisk person, g&#228;ller andra 
+stycket &#228;ven st&#228;llf&#246;retr&#228;dare f&#246;r den juridiska personen.
+
+Revision
+
+12 &#167; Skatteverket f&#229;r besluta om revision f&#246;r att kontrollera 
+ett f&#246;retag som har f&#229;tt omst&#228;llningsst&#246;d med avseende p&#229; 
+f&#246;retagets r&#228;tt till st&#246;d. I fr&#229;ga om revision g&#228;ller 
+best&#228;mmelserna i 41 kap. 4-14 &#167;&#167; skattef&#246;rfarandelagen 
+(2011:1244).
+
+Kontrollbes&#246;k
+
+13 &#167; Skatteverket f&#229;r besluta om kontrollbes&#246;k f&#246;r att 
+kontrollera att det f&#246;retag som har ans&#246;kt om eller f&#229;tt 
+omst&#228;llningsst&#246;d har r&#228;tt till s&#229;dant st&#246;d. Kontrollbes&#246;k f&#229;r 
+bara genomf&#246;ras i verksamhetslokaler. Kontrollbes&#246;k f&#229;r dock 
+inte genomf&#246;ras i en l&#228;genhet som &#228;r avsedd att helt eller 
+till en inte ov&#228;sentlig del anv&#228;ndas som bostad. 
+
+Skatteverket f&#229;r vid kontrollbes&#246;ket kontrollera s&#229;dant 
+r&#228;kenskapsmaterial och andra handlingar som kan ligga till 
+grund f&#246;r beslut om omst&#228;llningsst&#246;d. Skatteverket f&#229;r vid 
+bes&#246;ket st&#228;lla fr&#229;gor om verksamheten till en beh&#246;rig 
+f&#246;retr&#228;dare f&#246;r f&#246;retaget. De uppgifter som l&#228;mnas f&#229;r 
+kontrolleras mot uppgifterna i ans&#246;kan om omst&#228;llningsst&#246;d.
+
+Den som enligt ett beslut om kontrollbes&#246;k ska kontrolleras 
+beh&#246;ver inte underr&#228;ttas om beslutet f&#246;re bes&#246;ket. 
+Kontrollbes&#246;ket ska genomf&#246;ras p&#229; ett s&#229;dant s&#228;tt att 
+verksamheten inte hindras i on&#246;dan.
+
+Beviss&#228;kring
+
+14 &#167; F&#246;r att kontrollera ett f&#246;retag som har f&#229;tt 
+omst&#228;llningsst&#246;d f&#229;r Skatteverket genomf&#246;ra revision i den 
+reviderades verksamhetslokaler, efters&#246;ka och omh&#228;nderta 
+handlingar samt f&#246;rsegla lokal, f&#246;rvaringsplats eller annat 
+utrymme. I fr&#229;ga om beviss&#228;kring g&#228;ller best&#228;mmelserna i 
+45 kap. och 69 kap. 212 &#167;&#167; skattef&#246;rfarandelagen (2011:1244).
+
+Undantag fr&#229;n kontroll
+
+15 &#167; Best&#228;mmelserna i 47 kap. skattef&#246;rfarandelagen 
+(2011:1244) om att vissa uppgifter och handlingar kan undantas 
+fr&#229;n granskning g&#228;ller &#228;ven vid f&#246;rel&#228;ggande, revision, 
+beviss&#228;kring och kontrollbes&#246;k hos ett f&#246;retag som ans&#246;kt om 
+eller f&#229;tt omst&#228;llningsst&#246;d.
+
+&#197;terbetalningsskyldighet och &#229;terkrav 
+
+16 &#167; Ett f&#246;retag &#228;r &#229;terbetalningsskyldigt f&#246;r det 
+omst&#228;llningsst&#246;d som har tillgodof&#246;rts felaktigt eller med ett 
+f&#246;r h&#246;gt belopp. 
+
+17 &#167; Om ett f&#246;retag &#228;r &#229;terbetalningsskyldigt f&#229;r Skatteverket 
+besluta att &#229;terkr&#228;va det felaktigt tillgodof&#246;rda beloppet. 
+Ett s&#229;dant beslut ska inneh&#229;lla uppgifter om det belopp som 
+f&#246;retaget ska betala tillbaka och n&#228;r beloppet senast ska 
+betalas. 
+
+Avbetalning och anst&#229;nd
+
+18 &#167; Skatteverket f&#229;r tr&#228;ffa avtal med ett f&#246;retag om 
+avbetalning av ett &#229;terkrav p&#229; omst&#228;llningsst&#246;d om &#229;terkravet 
+skulle medf&#246;ra betydande skadeverkningar f&#246;r f&#246;retaget, om det 
+annars framst&#229;r som osk&#228;ligt att betala hela beloppet p&#229; 
+f&#246;rfallodagen eller om ett s&#229;dant avtal kan antas vara till 
+f&#246;rdel f&#246;r det allm&#228;nna. 
+
+19 &#167; Vid &#229;terkrav enligt 17 &#167; ska Skatteverket efter ans&#246;kan 
+bevilja anst&#229;nd med hela eller delar av betalningen om det &#228;r 
+tveksamt hur stort belopp som kommer att beh&#246;va betalas. Ett 
+s&#229;dant anst&#229;nd f&#229;r best&#228;mmas till l&#228;ngst tre m&#229;nader efter 
+dagen f&#246;r beslutet i den fr&#229;ga som har f&#246;ranlett anst&#229;ndet. 
+
+Skatteverket f&#229;r ocks&#229; bevilja anst&#229;nd med betalningen om det 
+kan antas vara till f&#246;rdel f&#246;r det allm&#228;nna. 
+
+Om det kan antas att &#229;terkravet inte kommer att betalas i r&#228;tt 
+tid, f&#229;r anst&#229;nd enligt f&#246;rsta stycket beviljas bara om 
+s&#228;kerhet st&#228;lls f&#246;r &#229;terbetalningen, om det inte finns 
+s&#228;rskilda sk&#228;l som talar mot detta. Best&#228;mmelserna i 63 kap. 
+9 och 10 &#167;&#167; skattef&#246;rfarandelagen (2011:1244) g&#228;ller i dessa 
+fall. Om en s&#229;dan s&#228;kerhet ska tas i anspr&#229;k g&#228;ller vad som 
+s&#228;gs om Kronofogdemyndigheten i 13 &#167; lagen (1993:891) om 
+indrivning av statliga fordringar m.m. i st&#228;llet Skatteverket.
+
+20 &#167; Om f&#246;rh&#229;llandena har &#228;ndrats v&#228;sentligt sedan ett anst&#229;nd 
+enligt 19 &#167; f&#246;rsta stycket beviljats, om f&#246;retaget har l&#228;mnat 
+felaktiga uppgifter som legat till grund f&#246;r anst&#229;ndet eller 
+om det finns andra s&#228;rskilda sk&#228;l, f&#229;r Skatteverket
+
+1. &#229;terkalla anst&#229;ndet,
+
+2. s&#228;tta ned anst&#229;ndsbeloppet, eller
+
+3. kr&#228;va s&#228;kerhet f&#246;r fortsatt anst&#229;nd.
+
+&#197;terbetalning 
+
+21 &#167; Ett &#229;terkrav enligt denna lag ska &#229;terbetalas genom 
+ins&#228;ttning p&#229; ett s&#228;rskilt konto f&#246;r &#229;terbetalning. 
+
+&#197;terbetalningen anses ha gjorts den dag d&#229; betalningen har 
+bokf&#246;rts p&#229; det s&#228;rskilda kontot.
+
+22 &#167; &#197;terbetalning ska g&#246;ras senast den sista dagen i m&#229;naden 
+efter den m&#229;nad d&#229; Skatteverket beslutat om &#229;terkrav.
+
+Om det finns s&#228;rskilda sk&#228;l f&#229;r Skatteverket besluta att 
+&#229;terbetalningen ska g&#246;ras senast en annan dag.
+
+Dr&#246;jsm&#229;lsr&#228;nta
+
+23 &#167; Om ett belopp som har &#229;terkr&#228;vts inte betalas i r&#228;tt tid, 
+ska dr&#246;jsm&#229;lsr&#228;nta tas ut p&#229; det obetalda beloppet fr&#229;n och 
+med dagen efter att omst&#228;llningsst&#246;det tillgodof&#246;rts till och 
+med den dag betalning sker. Dr&#246;jsm&#229;lsr&#228;nta ber&#228;knas efter en 
+r&#228;ntesats som motsvarar basr&#228;ntan enligt 65 kap. 3 &#167; 
+skattef&#246;rfarandelagen (2011:1244).
+
+Om det finns s&#228;rskilda sk&#228;l, f&#229;r Skatteverket helt eller 
+delvis avst&#229; fr&#229;n kravet p&#229; r&#228;nta.
+
+Betalningss&#228;kring
+
+24 &#167; Skatteverket f&#229;r ta en betalningsskyldigs egendom i 
+anspr&#229;k f&#246;r att s&#228;kerst&#228;lla betalning av &#229;terkrav av 
+omst&#228;llningsst&#246;d. I fr&#229;ga om betalningss&#228;kring avseende ett 
+s&#229;dant &#229;terkrav g&#228;ller best&#228;mmelserna i 46 kap. 5-7 och 
+9-22 &#167;&#167; och 69 kap. 13-18 &#167;&#167; skattef&#246;rfarandelagen (2011:1244).
+
+F&#246;retr&#228;daransvar 
+
+25 &#167; Om en f&#246;retr&#228;dare f&#246;r en juridisk person upps&#229;tligen 
+eller av grov oaktsamhet har l&#228;mnat oriktiga uppgifter som har 
+lett till att omst&#228;llningsst&#246;d har tillgodof&#246;rts med ett f&#246;r 
+stort belopp, &#228;r f&#246;retr&#228;daren tillsammans med den juridiska 
+personen skyldig att betala det belopp som den juridiska 
+personen har gjorts ansvarig f&#246;r.
+
+Vid till&#228;mpningen av f&#246;rsta stycket g&#228;ller best&#228;mmelserna i 
+59 kap. 15 och 16 &#167;&#167;, 17 &#167; f&#246;rsta stycket, 18 &#167;, 19 &#167; f&#246;rsta 
+och andra styckena, 20, 21, 26 och 27 &#167;&#167; skattef&#246;rfarandelagen 
+(2011:1244). 
+
+Besluts verkst&#228;llbarhet 
+
+26 &#167; Beslut enligt denna lag g&#228;ller omedelbart. 
+
+&#214;verklagande
+
+27 &#167; Skatteverkets beslut enligt denna lag &#246;verklagas till den 
+f&#246;rvaltningsr&#228;tt som anges i 67 kap. 7-9 &#167;&#167; 
+skattef&#246;rfarandelagen (2011:1244). 
+
+Skatteverkets beslut som avser f&#246;rel&#228;ggande utan vite, 
+revision, kontrollbes&#246;k, avbetalningsplan och anst&#229;nd enligt 
+19 &#167; andra stycket f&#229;r dock inte &#246;verklagas. En 
+granskningsledares beslut om beviss&#228;kring eller om att ta 
+egendom i f&#246;rvar f&#229;r inte heller &#246;verklagas.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+Indrivning och verkst&#228;llighet 
+
+28 &#167; Om ett &#229;terkrav av omst&#228;llningsst&#246;d inte har betalats i 
+r&#228;tt tid, ska fordran l&#228;mnas till Kronofogdemyndigheten f&#246;r 
+indrivning. Best&#228;mmelser om indrivning finns i lagen 
+(1993:891) om indrivning av statliga fordringar.
+
+29 &#167; Om det finns s&#228;rskilda sk&#228;l f&#229;r Skatteverket 
+
+1. avst&#229; fr&#229;n att l&#228;mna en fordran p&#229; &#229;terkrav f&#246;r indrivning, 
+eller
+
+2. l&#228;mna en fordran f&#246;r indrivning &#228;ven om f&#246;rfallodagen inte 
+har intr&#228;ffat.
+
+30 &#167; Vid indrivning f&#229;r verkst&#228;llighet enligt uts&#246;kningsbalken 
+ske. 
+
+31 &#167; Om en fordran p&#229; &#229;terkrav av omst&#228;llningsst&#246;d har l&#228;mnats 
+f&#246;r indrivning, ska Kronofogdemyndigheten ber&#228;kna r&#228;ntan efter 
+en r&#228;ntesats som motsvarar basr&#228;ntan enligt 65 kap. 3 &#167; 
+skattef&#246;rfarandelagen (2011:1244) f&#246;r tiden efter 
+&#246;verl&#228;mnandet och driva in den.
+
+F&#246;rbud mot &#246;verl&#229;telse
+
+32 &#167; Ett f&#246;retags fordran p&#229; omst&#228;llningsst&#246;d som ska 
+tillgodof&#246;ras enligt 7 &#167; f&#229;r inte &#246;verl&#229;tas innan beloppet kan 
+betalas ut. 
+
+33 &#167; En fordran som avses i 32 &#167; f&#229;r utm&#228;tas trots att den 
+inte f&#229;r &#246;verl&#229;tas. Utm&#228;tning f&#229;r dock g&#246;ras f&#246;rst efter att 
+Kronofogdemyndigheten har f&#229;tt tillf&#228;lle att ta fordran i 
+anspr&#229;k enligt lagen (1985:146) om avr&#228;kning vid &#229;terbetalning 
+av skatter och avgifter.
+
+Best&#228;mmelserna i 5 kap. 1-3 &#167;&#167; uts&#246;kningsbalken till&#228;mpas inte 
+vid utm&#228;tning av en fordran p&#229; omst&#228;llningsst&#246;d som ska 
+betalas. Lag (2021:53).
+
+Preskription
+
+34 &#167; En fordran p&#229; &#229;terkrav av omst&#228;llningsst&#246;d ska vid 
+till&#228;mpning av lagen (1982:188) om preskription av 
+skattefordringar m.m. anses vara en s&#229;dan fordran som har 
+p&#229;f&#246;rts enligt skattef&#246;rfarandelagen (2011:1244).
+
+Straffbest&#228;mmelser
+
+35 &#167; F&#246;r omst&#228;llningsst&#246;dsbrott d&#246;ms den som l&#228;mnar oriktiga 
+uppgifter i ett &#228;rende enligt denna lag eller inte anm&#228;ler 
+&#228;ndrade f&#246;rh&#229;llanden som han eller hon &#228;r skyldig att anm&#228;la 
+enligt 6 &#167; och p&#229; s&#229; s&#228;tt orsakar fara f&#246;r 
+
+1. att omst&#228;llningsst&#246;d tillgodof&#246;rs felaktigt eller 
+tillgodof&#246;rs med ett f&#246;r h&#246;gt belopp, eller
+
+2. att ett st&#246;d som f&#246;retaget helt eller delvis saknar r&#228;tt 
+till inte &#229;terkr&#228;vs.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst tv&#229; &#229;r.
+
+36 &#167; Om brott som avses i 35 &#167; &#228;r grovt, d&#246;ms f&#246;r grovt 
+omst&#228;llningsst&#246;dsbrott till f&#228;ngelse, l&#228;gst sex m&#229;nader och 
+h&#246;gst sex &#229;r.
+
+Vid bed&#246;mningen av om brottet &#228;r grovt ska det s&#228;rskilt 
+beaktas
+
+1. om brottet r&#246;rt betydande belopp,
+
+2. om den som beg&#229;tt brottet anv&#228;nt falska handlingar eller 
+vilseledande bokf&#246;ring, eller 
+
+3. om g&#228;rningen ing&#229;tt i en brottslighet som ut&#246;vats 
+systematiskt eller i st&#246;rre omfattning.
+
+37 &#167; Den som av grov oaktsamhet beg&#229;r en s&#229;dan g&#228;rning som 
+avses i 35 &#167; d&#246;ms f&#246;r v&#229;rdsl&#246;st omst&#228;llningsst&#246;dsbrott till 
+b&#246;ter eller f&#228;ngelse i h&#246;gst ett &#229;r.
+
+Om g&#228;rningen med h&#228;nsyn till beloppet och &#246;vriga 
+omst&#228;ndigheter &#228;r mindre allvarlig, d&#246;ms det inte till ansvar.
+
+38 &#167; Den som, innan ett omst&#228;llningsst&#246;d tillgodof&#246;rts, 
+frivilligt vidtar en &#229;tg&#228;rd som leder till att det kan fattas 
+ett korrekt beslut om st&#246;det, d&#246;ms inte till ansvar enligt 
+35-37 &#167;&#167;.
+
+R&#228;tt att meddela f&#246;reskrifter 
+
+39 &#167; Regeringen kan med st&#246;d av 8 kap. 7 &#167; regeringsformen 
+meddela ytterligare f&#246;reskrifter om
+
+1. n&#228;r omst&#228;llningsst&#246;d f&#229;r l&#228;mnas,
+
+2. hur omst&#228;llningsst&#246;d ska ber&#228;knas, 
+
+3. ans&#246;kan om omst&#228;llningsst&#246;d, och
+
+4. utbetalning och &#229;terbetalning av omst&#228;llningsst&#246;d. 
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2021:284
+
+1. Denna lag tr&#228;der i kraft den 19 april 2021. 
+
+2. Best&#228;mmelsen i 5 &#167; f&#246;rsta stycket 3 i den &#228;ldre lydelsen 
+till&#228;mpas p&#229; ans&#246;kningar om st&#246;d som kom in till Skatteverket 
+f&#246;re den 25 februari 2021.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=474">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=476">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

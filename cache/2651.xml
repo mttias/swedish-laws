@@ -1,0 +1,941 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-09-07" /> 
+ <meta id="rattsinfo-edited" content="2023-09-07 13:32:27" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2651</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2650">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2652">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2001:100 ·
+                    <a href="/sfsr?bet=2001:100">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2001:100) om den officiella statistiken</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet ESA
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2001-03-15
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1613
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2001-04-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Till&#228;mpningsomr&#229;de
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller kompletterande f&#246;reskrifter
+till lagen (2001:99) om den officiella statistiken.
+
+Officiell statistik
+
+2 &#167; Vad som &#228;r officiell statistik och vilka myndigheter som
+ansvarar f&#246;r den (statistikansvariga myndigheter) framg&#229;r av
+bilagan.
+
+En statistikansvarig myndighet beslutar om statistikens
+inneh&#229;ll och omfattning inom sitt statistikomr&#229;de om inte n&#229;got
+annat f&#246;ljer av ett s&#228;rskilt beslut av regeringen.
+F&#246;rordning (2001:997).
+
+Talan om f&#246;rbud mot anv&#228;ndning av symbolen m.m.
+
+3 &#167; Statistiska centralbyr&#229;n f&#246;r talan om f&#246;rbud mot fortsatt
+anv&#228;ndning av symbolen f&#246;r officiell statistik eller
+beteckningen Sveriges officiella statistik, eller n&#229;gon symbol
+eller beteckning som kan f&#246;rv&#228;xlas d&#228;rmed, enligt 22 &#167; lagen
+(2001:99) om den officiella statistiken.
+
+Uppgiftsskyldighet och insamling av uppgifter
+
+4 &#167; Uppgifter f&#246;r den officiella statistiken ska samlas in p&#229;
+ett s&#229;dant s&#228;tt att uppgiftsl&#228;mnandet
+
+1. blir s&#229; enkelt som m&#246;jligt,
+
+2. st&#229;r i proportion till anv&#228;ndarnas behov, och
+
+3. &#228;r en rimlig arbetsb&#246;rda f&#246;r uppgiftsl&#228;mnarna.
+
+De statistikansvariga myndigheterna ska vid framst&#228;llning av
+officiell statistik i s&#229; stor utstr&#228;ckning som m&#246;jligt
+anv&#228;nda uppgifter ur befintliga register.
+F&#246;rordning (2013:946).
+
+N&#228;ringsidkare
+
+5 &#167; N&#228;ringsidkare ska f&#246;r den officiella statistiken l&#228;mna
+uppgifter om
+
+1. namn och person- eller organisationsnummer f&#246;r den som
+bedriver verksamheten,
+
+2. produktion av varor och tillhandah&#229;llande av tj&#228;nster,
+
+3. f&#246;rbrukning av varor och anlitande av tj&#228;nster,
+
+4. antalet anst&#228;llda, deras syssels&#228;ttning, l&#246;ner och yrken
+samt vakanser,
+
+5. lagerh&#229;llning,
+
+6. investeringar,
+
+7. best&#228;llningar, k&#246;p, f&#246;rs&#228;ljningar och leveranser av varor
+och tj&#228;nster,
+
+8. priser f&#246;r varor och tj&#228;nster,
+
+9. int&#228;kter och kostnader,
+
+10. import och export,
+
+11. energi&#229;tg&#229;ng,
+
+12. tillg&#229;ngar och skulder,
+
+13. sparande samt kapital-, kredit- och valutaf&#246;rh&#229;llanden,
+
+14. omfattning av uppl&#229;telse av nyttjander&#228;tt, och
+
+15. milj&#246;skyddskostnader.
+F&#246;rordning (2013:946).
+
+5 a &#167; N&#228;ringsidkare som driver jordbruk, skogsbruk, eller
+tr&#228;dg&#229;rdsodling eller som h&#229;ller djur ska, ut&#246;ver de
+uppgifter som avses i 5 &#167;, f&#246;r den officiella statistiken
+l&#228;mna uppgifter om
+
+1. registerbeteckning, areal, markanv&#228;ndning samt &#228;gar- och
+arrendef&#246;rh&#229;llanden i fr&#229;ga om den fastighet eller del av
+fastighet d&#228;r verksamheten bedrivs,
+
+2. syssels&#228;ttning och tilltr&#228;des&#229;r f&#246;r de personer som ing&#229;r
+i verksamheten, och
+
+3. djurh&#229;llning.
+
+&#196;gare till fastighet d&#228;r n&#229;gon annan bedriver s&#229;dan
+verksamhet som avses i f&#246;rsta stycket ska l&#228;mna uppgift om
+namn och adress f&#246;r den som bedriver verksamheten samt
+uppgift om den areal som anv&#228;nds i verksamheten.
+F&#246;rordning (2013:946).
+
+Stiftelser och ideella f&#246;reningar som inte bedriver
+n&#228;ringsverksamhet
+
+5 b &#167; S&#229;dana stiftelser och ideella f&#246;reningar som inte
+bedriver n&#228;ringsverksamhet ska l&#228;mna de uppgifter som avses i
+5 &#167; 1 och 4. F&#246;rordning (2013:946).
+
+Kommuner och regioner
+
+5 c &#167; Kommuner och regioner ska f&#246;r den officiella statistiken 
+l&#228;mna de uppgifter som avses i 5 &#167; 1-7, samt uppgifter om 
+
+1. prelimin&#228;ra och definitiva &#229;rliga bokslut,
+
+2. budget och plan f&#246;r resultat- och balansr&#228;kning enligt 
+5 kap. 2 &#167; och 6 kap. 2 &#167; lagen (2018:597) om kommunal 
+bokf&#246;ring och redovisning,
+
+3. utfall av kommunernas och regionernas resultatr&#228;kning f&#246;r 
+r&#228;kenskaps&#229;rets f&#246;rsta tertial samt &#229;rsprognoser f&#246;r 
+innevarande &#229;r vid utg&#229;ngen av samma tertial,
+
+4. f&#246;retag &#228;gda av kommuner eller regioner, och
+
+5. alternativa utf&#246;rare av kommun- och regionfinansierad 
+verksamhet.
+
+Kommuner och regioner ska f&#246;r den officiella statistiken 
+dessutom l&#228;mna kvartalsvisa uppgifter om int&#228;kter och 
+kostnader, finansiella tillg&#229;ngar och skulder, 
+balansr&#228;kningsposter, investeringsutgifter samt kvartalsvisa 
+&#229;rsprognoser f&#246;r dessa. F&#246;rordning (2019:1040).
+
+Kommunalf&#246;rbund
+
+5 d &#167; Kommunalf&#246;rbund ska f&#246;r den officiella statistiken
+l&#228;mna de uppgifter som avses i 5 &#167; 1–7 och uppgifter fr&#229;n de
+&#229;rliga boksluten.
+
+Kommunalf&#246;rbund ska f&#246;r den officiella statistiken dessutom
+l&#228;mna kvartalsvisa uppgifter om int&#228;kter och kostnader,
+finansiella tillg&#229;ngar och skulder, balansr&#228;kningsposter,
+investeringsutgifter samt kvartalsvisa &#229;rsprognoser f&#246;r
+dessa. F&#246;rordning (2013:946).
+
+6 &#167; En statlig myndighet skall till statistikansvariga
+myndigheter l&#228;mna de uppgifter som beh&#246;vs f&#246;r framst&#228;llning av
+officiell statistik. Uppgifterna skall l&#228;mnas vid den tidpunkt
+och p&#229; det s&#228;tt som myndigheterna kommer &#246;verens om.
+F&#246;rordning (2004:943).
+
+Information
+
+7 &#167; N&#228;r en statistikansvarig myndighet samlar in 
+uppgifter f&#246;r framst&#228;llning av statistik fr&#229;n n&#229;gon annan &#228;n 
+en statlig myndighet, ska den samtidigt l&#228;mna information 
+om
+
+1. &#228;ndam&#229;let med uppgiftsinsamlandet,
+
+2. vilka best&#228;mmelser en eventuell skyldighet att l&#228;mna 
+uppgifter grundas p&#229;,
+
+3. vem som samlar in uppgifterna eller p&#229; vems uppdrag 
+insamlandet sker,
+
+4. ifall samr&#229;d har skett med den organisation som f&#246;retr&#228;der 
+uppgiftsl&#228;mnaren,
+
+5. vilka best&#228;mmelser om sekretess i offentlighets- och 
+sekretesslagen (2009:400) som kan bli till&#228;mpliga p&#229; 
+uppgifterna hos den insamlande myndigheten,
+
+6. vad som g&#228;ller om uppgifternas bevarande,
+
+7. andra f&#246;rh&#229;llanden som &#228;r av betydelse i sammanhanget, 
+s&#229;som den enskildes r&#228;tt att ans&#246;ka om information och f&#229; 
+r&#228;ttelse, och
+
+8. eventuella p&#229;f&#246;ljder om uppgiftsskyldigheten inte 
+fullg&#246;rs.
+
+Om uppgiftsl&#228;mnandet &#228;r frivilligt, ska myndigheten upplysa 
+om det.
+
+Best&#228;mmelser om information till den registrerade vid 
+insamling av personuppgifter finns &#228;ven i Europaparlamentets 
+och r&#229;dets f&#246;rordning (EU) 2016/679 av den 27 april 2016 om 
+skydd f&#246;r fysiska personer med avseende p&#229; behandling av 
+personuppgifter och om det fria fl&#246;det av s&#229;dana uppgifter 
+och om upph&#228;vande av direktiv 95/46/EG (allm&#228;n 
+dataskyddsf&#246;rordning). F&#246;rordning (2018:359).
+
+Behandling av personuppgifter m.m.
+
+8 &#167; I bilagan anges n&#228;r det &#228;r till&#229;tet att behandla s&#229;dana
+personuppgifter som avses i 15 &#167; lagen (2001:99) om den
+officiella statistiken.
+
+9 &#167; Uppgifter som behandlas f&#246;r framst&#228;llning av officiell
+statistik f&#229;r &#228;ven behandlas f&#246;r framst&#228;llning av annan
+statistik och f&#246;r forskning. Detta g&#228;ller dock endast om
+&#228;ndam&#229;let med behandlingen inte &#228;r of&#246;renligt med det &#228;ndam&#229;l
+f&#246;r vilket uppgifterna samlades in.
+
+10 &#167; En statistikansvarig myndighets verksamhet f&#246;r
+framst&#228;llning av statistik skall vara organiserad s&#229; att den &#228;r
+avgr&#228;nsad fr&#229;n myndighetens verksamhet i &#246;vrigt.
+
+11 &#167; Statistiska centralbyr&#229;n ska l&#228;mna ut uppgifter enligt 
+18 &#167; lagen (2001:99) om den officiella statistiken.
+F&#246;rordning (2022:252).
+
+Gallring
+
+12 &#167; Innan en statistikansvarig myndighet gallrar uppgifter
+enligt 19 &#167; f&#246;rsta stycket lagen (2001:99) om den officiella
+statistiken skall den underr&#228;tta Riksarkivet.
+
+Riksarkivet f&#229;r meddela f&#246;reskrifter om undantag fr&#229;n gallring
+enligt 19 &#167; andra stycket samma lag. F&#246;rordning (2001:997).
+
+Kvalitet och tillg&#228;ngligg&#246;rande
+
+13 &#167; De statistikansvariga myndigheterna ska dokumentera och
+kvalitetsdeklarera officiell statistik. Myndigheterna ska
+ocks&#229; utan avgift offentligg&#246;ra och h&#229;lla s&#229;dan statistik
+allm&#228;nt tillg&#228;nglig i elektronisk form genom ett allm&#228;nt
+n&#228;tverk.
+
+Officiell statistik som &#228;ven publiceras i tryckt form ska
+tillhandah&#229;llas l&#228;nsbibliotek, universitetsbibliotek,
+statliga h&#246;gskolebibliotek och Statistiska centralbyr&#229;n utan
+avgift. F&#246;rordning (2013:946).
+
+13 a &#167; De statistikansvariga myndigheterna ska var och en 
+inom sitt statistikomr&#229;de utv&#228;rdera den officiella 
+statistikens kvalitet. F&#246;rordning (2016:823).
+
+14 &#167; Individbaserad officiell statistik skall vara uppdelad
+efter k&#246;n om det inte finns s&#228;rskilda sk&#228;l mot detta.
+
+Bemyndiganden
+
+15 &#167; En statistikansvarig myndighet f&#229;r inom sitt
+verksamhetsomr&#229;de meddela f&#246;reskrifter om verkst&#228;llighet av
+best&#228;mmelserna om uppgiftsskyldighet i 7 och 8 &#167;&#167; lagen
+(2001:99) om den officiella statistiken och 5–5 d &#167;&#167; denna
+f&#246;rordning. F&#246;rordning (2013:946).
+
+16 &#167; Statistiska centralbyr&#229;n f&#229;r, ut&#246;ver av vad som f&#246;ljer 
+av 15 &#167;, meddela f&#246;reskrifter om verkst&#228;llighet av 
+best&#228;mmelserna
+
+1. i 13 &#167; f&#246;rsta stycket och 13 a &#167;, och
+
+2. om kvalitet i 3 a &#167; lagen (2001:99) om den officiella 
+statistiken.
+
+Innan myndigheten meddelar s&#229;dana f&#246;reskrifter ska den h&#246;ra 
+&#246;vriga statistikansvariga myndigheter. F&#246;rordning (2016:823).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2001:100
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 april 2001. Genom
+f&#246;rordningen upph&#228;vs
+
+a. kung&#246;relsen (1970:27) om uppgifter till lagfarts- och
+fastighetsprisstatistiken,
+
+b. f&#246;rordningen (1992:1032) om uppgiftsskyldighet p&#229;
+jordbrukets omr&#229;de,
+
+c. f&#246;rordningen (1992:1668) om den officiella statistiken,
+
+d. f&#246;rordningen (1995:1060) om vissa personregister f&#246;r
+officiell statistik.
+
+2. F&#246;reskrifter som har meddelats med st&#246;d av 4 &#167; f&#246;rordningen
+(1992:1668) om den officiella statistiken skall vid
+till&#228;mpningen av den nya f&#246;rordningen anses meddelade med st&#246;d
+av 5 &#167; den nya f&#246;rordningen.
+
+3. Betr&#228;ffande behandling av personuppgifter som omfattas av
+datalagen (1973:289) skall i st&#228;llet f&#246;r vad som s&#228;gs i 8 &#167;
+denna f&#246;rordning motsvarande best&#228;mmelser i datalagen till&#228;mpas
+till och med den 30 september 2001.
+
+2001:997
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2002.
+
+2. Officiell statistik f&#229;r, oberoende av vad som s&#228;gs i 13 &#167;,
+offentligg&#246;ras och h&#229;llas allm&#228;nt tillg&#228;nglig endast i tryckta
+publikationer till den 1 januari 2003.
+
+
+Bilaga
+
+Den officiella statistiken
+
+De statistikansvariga myndigheterna
+
+Arbetsmilj&#246;verket
+
+Brottsf&#246;rebyggande r&#229;det
+
+Centrala studiest&#246;dsn&#228;mnden
+
+Domstolsverket
+
+Ekonomistyrningsverket
+
+Finansinspektionen
+
+Folkh&#228;lsomyndigheten
+
+F&#246;rs&#228;kringskassan
+
+Havs- och vattenmyndigheten
+
+Kemikalieinspektionen
+
+Konjunkturinstitutet
+
+Kungliga biblioteket
+
+Medlingsinstitutet
+
+Myndigheten f&#246;r familjer&#228;tt och f&#246;r&#228;ldraskapsst&#246;d
+
+Myndigheten f&#246;r kulturanalys
+
+Myndigheten f&#246;r tillv&#228;xtpolitiska utv&#228;rderingar och analyser
+
+Naturv&#229;rdsverket
+
+Pensionsmyndigheten
+
+Riksg&#228;ldskontoret
+
+Skogsstyrelsen
+
+Socialstyrelsen
+
+Statens energimyndighet
+
+Statens jordbruksverk
+
+Statens skolverk
+
+Statistiska centralbyr&#229;n
+
+Sveriges lantbruksuniversitet
+
+Tillv&#228;xtverket
+
+Trafikanalys
+
+Universitetskanslers&#228;mbetet
+
+Omr&#229;den inom vilka det ska produceras officiell statistik
+
+Arbetsmarknad
+
+Befolkning
+
+Boende, byggande och bebyggelse
+
+Demokrati
+
+Energi
+
+Finansmarknad
+
+Folkh&#228;lsa
+
+Handel med varor och tj&#228;nster
+
+H&#228;lso- och sjukv&#229;rd
+
+Hush&#229;llens ekonomi
+
+Jord- och skogsbruk, fiske
+
+Kultur och fritid
+
+Levnadsf&#246;rh&#229;llanden
+
+Milj&#246;
+
+Nationalr&#228;kenskaper
+
+N&#228;ringsverksamhet
+
+Offentlig ekonomi
+
+Priser och konsumtion
+
+R&#228;ttsv&#228;sende
+
+Socialf&#246;rs&#228;kring m.m.
+
+Socialtj&#228;nst
+
+Transporter och kommunikationer
+
+Utbildning och forskning
+
+Officiell statistik och vilka myndigheter som ansvarar f&#246;r
+respektive omr&#229;de
+
+Officiell statistik                     Ansvarig myndighet
+
+ARBETSMARKNAD
+L&#246;ner och arbetskostnader               Medlingsinstitutet
+Syssels&#228;ttning, f&#246;rv&#228;rvsarbete och
+arbetstider                             Statistiska centralbyr&#229;n
+                                        (SCB)
+L&#246;nesummor                              SCB
+Arbetskraftsunders&#246;kningar              SCB
+Vakanser och arbetsl&#246;shet               SCB
+Arbetsmilj&#246;                             Arbetsmilj&#246;verket
+Arbetsskador                            Arbetsmilj&#246;verket
+Sjukl&#246;ner                               SCB
+
+Behandling av k&#228;nsliga personuppgifter
+F&#246;r framst&#228;llning av statistik &#246;ver Syssels&#228;ttning, f&#246;rv&#228;rvsarbete och
+arbetstider, Arbetskraftsunders&#246;kningar, Vakanser och arbetsl&#246;shet,
+Arbetsmilj&#246; och Arbetsskador f&#229;r personuppgifter enligt 8 &#167; behandlas
+som avser enskilda personers h&#228;lsotillst&#229;nd och medlemskap i
+fackf&#246;rening.
+
+BEFOLKNING
+Befolkningens storlek och f&#246;r&#228;ndringar  SCB
+Befolkningens sammans&#228;ttning            SCB
+Befolkningsframskrivningar              SCB
+Invandring och asyls&#246;kande              SCB
+
+BOENDE, BYGGANDE OCH BEBYGGELSE
+Bostadsbyggande och ombyggnad           SCB
+Bygglovsstatistik f&#246;r bost&#228;der och      SCB
+lokaler
+Byggnadskostnader                       SCB
+Int&#228;kter, kostnader och outhyrt i       SCB
+flerbostadshus
+Bostads- och hyresuppgifter             SCB
+Fastighetspriser och lagfarter          SCB
+Fastighetstaxeringar                    SCB
+
+DEMOKRATI
+
+Allm&#228;nna val                            SCB
+Partisympatier                          SCB
+
+Behandling av k&#228;nsliga personuppgifter
+
+F&#246;r framst&#228;llning av statistik &#246;ver Allm&#228;nna val och
+Partisympatier f&#229;r personuppgifter enligt 8 &#167; behandlas som
+avser enskilda personers politiska &#229;sikter, om de har samtyckt
+till behandlingen, och medlemskap i fackf&#246;rening.
+
+ENERGI
+Tillf&#246;rsel och anv&#228;ndning av energi     Statens energimyndighet
+Energibalanser                          Statens energimyndighet
+Prisutvecklingen inom energiomr&#229;det     Statens energimyndighet
+
+FINANSMARKNAD
+Finansr&#228;kenskaper                       Finansinspektionen
+Aktie&#228;garstatistik                      Finansinspektionen
+Finansiella f&#246;retag utom f&#246;rs&#228;kring     Finansinspektionen
+F&#246;rs&#228;kring                              Finansinspektionen
+
+FOLKH&#196;LSA	
+Folkh&#228;lsans utveckling			Folkh&#228;lsomyndigheten
+Smittskydd				Folkh&#228;lsomyndigheten 
+
+Behandling av k&#228;nsliga personuppgifter m.m.
+
+F&#246;r framst&#228;llning av statistik &#246;ver Folkh&#228;lsans utveckling och 
+Smittskydd f&#229;r personuppgifter enligt 8 &#167; behandlas som avser 
+enskilda personers h&#228;lsotillst&#229;nd och sexualliv eller sexuella 
+l&#228;ggning. 
+
+HANDEL MED VAROR OCH TJ&#196;NSTER	
+Inrikeshandel				SCB
+Utrikeshandel				SCB
+
+H&#196;LSO- OCH SJUKV&#197;RD
+H&#228;lsa och sjukdomar                     Socialstyrelsen
+H&#228;lso- och sjukv&#229;rd                     Socialstyrelsen
+D&#246;dsorsaker                             Socialstyrelsen
+
+Behandling av k&#228;nsliga personuppgifter
+F&#246;r framst&#228;llning av statistik &#246;ver H&#228;lsa och sjukdomar och
+H&#228;lso- och sjukv&#229;rd f&#229;r personuppgifter enligt 8 &#167; behandlas
+som avser enskilda personers h&#228;lsotillst&#229;nd.
+
+HUSH&#197;LLENS EKONOMI
+Inkomster och inkomstf&#246;rdelning         SCB
+Hush&#229;llens utgifter                     SCB
+
+Behandling av k&#228;nsliga personuppgifter
+F&#246;r framst&#228;llning av statistik &#246;ver Inkomster och
+inkomstf&#246;rdelning och Hush&#229;llens utgifter f&#229;r personuppgifter
+enligt 8 &#167; behandlas som avser utbetalningar i samband med
+enskilda personers oh&#228;lsa samt medlemskap i fackf&#246;rening och
+trossamfund.
+
+JORD- OCH SKOGSBRUK, FISKE
+Jordbrukets struktur                    Statens jordbruksverk
+Jordbrukets produktion                  Statens jordbruksverk
+Syssels&#228;ttning i jordbruket             Statens jordbruksverk
+Jordbrukets ekonomi                     Statens jordbruksverk
+Prisutveckling i jordbruket             Statens jordbruksverk
+Djurh&#228;lsa                               Statens jordbruksverk
+Vattenbruk                              Statens jordbruksverk
+Produktion i skogsbruket                Skogsstyrelsen
+Syssels&#228;ttning i skogsbruket            Skogsstyrelsen
+Milj&#246; och sociala fr&#229;gor i skogsbruket  Skogsstyrelsen
+Skogarnas tillst&#229;nd och f&#246;r&#228;ndring      Sveriges
+                                        lantbruksuniversitet
+Fiske                                   Havs- och vattenmyndigheten
+
+KULTUR OCH FRITID
+Bibliotek                               Kungl. biblioteket
+Kulturmilj&#246;v&#229;rd                         Myndigheten f&#246;r kulturanalys
+Museer                                  Myndigheten f&#246;r kulturanalys
+Studief&#246;rbund				SCB
+Samh&#228;llets kulturutgifter		Myndigheten f&#246;r kulturanalys
+Film					Myndigheten f&#246;r kulturanalys
+
+Behandling av k&#228;nsliga personuppgifter
+
+F&#246;r framst&#228;llning av statistik &#246;ver Studief&#246;rbund f&#229;r 
+personuppgifter enligt 8 &#167; behandlas som avser enskilda 
+personers h&#228;lsotillst&#229;nd.
+
+LEVNADSF&#214;RH&#197;LLANDEN
+
+Levnadsf&#246;rh&#229;llanden                     SCB
+J&#228;mst&#228;lldhet                            SCB
+
+Behandling av k&#228;nsliga personuppgifter
+
+F&#246;r framst&#228;llning av statistik &#246;ver Levnadsf&#246;rh&#229;llanden f&#229;r
+personuppgifter enligt 8 &#167; behandlas som avser enskilda
+personers h&#228;lsotillst&#229;nd och medlemskap i fackf&#246;rening.
+
+MILJ&#214;
+Utsl&#228;pp                                 Naturv&#229;rdsverket
+Avfall                                  Naturv&#229;rdsverket
+Milj&#246;tillst&#229;nd                          Naturv&#229;rdsverket
+Milj&#246;balkens till&#228;mpning                Naturv&#229;rdsverket
+Kemikalier, f&#246;rs&#228;ljning och anv&#228;ndning  Kemikalieinspektionen
+Milj&#246;ekonomi och h&#229;llbar utveckling     SCB
+G&#246;dselmedel och kalk                    SCB
+Markanv&#228;ndning                          SCB
+Vattenanv&#228;ndning                        SCB
+Havs- och vattenmilj&#246;                   Havs- och
+                                        vattenmyndigheten
+
+NATIONALR&#196;KENSKAPER
+Nationalr&#228;kenskaper                     SCB
+
+N&#196;RINGSVERKSAMHET
+Nystartade f&#246;retag                      Myndigheten f&#246;r tillv&#228;xtpolitiska
+                                        utv&#228;rderingar och analyser
+Internationella f&#246;retag                 Myndigheten f&#246;r tillv&#228;xtpolitiska
+                                        utv&#228;rderingar och analyser
+Konkurser och offentliga ackord         Myndigheten f&#246;r tillv&#228;xtpolitiska
+                                        utv&#228;rderingar och analyser
+N&#228;ringslivets struktur                  SCB
+Industriproduktionens utveckling        SCB
+Industrins kapacitetsutnyttjande        SCB
+Industrins lager                        SCB
+Industrins leveranser och order         SCB
+N&#228;ringslivets investeringar             SCB
+Inkvartering                            Tillv&#228;xtverket
+
+OFFENTLIG EKONOMI
+Finanser f&#246;r den kommunala sektorn      SCB
+Statlig uppl&#229;ning och statsskuld        Riksg&#228;ldskontoret
+Beskattning                             SCB
+Utfallet av statsbudgeten               Ekonomistyrningsverket
+
+PRISER OCH KONSUMTION
+Konsumentprisindex                      SCB
+Prisindex i producent- och importled    SCB
+K&#246;pkraftspariteter                      SCB
+Byggnadsprisindex samt faktorprisindex  SCB
+f&#246;r byggnader
+Hush&#229;llens ink&#246;psplaner                 Konjunkturinstitutet
+
+R&#196;TTSV&#196;SENDE
+Brott                                   Brottsf&#246;rebyggande r&#229;det
+F&#246;r brott lagf&#246;rda personer             Brottsf&#246;rebyggande r&#229;det
+Domstolarnas verksamhet                 Domstolsverket
+Kriminalv&#229;rd                            Brottsf&#246;rebyggande r&#229;det
+&#197;terfall i brott                        Brottsf&#246;rebyggande r&#229;det
+
+Behandling av k&#228;nsliga personuppgifter m.m.
+F&#246;r framst&#228;llning av statistik &#246;ver Brott, F&#246;r brott lagf&#246;rda
+personer, Kriminalv&#229;rd och &#197;terfall i brott f&#229;r personuppgifter
+enligt 8 &#167; behandlas som avser brott, domar i brottm&#229;l och
+straffprocessuella tv&#229;ngsmedel.
+
+SOCIALF&#214;RS&#196;KRING M.M.
+St&#246;d till barnfamiljer                  F&#246;rs&#228;kringskassan
+St&#246;d vid sjukdom och handikapp          F&#246;rs&#228;kringskassan
+St&#246;d vid &#229;lderdom                       Pensionsmyndigheten
+
+Behandling av k&#228;nsliga personuppgifter
+
+F&#246;r framst&#228;llning av statistik &#246;ver St&#246;d till barnfamiljer,
+St&#246;d vid sjukdom och handikapp och St&#246;d vid &#229;lderdom f&#229;r
+personuppgifter enligt 8 &#167; behandlas som avser enskilda
+personers h&#228;lsotillst&#229;nd.
+
+SOCIALTJ&#196;NST	
+
+Familjer&#229;dgivning				Myndigheten f&#246;r 
+						familjer&#228;tt och 
+						f&#246;r&#228;ldraskapsst&#246;d
+Familjer&#228;tt					Myndigheten f&#246;r 
+						familjer&#228;tt och 
+						f&#246;r&#228;ldraskapsst&#246;d
+Individ- och familjeomsorg			Socialstyrelsen
+&#196;ldre- och handikappomsorg			Socialstyrelsen
+St&#246;d och service till funktionshindrade		Socialstyrelsen
+
+Behandling av k&#228;nsliga personuppgifter m.m.
+
+F&#246;r framst&#228;llning av statistik &#246;ver Individ- och familjeomsorg
+f&#229;r personuppgifter enligt 8 &#167; behandlas som avser uppgift om
+att h&#228;lsotillst&#229;nd utgjort orsak till och &#228;ndam&#229;l med
+ekonomiskt bist&#229;nd, administrativa frihetsber&#246;vanden samt
+enskildas h&#228;lsotillst&#229;nd n&#228;r det g&#228;ller tv&#229;ngsingripanden med
+st&#246;d av lagen (1988:870) om v&#229;rd av missbrukare i vissa fall.
+
+F&#246;r framst&#228;llning av statistik &#246;ver &#196;ldre- och handikappomsorg
+f&#229;r personuppgifter enligt 8 &#167; behandlas som avser
+utbetalningar och andra insatser i samband med enskilda
+personers h&#228;lsotillst&#229;nd.
+
+F&#246;r framst&#228;llning av statistik &#246;ver St&#246;d och service till
+funktionshindrade f&#229;r personuppgifter enligt 8 &#167; behandlas som
+avser enskildas h&#228;lsotillst&#229;nd och andra uppgifter i samband
+med insatser enligt lagen (1993:387) om st&#246;d och service till
+vissa funktionshindrade.
+
+TRANSPORTER OCH KOMMUNIKATIONER
+V&#228;gtrafik                               Trafikanalys
+Bantrafik                               Trafikanalys
+Sj&#246;fart                                 Trafikanalys
+Luftfart                                Trafikanalys
+Postverksamhet                          Trafikanalys
+Televerksamhet                          Trafikanalys
+Kommunikationsvanor                     Trafikanalys
+Kollektivtrafik och                     Trafikanalys
+samh&#228;llsbetalda resor
+
+Behandling av k&#228;nsliga personuppgifter m.m.
+
+F&#246;r framst&#228;llning av statistik &#246;ver trafikolyckor inom omr&#229;det
+V&#228;gtrafik f&#229;r personuppgifter enligt 8 &#167; behandlas som avser
+brott, domar i brottm&#229;l samt trafikskadades h&#228;lsotillst&#229;nd.
+
+UTBILDNING OCH FORSKNING 
+Skolv&#228;sende och barnomsorg		Statens skolverk
+H&#246;gskolev&#228;sende				Universitetskanslers&#228;mbetet
+Studiest&#246;d				Centrala studiest&#246;dsn&#228;mnden
+Forskning				SCB
+Befolkningens utbildning		SCB
+Eftergymnasial yrkesutbildning		SCB
+Folkh&#246;gskola				SCB
+
+Behandling av k&#228;nsliga personuppgifter m.m.
+
+F&#246;r framst&#228;llning av statistik &#246;ver Skolv&#228;sende och barnomsorg 
+f&#229;r personuppgifter enligt 8 &#167; behandlas som avser h&#228;lsa f&#246;r 
+elever i anpassad grundskola, specialskola, anpassad 
+gymnasieskola och kommunal vuxenutbildning som anpassad 
+utbildning.
+
+F&#246;r framst&#228;llning av statistik &#246;ver Folkh&#246;gskola f&#229;r 
+personuppgifter enligt 8 &#167; behandlas som avser enskilda 
+personers h&#228;lsotillst&#229;nd.
+F&#246;rordning (2022:1613).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2650">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2652">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,728 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2022-07-27 09:40:17" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4036</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4035">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4037">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1977:284 ·
+                    <a href="/sfsr?bet=1977:284">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1977:284) om arbetsskadef&#246;rs&#228;kring och statligt personskadeskydd</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1977-04-28
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:204
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad 2009:6 har iakttagits.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledning
+
+1 &#167; I denna f&#246;rordning ges verkst&#228;llighetsf&#246;reskrifter till
+socialf&#246;rs&#228;kringsbalkens best&#228;mmelser om
+arbetsskadef&#246;rs&#228;kring, statligt personskadeskydd och
+krigsskadeers&#228;ttning till sj&#246;m&#228;n. F&#246;rordning (2010:1655).
+
+Arbetsskadef&#246;rs&#228;kring vid utbildning
+
+2 &#167; Arbetsskadef&#246;rs&#228;kringen g&#228;ller &#228;ven den som
+
+1. deltar i ett arbetsmarknadspolitiskt program, dock inte 
+st&#246;d till start av n&#228;ringsverksamhet, och f&#229;r aktivitetsst&#246;d, 
+utvecklingsers&#228;ttning eller etableringsers&#228;ttning enligt 
+f&#246;rordningen (2017:819) om ers&#228;ttning till deltagare i 
+arbetsmarknadspolitiska insatser, eller som, utan att f&#229; 
+aktivitetsst&#246;d eller utvecklingsers&#228;ttning, antingen deltar i 
+jobbgarantin f&#246;r ungdomar och &#228;r under 18 &#229;r eller deltar i 
+jobb- och utvecklingsgarantin,
+
+2. genomg&#229;r arbetspr&#246;vning eller arbetstr&#228;ning som har 
+godk&#228;nts av F&#246;rs&#228;kringskassan eller utredning i samband med 
+s&#229;dan pr&#246;vning eller tr&#228;ning, 
+
+3. g&#246;r ett obligatoriskt studiebes&#246;k eller ett bes&#246;k f&#246;r 
+kartl&#228;ggning av s&#246;kandens yrkeskunskaper innan han eller hon 
+anvisas ett arbetsmarknadspolitiskt program, dock inte f&#246;re 
+en anvisning till st&#246;d till start av n&#228;ringsverksamhet, och 
+f&#229;r aktivitetsst&#246;d, utvecklingsers&#228;ttning eller 
+etableringsers&#228;ttning eller anvisas jobbgarantin f&#246;r ungdomar 
+utan att f&#229; aktivitetsst&#246;d eller utvecklingsers&#228;ttning och &#228;r 
+under 18 &#229;r, eller
+
+4. deltar i arbetslivsinriktad rehabilitering enligt 30 kap. 
+socialf&#246;rs&#228;kringsbalken.
+
+Arbetsskadef&#246;rs&#228;kring enligt f&#246;rsta stycket 1 g&#228;ller &#228;ven n&#228;r 
+deltagaren &#228;r avst&#228;ngd fr&#229;n r&#228;tt till aktivitetsst&#246;d, 
+utvecklingsers&#228;ttning eller etableringsers&#228;ttning, och n&#228;r 
+deltagaren inte f&#229;r s&#229;dan ers&#228;ttning p&#229; grund av att 
+ers&#228;ttningen minskas med de belopp som han eller hon f&#246;r 
+samma dag f&#229;r l&#246;n eller andra anst&#228;llningsf&#246;rm&#229;ner fr&#229;n en 
+arbetsgivare. 
+
+Arbetsskadef&#246;rs&#228;kringen ska, i den omfattning som anges i 
+4 &#167;, dessutom g&#228;lla den som
+
+1. efter fullgjord skolplikt genomg&#229;r yrkesutbildning eller 
+f&#246;rberedande s&#229;dan utbildning, eller
+
+2. genomg&#229;r &#229;rskurs 7 eller h&#246;gre &#229;rskurs i grundskolan, 
+s&#228;rskolans yrkesskola, gymnasieskolan eller motsvarande 
+utbildning. F&#246;rordning (2017:1173).
+
+3 &#167; Arbetsskadef&#246;rs&#228;kringen g&#228;ller ej vid utbildning av den som omfattas
+av det statliga personskadeskyddet.
+
+4 &#167; Arbetsskadef&#246;rs&#228;kringen g&#228;ller i de fall som avses i 2 &#167;
+tredje stycket under moment i utbildningen d&#229; eleven utf&#246;r
+arbete som st&#228;mmer &#246;verens med eller till sin art liknar
+s&#229;dant som vanligen utf&#246;rs vid f&#246;rv&#228;rvsarbete.
+F&#246;rordning (2014:873).
+
+Arbetsskada genom smitta
+
+5 &#167; Som arbetsskada enligt 39 kap. 6 &#167; socialf&#246;rs&#228;kringsbalken 
+anses
+
+1. sjukdom som har framkallats genom smitta och som har 
+&#229;dragits i syssels&#228;ttning vid laboratorium d&#228;r arbete med 
+smitt&#228;mnet bedrivs,
+
+2. smittsam sjukdom som anges i bilagan till denna f&#246;rordning 
+samt resistenta stafylokockinfektioner, erysipeloid, kokoppor, 
+lepra, mul- och kl&#246;vsjuka, papegojsjuka och andra ornithoser, 
+prim&#228;r icke varig hj&#228;rn- och hj&#228;rnhinneinflammation, rots, 
+trichofyti, tularemi, undulantfeber samt Weils sjukdom och 
+andra leptospiroser, om sjukdomen har &#229;dragits
+
+- i arbete vid sjukv&#229;rdsinr&#228;ttning,
+
+- i annat arbete vid behandling, v&#229;rd eller omh&#228;ndertagande av 
+smittf&#246;rande person eller vid omh&#228;nderhavande eller hantering 
+av smittf&#246;rande djur eller material, och 
+
+3. sjukdom som &#228;r eller som n&#228;r skadan intr&#228;ffade var 
+klassificerad som en samh&#228;llsfarlig sjukdom enligt 
+smittskyddslagen (2004:168) och sjukdomen har &#229;dragits i 
+arbetet. F&#246;rordning (2022:204).
+
+Statligt personskadeskydd f&#246;r frivilliga
+
+6 &#167; Det statliga personskadeskyddet skall &#228;ven g&#228;lla
+
+1. hemv&#228;rnspersonal,
+
+2. krigsfrivillig,
+
+3. medlem i en frivillig f&#246;rsvarsorganisation,
+
+4. den som genomg&#229;r frivillig utbildning eller
+antagningspr&#246;vning vid F&#246;rsvarsmakten,
+
+5. praktikant vid F&#246;rsvarsmakten,
+
+6. ledamot av en medinflytandeorganisation f&#246;r
+totalf&#246;rsvarspliktiga n&#228;r denne inte fullg&#246;r plikttj&#228;nstg&#246;ring,
+
+7. avg&#229;ende ledamot i en medinflytandeorganisation f&#246;r
+totalf&#246;rsvarspliktiga n&#228;r denne tj&#228;nstg&#246;r f&#246;r inskolning av nya
+ledam&#246;ter. F&#246;rordning (1997:1195).
+
+7 &#167; Best&#228;mmelsen i 43 kap 12 &#167; socialf&#246;rs&#228;kringsbalken om
+l&#228;gsta sjukpenningunderlag ska &#228;ven g&#228;lla den som genomg&#229;r
+utbildning till officer. Best&#228;mmelsen ska &#228;ven till&#228;mpas f&#246;r
+ber&#228;kning av livr&#228;nteunderlag. F&#246;rordning (2010:1655).
+
+Anm&#228;lan om arbetsskada
+
+8 &#167; Anm&#228;lan hos F&#246;rs&#228;kringskassan om arbetsskada ska g&#246;ras om
+skadan har medf&#246;rt eller kan antas medf&#246;ra r&#228;tt till
+sjukv&#229;rdsers&#228;ttning, sjukpenning eller
+rehabiliteringsers&#228;ttning fr&#229;n socialf&#246;rs&#228;kringen eller
+sjukl&#246;n enligt lagen (1991:1047) om sjukl&#246;n eller ers&#228;ttning
+fr&#229;n arbetsskadef&#246;rs&#228;kringen.
+
+Anm&#228;lan ska &#228;ven g&#246;ras om skadan har f&#246;ranlett eller kan antas
+f&#246;ranleda sveda och v&#228;rk eller lyte eller annat stadigvarande
+men. F&#246;rordning (2010:1655).
+
+9 &#167; Anm&#228;lan om arbetsskada ska g&#246;ras p&#229; blankett enligt
+formul&#228;r som F&#246;rs&#228;kringskassan fastst&#228;ller efter samr&#229;d med
+Arbetsmilj&#246;verket eller, betr&#228;ffande arbete p&#229; fartyg, med
+Transportstyrelsen. F&#246;rordning (2008:1209).
+
+10 &#167; Arbetsgivare eller arbetsf&#246;rest&#229;ndare skall samr&#229;da med
+skyddsombudet om arbetsskadeanm&#228;lan och ge ombudet en kopia av denna.
+
+11 &#167; Om arbetsskada har intr&#228;ffat utomlands, f&#229;r skadeanm&#228;lan
+g&#246;ras hos svensk beskickning eller svenskt konsulat.
+Beskickningen eller konsulatet skall omedelbart ombes&#246;rja
+unders&#246;kning som kan beh&#246;vas och d&#228;refter s&#228;nda handlingarna i
+&#228;rendet till F&#246;rs&#228;kringskassan. F&#246;rordning (2004:885).
+
+12 &#167; F&#246;rs&#228;kringskassan ska s&#228;nda en kopia av arbetsskadeanm&#228;lan
+till Arbetsmilj&#246;verket eller, betr&#228;ffande arbete p&#229; fartyg,
+till Transportstyrelsen. F&#246;rordning (2008:1209).
+
+13 &#167; F&#246;rs&#228;kringskassan ska h&#228;mta in l&#228;karutl&#229;tande n&#228;r en
+arbetsskada har anm&#228;lts om det beh&#246;vs f&#246;r bed&#246;mningen av
+r&#228;tten till ers&#228;ttning fr&#229;n arbetsskadef&#246;rs&#228;kringen enligt
+38–42 och 86–88 kap. socialf&#246;rs&#228;kringsbalken.
+F&#246;rordning (2010:1655).
+
+14 &#167; Blanketter som avses i 9 och 13 &#167;&#167; tillhandah&#229;lls av
+F&#246;rs&#228;kringskassan och svenska beskickningar och konsulat.
+F&#246;rordning (2004:885).
+
+15 &#167; F&#246;rs&#228;kringskassan, Arbetsmilj&#246;verket och
+Transportstyrelsen kan p&#229;kalla polisunders&#246;kning om arbetsskada
+som har intr&#228;ffat. F&#246;rordning (2008:1209).
+
+Anm&#228;lan om skada som omfattas av statligt personskadeskydd
+
+16 &#167; Underr&#228;ttelse om skada som omfattas av statligt
+personskadeskydd och som visar sig under skyddstiden ska l&#228;mnas
+
+1. betr&#228;ffande tj&#228;nstg&#246;ring i F&#246;rsvarsmakten enligt lagen
+(1994:1809) om totalf&#246;rsvarsplikt:
+
+till kompanichefen eller motsvarande chef eller bef&#228;l,
+
+2. betr&#228;ffande m&#246;nstring eller annan utredning enligt lagen om
+totalf&#246;rsvarsplikt eller under antagningspr&#246;vning enligt lagen
+(1994:1810) om m&#246;jlighet f&#246;r kvinnor att fullg&#246;ra v&#228;rnplikt
+eller civilplikt med l&#228;ngre grundutbildning:
+
+till den som ansvarar f&#246;r utredningen,
+
+3. betr&#228;ffande tj&#228;nstg&#246;ring enligt lagen om totalf&#246;rsvarsplikt
+i annat fall &#228;n under 1:
+
+till Myndigheten f&#246;r samh&#228;llsskydd och beredskap eller
+myndighet som Myndigheten f&#246;r samh&#228;llsskydd och beredskap
+best&#228;mmer,
+
+4. betr&#228;ffande r&#228;ddningstj&#228;nst eller &#246;vning med kommunal
+organisation f&#246;r r&#228;ddningstj&#228;nst:
+
+till r&#228;ddningschefen, r&#228;ddningsledaren eller l&#228;nsstyrelsen,
+
+5. betr&#228;ffande hemv&#228;rnstj&#228;nstg&#246;ring:
+
+till hemv&#228;rnskompanichefen,
+
+6. betr&#228;ffande verksamhet som n&#229;gon som avses i 6 &#167; 2-6 deltar
+i:
+
+till kompanichefen eller motsvarande bef&#228;l i fr&#229;ga om
+verksamhet i F&#246;rsvarsmakten, och i fr&#229;ga om &#246;vrig verksamhet
+till Arbetsf&#246;rmedlingen s&#229;vitt avser frivillig
+f&#246;rsvarsverksamhet och till Myndigheten f&#246;r samh&#228;llsskydd och
+beredskap s&#229;vitt avser medinflytandeverksamhet,
+
+7. betr&#228;ffande intagning i anstalt, hem som avses i 12 &#167; lagen
+(1990:52) med s&#228;rskilda best&#228;mmelser om v&#229;rd av unga, hem som
+avses i 22 &#167; lagen (1988:870) om v&#229;rd av missbrukare i vissa
+fall, h&#228;kte eller polisarrest:
+
+till f&#246;rest&#229;ndaren.
+
+Kompanichef eller motsvarande bef&#228;l inom F&#246;rsvarsmakten ska
+omedelbart underr&#228;tta regementschefen eller motsvarande chef om
+skada som han blivit underr&#228;ttad om eller p&#229; annat s&#228;tt har
+f&#229;tt k&#228;nnedom om. F&#246;rordning (2008:1209).
+
+17 &#167; Chef eller annan som avses i 16 &#167; vilken genom
+underr&#228;ttelse eller p&#229; annat s&#228;tt har f&#229;tt k&#228;nnedom om att
+skada har intr&#228;ffat &#228;r skyldig att omedelbart anm&#228;la skadan
+till F&#246;rs&#228;kringskassan. Skada under verksamhet vid
+F&#246;rsvarsmakten skall anm&#228;las av regementschefen eller
+motsvarande chef.
+
+Vid anm&#228;lan enligt f&#246;rsta stycket har 8 &#167; motsvarande
+till&#228;mpning. F&#246;rordning (2004:885).
+
+18 &#167; Skadeanm&#228;lan skall g&#246;ras p&#229; blankett enligt formul&#228;r som
+F&#246;rs&#228;kringskassan fastst&#228;ller efter samr&#229;d med ber&#246;rda centrala
+f&#246;rvaltningsmyndigheter.
+
+F&#246;rs&#228;kringskassan skall s&#228;nda en kopia av skadeanm&#228;lan till
+Kammarkollegiet. F&#246;rordning (2004:885).
+
+19 &#167; Best&#228;mmelserna i 11-14 &#167;&#167; har motsvarande till&#228;mpning betr&#228;ffande
+anm&#228;lan om skada som omfattas av statligt personskadeskydd.
+
+Ers&#228;ttning f&#246;r l&#228;karutl&#229;tande m.m.
+
+20 &#167; Utgifter f&#246;r l&#228;karutl&#229;tande och l&#228;karunders&#246;kning f&#246;r
+skadereglering samt f&#246;r resa och kost i samband med unders&#246;kningen
+ers&#228;ttes med sk&#228;ligt belopp.
+
+Ers&#228;ttningen utg&#229;r vid arbetsskada fr&#229;n arbetsskadef&#246;rs&#228;kringen och
+annars av statsmedel.
+
+Statlig arbetsskadeers&#228;ttning
+
+21 &#167; Om en arbetsskada har &#229;dragits i utbildning som har anordnats
+av staten, utg&#229;r ers&#228;ttning av statsmedel. F&#246;rordning (1995:902).
+
+22 &#167; I fr&#229;ga om skador som avses i 21 &#167; svarar staten f&#246;r
+arbetsskadef&#246;rs&#228;kringens f&#246;rvaltningskostnader.
+
+Utbetalning av ers&#228;ttning
+
+23 &#167; Har upph&#228;vts genom f&#246;rordning (2010:1655).
+
+24 &#167; Best&#228;mmelser om utbetalning av sjukpenning finns i
+f&#246;rordningen (1982:366) om utbetalning av dagers&#228;ttningar fr&#229;n
+F&#246;rs&#228;kringskassan.
+
+Livr&#228;nta betalas ut en g&#229;ng i m&#229;naden. F&#246;rordning (2004:885).
+
+24 a &#167; Ers&#228;ttning till efterlevande ska betalas ut i den
+ordning som f&#246;reskrivs i 7, 9 och 10 &#167;&#167; f&#246;rordningen
+(2002:782) om ans&#246;kan och utbetalning av pension m.fl.
+f&#246;rm&#229;ner. F&#246;rordning (2009:1177).
+
+25 &#167; Livr&#228;nta f&#246;r f&#246;rfluten tid och annan ers&#228;ttning &#228;n som s&#228;gs i 24 &#167;
+betalas ut s&#229; snart det kan ske.
+
+26 &#167; Uppkommer &#246;retal vid utbetalning av sjukpenning eller livr&#228;nta
+j&#228;mkas &#246;retalet till n&#228;rmaste krontal eller, om det slutar p&#229; 50 &#246;re,
+till n&#228;rmast h&#246;gre krontal. F&#246;rordning (1986:859).
+
+Omr&#228;kning av livr&#228;nta
+
+27 &#167; Det tal som den fastst&#228;llda livr&#228;ntan ska r&#228;knas om med
+enligt 41 kap. 21 &#167; f&#246;rsta stycket f&#246;rsta meningen
+socialf&#246;rs&#228;kringsbalken ska ha fyra decimaler.
+F&#246;rordning (2010:1655).
+
+Arbetsgivarintr&#228;de
+
+28 &#167; Best&#228;mmelserna i 42 kap. 5 &#167; socialf&#246;rs&#228;kringsbalken om
+arbetsgivares r&#228;tt att erh&#229;lla ers&#228;ttning med belopp som
+svarar mot vad han eller hon har utgivit till&#228;mpas p&#229;
+arbetsgivare f&#246;r sj&#246;man.
+
+Intr&#228;de i r&#228;tt till begravningshj&#228;lp f&#229;r ske till h&#246;gst halva
+beloppet. F&#246;rordning (2010:1655).
+
+Bemyndiganden
+
+29 &#167; F&#246;rs&#228;kringskassan f&#229;r i fr&#229;ga om arbetsskadef&#246;rs&#228;kring,
+statligt personskadeskydd och krigsskadeers&#228;ttning till sj&#246;m&#228;n
+meddela
+
+1. f&#246;reskrifter om uppgiftsskyldighet enligt 110 kap. 13 &#167;
+andra stycket socialf&#246;rs&#228;kringsbalken,
+
+2. ytterligare f&#246;reskrifter f&#246;r verkst&#228;llighet av
+socialf&#246;rs&#228;kringsbalken.
+
+Innan f&#246;reskrifter om statligt personskadeskydd meddelas
+enligt f&#246;rsta stycket 2 ska F&#246;rs&#228;kringskassan samr&#229;da med
+ber&#246;rda centrala f&#246;rvaltningsmyndigheter.
+F&#246;rordning (2010:1655).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1977:284
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1977.
+
+Genom f&#246;rordningen upph&#228;ves
+
+a) kung&#246;relsen (1950:334) med till&#228;mpningsf&#246;reskrifter till
+milit&#228;rers&#228;ttningsf&#246;rordningen den 2 juni 1950 (nr 261),
+
+b) kung&#246;relsen (1954:278) ang&#229;ende till&#228;mpning av lagen om
+krigsf&#246;rs&#228;kring f&#246;r sj&#246;m&#228;n m.fl.,
+
+c) kung&#246;relsen (1954:644) med f&#246;reskrifter enligt 6 &#167; f&#246;rsta
+stycket c) lagen om yrkesskadef&#246;rs&#228;kring,
+
+d) kung&#246;relsen (1954:715) ang&#229;ende till&#228;mpning av lagen om
+yrkesskadef&#246;rs&#228;kring &#229; vissa elever m.fl.,
+
+e) kung&#246;relsen (1954:716) ang&#229;ende undantagande av vissa
+arbetstagare i statens tj&#228;nst fr&#229;n f&#246;rs&#228;kringen enligt lagen om
+yrkesskadef&#246;rs&#228;kring,
+
+f) kung&#246;relsen (1954:800) med f&#246;reskrifter ang&#229;ende
+till&#228;mpningen av f&#246;rordningen den 14 maj 1954 (nr 249) om
+ers&#228;ttning i anledning av kroppsskada, &#229;dragen under
+tj&#228;nstg&#246;ring i civilf&#246;rsvaret,
+
+g) kung&#246;relsen (1954:801) med f&#246;reskrifter ang&#229;ende
+till&#228;mpningen av f&#246;rordningen den 14 maj 1954 (nr 250) om
+ers&#228;ttning i anledning av kroppsskada, &#229;dragen under vistelse &#229;
+anstalt m.m.,
+
+h) kung&#246;relsen (1959:4) med f&#246;reskrift enligt 5 &#167; andra stycket
+lagen om yrkesskadef&#246;rs&#228;kring,
+
+i) kung&#246;relsen (1967:922) ang&#229;ende utbetalning av ers&#228;ttning
+enligt lagen den 14 maj 1954 (nr 243) om yrkesskadef&#246;rs&#228;kring,
+m.m.,
+
+j) kung&#246;relsen (1968:595) ang&#229;ende anm&#228;lan om yrkesskada.
+
+&#196;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om skada som har
+intr&#228;ffat f&#246;re ikrafttr&#228;dandet, med undantag av 4 &#167; kung&#246;relsen
+(1967:922) ang&#229;ende utbetalning av ers&#228;ttning enligt lagen den
+14 maj 1954 (nr 243) om yrkesskadef&#246;rs&#228;kring, m.m.
+F&#246;rordning (2004:1380).
+
+1990:206
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1990. &#196;ldre f&#246;reskrifter i 2
+och 4 &#167;&#167; g&#228;ller fortfarande betr&#228;ffande skada som har intr&#228;ffat f&#246;re
+ikrafttr&#228;dandet.
+
+1990:882
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 september 1990. De nya
+f&#246;reskrifterna till&#228;mpas dock betr&#228;ffande skada som har intr&#228;ffat efter
+utg&#229;ngen av juni 1990.
+
+1995:902
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1995. &#196;ldre f&#246;reskrifter
+g&#228;ller dock i fr&#229;ga om skador som intr&#228;ffat f&#246;re den 1 juli 1995.
+
+2000:642
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 augusti 2000. &#196;ldre
+f&#246;reskrifter g&#228;ller fortfarande f&#246;r skadefall som intr&#228;ffat
+f&#246;re ikrafttr&#228;dandet.
+
+2002:784
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2003. Den nya
+f&#246;reskriften i 27 &#167; till&#228;mpas f&#246;rsta g&#229;ngen vid omr&#228;kning av
+livr&#228;nta f&#246;r &#229;r 2004.
+
+2006:1548
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2007. &#196;ldre
+f&#246;reskrifter g&#228;ller fortfarande f&#246;r den som anvisats fri&#229;ret.
+
+2008:116
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 maj 2008. De nya
+best&#228;mmelserna ska dock till&#228;mpas f&#246;r tid fr&#229;n och med den 3
+december 2007.
+
+2017:1173
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2018.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r den som n&#228;r 
+skadefallet intr&#228;ffade hade en etableringsplan enligt den 
+upph&#228;vda lagen (2010:197) om etableringsinsatser f&#246;r vissa 
+nyanl&#228;nda invandrare. 
+
+2020:245
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 25 april 2020.
+
+2. Bilagan i den nya lydelsen till&#228;mpas &#228;ven p&#229; skada som har 
+intr&#228;ffat f&#246;re ikrafttr&#228;dandet.
+
+2022:204
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 19 april 2022.
+
+2. Den nya best&#228;mmelsen i 5 &#167; 3 till&#228;mpas &#228;ven p&#229; skada i form 
+av sjukdomen covid-19 som har intr&#228;ffat f&#246;re ikrafttr&#228;dandet. 
+Detta g&#228;ller utan hinder av att fr&#229;gan om s&#229;dan skada 
+f&#246;religger enligt 5 &#167; 1 eller 2 tidigare avgjorts av 
+F&#246;rs&#228;kringskassan eller domstol genom beslut som f&#229;tt laga 
+kraft. 
+
+
+Bilaga
+
+F&#246;rteckning &#246;ver smittsamma sjukdomar som avses i 5 &#167; 2 i 
+f&#246;rordningen
+
+- covid-19
+
+- difteri
+
+- fl&#228;ckfeber
+
+- gula febern
+
+- hepatit A
+
+- hepatit B
+
+- hepatit C
+
+- hepatit D
+
+- hepatit E
+
+- hepatit non A non B non C non D non E
+
+- meningokockinfektion
+
+- polio
+
+- sv&#229;r akut respiratorisk sjukdom (SARS)
+
+- tuberkulos
+
+- virala hemorragiska febrar exkl. nefropathia epidemica
+
+- &#229;terfallsfeber
+
+- kolera
+
+- mj&#228;ltbrand
+
+- paratyfoidfeber
+
+- pest
+
+- rabies
+
+- salmonellainfektion
+
+- shigellainfektion
+
+- tyfoidfeber
+F&#246;rordning (2020:245).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4035">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4037">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

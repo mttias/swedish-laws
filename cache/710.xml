@@ -1,0 +1,969 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2018-07-12" /> 
+ <meta id="rattsinfo-edited" content="2020-11-04" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>710</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=709">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=711">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2018:1231 ·
+                    <a href="/sfsr?bet=2018:1231">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2018:1231) om f&#246;rs&#228;kringsdistribution</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet FPM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2018-06-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:1852
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2018-10-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning g&#228;ller vid till&#228;mpning av lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution.
+
+2 &#167; Termer och uttryck som anv&#228;nds i denna f&#246;rordning har 
+samma betydelse och till&#228;mpningsomr&#229;de som i lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution.
+
+2 kap. Ans&#246;kan om tillst&#229;nd och anm&#228;lan f&#246;r registrering
+
+Ans&#246;kan om tillst&#229;nd hos Finansinspektionen f&#246;r svenska 
+f&#246;rs&#228;kringsf&#246;rmedlare
+
+1 &#167; En ans&#246;kan av en fysisk person om tillst&#229;nd f&#246;r 
+f&#246;rs&#228;kringsdistribution enligt 2 kap. 1 &#167; lagen (2018:1219) 
+om f&#246;rs&#228;kringsdistribution ska inneh&#229;lla uppgift om 
+
+1. den fysiska personens f&#246;r- och efternamn, postadress, 
+telefonnummer och personnummer eller, om s&#229;dant saknas, 
+f&#246;delsedatum, samt 
+
+2. f&#246;r vilket eller vilka slag av f&#246;rs&#228;kringar och vilken 
+eller vilka f&#246;rs&#228;kringsklasser eller grupper av f&#246;rs&#228;kringar 
+som tillst&#229;nd s&#246;ks. 
+
+Ans&#246;kan ska &#228;ven inneh&#229;lla en utredning som visar att den 
+fysiska personen 
+
+1. omfattas av en f&#246;rs&#228;kring f&#246;r skadest&#229;ndsskyldighet som 
+kan uppkomma om den fysiska personen &#229;sidos&#228;tter sina 
+skyldigheter (ansvarsf&#246;rs&#228;kring), 
+
+2. inte &#228;r under&#229;rig, i konkurs, har n&#228;ringsf&#246;rbud eller 
+f&#246;rvaltare enligt 11 kap. 7 &#167; f&#246;r&#228;ldrabalken, 
+
+3. inte f&#246;rekommer i belastningsregistret f&#246;r de brott som 
+avses i 3 kap. 1 &#167; eller medhj&#228;lp till s&#229;dana brott, 
+
+4. har visat den sk&#246;tsamhet i ekonomiska angel&#228;genheter som 
+kr&#228;vs enligt 2 kap. 7 &#167; 2 lagen om f&#246;rs&#228;kringsdistribution 
+och de f&#246;reskrifter som meddelats med st&#246;d av 9 kap. 1 &#167; 3, 
+samt
+
+5. uppfyller kraven p&#229; kunskap och kompetens samt fortl&#246;pande 
+fortbildning och yrkesutveckling enligt 2 kap. 7 &#167; f&#246;rsta 
+stycket 3 och 4 lagen om f&#246;rs&#228;kringsdistribution och de 
+f&#246;reskrifter som meddelats med st&#246;d av 9 kap. 1 &#167; 4.
+
+2 &#167; En ans&#246;kan av en juridisk person om tillst&#229;nd f&#246;r 
+f&#246;rs&#228;kringsdistribution enligt 2 kap. 1 &#167; lagen (2018:1219) 
+om f&#246;rs&#228;kringsdistribution ska inneh&#229;lla uppgift om
+
+1. den juridiska personens f&#246;retagsnamn, organisationsnummer, 
+postadress och telefonnummer,
+
+2. f&#246;r vilket eller vilka slag av f&#246;rs&#228;kringar och vilken 
+eller vilka f&#246;rs&#228;kringsklasser eller grupper av f&#246;rs&#228;kringar 
+som tillst&#229;nd s&#246;ks, samt
+
+3. f&#246;r- och efternamn samt personnummer eller, om s&#229;dant 
+saknas, f&#246;delsedatum p&#229; de anst&#228;llda som ska distribuera 
+f&#246;rs&#228;kringar f&#246;r den juridiska personens r&#228;kning, tillsammans 
+med uppgift om vilket eller vilka slag av f&#246;rs&#228;kringar och 
+vilken eller vilka f&#246;rs&#228;kringsklasser eller grupper av 
+f&#246;rs&#228;kringar som den anst&#228;llde ska ha r&#228;tt att distribuera.
+
+Ans&#246;kan ska &#228;ven inneh&#229;lla en utredning som visar att
+
+1. den juridiska personen omfattas av en ansvarsf&#246;rs&#228;kring,
+
+2. den juridiska personen inte &#228;r i konkurs eller i 
+likvidation,
+
+3. den som ska ing&#229; i den juridiska personens ledning eller 
+ska vara ers&#228;ttare f&#246;r denne uppfyller kraven i 2 kap. 8 &#167; 
+f&#246;rsta stycket 3 lagen om f&#246;rs&#228;kringsdistribution, 3 kap. 2 
+och 4 &#167;&#167; och de f&#246;reskrifter som meddelats med st&#246;d av 9 kap. 
+1 &#167; 3 och 6, och
+
+4. den juridiska personen har genomf&#246;rt de kontroller av 
+anst&#228;llda som f&#246;reskrivs i 2 kap. 8 &#167; andra stycket lagen om 
+f&#246;rs&#228;kringsdistribution, 3 kap. 5 &#167; och de f&#246;reskrifter som 
+meddelats med st&#246;d av 9 kap. 1 &#167; 8. F&#246;rordning (2018:1852).
+
+Ans&#246;kan om tillst&#229;nd hos Finansinspektionen f&#246;r 
+f&#246;rs&#228;kringsf&#246;rmedlare fr&#229;n tredjeland
+
+3 &#167; En ans&#246;kan av en utl&#228;ndsk f&#246;rs&#228;kringsf&#246;rmedlare fr&#229;n 
+tredjeland om tillst&#229;nd f&#246;r f&#246;rs&#228;kringsdistribution enligt 
+3 kap. 3 &#167; lagen (2018:1219) om f&#246;rs&#228;kringsdistribution ska 
+inneh&#229;lla uppgift om
+
+1. den utl&#228;ndska f&#246;rmedlarens f&#246;retagsnamn eller f&#246;r- och 
+efternamn, organisationsnummer, f&#246;delsedatum eller 
+motsvarande identitetsuppgift, postadress och 
+telefonnummer,
+
+2. filialens f&#246;retagsnamn eller f&#246;r- och efternamn, 
+postadress och telefonnummer, och
+
+3. f&#246;r vilket eller vilka slag av f&#246;rs&#228;kringar och vilken 
+eller vilka f&#246;rs&#228;kringsklasser eller grupper av f&#246;rs&#228;kringar 
+som tillst&#229;nd s&#246;ks.
+
+Ans&#246;kan ska &#228;ven inneh&#229;lla en utredning som visar att
+
+1. f&#246;rmedlaren i sitt hemland st&#229;r under betryggande tillsyn 
+av en beh&#246;rig myndighet, och
+
+2. beh&#246;rig myndighet i hemlandet har medgett att f&#246;rmedlaren 
+etablerar sig i Sverige.
+
+Ans&#246;kan ska &#228;ven inneh&#229;lla en utredning som visar att det &#228;r 
+antagligt att f&#246;rmedlaren uppfyller kraven i 2 kap. 7 eller 
+8 &#167; lagen om f&#246;rs&#228;kringsdistribution. F&#246;rordning (2018:1852).
+
+Anm&#228;lan f&#246;r registrering hos Bolagsverket av svenska 
+f&#246;rs&#228;kringsf&#246;rmedlare
+
+4 &#167; En anm&#228;lan f&#246;r registrering enligt 2 kap. 3 &#167; lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution av en 
+f&#246;rs&#228;kringsf&#246;rmedlare som &#228;r en fysisk person ska inneh&#229;lla 
+uppgift om f&#246;r- och efternamn, personnummer eller, om s&#229;dant 
+saknas, f&#246;delsedatum, postadress och telefonnummer.
+
+Tillsammans med anm&#228;lan ska f&#246;rs&#228;kringsf&#246;rmedlaren l&#228;mna en 
+bestyrkt kopia av Finansinspektionens beslut om tillst&#229;nd f&#246;r 
+f&#246;rs&#228;kringsdistribution.
+
+5 &#167; En anm&#228;lan f&#246;r registrering enligt 2 kap. 3 &#167; lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution av en 
+f&#246;rs&#228;kringsf&#246;rmedlare som &#228;r en juridisk person ska inneh&#229;lla 
+uppgift om f&#246;retagsnamn, organisationsnummer, postadress och 
+telefonnummer.
+
+Tillsammans med anm&#228;lan ska f&#246;rs&#228;kringsf&#246;rmedlaren l&#228;mna en 
+bestyrkt kopia av Finansinspektionens beslut om tillst&#229;nd f&#246;r 
+f&#246;rs&#228;kringsdistribution. F&#246;rordning (2018:1852).
+
+6 &#167; En anm&#228;lan f&#246;r registrering enligt 2 kap. 4 &#167; lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution av en 
+f&#246;rs&#228;kringsf&#246;rmedlare som &#228;r en fysisk person ska inneh&#229;lla 
+uppgift om
+
+1. f&#246;retagsnamn och organisationsnummer f&#246;r det 
+f&#246;rs&#228;kringsf&#246;retag eller den f&#246;rs&#228;kringsf&#246;rmedlare som 
+f&#246;rmedlaren har ing&#229;tt avtal med,
+
+2. den fysiska personens f&#246;r- och efternamn, personnummer 
+eller, om s&#229;dant saknas, f&#246;delsedatum, postadress och 
+telefonnummer, samt
+
+3. f&#246;r vilket eller vilka slag av f&#246;rs&#228;kringar och vilken 
+eller vilka f&#246;rs&#228;kringsklasser eller grupper av f&#246;rs&#228;kringar 
+som registrering s&#246;ks.
+
+Om f&#246;rs&#228;kringsf&#246;retaget eller f&#246;rs&#228;kringsf&#246;rmedlaren &#228;r ett 
+utl&#228;ndskt f&#246;retag, ska det samtidigt l&#228;mna en bestyrkt kopia 
+av registreringsbevis eller motsvarande handling f&#246;r 
+f&#246;retaget. F&#246;rordning (2018:1852).
+
+7 &#167; En anm&#228;lan f&#246;r registrering enligt 2 kap. 4 &#167; lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution av en 
+f&#246;rs&#228;kringsf&#246;rmedlare som &#228;r en juridisk person ska inneh&#229;lla 
+uppgift om
+
+1. f&#246;retagsnamn och organisationsnummer f&#246;r det 
+f&#246;rs&#228;kringsf&#246;retag eller den f&#246;rs&#228;kringsf&#246;rmedlare som 
+f&#246;rmedlaren har ing&#229;tt avtal med,
+
+2. den juridiska personens f&#246;retagsnamn, organisationsnummer, 
+postadress och telefonnummer, samt
+
+3. f&#246;r vilket eller vilka slag av f&#246;rs&#228;kringar och vilken 
+eller vilka f&#246;rs&#228;kringsklasser eller grupper av f&#246;rs&#228;kringar 
+som registrering s&#246;ks.
+
+Om f&#246;rs&#228;kringsf&#246;retaget eller f&#246;rs&#228;kringsf&#246;rmedlaren &#228;r ett 
+utl&#228;ndskt f&#246;retag, ska det samtidigt l&#228;mna en bestyrkt kopia 
+av registreringsbevis eller motsvarande handling f&#246;r 
+f&#246;retaget. F&#246;rordning (2018:1852).
+
+Anm&#228;lan hos Bolagsverket av utl&#228;ndska f&#246;rs&#228;kringsf&#246;rmedlare 
+fr&#229;n tredjeland
+
+8 &#167; En anm&#228;lan f&#246;r registrering enligt 3 kap. 5 &#167; lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution ska inneh&#229;lla uppgift 
+om
+
+1. den utl&#228;ndska f&#246;rs&#228;kringsf&#246;rmedlarens f&#246;retagsnamn eller 
+f&#246;r- och efternamn, organisationsnummer, f&#246;delsedatum eller 
+motsvarande identitetsuppgift, postadress och telefonnummer, 
+samt
+
+2. filialens f&#246;retagsnamn eller f&#246;r- och efternamn, 
+organisationsnummer eller personnummer eller, om s&#229;dant 
+saknas, f&#246;delsedatum, postadress och telefonnummer.
+
+Tillsammans med anm&#228;lan ska f&#246;rs&#228;kringsf&#246;rmedlaren l&#228;mna en 
+bestyrkt kopia av Finansinspektionens beslut om tillst&#229;nd f&#246;r 
+f&#246;rs&#228;kringsdistribution. F&#246;rordning (2018:1852).
+
+Undertecknande av anm&#228;lan och underr&#228;ttelse om &#228;ndrade 
+f&#246;rh&#229;llanden
+
+9 &#167; En anm&#228;lan f&#246;r registrering enligt 2 kap. 3 &#167; lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution ska f&#246;r en fysisk 
+person undertecknas av den som anm&#228;lan g&#228;ller och f&#246;r en 
+juridisk person av beh&#246;rig firmatecknare.
+
+Anm&#228;lan f&#246;r registrering enligt 2 kap. 4 &#167; lagen om 
+f&#246;rs&#228;kringsdistribution ska undertecknas av beh&#246;rig 
+firmatecknare f&#246;r det f&#246;rs&#228;kringsf&#246;retag eller den 
+f&#246;rs&#228;kringsf&#246;rmedlare som f&#246;rmedlaren har ing&#229;tt avtal med.
+
+Anm&#228;lan f&#246;r registrering enligt 3 kap. 5 &#167; lagen om 
+f&#246;rs&#228;kringsdistribution ska undertecknas av den utl&#228;ndska 
+f&#246;rs&#228;kringsf&#246;rmedlaren. Om den utl&#228;ndska 
+f&#246;rs&#228;kringsf&#246;rmedlaren &#228;r en juridisk person, ska anm&#228;lan 
+undertecknas av beh&#246;rig firmatecknare. Tillsammans med 
+anm&#228;lan ska f&#246;rs&#228;kringsf&#246;rmedlaren l&#228;mna registreringsbevis 
+eller motsvarande handling.
+
+Anm&#228;lan om &#229;terkallelse av registrering av anknuten 
+sidoverksam f&#246;rs&#228;kringsf&#246;rmedlare eller anknuten 
+f&#246;rs&#228;kringsf&#246;rmedlare enligt 9 kap. 7 &#167; f&#246;rsta stycket 2 och 
+9 &#167; lagen om f&#246;rs&#228;kringsdistribution ska undertecknas av 
+beh&#246;rig firmatecknare f&#246;r det f&#246;rs&#228;kringsf&#246;retag eller den 
+f&#246;rs&#228;kringsf&#246;rmedlare som f&#246;rmedlaren har ing&#229;tt avtal med.
+
+10 &#167; Om en uppgift som ett f&#246;rs&#228;kringsf&#246;retag eller en 
+f&#246;rs&#228;kringsf&#246;rmedlare har l&#228;mnat till Bolagsverket har 
+&#228;ndrats, ska f&#246;rs&#228;kringsf&#246;retaget respektive 
+f&#246;rs&#228;kringsf&#246;rmedlaren snarast skriftligen underr&#228;tta 
+Bolagsverket om detta.
+
+3 kap. Kontroll i belastningsregister
+
+1 &#167; Med vissa allvarliga f&#246;rm&#246;genhetsbrott eller viss 
+allvarlig ekonomisk brottslighet enligt 2 kap. 7 &#167; f&#246;rsta 
+stycket 2 lagen (2018:1219) om f&#246;rs&#228;kringsdistribution avses 
+brott eller medhj&#228;lp till brott mot 
+
+1. 8, 9, 10, 11, 12, 14 eller 15 kap. brottsbalken,
+
+2. skattebrottslagen (1971:69),
+
+3. lagen (1985:354) om f&#246;rbud mot juridiskt eller ekonomiskt 
+bitr&#228;de i vissa fall, eller
+
+4. lagen (2016:1307) om straff f&#246;r marknadsmissbruk p&#229; 
+v&#228;rdepappersmarknaden.
+
+F&#246;rsta stycket g&#228;ller
+
+1. om det l&#228;gsta f&#246;reskrivna straffet &#228;r f&#228;ngelse, och
+
+2. om en dom eller ett beslut meddelats eller ett 
+straff&#246;rel&#228;ggande godk&#228;nts avseende ett s&#229;dant brott inom fem 
+&#229;r f&#246;re den dag d&#229; kontrollen i registret g&#246;rs.
+
+2 &#167; F&#246;reskrifter om Finansinspektionens r&#228;tt att beg&#228;ra 
+uppgifter ur belastningsregistret finns i 13 a &#167; f&#246;rordningen 
+(1999:1134) om belastningsregister. F&#246;reskrifter om den 
+enskildes r&#228;tt att beg&#228;ra ett s&#228;rskilt utdrag ur detta 
+register finns i 22 a &#167; samma f&#246;rordning.
+
+3 &#167; Vid den kontroll av f&#246;rekomst i belastningsregistret 
+som enligt 2 kap. 4 &#167; andra stycket lagen (2018:1219) om 
+f&#246;rs&#228;kringsdistribution ska utf&#246;ras betr&#228;ffande anknutna 
+f&#246;rs&#228;kringsf&#246;rmedlare som &#228;r fysiska personer ska anm&#228;laren 
+beg&#228;ra att den fysiska personen visar upp ett s&#229;dant 
+registerutdrag som avses i 22 a &#167; f&#246;rordningen (1999:1134) om 
+belastningsregister. Det registerutdrag som visas upp f&#229;r 
+inte vara &#228;ldre &#228;n tre m&#229;nader.
+
+Anm&#228;laren f&#229;r inte dokumentera den utf&#246;rda kontrollen p&#229; 
+annat s&#228;tt &#228;n genom en anteckning om att registerutdraget har 
+visats upp. En fysisk person som f&#246;rekommer i 
+belastningsregistret f&#246;r brott eller medhj&#228;lp till brott som 
+avses i 1 &#167;, f&#229;r inte anm&#228;las f&#246;r registrering hos 
+Bolagsverket.
+
+4 &#167; Vid den kontroll av f&#246;rekomst i belastningsregistret 
+som enligt 2 kap. 4 &#167; andra stycket lagen (2018:1219) om 
+f&#246;rs&#228;kringsdistribution ska utf&#246;ras betr&#228;ffande anknutna 
+f&#246;rs&#228;kringsf&#246;rmedlare som &#228;r juridiska personer ska anm&#228;laren 
+beg&#228;ra att den som ska ing&#229; i den juridiska personens ledning 
+eller vara ers&#228;ttare f&#246;r denne visar upp ett s&#229;dant 
+registerutdrag som avses i 22 a &#167; f&#246;rordningen (1999:1134) om 
+belastningsregister. Det registerutdrag som visas upp f&#229;r 
+inte vara &#228;ldre &#228;n tre m&#229;nader. 
+
+Anm&#228;laren f&#229;r inte dokumentera den utf&#246;rda kontrollen p&#229; 
+annat s&#228;tt &#228;n genom en anteckning om att registerutdraget har 
+visats upp.
+
+Om en person som avses i f&#246;rsta stycket f&#246;rekommer i 
+belastningsregistret f&#246;r brott eller medhj&#228;lp till brott som 
+avses i 1 &#167;, f&#229;r den juridiska personen inte anm&#228;las f&#246;r 
+registrering hos Bolagsverket.
+
+5 &#167; Vid den kontroll av f&#246;rekomst i belastningsregistret 
+som ska utf&#246;ras enligt 2 kap. 8 &#167; andra stycket lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution ska den juridiska 
+personen beg&#228;ra att en anst&#228;lld som ska distribuera 
+f&#246;rs&#228;kringar f&#246;r den juridiska personens r&#228;kning visar upp 
+ett s&#229;dant registerutdrag som avses i 22 a &#167; f&#246;rordningen 
+(1999:1134) om belastningsregister. Det registerutdrag som 
+visas upp f&#229;r inte vara &#228;ldre &#228;n tre m&#229;nader.
+
+Den juridiska personen f&#229;r inte dokumentera den utf&#246;rda 
+kontrollen p&#229; annat s&#228;tt &#228;n genom en anteckning om att 
+registerutdraget har visats upp.
+
+Endast uppgifter om anst&#228;llda som inte f&#246;rekommer i 
+belastningsregistret f&#246;r brott eller medhj&#228;lp till brott som 
+avses i 1 &#167; f&#229;r ligga till grund f&#246;r ans&#246;kan om tillst&#229;nd 
+enligt 2 kap. 1 &#167; lagen om f&#246;rs&#228;kringsdistribution eller 
+anm&#228;lan om registrering enligt 2 kap. 3 &#167; samma lag.
+
+4 kap. Ansvarsf&#246;rs&#228;kring
+
+1 &#167; F&#246;r tillst&#229;nd att bedriva f&#246;rs&#228;kringsdistribution 
+enligt lagen (2018:1219) om f&#246;rs&#228;kringsdistribution kr&#228;vs att 
+f&#246;rs&#228;kringsvillkoren f&#246;r ansvarsf&#246;rs&#228;kringen inneb&#228;r att
+
+1. f&#246;rs&#228;kringen omfattar hela EES, 
+
+2. f&#246;rs&#228;kringen g&#228;ller f&#246;r skada som orsakats fr&#229;n och med 
+den dag d&#229; f&#246;rmedlaren registrerades hos Bolagsverket och som 
+anm&#228;ls till f&#246;rs&#228;kringsgivaren s&#229; l&#228;nge f&#246;rs&#228;kringen g&#228;ller, 
+
+3. f&#246;rs&#228;kringen &#228;r f&#246;renad med ett efterskydd som inneb&#228;r att 
+f&#246;rs&#228;kringen &#228;ven t&#228;cker skador som anm&#228;ls till 
+f&#246;rs&#228;kringsgivaren inom tre &#229;r fr&#229;n det att f&#246;rs&#228;kringen har 
+upph&#246;rt att g&#228;lla och som inte t&#228;cks av n&#229;gon annan 
+f&#246;rs&#228;kring, 
+
+4. den skadelidande f&#229;r rikta krav p&#229; ers&#228;ttning enligt 
+f&#246;rs&#228;kringsavtalet direkt mot f&#246;rs&#228;kringsgivaren i den 
+utstr&#228;ckning han eller hon inte har f&#229;tt ers&#228;ttning av den 
+f&#246;rs&#228;krade, 
+
+5. ers&#228;ttningen ska betalas ut till den skadelidande utan 
+avdrag f&#246;r sj&#228;lvrisk, och
+
+6. f&#246;rs&#228;kringen kan upph&#246;ra tidigast en m&#229;nad efter det att 
+Finansinspektionen har underr&#228;ttats om upph&#246;randet.
+
+5 kap. F&#246;rs&#228;kringsf&#246;rmedlarregister 
+
+1 &#167; Registrering av f&#246;rs&#228;kringsf&#246;rmedlare g&#246;rs i 
+f&#246;rs&#228;kringsf&#246;rmedlarregistret. Registret f&#246;rs med hj&#228;lp av 
+automatiserad behandling och ska h&#229;llas tillg&#228;ngligt hos 
+Bolagsverket. Verket &#228;r personuppgiftsansvarigt f&#246;r 
+registret. 
+
+I f&#246;rs&#228;kringsf&#246;rmedlarregistret registreras uppgifter f&#246;r 
+varje f&#246;rs&#228;kringsf&#246;rmedlare. 
+
+F&#246;r en utl&#228;ndsk f&#246;rs&#228;kringsf&#246;rmedlare ska registreringen i 
+f&#246;rs&#228;kringsf&#246;rmedlarregistret g&#246;ras p&#229; den filial eller 
+permanenta n&#228;rvaro d&#228;r verksamheten ska bedrivas.
+
+2 &#167; F&#246;rs&#228;kringsf&#246;rmedlarregistret ska ge offentlighet &#229;t 
+den information som ing&#229;r i registret. 
+
+I fr&#229;ga om personuppgifter ska registret ha till &#228;ndam&#229;l att 
+tillhandah&#229;lla uppgifter f&#246;r 
+
+1. den tillsyn som Finansinspektionen har &#246;ver 
+f&#246;rs&#228;kringsdistribut&#246;rer enligt lagen (2018:1219) om 
+f&#246;rs&#228;kringsdistribution, 
+
+2. information till allm&#228;nheten om f&#246;rs&#228;kringsf&#246;rmedlare som 
+har registrerats i registret, 
+
+3. information om svenska f&#246;rs&#228;kringsf&#246;rmedlares anm&#228;lningar 
+om verksamhet i annat land inom EES, 
+
+4. aff&#228;rsverksamhet, kreditgivning eller n&#229;gon annan allm&#228;n 
+eller enskild verksamhet d&#228;r f&#246;retagsanknuten information 
+utg&#246;r underlag f&#246;r pr&#246;vningar eller beslut, 
+
+5. aktualisering, komplettering eller kontroll av 
+f&#246;retagsanknuten information som finns i kund- eller 
+medlemsregister eller liknande register, 
+
+6. uttag av urval av personuppgifter f&#246;r direkt 
+marknadsf&#246;ring, dock med den begr&#228;nsning som f&#246;ljer av 
+artikel 21.2 och 21.3 i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2016/679 av den 27 april 2016 om skydd f&#246;r 
+fysiska personer med avseende p&#229; behandling av 
+personuppgifter och om det fria fl&#246;det av s&#229;dana uppgifter 
+och om upph&#228;vande av direktiv 95/46/EG (allm&#228;n 
+dataskyddsf&#246;rordning), h&#228;r kallad EU:s dataskyddsf&#246;rordning, 
+samt
+
+7. verksamhet som staten eller en kommun ansvarar f&#246;r enligt 
+lag eller annan f&#246;rfattning och 
+
+a) som avser f&#246;rs&#228;kringsf&#246;rmedlare som registreras i 
+f&#246;rs&#228;kringsf&#246;rmedlarregistret, 
+
+b) som f&#246;r att kunna utf&#246;ras f&#246;ruts&#228;tter tillg&#229;ng till 
+f&#246;retagsanknuten information, eller 
+
+c) som avser fullg&#246;rande av underr&#228;ttelseskyldighet.
+
+3 &#167; Bolagsverket ska se till att det inte uppkommer n&#229;got 
+otillb&#246;rligt intr&#229;ng i de registrerades personliga integritet 
+eller n&#229;gra risker fr&#229;n s&#228;kerhetssynpunkt. F&#246;r dessa syften 
+f&#229;r myndigheten i enskilda fall st&#228;lla upp villkor f&#246;r 
+behandlingen av personuppgifter.
+
+4 &#167; Bolagsverket f&#229;r f&#246;r de &#228;ndam&#229;l som anges i 2 &#167; i ett 
+enskilt fall besluta om direkt&#229;tkomst till 
+f&#246;rs&#228;kringsf&#246;rmedlarregistret.
+
+5 &#167; En personuppgift i registret ska r&#228;ttas om uppgiften 
+inneh&#229;ller n&#229;gon uppenbar felaktighet till f&#246;ljd av 
+Bolagsverkets eller n&#229;gon annans skrivfel, r&#228;knefel eller 
+n&#229;got annat liknande f&#246;rbiseende. Detta g&#228;ller i st&#228;llet f&#246;r 
+r&#228;tten till r&#228;ttelse enligt artikel 16 i EU:s 
+dataskyddsf&#246;rordning. 
+
+6 &#167; I f&#246;rs&#228;kringsf&#246;rmedlarregistret ska f&#246;ljande uppgifter 
+antecknas om f&#246;rs&#228;kringsf&#246;rmedlare:
+
+1. organisations- eller personnummer,
+
+2. f&#246;retagsnamn eller f&#246;r- och efternamn,
+
+3. postadress och telefonnummer,
+
+4. vilket eller vilka slag av f&#246;rs&#228;kringar och vilken eller 
+vilka f&#246;rs&#228;kringsklasser eller grupper av f&#246;rs&#228;kringar som 
+registreringen avser,
+
+5. det eller de l&#228;nder d&#228;r f&#246;rmedlaren ska bedriva verksamhet 
+med st&#246;d av 3 kap. 6 eller 7 &#167; lagen (2018:1219) om 
+f&#246;rs&#228;kringsdistribution och om verksamheten ska bedrivas 
+enligt 3 kap. 6 &#167; eller enligt 3 kap. 7 &#167; samma lag, 
+
+6. datum f&#246;r registrering hos Bolagsverket, samt
+
+7. datum f&#246;r beslut om att tillst&#229;nd eller registrering har 
+&#229;terkallats.
+
+F&#246;r f&#246;rs&#228;kringsf&#246;rmedlare som registreras enligt 2 kap. 3 &#167; 
+lagen om f&#246;rs&#228;kringsdistribution ska &#228;ven datum f&#246;r 
+Finansinspektionens beslut om tillst&#229;nd f&#246;r 
+f&#246;rs&#228;kringsdistribution antecknas.
+
+F&#246;r f&#246;rs&#228;kringsf&#246;rmedlare som registreras enligt 2 kap. 4 &#167; 
+lagen om f&#246;rs&#228;kringsdistribution ska &#228;ven f&#246;retagsnamn och 
+organisationsnummer eller motsvarande uppgifter f&#246;r det eller 
+de f&#246;rs&#228;kringsf&#246;retag eller den eller de 
+f&#246;rs&#228;kringsf&#246;rmedlare som f&#246;rmedlaren har ing&#229;tt avtal med 
+antecknas.
+
+Bolagsverket f&#229;r anteckna uppgift om f&#246;rmedlarens 
+e-postadress. F&#246;rordning (2018:1852).
+
+7 &#167; F&#246;r f&#246;rs&#228;kringsf&#246;rmedlare som registreras enligt 
+2 kap. 5 &#167; lagen om f&#246;rs&#228;kringsdistribution ska &#228;ven 
+f&#246;retagsnamn och organisationsnummer eller motsvarande 
+uppgifter f&#246;r de f&#246;rs&#228;kringsf&#246;retag eller 
+f&#246;rs&#228;kringsf&#246;rmedlare som ing&#229;r i sammanslutningen 
+antecknas. F&#246;rordning (2018:1852).
+
+8 &#167; Om f&#246;rs&#228;kringsf&#246;rmedlare anm&#228;lts enligt 3 kap. 5 &#167; 
+lagen (2018:1219) om f&#246;rs&#228;kringsdistribution ska de uppgifter 
+som anges i 6 &#167; f&#246;rsta stycket 1–4, 6 och 7 och andra stycket 
+avse den filial eller permanenta n&#228;rvaro d&#228;r verksamheten ska 
+bedrivas.
+
+&#196;ven den utl&#228;ndska f&#246;rs&#228;kringsf&#246;rmedlarens f&#246;retagsnamn eller 
+f&#246;r- och efternamn, organisationsnummer eller personnummer 
+eller, om s&#229;dant saknas, f&#246;delsedatum samt hemland ska 
+antecknas i registret. F&#246;rordning (2018:1852).
+
+9 &#167; Bolagsverket ska snarast efter registreringen 
+underr&#228;tta Finansinspektionen om de uppgifter som har f&#246;rts 
+in i eller strukits ur f&#246;rs&#228;kringsf&#246;rmedlarregistret s&#229; att 
+inspektionen kan fullg&#246;ra sin tillsyn. Underr&#228;ttelsen f&#229;r 
+l&#228;mnas p&#229; medium f&#246;r automatiserad behandling.
+
+10 &#167; Best&#228;mmelser om Finansinspektionens skyldighet att 
+underr&#228;tta Bolagsverket finns i lagen (2018:1219) om 
+f&#246;rs&#228;kringsdistribution.
+
+6 kap. Registreringsavgifter
+
+1 &#167; I &#228;renden som r&#246;r registrering enligt denna f&#246;rordning 
+ska avgift betalas f&#246;r &#228;rendets handl&#228;ggning, pr&#246;vning och 
+registrering:
+
+1. med 850 kronor vid anm&#228;lan f&#246;r registrering till 
+f&#246;rs&#228;kringsf&#246;rmedlarregistret, och 
+
+2. med 850 kronor vid anm&#228;lan om &#229;terkallelse av registrering 
+av anknuten sidoverksam f&#246;rs&#228;kringsf&#246;rmedlare eller anknuten 
+f&#246;rs&#228;kringsf&#246;rmedlare enligt 9 kap. 7 &#167; f&#246;rsta stycket 2 och 
+9 &#167; lagen (2018:1219) om f&#246;rs&#228;kringsdistribution. 
+
+Avgift ska inte betalas f&#246;r registrering av &#228;ndring av 
+uppgift om telefonnummer eller postadress. Avgift ska inte 
+heller betalas f&#246;r registrering som g&#246;rs efter anm&#228;lan eller 
+underr&#228;ttelse fr&#229;n Finansinspektionen.
+
+2 &#167; Avgift ska betalas n&#228;r anm&#228;lan f&#246;r registrering l&#228;mnas 
+in. Avgiften &#229;terbetalas inte om handl&#228;ggningen av ett &#228;rende 
+har p&#229;b&#246;rjats.
+
+7 kap. Vissa skyldigheter f&#246;r Finansinspektionen
+
+1 &#167; Finansinspektionen ska p&#229; sin webbplats tillhandah&#229;lla 
+den information som ska offentligg&#246;ras enligt artiklarna 11 
+och 32 i Europaparlamentets och r&#229;dets direktiv (EU) 2016/97 
+av den 20 januari 2016 om f&#246;rs&#228;kringsdistribution 
+(f&#246;rs&#228;kringsdistributionsdirektivet).
+
+2 &#167; Finansinspektionen ska l&#228;mna information till 
+Europeiska f&#246;rs&#228;krings- och tj&#228;nstepensionsmyndigheten i 
+enlighet med artikel 36 i f&#246;rs&#228;kringsdistributionsdirektivet.
+
+8 kap. Upplysningar om anst&#228;llda som har r&#228;tt att distribuera 
+f&#246;rs&#228;kringar 
+
+1 &#167; Finansinspektionen ska n&#228;r det g&#228;ller juridiska 
+personer som f&#229;tt tillst&#229;nd enligt 2 kap. 1 &#167; lagen 
+(2018:1219) om f&#246;rs&#228;kringsdistribution p&#229; beg&#228;ran upplysa 
+kunder och andra om f&#246;ljande:
+
+1. om en anst&#228;lld hos den juridiska personen har r&#228;tt att 
+distribuera f&#246;rs&#228;kringar, och
+
+2. om denna r&#228;tt &#228;r begr&#228;nsad till ett visst slag av 
+f&#246;rs&#228;kring eller n&#229;gon eller n&#229;gra f&#246;rs&#228;kringsklasser eller 
+grupper av f&#246;rs&#228;kringar. 
+
+2 &#167; Det f&#246;rs&#228;kringsf&#246;retag eller den f&#246;rs&#228;kringsf&#246;rmedlare 
+som anm&#228;lt en juridisk person f&#246;r registrering enligt 2 kap. 
+4 &#167; lagen (2018:1219) om f&#246;rs&#228;kringsdistribution ska p&#229; 
+beg&#228;ran upplysa kunder och andra om f&#246;ljande:
+
+1. om en anst&#228;lld hos den juridiska personen har r&#228;tt att 
+distribuera f&#246;rs&#228;kringar, och 
+
+2. om denna r&#228;tt &#228;r begr&#228;nsad till ett visst slag av 
+f&#246;rs&#228;kring eller n&#229;gon eller n&#229;gra f&#246;rs&#228;kringsklasser eller 
+grupper av f&#246;rs&#228;kringar. 
+
+F&#246;rs&#228;kringsf&#246;retaget eller f&#246;rs&#228;kringsf&#246;rmedlaren ska 
+underr&#228;tta Finansinspektionen om hur kunder och andra kan f&#229; 
+del av de upplysningar som f&#246;rs&#228;kringsf&#246;retaget eller 
+f&#246;rs&#228;kringsf&#246;rmedlaren &#228;r skyldig att l&#228;mna.
+
+9 kap. Bemyndiganden
+
+1 &#167; Finansinspektionen f&#229;r i fr&#229;ga om lagen (2018:1219) om 
+f&#246;rs&#228;kringsdistribution meddela f&#246;reskrifter om
+
+1. vilka uppgifter, ut&#246;ver vad som framg&#229;r av denna 
+f&#246;rordning, en ans&#246;kan eller anm&#228;lan ska inneh&#229;lla samt vilka 
+uppgifter som samtidigt ska l&#228;mnas till Finansinspektionen 
+eller Bolagsverket,
+
+2. vad en anm&#228;lare enligt 2 kap. 4 eller 5 &#167; ska iaktta vid 
+kontrollen av anknutna sidoverksamma f&#246;rs&#228;kringsf&#246;rmedlare 
+eller anknutna f&#246;rs&#228;kringsf&#246;rmedlare vid anm&#228;lan av dessa 
+f&#246;rmedlare f&#246;r registrering hos Bolagsverket,
+
+3. vad som avses med sk&#246;tsamhet i ekonomiska angel&#228;genheter 
+enligt 2 kap. 7 &#167; f&#246;rsta stycket 2,
+
+4. vilken kunskap och kompetens samt fortl&#246;pande fortbildning 
+och yrkesutveckling som kr&#228;vs enligt 2 kap. 7 &#167; f&#246;rsta 
+stycket 3 och 4 och 8 &#167; f&#246;rsta stycket 4,
+
+5. vad som avses med i &#246;vrigt l&#228;mplig n&#228;r det g&#228;ller att 
+bedriva verksamheten enligt 2 kap. 7 &#167; f&#246;rsta stycket 6 och 
+att ing&#229; i ledningen enligt 2 kap. 8 &#167; f&#246;rsta stycket 3,
+
+6. vilken insikt och erfarenhet som kr&#228;vs enligt 2 kap. 8 &#167; 
+f&#246;rsta stycket 3,
+
+7. vilka som ska anses ing&#229; i den juridiska personens ledning 
+eller vara ers&#228;ttare f&#246;r n&#229;gon av dem enligt 2 kap. 8 &#167; 
+f&#246;rsta stycket 3,
+
+8. vad den juridiska personen i &#246;vrigt ska iaktta enligt 
+2 kap. 8 &#167; andra stycket i samband med kontroll av anst&#228;llda,
+
+9. vad en f&#246;rs&#228;kringsdistribut&#246;r ska iaktta f&#246;r att uppfylla 
+kraven i 4 kap. 1 &#167;,
+
+10. villkor f&#246;r r&#229;dgivning grundad p&#229; en opartisk och 
+personlig analys enligt 4 kap. 2 &#167; och 3 &#167; andra och tredje 
+styckena,
+
+11. hur en ers&#228;ttning som avses i 4 kap. 3 &#167; f&#246;rsta stycket 
+ska vara utformad f&#246;r att inte motverka att en 
+f&#246;rs&#228;kringsdistribut&#246;r uppfyller kraven i 4 kap. 1 &#167;,
+
+12. en f&#246;rs&#228;kringsdistribut&#246;rs ers&#228;ttningssystem enligt 
+4 kap. 5 &#167;,
+
+13. vad en f&#246;rs&#228;kringsdistribut&#246;r ska iaktta f&#246;r att uppfylla 
+kraven p&#229; rutiner och riktlinjer i 4 kap. 6 &#167; f&#246;rsta 
+stycket,
+
+14. vad en f&#246;rs&#228;kringsdistribut&#246;r ska iaktta enligt 4 kap. 
+15 &#167; vid hantering av klagom&#229;l,
+
+15. f&#246;rs&#228;kringsdistribut&#246;rers informationsskyldighet enligt 
+5 kap. 1–9 &#167;&#167;,
+
+16. villkor f&#246;r l&#228;mnande av information p&#229; annat varaktigt 
+medium &#228;n papper eller p&#229; en webbplats enligt 5 kap. 15 &#167;,
+
+17. vad ett f&#246;rs&#228;kringsf&#246;retag ska iaktta f&#246;r att fullg&#246;ra 
+skyldigheten enligt 5 kap. 17 &#167;,
+
+18. vilka informationskrav som ska g&#228;lla vid korsf&#246;rs&#228;ljning 
+enligt 5 kap. 18 och 19 &#167;&#167;,
+
+19. vad en f&#246;rs&#228;kringsdistribut&#246;r ska iaktta n&#228;r det g&#228;ller 
+dokumentation av f&#246;rs&#228;kringsdistributionen och utl&#228;mnande av 
+s&#229;dan dokumentation enligt 5 kap. 21 &#167;,
+
+20. vilken information som en f&#246;rs&#228;kringsdistribut&#246;r ska 
+l&#228;mna till kunden enligt 6 kap. 4–6 &#167;&#167;,
+
+21. vilka uppgifter en f&#246;rs&#228;kringsdistribut&#246;r ska l&#228;mna till 
+kunden om ers&#228;ttningar och f&#246;rm&#229;ner som distribut&#246;ren 
+erbjuder eller tar emot av n&#229;gon annan &#228;n kunden enligt 
+6 kap. 8 och 9 &#167;&#167;,
+
+22. kriterierna f&#246;r att bed&#246;ma vilka ers&#228;ttningar och 
+f&#246;rm&#229;ner en f&#246;rs&#228;kringsdistribut&#246;r f&#229;r erbjuda eller ta emot 
+av n&#229;gon annan &#228;n kunden enligt 6 kap. 9 &#167;,
+
+23. vilka &#229;tg&#228;rder en f&#246;rs&#228;kringsdistribut&#246;r rimligen kan 
+f&#246;rv&#228;ntas genomf&#246;ra och dokumentera enligt 7 kap. 1 &#167; f&#246;r att 
+f&#246;rebygga, identifiera, hantera och informera om 
+intressekonflikter n&#228;r de bedriver f&#246;rs&#228;kringsdistribution,
+
+24. l&#228;mpliga kriterier f&#246;r best&#228;mning av vilka typer av 
+intressekonflikter som riskerar att negativt p&#229;verka kundens 
+intressen som avses i 7 kap. 1 &#167;,
+
+25. kriterierna f&#246;r att bed&#246;ma vilka ers&#228;ttningar och 
+f&#246;rm&#229;ner en f&#246;rs&#228;kringsdistribut&#246;r f&#229;r l&#228;mna till eller ta 
+emot av n&#229;gon annan &#228;n kunden samt vilka uppgifter som ska 
+l&#228;mnas till kunden om ers&#228;ttningar och f&#246;rm&#229;ner som 
+distribut&#246;ren l&#228;mnar till eller tar emot av n&#229;gon annan &#228;n 
+kunden enligt 7 kap. 1 &#167;,
+
+26. vad en f&#246;rs&#228;kringsdistribut&#246;r ska iaktta vid inh&#228;mtande 
+av uppgifter och pr&#246;vning enligt 7 kap. 1 &#167;,
+
+27. dokumentation och rapportering till kunden enligt 7 kap. 
+1 &#167;,
+
+28. undantag fr&#229;n de skyldigheter som anges i 7 kap. 1 &#167;,
+
+29. vilka upplysningar en f&#246;rs&#228;kringsdistribut&#246;r, en 
+EES-f&#246;rs&#228;kringsf&#246;rmedlare eller en f&#246;rs&#228;kringsf&#246;rmedlare fr&#229;n 
+tredjeland ska l&#228;mna enligt 8 kap. 5 &#167; till 
+Finansinspektionen samt n&#228;r och hur upplysningarna ska 
+l&#228;mnas,
+
+30. att vissa uppgifter som enligt 8 kap. 5 &#167; f&#246;rsta stycket 
+lagen om f&#246;rs&#228;kringsf&#246;rmedling ska l&#228;mnas till 
+Finansinspektionen i st&#228;llet ska l&#228;mnas till Statistiska 
+centralbyr&#229;n, och
+
+31. vilka f&#246;rfattningar som enligt 9 kap. 29 &#167; f&#246;rsta stycket 
+2 ska anses ha s&#228;rskild betydelse f&#246;r konsumentskyddet eller 
+n&#229;got annat skyddat allm&#228;nintresse.
+
+2 &#167; Innan Finansinspektionen meddelar f&#246;reskrifter med 
+st&#246;d av 1 &#167; 30 ska inspektionen ge Riksbanken och Statistiska 
+centralbyr&#229;n tillf&#228;lle att yttra sig.
+
+3 &#167; Finansinspektionen f&#229;r meddela f&#246;reskrifter om en 
+s&#229;dan ansvarsf&#246;rs&#228;kring som avses i 2 kap. 7 &#167; f&#246;rsta stycket 
+5 och 8 &#167; f&#246;rsta stycket 2 lagen (2018:1219) om 
+f&#246;rs&#228;kringsdistribution n&#228;r det g&#228;ller
+
+1. h&#246;gsta ers&#228;ttning som kan l&#228;mnas vid ett och samma 
+skadefall, 
+
+2. h&#246;gsta ers&#228;ttning som sammanlagt kan l&#228;mnas under ett &#229;r, 
+och 
+
+3. indexering av h&#246;gsta ers&#228;ttningsbelopp.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2018:1231
+ 
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 oktober 2018.
+
+2. Genom f&#246;rordningen upph&#228;vs f&#246;rordningen (2005:411) om 
+f&#246;rs&#228;kringsf&#246;rmedling.
+
+3. Den upph&#228;vda f&#246;rordningen g&#228;ller fortfarande f&#246;r 
+f&#246;rs&#228;kringsf&#246;rmedlare som enligt punkt 8 i ikrafttr&#228;dande- 
+och &#246;verg&#229;ngsbest&#228;mmelserna till lagen (2018:1219) om 
+f&#246;rs&#228;kringsdistribution f&#229;r forts&#228;tta att ut&#246;va s&#229;dan 
+sidoverksamhet som avses i den punkten efter den 1 oktober 
+2018.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=709">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=711">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

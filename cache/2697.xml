@@ -1,0 +1,595 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2000-07-04" /> 
+ <meta id="rattsinfo-edited" content="2016-09-27" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2697</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2696">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2698">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2000:604 ·
+                    <a href="/sfsr?bet=2000:604">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2000:604) om gr&#228;nstullsamarbete med Danmark</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2000-06-15
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2016:295
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2000-07-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser f&#246;r genomf&#246;rande
+av &#246;verenskommelsen mellan Sverige och Danmark om
+gr&#228;nstullsamarbete av den 22 juni 2000. &#214;verenskommelsen
+bifogas denna f&#246;rordning som bilaga.
+
+2 &#167; Best&#228;mmelserna i 2-5 &#167;&#167;, 8 &#167; f&#246;rsta stycket och 10 &#167; lagen
+(1959:590) om gr&#228;nstullsamarbete med annan stat skall till&#228;mpas
+vid gr&#228;nstullsamarbete med Danmark om inte annat s&#228;rskilt
+f&#246;reskrivs i denna f&#246;rordning. Fr&#229;n gr&#228;nstullsamarbetet
+undantas verksamhet enligt lagen (1979:1088) om
+gr&#228;ns&#246;vervakningen i krig m.m.
+
+3 &#167; Det skall f&#246;r gr&#228;nstullsamarbetet finnas f&#246;ljande
+kontrollzoner p&#229; svenskt territorium:
+
+1. landanslutningen och den sista p&#229;farten till respektive den
+f&#246;rsta avfarten fr&#229;n den fasta f&#246;rbindelsen &#246;ver &#214;resund vid
+betalstationen p&#229; Lernacken,
+
+2. terminalomr&#229;det vid Lernacken inbegripet den n&#228;rmaste v&#228;gen
+mellan tullbyggnaderna p&#229; Lernacken,
+
+3. den svenska delen av den fasta f&#246;rbindelsen &#246;ver &#214;resund,
+
+4. stationsomr&#229;dena p&#229; Malm&#246; centralstation, Malm&#246; Syd och
+Svedala station samt
+
+5. den p&#229; svenskt territorium l&#246;pande delen av j&#228;rnv&#228;gsstr&#228;ckan
+mellan
+
+a) Malm&#246; centralstation och K&#246;penhamns flygplats, Kastrup och
+
+b) Svedala station och K&#246;penhamns flygplats, Kastrup.
+
+4 &#167; Tullverket f&#229;r i samr&#229;d med den danska tullmyndigheten Told
+og Skat besluta
+
+1. att svensk tullpersonal f&#229;r ut&#246;va tulltj&#228;nst f&#246;r svensk
+r&#228;kning inom kontrollzon p&#229; danskt territorium samt
+
+2. att dansk tullpersonal f&#229;r ut&#246;va tulltj&#228;nst f&#246;r dansk
+r&#228;kning inom kontrollzon p&#229; svenskt territorium.
+
+5 &#167; Vid anv&#228;ndning av tv&#229;ngsmedel under ut&#246;vande av tulltj&#228;nst
+som omfattas av gr&#228;nstullsamarbetet p&#229; danskt territorium f&#229;r
+svensk tullpersonal inte &#246;verskrida de befogenheter som
+tillkommer tullpersonal enligt danska best&#228;mmelser.
+
+6 &#167; Tullverket skall ge Told og Skat uppgifter om de svenska
+best&#228;mmelser som skall till&#228;mpas vid gr&#228;nstullsamarbetet.
+
+7 &#167; Om Tullverket anser att en viss dansk tulltj&#228;nsteman inte
+&#228;r l&#228;mplig att ut&#246;va tulltj&#228;nst som omfattas av
+gr&#228;nstullsamarbetet, f&#229;r Tullverket neka tj&#228;nstemannen att
+tj&#228;nstg&#246;ra p&#229; svenskt territorium. Tullverket skall hos Told og
+Skat beg&#228;ra &#228;ndring s&#229; att det i tj&#228;nstemannens tj&#228;nst inte
+l&#228;ngre ing&#229;r att ut&#246;va tulltj&#228;nst som omfattas av
+gr&#228;nstullsamarbetet. Om beh&#246;rig dansk myndighet f&#246;rklarar att
+en viss svensk tj&#228;nsteman inte &#228;r l&#228;mplig att ut&#246;va tulltj&#228;nst
+som omfattas av gr&#228;nstullsamarbetet, skall Tullverket pr&#246;va
+fr&#229;gan om motsvarande &#228;ndring i hans tj&#228;nstg&#246;ring.
+
+8 &#167; Det som s&#228;gs i 4 kap. 1 &#167; tullf&#246;rordningen (2016:287) om 
+bist&#229;nd av Polismyndigheten ska g&#228;lla p&#229; svenskt territorium 
+&#228;ven n&#228;r det &#228;r fr&#229;ga om ut&#246;vande av tulltj&#228;nst f&#246;r dansk 
+r&#228;kning. F&#246;rordning (2016:295).
+
+9 &#167; Tullverket f&#229;r besluta om &#246;verl&#228;mnande av beslagtagen
+egendom till dansk tull- eller polismyndighet enligt 10 &#167; lagen
+(1959:590) om gr&#228;nstullsamarbete med annan stat.
+
+10 &#167; F&#246;reskrifter om verkst&#228;lligheten av denna f&#246;rordning
+meddelas av Tullverket.
+
+
+Bilaga
+
+&#214;verenskommelse mellan Sverige och Danmark om
+gr&#228;nstullsamarbete betr&#228;ffande &#214;resundsf&#246;rbindelsen
+
+Sveriges regering och Danmarks regering, nedan kallade de
+avtalsslutande parterna,
+
+som bekr&#228;ftar sin vilja att st&#228;rka samarbetet mellan
+tullmyndigheterna i &#214;resundsregionen,
+
+som l&#228;gger vikt vid att detta avtal skall komplettera det redan
+existerande samarbetet mellan danska och svenska
+tullmyndigheter och vid att inget i avtalet f&#229;r begr&#228;nsa detta
+samarbete eller det internationella samarbetet inom
+tullomr&#229;det,
+
+som h&#228;nvisar till avtalet av den 23 mars 1991 mellan Sveriges
+regering och Danmarks regering om en fast f&#246;rbindelse &#246;ver
+&#214;resund, i synnerhet artikel 18 i avtalet enligt vilken
+regeringarna i Sverige och Danmark kan ing&#229; s&#228;rskilda avtal om
+svensk och dansk myndighetsut&#246;vning i andra fr&#229;gor som r&#246;r den
+fasta f&#246;rbindelsen &#246;ver &#214;resund,
+
+som betraktar &#214;resundsregionen som ett omr&#229;de, d&#228;r ett
+effektivt samarbete mellan tullmyndigheterna &#228;r n&#246;dv&#228;ndigt f&#246;r
+att f&#246;rhindra, uppt&#228;cka, &#229;tala och bestraffa &#246;vertr&#228;delser av
+de best&#228;mmelser vars efterlevnad tullmyndigheterna har att
+&#246;vervaka,
+
+har tr&#228;ffat f&#246;ljande &#246;verenskommelse om gr&#228;nstullsamarbete:
+
+Artikel 1
+
+1. De avtalsslutande parterna skall, p&#229; s&#228;tt som n&#228;rmare anges
+i denna &#246;verenskommelse, bedriva samarbete i fr&#229;ga om
+tullkontroll och tullklarering av trafiken &#246;ver den fasta
+f&#246;rbindelsen &#246;ver &#214;resund. S&#229;dant samarbete ben&#228;mns
+gr&#228;nstullsamarbete och skall &#228;ga rum inom kontrollzon.
+
+2. Gr&#228;nstullsamarbetet skall ske p&#229; grundval av och i enlighet
+med nationell r&#228;tt och folkr&#228;ttsliga &#246;verenskommelser mellan de
+avtalsslutande parterna, utan att detta begr&#228;nsar de
+avtalsslutande parternas gemenskapsr&#228;ttsliga f&#246;rpliktelser.
+
+Artikel 2
+
+I denna &#246;verenskommelse f&#246;rst&#229;s med uttrycket
+
+1. &quot;tullmyndighet&quot;:
+a) i Sverige: Tullverket
+b) i Danmark: Told og Skat
+
+2. &quot;central tullmyndighet&quot;:
+a) i Sverige: Tullverket Huvudkontoret
+b) i Danmark: Told- og Skattestyrelsen
+
+3. &quot;de beh&#246;riga myndigheterna&quot;:
+a) i Sverige: Tullverket Sk&#229;neregionen
+b) i Danmark: Toldcenter K&#246;benhavn
+
+4. &quot;tullbest&#228;mmelse&quot;: de best&#228;mmelser vars efterlevnad
+tullmyndigheterna har att &#246;vervaka och kontrollera
+
+5.&quot;tulltj&#228;nst&quot;: tullklarering och tullkontroll
+
+Artikel 3
+
+1. F&#246;ljande omr&#229;den p&#229; svenskt territorium skall utg&#246;ra
+kontrollzoner:
+
+- landanslutningen och den sista p&#229;farten till respektive den
+f&#246;rsta avfarten fr&#229;n den fasta f&#246;rbindelsen &#246;ver &#214;resund vid
+betalstationen p&#229; Lernacken,
+
+- terminalomr&#229;det vid Lernacken inbegripet den n&#228;rmaste v&#228;gen
+mellan tullbyggnaderna p&#229; Lernacken samt
+
+- den svenska delen av den fasta f&#246;rbindelsen &#246;ver &#214;resund.
+
+2. F&#246;ljande omr&#229;den p&#229; danskt territorium skall utg&#246;ra
+kontrollzoner:
+
+- landanslutningen och den sista p&#229;farten till respektive den
+f&#246;rsta avfarten fr&#229;n den fasta f&#246;rbindelsen &#246;ver &#214;resund samt
+
+- den danska delen av den fasta f&#246;rbindelsen &#246;ver &#214;resund.
+
+3. Vidare skall f&#246;ljande j&#228;rnv&#228;gsstr&#228;ckor med tillh&#246;rande
+stationsomr&#229;den utg&#246;ra kontrollzoner:
+
+- j&#228;rnv&#228;gsstr&#228;ckan K&#246;penhamns flygplats, Kastrup-Malm&#246;
+centralstation samt
+
+- j&#228;rnv&#228;gstr&#228;ckan K&#246;penhamns flygplats, Kastrup-Svedala
+station.
+
+Artikel 4
+
+1. Tullmyndigheterna skall omg&#229;ende vidta alla l&#228;mpliga
+&#229;tg&#228;rder f&#246;r att genomf&#246;ra &#246;verenskommelsen. De skall
+omedelbart underr&#228;tta varandra om omst&#228;ndigheter som r&#246;r
+varutrafiken mellan Danmark och Sverige eller
+smugglingsbek&#228;mpningen inom &#214;resundsregionen.
+
+2. F&#246;r koordinering och planl&#228;ggning av gr&#228;nstullsamarbetet
+svarar de beh&#246;riga myndigheterna.
+
+Artikel 5
+
+1. Vardera statens tullbest&#228;mmelser, in- och
+utf&#246;rselbest&#228;mmelser samt andra best&#228;mmelser r&#246;rande trafiken,
+vilkas efterlevnad tullmyndigheterna har att &#246;vervaka vid
+verksamhet som omfattas av gr&#228;nstullsamarbetet, skall
+tilll&#228;mpas inom kontrollzon p&#229; den andra statens territorium,
+d&#229; tulltj&#228;nst ut&#246;vas av den tullmyndighet och f&#246;r den stat i
+vilken best&#228;mmelserna utf&#228;rdats. Tulltj&#228;nst som ut&#246;vas i
+kontrollzon p&#229; den ena statens territorium av den andra statens
+tullmyndighet j&#228;mst&#228;lls med tulltj&#228;nst som ut&#246;vas p&#229; den stats
+territorium i vilken tullmyndigheten &#228;r hemmah&#246;rande.
+
+2. Vardera staten skall genom sin centrala tullmyndighet i
+f&#246;rv&#228;g meddela motsvarande myndighet i den andra staten vilka
+best&#228;mmelser som skall tilll&#228;mpas, d&#229; tulltj&#228;nst ut&#246;vas p&#229; den
+andra statens territorium. Best&#228;mmelserna skall finnas
+tillg&#228;ngliga f&#246;r allm&#228;nheten hos de beh&#246;riga myndigheterna.
+
+Artikel 6
+
+Vardera av de avtalsslutande parterna &#229;tar sig att inom
+kontrollzon p&#229; sitt territorium till&#229;ta den andra statens
+tulltj&#228;nstem&#228;n att ut&#246;va s&#229;dan tulltj&#228;nst f&#246;r sin stat som
+omfattas av gr&#228;nstullsamarbetet.
+
+Artikel 7
+
+1. Tulltj&#228;nsteman f&#229;r vid ut&#246;vande av tulltj&#228;nst som omfattas
+av gr&#228;nstullsamarbetet anv&#228;nda de befogenheter som tillkommer
+tulltj&#228;nstem&#228;n enligt best&#228;mmelserna i den stat i vilken han
+eller hon
+
+&#228;r anst&#228;lld. Tj&#228;nstemannen f&#229;r dock inte ut&#246;va st&#246;rre
+befogenheter &#228;n dem som tillkommer en tulltj&#228;nsteman i den stat
+i vilken han eller hon befinner sig.
+
+2. F&#246;r anv&#228;ndande av andra befogenheter &#228;n dem som n&#228;mns i
+punkt 1 d&#229; tulltj&#228;nst f&#246;r den ena staten ut&#246;vas p&#229; den andra
+statens territorium f&#229;r handr&#228;ckning av polismyndighet i
+sistn&#228;mnda stat beg&#228;ras. S&#229;dan beg&#228;ran skall framst&#228;llas av
+tullmyndigheten i den stat p&#229; vars territorium tulltj&#228;nsten
+ut&#246;vas. I br&#229;dskande fall f&#229;r dock beg&#228;ran framst&#228;llas av den
+andra statens tullmyndighet. H&#228;rvid skall tullmyndigheten i den
+stat p&#229; vars territorium tulltj&#228;nsten ut&#246;vas utan dr&#246;jsm&#229;l
+underr&#228;ttas om att beg&#228;ran om handr&#228;ckning framst&#228;llts.
+
+Artikel 8
+
+Utgifter f&#246;r lokaler och andra faciliteter, som st&#228;lls till den
+andra statens f&#246;rfogande, skall betalas av den stat som
+utnyttjar lokalerna eller faciliteterna. De n&#228;rmare
+f&#246;ruts&#228;ttningarna h&#228;rf&#246;r avtalas mellan de beh&#246;riga
+myndigheterna i de tv&#229; staterna.
+
+Artikel 9
+
+1. Om endera staten l&#229;ter beslagta egendom i fall d&#229; b&#229;da
+staternas best&#228;mmelser &#246;vertr&#228;tts, skall egendomen &#246;verl&#228;mnas
+till vederb&#246;rande myndighet i den stat p&#229; vars territorium
+beslaget verkst&#228;llts, om inte s&#228;rskilda omst&#228;ndigheter
+f&#246;ranleder annat.
+
+2. Har egendom med till&#228;mpning av punkt 1 &#246;verl&#228;mnats till
+myndighet i endera staten, skall vad som s&#228;gs om f&#246;rverkande av
+s&#229;dan egendoms v&#228;rde i den andra statens lagstiftning inte
+till&#228;mpas.
+
+Artikel 10
+
+Tj&#228;nsteman fr&#229;n den ena staten skall, s&#229;vitt ang&#229;r g&#246;rom&#229;l som
+omfattas av gr&#228;nstullsamarbetet, p&#229; den andra statens
+territorium i straffr&#228;ttsligt h&#228;nseende &#229;tnjuta samma
+&#228;mbetsskydd som tj&#228;nsteman fr&#229;n sistn&#228;mnda stat.
+
+Artikel 11
+
+Vardera staten kan i s&#228;rskilda fall neka tj&#228;nstem&#228;n fr&#229;n den
+andra statens tullmyndighet att tj&#228;nstg&#246;ra p&#229; sitt territorium.
+Ett s&#229;dant nekande skall motiveras skriftligen och skickas till
+den beh&#246;riga myndigheten i den andra staten.
+
+Artikel 12
+
+Envar av de avtalsslutande parterna f&#246;rbinder sig att, i det
+fall n&#229;gon av dess tj&#228;nstem&#228;n beg&#229;r &#228;mbetsbrott eller
+tj&#228;nstef&#246;rseelse under ut&#246;vande av s&#229;dan tulltj&#228;nst som
+omfattas av gr&#228;nstullsamarbetet enligt denna &#246;verenskommelse,
+vidta disciplin&#228;ra &#229;tg&#228;rder mot tj&#228;nstemannen som om g&#228;rningen
+beg&#229;tts medan tj&#228;nstemannen ut&#246;vade tj&#228;nst i sin egen stat.
+
+Artikel 13
+
+1. Envar av de avtalsslutande parterna &#228;r skyldig att ers&#228;tta
+skada, som n&#229;gon av dess tj&#228;nstem&#228;n genom upps&#229;tlig eller
+oaktsam handling v&#229;llar d&#229; han ut&#246;var tulltj&#228;nst som omfattas
+av gr&#228;nstullsamarbetet p&#229; den andra statens territorium, i
+enlighet med den nationella lagstiftningen i den stat d&#228;r
+skadan v&#229;llades.
+
+2. Den stat, p&#229; vars territorium den i punkt 1 n&#228;mnda skadan
+v&#229;llades, ers&#228;tter denna skada p&#229; samma s&#228;tt som om skadan
+v&#229;llats av dess egna tulltj&#228;nstem&#228;n.
+
+3. Den stat, vars tj&#228;nsteman har v&#229;llat skadan p&#229; den andra
+statens territorium, skall gottg&#246;ra hela det belopp som den
+sistn&#228;mnda staten har betalat i skadeers&#228;ttning.
+
+Artikel 14
+
+1. En tj&#228;nsteman, som befinner sig p&#229; den andra statens
+territorium, f&#229;r b&#228;ra sin nationella tj&#228;nsteuniform eller annat
+synligt k&#228;nnetecken. B&#229;da staternas tj&#228;nstem&#228;n skall alltid vid
+ut&#246;vande av tulltj&#228;nst som omfattas av gr&#228;nstullsamarbetet
+kunna legitimera sig med identitetskort.
+
+2. En tj&#228;nsteman som befinner sig p&#229; den andra statens
+territorium f&#229;r inte b&#228;ra tj&#228;nstevapen.
+
+Artikel 15
+
+1. De beh&#246;riga myndigheterna kan p&#229; grundval av och inom
+ramarna f&#246;r denna &#246;verenskommelse tr&#228;ffa de ytterligare
+&#246;verenskommelser, som beh&#246;vs f&#246;r genomf&#246;randet av
+gr&#228;nstullsamarbetet.
+
+2. Denna &#246;verenskommelse hindrar inte den beh&#246;riga myndigheten
+i en stat att ta kontakt med andra myndigheter i den andra
+staten &#228;n den beh&#246;riga myndigheten.
+
+Artikel 16
+
+&#196;r en stat av uppfattningen, att en beg&#228;ran inom ramen f&#246;r
+gr&#228;nstullsamarbetet inte kan uppfyllas eller att en &#229;tg&#228;rd inte
+kan vidtas utan att det kan skada statens suver&#228;nitet, den egna
+s&#228;kerheten eller andra v&#228;sentliga intressen, eller att &#229;tg&#228;rden
+st&#229;r i strid mot den nationella lagstiftningen, kan staten i
+det enskilda fallet helt eller delvis v&#228;gra att samarbeta eller
+g&#246;ra samarbetet beroende av s&#228;rskilda villkor.
+
+Artikel 17
+
+1. Denna &#246;verenskommelse tr&#228;der i kraft vid undertecknandet.
+
+2. Vardera av de avtalsslutande parterna kan s&#228;ga upp
+&#246;verenskommelsen att upph&#246;ra att g&#228;lla sex m&#229;nader efter det
+att skriftlig upps&#228;gning mottagits av den andra staten.
+
+3. Vardera av de avtalsslutande parterna kan, efter samr&#229;d med
+den andra staten i den m&#229;n s&#229; &#228;r m&#246;jligt, utan iakttagande av
+den i f&#246;reg&#229;ende stycke stadgade fristen s&#228;tta &#246;verenskommelsen
+helt eller delvis ur kraft i h&#228;ndelse av krig, krigsfara eller
+eljest intr&#228;dda utomordentliga f&#246;rh&#229;llanden.
+
+Till bekr&#228;ftelse h&#228;rav har nedanst&#229;ende befullm&#228;ktigade ombud
+undertecknat denna &#246;verenskommelse.
+
+Som skedde i Lernacken den 22 juni 2000, i fyra exemplar, tv&#229;
+p&#229; det svenska spr&#229;ket och tv&#229; p&#229; det danska spr&#229;ket, vilkas
+samtliga texter har lika giltighet.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2696">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2698">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,826 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-04-14" /> 
+ <meta id="rattsinfo-edited" content="2023-04-14 09:55:09" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>780</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=779">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=781">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2018:42 ·
+                    <a href="/sfsr?bet=2018:42">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2018:42) om s&#228;rskilt anst&#228;llningsst&#246;d</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Arbetsmarknadsdepartementet AA
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2018-02-01
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1734
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2018-05-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om det 
+arbetsmarknadspolitiska programmet s&#228;rskilt 
+anst&#228;llningsst&#246;d.
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen.
+
+2 &#167; Syftet med programmet &#228;r att stimulera arbetsgivare att 
+anst&#228;lla personer som har sv&#229;rt att f&#229; ett arbete utan 
+s&#228;rskilt anst&#228;llningsst&#246;d och bidra till att st&#228;rka deras 
+st&#228;llning p&#229; arbetsmarknaden. 
+
+Allm&#228;nna best&#228;mmelser om arbetsmarknadspolitiska program 
+finns i f&#246;rordningen (2000:628) om den 
+arbetsmarknadspolitiska verksamheten. 
+
+En anvisning till s&#228;rskilt anst&#228;llningsst&#246;d f&#229;r kombineras 
+med utbildning eller andra insatser i syfte att st&#228;rka den 
+enskildes st&#228;llning p&#229; arbetsmarknaden p&#229; l&#228;ngre sikt, om den 
+enskilde &#228;r i behov av det och om det i &#246;vrigt &#228;r l&#228;mpligt.
+
+3 &#167; En anvisning till programmet avser s&#228;rskilt 
+anst&#228;llningsst&#246;d i form av introduktionsjobb.
+
+Inom programmet l&#228;mnas ekonomiskt st&#246;d till en arbetsgivare 
+som anst&#228;ller en person som anvisats till programmet. 
+
+En arbetsgivare som f&#229;r st&#246;d eller bidrag f&#246;r en kostnad med 
+st&#246;d av andra best&#228;mmelser kan endast f&#229; ekonomiskt st&#246;d f&#246;r 
+samma kostnad enligt denna f&#246;rordning, om det &#228;r s&#228;rskilt 
+f&#246;reskrivet. F&#246;rordning (2022:1734).
+
+Arbetss&#246;kande som f&#229;r anvisas till s&#228;rskilt anst&#228;llningsst&#246;d 
+i form av introduktionsjobb
+
+4 &#167; En anvisning till s&#228;rskilt anst&#228;llningsst&#246;d i form av 
+introduktionsjobb f&#229;r g&#246;ras
+
+1. f&#246;r den som deltar i jobb- och utvecklingsgarantin,
+
+2. f&#246;r den som har fyllt 20 &#229;r, som deltar i jobbgarantin f&#246;r 
+ungdomar och som har gjort det i sammanlagt minst 200 dagar 
+som det kan l&#228;mnas ers&#228;ttning f&#246;r, och
+
+3. f&#246;r den som &#228;r nyanl&#228;nd invandrare och uppfyller 
+f&#246;ruts&#228;ttningarna i 5 &#167;. F&#246;rordning (2018:530).
+
+5 &#167; De nyanl&#228;nda invandrare som f&#229;r anvisas till s&#228;rskilt 
+anst&#228;llningsst&#246;d i form av introduktionsjobb &#228;r de som har 
+fyllt 20 &#229;r och
+
+1. &#228;r anvisade till det arbetsmarknadspolitiska programmet 
+etableringsinsatser f&#246;r vissa nyanl&#228;nda invandrare enligt 
+f&#246;rordningen (2017:820) om etableringsinsatser f&#246;r vissa 
+nyanl&#228;nda invandrare,
+
+2. &#228;r arbetsl&#246;sa och anm&#228;lda som arbetss&#246;kande hos 
+Arbetsf&#246;rmedlingen och n&#229;gon g&#229;ng under de senaste 
+12 m&#229;naderna har varit anvisade till detta program, eller
+
+3. &#228;r arbetsl&#246;sa och anm&#228;lda som arbetss&#246;kande hos 
+Arbetsf&#246;rmedlingen och inom de senaste 36 m&#229;naderna har 
+beviljats
+
+a) uppeh&#229;llstillst&#229;nd enligt
+
+- 5 kap. 1, 2, 3, 3 a, 4 eller 6 &#167; utl&#228;nningslagen (2005:716) 
+eller motsvarande &#228;ldre best&#228;mmelser,
+
+- 12 kap. 18 &#167; utl&#228;nningslagen, eller
+
+- 21 eller 22 kap. utl&#228;nningslagen, eller
+
+b) uppeh&#229;llskort i egenskap av familjemedlem till en EES-
+medborgare efter ans&#246;kan enligt 3 a kap. 10 &#167; utl&#228;nningslagen.
+
+Vid till&#228;mpning av best&#228;mmelsen om tidsperioder i f&#246;rsta 
+stycket 3 ska det bortses fr&#229;n tid n&#228;r den som ska anvisas har 
+varit f&#246;rhindrad att arbeta p&#229; grund av v&#229;rd av eget barn som 
+inte har fyllt tv&#229; &#229;r eller, om barnet &#228;r adopterat, i tv&#229; &#229;r 
+efter barnets ankomst till familjen. F&#246;rordning (2021:805).
+
+6 &#167; S&#228;rskilda krav g&#228;ller f&#246;r att f&#229; anvisas till s&#228;rskilt 
+anst&#228;llningsst&#246;d i form av introduktionsjobb f&#246;r den som 
+tidigare varit anst&#228;lld med s&#228;rskilt anst&#228;llningsst&#246;d. F&#246;r en 
+s&#229;dan ny anvisning kr&#228;vs att den enskilde, ut&#246;ver att 
+uppfylla f&#246;ruts&#228;ttningarna i 4 &#167;, har varit arbetsl&#246;s och 
+anm&#228;ld som arbetss&#246;kande hos Arbetsf&#246;rmedlingen eller 
+deltagit i ett arbetsmarknadspolitiskt program som inte utg&#246;r 
+en subventionerad anst&#228;llning i minst sex m&#229;nader efter 
+tidigare anvisning.
+
+Det finns best&#228;mmelser i 11 &#167; om att den enskilde i vissa 
+fall inte beh&#246;ver &#229;terkvalificera sig f&#246;r en ny anvisning 
+enligt f&#246;rsta stycket.
+
+7 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1734).
+
+8 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1734).
+
+9 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1734).
+
+Tid med st&#246;d och st&#246;dets storlek
+
+10 &#167; S&#228;rskilt anst&#228;llningsst&#246;d f&#229;r beslutas f&#246;r l&#228;ngst 
+12 m&#229;nader i taget. S&#228;rskilt anst&#228;llningsst&#246;d f&#229;r beslutas f&#246;r 
+ytterligare tid men den sammanlagda st&#246;dtiden f&#229;r inte 
+&#246;verstiga 24 m&#229;nader. 
+
+En f&#246;ruts&#228;ttning f&#246;r att besluta om ytterligare tid med 
+s&#228;rskilt anst&#228;llningsst&#246;d n&#228;r st&#246;det har varat i minst 
+12 m&#229;nader &#228;r att den enskilde bed&#246;ms ha behov av en l&#228;ngre 
+tid i den anst&#228;llning som p&#229;g&#229;r vid beslutstillf&#228;llet f&#246;r att 
+kunna etablera sig p&#229; arbetsmarknaden. F&#246;rordning (2022:1734).
+
+11 &#167; Om en enskild varit anst&#228;lld med s&#228;rskilt 
+anst&#228;llningsst&#246;d under kortare tid &#228;n 12 m&#229;nader f&#229;r ett nytt 
+beslut om s&#228;rskilt anst&#228;llningsst&#246;d fattas utan att den 
+enskilde beh&#246;ver &#229;terkvalificera sig f&#246;r en ny anvisning 
+enligt 6 &#167;. Vid till&#228;mpning av best&#228;mmelsen om den maximala 
+tiden med s&#228;rskilt anst&#228;llningsst&#246;d i 10 &#167; inr&#228;knas d&#229; den tid 
+med s&#228;rskilt anst&#228;llningsst&#246;d som den enskilde har haft enligt 
+tidigare beslut. F&#246;rordning (2022:1734).
+
+12 &#167; /Upph&#246;r att g&#228;lla U:2026-01-01/
+Ett beslut om s&#228;rskilt anst&#228;llningsst&#246;d f&#229;r aldrig avse 
+tid efter utg&#229;ngen av det &#229;r som den som anvisas fyller 66 &#229;r.
+F&#246;rordning (2022:1450).
+
+12 &#167; /Tr&#228;der i kraft I:2026-01-01/
+Ett beslut om s&#228;rskilt anst&#228;llningsst&#246;d f&#229;r aldrig avse 
+tid efter utg&#229;ngen av det &#229;r som den som anvisas uppn&#229;r 
+rikt&#229;ldern f&#246;r pension. F&#246;rordning (2022:1451).
+
+13 &#167; Inom programmet s&#228;rskilt anst&#228;llningsst&#246;d l&#228;mnas
+
+1. ekonomiskt st&#246;d f&#246;r l&#246;nekostnader till den arbetsgivare 
+som anst&#228;llt den som anvisats till s&#228;rskilt anst&#228;llningsst&#246;d, 
+och 
+
+2. ekonomiskt st&#246;d f&#246;r kostnader f&#246;r handledning till 
+arbetsgivaren eller till den som har kostnaden.
+
+Med kostnader f&#246;r handledning j&#228;mst&#228;lls &#228;ven andra kostnader 
+som syftar till att st&#228;rka den anst&#228;lldes f&#246;rm&#229;ga att utf&#246;ra 
+sina arbetsuppgifter.
+
+14 &#167; Ekonomiskt st&#246;d f&#246;r l&#246;nekostnader l&#228;mnas med 80 procent 
+av l&#246;nekostnaden. F&#246;rordning (2022:1734).
+
+15 &#167; De st&#246;dgrundande l&#246;nekostnaderna &#228;r
+
+1. kontant bruttol&#246;n inklusive sjukl&#246;n och semesterl&#246;n, och
+
+2. avgifter som ska betalas p&#229; l&#246;nen enligt 
+socialavgiftslagen (2000:980) och lagen (1994:1920) om allm&#228;n 
+l&#246;neavgift.
+
+16 &#167; Endast den del av bruttol&#246;nen som vid heltidsarbete 
+uppg&#229;r till som h&#246;gst 20 000 kronor per m&#229;nad och de avgifter 
+som ska betalas p&#229; denna del, ska ligga till grund f&#246;r det 
+ekonomiska st&#246;det.
+
+Vid deltidsarbete ska det ekonomiska st&#246;det f&#246;r l&#246;nekostnader 
+minskas i f&#246;rh&#229;llande till arbetstiden.
+
+17 &#167; Ekonomiskt st&#246;d f&#246;r kostnader f&#246;r handledning f&#229;r l&#228;mnas 
+med 1 000 kronor per kalenderm&#229;nad under anst&#228;llningens f&#246;rsta 
+sex kalenderm&#229;nader.  
+
+Vid deltidsarbete d&#228;r arbetstiden &#228;r mindre &#228;n 50 procent av 
+en heltidsanst&#228;llning ska det ekonomiska st&#246;det endast uppg&#229; 
+till 500 kronor per kalenderm&#229;nad.
+
+Ekonomiskt st&#246;d f&#246;r kostnader f&#246;r handledning f&#229;r endast 
+l&#228;mnas om arbetsgivaren &#229;tar sig att handleda den anst&#228;llde 
+eller har eller &#229;tar sig kostnader som syftar till att st&#228;rka 
+den anst&#228;lldes f&#246;rm&#229;ga att utf&#246;ra sina arbetsuppgifter.
+F&#246;rordning (2022:1734).
+
+18 &#167; Arbetsf&#246;rmedlingen ska s&#228;kerst&#228;lla att det ekonomiska 
+st&#246;det l&#228;mnas s&#229; att vissa f&#246;retag eller viss produktion inte 
+gynnas p&#229; det s&#228;tt som framg&#229;r av artikel 107.1 i f&#246;rdraget om 
+Europeiska unionens funktionss&#228;tt. F&#246;rordning (2022:1734).
+
+Krav p&#229; arbetsgivare 
+
+19 &#167; S&#228;rskilt anst&#228;llningsst&#246;d f&#229;r endast beslutas f&#246;r en 
+anst&#228;llning hos en arbetsgivare som vid beslutstillf&#228;llet &#228;r 
+registrerad som arbetsgivare hos Skatteverket och &#228;r antingen 
+en fysisk person som bedriver n&#228;ringsverksamhet eller en 
+juridisk person.
+
+20 &#167; S&#228;rskilt anst&#228;llningsst&#246;d f&#229;r endast beslutas f&#246;r en 
+anst&#228;llning hos en arbetsgivare om arbetsgivaren intygar 
+att
+
+1. l&#246;n och andra anst&#228;llningsf&#246;rm&#229;ner f&#246;ljer av 
+kollektivavtal eller i v&#228;sentliga delar &#228;r likv&#228;rdiga med 
+f&#246;rm&#229;ner enligt kollektivavtal inom branschen,
+
+2. arbetsgivaren inte senare &#228;n 12 m&#229;nader f&#246;re den aktuella 
+anst&#228;llningen har sagt upp en eller flera anst&#228;llda p&#229; grund 
+av arbetsbrist p&#229; den driftsenhet d&#228;r den anst&#228;llde &#228;r t&#228;nkt 
+att placeras, och 
+
+3. l&#246;neutbetalningar g&#246;rs elektroniskt under hela den tid som 
+st&#246;det betalas ut.
+
+Om Arbetsf&#246;rmedlingen har k&#228;nnedom om att det som 
+arbetsgivaren intygar enligt f&#246;rsta stycket &#228;r felaktigt f&#229;r 
+s&#228;rskilt anst&#228;llningsst&#246;d inte beslutas f&#246;r en anst&#228;llning 
+hos arbetsgivaren.
+
+21 &#167; S&#228;rskilt anst&#228;llningsst&#246;d f&#229;r inte beslutas f&#246;r en 
+anst&#228;llning hos en arbetsgivare som
+
+1. har n&#228;ringsf&#246;rbud,
+
+2. a) &#228;r i konkurs eller likvidation, &#228;r under 
+tv&#229;ngsf&#246;rvaltning, &#228;r f&#246;rem&#229;l f&#246;r ackord, genomg&#229;r 
+f&#246;retagsrekonstruktion eller tills vidare har inst&#228;llt sina 
+betalningar, eller
+
+b) &#228;r f&#246;rem&#229;l f&#246;r ans&#246;kan om konkurs, tv&#229;ngslikvidation, 
+tv&#229;ngsf&#246;rvaltning, ackord, f&#246;retagsrekonstruktion eller n&#229;got 
+annat liknande f&#246;rfarande, eller
+
+3. inte har fullgjort sina skyldigheter i fr&#229;ga om skatter 
+eller socialf&#246;rs&#228;kringsavgifter.
+
+Om arbetsgivaren &#228;r en juridisk person, f&#229;r st&#246;d inte beslutas 
+n&#228;r en f&#246;retr&#228;dare med v&#228;sentligt inflytande &#246;ver den 
+juridiska personen har n&#228;ringsf&#246;rbud. F&#246;rordning (2022:1024).
+
+21 a &#167; Arbetsf&#246;rmedlingen f&#229;r avst&#229; fr&#229;n att besluta om 
+s&#228;rskilt anst&#228;llningsst&#246;d f&#246;r en anst&#228;llning hos en 
+arbetsgivare om 
+
+1. arbetsgivarens f&#246;rh&#229;llanden &#228;r s&#229;dana att det kan antas att 
+verksamheten som den enskilde ska vara sysselsatt inom inte 
+bedrivs eller kommer att bedrivas i enlighet med de 
+f&#246;reskrifter som g&#228;ller f&#246;r verksamheten,
+
+2. arbetsgivaren inte fullg&#246;r eller det kan antas att 
+arbetsgivaren inte kommer att fullg&#246;ra sina &#229;taganden mot 
+Arbetsf&#246;rmedlingen eller mot den enskilde som st&#246;det avser, 
+
+3. arbetsgivaren har gjort sig skyldig till ett allvarligt fel 
+i yrkesut&#246;vningen som g&#246;r att arbetsgivarens redbarhet kan 
+ifr&#229;gas&#228;ttas,
+
+4. arbetsgivaren genom en dom som f&#229;tt laga kraft &#228;r d&#246;md f&#246;r 
+brott som avser yrkesut&#246;vningen, eller
+
+5. arbetsgivaren i &#228;rendet inte har l&#228;mnat de uppgifter som 
+Arbetsf&#246;rmedlingen beg&#228;rt eller har l&#228;mnat felaktiga 
+uppgifter.
+
+Om arbetsgivaren &#228;r en juridisk person f&#229;r Arbetsf&#246;rmedlingen 
+avst&#229; fr&#229;n att besluta om st&#246;d, om en f&#246;retr&#228;dare med 
+v&#228;sentligt inflytande &#246;ver den juridiska personen
+
+1. har gjort sig skyldig till ett s&#229;dant fel som avses i 
+f&#246;rsta stycket 3, 
+
+2. &#228;r d&#246;md f&#246;r ett s&#229;dant brott som avses i f&#246;rsta stycket 4, 
+eller
+
+3. har f&#246;retr&#228;tt en annan arbetsgivare eller en anordnare som 
+p&#229; grund av s&#229;dana omst&#228;ndigheter som anges i denna paragraf 
+inte beviljats bidrag eller st&#246;d, inte l&#228;ngre f&#229;r bidrag eller 
+st&#246;d, har f&#229;tt bidraget eller st&#246;det &#229;terkr&#228;vt eller inte har 
+f&#229;tt ett arbetsmarknadspolitiskt program eller en insats 
+f&#246;rlagd till sig. F&#246;rordning (2022:1024).
+
+22 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1734).
+
+23 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1734).
+
+24 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1734).
+
+25 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1734).
+
+26 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1734).
+
+27 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1734).
+
+Anst&#228;llningsformer som s&#228;rskilt anst&#228;llningsst&#246;d f&#229;r beslutas 
+f&#246;r
+
+28 &#167; S&#228;rskilt anst&#228;llningsst&#246;d f&#229;r beslutas f&#246;r b&#229;de hel- och 
+deltidsanst&#228;llningar samt f&#246;r anst&#228;llningar som g&#228;ller tills 
+vidare, provanst&#228;llningar och andra tidsbegr&#228;nsade 
+anst&#228;llningar.
+
+Handl&#228;ggning av st&#246;dfr&#229;gor 
+
+29 &#167; Fr&#229;gor om s&#228;rskilt anst&#228;llningsst&#246;d pr&#246;vas av 
+Arbetsf&#246;rmedlingen.
+
+Utbetalning av st&#246;d
+
+30 &#167; Arbetsgivaren f&#229;r del av det ekonomiska st&#246;det inom 
+s&#228;rskilt anst&#228;llningsst&#246;d genom kreditering p&#229; ett s&#229;dant 
+skattekonto som avses i 61 kap. 1 &#167; skattef&#246;rfarandelagen 
+(2011:1244).
+
+Arbetsf&#246;rmedlingen ska l&#228;mna de uppgifter som beh&#246;vs f&#246;r 
+krediteringen till Skatteverket.
+
+Det ekonomiska st&#246;det krediteras arbetsgivarens skattekonto 
+senast den 12 i m&#229;naden efter det att underlag enligt 31 &#167; 
+inkommit, med undantag f&#246;r januari d&#229; st&#246;det i st&#228;llet 
+krediteras senast den 17.
+
+31 &#167; En arbetsgivare ska l&#228;mna underlag till 
+Arbetsf&#246;rmedlingen f&#246;r ber&#228;kning av det st&#246;dbelopp som ska 
+krediteras skattekontot. Underlaget ska l&#228;mnas inom 180 dagar 
+efter den arbetsm&#229;nad som st&#246;det avser. Om underlaget inte 
+l&#228;mnas inom denna tid, f&#246;rlorar arbetsgivaren r&#228;tten till det 
+st&#246;dbeloppet.
+
+Om det finns s&#228;rskilda sk&#228;l f&#229;r Arbetsf&#246;rmedlingen besluta om 
+undantag fr&#229;n skyldigheten att l&#228;mna underlag inom 180 dagar.
+
+Skyldigheten g&#228;ller inte om Arbetsf&#246;rmedlingen redan har 
+tillg&#229;ng till underlaget p&#229; annat s&#228;tt. F&#246;rordning (2022:1270).
+
+Tillsyn &#246;ver hur st&#246;det anv&#228;nds
+
+32 &#167; Arbetsf&#246;rmedlingen ska se till att det ekonomiska st&#246;d 
+som betalas ut enligt denna f&#246;rordning anv&#228;nds p&#229; f&#246;reskrivet 
+s&#228;tt.
+
+Den arbetsgivare som tar emot ekonomiskt st&#246;d enligt denna 
+f&#246;rordning ska ge Arbetsf&#246;rmedlingen eller den som 
+Arbetsf&#246;rmedlingen utser tillf&#228;lle att granska verksamheten 
+och l&#228;mna de uppgifter som beh&#246;vs f&#246;r granskningen. Detsamma 
+g&#228;ller &#228;ven andra &#228;n arbetsgivare som tar emot ekonomiskt 
+st&#246;d f&#246;r kostnader f&#246;r handledning.
+
+&#196;ndrade f&#246;rh&#229;llanden
+
+33 &#167; En arbetsgivare som f&#229;r ekonomiskt st&#246;d &#228;r skyldig att 
+omg&#229;ende anm&#228;la f&#246;r&#228;ndringar som kan p&#229;verka r&#228;tten till st&#246;d 
+eller st&#246;dets storlek. Arbetsf&#246;rmedlingens beslut om 
+ekonomiskt st&#246;d ska inneh&#229;lla en upplysning om denna 
+skyldighet. 
+
+Ett beslut ska ompr&#246;vas vid &#228;ndrade f&#246;rh&#229;llanden. Detta 
+g&#228;ller b&#229;de s&#229;dana &#228;ndrade f&#246;rh&#229;llanden som anm&#228;ls av 
+arbetsgivaren och s&#229;dana som kommer till Arbetsf&#246;rmedlingens 
+k&#228;nnedom p&#229; annat s&#228;tt. 
+
+&#197;terbetalning och &#229;terkrav
+
+34 &#167; En mottagare av ekonomiskt st&#246;d enligt denna f&#246;rordning 
+&#228;r &#229;terbetalningsskyldig om mottagaren har f&#246;rorsakat att 
+st&#246;det har l&#228;mnats p&#229; felaktig grund eller med ett f&#246;r h&#246;gt 
+belopp
+
+1. genom att l&#228;mna oriktiga uppgifter, 
+
+2. genom att inte fullg&#246;ra sin skyldighet enligt 33 &#167; att 
+omg&#229;ende anm&#228;la f&#246;r&#228;ndringar som kan p&#229;verka r&#228;tten till st&#246;d 
+eller st&#246;dets storlek, eller 
+
+3. genom n&#229;got annat agerande. 
+
+Om ekonomiskt st&#246;d har l&#228;mnats p&#229; felaktig grund eller med 
+ett f&#246;r h&#246;gt belopp i n&#229;got annat fall, &#228;r mottagaren 
+&#229;terbetalningsskyldig endast om mottagaren insett eller 
+sk&#228;ligen borde ha insett felet.
+
+35 &#167; Om en mottagare av ekonomiskt st&#246;d &#228;r 
+&#229;terbetalningsskyldig, ska Arbetsf&#246;rmedlingen besluta att 
+&#229;terkr&#228;va det felaktigt tillgodof&#246;rda beloppet.
+
+36 &#167; Vid &#229;terkrav f&#229;r Arbetsf&#246;rmedlingen bevilja anst&#229;nd med 
+betalningen eller tr&#228;ffa avtal med den &#229;terbetalningsskyldige 
+om en avbetalningsplan. Arbetsf&#246;rmedlingen ska i s&#229;dana fall 
+ta ut r&#228;nta p&#229; det obetalda beloppet.
+
+R&#228;nta ska tas ut fr&#229;n den dag d&#229; anst&#229;ndet beviljades eller 
+avtalet om avbetalningsplan tr&#228;ffades, dock inte f&#246;r tid 
+innan det &#229;terkr&#228;vda beloppet skulle ha betalats. 
+
+R&#228;nta ska tas ut efter en r&#228;ntesats som vid varje tidpunkt 
+&#246;verstiger statens utl&#229;ningsr&#228;nta med tv&#229; procentenheter.
+
+37 &#167; Om ett belopp som har &#229;terkr&#228;vts inte betalas i r&#228;tt 
+tid, ska dr&#246;jsm&#229;lsr&#228;nta enligt r&#228;ntelagen (1975:635) tas ut 
+p&#229; beloppet. Detsamma g&#228;ller n&#228;r den &#229;terbetalningsskyldige 
+har beviljats anst&#229;nd med betalningen eller tr&#228;ffat ett avtal 
+om en avbetalningsplan och betalningen inte sker inom den tid 
+som f&#246;ljer av beslutet om anst&#229;nd eller av avtalet.
+
+38 &#167; Om det med h&#228;nsyn till den &#229;terbetalningsskyldiges 
+personliga eller ekonomiska f&#246;rh&#229;llanden eller andra 
+omst&#228;ndigheter finns s&#228;rskilda sk&#228;l f&#246;r det, f&#229;r 
+Arbetsf&#246;rmedlingen besluta att helt eller delvis avst&#229; fr&#229;n 
+ett krav p&#229; &#229;terbetalning eller r&#228;nta. Myndigheten ska i s&#229; 
+fall i beslutet ange vilka de s&#228;rskilda sk&#228;len &#228;r och 
+dokumentera den information som ligger till grund f&#246;r 
+beslutet.
+
+39 &#167; Vid &#229;terkrav f&#229;r Arbetsf&#246;rmedlingen i samband med en 
+senare utbetalning av ekonomiskt st&#246;d till den 
+&#229;terbetalningsskyldige besluta att dra av ett sk&#228;ligt belopp 
+i avr&#228;kning p&#229; vad som har betalats ut f&#246;r mycket. Detsamma 
+g&#228;ller f&#246;r skyldigheten att betala r&#228;nta.
+
+Ompr&#246;vning och &#246;verklagande
+
+40 &#167; Arbetsf&#246;rmedlingens beslut enligt denna f&#246;rordning ska 
+ompr&#246;vas hos myndighetens centrala enhet f&#246;r ompr&#246;vning, om 
+det beg&#228;rs av den som beslutet g&#228;ller. Vid ompr&#246;vningen f&#229;r 
+beslutet inte &#228;ndras till den enskildes nackdel.
+
+En beg&#228;ran om ompr&#246;vning ska vara skriftlig. Beg&#228;ran ska 
+l&#228;mnas in till Arbetsf&#246;rmedlingen och ska ha kommit in dit 
+inom tre veckor fr&#229;n den dag d&#229; den som beg&#228;r ompr&#246;vning fick 
+del av beslutet.
+
+Om ett beslut &#246;verklagas innan det har ompr&#246;vats, ska 
+&#246;verklagandet anses som en beg&#228;ran om ompr&#246;vning.
+
+41 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser om 
+&#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. Endast f&#246;ljande 
+beslut f&#229;r &#246;verklagas, n&#228;mligen beslut om ompr&#246;vning av beslut 
+om
+
+1. f&#246;rlorad r&#228;tt till st&#246;dbelopp enligt 31 &#167;,
+
+2. r&#228;tt till st&#246;d vid &#228;ndrade f&#246;rh&#229;llanden enligt 33 &#167;, och
+
+3. avr&#228;kning enligt 39 &#167;. 
+F&#246;rordning (2022:1432).
+
+Bemyndigande
+
+42 &#167; Arbetsf&#246;rmedlingen f&#229;r meddela f&#246;reskrifter om 
+verkst&#228;lligheten av denna f&#246;rordning.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2018:42
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 maj 2018.
+
+2. Genom f&#246;rordningen upph&#228;vs f&#246;rordningen (2015:503) om 
+s&#228;rskilt anst&#228;llningsst&#246;d.
+
+3. F&#246;r s&#228;rskilt anst&#228;llningsst&#246;d som har beslutats f&#246;re 
+ikrafttr&#228;dandet g&#228;ller den upph&#228;vda f&#246;rordningen f&#246;r hela den 
+beslutsperiod som beslutet omfattar, med undantag f&#246;r 
+m&#246;jligheten att besluta om ytterligare tid med s&#228;rskilt 
+anst&#228;llningsst&#246;d enligt 4 &#167; andra stycket, 8, 11, 28 och 
+29 &#167;&#167; i den upph&#228;vda f&#246;rordningen. 
+
+4. Den som hade kunnat vara aktuell f&#246;r beslut om ytterligare 
+tid med s&#228;rskilt anst&#228;llningsst&#246;d enligt 4 &#167; andra stycket 
+eller 28 och 29 &#167;&#167; i den nu upph&#228;vda f&#246;rordningen, kan komma 
+i fr&#229;ga f&#246;r beslut om ytterligare tid med s&#228;rskilt 
+anst&#228;llningsst&#246;d i form av introduktionsjobb med st&#246;d av 10 
+och 11 &#167;&#167;. Detsamma g&#228;ller den som vid ikrafttr&#228;dandet &#228;r 
+anvisad till s&#228;rskilt anst&#228;llningsst&#246;d i form av traineejobb 
+inom v&#228;lf&#228;rdssektorn med st&#246;d av best&#228;mmelser som upph&#228;vts 
+sedan tidigare, om anvisningen p&#229;g&#229;tt kortare tid &#228;n 
+sammanlagt 24 m&#229;nader. Vid till&#228;mpning av best&#228;mmelsen om den 
+maximala tiden med s&#228;rskilt anst&#228;llningsst&#246;d i 10 &#167; inr&#228;knas 
+den tid med s&#228;rskilt anst&#228;llningsst&#246;d som har p&#229;g&#229;tt enligt 
+den nu upph&#228;vda f&#246;rordningen eller enligt best&#228;mmelser om 
+s&#228;rskilt anst&#228;llningsst&#246;d i form av traineejobb inom 
+v&#228;lf&#228;rdssektorn som upph&#228;vts sedan tidigare.
+
+5. Den som hade kunnat vara aktuell f&#246;r beslut om ytterligare 
+tid med s&#228;rskilt anst&#228;llningsst&#246;d enligt 8 och 11 &#167;&#167; i den 
+upph&#228;vda f&#246;rordningen, kan komma i fr&#229;ga f&#246;r beslut om 
+ytterligare tid med s&#228;rskilt anst&#228;llningsst&#246;d i form av 
+extratj&#228;nst med st&#246;d av 10 och 11 &#167;&#167;. Vid till&#228;mpning av 
+best&#228;mmelsen om den maximala tiden med s&#228;rskilt 
+anst&#228;llningsst&#246;d i 10 &#167; inr&#228;knas den tid med s&#228;rskilt 
+anst&#228;llningsst&#246;d som har p&#229;g&#229;tt enligt den upph&#228;vda 
+f&#246;rordningen.
+
+6. Den som haft s&#228;rskilt anst&#228;llningsst&#246;d enligt den upph&#228;vda 
+f&#246;rordningen under s&#229; l&#229;ng tid att han eller hon inte kan 
+komma i fr&#229;ga f&#246;r beslut om ytterligare tid med s&#228;rskilt 
+anst&#228;llningsst&#246;d med st&#246;d av 10 och 11 &#167;&#167; m&#229;ste, f&#246;r att 
+kunna f&#229; en ny anvisning till s&#228;rskilt anst&#228;llningsst&#246;d, 
+uppfylla &#229;terkvalificeringskraven i 6 &#167; om den nya 
+anvisningen avser introduktionsjobb eller 
+&#229;terkvalificeringskraven i 9 &#167; om den nya anvisningen avser 
+extratj&#228;nst.
+
+7. Vid till&#228;mpning av 5 och 8 &#167;&#167; ska en nyanl&#228;nd som har en 
+etableringsplan eller som under de senaste 12 m&#229;naderna har 
+avslutat en etableringsplan enligt den upph&#228;vda lagen 
+(2010:197) om etableringsinsatser f&#246;r vissa nyanl&#228;nda 
+invandrare, j&#228;mst&#228;llas med en nyanl&#228;nd som &#228;r anvisad till 
+eller n&#229;gon g&#229;ng under de senaste 12 m&#229;naderna har varit 
+anvisad till det arbetsmarknadspolitiska programmet 
+etableringsinsatser f&#246;r vissa nyanl&#228;nda invandrare enligt 
+f&#246;rordningen (2017:820) om etableringsinsatser f&#246;r vissa 
+nyanl&#228;nda invandrare.
+
+2020:225
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2022.
+F&#246;rordning (2020:1189).
+
+2. F&#246;r beslut om f&#246;rl&#228;ngning som har fattats f&#246;re 
+ikrafttr&#228;dandet och som inneb&#228;r en sammanlagd tid med st&#246;d som 
+&#246;verstiger 24 m&#229;nader g&#228;ller 10 &#167; i den &#228;ldre lydelsen f&#246;r 
+hela den tidsperiod som beslutet omfattar.
+
+3. F&#246;r beslut om st&#246;d som har fattats f&#246;re ikrafttr&#228;dandet och 
+som avser en maximal tid som &#246;verstiger 24 m&#229;nader g&#228;ller 11 &#167; 
+i den &#228;ldre lydelsen f&#246;r hela den tidsperiod som beslutet 
+omfattar.
+
+2021:805
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 20 juli 2021. 
+
+2. F&#246;r en utl&#228;nning som har beviljats ett uppeh&#229;llstillst&#229;nd 
+enligt 13 &#167; den upph&#228;vda lagen (2016:752) om tillf&#228;lliga 
+begr&#228;nsningar av m&#246;jligheten att f&#229; uppeh&#229;llstillst&#229;nd i 
+Sverige g&#228;ller 5 och 8 &#167;&#167; i den &#228;ldre lydelsen.
+
+2022:1024
+ 
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 december 2022.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r st&#246;d som har 
+beslutats f&#246;re ikrafttr&#228;dandet.
+
+2022:1236
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 november 2022.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r anst&#228;llningsst&#246;d 
+som har beslutats f&#246;re ikrafttr&#228;dandet.
+
+2022:1450
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2023.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r den som har fyllt 
+65 &#229;r f&#246;re ikrafttr&#228;dandet.
+
+2022:1451
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2026.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r den som har fyllt 
+66 &#229;r f&#246;re ikrafttr&#228;dandet.
+
+2022:1734
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2023.
+
+2. F&#246;r s&#228;rskilt anst&#228;llningsst&#246;d i form av extratj&#228;nst som har 
+beslutats f&#246;re ikrafttr&#228;dandet g&#228;ller fortfarande de upph&#228;vda 
+paragraferna och 3, 14, 17 och 18 &#167;&#167; i den &#228;ldre lydelsen f&#246;r 
+den period som beslutet omfattar.
+
+3. F&#246;r s&#228;rskilt anst&#228;llningsst&#246;d som har beslutats f&#246;re 
+ikrafttr&#228;dandet g&#228;ller 10 och 11 &#167;&#167; i den &#228;ldre lydelsen, dock 
+f&#229;r den ytterligare tiden eller det nya beslutet endast avse 
+s&#228;rskilt anst&#228;llningsst&#246;d i form av introduktionsjobb.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=779">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=781">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

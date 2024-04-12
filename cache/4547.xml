@@ -1,0 +1,518 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2019-06-05" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4547</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4546">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4548">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1931:429 ·
+                    <a href="/sfsr?bet=1931:429">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1931:429) om vissa internationella r&#228;ttsf&#246;rh&#229;llanden r&#246;rande &#228;ktenskap, adoption och f&#246;rmynderskap</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1931-12-31
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:236
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">KM:t har - - - funnit gott f&#246;rordna, att, s&#229;vitt ang&#229;r f&#246;rh&#229;llandet till
+Danmark, Finland, Island och Norge, skola h&#228;r i riket l&#228;nda till
+efterr&#228;telse f&#246;ljande best&#228;mmelser, vilka ansluta sig till en den 6
+februari 1931 mellan Sverige och n&#228;mnda stater ing&#229;ngen konvention
+inneh&#229;llande internationellt privatr&#228;ttslig best&#228;mmelser om &#228;ktenskap,
+adoption och f&#246;rmynderskap:
+
+I. &#196;ktenskap
+
+1 &#167; S&#246;ker medborgare i f&#246;rdragsslutande stat hinderspr&#246;vning eller
+lysning till &#228;ktenskap hos myndighet tillh&#246;rande annan s&#229;dan stat,
+pr&#246;vas hans r&#228;tt att ing&#229; &#228;ktenskapet enligt lagen i den staten, om
+n&#229;gon av de trolovade har sitt hemvist d&#228;r, men annars enligt hemlandets
+lag. Sistn&#228;mnda lag skall dock alltid till&#228;mpas, om s&#246;kanden beg&#228;r det.
+Skall hemlandets lag till&#228;mpas, kan vederb&#246;rande myndighet &#229;l&#228;gga
+s&#246;kanden att styrka sin r&#228;tt att ing&#229; &#228;ktenskapet genom intyg fr&#229;n
+myndighet tillh&#246;rande hemlandet.
+
+Kr&#228;ves vid pr&#246;vning av &#228;ktenskapshinder i f&#246;rdragsslutande stat enligt
+den statens lag ej f&#246;r&#228;ldrarnas eller f&#246;rmyndarens samtycke till
+&#228;ktenskapet, skall betr&#228;ffande den som har hemvist i annan
+f&#246;rdragsslutande stat vad den statens lag f&#246;reskriver om krav p&#229; s&#229;dant
+samtycke l&#228;nda till efterr&#228;ttelse.
+
+Om hinderspr&#246;vning och lysning g&#228;ller i &#246;vrigt lagen i den stat
+pr&#246;vnings- eller lysningsmyndigheten tillh&#246;r. Kung&#246;relse (1973:1181).
+
+2 &#167; Har hinderspr&#246;vning eller lysning &#228;gt rum hos myndighet tillh&#246;rande
+f&#246;rdragsslutande stat, kan vigsel, s&#229; l&#228;nge hinderspr&#246;vningen eller
+lysningen &#228;ger giltighet, f&#246;rr&#228;ttas av myndighet tillh&#246;rande annan
+f&#246;rdragsslutande stat utan ny hinderspr&#246;vning eller lysning. Detta
+g&#228;ller oavsett om de trolovade &#228;ro medborgare i f&#246;rdragsslutande stat.
+
+Om vigsel g&#228;ller i &#246;vrigt lagen i den stat vigselmyndigheten tillh&#246;r.
+Kung&#246;relse (1969:723).
+
+2 a &#167; Har upph&#228;vts genom lag (2019:236).
+
+3 &#167; Best&#228;mmelser om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i nordiska 
+situationer finns i lagen (2019:234) om makars och sambors 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i internationella situationer.
+Lag (2019:236).
+
+3 a &#167; Har upph&#228;vts genom lag (2019:236).
+
+3 b &#167; Har upph&#228;vts genom lag (2019:236).
+
+3 c &#167; Har upph&#228;vts genom lag (2019:236).
+
+4 &#167; Har upph&#228;vts genom lag (2019:236).
+
+5 &#167; Har upph&#228;vts genom lag (2019:236).
+
+6 Har upph&#228;vts genom lag (2019:236).
+
+7 &#167; Ett yrkande om &#228;ktenskapsskillnad mellan makar som &#228;r 
+medborgare och har sin hemvist i en f&#246;rdragsslutande stat tas 
+upp i Sverige om
+
+1. makarna har sin hemvist h&#228;r,
+
+2. makarna senast hade hemvist samtidigt h&#228;r och en av dem 
+fortfarande &#228;r bosatt h&#228;r,
+
+3. makarna &#228;r svenska medborgare,
+
+4. svaranden har sin hemvist h&#228;r,
+
+5. n&#229;gon av makarna har sin hemvist h&#228;r, om en ans&#246;kan om 
+&#228;ktenskapsskillnad &#228;r gemensam,
+
+6. k&#228;randen har sin hemvist h&#228;r, om han eller hon varit bosatt 
+h&#228;r i minst ett &#229;r omedelbart innan ans&#246;kningen gjordes, eller
+
+7. k&#228;randen &#228;r svensk medborgare och har sin hemvist h&#228;r, om 
+han eller hon varit bosatt h&#228;r i minst sex m&#229;nader omedelbart 
+innan ans&#246;kningen gjordes. Lag (2019:236).
+
+8 &#167; En svensk domstol f&#229;r i samband med ett yrkande om 
+&#228;ktenskapsskillnad ocks&#229; pr&#246;va fr&#229;gor om tillf&#228;lligt h&#228;vande 
+av sammanlevnaden. &#196;ven fr&#229;gor om v&#229;rdnad om barn, barns 
+boende och umg&#228;nge med barn f&#229;r pr&#246;vas i samband med ett 
+s&#229;dant yrkande, om
+
+1. barnet &#228;r makarnas gemensamma, och
+
+2. barnet har sin hemvist i Sverige.
+
+Om barnet inte har sin hemvist i Sverige, f&#229;r fr&#229;gor om 
+v&#229;rdnad om barn, barnets boende och umg&#228;nge med barn &#228;nd&#229; tas 
+upp h&#228;r, om
+
+1. barnet har sin hemvist i en f&#246;rdragsslutande stat,
+
+2. barnet &#228;r makarnas gemensamma och &#229;tminstone en av makarna 
+har v&#229;rdnaden om barnet,
+
+3. makarna har godtagit att fr&#229;gan pr&#246;vas h&#228;r, och
+
+4. det &#228;r till barnets b&#228;sta att fr&#229;gan pr&#246;vas h&#228;r.
+Lag (2019:236).
+
+8 a &#167; Om en talan ang&#229;ende en fr&#229;ga enligt 7 eller 8 &#167; v&#228;cks i 
+en svensk domstol n&#228;r det redan p&#229;g&#229;r ett f&#246;rfarande mellan 
+samma parter vid en beh&#246;rig myndighet i en annan 
+f&#246;rdragsslutande stat, ska talan avvisas till f&#246;rm&#229;n f&#246;r den 
+myndigheten.
+
+Vid till&#228;mpning av f&#246;rsta stycket ska en fr&#229;ga om legal 
+separation och en fr&#229;ga om &#228;ktenskapsskillnad anses vara samma 
+fr&#229;ga. Lag (2019:236).
+
+9 &#167; Vid pr&#246;vning av fr&#229;gor som avses i 7 och 8 &#167;&#167; till&#228;mpas 
+svensk lag.
+
+Om legal separation har beslutats i en f&#246;rdragsslutande stat, 
+har makarna r&#228;tt till &#228;ktenskapsskillnad utan f&#246;reg&#229;ende 
+bet&#228;nketid, under f&#246;ruts&#228;ttning att de har levt &#229;tskilda under 
+en tid som motsvarar bet&#228;nketiden och att de inte har 
+&#229;terupptagit sammanlevnaden. Lag (2019:236).
+
+10 &#167; Om en make avlider efter det att legal separation 
+beslutats och om den till&#228;mpliga lagen inte inneh&#229;ller regler 
+om legal separation ska, i fr&#229;ga om efterlevande makes r&#228;tt 
+att &#228;rva eller ta testamente efter den avlidne, den legala 
+separationen likst&#228;llas med &#228;ktenskapsskillnad, om den legala 
+separationen bestod vid d&#246;dsfallet. Lag (2019:236).
+
+II. Adoption
+
+11 &#167; Vill medborgare i f&#246;rdragsslutande stat, som har hemvist i s&#229;dan
+stat, adoptera n&#229;gon, som har medborgarskap i en av staterna, skall
+ans&#246;kningen g&#246;ras i den stat, d&#228;r adoptanten har hemvist.
+
+12 &#167; Vid pr&#246;vning av ans&#246;kningen till&#228;mpas i varje stat d&#228;r g&#228;llande
+lag. &#196;r den, som skall adopteras, under aderton &#229;r och har han hemvist i
+hemlandet, m&#229; ans&#246;kningen dock ej bifallas i annan stat, utan att
+vederb&#246;rande barnav&#229;rdsmyndighet i hemlandet haft tillf&#228;lle att avgiva
+yttrande.
+
+13 &#167; Ans&#246;kan om h&#228;vande av adoptivf&#246;rh&#229;llande mellan medborgare i
+f&#246;rdragsslutande stater skall, om adoptionen &#228;gt rum i s&#229;dan stat,
+upptagas i den stat, d&#228;r adoptanten har hemvist, eller, om han ej har
+hemvist i f&#246;rdragsslutande stat, d&#228;r adoptivbarnets hemvist &#228;r.
+
+Vid pr&#246;vning av ans&#246;kningen till&#228;mpas i varje stat d&#228;r g&#228;llande lag.
+
+III. F&#246;rmynderskap
+
+14 &#167; F&#246;rmynderskap f&#246;r under&#229;rig medborgare i en av de f&#246;rdragsslutande
+staterna, vilken har hemvist i en av de &#246;vriga, anordnas i sistn&#228;mnda
+stat, s&#229;framt ej f&#246;rmynderskap redan i annan f&#246;rdragsslutande stat
+ut&#246;vas av lagbest&#228;md eller s&#228;rskilt f&#246;rordnad f&#246;rmyndare.
+
+Vad nu &#228;r sagt skall &#228;ga motsvarande till&#228;mpning &#229; omyndighetsf&#246;rklaring
+och f&#246;rmynderskap f&#246;r omyndigf&#246;rklarad.
+
+15 &#167; Tillf&#228;lligt f&#246;rmynderskap kan anordnas och andra tillf&#228;lliga
+&#229;tg&#228;rder vidtagas i envar av staterna.
+
+16 &#167; Vid pr&#246;vning av fr&#229;gor, som avses i 14 och 15 &#167;&#167;, till&#228;mpas i varje
+stat d&#228;r g&#228;llande lag.
+
+17 &#167; Omyndighetens verkan i f&#246;rm&#246;genhetsr&#228;ttsligt h&#228;nseende och
+f&#246;rmyndarens beh&#246;righet bed&#246;mas enligt lagen i den stat, d&#228;r
+f&#246;rmynderskapet ut&#246;vas.
+
+Vad nu &#228;r sagt skall ej hava avseende &#229; r&#228;tt att ing&#229; f&#246;rbindelse enligt
+v&#228;xel eller check.
+
+18 &#167; F&#246;rmynderskap kan efter f&#246;rhandling mellan vederb&#246;rande
+statsdepartement &#246;verflyttas till annan stat, om den omyndige tagit
+hemvist d&#228;rst&#228;des eller &#246;verflyttning av annan grund finnes l&#228;mplig.
+
+19 &#167; Fr&#229;ga om h&#228;vande av omyndighetsf&#246;rklaring, som meddelats i
+f&#246;rdragsslutande stat, skall, om den omyndigf&#246;rklarade &#228;r medborgare i
+s&#229;dan stat, pr&#246;vas i den stat, d&#228;r f&#246;rmynderskapet &#228;r anordnat.
+
+Vid pr&#246;vningen till&#228;mpas i varje stat d&#228;r g&#228;llande lag.
+
+20 &#167; Varder medborgare i f&#246;rdragsslutande stat omyndigf&#246;rklarad i annan
+s&#229;dan stat eller h&#228;ves omyndighetsf&#246;rklaring i annan stat &#228;n hemlandet,
+skall underr&#228;ttelse of&#246;rdr&#246;jligen &#246;vers&#228;ndas till vederb&#246;rande
+statsdepartement d&#228;rst&#228;des.
+
+21 &#167; Vad i 17, 19 och 20 &#167;&#167; &#228;r stadgat ang&#229;ende omyndighetsf&#246;rklaring
+skall &#228;ga motsvarande till&#228;mpning, d&#229; danskt lavvaergemaal anordnats f&#246;r
+medborgare i f&#246;rdragsslutande stat, vilken har hemvist i Danmark och f&#246;r
+vilken f&#246;rmynderskap ej redan &#228;r anordnat i annan f&#246;rdragsslutande stat.
+
+Den, som st&#229;r under lavvaergemaal i Danmark, m&#229; utan hinder d&#228;rav
+omyndigf&#246;rklaras i annan stat, d&#228;r han tagit hemvist.
+
+21 a &#167; S&#228;rskilda best&#228;mmelser om f&#246;rvaltarskap enligt
+f&#246;r&#228;ldrabalken och f&#246;rmynderskap f&#246;r omyndigf&#246;rklarade finns i lagen
+(1988:1321) om nordiska r&#228;ttsf&#246;rh&#229;llanden r&#246;rande f&#246;rvaltarskap enligt
+f&#246;r&#228;ldrabalken m. m. Lag (1988:1323).
+
+IV. Allm&#228;nna best&#228;mmelser
+
+22 &#167; Lagakraftvunnen dom eller administrativ myndighets 
+beslut, som meddelats i en annan f&#246;rdragsslutande stat med 
+till&#228;mpning av best&#228;mmelser som motsvarar 7, 8, 11, 13, 14, 
+15, 19 eller 21 &#167;, ska g&#228;lla i Sverige utan n&#229;got s&#228;rskilt 
+beslut och utan att det g&#246;rs n&#229;gon pr&#246;vning av avg&#246;randets 
+riktighet eller myndighetens beh&#246;righet. Detsamma g&#228;ller en 
+lagakraftvunnen dom som meddelats i en annan f&#246;rdragsslutande 
+stat och avser ogiltighet eller &#229;terg&#229;ng av &#228;ktenskap mellan 
+medborgare i n&#229;gon f&#246;rdragsslutande stat. Lag (2019:236).
+
+23 &#167; Har upph&#228;vts genom lag (2019:236).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2001:398
+
+1. Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer. Lagen
+f&#229;r s&#228;ttas i kraft i f&#246;rh&#229;llande till ett eller flera av de
+nordiska l&#228;nderna.
+
+2. Best&#228;mmelserna i 7 och 8 &#167;&#167; medf&#246;r inte att svensk domstols
+beh&#246;righet g&#229;r f&#246;rlorad betr&#228;ffande en talan som har v&#228;ckts
+f&#246;re ikrafttr&#228;dandet.
+
+3. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r en talan som har
+v&#228;ckts f&#246;re ikrafttr&#228;dandet.
+
+4. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r avg&#246;randen som har
+meddelats f&#246;re ikrafttr&#228;dandet.
+
+2001:407
+
+Regeringen f&#246;reskriver att lagen (2001:398) om &#228;ndring i
+f&#246;rordningen (1931:429) om vissa internationella
+r&#228;ttsf&#246;rh&#229;llanden r&#246;rande &#228;ktenskap, adoption och f&#246;rmynderskap
+skall tr&#228;da i kraft i f&#246;rh&#229;llande till Finland och Norge den 1
+juli 2001.
+
+2002:749
+
+Regeringen f&#246;reskriver att lagen (2001:398) om &#228;ndring i
+f&#246;rordningen (1931:429) om vissa internationella
+r&#228;ttsf&#246;rh&#229;llanden r&#246;rande &#228;ktenskap, adoption och f&#246;rmynderskap
+skall tr&#228;da i kraft i f&#246;rh&#229;llande till Danmark och Island den 1
+november 2002.
+
+2007:522
+
+1. Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande om makarnas &#228;ktenskap
+har uppl&#246;sts eller makarna har beviljats hemskillnad f&#246;re
+ikrafttr&#228;dandet.
+
+2019:236
+
+1. Denna lag tr&#228;der i kraft den 1 juni 2019.
+
+2. I f&#246;rh&#229;llande till Finland g&#228;ller fortfarande 
+
+a) best&#228;mmelserna i 3 &#167; i den &#228;ldre lydelsen och de upph&#228;vda 
+2 a och 3 a-4 &#167;&#167;, om &#228;ktenskapet har ing&#229;tts f&#246;re den 29 
+januari 2019 och makarna inte den dagen eller d&#228;refter ing&#229;r 
+ett lagvalsavtal som &#228;r giltigt till formen, och
+
+b) &#228;ldre f&#246;reskrifter i fr&#229;ga om handl&#228;ggningen i domstol av 
+m&#229;l och &#228;renden som har inletts f&#246;re den 29 januari 2019.
+
+3. I f&#246;rh&#229;llande till de &#246;vriga nordiska l&#228;nderna g&#228;ller f&#246;r 
+lagvalsavtal som har ing&#229;tts f&#246;re ikrafttr&#228;dandet fortfarande 
+den upph&#228;vda 4 &#167;.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4546">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4548">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

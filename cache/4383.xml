@@ -1,0 +1,587 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2013-08-14" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4383</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4382">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4384">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1959:467 ·
+                    <a href="/sfsr?bet=1959:467">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Kung&#246;relse (1959:467) ang&#229;ende godk&#228;nnande av godsbeh&#229;llare f&#246;r transport under tullf&#246;rsegling</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1959-10-12
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2010:117
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Sedan Sverige ratificerat en i Gen&#232;ve den 18 maj 1956 avslutad
+tullkonvention om godsbeh&#229;llare -- i hith&#246;rande delar av den lydelse i
+svensk &#246;vers&#228;ttning h&#228;rvid fogad bilaga utvisar -- har Kungl. Maj:t
+funnit gott f&#246;rordna som f&#246;ljer.
+
+Det ankommer p&#229; Trafikverket att i samr&#229;d med Tullverket pr&#246;va, huruvida
+i konventionen avsedda godsbeh&#229;llare (containers), med undantag f&#246;r i
+moment 2 av  bilaga 2 till konventionen angivna f&#246;r befordran &#229; j&#228;rnv&#228;g
+avsedda godsbeh&#229;llare, m&#229; godk&#228;nnas f&#246;r transport under tullf&#246;rsegling.
+H&#228;rvid skola iakttagas i bilaga 1 till konventionen meddelade best&#228;mmelser
+ang&#229;ende de tekniska fordringar, som godsbeh&#229;llare skola uppfylla f&#246;r att
+kunna godk&#228;nnas f&#246;r transport under tullf&#246;rsegling.
+
+Betr&#228;ffande utf&#228;rdandet av bevis om godk&#228;nnande och bevisets
+anbringande &#229; godk&#228;nd godsbeh&#229;llare m.m. skola i bilaga 2 till
+konventionen angivna f&#246;reskrifter till&#228;mpas.
+
+De n&#228;rmare f&#246;reskrifter, som erfordras f&#246;r till&#228;mpning av
+best&#228;mmelserna i denna kung&#246;relse, meddelas av Trafikverket efter samr&#229;d
+med Tullverket. F&#246;rordning (2010:117).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1959:467
+
+Denna kung&#246;relse tr&#228;der i kraft den 9 november 1959.
+
+Genom kung&#246;relsen upph&#228;ves kung&#246;relsen den 16 mars 1956 (nr 58)
+ang&#229;ende godk&#228;nnande av godsbeh&#229;llare f&#246;r transport under
+tullf&#246;rsegling.
+
+Bilaga
+
+&#214;vers&#228;ttning
+
+Tullkonvention om godsbeh&#229;llare,
+
+avslutad i Gen&#232;ve den 18 maj 1956
+
+Inledning
+
+De f&#246;rdragsslutande parterna,
+
+vilka &#246;nska utveckla och underl&#228;tta anv&#228;ndningen av godsbeh&#229;llare i
+internationell trafik,
+
+hava enats om f&#246;ljande:
+
+Kapitel 1
+
+Definitioner
+
+Artikel 1
+
+I denna konvention avses
+
+-- -- --
+
+b) med &quot;godsbeh&#229;llare&quot; ett transportmedel (lift, flyttbar tank eller
+annan anordning av liknande konstruktion):
+
+i) av varaktigt slag och f&#246;ljaktligen tillr&#228;ckligt h&#229;llbart att l&#228;mpa
+sig f&#246;r upprepad anv&#228;ndning;
+
+ii) s&#228;rskilt konstruerat f&#246;r att underl&#228;tta godstransport med ett
+eller flera befordringss&#228;tt utan omlastning under v&#228;gen;
+
+iii) f&#246;rsett med anordningar, som m&#246;jligg&#246;ra dess snabba hanterande, i
+synnerhet vid ombyte av befordringss&#228;tt;
+
+iv) s&#229; konstruerat att det &#228;r l&#228;tt att fylla och t&#246;mma; samt
+
+v) med en inre volym av minst en kubikmeter;
+
+h&#228;runder inbegripas &#228;ven normala tillbeh&#246;r och normal utrustning, som
+inf&#246;ras med beh&#229;llaren; uttrycket &quot;godsbeh&#229;llare&quot; omfattar varken
+fordon eller vanligt emballage;
+
+-- -- --
+
+Kapitel III
+
+Tekniska fordringar, som godsbeh&#229;llare skola uppfylla f&#246;r att
+kunna godk&#228;nnas f&#246;r transport under tullf&#246;rsegling
+
+Artikel 7
+
+Varje f&#246;rdragsslutande part, som till&#228;mpar ett system med transport i
+godsbeh&#229;llare under tullf&#246;rsegling, skall f&#246;r s&#229;dan transport godk&#228;nna
+godsbeh&#229;llare, vilka uppfylla de fordringar, som f&#246;reskrivits i de i
+bilaga 1 &#229;tergivna best&#228;mmelserna, och skall till&#228;mpa det f&#246;rfarande
+f&#246;r godk&#228;nnande, som angivits i bilaga 2.
+
+-- -- --
+
+Bilaga 1 till tullkonventionen om godsbeh&#229;llare
+
+Best&#228;mmelser ang&#229;ende tekniska fordringar, som godsbeh&#229;llare skola
+uppfylla f&#246;r att kunna godk&#228;nnas f&#246;r transport under tullf&#246;rsegling
+
+Fordringarna f&#246;r godk&#228;nnande av godsbeh&#229;llare, avsedda f&#246;r transport
+under tullf&#246;rsegling, skola vara f&#246;ljande:
+
+Artikel 1
+
+Allm&#228;nna best&#228;mmelser
+
+1. Godsbeh&#229;llaren skall vara varaktigt m&#228;rkt med &#228;garens namn och
+adress, uppgifter om nettovikt, identifieringsm&#228;rken och nummer. /n1/
+Den skall vara konstruerad och utrustad p&#229; s&#229;dant s&#228;tt, att:
+
+/n1/ Det &#228;r ej n&#246;dv&#228;ndigt att angiva v&#228;lk&#228;nd j&#228;rnv&#228;gsf&#246;rvaltnings
+fullst&#228;ndiga namn och adress.
+
+a) tullf&#246;rsegling d&#228;r&#229; kan anbringas l&#228;tt och tillf&#246;rlitligt;
+
+b) gods icke kan uttagas fr&#229;n eller inf&#246;ras i den f&#246;rseglade delen av
+beh&#229;llaren utan att synlig skada &#229; beh&#229;llaren &#229;stadkommes eller
+f&#246;rseglingen brytes;
+
+c) den icke inneh&#229;ller n&#229;gra utrymmen, d&#228;r gods kan undang&#246;mmas.
+
+2. Godsbeh&#229;llare skall vara s&#229; konstruerad, att alla utrymmen i form
+av fack, f&#246;rvaringsrum eller andra utrymmen, i vilka gods kan
+placeras, &#228;ro l&#228;tt &#229;tkomliga f&#246;r tullunders&#246;kning.
+
+3. Om tomrum f&#246;refinnes mellan olika i godsbeh&#229;llares v&#228;ggar, golv
+eller tak ing&#229;ende skikt, skall inv&#228;ndig bekl&#228;dnad vara fast
+anbringad, kraftig och hel och icke kunna avl&#228;gsnas utan att synliga
+sp&#229;r av &#229;verkan uppkomma.
+
+4. Betr&#228;ffande godsbeh&#229;llare, som skall godk&#228;nnas enligt det
+f&#246;rfarande som angives i bilaga 2, moment 1, skall s&#229;dan godsbeh&#229;llare
+p&#229; en av ytterv&#228;ggarna vara f&#246;rsedd med en ram avsedd att fasth&#229;lla
+beviset om godk&#228;nnande, vilket p&#229; b&#229;da sidor skall vara t&#228;ckt av
+genomskinliga plastfolier, som &#228;ro hermetiskt f&#246;renade med varandra.
+Denna ram skall vara s&#229; beskaffad att den skyddar beviset om
+godk&#228;nnande och g&#246;r det om&#246;jligt att framtaga beviset utan att bryta
+den f&#246;rsegling, som skall &#229;s&#228;ttas f&#246;r att hindra att certifikatet
+borttages; den skall ocks&#229; p&#229; l&#228;mpligt s&#228;tt skydda f&#246;rseglingen.
+
+Artikel 2
+
+Godsbeh&#229;llares konstruktion
+
+1. V&#228;ggar, golv och tak i godsbeh&#229;llare skola vara utf&#246;rda av pl&#229;tar,
+plattor eller br&#228;der, av tillr&#228;cklig motst&#229;ndskraft och l&#228;mplig
+tjocklek, svetsade, nitade, falsade eller sammanfogade p&#229; s&#229;dant s&#228;tt,
+att det icke l&#228;mnas n&#229;gon &#246;ppning, genom vilken tillg&#229;ng till
+inneh&#229;llet kan erh&#229;llas. De olika delarna skola sluta t&#228;tt till
+varandra och vara s&#229; anbringade, att ingen av dem kan flyttas eller
+borttagas utan att synliga sp&#229;r av &#229;verkan uppkomma eller
+tullf&#246;rseglingen skadas.
+
+2. Viktigare sammanh&#229;llande delar, s&#229;som bultar, nitar etc., skola
+vara anbringade utifr&#229;n, genomtr&#228;nga v&#228;ggen till insidan och genom
+regling, nitning eller svetsning vara p&#229; ett tillfredsst&#228;llande s&#228;tt
+s&#228;krade. Om de bultar, som sammanh&#229;lla de viktigare delarna av v&#228;ggar,
+golv och tak, &#228;ro anbringade utifr&#229;n, m&#229; de andra bultarna vara
+anbringade inifr&#229;n, s&#229;vida muttern &#228;r tillfredsst&#228;llande svetsad
+utv&#228;ndigt och icke t&#228;ckt med ogenomskinlig f&#228;rg. I &#246;verensst&#228;mmelse
+med de f&#246;reskrifter, som g&#228;lla f&#246;r j&#228;rnv&#228;gsvagnar, skola emellertid
+f&#246;ljande fordringar st&#228;llas &#229; godsbeh&#229;llare, som uteslutande befordras
+med j&#228;rnv&#228;g under tullf&#246;rsegling: viktigare sammanh&#229;llande delar,
+s&#229;som bultar, nitar etc., skola, d&#228;r s&#229; &#228;r m&#246;jligt, vara anbringade
+utifr&#229;n och skola genom regling, nitning eller svetsning vara p&#229; ett
+tillfredsst&#228;llande s&#228;tt s&#228;krade. D&#229; det &#228;r n&#246;dv&#228;ndigt, att bultarna
+&#228;ro anbringade inifr&#229;n med s&#228;krade muttrar utv&#228;ndigt, skola
+bult&#228;ndarna nitas eller svetsas &#246;ver muttrarna.
+
+3. &#214;ppningar f&#246;r luftning &#228;ro till&#229;tna under f&#246;ruts&#228;ttning att deras
+l&#228;ngsta sida icke &#246;verstiger 400 mm. Om de medgiva direkt tilltr&#228;de
+till beh&#229;llarens inre, skola de vara t&#228;ckta av metalltr&#229;dsduk eller
+perforerad pl&#229;t (med h&#229;l om h&#246;gst 3 mm i b&#229;da fallen) och vara
+skyddade av svetsat metallgaller (med h&#229;l om h&#246;gst 10 mm). Om de icke
+medgiva direkt tilltr&#228;de till beh&#229;llarens inre (t.ex. p&#229; grund av
+flerfaldigt kr&#246;kta luftg&#229;ngar), skola de vara f&#246;rsedda med samma
+skyddsanordningar, men h&#229;lens dimensioner kunna &#246;kas till 10
+respektive 20 mm (i st&#228;llet f&#246;r 3 respektive 10 mm). Dessa anordningar
+skola icke kunna avl&#228;gsnas fr&#229;n beh&#229;llarens utsida utan att synliga
+sp&#229;r uppkomma. Metalltr&#229;dsduken skall best&#229; av minst 1 mm tjock tr&#229;d
+och vara tillverkad p&#229; s&#229;dant s&#228;tt, att de olika tr&#229;darna icke kunna
+f&#246;ras ihop och h&#229;len ej kunna f&#246;rstoras utan att synliga sp&#229;r
+uppkomma.
+
+4. &#214;ppningar f&#246;r avrinning &#228;ro till&#229;tna under f&#246;ruts&#228;ttning att deras
+l&#228;ngsta sida icke &#246;verstiger 35 mm. De skola vara t&#228;ckta av
+metalltr&#229;dsduk eller perforerad pl&#229;t (med h&#229;l om h&#246;gst 3 mm i b&#229;da
+fallen) och vara skyddade av svetsat metallgaller (med h&#229;l om h&#246;gst 10
+mm). Dessa anordningar skola icke kunna avl&#228;gsnas fr&#229;n beh&#229;llarens
+utsida utan att synliga sp&#229;r uppkomma.
+
+Artikel 3
+
+Tillslutningsanordningar
+
+1. D&#246;rrar och andra anordningar f&#246;r beh&#229;llarens tillslutning skola
+vara f&#246;rsedda med anordning, som medgiver enkel och tillf&#246;rlitlig
+tullf&#246;rsegling. Denna anordning skall vara antingen svetsad p&#229;
+d&#246;rrytan, om d&#246;rrarna &#228;ro av metall, eller f&#228;stad med minst tv&#229; bultar
+med inv&#228;ndigt nitade eller svetsade muttrar.
+
+2. G&#229;ngj&#228;rn skola vara s&#229; utf&#246;rda och s&#229; inmonterade, att d&#246;rrar och
+andra tillslutningsanordningar icke kunna avlyftas, sedan de v&#228;l &#228;ro
+st&#228;ngda. Skruvar, bultar, g&#229;ngj&#228;rnstappar och andra f&#228;stanordningar
+skola vara fastsvetsade vid g&#229;ngj&#228;rnens yttre delar. Dessa krav skola
+dock eftergivas i fall, d&#229; d&#246;rrar och andra tillslutningsanordningar
+hava en l&#229;sanordning, som &#228;r o&#229;tkomlig fr&#229;n utsidan och vilken, sedan
+den anbringats, hindrar att d&#246;rrarna avlyftas.
+
+3. D&#246;rrar skola vara s&#229; konstruerade, att de t&#228;cka alla springor och
+medgiva fullst&#228;ndig och effektiv tillslutning.
+
+4. Godsbeh&#229;llare skall vara f&#246;rsedd med tillfredsst&#228;llande
+skyddsanordning f&#246;r tullf&#246;rseglingen eller vara s&#229; konstruerad, att
+tullf&#246;rseglingen &#228;r skyddad p&#229; l&#228;mpligt s&#228;tt.
+
+Artikel 4
+
+Godsbeh&#229;llare f&#246;r s&#228;rskilda &#228;ndam&#229;l
+
+1. Ovann&#228;mnda villkor g&#228;lla f&#246;r v&#228;rmeisolerade beh&#229;llare, kyl-, tank-
+och m&#246;beltransportbeh&#229;llare samt f&#246;r beh&#229;llare, som &#228;ro s&#228;rskilt
+tillverkade f&#246;r lufttransport, i den m&#229;n villkoren &#228;ro f&#246;renliga med
+de tekniska krav, som dylika beh&#229;llare m&#229;ste uppfylla med h&#228;nsyn till
+sin anv&#228;ndning.
+
+2. Fl&#228;nsar (lock till p&#229;fyllnadsh&#229;l), kranar och manh&#229;l p&#229;
+tankbeh&#229;llare skola vara s&#229; konstruerade att en enkel och effektiv
+tullf&#246;rsegling d&#228;r&#229; kan anbringas.
+
+Artikel 5
+
+B&#246;jliga eller hopf&#228;llbara godsbeh&#229;llare
+
+B&#246;jliga eller hopf&#228;llbara godsbeh&#229;llare &#228;ro underkastade samma villkor
+som ej b&#246;jliga eller ej hopf&#228;llbara beh&#229;llare under f&#246;ruts&#228;ttning att
+tillslutningsanordningarna, som g&#246;ra dem b&#246;jliga eller hopf&#228;llbara,
+medgiva tullf&#246;rsegling och att ingen del av s&#229;dana beh&#229;llare kan
+borttagas utan att f&#246;rseglingen brytes.
+
+Artikel 6
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+F&#246;ljande l&#228;ttnader &#228;ro medgivna till och med den 31 december 1960:
+
+a) skyddsanordning f&#246;r &#246;ppningar f&#246;r luftning och avrinning genom
+gallerverk (artikel 2, moment 3 och 4) &#228;r icke obligatorisk, med
+undantag f&#246;r det fall att &#246;ppning f&#246;r luftning &#228;r f&#246;rsedd med
+flerfaldigt kr&#246;kta luftg&#229;ngar;
+
+b) skyddsanordning f&#246;r tullf&#246;rsegling (artikel 3, moment 4) &#228;r icke
+obligatorisk.
+
+Bilaga 2 till tullkonventionen om godsbeh&#229;llare
+
+F&#246;rfarande vid godk&#228;nnande och identifiering av godsbeh&#229;llare,
+vilken uppfyller de tekniska fordringar, som angivas i best&#228;mmelserna
+i bilaga 1
+
+1. F&#246;rfarandet vid godk&#228;nnande av godsbeh&#229;llare skall vara f&#246;ljande:
+
+a) Godsbeh&#229;llare kan godk&#228;nnas av vederb&#246;rande myndighet i det land, i
+vilket &#228;garen &#228;r bosatt eller driver r&#246;relse, eller av myndighet i det
+land, d&#228;r beh&#229;llare f&#246;rst nyttjas f&#246;r transport under tullf&#246;rsegling;
+
+b) Beslut om godk&#228;nnande skall inneh&#229;lla uppgifter om dag f&#246;r beslutet
+och beslutets nummer;
+
+c) Bevis om godk&#228;nnande i &#246;verensst&#228;mmelse med nedanst&#229;ende formul&#228;r
+skall utf&#228;rdas f&#246;r godk&#228;nd godsbeh&#229;llare. Detta bevis skall tryckas p&#229;
+spr&#229;ket i det land, d&#228;r det utf&#228;rdas, och p&#229; franska spr&#229;ket, och de
+olika rubrikerna skola numreras, f&#246;r att texten l&#228;ttare skall kunna
+f&#246;rst&#229;s p&#229; andra spr&#229;k. Beviset skall p&#229; b&#229;da sidor vara t&#228;ckt av
+hermetiskt f&#246;renade genomskinliga plastfolier;
+
+d) Beviset skall medf&#246;lja godsbeh&#229;llaren; det skall ins&#228;ttas i den
+skyddsram, som omn&#228;mnes i artikel 1, moment 4, i bilaga 1 och
+f&#246;rseglas s&#229; att det icke kan framtagas ur skyddsramen utan att
+f&#246;rseglingen brytes;
+
+e) Godsbeh&#229;llare skall vartannat &#229;r uppvisas f&#246;r vederb&#246;rande
+myndighet f&#246;r besiktning och om s&#229; finnes l&#228;mpligt f&#246;rnyelse av
+godk&#228;nnande;
+
+f) Godk&#228;nnandet f&#246;rlorar sin giltighet, om v&#228;sentligt k&#228;nnetecken hos
+beh&#229;llaren &#228;ndras, eller vid ombyte av &#228;gare.
+
+2. Oavsett best&#228;mmelserna i moment 1 ovan kunna godsbeh&#229;llare, vilka
+befordras endast &#229; j&#228;rnv&#228;g och vilka tillh&#246;ra eller &#228;ro inregistrerade
+av j&#228;rnv&#228;gsf&#246;rvaltning, som &#228;r medlem av Internationella
+j&#228;rnv&#228;gsunionen (UIC), godk&#228;nnas och regelbundet besiktigas av sagda
+j&#228;rnv&#228;gsf&#246;rvaltning, s&#229;framt icke landets vederb&#246;rande myndigheter
+annorledes besluta. F&#246;rh&#229;llandet att s&#229;dana godsbeh&#229;llare uppfylla de
+tekniska fordringar, som angivits i best&#228;mmelserna, skall utvisas av
+m&#228;rket i p&#229; beh&#229;llarens utsida. Bevis om godk&#228;nnande skall icke
+erfordras f&#246;r godsbeh&#229;llare med s&#229;dant m&#228;rke.
+
+Formul&#228;r
+
+Tullkonvention om godsbeh&#229;llare,
+
+avslutad i Gen&#232;ve den 18 maj 1956
+
+Bevis om godk&#228;nnande
+
+1. Bevis nr .....
+
+2. Nedan angivna godsbeh&#229;llare uppfyller f&#246;r transport under
+tullf&#246;rsegling f&#246;reskrivna villkor. /n1/
+
+//n1// N&#228;r godsbeh&#229;llare icke uppfyller alla de villkor, som angivits
+i de tv&#229; f&#246;rsta meningarna i artikel 2, moment 2, i bilaga 1, men
+uppfyller de villkor, som angivits i sagda moment f&#246;r befordran under
+tullf&#246;rsegling endast &#229; j&#228;rnv&#228;g, skall till&#228;ggas &quot;&#229; j&#228;rnv&#228;g&quot;.
+
+3. G&#228;ller intill .....
+
+4. Detta bevis skall &#229;terst&#228;llas till den myndighet, som utf&#228;rdat
+detsamma, n&#228;r godsbeh&#229;llaren tages ur trafik eller vid ombyte av &#228;gare
+eller vid utg&#229;ngen av bevisets giltighetstid eller om v&#228;sentligt
+k&#228;nnetecken hos beh&#229;llaren &#228;ndras.
+
+5. Typ av beh&#229;llare.
+
+6. &#196;garens namn och aff&#228;rsadress.
+
+7. Identifieringsm&#228;rken och nummer.
+
+8. Nettovikt.
+
+9. Ytterm&#229;tt i centimeter:   cm x    cm x   cm.
+
+10. V&#228;sentliga k&#228;nnetecken (material, konstruktion, f&#246;rst&#228;rkta delar,
+om bultar &#228;ro nitade eller svetsade etc.) .....
+
+11. Utf&#228;rdat i ..... (ort) den ..... (dag) 19..
+
+12. ..... Utf&#228;rdande myndighets st&#228;mpel och underskrift.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4382">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4384">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

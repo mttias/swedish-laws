@@ -1,0 +1,782 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-11-01" /> 
+ <meta id="rattsinfo-edited" content="2023-11-01 09:41:48" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2082</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2081">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2083">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2007:979 ·
+                    <a href="/sfsr?bet=2007:979">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2007:979) om &#229;tg&#228;rder f&#246;r att f&#246;rhindra vissa s&#228;rskilt allvarliga brott</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet D&#197;
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2007-11-22
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:538
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2008-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Ett tillst&#229;nd till hemlig avlyssning av elektronisk 
+kommunikation enligt 27 kap. 18 &#167; f&#246;rsta stycket 
+r&#228;tteg&#229;ngsbalken, hemlig &#246;vervakning av elektronisk 
+kommunikation enligt 27 kap. 19 &#167; r&#228;tteg&#229;ngsbalken, hemlig 
+kamera&#246;vervakning enligt 27 kap. 20 a &#167; r&#228;tteg&#229;ngsbalken eller 
+postkontroll enligt 4 &#167; f&#229;r beviljas om det med h&#228;nsyn till 
+omst&#228;ndigheterna finns en p&#229;taglig risk f&#246;r att en person 
+kommer att ut&#246;va brottslig verksamhet som innefattar
+
+1. sabotage eller grovt sabotage enligt 13 kap. 4 eller 5 &#167; 
+brottsbalken,
+
+2. mordbrand, grov mordbrand, allm&#228;nfarlig &#246;del&#228;ggelse, grov 
+allm&#228;nfarlig &#246;del&#228;ggelse, kapning, sj&#246;- eller 
+luftfartssabotage eller flygplats-sabotage enligt 13 kap. 1, 
+2, 3, 5 a eller 5 b &#167; brottsbalken, om brottet innefattar 
+sabotage enligt 4 &#167; samma kapitel,
+
+3. uppror, v&#228;pnat hot mot laglig ordning eller brott mot 
+medborgerlig frihet enligt 18 kap. 1, 3 eller 5 &#167; 
+brottsbalken,
+
+4. h&#246;gf&#246;rr&#228;deri, krigsanstiftan, spioneri, grovt spioneri, 
+utlandsspioneri, grovt utlandsspioneri, grov obeh&#246;rig 
+befattning med hemlig uppgift eller grov olovlig 
+underr&#228;ttelseverksamhet mot Sverige, mot fr&#228;mmande makt eller 
+mot person enligt 19 kap. 1, 2, 5, 6, 6 a, 6 b eller 8 &#167; eller 
+10 &#167; andra stycket, 10 a &#167; andra stycket eller 10 b &#167; andra 
+stycket brottsbalken,
+
+5. f&#246;retagsspioneri enligt 26 &#167; lagen (2018:558) om 
+f&#246;retagshemligheter, om det finns anledning att anta att den 
+brottsliga verksamheten kommer att ut&#246;vas p&#229; uppdrag av eller 
+underst&#246;djas av en fr&#228;mmande makt eller av n&#229;gon som kommer 
+att agera f&#246;r en fr&#228;mmande makts r&#228;kning,
+
+6. terroristbrott, deltagande i en terroristorganisation, 
+grovt brott, samr&#246;re med en terroristorganisation, grovt 
+brott, finansiering av terrorism eller s&#228;rskilt allvarlig 
+brottslighet, grovt brott, offentlig uppmaning till terrorism 
+eller s&#228;rskilt allvarlig brottslighet, grovt brott, 
+rekrytering till terrorism eller s&#228;rskilt allvarlig 
+brottslighet, grovt brott, eller utbildning f&#246;r terrorism 
+eller s&#228;rskilt allvarlig brottslighet, grovt brott, enligt 
+4 &#167;, 4 a &#167; tredje stycket, 5 &#167; tredje stycket, 6 &#167; tredje 
+stycket, 7 &#167; tredje stycket, 8 &#167; tredje stycket eller 9 &#167; 
+tredje stycket terroristbrottslagen (2022:666), eller
+
+7. mord, grov misshandel, synnerligen grov misshandel, 
+m&#228;nniskorov eller olaga frihetsber&#246;vande enligt 3 kap. 1, 2 
+eller 6 &#167; eller 4 kap. 1 &#167; eller 2 &#167; f&#246;rsta stycket 
+brottsbalken i avsikt att p&#229;verka offentliga organ eller den 
+som yrkesm&#228;ssigt bedriver nyhetsf&#246;rmedling eller annan 
+journalistik att vidta eller avst&#229; fr&#229;n att vidta en &#229;tg&#228;rd 
+eller att h&#228;mnas en &#229;tg&#228;rd.
+
+Ett tillst&#229;nd enligt f&#246;rsta stycket f&#229;r ocks&#229; beviljas om det 
+finns en p&#229;taglig risk f&#246;r att det inom en organisation eller 
+grupp kommer att ut&#246;vas brottslig verksamhet som avses i 
+f&#246;rsta stycket och det kan befaras att en person som tillh&#246;r 
+eller verkar f&#246;r organisationen eller gruppen medvetet kommer 
+att fr&#228;mja denna verksamhet. Lag (2023:537).
+
+1 a &#167; /Upph&#246;r att g&#228;lla U:2028-10-01 genom lag (2023:538)./
+Ett tillst&#229;nd till s&#229;dana tv&#229;ngsmedel som avses i 1 &#167; 
+f&#246;rsta stycket f&#229;r ocks&#229; beviljas om 
+
+1. det med h&#228;nsyn till omst&#228;ndigheterna finns en p&#229;taglig risk 
+f&#246;r att det inom en organisation eller grupp kommer att ut&#246;vas 
+brottslig verksamhet som innefattar 
+
+a) mord, m&#228;nniskorov, allm&#228;nfarlig &#246;del&#228;ggelse eller grov 
+allm&#228;nfarlig &#246;del&#228;ggelse enligt 3 kap. 1 &#167;, 4 kap. 1 &#167; f&#246;rsta 
+stycket eller 13 kap. 3 &#167; f&#246;rsta eller tredje stycket 
+brottsbalken, 
+
+b) grovt narkotikabrott eller synnerligen grovt narkotikabrott 
+enligt 3 &#167; narkotikastrafflagen (1968:64),
+
+c) grovt vapenbrott eller synnerligen grovt vapenbrott enligt 
+9 kap. 1 a &#167; vapenlagen (1996:67),
+
+d) grov narkotikasmuggling, synnerligen grov 
+narkotikasmuggling, grov vapensmuggling, synnerligen grov 
+vapensmuggling, grov smuggling av explosiv vara eller 
+synnerligen grov smuggling av explosiv vara enligt 6 &#167; tredje 
+eller fj&#228;rde stycket, 6 a &#167; tredje eller fj&#228;rde stycket eller 
+6 b &#167; tredje eller fj&#228;rde stycket lagen (2000:1225) om straff 
+f&#246;r smuggling, eller
+
+e) grovt brott eller synnerligen grovt brott enligt 29 a &#167; 
+lagen (2010:1011) om brandfarliga och explosiva varor, och 
+
+2. det kan befaras att en person som tillh&#246;r eller verkar f&#246;r 
+organisationen eller gruppen medvetet kommer att fr&#228;mja denna 
+verksamhet. Lag (2023:537).
+
+2 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+Hemlig avlyssning av elektronisk kommunikation och hemlig 
+&#246;vervakning av elektronisk kommunikation enligt 1 eller 1 a &#167; 
+f&#229;r endast avse ett telefonnummer eller en annan adress eller 
+en viss elektronisk kommunikationsutrustning som
+
+1. under den tid som tillst&#229;ndet avser innehas eller har 
+innehafts av den person som avses i 1 eller 1 a &#167; eller annars 
+kan antas ha anv&#228;nts eller komma att anv&#228;ndas av honom eller 
+henne, eller
+
+2. det finns synnerlig anledning att anta att den person som 
+avses i 1 eller 1 a &#167; under den tid som tillst&#229;ndet avser har 
+kontaktat eller kommer att kontakta.
+
+Avlyssning eller &#246;vervakning f&#229;r inte avse meddelanden som 
+endast &#246;verf&#246;rs eller har &#246;verf&#246;rts i ett elektroniskt 
+kommunikationsn&#228;t som med h&#228;nsyn till sin begr&#228;nsade 
+omfattning och omst&#228;ndigheterna i &#246;vrigt f&#229;r anses vara av 
+mindre betydelse fr&#229;n allm&#228;n kommunikationssynpunkt.
+Lag (2023:537).
+
+2 &#167; /Tr&#228;der i kraft I:2028-10-01/
+Hemlig avlyssning av elektronisk kommunikation och hemlig 
+&#246;vervakning av elektronisk kommunikation enligt 1 &#167; f&#229;r endast 
+avse ett telefonnummer eller en annan adress eller en viss 
+elektronisk kommunikationsutrustning som
+
+1. under den tid som tillst&#229;ndet avser innehas eller har 
+innehafts av den person som avses i 1 &#167; eller annars kan antas 
+ha anv&#228;nts eller komma att anv&#228;ndas av honom eller henne, 
+eller
+
+2. det finns synnerlig anledning att anta att den person som 
+avses i 1 &#167; under den tid som tillst&#229;ndet avser har kontaktat 
+eller kommer att kontakta.
+
+Avlyssning eller &#246;vervakning f&#229;r inte avse meddelanden som 
+endast &#246;verf&#246;rs eller har &#246;verf&#246;rts i ett elektroniskt 
+kommunikationsn&#228;t som med h&#228;nsyn till sin begr&#228;nsade 
+omfattning och omst&#228;ndigheterna i &#246;vrigt f&#229;r anses vara av 
+mindre betydelse fr&#229;n allm&#228;n kommunikationssynpunkt. 
+Lag (2023:538).
+
+3 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+Hemlig kamera&#246;vervakning enligt 1 eller 1 a &#167; f&#229;r endast 
+avse 
+
+1. en plats d&#228;r den person som avses i 1 eller 1 a &#167; kan antas 
+komma att uppeh&#229;lla sig, eller 
+
+2. en plats d&#228;r den brottsliga verksamheten som avses i 1 
+eller 1 a &#167; kan antas komma att ut&#246;vas eller en n&#228;ra omgivning 
+till denna plats. Lag (2023:537).
+
+3 &#167; /Tr&#228;der i kraft I:2028-10-01/
+Hemlig kamera&#246;vervakning enligt 1 &#167; f&#229;r endast avse 
+
+1. en plats d&#228;r den person som avses i 1 &#167; kan antas komma att 
+uppeh&#229;lla sig, eller 
+
+2. en plats d&#228;r den brottsliga verksamheten som avses i 1 &#167; 
+kan antas komma att ut&#246;vas eller en n&#228;ra omgivning till denna 
+plats. Lag (2023:538).
+
+4 &#167; Med postkontroll avses i denna lag att en f&#246;rs&#228;ndelse som 
+finns hos ett befordringsf&#246;retag h&#229;lls kvar till dess att den 
+har unders&#246;kts, &#246;ppnats eller granskats. Lag (2023:537).
+
+5 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+Ett tillst&#229;nd enligt denna lag f&#229;r beviljas endast om 
+
+1. &#229;tg&#228;rden &#228;r av synnerlig vikt f&#246;r att f&#246;rhindra s&#229;dan 
+brottslig verksamhet som avses i 1 eller 1 a &#167;, och 
+
+2. sk&#228;len f&#246;r &#229;tg&#228;rden uppv&#228;ger det intr&#229;ng eller men i &#246;vrigt 
+som &#229;tg&#228;rden inneb&#228;r f&#246;r den person som avses i 1 eller 1 a &#167; 
+eller f&#246;r n&#229;got annat motst&#229;ende intresse. Lag (2023:537).
+
+5 &#167; /Tr&#228;der i kraft I:2028-10-01/
+Ett tillst&#229;nd enligt denna lag f&#229;r beviljas endast om 
+
+1. &#229;tg&#228;rden &#228;r av synnerlig vikt f&#246;r att f&#246;rhindra s&#229;dan 
+brottslig verksamhet som avses i 1 &#167;, och 
+
+2. sk&#228;len f&#246;r &#229;tg&#228;rden uppv&#228;ger det intr&#229;ng eller men i &#246;vrigt 
+som &#229;tg&#228;rden inneb&#228;r f&#246;r den person som avses i 1 &#167; eller f&#246;r 
+n&#229;got annat motst&#229;ende intresse. Lag (2023:538).
+
+6 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+Fr&#229;gor om tillst&#229;nd till tv&#229;ngsmedel pr&#246;vas av r&#228;tten p&#229; 
+ans&#246;kan av &#229;klagaren.
+
+Fr&#229;gor om tillst&#229;nd till tv&#229;ngsmedel enligt 1 &#167; pr&#246;vas av 
+Stockholms tingsr&#228;tt. Regeringen kan med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen meddela f&#246;reskrifter om vilka tingsr&#228;tter som 
+f&#229;r pr&#246;va en ans&#246;kan om tillst&#229;nd till tv&#229;ngsmedel enligt 
+1 a &#167;.
+
+Vid tillst&#229;ndspr&#246;vningen ska det som f&#246;reskrivs om offentliga 
+ombud i 27 kap. 26-30 &#167;&#167; r&#228;tteg&#229;ngsbalken till&#228;mpas.
+Lag (2023:537).
+
+6 &#167; /Tr&#228;der i kraft I:2028-10-01/
+Fr&#229;gor om tillst&#229;nd till tv&#229;ngsmedel pr&#246;vas av r&#228;tten p&#229; 
+ans&#246;kan av &#229;klagaren.
+
+Fr&#229;gor om tillst&#229;nd till tv&#229;ngsmedel enligt 1 &#167; pr&#246;vas av 
+Stockholms tingsr&#228;tt. 
+
+Vid tillst&#229;ndspr&#246;vningen ska det som f&#246;reskrivs om offentliga 
+ombud i 27 kap. 26-30 &#167;&#167; r&#228;tteg&#229;ngsbalken till&#228;mpas.
+Lag (2023:538).
+
+6 a &#167; Om det kan befaras att inh&#228;mtande av r&#228;ttens tillst&#229;nd
+enligt 6 &#167; skulle medf&#246;ra en f&#246;rdr&#246;jning av v&#228;sentlig
+betydelse f&#246;r m&#246;jligheterna att f&#246;rhindra den brottsliga
+verksamheten, f&#229;r tillst&#229;nd till &#229;tg&#228;rden ges av &#229;klagaren i
+avvaktan p&#229; r&#228;ttens beslut.
+
+Om &#229;klagaren har l&#228;mnat tillst&#229;nd enligt f&#246;rsta stycket, ska
+han eller hon utan dr&#246;jsm&#229;l skriftligt anm&#228;la beslutet hos
+r&#228;tten. I anm&#228;lan ska sk&#228;len f&#246;r &#229;tg&#228;rden anges. R&#228;tten ska
+skyndsamt pr&#246;va &#228;rendet. Om r&#228;tten finner att det inte finns
+sk&#228;l f&#246;r &#229;tg&#228;rden, ska den upph&#228;va beslutet.
+
+Om &#229;klagarens beslut har verkst&#228;llts innan r&#228;tten gjort en
+pr&#246;vning som avses i andra stycket, ska r&#228;tten pr&#246;va om det
+funnits sk&#228;l f&#246;r &#229;tg&#228;rden. Om r&#228;tten finner att det saknats
+s&#229;dana sk&#228;l, f&#229;r de inh&#228;mtade uppgifterna inte anv&#228;ndas i en
+brottsutredning till nackdel f&#246;r den som har omfattats av
+avlyssningen eller &#246;vervakningen, eller f&#246;r n&#229;gon annan som
+uppgifterna avser. Lag (2014:1421).
+
+6 b &#167; /Upph&#246;r att g&#228;lla U:2028-10-01 genom lag (2023:538)./
+N&#228;r r&#228;tten har beslutat i fr&#229;gor om tillst&#229;nd till 
+tv&#229;ngsmedel enligt 1 a &#167; ska den skyndsamt underr&#228;tta 
+S&#228;kerhets- och integritetsskydds-n&#228;mnden om beslutet.
+Lag (2023:537).
+
+7 &#167; Den tid under vilken ett beslut om tillst&#229;nd g&#228;ller f&#229;r
+inte best&#228;mmas l&#228;ngre &#228;n n&#246;dv&#228;ndigt och f&#229;r, i fr&#229;ga om tid
+efter beslutet, inte &#246;verstiga en m&#229;nad fr&#229;n dagen f&#246;r
+beslutet.
+
+8 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+I ett beslut om tillst&#229;nd till tv&#229;ngsmedel ska det anges 
+
+1. vilket eller vilka tv&#229;ngsmedel som f&#229;r anv&#228;ndas,
+
+2. vilken brottslig verksamhet enligt 1 eller 1 a &#167; som ligger 
+till grund f&#246;r tillst&#229;ndet, och
+
+3. under vilken tid tillst&#229;ndet g&#228;ller.
+
+I ett beslut om tillst&#229;nd till hemlig avlyssning av 
+elektronisk kommunikation eller hemlig &#246;vervakning av 
+elektronisk kommunikation ska det, f&#246;rutom de uppgifter som 
+framg&#229;r av f&#246;rsta stycket, anges
+
+1. vilket telefonnummer eller annan adress eller vilken 
+elektronisk kommunikationsutrustning tillst&#229;ndet avser, och
+
+2. om &#229;tg&#228;rden f&#229;r verkst&#228;llas utanf&#246;r allm&#228;nt tillg&#228;ngliga 
+elektroniska kommunikationsn&#228;t.
+
+I ett beslut om tillst&#229;nd till hemlig kamera&#246;vervakning ska, 
+f&#246;rutom de uppgifter som framg&#229;r av f&#246;rsta stycket, den plats 
+anges som tillst&#229;ndet avser.
+
+I ett beslut om tillst&#229;nd till postkontroll ska det, f&#246;rutom 
+de uppgifter som framg&#229;r av f&#246;rsta stycket, anges
+
+1. vilka f&#246;rs&#228;ndelser som tillst&#229;ndet omfattar, och
+
+2. att information om &#229;tg&#228;rden inte f&#229;r l&#228;mnas till n&#229;gon utan 
+medgivande av den som har beg&#228;rt &#229;tg&#228;rden.
+
+I ett beslut om tillst&#229;nd till tv&#229;ngsmedel ska det, n&#228;r det 
+finns sk&#228;l till detta, ocks&#229; i &#246;vrigt anges villkor f&#246;r att 
+tillgodose intresset av att enskildas personliga integritet 
+inte kr&#228;nks i on&#246;dan. Lag (2023:537).
+
+8 &#167; /Tr&#228;der i kraft I:2028-10-01/
+I ett beslut om tillst&#229;nd till tv&#229;ngsmedel ska det anges 
+
+1. vilket eller vilka tv&#229;ngsmedel som f&#229;r anv&#228;ndas,
+
+2. vilken brottslig verksamhet enligt 1 &#167; som ligger till 
+grund f&#246;r tillst&#229;ndet, och
+
+3. under vilken tid tillst&#229;ndet g&#228;ller.
+
+I ett beslut om tillst&#229;nd till hemlig avlyssning av 
+elektronisk kommunikation eller hemlig &#246;vervakning av 
+elektronisk kommunikation ska det, f&#246;rutom de uppgifter som 
+framg&#229;r av f&#246;rsta stycket, anges
+
+1. vilket telefonnummer eller annan adress eller vilken 
+elektronisk kommunikationsutrustning tillst&#229;ndet avser, och
+
+2. om &#229;tg&#228;rden f&#229;r verkst&#228;llas utanf&#246;r allm&#228;nt tillg&#228;ngliga 
+elektroniska kommunikationsn&#228;t.
+
+I ett beslut om tillst&#229;nd till hemlig kamera&#246;vervakning ska, 
+f&#246;rutom de uppgifter som framg&#229;r av f&#246;rsta stycket, den plats 
+anges som tillst&#229;ndet avser.
+
+I ett beslut om tillst&#229;nd till postkontroll ska det, f&#246;rutom 
+de uppgifter som framg&#229;r av f&#246;rsta stycket, anges
+
+1. vilka f&#246;rs&#228;ndelser som tillst&#229;ndet omfattar, och
+
+2. att information om &#229;tg&#228;rden inte f&#229;r l&#228;mnas till n&#229;gon utan 
+medgivande av den som har beg&#228;rt &#229;tg&#228;rden.
+
+I ett beslut om tillst&#229;nd till tv&#229;ngsmedel ska det, n&#228;r det 
+finns sk&#228;l till detta, ocks&#229; i &#246;vrigt anges villkor f&#246;r att 
+tillgodose intresset av att enskildas personliga integritet 
+inte kr&#228;nks i on&#246;dan. Lag (2023:538).
+
+9 &#167; Vid hemlig avlyssning av elektronisk kommunikation och
+hemlig &#246;vervakning av elektronisk kommunikation f&#229;r de
+tekniska hj&#228;lpmedel som beh&#246;vs f&#246;r avlyssningen eller
+&#246;vervakningen anv&#228;ndas. Lag (2012:286).
+
+10 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+Om det inte l&#228;ngre finns sk&#228;l f&#246;r ett tillst&#229;nd till 
+tv&#229;ngsmedelsanv&#228;ndning enligt denna lag, ska &#229;klagaren eller 
+r&#228;tten omedelbart upph&#228;va beslutet om tillst&#229;nd. 
+Polismyndigheten, S&#228;kerhetspolisen eller Tullverket ska 
+omedelbart underr&#228;tta &#229;klagaren om omst&#228;ndigheter som har 
+betydelse f&#246;r om beslutet ska upph&#228;vas. Lag (2023:537).
+
+10 &#167; /Tr&#228;der i kraft I:2028-10-01/
+Om det inte l&#228;ngre finns sk&#228;l f&#246;r ett tillst&#229;nd till 
+tv&#229;ngsmedelsanv&#228;ndning enligt denna lag, ska &#229;klagaren eller 
+r&#228;tten omedelbart upph&#228;va beslutet om tillst&#229;nd. 
+Polismyndigheten eller S&#228;kerhetspolisen ska omedelbart 
+underr&#228;tta &#229;klagaren om omst&#228;ndigheter som har betydelse f&#246;r 
+om beslutet ska upph&#228;vas. Lag (2023:538).
+
+11 &#167; Hemlig avlyssning av elektronisk kommunikation f&#229;r inte
+ske av telefonsamtal eller andra meddelanden d&#228;r den som
+yttrar sig inte skulle ha kunnat h&#246;ras som vittne, enligt 36
+kap. 5 &#167; andra–sj&#228;tte styckena r&#228;tteg&#229;ngsbalken, om det som
+har sagts eller p&#229; annat s&#228;tt framkommit. Om det av
+avlyssningen framg&#229;r att det &#228;r fr&#229;ga om ett s&#229;dant samtal
+eller meddelande, ska avlyssningen omedelbart avbrytas.
+
+Upptagningar och uppteckningar fr&#229;n en hemlig avlyssning av
+elektronisk kommunikation ska, i den utstr&#228;ckning de omfattas
+av f&#246;rbudet, omedelbart f&#246;rst&#246;ras. Lag (2012:286).
+
+12 &#167; &#197;klagare f&#229;r besluta att uppgifter som har kommit fram 
+vid anv&#228;ndning av tv&#229;ngsmedel enligt denna lag f&#229;r anv&#228;ndas 
+f&#246;r ett annat &#228;ndam&#229;l &#228;n det som har legat till grund f&#246;r 
+tillst&#229;ndet. Lag (2023:537).
+
+13 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+En upptagning eller uppteckning som har gjorts vid hemlig 
+avlyssning av elektronisk kommunikation, hemlig &#246;vervakning av 
+elektronisk kommunikation eller hemlig kamera&#246;vervakning ska 
+granskas snarast m&#246;jligt. Granskningen f&#229;r utf&#246;ras av r&#228;tten, 
+en &#229;klagare, S&#228;kerhetspolisen, Polismyndigheten eller 
+Tullverket. Efter anvisning av r&#228;tten, en &#229;klagare eller n&#229;gon 
+av de n&#228;mnda myndigheterna f&#229;r granskningen &#228;ven utf&#246;ras av en 
+sakkunnig eller n&#229;gon annan som har anlitats i &#228;rendet.
+
+Upptagningar och uppteckningar ska, i de delar de &#228;r av 
+betydelse f&#246;r att f&#246;rhindra f&#246;rest&#229;ende brott, bevaras s&#229; 
+l&#228;nge det beh&#246;vs f&#246;r att f&#246;rhindra brott. I de delar 
+upptagningarna och uppteckningarna inneh&#229;ller s&#229;dana uppgifter 
+om brott som enligt 12 &#167; f&#229;r anv&#228;ndas f&#246;r att utreda brott ska 
+de bevaras till dess att f&#246;runders&#246;kningen har lagts ned eller 
+avslutats eller, om &#229;tal har v&#228;ckts, m&#229;let har avgjorts 
+slutligt. De ska d&#228;refter f&#246;rst&#246;ras. Lag (2023:537).
+
+13 &#167; /Tr&#228;der i kraft I:2028-10-01/
+En upptagning eller uppteckning som har gjorts vid hemlig 
+avlyssning av elektronisk kommunikation, hemlig &#246;vervakning av 
+elektronisk kommunikation eller hemlig kamera&#246;vervakning ska 
+granskas snarast m&#246;jligt. Granskningen f&#229;r utf&#246;ras av r&#228;tten, 
+en &#229;klagare, S&#228;kerhetspolisen eller Polismyndigheten. Efter 
+anvisning av r&#228;tten, en &#229;klagare eller n&#229;gon av de n&#228;mnda 
+myndigheterna f&#229;r granskningen &#228;ven utf&#246;ras av en sakkunnig 
+eller n&#229;gon annan som har anlitats i &#228;rendet.
+
+Upptagningar och uppteckningar ska, i de delar de &#228;r av 
+betydelse f&#246;r att f&#246;rhindra f&#246;rest&#229;ende brott, bevaras s&#229; 
+l&#228;nge det beh&#246;vs f&#246;r att f&#246;rhindra brott. I de delar 
+upptagningarna och uppteckningarna inneh&#229;ller s&#229;dana uppgifter 
+om brott som enligt 12 &#167; f&#229;r anv&#228;ndas f&#246;r att utreda brott ska 
+de bevaras till dess att f&#246;runders&#246;kningen har lagts ned eller 
+avslutats eller, om &#229;tal har v&#228;ckts, m&#229;let har avgjorts 
+slutligt. De ska d&#228;refter f&#246;rst&#246;ras. Lag (2023:538).
+
+14 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+En f&#246;rs&#228;ndelse som omfattas av ett tillst&#229;nd till 
+postkontroll f&#229;r unders&#246;kas, &#246;ppnas eller granskas av r&#228;tten, 
+en &#229;klagare, S&#228;kerhetspolisen, Polismyndigheten eller 
+Tullverket. Efter anvisning av r&#228;tten, en &#229;klagare eller n&#229;gon 
+av de n&#228;mnda myndigheterna f&#229;r granskningen &#228;ven utf&#246;ras av en 
+sakkunnig eller n&#229;gon annan som har anlitats i &#228;rendet. 
+F&#246;rs&#228;ndelsen ska unders&#246;kas snarast m&#246;jligt. N&#228;r 
+unders&#246;kningen har slutf&#246;rts, ska f&#246;rs&#228;ndelsen s&#228;ndas till den 
+som f&#246;rs&#228;ndelsen &#228;r st&#228;lld till, om den inte tas i beslag.
+Lag (2023:537).
+
+14 &#167; /Tr&#228;der i kraft I:2028-10-01/
+En f&#246;rs&#228;ndelse som omfattas av ett tillst&#229;nd till 
+postkontroll f&#229;r unders&#246;kas, &#246;ppnas eller granskas av r&#228;tten, 
+en &#229;klagare, S&#228;kerhetspolisen eller Polismyndigheten. Efter 
+anvisning av r&#228;tten, en &#229;klagare eller n&#229;gon av de n&#228;mnda 
+myndigheterna f&#229;r granskningen &#228;ven utf&#246;ras av en sakkunnig 
+eller n&#229;gon annan som har anlitats i &#228;rendet. F&#246;rs&#228;ndelsen ska 
+unders&#246;kas snarast m&#246;jligt. N&#228;r unders&#246;kningen har slutf&#246;rts, 
+ska f&#246;rs&#228;ndelsen s&#228;ndas till den som f&#246;rs&#228;ndelsen &#228;r st&#228;lld 
+till, om den inte tas i beslag. Lag (2023:538).
+
+15 &#167; R&#228;ttens beslut i fr&#229;gor om tv&#229;ngsmedelsanv&#228;ndning enligt
+denna lag f&#229;r verkst&#228;llas omedelbart.
+
+P&#229; f&#246;rfarandet enligt denna lag till&#228;mpas reglerna i
+r&#228;tteg&#229;ngsbalken om handl&#228;ggning vid domstol av fr&#229;gor om
+tv&#229;ngsmedel i brottm&#229;l och om &#246;verklagande av beslut i s&#229;dana
+fr&#229;gor, om inte annat s&#228;gs i denna lag. Handl&#228;ggningen ska ske
+skyndsamt.
+
+16 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+Den som har varit utsatt f&#246;r en &#229;tg&#228;rd enligt 1 &#167; f&#246;rsta 
+stycket 7 eller 1 a &#167; ska underr&#228;ttas om &#229;tg&#228;rden. Om &#229;tg&#228;rden 
+har avsett ett telefonnummer eller en annan adress, en viss 
+elektronisk kommunikationsutrustning eller en plats som 
+innehas av n&#229;gon annan, ska &#228;ven han eller hon underr&#228;ttas. 
+Vid hemlig kamera&#246;vervakning beh&#246;ver dock innehavaren av en 
+plats som allm&#228;nheten har tilltr&#228;de till inte underr&#228;ttas.
+
+Underr&#228;ttelsen ska l&#228;mnas s&#229; snart det kan ske efter det att 
+det &#228;rende som &#229;tg&#228;rden vidtogs i avslutades.
+
+En underr&#228;ttelse beh&#246;ver inte l&#228;mnas till den som redan har 
+f&#229;tt del av eller tillg&#229;ng till uppgifterna. En underr&#228;ttelse 
+beh&#246;ver inte heller l&#228;mnas om den med h&#228;nsyn till 
+omst&#228;ndigheterna uppenbart &#228;r utan betydelse. Lag (2023:537).
+
+16 &#167; /Tr&#228;der i kraft I:2028-10-01/
+Den som har varit utsatt f&#246;r en &#229;tg&#228;rd enligt 1 &#167; f&#246;rsta 
+stycket 7 ska underr&#228;ttas om &#229;tg&#228;rden. Om &#229;tg&#228;rden har avsett 
+ett telefonnummer eller en annan adress, en viss elektronisk 
+kommunikationsutrustning eller en plats som innehas av n&#229;gon 
+annan, ska &#228;ven han eller hon underr&#228;ttas. Vid hemlig 
+kamera&#246;vervakning beh&#246;ver dock innehavaren av en plats som 
+allm&#228;nheten har tilltr&#228;de till inte underr&#228;ttas.
+
+Underr&#228;ttelsen ska l&#228;mnas s&#229; snart det kan ske efter det att 
+det &#228;rende som &#229;tg&#228;rden vidtogs i avslutades.
+
+En underr&#228;ttelse beh&#246;ver inte l&#228;mnas till den som redan har 
+f&#229;tt del av eller tillg&#229;ng till uppgifterna. En underr&#228;ttelse 
+beh&#246;ver inte heller l&#228;mnas om den med h&#228;nsyn till 
+omst&#228;ndigheterna uppenbart &#228;r utan betydelse. Lag (2023:538).
+
+17 &#167; /Upph&#246;r att g&#228;lla U:2028-10-01/
+En underr&#228;ttelse enligt 16 &#167; ska inneh&#229;lla uppgifter om 
+vilket tv&#229;ngsmedel som har anv&#228;nts och om tiden f&#246;r &#229;tg&#228;rden. 
+Vid hemlig avlyssning av elektronisk kommunikation och hemlig 
+&#246;vervakning av elektronisk kommunikation ska underr&#228;ttelsen 
+&#228;ven inneh&#229;lla uppgift om vilket telefonnummer eller annan 
+adress eller vilken elektronisk kommunikationsutrustning som 
+&#229;tg&#228;rden har avsett. Vid hemlig kamera&#246;vervakning ska 
+underr&#228;ttelsen &#228;ven inneh&#229;lla uppgift om vilken plats som har 
+&#246;vervakats. Den som har varit utsatt f&#246;r en &#229;tg&#228;rd enligt 1 &#167; 
+f&#246;rsta stycket 7 eller 1 a &#167; ska f&#229; uppgift om vilken 
+misstanke som har legat till grund f&#246;r &#229;tg&#228;rden. Den som inte 
+&#228;r eller har varit misst&#228;nkt ska f&#229; uppgift om detta.
+Lag (2023:537).
+
+17 &#167; /Tr&#228;der i kraft I:2028-10-01/
+En underr&#228;ttelse enligt 16 &#167; ska inneh&#229;lla uppgifter om 
+vilket tv&#229;ngsmedel som har anv&#228;nts och om tiden f&#246;r &#229;tg&#228;rden. 
+Vid hemlig avlyssning av elektronisk kommunikation och hemlig 
+&#246;vervakning av elektronisk kommunikation ska underr&#228;ttelsen 
+&#228;ven inneh&#229;lla uppgift om vilket telefonnummer eller annan 
+adress eller vilken elektronisk kommunikationsutrustning som 
+&#229;tg&#228;rden har avsett. Vid hemlig kamera&#246;vervakning ska 
+underr&#228;ttelsen &#228;ven inneh&#229;lla uppgift om vilken plats som har 
+&#246;vervakats. Den som har varit utsatt f&#246;r en &#229;tg&#228;rd enligt 1 &#167; 
+f&#246;rsta stycket 7 ska f&#229; uppgift om vilken misstanke som har 
+legat till grund f&#246;r &#229;tg&#228;rden. Den som inte &#228;r eller har varit 
+misst&#228;nkt ska f&#229; uppgift om detta. Lag (2023:538).
+
+18 &#167; Om det g&#228;ller sekretess enligt 15 kap. 1 eller 2 &#167;, 18
+kap. 1, 2 eller 3 &#167; eller 35 kap. 1 eller 2 &#167; offentlighets-
+och sekretesslagen (2009:400) f&#246;r uppgifter som avses i 17 &#167;,
+ska en underr&#228;ttelse enligt 16 &#167; skjutas upp till dess att
+sekretess inte l&#228;ngre g&#228;ller.
+
+Har det p&#229; grund av sekretess enligt f&#246;rsta stycket inte
+kunnat l&#228;mnas n&#229;gon underr&#228;ttelse inom ett &#229;r fr&#229;n det att
+det &#228;rende i vilket &#229;tg&#228;rden vidtogs avslutades, f&#229;r
+underr&#228;ttelsen underl&#229;tas. Lag (2009:523).
+
+19 &#167; Beslut och &#229;tg&#228;rder som r&#246;r tv&#229;ngsmedel enligt denna lag 
+ska dokumenteras. Lag (2023:537).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2007:979
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2008 och g&#228;ller till
+och med den 31 december 2010.
+
+2. Tillst&#229;nd till hemlig teleavlyssning och hemlig
+tele&#246;vervakning f&#246;r tid f&#246;re r&#228;ttens beslut f&#229;r inte avse tid
+f&#246;re ikrafttr&#228;dandet.
+
+2014:1421
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2015.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller i fr&#229;ga om anv&#228;ndning och
+behandling av uppgifter som vid tv&#229;ngsmedelsanv&#228;ndning enligt
+denna lag har kommit fram om n&#229;got annat brott eller n&#229;gon
+annan brottslig verksamhet &#228;n som omfattats av tillst&#229;nd
+enligt lagen, om uppgifterna har samlats in f&#246;re den 1
+januari 2015.
+
+2023:537
+
+1. Denna lag tr&#228;der i kraft den 1 oktober 2023.
+
+2. F&#246;r uppgifter fr&#229;n tv&#229;ngsmedel som har verkst&#228;llts f&#246;re 
+ikrafttr&#228;dandet g&#228;ller 12 och 13 &#167;&#167; i den &#228;ldre lydelsen.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2081">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2083">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

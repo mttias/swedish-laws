@@ -1,0 +1,607 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2011-02-24" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4586</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4585">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4587">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1909:bih. 29 s.1 ·
+                    <a href="/sfsr?bet=1909:bih. 29 s.1">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Resolution (1909:bih. 29 s.1) ang&#229;ende fastst&#228;llande av grundstadgar f&#246;r Handelsh&#246;gskolan i Stockholm</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Utbildningsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1909-05-27
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Grundstadgar f&#246;r handelsh&#246;gskolan i Stockholm. 
+ 
+&#167; 1. 
+ 
+Handelsh&#246;gskolan i Stockholm har till &#228;ndam&#229;l att genom vetenskaplig 
+undervisning och forskning befr&#228;mja aff&#228;rsverksamhetens h&#246;jande inom 
+landet. 
+ 
+&#167; 2. 
+ 
+H&#246;gsta v&#229;rden och styrelsen af handelsh&#246;gskolan ut&#246;fvas af dess 
+direktion, som j&#228;mv&#228;l sj&#228;lf eller genom ombud f&#246;r h&#246;gskolans talan utom 
+i det s&#228;rskilda fall, hvarom i &#167; 24 s&#228;gs. 
+ 
+N&#228;rmaste ledningen af studiearbetet vid h&#246;gskolan 
+tillkommer h&#246;gskolans rektor och l&#228;rarr&#229;d. 
+ 
+&#167; 3. 
+ 
+Handelsh&#246;gskolans direktion best&#229;r af fem ledam&#246;ter, n&#228;mligen: 
+ 
+en ordf&#246;rande, f&#246;rordnad af Kungl. Maj:t f&#246;r den tid, som af Kungl. 
+Maj:t best&#228;mmes, 
+ 
+tre ledam&#246;ter, som utses af handelsh&#246;gskolef&#246;reningens styrelse f&#246;r en 
+tid af tre &#229;r och af hvilka en afg&#229;r hvarje &#229;r, samt 
+handelsh&#246;gskolans rektor. 
+ 
+Direktionen utser inom sig f&#246;r ett &#229;r i s&#228;nder dels vice ordf&#246;rande samt 
+dels en af sina ledam&#246;ter att som h&#246;gskolans inspektor s&#228;rskildt f&#246;lja 
+h&#246;gskolans arbeten med sin uppm&#228;rksamhet. Till ingendera befattningen 
+kan h&#246;gskolans rektor v&#228;ljas. 
+ 
+ 
+&#167; 4. 
+ 
+Direktionen sammantr&#228;der s&#229; ofta &#228;rendena det fordra. &#196;ro b&#229;de 
+ordf&#246;randen och vice ordf&#246;randen hindrade att bevista sammantr&#228;de, 
+v&#228;ljes ordf&#246;rande f&#246;r tillf&#228;llet. F&#246;r att direktionen m&#229; kunna fatta 
+beslut, skola, d&#228;r ej s&#228;rskildt annorlunda stadgas, minst tre ledam&#246;ter 
+vara tillst&#228;des. 
+ 
+Vid val, som ej afser tills&#228;ttning af l&#228;rar&#228;mbete eller annan tj&#228;nst vid 
+h&#246;gskolan eller f&#246;rordnande att f&#246;rest&#229; s&#229;dan, sker omr&#246;stning med 
+slutna sedlar, och lotten skiljer emellan dem, som f&#229;tt lika antal 
+r&#246;ster. I &#246;frigt verkst&#228;lles omr&#246;stning &#246;ppet, och blifver den mening 
+g&#228;llande, hvarom de flesta ledam&#246;terna f&#246;rena sig. &#196;ro r&#246;sterna p&#229; 
+hvardera sidan lika, g&#228;ller den mening, som bitr&#228;des af ordf&#246;randen. 
+ 
+Vid direktionens sammantr&#228;de f&#246;res protokoll, hvars riktighet granskas 
+senast vid n&#228;sta sammankomst. 
+ 
+&#167; 5. 
+ 
+L&#228;rarr&#229;det best&#229;r af h&#246;gskolans rektor, de l&#228;rare, som innehafva 
+professorsbefattning och &#228;ro i ut&#246;fning af sin tj&#228;nst, samt de, som p&#229; 
+f&#246;rordnande f&#246;rest&#229; s&#229;dan befattning eller leda sj&#228;lfst&#228;ndig och med 
+examination f&#246;renad undervisning. N&#228;r fr&#229;ga &#228;r om f&#246;rordnande eller 
+f&#246;rslag till l&#228;rarbefattningar eller om s&#229;dant &#228;rende, som i &#167; 12 
+n&#228;mnes, &#228;ga blott rektor och tj&#228;nstg&#246;rande ordinarie innehafvare af 
+professorsbefattning deltaga i l&#228;rarr&#229;dets &#246;fverl&#228;ggningar och beslut. 
+ 
+Vid omr&#246;stning g&#228;ller hvad i &#167; 4 s&#228;ges. 
+ 
+P&#229; l&#228;rarr&#229;det ankommer: 
+ 
+att vaka &#246;fver undervisningens tillb&#246;rliga g&#229;ng samt &#246;fver ordningen vid 
+h&#246;gskolan, 
+ 
+att hos h&#246;gskolans direktion g&#246;ra de andraganden, som l&#228;rarr&#229;det anser 
+befordra h&#246;gskolans b&#228;sta, samt 
+ 
+att afgifva yttranden ang&#229;ende l&#228;rarbefattningars tills&#228;ttande och 
+l&#228;rarf&#246;rordnanden samt i &#246;frigt de utl&#229;tanden, som af direktionen 
+infordras. 
+ 
+L&#228;rarr&#229;dets &#229;ligganden i &#246;frigt best&#228;mmas i den ordningsstadga f&#246;r 
+h&#246;gskolan, hvarom nedan f&#246;rm&#228;les. 
+ 
+ 
+&#167; 6. 
+ 
+Rektor vid h&#246;gskolan utses af direktionen f&#246;r en tid af fem &#229;r, efter 
+hvilken tids utg&#229;ng uppdraget kan f&#246;rnyas. Direktionens f&#246;rordnande 
+skall hvarje g&#229;ng underst&#228;llas Kungl. Maj:ts stadsf&#228;stelse. Skulle denna 
+f&#246;rv&#228;gras, upptager direktionen saken till ny behandling. 
+ 
+&#167; 7. 
+ 
+Rektor &#228;r ordf&#246;rande i l&#228;rarr&#229;det. Honom &#229;ligger att &#228;gna noggrann 
+tillsyn &#229;t allt, som r&#246;rer h&#246;gskolan. S&#228;rskildt tillkommer rektor: 
+ 
+att tillse, att undervisningen vederb&#246;rligen handhafves, att ordning 
+uppr&#228;tth&#229;lles bland l&#228;rljungarna, att institutioner och &#246;frig egendom 
+v&#228;l v&#229;rdas, att anslag anv&#228;ndas f&#246;r sina r&#228;tta &#228;ndam&#229;l samt att l&#228;rare 
+och tj&#228;nstem&#228;n i allo uppfylla sina &#229;ligganden; 
+ 
+att befordra l&#228;rarr&#229;dets beslut till verkst&#228;llighet; och 
+ 
+att utf&#246;ra de uppdrag, direktionen kan anf&#246;rtro honom. 
+ 
+Rektor &#228;ger, d&#229; sk&#228;l d&#228;rtill f&#246;rekomma, erinra s&#229;v&#228;l l&#228;rare och 
+tj&#228;nstem&#228;n som ock de studerande om noggrant 
+uppfyllande af deras plikter emot h&#246;gskolan. I sv&#229;rare fall g&#246;re han 
+anm&#228;lan hos direktionen betr&#228;ffande l&#228;rare och tj&#228;nstem&#228;n samt hos 
+l&#228;rarr&#229;det hvad ang&#229;r de studerande. 
+ 
+&#167; 8. 
+ 
+Direktionen best&#228;mmer p&#229; l&#228;rarr&#229;dets f&#246;rslag eller efter dess h&#246;rande, 
+hvilka befattningar skola finnas vid h&#246;gskolan. 
+ 
+&#167; 9. 
+ 
+Befattningar vid h&#246;gskolan tills&#228;ttas af direktionen, hvilken j&#228;mv&#228;l 
+meddelar f&#246;rordnande att dem f&#246;rest&#229;. 
+ 
+Professorsbefattning &#228;ger direktionen tills&#228;tta med fast anst&#228;llning. 
+Andra befattningar m&#229; ej tills&#228;ttas annorlunda &#228;n genom f&#246;rordnande 
+tills vidare eller p&#229; viss tid. 
+ 
+Vid bes&#228;ttande af l&#228;rarplats har direktionen att i f&#246;rsta rummet f&#228;sta 
+afseende vid den f&#246;r befattningen &#229;dagalagda skickligheten. S&#229;som l&#228;rare 
+vid h&#246;gskolan kan icke blott svensk utan &#228;fven utl&#228;ndsk man eller kvinna 
+anst&#228;llas. 
+ 
+&#167; 10. 
+ 
+Skall professorsbefattning tills&#228;ttas och yppar sig tillf&#228;lle att vinna 
+n&#229;gon f&#246;r platsen f&#246;retr&#228;desvis skicklig person, &#228;ger direktionen, efter 
+l&#228;rarr&#229;dets h&#246;rande, besluta att utan ans&#246;kan kalla denne till 
+befattningen. L&#228;rarr&#229;det m&#229; ock kunna hos direktionen  v&#228;cka f&#246;rslag om 
+s&#229;dan kallelse. Beslut h&#228;rom kan icke fattas af direktionen, d&#228;rest ej 
+minst fyra af dess medlemmar &#228;ro d&#228;rom ense. 
+ 
+Har direktionen beslutit kalla n&#229;gon till professorsbefattning, 
+underst&#228;lles beslutet Kungl. Maj:ts pr&#246;fning och stadf&#228;stelse, skolande 
+f&#246;r s&#229;dant &#228;ndam&#229;l samtliga handlingar i &#228;rendet &#246;fverl&#228;mnas till Kungl. 
+Maj:t. Godk&#228;nner Kungl. Maj:t ej kallelsen, upptages &#228;rendet till ny 
+behandling. 
+ 
+&#167; 11. 
+ 
+N&#228;r kallelse till ledig professorsbefattning ej &#228;ger rum, kung&#246;r 
+direktionen ledigheten i allm&#228;nna tidningarna minst tre g&#229;nger med 
+tillk&#228;nnagifvande, att ans&#246;kningar m&#229; ingifvas till direktionen f&#246;re 
+klockan tolf &#229; trettionde dagen efter den dag, d&#229; kung&#246;relsen f&#246;rsta 
+g&#229;ngen var i tidningarna inf&#246;rd. 
+ 
+Sedan ans&#246;kningarna inkommit, &#246;fverl&#228;mnas de till l&#228;rarr&#229;det, som genom 
+offentligt anslag best&#228;mmer en tid af h&#246;gst tre m&#229;nader, inom hvilken 
+det st&#229;r s&#246;kande &#246;ppet att styrka sin skicklighet, dock att, om 
+proftiden h&#228;rigenom skulle komma att utl&#246;pa under ferier eller f&#246;re den 
+trettionde dagen af d&#228;rp&#229; f&#246;ljande l&#228;stermin, tiden skall utstr&#228;ckas 
+till n&#228;mnda dag. L&#228;rarr&#229;det utser ock sakkunniga personer, minst tre, 
+h&#246;gst fem, att afgifva yttrande i &#228;rendet. 
+ 
+S&#246;kande skall vid h&#246;gskolan afl&#228;gga f&#246;rel&#228;sningsprof, d&#228;r ej direktionen 
+efter l&#228;rrarr&#229;dets h&#246;rande frikallar honom 
+d&#228;rifr&#229;n. 
+ 
+N&#228;r utsatt proftid lupit till &#228;nda och de utsedda sakkunniga yttrat sig, 
+skall l&#228;rarr&#229;det, s&#229; snart ske kan, f&#246;retaga &#228;rendet till behandling och 
+till direktionen afgifva utl&#229;tande s&#229;v&#228;l &#246;fver de prof, som de s&#246;kande 
+aflagt, som &#228;fven &#246;fver de s&#246;kandes skicklighet till befattningen och 
+den ordning, hvari l&#228;rrar&#229;det anser dem f&#246;rtj&#228;na att ifr&#229;gakomma. 
+ 
+Finner direktionen efter tagen k&#228;nnedom af l&#228;rrarr&#229;dets yttrande s&#229;dant 
+n&#246;digt, m&#229; &#228;fven direktionen infordra utl&#229;tande fr&#229;n sakkunniga. 
+ 
+Sedan &#228;rendet blifvit s&#229;lunda beredt, n&#228;mner direktionen den af de 
+s&#246;kande, hvilken direktionen finner till befattningen skickligast. 
+Beslutet underst&#228;lles Kungl. Maj:ts pr&#246;fning och stadf&#228;stelse, f&#246;r 
+hvilket &#228;ndam&#229;l samtliga handlingar i &#228;rendet &#246;fverl&#228;mnas till Kungl. 
+Maj:t. Stadf&#228;ster Kungl. Maj:t ej utn&#228;mningen, upptages &#228;rendet till ny 
+behandling. 
+ 
+Skulle ingen af de s&#246;kande anses fullt l&#228;mplig eller har icke n&#229;gon 
+s&#246;kande anm&#228;lt sig, uts&#228;tter direktionen ny ans&#246;kningstid eller 
+beslutar, att med tills&#228;ttningen skall tills vidare anst&#229;. 
+ 
+&#167; 12. 
+ 
+Skulle professor vid ut&#246;fningen af sin befattning s&#229; brista i nit eller 
+skicklighet, att fr&#229;ga uppst&#229;r att skilja honom fr&#229;n befattningen f&#246;r 
+alltid eller p&#229; viss tid, eller skulle han eljest g&#246;ra sig skyldig till 
+f&#246;rseelse, som m&#229; till s&#229;dan p&#229;f&#246;ljd f&#246;ranleda, l&#229;te direktionen 
+skriftligen gifva honom del af hvad som anm&#228;rkes mot honom samt l&#228;mna 
+honom trettio dagars r&#229;drum att yttra sig d&#228;r&#246;fver. Sedan 
+f&#246;rklaringstiden utlupit, &#246;fverl&#228;mnas handlingarna, vare sig infordrad 
+f&#246;rklaring inkommit eller ej, till l&#228;rrar&#229;det, som har att till 
+direktionen skyndsamt afgifva utl&#229;tande i &#228;rendet. 
+ 
+Efter att hafva mottagit detta utl&#229;tande afg&#246;r direktionen fr&#229;gan, 
+d&#228;rvid direktionen &#228;ger f&#246;r alltid eller f&#246;r viss tid af h&#246;gst ett &#229;r 
+skilja l&#228;raren fr&#229;n hans befattning och d&#228;rmed &#229;tf&#246;ljande f&#246;rm&#229;ner, 
+d&#228;rest minst fyra ledam&#246;ter &#228;ro ense om beslutet. Direktionens beslut 
+&#228;ger dock ej giltighet, f&#246;rr&#228;n det blifvit af Kungl. Maj:t fastst&#228;lldt; 
+skolande f&#246;r s&#229;dant &#228;ndam&#229;l samtliga handlingar i &#228;rendet &#246;fverl&#228;mnas 
+till Kungl. Maj:t. 
+ 
+&#167; 13. 
+ 
+F&#246;rordnande att f&#246;rest&#229; professorsbefattning, f&#246;rordnande till docent-, 
+lektors- och bibliotekariebefattningar samt uppdrag att vid h&#246;gskolan 
+gifva tillf&#228;lliga kurser meddelas af direktionen p&#229; l&#228;rrar&#229;dets f&#246;rslag 
+eller efter dess h&#246;rande. 
+ 
+ 
+&#167; 14. 
+ 
+Tj&#228;nstledighet m&#229;, d&#229; sk&#228;l d&#228;rtill f&#246;rekomma, beviljas: 
+ 
+&#229;t h&#246;gskolans rektor f&#246;r &#229;tta dagar af direktionens ordf&#246;rande eller i 
+dennes fr&#229;nvaro af vice ordf&#246;randen samt f&#246;r l&#228;ngre tid af direktionen; 
+ 
+samt &#229;t h&#246;gskolans l&#228;rare och tj&#228;nstem&#228;n f&#246;r &#229;tta dagar af rektor, f&#246;r 
+h&#246;gst trettio dagar af direktionens ordf&#246;rande eller i dennes fr&#229;nvaro 
+af vice ordf&#246;randen samt f&#246;r l&#228;ngre tid af direktionen. 
+ 
+I h&#228;ndelse af behof f&#246;rordnas vikarie i samband med beviljande af 
+tj&#228;nstledighet. 
+ 
+&#167; 15. 
+ 
+Rektor och professorer vid handelsh&#246;gskolan skola, d&#229; de uppn&#229;tt 65 &#229;rs 
+&#229;lder och minst 25 &#229;r varit anst&#228;llda s&#229;som l&#228;rare vid h&#246;gskola, hvaraf 
+minst de 20 sista vid handelsh&#246;gskolan, afg&#229; fr&#229;n sin befattning mot 
+&#229;tnjutande f&#246;r sin &#229;terst&#229;ende lefnad af en &#229;rlig pension, motsvarande 
+den del af afl&#246;ningsf&#246;rm&#229;nerna vid afskedstagandet, som utg&#246;r l&#246;n. 
+L&#228;rare m&#229;, om direktionen honom d&#228;rom anmodar, i tj&#228;nsten kvarst&#229; under 
+h&#246;gst fem &#229;r efter n&#228;mnda tidpunkt. 
+ 
+Om pensionsr&#228;tt vid tidigare afg&#229;ng samt om skyldighet att l&#228;mna bidrag 
+till pensioneringen stadgas i h&#246;gskolans s&#228;rskilda pensionsreglemente. 
+ 
+&#167; 16. 
+ 
+L&#228;s&#229;ret vid h&#246;gskolan b&#246;rjar i oktober m&#229;nad och p&#229;g&#229;r, med tv&#229; veckors 
+uppeh&#229;ll vid julen, under sammanlagdt 35 veckor. Tidpunkten f&#246;r dess 
+b&#246;rjan och afslutning best&#228;mmes af h&#246;gskolans direktion. 
+ 
+&#167; 17. 
+ 
+F&#246;r hvarje l&#228;s&#229;r uppg&#246;res, p&#229; s&#228;tt i ordningsstadgan n&#228;rmare angifves, 
+en fullst&#228;ndig undervisningsplan. R&#246;rande omf&#229;nget af l&#228;rare 
+tillkommande undervisningsskyldighet f&#246;reskrifves i n&#228;mnda stadga. 
+ 
+&#167; 18. 
+ 
+R&#228;tt att intr&#228;da som l&#228;rjunge vid h&#246;gskolan tillkommer v&#228;lfrejdad man 
+eller kvinna, som antingen: 
+ 
+a) aflagt studentexamen, eller 
+ 
+b) &#228;r eller varit som l&#228;rljunge inskrifven vid annan h&#246;gskola eller 
+erh&#229;llit godk&#228;ndt afg&#229;ngsbetyg fr&#229;n Chalmers tekniska l&#228;roanstalt i 
+G&#246;teborg, eller 
+ 
+c) erh&#229;llit godk&#228;ndt afg&#229;ngsbetyg fr&#229;n under statens kontroll st&#229;ende 
+h&#246;gre handelsl&#228;roverk, eller 
+ 
+d) med godk&#228;ndt afg&#229;ngsbetyg utg&#229;tt fr&#229;n tekniskt elementarl&#228;roverk. 
+ 
+&#196;fven den, som icke uppfyllt n&#229;gon af dessa intr&#228;desfordringar, kan 
+vinna intr&#228;de vid h&#246;gskolan, d&#228;rest l&#228;rarr&#229;det efter pr&#246;fning, p&#229; s&#228;tt i 
+ordningsstadgan n&#228;rmare angifves, finner den s&#246;kande &#228;ga n&#246;diga 
+f&#246;ruts&#228;ttningar att med gagn f&#246;lja den meddelade undervisningen. 
+ 
+&#167; 19. 
+ 
+H&#246;gskolan bereder de l&#228;rljungar, hvilka s&#229;dant &#246;nska, tillf&#228;lle att, p&#229; 
+s&#228;tt i ordningsstadgan n&#228;rmare f&#246;reskrifves, underg&#229; examen, hvarj&#228;mte 
+l&#228;rljunge &#228;ger att utan examens afl&#228;ggande efter s&#228;rskild pr&#246;fning 
+erh&#229;lla vitsord &#246;fver sina kunskaper uti ett eller flera af de &#228;mnen, i 
+hvilka han vid h&#246;gskolan njutit undervisning. 
+ 
+&#167; 20. 
+ 
+L&#228;rljunge skall st&#228;lla sig till noggrann efterlefnad allt, hvad i de f&#246;r 
+h&#246;gskolan g&#228;llande p&#229;bud finnes best&#228;mdt eller af vederb&#246;rande myndighet 
+s&#228;rskildt f&#246;reskrifves. 
+ 
+Ang&#229;ende l&#228;rjunges skyldighet att erl&#228;gga afgifter till h&#246;gskolan s&#229; ock 
+om befrielse fr&#229;n s&#229;dana afgifter best&#228;mmes i ordningsstadgan. 
+ 
+&#167; 21. 
+ 
+Om l&#228;rljunge bryter mot g&#228;llande f&#246;reskrifter, g&#246;r sig k&#228;nd f&#246;r osedligt 
+och f&#246;rargelsev&#228;ckande lefverne, visar f&#246;rsumlighet i studier eller 
+oh&#246;rsamhet mot f&#246;rm&#228;n och l&#228;rare eller beg&#229;r annan dylik f&#246;rseelse, &#228;ger 
+rektor att kalla honom inf&#246;r sig och, d&#228;rest saken det kr&#228;fver, gifva 
+honom allvarlig f&#246;rest&#228;llning och varning. Befinnes f&#246;rseelsen vara af 
+sv&#229;rare beskaffenhet, h&#228;nskjutes &#228;rendet till l&#228;rarr&#229;det, som &#228;ger att 
+tilldela l&#228;rjungen f&#246;rest&#228;llning och varning eller skilja honom fr&#229;n 
+h&#246;gskolan p&#229; en eller flera terminer eller f&#246;r alltid &#228;fvensom &#229;d&#246;ma 
+honom f&#246;rlust af stipendium vid h&#246;gskolan. Har l&#228;rarr&#229;det d&#246;mt till 
+skiljande fr&#229;n h&#246;gskolan, &#228;ger l&#228;rjungen r&#228;tt att anf&#246;ra besv&#228;r hos 
+direktionen inom fjorton dagar efter den dag, d&#229; beslutet delgafs honom. 
+ 
+&#167; 22. 
+ 
+Till de f&#246;rel&#228;sningar, som h&#229;llas vid h&#246;gskolan, skola i m&#229;n af utrymme 
+&#228;fven andra &#228;n de vid h&#246;gskolan inskrifna l&#228;rjungar &#228;ga tilltr&#228;de. I 
+ordningsstadgan best&#228;mmes, om och till hvilka belopp afgifter h&#228;rf&#246;r 
+skola erl&#228;ggas. 
+ 
+&#167; 23. 
+ 
+De tillg&#229;ngar, som f&#246;r h&#246;gskolans r&#228;kning f&#246;rv&#228;rfvats, st&#229; liksom de 
+till h&#246;gskolans verksamhet beviljade anslag under v&#229;rd af 
+handelsh&#246;gskolef&#246;reningen i Stockholm. 
+ 
+ 
+&#167; 24. 
+ 
+Direktionens ekonomiska f&#246;rvaltning granskas &#229;rligen af tre revisorer, 
+utsedda en af Kungl. Maj:t och tv&#229; af handelsh&#246;gskolef&#246;reningen &#229; dess 
+ordinarie sammantr&#228;de. H&#246;gskolans r&#228;kenskaper afslutas &#229;rligen den 30 
+juni. Senast den 15 n&#228;stf&#246;ljande september skall direktionen till 
+revisorerna afl&#228;mna ber&#228;ttelse &#246;fver sin f&#246;rvaltning och h&#246;gskolans 
+verksamhet under n&#228;stf&#246;reg&#229;ende arbets&#229;ret, &#229;tf&#246;ljd af de hos 
+direktionen f&#246;rda protokollen och h&#246;gskolans r&#228;kenskaper f&#246;r samma &#229;r. 
+ 
+Finna revisorerna anledning till anm&#228;rkning, meddela de denna till 
+direktionen, som d&#228;r&#246;fver afgifver yttrande. Anse revisorerna det 
+anm&#228;rkta f&#246;rh&#229;llandet vara n&#246;jaktigt f&#246;rklaradt, f&#246;rfaller anm&#228;rkningen; 
+i annat fall &#228;ga revisorerna upptaga den i sin ber&#228;ttelse. Denna 
+ber&#228;ttelse, i hvilken revisorerna skola best&#228;mdt till- eller afstyrka 
+ansvarsfrihet f&#246;r direktionen, &#246;fverl&#228;mnas af dem senast den 15 
+p&#229;f&#246;ljande oktober till handelsh&#246;gskolef&#246;reningens styrelse, hvarefter 
+f&#246;reningen afg&#246;r, huruvida ansvarsfrihet skall meddelas eller ej. V&#228;gras 
+ansvarsfrihet, &#228;ger handelsh&#246;gskolef&#246;reningens styrelse att p&#229; 
+h&#246;gskolans v&#228;gnar l&#229;ta f&#246;ra den talan och vidtaga de &#246;friga &#229;tg&#228;rder, 
+som d&#228;raf m&#229; f&#246;ranledas. Anst&#228;lles ej talan vid vederb&#246;rlig domstol inom 
+natt och &#229;r fr&#229;n det direktionens ber&#228;ttelse j&#228;mte protokoll och 
+r&#228;kenskaper till revisorerna afl&#228;mnats, anses ansvarsfrihet vara 
+meddelad. 
+ 
+Huru med revisionen af handelsh&#246;gskolef&#246;reningens medelf&#246;rvaltning skall 
+f&#246;rfaras, d&#228;rom f&#246;reskrifves i de af Kungl. Maj:t f&#246;r 
+handelsh&#246;gskolef&#246;reningen stadf&#228;sta stadgar. 
+ 
+ 
+&#167; 25. 
+ 
+F&#246;reskrifter f&#246;r h&#246;gskolan ut&#246;fver hvad grundstadgarna inneh&#229;lla 
+meddelas i s&#228;rskild ordningsstadga. Denna antages och utf&#228;rdas af 
+direktionen, sedan l&#228;rarr&#229;det blifvit h&#246;rdt. Ej m&#229; f&#246;reskrift f&#246;r 
+h&#246;gskolan meddelas, som strider emot grundstadgarna. 
+ 
+&#167; 26. 
+ 
+Finner direktionen till f&#246;ljd af gjord framst&#228;llning eller eljest, att 
+&#228;ndring i dessa grundstadgar b&#246;r ske, &#228;ger direktionen, sedan l&#228;rrar&#229;det 
+blifvit h&#246;rdt, uppg&#246;ra f&#246;rslag d&#228;rtill. &#196;r detta gilladt af minst fyra 
+ledam&#246;ter, utg&#246;r det direktionens f&#246;rslag och skall, sedan 
+handelsh&#246;gskolef&#246;reningens yttrande inh&#228;mtats, underst&#228;llas Kungl. 
+Maj:ts pr&#246;fning och stadf&#228;stelse. 
+ 
+I behandling af &#228;ndringsf&#246;rslag r&#246;rande grundstadgarna skola samtliga 
+direktionens ledam&#246;ter deltaga. 
+ 
+Hvilket vederb&#246;rande till underd&#229;nig efterr&#228;ttelse l&#228;nder.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4585">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4587">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

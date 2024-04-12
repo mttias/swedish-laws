@@ -1,0 +1,537 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2019-02-19" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4155</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4154">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4156">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1974:13 ·
+                    <a href="/sfsr?bet=1974:13">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1974:13) om vissa anst&#228;llningsfr&#228;mjande &#229;tg&#228;rder</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Arbetsmarknadsdepartementet AA
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1974-01-09
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2017:361
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Varsel om driftsinskr&#228;nkning
+
+1 &#167; En arbetsgivare som avser att genomf&#246;ra en
+driftsinskr&#228;nkning enligt 2 eller 3 &#167; skall inom den tid som
+anges d&#228;r skriftligen varsla Arbetsf&#246;rmedlingen, om minst fem
+arbetstagare ber&#246;rs av inskr&#228;nkningen. Detta g&#228;ller ocks&#229; om
+driftsinskr&#228;nkningen under en period av nittio dagar kan antas
+f&#246;ra med sig att antalet upps&#228;gningar sammanlagt uppg&#229;r till
+minst tjugo. Lag (2007:401).
+
+2 &#167; Varsel om s&#229;dan driftsinskr&#228;nkning som kan medf&#246;ra
+upps&#228;gning skall l&#228;mnas
+
+1. minst tv&#229; m&#229;nader f&#246;re driftsinskr&#228;nkningen, om h&#246;gst 25
+arbetstagare ber&#246;rs av upps&#228;gning,
+
+2. minst fyra m&#229;nader f&#246;re driftsinskr&#228;nkningen, om fler &#228;n 25 men
+h&#246;gst 100 arbetstagare ber&#246;rs av upps&#228;gning,
+
+3. minst sex m&#229;nader f&#246;re driftsinskr&#228;nkningen, om fler &#228;n 100
+arbetstagare ber&#246;rs av upps&#228;gning. Lag (1994:1689).
+
+2 a &#167; Ett varsel enligt 2 &#167; skall inneh&#229;lla all relevant
+information om de planerade upps&#228;gningarna och s&#228;rskilt
+inneh&#229;lla uppgift om
+
+1. sk&#228;len till de planerade upps&#228;gningarna,
+
+2. antalet arbetstagare som avses bli uppsagda och vilka
+kategorier de tillh&#246;r,
+
+3. antalet arbetstagare som normalt syssels&#228;tts och vilka
+kategorier de tillh&#246;r, och
+
+4. den tidpunkt d&#229; driftsinskr&#228;nkningen &#228;r avsedd att
+genomf&#246;ras och den tidsperiod under vilken upps&#228;gningarna &#228;r
+avsedda att verkst&#228;llas.
+
+S&#229; snart som m&#246;jligt, dock senast en m&#229;nad f&#246;re
+driftsinskr&#228;nkningen, skall arbetsgivaren skriftligen
+komplettera varslet med
+
+1. uppgifter om vilka arbetstagare som ber&#246;rs av upps&#228;gning,
+
+2. relevant information om de f&#246;rhandlingar som inf&#246;r
+upps&#228;gningarna har f&#246;rts enligt 11 &#167; lagen (1976:580) om
+medbest&#228;mmande i arbetslivet eller enligt motsvarande
+best&#228;mmelser i kollektivavtal, och
+
+3. en kopia av den skriftliga underr&#228;ttelse som har l&#228;mnats
+till motparten enligt 15 &#167; andra stycket lagen (1976:580) om
+medbest&#228;mmande i arbetslivet.
+
+Arbetsf&#246;rmedlingen kan f&#246;rel&#228;gga arbetsgivaren vid vite att
+fullg&#246;ra sina skyldigheter enligt andra stycket.
+Lag (2007:401).
+
+3 &#167; Varsel om s&#229;dan driftsinskr&#228;nkning som kan medf&#246;ra
+permittering skall l&#228;mnas minst en m&#229;nad i f&#246;rv&#228;g.
+
+Varsel om driftsinskr&#228;nkningen skall l&#228;mnas minst sex veckor i
+f&#246;rv&#228;g om en arbetstagare som anst&#228;llts f&#246;r en viss tid, en viss
+s&#228;song eller ett visst arbete p&#229; grund av driftsinskr&#228;nkning inte kan
+beredas fortsatt anst&#228;llning i samband med att den tidigare
+anst&#228;llningen upph&#246;r eller den nya s&#228;songen skall b&#246;rja.
+Lag (1994:1689).
+
+3 a &#167; Ett varsel enligt 3 &#167; skall inneh&#229;lla uppgift om
+
+1. orsaken till den driftsinskr&#228;nkning som har f&#246;ranlett
+permitteringen,
+
+2. den tidpunkt d&#229; driftsinskr&#228;nkningen &#228;r avsedd att
+genomf&#246;ras, och
+
+3. antalet ber&#246;rda arbetstagare, f&#246;rdelade p&#229; yrkesgrupper.
+
+S&#229; snart som m&#246;jligt skall arbetsgivaren skriftligen
+komplettera varslet med uppgift om vilka arbetstagare som
+ber&#246;rs av driftsinskr&#228;nkningen.
+
+Arbetsf&#246;rmedlingen kan f&#246;rel&#228;gga arbetsgivaren vid vite att
+fullg&#246;ra sina skyldigheter enligt andra stycket.
+Lag (2007:401).
+
+4 &#167; Har arbetsgivaren inte kunnat f&#246;rutse de omst&#228;ndigheter som
+driftsinskr&#228;nkningen beror p&#229;, s&#229; l&#229;ng tid i f&#246;rv&#228;g som anges i 2
+eller 3 &#167;, skall varsel i st&#228;llet l&#228;mnas s&#229; snart som m&#246;jligt. I de fall
+som avses i 2 &#167; f&#229;r varsel aldrig l&#228;mnas senare &#228;n en m&#229;nad f&#246;re
+driftsinskr&#228;nkningen. Lag (1994:1689).
+
+5 &#167; har upph&#228;vts genom lag (1994:1689).
+
+6 &#167; En arbetsgivare f&#229;r i st&#228;llet f&#246;r att varsla
+Arbetsf&#246;rmedlingen om driftsinskr&#228;nkning underr&#228;tta
+Arbetsf&#246;rmedlingen om att arbetsgivaren har beg&#228;rt eller avser
+att beg&#228;ra f&#246;rhandling enligt 11 &#167; lagen (1976:580) om
+medbest&#228;mmande i arbetslivet eller motsvarande best&#228;mmelser i
+kollektivavtal om en s&#229;dan f&#246;r&#228;ndring av sin verksamhet som
+medf&#246;r eller kan medf&#246;ra en driftsinskr&#228;nkning. F&#246;r att
+arbetsgivaren skall f&#229; f&#246;rfara p&#229; detta s&#228;tt i st&#228;llet f&#246;r att
+varsla kr&#228;vs att underr&#228;ttelsen &#228;r skriftlig, att den l&#228;mnas
+senast vid den tidpunkt f&#246;r varsel som anges i 2-4 &#167;&#167; samt att
+arbetsgivaren senast d&#229; ocks&#229; l&#228;mnar s&#229;dana uppgifter som avses
+i 2 a &#167; f&#246;rsta stycket eller 3 a &#167; f&#246;rsta stycket.
+Lag (2007:401).
+
+&#197;tg&#228;rder f&#246;r att fr&#228;mja anst&#228;llning av &#228;ldre arbetstagare och
+arbetstagare med nedsatt arbetsf&#246;rm&#229;ga
+
+7 &#167; Arbetsf&#246;rmedlingen f&#229;r i den utstr&#228;ckning
+Arbetsf&#246;rmedlingen anser det p&#229;kallat f&#246;rel&#228;gga arbetsgivare
+att l&#228;mna uppgift
+
+1. om arbetsstyrkans storlek och sammans&#228;ttning med avseende p&#229;
+arbetstagarnas &#229;lder, k&#246;n, nationalitet och huvudsakliga
+arbetsuppgifter,
+
+2. om antalet arbetstagare med nedsatt arbetsf&#246;rm&#229;ga,
+
+3. om f&#246;rest&#229;ende f&#246;r&#228;ndringar i arbetsstyrkan s&#229;som
+upps&#228;gningar, permitteringar, omplaceringar eller lediga
+platser som f&#246;ranleder nyanst&#228;llning, samt
+
+4. om f&#246;rekomsten av tidsbegr&#228;nsade anst&#228;llningar.
+
+F&#246;rel&#228;ggande kan f&#246;renas med vite. Innan f&#246;rel&#228;ggande meddelas
+skall arbetsgivaren samt ber&#246;rda arbetsgivar- och
+arbetstagarorganisationer beredas tillf&#228;lle att yttra sig.
+Lag (2007:401).
+
+7 a &#167; har upph&#228;vts genom lag (1996:1425).
+
+8 &#167; En arbetsgivare &#228;r skyldig att &#246;verl&#228;gga med
+Arbetsf&#246;rmedlingen eller den Arbetsf&#246;rmedlingen f&#246;rordnar
+
+1. om &#229;tg&#228;rder f&#246;r att f&#246;rb&#228;ttra arbetsf&#246;rh&#229;llandena f&#246;r redan
+anst&#228;llda &#228;ldre arbetstagare eller arbetstagare med nedsatt
+arbetsf&#246;rm&#229;ga,
+
+2. om &#229;tg&#228;rder f&#246;r att trygga fortsatt anst&#228;llning &#229;t s&#229;dana
+arbetstagare,
+
+3. om nyanst&#228;llning av &#228;ldre arbetstagare eller arbetstagare
+med nedsatt arbetsf&#246;rm&#229;ga samt om &#229;tg&#228;rder f&#246;r att fr&#228;mja s&#229;dan
+anst&#228;llning.
+
+Till &#246;verl&#228;ggning enligt f&#246;rsta stycket skall f&#246;rutom
+arbetsgivaren ber&#246;rda arbetstagarorganisationer kallas. Den
+organisation som arbetsgivaren tillh&#246;r skall kallas till
+&#246;verl&#228;ggning inf&#246;r Arbetsf&#246;rmedlingen. Kallelse av arbetsgivare
+kan av Arbetsf&#246;rmedlingen f&#246;renas med vite. Lag (2007:401).
+
+9 &#167; N&#228;r det finns sk&#228;l till det skall Arbetsf&#246;rmedlingen, p&#229;
+grundval av vad som f&#246;rekommit vid &#246;verl&#228;ggning inf&#246;r
+Arbetsf&#246;rmedlingen enligt 8 &#167;, meddela arbetsgivaren
+anvisningar i fr&#229;ga om &#229;tg&#228;rder som b&#246;r vidtas f&#246;r att bereda
+b&#228;ttre syssels&#228;ttningsm&#246;jligheter &#229;t &#228;ldre arbetstagare eller
+arbetstagare med nedsatt arbetsf&#246;rm&#229;ga. Arbetsf&#246;rmedlingen kan
+d&#228;rvid uppmana arbetsgivaren att i samband med nyanst&#228;llningar
+&#246;ka andelen s&#229;dana arbetstagare i arbetsstyrkan i enlighet med
+vad Arbetsf&#246;rmedlingen n&#228;rmare anger. Lag (2007:401).
+
+10 &#167; Har upph&#228;vts genom lag (2007:401).
+
+11 &#167; I &#228;renden om &#246;verl&#228;ggning enligt 8 &#167;, vid anvisningar
+enligt 9 &#167;, eller i &#228;renden som Arbetsf&#246;rmedlingen tagit upp p&#229;
+anm&#228;lan av arbetsgivar- eller arbetstagarorganisation eller p&#229;
+eget initiativ, skall arbetsgivaren samt ber&#246;rda arbetsgivar-
+och arbetstagarorganisationer beredas tillf&#228;lle att yttra sig
+samt, om det anses l&#228;mpligt, kallas till &#246;verl&#228;ggning inf&#246;r
+Arbetsf&#246;rmedlingen.
+
+Arbetsf&#246;rmedlingen kan &#228;ven f&#246;rel&#228;gga arbetsgivaren att f&#246;rete
+handlingar som kan antas ha betydelse f&#246;r bed&#246;mningen av
+arbetsgivarens personalpolitik.
+
+Kallelse av arbetsgivare till &#246;verl&#228;ggning samt f&#246;rel&#228;ggande
+att f&#246;rete handlingar kan f&#246;renas med vite.
+
+Innan f&#246;rel&#228;ggande att f&#246;rete handlingar meddelas, skall
+arbetsgivaren och ber&#246;rda organisationer beredas tillf&#228;lle att
+yttra sig. Lag (2007:401).
+
+12 &#167; F&#246;ljer arbetsgivare inte anvisningar som meddelats av
+Arbetsf&#246;rmedlingen enligt 9 &#167; och &#228;r det med h&#228;nsyn till
+omst&#228;ndigheterna uppenbart att r&#228;ttelse inte kan &#229;stadkommas p&#229;
+annat s&#228;tt, kan Arbetsf&#246;rmedlingen f&#246;rordna att arbetsgivaren
+inte f&#229;r anst&#228;lla andra arbetstagare &#228;n dem som
+Arbetsf&#246;rmedlingen har anvisat eller godtagit. Lag (2007:401).
+
+13 &#167; Arbetsf&#246;rmedlingen kan p&#229; framst&#228;llning av en arbetsgivar-
+eller arbetstagarorganisation eller p&#229; eget initiativ ta upp
+&#246;verl&#228;ggningar med organisationerna inom en bransch eller del
+d&#228;rav ang&#229;ende &#229;tg&#228;rder f&#246;r att fr&#228;mja anst&#228;llning av &#228;ldre
+arbetstagare eller arbetstagare med nedsatt arbetsf&#246;rm&#229;ga.
+Arbetsf&#246;rmedlingen kan p&#229; grundval av vad som f&#246;rekommit vid
+dessa &#246;verl&#228;ggningar meddela anvisningar om s&#229;dana &#229;tg&#228;rder f&#246;r
+den bransch eller del d&#228;rav som &#246;verl&#228;ggningarna avsett.
+
+Iakttar arbetsgivare inte anvisningar som meddelats med st&#246;d av
+f&#246;rsta stycket, kan Arbetsf&#246;rmedlingen kalla arbetsgivaren samt
+ber&#246;rda arbetsgivar- och arbetstagarorganisationer till
+&#246;verl&#228;ggningar enligt 8 &#167;. Lag (2007:401).
+
+14 &#167; har upph&#228;vts genom lag (1996:1425).
+
+&#214;vriga best&#228;mmelser
+
+15 &#167; Betr&#228;ffande den som f&#246;retr&#228;der arbetstagarorganisation i fr&#229;gor
+enligt denna lag och icke omfattas av lagen (1974:358) om facklig
+f&#246;rtroendemans st&#228;llning p&#229; arbetsplatsen &#228;ger 6 kap. 10--14 &#167;&#167;
+arbetsmilj&#246;lagen (1977:1160) motsvarande till&#228;mpning. Lag
+(1977:1165).
+
+16 &#167; Den som har tagit befattning med ett &#228;rende enligt denna
+lag f&#229;r inte obeh&#246;rigen r&#246;ja eller utnyttja vad han eller hon
+d&#228;rvid har f&#229;tt veta om enskildas personliga f&#246;rh&#229;llanden
+eller aff&#228;rs- eller driftf&#246;rh&#229;llanden.
+
+I det allm&#228;nnas verksamhet till&#228;mpas i st&#228;llet best&#228;mmelserna
+i offentlighets- och sekretesslagen (2009:400). I fr&#229;ga om
+uppgifter som en myndighet enligt f&#246;revarande lag l&#228;mnar till
+en f&#246;retr&#228;dare f&#246;r en arbetstagarorganisation vid myndigheten
+eller vid n&#229;gon annan myndighet g&#228;ller 10 kap. 14 &#167; och 12
+kap. 2 &#167; offentlighets- och sekretesslagen. Lag (2009:414).
+
+17 &#167; Arbetsgivare, som upps&#229;tligen eller av grov oaktsamhet underl&#229;ter
+att varsla om driftsinskr&#228;nkning enligt vad som f&#246;reskrives i denna
+lag, kan &#229;l&#228;ggas att utge en s&#228;rskild varselavgift till staten.
+Underl&#229;tes varsel under tid, d&#229; arbetsgivaren &#228;r i konkurs, skall
+varselavgift i st&#228;llet utges av den som f&#246;retr&#228;der konkursboet.
+
+Varselavgift fastst&#228;lles f&#246;r varje p&#229;b&#246;rjad vecka som varsel
+f&#246;rsummats samt best&#228;mmes till l&#228;gst 100 och h&#246;gst 500 kronor f&#246;r
+varje arbetstagare som ber&#246;res av driftsinskr&#228;nkningen.
+
+Om s&#228;rskilda sk&#228;l f&#246;religger kan varselavgift best&#228;mmas till l&#228;gre
+belopp &#228;n nu sagts. Fullst&#228;ndig befrielse fr&#229;n s&#229;dan avgift kan ocks&#229;
+&#228;ga rum. Lag (1996:1425).
+
+18 &#167; Varselavgift &#229;l&#228;ggs av allm&#228;n domstol p&#229; talan av
+Arbetsf&#246;rmedlingen. S&#229;dan talan skall v&#228;ckas inom ett &#229;r efter
+driftsinskr&#228;nkningen. F&#246;rsummas det, &#228;r talan f&#246;rlorad.
+Lag (2007:401).
+
+19 &#167; Den som i varsel enligt denna lag eller i underr&#228;ttelse eller i
+uppgift som avses i 6 och 7 &#167;&#167; upps&#229;tligen eller av grov oaktsamhet
+l&#228;mnar oriktig uppgift, vilken ej saknar betydelse, d&#246;mes till b&#246;ter
+eller f&#228;ngelse i h&#246;gst ett &#229;r. Lag (1996:1425).
+
+20 &#167; Arbetsgivare, som ej iakttager f&#246;rordnande enligt 12 &#167;, d&#246;mes
+till b&#246;ter eller f&#228;ngelse i h&#246;gst ett &#229;r.
+
+21 &#167; har upph&#228;vts genom lag (1975:743).
+
+22 &#167; Allm&#228;nt &#229;tal f&#246;r brott som avses i 19 eller 20 &#167; f&#229;r
+v&#228;ckas endast efter medgivande av Arbetsf&#246;rmedlingen.
+Lag (2007:401).
+
+23 &#167; Talan om utd&#246;mande av vite enligt denna lag f&#246;rs av
+Arbetsf&#246;rmedlingen. Lag (2007:401).
+
+24 &#167; Beslut av Arbetsf&#246;rmedlingen enligt denna lag f&#229;r
+&#246;verklagas hos regeringen. Lag (2007:401).
+
+25 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om undantag fr&#229;n 1–12 &#167;&#167;.
+Lag (2017:361).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1974:13
+
+1. Denna lag tr&#228;der i kraft den 1 juli 1974.
+
+Genom lagen upph&#228;ves lagen (1971:202) om vissa &#229;tg&#228;rder f&#246;r att fr&#228;mja
+syssels&#228;ttning av &#228;ldre arbetstagare p&#229; den &#246;ppna arbetsmarknaden.
+
+2. Arbetsgivare &#228;r icke skyldig att l&#228;mna varsel enligt 1 - 6 &#167;&#167;, om
+best&#228;mmelserna medf&#246;r att varsel skulle ha l&#228;mnats f&#246;re lagens
+ikrafttr&#228;dande.
+
+1994:1689
+
+Denna lag tr&#228;der i kraft den 1 januari 1995. En arbetsgivare &#228;r dock
+inte skyldig att l&#228;mna varsel eller underr&#228;ttelse enligt de nya
+best&#228;mmelserna, om dessa medf&#246;r att skyldigheten skulle ha
+fullgjorts f&#246;re ikrafttr&#228;dandet. I s&#229;dant fall skall i st&#228;llet de &#228;ldre
+best&#228;mmelserna till&#228;mpas.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4154">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4156">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

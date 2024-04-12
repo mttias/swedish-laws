@@ -1,0 +1,807 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-03" /> 
+ <meta id="rattsinfo-edited" content="2024-01-03 13:24:27" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3185</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3184">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3186">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1994:1551 ·
+                    <a href="/sfsr?bet=1994:1551">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1994:1551) om frihet fr&#229;n skatt vid import, m.m.</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1994-12-15
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:202
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1995-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+1 &#167; I denna lag finns best&#228;mmelser om frihet fr&#229;n och
+&#229;terbetalning av annan skatt &#228;n tull vid import av varor fr&#229;n
+tredje land i vissa fall. I lagen finns &#228;ven best&#228;mmelser om
+ber&#228;kning av tull och skatt i vissa fall.  Lag (2008:1413).
+
+2 &#167; Har upph&#228;vts genom lag (2000:1296).
+
+3 &#167; Vad som s&#228;gs i denna lag om frihet fr&#229;n skatt vid import
+fr&#229;n tredje land ska &#228;ven g&#228;lla i fr&#229;ga om varor som f&#246;rs in i
+landet fr&#229;n ett omr&#229;de som ligger inom EU:s tullomr&#229;de men
+utanf&#246;r EU:s skatteomr&#229;de n&#228;r inf&#246;rseln sker under s&#229;dana
+f&#246;rh&#229;llanden som vid import fr&#229;n tredje land skulle ha medf&#246;rt
+r&#228;tt till frihet fr&#229;n skatt enligt denna lag.
+
+Vid till&#228;mpning av f&#246;rsta stycket ska vad som s&#228;gs om tredje
+land g&#228;lla omr&#229;de som ligger inom EU:s tullomr&#229;de men utanf&#246;r
+EU:s skatteomr&#229;de och vad som s&#228;gs om unionen g&#228;lla EU:s
+skatteomr&#229;de. Lag (2011:284).
+
+4 &#167; Genom denna lag genomf&#246;rs
+
+- r&#229;dets direktiv 2009/132/EG av den 19 oktober 2009 om 
+till&#228;mpningsomr&#229;det f&#246;r artikel 143 b och c i direktiv 
+2006/112/EG vad g&#228;ller befrielse fr&#229;n merv&#228;rdesskatt vid 
+slutlig import av vissa varor (kodifierad version),
+
+- artikel 12 i r&#229;dets direktiv 2008/118/EG av den 16 december 
+2008 om allm&#228;nna regler f&#246;r punktskatt och om upph&#228;vande av 
+direktiv 92/12/EEG, senast &#228;ndrat genom r&#229;dets direktiv 
+2010/12/EU,
+
+- r&#229;dets direktiv 2007/74/EG av den 20 december 2007 om 
+undantag fr&#229;n merv&#228;rdesskatt och punktskatt p&#229; varor som 
+inf&#246;rs av resande fr&#229;n tredjel&#228;nder, och
+
+- r&#229;dets direktiv 2006/79/EG av den 5 oktober 2006 om 
+befrielse fr&#229;n inf&#246;rselskatter p&#229; varor i sm&#229; f&#246;rs&#228;ndelser av 
+icke-kommersiell karakt&#228;r fr&#229;n tredjel&#228;nder. Lag (2023:202).
+
+5 &#167; Uttryck som anv&#228;nds i denna lag har samma inneb&#246;rd som i 
+tullagen (2016:253). Lag (2016:263).
+
+2 kap. Frihet fr&#229;n skatt vid import
+
+1 &#167; S&#228;rskilda best&#228;mmelser om frihet fr&#229;n skatt f&#246;r varor som
+medf&#246;rs av resande finns i 3 kap.
+
+2 &#167; Frihet fr&#229;n skatt vid import ska, om inte annat f&#246;ljer av 
+3 &#167;, medges f&#246;r en vara som &#246;verg&#229;r till fri oms&#228;ttning under 
+s&#229;dana omst&#228;ndigheter som f&#246;r en tullpliktig vara medf&#246;r 
+tullbefrielse enligt r&#229;dets f&#246;rordning (EG) nr 1186/2009 av 
+den 16 november 2009 om uppr&#228;ttandet av ett gemenskapssystem 
+f&#246;r tullbefrielse (kodifierad version), lagen (1994:1547) om 
+tullfrihet m.m. eller f&#246;reskrifter som meddelats med st&#246;d av 
+f&#246;rordningen eller lagen.
+
+F&#246;rsta stycket till&#228;mpas ocks&#229; f&#246;r en vara som f&#229;r f&#246;ras in 
+tullfritt enligt internationella &#246;verenskommelser om 
+gr&#228;ns&#246;verskridande renbetning mellan Sverige och Norge.
+
+Frihet fr&#229;n skatt vid import ska medges &#228;ven i de fall som 
+anges i 3 a, 4 och 5–9 &#167;&#167; samt i 3 kap.
+
+Frihet fr&#229;n skatt ska medges &#228;ven n&#228;r f&#246;ruts&#228;ttningar f&#246;r hel 
+frihet fr&#229;n tull vid tillf&#228;llig inf&#246;rsel f&#246;religger.
+Lag (2016:263).
+
+3 &#167; R&#228;tt till frihet fr&#229;n skatt vid import enligt 2 &#167; 
+f&#246;religger inte om den importerade varan utg&#246;rs av
+
+1. kapitalvaror och annan utrustning som importeras i samband 
+med att verksamhet &#246;verf&#246;rs fr&#229;n tredjeland till unionen,
+
+2. undervisningsmateriel, vetenskaplig och kulturell materiel, 
+vetenskapliga instrument och apparater i andra fall &#228;n dem som 
+anges i 7 eller 8 &#167;,
+
+3. skattem&#228;rken eller liknande bevis p&#229; betalning av skatt 
+eller avgift i tredjeland,
+
+4. proviant f&#246;r j&#228;rnv&#228;gst&#229;g,
+
+5. alkoholhaltiga produkter eller tobaksvaror i en f&#246;rs&#228;ndelse 
+fr&#229;n en privatperson till en annan privatperson, eller
+
+6. f&#246;rs&#228;ndelser av ringa v&#228;rde enligt artikel 23 i r&#229;dets 
+f&#246;rordning (EG) nr 1186/2009 av den 16 november 2009 om 
+uppr&#228;ttandet av ett gemenskapssystem f&#246;r tullbefrielse 
+(kodifierad version). Lag (2020:1163).
+
+3 a &#167; Har upph&#228;vts genom lag (2023:202).
+
+3 b &#167; Har upph&#228;vts genom lag (2023:202).
+
+4 &#167; Har upph&#228;vts genom lag (2023:202).
+
+4 a &#167; Har upph&#228;vts genom lag (2020:1163).
+
+5 &#167; Frihet fr&#229;n skatt ska medges f&#246;r unionsvaror som efter att 
+ha f&#246;rts ut fr&#229;n EU till tredjeland f&#246;rs in till Sverige av 
+den som f&#246;rt ut dem utan att de har bearbetats under tiden de 
+varit utf&#246;rda fr&#229;n EU.
+
+Frihet fr&#229;n skatt enligt f&#246;rsta stycket medges endast om 
+varorna omfattas av tullbefrielse enligt artiklarna 203-205 i 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) nr 952/2013 av 
+den 9 oktober 2013 om fastst&#228;llande av en tullkodex f&#246;r 
+unionen. Varor som &#228;r tullfria enligt r&#229;dets f&#246;rordning (EEG) 
+nr 2658/87 av den 23 juli 1987 om tulltaxe- och 
+statistiknomenklaturen och om Gemensamma tulltaxan ska 
+behandlas som om de varit tullbelagda.
+
+Frihet fr&#229;n skatt enligt f&#246;rsta stycket medges inte
+
+- om den tidigare utf&#246;rseln av varorna har medf&#246;rt en r&#228;tt 
+till &#229;terbetalning av skatt eller
+
+- om varorna annars inte har blivit belagda med skatt p&#229; grund 
+av den tidigare utf&#246;rseln.
+
+Vad som anges i tredje stycket g&#228;ller dock inte om ett k&#246;p har 
+g&#229;tt &#229;ter och varorna &#229;terinf&#246;rs av s&#228;ljaren eller &#246;verl&#228;mnas 
+till s&#228;ljaren i omedelbar anslutning till &#229;terinf&#246;rseln.
+
+I merv&#228;rdesskattelagen (2023:200) finns s&#228;rskilda best&#228;mmelser 
+om underlaget f&#246;r ber&#228;kning av merv&#228;rdesskatt vid &#229;terinf&#246;rsel 
+av varor som bearbetats i tredje land. Lag (2023:202).
+
+6 &#167; Frihet fr&#229;n skatt ska medges f&#246;r import av egen f&#229;ngst som
+medf&#246;rs av fiskefartyg som h&#246;r hemma inom unionen.
+Lag (2011:284).
+
+7 &#167; Frihet fr&#229;n skatt skall medges f&#246;r import av filmer, fotografier,
+trycksaker, modeller, grammofonskivor, hologram och liknande
+&#229;sk&#229;dnings- eller ljud&#229;tergivningsmateriel, som framst&#228;llts av
+F&#246;renta nationerna eller dess fackorgan och har
+undervisningskarakt&#228;r eller vetenskaplig eller kulturell karakt&#228;r.
+
+8 &#167; Frihet fr&#229;n skatt ska medges f&#246;r import av samlarf&#246;rem&#229;l 
+och konstverk som inte &#228;r avsedda att s&#228;ljas, n&#228;r den f&#246;r vars 
+r&#228;kning varorna inf&#246;rs &#228;r ett galleri, museum eller annan 
+institution som har godk&#228;nts av Tullverket f&#246;r skattefri 
+import enligt denna paragraf. Frihet fr&#229;n skatt ska dock inte 
+medges om varan tillhandah&#229;lls mot betalning av n&#229;gon som &#228;r 
+en beskattningsbar person i den mening som avses i 4 kap. 2 &#167; 
+merv&#228;rdesskattelagen (2023:200). Lag (2023:202).
+
+9 &#167; Frihet fr&#229;n skatt skall medges f&#246;r import av
+
+1. officiella publikationer utgivna under kontroll av exportlandet
+eller av internationell institution, regional eller lokal myndighet
+eller offentligr&#228;ttsligt organ etablerat i exportlandet och
+
+2. trycksak utdelad av erk&#228;nd politisk organisation med anledning
+av val till Europaparlamentet eller i anledning av nationellt val i det
+land d&#228;r trycksakerna har sitt ursprung.
+
+Frihet fr&#229;n skatt enligt f&#246;rsta stycket skall medges endast f&#246;r varor
+som beskattats i exportlandet utan att den utl&#228;ndska skatten senare
+avlyfts eller &#229;terbetalats.
+
+10 &#167; Om f&#246;ruts&#228;ttningarna f&#246;r frihet fr&#229;n skatt enligt detta 
+kapitel har upph&#246;rt ska den som medgetts skattefriheten utan 
+dr&#246;jsm&#229;l anm&#228;la det till Tullverket och betala skatten p&#229; 
+varan. Lag (2023:202).
+
+11 &#167; Vad som i &#246;vrigt s&#228;gs om tullfrihet i f&#246;rordning (EG) nr 
+1186/2009, lagen (1994:1547) om tullfrihet m.m. och 
+f&#246;reskrifter som har medelats med st&#246;d av f&#246;rordningen eller 
+lagen ska g&#228;lla &#228;ven i fr&#229;ga om frihet fr&#229;n skatt vid 
+import. Lag (2016:263).
+
+12 &#167; Har upph&#228;vts genom lag (2016:263).
+
+13 &#167; Vad som f&#246;reskrivs i detta kapitel g&#228;ller inte avgifter inom
+den gemensamma jordbruks- eller fiskeripolitiken.
+
+3 kap. Resandes import
+
+1 &#167; Frihet fr&#229;n skatt vid import ska, ut&#246;ver vad som f&#246;ljer av
+best&#228;mmelserna i 2 kap., medges en resande som kommer till
+landet fr&#229;n ett tredje land i den omfattning och under de
+villkor som s&#228;gs i detta kapitel. Skattefrihet g&#228;ller endast
+f&#246;r varor som medf&#246;rs i det personliga bagaget och under
+f&#246;ruts&#228;ttning att importen inte &#228;r av kommersiell natur.
+
+Med det personliga bagaget avses i detta kapitel allt bagage
+som en resande vid sin ankomst kan visa upp f&#246;r Tullverket samt
+polletterat bagage som registrerats f&#246;r den resande hos
+transportf&#246;retaget vid tidpunkten f&#246;r den resandes avf&#228;rd. Om
+resan sker med ett motordrivet transportmedel, r&#228;knas &#228;ven
+br&#228;nslet i standardtanken och h&#246;gst tio liter br&#228;nsle i en
+b&#228;rbar beh&#229;llare som personligt bagage.
+
+Importen anses inte vara av kommersiell natur om den &#228;r av
+tillf&#228;llig art och varorna &#228;r avsedda f&#246;r den resandes eller
+hans familjs personliga behov eller som g&#229;va. Lag (2008:1413).
+
+2 &#167; I denna lag f&#246;rst&#229;s med
+
+spritdryck: alkoholdryck med en alkoholhalt som &#246;verstiger 
+22 volymprocent,
+
+starkvin: alkoholdryck med en alkoholhalt som &#246;verstiger 
+15 volymprocent men inte 22 volymprocent samt mousserande vin,
+
+vin: annat vin &#228;n starkvin samt annan alkoholdryck med en 
+alkoholhalt som &#246;verstiger 3,5 men inte 15 volymprocent och 
+som inte &#228;r stark&#246;l,
+
+stark&#246;l: &#246;l med en alkoholhalt som &#246;verstiger 
+3,5 volymprocent,
+
+tobaksvaror: cigaretter, cigarrer, cigariller och r&#246;ktobak 
+samt snus, tuggtobak och &#246;vrig tobak i den mening som avses 
+med dessa begrepp i lagen (2022:155) om tobaksskatt,
+
+e-v&#228;tskor: e-v&#228;tskor enligt lagen (2018:696) om skatt p&#229; vissa 
+nikotinhaltiga produkter, 
+
+h&#246;gkoncentrerade e-v&#228;tskor: h&#246;gkoncentrerade e-v&#228;tskor enligt 
+lagen om skatt p&#229; vissa nikotinhaltiga produkter, 
+
+andra nikotinhaltiga produkter: andra nikotinhaltiga produkter 
+enligt lagen om skatt p&#229; vissa nikotinhaltiga produkter.
+Lag (2022:162).
+
+3 &#167; Best&#228;mmelser om hinder f&#246;r den som inte fyllt 20 &#229;r att 
+f&#246;ra in spritdrycker, vin och stark&#246;l i landet finns i 4 kap. 
+4 &#167; alkohollagen (2010:1622). Best&#228;mmelser om f&#246;rbud f&#246;r den 
+som inte fyllt 18 &#229;r att f&#246;ra in varor i landet som enligt 
+lagen (2018:2088) om tobak och liknande produkter utg&#246;r 
+tobaksvaror, elektroniska cigaretter och p&#229;fyllningsbeh&#229;llare 
+och varor som enligt lagen (2022:1257) om tobaksfria 
+nikotinprodukter utg&#246;r tobaksfria nikotinprodukter finns i 
+5 kap. 19 respektive 21 &#167; n&#228;mnda lagar. Lag (2022:1258).
+
+4 &#167; Frihet fr&#229;n skatt ska under de f&#246;ruts&#228;ttningar som anges i 
+1 &#167; samt med de begr&#228;nsningar som framg&#229;r av 7 och 8 &#167;&#167; medges 
+en resande f&#246;r import av
+
+1. 200 cigaretter eller 100 cigariller eller 50 cigarrer eller 
+250 gram r&#246;ktobak eller 250 gram &#246;vrig tobak eller en 
+proportionell blandning av dessa tobaksvaror,
+
+2. en liter spritdryck eller tv&#229; liter starkvin, 
+
+3. fyra liter vin, och 
+
+4. sexton liter stark&#246;l. 
+Lag (2021:427).
+
+5 &#167; Frihet fr&#229;n skatt ska under de f&#246;ruts&#228;ttningar som anges i
+1 &#167; medges en resande till ett sammanlagt v&#228;rde som inte
+&#246;verstiger 430 euro f&#246;r flyg- och sj&#246;resen&#228;rer eller 300 euro
+f&#246;r andra resen&#228;rer.
+
+Vid ber&#228;kning av de v&#228;rden som avses i f&#246;rsta stycket ska
+v&#228;rdet av f&#246;ljande varor inte beaktas:
+
+1. en resandes personliga bagage, n&#228;r detta tillf&#228;lligt f&#246;rs in
+eller &#229;terinf&#246;rs efter en tillf&#228;llig utf&#246;rsel,
+
+2. l&#228;kemedel som beh&#246;vs f&#246;r den resandes personliga behov,
+
+3. s&#229;dant br&#228;nsle som avses i 1 &#167;, och
+
+4. s&#229;dana varor som avses i 4 &#167;. Lag (2008:1413).
+
+6 &#167; Beloppen f&#246;r skattefrihet fastst&#228;lls f&#246;r varje &#229;r som de 
+belopp i kronor som motsvarar beloppen i 5 &#167; enligt den 
+v&#228;xelkurs som g&#228;ller f&#246;rsta arbetsdagen i oktober &#229;ret f&#246;re 
+det &#229;r beloppen ska till&#228;mpas. Beloppen avrundas till n&#228;rmaste 
+h&#246;gre hundratal kronor. F&#246;reg&#229;ende &#229;rs belopp ska forts&#228;tta 
+att g&#228;lla om de &#228;r h&#246;gre &#228;n de belopp som annars skulle g&#228;lla 
+eller om &#228;ndringen skulle vara mindre &#228;n 5 procent. 
+
+Tullverket ska publicera g&#228;llande belopp uttryckta i svenska 
+kronor i Tullverkets f&#246;rfattningssamling. Lag (2020:1163).
+
+7 &#167; Frihet fr&#229;n skatt enligt detta kapitel ska medges en 
+bes&#228;ttningsman p&#229; ett fartyg eller ett luftfartyg som kommer 
+fr&#229;n tredjeland endast f&#246;r bes&#228;ttningsmannens personliga 
+bagage, n&#228;r detta tillf&#228;lligt f&#246;rs in eller &#229;terinf&#246;rs efter 
+en tillf&#228;llig utf&#246;rsel, samt f&#246;r 100 cigaretter eller 
+20 cigarrer eller 20 cigariller eller 100 gram r&#246;ktobak eller 
+100 gram &#246;vrig tobak eller en proportionell blandning av dessa 
+tobaksvaror, om bagaget och varorna f&#246;rs in n&#228;r 
+bes&#228;ttningsmannen reser i samband med sitt arbete.
+
+Begr&#228;nsningen av r&#228;tten till frihet fr&#229;n skatt enligt f&#246;rsta 
+stycket g&#228;ller inte om bes&#228;ttningsmannen
+
+1. inf&#246;r varorna i samband med att han slutar sin anst&#228;llning 
+hos rederiet eller flygf&#246;retaget eller hos annan som driver 
+r&#246;relse ombord, eller
+
+2. g&#246;r ett uppeh&#229;ll i tj&#228;nstg&#246;ringen ombord f&#246;r semester eller 
+annan ledighet och ledigheten avses vara minst 15 dagar, eller
+
+3. &#228;r bosatt i Sverige och har vistats utomlands minst 
+15 dagar.
+
+Begr&#228;nsningen av r&#228;tten till frihet fr&#229;n skatt enligt f&#246;rsta 
+stycket g&#228;ller endast personal som utf&#246;r arbete som 
+sammanh&#228;nger med transportmedlets g&#229;ng eller med servicen 
+ombord. Till service ombord p&#229; transportmedlet h&#228;nf&#246;rs f&#246;rutom 
+sedvanliga tj&#228;nster som servering, uppassning och st&#228;dning 
+&#228;ven s&#229;dana tj&#228;nster som l&#228;mnas av fris&#246;rer, butikspersonal, 
+underh&#229;llningsartister och andra j&#228;mf&#246;rbara personalgrupper.
+Lag (2021:427).
+
+8 &#167; F&#246;r varor som anges i 4 &#167; f&#246;rsta stycket ska frihet fr&#229;n
+skatt enligt detta kapitel medges en resande som &#228;r bosatt i
+Sverige endast om inresan sker med luftfartyg i yrkesm&#228;ssig
+trafik eller om utlandsvistelsen varat l&#228;ngre &#228;n 20 timmar
+eller om varorna beskattats p&#229; &#197;land eller i Norge.
+
+&#196;ven i andra fall ska dock skattefrihet medges en resande som
+&#228;r bosatt i Sverige och som fyllt 18 &#229;r f&#246;r 40 cigaretter eller
+20 cigarrer eller cigariller eller 100 gram andra tobaksvaror.
+Lag (2008:1413).
+
+9 &#167; Av artikel 41 i f&#246;rordning (EG) nr 1186/2009 framg&#229;r att 
+om frihet fr&#229;n skatt medges enligt best&#228;mmelserna i detta 
+kapitel, ska &#228;ven frihet fr&#229;n tull medges. Lag (2016:263).
+
+10 &#167; Vad som s&#228;gs i detta kapitel om cigaretter ska &#228;ven 
+g&#228;lla f&#246;r e-v&#228;tskor och andra nikotinhaltiga produkter. D&#229; 
+ska 0,1 milliliter e-v&#228;tska eller 1 gram andra nikotinhaltiga 
+produkter anses motsvara en cigarett. Lag (2018:697).
+
+4 kap. Ber&#228;kning av tull och skatt i vissa fall
+
+1 &#167; Tull och skatt f&#246;r varor som medf&#246;rs av en resande eller 
+som skickas av en privatperson i en f&#246;rs&#228;ndelse till en annan 
+privatperson f&#229;r tas ut med belopp som anges i 3 &#167; i st&#228;llet 
+f&#246;r den tull och skatt som annars skulle ha tagits ut om
+
+1. importen inte har kommersiell karakt&#228;r,
+
+2. v&#228;rdet av varorna ligger under den beloppsgr&#228;ns f&#246;r 
+schablonber&#228;kning av tull i vissa fall som anges i r&#229;dets 
+f&#246;rordning (EEG) nr 2658/87 av den 23 juli 1987 om tulltaxe- 
+och statistiknomenklaturen och om Gemensamma tulltaxan, och
+
+3. den som ska betala tullen och skatten inte beg&#228;r, n&#228;r 
+varorna deklareras f&#246;r &#246;verg&#229;ng till fri oms&#228;ttning, att 
+denna best&#228;mmelse inte ska till&#228;mpas. Lag (2016:263).
+
+2 &#167; Har upph&#228;vts genom lag (2000:1296).
+
+3 &#167; Tull och skatt enligt 1 &#167; ska tas ut med f&#246;ljande belopp.
+
+ 	 		tull	 	skatt
+
+spritdryck		4 kr/liter	267 kr/liter
+
+starkvin	        2 kr/liter	92 kr/liter
+
+vin	                1 kr/liter	41 kr/liter
+
+stark&#246;l	                3 kr/liter	23 kr/liter
+
+cigaretter	        34 &#246;re/styck	204 &#246;re/styck
+
+cigarrer	        86 &#246;re/styck	228 &#246;re/styck
+
+r&#246;ktobak	        428 kr/kg	2 520 kr/kg
+
+&#246;vrig tobak	        428 kr/kg	2 520 kr/kg
+
+snus	                104 kr/kg	793 kr/kg
+
+h&#246;gkoncentrerade
+e-v&#228;tskor	        320 kr/liter	6 666 kr/liter
+
+&#246;vriga e-v&#228;tskor	320 kr/liter	3 333 kr/liter
+
+andra nikotinhaltiga
+produkter	        390 kr/kg	1 237 kr/kg
+Lag (2022:1784).
+
+4 &#167; Tullverket ska publicera den beloppsgr&#228;ns som avses i 1 &#167; 2
+uttryckt i svenska kronor i Tullverkets f&#246;rfattningssamling.
+Lag (2008:1413).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1994:1551
+
+1. Denna lag tr&#228;der i kraft samtidigt med lagen (1994:1500) med
+anledning av Sveriges anslutning till Europeiska unionen. Vid
+lagens ikrafttr&#228;dande upph&#246;r lagen (1987:1066) om frihet fr&#229;n skatt
+eller avgift vid inf&#246;rsel och f&#246;rordningen (1987:1072) om r&#228;tt f&#246;r
+resande m. fl. att inf&#246;ra varor tull- och skattefritt att g&#228;lla.
+
+2. De upph&#228;vda f&#246;rfattningarna skall dock fortfarande till&#228;mpas i
+fr&#229;ga om varor som anm&#228;lts eller borde ha anm&#228;lts till f&#246;rtullning
+f&#246;re ikrafttr&#228;dandet.
+
+1996:1172
+
+Denna lag tr&#228;der i kraft den 1 januari 1997. &#196;ldre f&#246;reskrifter
+g&#228;ller fortfarande i fr&#229;ga om f&#246;rh&#229;llanden som h&#228;nf&#246;r sig till tiden
+f&#246;re ikrafttr&#228;dandet.
+
+1997:446
+
+Denna lag tr&#228;der i kraft den 1 augusti 1997. &#196;ldre f&#246;reskrifter
+g&#228;ller fortfarande i fr&#229;ga om f&#246;rh&#229;llanden som h&#228;nf&#246;r sig till
+tiden f&#246;re ikrafttr&#228;dandet.
+
+1998:1684
+
+Denna lag tr&#228;der i kraft den 1 januari 1999. Best&#228;mmelserna i 4 kap.
+3 &#167; i sin nya lydelse till&#228;mpas dock f&#246;r tid fr&#229;n och med den
+1 augusti 1998.
+
+2000:479
+
+Denna lag tr&#228;der i kraft den 1 juli 2000. &#196;ldre f&#246;reskrifter
+g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som h&#228;nf&#246;r sig till tiden
+f&#246;re ikrafttr&#228;dandet.
+
+2000:545
+
+Denna lag tr&#228;der i kraft den 1 juli 2000. &#196;ldre f&#246;reskrifter
+g&#228;ller fortfarande f&#246;r varor som dessf&#246;rinnan anm&#228;lts eller
+borde ha anm&#228;lts till tullf&#246;rfarandet &#246;verg&#229;ng till fri
+oms&#228;ttning.
+
+2000:1154
+
+Denna lag tr&#228;der i kraft den 1 januari 2001. &#196;ldre f&#246;reskrifter
+g&#228;ller fortfarande f&#246;r varor som dessf&#246;rinnan anm&#228;lts eller
+borde ha anm&#228;lts till tullf&#246;rfarandet &#246;verg&#229;ng till fri
+oms&#228;ttning.
+
+2001:823
+
+Denna lag tr&#228;der i kraft den 1 december 2001. &#196;ldre
+f&#246;reskrifter g&#228;ller fortfarande f&#246;r varor som dessf&#246;rinnan
+anm&#228;lts eller borde ha anm&#228;lts till tullf&#246;rfarandet &#246;verg&#229;ng
+till fri oms&#228;ttning.
+
+2002:1002
+
+Denna lag tr&#228;der i kraft den 1 januari 2003. &#196;ldre f&#246;reskrifter
+g&#228;ller fortfarande f&#246;r varor som dessf&#246;rinnan anm&#228;lts eller
+borde ha anm&#228;lts till tullf&#246;rfarandet &#246;verg&#229;ng till fri
+oms&#228;ttning.
+
+2006:1393
+
+Denna lag tr&#228;der i kraft den 1 januari 2007. &#196;ldre best&#228;mmelser
+g&#228;ller fortfarande f&#246;r varor som dessf&#246;rinnan anm&#228;lts eller
+borde ha anm&#228;lts till tullf&#246;rfarandet &#246;verg&#229;ng till fri
+oms&#228;ttning.
+
+2007:1384
+
+Denna lag tr&#228;der i kraft den 1 januari 2008. &#196;ldre best&#228;mmelser
+g&#228;ller fortfarande f&#246;r varor som dessf&#246;rinnan anm&#228;lts eller
+borde ha anm&#228;lts till tullf&#246;rfarandet &#246;verg&#229;ng till fri
+oms&#228;ttning.
+
+2011:1291
+
+Denna lag tr&#228;der i kraft den 1 januari 2012. &#196;ldre
+best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som h&#228;nf&#246;r
+sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2013:955
+
+Denna lag tr&#228;der i kraft den 1 januari 2014. &#196;ldre
+best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som h&#228;nf&#246;r
+sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2014:1493
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2015.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet. Lag (2015:222).
+
+2016:1083
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2017.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som 
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2017:1197
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2018.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r merv&#228;rdesskatt 
+som h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2020:1019
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2021.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som 
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2020:1163
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2021.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om 
+merv&#228;rdesskatt f&#246;r vilken skattskyldighet intr&#228;tt f&#246;re 
+ikrafttr&#228;dandet
+
+2021:427
+
+1. Denna lag tr&#228;der i kraft den 1 augusti 2021.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som 
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2021:1186
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2022. 
+
+2. Den nya best&#228;mmelsen i 2 kap. 3 b &#167; och best&#228;mmelsen i 
+2 kap. 10 &#167; i den nya lydelsen till&#228;mpas dock p&#229; import av 
+varor som har skett den 1 januari 2021 eller senare.
+
+2022:1783
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2023.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som 
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2022:1784
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2024.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som 
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2023:202
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2023. 
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som 
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+3. Best&#228;mmelsen i 2 kap. 10 &#167; andra stycket i den &#228;ldre 
+lydelsen g&#228;ller fortfarande om varan importerats f&#246;re 
+ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3184">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3186">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

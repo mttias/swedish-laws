@@ -1,0 +1,762 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-06-22" /> 
+ <meta id="rattsinfo-edited" content="2023-06-22 10:30:47" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2216</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2215">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2217">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2006:815 ·
+                    <a href="/sfsr?bet=2006:815">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2006:815) om provtagning p&#229; djur, m.m.</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2006-06-08
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:96
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2006-07-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller kompletterande best&#228;mmelser
+till lagen (2006:806) om provtagning p&#229; djur, m.m.
+
+EU-best&#228;mmelser
+
+2 &#167; De EU-r&#228;ttsliga grundf&#246;rordningar som lagen (2006:806) om 
+provtagning p&#229; djur, m.m. helt eller delvis kompletterar anges 
+i ett tillk&#228;nnagivande av regeringen. 
+
+I fr&#229;ga om EU-best&#228;mmelser i s&#229;dana f&#246;rordningar som faller 
+inom flera lagars till&#228;mpningsomr&#229;de anges i tillk&#228;nnagivandet 
+vilka best&#228;mmelser som lagen om provtagning p&#229; djur, m.m. 
+kompletterar. 
+
+Statens jordbruksverk och Livsmedelsverket f&#229;r meddela de 
+f&#246;reskrifter och fatta de beslut som beh&#246;vs f&#246;r att 
+komplettera EU-best&#228;mmelserna. F&#246;rordning (2021:183).
+
+Provtagning och unders&#246;kning
+
+3 &#167; F&#246;reskrifter eller beslut i det s&#228;rskilda fallet om
+provtagning eller unders&#246;kning enligt lagen (2006:806) om
+provtagning p&#229; djur, m.m. f&#229;r meddelas av
+
+1. Jordbruksverket f&#246;r att kartl&#228;gga f&#246;rekomst av, fastst&#228;lla
+frihet fr&#229;n eller kontrollera smittsamma djursjukdomar och f&#246;r
+att, i fr&#229;ga om kontroller som g&#246;rs enligt 2, genomf&#246;ra
+efterf&#246;ljande provtagning eller unders&#246;kning av djur,
+
+2. Livsmedelsverket f&#246;r att kontrollera f&#246;rekomsten av
+restsubstanser och andra &#228;mnen i djur och djurprodukter.
+
+Beslut om f&#246;reskrifter n&#228;r det g&#228;ller smittsamma djursjukdomar
+enligt f&#246;rsta stycket 1 skall f&#246;reg&#229;s av samr&#229;d med Statens
+veterin&#228;rmedicinska anstalt.
+
+Vad som s&#228;gs i denna f&#246;rordning om djursjukdomar g&#228;ller &#228;ven
+f&#246;rekomsten av smitt&#228;mnen hos djur.
+
+4 &#167; Provtagning eller unders&#246;kning ska utf&#246;ras av en veterin&#228;r 
+eller annan person som utses av Jordbruksverket eller 
+Livsmedelsverket. 
+
+Analys av s&#229;dana prover som tas vid efterf&#246;ljande provtagning 
+enligt 3 &#167; f&#246;rsta stycket och s&#229;dana prover som avses i 3 &#167; 
+f&#246;rsta stycket 2 f&#229;r utf&#246;ras av laboratorier som utses av 
+Livsmedelsverket.
+
+F&#246;reskrifter om provtagnings- eller unders&#246;kningsmaterial 
+enligt 4 &#167; andra stycket lagen (2006:806) om provtagning p&#229; 
+djur, m.m. f&#229;r meddelas av Jordbruksverket och 
+Livsmedelsverket. F&#246;rordning (2019:706).
+
+4 a &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om i vilken
+utstr&#228;ckning en veterin&#228;r eller den som &#228;r ansvarig f&#246;r ett
+laboratorium ska anm&#228;la och rapportera misst&#228;nkta eller
+intr&#228;ffade fall av smittsamma djursjukdomar.
+F&#246;rordning (2009:1387).
+
+H&#228;lso&#246;vervakning, uppgifter om l&#228;kemedelsanv&#228;ndning och villkor
+f&#246;r livdjursf&#246;rs&#228;ljning
+
+5 &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om vad den som
+h&#229;ller djur skall iaktta i fr&#229;ga om
+
+1. anm&#228;lningsskyldighet och skyldighet att f&#246;ra anteckningar om
+verksamheten enligt 6 &#167; f&#246;rsta stycket 1 och 2 lagen (2006:806)
+om provtagning p&#229; djur, m.m.,
+
+2. skyldighet att f&#246;ra register &#246;ver behandling med l&#228;kemedel
+och bevara journaler som r&#246;r s&#229;dan behandling enligt 6 &#167; f&#246;rsta
+stycket 3 samma lag, och
+
+3. krav p&#229; hygien i djurh&#229;llning enligt 6 &#167; f&#246;rsta stycket 4
+samma lag.
+
+Jordbruksverket f&#229;r meddela f&#246;reskrifter eller i ett enskilt
+fall besluta enligt 6 &#167; andra stycket lagen om provtagning p&#229;
+djur, m.m. om villkor f&#246;r f&#246;rs&#228;ljning av livdjur och om villkor
+f&#246;r flyttning av s&#229;dana djur.
+
+Anv&#228;ndning av antimikrobiella medel och immunologiska 
+veterin&#228;rmedicinska l&#228;kemedel
+
+5 a &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om
+
+1. begr&#228;nsningar av eller f&#246;rbud mot anv&#228;ndning av 
+antimikrobiella medel vid behandling av djur i de fall s&#229;dana 
+begr&#228;nsningar eller f&#246;rbud &#228;r f&#246;renliga med artikel 107.7 och 
+107.8 i Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2019/6 
+av den 11 december 2018 om veterin&#228;rmedicinska l&#228;kemedel och 
+om upph&#228;vande av direktiv 2001/82/EG, och
+
+2. f&#246;rbud mot anv&#228;ndning eller innehav av immunologiska 
+veterin&#228;rmedicinska l&#228;kemedel om n&#229;got av villkoren i 
+artikel 110.1 i Europaparla-mentets och r&#229;dets f&#246;rordning (EU) 
+2019/6 &#228;r uppfyllt. F&#246;rordning (2023:96).
+
+Spridning av smitta och &#228;mnen som kan skada m&#228;nniskors eller
+djurs h&#228;lsa
+
+6 &#167; F&#246;r att f&#246;rebygga och hindra spridning av smittsamma 
+djursjukdomar f&#229;r Jordbruksverket, i andra fall &#228;n de som 
+avses i 6 b &#167;, meddela f&#246;reskrifter eller i det enskilda 
+fallet besluta om
+
+1. avlivning av djur,
+
+2. isolering av djur,
+
+3. f&#246;rflyttningar av vattenlevande djur och produkter fr&#229;n 
+vattenlevande djur till och fr&#229;n livsmedelsanl&#228;ggningar f&#246;r 
+sjukdomskontroll av vattenlevande djur,
+
+4. godk&#228;nnande av anl&#228;ggningar,
+
+5. begr&#228;nsningar eller andra villkor i &#246;vrigt n&#228;r det g&#228;ller 
+hanteringen av djur eller produkter av djur och andra varor 
+eller n&#228;r det g&#228;ller kontakter mellan djur och m&#228;nniskor.
+
+Innan Jordbruksverket meddelar f&#246;reskrifter enligt f&#246;rsta 
+stycket 3-5 som kan komma att p&#229;verka milj&#246;n i sj&#246;ar, 
+vattendrag eller hav ska verket ge Havs- och vattenmyndigheten 
+tillf&#228;lle att yttra sig. F&#246;rordning (2021:259).
+
+6 a &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter eller i det 
+enskilda fallet besluta om
+
+1. undantag fr&#229;n krav p&#229; registrering av anl&#228;ggningar f&#246;r 
+landlevande djur enligt artikel 85 i f&#246;rordning (EU) 2016/429,
+
+2. undantag fr&#229;n krav p&#229; registrering av transport&#246;rer enligt 
+artikel 88 i f&#246;rordning (EU) 2016/429,
+
+3. undantag fr&#229;n krav p&#229; registrering av akt&#246;rer som genomf&#246;r 
+uppsamling enligt artikel 91 i f&#246;rordning (EU) 2016/429,
+
+4. undantag fr&#229;n krav p&#229; journalf&#246;ring enligt 
+artiklarna 102.2, 104.2 och 105.2 i f&#246;rordning (EU) 2016/429,
+
+5. undantag fr&#229;n krav p&#229; f&#246;rflyttningsdokument enligt 
+artikel 113.2 i f&#246;rordning (EU) 2016/429,
+
+6. undantag fr&#229;n krav p&#229; registrering av 
+vattenbruksanl&#228;ggningar enligt artikel 174 i f&#246;rordning (EU) 
+2016/429,
+
+7. undantag fr&#229;n krav p&#229; godk&#228;nnande av 
+vattenbruksanl&#228;ggningar enligt artikel 176.2 i f&#246;rordning (EU) 
+2016/429,
+
+8. undantag fr&#229;n skyldighet f&#246;r akt&#246;rer som driver en 
+vattenbruksanl&#228;ggning att journalf&#246;ra uppgifter enligt 
+artikel 186.2 i f&#246;rordning (EU) 2016/429,
+
+9. undantag fr&#229;n skyldighet f&#246;r transport&#246;rer av vattenlevande 
+djur att journalf&#246;ra uppgifter enligt artikel 188.2 i 
+f&#246;rordning (EU) 2016/429,
+
+10. undantag fr&#229;n de krav f&#246;r f&#246;rflyttning inom landet av 
+vattenbruksdjur som framg&#229;r av artikel 197.1 och 197.2 i 
+f&#246;rordning (EU) 2016/429 i enlighet med artikel 198 i samma 
+f&#246;rordning, i andra fall &#228;n de som avses i 4 a &#167; 
+epizootif&#246;rordningen (1999:659) eller i 6 b &#167;,
+
+11. undantag fr&#229;n de krav f&#246;r f&#246;rflyttning av vattenbruksdjur 
+som framg&#229;r av artikel 201.1 i f&#246;rordning (EU) 2016/429, i 
+enlighet med artikel 201.2 i samma f&#246;rordning, i andra fall &#228;n 
+de som avses i 4 a &#167; epizootif&#246;rordningen, och
+
+12. undantag fr&#229;n krav p&#229; djurh&#228;lsointyg enligt artikel 210 i 
+f&#246;rordning (EU) 2016/429, i andra fall &#228;n de som avses i 4 a &#167; 
+epizootif&#246;rordningen.
+
+Innan Jordbruksverket meddelar f&#246;reskrifter eller fattar 
+beslut enligt f&#246;rsta stycket 10-12 som kan komma att p&#229;verka 
+milj&#246;n i sj&#246;ar, vattendrag eller hav ska verket ge Havs- och 
+vattenmyndigheten tillf&#228;lle att yttra sig. 
+F&#246;rordning (2021:259).
+
+6 b &#167; F&#246;r att f&#246;rebygga och hindra spridning av smittsamma 
+djursjukdomar f&#229;r Havs- och vattenmyndigheten, i andra fall &#228;n 
+som anges i 4 b &#167; epizootif&#246;rordningen (1999:659), meddela 
+f&#246;reskrifter eller i det enskilda fallet besluta om uts&#228;ttning 
+i naturen och f&#246;rflyttning i naturen av vattenlevande djur.
+
+Innan myndigheten meddelar f&#246;reskrifter eller fattar beslut 
+ska myndigheten ge Jordbruksverket tillf&#228;lle att yttra sig.
+F&#246;rordning (2021:259). 
+
+7 &#167; I fr&#229;ga om livsmedelsproducerande djur som inneh&#229;ller eller
+kan antas inneh&#229;lla s&#229;dana &#228;mnen eller restsubstanser som kan
+g&#246;ra livsmedlet icke s&#228;kert f&#229;r Jordbruksverket meddela
+f&#246;reskrifter eller i det enskilda fallet besluta om
+
+1. omh&#228;ndertagande eller m&#228;rkning av djur,
+
+2. f&#246;rbud mot att djur flyttas, &#246;verl&#229;ts eller anv&#228;nds till
+livsmedel, samt
+
+3. avlivning av djur.
+
+8 &#167; I fr&#229;ga om produkter fr&#229;n livsmedelsproducerande djur som
+inneh&#229;ller eller kan antas inneh&#229;lla s&#229;dana &#228;mnen eller
+restsubstanser som kan g&#246;ra livsmedlet icke s&#228;kert f&#229;r
+Livsmedelsverket meddela f&#246;reskrifter eller i det enskilda
+fallet besluta om
+
+1. omh&#228;ndertagande av djurprodukter,
+
+2. f&#246;rbud mot att djurprodukter flyttas, &#246;verl&#229;ts eller anv&#228;nds
+till livsmedel.
+
+M&#228;rkning m.m.
+
+9 &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om
+
+1. m&#228;rkning, journalf&#246;ring och registrering av djur samt
+utf&#228;rdande av identitetshandlingar f&#246;r djur,
+
+2. rapportering av intr&#228;ffade fall av smittsamma djursjukdomar,
+
+3. djurh&#228;lsa, flyttningsdokument f&#246;r djur och hygien vid
+transport av djur,
+
+4. registrering av djurh&#229;llare och anl&#228;ggningar f&#246;r djur, samt
+
+5. f&#246;rbud mot anv&#228;ndning av anl&#228;ggningar som inte uppfyller
+krav p&#229; registrering som f&#246;reskrivs med st&#246;d av 4.
+
+Jordbruksverket f&#229;r i f&#246;reskrifter som avses i f&#246;rsta stycket 1
+&#246;verl&#229;ta till organisationer att f&#246;ra register och utf&#228;rda
+identitetshandlingar.
+
+Central databas f&#246;r h&#228;stdjur
+
+9 a &#167; Jordbruksverket ska uppr&#228;tta den centrala databas &#246;ver 
+h&#228;stdjur som anges i artikel 39.1 i kommissionens 
+genomf&#246;randef&#246;rordning (EU) 2015/262 av den 17 februari 2015 
+om fastst&#228;llande av best&#228;mmelser i enlighet med r&#229;dets 
+direktiv 90/427/EEG och 2009/156/EG vad g&#228;ller metoder f&#246;r 
+identifiering av h&#228;stdjur (f&#246;rordning om pass f&#246;r h&#228;stdjur). 
+
+De organ som utf&#228;rdar identitetshandlingar eller registrerar 
+tidigare utf&#228;rdade identitetshandlingar ska l&#228;mna de 
+uppgifter som anges i artiklarna 28 e och 38.1 i 
+kommissionens f&#246;rordning (EU) 2015/262 till Jordbruksverket.
+F&#246;rordning (2016:103).
+
+9 b &#167; Jordbruksverket &#228;r personuppgiftsansvarig f&#246;r 
+behandlingen av personuppgifter i den centrala databasen.
+F&#246;rordning (2016:103).
+
+9 c &#167; L&#228;nsstyrelserna, Livsmedelsverket och beh&#246;riga 
+myndigheter i andra medlemsstater enligt kommissionens 
+f&#246;rordning (EU) 2015/262 har r&#228;tt att vid direkt&#229;tkomst ta del 
+av uppgifter ur den centrala databasen. 
+
+Jordbruksverket ska l&#228;mna uppgifter ur den centrala databasen 
+om l&#228;nsstyrelserna beg&#228;r det f&#246;r verksamhet som avser 
+offentlig kontroll av att kommissionens f&#246;rordning (EU) 
+2015/262 f&#246;ljs eller annan offentlig verksamhet som h&#228;nger 
+samman med kontrollen. 
+
+Jordbruksverket ska p&#229; beg&#228;ran l&#228;mna s&#229;dana uppgifter som 
+anges i artikel 38.1.a-f och l i kommissionens f&#246;rordning (EU) 
+2015/262, i den ursprungliga lydelsen, till Livsmedelsverket. 
+
+Jordbruksverket ska p&#229; beg&#228;ran l&#228;mna s&#229;dana uppgifter som 
+anges i artikel 38.1.a, f och m i kommissionens f&#246;rordning 
+(EU) 2015/262, i den ursprungliga lydelsen, till s&#229;dana 
+beh&#246;riga myndigheter som anges i f&#246;rsta stycket.
+F&#246;rordning (2021:183).
+
+9 d &#167; Direkt&#229;tkomst till uppgifter i den centrala databasen 
+f&#229;r endast medges
+
+1. l&#228;nsstyrelserna,
+
+2. Livsmedelsverket, och
+
+3. s&#229;dana beh&#246;riga myndigheter som anges i 9 c &#167; f&#246;rsta 
+stycket.
+
+Direkt&#229;tkomst enligt f&#246;rsta stycket 1 ska vara f&#246;rbeh&#229;llen de 
+personalkategorier som p&#229; grund av sina arbetsuppgifter 
+beh&#246;ver ha tillg&#229;ng till uppgifterna. Direkt&#229;tkomst enligt 
+f&#246;rsta stycket 2 f&#229;r endast avse uppgifter som anges i 9 c &#167; 
+tredje stycket och ska vara f&#246;rbeh&#229;llen de personalkategorier 
+som p&#229; grund av sina arbetsuppgifter beh&#246;ver ha tillg&#229;ng till 
+uppgifterna. Direkt&#229;tkomst enligt f&#246;rsta stycket 3 f&#229;r endast 
+avse uppgifter som anges i 9 c &#167; fj&#228;rde stycket.
+F&#246;rordning (2016:103).
+
+9 e &#167; Jordbruksverket f&#229;r meddela ytterligare f&#246;reskrifter om 
+den centrala h&#228;stdatabasen. F&#246;rordning (2016:103).
+
+Beh&#246;rig myndighet
+
+10 &#167; Jordbruksverket ska utf&#246;ra de uppgifter som en beh&#246;rig 
+myndighet har enligt de EU-best&#228;mmelser som lagen (2006:806) 
+om provtagning p&#229; djur, m.m. kompletterar, om inte n&#229;got annat 
+framg&#229;r av 3, 4, 8, 12 a, 13, 14, 14 a eller 15 &#167;, eller om 
+regeringen beslutar n&#229;got annat. F&#246;rordning (2021:259).
+
+11 &#167; Jordbruksverket ska tilldela varje livsmedelsanl&#228;ggning 
+f&#246;r sjukdomskontroll av vattenlevande djur som har godk&#228;nts 
+enligt artikel 181.1 i f&#246;rordning (EU) 2016/429 ett unikt 
+godk&#228;nnandenummer. 
+
+Jordbruksverket ska inh&#228;mta de uppgifter fr&#229;n kommunerna som 
+beh&#246;vs f&#246;r pr&#246;vningen enligt artikel 181.1 i f&#246;rordning (EU) 
+2016/429. 
+
+Jordbruksverket ska underr&#228;tta Livsmedelsverket om 
+godk&#228;nnandet. F&#246;rordning (2021:259).
+
+11 a &#167; Jordbruksverket ska utf&#246;ra de uppgifter som en 
+medlemsstat har enligt artiklarna 19.1, 20.1, 21, 28.2, 28.3, 
+34, 36.1, 36.3, 37.1, 37.2, 38, 41.2, 42.1, 42.3, 43.1, 45.3, 
+71.2, 83.1 och 109.1 i f&#246;rordning (EU) 2016/429 i andra fall 
+&#228;n de som avses i 14 a &#167; epizootif&#246;rordningen (1999:659).
+
+Jordbruksverket ska l&#228;mna s&#229;dana underr&#228;ttelser till 
+kommissionen som avses i artikel 85, 88 och 91 i f&#246;rordning 
+(EU) 2016/429. F&#246;rordning (2021:259).
+
+11 b &#167; Jordbruksverket ska utf&#246;ra den uppgift som en
+medlemsstat har enligt artikel 22 i Europaparlamentets och
+r&#229;dets f&#246;rordning (EG) nr 1760/2000 av den 17 juli 2000 om
+uppr&#228;ttande av ett system f&#246;r identifiering och registrering
+av n&#246;tkreatur samt m&#228;rkning av n&#246;tk&#246;tt och n&#246;tk&#246;ttsprodukter
+och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 820/97,
+n&#228;mligen att &#229;rligen, senast den 31 augusti, l&#228;gga fram en
+rapport till Europeiska kommissionen om genomf&#246;randet av de
+officiella kontrollerna under f&#246;reg&#229;ende &#229;r.
+F&#246;rordning (2014:1430).
+
+11 c &#167; Jordbruksverket ska g&#246;ra den anm&#228;lan till kommissionen 
+som en medlemsstat ska g&#246;ra enligt artikel 226.2 i f&#246;rordning 
+(EU) 2016/429 av nationella &#229;tg&#228;rder som kan p&#229;verka 
+f&#246;rflyttningar av vattenlevande djur eller produkter av 
+animaliskt ursprung fr&#229;n vattenlevande djur mellan 
+medlemsstaterna. F&#246;rordning (2021:259).
+
+11 d &#167; Best&#228;mmelser om godk&#228;nnande av karant&#228;nsanl&#228;ggningar 
+f&#246;r landlevande djur och godk&#228;nnande av 
+vattenbruksanl&#228;ggningar som anv&#228;nds till karant&#228;n f&#246;r 
+vattenlevande djur finns i f&#246;rordning (EU) 2016/429.
+
+Jordbruksverket ska ge l&#228;nsstyrelsen tillf&#228;lle att yttra sig 
+innan s&#229;dana anl&#228;ggningar godk&#228;nns. F&#246;rordning (2021:259).
+
+Offentlig kontroll och annan offentlig verksamhet
+
+12 &#167; Jordbruksverket &#228;r beh&#246;rig myndighet att ut&#246;va offentlig 
+kontroll och utf&#246;ra annan offentlig verksamhet som h&#228;nger 
+samman med kontrollen, om inte n&#229;got annat f&#246;ljer av 12 a, 13, 
+14, 14 a eller 15 &#167;. F&#246;rordning (2021:259).
+
+12 a &#167; Tullverket &#228;r beh&#246;rig myndighet att ut&#246;va offentlig 
+kontroll och utf&#246;ra annan offentlig verksamhet enligt artikel 
+7-10 i kommissionens delegerade f&#246;rordning (EU) 2019/2122 av 
+den 10 oktober 2019 om komplettering av Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2017/625 vad g&#228;ller vissa kategorier av 
+djur och varor som &#228;r undantagna fr&#229;n offentlig kontroll vid 
+gr&#228;nskontrollstationer, s&#228;rskild kontroll av passagerares 
+personliga bagage och sm&#229; s&#228;ndningar av varor som s&#228;nds till 
+fysiska personer och som inte &#228;r avsedda att sl&#228;ppas ut p&#229; 
+marknaden och om &#228;ndring av kommissionens f&#246;rordning (EU) nr 
+142/2011. F&#246;rordning (2021:183).
+
+13 &#167; Livsmedelsverket &#228;r beh&#246;rig myndighet att ut&#246;va offentlig 
+kontroll av
+
+1. att f&#246;reskrifter och beslut som har meddelats med st&#246;d av 3 
+&#167; andra stycket lagen (2006:806) om provtagning p&#229; djur, m.m. 
+f&#246;ljs, och  
+
+2. att f&#246;reskrifter och beslut om djurprodukter, som har 
+meddelats med st&#246;d av 8 &#167; samma lag, f&#246;ljs.
+
+Livsmedelsverket &#228;r &#228;ven beh&#246;rig myndighet att utf&#246;ra annan 
+offentlig verksamhet som h&#228;nger samman med kontrollen enligt 
+f&#246;rsta stycket. F&#246;rordning (2021:183).
+
+14 &#167; Livsmedelsverket &#228;r, genom de officiella veterin&#228;rerna 
+och de officiella assistenterna, beh&#246;rig myndighet att ut&#246;va 
+offentlig kontroll   
+
+1. enligt artikel 37.1 i kommissionens genomf&#246;randef&#246;rordning 
+(EU) 2019/627 av den 15 mars 2019 om enhetliga praktiska 
+arrangemang f&#246;r utf&#246;randet av offentlig kontroll av produkter 
+av animaliskt ursprung avsedda att anv&#228;ndas som livsmedel, i 
+enlighet med Europaparlamentets och r&#229;dets f&#246;rordning (EU) 
+2017/625, och om &#228;ndring av kommissionens f&#246;rordning (EG) nr 
+2074/2005 vad g&#228;ller offentlig kontroll, och  
+
+2. av att s&#229;dana f&#246;reskrifter och beslut f&#246;ljs som avser 
+provtagning och unders&#246;kning p&#229; slakterier och 
+vilthanteringsanl&#228;ggningar och som har meddelats med st&#246;d av 
+3 &#167; f&#246;rsta stycket 1.
+
+Livsmedelsverket &#228;r &#228;ven beh&#246;rig myndighet att utf&#246;ra annan 
+offentlig verksamhet som h&#228;nger samman med kontrollen enligt 
+f&#246;rsta stycket. F&#246;rordning (2021:183).
+
+14 a &#167; L&#228;nsstyrelserna &#228;r beh&#246;riga myndigheter att ut&#246;va 
+offentlig kontroll av f&#246;rflyttningar av vattenlevande djur 
+fr&#229;n ett naturvatten till ett annat och uts&#228;ttning i 
+naturvatten. 
+
+L&#228;nsstyrelserna &#228;r &#228;ven beh&#246;riga myndigheter att utf&#246;ra annan 
+offentlig verksamhet som h&#228;nger samman med kontrollen enligt 
+f&#246;rsta stycket. F&#246;rordning (2021:259).
+
+15 &#167; Jordbruksverket f&#229;r &#246;verl&#229;ta &#229;t l&#228;nsstyrelserna att ut&#246;va 
+offentlig kontroll och att utf&#246;ra annan offentlig verksamhet 
+som h&#228;nger samman med kontrollen. 
+
+N&#228;r Jordbruksverket &#246;verl&#229;ter offentlig kontroll och annan 
+offentlig verksamhet &#229;t l&#228;nsstyrelserna enligt f&#246;rsta stycket, 
+&#228;r l&#228;nsstyrelserna beh&#246;riga myndigheter att utf&#246;ra offentlig 
+kontroll och annan offentlig verksamhet.
+
+Jordbruksverket samordnar l&#228;nsstyrelsernas kontrollverksamhet 
+och l&#228;mnar st&#246;d, r&#229;d och v&#228;gledning i denna verksamhet.
+F&#246;rordning (2021:183).
+
+15 a &#167; Jordbruksverket ska &#228;ven utf&#246;ra uppgiften att samordna 
+samarbetet och kontakterna med kommissionen och &#246;vriga 
+medlemsstater n&#228;r det g&#228;ller offentlig kontroll och annan 
+offentlig verksamhet som avser djurh&#228;lsokrav inom 
+till&#228;mpningsomr&#229;det f&#246;r lagen (2006:806) om provtagning p&#229; 
+djur, m.m. enligt artikel 4.2 b i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2017/625 av den 15 mars 2017 om 
+offentlig kontroll och annan offentlig verksamhet f&#246;r att 
+s&#228;kerst&#228;lla till&#228;mpningen av livsmedels- och 
+foderlagstiftningen och av best&#228;mmelser om djurs h&#228;lsa och 
+djurskydd, v&#228;xtskydd och v&#228;xtskyddsmedel samt om &#228;ndring av 
+Europaparlamentets och r&#229;dets f&#246;rordningar (EG) nr 999/2001, 
+(EG) nr 396/2005, (EG) nr 1069/2009, (EG) nr 1107/2009, (EU) 
+nr 1151/2012, (EU) nr 652/2014, (EU) 2016/429 och (EU) 
+2016/2031, r&#229;dets f&#246;rordningar (EG) nr 1/2005 och (EG) nr 
+1099/2009 och r&#229;dets direktiv 98/58/EG, 1999/74/EG, 
+2007/43/EG, 2008/119/EG och 2008/120/EG och om upph&#228;vande av 
+Europaparlamentets och r&#229;dets f&#246;rordningar (EG) nr 854/2004 
+och (EG) nr 882/2004, r&#229;dets direktiv 89/608/EEG, 89/662/EEG, 
+90/425/EEG, 91/496/EEG, 96/23/EG, 96/93/EG och 97/78/EG samt 
+r&#229;dets beslut 92/438/EEG (f&#246;rordningen om offentlig kontroll).
+
+Livsmedelsverket ska utf&#246;ra uppgiften att samordna samarbetet 
+och kontakterna med kommissionen och &#246;vriga medlemsstater n&#228;r 
+det g&#228;ller offentlig kontroll och annan offentlig verksamhet 
+som avser kontroll av restsubstanser och andra &#228;mnen i djur 
+och djurprodukter (livsmedelss&#228;kerhet) inom 
+till&#228;mpningsomr&#229;det f&#246;r lagen (2006:806) om provtagning p&#229; 
+djur, m.m. enligt artikel 4.2 b i f&#246;rordning (EU) 2017/625.
+F&#246;rordning (2021:183).
+
+F&#246;reskrifter om offentlig kontroll och annan offentlig 
+verksamhet
+
+16 &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om
+
+1. hur offentlig kontroll och annan offentlig verksamhet ska 
+bedrivas, 
+
+2. skyldighet f&#246;r en kontrollmyndighet, ett organ med 
+delegerade uppgifter eller en fysisk person som har delegerats 
+vissa uppgifter att l&#228;mna information till Jordbruksverket, 
+och 
+
+3. skyldighet f&#246;r ett organ med delegerade uppgifter eller en 
+fysisk person som har delegerats vissa uppgifter att l&#228;mna 
+information och ge in handlingar till den myndighet som har 
+delegerat uppgiften. F&#246;rordning (2021:183).
+
+Avgifter
+
+17 &#167; Jordbruksverket och Livsmedelsverket f&#229;r meddela
+f&#246;reskrifter om skyldighet att betala s&#229;dan avgift som avses i
+20 &#167; lagen (2006:806) om provtagning p&#229; djur, m.m. och om
+ber&#228;kningen av dessa avgifter.
+
+Ers&#228;ttning av statsmedel
+
+18 &#167; Jordbruksverket f&#229;r meddela f&#246;reskrifter om ers&#228;ttning
+enligt 19 a &#167; lagen (2006:806) om provtagning p&#229; djur, m.m.
+
+Fr&#229;gor om ers&#228;ttning pr&#246;vas av Jordbruksverket.
+F&#246;rordning (2014:1007).
+
+&#214;vriga best&#228;mmelser
+
+19 &#167; Jordbruksverket och Livsmedelsverket f&#229;r meddela 
+f&#246;reskrifter om verkst&#228;lligheten av lagen (2006:806) om 
+provtagning p&#229; djur, m.m. eller denna f&#246;rordning.
+
+Jordbruksverket f&#229;r meddela f&#246;reskrifter om verkst&#228;lligheten 
+av de best&#228;mmelser i Europaparlamentets och r&#229;dets f&#246;rordning 
+(EU) 2019/6 som lagen om provtagning p&#229; djur, m.m. 
+kompletterar. F&#246;rordning (2023:96).
+
+20 &#167; I 23 &#167; lagen (2006:806) om provtagning p&#229; djur, m.m. 
+finns best&#228;mmelser om &#246;verklagande till l&#228;nsstyrelsen. 
+
+I 24 och 24 a &#167;&#167; lagen om provtagning p&#229; djur, m.m. finns 
+best&#228;mmelser om &#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol.
+F&#246;rordning (2021:183).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2215">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2217">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

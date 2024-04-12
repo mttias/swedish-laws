@@ -1,0 +1,789 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-05-10" /> 
+ <meta id="rattsinfo-edited" content="2023-05-10 14:01:25" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2332</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2331">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2333">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2005:522 ·
+                    <a href="/sfsr?bet=2005:522">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Jordf&#246;rv&#228;rvsf&#246;rordning (2005:522)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2005-06-09
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1809
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2005-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Glesbygd och omarronderingsomr&#229;den
+
+1 &#167; I bilaga till denna f&#246;rordning anges vilka kommuner eller
+delar av kommuner som skall vara glesbygd och
+omarronderingsomr&#229;den enligt jordf&#246;rv&#228;rvslagen (1979:230).
+
+&#196;renden om f&#246;rv&#228;rvstillst&#229;nd
+
+2 &#167; &#196;renden om tillst&#229;nd enligt jordf&#246;rv&#228;rvslagen (1979:230)
+(f&#246;rv&#228;rvstillst&#229;nd) pr&#246;vas av l&#228;nsstyrelsen, om inte annat
+f&#246;ljer av 4 &#167;.
+
+3 &#167; Ans&#246;kan om f&#246;rv&#228;rvstillst&#229;nd skall g&#246;ras hos den
+l&#228;nsstyrelse inom vars verksamhetsomr&#229;de egendomen helt eller
+delvis &#228;r bel&#228;gen.
+
+Om ans&#246;kan avser egendom inom flera l&#228;nsstyrelsers
+verksamhetsomr&#229;den skall den l&#228;nsstyrelse, hos vilken ans&#246;kan
+gjorts, pr&#246;va fr&#229;gan om tillst&#229;nd efter samr&#229;d med de &#246;vriga
+l&#228;nsstyrelserna.
+
+4 &#167; &#196;renden om f&#246;rv&#228;rvstillst&#229;nd pr&#246;vas av Statens 
+jordbruksverk, om egendomens v&#228;rde uppenbarligen &#246;verstiger 
+20 000 000 kronor och f&#246;rv&#228;rvaren &#228;r en juridisk person som 
+f&#246;rv&#228;rvar egendom fr&#229;n en fysisk person eller ett d&#246;dsbo. 
+
+L&#228;nsstyrelsen ska i s&#229;dana fall med eget yttrande &#246;verl&#228;mna 
+&#228;rendet till Jordbruksverket. F&#246;rordning (2021:85).
+
+5 &#167; V&#228;gras tillst&#229;nd till ett f&#246;rv&#228;rv, skall &#228;ven &#246;verl&#229;taren
+underr&#228;ttas om beslutet.
+
+Kan s&#228;ljaren beg&#228;ra inl&#246;sen enligt 12 &#167; jordf&#246;rv&#228;rvslagen
+(1979:230), skall s&#228;ljaren delges beslutet, som skall inneh&#229;lla
+vad han eller hon d&#228;rvid skall iaktta.
+
+Avgifter
+
+6 &#167; Avgift f&#246;r pr&#246;vning av en ans&#246;kan om tillst&#229;nd enligt 4 &#167; 
+f&#246;rsta stycket 1 och 3 jordf&#246;rv&#228;rvslagen (1979:230) tas ut 
+enligt best&#228;mmelserna i 9-14 &#167;&#167; avgiftsf&#246;rordningen 
+(1992:191), varvid f&#246;ljande avgiftsklasser till&#228;mpas:
+
+&#196;rendeslag					Avgiftsklass
+
+A. Tillst&#229;nd enligt 4 &#167; f&#246;rsta stycket 1 	5
+
+B. Tillst&#229;nd enligt 4 &#167; f&#246;rsta stycket 3 
+n&#228;r egendomens v&#228;rde uppenbarligen &#246;verstiger 
+20 000 000 kronor 	         		8
+
+C. Tillst&#229;nd enligt 4 &#167; f&#246;rsta stycket 3 
+i andra fall &#228;n som avses i B 			6
+F&#246;rordning (2021:85).
+
+&#214;vriga best&#228;mmelser
+
+7 &#167; Efter ett s&#229;dant f&#246;rv&#228;rv som avses i 13 &#167; jordf&#246;rv&#228;rvslagen
+(1979:230) skall auktionsf&#246;rr&#228;ttaren utan dr&#246;jsm&#229;l s&#228;nda en
+kopia av det k&#246;pebrev som utf&#228;rdas med anledning av auktionen
+till l&#228;nsstyrelsen.
+
+8 &#167; Vid v&#228;rdering av egendom som skall s&#228;ljas enligt 15 &#167;
+jordf&#246;rv&#228;rvslagen (1979:230), skall kronofogdemyndigheten
+samr&#229;da med l&#228;nsstyrelsen.
+
+9 &#167; Har upph&#228;vts genom f&#246;rordning (2022:1809).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2005:522
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2005, d&#229;
+jordf&#246;rv&#228;rvsf&#246;rordningen (1991:736) skall upph&#246;ra att g&#228;lla.
+
+2. Har f&#246;re ikrafttr&#228;dandet f&#246;rv&#228;rv anm&#228;lts enligt 3 b &#167;
+jordf&#246;rv&#228;rvslagen (1979:230) i den lydelse paragrafen hade f&#246;re
+den 1 juli 2005 skall &#228;ldre best&#228;mmelser i 2-3 &#167;&#167;
+jordf&#246;rv&#228;rvsf&#246;rordningen (1991:736) fortfarande tilll&#228;mpas.
+
+3. Har f&#246;re ikrafttr&#228;dandet f&#246;rel&#228;ggande om bos&#228;ttning
+meddelats enligt 10 &#167; jordf&#246;rv&#228;rvslagen i den lydelse
+paragrafen hade f&#246;re den 1 juli 2005 skall &#228;ldre best&#228;mmelser i
+3 &#167; jordf&#246;rv&#228;rvsf&#246;rordningen (1991:736) fortfarande till&#228;mpas.
+
+4. I &#246;vrigt skall de nya best&#228;mmelserna till&#228;mpas i &#228;renden om
+f&#246;rv&#228;rvstillst&#229;nd som inte &#228;r slutligt avgjorda vid utg&#229;ngen av
+juni 2005.
+
+2021:85
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 11 mars 2021.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r &#228;renden som 
+inletts f&#246;re ikrafttr&#228;dandet.
+
+
+Bilaga 
+
+F&#246;ljande kommuner eller delar av kommuner &#228;r glesbygd
+
+Stockholms l&#228;n
+
+I &#214;ster&#229;kers kommun		Ljuster&#246; socken
+
+I V&#228;rmd&#246; kommun	                V&#228;rmd&#246;, M&#246;ja, Djur&#246; och N&#228;md&#246; 
+                                socknar
+
+I Haninge kommun	        Ut&#246;, Orn&#246; och Musk&#246; socknar
+
+I Norrt&#228;lje kommun	        Bj&#246;rk&#246;-Arholma, V&#228;dd&#246;, Sing&#246;, 
+                                V&#228;t&#246;, R&#229;dmans&#246;, Blid&#246; och L&#228;nna 
+                                socknar
+
+I Nyn&#228;shamns kommun	        Tor&#246; socken
+
+Uppsala l&#228;n
+
+I Tierps kommun 	        V&#228;stlands, &#214;sterl&#246;vsta och 
+                                H&#229;lln&#228;s socknar
+
+I &#214;sthammars kommun             Forsmarks, B&#246;rstils, Hargs och 
+                                Gr&#228;s&#246; socknar
+
+I Heby kommun	                Huddunge, En&#229;kers och Nora 
+                                socknar	
+
+&#214;sterg&#246;tlands l&#228;n
+
+I Ydre kommun	                Hela kommunen
+
+I Kinda kommun	                Tidersrums, Horns, Hycklinge 
+                                och Oppeby socknar	
+
+I Boxholms kommun	        Bl&#229;viks och Malexanders socknar	
+
+I Finsp&#229;ngs kommun	        Regna och Skedevi socknar
+
+I Valdemarsviks kommun	        Gryts, Tryserums och &#214;stra Eds 
+                                socknar
+
+I Norrk&#246;pings kommun	        Jonsbergs och R&#246;n&#246; socknar
+
+I S&#246;derk&#246;pings kommun	        Sk&#228;llviks, Sankt Annas och 
+                                B&#246;rrums socknar
+
+J&#246;nk&#246;pings l&#228;n
+
+I Gislaveds kommun	        Burseryds, Sandviks, Gryteryds, 
+                                S&#246;dra Hestra, &#197;s och K&#229;llerstads 
+                                socknar
+
+I J&#246;nk&#246;pings kommun	        Visings&#246; socken
+
+I V&#228;rnamo kommun	        Torskinge, Dann&#228;s, G&#228;llaryds 
+                                och Nydala socknar
+
+I S&#228;vsj&#246; kommun	                Skepperstads, Hj&#228;lmseryds, 
+                                Stockaryds och Hultsj&#246; socknar
+
+I Vetlanda kommun	        Fr&#246;deryds, B&#228;ckaby, Ramkvilla, 
+                                S&#246;dra Solberga, Korsberga, 
+                                Lemnhults, N&#228;shults, Stenberga, 
+                                Skir&#246;, Nye, Alseda, &#214;kna och 
+                                Karlstorps socknar
+
+I Eksj&#246; kommun	                Kr&#229;kshults, Bell&#246;, Ingatorps 
+                                och Edshults socknar
+
+Kronobergs l&#228;n
+
+I Uppvidinge kommun	        Hela kommunen
+
+I Lessebo kommun	        Ekeberga och Ljuders socknar
+
+I Tingsryds kommun	        Tings&#229;s, Almundsryds, &#196;lmeboda, 
+                                Linneryds, S&#246;dra Sandsj&#246; och 
+                                Urshults socknar, samt Tingsryd 
+                                stadsregisteromr&#229;de
+
+I Alvesta kommun	        Sl&#228;tth&#246;gs, Mistel&#229;s och V&#228;stra 
+                                Tors&#229;s socknar
+
+I &#196;lmhults kommun	        H&#228;rlunda, Virestads, 
+                                Stenbrohults, G&#246;teryds, 
+                                Pj&#228;tteryds och Hallaryds socknar
+
+I Markaryds kommun	        Hinneryds socken
+
+I V&#228;xj&#246; kommun	                Asa och Aneboda socknar
+
+I Ljungby kommun	        Torpa, Vr&#229;, Lidhults, Odensj&#246;, 
+                                Bolms&#246; och Tann&#229;kers socknar
+
+Kalmar l&#228;n
+
+I H&#246;gsby kommun	                Hela kommunen
+
+I Tors&#229;s kommun	                Gullabo och Tors&#229;s socknar
+
+I M&#246;rbyl&#229;nga kommun	        Sten&#229;sa, Hulterstads, Kastl&#246;sa, 
+                                Smedby, S&#246;dra M&#246;ckleby, 
+                                Segerstads, Gr&#228;sg&#229;rds, Ventlinge, 
+                                &#197;s, Norra M&#246;ckleby, G&#229;rdby och 
+                                Sandby socknar
+
+I Hultsfreds kommun	        M&#229;lilla, G&#229;rdveda, J&#228;reda, Vena, 
+                                Tveta, M&#246;rlunda och Virserums 
+                                socknar, samt Virserums 
+                                stadsregisteromr&#229;de
+
+I Emmaboda kommun	        Vissefj&#228;rda, Algutsboda och 
+                                L&#229;ngasj&#246; socknar
+
+I Kalmar kommun	                Karlslunda socken
+
+I Nybro kommun	                Kr&#229;ksm&#229;la, B&#228;ckebo, &#214;rsj&#246;, 
+                                Oskars och H&#228;lleberga socknar
+
+I Oskarshamns kommun	        Kristdala och Misterhults 
+                                socknar samt Figeholms 
+                                stadsregisteromr&#229;de
+
+I V&#228;sterviks kommun	        V&#228;strums, Ukna, Dalhems, V&#228;stra 
+                                Eds, Loftahammars, Odensvi, 
+                                Hallingebergs, Hjorteds och 
+                                Blackstads socknar
+
+I Vimmerby kommun	        Rumskulla, Fr&#246;dinge, Locknevi, 
+                                Djursdala, S&#246;dra Vi och Tuna 
+                                socknar
+
+I Borgholms kommun	        F&#246;ra, Alb&#246;ke, L&#246;ts, Egby, 
+                                Breds&#228;tra, G&#228;rdsl&#246;sa, L&#229;ngl&#246;ts, 
+                                Runstens, B&#246;da, H&#246;gby, K&#228;lla 
+                                och Persn&#228;s socknar
+
+Gotlands l&#228;n
+
+I Gotlands kommun	        F&#229;r&#246;, Bunge, Rute, Fleringe, 
+                                Halls, Hangvars, L&#228;rbro, Hellvi, 
+                                Norrlanda, Ganthems, V&#228;nge, 
+                                Guldrupe, Buttle, Ala, 
+                                Kr&#228;klingbo, Anga, Gammelgarns, 
+                                &#214;stergarns, Fr&#246;jels, Eksta, 
+                                Sproge, Ardre, Alskogs, Garde, 
+                                Etelhems, Lye, Lau, N&#228;rs, Burs, 
+                                St&#229;nga, Lojsta, Linde, Hemse, 
+                                Rone, Alva, Fardhems, Gerums, 
+                                Levide, Silte, Hablingbo, 
+                                Havdhems, Eke, Gr&#246;tlingbo, N&#228;s, 
+                                Fide, &#214;ja, Hamra, Vamlingbo 
+                                och Sundre socknar
+
+Blekinge l&#228;n
+
+I Olofstr&#246;ms kommun	        Kyrkhults socken
+
+I Karlskrona kommun	        Sillh&#246;vda och Kristianopels 
+                                socknar samt Kristianopels 
+                                stadsregisteromr&#229;de
+
+I Ronneby kommun	        Backaryds, &#214;ljehults och 
+                                Eringsboda socknar
+
+I Karlshamns kommun	        Ringam&#229;la socken
+
+Hallands l&#228;n
+
+I Hylte kommun	                Kinnareds, Dr&#228;ngsereds, 
+                                L&#229;ngaryds, Femsj&#246;, S&#246;dra 
+                                Unnaryds och J&#228;lluntofta socknar	
+
+I Laholms kommun	        Hishults och Kn&#228;reds socknar
+
+I Falkenbergs kommun	        G&#228;llareds, Krogsereds, Gunnarps, 
+                                Fagereds, K&#228;llsj&#246; och &#196;lvsereds 
+                                socknar
+
+V&#228;stra G&#246;talands l&#228;n
+
+I Munkedals kommun	        B&#228;rfendals, Svarteborgs, Hede, 
+                                Sanne och Krokstads socknar
+
+I Tanums kommun	                Hela kommunen	
+
+I Str&#246;mstads kommun	        Skee, N&#228;singe, Lommelands, 
+                                Hogdals och Tj&#228;rn&#246; socknar
+
+I Dals-Eds kommun	        Hela kommunen
+
+I F&#228;rgelanda kommun	        J&#228;rbo, R&#229;gg&#228;rds, Lerdals och 
+                                R&#228;nnelanda socknar
+
+I Bengtsfors kommun	        Hela kommunen
+
+I Melleruds kommun	        Dalskogs och Sk&#229;lleruds socknar
+
+I Svenljunga kommun	        Mj&#246;b&#228;cks, M&#229;rdaklevs, Kalvs, 
+                                &#214;stra Fr&#246;lunda och H&#229;cksviks 
+                                socknar
+
+I &#197;m&#229;ls kommun	                &#197;nimskogs, Fr&#246;skogs och 
+                                Edsleskogs socknar
+
+I Karlsborgs kommun	        Unden&#228;s socken
+
+I Gullsp&#229;ngs kommun	        Hela kommunen
+
+I T&#246;reboda kommun	        Beatebergs och &#196;lgar&#229;s socknar
+
+I Mariestads kommun	        Tors&#246; socken
+
+I Lidk&#246;pings kommun	        Otterstads socken
+
+V&#228;rmlands l&#228;n
+
+I Eda kommun	                J&#228;rnskogs, Skillingmarks och 
+                                K&#246;la socknar
+
+I Torsby kommun	                Lekvattnets, Vitsands, Nyskoga, 
+                                &#214;stmarks, Norra Finnskoga, 
+                                S&#246;dra Finnskoga, Dalby och 
+                                Norra Ny socknar
+
+I &#197;rj&#228;ngs kommun	        Hela kommunen
+
+I Sunne kommun	                Gr&#228;smarks socken
+
+I Filipstads kommun	        Nordmarks, G&#229;sborns och R&#228;mmens 
+                                socknar samt Lesj&#246;fors 
+                                stadsregisteromr&#229;de
+
+I Hagfors kommun	        Eksh&#228;rads och Gustav Adolfs 
+                                socknar
+
+I Arvika kommun	                Stavn&#228;s, Glava, Bogens, 
+                                Gunnarskogs, &#196;lg&#229; och Mangskogs 
+                                socknar
+
+I S&#228;ffle kommun	                Svanskogs och L&#229;ngseruds socknar
+
+&#214;rebro l&#228;n
+
+I Lax&#229; kommun	                Finner&#246;dja och Tiveds socknar
+
+I Hallsbergs kommun	        Svennevads och Bo socknar	
+
+I H&#228;llefors kommun	        Grythyttans och Hjulsj&#246; socknar
+
+I Ljusnarsbergs kommun	        Ljusnarsbergs socken samt 
+                                Kopparberg stadsregisteromr&#229;de
+
+I Nora kommun	                J&#228;rnbo&#229;s socken
+
+I Lindesbergs kommun	        Linde och Ramsbergs socknar
+
+V&#228;stmanlands l&#228;n
+
+I Skinnskattebergs kommun	Hela kommunen
+
+I Norbergs kommun	        Karbennings socken
+
+I Sala kommun	                M&#246;klinta socken
+
+I Fagersta kommun	        V&#228;sterv&#229;la socken	
+
+I K&#246;pings kommun	        V&#228;stra Skedvi socken
+
+Dalarnas l&#228;n
+
+I Vansbro kommun	        Hela kommunen 
+
+I Malung-S&#228;lens kommun	        Hela kommunen
+
+I Gagnefs kommun	        Floda socken
+
+I R&#228;ttviks kommun	        Boda och Ore socknar
+
+I Orsa kommun	                Hela kommunen
+
+I &#196;lvdalens kommun	        Hela kommunen
+
+I Mora kommun	                V&#229;mhus och Venjans socknar
+
+I Falu kommun	                Svartn&#228;s och Envikens socknar
+
+I Avesta kommun	                By socken
+
+I Ludvika kommun	        Grang&#228;rde och S&#228;fsn&#228;s socknar
+
+G&#228;vleborgs l&#228;n
+
+I Ovan&#229;kers kommun	        Voxna socken
+
+I Nordanstigs kommun	        Hela kommunen
+
+I Ljusdals kommun	        Hela kommunen
+
+I Sandvikens kommun	        &#214;sterf&#228;rnebo socken
+
+I Hudiksvalls kommun	        Delsbo, Bjur&#229;kers och Norrbo 
+                                socknar
+
+V&#228;sternorrlands l&#228;n
+
+I &#197;nge kommun	                Hela kommunen	
+
+I Sundsvalls kommun	        St&#246;de, Holms och Lidens socknar
+
+I Sollefte&#229; kommun	        Graninge, Resele, Helgums, 
+                                &#197;dals-Lidens, Junsele, Edsele 
+                                och Ramsele socknar
+
+I &#214;rnsk&#246;ldsviks kommun	        Skorpeds, Bj&#246;rna, Treh&#246;rningsj&#246; 
+                                och Anundsj&#246; socknar
+
+J&#228;mtlands l&#228;n
+
+I Ragunda kommun        	Hela kommunen
+
+I Br&#228;cke kommun	                Hela kommunen
+
+I Krokoms kommun	        Laxsj&#246;, F&#246;llinge, Hotagens, 
+                                Offerdals och Alsens socknar
+
+I Str&#246;msunds kommun	        Hela kommunen
+
+I &#197;re kommun	                Hela kommunen
+
+I Bergs kommun	                Hela kommunen
+
+I H&#228;rjedalens kommun	        Hela kommunen
+
+V&#228;sterbottens l&#228;n
+
+I Bjurholms kommun	        Hela kommunen
+
+I Vindelns kommun	        Hela kommunen
+
+I Robertsfors kommun	        Nys&#228;tra socken
+
+I Norsj&#246; kommun	                Hela kommunen
+
+I Mal&#229; kommun	                Hela kommunen
+
+I Storumans kommun	        Hela kommunen
+
+I Sorsele kommun	        Hela kommunen
+
+I Dorotea kommun	        Hela kommunen
+
+I Vilhelmina kommun	        Hela kommunen
+
+I &#197;sele kommun	                Hela kommunen
+
+I Ume&#229; kommun	                Holm&#246;n socken
+
+I Lycksele kommun	        Hela kommunen
+
+I Skellefte&#229; kommun	        J&#246;rns, L&#246;v&#229;ngers och Burtr&#228;sks 
+                                socknar
+
+Norrbottens l&#228;n
+
+I Arvidsjaurs kommun	        Hela kommunen
+
+I Arjeplog kommun	        Hela kommunen
+
+I Jokkmokks kommun	        Hela kommunen
+
+I &#214;verkalix kommun	        Hela kommunen
+
+I Kalix kommun	                Hela kommunen
+
+I &#214;vertorne&#229; kommun	        Hela kommunen
+
+I Pajala kommun	                Hela kommunen
+
+I G&#228;llivare kommun	        Hela kommunen
+
+I &#196;lvsbyns kommun	        Hela kommunen 
+
+I Bodens kommun	                Edefors socken
+
+I Haparanda kommun	        Hela kommunen
+
+I Kiruna kommun	                Hela kommunen
+
+F&#246;ljande kommuner eller delar av kommuner &#228;r 
+omarronderingsomr&#229;den
+
+V&#228;stra G&#246;talands l&#228;n
+
+I Skara kommun	                Varnhems och Norra Lundby 
+                                socknar
+
+V&#228;rmlands l&#228;n
+
+I Eda kommun	                J&#228;rnskogs socken
+
+I Torsby kommun	                Dalby och Norra Ny socknar
+
+I &#197;rj&#228;ngs kommun	        V&#228;stra F&#229;gelviks och Blomskog 
+                                socknar
+
+I Sunne kommun	                Lysviks socken
+
+Dalarnas l&#228;n
+
+I Vansbro kommun	        &#196;ppelbo socken
+
+I Malung-S&#228;lens kommun	        Malungs och Lima socknar
+
+I Leksands kommun	        Siljansn&#228;s socken
+
+I R&#228;ttviks kommun	        R&#228;ttviks och Boda socknar
+
+I Orsa kommun	                Hela kommunen
+
+I &#196;lvdalens kommun	        &#196;lvdalens socken
+
+I Falu kommun	                Sv&#228;rdsj&#246;, Envikens, Bjurs&#229;s och 
+                                Vika socknar
+
+I Borl&#228;nge kommun	        Hela kommunen
+
+I S&#228;ters kommun	                Stora Skedvi, Gustafs och S&#228;ter 
+                                socknar, samt S&#228;ter 
+                                stadsregisteromr&#229;de
+
+I Hedemora kommun	        Husby socken
+
+Med socken och stadsregisteromr&#229;de avses i bilagan socknar och 
+stadsregisteromr&#229;den enligt den registeromr&#229;desindelning f&#246;r 
+fastigheter som g&#228;llde vid den tidpunkt d&#229; 
+fastighetsdatareformen genomf&#246;rdes i respektive kommun.
+F&#246;rordning (2022:1809).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2331">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2333">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

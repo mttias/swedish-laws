@@ -1,0 +1,863 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-17" /> 
+ <meta id="rattsinfo-edited" content="2023-01-17 15:18:46" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3086</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3085">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3087">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1995:1649 ·
+                    <a href="/sfsr?bet=1995:1649">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1995:1649) om byggande av j&#228;rnv&#228;g</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSIB TP
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1995-12-21
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:373
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1996-02-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+1 &#167; Med j&#228;rnv&#228;g avses i denna lag sp&#229;ranl&#228;ggning f&#246;r
+j&#228;rnv&#228;gstrafik. Till en sp&#229;ranl&#228;ggning h&#246;r sp&#229;r och de &#246;vriga
+fasta anordningar som beh&#246;vs f&#246;r sp&#229;rens best&#229;nd, drift eller
+brukande, signal- och s&#228;kerhetsanl&#228;ggningar i &#246;vrigt,
+trafikledningsanl&#228;ggningar samt anordningar f&#246;r elf&#246;rs&#246;rjning
+av trafiken.
+
+Vad som f&#246;reskrivs om j&#228;rnv&#228;g till&#228;mpas ocks&#229; p&#229; tunnelbana och
+sp&#229;rv&#228;g. Om en tunnelbana eller en sp&#229;rv&#228;g byggs med st&#246;d av en
+detaljplan enligt plan- och bygglagen (2010:900) beh&#246;ver dock
+best&#228;mmelserna i denna lag inte till&#228;mpas. Lag (2012:440).
+
+1 a &#167; F&#246;r vissa fr&#229;gor om j&#228;rnv&#228;gssystem finns s&#228;rskilda 
+best&#228;mmelser i j&#228;rnv&#228;gstekniklagen (2022:366), 
+j&#228;rnv&#228;gss&#228;kerhetslagen (2022:367) och lagen (2022:368) om 
+nationella j&#228;rnv&#228;gssystem. Lag (2022:373).
+
+2 &#167; Med byggande av j&#228;rnv&#228;g avses att anl&#228;gga en ny j&#228;rnv&#228;g och
+att bygga om en j&#228;rnv&#228;g.
+
+En &#229;tg&#228;rd p&#229; en befintlig j&#228;rnv&#228;g ska inte anses vara byggande
+av j&#228;rnv&#228;g om
+
+1. &#229;tg&#228;rden medf&#246;r endast marginell ytterligare p&#229;verkan p&#229;
+omgivningen, och
+
+2. ber&#246;rda fastighets&#228;gare eller innehavare av s&#228;rskild r&#228;tt
+skriftligen medgett att mark eller annat utrymme f&#229;r tas i
+anspr&#229;k. Lag (2012:440).
+
+3 &#167; Vid planl&#228;ggning av j&#228;rnv&#228;g och vid pr&#246;vning av 
+&#228;renden om byggande av j&#228;rnv&#228;g ska 2–4 kap. och 5 kap. 3–5 &#167;&#167; 
+milj&#246;balken till&#228;mpas. Fastst&#228;llande av j&#228;rnv&#228;gsplan enligt 
+denna lag ska d&#229; j&#228;mst&#228;llas med meddelande av tillst&#229;nd 
+enligt milj&#246;balken. Pr&#246;vningsmyndigheten ska till&#228;mpa det som 
+s&#228;gs om mark- och milj&#246;domstolens handl&#228;ggning i 22 kap. 13 &#167; 
+milj&#246;balken.
+
+Vid planl&#228;ggning, byggande och underh&#229;ll av j&#228;rnv&#228;g ska 
+h&#228;nsyn tas till b&#229;de enskilda intressen och allm&#228;nna 
+intressen s&#229;som milj&#246;skydd, naturv&#229;rd och kulturmilj&#246;. En 
+estetisk utformning ska efterstr&#228;vas. Lag (2018:1417).
+
+4 &#167; N&#228;r en j&#228;rnv&#228;g byggs ska den ges ett s&#229;dant l&#228;ge och
+utformas s&#229; att &#228;ndam&#229;let med j&#228;rnv&#228;gen uppn&#229;s med minsta
+intr&#229;ng och ol&#228;genhet utan osk&#228;lig kostnad. H&#228;nsyn ska tas till
+stads- och landskapsbilden och till natur- och kulturv&#228;rden.
+
+Om en j&#228;rnv&#228;gsplan medf&#246;r att mark eller annat utrymme eller
+s&#228;rskild r&#228;tt till mark eller annat utrymme kan komma att tas i
+anspr&#229;k enligt 4 kap. 1 &#167;, ska planen utformas s&#229; att de
+f&#246;rdelar som kan uppn&#229;s med den &#246;verv&#228;ger de ol&#228;genheter som
+planen orsakar enskilda. Lag (2012:440).
+
+4 a &#167; Planl&#228;ggning och annan pr&#246;vning enligt denna lag som 
+avser anv&#228;ndning av ett mark- eller vattenomr&#229;de som ocks&#229; 
+har pr&#246;vats eller ska pr&#246;vas enligt annan lag, ska samordnas 
+med den planl&#228;ggningen och pr&#246;vningen, om det l&#228;mpligen kan 
+ske.
+
+Best&#228;mmelser om planer och annat underlag finns i 3 kap. 
+11–12 &#167;&#167; och 5 kap. 15 &#167; milj&#246;balken. Lag (2017:963).
+
+5 &#167; Inom omr&#229;de som omfattas av detaljplan eller omr&#229;desbest&#228;mmelser
+f&#229;r en j&#228;rnv&#228;g inte byggas i strid mot planen eller best&#228;mmelserna.
+Om syftet med planen eller best&#228;mmelserna inte motverkas, f&#229;r dock
+mindre avvikelser g&#246;ras.
+
+En j&#228;rnv&#228;g f&#229;r inte byggas s&#229; att syftet med skyddsf&#246;reskrifter
+eller andra s&#228;rskilda best&#228;mmelser f&#246;r anv&#228;ndning av bebyggelse, mark
+eller vatten motverkas. Om det finns s&#228;rskilda sk&#228;l f&#229;r regeringen,
+eller den myndighet som regeringen best&#228;mmer, medge undantag fr&#229;n
+s&#229;dana best&#228;mmelser.
+
+6 &#167; Om en fastighet har uppl&#229;tits med tomtr&#228;tt, skall vad som i
+denna lag &#228;r f&#246;reskrivet om fastighets&#228;garen eller fastigheten
+till&#228;mpas p&#229; tomtr&#228;ttshavaren eller tomtr&#228;tten.
+
+7 &#167; I denna lag f&#246;rst&#229;s med s&#228;rskild r&#228;tt till fastighet
+nyttjander&#228;tt, servitut och r&#228;tt till elektrisk kraft samt liknande
+r&#228;tt.
+
+8 &#167; N&#228;r den verksamhet som har bedrivits p&#229; j&#228;rnv&#228;g upph&#246;r &#228;r
+verksamhetsut&#246;varen skyldig att ta bort anl&#228;ggningar och vidta
+andra &#229;tg&#228;rder f&#246;r &#229;terst&#228;llning av ber&#246;rda omr&#229;den i den
+omfattning det beh&#246;vs f&#246;r att f&#246;rebygga st&#246;rningar eller
+ol&#228;genheter i framtiden. Lag (1998:850).
+
+2 kap. J&#228;rnv&#228;gsplan m.m.
+
+N&#228;r en j&#228;rnv&#228;gsplan ska uppr&#228;ttas
+
+1 &#167; Den som avser att bygga en j&#228;rnv&#228;g ska uppr&#228;tta en
+j&#228;rnv&#228;gsplan.
+
+En j&#228;rnv&#228;gsplan beh&#246;ver dock inte uppr&#228;ttas f&#246;r industrisp&#229;r
+eller hamnsp&#229;r som ska anl&#228;ggas uteslutande p&#229; egen fastighet.
+En j&#228;rnv&#228;gsplan f&#229;r uppr&#228;ttas f&#246;r att st&#228;nga av en
+plankorsning, &#228;ven om &#229;tg&#228;rden inte &#228;r byggande av j&#228;rnv&#228;g.
+
+Om en j&#228;rnv&#228;g beh&#246;ver anl&#228;ggas eller byggas om p&#229; grund av ett
+v&#228;gprojekt, f&#229;r j&#228;rnv&#228;gen i st&#228;llet regleras i en v&#228;gplan
+enligt 20 b &#167; andra stycket v&#228;glagen (1971:948). I s&#229; fall ska
+2-17 &#167;&#167; inte till&#228;mpas. Vid till&#228;mpningen av &#246;vriga
+best&#228;mmelser i denna lag ska v&#228;gplanen, n&#228;r det g&#228;ller
+j&#228;rnv&#228;gen, likst&#228;llas med en j&#228;rnv&#228;gsplan. Lag (2012:440).
+
+Samr&#229;d
+
+2 &#167; Den som avser att bygga en j&#228;rnv&#228;g ska under arbetet med 
+att uppr&#228;tta en j&#228;rnv&#228;gsplan samr&#229;da med l&#228;nsstyrelsen, 
+ber&#246;rda kommuner och de enskilda som s&#228;rskilt ber&#246;rs. Om 
+j&#228;rnv&#228;gsplanen har betydelse f&#246;r kollektivtrafiken, ska 
+samr&#229;d &#228;ven ske med ber&#246;rda regionala 
+kollektivtrafikmyndigheter. Samr&#229;det ska avse j&#228;rnv&#228;gens 
+lokalisering, utformning och milj&#246;p&#229;verkan.
+
+Om j&#228;rnv&#228;gen kan antas medf&#246;ra en betydande milj&#246;p&#229;verkan 
+ska
+
+1. samr&#229;d ocks&#229; ske med de &#246;vriga statliga myndigheter samt 
+den allm&#228;nhet och de organisationer som kan antas bli 
+ber&#246;rda, och
+
+2. samr&#229;det &#228;ven avse inneh&#229;ll i och utformning av s&#229;dan 
+milj&#246;konsekvensbeskrivning som ska finnas tillsammans med 
+j&#228;rnv&#228;gsplanen.
+
+L&#228;nsstyrelsen ska verka f&#246;r att milj&#246;konsekvensbeskrivningen 
+f&#229;r den omfattning och detaljeringsgrad som beh&#246;vs f&#246;r 
+pr&#246;vningen av j&#228;rnv&#228;gsplanen. Om den som avser att bygga en 
+j&#228;rnv&#228;g beg&#228;r det, ska l&#228;nsstyrelsen redovisa sin bed&#246;mning i 
+fr&#229;gan. L&#228;nsstyrelsens redovisning &#228;r inte bindande.
+
+Under samr&#229;det f&#229;r ber&#246;rd kommun medge att undantag g&#246;rs fr&#229;n 
+krav p&#229; bygglov f&#246;r upplag, materialg&#229;rdar, murar, plank och 
+transformatorstationer. Lag (2017:963).
+
+3 &#167; Samr&#229;det ska inledas s&#229; tidigt som m&#246;jligt och anpassas
+efter behovet i det enskilda fallet.
+
+Den som avser att bygga j&#228;rnv&#228;gen ska ta fram underlag f&#246;r
+samr&#229;det och g&#246;ra det tillg&#228;ngligt samt ge de enskilda som kan
+antas bli s&#228;rskilt ber&#246;rda m&#246;jlighet att yttra sig.
+Lag (2012:440).
+
+4 &#167; L&#228;nsstyrelsen ska under samr&#229;det pr&#246;va om projektet kan
+antas medf&#246;ra en betydande milj&#246;p&#229;verkan.
+
+Pr&#246;vningen ska g&#246;ras av den l&#228;nsstyrelse inom vars omr&#229;de
+projektet huvudsakligen ska utf&#246;ras efter samr&#229;d med &#246;vriga
+ber&#246;rda l&#228;nsstyrelser. L&#228;nsstyrelsen f&#229;r inte besluta i &#228;rendet
+innan den som avser att bygga j&#228;rnv&#228;gen har gett de enskilda
+som kan antas bli s&#228;rskilt ber&#246;rda m&#246;jlighet att yttra sig
+enligt 3 &#167; andra stycket.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om att vissa slags projekt
+enligt denna lag ska antas medf&#246;ra en betydande milj&#246;p&#229;verkan.
+Lag (2012:440).
+
+5 &#167; Samr&#229;dsf&#246;rfarandet f&#229;r f&#246;renklas om
+
+1. j&#228;rnv&#228;gsplanen enbart g&#228;ller &#228;ndring av planen f&#246;r ett
+j&#228;rnv&#228;gsbygge som &#228;nnu inte &#228;r f&#228;rdigst&#228;llt, och
+
+2. &#228;ndringen inte kan antas medf&#246;ra en betydande milj&#246;p&#229;verkan.
+
+&#196;gare till fastigheter som helt eller delvis kan komma att tas
+i anspr&#229;k ska dock alltid ges tillf&#228;lle att yttra sig. Detsamma
+g&#228;ller ber&#246;rda innehavare av s&#228;rskild r&#228;tt till s&#229;dana
+fastigheter. Lag (2012:440).
+
+6 &#167; Samr&#229;d om en j&#228;rnv&#228;gs lokalisering och utformning i detalj
+beh&#246;ver inte ske om
+
+1. j&#228;rnv&#228;gsplanen enbart g&#228;ller &#229;tg&#228;rder som ocks&#229; har pr&#246;vats
+eller ska pr&#246;vas genom detaljplan enligt plan- och bygglagen
+(2010:900),
+
+2. utredningen i detaljplane&#228;rendet &#228;r tillr&#228;cklig och aktuell
+f&#246;r j&#228;rnv&#228;gsplanen, och
+
+3. samr&#229;d i detaljplane&#228;rendet sker eller har skett med alla
+dem som ska omfattas av samr&#229;d enligt 2 &#167; f&#246;rsta och andra
+styckena.
+
+Om samr&#229;det i detaljplane&#228;rendet &#228;r avslutat och samr&#229;d inte
+har skett med alla enligt f&#246;rsta stycket 3, &#228;r det tillr&#228;ckligt
+att samr&#229;d sker med dem som inte har omfattats av samr&#229;det.
+Lag (2012:440).
+
+7 &#167; Om ett projekt kan antas medf&#246;ra en betydande 
+milj&#246;p&#229;verkan i ett annat land ska 6 kap. 33 &#167; milj&#246;balken 
+och f&#246;reskrifter som har meddelats i anslutning till den 
+best&#228;mmelsen till&#228;mpas. Lag (2017:963).
+
+Till&#229;tlighetspr&#246;vning
+
+8 &#167; Om ett projekt ska till&#229;tlighetspr&#246;vas enligt 17 kap. 3 &#167; 
+milj&#246;balken, ska den som avser att bygga j&#228;rnv&#228;gen &#246;verl&#228;mna 
+&#228;rendet till regeringen med eget yttrande. &#196;rendet ska 
+&#246;verl&#228;mnas n&#228;r den som avser att bygga j&#228;rnv&#228;gen har tagit 
+st&#228;llning till vilka alternativ som &#228;r rimliga och rangordnat 
+dessa.
+
+&#196;rendet ska inneh&#229;lla en milj&#246;konsekvensbeskrivning och det 
+&#246;vriga underlag som beh&#246;vs f&#246;r till&#229;tlighetspr&#246;vningen. N&#228;r 
+underlaget tas fram ska f&#246;rfarandet f&#246;r j&#228;rnv&#228;gsplan i 2–4, 7 
+och 12 &#167;&#167; till&#228;mpas.
+
+Milj&#246;konsekvensbeskrivningen ska uppfylla kraven i 6 kap. 35 
+och 37 &#167;&#167; milj&#246;balken och f&#246;reskrifter som har meddelats i 
+anslutning till dessa best&#228;mmelser och godk&#228;nnas av ber&#246;rda 
+l&#228;nsstyrelser innan &#228;rendet kung&#246;rs. Lag (2017:963).
+
+J&#228;rnv&#228;gsplanens inneh&#229;ll och underlag till planen
+
+9 &#167; J&#228;rnv&#228;gsplanen ska inneh&#229;lla en karta &#246;ver det omr&#229;de som
+planen omfattar. Kartan ska visa j&#228;rnv&#228;gens str&#228;ckning och
+huvudsakliga utformning samt den mark eller det utrymme och de
+s&#228;rskilda r&#228;ttigheter som beh&#246;ver tas i anspr&#229;k f&#246;r j&#228;rnv&#228;gen
+och f&#246;r att bygga j&#228;rnv&#228;gen.
+
+Planen ska ocks&#229; inneh&#229;lla uppgifter om
+
+1. skydds&#229;tg&#228;rder och f&#246;rsiktighetsm&#229;tt som ska vidtas f&#246;r att
+f&#246;rebygga st&#246;rningar och andra ol&#228;genheter fr&#229;n trafiken eller
+anl&#228;ggningen,
+
+2. verksamheter eller &#229;tg&#228;rder som enligt best&#228;mmelser i
+milj&#246;balken ska undantas fr&#229;n f&#246;rbud eller skyldigheter enligt
+balken, och
+
+3. &#229;tg&#228;rder som undantas fr&#229;n krav p&#229; bygglov f&#246;r upplag,
+materialg&#229;rdar, murar, plank och transformatorstationer med
+st&#246;d av ett medgivande fr&#229;n ber&#246;rd kommun.
+
+Tillsammans med planen ska f&#246;ljande underlag finnas:
+
+1. en redovisning av motiven till valet av lokalisering och
+utformning av j&#228;rnv&#228;gen,
+
+2. en sammanst&#228;llning av de synpunkter som kommit fram under
+samr&#229;det och uppgift om hur synpunkterna har beaktats
+(samr&#229;dsredog&#246;relse),
+
+3. en milj&#246;konsekvensbeskrivning eller, om ett j&#228;rnv&#228;gsprojekt
+inte kan antas medf&#246;ra en betydande milj&#246;p&#229;verkan, uppgifter om
+verksamhetens f&#246;rutsebara p&#229;verkan p&#229; m&#228;nniskors h&#228;lsa och p&#229;
+milj&#246;n, och
+
+4. de &#246;vriga uppgifter som beh&#246;vs f&#246;r att genomf&#246;ra projektet.
+Lag (2012:440).
+
+10 &#167; En milj&#246;konsekvensbeskrivning ska uppfylla kraven i 6 
+kap. 35 och 37 &#167;&#167; milj&#246;balken och f&#246;reskrifter som har 
+meddelats i anslutning till dessa best&#228;mmelser.
+
+Milj&#246;konsekvensbeskrivningen ska godk&#228;nnas av ber&#246;rda 
+l&#228;nsstyrelser innan den kung&#246;rs enligt 12 &#167;. 
+Lag (2017:963).
+
+11 &#167; Det beh&#246;vs ingen milj&#246;konsekvensbeskrivning som &#228;r
+s&#228;rskilt uppr&#228;ttad f&#246;r j&#228;rnv&#228;gsplanen om
+
+1. j&#228;rnv&#228;gsplanen enbart g&#228;ller &#229;tg&#228;rder som ocks&#229; har pr&#246;vats
+eller ska pr&#246;vas genom detaljplan enligt plan- och bygglagen
+(2010:900), och
+
+2. milj&#246;konsekvensbeskrivningen i detaljplane&#228;rendet tas in i
+j&#228;rnv&#228;gs&#228;rendet och &#228;r aktuell och tillr&#228;cklig f&#246;r det &#228;rendet.
+Lag (2012:440).
+
+Kung&#246;rande och granskning
+
+12 &#167; Den som avser att bygga en j&#228;rnv&#228;g ska kung&#246;ra f&#246;rslaget 
+till j&#228;rnv&#228;gsplan och underlaget till denna och l&#229;ta det 
+granskas. Om en milj&#246;konsekvensbeskrivning har uppr&#228;ttats, 
+ska denna kung&#246;ras och h&#229;llas tillg&#228;nglig f&#246;r allm&#228;nheten 
+enligt 6 kap. 39 &#167; f&#246;rsta stycket samt 40 och 41 &#167;&#167; 
+milj&#246;balken och f&#246;reskrifter som har meddelats i anslutning 
+till dessa best&#228;mmelser.
+
+Om f&#246;rslaget enbart g&#228;ller &#229;tg&#228;rder som ocks&#229; har pr&#246;vats 
+eller ska pr&#246;vas genom detaljplan enligt plan- och bygglagen 
+(2010:900), f&#229;r kung&#246;randet samordnas med det kung&#246;rande som 
+ska ske i detaljplane&#228;rendet. Lag (2017:963).
+
+13 &#167; Trots vad som anges i 12 &#167; beh&#246;ver ett f&#246;rslag till
+j&#228;rnv&#228;gsplan som enbart g&#228;ller &#228;ndring av planen f&#246;r ett
+j&#228;rnv&#228;gsbygge som &#228;nnu inte &#228;r f&#228;rdigst&#228;llt, bara kung&#246;ras och
+granskas om
+
+1. &#228;ndringen kan antas medf&#246;ra en betydande milj&#246;p&#229;verkan,
+eller
+
+2. n&#229;gon annans fastighet eller del av fastighet beh&#246;ver tas i
+anspr&#229;k eller en s&#228;rskild r&#228;tt till en s&#229;dan fastighet beh&#246;ver
+upph&#228;vas eller begr&#228;nsas och &#229;tg&#228;rden inte skriftligen medgetts
+av ber&#246;rda fastighets&#228;gare och innehavare av s&#228;rskild r&#228;tt.
+Lag (2012:440).
+
+14 &#167; Trots vad som anges i 12 &#167; beh&#246;ver ett f&#246;rslag till
+j&#228;rnv&#228;gsplan inte kung&#246;ras om f&#246;rslaget
+
+1. inte &#228;r av stor vikt eller har principiell betydelse,
+
+2. inte kan antas medf&#246;ra en betydande milj&#246;p&#229;verkan, och
+
+3. saknar intresse f&#246;r allm&#228;nheten.
+
+Den som avser att bygga j&#228;rnv&#228;gen ska d&#229; i st&#228;llet ge
+l&#228;nsstyrelsen, ber&#246;rda kommuner och de enskilda som s&#228;rskilt
+ber&#246;rs tillf&#228;lle att godk&#228;nna f&#246;rslaget eller att inom tre
+veckor granska det och l&#228;mna synpunkter. Granskningstiden f&#229;r
+g&#246;ras kortare, om alla ber&#246;rda &#228;r &#246;verens om det.
+Lag (2012:440).
+
+Fastst&#228;llelse av en j&#228;rnv&#228;gsplan
+
+15 &#167; Trafikverket pr&#246;var fr&#229;gan om att fastst&#228;lla en 
+j&#228;rnv&#228;gsplan efter samr&#229;d med ber&#246;rda l&#228;nsstyrelser.
+
+Trafikverket ska &#246;verl&#228;mna fr&#229;gan om att fastst&#228;lla planen 
+till regeringen f&#246;r pr&#246;vning om Trafikverket och en 
+l&#228;nsstyrelse har olika uppfattning.
+
+N&#228;r fr&#229;gan om att fastst&#228;lla planen avg&#246;rs ska
+
+1. en identifiering, beskrivning och samlad bed&#246;mning av 
+milj&#246;effekterna g&#246;ras om planen avser ett projekt som kan 
+antas medf&#246;ra en betydande milj&#246;p&#229;verkan, och
+
+2. inneh&#229;llet i en milj&#246;konsekvensbeskrivning och resultatet 
+av samr&#229;d och yttranden beaktas.
+
+Ett beslut att fastst&#228;lla planen ska kung&#246;ras. Om samr&#229;d har 
+skett med en ansvarig myndighet i ett annat land enligt 6 
+kap. 33 &#167; milj&#246;balken, ska den ansvariga myndigheten i det 
+landet informeras. Lag (2017:963).
+
+N&#228;r beslut om att fastst&#228;lla en j&#228;rnv&#228;gsplan upph&#246;r att g&#228;lla
+
+16 &#167; Ett beslut att fastst&#228;lla en j&#228;rnv&#228;gsplan upph&#246;r att g&#228;lla
+fem &#229;r efter det &#229;r d&#229; beslutet fick laga kraft om inte
+j&#228;rnv&#228;gsbygget har p&#229;b&#246;rjats.
+
+Om det finns synnerliga sk&#228;l f&#229;r giltighetstiden f&#246;rl&#228;ngas med
+h&#246;gst tv&#229; &#229;r.
+
+Ett beslut att f&#246;rl&#228;nga giltighetstiden ska kung&#246;ras.
+Lag (2012:440).
+
+17 &#167; Ett beslut att fastst&#228;lla en j&#228;rnv&#228;gsplan ska upph&#228;vas,
+helt eller delvis, om f&#246;rh&#229;llandena efter beslutet har &#228;ndrats
+s&#229; att f&#246;ruts&#228;ttningarna f&#246;r att fastst&#228;lla planen inte l&#228;ngre
+&#228;r uppfyllda.
+
+Ett beslut att upph&#228;va en j&#228;rnv&#228;gsplan ska kung&#246;ras.
+Lag (2012:440).
+
+Avvikelse fr&#229;n j&#228;rnv&#228;gsplanen
+
+18 &#167; N&#228;r en j&#228;rnv&#228;g byggs f&#229;r endast ov&#228;sentliga avvikelser
+g&#246;ras fr&#229;n j&#228;rnv&#228;gsplanen. Om en s&#229;dan avvikelse g&#246;rs i fr&#229;ga
+om den mark eller det utrymme som enligt planen ska tas i
+anspr&#229;k f&#246;r j&#228;rnv&#228;gen, ska det omedelbart antecknas i ett
+till&#228;gg till planen. Lag (2012:440).
+
+Gemensam planering av j&#228;rnv&#228;gar och v&#228;gar
+
+19 &#167; En j&#228;rnv&#228;gsplan och en v&#228;gplan enligt v&#228;glagen (1971:948)
+f&#229;r uppr&#228;ttas i ett gemensamt f&#246;rfarande och fastst&#228;llas genom
+ett beslut.
+
+Byggande av allm&#228;n v&#228;g som beh&#246;vs p&#229; grund av det
+j&#228;rnv&#228;gsprojekt som en j&#228;rnv&#228;gsplan avser f&#229;r regleras i
+j&#228;rnv&#228;gsplanen. Lag (2012:440).
+
+V&#228;gh&#229;llning f&#246;r enskild v&#228;g
+
+20 &#167; Om byggande av en j&#228;rnv&#228;g eller avst&#228;ngning av en
+plankorsning medf&#246;r att en enskild v&#228;g beh&#246;ver byggas eller
+att &#228;ndrade f&#246;rh&#229;llanden uppst&#229;r som v&#228;sentligt p&#229;verkar
+v&#228;gh&#229;llningen f&#246;r en s&#229;dan v&#228;g, ska den som bygger j&#228;rnv&#228;gen
+eller j&#228;rnv&#228;gens infrastrukturf&#246;rvaltare vid behov beg&#228;ra
+f&#246;rr&#228;ttning enligt anl&#228;ggningslagen (1973:1149) f&#246;r att ordna
+v&#228;gh&#229;llningen f&#246;r den enskilda v&#228;gen. Lag (2012:440).
+
+Bemyndigande
+
+21 &#167; Regeringen f&#229;r meddela f&#246;reskrifter om
+
+1. samr&#229;d enligt 2-6 &#167;&#167;, och
+
+2. j&#228;rnv&#228;gsplan enligt 9-11 &#167;&#167;. Lag (2012:440).
+
+3 kap. Tillf&#228;lligt ianspr&#229;ktagande av mark, m. m.
+
+1 &#167; Trafikverket, och efter tillst&#229;nd av l&#228;nsstyrelsen annan
+som avser att bygga en j&#228;rnv&#228;g, har r&#228;tt att f&#229; tilltr&#228;de till
+en fastighet f&#246;r att verkst&#228;lla m&#228;tning eller stakning,
+unders&#246;kning av grund eller annan f&#246;rberedande &#229;tg&#228;rd f&#246;r
+byggande av j&#228;rnv&#228;gen. Den som avser att bygga j&#228;rnv&#228;gen ska
+underr&#228;tta fastighets&#228;garen om ber&#228;knad tidpunkt f&#246;r tilltr&#228;de.
+I en tr&#228;dg&#229;rd, park eller liknande plantering f&#229;r tr&#228;d eller
+buskar inte skadas eller f&#228;llas utan fastighets&#228;garens
+samtycke. &#196;ven i &#246;vrigt ska skada s&#229; l&#229;ngt m&#246;jligt undvikas.
+
+Polismyndigheten ska l&#228;mna den hj&#228;lp som beh&#246;vs f&#246;r att
+&#229;tg&#228;rderna ska kunna genomf&#246;ras. Lag (2012:440).
+
+2 &#167; P&#229; den j&#228;rnv&#228;gsmark som anges i en fastst&#228;lld
+j&#228;rnv&#228;gsplan f&#229;r inte utan tillst&#229;nd av Trafikverket uppf&#246;ras
+byggnader, g&#246;ras tillbyggnader, utf&#246;ras andra anl&#228;ggningar
+eller vidtas andra &#229;tg&#228;rder som v&#228;sentligt kan f&#246;rsv&#229;ra
+omr&#229;dets anv&#228;ndning f&#246;r j&#228;rnv&#228;gs&#228;ndam&#229;l. F&#246;rbudet g&#228;ller fr&#229;n
+det att beslut att fastst&#228;lla j&#228;rnv&#228;gsplanen meddelas och
+upph&#246;r att g&#228;lla om beslut meddelas att upph&#228;va
+fastst&#228;llelsebeslutet eller om planen annars upph&#246;r att
+g&#228;lla.
+
+F&#246;rbudet &#228;r inte till&#228;mpligt i fr&#229;ga om &#229;tg&#228;rder som lagligen
+har p&#229;b&#246;rjats innan f&#246;rbudet b&#246;rjade g&#228;lla.
+
+Om &#229;tg&#228;rder vidtagits i strid med f&#246;rsta stycket, f&#229;r
+Trafikverket vidta de &#229;tg&#228;rder som beh&#246;vs f&#246;r r&#228;ttelse.
+Polismyndigheten ska l&#228;mna det bitr&#228;de som beh&#246;vs f&#246;r att
+r&#228;ttelse ska kunna ske.
+
+Vad som s&#228;gs i denna paragraf om j&#228;rnv&#228;gsmark g&#228;ller &#228;ven
+annat utrymme avsett f&#246;r j&#228;rnv&#228;g. Lag (2010:93).
+
+3 &#167; Om mark eller annat utrymme i n&#228;rheten av j&#228;rnv&#228;gsmarken i
+en fastst&#228;lld j&#228;rnv&#228;gsplan har avsatts f&#246;r upplag eller
+liknande &#228;ndam&#229;l i samband med byggandet av j&#228;rnv&#228;gen, f&#229;r
+marken eller utrymmet tas i anspr&#229;k med nyttjander&#228;tt i
+enlighet med vad som anges i planen. Lag (2012:440).
+
+3 a &#167; L&#228;nsstyrelsen f&#229;r besluta att nyttjander&#228;tt till mark
+eller annat utrymme ska uppl&#229;tas f&#246;r tillf&#228;llig j&#228;rnv&#228;g om
+
+1. en j&#228;rnv&#228;g inte kan anv&#228;ndas utan risk f&#246;r olycksh&#228;ndelse p&#229;
+grund av p&#229;g&#229;ende arbete, jordras, &#246;versv&#228;mning eller av annan
+orsak, och
+
+2. j&#228;rnv&#228;gens infrastrukturf&#246;rvaltare beg&#228;r det.
+
+Nyttjander&#228;tten ska uppl&#229;tas f&#246;r den tid en tillf&#228;llig j&#228;rnv&#228;g
+beh&#246;vs till f&#246;ljd av hindret. Lag (2012:440).
+
+4 &#167; Om tr&#228;d eller buskar intill mark eller annat utrymme som
+ska anv&#228;ndas f&#246;r j&#228;rnv&#228;g medf&#246;r ol&#228;genheter f&#246;r trafik- eller
+drifts&#228;kerheten p&#229; j&#228;rnv&#228;gen, f&#229;r l&#228;nsstyrelsen besluta att de
+ska avl&#228;gsnas eller besk&#228;ras genom j&#228;rnv&#228;gens
+infrastrukturf&#246;rvaltares f&#246;rsorg. I samband med beslutet f&#229;r
+l&#228;nsstyrelsen meddela de villkor som beh&#246;vs. Lag (2012:440).
+
+4 kap. Inl&#246;sen och ers&#228;ttning
+
+1 &#167; Den som i enlighet med en g&#228;llande j&#228;rnv&#228;gsplan skall bygga
+en j&#228;rnv&#228;g som tillgodoser ett allm&#228;nt transportbehov f&#229;r l&#246;sa
+s&#229;dan mark eller s&#229;dant utrymme som enligt planen inte endast
+tillf&#228;lligt skall anv&#228;ndas f&#246;r j&#228;rnv&#228;gs&#228;ndam&#229;l.
+
+Besv&#228;ras s&#229;dan mark eller s&#229;dant utrymme som f&#229;r l&#246;sas enligt
+f&#246;rsta stycket av s&#228;rskild r&#228;tt, f&#229;r r&#228;ttigheten l&#246;sas.
+Lag (2005:944).
+
+2 &#167; Om fastighets&#228;garen beg&#228;r det, skall den som i enlighet med
+en g&#228;llande j&#228;rnv&#228;gsplan skall bygga en s&#229;dan j&#228;rnv&#228;g som avses
+i 1 &#167; l&#246;sa s&#229;dan mark eller s&#229;dant utrymme som enligt planen
+inte endast tillf&#228;lligt skall anv&#228;ndas f&#246;r j&#228;rnv&#228;gs&#228;ndam&#229;l.
+Lag (2005:944).
+
+2 a &#167; En fastighet eller del av fastighet ska p&#229;
+fastighets&#228;garens beg&#228;ran l&#246;sas in &#228;ven om det &#228;nnu inte finns
+n&#229;gon g&#228;llande j&#228;rnv&#228;gsplan om
+
+1. det &#228;r sannolikt att fastigheten kommer att beh&#246;vas f&#246;r
+j&#228;rnv&#228;gs&#228;ndam&#229;l, och
+
+2. det finns synnerliga sk&#228;l f&#246;r att f&#229; fastigheten eller del
+av denna inl&#246;st. Lag (2012:440).
+
+3 &#167; Om tillst&#229;nd enligt 3 kap. 2 &#167; v&#228;grats, &#228;r fastighets&#228;garen och
+innehavare av s&#228;rskild r&#228;tt till fastigheten ber&#228;ttigade till
+ers&#228;ttning av den som avser att bygga j&#228;rnv&#228;gen f&#246;r den skada de
+lider p&#229; grund av att p&#229;g&#229;ende markanv&#228;ndning avsev&#228;rt f&#246;rsv&#229;ras inom
+ber&#246;rd del av fastigheten.
+
+4 &#167; Den som avser att bygga en j&#228;rnv&#228;g ska ers&#228;tta skador till
+f&#246;ljd av &#229;tg&#228;rder som avses i 3 kap. 1 &#167; och skador till f&#246;ljd
+av att mark eller annat utrymme tagits i anspr&#229;k enligt 3 kap.
+3 eller 3 a &#167;. J&#228;rnv&#228;gens infrastrukturf&#246;rvaltare ska ers&#228;tta
+skador till f&#246;ljd av &#229;tg&#228;rder som avses i 3 kap. 4 &#167;.
+Lag (2012:440).
+
+5 &#167; I m&#229;l om inl&#246;sen och ers&#228;ttning ska expropriationslagen
+(1972:719) till&#228;mpas, i den m&#229;n avvikande best&#228;mmelser inte
+meddelas i denna lag. Om en talan i ett m&#229;l som v&#228;ckts av en
+fastighets&#228;gare eller den som innehar s&#228;rskild r&#228;tt till en
+fastighet ogillas, till&#228;mpas best&#228;mmelserna i 15 kap. 8 &#167;
+plan- och bygglagen (2010:900) i fr&#229;ga om
+r&#228;tteg&#229;ngskostnaderna. Lag (2010:915).
+
+6 &#167; Talan om inl&#246;sen f&#229;r v&#228;ckas &#228;ven om beslutet att fastst&#228;lla
+j&#228;rnv&#228;gsplanen inte har vunnit laga kraft.
+
+5 kap. &#214;verklagande m. m.
+
+1 &#167; Trafikverkets beslut f&#229;r &#246;verklagas hos regeringen. Beslut
+enligt 3 kap. 2 &#167; &#246;verklagas dock hos allm&#228;n
+f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2010:93).
+
+1 a &#167; Trafikverkets beslut i fr&#229;ga om fastst&#228;llelse av en
+j&#228;rnv&#228;gsplan f&#229;r &#246;verklagas av en s&#229;dan ideell f&#246;rening eller
+annan juridisk person som avses i 16 kap. 13 &#167; milj&#246;balken.
+Lag (2010:892).
+
+2 &#167; L&#228;nsstyrelsens beslut enligt 3 kap. 3 a &#167; f&#229;r &#246;verklagas
+till regeringen.
+
+L&#228;nsstyrelsens beslut enligt 2 kap. 4 &#167; f&#246;rsta stycket, 8 &#167;
+tredje stycket eller 10 &#167; andra stycket f&#229;r inte &#246;verklagas.
+
+Andra beslut av l&#228;nsstyrelsen f&#229;r &#246;verklagas till allm&#228;n
+f&#246;rvaltningsdomstol. Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande
+till kammarr&#228;tt. Lag (2012:440).
+
+3 &#167; Trafikverket och kommuner f&#229;r &#246;verklaga l&#228;nsstyrelsens 
+beslut. Kommuner, regionala kollektivtrafikmyndigheter enligt 
+lagen (2010:1065) om kollektivtrafik och de regioner som avses 
+i 7 kap. plan- och bygglagen (2010:900) f&#229;r &#246;verklaga 
+Trafikverkets beslut. Lag (2019:894).
+
+4 &#167; I ett beslut om tillst&#229;nd f&#229;r f&#246;rordnas att beslutet skall
+g&#228;lla omedelbart.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1995:1649
+
+Denna lag tr&#228;der i kraft den 1 februari 1996.
+
+Lagen g&#228;ller inte f&#246;r byggande av s&#229;dan delstr&#228;cka av en j&#228;rnv&#228;g f&#246;r
+vilken mark- eller byggnadsarbete p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet
+eller f&#246;r vilken ans&#246;kan om expropriationstillst&#229;nd inkommit senast
+fyra m&#229;nader f&#246;re ikrafttr&#228;dandet. Om en j&#228;rnv&#228;g inte kan delas upp i
+delstr&#228;ckor, g&#228;ller vad nu sagts f&#246;r hela j&#228;rnv&#228;gen.
+
+1998:850
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1999.
+
+2. Skyldigheten att vidta &#229;terst&#228;llnings&#229;tg&#228;rder enligt 1 kap.
+8 &#167; g&#228;ller &#228;ven d&#229; j&#228;rnv&#228;gen har tillkommit f&#246;re denna lags
+ikrafttr&#228;dande.
+
+3. Ett &#228;rende skall handl&#228;ggas och bed&#246;mas enligt &#228;ldre
+best&#228;mmelser, om det i &#228;rendet ing&#229;r en
+milj&#246;konsekvensbeskrivning som vid denna lags ikrafttr&#228;dande
+har &#246;verl&#228;mnats till l&#228;nsstyrelsen f&#246;r godk&#228;nnande enligt 2
+kap. 4 &#167;. Best&#228;mmelserna om milj&#246;kvalitetsnormer i milj&#246;balken
+skall dock till&#228;mpas omedelbart.
+
+2010:829
+
+1. Denna lag tr&#228;der i kraft den 1 augusti 2010.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r ers&#228;ttning
+enligt
+
+a) 4 kap. 1 och 2 &#167;&#167;, om talan om inl&#246;sen har v&#228;ckts f&#246;re
+ikrafttr&#228;dandet, och
+
+b) 4 kap. 3 och 4 &#167;&#167;, om beslutet enligt 3 kap. 1, 2, 3 eller
+4 &#167; har meddelats f&#246;re ikrafttr&#228;dandet.
+
+3. I de fall som avses i 2 ska h&#228;nvisningarna till
+expropriationslagen (1972:719) avse den lagens lydelse vid
+utg&#229;ngen av juli 2010.
+
+2012:440
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2013.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r plan&#228;renden som vid
+ikrafttr&#228;dandet inneh&#229;ller en milj&#246;konsekvensbeskrivning f&#246;r en
+j&#228;rnv&#228;gsplan som har &#246;verl&#228;mnats till l&#228;nsstyrelsen f&#246;r godk&#228;nnande
+enligt 2 kap. 2 &#167; i dess &#228;ldre lydelse.
+
+3. &#196;ldre f&#246;reskrifter i 3 kap. 1 och 3 &#167;&#167; g&#228;ller fortfarande f&#246;r en
+j&#228;rnv&#228;gsplan som har fastst&#228;llts f&#246;re den 1 januari 2013.
+
+4. Best&#228;mmelsen i 2 kap. 16 &#167; andra stycket till&#228;mpas inte p&#229; en
+j&#228;rnv&#228;gsplan som har fastst&#228;llts f&#246;re den 1 januari 2013.
+
+2017:963
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2018.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r handl&#228;ggningen 
+och bed&#246;mningen av &#228;renden i vilka det ing&#229;r en 
+milj&#246;konsekvensbeskrivning som vid lagens ikrafttr&#228;dande har 
+&#246;verl&#228;mnats till l&#228;nsstyrelsen f&#246;r godk&#228;nnande enligt 2 kap. 
+8 &#167; tredje stycket eller 2 kap. 10 &#167; andra stycket.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3085">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3087">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

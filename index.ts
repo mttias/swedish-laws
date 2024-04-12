@@ -12,4 +12,6 @@ await toHTML(response.data, "data.xml");
 
 import { cachedRequestWithId } from "./src/utils/cachedRequest/cachedRequest";
 
-await cachedRequestWithId(2);
+for (let i = 0; i < 4700; i++) {
+	await cachedRequestWithId(i);
+}

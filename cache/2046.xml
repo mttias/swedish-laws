@@ -1,0 +1,853 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-04-17" /> 
+ <meta id="rattsinfo-edited" content="2023-04-17 09:42:18" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2046</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2045">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2047">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2007:1157 ·
+                    <a href="/sfsr?bet=2007:1157">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2007:1157) om yrkesf&#246;rarkompetens</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSIB TM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2007-11-29
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1208
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2008-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om grundl&#228;ggande
+kompetens och fortbildning f&#246;r f&#246;rare som utf&#246;r transporter med
+vissa motorfordon (yrkesf&#246;rarkompetens). Vidare inneh&#229;ller
+lagen best&#228;mmelser om utbildning f&#246;r s&#229;dan kompetens.
+
+2 &#167; Grundl&#228;ggande best&#228;mmelser om beh&#246;righet att framf&#246;ra
+motorfordon finns i k&#246;rkortslagen (1998:488). Ytterligare
+best&#228;mmelser om beh&#246;righet att framf&#246;ra fordon i yrkesm&#228;ssig
+trafik finns i yrkestrafiklagen (2012:210). Lag (2012:224).
+
+3 &#167; I denna lag avses med EES-stater staterna i Europeiska
+unionen samt de &#246;vriga stater som omfattas av avtalet om
+Europeiska ekonomiska samarbetsomr&#229;det (EES).
+
+4 &#167; I denna lag avses med
+
+godstransporter: k&#246;rningar p&#229; v&#228;g i Sverige med fordon som
+kr&#228;ver k&#246;rkortsbeh&#246;righeten C1, C1E, C eller CE enligt 2 kap.
+5 &#167; k&#246;rkortslagen (1998:488) och som sker med gods,
+
+persontransporter: k&#246;rningar p&#229; v&#228;g i Sverige med fordon som
+kr&#228;ver k&#246;rkortsbeh&#246;righeten D1, D1E, D eller DE enligt 2 kap.
+5 &#167; k&#246;rkortslagen och som sker med passagerare,
+
+v&#228;g: s&#229;dan v&#228;g, gata, torg och annan led eller plats som
+allm&#228;nt anv&#228;nds f&#246;r trafik med motorfordon.
+
+Med gods- eller persontransporter enligt f&#246;rsta stycket avses
+ocks&#229; k&#246;rningar som sker utan gods eller passagerare om
+k&#246;rningen utg&#246;r ett led i s&#229;dana transporter. Lag (2011:1583).
+
+5 &#167; Med permanent bos&#228;ttning avses i denna lag bos&#228;ttning under
+minst 185 dagar varje kalender&#229;r
+
+1. till f&#246;ljd av personlig och yrkesm&#228;ssig anknytning, eller
+
+2. om yrkesm&#228;ssig anknytning saknas, till f&#246;ljd av personlig
+anknytning som pr&#228;glas av n&#228;ra band mellan en person och den
+plats d&#228;r han eller hon bor.
+
+En person som har yrkesm&#228;ssig anknytning till en annan plats &#228;n
+den som han eller hon har personlig anknytning till och som
+d&#228;rf&#246;r omv&#228;xlande bor p&#229; olika platser i tv&#229; eller flera stater
+ska dock anses vara permanent bosatt i den stat som han eller
+hon har personlig anknytning till under f&#246;ruts&#228;ttning att han
+eller hon regelbundet &#229;terv&#228;nder dit. Detta villkor beh&#246;ver
+dock inte uppfyllas om personen bor i en stat f&#246;r att genomf&#246;ra
+en tidsbegr&#228;nsad uppgift.
+
+Studier vid universitet eller annan utbildningsanstalt medf&#246;r
+inte att den permanenta bos&#228;ttningen &#228;ndras.
+
+2 kap. Till&#228;mpningsomr&#229;de
+
+1 &#167; Denna lag ska till&#228;mpas p&#229; f&#246;rare som &#228;r medborgare i en
+EES-stat och som utf&#246;r gods- eller persontransporter p&#229; v&#228;g i
+Sverige med fordon som kr&#228;ver k&#246;rkortsbeh&#246;righeten C1, C1E, C,
+CE, D1, D1E, D eller DE enligt 2 kap. 5 &#167; k&#246;rkortslagen
+(1998:488).
+
+Lagen ska ocks&#229; till&#228;mpas p&#229; andra medborgare som utf&#246;r s&#229;dana
+transporter som avses i f&#246;rsta stycket, om de &#228;r anst&#228;llda
+eller anlitade av ett f&#246;retag som &#228;r etablerat inom EES.
+Lag (2011:1583).
+
+2 &#167; Av 7 kap. f&#246;ljer att lagens best&#228;mmelser om utbildning av
+yrkesf&#246;rare &#228;ven till&#228;mpas p&#229; f&#246;rare som utf&#246;r gods- eller
+persontransporter p&#229; v&#228;g i en annan EES-stat &#228;n Sverige.
+
+3 &#167; Har upph&#228;vts genom lag (2011:1583).
+
+Undantag
+
+4 &#167; Denna lag ska inte till&#228;mpas p&#229; f&#246;rare av fordon 
+
+1. vars h&#246;gsta till&#229;tna hastighet inte &#246;verstiger 45 kilometer 
+i timmen, 
+
+2. som anv&#228;nds av eller st&#229;r under kontroll av F&#246;rsvarsmakten, 
+Kustbevakningen, Tullverket, Polismyndigheten, 
+S&#228;kerhetspolisen eller r&#228;ddningstj&#228;nsten,
+
+3. som anv&#228;nds inom ambulanssjukv&#229;rden, 
+
+4. som utf&#246;r gods- eller persontransporter inom det civila 
+f&#246;rsvaret,
+
+5. som provas eller f&#246;rflyttas p&#229; v&#228;g i samband med tekniskt 
+utvecklingsarbete, reparation eller underh&#229;ll,
+
+6. som &#228;r nya eller ombyggda och &#228;nnu inte tagits i drift i 
+transportverksamhet,
+
+7. som anv&#228;nds i n&#246;dsituationer eller f&#246;r r&#228;ddningsinsatser,
+
+8. som anv&#228;nds vid &#246;vningsk&#246;rning eller k&#246;rprov enligt 
+f&#246;rfattningar om k&#246;rkort eller k&#246;rtr&#228;ning f&#246;r 
+yrkeskompetensbevis, under f&#246;ruts&#228;ttning att fordonet inte 
+samtidigt anv&#228;nds f&#246;r en kommersiell gods- eller person-
+transport,
+
+9. som inom ramen f&#246;r arbetsplatsf&#246;rlagt l&#228;rande anv&#228;nds vid 
+&#246;vningsk&#246;rning enligt f&#246;rfattningar om k&#246;rkort eller tr&#228;ning 
+f&#246;r yrkeskompetensbevis, under f&#246;ruts&#228;ttning att k&#246;rningen 
+st&#229;r under uppsikt av n&#229;gon som 
+
+a) innehar yrkeskompetensbevis f&#246;r det fordon som framf&#246;rs, 
+eller 
+
+b) &#228;r trafikl&#228;rare f&#246;r det fordon som framf&#246;rs och innehar 
+k&#246;rkortsbeh&#246;righet f&#246;r fordonet, 
+
+10. som inte anv&#228;nds f&#246;r en kommersiell gods- eller 
+persontransport, 
+
+11. som anv&#228;nds f&#246;r att transportera material eller maskiner 
+eller annan utrustning som f&#246;raren ska anv&#228;nda i sitt arbete, 
+under f&#246;ruts&#228;ttning att framf&#246;randet av fordonet inte &#228;r 
+f&#246;rarens huvudsakliga syssels&#228;ttning, 
+
+12. som anv&#228;nds f&#246;r persontransporter och kr&#228;ver 
+k&#246;rkortsbeh&#246;righet D1 eller D och k&#246;rs utan passagerare till 
+eller fr&#229;n den servicedep&#229; som anv&#228;nds 
+
+av transportf&#246;retaget, under f&#246;ruts&#228;ttning att framf&#246;randet av 
+fordonet inte &#228;r f&#246;rarens huvudsakliga syssels&#228;ttning, 
+
+13. som anv&#228;nds, eller hyrs utan f&#246;rare, av jordbruks-, 
+tr&#228;dg&#229;rds-, skogs-, uppf&#246;dnings- eller fiskerif&#246;retag f&#246;r 
+godstransporter i f&#246;retagets egen verksamhet, under 
+f&#246;ruts&#228;ttning att fordonet 
+
+a) inte anv&#228;nds utanf&#246;r en radie av 100 kilometer fr&#229;n den 
+plats d&#228;r f&#246;retaget &#228;r bel&#228;get, eller 
+
+b) framf&#246;randet av fordonet inte &#228;r f&#246;rarens huvudsakliga 
+syssels&#228;ttning, eller 
+
+14. som anv&#228;nds f&#246;r ett f&#246;retags gods- eller persontransporter 
+i landsbygdsomr&#229;den f&#246;r att f&#246;rs&#246;rja f&#246;retagets egen 
+verksamhet med gods eller arbetskraft, under f&#246;ruts&#228;ttning att 
+transporten &#228;r tillf&#228;llig och inte f&#246;rs&#228;mrar trafiks&#228;kerheten.
+Lag (2020:258).
+
+3 kap. F&#246;rarkrav
+
+1 &#167; F&#246;r att f&#229; framf&#246;ra ett fordon med gods- eller
+persontransporter ska en f&#246;rare enligt denna lag ha ett
+yrkeskompetensbevis f&#246;r grundl&#228;ggande kompetens och
+fortbildning. F&#246;raren ska ocks&#229; uppfylla &#229;lderskraven i 3, 4,
+4 a, 5, 6 eller 7 &#167;. Lag (2011:1583).
+
+1 a &#167; En f&#246;rare som utf&#246;r godstransporter och som innehar ett
+giltigt yrkeskompetensbevis f&#246;r grundl&#228;ggande kompetens f&#246;r
+fordon som kr&#228;ver n&#229;gon av k&#246;rkortsbeh&#246;righeterna C1, C1E, C
+och CE beh&#246;ver inte f&#246;rv&#228;rva ett nytt yrkeskompetensbevis f&#246;r
+fordon som kr&#228;ver n&#229;gon av de andra beh&#246;righeterna.
+
+Motsvarande g&#228;ller f&#246;r en f&#246;rare som utf&#246;r persontransporter
+och som innehar ett giltigt yrkeskompetensbevis f&#246;r
+grundl&#228;ggande kompetens f&#246;r fordon som kr&#228;ver n&#229;gon av
+k&#246;rkortsbeh&#246;righeterna D1, D1E, D och DE. Lag (2011:1583).
+
+H&#228;vdvunna r&#228;ttigheter
+
+2 &#167; F&#246;rare som innehar eller har innehaft ett k&#246;rkort med
+k&#246;rkortsbeh&#246;righeten D1, D1E, D eller DE utf&#228;rdat i en stat
+inom EES f&#246;re den 10 september 2008 &#228;r undantagna fr&#229;n kravet
+att ha ett yrkeskompetensbevis om grundl&#228;ggande kompetens f&#246;r
+persontransporter.
+
+F&#246;rare som innehar eller har innehaft ett k&#246;rkort med
+k&#246;rkortsbeh&#246;righeten C1, C1E, C eller CE utf&#228;rdat i en stat
+inom EES f&#246;re den 10 september 2009 &#228;r undantagna fr&#229;n kravet
+att ha ett yrkeskompetensbevis om grundl&#228;ggande kompetens f&#246;r
+godstransporter.
+Lag (2011:1583).
+
+Godstransporter
+
+3 &#167; En f&#246;rare som f&#246;rv&#228;rvat ett yrkeskompetensbevis f&#246;r
+grundl&#228;ggande kompetens genom grundutbildning enligt 4 kap. 1 &#167;
+f&#246;r fordon som kr&#228;ver k&#246;rkortsbeh&#246;righeten C eller CE f&#229;r fr&#229;n
+och med 18 &#229;rs &#229;lder utf&#246;ra godstransporter med s&#229;dana fordon.
+Lag (2011:1583).
+
+4 &#167; En f&#246;rare som f&#246;rv&#228;rvat ett yrkeskompetensbevis f&#246;r
+grundl&#228;ggande kompetens genom en f&#246;rkortad grundutbildning
+enligt 4 kap. 2 &#167; f&#246;r fordon som kr&#228;ver k&#246;rkortsbeh&#246;righeten C
+eller CE f&#229;r fr&#229;n och med 21 &#229;rs &#229;lder utf&#246;ra godstransporter
+med s&#229;dana fordon. Lag (2011:1583).
+
+4 a &#167; En f&#246;rare som f&#246;rv&#228;rvat ett yrkeskompetensbevis f&#246;r
+grundl&#228;ggande kompetens genom grundutbildning f&#246;r fordon som
+kr&#228;ver k&#246;rkortsbeh&#246;righeten C1 eller C1E f&#229;r fr&#229;n och med 18
+&#229;rs &#229;lder utf&#246;ra godstransporter med s&#229;dana fordon.
+Lag (2011:1583).
+
+Persontransporter
+
+5 &#167; En f&#246;rare som f&#246;rv&#228;rvat ett yrkeskompetensbevis f&#246;r
+grundl&#228;ggande kompetens genom grundutbildning enligt 4 kap. 1 &#167;
+f&#246;r fordon som kr&#228;ver k&#246;rkortsbeh&#246;righeten D eller DE f&#229;r fr&#229;n
+och med 21 &#229;rs &#229;lder utf&#246;ra persontransporter med s&#229;dana
+fordon.
+
+Om den grundutbildning som anges i f&#246;rsta stycket &#228;gt rum inom
+gymnasieskolan eller motsvarande utbildning, f&#229;r
+persontransporter med s&#229;dana fordon utf&#246;ras av f&#246;raren fr&#229;n och
+med 20 &#229;rs &#229;lder. S&#229;dana transporter f&#229;r dock utf&#246;ras av
+f&#246;raren fr&#229;n och med 18 &#229;rs &#229;lder, om fordonet
+
+- k&#246;rs utan passagerare, eller
+
+- anv&#228;nds f&#246;r persontransporter i linjetrafik, d&#228;r linjens
+l&#228;ngd inte &#246;verstiger 50 kilometer. Lag (2011:1583).
+
+6 &#167; En f&#246;rare som f&#246;rv&#228;rvat ett yrkeskompetensbevis f&#246;r
+grundl&#228;ggande kompetens genom en f&#246;rkortad grundutbildning
+enligt 4 kap. 2 &#167; f&#246;r fordon som kr&#228;ver k&#246;rkortsbeh&#246;righeten D
+eller DE f&#229;r fr&#229;n och med 23 &#229;rs &#229;lder utf&#246;ra persontransporter
+med s&#229;dana fordon. S&#229;dana transporter f&#229;r dock utf&#246;ras av
+f&#246;raren fr&#229;n och med 21 &#229;rs &#229;lder, om fordonet anv&#228;nds i
+linjetrafik och linjens l&#228;ngd inte &#246;verstiger 50 kilometer.
+Lag (2011:1583).
+
+7 &#167; En f&#246;rare som f&#246;rv&#228;rvat ett yrkeskompetensbevis f&#246;r
+grundl&#228;ggande kompetens genom grundutbildning f&#246;r fordon som
+kr&#228;ver k&#246;rkortsbeh&#246;righeten D1 eller D1E f&#229;r fr&#229;n och med 21
+&#229;rs &#229;lder utf&#246;ra persontransporter med s&#229;dana fordon.
+
+Om den grundutbildning som anges i f&#246;rsta stycket har skett
+enligt 4 kap. 1 &#167; och &#228;gt rum inom gymnasieskolan eller
+motsvarande utbildning, f&#229;r persontransporter med s&#229;dana fordon
+utf&#246;ras av f&#246;raren fr&#229;n och med 18 &#229;rs &#229;lder. Lag (2011:1583).
+
+4 kap. Grundl&#228;ggande kompetens
+
+Utbildning
+
+1 &#167; En f&#246;rare f&#246;rv&#228;rvar grundl&#228;ggande kompetens genom att delta
+i grundutbildning hos den som f&#229;r bedriva utbildning enligt 8
+kap.
+
+Grundutbildningen ska uppg&#229; till 280 timmar och avslutas med
+prov. Vid godk&#228;nt resultat ska ett yrkeskompetensbevis enligt 6
+kap. 1 &#167; utf&#228;rdas.
+
+2 &#167; En f&#246;rare kan f&#246;rv&#228;rva grundl&#228;ggande kompetens genom att
+delta i en f&#246;rkortad grundutbildning hos den som f&#229;r bedriva
+utbildning enligt 8 kap. (snabbf&#246;rv&#228;rvad grundl&#228;ggande
+kompetens).
+
+Grundutbildningen ska uppg&#229; till 140 timmar och avslutas med
+prov. Vid godk&#228;nt resultat ska ett yrkeskompetensbevis enligt 6
+kap. 1 &#167; utf&#228;rdas.
+
+K&#246;rtr&#228;ning
+
+3 &#167; Den som deltar i grundutbildning f&#246;r att f&#246;rv&#228;rva
+grundl&#228;ggande kompetens ska k&#246;rtr&#228;na med s&#229;dant fordon som
+kompetensen avser. K&#246;rtr&#228;ningen ska ske under uppsikt av en
+l&#228;rare hos den som bedriver utbildningsverksamhet enligt denna
+lag.
+
+Vid k&#246;rtr&#228;ning med n&#229;gon som inte har k&#246;rkortsbeh&#246;righet f&#246;r
+fordonet g&#228;ller best&#228;mmelserna om &#246;vningsk&#246;rning i 4 kap.
+k&#246;rkortslagen (1998:488). Lag (2011:1583).
+
+Utvidgning eller &#228;ndring av transportverksamheten
+
+4 &#167; En f&#246;rare som har f&#246;rv&#228;rvat ett yrkeskompetensbevis f&#246;r
+godstransporter enligt 1 eller 2 &#167; och som utvidgar eller
+&#228;ndrar sin verksamhet till att omfatta &#228;ven persontransporter
+beh&#246;ver endast genomg&#229; de delar av utbildningen f&#246;r
+grundl&#228;ggande kompetens som &#228;r specifika f&#246;r persontransporter.
+Motsvarande g&#228;ller vid en utvidgning eller &#228;ndring av
+verksamheten fr&#229;n persontransporter till godstransporter.
+
+Utbildningen ska avslutas med prov. Vid godk&#228;nt resultat ska
+ett yrkeskompetensbevis enligt 6 kap. 1 &#167; utf&#228;rdas.
+
+Avst&#228;ngning fr&#229;n prov
+
+5 &#167; Den myndighet som regeringen best&#228;mmer f&#229;r besluta om 
+avst&#228;ngning under viss tid fr&#229;n prov enligt denna lag. 
+Lag (2022:1208).
+
+5 kap. Fortbildning
+
+1 &#167; En f&#246;rare som har f&#246;rv&#228;rvat sin grundl&#228;ggande kompetens
+enligt 4 kap. 1, 2 eller 4 &#167; och en f&#246;rare med h&#228;vdvunnen r&#228;tt
+enligt 3 kap. 2 &#167; ska genomg&#229; fortbildning hos n&#229;gon som f&#229;r
+bedriva utbildningsverksamhet f&#246;r yrkesf&#246;rarkompetens enligt 8
+kap.
+
+Efter genomg&#229;ngen fortbildning ska ett yrkeskompetensbevis
+enligt 6 kap. 1 &#167; utf&#228;rdas.
+
+Tider
+
+2 &#167; En f&#246;rare som har f&#246;rv&#228;rvat ett yrkeskompetensbevis f&#246;r
+grundl&#228;ggande kompetens ska genomg&#229; sin f&#246;rsta fortbildning
+inom fem &#229;r fr&#229;n den dag d&#229; beviset utf&#228;rdades.
+
+3 &#167; En f&#246;rare som har en h&#228;vdvunnen r&#228;tt enligt 3 kap. 2 &#167; ska
+genomg&#229; sin f&#246;rsta fortbildning inom sju &#229;r fr&#229;n den dag denna
+lag b&#246;rjar att till&#228;mpas p&#229; f&#246;raren.
+
+4 &#167; En f&#246;rare som har genomg&#229;tt sin f&#246;rsta fortbildning enligt
+2 eller 3 &#167; ska d&#228;refter genomg&#229; fortbildning vart femte &#229;r,
+f&#246;re utg&#229;ngen av giltighetstiden f&#246;r yrkeskompetensbeviset.
+
+5 &#167; En f&#246;rare som inte har genomg&#229;tt f&#246;reskriven fortbildning
+ska f&#246;r att f&#229; &#229;terg&#229; till att utf&#246;ra gods- eller
+persontransporter genomg&#229; en fortbildning.
+
+Undantag
+
+6 &#167; En f&#246;rare som utf&#246;r gods- eller persontransporter och som
+genomg&#229;tt en fortbildning f&#246;r ett av transportslagen &#228;r inte
+skyldig att genomg&#229; ytterligare fortbildning under den tid som
+yrkeskompetensbeviset f&#246;r fortbildning &#228;r giltigt.
+
+6 kap. Yrkeskompetensbevis m.m.
+
+Yrkeskompetensbevis
+
+1 &#167; Den myndighet som regeringen best&#228;mmer ska utf&#228;rda ett 
+yrkeskompetensbevis till en f&#246;rare som genomg&#229;tt den 
+utbildning som f&#246;reskrivs i denna lag. I beviset ska en 
+unionskod anges. 
+
+Myndigheten ska utf&#228;rda ett nytt yrkeskompetensbevis n&#228;r 
+f&#246;raren genomg&#229;tt en fortbildning. 
+
+Ett yrkeskompetensbevis f&#229;r endast utf&#228;rdas till f&#246;raren om 
+han eller hon innehar ett giltigt k&#246;rkort med den 
+k&#246;rkortsbeh&#246;righet som beviset avser. 
+
+Ett yrkeskompetensbevis &#228;r giltigt i fem &#229;r fr&#229;n den dag det 
+utf&#228;rdades. Lag (2020:258).
+
+2 &#167; Ett yrkeskompetensbevis f&#246;r f&#246;rare som utf&#228;rdats i en annan
+stat inom EES g&#228;ller i Sverige enligt sitt inneh&#229;ll.
+
+Skyldighet att ha med sig bevis
+
+3 &#167; En f&#246;rare som omfattas av krav p&#229; att ha bevis om 
+yrkeskompetens ska vid utf&#246;randet av gods- eller 
+persontransporter ha med sig:
+
+1. ett giltigt yrkeskompetensbevis, eller
+
+2. annat bevis om yrkeskompetens enligt 13 kap. 1 &#167; 6 och 
+handling som styrker f&#246;rarens identitet.
+
+P&#229; beg&#228;ran av en bilinspekt&#246;r eller en polisman ska 
+handlingarna &#246;verl&#228;mnas f&#246;r kontroll. Lag (2022:1208).
+
+7 kap. Utbildningsort
+
+1 &#167; En f&#246;rare som &#228;r svensk medborgare eller medborgare i en
+annan stat inom EES ska inh&#228;mta den grundl&#228;ggande kompetensen i
+Sverige om han eller hon &#228;r permanent bosatt i Sverige.
+
+2 &#167; En f&#246;rare som inte &#228;r medborgare i en stat inom EES f&#229;r
+inh&#228;mta den grundl&#228;ggande kompetensen i Sverige, om han eller
+hon &#228;r anst&#228;lld eller anlitad av ett f&#246;retag som &#228;r etablerat i
+Sverige. Detsamma g&#228;ller om permanent uppeh&#229;llstillst&#229;nd eller
+arbetstillst&#229;nd har utf&#228;rdats f&#246;r f&#246;raren h&#228;r i landet.
+
+3 &#167; En f&#246;rare som avses i 1 eller 2 &#167; f&#229;r genomg&#229; fortbildning
+i Sverige om denne &#228;r permanent bosatt i Sverige eller arbetar
+h&#228;r i landet.
+
+8 kap. Utbildning f&#246;r yrkesf&#246;rarkompetens
+
+1 &#167; Utbildningsverksamhet enligt denna lag f&#229;r endast bedrivas
+av den som har tillst&#229;nd.
+
+2 &#167; Tillst&#229;nd f&#229;r beviljas den som med h&#228;nsyn till sina
+ekonomiska f&#246;rh&#229;llanden och omst&#228;ndigheterna i &#246;vrigt bed&#246;ms ha
+f&#246;ruts&#228;ttningar att bedriva utbildningsverksamhet p&#229; ett s&#229;dant
+s&#228;tt att kravet p&#229; god utbildning tillgodoses. Tillst&#229;ndet f&#229;r
+f&#246;renas med villkor.
+
+Tillst&#229;nd meddelas av den myndighet som regeringen best&#228;mmer.
+
+3 &#167; Huvudmannen f&#246;r en gymnasieskola eller kommunal 
+vuxenutbildning, d&#228;r eleven l&#228;ser ett &#228;mne som innefattar 
+utbildning f&#246;r yrkesf&#246;rarkompetens och som har varit f&#246;rem&#229;l 
+f&#246;r samr&#229;d mellan de myndigheter som regeringen best&#228;mmer, &#228;r 
+inte skyldig att ha tillst&#229;nd. Lag (2022:148).
+
+9 kap. Tillsyn
+
+1 &#167; Den myndighet som regeringen best&#228;mmer ut&#246;var tillsyn &#246;ver
+utbildningsverksamhet enligt denna lag och enligt f&#246;reskrifter
+meddelade med st&#246;d av lagen.
+
+2 &#167; Om en tillsynsmyndighet beg&#228;r det ska den som har tillst&#229;nd
+att bedriva utbildningsverksamhet l&#228;mna tilltr&#228;de till
+driftsst&#228;llet med tillh&#246;rande lokaler och tillhandah&#229;lla
+handlingar som r&#246;r verksamheten samt hj&#228;lpa till vid tillsynen.
+
+3 &#167; Den som har tillst&#229;nd att bedriva utbildningsverksamhet ska
+till tillsynsmyndigheten anm&#228;la f&#246;r&#228;ndringar i verksamheten.
+
+10 kap. &#197;terkallelse m.m.
+
+&#197;terkallelse
+
+1 &#167; Den myndighet som regeringen best&#228;mmer f&#229;r &#229;terkalla
+tillst&#229;nd att bedriva utbildning f&#246;r yrkesf&#246;rarkompetens om
+
+1. den som bedriver utbildning inte uppfyller kraven i 8 kap. 2
+&#167;, inte f&#246;ljer de f&#246;reskrifter som meddelats med st&#246;d av lagen
+eller i &#246;vrigt bedriver utbildningsverksamheten p&#229; ett
+otillfredsst&#228;llande s&#228;tt,
+
+2. utbildning inte bedrivits de senaste tolv m&#229;naderna, eller
+
+3. den som bedriver utbildning beg&#228;r det.
+
+Varning
+
+2 &#167; Den myndighet som regeringen best&#228;mmer f&#229;r i st&#228;llet f&#246;r
+att &#229;terkalla ett tillst&#229;nd att bedriva utbildning f&#246;r
+yrkesf&#246;rarkompetens meddela varning om det kan antas att felet
+eller bristen r&#228;ttas till.
+
+11 kap. Ansvarsbest&#228;mmelser
+
+1 &#167; Den som utf&#246;r gods- eller persontransporter utan att vara
+ber&#228;ttigad till det enligt denna lag d&#246;ms till b&#246;ter.
+
+Till samma straff d&#246;ms den som i sin transportverksamhet
+upps&#229;tligen eller av oaktsamhet anlitar en f&#246;rare som inte &#228;r
+ber&#228;ttigad att utf&#246;ra gods- eller persontransport enligt denna
+lag.
+
+2 &#167; Den som upps&#229;tligen eller av oaktsamhet bryter mot 6 kap. 3
+&#167; f&#246;rsta stycket d&#246;ms till penningb&#246;ter.
+
+F&#246;raren ska inte d&#246;mas till straff om en anm&#228;lan har gjorts
+f&#246;re f&#228;rden om att beviset f&#246;rst&#246;rts eller kommit bort.
+
+3 &#167; Den som utan tillst&#229;nd bedriver tillst&#229;ndspliktig 
+utbildning som avses i denna lag d&#246;ms till f&#228;ngelse i h&#246;gst 
+tv&#229; &#229;r. Om brottet &#228;r ringa d&#246;ms till b&#246;ter eller f&#228;ngelse i 
+h&#246;gst sex m&#229;nader. 
+
+Den som bedriver utbildning som avses i denna lag med 
+tillst&#229;nd eller med st&#246;d av 8 kap. 3 &#167;, men utan att f&#246;lja 
+lagen eller f&#246;reskrifter som har meddelats med st&#246;d av lagen, 
+d&#246;ms till b&#246;ter. 
+
+Det ska inte d&#246;mas till ansvar enligt andra stycket om 
+g&#228;rningen &#228;r belagd med straff i brottsbalken. Lag (2022:1208).
+
+12 kap. &#214;verklagande
+
+1 &#167; F&#246;ljande beslut f&#229;r &#246;verklagas hos allm&#228;n 
+f&#246;rvaltningsdomstol:
+
+1. beslut om avst&#228;ngning som avses i 4 kap. 5 &#167;,
+
+2. beslut att inte bevilja tillst&#229;nd som avses i 8 kap. 2 &#167;,
+
+3. beslut enligt 10 kap. 1 &#167; att &#229;terkalla tillst&#229;nd, och
+
+4. beslut enligt 10 kap. 2 &#167; att meddela varning.
+
+Andra beslut av en f&#246;rvaltningsmyndighet enligt denna lag f&#229;r 
+inte &#246;verklagas.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2022:1208).
+
+2 &#167; Ett beslut enligt denna lag g&#228;ller omedelbart om inte n&#229;got
+annat f&#246;rordnas.
+
+13 kap. Bemyndiganden
+
+1 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om
+
+1. vad som enligt 2 kap. 4 &#167; 14 avses med att en gods- eller 
+persontransport &#228;r tillf&#228;llig och inte f&#246;rs&#228;mrar 
+trafiks&#228;kerheten,
+
+2. grundl&#228;ggande kompetens som r&#246;r
+
+- inneh&#229;llet i grundutbildningen enligt 4 kap. 1, 2 och 4 &#167;&#167;,
+
+- k&#246;rtr&#228;ning enligt 4 kap. 3 &#167;,
+
+- utbildningens l&#228;ngd enligt 4 kap. 4 &#167;,
+
+- anordnande av prov enligt 4 kap. 1, 2 och 4 &#167;&#167;,
+
+- provs omfattning och utformning,
+
+3. avst&#228;ngning fr&#229;n prov enligt 4 kap. 5 &#167;,
+
+4. inneh&#229;llet i fortbildningen och utbildningens l&#228;ngd enligt 
+5 kap. 1 &#167;,
+
+5. yrkeskompetensbevis och unionskod enligt 6 kap. 1 &#167;,
+
+6. godk&#228;nnande av andra bevis om yrkeskompetens &#228;n de som 
+anges i 6 kap. 1 och 2 &#167;&#167; och som innehas av f&#246;rare som inte 
+&#228;r medborgare i en stat inom EES men som &#228;r anst&#228;lld eller 
+anlitad av ett f&#246;retag som &#228;r etablerat inom EES,
+
+7. ans&#246;kan om och f&#246;ruts&#228;ttningar f&#246;r tillst&#229;nd att bedriva 
+utbildningsverksamhet enligt 8 kap. 2 &#167;,
+
+8. f&#246;r&#228;ndringar i utbildningsverksamheten som ska anm&#228;las till 
+tillsynsmyndigheten enligt 9 kap. 3 &#167;, och
+
+9. tillsyn. 
+Lag (2022:1208).
+
+2 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela f&#246;reskrifter om avgifter f&#246;r tillsyn och
+&#228;rendehandl&#228;ggning enligt denna lag och enligt f&#246;reskrifter som
+har meddelats med st&#246;d av lagen. Lag (2010:1575).
+
+3 &#167; /Upph&#246;r att g&#228;lla U:2022-01-01 genom lag (2021:595).
+Regeringen f&#229;r meddela f&#246;reskrifter om f&#246;rl&#228;ngd 
+giltighetstid f&#246;r yrkeskompetensbevis. En f&#246;rl&#228;ngning f&#229;r inte 
+g&#228;lla l&#228;ngre &#228;n sex m&#229;nader.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om undantag fr&#229;n kravet p&#229; 
+yrkeskompetensbevis. Ett undantag f&#229;r bara avse den som haft 
+ett yrkeskompetensbevis vars giltighetstid har l&#246;pt ut under 
+perioden den 1 november 2020-31 januari 2021 och f&#229;r inte 
+g&#228;lla l&#228;ngre &#228;n sex m&#229;nader. Lag (2021:22).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2007:1157
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2008.
+
+2. Denna lag till&#228;mpas f&#246;rsta g&#229;ngen den 10 september 2008 p&#229;
+f&#246;rare som utf&#246;r persontransporter med fordon som kr&#228;ver
+f&#246;rarbeh&#246;righeterna D och DE.
+
+3. Denna lag till&#228;mpas f&#246;rsta g&#229;ngen den 10 september 2009 p&#229;
+f&#246;rare som utf&#246;r godstransporter med fordon som kr&#228;ver
+f&#246;rarbeh&#246;righeterna C och CE.
+
+2020:258
+
+1. Denna lag tr&#228;der i kraft den 23 maj 2020.
+
+2. Ett yrkeskompetensbevis som utf&#228;rdats enligt &#228;ldre 
+f&#246;reskrifter g&#228;ller till och med den i beviset angivna sista 
+giltighetsdagen.
+
+2020:359
+
+1. Denna lag tr&#228;der i kraft den 1 december 2020.
+
+2. De f&#246;rl&#228;ngningar av giltighetstiden f&#246;r yrkeskompetensbevis 
+som f&#246;ljer av s&#229;dana f&#246;reskrifter som meddelats med st&#246;d av 
+den upph&#228;vda paragrafen forts&#228;tter dock att g&#228;lla i de fall de 
+h&#228;nf&#246;r sig till tiden efter utg&#229;ngen av november 2020.
+
+2021:595
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2022.
+
+2. De f&#246;rl&#228;ngningar av giltighetstiden f&#246;r yrkeskompetensbevis 
+som f&#246;ljer av s&#229;dana f&#246;reskrifter som meddelats med st&#246;d av 
+den upph&#228;vda paragrafen forts&#228;tter dock att g&#228;lla i de fall de 
+h&#228;nf&#246;r sig till tiden efter utg&#229;ngen av december 2021.
+
+2022:148
+
+1. Denna lag tr&#228;der i kraft den 15 juli 2022.
+
+2. Lagen till&#228;mpas f&#246;rsta g&#229;ngen i fr&#229;ga om utbildning som 
+p&#229;b&#246;rjas efter den 30 juni 2025.
+
+3. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r utbildning inom 
+gymnasieskolan som har p&#229;b&#246;rjats f&#246;re den 1 juli 2025. F&#246;r 
+kommunal vuxenutbildning ska &#228;ldre best&#228;mmelser fortfarande 
+g&#228;lla i fr&#229;ga om kurser som har p&#229;b&#246;rjats f&#246;re den 1 juli 
+2025.
+
+2022:1208
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2023.
+
+2. Beslut som avses i 4 kap. 5 &#167; f&#229;r inte grundas p&#229; 
+omst&#228;ndigheter som har intr&#228;ffat f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2045">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2047">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

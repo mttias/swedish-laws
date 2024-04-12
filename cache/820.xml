@@ -1,0 +1,876 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2017-10-10" /> 
+ <meta id="rattsinfo-edited" content="2020-02-26" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>820</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=819">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=821">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2017:900 ·
+                    <a href="/sfsr?bet=2017:900">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rvaltningslag (2017:900)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L6
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2017-09-28
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:981
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2018-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens till&#228;mpningsomr&#229;de
+
+Lagen g&#228;ller i f&#246;rvaltningsverksamhet 
+
+1 &#167; Denna lag g&#228;ller f&#246;r handl&#228;ggning av &#228;renden hos 
+f&#246;rvaltningsmyndigheterna och handl&#228;ggning av 
+f&#246;rvaltnings&#228;renden hos domstolarna.
+
+Best&#228;mmelserna i 5–8 &#167;&#167; om grunderna f&#246;r god f&#246;rvaltning 
+g&#228;ller &#228;ven i annan f&#246;rvaltningsverksamhet hos 
+f&#246;rvaltningsmyndigheter och domstolar.
+
+Undantag f&#246;r kommunala &#228;renden d&#228;r besluten kan 
+laglighetspr&#246;vas 
+
+2 &#167; Vid handl&#228;ggning av s&#229;dana &#228;renden hos myndigheter i 
+kommuner och regioner d&#228;r besluten kan laglighetspr&#246;vas genom 
+att &#246;verklagas enligt 13 kap. kommunallagen (2017:725) 
+till&#228;mpas inte 9 &#167; andra stycket, 10-12, 16-20 och 23-49 &#167;&#167;.
+Lag (2019:981).
+
+Undantag f&#246;r brottsbek&#228;mpande verksamhet
+
+3 &#167; I brottsbek&#228;mpande verksamhet hos Kustbevakningen, 
+Polismyndigheten, Skatteverket, S&#228;kerhetspolisen, Tullverket 
+eller en &#229;klagarmyndighet till&#228;mpas inte 9 &#167; andra stycket 
+och 10–49 &#167;&#167;.
+
+Avvikande best&#228;mmelser i andra lagar eller i f&#246;rordningar
+
+4 &#167; Om en annan lag eller en f&#246;rordning inneh&#229;ller n&#229;gon 
+best&#228;mmelse som avviker fr&#229;n denna lag, till&#228;mpas den 
+best&#228;mmelsen.
+
+Grunderna f&#246;r god f&#246;rvaltning
+
+Legalitet, objektivitet och proportionalitet
+
+5 &#167; En myndighet f&#229;r endast vidta &#229;tg&#228;rder som har st&#246;d i 
+r&#228;ttsordningen.
+
+I sin verksamhet ska myndigheten vara saklig och opartisk.
+
+Myndigheten f&#229;r ingripa i ett enskilt intresse endast om 
+&#229;tg&#228;rden kan antas leda till det avsedda resultatet. &#197;tg&#228;rden 
+f&#229;r aldrig vara mer l&#229;ngtg&#229;ende &#228;n vad som beh&#246;vs och f&#229;r 
+vidtas endast om det avsedda resultatet st&#229;r i rimligt 
+f&#246;rh&#229;llande till de ol&#228;genheter som kan antas uppst&#229; f&#246;r den 
+som &#229;tg&#228;rden riktas mot.
+
+Service
+
+6 &#167; En myndighet ska se till att kontakterna med enskilda 
+blir smidiga och enkla.
+
+Myndigheten ska l&#228;mna den enskilde s&#229;dan hj&#228;lp att han eller 
+hon kan ta till vara sina intressen. Hj&#228;lpen ska ges i den 
+utstr&#228;ckning som &#228;r l&#228;mplig med h&#228;nsyn till fr&#229;gans art, den 
+enskildes behov av hj&#228;lp och myndighetens verksamhet. Den ska 
+ges utan on&#246;digt dr&#246;jsm&#229;l.
+
+Tillg&#228;nglighet
+
+7 &#167; En myndighet ska vara tillg&#228;nglig f&#246;r kontakter med 
+enskilda och informera allm&#228;nheten om hur och n&#228;r s&#229;dana kan 
+tas.
+
+Myndigheten ska vidta de &#229;tg&#228;rder i fr&#229;ga om tillg&#228;nglighet 
+som beh&#246;vs f&#246;r att den ska kunna uppfylla sina skyldigheter 
+gentemot allm&#228;nheten enligt 2 kap. tryckfrihetsf&#246;rordningen 
+om r&#228;tten att ta del av allm&#228;nna handlingar.
+
+Samverkan
+
+8 &#167; En myndighet ska inom sitt verksamhetsomr&#229;de samverka med 
+andra myndigheter.
+
+En myndighet ska i rimlig utstr&#228;ckning hj&#228;lpa den enskilde 
+genom att sj&#228;lv inh&#228;mta upplysningar eller yttranden fr&#229;n 
+andra myndigheter.
+
+Allm&#228;nna krav p&#229; handl&#228;ggningen av &#228;renden
+
+Utg&#229;ngspunkter f&#246;r handl&#228;ggningen
+
+9 &#167; Ett &#228;rende ska handl&#228;ggas s&#229; enkelt, snabbt och 
+kostnadseffektivt som m&#246;jligt utan att r&#228;ttss&#228;kerheten 
+efters&#228;tts.
+
+Handl&#228;ggningen ska vara skriftlig. Myndigheten f&#229;r dock 
+besluta att handl&#228;ggningen helt eller delvis ska vara 
+muntlig, om det inte &#228;r ol&#228;mpligt.
+
+Partsinsyn
+
+10 &#167; Den som &#228;r part i ett &#228;rende har r&#228;tt att ta del av allt 
+material som har tillf&#246;rts &#228;rendet. R&#228;tten att ta del av 
+uppgifter g&#228;ller med de begr&#228;nsningar som f&#246;ljer av 10 kap. 
+3 &#167; offentlighets- och sekretesslagen (2009:400).
+
+&#197;tg&#228;rder om handl&#228;ggningen f&#246;rsenas
+
+11 &#167; Om en myndighet bed&#246;mer att avg&#246;randet i ett &#228;rende som 
+har inletts av en enskild part kommer att bli v&#228;sentligt 
+f&#246;rsenat, ska myndigheten underr&#228;tta parten om detta. I en 
+s&#229;dan underr&#228;ttelse ska myndigheten redovisa anledningen till 
+f&#246;rseningen.
+
+12 &#167; Om ett &#228;rende som har inletts av en enskild part inte 
+har avgjorts i f&#246;rsta instans senast inom sex m&#229;nader, f&#229;r 
+parten skriftligen beg&#228;ra att myndigheten ska avg&#246;ra &#228;rendet. 
+Myndigheten ska inom fyra veckor fr&#229;n den dag d&#229; en s&#229;dan 
+beg&#228;ran kom in antingen avg&#246;ra &#228;rendet eller i ett s&#228;rskilt 
+beslut avsl&#229; beg&#228;ran.
+
+Ett beslut enligt f&#246;rsta stycket att avsl&#229; en beg&#228;ran om att 
+&#228;rendet ska avg&#246;ras f&#229;r &#246;verklagas till den domstol eller 
+f&#246;rvaltningsmyndighet som &#228;r beh&#246;rig att pr&#246;va ett 
+&#246;verklagande av avg&#246;randet i &#228;rendet.
+
+Myndighetens pr&#246;vning enligt f&#246;rsta stycket f&#229;r beg&#228;ras av 
+parten vid ett tillf&#228;lle under &#228;rendets handl&#228;ggning.
+
+Tolkning och &#246;vers&#228;ttning
+
+13 &#167; En myndighet ska anv&#228;nda tolk och se till att &#246;vers&#228;tta 
+handlingar om det beh&#246;vs f&#246;r att den enskilde ska kunna ta 
+till vara sin r&#228;tt n&#228;r myndigheten har kontakt med n&#229;gon som 
+inte beh&#228;rskar svenska.
+
+En myndighet ska under samma f&#246;ruts&#228;ttningar anv&#228;nda tolk och 
+g&#246;ra inneh&#229;llet i handlingar tillg&#228;ngligt n&#228;r den har kontakt 
+med n&#229;gon som har en funktionsneds&#228;ttning som allvarligt 
+begr&#228;nsar f&#246;rm&#229;gan att se, h&#246;ra eller tala.
+
+Ombud och bitr&#228;de
+
+14 &#167; Den som &#228;r part i ett &#228;rende f&#229;r som ombud eller bitr&#228;de 
+anlita n&#229;gon som &#228;r l&#228;mplig f&#246;r uppdraget. Den som anlitar 
+ombud ska dock medverka personligen om myndigheten beg&#228;r 
+det.
+
+Om ett ombud eller bitr&#228;de bed&#246;ms vara ol&#228;mplig f&#246;r sitt 
+uppdrag f&#229;r myndigheten besluta att han eller hon inte l&#228;ngre 
+f&#229;r medverka i &#228;rendet.
+
+15 &#167; En myndighet f&#229;r beg&#228;ra att ett ombud ska styrka sin 
+beh&#246;righet genom en skriftlig eller muntlig fullmakt. En 
+s&#229;dan fullmakt ska inneh&#229;lla uppgift om ombudets namn och 
+uppdragets omfattning. Om ombudet f&#229;r s&#228;tta n&#229;gon annan i 
+sitt st&#228;lle, ska &#228;ven detta framg&#229; av fullmakten.
+
+Om ett ombud inte f&#246;ljer en beg&#228;ran om att styrka sin 
+beh&#246;righet genom en fullmakt, f&#229;r myndigheten besluta ett 
+f&#246;rel&#228;ggande om samma sak. Ett s&#229;dant f&#246;rel&#228;ggande f&#229;r riktas 
+till ombudet eller parten.
+
+Om en handling som inleder ett &#228;rende har skrivits under av 
+ett ombud, ska det i f&#246;rel&#228;ggandet anges att f&#246;ljden av att 
+det inte f&#246;ljs kan bli att framst&#228;llningen inte tas upp till 
+pr&#246;vning.
+
+J&#228;v
+
+16 &#167; Den som f&#246;r en myndighets r&#228;kning tar del i 
+handl&#228;ggningen p&#229; ett s&#228;tt som kan p&#229;verka myndighetens 
+beslut i &#228;rendet &#228;r j&#228;vig om
+
+1. han eller hon eller n&#229;gon n&#228;rst&#229;ende &#228;r part i &#228;rendet 
+eller annars kan antas bli p&#229;verkad av beslutet i en inte 
+ov&#228;sentlig utstr&#228;ckning,
+
+2. han eller hon eller n&#229;gon n&#228;rst&#229;ende &#228;r eller har varit 
+st&#228;llf&#246;retr&#228;dare eller ombud f&#246;r en part i &#228;rendet eller f&#246;r 
+n&#229;gon annan som kan antas bli p&#229;verkad av beslutet i en inte 
+ov&#228;sentlig utstr&#228;ckning,
+
+3. han eller hon har medverkat i den slutliga handl&#228;ggningen 
+av ett &#228;rende hos en annan myndighet och till f&#246;ljd av detta 
+redan har tagit st&#228;llning till fr&#229;gor som myndigheten ska 
+pr&#246;va i egenskap av &#246;verordnad instans, eller
+
+4. det finns n&#229;gon annan s&#228;rskild omst&#228;ndighet som g&#246;r att 
+hans eller hennes opartiskhet i &#228;rendet kan ifr&#229;gas&#228;ttas.
+
+Om det &#228;r uppenbart att fr&#229;gan om opartiskhet saknar 
+betydelse, ska myndigheten bortse fr&#229;n j&#228;v.
+
+17 &#167; Den som &#228;r j&#228;vig f&#229;r inte ta del i handl&#228;ggningen av 
+&#228;rendet och inte heller n&#228;rvara n&#228;r &#228;rendet avg&#246;rs. Han eller 
+hon f&#229;r dock utf&#246;ra s&#229;dana uppgifter som inte n&#229;gon annan kan 
+utf&#246;ra utan att handl&#228;ggningen f&#246;rsenas avsev&#228;rt.
+
+18 &#167; Den som k&#228;nner till en omst&#228;ndighet som kan antas g&#246;ra 
+honom eller henne j&#228;vig ska omedelbart anm&#228;la detta till 
+myndigheten.
+
+En myndighet ska pr&#246;va en j&#228;vsfr&#229;ga s&#229; snart som m&#246;jligt.
+
+Den som j&#228;vet g&#228;ller f&#229;r ta del i pr&#246;vningen av j&#228;vsfr&#229;gan 
+endast om det kr&#228;vs f&#246;r att myndigheten ska vara beslutsf&#246;r 
+och n&#229;gon ers&#228;ttare inte kan kallas in utan att pr&#246;vningen 
+f&#246;rsenas avsev&#228;rt.
+
+Hur &#228;renden inleds och &#229;tg&#228;rder n&#228;r handlingar ges in
+
+Framst&#228;llningar fr&#229;n enskilda
+
+19 &#167; En enskild kan inleda ett &#228;rende hos en myndighet genom 
+en ans&#246;kan, anm&#228;lan eller annan framst&#228;llning. 
+Framst&#228;llningen ska inneh&#229;lla uppgifter om den enskildes 
+identitet och den information som beh&#246;vs f&#246;r att myndigheten 
+ska kunna komma i kontakt med honom eller henne.
+
+Det ska framg&#229; av framst&#228;llningen vad &#228;rendet g&#228;ller och vad 
+den enskilde vill att myndigheten ska g&#246;ra. Det ska ocks&#229; 
+framg&#229; vilka omst&#228;ndigheter som ligger till grund f&#246;r den 
+enskildes beg&#228;ran, om det inte &#228;r uppenbart obeh&#246;vligt.
+
+&#197;tg&#228;rder f&#246;r att r&#228;tta till brister i en framst&#228;llning
+
+20 &#167; Om en framst&#228;llning &#228;r ofullst&#228;ndig eller oklar ska en 
+myndighet i f&#246;rsta hand hj&#228;lpa den enskilde till r&#228;tta inom 
+ramen f&#246;r sin allm&#228;nna serviceskyldighet enligt 6 &#167; andra 
+stycket.
+
+En myndighet f&#229;r besluta att f&#246;rel&#228;gga den enskilde att 
+avhj&#228;lpa en brist som finns kvar, om bristen medf&#246;r att 
+framst&#228;llningen inte kan l&#228;ggas till grund f&#246;r en pr&#246;vning i 
+sak. I f&#246;rel&#228;ggandet ska det anges att f&#246;ljden av att det 
+inte f&#246;ljs kan bli att framst&#228;llningen inte tas upp till 
+pr&#246;vning.
+
+Bekr&#228;ftelse av handlingar
+
+21 &#167; En handling ska bekr&#228;ftas av avs&#228;ndaren om myndigheten 
+anser att det beh&#246;vs.
+
+Hur ankomstdagen f&#246;r handlingar best&#228;ms
+
+22 &#167; En handling har kommit in till en myndighet den dag som 
+handlingen n&#229;r myndigheten eller en beh&#246;rig 
+befattningshavare.
+
+Om en handling genom en postf&#246;rs&#228;ndelse eller en avi om en 
+betald postf&#246;rs&#228;ndelse som inneh&#229;ller handlingen har n&#229;tt en 
+myndighet eller beh&#246;rig befattningshavare en viss dag, ska 
+handlingen dock anses ha kommit in n&#228;rmast f&#246;reg&#229;ende 
+arbetsdag, om det inte framst&#229;r som osannolikt att handlingen 
+eller avin redan den f&#246;reg&#229;ende arbetsdagen skilts av f&#246;r 
+myndigheten p&#229; ett postkontor.
+
+En handling som finns i en myndighets postl&#229;da n&#228;r 
+myndigheten t&#246;mmer den f&#246;rsta g&#229;ngen en viss dag ska anses ha 
+kommit in n&#228;rmast f&#246;reg&#229;ende arbetsdag.
+
+Beredning av &#228;renden
+
+Utredningsansvaret
+
+23 &#167; En myndighet ska se till att ett &#228;rende blir utrett i 
+den omfattning som dess beskaffenhet kr&#228;ver.
+
+En enskild part som inleder ett &#228;rende ska medverka genom att 
+s&#229; l&#229;ngt som m&#246;jligt ge in den utredning som parten vill 
+&#229;beropa till st&#246;d f&#246;r sin framst&#228;llning.
+
+Om det beh&#246;vs ska myndigheten genom fr&#229;gor och p&#229;pekanden 
+verka f&#246;r att parten f&#246;rtydligar eller kompletterar 
+framst&#228;llningen.
+
+N&#228;r f&#229;r man l&#228;mna uppgifter muntligt?
+
+24 &#167; Om en enskild part vill l&#228;mna uppgifter muntligt i ett 
+&#228;rende ska myndigheten ge parten tillf&#228;lle till det, om det 
+inte framst&#229;r som obeh&#246;vligt. Myndigheten best&#228;mmer hur detta 
+ska ske.
+
+Kommunikation
+
+25 &#167; Innan en myndighet fattar ett beslut i ett &#228;rende ska 
+den, om det inte &#228;r uppenbart obeh&#246;vligt, underr&#228;tta den som 
+&#228;r part om allt material av betydelse f&#246;r beslutet och ge 
+parten tillf&#228;lle att inom en best&#228;md tid yttra sig &#246;ver 
+materialet. Myndigheten f&#229;r dock avst&#229; fr&#229;n s&#229;dan 
+kommunikation, om
+
+1. &#228;rendet g&#228;ller anst&#228;llning av n&#229;gon och det inte &#228;r fr&#229;ga 
+om pr&#246;vning i h&#246;gre instans efter &#246;verklagande,
+
+2. det kan befaras att det annars skulle bli avsev&#228;rt sv&#229;rare 
+att genomf&#246;ra beslutet, eller
+
+3. ett v&#228;sentligt allm&#228;nt eller enskilt intresse kr&#228;ver att 
+beslutet meddelas omedelbart.
+
+Myndigheten best&#228;mmer hur underr&#228;ttelse ska ske. 
+Underr&#228;ttelse f&#229;r ske genom delgivning.
+
+Underr&#228;ttelseskyldigheten g&#228;ller med de begr&#228;nsningar som 
+f&#246;ljer av 10 kap. 3 &#167; offentlighets- och sekretesslagen 
+(2009:400).
+
+Remiss
+
+26 &#167; En myndighet kan inom ramen f&#246;r sitt utredningsansvar 
+enligt 23 &#167; beg&#228;ra ett yttrande fr&#229;n en annan myndighet eller 
+fr&#229;n n&#229;gon enskild (remiss).
+
+Om en myndighet beh&#246;ver inh&#228;mta yttranden fr&#229;n flera ska det 
+g&#246;ras samtidigt, om inte ett annat tillv&#228;gag&#229;ngss&#228;tt framst&#229;r 
+som l&#228;mpligare.
+
+Det ska framg&#229; av remissen vad yttrandet ska avse och n&#228;r det 
+senast ska ha kommit in till myndigheten.
+
+Dokumentation av uppgifter
+
+27 &#167; En myndighet som f&#229;r uppgifter p&#229; n&#229;got annat s&#228;tt &#228;n 
+genom en handling ska snarast dokumentera dem, om de kan ha 
+betydelse f&#246;r ett beslut i &#228;rendet. Det ska framg&#229; av 
+dokumentationen n&#228;r den har gjorts och av vem.
+
+Myndighetens beslut
+
+Hur beslut fattas
+
+28 &#167; Ett beslut kan fattas av en befattningshavare ensam 
+eller av flera gemensamt eller automatiserat. Vid den 
+slutliga handl&#228;ggningen kan f&#246;redragande och andra 
+befattningshavare medverka utan att delta i avg&#246;randet.
+
+N&#228;r flera ska fatta beslut gemensamt och de inte kan enas, 
+ska ordf&#246;randen presentera de olika f&#246;rslag till beslut som 
+har f&#246;rts fram. Varje f&#246;rslag ska presenteras s&#229; att det kan 
+besvaras med antingen ja eller nej.
+
+N&#228;r de som deltar i avg&#246;randet har f&#229;tt ta st&#228;llning till 
+f&#246;rslagen, meddelar ordf&#246;randen vad som enligt hans eller 
+hennes uppfattning har beslutats. Detta blir beslutet, om 
+inte omr&#246;stning beg&#228;rs.
+
+Omr&#246;stning
+
+29 &#167; En omr&#246;stning ska genomf&#246;ras &#246;ppet. Om det vid 
+omr&#246;stningen finns fler &#228;n tv&#229; f&#246;rslag, ska man f&#246;rst avg&#246;ra 
+vilket f&#246;rslag som ska st&#228;llas mot det som ordf&#246;randen anser 
+har beslutats.
+
+Omr&#246;stningen avg&#246;rs genom enkel majoritet. Om det blir lika 
+r&#246;stetal har ordf&#246;randen utslagsr&#246;st.
+
+Varje ledamot som deltar i den slutliga handl&#228;ggningen ska 
+delta &#228;ven i avg&#246;randet. Ordf&#246;randen ska alltid r&#246;sta om det 
+beh&#246;vs f&#246;r att &#228;rendet ska kunna avg&#246;ras. Andra ledam&#246;ter 
+beh&#246;ver dock inte r&#246;sta f&#246;r mer &#228;n ett f&#246;rslag.
+
+Reservation och avvikande mening
+
+30 &#167; N&#228;r ett beslut fattas av flera gemensamt har den som 
+deltar i avg&#246;randet r&#228;tt att reservera sig mot beslutet genom 
+att f&#229; en avvikande mening antecknad. Den som inte g&#246;r det 
+ska anses ha st&#228;llt sig bakom beslutet.
+
+Den som medverkar vid den slutliga handl&#228;ggningen av ett 
+&#228;rende utan att delta i avg&#246;randet har alltid r&#228;tt att f&#229; en 
+avvikande mening antecknad.
+
+En avvikande mening ska anm&#228;las innan myndigheten expedierar 
+beslutet eller p&#229; annat s&#228;tt g&#246;r det tillg&#228;ngligt f&#246;r 
+utomst&#229;ende. Om beslutet inte ska g&#246;ras tillg&#228;ngligt f&#246;r 
+utomst&#229;ende, ska anm&#228;lan g&#246;ras senast n&#228;r beslutet f&#229;r sin 
+slutliga form.
+
+Dokumentation av beslut
+
+31 &#167; F&#246;r varje skriftligt beslut ska det finnas en handling 
+som visar
+
+1. dagen f&#246;r beslutet,
+
+2. vad beslutet inneh&#229;ller,
+
+3. vem eller vilka som har fattat beslutet,
+
+4. vem eller vilka som har varit f&#246;redragande, och
+
+5. vem eller vilka som har medverkat vid den slutliga 
+handl&#228;ggningen utan att delta i avg&#246;randet.
+
+Motivering av beslut
+
+32 &#167; Ett beslut som kan antas p&#229;verka n&#229;gons situation p&#229; ett 
+inte obetydligt s&#228;tt ska inneh&#229;lla en klarg&#246;rande motivering, 
+om det inte &#228;r uppenbart obeh&#246;vligt. En s&#229;dan motivering ska 
+inneh&#229;lla uppgifter om vilka f&#246;reskrifter som har till&#228;mpats 
+och vilka omst&#228;ndigheter som har varit avg&#246;rande f&#246;r 
+myndighetens st&#228;llningstagande.
+
+En motivering f&#229;r helt eller delvis utel&#228;mnas, om
+
+1. beslutet g&#228;ller anst&#228;llning av n&#229;gon,
+
+2. ett v&#228;sentligt allm&#228;nt eller enskilt intresse kr&#228;ver att 
+beslutet meddelas omedelbart,
+
+3. det &#228;r n&#246;dv&#228;ndigt med h&#228;nsyn till rikets s&#228;kerhet, skyddet 
+f&#246;r enskildas personliga eller ekonomiska f&#246;rh&#229;llanden eller 
+n&#229;got annat j&#228;mf&#246;rbart f&#246;rh&#229;llande, eller
+
+4. beslutet g&#228;ller meddelande av f&#246;reskrifter som avses i 8 
+kap. regeringsformen.
+
+Om motiveringen har utel&#228;mnats enligt andra stycket 1, 2 
+eller 3 ska myndigheten om m&#246;jligt ge en motivering i 
+efterhand, om n&#229;gon enskild beg&#228;r det och det beh&#246;vs f&#246;r att 
+han eller hon ska kunna ta till vara sin r&#228;tt.
+
+Underr&#228;ttelse om inneh&#229;llet i beslut och hur ett &#246;verklagande 
+g&#229;r till 
+
+33 &#167; En myndighet som meddelar ett beslut i ett &#228;rende ska s&#229; 
+snart som m&#246;jligt underr&#228;tta den som &#228;r part om det 
+fullst&#228;ndiga inneh&#229;llet i beslutet, om det inte &#228;r uppenbart 
+obeh&#246;vligt.
+
+Om parten f&#229;r &#246;verklaga beslutet ska han eller hon &#228;ven 
+underr&#228;ttas om hur det g&#229;r till. Myndigheten ska samtidigt 
+upplysa parten om avvikande meningar som har antecknats 
+enligt 30 &#167; eller enligt s&#228;rskilda best&#228;mmelser i n&#229;gon annan 
+f&#246;rfattning. En underr&#228;ttelse om hur man &#246;verklagar ska 
+inneh&#229;lla information om vilka krav som st&#228;lls p&#229; 
+&#246;verklagandets form och inneh&#229;ll och vad som g&#228;ller i fr&#229;ga 
+om ingivande och &#246;verklagandetid.
+
+Myndigheten best&#228;mmer hur underr&#228;ttelsen ska ske. En 
+underr&#228;ttelse ska dock alltid vara skriftlig om en part beg&#228;r 
+det. Underr&#228;ttelse f&#229;r ske genom delgivning.
+
+34 &#167; Best&#228;mmelserna i 33 &#167; om underr&#228;ttelse om inneh&#229;llet i 
+beslut och hur ett &#246;verklagande g&#229;r till till&#228;mpas ocks&#229; om 
+n&#229;gon som inte &#228;r part beg&#228;r att f&#229; ta del av ett beslut som 
+han eller hon f&#229;r &#246;verklaga.
+
+N&#228;r beslut f&#229;r verkst&#228;llas
+
+35 &#167; Ett beslut som f&#229;r &#246;verklagas inom en viss tid f&#229;r 
+verkst&#228;llas n&#228;r &#246;verklagandetiden har g&#229;tt ut, om beslutet 
+inte har &#246;verklagats.
+
+Ett beslut f&#229;r alltid verkst&#228;llas omedelbart, om
+
+1. beslutet g&#228;ller anst&#228;llning av n&#229;gon,
+
+2. beslutet g&#228;ller endast tillf&#228;lligt, eller
+
+3. kretsen av dem som har r&#228;tt att &#246;verklaga &#228;r s&#229; vid eller 
+obest&#228;md att det inte g&#229;r att avg&#246;ra n&#228;r &#246;verklagandetiden 
+g&#229;r ut.
+
+En myndighet f&#229;r &#228;ven verkst&#228;lla ett beslut omedelbart om ett 
+v&#228;sentligt allm&#228;nt eller enskilt intresse kr&#228;ver det. 
+Myndigheten ska dock f&#246;rst noga &#246;verv&#228;ga om det finns sk&#228;l 
+att avvakta med att verkst&#228;lla beslutet p&#229; grund av
+
+1. att beslutet medf&#246;r mycket ingripande verkningar f&#246;r n&#229;gon 
+enskild,
+
+2. att verkst&#228;lligheten inte kan &#229;terg&#229; om ett &#246;verklagande 
+av beslutet leder till att det upph&#228;vs, eller
+
+3. n&#229;gon annan omst&#228;ndighet.
+
+R&#228;ttelse och &#228;ndring av beslut
+
+R&#228;ttelse av skrivfel och liknande
+
+36 &#167; Ett beslut som inneh&#229;ller en uppenbar felaktighet till 
+f&#246;ljd av myndighetens eller n&#229;gon annans skrivfel, r&#228;knefel 
+eller n&#229;got annat liknande f&#246;rbiseende f&#229;r r&#228;ttas av den 
+myndighet som har meddelat beslutet.
+
+N&#228;r en myndighet f&#229;r &#228;ndra ett beslut
+
+37 &#167; En myndighet f&#229;r &#228;ndra ett beslut som den har meddelat 
+som f&#246;rsta instans om den anser att beslutet &#228;r felaktigt p&#229; 
+grund av att det har tillkommit nya omst&#228;ndigheter eller av 
+n&#229;gon annan anledning.
+
+Ett beslut som till sin karakt&#228;r &#228;r gynnande f&#246;r n&#229;gon 
+enskild part f&#229;r dock &#228;ndras till den enskildes nackdel bara 
+om
+
+1. det framg&#229;r av beslutet eller de f&#246;reskrifter som det har 
+grundats p&#229; att beslutet under vissa f&#246;ruts&#228;ttningar f&#229;r 
+&#229;terkallas,
+
+2. tvingande s&#228;kerhetssk&#228;l kr&#228;ver att beslutet &#228;ndras 
+omedelbart, eller
+
+3. felaktigheten beror p&#229; att parten har l&#228;mnat oriktiga 
+eller vilseledande uppgifter.
+
+N&#228;r en myndighet ska &#228;ndra ett beslut
+
+38 &#167; En myndighet ska &#228;ndra ett beslut som den har meddelat 
+som f&#246;rsta instans om
+
+1. den anser att beslutet &#228;r uppenbart felaktigt i n&#229;got 
+v&#228;sentligt h&#228;nseende p&#229; grund av att det har tillkommit nya 
+omst&#228;ndigheter eller av n&#229;gon annan anledning, och
+
+2. beslutet kan &#228;ndras snabbt och enkelt och utan att det 
+blir till nackdel f&#246;r n&#229;gon enskild part.
+
+N&#228;r en myndighet f&#229;r &#228;ndra ett beslut som har &#246;verklagats
+
+39 &#167; Ett beslut som har &#246;verklagats f&#229;r &#228;ndras av den 
+myndighet som har meddelat det som f&#246;rsta instans enbart i 
+s&#229;dana fall som avses i 38 &#167; och bara om &#246;verklagandet och 
+&#246;vriga handlingar i &#228;rendet &#228;nnu inte har &#246;verl&#228;mnats till 
+den h&#246;gre instans som ska pr&#246;va &#246;verklagandet.
+
+&#214;verklagande
+
+Till vilken myndighet &#246;verklagas beslut?
+
+40 &#167; Beslut &#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till 
+kammarr&#228;tten.
+
+Vilka beslut f&#229;r &#246;verklagas?
+
+41 &#167; Ett beslut f&#229;r &#246;verklagas om beslutet kan antas p&#229;verka 
+n&#229;gons situation p&#229; ett inte obetydligt s&#228;tt.
+
+Vem f&#229;r &#246;verklaga ett beslut? 
+
+42 &#167; Ett beslut f&#229;r &#246;verklagas av den som beslutet ang&#229;r, om 
+det har g&#229;tt honom eller henne emot.
+
+Hur &#246;verklagar man ett beslut?
+
+43 &#167; Ett &#246;verklagande av ett beslut ska g&#246;ras skriftligen 
+till den h&#246;gre instans som ska pr&#246;va &#246;verklagandet 
+(&#246;verinstansen). &#214;verklagandet ska dock ges in till den 
+myndighet som har meddelat beslutet (beslutsmyndigheten).
+
+I &#246;verklagandet ska den som &#246;verklagar ange vilket beslut som 
+&#246;verklagas och p&#229; vilket s&#228;tt han eller hon vill att beslutet 
+ska &#228;ndras.
+
+I 3 och 4 &#167;&#167; f&#246;rvaltningsprocesslagen (1971:291) finns 
+ytterligare best&#228;mmelser om vad ett &#246;verklagande som ska 
+pr&#246;vas av allm&#228;n f&#246;rvaltningsdomstol ska inneh&#229;lla.
+
+&#214;verklagandetiden
+
+44 &#167; Ett &#246;verklagande av ett beslut ska ha kommit in till 
+beslutsmyndigheten inom tre veckor fr&#229;n den dag d&#229; den som 
+&#246;verklagar fick del av beslutet genom den myndigheten. Om den 
+som &#246;verklagar &#228;r en part som f&#246;retr&#228;der det allm&#228;nna, ska 
+&#246;verklagandet dock ha kommit in inom tre veckor fr&#229;n den dag 
+d&#229; beslutet meddelades.
+
+Beslutsmyndighetens &#229;tg&#228;rder
+
+45 &#167; Beslutsmyndigheten pr&#246;var om &#246;verklagandet har kommit in 
+i r&#228;tt tid. Om det har kommit in f&#246;r sent ska myndigheten 
+besluta att &#246;verklagandet inte f&#229;r tas upp till pr&#246;vning 
+(avvisning).
+
+Ett &#246;verklagande ska dock inte avvisas om
+
+1. f&#246;rseningen beror p&#229; att myndigheten inte har l&#228;mnat en 
+korrekt underr&#228;ttelse om hur man &#246;verklagar, eller
+
+2. &#246;verklagandet har kommit in till &#246;verinstansen inom 
+&#246;verklagandetiden.
+
+46 &#167; Om &#246;verklagandet inte avvisas ska beslutsmyndigheten 
+skyndsamt &#246;verl&#228;mna &#246;verklagandet och &#246;vriga handlingar i 
+&#228;rendet till &#246;verinstansen.
+
+Om en myndighet &#228;ndrar ett beslut som har &#246;verklagats, ska 
+den &#246;verl&#228;mna &#228;ven det nya beslutet till &#246;verinstansen. 
+&#214;verklagandet ska anses omfatta det nya beslutet.
+
+&#214;verinstansens &#229;tg&#228;rder
+
+47 &#167; &#214;verinstansen pr&#246;var fr&#229;gor om att avvisa ett 
+&#246;verklagande p&#229; n&#229;gon annan grund &#228;n att det har kommit in 
+f&#246;r sent.
+
+Om ett &#246;verklagande felaktigt har getts in till 
+&#246;verinstansen, ska den myndigheten vidarebefordra 
+&#246;verklagandet till beslutsmyndigheten och samtidigt ange 
+vilken dag som &#246;verklagandet kom in till &#246;verinstansen.
+
+48 &#167; &#214;verinstansen f&#229;r best&#228;mma att det &#246;verklagade beslutet 
+tills vidare inte ska g&#228;lla.
+
+F&#246;rel&#228;ggande n&#228;r handl&#228;ggningen har f&#246;rsenats
+
+49 &#167; Om en domstol eller en f&#246;rvaltningsmyndighet bifaller 
+ett &#246;verklagande av ett s&#229;dant avslagsbeslut som avses i 12 &#167; 
+andra stycket, ska den besluta att f&#246;rel&#228;gga den myndighet 
+som har meddelat avslagsbeslutet att snarast eller inom den 
+tid som &#246;verinstansen best&#228;mmer avg&#246;ra det &#228;rende som 
+&#246;verklagandet avser.
+
+&#214;verinstansens beslut f&#229;r inte &#246;verklagas.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2017:900
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2018.
+
+2. Genom lagen upph&#228;vs f&#246;rvaltningslagen (1986:223).
+
+3. Den upph&#228;vda lagen g&#228;ller dock fortfarande i den 
+utstr&#228;ckning som det i en annan lag eller f&#246;rordning finns 
+best&#228;mmelser som inneh&#229;ller h&#228;nvisningar till den lagen.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=819">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=821">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

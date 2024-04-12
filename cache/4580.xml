@@ -1,0 +1,645 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2009-12-10" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4580</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4579">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4581">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1915:218 ·
+                    <a href="/sfsr?bet=1915:218">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1915:218) om avtal och andra r&#228;ttshandlingar p&#229; f&#246;rm&#246;genhetsr&#228;ttens omr&#229;de</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1915-06-11
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 1994:1513
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1916-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 kap. Om slutande av avtal
+
+1 &#167; Anbud om slutande av avtal och svar &#229; s&#229;dant anbud vare, efter ty
+h&#228;r nedan i 2-9 &#167;&#167; s&#228;gs, bindande f&#246;r den, som avgivit anbudet eller
+svaret.
+
+Vad i n&#228;mnda paragrafer stadgas skall l&#228;nda till efterr&#228;ttelse, s&#229; vitt
+ej annat f&#246;ljer av anbudet eller svaret eller av handelsbruk eller annan
+sedv&#228;nja.
+
+I fr&#229;ga om avtal, f&#246;r vars giltighet enligt lag fordras iakttagande av
+viss form, g&#228;lle vad s&#228;rskilt &#228;r stadgat.
+
+2 &#167; Har anbudsgivaren best&#228;mt viss tid f&#246;r svar, skall han anses hava
+f&#246;reskrivit, att svaret skall inom den tid komma honom till handa.
+
+&#196;r i brev eller telegram, vari anbud g&#246;res, viss tidrymd utsatt f&#246;r
+svaret, skall denna r&#228;knas fr&#229;n den dag brevet &#228;r dagtecknat eller den
+tid p&#229; dagen telegrammet &#228;r inl&#228;mnat f&#246;r befordran.
+
+3 &#167; G&#246;res anbud i brev eller telegram utan att tid f&#246;r svar d&#228;ri
+uts&#228;ttes, m&#229;ste antagande svar komma anbudsgivaren till handa inom den
+tid, som vid anbudets avgivande sk&#228;ligen kunde av honom ber&#228;knas &#229;tg&#229;.
+Vid ber&#228;kningen av n&#228;mnda tid &#228;ge anbudsgivaren, d&#228;r ej annat f&#246;ranledes
+av omst&#228;ndigheterna, f&#246;ruts&#228;tta, att anbudet framkommer i r&#228;tt tid samt
+att svaret avs&#228;ndes utan uppskov efter det anbudstagaren &#229;tnjutit sk&#228;lig
+bet&#228;nketid och icke varder under v&#228;gen f&#246;rsenat; &#228;r anbudet gjort i
+telegram, &#228;ge anbudsgivaren tillika f&#246;ruts&#228;tta att svaret befordras p&#229;
+enahanda s&#228;tt eller annorledes kommer honom lika tidigt till handa.
+
+Anbud, som g&#246;res muntligen utan att anst&#229;nd med svaret medgives, m&#229;ste
+omedelbart antagas.
+
+4 &#167; Antagande svar, som f&#246;r sent kommer anbudsgivaren till handa, skall
+g&#228;lla s&#229;som nytt anbud.
+
+Vad nu &#228;r sagt &#228;ge dock icke till&#228;mpning, d&#228;r den, som avs&#228;nt svaret,
+utg&#229;r fr&#229;n att det framkommit i r&#228;tt tid och mottagaren m&#229;ste inse
+detta. I ty fall &#229;ligger det denne, om han icke vill godtaga svaret, att
+utan osk&#228;ligt uppeh&#229;ll giva avs&#228;ndaren meddelande d&#228;rom; underl&#229;ter han
+det, anses avtal hava genom svaret kommit till st&#229;nd.
+
+5 &#167; Avsl&#229;s anbud, vare det f&#246;rfallet, &#228;nd&#229; att den tid, varunder det
+eljest skolat g&#228;lla, ej g&#229;tt till &#228;nda.
+
+6 &#167; Svar, som inneh&#229;ller, att anbud antages, men som p&#229; grund av
+till&#228;gg, inskr&#228;nkning eller f&#246;rbeh&#229;ll icke &#246;verensst&#228;mmer med anbudet,
+skall g&#228;lla s&#229;som avslag i f&#246;rening med nytt anbud.
+
+Vad nu &#228;r sagt &#228;ge dock icke till&#228;mpning, d&#228;r den, som avgav svaret,
+anser det &#246;verensst&#228;mma med anbudet och mottagaren m&#229;ste inse detta. I
+ty fall &#229;ligger det denne, om han icke vill godtaga svaret, att utan
+osk&#228;ligt uppeh&#229;ll giva meddelande d&#228;rom; underl&#229;ter han det, skall avtal
+i enlighet med svarets inneh&#229;ll anses hava kommit till st&#229;nd.
+
+7 &#167; Anbud eller svar, som &#229;terkallas, vare ej g&#228;llande, d&#228;r
+&#229;terkallelsen kommer den, till vilken anbudet eller svaret &#228;r riktat,
+till handa innan han tager del av detta eller samtidigt d&#228;rmed.
+
+8 &#167; Har den, som avgivit anbud, f&#246;rklarat sig icke p&#229;fordra uttryckligt
+svar d&#228;r&#229;, eller utvisa omst&#228;ndigheterna, att han ej f&#246;rv&#228;ntar s&#229;dant,
+vare anbudstagaren &#228;ndock pliktig att p&#229; f&#246;rfr&#229;gan giva besked, om han
+vill antaga anbudet; underl&#229;ter han det, anses anbudet f&#246;rfallet.
+
+Ang&#229;ende vissa fall, d&#229; underl&#229;tenhet att avb&#246;ja anbud anses s&#229;som
+antagande, &#228;r s&#228;rskilt stadgat.
+
+9 &#167; D&#228;r n&#229;gon i meddelande, som eljest vore att anse s&#229;som anbud, anv&#228;nt
+orden &quot;utan f&#246;rbindelse&quot;, &quot;utan obligo&quot; eller liknande uttryck, anses
+meddelandet allenast s&#229;som uppfordran att avgiva anbud av det inneh&#229;ll
+meddelandet giver vid handen. Inkommer s&#229;dant anbud inom rimlig tid
+d&#228;refter fr&#229;n n&#229;gon, vilken blivit s&#229;lunda uppfordrad att avgiva anbud,
+och m&#229;ste mottagaren inse, att anbudet framkallats genom hans
+uppfordran, &#229;ligger det honom, d&#228;r han icke vill antaga detsamma, att
+utan osk&#228;ligt uppeh&#229;ll giva meddelande d&#228;rom till anbudsgivaren;
+underl&#229;ter han det, skall han anses hava antagit anbudet.
+
+2 kap. Om fullmakt
+
+10 &#167; Den, som &#229;t annan givit fullmakt att sluta avtal eller eljest
+f&#246;retaga r&#228;ttshandlingar, varder omedelbart ber&#228;ttigad och f&#246;rpliktad i
+f&#246;rh&#229;llande till tredje man genom r&#228;ttshandling, som fullm&#228;ktigen inom
+fullmaktens gr&#228;nser f&#246;retager i fullmaktsgivarens namn.
+
+D&#228;r n&#229;gon s&#229;som anst&#228;lld i annans tj&#228;nst eller eljest i f&#246;ljd av avtal
+med annan intager en st&#228;llning, varmed enligt lag eller sedv&#228;nja f&#246;ljer
+viss beh&#246;righet att handla &#229; dennes v&#228;gnar, anses han hava fullmakt att
+f&#246;retaga r&#228;ttshandlingar, som falla inom gr&#228;nserna f&#246;r denna beh&#246;righet.
+
+
+11 &#167; Har fullm&#228;ktigen vid f&#246;retagande av r&#228;ttshandling handlat i strid
+mot s&#228;rskilda inskr&#228;nkande f&#246;reskrifter av fullmaktsgivaren, vare
+r&#228;ttshandlingen ej g&#228;llande mot denne, s&#229;framt tredje man ins&#229;g eller
+bort inse, att fullm&#228;ktigen s&#229;lunda &#246;verskred sin befogenhet.
+
+&#196;r fullmakten av s&#229;dan beskaffenhet, som i 18 &#167; avses, vare
+r&#228;ttshandling, som fullm&#228;ktigen med &#246;verskridande av sin befogenhet
+f&#246;retagit, icke g&#228;llande mot fullmaktsgivaren, &#228;nd&#229; att tredje man var i
+god tro.
+
+12 &#167; Vill fullmaktsgivaren &#229;terkalla fullmakt, som avses i 13-16 &#167;&#167;,
+&#229;ligger det honom, &#228;ven om han meddelat fullm&#228;ktigen, att han icke
+l&#228;ngre vill l&#229;ta fullmakten g&#228;lla, att iakttaga vad i n&#228;mnda paragrafer
+f&#246;r varje fall f&#246;reskrives; &#228;ro flera av dessa f&#246;reskrifter var f&#246;r sig
+till&#228;mpliga &#229; samma fullmakt, skola de alla iakttagas.
+
+Tredje man, hos vilken en fullmakt &#229;terkallats p&#229; det i 13 &#167; angivna
+s&#228;tt, &#228;ge dock icke &#229;beropa, att &#229;terkallelse ej skett p&#229; annat s&#228;tt.
+
+13 &#167; Fullmakt, som bragts till tredje mans k&#228;nnedom genom ett till honom
+s&#228;rskilt riktat meddelande fr&#229;n fullmaktsgivaren, &#228;r &#229;terkallad, n&#228;r
+s&#228;rskilt meddelande fr&#229;n fullmaktsgivaren, att fullmakten icke vidare
+skall g&#228;lla, kommit tredje man till handa.
+
+14 &#167; Fullmakt, som blivit av fullmaktsgivaren i tidning eller annorledes
+allm&#228;nneligen kungjord, &#229;terkallas genom tillk&#228;nnagivande, som kung&#246;res
+i enahanda ordning.
+
+M&#246;ter hinder h&#228;remot, skall &#229;terkallelsen p&#229; annat lika verksamt s&#228;tt
+tillk&#228;nnagivas. Fullmaktsgivaren &#228;ge, d&#228;r han det &#228;skar, hos myndighet,
+som i 17 &#167; s&#228;gs, erh&#229;lla anvisning, huru han i s&#229;dant avseende har att
+f&#246;rfara.
+
+15 &#167; Fullmakt, som avses i 10 &#167; andra stycket, &#229;terkallas d&#228;rigenom att
+fullm&#228;ktigen avl&#228;gsnas fr&#229;n tj&#228;nst eller annan st&#228;llning, i kraft varav
+han varit befullm&#228;ktigad.
+
+16 &#167; Fullmakt, vilken innefattas i s&#229;dan skriftlig handling, som utgives
+till fullm&#228;ktigen f&#246;r att av honom innehavas och f&#246;retes f&#246;r tredje man,
+&#229;terkallas d&#228;rigenom att fullmaktsgivaren &#229;tertager eller l&#229;ter f&#246;rst&#246;ra
+handlingen.
+
+Fullm&#228;ktigen &#228;r pliktig att p&#229; beg&#228;ran av fullmaktsgivaren &#229;terst&#228;lla
+fullmaktshandlingen.
+
+17 &#167; Visar fullmaktsgivaren sannolika sk&#228;l, att handling, som i 16 &#167;
+omf&#246;rm&#228;les, f&#246;rkommit eller att han av annan orsak icke utan dr&#246;jsm&#229;l
+kan f&#229; den &#229;ter, m&#229; handlingen, efter ty h&#228;r nedan s&#228;gs, f&#246;rklaras
+kraftl&#246;s.
+
+Ans&#246;kan h&#228;rom g&#246;res hos tingsr&#228;tten i den ort, inom vilken
+fullmaktsgivaren bor. Finnes ans&#246;kningen kunna bifallas, skall
+tingsr&#228;tten utf&#228;rda och s&#246;kanden l&#229;ta i Post- och Inrikes Tidningar
+inf&#246;ra kung&#246;relse, att handlingen efter utg&#229;ngen av viss tid, som m&#229;
+best&#228;mmas till h&#246;gst fjorton dagar efter kung&#246;relsens inf&#246;rande, skall
+vara kraftl&#246;s. Kung&#246;relsen skall j&#228;mv&#228;l, d&#228;r tingsr&#228;tten det
+f&#246;reskriver, inf&#246;ras i annan tidning, en eller flera g&#229;nger, innan den
+inf&#246;res i Post- och Inrikes Tidningar. Lag (1981:799).
+
+18 &#167; Fullmakt, som grundar sig allenast &#229; fullmaktsgivarens meddelande
+till fullm&#228;ktigen, &#228;r &#229;terkallad, n&#228;r meddelande fr&#229;n fullmaktsgivaren,
+att fullmakten icke vidare skall g&#228;lla, kommit fullm&#228;ktigen till handa.
+
+19 &#167; I fall, d&#229; fullmaktsgivaren har s&#228;rskild anledning att befara, att
+fullm&#228;ktigen, oaktat fullmakten &#229;terkallats eller fullmaktshandlingen
+f&#246;rklarats kraftl&#246;s, kommer att p&#229; grund av fullmakten f&#246;retaga
+r&#228;ttshandling gent emot viss man, vilken kan antagas sakna vetskap om
+dess upph&#246;rande, &#229;ligger det honom att, d&#228;r s&#229; ske kan, giva denne
+meddelande, att fullmakten icke vidare skall g&#228;lla. Underl&#229;ter han det,
+m&#229; han, s&#229;framt den, gent emot vilken r&#228;ttshandlingen f&#246;retagits, var i
+god tro, icke mot denne &#229;beropa fullmaktens upph&#246;rande.
+
+20 &#167; Har fullmaktsgivaren utan att i ovan stadgad ordning bringa
+fullmakten till upph&#246;rande tillsagt fullm&#228;ktigen att icke g&#246;ra bruk av
+fullmakten eller annorledes givit till k&#228;nna sin vilja, att fullmakten
+icke vidare skall g&#228;lla, vare r&#228;ttshandling, som fullm&#228;ktigen f&#246;retager,
+icke g&#228;llande mot fullmaktsgivaren, s&#229;framt tredje man &#228;gde eller bort
+&#228;ga k&#228;nnedom om f&#246;rh&#229;llandet.
+
+21 &#167; D&#246;r fullmaktsgivaren, vare fullmakten &#228;ndock g&#228;llande, f&#246;r s&#229; vitt
+ej s&#228;rskilda omst&#228;ndigheter f&#246;ranleda, att den skall vara f&#246;rfallen.
+&#196;nd&#229; att s&#229;dana omst&#228;ndigheter &#228;ro f&#246;r handen, vare dock r&#228;ttshandling,
+som fullm&#228;ktigen f&#246;retager, g&#228;llande mot d&#246;dsboet, d&#228;r tredje man varken
+&#228;gde eller bort &#228;ga vetskap om d&#246;dsfallet och dess betydelse f&#246;r
+fullm&#228;ktigens beh&#246;righet att f&#246;retaga r&#228;ttshandlingen; &#228;r fullmakten
+s&#229;dan, som i 18 &#167; avses, erfordras f&#246;r r&#228;ttshandlingens giltighet, att
+ej heller fullm&#228;ktigen &#228;gde eller bort &#228;ga s&#229;dan vetskap, d&#229; han f&#246;retog
+r&#228;ttshandlingen.
+
+R&#228;ttshandling, som, efter vad nu sagts, &#228;r g&#228;llande mot d&#246;dsboet, &#228;ge,
+d&#228;r den d&#246;des egendom varder avtr&#228;dd till konkurs, icke mot borgen&#228;rerna
+st&#246;rre verkan &#228;n den skulle haft, om den f&#246;retagits av
+st&#228;rbhusdel&#228;garne.
+
+22 &#167; Om fullmaktsgivaren f&#229;r en f&#246;rvaltare enligt f&#246;r&#228;ldrabalken, har en
+r&#228;ttshandling som fullm&#228;ktigen f&#246;retar och som omfattas av f&#246;rvaltarens
+uppdrag inte st&#246;rre verkan &#228;n den skulle ha haft, om fullmaktsgivaren
+sj&#228;lv hade f&#246;retagit r&#228;ttshandlingen. Lag (1988:1264).
+
+23 &#167;  Varder fullmaktsgivarens egendom avtr&#228;dd till konkurs, har
+r&#228;ttshandling, som fullm&#228;ktigen f&#246;retager, icke st&#246;rre verkan mot
+konkursboet &#228;n den skulle haft, om fullmaktsgivaren sj&#228;lv f&#246;retagit den.
+&#196;r fullmakten s&#229;dan som avses i 18 &#167;, kan r&#228;ttshandlingen ej g&#246;ras
+g&#228;llande mot boet, om fullm&#228;ktigen &#228;gde eller bort &#228;ga k&#228;nnedom om
+konkursen n&#228;r han f&#246;retog r&#228;ttshandlingen. Lag (1975:246).
+
+24 &#167; Utan hinder d&#228;rav att fullmaktsgivaren icke vidare r&#229;der &#246;ver sig
+och sitt gods, m&#229; fullm&#228;ktigen, intill dess erforderliga &#229;tg&#228;rder kunna
+vidtagas av den, som enligt lag &#228;ger handla &#229; fullmaktsgivarens v&#228;gnar,
+i kraft av fullmakten f&#246;retaga s&#229;dana r&#228;ttshandlingar, som &#228;ro n&#246;diga
+f&#246;r att skydda fullmaktsgivaren eller hans konkursbo mot f&#246;rlust.
+
+25 &#167; Den, som upptr&#228;der s&#229;som fullm&#228;ktig f&#246;r annan, ansvarar f&#246;r att han
+har erforderlig fullmakt och &#228;r f&#246;rty, d&#228;r han ej f&#246;rm&#229;r styrka, att han
+handlat efter fullmakt eller att den r&#228;ttshandling, varom fr&#229;ga &#228;r,
+blivit godk&#228;nd av den uppgivne huvudmannen eller &#228;ndock &#228;r g&#228;llande mot
+honom, pliktig att ers&#228;tta tredje man all skada, som denne lider
+d&#228;rigenom att han icke kan g&#246;ra r&#228;ttshandlingen g&#228;llande mot
+huvudmannen.
+
+Vad s&#229;lunda &#228;r stadgat skall dock icke &#228;ga till&#228;mpning, d&#228;r tredje man
+ins&#229;g eller bort inse, att fullmakt ej f&#246;refanns eller att f&#246;refintlig
+fullmakt &#246;verskreds; ej heller d&#228;r den, som f&#246;retog r&#228;ttshandlingen,
+handlade p&#229; grund av fullmakt, vilken i f&#246;ljd av n&#229;gon s&#228;rskild
+omst&#228;ndighet, varom han icke &#228;gde kunskap och varom tredje man ej heller
+kunde med fog f&#246;ruts&#228;tta, att han skulle hava k&#228;nnedom, icke kan g&#246;ras
+g&#228;llande mot huvudmannen.
+
+26 &#167; Vad h&#228;r ovan i detta kapitel &#228;r stadgat om fullmakt att f&#246;retaga
+r&#228;ttshandlingar skall &#228;ga motsvarande till&#228;mpning i fr&#229;ga om fullmakt
+att f&#246;retr&#228;da fullmaktsgivaren vid r&#228;ttshandlingar, som f&#246;retagas
+gentemot honom.
+
+27 &#167; I fr&#229;ga om &#229;terkallelse av prokura, som blivit till
+handelsregistret anm&#228;ld, skall vad i 13 och 19 &#167;&#167; handelsregisterlagen
+(1974:157) &#228;r stadgat l&#228;nda till efterr&#228;ttelse. Har &#229;terkallelsen blivit
+inf&#246;rd i handelsregistret och kungjord i Post- och Inrikes Tidningar, &#228;r
+firmans innehavare icke pliktig att j&#228;mv&#228;l p&#229; annat s&#228;tt &#229;terkalla
+fullmakten.
+
+Fullmakt att sluta avtal om k&#246;p, byte eller g&#229;va av fast egendom skall
+vara skriftlig. Har s&#229;dan fullmakt blivit, efter ty i 16 och 17 &#167;&#167; s&#228;gs,
+&#229;terkallad eller f&#246;r kraftl&#246;s f&#246;rklarad, vare fullmakten utan verkan.
+
+Genom vad h&#228;r ovan i detta kapitel stadgas d&#228;rom, att r&#228;ttshandling av
+fullm&#228;ktigen i vissa fall icke &#228;r g&#228;llande mot fullmaktsgivaren, sker ej
+&#228;ndring i vad 18 kap. 3 &#167; handelsbalken inneh&#229;ller ang&#229;ende verkan d&#228;rav
+att vad som genom s&#229;dan r&#228;ttshandling &#229;tkommits blivit anv&#228;nt till
+fullmaktsgivarens nytta. Lag (1977:672).
+
+3 kap. Om r&#228;ttshandlingars ogiltighet
+
+28 &#167; R&#228;ttshandling, den n&#229;gon blivit r&#228;ttsstridigt tvungen att f&#246;retaga,
+vare, d&#228;r tv&#229;nget ut&#246;vats genom v&#229;ld &#229; person eller genom hot, som
+inneb&#228;r tr&#228;ngande fara, icke g&#228;llande mot den tvungne.
+
+Har tv&#229;nget ut&#246;vats av annan &#228;n den, gent emot vilken r&#228;ttshandlingen
+f&#246;retogs, och var denne i god tro, &#229;ligger det dock den tvungne, d&#228;r han
+vill mot honom &#229;beropa tv&#229;nget, att utan osk&#228;ligt uppeh&#229;ll efter det
+tv&#229;nget upph&#246;rde giva honom meddelande d&#228;rom vid &#228;ventyr, om s&#229;dant
+underl&#229;tes, att r&#228;ttshandlingen varder g&#228;llande.
+
+29 &#167; R&#228;ttshandling, den n&#229;gon utan anv&#228;ndande av s&#229;dana tv&#229;ngsmedel, som
+i 28 &#167; avses, r&#228;ttsstridigt tvungit en annan att f&#246;retaga, vare ej
+g&#228;llande mot den tvungne, d&#228;r den, gentemot vilken r&#228;ttshandlingen
+f&#246;retogs, sj&#228;lv ut&#246;vat tv&#229;nget eller ock insett eller bort inse, att
+r&#228;ttshandlingen framkallats genom r&#228;ttsstridigt tv&#229;ng fr&#229;n annans sida.
+
+30 &#167; D&#228;r den, gent emot vilken en r&#228;ttshandling f&#246;retagits, framkallat
+densamma genom svikligt f&#246;rledande eller ock insett eller bort inse, att
+den, som f&#246;retog r&#228;ttshandlingen, blivit svikligen f&#246;rledd d&#228;rtill av
+annan, vare r&#228;ttshandlingen icke g&#228;llande mot den f&#246;rledde.
+
+Har den, gentemot vilken r&#228;ttshandlingen f&#246;retogs, svikligen uppgivit
+eller f&#246;rtegat omst&#228;ndigheter, som kunna antagas vara av betydelse f&#246;r
+r&#228;ttshandlingen, skall han anses hava d&#228;rigenom framkallat densamma,
+s&#229;framt det ej visas, att det svikliga f&#246;rfarandet icke inverkat &#229;
+r&#228;ttshandlingen.
+
+31 &#167; Har n&#229;gon begagnat sig av annans tr&#229;ngm&#229;l, of&#246;rst&#229;nd, l&#228;ttsinne
+eller beroende st&#228;llning till att taga eller betinga sig f&#246;rm&#229;ner, vilka
+st&#229; i uppenbart missf&#246;rh&#229;llande till det vederlag, som m&#229; hava blivit
+erlagt eller utf&#228;st, eller f&#246;r vilka n&#229;got vederlag icke skall utg&#229;,
+vare r&#228;ttshandling, som s&#229;lunda tillkommit, icke g&#228;llande mot den
+f&#246;rf&#246;rdelade.
+
+Lag samma vare, d&#228;r s&#229;dant otillb&#246;rligt f&#246;rfarande, som i f&#246;rsta stycket
+avses, ligger annan till last &#228;n den, gent emot vilken r&#228;ttshandlingen
+f&#246;retogs, och denne &#228;gde eller bort &#228;ga kunskap d&#228;rom.
+
+Om avtal r&#246;rande b&#228;rgning g&#228;lle vad s&#228;rskilt &#228;r stadgat. Lag (1987:329).
+
+32 &#167; Den, som avgivit en viljef&#246;rklaring, vilken i f&#246;ljd av felskrivning
+eller annat misstag &#229; hans sida f&#229;tt annat inneh&#229;ll &#228;n &#229;syftat varit,
+vare icke bunden av viljef&#246;rklaringens inneh&#229;ll, d&#228;r den, till vilken
+f&#246;rklaringen &#228;r riktad, ins&#229;g eller bort inse misstaget.
+
+Varder en avgiven viljef&#246;rklaring, som befordras genom telegram eller
+framf&#246;res muntligen genom bud, till f&#246;ljd av fel vid telegraferingen
+eller oriktigt &#229;tergivande genom budet till inneh&#229;llet f&#246;rvanskad, vare
+avs&#228;ndaren, &#228;nd&#229; att mottagaren var i god tro, icke bunden av
+f&#246;rklaringen i det skick den framkommit. Vill avs&#228;ndaren av anledning
+som nu sagts icke l&#229;ta f&#246;rklaringen g&#228;lla, &#229;ligger det honom dock att
+giva mottagaren meddelande d&#228;rom utan osk&#228;ligt uppeh&#229;ll efter det
+f&#246;rvanskningen kommit till hans kunskap; underl&#229;ter han det, och var
+mottagaren i god tro, vare f&#246;rklaringen g&#228;llande s&#229;dan den framkommit.
+
+33 &#167; R&#228;ttshandling, som eljest vore att s&#229;som giltig anse, m&#229; ej g&#246;ras
+g&#228;llande, d&#228;r omst&#228;ndigheterna vid dess tillkomst voro s&#229;dana, att det
+skulle strida mot tro och heder att med vetskap om dem &#229;beropa
+r&#228;ttshandlingen, och den, gentemot vilken r&#228;ttshandlingen f&#246;retogs,
+m&#229;ste antagas hava &#228;gt s&#229;dan vetskap.
+
+34 &#167; Har skuldebrev, kontrakt eller annan skriftlig handling uppr&#228;ttats
+f&#246;r skens skull, m&#229; utan hinder d&#228;rav fordran eller r&#228;ttighet, som den
+enligt handlingens inneh&#229;ll ber&#228;ttigade p&#229; grund av densamma &#246;verl&#229;tit &#229;
+annan, g&#246;ras g&#228;llande av f&#246;rv&#228;rvaren, s&#229;framt denne var i god tro vid
+sitt f&#246;rv&#228;rv.
+
+35 &#167; Har n&#229;gon underskrivit skuldebrev eller annan handling, som &#228;r
+g&#228;llande i innehavarens hand eller eljest av l&#246;pande beskaffenhet, vare
+handlingen, &#228;nd&#229; att den utan hans vilja kommit ur hans besittning,
+g&#228;llande mot honom, d&#228;r den efter &#246;verl&#229;telse f&#246;rv&#228;rvats av n&#229;gon, som
+d&#228;rvid var i god tro.
+
+&#196;r kvitto &#229; ett penningbelopp utan borgen&#228;rens vilja kommet ur hans
+besittning, vare utan hinder d&#228;rav betalning, som g&#228;lden&#228;ren, n&#228;r
+fordringen &#228;r f&#246;rfallen, i god tro erl&#228;gger mot bekommande av kvittot,
+g&#228;llande mot borgen&#228;ren.
+
+36 &#167; Avtalsvillkor f&#229;r j&#228;mkas eller l&#228;mnas utan avseende, om
+villkoret &#228;r osk&#228;ligt med h&#228;nsyn till avtalets inneh&#229;ll,
+omst&#228;ndigheterna vid avtalets tillkomst, senare intr&#228;ffade
+f&#246;rh&#229;llanden och omst&#228;ndigheterna i &#246;vrigt. Har villkoret s&#229;dan
+betydelse f&#246;r avtalet att det icke sk&#228;ligen kan kr&#228;vas att detta i
+&#246;vrigt skall g&#228;lla med of&#246;r&#228;ndrat inneh&#229;ll, f&#229;r avtalet j&#228;mkas &#228;ven i
+annat h&#228;nseende eller i sin helhet l&#228;mnas utan avseende.
+
+Vid pr&#246;vning enligt f&#246;rsta stycket skall s&#228;rskild h&#228;nsyn tagas till
+behovet av skydd f&#246;r den som i egenskap av konsument eller eljest
+intager en underl&#228;gsen st&#228;llning i avtalsf&#246;rh&#229;llandet.
+
+F&#246;rsta och andra styckena &#228;ga motsvarande till&#228;mpning i fr&#229;ga om
+villkor vid annan r&#228;ttshandling &#228;n avtal.
+
+I fr&#229;ga om j&#228;mkning av vissa avtalsvillkor i konsumentf&#246;rh&#229;llanden
+g&#228;ller dessutom 11 &#167; lagen (1994:1512) om avtalsvillkor i
+konsumentf&#246;rh&#229;llanden. Lag (1994:1513).
+
+37 &#167; F&#246;rbeh&#229;ll att pant eller annan s&#228;kerhet skall vara f&#246;rverkad, om
+den f&#246;rpliktelse f&#246;r vars fullg&#246;rande s&#228;kerheten st&#228;llts icke r&#228;tteligen
+fullg&#246;res, &#228;r utan verkan. Lag (1976:185).
+
+38 &#167; Har n&#229;gon f&#246;r att f&#246;rebygga konkurrens betingat sig av annan att
+denne icke skall bedriva verksamhet av visst slag eller icke taga
+anst&#228;llning hos n&#229;gon som bedriver s&#229;dan verksamhet, &#228;r den som gjort
+utf&#228;stelsen icke bunden d&#228;rav i den m&#229;n utf&#228;stelsen str&#228;cker sig l&#228;ngre
+&#228;n vad som kan anses sk&#228;ligt. Lag (1976:185).
+
+4 kap. Allm&#228;nna best&#228;mmelser
+
+39 &#167; &#196;r enligt denna lag giltigheten av avtal eller annan r&#228;ttshandling
+beroende d&#228;rav att den, gentemot vilken r&#228;ttshandlingen f&#246;retogs, icke
+&#228;gde eller bort &#228;ga vetskap om visst f&#246;rh&#229;llande eller eljest var i god
+tro, skall h&#228;nsyn tagas till vad han ins&#229;g eller bort inse vid den
+tidpunkt, d&#229; r&#228;ttshandlingen blev honom kunnig. Dock m&#229;, d&#228;r s&#228;rskilda
+omst&#228;ndigheter s&#229;dant f&#246;ranleda, h&#228;nsyn j&#228;mv&#228;l tagas till den insikt han
+vunnit eller bort vinna efter n&#228;mnda tidpunkt, men innan r&#228;ttshandlingen
+inverkat best&#228;mmande p&#229; hans handlingss&#228;tt.
+
+40 &#167; Skall n&#229;gon enligt denna lag giva annan ett meddelande, vid &#228;ventyr
+att eljest avtal anses slutet eller anbud antaget eller r&#228;ttshandling,
+som av honom eller &#229; hans v&#228;gnar f&#246;retagits, bliver mot honom g&#228;llande,
+och varder s&#229;dant meddelande inl&#228;mnat f&#246;r befordran med post eller
+telegraf eller eljest p&#229; &#228;ndam&#229;lsenligt s&#228;tt avs&#228;nt, m&#229; ej den
+omst&#228;ndigheten, att meddelandet f&#246;rsenas eller icke kommer fram,
+f&#246;ranleda d&#228;rtill att avs&#228;ndaren icke anses hava fullgjort vad honom
+&#229;ligger.
+
+I fr&#229;ga om &#229;terkallelse av anbud eller svar eller av fullmakt g&#228;ller vad
+i 7, 13 och 18 &#167;&#167; &#228;r stadgat.
+
+41 &#167; Genom denna lag upph&#228;vas 1 kap. 1 &#167; och 9 kap. 9 &#167; handelsbalken, 2
+och 3 &#167;&#167; i lagen d. 14 juni 1901 ang&#229;ende ocker samt vad i &#246;vrigt finnes
+i lag eller s&#228;rskild f&#246;rfattning stadgat stridande mot h&#228;r ovan givna
+best&#228;mmelser.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1987:329
+
+Denna lag tr&#228;der i kraft den 1 juli 1987. Har en r&#228;ttshandling
+tillkommit f&#246;re ikrafttr&#228;dandet till&#228;mpas 31 &#167; i dess &#228;ldre lydelse.
+
+1994:1513
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1995.
+
+2. Den nya best&#228;mmelsen till&#228;mpas &#228;ven p&#229; r&#228;ttshandlingar som
+har f&#246;retagits f&#246;re ikrafttr&#228;dandet.
+
+3. M&#229;l som vid ikrafttr&#228;dandet &#228;r anh&#228;ngigt vid domstol pr&#246;vas
+enligt &#228;ldre best&#228;mmelser.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4579">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4581">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,886 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-07-24" /> 
+ <meta id="rattsinfo-edited" content="2023-07-24 09:29:14" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2493</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2492">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2494">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2003:460 ·
+                    <a href="/sfsr?bet=2003:460">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2003:460) om etikpr&#246;vning av forskning som avser m&#228;nniskor</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Utbildningsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2003-06-05
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:39
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2004-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om etikpr&#246;vning av
+forskning som avser m&#228;nniskor och biologiskt material fr&#229;n
+m&#228;nniskor. Den inneh&#229;ller ocks&#229; best&#228;mmelser om samtycke till
+s&#229;dan forskning.
+
+Syftet med lagen &#228;r att skydda den enskilda m&#228;nniskan och
+respekten f&#246;r m&#228;nniskov&#228;rdet vid forskning.
+
+Definitioner
+
+2 &#167; I denna lag avses med 
+
+forskning: vetenskapligt experimentellt eller teoretiskt 
+arbete eller vetenskapliga studier genom observation, om 
+arbetet eller studierna g&#246;rs f&#246;r att h&#228;mta in ny kunskap, och 
+utvecklingsarbete p&#229; vetenskaplig grund, dock inte s&#229;dant 
+arbete eller s&#229;dana studier som utf&#246;rs endast inom ramen f&#246;r 
+h&#246;gskoleutbildning p&#229; grundniv&#229; eller p&#229; avancerad niv&#229;, 
+
+forskningshuvudman: en statlig myndighet eller en fysisk eller 
+juridisk person i vars verksamhet forskningen utf&#246;rs, 
+
+forskningsperson: en levande m&#228;nniska som forskningen avser, 
+och
+
+behandling av personuppgifter: s&#229;dan behandling som anges i 
+artikel 4.2 i Europaparlamentets och r&#229;dets f&#246;rordning (EU) 
+2016/679 av den 27 april 2016 om skydd f&#246;r fysiska personer 
+med avseende p&#229; behandling av per-sonuppgifter och om det fria 
+fl&#246;det av s&#229;dana uppgifter och om upph&#228;vande av direktiv 
+95/46/EG (allm&#228;n dataskyddsf&#246;rordning), h&#228;r ben&#228;mnd EU:s 
+dataskyddsf&#246;rordning. Lag (2019:1144).
+
+Till&#228;mpningsomr&#229;de
+
+Forskning som omfattas av lagen
+
+3 &#167; Denna lag ska till&#228;mpas p&#229; forskning som innefattar 
+behandling av
+
+1. personuppgifter som avses i artikel 9.1 i EU:s 
+dataskyddsf&#246;rordning (k&#228;nsliga personuppgifter), eller
+
+2. personuppgifter om lag&#246;vertr&#228;delser som innefattar brott, 
+domar i brottm&#229;l, straffprocessuella tv&#229;ngsmedel eller 
+administrativa frihetsber&#246;vanden. Lag (2018:1999).
+
+4 &#167; Ut&#246;ver vad som f&#246;ljer av 3 &#167; ska lagen till&#228;mpas p&#229;
+forskning som
+
+1. inneb&#228;r ett fysiskt ingrepp p&#229; en forskningsperson,
+
+2. utf&#246;rs enligt en metod som syftar till att p&#229;verka
+forskningspersonen fysiskt eller psykiskt eller som inneb&#228;r en
+uppenbar risk att skada forskningspersonen fysiskt eller
+psykiskt,
+
+3. avser studier p&#229; biologiskt material som har tagits fr&#229;n en
+levande m&#228;nniska och kan h&#228;rledas till denna m&#228;nniska,
+
+4. inneb&#228;r ett fysiskt ingrepp p&#229; en avliden m&#228;nniska, eller
+
+5. avser studier p&#229; biologiskt material som har tagits f&#246;r
+medicinskt &#228;ndam&#229;l fr&#229;n en avliden m&#228;nniska och kan h&#228;rledas
+till denna m&#228;nniska. Lag (2008:192).
+
+4 a &#167; Lagen ska inte till&#228;mpas p&#229; 
+
+1. kliniska pr&#246;vningar enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2017/745 av den 5 april 2017 om 
+medicintekniska produkter, om &#228;ndring av direktiv 2001/83/EG, 
+f&#246;rordning (EG) nr 178/2002 och f&#246;rordning (EG) nr 1223/2009 
+och om upph&#228;vande av r&#229;dets direktiv 90/385/EEG och 93/42/EEG, 
+eller 
+
+2. prestandastudier enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2017/746 av den 5 april 2017 om 
+medicintekniska produkter f&#246;r in vitro-diagnostik och om 
+upph&#228;vande av direktiv 98/79/EG och kommissionens beslut 
+2010/227/EU. 
+
+Lagen ska dock till&#228;mpas p&#229; s&#229;dana studier f&#246;r klinisk 
+uppf&#246;ljning efter utsl&#228;ppandet p&#229; marknaden som inte kr&#228;ver 
+anm&#228;lan enligt artikel 74 i f&#246;rordning (EU) 2017/745 och 
+s&#229;dana prestandastudier avseende CE-m&#228;rkta produkter som inte 
+kr&#228;ver anm&#228;lan enligt artikel 70 i f&#246;rordning (EU) 2017/746, 
+om dessa studier i &#246;vrigt omfattas av lagens 
+till&#228;mpningsomr&#229;de.
+
+Best&#228;mmelser om etisk granskning av s&#229;dana pr&#246;vningar och 
+studier som avses i f&#246;rsta stycket finns i lagen (2021:603) 
+med kompletterande best&#228;mmelser om etisk granskning till EU:s 
+f&#246;rordningar om medicintekniska produkter. Lag (2021:612).
+
+4 b &#167; Lagen ska inte till&#228;mpas p&#229; kliniska pr&#246;vningar av 
+humanl&#228;kemedel. Best&#228;mmelser om etisk granskning av s&#229;dana 
+pr&#246;vningar finns i lagen (2018:1091) med kompletterande 
+best&#228;mmelser om etisk granskning till EU:s f&#246;rordning om 
+kliniska pr&#246;vningar av humanl&#228;kemedel. Lag (2021:611).
+
+Geografiskt till&#228;mpningsomr&#229;de
+
+5 &#167; Denna lag skall till&#228;mpas p&#229; forskning som skall utf&#246;ras i
+Sverige.
+
+Godk&#228;nnande
+
+6 &#167; Forskning som avses i 3-5 &#167;&#167; f&#229;r utf&#246;ras bara om den har 
+godk&#228;nts vid en etikpr&#246;vning. Ett godk&#228;nnande f&#229;r f&#246;renas med 
+villkor. Ett godk&#228;nnande ska avse ett visst projekt eller en 
+del av ett projekt eller en p&#229; n&#229;got liknande s&#228;tt best&#228;md 
+forskning. Forskningen f&#229;r innefatta behandling av s&#229;dana per-
+sonuppgifter som avses i 3 &#167; bara om behandlingen har godk&#228;nts 
+vid etikpr&#246;vningen. 
+
+En forskningshuvudman ska vidta &#229;tg&#228;rder f&#246;r att f&#246;rebygga att 
+forskning i den egna verksamheten utf&#246;rs i strid med f&#246;rsta 
+stycket eller i strid med ett villkor som har meddelats med 
+st&#246;d av f&#246;rsta stycket. 
+
+Ett godk&#228;nnande upph&#246;r att g&#228;lla, om inte forskningen har 
+b&#246;rjat utf&#246;ras senast tv&#229; &#229;r efter det att beslutet om 
+godk&#228;nnande vann laga kraft. 
+
+Ett godk&#228;nnande enligt denna lag medf&#246;r inte att forskningen 
+f&#229;r utf&#246;ras, om den strider mot n&#229;gon annan f&#246;rfattning. 
+Lag (2019:1144).
+
+Utg&#229;ngspunkter f&#246;r etikpr&#246;vningen
+
+7 &#167; Forskning f&#229;r godk&#228;nnas bara om den kan utf&#246;ras med respekt
+f&#246;r m&#228;nniskov&#228;rdet.
+
+8 &#167; M&#228;nskliga r&#228;ttigheter och grundl&#228;ggande friheter skall
+alltid beaktas vid etikpr&#246;vningen samtidigt som h&#228;nsyn skall
+tas till intresset av att ny kunskap kan utvecklas genom
+forskning. M&#228;nniskors v&#228;lf&#228;rd skall ges f&#246;retr&#228;de framf&#246;r
+samh&#228;llets och vetenskapens behov.
+
+9 &#167; Forskning f&#229;r godk&#228;nnas bara om de risker som den kan
+medf&#246;ra f&#246;r forskningspersoners h&#228;lsa, s&#228;kerhet och personliga
+integritet uppv&#228;gs av dess vetenskapliga v&#228;rde.
+
+10 &#167; Forskning f&#229;r inte godk&#228;nnas, om det f&#246;rv&#228;ntade resultatet
+kan uppn&#229;s p&#229; ett annat s&#228;tt som inneb&#228;r mindre risker f&#246;r
+forskningspersoners h&#228;lsa, s&#228;kerhet och personliga integritet.
+
+Behandling av personuppgifter som avses i 3 &#167; f&#229;r godk&#228;nnas
+bara om den &#228;r n&#246;dv&#228;ndig f&#246;r att forskningen skall kunna
+utf&#246;ras.
+
+11 &#167; Forskning f&#229;r godk&#228;nnas bara om den skall utf&#246;ras av eller
+under &#246;verinseende av en forskare som har den vetenskapliga
+kompetens som beh&#246;vs.
+
+11 a &#167; Har upph&#228;vts genom lag (2018:1092).
+
+12 &#167; Har upph&#228;vts genom lag (2018:1999).
+
+Information och samtycke
+
+13 &#167; Vid forskning som avses i 4 &#167; 1-3 skall best&#228;mmelserna i
+16-22 &#167;&#167; om information och samtycke till&#228;mpas. F&#246;r forskning
+som avses i 4 &#167; 3 g&#228;ller dock i vissa fall s&#228;rskilda
+best&#228;mmelser i 15 &#167;. Om det i n&#229;gon annan f&#246;rfattning finns
+s&#228;rskilda f&#246;reskrifter om information och samtycke vid
+forskning som avses i 4 &#167; 1-3, skall de f&#246;reskrifterna g&#228;lla i
+st&#228;llet f&#246;r best&#228;mmelserna i den h&#228;r lagen.
+
+Vid forskning som avses i 4 &#167; 4 och 5 skall best&#228;mmelserna om
+information och samtycke i lagen (1995:831) om transplantation
+m.m. respektive lagen (1995:832) om obduktion m.m. till&#228;mpas i
+st&#228;llet f&#246;r best&#228;mmelserna i den h&#228;r lagen.
+
+S&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r godk&#228;nnande
+
+14 &#167; Forskning som avses i 4 &#167; f&#229;r godk&#228;nnas bara om det kan
+f&#246;ruts&#228;ttas att till&#228;mpliga best&#228;mmelser om information och
+samtycke kommer att f&#246;ljas eller om f&#246;ruts&#228;ttningarna f&#246;r
+forskning utan samtycke i 20-22 &#167;&#167; &#228;r uppfyllda.
+
+Om en forskningsperson st&#229;r i ett beroendef&#246;rh&#229;llande till
+forskningshuvudmannen eller en forskare eller om
+forskningspersonen kan antas ha s&#228;rskilda sv&#229;righeter att ta
+till vara sin r&#228;tt, skall fr&#229;gor om information och samtycke
+&#228;gnas s&#228;rskild uppm&#228;rksamhet vid etikpr&#246;vningen.
+
+15 &#167; Om forskning avser studier p&#229; biologiskt material som
+tidigare har tagits fr&#229;n en levande m&#228;nniska, skall det vid ett
+godk&#228;nnande best&#228;mmas vilka krav som skall g&#228;lla i fr&#229;ga om
+information och samtycke f&#246;r anv&#228;ndning av materialet.
+
+Information
+
+16 &#167; Forskningspersonen skall informeras om
+
+- den &#246;vergripande planen f&#246;r forskningen,
+
+- syftet med forskningen,
+
+- de metoder som kommer att anv&#228;ndas,
+
+- de f&#246;ljder och risker som forskningen kan medf&#246;ra,
+
+- vem som &#228;r forskningshuvudman,
+
+- att deltagande i forskningen &#228;r frivilligt, och
+
+- forskningspersonens r&#228;tt att n&#228;r som helst avbryta sin
+medverkan.
+
+Om forskningspersonen inte har fyllt 18 &#229;r g&#228;ller vad som s&#228;gs
+i 18 &#167;.
+
+Samtycke
+
+17 &#167; Forskning f&#229;r utf&#246;ras bara om forskningspersonen har
+samtyckt till den forskning som avser henne eller honom. Ett
+samtycke g&#228;ller bara om forskningspersonen dessf&#246;rinnan har
+f&#229;tt information om forskningen enligt 16 &#167;. Samtycket skall
+vara frivilligt, uttryckligt och preciserat till viss
+forskning. Samtycket skall dokumenteras.
+
+Om forskningspersonen inte har fyllt 18 &#229;r g&#228;ller vad som s&#228;gs
+i 18 &#167;.
+
+Forskningspersoner under 18 &#229;r
+
+18 &#167; Om forskningspersonen har fyllt 15 &#229;r men inte 18 &#229;r och
+inser vad forskningen inneb&#228;r f&#246;r hans eller hennes del, skall
+han eller hon sj&#228;lv informeras om och samtycka till forskningen
+p&#229; det s&#228;tt som anges i 16 och 17 &#167;&#167;.
+
+I andra fall n&#228;r forskningspersonen inte har fyllt 18 &#229;r, skall
+v&#229;rdnadshavarna informeras om och samtycka till forskningen p&#229;
+det s&#228;tt som anges i 16 och 17 &#167;&#167;. Forskningspersonen sj&#228;lv
+skall dock s&#229; l&#229;ngt m&#246;jligt informeras om forskningen. Trots
+v&#229;rdnadshavarnas samtycke f&#229;r forskningen inte utf&#246;ras om en
+forskningsperson som &#228;r under 15 &#229;r inser vad den inneb&#228;r f&#246;r
+hans eller hennes del och mots&#228;tter sig att den utf&#246;rs.
+
+I fr&#229;ga om en forskningsperson som &#228;r gift till&#228;mpas vad som
+f&#246;reskrivs f&#246;r den som har fyllt 18 &#229;r.
+
+&#197;tertagande av samtycke
+
+19 &#167; Ett samtycke f&#229;r n&#228;r som helst tas tillbaka med omedelbar
+verkan. De data som har h&#228;mtats in dessf&#246;rinnan f&#229;r dock
+anv&#228;ndas i forskningen.
+
+Forskning utan samtycke
+
+20 &#167; Forskning f&#229;r utf&#246;ras utan samtycke, om sjukdom, psykisk
+st&#246;rning, f&#246;rsvagat h&#228;lsotillst&#229;nd eller n&#229;got annat liknande
+f&#246;rh&#229;llande hos forskningspersonen hindrar att hans eller
+hennes mening inh&#228;mtas. Forskningen f&#229;r dock utf&#246;ras bara under
+de f&#246;ruts&#228;ttningar som anges i 21 och 22 &#167;&#167;.
+
+21 &#167; Forskning avseende en forskningsperson som s&#228;gs i 20 &#167; f&#229;r
+utf&#246;ras om
+
+1. forskningen kan f&#246;rv&#228;ntas ge en kunskap som inte &#228;r m&#246;jlig
+att f&#229; genom forskning med samtycke, och
+
+2. forskningen kan f&#246;rv&#228;ntas leda till direkt nytta f&#246;r
+forskningspersonen.
+
+&#196;ven om villkoret i f&#246;rsta stycket 2 inte &#228;r uppfyllt f&#229;r
+forskningen utf&#246;ras om
+
+1. syftet &#228;r att bidra till ett resultat som kan vara till
+nytta f&#246;r forskningspersonen eller n&#229;gon annan som lider av
+samma eller liknande sjukdom eller st&#246;rning, och
+
+2. forskningen inneb&#228;r en obetydlig risk f&#246;r skada och ett
+obetydligt obehag f&#246;r forskningspersonen.
+
+22 &#167; En forskningsperson som s&#228;gs i 20 &#167; skall s&#229; l&#229;ngt m&#246;jligt
+informeras personligen om forskningen. Samr&#229;d skall ske med
+forskningspersonens n&#228;rmaste anh&#246;riga. Samr&#229;d skall ske ocks&#229;
+med god man eller f&#246;rvaltare enligt 11 kap. f&#246;r&#228;ldrabalken, om
+fr&#229;gan ing&#229;r i dennes uppdrag. Forskningen f&#229;r inte utf&#246;ras om
+forskningspersonen i n&#229;gon form ger uttryck f&#246;r att inte vilja
+delta eller om n&#229;gon av dem som samr&#229;d har skett med mots&#228;tter
+sig utf&#246;randet.
+
+Ans&#246;kan
+
+23 &#167; Ans&#246;kan om etikpr&#246;vning av forskning ska g&#246;ras av 
+forskningshuvudmannen. 
+
+N&#228;r flera forskningshuvudm&#228;n medverkar i ett och samma 
+forskningsprojekt ska de gemensamt uppdra &#229;t en av dem att 
+ans&#246;ka om etikpr&#246;vning av projektet f&#246;r allas r&#228;kning och att 
+informera de &#246;vriga om Etikpr&#246;vningsmyndighetens beslut.
+Lag (2019:1144).
+
+Etikpr&#246;vningsmyndigheten
+
+Uppgifter
+
+24 &#167; Etikpr&#246;vningsmyndigheten ska pr&#246;va ans&#246;kningar som anges 
+i 23 &#167;.
+
+Myndigheten ska &#228;ven pr&#246;va vissa fr&#229;gor i samband med 
+insamling, bevarande och anv&#228;ndning av prover enligt 
+biobankslagen (2023:38). Lag (2023:39).
+
+24 a &#167; Etikpr&#246;vningsmyndigheten ska ocks&#229; l&#228;mna 
+
+- s&#229;dana yttranden som anges i 3 &#167; lagen (2018:1091) med 
+kompletterande best&#228;mmelser om etisk granskning till EU:s 
+f&#246;rordning om kliniska pr&#246;vningar av humanl&#228;kemedel, och 
+
+- s&#229;dana yttranden som anges i 4 &#167; lagen (2021:603) med 
+kompletterande best&#228;mmelser om etisk granskning till EU:s 
+f&#246;rordningar om medicintekniska produkter och fatta s&#229;dana 
+beslut som anges i 5 &#167; samma lag. Lag (2021:612).
+
+Verksamhetsregioner och avdelningar
+
+25 &#167; Etikpr&#246;vningsmyndigheten ska vara indelad i 
+verksamhetsregioner. Varje verksamhetsregion ska ha en eller 
+flera avdelningar. En avdelning ska pr&#246;va &#228;renden inom vissa 
+forskningsomr&#229;den. 
+
+En avdelning ska best&#229; av en ordf&#246;rande och femton &#246;vriga 
+ledam&#246;ter. Av de &#246;vriga ledam&#246;terna ska tio ha vetenskaplig 
+kompetens och fem f&#246;retr&#228;da allm&#228;nna intressen. Det f&#229;r utses 
+ers&#228;ttare f&#246;r ledam&#246;terna. Ordf&#246;randen och ers&#228;ttare f&#246;r 
+ordf&#246;randen ska vara eller ha varit ordinarie domare. 
+
+Ordf&#246;randen och ers&#228;ttare f&#246;r ordf&#246;randen ska utses av 
+regeringen. &#214;vriga ledam&#246;ter och ers&#228;ttare ska utses av 
+Etikpr&#246;vningsmyndigheten. Samtliga ledam&#246;ter och ers&#228;ttare 
+ska utses f&#246;r en best&#228;md tid. Lag (2018:147).
+
+25 a &#167; Vid de avdelningar som utf&#246;r etisk granskning enligt 
+lagen (2021:603) med kompletterande best&#228;mmelser om etisk 
+granskning till EU:s 
+
+f&#246;rordningar om medicintekniska produkter ska minst en av de 
+ledam&#246;ter som f&#246;retr&#228;der allm&#228;nna intressen representera en 
+eller flera patientorganisationer. Lag (2021:612).
+
+25 b &#167; Vid de avdelningar som utf&#246;r etisk granskning enligt 
+lagen (2018:1091) med kompletterande best&#228;mmelser om etisk 
+granskning till EU:s f&#246;rordning om kliniska pr&#246;vningar av 
+humanl&#228;kemedel ska minst en av de ledam&#246;ter som f&#246;retr&#228;der 
+allm&#228;nna intressen representera en eller flera 
+patientorganisationer. Lag (2021:611).
+
+Beslutsf&#246;rhet
+
+26 &#167; En avdelning inom Etikpr&#246;vningsmyndigheten &#228;r 
+beslutsf&#246;r, n&#228;r ordf&#246;randen och minst &#229;tta &#246;vriga ledam&#246;ter 
+&#228;r n&#228;rvarande. Av de &#246;vriga ledam&#246;terna ska minst fem ha 
+vetenskaplig kompetens och minst tv&#229; f&#246;retr&#228;da allm&#228;nna 
+intressen. Ledam&#246;ter med vetenskaplig kompetens ska alltid 
+vara i flertal, n&#228;r ett &#228;rende avg&#246;rs. Lag (2018:147).
+
+27 &#167; En avdelning &#228;r beslutsf&#246;r med ordf&#246;randen ensam vid 
+
+– f&#246;rberedande &#229;tg&#228;rd, 
+
+– r&#228;ttelse av skrivfel och liknande, 
+
+– annat beslut som inte inneb&#228;r n&#229;got slutligt avg&#246;rande av 
+ett &#228;rende, och 
+
+– pr&#246;vning av fr&#229;ga om avvisning eller avskrivning av &#228;rende. 
+
+Ordf&#246;randen f&#229;r l&#228;mna &#246;ver s&#229;dana uppgifter som avses i 
+f&#246;rsta stycket till en f&#246;redragande vid avdelningen.
+
+En avdelning f&#229;r l&#228;mna &#246;ver till ordf&#246;randen eller n&#229;gon 
+annan ledamot att efter pr&#246;vning i sak avg&#246;ra ett visst 
+&#228;rende eller &#228;renden som &#228;r s&#229;dana att tidigare v&#228;gledande 
+avg&#246;randen kan till&#228;mpas eller som annars &#228;r av s&#229;dant slag 
+att de inte beh&#246;ver avg&#246;ras av avdelningen. Lag (2018:147).
+
+Remiss
+
+28 &#167; Om Etikpr&#246;vningsmyndigheten finner att forskningen ger 
+upphov till etiska fr&#229;gor av ny och principiell karakt&#228;r, b&#246;r 
+myndigheten inh&#228;mta yttranden fr&#229;n Vetenskapsr&#229;det och andra 
+ber&#246;rda myndigheter. Lag (2018:147).
+
+&#214;verl&#228;mnande
+
+29 &#167; Om en avdelning inom Etikpr&#246;vningsmyndigheten &#228;r oenig 
+om utg&#229;ngen av etikpr&#246;vningen, ska myndigheten l&#228;mna &#246;ver 
+&#228;rendet f&#246;r avg&#246;rande av den n&#228;mnd som avses i 31 &#167;. Detta 
+g&#228;ller dock bara om minst tre ledam&#246;ter beg&#228;r att &#228;rendet ska 
+l&#228;mnas &#246;ver. Om endast nio ledam&#246;ter deltar i pr&#246;vningen, ska 
+&#228;rendet dock l&#228;mnas &#246;ver, om minst tv&#229; ledam&#246;ter beg&#228;r det.
+
+N&#228;r Etikpr&#246;vningsmyndigheten l&#228;mnar &#246;ver ett &#228;rende till 
+n&#228;mnden ska den bifoga ett eget yttrande. Lag (2018:147).
+
+Beslut
+
+30 &#167; Ett beslut av Etikpr&#246;vningsmyndigheten g&#228;ller 
+omedelbart, om inte myndigheten beslutar n&#229;got annat.
+Lag (2018:147).
+
+&#214;verklaganden&#228;mnden f&#246;r etikpr&#246;vning
+
+Uppgifter
+
+31 &#167; &#214;verklaganden&#228;mnden f&#246;r etikpr&#246;vning ska pr&#246;va 
+&#246;verklaganden av 
+
+- s&#229;dana beslut av Etikpr&#246;vningsmyndigheten som anges i 36 &#167;, 
+och
+
+- s&#229;dana beslut av Etikpr&#246;vningsmyndigheten som anges i 7 &#167; 
+lagen (2021:603) med kompletterande best&#228;mmelser om etisk 
+granskning till EU:s f&#246;rordningar om medicintekniska 
+produkter.
+
+N&#228;mnden ska &#228;ven pr&#246;va &#228;renden som Etikpr&#246;vningsmyndigheten 
+har l&#228;mnat &#246;ver enligt 29 &#167; och ut&#246;va tillsyn enligt 34 och 
+35 &#167;&#167;. N&#228;mnden har ocks&#229; till uppgift att pr&#246;va vissa fr&#229;gor i 
+samband med insamling, bevarande och anv&#228;ndning av prover 
+enligt biobankslagen (2023:38). Lag (2023:39).
+
+Sammans&#228;ttning
+
+32 &#167; &#214;verklaganden&#228;mnden f&#246;r etikpr&#246;vning ska best&#229; av en 
+ordf&#246;rande och sex &#246;vriga ledam&#246;ter. Av de &#246;vriga ledam&#246;terna 
+ska fyra ha vetenskaplig kompetens och tv&#229; f&#246;retr&#228;da allm&#228;nna 
+intressen. Det f&#229;r utses ers&#228;ttare f&#246;r ledam&#246;terna. 
+Ordf&#246;randen och ers&#228;ttare f&#246;r ordf&#246;randen ska vara eller ha 
+varit ordinarie domare. 
+
+Alla ledam&#246;ter och ers&#228;ttare ska utses av regeringen f&#246;r en 
+best&#228;md tid. Lag (2018:147).
+
+Beslutsf&#246;rhet
+
+33 &#167; &#214;verklaganden&#228;mnden f&#246;r etikpr&#246;vning &#228;r beslutsf&#246;r, n&#228;r 
+ordf&#246;randen och minst tre ledam&#246;ter med vetenskaplig 
+kompetens och minst en f&#246;retr&#228;dare f&#246;r allm&#228;nna intressen &#228;r 
+n&#228;rvarande. Ledam&#246;terna med vetenskaplig kompetens ska alltid 
+vara i flertal, n&#228;r ett &#228;rende avg&#246;rs.
+
+N&#228;mnden &#228;r beslutsf&#246;r med ordf&#246;randen ensam vid 
+
+– f&#246;rberedande &#229;tg&#228;rd, 
+
+– r&#228;ttelse av skrivfel och liknande, 
+
+– annat beslut som inte inneb&#228;r n&#229;got slutligt avg&#246;rande av 
+ett &#228;rende, och 
+
+– pr&#246;vning av fr&#229;ga om avvisning eller avskrivning av ett 
+&#228;rende.
+
+Ordf&#246;randen f&#229;r l&#228;mna &#246;ver s&#229;dana uppgifter som avses i andra 
+stycket till en f&#246;redragande vid n&#228;mnden. Lag (2018:147).
+
+Tillsyn
+
+34 &#167; &#214;verklaganden&#228;mnden f&#246;r etikpr&#246;vning har tillsyn &#246;ver att 
+denna lag, f&#246;reskrifter som har meddelats med st&#246;d av lagen 
+och villkor som har meddelats i samband med godk&#228;nnande vid 
+etikpr&#246;vning f&#246;ljs. 
+
+&#214;verklaganden&#228;mnden f&#246;r etikpr&#246;vning f&#229;r best&#228;mma att ett 
+tillsynsbeslut ska g&#228;lla omedelbart. Lag (2019:1144).
+
+35 &#167; &#214;verklaganden&#228;mnden f&#246;r etikpr&#246;vning har r&#228;tt att p&#229; 
+beg&#228;ran f&#229; de upplysningar och handlingar som beh&#246;vs f&#246;r 
+tillsynen samt f&#229; tilltr&#228;de till de lokaler som anv&#228;nds vid 
+forskningen. Forskningshuvudmannen ska p&#229; beg&#228;ran ge n&#228;mnden 
+den hj&#228;lp som beh&#246;vs f&#246;r att tillsynen ska kunna utf&#246;ras. 
+
+N&#228;mnden f&#229;r meddela de f&#246;rel&#228;gganden och f&#246;rbud som beh&#246;vs 
+f&#246;r att denna lag och f&#246;reskrifter som har meddelats med st&#246;d 
+av lagen ska f&#246;ljas. N&#228;mnden f&#229;r utf&#228;rda f&#246;rel&#228;gganden ocks&#229; 
+n&#228;r upplysningar eller handlingar inte l&#228;mnas eller n&#228;r 
+tilltr&#228;de eller hj&#228;lp v&#228;gras. Ett f&#246;rel&#228;ggande eller ett 
+f&#246;rbud f&#229;r f&#246;renas med vite. Ett s&#229;dant f&#246;rel&#228;ggande eller 
+f&#246;rbud kan riktas &#228;ven mot staten som forskningshuvudman.
+
+N&#228;mnden &#228;r skyldig att g&#246;ra en &#229;talsanm&#228;lan, om det finns 
+sk&#228;lig misstanke om brott som avses i 38 &#167;. 
+Lag (2018:147).
+
+&#214;verklagande
+
+36 &#167; Etikpr&#246;vningsmyndighetens beslut i ett &#228;rende om 
+etikpr&#246;vning f&#229;r &#246;verklagas till &#214;verklaganden&#228;mnden f&#246;r 
+etikpr&#246;vning av forskningshuvudmannen, om 
+Etikpr&#246;vningsmyndigheten har avgjort &#228;rendet och beslutet har 
+g&#229;tt huvudmannen emot. Andra beslut av 
+Etikpr&#246;vningsmyndigheten i &#228;renden om etikpr&#246;vning f&#229;r inte 
+&#246;verklagas. Lag (2018:147).
+
+37 &#167; Beslut av &#214;verklaganden&#228;mnden f&#246;r etikpr&#246;vning i &#228;renden 
+om etikpr&#246;vning f&#229;r inte &#246;verklagas. 
+
+Beslut av n&#228;mnden om f&#246;rel&#228;ggande eller f&#246;rbud enligt 35 &#167; 
+f&#229;r &#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. Andra beslut 
+i tillsyns&#228;renden f&#229;r inte &#246;verklagas.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till 
+kammarr&#228;tten. Lag (2018:147).
+
+Straff
+
+38 &#167; Den som med upps&#229;t bryter mot 6 &#167; f&#246;rsta stycket eller 
+mot ett villkor som har meddelats med st&#246;d av 6 &#167; f&#246;rsta 
+stycket d&#246;ms till b&#246;ter eller f&#228;ngelse i h&#246;gst tv&#229; &#229;r. 
+
+Detsamma g&#228;ller den som med upps&#229;t l&#229;ter bli att vidta de 
+&#229;tg&#228;rder som sk&#228;ligen kunnat kr&#228;vas enligt 6 &#167; andra stycket, 
+om forskning i den egna verksamheten utf&#246;rs i strid med 6 &#167; 
+f&#246;rsta stycket eller ett villkor som har meddelats med st&#246;d av 
+6 &#167; f&#246;rsta stycket. 
+
+Om g&#228;rningen enligt f&#246;rsta eller andra stycket beg&#229;s av grov 
+oaktsamhet d&#246;ms till b&#246;ter eller f&#228;ngelse i h&#246;gst sex m&#229;nader. 
+
+I ringa fall d&#246;ms det inte till ansvar. 
+
+Den som har &#246;vertr&#228;tt ett vitesf&#246;rel&#228;ggande enligt 35 &#167; f&#229;r 
+inte d&#246;mas till ansvar f&#246;r en g&#228;rning som omfattas av 
+f&#246;rel&#228;ggandet. Lag (2019:1144).
+
+Bemyndiganden
+
+39 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+f&#229;r meddela f&#246;reskrifter om avgift f&#246;r etikpr&#246;vning enligt
+denna lag.
+
+40 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+f&#229;r f&#246;reskriva om undantag fr&#229;n kravet p&#229; godk&#228;nnande vid
+etikpr&#246;vning f&#246;r forskning eller av behandling av
+personuppgifter, d&#228;r det st&#229;r klart att forskningen inte
+inneb&#228;r n&#229;gon beaktansv&#228;rd risk f&#246;r enskilds h&#228;lsa eller
+s&#228;kerhet eller f&#246;r intr&#229;ng i enskilds personliga integritet.
+
+Upplysning om n&#228;rmare f&#246;reskrifter
+
+41 &#167; Regeringen kan med st&#246;d av 8 kap. 7 &#167; regeringsformen 
+meddela n&#228;rmare f&#246;reskrifter om Etikpr&#246;vningsmyndigheten 
+och &#214;verklaganden&#228;mnden f&#246;r etikpr&#246;vning.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer kan 
+med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela n&#228;rmare 
+f&#246;reskrifter om etikpr&#246;vning. Lag (2018:147).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2003:460
+
+Denna lag tr&#228;der i kraft den 1 januari 2004. Lagen skall dock
+inte till&#228;mpas p&#229; forskning som f&#246;re ikrafttr&#228;dandet har
+etikgranskats av en statlig myndighet eller vars utf&#246;rande har
+p&#229;b&#246;rjats.
+
+2018:147
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2019. 
+
+2. Ett godk&#228;nnande som har beslutats enligt 24 &#167; i den &#228;ldre 
+lydelsen g&#228;ller fortfarande. 
+
+3. En ordf&#246;rande, &#246;vrig ledamot eller ers&#228;ttare som har 
+utsetts med st&#246;d av 25 &#167; i den &#228;ldre lydelsen kvarst&#229;r som 
+ordf&#246;rande, &#246;vrig ledamot eller ers&#228;ttare under den tid som 
+han eller hon &#228;r utsedd f&#246;r. 
+
+4. N&#228;r fr&#229;ga uppkommer om entledigande av en ledamot eller 
+ers&#228;ttare som har utsetts med st&#246;d av 25 &#167; i den &#228;ldre 
+lydelsen ska beslut i fr&#229;gan fattas av 
+Etikpr&#246;vningsmyndigheten. Beslut om entledigande av 
+ordf&#246;randen eller dennes ers&#228;ttare ska fattas av 
+regeringen.
+
+2018:1092
+
+1. Denna lag tr&#228;der i kraft den dag som regeringen best&#228;mmer. 
+
+2. Regeringen f&#229;r meddela de &#246;verg&#229;ngsbest&#228;mmelser som 
+beh&#246;vs.
+
+2019:1144
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2020.
+
+2. Lagen till&#228;mpas inte p&#229; forskning som har utf&#246;rts f&#246;re 
+ikrafttr&#228;dandet.
+
+2021:611
+
+1. Denna lag tr&#228;der i kraft den dag som regeringen best&#228;mmer.
+Lag (2022:45).
+
+2. Regeringen f&#229;r meddela de &#246;verg&#229;ngsbest&#228;mmelser som beh&#246;vs.
+Lag (2022:45).
+
+2022:48
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 31 januari 2022.
+
+2. &#196;ldre f&#246;reskrifter ska dock forts&#228;tta att g&#228;lla fram till 
+och med den 31 januari 2025 f&#246;r ans&#246;kningar om tillst&#229;nd till 
+en klinisk l&#228;kemedelspr&#246;vning som har l&#228;mnats in f&#246;re 
+ikrafttr&#228;dandet. 
+
+3. &#196;ldre f&#246;reskrifter g&#228;ller f&#246;r en klinisk l&#228;kemedelspr&#246;vning 
+fram till och med den 31 januari 2025 i det fall ans&#246;kan om 
+tillst&#229;nd till den kliniska l&#228;kemedelspr&#246;vningen har l&#228;mnats 
+in efter ikrafttr&#228;dandet men f&#246;re den 31 januari 2023, och om 
+sponsorn har beg&#228;rt att ans&#246;kan ska handl&#228;ggas enligt &#228;ldre 
+f&#246;reskrifter.
+
+2022:49
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 31 januari 2022.
+
+2. &#196;ldre f&#246;reskrifter ska dock forts&#228;tta att g&#228;lla fram till 
+och med den 31 januari 2025 f&#246;r ans&#246;kningar om tillst&#229;nd till 
+en klinisk l&#228;kemedelspr&#246;vning som har l&#228;mnats in f&#246;re 
+ikrafttr&#228;dandet. 
+
+3. &#196;ldre f&#246;reskrifter g&#228;ller f&#246;r en klinisk l&#228;kemedelspr&#246;vning 
+fram till och med den 31 januari 2025 i det fall ans&#246;kan om 
+tillst&#229;nd till den kliniska l&#228;kemedelspr&#246;vningen har l&#228;mnats 
+in efter ikrafttr&#228;dandet men f&#246;re den 31 januari 2023, och om 
+sponsorn har beg&#228;rt att ans&#246;kan ska handl&#228;ggas enligt &#228;ldre 
+f&#246;reskrifter.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2492">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2494">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

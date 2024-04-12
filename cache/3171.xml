@@ -1,0 +1,786 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-10-12" /> 
+ <meta id="rattsinfo-edited" content="2023-10-12 10:57:23" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3171</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3170">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3172">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1994:1811 ·
+                    <a href="/sfsr?bet=1994:1811">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1994:1811) om disciplinansvar inom totalf&#246;rsvaret, m.m.</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> F&#246;rsvarsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1994-12-15
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:501
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1995-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna lag g&#228;ller f&#246;r
+
+1. totalf&#246;rsvarspliktiga under den tid d&#229; de &#228;r skyldiga att 
+fullg&#246;ra v&#228;rnplikt eller civilplikt enligt lagen (1994:1809) 
+om totalf&#246;rsvarsplikt,
+
+2. dem som utan att vara anst&#228;llda genomg&#229;r milit&#228;r 
+utbildning vid F&#246;rsvarsmakten, 
+
+3. hemv&#228;rnssoldater under den tid d&#229; de &#228;r 
+tj&#228;nstg&#246;ringsskyldiga,
+
+4. dem som genom ett krigsfrivilligavtal eller n&#229;got annat 
+avtal &#229;tagit sig att tj&#228;nstg&#246;ra frivilligt i befattningar i 
+F&#246;rsvarsmaktens krigsorganisation, under den tid d&#229; de &#228;r 
+tj&#228;nstg&#246;ringsskyldiga, och
+
+5. dem som &#228;r anst&#228;llda i F&#246;rsvarsmakten och tj&#228;nstg&#246;r 
+utomlands i en internationell milit&#228;r insats.
+
+F&#246;r dem som genomg&#229;r milit&#228;r utbildning vid F&#246;rsvarsmakten 
+som en del av en h&#246;gskoleutbildning g&#228;ller inte lagens 
+best&#228;mmelser om disciplinansvar f&#246;r f&#246;rseelser mot vilka 
+h&#246;gskolan f&#229;r vidta disciplin&#228;ra &#229;tg&#228;rder. Lag (2018:612).
+
+2 &#167; &#196;r Sverige i krig, g&#228;ller lagen &#228;ven f&#246;r
+
+1. alla som, ut&#246;ver det som s&#228;gs i 1 &#167;, &#228;r tj&#228;nstg&#246;ringsskyldiga
+i F&#246;rsvarsmakten,
+
+2. polism&#228;n som utan att vara tj&#228;nstg&#246;ringsskyldiga i
+F&#246;rsvarsmakten &#228;r skyldiga att delta i Sveriges f&#246;rsvar,
+
+3. skyddsvakter som f&#246;rordnats med st&#246;d av skyddslagen
+(2010:305),
+
+4. alla som annars vistas vid avdelningar av F&#246;rsvarsmakten, n&#228;r
+avdelningarna &#228;r i f&#228;lt eller verkar under liknande
+f&#246;rh&#229;llanden, och
+
+5. medlemmar av den organiserade motst&#229;ndsr&#246;relsen.
+Lag (2010:307).
+
+3 &#167; Om Sverige &#228;r i krigsfara eller om det r&#229;der s&#229;dana
+extraordin&#228;ra f&#246;rh&#229;llanden som &#228;r f&#246;ranledda av att det &#228;r
+krig utanf&#246;r Sveriges gr&#228;nser eller av att Sverige har varit
+i krig eller krigsfara, f&#229;r regeringen f&#246;reskriva att 2 &#167; ska
+till&#228;mpas. Lag (2015:145).
+
+4 &#167; N&#228;r det inte l&#228;ngre f&#246;religger s&#229;dana f&#246;rh&#229;llanden som avses i 2
+och 3 &#167;&#167;, skall regeringen f&#246;reskriva att 2 &#167; inte l&#228;ngre skall
+till&#228;mpas.
+
+5 &#167; Lagen skall ocks&#229; g&#228;lla f&#246;r
+
+1. krigsf&#229;ngar,
+
+2. krigsdeltagare som har internerats vid krig under vilket Sverige
+&#228;r neutralt,
+
+3. utl&#228;nningar som vistas bland krigsf&#229;ngar eller internerade
+krigsdeltagare f&#246;r att ut&#246;va sjukv&#229;rd eller andlig v&#229;rd.
+
+6 &#167; Den som lagen inte l&#228;ngre g&#228;ller f&#246;r f&#229;r med till&#228;mpning av
+lagen &#229;l&#228;ggas disciplinp&#229;f&#246;ljd och ers&#228;ttningsskyldighet f&#246;r
+f&#246;rfarande under den tid d&#229; lagen g&#228;llde f&#246;r honom eller henne.
+
+7 &#167; Den som lagen g&#228;ller f&#246;r ben&#228;mns disciplinansvarig.
+
+Disciplinansvaret
+
+Disciplinf&#246;rseelse
+
+8 &#167; En disciplinansvarig som upps&#229;tligen eller av oaktsamhet
+&#229;sidos&#228;tter vad han eller hon p&#229; grund av instruktioner,
+f&#246;rm&#228;ns eller andra chefers order eller i &#246;vrigt ska iaktta i
+tj&#228;nsten f&#229;r &#229;l&#228;ggas disciplinp&#229;f&#246;ljd f&#246;r disciplinf&#246;rseelse.
+I ringa fall ska n&#229;gon p&#229;f&#246;ljd dock inte &#229;l&#228;ggas.
+Lag (2015:145).
+
+9 &#167; Disciplinp&#229;f&#246;ljd f&#229;r inte &#229;l&#228;ggas n&#229;gon, om han eller hon 
+inte inom tv&#229; &#229;r efter f&#246;rseelsen har underr&#228;ttats enligt 26 &#167; 
+om vad som anf&#246;rs mot honom eller henne eller f&#229;tt en anmaning 
+enligt 26 &#167; lagen (2023:499) med instruktion f&#246;r Riksdagens 
+ombudsm&#228;n (JO) eller motsvarande best&#228;mmelse i fr&#229;ga om 
+Justitiekanslern. Lag (2023:501).
+
+Disciplinp&#229;f&#246;ljder
+
+10 &#167; Disciplinp&#229;f&#246;ljderna &#228;r varning och l&#246;neavdrag.
+
+Vid val av p&#229;f&#246;ljd &#228;r varning att anse som en lindrigare
+p&#229;f&#246;ljd &#228;n l&#246;neavdrag. S&#228;rskilt avseende ska f&#228;stas vid
+omst&#228;ndigheter som talar f&#246;r att p&#229;f&#246;ljden kan stanna vid
+varning. Lag (2015:145).
+
+11 &#167; Varning inneb&#228;r att den felande erinras om att han eller hon
+f&#246;r framtiden skall iaktta sina skyldigheter i tj&#228;nsten.
+
+12 &#167; Har upph&#228;vts genom lag (2015:145).
+
+13 &#167; L&#246;neavdrag f&#229;r best&#228;mmas f&#246;r h&#246;gst trettio dagar och inneb&#228;r
+avdrag p&#229; dagers&#228;ttning eller motsvarande ers&#228;ttning. Om n&#229;got
+s&#229;dant avdrag inte kan g&#246;ras, skall den felande betala ett belopp
+som motsvarar avdraget.
+
+F&#246;r den som erh&#229;ller dagers&#228;ttning skall l&#246;neavdraget motsvara
+dagers&#228;ttningen utan till&#228;gg. F&#246;r &#246;vriga skall l&#246;neavdraget
+best&#228;mmas till en viss andel av utg&#229;ende ers&#228;ttning. Andelen skall
+utg&#246;ra h&#246;gst en fj&#228;rdedel av ers&#228;ttningen per dag. Avdraget f&#229;r dock
+inte understiga ett belopp som motsvarar dagers&#228;ttning utan till&#228;gg.
+
+14 &#167; Har upph&#228;vts genom lag (2002:277).
+
+15 &#167; Har upph&#228;vts genom lag (2015:145).
+
+&#197;talsanm&#228;lan m.m.
+
+16 &#167; Om en disciplinansvarig kan antas ha beg&#229;tt en
+disciplinf&#246;rseelse och han eller hon genom sitt f&#246;rfarande sk&#228;ligen
+kan misst&#228;nkas &#228;ven ha gjort sig skyldig till brott, skall han eller
+hon anm&#228;las till &#229;tal f&#246;r brottet, om inte annat f&#246;ljer av 17 &#167;.
+
+17 &#167; &#197;talsanm&#228;lan beh&#246;ver inte g&#246;ras i fr&#229;ga om
+
+1. brott f&#246;r vilka sv&#229;rare straff &#228;n b&#246;ter inte f&#246;reskrivs,
+
+2. f&#246;ljande brott i brottsbalken, n&#228;mligen ofredande (4 kap. 
+7 &#167;), ringa st&#246;ld (8 kap. 2 &#167;), tillgrepp av 
+fortskaffningsmedel som &#228;r ringa (8 kap. 7 &#167;), egenm&#228;ktigt 
+f&#246;rfarande (8 kap. 8 &#167;), ringa bedr&#228;geri (9 kap. 2 &#167;), ringa 
+utpressning (9 kap. 4 &#167;), ringa f&#246;rskingring (10 kap. 2 &#167;), 
+olovligt f&#246;rfogande (10 kap. 4 &#167;), olovligt brukande (10 kap. 
+7 &#167;), ringa skadeg&#246;relse (12 kap. 2 &#167;), tagande av olovlig 
+v&#228;g (12 kap. 4 &#167;), svikande av f&#246;rsvarsplikt (18 kap. 6 &#167;), 
+lydnadsbrott (21 kap. 5 &#167;) och rymning (21 kap. 7 &#167;).
+
+&#197;talsanm&#228;lan ska dock alltid g&#246;ras, om
+
+1. brottet riktar sig mot n&#229;gon utanf&#246;r den organisation d&#228;r 
+den misst&#228;nkte tj&#228;nstg&#246;r,
+
+2. m&#229;ls&#228;ganden har f&#246;rklarat att han eller hon avser att f&#246;ra 
+talan om enskilt anspr&#229;k, eller
+
+3. det finns sk&#228;l att anta att p&#229;f&#246;ljden inte kommer att 
+stanna vid b&#246;ter. Lag (2017:445).
+
+18 &#167; N&#228;r en &#229;tg&#228;rd har vidtagits f&#246;r att &#229;tal skall v&#228;ckas mot en
+disciplinansvarig, f&#229;r ett disciplin&#228;rende inte inledas eller
+forts&#228;ttas i fr&#229;ga om det f&#246;rfarande som avses med &#229;tg&#228;rden.
+
+Beslutande myndigheter
+
+19 &#167; Fr&#229;gor om disciplinansvar eller &#229;talsanm&#228;lan pr&#246;vas av 
+den myndighet, den kommun eller den region d&#228;r den 
+disciplinansvarige tj&#228;nstg&#246;r eller senast har tj&#228;nstgjort 
+eller av den myndighet som regeringen best&#228;mmer.
+
+I fr&#229;ga om disciplinansvariga som tj&#228;nstg&#246;r eller har 
+tj&#228;nstgjort hos ett bolag, en f&#246;rening, en samf&#228;llighet, en 
+stiftelse, ett registrerat trossamfund eller n&#229;gon av dess 
+organisatoriska delar eller hos en annan enskild, pr&#246;vas 
+fr&#229;gor om disciplinf&#246;rseelse eller &#229;talsanm&#228;lan av den 
+myndighet som regeringen best&#228;mmer. Lag (2019:891).
+
+20 &#167; I F&#246;rsvarsmakten ska &#228;renden som avses i 19 &#167; pr&#246;vas av
+chefen f&#246;r det f&#246;rband eller den enhet av annat slag d&#228;r den
+disciplinansvarige tj&#228;nstg&#246;r eller senast har tj&#228;nstgjort,
+s&#229;vida chefen har l&#228;gst &#246;verstes eller kommend&#246;rs
+tj&#228;nstegrad. F&#246;rsvarsmakten f&#229;r dock besluta att n&#229;gon annan
+chef vid f&#246;rbandet eller enheten som har l&#228;gst
+&#246;verstel&#246;jtnants eller kommend&#246;rkaptens tj&#228;nstegrad f&#229;r pr&#246;va
+&#228;rendena.
+
+&#196;renden som r&#246;r dem som &#228;r anst&#228;llda i F&#246;rsvarsmakten och
+tj&#228;nstg&#246;r utomlands i en internationell milit&#228;r insats f&#229;r
+&#228;ven pr&#246;vas av chefen f&#246;r den taktiska staben eller chefen
+f&#246;r kontingenten, om han eller hon har l&#228;gst &#246;verstel&#246;jtnants
+eller kommend&#246;rkaptens tj&#228;nstegrad. Lag (2015:145).
+
+21 &#167; En chef som avses i 20 &#167; f&#229;r &#246;verl&#228;mna &#229;t andra chefer som
+tj&#228;nstg&#246;r under honom eller henne, dock l&#228;gst en kompanichef
+eller motsvarande chef, att pr&#246;va fr&#229;gor om disciplinansvar f&#246;r
+personal som st&#229;r under deras bef&#228;l, under f&#246;ruts&#228;ttning att
+
+1. f&#246;rseelsen inte kan antas utg&#246;ra brott,
+
+2. f&#246;rseelsen har erk&#228;nts,
+
+3. f&#246;rseelsen inte b&#246;r medf&#246;ra sv&#229;rare p&#229;f&#246;ljd &#228;n varning och
+
+4. den disciplinansvarige inte beg&#228;r att yttrande fr&#229;n audit&#246;r
+skall inh&#228;mtas i &#228;rendet. Lag (2002:277).
+
+22 &#167; &#196;renden som ska pr&#246;vas av andra myndigheter &#228;n 
+F&#246;rsvarsmakten, av kommuner eller av regioner d&#228;r den 
+disciplinansvarige tj&#228;nstg&#246;r eller har tj&#228;nstgjort pr&#246;vas av 
+chefen f&#246;r den organisatoriska enhet d&#228;r den disciplin-
+ansvarige tj&#228;nstg&#246;r eller har tj&#228;nstgjort eller av n&#229;gon annan 
+h&#246;gre chef. Lag (2019:891).
+
+23 &#167; F&#246;r att bitr&#228;da de myndigheter, kommuner eller regioner 
+som har att handl&#228;gga disciplin&#228;renden ska det finnas 
+audit&#246;rer. 
+
+Audit&#246;rerna ska vara jurister. De f&#246;rordnas av regeringen 
+eller av den myndighet som regeringen best&#228;mmer.
+Lag (2019:891).
+
+24 &#167; Innan en disciplinp&#229;f&#246;ljd beslutas eller en &#229;talsanm&#228;lan 
+g&#246;rs i fr&#229;ga om en disciplinansvarig, ska yttrande inh&#228;mtas 
+fr&#229;n audit&#246;ren. Ett s&#229;dant yttrande beh&#246;vs dock inte om
+
+1. f&#246;rseelsen inte kan antas utg&#246;ra brott, 
+
+2. f&#246;rseelsen har erk&#228;nts, 
+
+3. f&#246;rseelsen inte b&#246;r medf&#246;ra sv&#229;rare p&#229;f&#246;ljd &#228;n varning, och
+
+4. den disciplinansvarige inte beg&#228;r att yttrande fr&#229;n audit&#246;r 
+ska inh&#228;mtas i &#228;rendet.
+
+Audit&#246;ren &#228;r medansvarig f&#246;r de beslut som myndigheten, 
+kommunen eller regionen fattar p&#229; hans eller hennes 
+tillstyrkan.Lag (2019:891).
+
+Handl&#228;ggningen av disciplin&#228;renden
+
+25 &#167; Disciplin&#228;renden skall handl&#228;ggas skyndsamt.
+
+26 &#167; Muntligt f&#246;rh&#246;r skall h&#229;llas med den disciplinansvarige. Denne
+skall d&#228;rvid underr&#228;ttas om vad som anf&#246;rs mot honom eller
+henne. Muntligt f&#246;rh&#246;r f&#229;r dock underl&#229;tas om s&#229;dant inte anses
+beh&#246;vligt. Underr&#228;ttelsen skall d&#229; g&#246;ras skriftligen, varvid den
+disciplinansvarige skall uppmanas att yttra sig i saken.
+
+Om det beh&#246;vs, skall &#228;ven anm&#228;lare och andra som kan l&#228;mna
+uppgifter i saken h&#246;ras muntligen eller skriftligen.
+
+Protokoll skall f&#246;ras &#246;ver f&#246;rh&#246;ren.
+
+27 &#167; Vid muntligt f&#246;rh&#246;r med den disciplinansvarige skall ett
+f&#246;rh&#246;rsvittne om m&#246;jligt vara n&#228;rvarande.
+
+28 &#167; Om ett vittne eller en sakkunnig b&#246;r h&#246;ras vid domstol eller
+om n&#229;gon b&#246;r f&#246;rel&#228;ggas att f&#246;rete en skriftlig handling eller ett
+f&#246;rem&#229;l som bevis, skall en ans&#246;kan om detta g&#246;ras hos den
+tingsr&#228;tt inom vars omr&#229;de den person som skall h&#246;ras eller som p&#229;
+annat s&#228;tt ber&#246;rs av &#229;tg&#228;rden vistas. I fr&#229;ga om s&#229;dana &#229;tg&#228;rder
+skall i till&#228;mpliga delar g&#228;lla vad som f&#246;reskrivs i r&#228;tteg&#229;ngsbalken
+om bevisupptagning utom huvudf&#246;rhandling.
+
+29 &#167; Den disciplinansvarige skall innan &#228;rendet avg&#246;rs f&#229; del
+av vad som har kommit fram under utredningen och ges tillf&#228;lle
+att yttra sig &#246;ver det, om det inte &#228;r uppenbart obeh&#246;vligt.
+
+Den disciplinansvarige skall upplysas om sin r&#228;tt enligt 24 &#167;
+att beg&#228;ra yttrande fr&#229;n audit&#246;r. Lag (2002:277).
+
+30 &#167; Ett beslut om disciplinf&#246;rseelse och &#229;talsanm&#228;lan skall grundas
+p&#229; vad som har kommit fram under utredningen.
+
+Av beslutet skall framg&#229; de sk&#228;l som best&#228;mt utg&#229;ngen.
+
+31 &#167; Den disciplinansvarige skall underr&#228;ttas om beslutet och
+audit&#246;rens yttrande samt om hur man beg&#228;r &#228;ndring av beslutet.
+
+Den som meddelar beslutet best&#228;mmer om underr&#228;ttelsen skall ske
+muntligt, genom vanligt brev, genom delgivning eller p&#229; n&#229;got
+annat s&#228;tt. Underr&#228;ttelsen skall dock alltid ske skriftligt, om den
+disciplinansvarige beg&#228;r det.
+
+32 &#167; Om det av s&#228;rskilda sk&#228;l inte kr&#228;vs n&#229;gon disciplinp&#229;f&#246;ljd, f&#229;r
+&#228;rendet avskrivas.
+
+33 &#167; Best&#228;mmelser om r&#228;tt f&#246;r Riksdagens ombudsm&#228;n och f&#246;r 
+Justitiekanslern att g&#246;ra anm&#228;lan i disciplin&#228;renden och om 
+handl&#228;ggning av s&#229;dana &#228;renden finns i 22 och 24 &#167;&#167; lagen 
+(2023:499) med instruktion f&#246;r Riksdagens ombudsm&#228;n (JO) och i 
+6 &#167; lagen (1975:1339) om justitiekanslerns tillsyn. 
+Lag (2023:501).
+
+Verkst&#228;llighet av disciplinp&#229;f&#246;ljd
+
+34 &#167; Beslut om disciplinp&#229;f&#246;ljd ska verkst&#228;llas snarast
+m&#246;jligt efter det att beslutet har f&#229;tt laga kraft.
+Lag (2015:145).
+
+35 &#167; L&#246;neavdrag f&#229;r verkst&#228;llas med h&#246;gst en fj&#228;rdedel av
+dagers&#228;ttningen eller motsvarande ers&#228;ttning vid varje
+utbetalningstillf&#228;lle. Lag (2015:145).
+
+36 &#167; Har upph&#228;vts genom lag (2015:145).
+
+37 &#167; Har upph&#228;vts genom lag (2002:277).
+
+38 &#167; Har upph&#228;vts genom lag (2015:145).
+
+39 &#167; Har upph&#228;vts genom lag (2015:145).
+
+40 &#167; Om l&#246;neavdrag inte kan g&#246;ras och motsvarande belopp inte
+betalas, g&#228;ller om verkst&#228;llighet vad som &#228;r f&#246;reskrivet om
+uppb&#246;rd och indrivning av b&#246;ter. Obetalda belopp f&#229;r dock inte
+f&#246;rvandlas till f&#228;ngelse.
+
+L&#246;neavdrag bortfaller i den m&#229;n det inte har verkst&#228;llts inom
+tre &#229;r fr&#229;n det beslutet om disciplinp&#229;f&#246;ljd vann laga kraft.
+Lag (2002:277).
+
+Tv&#229;ngsmedel
+
+41 &#167; Den som enligt s&#228;rskilda f&#246;reskrifter &#228;r f&#246;rman i
+F&#246;rsvarsmakten f&#229;r omh&#228;nderta en disciplinansvarig som tj&#228;nstg&#246;r
+i F&#246;rsvarsmakten, om denne inom ett omr&#229;de eller utrymme som
+anv&#228;nds av F&#246;rsvarsmakten eller kl&#228;dd i milit&#228;r uniform p&#229; allm&#228;n
+plats
+
+1. antr&#228;ffas s&#229; berusad att han eller hon inte kan ta hand om sig
+sj&#228;lv eller annars utg&#246;r en fara f&#246;r sig sj&#228;lv eller n&#229;gon annan, eller
+
+2. upptr&#228;der s&#229; att han eller hon st&#246;r den allm&#228;nna ordningen eller
+ordningen inom F&#246;rsvarsmakten eller utg&#246;r en fara f&#246;r disciplinen.
+
+Omh&#228;ndertagande f&#229;r inte ske, om det r&#228;cker med mindre
+ingripande &#229;tg&#228;rder.
+
+42 &#167; Den som med st&#246;d av 41 &#167; har omh&#228;ndertagit n&#229;gon skall
+skyndsamt anm&#228;la detta till den chef som avses i 20 &#167;. Har
+omh&#228;ndertagandet inte redan upph&#246;rt, skall denne omedelbart
+pr&#246;va om det skall best&#229;.
+
+43 &#167; Har omh&#228;ndertagandet skett p&#229; grund av berusning, skall den
+omh&#228;ndertagne s&#229; snart det kan ske unders&#246;kas av l&#228;kare, om det
+beh&#246;vs med h&#228;nsyn till den omh&#228;ndertagnes tillst&#229;nd.
+
+44 &#167; Den omh&#228;ndertagne skall s&#229; snart som m&#246;jligt f&#246;rh&#246;ras och
+underr&#228;ttas om anledningen till omh&#228;ndertagandet.
+
+45 &#167; Den omh&#228;ndertagne skall friges s&#229; snart det kan ske utan men
+f&#246;r honom eller henne sj&#228;lv och d&#229; det inte l&#228;ngre finns anledning
+att ha honom eller henne omh&#228;ndertagen. Frigivandet skall alltid
+&#228;ga rum senast &#229;tta timmar efter omh&#228;ndertagandet, om det inte
+uppenbarligen ligger i den omh&#228;ndertagnes eget intresse att f&#229;
+stanna kvar kortare tid d&#228;rut&#246;ver.
+
+46 &#167; Alkoholdrycker eller andra berusningsmedel som p&#229;tr&#228;ffas hos
+den som har omh&#228;ndertagits p&#229; grund av berusning, skall tas ifr&#229;n
+honom eller henne. S&#229;dan egendom skall f&#246;rst&#246;ras, om inte
+s&#228;rskilda sk&#228;l talar f&#246;r att egendomen &#229;terst&#228;lls efter frigivandet.
+Fr&#229;gan om detta pr&#246;vas av den chef som avses i 20 &#167;.
+
+F&#246;rsta stycket f&#229;r till&#228;mpas &#228;ven i fr&#229;ga om s&#229;dana
+injektionssprutor och kanyler som kan anv&#228;ndas f&#246;r insprutning i
+m&#228;nniskokroppen. Detsamma g&#228;ller andra f&#246;rem&#229;l som &#228;r s&#228;rskilt
+&#228;gnade att anv&#228;ndas f&#246;r missbruk av eller annan befattning med
+narkotika.
+
+47 &#167; Om det finns anledning att anta att en disciplinansvarig som
+tj&#228;nstg&#246;r i F&#246;rsvarsmakten olovligen b&#228;r p&#229; sig f&#246;rem&#229;l som tillh&#246;r
+F&#246;rsvarsmakten eller som den disciplinansvarige annars inte f&#229;r
+inneha, kan han eller hon enligt f&#246;rmans beslut underkastas
+kroppsvisitation f&#246;r efters&#246;kande av f&#246;rem&#229;len.
+
+F&#246;r efters&#246;kande av s&#229;dana f&#246;rem&#229;l f&#229;r enligt f&#246;rmans beslut sk&#229;p,
+v&#228;skor och annan egendom som tillh&#246;r eller disponeras av den
+disciplinansvarige unders&#246;kas, om det finns anledning att anta att
+f&#246;rem&#229;len finns d&#228;r. En s&#229;dan unders&#246;kning f&#229;r ocks&#229; g&#246;ras
+stickprovsvis eller i anslutning till en st&#246;rre unders&#246;kning som
+f&#246;retas av s&#228;rskilda sk&#228;l.
+
+&#197;tg&#228;rder enligt f&#246;rsta och andra styckena f&#229;r vidtas endast inom ett
+milit&#228;rt omr&#229;de eller n&#229;got annat omr&#229;de som disponeras av
+F&#246;rsvarsmakten.
+
+&#214;verklagande av beslut om disciplinp&#229;f&#246;ljd
+
+48 &#167; En disciplinansvarig som har &#229;lagts disciplinp&#229;f&#246;ljd av en chef
+som avses i 21 &#167; f&#229;r beg&#228;ra ompr&#246;vning av beslutet hos den chef
+som avses i 20 &#167;. En s&#229;dan beg&#228;ran skall g&#246;ras hos den sistn&#228;mnde
+skriftligen inom fem dagar fr&#229;n den dag d&#229; den disciplinansvarige
+fick del av beslutet. Mot ett s&#229;dant beslut f&#229;r talan inte f&#246;ras i
+annan ordning. En beg&#228;ran som har kommit in f&#246;r sent skall inte
+pr&#246;vas.
+
+D&#229; ett &#228;rende ompr&#246;vas enligt f&#246;rsta stycket, skall best&#228;mmelserna
+i 24--32 &#167;&#167; till&#228;mpas.
+
+49 &#167; Har upph&#228;vts genom lag (2015:145).
+
+50 &#167; Ett beslut av en s&#229;dan chef vid F&#246;rsvarsmakten som avses 
+i 20 &#167;, av en annan myndighet &#228;n F&#246;rsvarsmakten, eller av en 
+kommun eller en region att &#229;l&#228;gga n&#229;gon disciplinp&#229;f&#246;ljd f&#229;r 
+av den disciplinansvarige &#246;verklagas till den tingsr&#228;tt inom 
+vars domkrets det verksamhetsst&#228;lle d&#228;r den disciplinansvarige 
+tj&#228;nstg&#246;r &#228;r lokaliserat. Om verksamhetsst&#228;llet inte &#228;r 
+lokaliserat i Sverige eller om det finns s&#228;rskilda sk&#228;l, f&#229;r 
+beslutet &#246;verklagas till den tingsr&#228;tt som regeringen 
+best&#228;mmer. Lag (2019:891).
+
+51 &#167; Beslutet &#246;verklagas genom att &#246;verklagandet skickas till 
+den myndighet, den kommun eller den region som har meddelat 
+beslutet. I &#246;verklagandet ska klaganden ange det beslut som 
+&#246;verklagas och den &#228;ndring i beslutet som beg&#228;rs. 
+
+&#214;verklagandet ska ha kommit in till den myndighet som har 
+meddelat beslutet inom tio dagar fr&#229;n den dag d&#229; klaganden 
+fick del av beslutet.
+
+Tingsr&#228;tten ska, sedan handlingarna i &#228;rendet &#246;verl&#228;mnats dit, 
+pr&#246;va om &#246;verklagandet har kommit in i r&#228;tt tid. Ett 
+&#246;verklagande som kommit in f&#246;r sent ska avvisas.
+Lag (2019:891).
+
+52 &#167; Vid &#246;verklagande g&#228;ller lagen (1996:242) om domstols&#228;renden om
+inte annat f&#246;reskrivs i denna lag. Lag (1996:269).
+
+53 &#167; Vid handl&#228;ggningen av &#228;rendet best&#229;r tingsr&#228;tten av en lagfaren
+domare. Om det finns s&#228;rskilda sk&#228;l med h&#228;nsyn till &#228;rendets
+beskaffenhet, f&#229;r tingsr&#228;tten dock best&#229; av en lagfaren domare och
+tre n&#228;mndem&#228;n. Lag (1996:269).
+
+54 &#167; har upph&#228;vts genom lag (1996:269).
+
+55 &#167; Ett beslut av hovr&#228;tten f&#229;r inte &#246;verklagas. Lag (1996:269).
+
+56 &#167; har upph&#228;vts genom lag (1996:269).
+
+57 &#167; Best&#228;mmelser om r&#228;tt f&#246;r Riksdagens ombudsm&#228;n och f&#246;r 
+Justitiekanslern att s&#246;ka &#228;ndring i beslut om 
+disciplinf&#246;rseelse finns i 25 &#167; lagen (2023:499) med 
+instruktion f&#246;r Riksdagens ombudsm&#228;n (JO) och i 7 &#167; lagen 
+(1975:1339) om justitiekanslerns tillsyn. Talan ska v&#228;ckas 
+inom tre veckor fr&#229;n det att beslutet har meddelats.
+Lag (2023:501).
+
+Handl&#228;ggningen av ers&#228;ttnings&#228;renden
+
+58 &#167; Om materiel som har utl&#228;mnats f&#246;r personligt bruk till en 
+disciplinansvarig g&#229;r f&#246;rlorad eller skadas, f&#229;r en myndighet, 
+en kommun eller en region besluta om ers&#228;ttningsskyldighet 
+enligt skadest&#229;ndslagen (1972:207) f&#246;r honom eller henne. Om 
+n&#229;gon &#229;tg&#228;rd har vidtagits f&#246;r att &#229;tal ska v&#228;ckas mot den 
+disciplinansvarige, f&#229;r ers&#228;ttnings&#228;rende inte inledas eller 
+forts&#228;ttas i fr&#229;ga om det f&#246;rfarande som avses med &#229;tg&#228;rden.
+Lag (2019:891).
+
+59 &#167; Inleds ett disciplin&#228;rende mot en disciplinansvarig och kan det
+f&#246;rfarande som &#228;rendet avser f&#246;ranleda ers&#228;ttningsskyldighet f&#246;r
+honom eller henne, skall fr&#229;gan om ers&#228;ttningsskyldighet pr&#246;vas i
+disciplin&#228;rendet om inte s&#228;rskilda sk&#228;l talar mot det.
+
+60 &#167; Best&#228;mmelserna i 19, 20, 22 och 24--30 &#167;&#167; skall till&#228;mpas vid
+handl&#228;ggningen av ers&#228;ttnings&#228;renden.
+
+Om f&#246;rlusten eller skadan inte sammanlagt &#246;verstiger ett visst
+mindre belopp, som regeringen best&#228;mmer, f&#229;r en chef som avses i
+21 &#167; ocks&#229; besluta om ers&#228;ttningsskyldighet.
+
+&#214;verklagande av beslut om ers&#228;ttningsskyldighet
+
+61 &#167; En disciplinansvarig som har &#229;lagts ers&#228;ttningsskyldighet av en
+chef som avses i 21 &#167; f&#229;r beg&#228;ra ompr&#246;vning av beslutet hos den
+chef som avses i 20 &#167;. Best&#228;mmelserna i 48 &#167; skall d&#228;rvid till&#228;mpas.
+
+62 &#167; Ett beslut om ers&#228;ttningsskyldighet som fattas av en 
+s&#229;dan chef i F&#246;rsvarsmakten som avses i 20 &#167;, av en annan 
+myndighet &#228;n F&#246;rsvarsmakten, eller av en kommun eller en 
+region f&#229;r &#246;verklagas av den disciplinansvarige till 
+tingsr&#228;tten. Best&#228;mmelserna i 50-53 och 55 &#167;&#167; g&#228;ller vid 
+s&#229;dant &#246;verklagande. Lag (2019:891).
+
+63 &#167; Beslut om ers&#228;ttningsskyldighet som meddelats enligt 58 &#167; f&#229;r
+verkst&#228;llas f&#246;rst sedan det har vunnit laga kraft.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1994:1811
+
+Denna lag tr&#228;der i kraft den 1 juli 1995, d&#229; lagen (1986:644) om
+disciplinf&#246;rseelser av krigsm&#228;n, m. m. skall upph&#246;ra att g&#228;lla. Den
+nya lagen skall dock inte till&#228;mpas betr&#228;ffande f&#246;rseelser som
+beg&#229;tts eller f&#246;rh&#229;llanden som intr&#228;ffat f&#246;re ikrafttr&#228;dandet. S&#229;vitt
+avser krigsm&#228;n skall i s&#229;dana fall i st&#228;llet den upph&#228;vda lagen
+till&#228;mpas. I fr&#229;ga om vapenfria tj&#228;nstepliktiga skall best&#228;mmelserna
+i lagen (1966:413) om vapenfri tj&#228;nst till&#228;mpas.
+
+1996:269
+
+Denna lag tr&#228;der i kraft den 1 juli 1996. Har ett m&#229;l om
+ers&#228;ttningsskyldighet redan inletts vid tingsr&#228;tt n&#228;r lagen tr&#228;der i
+kraft g&#228;ller dock fortfarande &#228;ldre best&#228;mmelser.
+
+1999:951
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2000.
+
+2. I fr&#229;ga om en disciplinansvarigs tj&#228;nstg&#246;ring hos en kyrklig
+kommun skall &#228;ldre best&#228;mmelser forts&#228;tta att g&#228;lla. Vad som
+s&#228;gs om kyrklig kommun skall dock i st&#228;llet g&#228;lla den myndighet
+som avses i 19 &#167; andra stycket. De &#228;renden om disciplinansvar,
+om &#229;talsanm&#228;lan och om ers&#228;ttningsskyldighet f&#246;r materiel som
+har utl&#228;mnats f&#246;r personligt bruk, vilka vid utg&#229;ngen av &#229;r
+1999 handl&#228;ggs hos en kyrklig kommun, skall &#246;verl&#228;mnas till den
+myndigheten f&#246;r fortsatt handl&#228;ggning.
+
+2002:277
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2002.
+
+2. Tidigare beslutat uteg&#229;ngsf&#246;rbud skall omr&#228;knas till
+l&#246;neavdrag i den del det inte verkst&#228;llts f&#246;re ikrafttr&#228;dandet.
+Vid omr&#228;kningen skall en dags uteg&#229;ngsf&#246;rbud motsvara tv&#229;
+dagars l&#246;neavdrag.
+
+3. Tidigare beslut om extratj&#228;nst som inte verkst&#228;llts f&#246;re
+ikrafttr&#228;dandet och inte heller kan verkst&#228;llas d&#228;refter
+bortfaller enligt 39 &#167; i dess &#228;ldre lydelse.
+
+2010:307
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2010.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller dock f&#246;r skyddsomr&#229;desvakter till
+och med den 31 december 2011.
+
+2015:145
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2015.
+
+2. Extratj&#228;nst som beslutats f&#246;re ikrafttr&#228;dandet ska r&#228;knas
+om till l&#246;neavdrag i den del som extratj&#228;nsten inte
+verkst&#228;llts f&#246;re ikrafttr&#228;dandet. Vid omr&#228;kningen ska tv&#229;
+timmars extratj&#228;nst motsvara en dags l&#246;neavdrag.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3170">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3172">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

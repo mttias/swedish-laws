@@ -1,0 +1,631 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2021-10-04 15:21:32" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3923</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3922">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3924">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1980:1030 ·
+                    <a href="/sfsr?bet=1980:1030">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1980:1030) med hyresn&#228;mndsinstruktion</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet D&#197;
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1980-12-11
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:587
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad 2007:1082 har iakttagits.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Uppgifter
+
+1 &#167; Hyres- och arrenden&#228;mnderna har de uppgifter som anges i 1
+och 4 &#167;&#167; lagen (1973:188) om arrenden&#228;mnder och hyresn&#228;mnder.
+F&#246;rordning (2007:1082).
+
+2 &#167; Best&#228;mmelserna i denna f&#246;rordning g&#228;ller i till&#228;mpliga
+delar &#228;ven f&#246;r arrenden&#228;mnderna.
+
+Med hovr&#228;tten avses i denna f&#246;rordning den hovr&#228;tt inom vars
+domkrets hyresn&#228;mndens kansliort &#228;r bel&#228;gen.
+F&#246;rordning (2007:1082).
+
+3 &#167; Best&#228;mmelser om chef f&#246;r hyresn&#228;mnd finns i 3 och 6 &#167;&#167;
+lagen (1973:188) om arrenden&#228;mnder och hyresn&#228;mnder.
+
+Chefen f&#246;r hyresn&#228;mnden ansvarar f&#246;r verksamheten och ska se
+till att den bedrivs effektivt och enligt g&#228;llande r&#228;tt och de
+f&#246;rpliktelser som f&#246;ljer av Sveriges medlemskap i Europeiska
+unionen samt att myndigheten hush&#229;llar v&#228;l med statens medel.
+F&#246;rordning (2010:1796).
+
+4 &#167; Domstolsverket ansvarar inf&#246;r regeringen f&#246;r att
+hyresn&#228;mndens verksamhet redovisas p&#229; ett tillf&#246;rlitligt och
+r&#228;ttvisande s&#228;tt. Domstolsverket har i &#246;vrigt de uppgifter och
+det ansvar i f&#246;rh&#229;llande till hyresn&#228;mnden som anges i 1 och
+4 &#167;&#167; f&#246;rordningen (2007:1073) med instruktion f&#246;r
+Domstolsverket.
+
+Chefen f&#246;r hyresn&#228;mnden ska vid hyresn&#228;mnden genomf&#246;ra den
+interna styrning och kontroll som Domstolsverket ansvarar f&#246;r
+enligt f&#246;rordningen med instruktion f&#246;r Domstolsverket.
+F&#246;rordning (2007:1082).
+
+Ledning
+
+5 &#167; I varje hyresn&#228;mnd finns ordf&#246;rande och andra anst&#228;llda.
+F&#246;rordning (2010:1796).
+
+Arbetsordning m.m.
+
+6 &#167; F&#246;r varje hyresn&#228;mnd ska det finnas en arbetsordning. Denna
+ska inneh&#229;lla best&#228;mmelser om grunderna f&#246;r f&#246;rdelningen av
+arbetsuppgifterna och de &#246;vriga best&#228;mmelser som beh&#246;vs f&#246;r
+verksamheten i hyresn&#228;mnden.
+
+En hyresn&#228;mnd f&#229;r i arbetsordningen meddela f&#246;reskrifter eller
+i ett enskilt fall besluta vem som f&#229;r beg&#228;ra in f&#246;rklaringar,
+upplysningar eller yttranden i administrativa &#228;renden.
+
+Domstolsverket meddelar allm&#228;nna r&#229;d om utformning av
+arbetsordning. F&#246;rordning (2007:1082).
+
+7 &#167; &#196;renden som inte &#228;r administrativa skall f&#246;rdelas mellan de
+organisatoriska enheter som anges i arbetsordningen.
+F&#246;rordning (2005:1094).
+
+8 &#167; Har upph&#228;vts genom f&#246;rordning (2005:1094).
+
+9 &#167; F&#246;rdelningen av &#228;renden skall ske genom lottning. Undantag
+fr&#229;n kravet p&#229; lottning f&#229;r g&#246;ras
+
+1. f&#246;r &#228;renden av s&#228;rskild art,
+
+2. f&#246;r &#228;renden fr&#229;n en viss del av verksamhetsomr&#229;det,
+
+3. f&#246;r att &#228;renden som har inb&#246;rdes samband skall kunna
+handl&#228;ggas av samma organisatoriska enhet, och
+
+4. f&#246;r att uppn&#229; en f&#246;rdelning av &#228;renden mellan hyresr&#229;den som
+tillgodoser kravet i 16 &#167; och i &#246;vrigt framst&#229;r som rimlig.
+F&#246;rordning (2005:1094).
+
+10 &#167; Chefen f&#246;r hyresn&#228;mnden meddelar de riktlinjer som beh&#246;vs
+f&#246;r tilll&#228;mpningen av arbetsordningen. F&#246;rordning (2005:1094).
+
+11 &#167; Andra ledam&#246;ter &#228;n hyresr&#229;d tj&#228;nstg&#246;r i hyresn&#228;mnden i den
+ordning som chefen f&#246;r hyresn&#228;mnden beslutar efter samr&#229;d med
+dem. F&#246;rordning (2005:1094).
+
+12 &#167; Till tj&#228;nstg&#246;ring som annan ledamot &#228;n ordf&#246;rande b&#246;r i f&#246;rsta hand
+kallas ledam&#246;ter med k&#228;nnedom om f&#246;rh&#229;llandena p&#229; den ort, till vilken
+&#228;rendet n&#228;rmast har anknytning.
+
+13 &#167; N&#228;r det finns s&#228;rskilda sk&#228;l f&#246;r det, f&#229;r chefen f&#246;r
+hyresn&#228;mnden f&#246;rordna om tillf&#228;lliga avvikelser fr&#229;n vad som
+har f&#246;reskrivits med st&#246;d av 6 &#167;. F&#246;rordning (2005:1094).
+
+Handl&#228;ggningen av &#228;renden om hyra m.m.
+
+14 &#167; F&#246;r varje &#228;rende ska det vid varje tidpunkt finnas ett 
+ansvarigt hyresr&#229;d.
+
+F&#246;rsta stycket g&#228;ller inte &#228;renden som tingsnotarier, 
+notariemeriterade beredningsjurister eller andra anst&#228;llda 
+handl&#228;gger med st&#246;d av f&#246;rordnanden enligt 15 &#167; andra stycket 
+och 15 a &#167;. F&#246;r s&#229;dana &#228;renden ansvarar den f&#246;rordnade.
+
+Den n&#228;rmare ansvarsf&#246;rdelningen ska framg&#229; av arbetsordningen. 
+Ansvarsf&#246;rdelningen ska ordnas s&#229; att ansvaret ska kunna 
+ut&#246;vas p&#229; ett effektivt s&#228;tt. F&#246;rordning (2019:270).
+
+15 &#167; Chefen f&#246;r hyresn&#228;mnden f&#229;r f&#246;rordna den som har 
+tillr&#228;cklig kunskap och erfarenhet och som &#228;r anst&#228;lld vid en 
+hyresn&#228;mnd, en allm&#228;n domstol eller en allm&#228;n 
+f&#246;rvaltningsdomstol att p&#229; eget ansvar
+
+1. svara f&#246;r skriftv&#228;xling och beg&#228;ra in kompletteringar som 
+f&#246;ljer av f&#246;reskrifter i lagar eller andra f&#246;rfattningar, 
+
+2. underteckna och expediera kallelser, f&#246;rel&#228;gganden, 
+f&#246;rordnanden och andra meddelanden,
+
+3. underteckna och expediera skrivelser, underr&#228;ttelser, 
+kung&#246;relser och uppgifter som hyresn&#228;mnden ska utf&#228;rda eller 
+avge i samband med beslut,
+
+4. fullg&#246;ra hyresn&#228;mndens uppgifter i samband med 
+delgivningar, 
+
+5. f&#246;rordna tolk, 
+
+6. besluta om ers&#228;ttning enligt f&#246;rordningen (1982:805) om 
+ers&#228;ttning av allm&#228;nna medel till vittnen, m.m. samt om 
+ers&#228;ttning till tolkar, och 
+
+7. pr&#246;va om ett &#246;verklagande av hyresn&#228;mndens beslut har 
+kommit in i r&#228;tt tid och, om s&#229; &#228;r fallet, vidta de &#229;tg&#228;rder 
+som detta medf&#246;r. 
+
+Chefen f&#246;r hyresn&#228;mnden f&#229;r ocks&#229; f&#246;rordna den som har 
+tillr&#228;cklig kunskap och erfarenhet och som &#228;r anst&#228;lld vid 
+n&#228;mnden att p&#229; eget ansvar pr&#246;va en fr&#229;ga om godk&#228;nnande av en 
+&#246;verenskommelse som avses i 12 kap. 45 a och 56 &#167;&#167; 
+jordabalken. Ett f&#246;rordnande f&#229;r bara avse enkla &#228;renden och 
+medf&#246;r inte beh&#246;righet att avvisa eller avsl&#229; en ans&#246;kan.
+F&#246;rordning (2019:270). 
+
+15 a &#167; Chefen f&#246;r hyresn&#228;mnden f&#229;r f&#246;rordna en tingsnotarie
+eller en notariemeriterad beredningsjurist som har tillr&#228;cklig
+kunskap och erfarenhet att tj&#228;nstg&#246;ra som ordf&#246;rande i
+hyresn&#228;mnden. Ett s&#229;dant f&#246;rordnande f&#229;r avse s&#229;dana &#229;tg&#228;rder
+som avses i
+
+1. 2 &#167; andra stycket 1-3 lagen (1973:188) om arrenden&#228;mnder och
+hyresn&#228;mnder, och
+
+2. 2 &#167; andra stycket 5 lagen om arrenden&#228;mnder och
+hyresn&#228;mnder, dock endast s&#229;dana &#228;renden som avses i 1 &#167; f&#246;rsta
+stycket 3 samma lag och 12 kap. 45 a och 56 &#167;&#167; jordabalken och
+d&#228;r pr&#246;vningen &#228;r enkel.
+
+Ett f&#246;rordnande enligt f&#246;rsta stycket f&#229;r inte avse &#228;renden som
+&#228;r omfattande eller sv&#229;ra eller som av n&#229;gon annan orsak kr&#228;ver
+s&#228;rskild erfarenhet. F&#246;rordning (2005:1094).
+
+16 &#167; Chefen f&#246;r hyresn&#228;mnden b&#246;r delta n&#228;r ett &#228;rende avg&#246;rs, om det
+finns s&#228;rskilda sk&#228;l f&#246;r det med h&#228;nsyn till &#228;rendets beskaffenhet.
+
+17 &#167; S&#229;dan ers&#228;ttning som ska betalas av allm&#228;nna medel enligt 
+19 b &#167; lagen (1973:188) om arrenden&#228;mnder och hyresn&#228;mnder ska 
+stanna p&#229; staten. F&#246;rordning (2019:270).
+
+Handl&#228;ggningen av administrativa &#228;renden m.m.
+
+18 &#167; Administrativa &#228;renden avg&#246;rs av chefen f&#246;r hyresn&#228;mnden.
+
+Chefen f&#246;r hyresn&#228;mnden f&#229;r h&#228;nskjuta &#228;renden till plenum.
+F&#246;rordning (2005:1094).
+
+19 &#167; Plenum best&#229;r av chefen f&#246;r hyresn&#228;mnden som ordf&#246;rande samt
+hyresr&#229;den.
+
+20 &#167; Chefen f&#246;r hyresn&#228;mnden skall samr&#229;da med plenum innan han
+eller hon avg&#246;r &#228;renden som avser
+
+1. viktigare fr&#229;gor om hyresn&#228;mndens organisation eller
+arbetsformer, eller
+
+2. arbetsordningen. F&#246;rordning (2005:1094).
+
+21 &#167; Chefen f&#246;r hyresn&#228;mnden f&#229;r uppdra &#229;t n&#229;gon annan som &#228;r 
+anst&#228;lld vid en hyresn&#228;mnd, en allm&#228;n domstol, en allm&#228;n 
+f&#246;rvaltningsdomstol eller R&#228;ttshj&#228;lpsmyndigheten att i sitt 
+st&#228;lle avg&#246;ra administrativa &#228;renden som inte &#228;r av s&#229;dant 
+slag att de b&#246;r avg&#246;ras av chefen f&#246;r hyresn&#228;mnden.
+F&#246;rordning (2017:545).
+
+22 &#167; I administrativa &#228;renden som handl&#228;ggs i plenum efter att
+ha h&#228;nskjutits dit av chefen f&#246;r hyresn&#228;mnden &#228;r hyresn&#228;mnden
+beslutf&#246;r n&#228;r h&#228;lften av de ledam&#246;ter som skall delta &#228;r
+n&#228;rvarande. F&#246;rordning (2005:1094).
+
+23 &#167; Administrativa &#228;renden som handl&#228;ggs i plenum avg&#246;rs efter
+f&#246;redragning, om inte chefen f&#246;r hyresn&#228;mnden best&#228;mmer n&#229;got
+annat. S&#229;dana &#228;renden f&#246;redras av den som chefen f&#246;r
+hyresn&#228;mnden utser. F&#246;rordning (2005:1094).
+
+24 &#167; Beslut om indelningen av hyresr&#229;d p&#229; organisatoriska
+enheter, om att ett visst &#228;rende ska tilldelas en viss
+organisatorisk enhet eller om f&#246;rdelningen av ansvar f&#246;r ett
+visst &#228;rende f&#229;r inte &#246;verklagas.
+
+Hyresn&#228;mndens beslut i fr&#229;ga om vikariat f&#246;r hyresr&#229;d f&#229;r
+&#246;verklagas hos Domarn&#228;mnden. Domarn&#228;mndens beslut i s&#229;dana
+&#228;renden f&#229;r inte &#246;verklagas.
+
+Hyresn&#228;mndens beslut i andra administrativa &#228;renden f&#229;r
+&#246;verklagas hos Domstolsverket, om inte annat &#228;r s&#228;rskilt
+f&#246;reskrivet. Domstolsverkets beslut i ett &#246;verklagat
+anst&#228;llnings&#228;rende f&#229;r inte &#246;verklagas. F&#246;rordning (2008:422).
+
+Anst&#228;llningar m.m.
+
+25 &#167; Best&#228;mmelser om utn&#228;mning av hyresr&#229;d tillika chef f&#246;r 
+hyresn&#228;mnden i Stockholm, G&#246;teborg och Malm&#246; samt &#246;vriga 
+hyresr&#229;d finns i 3 och 6 &#167;&#167; lagen (1973:188) om arrenden&#228;mnder 
+och hyresn&#228;mnder. Hyresr&#229;d anst&#228;lls med fullmakt.
+
+Hyresn&#228;mnden ska anm&#228;la till Domstolsverket n&#228;r det finns en 
+ledig anst&#228;llning som hyresr&#229;d som beh&#246;ver tills&#228;ttas.
+F&#246;rordning (2019:270).
+
+26 &#167; Om ett hyresr&#229;d har beviljats ledighet som ber&#228;knas vara 
+minst ett &#229;r i f&#246;ljd, anst&#228;lls en vikarie genom beslut av 
+regeringen efter f&#246;rslag av Domarn&#228;mnden. Detsamma g&#228;ller om 
+ett hyresr&#229;d, i annat fall &#228;n som avses i 34 a &#167;, ska 
+anst&#228;llas f&#246;r en begr&#228;nsad tid f&#246;r n&#229;got annat &#228;n 
+vikariats&#228;ndam&#229;l.
+
+Vid tidsbegr&#228;nsad anst&#228;llning som hyresr&#229;d g&#228;ller inte 5 a &#167; 
+lagen (1982:80) om anst&#228;llningsskydd. F&#246;rordning (2017:545).
+
+27 &#167; Chefen f&#246;r hyresn&#228;mnden f&#229;r f&#246;rordna ett hyresr&#229;d i en 
+annan hyresn&#228;mnd eller en ordinarie domare i en allm&#228;n 
+domstol eller i en allm&#228;n f&#246;rvaltningsdomstol att tj&#228;nstg&#246;ra 
+vid hyresn&#228;mnden, om han eller hon samtycker. Ett f&#246;rordnande 
+ges f&#246;r viss tid eller f&#246;r s&#228;rskilt angivna uppgifter.
+F&#246;rordning (2017:545).
+
+28 &#167; Andra anst&#228;llningar beslutas av hyresn&#228;mnden.
+F&#246;rordning (1996:386).
+
+29 &#167; Har upph&#228;vts genom f&#246;rordning (1996:386).
+
+30 &#167; Andra ledam&#246;ter i hyresn&#228;mnden &#228;n hyresr&#229;d f&#246;rordnas av
+Domstolsverket f&#246;r h&#246;gst tre &#229;r.
+
+Avg&#229;r en ledamot, f&#246;rordnas en ny ledamot f&#246;r &#229;terstoden av
+tiden. F&#246;rordning (2005:1094).
+
+31 &#167; Hyresr&#229;d och andra anst&#228;llda &#228;r skyldiga att, i den
+utstr&#228;ckning arbetsuppgifterna till&#229;ter det, tj&#228;nstg&#246;ra vid en
+tingsr&#228;tt p&#229; samma ort som hyresn&#228;mnden. N&#228;r det g&#228;ller
+hyresn&#228;mnderna i Stockholm, G&#246;teborg och Malm&#246; fattas beslut om
+s&#229;dan tj&#228;nstg&#246;ring av hovr&#228;tten efter samr&#229;d med hyresn&#228;mnden.
+
+N&#228;r information om en anst&#228;llning l&#228;mnas skall den inneh&#229;lla en
+uppgift om den skyldighet som avses i f&#246;rsta stycket.
+F&#246;rordning (2005:1094).
+
+31 a &#167; Har upph&#228;vts genom f&#246;rordning (1994:921).
+
+32 &#167; Fr&#229;gor om ledighet f&#246;r att ha annan anst&#228;llning som g&#228;ller
+cheferna f&#246;r hyresn&#228;mnderna i Stockholm, G&#246;teborg och Malm&#246;
+pr&#246;vas av Domstolsverket. F&#246;rordning (2005:1094).
+
+32 a &#167; har upph&#228;vts genom f&#246;rordning (1996:386).
+
+33 &#167; har upph&#228;vts genom f&#246;rordning (1994:921).
+
+34 &#167; Om ett hyresr&#229;d &#228;r ledigt skall ers&#228;ttarbehovet i f&#246;rsta
+hand l&#246;sas genom omf&#246;rdelning av arbetsuppgifter.
+
+Som ers&#228;ttare f&#246;r ett hyresr&#229;d f&#229;r den anlitas som &#228;r eller har
+varit hyresr&#229;d, som &#228;r eller har varit ordinarie domare, som &#228;r
+eller har varit ledamot eller fiskal i hovr&#228;tt eller kammarr&#228;tt
+eller som under minst sex m&#229;nader har utf&#246;rt en hovr&#228;tts- eller
+kammarr&#228;ttsfiskals arbetsuppgifter.
+
+Om det inte &#228;r m&#246;jligt att l&#246;sa ers&#228;ttarbehovet p&#229; det s&#228;tt som
+anges i f&#246;rsta eller andra stycket f&#229;r hyresn&#228;mnden anst&#228;lla en
+vikarie om vikariatet ber&#228;knas vara h&#246;gst ett &#229;r i f&#246;ljd.
+
+Ett s&#229;dant vikariat f&#229;r ges till den som &#228;r eller har varit
+hyresr&#229;d, som &#228;r eller har varit ordinarie domare, som &#228;r
+hovr&#228;ttsassessor eller kammarr&#228;ttsassessor eller som &#228;r
+hovr&#228;ttsfiskal eller kammarr&#228;ttsfiskal som tj&#228;nstgjort minst
+ett &#229;r i hovr&#228;tt eller kammarr&#228;tt. F&#246;rordning (2005:1094).
+
+34 a &#167; Vid tillf&#228;llig arbetsanhopning f&#229;r hyresn&#228;mnden anst&#228;lla
+den som &#228;r eller har varit hyresr&#229;d, som &#228;r eller har varit
+ordinarie domare, som &#228;r hovr&#228;ttsassessor eller
+kammarr&#228;ttsassessor, som &#228;r eller har varit ledamot eller
+fiskal i hovr&#228;tt eller kammarr&#228;tt eller som under minst sex
+m&#229;nader har utf&#246;rt en hovr&#228;tts- eller kammarr&#228;ttsfiskals
+arbetsuppgifter att f&#246;r enstaka, kortvariga perioder tj&#228;nstg&#246;ra
+som ordf&#246;rande i hyresn&#228;mnden. F&#246;rordning (2005:1094).
+
+35 &#167; Om en chef f&#246;r en hyresn&#228;mnd &#228;r f&#246;rhindrad att ut&#246;va sin
+anst&#228;llning och om n&#229;gon ers&#228;ttare eller vikarie inte har utsetts
+eller anst&#228;llts av regeringen eller hyresn&#228;mnden, skall hovr&#228;tten
+f&#246;rordna en ers&#228;ttare. F&#246;rordning (1996:386).
+
+36 &#167; Fr&#229;gor om anst&#228;llningars upph&#246;rande enligt 6 &#167; lagen 
+(1994:261) om fullmaktsanst&#228;llning pr&#246;vas av Domstolsverket. 
+N&#228;r det g&#228;ller hyresr&#229;d som &#228;r chefer f&#246;r en hyresn&#228;mnd pr&#246;var 
+Domstolsverket &#228;ven i &#246;vrigt fr&#229;gor om anst&#228;llningens 
+upph&#246;rande. Domstolsverket ut&#246;var ocks&#229; myndighetens 
+befogenheter enligt 4 a &#167; lagen (1982:80) om anst&#228;llningsskydd 
+n&#228;r best&#228;mmelsen &#228;r till&#228;mplig i f&#246;rh&#229;llande till arbetstagare 
+som anst&#228;lls genom beslut av regeringen. 
+F&#246;rordning (2019:587).
+
+36 a &#167; En anm&#228;lan till Statens ansvarsn&#228;mnd enligt 15 &#167; f&#246;rsta
+stycket anst&#228;llningsf&#246;rordningen (1994:373) g&#246;rs av
+hyresn&#228;mnden n&#228;r det g&#228;ller andra anst&#228;llda &#228;n chefen f&#246;r
+hyresn&#228;mnden.
+
+Av lagen (1975:1339) om Justitiekanslerns tillsyn och lagen
+(1986:765) med instruktion f&#246;r Riksdagens ombudsm&#228;n f&#246;ljer att
+Justitiekanslern och Riksdagens ombudsm&#228;n har beh&#246;righet att
+g&#246;ra en s&#229;dan anm&#228;lan n&#228;r det g&#228;ller chefen f&#246;r hyresn&#228;mnden.
+F&#246;rordning (2008:237).
+
+&#214;vriga best&#228;mmelser
+
+37 &#167; Myndighetens befogenhet att besluta i fr&#229;gor om disciplinansvar,
+&#229;talsanm&#228;lan och avskedande ut&#246;vas av Domstolsverket.
+F&#246;rordning (1994:921).
+
+38 &#167; Fr&#229;gor om bisyssla som avses i 7 a-7 c &#167;&#167; lagen (1994:260)
+om offentlig anst&#228;llning handhas och pr&#246;vas av Domarn&#228;mnden n&#228;r
+det g&#228;ller hyresr&#229;d som &#228;r chef f&#246;r en hyresn&#228;mnd.
+F&#246;rordning (2008:422).
+
+Undantag fr&#229;n myndighetsf&#246;rordningen
+
+39 &#167; F&#246;ljande best&#228;mmelser i myndighetsf&#246;rordningen (2007:515)
+ska inte till&#228;mpas p&#229; myndigheten:
+
+2 &#167; om myndighetens ledning,
+
+4 &#167; 1, 2, 4, och 5 om ledningens ansvar,
+
+5 &#167; om delegering,
+
+19 &#167; om kostnadsm&#228;ssiga konsekvenser, f&#246;rutom n&#228;r det g&#228;ller
+administrativa &#228;renden,
+
+20 &#167; om f&#246;redragning,
+
+21 &#167; om myndighetens beslut, f&#246;rutom n&#228;r det g&#228;ller
+administrativa &#228;renden,
+
+22-24 &#167;&#167; om anst&#228;llningar och uppdrag,
+
+27 &#167; om myndighetens r&#228;tt att f&#246;retr&#228;da staten vid domstol,
+
+28 &#167; om &#229;tg&#228;rder med anledning av Riksrevisionens
+revisionsber&#228;ttelse, och
+
+29 &#167; om &#228;rendef&#246;rteckning. F&#246;rordning (2007:1082).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1984:967
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1985.
+
+2. Best&#228;mmelserna i 29 och 31 a &#167;&#167; anst&#228;llningsf&#246;rordningen (1965:601)
+om tj&#228;nstledighet utan s&#228;rskilt beslut d&#228;rom skall alltj&#228;mt till&#228;mpas i
+fr&#229;ga om tj&#228;nstef&#246;reningar till f&#246;ljd av anst&#228;llningsbeslut f&#246;re den 1
+januari 1985.
+
+1994:921
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1994.
+
+2. Har upph&#228;vts genom f&#246;rordning (2005:1094).
+
+3. Har upph&#228;vts genom f&#246;rordning (2005:1094).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3922">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3924">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,902 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="1998-05-27" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4271</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4270">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4272">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1969:546 ·
+                    <a href="/sfsr?bet=1969:546">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Kungl. Maj:ts B&#246;rsordning (1969:546)
+f&#246;r Stockholms fondb&#246;rs
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1969-10-03
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 1978:758
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+Inledande best&#228;mmelser
+
+1 &#167; Stockholms fondb&#246;rs har till &#228;ndam&#229;l att enligt lagen (1919:240) om
+fondkommissionsr&#246;relse och fondb&#246;rsverksamhet samt denna b&#246;rsordning
+dels bereda k&#246;pare och s&#228;ljare regelbundna tillf&#228;llen att avsluta
+aff&#228;rer i v&#228;rdepapper, dels med ledning av efterfr&#229;gan, utbud och avslut
+vid b&#246;rsen notera k&#246;p-, s&#228;lj- och betalkurser f&#246;r v&#228;rdepapper.
+
+Fondb&#246;rsen st&#229;r under tillsyn av bankinspektionen.
+
+2 &#167; Aff&#228;rer och noteringar vid fondb&#246;rsen f&#229;r avse endast v&#228;rdepapper
+som inregistrerats vid b&#246;rsen (b&#246;rspapper).
+
+Som b&#246;rspapper kan inregistreras
+
+i Sverige utf&#228;rdade aktier,
+
+i utlandet utf&#228;rdade aktier i dotterbolag till svenskt aktiebolag, vars
+aktier inregistrerats vid fondb&#246;rsen,
+
+i Sverige eller i utlandet utf&#228;rdade obligationer,
+
+i Sverige utf&#228;rdade partial- och f&#246;rlagsbevis,
+
+konvertibla skuldebrev eller skuldebrev f&#246;renade med optionsr&#228;tt till
+nyteckning, som utf&#228;rdats av svenskt aktiebolag, vars aktier
+inregistrerats vid fondb&#246;rsen.
+
+Som i Sverige utf&#228;rdade obligationer anses av svensk l&#229;ntagare utf&#228;rdade
+obligationer, oavsett i vilket land de utgivits. F&#246;rordning (1976:542).
+
+B&#246;rsstyrelse, b&#246;rschef och revisorer
+
+3 &#167; Om b&#246;rsstyrelsens sammans&#228;ttning finns best&#228;mmelser i 31 &#167; lagen
+(1919:240) om fondkommissionsr&#246;relse och fondb&#246;rsverksamhet. Ledam&#246;ter
+och suppleanter utses f&#246;r tre kalender&#229;r. Valen &#228;ger rum f&#246;re utg&#229;ngen
+av november &#229;ret f&#246;re valperiodens b&#246;rjan.
+
+Val av de ledam&#246;ter och suppleanter som b&#246;rsmedlemmarna utser sker vid
+sammantr&#228;de inf&#246;r b&#246;rschefen. Skriftlig kallelse s&#228;ndes till medlemmarna
+minst &#229;tta dagar f&#246;re valet och ansl&#229;s i b&#246;rssalen. Val sker med slutna
+sedlar s&#228;rskilt f&#246;r ledam&#246;terna och s&#228;rskilt f&#246;r suppleanterna. Valsedel
+som upptar flera &#228;n tv&#229; namn &#228;r ogiltig. De som f&#229;r h&#246;gsta r&#246;stetalen &#228;r
+valda. Vid lika r&#246;stetal skiljer lotten.
+
+Avg&#229;r vald ledamot f&#246;re utg&#229;ngen av valperioden, skall b&#246;rsstyrelsen
+anm&#228;la avg&#229;ngen till den eller dem som har valt honom. Val av ny ledamot
+skall ske inom en m&#229;nad efter det anm&#228;lan gjordes och avse den tid som
+&#229;terst&#229;r av den avg&#229;ngnes valperiod. Valet sker i samma ordning som n&#228;r
+den avg&#229;ngne valdes. Vad som nu har sagts g&#228;ller &#228;ven n&#228;r suppleant
+avg&#229;r f&#246;re utg&#229;ngen av den tid f&#246;r vilken han blivit vald. Avser val som
+f&#246;retages av b&#246;rsmedlemmarna endast en person, &#228;r valsedel ogiltig om
+den upptar flera &#228;n ett namn. Kung&#246;relse (1974:849).
+
+4 &#167; B&#246;rsstyrelsen leder fondb&#246;rsens verksamhet och f&#246;rvaltar dess
+angel&#228;genheter. Styrelsen skall f&#246;lja kursbildningen vid b&#246;rsen och se
+till att handeln d&#228;r sker under f&#246;rh&#229;llanden som &#246;verensst&#228;mmer med lag
+och annan f&#246;rfattning samt god aff&#228;rssed.
+
+B&#246;rsstyrelsen meddelar ordningsregler f&#246;r b&#246;rsen.
+
+Styrelsen skall h&#229;lla b&#246;rsens protokoll och &#246;vriga handlingar
+tillg&#228;ngliga f&#246;r granskning av bankinspektionen och i &#246;vrigt meddela
+inspektionen alla de upplysningar om verksamheten vid b&#246;rsen och d&#228;rmed
+sammanh&#228;ngande omst&#228;ndigheter som inspektionen beg&#228;r. F&#246;rordning
+(1976:542).
+
+5 &#167; F&#246;r den dagliga ledningen och f&#246;rvaltningen av fondb&#246;rsen tills&#228;tter
+b&#246;rsstyrelsen en b&#246;rschef.
+
+Till b&#246;rschef f&#229;r ej utses den som &#228;r fondkommission&#228;r eller anst&#228;lld
+hos fondkommission&#228;r och ej heller ledamot av styrelsen f&#246;r bolag som
+driver fondkommissionsr&#246;relse eller del&#228;gare i annat bolag som driver
+fondkommissionsr&#246;relse &#228;n bankaktiebolag.
+
+B&#246;rsstyrelsen fastst&#228;ller instruktion f&#246;r b&#246;rschefen.
+
+5 a &#167; B&#246;rsstyrelsen kan uppraga &#229;t ordf&#246;randen och b&#246;rschefen att
+gemensamt, var f&#246;r sig eller i f&#246;rening med en eller flera ledam&#246;ter av
+styrelsen s&#229;v&#228;l att avg&#246;ra &#228;rende eller grupp av &#228;renden, som ej &#228;r av
+s&#229;dan vikt att pr&#246;vningen b&#246;r ankomma p&#229; styrelsen, som att fatta beslut
+i fr&#229;ga som ej t&#229;l uppskov. F&#246;rordning (1976:542).
+
+6 &#167; B&#246;rsstyrelsen sammantr&#228;der p&#229; kallelse av ordf&#246;randen s&#229; ofta
+omst&#228;ndigheterna f&#246;ranleder det eller n&#228;r minst tv&#229; av de &#246;vriga
+ledam&#246;terna beg&#228;r det. Styrelsen sammantr&#228;der ocks&#229; p&#229; beg&#228;ran av
+bankinspektionen.
+
+Kallelse med f&#246;redragningslista tillst&#228;lles ledam&#246;terna i god tid f&#246;re
+sammantr&#228;det. Listan och meddelande om sammantr&#228;de skickas &#228;ven till
+suppleanterna och bankinspektionen.
+
+7 &#167; B&#246;rsstyrelsen &#228;r beslutf&#246;r n&#228;r ordf&#246;randen eller vice ordf&#246;randen
+och minst fem andra ledam&#246;ter &#228;r n&#228;rvarande.
+
+Vid f&#246;rfall f&#246;r ledamot kallas den suppleant som har utsetts f&#246;r honom.
+Har &#228;ven suppleanten f&#246;rfall, f&#229;r han ers&#228;ttas av suppleant f&#246;r annan
+ledamot, om det beh&#246;vs f&#246;r att styrelsen skall vara beslutsf&#246;r.
+
+Omr&#246;stning sker &#246;ppet. Beslut fattas med enkel r&#246;st&#246;vervikt om ej annat
+f&#246;ljer av 14 eller 18 &#167; eller 27 &#167; andra stycket. Vid lika r&#246;stetal
+g&#228;ller den mening, som ordf&#246;randen bitr&#228;der. Vid val skiljer lotten.
+
+B&#246;rschefen, suppleant i b&#246;rsstyrelsen och den som f&#246;retr&#228;der
+bankinspektionen vid sammantr&#228;det har r&#228;tt att deltaga i
+&#246;verl&#228;ggningarna och f&#229; sin mening antecknad till protokollet.
+
+Protokoll &#246;ver sammantr&#228;det justeras av ordf&#246;randen. Kung&#246;relse
+(1974:849).
+
+8 &#167; F&#246;r granskning av fondb&#246;rsens r&#228;kenskaper samt b&#246;rsstyrelsens och
+b&#246;rschefens f&#246;rvaltning skall finnas tv&#229; revisorer, av vilka
+bankinspektionen utser en och b&#246;rsmedlemmarna utser en genom val.
+Revisorernas uppdrag g&#228;ller ett kalender&#229;r. Revisorerna utses f&#246;re
+utg&#229;ngen av november &#229;ret f&#246;re det som uppdraget avser. Vid
+b&#246;rsmedlemmarnas val &#228;ger 3 &#167; andra och tredje styckena motsvarande
+till&#228;mpning. F&#246;r varje revisor skall finnas en suppelant, som utses p&#229;
+samma s&#228;tt och f&#246;r samma tid som revisorn.
+
+Revisorerna skall avge revisionsber&#228;ttelse f&#246;r varje r&#228;kenskaps&#229;r.
+Ber&#228;ttelsen skall &#246;verl&#228;mnas till bankinspektionen f&#246;re utg&#229;ngen av
+april. En avskrift skall tillst&#228;llas b&#246;rsstyrelsen, som fattar beslut
+med anledning av anm&#228;rkning som har framst&#228;llts mot b&#246;rschefen.
+Kung&#246;relse (1974:849).
+
+Grundfond
+
+9 &#167; Av fondb&#246;rsens kapital skall en miljon kronor utg&#246;ra grundfonden.
+
+Neds&#228;ttning av fonden f&#229;r ske endast f&#246;r att t&#228;cka f&#246;rlust, som uppst&#229;tt
+i fondb&#246;rsens verksamhet och som ej kan ers&#228;ttas av medel, som avsatts
+till framtida f&#246;rfogande. Neds&#228;ttes fonden, skall den inom fem &#229;r &#229;ter
+bringas upp till samma belopp som f&#246;re neds&#228;ttningen.
+
+B&#246;rsmedlemmar och b&#246;rsombud
+
+10 &#167; K&#246;p och f&#246;rs&#228;ljning vid fondb&#246;rsen f&#229;r ske endast genom b&#246;rsmedlem
+eller genom ombud f&#246;r denne, som godk&#228;nts av b&#246;rsstyelsen (b&#246;rsombud).
+
+11 &#167; Ans&#246;kan om medlemskap pr&#246;vas av b&#246;rsstyrelsen.
+
+Endast den som har tillst&#229;nd att driva fondkommissionsr&#246;relse f&#229;r
+antagas till b&#246;rsmedlem. Som villkor i &#246;vrigt g&#228;ller,
+
+att fondkommission&#228;ren eller den bolagsman eller styrelseledamot f&#246;r
+vilken s&#228;rskilda kvalifikationsgrunder g&#228;ller enligt 4 och 5 &#167;&#167; lagen
+(1919:240) om fondkommissionsr&#246;relse och fondb&#246;rsverksamhet, eller ocks&#229;
+f&#246;rest&#229;ndare f&#246;r kommission&#228;rens r&#246;relse, &#228;r svensk medborgare,
+
+att fondkommission&#228;ren finnes l&#228;mplig att vara b&#246;rsmedlem.
+
+12 &#167; Vid ans&#246;kan om medlemskap skall inges
+
+1. bevis, att s&#246;kanden har tillst&#229;nd att driva fondkommissionsr&#246;relse,
+
+2. bevis om svenskt medborgarskap,
+
+3. skriftligt f&#246;rord av tv&#229; b&#246;rsmedlemmar.
+
+Annan s&#246;kande &#228;n bankaktiebolag skall dessutom som s&#228;kerhet f&#246;r de
+f&#246;rbindelser som ing&#229;s vid fondb&#246;rsen till b&#246;rsstyrelsen l&#228;mna svenska
+statsobligationern till ett v&#228;rde av minst 25 000 kronor eller
+bankgaranti p&#229; eller bevis om ins&#228;ttning p&#229; sp&#228;rrkonto i bank av
+motsvarande belopp.
+
+13 &#167; Den som har antagits till b&#246;rsmedlem skall erl&#228;gga en
+intr&#228;desavgift av 10 000 kronor. Har medlem &#246;vertagit annan medlems
+r&#246;relse, kan dock b&#246;rsstyrelsen medge befrielse fr&#229;n avgiften, om
+s&#228;rskilda sk&#228;l f&#246;ranleder det.
+
+B&#246;rsmedlem skall varje &#229;r betala medlemsavgift till bestridande av
+fondb&#246;rsens allm&#228;nna omkostnader. Avgiften utg&#229;r med 2,5 procent eller
+det l&#228;gre procenttal, som b&#246;rsstyrelsen best&#228;mmer, av sammanlagda
+beloppet av de provisioner som medlemmen &#229;ret innan har uppburit p&#229;
+avtal om k&#246;p eller f&#246;rs&#228;ljning av fondpapper. L&#228;gsta avgiften &#228;r dock
+1 000 kronor. Avgifterna skall sammanlagt uppg&#229; till minst en femtedel
+av summan av medlemmarnas &#229;rsavgifter enligt detta stycke och
+&#229;rsavgifterna f&#246;r v&#228;rdepapper enligt 24 &#167;. F&#246;r nyantagen medlem &#228;r
+f&#246;rsta &#229;rets avgift 1 000 kronor.
+
+F&#246;r s.k. dubbelplatser, telefonsk&#229;p och andra tekniska anordningar m.m.
+vid fondb&#246;rsen skall medlem varje &#229;r betala s&#228;rskild avgift enligt
+grunder som b&#246;rsstyrelsen fastst&#228;ller.
+
+Uppst&#229;r under n&#229;got r&#228;kenskaps&#229;r brist i fonb&#246;rsens verksamhet, som ej i
+sin helhet kan t&#228;ckas av medel som st&#229;r till f&#246;rfogande, f&#229;r
+b&#246;rsstyrelsen taga ut en till&#228;ggsavgift f&#246;r att t&#228;cka &#229;terstoden av
+bristen. Till&#228;ggsavgiften skall erl&#228;ggas av de medlemmar som &#228;r anslutna
+till b&#246;rsen vid r&#228;kenskaps&#229;rets utg&#229;ng och ber&#228;knas i f&#246;rh&#229;llande till
+det provisionsbelopp, som anges i andra stycket.
+
+&#197;rliga avgifter erl&#228;gges i f&#246;rskott f&#246;re utg&#229;ngen av februari. Upph&#246;r
+n&#229;gon att vara b&#246;rsmedlem, har han ej r&#228;tt att f&#229; tillbaka vad han har
+erlagt. B&#246;rsstyrelsen f&#229;r dock medge &#229;terbetalning av viss del av
+erlagda &#229;rsavgifter, om s&#228;rskilda omst&#228;ndigheter f&#246;ranleder det.
+F&#246;rordning (1976:542).
+
+14 &#167; F&#246;rfaller eller &#229;terkallas b&#246;rsmedlems tillst&#229;nd att driva
+fondkommissionsr&#246;relse, upph&#246;r samtidigt medlemskapet. Har
+bankinspektionen med st&#246;d av 18 &#167; lagen (1919:240) om
+fondkommissionsr&#246;relse och fondb&#246;rsverksamhet f&#246;rbjudit fondkommission&#228;r
+som &#228;r b&#246;rsmedlem att forts&#228;tta sin r&#246;relse under viss tid, upph&#246;r
+medlemskapet f&#246;r samma tid.
+
+Om s&#229;dana f&#246;r&#228;ndringar skett i b&#246;rsmedlems f&#246;retag i fr&#229;ga om
+del&#228;garskap eller ledning att det &#228;r att anse som ett v&#228;sentligen nytt
+f&#246;retag, kan b&#246;rsstyrelsen f&#246;rordna att medlemskapet skall upph&#246;ra sex
+m&#229;nader fr&#229;n den dag d&#229; medlemmen delgivits styrelsens beslut. Medlem
+skall omedelbart underr&#228;tta b&#246;rsstyrelsen om s&#229;dan f&#246;r&#228;ndring.
+
+Finnes n&#229;gon ej l&#228;ngre l&#228;mplig som b&#246;rsmedlem eller bryter medlem mot
+denna b&#246;rsordning, ordningsreglerna f&#246;r b&#246;rsen eller styrelsens
+f&#246;reskrifter i &#246;vrigt, kan b&#246;rsstyrelsen f&#246;rordna att medlemskapet
+omedelbart skall upph&#246;ra. Vid lindrigare &#246;vertr&#228;delse f&#229;r styrelsen ge
+medlemmen skriftlig erinran.
+
+Beslut enligt andra eller tredje stycket f&#229;r ej meddelas innan
+b&#246;rsmedlemmen beretts tillf&#228;lle att yttra sig. Beslutet skall ha
+bitr&#228;tts av minst tv&#229; tredjedelar av b&#246;rsstyrelsens samtliga ledam&#246;ter.
+
+15 &#167; Som b&#246;rsombud f&#229;r godk&#228;nnas den som &#228;r svensk medborgare och fast
+anst&#228;lld hos b&#246;rsmedlem samt har fyllt 25 &#229;r och p&#229; grund av
+tj&#228;nstg&#246;ring inom fondkommissions-, bank- eller likartad r&#246;relse &#228;r v&#228;l
+kvalificerad.
+
+&#197;lderskravet f&#229;r neds&#228;ttas till l&#228;gst 20 &#229;r, om s&#228;rskilda sk&#228;l
+f&#246;religger.
+
+B&#246;rombud f&#229;r ej f&#246;r egen r&#228;kning handla med b&#246;rspapper eller andra
+v&#228;rdepapper i st&#246;rre omfattning &#228;n som st&#229;r i rimligt f&#246;rh&#229;llande till
+ombudets inkomster och f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+B&#246;rsombud skall utan dr&#246;jsm&#229;l i den ordning bankinspektionen f&#246;reskriver
+till inspektionen redovisa varje aff&#228;r i b&#246;rspapper eller andra
+v&#228;rdepapper, d&#228;r han sj&#228;lv eller honom veterligen hans make eller
+omyndigt barn, som st&#229;r under hans v&#229;rdnad, &#228;r part. Har n&#229;gon av dem
+eller flera av dem tillsammans s&#229;dan v&#228;sentlig ekonomisk gemenskap med
+juridisk person som grundas p&#229; andelsr&#228;tt eller d&#228;rmed j&#228;mf&#246;rligt
+ekonomiskt intresse, omfattar redovisningsskyldigheten &#228;ven den
+juridiska personens v&#228;rdepappersinnehav, om b&#246;rsombudet har v&#228;sentligt
+inflytande &#246;ver den juridiska personens verksamhet. Kung&#246;relse
+(1971:785).
+
+16 &#167; Ans&#246;kan om godk&#228;nnande av b&#246;rsombud g&#246;res av den b&#246;rsmedlem, hos
+vilken han &#228;r anst&#228;lld. Till ans&#246;kningshandlingen skall fogas
+
+bevis om f&#246;rh&#229;llanden som anges i 15 &#167;,
+
+uppgift huruvida ers&#228;ttning till ombudet enligt anst&#228;llningsavtalet
+huvudsakligen skall utg&#229; som fast l&#246;n eller som provision.
+
+17 &#167; B&#246;rsstyrelsen best&#228;mmer antalet b&#246;rsombud f&#246;r varje medlem.
+Styrelsens godk&#228;nnande av ombud g&#228;ller f&#246;r ett kalender&#229;r i s&#228;nder.
+
+Ans&#246;kan om nytt godk&#228;nnande av b&#246;rsombud skall g&#246;ras f&#246;re den 1
+december. Vid ans&#246;kningen skall uppges om &#228;ndring skett eller &#228;r avsedd
+att ske i f&#246;rh&#229;llande som anges i 15 eller 16 &#167;.
+
+B&#246;rsmedlem skall omedelbart anm&#228;la n&#228;r b&#246;rsombud entledigats eller
+uppsagt sin tj&#228;nst och n&#228;r f&#246;rh&#229;llande som anges i 15 eller 16 &#167;
+&#228;ndrats.
+
+B&#246;rsmedlem skall i den ordning som bankinspektionen f&#246;reskriver till
+inspektionen redovisa varje aff&#228;r i b&#246;rspapper eller andra v&#228;rdepapper,
+d&#228;r ena parten &#228;r b&#246;rsombud, dennes make, omyndigt barn, som st&#229;r under
+b&#246;rsombudets v&#229;rdnad, eller s&#229;dan juridisk person som avses i 15 &#167;
+fj&#228;rde stycket. Kung&#246;relse (1971:785).
+
+18 &#167; Upph&#246;r b&#246;rsmedlem att vara medlem av fondb&#246;rsen, f&#246;rfaller
+samtidigt godk&#228;nnande f&#246;r medlemmens b&#246;rsombud.
+
+Finnes n&#229;gon ej l&#228;ngre l&#228;mplig att vara b&#246;rsombud eller bryter ombud
+mot denna b&#246;rsordning, ordningsreglerna f&#246;r b&#246;rsen eller b&#246;rsstyrelsens
+f&#246;reskrifter i &#246;rigt, kan styrelsen &#229;terkalla godk&#228;nnandet. Vid
+linrigare &#246;vertr&#228;delse f&#229;r styrelsen ge ombudet skriftlig erinran.
+
+Beslut enligt andra stycket f&#229;r ej meddelas innan ombudet beretts
+tillf&#228;lle att yttra sig. Belustet skall ha bitr&#228;tts av minst tv&#229;
+tredjedelar av b&#246;rsstyrelsens samtliga ledam&#246;ter.
+
+Inregistrering av v&#228;rdepapper vid fondb&#246;rsen m.m.
+
+19 &#167; Ans&#246;kan om inregistrering av aktier vid fondb&#246;rsen g&#246;res
+skriftligen hos b&#246;rsstyrelsen av styrelsen f&#246;r det bolag, vars aktier
+inregistreringen avser.
+
+Till ans&#246;kningshandlingen skall i fr&#229;ga om svenska aktier fogas
+
+1. bolagsordning,
+
+2. bevis att aktiekapitalet till fullo inbetalats,
+
+3. uppgift om aktiernas ungef&#228;rliga marknadsv&#228;rde och spridning bland
+allm&#228;nheten samt ungef&#228;rliga antalet aktie&#228;gare,
+
+4. uppgift om aktienummer och aktiernas f&#246;rdelning p&#229; aktiebrev, nummer
+eller &#229;rtal f&#246;r n&#228;rmast f&#246;rfallande kupong och - om i bolagsordningen
+finns best&#228;mmelse om f&#246;rbeh&#229;ll som avses i 2 &#167; andra stycket lagen
+(1916:156) om vissa inskr&#228;nkningar i r&#228;tten att f&#246;rv&#228;rva fast egenomdom
+m.m. - s&#228;rskild uppgift om numren p&#229; aktier utan f&#246;rbeh&#229;ll (fria
+aktier),
+
+5. &#229;rsredovisningar och revisionsber&#228;ttelser f&#246;r de fem senaste
+r&#228;kenskaps&#229;ren,
+
+6. utf&#228;stelse av bolaget att enligt formul&#228;r som fastst&#228;lles av
+b&#246;rsstyrelsen dels offentligg&#246;ra upplysningar om bolaget, dels medverka
+till att b&#246;rsstyrelsen kan fullg&#246;ra sina uppgifter enligt lagen
+(1919:240) om fondkommissionsr&#246;relse och fondb&#246;rsverksamhet samt denna
+b&#246;rsordning.
+
+Andra stycket 4 g&#228;ller ej i fr&#229;ga om aktiebolag, vars aktier registreras
+hos V&#228;rdepapperscentralen VPC Aktiebolag (v&#228;rdepapperscentralen). Har
+s&#229;dant bolag utf&#228;rdat fria aktier, skall bolaget till
+ans&#246;kningshandlingen foga s&#228;rskild uppgift om antalet s&#229;dana aktier.
+
+F&#246;r aktier i utl&#228;ndskt bolag g&#228;ller andra stycket i till&#228;mpliga delar.
+
+I s&#228;rskilda fall f&#229;r b&#246;rsstyrelsen medge inregistrering, &#228;ven om
+&#229;rsredovisning och revisionsber&#228;ttelse f&#246;r det bolag, vars aktier
+inregistreringen avser, kan f&#246;retes f&#246;r endast ett r&#228;kenskaps&#229;r.
+F&#246;rordning (1976:542).
+
+20 &#167; Ans&#246;kan om inregistrering av obligationer vid fondb&#246;rsen g&#246;res
+skriftligen hos b&#246;rsstyrelsen av b&#246;rsmedlem eller av den myndighet eller
+det f&#246;retag, vars obligationer inregistreringen avser.
+
+Till ans&#246;kningshandlingen skall fogas uppgift om
+
+1. beh&#246;righeten att utf&#228;rda obligtionerna, styrkt med bevis om tillst&#229;nd
+av myndighet, bolagsst&#228;mmobeslut eller annan s&#229;dan handling,
+
+2. totalbeloppet av de obligationer inregistreringen avser och - om
+obligationerna &#228;r del av en emission - hur mycket som f&#246;rut utgivits och
+vad som &#229;terst&#229;r,
+
+3. kapitalbeloppet av de obligationer som f&#229;tt spridning bland
+allm&#228;nheten,
+
+4. serier i vilka obligationerna har indelats och obligationernas
+val&#246;rer,
+
+5. best&#228;mmelser om amortering, konvertering och slutbetalning,
+
+6. plats och termin f&#246;r betalning av r&#228;nta eller av kapitalbelopp som &#228;r
+f&#246;rfallet till betalning,
+
+7. tid f&#246;r preskription av r&#228;nta eller av kapitalbelopp som &#228;r f&#246;rfallet
+till betalning,
+
+8. pant eller s&#228;kerhet som har utf&#228;sts och den f&#246;rm&#229;nsr&#228;tt som g&#228;ller
+f&#246;r de anm&#228;lda obligationerna i f&#246;rh&#229;llande till andra emissioner.
+
+Andra stycket 2 g&#228;ller dock ej f&#246;r svenska statsens obligationer.
+
+Om ans&#246;kningen avser obligationer utf&#228;rdade av bolag vars aktier ej &#228;r
+inregistrerade vid fondb&#246;rsen, skall bolagsordning samt, om
+b&#246;rsstyrelsen ej finner s&#228;rskilda omst&#228;ndigheter f&#246;ranleda annat,
+&#229;rsredovisningar och revisionsber&#228;ttelser f&#246;r de tv&#229; senaste
+r&#228;kenskaps&#229;ren fogas till ans&#246;kningshandlingen.
+
+Denna paragraf g&#228;ller i till&#228;mpliga delar &#228;ven partial- och f&#246;rlagsbevis
+samt konvertibla skuldebrev och skuldebrev f&#246;renade med optionsr&#228;tt till
+nyteckning. F&#246;rordning (1976:542).
+
+21 &#167; Inregistrering f&#229;r ej ske av
+
+aktier i bolag med aktiekapital under fem miljoner kronor eller
+motsvarande belopp i utl&#228;ndsk valuta enligt v&#228;xelkusern vid den tid d&#229;
+fr&#229;gan om inregistreringen avg&#246;res,
+
+aktier tillh&#246;rande emission, som icke blivit helt inbetald eller f&#246;r
+vilken aktiebrev eller, i fr&#229;ga om utl&#228;ndskt aktiebolag, mot aktiebrev
+svarande utl&#228;ndskt v&#228;rdepapper ej utf&#228;rdats,
+
+obligationer samt partial- och f&#246;rlagsbevis, om nomiella beloppet av
+l&#229;net eller den del av l&#229;net som inregistreringen avser understiger fem
+miljoner kronor eller motsvarande belopp i utl&#228;ndsk valuta enligt
+v&#228;xelkursen vid den tid f&#229; fr&#229;gan om inregistreringen avg&#246;res,
+
+konvertibla skuldebrev och skuldebrev f&#246;renade med optionsr&#228;tt till
+nyteckning, om nominella beloppet av l&#229;net eller den del av l&#229;net som
+inregistreringen avser understiger tre miljoner kronor,
+
+obligationer, partial- och f&#246;rlagsbevis samt konvertibla skuldebrev och
+skuldebrev f&#246;renade med optionsr&#228;tt till nyteckning, om till l&#229;net
+h&#246;rande f&#246;rfallna kuponger ej infriats eller de som &#228;r ansvariga f&#246;r
+l&#229;net i &#246;vrigt ej fullgjort sina f&#246;rpliktelse i fr&#229;ga om v&#228;rdepapperen,
+
+aktier, obligationer, partial- och f&#246;rlagsbevis samt konvertibla
+skuldebrev och skuldebrev f&#246;renade med optionsr&#228;tt till nyteckning, om
+utf&#228;rdaren inst&#228;llt sina betalningar, f&#246;rsatts i konkurs eller tr&#228;tt i
+likvidation.
+
+Aktier som registreras hos v&#228;rdepapperscentralen f&#229;r inregistreras utan
+hinder av att aktierna ej motsvaras av aktiebrev. F&#246;rordning (1976:542).
+
+22 &#167; F&#246;r inregistrering av i utlandet utf&#228;rdade obligationer g&#228;ller
+dessutom f&#246;ljande.
+
+Obligationerna skall avse l&#229;n, vars uppl&#228;ggande svenskt bankaktiebolag
+deltagit, och ha emitterats inom landet genom offentligt annonserad
+teckningsinbjudan eller genom uts&#228;nda prospekt.
+
+Obligationerna skall, med undantag av obligationer som utf&#228;rdats i
+Danmark, Finland, Island eller Norge, utg&#246;ra svensk andel av
+obligationsl&#229;n, vars f&#246;r utlandet avsedda del &#228;r f&#246;rem&#229;l f&#246;r handel och
+notering vid utl&#228;ndsk st&#246;rre fondb&#246;rs.
+
+Utlottning och upps&#228;gning av obligationer skall kung&#246;ras i Post- och
+Inrikes Tidningar.
+
+F&#246;rfallna kuponger till obligationerna och utlottade eller uppsagda
+obligationer skall inl&#246;sas i Stockholm utan avdrag f&#246;r kostnader eller
+i annat land utg&#229;ende skatter.
+
+23 &#167; B&#246;rsstyrelsen har r&#228;tt att infordra alla upplysningar som &#228;r
+n&#246;dv&#228;ndiga f&#246;r att bed&#246;ma om v&#228;rdepapper som anm&#228;lts till inregistrering
+&#228;r av s&#229;dan beskaffenhet att det b&#246;r inregistreras. Styrelsen &#228;r ej
+skyldig att ange sk&#228;len f&#246;r avslag p&#229; ans&#246;kan om inregistrering.
+
+24 &#167; F&#246;r aktier, konvertibla skuldebrev och skuldebrev f&#246;renade med
+optionsr&#228;tt till nyteckning samt f&#246;r utl&#228;ndska obligationer utg&#229;r
+inregistreringsavgift med 5/100 promille av det nominella kapital som
+inregistreringen avser, dock minst 5000 kronor. F&#246;r inregistrering av
+aktier i aktiebolag, vari f&#246;rut aktier &#228;r inregistrerade vid
+fondb&#246;rsen, utg&#229;r dock ej avgift.
+
+Utgift som fondb&#246;rsen haft f&#246;r utredning av fr&#229;ga om inregistrering av
+v&#228;rdepapper som anges i f&#246;rsta stycket skall ers&#228;ttas av
+v&#228;rdepapperets utgivare.
+
+F&#246;r inregistrerade v&#228;rdepapper utg&#229;r &#229;rsavgift, som skall betalas i
+f&#246;rskott f&#246;re utg&#229;ngen av februari. Avgiften best&#228;mmes av
+b&#246;rsstyrelsen och &#228;r
+
+1. f&#246;r aktier h&#246;gst 5/100 promille av de inregistrerade aktiernas
+sammanlagda noterade v&#228;rde vid utg&#229;ngen av november m&#229;nad n&#228;rmast f&#246;re
+avgifts&#229;ret, dock minst 5000 kronor f&#246;r varje &#229; fondb&#246;rsens kurslista
+upptagen aktieben&#228;mning,
+
+2. f&#246;r konvertibla skuldebrev och skuldebrev f&#246;renade med optionsr&#228;tt
+till nyteckning h&#246;gst 5/100 promille av skuldebrevens sammanlagda
+noterade v&#228;rde vid utg&#229;ngen av november m&#229;nad n&#228;rmast f&#246;re
+avgifts&#229;ret, dock minst 5000 kronor,
+
+3. f&#246;r premieobligationer h&#246;gst 1/10 promille av obligationsl&#229;nets
+nominella belopp,
+
+4. f&#246;r r&#228;nteb&#228;rande obligationer samt f&#246;rlagsbevis och liknande
+skuldebrev h&#246;gst 2000 kronor om v&#228;rdepapperet noteras dagligen och
+annars h&#246;gst 1000 kronor.
+
+&#197;rsavgift f&#246;r &#229;r d&#229; v&#228;rdepapper inregistreras eller avf&#246;res fr&#229;n
+notering skall neds&#228;ttas med en tolftedel f&#246;r varje m&#229;nad varunder
+v&#228;rdepapperet ej varit eller kommer att vara noterat vid fondb&#246;rsen.
+&#197;rsavgift enligt tredje stycket 1 och 2 f&#246;r &#229;r d&#229; v&#228;rdepapper
+inregistreras skall grundas p&#229; v&#228;rdepapperets noterade v&#228;rde
+omedelbart efter inregistreringen.
+
+B&#246;rsstyrelsen har r&#228;tt att efterge eller neds&#228;tta &#229;rsavgift f&#246;r
+s&#228;rskilt fall.
+
+Om v&#228;rdepapper lyder p&#229; utl&#228;ndskt myntslag och avgiften utg&#229;r i
+f&#246;rh&#229;llande till inregistrerat belopp eller v&#228;rdet viss dag skall
+avgiftsunderlaget omr&#228;knas till svenska kronor enligt den v&#228;xelkurs
+som g&#228;ller vid tiden f&#246;r inregistreringen eller p&#229; dagen f&#246;r
+v&#228;rdeber&#228;kningen.
+
+Om inregistrering av anm&#228;lt v&#228;rdepapper har v&#228;grats, har s&#246;kande r&#228;tt
+att f&#229; tillbaka inregistreringsavgift som har betalats i f&#246;rskott men
+ej s&#229;dan ers&#228;ttning som avses i andra stycket.
+
+Inregistreringsavgift f&#246;r v&#228;rdepapper som avf&#246;rts fr&#229;n notering vid
+fondb&#246;rsen &#229;terbetalas ej. I fr&#229;ga om v&#228;rdepapper som registreras p&#229;
+nytt inom ett &#229;r fr&#229;n beslutet om avf&#246;rande, kan b&#246;rsstyrelsen dock
+medge befrielse fr&#229;n ny avgift. F&#246;rordning (1978:758).
+
+25 &#167; Om bolagsordning f&#246;r aktieblolag vars aktier &#228;r inregistrerade vid
+fondb&#246;rsen intages f&#246;rbeh&#229;ll som anges i 19 &#167; andra stycket 4 eller
+s&#229;dant f&#246;rbeh&#229;ll &#228;ndras, skall bolaget inom sex m&#229;nader fr&#229;n
+registreringen av &#228;ndringen i aktiebolagsregistret till b&#246;rsstyrelsen
+uppge numren p&#229; de aktier, f&#246;r vilka f&#246;rbeh&#229;ll icke g&#228;ller (fria
+aktier). Om i &#246;vrigt &#228;ndring sker i den omfattning, vari f&#246;rbeh&#229;ll som
+nyss n&#228;mnts till&#228;mpats p&#229; bolags aktier, skall bolaget inom sex m&#229;nader
+efter det att &#228;ndringen beslutats anm&#228;la det till b&#246;rsstyrelsen och
+d&#228;rvid uppge numren p&#229; de aktier, f&#246;r vilka f&#246;rbeh&#229;llet icke g&#228;ller.
+
+Bolag, vars aktier registreras hos v&#228;rdepapperscentralen, skall vid
+anm&#228;lan enligt f&#246;rsta stycket uppge antalet fria aktier i st&#228;llet f&#246;r
+numren p&#229; s&#229;dana aktier.
+
+F&#246;rsta stycket &#228;ger motsvarande till&#228;mpning i fr&#229;ga om utl&#228;ndskt
+aktiebolag, om f&#246;r bolagets aktier inf&#246;res best&#228;mmelser som begr&#228;nsar
+r&#228;tten att &#228;ga, uppb&#228;ra avkastning p&#229; eller ut&#246;va r&#246;str&#228;tt f&#246;r aktierna
+eller som medf&#246;r &#228;ndring i s&#229;dana best&#228;mmelser. F&#246;rordning (1976:542).
+
+26 &#167; F&#246;retag, vars aktier, obligationer, partial- eller f&#246;rlagsbevis
+eller andra skuldebrev &#228;r inregistrerade vid fondb&#246;rsen, skall f&#246;r varje
+r&#228;kenskaps&#229;r avge &#229;rsredovisning och revisionsber&#228;ttelse i tv&#229; exemplar
+till b&#246;rsstyrelsen och bankinspektionen. Handlingarna skall inges s&#229;
+snart de &#228;r tillg&#228;ngliga f&#246;r f&#246;retagets del&#228;gare. Andra meddelanden fr&#229;n
+f&#246;retaget till aktie&#228;gare eller innehavare av obligationer, partial-
+eller f&#246;rlagsbevis eller andra inregistrerade skuldebrev skall utan
+dr&#246;jsm&#229;l tillst&#228;llas b&#246;rsstyrelsen i tv&#229; exemplar. P&#229; beg&#228;ran av
+b&#246;rsstyrelsen skall f&#246;retaget l&#228;mna de upplysningar som beh&#246;vs f&#246;r
+v&#228;rdepapperets notering vid fondb&#246;rsen. F&#246;rordning (1976:542).
+
+27 &#167; B&#246;rspapper skall avf&#246;ras fr&#229;n notering vid fondb&#246;rsen n&#228;r det ej
+l&#228;ngre uppfyller villkoren f&#246;r inregistrering eller inregistrerings-
+eller &#229;rsavgift ej betalas eller b&#246;rsordningens f&#246;reskrifter om
+b&#246;rspapper i &#246;vrigt ej f&#246;ljes, om ej bristen eller uraktl&#229;tenheten &#228;r av
+underordnad betydelse.
+
+Om b&#246;rspapper ej har omsatts vid fondb&#246;rsen minst en g&#229;ng under de
+senaste tv&#229; kalender&#229;ren eller om b&#246;rsstyrelsen finner att b&#246;rspapper av
+annan anledning icke l&#228;ngre b&#246;r noteras vid b&#246;rsen, f&#229;r b&#246;rsstyrelsen
+besluta att b&#246;rspapperet skall avf&#246;ras fr&#229;n notering. Styrelsens beslut
+skall ha bitr&#228;tts av minst tv&#229; tredjedelar av samtliga
+styrelseledam&#246;ter. Styrelsen &#228;r ej skyldig att ange sk&#228;len f&#246;r beslutet.
+
+27 a &#167; Om s&#228;rskilda sk&#228;l f&#246;religger, f&#229;r b&#246;rsstyrelsen besluta att
+handel och notering vid fondb&#246;rsen skall avbrytas i fr&#229;ga om b&#246;rspapper
+av visst slag. S&#229;dant beslut f&#229;r ej g&#228;lla l&#228;ngre &#228;n som oundg&#228;ngligen
+beh&#246;vs.
+
+B&#246;rsstyrelsen skall omedelbart offentligg&#246;ra beslut om avbrytande eller
+&#229;terupptagande av handel och notering som avses i f&#246;rsta stycket.
+Styrelsen skall samtidigt underr&#228;tta samtliga fondkommission&#228;rer om
+beslutet. F&#246;rordning (1976:542).
+
+Fondaff&#228;rer
+
+28 &#167; Vid fondb&#246;rsen sker f&#246;rhandlingar f&#246;r avslut i och kursnotering av
+b&#246;rspapper varje helgfri dag utom l&#246;rdag. F&#246;r s&#228;rskilt fall eller f&#246;r
+viss tid f&#229; b&#246;rsstyrelsen dock besluta annat.
+
+29 &#167; F&#246;rhandlingarna vid fondb&#246;rsen avser endast kassaaff&#228;rer. De
+f&#246;rsigg&#229;r, enligt vad som n&#228;rmare anges i ordningsreglerna f&#246;r b&#246;rsen,
+dels som offentliga f&#246;rhandlingar (upprop), dels som fria f&#246;rhandlingar
+mellan b&#246;rsmedlemmarna.
+
+De kurser som noteras vid f&#246;rhandlingarna skall omedelbart
+offentligg&#246;ras genom anslag i b&#246;rslokalerna. B&#246;rsstyrelsen best&#228;mmer och
+ombes&#246;rjer publicering i &#246;vrigt av kursnoteringarna.
+
+30 &#167; B&#246;rsmedlem skall av vardera kommittenten uttaga provision p&#229; avtal,
+som han sluter f&#246;r annans r&#228;kning vid fondb&#246;rsen. Provisionen &#228;r f&#246;r
+
+aktier, konvertibla skuldebrev och skuldebrev f&#246;renade med optionsr&#228;tt
+till nyteckning 4,5 promille av k&#246;pesumman,
+
+svenska statens r&#228;nteb&#228;rande obligationer 1 promille av k&#246;pesumman,
+
+premieobligationer 2 promille av nominella v&#228;rdet,
+
+&#246;vriga i Sverige utf&#228;rdade obligationer 1 promille av k&#246;pesumman,
+
+partial- och f&#246;rlagsbevis 1,5 promille av k&#246;pesumman,
+
+i utlandet utf&#228;rdade obligationer 2,5 promilla av k&#246;pesumman.
+
+Vid uppdrag f&#246;r annan svensk fondkommission&#228;r kan provisionen efter
+s&#228;rskild &#246;verenskommelse utg&#229; med l&#228;gst h&#228;lften av den eljest best&#228;mda.
+
+Vid uppdrag f&#246;r Sveriges riksbank f&#229;r efter avtal provisionen neds&#228;ttas
+f&#246;r svenska statens obligationer till en tiondel och f&#246;r andra
+obligationer till en femtedel av vad annars skulle ha utg&#229;tt.
+
+Slutes avtal i fr&#229;ga om b&#246;rspapper som noteras i utl&#228;ndskt myntslag,
+skall f&#246;r best&#228;mmande av provisionen papperets betalkurs eller
+k&#246;pesumman r&#228;knas om till svenska kronor enligt den v&#228;xelkurs som g&#228;ller
+p&#229; avslutsdagen. F&#246;rordning (1976:542).
+
+31 &#167; Avr&#228;kningsnota skall uppr&#228;ttas och avs&#228;nds samman dag som avtal
+tr&#228;ffats. Best&#228;mmelser om uppg&#246;relse av b&#246;rsaff&#228;r finns i
+ordningsreglerna. Kung&#246;relse (1971:785).
+
+B&#246;rsauktioner
+
+32 &#167; B&#246;rsauktion f&#246;rr&#228;ttas av b&#246;rschefen eller den han f&#246;rordnar.
+
+33 &#167; F&#246;r fondpapper som s&#228;ljes vid b&#246;rsauktion skall s&#228;ljaren betala en
+avgift. Denna &#228;r
+
+f&#246;r aktier och i utlandet utf&#228;rdade obligationer 3 promille av
+k&#246;pesumman,
+
+f&#246;r andra fondpapper 2 promille av k&#246;pesumman,
+
+dock sammanlagt minst 50 kronor f&#246;r samtliga poster, som s&#229;lts av en och
+samma s&#228;ljare. K&#246;pesumma i utl&#228;ndskt myntslag skall omr&#228;knas till
+svenska kronor enligt v&#228;xelkursen p&#229; auktionsdagen.
+
+En tredjedel av avgiften vid f&#246;rs&#228;ljning av aktier och h&#228;lften vid
+f&#246;rs&#228;ljning av annat fondpapper tillfaller Stockholms kommun. &#197;terstoden
+av avgiften tillfaller fondb&#246;rsen. Auktionsf&#246;rr&#228;ttaren skall se till att
+kommunens andel inbetalas utan dr&#246;jsm&#229;l.
+
+B&#246;rsstyrelsen f&#229;r besluta att avgiften vid st&#246;rre auktion skall
+neds&#228;ttas. Meddelande om beslutet skall i varje s&#228;rskilt fall l&#228;mnas
+till kommunens dr&#228;tseln&#228;mnd.
+
+Avgiften samt kostnaderna f&#246;r auktionens kung&#246;rande och f&#246;r st&#228;mpel till
+avr&#228;kningsnotan utg&#229;r ur k&#246;pesumman f&#246;r det s&#229;lda fondpapperet. Om den
+ej f&#246;rsl&#229;r, skall s&#228;ljaren betala skillnaden. Kung&#246;relse (1974:849).
+
+34 &#167; &#197;tertages anm&#228;lan om f&#246;rs&#228;ljning innan auktionen &#228;gt rum eller
+kommer f&#246;rs&#228;ljning icke till st&#229;nd, skall den som beg&#228;rt f&#246;rs&#228;ljningen
+betala en avgift av 50 kronor till fondb&#246;rsen och ers&#228;tta b&#246;rsen
+kostnaden f&#246;r auktionens kung&#246;rande.
+
+Skiljemannaf&#246;rfarande
+
+35 &#167; Tvist om avtal som har ing&#229;tts vid fondb&#246;rsen kan p&#229; beg&#228;ran av de
+tvistande h&#228;nskjutas till avg&#246;rande av skiljem&#228;n enligt lagen (1929:145)
+om skiljem&#228;n. Kung&#246;relse (1974:849).
+
+Fondb&#246;rsens upph&#246;rande
+
+36 &#167; Om fondb&#246;rsen upph&#246;r, skall efter beslut av b&#246;rsstyrelsen b&#246;rsens
+beh&#229;llna tillg&#229;ngar anv&#228;ndas f&#246;r fr&#228;mjande av &#228;ndam&#229;l som st&#229;r b&#246;rsens
+verksamhet n&#228;ra. Beslutet f&#229;r verkst&#228;llas f&#246;rst efter medgivande av
+regeringen. Kung&#246;relse (1974:849).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1969:546
+
+Denna b&#246;rsordning tr&#228;der i kraft den 1 januari 1970 och g&#228;ller tills
+vidare, dock l&#228;ngst till utg&#229;ngen av &#229;r 1979.
+
+Beslut om antagande av fondkommission&#228;r till b&#246;rsmedlem och om
+inregistrering av v&#228;rdepapper vid fondb&#246;rsen som &#228;r i kraft vid utg&#229;ngen
+av &#229;r 1969 g&#228;ller fortfarande.
+
+Inregistrerat v&#228;rdepapper f&#229;r ej avf&#246;ras fr&#229;n notering endast d&#228;rf&#246;r att
+papperet icke uppfyller de str&#228;ngare villkor f&#246;r inregistrering som
+denna b&#246;rsordning inneh&#229;ller i f&#246;rh&#229;llande till den b&#246;rsordning som
+g&#228;llde vid inregistreringstillf&#228;llet.
+
+1976:542
+
+Denna f&#246;rordning tr&#228;der i kraft, s&#229;vitt avser 19 &#167; andra stycket 6 och
+27 a &#167;, den 1 januari 1977, och i &#246;vrigt en vecka efter den dag, d&#229;
+f&#246;rordningen enligt uppgift p&#229; den utkommit fr&#229;n trycket i Svensk
+f&#246;rfattningssamling.
+
+Har bolag, vars aktier inregistrerat f&#246;re den 1 januari 1977, ej f&#246;re
+utg&#229;ngen av &#229;r 1977 l&#228;mnat utf&#228;stelse enligt 19 &#167; andra stycket 6,
+upph&#246;r inregistreringsbeslutet att g&#228;lla vid n&#228;mnda tidpunkt.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4270">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4272">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

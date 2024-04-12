@@ -1,0 +1,990 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2008-11-12" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4544</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4543">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4545">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1932:131 ·
+                    <a href="/sfsr?bet=1932:131">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Checklag (1932:131)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1932-05-13
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2006:676
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Om utst&#228;llande av check och om checkens form.
+
+1 &#167; Check skall inneh&#229;lla:
+
+1) ben&#228;mningen check, inf&#246;rd i sj&#228;lva texten och uttryck &#229; det spr&#229;k,
+var&#229; handlingen &#228;r avfattad;
+
+2) ovillkorlig anmodan att betala visst penningbelopp (checksumma);
+
+3) namnet &#229; den, som skall infria checken (trassat, h&#228;r nedan ben&#228;mnd
+trassatbanken);
+
+4) uppgift &#229; den ort, d&#228;r betalningen skall erl&#228;ggas;
+
+5) uppgift &#229; dag och ort f&#246;r checkens utst&#228;llande; samt
+
+6) underskrift av den, som utst&#228;ller checken (utst&#228;llare, trassent).
+
+2 &#167; Handling, vari saknas n&#229;got av vad check skall enligt 1 &#167; inneh&#229;lla,
+vare &#229;giltig s&#229;som check, d&#228;r ej annat f&#246;ljer av vad nedan i denna
+paragraf s&#228;gs.
+
+&#196;r ej ort, d&#228;r betalningen skall erl&#228;ggas, s&#228;rskilt angiven, men har
+vid trassatbankens namn viss ort blivit utsatt, g&#228;lle den s&#229;som
+betalningsort. &#196;ro flera orter utsatta vid bankens namn, vare checken
+betalbar &#229; den ort, som &#228;r f&#246;rst utsatt.
+
+Saknas ortsuppgift, som nu &#228;r sagd, och &#228;r betalningsorten ej heller
+p&#229; annat s&#228;tt angiven i checken, vare denna betalbar &#229; den ort, d&#228;r
+trassatbanken har sitt huvudkontor.
+
+Check, vari orten f&#246;r utst&#228;llandet ej &#228;r n&#228;mnd men ort &#228;r vid
+utst&#228;llarens namn utsatt, skall anses vara d&#228;r utst&#228;lld.
+
+3 &#167; Check m&#229; ej dragas p&#229; annan &#228;n bank. Sker det, g&#228;lle handlingen ej
+s&#229;som check.
+
+4 &#167; Utst&#228;llare av check skall hos trassatbanken &#228;ga ett mot checksumman
+svarande tillgodohavande, var&#246;ver han, p&#229; grund av uttrycklig
+&#246;verenskommelse eller eljest f&#246;religgande omst&#228;ndigheter, &#228;ger f&#246;rfoga
+medelst check. Om straff f&#246;r den, som till annans f&#246;rf&#229;ng utan s&#229;dan
+t&#228;ckning utst&#228;ller check, stadgas i 74 &#167;.
+
+5 &#167; Check m&#229; lyda p&#229; betalning:
+
+till viss man, med eller utan uttryckligt angivande av att den &#228;r &quot;till
+order&quot;;
+
+till viss man, med till&#228;gg av orden &quot;icke till order&quot; eller motsvarande
+uttryck; eller
+
+till innehavaren.
+
+&#196;r check st&#228;lld till viss man med till&#228;gg av orden &quot;eller till
+innehavaren&quot; eller motsvarande uttryck, g&#228;lle den s&#229;som betalbar till
+innehavaren.
+
+Check, som inte angiver, till vem betalningen skall ske, vare ock
+betalbar till innehavaren.
+
+6 &#167; check m&#229; lyda &#229; utst&#228;llarens egen order.
+
+Den m&#229; dragas f&#246;r tredje mans r&#228;kning.
+
+Den m&#229; ej dragas p&#229; utst&#228;llaren sj&#228;lv; dock m&#229; check, som ej &#228;r betalbar
+till innehavaren, dragas mellan skilda kontor av samma bank.
+
+7 &#167; Inneh&#229;ller check best&#228;mmelse om r&#228;nta, vare den best&#228;mmelse ogill.
+
+8 &#167; Check m&#229; lyda p&#229; betalning hos annan bank &#228;n trassatbanken, antingen
+&#229; ort, d&#228;r trassatbanken driver sin r&#246;relse, eller &#229; annan ort.
+
+9 &#167; &#196;r checksumma utsatt s&#229;v&#228;l i bokst&#228;ver som i siffror, men till olika
+belopp, g&#228;lle den i bokst&#228;ver utsatta summan.
+
+&#196;r checksumma utsatt flera g&#229;nger i bokst&#228;ver eller flera g&#229;nger i
+siffror, g&#228;lle, om beloppen &#228;ro olika, checken endast f&#246;r den minsta
+summan.
+
+10 &#167; Finnes underskrift &#229; check vara tecknad av person, som icke kan med
+laga verkan ing&#229; checkf&#246;rbindelse, eller &#228;r underskrift falsk eller
+tecknad i diktad persons namn eller av annan grund utan verkan emot
+undertecknaren eller den, &#229; vars v&#228;gnar den tecknats, svare &#246;vriga
+checkg&#228;lden&#228;rer likv&#228;l f&#246;r sina f&#246;rbindelser.
+
+11 &#167; Har n&#229;gon tecknat sitt namn &#229; check s&#229;som st&#228;llf&#246;retr&#228;dare f&#246;r
+annan, och &#228;gde han ej beh&#246;righet att handla &#229; dennes v&#228;gnar, svar
+e
+sj&#228;lv f&#246;r checkf&#246;rbindelsen men njute, d&#228;r han infriar checken, samma
+r&#228;tt, som skulle tillkommit den andre. Vad nu sagts g&#228;lle och om den,
+som &#228;ger f&#246;retr&#228;da annan men &#246;verskridit sin beh&#246;righet.
+
+12 &#167; Utst&#228;llare svare f&#246;r checkens betalning. Har han gjort f&#246;rbeh&#229;ll om
+att vara fri fr&#229;n dylik ansvarighet, vare det f&#246;rbeh&#229;ll utan verkan.
+
+13 &#167; Har check, som utgivits i ofullst&#228;ndigt skick, blivit utfylld p&#229;
+ett s&#228;tt, som strider mot tr&#228;ffad &#246;verenskommelse, m&#229; denna omst&#228;ndighet
+ej &#229;beropas emot checkinnehavaren, med mindre han vid checkens
+f&#246;rv&#228;rvande var i ond tro eller f&#246;rfor med grov v&#229;rdsl&#246;shet.
+
+2 kap. Om &#246;verl&#229;telse av check (indossament).
+
+14 &#167; Check, som &#228;r st&#228;lld till viss man, med eller utan uttryckligt
+angivande av att den g&#228;ller &quot;till order&quot;, m&#229; medelst p&#229;skrift &#246;verl&#229;tas
+till annan (indossatarie).
+
+Check, som &#228;r st&#228;lld till viss man med till&#228;gg av orden &quot;icke till
+order&quot; eller motsvarande uttryck, m&#229; ej &#246;verl&#229;tas i annan form eller med
+annan verkan &#228;n som i allm&#228;nhet g&#228;ller i fr&#229;ga om &#246;verl&#229;telse av
+fordran.
+
+Check m&#229; &#246;verl&#229;tas &#228;ven till utst&#228;llaren eller till tidigare &#246;verl&#229;tare
+eller till n&#229;gon, som &#229; checken tecknat borgen. S&#229;dan innehavare &#228;ge
+&#229;nyo &#246;verl&#229;ta checken.
+
+15 &#167; &#214;verl&#229;telse skall vara ovillkorlig. Villkor, varav dess giltighet
+gjorts beroende, vare utan verkan.
+
+&#214;verl&#229;telse, som avser en del av checksumman, vare ogill,
+
+&#214;verl&#229;telse, som tecknas av trassatbanken, vare j&#228;mv&#228;l ogill.
+
+&#214;verl&#229;telse till innehavaren g&#228;lle s&#229;som &#246;verl&#229;telse in blanco.
+
+&#214;verl&#229;telse till trassatbanken g&#228;lle blott s&#229;som kvitto, utan s&#229; &#228;r att
+banken har flera kontor och &#246;verl&#229;telsen skett till annat kontor &#228;n det,
+&#229; vilket checken dragits.
+
+16 &#167; &#214;verl&#229;telse skall tecknas &#229; sj&#228;lva checken eller &#229; ett d&#228;rvid
+h&#228;ftat blad (allonge). Den skall undertecknas av &#246;verl&#229;taren.
+
+&#214;verl&#229;telse vare giltig, &#228;ven om d&#228;ri ej &#228;r n&#228;mnt, till vem checken
+&#246;verl&#229;tes, eller &#246;verl&#229;taren allenast tecknat sitt namn (indossament in
+blanco). I sistn&#228;mnda fall skall &#246;verl&#229;telsen, f&#246;r att g&#228;lla, vara
+tecknad &#229; checkens baksida eller p&#229; vidh&#228;ftat blad.
+
+17 &#167; Genom &#246;verl&#229;telse varda alla av checken h&#228;rflytande r&#228;ttigheter
+&#246;verflyttade.
+
+Om &#246;verl&#229;telse tecknats i blanco, &#228;ge checkinnehavaren:
+
+1) ifylla den med sitt eller annans namn;
+
+2) teckna ny &#246;verl&#229;telse, in blanco eller till annan person; eller
+
+3) &#246;verl&#229;ta checken till annan person utan att ifylla &#246;verl&#229;telsen eller
+teckna ny &#246;verl&#229;telse.
+
+18 &#167; Den, som &#229; check tecknat &#246;verl&#229;telse, vare, s&#229;vitt han ej gjort
+s&#228;rskilt f&#246;rbeh&#229;ll, ansvarig f&#246;r checkens betalning.
+
+Han &#228;ge f&#246;rbjuda, att checken &#229;nyo &#246;verl&#229;tes; g&#246;r han det, vare fri fr&#229;n
+ansvarigheten emot dem, till vilka &#246;verl&#229;telse d&#228;refter sker.
+
+19 &#167; Har n&#229;gon i h&#228;nder en check, som enligt 14 &#167; f&#246;rsta stycket g&#228;ller
+till order, skall han anses som r&#228;tt innehavare av checken, s&#229; framt han
+styrker sin r&#228;tt till denna genom en oavbruten f&#246;ljd av &#246;verl&#229;telser,
+&#228;ven om den sista &#228;r in blanco. Utstrukna &#246;verl&#229;telser varde h&#228;rvid
+betraktade s&#229;som ej f&#246;refintliga. F&#246;ljer &#229; en &#246;verl&#229;telse in blanco
+annan &#246;verl&#229;telse, skall den, som undertecknat den senare, anses hava
+f&#246;rv&#228;rvat checken genom &#246;verl&#229;telsen in blanco.
+
+20 &#167; Har &#246;verl&#229;telse tecknats &#229; check, som lyder p&#229; betalning till
+innehavaren, svare den, som tecknat &#246;verl&#229;telsen, enligt vad nedan
+stadgas ang&#229;ende &#229;terg&#229;ngstalan, men checken g&#228;lle, oavsett
+&#246;verl&#229;telsen, s&#229;som betalbar till innehavaren.
+
+21 &#167; Har check f&#246;r n&#229;gon f&#246;rkommit, p&#229; vad s&#228;tt det vara m&#229;; &#228;r checken
+st&#228;lld till innehavaren eller styrker den, som f&#229;tt checken i h&#228;nder,
+sin r&#228;tt p&#229; s&#228;tt i 19 &#167; s&#228;gs, vare han ej pliktig att l&#228;mna checken
+ifr&#229;n sig, med mindre han vid dess f&#246;rv&#228;rvande var i ond tro eller
+f&#246;rfor med grov v&#229;rdsl&#246;shet.
+
+22 &#167; Den, mot vilken talan p&#229; grund av check g&#246;res g&#228;llande, &#228;ge ej mot
+innehavaren framst&#228;lla inv&#228;ndningar, som grundas p&#229; den f&#246;rres s&#228;rskilda
+f&#246;rh&#229;llande till utst&#228;llaren eller till f&#246;reg&#229;ende checkinnehavare, med
+mindre innehavaren vid checkens f&#246;rv&#228;rvande upps&#229;tligen handlat till
+g&#228;lden&#228;rens f&#246;rf&#229;ng.
+
+23 &#167; Inneh&#229;ller &#246;verl&#229;telse orden &quot;valuta till indrivning&quot;, &quot;till
+inkasso&quot; eller annat uttryck, som angiver, att &#246;verl&#229;telsen endast
+innefattar ett uppdrag (prokuraindossament), &#228;ge innehavaren av checken
+att g&#246;ra g&#228;llande alla av denna h&#228;rflytande r&#228;ttigheter men icke att
+&#246;verl&#229;ta den annorledes &#228;n medelst ny prokura&#246;verl&#229;telse.
+
+Checkg&#228;lden&#228;r &#228;ge, i fall som nu sagts, ej mot checkinnehavaren
+framst&#228;lla andra inv&#228;ndningar &#228;n dem han kunnat g&#246;r g&#228;llande mot
+&#246;verl&#229;taren.
+
+Uppdrag, som innefattas i prokura&#246;verl&#229;telse, vare ej f&#246;rfallet, om
+&#246;verl&#229;taren d&#246;r eller f&#246;rlorar f&#246;rm&#229;gan att med laga verkan f&#246;retaga
+r&#228;ttshandling.
+
+24 &#167; &#214;verl&#229;telse, som tecknas efter det protest eller d&#228;rmed likst&#228;llt
+bestyrkande &#228;ga rum eller efter utg&#229;ngen av den f&#246;r checkens uppvisande
+till betalning best&#228;mda tid, &#228;ge ej annan verkan &#228;n som i allm&#228;nhet
+f&#246;ljer av fordrans &#246;verl&#229;tande.
+
+Finnes &#229; checken &#246;verl&#229;telse, som ej &#228;r dagtecknad, skall den, s&#229;framt
+ej annat styrkes, anses hava tillkommit, innan protest eller d&#228;rmed
+likst&#228;llt bestyrkande &#228;gt rum eller tiden f&#246;r checkens uppvisande g&#229;tt
+till &#228;nda.
+
+3 kap. Om bekr&#228;ftande av check
+
+25 &#167; Har trassatbank f&#246;rsett check med undertecknad p&#229;skrift, som giver
+anledning till antagande, att checken kommer att av banken betalas
+(&quot;bekr&#228;ftas&quot;, &quot;certifieras&quot;, &quot;noteras&quot;, &quot;viseras&quot; eller dylikt), eller
+har banken anbragt sin blotta firmateckning &#229; checkens framsida, och
+varder checken uppvisad till betalning inom tid, som &#228;r stadgad i 29 &#167;,
+vare banken pliktig att infria checken.
+
+Tecknas av trassatbanken p&#229;skrift, som innefattar f&#246;rpliktelse att &#228;ven
+efter utg&#229;ngen av den i 29 &#167; stadgade tid infria checken, vare verkan av
+p&#229;skriften dock ej annan &#228;n i f&#246;rsta stycket s&#228;gs.
+
+Infrias ej checken, &#228;ge innehavaren, j&#228;mv&#228;l d&#228;r han &#228;r utst&#228;llare, att
+p&#229; grund av checken omedelbart av trassatbanken kr&#228;va att utbekomma
+allt, som skall g&#228;ldas j&#228;mligt 45 och 46 &#167;&#167;.
+
+4 kap. Om checkborgen (aval)
+
+26 &#167; F&#246;r betalning av checksumman eller en del d&#228;rav m&#229; s&#228;kerhet st&#228;llas
+medelst checkborgen (aval). S&#229;dan borgen m&#229; l&#228;mnas s&#229;v&#228;l av
+checkg&#228;lden&#228;r som av tredje man, dock icke av trassatbanken.
+
+Checkborgen skall tecknas &#229; checken eller ett d&#228;rvid h&#228;ftat blad. S&#229;dan
+borgen uttryckes genom orden &quot;s&#229;som aval&quot; eller annat motsvarande
+uttryck; den skall undertecknas av borgesmannen. Checkborgen m&#229; &#228;ven
+l&#228;mnas medelst borgesmannens blotta namnteckning &#229; checkens framsida,
+dock icke av utst&#228;llaren. Checkborgen skall utvisa, f&#246;r vem den ing&#229;tts.
+I brist p&#229; uppgift h&#228;rom skall den anses ing&#229;ngen f&#246;r utst&#228;llaren.
+
+27 &#167; Den, som tecknat checkborgen, svare lika med den, f&#246;r vilken borgen
+ing&#229;tts.
+
+Hans utf&#228;stelse g&#228;lle, &#228;nd&#229; att den f&#246;rbindelse, f&#246;r vilken han g&#229;tt i
+borgen, &#228;r ogiltig, dock ej d&#228;r ogiltigheten h&#228;rr&#246;r av brist i formen.
+
+Har checkborgesman infriat check, intr&#228;de han i den r&#228;tt checken medf&#246;r
+mot den, f&#246;r vilken borgen ing&#229;tts, &#228;vensom mot dem, som p&#229; grund av
+checken &#228;ro ansvariga i f&#246;rh&#229;llande till denne.
+
+5 kap. Om uppvisande och betalning av check
+
+28 &#167; Check vare betalbar vid uppvisandet. Varje h&#228;remot stridande
+best&#228;mmelse &#228;r ogill.
+
+Check, som uppvisas till betalning f&#246;re den dag, d&#229; den angives vara
+utst&#228;lld, vare betalbar &#229; uppvisningsdagen.
+
+29 &#167; Check skall uppvisas till betalning inom tjugu dagar eller, om
+checken &#228;r utst&#228;lld i n&#229;got utom Europa bel&#228;get land, som ej gr&#228;nsar
+till Medelhavet, inom sjuttio dagar.
+
+Tid, som i f&#246;rsta stycket s&#228;gs, skall r&#228;knas fr&#229;n den dag, som i checken
+&#228;r angiven s&#229;som utst&#228;llningsdag.
+
+30 &#167; Har check dragits mellan tv&#229; orter med olika tidr&#228;kning, skall vid
+uppvisningstidens best&#228;mmande checken anses utst&#228;lld den dag, som enligt
+betalningsortens tidr&#228;kning motsvarar utst&#228;llningsdagen.
+
+31 &#167; Inl&#228;mnas check &#229; avr&#228;kningskontor (clearing house), g&#228;lle det s&#229;som
+uppvisande till betalning.
+
+32 &#167; Har utst&#228;llaren meddelat trassatbanken, att han &#229;terkallar checken,
+&#228;r banken icke, med mindre annat f&#246;ljer av 25 &#167;, ber&#228;ttigad att erl&#228;gga
+betalning.
+
+Trassatbanken &#228;ge &#228;ven efter uppvisningstidens utg&#229;ng infria checken, s&#229;
+l&#228;nge den ej blivit &#229;terkallad.
+
+Om straff f&#246;r den, som f&#246;re uppvisningstidens utg&#229;ng utan sk&#228;lig
+anledning till checkinnehavarens f&#246;rf&#229;ng &#229;terkallar check eller f&#246;rfogar
+&#246;ver t&#228;ckningen, stadgas i 74 &#167;.
+
+33 &#167; D&#246;r utst&#228;llare av check, eller f&#246;rlorar han f&#246;rm&#229;gan att med laga
+verkan f&#246;retaga r&#228;ttshandling, inverkar detta ej &#229; checkens giltighet.
+
+34 &#167; D&#229; check infrias, varde, d&#228;r trassatbanken det &#228;skar, checken
+utl&#228;mnad till banken med d&#228;r&#229; av innehavaren tecknat kvitto.
+
+Checkinnehavare m&#229; ej v&#228;gra att mottaga betalning, som t&#228;cker allenast
+en del av checksumman.
+
+Sker s&#229;dan betalning, skall, om trassatbanken det beg&#228;r, anteckning
+d&#228;rom g&#246;ras &#229; checken och s&#228;rskilt kvitto l&#228;mnas.
+
+35 &#167; Vid infriande av check, som enligt 14 &#167; f&#246;rsta stycket g&#228;ller till
+order, vare trassatbanken pliktig att f&#246;rvissa sig om att &#246;verl&#229;telserna
+utg&#246;r en beh&#246;rigen sammanh&#228;ngande f&#246;ljd, men ej att pr&#246;va &#228;ktheten av
+&#246;verl&#229;tarnas underskrifter.
+
+36 &#167; &#196;r check st&#228;lld att betalas i myntslag, som icke &#228;r g&#229;ngbart &#229;
+betalningsorten, m&#229;, intill uppvisningstidens utg&#229;ng, betalning i
+st&#228;llet erl&#228;ggas i landets mynt efter v&#228;rdet &#229; betalningsdagen. Erl&#228;gges
+ej betalning vid checkens uppvisande, &#228;ge innehavaren kr&#228;va, att den
+erl&#228;gges i landets mynt, s&#229; ock best&#228;mma, huruvida v&#228;rdet d&#228;rvid skall
+ber&#228;knas efter uppvisningsdagens eller betalningsdagens kurs.
+
+Vid ber&#228;kning av fr&#228;mmande myntslags v&#228;rde skola de &#229; betalningsorten
+g&#228;llande handelsbruk iakttagas, med mindre utst&#228;llaren f&#246;reskrivits, att
+checksumman skall ber&#228;knas efter en i checken angiven kurs.
+
+F&#246;rest&#229;ende regler &#228;ge ej till&#228;mpning, d&#228;r utst&#228;llaren f&#246;reskrivit
+betalning i visst fr&#228;mmande myntslag (f&#246;rbeh&#229;ll om effektiv betalning i
+fr&#228;mmande mynt).
+
+&#196;r checksumman angiven i myntslag, som har enahanda ben&#228;mning men olika
+v&#228;rde i det land, d&#228;r checken utst&#228;llts, och det, d&#228;r den skall betalas,
+skall det &#229; betalningsorten g&#228;llande myntslag antagas vara avsett.
+
+6 kap. Om korsad check
+
+37 &#167; Utst&#228;llare eller innehavare av check m&#229; korsa densamma med den
+verkan som nedan i 38 &#167; s&#228;gs.
+
+Korsning verkst&#228;lles genom anbringande av tv&#229; j&#228;mnl&#246;pande streck &#229;
+checkens framsida.
+
+Korsning kan vara allm&#228;n eller s&#228;rskild. Korsningen &#228;r allm&#228;n, d&#229; den
+best&#229;r av allenast de tv&#229; strecken, eller d&#229; mellan dessa ordet &quot;bank&quot;
+eller motsvarande uttryck anbragts; den &#228;r s&#228;rskild, d&#229; namnet &#229; en bank
+utsatts mellan strecken.
+
+Allm&#228;n korsning m&#229; &#228;ndras till s&#228;rskild korsning men s&#228;rskild korsning
+icke till allm&#228;n.
+
+Utstrykes korsningen eller namnet &#229; banken, vare det ogillt.
+
+38 &#167; Check med allm&#228;n korsning m&#229; trassatbanken betala allenast till
+bank eller till kund hos trassatanken.
+
+Check med s&#228;rskild korsning m&#229; trassatbanken betala allenast till den
+namngivna banken eller, om denna &#228;r trassatbanken sj&#228;lv, till en av sina
+kunder. Den namngivna banken m&#229; dock inkassera checken genom en annan
+bank.
+
+Bank m&#229; endast av kund eller av annan bank f&#246;rv&#228;rva korsad check och m&#229;
+ej f&#246;r andra &#228;n de nu n&#228;mnda inkassera s&#229;dan check.
+
+Check med flera s&#228;rskilda korsningar m&#229; ej av trassatbanken infrias, med
+mindre fr&#229;ga &#228;r om tv&#229; dylika korsningar och den ena avser inkassering
+genom avr&#228;kningskontor.
+
+Bank, som &#229;sidos&#228;tter vad i denna paragraf &#228;r stadgat, svare f&#246;r skadan,
+dock icke ut&#246;ver checksumman.
+
+39 &#167; D&#228;r check, som &#228;r utst&#228;lld utom riket, &#228;r tv&#228;rs &#246;ver framsidan
+f&#246;rsedd med p&#229;teckningen &quot;blott till avr&#228;kning&quot; eller motsvarande
+uttryck, skall vad om korsad check &#228;r stadgat &#228;ga till&#228;mpning.
+
+7 kap. Om &#229;terg&#229;ngstalan (regress) f&#246;r bristande betalning
+
+40 &#167; Varder check, som i r&#228;tt tid uppvisats, ej infriad, &#228;ge innehavaren
+v&#228;cka &#229;terg&#229;ngskrav mot &#246;verl&#229;tare, utst&#228;llaren och andra
+checkg&#228;lden&#228;rer, sedan betalningens uteblivande styrkts:
+
+1) genom en av offentlig myndighet uppr&#228;ttad handling (protest);
+
+2) genom av en trassatbanken &#229; checken tecknad, daterad f&#246;rklaring, vari
+dagen f&#246;r uppvisandet angives; eller
+
+3) genom en av ett avr&#228;kningskontor avgiven, daterad f&#246;rklaring, som
+utvisar, att checken dit inl&#228;mnats i r&#228;tt tid men icke infriats.
+
+41 &#167; Protest eller d&#228;rmed likst&#228;llt bestyrkande skall verkst&#228;llas f&#246;re
+uppvisningstidens utg&#229;ng.
+
+Om uppvisandet &#228;gt rum &#229; uppvisingstidens sista dag, m&#229; protest eller
+d&#228;rmed likst&#228;llt bestyrkande &#228;ga rum p&#229;f&#246;ljande s&#246;ckendag.
+
+42 &#167; Har betalning uteblivit, &#229;ligger det checkinnehavaren att h&#228;rom
+giva den, som senast tecknat &#246;verl&#229;telse &#229; checken, s&#229; ock utst&#228;llaren,
+underr&#228;ttelse senast fj&#228;rde s&#246;ckendagen fr&#229;n det protest eller d&#228;rmed
+likst&#228;llt bestyrkande &#228;gde rum eller, d&#228;r f&#246;rebeh&#229;ll gjorts om &#229;terg&#229;ng
+utan kostnad, fr&#229;n uppvisningsdagen. Varje &#246;verl&#229;tare, som mottagit
+s&#229;dan underr&#228;ttelse, skall sist andra s&#246;ckendagen d&#228;refter om
+f&#246;rh&#229;llandet l&#228;mna meddelande till den, som n&#228;st f&#246;re honom tecknat
+&#246;verl&#229;telse &#229; checken, med uppgift &#229; namn och adresser &#229; dem, som l&#228;mnat
+f&#246;reg&#229;ende underr&#228;ttelser, och s&#229; vidare, till dess meddelandet n&#229;tt
+utst&#228;llaren. Tiden av tv&#229; s&#246;ckendagar r&#228;knas fr&#229;n mottagandet av den
+f&#246;reg&#229;ende underr&#228;ttelsen.
+
+D&#229;, p&#229; s&#228;tt i n&#228;stf&#246;reg&#229;ende stycke stadgas, underr&#228;ttelse givits
+checkg&#228;lden&#228;r, skall inom samma tid enahanda underr&#228;ttelse meddelas den,
+som m&#229; hava f&#246;r honom ing&#229;tt checkborgen.
+
+I h&#228;ndelse &#246;verl&#229;tare icke utsatt sin adress eller denna &#228;r ol&#228;slig,
+skall skyldigheten att l&#228;mna underr&#228;ttelse anses fullgjord, om den
+l&#228;mnas den &#246;verl&#229;tare, som n&#228;rmast f&#246;reg&#229;r honom.
+
+Den, som &#228;r pliktig att meddela underr&#228;ttelse, varom nu sagts, &#228;ge l&#228;mna
+den p&#229; vad s&#228;tt som helst, j&#228;mv&#228;l medelst blotta &#246;vers&#228;ndandet av
+checken.
+
+Det &#229;ligger honom att styrka, att underr&#228;ttelsen l&#228;mnats inom den
+f&#246;reskrivna tiden. Denna skall anses iakttagan, om f&#246;re dess utg&#229;ng brev
+inneh&#229;llande underr&#228;ttelsen avl&#228;mnats till posten.
+
+F&#246;rsummelse att giva underr&#228;ttelse inom ovan n&#228;mnd tid medf&#246;re ej
+f&#246;rlust av &#229;terg&#229;ngskrav, men v&#228;l ansvarighet f&#246;r den skada, som kan
+hava f&#246;rorsakats av f&#246;rsummelsen. Ej m&#229; dock i ty fall skadest&#229;nd s&#228;ttas
+h&#246;gre &#228;n till checksumman.
+
+43 &#167; Utst&#228;llare, &#246;verl&#229;tare eller checkborgesman &#228;ge, genom att &#229;
+checken ins&#228;tta orden &quot;retur utan kostnad&quot;, &quot;utan protest&quot; eller annat
+motsvarande uttryck och f&#246;rse p&#229;teckningen med sin underskrift, fritaga
+checkinnehavaren fr&#229;n skyldigheten att f&#246;r bevarande av sin r&#228;tt till
+&#229;terg&#229;ngstalen upptaga protest eller ombes&#246;rja d&#228;rmed likst&#228;llt
+bestyrkande.
+
+S&#229;dant f&#246;rbeh&#229;ll fritage icke innehavaren fr&#229;n skyldighet vare sig att
+uppvisa checken inom f&#246;reskriven tid eller att giva underr&#228;ttelse s&#229;som
+i 42 &#167; s&#228;gs. Den, som mot checkinnehavaren p&#229;st&#229;r, att f&#246;reskriven tid
+icke iakttagits, har att d&#228;rom f&#246;ra bevis.
+
+Har f&#246;rbeh&#229;ll, som nu sagts, gjorts av utst&#228;llaren, &#228;ge det verkan i
+avseende &#229; alla checkg&#228;lden&#228;rerna; &#228;r f&#246;rbeh&#229;llet gjort av &#246;verl&#229;tare
+eller av checkborgesman, &#228;ge det ej verkan i fr&#229;ga om annan &#228;n denne.
+Har, oaktat f&#246;rbeh&#229;ll fr&#229;n utst&#228;llarens sida, innehavaren l&#229;tit
+verkst&#228;lla protest eller d&#228;rmed likst&#228;llt bestyrkande, st&#229;nde han sj&#228;lv
+kostnaden. &#196;r f&#246;rbeh&#229;ll gjort av &#246;verl&#229;tare eller checkborgesman, m&#229;,
+d&#228;r protest eller d&#228;rmed likst&#228;llt bestyrkande &#228;ndock &#228;gt rum, talan om
+&#229;terg&#228;ldande av kostnaden h&#228;rf&#246;r g&#246;ras g&#228;llande mot varje checkg&#228;lden&#228;r.
+
+
+44 &#167; Checkg&#228;lden&#228;rer vare i f&#246;rh&#229;llande till innehavaren ansvariga, en
+f&#246;r alla och alla f&#246;r en.
+
+Checkinnehavaren &#228;ge anst&#228;lla talan mot vilken som helst av dem,
+antingen mot envar f&#246;r sig eller mot flera gemensamt, utan att vara
+bunden vid den ordning, i vilken deras f&#246;rpliktelser ing&#229;tts.
+
+Samma r&#228;tt tillkomme varje checkg&#228;lden&#228;r, som infriat checken,
+
+Har talan anh&#228;ngiggjorts mot en av checkg&#228;lden&#228;rerna, utg&#246;re den
+omst&#228;ndighet ej hinder f&#246;r talans anst&#228;llande mot annan checkg&#228;lden&#228;r,
+&#228;nd&#229; att han i ordningen f&#246;ljer efter den, mot vilken talan f&#246;rst
+gjordes g&#228;llande.
+
+45 &#167; Checkinnehavare &#228;ge r&#228;tt att av den, mot vilken han v&#228;cker
+&#229;terg&#229;ngskrav, bekomma:
+
+1) den ej erlagda checksumman;
+
+2) r&#228;nta efter sex f&#246;r hundra om &#229;ret fr&#229;n uppvisningsdagen; samt
+
+3) ers&#228;ttning f&#246;r kostnader f&#246;r protest eller d&#228;rmed likst&#228;llt
+bestyrkande, utgifter f&#246;r underr&#228;ttelser, som avses i 42 &#167;, &#228;vensom
+andra kostnader.
+
+46 &#167; Den, som inl&#246;st check, &#228;ge r&#228;tt att av dem, som i f&#246;rh&#229;llande till
+honom svara f&#246;r checken, bekomma:
+
+1) hela det belopp han sj&#228;lv betalt;
+
+2) r&#228;nta &#229; detta belopp efter sex f&#246;r hundra om &#229;ret fr&#229;n den dag han
+erlagt betalningen; samt
+
+3) ers&#228;ttning f&#246;r egna utgifter.
+
+47 &#167; Varje checkg&#228;lden&#228;r, mot vilken &#229;terg&#229;ngskrav &#228;r v&#228;ckt eller kan
+g&#246;ras g&#228;llande, &#228;ge, mot g&#228;ldande av &#229;terg&#229;ngsfordringen, r&#228;tt att
+utbekomma checken j&#228;mte protesten eller det d&#228;rmed likst&#228;llda
+bestyrkandet och kvitterad r&#228;kning.
+
+&#214;verl&#229;tare, som inl&#246;st checken, &#228;ge utstryka sin egen och efterf&#246;ljande
+&#246;verl&#229;telser.
+
+48 &#167; Kan uppvisande av check eller ock protest eller d&#228;rmed likst&#228;llt
+bestyrkande ej inom beh&#246;rig tid &#228;ga rum p&#229; grund av lagbud, som
+utf&#228;rdats inom eller utom riket, eller annat o&#246;verstigligt hinder (force
+majeure), varde tiden f&#246;r s&#229;dan &#229;tg&#228;rds f&#246;retagande f&#246;rl&#228;ngd.
+
+Innehavaren av checken vare pliktig att om s&#229;dant hinders f&#246;rekomst utan
+dr&#246;jms&#229;l l&#228;mna underr&#228;ttelse till den, som senast tecknat &#246;verl&#229;telse &#229;
+checken, samt att om denna underr&#228;ttelse g&#246;ra anteckning &#229; checken eller
+d&#228;rvid h&#228;ftat blad; och skall denna antecknad vara dagtecknad och av
+innehavaren underskriven. I &#246;vrigt &#228;ge best&#228;mmelserna i 42 &#167;
+till&#228;mpning.
+
+Efter hindrets upph&#246;rande &#229;ligger innehavaren att of&#246;rdr&#246;jligen uppvisa
+checken till betalning samt, om s&#229; erfordras, upptaga protest eller
+ombes&#246;rja d&#228;rmed likst&#228;llt bestyrkande.
+
+Fortfar hindret l&#228;ngre &#228;n femton dagar efter den dag, f&#246;re eller efter
+uppvisningstidens ug&#229;ng, d&#229; innehavaren om hindret underr&#228;ttat den, som
+senast tecknat &#246;verl&#229;telse &#229; checken, m&#229; &#229;terg&#229;ngskrav g&#246;ras g&#228;llande
+utan att uppvisande eller protest eller d&#228;rmed likst&#228;llt bestyrkande
+f&#246;reg&#229;tt.
+
+H&#228;ndelse, som ber&#246;r allenast checkinnehavaren eller den, &#229;t vilken han
+uppdragit checkens uppvisande eller f&#246;ranstaltande av protest eller
+d&#228;rmed likst&#228;llt bestyrkande, skall ej anses s&#229;som hinder, varom i denna
+paragraf s&#228;gs.
+
+8 kap. Om duplett av check.
+
+49 &#167; Den, som vill draga check g&#228;llande till order eller till viss man
+och betalbar utom riket, m&#229; utst&#228;lla checken i flera lika lydande
+exemplar. Varje exemplar skall inneh&#229;lla nummerbeteckning i sj&#228;lva
+texten; &#228;ro exemplaren ej s&#229;lunda betecknade, g&#228;lle vart och ett s&#229;som
+sj&#228;lvst&#228;ndig check.
+
+50 &#167; Infriande av ett checkexemplar medf&#246;re frihet fr&#229;n vidare
+betalningsskyldighet f&#246;r checken, &#228;nd&#229; att f&#246;rbeh&#229;ll ej tr&#228;ffats att
+genom s&#229;dant infriande &#246;vriga exemplar bliva kraftl&#246;sa; dock svare
+trassatbanken efter ty i 25 &#167; s&#228;gs f&#246;r varje exemplar, som &#228;r f&#246;rsett
+med bankens bekr&#228;ftelse och icke till banken &#229;terst&#228;llts.
+
+&#214;verl&#229;tare, som till olika personer &#246;verl&#229;tit exemplar av checken, s&#229;
+ock annan, som senare &#246;verl&#229;tit checkexemplar, svare f&#246;r varje
+utel&#246;pande exemplar som &#228;r f&#246;rsett med hans namnteckning.
+
+9 kap. Om &#228;ndringar i check.
+
+51 &#167; Har check underg&#229;tt &#228;ndring i texten, svare de, som efter &#228;ndringen
+tecknat sitt namn &#229; checken, j&#228;mlikt den &#228;ndrade texten. De, som f&#246;rut
+tecknat sitt namn &#229; checken, vare ansvariga j&#228;mlikt den ursprungliga
+texten.
+
+10 kap. Om checks preskription.
+
+52 &#167; Fordran, som tillkommer checkinnehavare mot &#246;verl&#229;tare, utst&#228;llaren
+och &#246;vriga checkg&#228;lden&#228;rer, vare preskriberad sex m&#229;nader fr&#229;n utg&#229;ngen
+av uppvisningstiden.
+
+Har checkg&#228;lden&#228;r inl&#246;st checken, preskriberas hans fordran mot &#246;vriga
+checkg&#228;lden&#228;rer sex m&#229;nader fr&#229;n den dag, d&#229; han sj&#228;lv inl&#246;ste checken
+eller mot honom vidtogs &#229;tg&#228;rd, som i 53 &#167; s&#228;gs.
+
+53 &#167; Checkpreskription avbryts genom:
+
+delgivning av st&#228;mning till svensk domstol, kung&#246;rande av
+r&#228;tteg&#229;ng vid svensk domstol eller delgivning av ans&#246;kan om
+betalningsf&#246;rel&#228;ggande hos Kronofogdemyndigheten i Sverige;
+
+checkfordringens &#229;beropande f&#246;r kvittning vid svensk domstol;
+
+fordringens bevakning i g&#228;lden&#228;rens h&#228;r i riket anh&#228;ngiga
+konkurs; eller
+
+dess anm&#228;lande under h&#228;r i riket p&#229;g&#229;ende ackordsf&#246;rhandling
+utan konkurs.
+
+Genom checkfordrans anh&#228;ngigg&#246;rande vid domstol i fr&#228;mmande
+stat avbrytes preskription, d&#228;r g&#228;lden&#228;ren har hemvist i den
+staten eller, utan inv&#228;ndning mot domstolens beh&#246;righet,
+inst&#228;ller sig i m&#229;let eller personligen erh&#229;llit del av
+st&#228;mningen. Lika med checkfordrans anh&#228;ngigg&#246;rande vid utl&#228;ndsk
+domstol anses kung&#246;rande av r&#228;tteg&#229;ng vid s&#229;dan domstol enligt
+d&#228;r g&#228;llande lag. Har i fr&#228;mmande stat fordringen bevakats i
+checkg&#228;lden&#228;rs konkurs eller anm&#228;lts under ackordsf&#246;rhandling
+utan konkurs, vare preskription d&#228;rigenom avbruten, d&#228;r
+checkg&#228;lden&#228;ren vid konkursens eller ackordsf&#246;rhandlingens
+b&#246;rjan hade hemvist i den fr&#228;mmande staten. Checkfordrans
+&#229;beropande f&#246;r kvittning vid utl&#228;ndsk domstol medf&#246;re ock
+avbrott i preskription.
+
+Preskription avbrytes icke i f&#246;rh&#229;llande till annan &#228;n den, mot
+vilken &#229;tg&#228;rd f&#246;r preskriptionens avbrytande vidtagits, men
+avbrottet g&#228;lle till f&#246;rdel f&#246;r alla checkg&#228;lden&#228;rer, vilka
+f&#246;reg&#229; den, som vidtagit &#229;tg&#228;rden.
+
+Har preskription avbrutits, men varder det m&#229;l eller &#228;rende,
+vari checkkravet gjorts g&#228;llande, ej f&#246;rt till slut, skall ny
+preskriptionstid begynna att l&#246;pa fr&#229;n den dag, d&#229; m&#229;let eller
+&#228;rendet sist handlades.
+
+M&#246;ter f&#246;r vidtagande av &#229;tg&#228;rd f&#246;r preskriptionens avbrytande
+hinder, som i 48 &#167; s&#228;gs, vare checkr&#228;tten bevarad, d&#228;rest
+&#229;tg&#228;rden f&#246;retages inom en m&#229;nad efter hindrets upph&#246;rande.
+Lag (2006:676).
+
+11 kap. Allm&#228;nna best&#228;mmelser.
+
+54 &#167; S&#229;som bank anses i denna lag, f&#246;rutom envar som f&#229;r driva
+bankr&#246;relse, &#228;ven kreditmarknadsf&#246;retag samt bolag eller annan
+inr&#228;ttning, som enligt Konungens s&#228;rskilda medgivande m&#229;
+tillhandag&#229; med h&#229;llande av checkr&#228;kning. Lag (2004:418).
+
+55 &#167; Checks uppvisande till betalning samt upptagande av protest m&#229; &#228;ga
+rum allenast &#229; s&#246;ckendag.
+
+D&#229; den sista dagen av stadgad tid f&#246;r vidtagande av &#229;tg&#228;rd betr&#228;ffande
+check, s&#228;rskilt dennas uppvisande till betalning eller verkst&#228;llande av
+protest eller d&#228;rmed likst&#228;llt bestyrkande, &#228;r s&#246;ndag eller annan allm&#228;n
+helgdag, varde tiden utstr&#228;ckt att omfatta j&#228;mv&#228;l p&#229;f&#246;ljande s&#246;ckendag.
+Vid tids ber&#228;knande skola mellanliggande helgdagar medr&#228;knas.
+
+Likst&#228;llda med allm&#228;n helgdag enligt denna lag &#228;ro l&#246;rdagar samt
+midsommarafton, julafton och ny&#229;rsafton. Lag (1974:758).
+
+56 &#167; Vid ber&#228;kning av tid, inom vilken enligt denna lag &#229;tg&#228;rd skall
+vidtagas, varde den dag, fr&#229;n vilken tiden skall l&#246;pa, ej medr&#228;knad.
+
+Uppskovsdagar &#228;ge enligt denna lag ej rum.
+
+57 &#167; &#196;r checkfordran preskriberad, eller har checkr&#228;tten g&#229;tt f&#246;rlorad
+genom f&#246;rsummelse att f&#246;retaga n&#229;gon f&#246;r dess bevarande f&#246;reskriven
+handling, st&#229;nde dock checkinnehavaren &#246;ppet att, s&#229;som i vanligt
+skuldfordringsm&#229;l, hos checkg&#228;lden&#228;r uts&#246;ka vad denna till
+fordrings&#228;garens skada skulle vinna, d&#228;r fordringen f&#246;rf&#246;lle; och skall,
+i saknad av utredning om annat f&#246;rh&#229;llande, utst&#228;llaren anses till
+fordrings&#228;garens skada g&#246;ra vinst, motsvarande checksumman, d&#228;r
+fordringen f&#246;rfaller.
+
+12 kap. Om f&#246;rh&#229;llandet till fr&#228;mmande lag.
+
+58 &#167; Svensk medborgares beh&#246;righet att ing&#229; checkf&#246;rbindelse varde, &#228;nd&#229;
+att han ej h&#228;r i riket hade hemvist eller att f&#246;rbindelsen &#228;r ing&#229;ngen
+utom riket, bed&#246;md efter svensk lag.
+
+Utl&#228;ndsk meborgares beh&#246;righet att ing&#229; checkf&#246;rbindelse varde bed&#246;md
+efter lagen i den stat han tillh&#246;r. Inneh&#229;ller n&#228;mnda lag, att en annan
+stats lag skall till&#228;mpas, l&#228;nde det till efterr&#228;ttelse.
+
+&#196;r enligt lag, som s&#229;lunda skall g&#228;lla, utl&#228;ndsk medborgare obeh&#246;rig att
+ing&#229; checkf&#246;rbindelse, vare han &#228;ndock h&#228;r i riket f&#246;r dylik f&#246;rbindelse
+ansvarig, d&#228;r han &#229;tagit sig den inom en stat, enligt vars lag han var
+d&#228;rtill beh&#246;rig.
+
+59 &#167; Fr&#229;gan &#229; vem check m&#229; dragas varde bed&#246;md enligt lagen i den stat,
+d&#228;r checken skall betalas; dock vare check, som utst&#228;llts i annan stat,
+ej i n&#229;got fall ogiltig p&#229; den grund att den dragits &#229; n&#229;gon, som enligt
+n&#228;mnda lag ej kan vara trassat.
+
+&#196;r enligt vad i f&#246;rsta stycket s&#228;gs handling ogiltig s&#229;som check,
+inverkar detta ej p&#229; giltigheten av f&#246;rbindelse, som &#229; handlingen
+tecknas i stat, enligt vars lagstiftning den, &#229; vilken checken dragits,
+skulle kunnat vara trassat.
+
+60 &#167; I fr&#229;ga om checkf&#246;rbindelses form skall lagen i den stat, d&#228;r
+f&#246;rbindelsen undertecknats, l&#228;nda till efterr&#228;ttelse; dock vare i varje
+h&#228;ndelse tillfyllest, att lagen &#229; betalningsorten blivit iakttagen.
+
+D&#228;r, p&#229; grund av vad nu &#228;r sagt, checkf&#246;rbindelse saknar giltighet, men
+den skulle varit g&#228;llande, om den tillkommit i viss annan stat, d&#228;r
+f&#246;rbindelse senare &#229;tecknats checken, m&#229; den tidigare f&#246;rbindelsens
+ogiltighet ej medf&#246;ra, att &#228;ven den senare anses ogiltig.
+
+61 &#167; R&#228;ttsverkningarna av checkf&#246;rbindelse skola, d&#228;r ej h&#228;r nedan
+annorledes stadgas, bed&#246;mas enligt lagen i den stat, d&#228;r f&#246;rbindelsen
+undertecknades.
+
+62 &#167; Tid f&#246;r framst&#228;llande av &#229;terg&#229;ngskrav skall i fr&#229;ga om samtliga
+checkg&#228;lden&#228;rer ber&#228;knas enligt lagen i den stat, d&#228;r checken
+utst&#228;lldes.
+
+63 &#167; Enligt lagen i den stat, d&#228;r check &#228;r betalbar, skall bed&#246;mas:
+
+1) om checken m&#229;ste vara betalbar vid uppvisandet eller om den m&#229;
+utst&#228;llas att betalas viss tid efter uppvisandet samt verkan d&#228;rav, att
+checken daterats f&#246;r senare dag &#228;n den verkliga dagen f&#246;r utst&#228;llandet;
+
+2) uppvisningstiden;
+
+3) om checken m&#229; godk&#228;nnas, bekr&#228;ftas eller viseras samt verkan av
+p&#229;skrift h&#228;rom;
+
+4) om innehavaren m&#229; fordra betalning, som t&#228;cker allenast en del av
+checksumman, och om han &#228;r pliktig att mottaga s&#229;dan betalning;
+
+5) om checken m&#229; korsas eller f&#246;rses med p&#229;teckningen &quot;blott till
+avr&#228;kning&quot; eller motsvarande uttryck samt om verkan av s&#229;dan &#229;tg&#228;rd;
+
+6) om innehavaren &#228;ger s&#228;rskild r&#228;tt till t&#228;ckningen och beskaffenheten
+av s&#229;dan r&#228;tt;
+
+7) om utst&#228;llaren m&#229; &#229;terkalla checken eller eljest vidtaga &#229;tg&#228;rd till
+f&#246;rhindrande av dess betalning;
+
+8) vilka &#229;tg&#228;rder m&#229; vidtagas, n&#228;r checken obeh&#246;rigen fr&#229;nh&#228;nts
+innehavaren eller f&#246;rkommit; samt
+
+9) om protest eller d&#228;rmed likst&#228;llt bestyrkande erfordras f&#246;r bevarande
+av r&#228;tt till &#229;terg&#229;ngstalen mot &#246;verl&#229;tare, utst&#228;llaren eller annan
+checkg&#228;lden&#228;r.
+
+64 &#167; Betr&#228;ffande tiden och s&#228;ttet f&#246;r verkst&#228;llande av protest eller
+d&#228;rmed likst&#228;llt bestyrkande, s&#229; ock betr&#228;ffande s&#228;ttet f&#246;r
+verkst&#228;llande av andra &#229;tg&#228;rder, som &#228;ro av n&#246;den f&#246;r ut&#246;vande eller
+bevarande av r&#228;tt p&#229; grund av check, g&#228;lle lagen i den stat, d&#228;r protest
+eller annan &#229;tg&#228;rd, varom fr&#229;ga &#228;r, skall verkst&#228;llas.
+
+65 &#167; Skall, efter ty h&#228;r f&#246;rut &#228;r sagt, i visst m&#229;l fr&#228;mmande lag l&#228;nda
+till efterr&#228;ttelse, och &#228;r ej inneh&#229;llet i den fr&#228;mmande lagen f&#246;r
+r&#228;tten k&#228;nt, &#228;ge r&#228;tten f&#246;rel&#228;gga part att i s&#229;dant h&#228;nseende f&#246;rebringa
+utredning.
+
+66 &#167; Protest tas upp av Kronofogdemyndigheten, av en s&#228;rskild
+f&#246;rr&#228;ttningsman som l&#228;nsstyrelsen f&#246;rordnar eller av notarius
+publicus. Lag (2006:676).
+
+67 &#167; Protest skall, d&#228;r ej annat &#246;verenskommits, upptagas &#229; tid, d&#229;
+banken pl&#228;gar h&#229;llas &#246;ppen f&#246;r allm&#228;nheten, eller, &#229; dag d&#229; banken ej
+h&#229;lles &#246;ppen, mellan klockan 9 f&#246;rmiddagen och 7 eftermiddagen. &#196;r ej
+n&#229;gon, som &#228;ger att f&#246;retr&#228;da banken, att tr&#228;ffa, m&#229; protesten upptagas
+vid bankens lokal. Betr&#228;ffande protest av utl&#228;ndsk check, som dragits i
+annan &#228;n bank, g&#228;lle vad om v&#228;xel &#228;r stadgat.
+
+I fr&#229;ga om checks uppvisande till betalning skall vad nu &#228;r sagt om
+protest &#228;ga till&#228;mpning.
+
+68 &#167; Vid protest skall checken medf&#246;ras av f&#246;rr&#228;ttningsmannen eller
+n&#229;gon, som honom &#229;tf&#246;ljer; och skall anteckning av protesten av
+f&#246;rr&#228;ttningsmannen g&#246;ras &#229; checken.
+
+69 &#167; &#214;ver protest skall f&#246;ras protokoll. I detta skall inf&#246;ras: checken
+med allt vad d&#228;r&#229; finnes tecknat; den s&#246;kandes p&#229;st&#229;ende; det svar, som
+gives av den, som protesten g&#228;ller, eller anm&#228;rkning att svar ej kunnat
+erh&#229;llas eller att han ej kunnat tr&#228;ffas; uppgift p&#229; platsen varest och
+tiden n&#228;r protesten sker; samt underskrift av f&#246;rr&#228;ttningsmannen.
+
+70 &#167; F&#246;rr&#228;ttningsmannen, som vid upptagande av protest medf&#246;r checken,
+skall anses bemyndigad att uppb&#228;ra betalning, med mindre
+checkinnehavaren meddelat banken, att s&#229;dant ej &#228;r &#229;syftat.
+
+71 &#167; Om laga domstol i checkm&#229;l g&#228;ller vad som &#228;r f&#246;reskrivet f&#246;r
+tvistem&#229;l. Lag (1991:878).
+
+72 &#167; P&#229; framst&#228;llning av k&#228;randen skall r&#228;tten,om synnerligt hinder ej
+m&#246;ter och svaranden &#228;r s&#229; till hands att han kan infinna sig, uts&#228;tta
+f&#246;rsta inst&#228;llelse till samma dag som st&#228;mning s&#246;kes eller n&#228;st
+f&#246;ljande dag. Lag (1978:772).
+
+73 &#167; Har upph&#228;vts genom lag (1981:813).
+
+14 kap. Straffbest&#228;mmelser.
+
+74 &#167; har upph&#228;vts genom lag (1994:1414).
+
+75 &#167; har upph&#228;vts genom lag (1964:192).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1991:856
+
+Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer. &#196;ldre
+f&#246;reskrifter g&#228;ller fortfarande i fr&#229;ga om m&#229;l om lags&#246;kning d&#228;r talan
+v&#228;ckts f&#246;re ikrafttr&#228;dandet.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4543">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4545">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

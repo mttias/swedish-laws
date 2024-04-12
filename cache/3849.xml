@@ -1,0 +1,575 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="1999-07-08" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3849</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3848">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3850">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1982:801 ·
+                    <a href="/sfsr?bet=1982:801">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1982:801) om till&#228;mpning av ett avtal mellan 
+Sverige, Danmark, Finland, Island och Norge om &#246;msesidigt 
+bist&#229;nd i tullfr&#229;gor
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Utrikesdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1982-08-12
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 1999:495
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+Det avtal mellan Sverige, Danmark, Finland, Island och Norge om
+&#246;msesidigt bist&#229;nd i tullfr&#229;gor som har undertecknats den 11 september
+1981 skall g&#228;lla h&#228;r i riket fr&#229;n och med den 26 augusti 1982.
+
+Avtalet bifogas denna f&#246;rordning i svensk text som bilaga.
+
+Tullverket skall f&#246;r svensk del fullg&#246;ra de uppgifter som
+anges i artikel 13 i avtalet. F&#246;rordning (1999:495).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1989:778
+
+Denna f&#246;rordning tr&#228;der i kraft den 15 oktober 1989 men
+till&#228;mpas fr&#229;n och med den 3 augusti 1989.
+
+
+
+Bilaga
+
+Avtal mellan Sverige, Danmark, Finland, Island och Norge om
+&#246;msesidigt bist&#229;nd i tullfr&#229;gor
+
+Regeringarna i Sverige, Danmark, Finland, Island och Norge som &#246;nskar
+ing&#229; ett avtal om samarbete mellan tullmyndigheterna f&#246;r att s&#228;kerst&#228;lla
+en riktig till&#228;mpning av tullagstiftningen och f&#246;r att bek&#228;mpa
+&#246;vertr&#228;delser av densamma har, med h&#228;nvisning till rekommendationen den
+5 december 1953 fr&#229;n tullsamarbetsr&#229;det i Bryssel om &#246;msesidigt
+administrativt bist&#229;nd, till stadgan den 2 april 1975 f&#246;r samarbete
+mellan de nordiska centrala tulladministrationerna (tullstyrelserna) och
+till samarbets&#246;verenskommelsen den 23 mars 1962 mellan Danmark, Finland,
+Island, Norge och Sverige, enats om f&#246;ljande:
+
+Artikel 1
+
+Definitioner
+
+1. Med &quot;stat&quot; f&#246;rst&#229;s i detta avtal en av de f&#246;rdragsslutande staterna.
+
+2. Med &quot;tullagstiftning&quot; f&#246;rst&#229;s i detta avtal best&#228;mmelser i lag eller
+annan f&#246;rfattning om tull, skatt och andra avgifter, bidrag eller
+f&#246;rbud, inskr&#228;nkningar och kontroll&#229;tg&#228;rder s&#229;vitt avser inf&#246;rsel,
+utf&#246;rsel eller transitering av varor -- h&#228;runder inbegripet sundhets-
+och s&#228;kerhetsbest&#228;mmelser -- och betalningsmedel.
+
+3. Med &quot;tullmyndighet&quot; f&#246;rst&#229;s i detta avtal staternas centrala
+tulladministrationer och, efter s&#228;rskilt bemyndigande, deras
+underlydande myndigheter.
+
+Artikel 2
+
+Till&#228;mpningsomr&#229;de
+
+1. Staterna &#228;r ense om att l&#228;mna varandra &#246;msesidigt bist&#229;nd genom
+tullmyndigheterna i &#246;verensst&#228;mmelse med best&#228;mmelserna i detta avtal
+
+a) f&#246;r att s&#228;kerst&#228;lla en riktig till&#228;mpning av deras tullagstiftning;
+
+b) f&#246;r att f&#246;rhindra, utreda och beivra &#246;vertr&#228;delser av
+tullagstiftningen;
+
+c) i &#228;renden ang&#229;ende indrivning av fordringar och delgivning i samband
+med till&#228;mpning av tullagstiftningen.
+
+2. Bist&#229;nd inom ramen f&#246;r detta avtal l&#228;mnas enligt den anmodade statens
+r&#228;tt och inom ramen f&#246;r tullmyndighetens beh&#246;righet och resurser.
+
+Artikel 3
+
+Uppsikt &#246;ver personer och transportmedel
+
+Tullmyndigheterna h&#229;ller sj&#228;lvmant eller p&#229; beg&#228;ran s&#228;rskild uppsikt
+&#246;ver bland annat
+
+1. personer som &#228;r k&#228;nda eller misst&#228;nkta f&#246;r att beg&#229; &#246;vertr&#228;delse av
+annan stats tullagstiftning och
+
+2. transportmedel som misst&#228;nks bli brukade vid &#246;vertr&#228;delse av annan
+stats tullagstiftning.
+
+Artikel 4
+
+Meddelande av upplysningar
+
+Tullmyndigheterna l&#228;mnar varandra
+
+1. sj&#228;lvmant eller p&#229; beg&#228;ran alla tillg&#228;nliga upplysningar om
+
+a) verksamhet som misst&#228;nks leda till &#246;vertr&#228;delse av annan stats
+tullagstiftning;
+
+b) personer som &#228;r k&#228;nda eller misst&#228;nkta f&#246;r att beg&#229; &#246;vertr&#228;delse av
+annan stats tullagstiftning;
+
+c) transportmedel som misst&#228;nks bli brukade vid &#246;vertr&#228;delse av annan
+stats tullagstiftning;
+
+d) nya hj&#228;lpmedel eller metoder f&#246;r att beg&#229; &#246;vertr&#228;delse av
+tullagstiftningen;
+
+e) varor som &#228;r k&#228;nda f&#246;r att vara f&#246;rem&#229;l f&#246;r olovlig trafik;
+
+f) andra f&#246;rh&#229;llanden som &#228;r av intresse i samband med &#246;vertr&#228;delse av
+tullagstiftningen,
+
+2. p&#229; beg&#228;ran alla tillg&#228;ngliga upplysningar om varuf&#246;rseln som finns i
+tulldeklarationer, intyg, ursprungscertifikat, fakturor och andra
+handlingar eller i motsvarande databehandlat material,
+
+3. p&#229; beg&#228;ran alla tillg&#228;ngliga handlingar som utf&#228;rdats i samband med
+tullbehandling av varor i annan stat, d&#229; en tullmyndighet beh&#246;ver dem
+f&#246;r att exempelvis f&#229; bekr&#228;ftat
+
+a) att varor f&#246;r vilka &#229;tnjuts f&#246;rm&#229;n vid utf&#246;rsel till annan stat
+uppfyller villkoren h&#228;rf&#246;r;
+
+b) att varor, som f&#246;rts in till en stat, blivit lagligen utf&#246;rda fr&#229;n
+annan stat;
+
+c) att varor, som f&#246;rts ut fr&#229;n en stat, blivit lagligen inf&#246;rda till
+annan stat.
+
+Artikel 5
+
+Utredning
+
+1. Tullmyndighet, som anmodas l&#228;mna bist&#229;nd, g&#246;r den utredning som
+beh&#246;vs f&#246;r att efterkomma framst&#228;llningen. Resultatet h&#228;rav meddelas den
+tullmyndighet, som beg&#228;rt bist&#229;nd.
+
+2. Tullmyndigheterna kan i enskilda fall avtala att tj&#228;nstem&#228;n, som
+handl&#228;gger &#228;rende som ber&#246;r tv&#229; eller flera stater, skall kunna n&#228;rvara
+vid utredning och annan behandling av &#228;rendet p&#229; annan stats territorium
+s&#229;vida det inte strider mot denna stats nationella lagstiftning.
+
+Artikel 6
+
+Bist&#229;ndsframst&#228;llnings form och inneh&#229;ll
+
+1. Beg&#228;ran om bist&#229;nd g&#246;rs skriftligen. De handlingar, som beh&#246;vs f&#246;r
+att framst&#228;llningen skall kunna efterkommas, inklusive eventuella
+f&#246;reskrifter eller beslut av beh&#246;riga myndigheter, som ligger till grund
+f&#246;r handlingarna, kan bifogas antingen i original eller bestyrkt kopia
+eller avskrift.
+
+2. I br&#229;dskande fall kan framst&#228;llning g&#246;ras muntligt eller per telefon
+och, om s&#229; beh&#246;vs bekr&#228;ftas skriftligen.
+
+Artikel 7
+
+Bruk av upplysningar och handlingar
+
+1. Upplysningar och handlingar, som inh&#228;mtats enligt best&#228;mmelserna i
+detta avtal, kan anv&#228;ndas som bevis i enlighet med avtalets syfte och
+inom ramen f&#246;r dess till&#228;mpningsomr&#229;de.
+
+2. &#214;nskar n&#229;gon anv&#228;nda upplysningarna eller handlingarna till andra
+&#228;ndam&#229;l &#228;n vartill de inh&#228;mtats, m&#229;ste uttryckligt samtycke inh&#228;mtas
+fr&#229;n den tullmyndighet som l&#228;mnat dem.
+
+3. Upplysningarna, handlingarna m.m. skall i &#246;vrigt behandlas som
+hemliga i den stat som mottagit dem.
+
+Artikel 8
+
+Undantag fr&#229;n skyldigheten att l&#228;mna bist&#229;nd
+
+1. Om efterkommandet av en framst&#228;llning att l&#228;mna bist&#229;nd antas vara
+&#228;gnat att skada den anmodade statens suver&#228;nitet, s&#228;kerhet, allm&#228;nna
+r&#228;ttsprinciper (ordre public) eller andra v&#228;sentliga intressen kan denna
+stats tullmyndighet helt eller delvis v&#228;gra bist&#229;nd eller g&#246;ra det
+beroende av att best&#228;mda villkor eller f&#246;reskrifter uppfylles.
+
+2. Efterkommes inte en framst&#228;llning om bist&#229;nd skall den anmodande
+staten utan dr&#246;jsm&#229;l underr&#228;ttas om beslutet och sk&#228;let till detta.
+
+Artikel 9
+
+Delgivningar
+
+1. Delgivning enligt detta avtal skall ske i den ordning som f&#246;r
+liknande delgivning till&#228;mpas enligt lagstiftning eller administrativ
+praxis i den stat hos vilken delgivning beg&#228;rts. Beg&#228;ran om delgivning
+av handling skall inneh&#229;lla kort uppgift om handlingens inneh&#229;ll.
+
+2. Om den stat som beg&#228;r delgivningen s&#229; &#246;nskar, kan delgivning ske i
+s&#228;rskild form, i den m&#229;n det beg&#228;rda f&#246;rfarandet st&#229;r i &#246;verensst&#228;mmelse
+med lagstiftningen i den stat i vilken delgivningen skall ske.
+
+3. S&#229;som bevis om delgivningen skall g&#228;lla antingen ett daterat och
+bestyrkt erk&#228;nnande av den, med vilken delgivningen skett, eller ett
+intyg av vederb&#246;rande myndighet i den stat, hos vilken delgivningen
+beg&#228;rts, utvisande formen och tiden f&#246;r delgivningen.
+
+Artikel 10
+
+Indrivning
+
+1. Tullmyndighet skall p&#229; anmodan bist&#229; med indrivning av annan stats
+fordringar, som uppst&#229;tt vid till&#228;mpning av tullagstiftningen.
+
+2. Framst&#228;llning om bist&#229;nd med indrivning av en fordran f&#229;r g&#246;ras
+endast om fordringen inte kan indrivas i den anmodande staten utan
+v&#228;sentliga sv&#229;righeter. Fordringen skall vidare &#246;verstiga ett visst
+fastst&#228;llt minimibelopp.
+
+3. Till anmodan om indrivning skall fogas handling av vilken grunden f&#246;r
+fordringen framg&#229;r samt intyg fr&#229;n beh&#246;rig myndighet om att beslutet &#228;r
+exigibelt.
+
+4. Fordran som &#228;r exigibel i den anmodande staten skall erk&#228;nnas som
+exigibel i den anmodade staten. Bist&#229;nd f&#246;r indrivnig skall verkst&#228;llas
+med iakttagande av de preskriptionsregler som g&#228;ller f&#246;r indrivning av
+fordran p&#229; motsvarande slag enligt lagstiftningen i den anmodade staten.
+
+
+5. I framst&#228;llningen skall l&#228;mnas upplysning om tidpunkten n&#228;r r&#228;tten
+att driva in fordringen helt eller delvis upph&#246;r enligt den anmodande
+statens lagstiftning.
+
+6. Indrivning skall ske i den anmodade statens valuta efter den
+officiella valutakursen den dag framst&#228;llningen mottagits.
+
+7. Indrivning av annan stats fordran skall verkst&#228;llas p&#229; samma s&#228;tt som
+indrivning av motsvarande fordran i den anmodade staten.
+
+8. Om inv&#228;ndningar g&#246;rs mot indrivning enligt detta avtal, avg&#246;rs
+&#228;rendet av beh&#246;riga myndigheter i den anmodade staten i enlighet med
+denna stats r&#228;tt.
+
+9. F&#246;r fordringar som skall indrivas enligt detta avtal g&#228;ller ej s&#229;dan
+s&#228;rskild f&#246;rm&#229;nsr&#228;tt, som kan g&#228;lla motsvarande fordringar i den
+anmodade staten.
+
+10. I &#228;renden om indrivning av fordringar enligt detta avtal f&#229;r
+r&#228;tteg&#229;ngsf&#246;rfarande inte inledas vid annan domstol &#228;n
+f&#246;rvaltningsdomstol ej heller konkurs beg&#228;ras i den stat, hos vilken
+indrivning beg&#228;rts, med mindre beh&#246;riga myndigheter i ber&#246;rda stater
+blivit eniga d&#228;rom.
+
+11. Upph&#246;r eller &#228;ndras fordran, skall den anmodade myndigheten snarast
+m&#246;jligt underr&#228;ttas.
+
+Artikel 11
+
+Betalningsanst&#229;nd, inst&#228;llande av indrivning och &#246;verf&#246;ring av influtet
+belopp
+
+1. Tullmyndigheten i den anmodade staten fattar beslut om medgivande av
+avbetalning och betalningsanst&#229;nd.
+
+2. Om en fordran inte g&#229;r att driva in, &#229;ters&#228;ndes framst&#228;llningen med
+anteckning om f&#246;religgande omst&#228;ndigheter samt tillg&#228;nglig dokumentation
+till tullmyndigheten i den anmodande staten.
+
+3. Belopp som drivits in skall &#246;verf&#246;ras till tullmyndigheten i den
+anmodande staten. Undantag fr&#229;n denna regel g&#246;rs f&#246;r avgifter och
+kostnader, som utg&#229;r enligt den anmodade statens lagstiftning.
+
+Artikel 12
+
+Kostnader
+
+Med undantag f&#246;r vad som utg&#229;tt i ers&#228;ttning till sakkunniga svarar den
+anmodande staten icke f&#246;r utgifter som uppst&#229;r vid handl&#228;ggning av
+framst&#228;llning enligt detta avtal.
+
+Artikel 13
+
+Avtalets genomf&#246;rande
+
+Tullmyndigheterna vidtar erforderliga &#229;tg&#228;rder och fastst&#228;ller n&#228;rmare
+riktlinjer f&#246;r genomf&#246;rande och till&#228;mpning av avtalet.
+
+Artikel 14
+
+Giltighetsomr&#229;de
+
+Detta avtal skall icke till&#228;mpas f&#246;r Danmarks vidkommande p&#229; Gr&#246;nland,
+f&#246;r Norges vidkommande p&#229; Svalbard, Jan Mayen och norska utomeuropeiska
+besittningar.
+
+Artikel 15
+
+Ratifikation, ikrafttr&#228;dande och upps&#228;gning
+
+1. Detta avtal skall ratificeras och ratifikationshandlingarna deponeras
+i det norska utrikesdepartementet. Bestyrkta avskrifter skall av det
+norska utrikesdepartementet tillst&#228;llas de &#246;vriga staternas regeringar.
+
+2. Avtalet tr&#228;der i kraft tre m&#229;nader efter den dag d&#229; samtliga staters
+ratifikationshandlingar deponerats.
+
+3. &#214;nskar n&#229;gon av staterna upps&#228;ga avtalet, skall skriftligt meddelande
+h&#228;rom tillst&#228;llas den norska regeringen som har att omedelbart
+underr&#228;tta &#246;vriga stater h&#228;rom och om dagen d&#229; meddelandet mottogs.
+
+Upps&#228;gningen g&#228;ller endast f&#246;r den stat som verkst&#228;llt densamma och f&#229;r
+verkan sex m&#229;nader efter utg&#229;ngen av den dag d&#229; den norska regeringen
+mottagit meddelande om upps&#228;gningen.
+
+Till bekr&#228;ftelse h&#228;rav har undertecknade befullm&#228;ktigade ombud
+undertecknat denna &#246;verenskommelse i Oslo den 11 september 1981.
+
+Utf&#228;rdat i Oslo i ett exemplar p&#229; svenska, danska, finska, isl&#228;ndska och
+norska spr&#229;ken, varvid p&#229; svenska spr&#229;ket utf&#228;rdades tv&#229; texter, en f&#246;r
+Sverige och en f&#246;r Finland, vilka samtliga texter &#228;ger lika vitsord.
+
+F&#246;r Sveriges regering:
+Finn B&#246;rjeson
+
+F&#246;r Danmarks regering:
+T. Oldenburg
+
+F&#246;r Finlands regering:
+Lars Lindeman
+
+F&#246;r Islands regering:
+Pall Asg. Tryggvason
+
+F&#246;r Norges regering:
+Knut Frydenlund
+
+F&#246;rordning (1989:778).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3848">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3850">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

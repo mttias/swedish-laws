@@ -1,0 +1,614 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2016-12-28" /> 
+ <meta id="rattsinfo-edited" content="2020-03-31" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>893</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=892">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=894">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2016:1307 ·
+                    <a href="/sfsr?bet=2016:1307">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2016:1307) om straff f&#246;r marknadsmissbruk p&#229; v&#228;rdepappersmarknaden</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet V
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2016-12-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2020:21
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2017-02-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+Lagens till&#228;mpningsomr&#229;de
+
+1 &#167; I denna lag finns best&#228;mmelser om straff f&#246;r 
+insiderhandel, obeh&#246;rigt r&#246;jande av insiderinformation och 
+marknadsmanipulation (marknadsmissbruk) som beg&#229;s p&#229; 
+v&#228;rdepappersmarknaden.
+
+Finansiella instrument som omfattas av lagen
+
+2 &#167; Best&#228;mmelserna i denna lag till&#228;mpas p&#229;
+
+1. finansiella instrument som &#228;r upptagna till handel p&#229; en 
+reglerad marknad eller en MTF-plattform eller f&#246;r vilka en 
+ans&#246;kan om upptagande till s&#229;dan handel har l&#228;mnats in,
+
+2. finansiella instrument som handlas p&#229; en MTF-plattform 
+eller en OTF-plattform, och
+
+3. finansiella instrument vilkas v&#228;rde &#228;r beroende av eller 
+inverkar p&#229; ett s&#229;dant finansiellt instrument som avses i 1 
+eller 2.
+
+Best&#228;mmelserna i denna lag till&#228;mpas &#228;ven p&#229; ageranden, 
+inklusive bud, vid auktionering p&#229; en auktionsplattform av 
+utsl&#228;ppsr&#228;tter eller andra produkter baserade p&#229; 
+utsl&#228;ppsr&#228;tter i enlighet med auktioneringsf&#246;rordningen. Det 
+som anges i denna lag om order g&#228;ller &#228;ven bud i en auktion 
+enligt auktioneringsf&#246;rordningen. Lag (2020:21).
+
+Undantag
+
+3 &#167; Best&#228;mmelserna i denna lag g&#228;ller inte f&#246;r 
+
+1. handel med egna aktier i &#229;terk&#246;psprogram eller 
+stabilisering av v&#228;rdepapper, f&#246;rutsatt att handeln utf&#246;rs i 
+enlighet med artikel 5 i marknadsmissbruksf&#246;rordningen, och
+
+2. transaktioner eller andra &#229;tg&#228;rder som avses i artikel 6 i 
+marknadsmissbruksf&#246;rordningen.
+
+Uttryck i lagen
+
+4 &#167; I denna lag betyder
+
+auktioneringsf&#246;rordningen: kommissionens f&#246;rordning (EU) nr 
+1031/2010 av den 12 november 2010 om tidsschema, 
+administration och andra aspekter av auktionering av 
+utsl&#228;ppsr&#228;tter f&#246;r v&#228;xthusgaser i enlighet med 
+Europaparlamentets och r&#229;dets direktiv 2003/87/EG om ett 
+system f&#246;r handel med utsl&#228;ppsr&#228;tter f&#246;r v&#228;xthusgaser inom 
+gemenskapen,
+
+finansiella instrument: det som anges i 1 kap. 4 &#167; lagen 
+(2007:528) om v&#228;rdepappersmarknaden,
+
+godtagen marknadspraxis: det som anges i artikel 3.1.9 i 
+marknadsmissbruksf&#246;rordningen,
+
+handel p&#229; v&#228;rdepappersmarknaden: handel p&#229; en reglerad 
+marknad eller en motsvarande marknad utanf&#246;r Europeiska 
+ekonomiska samarbetsomr&#229;det (EES), handel p&#229; en MTF-plattform 
+eller OTF-plattform eller en motsvarande plattform utanf&#246;r 
+EES, eller handel med eller genom n&#229;gon som yrkesm&#228;ssigt 
+driver s&#229;dan verksamhet som avses i 2 kap. 1 &#167; lagen om 
+v&#228;rdepappersmarknaden,
+
+insiderinformation: s&#229;dan information som anges i artikel 7 i 
+marknadsmissbruksf&#246;rordningen,
+
+marknadsmissbruksf&#246;rordningen: Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) nr 596/2014 av den 16 april 2014 om 
+marknadsmissbruk (marknadsmissbruksf&#246;rordning) och om 
+upph&#228;vande av Europaparlamentets och r&#229;dets direktiv 
+2003/6/EG och kommissionens direktiv 2003/124/EG,
+2003/125/EG och 2004/72/EG,
+
+MTF-plattform och OTF-plattform: s&#229;dana handelsplattformar 
+som anges i 1 kap. 4 b &#167; lagen om v&#228;rdepappersmarknaden,
+
+reglerad marknad: det som anges i 1 kap. 4 b &#167; lagen om 
+v&#228;rdepappersmarknaden,
+
+referensv&#228;rde: det som anges i artikel 3.1.29 i 
+marknadsmissbruksf&#246;rordningen, och
+
+spotavtal avseende r&#229;varor: det som anges i artikel 3.1.15 i 
+marknadsmissbruksf&#246;rordningen. Lag (2017:708).
+
+2 kap. Straffbest&#228;mmelser
+
+Insiderbrott
+
+1 &#167; F&#246;r insiderbrott d&#246;ms
+
+1. den som har insiderinformation och som f&#246;r egen eller n&#229;gon 
+annans r&#228;kning f&#246;rv&#228;rvar eller avyttrar finansiella instrument 
+som informationen r&#246;r genom handel p&#229; v&#228;rdepappersmarknaden, 
+eller &#228;ndrar eller &#229;terkallar en order avseende s&#229;dana 
+finansiella instrument,
+
+2. den som har insiderinformation och som r&#229;der eller uppmanar 
+n&#229;gon annan att f&#246;rv&#228;rva eller avyttra finansiella instrument 
+som informationen r&#246;r genom handel p&#229; v&#228;rdepappersmarknaden, 
+eller att &#228;ndra eller &#229;terkalla en order avseende s&#229;dana 
+finansiella instrument, eller
+
+3. den som f&#246;ljer ett s&#229;dant r&#229;d eller en s&#229;dan uppmaning som 
+avses i 2 genom att f&#246;rfara p&#229; det s&#228;tt som anges i 1, om 
+r&#229;det eller uppmaningen grundar sig p&#229; insiderinformation.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst tv&#229; &#229;r.
+
+Om brott som avses i f&#246;rsta stycket med h&#228;nsyn till 
+g&#228;rningsmannens st&#228;llning, den vinning f&#246;r g&#228;rningsmannen som 
+brottet medf&#246;rt eller &#246;vriga omst&#228;ndigheter &#228;r grovt, d&#246;ms f&#246;r 
+grovt insiderbrott till f&#228;ngelse i l&#228;gst sex m&#229;nader och h&#246;gst 
+sex &#229;r. 
+
+Om g&#228;rningen &#228;r ringa d&#246;ms det inte till ansvar. Lag (2020:21).
+
+2 &#167; Om ett f&#246;rv&#228;rv eller en avyttring utg&#246;r legitimt beteende 
+enligt artikel 9.2–9.5 i marknadsmissbruksf&#246;rordningen, d&#246;ms 
+inte till ansvar enligt 1 &#167;. Detsamma g&#228;ller 
+
+1. n&#228;r ett finansiellt instrument f&#246;rv&#228;rvas, eller en 
+s&#228;ljorder &#229;terkallas, om det &#228;r sannolikt att priset p&#229; 
+instrumentet skulle s&#228;nkas om insiderinformationen 
+offentliggjordes, och
+
+2. n&#228;r ett finansiellt instrument avyttras, eller en k&#246;porder 
+&#229;terkallas, om det &#228;r sannolikt att priset p&#229; instrumentet 
+skulle h&#246;jas om insiderinformationen offentliggjordes.
+
+Den som i annat fall &#228;n som avses i f&#246;rsta stycket visar att 
+han eller hon inte har utnyttjat insiderinformation d&#246;ms inte 
+till ansvar enligt 1 &#167;.
+
+Obeh&#246;rigt r&#246;jande av insiderinformation
+
+3 &#167; Den som r&#246;jer insiderinformation d&#246;ms, utom i de fall d&#229; 
+r&#246;jandet sker som ett normalt led i fullg&#246;rande av tj&#228;nst, 
+verksamhet eller &#229;liggande, f&#246;r obeh&#246;rigt r&#246;jande av 
+insiderinformation till b&#246;ter eller f&#228;ngelse i h&#246;gst tv&#229; &#229;r. 
+Detsamma g&#228;ller den som vidarebefordrar ett s&#229;dant r&#229;d eller 
+en s&#229;dan uppmaning som avses i 1 &#167; f&#246;rsta stycket 2, om r&#229;det 
+eller uppmaningen grundar sig p&#229; insiderinformation. 
+
+Om informationen blir allm&#228;nt k&#228;nd samtidigt med att den 
+r&#246;js, eller om g&#228;rningen &#228;r ringa d&#246;ms det inte till 
+ansvar.
+Marknadsmanipulation
+
+4 &#167; F&#246;r marknadsmanipulation d&#246;ms 
+
+1. den som genomf&#246;r en transaktion, l&#228;gger en order eller 
+annars agerar p&#229; ett s&#228;tt som ger falska eller vilseledande 
+signaler avseende pris, tillg&#229;ng eller efterfr&#229;gan p&#229; 
+finansiella instrument eller spotavtal avseende r&#229;varor som 
+relaterar till instrumenten, 
+
+2. den som genomf&#246;r en transaktion, l&#228;gger en order eller 
+annars agerar p&#229; ett s&#228;tt som l&#229;ser fast priset p&#229; ett eller 
+flera finansiella instrument eller spotavtal avseende r&#229;varor 
+som relaterar till instrumenten, p&#229; en onormal eller konstlad 
+niv&#229;, 
+
+3. den som genomf&#246;r en transaktion, l&#228;gger en order eller 
+annars agerar p&#229; ett s&#228;tt som p&#229;verkar priset p&#229; finansiella 
+instrument eller spotavtal avseende r&#229;varor som relaterar 
+till instrumenten, genom att utnyttja falska f&#246;respeglingar 
+eller andra slag av vilseledande eller manipulationer, 
+
+4. den som sprider information som ger falska eller 
+vilseledande signaler avseende pris, tillg&#229;ng eller 
+efterfr&#229;gan p&#229; finansiella instrument eller spotavtal 
+avseende r&#229;varor som relaterar till instrumenten, eller som 
+l&#229;ser fast priset p&#229; ett eller flera s&#229;dana instrument eller 
+spotavtal p&#229; en onormal eller konstlad niv&#229;, eller 
+
+5. den som sprider falska eller vilseledande uppgifter, 
+tillhandah&#229;ller oriktiga eller vilseledande ing&#229;ngsv&#228;rden 
+eller p&#229; annat s&#228;tt manipulerar ber&#228;kningen av ett 
+referensv&#228;rde.
+
+Straffet &#228;r f&#228;ngelse i h&#246;gst tv&#229; &#229;r.
+
+Om brottet med h&#228;nsyn till omfattningen av manipulationen, 
+g&#228;rningsmannens st&#228;llning eller &#246;vriga omst&#228;ndigheter &#228;r 
+grovt, d&#246;ms f&#246;r grov marknadsmanipulation till f&#228;ngelse i 
+l&#228;gst sex m&#229;nader och h&#246;gst sex &#229;r. 
+
+Om g&#228;rningen &#228;r ringa d&#246;ms det inte till ansvar.
+
+5 &#167; En s&#229;dan g&#228;rning som anges i 4 &#167; f&#246;rsta stycket 1 eller 2 
+medf&#246;r inte ansvar, om
+
+1. agerandet st&#228;mmer &#246;verens med godtagen marknadspraxis, 
+och
+
+2. det finns legitima sk&#228;l f&#246;r agerandet.
+
+6 &#167; Best&#228;mmelserna i 4 &#167; g&#228;ller inte f&#246;r
+
+1. genomf&#246;rande av transaktioner, l&#228;ggande av order eller 
+andra ageranden som endast p&#229;verkar pris, tillg&#229;ng eller 
+efterfr&#229;gan p&#229; ett spotavtal avseende r&#229;varor, om agerandet 
+inte avser ett finansiellt instrument som spotavtalet &#228;r 
+relaterat till, och
+
+2. genomf&#246;rande av transaktioner, l&#228;ggande av order eller 
+andra ageranden som avser ett spotavtal avseende r&#229;varor som 
+&#228;r grossistenergiprodukter enligt Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) nr 1227/2011 av den 25 oktober 2011 om 
+integritet och &#246;ppenhet p&#229; grossistmarknaderna f&#246;r energi. 
+
+F&#246;rs&#246;k och f&#246;rberedelse till brott
+
+7 &#167; F&#246;r f&#246;rs&#246;k till insiderbrott och marknadsmanipulation 
+samt f&#246;r f&#246;rs&#246;k eller f&#246;rberedelse till grovt insiderbrott 
+och f&#246;r f&#246;rs&#246;k till grov marknadsmanipulation d&#246;ms det till 
+ansvar enligt 23 kap. brottsbalken. 
+
+3 kap. Handl&#228;ggningen
+
+Anm&#228;lan om brott
+
+1 &#167; Finansinspektionen ska anm&#228;la till &#229;klagare n&#228;r det finns 
+anledning att anta att ett brott enligt denna lag har 
+beg&#229;tts.
+
+&#197;talspr&#246;vning
+
+2 &#167; &#197;tal ska v&#228;ckas endast om det &#228;r motiverat fr&#229;n allm&#228;n 
+synpunkt i fr&#229;ga om
+
+1. obeh&#246;rigt r&#246;jande av insiderinformation d&#228;r n&#229;gon utan att 
+det har varit befogat har f&#229;tt insiderinformation och f&#246;rts 
+in p&#229; en s&#229;dan f&#246;rteckning som avses i artikel 18 i 
+marknadsmissbruksf&#246;rordningen, eller
+
+2. marknadsmanipulation som best&#229;r i enstaka transaktioner 
+som inte leder till n&#229;gon f&#246;r&#228;ndring av det verkliga &#228;gandet 
+av ett finansiellt instrument.
+
+Myndighetssamarbete
+
+3 &#167; &#197;klagare som leder en f&#246;runders&#246;kning enligt 23 kap. 
+r&#228;tteg&#229;ngsbalken avseende brott enligt denna lag f&#229;r n&#228;r 
+unders&#246;kningen verkst&#228;lls anlita bitr&#228;de av 
+Finansinspektionen. 
+
+&#197;klagare f&#229;r anlita bitr&#228;de av Finansinspektionen ocks&#229; i 
+fr&#229;ga om utredning av brott innan f&#246;runders&#246;kning har 
+inletts.
+
+4 &#167; I 3 kap. 14 &#167; lagen (2016:1306) med kompletterande 
+best&#228;mmelser till EU:s marknadsmissbruksf&#246;rordning finns 
+ytterligare best&#228;mmelser om samarbetet mellan &#229;klagare och 
+Finansinspektionen avseende marknadsmissbruk.
+
+Hinder mot &#229;tal
+
+5 &#167; Om Finansinspektionen har utf&#228;rdat sanktionsf&#246;rel&#228;ggande 
+enligt 5 kap. 19 &#167; lagen (2016:1306) med kompletterande 
+best&#228;mmelser till EU:s marknadsmissbruksf&#246;rordning, f&#229;r 
+&#229;klagaren inte v&#228;cka &#229;tal, utf&#228;rda straff&#246;rel&#228;ggande eller 
+besluta om &#229;talsunderl&#229;telse f&#246;r samma person i fr&#229;ga om den 
+&#246;vertr&#228;delse som ligger till grund f&#246;r 
+sanktionsf&#246;rel&#228;ggandet.
+
+6 &#167; Om ett vitesf&#246;rel&#228;ggande har &#246;vertr&#228;tts och &#246;vertr&#228;delsen 
+ligger till grund f&#246;r en ans&#246;kan om utd&#246;mande av vitet, d&#246;ms 
+det inte till ansvar enligt denna lag f&#246;r en g&#228;rning som 
+omfattas av f&#246;rel&#228;ggandet.
+
+Beh&#246;rig domstol
+
+7 &#167; Stockholms tingsr&#228;tt &#228;r beh&#246;rig domstol i m&#229;l enligt 
+denna lag. 
+
+4 kap. Yrkande om administrativ sanktion i vissa fall
+
+Inledande best&#228;mmelser
+
+1 &#167; N&#228;r &#229;klagaren v&#228;cker &#229;tal f&#246;r brott enligt denna lag ska 
+&#229;klagaren, om det inte &#228;r uppenbart obeh&#246;vligt, samtidigt 
+framst&#228;lla yrkande om &#229;terf&#246;ring eller sanktionsavgift enligt 
+5 kap. 3 &#167; f&#246;rsta stycket 5 och 6 lagen (2016:1306) med 
+kompletterande best&#228;mmelser till EU:s 
+marknadsmissbruksf&#246;rordning f&#246;r &#246;vertr&#228;delse av artikel 14 
+eller 15 i marknadsmissbruksf&#246;rordningen f&#246;r den person som 
+&#229;talet g&#228;ller, om de omst&#228;ndigheter som omfattas av &#229;talet 
+utg&#246;r en s&#229;dan &#246;vertr&#228;delse (yrkande om administrativ 
+sanktion).
+
+Ett yrkande om administrativ sanktion enligt f&#246;rsta stycket 
+f&#229;r pr&#246;vas av r&#228;tten endast om &#229;talet ogillas eller l&#228;ggs ned 
+och m&#229;let d&#228;rf&#246;r avskrivs i den delen.
+
+F&#246;rfarandet 
+
+2 &#167; N&#228;r &#229;klagaren framst&#228;ller ett yrkande om administrativ 
+sanktion, ska &#229;klagaren i st&#228;mningsans&#246;kan uppge
+
+1. vilken administrativ sanktion som yrkas,
+
+2. de best&#228;mmelser som &#228;r till&#228;mpliga n&#228;r det g&#228;ller den 
+administrativa sanktionen, 
+
+3. de omst&#228;ndigheter som &#229;beropas till st&#246;d f&#246;r den 
+administrativa sanktionen, och
+
+4. de bevis som &#229;beropas och vad som ska styrkas med varje 
+bevis. 
+
+3 &#167; Fr&#229;gan om administrativ sanktion ska handl&#228;ggas i samma 
+r&#228;tteg&#229;ng som &#229;talet enligt denna lag och avg&#246;ras genom dom. 
+Om &#229;klagaren &#229;beropar en ny omst&#228;ndighet till st&#246;d f&#246;r 
+&#229;talet, f&#229;r denna omst&#228;ndighet ocks&#229; &#229;beropas till st&#246;d f&#246;r 
+yrkandet om administrativ sanktion.
+
+4 &#167; I fr&#229;ga om utredningen och f&#246;rfarandet betr&#228;ffande fr&#229;gan 
+om administrativ sanktion g&#228;ller det som &#228;r f&#246;reskrivet f&#246;r 
+det brottm&#229;l som fr&#229;gan om administrativ sanktion har samband 
+med. Tv&#229;ngsmedel enligt 24, 25, 27 och 28 kap. 
+r&#228;tteg&#229;ngsbalken f&#229;r dock inte anv&#228;ndas. 
+
+5 &#167; Vid underr&#228;ttelse enligt 23 kap. 18 &#167; f&#246;rsta stycket 
+r&#228;tteg&#229;ngsbalken ska den misst&#228;nkte ocks&#229; underr&#228;ttas om att 
+administrativ sanktion kan komma att beslutas och om 
+grunderna f&#246;r detta.
+
+6 &#167; Vid pr&#246;vning av fr&#229;ga om administrativ sanktion ska 
+best&#228;mmelserna i 5 kap. 5, 6 och 14–18 &#167;&#167; lagen (2016:1306) 
+med kompletterande best&#228;mmelser till EU:s 
+marknadsmissbruksf&#246;rordning till&#228;mpas. 
+
+Vid till&#228;mpningen ska det som anges om sanktionsf&#246;rel&#228;ggande 
+i 5 kap. 14 &#167; f&#246;rsta stycket samma lag g&#228;lla f&#246;r &#229;tal.
+
+Offentlig f&#246;rsvarare
+
+7 &#167; Den som har r&#228;tt till offentlig f&#246;rsvarare f&#246;r brott 
+enligt denna lag har r&#228;tt till offentlig f&#246;rsvarare ocks&#229; 
+betr&#228;ffande den fr&#229;ga om administrativ sanktion som har 
+samband med brottm&#229;let. Om endast fr&#229;gan om administrativ 
+sanktion &#246;verklagas till h&#246;gre r&#228;tt kvarst&#229;r r&#228;tten till 
+offentlig f&#246;rsvarare bara om det finns s&#228;rskilda sk&#228;l. 
+
+R&#228;tteg&#229;ngskostnader
+
+8 &#167; I fr&#229;ga om r&#228;tteg&#229;ngskostnader ska 31 kap. 
+r&#228;tteg&#229;ngsbalken till&#228;mpas.
+
+&#214;verklagande
+
+9 &#167; I fr&#229;ga om &#246;verklagande ska r&#228;tteg&#229;ngsbalkens 
+best&#228;mmelser om &#246;verklagande i brottm&#229;l till&#228;mpas. 
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs i hovr&#228;tten om endast fr&#229;gan om 
+administrativ sanktion &#246;verklagas dit.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=892">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=894">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

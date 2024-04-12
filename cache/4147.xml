@@ -1,0 +1,702 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2019-01-16" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4147</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4146">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4148">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1974:157 ·
+                    <a href="/sfsr?bet=1974:157">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Handelsregisterlag (1974:157)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1974-03-29
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:1658
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Handelsregister f&#246;rs hos Bolagsverket. Lag (2004:239).
+
+2 &#167; F&#246;ljande n&#228;ringsidkare kan registreras i 
+handelsregistret: 
+
+1. enskilda personer som ut&#246;var eller avser att ut&#246;va 
+n&#228;ringsverksamhet (enskilda n&#228;ringsidkare), 
+
+2. handelsbolag, 
+
+3. ideella f&#246;reningar som ut&#246;var eller avser att ut&#246;va 
+n&#228;ringsverksamhet, 
+
+4. registrerade trossamfund som ut&#246;var eller avser att ut&#246;va 
+n&#228;ringsverksamhet, och 
+
+5. bolagsm&#228;n i enkla bolag, om bolagsm&#228;nnen ut&#246;var eller 
+avser att ut&#246;va n&#228;ringsverksamhet i bolaget.
+
+Registrering i handelsregistret sker efter ans&#246;kan. De 
+n&#228;ringsidkare som avses i f&#246;rsta stycket 1, 3, 4 eller 5 och 
+som enligt bokf&#246;ringslagen (1999:1078) &#228;r skyldiga att 
+uppr&#228;tta en &#229;rsredovisning ska ans&#246;ka om registrering.
+
+Best&#228;mmelserna i denna lag om enskilda n&#228;ringsidkare ska 
+till&#228;mpas p&#229; de bolagsm&#228;n i ett enkelt bolag som f&#246;rs in i 
+handelsregistret, dock med f&#246;ljande undantag:
+
+1. N&#229;got f&#246;retagsnamn ska inte registreras f&#246;r 
+verksamheten.
+
+2. Bolagsm&#228;nnen ska registreras under sina 
+namn.
+
+Best&#228;mmelserna i denna lag om registrerade trossamfund ska 
+till&#228;mpas &#228;ven p&#229; registrerade organisatoriska delar av ett 
+trossamfund. Lag (2018:1658).
+
+3 &#167; Enskild n&#228;ringsidkare och handelsbolag registreras f&#246;r det
+l&#228;n d&#228;r verksamheten skall drivas. Skall verksamheten drivas
+inom flera l&#228;n, sker registrering f&#246;r det l&#228;n d&#228;r huvudkontoret
+skall inr&#228;ttas.
+
+En ideell f&#246;rening och ett registrerat trossamfund registreras
+f&#246;r det l&#228;n d&#228;r f&#246;reningens eller trossamfundets styrelse eller
+motsvarande organ i samfundet har sitt s&#228;te.
+
+Utan hinder av vad som s&#228;gs i f&#246;rsta eller andra stycket f&#229;r
+n&#228;ringsidkaren registreras &#228;ven f&#246;r annat l&#228;n d&#228;r verksamheten
+&#228;r avsedd att drivas. Lag (2006:865).
+
+4 &#167; Handelsregistret ska inneh&#229;lla f&#246;ljande uppgifter 
+om:
+
+Enskild n&#228;ringsidkare:
+
+1. n&#228;ringsidkarens f&#246;retagsnamn,
+
+2. n&#228;ringsidkarens fullst&#228;ndiga namn, personnummer eller, om 
+s&#229;dant saknas, av Skatteverket tilldelat registreringsnummer, 
+och postadress,
+
+3. n&#228;ringsverksamhetens art,
+
+4. det l&#228;n och den ort d&#228;r huvudkontoret finns samt kontorets 
+postadress,
+
+5. om n&#228;ringsidkaren enligt 2 &#167; lagen (1992:160) om utl&#228;ndska 
+filialer m.m. ska ha en f&#246;rest&#229;ndare, f&#246;rest&#229;ndarens 
+fullst&#228;ndiga namn, personnummer och postadress,
+
+6. om n&#228;ringsidkaren enligt revisionslagen (1999:1079) ska ha 
+en auktoriserad eller godk&#228;nd revisor
+
+– revisorns namn, personnummer eller, om s&#229;dant saknas, 
+f&#246;delsedatum,
+
+– revisorns postadress och, om postadressen avviker fr&#229;n 
+revisorns hemvist, hemvist, och
+
+– om revisorn &#228;r ett registrerat revisionsbolag, bolagets 
+organisationsnummer och vem som &#228;r huvudansvarig f&#246;r 
+revisionen.
+
+Handelsbolag:
+
+1. bolagets organisationsnummer och f&#246;retagsnamn,
+
+2. n&#228;ringsverksamhetens art,
+
+3. det l&#228;n och den ort d&#228;r huvudkontoret finns samt kontorets 
+postadress,
+
+4. bolagsm&#228;nnens fullst&#228;ndiga namn, personnummer eller 
+organisationsnummer och postadresser,
+
+5. om en stiftelse med egen f&#246;rvaltning eller en ideell 
+f&#246;rening &#228;r bolagsman, fullst&#228;ndiga namn, personnummer och 
+postadresser f&#246;r styrelseledam&#246;ter och styrelsesuppleanter i 
+stiftelsen eller f&#246;reningen,
+
+6. om en stiftelse med anknuten f&#246;rvaltning &#228;r bolagsman, 
+f&#246;rvaltarens namn, organisationsnummer och postadress samt 
+fullst&#228;ndigt namn, personnummer och postadress f&#246;r en 
+st&#228;llf&#246;retr&#228;dare f&#246;r f&#246;rvaltaren,
+
+7. av vem och hur firman tecknas, om firman inte f&#229;r tecknas 
+av varje bolagsman ensam,
+
+8. om bolaget utg&#246;r kommanditbolag, vilken eller vilka av 
+bolagsm&#228;nnen som &#228;r kommanditdel&#228;gare och beloppet av varje 
+s&#229;dan bolagsmans utf&#228;sta insats,
+
+9. om bolaget enligt revisionslagen (1999:1079) ska ha en 
+auktoriserad eller godk&#228;nd revisor
+
+– revisorns namn, personnummer eller, om s&#229;dant saknas, 
+f&#246;delsedatum,
+
+– revisorns postadress och, om postadressen avviker fr&#229;n 
+revisorns hemvist, hemvist, och
+
+– om revisorn &#228;r ett registrerat revisionsbolag, bolagets 
+organisationsnummer och vem som &#228;r huvudansvarig f&#246;r 
+revisionen.
+
+Ideell f&#246;rening och registrerat trossamfund:
+
+1. det f&#246;retagsnamn under vilket f&#246;reningen eller 
+trossamfundet ut&#246;var eller avser att ut&#246;va 
+n&#228;ringsverksamhet,
+
+2. f&#246;reningens eller trossamfundets namn, om det inte 
+sammanfaller med f&#246;retagsnamnet, och organisationsnummer,
+
+3. n&#228;ringsverksamhetens art,
+
+4. det l&#228;n och den ort d&#228;r f&#246;reningens eller trossamfundets 
+styrelse eller motsvarande organ i samfundet har sitt s&#228;te 
+samt f&#246;reningens eller samfundets postadress,
+
+5. styrelseledam&#246;ternas och, d&#228;r suppleanter utsetts, deras 
+fullst&#228;ndiga namn, personnummer och postadresser,
+
+6. av vem och hur f&#246;reningens, eller trossamfundets namn 
+tecknas, om namnet inte tecknas av styrelsen eller 
+motsvarande organ ensamt,
+
+7. om f&#246;reningen eller trossamfundet enligt revisionslagen 
+(1999:1079) ska ha en auktoriserad eller godk&#228;nd revisor
+
+– revisorns namn, personnummer eller, om s&#229;dant saknas, 
+f&#246;delsedatum,
+
+– revisorns postadress och, om postadressen avviker fr&#229;n 
+revisorns hemvist, hemvist, och,
+
+– om revisorn &#228;r ett registrerat revisionsbolag, bolagets 
+organisationsnummer och vem som &#228;r huvudansvarig f&#246;r 
+revisionen. Lag (2018:1658).
+
+5 &#167; En n&#228;ringsidkare registreras under det f&#246;retagsnamn 
+under vilket n&#228;ringsidkaren driver sin verksamhet. Ett 
+f&#246;retagsnamn registreras enligt best&#228;mmelserna i lagen 
+(2018:1653) om f&#246;retagsnamn med iakttagande av vad som s&#228;gs i 
+6 och 7 &#167;&#167; nedan. Lag (2018:1658).
+
+6 &#167; Ett handelsbolags f&#246;retagsnamn ska inneh&#229;lla ordet 
+handelsbolag eller, om kommanditdel&#228;gare finns, ordet 
+kommanditbolag. I ett s&#228;rskilt f&#246;retagsnamn f&#229;r det dock inte 
+tas in n&#229;got av orden handelsbolag eller kommanditbolag.
+Lag (2018:1658).
+
+7 &#167; Ett f&#246;retagsnamn ska tydligt skilja sig fr&#229;n andra i 
+handelsregistret f&#246;rut registrerade och &#228;nnu best&#229;ende 
+f&#246;retagsnamn registrerade f&#246;r samma l&#228;n. Detta g&#228;ller &#228;ven om 
+f&#246;retagsnamnen inte avser verksamhet av samma eller liknande 
+slag. Lag (2018:1658).
+
+8 &#167; Har en n&#228;ringsidkare som f&#246;rts in i handelsregistret 
+meddelat en prokura, f&#229;r prokuran registreras under 
+n&#228;ringsidkarens f&#246;retagsnamn. En prokura f&#229;r dock inte 
+registreras om den inneh&#229;ller annan begr&#228;nsning eller annat 
+f&#246;rbeh&#229;ll &#228;n vad som f&#246;ljer av 1 eller 2 &#167; prokuralagen 
+(1974:158).
+
+F&#246;r en registrerad prokura ska registret inneh&#229;lla uppgifter 
+om prokuristens fullst&#228;ndiga namn, personnummer och 
+postadress.
+
+Har prokuristen ett s&#228;rskilt bemyndigande att &#246;verl&#229;ta 
+huvudmannens fasta egendom eller tomtr&#228;tt eller att ans&#246;ka om 
+inteckning eller uppl&#229;ta r&#228;ttighet i denna, ska registret 
+&#228;ven inneh&#229;lla en uppgift om detta. Detsamma g&#228;ller om 
+prokuran meddelats som kollektivprokura. Lag (2018:1658).
+
+9 &#167; En ans&#246;kan om registrering av ett handelsbolag ska g&#246;ras av
+samtliga bolagsm&#228;n.
+
+En ans&#246;kan om registrering av en ideell f&#246;rening eller ett
+registrerat trossamfund ska g&#246;ras av en ledamot i f&#246;reningens
+eller samfundets styrelse eller motsvarande organ.
+
+En prokura ska registreras p&#229; ans&#246;kan av huvudmannen. Om
+huvudmannen &#228;r ett handelsbolag, ska ans&#246;kan g&#246;ras av samtliga
+bolagsm&#228;n. Lag (2008:92).
+
+10 &#167; Ans&#246;kan om registrering av n&#228;ringsidkare eller prokura skall
+inneh&#229;lla de uppgifter som Konungen best&#228;mmer.
+
+11 &#167; Har s&#246;kanden icke iakttagit vad som &#228;r f&#246;reskrivet om ans&#246;kan eller
+finner registreringsmyndigheten annat hinder f&#246;religga f&#246;r bifall till
+ans&#246;kan, skall s&#246;kanden f&#246;rel&#228;ggas att inom viss tid avgiva yttrande
+eller vidtaga r&#228;ttelse.
+
+Underl&#229;ter s&#246;kanden att efterkomma f&#246;rel&#228;ggandet, skall ans&#246;kan
+avskrivas. Underr&#228;ttelse om denna p&#229;f&#246;ljd skall intagas i f&#246;rel&#228;ggandet.
+
+F&#246;religger &#228;ven efter det yttrande avgivits hinder f&#246;r bifall till
+ans&#246;kan och har s&#246;kanden haft tillf&#228;lle att yttra sig &#246;ver hindret,
+skall ans&#246;kan avsl&#229;s, om anledning ej f&#246;religger att ge s&#246;kanden nytt
+f&#246;rel&#228;ggande.
+
+12 &#167; Bifalles ans&#246;kan om registrering av n&#228;ringsidkare eller prokura,
+skall i 4 eller 8 &#167; f&#246;reskrivna uppgifter inf&#246;ras i registret.
+
+13 &#167; Upph&#246;r en n&#228;ringsidkare med sin verksamhet eller 
+&#246;verl&#229;ts verksamheten eller s&#228;tts den under likvidation eller 
+&#228;ndras i annat fall en uppgift som har registrerats, ska 
+anm&#228;lan om det utan dr&#246;jsm&#229;l g&#246;ras till Bolagsverket.
+
+Anm&#228;lan g&#246;rs och handl&#228;ggs i den ordning som g&#228;ller f&#246;r 
+ans&#246;kan om registrering, om inte n&#229;got annat f&#246;ljer av vad 
+som s&#228;gs nedan i denna paragraf eller av vad regeringen 
+best&#228;mmer.
+
+Har en enskild n&#228;ringsidkare avlidit, &#228;r den som har v&#229;rd om 
+boet skyldig att g&#246;ra anm&#228;lan med anledning av d&#246;dsfallet. 
+Har en del&#228;gare i ett handelsbolag avlidit, ska &#246;vriga 
+bolagsm&#228;n fullg&#246;ra anm&#228;lningsskyldigheten. Om en domstol har 
+utsett likvidator i ett handelsbolag, &#228;r han eller hon 
+anm&#228;lningsskyldig betr&#228;ffande bolaget. En bolagsman som har 
+l&#228;mnat bolaget har r&#228;tt att g&#246;ra en anm&#228;lan om sin avg&#229;ng. 
+&#197;terkallelse av en prokura f&#229;r anm&#228;las av varje bolagsman som 
+inte &#228;r utesluten fr&#229;n r&#228;tten att f&#246;retr&#228;da bolaget.
+
+Omfattar en &#246;verl&#229;telse av n&#228;ringsverksamheten &#228;ven 
+f&#246;retagsnamnet, ska anm&#228;lan om &#246;verl&#229;telsen g&#246;ras av den nya 
+innehavaren. Lag (2018:1658).
+
+14 &#167; Beviljas registrering i anledning av anm&#228;lan enligt 13 &#167;, skall
+&#228;ndringen inf&#246;ras i registret.
+
+15 &#167; Best&#228;mmelser om f&#246;rbud mot anv&#228;ndning av ett 
+f&#246;retagsnamn och om h&#228;vning av en registrering av ett 
+f&#246;retagsnamn finns i lagen (2018:1653) om f&#246;retagsnamn.
+
+Menar n&#229;gon i annat fall att han eller hon lider f&#246;rf&#229;ng av 
+en registrering i handelsregistret, f&#229;r talan f&#246;ras mot 
+n&#228;ringsidkaren om h&#228;vning av registreringen och om 
+skadest&#229;nd. Lag (2018:1658).
+
+15 a &#167; Om en firmatecknare f&#246;r ett handelsbolag eller en ideell
+f&#246;rening eller en ledamot eller suppleant i styrelsen f&#246;r en
+ideell f&#246;rening har f&#229;tt n&#228;ringsf&#246;rbud ska
+registreringsmyndigheten avregistrera firmatecknaren, ledamoten
+eller suppleanten fr&#229;n handelsregistret.
+
+Om en prokurist har f&#229;tt n&#228;ringsf&#246;rbud, ska
+registreringsmyndigheten avregistrera prokuran fr&#229;n
+handelsregistret.
+
+Om en enskild n&#228;ringsidkare, en bolagsman i ett annat
+handelsbolag &#228;n ett kommanditbolag eller en komplement&#228;r i ett
+kommanditbolag har f&#229;tt n&#228;ringsf&#246;rbud, ska
+registreringsmyndigheten g&#246;ra en anteckning om n&#228;ringsf&#246;rbudet
+i handelsregistret. En s&#229;dan anteckning ska tas bort n&#228;r
+n&#228;ringsf&#246;rbudet har upph&#246;rt att g&#228;lla.
+
+Vid beslut om tillf&#228;lligt n&#228;ringsf&#246;rbud ska avregistrering
+enligt f&#246;rsta eller andra stycket eller anteckning enligt
+tredje stycket ske omedelbart. I &#246;vrigt ska avregistrering
+eller anteckning ske n&#228;r beslutet om n&#228;ringsf&#246;rbud har vunnit
+laga kraft. Lag (2008:92).
+
+16 &#167; Om en bolagsman genom dom har skilts fr&#229;n r&#228;tten att 
+teckna bolagets firma, ska uppgift om detta registreras &#228;ven 
+om domen inte har f&#229;tt laga kraft.
+
+Om en n&#228;ringsidkare har f&#246;rsatts i konkurs, ska 
+konkursbeslutet registreras i handelsregistret tillsammans 
+med uppgift om vem som har utsetts till konkursf&#246;rvaltare. 
+Har konkursbeslutet upph&#228;vts eller har konkursen avslutats, 
+ska &#228;ven detta registreras.
+
+Registrering ska ocks&#229; ske n&#228;r det har meddelats ett beslut 
+om f&#246;retagsrekonstruktion som avser en n&#228;ringsidkare. Har 
+beslutet om f&#246;retagsrekonstruktion upph&#228;vts eller har 
+f&#246;retagsrekonstruktionen upph&#246;rt, ska &#228;ven detta 
+registreras.
+
+Om det i en dom som har f&#229;tt laga kraft har f&#246;rklarats, att 
+registrering inte borde ha skett eller att det beslut som har 
+registrerats &#228;r ogiltigt eller att i annat fall ett visst 
+f&#246;rh&#229;llande som har registrerats inte f&#246;religger, ska 
+avregistrering ske.
+
+I lagen (2018:1653) om f&#246;retagsnamn finns best&#228;mmelser om 
+avregistrering av ett f&#246;retagsnamn ur handelsregistret sedan 
+en dom om h&#228;vning av registreringen av f&#246;retagsnamnet har 
+f&#229;tt laga kraft. Lag (2018:1658).
+
+17 &#167; I f&#246;ljande fall ska registreringsmyndigheten unders&#246;ka om
+en i handelsregistret registrerad n&#228;ringsidkare fortfarande
+ut&#246;var n&#229;gon verksamhet:
+
+1. n&#228;ringsidkaren har under de senaste tio &#229;ren inte gett in
+n&#229;gon anm&#228;lan till registret och det kan antas att han har
+upph&#246;rt med sin verksamhet, eller
+
+2. n&#228;ringsidkaren &#228;r ett handelsbolag och antalet registrerade
+bolagsm&#228;n &#228;r sedan minst ett &#229;r mindre &#228;n tv&#229; och n&#229;gon uppgift
+om likvidation har inte registrerats.
+
+Unders&#246;kningen enligt f&#246;rsta stycket ska ske genom att
+registreringsmyndigheten skickar ett brev till den adress som
+finns registrerad f&#246;r n&#228;ringsidkaren i registret samt genom
+kung&#246;relse i Post- och Inrikes Tidningar.
+
+Om det &#228;nnu tv&#229; m&#229;nader efter kung&#246;randet i Post- och Inrikes
+Tidningar inte framg&#229;r att verksamheten fortfarande ut&#246;vas
+eller att n&#228;ringsidkaren avser att &#229;teruppta den, ska
+registreringsmyndigheten genast avregistrera n&#228;ringsidkaren
+fr&#229;n registret. I fall som avses i f&#246;rsta stycket 2 ska
+n&#228;ringsidkaren dock inte avregistreras, om antalet registrerade
+bolagsm&#228;n &#229;ter uppg&#229;r till tv&#229; eller flera eller uppgift om
+likvidation har registrerats. Lag (2008:92).
+
+18 &#167; Registrering eller avregistrering ska genom
+registreringsmyndighetens f&#246;rsorg utan dr&#246;jsm&#229;l kung&#246;ras i
+Post- och Inrikes Tidningar. Registrering eller avregistrering
+som sker efter anm&#228;lan av r&#228;tten beh&#246;ver inte kung&#246;ras.
+
+En kung&#246;relse som avser &#228;ndring i ett f&#246;rh&#229;llande som tidigare
+har f&#246;rts in i registret ska endast ange &#228;ndringens art.
+Lag (2008:92).
+
+19 &#167; Registrering eller avregistrering som har kungjorts i
+Post- och Inrikes Tidningar ska anses ha kommit till tredje
+mans k&#228;nnedom, om det inte av omst&#228;ndigheterna framg&#229;r att han
+varken haft eller borde ha haft vetskap d&#228;rom. Lag (2008:92).
+
+20 &#167; F&#246;r registrering skall erl&#228;ggas avgift som Konungen fastst&#228;ller.
+
+21 &#167; Registreringsmyndighetens beslut att skriva av en 
+ans&#246;kan eller anm&#228;lan om registrering eller att v&#228;gra 
+registrering f&#229;r &#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. 
+Detsamma g&#228;ller i fr&#229;ga om beslut enligt 15 a eller 17 &#167;. Ett 
+beslut av registreringsmyndigheten att v&#228;gra registrering av 
+ett f&#246;retagsnamn &#246;verklagas dock till Patent- och 
+marknadsdomstolen. Ett &#246;verklagande ska ha kommit in inom tv&#229; 
+m&#229;nader fr&#229;n dagen f&#246;r beslutet.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2018:1658).
+
+22 &#167; Den som upps&#229;tligen eller av grov oaktsamhet meddelar oriktig eller
+vilseledande uppgift i ans&#246;kan eller anm&#228;lan till
+registreringsmyndigheten eller i handling som fogas d&#228;rvid d&#246;mes till
+b&#246;ter, om ej g&#228;rningen &#228;r belagd med straff i brottsbalken.
+
+Den som f&#246;rsummar f&#246;reskriven ans&#246;kan eller anm&#228;lan eller, d&#228;r s&#229;dan
+ans&#246;kan eller anm&#228;lan avskrivits eller avslagits eller registrering
+h&#228;vts, f&#246;rsummar att g&#246;ra ny f&#246;reskriven ans&#246;kan eller anm&#228;lan, d&#246;ms
+till penningb&#246;ter. Lag (1991:302).
+
+23 &#167; Har upph&#228;vts genom lag (2013:429).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1992:1448
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1993.
+
+2. En l&#228;nsstyrelse kan &#228;ven efter ikrafttr&#228;dandet vara
+registreringsmyndighet, dock l&#228;ngst fram till den 1 januari 1995.
+Regeringen best&#228;mmer vid vilken tidpunkt varje l&#228;nsstyrelses
+handelsregister skall &#246;verf&#246;ras till Patent- och registreringsverket.
+Fram till den tidpunkt d&#229; s&#229;dan &#246;verf&#246;ring sker g&#228;ller 1, 3, 4, 7, 8,
+13, 17 och 18 &#167;&#167; i sin &#228;ldre lydelse.
+
+3. Om en n&#228;ringsidkare, som registrerats f&#246;re den tidpunkt d&#229; registret
+&#246;verf&#246;rdes till Patent- och registreringsverket, avf&#246;rts ur registret
+och det d&#228;refter visar sig att verksamheten fortfarande ut&#246;vas, f&#229;r
+registreringsmyndigheten, efter anm&#228;lan fr&#229;n n&#228;ringsidkaren, undanr&#246;ja
+uppgiften om avf&#246;rande och &#229;terinf&#246;ra n&#228;ringsidkaren i registret.
+&#197;terinf&#246;ring av n&#228;ringsidkaren i registret f&#229;r dock bara ske om anm&#228;lan
+kommer in inom ett &#229;r fr&#229;n tidpunkten f&#246;r avf&#246;randet.
+
+1994:1225
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1996.
+
+2. En vid ikrafttr&#228;dandet registrerad stiftelse p&#229; vilken 10 kap.
+stiftelselagen (1994:1220) d&#229; &#228;r eller senare kommer att bli
+till&#228;mplig skall avf&#246;ras ur registret n&#228;r den har inf&#246;rts i
+stiftelseregistret enligt stiftelselagen (1994:1220).
+
+1995:33
+
+Denna lag tr&#228;der i kraft den 1 april 1995. Beslut som har meddelats
+f&#246;re ikrafttr&#228;dandet &#246;verklagas enligt &#228;ldre best&#228;mmelser.
+
+1998:308
+
+1. Denna lag tr&#228;der i kraft den 1 juli 1998.
+
+2. En n&#228;ringsidkare som vid lagens ikrafttr&#228;dande redan &#228;r
+registrerad skall senast den 31 december 1998 till
+handelsregistret anm&#228;la s&#229;dana uppgifter som anges i 4 &#167; och
+som inte redan tidigare &#228;r inf&#246;rda i registret. Detta g&#228;ller
+dock inte uppgift om ett handelsbolags eller en ideell
+f&#246;renings organisationsnummer.
+
+2003:866
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2004.
+
+2. &#196;ldre f&#246;reskrifter om enskild n&#228;ringsidkare i 4 &#167; f&#246;rsta
+stycket 2 g&#228;ller f&#246;r registreringsnummer som har tilldelats
+f&#246;re ikrafttr&#228;dandet.
+
+3. En enskild n&#228;ringsidkare, som &#228;r registrerad i
+handelsregistret vid ikrafttr&#228;dandet, skall senast den 30 juni
+2004 anm&#228;la s&#229;dana uppgifter som anges i 4 &#167; f&#246;rsta stycket 5
+till Patent- och registreringsverket. N&#229;gon anm&#228;lan beh&#246;ver
+dock inte g&#246;ras om uppgifterna redan &#228;r inf&#246;rda i registret.
+
+2004:239
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2004.
+
+2. Registrerings&#228;renden som har kommit in till Patent- och
+registreringsverket men i vilka verket inte har fattat beslut
+f&#246;re ikrafttr&#228;dandet skall &#246;verl&#228;mnas till Bolagsverket f&#246;r
+fortsatt handl&#228;ggning.
+
+2016:198
+
+1. Denna lag tr&#228;der i kraft den 1 september 
+2016.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r m&#229;l som har 
+inletts i allm&#228;n f&#246;rvaltningsdomstol f&#246;re ikrafttr&#228;dandet.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4146">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4148">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

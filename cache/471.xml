@@ -1,0 +1,541 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2020-06-29" /> 
+ <meta id="rattsinfo-edited" content="2021-03-26" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>471</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=470">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=472">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2020:616 ·
+                    <a href="/sfsr?bet=2020:616">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2020:616) om verkst&#228;llighet av ungdoms&#246;vervakning</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L5
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2020-06-25
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2021-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om verkst&#228;llighet av 
+ungdoms&#246;vervakning enligt 32 kap. 3 a &#167; brottsbalken.
+
+2 &#167; Kriminalv&#229;rden ansvarar f&#246;r verkst&#228;lligheten av 
+ungdoms&#246;vervakning.
+
+Inledande av verkst&#228;llighet
+
+3 &#167; Ungdoms&#246;vervakning f&#229;r verkst&#228;llas n&#228;r en dom eller ett 
+beslut i den del som avser ungdoms&#246;vervakning har f&#229;tt laga 
+kraft mot den d&#246;mde.
+
+Verkst&#228;lligheten ska p&#229;b&#246;rjas s&#229; snart som m&#246;jligt efter det 
+att domen eller beslutet i den del som avser p&#229;f&#246;ljden &#228;r 
+verkst&#228;llbar mot den d&#246;mde.
+
+4 &#167; En d&#246;md f&#229;r f&#246;rklara att han eller hon avst&#229;r fr&#229;n att 
+&#246;verklaga eller fullf&#246;lja ett &#246;verklagande av en dom eller ett 
+beslut i den del som avser ungdoms&#246;vervakning 
+(n&#246;jdf&#246;rklaring).
+
+En n&#246;jdf&#246;rklaring f&#229;r l&#228;mnas inf&#246;r den domstol som har 
+meddelat domen eller beslutet eller inf&#246;r Kriminalv&#229;rden. En 
+n&#246;jdf&#246;rklaring f&#229;r inte tas emot utan att b&#229;de den som tar 
+emot f&#246;rklaringen och den d&#246;mde har tillg&#229;ng till domen, 
+beslutet eller r&#228;ttens bevis om utg&#229;ngen i m&#229;let som r&#246;r den 
+d&#246;mde (domsbevis). Innan en n&#246;jdf&#246;rklaring l&#228;mnas ska den som 
+tar emot f&#246;rklaringen p&#229; l&#228;mpligt s&#228;tt ha klargjort inneb&#246;rden 
+och verkan av n&#246;jdf&#246;rklaringen f&#246;r den d&#246;mde.
+
+N&#228;r en n&#246;jdf&#246;rklaring l&#228;mnas ska ett vittne n&#228;rvara. En 
+n&#246;jdf&#246;rklaring ska dokumenteras. 
+
+En n&#246;jdf&#246;rklaring f&#229;r inte tas tillbaka. En n&#246;jdf&#246;rklaring 
+inneb&#228;r att domen eller beslutet i den del som avser 
+ungdoms&#246;vervakning f&#229;r laga kraft mot den d&#246;mde.
+
+Ber&#228;kning av verkst&#228;llighetstid
+
+5 &#167; Kriminalv&#229;rden ska fastst&#228;lla dagen f&#246;r verkst&#228;llighetens 
+slut. Tiden f&#246;r ungdoms&#246;vervakning ska r&#228;knas fr&#229;n och med den 
+dag domen eller beslutet i den del som avser 
+ungdoms&#246;vervakning har f&#229;tt laga kraft mot den d&#246;mde. Tiden 
+ska ber&#228;knas i dagar. Ungdoms&#246;vervakning i m&#229;nader eller &#229;r 
+ska omr&#228;knas till dagar. Med en m&#229;nad ska avses trettio dagar 
+och med ett &#229;r trehundrasextiofem dagar.
+
+Verkst&#228;llighetens m&#229;l och utformning
+
+6 &#167; Verkst&#228;lligheten ska s&#229; l&#229;ngt som m&#246;jligt utformas p&#229; ett 
+s&#228;tt som &#228;r &#228;gnat att f&#246;rebygga att den d&#246;mde &#229;terfaller i 
+brott eller p&#229; annat s&#228;tt utvecklas ogynnsamt. En tv&#229;ngs&#229;tg&#228;rd 
+enligt denna lag f&#229;r endast anv&#228;ndas om den st&#229;r i rimlig 
+proportion till syftet med &#229;tg&#228;rden. Om en mindre ingripande 
+&#229;tg&#228;rd &#228;r tillr&#228;cklig ska den anv&#228;ndas.
+
+7 &#167; Kriminalv&#229;rden ska uppr&#228;tta en individuellt utformad 
+verkst&#228;llighetsplan f&#246;r den d&#246;mde enligt vad som f&#246;ljer av 
+10-16 &#167;&#167;.
+
+8 &#167; Kriminalv&#229;rden ska f&#246;rordna en s&#228;rskild koordinator f&#246;r 
+den d&#246;mde. Koordinatorn ska h&#229;lla regelbunden kontakt med den 
+d&#246;mde och tr&#228;ffa honom eller henne under verkst&#228;lligheten samt 
+genom kontroll, st&#246;d och hj&#228;lp verka f&#246;r att 
+verkst&#228;llighetsplanen f&#246;ljs.
+
+9 &#167; Socialn&#228;mnden i den kommun som enligt socialtj&#228;nstlagen 
+(2001:453) har ansvar f&#246;r den d&#246;mde ska utse en s&#228;rskild 
+handl&#228;ggare f&#246;r honom eller henne under verkst&#228;lligheten.
+
+Verkst&#228;llighetsplanering
+
+10 &#167; I inledningen av verkst&#228;lligheten ska det g&#246;ras en 
+utredning om den d&#246;mdes f&#246;rh&#229;llanden, i syfte att fastst&#228;lla 
+vilka &#229;tg&#228;rder som kan vidtas f&#246;r att f&#246;rebygga att han eller 
+hon &#229;terfaller i brott eller p&#229; annat s&#228;tt utvecklas ogynnsamt 
+(verkst&#228;llighetsplanering). Verkst&#228;llighetsplaneringen ska 
+mynna ut i en verkst&#228;llighetsplan.
+
+11 &#167; Verkst&#228;llighetsplaneringen ska genomf&#246;ras av 
+Kriminalv&#229;rden i samr&#229;d med den d&#246;mde. Om det &#228;r m&#246;jligt, ska 
+samr&#229;d ske med hans eller hennes v&#229;rdnadshavare. I de fall det 
+bed&#246;ms l&#228;mpligt f&#229;r samr&#229;d &#228;ven ske med andra personer.
+
+12 &#167; Vid verkst&#228;llighetsplaneringen ska samverkan ske med 
+socialn&#228;mnden i den kommun som enligt socialtj&#228;nstlagen 
+(2001:453) har ansvar f&#246;r den d&#246;mde och vid behov &#228;ven med 
+andra ber&#246;rda myndigheter och akt&#246;rer.
+
+13 &#167; Verkst&#228;llighetsplanen ska vara uppr&#228;ttad senast fyra 
+veckor efter det att domen eller beslutet i den del som avser 
+ungdoms&#246;vervakning &#228;r verkst&#228;llbar mot den d&#246;mde.
+
+Verkst&#228;llighetsplanens inneh&#229;ll
+
+14 &#167; Verkst&#228;llighetsplanen ska inneh&#229;lla f&#246;reskrifter om att 
+den d&#246;mde ska tr&#228;ffa koordinatorn i enlighet med vad som anges 
+i 17 &#167; och om inskr&#228;nkningar i den d&#246;mdes r&#246;relsefrihet i 
+enlighet med vad som anges i 18-21 &#167;&#167;.
+
+Verkst&#228;llighetsplanen ska &#228;ven inneh&#229;lla en f&#246;reskrift om att 
+den d&#246;mde ska vara f&#246;rbjuden att under verkst&#228;lligheten bruka 
+narkotika, alkohol, n&#229;got annat berusningsmedel, n&#229;got s&#229;dant 
+medel som avses i 1 &#167; lagen (1991:1969) om f&#246;rbud mot vissa 
+dopningsmedel eller n&#229;gon s&#229;dan vara som omfattas av lagen 
+(1999:42) om f&#246;rbud mot vissa h&#228;lsofarliga varor.
+
+15 &#167; Verkst&#228;llighetsplanen f&#229;r inneh&#229;lla f&#246;reskrifter om 
+
+1. boende, 
+
+2. skolg&#229;ng eller annan syssels&#228;ttning, 
+
+3. fritid,
+
+4. missbruksbehandling, 
+
+5. annan v&#229;rd och behandling, och 
+
+6. andra &#229;tg&#228;rder som syftar till att f&#246;rebygga att den d&#246;mde 
+&#229;terfaller i brott eller p&#229; annat s&#228;tt utvecklas ogynnsamt.
+
+16 &#167; Kriminalv&#229;rden ska f&#246;lja upp verkst&#228;llighetsplanen under 
+verkst&#228;lligheten. Uppf&#246;ljningen ska ske minst var &#229;ttonde 
+vecka. Vid behov ska verkst&#228;llighetsplanen &#228;ndras.
+
+Vid uppf&#246;ljningen ska samverkan ske med socialn&#228;mnden i den 
+kommun som enligt socialtj&#228;nstlagen (2001:453) har ansvar f&#246;r 
+den d&#246;mde och vid behov &#228;ven med andra ber&#246;rda myndigheter och 
+akt&#246;rer.
+
+M&#246;ten med koordinatorn
+
+17 &#167; Den d&#246;mde ska tr&#228;ffa koordinatorn tv&#229; g&#229;nger i veckan 
+under verkst&#228;lligheten, om inte annat f&#246;ljer av andra eller 
+tredje stycket. Tid och plats f&#246;r m&#246;tena ska best&#228;mmas av 
+koordinatorn, efter samr&#229;d med den d&#246;mde. 
+
+Om inneh&#229;llet i verkst&#228;llighetsplanen motiverar det, f&#229;r 
+Kriminalv&#229;rden besluta att antalet m&#246;ten ska begr&#228;nsas till 
+ett i veckan. Detsamma g&#228;ller om den d&#246;mde &#228;r f&#246;rem&#229;l f&#246;r v&#229;rd 
+enligt lagen (1990:52) med s&#228;rskilda best&#228;mmelser om v&#229;rd av 
+unga. 
+
+Om den d&#246;mde inte f&#246;ljer verkst&#228;llighetsplanen p&#229; ett 
+godtagbart s&#228;tt, f&#229;r Kriminalv&#229;rden besluta att antalet m&#246;ten 
+ska ut&#246;kas, dock inte till fler &#228;n tre i veckan.
+
+Inskr&#228;nkningar i r&#246;relsefriheten
+
+18 &#167; Under verkst&#228;lligheten ska den d&#246;mde vara f&#246;rbjuden att 
+vistas utanf&#246;r bostaden under kv&#228;llar och n&#228;tter mot l&#246;rdag, 
+s&#246;ndag och m&#229;ndag, fr&#229;n klockan arton p&#229; kv&#228;llen till klockan 
+sju p&#229; morgonen. 
+
+Om ett f&#246;rbud enligt f&#246;rsta stycket inte bed&#246;ms l&#228;mpligt med 
+h&#228;nsyn till den d&#246;mdes personliga f&#246;rh&#229;llanden eller om en 
+annan inskr&#228;nkning i r&#246;relsefriheten annars bed&#246;ms vara mer 
+&#228;ndam&#229;lsenlig, f&#229;r f&#246;rbudet ers&#228;ttas med 
+
+1. ett f&#246;rbud att under vissa tider vistas p&#229; en s&#228;rskilt 
+angiven plats eller inom ett s&#228;rskilt angivet omr&#229;de, 
+
+2. ett f&#246;rbud att under vissa tider l&#228;mna ett s&#228;rskilt angivet 
+omr&#229;de, eller 
+
+3. en skyldighet att under vissa tider uppeh&#229;lla sig p&#229; en 
+s&#228;rskilt angiven plats. 
+
+Inskr&#228;nkningarna i r&#246;relsefriheten enligt andra stycket ska i 
+huvudsak vara lika ingripande som ett f&#246;rbud enligt f&#246;rsta 
+stycket och f&#229;r inte vara mer ingripande &#228;n ett s&#229;dant f&#246;rbud. 
+Om det beh&#246;vs f&#246;r att inskr&#228;nkningarna ska vara tillr&#228;ckligt 
+ingripande eller om det annars bed&#246;ms l&#228;mpligt, f&#229;r flera 
+inskr&#228;nkningar som anges i andra stycket kombineras.
+
+19 &#167; Kontrollen av att inskr&#228;nkningarna i r&#246;relsefriheten 
+enligt 18 &#167; f&#246;ljs ska g&#246;ras med elektroniska hj&#228;lpmedel, om 
+det inte finns s&#228;rskilda sk&#228;l mot det.
+
+20 &#167; Efter halva verkst&#228;llighetstiden ska Kriminalv&#229;rden pr&#246;va 
+om inskr&#228;nkningarna i r&#246;relsefriheten ska minskas. Efter tv&#229; 
+tredjedelar av verkst&#228;llighetstiden ska Kriminalv&#229;rden pr&#246;va 
+om inskr&#228;nkningarna i r&#246;relsefriheten ska upph&#246;ra helt. Vid 
+pr&#246;vningen ska det beaktas om den d&#246;mde har medverkat i 
+verkst&#228;llighetsplaneringen och d&#228;refter f&#246;ljer 
+verkst&#228;llighetsplanen p&#229; ett godtagbart s&#228;tt.
+
+21 &#167; Om den d&#246;mde, efter det att inskr&#228;nkningarna i 
+r&#246;relsefriheten har minskats eller upph&#246;rt, inte f&#246;ljer 
+verkst&#228;llighetsplanen p&#229; ett godtagbart s&#228;tt, f&#229;r 
+Kriminalv&#229;rden besluta att inskr&#228;nkningarna ska ut&#246;kas eller 
+&#229;terupptas. 
+
+Om det finns sk&#228;l f&#246;r det f&#229;r Kriminalv&#229;rden besluta att 
+inskr&#228;nkningarna p&#229; nytt ska minskas eller upph&#246;ra helt.
+
+Kontroll av drog- och alkoholf&#246;rbud
+
+22 &#167; Den d&#246;mde &#228;r, om inte annat motiveras av medicinska eller 
+liknande sk&#228;l, under verkst&#228;lligheten skyldig att p&#229; beg&#228;ran 
+l&#228;mna blod-, urin-, utandnings-, saliv-, svett- eller h&#229;rprov 
+f&#246;r kontroll av att han eller hon inte &#228;r p&#229;verkad av 
+narkotika, alkohol, n&#229;got annat berusningsmedel, n&#229;got s&#229;dant 
+medel som avses i 1 &#167; lagen (1991:1969) om f&#246;rbud mot vissa 
+dopningsmedel eller n&#229;gon s&#229;dan vara som omfattas av lagen 
+(1999:42) om f&#246;rbud mot vissa h&#228;lsofarliga varor. Urinprov f&#229;r 
+inte tas eller bevittnas av n&#229;gon av motsatt k&#246;n som inte &#228;r 
+l&#228;kare eller legitimerad sjuksk&#246;terska.
+
+Handr&#228;ckning av Polismyndigheten
+
+23 &#167; Om den d&#246;mde inte inst&#228;ller sig f&#246;r att medverka i 
+verkst&#228;llighetsplaneringen eller inte kommer till m&#246;ten med 
+koordinatorn, ska Polismyndigheten p&#229; beg&#228;ran av 
+Kriminalv&#229;rden l&#228;mna hj&#228;lp f&#246;r att s&#246;ka efter och h&#228;mta honom 
+eller henne till den av Kriminalv&#229;rden anvisade platsen.
+
+Om den d&#246;mde ska h&#228;mtas f&#229;r han eller hon inte omh&#228;ndertas 
+tidigare &#228;n vad som &#228;r n&#246;dv&#228;ndigt f&#246;r att han eller hon ska 
+kunna inst&#228;llas omedelbart till m&#246;tet.
+
+Om ett h&#228;mtningsf&#246;rs&#246;k tidigare har misslyckats, eller det 
+annars p&#229; grund av vad som &#228;r k&#228;nt om den som ska h&#228;mtas finns 
+s&#228;rskild anledning till det, f&#229;r Kriminalv&#229;rden eller 
+Polismyndigheten besluta att han eller hon f&#229;r omh&#228;ndertas 
+tidigare &#228;n vad som f&#246;ljer av andra stycket. Omh&#228;ndertagandet 
+f&#229;r i s&#229;dant fall &#228;ga rum h&#246;gst sex timmar eller, efter beslut 
+av Kriminalv&#229;rden, h&#246;gst arton timmar f&#246;re m&#246;tet.
+
+Den som har omh&#228;ndertagits enligt tredje stycket &#228;r skyldig 
+att i avvaktan p&#229; inst&#228;llelsen stanna kvar p&#229; den plats som 
+best&#228;ms av Polismyndigheten.
+
+24 &#167; Om den d&#246;mde bryter mot en f&#246;reskrift om inskr&#228;nkningar i 
+r&#246;relsefriheten, ska Polismyndigheten p&#229; beg&#228;ran av 
+Kriminalv&#229;rden l&#228;mna hj&#228;lp f&#246;r att verkst&#228;lla f&#246;reskriften 
+genom att tillf&#228;lligt omh&#228;nderta honom eller henne.
+
+Om den d&#246;mde bryter mot en f&#246;reskrift om inskr&#228;nkningar i 
+r&#246;relsefriheten och p&#229;tr&#228;ffas av en polisman, f&#229;r polismannen 
+tillf&#228;lligt omh&#228;nderta honom eller henne. 
+
+I de fall ett omh&#228;ndertagande g&#246;rs enligt f&#246;rsta eller andra 
+stycket ska den d&#246;mde, om han eller hon &#228;r under arton &#229;r, 
+skyndsamt &#246;verl&#228;mnas till sina f&#246;r&#228;ldrar eller annan 
+v&#229;rdnadshavare. Om det inte &#228;r m&#246;jligt, ska den d&#246;mde 
+&#246;verl&#228;mnas till socialn&#228;mnden. Om den d&#246;mde &#228;r &#246;ver arton &#229;r, 
+ska han eller hon skyndsamt l&#228;mnas i bostaden eller p&#229; l&#228;mplig 
+plats som m&#246;jligg&#246;r att han eller hon kan ta sig till 
+bostaden. Om f&#246;reskriften avser en skyldighet att uppeh&#229;lla 
+sig p&#229; en s&#228;rskilt angiven plats, ska polismannen i st&#228;llet 
+f&#246;ra honom eller henne till den platsen.
+
+25 &#167; En beg&#228;ran om s&#229;dan hj&#228;lp som avses i 23 och 24 &#167;&#167; f&#229;r 
+g&#246;ras endast om
+
+1. det p&#229; grund av s&#228;rskilda omst&#228;ndigheter kan befaras att 
+&#229;tg&#228;rden inte kan utf&#246;ras utan att de s&#228;rskilda befogenheter 
+som anges i 10 och 10 a &#167;&#167; polislagen (1984:387) beh&#246;ver 
+tillgripas, eller 
+
+2. det annars finns synnerliga sk&#228;l.
+
+Underr&#228;ttelse till &#229;klagare
+
+26 &#167; Om det kan antas att det finns f&#246;ruts&#228;ttningar f&#246;r en 
+&#229;tg&#228;rd enligt 30 b &#167; lagen (1964:167) med s&#228;rskilda 
+best&#228;mmelser om unga lag&#246;vertr&#228;dare eller 32 kap. 4 &#167; 
+brottsbalken, ska Kriminalv&#229;rden underr&#228;tta &#197;klagarmyndigheten 
+om detta.
+
+Bemyndigande
+
+27 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela ytterligare f&#246;reskrifter om inledande av 
+verkst&#228;llighet, n&#246;jdf&#246;rklaring och ber&#228;kning av 
+verkst&#228;llighetstid.
+
+&#214;vriga best&#228;mmelser
+
+28 &#167; Beslut enligt denna lag fattas av Kriminalv&#229;rden, om inte 
+annat f&#246;ljer av 23 &#167; tredje stycket. Besluten g&#228;ller 
+omedelbart, om inte n&#229;got annat beslutas.
+
+29 &#167; Beslut enligt denna lag f&#229;r &#246;verklagas till allm&#228;n 
+f&#246;rvaltningsdomstol.
+
+Ett beslut &#246;verklagas till den f&#246;rvaltningsr&#228;tt inom vars 
+domkrets det friv&#229;rdskontor finns d&#228;r den d&#246;mde &#228;r inskriven.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=470">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=472">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,794 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-03-18" /> 
+ <meta id="rattsinfo-edited" content="2024-03-18 10:46:51" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4407</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4406">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4408">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1957:668 ·
+                    <a href="/sfsr?bet=1957:668">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1957:668) om utl&#228;mning f&#246;r brott</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet BIRS
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1957-12-06
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2024:45
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Den som i en annan stat &#228;r misst&#228;nkt, tilltalad eller d&#246;md 
+f&#246;r d&#228;r straffbelagd g&#228;rning och uppeh&#229;ller sig h&#228;r i riket 
+f&#229;r efter beslut av regeringen utl&#228;mnas till den staten i 
+enlighet med best&#228;mmelserna i denna lag. 
+
+Lagen g&#228;ller inte om lagen (2003:1156) om &#246;verl&#228;mnande fr&#229;n 
+Sverige enligt en europeisk arresteringsorder eller lagen 
+(2011:1165) om &#246;verl&#228;mnande fr&#229;n Sverige enligt en nordisk 
+arresteringsorder &#228;r till&#228;mplig i f&#246;rh&#229;llande till den andra 
+staten. 
+
+Lagen g&#228;ller inte heller om avtalet om handel och samarbete 
+mellan Europeiska unionen och Europeiska 
+atomenergigemenskapen, &#229; ena sidan, och F&#246;renade konungariket 
+Storbritannien och Nordirland, &#229; andra sidan, och den 
+tillh&#246;rande lagen (2021:709) med kompletterande best&#228;mmelser 
+om straffr&#228;ttsligt samarbete mellan Europeiska unionen och 
+F&#246;renade kungariket &#228;r till&#228;mpliga. Lag (2021:710).
+
+F&#246;ruts&#228;ttningar f&#246;r utl&#228;mning
+
+2 &#167; En svensk medborgare f&#229;r inte utl&#228;mnas enligt denna lag.
+Lag (2003:1158).
+
+3 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+3 a &#167; Har upph&#228;vts genom lag (2003:1158).
+
+3 b &#167; Har upph&#228;vts genom lag (2003:1158).
+
+3 c &#167; Har upph&#228;vts genom lag (2003:1158).
+
+4 &#167; Utl&#228;mning f&#229;r beviljas endast om den g&#228;rning f&#246;r vilken
+utl&#228;mning beg&#228;rs motsvarar brott, f&#246;r vilket enligt svensk lag
+&#228;r f&#246;reskrivet f&#228;ngelse i ett &#229;r eller mer. Har personen i den
+ans&#246;kande staten d&#246;mts f&#246;r g&#228;rningen, f&#229;r han utl&#228;mnas endast
+om p&#229;f&#246;ljden utg&#246;r minst frihetsstraff i fyra m&#229;nader eller
+annat omh&#228;ndertagande p&#229; anstalt under motsvarande tid.
+
+Skall utl&#228;mning ske till en annan stat f&#246;r g&#228;rning som avses i
+f&#246;rsta stycket, f&#229;r utl&#228;mning till den staten samtidigt
+beviljas &#228;ven f&#246;r annan g&#228;rning som motsvarar brott enligt
+svensk lag.
+
+Har personen i den ans&#246;kande staten d&#246;mts till gemensam p&#229;f&#246;ljd
+f&#246;r g&#228;rning som avses i f&#246;rsta stycket f&#246;rsta meningen och f&#246;r
+annan g&#228;rning som motsvarar brott enligt svensk lag, f&#229;r
+utl&#228;mning f&#246;r g&#228;rningarna beviljas, om den gemensamma p&#229;f&#246;ljden
+utg&#246;r minst frihetsstraff i fyra m&#229;nader eller annat
+omh&#228;ndertagande p&#229; anstalt under motsvarande tid.
+Lag (2003:1158).
+
+5 &#167; F&#246;r g&#228;rningar som n&#228;mns i de f&#246;reskrifter i 16 kap.
+brottsbalken som avser brott av krigsman eller i 21 kap.
+brottsbalken eller i lagen (1994:1809) om totalf&#246;rsvarsplikt
+f&#229;r utl&#228;mning inte medges, om inte annat f&#246;ljer av en
+internationell &#246;verenskommelse som &#228;r i kraft mellan Sverige
+och den ans&#246;kande staten.
+
+Detta utg&#246;r inte hinder mot att, om g&#228;rningen &#228;ven innefattar
+brott f&#246;r vilket utl&#228;mning annars f&#229;r ske, utl&#228;mna personen f&#246;r
+det brottet. Lag (2004:1001).
+
+6 &#167; Utl&#228;mning f&#229;r inte beviljas f&#246;r ett politiskt brott.
+
+Innefattar g&#228;rningen &#228;ven ett brott som inte &#228;r politiskt, f&#229;r
+utl&#228;mning beviljas f&#246;r det brottet, om g&#228;rningen i det
+s&#228;rskilda fallet &#246;verv&#228;gande har karakt&#228;ren av ett icke
+politiskt brott.
+
+F&#246;rsta stycket g&#228;ller inte om ett avslag p&#229; denna grund skulle
+strida mot en internationell &#246;verenskommelse som g&#228;ller mellan
+Sverige och den ans&#246;kande staten. Lag (2003:1158).
+
+7 &#167;  Ej m&#229; den utl&#228;mnas, som p&#229; grund av sin h&#228;rstamning, tillh&#246;righet
+till viss samh&#228;llsgrupp, religi&#246;sa eller politiska uppfattning eller
+eljest p&#229; grund av politiska f&#246;rh&#229;llanden l&#246;per risk att i den
+fr&#228;mmande staten uts&#228;ttas f&#246;r f&#246;rf&#246;ljelse, som riktar sig mot hans liv
+eller frihet eller eljest &#228;r av sv&#229;r beskaffenhet, eller ock d&#228;r icke
+&#229;tnjuter trygghet mot att bliva s&#228;nd till stat, i vilken han l&#246;per
+s&#229;dan risk.
+
+8 &#167;  Utl&#228;mning m&#229; ej beviljas, om den i s&#228;rskilt fall p&#229; grund av den
+avsedda personens ungdom, h&#228;lsotillst&#229;nd eller personliga f&#246;rh&#229;llanden
+i &#246;vrigt, med beaktande j&#228;mv&#228;l av g&#228;rningens beskaffenhet och den
+fr&#228;mmande statens intresse, finnes uppenbart of&#246;renlig med
+humanitetens krav.
+
+9 &#167;  Har den som beg&#228;res utl&#228;mnad d&#246;mts f&#246;r g&#228;rningen i den fr&#228;mmande
+staten, m&#229; utl&#228;mning ej beviljas, med mindre domen st&#246;djes av
+utredningen och ej heller eljest f&#246;ranleder allvarlig erinran.
+
+Om dom ang&#229;ende g&#228;rningen ej meddelats i den fr&#228;mmande staten, skall
+framst&#228;llningen om utl&#228;mning grundas p&#229; beslut om h&#228;ktning, som
+meddelats av beh&#246;rig myndighet i den fr&#228;mmande staten. I fr&#229;ga om
+g&#228;rning, f&#246;r vilken utl&#228;mning kan ske enligt 4 &#167; andra stycket, m&#229;
+dock framst&#228;llningen grundas p&#229; annan utredning. Framst&#228;llningen m&#229; ej
+bifallas, med mindre sannolika sk&#228;l &#228;ro, att personen beg&#229;tt
+g&#228;rningen.
+
+Genom &#246;verenskommelse med fr&#228;mmande stat m&#229; best&#228;mmas, att i
+f&#246;rh&#229;llande till den staten f&#228;llande dom eller s&#229;dant beslut om
+h&#228;ktning som meddelats av domstol eller domare skall godtagas, om det
+ej i s&#228;rskilt fall framg&#229;r, att domslutet eller h&#228;ktningsbeslutet &#228;r
+uppenbart oriktigt. I s&#229;dan &#246;verenskommelse kan f&#246;reskrivas att dom,
+som har meddelats utan att den d&#246;mde har varit personligen n&#228;rvarande
+vid f&#246;rhandling i saken inf&#246;r domstol, skall godtagas endast om den
+d&#246;mdes r&#228;ttighet att f&#246;rsvara sig likv&#228;l kan anses ha blivit n&#246;jaktigt
+tillgodosedd eller den d&#246;mde, enligt f&#246;rs&#228;kran som den fr&#228;mmande
+staten l&#228;mnar i utl&#228;mnings&#228;rendet, har m&#246;jlighet att p&#229;kalla ny
+domstolspr&#246;vning som tillgodoser n&#228;mnda r&#228;ttighet. Lag (1979:98).
+
+10 &#167; Har i fr&#229;ga om den som beg&#228;rs utl&#228;mnad h&#228;r i riket 
+meddelats dom betr&#228;ffande det uppgivna brottet eller med st&#246;d 
+av 20 kap. 7 &#167; r&#228;tteg&#229;ngsbalken eller motsvarande best&#228;mmelse 
+i annan f&#246;rfattning meddelats beslut att inte &#229;tala f&#246;r 
+brottet, f&#229;r utl&#228;mning f&#246;r det brottet inte beviljas.
+
+Utl&#228;mning f&#229;r inte heller beviljas, om straff f&#246;r brottet 
+skulle vara f&#246;rfallet enligt svensk lag.
+
+Har fr&#229;ga om ansvar f&#246;r brottet pr&#246;vats genom en dom som har 
+f&#229;tt laga kraft och som meddelats i en annan stat &#228;n den som 
+gjort framst&#228;llning om utl&#228;mning, och brottet har beg&#229;tts i 
+den f&#246;rst n&#228;mnda staten eller har denna stat tilltr&#228;tt den 
+europeiska utl&#228;mningskonventionen den 13 december 1957 eller 
+en &#246;verenskommelse som avses i 2 kap. 9 &#167; andra stycket 
+brottsbalken eller har den staten slutit s&#228;rskilt avtal med 
+Sverige om utl&#228;mning f&#246;r brott, f&#229;r den som beg&#228;rs utl&#228;mnad 
+inte utl&#228;mnas f&#246;r det brottet,
+
+1. om han eller hon har frik&#228;nts fr&#229;n ansvar,
+
+2. om han eller hon har f&#246;rklarats skyldig till brottet utan 
+att p&#229;f&#246;ljd har &#229;d&#246;mts,
+
+3. om &#229;d&#246;md p&#229;f&#246;ljd har verkst&#228;llts i sin helhet eller 
+verkst&#228;lligheten p&#229;g&#229;r, eller
+
+4. om &#229;d&#246;md p&#229;f&#246;ljd har bortfallit enligt lagen i den stat d&#228;r 
+domen meddelats.
+
+Tredje stycket g&#228;ller inte i fr&#229;ga om brott, som har f&#246;r&#246;vats 
+i den stat som gjort framst&#228;llning om utl&#228;mning eller mot 
+denna stat eller menighet eller allm&#228;n inr&#228;ttning i den 
+staten, s&#229;vida inte lagf&#246;ringen har skett p&#229; beg&#228;ran av den 
+stat som gjort framst&#228;llning om utl&#228;mning eller efter det att 
+den som beg&#228;rs utl&#228;mnad har utl&#228;mnats fr&#229;n denna stat f&#246;r 
+lagf&#246;ring. Lag (2021:1019).
+
+11 &#167;  Den som h&#228;r i riket &#228;r &#229;talad f&#246;r annat brott, f&#246;r vilket &#228;r
+stadgat f&#228;ngelse, eller som enligt dom mot honom skall underg&#229;
+f&#228;ngelse eller eljest omh&#228;ndertagas p&#229; anstalt , m&#229; ej utl&#228;mnas s&#229;
+l&#228;nge hindret betst&#229;r. Samma lag vare, om f&#246;runders&#246;kning inletts f&#246;r
+brott som nyss n&#228;mnts.
+
+Utan hinder av vad i f&#246;rsta stycket s&#228;gs m&#229; utl&#228;mning &#228;ga rum f&#246;r
+r&#228;tteg&#229;ng om den g&#228;rning som avses med den fr&#228;mmande statens beg&#228;ran,
+p&#229; villkor att den utl&#228;mnade senare &#246;verl&#228;mnas till svensk myndighet
+enligt vad regeringen best&#228;mmer. Lag (1975:292).
+
+12 &#167;  Vid beviljande av utl&#228;mning skola i till&#228;mpliga delar uppst&#228;llas
+f&#246;ljande villkor:
+
+1. Den som utl&#228;mnas m&#229; icke, utan s&#228;rskilt medgivande enligt 24 &#167;, i
+den fr&#228;mmande staten &#229;talas eller straffas f&#246;r annat brott som beg&#229;tts
+f&#246;re utl&#228;mningen eller, utom i fall som avses i 13 &#167; andra stycket,
+utl&#228;mnas till annan stat, med mindre han underl&#229;tit att, oaktat hinder
+ej m&#246;tt, l&#228;mna landet inom fyrtiofem dagar efter r&#228;ttg&#229;ng och
+underg&#229;ende av straff eller annan p&#229;f&#246;ljd som m&#229; hava &#229;d&#246;mts honom
+f&#246;r brott, varf&#246;r utl&#228;mning &#228;gt rum, eller &#229;terv&#228;nt dit sedan han
+l&#228;mnat landet.
+
+2. Den som utl&#228;mnas m&#229; icke f&#246;r brottet &#229;talas vid domstol, som endast
+f&#246;r tillf&#228;llet eller f&#246;r s&#228;rskilda undantagsf&#246;rh&#229;llanden erh&#229;llit
+befogenhet att pr&#246;va m&#229;l av s&#229;dan beskaffenhet. Regeringen &#228;ger dock
+medgiva undantag fr&#229;n vad nu sagts, om det finnes f&#246;renligt med
+r&#228;ttss&#228;kerheten.
+
+3. Den som utl&#228;mnas m&#229; ej f&#246;r brottet straffas med d&#246;den.
+
+I fall som avses i 5 eller 6 &#167; skall s&#228;rskilt angivas, att den som
+utl&#228;mnas icke m&#229; straffas enligt best&#228;mmelse som avser brott av
+krigsman eller s&#229;som f&#246;r politiskt brott.
+
+I &#246;vrigt uppst&#228;ller regeringen de villkor som pr&#246;vas erforderliga.
+Lag (1975:292).
+
+12 a &#167; N&#228;r det f&#246;ljer av en internationell &#246;verenskommelse som
+&#228;r bindande f&#246;r Sverige, f&#229;r den som har utl&#228;mnats, ut&#246;ver vad
+som f&#246;ljer av 12 &#167; f&#246;rsta stycket 1, &#229;talas eller straffas f&#246;r
+annat brott som han eller hon har beg&#229;tt f&#246;re utl&#228;mningen, om
+han eller hon har l&#228;mnat sitt samtycke till det.
+Lag (2003:1158).
+
+13 &#167;  Om tv&#229; eller flera stater beg&#228;ra utl&#228;mning av samma person, 
+skall, med h&#228;nsyn till beskaffenheten av brottet eller brotten, 
+tiden och platsen d&#228;rf&#246;r, framst&#228;llningarnas tidsf&#246;ljd, hans 
+nationlitet och hemvist samt &#246;vriga omst&#228;ndigheter, pr&#246;vas till 
+vilken stat utl&#228;mning b&#246;r ske.
+
+N&#228;r framst&#228;llningarna avse olika brott, m&#229; f&#246;reskrivas, att den som
+utl&#228;mnas till en stat skall fr&#229;n den staten vidare utl&#228;mnas till annan
+stat p&#229; villkor som bes&#228;tmts enligt 12 &#167;.
+
+F&#246;rfarandet
+
+14 &#167; En framst&#228;llning om utl&#228;mning skall g&#246;ras skriftligen.
+Den f&#229;r &#246;vers&#228;ndas per telefax eller, efter &#246;verenskommelse i
+det enskilda fallet, p&#229; annat s&#228;tt. Framst&#228;llningen skall ges
+in till Justitiedepartementet.
+
+Vid framst&#228;llningen skall fogas avskrift av h&#228;ktningsbeslut
+eller dom som &#229;beropas eller, i fall som avses i 4 &#167; andra
+stycket, annan utredning p&#229; vilken framst&#228;llningen grundas. I
+den m&#229;n det inte framg&#229;r av n&#228;mnda handlingar, skall uppgift
+l&#228;mnas om personens nationalitet och hemvist, brottets
+beskaffenhet, tid och plats f&#246;r brottet samt i den ans&#246;kande
+staten till&#228;mpliga straffbest&#228;mmelser. Signalement skall om
+m&#246;jligt l&#228;mnas. Lag (2001:612).
+
+15 &#167;  Innan regeringen meddelar beslut i anledning av framst&#228;llningen,
+skall yttrande avges av riks&#229;klagaren. Har inte den som avses med
+framst&#228;llningen samtyckt till att han utl&#228;mnas, skall &#228;rendet dessutom
+pr&#246;vas av h&#246;gsta domstolen. &#196;r det uppenbart att framst&#228;llningen ej
+b&#246;r bifallas, skall den dock omedelbart avsl&#229;s. Lag (1981:1090).
+
+16 &#167; Riks&#229;klagaren skall till grund f&#246;r sitt yttrande
+verkst&#228;lla erforderlig utredning enligt vad som g&#228;ller vid
+f&#246;runders&#246;kning i brottm&#229;l.
+
+Riks&#229;klagaren eller &#229;klagare som verkst&#228;ller utredningen f&#229;r
+under utredningen beg&#228;ra kompletterande information av beh&#246;rig
+myndighet i en annan stat om den andra staten till&#229;ter det.
+
+Om tv&#229;ngsmedel g&#228;ller vad som i allm&#228;nhet &#228;r f&#246;reskrivet f&#246;r
+brottm&#229;l. Beslut av r&#228;tten g&#228;ller tills vidare intill dess
+&#228;rendet har avgjorts eller, om utl&#228;mning beviljas, intill dess
+denna har verkst&#228;llts. Finner H&#246;gsta domstolen att det finns
+hinder mot utl&#228;mning enligt 1-10 &#167;&#167;, upph&#246;r dock beslutet
+genast att g&#228;lla. F&#246;religger s&#229;dant hinder mot utl&#228;mning som
+avses i 11 &#167; f&#246;rsta stycket, g&#228;ller beslutet inte under tid d&#229;
+personen med anledning av misstanke om brott som d&#228;r avses &#228;r
+ber&#246;vad friheten som anh&#229;llen eller h&#228;ktad eller underg&#229;r
+f&#228;ngelsestraff eller p&#229; annat s&#228;tt &#228;r omh&#228;ndertagen p&#229; anstalt.
+
+Beslut om tv&#229;ngsmedel kan meddelas &#228;ven efter det att utl&#228;mning
+har beviljats.
+
+R&#228;ttens beslut i fr&#229;ga om tv&#229;ngsmedel &#246;verklagas till H&#246;gsta
+domstolen utan inskr&#228;nkning till viss tid.
+
+Den som h&#229;lls h&#228;ktad i utl&#228;mnings&#228;rendet kan beg&#228;ra att ny
+f&#246;rhandling skall &#228;ga rum inom tre veckor fr&#229;n det att beslut
+senast har meddelats. Lag (2003:1158).
+
+17 &#167;  Sedan utredningen avslutats, &#246;verl&#228;mnar riks&#229;klagaren &#228;rendet
+j&#228;mte sitt yttrande till h&#246;gsta domstolen. Har den som avses med
+framst&#228;llningen samtyckt till att han utl&#228;mnas, skall &#228;rendet j&#228;mte
+yttrande i st&#228;llet &#246;verl&#228;mnas till regeringen. Lag (1981:1090).
+
+18 &#167; H&#246;gsta domstolen pr&#246;var, huruvida utl&#228;mning kan lagligen
+beviljas enligt vad i 1-10 &#167;&#167; s&#228;gs.
+
+Om det finnes erforderligt, skall f&#246;rhandling h&#229;llas. F&#246;rhandling m&#229;
+ej v&#228;gras, med mindre tidigare f&#246;rhandling m&#229;ste anses tillfyllest
+eller saken finnes uppenbar. Oaktat &#228;rendet anm&#228;lts hos h&#246;gsta
+domstolen, skall fr&#229;ga om tv&#229;ngsmedel pr&#246;vas av underr&#228;tt, om ej
+h&#246;gsta domstolen f&#246;rordnar annat. I &#246;vrigt g&#228;ller om &#228;rendets
+handl&#228;ggning vad om brottm&#229;l i allm&#228;nhet &#228;r stadgat. Ers&#228;ttning &#229;t
+offentlig f&#246;rsvarare, vittne eller annan som h&#246;rts i &#228;rendet skall
+stanna p&#229; staten, om det inte finns s&#228;rskilda sk&#228;l f&#246;r att den skall
+&#229;terbetalas av den som beg&#228;rs utl&#228;mnad. Lag (1996:1628).
+
+19 &#167; Har upph&#228;vts genom lag (1980:182).
+
+20 &#167; N&#228;r H&#246;gsta domstolen har meddelat beslut ska &#228;rendet 
+anm&#228;las f&#246;r regeringen. Om H&#246;gsta domstolen funnit att det 
+finns hinder mot utl&#228;mning enligt 1-10 &#167;&#167;, f&#229;r framst&#228;llningen 
+inte bifallas. Genom &#246;verenskommelse med en fr&#228;mmande stat f&#229;r 
+det dock best&#228;mmas att, om det anses finnas hinder enligt 8 
+eller 9 &#167;, fr&#229;gan ska kunna h&#228;nskjutas till internationell 
+skiljedom. 
+
+N&#228;r utl&#228;mning beviljas ska det best&#228;mmas inom vilken tid den 
+ans&#246;kande staten ska h&#228;mta den som ska utl&#228;mnas. Tiden f&#229;r 
+inte utan synnerliga sk&#228;l &#246;verstiga en m&#229;nad fr&#229;n det att den 
+ans&#246;kande staten har f&#229;tt del av beslutet.
+
+Beslutet om utl&#228;mning verkst&#228;lls av Polismyndigheten. Om den 
+som ska utl&#228;mnas inte &#228;r frihetsber&#246;vad f&#229;r han eller hon, om 
+det &#228;r n&#246;dv&#228;ndigt f&#246;r att utl&#228;mningen ska kunna genomf&#246;ras, 
+omh&#228;ndertas och tas i f&#246;rvar av Polismyndigheten, dock l&#228;ngst 
+under 96 timmar. Lag (2024:45).
+
+21 &#167;  Vid beviljande av utl&#228;mning m&#229; regeringen f&#246;rordna, att f&#246;rem&#229;l
+som tagits i beslag skall &#246;verl&#228;mnas till den fr&#228;mmande staten; och m&#229;
+d&#228;rvid stadgas de f&#246;rbeh&#229;ll som av h&#228;nsyn till enskild r&#228;tt eller ur
+allm&#228;n synpunkt finnas p&#229;kallade. Lag (1975:292).
+
+22 &#167; Regeringen eller justitiedepartementet beslutar om ers&#228;ttning av
+allm&#228;nna medel till offentlig f&#246;rsvarare f&#246;r arbete hos regeringen. Lag
+(1992:109).
+
+Tv&#229;ngsmedel i avvaktan p&#229; en framst&#228;llning om utl&#228;mning
+
+23 &#167; Den som i fr&#228;mmande stat &#228;r misst&#228;nkt, tilltalad eller
+d&#246;md f&#246;r brott, vilket enligt denna lag kan f&#246;ranleda
+utl&#228;mning, f&#229;r p&#229; beg&#228;ran av beh&#246;rig myndighet i den
+fr&#228;mmande staten eller med anledning av en d&#228;r utf&#228;rdad
+efterlysning omedelbart anh&#229;llas eller &#229;l&#228;ggas resef&#246;rbud
+eller anm&#228;lningsskyldighet av &#229;klagare enligt vad som i
+allm&#228;nhet g&#228;ller om brottm&#229;l. Beslag f&#229;r ocks&#229; ske i s&#229;dant
+fall.
+
+Beslut om anv&#228;ndning av tv&#229;ngsmedel ska utan uppskov anm&#228;las
+hos r&#228;tten, som skyndsamt efter f&#246;rhandling enligt
+r&#228;tteg&#229;ngsbalkens best&#228;mmelser om brottm&#229;l pr&#246;var &#229;tg&#228;rden.
+Om r&#228;tten kommer fram till att anh&#229;llande eller resef&#246;rbud
+eller anm&#228;lningsskyldighet ska best&#229;, ska den genast
+underr&#228;tta ansvarigt statsr&#229;d om det. Om det ansvariga
+statsr&#229;det anser att det finns hinder mot utl&#228;mning eller att
+utl&#228;mning annars inte b&#246;r ske, ska regeringen upph&#228;va
+&#229;tg&#228;rden. I annat fall ska den fr&#228;mmande staten genom
+Justitiedepartementets f&#246;rsorg underr&#228;ttas om &#229;tg&#228;rden. Det
+ansvariga statsr&#229;det ska d&#229; ange en viss best&#228;md tid inom
+vilken framst&#228;llning om utl&#228;mning ska g&#246;ras. Denna tid f&#229;r
+inte vara l&#228;ngre &#228;n fyrtio dagar fr&#229;n den dag personen
+anh&#246;lls eller resef&#246;rbud eller anm&#228;lningsskyldighet
+meddelades enligt f&#246;rsta stycket. N&#228;r en framst&#228;llning om
+utl&#228;mning kommer in, ska Justitiedepartementet genast
+underr&#228;tta den myndighet som f&#246;rst meddelat beslut om
+&#229;tg&#228;rden. S&#229;dan underr&#228;ttelse ska &#228;ven l&#228;mnas, om en
+framst&#228;llning om utl&#228;mning inte kommer in inom utsatt tid.
+
+R&#228;ttens beslut f&#229;r inte &#246;verklagas. Den som anh&#229;llits eller
+meddelats resef&#246;rbud eller anm&#228;lningsskyldighet f&#229;r dock f&#246;r
+pr&#246;vning av om &#229;tg&#228;rden ska best&#229; beg&#228;ra ny f&#246;rhandling inom
+tre veckor fr&#229;n det att beslut senast meddelats.
+
+Har en framst&#228;llning om utl&#228;mning av den som &#228;r anh&#229;llen
+eller har meddelats resef&#246;rbud eller anm&#228;lningsskyldighet
+inte gjorts inom den enligt andra stycket best&#228;mda tiden, ska
+den anh&#229;llne friges eller beslutet om resef&#246;rbud eller
+anm&#228;lningsskyldighet h&#228;vas. Detsamma g&#228;ller n&#228;r en
+framst&#228;llning avsl&#229;s enligt 15 &#167;. Om den anh&#229;llne i annat
+fall inte friges, ska en framst&#228;llning om h&#228;ktning l&#228;mnas
+till r&#228;tten senast p&#229; &#229;ttonde dagen efter den d&#229;
+riks&#229;klagaren fick del av utl&#228;mningsframst&#228;llningen. G&#246;rs
+inte det, ska den anh&#229;llne omedelbart friges. Lag (2015:104).
+
+&#214;vriga best&#228;mmelser
+
+24 &#167;  Utan hinder av villkor som uppst&#228;llts f&#246;r utl&#228;mning &#228;ger
+regeringen p&#229; framst&#228;llning av den fr&#228;mmande staten medgiva, att den
+som utl&#228;mnats m&#229; st&#228;llas till ansvar f&#246;r annan f&#246;re utl&#228;mningen
+f&#246;r&#246;vad g&#228;rning &#228;n den, f&#246;r vilken utl&#228;mning skett, eller utl&#228;mnas
+till annan stat. I fr&#229;ga om s&#229;dan framst&#228;llning skall i till&#228;mpliga
+delar g&#228;lla vad som &#228;r stadgat ang&#229;ende framst&#228;llning om utl&#228;mning.
+
+Medgivande m&#229; l&#228;mns allenast om, s&#229;vitt handlingarna visa, utl&#228;mning
+f&#246;r g&#228;rningen kunnat lagligen &#228;ga rum.
+
+Framg&#229;r av inkomna handlingar, att framst&#228;llningen icke kan lagligen
+bifallas, eller finner regeringen eljest anledning att icke villfara
+framst&#228;llningen, skall den omedelbart avsl&#229;s. I annat fall pr&#246;vas
+fr&#229;gan av h&#246;gsta domstolen, om inte den som avses med framst&#228;llningen
+har medgivit denna. Finner h&#246;gsta domstolen att hinder m&#246;ter, f&#229;r
+framst&#228;llningen inte bifallas. Lag (1981:1090).
+
+25 &#167;  Sedan framst&#228;llning om utl&#228;mning gjorts, m&#229; ej &#229;tal f&#246;r det
+uppgivna brottet v&#228;ckas, s&#229;vida icke framst&#228;llningen avslagits.
+
+Beviljas utl&#228;mning sedan &#229;tal v&#228;ckts, skall detta f&#246;rh&#229;llande anses
+utg&#246;ra r&#228;tteg&#229;ngshinder i brottm&#229;let. Lag (1975:292).
+
+26 &#167; Ansvarigt statsr&#229;d f&#229;r medge, att den som av en stat
+utl&#228;mnas till en annan stat f&#229;r f&#246;ras genom riket, om han
+eller hon inte &#228;r svensk medborgare och det inte heller
+annars finns synnerliga sk&#228;l mot det. Framst&#228;llning om detta
+ges in till Justitiedepartementet.
+
+Har tillst&#229;nd meddelats enligt f&#246;rsta stycket f&#229;r
+Polismyndigheten, om det &#228;r n&#246;dv&#228;ndigt f&#246;r att transporten
+ska kunna genomf&#246;ras, omh&#228;nderta och ta i f&#246;rvar den som
+utl&#228;mnas, dock l&#228;ngst under 48 timmar.
+
+N&#228;r tillst&#229;nd till transport beg&#228;rs i fr&#229;ga om n&#229;gon som
+utl&#228;mnas till en medlemsstat i Europeiska unionen, Island
+eller Norge till&#228;mpas 8 kap. 2 &#167; lagen (2003:1156) om
+&#246;verl&#228;mnande fr&#229;n Sverige enligt en europeisk
+arresteringsorder i st&#228;llet f&#246;r f&#246;rsta och andra styckena.
+Lag (2015:104).
+
+26 a &#167; Har utl&#228;mning till Sverige skett f&#246;r lagf&#246;ring h&#228;r i 
+landet, p&#229; villkor att den som utl&#228;mnats senare &#229;terf&#246;rs till 
+den andra staten, ska Polismyndigheten se till att den som har 
+utl&#228;mnats &#229;terf&#246;rs.
+
+Om den som ska &#229;terf&#246;ras inte &#228;r frihetsber&#246;vad f&#229;r han eller 
+hon, om det &#228;r n&#246;dv&#228;ndigt f&#246;r att &#229;terf&#246;randet ska kunna 
+genomf&#246;ras, h&#229;llas i f&#246;rvar av Polismyndigheten, dock l&#228;ngst 
+under 96 timmar. Lag (2024:45).
+
+26 b &#167; Om det vid en transport som avses i 26 &#167; sker en
+oplanerad mellanlandning i Sverige, ska tillst&#229;nd till
+transport enligt den paragrafen beg&#228;ras, f&#246;r det fall
+transporten inte forts&#228;tter inom tjugofyra timmar fr&#229;n
+landningen. Tillst&#229;nd till transport ska beg&#228;ras inom
+nittiosex timmar fr&#229;n landningen.
+
+Polismyndigheten f&#229;r, om det &#228;r n&#246;dv&#228;ndigt f&#246;r att transporten
+ska kunna genomf&#246;ras, omh&#228;nderta och ta i f&#246;rvar den som
+utl&#228;mnas, dock l&#228;ngst till dess en beg&#228;ran om tillst&#229;nd till
+transport har pr&#246;vats. Om tillst&#229;nd till transport inte beg&#228;rs
+inom den tid som anges i f&#246;rsta stycket, ska personen
+omedelbart friges.
+
+Om tillst&#229;nd till transport meddelas, g&#228;ller d&#228;refter 26 &#167;
+andra stycket. Tidsfristen ska r&#228;knas fr&#229;n det att tillst&#229;nd
+meddelats.
+
+N&#228;r transporten avser n&#229;gon som utl&#228;mnas till en medlemsstat i
+Europeiska unionen, Island eller Norge till&#228;mpas 8 kap. 2 &#167;
+lagen (2003:1156) om &#246;verl&#228;mnande fr&#229;n Sverige enligt en
+europeisk arresteringsorder i st&#228;llet f&#246;r denna paragraf.
+Lag (2011:1166).
+
+26 c &#167; Vid utl&#228;mning till Sverige ska Polismyndigheten ansvara f&#246;r 
+transporten i Sverige. Lag (2017:141).
+
+27 &#167; Har upph&#228;vts genom lag (2020:386).
+
+28 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+29 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+30 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+31 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+32 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+33 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+34 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+35 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+36 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+37 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+38 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+39 &#167; Har upph&#228;vts genom lag (2003:1158).
+
+40 &#167; Har upph&#228;vts genom lag (2001:612).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1957:668
+
+Denna lag tr&#228;der i kraft den 1 januari 1958. Genom lagen upph&#228;ves
+lagen den 4 juni 1913 (nr 68) ang&#229;ende utl&#228;mning av f&#246;rbrytare.
+
+Har framst&#228;llning om utl&#228;mning gjorts f&#246;re nya lagens ikrafttr&#228;dande
+men ej blivit dessf&#246;rinnan slutligen pr&#246;vad, skall fr&#229;gan pr&#246;vas
+enligt nya lagen. Betr&#228;ffande f&#246;rfarandet i &#228;rendet m&#229; dock &#228;ldre lag
+till&#228;mpas.
+
+Best&#228;mmelser i &#246;verenskommelse med fr&#228;mmande stat, som f&#246;r Sveriges
+del &#228;r g&#228;llande vid nya lagens ikrafttr&#228;dande, skola l&#228;nda till
+efterr&#228;ttelse &#228;ven om de avvika fr&#229;n vad lagen stadgar.
+
+1975:292
+
+Denna lag tr&#228;der i kraft den 1 juli 1975.
+
+Best&#228;mmelser i &#246;verenskommelse med fr&#228;mmande stat, som f&#246;r Sveriges
+del &#228;r g&#228;llande vid lagens ikrafttr&#228;dande, skall l&#228;nda till
+efterr&#228;ttelse &#228;ven om de avviker fr&#229;n vad lagen f&#246;reskriver.
+
+1982:227
+
+Denna lag tr&#228;der i kraft den 1 juli 1983. F&#246;r fall d&#229; en framst&#228;llning
+om utl&#228;mning har kommit in f&#246;re ikrafttr&#228;dandet till&#228;mpas dock 16 &#167;
+i sin &#228;ldre lydelse.
+
+1997:209
+
+Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer. Lagen f&#229;r
+s&#228;ttas i kraft i f&#246;rh&#229;llande till n&#229;gon eller n&#229;gra av Europeiska
+unionens medlemsstater.
+
+1999:746
+
+Denna lag tr&#228;der i kraft den 1 oktober 1999 i f&#246;rh&#229;llande till
+Tyskland och Spanien.
+
+2000:701
+
+Denna lag tr&#228;der i kraft den 27 september 2000 i f&#246;rh&#229;llande till
+&#214;sterrike och Nederl&#228;nderna.
+
+2001:758
+
+Denna lag tr&#228;der i kraft den 6 november 2001 i f&#246;rh&#229;llande till
+Luxemburg.
+
+2002:234
+
+Denna lag tr&#228;der i kraft den 13 maj 2002 i f&#246;rh&#229;llande till
+Storbritannien och Nordirland.
+
+2002:722
+
+Denna lag tr&#228;der i kraft den 14 oktober 2002 i f&#246;rh&#229;llande till
+Belgien.
+
+2003:1158
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2004.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r &#228;renden om
+utl&#228;mning som har inletts vid ikrafttr&#228;dandet.
+
+3. &#196;ldre best&#228;mmelser g&#228;ller i f&#246;rh&#229;llande till en stat som den
+1 januari 2004 var medlem i Europeiska unionen och som n&#228;r
+&#228;rendet inleds inte har genomf&#246;rt r&#229;dets rambeslut 2002/584/RIF
+av den 13 juni 2002 om en europeisk arresteringsorder och
+&#246;verl&#228;mnande mellan medlemsstaterna13, dock endast om &#228;rendet
+har inletts f&#246;re den 1 januari 2005.
+
+2011:1166
+
+1. Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer. De
+nya best&#228;mmelserna f&#229;r s&#228;ttas i kraft vid olika tidpunkter.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r &#228;renden om utl&#228;mning som har
+inletts f&#246;re ikrafttr&#228;dandet.
+
+2024:45
+
+1. Denna lag tr&#228;der i kraft den 1 mars 2024.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r &#228;renden som har inletts f&#246;re 
+ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4406">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4408">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

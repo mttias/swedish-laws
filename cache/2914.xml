@@ -1,0 +1,942 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="1998-06-10" /> 
+ <meta id="rattsinfo-edited" content="1999-07-12" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2914</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2913">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2915">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1998:318 ·
+                    <a href="/sfsr?bet=1998:318">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1998:318) om till&#228;mpning av ett avtal
+mellan Sverige och Ryssland om &#246;msesidigt bist&#229;nd
+vid bek&#228;mpning av vissa fiskala brott
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Utrikesdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1998-05-28
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 1999:553
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> Den ryska texten finns tillg&#228;nglig p&#229; Utrikesdepartementet
+
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1998-07-11
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 &#167; Det avtal mellan Sverige och Ryssland om &#246;msesidigt bist&#229;nd
+vid bek&#228;mpning av vissa fiskala brott som har undertecknats den
+2 december 1997 skall g&#228;lla som f&#246;rordning h&#228;r i landet.
+
+Avtalet i engelsk och svensk originaltext2 finns i bilagan till
+denna f&#246;rordning.
+
+2 &#167; Tullverket f&#229;r meddela s&#229;dana f&#246;reskrifter som
+beh&#246;vs f&#246;r verkst&#228;lligheten av denna f&#246;rordning och som avses i
+artikel 13.1 andra meningen i avtalet. F&#246;rordning (1999:553).
+
+
+Bilaga
+
+AGREEMENT BETWEEN THE GOVERNMENT OF THE KINGDOM OF SWEDEN AND
+THE GOVERNMENT OF THE RUSSIAN FEDERATION REGARDING MUTUAL
+ASSISTANCE IN COMBATING CERTAIN FISCAL OFFENCES	
+
+THE GOVERNMENT OF THE KINGDOM OF SWEDEN AND THE GOVERNMENT OF
+THE RUSSIAN FEDERATION, hereinafter referred to as the
+Contracting Parties,
+
+CONSIDERING that offences against customs as well as fiscal
+legislation are prejudicial to the economic interests of their
+respective countries;
+
+GUIDED by the legislation and international commitments of
+their States, as well as their mutual interest in efficient
+solutions in order to prevent, reveal and suppress fiscal
+offences covered by this Agreement;
+
+HAVE AGREED AS FOLLOWS:
+
+DEFINITIONS
+
+ARTICLE 1
+
+For the purposes of the present Agreement,
+
+1. &quot;Competent Authority&quot; shall mean in the Kingdom of Sweden,
+the Board of Customs (Generaltullstyrelsen) and in the Russian
+Federation, the Federal Tax Police Service (Federalnaya Sluzhba
+Nalogovoi Politsii). Should the denomination of these
+Authorities be changed, the Contracting Parties shall inform
+each other through diplomatic channels.
+
+2. &quot;Applicant Authority&quot; shall mean the competent Authority of
+a Contracting Party which makes a request for assistance under
+this Agreement.
+
+3. &quot;Requested Authority&quot; shall mean the competent Authority of
+a Contracting Party which receives a request for assistance
+under this Agreement.
+
+4. &quot;Legislation&quot; shall mean fiscal provisions laid down by law
+or regulation, for the implementation of which each of the
+competent Authorities has total or partial responsibility.
+
+5. &quot;Offence&quot; shall mean any violation of legislation as defined
+in paragraph 4 above, as well as any attempted violation of
+such legislation.
+
+SCOPE OF AGREEMENT	
+
+ARTICLE 2	
+
+1. The Contracting Parties shall afford each other mutual
+assistance in combating fiscal offences within the competence
+of the Authorities specified in Article 1:1 and in accordance
+with the provisions set out in this Agreement.
+
+2. Assistance within the framework of this Agreement shall be
+rendered in accordance with the relevant legislation in force
+in the territory of the requested Contracting Party and within
+the competence and resources of the requested Authority. If
+necessary, a competent Authority can arrange for assistance to
+be provided by another, national authority, in accordance with
+the relevant legislation in force in the territory of the
+requested Contracting Party.
+
+3. This Agreement shall not prejudice the provisions of any
+Agreement on legal assistance in criminal matters to which the
+Contracting Parties have adhered.	
+
+FORMS OF ASSISTANCE	
+
+ARTICLE 3	
+
+Within the framework of this Agreement the competent
+Authorities may use the following forms of assistance:
+
+- exchange of information on fiscal offences by natural and
+legal persons;
+
+- submission of documents connected with offences;
+
+- investigations and other measures aimed at the prevention,
+revealing and suppression of fiscal offences;
+
+- exchange of experience in the creation and operation of
+information systems used in combating fiscal offences;
+
+- setting up of ad hoc groups, exchange of representatives,
+liasion officers and experts, as well as arranging for
+personnel training.
+
+EXCHANGE OF INFORMATION
+
+ARTICLE 4
+
+1. The competent Authority of one Contracting Party shall, upon
+request, supply to the competent Authority of the other
+Contracting Party all information likely to be of use to it
+relating to offences against legislation covered by this
+Agreement and in particular, regarding:
+
+(a) persons known or suspected of committing or having
+committed offences against such legislation;
+
+(b) import and export operations known or suspected of being
+employed in committing offences against such legislation;
+
+
+(c) new ways and means employed in committing offences against
+such legislation.
+
+2. If the competent Authority of one Contracting Party believes
+that information at its disposal is of interest for the
+competent Authority of the other Contracting Party, it can
+forward that information on its own initiative.
+
+ARTICLE 5
+
+The competent Authority of one Contracting Party shall, upon
+request, supply to the competent Authority of the other
+Contracting Party reports, records of evidence or certified
+copies of documents giving all relevant information on
+activities, detected or planned, which constitute or appear to
+constitute an offence against legislation covered by this
+Agreement.
+
+Original files and documents shall be requested only in cases
+where certified copies would be insufficient. Originals which
+have been transmitted shall be returned at the earliest
+opportunity unless return is waived by the requested Authority.
+
+ARTICLE 6
+
+The documents referred to in this Agreement may be replaced by
+information transferred by electronic means for the same
+purpose. All relevant information for the interpretation or
+utilization of the material should be supplied at the same
+time.
+
+INVESTIGATIONS	
+
+ARTICLE 7
+
+1. Upon application, the requested Authority shall initiate
+official inquiries concerning operations which are or appear to
+be contrary to the legislation covered by this Agreement. It
+shall communicate the results of such inquiries to the
+applicant Authority.
+
+2. These inquiries shall be conducted under the relevant
+legislation in force in the territory of the requested
+Contracting Party. The requested Authority shall proceed as
+though it was acting on its own account.
+
+3. The requested Authority may allow officials of the applicant
+Contracting Party to be present at such investigations.
+
+EXPERTS AND WITNESSES
+
+ARTICLE 8
+
+In answer to a request presented in accordance with proceedings
+and forms stipulated by legislation in force in the territories
+of the Contracting Parties, the requested Authority of a
+Contracting Party may authorize its officials to appear as
+experts and witnesses before courts or authorities of the other
+Contracting Party. This provision will apply to offences
+covered by this Agreement. Such officials shall give evidence
+regarding facts established by them in the course of their
+duties.
+
+USE OF INFORMATION AND DOCUMENTS
+
+ARTICLE 9
+
+1. Information, documents and other communications received
+under this Agreement shall not be used for purposes other than
+those specified in this Agreement, without the written consent
+of the competent Authority which furnished them.
+
+2. Any information communicated in whatever form pursuant to
+this Agreement shall be of a confidential nature. It shall be
+covered by the obligation of official secrecy and shall enjoy
+the protection extended to the same kind of information and
+documents under the relevant legislation in force in the
+territory of the Contracting Party which received it.
+
+3. The provisions of paragraph 1 shall not impede the use of
+information in any judicial or administrative proceedings
+subsequently instituted for failure to comply with legislation
+covered by this Agreement.
+
+4. The competent Authorities of the Contracting Parties may,
+however, in accordance with the purposes and within the scope
+of this Agreement, in their records of evidence, reports, and
+testimonies, and in proceedings and charges brought before
+courts, use as evidence information and documents obtained in
+accordance with this Agreement.
+
+5. The use made of such information and documents as evidence
+in courts and the weight to be attached thereto shall be
+determined in accordance with relevant legislation.
+
+6. The provisions of this Article shall not prevent a
+Contracting Party which is a Member of the European Union from
+fulfilling its obligations when it comes to communicating
+information obtained under this Agreement to the customs
+authorities of the Member States of the European Union and the
+competent services of the Commission. Such information shall,
+however, be of relevance to the European Community and fall
+within its competencies.
+
+FORM AND SUBSTANCE OF REQUESTS FOR ASSISTANCE
+
+ARTICLE 10
+
+1. Requests pursuant to the present Agreement shall be made in
+writing. Documents necessary for the execution of such requests
+shall accompany the request. When required because of the
+urgency of the situation, oral requests may be accepted, but
+must be confirmed in writing immediately.
+
+2. Requests pursuant to paragraph 1 of this Article shall
+include the following information:
+
+(a) the competent Authority making the request;
+
+(b) the measure requested;
+
+(c) the object of and the reason for the request;
+
+(d) the laws, rules, regulations and other legal elements
+involved;
+
+(e) indications as exact and comprehensive as possible on the
+natural or legal persons being the target of the
+investigations;
+
+(f) a summary of the relevant facts.
+
+3. Requests shall be submitted in an official language of the
+requested Contracting Party, in English or in another language
+acceptable to the requested Authority.
+
+4. If a request does not meet the formal requirements, its
+correction or completion may be demanded; the ordering of
+precautionary measures shall not be affected thereby.
+
+EXCEPTIONS FROM THE LIABILITY TO RENDER ASSISTANCE
+
+ARTICLE 11
+
+1. If the requested Authority considers that the assistance
+sought would infringe upon the sovereignty, public order,
+security or other essential interests of the requested
+Contracting Party or would involve violation of an industrial,
+commercial or professional secret in the territory of that
+Contracting Party, it may refuse to provide such assistance,
+provide it partly or provide it subject to certain conditions
+or requirements.
+
+2. If a request for assistance cannot be complied with, the
+applicant Authority shall be notified without delay and shall
+be informed of the reasons for the refusal to provide
+assistance.
+
+3. If a competent Authority asks for assistance which it would
+itself be unable to give if asked to do so by the competent
+Authority of the other Contracting Party, it shall draw
+attention to that fact in its request. Compliance with such a
+request shall be within the discretion of the requested
+Authority.
+
+COSTS
+
+ARTICLE 12
+
+Each competent Authority shall waive all claims for
+reimbursement of costs incurred in the execution of this
+Agreement, with the exception of expenses for experts under
+Article 8, witnesses, interpreters and translators. The
+applicant Authority shall bear all costs associated with the
+travel of its representatives. The payment of any extraordinary
+costs shall be agreed by the competent authorities before the
+costs are incurred.
+
+IMPLEMENTATION
+
+ARTICLE 13
+
+1. Implementation of this Agreement shall be entrusted to the
+competent Authorities of the Contracting Parties. Those
+Authorities shall mutually agree on detailed arrangements for
+that purpose.
+
+2. The competent Authorities of the Contracting Parties may
+arrange for investigation services within the Swedish Customs
+and the Russian Tax Police to be in direct communication with
+each other.
+
+TERRITORIAL APPLICABILITY
+
+ARTICLE 14
+
+This Agreement shall apply to the territories of both
+Contracting Parties.
+
+ENTRY INTO FORCE
+
+AND TERMINATION	
+
+ARTICLE 15
+
+1. Each Government shall notify the other through diplomatic
+channels when all necessary national legal requirements for
+entry into force have been fulfilled. The Agreement shall enter
+into force sixty days after the last notification has been
+received.
+
+2. This Agreement may be terminated by written notice through
+diplomatic channels and shall cease to be in force six months
+after such notice has been received by the other Contracting
+Party.
+
+In witness whereof the undersigned, duly authorized thereto,
+have signed this Agreement.
+
+Done at Stockholm on the 2nd of December 1997, in two
+originals, in the Swedish, Russian and English languages, all
+texts being equally authentic. In case of any divergency of
+interpretation of the provisions of this Agreement the English
+text shall prevail.
+
+For the Government of the Kingdom of Sweden
+
+L. Pagrotsky
+
+For the Government of the
+
+Russian Federation
+
+S. Almazov
+
+
+
+Bilaga
+
+AVTAL MELLAN KONUNGARIKET SVERIGES REGERING OCH RYSKA
+FEDERATIONENS REGERING OM &#214;MSESIDIGT BIST&#197;ND VID BEK&#196;MPNING AV
+VISSA FISKALA BROTT
+
+KONUNGARIKET SVERIGES REGERING OCH OCH RYSKA FEDERATIONENS
+REGERING, nedan kallade de avtalsslutande parterna, som
+
+BEAKTAR att brott mot tullagstiftningen liksom mot
+skattelagstiftningen skadar deras respektive l&#228;nders ekonomiska
+intressen,
+
+V&#196;GLEDS av sina l&#228;nders lagstiftning och internationella
+&#229;taganden liksom av sitt &#246;msesidiga intresse att uppn&#229;
+effektiva l&#246;sningar f&#246;r att f&#246;rebygga, avsl&#246;ja och bek&#228;mpa de
+fiskala brott som omfattats av detta avtal,
+
+HAR KOMMIT &#214;VERENS OM
+
+F&#214;LJANDE:
+
+DEFINITIONER
+
+ARTIKEL 1
+
+I denna &#246;verenskommelse avses med
+
+1. beh&#246;rig myndighet: i Konungariket Sverige
+Generaltullstyrelsen och i Ryska Federationen Federala
+Skattepolisen (Federalnaja Sluzjba Nalogovoj Politsii). Om
+dessa myndigheters namn skulle &#228;ndras, skall de avtalsslutande
+parterna underrr&#228;tta varandra p&#229; diplomatisk v&#228;g,
+
+2. beg&#228;rande myndighet: beh&#246;rig myndighet i en avtalsslutande
+part som g&#246;r en framst&#228;llan om bist&#229;nd enligt detta avtal,
+
+3. anmodad myndighet: beh&#246;rig myndighet i en avtalsslutande
+part som mottar en framst&#228;llan om bist&#229;nd enligt detta avtal,
+
+4. lagstiftning: fiskala f&#246;reskrifter i lagar och andra
+f&#246;rfattningar f&#246;r vilkas till&#228;mpning respektive avtalsslutande
+parts beh&#246;riga myndighet ansvarar helt eller delvis,
+
+5. brott: varje &#246;vertr&#228;delse eller f&#246;rs&#246;k till &#246;vertr&#228;delse av
+den lagstiftning som avses i punkt 4 ovan.
+
+TILL&#196;MPNINGSOMR&#197;DE
+
+ARTIKEL 2
+
+1. De avtalsslutande parterna skall inom ramen f&#246;r de
+myndigheters, som anges i artikel 1.1, befogenheter och i
+enlighet med best&#228;mmelserna i detta avtal l&#228;mna varandra
+&#246;msesidigt bist&#229;nd vid bek&#228;mpning av fiskala brott.
+
+2. Bist&#229;nd enligt detta avtal skall l&#228;mnas i enlighet med
+g&#228;llande lagstiftning inom den anmodade avtalsslutande partens
+territorium och inom ramen f&#246;r den anmodade myndighetens
+befogenheter och resurser. Om s&#229; &#228;r n&#246;dv&#228;ndigt, kan en beh&#246;rig
+myndighet ombes&#246;rja att bist&#229;nd l&#228;mnas av en annan inhemsk
+myndighet i enligt med g&#228;llande lagstiftning inom den anmodade
+avtalsslutande partens territorium.
+
+3. Detta avtal skall inte p&#229;verka till&#228;mpningen av s&#229;dana avtal
+om &#246;msesidigt bist&#229;nd i brottm&#229;l till vilka de avtalsslutande
+parterna anslutit sig.
+
+OLIKA FORMER AV BIST&#197;ND
+
+ARTIKEL 3
+
+De beh&#246;riga myndigheterna f&#229;r inom ramen f&#246;r detta avtal
+anv&#228;nda sig av f&#246;ljande slag av bist&#229;nd
+
+- utbyte av uppgifter om fiskala brott beg&#229;ngna av fysiska
+eller juridiska personer,
+
+- &#246;verl&#228;mnande av handlingar relaterade till brott,
+
+- unders&#246;kningar och andra &#229;tg&#228;rder syftande till att
+f&#246;rebygga, avsl&#246;ja och bek&#228;mpa fiskala brott,
+
+- utbyte av erfarenheter vad avser inr&#228;ttande och drift av
+informationssystem som anv&#228;nds f&#246;r att bek&#228;mpa fiskala brott,
+
+- tills&#228;ttande av tillf&#228;lliga grupper, utbyte av
+representanter, sambandspersoner och sakkunniga samt anordnande
+av personalutbildning.
+
+UTBYTE AV UPPLYSNINGAR
+
+ARTIKEL 4
+
+1. Den ena avtalsslutande partens beh&#246;riga myndighet skall, p&#229;
+beg&#228;ran, l&#228;mna den andra avtalsslutande partens beh&#246;riga
+myndighet alla uplysningar om brott mot lagstiftning som
+omfattas av detta avtal och s&#228;rskilt upplysningar om
+
+a) personer som &#228;r k&#228;nda eller misst&#228;nkta f&#246;r att beg&#229; eller ha
+beg&#229;tt brott mot s&#229;dan lagstiftning,
+
+b) f&#246;rfaringss&#228;tt vid import och export som &#228;r k&#228;nda f&#246;r eller
+kan misst&#228;nkas f&#246;r att komma till anv&#228;ndning vid brott mot
+s&#229;dan lagstiftning,
+
+c) nya hj&#228;lpmedel och metoder som anv&#228;nds vid brott mot s&#229;dan
+lagstiftning.
+
+2. Om den ena avtalsslutande partens beh&#246;riga myndighet tror
+att upplysningar som den f&#246;rfogar &#246;ver &#228;r av intresse f&#246;r den
+andra avtalsslutande partens beh&#246;riga myndighet, kan den
+sj&#228;lvmant &#246;verl&#228;mna dem.
+
+ARTIKEL 5
+
+Den ena avtalsslutande partens beh&#246;riga myndighet skall p&#229;
+beg&#228;ran l&#228;mna den andra avtalsslutande partens beh&#246;riga
+myndighet rapporter, urkunder inneh&#229;llande bevis eller
+bestyrkta kopior av handlingar med alla tillg&#228;ngliga
+upplysningar om uppt&#228;ckta eller planerade aktiviteter, som
+utg&#246;r eller f&#246;refaller utg&#246;ra ett brott mot den lagstiftning
+som omfattas av detta avtal.
+
+Akter och handlingar i original skall efterfr&#229;gas enbart d&#229;
+bestyrkta kopior ej &#228;r tillr&#228;ckligt. Original som har
+&#246;verl&#228;mnats skall &#229;terl&#228;mnas s&#229; snart som m&#246;jligt, om inte den
+anmodade myndigheten avst&#229;tt fr&#229;n att f&#229; dem &#229;ter.
+
+ARTIKEL 6
+
+De handlingar som avses i detta avtal kan ers&#228;ttas av
+information &#246;verf&#246;rd p&#229; elektronisk v&#228;g f&#246;r samma &#228;ndam&#229;l.
+Anvisningar f&#246;r tolkning och anv&#228;ndning av materialet b&#246;r
+samtidigt tillhandah&#229;llas.
+
+UNDERS&#214;KNINGAR
+
+ARTIKEL 7
+
+1. Den anmodade myndigheten skall p&#229; beg&#228;ran inleda officiella
+unders&#246;kningar av f&#246;rfaringss&#228;tt som strider eller f&#246;refaller
+strida mot den lagstiftning som omfattas av detta avtal.
+Resultaten av s&#229;dana unders&#246;kningar skall meddelas den
+beg&#228;rande myndigheten.
+
+2. Dessa unders&#246;kningar skall f&#246;retas i enlighet med till&#228;mplig
+lagstiftning som g&#228;ller inom den anmodade avtalsslutande
+partens territorium. Den anmodade myndigheten skall g&#246;ra som om
+den handlade f&#246;r egen r&#228;kning.
+
+3. Den anmodade myndigheten kan till&#229;ta den beg&#228;rande
+avtalsslutande partens tj&#228;nstem&#228;n att n&#228;rvara vid s&#229;dana
+unders&#246;kningar.
+
+SAKKUNNIGA OCH VITTNEN
+
+ARTIKEL 8
+
+Efter framst&#228;llning gjord i enlighet med de f&#246;rfaranden och
+former som stadgas i g&#228;llande lagstiftning inom de
+avtalsslutande parternas territorier f&#229;r en avtalsslutande
+parts anmodade myndighet bemyndiga sina tj&#228;nstem&#228;n att inst&#228;lla
+sig som sakkunniga eller vittnen inf&#246;r den andra avtalsslutande
+partens domstolar eller myndigheter. Denna best&#228;mmelse skall
+g&#228;lla brott som omfattas av detta avtal. Tj&#228;nstem&#228;nnen skall
+h&#246;ras om fakta som de har inh&#228;mtat i tj&#228;nsten.
+
+ANV&#196;NDNING AV UPPLYSNINGAR OCH HANDLINGAR
+
+ARTIKEL 9
+
+1. Upplysningar, handlingar och andra meddelanden som erh&#229;llits
+enligt detta avtal f&#229;r bara anv&#228;ndas f&#246;r andra syften &#228;n de som
+anges i detta avtal om den beh&#246;riga myndighet som l&#228;mnat dem
+ger skriftligt tillst&#229;nd.
+
+2. Upplysningar som l&#228;mnats enligt detta avtal skall oavsett i
+vilken form de l&#228;mnats vara konfidentiella. De skall omfattas
+av sekretessskydd och &#229;tnjuta det skydd som ges samma slag av
+upplysningar och handlingar enligt till&#228;mplig lagstiftning som
+g&#228;ller inom den mottagande avtalsslutande partens territorium.
+
+3. F&#246;reskrifterna i punkt 1 skall inte hindra anv&#228;ndningen av
+upplysningar vid eventuella r&#228;ttsliga eller administrativa
+f&#246;rfaranden som inleds med anledning av &#246;vertr&#228;delser av den
+lagstiftning som omfattas av detta avtal.
+
+4. De avtalsslutande parternas beh&#246;riga myndigheter f&#229;r
+emellertid, i enlighet med syftena och inom ramen f&#246;r detta
+avtal, i sina urkunder inneh&#229;llande bevis, rapporter och
+vittnesm&#229;l samt vid f&#246;rhandlingar och &#229;tal inf&#246;r domstol som
+bevisning anv&#228;nda upplysningar och handlingar som erh&#229;llits
+enligt avtalet.
+
+5. R&#228;tten att &#229;beropa s&#229;dana upplysningar och handlingar som
+bevis inf&#246;r domstol och den vikt som skall f&#228;stas d&#228;rvid avg&#246;rs
+av till&#228;mplig lagstiftning.
+
+6. F&#246;reskrifterna i denna artikel skall inte hindra en
+avtalsslutande part som &#228;r medlem i Europeiska unionen att
+uppfylla sina skyldigheter i fr&#229;ga om &#246;verl&#228;mnande av uppgifter
+som erh&#229;llits enligt detta avtal till tullmyndigheterna i
+medlemsstaterna i Europeiska unionen och till Europeiska
+kommissionens beh&#246;riga myndigheter. Dessa uppgifter skall dock
+vara av relevans f&#246;r Europeiska gemenskapen och ligga inom dess
+beh&#246;righet.
+
+BIST&#197;NDSFRAMST&#196;LLNINGENS FORM OCH INNEH&#197;LL
+
+ARTIKEL 10
+
+1. Framst&#228;llningar enligt detta avtal skall g&#246;ras skriftligen.
+De handlingar som beh&#246;vs f&#246;r att en s&#229;dan framst&#228;llan skall
+kunna verkst&#228;llas skall bil&#228;ggas. I br&#229;dskande situationer kan
+&#228;ven muntliga framst&#228;llningar godtas. S&#229;dana skall omedelbart
+bekr&#228;ftas skriftligen.
+
+2. Framst&#228;llningar enligt punkt 1 skall inneh&#229;lla upplysningar
+om
+
+a) den beh&#246;riga myndighet som g&#246;r framst&#228;llningen,
+
+b) den beg&#228;rda &#229;tg&#228;rden,
+
+c) &#228;ndam&#229;let med och orsaken till framst&#228;llningen,
+
+d) lagar, best&#228;mmelser, f&#246;reskrifter och andra r&#228;ttsliga
+grunder,
+
+e) s&#229; noggranna och utf&#246;rliga uppgifter som m&#246;jligt om de
+fysiska eller juridiska personer som &#228;r f&#246;rem&#229;l f&#246;r utredning,
+
+f) en kortfattad redog&#246;relse f&#246;r omst&#228;ndigheterna.
+
+3. Framst&#228;llningar skall inl&#228;mnas p&#229; den anmodade
+avtalsslutande partens officiella spr&#229;k, p&#229; engelska eller p&#229;
+n&#229;got annat f&#246;r den anmodade myndigheten godtagbart spr&#229;k.
+
+4. Om en framst&#228;llning inte uppfyller de formella kraven, kan
+r&#228;ttelse eller komplettering beg&#228;ras. &#197;tg&#228;rder i s&#228;kerhetssyfte
+p&#229;verkas inte d&#228;rav.
+
+UNDANTAG FR&#197;N SKYLDIGHETEN ATT L&#196;MNA BIST&#197;ND
+
+ARTIKEL 11
+
+1. Om den anmodade myndigheten anser att det beg&#228;rda bist&#229;ndet
+skulle strida mot den anmodade avtalsslutande partens
+suver&#228;nitet, allm&#228;nna r&#228;ttsprinciper, s&#228;kerhet eller andra
+v&#228;sentliga intressen eller skulle inneb&#228;ra en kr&#228;nkning av en
+industriell, kommersiell eller yrkesm&#228;ssig hemlighet i denna
+avtalsslutande part, kan den v&#228;gra att l&#228;mna s&#229;dant bist&#229;nd,
+l&#228;mna det delvis eller g&#246;ra det med vissa villkor eller
+f&#246;rbeh&#229;ll.
+
+2. Om en framst&#228;llning om bist&#229;nd inte kan f&#246;ljas skall den
+beg&#228;rande myndigheten utan dr&#246;jsm&#229;l underr&#228;ttas om detta och
+sk&#228;len till att bist&#229;nd inte l&#228;mnas skall anges.
+
+3. Om en beh&#246;rig myndighet beg&#228;r bist&#229;nd som den inte sj&#228;lv
+skulle kunna l&#228;mna om den blev anmodad till det av den andra
+avtalsslutande partens beh&#246;riga myndighet, skall den framh&#229;lla
+detta i sin framst&#228;llning. I s&#229;dant fall skall den anmodade
+myndigheten ha handlingsfrihet att best&#228;mma om den skall
+bifalla framst&#228;llningen.
+
+KOSTNADER
+
+ARTIKEL 12
+
+Varje beh&#246;rig myndighet skall avst&#229; fr&#229;n att kr&#228;va ers&#228;ttning
+f&#246;r kostnader som f&#246;ranletts av att detta avtal till&#228;mpats,
+utom vad ang&#229;r ers&#228;ttning till sakkunniga enligt artikel 8,
+vittnen, tolkar och &#246;vers&#228;ttare. Den beg&#228;rande myndigheten
+skall bestrida alla kostnader som sammanh&#228;nger med dess
+representanters resor. De beh&#246;riga myndigheterna skall vara
+&#246;verens om extraordin&#228;ra utgifter innan utbetalning sker.
+
+TILL&#196;MPNING
+
+ARTIKEL 13
+
+1. De avtalsslutande parternas beh&#246;riga myndigheter skall
+anf&#246;rtros att till&#228;mpa denna &#246;verenskommelse. Dessa myndigheter
+skall gemensamt komma &#246;verens om till&#228;mpningsbest&#228;mmelser.
+
+2. De avtalsslutande parternas beh&#246;riga myndigheter f&#229;r vidta
+&#229;tg&#228;rder f&#246;r att utredningsenheterna inom den svenska tullen
+och den ryska skattepolisen skall kunna st&#229; i direkt
+f&#246;rbindelse med varandra.
+
+TERRITORIELL TILL&#196;MPLIGHET
+
+ARTIKEL 14
+
+Detta avtal skall till&#228;mpas p&#229; b&#229;da avtalsslutande parternas
+territorier.
+
+IKRAFTTR&#196;DANDE OCH
+
+UPPS&#196;GNING
+
+ARTIKEL 15
+
+1. Regeringarna skall p&#229; diplomatisk v&#228;g underr&#228;tta varandra
+n&#228;r alla nationella r&#228;ttsliga krav som &#228;r n&#246;dv&#228;ndiga f&#246;r
+ikrafttr&#228;dande har uppfyllts. Avtalet tr&#228;der i kraft sextio
+dagar efter det att den sista underr&#228;ttelsen tagits emot.
+
+2. Detta avtal kan s&#228;gas upp skriftligen p&#229; diplomatisk v&#228;g och
+upph&#246;r att g&#228;lla sex m&#229;nader efter det att en s&#229;dan upps&#228;gning
+tagits emot av den andra avtalsslutande parten.
+
+Till bekr&#228;ftelse h&#228;rp&#229; har undertecknade, d&#228;rtill vederb&#246;rligen
+befullm&#228;ktigade, undertecknat detta avtal.
+
+Uppr&#228;ttad i Stockholm den 2 december 1997, i tv&#229; exemplar p&#229;
+svenska, ryska och engelska spr&#229;ken, vilka tre texter &#228;ga lika
+vitsord. I fall av tvist om tolkningen av best&#228;mmelserna i
+detta avtal skall den engelska texten &#228;ga f&#246;retr&#228;de.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2913">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2915">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

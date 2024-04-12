@@ -1,0 +1,633 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2016-11-22" /> 
+ <meta id="rattsinfo-edited" content="2020-02-25" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>936</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=935">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=937">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2016:989 ·
+                    <a href="/sfsr?bet=2016:989">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2016:989) om statsbidrag till film</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Kulturdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2016-11-10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:1117
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad (2016:989) har iakttagits.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2017-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Till&#228;mpningsomr&#229;de
+
+1 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av 7 &#167; lagen 
+(1992:318) om &#246;verl&#228;mnande av f&#246;rvaltningsuppgifter inom 
+Kulturdepartementets verksamhetsomr&#229;de i fr&#229;ga om 2 &#167; samt 
+med st&#246;d av 8 kap. 7 &#167; f&#246;rsta stycket 2 regeringsformen i 
+fr&#229;ga om &#246;vriga best&#228;mmelser och inneh&#229;ller best&#228;mmelser om 
+statsbidrag till
+
+1. utveckling av svensk film och r&#246;rlig bild,
+
+2. produktion av svensk film,
+
+3. spridning och visning av film, och
+
+4. annan filmkulturell verksamhet.
+
+2 &#167; Fr&#229;gor om statsbidrag enligt denna f&#246;rordning pr&#246;vas av 
+Stiftelsen Svenska Filminstitutet. 
+
+Statsbidrag f&#229;r l&#228;mnas i m&#229;n av tillg&#229;ng p&#229; medel. 
+
+3 &#167; Statsbidrag enligt denna f&#246;rordning l&#228;mnas i enlighet med 
+kapitel I, artikel 53 och artikel 54 i kommissionens 
+f&#246;rordning (EU) nr 651/2014 av den 17 juni 2014 genom vilken 
+vissa kategorier av bidrag f&#246;rklaras f&#246;renliga med den inre 
+marknaden enligt artiklarna 107 och 108 i f&#246;rdraget om 
+Europeiska unionens funktionss&#228;tt.
+
+&#196;ndam&#229;let med statsbidraget
+
+4 &#167; Det &#246;vergripande &#228;ndam&#229;let med statsbidrag enligt denna 
+f&#246;rordning &#228;r att bidra till utveckling, produktion, 
+spridning och visning av svensk film och r&#246;rlig bild och till 
+att fr&#228;mja filmarvet och annan filmkulturell verksamhet i 
+hela landet.
+
+Uttryck i f&#246;rordningen
+
+5 &#167; I denna f&#246;rordning avses med 
+
+film: l&#229;ng spelfilm, kortfilm, dokument&#228;rfilm och barn- och 
+ungdomsfilm, i olika tekniker och f&#246;r olika 
+visningsf&#246;nster,
+serier: produktion i minst tv&#229; avsnitt, i 
+f&#246;rsta hand avsedd f&#246;r spridning via tv eller digital 
+visningstj&#228;nst,
+
+r&#246;rlig bild: nyskapande projekt f&#246;r r&#246;rlig bild som inte 
+bed&#246;ms falla inom begreppet film,
+
+svensk film: film som har en svensk producent och d&#228;r den 
+svenska insatsen av artistiska medarbetare &#228;r av p&#229;taglig 
+betydelse eller, om filmen inte har en svensk producent, 
+uppfyller de krav som framg&#229;r av den europeiska konventionen 
+av den 2 oktober 1992 f&#246;r samproduktion av filmverk,
+
+producent: juridisk person som verkst&#228;ller och har det 
+ekonomiska huvudansvaret f&#246;r produktionen av en film genom 
+att projektutveckla, finansiera, spela in, f&#228;rdigst&#228;lla och 
+exploatera filmen och som d&#228;rigenom f&#246;rv&#228;rvar och ansvarar 
+f&#246;r de r&#228;ttigheter som ing&#229;r i filmverket, 
+
+svensk producent: en person som n&#228;r ans&#246;kan beviljas &#228;r 
+stadigvarande bosatt i Sverige eller en juridisk person eller 
+utl&#228;ndskt f&#246;retags filial som &#228;r registrerad hos beh&#246;rig 
+myndighet i Sverige n&#228;r ans&#246;kan beviljas.
+
+&#214;vriga uttryck som anv&#228;nds i denna f&#246;rordning har samma 
+betydelse som i kommissionens f&#246;rordning (EU) nr 651/2014.
+
+Statsbidrag f&#246;r utveckling av svensk film och r&#246;rlig bild
+
+6 &#167; Statsbidrag f&#229;r l&#228;mnas i form av
+
+1. projektst&#246;d f&#246;r att utveckla svensk film och r&#246;rlig bild 
+och i begr&#228;nsad omfattning f&#246;r att utveckla serier,
+
+2. kontinuitetsst&#246;d f&#246;r att st&#228;rka producenter i syfte att 
+s&#228;kerst&#228;lla kontinuitet och utveckling av filmbranschen, 
+och
+
+3. kompetensst&#246;d f&#246;r att st&#228;rka utvecklingen av 
+konstn&#228;rskap och yrkeskompetenser inom filmbranschen. 
+
+7 &#167; Statsbidrag enligt 6 &#167; 1 och 3 f&#229;r l&#228;mnas till 
+producenter eller professionellt verksamma personer som 
+arbetar med film- och tv-produktion. 
+
+Statsbidrag enligt 6 &#167; 2 f&#229;r l&#228;mnas till producenter som har 
+film- och tv-produktion som sin huvudsakliga verksamhet och 
+som uppvisar en v&#228;l utarbetad och l&#229;ngsiktig plan f&#246;r s&#229;v&#228;l 
+produktionsverksamhet som bolagets generella utveckling.
+
+8 &#167; Vid pr&#246;vning av ans&#246;kan om statsbidrag enligt 6 &#167; 2 ska 
+f&#246;ljande beaktas:
+
+1. producentens f&#246;rm&#229;ga att f&#246;rnya och utveckla projekt med 
+h&#246;g kvalitet, och
+
+2. producentens tidigare framg&#229;ngar ur ett brett 
+perspektiv.
+
+Statsbidrag f&#246;r produktion av svensk film 
+
+9 &#167; Statsbidrag f&#229;r l&#228;mnas i form av produktionsst&#246;d f&#246;r att 
+producera svensk film i olika tekniker och f&#246;r olika 
+visningsf&#246;nster och ska bidra till ett brett utbud av en 
+m&#229;ngfald av filmer. Statsbidrag f&#229;r l&#228;mnas i begr&#228;nsad 
+omfattning f&#246;r att producera serier. Film f&#246;r barn och unga 
+ska s&#228;rskilt prioriteras.
+
+Produktionsst&#246;d f&#229;r &#228;ven l&#228;mnas f&#246;r internationell 
+samproduktion, d&#228;r huvudproducenten inte &#228;r svensk, i syfte 
+att st&#228;rka samarbetet mellan utl&#228;ndska och svenska 
+producenter och &#246;ka m&#246;jligheterna till internationell 
+finansiering.
+
+10 &#167; Statsbidrag enligt 9 &#167; f&#229;r l&#228;mnas till en producent som 
+har film- och tv-produktion som sin huvudsakliga verksamhet. 
+
+11 &#167; Statsbidrag enligt 9 &#167; ska i f&#246;rsta hand l&#228;mnas innan en 
+film f&#228;rdigst&#228;lls utifr&#229;n kvalitativa kriterier. Producenten 
+ska redovisa en plan f&#246;r hur filmen l&#229;ngsiktigt ska 
+tillg&#228;ngligg&#246;ras f&#246;r allm&#228;nheten och f&#246;r personer med olika 
+funktionsf&#246;rm&#229;gor. F&#246;r att f&#229; statsbidraget kr&#228;vs &#228;ven att 
+filmen kan visas med svensk text.
+
+Statsbidrag ska i andra hand l&#228;mnas efter att filmen 
+f&#228;rdigst&#228;llts baserat p&#229; en films framg&#229;ngar.
+
+Undantag fr&#229;n kravet p&#229; plan f&#246;r spridning i f&#246;rsta stycket 
+f&#229;r g&#246;ras f&#246;r oetablerade filmskapare, fr&#228;mst n&#228;r det g&#228;ller 
+statsbidrag till kortfilm.
+
+Statsbidrag f&#246;r spridning och visning av film
+
+12 &#167; Statsbidrag f&#229;r l&#228;mnas f&#246;r att
+
+1. sprida och visa svensk film i alla visningsf&#246;nster i hela 
+landet, svensk film utomlands och utl&#228;ndsk film i Sverige,
+
+2. st&#228;rka biografverksamhet i hela landet,
+
+3. &#246;ka tillg&#228;ngligheten till svensk film f&#246;r personer som &#228;r 
+synskadade, d&#246;va, h&#246;rselskadade eller f&#246;r personer med 
+l&#228;ssv&#229;righeter, 
+
+4. &#246;ka tillg&#228;ngligheten till film p&#229; de nationella 
+minoritetsspr&#229;ken, 
+
+5. texta svensk film till spr&#229;k som talas av st&#246;rre grupper 
+av nyanl&#228;nda invandrare, och
+
+6. texta svensk film som inte har tagit emot produktionsst&#246;d 
+enligt 9 &#167; till svenska. 
+
+13 &#167; Statsbidrag enligt 12 &#167; 1 och 3-6 f&#229;r l&#228;mnas till 
+producent, distribut&#246;r, biograf&#228;gare, visningsorganisation, 
+festivalarrang&#246;r eller annan akt&#246;r som sprider och visar film 
+offentligt.
+
+En ideell organisation som f&#229;r statsbidrag i form av 
+verksamhetsbidrag enligt 12 &#167; ska vara demokratiskt uppbyggd 
+och i sin verksamhet respektera demokratins id&#233;er, inklusive 
+j&#228;mst&#228;lldhet och f&#246;rbud mot diskriminering.
+
+Statsbidrag enligt 12 &#167; 2 f&#229;r l&#228;mnas till biograf&#228;gare eller 
+sammanslutningar av biograf&#228;gare. F&#246;rordning (2019:81).
+
+14 &#167; Vid beslut om statsbidrag till biografer enligt 12 &#167; 2 
+ska behoven hos biografer p&#229; landsbygden och i mindre och 
+medelstora orter samt biografer som kompletterar &#246;vriga 
+biografers utbud s&#228;rskilt beaktas. 
+
+Statsbidrag till annan filmkulturell verksamhet
+
+15 &#167; Statsbidrag f&#229;r l&#228;mnas i form av
+
+1. st&#246;d f&#246;r filmkulturell verksamhet, s&#229;som utveckling av 
+filmpedagogisk verksamhet, kompetensutveckling av personal 
+som arbetar med filmpedagogisk verksamhet, filmvisning eller 
+andra insatser som fr&#228;mjar eget skapande och kunskaper om 
+filmarvet, och
+
+2. st&#246;d f&#246;r regional filmverksamhet i syfte att ge inv&#229;nare i 
+hela landet m&#246;jlighet till filmupplevelser och till eget 
+filmskapande.
+
+Statsbidraget f&#229;r inte &#246;verstiga mottagarens ekonomiska 
+insats.
+
+16 &#167; Statsbidrag enligt 15 &#167; f&#246;rsta stycket 1 f&#229;r l&#228;mnas till 
+en region eller en kommun med ansvar inom det regionala 
+tillv&#228;xtarbetet, eller till andra akt&#246;rer som p&#229; uppdrag av en 
+region eller en kommun med ansvar inom det regionala 
+tillv&#228;xtarbetet anordnar filmkulturell verksamhet, samt till 
+huvudm&#228;n inom skolv&#228;sendet. 
+
+Statsbidrag enligt 15 &#167; f&#246;rsta stycket 2 f&#229;r l&#228;mnas till 
+huvudm&#228;n f&#246;r regionala resurscentrum f&#246;r film.
+F&#246;rordning (2019:1117).
+
+17 &#167; Vid pr&#246;vning av en ans&#246;kan enligt 15 &#167; ska s&#228;rskilt de 
+insatser prioriteras som bidrar till att barn och unga i hela 
+landet ges m&#246;jlighet till kvalitativa filmupplevelser och 
+till f&#246;rdjupade kunskaper om r&#246;rlig bild samt till att 
+stimulera deras kreativitet.
+
+Ans&#246;kan om statsbidrag
+
+18 &#167; En ans&#246;kan om statsbidrag ska vara skriftlig och l&#228;mnas 
+till Stiftelsen Svenska Filminstitutet innan arbetet med 
+verksamheten eller projektet inleds. Ans&#246;kan ska inneh&#229;lla 
+
+1. uppgifter om den s&#246;kande,
+
+2. en beskrivning av den verksamhet eller det projekt som 
+bidraget s&#246;ks f&#246;r, budget och start- och slutdatum f&#246;r 
+projektets p&#229;b&#246;rjan, 
+
+3. en f&#246;rteckning &#246;ver kostnader f&#246;r projektet eller 
+verksamheten, 
+
+4. uppgift om till vem statsbidraget ska betalas ut, och
+
+5. annan information som beh&#246;vs f&#246;r pr&#246;vningen av ans&#246;kan. 
+
+19 &#167; Stiftelsen Svenska Filminstitutet ska ge den som s&#246;ker 
+produktionsst&#246;d enligt 9 &#167; m&#246;jlighet till en andra kvalitativ 
+bed&#246;mning av sin ans&#246;kan.
+
+Beslut om statsbidrag
+
+20 &#167; I beslut om beviljat statsbidrag ska villkoren f&#246;r 
+bidraget och sista dag f&#246;r redovisning enligt 24 &#167; anges.
+
+21 &#167; Stiftelsen Svenska Filminstitutet f&#229;r i beslut om 
+statsbidrag enligt 9 &#167; och 12 &#167; 1, 3–6 ocks&#229; besluta om 
+
+1. deponering av film- och dokumentationsmaterial till den 
+f&#228;rdiga filmen hos Filminstitutet, och 
+
+2. s&#228;kerst&#228;llande av tillr&#228;ckliga immateriella r&#228;ttigheter 
+f&#246;r icke-kommersiellt nyttjande av filmen f&#246;rutsatt att detta 
+inte inverkar p&#229; den normala anv&#228;ndningen av filmen.
+
+22 &#167; Stiftelsen Svenska Filminstitutet f&#229;r i beslut om 
+produktionsst&#246;d enligt 9 &#167; f&#246;r l&#229;ng spelfilm, l&#229;ng 
+dokument&#228;rfilm och barn- och ungdomsfilm besluta om att hela 
+eller delar av bidraget ska betalas tillbaka n&#228;r int&#228;kterna 
+fr&#229;n filmen &#246;verstiger producentens och investerarnas 
+int&#228;ktsandelar.
+
+Av beslutet ska det framg&#229; hur &#229;terbetalningen ska ber&#228;knas 
+och g&#246;ras.
+
+23 &#167; Av artiklarna 1.4 c och 2.18 i f&#246;rordning (EU) nr 
+651/2014 f&#246;ljer att statsbidrag enligt denna f&#246;rordning inte 
+f&#229;r l&#228;mnas till f&#246;retag i ekonomiska sv&#229;righeter. Statsbidrag 
+f&#229;r heller inte l&#228;mnas till en organisation som inte &#228;r att 
+anse som ett f&#246;retag enligt artikel 107.1 i f&#246;rdraget om 
+Europeiska unionens funktionss&#228;tt, om organisationen har 
+skulder f&#246;r svenska skatter eller avgifter hos 
+Kronofogdemyndigheten eller &#228;r under rekonstruktion, i 
+likvidation eller f&#246;rsatt i konkurs. 
+
+Redovisning
+
+24 &#167; En mottagare av statsbidrag enligt denna f&#246;rordning &#228;r 
+skyldig att redovisa f&#246;r Stiftelsen Svenska Filminstitutet 
+hur medlen har anv&#228;nts och l&#228;mna de &#246;vriga uppgifter som 
+Filminstitutet beh&#246;ver f&#246;r uppf&#246;ljning och utv&#228;rdering. 
+
+F&#246;r belopp som &#246;verstiger 500 000 kronor ska en revisor p&#229; 
+mottagarens uppdrag intyga att redovisningen &#228;r tillf&#246;rlitlig 
+och att villkoren f&#246;r bidraget har f&#246;ljts. 
+
+Hinder mot utbetalning
+
+25 &#167; Statsbidrag enligt denna f&#246;rordning f&#229;r inte betalas ut 
+till den som har skulder f&#246;r svenska skatter eller avgifter 
+hos Kronofogdemyndigheten eller &#228;r under rekonstruktion, i 
+likvidation eller f&#246;rsatt i konkurs. Detta g&#228;ller inte om 
+villkoren i beslutet om statsbidrag enligt 20 &#167; redan har 
+uppfyllts och filmen &#228;r f&#228;rdigst&#228;lld vid tidpunkten f&#246;r 
+utbetalning av bidraget.
+
+Statsbidrag f&#229;r inte heller betalas ut till ett f&#246;retag som 
+&#228;r f&#246;rem&#229;l f&#246;r betalningskrav p&#229; grund av ett beslut av 
+Europeiska kommissionen som f&#246;rklarar ett bidrag olagligt 
+eller of&#246;renligt med den inre marknaden.
+
+26 &#167; Stiftelsen Svenska Filminstitutet f&#229;r besluta att ett 
+beviljat statsbidrag tills vidare inte ska betalas ut, om det 
+finns grund f&#246;r &#229;terbetalning enligt 27 &#167;.
+
+&#197;terbetalning
+
+27 &#167; En mottagare av statsbidrag &#228;r &#229;terbetalningsskyldig 
+om
+
+1. mottagaren av bidraget genom att l&#228;mna oriktiga 
+uppgifter eller p&#229; annat s&#228;tt har f&#246;rorsakat att bidraget har 
+l&#228;mnats felaktigt eller med f&#246;r h&#246;gt belopp,
+
+2. bidraget av n&#229;got annat sk&#228;l &#228;n vad som s&#228;gs i f&#246;rsta 
+punkten har l&#228;mnats felaktigt eller med f&#246;r h&#246;gt belopp och 
+mottagaren borde ha insett detta,
+
+3. bidraget inte anv&#228;nds f&#246;r det &#228;ndam&#229;l som det har 
+beviljats f&#246;r,
+
+4. den som tagit emot bidraget inte l&#228;mnar s&#229;dan redovisning 
+som avses i 24 &#167;, eller
+
+5. villkor i beslutet inte har f&#246;ljts.
+
+28 &#167; Om en mottagare av statsbidrag &#228;r &#229;terbetalningsskyldig 
+enligt 27 &#167;, ska Stiftelsen Svenska Filminstitutet besluta 
+att helt eller delvis kr&#228;va tillbaka bidraget. Om det finns 
+s&#228;rskilda sk&#228;l f&#246;r det f&#229;r Filminstitutet besluta att avst&#229; 
+fr&#229;n kravet helt eller delvis. 
+
+Krav om &#229;terbetalning av statsbidrag f&#229;r f&#246;renas med 
+dr&#246;jsm&#229;lsr&#228;nta enligt r&#228;ntelagen (1975:635).
+
+F&#246;rvaltningslagens till&#228;mpning
+
+29 &#167; Vid handl&#228;ggningen av &#228;renden enligt denna f&#246;rordning 
+till&#228;mpas f&#246;ljande best&#228;mmelser i f&#246;rvaltningslagen 
+(2017:900):
+
+– 5 &#167; om legalitet, objektivitet och proportionalitet,
+
+– 10 &#167; om partsinsyn,
+
+– 16–18 &#167;&#167; om j&#228;v,
+
+– 23 &#167; om utredningsansvaret,
+
+– 24 &#167; om n&#228;r man f&#229;r l&#228;mna uppgifter muntligt,
+
+– 25 &#167; om kommunikation,
+
+– 31 &#167; om dokumentation av beslut,
+
+– 32 &#167; om motivering av beslut, och
+
+– 33 och 34 &#167;&#167; om underr&#228;ttelse om inneh&#229;llet i beslut och 
+hur ett &#246;verklagande g&#229;r till. F&#246;rordning (2018:906).
+
+&#214;verklagande
+
+30 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser om 
+&#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. Andra beslut &#228;n 
+beslut enligt 25 och 26 &#167;&#167; f&#229;r dock inte &#246;verklagas.
+F&#246;rordning (2019:81).
+
+&#214;vriga best&#228;mmelser
+
+31 &#167; Best&#228;mmelser om offentligg&#246;rande, rapportering och 
+registerf&#246;ring finns i f&#246;rordningen (2016:605) om till&#228;mpning 
+av Europeiska unionens statsst&#246;dsregler. 
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2016:989
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2017.
+
+2. Genom f&#246;rordningen upph&#228;vs f&#246;rordningen (2013:200) om 
+statsbidrag till finansiering av svensk film i enlighet med 
+2013 &#229;rs filmavtal.
+
+3. Den upph&#228;vda f&#246;rordningen g&#228;ller fortfarande f&#246;r 
+statsbidrag som avser tid f&#246;re ikrafttr&#228;dandet.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=935">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=937">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

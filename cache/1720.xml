@@ -1,0 +1,833 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-05-15" /> 
+ <meta id="rattsinfo-edited" content="2023-05-15 15:25:03" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1720</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1719">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1721">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2010:598 ·
+                    <a href="/sfsr?bet=2010:598">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2010:598) om h&#229;llbarhetskriterier f&#246;r biodrivmedel och biobr&#228;nslen</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSE
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2010-06-10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:170
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2010-08-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+1 &#167; Lagen inneh&#229;ller best&#228;mmelser om kriterier som 
+biodrivmedel och biobr&#228;nslen ska uppfylla f&#246;r att anses vara 
+h&#229;llbara (h&#229;llbarhetskriterier) och om h&#229;llbarhetsbesked som 
+ska visa detta. Lagen inneh&#229;ller &#228;ven best&#228;mmelser om 
+anl&#228;ggningsbesked. Lag (2021:668).
+
+2 &#167; I denna lag betyder
+
+agrobiomassa: biomassa som produceras inom jordbruket,
+
+biobr&#228;nslen: fasta, gasformiga eller flytande br&#228;nslen som 
+framst&#228;lls av biomassa och som anv&#228;nds f&#246;r andra energi&#228;ndam&#229;l 
+&#228;n motordrift,
+
+biomassa: den biologiskt nedbrytbara delen av produkter, 
+avfall och restprodukter av biologiskt ursprung fr&#229;n jordbruk, 
+inklusive material av vegetabiliskt och animaliskt ursprung, 
+av skogsbruk och d&#228;rmed f&#246;rknippad industri inklusive fiske 
+och vattenbruk, liksom den biologiskt nedbrytbara delen av 
+avfall, inklusive industriavfall och kommunalt avfall av 
+biologiskt ursprung,
+
+biodrivmedel: flytande eller gasformiga br&#228;nslen som 
+framst&#228;lls av biomassa och som anv&#228;nds f&#246;r motordrift,
+
+livsmedels- eller fodergr&#246;dor: st&#228;rkelserika gr&#246;dor, 
+sockergr&#246;dor eller oljegr&#246;dor som produceras p&#229; jordbruksmark 
+som huvudgr&#246;dor, dock inte
+
+1. restprodukter och avfall,
+
+2. material som inneh&#229;ller b&#229;de cellulosa och lignin, eller
+
+3. mellangr&#246;dor som inte kr&#228;ver att ytterligare mark tas i 
+anspr&#229;k,
+
+avfall: &#228;mne eller f&#246;rem&#229;l som innehavaren g&#246;r sig av med 
+eller avser eller &#228;r skyldig att g&#246;ra sig av med, dock inte 
+ett &#228;mne som avsiktligt har manipulerats eller kontaminerats 
+f&#246;r att anses som avfall,
+
+restprodukt: ett &#228;mne som inte &#228;r den eller de slutprodukter 
+som en produktionsprocess direkt ska producera eller &#228;r 
+huvudsyftet med processen och d&#228;r produktionsprocessen inte 
+avsiktligt &#228;ndrats f&#246;r att producera &#228;mnet,
+
+produktionskedja: den produktionsprocess som p&#229;g&#229;r fram till 
+och med anv&#228;ndningen av biodrivmedlet eller biobr&#228;nslet och 
+b&#246;rjar med
+
+- odling av biomassa, inbegripet framst&#228;llning av g&#246;dsel f&#246;r 
+odlingen, eller
+
+- omh&#228;ndertagandet av avfall eller restprodukter som 
+biodrivmedlet eller biobr&#228;nslet framst&#228;lls av, om inte 
+restprodukterna har uppkommit direkt i en jordbruks-, 
+vattenbruks-, fiske- eller skogsbruksverksamhet, och 
+
+skogsbiomassa: biomassa som produceras inom skogsbruket.
+Lag (2021:668).
+
+2 a &#167; I fr&#229;ga om restprodukt f&#229;r regeringen eller den 
+myndighet som regeringen best&#228;mmer meddela ytterligare 
+f&#246;reskrifter om vad som i denna lag avses med 
+
+1. ett &#228;mne som inte &#228;r den eller de slutprodukter som en 
+produktionsprocess direkt ska producera, eller 
+
+2. huvudsyftet med processen. Lag (2017:1094).
+
+3 &#167; F&#246;r att biodrivmedel och biobr&#228;nslen ska anses som 
+h&#229;llbara ska h&#229;llbarhetskriterierna i 2 kap. 1-7 &#167;&#167; vara 
+uppfyllda. Om s&#229;dana drivmedel eller br&#228;nslen framst&#228;llts av 
+avfall eller restprodukter, g&#228;ller bara kriteriet i 2 kap. 1 &#167; 
+utom i fall som anges i andra stycket.
+
+Om biodrivmedel eller biobr&#228;nslen framst&#228;llts av
+
+- restprodukter som uppkommit direkt i en vattenbruks-, fiske- 
+eller skogsbruksverksamhet g&#228;ller kriterierna i 2 kap. 1-7 &#167;&#167;, 
+
+- restprodukter som uppkommit direkt i en jordbruksverksamhet 
+g&#228;ller kriterierna i 2 kap. 1-8 &#167;&#167;, och 
+
+- avfall som uppkommit direkt i en jordbruksverksamhet g&#228;ller 
+kriterierna i 2 kap. 1 och 8 &#167;&#167;.
+
+Fast kommunalt avfall fr&#229;n biomassa som anv&#228;nds f&#246;r produktion 
+av el, v&#228;rme och kyla ska anses som h&#229;llbart &#228;ven om 
+h&#229;llbarhetskriterierna i 2 kap. inte &#228;r uppfyllda.
+Lag (2021:668).
+
+3 a &#167; I fr&#229;ga om fasta eller gasformiga biobr&#228;nslen g&#228;ller 3 &#167; 
+f&#246;rsta och andra styckena endast br&#228;nslen som anv&#228;nds f&#246;r 
+produktion av el, v&#228;rme, kyla eller br&#228;nslen i anl&#228;ggningar 
+med en sammanlagd installerad tillf&#246;rd effekt p&#229; minst 20 
+megawatt f&#246;r fasta biobr&#228;nslen och p&#229; minst 2 megawatt f&#246;r 
+gasformiga biobr&#228;nslen.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om vad som avses med 
+anl&#228;ggningar och sammanlagd installerad tillf&#246;rd effekt.
+Lag (2021:668).
+
+2 kap. H&#229;llbarhetskriterier
+
+1 &#167; F&#246;r att biodrivmedel och flytande biobr&#228;nslen ska anses 
+som h&#229;llbara ska anv&#228;ndningen av dem medf&#246;ra att utsl&#228;ppen av 
+v&#228;xthusgaser understiger de utsl&#228;pp som anv&#228;ndningen av 
+fossila br&#228;nslen hade gett, med 
+
+1. minst 50 procent, om biodrivmedlet eller det flytande 
+biobr&#228;nslet har producerats i en anl&#228;ggning som har tagits i 
+drift senast den 5 oktober 2015, 
+
+2 minst 60 procent, om biodrivmedlet eller det flytande 
+biobr&#228;nslet har producerats i en anl&#228;ggning som har tagits i 
+drift efter den 5 oktober 2015, och
+
+3. minst 65 procent, om biodrivmedlet eller det flytande 
+biobr&#228;nslet har producerats i en anl&#228;ggning som har tagits i 
+drift efter den 31 december 2020.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om hur minskningen av 
+utsl&#228;ppen av v&#228;xthusgaser f&#246;r de biodrivmedel och flytande 
+biobr&#228;nslen som avses i f&#246;rsta stycket ska ber&#228;knas.
+Lag (2021:668).
+
+1 a &#167; F&#246;r att fasta och gasformiga biobr&#228;nslen ska anses som 
+h&#229;llbara vid produktion av el, v&#228;rme eller kyla ska 
+anv&#228;ndningen av dem medf&#246;ra att utsl&#228;ppen av v&#228;xthusgaser 
+understiger de utsl&#228;pp som anv&#228;ndningen av fossila br&#228;nslen 
+hade gett, med 
+
+1. minst 70 procent, om anl&#228;ggningen d&#228;r biobr&#228;nslet anv&#228;nds 
+har tagits i drift efter den 31 december 2020, och 
+
+2. minst 80 procent, om anl&#228;ggningen d&#228;r biobr&#228;nslet anv&#228;nds 
+har tagits i drift efter den 31 december 2025.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om hur minskningen av 
+utsl&#228;ppen av v&#228;xthusgaser f&#246;r de biobr&#228;nslen som avses i 
+f&#246;rsta stycket ska ber&#228;knas. Lag (2021:668).
+
+1 b &#167; En anl&#228;ggning anses ha tagits i drift enligt 1 och 
+1 a &#167;&#167; s&#229; snart det vid anl&#228;ggningen f&#246;rekommer fysisk 
+produktion av biodrivmedel, flytande biobr&#228;nslen eller el, 
+v&#228;rme eller kyla fr&#229;n fasta eller gasformiga biobr&#228;nslen.
+Lag (2021:668).
+
+2 &#167; F&#246;r att biodrivmedel och biobr&#228;nslen ska anses som 
+h&#229;llbara f&#229;r de inte produceras av agrobiomassa fr&#229;n mark som 
+den 1 januari 2008 eller senare utgjordes av n&#229;gon av f&#246;ljande 
+typer av omr&#229;den, oavsett om marken fortfarande &#228;r av detta 
+slag eller inte:
+
+a) naturskog eller annan tr&#228;dbevuxen mark med inhemska arter, 
+d&#228;r det inte finns n&#229;gra klart synliga tecken p&#229; m&#228;nsklig 
+verksamhet och d&#228;r de ekologiska processerna inte st&#246;rts i 
+betydande utstr&#228;ckning,
+
+b) gr&#228;smark med stor biologisk m&#229;ngfald som i avsaknad av 
+m&#228;nsklig verksamhet f&#246;rblir gr&#228;smark och som bibeh&#229;ller den 
+naturliga artsammans&#228;ttningen och sina ekologiska s&#228;rdrag och 
+processer,
+
+c) gr&#228;smark med stor biologisk m&#229;ngfald som i avsaknad av 
+m&#228;nsklig verksamhet skulle upph&#246;ra att vara gr&#228;smark och som 
+&#228;r rik p&#229; arter och inte skadad, 
+
+d) omr&#229;den som i lag eller genom beslut av en myndighet har 
+utsetts f&#246;r naturskydd, eller
+
+e) skog eller annan tr&#228;dbevuxen mark med stor biologisk 
+m&#229;ngfald som &#228;r rik p&#229; arter och inte skadad eller som av en 
+myndighet har konstaterats ha stor biologisk m&#229;ngfald, om det 
+inte finns bel&#228;gg f&#246;r att r&#229;varuuttaget varit oskadligt ur 
+naturskyddssynpunkt.
+
+F&#246;rsta stycket g&#228;ller dock inte
+
+a) om ett omr&#229;de som avses i f&#246;rsta stycket b eller c &#228;r 
+mindre &#228;n en hektar eller om det inom ett omr&#229;de som anges i 
+f&#246;rsta stycket c &#228;r n&#246;dv&#228;ndigt att sk&#246;rda r&#229;varor f&#246;r att 
+bevara markens status som gr&#228;smark, eller
+
+b) om produktion av r&#229;varor till biodrivmedel och biobr&#228;nslen 
+inte p&#229;verkar de syften som g&#228;ller f&#246;r ett s&#229;dant omr&#229;de som 
+anges under f&#246;rsta stycket d.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om kriterier och geografisk 
+r&#228;ckvidd f&#246;r de omr&#229;den som anges i f&#246;rsta stycket.
+Lag (2021:668).
+
+3 &#167; F&#246;r att biodrivmedel och biobr&#228;nslen ska anses som 
+h&#229;llbara f&#229;r de inte produceras av agrobiomassa fr&#229;n mark inom 
+omr&#229;den som den 1 januari 2008 eller senare har utsetts till 
+skyddsomr&#229;den f&#246;r att skydda s&#228;llsynta, hotade eller 
+utrotningshotade ekosystem eller arter, som &#228;r erk&#228;nda i 
+internationella avtal eller som ing&#229;r i f&#246;rteckningar som har 
+utarbetats av mellanstatliga organisationer eller av 
+Internationella naturskyddsunionen. Detta g&#228;ller oavsett om 
+marken fortfarande &#228;r av detta slag eller inte.
+
+F&#246;rsta stycket g&#228;ller endast om produktion av agrobiomassa 
+till biodrivmedel och biobr&#228;nslen p&#229;verkar de syften som 
+g&#228;ller f&#246;r ett s&#229;dant omr&#229;de som anges i f&#246;rsta stycket.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om kriterier och geografisk 
+r&#228;ckvidd f&#246;r de omr&#229;den som anges i f&#246;rsta stycket.
+Lag (2021:668).
+
+4 &#167; F&#246;r att biodrivmedel och biobr&#228;nslen ska anses som 
+h&#229;llbara f&#229;r de inte produceras av agrobiomassa fr&#229;n mark som 
+den 1 januari 2008 utgjordes av n&#229;gon av f&#246;ljande naturtyper, 
+men som inte l&#228;ngre g&#246;r det n&#228;r r&#229;varorna sk&#246;rdas:
+
+a) v&#229;tmarker, varmed avses mark som under hela &#229;ret eller en 
+betydande del av &#229;ret &#228;r t&#228;ckt eller m&#228;ttat av vatten, 
+
+b) kontinuerligt beskogade omr&#229;den, varmed avses markomr&#229;den 
+som omfattar mer &#228;n ett hektar med tr&#228;d som &#228;r h&#246;gre &#228;n fem 
+meter och ett krontak som t&#228;cker mer &#228;n 30 procent av ytan 
+eller med befintliga tr&#228;d som kan uppn&#229; dessa v&#228;rden, eller 
+
+c) markomr&#229;den som omfattar mer &#228;n ett hektar med tr&#228;d som &#228;r 
+h&#246;gre &#228;n fem meter och ett krontak som t&#228;cker mellan 10 och 
+30 procent av ytan eller med befintliga tr&#228;d som kan uppn&#229; 
+dessa v&#228;rden.
+
+F&#246;rsta stycket g&#228;ller dock inte om &#228;ndrad markanv&#228;ndning inom 
+ett omr&#229;de som anges under c medf&#246;r att kraven i 1 &#167; uppfylls.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om kriterier och geografisk 
+r&#228;ckvidd f&#246;r de omr&#229;den som anges i f&#246;rsta stycket.
+Lag (2021:668).
+
+5 &#167; F&#246;r att biodrivmedel och biobr&#228;nslen ska anses som 
+h&#229;llbara f&#229;r de inte produceras av agrobiomassa fr&#229;n mark som 
+den 1 januari 2008 var torvmark, om det inte visas att odling 
+och sk&#246;rd av r&#229;varan inte medf&#246;r dr&#228;nering av tidigare odikad 
+mark.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om kriterier och geografisk 
+r&#228;ckvidd f&#246;r de omr&#229;den som avses. Lag (2021:668).
+
+6 &#167; F&#246;r att biodrivmedel och biobr&#228;nslen som har producerats 
+av skogsbiomassa ska anses som h&#229;llbara ska det visas att det 
+finns b&#229;de en nationell eller regional lagstiftning som &#228;r 
+till&#228;mplig inom avverkningsomr&#229;det och system f&#246;r &#246;vervakning 
+och kontroll av samma omr&#229;de som s&#228;kerst&#228;ller att 
+
+1. avverkningsverksamheten sker p&#229; ett lagenligt s&#228;tt, 
+
+2. skogsf&#246;ryngring sker p&#229; avverkade arealer, 
+
+3. arealer som utsetts f&#246;r naturskydd skyddas, 
+
+4. det vid avverkningen tas h&#228;nsyn till att jordbeskaffenheten 
+och den biologiska m&#229;ngfalden ska bevaras, s&#229; att 
+skadeverkningarna minimeras, och 
+
+5. avverkningen uppr&#228;tth&#229;ller eller f&#246;rb&#228;ttrar skogens 
+produktionskapacitet p&#229; l&#229;ng sikt.
+
+&#196;ven om villkoren i f&#246;rsta stycket inte &#228;r uppfyllda, ska 
+biodrivmedel och biobr&#228;nslen anses som h&#229;llbara om det visas 
+att det finns ett f&#246;rvaltningssystem f&#246;r ursprungsomr&#229;det som 
+s&#228;kerst&#228;ller att villkor som motsvarar dem som anges i det 
+stycket &#228;r uppfyllda.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om hur det ska visas att 
+villkoren avseende de system f&#246;r &#246;vervakning, kontroll eller 
+f&#246;rvaltning som anges i f&#246;rsta och andra styckena &#228;r 
+uppfyllda. Lag (2021:668).
+
+7 &#167; F&#246;r att biodrivmedel och biobr&#228;nslen som har producerats 
+av skogsbiomassa ska anses som h&#229;llbara ska det visas att det 
+land eller den regionala organisation f&#246;r ekonomisk 
+integration d&#228;r skogsbiomassan har sitt ursprung &#228;r part i 
+Parisavtalet och 
+
+1. har lagt fram ett s&#229;dant nationellt fastst&#228;llt bidrag (NDC) 
+f&#246;r F&#246;renta nationernas ramkonvention om klimatf&#246;r&#228;ndringar 
+(UNFCCC), som omfattar utsl&#228;pp fr&#229;n och upptag inom jordbruk, 
+skogsbruk och markanv&#228;ndning och som s&#228;kerst&#228;ller att 
+f&#246;r&#228;ndringar i kollager i samband med sk&#246;rd eller avverkning 
+av biomassa tillgodor&#228;knas landets &#229;tagande att minska eller 
+begr&#228;nsa utsl&#228;ppen av v&#228;xthusgaser i enlighet med det 
+nationellt fastst&#228;llda bidraget, eller 
+
+2. har en nationell eller regional lagstiftning som &#228;r 
+till&#228;mplig n&#228;r det g&#228;ller utvinning f&#246;r att bevara och st&#228;rka 
+kollager och kols&#228;nkor, i enlighet med artikel 5 i 
+Parisavtalet, och visa att rapporterade utsl&#228;pp fr&#229;n sektorn 
+f&#246;r markanv&#228;ndning, f&#246;r&#228;ndrad markanv&#228;ndning och skogsbruk 
+inte &#246;verstiger upptaget.
+
+&#196;ven om villkoren i f&#246;rsta stycket inte &#228;r uppfyllda, ska 
+biodrivmedel och biobr&#228;nslen anses som h&#229;llbara om det visas 
+att det finns ett f&#246;rvaltningssystem f&#246;r ursprungsomr&#229;det som 
+s&#228;kerst&#228;ller att kollager och kols&#228;nkor i skogen bibeh&#229;lls 
+eller f&#246;rb&#228;ttras p&#229; l&#229;ng sikt. 
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om hur det ska visas att 
+villkoren som anges i f&#246;rsta och andra styckena &#228;r uppfyllda.
+Lag (2021:668).
+
+8 &#167; F&#246;r att biodrivmedel och biobr&#228;nslen som produceras av 
+avfall eller restprodukter som har uppkommit direkt i en 
+jordbruksverksamhet ska anses som h&#229;llbara ska det visas att 
+det finns &#246;vervaknings- eller f&#246;rvaltningsplaner f&#246;r att 
+hantera p&#229;verkan p&#229; jordbeskaffenheten och markens kollager.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om hur det ska visas att 
+villkoren avseende de &#246;vervaknings- och f&#246;rvaltningsplaner som 
+anges i f&#246;rsta stycket &#228;r uppfyllda. Lag (2021:668).
+
+3 kap. Rapportering, h&#229;llbarhetsbesked och kontrollsystem
+
+1 &#167; Rapporteringsskyldig &#228;r den som
+
+1. enligt 5 eller 6 kap. lagen (1994:1776) om skatt p&#229; energi 
+&#228;r skattskyldig f&#246;r br&#228;nsle som helt eller delvis utg&#246;rs av 
+biodrivmedel,
+
+2. i yrkesm&#228;ssig verksamhet anv&#228;nder ett flytande biobr&#228;nsle,
+
+3. i yrkesm&#228;ssig verksamhet anv&#228;nder ett fast biobr&#228;nsle f&#246;r 
+produktion av el, v&#228;rme, kyla eller br&#228;nslen i en anl&#228;ggning 
+med en sammanlagd installerad tillf&#246;rd effekt p&#229; minst 
+20 megawatt, 
+
+4. i yrkesm&#228;ssig verksamhet anv&#228;nder ett gasformigt biobr&#228;nsle 
+f&#246;r produktion av el, v&#228;rme, kyla eller br&#228;nslen i en 
+anl&#228;ggning med en sammanlagd installerad tillf&#246;rd effekt p&#229; 
+minst 2 megawatt, eller 
+
+5. inte omfattas av 1-4 men ans&#246;ker om h&#229;llbarhetsbesked av 
+n&#229;got annat sk&#228;l.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela f&#246;reskrifter om undantag fr&#229;n 
+rapporteringsskyldigheten enligt f&#246;rsta stycket. 
+Lag (2022:170).
+
+1 a &#167; Den som &#228;r rapporteringsskyldig ska genom ett 
+kontrollsystem s&#228;kerst&#228;lla att de biodrivmedel och biobr&#228;nslen 
+som ska rapporteras &#228;r att anse som h&#229;llbara.
+
+Den rapporteringsskyldige ska genom &#246;verenskommelser, direkt 
+eller indirekt, med samtliga akt&#246;rer i hela produktionskedjan 
+och genom stickprov hos dessa akt&#246;rer s&#228;kerst&#228;lla att kravet i 
+f&#246;rsta stycket uppfylls.
+
+En rapporteringsskyldigs kontrollsystem ska granskas av en 
+oberoende granskare. Granskaren ska kontrollera att 
+kontrollsystemet &#228;r korrekt, tillf&#246;rlitligt och skyddat mot 
+bedr&#228;gerier. Granskningen ska ocks&#229; inneh&#229;lla en utv&#228;rdering 
+av den metod f&#246;r stickprov som ska ing&#229; i kontrollsystemet och 
+stickprovens frekvens. Dessutom ska granskningen inneh&#229;lla en 
+utv&#228;rdering av de uppgifter som den rapporteringsskyldige har 
+l&#228;mnat om sitt kontrollsystem.
+
+Den oberoende granskaren ska i ett intyg avge ett utl&#229;tande om 
+kontrollsystemet.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om kontrollsystem och 
+granskning av s&#229;dana system. Lag (2021:668).
+
+1 b &#167; Den som &#228;r rapporteringsskyldig ska till 
+tillsynsmyndigheten ge in en beskrivning av sitt 
+kontrollsystem tillsammans med den oberoende granskarens 
+intyg.
+
+Tillsynsmyndigheten ska i ett s&#228;rskilt beslut fastst&#228;lla om 
+den rapporteringsskyldiges kontrollsystem uppfyller kraven 
+enligt 1 a &#167; (h&#229;llbarhetsbesked).
+
+Ett h&#229;llbarhetsbesked g&#228;ller tills vidare men ska ompr&#246;vas.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer 
+meddelar n&#228;rmare f&#246;reskrifter om beskrivning av kontrollsystem 
+samt fastst&#228;llande och ompr&#246;vning av h&#229;llbarhetsbesked.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela ytterligare f&#246;reskrifter om styrkande av h&#229;llbarhet 
+hos biodrivmedel och biobr&#228;nslen. Lag (2021:668).
+
+1 c &#167; Den som har beviljats ett h&#229;llbarhetsbesked ska utan
+dr&#246;jsm&#229;l anm&#228;la v&#228;sentliga &#228;ndringar i sitt kontrollsystem
+till tillsynsmyndigheten.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer
+meddelar n&#228;rmare f&#246;reskrifter om anm&#228;lningar enligt f&#246;rsta
+stycket. Lag (2011:1065).
+
+1 d &#167; Ett h&#229;llbarhetsbesked ska &#229;terkallas helt eller delvis 
+av tillsynsmyndigheten om
+
+1. den rapporteringsskyldige eller n&#229;gon som ing&#229;r i den 
+rapporteringsskyldiges produktionskedja bryter mot &#229;tagandena 
+i kontrollsystemet p&#229; ett s&#229;dant s&#228;tt att det med fog kan 
+antas att de biodrivmedel och biobr&#228;nslen som rapporteras inte 
+kan anses vara h&#229;llbara,
+
+2. den rapporteringsskyldige eller n&#229;gon som ing&#229;r i den 
+rapporteringsskyldiges produktionskedja bryter mot &#229;tagandena 
+i kontrollsystemet p&#229; ett s&#229;dant s&#228;tt att h&#229;llbarheten hos de 
+biodrivmedel och biobr&#228;nslen som den rapporteringsskyldige 
+rapporterar inte kan bed&#246;mas p&#229; ett tillfredsst&#228;llande s&#228;tt, 
+eller
+
+3. det &#228;r uppenbart att de biodrivmedel och biobr&#228;nslen som 
+rapporteras inte kan anses som h&#229;llbara trots att &#229;tagandena i 
+kontrollsystemet iakttas.
+
+Ett h&#229;llbarhetsbesked f&#229;r &#228;ven &#229;terkallas om 
+rapporteringsskyldigheten har upph&#246;rt.
+
+&#197;terkallelse enligt f&#246;rsta stycket f&#229;r inte ske vid ringa 
+felaktigheter.
+
+Ett beslut om &#229;terkallelse g&#228;ller omedelbart. Lag (2021:668).
+
+1 e &#167; Den som &#228;r rapporteringsskyldig enligt 1 &#167; f&#246;rsta 
+stycket 1-4 ska l&#228;mna uppgifter
+
+1. f&#246;r bed&#246;mningen av h&#229;llbarhetskriterier enligt denna lag, 
+
+2. f&#246;r Sveriges rapportering enligt Europaparlamentets och 
+r&#229;dets direktiv (EU) 2018/2001 av den 11 december 2018 om 
+fr&#228;mjande av anv&#228;ndningen av energi fr&#229;n f&#246;rnybara 
+energik&#228;llor och f&#246;r rapportering till den unionsdatabas som 
+inr&#228;ttas enligt samma direktiv, och
+
+3. om s&#229;dana m&#228;ngder biodrivmedel eller biobr&#228;nslen som avses 
+i f&#246;reskrifter som meddelats med st&#246;d av andra stycket 1.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela f&#246;reskrifter om 
+
+1. skyldigheten att l&#228;mna uppgifter och om undantag fr&#229;n den 
+skyldigheten, och 
+
+2. att den som &#228;r rapporteringsskyldig ska informera 
+konsumenter om vilken typ av biobr&#228;nsle som anv&#228;nds i den 
+yrkesm&#228;ssiga verksamheten och om br&#228;nslets geografiska 
+ursprung. Lag (2021:668).
+
+2 &#167; Den som &#228;r rapporteringsskyldig enligt denna lag ska
+anm&#228;la detta till tillsynsmyndigheten. En anm&#228;lan ska g&#246;ras
+senast tv&#229; veckor efter det att rapporteringsskyldigheten har
+intr&#228;tt.
+
+Den som upph&#246;r att vara rapporteringsskyldig ska anm&#228;la detta
+till tillsynsmyndigheten senast tv&#229; veckor efter det att
+rapporteringsskyldigheten har upph&#246;rt.
+
+3 &#167; Myndigheter som ut&#246;var tillsyn &#246;ver att lagar f&#246;ljs d&#228;r 
+uppfyllda h&#229;llbarhetskriterier utg&#246;r ett villkor f&#246;r att komma 
+i fr&#229;ga f&#246;r en r&#228;ttighet ska, p&#229; beg&#228;ran av 
+tillsynsmyndigheten enligt denna lag, &#246;verl&#228;mna uppgifter som 
+kan bidra till att identifiera rapporteringsskyldiga enligt 
+1 &#167; och om den m&#228;ngd biodrivmedel som utg&#246;r eller ing&#229;r i 
+br&#228;nsle f&#246;r vilket den rapporteringsskyldiges skattskyldighet 
+har intr&#228;tt enligt 5 eller 6 kap. lagen (1994:1776) om skatt 
+p&#229; energi. Lag (2022:170).
+
+3 a kap. Anl&#228;ggningsbesked
+
+1 &#167; Ett anl&#228;ggningsbesked f&#229;r beg&#228;ras av den som &#228;r
+
+1. rapporteringsskyldig f&#246;r ett biodrivmedel enligt 3 kap. 1 &#167; 
+f&#246;rsta stycket 1, eller
+
+2. skattskyldig f&#246;r ett gasformigt biobr&#228;nsle enligt 5 eller 
+6 kap. lagen (1994:1776) om skatt p&#229; energi.
+
+Med anl&#228;ggningsbesked avses ett beslut av tillsynsmyndigheten 
+om att det finns ett kontrollsystem som visar att ett br&#228;nsle 
+eller den anl&#228;ggning d&#228;r br&#228;nslet har producerats uppfyller de 
+krav som f&#246;ljer av detta kapitel. Lag (2022:170).
+
+2 &#167; F&#246;r ett biodrivmedel som l&#228;ggs till grund f&#246;r avdrag 
+enligt 7 kap. 3 a eller 3 b &#167; lagen (1994:1776) om skatt p&#229; 
+energi ska kontrollsystemet visa att br&#228;nslet
+
+1. inte &#228;r framst&#228;llt av livsmedels- eller fodergr&#246;dor, eller 
+
+2. &#228;r framst&#228;llt av livsmedels- eller fodergr&#246;dor men har 
+producerats i en anl&#228;ggning som tagits i drift f&#246;re den 
+31 december 2013 och inte &#228;r fullst&#228;ndigt avskriven.
+Lag (2021:668).
+
+2 a &#167; F&#246;r ett gasformigt biobr&#228;nsle som avses i 6 a kap. 2 c &#167; 
+f&#246;rsta stycket lagen (1994:1776) om skatt p&#229; energi ska 
+kontrollsystemet visa att br&#228;nslet inte &#228;r framst&#228;llt av 
+livsmedels- eller fodergr&#246;dor. 
+
+F&#246;rsta stycket g&#228;ller ocks&#229; f&#246;r ett biodrivmedel eller 
+gasformigt biobr&#228;nsle som l&#228;ggs till grund f&#246;r avdrag enligt 
+7 kap. 4 &#167; samma lag. Lag (2020:1044).
+
+3 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om utformningen av kontrollsystemet 
+och de krav som enligt 2 och 2 a &#167;&#167; m&#229;ste vara uppfyllda f&#246;r 
+att ett anl&#228;ggningsbesked ska kunna ges. Lag (2021:668).
+
+4 &#167; Den som har f&#229;tt ett anl&#228;ggningsbesked ska utan dr&#246;jsm&#229;l 
+anm&#228;la till tillsynsmyndigheten alla &#228;ndringar som har 
+betydelse f&#246;r r&#228;tten till beskedet. Lag (2015:838).
+
+5 &#167; Tillsynsmyndigheten ska &#229;terkalla ett anl&#228;ggningsbesked 
+om f&#246;ruts&#228;ttningarna f&#246;r beskedet inte l&#228;ngre &#228;r uppfyllda. 
+Ett beslut om &#229;terkallelse g&#228;ller omedelbart. 
+Lag (2015:838).
+
+4 kap. Tillsyn
+
+1 &#167; Tillsynen &#246;ver efterlevnaden av denna lag och av
+f&#246;reskrifter som har meddelats i anslutning till lagen ut&#246;vas
+av den myndighet som regeringen best&#228;mmer
+(tillsynsmyndigheten).
+
+2 &#167; Tillsynsmyndigheten har r&#228;tt att p&#229; beg&#228;ran f&#229; de
+upplysningar och ta del av de handlingar som beh&#246;vs f&#246;r
+tillsynen. En beg&#228;ran f&#229;r f&#246;renas med vite.
+
+3 &#167; Tillsynsmyndigheten f&#229;r meddela de f&#246;rel&#228;gganden som
+beh&#246;vs f&#246;r att trygga efterlevnaden av de f&#246;reskrifter som
+omfattas av tillsynen. Ett f&#246;rel&#228;ggande f&#229;r f&#246;renas med vite.
+
+5 kap. &#214;verklagande
+
+1 &#167; Tillsynsmyndighetens beslut enligt denna lag f&#229;r
+&#246;verklagas hos allm&#228;n f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2010:598
+
+1. Denna lag tr&#228;der i kraft den 1 oktober 2010 i fr&#229;ga om 3
+kap. 2 &#167; f&#246;rsta stycket, den 1 januari 2011 i fr&#229;ga om 3 kap.
+1 &#167; andra stycket och i &#246;vrigt den 1 augusti 2010.
+
+2. F&#246;r biodrivmedel och flytande biobr&#228;nslen som har
+producerats i anl&#228;ggningar som var i drift den 23 januari 2008
+till&#228;mpas 2 kap. 1 &#167; f&#246;rsta stycket fr&#229;n och med den 1 april
+2013.
+
+2017:1216
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2018.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som 
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2021:668
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2021.
+
+2. I fr&#229;ga om leverans eller anv&#228;ndning av biodrivmedel eller 
+biobr&#228;nslen som en akt&#246;r har i lager vid ikrafttr&#228;dandet eller 
+har avtalat om f&#246;re den tidpunkten och som avser leverans f&#246;re 
+den 1 juli 2022, ska de nya best&#228;mmelserna inte utg&#246;ra grund 
+f&#246;r &#229;terkallelse av h&#229;llbarhetsbesked eller hinder f&#246;r 
+tillsynsmyndigheten att besluta om s&#229;dana besked.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1719">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1721">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

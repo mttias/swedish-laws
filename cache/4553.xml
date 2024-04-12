@@ -1,0 +1,566 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2021-10-11 14:38:20" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4553</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4552">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4554">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1929:405 ·
+                    <a href="/sfsr?bet=1929:405">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1929:405) med vissa f&#246;reskrifter ang&#229;ende till&#228;mpningen h&#228;r i riket av svensk-norska vattenr&#228;ttskonventionen av den 11 maj 1929</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1929-12-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Omtryck:</span> SFS 1998:863
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:457
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">F&#246;retag, varom ans&#246;kan g&#246;res h&#228;r i riket
+
+1 &#167; Ans&#246;kan i m&#229;l eller &#228;rende, som j&#228;mlikt konventionen
+anh&#228;ngigg&#246;res vid mark- och milj&#246;domstol eller l&#228;nsstyrelse,
+skall ingivas i ett exemplar ut&#246;ver det antal, som f&#246;r varje
+s&#228;rskilt fall eljest finnes f&#246;reskrivet.
+
+Skall enligt art. 14 av konventionen ans&#246;kan vara &#229;tf&#246;ljd av
+f&#246;rklaring, som avses d&#228;r, och &#228;r s&#229;dan f&#246;rklaring ej bilagd
+ans&#246;kningen, skall den avvisas. Vad som nu sagts skall dock
+icke &#228;ga till&#228;mpning i fr&#229;ga om ans&#246;kan av norska staten.
+Lag (2010:994).
+
+2 &#167; Vad i milj&#246;balken och lagen (1998:812) med s&#228;rskilda
+best&#228;mmelser om vattenverksamhet stadgas om ans&#246;kans inneh&#229;ll
+skall &#228;ga till&#228;mpning j&#228;mv&#228;l i fr&#229;ga om verksamhetens
+verkningar i Norge; dock erfordras ej uppgift &#229; d&#228;r bel&#228;gna
+fastigheter, som ber&#246;ras av verksamheten, eller &#229; &#228;gare eller
+nyttjander&#228;ttshavare till s&#229;dan fastighet eller &#229; de
+ers&#228;ttningsbelopp, som b&#246;ra utg&#229; till &#228;gare eller annan f&#246;r
+skada &#229; egendom i Norge.
+
+I kung&#246;relse, som utf&#228;rdas om ans&#246;kningen, skall i vad ang&#229;r
+verksamhetens verkningar i Norge allenast intagas uppgift &#229; det
+vattenomr&#229;de, som d&#228;r kan komma att r&#246;na inverkan av
+verksamheten. Lag (1998:863).
+
+3 &#167; Mark- och milj&#246;domstolen eller l&#228;nsstyrelsen skall, s&#229; snart
+kung&#246;relse utf&#228;rdats om ans&#246;kningen, &#246;vers&#228;nda ett exemplar av
+ans&#246;kningshandlingarna j&#228;mte kung&#246;relsen till
+Utrikesdepartementet f&#246;r att tillst&#228;llas vederb&#246;rande norska
+myndighet. Sedan den f&#246;rberedande skriftv&#228;xlingen avslutats,
+f&#229;r fortsatt behandling av m&#229;let eller &#228;rendet icke &#228;ga rum,
+innan det fr&#229;n Utrikesdepartementet kommit underr&#228;ttelse som
+avses i 4 eller 5 &#167;.
+
+Finner mark- och milj&#246;domstolen eller l&#228;nsstyrelsen med h&#228;nsyn
+till omfattningen och beskaffenheten av den utredning, som
+ytterligare beh&#246;vs, att fr&#229;gan b&#246;r behandlas av kommission, f&#229;r
+framst&#228;llning om detta s&#228;ndas till Utrikesdepartementet,
+varefter regeringen meddelar beslut i anledning av
+framst&#228;llningen. Lag (2010:994).
+
+4 &#167; Har till Utrikesdepartementet inkommit meddelande, att
+samtycke &#229; norsk sida ej erfordras eller att samtycke givits
+utan att d&#228;rf&#246;r uppst&#228;llts villkor, skall underr&#228;ttelse d&#228;rom
+meddelas mark- och milj&#246;domstolen eller l&#228;nsstyrelsen.
+
+Har samtycke v&#228;grats, skall besked d&#228;rom meddelas
+mark- och milj&#246;domstolen eller l&#228;nsstyrelsen; och varde
+ans&#246;kningen av mark- och milj&#246;domstolen eller l&#228;nsstyrelsen
+avslagen. Lag (2010:994).
+
+5 &#167; Om det f&#246;r samtycke, som givits p&#229; norsk sida, uppst&#228;llts
+s&#228;rskilda villkor, ankommer det p&#229; regeringen att besluta
+huruvida regeringen vill f&#246;rbeh&#229;lla sig pr&#246;vningen av fr&#229;ga,
+som avses i andra punkten av art. 20 i konventionen. Sedan den
+pr&#246;vning som kan f&#246;ranledas av detta &#228;gt rum, skall
+underr&#228;ttelse om regeringens beslut samt de fr&#229;n norsk sida
+meddelade villkoren tillst&#228;llas mark- och milj&#246;domstolen eller
+l&#228;nsstyrelsen f&#246;r den vidare pr&#246;vning, som med iakttagande av
+n&#228;mnda beslut och villkor erfordras f&#246;r m&#229;lets eller &#228;rendets
+avg&#246;rande.
+
+F&#229;r regeringen enligt f&#246;rsta stycket f&#246;rbeh&#229;lla sig pr&#246;vningen
+av en viss fr&#229;ga och &#228;r verksamheten av s&#229;dan beskaffenhet att
+p&#229; grund av en best&#228;mmelse i milj&#246;balken en fr&#229;ga ang&#229;ende
+verksamheten kunnat pr&#246;vas av regeringen, skall den pr&#246;vning,
+som s&#229;lunda i s&#228;rskilda h&#228;nseenden kan ankomma p&#229; regeringen,
+f&#246;retas i ett sammanhang. Lag (2010:994).
+
+6 &#167; Stadgandet i art. 7 av konventionen om meddelande av
+tillst&#229;nd f&#246;r best&#228;md tid skall icke &#228;ga till&#228;mpning i vad
+ang&#229;r str&#246;mfall eller fast egendom eller intresse h&#228;r i riket,
+f&#246;r vars r&#228;kning verksamheten skall verkst&#228;llas.
+
+Meddelas tillst&#229;nd f&#246;r best&#228;md tid, skall i fr&#229;ga om str&#246;mfall
+eller fast egendom eller intresse, som ber&#246;rs d&#228;rav,
+best&#228;mmelserna i 24 kap. 5 &#167; milj&#246;balken om ompr&#246;vning icke
+g&#228;lla. Tiden f&#246;r tillst&#229;ndet f&#229;r icke s&#228;ttas l&#228;ngre &#228;n till 60
+&#229;r fr&#229;n det kalender&#229;r, under vilket verksamheten enligt d&#228;rom
+meddelad best&#228;mmelse skall ha fullbordats. Lag (1998:863).
+
+7 &#167; Om kung&#246;relse eller annat meddelande, som enligt
+milj&#246;balken skall inf&#246;ras i ortstidning, r&#246;r sak&#228;gare i Norge,
+skall ett exemplar av kung&#246;relsen eller meddelandet &#246;vers&#228;ndas
+till Utrikesdepartementet f&#246;r att j&#228;mlikt art. 15 i
+konventionen tillst&#228;llas vederb&#246;rande norska myndighet.
+
+Best&#228;mmelserna i milj&#246;balken och lagen (1998:812) med s&#228;rskilda
+best&#228;mmelser om vattenverksamhet om underr&#228;ttelse samt om
+delgivning av kung&#246;relse eller annat meddelande skall g&#228;lla
+&#228;ven vad ang&#229;r sak&#228;gare i Norge. Lag (1998:863).
+
+F&#246;retag, varom ans&#246;kan g&#246;res i Norge
+
+8 &#167; F&#246;rklaring, som avses i art. 14 av konventionen, meddelas
+av regeringen.
+
+Den, som vill erh&#229;lla s&#229;dan f&#246;rklaring, har att till
+mark- och milj&#246;domstolen eller l&#228;nsstyrelsen ingiva ans&#246;kan
+d&#228;rom. I ans&#246;kningen skola s&#229; fullst&#228;ndigt som m&#246;jligt
+uppgivas verksamhetens beskaffenhet, omfattning och verkningar
+med angivande av det vattenomr&#229;de, som av verksamheten kan komma
+att ber&#246;ras. Mark- och milj&#246;domstolen eller l&#228;nsstyrelsen
+&#246;vers&#228;nder med eget yttrande ans&#246;kningen till
+Utrikesdepartementet. Lag (2010:994).
+
+9 &#167; D&#229; ans&#246;kan ang&#229;ende en verksamhet, vilken ingivits till
+myndighet i Norge, inkommit till Utrikesdepartementet, ska den
+j&#228;mte tillh&#246;rande bilagor s&#228;ndas till mark- och milj&#246;domstolen
+eller l&#228;nsstyrelsen. Vad som nu sagts ska &#228;ven g&#228;lla i fr&#229;ga om
+upplysningar som avses i tredje punkten av art. 15 i
+konventionen.
+
+Sedan de i f&#246;rsta stycket avsedda handlingarna inkommit till
+mark- och milj&#246;domstolen eller l&#228;nsstyrelsen ska denna genast
+utf&#228;rda kung&#246;relse om ans&#246;kan. Kung&#246;relsen ska inneh&#229;lla dels
+uppgift om verksamhetens beskaffenhet och omfattning samt de
+verkningar, som d&#228;rav kan v&#228;ntas uppkomma inom svenskt omr&#229;de,
+dels underr&#228;ttelse om vad sak&#228;gare, som vill hos norsk
+myndighet framst&#228;lla erinran i anledning av verksamheten, har
+att iaktta samt om att erinringar i anledning av ans&#246;kan ska
+inom en viss, i kung&#246;relsen utsatt tid ins&#228;ndas till mark- och
+milj&#246;domstolen eller l&#228;nsstyrelsen. Kung&#246;relsen ska inneh&#229;lla
+tillk&#228;nnagivande att ett exemplar av ans&#246;kningshandlingarna
+finns tillg&#228;ngligt p&#229; mark- och milj&#246;domstolens eller
+l&#228;nsstyrelsens kansli eller p&#229; annan l&#228;mplig plats som mark-
+och milj&#246;domstolen eller l&#228;nsstyrelsen best&#228;mmer. Genom mark-
+och milj&#246;domstolens eller l&#228;nsstyrelsens f&#246;rsorg ska
+kung&#246;relsen s&#229; snart det kan ske inf&#246;ras i ortstidning. Ett
+exemplar av kung&#246;relsen ska dessutom s&#228;ndas till
+Utrikesdepartementet, Kammarkollegiet, Havs- och
+vattenmyndigheten, l&#228;nsstyrelsen och andra statliga myndigheter
+vilkas verksamhet kan ber&#246;ras av ans&#246;kan samt till ber&#246;rda
+kommuner.
+
+Om det sedan kung&#246;relse utf&#228;rdats fr&#229;n myndighet i Norge kommer
+underr&#228;ttelse om fr&#229;gans fortsatta behandling d&#228;r, ska ocks&#229;
+ett s&#229;dant meddelande kung&#246;ras p&#229; s&#228;tt som nu har angetts.
+
+&#196;r verksamheten av beskaffenhet, att n&#229;gon menlig inverkan
+d&#228;rav h&#228;r i riket uppenbarligen icke &#228;r att motse, erfordras ej
+kung&#246;relse, som ovan n&#228;mnts. Lag (2011:612).
+
+10 &#167; Kan verksamheten antagas bliva till men f&#246;r allm&#228;nna
+intressen s&#229;som samf&#228;rdsel eller flottning eller fiske av n&#229;gon
+betydenhet eller f&#246;r vattenreglering eller torrl&#228;ggning, som
+redan verkst&#228;llts eller med sannolikhet kan motses, &#229;ligger
+mark- och milj&#246;domstolen eller l&#228;nsstyrelsen att inh&#228;mta
+yttrande fr&#229;n myndighet, som i s&#229;dant h&#228;nseende har att bevaka
+det allm&#228;nnas r&#228;tt, &#228;vensom fr&#229;n styrelse eller syssloman f&#246;r
+verksamhet, som av fr&#229;gan ber&#246;res. Yttrande skall avgivas inom
+den tid f&#246;r erinringars framst&#228;llande, som best&#228;mts i
+kung&#246;relsen. Lag (2010:994).
+
+11 &#167; Sedan den enligt 9 &#167; utsatta tiden f&#246;r erinringars
+ins&#228;ndande utg&#229;tt, skall mark- och milj&#246;domstolen eller
+l&#228;nsstyrelsen till regeringen avge yttrande huruvida enligt
+art. 12 av konventionen samtycke till verksamheten p&#229; svensk
+sida kan anses erforderligt samt huruvida till f&#246;ljd av
+omfattningen och beskaffenheten av den utredning, som
+ytterligare beh&#246;vs, fr&#229;gan ang&#229;ende verksamheten b&#246;r behandlas
+av kommission. Om det med h&#228;nsyn till utredningens
+fullst&#228;ndighet kan ske, b&#246;r mark- och milj&#246;domstolen eller
+l&#228;nsstyrelsen ocks&#229; meddela huruvida samtycke b&#246;r l&#228;mnas och
+f&#246;r s&#229;dant fall avge f&#246;rslag till de villkor, som d&#228;rf&#246;r b&#246;r
+uppst&#228;llas. Yttrandet skall &#229;tf&#246;ljas av samtliga till &#228;rendet
+h&#246;rande handlingar. Avskrift av regeringens beslut i &#228;rendet
+skall tillst&#228;llas mark- och milj&#246;domstolen eller l&#228;nsstyrelsen.
+Lag (2010:994).
+
+12 &#167; N&#228;r mark- och milj&#246;domstolen ska yttra sig enligt 8 eller 
+11 &#167; ska domstolen ha den sammans&#228;ttning som anges i 2 kap. 
+4 &#167; tredje stycket lagen (2010:921) om mark- och 
+milj&#246;domstolar. 
+
+Kostnaden f&#246;r en unders&#246;kning enligt 3 kap. 4 &#167; lagen om mark- 
+och milj&#246;domstolar och utgifter i anledning av kung&#246;relser och 
+liknande betalas av statsmedel. Lag (2021:457).
+
+13 &#167; I fr&#229;ga om verksamhet, som skall verkst&#228;llas f&#246;r svenska
+statens r&#228;kning, &#228;ger regeringen f&#246;rordna, att fr&#229;gan om
+samtycke till verksamheten skall behandlas i annan ordning &#228;n
+h&#228;r ovan i 9-12 &#167;&#167; &#228;r f&#246;reskriven. Stadgandet i 9 &#167; skall dock
+j&#228;mv&#228;l f&#246;r s&#229;dant fall g&#228;lla i vad d&#228;rmed avses att bereda
+sak&#228;gare k&#228;nnedom om ans&#246;kningen och dess behandling samt om
+vad de hava att iakttaga, d&#228;rest de vilja hos norsk myndighet
+framst&#228;lla erinran i anledning av verksamheten. Lag (1998:863).
+
+14 &#167; F&#246;rklaring som avses i art. 22 av konventionen, meddelas
+av mark- och milj&#246;domstol. Ans&#246;kan om s&#229;dan f&#246;rklaring inges
+till mark- och milj&#246;domstolen i tre exemplar. G&#246;rs ans&#246;kan
+efter utg&#229;ngen av den i art. 22 stadgade tiden, skall den
+avvisas av mark- och milj&#246;domstolen.
+
+I samband med f&#246;rklaring, som n&#228;mnts i f&#246;rsta stycket, skall
+ocks&#229; pr&#246;vning &#228;ga rum av fr&#229;ga som avses i art. 3 mom. 2
+eller art. 6 och &#228;r av beskaffenhet att besked d&#228;ri skolat
+enligt milj&#246;balken tas upp i medgivande till verksamheten.
+
+Har ans&#246;kningshandlingarna ej ingivits i f&#246;reskrivet antal
+exemplar eller finner mark- och milj&#246;domstolen flera exemplar
+vara erforderliga eller inneh&#229;ller icke handlingarna beh&#246;vliga
+upplysningar f&#246;r behandlingen av en fr&#229;ga, som avses i denna
+paragraf, f&#229;r mark- och milj&#246;domstolen f&#246;rel&#228;gga s&#246;kanden att
+inom viss tid fullst&#228;ndiga vad som s&#229;lunda brister vid &#228;ventyr,
+om det f&#246;rsummas, att ans&#246;kningen kan f&#246;rklaras f&#246;rfallen.
+Lag (2010:994).
+
+15 &#167; Ang&#229;ende behandlingen av fr&#229;ga, som avses i 14 &#167;, skall i
+till&#228;mpliga delar g&#228;lla vad som &#228;r f&#246;reskrivet betr&#228;ffande
+ans&#246;kningsm&#229;l i milj&#246;balken. Lag (1998:863).
+
+16 &#167; D&#229; f&#246;rklaring som avses i 14 &#167; har meddelats och vunnit
+laga kraft, skall inskrivning ske i vattenboken av de
+f&#246;rh&#229;llanden som &#228;r av vikt f&#246;r k&#228;nnedom om de r&#228;ttigheter och
+skyldigheter h&#228;r i riket, vilka f&#246;r framtiden &#228;r f&#246;renade med
+verksamheten. Lag (1998:863).
+
+17 &#167; Ans&#246;kan eller &#228;rende, som avses i 8, 9 eller 14 &#167;, tas upp
+av den mark- och milj&#246;domstol eller l&#228;nsstyrelse, inom vilkens
+omr&#229;de den inverkan p&#229; vattenf&#246;rh&#229;llandena, som det &#228;r fr&#229;ga
+om, uppkommer. Lag (2010:994).
+
+S&#228;rskilda best&#228;mmelser
+
+18 &#167; Vad som stadgas om skyldighet att ta del i kostnaden f&#246;r
+en verksamhet eller att utge bidrag till denna skall &#228;ven
+till&#228;mpas p&#229; verksamhet, som enligt konventionen verkst&#228;lls
+till f&#246;rm&#229;n f&#246;r str&#246;mfall eller fast egendom eller intresse h&#228;r
+i riket. H&#228;nsyn skall dock tas endast till nytta, som h&#228;r
+uppkommer genom verksamheten.
+
+Skall till f&#246;ljd av &#246;verenskommelse, som avses i art. 10 av
+konventionen, skyldighet att ta del i en verksamhet &#229;vila &#228;ven
+fast egendom eller intresse i Norge, skall vid till&#228;mpningen av
+denna paragraf s&#229;som kostnad f&#246;r verksamheten anses endast den
+del d&#228;rav, som enligt n&#228;mnda &#246;verenskommelse faller p&#229; egendom
+eller intresse h&#228;r i riket. Lag (1998:863).
+
+19 &#167; Fr&#229;ga om godk&#228;nnande av &#246;verenskommelse, som avses i art.
+10 av konventionen, pr&#246;vas betr&#228;ffande verksamhet, varom
+ans&#246;kan g&#246;res h&#228;r i riket, i samband med tillst&#229;nd till
+verksamheten samt eljest i den ordning, som i 14 och 15 &#167;&#167; &#228;r
+f&#246;r d&#228;r avsett fall f&#246;reskriven. Lag (1998:863).
+
+20 &#167; &#196;r med vattenverksamhet f&#246;renad skyldighet f&#246;r
+tillst&#229;ndshavaren att erl&#228;gga bygdeavgift enligt lagen
+(1998:812) med s&#228;rskilda best&#228;mmelser om vattenverksamhet,
+skall vad som s&#229;lunda stadgats l&#228;nda till efterr&#228;ttelse &#228;ven i
+fr&#229;ga om verksamhet, vartill tillst&#229;nd meddelas enligt
+konventionen. S&#229;dan skyldighet f&#229;r dock icke &#229;l&#228;ggas till
+f&#246;rm&#229;n f&#246;r intressen utom riket. Vid best&#228;mmande av antalet
+avgiftsenheter och inplacering i avgiftsklass skall h&#228;nsyn
+endast tas till verkningarna h&#228;r i riket.
+
+Avgift som avses i f&#246;rsta stycket f&#229;r, om det &#228;r sk&#228;ligt med
+h&#228;nsyn till avgiftsskyldighet som &#229;lagts enligt art. 8 av
+konventionen eller andra omst&#228;ndigheter, s&#228;ttas l&#228;gre &#228;n vad
+som eljest &#228;r stadgat eller ocks&#229; helt efterges. Lag
+(1998:863).
+
+21 &#167; Vad i 12 &#167; &#228;r stadgat om yttrande, som d&#228;r s&#228;gs, skall &#228;ga
+till&#228;mpning j&#228;mv&#228;l i fr&#229;ga om meddelande av upplysning, varom
+enligt art. 16 av konventionen framst&#228;llning inkommer till
+mark- och milj&#246;domstolen eller l&#228;nsstyrelsen.
+
+Vill myndighet h&#228;r i riket inh&#228;mta upplysning, som avses i
+n&#228;mnda artikel, skall framst&#228;llningen d&#228;rom ins&#228;ndas till
+Utrikesdepartementet f&#246;r att tillst&#228;llas vederb&#246;rande norska
+myndighet. Lag (2010:994).
+
+22 &#167; Fr&#229;ga om st&#228;llande av s&#228;kerhet, som avses i art. 11 av
+konventionen, pr&#246;vas betr&#228;ffande verksamhet, f&#246;r vilket ans&#246;kan
+g&#246;rs h&#228;r i riket, i samband med tillst&#229;nd till verksamheten
+samt eljest vid meddelande av samtycke till verksamheten eller
+i den ordning, som i 14 och 15 &#167;&#167; &#228;r f&#246;reskriven f&#246;r d&#228;r avsett
+fall. Ang&#229;ende s&#229;dan s&#228;kerhet till&#228;mpas vad som &#228;r f&#246;reskrivet
+i 9 kap. 3 &#167; lagen (1998:812) med s&#228;rskilda best&#228;mmelser om
+vattenverksamhet. Lag (1998:863).
+
+23 &#167; F&#246;rel&#228;ggande, varom stadgas i art. 29 av konventionen,
+meddelas av l&#228;nsstyrelsen i det l&#228;n, d&#228;r verksamheten ut&#246;vas
+eller den flottled, varom fr&#229;ga &#228;r, framg&#229;r eller, om
+verksamheten ut&#246;vas i Norge, inverkan &#229; vattenf&#246;rh&#229;llandena
+till f&#246;ljd av verksamheten uppkommer.
+
+D&#229; ombud enligt n&#228;mnda artikel utsetts, skall underr&#228;ttelse
+d&#228;rom j&#228;mte uppgift &#229; ombudets namn och adress inf&#246;ras i en
+eller flera av ortens tidningar samt i allm&#228;nna tidningarna.
+Sker &#228;ndring i f&#246;rh&#229;llande, som tidigare kungjorts, skall den
+p&#229; samma s&#228;tt offentligg&#246;ras. Uppgifter, som nu n&#228;mnts, skola
+tillika upptagas i s&#228;rskild, hos l&#228;nsstyrelsen tillg&#228;nglig
+f&#246;rteckning.
+
+Kostnad f&#246;r kung&#246;relse, som avses i denna paragraf, m&#229; uttagas
+i den ordning, som ang&#229;ende l&#246;sen f&#246;r expedition &#228;r
+f&#246;reskriven. Lag (1998:863).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1983:1010
+
+Denna lag tr&#228;der i kraft den 1 januari 1984. Om ett vattenm&#229;l
+har anh&#228;ngiggjorts hos vattendomstol eller ans&#246;kan om
+f&#246;rordnande av f&#246;rr&#228;ttningsman gjorts eller f&#246;rordnande enligt
+3 kap. 11 &#167; vattenlagen (1918:523) om synef&#246;rr&#228;ttning meddelats
+f&#246;re ikrafttr&#228;dandet, till&#228;mpas &#228;ldre best&#228;mmelser.
+
+1998:863
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1999.
+
+2. M&#229;l som f&#246;re denna lags ikrafttr&#228;dande har inletts hos en
+f&#246;rr&#228;ttningsman skall handl&#228;ggas och bed&#246;mas enligt &#228;ldre
+best&#228;mmelser.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4552">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4554">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

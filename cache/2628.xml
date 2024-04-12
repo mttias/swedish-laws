@@ -1,0 +1,798 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-11" /> 
+ <meta id="rattsinfo-edited" content="2023-01-11 11:27:47" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2628</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2627">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2629">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2001:554 ·
+                    <a href="/sfsr?bet=2001:554">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2001:554) om milj&#246;kvalitetsnormer f&#246;r fisk- och musselvatten</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2001-06-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Omtryck:</span> SFS 2006:1140
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:2108
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelsesida 2018:2108 har iakttagits.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2001-09-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av
+
+– 5 kap. 1 &#167; milj&#246;balken i fr&#229;ga om 6 och 8 &#167;&#167;,
+
+– 5 kap. 10 &#167; milj&#246;balken i fr&#229;ga om 7 och 9 &#167;&#167;,
+
+– 5 kap. 12 &#167; milj&#246;balken i fr&#229;ga om 10–10 b, 12 och 12 a &#167;&#167;, 
+och
+
+– 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga 
+best&#228;mmelser. F&#246;rordning (2018:2108).
+
+2 &#167; I denna f&#246;rordning finns milj&#246;kvalitetsnormer enligt 
+5 kap. milj&#246;balken f&#246;r fisk- och musselvatten. 
+Milj&#246;kvalitetsnormerna avser dels v&#228;rden som inte f&#229;r 
+&#246;verskridas eller underskridas annat &#228;n i viss angiven 
+utstr&#228;ckning (milj&#246;kvalitetsnormer enligt 5 kap. 2 &#167; f&#246;rsta 
+stycket 1 milj&#246;balken), dels v&#228;rden som ska efterstr&#228;vas.
+
+Ytterligare best&#228;mmelser om kvalitetskrav f&#246;r ytvatten finns 
+i vattenf&#246;rvaltningsf&#246;rordningen (2004:660) och i 
+f&#246;reskrifter som har meddelats med st&#246;d av den 
+f&#246;rordningen. F&#246;rordning (2018:2108).
+
+Definitioner
+
+3 &#167; I denna f&#246;rordning avses med
+
+fiskvatten: str&#246;mmande eller stillast&#229;ende s&#246;tvatten som
+beh&#246;ver skyddas eller f&#246;rb&#228;ttras i kvalitet och d&#228;r fiskar
+lever eller skulle kunna leva;
+
+laxfiskvatten: fiskvatten d&#228;r fiskar som lax, &#246;ring, r&#246;ding,
+sik, sikl&#246;ja, nors och harr lever eller skulle kunna leva;
+
+annat fiskvatten: fiskvatten d&#228;r fiskar som g&#228;dda, abborre, &#229;l
+och karpfisk lever eller skulle kunna leva;
+
+musslor: bl&#246;tdjur som tillh&#246;r klasserna sn&#228;ckor (Gastropoda)
+eller musslor (Bivalvia);
+
+musselvatten: kustvatten eller br&#228;ckt vatten som beh&#246;ver
+skyddas eller f&#246;rb&#228;ttras f&#246;r att g&#246;ra det m&#246;jligt f&#246;r musslor
+att leva och v&#228;xa till i dessa vatten;
+
+riktv&#228;rde: v&#228;rde som skall efterstr&#228;vas;
+
+gr&#228;nsv&#228;rde: v&#228;rde som inte f&#229;r &#246;verskridas eller underskridas.
+
+I &#246;vrigt har termer och uttryck samma inneb&#246;rd som i
+milj&#246;balken. F&#246;rordning (2006:1140).
+
+Till&#228;mpningsomr&#229;de
+
+4 &#167; Havs- och vattenmyndigheten f&#229;r meddela f&#246;reskrifter om
+vilka fiskvatten som ska omfattas av denna f&#246;rordning.
+Fiskvattnen ska i s&#229;dana f&#246;reskrifter klassificeras som
+laxfiskvatten eller annat fiskvatten. Innan Havs- och
+vattenmyndigheten meddelar s&#229;dana f&#246;reskrifter ska den h&#246;ra
+ber&#246;rda l&#228;nsstyrelser i den utstr&#228;ckning som beh&#246;vs.
+F&#246;rordning (2011:632).
+
+5 &#167; Best&#228;mmelserna i denna f&#246;rordning om musselvatten till&#228;mpas
+p&#229; de musselvatten i V&#228;stra G&#246;talands l&#228;n som l&#228;nsstyrelsen
+f&#246;reskriver.
+
+Fiskvatten
+
+6 &#167; I bilaga 1 anges gr&#228;nsv&#228;rden och riktv&#228;rden f&#246;r
+laxfiskvatten och andra fiskvatten. Havs- och
+vattenmyndigheten f&#229;r meddela f&#246;reskrifter om riktv&#228;rden f&#246;r
+de parametrar f&#246;r vilka riktv&#228;rden inte har angetts i bilagan,
+om dessa f&#246;ljer av Sveriges medlemskap i Europeiska unionen.
+
+Milj&#246;kvalitetsnormerna f&#246;r ett fiskvatten ska uppfyllas senast
+inom fem &#229;r fr&#229;n det att denna f&#246;rordning ska till&#228;mpas p&#229;
+vattnet. Gr&#228;nsv&#228;rdena f&#229;r &#246;verskridas eller underskridas
+endast om vattnet p&#229; naturlig v&#228;g har tillf&#246;rts &#228;mnen fr&#229;n
+omgivande mark eller om det s&#228;rskilt har angetts i bilaga 1.
+F&#246;rordning (2011:632).
+
+7 &#167; L&#228;nsstyrelsen ska uppr&#228;tta f&#246;rslag till och fastst&#228;lla 
+&#229;tg&#228;rdsprogram f&#246;r de fiskvatten som finns inom l&#228;net. F&#246;r 
+vatten som str&#228;cker sig &#246;ver flera l&#228;n ska de ber&#246;rda 
+l&#228;nsstyrelserna uppr&#228;tta f&#246;rslag till och fastst&#228;lla ett 
+gemensamt &#229;tg&#228;rdsprogram.
+
+I &#229;tg&#228;rdsprogrammen ska, ut&#246;ver det som f&#246;ljer av 5 kap. 9 &#167; 
+milj&#246;balken, anges hur f&#246;roreningar ska bek&#228;mpas.
+F&#246;rordning (2018:2108).
+
+Musselvatten
+
+8 &#167; I bilaga 2 till denna f&#246;rordning anges gr&#228;nsv&#228;rden och
+riktv&#228;rden f&#246;r musselvatten. L&#228;nsstyrelsen i V&#228;stra G&#246;talands
+l&#228;n f&#229;r meddela f&#246;reskrifter om riktv&#228;rden f&#246;r de parametrar
+f&#246;r vilka riktv&#228;rden inte har angetts i bilagan, om dessa
+f&#246;ljer av Sveriges medlemskap i Europeiska unionen.
+
+Milj&#246;kvalitetsnormerna f&#246;r ett musselvatten skall uppfyllas
+senast inom sex &#229;r fr&#229;n det att denna f&#246;rordning skall
+till&#228;mpas p&#229; vattnet. Gr&#228;nsv&#228;rdena f&#229;r &#246;verskridas eller
+underskridas endast i fall av exceptionell v&#228;derlek eller vid
+exceptionella geografiska f&#246;rh&#229;llanden. F&#246;rordning (2006:1140).
+
+9 &#167; L&#228;nsstyrelsen i V&#228;stra G&#246;talands l&#228;n ska uppr&#228;tta 
+f&#246;rslag till och fastst&#228;lla &#229;tg&#228;rdsprogram f&#246;r musselvattnen. 
+I &#229;tg&#228;rdsprogrammen ska, ut&#246;ver det som f&#246;ljer av 5 kap. 9 &#167; 
+milj&#246;balken, anges hur f&#246;roreningar ska bek&#228;mpas.
+F&#246;rordning (2018:2108).
+
+Kontroll av vattenkvaliteten
+
+10 &#167; Varje l&#228;nsstyrelse ansvarar f&#246;r att kontroll &#228;ger rum av
+kvaliteten p&#229; fisk- och musselvatten inom l&#228;net. Kontrollen
+ska ske genom analys av vattenprover, andra typer av
+m&#228;tningar eller p&#229; annat l&#228;mpligt s&#228;tt. F&#246;rordning (2015:242).
+
+10 a &#167; Havs- och vattenmyndigheten f&#229;r i fr&#229;ga om fiskvatten
+meddela n&#228;rmare f&#246;reskrifter om provtagning och andra metoder
+f&#246;r att kontrollera att en milj&#246;kvalitetsnorm f&#246;ljs och om
+redovisning av m&#228;tresultat som beh&#246;vs f&#246;r kontrollen.
+F&#246;rordning (2015:242).
+
+10 b &#167; L&#228;nsstyrelsen i V&#228;stra G&#246;talands l&#228;n f&#229;r i fr&#229;ga om
+musselvatten meddela n&#228;rmare f&#246;reskrifter om provtagning och
+andra metoder f&#246;r att kontrollera att en milj&#246;kvalitetsnorm
+f&#246;ljs och om redovisning av m&#228;tresultat som beh&#246;vs f&#246;r
+kontrollen. F&#246;rordning (2015:242).
+
+11 &#167; Om kontrollen av kvaliteten p&#229; ett fisk- eller
+musselvatten visar att en milj&#246;kvalitetsnorm inte uppfylls,
+skall l&#228;nsstyrelsen unders&#246;ka om detta beror p&#229; en
+tillf&#228;llighet, naturliga orsaker eller f&#246;roreningar. N&#228;r
+orsaken har fastst&#228;llts, skall l&#228;nsstyrelsen vidta l&#228;mpliga
+&#229;tg&#228;rder.
+
+12 &#167; Om kvaliteten p&#229; ett fiskvatten &#228;r avsev&#228;rt b&#228;ttre &#228;n
+vad som f&#246;ljer av milj&#246;kvalitetsnormerna i bilaga 1, f&#229;r
+Havs- och vattenmyndigheten besluta om en l&#228;gre
+provtagningsfrekvens &#228;n vad som annars g&#228;ller. Om ett s&#229;dant
+vatten inte &#228;r f&#246;rorenat eller om det inte finns n&#229;gon risk
+f&#246;r f&#246;rs&#228;mring av vattenkvaliteten, f&#229;r Havs- och
+vattenmyndigheten besluta att provtagning inte beh&#246;vs.
+F&#246;rordning (2015:242).
+
+12 a &#167; Om kvaliteten p&#229; ett musselvatten &#228;r avsev&#228;rt b&#228;ttre
+&#228;n vad som f&#246;ljer av milj&#246;kvalitetsnormerna i bilaga 2, f&#229;r
+L&#228;nsstyrelsen i V&#228;stra G&#246;talands l&#228;n besluta om en l&#228;gre
+provtagningsfrekvens &#228;n vad som annars g&#228;ller. Om ett s&#229;dant
+vatten inte &#228;r f&#246;rorenat eller om det inte finns n&#229;gon risk
+f&#246;r f&#246;rs&#228;mring av vattenkvaliteten, f&#229;r l&#228;nsstyrelsen besluta
+att provtagning inte beh&#246;vs. F&#246;rordning (2015:242).
+
+F&#246;rbud mot &#246;kade f&#246;roreningar
+
+13 &#167; &#197;tg&#228;rder som vidtas till f&#246;ljd av denna f&#246;rordning f&#229;r
+inte leda till &#246;kade f&#246;roreningar av vatten.
+
+Underr&#228;ttelse om &#229;tg&#228;rdsprogram
+
+14 &#167; N&#228;r ett &#229;tg&#228;rdsprogram har fastst&#228;llts ska l&#228;nsstyrelsen
+skicka en kopia av programmet till Havs- och vattenmyndigheten
+samt de andra  myndigheter och kommuner som ber&#246;rs.
+F&#246;rordning (2011:632).
+
+15 &#167; Har upph&#228;vts genom f&#246;rordning (2015:242).
+
+
+Bilaga 1
+
+Gr&#228;nsv&#228;rden och riktv&#228;rden f&#246;r laxfiskvatten
+
+   Parameter            Riktv&#228;rde       Gr&#228;nsv&#228;rde
+
+1. Temperatur ( C)                      a) Temperatur som m&#228;ts upp
+                                        nedstr&#246;ms fr&#229;n en plats
+                                        d&#228;r hett utsl&#228;pp sker (p&#229;
+                                        blandningszonens gr&#228;ns) f&#229;r
+                                        inte &#246;verstiga den normala,
+                                        op&#229;verkade
+                                        vattentemperaturen med mer
+                                        &#228;n 1,5 C.
+
+                                        Temperaturgr&#228;nsen i f&#246;rsta
+                                        stycket f&#229;r &#246;verskridas
+                                        inom geografiskt begr&#228;nsade
+                                        omr&#229;den, om l&#228;nsstyrelsen
+                                        f&#246;rvissar sig om att inga
+                                        skadliga konsekvenser
+                                        uppst&#229;r f&#246;r en balanserad
+                                        utveckling av
+                                        fiskpopulationen.
+
+                                        b) Heta utsl&#228;pp f&#229;r inte
+                                        leda till att temperaturen
+                                        nedstr&#246;ms fr&#229;n platsen d&#228;r
+                                        hett utsl&#228;pp sker (vid
+                                        blandningszonens gr&#228;ns)
+                                        &#246;verstiger 21,5 C.
+
+                                        Under fortplantningstiden
+                                        f&#246;r arter som &#228;r i behov
+                                        av kallt vatten vid
+                                        fortplantningen g&#228;ller
+                                        temperaturgr&#228;nsen 10 C.
+                                        Denna temperaturgr&#228;ns
+                                        g&#228;ller bara f&#246;r vattendrag
+                                        d&#228;r s&#229;dana arter finns.
+
+                                        Temperaturgr&#228;nserna i f&#246;rsta
+                                        och andra styckena f&#229;r
+                                        &#246;verskridas under 2 procent
+                                        av tiden. De f&#229;r ocks&#229;
+                                        &#246;verskridas i fall av
+                                        exceptionell v&#228;derlek eller
+                                        p&#229; grund av s&#228;rskilda
+                                        geografiska f&#246;rh&#229;llanden
+                                        (jfr 6 &#167; andra stycket).
+
+2. Uppl&#246;st syre (O2)                    d 9 mg/l vatten
+
+                                        Om koncentrationen av syre
+                                        faller under 6 mg/l skall
+                                        l&#228;nsstyrelsen f&#246;rvissa sig
+                                        om att detta inte inverkar
+                                        skadligt p&#229; en balanserad
+                                        utveckling av
+                                        fiskpopulationen.
+
+3. pH                                   6-9
+
+                                        F&#229;r &#246;verskridas i fall av
+                                        exceptionell v&#228;derlek eller
+                                        p&#229; grund av s&#228;rskilda
+                                        geografiska f&#246;rh&#229;llanden
+                                        (jfr 6 &#167; andra stycket).
+
+                                        Artificiellt skapade
+                                        pH-variationer f&#229;r i
+                                        f&#246;rh&#229;llande till op&#229;verkade
+                                        v&#228;rden avvika med h&#246;gst 0,5
+                                        pH-enheter i omr&#229;det mellan
+                                        pH 6 och pH 9, f&#246;rutsatt att
+                                        variationerna inte f&#246;r med
+                                        sig att andra &#228;mnen som finns
+                                        i vattnet blir mer skadliga.
+
+4. Uppslammade fasta    d 25 mg/l
+   substanser           vatten
+
+                        Riktv&#228;rdet f&#229;r
+                        &#246;verskridas i
+                        fall av
+                        exceptionell
+                        v&#228;derlek eller
+                        p&#229; grund av
+                        s&#228;rskilda
+                        geografiska
+                        f&#246;rh&#229;llanden
+                        (jfr 6 &#167; andra
+                        stycket).
+
+5. Syref&#246;rbrukning      d 3 mg O2/l
+   (BOD5)               vatten
+
+6. Nitriter (NO2)       d 0,01 mg/l
+                        vatten
+
+7. Fenolf&#246;reningar      Fenolf&#246;reningar
+   (C6H5OH)             f&#229;r inte finnas
+                        i s&#229;dan
+                        omfattning att
+                        det p&#229;verkar
+                        smaken p&#229;
+                        fiskk&#246;ttet.
+
+8. Mineraloljebaserade                  Petroleumprodukter f&#229;r inte
+   kolv&#228;ten                             finnas i s&#229;dana halter att de
+                                        - bildar en synlig hinna p&#229;
+                                        vattenytan eller
+                                        bel&#228;ggningar p&#229; strandkanten,
+                                        - tillf&#246;r en
+                                        &quot;kolv&#228;tekarakt&#228;r&quot; till
+                                        fiskens smak, eller
+                                        - har effekter som &#228;r
+                                        skadliga f&#246;r fisk.
+
+9. Ammoniak             d 0,005 mg/l    d 0,025 mg/l vatten
+   (icke-joniserat      vatten
+   ammonium, NH3)
+
+10. Ammonium,           d 0,04 mg/l     d 1 mg/l vatten
+    totalt (NH4)        vatten
+
+11. Restklor, totalt                    d 0,005 mg/l vatten
+    (HOCl)
+
+12. Zink, totalt (Zn)                   d 0,3 mg/l vatten
+
+                                        V&#228;rdet g&#228;ller vid en
+                                        vattenh&#229;rdhet p&#229; 100 mg
+                                        CaCO3/l vatten. F&#246;r andra
+                                        vattenh&#229;rdheter anges
+                                        gr&#228;nsv&#228;rden nedan.
+
+13. Uppl&#246;st koppar (Cu)                 d 0,04 mg/l vatten
+
+                                        V&#228;rdet g&#228;ller vid en
+                                        vattenh&#229;rdhet p&#229; 100 mg
+                                        CaCO3/l. F&#246;r andra
+                                        vattenh&#229;rdheter anges
+                                        riktv&#228;rden nedan.
+
+Gr&#228;nsv&#228;rden och riktv&#228;rden f&#246;r andra fiskvatten
+
+   Parameter            Riktv&#228;rden      Gr&#228;nsv&#228;rden
+
+1. Temperatur ( C)                      Det som g&#228;ller f&#246;r
+                                        laxfiskvatten g&#228;ller ocks&#229;
+                                        f&#246;r andra fiskvatten. Den
+                                        temperatur som anges i punkt
+                                        1 a) f&#246;rsta stycket f&#246;r
+                                        laxfiskvatten skall
+                                        emellertid vara 3 C f&#246;r
+                                        andra fiskvatten och den
+                                        temperatur som anges i punkt
+                                        1 b) f&#246;rsta stycket skall
+                                        vara 28 C f&#246;r andra
+                                        fiskvatten.
+
+2. Uppl&#246;st syre (O2)                    d 7 mg/l vatten
+
+                                        Om koncentrationen av syre
+                                        faller under 4 mg/l skall
+                                        l&#228;nsstyrelsen f&#246;rvissa sig
+                                        om att detta inte inverkar
+                                        skadligt p&#229; en balanserad
+                                        utveckling av
+                                        fiskpopulationen.
+
+3. pH                                   6-9
+
+                                        F&#229;r &#246;verskridas i fall av
+                                        exceptionell v&#228;derlek eller
+                                        p&#229; grund av s&#228;rskilda
+                                        geografiska f&#246;rh&#229;llanden
+                                        (jfr 6 &#167; andra stycket).
+
+
+                                        Artificiellt skapade
+                                        pH-variationer f&#229;r i
+                                        f&#246;rh&#229;llande till op&#229;verkade
+                                        v&#228;rden avvika med h&#246;gst 0,5
+                                        pH-enheter i omr&#229;det mellan
+                                        pH 6 och pH 9, f&#246;rutsatt att
+                                        variationerna inte f&#246;r med
+                                        sig att andra &#228;mnen som finns
+                                        i vattnet blir mer skadliga.
+
+4. Uppslammade fasta                    d 25 mg/l vatten
+   substanser
+                                        F&#229;r &#246;verskridas i fall av
+                                        exceptionell v&#228;derlek eller
+                                        p&#229; grund av s&#228;rskilda
+                                        geografiska f&#246;rh&#229;llanden
+                                        (jfr 6 &#167; andra stycket).
+
+5. Syref&#246;rbrukning      d 6 mg O2/l
+   (BOD5)               vatten
+
+6. Nitriter (NO2)       d 0,03 mg/l
+                        vatten
+
+7. Fenolf&#246;reningar                      Fenolf&#246;reningar f&#229;r inte
+   (C6H5OH)                             finnas i s&#229;dan omfattning
+                                        att det p&#229;verkar smaken p&#229;
+                                        fiskk&#246;ttet.
+
+8. Mineraloljebaserade                  Petroleumprodukter f&#229;r inte
+   kolv&#228;ten                             finnas i s&#229;dana halter att de
+                                        - bildar en synlig hinna p&#229;
+                                        vattenytan eller bel&#228;ggningar
+                                        p&#229; strandkanten,
+                                        - tillf&#246;r en
+                                        &quot;kolv&#228;tekarakt&#228;r&quot; till
+                                        fiskens smak, eller
+                                        - har effekter som &#228;r
+                                        skadliga f&#246;r fisk.
+
+9. Ammoniak (icke       d 0,005 mg/l    d 0,025 mg/l vatten
+   joniserat            vatten
+   ammonium, NH3)
+
+10. Ammonium,           d 0,2 mg/l      d 1 mg/l vatten
+    totalt (NH4)        vatten
+
+11. Restklor, totalt                    d 0,005 mg/l vatten
+    (HOCl)
+
+12. Zink, totalt (Zn)                   d 1,0 mg/l vatten
+
+                                        V&#228;rdet g&#228;ller vid en
+                                        vattenh&#229;rdhet p&#229; 100 mg
+                                        CaCO3/l vatten. F&#246;r andra
+                                        vattenh&#229;rdheter anges
+                                        gr&#228;nsv&#228;rden nedan.
+
+13. Uppl&#246;st koppar      &lt; 0,04 mg/l
+    (Cu)                vatten
+
+                        V&#228;rdet g&#228;ller
+                        vid en
+                        vattenh&#229;rdhet
+                        p&#229; 100 mg
+                        CaCO3/l
+                        vatten. F&#246;r
+                        andra
+                        vattenh&#229;rdheter
+                        anges
+                        riktv&#228;rden
+                        nedan.
+
+Gr&#228;nsv&#228;rden f&#246;r den totala m&#228;ngden zink vid olika
+vattenh&#229;rdheter
+
+                                  Vattenh&#229;rdhet (mg CaCO3/l vatten)
+                                        10      50      100     500
+Laxfiskvatten (mg Zn/l vatten)          0,03    0,2     0,3     0,5
+Andra fiskvatten (mg Zn/l vatten)       0,3     0,7     1,0     2,0
+
+Riktv&#228;rden f&#246;r uppl&#246;st koppar vid olika vattenh&#229;rdheter
+
+                                  Vattenh&#229;rdhet (mg CaCO3/l vatten)
+                                        10      50      100     300
+mg Cu/l vatten                          0,005   0,022   0,04    0,112
+F&#246;rordning (2006:1140).
+
+Bilaga 2
+
+Gr&#228;nsv&#228;rden och riktv&#228;rden f&#246;r musselvatten
+
+   Parameter            Riktv&#228;rden      Gr&#228;nsv&#228;rde
+
+1. pH                                   7-9
+
+2. Temperatur (&#186;C)      Ett utsl&#228;pp
+                        som p&#229;verkar
+                        musselvatten
+                        f&#229;r inte
+                        orsaka att
+                        vattnets
+                        temperatur
+                        &#246;verstiger
+                        temperaturen
+                        hos vatten
+                        som inte har
+                        p&#229;verkats p&#229;
+                        detta s&#228;tt med
+                        mer &#228;n 2 C.
+
+3. F&#228;rgtal                              Ett utsl&#228;pp som p&#229;verkar
+                                        musselvatten f&#229;r inte
+                                        orsaka att vattnets f&#228;rg
+                                        efter filtrering avviker
+                                        fr&#229;n f&#228;rgen p&#229; vatten som
+                                        inte har p&#229;verkats p&#229; detta
+                                        s&#228;tt med mer &#228;n 10 mg Pt/l.
+
+4. Suspenderad                          Ett utsl&#228;pp som p&#229;verkar
+substans mg/l                           musselvatten f&#229;r inte
+                                        orsaka att den suspenderade
+                                        substans som vattnet
+                                        inneh&#229;ller &#246;verstiger
+                                        inneh&#229;llet i vatten som
+                                        inte har p&#229;verkats p&#229; detta
+                                        s&#228;tt med mer &#228;n 30 %.
+
+5. Salthalt %           12-38 %         &lt;- 40 %
+
+                                        Ett utsl&#228;pp som p&#229;verkar
+                                        musselvatten f&#229;r inte
+                                        orsaka att vattnets salthalt
+                                        &#246;verstiger salthalten i
+                                        vatten som inte har
+                                        p&#229;verkats p&#229; detta s&#228;tt med
+                                        mer &#228;n 10 %.
+
+6. M&#228;ttnadsgrad i       &gt;- 80 %         S 70 % (medelv&#228;rde)
+   l&#246;st syre %
+                                        Om en enskild m&#228;tning skulle
+                                        ge ett v&#228;rde l&#228;gre &#228;n 70 %,
+                                        skall m&#228;tningen g&#246;ras om.
+
+                                        En enskild m&#228;tning f&#229;r inte
+                                        ge ett v&#228;rde mindre &#228;n 60 %
+                                        utom i fall d&#229; detta inte &#228;r
+                                        till skada f&#246;r
+                                        musselbest&#229;ndens tillv&#228;xt.
+
+7. Kolv&#228;ten fr&#229;n                        Kolv&#228;ten f&#229;r inte f&#246;rekomma
+   mineraloljor                         i musselvatten i s&#229;dana
+                                        kvantiteter att de
+                                        - ger en synlig bel&#228;ggning
+                                        p&#229; vattenytan eller en
+                                        bel&#228;ggning p&#229; musslor eller
+                                        - har en skadlig inverkan p&#229;
+                                        musslor.
+
+8. Organiska            Koncentra-      Koncentration av varje &#228;mne
+   halogenf&#246;reningar    tionen av       i musselvatten eller i
+                        varje &#228;mne i    musselk&#246;tt f&#229;r inte vara
+                        musslornas      lika med eller &#246;verstiga en
+                        k&#246;tt skall      niv&#229; som har skadliga
+                        vara s&#229; l&#229;g     f&#246;ljder f&#246;r musslorna och
+                        att den bidrar  deras larver.
+                        till en h&#246;g
+                        kvalitet hos
+                        musselprodukter.
+
+9. Metaller             Koncentra-      Koncentrationen av varje &#228;mne
+   Silver Ag            tionen av       i musselvatten eller i
+   Arsenik As           varje &#228;mne i    musselk&#246;tt f&#229;r inte &#246;verstiga
+   Kadmium Cd           musslornas      en niv&#229; som har skadliga
+   Krom Cr              k&#246;tt skall      f&#246;ljder f&#246;r musslorna och
+   Koppar Cu            vara s&#229; l&#229;g     deras larver.
+   Kvicksilver Hg       att den bidrar
+   Nickel Ni            till en h&#246;g     Metallernas synergieffekter
+   Bly Pb               kvalitet hos    skall beaktas.
+   Zink Zn              musselprodukter.
+
+10. Fekala              d 300 i
+    kolibakterier/      musselk&#246;tt
+    100 ml              och v&#228;tska
+                        innanf&#246;r skal.
+
+11. &#196;mnen som                           Koncentrationen l&#228;gre &#228;n
+    p&#229;verkar smaken                     vad som kan antas p&#229;verka
+    p&#229; musslorna                        smaken p&#229; musslorna.
+F&#246;rordning (2006:140).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2627">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2629">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

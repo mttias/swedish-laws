@@ -1,0 +1,754 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-18" /> 
+ <meta id="rattsinfo-edited" content="2023-01-18 13:48:26" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4449</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4448">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4450">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1952:166 ·
+                    <a href="/sfsr?bet=1952:166">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1952:166) om h&#228;radsallm&#228;nningar</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1952-04-18
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2012:78
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Allm&#228;nna best&#228;mmelser om h&#228;radsallm&#228;nningar.
+
+1 &#167; Med h&#228;radsallm&#228;nning f&#246;rst&#229;s i denna lag av &#229;lder
+best&#229;ende h&#228;radsallm&#228;nning.
+
+Regeringen meddelar f&#246;reskrifter om vilka l&#228;nsstyrelser som
+ansvarar f&#246;r uppgifter enligt denna lag. Lag (2012:78).
+
+2 &#167; H&#228;radsallm&#228;nning tillh&#246;r &#228;garna av de fastigheter inom h&#228;radet vilka
+&#228;ro satta i mantal eller med vilka, enligt vad vid fastighetsbildning
+best&#228;mts, &#228;r f&#246;renad r&#228;tt till delaktighet i allm&#228;nningen.
+
+Med h&#228;radet f&#246;rst&#229;s h&#228;r det omr&#229;de, som h&#228;radet omfattat enligt den av
+&#229;lder g&#228;llande h&#228;radsindelningen.
+
+&#196;garna av de i f&#246;rsta stycket angivna fastigheterna &#229;tnjuta delaktighet
+i allm&#228;nningen efter of&#246;rmedlade hemmantalet eller, i fr&#229;ga om
+fastigheter f&#246;r vilka r&#228;tten till delaktighet best&#228;mts vid
+fastighetsbildning, efter den d&#228;rvid stadgade grunden.
+
+&#196;r genom urminnes h&#228;vd, dom eller s&#228;rskild av regeringen meddelad
+f&#246;reskrift eller p&#229; annat lagligt s&#228;tt annorledes &#228;n ovan s&#228;gs best&#228;mt
+om r&#228;tt till delaktighet i h&#228;radsallm&#228;nning, vare det g&#228;llande. Lag
+(1975:678).
+
+3 &#167; &#196;r r&#228;tt till delaktighet i h&#228;radsallm&#228;nning f&#246;renad med fastighet
+som innehaves med fideikommissr&#228;tt eller med st&#228;ndig eller &#228;rftlig
+besittningsr&#228;tt eller s&#229;som bost&#228;lle, &#228;ge innehavaren tillgodonjuta
+sagda r&#228;tt samt i fr&#229;gor r&#246;rande allm&#228;nningen ut&#246;va r&#246;str&#228;tt f&#246;r
+fastigheten.
+
+4 &#167; Del&#228;gare m&#229; ej &#229; annan &#246;verl&#229;ta sin r&#228;tt till delaktighet i
+h&#228;radsallm&#228;nning annorledes &#228;n gemensamt med den fastighet varmed r&#228;tten
+&#228;r f&#246;renad. &#214;verl&#229;telse som sker i strid h&#228;remot vare ogill.
+
+Utan hinder av vad nu stadgats m&#229; del&#228;gare &#229; annan &#246;verl&#229;ta den r&#228;tt
+till utdelning fr&#229;n h&#228;radsallm&#228;nning som tillkommer honom. S&#229;dan
+&#246;verl&#229;telse g&#228;ller ej mot ny &#228;gare eller innehavare av fastigheten, dock
+att, d&#228;r &#246;verl&#229;telsen skett genom avtal enligt vilket nyttjander&#228;tt
+uppl&#229;tits till fastigheten, &#246;verl&#229;telsen skall, om ej annat avtalats,
+g&#228;lla s&#229; l&#228;nge nyttjander&#228;tten &#228;ger best&#229;nd. &#214;verl&#229;telse som h&#228;r avses
+medf&#246;r ej befogenhet att ut&#246;va del&#228;garen tillkommande r&#246;str&#228;tt i fr&#229;gor
+r&#246;rande allm&#228;nningen.
+
+5 &#167; H&#228;radsallm&#228;nning skall bibeh&#229;llas of&#246;rminskad d&#228;r ej h&#228;r nedan
+annorlunda stadgas. H&#228;radsallm&#228;nning m&#229; ej belastas med inteckning eller
+inskrivning av r&#228;ttighet och ej heller tagas i m&#228;t f&#246;r annan fordran &#228;n
+s&#229;dan f&#246;r vilken &#229;tnjutes f&#246;rm&#229;nsr&#228;tt enligt 6 &#167; 1 f&#246;rm&#229;nsr&#228;ttslagen
+(1970:979) till betalning ur allm&#228;nningen. Lag (1970:1016).
+
+6 &#167; Del&#228;garnas r&#228;tt till h&#228;radsallm&#228;nning skall, d&#228;r ej i lag f&#246;r
+s&#228;rskilt fall annorlunda stadgas, tillgodog&#246;ras f&#246;r del&#228;garnas
+gemensamma r&#228;kning.
+
+Har n&#229;gon genom urminnes h&#228;vd, dom eller s&#228;rskild av regeringen meddelad
+f&#246;reskrift eller p&#229; annat lagligt s&#228;tt erh&#229;llit r&#228;tt att i visst
+avseende nyttja h&#228;radsallm&#228;nning, vare det g&#228;llande.
+
+Del&#228;gare vare ej skyldig att med egna medel bidraga till bestridande av
+utgifter f&#246;r allm&#228;nningen. Lag (1975:678).
+
+7 &#167; H&#228;radsallm&#228;nning j&#228;mte vad fr&#229;n allm&#228;nningen h&#228;rflyter skall
+f&#246;rvaltas av en av del&#228;garna vald allm&#228;nningsstyrelse enligt reglemente,
+som f&#246;r varje h&#228;radsallm&#228;nning fastst&#228;lles i den ordning nedan s&#228;gs.
+
+Allm&#228;nningsstyrelsen ut&#246;var del&#228;garnas beslutander&#228;tt i alla fr&#229;gor i
+vilka beslutander&#228;tten ej genom lag eller reglementet f&#246;rbeh&#229;llits
+del&#228;garna. I fall d&#229; beslutander&#228;tten tillkommer del&#228;garna ut&#246;vas den &#229;
+allm&#228;nningsst&#228;mma.
+
+Om avl&#246;sning av r&#228;tt till delaktighet i h&#228;radsallm&#228;nning
+
+8 &#167; &#196;r r&#228;tt till delaktighet i h&#228;radsallm&#228;nning f&#246;renad med
+fastighet som ej &#228;r taxerad s&#229;som lantbruksenhet, m&#229;
+l&#228;nsstyrelsen, p&#229; framst&#228;llning av allm&#228;nningsstyrelsen och
+efter h&#246;rande av fastighetens &#228;gare eller i 3 &#167; omf&#246;rm&#228;ld
+innehavare av fastigheten, f&#246;rordna att r&#228;tten till delaktighet
+skall avl&#246;sas mot ers&#228;ttning i penningar.
+
+Ers&#228;ttningens belopp fastst&#228;lles av l&#228;nsstyrelsen och skall
+best&#228;mmas till tv&#229; och en halv g&#229;nger sammanlagda v&#228;rdet av den
+p&#229; fastighetens delaktighetstal bel&#246;pande utdelningen fr&#229;n
+allm&#228;nningen f&#246;r de senast f&#246;rflutna tio &#229;ren. L&#228;nsstyrelsen
+skall uts&#228;tta viss dag, d&#229; l&#246;seskillingen senast skall hava
+erlagts och bevis d&#228;rom inkommit till l&#228;nsstyrelsen vid p&#229;f&#246;ljd
+att f&#246;rordnandet om avl&#246;sning eljest &#228;r f&#246;rfallet.
+
+D&#229; beslutet om avl&#246;sning har vunnit laga kraft och bevis som
+avses i andra stycket har kommit in till l&#228;nsstyrelsen, skall
+l&#228;nsstyrelsen genast vidta de &#229;tg&#228;rder som beh&#246;vs f&#246;r att en
+anteckning om avl&#246;sningen skall bli inf&#246;rd i
+fastighetsregistrets allm&#228;nna del.
+
+Best&#228;mmelser om vem som skall f&#246;ra in uppgifter i
+fastighetsregistrets allm&#228;nna del finns i 19 kap. 6 &#167;
+fastighetsbildningslagen (1970:988). Lag (2005:1209).
+
+Om avyttring och f&#246;rv&#228;rv av mark
+
+9 &#167; Till h&#228;radsallm&#228;nning h&#246;rande omr&#229;de m&#229; avyttras genom
+f&#246;rs&#228;ljning eller annorledes, om avsev&#228;rd f&#246;rm&#229;n f&#246;r del&#228;garna
+d&#228;rigenom vinnes samt avyttringen ej l&#228;nder skogssk&#246;tseln &#229;
+allm&#228;nningen till men eller om eljest synnerliga sk&#228;l f&#246;religga
+till avyttringen. R&#228;tt att besluta om dylik avyttring
+tillkommer del&#228;garna. Lag (2000:230).
+
+10 &#167; Om del&#228;garna vill f&#246;rv&#228;rva mark f&#246;r h&#228;radsallm&#228;nnings
+utvidgning eller f&#246;r annat f&#246;r allm&#228;nningen angel&#228;get &#228;ndam&#229;l,
+f&#229;r de besluta d&#228;rom. Beslutander&#228;tt i s&#229;dant avseende
+tillkommer &#228;ven allm&#228;nningsstyrelsen, om reglementet medgiver
+det. Lag (2000:230).
+
+11 &#167; har upph&#228;vts genom lag (2000:230).
+
+12 &#167; har upph&#228;vts genom lag (2000:230).
+
+13 &#167; har upph&#228;vts genom lag (2000:230).
+
+14 &#167; har upph&#228;vts genom lag (2000:230).
+
+15 &#167; 1 mom. har upph&#228;vts genom lag (2000:230).
+
+15 &#167; 2 mom. har upph&#228;vts genom lag (2000:230).
+
+15 &#167; 3 mom. har upph&#228;vts genom lag (2000:230).
+
+16 &#167; har upph&#228;vts genom lag (2000:230).
+
+17 &#167; har upph&#228;vts genom lag (2000:230).
+
+Om avkastning och annan inkomst av h&#228;radsallm&#228;nning
+
+18 &#167; Till h&#228;radsallm&#228;nnings avkastning r&#228;knas i denna lag all den
+inkomst in natura eller i penningar som erh&#229;lles genom tillgodog&#246;rande
+av del&#228;garnas r&#228;tt till allm&#228;nningen, i den m&#229;n s&#229;dant tillgodog&#246;rande
+skall ske f&#246;r gemensam r&#228;kning, dock med undantag av kapitalinkomst som
+h&#228;rflyter fr&#229;n allm&#228;nningen.
+
+Till kapitalinkomst av h&#228;radsallm&#228;nning h&#228;nf&#246;ras i denna lag medel som
+inflyta genom avyttring av mark fr&#229;n allm&#228;nningen, ers&#228;ttning f&#246;r mark
+som genom expropriation, inl&#246;sen enligt lagen om r&#228;tt i vissa fall f&#246;r
+nyttjander&#228;ttshavare att inl&#246;sa under nyttjander&#228;tt uppl&#229;tet omr&#229;de
+eller annat dylikt f&#246;rfarande skiljes fr&#229;n allm&#228;nningen samt ers&#228;ttning
+f&#246;r nyttjande- eller servitutsr&#228;tt som genom s&#229;dant f&#246;rfarande uppl&#229;tes
+&#229; allm&#228;nningen &#228;vensom s&#229;dan ers&#228;ttning f&#246;r skada eller intr&#229;ng genom
+dylikt f&#246;rfarande som best&#228;mts att utg&#229; i penningar p&#229; en g&#229;ng.
+
+19 &#167; Beh&#229;llen avkastning m&#229; anv&#228;ndas eller fonderas f&#246;r utdelning &#229;t
+allm&#228;nningens samtliga del&#228;gare efter deras delaktighet i allm&#228;nningen
+eller f&#246;r annat &#228;ndam&#229;l som &#228;r till gagn f&#246;r del&#228;garna.
+
+20 &#167; R&#228;tt att besluta om anv&#228;ndningen av beh&#229;llen avkastning tillkommer
+del&#228;garna.
+
+Vilja del&#228;garna anv&#228;nda fonderad avkastning till annat &#228;ndam&#229;l &#228;n det,
+f&#246;r vilket fonderingen &#228;gt rum, vare beslut d&#228;rom icke giltigt, med
+mindre det bitr&#228;tts av r&#246;stande f&#246;r ett sammanlagt delaktighetsbelopp,
+utg&#246;rande minst tv&#229; tredjedelar av allm&#228;nningens hela delaktighetstal.
+
+21 &#167; Del&#228;garnas beslutander&#228;tt enligt 20 &#167; m&#229;, utom f&#246;r det fall som
+avses i andra stycket, genom reglementet helt eller delvis uppdragas &#229;t
+allm&#228;nningsstyrelsen.
+
+22 &#167; Kapitalinkomst skall anv&#228;ndas eller fonderas f&#246;r
+verkst&#228;llande av grundf&#246;rb&#228;ttringar &#229; allm&#228;nningen eller f&#246;r
+ink&#246;p av mark f&#246;r allm&#228;nningens utvidgning eller f&#246;r annat
+dylikt &#228;ndam&#229;l. Det tillkommer l&#228;nsstyrelsen att p&#229;
+framst&#228;llning av allm&#228;nningsstyrelsen meddela n&#228;rmare
+f&#246;reskrifter om detta.
+
+Om mark som f&#246;rv&#228;rvats f&#246;r kapitalinkomst s&#228;ljs, skall
+k&#246;peskillingen anses utg&#246;ra kapitalinkomst.
+
+I fr&#229;ga om r&#228;nta p&#229; kapitalinkomst och om avkastning av mark
+som avses i andra stycket skall best&#228;mmelserna i 19-21 &#167;&#167;
+till&#228;mpas. Lag (2000:230).
+
+Om allm&#228;nningsstyrelse, revisorer och allm&#228;nningsst&#228;mma
+
+23 &#167; Ledam&#246;terna i en allm&#228;nningsstyrelse skall vara bosatta
+h&#228;r i landet, om inte l&#228;nsstyrelsen f&#246;r ett s&#228;rskilt fall
+medger n&#229;got annat. Ledam&#246;terna f&#229;r inte vara under&#229;riga eller
+ha f&#246;rvaltare enligt 11 kap. 7 &#167; f&#246;r&#228;ldrabalken.
+
+Om en allm&#228;nningsst&#228;mma beslutar det, f&#229;r en ledamot av en
+allm&#228;nningsstyrelse skiljas fr&#229;n sitt uppdrag innan tiden f&#246;r
+uppdraget har g&#229;tt ut.
+
+Om en styrelseledamot avg&#229;r innan tiden f&#246;r uppdraget har g&#229;tt
+ut och det inte finns n&#229;gon suppleant, skall &#246;vriga
+styrelseledam&#246;ter genast se till att en ny ledamot v&#228;ljs f&#246;r
+den tid som &#229;terst&#229;r. Om styrelsen &#228;nd&#229; &#228;r beslutf&#246;r och om det
+inte strider mot best&#228;mmelserna i reglementet, f&#229;r valet
+skjutas upp till n&#228;sta ordinarie allm&#228;nningsst&#228;mma.
+Lag (2002:370).
+
+24 &#167; Allm&#228;nningsstyrelse &#228;ge att sj&#228;lv eller genom ombud ej mindre
+gentemot tredje man handla &#229; del&#228;garnas v&#228;gnar &#228;n &#228;ven inf&#246;r domstolar
+och andra myndigheter f&#246;retr&#228;da del&#228;garna.
+
+Vill styrelsen k&#228;ra till del&#228;garna, utlyse styrelsen allm&#228;nningsst&#228;mma
+f&#246;r val av ombud att i tvisten f&#246;ra del&#228;garnas talan. St&#228;mning skall
+anses delgiven d&#229; den blivit f&#246;redragen &#229; st&#228;mman. Lag (1970:436).
+
+25 &#167; Ledamot av styrelsen &#228;ge ej deltaga i behandlingen av fr&#229;ga r&#246;rande
+avtal mellan honom och del&#228;garna. Ej heller m&#229; han deltaga i
+behandlingen av fr&#229;ga ang&#229;ende avtal mellan del&#228;garna och tredje man,
+d&#228;r han i fr&#229;gan &#228;ger ett v&#228;sentligt intresse som kan vara stridande mot
+del&#228;garnas. Vad s&#229;lunda stadgats &#228;ge motsvarande till&#228;mpning betr&#228;ffande
+r&#228;tteg&#229;ng eller annan talan mot styrelseledamoten eller tredje man.
+
+26 &#167; Styrelseledam&#246;ter som genom att &#246;verskrida dem tillkommande
+befogenhet eller eljest upps&#229;tligen eller av v&#229;rdsl&#246;shet tillskynda
+del&#228;garna skada svare f&#246;r skadan en f&#246;r alla och alla f&#246;r en. Vad nu
+sagts skall ock g&#228;lla, d&#228;r styrelseldam&#246;ter tillskynda tredje man skada
+genom &#246;vertr&#228;delse av denna lag, reglementet eller annan f&#246;reskrift, som
+myndighet enligt denna lag meddelat eller fastst&#228;llt.
+
+27 &#167; Allm&#228;nningsstyrelsens f&#246;rvaltning och r&#228;kenskaper skola granskas av
+tv&#229; eller flera revisorer som utses av del&#228;garna eller p&#229; annat i
+reglementet angivet s&#228;tt.
+
+Ej m&#229; den vara revisor, som &#228;r befattningshavare hos del&#228;garna eller
+under det sistf&#246;rflutna &#229;ret handhaft bokf&#246;ring eller medelsf&#246;rvaltning
+f&#246;r dem eller som intager en underordnad eller beroende st&#228;llning till
+ledamot av allm&#228;nningsstyrelsen eller till befattningshavare hos
+del&#228;garna, &#229;t vilken uppdragits att ombes&#246;rja bokf&#246;ringen eller
+medelsf&#246;rvaltningen eller kontrollen d&#228;r&#246;ver, ej heller styrelseledamots
+eller s&#229;dan befattningshavares make eller den, som med honom &#228;r i r&#228;tt
+upp- eller nedstigande sl&#228;ktskap eller sv&#229;gerlag eller &#228;r hans syskon
+eller med honom &#228;r i det sv&#229;gerlag, att den ene &#228;r gift med den andres
+syskon.
+
+Den tid f&#246;r vilken revisor utses m&#229; ej utg&#229; f&#246;re n&#228;sta ordinarie
+allm&#228;nningsst&#228;mma.
+
+Revisor m&#229;, &#228;nd&#229; att den tid f&#246;r vilken han blivit utsedd ej g&#229;tt till
+&#228;nda, skiljas fr&#229;n uppdraget genom beslut av den eller dem som utsett
+honom.
+
+Avg&#229;r av del&#228;garna vald revisor innan den tid f&#246;r vilken han blivit vald
+g&#229;tt till &#228;nda och finnes ej suppleant, &#229;ligger det allm&#228;nningsstyrelsen
+att of&#246;rdr&#246;jligen f&#246;ranstalta om val av ny revisor.
+
+28 &#167; Allm&#228;nningsstyrelsen skall &#229;rligen inom tid, som angives i
+reglementet, till revisorerna avl&#228;mna en av styrelsens ledam&#246;ter
+underskriven f&#246;rvaltningsber&#228;ttelse f&#246;r det f&#246;rflutna r&#228;kenskaps&#229;ret
+tillika med redovisning &#246;ver inkomster och utgifter.
+
+29 &#167; Allm&#228;nningsstyrelsen skall bereda revisor tillf&#228;lle att n&#228;r som
+helst inventera de kontanta medel och &#246;vriga tillg&#229;ngar som st&#229; under
+styrelsens f&#246;rvaltning samt granska alla till f&#246;rvaltningen h&#246;rande
+b&#246;cker, r&#228;kenskaper och andra handlingar. Av revisor beg&#228;rd upplysning
+ang&#229;ende f&#246;rvaltningen m&#229; ej av styrelsen v&#228;gras.
+
+Vid fullg&#246;rande av sitt uppdrag hava revisorerna att st&#228;lla sig till
+efterr&#228;ttelse de s&#228;rskilda f&#246;reskrifter som av del&#228;garna meddelas och ej
+avse inskr&#228;nkning i deras i lag stadgade befogenhet eller eljest strida
+mot lag eller f&#246;rfattning eller mot reglementet.
+
+Revisorerna skola f&#246;r varje r&#228;kenskaps&#229;r inom tid som best&#228;mmes i
+reglementet avgiva och till styrelsen &#246;verl&#228;mna en av dem underskriven
+ber&#228;ttelse &#246;ver granskningen.
+
+30 &#167; Hava revisorerna i sin ber&#228;ttelse eller annan handling som
+framl&#228;gges &#229; allm&#228;nningsst&#228;mma mot b&#228;ttre vetande l&#228;mnat oriktig uppgift
+eller upps&#229;tligen underl&#229;tit att g&#246;ra anm&#228;rkning mot dylik uppgift i
+handling som av dem granskats, eller hava de vid fullg&#246;randet av sitt
+uppdrag visat v&#229;rdsl&#246;shet, vare de som l&#229;tit s&#229;dant komma sig till last
+del&#228;garna ansvariga f&#246;r all d&#228;rav uppkommande skada, en f&#246;r alla och
+alla f&#246;r en.
+
+31 &#167; I reglementet m&#229; best&#228;mmas att del&#228;garnas beslutander&#228;tt &#229;
+allm&#228;nningsst&#228;mma skall ut&#246;vas genom distriktsombud, utsedda p&#229;
+del&#228;garst&#228;mmor f&#246;r s&#228;rskilda distrikt.
+
+32 &#167; &#197; del&#228;garst&#228;mma &#228;ge envar &#228;gare eller i 3 &#167; omf&#246;rm&#228;ld innehavare av
+fastighet inom distriktet, med vilken r&#228;tt till delaktighet i
+allm&#228;nningen &#228;r f&#246;renad, r&#246;str&#228;tt efter grunden f&#246;r sagda delaktighet,
+d&#228;r ej nedan i denna paragraf annorlunda stadgas.
+
+F&#246;r omyndig del&#228;gare r&#246;star f&#246;rmyndare som har vederb&#246;rande fastighet
+under sin f&#246;rvaltning, eller d&#228;r flera s&#229;dana f&#246;rmyndare finnas, den som
+de bland sig utse. F&#246;r oskiftat d&#246;dsbo, bolag eller annan samf&#228;llighet
+m&#229; ej mera &#228;n en person ut&#246;va r&#246;str&#228;tt.
+
+Fr&#229;nvarande del&#228;gares r&#246;str&#228;tt m&#229; &#229; st&#228;mman ut&#246;vas genom ombud. Ej m&#229;
+dock n&#229;gon p&#229; grund av fullmakt r&#246;sta f&#246;r mera &#228;n en del&#228;gare.
+
+Ej m&#229; n&#229;gon &#229; del&#228;garst&#228;mma f&#246;r egen eller annans r&#228;kning ut&#246;va r&#246;str&#228;tt
+f&#246;r mera &#228;n en tiondel av hela det delaktighetstal som &#228;r f&#246;retr&#228;tt &#229;
+st&#228;mman.
+
+33 &#167; Vad i 32 &#167; &#228;r stadgat ang&#229;ende del&#228;garst&#228;mma skall &#228;ga motsvarande
+till&#228;mpning i fr&#229;ga om allm&#228;nningsst&#228;mma, var&#229; beslutander&#228;tten ut&#246;vas
+omedelbart av del&#228;garna.
+
+34 &#167; &#197; allm&#228;nningsst&#228;mma, d&#228;r beslutander&#228;tten ut&#246;vas genom
+distrktsombud, &#228;ge s&#229;dant ombud ut&#246;va r&#246;str&#228;tt f&#246;r det delaktighetstal
+betr&#228;ffande allm&#228;nningen som sammanlagt tillkommer del&#228;garna i det
+distrikt f&#246;r vilket ombudet utsetts. F&#246;retr&#228;des &#229; st&#228;mman distrikt av
+flera ombud, &#228;ge dessa r&#246;sta f&#246;r lika andel av sagda tal. Enskild
+del&#228;gare vare dock obetaget att, sj&#228;lv eller genom ombud, &#229; st&#228;mman
+ut&#246;va r&#246;str&#228;tt f&#246;r honom tillkommande delaktighetstal, som i s&#229; fall
+avr&#228;knas fr&#229;n vederb&#246;rande distriktsombuds r&#246;stetal.
+
+35 &#167; Ej m&#229; n&#229;gon sj&#228;lv eller genom ombud eller s&#229;som ombud f&#246;r annan &#229;
+allm&#228;nningsst&#228;mma deltaga i behandlingen av fr&#229;ga r&#246;rande avtal mellan
+honom och del&#228;garna. Ej heller m&#229; han deltaga i behandling av fr&#229;ga
+ang&#229;ende avtal mellan dessa och tredje man, d&#228;r han i fr&#229;gan &#228;ger ett
+v&#228;sentligt intresse som kan vara stridande mot del&#228;garnas. Vad s&#229;lunda
+stadgats &#228;ge motsvarande till&#228;mpning betr&#228;ffande r&#228;tteg&#229;ng eller annan
+talan mot honom eller tredje man.
+
+Ledamot av allm&#228;nningsstyrelse m&#229; ej deltaga i beslut om ansvarsfrihet
+f&#246;r f&#246;rvaltnings&#229;tg&#228;rd, f&#246;r vilken han &#228;r ansvarig, eller i val av
+revisor.
+
+36 &#167; Ordinarie allm&#228;nningsst&#228;mma skall h&#229;llas en g&#229;ng om &#229;ret &#229; tid, som
+best&#228;mmes i reglementet.
+
+&#197; s&#229;dan st&#228;mma skola allm&#228;nningsstyrelsens f&#246;rvaltningsber&#228;ttelse f&#246;r
+det f&#246;rflutna r&#228;kenskaps&#229;ret j&#228;mte d&#228;rvid fogad redovisning samt
+revisorernas ber&#228;ttelse f&#246;r samma &#229;r framl&#228;ggas, och skall &#229; st&#228;mman
+fr&#229;gan om beviljande av ansvarsfrihet &#229;t styrelsen f&#246;r den tid
+f&#246;rvaltningsber&#228;ttelsen omfattar f&#246;retagas till avg&#246;rande.
+
+Med n&#228;mnda fr&#229;ga skall dock anst&#229; till fortsatt st&#228;mma &#229; viss dag, minst
+fyra och h&#246;gst &#229;tta veckor d&#228;refter, om s&#229; p&#229;fordras av r&#246;stande f&#246;r ett
+sammanlagt delaktighetsbelopp, utg&#246;rande minst en tiondel av
+allm&#228;nningens hela dalaktighetstal. Ut&#246;ver sagda tid vare uppskov ej
+medgivet.
+
+Val av allm&#228;nningsstyrelse och revisorer m&#229; f&#246;retagas endast &#229; ordinarie
+st&#228;mma, dock att fyllnadsval varom i 23 &#167; sista stycket och 27 &#167; femte
+stycket stadgas m&#229; &#228;ga rum &#229; extra st&#228;mma.
+
+37 &#167; Allm&#228;nningsstyrelsen &#228;ge, n&#228;r den finner l&#228;mpligt, utlysa extra
+allm&#228;nningsst&#228;mma.
+
+Revisorerna m&#229;, om deras granskning f&#246;ranleder d&#228;rtill, skriftligen med
+angivande av sk&#228;let p&#229;fordra att styrelsen skall utlysa extra st&#228;mma att
+h&#229;llas s&#229; snart det med iakttagande av f&#246;reskriven kallelsetid kan ske.
+Efterkommer styrelsen ej inom en vecka s&#229;dan p&#229;fordran, &#228;ge revisorerna
+sj&#228;lva utlysa st&#228;mma. &#196;ro ej samtliga revisorer ense om st&#228;mmas
+utlysande, g&#228;lle den mening, varom de flesta f&#246;rena sig, eller vid lika
+r&#246;stetal deras mening som anse extra st&#228;mma b&#246;ra h&#229;llas.
+
+Extra st&#228;mma skall ock av styrelsen utlysas d&#229; det f&#246;r uppgivet &#228;ndamm&#229;l
+skriftligen p&#229;fordras av del&#228;gare med sammanlagt delaktighetsbelopp,
+utg&#246;rande minst en tiondel av allm&#228;nningens hela delaktighetstal eller
+den mindre del d&#228;rav som m&#229; vara best&#228;md i reglementet.
+
+L&#228;nsstyrelsen &#228;ge ock, n&#228;r s&#229; finnes n&#246;digt, anmoda allm&#228;nningsstyrelsen
+att utlysa extra st&#228;mma. Efterkommer allm&#228;nningsstyrelsen ej inom en
+vecka s&#229;dan anmodan, m&#229; l&#228;nsstyrelsen sj&#228;lv utlysa st&#228;mma.
+
+38 &#167; Underl&#229;ter allm&#228;nningsstyrelsen att i f&#246;reskriven ordning utlysa
+ordinarie allm&#228;nningsst&#228;mma eller har styrelsen ej senast tv&#229; veckor
+efter p&#229;fordran som i 37 &#167; tredje stycket s&#228;gs utlyst extra st&#228;mma att
+h&#229;llas s&#229; snart det med iakttagande av f&#246;reskriven kallelsetid kan ske,
+har l&#228;nsstyrelsen att, p&#229; anm&#228;lan av del&#228;gare, of&#246;rdr&#246;jligen utlysa
+st&#228;mma.
+
+Vad nu sagts skall &#228;ga motsvarande till&#228;mpning, d&#228;rest del&#228;garst&#228;mma ej
+utlyses i f&#246;reskriven ordning.
+
+Om reglemente
+
+39 &#167; Reglemente f&#246;r h&#228;radsallm&#228;nning skall, ut&#246;ver vad som f&#246;ljer av
+stadgandena h&#228;r ovan, angiva:
+
+den ort d&#228;r allm&#228;nningsstyrelsen skall hava sitt s&#228;te;
+
+huru styrelsen skall sammans&#228;ttas, den tid f&#246;r vilken styrelsen skall
+utses samt grunderna f&#246;r dess beslutf&#246;rhet och f&#246;r omr&#246;stning;
+
+antalet revisorer samt f&#246;r vilken tid dessa skola utses;
+
+tiden f&#246;r r&#228;kenskapsavslutning;
+
+platsen f&#246;r h&#229;llande av ordinarie allm&#228;nningsst&#228;mma;
+
+det s&#228;tt varp&#229; kallelse till allm&#228;nningsst&#228;mma skall ske och den tid
+f&#246;re st&#228;mma, d&#229; f&#246;reskrivna kallelse&#229;tg&#228;rder senast skola vara vidtagna;
+samt
+
+i vilka fall &#229; allm&#228;nningsst&#228;mma m&#229; f&#246;retagas &#228;rende som ej angivits i
+kallelsen.
+
+Skall enligt reglementet del&#228;garnas beslutander&#228;tt &#229; allm&#228;nningsst&#228;mma
+ut&#246;vas genom distriktsombud, skall reglementet tillika inneh&#229;lla
+f&#246;reskrifter om den ordning, i vilken dessa skola utses.
+
+40 &#167; Del&#228;garna skall uppr&#228;tta f&#246;rslag till reglemente. F&#246;rslaget skall
+underst&#228;llas l&#228;nsstyrelsen f&#246;r pr&#246;vning och fastst&#228;llelse. L&#228;nsstyrelsen
+skall pr&#246;va om f&#246;rslaget &#228;r lagenligt och l&#228;mpligt. L&#228;nsstyrelsen f&#229;r
+g&#246;ra de &#228;ndringar i f&#246;rslaget som beh&#246;vs. Lag (1990:90).
+
+41 &#167; L&#228;nsstyrelsen f&#229;r medge att ett fastst&#228;llt reglemente &#228;ndras.
+Framst&#228;llning om &#228;ndring av reglementet f&#229;r g&#246;ras av del&#228;garna eller den
+minoritet av dem, som best&#228;mts i reglementet. Har framst&#228;llningen gjorts
+av en minoritet skall del&#228;garna f&#229; tillf&#228;lle att yttra sig innan &#228;rendet
+avg&#246;rs. Lag (1990:90).
+
+Om talan mot allm&#228;nningsstyrelse och revisorer
+
+42 &#167; Varder talan &#229; allm&#228;nningsstyrelses f&#246;rvaltning under den tid
+f&#246;rvaltningsber&#228;ttelse omfattar ej anst&#228;lld inom sex m&#229;nader fr&#229;n det
+ber&#228;ttelsen framlades &#229; allm&#228;nningsst&#228;mma, vare s&#229; ansett som om
+ansvarsfrihet blivit styrelsen beviljad.
+
+Utan hinder d&#228;rav, att ansvarsfrihet beviljats, m&#229; s&#229;dan talan &#229;
+f&#246;rvaltningen, som grundas d&#228;rp&#229; att styrelseledamot beg&#229;tt brottslig
+handling, kunna anst&#228;llas mot honom, d&#228;r ej ansvarsfriheten
+uppenbarligen avsett &#228;ven den handlingen.
+
+43 &#167; Talan mot revisor enligt 30 &#167; m&#229; ej anst&#228;llas sedan tv&#229; &#229;r
+f&#246;rflutit fr&#229;n det revisorernas ber&#228;ttelse framlades &#229;
+allm&#228;nningsst&#228;mma, utan s&#229; &#228;r att talan grundas d&#228;rp&#229;, att brottslig
+handling blivit beg&#229;ngen.
+
+Om laga domstol
+
+44 &#167; Del&#228;garna i h&#228;radsallm&#228;nning skola i de m&#229;l, f&#246;r vilka ej
+annorlunda genom lag stadgas, lyda under allm&#228;n underr&#228;tt i den ort d&#228;r
+allm&#228;nningsstyrelsen har sitt s&#228;te.
+
+Om vissa till socknar h&#246;rande allm&#228;nningar
+
+45 &#167; Har h&#228;radsallm&#228;nning enligt regeringens medgivande delats mellan
+socknarna inom h&#228;radet under villkor att varje socken tilldelad
+allm&#228;nningslott ej finge skiftas mellan hemmanen i socknen, skall vad i
+denna lag &#228;r stadgat om h&#228;radsallm&#228;nning i till&#228;mpliga delar g&#228;lla om
+s&#229;dan till socken h&#246;rande allm&#228;nning.
+
+F&#246;r varje dylik allm&#228;nning skall i den ordning som i 40 &#167; s&#228;gs uppg&#246;ras
+och fastst&#228;llas reglemente med best&#228;mmelser r&#246;rande allm&#228;nningens
+f&#246;rvaltning. Lag (1975:678).
+
+46 &#167; har upph&#228;vts genom lag (1975:678).
+
+Om &#246;verklagande
+
+47 &#167; 1 mom. Menar del&#228;gare att beslut som fattats &#229; del&#228;gar- eller
+allm&#228;nningsst&#228;mma icke tillkommit i beh&#246;rig ordning eller eljest strider
+mot lag eller f&#246;rfattning eller mot reglementet, m&#229; han hos
+l&#228;nsstyrelsen f&#246;ra talan mot beslutet genom besv&#228;r, vilka j&#228;mte beslutet
+skola hava inkommit inom en m&#229;nad efter beslutets dag. F&#246;rsummas det,
+vare r&#228;tt till talan f&#246;rlorad. &#196;nd&#229; att talan f&#246;res mot beslutet, skall
+det g&#229; i verkst&#228;llighet, d&#228;r ej l&#228;nsstyrelsen annorlunda f&#246;rordnar.
+
+Utslag varigenom del&#228;gar- eller allm&#228;nningsst&#228;mmas beslut upph&#228;vts eller
+&#228;ndrats g&#228;lle j&#228;mv&#228;l f&#246;r de del&#228;gare som ej klagat.
+
+47 &#167; 2 mom. En f&#246;rvaltningsmyndighets beslut enligt denna lag eller
+enligt f&#246;reskrifter som meddelats med st&#246;d av lagen f&#229;r &#246;verklagas
+hos allm&#228;n f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (1995:13).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1952:166
+
+Denna lag tr&#228;der i kraft den 1 januari 1954; dock m&#229; redan dessf&#246;rinnan
+f&#246;rslag till reglemente i enlighet med lagens best&#228;mmelser uppg&#246;ras och
+fastst&#228;llas.
+
+Genom denna lag upph&#228;ves lagen den 13 maj 1932 (nr 107) om
+h&#228;radsallm&#228;nningar. N&#228;mnda lag skall likv&#228;l fortfarande &#228;ga till&#228;mpning
+i fr&#229;ga om brott mot lagen som beg&#229;tts f&#246;re den 1 januari 1954.
+
+&#196;ger enligt avtal, som tr&#228;ffats f&#246;re den 1 januari 1934, arrendator av
+kronan tillh&#246;rig jordbruksdom&#228;n eller ecklesiastikt l&#246;nebost&#228;lle r&#228;tt
+att tillgodonjuta till dom&#228;nen eller bost&#228;llet h&#246;rande andel i
+h&#228;radsallm&#228;nning, vare arrendatorn ber&#228;ttigad att under den tid avtalet
+g&#228;ller ut&#246;va jord&#228;garen tillkommande r&#246;str&#228;tt i fr&#229;gor r&#246;rande
+allm&#228;nningen.
+
+D&#228;r i lag eller s&#228;rskild f&#246;rfattning f&#246;rekommer h&#228;nvisning till lagrum
+som ersatts genom best&#228;mmelse i nya lagen, skall den best&#228;mmelsen i
+st&#228;llet till&#228;mpas.
+
+1990:90
+
+Denna lag tr&#228;der i kraft den 1 juli 1990.
+
+I fr&#229;ga om &#246;verklagande av beslut som har meddelats f&#246;re ikrafttr&#228;dandet
+g&#228;ller &#228;ldre f&#246;reskrifter.
+
+Fr&#229;gor, som enligt best&#228;mmelser i reglementen skall pr&#246;vas av
+regeringen, skall i st&#228;llet pr&#246;vas av l&#228;nsstyrelsen.
+
+1995:13
+
+Denna lag tr&#228;der i kraft den 1 april 1995. Beslut som har meddelats
+f&#246;re ikrafttr&#228;dandet &#246;verklagas enligt &#228;ldre best&#228;mmelser.
+
+2000:230
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2000.
+
+2. Best&#228;mmelserna i 14 och 15 &#167;&#167; skall dock fortfarande
+till&#228;mpas i fr&#229;ga om mark som inf&#246;rlivats med h&#228;radsallm&#228;nning,
+eller s&#229;dan sockenallm&#228;nning som avses i 45 &#167;, genom
+f&#246;rordnande som har meddelats f&#246;re lagens ikrafttr&#228;dande.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4448">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4450">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

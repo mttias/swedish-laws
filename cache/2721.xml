@@ -1,0 +1,811 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-17" /> 
+ <meta id="rattsinfo-edited" content="2023-01-17 13:55:54" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2721</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2720">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2722">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2000:150 ·
+                    <a href="/sfsr?bet=2000:150">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2000:150) om marktj&#228;nster p&#229; flygplatser</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSIB TM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2000-04-06
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:449
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2000-05-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om tilltr&#228;de till 
+marknaden f&#246;r marktj&#228;nster p&#229; flygplatser som st&#229;r &#246;ppna f&#246;r 
+kommersiell trafik.
+
+Vid till&#228;mpningen av denna lag ska, med undantag f&#246;r &#228;renden 
+som ska pr&#246;vas med st&#246;d av 23 &#167;, beslut fattas, villkor 
+uppst&#228;llas och ers&#228;ttningar best&#228;mmas utifr&#229;n sk&#228;l som &#228;r 
+relevanta, objektiva, genomblickbara och icke-diskriminerande.
+Lag (2019:449).
+
+Definitioner
+
+2 &#167; I denna lag avses med
+
+flygplats: varje markomr&#229;de som &#228;r s&#228;rskilt inr&#228;ttat f&#246;r
+landning, start och man&#246;vrar av luftfartyg, samt de n&#228;rliggande
+byggnader och anl&#228;ggningar som kan beh&#246;vas f&#246;r luftfartygens
+markr&#246;relser och f&#246;r service till luftfartygen och byggnader
+som beh&#246;vs f&#246;r de kommersiella luftfartstj&#228;nsterna,
+
+flygplatssystem: tv&#229; eller flera flygplatser som f&#246;rts samman
+eftersom de betj&#228;nar samma ort eller orter, enligt vad som
+framg&#229;r av bilaga II i r&#229;dets f&#246;rordning (EEG) nr 2408/92 av
+den 23 juli 1992 om EG-lufttrafikf&#246;retags tilltr&#228;de till
+flyglinjer inom gemenskapen3, &#228;ndrad genom anslutningsakten f&#246;r
+&#214;sterrike, Finland och Sverige,
+
+ledningsenhet: den som tillsammans med eller sj&#228;lvst&#228;ndigt fr&#229;n
+annan verksamhet och i kraft av lagar och andra f&#246;rfattningar
+har i uppdrag att administrera flygplatsens infrastrukturer och
+samordna och kontrollera den verksamhet som akt&#246;rer som
+befinner sig p&#229; ber&#246;rd flygplats eller ber&#246;rt flygplatssystem
+bedriver,
+
+anv&#228;ndare av en flygplats: varje fysisk eller juridisk person
+som med flyg transporterar passagerare, post eller gods, fr&#229;n
+eller till den ber&#246;rda flygplatsen,
+
+marktj&#228;nst: en tj&#228;nst som utf&#246;rs p&#229; en flygplats &#229;t en
+anv&#228;ndare av en flygplats och finns upptagen i bilagan till
+denna lag,
+
+egenhantering: en situation d&#228;r en anv&#228;ndare av en flygplats
+skaffar sig en eller flera typer av marktj&#228;nster utan att ing&#229;
+n&#229;got som helst kontrakt om detta med tredje man. Anv&#228;ndare
+anses dock inte som tredje man, i f&#246;rh&#229;llande till varandra, om
+den ena innehar majoritet i den andra, eller samma enhet
+innehar majoriteten i var och en av dem,
+
+leverant&#246;r av marktj&#228;nster: varje fysisk eller juridisk person
+som tillhandah&#229;ller tredje man en eller flera typer av
+marktj&#228;nster.
+
+3 &#167; N&#228;r ledningen och driften av en flygplats eller av ett
+flygplatssystem sk&#246;ts av flera olika enheter skall var och en
+av dessa anses utg&#246;ra en del av ledningsenheten n&#228;r det g&#228;ller
+till&#228;mpningen av best&#228;mmelserna i denna lag.
+
+Om endast en ledningsenhet har uppr&#228;ttats f&#246;r flera flygplatser
+eller flygplatssystem, skall var och en av dessa flygplatser
+eller flygplatssystem betraktas var f&#246;r sig n&#228;r det g&#228;ller
+till&#228;mpningen av denna lag.
+
+4 &#167; Har upph&#228;vts genom lag (2004:1095).
+
+Anv&#228;ndarkommitt&#233;er
+
+5 &#167; Ledningsenheten skall se till att det uppr&#228;ttas en
+anv&#228;ndarkommitt&#233; p&#229; flygplatsen.
+
+Kommitt&#233;n skall best&#229; av f&#246;retr&#228;dare f&#246;r anv&#228;ndarna av
+flygplatsen. Alla anv&#228;ndare av en flygplats skall ha r&#228;tt att
+ing&#229; i denna kommitt&#233; eller l&#229;ta sig f&#246;retr&#228;das av en
+organisation som han eller hon anf&#246;rtror detta uppdrag.
+
+Begr&#228;nsningar i vissa best&#228;mmelsers till&#228;mpningsomr&#229;de
+
+6 &#167; Best&#228;mmelserna i denna lag om marktj&#228;nster till tredje man
+skall tilll&#228;mpas p&#229; flygplatser med en &#229;rstrafik som &#228;r st&#246;rre
+&#228;n eller lika med tv&#229; miljoner passagerarr&#246;relser eller 50 000
+ton gods.
+
+Best&#228;mmelserna i denna lag om egenhantering av s&#229;dana tj&#228;nster
+som r&#228;knas upp i 12 &#167; till&#228;mpas p&#229; flygplatser med en &#229;rstrafik
+som &#228;r st&#246;rre &#228;n eller lika med en miljon passagerarr&#246;relser
+eller 25 000 ton gods. Best&#228;mmelserna i denna lag om
+egenhantering av andra tj&#228;nster skall till&#228;mpas p&#229; alla
+flygplatser som st&#229;r &#246;ppna f&#246;r kommersiell lufttrafik.
+
+Om &#229;rstrafiken p&#229; en flygplats uppg&#229;r till det tr&#246;skelv&#228;rde f&#246;r
+gods som anges i f&#246;rsta eller andra stycket utan att samtidigt
+n&#229; motsvarande tr&#246;skelv&#228;rde f&#246;r passagerare skall
+best&#228;mmelserna som anges i denna paragraf inte till&#228;mpas p&#229; de
+slag av marktj&#228;nster som endast avser passagerare.
+
+Tilltr&#228;de till marknaden f&#246;r marktj&#228;nster
+
+7 &#167; Tilltr&#228;det till marknaden f&#246;r marktj&#228;nster ska vara fritt. 
+Trots detta f&#229;r tilltr&#228;det begr&#228;nsas enligt 8, 9, 12 och 
+13 &#167;&#167;, dock endast i den utstr&#228;ckning som s&#228;kerheten, 
+luftfartsskyddet, kapaciteten eller utrymmet p&#229; flygplatsen 
+kr&#228;ver det. Lag (2019:449).
+
+Begr&#228;nsning av marknaden f&#246;r marktj&#228;nster till tredje man
+
+8 &#167; P&#229; ans&#246;kan av en ledningsenhet f&#229;r Transportstyrelsen
+begr&#228;nsa antalet leverant&#246;rer av marktj&#228;nster som till&#229;ts
+tillhandah&#229;lla
+
+- bagagehantering,
+
+- ramptj&#228;nster,
+
+- p&#229;fyllning av br&#228;nsle och olja,
+
+- gods- och posthantering s&#229;v&#228;l vid ankomst och avg&#229;ng som i
+transit, n&#228;r det g&#228;ller den fysiska hanteringen av gods och
+post mellan terminalanl&#228;ggningen och luftfartyget.
+
+Antalet leverant&#246;rer f&#229;r dock inte begr&#228;nsas till f&#228;rre &#228;n tv&#229;
+f&#246;r varje typ av tj&#228;nst. Minst en av dessa leverant&#246;rer f&#229;r
+inte st&#229; under direkt eller indirekt kontroll vare sig av
+flygplatsens ledningsenhet, av en anv&#228;ndare som har
+transporterat mer &#228;n 25 procent av passagerarna eller av det
+registrerade godset p&#229; flygplatsen under det &#229;r som f&#246;reg&#229;r det
+&#229;r d&#229; urvalet av tj&#228;nsteleverant&#246;rer sker, eller av n&#229;gon som
+kontrollerar eller direkt eller indirekt kontrolleras av denna
+ledningsenhet eller av s&#229;dan anv&#228;ndare. Lag (2008:1374).
+
+9 &#167; Om s&#228;rskilda utrymmes- eller kapacitetsbegr&#228;nsningar medf&#246;r
+att det &#228;r om&#246;jligt att &#246;ppna marknaden i enlighet med vad som
+i &#246;vrigt f&#246;reskrivs i denna lag, f&#229;r Transportstyrelsen p&#229;
+ans&#246;kan av en ledningsenhet
+
+- f&#246;r en tid av h&#246;gst tre &#229;r begr&#228;nsa antalet leverant&#246;rer som
+till&#229;ts tillhandah&#229;lla andra tj&#228;nster &#228;n som avses i 8 &#167; f&#246;rsta
+stycket p&#229; hela eller delar av flygplatsen, varvid 8 &#167; andra
+stycket skall till&#228;mpas, eller
+
+- f&#246;r en tid av h&#246;gst tv&#229; &#229;r reservera en eller flera typer av
+tj&#228;nster som anges i 8 &#167; f&#246;rsta stycket f&#246;r en enda leverant&#246;r
+av marktj&#228;nster.
+
+I beslut enligt f&#246;rsta stycket skall det anges vilka tj&#228;nster
+som avses med beslutet, de specifika utrymmes- eller
+kapacitetsbegr&#228;nsningar som utg&#246;r sk&#228;len f&#246;r beslutet samt de
+&#229;tg&#228;rder som skall vidtas f&#246;r att komma till r&#228;tta med
+begr&#228;nsningarna. Lag (2008:1374).
+
+Val av leverant&#246;rer av marktj&#228;nster till tredje man
+
+10 &#167; Om antalet tj&#228;nsteleverant&#246;rer &#228;r begr&#228;nsat enligt 8 eller
+9 &#167; skall leverant&#246;rerna v&#228;ljas efter en anbudsinfordran.
+
+Beslut om urval av leverant&#246;rer av marktj&#228;nster fattas av
+ledningsenheten efter samr&#229;d med anv&#228;ndarkommitt&#233;n om
+ledningsenheten inte tillhandah&#229;ller liknande marktj&#228;nster,
+inte direkt eller indirekt kontrollerar n&#229;got f&#246;retag som
+tillhandah&#229;ller s&#229;dana tj&#228;nster, och inte p&#229; annat s&#228;tt har
+anknytning till ett s&#229;dant f&#246;retag. I andra fall beslutar
+Transportstyrelsen efter samr&#229;d med anv&#228;ndarkommitt&#233;n och
+ledningsenheten om urval av leverant&#246;rer.
+
+Den som f&#229;r fatta beslut om urval av leverant&#246;rer av
+marktj&#228;nster skall uppr&#228;tta en anbudsinfordran och se till att
+denna offentligg&#246;rs i Europeiska gemenskapernas officiella
+tidning.
+
+Beslut om urval f&#229;r fattas f&#246;r en tid av h&#246;gst sju &#229;r.
+
+Ledningsenheten skall informera anv&#228;ndarkommitt&#233;n om de beslut
+som fattas enligt denna paragraf. Lag (2008:1374).
+
+11 &#167; Om antalet leverant&#246;rer av tj&#228;nster &#228;r begr&#228;nsat enligt 8
+eller 9 &#167; f&#229;r ledningsenheten sj&#228;lv tillhandah&#229;lla marktj&#228;nster
+utan att vara underkastat det urvalsf&#246;rfarande som f&#246;reskrivs i
+10 &#167;. Ledningsenheten f&#229;r ocks&#229; utan urvalsf&#246;rfarande ge ett
+f&#246;retag tillst&#229;nd att tillhandah&#229;lla marktj&#228;nster p&#229;
+flygplatsen om enheten direkt eller indirekt kontrollerar
+f&#246;retaget eller om f&#246;retaget direkt eller indirekt kontrollerar
+enheten.
+
+Ledningsenheten skall informera anv&#228;ndarkommitt&#233;n om de beslut
+som fattas enligt denna paragraf.
+
+Begr&#228;nsning av marknaden f&#246;r egenhantering
+
+12 &#167; Transportstyrelsen f&#229;r p&#229; ans&#246;kan av en ledningsenhet
+begr&#228;nsa r&#228;tten till egenhantering f&#246;r minst tv&#229; anv&#228;ndare i
+fr&#229;ga om
+
+- bagagehantering,
+
+- ramptj&#228;nster,
+
+- p&#229;fyllning av br&#228;nsle eller olja, samt
+
+- gods- och posthantering s&#229;v&#228;l vid ankomst och avg&#229;ng som i
+transit, n&#228;r det g&#228;ller den fysiska hanteringen av gods och
+post mellan terminalanl&#228;ggningen och luftfartyget.
+Lag (2008:1374).
+
+13 &#167; Om s&#228;rskilda utrymmes- eller kapacitetsbegr&#228;nsningar
+medf&#246;r att det &#228;r om&#246;jligt att &#246;ppna marknaden i enlighet med
+vad som f&#246;reskrivs i denna lag, f&#229;r Transportstyrelsen p&#229; ans&#246;kan
+av en ledningsenhet f&#246;r en tid av h&#246;gst tre &#229;r begr&#228;nsa antalet
+anv&#228;ndare som f&#229;r ut&#246;va egenhantering f&#246;r andra typer av
+tj&#228;nster &#228;n som anges i 12 &#167;, eller f&#246;r en tid av h&#246;gst tre &#229;r
+f&#246;rbjuda egenhantering eller begr&#228;nsa den till en enda
+anv&#228;ndare f&#246;r de typer av tj&#228;nster som anges i 12 &#167;.
+
+I beslutet skall det anges vilka tj&#228;nster som avses med
+beslutet, de specifika utrymmes- eller kapacitetsbegr&#228;nsningar
+som utg&#246;r sk&#228;len f&#246;r beslutet samt de &#229;tg&#228;rder som skall vidtas
+f&#246;r att komma till r&#228;tta med begr&#228;nsningarna. Lag (2008:1374).
+
+Urval av anv&#228;ndare som f&#229;r ut&#246;va egenhantering
+
+14 &#167; Om antalet anv&#228;ndare som f&#229;r ut&#246;va egenhantering p&#229; en
+flygplats &#228;r begr&#228;nsat enligt 12 eller 13 &#167; fattar
+Transportstyrelsen beslut om urval av anv&#228;ndare.
+Lag (2008:1374).
+
+Kontraktsvillkor och tekniska specifikationer
+
+15 &#167; N&#228;r ledningsenheten avser att uppst&#228;lla kontraktsvillkor 
+eller tekniska specifikationer som m&#229;ste uppfyllas av 
+leverant&#246;rer av marktj&#228;nster eller av dem som &#246;nskar ut&#246;va 
+egenhantering, ska dessa villkor eller specifikationer 
+fastst&#228;llas i s&#228;rskilda beslut. Om villkoren eller specifika-
+tionerna avser leverant&#246;rer av marktj&#228;nster ska de fastst&#228;llas 
+efter samr&#229;d med anv&#228;ndarkommitt&#233;n p&#229; flygplatsen.
+Lag (2019:449).
+
+&#214;vriga tillst&#229;nd
+
+16 &#167; Ett beslut att n&#229;gon f&#229;r utf&#246;ra marktj&#228;nster till tredje
+man eller som egenhantering befriar inte denne fr&#229;n
+skyldigheten att inneha s&#229;dana tillst&#229;nd som f&#246;reskrivs med
+st&#246;d av annan lagstiftning.
+
+F&#246;rbud att utf&#246;ra marktj&#228;nster
+
+17 &#167; Om en leverant&#246;r av marktj&#228;nster eller en anv&#228;ndare som 
+utf&#246;r marktj&#228;nster saknar n&#246;dv&#228;ndiga tillst&#229;nd eller p&#229; ett 
+s&#228;tt som inte &#228;r ringa &#229;sidos&#228;tter regler i denna lag eller 
+andra best&#228;mmelser som syftar till att en flygplats ska 
+fungera tillfredsst&#228;llande, f&#229;r Transportstyrelsen besluta att 
+f&#246;rbjuda leverant&#246;ren eller anv&#228;ndaren att forts&#228;tta utf&#246;ra 
+marktj&#228;nster. 
+
+Ledningsenheten vid ber&#246;rd flygplats f&#229;r hos 
+Transportstyrelsen ans&#246;ka om f&#246;rbud enligt f&#246;rsta stycket.
+Lag (2019:449).
+
+S&#228;rskilda best&#228;mmelser om bokf&#246;ring m.m.
+
+18 &#167; N&#228;r en ledningsenhet p&#229; en flygplats, en anv&#228;ndare eller
+en leverant&#246;r av marktj&#228;nster tillhandah&#229;ller marktj&#228;nster
+skall en strikt uppdelning i bokf&#246;ringen g&#246;ras mellan den
+verksamhet som &#228;r knuten till tillhandah&#229;llandet av dessa
+tj&#228;nster och &#246;vrig verksamhet.
+
+En flygplats f&#229;r inte subventionera sin marktj&#228;nstverksamhet
+med inkomster som h&#228;rr&#246;r fr&#229;n dess uppdrag som
+flygplatsmyndighet.
+
+19 &#167; En myndighet eller ett f&#246;retag p&#229; vilket 18 &#167; &#228;r
+till&#228;mplig skall &#229;rligen uppr&#228;tta en redog&#246;relse om hur man
+gjort den f&#246;reskrivna uppdelningen i bokf&#246;ringen. Myndigheten
+eller f&#246;retaget skall till Transportstyrelsen s&#228;nda in ett intyg
+fr&#229;n den som reviderar myndigheten eller f&#246;retaget. Av intyget
+skall det framg&#229; om best&#228;mmelserna i 18 &#167; har f&#246;ljts.
+Lag (2008:1374).
+
+Om anl&#228;ggningar f&#246;r marktj&#228;nster och om tilltr&#228;de till dessa
+
+20 &#167; Leverant&#246;rer av marktj&#228;nster och anv&#228;ndare som ut&#246;var 
+egenhantering ska ges tilltr&#228;de till anl&#228;ggningar i s&#229;dan 
+omfattning och p&#229; s&#229;dant s&#228;tt som &#228;r n&#246;dv&#228;ndigt f&#246;r att de ska 
+kunna tillhandah&#229;lla tj&#228;nster till tredje man eller ut&#246;va 
+egenhantering.
+
+Om det beh&#246;vs f&#246;r att b&#228;ttre och effektivare kunna utnyttja 
+tillg&#228;ngliga utrymmen och liknande, eller f&#246;r att kunna bereda 
+plats f&#246;r tillkommande leverant&#246;rer av marktj&#228;nster och 
+anv&#228;ndare som ut&#246;var egenhantering f&#229;r ledningsenheten efter 
+att ha h&#246;rt anv&#228;ndarkommitt&#233;n besluta om j&#228;mkningar eller 
+omf&#246;rdelningar av utrymmen och liknande mellan alla som utf&#246;r 
+eller st&#229;r i begrepp att b&#246;rja utf&#246;ra marktj&#228;nster p&#229; 
+flygplatsen. 
+
+Den som tillhandah&#229;ller en eller flera anl&#228;ggningar som 
+anv&#228;nds av leverant&#246;rer av marktj&#228;nster eller anv&#228;ndare som 
+ut&#246;var egenhantering f&#229;r ta ut ers&#228;ttning endast f&#246;r 
+utnyttjandet av anl&#228;ggningen. Lag (2019:449).
+
+21 &#167; Ledningsenheten f&#229;r besluta att leverant&#246;rer av
+marktj&#228;nster och anv&#228;ndare som ut&#246;var egenhantering skall
+anv&#228;nda sig av centraliserade anl&#228;ggningar f&#246;r bagagesortering,
+avisning, vattenrening, br&#228;nsledistribution och liknande, om
+anl&#228;ggningarna av tekniska, milj&#246;m&#228;ssiga eller
+l&#246;nsamhetsm&#228;ssiga sk&#228;l &#228;r sv&#229;ra att dela upp eller ut&#246;ka.
+
+Samr&#229;d
+
+22 &#167; Ledningsenheten skall minst en g&#229;ng om &#229;ret samr&#229;da med
+anv&#228;ndarkommitt&#233;n och de f&#246;retag som tillhandah&#229;ller
+marktj&#228;nster p&#229; flygplatsen om till&#228;mpningen av denna lag och
+f&#246;reskrifter som meddelats med st&#246;d av lagen.
+
+Bristande &#246;msesidighet i f&#246;rh&#229;llande till tredje land
+
+23 &#167; Regeringen f&#229;r besluta att best&#228;mmelserna i denna lag om
+r&#228;tt till marknadstilltr&#228;de helt eller delvis inte skall
+till&#228;mpas f&#246;r leverant&#246;rer av marktj&#228;nster och anv&#228;ndare fr&#229;n
+ett land som inte &#228;r medlem i Europeiska unionen om detta land
+
+- r&#228;ttsligt eller faktiskt inte behandlar leverant&#246;rer eller
+anv&#228;ndare som bedriver egenhantering p&#229; ett s&#228;tt som &#228;r
+j&#228;mf&#246;rbart med medlemsstaternas behandling av leverant&#246;rer
+eller anv&#228;ndare som bedriver egenhantering, eller
+
+- r&#228;ttsligt eller faktiskt inte behandlar leverant&#246;rer av
+marktj&#228;nster eller anv&#228;ndare som bedriver egenhantering fr&#229;n en
+medlemsstat enligt landets best&#228;mmelser, eller
+
+- behandlar leverant&#246;rer eller anv&#228;ndare som bedriver
+egenhantering och som kommer fr&#229;n ett land som inte &#228;r medlem i
+Europeiska unionen mer f&#246;rm&#229;nligt &#228;n leverant&#246;rer av
+marktj&#228;nster eller anv&#228;ndare som bedriver egenhantering och som
+kommer fr&#229;n en medlemsstat.
+
+Vid till&#228;mpningen av detta lagrum avses med uttrycken
+&quot;Europeiska unionen&quot; och &quot;medlemsstat&quot; f&#246;rutom Europeiska
+unionen och dess medlemsstater &#228;ven annan stat som omfattas av
+best&#228;mmelserna i r&#229;dets direktiv 96/67/EG av den 15 oktober
+1996 om tilltr&#228;de till marknaden f&#246;r marktj&#228;nster p&#229;
+flygplatserna inom gemenskapen genom avtal som &#228;r bindande f&#246;r
+Sverige.
+
+Europeiska gemenskapernas kommission skall underr&#228;ttas om varje
+beslut enligt f&#246;rsta stycket.
+
+Tillsyn
+
+24 &#167; Transportstyrelsen ut&#246;var tillsyn &#246;ver att denna lag och 
+f&#246;reskrifter som har meddelats i anslutning till lagen f&#246;ljs. 
+
+Om det beh&#246;vs f&#246;r tillsynen, har Transportstyrelsen r&#228;tt att 
+p&#229; beg&#228;ran 
+
+1. f&#229; s&#229;dana upplysningar och ta del av s&#229;dana handlingar som 
+tillsynen g&#228;ller, och 
+
+2. f&#229; tilltr&#228;de till flygplatsen samt de lokaler och 
+anl&#228;ggningar som tillsynen g&#228;ller. Lag (2019:449).
+
+25 &#167; Transportstyrelsen f&#229;r besluta de f&#246;rel&#228;gganden som 
+beh&#246;vs f&#246;r att denna lag och f&#246;reskrifter som har meddelats i 
+anslutning till lagen f&#246;ljs. 
+
+Ett beslut om f&#246;rel&#228;ggande f&#229;r f&#246;renas med vite.
+Lag (2019:449).
+
+Bemyndiganden
+
+26 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela ytterligare f&#246;reskrifter om 
+
+1. flygplatsens anv&#228;ndarkommitt&#233;, 
+
+2. de beslut, villkor och ers&#228;ttningar samt sk&#228;len f&#246;r dessa 
+enligt vad som anges i 1 &#167; tredje stycket, 
+
+3. begr&#228;nsningar av marknaden samt urval av leverant&#246;rer av 
+marktj&#228;nster till tredje man och anv&#228;ndare som ut&#246;var 
+egenhantering, 
+
+4. f&#246;rbud enligt 17 &#167;, 
+
+5. bokf&#246;ring enligt 18 och 19 &#167;&#167;, 
+
+6. tilltr&#228;de till anl&#228;ggningar och ers&#228;ttningar f&#246;r 
+utnyttjande av anl&#228;ggningar, 
+
+7. j&#228;mkningar och omf&#246;rdelningar av utrymmen och liknande, 
+
+8. centraliserade anl&#228;ggningar, 
+
+9. samr&#229;d med anv&#228;ndarkommitt&#233;n enligt 10 och 15 &#167;&#167;, och 
+
+10. tillsyn.
+Lag (2019:449).
+
+27 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om avgifter f&#246;r Transportstyrelsens 
+tillsyn och &#228;rendehandl&#228;ggning enligt denna lag och enligt 
+f&#246;reskrifter som har meddelats med st&#246;d av lagen.
+Lag (2019:449).
+
+&#214;verklagande
+
+28 &#167; Transportstyrelsens eller ledningsenhetens beslut enligt 
+8-15 och 17 &#167;&#167;, 20 &#167; f&#246;rsta och andra stycket och 21 och 25 &#167;&#167; 
+f&#229;r &#246;verklagas hos allm&#228;n f&#246;rvaltningsdomstol. 
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2019:449).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2004:1095
+
+Denna lag tr&#228;der i kraft den 1 januari 2005. Vid till&#228;mpning av
+7 a &#167; f&#246;rvaltningsprocesslagen (1971:291) skall
+Luftfartsstyrelsen vara den enskildes motpart.
+
+2008:1374
+
+Denna lag tr&#228;der i kraft den 1 januari 2009. Vid till&#228;mpning av
+7 a &#167; f&#246;rvaltningsprocesslagen (1971:291) ska
+Transportstyrelsen vara den enskildes motpart.
+
+
+Bilaga
+
+F&#214;RTECKNING &#214;VER MARKTJ&#196;NSTER SOM DET H&#196;NVISAS TILL I 2 &#167;
+
+1. Administrativa marktj&#228;nster och &#246;vervakning omfattar
+
+1.1 tj&#228;nster i samband med st&#228;llf&#246;retr&#228;darskap och samverkan
+med de lokala myndigheterna eller med varje annan person,
+utl&#228;gg gjorda f&#246;r anv&#228;ndarens r&#228;kning och tillhandah&#229;llande av
+lokaler &#229;t dennes f&#246;retr&#228;dare,
+
+1.2 kontroll av lastning, meddelanden och telekommunikationer,
+
+1.3 behandling, f&#246;rvaring, hantering och administration av
+lastenheterna,
+
+1.4 varje annan &#246;vervakningstj&#228;nst f&#246;re, under eller efter
+flygning, och varje annan administrativ tj&#228;nst som beg&#228;rs av
+anv&#228;ndaren.
+
+2. Passagerartj&#228;nster omfattar varje form av tj&#228;nst till
+passagerarna vid avf&#228;rd, ankomst, transitering, i anslutning
+till eller utanf&#246;r flygplatsen, inbegripet kontroll av
+biljetter, resehandlingar, incheckning av bagage och transport
+av bagage &#228;nda fram till sorteringssystemen.
+
+3. Bagagehantering omfattar behandling av bagage i
+sorteringshallen, sortering av bagage, f&#246;rberedelse av bagage
+inf&#246;r avf&#228;rden, lastning och avlastning av bagage i de system
+som &#228;r avsedda att f&#246;ra bagaget fr&#229;n flygplanet till
+sorteringshallen och omv&#228;nt.
+
+4. Fraktgods och posthantering omfattar
+
+4.1 f&#246;r fraktgods, b&#229;de vid export och import eller
+transitering, den fysiska hantering av fraktgodset, den
+handl&#228;ggning av tillh&#246;rande dokument, de tullformaliteter och
+andra skydds&#229;tg&#228;rder som &#246;verenskommits mellan parterna eller
+som omst&#228;ndigheterna kr&#228;ver,
+
+4.2 f&#246;r posten, b&#229;de vid ankomst och avf&#228;rd, den fysiska
+hantering av posten, den hantering av tillh&#246;rande dokument och
+andra skydds&#229;tg&#228;rder som &#246;verenskommits mellan parterna eller
+som omst&#228;ndigheterna kr&#228;ver.
+
+5. Ramptj&#228;nster omfattar
+
+5.1 lotsning av flygplanet vid ankomst och avg&#229;ng, om dessa
+tj&#228;nster inte utf&#246;rs av flygtrafiktj&#228;nsten,
+
+5.2 tj&#228;nster i samband med parkering av flygplanet och
+tillhandah&#229;llande av l&#228;mpliga hj&#228;lpmedel, om dessa tj&#228;nster
+inte utf&#246;rs av flygtrafiktj&#228;nsten,
+
+5.3 uppr&#228;ttande av kommunikationer mellan marken och
+f&#246;rarkabinen, om dessa tj&#228;nster inte utf&#246;rs av
+flygtrafiktj&#228;nsten,
+
+5.4 lastning och avlastning av flygplanet och tillhandah&#229;llande
+av n&#246;dv&#228;ndiga hj&#228;lpmedel samt transport av bes&#228;ttning och
+passagerare mellan flygplanet och flygterminalen,
+
+5.5 tj&#228;nster i samband med start av flygplanet och
+tillhandah&#229;llande av n&#246;dv&#228;ndiga hj&#228;lpmedel,
+
+5.6 f&#246;rflyttning av flygplanet, b&#229;de vid avg&#229;ng och ankomst,
+tillhandah&#229;llande och ins&#228;ttning av n&#246;dv&#228;ndiga hj&#228;lpmedel,
+
+5.7 transport av samt inlastning i och avlastning ur flygplanet
+av mat och dryck.
+
+6. Reng&#246;ring och sk&#246;tsel av flygplanet omfattar
+
+6.1 yttre och inre reng&#246;ring av flygplanet, sk&#246;tsel av
+toaletter och vattensystem,
+
+6.2 luftkonditionering och uppv&#228;rmning av kabinen, borttagning
+av sn&#246; och is fr&#229;n flygplanet, avisning av flygplanet,
+
+6.3 inredning av kabinen med kabinutrustningar, f&#246;rvaring av
+dessa utrustningar.
+
+7. Br&#228;nsle- och oljep&#229;fyllning omfattar
+
+7.1 organisering och verkst&#228;llande av tankning och t&#246;mning av
+br&#228;nsle, inbegripet lagring av br&#228;nslet, kontroll av levererad
+kvalitet och kvantitet,
+
+7.2 p&#229;fyllning av olja och andra v&#228;tskor.
+
+8. Normalt underh&#229;ll omfattar
+
+8.1 de sedvanliga operationer som utf&#246;rs f&#246;re flygningen,
+
+8.2 de s&#228;rskilda operationer som anv&#228;ndaren kr&#228;ver,
+
+8.3 tillhandah&#229;llande och administration av det material som
+kr&#228;vs f&#246;r underh&#229;ll och av reservdelar,
+
+8.4 tillhandah&#229;llande av parkeringsplats eller en hangar f&#246;r
+att utf&#246;ra underh&#229;llet.
+
+9. Flygoperationer och administration av bes&#228;ttningar omfattar
+
+9.1 f&#246;rberedelse av flygning vid avg&#229;ngsflygplatsen eller vid
+varje annan plats,
+
+9.2 tj&#228;nster under flygning, i f&#246;rekommande fall, &#228;ndring av
+resv&#228;gen under flygningen,
+
+9.3 tj&#228;nster efter flygningen,
+
+9.4 administration av bes&#228;ttningen.
+
+10. Transport p&#229; marken omfattar
+
+10.1 organisation och utf&#246;rande av transport av passagerare,
+bes&#228;ttning, bagage, gods och post mellan olika flygterminaler
+inom samma flygplats, dock med undantag av alla transporter
+mellan flygplan och andra platser,
+
+10.2 varje specialtransport som beg&#228;rs av anv&#228;ndaren.
+
+11. Catering omfattar
+
+11.1 samverkan med tj&#228;nsteleverant&#246;rer och med ledningsenheten,
+
+11.2 lagring av mat, drycker och de tillbeh&#246;r som kr&#228;vs f&#246;r
+beredningen,
+
+11.3 reng&#246;ring av tillbeh&#246;r,
+
+11.4 beredning och leverans av material och livsmedel.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2720">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2722">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

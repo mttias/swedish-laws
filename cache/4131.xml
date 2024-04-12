@@ -1,0 +1,858 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2022-05-03 10:55:36" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4131</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4130">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4132">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1974:610 ·
+                    <a href="/sfsr?bet=1974:610">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1974:610) om inrikes v&#228;gtransport</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1974-06-07
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:1137
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens till&#228;mpningsomr&#229;de m.m.
+
+1 &#167; Denna lag &#228;r till&#228;mplig p&#229; avtal om godsbefordran med fordon p&#229;
+v&#228;g mellan eller inom orter i Sverige, om avtalet avser befordran mot
+vederlag.
+
+Om avtal som &#228;r underkastat konventionen om fraktavtalet vid
+internationell godsbefordran p&#229; v&#228;g (CMR) g&#228;ller s&#228;rskilda best&#228;mmelser.
+
+2 &#167; Lagen ska inte till&#228;mpas p&#229; brevbefordran, 
+begravningstransporter eller befordran av flyttsaker.
+
+Lagen ska inte heller till&#228;mpas p&#229; s&#229;dan befordran p&#229; v&#228;g som 
+omfattas av j&#228;rnv&#228;gstrafiklagen (2018:181). Lag (2018:183).
+
+3 &#167; Med fordon f&#246;rst&#229;s i denna lag varje slag av fordon som anv&#228;ndes
+f&#246;r godsbefordran p&#229; v&#228;g.
+
+4 &#167; Fraktas fordonet med p&#229;lastat gods under del av befordringen med
+fartyg, j&#228;rnv&#228;g eller luftfartyg, &#228;r denna lag till&#228;mplig p&#229;
+befordringen i dess helhet, f&#246;rutsatt att godset under befordringen ej
+lossas fr&#229;n fordonet av annan anledning &#228;n att det varit om&#246;jligt att
+fullg&#246;ra avtalet p&#229; &#246;verenskommet s&#228;tt.
+
+Visas att f&#246;rlust, minskning, skada eller dr&#246;jsm&#229;l, som uppkommit under
+befordringen med det andra transportmedlet, icke beror av
+v&#228;gfraktf&#246;raren men h&#228;rr&#246;r av h&#228;ndelse som kunnat intr&#228;ffa endast under
+och p&#229; grund av befordringen med detta transportmedel, skall dock
+v&#228;gfraktf&#246;rarens ansvarighet best&#228;mmas enligt de lagregler som g&#228;ller
+f&#246;r befordran med det andra transportmedlet, om dessa regler ej kan
+&#229;sidos&#228;ttas genom avtal som inskr&#228;nker fraktf&#246;rarens ansvarighet. Saknas
+s&#229;dana lagregler, skall v&#228;gfraktf&#246;rarens ansvarighet best&#228;mmas enligt
+denna lag.
+
+5 &#167; Best&#228;mmelserna i denna lag f&#229;r ej &#229;sidos&#228;ttas genom avtal till
+nackdel f&#246;r avs&#228;ndare eller mottagare, om ej godsets eller befordringens
+ovanliga art eller andra s&#228;rskilda omst&#228;ndigheter g&#246;r det sk&#228;ligt.
+
+Personer f&#246;r vilka fraktf&#246;raren ansvarar
+
+6 &#167; F&#246;r vad n&#229;gon av fraktf&#246;rarens anst&#228;llda eller annan, som han
+anlitar f&#246;r befordringen, f&#246;retager eller underl&#229;ter i tj&#228;nsten eller
+f&#246;r uppdragets fullg&#246;rande &#228;r fraktf&#246;raren ansvarig som om handlingen
+eller underl&#229;tenheten varit hans egen.
+
+Bekr&#228;ftande och fullg&#246;rande av fraktavtal
+
+Fraktsedel
+
+7 &#167; Fraktsedel skall uppr&#228;ttas, om avs&#228;ndaren eller fraktf&#246;raren beg&#228;r
+det och anv&#228;ndandet av fraktsedel ej medf&#246;r beaktansv&#228;rd ol&#228;genhet f&#246;r
+motparten eller strider mot vedertaget bruk vid det slag av befordran
+som &#228;r i fr&#229;ga.
+
+Skall godset lastas p&#229; skilda fordon eller &#228;r fr&#229;ga om olika slag av
+gods eller skilda partier och skall befordringen ske med anv&#228;ndande av
+fraktsedel, kan s&#229;v&#228;l avs&#228;ndaren som fraktf&#246;raren fordra att s&#228;rskild
+fraktsedel uppr&#228;ttas f&#246;r varje fordonslast, godsslag eller parti.
+
+8 &#167; Fraktsedel uppr&#228;ttas i flera exemplar, om avs&#228;ndaren eller
+fraktf&#246;raren beg&#228;r det.
+
+Fraktsedel underskrives av fraktf&#246;raren. Underskriften kan vara tryckt
+eller ers&#228;ttas med st&#228;mpel.
+
+Fraktsedel skall &#246;verl&#228;mnas till avs&#228;ndaren i samband med att godset
+mottages till befordran.
+
+8 a &#167; En fraktsedel f&#229;r uppr&#228;ttas i elektronisk form, om 
+avs&#228;ndaren och fraktf&#246;raren &#228;r &#246;verens om detta. 
+
+En elektronisk fraktsedel ska undertecknas av fraktf&#246;raren med 
+en s&#229;dan avancerad elektronisk underskrift som avses i 
+artikel 3 i Europaparlamentets och r&#229;dets f&#246;rordning (EU) 
+nr 910/2014 av den 23 juli 2014 om elektronisk identifiering 
+och betrodda tj&#228;nster f&#246;r elektroniska transaktioner p&#229; den 
+inre marknaden och om upph&#228;vande av direktiv 1999/93/EG, i den 
+ursprungliga lydelsen. I st&#228;llet f&#246;r en avancerad elektronisk 
+underskrift f&#229;r en avancerad elektronisk st&#228;mpel enligt samma 
+artikel anv&#228;ndas. Lag (2019:1195).
+
+9 &#167; Fraktsedel skall inneh&#229;lla uppgift om
+
+a) avs&#228;ndarens namn och adress,
+
+b) fraktf&#246;rarens namn och adress,
+
+c) ort och dag f&#246;r fraktf&#246;rarens mottagande av godset till befordran
+samt best&#228;mmelseorten,
+
+d) mottagarens namn och adress,
+
+e) antalet kollin samt deras s&#228;rskilda m&#228;rken och nummer eller d&#228;remot
+svarande godsbeskrivning,
+
+f) i fr&#229;ga om gods av farlig beskaffenhet dess allm&#228;nt vedertagna
+ben&#228;mning och, n&#228;r s&#229; kr&#228;ves, de f&#246;rsiktighetsm&#229;tt som skall
+vidtagas.
+
+10 &#167; P&#229; beg&#228;ran av avs&#228;ndaren eller fraktf&#246;raren skall, ut&#246;ver vad som
+g&#228;ller enligt 9 &#167;, i fraktsedel intagas uppgift om
+
+a) ort och dag f&#246;r uppr&#228;ttandet,
+
+b) g&#228;ngse ben&#228;mning p&#229; godsets art och f&#246;rpackningss&#228;ttet,
+
+c) godsets bruttovikt eller annat uttryck f&#246;r dess m&#228;ngd,
+
+d) kostnader h&#228;nf&#246;rliga till befordringen, s&#229;som frakt, till&#228;ggs
+avgifter, tullavgifter och andra kostnader som uppkommer under tiden
+fr&#229;n avtalets ing&#229;ende till dess godset utl&#228;mnas,
+
+e) anvisningar som beh&#246;vs f&#246;r att tull- och andra offentliga
+f&#246;reskrifter skall kunna fullg&#246;ras,
+
+f) f&#246;rbud mot omlastning,
+
+g) kostnader som avs&#228;ndaren &#229;tager sig att betala,
+
+h) beloppet av efterkrav som skall uppb&#228;ras n&#228;r godset utl&#228;mnas,
+
+i) enligt 33 &#167; uppgivet v&#228;rde av godset samt belopp vilket motsvarar i
+36 &#167; angivet s&#228;rskilt intresse av riktigt utl&#228;mnande,
+
+j) avs&#228;ndarens anvisningar till fraktf&#246;raren om f&#246;rs&#228;kring av godset,
+
+k) avtalad tid inom vilken befordringen skall vara fullgjord,
+
+l) f&#246;rteckning &#246;ver handlingar som &#246;verl&#228;mnats till fraktf&#246;raren.
+
+I fraktsedeln f&#229;r intagas de ytterligare uppgifter som parterna anser
+p&#229;kallade.
+
+11 &#167; Avs&#228;ndaren svarar f&#246;r kostnad och skada som tillskyndas
+fraktf&#246;raren till f&#246;ljd av att uppgift som avs&#228;ndaren l&#228;mnar i frakt
+sedel eller f&#246;r att intagas i denna &#228;r oriktig eller ofullst&#228;ndig.
+
+Fraktf&#246;rarens unders&#246;kningsskyldighet
+
+12 &#167; Har uppgifter om antalet kollin samt deras m&#228;rken och nummer
+l&#228;mnats i fraktsedel, &#229;ligger det fraktf&#246;raren att n&#228;r han mottager
+godset till befordran unders&#246;ka riktigheten av dessa uppgifter. Kan
+han ej med sk&#228;liga medel g&#246;ra detta eller menar han att l&#228;mnad uppgift
+&#228;r oriktig, skall han anteckna f&#246;rbeh&#229;ll h&#228;rom p&#229; fraktsedeln med
+angivande av grunden f&#246;r f&#246;rbeh&#229;llet.
+
+Fraktf&#246;raren skall unders&#246;ka godsets och f&#246;rpackningens synliga
+tillst&#229;nd n&#228;r han mottager godset och, om han &#246;nskar g&#246;ra f&#246;rbeh&#229;ll
+h&#228;remot, ange f&#246;rbeh&#229;llet j&#228;mte grunden f&#246;r detta i fraktsedeln. Sker
+befordran utan fraktsedel, skall fraktf&#246;raren i den utstr&#228;ckning
+omst&#228;ndigheterna ej f&#246;ranleder annat unders&#246;ka godsets och
+f&#246;rpackningens synliga tillst&#229;nd samt i samband med att godset
+mottages till befordran underr&#228;tta avs&#228;ndaren om de f&#246;rbeh&#229;ll han
+finner sig b&#246;ra g&#246;ra.
+
+Har avs&#228;ndaren uttryckligen godk&#228;nt f&#246;rbeh&#229;ll enligt f&#246;rsta eller
+andra stycket genom anteckning p&#229; fraktsedeln eller, n&#228;r fraktsedel ej
+uppr&#228;ttas, genom annan f&#246;rklaring, &#228;r f&#246;rbeh&#229;llet bindande f&#246;r honom.
+
+Avs&#228;ndaren kan fordra att fraktf&#246;raren unders&#246;ker godsets bruttovikt
+eller p&#229; annat s&#228;tt uttryckta m&#228;ngd samt vad kollina inneh&#229;ller.
+Fraktf&#246;raren har r&#228;tt till ers&#228;ttning f&#246;r kostnaden f&#246;r s&#229;dan under
+s&#246;kning. Om fraktsedel uppr&#228;ttas, skall resultatet av unders&#246;kningen
+antecknas p&#229; denna.
+
+Fraktsedels bevisverkan m.m.
+
+13 &#167; De i fraktsedeln angivna avtalsvillkoren skall antagas &#229;terge
+fraktavtalets inneh&#229;ll, om ej annat visas. Fraktsedeln skall g&#228;lla som
+bevis om fraktf&#246;rarens mottagande av godset, om det ej visas att
+fraktsedelns uppgifter h&#228;rom &#228;r oriktiga.
+
+Har fraktsedel uppr&#228;ttats och har fraktf&#246;raren icke antecknat f&#246;rbeh&#229;ll
+p&#229; fraktsedeln och angivit grunden f&#246;r f&#246;rbeh&#229;llet skall, om ej annat
+visas, godset och dess f&#246;rpackning antagas ha varit i gott synligt
+tillst&#229;nd, n&#228;r fraktf&#246;raren mottog godset till befordran, och antalet
+kollin j&#228;mte deras m&#228;rken och nummer antagas ha &#246;verensst&#228;mt med
+uppgifterna i fraktsedeln. &#196;r fraktf&#246;raren i fall som avses i 12 &#167; andra
+stycket andra punkten skyldig att unders&#246;ka godsets och f&#246;rpackningens
+tillst&#229;nd, skall, om fraktf&#246;raren ej enligt vad d&#228;r f&#246;reskrives gjort
+f&#246;rbeh&#229;ll, godset och f&#246;rpackningen antagas ha varit i gott synligt
+tillst&#229;nd i de avseenden unders&#246;kningsplikten omfattat, s&#229;vida ej annat
+visas.
+
+Bristf&#228;llig f&#246;rpackning
+
+14 &#167; &#196;r godset bristf&#228;lligt f&#246;rpackat och uppkommer till f&#246;ljd d&#228;rav
+skada p&#229; person, fordon, utrustning eller annat gods eller uppst&#229;r
+annan kostnad, svarar avs&#228;ndaren mot fraktf&#246;raren f&#246;r skadan eller
+kostnaden. Vad nu sagts g&#228;ller dock ej, om bristf&#228;lligheten var synlig
+eller k&#228;nd f&#246;r fraktf&#246;raren, n&#228;r han mottog godset till befordran, och
+han underl&#228;t att g&#246;ra f&#246;rbeh&#229;ll om bristf&#228;lligheten.
+
+Farligt gods
+
+15 &#167; &#214;verl&#228;mnar avs&#228;ndaren till fraktf&#246;raren gods av farlig
+beskaffenhet, skall han noga underr&#228;tta fraktf&#246;raren om vari faran
+best&#229;r och, n&#228;r s&#229; kr&#228;ves, om de f&#246;rsiktighetsm&#229;tt som skall vidtagas.
+Har s&#229;dan underr&#228;ttelse ej intagits i fraktsedel, ankommer det p&#229;
+avs&#228;ndaren eller mottagaren att p&#229; annat s&#228;tt visa att fraktf&#246;raren
+k&#228;nde till den s&#228;rskilda arten av den fara som var f&#246;rbunden med
+befordringen av godset.
+
+Gods av farlig beskaffenhet, om vars farlighet fraktf&#246;raren icke
+erh&#229;llit k&#228;nnedom enligt f&#246;rsta stycket, f&#229;r han, utan skyldighet att
+l&#228;mna ers&#228;ttning, lossa eller, om det ej sk&#228;ligen kan antagas att faran
+kan avv&#228;rjas genom mindre ingripande &#229;tg&#228;rd, f&#246;rst&#246;ra eller
+oskadligg&#246;ra. Avs&#228;ndaren &#228;r skyldig att ers&#228;tta fraktf&#246;raren kostnad och
+skada som uppkommer till f&#246;ljd av godsets avl&#228;mnande eller befordran.
+
+Handlingar som skall st&#228;llas till fraktf&#246;rarens f&#246;rfogande
+
+16 &#167; Avs&#228;ndaren skall st&#228;lla de handlingar till fraktf&#246;rarens
+f&#246;rfogande och l&#228;mna honom de upplysningar som beh&#246;vs till uppfyllande
+av tullbest&#228;mmelser och andra offentliga f&#246;reskrifter, som skall
+iakttagas innan godset utl&#228;mnas till mottagaren.
+
+Avs&#228;ndaren &#228;r ansvarig mot fraktf&#246;raren f&#246;r skada som uppkommit till
+f&#246;ljd av att s&#229;dan handling eller upplysning som avses i f&#246;rsta
+stycket saknas eller &#228;r ofullst&#228;ndig eller oriktig, dock ej om fel
+eller f&#246;rsummelse ligger fraktf&#246;raren till last. Fraktf&#246;raren &#228;r ej
+skyldig att unders&#246;ka om handlingarna och upplysningarna &#228;r riktiga
+eller fullst&#228;ndiga.
+
+G&#229;r handling som &#246;verl&#228;mnats till fraktf&#246;raren f&#246;rlorad eller anv&#228;ndes
+den oriktigt, svarar fraktf&#246;raren f&#246;r d&#228;rav uppkommande skada, om han
+ej f&#246;rm&#229;r visa, att f&#246;rlusten eller den oriktiga anv&#228;ndningen icke
+beror av fel eller f&#246;rsummelse fr&#229;n hans sida. Ers&#228;ttningen f&#229;r dock
+ej &#246;verstiga vad som skulle ha utg&#229;tt om godset g&#229;tt f&#246;rlorat.
+
+F&#246;rfogander&#228;tt &#246;ver godset under befordringen
+
+17 &#167; Under befordringen f&#229;r avs&#228;ndaren f&#246;rfoga &#246;ver godset genom att
+beg&#228;ra av fraktf&#246;raren att befordringen avbrytes, att best&#228;mmelseorten
+&#228;ndras eller att godset utl&#228;mnas till annan mottagare &#228;n den som
+tidigare angivits eller genom annan liknande anvisning.
+
+Avs&#228;ndarens r&#228;tt att f&#246;rfoga &#246;ver godset upph&#246;r, n&#228;r mottagaren g&#246;r
+g&#228;llande r&#228;tt som tillkommer honom enligt 20 &#167; f&#246;rsta stycket. Sedan
+avs&#228;ndarens f&#246;rfogander&#228;tt upph&#246;rt, skall fraktf&#246;raren r&#228;tta sig efter
+mottagarens anvisningar.
+
+18 &#167; L&#228;mnar avs&#228;ndaren med st&#246;d av sin r&#228;tt att f&#246;rfoga &#246;ver godset
+anvisning till fraktf&#246;raren, skall han ers&#228;tta denne f&#246;r kostnad och
+skada som uppkommer till f&#246;ljd av anvisningens utf&#246;rande.
+
+Fraktf&#246;raren &#228;r icke skyldig att efterkomma anvisning som ej kan
+utf&#246;ras, n&#228;r den n&#229;r den som skulle ha f&#246;ljt anvisningen, eller vars
+utf&#246;rande skulle medf&#246;ra hinder f&#246;r den normala ut&#246;vningen av
+fraktf&#246;rarens verksamhet eller skada f&#246;r avs&#228;ndare eller mottagare av
+annan s&#228;ndning. Fraktf&#246;raren skall omedelbart underr&#228;tta avs&#228;ndaren om
+att han ej kan efterkomma s&#229;dan anvisning. Anvisning som skulle leda
+till att s&#228;ndning delas &#228;r fraktf&#246;raren ej heller skyldig att
+efterkomma.
+
+19 &#167; Underl&#229;ter fraktf&#246;raren att efterkomma anvisning, som han enligt
+17 och 18 &#167;&#167; har att st&#228;lla sig till efterr&#228;ttelse, &#228;r han ansvarig
+f&#246;r skada som uppkommer d&#228;rigenom. Ers&#228;ttningen f&#229;r dock ej &#246;verstiga
+vad som skulle ha utg&#229;tt om godset g&#229;tt f&#246;rlorat.
+
+Godsets utl&#228;mnande
+
+20 &#167; Sedan godset kommit fram till best&#228;mmelseorten &#228;r mottagaren
+ber&#228;ttigad att beg&#228;ra att fraktf&#246;raren mot kvitto utl&#228;mnar godset.
+Utr&#246;nes det att godset g&#229;tt f&#246;rlorat eller har det ej kommit fram vid
+utg&#229;ngen av den tid som avses i 27 &#167; andra stycket, f&#229;r mottagaren i
+eget namn g&#246;ra g&#228;llande de r&#228;ttigheter som f&#246;ljer av fraktavtalet.
+
+Mottagare som beg&#228;r att f&#229; godset utl&#228;mnat har ocks&#229; r&#228;tt att erh&#229;lla
+s&#229;dant fraktsedelsexemplar som uppr&#228;ttats f&#246;r att &#246;verl&#228;mnas till
+honom.
+
+Mottagare som g&#246;r g&#228;llande sin r&#228;tt enligt f&#246;rsta stycket &#228;r skyldig
+att betala det belopp som fraktf&#246;raren &#228;r ber&#228;ttigad att uppb&#228;ra
+enligt fraktavtalet. Uppst&#229;r tvist om vad mottagaren skall betala, &#228;r
+fraktf&#246;raren icke skyldig att l&#228;mna ut godset utan att mottagaren
+st&#228;ller s&#228;kerhet.
+
+21 &#167; Utl&#228;mnas godset till mottagaren utan att s&#229;dant efterkrav uttages
+som fraktf&#246;raren skulle ha uppburit enligt fraktavtalet, &#228;r
+fraktf&#246;raren skyldig att ers&#228;tta avs&#228;ndarens skada intill efterkravets
+belopp. Vad fraktf&#246;raren s&#229;lunda erlagt f&#229;r han s&#246;ka &#229;ter av
+mottagaren.
+
+Hinder f&#246;r befordringens utf&#246;rande
+
+22 &#167; Visar det sig f&#246;re godsets ankomst till best&#228;mmelseorten att det
+&#228;r om&#246;jligt att fullg&#246;ra fraktavtalet p&#229; det s&#228;tt som &#246;verenskommits,
+skall fraktf&#246;raren inh&#228;mta anvisning fr&#229;n avs&#228;ndaren.
+
+Medger omst&#228;ndigheterna att befordringen utf&#246;res p&#229; annat s&#228;tt &#228;n
+som &#246;verenskommits och har fraktf&#246;raren ej inom sk&#228;lig tid kunnat
+erh&#229;lla anvisning enligt f&#246;rsta stycket, &#229;ligger det honom att vidtaga
+de &#229;tg&#228;rder som synes honom b&#228;st tillgodose avs&#228;ndarens intresse.
+
+Hinder f&#246;r utl&#228;mnande
+
+23 &#167; F&#246;religger efter godsets ankomst till best&#228;mmelseorten hinder f&#246;r
+dess utl&#228;mnande, skall fraktf&#246;raren inh&#228;mta anvisning fr&#229;n av
+s&#228;ndaren.
+
+Mottagaren f&#229;r, trots att han v&#228;grat mottaga godset, kr&#228;va dess
+utl&#228;mnande s&#229; l&#228;nge fraktf&#246;raren ej erh&#229;llit annan anvisning fr&#229;n av
+s&#228;ndaren.
+
+Av anvisning f&#246;ranledda kostnader
+
+24 &#167; Fraktf&#246;raren har r&#228;tt till ers&#228;ttning f&#246;r kostnad som han haft
+f&#246;r att inh&#228;mta eller utf&#246;ra anvisning som avses i 22 eller 23 &#167;. R&#228;tt
+till ers&#228;ttning f&#246;religger dock ej om kostnaden beror av fel eller
+f&#246;rsummelse fr&#229;n fraktf&#246;rarens sida.
+
+Fraktf&#246;rarens skyldighet att taga v&#229;rd om godset
+
+25 &#167; Visar det sig f&#246;re godsets ankomst till best&#228;mmelseorten vara
+om&#246;jligt att utf&#246;ra befordringen eller f&#246;religger efter godsets
+ankomst dit hinder f&#246;r dess utl&#228;mnande, f&#229;r fraktf&#246;raren, om han ej
+genast kunnat erh&#229;lla anvisning som han rimligen varit skyldig att
+efterkomma, lossa godset f&#246;r avs&#228;ndarens r&#228;kning. Befordringen skall
+d&#228;refter anses avslutad, men fraktf&#246;raren &#228;r skyldig att f&#246;rvara
+godset &#229;t avs&#228;ndaren. Han f&#229;r dock anf&#246;rtro godset &#229;t tredje man och
+ansvarar i s&#229;dant fall f&#246;r att denne v&#228;ljes med tillb&#246;rlig omsorg.
+Godset kan alltj&#228;mt h&#229;llas inne till s&#228;kerhet f&#246;r de belopp som frakt
+f&#246;raren &#228;r ber&#228;ttigad till enligt fraktavtalet och de &#246;vriga belopp
+som kan kr&#228;vas ersatta.
+
+26 &#167; Fraktf&#246;raren f&#229;r s&#228;lja godset utan att inv&#228;nta anvisning som
+avses i 22 eller 23 &#167;, om godset &#228;r utsatt f&#246;r snar f&#246;rst&#246;relse eller
+dess tillst&#229;nd eljest ger anledning d&#228;rtill eller kostnaden f&#246;r dess
+f&#246;rvaring icke st&#229;r i rimligt f&#246;rh&#229;llande till dess v&#228;rde.
+Fraktf&#246;raren f&#229;r &#228;ven s&#228;lja godset, om han ej inom sk&#228;lig tid erh&#229;llit
+annan anvisning som han rimligen kan anses skyldig att efterkomma.
+
+F&#246;rs&#228;ljning skall ske p&#229; offentlig auktion eller, om s&#229;dan ej
+l&#228;mpligen kan &#228;ga rum, p&#229; annat betryggande s&#228;tt. Om det &#228;r m&#246;jligt
+skall fraktf&#246;raren i god tid underr&#228;tta avs&#228;ndaren om tid och plats
+f&#246;r f&#246;rs&#228;ljningen.
+
+Blir godset s&#229;lt, skall k&#246;peskillingen efter avdrag av de kostnader som
+&#229;vilar godset och kostnaden f&#246;r f&#246;rs&#228;ljningen tillst&#228;llas avs&#228;ndaren.
+&#214;verstiger dessa kostnader k&#246;peskillingen, har fraktf&#246;raren r&#228;tt till
+ers&#228;ttning f&#246;r bristen.
+
+Fraktf&#246;rarens ansvarighet
+
+F&#246;ruts&#228;ttningarna f&#246;r ansvarighet
+
+27 &#167; Fraktf&#246;raren &#228;r ansvarig om gods g&#229;r f&#246;rlorat, minskas eller
+skadas sedan det mottagits till befordran men innan det utl&#228;mnas.
+Fraktf&#246;raren &#228;r &#228;ven ansvarig f&#246;r skada som uppkommer till f&#246;ljd av
+dr&#246;jsm&#229;l med godsets utl&#228;mnande.
+
+Dr&#246;jsm&#229;l med godsets utl&#228;mnande f&#246;religger n&#228;r godset icke utl&#228;mnas
+inom avtalad tid. Om s&#228;rskild tid ej avtalats, f&#246;religger dr&#246;jsm&#229;l n&#228;r
+den verkliga befordringstiden &#246;verskrider vad som med h&#228;nsyn till
+omst&#228;ndigheterna sk&#228;ligen b&#246;r medges en omsorgsfull fraktf&#246;rare. I
+fr&#229;ga om dellast skall d&#228;rvid s&#228;rskilt beaktas den tid som kr&#228;ves f&#246;r
+att i sedvanlig ordning samla full last.
+
+28 &#167; Fraktf&#246;raren &#228;r fri fr&#229;n ansvarighet enligt 27 &#167;, om han visar
+att f&#246;rlust, minskning, skada eller dr&#246;jsm&#229;l orsakats antingen av fel
+eller f&#246;rsummelse av den ber&#228;ttigade eller av s&#229;dan anvisning av
+denne, som icke f&#246;ranletts av fel eller f&#246;rsummelse fr&#229;n fraktf&#246;rarens
+sida, eller av godsets bristf&#228;lliga beskaffenhet eller av f&#246;rh&#229;llande
+som fraktf&#246;raren ej kunnat undvika och vars f&#246;ljder han ej kunnat
+f&#246;rebygga.
+
+Fraktf&#246;raren f&#229;r ej till befrielse fr&#229;n ansvarighet &#229;beropa vare sig
+bristf&#228;llighet hos det f&#246;r befordringen anv&#228;nda fordonet eller fel
+eller f&#246;rsummelse av den, av vilken han kan ha hyrt fordonet, eller av
+dennes folk.
+
+29 &#167; Fraktf&#246;raren &#228;r vidare fri fr&#229;n ansvarighet enligt 27 &#167;, om
+f&#246;rlust, minskning eller skada h&#228;rr&#246;r av den s&#228;rskilda risk som &#228;r
+f&#246;rbunden med ett eller flera av f&#246;ljande f&#246;rh&#229;llanden:
+
+a) befordran med &#246;ppet fordon utan presenning, n&#228;r avs&#228;ndaren har
+godk&#228;nt detta transports&#228;tt,
+
+b) felande eller bristf&#228;llig f&#246;rpackning av gods, som p&#229; grund av sin
+beskaffenhet &#228;r utsatt f&#246;r svinn eller skada, n&#228;r det ej &#228;r f&#246;rpackat
+eller &#228;r bristf&#228;lligt f&#246;rpackat,
+
+c) handhavande, lastning, stuvning eller lossning av godset som
+ombes&#246;rjts av avs&#228;ndaren eller mottagaren eller av person som handlar
+f&#246;r avs&#228;ndarens eller mottagarens r&#228;kning,
+
+d) s&#229;dan beskaffenhet hos visst slag av gods som medf&#246;r att godset &#228;r
+s&#228;rskilt utsatt f&#246;r fara att g&#229; f&#246;rlorat, minskas eller skadas, s&#229;som
+genom br&#228;ckning, rost, inre sj&#228;lvf&#246;rst&#246;ring, uttorkning, l&#228;ckage,
+normalt svinn eller angrepp av skadeinsekter eller gnagare,
+
+e) ofullst&#228;ndig eller felaktig m&#228;rkning eller numrering av godset,
+
+f) befordran av levande djur.
+
+Visar fraktf&#246;raren att f&#246;rlusten, minskningen eller skadan med h&#228;nsyn
+till f&#246;religgande omst&#228;ndigheter kan h&#228;rr&#246;ra av risk som avses i
+f&#246;rsta stycket, skall den antagas h&#228;rr&#246;ra d&#228;rav, om det icke visas att
+den ej &#228;r att tillskriva s&#229;dan risk. Antagande som nu sagts f&#229;r dock
+ej g&#246;ras i fall som avses i f&#246;rsta stycket a), n&#228;r fr&#229;ga &#228;r om
+onormalt stor minskning eller f&#246;rlust av hela kollin.
+
+Sker befordringen med fordon som &#228;r utrustat med s&#228;rskild anordning
+f&#246;r att skydda godset mot v&#228;rme, kyla, temperaturv&#228;xlingar eller
+luftens fuktighet, f&#229;r fraktf&#246;raren till befrielse fr&#229;n ansvarighet
+&#229;beropa best&#228;mmelsen i f&#246;rsta stycket d) endast om han visar att alla
+&#229;tg&#228;rder blivit vidtagna, som med h&#228;nsyn till omst&#228;ndigheterna &#229;vilat
+honom i fr&#229;ga om val, underh&#229;ll och anv&#228;ndning av anordningen, och att
+han f&#246;ljt de s&#228;rskilda anvisningar som kan ha meddelats honom.
+
+Fraktf&#246;raren f&#229;r till befrielse fr&#229;n ansvarighet &#229;beropa vad som
+f&#246;reskrives i f&#246;rsta stycket f) endast om han visar att alla &#229;tg&#228;rder
+blivit vidtagna, som med h&#228;nsyn till omst&#228;ndigheterna normalt &#229;vilar
+honom, och att han f&#246;ljt de s&#228;rskilda anvisningar som kan ha meddelats
+honom.
+
+30 &#167; &#196;r fraktf&#246;raren enligt 28 eller 29 &#167; ej ansvarig f&#246;r viss
+omst&#228;ndighet som medverkat till f&#246;rlusten, minskningen, skadan eller
+dr&#246;jsm&#229;let, svarar han endast i den utstr&#228;ckning som omst&#228;ndighet, f&#246;r
+vilken han &#228;r ansvarig, har medverkat till f&#246;rlusten, minskningen,
+skadan eller dr&#246;jsm&#229;let.
+
+F&#246;rlorat gods
+
+31 &#167; Har gods icke utl&#228;mnats inom 30 dagar efter utg&#229;ngen av avtalad
+tid eller, om s&#228;rskild tid ej avtalats, inom 60 dagar fr&#229;n det godset
+mottogs till befordran, f&#229;r den som har r&#228;tt att f&#229; ut godset beg&#228;ra
+ers&#228;ttning som om godset g&#229;tt f&#246;rlorat.
+
+Den som &#228;r ber&#228;ttigad till ers&#228;ttning f&#246;r f&#246;rlorat gods f&#229;r, n&#228;r han
+mottager s&#229;dan gottg&#246;relse, skriftligen beg&#228;ra att omedelbart bli
+underr&#228;ttad i h&#228;ndelse godset skulle komma till r&#228;tta. Fraktf&#246;raren
+skall skriftligen bekr&#228;fta att s&#229;dan beg&#228;ran framst&#228;llts.
+
+Den som beg&#228;rt underr&#228;ttelse enligt andra stycket f&#229;r inom 30 dagar
+fr&#229;n det han mottagit s&#229;dan underr&#228;ttelse kr&#228;va, att godset utl&#228;mnas
+till honom mot att han dels erl&#228;gger de belopp som fraktf&#246;raren har
+att fordra enligt fraktavtalet, dels &#229;terbetalar den gottg&#246;relse som
+han uppburit med avdrag av de kostnader som inr&#228;knats d&#228;ri. Han
+beh&#229;ller dock sin r&#228;tt till ers&#228;ttning f&#246;r dr&#246;jsm&#229;l med utl&#228;mnandet.
+
+Framst&#228;lles ej beg&#228;ran som avses i andra stycket eller kr&#228;ves ej,
+s&#229;som i tredje stycket s&#228;gs, inom d&#228;r angiven tid att godset utl&#228;mnas,
+f&#229;r fraktf&#246;raren f&#246;rfoga &#246;ver godset med de inskr&#228;nkningar som kan
+f&#246;lja av tredje mans r&#228;tt.
+
+Ers&#228;ttningens storlek vid f&#246;rlust eller minskning av gods
+
+32 &#167; Ers&#228;ttning f&#246;r f&#246;rlust eller minskning av gods skall ber&#228;knas
+efter godsets v&#228;rde p&#229; den ort och vid den tid godset mottogs till
+befordran. V&#228;rdet best&#228;mmes efter b&#246;rspriset eller, om s&#229;dant saknas,
+marknadspriset. Finnes ej heller s&#229;dant pris, ber&#228;knas v&#228;rdet efter
+det g&#228;ngse v&#228;rdet av gods av samma slag och beskaffenhet.
+
+Fraktf&#246;rarens ansvarighet enligt f&#246;rsta stycket &#228;r begr&#228;nsad till 150
+kronor per kilo av det f&#246;rlorade eller felande godsets bruttovikt.
+
+Ut&#246;ver vad nu sagts skall ers&#228;ttning utg&#229; f&#246;r frakt och andra utl&#228;gg i
+samband med befordringen. Utl&#228;ggen skall ers&#228;ttas till fullo om godset
+g&#229;tt f&#246;rlorat och i &#246;vrigt till en mot minskningen svarande del.
+Lag (1985:177).
+
+33 &#167; Har avs&#228;ndaren i fraktsedel uppgivit ett h&#246;gre v&#228;rde p&#229; godset &#228;n
+som motsvarar det i 32 &#167; andra stycket angivna beloppet och erlagt den
+till&#228;ggsavgift som fraktf&#246;raren beg&#228;rt, g&#228;ller i st&#228;llet f&#246;r detta
+belopp det v&#228;rde som angivits i fraktsedeln.
+
+Ers&#228;ttningens storlek n&#228;r gods skadats
+
+34 &#167; Har godset skadats, &#228;r fraktf&#246;raren skyldig att ers&#228;tta
+v&#228;rdeminskningen, ber&#228;knad efter v&#228;rdet av godset j&#228;mte frakt och
+andra utl&#228;gg i samband med befordringen enligt 32 &#167; f&#246;rsta och tredje
+styckena.
+
+Ers&#228;ttning enligt f&#246;rsta stycket f&#229;r ej &#246;verstiga vad som skulle ha
+utg&#229;tt om s&#228;ndningen f&#246;rlorats eller, n&#228;r endast en del av s&#228;ndningen
+minskat i v&#228;rde till f&#246;ljd av skadan, denna del g&#229;tt f&#246;rlorad.
+
+Ers&#228;ttning vid dr&#246;jsm&#229;l
+
+35 &#167; Fraktf&#246;rarens ansvarighet f&#246;r skada till f&#246;ljd av dr&#246;jsm&#229;l med
+godsets utl&#228;mnande &#228;r begr&#228;nsad till fraktens belopp.
+
+S&#228;rskilt leveransintresse
+
+36 &#167; Har avs&#228;ndaren i fraktsedel uppgivit det belopp, som han anser
+motsvara ett med ett riktigt utl&#228;mnande f&#246;rbundet intresse i h&#228;ndelse
+godset f&#246;rloras, minskas eller skadas eller avtalad tid f&#246;r
+utl&#228;mnandet &#246;verskrides, och erlagt den till&#228;ggsavgift fraktf&#246;raren
+beg&#228;rt, utg&#229;r ut&#246;ver vad som f&#246;ljer av 32-35 &#167;&#167; ers&#228;ttning intill det
+uppgivna beloppet f&#246;r den ytterligare skada som visas ha uppkommit.
+
+Ers&#228;ttningsanspr&#229;k p&#229; annan grund &#228;n avtal
+
+37 &#167; De best&#228;mmelser i denna lag som utesluter fraktf&#246;rarens
+ansvarighet eller som anger eller begr&#228;nsar ers&#228;ttningens storlek
+till&#228;mpas i fr&#229;ga om varje talan om ers&#228;ttning f&#246;r f&#246;rlust, minskning,
+skada eller dr&#246;jsm&#229;l som riktas mot fraktf&#246;raren eller mot n&#229;gon som
+fraktf&#246;raren svarar f&#246;r enligt 6 &#167;, &#228;ven om s&#229;dan talan icke grundas
+p&#229; fraktavtalet.
+
+Upps&#229;t eller grov v&#229;rdsl&#246;shet
+
+38 &#167; Har fraktf&#246;raren upps&#229;tligen eller av grov v&#229;rdsl&#246;shet orsakat
+skada, f&#229;r han ej &#229;beropa de best&#228;mmelser ovan i denna lag som
+utesluter eller begr&#228;nsar hans ansvarighet eller som inneb&#228;r &#246;ver
+flyttning av bevisskyldigheten.
+
+F&#246;rsta stycket &#228;ger motsvarande till&#228;mpning n&#228;r n&#229;gon f&#246;r vilken
+fraktf&#246;raren svarar enligt 6 &#167; upps&#229;tligen eller av grov v&#229;rdsl&#246;shet
+orsakat skada. I s&#229;dant fall &#228;r den f&#246;r vilken fraktf&#246;raren svarar ej
+heller betr&#228;ffande sin personliga ansvarighet ber&#228;ttigad att &#229;beropa
+de i f&#246;rsta stycket angivna best&#228;mmelserna.
+
+J&#228;mkning av skadest&#229;nd
+
+39 &#167; Har avs&#228;ndare eller, s&#229;vitt ang&#229;r befordran av tillf&#228;llig art,
+fraktf&#246;rare &#229;dragit sig skadest&#229;ndsskyldighet enligt denna lag, kan
+skadest&#229;ndet j&#228;mkas efter vad som f&#246;reskrives i 6 kap. 2 &#167;
+skadest&#229;ndslagen (1972:207). Lag (1975:409).
+
+Reklamation, preskription och laga domstol
+
+40 &#167; Den som vill beg&#228;ra ers&#228;ttning av fraktf&#246;raren f&#246;r att gods
+minskats eller skadats eller f&#246;r dr&#246;jsm&#229;l med dess utl&#228;mnande skall
+utan osk&#228;ligt uppeh&#229;ll ge fraktf&#246;raren meddelande d&#228;rom. F&#246;rsummas det
+&#228;r hans taler&#228;tt f&#246;rlorad, om ej upps&#229;t eller grov v&#229;rdsl&#246;shet ligger
+fraktf&#246;raren eller n&#229;gon, f&#246;r vilken denne svarar enligt 6 &#167;, till
+last.
+
+41 &#167; Talan r&#246;rande befordran som avses i denna lag skall v&#228;ckas inom
+ett &#229;r eller, om talan grundas p&#229; upps&#229;t eller grov v&#229;rdsl&#246;shet, inom
+tre &#229;r.
+
+Tiden skall r&#228;knas
+
+a) vid minskning, skada eller dr&#246;jsm&#229;l fr&#229;n dagen d&#229; godset utl&#228;mnades
+till mottagaren,
+
+b) vid f&#246;rlust fr&#229;n trettionde dagen efter utg&#229;ngen av avtalad tid f&#246;r
+utl&#228;mnandet eller, n&#228;r s&#228;rskild tid h&#228;rf&#246;r ej avtalats, fr&#229;n sextionde
+dagen efter det fraktf&#246;raren mottog godset till befordran,
+
+c) i annat fall &#228;n nu n&#228;mnts fr&#229;n utg&#229;ngen av en tid av tre m&#229;nader
+fr&#229;n det fraktavtalet sl&#246;ts.
+
+Har tiden f&#246;r talan f&#246;rsuttits, f&#229;r fordran ej heller g&#246;ras g&#228;llande
+p&#229; annat s&#228;tt, s&#229;som genom genk&#228;rom&#229;l eller yrkande om kvittning.
+
+42 &#167; Talan mot fraktf&#246;rare, avs&#228;ndare eller mottagare r&#246;rande
+befordran som avses i denna lag kan v&#228;ckas, utom vid domstol som
+enligt r&#228;tteg&#229;ngsbalken &#228;r beh&#246;rig att upptaga tvisten, vid domstolen
+i den ort d&#228;r godset mottogs till befordran eller vid domstolen i
+best&#228;mmelseorten.
+
+Befordran som utf&#246;res av flera fraktf&#246;rare efter varandra
+
+43 &#167; Utf&#246;res befordran av flera fraktf&#246;rare efter varandra p&#229; grund av
+ett och samma fraktavtal, &#228;r envar av dem ansvarig f&#246;r befordringen i
+dess helhet, om ett exemplar av fraktsedeln &#229;tf&#246;ljer godset. Varje
+fraktf&#246;rare efter den f&#246;rste intr&#228;der genom att taga emot godset och
+fraktsedeln som part i fraktavtalet p&#229; de villkor som anges i
+fraktsedeln.
+
+44 &#167; Talan om ansvarighet f&#246;r f&#246;rlust, minskning, skada eller dr&#246;jsm&#229;l
+f&#229;r, utom n&#228;r fr&#229;ga &#228;r om genk&#228;rom&#229;l eller yrkande om kvittning i
+r&#228;tteg&#229;ng ang&#229;ende fordran grundad p&#229; samma fraktavtal, f&#246;ras endast
+mot den f&#246;rste eller den siste fraktf&#246;raren eller den fraktf&#246;rare som
+utf&#246;rde den del av befordringen, under vilken den h&#228;ndelse intr&#228;ffade
+som orsakade f&#246;rlusten, minskningen, skadan eller dr&#246;jsm&#229;let. Talan
+f&#229;r f&#246;ras samtidigt mot flera av dessa fraktf&#246;rare.
+
+45 &#167; Fraktf&#246;rare som betalat ers&#228;ttning enligt denna lag kan &#229;terkr&#228;va
+ers&#228;ttningen j&#228;mte r&#228;nta och kostnader av &#246;vriga fraktf&#246;rare som
+deltagit i befordringen enligt f&#246;ljande regler:
+
+a) har skadan orsakats av h&#228;ndelse f&#246;r vilken en fraktf&#246;rare ensam &#228;r
+ansvarig, skall han svara f&#246;r ers&#228;ttningen,
+
+b) &#228;r flera fraktf&#246;rare ansvariga f&#246;r h&#228;ndelse eller h&#228;ndelser som
+orsakat skadan, skall de st&#229; f&#246;r ers&#228;ttningen envar i f&#246;rh&#229;llande till
+sin del av ansvaret eller, om det inb&#246;rdes ansvaret ej kan best&#228;mmas,
+i f&#246;rh&#229;llande till sin andel av frakten,
+
+c) kan det ej utredas p&#229; vilka fraktf&#246;rare ansvaret vilar, delas
+ers&#228;ttningsskyldigheten mellan dem alla i f&#246;rh&#229;llande till vars och
+ens andel av frakten.
+
+Kan n&#229;gon av fraktf&#246;rarna ej betala vad som faller p&#229; honom, skall
+bristen delas mellan de &#246;vriga i f&#246;rh&#229;llande till deras andelar av
+frakten.
+
+Fraktf&#246;rarna f&#229;r avtala om avvikelse fr&#229;n vad som f&#246;reskrives i f&#246;rsta
+och andra styckena.
+
+46 &#167; Fraktf&#246;rare mot vilken krav framst&#228;lles med st&#246;d av 45 &#167; kan icke
+g&#246;ra inv&#228;ndning om att den fraktf&#246;rare som framst&#228;ller kravet ej varit
+skyldig att betala det belopp han erlagt, om ers&#228;ttningen fastst&#228;llts av
+domstol och den fraktf&#246;rare, mot vilken kravet riktas, blivit beh&#246;rigen
+underr&#228;ttad om r&#228;tteg&#229;ngen och f&#229;tt tillf&#228;lle att intr&#228;da i denna.
+
+Best&#228;mmelserna i 41 &#167; har motsvarande till&#228;mpning p&#229; regressanspr&#229;k
+mellan fraktf&#246;rare. Preskriptionstiden l&#246;per dock fr&#229;n den dag d&#229; dom,
+varigenom ers&#228;ttningen till den skadelidande best&#228;mdes, vann laga
+kraft eller, om anspr&#229;ket ej fastst&#228;llts genom dom, fr&#229;n den dag d&#229;
+betalning skedde.
+
+S&#228;rskilda best&#228;mmelser
+
+47 &#167; S&#228;rskilda best&#228;mmelser om radiologisk skada finns i
+lagen (2010:950) om ansvar och ers&#228;ttning vid radiologiska
+olyckor. Lag (2010:971).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4130">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4132">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

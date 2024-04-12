@@ -1,0 +1,683 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2010-05-18" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4394</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4393">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4395">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1958:522 ·
+                    <a href="/sfsr?bet=1958:522">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Kung&#246;relse (1958:522) ang&#229;ende till&#228;mpning av konventionen den 20 juni 1956 om indrivning av underh&#229;llsbidrag i utlandet</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1958-10-30
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2005:778
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+F&#246;rs&#228;kringskassan skall vara svenskt f&#246;rmedlande och mottagande
+organ i konventionens mening.
+
+Av bilaga 2 till kung&#246;relsen framg&#229;r vilka stater som tilltr&#228;tt
+konventionen.
+
+Vad som s&#228;gs i konventionen och f&#246;rsta stycket i denna
+kung&#246;relse skall, p&#229; grund av &#246;msesidiga &#229;taganden i fr&#229;ga om
+internationellt samarbete f&#246;r indrivning av underh&#229;llsbidrag,
+till&#228;mpas ocks&#229; i f&#246;rh&#229;llande till Amerikas F&#246;renta Stater
+j&#228;mte Guam, Jungfru&#246;arna, Puerto Rico och Samoa, dock med
+undantag av Alabama, District of Columbia och Mississippi.
+F&#246;rordning (2005:778).
+
+Bilaga 1
+
+Konvention om indrivning av underh&#229;llsbidrag i utlandet
+
+Inledning
+
+De f&#246;rdragsslutande staterna
+
+som beakta angel&#228;genheten av att l&#246;sa det humanit&#228;ra problem som
+uppst&#228;ller sig f&#246;r beh&#246;vande personer vilka f&#246;r sitt lagstadgade
+underh&#229;ll &#228;ro beroende av personer i utlandet,
+
+som beakta att talan i utlandet om utf&#229;ende av underh&#229;llsbidrag eller
+verkst&#228;llighet i utlandet av dom &#229; s&#229;dant bidrag ger upphov till
+allvarliga r&#228;ttsliga och praktiska sv&#229;righeter, och
+
+som &#228;ro beslutna att skapa ett medel f&#246;r l&#246;sandet av dessa problem och
+f&#246;r bem&#228;strandet av dessa sv&#229;righeter,
+
+ha &#246;verenskommit om f&#246;ljande:
+
+Artikel 1.
+
+Konventionens syfte
+
+1. Denna konvention har till syfte att underl&#228;tta indrivandet av
+underh&#229;llsbidrag som en person, h&#228;r nedan kallad s&#246;kanden, vilken
+vistas p&#229; n&#229;gon av de f&#246;rdragsslutande parternas territorium, p&#229;st&#229;r
+sig vara ber&#228;ttigad att erh&#229;lla fr&#229;n en annan person, h&#228;r nedan kallad
+f&#246;rklaranden, vilken &#228;r underkastad r&#228;ttskipningen i en annan
+f&#246;rdragsslutande stat. Detta syfte skall f&#246;rverkligas genom organ,
+vilka h&#228;r nedan kallas f&#246;rmedlande och mottagande organ.
+
+2. I denna konvention f&#246;rutsedda r&#228;ttsmedel skola till&#228;mpas vid sidan
+om och tr&#228;da ej i st&#228;llet f&#246;r s&#229;dana r&#228;ttsmedel som redan m&#229; finnas
+enligt nationell eller internationell r&#228;tt.
+
+Artikel 2.
+
+Utseende av f&#246;rmedlande och mottagande organ
+
+1. Varje f&#246;rdragsslutande part skall i samband med deponering av rati
+fikations- eller anslutningsinstrument utse en eller flera judiciella
+eller administrativa myndigheter, vilka skola vara f&#246;rmedlande organ &#229;
+dess territorium.
+
+2. Varje f&#246;rdragsslutande part skall i samband med deponering av rati
+fikations- eller anslutningsinstrument utse en allm&#228;n inr&#228;ttning eller
+enskild organsation, som skall vara mottagande organ &#229; dess
+territorium.
+
+3. Varje f&#246;rdragsslutande stat skall utan dr&#246;jsm&#229;l underr&#228;tta F&#246;renta
+Nationernas generalsekreterare om utseende av organ enligt punkterna 1
+och 2 ovan samt om varje i s&#229;dant h&#228;nseende vidtagen &#228;ndring.
+
+4. F&#246;rmedlande och mottagande organ &#228;ga tr&#228;da i direkt f&#246;rbindelse med
+f&#246;rmedlande och mottagande organ i andra f&#246;rdragsslutande stater.
+
+Artikel 3
+
+Framst&#228;llning hos f&#246;rmedlande organ
+
+1. D&#229; s&#246;kande vistas &#229; f&#246;rdragsslutande stats territorium, h&#228;r nedan
+kallad s&#246;kandens stat, och f&#246;rklaranden &#228;r underkastad r&#228;ttskipningen
+i annan f&#246;rdragsslutande stat, h&#228;r nedan kallad f&#246;rklarandens stat, m&#229;
+s&#246;kanden hos ett f&#246;rmedlande organ i den stat d&#228;r han befinner sig
+g&#246;ra framst&#228;llning om indrivning av underh&#229;llsbidrag fr&#229;n
+f&#246;rklaranden.
+
+2. Varje f&#246;rdragsslutande part skall l&#228;mna generalsekreteraren uppgift
+om den bevisning som enligt lagen i det mottagande organets stat
+regelm&#228;ssigt fordras till styrkande av anspr&#229;k p&#229; underh&#229;llsbidrag, om
+det s&#228;tt varp&#229; s&#229;dan bevisning skall framl&#228;ggas och om de &#246;vriga krav
+som sagda lag h&#228;rvidlag uppst&#228;ller.
+
+3. Framst&#228;llningen skall vara &#229;tf&#246;ljd av alla erforderliga handlingar
+och s&#228;rskilt, om s&#229; p&#229;fordras, av fullmakt f&#246;r det mottagande organet
+att sj&#228;lvt eller genom annan handla &#229; s&#246;kandens v&#228;gnar. Den skall
+j&#228;mv&#228;l vara &#229;tf&#246;ljd av fotografi av s&#246;kanden och, s&#229;vitt m&#246;jligt, av
+fotografi av f&#246;rklaranden.
+
+4. Det f&#246;rmedlande organet skall vidtaga alla rimliga &#229;tg&#228;rder f&#246;r att
+tillse, att f&#246;reskrifterna i lagen i det mottagande organets stat
+f&#246;ljas, och skall framst&#228;llningen med iakttagande av f&#246;reskrifterna i
+sagda lag inneh&#229;lla:
+
+(a) s&#246;kandens fullst&#228;ndiga namn, adress, f&#246;delsetid, medborgarskap
+och yrke samt i f&#246;rekommande fall hans ombuds namn och adress;
+
+(b) f&#246;rklarandens fullst&#228;ndiga namn samt, s&#229;vitt s&#246;kanden &#228;ger
+k&#228;nnedom d&#228;rom, hans adresser under de senaste fem &#229;ren, hans
+f&#246;delsetid, medborgarskap och yrke;
+
+(c) utf&#246;rlig redog&#246;relse f&#246;r de grunder &#229; vilka framst&#228;llningen
+st&#246;des, f&#246;r det underh&#229;ll som yrkas liksom varje annan upplysning av
+betydelse, s&#228;rskilt betr&#228;ffande s&#246;kandens och f&#246;rklarandens ekonomiska
+st&#228;llning och familjef&#246;rh&#229;llanden.
+
+Artikel 4
+
+Handlingarnas &#246;vers&#228;ndande
+
+1. Det f&#246;rmedlande organet skall, s&#229;vida framst&#228;llningen ej befinnes
+uppenbart ogrundad, &#246;vers&#228;nda handlingarna till det mottagande
+organet i f&#246;rklarandens stat.
+
+2. Innan handlingarna &#246;vers&#228;ndas, skall det f&#246;rmedlande organet
+f&#246;rvissa sig om att de uppfylla de formella krav som lagen i s&#246;kandens
+stat uppst&#228;ller.
+
+3. Det f&#246;rmedlande organet m&#229; underr&#228;tta det mottagande organet om sin
+uppfattning betr&#228;ffande det ber&#228;ttigade i den gjorda framst&#228;llningen
+samt f&#246;rorda, att s&#246;kanden tillerk&#228;nnes f&#246;rm&#229;nen av fri r&#228;ttshj&#228;lp
+och avgiftsbefrielse.
+
+Artikel 5
+
+&#214;vers&#228;ndande av domar och andra av domstol utf&#228;rdade handlingar
+
+1. Det f&#246;rmedlande organet skall p&#229; beg&#228;ran av s&#246;kanden och enligt
+best&#228;mmelserna i artikel 4 &#246;vers&#228;nda varje dom eller beslut, vare sig
+av slutlig eller interimistisk natur, eller annan av domstol utf&#228;rdad
+handling, som avser utf&#229;ende av underh&#229;llsbidrag och som s&#246;kanden
+erh&#229;llit hos beh&#246;rig domstol i n&#229;gon av de f&#246;rdragsslutande staterna,
+&#228;vensom, d&#229; s&#229; &#228;r n&#246;dv&#228;ndigt och m&#246;jligt, domstolens protokoll i det
+ifr&#229;gavarande m&#229;let eller &#228;rendet.
+
+2. De domar, beslut och andra av domstol utf&#228;rdade handlingar som
+avses i punkt 1 m&#229; &#246;vers&#228;ndas i st&#228;llet f&#246;r eller j&#228;mte de i artikel 3
+omf&#246;rm&#228;lda handlingarna.
+
+3. I artikel 6 angivet f&#246;rfarande m&#229; i enlighet med lagen i
+f&#246;rklarandens stat inbegripa exekvatur- eller registreringsf&#246;rfarande
+eller talan, grundad p&#229; de enligt punkt 1 &#246;vers&#228;nda handlingarna.
+
+Artikel 6
+
+De mottagande organets uppgifter
+
+1. Det mottagande organet skall inom ramen f&#246;r det av s&#246;kanden givna
+uppdraget p&#229; s&#246;kandens v&#228;gnar vidtaga alla &#228;ndam&#229;lsenliga &#229;tg&#228;rder f&#246;r
+utf&#229;ende av underh&#229;llsbidrag, s&#229;som tr&#228;ffande av uppg&#246;relse eller,
+d&#228;r s&#229; erfordras, v&#228;ckande och utf&#246;rande av talan samt s&#246;kande av
+verkst&#228;llighet av dom, beslut eller annan av domstol utf&#228;rdad
+handling.
+
+2. Det mottagande organet skall h&#229;lla det f&#246;rmedlande organet
+underr&#228;ttat om &#228;rendets g&#229;ng. D&#228;rest det mottagande organet ej kan
+&#229;tg&#246;ra n&#229;got i &#228;rendet, skall det underr&#228;tta det f&#246;rmedlande organet
+om sk&#228;len h&#228;rf&#246;r samt &#229;ters&#228;nda handlingarna.
+
+3. Utan hinder av best&#228;mmelserna i denna konvention skall lagen i
+f&#246;rklarandens stat, d&#228;ri inbegripet dess internationella privatr&#228;tt,
+till&#228;mpas betr&#228;ffande f&#246;rutn&#228;mnda f&#246;rfaranden och alla fr&#229;gor i
+samband d&#228;rmed.
+
+Artikel 7
+
+Framst&#228;llningar om bevisupptagning
+
+D&#228;rest lagen i b&#229;da de ber&#246;rda f&#246;rdragsslutande staterna inneh&#229;ller
+best&#228;mmelser r&#246;rande framst&#228;llningar om bevisupptagning vid ut
+l&#228;ndsk domstol och &#229;t utl&#228;ndsk domstol, skola f&#246;ljande regler &#228;ga
+till&#228;mpning:
+
+(a) Domstol vid vilken f&#246;res talan om underh&#229;llsbidrag m&#229; g&#246;ra fram
+st&#228;llning om upptagning av ytterligare bevisning, av skriftlig eller
+annan natur, hos beh&#246;rig domstol i den andra staten eller hos annan
+myndighet eller inr&#228;ttning, som den andra staten h&#228;rtill utsett.
+
+(b) F&#246;r att parterna skola kunna inst&#228;lla sig personligen eller genom
+ombud skall den myndighet, hos vilken framst&#228;llningen gjorts,
+underr&#228;tta s&#229;v&#228;l det mottagande och det f&#246;rmedlande organet som
+f&#246;rklaranden om tid och plats f&#246;r bevisupptagningen.
+
+(c) Beg&#228;rd bevisupptagning skall verkst&#228;llas med st&#246;rsta m&#246;jliga
+skyndsamhet; har bevisupptagning ej &#228;gt rum inom fyra m&#229;nader fr&#229;n det
+att den myndighet, hos vilken framst&#228;llningen gjorts, mottog denna,
+skall underr&#228;ttelse om sk&#228;len h&#228;rf&#246;r l&#228;mnas den myndighet, som beg&#228;rt
+&#229;tg&#228;rden.
+
+(d) Bevisupptagning, varom h&#228;r &#228;r fr&#229;ga, m&#229; icke f&#246;ranleda
+ers&#228;ttningsskyldighet f&#246;r avgifter eller kostnader av n&#229;got slag.
+
+(e) Bevisupptagning m&#229; v&#228;gras endast i f&#246;ljande fall:
+
+(1) Om framst&#228;llningens &#228;kthet icke kunnat fastst&#228;llas;
+
+(2) Om den f&#246;rdragsslutande stat, p&#229; vars territorium bevisupptag
+ningen skall &#228;ga rum, finner densamma of&#246;renlig med sin suver&#228;nitet
+eller s&#228;kerhet.
+
+Artikel 8
+
+&#196;ndring av dom eller beslut
+
+Best&#228;mmelserna i denna konvention skola &#228;ga till&#228;mpning j&#228;mv&#228;l &#229; fram
+st&#228;llning, som avser &#228;ndring av dom eller beslut r&#246;rande underh&#229;lls
+bidrag.
+
+Artikel 9
+
+Avgiftsfrihet och l&#228;ttnader
+
+1. Vid f&#246;rfarande enligt denna konvention skall s&#246;kande erh&#229;lla samma
+behandling och tillerk&#228;nnas samma f&#246;rm&#229;ner i fr&#229;ga om befrielse fr&#229;n
+kostnader och avgifter som tillkomma dem vilka stadigvarande vistas i
+den stat d&#228;r f&#246;rfarandet &#228;ger rum eller &#228;ro medborgare i denna.
+
+2. S&#246;kanden m&#229; icke p&#229; grund av att han &#228;r utl&#228;nning eller icke
+stadigvarande vistas i landet f&#246;rpliktas att st&#228;lla borgen eller annan
+s&#228;kerhet eller verkst&#228;lla betalning f&#246;r kostnader eller annat.
+
+3. F&#246;rmedlande och mottagande organ m&#229; icke betinga sig ers&#228;ttning f&#246;r
+de tj&#228;nster som de l&#228;mna enligt denna konvention.
+
+Artikel 10
+
+&#214;verf&#246;ring av betalningsmedel
+
+F&#246;rdragsslutande stat, vars lagstiftning begr&#228;nsar r&#228;tten att till
+utlandet &#246;verf&#246;ra betalningsmedel, skall medgiva b&#228;sta f&#246;retr&#228;desr&#228;tt
+&#229;t &#246;verf&#246;ring av betalningsmedel, som skola anv&#228;ndas till underh&#229;ll
+eller f&#246;r att bestrida r&#228;tteg&#229;ngskostnader enligt denna konvention.
+
+Artikel 11
+
+Klausul avseende f&#246;rbundsstater
+
+I fr&#229;ga om f&#246;rbundsstater eller andra stater, som icke &#228;ro enhets
+stater, skola f&#246;ljande best&#228;mmelser g&#228;lla:
+
+(a) Betr&#228;ffande artiklar i denna konvention, vilka falla inom omr&#229;det
+f&#246;r f&#246;rbundsstatens lagstiftande organs befogenhet, skall f&#246;rbunds
+regeringen ha samma f&#246;rpliktelser som &#229;vila regeringarna i de
+f&#246;rdragsslutande stater vilka icke &#228;ro f&#246;rbundsstater;
+
+(b) Betr&#228;ffande artiklar i konventionen, vilka falla inom omr&#229;det f&#246;r
+delstaters, provinsers eller kantoners lagstiftande befogenhet utan
+att dessa enligt f&#246;rbundsstatens f&#246;rfattning &#228;ro skyldiga att vidtaga
+lagstiftnings&#229;tg&#228;rder, skall f&#246;rbundsregeringen snarast m&#246;jligt och
+med f&#246;rordnande av dylika &#229;tg&#228;rder bringa artiklarna till vederb&#246;rande
+delstatliga, provinsiella eller kantonala myndigheters k&#228;nnedom;
+
+(c) F&#246;rbundsstat som bitr&#228;tt denna konvention skall p&#229; beg&#228;ran, som
+framst&#228;lles av annan f&#246;rdragsslutande part och f&#246;rmedlas av general
+sekreteraren, tillhandah&#229;lla redog&#246;relse f&#246;r lagstiftningen och r&#228;tts
+till&#228;mpningen i f&#246;rbundsstaten och i de d&#228;ri ing&#229;ende sj&#228;lvst&#228;ndiga
+enheterna betr&#228;ffande angiven best&#228;mmelse i konventionen, vilken
+redog&#246;relse skall utvisa i vilken utstr&#228;ckning best&#228;mmelsen satts i
+kraft genom lagstiftnings&#229;tg&#228;rder eller p&#229; annat s&#228;tt.
+
+Artikel 12
+
+Territoriell till&#228;mpning
+
+Best&#228;mmelserna i denna konvention skola &#228;ga till&#228;mpning j&#228;mv&#228;l &#229; alla
+icke sj&#228;lvstyrande f&#246;rvaltarskapsomr&#229;den och andra territorier, vilkas
+internationella f&#246;rbindelser ombes&#246;rjas av en f&#246;rdragsslutande part,
+med mindre denna vid sin ratifikation av konventionen eller anslut
+ning till densamma avgiver f&#246;rklaring att konventionen icke skall &#228;ga
+till&#228;mpning &#229; visst s&#229;dant territorium. F&#246;rdragsslutaande stat, som
+avgivit dylik f&#246;rklaring, m&#229; n&#228;r som helst d&#228;refter genom under
+r&#228;ttelse till generalsekreteraren utstr&#228;cka konventionens till&#228;mplig
+het till att avse alla s&#229;lunda undantagna territorier eller n&#229;got av
+dem.
+
+Artikel 13
+
+Undertecknande, ratifikation och anslutning
+
+1. Denna konvention skall till den 31 december 1956 st&#229; &#246;ppen f&#246;r
+undertecknande av varje stat som &#228;r medlem av F&#246;renta Nationerna, av
+varje icke-medlemstat som &#228;r ansluten till den internationella dom
+stolens stadga eller medlem av n&#229;got av organsationens fackorgan,
+&#228;vensom av varje annan icke-medlemsstat som av ekonomiska och sociala
+r&#229;det inbjudits att ansluta sig till konventionen.
+
+2. Konventionen skall ratificeras. Ratifikationsinstrumenten skola
+deponeras hos generalsekreteraren.
+
+3. Var och en av de i punkt 1 avsedda staterna m&#229; n&#228;r som helst
+ansluta sig till konventionen. Anslutningsintrumenteten skola depo
+neras hos generalsekreteraren.
+
+Artikel 14
+
+Ikrafttr&#228;dande
+
+1. Denna konvention skall tr&#228;da i kraft &#229; trettionde dagen efter det
+att det tredje ratifikations- eller anslutningsdokumentet deponeras
+p&#229; s&#228;tt i artikel 13 s&#228;gs.
+
+2. F&#246;r varje stat, som ratificerar eller ansluter sig till konven
+tionen efter deponerandet av det tredje ratifikations- eller anslut
+ningsinstrumentet, skall den tr&#228;da i kraft &#229; trettionde dagen efter
+det att ifr&#229;gavarande stat deponerat sitt ratifikations- eller an
+slutningsinstrument.
+
+Artikel 15
+
+Upps&#228;gning
+
+1. F&#246;rdragsslutande part m&#229; upps&#228;ga denna konvention genom under
+r&#228;ttelse till generalsekreteraren. S&#229;dan upps&#228;gning m&#229; avse j&#228;mv&#228;l
+territorium eller territorier, vilka omf&#246;rm&#228;las i artikel 12.
+
+2. Upps&#228;gningen skall erh&#229;lla verkan ett &#229;r efter det att under
+r&#228;ttelsen tillst&#228;llts generalsekreteraren. Upps&#228;gningen skall dock
+icke g&#228;lla f&#246;r &#228;renden som &#228;ro under handl&#228;ggning vid den tidpunkt d&#229;
+upps&#228;gningen erh&#229;ller verkan.
+
+Artikel 16
+
+Bil&#228;ggande av tvister
+
+Uppst&#229;r mellan f&#246;rdragsslutande parter tvist ang&#229;ende tolkningen eller
+till&#228;mpnigen av denna konvention och bil&#228;gges ej tvisten p&#229; annat
+s&#228;tt, skall den underst&#228;llas den internationella domstolen. Tvisten
+skall h&#228;nskjutas till denna antingen genom anm&#228;lan av s&#228;rskild &#246;ver
+enskommelse h&#228;rom eller genom ans&#246;kan av en part ensam.
+
+Artikel 17
+
+F&#246;rbeh&#229;ll
+
+1. Om n&#229;gon stat i samband med undertecknande, ratifikation eller an
+slutning g&#246;r f&#246;rbeh&#229;ll betr&#228;ffande n&#229;gon av artiklarna i denna konven
+tion, skall generalsekreteraren delgiva f&#246;rbeh&#229;llets lydelse med alla
+stater som bitr&#228;tt konventionen och med de &#246;vriga stater som avses i
+artikel 13. F&#246;rdragsslutande part, som mots&#228;tter sig f&#246;rbeh&#229;llet, m&#229;
+inom nittio dagar fr&#229;n dagen f&#246;r delgivningen underr&#228;tta general
+sekreteraren att den icke godtager f&#246;rbeh&#229;llet, och konventionen skall
+d&#229; icke tr&#228;da i kraft mellan ifr&#229;gavarande stat och den stat som gjort
+f&#246;rbeh&#229;llet. Stat, som senare ansluter sig till konventionen, m&#229; l&#228;mna
+s&#229;dan underr&#228;ttelse vid tidpunkten f&#246;r anslutningen.
+
+2. F&#246;rdragsslutande part m&#229; n&#228;r som helst &#229;tertaga gjort f&#246;rbeh&#229;ll och
+skall underr&#228;tta generalsekreteraren d&#228;rom.
+
+Artikel 18
+
+&#214;msesidighet
+
+F&#246;rdragsslutande part m&#229; icke gentemot andra f&#246;rdragsslutande parter
+&#229;beropa denna konvention i vidare m&#229;n &#228;n den sj&#228;lv &#228;r bunden d&#228;rav.
+
+Artikel 19
+
+Underr&#228;ttelser fr&#229;n generalsekreteraren
+
+1. Generalsekreteraren skall f&#246;r alla medlemmar av F&#246;renta Nationerna
+och i artikel 13 n&#228;mnda icke-medlemsstater tillk&#228;nnagiva:
+
+(a) underr&#228;ttelser enligt artikel 2, punkt 3;
+
+(b) uppgifter som mottagits enligt artikel 3, punkt 2;
+
+(c) f&#246;rklaringar och underr&#228;ttelser enligt artikel 12;
+
+(d) undertecknanden, ratifikationer och anslutningar enligt artikel
+13;
+
+(e) den dag d&#229; konventionen enligt artikel 14, punkt 1, tr&#228;tt i
+kraft;
+
+(f) upps&#228;gningar enligt artikel 15, punkt 1;
+
+(g) f&#246;rbeh&#229;ll och underr&#228;ttelser enligt artikel 17.
+
+2. Generalsekretaren skall j&#228;mv&#228;l l&#228;mna alla f&#246;rdragsslutande parter
+meddelanden ang&#229;ende framst&#228;llningar om revision av konventionen och
+svaren d&#228;r&#229; enligt artikel 20.
+
+Artikel 20
+
+Revision av konventionen
+
+1. F&#246;rdragsslutande part m&#229; n&#228;r som helst genom en till general
+sekreterararen st&#228;lld underr&#228;ttelse hemst&#228;lla om &#228;ndring av denna
+konvention.
+
+2. Generalsekreteraren skall &#246;vers&#228;nda underr&#228;ttelsen till varje
+f&#246;rdragsslutande part med beg&#228;ran om besked inom fyra m&#229;nader, huru
+vida denna &#246;nskar att en konferens skall sammankallas f&#246;r att behandla
+&#228;ndringsf&#246;rslaget. D&#228;rest flertalet av de f&#246;rdragsslutande parterna
+f&#246;rordar att en konferens kommer till st&#229;nd, skall generalsekreteraren
+sammankalla en s&#229;dan.
+
+Artikel 21
+
+Konventionens spr&#229;k och dess deponerande
+
+Huvudskriften av denna konvention, vars engelska, franska, kinesiska,
+ryska och spanska texter &#228;ga lika vitsord, skall deponeras hos
+generalsekreteraren, som skall &#246;vers&#228;nda bestyrkta avskrifter av den
+samma till alla i artikel 13 n&#228;mnda stater.
+F&#246;rordning (2000:710).
+
+Bilaga 2
+
+Algeriet, Argentina, Australien, Barbados, Belgien, Bosnien-
+Hercegovina, Brasilien, Burkina Faso, Centralafrikanska
+republiken, Chile, Colombia, Cypern, Danmark, Ecuador, Estland,
+Filippinerna, Finland, Frankrike, F&#246;rbundsrepubliken
+Jugoslavien, Grekland, Guatemala, Haiti, Heliga Stolen, Irland,
+Israel, Italien, Kap Verde, Kazakstan, Kroatien, Luxemburg,
+Makedonien (FYROM), Marocko, Mexico, Monaco, Nederl&#228;nderna,
+Niger, Norge, Nya Zeeland, Pakistan, Polen, Portugal, Rum&#228;nien,
+Schweiz, Slovakien, Slovenien, Spanien, Sri Lanka,
+Storbritannien och Nordirland, Surinam, Tjeckien, Tunisien,
+Turkiet, Tyskland, Ungern, Uruguay, Vitryssland och &#214;sterrike.
+F&#246;rordning (2000:710).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1996:624
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 augusti 1996. &#196;renden som har
+kommit in till Utrikesdepartementet f&#246;re ikrafttr&#228;dandet f&#229;r dock
+handl&#228;ggas d&#228;r fram till den 1 januari 1997.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4393">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4395">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

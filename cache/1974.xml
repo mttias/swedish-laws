@@ -1,0 +1,941 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-02-02" /> 
+ <meta id="rattsinfo-edited" content="2024-02-02 09:50:43" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1974</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1973">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1975">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2008:463 ·
+                    <a href="/sfsr?bet=2008:463">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2008:463) om vissa avgifter till Str&#229;ls&#228;kerhetsmyndigheten</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2008-06-05
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Omtryck:</span> SFS 2009:668
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2024:2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2008-07-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av 
+
+- 30 &#167; lagen (1984:3) om k&#228;rnteknisk verksamhet i fr&#229;ga om 4, 
+5, 6-11 a, 13-15 och 19 &#167;&#167;, 
+
+- 10 kap. 4 &#167; str&#229;lskyddslagen (2018:396) i fr&#229;ga om 4, 5 a-6, 
+11 b-12 och 16-19 &#167;&#167;,
+
+- 56 a &#167; lagen (2010:950) om ansvar och ers&#228;ttning vid 
+radiologiska olyckor i fr&#229;ga om 4 och 5 &#167;&#167;,
+
+- 20 &#167; andra stycket 16 lagen (2006:263) om transport av 
+farligt gods i fr&#229;ga om 4, 5, 6, 10 och 19 &#167;&#167;, och
+
+- 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga best&#228;mmelser.
+F&#246;rordning (2021:1144).
+
+Ordf&#246;rklaringar
+
+2 &#167; Ord och uttryck i denna f&#246;rordning har samma betydelse som 
+i lagen (1984:3) om k&#228;rnteknisk verksamhet, lagen (2010:950) 
+om ansvar och ers&#228;ttning vid radiologiska olyckor, 
+str&#229;lskyddslagen (2018:396), str&#229;lskyddsf&#246;rordningen 
+(2018:506) och f&#246;rordningen (2006:311) om transport av farligt 
+gods. F&#246;rordning (2021:1312).
+
+3 &#167; I denna f&#246;rordning avses med 
+
+provdrift: drift enligt ett provprogram inf&#246;r &#246;verg&#229;ng till 
+normaldrift,
+
+normaldrift: drift inom de fastst&#228;llda villkor och 
+begr&#228;nsningar som framg&#229;r av en anl&#228;ggnings s&#228;kerhetstekniska 
+driftsf&#246;ruts&#228;ttningar, 
+
+avveckling: &#229;tg&#228;rder som, efter att den verksamhet som en 
+anl&#228;ggning &#228;r avsedd f&#246;r har upph&#246;rt och inte kommer att 
+&#229;terupptas, vidtas av tillst&#229;ndshavaren f&#246;r att p&#229; ett s&#228;kert 
+s&#228;tt montera ned och riva anl&#228;ggningen samt hantera det 
+k&#228;rn&#228;mne och det k&#228;rnavfall som finns p&#229; anl&#228;ggningsplatsen,
+
+k&#228;rnteknisk anl&#228;ggning kategori 1: en k&#228;rnkraftsreaktor, en 
+anl&#228;ggning f&#246;r mellanlagring eller slutf&#246;rvaring av k&#228;rn&#228;mne 
+eller anv&#228;nt k&#228;rnbr&#228;nsle, en anl&#228;ggning f&#246;r inkapsling f&#246;r 
+slutf&#246;rvaring av anv&#228;nt k&#228;rnbr&#228;nsle eller en anl&#228;ggning f&#246;r 
+slutf&#246;rvaring av k&#228;rnavfall som inte &#228;r en s&#229;dan 
+markdeponering som avses i 5 &#167; andra stycket 11, 
+
+k&#228;rnteknisk anl&#228;ggning kategori 2: en forsknings- eller 
+materialprovningsreaktor, 
+
+k&#228;rnteknisk anl&#228;ggning kategori 3: en anl&#228;ggning f&#246;r 
+framst&#228;llning av k&#228;rnbr&#228;nsle,
+
+k&#228;rnteknisk anl&#228;ggning kategori 4: en anl&#228;ggning f&#246;r 
+hantering, bearbetning och annan lagring &#228;n mellanlagring av 
+k&#228;rn&#228;mne som inte utg&#246;r anl&#228;ggning f&#246;r inkapsling f&#246;r 
+slutf&#246;rvaring av anv&#228;nt k&#228;rnbr&#228;nsle och anl&#228;ggning f&#246;r 
+hantering, bearbetning och lagring av l&#229;g- och medelaktivt 
+k&#228;rnavfall. F&#246;rordning (2023:48).
+
+Ans&#246;kningsavgift
+
+4 &#167; En ans&#246;kningsavgift ska betalas av den som ans&#246;ker om 
+
+1. tillst&#229;nd enligt 5 eller 5 a &#167; lagen (1984:3) om 
+k&#228;rnteknisk verksamhet,
+
+2. tillst&#229;nd enligt str&#229;lskyddslagen (2018:396), 
+str&#229;lskyddsf&#246;rordningen (2018:506) eller f&#246;reskrifter 
+meddelade med st&#246;d av dessa,
+
+3. Str&#229;ls&#228;kerhetsmyndighetens pr&#246;vning av ett &#228;rende enligt 8 
+eller 18 &#167; andra stycket f&#246;rordningen (2006:311) om transport 
+av farligt gods, eller
+
+4. beslut enligt 24 eller 31 &#167; lagen (2010:950) om ansvar och 
+ers&#228;ttning vid radiologiska olyckor. F&#246;rordning (2021:1144).
+
+5 &#167; Avgift enligt 4 &#167; 1 ska betalas till 
+Str&#229;ls&#228;kerhetsmyndigheten med 101 400 000 kronor, om ans&#246;kan 
+avser uppf&#246;rande av en k&#228;rnkraftsreaktor som ska ers&#228;tta en 
+permanent avst&#228;ngd k&#228;rnkraftsreaktor, varav 34 476 000 kronor 
+n&#228;r ans&#246;kan ges in, 33 462 000 kronor senast ett &#229;r efter att 
+ans&#246;kan gavs in och 33 462 000 kronor senast tv&#229; &#229;r efter att 
+ans&#246;kan gavs in.
+
+Avgift enligt 4 &#167; 1, 3 eller 4 ska betalas till 
+Str&#229;ls&#228;kerhetsmyndigheten n&#228;r ans&#246;kan ges in
+
+1. med 2 268 000 kronor, om ans&#246;kan avser uppf&#246;rande av en 
+k&#228;rnteknisk anl&#228;ggning kategori 1, dock inte en 
+k&#228;rnkraftsreaktor eller anl&#228;ggning f&#246;r slutf&#246;rvaring av anv&#228;nt 
+k&#228;rnbr&#228;nsle,
+
+2. med 1 129 000 kronor, om ans&#246;kan avser uppf&#246;rande av en 
+k&#228;rnteknisk anl&#228;ggning kategori 2,
+
+3. med 568 000 kronor, om ans&#246;kan avser uppf&#246;rande av en 
+k&#228;rnteknisk anl&#228;ggning kategori 3,
+
+4. med 113 000 kronor, om ans&#246;kan avser uppf&#246;rande av en 
+k&#228;rnteknisk anl&#228;ggning kategori 4,
+
+5. med 1 558 000 kronor, om ans&#246;kan avser drift av en 
+k&#228;rnteknisk anl&#228;ggning kategori 1,
+
+6. med 568 000 kronor, om ans&#246;kan avser drift av en 
+k&#228;rnteknisk anl&#228;ggning kategori 2,
+
+7. med 284 000 kronor, om ans&#246;kan avser drift av en 
+k&#228;rnteknisk anl&#228;ggning kategori 3,
+
+8. med 56 000 kronor, om ans&#246;kan avser drift av en k&#228;rnteknisk 
+anl&#228;ggning kategori 4,
+
+9. med 113 000 kronor, om ans&#246;kan avser innehav av en 
+k&#228;rnteknisk anl&#228;ggning,
+
+10. med 56 000 kronor, om ans&#246;kan avser s&#228;rskilt tillst&#229;nd 
+enligt 5 a &#167; lagen (1984:3) om k&#228;rnteknisk verksamhet,
+
+11. med 280 000 kronor, om ans&#246;kan avser en anl&#228;ggning f&#246;r 
+markdeponering av l&#229;gaktivt k&#228;rnavfall som inte h&#228;rr&#246;r fr&#229;n 
+kommersiell uranbrytning och anl&#228;ggningar f&#246;r behandling eller 
+lagring som h&#246;r till en s&#229;dan anl&#228;ggning, f&#246;rutsatt att 
+aktiviteten hos den totala m&#228;ngden avfall i 
+markdeponeringsanl&#228;ggningen inte &#246;verstiger 10 terabecquerel 
+varav h&#246;gst 10 gigabecquerel utg&#246;rs av alfaaktiva &#228;mnen,
+
+12. med 43 000 kronor, om ans&#246;kan avser gr&#228;ns&#246;verskridande 
+transport av anv&#228;nt k&#228;rnbr&#228;nsle eller k&#228;rnavfall,
+
+13. med 110 000 kronor, om ans&#246;kan avser transport av 
+radioaktiva &#228;mnen enligt en s&#228;rskild &#246;verenskommelse om 
+s&#228;kerhets&#229;tg&#228;rder,
+
+14. med 45 000 kronor, om ans&#246;kan avser f&#246;rv&#228;rv, innehav, 
+&#246;verl&#229;telse, bearbetning, transport eller annan hantering av 
+eller annan befattning med k&#228;rn&#228;mne eller k&#228;rnavfall och denna 
+hantering eller befattning inte omfattas av en ans&#246;kan enligt 
+1-13,
+
+15. med 110 000 kronor, om ans&#246;kan inte omfattas av en ans&#246;kan 
+enligt 13 och avser godk&#228;nnande eller bekr&#228;ftelse av 
+certifikat inf&#246;r transport enligt
+
+a) bilagorna till ADR,
+
+b) RID,
+
+c) IMDG-koden, eller
+
+d) ICAO-TI,
+
+16. med 75 000 kronor, om ans&#246;kan avser att en transport&#246;r ska 
+vara ers&#228;ttningsansvarig vid en radiologisk olycka i st&#228;llet 
+f&#246;r en eller flera anl&#228;ggningshavare, och
+
+17. med 190 000 kronor, om ans&#246;kan avser ett l&#228;gre 
+ansvarsbelopp vid en radiologisk olycka f&#246;r en anl&#228;ggning 
+eller en transport.
+
+Om en ans&#246;kan som avser en och samma anl&#228;ggning omfattas av 
+mer &#228;n en avgift enligt f&#246;rsta stycket eller andra stycket 1-
+9, ska avgift betalas med det belopp som &#228;r h&#246;gst av de 
+angivna beloppen. F&#246;rordning (2024:2).
+
+5 a &#167; Avgift enligt 4 &#167; 2 ska betalas till 
+Str&#229;ls&#228;kerhetsmyndigheten n&#228;r ans&#246;kan ges in
+
+1. med 600 kronor per tillst&#229;nd f&#246;r starka laserpekare med 
+uteffekt som inte &#246;verskrider 30 milliwatt,
+
+2. med 9 700 kronor per tillst&#229;nd f&#246;r starka laserpekare med 
+
+uteffekt som &#246;verskrider 30 milliwatt,
+
+3. med 1 300 kronor per tillst&#229;nd f&#246;r andra tillst&#229;ndspliktiga 
+lasrar &#228;n de som avses i 1 och 2,
+
+4. med 5 700 kronor per generator f&#246;r medicinsk 
+r&#246;ntgendiagnostik,
+
+5. med 2 200 kronor per generator f&#246;r odontologisk 
+r&#246;ntgendiagnostik,
+
+6. med 3 500 kronor per generator f&#246;r veterin&#228;rmedicinsk 
+
+r&#246;ntgendiagnostik,
+
+7. med 2 300 kronor f&#246;r verksamhet med &#246;ppna str&#229;lk&#228;llor med 
+en aktivitet som &#228;r h&#246;gst 100 megabecquerel,
+
+8. med 6 900 kronor f&#246;r verksamhet med &#246;ppna str&#229;lk&#228;llor med 
+en aktivitet som &#246;verstiger 100 megabecquerel men inte 
+10 gigabecquerel,
+
+9. med 38 900 kronor f&#246;r verksamhet med &#246;ppna str&#229;lk&#228;llor med 
+en aktivitet som &#246;verstiger 10 gigabecquerel,
+
+10. med 6 900 kronor per accelerator som &#246;verstiger 
+1 megaelektronvolt men inte 100 megaelektronvolt,
+
+11. med 26 100 kronor per accelerator som &#246;verstiger 
+100 megaelektronvolt,
+
+12. med 3 500 kronor per utrustning f&#246;r radiografering,
+
+13. med 2 300 kronor per sluten str&#229;lk&#228;lla som inte &#228;r en 
+sluten str&#229;lk&#228;lla med h&#246;g aktivitet,
+
+14. med 11 600 kronor per utrustning som inneh&#229;ller en eller 
+flera slutna str&#229;lk&#228;llor med h&#246;g aktivitet,
+
+15. med 11 400 kronor per tillst&#229;nd f&#246;r installation och 
+underh&#229;ll av str&#229;lk&#228;llor,
+
+16. med 14 000 kronor per utrustning f&#246;r acceleratorer och 
+koboltapparater f&#246;r extern str&#229;lterapi,
+
+17. med 4 800 kronor per utrustning f&#246;r 
+r&#246;ntgenterapiutrustning f&#246;r extern str&#229;lterapi,
+
+18. med 14 000 kronor per efterladdningsutrustning f&#246;r 
+brachyterapi,
+
+19. med 21 100 kronor per tillst&#229;nd f&#246;r annan sluten 
+str&#229;lk&#228;lla f&#246;r brachyterapi med en aktivitet som &#246;verstiger 
+100 gigabecquerel,
+
+20. med 85 700 kronor per tillst&#229;nd f&#246;r nuklearmedicin med en 
+aktivitet som &#228;r h&#246;gst 100 gigabecquerel,
+
+21. med 138 500 kronor per tillst&#229;nd f&#246;r nuklearmedicin med en 
+aktivitet som &#246;verstiger 100 gigabecquerel,
+
+22. med 3 500 kronor per teknisk anordning som kan alstra 
+joniserande str&#229;lning som inte &#246;verstiger 1 megaelektronvolt,
+
+23. med 7 283 000 kronor per anl&#228;ggning f&#246;r acceleratorbaserad 
+spallation f&#246;r neutronforsknings&#228;ndam&#229;l med en str&#229;leffekt som 
+&#246;verstiger 1 megawatt,
+
+24. med 353 000 kronor f&#246;r verksamhet med 
+elektronacceleratorbaserade synkrotronljusanl&#228;ggningar,
+
+25. med 43 000 kronor, om ans&#246;kan avser gr&#228;ns&#246;verskridande 
+transport av radioaktivt avfall som inte omfattas av en 
+ans&#246;kan enligt 5 &#167; andra stycket 12, och
+
+26. med 18 500 kronor, om ans&#246;kan avser transport av ett 
+radioaktivt &#228;mne som inte omfattas av en ans&#246;kan enligt 7-9, 
+13, 14, 16, 18-21 eller 25 eller av 5 &#167; andra stycket 1-14. 
+
+Om en och samma str&#229;lk&#228;lla omfattas av mer &#228;n en avgift enligt 
+f&#246;rsta stycket, ska avgift betalas med det belopp som &#228;r h&#246;gst 
+av de angivna beloppen. F&#246;rordning (2024:2).
+
+5 b &#167; Den som ans&#246;ker om tillst&#229;nd till en verksamhet enligt 
+str&#229;lskyddslagen (2018:396) som inte omfattas av 5 a &#167; ska 
+betala avgift med 1 400 kronor per timme f&#246;r arbete med 
+tillst&#229;ndspr&#246;vning som Str&#229;ls&#228;kerhetsmyndigheten har utf&#246;rt. 
+Avgiften ska betalas till Str&#229;ls&#228;kerhetsmyndigheten efter 
+s&#228;rskild debitering. F&#246;rordning (2023:48).
+
+6 &#167; Om Str&#229;ls&#228;kerhetsmyndighetens pr&#246;vning av en ans&#246;kan 
+medf&#246;r kostnader som v&#228;sentligt &#246;verstiger de belopp som anges 
+i 5 eller 5 a &#167;, f&#229;r myndigheten besluta att s&#246;kanden ska 
+betala till&#228;ggsavgift med 1 400 kronor per timme f&#246;r arbete 
+som myndigheten har utf&#246;rt. Till&#228;ggsavgiften ska betalas till 
+Str&#229;ls&#228;kerhetsmyndigheten efter s&#228;rskild debitering.
+F&#246;rordning (2023:48).
+
+Granskningsavgift
+
+7 &#167; Den som har tillst&#229;nd att uppf&#246;ra, inneha eller driva en
+k&#228;rnkraftsreaktor som ska ers&#228;tta en permanent avst&#228;ngd
+k&#228;rnkraftsreaktor ska betala en granskningsavgift
+
+1. med 100 000 000 kronor per kalender&#229;r fr&#229;n och med det
+kalender&#229;r som f&#246;ljer efter det att tillst&#229;ndet gavs till
+och med det kalender&#229;r d&#229; reaktorn efter ett s&#228;rskilt
+godk&#228;nnande av Str&#229;ls&#228;kerhetsmyndigheten har tagits i
+provdrift, och
+
+2. med 15 000 000 kronor per kalenderkvartal fr&#229;n och med
+det kalender&#229;r som f&#246;ljer efter det att reaktorn har tagits
+i provdrift till och med det kalenderkvartal som f&#246;ljer
+efter det att reaktorn efter ett s&#228;rskilt godk&#228;nnande av
+Str&#229;ls&#228;kerhetsmyndigheten har tagits i normaldrift.
+
+Avgiften ska betalas till Str&#229;ls&#228;kerhetsmyndigheten efter
+s&#228;rskild debitering. F&#246;rordning (2011:1568).
+
+7 a &#167; Den som har tillst&#229;nd att uppf&#246;ra, inneha eller driva en 
+k&#228;rnteknisk anl&#228;ggning kategori 1, dock inte en s&#229;dan reaktor 
+som avses i 7 &#167; eller en anl&#228;ggning f&#246;r slutf&#246;rvaring av 
+anv&#228;nt k&#228;rnbr&#228;nsle, ska betala granskningsavgift med 
+4 790 000 kronor f&#246;r granskning av de tillst&#229;ndsvillkor som 
+m&#229;ste uppfyllas innan anl&#228;ggningen tas i normaldrift f&#246;r 
+f&#246;rsta g&#229;ngen efter det att tillst&#229;ndet gavs. 
+
+Avgiften ska betalas till Str&#229;ls&#228;kerhetsmyndigheten efter 
+s&#228;rskild debitering sedan tillst&#229;ndshavaren har gett in 
+handlingar till myndigheten f&#246;r granskning. 
+F&#246;rordning (2019:74).
+
+8 &#167; Om den granskning som en avgift enligt 7 eller 7 a &#167; &#228;r 
+avsedd att t&#228;cka medf&#246;r granskningsarbete som inte t&#228;cks av 
+avgiftens belopp, f&#229;r Str&#229;ls&#228;kerhetsmyndigheten besluta att 
+tillst&#229;ndshavaren ska betala till&#228;ggsavgift med 1 400 kronor 
+per timme f&#246;r det arbete som myndigheten har utf&#246;rt som inte 
+t&#228;cks av beloppet. F&#246;r en granskning som avses i 7 a &#167; f&#229;r 
+dock till&#228;ggsavgiften f&#246;r varje granskningsarbete uppg&#229; till 
+h&#246;gst 2 000 000 kronor.
+
+Till&#228;ggsavgiften ska betalas till Str&#229;ls&#228;kerhetsmyndigheten 
+efter s&#228;rskild debitering. F&#246;rordning (2023:48).
+
+9 &#167; Den som har tillst&#229;nd att inneha eller driva en 
+k&#228;rnteknisk anl&#228;ggning ska betala en avgift f&#246;r 
+Str&#229;ls&#228;kerhetsmyndighetens granskning av en s&#229;dan 
+helhetsbed&#246;mning som avses i 10 a &#167; lagen (1984:3) om 
+k&#228;rnteknisk verksamhet. Avgiften ska efter s&#228;rskild debitering 
+betalas till Str&#229;ls&#228;kerhetsmyndigheten
+
+1. med 5 470 000 kronor f&#246;r en k&#228;rnkraftsreaktor under 
+normaldrift, och
+
+2. med 2 320 000 kronor f&#246;r &#246;vriga k&#228;rntekniska anl&#228;ggningar.
+F&#246;rordning (2023:48).
+
+Konsultkostnader
+
+10 &#167; Den som ans&#246;ker om eller har tillst&#229;nd till k&#228;rnteknisk
+verksamhet ska ers&#228;tta Str&#229;ls&#228;kerhetsmyndighetens kostnader
+f&#246;r att anlita konsult i samband med s&#229;dan pr&#246;vning eller
+granskning som avses i 4-9 &#167;&#167; med avseende p&#229; den del av
+konsultkostnaderna som understiger 1 000 000 kronor, i den
+m&#229;n konsultarbetet kan h&#228;nf&#246;ras till en viss eller till vissa
+verksamheter. Ers&#228;ttningen betalas till
+Str&#229;ls&#228;kerhetsmyndigheten efter s&#228;rskild debitering.
+F&#246;rordning (2009:668).
+
+Tillsynsavgift
+
+11 &#167; Den som har tillst&#229;nd till k&#228;rnteknisk verksamhet ska 
+betala avgift f&#246;r Str&#229;ls&#228;kerhetsmyndighetens tillsyn &#246;ver att 
+lagen (1984:3) om k&#228;rnteknisk verksamhet, str&#229;lskyddslagen 
+(2018:396), f&#246;rordningen (1984:14) om k&#228;rnteknisk verksamhet 
+och str&#229;lskyddsf&#246;rordningen (2018:506) samt villkor och 
+f&#246;reskrifter som har meddelats med st&#246;d av dessa lagar och 
+f&#246;rordningar f&#246;ljs. Avgiften ska, efter s&#228;rskild debitering av 
+Str&#229;ls&#228;kerhetsmyndigheten, betalas f&#246;rskottsvis f&#246;r varje 
+kalenderkvartal
+
+1. med 4 730 000 kronor f&#246;r en k&#228;rnkraftsreaktor under 
+normaldrift, 
+
+2. med 1 626 000 kronor f&#246;r en anl&#228;ggning f&#246;r framst&#228;llning av 
+br&#228;nsle f&#246;r k&#228;rnkraftsreaktorer, 
+
+3. med 600 000 kronor f&#246;r en forsknings- och 
+materialprovningsreaktor under normaldrift, 
+
+4. med 1 626 000 kronor f&#246;r en anl&#228;ggning d&#228;r mer &#228;n 1 000 ton 
+anv&#228;nt k&#228;rnbr&#228;nsle mellanlagras, 
+
+5. med 350 000 kronor f&#246;r en anl&#228;ggning d&#228;r anv&#228;nt k&#228;rnbr&#228;nsle 
+mellanlagras och den lagrade m&#228;ngden inte &#246;verstiger 
+1 000 ton, 
+
+6. med 1 626 000 kronor f&#246;r en anl&#228;ggning f&#246;r slutf&#246;rvaring av 
+k&#228;rnavfall som inte utg&#246;r s&#229;dan markdeponering som avses i 5 &#167; 
+andra stycket 11, 
+
+7. med 400 000 kronor f&#246;r en anl&#228;ggning f&#246;r mellanlagring av 
+k&#228;rnavfall,
+
+8. med 867 000 kronor f&#246;r en anl&#228;ggning f&#246;r behandling av 
+k&#228;rn&#228;mne som inte utg&#246;r en anl&#228;ggning f&#246;r framst&#228;llning av 
+br&#228;nsle, 
+
+9. med 867 000 kronor f&#246;r en anl&#228;ggning f&#246;r behandling av 
+k&#228;rnavfall,
+
+10. med 812 000 kronor f&#246;r en k&#228;rnkraftsreaktor under 
+avveckling, 
+
+11. med 252 000 kronor f&#246;r en forsknings- och 
+materialprovningsreaktor under avveckling, och
+
+12. med 11 600 kronor f&#246;r en s&#229;dan markdeponering som avses i 
+5 &#167; andra stycket 11. 
+
+En avgift enligt f&#246;rsta stycket 1-4, 10 eller 11 omfattar &#228;ven 
+tillsyn &#246;ver anl&#228;ggningar f&#246;r mellanlagring eller behandling 
+av anv&#228;nt k&#228;rnbr&#228;nsle, k&#228;rn&#228;mne eller k&#228;rnavfall som finns 
+inom det anl&#228;ggningsomr&#229;de som omfattas av tillst&#229;ndet och som 
+tillst&#229;ndshavaren driver uteslutande i syfte att fullg&#246;ra sina 
+skyldigheter enligt 10 &#167; f&#246;rsta stycket 2 och 3 lagen om 
+k&#228;rnteknisk verksamhet. 
+
+Om en tillst&#229;ndshavare har flera anl&#228;ggningar f&#246;r 
+mellanlagring eller behandling av anv&#228;nt k&#228;rnbr&#228;nsle, k&#228;rn&#228;mne 
+eller k&#228;rnavfall inom ett och samma anl&#228;ggningsomr&#229;de, ska 
+avgift betalas endast f&#246;r den anl&#228;ggning som har den h&#246;gsta 
+avgiften. 
+
+Avgiftsskyldigheten intr&#228;der kalenderkvartalet efter det d&#229; 
+tillst&#229;ndet b&#246;rjade g&#228;lla och upph&#246;r fr&#229;n och med det 
+kalenderkvartal som f&#246;ljer efter det att tillst&#229;ndshavaren har 
+fullgjort sina skyldigheter enligt 10 &#167; lagen om k&#228;rnteknisk 
+verksamhet eller Str&#229;ls&#228;kerhetsmyndigheten har konstaterat att 
+fortl&#246;pande tillsyn med h&#228;nsyn till s&#228;kerheten och 
+str&#229;lskyddet inte l&#228;ngre beh&#246;vs. F&#246;rordning (2021:1312).
+
+11 a &#167; Den som har tillst&#229;nd att uppf&#246;ra, inneha eller driva
+en k&#228;rnkraftsreaktor som ers&#228;tter en permanent avst&#228;ngd
+k&#228;rnkraftsreaktor ska betala avgift enligt 11 &#167; endast fr&#229;n
+och med det kalenderkvartal som f&#246;ljer efter det att
+reaktorn tas i normaldrift. F&#246;rordning (2011:1568).
+
+11 b &#167; Den som har tillst&#229;nd till n&#229;gon s&#229;dan verksamhet som 
+avses i 5 a &#167; f&#246;rsta stycket 1-22 ska betala avgift f&#246;r 
+Str&#229;ls&#228;kerhetsmyndighetens kostnader f&#246;r tillsyn och andra 
+&#229;tg&#228;rder med anknytning till tillst&#229;ndet. Avgiften ska, efter 
+s&#228;rskild debitering av Str&#229;ls&#228;kerhetsmyndigheten, betalas f&#246;r 
+varje kalender&#229;r fr&#229;n och med det &#229;r som f&#246;ljer efter det att 
+beslut om tillst&#229;nd har getts med ett belopp som motsvarar den 
+g&#228;llande ans&#246;kningsavgiften f&#246;r verksamheten enligt 5 a &#167;. Om 
+ett tillst&#229;nd f&#246;rnyas, ska ingen avgift betalas f&#246;r det &#229;r d&#229; 
+ans&#246;kan om att f&#246;rnya tillst&#229;ndet gavs in.
+
+F&#246;r en verksamhet som avses i 5 a &#167; f&#246;rsta stycket 23 eller 24 
+ska avgift enligt f&#246;rsta stycket betalas f&#246;r varje p&#229;b&#246;rjat 
+kalender&#229;r fr&#229;n och med det &#229;r som f&#246;ljer efter det &#229;r d&#229; 
+ans&#246;kan om tillst&#229;nd gavs in.
+
+F&#246;rh&#229;llanden som &#228;r anm&#228;lda skriftligt till 
+Str&#229;ls&#228;kerhetsmyndigheten f&#246;re den 1 januari ska ligga till 
+grund f&#246;r ber&#228;kningen av avgiften. F&#246;rordning (2021:43).
+
+11 c &#167; Den som i annat fall &#228;n som avses i 11 b &#167; har 
+tillst&#229;nd till en verksamhet enligt str&#229;lskyddslagen 
+(2018:396), ska betala avgift med 1 400 kronor per timme f&#246;r 
+arbete med tillsyn och &#246;vriga &#229;tg&#228;rder med anknytning till 
+tillst&#229;ndet som Str&#229;ls&#228;kerhetsmyndigheten har utf&#246;rt. Avgiften 
+ska betalas till Str&#229;ls&#228;kerhetsmyndigheten efter s&#228;rskild 
+debitering. F&#246;rordning (2023:48).
+
+Beredskapsavgift
+
+12 &#167; Den som har tillst&#229;nd att uppf&#246;ra, inneha eller driva en 
+verksamhet som tillh&#246;r n&#229;gon av beredskapskategorierna 1 a-2 
+enligt den klassificering som f&#246;ljer av f&#246;reskrifter som 
+Str&#229;ls&#228;kerhetsmyndigheten har meddelat med st&#246;d av 4 kap. 9 &#167; 
+str&#229;lskyddsf&#246;rordningen (2018:506), ska betala 
+beredskapsavgift. Avgiften ska efter s&#228;rskild debitering av 
+Str&#229;ls&#228;kerhetsmyndigheten betalas f&#246;rskottsvis f&#246;r varje 
+kalenderkvartal
+
+1. med 8 400 000 kronor per tillst&#229;ndshavare med en eller 
+flera verksamheter i beredskapskategori 1 a inom samma 
+anl&#228;ggningsomr&#229;de,
+
+2. med 6 300 000 kronor per tillst&#229;ndshavare med en eller 
+flera verksamheter i beredskapskategori 1 b eller 1 c inom 
+samma anl&#228;ggningsomr&#229;de,
+
+3. med 270 000 kronor f&#246;r en k&#228;rnteknisk verksamhet i 
+beredskapskategori 2, och
+
+4. med 270 000 kronor f&#246;r en annan verksamhet i 
+beredskapskategori 2 &#228;n som avses i 3.
+
+Om en tillst&#229;ndshavare har flera verksamheter som omfattas av 
+en avgift enligt f&#246;rsta stycket inom ett och samma 
+anl&#228;ggningsomr&#229;de, ska avgift betalas med det belopp som &#228;r 
+h&#246;gst av de angivna beloppen.
+
+Avgiften ska betalas fr&#229;n och med det kalenderkvartal d&#229; en 
+anl&#228;ggning har tagits i provdrift. Avgiftsskyldigheten upph&#246;r 
+det kalenderkvartal som f&#246;ljer n&#228;rmast efter det att 
+Str&#229;ls&#228;kerhetsmyndigheten har konstaterat att verksamheten 
+inte l&#228;ngre tillh&#246;r n&#229;gon av beredskapskategorierna. 
+F&#246;rordning (2021:43).
+
+Avgift f&#246;r nukle&#228;r icke-spridningskontroll
+
+13 &#167; Den som har tillst&#229;nd till k&#228;rnteknisk verksamhet ska 
+betala en avgift f&#246;r den tillsyn som ut&#246;vas av 
+Str&#229;ls&#228;kerhetsmyndigheten enligt de internationella 
+&#246;verenskommelser i syfte att f&#246;rhindra spridning av k&#228;rnvapen 
+som Sverige tilltr&#228;tt. Avgiften ska, efter debitering av 
+Str&#229;ls&#228;kerhetsmyndigheten, betalas f&#246;r varje kalenderkvartal
+
+1. med 512 000 kronor f&#246;r en anl&#228;ggning f&#246;r framst&#228;llning av 
+br&#228;nsle f&#246;r k&#228;rnkraftsreaktorer,
+
+2. med 218 000 kronor f&#246;r en forsknings- och 
+materialprovningsreaktor,
+
+3. med 270 000 kronor f&#246;r en k&#228;rnkraftsreaktor, 
+
+4. med 265 000 kronor f&#246;r en anl&#228;ggning f&#246;r mellanlagring av 
+anv&#228;nt k&#228;rnbr&#228;nsle med en br&#228;nslem&#228;ngd som &#246;verstiger 1 000 
+ton, 
+
+5. med 13 000 kronor f&#246;r en anl&#228;ggning f&#246;r mellanlagring av 
+anv&#228;nt k&#228;rnbr&#228;nsle med en br&#228;nslem&#228;ngd som inte &#246;verstiger 
+1 000 ton, och 
+
+6. med 10 000 kronor f&#246;r en anl&#228;ggning f&#246;r annan behandling av 
+k&#228;rn&#228;mne &#228;n framst&#228;llning av br&#228;nsle. 
+
+Avgiften ska betalas fr&#229;n och med kalenderkvartalet efter det 
+att tillst&#229;ndet gavs till och med det kalenderkvartal som 
+f&#246;ljer n&#228;rmast efter det att Str&#229;ls&#228;kerhetsmyndigheten har 
+konstaterat att allt k&#228;rn&#228;mne avl&#228;gsnats fr&#229;n anl&#228;ggningen. 
+F&#246;r en k&#228;rnkraftsreaktor under uppf&#246;rande som ska ers&#228;tta en 
+permanent avst&#228;ngd reaktor ska avgiften betalas fr&#229;n och med 
+kalenderkvartalet efter att en ans&#246;kan om provdrift l&#228;mnats in 
+till Str&#229;ls&#228;kerhetsmyndigheten. F&#246;rordning (2019:1314).
+
+14 &#167; Den som i annat fall &#228;n som avses i 13 &#167; innehar ett 
+k&#228;rn&#228;mne ska betala avgift f&#246;r k&#228;rn&#228;mneskontroll med 
+1 400 kronor per timme f&#246;r kontroll som 
+Str&#229;ls&#228;kerhetsmyndigheten har utf&#246;rt. Avgiften ska betalas 
+till Str&#229;ls&#228;kerhetsmyndigheten efter s&#228;rskild debitering.
+F&#246;rordning (2023:48).
+
+Forskningsavgift
+
+15 &#167; Den som har tillst&#229;nd att uppf&#246;ra, inneha eller driva en 
+k&#228;rnkraftsreaktor ska betala avgift till 
+Str&#229;ls&#228;kerhetsmyndigheten f&#246;r den grundl&#228;ggande och till&#228;mpade 
+forskning samt de studier och utredningar som myndigheten 
+initierar i syfte att utveckla nationell kompetens och st&#246;dja 
+och utveckla myndighetens verksamhet inom de av myndighetens 
+ansvarsomr&#229;den som &#228;r relevanta f&#246;r den verksamhet som 
+tillst&#229;ndshavaren bedriver. Avgiften ska efter s&#228;rskild 
+debitering av Str&#229;ls&#228;kerhetsmyndigheten betalas f&#246;r varje 
+kalenderkvartal
+
+1. med 7 821 000 kronor f&#246;r en reaktor som &#228;r under uppf&#246;rande 
+fr&#229;n och med det kalenderkvartal som f&#246;ljer efter det att 
+Str&#229;ls&#228;kerhetsmyndigheten har godk&#228;nt att anl&#228;ggningen f&#229;r 
+b&#246;rja uppf&#246;ras till och med det kalenderkvartal d&#229; reaktorn 
+tas i normaldrift,
+
+2. med 1 850 000 kronor f&#246;r varje annan reaktor &#228;n en s&#229;dan 
+som avses i 1 fr&#229;n och med det kalenderkvartal som f&#246;ljer 
+efter det att den tas i normaldrift fram till det 
+kalenderkvartal som f&#246;ljer efter det att den &#228;r permanent 
+avst&#228;ngd, och
+
+3. med 388 000 kronor f&#246;r en reaktor som &#228;r permanent avst&#228;ngd 
+och d&#228;r k&#228;rn&#228;mne i form av anv&#228;nt k&#228;rnbr&#228;nsle finns kvar f&#246;r 
+den tid d&#229; avgift inte betalas enligt 2.
+
+Avgiftsskyldigheten upph&#246;r det kalenderkvartal som f&#246;ljer 
+efter det att tillst&#229;ndshavaren har fullgjort sina 
+skyldigheter enligt 10 &#167; lagen (1984:3) om k&#228;rnteknisk 
+verksamhet. F&#246;rordning (2024:2).
+
+Avgift f&#246;r anm&#228;lningspliktig verksamhet
+
+16 &#167; Den som anm&#228;ler en verksamhet med str&#229;lning enligt 
+f&#246;reskrifter som Str&#229;ls&#228;kerhetsmyndigheten har meddelat med 
+st&#246;d av 5 kap. 3, 4 eller 14 &#167; str&#229;lskyddsf&#246;rordningen 
+(2018:506), ska betala avgift f&#246;r Str&#229;ls&#228;kerhetsmyndighetens 
+kostnader f&#246;r handl&#228;ggning av anm&#228;lan samt f&#246;r tillsyn och 
+andra &#229;tg&#228;rder med anknytning till verksamheten. Avgiften ska 
+betalas till Str&#229;ls&#228;kerhetsmyndigheten n&#228;r anm&#228;lan ges in. 
+Avgiften &#228;r 1 850 kronor f&#246;r varje
+
+1. anm&#228;lningspliktig verksamhet med laser,
+
+2. anm&#228;lningspliktig verksamhet med mikrov&#229;gstorkning,
+
+3. teknisk anordning som kan alstra joniserande str&#229;lning i en 
+anm&#228;lningspliktig verksamhet,
+
+4. anm&#228;lningspliktig verksamhet med komponenter som &#228;r 
+tillverkade f&#246;r att ing&#229; i tekniska anordningar som kan alstra 
+joniserande str&#229;lning,
+
+5. anm&#228;lningspliktig verksamhet med &#246;ppna str&#229;lk&#228;llor,
+
+6. anm&#228;lningspliktig verksamhet med handel med radioaktiva 
+&#228;mnen eller tekniska anordningar som kan alstra joniserande 
+str&#229;lning,
+
+7. sluten str&#229;lk&#228;lla i en anm&#228;lningspliktig verksamhet,
+
+8. anm&#228;lningspliktig verksamhet med ett eller flera medicinska 
+solarier,
+
+9. anm&#228;lningspliktig verksamhet med hantering av naturligt 
+f&#246;rekommande radioaktivt material,
+
+10. anm&#228;lningspliktig verksamhet med detektorer med 
+elektroninf&#229;ngning (EC-detektorer) som har en aktivitet som &#228;r 
+h&#246;gst 2 gigabecquerel,
+
+11. anm&#228;lningspliktig verksamhet med jonisatorer som har en 
+aktivitet som &#228;r h&#246;gst 2 gigabecquerel, och
+
+12. anm&#228;lningspliktig verksamhet med kalibreringsstr&#229;lk&#228;llor 
+som har en aktivitet som &#228;r h&#246;gst 100 kilobecquerel eller 
+slutna str&#229;lk&#228;llor som anv&#228;nds f&#246;r nuklearmedicin.
+F&#246;rordning (2024:2).
+
+17 &#167; Den som enligt f&#246;reskrifter som Str&#229;ls&#228;kerhetsmyndigheten 
+har meddelat med st&#246;d av 5 kap. 7 &#167; str&#229;lskyddsf&#246;rordningen 
+(2018:506) ansvarar f&#246;r att anm&#228;la en verksamhet med 
+arbetsplatser, d&#228;r aktivitetskoncentrationen f&#246;r radon 
+&#246;verstiger referensniv&#229;n 200 becquerel per kubikmeter, ska 
+betala avgift med 3 700 kronor f&#246;r Str&#229;ls&#228;kerhetsmyndighetens 
+kostnader f&#246;r handl&#228;ggning av anm&#228;lan samt f&#246;r tillsyn och 
+andra &#229;tg&#228;rder med anknytning till verksamheten. Avgiften ska 
+betalas till Str&#229;ls&#228;kerhetsmyndigheten n&#228;r anm&#228;lan ges in.
+F&#246;rordning (2023:48).
+
+18 &#167; Den som ansvarar f&#246;r en verksamhet som avses i 17 &#167; med 
+arbetsst&#228;llen, d&#228;r arbetstagare riskerar att f&#229; en 
+radonexponering som &#246;verstiger 0,72 megabecquereltimmar per 
+kubikmeter, ska f&#246;r varje s&#229;dant arbetsst&#228;lle betala avgift 
+med 35 000 kronor f&#246;r Str&#229;ls&#228;kerhetsmyndighetens kostnader f&#246;r 
+handl&#228;ggning av anm&#228;lan samt f&#246;r tillsyn och andra &#229;tg&#228;rder 
+med anknytning till verksamheten. Avgiften ska betalas till 
+Str&#229;ls&#228;kerhetsmyndigheten efter s&#228;rskild debitering f&#246;r varje 
+p&#229;b&#246;rjat kalender&#229;r fr&#229;n och med det &#229;r d&#229; anm&#228;lan ges in.
+F&#246;rordning (2021:1312).
+
+Neds&#228;ttning av avgift
+
+19 &#167; Om det finns s&#228;rskilda sk&#228;l, f&#229;r
+Str&#229;ls&#228;kerhetsmyndigheten i det enskilda fallet s&#228;tta ned
+eller eftersk&#228;nka en avgift.
+
+Verkst&#228;llighetsf&#246;reskrifter
+
+20 &#167; Str&#229;ls&#228;kerhetsmyndigheten f&#229;r meddela de f&#246;reskrifter
+som beh&#246;vs f&#246;r till&#228;mpningen av denna f&#246;rordning.
+
+&#214;verklagande
+
+21 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser 
+om &#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol.
+F&#246;rordning (2018:1035).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2008:463
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2008, d&#229;
+f&#246;rordningen (1976:247) om vissa avgifter till Statens
+str&#229;lskyddsinstitut och f&#246;rordningen (1991:739) om vissa
+avgifter till Statens k&#228;rnkraftinspektion ska upph&#246;ra att
+g&#228;lla.
+
+2. Avgifter som f&#246;re den 1 juli 2008 har debiterats av
+Statens k&#228;rnkraftinspektion eller Statens str&#229;lskyddsinstitut
+ska i den m&#229;n betalning inte har skett f&#246;re detta datum
+betalas till Str&#229;ls&#228;kerhetsmyndigheten.
+
+3. I fr&#229;ga om avgift som avser tiden f&#246;re den 1 juli 2008 ska
+Str&#229;ls&#228;kerhetsmyndigheten till&#228;mpa &#228;ldre best&#228;mmelser.
+
+2009:668
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2009.
+
+2. Avgift enligt 12 &#167; f&#246;r tredje kalenderkvartalet 2009 f&#229;r i
+den del avgiften har h&#246;jts genom denna f&#246;rordning betalas i
+efterskott efter s&#228;rskild debitering.
+
+2024:2
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 30 januari 2024.
+
+2. Best&#228;mmelsen i 15 &#167; i den nya lydelsen till&#228;mpas dock f&#246;r 
+tid fr&#229;n och med den 1 januari 2024.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1973">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1975">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,768 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-20" /> 
+ <meta id="rattsinfo-edited" content="2023-01-20 13:42:48" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>413</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=412">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=414">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2021:143 ·
+                    <a href="/sfsr?bet=2021:143">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2021:143) om oms&#228;ttningsst&#246;d till enskilda n&#228;ringsidkare</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSN
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2021-02-26
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:87
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2021-03-02
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om ekonomiskt 
+st&#246;d till fysiska personer som bedriver n&#228;ringsverksamhet 
+(enskild n&#228;ringsidkare) och vars nettooms&#228;ttning har minskat i 
+st&#246;rre omfattning till f&#246;ljd av spridningen av sjukdomen 
+covid-19.
+
+2 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen. 
+
+Mottagare av st&#246;d
+
+3 &#167; St&#246;d enligt denna f&#246;rordning f&#229;r l&#228;mnas till en enskild 
+n&#228;ringsidkare som vid tidpunkten f&#246;r ans&#246;kan 
+
+1. bedriver s&#229;dan n&#228;ringsverksamhet i Sverige som avses i 
+13 kap. 1 &#167; inkomstskattelagen (1999:1229), och
+
+2. &#228;r godk&#228;nd f&#246;r F-skatt enligt 9 kap. 1 &#167; 
+skattef&#246;rfarandelagen (2011:1244).
+
+St&#246;dperioder
+
+4 &#167; St&#246;dperioder enligt denna f&#246;rordning &#228;r
+
+1. augusti-oktober 2020,
+
+2. november och december 2020,
+
+3. januari och februari 2021, 
+
+4. mars 2021, 
+
+5. april 2021, 
+
+6. maj 2021, 
+
+7. juni 2021, 
+
+8. juli 2021, 
+
+9. augusti 2021, 
+
+10. september 2021, 
+
+11. december 2021, 
+
+12. januari 2022, och 
+
+13. februari 2022. 
+
+En st&#246;dperiods motsvarande m&#229;nad eller m&#229;nader 2019 utg&#246;r 
+st&#246;dperiodens referensperiod.
+
+Om den enskilda n&#228;ringsidkaren f&#229;tt f&#246;r&#228;ldrapenning eller 
+sjukpenning enligt socialf&#246;rs&#228;kringsbalken under sammanlagt 
+mer &#228;n 25 procent av antalet kalenderdagar under den 
+referensperiod som avses i andra stycket f&#229;r i st&#228;llet 
+st&#246;dperiodens motsvarande m&#229;nader 2018 utg&#246;ra st&#246;dperiodens 
+referensperiod (alternativ referensperiod). Vid ber&#228;kningen av 
+antalet kalenderdagar med f&#246;r&#228;ldrapenning eller sjukpenning 
+ska 12 kap. 32 &#167; socialf&#246;rs&#228;kringsbalken till&#228;mpas.
+F&#246;rordning (2022:87).
+
+F&#246;ruts&#228;ttningar f&#246;r st&#246;d
+
+5 &#167; En enskild n&#228;ringsidkare har efter ans&#246;kan r&#228;tt till 
+oms&#228;ttningsst&#246;d f&#246;r st&#246;dperioden augusti-oktober 2020 om den 
+enskilda n&#228;ringsidkarens sammanlagda nettooms&#228;ttning f&#246;r denna 
+period understiger 60 procent av den sammanlagda 
+nettooms&#228;ttningen f&#246;r referensperioden.
+
+F&#246;r andra st&#246;dperioder &#228;n den som avses i f&#246;rsta stycket har 
+en enskild n&#228;ringsidkare efter ans&#246;kan r&#228;tt till 
+oms&#228;ttningsst&#246;d om den enskilda n&#228;ringsidkarens sammanlagda 
+nettooms&#228;ttning f&#246;r respektive st&#246;dperiod understiger 
+70 procent av den sammanlagda nettooms&#228;ttningen f&#246;r 
+referensperioden. F&#246;rordning (2021:417).
+
+6 &#167; Som f&#246;ruts&#228;ttning f&#246;r st&#246;d g&#228;ller &#228;ven att
+
+1. nedg&#229;ngen i nettooms&#228;ttning s&#229; gott som uteslutande &#228;r 
+orsakad av effekterna av spridningen av sjukdomen covid-19,
+
+2. den enskilda n&#228;ringsidkarens nettooms&#228;ttning under det 
+r&#228;kenskaps&#229;r som avslutats den 31 december 2019 uppgick till 
+minst 200 000 kronor f&#246;r en s&#229;dan st&#246;dperiod som anges i 4 &#167; 
+f&#246;rsta stycket 1 och till minst 180 000 kronor f&#246;r en s&#229;dan 
+st&#246;dperiod som anges i 4 &#167; f&#246;rsta stycket 2-13, 
+
+3. st&#246;det f&#246;r st&#246;dperioden, ber&#228;knat enligt 10-14 a &#167;&#167;, per 
+enskild n&#228;ringsidkare uppg&#229;r till minst 3 000 kronor f&#246;r en 
+s&#229;dan st&#246;dperiod som anges i 4 &#167; f&#246;rsta stycket 1, till minst 
+2 000 kronor f&#246;r en s&#229;dan st&#246;dperiod som anges i 4 &#167; f&#246;rsta 
+stycket 2 och 3 och till minst 1 000 kronor f&#246;r en s&#229;dan 
+st&#246;dperiod som anges i 4 &#167; f&#246;rsta stycket 4-13, och
+
+4. den enskilda n&#228;ringsidkaren har gjort vad som sk&#228;ligen kan 
+kr&#228;vas f&#246;r att utt&#246;mma m&#246;jligheterna till 
+f&#246;rs&#228;kringsers&#228;ttning, skadest&#229;nd och liknande ers&#228;ttning f&#246;r 
+s&#229;dan f&#246;rlorad oms&#228;ttning som st&#246;det ska ber&#228;knas p&#229;.
+
+Om r&#228;kenskaps&#229;ret som avses i f&#246;rsta stycket 2 &#228;r l&#228;ngre eller 
+kortare &#228;n tolv m&#229;nader, ska kravet p&#229; minsta nettooms&#228;ttning 
+justeras i motsvarande m&#229;n.
+
+Om en alternativ referensperiod ska till&#228;mpas ska 
+r&#228;kenskaps&#229;ret som avses i f&#246;rsta stycket 2 i st&#228;llet avse det 
+r&#228;kenskaps&#229;r som avslutats den 31 december 2018.
+F&#246;rordning (2022:87).
+
+7 &#167; Med nettooms&#228;ttning avses int&#228;kter fr&#229;n s&#229;lda varor och 
+utf&#246;rda tj&#228;nster som ing&#229;r i den enskilda n&#228;ringsidkarens 
+normala verksamhet med avdrag f&#246;r l&#228;mnade rabatter, 
+merv&#228;rdesskatt och annan skatt som &#228;r direkt knuten till 
+oms&#228;ttningen, under f&#246;ruts&#228;ttning att int&#228;kterna &#228;r h&#228;nf&#246;rliga 
+till en n&#228;ringsverksamhet som bedrivs i Sverige. Int&#228;kter fr&#229;n 
+finansiella instrument och valutahandel ing&#229;r dock inte i 
+nettooms&#228;ttningen. 
+
+En int&#228;kt ska anses h&#228;nf&#246;rlig till den m&#229;nad som den hade 
+ansetts bel&#246;pa sig p&#229; om varje kalenderm&#229;nad hade utgjort ett 
+separat r&#228;kenskaps&#229;r f&#246;r den enskilda n&#228;ringsidkaren, med 
+till&#228;mpning av de redovisningsprinciper som den enskilda 
+n&#228;ringsidkaren till&#228;mpat f&#246;r det r&#228;kenskaps&#229;r som avslutats 
+den 31 december 2019.
+
+Om nettooms&#228;ttningen f&#246;r en st&#246;dperiod eller en 
+referensperiod, vid en ber&#228;kning enligt f&#246;rsta och andra 
+styckena, uppg&#229;r till ett negativt belopp ska 
+nettooms&#228;ttningen f&#246;r den perioden anses vara noll kronor.
+
+Om en alternativ referensperiod ska till&#228;mpas ska 
+r&#228;kenskaps&#229;ret som avses i andra stycket i st&#228;llet avse det 
+r&#228;kenskaps&#229;r som avslutats den 31 december 2018. 
+
+8 &#167; St&#246;d f&#229;r inte l&#228;mnas om den enskilda n&#228;ringsidkaren vid 
+tidpunkten f&#246;r ans&#246;kan
+
+1. &#228;r f&#246;rsatt i konkurs, eller
+
+2. har n&#228;ringsf&#246;rbud.
+
+9 &#167; St&#246;d f&#229;r endast l&#228;mnas i enlighet med de villkor som anges 
+i Europeiska kommissionens f&#246;rordningar om st&#246;d av mindre 
+betydelse. 
+
+Med f&#246;rordningar om st&#246;d av mindre betydelse avses i denna 
+f&#246;rordning
+
+1. Europeiska kommissionens f&#246;rordning (EU) nr 1407/2013 av 
+den 18 december 2013 om till&#228;mpningen av artiklarna 107 och 
+108 i f&#246;rdraget om Europeiska unionens funktionss&#228;tt p&#229; st&#246;d 
+av mindre betydelse,
+
+2. Europeiska kommissionens f&#246;rordning (EU) nr 1408/2013 av 
+den 18 december 2013 om till&#228;mpningen av artiklarna 107 och 
+108 i f&#246;rdraget om Europeiska unionens funktionss&#228;tt p&#229; st&#246;d 
+av mindre betydelse inom jordbrukssektorn, och 
+
+3. Europeiska kommissionens f&#246;rordning (EU) nr 717/2014 av den 
+27 juni 2014 om till&#228;mpningen av artiklarna 107 och 108 i 
+f&#246;rdraget om Europeiska unionens funktionss&#228;tt p&#229; st&#246;d av 
+mindre betydelse inom fiskeri- och vattenbrukssektorn.
+
+Vid ber&#228;kningen av det totala st&#246;d som f&#229;r l&#228;mnas till olika 
+f&#246;retag, eller ett och samma f&#246;retag, inom jordbrukssektorn 
+ska de beloppsgr&#228;nser som anges i bilaga I samt artikel 3.2 i 
+kommissionens f&#246;rordning (EU) nr 1408/2013 till&#228;mpas.
+
+St&#246;dets storlek 
+
+10 &#167; F&#246;r st&#246;dperioden augusti-oktober 2020 l&#228;mnas st&#246;d med 
+75 procent av skillnaden i nettooms&#228;ttning mellan 
+st&#246;dperiodens referensperiod och st&#246;dperioden. 
+
+F&#246;r andra st&#246;dperioder &#228;n den som avses i f&#246;rsta stycket 
+l&#228;mnas st&#246;d med 90 procent av skillnaden i nettooms&#228;ttning 
+mellan st&#246;dperiodens referensperiod och st&#246;dperioden. 
+F&#246;rordning (2021:417).
+
+11 &#167; St&#246;det ska minskas med belopp som den enskilda 
+n&#228;ringsidkaren f&#229;tt eller kommer att f&#229; i
+
+1. f&#246;rs&#228;kringsers&#228;ttning, skadest&#229;nd och annan liknande 
+ers&#228;ttning f&#246;r s&#229;dan f&#246;rlorad oms&#228;ttning som st&#246;det ber&#228;knas 
+p&#229;, eller
+
+2. st&#246;d enligt f&#246;rordningen (2020:246) om statligt st&#246;d f&#246;r 
+kulturevenemang som har st&#228;llts in eller skjutits upp med 
+anledning av spridningen av sjukdomen covid-19 om st&#246;det 
+l&#228;mnats f&#246;r den st&#246;dperiod ans&#246;kan avser. 
+
+12 &#167; St&#246;det ska &#228;ven minskas med 
+
+1. st&#246;dbelopp som den enskilda n&#228;ringsidkaren tagit emot f&#246;r 
+motsvarande st&#246;dperiod enligt f&#246;rordningen (2021:126) om 
+ordinarie omst&#228;llningsst&#246;d, 
+
+2. arbetsl&#246;shetsers&#228;ttning som den enskilda n&#228;ringsidkaren 
+tagit emot enligt lagen (1997:238) om arbetsl&#246;shetsf&#246;rs&#228;kring 
+om ers&#228;ttningen l&#228;mnats f&#246;r den st&#246;dperiod ans&#246;kan avser, 
+eller 
+
+3. oms&#228;ttningsst&#246;d som den enskilda n&#228;ringsidkaren tagit emot 
+f&#246;r motsvarande st&#246;dperiod enligt denna f&#246;rordning. 
+F&#246;rordning (2022:83).
+
+13 &#167; F&#246;r st&#246;dperioden augusti-oktober 2020 l&#228;mnas st&#246;d med 
+h&#246;gst 72 000 kronor per n&#228;ringsidkare. 
+
+Om den enskilda n&#228;ringsidkaren tagit emot 
+arbetsl&#246;shetsers&#228;ttning under mer &#228;n 10 procent men mindre &#228;n 
+50 procent av antalet kalenderdagar under st&#246;dperioden f&#229;r 
+st&#246;d l&#228;mnas med h&#246;gst 54 000 kronor. Om den enskilda 
+n&#228;ringsidkaren tagit emot arbetsl&#246;shetsers&#228;ttning under minst 
+50 procent av antalet kalenderdagar under st&#246;dperioden f&#229;r 
+st&#246;d l&#228;mnas med h&#246;gst 36 000 kronor. 
+
+14 &#167; F&#246;r st&#246;dperioden november och december 2020 och f&#246;r 
+st&#246;dperioden januari och februari 2021 l&#228;mnas st&#246;d med h&#246;gst 
+48 000 kronor per n&#228;ringsidkare och st&#246;dperiod.
+
+Om den enskilda n&#228;ringsidkaren tagit emot 
+arbetsl&#246;shetsers&#228;ttning under mer &#228;n 10 procent men mindre &#228;n 
+50 procent av antalet kalenderdagar under den aktuella 
+st&#246;dperioden f&#229;r st&#246;d l&#228;mnas med h&#246;gst 36 000 kronor. Om den 
+enskilda n&#228;ringsidkaren tagit emot arbetsl&#246;shetsers&#228;ttning 
+under minst 50 procent av antalet kalenderdagar under den 
+aktuella st&#246;dperioden f&#229;r st&#246;d l&#228;mnas med h&#246;gst 24 000 kronor. 
+
+14 a &#167; F&#246;r st&#246;dperioden mars 2021, april 2021, maj 2021, juni 
+2021, juli 2021, augusti 2021, september 2021, december 2021, 
+januari 2022 respektive februari 2022 l&#228;mnas st&#246;d med h&#246;gst 
+24 000 kronor per n&#228;ringsidkare och st&#246;dperiod.
+
+Om den enskilda n&#228;ringsidkaren tagit emot 
+arbetsl&#246;shetsers&#228;ttning under mer &#228;n 10 procent men mindre &#228;n 
+50 procent av antalet kalenderdagar under den aktuella 
+st&#246;dperioden f&#229;r st&#246;d l&#228;mnas med h&#246;gst 18 000 kronor. Om den 
+enskilda n&#228;ringsidkaren tagit emot arbetsl&#246;shetsers&#228;ttning 
+under minst 50 procent av antalet kalenderdagar under den 
+aktuella st&#246;dperioden f&#229;r st&#246;d l&#228;mnas med h&#246;gst 12 000 kronor.
+F&#246;rordning (2022:87).
+
+Handl&#228;ggning av st&#246;d&#228;renden
+
+15 &#167; Fr&#229;gor om st&#246;d enligt denna f&#246;rordning pr&#246;vas av 
+
+1. L&#228;nsstyrelsen i Stockholms l&#228;n om den enskilda 
+n&#228;ringsidkaren vid ans&#246;kningstillf&#228;llet &#228;r folkbokf&#246;rd i 
+Stockholms, Uppsala, S&#246;dermanlands, Gotlands eller 
+V&#228;stmanlands l&#228;n,
+
+2. L&#228;nsstyrelsen i &#214;sterg&#246;tlands l&#228;n om den enskilda 
+n&#228;ringsidkaren vid ans&#246;kningstillf&#228;llet &#228;r folkbokf&#246;rd i 
+&#214;sterg&#246;tlands, J&#246;nk&#246;pings eller Kalmar l&#228;n, 
+
+3. L&#228;nsstyrelsen i Sk&#229;ne l&#228;n om den enskilda n&#228;ringsidkaren 
+vid ans&#246;kningstillf&#228;llet &#228;r folkbokf&#246;rd i Kronobergs, Blekinge 
+eller Sk&#229;ne l&#228;n, 
+
+4. L&#228;nsstyrelsen i V&#228;stra G&#246;talands l&#228;n om den enskilda 
+n&#228;ringsidkaren vid ans&#246;kningstillf&#228;llet &#228;r folkbokf&#246;rd i 
+Hallands eller V&#228;stra G&#246;talands l&#228;n, 
+
+5. L&#228;nsstyrelsen i Dalarnas l&#228;n om den enskilda n&#228;ringsidkaren 
+vid ans&#246;kningstillf&#228;llet &#228;r folkbokf&#246;rd i V&#228;rmlands, &#214;rebro, 
+Dalarnas eller G&#228;vleborgs l&#228;n, 
+
+6. L&#228;nsstyrelsen i V&#228;sternorrlands l&#228;n om den enskilda 
+n&#228;ringsidkaren vid ans&#246;kningstillf&#228;llet &#228;r folkbokf&#246;rd i 
+J&#228;mtlands eller V&#228;sternorrlands l&#228;n, och
+
+7. L&#228;nsstyrelsen i Norrbottens l&#228;n om den enskilda 
+n&#228;ringsidkaren vid ans&#246;kningstillf&#228;llet &#228;r folkbokf&#246;rd i 
+V&#228;sterbottens eller Norrbottens l&#228;n. 
+
+Om den enskilda n&#228;ringsidkaren inte &#228;r folkbokf&#246;rd i Sverige 
+pr&#246;vas fr&#229;gor om st&#246;d enligt denna f&#246;rordning av L&#228;nsstyrelsen 
+i &#214;sterg&#246;tlands l&#228;n.
+
+L&#228;nsstyrelsen i &#214;sterg&#246;tlands l&#228;n samordnar l&#228;nsstyrelsernas 
+arbete med st&#246;det.
+
+16 &#167; En ans&#246;kan om st&#246;d ska inneh&#229;lla f&#246;ljande uppgifter:
+
+1. den enskilda n&#228;ringsidkarens nettooms&#228;ttning under det 
+r&#228;kenskaps&#229;r som avslutats den 31 december 2019, 
+
+2. nedg&#229;ngen i den enskilda n&#228;ringsidkarens nettooms&#228;ttning 
+vid en j&#228;mf&#246;relse mellan nettooms&#228;ttningen f&#246;r st&#246;dperioden 
+och nettooms&#228;ttningen f&#246;r referensperioden,
+
+3. om nedg&#229;ngen i nettooms&#228;ttningen &#228;r orsakad av effekterna 
+av spridningen av sjukdomen covid-19, 
+
+4. f&#246;rs&#228;kringsers&#228;ttning, skadest&#229;nd och annan liknande 
+ers&#228;ttning f&#246;r s&#229;dan f&#246;rlorad oms&#228;ttning som st&#246;det ska 
+ber&#228;knas p&#229;, 
+
+5. st&#246;d enligt f&#246;rordningen (2020:246) om statligt st&#246;d f&#246;r 
+kulturevenemang som har st&#228;llts in eller skjutits upp med 
+anledning av spridningen av sjukdomen covid-19, 
+
+6. om den enskilda n&#228;ringsidkaren har f&#246;r avsikt att s&#246;ka, har 
+ans&#246;kt om eller f&#229;tt beslut om st&#246;d f&#246;r den aktuella 
+st&#246;dperioden enligt f&#246;rordningen (2021:126) om ordinarie 
+omst&#228;llningsst&#246;d, 
+
+7. om den enskilda n&#228;ringsidkaren f&#246;r den aktuella 
+st&#246;dperioden har f&#246;r avsikt att s&#246;ka, har ans&#246;kt om eller f&#229;tt 
+beslut om arbetsl&#246;shetsers&#228;ttning enligt lagen (1997:238) om 
+arbetsl&#246;shetsf&#246;rs&#228;kring, 
+
+8. om den enskilda n&#228;ringsidkaren f&#246;r den aktuella 
+st&#246;dperioden har ans&#246;kt om eller f&#229;tt beslut om 
+oms&#228;ttningsst&#246;d enligt denna f&#246;rordning,
+
+9. annat st&#246;d som l&#228;mnats enligt kommissionens f&#246;rordningar om 
+st&#246;d av mindre betydelse som den enskilda n&#228;ringsidkaren har 
+f&#229;tt under de tv&#229; f&#246;reg&#229;ende beskattnings&#229;ren och det 
+innevarande beskattnings&#229;ret, 
+
+10. om den enskilda n&#228;ringsidkaren &#228;r f&#246;rsatt i konkurs eller 
+har n&#228;ringsf&#246;rbud, och 
+
+11. de &#246;vriga uppgifter som l&#228;nsstyrelsen beh&#246;ver f&#246;r att 
+kunna fatta beslut om st&#246;d. 
+
+Om en alternativ referensperiod ska till&#228;mpas ska ans&#246;kan &#228;ven 
+inneh&#229;lla uppgifter om antalet kalenderdagar som den enskilda 
+n&#228;ringsidkaren har f&#229;tt f&#246;r&#228;ldrapenning eller sjukpenning 
+under den referensperiod som avses i 4 &#167; andra stycket. 
+Ans&#246;kan ska vidare, i st&#228;llet f&#246;r de uppgifter som avses i 
+f&#246;rsta stycket 1, inneh&#229;lla uppgift om den enskilda 
+n&#228;ringsidkarens nettooms&#228;ttning under det r&#228;kenskaps&#229;r som 
+avslutats den 31 december 2018. 
+
+Uppgifterna i en ans&#246;kan om oms&#228;ttningsst&#246;d ska l&#228;mnas p&#229; 
+heder och samvete. F&#246;rordning (2022:83).
+
+17 &#167; En ans&#246;kan om st&#246;d ska l&#228;mnas p&#229; ett formul&#228;r som 
+fastst&#228;lls av Boverket. Ans&#246;kan om st&#246;d ska ha inkommit till 
+den l&#228;nsstyrelse som anges i 15 &#167; 
+
+1. senast den 30 april 2021, om ans&#246;kan avser en s&#229;dan 
+st&#246;dperiod som anges i 4 &#167; f&#246;rsta stycket 1-3, 
+
+2. senast den 15 september 2021, om ans&#246;kan avser en s&#229;dan 
+st&#246;dperiod som anges i 4 &#167; f&#246;rsta stycket 4-7, 
+
+3. senast den 30 november 2021, om ans&#246;kan avser en s&#229;dan 
+st&#246;dperiod som anges i 4 &#167; f&#246;rsta stycket 8-10, 
+
+4. senast den 30 april 2022, om ans&#246;kan avser en s&#229;dan 
+st&#246;dperiod som anges i 4 &#167; f&#246;rsta stycket 11 och 12, och
+
+5. under perioden 1 mars till och med 30 april 2022, om 
+ans&#246;kan avser en s&#229;dan st&#246;dperiod som anges i 4 &#167; f&#246;rsta 
+stycket 13. F&#246;rordning (2022:87).
+
+17 a &#167; Trots 17 &#167; 1 ska en ans&#246;kan som avser en s&#229;dan 
+st&#246;dperiod som anges i 4 &#167; f&#246;rsta stycket 1-3 och som avser 
+till&#228;mpningen av en alternativ referensperiod enligt 4 &#167; 
+tredje stycket ha inkommit till den l&#228;nsstyrelse som anges i 
+15 &#167; senast den 15 januari 2022. 
+
+Om en ans&#246;kan som avser en s&#229;dan st&#246;dperiod har kommit in 
+tidigare till l&#228;nsstyrelsen i enlighet med best&#228;mmelserna i 
+17 &#167; 1 och det &#228;rendet &#228;nnu inte har avgjorts, ska ans&#246;kan 
+enligt f&#246;rsta stycket ers&#228;tta den tidigare inl&#228;mnade ans&#246;kan. 
+
+En ans&#246;kan enligt f&#246;rsta stycket f&#229;r pr&#246;vas &#228;ven om st&#246;d f&#246;r 
+samma st&#246;dperiod redan har beviljats och det tidigare beslutet 
+har &#246;verklagats. F&#246;rordning (2021:1066).
+
+18 &#167; Till ans&#246;kan ska det bifogas ett utdrag ur bokf&#246;ringen 
+f&#246;r det r&#228;kenskaps&#229;r som avslutats den 31 december 2019. Till 
+ans&#246;kan ska &#228;ven bifogas de ytterligare handlingar som anges i 
+ans&#246;kningsformul&#228;ret.
+
+Om en alternativ referensperiod ska till&#228;mpas ska utdraget ur 
+bokf&#246;ringen som avses i f&#246;rsta stycket i st&#228;llet avse det 
+r&#228;kenskaps&#229;r som avslutats den 31 december 2018. 
+
+19 &#167; Den enskilda n&#228;ringsidkaren ska p&#229; beg&#228;ran av 
+l&#228;nsstyrelsen l&#228;mna de ytterligare handlingar eller uppgifter 
+som beh&#246;vs f&#246;r pr&#246;vningen.
+
+20 &#167; En enskild n&#228;ringsidkare som har ans&#246;kt om st&#246;d eller 
+beviljats st&#246;d enligt denna f&#246;rordning ska till l&#228;nsstyrelsen 
+anm&#228;la om de uppgifter som l&#228;mnats till l&#228;nsstyrelsen visar 
+sig vara felaktiga eller om det intr&#228;ffat s&#229;dana f&#246;r&#228;ndringar 
+som kan p&#229;verka r&#228;tten till st&#246;d eller st&#246;dets storlek. 
+
+21 &#167; Innan ett st&#246;d beviljas ska l&#228;nsstyrelsen l&#228;mna de 
+upplysningar till den enskilda n&#228;ringsidkaren som framg&#229;r av 
+artikel 6.1 i kommissionens f&#246;rordningar (EU) nr 1407/2013, 
+1408/2013 och 717/2014.
+
+22 &#167; Om den enskilda n&#228;ringsidkaren har f&#246;r avsikt att s&#246;ka 
+eller har ans&#246;kt om st&#246;d enligt f&#246;rordningen (2021:126) om 
+ordinarie omst&#228;llningsst&#246;d ska l&#228;nsstyrelsen, om de s&#246;kta 
+st&#246;dperioderna sammanfaller, avvakta med att fatta beslut i 
+fr&#229;gan om oms&#228;ttningsst&#246;d till dess beslut om omst&#228;llningsst&#246;d 
+har fattats.
+
+Om den enskilda n&#228;ringsidkaren har f&#246;r avsikt att s&#246;ka eller 
+har ans&#246;kt om arbetsl&#246;shetsers&#228;ttning enligt lagen (1997:238) 
+om arbetsl&#246;shetsf&#246;rs&#228;kring ska l&#228;nsstyrelsen, om de s&#246;kta 
+st&#246;dperioderna sammanfaller med perioderna f&#246;r 
+arbetsl&#246;shetsers&#228;ttning, avvakta med att fatta beslut i fr&#229;gan 
+om oms&#228;ttningsst&#246;d till dess beslut om arbetsl&#246;shetsers&#228;ttning 
+har fattats. F&#246;rordning (2022:83).
+
+23 &#167; Av beslutet om st&#246;d ska det framg&#229; 
+
+1. vilken eller vilka st&#246;dperioder beslutet avser, och
+
+2. st&#246;dbelopp f&#246;r respektive st&#246;dperiod.
+
+Utbetalning av st&#246;d
+
+24 &#167; Boverket betalar ut st&#246;d enligt denna f&#246;rordning.
+
+Uppf&#246;ljning av utbetalt st&#246;d 
+
+25 &#167; L&#228;nsstyrelsen ansvarar f&#246;r uppf&#246;ljning av st&#246;d som 
+betalats ut enligt denna f&#246;rordning.
+
+Den enskilda n&#228;ringsidkaren ska p&#229; l&#228;nsstyrelsens beg&#228;ran 
+l&#228;mna de uppgifter som beh&#246;vs f&#246;r uppf&#246;ljning av det st&#246;d som 
+har betalats ut.
+
+&#197;terbetalning av st&#246;d
+
+26 &#167; Den enskilda n&#228;ringsidkaren &#228;r &#229;terbetalningsskyldig om  
+
+1. n&#228;ringsidkaren efter beslut om oms&#228;ttningsst&#246;d tagit emot 
+st&#246;d f&#246;r den aktuella st&#246;dperioden enligt f&#246;rordningen 
+(2021:126) om ordinarie omst&#228;llningsst&#246;d, 
+
+2. n&#228;ringsidkaren efter beslut om oms&#228;ttningsst&#246;d tagit emot 
+arbetsl&#246;shetsers&#228;ttning enligt lagen (1997:238) om 
+arbetsl&#246;shetsf&#246;rs&#228;kring f&#246;r den aktuella st&#246;dperioden, 
+
+3. st&#246;det har betalats ut med f&#246;r h&#246;gt belopp till f&#246;ljd av 
+att n&#228;ringsidkaren, efter beslut om oms&#228;ttningsst&#246;d som avser 
+en ans&#246;kan enligt 17 a &#167; f&#246;rsta stycket, har tagit emot 
+oms&#228;ttningsst&#246;d f&#246;r den aktuella st&#246;dperioden, 
+
+4. n&#228;ringsidkaren genom att l&#228;mna oriktiga uppgifter eller p&#229; 
+annat s&#228;tt har orsakat att st&#246;det har best&#228;mts felaktigt eller 
+med f&#246;r h&#246;gt belopp, eller 
+
+5. st&#246;det av n&#229;gon annan orsak har best&#228;mts felaktigt eller 
+med f&#246;r h&#246;gt belopp och den enskilda n&#228;ringsidkaren sk&#228;ligen 
+borde ha insett detta. 
+
+P&#229; det belopp som en enskild n&#228;ringsidkare &#228;r 
+&#229;terbetalningsskyldig f&#246;r ska r&#228;nta betalas fr&#229;n och med den 
+dag som infaller en m&#229;nad efter det att beslut om &#229;terkrav 
+enligt 27 &#167; har fattats och efter en r&#228;ntesats som vid varje 
+tidpunkt &#246;verstiger statens utl&#229;ningsr&#228;nta med tv&#229; 
+procentenheter. F&#246;rordning (2022:83).
+
+&#197;terkrav 
+
+27 &#167; Om den enskilda n&#228;ringsidkaren &#228;r &#229;terbetalningsskyldig 
+enligt 26 &#167;, ska l&#228;nsstyrelsen besluta att helt eller delvis 
+kr&#228;va tillbaka st&#246;det med r&#228;nta. Kravet eller r&#228;ntan f&#229;r 
+s&#228;ttas ned helt eller delvis om det finns s&#228;rskilda sk&#228;l.
+
+Offentligg&#246;rande, rapportering och registerf&#246;ring 
+
+28 &#167; Best&#228;mmelser om offentligg&#246;rande, rapportering och 
+registerf&#246;ring finns i 12 a &#167; lagen (2013:388) om till&#228;mpning 
+av Europeiska unionens statsst&#246;dsregler och i f&#246;rordningen 
+(2016:605) om till&#228;mpning av Europeiska unionens 
+statsst&#246;dsregler.
+
+29 &#167; L&#228;nsstyrelsen ska sk&#246;ta den registerf&#246;ring som anges i 
+artikel 6.4 i kommissionens f&#246;rordningar (EU) nr 1407/2013, 
+1408/2013 och 717/2014.
+
+R&#228;tt att meddela f&#246;reskrifter
+
+30 &#167; Boverket f&#229;r meddela f&#246;reskrifter om verkst&#228;lligheten av 
+denna f&#246;rordning.
+
+&#214;verklagande
+
+31 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser om 
+&#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. Andra beslut &#228;n 
+beslut om att helt eller delvis inte bevilja st&#246;d f&#229;r dock 
+inte &#246;verklagas.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2021:774
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 12 juli 2021.
+
+2. Best&#228;mmelsen i 4 &#167; tredje stycket i den &#228;ldre lydelsen 
+g&#228;ller dock fortfarande f&#246;r st&#246;dperioder f&#246;re st&#246;dperioden 
+mars 2021 om ans&#246;kan inkommit till l&#228;nsstyrelsen senast den 
+30 april 2021. F&#246;rordning (2021:1066).
+
+2021:1066
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 december 2021.
+
+2. Best&#228;mmelserna i 12, 16 och 26 &#167;&#167; i den &#228;ldre lydelsen 
+g&#228;ller fortfarande f&#246;r de st&#246;dperioder d&#228;r ans&#246;kan inkommit 
+till l&#228;nsstyrelsen senast den 30 november 2021.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=412">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=414">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

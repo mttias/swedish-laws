@@ -1,0 +1,938 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-03-23" /> 
+ <meta id="rattsinfo-edited" content="2023-03-23 14:49:33" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1595</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1594">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1596">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2011:203 ·
+                    <a href="/sfsr?bet=2011:203">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Budgetlag (2011:203)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet BA ToT
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2011-03-10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1580
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2011-04-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+Lagens till&#228;mpningsomr&#229;de
+
+1 &#167; Best&#228;mmelser om statens budget finns i 9 kap. 1–10 &#167;&#167;
+regeringsformen. I denna lag finns ytterligare best&#228;mmelser om
+budgeten.
+
+Statens verksamhet
+
+2 &#167; Med statens verksamhet avses i denna lag s&#229;dan verksamhet
+som sk&#246;ts av regeringen, domstolarna och de
+f&#246;rvaltningsmyndigheter som lyder under regeringen.
+
+Effektivitet och hush&#229;llning
+
+3 &#167; I statens verksamhet ska h&#246;g effektivitet efterstr&#228;vas och
+god hush&#229;llning iakttas.
+
+2 kap. Budgetpolitiska m&#229;l och riktlinjer
+
+M&#229;l f&#246;r den offentliga sektorns finansiella sparande
+
+1 &#167; Regeringen ska till riksdagen l&#228;mna f&#246;rslag till m&#229;l f&#246;r
+den offentliga sektorns finansiella sparande (&#246;verskottsm&#229;l).
+
+1 a &#167; Om riksdagen har beslutat om ett s&#229;dant &#246;verskottsm&#229;l
+som avses i 1 &#167;, ska regeringen vid minst tv&#229; tillf&#228;llen
+under &#229;ret f&#246;r riksdagen redovisa hur m&#229;let uppn&#229;s.
+Regeringen ska d&#229; beakta effekterna av beslutade och f&#246;r
+riksdagen presenterade budgetpolitiska &#229;tg&#228;rder.
+
+Regeringen ska vid en bed&#246;md avvikelse fr&#229;n m&#229;let &#228;ven
+redog&#246;ra f&#246;r hur en &#229;terg&#229;ng till m&#229;let ska ske.
+Lag (2014:866).
+
+Utgiftstak samt prelimin&#228;ra inkomstber&#228;kningar och utgiftsramar
+
+2 &#167; Regeringen ska i budgetpropositionen l&#228;mna f&#246;rslag till tak
+f&#246;r statens utgifter (utgiftstak) som ska anv&#228;ndas i
+beredningen av f&#246;rslaget till statens budget och i
+genomf&#246;randet av den budgeterade verksamheten.
+
+F&#246;rslaget ska avse det tredje tillkommande budget&#229;ret.
+
+3 &#167; Regeringen ska i budgetpropositionen l&#228;mna f&#246;rslag till
+prelimin&#228;ra inkomstber&#228;kningar och utgiftsramar f&#246;r det andra
+och tredje tillkommande budget&#229;ret. Lag (2014:866).
+
+4 &#167; Finns det risk f&#246;r att ett beslutat utgiftstak kommer att
+&#246;verskridas, ska regeringen f&#246;r att undvika detta vidta s&#229;dana
+&#229;tg&#228;rder som den har befogenhet till eller f&#246;resl&#229; riksdagen
+n&#246;dv&#228;ndiga &#229;tg&#228;rder.
+
+Utv&#228;rdering
+
+5 &#167; Regeringen ska se till att en utv&#228;rdering utf&#246;rs av hur
+de budgetpolitiska m&#229;len uppn&#229;s. Lag (2014:866).
+
+3 kap. Budgetering
+
+Inkomsttitlar och anslag
+
+1 &#167; F&#246;r budgetering och redovisning av inkomster p&#229; statens
+budget ska inkomsttitlar f&#246;r olika slag av inkomster anv&#228;ndas.
+
+2 &#167; Vid budgetering av utgifter f&#246;r best&#228;mda &#228;ndam&#229;l ska
+ramanslag anv&#228;ndas.
+
+Omfattningen av statens budget
+
+3 &#167; Regeringens f&#246;rslag till statens budget ska omfatta alla
+inkomster och utgifter samt andra betalningar som p&#229;verkar
+statens l&#229;nebehov.
+
+4 &#167; Statens inkomster och utgifter ska budgeteras och
+redovisas brutto p&#229; inkomsttitlar och anslag med de undantag som anges i
+6 &#167;.
+
+5 &#167; Utgifter f&#229;r inte budgeteras och redovisas mot
+inkomsttitlar.
+
+6 &#167; Om riksdagen har beslutat att inkomster f&#229;r tas i anspr&#229;k
+f&#246;r ett best&#228;mt &#228;ndam&#229;l p&#229; annat s&#228;tt &#228;n genom beslut om
+anslag
+(specialdestination), ska inkomsterna inte budgeteras och
+redovisas mot inkomsttitlar. Inkomster av skatter ska dock
+alltid budgeteras och redovisas mot inkomsttitlar.
+
+Ska inkomsterna helt eller till en best&#228;md del t&#228;cka
+utgifternai en viss verksamhet ska inkomsterna och motsvarande utgifter
+inte heller budgeteras eller redovisas mot anslag. Om
+inkomsterna till en obest&#228;md del ska t&#228;cka utgifter i en
+verksamhet ska inkomsterna redovisas mot anslag
+(nettoredovisning).
+
+F&#246;rsta och andra styckena g&#228;ller &#228;ven s&#229;dana inkomster som
+regeringen med st&#246;d av riksdagens bemyndigande har beslutat
+ska
+specialdestineras till en viss verksamhet.
+
+7 &#167; Regeringen f&#229;r f&#246;rfoga &#246;ver avgiftsinkomster fr&#229;n
+frivilligt efterfr&#229;gade varor och tj&#228;nster som staten
+tillhandah&#229;ller och besluta om inkomsterna ska budgeteras och
+redovisas mot inkomsttitel eller specialdestineras till en
+viss verksamhet.
+
+Villkor f&#246;r ramanslag
+
+8 &#167; Ett anslag f&#229;r tillf&#228;lligt &#246;verskridas genom att en kredit
+motsvarande h&#246;gst tio procent av det anvisade anslaget
+(anslagskredit) tas i anspr&#229;k. F&#246;ljande &#229;r ska tillg&#228;ngliga
+medel reduceras med ett belopp motsvarande den ianspr&#229;ktagna
+anslagskrediten.
+
+Med riksdagens bemyndigande f&#229;r regeringen &#228;ven besluta att
+ett anslag f&#229;r &#246;verskridas, om detta &#228;r n&#246;dv&#228;ndigt f&#246;r att i en
+verksamhet t&#228;cka s&#228;rskilda utgifter som inte var k&#228;nda d&#229;
+anslaget anvisades eller f&#246;r att ett av riksdagen beslutat
+&#228;ndam&#229;l med anslaget ska kunna uppfyllas.
+
+9 &#167; Regeringen f&#229;r besluta att anslag f&#246;r r&#228;ntor p&#229;
+statsskulden samt andra utgifter f&#246;r uppl&#229;ning och
+skuldf&#246;rvaltning f&#229;r &#246;verskridas om det &#228;r n&#246;dv&#228;ndigt f&#246;r att
+fullg&#246;ra statens betalnings&#229;taganden.
+
+10 &#167; Outnyttjade medel p&#229; ett anslag (anslagssparande) f&#229;r
+anv&#228;ndas f&#246;ljande &#229;r.
+
+Outnyttjade medel f&#229;r dock anv&#228;ndas l&#228;ngst tv&#229; &#229;r efter det
+att anslaget senast var uppf&#246;rt p&#229; budgeten.
+
+11 &#167; N&#228;r regeringen tilldelar en myndighet ett anslag, f&#229;r den
+besluta om begr&#228;nsningar i villkoren f&#246;r utnyttjandet av
+anslaget.
+
+12 &#167; Regeringen f&#229;r besluta att medel p&#229; ett anvisat anslag
+inte ska anv&#228;ndas, om detta &#228;r motiverat av s&#228;rskilda
+omst&#228;ndigheter i en verksamhet eller av statsfinansiella eller
+andra samh&#228;llsekonomiska sk&#228;l.
+
+4 kap. Redovisning mot inkomsttitlar och anslag
+
+1 &#167; Om inte riksdagen beslutar annat, ska redovisning mot
+inkomsttitlar och anslag g&#246;ras enligt 2 och 3 &#167;&#167;.
+
+2 &#167; Inkomster av skatter och avgifter ska redovisas det
+budget&#229;r som int&#228;kterna h&#228;nf&#246;r sig till. &#214;vriga inkomster ska
+redovisas det budget&#229;r som inkomsterna h&#228;nf&#246;r sig till.
+
+Om inkomster med st&#246;d av 3 kap. 6 &#167; andra stycket redovisas
+mot
+anslag, ska redovisningen dock g&#246;ras p&#229; samma grund som g&#228;ller
+f&#246;r de utgifter som redovisas mot anslaget enligt 3 &#167;.
+
+3 &#167; Utgifter f&#246;r transfereringar ska redovisas det budget&#229;r d&#229;
+betalning sker. F&#246;rvaltningsutgifter ska redovisas det
+budget&#229;r
+som kostnaderna h&#228;nf&#246;r sig till. &#214;vriga utgifter ska redovisas
+det budget&#229;r som utgifterna h&#228;nf&#246;r sig till.
+
+4 &#167; Redovisning ska ske l&#246;pande.
+
+5 kap. Statens uppl&#229;ning och skuldf&#246;rvaltning
+
+1 &#167; Efter s&#228;rskilt bemyndigande som l&#228;mnas f&#246;r ett budget&#229;r i 
+s&#228;nder f&#229;r regeringen eller efter regeringens best&#228;mmande 
+Riksg&#228;ldskontoret ta upp l&#229;n till staten f&#246;r att
+
+1. finansiera l&#246;pande underskott i statens budget och andra 
+utgifter som grundar sig p&#229; riksdagens beslut,
+
+2. tillhandah&#229;lla s&#229;dana krediter och fullg&#246;ra s&#229;dana 
+garantier som riksdagen beslutat om,
+
+3. amortera, l&#246;sa in och k&#246;pa upp statsl&#229;n, och
+
+4. i samr&#229;d med Riksbanken tillgodose behovet av statsl&#229;n med 
+olika l&#246;ptider. Lag (2022:1580).
+
+2 &#167; Efter s&#228;rskilt bemyndigande som l&#228;mnas av riksdagen f&#246;r
+ett budget&#229;r i s&#228;nder f&#229;r regeringen eller efter regeringens
+best&#228;mmande ett aff&#228;rsverk ta upp l&#229;n till staten f&#246;r
+aff&#228;rsverkets verksamhet.
+
+3 &#167; L&#229;n som har tagits upp av staten enligt 1 eller 2 &#167; eller 
+10 kap. 4 &#167; lagen (2022:1568) om Sveriges riksbank f&#246;rvaltas 
+av regeringen eller, efter regeringens bemyndigande, av 
+Riksg&#228;ldskontoret eller aff&#228;rsverk.
+
+Om staten tar upp ett l&#229;n enligt 10 kap. 4 &#167; lagen om Sveriges 
+riksbank, f&#229;r de medel som Riksbanken tillf&#246;r staten i utbyte 
+mot de l&#229;nade medlen endast anv&#228;ndas f&#246;r &#229;terbetalning av 
+samma l&#229;n. Regeringen f&#229;r dock, efter att Riksbanken har f&#229;tt 
+tillf&#228;lle att l&#228;mna synpunkter, besluta annat om det finns 
+s&#228;rskilda sk&#228;l. Lag (2022:1580).
+
+4 &#167; F&#246;r samtliga l&#229;n och garantier som regeringen,
+Riksg&#228;ldskontoret eller ett aff&#228;rsverk ombes&#246;rjer &#228;r staten
+ansvarig.
+
+5 &#167; Statens skuld, med undantag f&#246;r den skuld som f&#246;rvaltas av
+aff&#228;rsverken enligt 3 &#167;, ska f&#246;rvaltas s&#229; att kostnaden f&#246;r
+skulden l&#229;ngsiktigt minimeras samtidigt som risken i
+f&#246;rvaltningen beaktas. F&#246;rvaltningen ska ske inom ramen f&#246;r de
+krav som penningpolitiken st&#228;ller.
+
+6 &#167; Regeringen ska senast den 15 november varje &#229;r besluta om
+riktlinjer f&#246;r Riksg&#228;ldskontorets f&#246;rvaltning av statsskulden.
+Regeringen ska inh&#228;mta f&#246;rslag till riktlinjer fr&#229;n
+Riksg&#228;ldskontoret samt l&#229;ta Riksbanken yttra sig &#246;ver
+kontorets
+f&#246;rslag.
+
+7 &#167; Regeringen ska fr&#229;n och med 2012 och d&#228;refter vartannat &#229;r
+i en skrivelse till riksdagen utv&#228;rdera f&#246;rvaltningen av
+statsskulden. Skrivelsen ska senast den 25 april &#246;verl&#228;mnas
+till riksdagen.
+
+6 kap. Ekonomiska &#229;taganden och utl&#229;ning
+
+Best&#228;llningsbemyndiganden
+
+1 &#167; F&#246;r det &#228;ndam&#229;l och intill det belopp som riksdagen
+beslutat f&#246;r budget&#229;ret f&#229;r regeringen best&#228;lla varor eller
+tj&#228;nster samt besluta om bidrag, ers&#228;ttning, l&#229;n eller
+liknande
+som medf&#246;r utgifter under senare budget&#229;r &#228;n det budgeten
+avser.
+
+Regeringen f&#229;r dock utan s&#228;rskilt bemyndigande g&#246;ra ekonomiska
+&#229;taganden f&#246;r staten om dessa uppg&#229;r till h&#246;gst tio procent av
+ett anvisat anslag, dock h&#246;gst tio miljoner kronor.
+
+Regeringen ska n&#228;r den beg&#228;r ett bemyndigande enligt f&#246;rsta
+stycket ange under vilka &#229;r det ekonomiska &#229;tagandet ber&#228;knas
+medf&#246;ra utgifter.
+
+2 &#167; Regeringen f&#229;r g&#246;ra s&#229;dana ekonomiska &#229;taganden f&#246;r staten
+som &#228;r n&#246;dv&#228;ndiga f&#246;r att den l&#246;pande verksamheten ska fungera
+tillfredsst&#228;llande.
+
+Utl&#229;ning och garantier
+
+3 &#167; F&#246;r det &#228;ndam&#229;l och intill det belopp som riksdagen har
+beslutat f&#246;r ett eller flera budget&#229;r f&#229;r regeringen besluta
+om
+utl&#229;ning som finansieras med l&#229;n i Riksg&#228;ldskontoret, st&#228;lla
+ut
+kreditgarantier och g&#246;ra andra liknande &#229;taganden.
+
+Om det finns s&#228;rskilda sk&#228;l f&#229;r en kreditgaranti eller
+liknande
+&#229;tagande enligt riksdagens best&#228;mmande g&#246;ras utan att beloppet
+begr&#228;nsas.
+
+4 &#167; F&#246;r ett l&#229;n eller &#229;tagande enligt 3 &#167; ska r&#228;nta eller
+avgift tas ut. R&#228;ntan eller avgiften ska motsvara statens
+f&#246;rv&#228;ntade kostnad f&#246;r l&#229;net eller &#229;tagandet, om inte
+riksdagen
+f&#246;r ett visst l&#229;n eller &#229;tagande har beslutat annat.
+
+Om det kr&#228;vs till f&#246;ljd av best&#228;mmelserna om statsst&#246;d i
+artikel 107 i f&#246;rdraget om Europeiska unionens funktionss&#228;tt
+(EUF-f&#246;rdraget), f&#229;r r&#228;ntan eller avgiften s&#228;ttas h&#246;gre &#228;n vad
+som anges i f&#246;rsta stycket.
+
+Om l&#229;n- eller garantitagaren ska betala en r&#228;nta eller avgift
+som inte helt t&#228;cker kostnaderna enligt f&#246;rsta stycket, ska
+regeringen f&#246;resl&#229; riksdagen hur mellanskillnaden ska
+finansieras.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer
+beslutar f&#246;r visst l&#229;n eller viss garanti om r&#228;ntans eller
+avgiftens storlek.
+
+5 &#167; Till den del inkomsterna fr&#229;n r&#228;ntor och avgifter enligt 4
+&#167; f&#246;rsta stycket motsvarar f&#246;rv&#228;ntade f&#246;rluster ska de f&#246;ras
+till konton i Riksg&#228;ldskontoret. &#196;ven annan finansiering av
+f&#246;rv&#228;ntad f&#246;rlust enligt 4 &#167; tredje stycket ska f&#246;ras till
+s&#229;dana konton. Inkomster i utl&#228;ndsk valuta f&#229;r f&#246;ras till
+konton i bank.
+
+Konstaterade f&#246;rluster f&#246;r statens utl&#229;ning och &#229;taganden ska
+t&#228;ckas med medel fr&#229;n dessa konton.
+
+7 kap. Finansiering av investeringar och utl&#229;ning
+
+1 &#167; Inom l&#229;neramar som riksdagen har beslutat f&#246;r budget&#229;ret
+f&#229;r regeringen besluta att anl&#228;ggningstillg&#229;ngar som anv&#228;nds i
+statens verksamhet, med det undantag som anges i 2 &#167;, ska
+finansieras med l&#229;n i Riksg&#228;ldskontoret. Regeringen f&#229;r
+besluta
+om villkoren f&#246;r s&#229;dana l&#229;n.
+
+2 &#167; F&#246;rv&#228;rv av aktier eller andelar i ett f&#246;retag och annat
+tillskott av kapital ska finansieras med anslag.
+
+3 &#167; Utl&#229;ning f&#246;r vilken den f&#246;rv&#228;ntade f&#246;rlusten &#228;r l&#229;g f&#229;r
+finansieras med l&#229;n i Riksg&#228;ldskontoret.
+
+4 &#167; Inom en kreditram som riksdagen har beslutat f&#246;r
+budget&#229;ret
+f&#229;r regeringen besluta att r&#246;relsekapital i statens verksamhet
+ska finansieras med krediter i Riksg&#228;ldskontoret. Regeringen
+f&#229;r besluta om villkoren f&#246;r dessa krediter och om likvida
+medel som myndigheterna disponerar.
+
+5 &#167; Andra tillg&#229;ngar &#228;n de som anges i 1, 3 och 4 &#167;&#167; ska
+finansieras med anslag eller med inkomster som anges i 8 kap.
+9–12 &#167;&#167;.
+
+6 &#167; Best&#228;mmelserna i 1–5 &#167;&#167; g&#228;ller inte om riksdagen f&#246;r en
+viss myndighet, ett visst l&#229;n eller en viss anskaffning
+beslutar om n&#229;gon annan finansiering.
+
+8 kap. F&#246;rv&#228;rv och &#246;verl&#229;telse av egendom
+
+1 &#167; I 2–12 &#167;&#167; anges grunder f&#246;r f&#246;rfogandet &#246;ver statens
+egendom.
+
+Best&#228;mmelserna g&#228;ller tillg&#229;ngar som regeringen f&#246;rvaltar och
+f&#246;rfogar &#246;ver. Detta g&#228;ller dock inte varor som avses i 3 kap.
+7 &#167;.
+
+Med f&#246;rs&#228;ljning avses i 2 och 4–7 &#167;&#167; &#228;ven byte.
+
+Fast egendom
+
+2 &#167; N&#228;r v&#228;rdet av fast egendom inte &#246;verstiger 75 miljoner
+kronor, f&#229;r regeringen besluta att s&#228;lja egendomen, om den
+inte
+alls eller endast i ringa utstr&#228;ckning beh&#246;vs i statens
+verksamhet och om det inte finns s&#228;rskilda sk&#228;l f&#246;r att
+egendomen fortfarande ska &#228;gas av staten.
+
+Trots f&#246;rsta stycket f&#229;r regeringen besluta om f&#246;rs&#228;ljning
+till
+en kommun f&#246;r samh&#228;llsbyggnads&#228;ndam&#229;l.
+
+Aktier och andelar
+
+3 &#167; Regeringen f&#229;r inte utan riksdagens bemyndigande f&#246;rv&#228;rva
+aktier eller andelar i ett f&#246;retag eller p&#229; annat s&#228;tt &#246;ka
+statens r&#246;st- eller &#228;garandel i ett f&#246;retag. Regeringen f&#229;r
+inte heller utan riksdagens bemyndigande tillskjuta kapital
+till ett f&#246;retag.
+
+Regeringen f&#229;r dock f&#246;rv&#228;rva aktier eller andelar i f&#246;retag
+som
+ett led i f&#246;rvaltningen av egendom som tillfallit staten genom
+testamente eller g&#229;va.
+
+4 &#167; Regeringen f&#229;r besluta om f&#246;rs&#228;ljning av aktier eller
+andelar i ett f&#246;retag d&#228;r staten har mindre &#228;n h&#228;lften av
+r&#246;sterna f&#246;r samtliga aktier eller andelar, om inte riksdagen
+best&#228;mt annat f&#246;r f&#246;retaget.
+
+Regeringen f&#229;r inte utan riksdagens bemyndigande genom
+f&#246;rs&#228;ljning eller p&#229; annat s&#228;tt minska statens &#228;garandel i
+f&#246;retag d&#228;r staten har h&#228;lften eller mer &#228;n h&#228;lften av
+r&#246;sterna
+f&#246;r samtliga aktier eller andelar.
+
+Annan l&#246;s egendom
+
+5 &#167; F&#246;r uppl&#229;telse av tomtr&#228;tt samt f&#246;rs&#228;ljning av tomtr&#228;tt
+och
+s&#229;dan byggnad som &#228;r l&#246;s egendom g&#228;ller best&#228;mmelserna i 2 &#167;
+om
+f&#246;rs&#228;ljning av fast egendom.
+
+6 &#167; Regeringen f&#229;r besluta att &#246;verl&#229;ta annan l&#246;s egendom &#228;n
+s&#229;dan som anges i 4 och 5 &#167;&#167;, om egendomen inte l&#228;ngre beh&#246;vs
+f&#246;r statens verksamhet eller blivit obrukbar eller om den inte
+anskaffats med statens medel.
+
+Aff&#228;rsm&#228;ssighet
+
+7 &#167; F&#246;rv&#228;rv genom k&#246;p eller byte och f&#246;rs&#228;ljning ska
+genomf&#246;ras
+aff&#228;rsm&#228;ssigt, om inte s&#228;rskilda sk&#228;l talar mot det.
+
+Disposition av f&#246;rs&#228;ljningsinkomster
+
+8 &#167; Har riksdagen beslutat om f&#246;rs&#228;ljning av egendom, ska
+inkomsten redovisas mot en inkomsttitel, om inte riksdagen
+best&#228;mmer annat.
+
+I 9–12 &#167;&#167; anges hur inkomsten f&#229;r disponeras i de fall d&#229;
+regeringen har beslutat om f&#246;rs&#228;ljning.
+
+9 &#167; Om egendomen har anv&#228;nts i en verksamhet f&#246;r vilken
+riksdagen har godk&#228;nt en investeringsplan, f&#229;r regeringen
+besluta att inkomsten ska disponeras f&#246;r att finansiera
+investeringar som ing&#229;r i planen.
+
+Best&#228;mmelser om disposition av inkomst fr&#229;n f&#246;rs&#228;ljning av
+egendom som inte anv&#228;nts i en s&#229;dan verksamhet finns i 10–12
+&#167;&#167;.
+
+10 &#167; Om egendomen har finansierats med medel fr&#229;n anslag f&#229;r
+regeringen, sedan medel motsvarande egendomens bokf&#246;rda v&#228;rde
+redovisats mot en inkomsttitel, besluta att det som &#229;terst&#229;r
+av
+inkomsten ska disponeras i den verksamhet d&#228;r den s&#229;lda
+egendomen har anv&#228;nts.
+
+Om inkomsten uppg&#229;r till ett mindre belopp, f&#229;r regeringen
+besluta att hela inkomsten ska disponeras i den verksamhet d&#228;r
+den s&#229;lda egendomen har anv&#228;nts.
+
+Har fast egendom eller aktier s&#229;lts, ska dock hela inkomsten
+redovisas mot en inkomsttitel.
+
+11 &#167; Om egendomen har finansierats med l&#229;n, f&#229;r regeringen
+sedan l&#229;net l&#246;sts besluta att det som &#229;terst&#229;r av inkomsten
+ska
+disponeras i den verksamhet d&#228;r den s&#229;lda egendomen har
+anv&#228;nts.
+
+Har fast egendom eller aktier s&#229;lts, ska dock det som &#229;terst&#229;r
+av inkomsten redovisas mot en inkomsttitel.
+
+12 &#167; Om egendomen har finansierats p&#229; annat s&#228;tt &#228;n med medel
+fr&#229;n anslag eller med l&#229;n, f&#229;r regeringen besluta att hela
+inkomsten ska disponeras i den verksamhet d&#228;r den s&#229;lda
+egendomen har anv&#228;nts.
+
+9 kap. Uppf&#246;ljning och prognoser
+
+Uppf&#246;ljning
+
+1 &#167; Regeringen ska noggrant f&#246;lja hur statens inkomster,
+utgifter och uppl&#229;ning utvecklas i f&#246;rh&#229;llande till ber&#228;knade
+och beslutade belopp.
+
+Regeringen ska i budgetpropositionen och i den ekonomiska
+v&#229;rpropositionen f&#246;rklara v&#228;sentliga skillnader mellan
+budgeterade belopp och ber&#228;knat utfall f&#246;r det innevarande
+budget&#229;ret.
+
+2 &#167; Har upph&#228;vts genom lag (2014:866)
+
+Prognoser
+
+3 &#167; Regeringen ska i budgetpropositionen och den ekonomiska
+v&#229;rpropositionen redovisa prognoser &#246;ver den makroekonomiska
+utvecklingen, statens inkomster och utgifter, statens
+l&#229;nebehov, utgifterna under utgiftstaket och den offentliga
+sektorns inkomster, utgifter och skulder.
+
+Prognoserna ska omfatta det innevarande budget&#229;ret och de tre
+d&#228;rp&#229; f&#246;ljande &#229;ren och baseras p&#229; v&#228;l specificerade
+f&#246;ruts&#228;ttningar. Lag (2013:1015).
+
+4 &#167; Regeringen ska i den ekonomiska v&#229;rpropositionen redovisa
+en bed&#246;mning av de offentliga finansernas l&#229;ngsiktiga
+h&#229;llbarhet. Lag (2013:1015).
+
+Utv&#228;rdering
+
+5 &#167; Regeringen ska regelbundet redovisa en utv&#228;rdering av de
+prognoser som anges i 3 &#167;. Lag (2013:1015).
+
+10 kap. Redovisningsskyldighet och revision
+
+Allm&#228;nt om redovisningen
+
+1 &#167; Regeringen &#228;r redovisningsskyldig inf&#246;r riksdagen f&#246;r de
+tillg&#229;ngar som regeringen f&#246;rvaltar och f&#246;rfogar &#246;ver.
+Redovisningsskyldigheten omfattar &#228;ven den verksamhet som
+bedrivs av staten samt statens skulder och &#246;vriga ekonomiska
+&#229;taganden.
+
+God redovisningssed och r&#228;ttvisande bild
+
+2 &#167; Bokf&#246;ring och redovisning i staten ska fullg&#246;ras p&#229; ett
+s&#228;tt som st&#228;mmer &#246;verens med god redovisningssed.
+
+Redovisningen ska ge en r&#228;ttvisande bild av verksamheten, det
+ekonomiska resultatet och st&#228;llningen samt f&#246;rvaltningen av
+statens tillg&#229;ngar.
+
+Resultatredovisning
+
+3 &#167; Regeringen ska i budgetpropositionen l&#228;mna en redovisning
+av de resultat som uppn&#229;tts i verksamheten i f&#246;rh&#229;llande till
+de av riksdagen beslutade m&#229;len. Redovisningen ska vara
+anpassad till utgiftsomr&#229;dena. Lag (2014:866).
+
+Redovisning av skatteutgifter
+
+4 &#167; Regeringen ska varje &#229;r l&#228;mna en redovisning av
+skatteutgifter till riksdagen.
+
+&#197;rsredovisningen f&#246;r staten
+
+5 &#167; &#197;rsredovisningen f&#246;r staten ska l&#228;mnas till riksdagen
+senast den 15 april &#229;ret efter budget&#229;ret.
+
+6 &#167; &#197;rsredovisningen f&#246;r staten ska inneh&#229;lla
+
+1. en uppf&#246;ljning av riksdagens beslut om den offentliga
+sektorns finansiella sparande (&#246;verskottsm&#229;let), utgiftstaket
+och andra &#246;vergripande budgetpolitiska m&#229;l,
+
+2. utfallet p&#229; budgetens inkomsttitlar och anslag samt av
+statens l&#229;nebehov,
+
+3. en redovisning av hur regeringen har utnyttjat
+bemyndiganden
+som den f&#229;tt med st&#246;d av 6 kap. 1 &#167; f&#246;rsta stycket och 6 kap.
+3
+&#167;,
+
+4. en resultatr&#228;kning, en balansr&#228;kning, en
+finansieringsanalys
+och noter,
+
+5. en redovisning av utvecklingen av statsskulden,
+
+6. upplysningar om f&#246;rv&#228;ntade f&#246;rluster och v&#228;sentliga risker
+i
+statens utl&#229;ning och utst&#228;llda garantier som beslutats enligt
+6
+kap. 3 &#167;,
+
+7. en samlad redovisning av vilka &#229;tg&#228;rder regeringen vidtagit
+med anledning av Riksrevisionens iakttagelser,
+
+8. en resultatr&#228;kning och en balansr&#228;kning avseende EU-medel
+samt en kassam&#228;ssig redovisning av anslag och inkomsttitlar
+avseende in- och utbetalningar till och fr&#229;n EU, samt
+
+9. ett uttalande av regeringen om huruvida
+
+– r&#228;kenskaperna enligt 8 har uppr&#228;ttats enligt god
+redovisningssed och ger en r&#228;ttvisande bild, och
+
+– det finns regler och system som syftar till att skapa en
+betryggande intern styrning och kontroll av EU-medel.
+
+Regeringen ska i anslutning till redovisningen enligt f&#246;rsta
+stycket 2 f&#246;rklara v&#228;sentliga skillnader mellan budgeterade
+belopp och utfallet.
+
+7 &#167; Resultatr&#228;kningen, balansr&#228;kningen och
+finansieringsanalysen ska omfatta statens samtliga int&#228;kter
+och
+kostnader, tillg&#229;ngar och skulder samt betalningar som
+p&#229;verkar
+statens nettouppl&#229;ning.
+
+Regeringen f&#229;r dock besluta att en viss verksamhet eller en
+viss tillg&#229;ng eller skuld inte ska omfattas av
+resultatr&#228;kningen, balansr&#228;kningen och finansieringsanalysen.
+Regeringen ska i &#229;rsredovisningen f&#246;r staten l&#228;mna
+upplysningar
+om sk&#228;len f&#246;r detta.
+
+8 &#167; I resultatr&#228;kningen och balansr&#228;kningen ska
+
+1. samma principer f&#246;r v&#228;rdering, klassificering och indelning
+av de olika posterna till&#228;mpas fr&#229;n ett budget&#229;r till ett
+annat,
+
+2. v&#228;rderingen av de olika posterna g&#246;ras med rimlig
+f&#246;rsiktighet,
+
+3. int&#228;kter och kostnader som &#228;r h&#228;nf&#246;rliga till budget&#229;ret
+tas
+med oavsett tidpunkten f&#246;r betalningen,
+
+4. de olika best&#229;ndsdelar som balansr&#228;kningen best&#229;r av
+v&#228;rderas var och en f&#246;r sig,
+
+5. tillg&#229;ngar och skulder eller int&#228;kter och kostnader inte
+kvittas mot varandra, samt
+
+6. den ing&#229;ende balansen f&#246;r ett budget&#229;r st&#228;mma &#246;verens med
+den utg&#229;ende balansen f&#246;r det n&#228;rmast f&#246;reg&#229;ende budget&#229;ret.
+
+Om det &#228;r f&#246;renligt med vad som f&#246;reskrivs i 2 &#167;, f&#229;r
+regeringen avvika fr&#229;n f&#246;rsta stycket. Regeringen ska l&#228;mna
+upplysningar om sk&#228;len f&#246;r avvikelsen och redovisa en
+bed&#246;mning
+av dess effekt p&#229; den ekonomiska st&#228;llningen och resultatet.
+
+9 &#167; Resultatr&#228;kningen ska inneh&#229;lla f&#246;ljande rubriker:
+Int&#228;kter, Kostnader, Resultat fr&#229;n andelar i hel- och del&#228;gda
+f&#246;retag, Finansiella int&#228;kter och kostnader samt &#197;rets &#246;ver-
+eller underskott.
+
+Balansr&#228;kningen ska inneh&#229;lla f&#246;ljande rubriker p&#229;
+tillg&#229;ngssidan: Anl&#228;ggningstillg&#229;ngar (Immateriella,
+Materiella
+och Finansiella anl&#228;ggningstillg&#229;ngar), Utl&#229;ning, Varulager
+m.m., Fordringar, Periodavgr&#228;nsningsposter, Kortfristiga
+placeringar samt Kassa och bank. P&#229; skuldsidan ska den
+inneh&#229;lla f&#246;ljande rubriker: Nettof&#246;rm&#246;genhet, Fonder,
+Avs&#228;ttningar, Statsskulden, Skulder m.m. och
+Periodavgr&#228;nsningsposter.
+
+Finansieringsanalysen ska inneh&#229;lla f&#246;ljande rubriker: Statens
+verksamhet, Investeringar, Utl&#229;ning, Finansiella aktiviteter
+och Statens nettouppl&#229;ning.
+
+Under rubrikerna ska redovisningen delas in i poster.
+
+10 &#167; F&#246;r varje post i resultatr&#228;kningen och balansr&#228;kningen
+samt finansieringsanalysen ska beloppet av motsvarande post
+f&#246;r
+det n&#228;rmast f&#246;reg&#229;ende budget&#229;ret anges.
+
+Om regeringen har &#228;ndrat principerna f&#246;r v&#228;rdering,
+klassificering eller indelning i poster eller avgr&#228;nsningen av
+staten enligt 7 &#167;, ska posterna f&#246;r n&#228;rmast f&#246;reg&#229;ende
+budget&#229;r
+r&#228;knas om eller &#228;ndras p&#229; det s&#228;tt som beh&#246;vs f&#246;r att de ska
+kunna j&#228;mf&#246;ras med budget&#229;rets poster p&#229; ett meningsfullt
+s&#228;tt.
+
+Om det finns s&#228;rskilda sk&#228;l och det &#228;r f&#246;renligt med god
+redovisningssed, f&#229;r avvikelse fr&#229;n vad som f&#246;reskrivs i andra
+stycket g&#246;ras. I s&#229; fall ska regeringen l&#228;mna upplysningar om
+sk&#228;len f&#246;r detta.
+
+Revision
+
+11 &#167; I 13 kap. regeringsformen och i lagen (2002:1022) om
+revision av statlig verksamhet m.m. finns best&#228;mmelser om
+revision av statlig verksamhet.
+
+11 kap. Genomf&#246;rande av statens budget
+
+1 &#167; Om riksdagen senast en vecka f&#246;re det f&#246;ljande budget&#229;rets 
+b&#246;rjan inte har beslutat om anslag f&#246;r ett visst &#228;ndam&#229;l f&#229;r 
+regeringen i den omfattning som beh&#246;vs vidta &#229;tg&#228;rder f&#246;r att 
+den senaste budgeten med de &#228;ndringar som f&#246;ljer av andra 
+beslut av riksdagen ska g&#228;lla till dess att riksdagen beslutar 
+om anslag. Lag (2021:1119).
+
+2 &#167; Regeringen meddelar f&#246;reskrifter om genomf&#246;randet av 
+statens budget. Lag (2021:1119).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2011:203
+
+1. Denna lag tr&#228;der i kraft den 1 april 2011, d&#229; lagen
+(1988:1387) om statens uppl&#229;ning och skuldf&#246;rvaltning och
+lagen (1996:1059) om statsbudgeten upph&#246;r att g&#228;lla.
+
+2. Best&#228;mmelserna i 3 kap. 5 och 6 &#167;&#167; till&#228;mpas f&#246;rsta g&#229;ngen
+i fr&#229;ga om budgeten f&#246;r 2012. Best&#228;mmelsen i 17 &#167; andra stycket
+och 18 &#167; lagen (1996:1059) om statsbudgeten g&#228;ller fortfarande
+i fr&#229;ga om redovisning mot inkomsttitlar och anslag under
+2011.
+
+3. Outnyttjade medel p&#229; anslag som inte har varit uppf&#246;rda p&#229;
+statens budget efter 2010 f&#229;r anv&#228;ndas l&#228;ngst till utg&#229;ngen av
+2012.
+
+4. Best&#228;mmelsen i 4 kap. 2 &#167; f&#246;rsta stycket f&#246;rsta meningen
+till&#228;mpas n&#228;r det g&#228;ller redovisning av inkomster av avgifter
+f&#246;rsta g&#229;ngen i fr&#229;ga om budgeten f&#246;r 2012. Best&#228;mmelsen i
+10 &#167; andra stycket lagen om statsbudgeten g&#228;ller fortfarande i
+fr&#229;ga om redovisning av inkomster av avgifter under 2011.
+
+5. Best&#228;mmelserna i 6 kap. 4 &#167; till&#228;mpas i fr&#229;ga om utl&#229;ning
+fr&#229;n och med den 1 januari 2012. F&#246;r studiel&#229;n enligt
+studiest&#246;dslagen (1999:1395) till&#228;mpas dock dessa best&#228;mmelser
+fr&#229;n och med den 1 januari 2014. Lag (2012:966).
+
+6. Best&#228;mmelserna i 6 kap. 5 &#167; till&#228;mpas fr&#229;n och med den
+1 januari 2012. F&#246;r studiel&#229;n enligt studiest&#246;dslagen
+(1999:1395) till&#228;mpas dock dessa best&#228;mmelser fr&#229;n och med
+den 1 januari 2014. Lag (2012:966).
+
+7. Best&#228;mmelsen i 7 kap. 3 &#167; till&#228;mpas f&#246;rsta g&#229;ngen i fr&#229;ga
+om budgeten f&#246;r 2012.
+
+8. Best&#228;mmelserna i 10 kap. 6–10 &#167;&#167; till&#228;mpas f&#246;rsta g&#229;ngen i
+fr&#229;ga om &#229;rsredovisningen f&#246;r staten 2011. Best&#228;mmelserna i
+37 &#167; andra stycket lagen (1996:1059) om statsbudgeten ska g&#228;lla
+i fr&#229;ga om &#229;rsredovisningen f&#246;r staten 2010.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1594">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1596">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

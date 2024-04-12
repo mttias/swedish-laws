@@ -1,0 +1,834 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-03" /> 
+ <meta id="rattsinfo-edited" content="2024-01-03 13:19:25" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3851</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3850">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3852">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1982:756 ·
+                    <a href="/sfsr?bet=1982:756">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1982:756) om F&#246;rsvarsmaktens ingripanden vid kr&#228;nkningar av Sveriges territorium under fred och neutralitet, m.m. (IKFN-f&#246;rordning)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> F&#246;rsvarsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1982-06-17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:486
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Allm&#228;nna best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning upph&#246;r att g&#228;lla om Sverige kommer i krig.
+
+Best&#228;mmelserna i 36--68 &#167;&#167; b&#246;rjar till&#228;mpas f&#246;rst n&#228;r regeringen
+f&#246;rordnar om det vid krig mellan utl&#228;ndska stater. N&#228;r 36--68 &#167;&#167; &#228;r i
+till&#228;mpning, g&#228;ller inte 13--27 &#167;&#167; i fr&#229;ga om ingripanden mot
+krigf&#246;rande staters statsfartyg och statsluftfartyg.
+
+2 &#167; I denna f&#246;rordning avses med  
+
+1. svenskt territorium: Sveriges landomr&#229;den, Sveriges 
+sj&#246;territorium med inre vatten och territorialhavet samt 
+luftrummet &#246;ver landomr&#229;dena och sj&#246;territoriet,  
+
+2. Sveriges ekonomiska zon: de omr&#229;den utanf&#246;r sj&#246;territoriet 
+som framg&#229;r av bilaga 4 till lagen (2017:1272) om Sveriges 
+sj&#246;territorium och maritima zoner,  
+
+3. statsfartyg: &#246;rlogsfartyg, forskningsfartyg samt andra 
+fartyg och sv&#228;vare som &#228;gs eller brukas av en stat och nyttjas 
+i icke-kommersiellt syfte,  
+
+4. &#246;rlogsfartyg: fartyg och sv&#228;vare som tillh&#246;r en stats 
+stridskrafter, har de yttre nationella k&#228;nnetecken som 
+utm&#228;rker &#246;rlogsfartyg, st&#229;r under bef&#228;l av vederb&#246;rligen 
+utn&#228;mnda officerare och &#228;r bemannade av bes&#228;ttningar 
+underkastade fastst&#228;llda disciplinregler,  
+
+5. forskningsfartyg: fartyg som &#228;gs eller brukas av en stat 
+och som utrustats f&#246;r och bedriver forskning enligt 
+internationellt vedertagna principer,  
+
+6. handelsfartyg: andra fartyg och sv&#228;vare &#228;n s&#229;dana som avses 
+i 3,  
+
+7. statsluftfartyg: milit&#228;ra stridsflygplan, milit&#228;ra 
+transportflygplan och andra luftfartyg som &#228;gs eller brukas av 
+en stat och nyttjas i icke-kommersiellt syfte,  
+
+8. milit&#228;ra stridsflygplan: jaktflygplan, attackflygplan, 
+bombflygplan, spaningsflygplan, bev&#228;pnade skolflygplan samt 
+stridshelikoptrar som &#228;gs eller brukas av en stats 
+stridskrafter,  
+
+9. civila luftfartyg: andra luftfartyg &#228;n s&#229;dana fartyg som 
+avses i 7,  
+
+10. milit&#228;ra fordon: stridsfordon, andra motordrivna fordon, 
+sl&#228;pfordon och terr&#228;ngsl&#228;p som &#228;gs eller brukas av en stats 
+stridskrafter,  
+
+11. stridsfordon: splitterskyddat motordrivet fordon som &#228;gs 
+eller brukas av en stats stridskrafter och fr&#229;n vilket strid 
+kan genomf&#246;ras,  
+
+12. uppbringade fartyg: andra fartyg &#228;n &#246;rlogsfartyg som en 
+krigf&#246;rande stat har tagit i besittning fr&#229;n en annan stat,  
+
+13. prisbes&#228;ttning: bes&#228;ttning som en krigf&#246;rande stat s&#228;tter 
+ombord p&#229; ett uppbringat fartyg f&#246;r att leda dess man&#246;vrering.
+F&#246;rordning (2023:486).
+
+3 &#167; F&#246;rsvarsmakten ska
+
+1. uppt&#228;cka och avvisa kr&#228;nkningar av svenskt territorium och 
+i samarbete med civila myndigheter ingripa vid andra 
+&#246;vertr&#228;delser av tilltr&#228;desf&#246;rordningen (1992:118),
+
+2. skydda svenska fartyg och luftfartyg inom svenskt 
+territorium samt p&#229; eller &#246;ver fritt hav,
+
+3. medverka vid tillsynen av vattenomr&#229;den av s&#228;rskild 
+betydelse f&#246;r det milit&#228;ra f&#246;rsvaret som har beslutats vara 
+skyddsobjekt enligt skyddslagen (2010:305), 
+
+4. medverka vid kontroll av sj&#246;farten och luftfarten inom 
+svenskt territorium,
+
+5. medverka vid tillsynen av utl&#228;ndskt fiske inom svenskt 
+territorium och Sveriges ekonomiska zon, och
+
+6. i &#246;vrigt vid behov bitr&#228;da civila myndigheter vid 
+ingripanden mot fartyg eller luftfartyg i den utstr&#228;ckning som 
+anges i denna f&#246;rordning. F&#246;rordning (2019:776).
+
+4 &#167; Inom svenskt territorium f&#229;r ett fartyg eller luftfartyg anropas,
+prejas och, under de f&#246;ruts&#228;ttningar som anges i 5 &#167;, visiteras, om det
+beh&#246;vs f&#246;r att kunna fastst&#228;lla dess nationalitet eller st&#228;llning som
+statsfartyg eller statsluftfartyg.
+
+5 &#167; Om regeringen inte f&#246;r ett visst fall f&#246;reskriver n&#229;got annat, skall
+f&#246;r tilltr&#228;de till och &#229;tg&#228;rder ombord p&#229; ett utl&#228;ndskt statsfartyg
+eller statsluftfartyg medgivande inh&#228;mtas av chefen f&#246;r statsfartyget
+eller statsluftfartyget. F&#246;r visitation av statsfartyg eller
+statsluftfartyg som har kommit in till riket utan att ha r&#228;tt till det
+beh&#246;vs dock inte medgivande, om fara f&#246;r s&#228;kerheten p&#229; platsen bed&#246;ms
+f&#246;religga.
+
+6 &#167; Svenska statsfartyg eller statsluftfartyg som uts&#228;tts f&#246;r
+v&#229;ldshandlingar fr&#229;n utl&#228;ndska statsfartyg eller statsluftfartyg f&#229;r
+tillgripa vapenmakt i sj&#228;lvf&#246;rsvar p&#229; eller &#246;ver fritt hav. Inom
+utl&#228;ndskt territorium f&#229;r vapenmakt tillgripas i sj&#228;lvf&#246;rsvar enligt
+F&#246;rsvarsmakten best&#228;mmande. F&#246;rordning (1994:533).
+
+7 &#167; Ingripanden med vapenmakt skall f&#246;reg&#229;s av varning, om inte annat
+anges i denna f&#246;rordning. Varning ges genom meddelande eller, om
+meddelande inte kan &#246;verbringas, genom varningsskott eller p&#229; annat
+tydligt s&#228;tt. Om ingripanden enligt denna f&#246;rordning f&#229;r ske med
+vapenmakt utan f&#246;reg&#229;ende varning, skall varning &#228;nd&#229; ges i tveksamma
+fall.
+
+8 &#167; Om best&#228;mmelserna i tilltr&#228;desf&#246;rordningen (1992:118) &#246;vertr&#228;ds
+eller n&#229;gon annan likartad h&#228;ndelse intr&#228;ffar, skall F&#246;rsvarsmakten
+snarast underr&#228;tta chefen f&#246;r Utrikesdepartementet och chefen f&#246;r
+F&#246;rsvarsdepartementet. F&#246;rordning (1994:533).
+
+Ingripanden mot utl&#228;ndsk milit&#228;r personal
+
+9 &#167; Om utl&#228;ndsk milit&#228;r personal under omst&#228;ndigheter som tyder p&#229;
+fientlig avsikt &#246;verskrider gr&#228;nsen till svenskt territorium eller
+lands&#228;tts inom territoriet fr&#229;n fartyg eller luftfartyg, skall vapenmakt
+utan f&#246;reg&#229;ende varning tillgripas.
+
+10 &#167; Om utl&#228;ndsk milit&#228;r personal i andra fall &#228;n
+som avses i 9 &#167; antr&#228;ffas inom svenskt territorium och det
+finns misstanke om att personalen saknar r&#228;tt att resa in
+eller vistas i Sverige, ska dessa omh&#228;ndertas och avv&#228;pnas.
+&#197;tg&#228;rden ska anm&#228;las till Polismyndigheten. Om
+Polismyndigheten beg&#228;r det, ska personalen h&#229;llas kvar i
+avvaktan p&#229; vidare &#229;tg&#228;rder. F&#246;rordning (2014:1213).
+
+11 &#167; Utl&#228;ndsk milit&#228;r personal f&#229;r inte b&#228;ra uniform inom Sveriges
+landomr&#229;den utan tillst&#229;nd av F&#246;rsvarsmakten. Tillst&#229;nd beh&#246;vs
+inte f&#246;r f&#246;rsvarsattach&#233;er som &#228;r ackrediterade i Sverige.
+
+Om utl&#228;ndsk milit&#228;r personal upptr&#228;der i uniform utan tillst&#229;nd,
+skall detta f&#246;rh&#229;llande snarast anm&#228;las till F&#246;rsvarsmakten.
+F&#246;rordning (1994:533).
+
+12 &#167; Om ett utl&#228;ndskt milit&#228;rt fordon p&#229;tr&#228;ffas inom svenskt
+territorium utan att ha r&#228;tt att vara d&#228;r, ska det h&#229;llas
+kvar. Om personal som medf&#246;ljer fordonet saknar r&#228;tt att resa
+in eller vistas i Sverige, ska personalen omh&#228;ndertas och
+avv&#228;pnas. &#197;tg&#228;rden ska anm&#228;las till Polismyndigheten. Om
+Polismyndigheten beg&#228;r det, ska personalen h&#229;llas kvar i
+avvaktan p&#229; vidare &#229;tg&#228;rder. F&#246;rordning (2014:1213).
+
+Ingripanden mot fartyg och luftfartyg
+
+Utl&#228;ndska statsfartyg
+
+13 &#167; Om utl&#228;ndska statsfartyg &#246;verskrider den svenska territorialgr&#228;nsen
+under omst&#228;ndigheter som tyder p&#229; fientlig avsikt, skall vapenmakt utan
+f&#246;reg&#229;ende varning tillgripas.
+
+14 &#167; Vapenmakt utan f&#246;reg&#229;ende varning skall ocks&#229; tillgripas mot
+utl&#228;ndska statsfartyg fr&#229;n vilka v&#229;ldshandlingar beg&#229;s
+
+1. mot m&#229;l inom svenskt territorium,
+
+2. fr&#229;n svenskt territorium mot m&#229;l utanf&#246;r territoriet,
+
+3. mot svenska fartyg eller luftfartyg p&#229; eller &#246;ver fritt hav.
+
+15 &#167; En utl&#228;ndsk ub&#229;t som p&#229;tr&#228;ffas i undervattensl&#228;ge inom svenskt inre
+vatten skall hindras fr&#229;n att bedriva fortsatt verksamhet d&#228;r. D&#228;rvid
+f&#229;r vapenmakt tillgripas utan f&#246;reg&#229;ende varning. Om det beh&#246;vs, f&#229;r
+s&#229;dana vapen anv&#228;ndas som medf&#246;r risk f&#246;r att ub&#229;ten s&#228;nks eller g&#246;rs
+man&#246;veroduglig p&#229; n&#229;got annat s&#228;tt. Om ub&#229;ten intar &#246;vervattensl&#228;ge,
+skall den identifieras och f&#246;r vidare &#229;tg&#228;rder f&#246;ras till en ankarplats.
+
+En utl&#228;ndsk ub&#229;t som p&#229;tr&#228;ffas i undervattensl&#228;ge inom territorialhavet
+skall avvisas fr&#229;n territoriet. Om det &#228;r n&#246;dv&#228;ndigt skall vapenmakt
+tillgripas. D&#229; s&#228;rskilda f&#246;rh&#229;llanden kr&#228;ver det, f&#229;r d&#228;rvid enligt
+F&#246;rsvarsmakten best&#228;mmande vapenmakt i syfte att f&#246;rhindra fortsatt
+verksamhet tillgripas utan f&#246;reg&#229;ende varning. F&#246;rordning (1994:533).
+
+16 &#167; Ett utl&#228;ndskt statsfartyg, som i andra fall &#228;n som anges i 15 &#167;
+p&#229;tr&#228;ffas inom svenskt inre vatten utan att ha r&#228;tt att vara d&#228;r, skall
+prejas och f&#246;r vidare &#229;tg&#228;rder f&#246;ras till en ankarplats. Om det &#228;r
+n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas.
+
+17 &#167; Ett utl&#228;ndskt statsfartyg, som g&#246;r uppeh&#229;ll inom det svenska
+territorialhavet utan att ha r&#228;tt till det, skall erinras om g&#228;llande
+best&#228;mmelser samt avvisas fr&#229;n territoriet. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r
+vapenmakt tillgripas.
+
+18 &#167; Om ett utl&#228;ndskt statsfartyg inom svenskt territorium bedriver
+verksamhet som &#228;r f&#246;rbjuden enligt tilltr&#228;desf&#246;rordningen (1992:118),
+skall fartyget anmodas att genast upph&#246;ra med detta.
+
+Om anmodan inte efterf&#246;ljs skall fartyget avvisas fr&#229;n territoriet. Om
+det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas. F&#246;rordning (1992:119).
+
+19 &#167; Ett utl&#228;ndskt statsfartyg som befinner sig inom svenskt territorium
+efter tillst&#229;nd av regeringen f&#229;r avvisas f&#246;rst efter beslut av
+regeringen.
+
+20 &#167; Ett utl&#228;ndskt statsfartyg som bryter mot tilltr&#228;desf&#246;rordningen
+(1992:118) i andra h&#228;nseenden &#228;n som har angetts i det f&#246;reg&#229;ende skall
+erinras om g&#228;llande best&#228;mmelser. F&#246;rordning (1992:119).
+
+21 &#167; Ett utl&#228;ndskt statsfartyg som kommer in p&#229; svenskt territorium p&#229;
+grund av n&#246;d skall unds&#228;ttas och anvisas en l&#228;mplig ankarplats eller
+hamn.
+
+Utl&#228;ndska statsluftfartyg
+
+22 &#167; Vapenmakt utan f&#246;reg&#229;ende varning skall tillgripas mot utl&#228;ndska
+statsluftfartyg fr&#229;n vilka v&#229;ldshandlingar beg&#229;s
+
+1. mot m&#229;l inom svenskt territorium,
+
+2. fr&#229;n svenskt territorium mot m&#229;l utanf&#246;r territoriet,
+
+3. mot svenska fartyg eller luftfartyg p&#229; eller &#246;ver fritt hav.
+
+23 &#167; Ett utl&#228;ndskt statsluftfartyg som upptr&#228;der inom svenskt
+territorium utan att ha r&#228;tt att vara d&#228;r skall avvisas fr&#229;n
+territoriet. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas.
+
+Om s&#228;rskilda f&#246;rh&#229;llanden kr&#228;ver det, f&#229;r enligt F&#246;rsvarsmaktens
+best&#228;mmande vapenmakt utan f&#246;reg&#229;ende varning tillgripas vid
+ingripanden enligt f&#246;rsta stycket. Detta g&#228;ller &#228;ven
+oidentifierade luftfartyg som &#246;verskrider den svenska
+territorialgr&#228;nsen under omst&#228;ndigheter som tyder p&#229; fientlig
+avsikt. F&#246;rordning (1994:533).
+
+24 &#167; Om ett utl&#228;ndskt statsluftfartyg inom svenskt territorium bedriver
+verksamhet som &#228;r f&#246;rbjuden enligt tilltr&#228;desf&#246;rordningen (1992:118),
+skall luftfartyget anmodas att genast upph&#246;ra med detta. Om anmodan inte
+efterf&#246;ljs skall luftfartyget avvisas fr&#229;n territoriet. Befinner sig
+luftfartyget inom territoriet efter tillst&#229;nd av regeringen, f&#229;r det
+dock avvisas f&#246;rst efter beslut av regeringen.
+
+Om det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas f&#246;r att genomf&#246;ra
+avvisningen. F&#246;rordning (1992:119).
+
+25 &#167; Ett utl&#228;ndskt statsluftfartyg som bryter mot tilltr&#228;desf&#246;rordningen
+(1992:118) i andra h&#228;nseenden &#228;n som har angetts i det f&#246;reg&#229;ende skall
+erinras om g&#228;llande best&#228;mmelser. F&#246;rordning (1992:119).
+
+26 &#167; Ett utl&#228;ndskt statsluftfartyg som kommer in i svenskt luftrum p&#229;
+grund av n&#246;d skall unds&#228;ttas. Om luftfartyget beh&#246;ver landa, skall det
+anvisas en landningsplats.
+
+27 &#167; Ett utl&#228;ndskt statsluftfartyg som i strid med
+tilltr&#228;desf&#246;rordningen (1992:118) har landat inom svenskt
+territorium ska h&#229;llas kvar. Milit&#228;r personal ombord ska
+omh&#228;ndertas och avv&#228;pnas. &#197;tg&#228;rden ska anm&#228;las till
+Polismyndigheten. Om Polismyndigheten beg&#228;r det, ska
+personalen h&#229;llas kvar i avvaktan p&#229; vidare &#229;tg&#228;rder.
+F&#246;rordning (2014:1213).
+
+Kontroll av sj&#246;fart och fiske
+
+28 &#167; Om ett svenskt eller utl&#228;ndskt handelsfartyg misst&#228;nks
+ha brutit mot sj&#246;trafikf&#246;rordningen (1986:300) eller mot
+f&#246;reskrifter som har meddelats med st&#246;d av f&#246;rordningen eller
+om ett utl&#228;ndskt handelsfartyg har &#246;vertr&#228;tt skyddslagen
+(2010:305), ska fartygets bef&#228;lhavare eller annan som svarar
+f&#246;r fartygets framf&#246;rande upplysas om g&#228;llande best&#228;mmelser.
+F&#246;rh&#229;llandet ska anm&#228;las till Polismyndigheten. P&#229; beg&#228;ran av
+Polismyndigheten ska F&#246;rsvarsmakten l&#228;mna bitr&#228;de vid
+prejning, visitering och andra &#229;tg&#228;rder som Polismyndigheten
+f&#229;r vidta, om F&#246;rsvarsmaktens verksamhet inte hindrar det.
+F&#246;rordning (2014:1213).
+
+29 &#167; Om ett utl&#228;ndskt handelsfartyg bedriver fiske inom svenskt
+territorium eller Sveriges ekonomiska zon och misstanke f&#246;religger om
+olovligt eller olaga fiske, anm&#228;ls f&#246;rh&#229;llandet till beh&#246;rig civil
+myndighet. P&#229; beg&#228;ran av denna myndighet l&#228;mnas bitr&#228;de med prejning och
+visitering  av fartyget, inf&#246;rande av fartyget till svensk hamn och
+andra &#229;tg&#228;rder som denna myndighet f&#229;r vidta, om f&#246;rsvarsmaktens
+verksamhet inte hindrar det.
+
+Vad som s&#228;gs i f&#246;rsta stycket g&#228;ller &#228;ven om ett utl&#228;ndskt handelsfartyg
+inom svenskt territorium eller Sveriges ekonomiska zon bedriver s&#229;dan
+verksamhet som s&#228;gs i 2 &#167;, 4 &#167; andra meningen eller 5 &#167; lagen
+(1992:1140) om Sveriges ekonomiska zon om misstanke f&#246;religger att
+tillst&#229;nd f&#246;r verksamheten saknas. F&#246;rordning (1992:1152).
+
+30 &#167; Om n&#229;gon av de myndigheter som avses i 28 eller 29 &#167; beg&#228;r det, f&#229;r
+ocks&#229; i andra fall &#228;n som anges i dessa paragrafer bitr&#228;de l&#228;mnas med
+&#229;tg&#228;rder som den myndigheten f&#229;r vidta inom svenskt territorium mot
+handelsfartyg.
+
+31 &#167; Om ett handelsfartyg i fall som avses i 28--30 &#167;&#167; inte lyder en
+prejningsorder eller en order om visitering, f&#229;r fartyget f&#246;rf&#246;ljas och
+prejas samt f&#246;ras in till svensk hamn, om det kr&#228;vs av den myndighet som
+har beg&#228;rt bitr&#228;det. I fr&#229;ga om ett utl&#228;ndskt handelsfartyg f&#229;r s&#229;dana
+&#229;tg&#228;rder vidtas p&#229; fritt hav endast om ordern har getts inom syn- och
+h&#246;rh&#229;ll f&#246;r fartyget medan detta befann sig inom svenskt territorium
+eller Sveriges ekonomiska zon. F&#246;rordning (1992:1152).
+
+32 &#167; Ett handelsfartyg f&#229;r anropas p&#229; fritt hav f&#246;r kontroll av dess
+nationalitet.
+
+Om fartyget inte visar sin nationalitet och om det kan antas att
+fartyget &#228;r svenskt, f&#229;r det prejas och visiteras.
+
+33 &#167; Vid genomf&#246;randet av &#229;tg&#228;rder enligt 28 - 32 &#167;&#167; f&#229;r vapenmakt
+tillgripas i sj&#228;lvf&#246;rsvar. Om det &#228;r oundg&#228;ngligen n&#246;dv&#228;ndigt med h&#228;nsyn
+till &#229;tg&#228;rdens vikt och det kr&#228;vs av den myndighet som har beg&#228;rt
+&#229;tg&#228;rden, f&#229;r vapenmakt anv&#228;ndas ocks&#229; i andra fall efter medgivande av
+F&#246;rsvarsmakten. F&#246;rordning (1994:533).
+
+34 &#167; Vid visitering och andra ingripanden skall erforderlig h&#228;nsyn och
+skyndsamhet iakttas, s&#229; att handelsfartygets resa eller verksamhet inte
+st&#246;rs mer &#228;n n&#246;dv&#228;ndigt.
+
+Kontroll av luftfart
+
+35 &#167; Ett svenskt eller utl&#228;ndskt civilt luftfartyg som
+framf&#246;rs i strid mot f&#246;rordningen (2005:801) om restriktioner
+f&#246;r luftfart inom vissa omr&#229;den ska avvisas fr&#229;n
+restriktionsomr&#229;det eller uppmanas att landa.
+
+F&#246;reskrifter om F&#246;rsvarsmaktens bitr&#228;de &#229;t civila myndigheter
+f&#246;r att f&#246;rm&#229; civila luftfartyg att landa finns i 8 kap. 8 &#167;
+luftfartsf&#246;rordningen (2010:770). F&#246;rordning (2010:779).
+
+Ingripanden mot krigf&#246;rande staters fartyg och luftfartyg, m.m.
+
+Statsfartyg
+
+36 &#167; Varje utl&#228;ndskt statsfartyg som inte har identifierats som neutralt
+skall behandlas som en krigf&#246;rande stats statsfartyg.
+
+37 &#167; Om en krigf&#246;rande stats statsfartyg &#246;verskrider den svenska
+territorialgr&#228;nsen under omst&#228;ndigheter som tyder p&#229; fientlig avsikt,
+skall vapenmakt utan f&#246;reg&#229;ende varning tillgripas.
+
+38 &#167; Vapenmakt utan f&#246;reg&#229;ende varning skall ocks&#229; tillgripas mot en
+krigf&#246;rande stats statsfartyg fr&#229;n vilka v&#229;ldshandlingar beg&#229;s
+
+1. mot m&#229;l inom svenskt territorium,
+
+2. fr&#229;n svenskt territorium mot m&#229;l utanf&#246;r territoriet,
+
+3. mot svenska fartyg eller luftfartyg p&#229; eller &#246;ver fritt hav.
+
+39 &#167; Om en krigf&#246;rande stats statsfartyg beg&#229;r andra krigshandlingar &#228;n
+v&#229;ldshandlingar inom svenskt territorium, skall detta f&#246;rhindras och
+fartyget avvisas fr&#229;n territoriet. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt
+tillgripas.
+
+40 &#167; Mot en krigf&#246;rande stats ub&#229;t som p&#229;tr&#228;ffas i undervattensl&#228;ge inom
+svenskt territorium skall vapenmakt utan f&#246;reg&#229;ende varning tillgripas.
+
+41 &#167; Om en krigf&#246;rande stats ub&#229;t p&#229;tr&#228;ffas i &#246;vervattensl&#228;ge inom n&#229;gon
+annan del av svenskt territorium &#228;n territorialhavet i &#214;resund, skall
+den avvisas fr&#229;n territoriet. Detsamma g&#228;ller en krigf&#246;rande stats
+sv&#228;vare.
+
+En krigf&#246;rande stats statsfartyg som inl&#246;per till eller befinner sig
+inom svenskt inre vatten eller annan del av territoriet som regeringen
+har f&#246;rklarat vara f&#246;rbjudet omr&#229;de f&#246;r s&#229;dana fartyg skall avvisas fr&#229;n
+territoriet.
+
+Om det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas f&#246;r att genomf&#246;ra
+avvisningar.
+
+42 &#167; Om en krigf&#246;rande stats statsfartyg inte har l&#228;mnat svenskt
+territorium inom f&#246;reskriven tid eller utsatt tidsfrist, skall det
+avvisas. Befinner sig fartyget inom inre vatten, skall det dock i
+st&#228;llet h&#229;llas kvar. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas.
+
+43 &#167; Om flera &#228;n tre &#246;rlogsfartyg som tillh&#246;r samma krigf&#246;rande stat
+eller inb&#246;rdes f&#246;rbundna krigf&#246;rande stater samtidigt befinner sig inom
+svenskt territorium skall, om 41 och 42 &#167;&#167; inte &#228;r till&#228;mpliga, det
+antal fartyg som &#246;verskrider tre och som har anl&#228;nt sist avvisas fr&#229;n
+territoriet.
+
+Om en krigf&#246;rande stats &#246;rlogsfartyg &#246;verskrider den till&#229;tna tiden om
+24 timmar f&#246;r genomfart av det svenska territorialhavet eller, efter att
+ha l&#228;mnat territorialhavet, &#229;terv&#228;nder dit innan 48 timmar har
+f&#246;rflutit, skall fartyget avvisas fr&#229;n territoriet.
+
+Om det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas f&#246;r att genomf&#246;ra
+avvisningen.
+
+44 &#167; En krigf&#246;rande stats statsfartyg som under till&#229;ten genomfart av
+svenskt territorium g&#246;r uppeh&#229;ll utan att fartygets s&#228;kerhet kr&#228;ver det
+skall erinras om g&#228;llande best&#228;mmelser.
+
+Om en krigf&#246;rande stats statsfartyg inom svenskt territorium bedriver
+verksamhet som &#228;r f&#246;rbjuden enligt tilltr&#228;desf&#246;rordningen (1992:118)
+skall, om 37 - 39 &#167;&#167; inte &#228;r till&#228;mpliga, fartyget anmodas att genast
+upph&#246;ra med detta. Detsamma g&#228;ller om fartyget upptr&#228;der s&#229; att den
+svenska neutraliteten kan kr&#228;nkas. Om anmodan inte efterf&#246;ljs, skall
+fartyget avvisas fr&#229;n territoriet. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt
+tillgripas. F&#246;rordning (1992:119).
+
+45 &#167; En krigf&#246;rande stats statsfartyg som g&#246;r framst&#228;llning om att f&#229;
+stanna kvar inom svenskt territorium skall h&#229;llas kvar i avvaktan p&#229;
+beslut. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas.
+
+46 &#167; N&#228;r ett statsfartyg h&#229;lls kvar ska personalen
+omh&#228;ndertas och avv&#228;pnas. &#197;tg&#228;rden ska anm&#228;las till
+Polismyndigheten. Om Polismyndigheten beg&#228;r det, ska
+personalen h&#229;llas kvar i avvaktan p&#229; vidare &#229;tg&#228;rder. Om det
+&#228;r n&#246;dv&#228;ndigt f&#229;r F&#246;rsvarsmakten tillgripa vapenmakt.
+F&#246;rordning (2014:1213).
+
+47 &#167; Om tilltr&#228;de till svenskt territorium f&#246;r en krigf&#246;rande stats
+statsfartyg som &#228;r i sj&#246;n&#246;d samt f&#246;r milit&#228;ra sjukv&#229;rdsfartyg och andra
+statsfartyg som &#228;r inr&#228;ttade och nyttjas uteslutande f&#246;r humanit&#228;ra
+uppgifter finns f&#246;reskrifter i 13 &#167; tilltr&#228;desf&#246;rordningen (1992:118).
+Vapenmakt f&#229;r inte tillgripas mot s&#229;dana fartyg. F&#246;rordning (1992:119).
+
+48 &#167; Innan en krigf&#246;rande stats milit&#228;ra sjukv&#229;rdsfartyg eller ett annat
+statsfartyg som uppges vara inr&#228;ttat och nyttjas uteslutande f&#246;r
+humanit&#228;ra uppgifter f&#229;r komma in p&#229; svenskt inre vatten, skall det
+kontrolleras att fartyget &#228;r avsett och utrustat f&#246;r de uppgifter som
+har angetts. Kontroll skall ske &#228;ven i andra fall, om omst&#228;ndigheterna
+ger anledning till det.
+
+Statsluftfartyg
+
+49 &#167; Varje utl&#228;ndskt statsluftfartyg som inte har identifierats som
+neutralt skall behandlas som en krigf&#246;rande stats statsluftfartyg.
+
+50 &#167; Vapenmakt utan f&#246;reg&#229;ende varning skall tillgripas mot en
+krigf&#246;rande stats statsluftfartyg fr&#229;n vilka v&#229;ldshandlingar eller andra
+krigshandlingar beg&#229;s
+
+1. mot m&#229;l inom svenskt territorium,
+
+2. fr&#229;n svenskt territorium mot m&#229;l utanf&#246;r territoriet,
+
+3. mot svenska fartyg eller luftfartyg p&#229; eller &#246;ver fritt hav.
+
+51 &#167; Om en krigf&#246;rande stats statsluftfartyg p&#229;tr&#228;ffas i n&#229;gon annan del
+av det svenska luftrummet &#228;n &#246;ver territorialhavet i &#214;resund, skall
+vapenmakt utan f&#246;reg&#229;ende varning tillgripas.
+
+52 &#167; Om en krigf&#246;rande stats statsluftfartyg inom luftrummet &#246;ver det
+svenska territorialhavet i &#214;resund bedriver verksamhet som &#228;r f&#246;rbjuden
+enligt tilltr&#228;desf&#246;rordningen (1992:118) skall, om 50 &#167; inte &#228;r
+till&#228;mplig, luftfartyget avvisas fr&#229;n territoriet. Detsamma g&#228;ller om
+luftfartyget upptr&#228;der s&#229; att den svenska neutraliteten kan kr&#228;nkas. Om
+det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas. F&#246;rordning (1992:119).
+
+53 &#167; En krigf&#246;rande stats statsluftfartyg som &#228;r i n&#246;d och
+beh&#246;ver landa ska anvisas landningsplats.
+
+Om luftfartyget landar ska det h&#229;llas kvar. Personalen ska
+omh&#228;ndertas och avv&#228;pnas. &#197;tg&#228;rden ska anm&#228;las till
+Polismyndigheten. Om Polismyndigheten beg&#228;r det, ska
+personalen h&#229;llas kvar i avvaktan p&#229; vidare &#229;tg&#228;rder. Om det
+&#228;r n&#246;dv&#228;ndigt f&#229;r F&#246;rsvarsmakten tillgripa vapenmakt. Det som
+nu har sagts g&#228;ller inte ambulansluftfartyg.
+F&#246;rordning (2014:1213).
+
+54 &#167; En krigf&#246;rande stats ambulansluftfartyg skall inom svenskt
+territorium f&#246;lja anvisade flygv&#228;gar och framf&#246;ras p&#229; tider och h&#246;jder
+som har meddelats i f&#246;rv&#228;g.
+
+Om ambulansluftfartyget inte f&#246;ljer de anvisningar om flygningen som
+anges i f&#246;rsta stycket, skall det uppm&#228;rksammas p&#229; detta.
+
+Vapenmakt f&#229;r inte tillgripas mot ambulansluftfartyg.
+
+Uppbringade fartyg
+
+55 &#167; Om ett svenskt uppbringat fartyg kommer in p&#229; svenskt territorium,
+skall det h&#229;llas kvar i avvaktan p&#229; regeringens beslut. Om det &#228;r
+n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas.
+
+56 &#167; Om ett utl&#228;ndskt fartyg har uppbringats inom svenskt territorium
+och fartyget p&#229;tr&#228;ffas inom territoriet, skall det framtvingas att
+fartyget friges med bes&#228;ttning och last. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r
+vapenmakt tillgripas.
+
+57 &#167; Om ett utl&#228;ndskt uppbringat fartyg vid genomfart av det svenska
+territorialhavet i &#214;resund g&#246;r uppeh&#229;ll utan att fartygets s&#228;kerhet
+kr&#228;ver det, skall fartyget anmodas att genast forts&#228;tta f&#228;rden.
+
+Ett utl&#228;ndskt fartyg som har uppbringats utanf&#246;r svenskt territorium men
+kommer in p&#229; territoriet skall anmodas att genast l&#228;mna territoriet. Det
+som nu har sagts g&#228;ller inte om fartyget kommer in i territorialhavet i
+&#214;resund eller &#228;r i tr&#228;ngande sj&#246;n&#246;d.
+
+Om anmodan inte efterf&#246;ljs skall det framtvingas att det uppbringade
+fartyget friges med bes&#228;ttning och last. Detsamma g&#228;ller f&#246;r ett
+uppbringat utl&#228;ndskt fartyg som p&#229; grund av tr&#228;ngande sj&#246;n&#246;d, haveri
+eller liknande orsaker har medgetts en s&#228;rskild tidsfrist f&#246;r uppeh&#229;llet
+inom svenskt territorium men &#246;verskrider fristen. Om det &#228;r n&#246;dv&#228;ndigt
+f&#229;r vapenmakt tillgripas.
+
+58 &#167; Best&#228;mmelserna i 55 - 57 &#167;&#167; g&#228;ller i till&#228;mpliga delar f&#246;r
+handelsfartyg som av en krigf&#246;rande stats statsfartyg f&#229;tt order att
+styra en viss kurs eller upps&#246;ka en viss position f&#246;r att underg&#229;
+visitering.
+
+59 &#167; I fr&#229;ga om fartyg som anv&#228;nds av en krigf&#246;rande stat f&#246;r
+krigsf&#229;ngetransporter till&#228;mpas 57 &#167; f&#246;rsta och andra styckena. Om
+anmodan enligt dessa best&#228;mmelser inte efterf&#246;ljs, skall fartyget h&#229;llas
+kvar. Detsamma g&#228;ller om fartyget p&#229; grund av tr&#228;ngande sj&#246;n&#246;d, haveri
+eller liknande orsaker har medgetts en s&#228;rskild tidsfrist f&#246;r sitt
+uppeh&#229;ll inom svenskt territorium men &#246;verskrider fristen. Vapenmakt f&#229;r
+inte tillgripas.
+
+60 &#167; Om ett uppbringat fartyg friges enligt 56 eller 57 &#167;,
+ska den prisbes&#228;ttning som satts ombord p&#229; fartyget av den
+krigf&#246;rande staten omh&#228;ndertas och avv&#228;pnas. Detsamma g&#228;ller
+bes&#228;ttning och krigsf&#229;ngar p&#229; fartyg som h&#229;lls kvar enligt
+59 &#167;. &#197;tg&#228;rden ska anm&#228;las till Polismyndigheten. Om
+Polismyndigheten beg&#228;r det, ska de omh&#228;ndertagna h&#229;llas kvar
+i avvaktan p&#229; vidare &#229;tg&#228;rder. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r
+F&#246;rsvarsmakten tillgripa vapenmakt. F&#246;rordning (2014:1213).
+
+Kontroll av sj&#246;fart
+
+61 &#167; Ett utl&#228;ndskt handelsfartyg ska avvisas fr&#229;n svenskt
+territorium om det utan att ha r&#228;tt till det befinner sig
+inom
+
+1. en del av territoriet som enligt regeringens f&#246;rordnande
+&#228;r f&#246;rbjudet omr&#229;de,
+
+2. svenskt inre vatten i fr&#229;ga om vilket F&#246;rsvarsmakten har
+f&#246;reskrivit att s&#228;rskilt tillst&#229;nd f&#246;r tilltr&#228;de beh&#246;vs.
+
+Om det &#228;r n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas.
+
+Svenska fartyg som beg&#229;r motsvarande &#246;vertr&#228;delser ska prejas
+och visiteras och &#229;tg&#228;rden anm&#228;las till Polismyndigheten.
+F&#246;rordning (2014:1213).
+
+62 &#167; Svenska eller utl&#228;ndska handelsfartyg som misst&#228;nks f&#246;r &#229;tg&#228;rder
+som kan kr&#228;nka den svenska neutraliteten och som p&#229;tr&#228;ffas inom svenskt
+territorium skall prejas och visiteras. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r
+vapenmakt tillgripas.
+
+63 &#167; Prejning och visitering f&#229;r inom svenskt territorium anv&#228;ndas som
+kontroll&#229;tg&#228;rd &#228;ven i andra fall &#228;n som anges i 4, 28 - 32, 61 och
+62 &#167;&#167;.
+
+64 &#167; Om det vid visitering framkommer att en krigf&#246;rande stats
+handelsfartyg har en bev&#228;pning som &#228;r avsedd till annat &#228;n sj&#228;lvf&#246;rsvar,
+skall fartyget avvisas fr&#229;n territoriet. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r
+vapenmakt tillgripas.
+
+Kontroll av luftfart
+
+65 &#167; Utl&#228;ndska civila luftfartyg som utan att ha r&#228;tt till det framf&#246;rs
+inom svenskt territorium skall avvisas fr&#229;n territoriet. Om det &#228;r
+n&#246;dv&#228;ndigt f&#229;r vapenmakt tillgripas. Om ett svenskt civilt luftfartyg
+beg&#229;r motsvarande &#246;vertr&#228;delse, skall luftfartyget anmodas att landa.
+
+66 &#167; Om ett utl&#228;ndskt civilt luftfartyg som efter tillst&#229;nd framf&#246;rs
+inom svenskt territorium har avvikit fr&#229;n flygv&#228;gen, skall det ledas
+tillbaka till den anvisade flygv&#228;gen.
+
+67 &#167; Om ett utl&#228;ndskt civilt luftfartyg &#228;r i n&#246;d eller visar att det
+&#246;nskar landa, skall det anvisas en landningsplats.
+
+68 &#167; Om ett utl&#228;ndskt civilt luftfartyg har landat inom
+svenskt territorium utan att vara ber&#228;ttigat till det, ska
+luftfartyget h&#229;llas kvar. Bes&#228;ttning och passagerare ska
+omh&#228;ndertas och avv&#228;pnas. &#197;tg&#228;rden ska anm&#228;las till
+Polismyndigheten. Om Polismyndigheten beg&#228;r det, ska de
+omh&#228;ndertagna h&#229;llas kvar i avvaktan p&#229; vidare &#229;tg&#228;rder.
+F&#246;rordning (2014:1213).
+
+Verkst&#228;llighetsf&#246;reskrifter
+
+69 &#167; F&#246;reskrifter f&#246;r verkst&#228;lligheten av denna f&#246;rordning meddelas av
+F&#246;rsvarsmakten efter samr&#229;d med ber&#246;rda civila myndigheter.
+F&#246;rordning (1994:533).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1986:307
+
+Denna f&#246;rordning tr&#228;der i kraft, i fr&#229;ga om 28 &#167; den 1 juli 1986, och i
+fr&#229;ga om 35 &#167; den 1 januari 1987.
+
+2010:648
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 augusti 2010.
+
+2. F&#246;r s&#229;dana milit&#228;ra skyddsomr&#229;den som avses i punkten 1 i
+ikrafttr&#228;dande- och &#246;verg&#229;ngsbest&#228;mmelserna till skyddslagen
+(2010:305) g&#228;ller 3 och 28 &#167;&#167; i sin &#228;ldre lydelse.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3850">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3852">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

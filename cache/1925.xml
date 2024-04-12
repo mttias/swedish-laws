@@ -1,0 +1,833 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2008-12-03" /> 
+ <meta id="rattsinfo-edited" content="2019-02-04" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1925</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1924">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1926">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2008:990 ·
+                    <a href="/sfsr?bet=2008:990">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2008:990) om f&#246;retagshypotek</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2008-11-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:1685
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2009-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+1 &#167; Med f&#246;retagshypotek avses en s&#228;kerhetsr&#228;tt enligt
+best&#228;mmelserna i denna lag.
+
+2 &#167; En n&#228;ringsidkare som vill uppl&#229;ta f&#246;retagshypotek i sin
+n&#228;ringsverksamhet har r&#228;tt att f&#229; inskrivning av ett visst
+belopp i verksamheten (f&#246;retagsinteckning). Bevis om
+inteckningen kallas f&#246;retagsinteckningsbrev.
+
+Ett f&#246;retagsinteckningsbrev utf&#228;rdas antingen i skriftlig form
+(skriftligt f&#246;retagsinteckningsbrev) eller genom registrering i
+inteckningsbrevsregistret enligt lagen (2008:1075) om
+inteckningsbrevsregister (elektroniskt
+f&#246;retagsinteckningsbrev).
+
+Det som s&#228;gs om n&#228;ringsidkare i denna lag g&#228;ller &#228;ven den som
+avser att ut&#246;va n&#228;ringsverksamhet men som &#228;nnu inte har
+p&#229;b&#246;rjat verksamheten. Om en n&#228;ringsidkare avlider, tr&#228;der
+d&#246;dsboet i n&#228;ringsidkarens st&#228;lle. Lag (2008:1079).
+
+3 &#167; Ett f&#246;retagshypotek uppl&#229;ts genom att n&#228;ringsidkaren
+&#246;verl&#228;mnar f&#246;retagsinteckningsbrevet som s&#228;kerhet f&#246;r en
+fordran.
+
+Ett elektroniskt f&#246;retagsinteckningsbrev ska anses ha
+&#246;verl&#228;mnats till borgen&#228;ren, n&#228;r borgen&#228;ren eller n&#229;gon som
+f&#246;retr&#228;der honom eller henne har registrerats som
+inteckningsbrevshavare i inteckningsbrevsregistret.
+Lag (2008:1079).
+
+4 &#167; Ett konkursbo kan inte beviljas f&#246;retagsinteckning och kan
+inte heller uppl&#229;ta f&#246;retagshypotek.
+
+2 kap. F&#246;retagshypotek
+
+Egendom som omfattas av f&#246;retagshypotek
+
+1 &#167; Ett f&#246;retagshypotek omfattar n&#228;ringsidkarens l&#246;sa egendom i
+den m&#229;n egendomen h&#246;r till den intecknade verksamheten.
+
+F&#246;retagshypoteket omfattar inte
+
+1. kassa- och bankmedel,
+
+2. aktier och andra finansiella instrument, avsedda f&#246;r allm&#228;n
+oms&#228;ttning,
+
+3. egendom som kan vara f&#246;rem&#229;l f&#246;r pantr&#228;tt p&#229; grund av
+inteckning, eller
+
+4. egendom som varken kan utm&#228;tas eller ing&#229; i konkurs.
+
+2 &#167; Om en intecknad verksamhet &#246;verl&#229;ts, omfattar
+f&#246;retagshypoteket &#246;verl&#229;tarens fordran p&#229; ers&#228;ttning till den
+del denna avser egendom som omfattades av hypoteket vid
+&#246;verl&#229;telsen.
+
+F&#246;rf&#246;ljelser&#228;tt
+
+3 &#167; Om en intecknad verksamhet &#246;verl&#229;ts och det i &#246;verl&#229;telsen
+ing&#229;r egendom som omfattas av f&#246;retagshypoteket, g&#228;ller
+hypoteket i egendomen hos f&#246;rv&#228;rvaren. Om f&#246;rv&#228;rvaren &#246;verl&#229;ter
+egendomen eller uppl&#229;ter s&#228;rskild r&#228;tt i den eller om egendomen
+skadas eller tas i anspr&#229;k genom expropriation eller liknande
+f&#246;rfarande, omfattar f&#246;retagshypoteket f&#246;rv&#228;rvarens fordran p&#229;
+ers&#228;ttning. F&#246;retagshypoteket ger f&#246;retr&#228;de till betalning
+framf&#246;r ett hypotek i samma egendom som grundar sig p&#229;
+uppl&#229;telse av f&#246;rv&#228;rvaren.
+
+Borgen&#228;ren f&#246;rlorar sin r&#228;tt enligt f&#246;rsta stycket, om han
+eller hon inte inom sex m&#229;nader fr&#229;n det att &#246;verl&#229;taren eller
+f&#246;rv&#228;rvaren har underr&#228;ttat honom eller henne om &#246;verl&#229;telsen
+och senast inom arton m&#229;nader fr&#229;n det att verksamheten
+fr&#229;ntr&#228;ddes v&#228;cker talan mot f&#246;rv&#228;rvaren om betalning ur
+egendomen och anm&#228;ler det till inskrivningsmyndigheten.
+
+Det som s&#228;gs i denna paragraf om f&#246;rv&#228;rvaren g&#228;ller ocks&#229;
+f&#246;rv&#228;rvarens d&#246;dsbo.
+
+4 &#167; Best&#228;mmelserna i 3 &#167; ska till&#228;mpas ocks&#229; n&#228;r den intecknade
+verksamheten och egendom som omfattas av ett f&#246;retagshypotek
+&#246;verg&#229;r till n&#229;gon annan genom skifte av handelsbolags
+tillg&#229;ngar eller genom bodelning av n&#229;gon annan anledning &#228;n
+n&#228;ringsidkarens d&#246;d.
+
+Borgen&#228;rens r&#228;tt till betalning p&#229; grund av f&#246;retagshypotek
+
+5 &#167; En borgen&#228;r som har f&#246;retagshypotek f&#246;r sin fordran har
+r&#228;tt att vid utm&#228;tning eller i konkurs, med den f&#246;retr&#228;desr&#228;tt
+inteckningen medf&#246;r enligt lag, f&#229; betalt f&#246;r fordringen ur
+egendom som omfattas av hypoteket upp till
+f&#246;retagsinteckningsbrevets belopp.
+
+I den m&#229;n inteckningsbrevets belopp inte r&#228;cker till betalning,
+har borgen&#228;ren r&#228;tt att f&#229; betalt ur egendomen genom ett
+till&#228;gg. Till&#228;gget f&#229;r inte &#246;verstiga femton procent av
+inteckningsbrevets belopp samt r&#228;nta p&#229; detta belopp fr&#229;n den
+dag d&#229; egendomen utm&#228;ttes eller konkursans&#246;kningen gjordes.
+R&#228;ntan ber&#228;knas f&#246;r &#229;r enligt en r&#228;ntefot som motsvarar den av
+Riksbanken fastst&#228;llda, vid varje tid g&#228;llande referensr&#228;ntan
+enligt 9 &#167; r&#228;ntelagen (1975:635), &#246;kad med fyra procentenheter.
+
+En borgen&#228;rs r&#228;tt till betalning omfattar inte till&#228;gget, om
+inteckningsbrevet utg&#246;r s&#228;kerhet f&#246;r borgen&#228;ren i andra hand.
+
+6 &#167; &#214;verl&#228;mnas flera f&#246;retagsinteckningsbrev som s&#228;kerhet f&#246;r
+en fordran och har inteckningarna samma f&#246;retr&#228;desr&#228;tt eller
+g&#228;ller de omedelbart efter varandra, ska best&#228;mmelserna i 5 &#167;
+om inteckningsbrevets belopp avse inteckningsbrevens
+sammanlagda belopp.
+
+7 &#167; Borgen&#228;rens r&#228;tt till betalning ur egendomen g&#228;ller &#228;ven om
+fordringen har preskriberats eller inte har anm&#228;lts av
+borgen&#228;ren efter kallelse p&#229; ok&#228;nda borgen&#228;rer.
+
+8 &#167; En borgen&#228;r som har f&#246;retagshypotek som s&#228;kerhet f&#246;r sin
+fordran har r&#228;tt att s&#246;ka betalning ur egendom som omfattas av
+f&#246;retagshypoteket trots att fordringen inte &#228;r f&#246;rfallen till
+betalning, om
+
+1. den intecknade verksamheten eller en v&#228;sentlig del av den
+&#246;verl&#229;ts, upph&#246;r eller &#246;verg&#229;r till n&#229;gon annan genom skifte av
+handelsbolags tillg&#229;ngar eller genom bodelning av n&#229;gon annan
+anledning &#228;n n&#228;ringsidkarens d&#246;d, eller
+
+2. egendomen till f&#246;ljd av vanv&#229;rd, naturh&#228;ndelse eller av
+n&#229;gon annan d&#228;rmed j&#228;mf&#246;rlig orsak f&#246;rs&#228;mras eller minskas s&#229;
+att s&#228;kerhetens v&#228;rde g&#229;r ned v&#228;sentligt.
+
+Vid utm&#228;tning av egendom som omfattas av f&#246;retagshypotek har
+inteckningsborgen&#228;ren r&#228;tt till betalning ur egendomen enligt 8
+kap. uts&#246;kningsbalken &#228;ven om fordringen inte &#228;r f&#246;rfallen till
+betalning.
+
+F&#246;retagshypotekets f&#246;rh&#229;llande till kvarstad
+
+9 &#167; F&#246;retagshypotek omfattar inte kvarstadsbelagd egendom, om
+inteckningen s&#246;ks samma dag som kvarstadsbeslutet meddelas
+eller senare. H&#228;vs kvarstaden, g&#228;ller dock f&#246;retagshypoteket
+&#228;ven i den egendomen s&#229;vida den inte &#228;r utm&#228;tt eller tagen i
+anspr&#229;k genom betalningss&#228;kring.
+
+3 kap. F&#246;retagsinteckning
+
+Inteckningens omfattning
+
+1 &#167; En f&#246;retagsinteckning beviljas i all den n&#228;ringsverksamhet
+som n&#228;ringsidkaren vid varje tid ut&#246;var i Sverige.
+
+Inteckningars f&#246;retr&#228;de
+
+2 &#167; Best&#228;mmelser om den f&#246;rm&#229;nsr&#228;tt som f&#246;ljer med
+f&#246;retagsinteckning finns i f&#246;rm&#229;nsr&#228;ttslagen (1970:979).
+
+3 &#167; En f&#246;retagsinteckning ger f&#246;retr&#228;de i f&#246;rh&#229;llande till
+annan f&#246;retagsinteckning i den tidsf&#246;ljd i vilken
+inteckningarna s&#246;ks. Inteckningar som s&#246;ks p&#229; samma
+inskrivningsdag ger lika r&#228;tt, om inte annat f&#246;ljer av 4 kap.
+13 &#167;.
+
+Inteckningars och inteckningsbrevs giltighet i vissa fall
+
+4 &#167; Om egendom som omfattas av f&#246;retagshypotek har blivit
+utm&#228;tt och inteckningsborgen&#228;ren har tillerk&#228;nts betalning ur
+egendomen, &#228;r f&#246;retagsinteckningen utan verkan till ett belopp
+som motsvarar vad som har erh&#229;llits p&#229;
+f&#246;retagsinteckningsbrevets belopp. Detsamma g&#228;ller om
+borgen&#228;ren har tillerk&#228;nts betalning ur s&#229;dan egendom i
+konkurs.
+
+5 &#167; Om en f&#246;retagsinteckning blir utan verkan, &#228;r &#228;ven
+f&#246;retagsinteckningsbrevet utan verkan. &#196;ndras i annat fall en
+inteckning, f&#229;r inteckningsbrevet verkan i enlighet med
+inteckningens &#228;ndrade inneh&#229;ll.
+
+D&#246;dning av f&#246;rkommet inteckningsbrev medf&#246;r inte att
+inteckningen blir utan verkan.
+
+4 kap. Inskrivningsf&#246;rfarandet
+
+F&#246;retagsinteckningsregister och inskrivningsmyndighet
+
+1 &#167; 
+F&#246;r inskrivning enligt denna lag ska det f&#246;ras ett 
+register med hj&#228;lp av automatiserad behandling, ben&#228;mnt 
+f&#246;retagsinteckningsregistret. Detta ska ge offentlighet &#229;t 
+den information som ing&#229;r i registret.
+
+Regeringen kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela 
+f&#246;reskrifter om registrets inneh&#229;ll och n&#228;rmare &#228;ndam&#229;l, 
+behandling av uppgifter och personuppgiftsansvar.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om expeditionsavgifter 
+f&#246;r bevis om inskrivnings&#229;tg&#228;rd. Lag (2018:285).
+
+2 &#167; &#196;renden om f&#246;retagsinteckning eller annan inf&#246;ring i
+f&#246;retagsinteckningsregistret p&#229; grund av best&#228;mmelse i denna
+lag eller annan f&#246;rfattning (inskrivnings&#228;renden) handl&#228;ggs av
+en f&#246;r landet gemensam inskrivningsmyndighet. Regeringen
+best&#228;mmer vilken myndighet som ska vara inskrivningsmyndighet.
+
+Handl&#228;ggningen av inskrivnings&#228;renden
+
+3 &#167; Vid handl&#228;ggningen hos inskrivningsmyndigheten av 
+inskrivnings&#228;renden till&#228;mpas inte 22 &#167; andra stycket och 
+37–39 &#167;&#167; f&#246;rvaltningslagen (2017:900). I 37 a och 37 b &#167;&#167; 
+lagen (1984:404) om st&#228;mpelskatt vid inskrivningsmyndigheter 
+finns best&#228;mmelser om att inskrivningsmyndigheten ska ompr&#246;va 
+beslut om st&#228;mpelskatt i vissa fall.
+
+Ans&#246;kningar och anm&#228;lningar i inskrivnings&#228;renden ska vara 
+skriftliga.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer kan 
+med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela f&#246;reskrifter 
+om ingivning av ans&#246;kningar och anm&#228;lningar i 
+inskrivnings&#228;renden. Lag (2018:832).
+
+3 a &#167; I inskrivnings&#228;renden beh&#246;ver ombud inte visa upp
+skriftlig fullmakt annat &#228;n om inskrivningsmyndigheten anser
+att det beh&#246;vs. Lag (2008:1079).
+
+4 &#167; Inskrivnings&#228;renden tas upp p&#229; en inskrivningsdag.
+Inskrivningsdag h&#229;lls till klockan tolv varje m&#229;ndag, tisdag,
+onsdag, torsdag och fredag som inte &#228;r helgdag. Med helgdag
+avses &#228;ven midsommarafton, julafton och ny&#229;rsafton. Regeringen
+eller den myndighet som regeringen best&#228;mmer f&#229;r besluta att en
+inskrivningsdag ska st&#228;llas in, om det finns s&#228;rskilda sk&#228;l
+till det.
+
+En ans&#246;kan eller anm&#228;lan som har kommit in efter klockan tolv
+en viss dag anses gjord p&#229; n&#228;stf&#246;ljande inskrivningsdag.
+
+5 &#167; Hos inskrivningsmyndigheten f&#246;rs dagbok &#246;ver
+inskrivnings&#228;rendena. Handlingarna i s&#229;dana &#228;renden f&#246;rs samman
+i akter.
+
+Har s&#246;kanden eller n&#229;gon annan l&#228;mnat en uppgift eller
+f&#246;rklaring av betydelse f&#246;r &#228;rendets pr&#246;vning eller har en
+s&#228;rskild utredning gjorts i &#228;rendet, ska detta antecknas i
+akten. I akten tas &#228;ven upp f&#246;rel&#228;gganden och andra beslut som
+inte ska f&#246;ras in i f&#246;retagsinteckningsregistret.
+
+6 &#167; Om det &#228;r n&#246;dv&#228;ndigt f&#246;r utredningen, f&#229;r ett
+inskrivnings&#228;rende skjutas upp till en viss senare
+inskrivningsdag.
+
+Om ett &#228;rende skjuts upp, f&#229;r s&#246;kanden f&#246;rel&#228;ggas att l&#228;gga
+fram den utredning eller de uppgifter som beh&#246;vs. Ans&#246;kningen
+f&#229;r f&#246;rklaras f&#246;rfallen, om s&#246;kanden inte f&#246;ljer f&#246;rel&#228;ggandet.
+F&#246;rel&#228;ggandet ska inneh&#229;lla en upplysning om detta.
+
+Ett inskrivnings&#228;rende f&#229;r vidare skjutas upp till en viss
+senare inskrivningsdag, om &#228;rendet med h&#228;nsyn till beskaffenhet
+eller omfattning inte l&#228;mpligen kan pr&#246;vas omedelbart. Ett
+&#228;rende som har skjutits upp av denna anledning ska tas upp till
+pr&#246;vning senast p&#229; femte inskrivningsdagen efter den
+inskrivningsdag d&#229; ans&#246;kningen gjordes.
+
+7 &#167; Ett beslut ska f&#246;ras in i f&#246;retagsinteckningsregistret, om
+beslutet inneb&#228;r att en ans&#246;kan i ett inskrivnings&#228;rende
+bifalls, avsl&#229;s eller f&#246;rklaras f&#246;rfallen eller att ett &#228;rende
+skjuts upp. Sk&#228;len f&#246;r beslutet ska antecknas i akten eller i
+dagboken, om beslutet inneb&#228;r att ans&#246;kningen inte bifalls.
+
+Ett beslut som ska f&#246;ras in i registret meddelas genom
+inf&#246;randet och ska anses ha det inneh&#229;ll som framg&#229;r av
+registret.
+
+8 &#167; Om ett beslut i ett inskrivnings&#228;rende har g&#229;tt emot
+s&#246;kanden eller n&#229;gon annan, ska denne genast underr&#228;ttas om
+beslutet. I underr&#228;ttelsen ska anges de sk&#228;l f&#246;r beslutet som
+har antecknats i akten eller i dagboken och vad den som vill
+&#246;verklaga beslutet ska g&#246;ra.
+
+9 &#167; Om ett inskrivnings&#228;rende enligt beslut av domstol ska tas
+upp till ny handl&#228;ggning av inskrivningsmyndigheten, ska det
+ske genast efter det att beslutet har kommit myndigheten till
+handa.
+
+Inteckningsans&#246;kan
+
+10 &#167; En ans&#246;kan om f&#246;retagsinteckning ska inneh&#229;lla 
+uppgift om det belopp p&#229; vilket inteckningen ska lyda. 
+
+Inteckningens belopp ska anges i svenska kronor eller i s&#229;dan 
+utl&#228;ndsk valuta f&#246;r vilken det l&#246;pande finns tillg&#229;ng till en 
+tillf&#246;rlitlig kurs f&#246;r v&#228;xling mellan den aktuella valutan 
+och svenska kronor.
+
+S&#246;kanden ska l&#228;mna styrkt uppgift om namn eller f&#246;retagsnamn 
+och person- eller organisationsnummer. Om uppgifterna redan 
+finns registrerade hos inskrivningsmyndigheten beh&#246;ver 
+s&#246;kanden inte styrka dessa. Lag (2018:1685).
+
+11 &#167; En ans&#246;kan om f&#246;retagsinteckning ska avsl&#229;s, om
+
+1. best&#228;mmelserna i 3 &#167; andra stycket eller 10 &#167; inte har
+f&#246;ljts, eller
+
+2. s&#246;kanden &#228;r i konkurs eller f&#246;rs&#228;tts i konkurs den
+inskrivningsdag d&#229; inteckningen s&#246;ks.
+
+12 &#167; Om det inte finns n&#229;got som hindrar det, ska 
+f&#246;retagsinteckning beviljas och f&#246;retagsinteckningsbrev 
+utf&#228;rdas p&#229; grund av inteckningen.
+
+Om ett elektroniskt f&#246;retagsinteckningsbrev utf&#228;rdas i 
+st&#228;llet f&#246;r ett tidigare utf&#228;rdat skriftligt 
+f&#246;retagsinteckningsbrev, f&#246;rlorar det skriftliga 
+f&#246;retagsinteckningsbrevet sin giltighet. Utf&#228;rdas ett 
+skriftligt f&#246;retagsinteckningsbrev i st&#228;llet f&#246;r ett tidigare 
+utf&#228;rdat elektroniskt f&#246;retagsinteckningsbrev, f&#246;rlorar det 
+elektroniska f&#246;retagsinteckningsbrevet sin giltighet.
+
+I lagen (2011:900) om d&#246;dande av f&#246;rkommen handling finns 
+best&#228;mmelser om utf&#228;rdande av nytt inteckningsbrev i st&#228;llet 
+f&#246;r inteckningsbrev som har d&#246;dats. Lag (2018:832).
+
+13 &#167; En f&#246;retagsinteckning som skulle medf&#246;ra lika
+f&#246;retr&#228;desr&#228;tt som en annan inteckning ska vid inskrivningen
+f&#246;rklaras g&#228;lla efter den andra inteckningen, om s&#246;kanden beg&#228;r
+det. En inteckning som s&#228;tts efter en annan inteckning g&#228;ller
+ocks&#229; efter en inteckning med lika r&#228;tt som eller b&#228;ttre r&#228;tt
+&#228;n den andra inteckningen, &#228;ven om detta inte anges i beslutet.
+
+Intecknings&#229;tg&#228;rder
+
+14 &#167; Ett f&#246;retagsinteckningsbrev f&#229;r p&#229; ans&#246;kan av den vars
+egendom intecknats och efter medgivande av inteckningsbrevets
+innehavare bytas ut mot tv&#229; eller flera nya inteckningsbrev
+(utbyte). I fr&#229;ga om de nya inteckningsbrevens inb&#246;rdes
+f&#246;retr&#228;desr&#228;tt g&#228;ller 13 &#167;.
+
+15 &#167; F&#246;retagsinteckningar som har inb&#246;rdes lika r&#228;tt eller
+g&#228;ller omedelbart efter varandra f&#229;r p&#229; ans&#246;kan av den vars
+egendom intecknats och efter medgivande av
+f&#246;retagsinteckningsbrevens innehavare f&#246;ras samman till en
+inteckning (sammanf&#246;ring). Denna inteckning ska g&#228;lla med den
+f&#246;rm&#229;nsr&#228;tt som tillkommer den av de sammanf&#246;rda inteckningarna
+som har s&#228;msta r&#228;tt. Sammanf&#246;ring f&#229;r ske endast om
+inteckningarna &#228;r best&#228;mda i samma valuta.
+
+Inteckningar som &#228;r inf&#246;rda i inteckningsbrevsregistret f&#229;r
+sammanf&#246;ras endast om samtliga inteckningar som omfattas av
+&#229;tg&#228;rden &#228;r inf&#246;rda i registret och har samma
+inteckningsbrevshavare.
+
+En inteckning som avses i f&#246;rsta stycket ska f&#246;rklaras g&#228;lla
+f&#246;r ett l&#228;gre belopp &#228;n det som de sammanf&#246;rda inteckningarna
+sammanlagt uppg&#229;r till, om s&#246;kanden beg&#228;r det och
+inteckningsbrevens innehavare medger det. Lag (2008:1079).
+
+16 &#167; En f&#246;retagsinteckning f&#229;r p&#229; ans&#246;kan av den vars egendom
+intecknats och efter medgivande av f&#246;retagsinteckningsbrevets
+innehavare s&#228;ttas ned efter en annan inteckning (neds&#228;ttning).
+En inteckning som s&#228;tts ned efter en annan inteckning g&#228;ller
+ocks&#229; efter en inteckning med lika r&#228;tt som eller b&#228;ttre r&#228;tt
+&#228;n den andra inteckningen, &#228;ven om detta inte anges i beslutet.
+
+17 &#167; P&#229; ans&#246;kan av den vars egendom intecknats och efter 
+medgivande av f&#246;retagsinteckningsbrevets innehavare f&#229;r en 
+f&#246;retagsinteckning d&#246;das (d&#246;dning).
+
+I lagen (2011:900) om d&#246;dande av f&#246;rkommen handling finns 
+best&#228;mmelser om d&#246;dning av inteckning n&#228;r inteckningsbrevet 
+har f&#246;rkommit. Lag (2018:832).
+
+18 &#167; I fall d&#229; medgivande kr&#228;vs enligt 14-17 &#167;&#167; fordras att
+f&#246;retagsinteckningsbrevet l&#228;mnas in till
+inskrivningsmyndigheten eller, i fr&#229;ga om elektroniskt
+f&#246;retagsinteckningsbrev, att det finns hinder mot
+avregistrering enligt 9 &#167; lagen (2008:1075) om
+inteckningsbrevsregister och att n&#229;gon beg&#228;ran om att hindret
+ska h&#228;vas inte har framst&#228;llts. Lag (2008:1079).
+
+Anteckning och r&#228;ttelse i f&#246;retagsinteckningsregistret
+
+19 &#167; P&#229; ans&#246;kan av den som innehar ett f&#246;retagsinteckningsbrev
+ska innehavet antecknas i f&#246;retagsinteckningsregistret. Om
+s&#246;kanden &#229;beropar ett skriftligt f&#246;retagsinteckningsbrev och
+det finns anledning att anta att s&#246;kanden inte innehar detta,
+ska han eller hon f&#246;rel&#228;ggas att visa upp brevet. Om n&#229;gon
+annan redan &#228;r antecknad som innehavare, ska
+inskrivningsmyndigheten sedan det nya innehavet har antecknats
+ta bort den tidigare anteckningen och underr&#228;tta den vars
+innehav var antecknat.
+
+En anteckning om innehav ska tas bort, om
+
+1. den vars innehav har antecknats anm&#228;ler att innehavet har
+upph&#246;rt, eller
+
+2. den som innehar ett skriftligt f&#246;retagsinteckningsbrev, den
+som &#228;r registrerad som inteckningsbrevshavare enligt lagen
+(2008:1075) om inteckningsbrevsregister eller som &#228;r att anse
+som inteckningsbrevshavare enligt 2 &#167; andra stycket samma lag
+beg&#228;r det. Lag (2008:1079).
+
+20 &#167; I f&#246;retagsinteckningsregistret ska det antecknas n&#228;r
+
+1. en borgen&#228;r enligt 2 kap. 3 &#167; andra stycket har anm&#228;lt att
+han eller hon v&#228;ckt talan om betalning ur egendom som omfattas
+av f&#246;retagshypotek, eller
+
+2. det har anm&#228;lts till inskrivningsmyndigheten att betalning
+vid utm&#228;tning eller i konkurs har utfallit p&#229; ett
+f&#246;retagsinteckningsbrevs belopp.
+
+Det kan &#228;ven i andra fall f&#246;lja av lag eller annan f&#246;rfattning
+att ett visst f&#246;rh&#229;llande ska antecknas i registret.
+
+En anteckning i registret ska tas bort, om den uppenbarligen
+inte l&#228;ngre har n&#229;gon betydelse.
+
+21 &#167; En uppgift som har f&#246;rts in i 
+f&#246;retagsinteckningsregistret ska r&#228;ttas, om uppgiften 
+inneh&#229;ller n&#229;gon uppenbar oriktighet till f&#246;ljd av 
+inskrivningsmyndighetens eller n&#229;gon annans skrivfel eller 
+liknande f&#246;rbiseende eller till f&#246;ljd av n&#229;got tekniskt fel. 
+I fr&#229;ga om personuppgifter g&#228;ller detta i st&#228;llet f&#246;r r&#228;tten 
+till r&#228;ttelse enligt artikel 16 i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2016/679 av den 27 april 2016 om skydd 
+f&#246;r fysiska personer med avseende p&#229; behandling av 
+personuppgifter och om det fria fl&#246;det av s&#229;dana uppgifter 
+och om upph&#228;vande av direktiv 95/46/EG (allm&#228;n 
+dataskyddsf&#246;rordning). 
+
+Det inb&#246;rdes f&#246;retr&#228;det mellan inteckningar som ber&#246;rs av en 
+r&#228;ttelse ska best&#228;mmas efter vad som &#228;r sk&#228;ligt, om r&#228;ttelsen 
+kan skada den vars egendom har intecknats eller n&#229;gon 
+innehavare av f&#246;retagsinteckningsbrev.
+
+Innan r&#228;ttelse sker ska inskrivningsmyndigheten ge den som 
+ber&#246;rs av &#229;tg&#228;rden, om han eller hon &#228;r k&#228;nd, tillf&#228;lle att 
+yttra sig. &#196;ven den myndighet som avses i 5 kap. 3 &#167; ska ges 
+tillf&#228;lle att yttra sig. N&#229;got yttrande beh&#246;ver dock inte 
+inh&#228;mtas, om det &#228;r uppenbart obeh&#246;vligt.
+
+En anteckning om &#228;rendet ska g&#246;ras i registret, om inte 
+beslut meddelas samma dag som &#228;rendet har tagits upp.
+Lag (2018:285).
+
+22 &#167; Ett beslut i ett &#228;rende om r&#228;ttelse meddelas genom att
+beslutet f&#246;rs in i registret. Sk&#228;len f&#246;r beslutet antecknas i
+akten eller i dagboken. I st&#228;llet f&#246;r bevis eller handling som
+har utf&#228;rdats i enlighet med den uppgift som tidigare f&#246;rts in
+ska en ny s&#229;dan handling utf&#228;rdas.
+
+Den tidigare handlingen ska kr&#228;vas in, g&#246;ras obrukbar och
+beh&#229;llas av inskrivningsmyndigheten. Den som innehar handlingen
+&#228;r skyldig att l&#228;mna in den f&#246;r detta &#228;ndam&#229;l. I f&#246;rel&#228;ggande
+att fullg&#246;ra en s&#229;dan skyldighet f&#229;r vite s&#228;ttas ut. Vitet d&#246;ms
+ut av inskrivningsmyndigheten.
+
+Begr&#228;nsning av behandling av personuppgifter 
+
+22 a &#167; R&#228;tten till begr&#228;nsning av behandling av 
+personuppgifter enligt artikel 18 i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2016/679 g&#228;ller inte i fr&#229;ga om 
+personuppgifter i f&#246;retagsinteckningsregistret.
+Lag (2018:285).
+
+&#214;verklagande
+
+23 &#167; Ett beslut av inskrivningsmyndigheten i ett
+inskrivnings&#228;rende f&#229;r &#246;verklagas till tingsr&#228;tten av den som
+beslutet r&#246;r, om det har g&#229;tt honom eller henne emot. Ett
+beslut som inte &#228;r slutligt f&#229;r &#246;verklagas endast i de fall som
+avses i 37 &#167; lagen (1996:242) om domstols&#228;renden. Beh&#246;rig
+domstol &#228;r den tingsr&#228;tt inom vars domkrets
+inskrivningsmyndigheten &#228;r bel&#228;gen.
+
+Vid &#246;verklagande till&#228;mpas lagen om domstols&#228;renden, om inte
+annat f&#246;ljer av denna lag.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till hovr&#228;tten.
+
+24 &#167; Den som vill &#246;verklaga ett beslut av
+inskrivningsmyndigheten ska g&#246;ra det skriftligen. Skrivelsen
+ska l&#228;mnas in till inskrivningsmyndigheten.
+
+Om &#246;verklagandet avser ett slutligt beslut, ska skrivelsen ha
+kommit in till inskrivningsmyndigheten inom tre veckor fr&#229;n den
+dag d&#229; en underr&#228;ttelse eller ett bevis om beslutet h&#246;lls
+tillg&#228;ngligt f&#246;r s&#246;kanden. Skrivelsen f&#229;r dock alltid l&#228;mnas in
+inom fyra veckor fr&#229;n den inskrivningsdag d&#229; beslutet
+meddelades.
+
+I fr&#229;ga om klagotid f&#246;r &#246;verklagande av ett beslut som avses i
+37 &#167; lagen (1996:242) om domstols&#228;renden till&#228;mpas
+best&#228;mmelserna i 38 &#167; f&#246;rsta och andra styckena samma lag.
+
+25 &#167; Om det &#246;verklagade beslutet har antecknats i
+f&#246;retagsinteckningsregistret, ska uppgift om &#246;verklagandet
+f&#246;ras in i registret. N&#228;r det finns ett lagakraftvunnet beslut
+med anledning av &#246;verklagandet, ska beslutets inneh&#229;ll
+antecknas i registret.
+
+26 &#167; Ett beslut i ett &#228;rende om r&#228;ttelse f&#229;r &#246;verklagas &#228;ven av
+den myndighet som avses i 5 kap. 3 &#167;.
+
+5 kap. R&#228;tt till ers&#228;ttning i vissa fall
+
+1 &#167; Om n&#229;gon lider skada till f&#246;ljd av ett tekniskt fel i 
+f&#246;retagsinteckningsregistret eller i n&#229;gon anordning som hos 
+inskrivningsmyndigheten eller n&#229;gon annan statlig myndighet 
+&#228;r ansluten till registret, har han eller hon r&#228;tt till 
+ers&#228;ttning av staten. 
+
+Ers&#228;ttningen ska efter vad som &#228;r sk&#228;ligt s&#228;ttas ned eller 
+helt falla bort, om den skadelidande har medverkat till 
+f&#246;rlusten genom eget v&#229;llande. Lag (2018:285).
+
+2 &#167; En r&#228;tts&#228;gare som avses i 4 kap. 21 &#167; har r&#228;tt till
+ers&#228;ttning av staten, om han eller hon lider skada till f&#246;ljd
+av ett beslut i ett &#228;rende om r&#228;ttelse. Ers&#228;ttning betalas dock
+inte, om den skadelidande med h&#228;nsyn till felets beskaffenhet
+eller andra omst&#228;ndigheter borde ha insett att fel f&#246;rekommit.
+
+3 &#167; Regeringen meddelar f&#246;reskrifter om vilken myndighet som
+f&#246;retr&#228;der staten i &#228;renden om ers&#228;ttning enligt 1 eller 2 &#167;.
+
+4 &#167; Om den som enligt 1 eller 2 &#167; &#228;r ber&#228;ttigad till ers&#228;ttning
+av staten har haft r&#228;tt att kr&#228;va beloppet som skadest&#229;nd av
+n&#229;gon annan, tr&#228;der staten in i r&#228;tten mot denne.
+
+Ers&#228;ttning enligt 1 eller 2 &#167; p&#229; grund av domstols dom betalas
+ut sedan domen har vunnit laga kraft.
+
+5 &#167; Den som genom oriktig uppgift om beh&#246;righet att f&#246;retr&#228;da
+n&#229;gon annan i ett inskrivnings&#228;rende upps&#229;tligen eller av
+oaktsamhet orsakar ren f&#246;rm&#246;genhetsskada ska ers&#228;tta skadan.
+
+Om skadan v&#229;llas i tj&#228;nsten av en arbetstagare, ska skadan
+ers&#228;ttas av arbetsgivaren.
+
+R&#228;tten till skadest&#229;nd faller bort om talan inte v&#228;cks inom tio
+&#229;r fr&#229;n det att inskrivnings&#228;rendet avgjordes.
+
+Best&#228;mmelserna i f&#246;rsta-tredje styckena f&#229;r inte fr&#229;ng&#229;s om det
+&#228;r till nackdel f&#246;r en skadelidande. Lag (2008:1079).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2008:990
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2009, d&#229; lagen
+(2003:528) om f&#246;retagsinteckning ska upph&#246;ra att g&#228;lla.
+
+2. I fr&#229;ga om en f&#246;retagsinteckning som beviljats f&#246;re
+ikrafttr&#228;dandet g&#228;ller lagen (2003:528) om f&#246;retagsinteckning
+fram till den 1 januari 2010. Under &#229;r 2009 g&#228;ller den upph&#228;vda
+lagen ocks&#229; i &#246;vrigt i fr&#229;gor som ber&#246;r den vars egendom
+omfattas av en f&#246;retagsinteckning enligt den lagen.
+
+3. Om lagen (2003:528) om f&#246;retagsinteckning g&#228;ller f&#246;r en
+f&#246;retagsinteckning n&#228;r en ans&#246;kan om konkurs,
+f&#246;retagsrekonstruktion eller utm&#228;tning inkommer till domstolen
+eller Kronofogdemyndigheten, till&#228;mpas lagen under hela
+f&#246;rfarandet.
+
+4. Om en borgen&#228;r har v&#228;ckt talan enligt punkten 3 i
+&#246;verg&#229;ngsbest&#228;mmelserna till lagen (2008:988) om &#228;ndring i
+f&#246;rm&#229;nsr&#228;ttslagen (1970:979) g&#228;ller, i st&#228;llet f&#246;r vad som s&#228;gs
+i punkten 2 ovan, lagen (2003:528) om f&#246;retagsinteckning till
+dess att tre m&#229;nader f&#246;rflutit fr&#229;n det att domstolen skilt sig
+fr&#229;n m&#229;let genom dom eller beslut som vunnit laga kraft.
+
+5. N&#228;r lagen (2003:528) om f&#246;retagsinteckning inte l&#228;ngre
+g&#228;ller f&#246;r en f&#246;retagsinteckning, ska f&#246;retagsinteckningen
+anses som en f&#246;retagsinteckning enligt denna lag. En uppl&#229;ten
+f&#246;retagsinteckning ska anses vara ett f&#246;retagshypotek.
+
+6. En inteckning som &#228;r begr&#228;nsad enligt 3 kap. 1 &#167; andra
+stycket lagen (1984:649) om f&#246;retagshypotek, en regional
+inteckning enligt 13 &#167; lagen (1984:650) om inf&#246;rande av lagen
+om f&#246;retagshypotek och en inteckning i n&#228;ringsverksamhet som
+flera ut&#246;var gemensamt beh&#229;ller sitt till&#228;mpningsomr&#229;de.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1924">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1926">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

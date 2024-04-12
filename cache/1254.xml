@@ -1,0 +1,822 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-04-11" /> 
+ <meta id="rattsinfo-edited" content="2023-04-11 11:06:01" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1254</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1253">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1255">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2014:275 ·
+                    <a href="/sfsr?bet=2014:275">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2014:275) om viss verksamhet med konsumentkrediter</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet B
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2014-04-30
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1730
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2014-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens till&#228;mpningsomr&#229;de
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om viss yrkesm&#228;ssig
+verksamhet med konsumentkrediter som best&#229;r i att l&#228;mna eller
+f&#246;rmedla krediter till konsumenter.
+
+Lagen g&#228;ller inte verksamhet med konsumentkrediter som drivs
+med tillst&#229;nd enligt andra f&#246;rfattningar.
+
+2 &#167; Denna lag g&#228;ller &#228;ven f&#246;r utl&#228;ndska f&#246;retags verksamhet
+med konsumentkrediter i Sverige. F&#246;r verksamhet genom filial
+g&#228;ller i &#246;vrigt lagen (1992:160) om utl&#228;ndska filialer m.m.
+
+&#197;tg&#228;rder mot penningtv&#228;tt och finansiering av terrorism
+
+3 &#167; Best&#228;mmelser om skyldighet f&#246;r f&#246;retag som driver 
+verksamhet med konsumentkrediter att medverka till att 
+f&#246;rhindra penningtv&#228;tt och finansiering av terrorism finns i 
+lagen (2017:630) om &#229;tg&#228;rder mot penningtv&#228;tt och 
+finansiering av terrorism. Lag (2017:659).
+
+Tillst&#229;ndsplikt
+
+4 &#167; F&#246;r att driva verksamhet med konsumentkrediter enligt
+denna lag kr&#228;vs tillst&#229;nd av Finansinspektionen. Tillst&#229;nd
+f&#229;r ges endast till ett svenskt aktiebolag, en svensk
+ekonomisk f&#246;rening eller motsvarande utl&#228;ndskt f&#246;retag.
+
+Undantag fr&#229;n tillst&#229;ndsplikt
+
+5 &#167; Tillst&#229;nd enligt denna lag beh&#246;vs inte f&#246;r
+
+1. f&#246;retag som har tillst&#229;nd enligt
+
+a) lagen (2004:297) om bank- och finansieringsr&#246;relse,
+
+b) lagen (2010:751) om betaltj&#228;nster,
+
+c) lagen (2011:755) om elektroniska pengar, eller
+
+d) lagen (2016:1024) om verksamhet med bostadskrediter,
+
+2. f&#246;retag som avses i 2 kap. 3 &#167; f&#246;rsta stycket 2-6 lagen om 
+bank- och finansieringsr&#246;relse,
+
+3. statliga och kommunala myndigheter, eller
+
+4. juridiska personer som driver verksamhet med 
+konsumentkrediter i mindre omfattning utan vinstsyfte.
+
+Undantagen enligt f&#246;rsta stycket g&#228;ller &#228;ven f&#246;r motsvarande 
+utl&#228;ndska f&#246;retag och utl&#228;ndska statliga, kommunala och andra 
+offentliga myndigheter. Lag (2020:1037).
+
+F&#246;ruts&#228;ttningar f&#246;r tillst&#229;nd
+
+6 &#167; Tillst&#229;nd till verksamhet enligt denna lag ska ges ett
+svenskt aktiebolag eller en svensk ekonomisk f&#246;rening, om
+
+1. bolagsordningen eller stadgarna inte strider mot denna lag
+eller n&#229;gon annan f&#246;rfattning,
+
+2. det finns sk&#228;l att anta att den planerade verksamheten
+kommer att drivas i enlighet med denna lag och andra
+f&#246;rfattningar som reglerar f&#246;retagets verksamhet,
+
+3. den som har eller kan f&#246;rv&#228;ntas komma att f&#229; ett
+kvalificerat innehav i f&#246;retaget bed&#246;ms som l&#228;mplig att ut&#246;va
+ett v&#228;sentligt inflytande &#246;ver ledningen i f&#246;retaget, och
+
+4. den som ska ing&#229; i f&#246;retagets styrelse eller vara
+verkst&#228;llande direkt&#246;r, eller vara ers&#228;ttare f&#246;r n&#229;gon av
+dem, har tillr&#228;cklig insikt och erfarenhet f&#246;r att delta i
+ledningen och &#228;ven i &#246;vrigt &#228;r l&#228;mplig f&#246;r en s&#229;dan
+uppgift.
+
+Med kvalificerat innehav avses ett direkt eller
+indirekt &#228;gande i ett f&#246;retag, om innehavet, ber&#228;knat p&#229; det
+s&#228;tt som anges i 1 kap. 5 a &#167; lagen (2004:297) om bank- och
+finansieringsr&#246;relse, representerar tio procent eller mer av
+kapitalet eller av samtliga r&#246;ster eller annars m&#246;jligg&#246;r ett
+v&#228;sentligt inflytande &#246;ver ledningen av f&#246;retaget.
+
+7 &#167; Vid bed&#246;mningen enligt 6 &#167; 3 av om en innehavare &#228;r 
+l&#228;mplig ska innehavarens anseende beaktas. Det ska ocks&#229; 
+beaktas om det finns sk&#228;l att anta att
+
+1. innehavaren kommer att motverka att f&#246;retagets verksamhet 
+drivs p&#229; ett s&#228;tt som &#228;r f&#246;renligt med kraven i denna lag och 
+andra f&#246;rfattningar som reglerar f&#246;retagets verksamhet, eller
+
+2. innehavet har samband med eller kan &#246;ka risken f&#246;r
+
+a) penningtv&#228;tt som avses i 1 kap. 6 &#167; lagen (2017:630) om 
+&#229;tg&#228;rder mot penningtv&#228;tt och finansiering av terrorism, eller
+
+b) finansiering av terrorism enligt 6 &#167; terroristbrottslagen 
+(2022:666) eller f&#246;rs&#246;k till s&#229;dant brott, avseende 
+terroristbrott enligt 4 &#167; samma lag.
+
+Om f&#246;retaget har eller kan f&#246;rv&#228;ntas komma att f&#229; n&#228;ra 
+f&#246;rbindelser med n&#229;gon annan, f&#229;r tillst&#229;nd ges bara om 
+f&#246;rbindelserna inte hindrar en effektiv tillsyn av f&#246;retaget.
+Lag (2022:686).
+
+8 &#167; Ett utl&#228;ndskt f&#246;retag f&#229;r ges tillst&#229;nd att driva
+verksamhet enligt denna lag fr&#229;n filial i Sverige. Tillst&#229;nd
+ska ges, om
+
+1. f&#246;retaget driver motsvarande verksamhet i det land d&#228;r det
+har sitt s&#228;te,
+
+2. f&#246;retaget st&#229;r under betryggande tillsyn av en beh&#246;rig
+myndighet i det land d&#228;r det har sitt s&#228;te och den
+myndigheten har till&#229;tit att f&#246;retaget etablerar sig i
+Sverige, och
+
+3. det finns sk&#228;l att anta att verksamheten h&#228;r i landet
+kommer att drivas i enlighet med denna lag och andra
+f&#246;rfattningar som reglerar f&#246;retagets verksamhet.
+
+9 &#167; Ett svenskt f&#246;retag som driver verksamhet enligt denna
+lag f&#229;r efter tillst&#229;nd av Finansinspektionen inr&#228;tta filial
+i ett annat land. Ett s&#229;dant tillst&#229;nd ska ges om det finns
+sk&#228;l att anta att den planerade verksamheten kommer att
+drivas i enlighet med denna lag och andra f&#246;rfattningar som
+reglerar f&#246;retagets verksamhet.
+
+&#196;garf&#246;r&#228;ndringar
+
+10 &#167; Best&#228;mmelserna om &#228;garpr&#246;vning i kreditinstitut i 14
+kap. lagen (2004:297) om bank- och finansieringsr&#246;relse ska
+till&#228;mpas &#228;ven f&#246;r f&#246;retag som driver verksamhet enligt denna
+lag.
+
+Godk&#228;nnande av bolagsordning eller stadgar
+
+11 &#167; F&#246;retagets bolagsordning eller stadgar ska godk&#228;nnas i
+samband med att det f&#229;r tillst&#229;nd att driva verksamhet enligt
+denna lag.
+
+Ett f&#246;retag som beslutat att &#228;ndra sin bolagsordning eller
+sina stadgar ska ans&#246;ka om godk&#228;nnande av &#228;ndringen.
+&#196;ndringen ska godk&#228;nnas om bolagsordningen eller stadgarna
+inte strider mot denna lag och andra f&#246;rfattningar av
+betydelse f&#246;r verksamheten samt i &#246;vrigt inneh&#229;ller de
+s&#228;rskilda best&#228;mmelser som beh&#246;vs med h&#228;nsyn till
+omfattningen och arten av verksamheten.
+
+Ett beslut om &#228;ndring av bolagsordning eller stadgar f&#229;r inte
+registreras innan det har godk&#228;nts.
+
+Sundhet
+
+12 &#167; Ett f&#246;retag som driver verksamhet enligt denna lag ska
+driva den p&#229; ett s&#228;tt som &#228;r sunt.
+
+Tystnadsplikt
+
+13 &#167; Enskildas f&#246;rh&#229;llanden till ett f&#246;retag som driver
+verksamhet enligt denna lag f&#229;r inte obeh&#246;rigen r&#246;jas.
+
+I det allm&#228;nnas verksamhet till&#228;mpas i st&#228;llet best&#228;mmelserna
+i offentlighets- och sekretesslagen (2009:400).
+
+Ansvar enligt 20 kap. 3 &#167; brottsbalken ska inte f&#246;lja f&#246;r den
+som bryter mot f&#246;rbudet i f&#246;rsta stycket.
+
+I 5 a &#167; kreditupplysningslagen (1973:1173) finns best&#228;mmelser
+om att det som g&#228;ller om tystnadsplikt enligt f&#246;rsta stycket
+inte hindrar att uppgifter i vissa fall utv&#228;xlas f&#246;r
+kreditupplysnings&#228;ndam&#229;l.
+
+Uppdragsavtal
+
+14 &#167; Ett f&#246;retag som driver verksamhet enligt denna lag f&#229;r
+uppdra &#229;t n&#229;gon annan att utf&#246;ra ett visst arbete eller vissa
+operativa funktioner som ing&#229;r i denna verksamhet. F&#246;retaget
+ska anm&#228;la s&#229;dana uppdragsavtal till Finansinspektionen.
+
+Uppdrag &#229;t n&#229;gon annan att utf&#246;ra s&#229;dana funktioner som &#228;r av
+v&#228;sentlig betydelse f&#246;r verksamheten f&#229;r ges bara om
+f&#246;retaget ansvarar f&#246;r att
+
+1. verksamheten drivs av uppdragstagaren under kontrollerade
+och s&#228;kerhetsm&#228;ssigt betryggande former, och
+
+2. uppdraget inte v&#228;sentligt f&#246;rs&#228;mrar kvaliteten p&#229;
+verksamhetens internkontroll och Finansinspektionens
+m&#246;jligheter att &#246;vervaka att f&#246;retaget f&#246;ljer de regler som
+g&#228;ller f&#246;r den.
+
+Register
+
+15 &#167; Finansinspektionen ska f&#246;ra ett register &#246;ver f&#246;retag
+som har tillst&#229;nd att driva verksamhet enligt denna lag.
+
+Tillsyn
+
+16 &#167; Finansinspektionen har tillsyn &#246;ver f&#246;retag som driver 
+verksamhet enligt denna lag. Tillsynen omfattar att f&#246;retagets 
+verksamhet drivs enligt
+
+1. denna lag,
+
+2. andra f&#246;rfattningar som reglerar verksamheten,
+
+3. f&#246;retagets bolagsordning eller stadgar, och
+
+4. f&#246;retagets interna instruktioner som har sin grund i 
+f&#246;rfattningar som reglerar verksamheten. Lag (2022:1730).
+
+Upplysningar fr&#229;n och unders&#246;kningar hos ett f&#246;retag som
+driver verksamhet enligt denna lag
+
+17 &#167; Ett f&#246;retag som driver verksamhet enligt denna lag ska
+l&#228;mna Finansinspektionen de upplysningar om sin verksamhet
+och d&#228;rmed sammanh&#228;ngande omst&#228;ndigheter som inspektionen
+beg&#228;r.
+
+Finansinspektionen f&#229;r, n&#228;r inspektionen anser att det &#228;r
+n&#246;dv&#228;ndigt, genomf&#246;ra en unders&#246;kning hos ett f&#246;retag som
+driver verksamhet enligt denna lag.
+
+Upplysningar fr&#229;n och unders&#246;kningar hos andra f&#246;retag
+
+18 &#167; Om ett f&#246;retag som driver verksamhet enligt denna lag
+ing&#229;r i en koncern, ska de &#246;vriga f&#246;retagen i koncernen l&#228;mna
+Finansinspektionen de upplysningar om sin verksamhet och
+d&#228;rmed sammanh&#228;ngande omst&#228;ndigheter som inspektionen beh&#246;ver
+f&#246;r sin tillsyn &#246;ver f&#246;retaget.
+
+19 &#167; Har ett f&#246;retag f&#229;tt i uppdrag av ett f&#246;retag som driver
+verksamhet enligt denna lag att utf&#246;ra ett visst arbete eller
+vissa funktioner, ska f&#246;retaget l&#228;mna Finansinspektionen de
+upplysningar om sin verksamhet och d&#228;rmed sammanh&#228;ngande
+omst&#228;ndigheter som inspektionen beg&#228;r.
+
+Finansinspektionen f&#229;r genomf&#246;ra unders&#246;kningar hos ett
+s&#229;dant f&#246;retag, om det beh&#246;vs f&#246;r tillsynen &#246;ver f&#246;retaget
+som driver verksamhet enligt denna lag.
+
+Samarbete och utbyte av information
+
+19 a &#167; Finansinspektionen ska, i den utstr&#228;ckning som f&#246;ljer 
+av Sveriges medlemskap i Europeiska unionen, i sin 
+tillsynsverksamhet samarbeta och utbyta information med
+
+- andra beh&#246;riga myndigheter, och 
+
+- Europeiska centralbanken.
+Lag (2019:735).
+
+Ingripanden
+
+20 &#167; Om ett f&#246;retag &#229;sidos&#228;tter sina skyldigheter enligt 
+denna lag, andra f&#246;rfattningar som reglerar f&#246;retagets 
+verksamhet, bolagsordning, stadgar eller interna 
+instruktioner som har sin grund i en f&#246;rfattning som reglerar 
+verksamheten, ska Finansinspektionen ingripa.
+
+Finansinspektionen ska d&#229; utf&#228;rda ett f&#246;rel&#228;ggande att inom 
+viss tid begr&#228;nsa verksamheten, minska riskerna i den eller 
+vidta n&#229;gon annan &#229;tg&#228;rd f&#246;r att komma till r&#228;tta med 
+situationen, ett f&#246;rbud att verkst&#228;lla beslut eller en 
+anm&#228;rkning. Om &#246;vertr&#228;delsen &#228;r allvarlig ska f&#246;retagets 
+tillst&#229;nd &#229;terkallas eller, om det &#228;r tillr&#228;ckligt, varning 
+meddelas. Lag (2017:659).
+
+20 a &#167; Finansinspektionen ska ingripa mot n&#229;gon som ing&#229;r i 
+f&#246;retagets styrelse eller &#228;r dess verkst&#228;llande direkt&#246;r, 
+eller ers&#228;ttare f&#246;r n&#229;gon av dem, om f&#246;retaget har befunnits 
+ansvarigt f&#246;r &#246;vertr&#228;delse av lagen (2017:630) om &#229;tg&#228;rder 
+mot penningtv&#228;tt och finansiering av terrorism eller 
+f&#246;reskrifter som meddelats med st&#246;d av den lagen.
+
+Ett ingripande enligt f&#246;rsta stycket f&#229;r ske endast om 
+&#246;vertr&#228;delsen &#228;r allvarlig, upprepad eller systematisk och 
+personen i fr&#229;ga upps&#229;tligen eller av grov oaktsamhet orsakat 
+&#246;vertr&#228;delsen.
+
+Ingripande sker genom
+
+1. beslut att personen i fr&#229;ga under en viss tid, l&#228;gst tre 
+och h&#246;gst tio &#229;r, inte f&#229;r uppr&#228;tth&#229;lla en funktion som avses 
+i f&#246;rsta stycket hos ett f&#246;retag, eller 
+
+2. beslut om sanktionsavgift. Lag (2017:659).
+
+20 b &#167; Vid valet av ingripande ska Finansinspektionen ta 
+h&#228;nsyn till hur allvarlig &#246;vertr&#228;delsen &#228;r och hur l&#228;nge den 
+har p&#229;g&#229;tt. S&#228;rskild h&#228;nsyn ska tas till skador som har 
+uppst&#229;tt och graden av ansvar.
+
+Finansinspektionen f&#229;r avst&#229; fr&#229;n ingripande om
+
+1. en &#246;vertr&#228;delse &#228;r ringa eller urs&#228;ktlig,
+
+2. f&#246;retaget g&#246;r r&#228;ttelse eller om den fysiska personen 
+verkat f&#246;r att f&#246;retaget g&#246;r r&#228;ttelse, eller
+
+3. n&#229;gon annan myndighet har vidtagit &#229;tg&#228;rder mot f&#246;retaget 
+eller den fysiska personen och dessa &#229;tg&#228;rder bed&#246;ms 
+tillr&#228;ckliga. Lag (2017:659).
+
+20 c &#167; I f&#246;rsv&#229;rande riktning ska det beaktas om f&#246;retaget 
+tidigare har beg&#229;tt en &#246;vertr&#228;delse eller om den fysiska 
+personen tidigare orsakat en s&#229;dan &#246;vertr&#228;delse.
+
+I f&#246;rmildrande riktning ska det beaktas om 
+
+1. f&#246;retaget eller den fysiska personen i v&#228;sentlig 
+utstr&#228;ckning genom ett aktivt samarbete har underl&#228;ttat 
+Finansinspektionens utredning, och 
+
+2. f&#246;retaget snabbt har upph&#246;rt med &#246;vertr&#228;delsen, eller den 
+fysiska personen snabbt verkat f&#246;r att &#246;vertr&#228;delsen ska 
+upph&#246;ra, sedan den anm&#228;lts till eller p&#229;talats av 
+Finansinspektionen. Lag (2017:659).
+
+21 &#167; Om n&#229;gon som ing&#229;r i styrelsen i ett f&#246;retag som driver
+verksamhet enligt denna lag, eller &#228;r dess verkst&#228;llande
+direkt&#246;r, inte uppfyller de krav som anges i 6 &#167; 4, ska
+Finansinspektionen &#229;terkalla f&#246;retagets tillst&#229;nd. Det f&#229;r
+dock bara ske om inspektionen f&#246;rst beslutat att p&#229;tala att
+personen ing&#229;r i styrelsen eller &#228;r verkst&#228;llande direkt&#246;r
+och om han eller hon, sedan en av inspektionen best&#228;md tid om
+h&#246;gst tre m&#229;nader har g&#229;tt, fortfarande ing&#229;r i styrelsen
+eller &#228;r verkst&#228;llande direkt&#246;r.
+
+I st&#228;llet f&#246;r att &#229;terkalla tillst&#229;ndet, f&#229;r
+Finansinspektionen besluta att en styrelseledamot eller
+verkst&#228;llande direkt&#246;r inte l&#228;ngre f&#229;r vara det. Inspektionen
+f&#229;r d&#229; f&#246;rordna en ers&#228;ttare. Ers&#228;ttarens uppdrag g&#228;ller till
+dess f&#246;retaget har utsett en ny styrelseledamot eller
+verkst&#228;llande direkt&#246;r.
+
+Det som anges om verkst&#228;llande direkt&#246;r i f&#246;rsta och andra
+styckena g&#228;ller ocks&#229; en st&#228;llf&#246;retr&#228;dare eller ers&#228;ttare f&#246;r
+verkst&#228;llande direkt&#246;r.
+
+22 &#167; Finansinspektionen ska &#229;terkalla tillst&#229;ndet f&#246;r ett 
+f&#246;retag som driver verksamhet enligt denna lag, om f&#246;retaget
+
+1. har f&#229;tt tillst&#229;ndet genom att l&#228;mna oriktiga uppgifter 
+eller p&#229; n&#229;got annat otillb&#246;rligt s&#228;tt,
+
+2. inte inom ett &#229;r fr&#229;n det tillst&#229;nd beviljades har b&#246;rjat 
+driva s&#229;dan verksamhet som tillst&#229;ndet avser,
+
+3. under en sammanh&#228;ngande tid av sex m&#229;nader inte har drivit 
+s&#229;dan verksamhet som tillst&#229;ndet avser,
+
+4. har f&#246;rklarat sig avst&#229; fr&#229;n tillst&#229;ndet, 
+
+5. har &#246;verl&#229;tit hela sin verksamhet, eller
+
+6. har f&#246;rsatts i konkurs eller om beslut har fattats om att 
+f&#246;retaget ska g&#229; i tv&#229;ngslikvidation.
+
+I fall som avses i f&#246;rsta stycket 1-3 f&#229;r i st&#228;llet varning 
+meddelas, om det &#228;r tillr&#228;ckligt. Lag (2022:1730).
+
+23 &#167; Om tillst&#229;ndet &#229;terkallas, f&#229;r Finansinspektionen
+besluta om hur avvecklingen av verksamheten enligt denna lag
+ska ske.
+
+Ett beslut om &#229;terkallelse f&#229;r f&#246;renas med f&#246;rbud att
+forts&#228;tta verksamheten.
+
+Ingripande mot den som saknar tillst&#229;nd
+
+24 &#167; Om n&#229;gon driver verksamhet enligt denna lag utan att
+vara ber&#228;ttigad till det, ska Finansinspektionen f&#246;rel&#228;gga
+denne att upph&#246;ra med verksamheten. Inspektionen f&#229;r besluta
+hur avvecklingen av verksamheten ska ske.
+
+Finansinspektionen f&#229;r f&#246;rel&#228;gga den som driver verksamheten
+att l&#228;mna de upplysningar om verksamheten som inspektionen
+beh&#246;ver f&#246;r att bed&#246;ma om lagen &#228;r till&#228;mplig p&#229; en viss
+verksamhet.
+
+Sanktionsavgift
+
+25 &#167; Om ett f&#246;retag som driver verksamhet enligt denna lag
+har f&#229;tt anm&#228;rkning eller varning enligt 20 &#167;, f&#229;r
+Finansinspektionen besluta att f&#246;retaget ska betala en
+sanktionsavgift.
+
+Avgiften tillfaller staten.
+
+26 &#167; Sanktionsavgiften ska uppg&#229; till l&#228;gst 5 000 kronor och
+h&#246;gst 50 miljoner kronor. Avgiften f&#229;r inte &#246;verstiga tio
+procent av f&#246;retagets oms&#228;ttning det n&#228;rmast f&#246;reg&#229;ende
+r&#228;kenskaps&#229;ret.
+
+Om &#246;vertr&#228;delsen har skett under f&#246;retagets f&#246;rsta
+verksamhets&#229;r eller om uppgifter om oms&#228;ttningen annars
+saknas eller &#228;r bristf&#228;lliga, f&#229;r oms&#228;ttningen uppskattas.
+
+F&#246;r ett f&#246;retag som &#228;ven driver annan verksamhet &#228;n den
+tillst&#229;ndspliktiga enligt denna lag ska oms&#228;ttningen enligt
+f&#246;rsta stycket avse endast verksamheten med
+konsumentkrediter.
+
+26 a &#167; N&#228;r det &#228;r fr&#229;ga om en &#246;vertr&#228;delse av lagen 
+(2017:630) om &#229;tg&#228;rder mot penningtv&#228;tt och finansiering av 
+terrorism eller f&#246;reskrifter som har meddelats med st&#246;d av 
+den lagen g&#228;ller i st&#228;llet f&#246;r 26 &#167; att sanktionsavgiften ska 
+uppg&#229; till l&#228;gst 5 000 kronor och som h&#246;gst fastst&#228;llas till 
+det h&#246;gsta av
+
+1. tio procent av f&#246;retagets oms&#228;ttning n&#228;rmast f&#246;reg&#229;ende 
+r&#228;kenskaps&#229;r eller, i f&#246;rekommande fall, motsvarande 
+oms&#228;ttning p&#229; koncernniv&#229;, 
+
+2. tv&#229; g&#229;nger den vinst som f&#246;retaget gjort till f&#246;ljd av 
+regel&#246;vertr&#228;delsen, om beloppet g&#229;r att fastst&#228;lla, eller
+
+3. ett belopp i kronor motsvarande fem miljoner euro.
+Lag (2017:659).
+
+26 b &#167; En sanktionsavgift f&#246;r en fysisk person ska som h&#246;gst 
+fastst&#228;llas till det h&#246;gsta av
+
+1. tv&#229; g&#229;nger den vinst som den fysiska personen gjort till 
+f&#246;ljd av regel&#246;vertr&#228;delsen, om beloppet g&#229;r att fastst&#228;lla, 
+eller
+
+2. ett belopp som per den 25 juni 2015 i kronor motsvarade 
+fem miljoner euro.
+
+Avgiften tillfaller staten. Lag (2017:659).
+
+27 &#167; N&#228;r sanktionsavgiftens storlek beslutas, ska h&#228;nsyn tas 
+till s&#229;dana omst&#228;ndigheter som anges i 20 b &#167; f&#246;rsta stycket 
+och 20 c &#167; och f&#246;retagets eller den fysiska personens 
+finansiella st&#228;llning och, om det g&#229;r att fastst&#228;lla, den 
+vinst som gjorts till f&#246;ljd av regel&#246;vertr&#228;delsen.
+Lag (2017:659).
+
+Sanktionsf&#246;rel&#228;ggande
+
+27 a &#167; Fr&#229;gor om ingripanden mot fysiska personer f&#246;r 
+&#246;vertr&#228;delser enligt 20 a &#167; tas upp av Finansinspektionen 
+genom sanktionsf&#246;rel&#228;ggande.
+
+Finansinspektionen ska d&#229; till&#228;mpa best&#228;mmelserna om 
+sanktionsf&#246;rel&#228;ggande i 15 kap. 9 a–9 d &#167;&#167; lagen (2004:297) 
+om bank- och finansieringsr&#246;relse. Lag (2017:659).
+
+F&#246;rseningsavgift
+
+28 &#167; Om ett f&#246;retag inte i tid l&#228;mnar de upplysningar som det
+&#228;r skyldigt att l&#228;mna enligt f&#246;reskrifter som meddelats med
+st&#246;d av 34 &#167; 3, f&#229;r Finansinspektionen besluta att f&#246;retaget
+ska betala en f&#246;rseningsavgift p&#229; h&#246;gst 100 000 kronor.
+
+Avgiften tillfaller staten.
+
+Verkst&#228;llighet av sanktionsavgift och f&#246;rseningsavgift
+
+29 &#167; Sanktionsavgiften eller f&#246;rseningsavgiften ska betalas 
+till Finansinspektionen inom trettio dagar efter det att 
+beslutet om att ta ut avgiften har f&#229;tt laga kraft eller 
+sanktionsf&#246;rel&#228;ggandet godk&#228;nts eller den l&#228;ngre tid som 
+anges i beslutet. Lag (2017:659).
+
+30 &#167; Finansinspektionens beslut om sanktionsavgift eller
+f&#246;rseningsavgift f&#229;r verkst&#228;llas enligt uts&#246;kningsbalkens
+best&#228;mmelser, om avgiften inte har betalats inom den tid som
+anges i 29 &#167;.
+
+Om sanktionsavgiften eller f&#246;rseningsavgiften inte betalas i
+tid, ska Finansinspektionen l&#228;mna den obetalda avgiften f&#246;r
+indrivning. Best&#228;mmelser om indrivning av statliga fordringar
+finns i lagen (1993:891) om indrivning av statliga fordringar
+m.m.
+
+31 &#167; En sanktionsavgift eller f&#246;rseningsavgift faller bort i 
+den utstr&#228;ckning verkst&#228;llighet inte har skett inom fem &#229;r 
+fr&#229;n det att beslutet att ta ut avgiften fick laga kraft 
+eller sanktionsf&#246;rel&#228;ggandet godk&#228;ndes. Lag (2017:659).
+
+Vite
+
+32 &#167; Finansinspektionens f&#246;rel&#228;ggande eller f&#246;rbud enligt
+denna lag f&#229;r f&#246;renas med vite.
+
+Avgifter till Finansinspektionen
+
+33 &#167; F&#246;retag som driver verksamhet enligt denna lag ska
+bekosta Finansinspektionens verksamhet enligt denna lag med
+&#229;rliga avgifter.
+
+Finansinspektionen f&#229;r ta ut avgifter f&#246;r pr&#246;vning av
+ans&#246;kningar och anm&#228;lningar enligt denna lag.
+
+Bemyndiganden
+
+34 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+f&#229;r meddela f&#246;reskrifter om
+
+1. vilket inneh&#229;ll en ans&#246;kan om att f&#229; driva verksamhet
+enligt denna lag ska ha,
+
+2. hur kravet p&#229; sundhet som avses i 12 &#167; kan uppfyllas,
+
+3. vilka upplysningar ett f&#246;retag som driver verksamhet
+enligt denna lag ska l&#228;mna till Finansinspektionen f&#246;r dess
+tillsynsverksamhet enligt 17 och 18 &#167;&#167;, och
+
+4. s&#229;dana avgifter som avses i 33 &#167;.
+
+&#214;verklagande
+
+35 &#167; Finansinspektionens beslut enligt 24 &#167; andra stycket 
+och beslut om sanktionsf&#246;rel&#228;ggande f&#229;r inte &#246;verklagas.
+
+Andra beslut av Finansinspektionen enligt denna lag f&#229;r 
+&#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till 
+kammarr&#228;tten.
+
+Finansinspektionen f&#229;r best&#228;mma att ett beslut om f&#246;rbud, 
+f&#246;rel&#228;ggande eller &#229;terkallelse ska g&#228;lla omedelbart.
+Lag (2018:854).
+
+
+&#214;verg&#229;ngsbest&#228;mmlser
+
+2014:275
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2014.
+
+2. En fysisk eller juridisk person som vid tidpunkten f&#246;r
+lagens ikrafttr&#228;dande l&#228;mnar konsumentkrediter enligt 7 kap.
+1 &#167; andra stycket 2 lagen (2004:297) om bank- och
+finansieringsr&#246;relse s&#229;som annan finansiell verksamhet enligt
+lagen (1996:1006) om anm&#228;lningsplikt f&#246;r viss finansiell
+verksamhet, f&#229;r forts&#228;tta att driva verksamheten enligt &#228;ldre
+best&#228;mmelser till den 1 januari 2015 utan krav p&#229; tillst&#229;nd
+eller, om ans&#246;kan om tillst&#229;nd till Finansinspektionen har
+kommit in inom denna tid, till dess att ans&#246;kan har pr&#246;vats
+slutligt.
+
+3. Sanktionsavgift enligt 25 &#167; f&#229;r tas ut endast f&#246;r
+&#246;vertr&#228;delser som har skett efter ikrafttr&#228;dandet.
+
+2017:659
+
+1. Denna lag tr&#228;der i kraft den 1 augusti 2017. 
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r &#246;vertr&#228;delser som intr&#228;ffat 
+f&#246;re ikrafttr&#228;dandet.
+
+2020:1037
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2021.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller dock fortfarande f&#246;r ekonomiska 
+f&#246;reningar som avses i punkt 2 i ikrafttr&#228;dande- och 
+&#246;verg&#229;ngsbest&#228;mmelserna till lagen (2020:1026) om &#228;ndring i 
+lagen (2004:297) om bank- och finansieringsr&#246;relse.
+
+2022:1730
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2023.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r ingripanden mot 
+&#246;vertr&#228;delser som har skett f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1253">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1255">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

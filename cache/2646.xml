@@ -1,0 +1,962 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-04" /> 
+ <meta id="rattsinfo-edited" content="2024-01-04 13:36:04" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2646</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2645">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2647">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2001:181 ·
+                    <a href="/sfsr?bet=2001:181">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2001:181) om behandling av uppgifter i Skatteverkets beskattningsverksamhet</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2001-04-19
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:803
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad 2007:468 har iakttagits.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2001-10-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+Lagens till&#228;mpningsomr&#229;de
+
+1 &#167; Denna lag till&#228;mpas vid behandling av personuppgifter i 
+Skatteverkets beskattningsverksamhet och i verkets 
+handl&#228;ggning enligt lagen (2007:324) om Skatteverkets 
+hantering av vissa borgen&#228;rsuppgifter, lagen (2013:948) om 
+st&#246;d vid korttidsarbete, lagen (1991:1047) om sjukl&#246;n och 
+lagen (2020:548) om omst&#228;llningsst&#246;d samt vid handl&#228;ggning av 
+s&#229;dant st&#246;d som avses i lagen (2023:230) om f&#246;rfarande f&#246;r 
+elst&#246;d till f&#246;retag, om behandlingen &#228;r helt eller delvis 
+automatiserad eller om uppgifterna ing&#229;r i eller &#228;r avsedda 
+att ing&#229; i en strukturerad samling av personuppgifter som &#228;r 
+tillg&#228;ngliga f&#246;r s&#246;kning eller sammanst&#228;llning enligt 
+s&#228;rskilda kriterier.
+
+Best&#228;mmelserna i 4-6 och 8 &#167;&#167; samt 2 kap. g&#228;ller &#228;ven vid 
+behandling av uppgifter om juridiska personer och avlidna.
+Lag (2023:231).
+
+Definitioner
+
+1 a &#167; Termer och uttryck som anv&#228;nds i denna lag har samma
+betydelse och till&#228;mpningsomr&#229;de som i inkomstskattelagen
+(1999:1229). Lag (2001:1182).
+
+F&#246;rh&#229;llandet till annan reglering
+ 
+2 &#167; Denna lag inneh&#229;ller best&#228;mmelser som kompletterar 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2016/679 av den 
+27 april 2016 om skydd f&#246;r fysiska personer med avseende p&#229; 
+behandling av personuppgifter och om det fria fl&#246;det av 
+s&#229;dana uppgifter och om upph&#228;vande av direktiv 95/46/EG 
+(allm&#228;n dataskyddsf&#246;rordning), h&#228;r ben&#228;mnd EU:s 
+dataskyddsf&#246;rordning. Lag (2018:228).
+
+3 &#167; Vid behandling av personuppgifter enligt denna lag 
+g&#228;ller lagen (2018:218) med kompletterande best&#228;mmelser till 
+EU:s dataskyddsf&#246;rordning och f&#246;reskrifter som har meddelats 
+i anslutning till den lagen, om inte annat f&#246;ljer av denna 
+lag eller f&#246;reskrifter som har meddelats i anslutning till 
+lagen. Lag (2018:228).
+
+&#196;ndam&#229;l
+
+4 &#167; Uppgifter f&#229;r behandlas f&#246;r att tillhandah&#229;lla information 
+som beh&#246;vs hos Skatteverket f&#246;r
+
+1. fastst&#228;llande av underlag f&#246;r samt best&#228;mmande, 
+redovisning, betalning och &#229;terbetalning av skatter och 
+avgifter,
+
+2. best&#228;mmande av pensionsgrundande inkomst,
+
+3. fastighetstaxering,
+
+4. revision och annan analys- eller kontrollverksamhet,
+
+5. tillsyn samt l&#228;mplighets- och tillst&#229;ndspr&#246;vning och annan 
+liknande pr&#246;vning,
+
+6. handl&#228;ggning
+
+a) enligt lagen (2007:324) om Skatteverkets hantering av vissa 
+borgen&#228;rsuppgifter,
+
+b) av andra fr&#229;gor om ansvar f&#246;r n&#229;gon annans skatter och 
+avgifter,
+
+c) enligt lagen (2015:912) om automatiskt utbyte av 
+upplysningar om finansiella konton och 22 b kap. 
+skattef&#246;rfarandelagen (2011:1244),
+
+d) enligt lagen (2017:182) om automatiskt utbyte av land-f&#246;r-
+land-rapporter p&#229; skatteomr&#229;det och 33 a kap. 
+skattef&#246;rfarandelagen,
+
+e) enligt 33 b kap. skattef&#246;rfarandelagen,
+
+f) enligt lagen (2013:948) om st&#246;d vid korttidsarbete och 
+lagen (2020:548) om omst&#228;llningsst&#246;d samt handl&#228;ggning av 
+s&#229;dant st&#246;d som avses i lagen (2023:230) om f&#246;rfarande f&#246;r 
+elst&#246;d till f&#246;retag, och
+
+g) enligt lagen (2022:1681) om plattformsoperat&#246;rers 
+inh&#228;mtande av vissa uppgifter p&#229; skatteomr&#229;det, lagen 
+(2022:1682) om automatiskt utbyte av upplysningar om inkomster 
+genom digitala plattformar och 22 c kap. 
+skattef&#246;rfarandelagen,
+
+7. fullg&#246;rande av ett &#229;liggande som f&#246;ljer av ett f&#246;r Sverige 
+bindande internationellt &#229;tagande,
+
+8. hantering av underr&#228;ttelser fr&#229;n arbetsgivare om 
+anst&#228;llning av utl&#228;nningar som avses i lagen (2013:644) om 
+r&#228;tt till l&#246;n och annan ers&#228;ttning f&#246;r arbete utf&#246;rt av en 
+utl&#228;nning som inte har r&#228;tt att vistas i Sverige,
+
+9. hantering av uppgifter om sjukl&#246;nekostnad, och
+
+10. tillsyn, kontroll, uppf&#246;ljning och planering av 
+verksamheten. Lag (2023:231).
+
+4 a &#167; Uppgifter som betaltj&#228;nstleverant&#246;rer har l&#228;mnat enligt 
+best&#228;mmelserna i 33 c kap. skattef&#246;rfarandelagen (2011:1244) 
+f&#229;r behandlas endast f&#246;r att 
+
+1. Skatteverket ska kunna fullg&#246;ra &#229;tagandet som f&#246;ljer av 
+artikel 24b i r&#229;dets f&#246;rordning (EU) nr 904/2010 av den 
+7 oktober 2010 om administrativt samarbete och kampen mot 
+merv&#228;rdesskattebedr&#228;geri, och 
+
+2. Skatteverket ska kunna 
+
+a) kontrollera betaltj&#228;nstleverant&#246;rernas uppgifts- eller 
+dokumentationsskyldighet enligt 33 c kap. 5 &#167; respektive 
+39 kap. 3 c &#167; skattef&#246;rfarandelagen, och 
+
+b) handl&#228;gga &#228;renden som avser avgifter enligt 49 b kap. 3 &#167; 
+respektive 49 c kap. 7 eller 8 &#167; skattef&#246;rfarandelagen. 
+
+Uppgifter som avses i f&#246;rsta stycket f&#229;r endast 
+vidarebehandlas enligt 5 a &#167;.
+
+Begr&#228;nsningarna i f&#246;rsta och andra styckena g&#228;ller inte om 
+Skatteverket, efter att ha &#246;verf&#246;rt uppgifterna till det 
+centrala elektroniska systemet f&#246;r betalningsinformation i 
+enlighet med artikel 24b i r&#229;dets f&#246;rordning (EU) nr 904/2010, 
+inh&#228;mtar uppgifterna fr&#229;n systemet i enlighet med artikel 24d 
+i f&#246;rordningen. Lag (2023:639).
+
+5 &#167; Uppgifter som behandlas enligt 4 &#167; f&#229;r &#228;ven behandlas 
+f&#246;r
+
+1. att tillhandah&#229;lla information som beh&#246;vs i 
+f&#246;rfattningsreglerad verksamhet hos n&#229;gon annan &#228;n 
+Skatteverket f&#246;r 
+
+a) fastst&#228;llande av underlag f&#246;r samt redovisning, 
+best&#228;mmande, betalning och &#229;terbetalning av skatter eller 
+avgifter, 
+
+b) uts&#246;kning, indrivning, skuldsanering och F-skuldsanering, 
+
+c) att utg&#246;ra underlag f&#246;r ber&#228;kning, beslut och kontroll i 
+fr&#229;ga om f&#246;rm&#229;n, bidrag och andra st&#246;d,
+
+d) pensionsber&#228;kning,
+
+e) tillsyn och kontroll samt l&#228;mplighets- och 
+tillst&#229;ndspr&#246;vning och annan liknande pr&#246;vning, och
+
+f) aktualisering och komplettering av uppgifter om 
+fastigheter i andra myndigheters register, 
+
+2. att tillhandah&#229;lla information som beh&#246;vs i Skatteverkets 
+brottsbek&#228;mpande verksamhet enligt lagen (1997:1024) om 
+Skatteverkets brottsbek&#228;mpande verksamhet, 
+
+3. att fullg&#246;ra uppgiftsl&#228;mnande som sker i &#246;verensst&#228;mmelse 
+med lag eller f&#246;rordning, och 
+
+4. andra &#228;ndam&#229;l, under f&#246;ruts&#228;ttning att uppgifterna inte 
+behandlas p&#229; ett s&#228;tt som &#228;r of&#246;renligt med det &#228;ndam&#229;l f&#246;r 
+vilket uppgifterna samlades in. Lag (2018:228).
+
+5 a &#167; Uppgifter som behandlas enligt 4 a &#167; f&#246;rsta stycket f&#229;r 
+&#228;ven behandlas f&#246;r att fullg&#246;ra uppgiftsl&#228;mnande som sker i 
+&#246;verensst&#228;mmelse med lag eller f&#246;rordning. Lag (2023:639).
+
+Personuppgiftsansvar
+
+6 &#167; Skatteverket &#228;r personuppgiftsansvarigt f&#246;r den behandling
+av personuppgifter som verket skall utf&#246;ra. Lag (2003:670).
+
+Behandling av k&#228;nsliga personuppgifter m.m.
+
+7 &#167; Personuppgifter som avses i artikel 9.1 i EU:s 
+dataskyddsf&#246;rordning (k&#228;nsliga personuppgifter) och uppgifter 
+om lag&#246;vertr&#228;delser som innefattar brott, domar i brottm&#229;l, 
+straffprocessuella tv&#229;ngsmedel eller administrativa 
+frihetsber&#246;vanden f&#229;r behandlas endast om uppgifterna har 
+l&#228;mnats i ett &#228;rende eller &#228;r n&#246;dv&#228;ndiga f&#246;r handl&#228;ggningen 
+av det.
+
+Uppgifter som avses i f&#246;rsta stycket f&#229;r i annat fall 
+behandlas endast om det s&#228;rskilt anges i 2 kap.
+Lag (2018:228).
+
+Gallring
+
+8 &#167; Uppgifter som behandlas automatiserat i ett &#228;rende skall
+gallras senast ett &#229;r efter det att &#228;rendet har avslutats om
+inte regeringen eller den myndighet regeringen best&#228;mmer har
+meddelat f&#246;reskrifter om att uppgifter skall gallras vid en
+annan tidpunkt eller att uppgifter skall bevaras.
+
+F&#246;r uppgifter som behandlas med st&#246;d av 2 kap. g&#228;ller s&#228;rskilda
+best&#228;mmelser.
+
+2 kap. Beskattningsdatabasen
+
+1 &#167; I beskattningsverksamheten ska det finnas en samling 
+uppgifter som med hj&#228;lp av automatiserad behandling anv&#228;nds 
+gemensamt i verksamheten f&#246;r de i 1 kap. 4-5 a &#167;&#167; angivna 
+&#228;ndam&#229;len (beskattningsdatabas). Lag (2023:639).
+
+Inneh&#229;ll
+
+2 &#167; I databasen f&#229;r uppgifter behandlas om personer som 
+omfattas av verksamhet enligt 1 kap. 4 &#167; 1-9 och 4 a &#167;. 
+Uppgifter om andra personer f&#229;r behandlas om det beh&#246;vs f&#246;r 
+handl&#228;ggningen av ett &#228;rende. Lag (2023:639).
+
+3 &#167; F&#246;r de &#228;ndam&#229;l som anges i 1 kap. 4 och 4 a &#167;&#167; f&#229;r 
+f&#246;ljande uppgifter behandlas i databasen:
+
+1. en fysisk persons identitet, medborgarskap, bos&#228;ttning och 
+familjef&#246;rh&#229;llanden,
+
+2. en juridisk persons identitet, s&#228;te, &#228;garf&#246;rh&#229;llanden samt 
+firmatecknare och andra f&#246;retr&#228;dare,
+
+3. registrering f&#246;r skatter och avgifter,
+
+4. underlag f&#246;r fastst&#228;llande av skatter och avgifter,
+
+5. best&#228;mmande av skatter och avgifter,
+
+6. underlag f&#246;r fastighetstaxering,
+
+7. revision och annan kontroll av skatter och avgifter,
+
+8. uppgifter som beh&#246;vs f&#246;r handl&#228;ggning enligt lagen 
+(2007:324) om Skatteverkets hantering av vissa 
+borgen&#228;rsuppgifter,
+
+9. avgiftsskyldighet till ett registrerat trossamfund och 
+medlemskap i fackf&#246;rening,
+
+10. yrkanden och grunder i ett &#228;rende,
+
+11. beslut, betalning, redovisning och &#246;vriga &#229;tg&#228;rder i ett 
+&#228;rende,
+
+12. uppgifter som beh&#246;vs vid hantering av underr&#228;ttelser fr&#229;n 
+arbetsgivare om anst&#228;llning av utl&#228;nningar som avses i lagen 
+(2013:644) om r&#228;tt till l&#246;n och annan ers&#228;ttning f&#246;r arbete 
+utf&#246;rt av en utl&#228;nning som inte har r&#228;tt att vistas i Sverige,
+
+13. uppgifter som beh&#246;vs f&#246;r handl&#228;ggning enligt lagen 
+(2013:948) om st&#246;d vid korttidsarbete eller lagen (2020:548) 
+om omst&#228;llningsst&#246;d eller f&#246;r handl&#228;ggning av s&#229;dant st&#246;d som 
+avses i lagen (2023:230) om f&#246;rfarande f&#246;r elst&#246;d till 
+f&#246;retag, och
+
+14. uppgifter om sjukl&#246;nekostnad.
+
+I databasen f&#229;r &#228;ven andra uppgifter behandlas som beh&#246;vs f&#246;r 
+fullg&#246;rande av ett &#229;liggande som f&#246;ljer av ett f&#246;r Sverige 
+bindande internationellt &#229;tagande.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer kan 
+med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela n&#228;rmare 
+f&#246;reskrifter om vilka uppgifter som f&#229;r behandlas i databasen 
+enligt f&#246;rsta stycket. Lag (2023:639).
+
+4 &#167; En handling som har kommit in i ett &#228;rende f&#229;r behandlas i
+databasen och f&#229;r inneh&#229;lla uppgifter som avses i 1 kap. 7 &#167;.
+En handling som uppr&#228;ttats i ett &#228;rende f&#229;r behandlas i
+databasen och f&#229;r inneh&#229;lla s&#229;dana uppgifter om de &#228;r
+n&#246;dv&#228;ndiga f&#246;r &#228;rendets handl&#228;ggning.
+
+4 a &#167; I databasen f&#229;r uppgifter och handlingar behandlas som 
+ing&#229;r i det datoriserade system som avses i artikel 1 i 
+Europaparlamentets och r&#229;dets beslut (EU) 2020/263 av den 
+15 januari 2020 om datorisering av uppgifter om f&#246;rflyttningar 
+och kontroller av punktskattepliktiga varor. Lag (2022:169).
+
+Enskilds r&#228;tt att ta del av uppgifter
+
+5 &#167; Fr&#229;n databasen f&#229;r nedan angivna uppgifter l&#228;mnas ut till 
+en enskild, om det inte av s&#228;rskild anledning kan antas att 
+den enskilde som uppgiften avser eller n&#229;gon n&#228;rst&#229;ende lider 
+men om uppgiften r&#246;js.
+
+Uppgifter f&#229;r l&#228;mnas ut om 
+
+1. namn och personnummer,
+
+2. organisationsnummer, namn, f&#246;retagsnamn och juridisk form 
+samt i fr&#229;ga om handelsbolag och andra juridiska personer 
+s&#229;dana uppgifter om huvudkontor och s&#228;te som avses i 67 kap. 
+8 &#167; skattef&#246;rfarandelagen (2011:1244),
+
+3. registrering enligt skattef&#246;rfarandelagen samt s&#228;rskilt 
+registrerings- eller redovisningsnummer,
+
+4. p&#229; vilket s&#228;tt den prelimin&#228;ra skatten ska betalas f&#246;r en 
+fysisk person,
+
+5. registrering av skyldighet att g&#246;ra skatteavdrag eller 
+betala arbetsgivaravgifter,
+
+6. slag av n&#228;ringsverksamhet,
+
+7. beslut om likvidation, f&#246;renklad avveckling eller konkurs,
+
+8. huruvida en fysisk eller juridisk person &#228;r godk&#228;nd som 
+skattebefriad f&#246;rbrukare enligt lagen (1994:1776) om skatt p&#229; 
+energi eller lagen (2022:156) om alkoholskatt och i s&#229;dana 
+fall fr&#229;n vilken tidpunkt,
+
+9. huruvida en fysisk eller juridisk person &#228;r godk&#228;nd som 
+registrerad avs&#228;ndare enligt lagen om skatt p&#229; energi, lagen 
+(2022:155) om tobaksskatt eller lagen om alkoholskatt och i 
+s&#229;dana fall fr&#229;n vilken tidpunkt, och
+
+10. huruvida en distansf&#246;rs&#228;ljare enligt 10 kap. lagen om 
+tobaksskatt har st&#228;llt s&#228;kerhet f&#246;r skatten p&#229; de varor som 
+s&#228;nds fr&#229;n det andra EU-landet. Lag (2022:169).
+
+Utl&#228;mnande av uppgifter till enskilda p&#229; medium f&#246;r
+automatiserad behandling
+
+6 &#167; Uppgifter i databasen f&#229;r l&#228;mnas ut till en enskild p&#229;
+medium f&#246;r automatiserad behandling endast om regeringen har
+meddelat f&#246;reskrifter om det.
+
+Direkt&#229;tkomst
+
+7 &#167; Skatteverkets direkt&#229;tkomst till uppgifterna i 
+beskattningsdatabasen f&#229;r i verksamhet som avses i lagen 
+(1997:1024) om Skatteverkets brottsbek&#228;mpande verksamhet 
+endast omfatta de uppgifter som avses i 3 &#167; 1–5, 7, 10 och 
+11.
+
+Regeringen meddelar n&#228;rmare f&#246;reskrifter om vilka uppgifter 
+direkt&#229;tkomst enligt f&#246;rsta stycket f&#229;r omfatta.
+Lag (2017:454).
+
+8 &#167; Kronofogdemyndigheten f&#229;r ha direkt&#229;tkomst till uppgifter 
+som avses i 3 &#167; 1-5, 8, 10 och 11. Direkt&#229;tkomst till 
+uppgifter som avses i 3 &#167; 4, 5, 8, 10 och 11 f&#229;r endast avse 
+den som
+
+1. har ans&#246;kt om skuldsanering eller F-skuldsanering,
+
+2. &#228;r registrerad som g&#228;lden&#228;r hos Kronofogdemyndigheten,
+
+3. &#228;r make eller likst&#228;lld med make till den som har ans&#246;kt om 
+skuldsanering eller F-skuldsanering, eller
+
+4. &#228;r make eller likst&#228;lld med make till g&#228;lden&#228;r hos 
+Kronofogdemyndigheten.
+
+Tullverket f&#229;r ha direkt&#229;tkomst till uppgifter som avses i 3 &#167; 
+1-5, 10 och 11. &#197;tkomsten f&#229;r endast avse den som &#228;r eller kan 
+antas vara g&#228;lden&#228;r enligt tullagstiftningen, skyldig att 
+betala skatt f&#246;r vara vid import eller otill&#229;ten inf&#246;rsel 
+eller f&#246;rem&#229;l f&#246;r Tullverkets kontrollverksamhet enligt lagen 
+(1998:506) om punktskattekontroll av transporter m.m. av 
+alkoholvaror, tobaksvaror och energiprodukter.
+
+Tullverket f&#229;r ha direkt&#229;tkomst till uppgifter och handlingar 
+som avses i 4 a &#167;.
+
+Regeringen kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela 
+n&#228;rmare f&#246;reskrifter om vilka uppgifter och handlingar 
+direkt&#229;tkomst enligt f&#246;rsta till tredje styckena f&#229;r omfatta.
+Lag (2022:169).
+
+8 a &#167; En socialn&#228;mnd f&#229;r ha direkt&#229;tkomst till uppgifter som
+avses i 3 &#167; f&#246;rsta stycket 1, 4 och 5. &#197;tkomsten f&#229;r endast
+f&#246;rekomma om uppgifterna beh&#246;vs i &#228;rende om ekonomiskt bist&#229;nd
+enligt 4 kap. socialtj&#228;nstlagen (2001:453) eller i &#228;rende om
+&#229;terkrav m.m. av s&#229;dant bist&#229;nd enligt 9 kap. samma lag. En
+socialn&#228;mnd f&#229;r ha direkt&#229;tkomst f&#246;rst sedan Skatteverket har
+f&#246;rs&#228;krat sig om att handl&#228;ggare hos socialn&#228;mnden bara kan ta
+del av uppgifter om personer som &#228;r aktuella i &#228;renden hos
+n&#228;mnden. Lag (2008:970).
+
+8 b &#167; Migrationsverket f&#229;r ha direkt&#229;tkomst till uppgifter i 
+beskattningsdatabasen, om uppgifterna beh&#246;vs i ett &#228;rende om 
+dagers&#228;ttning &#229;t asyls&#246;kande enligt lagen (1994:137) om 
+mottagande av asyls&#246;kande m.fl.
+
+Direkt&#229;tkomsten f&#229;r endast omfatta 
+
+1. uppgifter per betalningsmottagare i en s&#229;dan 
+arbetsgivardeklaration eller f&#246;renklad arbetsgivardeklaration 
+som avses i 26 kap. skattef&#246;rfarandelagen (2011:1244),
+
+2. identifikationsuppgifter f&#246;r den uppgiftsskyldige och 
+betalningsmottagaren, och
+
+3. uppgift om den redovisningsperiod som deklarationen 
+avser. Lag (2017:388).
+
+8 c &#167; F&#246;rs&#228;kringskassan f&#229;r ha direkt&#229;tkomst till 
+uppgifter i beskattningsdatabasen, om uppgifterna beh&#246;vs i 
+ett &#228;rende om 
+
+1. betalningsskyldighet f&#246;r en bidragsskyldig f&#246;r&#228;lder enligt 
+19 kap. socialf&#246;rs&#228;kringsbalken, 
+
+2. best&#228;mmande av sjukpenninggrundande inkomst enligt 26 kap. 
+socialf&#246;rs&#228;kringsbalken, eller
+
+3. ber&#228;kning av bostadsbidrag enligt 97 kap. 
+socialf&#246;rs&#228;kringsbalken.
+
+Direkt&#229;tkomsten f&#229;r endast omfatta
+
+1. uppgifter per betalningsmottagare i en s&#229;dan 
+arbetsgivardeklaration eller f&#246;renklad arbetsgivardeklaration 
+som avses i 26 kap. skattef&#246;rfarandelagen (2011:1244),
+
+2. identifikationsuppgifter f&#246;r den uppgiftsskyldige och 
+betalningsmottagaren, och
+
+3. uppgift om den redovisningsperiod som deklarationen 
+avser. Lag (2018:1631).
+
+8 d &#167; Arbetsf&#246;rmedlingen f&#229;r ha direkt&#229;tkomst till uppgifter 
+i beskattningsdatabasen, om uppgifterna beh&#246;vs i ett &#228;rende 
+om st&#246;d till arbetsgivare f&#246;r anst&#228;llning av en enskild 
+person. 
+
+Direkt&#229;tkomsten f&#229;r endast omfatta 
+
+1. uppgifter per betalningsmottagare i en s&#229;dan 
+arbetsgivardeklaration eller f&#246;renklad arbetsgivardeklaration 
+som avses i 26 kap. skattef&#246;rfarandelagen (2011:1244),
+
+2. identifikationsuppgifter f&#246;r den uppgiftsskyldige och 
+betalningsmottagaren, och
+
+3. uppgift om den redovisningsperiod som deklarationen 
+avser.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer kan 
+med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela ytterligare 
+f&#246;reskrifter om begr&#228;nsningar av direkt&#229;tkomsten.
+Lag (2017:388).
+
+9 &#167; En registrerad f&#229;r ha direkt&#229;tkomst till s&#229;dana uppgifter
+om sig sj&#228;lv i databasen som f&#229;r l&#228;mnas ut till den
+registrerade, om regeringen har meddelat f&#246;reskrifter om det.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer
+meddelar f&#246;reskrifter om vilka uppgifter som f&#229;r omfattas av
+direkt&#229;tkomst enligt f&#246;rsta stycket. Lag (2005:1116).
+
+S&#246;kbegrepp
+
+10 &#167; Vid s&#246;kning efter handlingar som avses i 4 &#167; f&#229;r endast 
+uppgift om namn, person- eller samordningsnummer, beteckning 
+f&#246;r fastighet samt uppgifter som avses i 5 kap. 2 &#167; 
+offentlighets- och sekretesslagen (2009:400) anv&#228;ndas som 
+s&#246;kbegrepp.
+
+Som s&#246;kbegrepp f&#229;r dock inte uppgift som avses i 1 kap. 7 &#167; 
+anv&#228;ndas. Lag (2015:901).
+
+Gallring
+
+11 &#167; Uppgifter och handlingar i databasen ska, om inget annat 
+anges i 11 a eller 12 &#167;, gallras senast sju &#229;r efter utg&#229;ngen 
+av det kalender&#229;r d&#229; den beskattningsperiod som uppgifterna 
+eller handlingarna kan h&#228;nf&#246;ras till gick ut. Lag (2023:639).
+
+11 a &#167; Uppgifter som avses i 1 kap. 4 a &#167; f&#246;rsta stycket ska 
+gallras senast fem &#229;r efter utg&#229;ngen av det kalender&#229;r d&#229; 
+uppgifterna l&#228;mnades till Skatteverket. 
+
+Motsvarande g&#228;ller uppgifter och handlingar som finns i 
+&#228;renden som avser 
+
+1. kontroll av betaltj&#228;nstleverant&#246;rers uppgifts- eller 
+dokumentationsskyldighet enligt 33 c kap. 5 &#167; respektive 
+39 kap. 3 c &#167; skattef&#246;rfarandelagen (2011:1244), eller
+
+2. uttag av avgifter enligt 49 b kap. 3 &#167; respektive 49 c kap. 
+7 eller 8 &#167; skattef&#246;rfarandelagen. Lag (2023:639).
+
+12 &#167; /Upph&#246;r att g&#228;lla U:2024-11-01/
+Uppgifter och handlingar som avser
+
+1. revision ska gallras tio &#229;r efter utg&#229;ngen av det 
+kalender&#229;r d&#229; revisionen avslutades, och
+
+2. fastighetstaxering ska gallras tolv &#229;r efter utg&#229;ngen av 
+det taxerings&#229;r som uppgifterna eller handlingarna kan 
+h&#228;nf&#246;ras till.
+
+Uppgifter och handlingar om godk&#228;nda upplagshavare, 
+registrerade varumottagare, tillf&#228;lligt registrerade 
+varumottagare, registrerade avs&#228;ndare, godk&#228;nda skatteupplag, 
+certifierade mottagare, tillf&#228;lligt certifierade mottagare, 
+certifierade avs&#228;ndare, tillf&#228;lligt certifierade avs&#228;ndare, 
+registrerade distansf&#246;rs&#228;ljare och tillf&#228;lligt registrerade 
+distansf&#246;rs&#228;ljare enligt lagen (1994:1776) om skatt p&#229; energi, 
+lagen (2022:155) om tobaksskatt samt lagen (2022:156) om 
+alkoholskatt ska gallras sju &#229;r efter utg&#229;ngen av det 
+kalender&#229;r d&#229; akt&#246;ren avregistrerades.
+
+Uppgifter och handlingar ska gallras sju &#229;r efter utg&#229;ngen av 
+det kalender&#229;r d&#229; godk&#228;nnandet blev &#229;terkallat om de avser
+
+1. godk&#228;nda lagerh&#229;llare enligt lagen om skatt p&#229; energi, 
+lagen (2016:1067) om skatt p&#229; kemikalier i viss elektronik, 
+lagen (2018:696) om skatt p&#229; vissa nikotinhaltiga produkter, 
+lagen (2020:32) om skatt p&#229; plastb&#228;rkassar eller lagen om 
+tobaksskatt,
+
+2. registrerade mottagare och registrerade EU-handlare enligt 
+lagen om skatt p&#229; kemikalier i viss elektronik,
+
+3. registrerade distansf&#246;rs&#228;ljare av tuggtobak och &#246;vrig tobak 
+enligt lagen om tobaksskatt, eller
+
+4. den som &#228;r godk&#228;nd f&#246;r s&#228;rskild hantering av proviantering 
+till havs enligt 8 kap. 4 &#167; lagen om skatt p&#229; energi.
+
+Uppgifter och handlingar som avses i 4 a &#167; ska gallras tio &#229;r 
+efter utg&#229;ngen av det kalender&#229;r d&#229; de meddelanden som &#228;r 
+kopplade till den administrativa referenskoden enligt 4 b kap. 
+4 &#167; tredje stycket lagen om skatt p&#229; energi, 5 kap. 4 &#167; tredje 
+stycket lagen om tobaksskatt eller 5 kap. 4 &#167; tredje stycket 
+lagen om alkoholskatt, den f&#246;renklade administrativa 
+referenskoden enligt 4 e kap. 3 &#167; tredje stycket lagen om 
+skatt p&#229; energi, 8 kap. 4 &#167; tredje stycket lagen om 
+tobaksskatt eller 8 kap. 4 &#167; tredje stycket lagen om 
+alkoholskatt eller annan sammanh&#229;llande identifikationsuppgift 
+senast &#228;ndrades. Lag (2022:1485).
+
+12 &#167; /Tr&#228;der i kraft I:2024-11-01/
+Uppgifter och handlingar som avser
+
+1. revision ska gallras tio &#229;r efter utg&#229;ngen av det 
+kalender&#229;r d&#229; revisionen avslutades, och
+
+2. fastighetstaxering ska gallras tolv &#229;r efter utg&#229;ngen av 
+det taxerings&#229;r som uppgifterna eller handlingarna kan 
+h&#228;nf&#246;ras till.
+
+Uppgifter och handlingar om godk&#228;nda upplagshavare, 
+registrerade varumottagare, tillf&#228;lligt registrerade 
+varumottagare, registrerade avs&#228;ndare, godk&#228;nda skatteupplag, 
+certifierade mottagare, tillf&#228;lligt certifierade mottagare, 
+certifierade avs&#228;ndare, tillf&#228;lligt certifierade avs&#228;ndare, 
+registrerade distansf&#246;rs&#228;ljare och tillf&#228;lligt registrerade 
+distansf&#246;rs&#228;ljare enligt lagen (1994:1776) om skatt p&#229; energi, 
+lagen (2022:155) om tobaksskatt samt lagen (2022:156) om 
+alkoholskatt ska gallras sju &#229;r efter utg&#229;ngen av det 
+kalender&#229;r d&#229; akt&#246;ren avregistrerades.
+
+Uppgifter och handlingar ska gallras sju &#229;r efter utg&#229;ngen av 
+det kalender&#229;r d&#229; godk&#228;nnandet blev &#229;terkallat om de avser
+
+1. godk&#228;nda lagerh&#229;llare enligt lagen om skatt p&#229; energi, 
+lagen (2016:1067) om skatt p&#229; kemikalier i viss elektronik, 
+lagen (2018:696) om skatt p&#229; vissa nikotinhaltiga produkter 
+eller lagen om tobaksskatt,
+
+2. registrerade mottagare och registrerade EU-handlare enligt 
+lagen om skatt p&#229; kemikalier i viss elektronik,
+
+3. registrerade distansf&#246;rs&#228;ljare av tuggtobak och &#246;vrig tobak 
+enligt lagen om tobaksskatt, eller
+
+4. den som &#228;r godk&#228;nd f&#246;r s&#228;rskild hantering av proviantering 
+till havs enligt 8 kap. 4 &#167; lagen om skatt p&#229; energi.
+
+Uppgifter och handlingar som avses i 4 a &#167; ska gallras tio &#229;r 
+efter utg&#229;ngen av det kalender&#229;r d&#229; de meddelanden som &#228;r 
+kopplade till den administrativa referenskoden enligt 4 b kap. 
+4 &#167; tredje stycket lagen om skatt p&#229; energi, 5 kap. 4 &#167; tredje 
+stycket lagen om tobaksskatt eller 5 kap. 4 &#167; tredje stycket 
+lagen om alkoholskatt, den f&#246;renklade administrativa 
+referenskoden enligt 4 e kap. 3 &#167; tredje stycket lagen om 
+skatt p&#229; energi, 8 kap. 4 &#167; tredje stycket lagen om 
+tobaksskatt eller 8 kap. 4 &#167; tredje stycket lagen om 
+alkoholskatt eller annan sammanh&#229;llande identifikationsuppgift 
+senast &#228;ndrades. Lag (2023:803).
+
+13 &#167; Vad som s&#228;gs i 11-12 &#167;&#167; hindrar inte att regeringen eller 
+den myndighet som regeringen best&#228;mmer meddelar f&#246;reskrifter 
+om att uppgifter eller handlingar ska bevaras under l&#228;ngre tid 
+&#228;n som anges i 11-12 &#167;&#167;. Lag (2023:639).
+
+Avgifter
+
+14 &#167; Skatteverket f&#229;r ta ut avgifter f&#246;r att l&#228;mna ut 
+uppgifter ur databasen enligt de n&#228;rmare f&#246;reskrifter som 
+meddelas av regeringen.
+
+R&#228;tten att ta ut avgifter f&#229;r inte inneb&#228;ra en inskr&#228;nkning i
+
+1. r&#228;tten att ta del av och mot fastst&#228;lld avgift f&#229; kopia 
+eller utskrift av en allm&#228;n handling enligt 
+tryckfrihetsf&#246;rordningen, eller
+
+2. en registrerads r&#228;tt enligt artikel 12.5 i EU:s 
+dataskyddsf&#246;rordning. Lag (2018:228).
+
+3 kap. Enskildas r&#228;ttigheter
+
+Information till den registrerade m.fl.
+
+1 &#167; Har upph&#228;vts genom lag (2018:228).
+
+2 &#167; Har upph&#228;vts genom lag (2018:228).
+
+2 a &#167; Vid behandling av personuppgifter p&#229; grund av 
+samarbete enligt lagen (2012:843) om administrativt samarbete 
+inom Europeiska unionen i fr&#229;ga om beskattning ska artiklarna 
+13 och 15–19 i EU:s dataskyddsf&#246;rordning inte till&#228;mpas, om 
+s&#229;dana begr&#228;nsningar &#228;r n&#246;dv&#228;ndiga med h&#228;nsyn till ett 
+viktigt ekonomiskt eller finansiellt intresse hos Europeiska 
+unionen eller en stat som ing&#229;r i unionen. Lag (2018:228).
+
+R&#228;tten att g&#246;ra inv&#228;ndningar
+
+3 &#167; Artikel 21.1 i EU:s dataskyddsf&#246;rordning om r&#228;tten att 
+g&#246;ra inv&#228;ndningar g&#228;ller inte vid s&#229;dan behandling som &#228;r 
+till&#229;ten enligt denna lag eller f&#246;reskrifter som har 
+meddelats i anslutning till lagen. Lag (2018:228).
+
+4 &#167; Har upph&#228;vts  genom lag (2018:228).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2001:181
+
+1. Denna lag tr&#228;der i kraft den 1 oktober 2001, d&#229;
+skatteregisterlagen (1980:343) skall upph&#246;ra att g&#228;lla. Den
+&#228;ldre lagens best&#228;mmelser om gallring och inneh&#229;ll i ett
+register g&#228;ller dock fortfarande i fr&#229;ga om uppgifter och
+handlingar som har tillf&#246;rts registret f&#246;re den 1 oktober 2001.
+
+2. Best&#228;mmelser i lagen om grundl&#228;ggande krav p&#229; behandling av
+personuppgifter samt behandling av k&#228;nsliga personuppgifter och
+uppgifter om lag&#246;vertr&#228;delser m.m., skall inte b&#246;rja till&#228;mpas
+f&#246;rr&#228;n den 1 oktober 2007 i fr&#229;ga om s&#229;dan manuell behandling
+av personuppgifter som p&#229;b&#246;rjats f&#246;re den 24 oktober 1998 eller
+manuell behandling som utf&#246;rs f&#246;r ett visst best&#228;mt &#228;ndam&#229;l om
+manuell behandling f&#246;r &#228;ndam&#229;let p&#229;b&#246;rjats f&#246;re den 24 oktober
+1998.
+
+3. Har en beg&#228;ran om registerutdrag enligt 10 &#167; datalagen
+(1973:289) kommit in innan denna lag tr&#228;der i kraft men har
+utdraget inte expedierats f&#246;re ikrafttr&#228;dandet, skall
+framst&#228;llningen anses som en ans&#246;kan om information enligt
+denna lag.
+
+4. Best&#228;mmelsen om skadest&#229;nd skall till&#228;mpas endast om den
+omst&#228;ndighet som yrkandet h&#228;nf&#246;r sig till har intr&#228;ffat efter
+det att lagen har tr&#228;tt i kraft betr&#228;ffande den aktuella
+behandlingen.
+
+2003:670
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2004.
+
+2. Den nya f&#246;reskriften i 1 kap. 6 &#167; g&#228;ller &#228;ven f&#246;r behandling
+av personuppgifter som Riksskatteverket eller skattemyndighet
+utf&#246;rt.
+
+3. &#196;ldre f&#246;reskrifter i 3 kap. 4 &#167; f&#246;rsta stycket g&#228;ller
+fortfarande f&#246;r &#246;verklagande av skattemyndighets beslut som har
+meddelats f&#246;re ikrafttr&#228;dandet.
+
+2004:1347
+
+Denna lag tr&#228;der i kraft den 1 januari 2005. &#196;ldre best&#228;mmelser
+g&#228;ller fortfarande i fr&#229;ga om uppgifter och handlingar som
+avser &#228;renden om arvsskatt, g&#229;voskatt och g&#229;voanm&#228;lan.
+
+2009:1508
+
+Denna lag tr&#228;der i kraft den 1 januari 2010. &#196;ldre
+best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som h&#228;nf&#246;r
+sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2011:1406
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2012.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+2018:228
+
+1. Denna lag tr&#228;der i kraft den 25 maj 2018.
+
+2. &#196;ldre f&#246;reskrifter om straff g&#228;ller fortfarande f&#246;r 
+&#246;vertr&#228;delser som har skett f&#246;re ikrafttr&#228;dandet.
+
+2023:803
+
+1. Denna lag tr&#228;der i kraft den 1 november 2024.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som 
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2645">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2647">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

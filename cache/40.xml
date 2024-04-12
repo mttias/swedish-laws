@@ -1,0 +1,827 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-02-02" /> 
+ <meta id="rattsinfo-edited" content="2024-02-02 09:44:38" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>40</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=39">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=41">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2023:740 ·
+                    <a href="/sfsr?bet=2023:740">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2023:740) om mediest&#246;d</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Kulturdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2023-12-01
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> SFS 2023:913
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2024-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; I denna f&#246;rordning finns kompletterande best&#228;mmelser till 
+lagen (2023:664) om mediest&#246;d. 
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen.
+
+2 &#167; Mediest&#246;d f&#229;r l&#228;mnas i enlighet med Europeiska 
+kommissionens beslut den 30 november 2023 i &#228;rende SA.106019 
+(2023/N).
+
+3 &#167; Mediest&#246;d f&#229;r l&#228;mnas i form av redaktionsst&#246;d och 
+distributionsst&#246;d. Redaktionsst&#246;d f&#229;r l&#228;mnas i form av allm&#228;nt 
+redaktionsst&#246;d och ut&#246;kat redaktionsst&#246;d.
+
+Mediest&#246;d f&#229;r under 2024-2028 &#228;ven l&#228;mnas i form av ett 
+&#246;verg&#229;ngsst&#246;d till juridiska personer som ger ut dagstidningar 
+f&#246;r vilka driftsst&#246;d enligt den upph&#228;vda presst&#246;dsf&#246;rordningen 
+(1990:524) har beviljats under 2023. S&#229;dana dagstidningar ska, 
+vid till&#228;mpningen av denna f&#246;rordning, j&#228;mst&#228;llas med allm&#228;nna 
+nyhetsmedier i fr&#229;gor som r&#246;r &#246;verg&#229;ngsst&#246;d.
+
+Annat mediest&#246;d &#228;n distributionsst&#246;d l&#228;mnas i m&#229;n av tillg&#229;ng 
+p&#229; medel.
+
+Uttryck i f&#246;rordningen
+
+4 &#167; I denna f&#246;rordning avses med: 
+
+Bevakningsomr&#229;de: en eller flera kommuner som ett nyhetsmedium 
+regelbundet bedriver nyhetsbevakning i.
+
+Distributionsf&#246;retag: tidningsdistributionsf&#246;retag, 
+postbefordringsf&#246;retag samt befordringsf&#246;retag i s&#228;rskilda 
+tidningsutdelningsturer d&#228;r minst tv&#229; tidningsf&#246;retag deltar.
+
+Redaktionell personal: anst&#228;lld personal som arbetar med 
+journalistiska arbetsuppgifter f&#246;r det allm&#228;nna nyhetsmediet.
+
+Regelbunden anv&#228;ndare: anv&#228;ndare som &#229;terkommande &#246;ver tid och 
+med i huvudsak j&#228;mna mellanrum efterfr&#229;gar och tar del av 
+nyhetsmediet.
+
+Samdistribution: distribution av tryckta abonnerade 
+nyhetstidningar i vilken minst tv&#229; tidningsf&#246;retag deltar och 
+som utf&#246;rs av distributionsf&#246;retag.
+
+St&#246;dgrundande kostnad: &#229;rlig l&#246;nekostnad, inklusive sociala 
+avgifter, f&#246;r den redaktionella personalen. I den 
+st&#246;dgrundande kostnaden f&#229;r &#228;ven medr&#228;knas kostnader upp till 
+200 000 kronor f&#246;r redaktionellt material som k&#246;pts in enbart 
+f&#246;r det allm&#228;nna nyhetsmediet. 
+
+I &#246;vrigt har uttryck i f&#246;rordningen samma betydelse som i 
+lagen (2023:664) om mediest&#246;d.
+
+Bed&#246;mning av de allm&#228;nna f&#246;ruts&#228;ttningarna f&#246;r mediest&#246;d
+
+5 &#167; Vid bed&#246;mningen av de allm&#228;nna f&#246;ruts&#228;ttningarna f&#246;r 
+mediest&#246;d avses med
+
+1. v&#228;sentlig del redaktionellt inneh&#229;ll enligt 6 &#167; 2 lagen 
+(2023:664) om mediest&#246;d: ett redaktionellt inneh&#229;ll p&#229; minst 
+45 procent av mediets hela inneh&#229;ll, 
+
+2. v&#228;sentlig del exklusivt, egenproducerat inneh&#229;ll enligt 6 &#167; 
+3 lagen om mediest&#246;d: ett exklusivt, egenproducerat 
+redaktionellt inneh&#229;ll p&#229; minst 45 procent av mediets 
+redaktionella inneh&#229;ll, och
+
+3. h&#246;g regelbundenhet enligt 6 &#167; 9 lagen om mediest&#246;d: minst 
+45 publiceringar eller s&#228;ndningar per &#229;r.
+
+Vid bed&#246;mningen av om ett allm&#228;nt nyhetsmedium fr&#228;mjar 
+tillg&#228;ngligg&#246;rande av sitt redaktionella inneh&#229;ll till 
+personer med funktionsneds&#228;ttning enligt 6 &#167; 7 lagen om 
+mediest&#246;d ska den tekniska utvecklingen samt det allm&#228;nna 
+nyhetsmediets storlek och ekonomiska f&#246;ruts&#228;ttningar beaktas. 
+
+Med god anv&#228;ndarf&#246;rankring enligt 6 &#167; 10 lagen om mediest&#246;d 
+avses ett minsta antal om l&#228;gst 3 000 regelbundna anv&#228;ndare 
+eller 1 500 betalande prenumeranter. F&#246;r bevakningsomr&#229;den med 
+mindre &#228;n 20 000 inv&#229;nare ska med god anv&#228;ndarf&#246;rankring avses 
+ett minsta antal regelbundna anv&#228;ndare som motsvarar 
+15 procent av inv&#229;narna i ett allm&#228;nt nyhetsmediums 
+bevakningsomr&#229;de, dock l&#228;gst 1 500 regelbundna anv&#228;ndare.
+
+6 &#167; F&#246;r st&#246;rre kommuner f&#229;r mediest&#246;dsn&#228;mnden besluta att ett 
+allm&#228;nt nyhetsmediums bevakningsomr&#229;de omfattar en viss del 
+eller vissa delar av kommunen om det allm&#228;nna nyhetsmediets 
+nyhetsbevakning &#228;r avgr&#228;nsad p&#229; det s&#228;ttet.
+
+7 &#167; Vid bed&#246;mningen av om f&#246;ruts&#228;ttningarna f&#246;r mediest&#246;d i 
+form av &#246;verg&#229;ngsst&#246;d &#228;r uppfyllda f&#246;r dagstidningar som 
+kommer ut med ett eller tv&#229; nummer per vecka och som fick 
+driftsst&#246;d under 2023 avses med god anv&#228;ndarf&#246;rankring enligt 
+6 &#167; 10 lagen (2023:664) om mediest&#246;d minst 1 500 regelbundna 
+anv&#228;ndare. 
+
+8 &#167; Vid bed&#246;mningen av om f&#246;ruts&#228;ttningarna f&#246;r mediest&#246;d &#228;r 
+uppfyllda f&#246;r allm&#228;nna nyhetsmedier som &#228;r riktade till de 
+nationella minoriteterna enligt lagen (2009:724) om nationella 
+minoriteter och minoritetsspr&#229;k avses med 
+
+1. regelbundenhet enligt 8 &#167; 3 lagen (2023:664) om mediest&#246;d 
+minst tio publiceringar eller s&#228;ndningar per &#229;r, och
+
+2. tillr&#228;cklig anv&#228;ndarf&#246;rankring enligt 8 &#167; 4 lagen om 
+mediest&#246;d minst 750 regelbundna anv&#228;ndare.
+
+S&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r allm&#228;nt redaktionsst&#246;d
+
+9 &#167; Allm&#228;nt redaktionsst&#246;d f&#229;r l&#228;mnas f&#246;r allm&#228;nna 
+nyhetsmedier som bedriver relevant lokal eller regional 
+nyhetsf&#246;rmedling och som
+
+1. har behov av ekonomiskt st&#246;d f&#246;r den redaktionella 
+verksamheten, och 
+
+2. har redaktionell personal motsvarande minst tv&#229; 
+&#229;rsarbetskrafter och en st&#246;dgrundande kostnad p&#229; minst 
+750 000 kronor. 
+
+Vid bed&#246;mningen av om ett allm&#228;nt nyhetsmedium har behov av 
+ekonomiskt st&#246;d ska h&#228;nsyn tas till det allm&#228;nna nyhetsmediets 
+konkurrenssituation och ekonomiska f&#246;ruts&#228;ttningar att 
+l&#229;ngsiktigt bedriva sin verksamhet p&#229; aff&#228;rsm&#228;ssiga grunder.
+
+10 &#167; Allm&#228;nt redaktionsst&#246;d f&#229;r ocks&#229; l&#228;mnas f&#246;r allm&#228;nna 
+nyhetsmedier som &#228;r riktade till de nationella minoriteterna 
+enligt lagen (2009:724) om nationella minoriteter och 
+minoritetsspr&#229;k och som
+
+1. har behov av ekonomiskt st&#246;d f&#246;r den redaktionella 
+verksamheten, och 
+
+2. har redaktionell personal motsvarande minst en 
+&#229;rsarbetskraft och en st&#246;dgrundande kostnad p&#229; minst 
+375 000 kronor.
+
+11 &#167; Allm&#228;nt redaktionsst&#246;d f&#229;r &#228;ven l&#228;mnas f&#246;r allm&#228;nna 
+nyhetsmedier som &#228;r av s&#228;rskild vikt f&#246;r mediem&#229;ngfalden eller 
+av betydelse f&#246;r grupper som &#228;r underf&#246;rs&#246;rjda n&#228;r det g&#228;ller 
+journalistisk bevakning och som 
+
+1. har behov av ekonomiskt st&#246;d f&#246;r den redaktionella 
+verksamheten, och 
+
+2. har redaktionell personal motsvarande minst tv&#229; 
+&#229;rsarbetskrafter och en st&#246;dgrundande kostnad p&#229; minst 
+750 000 kronor. 
+
+Vid bed&#246;mningen av om ett allm&#228;nt nyhetsmedium &#228;r av s&#228;rskild 
+vikt f&#246;r mediem&#229;ngfalden ska h&#228;nsyn tas till betydelsen av det 
+allm&#228;nna nyhetsmediets nyhetsbevakning och redaktionella 
+inneh&#229;ll f&#246;r den publicistiska m&#229;ngfalden eller nyhetsutbudet 
+p&#229; den nationella mediemarknaden. 
+
+Fastst&#228;llande och ber&#228;kning av st&#246;det
+
+12 &#167; Allm&#228;nt redaktionsst&#246;d f&#229;r fr&#229;n och med 2027 l&#228;mnas med 
+h&#246;gst 
+
+1. 1 800 000 kronor, men inte &#246;verstiga 75 procent av den 
+st&#246;dgrundande kostnaden, f&#246;r den del av kostnaden som uppg&#229;r 
+till h&#246;gst 2 400 000 kronor, 
+
+2. 1 440 000 kronor, men inte &#246;verstiga 60 procent av den 
+st&#246;dgrundande kostnaden, f&#246;r den del av kostnaden som 
+&#246;verstiger 2 400 000 kronor och uppg&#229;r till h&#246;gst 
+4 800 000 kronor, 
+
+3. 1 680 000 kronor, men inte &#246;verstiga 40 procent av den 
+st&#246;dgrundande kostnaden, f&#246;r den del av kostnaden som 
+&#246;verstiger 4 800 000 kronor och uppg&#229;r till h&#246;gst 
+9 000 000 kronor, 
+
+4. 4 200 000 kronor, men inte &#246;verstiga 20 procent av den 
+st&#246;dgrundande kostnaden, f&#246;r den del av kostnaden som 
+&#246;verstiger 9 000 000 kronor och uppg&#229;r till h&#246;gst 
+30 000 000 kronor, och 
+
+5. 15 000 000 kronor, men inte &#246;verstiga 10 procent av den 
+st&#246;dgrundande kostnaden, f&#246;r den del av kostnaden som 
+&#246;verstiger 30 000 000 kronor och uppg&#229;r till h&#246;gst 
+180 000 000 kronor.
+
+13 &#167; Fram till 2027 ska det allm&#228;nna redaktionsst&#246;det enligt 
+12 &#167; s&#228;ttas ned med 
+
+1. tre fj&#228;rdedelar under 2024, 
+
+2. med h&#228;lften under 2025, och 
+
+3. med en fj&#228;rdedel under 2026. 
+
+14 &#167; Allm&#228;nt redaktionsst&#246;d enligt 12 och 13 &#167;&#167; f&#229;r s&#228;ttas ned 
+helt eller delvis f&#246;r allm&#228;nna nyhetsmedier som huvudsakligen 
+bedriver nationell nyhetsf&#246;rmedling men som &#228;ven bedriver 
+lokal eller regional nyhetsf&#246;rmedling i en s&#229;dan utr&#228;ckning 
+att allm&#228;nt redaktionsst&#246;d f&#229;r l&#228;mnas enligt 9 &#167;.
+
+Vid bed&#246;mningen av om st&#246;det ska s&#228;ttas ned enligt f&#246;rsta 
+stycket ska h&#228;nsyn tas till andelen redaktionell personal som 
+har till uppgift att bedriva den lokala eller regionala 
+nyhetsf&#246;rmedlingen och de kostnader som &#228;r f&#246;rknippade med 
+denna verksamhet. 
+
+S&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r ut&#246;kat redaktionsst&#246;d
+
+15 &#167; Ut&#246;kat redaktionsst&#246;d f&#229;r l&#228;mnas f&#246;r allm&#228;nna 
+nyhetsmedier som uppfyller de s&#228;rskilda f&#246;ruts&#228;ttningarna f&#246;r 
+allm&#228;nt redaktionsst&#246;d i 9-11 &#167;&#167; f&#246;r 
+
+1. insatser f&#246;r journalistisk bevakning av omr&#229;den med svag 
+bevakning, och 
+
+2. insatser d&#228;r det redaktionella inneh&#229;llet till minst 
+25 procent publiceras eller s&#228;nds p&#229; n&#229;got eller n&#229;gra av de 
+nationella minoritetsspr&#229;ken enligt lagen (2009:724) om 
+nationella minoriteter och minoritetsspr&#229;k. 
+
+Om det finns s&#228;rskilda sk&#228;l f&#229;r ut&#246;kat redaktionsst&#246;d l&#228;mnas 
+&#228;ven f&#246;r allm&#228;nna nyhetsmedier enligt 9-11 &#167;&#167; som inte har 
+behov av ekonomiskt st&#246;d. 
+
+16 &#167; Vid bed&#246;mningen av om ett omr&#229;de har svag journalistisk 
+bevakning enligt 15 &#167; f&#246;rsta stycket 1 ska h&#228;nsyn tas till i 
+vilken omfattning omr&#229;det bevakas av allm&#228;nna nyhetsmedier 
+samt omr&#229;dets geografiska och befolkningsm&#228;ssiga 
+f&#246;ruts&#228;ttningar f&#246;r journalistisk bevakning. Med ett omr&#229;de 
+avses en kommun eller en del av en eller flera n&#228;rliggande 
+kommuner.
+
+17 &#167; Ut&#246;kat redaktionsst&#246;d f&#229;r l&#228;mnas med h&#246;gst 
+
+1. 600 000 kronor per omr&#229;de och &#229;r f&#246;r insatser enligt 15 &#167; 
+f&#246;rsta stycket 1, 
+
+2. 600 000 kronor per &#229;r f&#246;r insatser enligt 15 &#167; f&#246;rsta 
+stycket 2 som publiceras eller s&#228;nds p&#229; ett av de nationella 
+minoritetsspr&#229;ken, och 
+
+3. 800 000 kronor per &#229;r f&#246;r insatser enligt 15 &#167; f&#246;rsta 
+stycket 2 som publiceras eller s&#228;nds p&#229; minst tv&#229; av de 
+nationella minoritetsspr&#229;ken.
+
+Vad redaktionsst&#246;det f&#229;r anv&#228;ndas till
+
+18 &#167; Allm&#228;nt redaktionsst&#246;d f&#229;r endast anv&#228;ndas f&#246;r kostnader 
+som h&#228;nf&#246;r sig till det allm&#228;nna nyhetsmediets redaktionella 
+verksamhet. 
+
+Ut&#246;kat redaktionsst&#246;d f&#229;r endast anv&#228;ndas f&#246;r kostnader som 
+direkt h&#228;nf&#246;r sig till de insatser enligt 15 &#167; som st&#246;det har 
+l&#228;mnats f&#246;r.
+
+S&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r distributionsst&#246;d
+
+19 &#167; Distributionsst&#246;d f&#229;r l&#228;mnas f&#246;r allm&#228;nna nyhetsmedier 
+som &#228;r tryckta abonnerade nyhetstidningar och som 
+
+1. har en upplaga som i huvudsak &#228;r betald, 
+
+2. har ett abonnemangspris som inte uppenbart avviker fr&#229;n det 
+pris som j&#228;mf&#246;rbara tidningar har, och 
+
+3. distribueras av ett distributionsf&#246;retag.
+
+20 &#167; Distributionsst&#246;d f&#229;r endast l&#228;mnas om det allm&#228;nna 
+nyhetsmediet som ans&#246;ker om st&#246;d skriftligen f&#246;rbinder sig att 
+
+1. avst&#229; fr&#229;n egen distribution av den abonnerade tryckta 
+nyhetstidningen inom alla omr&#229;den d&#228;r st&#246;dber&#228;ttigad 
+samdistribution f&#246;rekommer om denna p&#229;b&#246;rjas vid en tidpunkt 
+d&#229; den egna tidningen kan medf&#246;lja, och 
+
+2. &#246;verl&#228;mna hela distributionsarbetet till 
+distributionsf&#246;retaget i varje omr&#229;de d&#228;r tidningen deltar i 
+st&#246;dber&#228;ttigad samdistribution.
+
+F&#246;rmedling av st&#246;det
+
+21 &#167; Ett distributionsf&#246;retag f&#229;r f&#246;rmedla distributionsst&#246;d 
+endast om f&#246;retaget skriftligen f&#246;rbinder sig att uppfylla 
+f&#246;ljande villkor: 
+
+1. F&#246;retaget ska inom sitt verksamhetsomr&#229;de anordna 
+samdistribution d&#228;r det finns f&#246;ruts&#228;ttning f&#246;r st&#246;dber&#228;ttigad 
+samdistribution. 
+
+2. F&#246;retaget ska f&#246;r samdistributionen till&#228;mpa en 
+priss&#228;ttning enligt 3 f&#246;r s&#229;dan abonnerad tryckt nyhetstidning 
+som omfattas av en f&#246;rbindelse enligt 20 &#167; och som normalt 
+kommer ut med minst ett nummer varje vecka. 
+
+3. Priss&#228;ttningen ska vara s&#229;dan att storleken av den enskilda 
+nyhetstidningens abonnerade upplaga inom distributionsomr&#229;det 
+inte inverkar p&#229; distributionsavgiften per distribuerat 
+exemplar. Om det blir v&#228;sentliga kostnadsskillnader f&#229;r dock 
+priss&#228;ttningen anpassas till dessa skillnader. En s&#229;dan 
+priss&#228;ttning f&#229;r d&#228;remot inte inneb&#228;ra att priset f&#246;r 
+distributionen av ett exemplar av den mest kostnadskr&#228;vande 
+tidningen blir mer &#228;n tio procent h&#246;gre &#228;n priset f&#246;r 
+distribution av ett exemplar av den minst kostnadskr&#228;vande 
+tidningen. 
+
+4. F&#246;retaget ska h&#229;lla samdistributionen &#246;ppen f&#246;r samtliga 
+nyhetstidningar 
+
+a) vars upplaga &#228;r i huvudsak betald och som har ett 
+abonnemangspris som inte uppenbart avviker fr&#229;n vad j&#228;mf&#246;rbara 
+tidningar har, och 
+
+b) som vid tiden f&#246;r samdistributionens b&#246;rjan finns 
+tillg&#228;ngliga p&#229; orten.
+
+5. F&#246;retaget ska delge anbud p&#229; samdistribution inom ett 
+distributionsomr&#229;de till samtliga nyhetstidningar som omfattas 
+av en undertecknad f&#246;rbindelse enligt 20 &#167; vid en och samma 
+tidpunkt. 
+
+Distributionsf&#246;retaget ska ge in den skriftliga f&#246;rbindelsen 
+till mediest&#246;dsn&#228;mnden.
+
+Ber&#228;kning och utbetalning av st&#246;det
+
+22 &#167; Distributionsst&#246;d betalas ut med 20 &#246;re per exemplar av 
+den tryckta abonnerade nyhetstidningen.
+
+23 &#167; Om en eller flera nyhetstidningar l&#228;mnar 
+samdistributionssystemet och de kvarvarande nyhetstidningarna 
+i samdistributionen i distributionsomr&#229;det d&#228;rmed drabbas av 
+v&#228;sentliga kostnads&#246;kningar, ska extra distributionsst&#246;d ges 
+under h&#246;gst tre &#229;r. Det extra st&#246;det f&#246;r de kvarvarande 
+nyhetstidningarna f&#229;r varje &#229;r sammanlagt inte vara h&#246;gre &#228;n 
+det belopp som betalats ut det senaste &#229;ret f&#246;r den eller de 
+nyhetstidningar som l&#228;mnat samdistributionssystemet. Det extra 
+st&#246;det ska f&#246;rdelas f&#246;r de kvarvarande nyhetstidningarna efter 
+deras &#229;rliga andel av distribuerade tidningsexemplar.
+
+S&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r &#246;verg&#229;ngsst&#246;d
+
+24 &#167; &#214;verg&#229;ngsst&#246;d f&#229;r l&#228;mnas f&#246;r dagstidningar 
+
+1. f&#246;r vilka driftsst&#246;d har beviljats enligt den upph&#228;vda 
+presst&#246;dsf&#246;rordningen (1990:524) under 2023, och 
+
+2. som inte beviljas redaktionsst&#246;d eller som beviljas 
+redaktionsst&#246;d med ett belopp som understiger det 
+genomsnittliga driftsst&#246;det de &#229;r som driftsst&#246;d har l&#228;mnats 
+under perioden 2021-2023.
+
+25 &#167; F&#246;r dagstidningar som kan f&#229; st&#246;d enligt 24 &#167; ska 
+&#246;verg&#229;ngsst&#246;d ber&#228;knas p&#229; f&#246;ljande s&#228;tt:
+
+1. F&#246;r dagstidningar som inte beviljas redaktionsst&#246;d f&#229;r 
+&#246;verg&#229;ngsst&#246;d l&#228;mnas med h&#246;gst en andel av dagstidningens 
+genomsnittliga driftsst&#246;d de &#229;r som s&#229;dant st&#246;d har l&#228;mnats 
+enligt den upph&#228;vda presst&#246;dsf&#246;rordningen (1990:524) under 
+2021-2023. 
+
+2. F&#246;r dagstidningar som beviljas redaktionsst&#246;d f&#229;r 
+&#246;verg&#229;ngsst&#246;d l&#228;mnas med h&#246;gst en andel av skillnaden mellan 
+redaktionsst&#246;det och det genomsnittliga driftsst&#246;det enligt 1. 
+
+&#214;verg&#229;ngsst&#246;d f&#229;r l&#228;mnas under h&#246;gst en period som motsvarar 
+det antal &#229;r som dagstidningen har f&#229;tt driftsst&#246;d under 
+perioden 2019-2023 och med h&#246;gst f&#246;ljande andelar:
+
+&#197;r som driftsst&#246;d l&#228;mnats	2024	2025	2026	2027
+	2028
+
+2019-2023	5/6	2/3	1/2	1/3	1/6
+
+2020-2023	4/5	3/5	2/5	1/5	
+
+2021-2023	3/4	1/2	1/4		
+
+2022-2023	2/3	1/3			
+
+Endast 2023	1/2				
+
+26 &#167; &#214;verg&#229;ngsst&#246;d f&#229;r endast anv&#228;ndas f&#246;r att t&#228;cka kostnader 
+som &#228;r knutna till utgivningen av den dagstidning som st&#246;det 
+har beviljats f&#246;r.
+
+Prioritering
+
+27 &#167; Redaktionsst&#246;det och &#246;verg&#229;ngsst&#246;det f&#229;r f&#246;rdelas mellan 
+de s&#246;kande som uppfyller f&#246;ruts&#228;ttningarna f&#246;r dessa st&#246;d. 
+
+Vid f&#246;rdelningen av redaktionsst&#246;det och &#246;verg&#229;ngsst&#246;det ska 
+mediest&#246;dsn&#228;mnden ta h&#228;nsyn till i vilken utstr&#228;ckning som 
+st&#246;det kan f&#246;rv&#228;ntas bidra till att syftet med mediest&#246;det 
+enligt 2 &#167; lagen (2023:664) om mediest&#246;d uppfylls. N&#228;mnden f&#229;r 
+vid f&#246;rdelningen av st&#246;d prioritera mediets insatser f&#246;r svagt 
+bevakade omr&#229;den, f&#246;r grupper i samh&#228;llet som &#228;r 
+underf&#246;rs&#246;rjda n&#228;r det g&#228;ller journalistisk bevakning och f&#246;r 
+nationella minoriteter. N&#228;mnden f&#229;r &#228;ven ta h&#228;nsyn till 
+mediets f&#246;rankring i bevakningsomr&#229;det. 
+
+N&#228;mnden f&#229;r vid f&#246;rdelningen &#228;ven prioritera behovet av 
+&#246;verg&#229;ngsst&#246;d f&#246;r en ordnad &#246;verg&#229;ng f&#246;r tidningar som har 
+haft driftsst&#246;d enligt den upph&#228;vda presst&#246;dsf&#246;rordningen 
+(1990:524) under l&#229;ng tid.
+
+Storleken p&#229; det sammanlagda redaktionsst&#246;det och 
+&#246;verg&#229;ngsst&#246;det
+
+28 &#167; Redaktionsst&#246;d enligt 9-17 &#167;&#167; och &#246;verg&#229;ngsst&#246;d 
+enligt 24-26 &#167;&#167; f&#229;r sammanlagt l&#228;mnas med h&#246;gst ett belopp som 
+inte &#246;verstiger 
+
+1. 75 procent av r&#246;relsekostnaderna som &#228;r f&#246;rknippade med 
+utgivningen av det allm&#228;nna nyhetsmediet, om dessa kostnader 
+uppg&#229;r till h&#246;gst 20 000 000 kronor, 
+
+2. 60 procent av r&#246;relsekostnaderna som &#228;r f&#246;rknippade med 
+utgivningen av det allm&#228;nna nyhetsmediet, om dessa kostnader 
+&#246;verstiger 20 000 000 kronor men inte 50 000 000 kronor, och 
+
+3. 40 procent av r&#246;relsekostnaderna som &#228;r f&#246;rknippade med 
+utgivningen av det allm&#228;nna nyhetsmediet, om dessa kostnader 
+&#246;verstiger 50 000 000 kronor.
+
+&#196;rendenas handl&#228;ggning
+
+29 &#167; En ans&#246;kan om mediest&#246;d ska vara skriftlig och l&#228;mnas 
+till mediest&#246;dsn&#228;mnden.
+
+30 &#167; Ett beslut om mediest&#246;d f&#229;r f&#246;renas med villkor. Dessa 
+ska framg&#229; av beslutet. I beslutet ska &#228;ven sista dag f&#246;r 
+redovisning enligt 31 &#167; framg&#229;.
+
+Redovisning
+
+31 &#167; Den som har tagit emot redaktionsst&#246;d och &#246;verg&#229;ngsst&#246;d 
+ska senast den dag som anges i beslutet l&#228;mna en redovisning 
+till Mediemyndigheten om hur st&#246;det anv&#228;nts och vilka 
+kostnader det har t&#228;ckt. I redovisningen ska &#228;ven anges vilka 
+resultat som har uppn&#229;tts i f&#246;rh&#229;llande till det &#228;ndam&#229;l som 
+st&#246;det har beviljats f&#246;r. 
+
+Den som har ans&#246;kt om eller tagit emot mediest&#246;d ska p&#229; 
+beg&#228;ran fr&#229;n mediest&#246;dsn&#228;mnden l&#228;mna &#228;ven de andra uppgifter 
+som beh&#246;vs f&#246;r uppf&#246;ljning och utv&#228;rdering.
+
+32 &#167; Mediest&#246;dsn&#228;mnden ska med utg&#229;ngspunkt i den redovisning 
+som l&#228;mnas enligt 31 &#167; kontrollera att mediest&#246;det anv&#228;nts i 
+&#246;verensst&#228;mmelse med denna f&#246;rordning.
+
+Hinder mot att l&#228;mna mediest&#246;d
+
+33 &#167; Mediest&#246;d f&#229;r inte l&#228;mnas till en s&#246;kande som 
+
+1. &#228;r i sv&#229;righeter s&#229; som begreppet definieras i punkt 20 i 
+Europeiska kommissionens meddelande om riktlinjer f&#246;r statligt 
+st&#246;d till unds&#228;ttning och omstrukturering av icke-finansiella 
+f&#246;retag i sv&#229;righeter (2014/C 249/01), eller
+
+2. &#228;r f&#246;rem&#229;l f&#246;r betalningskrav p&#229; grund av ett beslut av 
+Europeiska kommissionen som f&#246;rklarar att ett st&#246;d beviljat av 
+en svensk st&#246;dgivare &#228;r olagligt och of&#246;renligt med den inre 
+marknaden.
+
+34 &#167; Mediest&#246;dsn&#228;mnden f&#229;r besluta att ett beviljat mediest&#246;d 
+tills vidare inte ska betalas ut, om det kan antas att st&#246;det 
+beviljats p&#229; grund av felaktiga uppgifter eller att villkoren 
+f&#246;r st&#246;det inte l&#228;ngre &#228;r uppfyllda.
+
+&#197;terbetalning och &#229;terkrav
+
+35 &#167; Den som tagit emot mediest&#246;d &#228;r &#229;terbetalningsskyldig om 
+
+1. mottagaren genom att l&#228;mna oriktiga uppgifter eller p&#229; 
+n&#229;got annat s&#228;tt har f&#246;rorsakat att st&#246;det har l&#228;mnats 
+felaktigt eller med f&#246;r h&#246;gt belopp, 
+
+2. st&#246;det av n&#229;got annat sk&#228;l har l&#228;mnats felaktigt eller med 
+f&#246;r h&#246;gt belopp och mottagaren borde ha insett detta, 
+
+3. st&#246;det helt eller delvis inte har utnyttjats eller inte har 
+anv&#228;nts f&#246;r det &#228;ndam&#229;l som det har beviljats f&#246;r, 
+
+4. mottagaren inte l&#228;mnar s&#229;dan redovisning som avses i 31 &#167;, 
+eller 
+
+5. villkor i beslutet om st&#246;d inte har f&#246;ljts.
+
+36 &#167; Om den som tagit emot mediest&#246;d &#228;r &#229;terbetalningsskyldig 
+enligt 35 &#167;, ska mediest&#246;dsn&#228;mnden besluta att helt eller 
+delvis kr&#228;va tillbaka mediest&#246;det. 
+
+Om ett belopp som &#229;terkr&#228;vts med st&#246;d av f&#246;rsta stycket inte 
+&#229;terbetalas i r&#228;tt tid, ska dr&#246;jsm&#229;lsr&#228;nta enligt r&#228;ntelagen 
+(1975:635) tas ut p&#229; beloppet.
+
+Om det finns s&#228;rskilda sk&#228;l, f&#229;r mediest&#246;dsn&#228;mnden helt eller 
+delvis avst&#229; fr&#229;n krav p&#229; &#229;terbetalning enligt f&#246;rsta stycket 
+eller r&#228;nta enligt andra stycket.
+
+37 &#167; Best&#228;mmelser om offentligg&#246;rande, rapportering och 
+registerf&#246;ring finns i 12 a &#167; lagen (2013:388) om till&#228;mpning 
+av Europeiska unionens statsst&#246;dsregler och i f&#246;rordningen 
+(2016:605) om till&#228;mpning av Europeiska unionens 
+statsst&#246;dsregler.
+
+Bemyndiganden
+
+38 &#167; Mediemyndigheten f&#229;r meddela ytterligare f&#246;reskrifter om 
+
+1. definitionen av allm&#228;nt nyhetsmedium som avses i 3 och 4 &#167;&#167; 
+lagen (2023:664) om mediest&#246;d, och
+
+2. allm&#228;nna f&#246;ruts&#228;ttningar f&#246;r mediest&#246;d som avses i 6 &#167; 2-
+10, 7 och 8 &#167;&#167; samma lag. 
+
+39 &#167; Mediemyndigheten f&#229;r ocks&#229; meddela ytterligare 
+f&#246;reskrifter om 
+
+1. definitionerna av uttryck i f&#246;rordningen som avses i 4 &#167;,
+
+2. allm&#228;nna f&#246;ruts&#228;ttningar f&#246;r mediest&#246;d som avses i 5-8 &#167;&#167;, 
+
+3. s&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r allm&#228;nt redaktionsst&#246;d som 
+avses i 9-14 &#167;&#167;, 
+
+4. s&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r ut&#246;kat redaktionsst&#246;d som 
+avses i 15-17 &#167;&#167;, 
+
+5. vad redaktionsst&#246;det enligt 18 &#167; f&#229;r anv&#228;ndas till, 
+
+6. s&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r distributionsst&#246;d som avses i 
+19-23 &#167;&#167;, 
+
+7. s&#228;rskilda f&#246;ruts&#228;ttningar f&#246;r &#246;verg&#229;ngsst&#246;d som avses i 24-
+26 &#167;&#167;, och 
+
+8. prioritering som avses i 27 &#167;.
+
+Myndigheten f&#229;r ocks&#229; meddela f&#246;reskrifter om verkst&#228;lligheten 
+
+av denna f&#246;rordning.
+
+&#214;verklagande
+
+40 &#167; Mediest&#246;dsn&#228;mndens beslut enligt denna f&#246;rordning f&#229;r 
+inte &#246;verklagas.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2023:740
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2024. 
+
+2. Ut&#246;kat redaktionsst&#246;d enligt 15 &#167; f&#246;rsta stycket 1 f&#229;r inte 
+l&#228;mnas f&#246;r ett allm&#228;nt nyhetsmedium som har f&#229;tt st&#246;d f&#246;r 
+lokal journalistik enligt den upph&#228;vda mediest&#246;dsf&#246;rordningen 
+(2018:2053) f&#246;r samma omr&#229;de och tidsperiod. 
+
+3. F&#246;rordningen upph&#246;r att g&#228;lla vid utg&#229;ngen av 2029. Den 
+upph&#228;vda f&#246;rordningen g&#228;ller dock fortfarande f&#246;r st&#246;d som har 
+beslutats f&#246;re utg&#229;ngen av 2029.
+
+4. Trots 5 &#167; f&#246;rsta stycket 2 f&#229;r mediest&#246;d f&#246;r 2024 l&#228;mnas 
+f&#246;r ett allm&#228;nt nyhetsmedium som uppfyller f&#246;ruts&#228;ttningarna 
+vad g&#228;ller andelen
+
+a) eget redaktionellt inneh&#229;ll enligt 1 kap. 6 &#167; i den 
+upph&#228;vda presst&#246;dsf&#246;rordningen (1990:524), eller 
+
+b) exklusivt, egenproducerat redaktionellt inneh&#229;ll enligt 4 &#167; 
+f&#246;rsta stycket 2 i den upph&#228;vda mediest&#246;dsf&#246;rordningen 
+(2018:2053). F&#246;rordning (2023:913).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=39">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=41">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

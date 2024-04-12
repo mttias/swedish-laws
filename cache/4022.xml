@@ -1,0 +1,640 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2022-05-03 10:00:21" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4022</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4021">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4023">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1977:792 ·
+                    <a href="/sfsr?bet=1977:792">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Bostadsf&#246;rvaltningslag (1977:792)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1977-11-03
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:1099
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens till&#228;mpningsomr&#229;de
+
+1 &#167; Denna lag &#228;ger till&#228;mpning p&#229; fastighet d&#228;r det finns
+bostadsl&#228;genhet som &#228;r uthyrd eller kan hyras ut av
+fastighetens &#228;gare f&#246;r annat &#228;ndam&#229;l &#228;n fritids&#228;ndam&#229;l och som
+ej utg&#246;r del av hans egen bostad. Fastighet som tillh&#246;r staten
+eller kommun kan ej bli f&#246;rem&#229;l f&#246;r ingripande enligt 2 &#167;.
+
+N&#228;r byggnad tillh&#246;r innehavare av inskriven tomtr&#228;tt &#228;ger
+best&#228;mmelserna i denna lag om fastighet motsvarande till&#228;mpning
+p&#229; tomtr&#228;tten. I fr&#229;ga om byggnad som annars tillh&#246;r annan &#228;n
+&#228;garen av marken g&#228;ller lagen i till&#228;mpliga delar. S&#229;som &#228;gare
+av fastighet anses, n&#228;r omst&#228;ndigheterna f&#246;ranleder det, annan
+som innehar fastigheten.
+
+Denna lag till&#228;mpas inte p&#229; fastigheter som &#228;gs av kooperativa
+hyresr&#228;ttsf&#246;reningar enligt lagen (2002:93) om kooperativ
+hyresr&#228;tt eller p&#229; fastigheter d&#228;r samtliga bostadsl&#228;genheter
+hyrs av s&#229;dana f&#246;reningar. Lag (2002:97).
+
+F&#246;ruts&#228;ttningar f&#246;r ingripande i f&#246;rvaltningen
+
+2 &#167; Hyresn&#228;mnden f&#229;r besluta om ingripande i f&#246;rvaltningen av 
+en fastighet, om fastighets&#228;garen brister i sina skyldigheter 
+mot bostadshyresg&#228;sterna genom att
+
+1. efters&#228;tta underh&#229;llet av fastigheten eller
+
+2. annars f&#246;rvalta fastigheten p&#229; ett s&#228;tt som inte &#228;r 
+godtagbart f&#246;r bostadshyresg&#228;sterna.
+
+Ett beslut om ingripande i f&#246;rvaltningen f&#229;r meddelas redan om 
+det finns anledning att anta att fastigheten f&#246;rvaltas p&#229; ett 
+s&#228;tt som inte &#228;r godtagbart f&#246;r bostadshyresg&#228;sterna, om en 
+ans&#246;kan om ingripande kommer in till hyresn&#228;mnden inom tre &#229;r 
+fr&#229;n det att fastighets&#228;garen har ans&#246;kt om lagfart.
+Lag (2021:1099).
+
+3 &#167; Hyresn&#228;mnden f&#229;r, ut&#246;ver i de fall som anges i 2 &#167;, 
+besluta om ingripande i f&#246;rvaltningen om fastighets&#228;garen inte 
+hyr ut l&#228;genheter f&#246;r bostads&#228;ndam&#229;l i fastigheten och det med 
+h&#228;nsyn till bostadsf&#246;rs&#246;rjningen &#228;r uppenbart of&#246;rsvarligt att 
+l&#228;genheterna st&#229;r tomma. Lag (2021:1099).
+
+Formerna f&#246;r ingripande
+
+4 &#167; Ett ingripande i f&#246;rvaltningen kan avse antingen att 
+hyresn&#228;mnden f&#246;rel&#228;gger fastighets&#228;garen att &#229;tg&#228;rda bristerna 
+i f&#246;rvaltningen (f&#246;rvaltningsf&#246;rel&#228;ggande) eller att 
+hyresn&#228;mnden st&#228;ller fastigheten under f&#246;rvaltning av en 
+s&#228;rskild f&#246;rvaltare (tv&#229;ngsf&#246;rvaltning). Lag (2021:1099).
+
+5 &#167; Tv&#229;ngsf&#246;rvaltning f&#229;r endast beslutas om ett 
+f&#246;rvaltningsf&#246;rel&#228;ggande inte bed&#246;ms som tillr&#228;ckligt f&#246;r att 
+uppn&#229; en godtagbar f&#246;rvaltning. Vid denna bed&#246;mning ska det 
+s&#228;rskilt beaktas hur allvarliga bristerna i f&#246;rvaltningen &#228;r 
+och om fastighets&#228;garen kan antas r&#228;tta sig efter ett 
+f&#246;rvaltningsf&#246;rel&#228;ggande. Lag (2021:1099).
+
+F&#246;rvaltningsf&#246;rel&#228;ggande
+
+6 &#167; I ett f&#246;rvaltningsf&#246;rel&#228;ggande ska hyresn&#228;mnden f&#246;rel&#228;gga 
+fastighets&#228;garen att &#229;tg&#228;rda bristerna i f&#246;rvaltningen inom 
+viss tid. Finns det s&#228;rskilda sk&#228;l f&#229;r tiden f&#246;rl&#228;ngas, om en 
+ans&#246;kan om det g&#246;rs innan tidsfristen l&#246;per ut.
+
+F&#246;rel&#228;ggandet f&#229;r f&#246;renas med vite. Lag (2021:1099).
+
+7 &#167; Har upph&#228;vts genom lag (2021:1099).
+
+Tv&#229;ngsf&#246;rvaltning
+
+8 &#167; Beslutar hyresn&#228;mnd om tv&#229;ngsf&#246;rvaltning, skall n&#228;mnden samtidigt
+utse f&#246;rvaltare. Till f&#246;rvaltare  skall utses bolag, f&#246;rening eller
+annan som har erforderlig erfarenhet av fastighetsf&#246;rvaltning.
+
+Hyresn&#228;mnden kan under p&#229;g&#229;ende f&#246;rvaltning utse ny f&#246;rvaltare n&#228;r
+f&#246;rh&#229;llandena f&#246;ranleder det.
+
+9 &#167; F&#246;rvaltaren skall svara f&#246;r en tillfredsst&#228;llande sk&#246;tsel av
+fastigheten. Han skall verka f&#246;r att de ol&#228;genheter som f&#246;ranlett
+f&#246;rvaltningsbeslutet undanr&#246;jes och att fastigheten genomg&#229;r s&#229;dan
+f&#246;rb&#228;ttring och modernisering som &#228;r f&#246;renlig med en &#228;ndam&#229;lsenlig
+fastighetsf&#246;rvaltning. Han skall vara verksam f&#246;r att sk&#228;lig
+avkastning erh&#229;lles.
+
+9 a &#167; Vid tv&#229;ngsf&#246;rvaltning av fastighet ska f&#246;rvaltaren anses
+vara den som betalar ut ers&#228;ttning f&#246;r arbete enligt
+skattef&#246;rfarandelagen (2011:1244) betr&#228;ffande den f&#246;rvaltade
+egendomen. Best&#228;mmelserna i 60 kap. 1 &#167; n&#228;mnda lag om
+befrielse fr&#229;n betalningsskyldighet g&#228;ller &#228;ven f&#246;rvaltaren.
+Lag (2011:1307).
+
+10 &#167; Om det &#228;r p&#229;kallat av s&#228;rskilda sk&#228;l, f&#229;r hyresn&#228;mnden meddela
+f&#246;reskrifter f&#246;r f&#246;rvaltningen.
+
+11 &#167; F&#246;rvaltaren uppb&#228;r hyror och andra l&#246;pande int&#228;kter av
+fastigheten samt f&#246;retr&#228;der &#228;ven i &#246;vrigt &#228;garen i angel&#228;genheter
+som r&#246;r fastigheten, om ej annat f&#246;ljer av andra och tredje styckena.
+
+F&#246;rvaltaren f&#229;r ej &#246;verl&#229;ta fastigheten eller annars f&#246;rfoga &#246;ver den
+s&#229; att den helt eller delvis fr&#229;nh&#228;ndes &#228;garen. F&#246;rvaltaren f&#229;r ej
+heller p&#229; fastighets&#228;garens v&#228;gnar ing&#229; borgen eller v&#228;xelf&#246;rbindelse.
+Utan hyresn&#228;mndens tillst&#229;nd f&#229;r f&#246;rvaltaren ej l&#229;ta inteckna
+fastigheten eller taga upp l&#229;n mot s&#228;kerhet i form av pantr&#228;tt i
+fastigheten. I &#246;vrigt f&#229;r f&#246;rvaltaren ing&#229; avtal om kredit endast
+om avtalet ej st&#229;r i missf&#246;rh&#229;llande till de ekonomiska
+f&#246;ruts&#228;ttningarna f&#246;r f&#246;rvaltningen.
+
+F&#246;rvaltaren kan besluta att angel&#228;genhet som saknar betydelse f&#246;r
+&#228;ndam&#229;let med f&#246;rvaltningen skall undantas fr&#229;n denna. Hyresn&#228;mnden
+och fastighets&#228;garen skall of&#246;rdr&#246;jligen underr&#228;ttas om s&#229;dant
+beslut.
+
+12 &#167; Fastighets&#228;garen f&#229;r med hyresn&#228;mndens tillst&#229;nd taga upp l&#229;n
+mot s&#228;kerhet i form av pantr&#228;tt i fastigheten och l&#229;ta f&#246;retaga
+inskrivnings&#229;tg&#228;rd betr&#228;ffande denna. &#196;ven utan s&#229;dant tillst&#229;nd f&#229;r
+fastighets&#228;garen l&#229;ta f&#246;retaga inskrivnings&#229;tg&#228;rd som avses i 20 och
+21 kap. jordabalken.
+
+Tillst&#229;nd enligt f&#246;rsta stycket f&#229;r l&#228;mnas endast om &#229;tg&#228;rden ej
+f&#246;rs&#228;mrar f&#246;ruts&#228;ttningarna f&#246;r en tillfredsst&#228;llande
+fastighetsf&#246;rvaltning.
+
+13 &#167; Kan medel till f&#246;rvaltningen ej i tillr&#228;cklig m&#229;n erh&#229;llas genom
+l&#246;pande int&#228;kter eller genom l&#229;n, f&#229;r hyresn&#228;mnden, i den m&#229;n det
+finnes sk&#228;ligt med h&#228;nsyn till fastighets&#228;garens f&#246;rh&#229;llanden och
+&#246;vriga omst&#228;ndigheter, p&#229; beg&#228;ran av f&#246;rvaltaren &#229;l&#228;gga
+fastighets&#228;garen att till f&#246;rvaltaren utge de ytterligare medel som
+denne beh&#246;ver f&#246;r &#229;tg&#228;rd som avses i 9 &#167;.
+
+&#214;verl&#229;telse av fastigheten medf&#246;r icke befrielse fr&#229;n
+betalningsskyldighet som har &#229;lagts dessf&#246;rinnan.
+
+14 &#167; F&#246;religger ej l&#228;ngre sk&#228;l f&#246;r att &#229;lagd betalningsskyldighet
+fullg&#246;res, f&#229;r hyresn&#228;mnden f&#246;rordna att beslutet om
+betalningsskyldighet icke vidare skall g&#228;lla.
+
+15 &#167; Fastighets&#228;garen &#228;r skyldig att i den omfattning hyresn&#228;mnden
+finner sk&#228;ligt utge ers&#228;ttning f&#246;r utrymme som han sj&#228;lv anv&#228;nder.
+
+Erl&#228;gges ej ers&#228;ttning enligt f&#246;rsta stycket, f&#229;r hyresn&#228;mnden &#229;l&#228;gga
+fastighets&#228;garen att avflytta fr&#229;n utrymmet.
+
+P&#229; beg&#228;ran av fastighets&#228;garen f&#229;r hyresn&#228;mnden medge denne sk&#228;ligt
+uppskov med avflyttningen.
+
+16 &#167; Fastighets&#228;garen &#228;r skyldig att l&#228;mna f&#246;rvaltaren de
+upplysningar r&#246;rande fastigheten som beh&#246;vs f&#246;r en tillfredsst&#228;llande
+f&#246;rvaltning.
+
+Hyresn&#228;mnden f&#229;r kalla fastighets&#228;garen att inf&#246;r n&#228;mnden under ed
+l&#228;mna upplysningar enligt f&#246;rsta  stycket. D&#228;rvid skall 36 kap. 6, 11,
+14, 20 och 21 &#167;&#167; r&#228;tteg&#229;ngsbalken &#228;ga motsvarande till&#228;mpning.
+
+17 &#167; Fastighets&#228;garen &#228;r skyldig att tillhandah&#229;lla f&#246;rvaltaren
+handlingar och annat av betydelse f&#246;r f&#246;rvaltningen.
+
+Fullg&#246;r fastighets&#228;garen ej sin skyldighet enligt f&#246;rsta stycket, f&#229;r
+hyresn&#228;mnden vid vite f&#246;rel&#228;gga honom att fullg&#246;ra skyldigheten.
+
+18 &#167; Hyresn&#228;mnden ska inom sex m&#229;nader fr&#229;n det att beslutet 
+om tv&#229;ngsf&#246;rvaltning tr&#228;dde i kraft fastst&#228;lla den tid som 
+f&#246;rvaltningen ska p&#229;g&#229;. Tiden f&#229;r, om beslutet har meddelats 
+med st&#246;d av 2 &#167; f&#246;rsta stycket eller 3 &#167;, best&#228;mmas till h&#246;gst 
+fem &#229;r fr&#229;n det att beslutet om tv&#229;ngsf&#246;rvaltning tr&#228;dde 
+i kraft. Om beslutet har meddelats med st&#246;d av 2 &#167; andra 
+stycket, f&#229;r tiden best&#228;mmas till h&#246;gst tre &#229;r fr&#229;n det att 
+beslutet tr&#228;dde i kraft.
+
+Om det vid utg&#229;ngen av den best&#228;mda tiden finns sk&#228;l f&#246;r att 
+tv&#229;ngsf&#246;rvaltningen forts&#228;tter, f&#229;r hyresn&#228;mnden besluta om 
+f&#246;rl&#228;ngning av tiden. F&#246;rl&#228;ngning f&#229;r ske med h&#246;gst tre &#229;r i 
+taget, om beslutet har meddelats med st&#246;d av 2 &#167; f&#246;rsta 
+stycket eller 3 &#167;. Om beslutet har meddelats med st&#246;d av 2 &#167; 
+andra stycket, f&#229;r hyresn&#228;mnden besluta om f&#246;rl&#228;ngning av 
+tiden med h&#246;gst ett &#229;r.
+
+Om det inte l&#228;ngre finns sk&#228;l f&#246;r tv&#229;ngsf&#246;rvaltning, ska 
+hyresn&#228;mnden besluta att f&#246;rvaltningen omedelbart ska upph&#246;ra.
+Lag (2021:1099).
+
+19 &#167; &#214;verg&#229;r fastigheten till ny &#228;gare under p&#229;g&#229;ende f&#246;rvaltning,
+g&#228;ller beslutet om f&#246;rvaltning mot den nye &#228;garen. Denne intr&#228;der i
+f&#246;rre &#228;garens r&#228;tt till de medel som f&#246;rvaltaren har hand om f&#246;r
+fastigheten samt svarar f&#246;r de f&#246;rbindelser som f&#246;rvaltaren ing&#229;tt.
+
+20 &#167; F&#246;rvaltaren skall of&#246;rdr&#246;jligen underr&#228;tta hyresg&#228;st om att
+fastigheten har st&#228;llts under tv&#229;ngsf&#246;rvaltning och om vem som &#228;r
+f&#246;rvaltare. F&#246;rvaltaren skall ocks&#229; of&#246;rdr&#246;jligen underr&#228;tta
+hyresg&#228;st om beslut som avses i 18 &#167;.
+
+Hyresg&#228;st som har erh&#229;llit underr&#228;ttelse enligt f&#246;rsta stycket f&#246;rsta
+meningen kan s&#229; l&#228;nge f&#246;rvaltningen p&#229;g&#229;r icke med befriande verkan
+betala hyra till annan &#228;n f&#246;rvaltaren eller den som f&#246;rvaltaren har
+anvisat. En erinran h&#228;rom skall intagas i underr&#228;ttelsen.
+
+F&#246;rvaltaren skall ocks&#229; of&#246;rdr&#246;jligen underr&#228;tta borgen&#228;r, som har
+pantr&#228;tt i fastigheten och som &#228;r k&#228;nd, om f&#246;rvaltningen.
+
+21 &#167; Medel som f&#246;rvaltaren har hand om f&#246;r fastigheten skall h&#229;llas
+skilda fr&#229;n andra medel. De f&#229;r ej utm&#228;tas f&#246;r annan skuld &#228;n s&#229;dan
+som &#228;r h&#228;nf&#246;rlig till tv&#229;ngsf&#246;rvaltningen och de ing&#229;r ej heller i
+fastighets&#228;garens konkursbo.
+
+Beh&#229;llna medel, som ej finnes b&#246;ra avs&#228;ttas f&#246;r f&#246;rvaltningen, skall
+utbetalas till fastighets&#228;garen. Tvist om vad fastighets&#228;garen &#228;r
+ber&#228;ttigad att utf&#229; pr&#246;vas av hyresn&#228;mnden.
+
+22 &#167; F&#246;rvaltaren skall f&#246;r varje kalender&#229;r inom tv&#229; m&#229;nader fr&#229;n
+&#229;rets utg&#229;ng l&#228;mna skriftlig redovisning till hyresn&#228;mnden f&#246;r sin
+f&#246;rvaltning. Till&#228;mpar fastighets&#228;garen  brutet r&#228;kenskaps&#229;r, skall
+tiden f&#246;r redovisningens avl&#228;mnande i st&#228;llet r&#228;knas fr&#229;n
+r&#228;kenskaps&#229;rets utg&#229;ng. N&#228;r f&#246;rvaltaren fr&#229;ntr&#228;der sitt uppdrag skall
+redovisning f&#246;r den g&#229;ngna delen av redovisningsperioden l&#228;mnas inom
+tv&#229; m&#229;nader fr&#229;n det uppdraget upph&#246;rde.
+
+Redovisningsskyldigheten skall fullg&#246;ras i enlighet med god
+redovisningssed. Till den sifferm&#228;ssiga redovisningen skall fogas
+f&#246;rvaltningsber&#228;ttelse med upplysning om vidtagna och planerade
+f&#246;rvaltnings&#229;tg&#228;rder av st&#246;rre vikt och om fastighetens skick.
+
+Avskrift av redovisningshandlingarna skall av n&#228;mnden &#246;vers&#228;ndas till
+fastighets&#228;garen. I den m&#229;n n&#228;mnden finner l&#228;mpligt, skall ocks&#229;
+s&#246;kanden och annan f&#229; del av redovisningen.
+
+Hyresn&#228;mnden skall granska redovisningen och kontrollera att den &#228;r
+godtagbar fr&#229;n redovisningsm&#228;ssig synpunkt. Finner n&#228;mnden anledning
+till anm&#228;rkning mot redovisningen, skall fastighets&#228;garen underr&#228;ttas
+h&#228;rom.
+
+23 &#167; Vill fastighets&#228;garen klandra redovisning f&#246;r viss
+redovisningsperiod, skall han inom ett &#229;r fr&#229;n det han av
+hyresn&#228;mnden mottog redovisningen v&#228;cka talan mot f&#246;rvaltaren
+vid mark- och milj&#246;domstolen.
+
+&#197;beropas som grund f&#246;r klandertalan omst&#228;ndighet som icke
+h&#228;nf&#246;r sig till viss avl&#228;mnad redovisning, f&#229;r talan v&#228;ckas
+inom ett &#229;r fr&#229;n det fastighets&#228;garen mottog redovisning med
+anledning av att f&#246;rvaltarens uppdrag upph&#246;rde.
+Lag (2010:1000).
+
+24 &#167; Om fastighets&#228;garen beh&#246;ver ta del av r&#228;kenskapsmaterial r&#246;rande
+fastigheten f&#246;r att kunna fullg&#246;ra uppgiftsskyldighet som &#229;ligger
+honom gentemot det allm&#228;nna eller eljest, skall han efter
+framst&#228;llning till hyresn&#228;mnden beredas tillf&#228;lle till detta enligt
+anvisningar som n&#228;mnden meddelar.
+
+25 &#167; F&#246;rvaltaren har r&#228;tt att f&#229; sk&#228;ligt arvode och ers&#228;ttning 
+f&#246;r de utgifter som uppdraget har kr&#228;vt. Beslut om detta 
+fattas av hyresn&#228;mnden f&#246;r varje kalender&#229;r eller f&#246;r kortare 
+tid. Arvodet och ers&#228;ttningen ska betalas ur fastighetens 
+avkastning, om inte hyresn&#228;mnden beslutar att fastighets&#228;garen 
+helt eller delvis ska betala arvodet eller ers&#228;ttningen 
+personligen.
+
+Om f&#246;rvaltaren beg&#228;r det, ska kommunen f&#246;rskottera arvode som 
+enligt hyresn&#228;mndens beslut ska betalas av fastighets&#228;garen 
+personligen.
+
+Fastighets&#228;garen &#228;r skyldig att ers&#228;tta kommunen med det 
+f&#246;rskotterade beloppet och r&#228;nta p&#229; beloppet enligt 6 &#167; 
+r&#228;ntelagen (1975:635) fr&#229;n dagen f&#246;r utbetalningen.
+Lag (2021:1099).
+
+25 a &#167; Om en fastighet &#228;r st&#228;lld under tv&#229;ngsf&#246;rvaltning och det
+beh&#246;vs medel f&#246;r en &#229;tg&#228;rd f&#246;r fastighetens sk&#246;tsel som inte kan
+uppskjutas utan risk f&#246;r att n&#229;gon bostadshyresg&#228;st lider allvarlig
+skada eller ol&#228;genhet, f&#229;r en kommun p&#229; beg&#228;ran av f&#246;rvaltaren
+f&#246;rskottera visst belopp. Lag (1993:408).
+
+26 &#167; N&#228;r beslut meddelas om tv&#229;ngsf&#246;rvaltning eller n&#228;r s&#229;dant beslut
+&#228;ndras, skall underr&#228;ttelse genast s&#228;ndas till inskrivningsmyndigheten
+f&#246;r anteckning i fastighetsregistrets inskrivningsdel. Detsamma g&#228;ller
+n&#228;r beslut meddelas enligt 18 &#167;. Lag (2000:242).
+
+27 &#167; Tillsyn &#246;ver tv&#229;ngsf&#246;rvaltning ut&#246;vas av hyresn&#228;mnden.
+
+Inl&#246;sen
+
+28 &#167; Om en fastighet &#228;r st&#228;lld under tv&#229;ngsf&#246;rvaltning men
+f&#246;rh&#229;llandena &#228;r s&#229;dana att en tillfredsst&#228;llande f&#246;rvaltning
+d&#228;rvid inte kan uppn&#229;s, f&#229;r kommunen l&#246;sa fastigheten.
+
+Talan om inl&#246;sen ska v&#228;ckas vid mark- och milj&#246;domstolen. I
+fr&#229;ga om inl&#246;sen g&#228;ller i &#246;vrigt expropriationslagen (1972:719)
+i till&#228;mpliga delar, dock med undantag f&#246;r 4 kap. 1 &#167; andra
+stycket. Lag (2010:1000).
+
+&#214;vriga best&#228;mmelser
+
+29 &#167; En ans&#246;kan om ingripande i f&#246;rvaltningen f&#229;r g&#246;ras av 
+kommunen eller en organisation av hyresg&#228;ster.
+
+Sedan ett beslut om tv&#229;ngsf&#246;rvaltning har meddelats, ska en 
+fr&#229;ga som r&#246;r f&#246;rvaltningen tas upp till pr&#246;vning av 
+hyresn&#228;mnden, om s&#246;kanden, f&#246;rvaltaren eller fastighets&#228;garen 
+beg&#228;r det och om n&#229;got annat inte f&#246;ljer av en s&#228;rskild 
+best&#228;mmelse. N&#228;mnden f&#229;r ocks&#229; sj&#228;lvmant ta upp en fr&#229;ga som 
+r&#246;r f&#246;rvaltningen, om inte n&#229;got annat f&#246;ljer av en s&#228;rskild 
+best&#228;mmelse. Lag (2021:1099).
+
+30 &#167; En ans&#246;kan om ingripande i f&#246;rvaltningen kan riktas mot 
+den som senast har beviljats eller s&#246;kt lagfart, &#228;ven om denne 
+har &#246;verl&#229;tit fastigheten innan ans&#246;kan om ingripande i 
+f&#246;rvaltningen g&#246;rs.
+
+Om fastigheten &#246;verl&#229;ts efter att ans&#246;kan har gjorts eller om 
+det &#228;r fr&#229;ga om ett s&#229;dant fall som avses i f&#246;rsta stycket, 
+ska r&#228;tteg&#229;ngsbalkens best&#228;mmelser om verkan av att 
+tvistef&#246;rem&#229;let &#246;verl&#229;ts och om tredje mans deltagande i 
+r&#228;tteg&#229;ng till&#228;mpas.
+
+&#196;r tvist om &#228;gander&#228;tten antecknad i fastighetsregistrets 
+inskrivningsdel, kan en ans&#246;kan om ingripande i f&#246;rvaltningen 
+riktas mot den som innehar fastigheten med &#228;gander&#228;ttsanspr&#229;k.
+Lag (2021:1099).
+
+31 &#167; Hyresn&#228;mndens beslut om tv&#229;ngsf&#246;rvaltning l&#228;nder omedelbart till
+efterr&#228;ttelse. Hyresn&#228;mnden kan &#228;ven i fr&#229;ga om annat beslut enligt
+denna lag f&#246;rordna att det skall l&#228;nda till efterr&#228;ttelse genast.
+
+F&#246;religger s&#228;rskilda sk&#228;l, f&#229;r hyresn&#228;mnden besluta om
+tv&#229;ngsf&#246;rvaltning och utse f&#246;rvaltare f&#246;r tiden till dess slutligt
+beslut meddelas.
+
+32 &#167; Hyresn&#228;mnden ska sj&#228;lvmant ta upp en fr&#229;ga om p&#229;f&#246;ljd f&#246;r 
+fastighets&#228;gare som &#229;sidos&#228;tter en skyldighet enligt 6 &#167;, 16 &#167; 
+andra stycket eller 17 &#167;. F&#246;r b&#246;ter och vite g&#228;ller 9 kap. 8 
+och 9 &#167;&#167; r&#228;tteg&#229;ngsbalken i till&#228;mpliga delar.
+
+Om ett f&#246;rel&#228;ggande har f&#246;renats med vite enligt denna lag f&#229;r 
+vitet inte f&#246;rvandlas till f&#228;ngelse. Lag (2021:1099).
+
+33 &#167; I fr&#229;ga om f&#246;rfarandet vid hyresn&#228;mnden i &#228;renden enligt denna
+lag finns best&#228;mmelser i lagen (1973:188) om arrenden&#228;mnder och
+hyresn&#228;mnder.
+
+34 &#167; Hyresn&#228;mndens beslut enligt denna lag f&#229;r &#246;verklagas hos
+Svea hovr&#228;tt inom tre veckor fr&#229;n den dag beslutet meddelades.
+&#214;verklagandet skall ges in till hyresn&#228;mnden. Lag (1994:837).
+
+35 &#167; Bifalles fastighets&#228;garens talan i besv&#228;rsm&#229;l i vilket kommunen
+&#228;r motpart, kan kommunen &#229;l&#228;ggas att ers&#228;tta honom hans
+r&#228;tteg&#229;ngskostnad. Om han vinner besv&#228;rsm&#229;l i vilket organisation av
+hyresg&#228;ster &#228;r motpart, kan s&#229;dan ers&#228;ttning tillerk&#228;nnas honom att
+betalas av statsverket. I &#246;vrigt g&#228;ller i besv&#228;rsm&#229;l allm&#228;nna
+best&#228;mmelser om r&#228;tteg&#229;ngskostnad i till&#228;mpliga delar.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1986:1175
+
+Denna lag tr&#228;der i kraft den 1 januari 1987. I fr&#229;ga om beslut
+som har meddelats f&#246;re ikrafttr&#228;dandet g&#228;ller dock &#228;ldre
+f&#246;reskrifter.
+
+1997:488
+
+Denna lag tr&#228;der i kraft den 1 november 1997 och till&#228;mpas
+f&#246;rsta g&#229;ngen i fr&#229;ga om l&#246;n f&#246;r inkomst&#229;ret 1998.
+
+2010:25
+
+1. Denna lag tr&#228;der i kraft den 1 mars 2010.
+
+2. &#196;renden om s&#228;rskild f&#246;rvaltning som har inletts hos
+hyresn&#228;mnden f&#246;re ikrafttr&#228;dandet pr&#246;vas enligt 2 och 18 &#167;&#167; i
+sin &#228;ldre lydelse.
+
+2010:821
+
+1. Denna lag tr&#228;der i kraft den 1 augusti 2010.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r ers&#228;ttningen, om
+talan om inl&#246;sen har v&#228;ckts f&#246;re ikrafttr&#228;dandet. I ett
+s&#229;dant fall ska h&#228;nvisningarna till expropriationslagen
+(1972:719) avse den lagens lydelse vid utg&#229;ngen av juli 2010.
+
+2011:1307
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2012.
+
+2. Lagen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; arbetsgivaravgifter som
+avser redovisningsperioden januari 2012 och skatteavdrag som
+ska dras av fr&#229;n ers&#228;ttningar som betalas ut efter utg&#229;ngen av
+2011.
+
+2021:1099
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2022.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande om ett &#228;rende om 
+s&#228;rskild f&#246;rvaltning har inletts hos hyresn&#228;mnden f&#246;re 
+ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4021">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4023">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

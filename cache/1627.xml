@@ -1,0 +1,923 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-04-17" /> 
+ <meta id="rattsinfo-edited" content="2023-04-17 15:31:24" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1627</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1626">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1628">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2010:1932 ·
+                    <a href="/sfsr?bet=2010:1932">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Delgivningslag (2010:1932)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet D&#197;
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2010-12-16
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1536
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2011-04-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna lag g&#228;ller n&#228;r delgivning ska ske i m&#229;l eller &#228;rende
+hos domstol eller annan myndighet eller n&#228;r delgivning i annat
+fall ska ske enligt lag eller annan f&#246;rfattning.
+
+Om det i lag eller annan f&#246;rfattning finns en best&#228;mmelse som
+avviker fr&#229;n denna lag, g&#228;ller den best&#228;mmelsen.
+
+2 &#167; Delgivning inneb&#228;r att en handling skickas eller l&#228;mnas 
+till den eller de personer som har beh&#246;righet att ta emot 
+delgivningen eller att n&#229;got av de andra f&#246;rfaranden som anges 
+i denna lag anv&#228;nds.
+
+Den som ensam eller tillsammans med n&#229;gon &#228;r beh&#246;rig att ta 
+emot delgivning betecknas i denna lag som 
+delgivningsmottagare. Best&#228;mmelser om vilka som &#228;r 
+delgivningsmottagare finns i 11-15 &#167;&#167;.
+
+Delgivning enligt denna lag sker genom delgivningss&#228;tten
+
+- vanlig delgivning (16-18 &#167;&#167;),
+
+- muntlig delgivning (19-21 &#167;&#167;),
+
+- f&#246;renklad delgivning (22-26 &#167;&#167;),
+
+- s&#228;rskild delgivning med juridisk person (27-30 &#167;&#167;),
+
+- st&#228;mningsmannadelgivning (31-46 &#167;&#167;),
+
+- kung&#246;relsedelgivning (47-51 &#167;&#167;), och
+
+- tillg&#228;nglighetsdelgivning (52-54 &#167;&#167;).
+Lag (2022:1536).
+
+3 &#167; Delgivning med en person som vistas utomlands f&#229;r ske om
+den stat d&#228;r delgivning ska ske till&#229;ter det.
+
+Vid delgivning enligt f&#246;rsta stycket f&#229;r lagen p&#229; den
+utl&#228;ndska orten till&#228;mpas, om det inte skulle strida mot
+svenska allm&#228;nna r&#228;ttsprinciper.
+
+En kallelse av en m&#229;ls&#228;gande, ett vittne, en sakkunnig eller
+n&#229;gon som avses i 36 kap. 1 &#167; andra och tredje styckena
+r&#228;tteg&#229;ngsbalken, som ska delges utomlands, f&#229;r inte ske vid
+vite, om inte annat f&#246;ljer av lagen (1974:752) om nordisk
+vittnesplikt. Lag (2013:877).
+
+4 &#167; Delgivningss&#228;tt ska v&#228;ljas med utg&#229;ngspunkt fr&#229;n att det
+ska vara &#228;ndam&#229;lsenligt med h&#228;nsyn till handlingens inneh&#229;ll
+och omfattning och medf&#246;ra s&#229; lite kostnader och besv&#228;r som
+m&#246;jligt.
+
+Delgivning f&#229;r inte ske p&#229; ett s&#228;tt som &#228;r ol&#228;mpligt med h&#228;nsyn
+till omst&#228;ndigheterna i delgivnings&#228;rendet.
+
+4 a &#167; Inneh&#229;ller en ans&#246;kan om bist&#229;nd med delgivning i
+Sverige en beg&#228;ran om att ett visst f&#246;rfarande som avviker
+fr&#229;n denna lag ska anv&#228;ndas, f&#229;r det till&#228;mpas, om det inte
+skulle strida mot svenska allm&#228;nna r&#228;ttsprinciper.
+
+Vid bist&#229;nd med delgivning i Sverige f&#229;r delgivning av en
+handling som &#228;r skriven p&#229; eller &#246;versatt till ett annat
+spr&#229;k &#228;n svenska eller ett spr&#229;k som f&#246;ljer av en
+internationell &#246;verenskommelse som &#228;r bindande f&#246;r Sverige,
+endast ske med delgivningsmottagarens samtycke om det inte
+st&#229;r klart att han eller hon f&#246;rst&#229;r det andra spr&#229;ket.
+Lag (2013:877).
+
+5 &#167; Om en handling som en myndighet ska delge en person &#228;r
+omfattande eller det av annan anledning &#228;r ol&#228;mpligt att skicka
+eller l&#228;mna handlingen, f&#229;r myndigheten besluta att handlingen
+i st&#228;llet under viss tid ska h&#229;llas tillg&#228;nglig hos myndigheten
+eller p&#229; annan plats som myndigheten beslutar. Ett meddelande
+om beslutets inneh&#229;ll ska delges.
+
+F&#246;rsta stycket g&#228;ller inte delgivning av en handling som
+inleder ett f&#246;rfarande vid en domstol eller annan myndighet.
+F&#246;rsta stycket g&#228;ller dock bilagor till en s&#229;dan handling.
+
+6 &#167; Best&#228;mmelserna i denna lag om delgivning av en handling
+till&#228;mpas &#228;ven vid delgivning av annat &#228;n handling.
+
+Vem som ska se till att delgivning sker m.m.
+
+7 &#167; En myndighet som handl&#228;gger ett m&#229;l eller &#228;rende ska se
+till att  delgivning sker.
+
+8 &#167; Beg&#228;r en part eller n&#229;gon som har liknande st&#228;llning att
+sj&#228;lv f&#229; se till att delgivning sker och det inte &#228;r ol&#228;mpligt,
+f&#229;r myndigheten besluta om detta. Myndigheten ska i beslutet
+ange en viss tid inom vilken ett bevis om delgivning ska ges in
+till myndigheten. Har ett bevis om delgivning inte getts in
+inom f&#246;reskriven tid, ska myndigheten se till att delgivning
+sker.
+
+9 &#167; En person som ska se till att delgivning sker utan
+samband med ett m&#229;l eller &#228;rende f&#229;r v&#228;nda sig till en
+l&#228;nsstyrelse eller, om delgivningen ska utf&#246;ras utomlands,
+till L&#228;nsstyrelsen i Stockholms l&#228;n f&#246;r bist&#229;nd med
+delgivningen.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om f&#246;ruts&#228;ttningar f&#246;r
+bist&#229;nd med delgivning utomlands enligt f&#246;rsta stycket.
+
+L&#228;nsstyrelsen ska avvisa en framst&#228;llan om delgivning om
+f&#246;reskriven ans&#246;kningsavgift inte har betalats.
+Lag (2013:877).
+
+10 &#167; N&#228;r en person ska se till att delgivning sker enligt 8
+eller 9 &#167; f&#229;r endast vanlig delgivning och
+st&#228;mningsmannadelgivning anv&#228;ndas. N&#228;r l&#228;nsstyrelsen bist&#229;r
+enskild med delgivning enligt 9 &#167; f&#229;r dock delgivning &#228;ven ske
+genom s&#228;rskild delgivning med juridisk person och kung&#246;relse-
+delgivning.
+
+Delgivningsmottagare
+
+Delgivning med en fysisk person
+
+11 &#167; Vid delgivning med en fysisk person &#228;r han eller hon
+delgivningsmottagare.
+
+Har en fysisk person st&#228;llf&#246;retr&#228;dare som &#228;r beh&#246;rig att
+f&#246;retr&#228;da honom eller henne i saken, &#228;r i st&#228;llet
+st&#228;llf&#246;retr&#228;daren delgivningsmottagare. Om det finns sk&#228;l till
+det, &#228;r den fysiska personen och st&#228;llf&#246;retr&#228;daren tillsammans
+delgivningsmottagare.
+
+Delgivning med staten
+
+12 &#167; Vid delgivning med staten &#228;r en person som &#228;r beh&#246;rig att
+ta emot delgivning vid den myndighet som ska bevaka statens
+r&#228;tt i saken delgivningsmottagare.
+
+Om det inte av lag eller annan f&#246;rfattning framg&#229;r att en viss
+myndighet ska bevaka statens r&#228;tt i saken &#228;r justitiekanslern,
+eller n&#229;gon annan person som &#228;r beh&#246;rig att ta emot delgivning
+f&#246;r Justitiekanslerns r&#228;kning, delgivningsmottagare.
+
+Delgivning med annan juridisk person &#228;n staten
+
+13 &#167; Vid delgivning med annan juridisk person &#228;n staten &#228;r en
+person som har r&#228;tt att f&#246;retr&#228;da den juridiska personen
+delgivningsmottagare. Om flera &#228;r beh&#246;riga tillsammans, &#228;r var
+och en av dem delgivningsmottagare. En verkst&#228;llande direkt&#246;r i
+ett aktiebolag &#228;r alltid delgivningsmottagare.
+
+Har ett f&#246;rs&#246;k till delgivning med delgivningsmottagare enligt
+f&#246;rsta stycket misslyckats eller bed&#246;ms ett s&#229;dant
+delgivningsf&#246;rs&#246;k som utsiktsl&#246;st, &#228;r en suppleant f&#246;r en
+beh&#246;rig st&#228;llf&#246;retr&#228;dare, eller en vice   verkst&#228;llande
+direkt&#246;r i ett aktiebolag, delgivningsmottagare. Suppleanten
+eller vice verkst&#228;llande direkt&#246;ren ska se till att handlingen
+s&#229; snart det kan ske l&#228;mnas till n&#229;gon som har r&#228;tt att
+f&#246;retr&#228;da den juridiska personen.
+
+Delgivning med del&#228;gare i samf&#228;llighet m.m.
+
+14 &#167; Vid delgivning med del&#228;gare i en samf&#228;llighet eller med
+medlemmar i en sammanslutning &#228;r, om inte 13 &#167; &#228;r till&#228;mplig,
+&#228;ven ledamot av styrelsen eller annan som utsetts att f&#246;rvalta
+samf&#228;llighetens eller sammanslutningens angel&#228;genheter
+delgivningsmottagare. Finns varken styrelse eller f&#246;rvaltare,
+&#228;r n&#229;gon som har r&#228;tt att sammankalla dem som ska besluta i
+samf&#228;llighetens eller sammanslutningens angel&#228;genheter
+delgivningsmottagare.
+
+Har ett f&#246;rs&#246;k till delgivning enligt f&#246;rsta stycket
+misslyckats eller bed&#246;ms ett s&#229;dant delgivningsf&#246;rs&#246;k som
+utsiktsl&#246;st, &#228;r en suppleant f&#246;r en ledamot av styrelsen
+delgivningsmottagare. Suppleanten ska se till att   handlingen
+s&#229; snart det kan ske l&#228;mnas till n&#229;gon som har r&#228;tt att
+f&#246;retr&#228;da del&#228;garna eller medlemmarna eller underr&#228;tta dem som
+avses med delgivningen.
+
+Delgivning med den som har ett ombud
+
+15 &#167; Har den med vilken delgivning ska ske ett ombud som &#228;r
+beh&#246;rigt att ta emot handlingen &#228;r &#228;ven ombudet
+delgivningsmottagare. Finns ett s&#229;dant ombud och handlingen
+l&#228;mnas till en delgivningsmottagare enligt 11-14 &#167;&#167;, b&#246;r
+ombudet underr&#228;ttas om detta.
+
+F&#246;rsta stycket g&#228;ller inte om handlingen inneh&#229;ller ett
+f&#246;rel&#228;ggande f&#246;r den som ska delges att fullg&#246;ra n&#229;got
+personligen.
+
+Vanlig delgivning
+
+Hur vanlig delgivning g&#229;r till
+
+16 &#167; Vanlig delgivning sker genom att handlingen som ska delges
+skickas eller l&#228;mnas till delgivningsmottagaren.
+
+N&#228;r vanlig delgivning f&#229;r anv&#228;ndas
+
+17 &#167; Vanlig delgivning f&#229;r anv&#228;ndas vid all delgivning.
+
+Endast myndighet f&#229;r vid vanlig delgivning skicka handlingen p&#229;
+elektronisk v&#228;g.
+
+Delgivningstidpunkten
+
+18 &#167; Vanlig delgivning har skett n&#228;r den eller de som &#228;r
+delgivningsmottagare har tagit emot handlingen.
+
+Om en postf&#246;rs&#228;ndelse har h&#228;mtats av bud, ska handlingen anses
+ha kommit delgivningsmottagaren till handa n&#228;r f&#246;rs&#228;ndelsen
+h&#228;mtats av budet.
+
+Muntlig delgivning
+
+Hur muntlig delgivning g&#229;r till
+
+19 &#167; Muntlig delgivning sker genom att inneh&#229;llet i den
+handling som ska delges l&#228;ses upp f&#246;r delgivningsmottagaren.
+S&#229;dan delgivning f&#229;r &#228;ven avse en kallelse, ett f&#246;rel&#228;ggande
+eller ett annat beslut som &#228;nnu inte har f&#229;tt skriftlig form.
+
+Handlingen eller beslutet, sedan det har f&#229;tt skriftlig form,
+ska skickas eller l&#228;mnas till delgivningsmottagaren om det kan
+ske och inte bed&#246;ms obeh&#246;vligt.
+
+N&#228;r muntlig delgivning f&#229;r anv&#228;ndas
+
+20 &#167; Muntlig delgivning f&#229;r anv&#228;ndas av en myndighet n&#228;r
+delgivning ska ske i ett m&#229;l eller &#228;rende.
+
+Muntlig delgivning f&#229;r inte anv&#228;ndas vid delgivning av en
+handling som inleder ett f&#246;rfarande.
+
+Delgivningstidpunkten
+
+21 &#167; Muntlig delgivning har skett n&#228;r inneh&#229;llet som avses i
+19 &#167; har l&#228;sts upp.
+
+F&#246;renklad delgivning
+
+Hur f&#246;renklad delgivning g&#229;r till
+
+22 &#167; F&#246;renklad delgivning sker genom att handlingen som ska 
+delges skickas till delgivningsmottagaren och att det n&#228;rmast 
+f&#246;ljande arbetsdag skickas ett kontrollmeddelande om att 
+handlingen har skickats.
+
+Ett kontrollmeddelande beh&#246;ver inte skickas om handlingen 
+skickas p&#229; elektronisk v&#228;g. Lag (2022:1536).
+
+23 &#167; Vid f&#246;renklad delgivning ska handlingen och 
+kontrollmeddelandet, om ett s&#229;dant skickas, skickas till 
+delgivningsmottagarens senast k&#228;nda adress.
+
+Om delgivningsmottagarens senast k&#228;nda adress inte kan 
+anv&#228;ndas f&#229;r handlingen och kontrollmeddelandet skickas till 
+delgivningsmottagarens folkbokf&#246;ringsadress om en s&#229;dan adress 
+finns och skiljer sig fr&#229;n den som anv&#228;nts n&#228;r handlingen 
+skickades enligt f&#246;rsta stycket. Lag (2022:1536).
+
+N&#228;r f&#246;renklad delgivning f&#229;r anv&#228;ndas
+
+24 &#167; F&#246;renklad delgivning f&#229;r anv&#228;ndas av en myndighet vid
+delgivning med den som &#228;r part eller har liknande st&#228;llning i
+ett m&#229;l eller &#228;rende, om denne har f&#229;tt information av
+myndigheten om att delgivningss&#228;ttet kan komma att anv&#228;ndas i
+m&#229;let eller &#228;rendet.
+
+F&#246;renklad delgivning f&#229;r inte anv&#228;ndas vid delgivning av en
+handling som inleder ett f&#246;rfarande.
+
+25 &#167; Information enligt 24 &#167; f&#246;rsta stycket ska delges genom
+vanlig delgivning, muntlig delgivning, s&#228;rskild delgivning med
+juridisk person eller st&#228;mningsmannadelgivning enligt 32 eller
+38 &#167;.
+
+Delgivning enligt f&#246;rsta stycket beh&#246;ver inte ske n&#228;r n&#229;gon har
+gett in en handling i m&#229;let eller &#228;rendet och informationen
+till denne l&#228;mnas i n&#228;ra anslutning till att handlingen har
+kommit in till myndigheten.
+
+Delgivningstidpunkten
+
+26 &#167; F&#246;renklad delgivning har skett n&#228;r tv&#229; veckor har 
+f&#246;rflutit fr&#229;n det att handlingen skickades, om 
+kontrollmeddelandet, n&#228;r ett s&#229;dant skickas, har skickats p&#229; 
+f&#246;reskrivet s&#228;tt och det inte med h&#228;nsyn till omst&#228;ndigheterna 
+framst&#229;r som osannolikt att handlingen kommit fram inom denna 
+tid. Lag (2022:1536).
+
+S&#228;rskild delgivning med juridisk person
+
+Hur s&#228;rskild delgivning med juridisk person g&#229;r till
+
+27 &#167; S&#228;rskild delgivning med juridisk person sker genom att
+handlingen som ska delges skickas till den juridiska personen
+och att det n&#228;rmast  f&#246;ljande arbetsdag skickas ett
+kontrollmeddelande om att handlingen har skickats.
+
+28 &#167; Vid s&#228;rskild delgivning med juridisk person ska handlingen
+och kontrollmeddelandet skickas till den postadress som &#228;r
+registrerad f&#246;r den juridiska personen i ett s&#229;dant register
+som anges i 29 &#167;.
+
+N&#228;r s&#228;rskild delgivning med juridisk person f&#229;r anv&#228;ndas
+
+29 &#167; S&#228;rskild delgivning med juridisk person f&#229;r anv&#228;ndas av 
+en myndighet om ett f&#246;rs&#246;k till vanlig delgivning eller 
+f&#246;renklad delgivning har misslyckats i samma delgivnings&#228;rende 
+eller ett s&#229;dant delgivningsf&#246;rs&#246;k bed&#246;ms som utsiktsl&#246;st vid 
+delgivning med 
+
+1. aktiebolag som &#228;r registrerade i aktiebolagsregistret, 
+
+2. ekonomiska f&#246;reningar, bostadsr&#228;ttsf&#246;reningar, kooperativa 
+hyresr&#228;ttsf&#246;reningar och sambruksf&#246;reningar som &#228;r 
+registrerade i f&#246;reningsregistret, 
+
+3. handelsbolag, kommanditbolag, ideella f&#246;reningar och 
+registrerade trossamfund som &#228;r registrerade i 
+handelsregistret, 
+
+4. bankaktiebolag, sparbanker och medlemsbanker som &#228;r 
+registrerade i bankregistret, 
+
+5. f&#246;rs&#228;kringsaktiebolag, &#246;msesidiga f&#246;rs&#228;kringsbolag, 
+f&#246;rs&#228;kringsf&#246;reningar, tj&#228;nstepensionsaktiebolag, &#246;msesidiga 
+tj&#228;nstepensionsbolag och tj&#228;nstepensionsf&#246;reningar som &#228;r 
+registrerade i f&#246;rs&#228;kringsregistret, 
+
+6. europabolag som &#228;r registrerade i europabolagsregistret, 
+och 
+
+7. europakooperativ som &#228;r registrerade i 
+europakooperativsregistret.
+Lag (2020:399).
+
+Delgivningstidpunkten
+
+30 &#167; S&#228;rskild delgivning med juridisk person har skett n&#228;r tv&#229;
+veckor har f&#246;rflutit fr&#229;n det att handlingen skickades, om
+kontrollmeddelandet har skickats p&#229; f&#246;reskrivet s&#228;tt och det
+inte med h&#228;nsyn till omst&#228;ndigheterna framst&#229;r som osannolikt
+att handlingen kommit fram inom denna tid.
+
+St&#228;mningsmannadelgivning
+
+Hur st&#228;mningsmannadelgivning g&#229;r till
+
+31 &#167; St&#228;mningsmannadelgivning sker genom att en person som
+enligt 40 &#167; har beh&#246;righet att utf&#246;ra s&#229;dan delgivning l&#228;mnar
+handlingen som ska delges p&#229; n&#229;got av de s&#228;tt som anges i 32-38
+&#167;&#167; och dokumenterar &#229;tg&#228;rden.
+
+St&#228;mningsmannadelgivning n&#228;r delgivningsmottagaren p&#229;tr&#228;ffas
+
+32 &#167; Vid st&#228;mningsmannadelgivning ska handlingen l&#228;mnas till
+delgivningsmottagaren om han eller hon p&#229;tr&#228;ffas.
+
+V&#228;grar delgivningsmottagaren att ta emot handlingen ska den
+l&#228;mnas kvar p&#229; platsen, om det inte &#228;r ol&#228;mpligt med h&#228;nsyn
+till omst&#228;ndigheterna.
+
+33 &#167; Om den handling som ska delges inte finns tillg&#228;nglig n&#228;r
+en delgivningsmottagare p&#229;tr&#228;ffas, f&#229;r vid
+st&#228;mningsmannadelgivning i st&#228;llet ett skriftligt meddelande
+med uppgifterna i handlingen delges.
+
+Handlingen ska skickas eller l&#228;mnas till delgivningsmottagaren
+om det kan ske och inte bed&#246;ms obeh&#246;vligt.
+
+St&#228;mningsmannadelgivning genom att handlingen l&#228;mnas till en
+annan person &#228;n delgivningsmottagaren
+
+34 &#167; Vid st&#228;mningsmannadelgivning f&#229;r handlingen i fall som
+anges i 35 och 36 &#167;&#167; l&#228;mnas till en annan person &#228;n den som &#228;r
+delgivningsmottagare. Handlingen f&#229;r l&#228;mnas endast till en
+person som samtycker till det och som inte &#228;r motpart i samma
+m&#229;l eller &#228;rende till den som ska delges.
+
+En underr&#228;ttelse om att delgivning enligt f&#246;rsta stycket har
+skett och vem handlingen har l&#228;mnats till ska skickas till
+delgivningsmottagaren.
+
+35 &#167; Om delgivningsmottagaren har k&#228;nt hemvist i Sverige men
+inte p&#229;tr&#228;ffas d&#228;r, f&#229;r handlingen l&#228;mnas till en vuxen medlem
+av det hush&#229;ll som delgivningsmottagaren tillh&#246;r och som
+p&#229;tr&#228;ffas i eller i omedelbar anslutning till hemvistet.
+
+36 &#167; Om delgivningsmottagaren inte p&#229;tr&#228;ffas p&#229; sin arbetsplats
+under sin vanliga arbetstid, f&#229;r handlingen l&#228;mnas till hans
+eller hennes arbetsgivare. Med arbetsgivare avses en person i
+f&#246;retagsledande eller d&#228;rmed j&#228;mf&#246;rlig st&#228;llning eller chefen
+f&#246;r den personaladministrativa verksamheten p&#229;
+delgivningsmottagarens arbetsplats.
+
+37 &#167; Den som har mottagit handlingen enligt 35 eller 36 &#167; ska
+se till att handlingen l&#228;mnas till delgivningsmottagaren s&#229;
+snart det kan ske. Den som utf&#246;r delgivningen ska informera om
+denna skyldighet n&#228;r handlingen l&#228;mnas.
+
+St&#228;mningsmannadelgivning genom att handlingen l&#228;mnas i eller i
+anslutning till delgivningsmottagarens hemvist
+
+38 &#167; Vid st&#228;mningsmannadelgivning f&#229;r handlingen l&#228;mnas i
+delgivningsmottagarens hemvist eller p&#229; l&#228;mplig plats i
+anslutning till hans eller hennes hemvist, om
+
+1. delgivningsmottagaren inte p&#229;tr&#228;ffas d&#228;r,
+
+2. handlingen inte kan l&#228;mnas enligt 34-36 &#167;&#167;,
+
+3. det inte kan klarl&#228;ggas var delgivningsmottagaren uppeh&#229;ller
+sig, och
+
+4. det med beaktande av vad som har framkommit i det aktuella
+delgivnings&#228;rendet eller vid andra delgivningsf&#246;rs&#246;k med
+delgivningsmottagaren finns anledning att anta att han eller
+hon har avvikit eller p&#229; annat s&#228;tt h&#229;ller sig undan.
+
+Delgivningstidpunkten
+
+39 &#167; St&#228;mningsmannadelgivning enligt 32, 33 eller 38 &#167; har
+skett n&#228;r handlingen eller det skriftliga meddelandet har
+l&#228;mnats p&#229; f&#246;reskrivet s&#228;tt eller n&#228;r delgivningsmottagaren har
+v&#228;grat ta emot handlingen eller meddelandet.
+
+St&#228;mningsmannadelgivning enligt 34-37 &#167;&#167; har skett n&#228;r
+handlingen har l&#228;mnats och underr&#228;ttelsen har skickats.
+
+Vem som f&#229;r utf&#246;ra st&#228;mningsmannadelgivning
+
+40 &#167; St&#228;mningsmannadelgivning f&#229;r utf&#246;ras av st&#228;mningsman
+eller av den som &#228;r anst&#228;lld vid
+
+– Polismyndigheten,
+
+– S&#228;kerhetspolisen,
+
+– &#229;klagarmyndighet,
+
+– allm&#228;n domstol,
+
+– allm&#228;n f&#246;rvaltningsdomstol,
+
+– Kronofogdemyndigheten,
+
+– Skatteverket,
+
+– svensk utlandsmyndighet, och
+
+– auktoriserat delgivningsf&#246;retag.
+
+St&#228;mningsmannadelgivning f&#229;r utf&#246;ras av personal vid
+respektive inr&#228;ttning om delgivningsmottagaren &#228;r intagen i
+
+– kriminalv&#229;rdsanstalt,
+
+– h&#228;kte,
+
+– s&#229;dan unders&#246;kningsenhet som avses i 5 &#167; lagen (1991:1137)
+om r&#228;ttspsykiatrisk unders&#246;kning,
+
+– s&#229;dan v&#229;rdinr&#228;ttning som avses i 6 &#167; f&#246;rsta stycket lagen
+(1991:1129) om r&#228;ttspsykiatrisk v&#229;rd,
+
+– s&#229;dan sjukv&#229;rdsinr&#228;ttning som avses i 15 &#167; f&#246;rsta stycket
+lagen (1991:1128) om psykiatrisk tv&#229;ngsv&#229;rd,
+
+– s&#229;dant hem som avses i 12 &#167; lagen (1990:52) med s&#228;rskilda
+best&#228;mmelser om v&#229;rd av unga, eller
+
+– s&#229;dant hem som avses i 22 &#167; lagen (1988:870) om v&#229;rd av
+missbrukare i vissa fall. Lag (2014:647).
+
+F&#246;rordnande av st&#228;mningsm&#228;n
+
+41 &#167; Polismyndigheten f&#246;rordnar st&#228;mningsm&#228;n.
+Lag (2014:647).
+
+Polismyndighetens r&#228;tt att &#246;ppna postf&#246;rs&#228;ndelse
+
+42 &#167; Polismyndigheten f&#229;r &#246;ppna en f&#246;rs&#228;ndelse som har
+l&#228;mnats till myndigheten f&#246;r st&#228;mningsmannadelgivning, om det
+beh&#246;vs f&#246;r att inneh&#229;llet ska kunna vidarebefordras inom
+myndigheten f&#246;r delgivning. Detta g&#228;ller dock inte om
+uppdragsgivaren har angett att f&#246;rs&#228;ndelsen inte f&#229;r
+&#246;ppnas. Lag (2014:647).
+
+Upplysningsskyldighet
+
+43 &#167; En fastighets&#228;gare, tomtr&#228;ttshavare, arrendator eller
+innehavare av bostadsl&#228;genhet ska p&#229; beg&#228;ran av den som utf&#246;r
+st&#228;mningsmannadelgivning uppge om delgivningsmottagaren &#228;r
+bosatt p&#229; fastigheten eller i l&#228;genheten eller annars
+disponerar utrymme d&#228;r.
+
+44 &#167; En arbetsgivare &#228;r skyldig att p&#229; beg&#228;ran av den som utf&#246;r
+st&#228;mningsmannadelgivning uppge om delgivningsmottagaren &#228;r
+anst&#228;lld hos honom eller henne och, om s&#229; &#228;r fallet, upplysa om
+delgivningsmottagarens arbetstider, arbetsplats och om andra
+f&#246;rh&#229;llanden som r&#246;r anst&#228;llningen och som kan underl&#228;tta
+delgivningen.
+
+45 &#167; Upplysningsskyldighet enligt 43 och 44 &#167;&#167; g&#228;ller inte den
+som st&#229;r i s&#229;dant f&#246;rh&#229;llande till delgivningsmottagaren som
+anges i 36 kap. 3 &#167; r&#228;tteg&#229;ngsbalken.
+
+Tilltr&#228;de till enskilt omr&#229;de som inte utg&#246;r bostad
+
+46 &#167; St&#228;mningsman och den som &#228;r anst&#228;lld vid
+Polismyndigheten, S&#228;kerhetspolisen, &#229;klagarmyndighet, allm&#228;n
+domstol, allm&#228;n f&#246;rvaltningsdomstol, Kronofogdemyndigheten,
+Skatteverket och auktoriserat delgivningsf&#246;retag har r&#228;tt att
+f&#229; tilltr&#228;de till enskilt omr&#229;de som inte utg&#246;r bostad f&#246;r
+att verkst&#228;lla st&#228;mningsmannadelgivning.
+
+En polisman som v&#228;gras s&#229;dant tilltr&#228;de f&#229;r, efter beslut av
+Polismyndigheten respektive S&#228;kerhetspolisen, sj&#228;lv bereda
+sig tilltr&#228;de. Om n&#229;gon annan person som anges i f&#246;rsta
+stycket v&#228;gras tilltr&#228;de, ska Polismyndigheten l&#228;mna bitr&#228;de
+om personen beg&#228;r det. Lag (2014:647).
+
+Kung&#246;relsedelgivning
+
+Hur kung&#246;relsedelgivning g&#229;r till
+
+47 &#167; Kung&#246;relsedelgivning sker genom att myndigheten beslutar
+att den handling som ska delges h&#229;lls tillg&#228;nglig viss tid hos
+myndigheten eller p&#229; annan plats och ett meddelande om detta
+och om handlingens huvudsakliga inneh&#229;ll inom tio dagar fr&#229;n
+beslutet kung&#246;rs och i vissa fall ges till k&#228;nna p&#229; annat s&#228;tt
+i enlighet med vad som n&#228;rmare anges i 48-50 &#167;&#167;.
+
+Kung&#246;relsedelgivning n&#228;r delgivningsmottagaren saknar k&#228;nt
+hemvist eller undandrar sig delgivning
+
+48 &#167; Kung&#246;relsedelgivning f&#229;r ske
+
+1. om delgivningsmottagaren saknar k&#228;nt hemvist och det inte
+kan klarl&#228;ggas var han eller hon uppeh&#229;ller sig,
+
+2. om f&#246;ruts&#228;ttningarna f&#246;r st&#228;mningsmannadelgivning enligt
+38 &#167; &#228;r uppfyllda, eller
+
+3. om f&#246;ruts&#228;ttningarna f&#246;r f&#246;renklad delgivning &#228;r uppfyllda
+men s&#229;dan adress som anges i 23 &#167; saknas.
+
+Ett meddelande som avses i 47 &#167; ska f&#246;ras in i Post- och
+Inrikes Tidningar och, om det finns sk&#228;l till det, i
+ortstidning. Om kung&#246;relsedelgivning enligt f&#246;rsta stycket har
+skett och d&#228;refter ny delgivning ska ske i samma m&#229;l eller
+&#228;rende, f&#229;r meddelandet i st&#228;llet ansl&#229;s i myndighetens lokal.
+
+Kung&#246;relsedelgivning n&#228;r en obest&#228;md krets eller ett stort
+antal personer ska delges
+
+49 &#167; Kung&#246;relsedelgivning f&#229;r ske
+
+1. om en obest&#228;md krets ska delges,
+
+2. om ett stort antal personer ska delges och det med h&#228;nsyn
+till &#228;ndam&#229;let med delgivningen inte &#228;r rimligt att delgivning
+sker med var och en av dem, eller
+
+3. om del&#228;gare i samf&#228;llighet eller medlemmar i sammanslutning
+ska delges, det inte finns n&#229;gon som &#228;r delgivningsmottagare
+f&#246;r dem enligt 14 &#167; f&#246;rsta stycket och del&#228;garna eller
+medlemmarna &#228;r fler &#228;n tio.
+
+Ett meddelande som avses i 47 &#167; ska f&#246;ras in i Post- och
+Inrikes Tidningar och, om det finns sk&#228;l till det, i
+ortstidning. Om delgivningen i ett s&#229;dant fall som avses i
+f&#246;rsta stycket 2 avser personer som hyr eller annars innehar
+l&#228;genheter i samma fastighet ska meddelandet dessutom ansl&#229;s
+inom fastigheten p&#229; l&#228;mpligt s&#228;tt.
+
+Ett meddelande om delgivningen ska skickas till n&#229;gon eller
+n&#229;gra av dem som delgivningen avser f&#246;r att vara tillg&#228;ngligt
+f&#246;r alla dem som avses med delgivningen. Ing&#229;r en statlig
+myndighet eller en kommun bland dem som avses med delgivningen,
+ska meddelandet alltid skickas till myndigheten eller kommunen.
+
+Kung&#246;relsedelgivning n&#228;r en juridisk person inte har fullgjort
+sin registreringsplikt
+
+50 &#167; Kung&#246;relsedelgivning f&#229;r ske
+
+1. om en juridisk person som anges i 29 &#167; saknar en registrerad
+post-adress som kan anv&#228;ndas f&#246;r s&#228;rskild delgivning med
+juridisk person, eller
+
+2. om en juridisk person i strid mot g&#228;llande best&#228;mmelser
+saknar registrerad beh&#246;rig f&#246;retr&#228;dare och n&#229;gon i Sverige
+bosatt person inte har utsetts att p&#229; den juridiska personens
+v&#228;gnar ta emot delgivning samt f&#246;rs&#246;k till delgivning med andra
+till&#228;mpliga delgivningss&#228;tt har misslyckats eller s&#229;dana f&#246;rs&#246;k
+bed&#246;ms som utsiktsl&#246;sa.
+
+Ett meddelande som avses i 47 &#167; ska f&#246;ras in i Post- och
+Inrikes Tidningar.
+
+Om den juridiska personen har en registrerad postadress ska i
+ett s&#229;dant fall som avses i f&#246;rsta stycket 2 ett meddelande om
+delgivningen skickas till denna adress.
+
+Delgivningstidpunkten
+
+51 &#167; Kung&#246;relsedelgivning har skett n&#228;r tv&#229; veckor har
+f&#246;rflutit fr&#229;n beslutet om kung&#246;relsedelgivning, om kung&#246;rande
+och &#246;vriga f&#246;reskrivna &#229;tg&#228;rder har skett i r&#228;tt tid.
+
+Tillg&#228;nglighetsdelgivning
+
+Hur tillg&#228;nglighetsdelgivning g&#229;r till
+
+52 &#167; Tillg&#228;nglighetsdelgivning sker genom att handlingen som 
+ska delges h&#229;lls tillg&#228;nglig hos en myndighet antingen 
+omedelbart eller fr&#229;n och med en i f&#246;rv&#228;g best&#228;md tidpunkt.
+Lag (2022:1536).
+
+N&#228;r tillg&#228;nglighetsdelgivning f&#229;r anv&#228;ndas
+
+53 &#167; Tillg&#228;nglighetsdelgivning f&#229;r anv&#228;ndas av en myndighet i 
+de fall som s&#228;rskilt anges i lag, om delgivningsmottagaren vid 
+ett personligt sammantr&#228;ffande eller genom ljud- och 
+bild&#246;verf&#246;ring har delgetts information om att s&#229;dan 
+delgivning kan komma att anv&#228;ndas samt information om fr&#229;n 
+vilken tidpunkt och p&#229; vilken plats handlingen kommer att 
+h&#229;llas tillg&#228;nglig. Lag (2022:1536).
+
+Delgivningstidpunkten
+
+54 &#167; Tillg&#228;nglighetsdelgivning har skett n&#228;r handlingen har 
+gjorts tillg&#228;nglig vid den tidpunkt och p&#229; den plats som 
+delgivningsmottagaren har delgetts information om. Om 
+handlingen h&#229;lls tillg&#228;nglig omedelbart har 
+tillg&#228;nglighetsdelgivning skett den tredje arbetsdagen efter 
+det att delgivningsmottagaren har delgetts information om att 
+tillg&#228;nglighetsdelgivning kan komma att anv&#228;ndas.
+Lag (2022:1536).
+
+&#214;verklagande
+
+55 &#167; L&#228;nsstyrelsens beslut i delgivningsfr&#229;gor enligt 9 och
+10 &#167;&#167; och om avvisning enligt 9 &#167; f&#229;r &#246;verklagas hos allm&#228;n
+f&#246;rvaltningsdomstol. Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande
+till kammarr&#228;tt. Lag (2022:1536).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2010:1932
+
+1. Denna lag tr&#228;der i kraft den 1 april 2011, d&#229;
+delgivningslagen (1970:428) upph&#246;r att g&#228;lla.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller om ett beslut om delgivning enligt
+15-17 &#167;&#167; delgivningslagen (1970:428) har fattats f&#246;re den 1
+april 2011 eller om en handling har skickats eller l&#228;mnats f&#246;re
+denna tidpunkt.
+
+2022:1536
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2023.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r 
+delgivningsmottagare som har delgetts information om f&#246;renklad 
+delgivning f&#246;re ikrafttr&#228;dandet.
+
+3. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r 
+delgivningsmottagare som har delgetts information om 
+tillg&#228;nglighetsdelgivning f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1626">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1628">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

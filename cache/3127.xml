@@ -1,0 +1,641 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-20" /> 
+ <meta id="rattsinfo-edited" content="2023-01-20 13:33:21" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3127</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3126">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3128">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1995:1000 ·
+                    <a href="/sfsr?bet=1995:1000">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Pantbankslag (1995:1000)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSN
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1995-06-29
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2017:636
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1996-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; I denna lag avses med
+
+pantbank: ett f&#246;retag som bedriver pantbanksverksamhet,
+
+pantbanksverksamhet: en n&#228;ringsverksamhet med &#228;ndam&#229;l att l&#228;mna
+krediter &#229;t konsumenter mot pantr&#228;tt huvudsakligen i l&#246;s&#246;re,
+
+pantsedel: ett s&#228;rskilt bevis om pants&#228;ttningen som pantbanken
+l&#228;mnar till l&#229;ntagaren,
+
+pantbok: ett l&#246;pande register &#246;ver alla pants&#228;ttningar i en
+pantbank.
+
+2 &#167; Avtalsvillkor som i j&#228;mf&#246;relse med best&#228;mmelserna i denna lag &#228;r
+till nackdel f&#246;r l&#229;ntagaren &#228;r utan verkan mot denne, om inte annat
+anges i lagen.
+
+2 a &#167; Regeringen meddelar f&#246;reskrifter om vilka l&#228;nsstyrelser
+som ansvarar f&#246;r uppgifter enligt denna lag. Lag (2012:86).
+
+Tillst&#229;ndsplikt
+
+3 &#167; Pantbanksverksamhet f&#229;r drivas bara efter tillst&#229;nd av
+l&#228;nsstyrelsen. Tillst&#229;nd ges tills vidare.
+
+Tillst&#229;nd kan ges till svenska aktiebolag och motsvarande utl&#228;ndska
+f&#246;retag inom Europeiska ekonomiska samarbetsomr&#229;det. F&#246;r ett
+utl&#228;ndskt f&#246;retag, som inte &#228;r verksamt genom ett svenskt aktiebolag,
+skall tillst&#229;ndet avse verksamhet genom filial enligt lagen
+(1992:160) om utl&#228;ndska filialer m. m.
+
+4 &#167; Tillst&#229;nd ska ges om f&#246;retaget med h&#228;nsyn till 
+organisation, ledning och &#228;gare med best&#228;mmande inflytande 
+kan antas komma att bedriva en sund pantbanksverksamhet och i 
+&#246;vrigt uppfylla kraven enligt best&#228;mmelserna i denna lag, 
+lagen (2017:630) om &#229;tg&#228;rder mot penningtv&#228;tt och 
+finansiering av terrorism och f&#246;reskrifter som har meddelats 
+med st&#246;d av den lagen.
+
+Tillst&#229;nd till ett utl&#228;ndskt f&#246;retag f&#229;r ges endast om 
+f&#246;retaget i det land d&#228;r det har sitt s&#228;te bedriver 
+pantbanksverksamhet och st&#229;r under tillsyn av beh&#246;rig 
+myndighet. Lag (2017:636).
+
+5 &#167; Fr&#229;gan om tillst&#229;nd pr&#246;vas av l&#228;nsstyrelsen. Om 
+l&#228;nsstyrelsen meddelar tillst&#229;nd ska den l&#228;nsstyrelse som 
+avses i 24 a &#167; underr&#228;ttas om beslutet.
+
+Innan en pantbank &#246;ppnar ett nytt kontor, ska anm&#228;lan g&#246;ras 
+till l&#228;nsstyrelsen. Lag (2017:636).
+
+Sundhetskrav och f&#246;rbud mot annan verksamhet
+
+6 &#167; Pantbanksverksamhet skall bedrivas s&#229; att allm&#228;nhetens
+f&#246;rtroende f&#246;r verksamheten uppr&#228;tth&#229;lls och i &#246;vrigt s&#229; att
+verksamheten kan anses sund.
+
+En pantbank f&#229;r inte bedriva n&#229;gon annan verksamhet vid sidan av
+pantbanksverksamhet &#228;n som anges i 20 &#167;.
+
+Tystnadsplikt
+
+7 &#167; Uppgifter om enskildas personliga eller ekonomiska
+f&#246;rh&#229;llanden som har l&#228;mnats till en pantbank f&#229;r inte
+obeh&#246;rigen r&#246;jas.
+
+I det allm&#228;nnas verksamhet till&#228;mpas i st&#228;llet best&#228;mmelserna
+i offentlighets- och sekretesslagen (2009:400).
+
+Den som bryter mot f&#246;rbudet i f&#246;rsta stycket ska inte d&#246;mas
+till ansvar enligt 20 kap. 3 &#167; brottsbalken. Lag (2009:463).
+
+Grunder f&#246;r l&#229;ngivning
+
+8 &#167; Panten skall vara den enda s&#228;kerheten f&#246;r l&#229;net. L&#229;ntagaren blir
+inte personligen betalningsansvarig f&#246;r l&#229;net.
+
+9 &#167; R&#228;nta som tas ut f&#246;r l&#229;net skall anges som en r&#228;ntesats
+motsvarande r&#228;ntekostnaden per &#229;r f&#246;r den vid varje tid obetalda
+delen av skulden.
+
+R&#228;ntesatsen f&#229;r inte &#228;ndras till l&#229;ntagarens nackdel under
+l&#229;netiden.
+
+10 &#167; En pantbank f&#229;r f&#246;rutom r&#228;nta ta ut ers&#228;ttning f&#246;r l&#229;net, om
+s&#229;dan ers&#228;ttning motsvaras av kostnader f&#246;r l&#229;net.
+
+Ers&#228;ttningsbeloppet f&#229;r inte &#228;ndras till l&#229;ntagarens nackdel under
+l&#229;netiden.
+
+11 &#167; L&#229;ntagaren har r&#228;tt att l&#246;sa panten i f&#246;rtid. R&#228;nta och andra
+kostnader skall d&#229; betalas f&#246;r tiden fram till f&#246;rtidsbetalningen men
+inte f&#246;r tiden d&#228;refter. D&#228;rvid f&#229;r dock pantbanken beg&#228;ra att varje
+p&#229;b&#246;rjad m&#229;nad fr&#229;n dagen f&#246;r l&#229;net r&#228;knas som hel m&#229;nad.
+
+Pantbanken f&#229;r inte tillgodor&#228;kna sig n&#229;gon ers&#228;ttning f&#246;r att
+skulden betalas i f&#246;rtid.
+
+12 &#167; L&#229;netiden f&#229;r inte &#246;verstiga ett &#229;r.
+
+Om pantbankens fordran inte betalas n&#228;r den f&#246;rfaller till
+betalning, f&#229;r pantbanken s&#228;lja panten enligt 16--20 &#167;&#167;.
+
+Pantbanken har r&#228;tt till dr&#246;jsm&#229;lsr&#228;nta under h&#246;gst fyra m&#229;nader
+fr&#229;n f&#246;rfallodagen.
+
+Pantsedel
+
+13 &#167; Pantbanken skall l&#228;mna l&#229;ntagaren en pantsedel som bevis om
+pants&#228;ttningen. Pantsedeln skall inneh&#229;lla uppgift om
+
+1. det nummer under vilket l&#229;net har f&#246;rts in i pantboken,
+
+2. dagen f&#246;r pants&#228;ttningen och l&#229;nets f&#246;rfallodag,
+
+3. l&#229;nebeloppet och r&#228;nta enligt 9 &#167;,
+
+4. ers&#228;ttning enligt 10 &#167; och &#246;vriga villkor f&#246;r l&#229;net samt
+
+5. beskrivning av panten.
+
+R&#228;nta enligt 9 &#167; och ers&#228;ttning enligt 10 &#167; skall anges med belopp.
+
+&#197;ldersgr&#228;ns och legitimation m.m.
+
+14 &#167; En pantbank f&#229;r ta emot pant bara av den som har fyllt arton
+&#229;r. L&#229;ntagaren skall vara k&#228;nd f&#246;r pantbankens personal eller p&#229; ett
+tillf&#246;rlitligt s&#228;tt styrka sin identitet. Detsamma g&#228;ller n&#228;r panten
+skall l&#246;sas.
+
+Pantbanken skall vid pants&#228;ttningen beg&#228;ra uppgift om den adress d&#228;r
+l&#229;ntagaren kan n&#229;s f&#246;r underr&#228;ttelser. Skyldighet enligt 19 &#167; att
+underr&#228;tta l&#229;ntagaren eller annan skall anses fullgjord, om
+underr&#228;ttelsen har s&#228;nts i rekommenderat brev under den adress som
+har uppgetts eller som annars &#228;r k&#228;nd f&#246;r pantbanken.
+
+F&#246;rs&#228;kring
+
+15 &#167; En pantbank skall f&#246;r mottagna panter ha egendoms- och
+ansvarsf&#246;rs&#228;kring till betryggande belopp.
+
+Pantf&#246;rs&#228;ljning
+
+16 &#167; Panten f&#229;r s&#228;ljas f&#246;rst tv&#229; m&#229;nader efter l&#229;nets f&#246;rfallodag,
+om inte l&#229;ntagaren eller den som f&#246;rv&#228;rvat r&#228;tten till panten medger
+att det sker tidigare.
+
+17 &#167; F&#246;rs&#228;ljning skall ske p&#229; offentlig auktion p&#229; den ort d&#228;r
+pants&#228;ttningen &#228;gt rum, om inte l&#229;ntagaren eller den som
+f&#246;rv&#228;rvat r&#228;tten till panten medger att f&#246;rs&#228;ljning sker p&#229;
+annan ort.
+
+Om panten utg&#246;rs av finansiella instrument som &#228;r upptagna till
+handel p&#229; en reglerad marknad eller en motsvarande marknad
+utanf&#246;r Europeiska ekonomiska samarbetsomr&#229;det, skall
+f&#246;rs&#228;ljningen dock ske genom ett v&#228;rdepappersinstitut och till
+g&#228;llande marknadspris. Lag (2007:540).
+
+18 &#167; En f&#246;rs&#228;ljning p&#229; offentlig auktion skall kung&#246;ras i en tidning
+inom orten minst &#229;tta dagar i f&#246;rv&#228;g. I kung&#246;relsen skall anges
+l&#229;nets f&#246;rfallom&#229;nad.
+
+L&#229;ntagaren eller den som f&#246;rv&#228;rvat r&#228;tten till panten skall i god
+tid f&#246;re auktionen p&#229; l&#228;mpligt s&#228;tt s&#228;rskilt underr&#228;ttas om tid och
+plats f&#246;r denna.
+
+19 &#167; &#214;verskott vid en pantf&#246;rs&#228;ljning tillfaller l&#229;ntagaren eller
+den som f&#246;rv&#228;rvat r&#228;tten till panten.
+
+Om &#246;verskottet uppg&#229;r till h&#246;gst 100 kronor, har l&#229;ntagaren eller
+den som f&#246;rv&#228;rvat r&#228;tten till panten r&#228;tt att p&#229; beg&#228;ran f&#229; beloppet
+utbetalat p&#229; pantbanken. Om beloppet &#246;verstiger 100 kronor, skall
+pantbanken snarast underr&#228;tta honom om att ett s&#229;dant &#246;verskott har
+uppkommit. Pantbanken kan i st&#228;llet direkt utbetala beloppet till
+honom p&#229; l&#228;mpligt s&#228;tt.
+
+&#214;verskott som inte har kunnat betalas ut inom ett &#229;r fr&#229;n
+f&#246;rs&#228;ljningsdagen tillfaller pantbanken.
+
+20 &#167; En pantbank f&#229;r vid f&#246;rs&#228;ljning p&#229; offentlig auktion sj&#228;lv k&#246;pa
+panten. S&#229;dan pant f&#229;r pantbanken i sin verksamhet s&#228;lja &#246;ver disk.
+
+Pantbok
+
+21 &#167; En pantbank skall f&#246;ra pantbok.
+
+Regeringen f&#229;r f&#246;reskriva vilka uppgifter som skall antecknas i
+pantboken.
+
+22 &#167; Uppgift i pantboken skall bevaras under fem &#229;r r&#228;knat fr&#229;n
+utg&#229;ngen av det kalender&#229;r d&#229; uppgiften f&#246;rdes in eller under den
+l&#228;ngre tid som f&#246;r vissa uppgifter g&#228;ller enligt annan f&#246;rfattning.
+
+&#196;garpr&#246;vning
+
+23 &#167; Ett direkt eller indirekt f&#246;rv&#228;rv av aktier i en 
+pantbank som medf&#246;r att innehavet utg&#246;r ett kvalificerat 
+innehav f&#229;r ske bara efter tillst&#229;nd av l&#228;nsstyrelsen.
+
+Tillst&#229;nd ska l&#228;mnas, om det inte kan antas att f&#246;rv&#228;rvet 
+kommer att motverka en sund utveckling av f&#246;retagets 
+verksamhet.
+
+Med ett kvalificerat innehav avses i denna lag detsamma som i 
+1 kap. 5 &#167; 15 lagen (2004:297) om bank- och 
+finansieringsr&#246;relse. Lag (2017:636).
+
+Tillsyn
+
+24 &#167; En pantbank st&#229;r under tillsyn av l&#228;nsstyrelsen.
+Lag (2012:86).
+
+24 a &#167; Regeringen kan med st&#246;d av 8 kap. 7 &#167; regeringsformen 
+meddela f&#246;reskrifter om vilka l&#228;nsstyrelser som ut&#246;var 
+tillsyn &#246;ver att pantbanker f&#246;ljer lagen (2017:630) om 
+&#229;tg&#228;rder mot penningtv&#228;tt och finansiering av terrorism och 
+f&#246;reskrifter som har meddelats med st&#246;d av den lagen.
+
+Vid tillsyn enligt f&#246;rsta stycket ska 7 kap. 5 &#167; den lagen 
+till&#228;mpas. Lag (2017:636).
+
+25 &#167; L&#228;nsstyrelsen skall vid sin tillsyn &#246;ver pantbankerna se till
+att en sund utveckling av verksamheten fr&#228;mjas.
+
+25 a &#167; Den som i v&#228;sentlig utstr&#228;ckning har &#229;sidosatt 
+skyldigheter i n&#228;ringsverksamhet eller som har gjort sig 
+skyldig till allvarlig brottslighet f&#229;r inte &#228;gna sig &#229;t 
+pantbanksverksamhet. Detta f&#246;rbud g&#228;ller den som har ett 
+kvalificerat innehav av andelar i pantbanken eller ing&#229;r i 
+dess ledning. Lag (2017:636).
+
+26 &#167; En pantbank skall l&#228;mna l&#228;nsstyrelsen de upplysningar om sin
+verksamhet och d&#228;rmed sammanh&#228;ngande omst&#228;ndigheter som l&#228;nsstyrelsen
+beg&#228;r.
+
+L&#228;nsstyrelsen f&#229;r genomf&#246;ra unders&#246;kning hos en pantbank n&#228;r
+l&#228;nsstyrelsen anser det n&#246;dv&#228;ndigt.
+
+26 a &#167; N&#228;r en pantbank f&#229;r k&#228;nnedom om att f&#246;r&#228;ndringar har 
+skett i den krets som har ett kvalificerat innehav i 
+f&#246;retaget eller ing&#229;r i dess ledning, ska pantbanken anm&#228;la 
+f&#246;r&#228;ndringen till l&#228;nsstyrelsen. Lag (2017:636).
+
+Polismyndighetens kontroll
+
+27 &#167; En pantbank &#228;r skyldig att p&#229; beg&#228;ran l&#228;mna ut
+uppgifter ur pantboken till Polismyndigheten. En s&#229;dan
+beg&#228;ran f&#229;r avse viss systematisk rapportering till
+myndigheten.
+
+Pantbanken ska ocks&#229; l&#228;mna Polismyndigheten tilltr&#228;de till
+pantbankens lokaler f&#246;r unders&#246;kning av pantlagret och
+granskning av pantboken och de handlingar som ligger till
+grund f&#246;r den. Lag (2014:728).
+
+27 a &#167; Om n&#229;gon omfattas av ett f&#246;rbud enligt 25 a &#167;, f&#229;r 
+l&#228;nsstyrelsen f&#246;rel&#228;gga pantbanken att g&#246;ra r&#228;ttelse och, om 
+r&#228;ttelse inte g&#246;rs, f&#246;rel&#228;gga pantbanken att upph&#246;ra med 
+verksamheten. Om det &#228;r den som har ett kvalificerat innehav 
+av andelar i pantbanken som inte uppfyller kravet i 25 a &#167;, 
+f&#229;r l&#228;nsstyrelsen f&#246;rel&#228;gga denne att avyttra s&#229; stor del av 
+aktierna eller andelarna att innehavet d&#228;refter inte &#228;r 
+kvalificerat eller, om innehavaren &#228;r en juridisk person, att 
+byta ut den diskvalificerade personen i dess ledning.
+
+Vid ingripanden mot &#246;vertr&#228;delser av lagen (2017:630) om 
+&#229;tg&#228;rder mot penningtv&#228;tt och finansiering av terrorism och 
+f&#246;reskrifter som meddelats med st&#246;d av den lagen ska 7 kap. 8 
+och 10–23 &#167;&#167; den lagen till&#228;mpas. Lag (2017:636).
+
+Ingripanden
+
+28 &#167; Ett tillst&#229;nd att bedriva pantbanksverksamhet ska 
+&#229;terkallas av l&#228;nsstyrelsen om
+
+1. f&#246;retaget inom ett &#229;r efter tillst&#229;ndsbeslutet inte har 
+b&#246;rjat driva verksamheten eller dessf&#246;rinnan har f&#246;rklarat 
+sig avst&#229; fr&#229;n tillst&#229;ndet,
+
+2. f&#246;retaget under en sammanh&#228;ngande tid av ett &#229;r inte har 
+drivit n&#229;gon verksamhet, 
+
+3. f&#246;retaget genom att &#246;vertr&#228;da best&#228;mmelser i denna lag 
+eller n&#229;gon annan f&#246;rfattning eller p&#229; n&#229;got annat s&#228;tt visat 
+sig inte uppfylla kravet p&#229; en sund pantbanksverksamhet, 
+eller
+
+4. den l&#228;nsstyrelse som avses i 24 a &#167; har f&#246;relagt f&#246;retaget 
+att upph&#246;ra med verksamheten och detta beslut har f&#229;tt laga 
+kraft. 
+
+Den l&#228;nsstyrelse som avses i 24 a &#167; ska underr&#228;tta den 
+tillst&#229;ndsgivande l&#228;nsstyrelsen n&#228;r ett beslut att f&#246;rel&#228;gga 
+f&#246;retaget att upph&#246;ra med sin verksamhet har fattats och n&#228;r 
+beslutet har f&#229;tt laga kraft. Lag (2017:636).
+
+29 &#167; Om det &#228;r tillr&#228;ckligt f&#229;r l&#228;nsstyrelsen i det fall som avses i
+28 &#167; 3 i st&#228;llet f&#246;r att &#229;terkalla tillst&#229;ndet meddela varning.
+
+30 &#167; Om n&#229;gon bedriver pantbanksverksamhet utan tillst&#229;nd, skall
+l&#228;nsstyrelsen f&#246;rel&#228;gga honom att upph&#246;ra med verksamheten.
+
+&#196;r det os&#228;kert om viss verksamhet utg&#246;r pantbanksverksamhet, f&#229;r
+l&#228;nsstyrelsen f&#246;rel&#228;gga den som bedriver verksamheten att l&#228;mna de
+upplysningar som beh&#246;vs f&#246;r att bed&#246;ma fr&#229;gan.
+
+31 &#167; Om l&#228;nsstyrelsen &#229;terkallar ett tillst&#229;nd enligt 28 &#167; 
+f&#246;rsta stycket 3 eller 4, f&#229;r l&#228;nsstyrelsen besluta hur 
+verksamheten ska avvecklas.
+
+L&#228;nsstyrelsen f&#229;r ocks&#229; besluta hur en olovlig 
+pantbanksverksamhet ska avvecklas. Lag (2017:636).
+
+Vite
+
+32 &#167; Om l&#228;nsstyrelsen meddelar f&#246;rel&#228;ggande eller f&#246;rbud enligt
+denna lag, f&#229;r l&#228;nsstyrelsen f&#246;rel&#228;gga vite.
+
+Avgifter
+
+33 &#167; Pantbanker som &#228;r verksamma i Sverige skall till l&#228;nsstyrelsen
+betala avgifter f&#246;r finansiering av l&#228;nsstyrelsens verksamhet enligt
+denna lag.
+
+Regeringen f&#229;r meddela n&#228;rmare f&#246;reskrifter om dessa avgifter.
+
+&#214;verklagande m.m.
+
+34 &#167; Polismyndighetens beslut om att en pantbank ska l&#228;mna
+uppgifter enligt 27 &#167; f&#229;r &#246;verklagas till allm&#228;n
+f&#246;rvaltningsdomstol. Polismyndighetens beslut g&#228;ller
+omedelbart, om inte annat best&#228;mts. Polismyndighetens &#246;vriga
+beslut enligt denna lag f&#229;r inte &#246;verklagas.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2015:439).
+
+35 &#167; L&#228;nsstyrelsens beslut enligt 30 &#167; andra stycket eller 
+enligt 7 kap. 5 &#167; f&#246;rsta stycket lagen (2017:630) om &#229;tg&#228;rder 
+mot penningtv&#228;tt och finansiering av terrorism eller beslut 
+om sanktionsf&#246;rel&#228;ggande f&#229;r inte &#246;verklagas.
+
+Andra beslut som l&#228;nsstyrelsen meddelar enligt denna lag f&#229;r 
+&#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. 
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till 
+kammarr&#228;tten. Lag (2017:636).
+
+36 &#167; L&#228;nsstyrelsen f&#229;r best&#228;mma att ett beslut om f&#246;rbud,
+f&#246;rel&#228;ggande eller &#229;terkallelse enligt denna lag skall g&#228;lla
+omedelbart.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1995:1000
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1996, d&#229; lagen (1949:722)
+om pantl&#229;ner&#246;relse skall upph&#246;ra att g&#228;lla.
+
+2. F&#246;r pantbanksverksamhet som vid den nya lagens ikrafttr&#228;dande
+drivs med st&#246;d av tillst&#229;nd enligt &#228;ldre best&#228;mmelser g&#228;ller
+f&#246;ljande.
+
+a) F&#246;r fortsatt verksamhet kr&#228;vs tillst&#229;nd enligt den nya lagen.
+R&#246;relsen f&#229;r dock drivas vidare med st&#246;d av &#228;ldre best&#228;mmelser intill
+utg&#229;ngen av &#229;r 1996 eller, om ans&#246;kan om tillst&#229;nd enligt den nya
+lagen har getts in dessf&#246;rinnan, till dess ans&#246;kningen har pr&#246;vats
+slutligt.
+
+b) Verksamhet som drivs i annan form &#228;n som kr&#228;vs enligt 3 &#167; andra
+stycket f&#229;r drivas vidare i denna form intill utg&#229;ngen av &#229;r 1997.
+
+3. I fr&#229;ga om &#246;verklagande av beslut som l&#228;nsstyrelsen eller
+polismyndigheten har meddelat f&#246;re ikrafttr&#228;dandet skall &#228;ldre
+best&#228;mmelser till&#228;mpas.
+
+2015:439
+
+1. Denna lag tr&#228;der i kraft den 1 augusti
+2015.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller f&#246;r &#246;verklagande av beslut som
+har meddelats f&#246;re ikrafttr&#228;dandet.
+
+2017:636
+
+1. Denna lag tr&#228;der i kraft den 1 augusti 2017.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r &#246;vertr&#228;delser som intr&#228;ffat 
+f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3126">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3128">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

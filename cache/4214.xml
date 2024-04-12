@@ -1,0 +1,588 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2020-07-13" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4214</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4213">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4215">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1971:1037 ·
+                    <a href="/sfsr?bet=1971:1037">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1971:1037) om &#228;gander&#228;ttsutredning och legalisering</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1971-12-17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2020:365
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">&#196;gander&#228;ttsutredning
+
+1 &#167; En &#228;gander&#228;ttsutredning enligt denna lag f&#229;r genomf&#246;ras i 
+fr&#229;ga om ett omr&#229;de d&#228;r &#228;gander&#228;tten till fast egendom &#228;r 
+oviss, om det fr&#229;n allm&#228;n och enskild synpunkt &#228;r av v&#228;sentlig 
+betydelse att ovissheten undanr&#246;js och &#229;tg&#228;rder f&#246;r detta 
+l&#228;mpligen b&#246;r vidtas i ett sammanhang. En s&#229;dan utredning f&#229;r 
+&#228;ven genomf&#246;ras i fr&#229;ga om ett omr&#229;de d&#228;r fastighets&#228;garna i 
+betydande omfattning saknar lagfart. En &#228;gander&#228;ttsutredning 
+f&#229;r ocks&#229; genomf&#246;ras i fr&#229;ga om en enstaka fastighet, om den 
+som g&#246;r anspr&#229;k p&#229; fastigheten inte kan f&#229; lagfart p&#229; grund av 
+oklarhet om eller brist i f&#246;reg&#229;ende &#228;gares &#229;tkomst.
+
+Ett beslut om &#228;gander&#228;ttsutredning meddelas av l&#228;nsstyrelsen. 
+Om det uppkommer en fr&#229;ga om utredning enligt f&#246;rsta stycket 
+tredje meningen i en p&#229;g&#229;ende fastighetsbildningsf&#246;rr&#228;ttning 
+meddelas i st&#228;llet ett s&#229;dant beslut av lantm&#228;terimyndigheten. 
+Innan ett beslut enligt detta stycke meddelas, ska den 
+beslutande myndigheten samr&#229;da med inskrivningsmyndigheten och 
+&#246;vriga myndigheter som det kan vara av betydelse att h&#246;ra.
+
+Om det framkommer skilda uppfattningar vid ett samr&#229;d enligt 
+andra stycket eller om &#228;rendet av n&#229;gon annan anledning &#228;r 
+sv&#229;rbed&#246;mt, ska det &#246;verl&#228;mnas till den statliga 
+lantm&#228;terimyndigheten f&#246;r avg&#246;rande. Lag (2020:365).
+
+2 &#167; En &#228;gander&#228;ttsutredning g&#246;rs vid en f&#246;rr&#228;ttning som
+handl&#228;ggs av lantm&#228;terimyndigheten.
+
+Om &#228;gander&#228;ttsutredningen &#228;r av betydelse f&#246;r en annan
+f&#246;rr&#228;ttning som handl&#228;ggs av lantm&#228;terimyndigheten, f&#229;r
+myndigheten handl&#228;gga &#228;gander&#228;ttsutredningen och den andra
+f&#246;rr&#228;ttningen gemensamt.
+
+I fr&#229;ga om &#228;gander&#228;ttsutredningen till&#228;mpas 4 kap. 1–7, 8 e,
+12 och 13 &#167;&#167;, 14 &#167; f&#246;rsta och fj&#228;rde styckena, 16–23, 28 och
+29 &#167;&#167;, 30 &#167; f&#246;rsta stycket samt 31 och 33–40 &#167;&#167;
+fastighetsbildningslagen (1970:988).
+
+Lantm&#228;terimyndigheten ska underr&#228;tta den eller de kommunala
+n&#228;mnder som fullg&#246;r uppgifter inom plan- och byggnadsv&#228;sendet
+om tid och plats f&#246;r sammantr&#228;den, om en s&#229;dan n&#228;mnd kan
+antas ha ett intresse i &#228;rendet. Lag (2014:1343).
+
+3 &#167; Lantm&#228;terimyndigheten f&#229;r bryta ut del av
+f&#246;rr&#228;ttningsomr&#229;det till behandling vid s&#228;rskild f&#246;rr&#228;ttning.
+Lag (1995:1401).
+
+4 &#167; Vid f&#246;rr&#228;ttningen skall &#228;gander&#228;tten till samt
+inskrivningsf&#246;rh&#229;llandena i den egendom som omfattas av f&#246;rr&#228;ttningen
+utredas. Lantm&#228;terimyndigheten skall skaffa utdrag ur
+fastighetsregistret r&#246;rande f&#246;rr&#228;ttningsomr&#229;det samt uppr&#228;tta
+sammanst&#228;llning &#246;ver lagfarts- och andra inskrivningsf&#246;rh&#229;llanden.
+Lag (1995:1401).
+
+5 &#167; Lantm&#228;terimyndigheten skall utf&#228;rda kung&#246;relse om tid och
+st&#228;lle f&#246;r f&#246;rsta sammantr&#228;det. Kung&#246;relsen skall h&#229;llas tillg&#228;nglig hos
+kommunstyrelsen minst fjorton dagar f&#246;re sammantr&#228;det. Meddelande om
+kung&#246;relsens tillhandah&#229;llande och om dess huvudsakliga inneh&#229;ll skall
+inf&#246;ras i Post- och Inrikes Tidningar och ortstidning.
+
+Kung&#246;relse om och kallelser till f&#246;rsta sammantr&#228;det skall inneh&#229;lla
+uppgifter om det omr&#229;de som ber&#246;res av f&#246;rr&#228;ttningen och om vad
+sak&#228;garna b&#246;r iakttaga f&#246;r att bevaka sin r&#228;tt samt upplysning om
+inneh&#229;llet i 10, 12 och 30 &#167;&#167;. Lag (1995:1401).
+
+6 &#167; Vid f&#246;rsta sammantr&#228;det skall lantm&#228;terimyndigheten
+redog&#246;ra f&#246;r f&#246;rr&#228;ttningens omfattning och &#228;ndam&#229;l samt bereda sak&#228;garna
+tillf&#228;lle att taga del av de i 4 &#167; angivna handlingarna.
+
+Sak&#228;garna skall f&#246;rel&#228;ggas att inom viss tid, minst en m&#229;nad, hos
+lantm&#228;terimyndigheten muntligen eller skriftligen anm&#228;la sina
+anspr&#229;k p&#229; &#228;gander&#228;tt samt f&#246;rete s&#229;dana handlingar och meddela s&#229;dana
+upplysningar ang&#229;ende h&#228;vd och annat, som kan vara av betydelse f&#246;r
+&#228;gander&#228;ttsutredningen. F&#246;rel&#228;ggandet skall efter sammantr&#228;det snarast
+m&#246;jligt h&#229;llas tillg&#228;ngligt p&#229; l&#228;mplig plats inom orten. Lag (1995:1400).
+
+7 &#167; Lantm&#228;terimyndigheten skall tillse att inneb&#246;rden av
+anm&#228;lda anspr&#229;k blir klarlagd samt uppr&#228;tta sammanst&#228;llning &#246;ver
+anspr&#229;ken och vad som i &#246;vrigt &#228;r av betydelse f&#246;r
+&#228;gander&#228;ttsutredningen.
+
+H&#228;refter skall nytt sammantr&#228;de h&#229;llas. Sak&#228;garna skall d&#228;rvid f&#229;
+tillf&#228;lle att taga del av sammanst&#228;llningen. I den m&#229;n of&#246;renliga
+anspr&#229;k anm&#228;lts eller f&#246;rh&#229;llandena annars ger anledning till det, skall
+lantm&#228;terimyndigheten redog&#246;ra f&#246;r utredningen i &#228;rendet.
+Sak&#228;garna skall d&#228;rj&#228;mte f&#229; tillf&#228;lle att slutf&#246;ra sin talan.
+Lag (1995:1401).
+
+8 &#167; Med alla k&#228;nda sak&#228;gares medgivande f&#229;r
+lantm&#228;terimyndigheten underl&#229;ta att meddela f&#246;rel&#228;ggande enligt
+6 &#167; andra stycket samt fullg&#246;ra vad som f&#246;reskrives i 7 &#167; redan vid
+f&#246;rsta sammantr&#228;det. Lag (1995:1401).
+
+9 &#167; Sedan beh&#246;vliga sammantr&#228;den h&#229;llits, skall
+lantm&#228;terimyndigheten pr&#246;va vem som b&#246;r anses vara &#228;gare till
+varje s&#228;rskild fastighet eller till mark inom fastighet eller inom
+samf&#228;llighet enligt fastighetsbildningslagen (1970:988) samt uppr&#228;tta
+f&#246;rteckning i enlighet h&#228;rmed (&#228;gander&#228;ttsf&#246;rteckning). F&#246;rv&#228;rv vartill
+fordras tillst&#229;nd av myndighet f&#229;r ej beaktas f&#246;rr&#228;n tillst&#229;nd
+erh&#229;llits.
+
+Har fastighet delats genom s&#228;mjedelning, areal&#246;verl&#229;telse eller annan
+privat jorddelning, som &#228;r giltig och ej &#228;r beroende av
+fastighetsbildning, skall varje del upptagas som s&#228;rskild &#228;golott i
+&#228;gander&#228;ttsf&#246;rteckningen. Detsamma g&#228;ller, om samf&#228;llighet som avses i
+f&#246;rsta stycket avskilts eller delats genom jorddelning som nu sagts och,
+s&#229;vitt det skett genom areal&#246;verl&#229;telse, hinder mot avstyckning icke
+skulle f&#246;religga enligt 10 kap. 2 &#167; andra stycket
+fastighetsbildningslagen (1970:988).
+
+Andra stycket g&#228;ller ej s&#228;mjedelning, som har omfattat flera
+fastigheter, och s&#228;mje&#228;goutbyte, om fastighetsbildning i
+&#246;verensst&#228;mmelse med den privata jorddelningen medf&#246;r skada f&#246;r
+innehavare av fordran eller annan r&#228;ttighet som besv&#228;rar fastighet eller
+del av fastighet. Lag (1995:1401.
+
+10 &#167; Har &#228;golott upptagits i &#228;gander&#228;ttsf&#246;rteckning enligt 9 &#167; andra
+stycket, har detta verkan som fastighetsbildningsbeslut.
+
+11 &#167; Om inskrivning beviljats eller s&#246;kts i del av &#228;golott, f&#229;r
+lantm&#228;terimyndigheten med medgivande av &#228;golottens &#228;gare
+f&#246;rordna att med &#228;gander&#228;ttsutredningen skall f&#246;lja samma verkan som om
+n&#228;mnda del och &#229;terstoden av &#228;golotten utgjort fastigheter, vilka
+sammanlagts med varandra. Besv&#228;ras mer &#228;n en av delarna av beviljad
+eller s&#246;kt inskrivning, &#228;ger 12 kap. 5 och 6 &#167;&#167; fastighetsbildningslagen
+(1970:988) motsvarande till&#228;mpning.
+
+Innan f&#246;rordnande enligt f&#246;rsta stycket meddelas, skall yttrande
+inh&#228;mtas fr&#229;n inskrivningsmyndigheten. Yttrandet, som skall avges
+snarast m&#246;jligt, skall grundas p&#229; fastighetsregistrets inskrivningsdel
+och vad som annars &#228;r k&#228;nt f&#246;r myndigheten. I yttrandet skall anges om
+hinder mot f&#246;rordnande m&#246;ter enligt f&#246;rsta stycket andra punkten. I
+&#246;vrigt &#228;ger 12 kap. 10 &#167; andra stycket och 11 &#167; fastighetsbildningslagen
+(1970:988) motsvarande till&#228;mpning.
+
+Meddelas f&#246;rordnande enligt f&#246;rsta stycket p&#229; grundval av
+f&#246;retr&#228;desordning, skall denna i samband d&#228;rmed fastst&#228;llas.
+Lag (2000:237).
+
+12 &#167; Kan l&#228;mpligare fastighetsindelning vinnas genom att &#228;golotter som
+upptagits i &#228;gander&#228;ttsf&#246;rteckningen sammanl&#228;gges till en fastighet, f&#229;r
+lantm&#228;terimyndigheten utan ans&#246;kan upptaga fr&#229;ga d&#228;rom vid
+f&#246;rr&#228;ttningen. 3 kap. 11 &#167;, 12 kap. 1-3 &#167;&#167;, 4 &#167; andra stycket och 5-7 &#167;&#167;
+fastighetsbildningslagen (1970:988) &#228;ger motsvarande till&#228;mpning i fr&#229;ga
+om s&#229;dan sammanl&#228;ggning.
+
+Sammanl&#228;ggning f&#229;r ej ske, om &#228;garen bestrider &#229;tg&#228;rder och den kan
+antagas orsaka honom ol&#228;genhet av n&#229;gon betydelse. Lag (1995:1401).
+
+13 &#167; Har f&#246;rr&#228;ttningsomr&#229;de delats upp enligt 3 &#167;, f&#229;r sammanl&#228;ggning
+avse &#228;ven &#228;glott som behandlats vid tidigare avslutad delf&#246;rr&#228;ttning.
+
+14 &#167; Vid f&#246;rr&#228;ttningen skall lantm&#228;terimyndigheten h&#246;ra
+sak&#228;garna &#246;ver fr&#229;gan om sammanl&#228;ggning och d&#228;rvid redog&#246;ra f&#246;r
+inneb&#246;rden och verkan av s&#229;dan &#229;tg&#228;rd. Lag (1995:1401).
+
+15 &#167; Innan beslut om sammanl&#228;ggning meddelas, skall
+lantm&#228;terimyndigheten inh&#228;mta yttrande fr&#229;n
+inskrivningsmyndigheten. D&#228;rvid &#228;ger 12 kap. 10 och 11 &#167;&#167;
+fastighetsbildningslagen (1970:988) motsvarande till&#228;mpning.
+Inskrivningsmyndigheten skall dock ej beakta vilkor som anges i 12 kap.
+4 &#167; f&#246;rsta stycket n&#228;mnda lag. Lag (1995:1401).
+
+16 &#167; M&#246;ter ej hinder mot sammanl&#228;ggning, skall fastighetsbildningsbeslut
+meddelas. Om sammanl&#228;ggningen genomf&#246;res p&#229; grundval av
+f&#246;retr&#228;desordning, fastst&#228;lles denna i fastighetsbildningsbeslutet.
+
+Legalisering
+
+17 &#167; Privat jorddelning f&#229;r under de f&#246;ruts&#228;ttningar som anges i 9 &#167;
+andra och tredje styckena genom s&#228;rskilt beslut erk&#228;nnas som
+fastighetsbildning i den ordning som anges i 18-24 &#167;&#167; (legalisering).
+
+18 &#167; Fr&#229;ga om legalisering pr&#246;vas p&#229; ans&#246;kan av den som &#228;ger del i den
+ber&#246;rda fasta egendomen.
+
+&#196;r det av betydelse f&#246;r p&#229;g&#229;ende fastighetsbildningsf&#246;rr&#228;ttning att
+legalisering sker, fordras ej ans&#246;kan. I s&#229;dant fall f&#229;r fr&#229;gorna om
+legalisering och fastighetsbildning handl&#228;ggas gemensamt vid en
+f&#246;rr&#228;ttning.
+
+Om det &#228;r av st&#246;rre betydelse fr&#229;n allm&#228;n synpunkt att delningar inom
+visst omr&#229;de legaliseras, f&#229;r l&#228;nsstyrelsen f&#246;rordna att fr&#229;ga om
+legalisering skall pr&#246;vas utan ans&#246;kan.
+
+19 &#167; Best&#228;mmelserna i 2 &#167; f&#246;rsta stycket och 3 &#167; denna lag
+samt 4 kap. 1-10, 12-14, 15 &#167; f&#246;rsta och andra styckena, 16-23,
+28 och 29 &#167;&#167;, 30 &#167; f&#246;rsta stycket och 31-40 &#167;&#167;
+fastighetsbildningslagen (1970:988) till&#228;mpas ocks&#229; i fr&#229;ga om
+legalisering.
+
+Handl&#228;ggs en f&#246;rr&#228;ttning utan sammantr&#228;de, skall
+lantm&#228;terimyndigheten underr&#228;tta en s&#229;dan n&#228;mnd som avses i 2 &#167;
+fj&#228;rde stycket om f&#246;rr&#228;ttningen innan denna avslutas, om
+n&#228;mnden kan antas ha ett intresse i &#228;rendet. Om sammantr&#228;de
+h&#229;lls, g&#228;ller 2 &#167; fj&#228;rde stycket. Lag (2004:394).
+
+20 &#167; Lantm&#228;terimyndigheten skall i beh&#246;vlig omfattning utreda
+&#228;gander&#228;tts- och inskrivningsf&#246;rh&#229;llandena i egendomen.
+Lag (1995:1401).
+
+21 &#167; &#196;gander&#228;tten till egendom som ing&#229;tt i delningen oviss eller saknar
+&#228;gare av s&#229;dan egendom lagfart, f&#229;r lantm&#228;teri myndigheten
+besluta att fr&#229;gan om &#228;gander&#228;tten skall utredas vid f&#246;rr&#228;ttningen.
+Lag (1995:1401).
+
+22 &#167; I fall som avses i 21 &#167; &#228;ger 4-8 &#167;&#167; samt 9 &#167; f&#246;rsta och andra
+styckena motsvarande till&#228;mpning.
+
+23 &#167; F&#246;religger ej hinder mot legalisering, skall beslut om legalisering
+meddelas.
+
+24 &#167; Best&#228;mmelserna i 11-16 &#167;&#167; &#228;ger motsvarande till&#228;mpning p&#229;
+legaliseringsf&#246;rr&#228;ttning. I fr&#229;ga om sammanl&#228;ggning &#228;ger &#228;ven 12 kap. 4
+&#167; f&#246;rsta stycket fastighetsbildningslagen (1970:988) motsvarande
+till&#228;mpning, i den m&#229;n ej utredning skett enligt 21 &#167;.
+
+Gemensamma best&#228;mmelser
+
+25 &#167; Om fastighetsbildning enligt denna lag avser areal&#246;verl&#229;telse, &#228;ger
+betr&#228;ffande inteckning 6 kap. 11 &#167; andra och tredje styckena och 16 &#167;
+andra stycket jordabalken samt 10 kap. 2 &#167; andra och tredje styckena
+fastighetsbildningslagen (1970:988) motsvarande till&#228;mpning. I fr&#229;ga om
+fordran som utan inskrivning &#228;r f&#246;renad med r&#228;tt till betalning ur
+fastighet &#228;ger vid s&#229;dan fastighetsbildning 10 kap. 9 &#167;
+fastighetsbildningslagen motsvarande till&#228;mpning.
+
+G&#228;ller fordran, som utan inskrivning &#228;r f&#246;renad med r&#228;tt till betalning
+ur fastighet, i del av &#228;golott, omfattar fordringen efter
+fastighetsbildning enligt denna lag hela den nybildade fastigheten.
+
+26 &#167; Om en f&#246;rr&#228;ttning som har p&#229;b&#246;rjats utan ans&#246;kan st&#228;lls 
+in, ska f&#246;rr&#228;ttningskostnaderna betalas av staten. I annat 
+fall ska kostnaderna f&#246;rdelas mellan sak&#228;garna efter vad som 
+&#228;r sk&#228;ligt. Best&#228;mmelserna i 2 kap. 6 &#167; tredje och fj&#228;rde 
+styckena och 7 &#167; fastighetsbildningslagen (1970:988) ska 
+till&#228;mpas p&#229; en f&#246;rr&#228;ttning enligt denna lag. 
+Lag (2020:365).
+
+26 a &#167; Ett beslut av en l&#228;nsstyrelse enligt denna lag f&#229;r 
+&#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. Detsamma g&#228;ller 
+den statliga lantm&#228;terimyndighetens beslut enligt 1 &#167;.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2020:365).
+
+27 &#167; I fr&#229;ga om talan mot beslut som avser &#228;gander&#228;ttsf&#246;rtecknings
+inneh&#229;ll eller annat beslut av lantm&#228;terimyndigheten samt
+ang&#229;ende f&#246;rfarandet i m&#229;l som fullf&#246;ljts &#228;ger 15-18 kap.
+fastighetsbildningslagen (1970:988) motsvarande till&#228;mpning.
+
+Besv&#228;r, vari klaganden yrkar att han i st&#228;llet f&#246;r annan skall i
+&#228;gander&#228;ttsf&#246;rteckning upptagas som &#228;gare till viss egendom, skall anses
+innefatta yrkande om b&#228;ttre r&#228;tt till egendomen.
+
+28 &#167; F&#246;rr&#228;ttning enligt denna lag inneb&#228;r ej att gr&#228;ns skall anses ha
+blivit lagligen best&#228;md.
+
+29 &#167; Har &#228;gander&#228;ttsf&#246;rteckning uppr&#228;ttats vid f&#246;rr&#228;ttning enligt denna
+lag, skall lantm&#228;terimyndigheten efter f&#246;rr&#228;ttningens
+avlsutande utan dr&#246;jsm&#229;l s&#228;nda ett exemplar av f&#246;rteckningen till
+inskrivningsmyndigheten. Lag (1995:1401).
+
+30 &#167; Lagfart ska beviljas f&#246;r var och en som i en 
+&#228;gander&#228;ttsf&#246;rteckning har tagits upp som &#228;gare till fast 
+egendom, om inte n&#229;got annat f&#246;ljer av 31 &#167;. Ny lagfart beh&#246;vs 
+dock inte f&#246;r den som redan har lagfart p&#229; samma egendom.
+
+Lagfart ska anses vara s&#246;kt p&#229; andra inskrivningsdagen efter 
+det att tiden f&#246;r fullf&#246;ljd av talan mot f&#246;rr&#228;ttningen har 
+g&#229;tt ut. Lag (2020:365).
+
+31 &#167; Lagfart f&#229;r ej beviljas p&#229; annan egendom &#228;n s&#229;dan som upptagits som
+s&#228;rskild fastighet i fastighetsregistret eller utg&#246;r kvotdel av dylik
+fastighet. M&#246;ter hinder enligt vad som nu sagts mot lagfart p&#229; del av
+fastighet, f&#229;r ej heller lagfart p&#229; &#229;terstoden beviljas.
+
+Lagfart f&#229;r ej beviljas, om r&#228;tteg&#229;ng p&#229;g&#229;r om h&#228;vning eller &#229;terg&#229;ng av
+f&#246;rv&#228;rv av egendomen eller om b&#228;ttre r&#228;tt till denna. Detsamma g&#228;ller om
+annan ans&#246;kan om lagfart p&#229; grund av f&#246;rv&#228;rv, som skett efter
+f&#246;rr&#228;ttningens avslutande, f&#246;ranleder att det i &#228;gander&#228;ttsf&#246;rteckningen
+angivne &#228;garens r&#228;tt skall anses tvistig.
+
+M&#246;ter hinder mot lagfart enligt f&#246;rsta eller andra stycket, skall
+&#228;rendet f&#246;rklaras vilande.
+
+32 &#167; Bevis om beviljad eller s&#246;kt lagfart skall ej meddelas i lag
+farts&#228;rende enligt denna lag.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1971:1037
+
+Denna lag tr&#228;der ikraft den 1 januari 1972.
+
+1. Genom lagen upph&#228;ves lagen (1962:270) om &#228;gander&#228;ttsutredning,
+lagfart och sammanl&#228;ggning av fastigheter i vissa fall samt
+legaliseringslagen (1968:578).
+
+2. P&#229;g&#229;r f&#246;rr&#228;ttning vid ikrafttr&#228;dandet, &#228;ger 4 &#167; lagen (1970:989) om
+inf&#246;rande av fastighetsbildningslagen motsvarande till&#228;mpning.
+
+3. Best&#228;mmelserna i 10 och 11 &#167;&#167; lagen (1970:989) om inf&#246;rande av
+fastighetsbildningslagen &#228;ger motsvarande till&#228;mpning p&#229; f&#246;rr&#228;ttning
+enligt den nya lagen.
+
+1977:665
+
+Denna lag tr&#228;der i kraft den 1 januari 1978.
+
+&#196;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om kung&#246;rande som har
+beslutats eller b&#246;rjat verkst&#228;llas f&#246;re ikrafttr&#228;dandet.
+
+1995:1401
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1996.
+
+2. Vad som s&#228;gs om ordet &quot;fastighetsbildningsmyndighet&quot; i olika
+b&#246;jningsformer i &#228;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om
+fastighetsbildningsmyndigheter som inr&#228;ttats enligt lagen (1971:133)
+om kommunal fastighetsbildningsmyndighet och
+fastighetsregistermyndighet.
+
+1998:375
+
+Denna lag tr&#228;der i kraft den 1 oktober 1998 men till&#228;mpas inte
+i de fall d&#228;r det f&#246;rsta beslutet i &#228;rendet har meddelats
+dessf&#246;rinnan.
+
+2004:394
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2004.
+
+2. I fr&#229;ga om f&#246;rr&#228;ttningar som har p&#229;b&#246;rjats f&#246;re
+ikrafttr&#228;dandet g&#228;ller 2 och 19 &#167;&#167; i sina &#228;ldre lydelser.
+D&#228;rvid skall, i fr&#229;ga om underr&#228;ttelse till den eller de
+kommunala n&#228;mnder som fullg&#246;r uppgifter inom plan- och
+byggnadsv&#228;sendet, h&#228;nvisningarna i 2 och 19 &#167;&#167; till 4 kap. 15
+och 24 &#167;&#167; fastighetsbildningslagen (1970:988) avse
+paragrafernas lydelse vid utg&#229;ngen av juni 2004.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4213">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4215">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

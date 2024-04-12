@@ -1,0 +1,631 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2017-04-11" /> 
+ <meta id="rattsinfo-edited" content="2019-04-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>864</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=863">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=865">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2017:230 ·
+                    <a href="/sfsr?bet=2017:230">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2017:230) om Pensionsmyndighetens f&#246;rs&#228;kringsverksamhet i premiepensionssystemet</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2017-03-30
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2017-05-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Lagens inneh&#229;ll
+
+1 &#167; I denna lag finns best&#228;mmelser om Pensionsmyndighetens 
+till&#228;mpning av f&#246;rs&#228;kringsr&#246;relse- och redovisningsregler. I 
+lagen finns ocks&#229; best&#228;mmelser om Finansinspektionens tillsyn 
+&#246;ver myndigheten.
+
+De grundl&#228;ggande best&#228;mmelserna om Pensionsmyndighetens 
+uppgifter finns i socialf&#246;rs&#228;kringsbalken.
+
+2 kap. F&#246;rs&#228;kringstekniska avs&#228;ttningar
+
+F&#246;rs&#228;kringstekniska avs&#228;ttningars omfattning
+
+1 &#167; Pensionsmyndighetens f&#246;rs&#228;kringstekniska avs&#228;ttningar ska 
+motsvara det belopp som kr&#228;vs f&#246;r att myndigheten vid varje 
+tidpunkt ska kunna uppfylla alla &#229;taganden som sk&#228;ligen kan 
+f&#246;rv&#228;ntas uppkomma med anledning av f&#246;rs&#228;kringsverksamheten i 
+premiepensionssystemet.
+
+De f&#246;rs&#228;kringstekniska avs&#228;ttningarna ska motsvara 
+myndighetens ansvarighet f&#246;r
+
+1. f&#246;rs&#228;kringsfall, f&#246;rvaltningskostnader och andra kostnader 
+under resten av avtalsperioden f&#246;r l&#246;pande f&#246;rs&#228;kringar i 
+livf&#246;rs&#228;kringsr&#246;relse (livf&#246;rs&#228;kringsavs&#228;ttning),
+
+2. intr&#228;ffade oreglerade f&#246;rs&#228;kringsfall, kostnader f&#246;r 
+regleringen av dessa samt &#229;terb&#228;ring som ska betalas men inte 
+har betalats ut (oreglerade skador), och
+
+3. fondf&#246;rs&#228;kringar som pensionsspararna st&#229;r 
+placeringsrisken f&#246;r (fondf&#246;rs&#228;krings&#229;taganden d&#228;r 
+pensionsspararen b&#228;r placeringsrisken).
+
+Ber&#228;kning av livf&#246;rs&#228;kringsavs&#228;ttning
+
+2 &#167; Livf&#246;rs&#228;kringsavs&#228;ttningen utg&#246;rs av det f&#246;rv&#228;ntade 
+nuv&#228;rdet av de framtida kassafl&#246;den som kan uppkomma med 
+anledning av premiepensions&#229;tagandena. Den ska ber&#228;knas med 
+en relevant riskfri r&#228;ntestruktur.
+
+3 &#167; Ber&#228;kningen av livf&#246;rs&#228;kringsavs&#228;ttningen ska grundas p&#229; 
+antaganden om riskm&#229;tt, r&#228;ntesatser och driftskostnader som 
+var f&#246;r sig &#228;r ansvarsfulla, tillf&#246;rlitliga och objektiva.
+
+Aktuarie
+
+4 &#167; Den som ska utf&#246;ra de f&#246;rs&#228;kringstekniska utredningarna 
+och ber&#228;kningarna i premiepensionsverksamheten ska ha 
+kunskaper i f&#246;rs&#228;krings- och finansmatematik som &#228;r 
+tillr&#228;ckliga med h&#228;nsyn till uppgifterna. Utredningarna och 
+ber&#228;kningarna ska g&#246;ras under &#246;verinseende av en eller flera 
+aktuarier, som ska ha den insikt och erfarenhet som kr&#228;vs med 
+h&#228;nsyn till omfattningen och arten av 
+premiepensionsverksamheten.
+
+3 kap. Skuldt&#228;ckning och investering av tillg&#229;ngar
+
+Skuldt&#228;ckning i f&#246;rs&#228;kringsr&#246;relse
+
+1 &#167; Pensionsmyndigheten ska ha tillg&#229;ngar f&#246;r skuldt&#228;ckning 
+som uppg&#229;r till ett belopp som svarar mot f&#246;rs&#228;kringstekniska 
+avs&#228;ttningar.
+
+&#214;verskottsm&#229;l
+
+2 &#167; Pensionsmyndigheten ska, ut&#246;ver tillg&#229;ngar som kr&#228;vs f&#246;r 
+skuldt&#228;ckning enligt 1 &#167;, ha tillg&#229;ngar som uppg&#229;r minst till 
+ett &#246;verskottsm&#229;l.
+
+&#214;verskottsm&#229;let ska ber&#228;knas med utg&#229;ngspunkt i verksamhetens 
+omfattning och art och definieras i Pensionsmyndighetens 
+f&#246;rs&#228;kringstekniska riktlinjer.
+
+Aktsamhet
+
+3 &#167; Tillg&#229;ngar ska investeras p&#229; ett aktsamt s&#228;tt enligt 
+4–8 &#167;&#167;.
+
+Tillg&#229;ngar som svarar mot f&#246;rs&#228;kringstekniska avs&#228;ttningar
+
+4 &#167; Tillg&#229;ngar som svarar mot f&#246;rs&#228;kringstekniska 
+avs&#228;ttningar ska investeras p&#229; ett s&#228;tt som &#228;r l&#228;mpligt med 
+h&#228;nsyn till &#229;tagandenas art och l&#246;ptid.
+
+Riskkontroll
+
+5 &#167; Investeringar f&#229;r endast g&#246;ras i s&#229;dana finansiella 
+instrument och andra tillg&#229;ngar vars risker 
+Pensionsmyndigheten kan identifiera, m&#228;ta, &#246;vervaka, hantera, 
+kontrollera och rapportera.
+
+Riskspridning
+
+6 &#167; Investeringar i finansiella instrument och andra 
+tillg&#229;ngar ska g&#246;ras s&#229; att l&#228;mplig riskspridning uppn&#229;s. 
+Samtliga tillg&#229;ngar ska, med beaktande av 
+f&#246;rs&#228;krings&#229;tagandena och f&#246;r&#228;ndringar i tillg&#229;ngarnas 
+framtida v&#228;rde och avkastning, investeras s&#229; att 
+betalningsberedskapen &#228;r tillfredsst&#228;llande och den 
+f&#246;rv&#228;ntade avkastningen tillr&#228;cklig.
+
+Derivatinstrument
+
+7 &#167; Derivatinstrument f&#229;r endast anv&#228;ndas f&#246;r att s&#228;nka 
+risken eller f&#246;r att i &#246;vrigt effektivisera f&#246;rvaltningen av 
+myndighetens tillg&#229;ngar och skulder.
+
+Onoterade tillg&#229;ngar
+
+8 &#167; Investeringar i finansiella instrument och andra 
+tillg&#229;ngar som inte &#228;r upptagna till handel p&#229; en reglerad 
+marknad ska h&#229;llas p&#229; aktsamma niv&#229;er.
+
+Begr&#228;nsning av innehav av aktier
+
+9 &#167; Pensionsmyndigheten f&#229;r inte f&#246;rv&#228;rva s&#229; m&#229;nga aktier i 
+ett svenskt aktiebolag, vars aktier &#228;r upptagna till handel 
+p&#229; en reglerad marknad eller en motsvarande marknad utanf&#246;r 
+Europeiska ekonomiska samarbetsomr&#229;det, att r&#246;stetalet f&#246;r 
+dem tillsammans med myndighetens &#246;vriga aktier i samma bolag 
+&#246;verstiger fem procent av r&#246;stetalet f&#246;r samtliga aktier i 
+bolaget.
+
+4 kap. Riktlinjer och ber&#228;kningsunderlag
+
+F&#246;rs&#228;kringstekniska riktlinjer
+
+1 &#167; Pensionsmyndigheten ska uppr&#228;tta och f&#246;lja 
+f&#246;rs&#228;kringstekniska riktlinjer. Riktlinjerna ska inneh&#229;lla 
+principerna f&#246;r hur 
+
+1. premier och f&#246;rm&#229;ner best&#228;ms,
+
+2. f&#246;rs&#228;kringstekniska avs&#228;ttningar och &#246;verskottsm&#229;l 
+ber&#228;knas,
+
+3. f&#246;rs&#228;kringar &#229;terk&#246;ps,
+
+4. &#229;terb&#228;ring till pensionsspararna och andra 
+ers&#228;ttningsber&#228;ttigade f&#246;rdelas,
+
+5. belopp som ska utbetalas best&#228;ms,
+
+6. konsolideringsniv&#229;n styrs, och
+
+7. underskott t&#228;cks.
+
+Med konsolideringsniv&#229; avses kvoten mellan tillg&#229;ngarnas 
+marknadsv&#228;rden och f&#246;rdelade f&#246;rm&#229;nsv&#228;rden. F&#246;rdelade 
+f&#246;rm&#229;nsv&#228;rden utg&#246;r summan av garanterade &#229;taganden och 
+prelimin&#228;rt f&#246;rdelad (allokerad) &#229;terb&#228;ring.
+
+2 &#167; F&#246;rs&#228;kringstekniska riktlinjer ska ges in till 
+Finansinspektionen senast den dag de b&#246;rjar anv&#228;ndas.
+
+Tillsammans med riktlinjerna ska det l&#228;mnas en redog&#246;relse 
+f&#246;r de konsekvenser som riktlinjerna f&#229;r f&#246;r 
+Pensionsmyndigheten samt f&#246;r pensionsspararna och andra 
+ers&#228;ttningsber&#228;ttigade p&#229; grund av f&#246;rs&#228;kringar.
+
+F&#246;rsta och andra styckena g&#228;ller ocks&#229; vid &#228;ndring av 
+f&#246;rs&#228;kringstekniska riktlinjer.
+
+F&#246;rs&#228;kringstekniskt ber&#228;kningsunderlag
+
+3 &#167; Ett f&#246;rs&#228;kringstekniskt ber&#228;kningsunderlag ska 
+komplettera och n&#228;rmare precisera de principer som anges i 
+f&#246;rs&#228;kringstekniska riktlinjer enligt 1 &#167;.
+
+Ber&#228;kningsunderlaget ska &#229;tminstone inneh&#229;lla beskrivningar 
+av
+
+1. de ber&#228;kningsformler och metoder som anv&#228;nds, och
+
+2. de ber&#228;kningsparametrar som ing&#229;r i ber&#228;kningsformlerna.
+
+Placeringsriktlinjer
+
+4 &#167; Pensionsmyndigheten ska uppr&#228;tta och f&#246;lja 
+placeringsriktlinjer. Riktlinjerna ska inneh&#229;lla principerna 
+f&#246;r placering av samtliga tillg&#229;ngar och s&#228;rskilt redovisa 
+principerna f&#246;r placering av de tillg&#229;ngar som svarar mot 
+f&#246;rs&#228;kringstekniska avs&#228;ttningar.
+
+5 kap. Redovisning
+
+1 &#167; I Pensionsmyndighetens &#229;rsredovisning ska en s&#228;rskild 
+redovisning f&#246;r premiepensionsverksamheten ing&#229;. F&#246;r denna 
+redovisning ska f&#246;ljande best&#228;mmelser i lagen (1995:1560) om 
+&#229;rsredovisning i f&#246;rs&#228;kringsf&#246;retag till&#228;mpas:
+
+– 1 kap. 2 &#167; om h&#228;nvisningar till &#229;rsredovisningslagen 
+(1995:1554),
+
+– 1 kap. 3 &#167; om vissa definitioner,
+
+– 2 kap. 1 &#167; om skyldighet att ta in en resultatanalys i 
+&#229;rsredovisningen,
+
+– 2 kap. 2 &#167; om &#229;rsredovisningens inneh&#229;ll m.m. n&#228;r det 
+g&#228;ller h&#228;nvisningarna till best&#228;mmelserna i 2 kap. 1–6 &#167;&#167; 
+&#229;rsredovisningslagen, med undantag av vad som d&#228;r s&#228;gs om 
+balansr&#228;kning,
+
+– 3 kap. i fr&#229;ga om reglerna om resultatr&#228;kning,
+
+– 4 kap. 1 &#167; om v&#228;rderingsregler n&#228;r det g&#228;ller 
+h&#228;nvisningarna till best&#228;mmelserna i 4 kap. 14 a–15 a &#167;&#167; 
+&#229;rsredovisningslagen,
+
+– 4 kap. 2 &#167; 12–14 om hur v&#228;rderingsreglerna ska till&#228;mpas p&#229; 
+ett f&#246;rs&#228;kringsf&#246;retags tillg&#229;ngar,
+
+– 4 kap. 4–9 &#167;&#167; om v&#228;rderingsregler,
+
+– 5 kap. 1 &#167; om noter m.m. med undantag av h&#228;nvisningarna 
+till 5 kap. 3, 4, 8, 11, 12, 16, 20, 21, 25, 28–30, 34, 36–45 
+och 48 &#167;&#167; &#229;rsredovisningslagen,
+
+– 5 kap. 2–5 &#167;&#167; om noter m.m., och
+
+– 6 kap. 2 och 3 &#167;&#167; om f&#246;rvaltningsber&#228;ttelse och 
+resultatanalys.
+
+Om myndigheten f&#246;retr&#228;der staten som &#228;gare av ett eller flera 
+f&#246;retag, i vilka staten har ett s&#229;dant inflytande som anges i 
+1 kap. 4 &#167; f&#246;rsta, andra eller tredje stycket 
+&#229;rsredovisningslagen, ska myndigheten &#228;ven uppr&#228;tta en 
+koncernredovisning med till&#228;mpning av best&#228;mmelserna om s&#229;dan 
+redovisning i 7 kap. 2–4 &#167;&#167; lagen om &#229;rsredovisning i 
+f&#246;rs&#228;kringsf&#246;retag.
+
+Vid till&#228;mpningen av de best&#228;mmelser som anges i f&#246;rsta och 
+andra styckena ska Pensionsmyndigheten anses som ett 
+livf&#246;rs&#228;kringsf&#246;retag. Det som s&#228;gs om intressef&#246;retag ska 
+avse f&#246;retag i vilka staten har ett s&#229;dant inflytande som 
+anges i 1 kap. 5 respektive 5 a &#167; &#229;rsredovisningslagen, om 
+myndigheten f&#246;retr&#228;der staten som &#228;gare. Det som s&#228;gs om 
+f&#246;retagets verkst&#228;llande direkt&#246;r ska avse myndighetens 
+chef.
+
+2 &#167; Den s&#228;rskilda redovisningen f&#246;r 
+premiepensionsverksamheten ska ges in till Finansinspektionen 
+s&#229; snart det kan ske och senast inom sex m&#229;nader fr&#229;n 
+kalender&#229;rets utg&#229;ng.
+
+6 kap. Tillsyn och ingripanden
+
+1 &#167; Pensionsmyndighetens f&#246;rs&#228;kringsverksamhet i 
+premiepensionssystemet ska st&#229; under tillsyn av 
+Finansinspektionen.
+
+2 &#167; Pensionsmyndigheten ska l&#228;mna Finansinspektionen de 
+upplysningar om sin premiepensionsverksamhet som inspektionen 
+beg&#228;r.
+
+3 &#167; Styrelsen och myndighetens chef ska vid den tidpunkt som 
+Finansinspektionen best&#228;mmer h&#229;lla Pensionsmyndighetens 
+tillg&#229;ngar, r&#228;kenskapsmaterial och andra handlingar avseende 
+premiepensionsverksamheten tillg&#228;ngliga f&#246;r granskning av 
+befattningshavare hos inspektionen eller av n&#229;gon annan som 
+inspektionen har f&#246;rordnat.
+
+4 &#167; Finansinspektionen f&#229;r sammankalla Pensionsmyndighetens 
+styrelse.
+
+F&#246;retr&#228;dare f&#246;r inspektionen f&#229;r n&#228;rvara vid ett s&#229;dant 
+styrelsesammantr&#228;de som inspektionen har sammankallat och 
+delta i &#246;verl&#228;ggningarna.
+
+5 &#167; Pensionsmyndigheten ska med avgifter bidra till att t&#228;cka 
+kostnaderna f&#246;r Finansinspektionens verksamhet.
+
+6 &#167; Finansinspektionen ska ingripa om
+
+1. Pensionsmyndigheten har &#229;sidosatt sina skyldigheter enligt 
+denna lag, eller andra f&#246;rfattningar som reglerar 
+myndighetens premiepensionsverksamhet, eller enligt 
+myndighetens f&#246;rs&#228;kringstekniska riktlinjer, 
+ber&#228;kningsunderlag eller placeringsriktlinjer,
+
+2. de f&#246;rs&#228;kringstekniska riktlinjerna eller 
+ber&#228;kningsunderlaget inte l&#228;ngre &#228;r tillfredsst&#228;llande med 
+h&#228;nsyn till omfattningen och arten av myndighetens 
+verksamhet, eller
+
+3. f&#246;rs&#228;kringsbest&#229;ndet inte &#228;r tillr&#228;ckligt f&#246;r beh&#246;vlig 
+riskutj&#228;mning.
+
+7 &#167; Ingripande med st&#246;d av 6 &#167; sker genom
+
+1. f&#246;rel&#228;ggande att g&#246;ra r&#228;ttelse inom viss tid,
+
+2. f&#246;rbud att verkst&#228;lla beslut, eller
+
+3. anm&#228;rkning.
+
+8 &#167; Finansinspektionen f&#229;r avst&#229; fr&#229;n ingripande om
+
+1. en &#246;vertr&#228;delse &#228;r ringa eller urs&#228;ktlig,
+
+2. Pensionsmyndigheten g&#246;r r&#228;ttelse, eller
+
+3. n&#229;gon annan myndighet har vidtagit &#229;tg&#228;rder mot 
+Pensionsmyndigheten och dessa &#229;tg&#228;rder bed&#246;ms tillr&#228;ckliga.
+
+7 kap. Kompletterande best&#228;mmelser f&#246;r 
+f&#246;rs&#228;kringsverksamheten i premiepensionssystemet
+
+Hantering av &#246;verskott
+
+1 &#167; &#214;verskott som uppst&#229;r i Pensionsmyndighetens 
+f&#246;rs&#228;kringsverksamhet i premiepensionssystemet ska tillf&#246;ras 
+pensionsspararna i form av &#229;terb&#228;ring. &#214;verskottsmedlen f&#229;r 
+tas i anspr&#229;k endast om det kan ske utan att det riskerar 
+myndighetens f&#246;rm&#229;ga att betala ut de premiepensioner som 
+pensionsspararna har r&#228;tt till. &#214;verskottsmedlen ska tas i 
+anspr&#229;k i en takt som fr&#228;mjar en j&#228;mn utveckling av 
+premiepensionerna &#246;ver tiden. 
+
+F&#246;rdelningen av &#229;terb&#228;ringen mellan pensionsspararna ska 
+g&#246;ras med h&#228;nsyn tagen till i vilken utstr&#228;ckning de medel 
+som f&#246;rvaltas f&#246;r varje pensionssparares r&#228;kning har bidragit 
+till uppkomsten av &#246;verskottet.
+
+Information
+
+2 &#167; Pensionsmyndigheten ska se till att pensionsspararna f&#229;r 
+tillg&#229;ng till den information de beh&#246;ver f&#246;r att ta till vara 
+sin r&#228;tt i premiepensionssystemet.
+
+8 kap. Bemyndiganden
+
+1 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om
+
+1. de f&#246;rs&#228;kringstekniska avs&#228;ttningarnas inneh&#229;ll och 
+ber&#228;kning enligt 2 kap. 1–3 &#167;&#167;,
+
+2. vad som &#228;r tillr&#228;ckliga kunskaper med h&#228;nsyn till 
+uppgifterna f&#246;r personer som utf&#246;r de f&#246;rs&#228;kringstekniska 
+utredningarna och ber&#228;kningarna och vad som avses med insikt 
+och erfarenhet f&#246;r aktuarier enligt 2 kap. 4 &#167;,
+
+3. anv&#228;ndning av derivatinstrument enligt 3 kap. 7 &#167;, 
+
+4. vad de f&#246;rs&#228;kringstekniska riktlinjerna enligt 4 kap. 1 &#167; 
+ska inneh&#229;lla,
+
+5. vad en redog&#246;relse enligt 4 kap. 2 &#167; andra stycket ska 
+inneh&#229;lla, 
+
+6. vad det f&#246;rs&#228;kringstekniska ber&#228;kningsunderlaget enligt 
+4 kap. 3 &#167; ska inneh&#229;lla,
+
+7. vad placeringsriktlinjer enligt 4 kap. 4 &#167; ska inneh&#229;lla, 
+och
+
+8. vilka upplysningar Pensionsmyndigheten ska l&#228;mna till 
+Finansinspektionen enligt 6 kap. 2 &#167; och n&#228;r dessa ska 
+l&#228;mnas.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om s&#229;dana avgifter som 
+avses i 6 kap. 5 &#167;.
+
+2 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om avvikelser och medge undantag i 
+enskilda fall fr&#229;n de best&#228;mmelser som anges i 2–4 kap. och 
+5 kap. 1 &#167; f&#246;rsta och andra styckena.
+
+9 kap. &#214;verklagande
+
+1 &#167; Finansinspektionens beslut enligt 6 kap. 4 &#167; f&#229;r inte 
+&#246;verklagas.
+
+Andra beslut av Finansinspektionen i enskilda fall enligt 
+denna lag f&#229;r &#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. 
+
+Pensionsmyndigheten f&#229;r &#246;verklaga Finansinspektionens beslut 
+enligt andra stycket.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=863">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=865">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

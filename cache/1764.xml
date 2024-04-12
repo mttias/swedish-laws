@@ -1,0 +1,592 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-05" /> 
+ <meta id="rattsinfo-edited" content="2024-01-05 10:49:29" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1764</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1763">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1765">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2009:1426 ·
+                    <a href="/sfsr?bet=2009:1426">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2009:1426) med instruktion f&#246;r Livsmedelsverket</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2009-12-03
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:620
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2010-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Uppgifter
+
+1 &#167; Livsmedelsverket &#228;r f&#246;rvaltningsmyndighet f&#246;r 
+livsmedelsfr&#229;gor med uppgift att i konsumenternas intresse 
+arbeta f&#246;r s&#228;kra livsmedel, redlighet i livsmedelshanteringen 
+och en h&#229;llbar livsmedelskonsumtion. F&#246;rordning (2021:850).
+
+2 &#167; Myndigheten ska
+
+1. verka f&#246;r en riskbaserad, effektiv och likv&#228;rdig 
+livsmedelskontroll och kontroll av material och produkter 
+avsedda att komma i kontakt med livsmedel i hela landet,
+
+2. leda, samordna och f&#246;lja upp livsmedelskontrollen och 
+kontrollen av material och produkter avsedda att komma i 
+kontakt med livsmedel,
+
+3. ut&#246;va offentlig kontroll och annan offentlig verksamhet,
+
+4. unders&#246;ka livsmedel samt material och produkter avsedda att 
+komma i kontakt med livsmedel, unders&#246;ka matvanor, utf&#246;ra 
+analyser, utveckla metoder och f&#246;lja utvecklingen p&#229; 
+livsmedelsomr&#229;det utifr&#229;n Livsmedelsverkets ansvarsomr&#229;de, 
+
+5. utf&#246;ra risk- och nyttov&#228;rderingar p&#229; livsmedelsomr&#229;det,
+
+6. informera konsumenter, f&#246;retag och andra intressenter om 
+g&#228;llande regelverk, en h&#229;llbar livsmedelskonsumtion och andra 
+viktiga f&#246;rh&#229;llanden p&#229; livsmedelsomr&#229;det,
+
+7. underl&#228;tta och skapa goda f&#246;ruts&#228;ttningar f&#246;r f&#246;retagande i 
+livsmedelssektorn f&#246;r en konkurrenskraftig livsmedelskedja,
+
+8. verka f&#246;r att exporterande livsmedelsf&#246;retag uppfyller 
+s&#229;dana s&#228;rskilda krav som mottagarlandet kan st&#228;lla,
+
+9. samordna fr&#229;gor som r&#246;r sp&#228;dbarnsnutrition inklusive 
+amning,
+
+10. bidra till att skapa samh&#228;lleliga f&#246;ruts&#228;ttningar f&#246;r en 
+h&#229;llbar livsmedelskonsumtion, med s&#228;rskilt fokus p&#229; barn och 
+ungdomar,
+
+11. verka f&#246;r en utveckling av en h&#229;llbar livsmedelskonsumtion 
+inom v&#229;rd, skola och omsorg, och
+
+12. verka f&#246;r att det generationsm&#229;l f&#246;r milj&#246;arbetet och de 
+milj&#246;kvalitetsm&#229;l som riksdagen har fastst&#228;llt n&#229;s och vid 
+behov f&#246;resl&#229; &#229;tg&#228;rder f&#246;r milj&#246;arbetets utveckling.
+F&#246;rordning (2021:850).
+
+2 a &#167; Myndigheten ska vara ansvarig myndighet p&#229; 
+nutritionsomr&#229;det och verka f&#246;r kunskapsutveckling och 
+kunskapsf&#246;rmedling inom omr&#229;det.
+
+Myndigheten ska ocks&#229; vara ansvarig f&#246;r nationell samordning 
+inom omr&#229;det h&#229;llbar livsmedelskonsumtion samt st&#246;dja 
+myndigheter och andra akt&#246;rer i deras arbete med h&#229;llbar 
+livsmedelskonsumtion. Myndigheten ska &#228;ven f&#246;lja och analysera 
+utvecklingen inom omr&#229;det. F&#246;rordning (2021:850).
+
+3 &#167; Myndigheten ska ansvara f&#246;r nationell samordning av
+dricksvattenfr&#229;gor, s&#228;rskilt n&#228;r det g&#228;ller
+
+1. anpassningar till klimatf&#246;r&#228;ndringar, samt
+
+2. kris- och beredskapsplanering avseende
+dricksvattenf&#246;rs&#246;rjning.
+
+Myndigheten ska ocks&#229; ansvara f&#246;r nationell samordning n&#228;r
+det g&#228;ller kris- och beredskapsplanering av
+livsmedelsf&#246;rs&#246;rjning i leden efter prim&#228;rproduktionen.
+
+3 a &#167; Myndigheten ska leda en nationell vattenkatastrofgrupp 
+som kan anlitas av ber&#246;rda akt&#246;rer f&#246;r att bist&#229; vid 
+samordning av operativa insatser och med expertst&#246;d vid akuta 
+situationer relaterade till kommunalt dricksvatten.
+F&#246;rordning (2021:654).
+
+3 b &#167; Myndigheten ska ansvara f&#246;r samordning av det nationella 
+systemet f&#246;r revision enligt artikel 6 i Europaparlamentets 
+och r&#229;dets f&#246;rordning (EU) 2017/625 av den 15 mars 2017 om 
+offentlig kontroll och annan offentlig verksamhet f&#246;r att 
+s&#228;kerst&#228;lla till&#228;mpningen av livsmedels- och 
+foderlagstiftningen och av best&#228;mmelser om djurs h&#228;lsa och 
+djurskydd, v&#228;xtskydd och v&#228;xtskyddsmedel samt om &#228;ndring av 
+Europaparlamentets och r&#229;dets f&#246;rordningar (EG) nr 999/2001, 
+(EG) nr 396/2005, (EG) nr 1069/2009, (EG) nr 1107/2009, (EU) 
+nr 1151/2012, (EU) nr 652/2014, (EU) 2016/429 och (EU) 
+2016/2031, r&#229;dets f&#246;rordningar (EG) nr 1/2005 och (EG) nr 
+1099/2009 och r&#229;dets direktiv 98/58/EG, 1999/74/EG, 
+2007/43/EG, 2008/119/EG och 2008/120/EG och om upph&#228;vande av 
+Europaparlamentets och r&#229;dets f&#246;rordningar (EG) nr 854/2004 
+och (EG) nr 882/2004, r&#229;dets direktiv 89/608/EEG, 89/662/EEG, 
+90/425/EEG, 91/496/EEG, 96/23/EG, 96/93/EG och 97/78/EG samt 
+r&#229;dets beslut 92/438/EEG (f&#246;rordningen om offentlig kontroll).
+F&#246;rordning (2023:620).
+
+3 c &#167; Myndigheten &#228;r beredskapsmyndighet och sektorsansvarig 
+myndighet enligt f&#246;rordningen (2022:524) om statliga 
+myndigheters beredskap. F&#246;rordning (2022:549).
+
+4 &#167; Myndigheten ska se till att dess f&#246;reskrifter och
+v&#228;gledande dokument &#228;r utformade p&#229; ett s&#229;dant s&#228;tt att de &#228;r
+kostnadseffektiva och enkla att f&#246;lja och f&#246;rst&#229; f&#246;r
+konsumenter, f&#246;retag och kontrollmyndigheter. Myndigheten ska
+&#228;ven i sin verksamhet i &#246;vrigt underl&#228;tta f&#246;r konsumenternas,
+f&#246;retagens och kontrollmyndigheternas kontakter med
+myndigheten.
+
+5 &#167; Myndigheten ska integrera ett j&#228;mst&#228;lldhetsperspektiv i
+sin verksamhet. Myndigheten ska i sitt informations- och
+utredningsarbete utg&#229; fr&#229;n kvinnors respektive m&#228;ns villkor
+och behov.
+
+Individbaserad statistik ska genomg&#229;ende presenteras och
+analyseras med k&#246;n som &#246;vergripande indelningsgrund, om det
+inte finns s&#228;rskilda sk&#228;l mot detta.
+
+5 a &#167; Myndigheten ska inom ramen f&#246;r den egna verksamheten,
+och i samarbete med andra akt&#246;rer, bidra till genomf&#246;randet av
+Sveriges politik f&#246;r global utveckling. F&#246;rordning (2011:1229).
+
+5 b &#167; Myndigheten f&#229;r bedriva tj&#228;nsteexport som &#228;r direkt
+kopplad till det utvecklingssamarbete som myndigheten
+bedriver internationellt. F&#246;rordning (2014:1431).
+
+S&#228;rskilda uppgifter
+
+6 &#167; Myndigheten ansvarar f&#246;r vissa uppgifter som avser
+jordbruksprodukter och livsmedel i enlighet med vad som anges
+i f&#246;rordningen (2009:1425) om kontroll av skyddade
+beteckningar p&#229; jordbruksprodukter och livsmedel.
+F&#246;rordning (2014:1084).
+
+7 &#167; Myndigheten ska 
+
+1. ha de uppgifter n&#228;r det g&#228;ller den fler&#229;riga nationella 
+kontrollplanen som framg&#229;r av artikel 109.2 a-c och i &#246;vrigt 
+utf&#246;ra de uppgifter som en medlemsstat har i fr&#229;ga om 
+kontrollplaner och &#229;rliga rapporter enligt artiklarna 111 och 
+113.1 i f&#246;rordning (EU) 2017/625,
+
+2. som en del i den fler&#229;riga nationella kontrollplanen 
+uppr&#228;tta fler&#229;riga nationella kontrollprogram f&#246;r 
+bek&#228;mpningsmedelsrester och delta i gemenskapens 
+kontrollprogram i enlighet med artikel 1 i kommissionens 
+genomf&#246;randef&#246;rordning (EU) 2021/1355 av den 12 augusti 2021 
+om de fler&#229;riga nationella kontrollprogram f&#246;r 
+bek&#228;mpningsmedelsrester som ska uppr&#228;ttas av medlemsstaterna, 
+och
+
+3. samr&#229;da med Statens jordbruksverk i arbetet med att ta fram 
+den fler&#229;riga nationella kontrollplanen och den &#229;rliga 
+rapporten. F&#246;rordning (2023:620).
+
+7 a &#167; Myndigheten ska inom sitt verksamhetsomr&#229;de vara 
+nationellt referenslaboratorium enligt artikel 100.1 i 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2017/625. 
+Myndigheten ska ocks&#229; vara nationellt referenslaboratorium f&#246;r
+
+1. bek&#228;mpningsmedel i foder, 
+
+2. halogenerade l&#229;nglivade organiska f&#246;roreningar i foder, 
+
+3. metaller och kv&#228;vehaltiga f&#246;reningar i foder, och
+
+4. restsubstanser i foder. 
+
+Myndigheten ska utf&#246;ra de uppgifter som en medlemsstat har 
+enligt artikel 100.4 i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2017/625. F&#246;rordning (2019:711).
+
+7 b &#167; Myndigheten ska vara kontaktpunkt f&#246;r systemet f&#246;r snabb 
+varning och utf&#246;ra de uppgifter som en medlemsstat har enligt 
+artiklarna 50.3 och 50.5 i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EG) nr 178/2002 av den 28 januari 2002 om allm&#228;nna 
+principer och krav f&#246;r livsmedelslagstiftning, om inr&#228;ttande 
+av Europeiska myndigheten f&#246;r livsmedelss&#228;kerhet och om 
+f&#246;rfaranden i fr&#229;gor som g&#228;ller livsmedelss&#228;kerhet. 
+F&#246;rordning (2023:620).
+
+7 c &#167; Myndigheten ska vara 
+
+1. f&#246;rbindelseorgan enligt artikel 103.1 i f&#246;rordning (EU) 
+2017/625 och utf&#246;ra de uppgifter som en medlemsstat har enligt 
+artikel 103.3 n&#228;r det g&#228;ller att meddela kommissionen och 
+&#246;vriga medlemsstater kontaktuppgifter till myndigheten och 
+eventuella &#228;ndringar av dessa uppgifter, och
+
+2. f&#246;rbindelseorgan f&#246;r utbytet av uppgifter om anm&#228;lningar av 
+bedr&#228;gerier i enlighet med artikel 12 i kommissionens 
+genomf&#246;randef&#246;rordning (EU) 2019/1715 av den 30 september 2019 
+om fastst&#228;llande av best&#228;mmelser f&#246;r ett datoriserat 
+informationshanteringssystem f&#246;r offentlig kontroll och dess 
+systemkomponenter (Imsoc-f&#246;rordningen). F&#246;rordning (2023:620).
+
+8 &#167; Myndigheten ska 
+
+1. inom sitt verksamhetsomr&#229;de bist&#229; Jordbruksverket med 
+underlag till den allm&#228;nna beredskapsplan f&#246;r foder och 
+livsmedel som avses i artikel 115 i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2017/625 och utarbeta underlaget i 
+enlighet med den artikeln, och 
+
+2. efter samr&#229;d med Jordbruksverket 
+
+a) utse en krissamordnare som kan utf&#246;ra de uppgifter som 
+avses i artikel 5 i kommissionens genomf&#246;randebeslut (EU) 
+2019/300 av den 19 februari 2019 om uppr&#228;ttande av en allm&#228;n 
+plan f&#246;r hantering av kriser p&#229; omr&#229;det f&#246;r livsmedels- och 
+foders&#228;kerhet, och
+
+b) till kommissionen rapportera namn- och kontaktuppgifter f&#246;r 
+b&#229;de krissamordnaren och den suppleant som Jordbruksverket 
+utser enligt f&#246;rordningen (2009:1464) med instruktion f&#246;r 
+Statens jordbruksverk. F&#246;rordning (2023:620).
+
+8 a &#167; Myndigheten f&#229;r p&#229; beg&#228;ran av en annan statlig myndighet 
+utf&#246;ra s&#229;dana revisioner av den statliga myndighetens kontroll 
+som avses i artikel 6 i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2017/625. F&#246;rordning (2021:654).
+
+8 b &#167; Myndigheten ska inom sitt verksamhetsomr&#229;de utse gr&#228;ns-
+kontrollstationer och &#228;ven i &#246;vrigt utf&#246;ra de uppgifter som en 
+medlemsstat har enligt artiklarna 59-63 i Europaparlamentets 
+och r&#229;dets f&#246;rordning (EU) 2017/625. F&#246;rordning (2019:711).
+
+9 &#167; Myndigheten ska utf&#246;ra de uppgifter som en medlemsstat har 
+enligt artiklarna 31, 40, 43 och 44 i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EG) nr 396/2005 av den 23 februari 2005 om 
+gr&#228;nsv&#228;rden f&#246;r bek&#228;mpningsmedelsrester i eller p&#229; livsmedel 
+och foder av vegetabiliskt och animaliskt ursprung och om 
+&#228;ndring av r&#229;dets direktiv 91/414/EEG. 
+
+Uppgifterna enligt artiklarna 43 och 44 i f&#246;rordning (EG) 
+nr 396/2005 ska utf&#246;ras efter samr&#229;d med Jordbruksverket.
+F&#246;rordning (2022:1561).
+
+10 &#167; Myndigheten &#228;r Sveriges kontaktmyndighet till Europeiska 
+myndigheten f&#246;r livsmedelss&#228;kerhet (Efsa). Myndigheten 
+ansvarar f&#246;r samordningen med &#246;vriga ber&#246;rda svenska 
+myndigheter i kontakter med Efsa. F&#246;rordning (2020:567).
+
+10 a &#167; Myndigheten ska utf&#246;ra de uppgifter som en medlemsstat 
+har i fr&#229;ga om att utse beh&#246;riga organisationer som kan bist&#229; 
+Efsa i dess uppdrag enligt artikel 36.2 i f&#246;rordning (EG) nr 
+178/2002. F&#246;rordning (2023:620).
+
+11 &#167; Myndigheten ska i fr&#229;ga om sitt milj&#246;arbete enligt 2 &#167;
+10 rapportera till Naturv&#229;rdsverket och samr&#229;da med verket om
+vilken rapportering som beh&#246;vs. F&#246;rordning (2015:294).
+
+12 &#167; Myndigheten ska inom sitt verksamhetsomr&#229;de bist&#229;
+Jordbruksverket med s&#229;dant underlag som beh&#246;vs f&#246;r
+information, utbildning, tillsyn och hur avvikelser ska
+bed&#246;mas fr&#229;n st&#246;dsynpunkt vad avser verksamhetskrav enligt
+f&#246;rordningen (2004:760) om EU:s direktst&#246;d f&#246;r jordbrukare
+m.m. och f&#246;rordningen (2007:481) om st&#246;d f&#246;r
+landsbygdsutvecklings&#229;tg&#228;rder. F&#246;rordning (2014:1084).
+
+12 a &#167; Myndigheten ska senast den 30 september varje &#229;r till
+regeringen l&#228;mna en redovisning av hur livsmedelskontrollen
+kan utvecklas och f&#246;rb&#228;ttras. Redovisningen ska &#228;ven omfatta
+de brister i kontrollen som verket identifierat och beskriva
+hur de kan &#229;tg&#228;rdas. F&#246;rordning (2015:294).
+
+13 &#167; Myndigheten f&#229;r utf&#246;ra
+
+1. laborativa unders&#246;kningar inom sitt verksamhetsomr&#229;de p&#229; 
+uppdrag av enskilda eller av en annan stat, samt
+
+2. uppdrag &#229;t myndigheter n&#228;r det g&#228;ller livsmedel och foder.
+
+Myndigheten f&#229;r vidare tillhandah&#229;lla datorbaserade system f&#246;r 
+kostregistrering p&#229; uppdrag av universitet och h&#246;gskolor som 
+har staten som huvudman och som omfattas av h&#246;gskolelagen 
+(1992:1434) eller p&#229; uppdrag av enskilda utbildningsanordnare 
+som har f&#229;tt tillst&#229;nd att utf&#228;rda examina enligt lagen 
+(1993:792) om tillst&#229;nd att utf&#228;rda vissa examina, f&#246;rutsatt 
+att resultatet av forskningen g&#246;rs tillg&#228;ngligt f&#246;r tredje 
+man. F&#246;rordning (2020:567).
+
+14 &#167; Myndigheten f&#229;r p&#229; uppdrag av enskilda bist&#229; i verksamhet 
+som syftar till att en livsmedelsanl&#228;ggning eller en annan 
+verksamhet ska godk&#228;nnas av ett tredjeland f&#246;r export dit av 
+livsmedel eller material och produkter avsedda att komma i 
+kontakt med livsmedel. Uppdraget f&#229;r ocks&#229; g&#228;lla verksamhet 
+som syftar till att beh&#229;lla ett s&#229;dant godk&#228;nnande. 
+F&#246;rordning (2021:654).
+
+14 a &#167; Myndigheten f&#229;r p&#229; uppdrag av andra medlemsstater i 
+Europeiska unionen eller en avtalsslutande part i avtalet om 
+Europeiska ekonomiska samarbetsomr&#229;det vara nationellt 
+referenslaboratorium till den staten eller den parten.
+F&#246;rordning (2020:567).
+
+14 b &#167; Myndigheten f&#229;r ing&#229; avtal med en annan stat om anv&#228;ndning 
+av symbolen Nyckelh&#229;let. F&#246;rordning (2021:654).
+
+Myndighetens ledning
+
+15 &#167; Myndigheten leds av en myndighetschef.
+
+16 &#167; Vid myndigheten ska det finnas ett insynsr&#229;d som best&#229;r
+av h&#246;gst &#229;tta ledam&#246;ter.
+
+Anst&#228;llningar och uppdrag
+
+17 &#167; Generaldirekt&#246;ren &#228;r myndighetschef.
+
+18 &#167; Har upph&#228;vts genom f&#246;rordning (2020:567).
+
+19 &#167; Har upph&#228;vts genom f&#246;rordning (2010:1490).
+
+20 &#167; Har upph&#228;vts genom f&#246;rordning (2020:567).
+
+Personalansvarsn&#228;mnd
+
+21 &#167; Vid myndigheten ska det finnas en personalansvarsn&#228;mnd.
+
+Till&#228;mpligheten av vissa f&#246;rordningar
+
+22 &#167; Myndigheten ska till&#228;mpa personalf&#246;retr&#228;darf&#246;rordningen
+(1987:1101).
+
+Avgifter
+
+23 &#167; Myndigheten f&#229;r ta ut avgift f&#246;r s&#229;dan uppdragsverksamhet 
+och &#246;vrig avgiftsbelagd verksamhet som avses i 5 b, 13, 14 och 
+14 a &#167;&#167;. 
+
+Myndigheten f&#229;r meddela f&#246;reskrifter om avgifternas storlek.
+F&#246;rordning (2020:567).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2019:711
+
+Denna f&#246;rordning tr&#228;der i kraft den 9 december 2019 i fr&#229;ga om 
+8 b &#167; och i &#246;vrigt den 14 december 2019.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1763">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1765">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,758 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2022-06-09" /> 
+ <meta id="rattsinfo-edited" content="2022-09-28 14:40:36" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>226</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=225">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=227">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2022:760 ·
+                    <a href="/sfsr?bet=2022:760">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2022:760) om upphandling av fonder till premiepensionens fondtorg</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2022-06-02
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2022-06-20
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+Inneh&#229;ll
+
+1 &#167; I denna lag finns best&#228;mmelser om upphandling av s&#229;dana 
+fonder som anges i 64 kap. 3 a &#167; andra stycket 
+socialf&#246;rs&#228;kringsbalken och som f&#229;r erbjudas p&#229; fondtorget f&#246;r 
+premiepensionen.
+
+Undantag fr&#229;n f&#246;rvaltningslagen
+
+2 &#167; Best&#228;mmelserna i 10 och 25 &#167;&#167; f&#246;rvaltningslagen (2017:900) 
+ska inte till&#228;mpas vid upphandling enligt denna lag.
+
+Uttryck i lagen
+
+3 &#167; I denna lag avses med
+
+1. fond: s&#229;dana fonder som avses i 2 kap. 1 &#167;,
+
+2. fondavtal: ett avtal som ing&#229;s mellan Fondtorgsn&#228;mnden och 
+en fondf&#246;rvaltare och som avser erbjudande av en fond p&#229; 
+fondtorget,
+
+3. fondf&#246;retag: detsamma som i 1 kap. 1 &#167; lagen (2004:46) om 
+v&#228;rdepappersfonder,
+
+4. fondf&#246;rvaltare: fondbolag, fondf&#246;retag eller 
+f&#246;rvaltningsbolag enligt 1 kap. 1 &#167; lagen om 
+v&#228;rdepappersfonder, eller AIF-f&#246;rvaltare enligt 1 kap. 3 &#167; 
+lagen (2013:561) om f&#246;rvaltare av alternativa 
+investeringsfonder,
+
+5. specialfond: detsamma som i 1 kap. 11 &#167; lagen om f&#246;rvaltare 
+av alternativa investeringsfonder,
+
+6. upphandlingsdokument: varje dokument som Fondtorgsn&#228;mnden 
+anv&#228;nder f&#246;r att beskriva eller fastst&#228;lla inneh&#229;llet i 
+upphandlingen, och
+
+7. v&#228;rdepappersfond: detsamma som i 1 kap. 1 &#167; lagen om 
+v&#228;rdepappersfonder. 
+
+2 kap. Krav och f&#246;rfarande vid upphandling 
+
+F&#246;rem&#229;let f&#246;r upphandling
+
+Fonder som f&#229;r upphandlas
+
+1 &#167; Endast f&#246;ljande fonder f&#229;r upphandlas:
+
+1. v&#228;rdepappersfonder,
+
+2. fondf&#246;retag,
+
+3. specialfonder, och
+
+4. utl&#228;ndska motsvarigheter till specialfonder, om de f&#229;r 
+marknadsf&#246;ras till icke-professionella investerare i Sverige 
+enligt 5 kap. 6 &#167; f&#246;rsta stycket 1 eller 11 &#167; 1 lagen 
+(2013:561) om f&#246;rvaltare av alternativa investeringsfonder.
+
+Krav p&#229; de fonder som f&#229;r upphandlas
+
+2 &#167; De fonder som upphandlas ska vara l&#228;mpliga f&#246;r 
+premiepensionssystemet. Fonderna ska ha olika riskniv&#229; och 
+placeringsinriktning.
+
+3 &#167; Fonderna enligt 2 &#167; ska vara kostnadseffektiva, h&#229;llbara, 
+kontrollerbara och av h&#246;g kvalitet.
+
+4 &#167; Fonderna enligt 2 &#167; f&#229;r inte ha fondbest&#228;mmelser som 
+medger att medel kan delas ut till andra &#228;n andels&#228;garna. 
+
+Antal fonder som ska upphandlas
+
+5 &#167; Vid bed&#246;mningen av hur m&#229;nga fonder som ska upphandlas 
+till fondtorget f&#246;r premiepensionen ska Fondtorgsn&#228;mnden 
+beakta
+
+1. att urvalet av fonder p&#229; fondtorget ska ge pensionsspararna 
+valfrihet avseende hur deras medel ska placeras p&#229; fondtorget, 
+och
+
+2. att fondf&#246;rvaltarna och fonderna l&#246;pande ska kunna granskas 
+p&#229; ett s&#228;kert och effektivt s&#228;tt.
+
+Principer f&#246;r Fondtorgsn&#228;mndens upphandling
+
+6 &#167; Vid upphandling ska Fondtorgsn&#228;mnden behandla 
+fondf&#246;rvaltare p&#229; ett likv&#228;rdigt och icke-diskriminerande s&#228;tt 
+samt iaktta principerna om &#246;ppenhet, proportionalitet och 
+&#246;msesidigt erk&#228;nnande.
+
+Marknadsdialog
+
+7 &#167; Fondtorgsn&#228;mnden ska kontinuerligt f&#246;ra en dialog med 
+fondf&#246;rvaltare, branschorganisationer och andra 
+marknadsakt&#246;rer.
+
+Annonsering
+
+8 &#167; Fondtorgsn&#228;mnden ska beg&#228;ra in anbud genom en annons. 
+
+Upphandlingsdokumenten
+
+9 &#167; Fondtorgsn&#228;mnden ska ge direkt, fullst&#228;ndig och 
+kostnadsfri tillg&#229;ng till upphandlingsdokumenten fr&#229;n den dag 
+n&#228;r annonsen publiceras eller den senare dag som anges i 
+annonsen enligt 8 &#167;.
+
+Fondtorgsn&#228;mnden ska i ett upphandlingsdokument beskriva 
+upphandlingen f&#246;r att g&#246;ra det m&#246;jligt f&#246;r intresserade 
+fondf&#246;rvaltare att delta i upphandlingen och l&#228;mna anbud.
+
+Tidsfrister
+
+10 &#167; Fondf&#246;rvaltare ska ges sk&#228;lig tid att komma in med 
+anbudsans&#246;kningar respektive anbud.
+
+Kommunikation under en upphandling
+
+11 &#167; F&#246;rfarandet &#228;r skriftligt. Muntlig kommunikation f&#229;r dock 
+anv&#228;ndas som ett komplement i en upphandling n&#228;r 
+Fondtorgsn&#228;mnden finner det l&#228;mpligt.
+
+Kompletterande information om upphandlingsdokumenten
+
+12 &#167; Om en fondf&#246;rvaltare beg&#228;r kompletterande upplysningar om 
+inneh&#229;llet i upphandlingsdokumenten, ska Fondtorgsn&#228;mnden 
+l&#228;mna s&#229;dana upplysningar senast sex dagar f&#246;re den sista 
+anbudsdagen, f&#246;rutsatt att fondf&#246;rvaltaren har beg&#228;rt 
+upplysningarna i god tid.
+
+Samma tidsfrist g&#228;ller om myndigheten p&#229; eget initiativ vill 
+l&#228;mna kompletterande upplysningar.
+
+Upplysningarna enligt f&#246;rsta och andra styckena ska l&#228;mnas 
+skriftligen p&#229; ett s&#229;dant s&#228;tt att alla fondf&#246;rvaltare som 
+deltar eller &#246;nskar delta i upphandlingen kan f&#229; del av dem. 
+
+F&#246;rl&#228;ngning av anbudstiden
+
+13 &#167; Fondtorgsn&#228;mnden ska f&#246;rl&#228;nga tidsfristen f&#246;r att komma 
+in med anbud, om det ska l&#228;mnas kompletterande upplysningar 
+men det inte g&#246;rs inom tidsfristen enligt 12 &#167; eller om det 
+g&#246;rs v&#228;sentliga &#228;ndringar i upphandlingsdokumenten. Den 
+f&#246;rl&#228;ngda tidsfristen ska best&#228;mmas s&#229; att alla fondf&#246;rvaltare 
+som deltar eller &#246;nskar delta i upphandlingen kan f&#229; k&#228;nnedom 
+om den information som beh&#246;vs f&#246;r att utarbeta ett anbud. 
+
+Dialog i en upphandling
+
+14 &#167; Fondtorgsn&#228;mnden f&#229;r f&#246;ra en dialog med en eller flera 
+fondf&#246;rvaltare i en p&#229;g&#229;ende upphandling. Med dialog avses ett 
+skriftligt eller muntligt informationsutbyte mellan 
+Fondtorgsn&#228;mnden och en fondf&#246;rvaltare.
+
+En dialog f&#229;r omfatta r&#228;ttelser av fel samt f&#246;rtydliganden och 
+kompletteringar av anbud eller andra handlingar som 
+fondf&#246;rvaltaren har gett in. Om Fondtorgsn&#228;mnden till&#229;ter en 
+fondf&#246;rvaltare att r&#228;tta, f&#246;rtydliga eller komplettera, ska 
+&#246;vriga fondf&#246;rvaltare ges motsvarande m&#246;jlighet.
+
+Information om beslut
+
+15 &#167; N&#228;r Fondtorgsn&#228;mnden har fattat beslut om att tilldela 
+ett fondavtal ska Fondtorgsn&#228;mnden skriftligen underr&#228;tta 
+samtliga anbudsgivare om beslutet.
+
+Underr&#228;ttelsen ska inneh&#229;lla sk&#228;len f&#246;r beslutet och uppgift 
+om den period inom vilken avtal enligt 3 kap. 2 &#167; inte f&#229;r 
+ing&#229;s (avtalssp&#228;rr).
+
+Underr&#228;ttelsen inneb&#228;r inte att ett anbud f&#246;rfaller.
+
+16 &#167; Fondtorgsn&#228;mnden ska till den fondf&#246;rvaltare som 
+skriftligen beg&#228;r det l&#228;mna upplysningar om sk&#228;len f&#246;r att 
+fondf&#246;rvaltarens anbudsans&#246;kan har avslagits eller anbud 
+f&#246;rkastats, samt de relativa f&#246;rdelarna med det valda anbudet.
+
+Upplysningarna ska l&#228;mnas snarast m&#246;jligt och senast inom 
+fjorton dagar fr&#229;n det att beg&#228;ran kom in.
+
+17 &#167; Om Fondtorgsn&#228;mnden beslutar att avbryta eller g&#246;ra om en 
+upphandling, ska Fondtorgsn&#228;mnden skriftligen l&#228;mna en 
+underr&#228;ttelse om detta till de fondf&#246;rvaltare som har l&#228;mnat 
+ett anbud eller en anbudsans&#246;kan. I underr&#228;ttelsen ska sk&#228;len 
+f&#246;r beslutet anges. 
+
+Dokumentation
+
+18 &#167; Fondtorgsn&#228;mnden ska dokumentera genomf&#246;randet av en 
+upphandling. Dokumentationen ska vara tillr&#228;cklig f&#246;r att 
+Fondtorgsn&#228;mnden ska kunna motivera sina beslut under 
+upphandlingens samtliga skeden.
+
+Tilldelning av fondavtal
+
+19 &#167; Fondtorgsn&#228;mnden ska tilldela fondavtal med anv&#228;ndning av 
+tilldelningskriterier.
+
+Tilldelningskriterierna ska ha anknytning till de fonder som 
+ska anskaffas och ska formuleras utifr&#229;n de krav p&#229; 
+kostnadseffektivitet och h&#246;g kvalitet som anges i 3 &#167;.
+
+Tilldelningskriterierna ska viktas inb&#246;rdes.
+
+20 &#167; Fondtorgsn&#228;mnden ska i ett upphandlingsdokument ange 
+vilka tilldelningskriterier som kommer att anv&#228;ndas och hur 
+tilldelningskriterierna ska viktas inb&#246;rdes.
+
+Bed&#246;mning av likv&#228;rdig fond
+
+21 &#167; I 64 kap. 27 a &#167; socialf&#246;rs&#228;kringsbalken finns 
+best&#228;mmelser om f&#246;ruts&#228;ttningarna f&#246;r att premiepensionsmedel 
+ska &#246;verf&#246;ras till en fond som &#228;r likv&#228;rdig med en tidigare 
+vald fond. 
+
+22 &#167; Fondtorgsn&#228;mnden ska i samband med att den upphandlar 
+fonder bed&#246;ma vilka fonder som i v&#228;sentliga avseenden &#228;r 
+likv&#228;rdiga efter objektiva kriterier.
+
+De objektiva kriterierna ska anges i ett upphandlingsdokument.
+
+23 &#167; Fondtorgsn&#228;mnden ska i fondavtalet fastst&#228;lla den ordning 
+enligt vilken premiepensionsmedlen ska f&#246;rdelas mellan 
+likv&#228;rdiga fonder, om medel ska &#246;verf&#246;ras enligt 64 kap. 
+27 a &#167; andra stycket socialf&#246;rs&#228;kringsbalken.
+
+Fondtorgsn&#228;mnden ska till&#228;mpa objektiva kriterier n&#228;r den 
+utformar f&#246;rdelningsordningen. Dessa kriterier ska anges i ett 
+upphandlingsdokument.
+
+Kompletterande upphandling 
+
+Upphandling vid upps&#228;gning av ett fondavtal
+
+24 &#167; Kompletterande upphandling f&#229;r anv&#228;ndas, om
+
+1. ett fondavtal har sagts upp i f&#246;rtid eller h&#228;vts, och
+
+2. upps&#228;gningen eller h&#228;vningen leder till att urvalet av 
+fonder p&#229; fondtorget f&#246;r premiepensionen inte l&#228;ngre ger en 
+tillr&#228;cklig valfrihet.
+
+Vid kompletterande upphandling till&#228;mpas inte best&#228;mmelserna i 
+8-23 &#167;&#167;.
+
+Fondtorgsn&#228;mnden ska besluta riktlinjer f&#246;r kompletterande 
+upphandling. 
+
+Information om beslut
+
+25 &#167; Om Fondtorgsn&#228;mnden vid en kompletterande upphandling 
+enligt 24 &#167; har beg&#228;rt in anbud fr&#229;n fler &#228;n en 
+fondf&#246;rvaltare, ska Fondtorgsn&#228;mnden snarast m&#246;jligt 
+skriftligen underr&#228;tta samtliga fondf&#246;rvaltare som har l&#228;mnat 
+anbud n&#228;r beslut om tilldelning av fondavtal har fattats.
+
+Underr&#228;ttelsen utl&#246;ser inte n&#229;gon avtalssp&#228;rr enligt 3 kap. 
+2 &#167;.
+
+Dokumentation
+
+26 &#167; Fondtorgsn&#228;mnden ska dokumentera genomf&#246;randet av en 
+kompletterande upphandling enligt 24 &#167;. Dokumentationen ska 
+vara tillr&#228;cklig f&#246;r att Fondtorgsn&#228;mnden ska kunna motivera 
+sina beslut under upphandlingens samtliga skeden. 
+
+Fondavtalet
+
+Avtalsvillkor
+
+27 &#167; Ett fondavtal ska vara aff&#228;rsm&#228;ssigt och i &#246;vrigt 
+inneh&#229;lla de villkor som kr&#228;vs f&#246;r att uppr&#228;tth&#229;lla god sed p&#229; 
+premiepensionsomr&#229;det.
+
+28 &#167; Ett fondavtal ska inneh&#229;lla villkor om att 
+fondf&#246;rvaltaren 
+
+1. ska l&#228;mna Fondtorgsn&#228;mnden de uppgifter som kr&#228;vs f&#246;r 
+till&#228;mpningen av best&#228;mmelserna i detta kapitel och 64 kap. 
+socialf&#246;rs&#228;kringsbalken, 
+
+2. ska l&#228;mna och &#229;ta sig att till Pensionsmyndigheten l&#228;mna 
+s&#229;dan information som avses i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2019/2088 av den 27 november 2019 om 
+h&#229;llbarhetsrelaterade upplysningar som ska l&#228;mnas inom den 
+finansiella sektorn, och i artiklarna 5-7 i Europaparlamentets 
+och r&#229;dets f&#246;rordning (EU) 2020/852 av den 18 juni 2020 om 
+inr&#228;ttande av en ram f&#246;r att underl&#228;tta h&#229;llbara investeringar 
+och om &#228;ndring av f&#246;rordning (EU) 2019/2088, och
+
+3. p&#229; annat s&#228;tt ska medverka i gransknings- och 
+uppf&#246;ljningsarbete.
+
+29 &#167; Ett fondavtal ska inneh&#229;lla villkor om i vilka avseenden 
+fondf&#246;rvaltaren ska samarbeta med Pensionsmyndigheten.
+
+30 &#167; Ett fondavtal ska inneh&#229;lla villkor om att 
+fondf&#246;rvaltaren ska f&#246;rvalta fondmedlen p&#229; ett f&#246;red&#246;mligt 
+s&#228;tt i fr&#229;ga om h&#229;llbarhet genom ansvarsfulla investeringar 
+och ansvarsfullt &#228;gande. 
+
+Ett minimikrav ska vara att fondf&#246;rvaltaren i f&#246;rvaltningen 
+ska iaktta vad som f&#246;ljer av s&#229;dana internationella 
+&#246;verenskommelser som Sverige har ing&#229;tt och som r&#246;r fr&#229;gor om 
+h&#229;llbarhet.
+
+Avtalets l&#246;ptid
+
+31 &#167; L&#246;ptiden f&#246;r ett fondavtal f&#229;r inte &#246;verstiga tolv &#229;r.
+
+Avtalsuppf&#246;ljning
+
+32 &#167; I 4 &#167; lagen om (2022:759) om Fondtorgsn&#228;mnden finns 
+best&#228;mmelser om att Fondtorgsn&#228;mnden ska granska att 
+fondf&#246;rvaltare och fonder l&#246;pande uppfyller villkoren i 
+fondavtalet. 
+
+Begr&#228;nsning av antal fondavtal
+
+33 &#167; Fondtorgsn&#228;mnden f&#229;r best&#228;mma ett h&#246;gsta antal fondavtal 
+som en fondf&#246;rvaltare f&#229;r ing&#229;.
+
+3 kap. Avtalssp&#228;rr, &#246;verpr&#246;vning och skadest&#229;nd
+
+Inneh&#229;ll
+
+1 &#167; Detta kapitel inneh&#229;ller best&#228;mmelser om avtalssp&#228;rr, 
+&#246;verpr&#246;vning och skadest&#229;nd n&#228;r det g&#228;ller upphandlingar 
+enligt denna lag.
+
+Avtalssp&#228;rr 
+
+2 &#167; Fondtorgsn&#228;mnden f&#229;r inte ing&#229; fondavtal innan tio dagar 
+har g&#229;tt fr&#229;n det att underr&#228;ttelsen enligt 2 kap. 15 &#167; 
+skickades (avtalssp&#228;rr).
+
+Om underr&#228;ttelsen har skickats p&#229; annat s&#228;tt &#228;n med ett 
+elektroniskt medel till en fondf&#246;rvaltare, f&#229;r fondavtal inte 
+ing&#229;s innan fjorton dagar har g&#229;tt fr&#229;n det att utskicket 
+gjordes.
+
+&#214;verpr&#246;vning
+
+Allm&#228;nna best&#228;mmelser om &#246;verpr&#246;vning
+
+3 &#167; Efter ans&#246;kan av en fondf&#246;rvaltare som anser sig ha lidit 
+eller kunna komma att lida skada f&#229;r allm&#228;n 
+f&#246;rvaltningsdomstol &#246;verpr&#246;va
+
+1. en upphandling, och
+
+2. giltigheten av ett fondavtal som har slutits mellan 
+Fondtorgsn&#228;mnden och en fondf&#246;rvaltare.
+
+Beh&#246;rig domstol
+
+4 &#167; En ans&#246;kan om &#246;verpr&#246;vning ska g&#246;ras hos den 
+f&#246;rvaltningsr&#228;tt inom vars domkrets Fondtorgsn&#228;mnden har sin 
+hemvist.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+Domstolens &#229;tg&#228;rder
+
+5 &#167; Om Fondtorgsn&#228;mnden har brutit mot n&#229;gon best&#228;mmelse i 
+2 kap. 1-4, 6, 8-20 och 22-26 &#167;&#167; och detta har medf&#246;rt att 
+fondf&#246;rvaltaren har lidit eller kan komma att lida skada, ska 
+r&#228;tten besluta att upphandlingen ska g&#246;ras om eller att den 
+f&#229;r avslutas f&#246;rst sedan r&#228;ttelse har gjorts.
+
+En upphandling f&#229;r inte &#246;verpr&#246;vas efter det att fondavtal har 
+slutits mellan Fondtorgsn&#228;mnden och en fondf&#246;rvaltare.
+
+6 &#167; Om Fondtorgsn&#228;mnden under p&#229;g&#229;ende &#246;verpr&#246;vning av en 
+upphandling ing&#229;r ett fondavtal i strid med 2, 7, 8 eller 9 &#167;, 
+ska r&#228;tten, p&#229; yrkande av fondf&#246;rvaltaren, &#246;verpr&#246;va avtalets 
+giltighet i enlighet med 12 och 13 &#167;&#167;.
+
+F&#246;rl&#228;ngd avtalssp&#228;rr
+
+7 &#167; Om en ans&#246;kan om &#246;verpr&#246;vning av en upphandling har 
+gjorts, forts&#228;tter avtalssp&#228;rren enligt 2 &#167; att g&#228;lla under 
+handl&#228;ggningen i f&#246;rvaltningsr&#228;tten (f&#246;rl&#228;ngd avtalssp&#228;rr).
+
+R&#228;tten f&#229;r besluta att n&#229;gon f&#246;rl&#228;ngd avtalssp&#228;rr inte ska 
+g&#228;lla.
+
+Interimistiskt beslut vid &#246;verpr&#246;vning av en upphandling
+
+8 &#167; N&#228;r avtalssp&#228;rr enligt 2 eller 7 &#167; inte g&#228;ller, f&#229;r r&#228;tten 
+besluta att Fondtorgsn&#228;mnden inte f&#229;r ing&#229; fondavtal innan 
+n&#229;got annat har best&#228;mts. R&#228;tten ska avst&#229; fr&#229;n att fatta ett 
+s&#229;dant beslut, om den skada eller ol&#228;genhet som beslutet 
+skulle kunna medf&#246;ra &#228;r st&#246;rre &#228;n den skada som skulle kunna 
+drabba fondf&#246;rvaltaren.
+
+R&#228;tten ska vid bed&#246;mningen ta h&#228;nsyn till pensionsspararnas 
+intresse, allm&#228;nintresset och &#246;vriga ber&#246;rda intressen.
+
+Tiodagarsfrist
+
+9 &#167; N&#228;r en f&#246;rl&#228;ngd avtalssp&#228;rr g&#228;ller enligt 7 &#167;, f&#229;r 
+Fondtorgsn&#228;mnden inte ing&#229; fondavtal innan det har g&#229;tt 
+tio dagar fr&#229;n det att f&#246;rvaltningsr&#228;tten har avgjort m&#229;let.
+
+N&#228;r en f&#246;rvaltningsr&#228;tt eller en kammarr&#228;tt har fattat ett 
+beslut enligt 8 &#167;, f&#229;r fondavtal inte ing&#229;s innan det har g&#229;tt 
+tio dagar fr&#229;n det att r&#228;tten har avgjort m&#229;let eller upph&#228;vt 
+beslutet. N&#228;r H&#246;gsta f&#246;rvaltningsdomstolen har fattat ett 
+beslut enligt 8 &#167; och &#229;terf&#246;rvisat m&#229;let till l&#228;gre instans, 
+f&#229;r fondavtal inte ing&#229;s innan det har g&#229;tt tio dagar fr&#229;n 
+beslutet om &#229;terf&#246;rvisning.
+
+R&#228;tten f&#229;r besluta att n&#229;gon tiodagarsfrist inte ska g&#228;lla.
+
+Tidsfrister f&#246;r ans&#246;kan om &#246;verpr&#246;vning av en upphandling
+
+10 &#167; En ans&#246;kan om &#246;verpr&#246;vning av en upphandling ska ha 
+kommit in till f&#246;rvaltningsr&#228;tten f&#246;re utg&#229;ngen av en s&#229;dan 
+avtalssp&#228;rr som avses i 2 &#167;.
+
+11 &#167; En ans&#246;kan om &#246;verpr&#246;vning av ett beslut att avbryta en 
+upphandling ska ha kommit in till f&#246;rvaltningsr&#228;tten innan det 
+har g&#229;tt tio dagar fr&#229;n det att Fondtorgsn&#228;mnden med ett 
+elektroniskt medel har skickat en underr&#228;ttelse om beslutet 
+och angett sk&#228;len f&#246;r beslutet.
+
+Om underr&#228;ttelsen har skickats p&#229; annat s&#228;tt &#228;n med ett 
+elektroniskt medel till en eller flera fondf&#246;rvaltare, ska en 
+ans&#246;kan om &#246;verpr&#246;vning ha kommit in till f&#246;rvaltningsr&#228;tten 
+innan det har g&#229;tt fjorton dagar fr&#229;n det att underr&#228;ttelsen 
+skickades ut.
+
+&#214;verpr&#246;vning av ett fondavtals giltighet
+
+12 &#167; R&#228;tten ska besluta att ett fondavtal som har slutits 
+mellan Fondtorgsn&#228;mnden och en fondf&#246;rvaltare &#228;r ogiltigt, om 
+det har slutits
+
+1. utan f&#246;reg&#229;ende annonsering enligt 2 kap. 8 &#167;, n&#228;r 
+kompletterande upphandling enligt 2 kap. 24 &#167; inte har f&#229;tt 
+anv&#228;ndas,
+
+2. i strid med best&#228;mmelserna om avtalssp&#228;rr i 2 eller 7 &#167;, 
+ett interimistiskt beslut enligt 8 &#167; eller tiodagarsfristen i 
+9 &#167;, eller
+
+3. innan det har l&#228;mnats en underr&#228;ttelse om 
+tilldelningsbeslut enligt 2 kap. 15 &#167;.
+
+F&#246;r ogiltighet i de fall som anges i f&#246;rsta stycket 2 och 3 
+kr&#228;vs dessutom att Fondtorgsn&#228;mnden har &#246;vertr&#228;tt n&#229;gon annan 
+av de best&#228;mmelser som anges i 5 &#167; och att detta har medf&#246;rt 
+att fondf&#246;rvaltaren har lidit eller kan komma att lida skada.
+
+Interimistiskt beslut vid &#246;verpr&#246;vning av ett fondavtals 
+giltighet
+
+13 &#167; R&#228;tten f&#229;r besluta att ett fondavtal inte f&#229;r fullg&#246;ras 
+innan n&#229;got annat har best&#228;mts. R&#228;tten ska avst&#229; fr&#229;n att 
+fatta ett s&#229;dant beslut, om den skada eller ol&#228;genhet som 
+beslutet skulle kunna medf&#246;ra &#228;r st&#246;rre &#228;n den skada som 
+skulle kunna drabba fondf&#246;rvaltaren. 
+
+R&#228;tten ska vid bed&#246;mningen ta h&#228;nsyn till pensionsspararnas 
+intresse, allm&#228;nintresset och &#246;vriga ber&#246;rda intressen.
+
+Tidsfrister f&#246;r ans&#246;kan om &#246;verpr&#246;vning av ett avtals 
+giltighet
+
+14 &#167; En ans&#246;kan om &#246;verpr&#246;vning av ett fondavtals giltighet 
+ska, om inte annat f&#246;ljer av andra stycket, ha kommit in till 
+f&#246;rvaltningsr&#228;tten inom sex m&#229;nader fr&#229;n det att avtalet 
+sl&#246;ts.
+
+Ans&#246;kan ska dock ha kommit in till f&#246;rvaltningsr&#228;tten innan 
+det har g&#229;tt trettio dagar fr&#229;n det att Fondtorgsn&#228;mnden 
+skriftligen har underr&#228;ttat de fondf&#246;rvaltare som har l&#228;mnat 
+anbudsans&#246;kan eller anbud om att fondavtalet har slutits och 
+har l&#228;mnat en sammanfattning av s&#229;dana upplysningar som avses 
+i 2 kap. 16 &#167;.
+
+Ber&#228;kning av vissa tider
+
+15 &#167; Vid ber&#228;kningen av l&#228;ngden av en avtalssp&#228;rr samt av 
+tiodagarsfrister enligt 9 &#167; och tidsfrister f&#246;r ans&#246;kan om 
+&#246;verpr&#246;vning ska 2 &#167; lagen (1930:173) om ber&#228;kning av 
+lagstadgad tid till&#228;mpas.
+
+Skadest&#229;nd
+
+16 &#167; Om Fondtorgsn&#228;mnden inte har f&#246;ljt en best&#228;mmelse som 
+anges i 5 &#167;, ska Fondtorgsn&#228;mnden ers&#228;tta den skada som 
+d&#228;rigenom har uppkommit f&#246;r en fondf&#246;rvaltare.
+
+R&#228;tten till skadest&#229;nd inbegriper &#228;ven ers&#228;ttning till en 
+fondf&#246;rvaltare som har deltagit i en upphandling f&#246;r kostnader 
+som fondf&#246;rvaltaren har haft f&#246;r att f&#246;rbereda anbud och i 
+&#246;vrigt f&#246;r att delta i upphandlingen, om &#229;sidos&#228;ttandet av 
+best&#228;mmelsen menligt har p&#229;verkat fondf&#246;rvaltarens m&#246;jligheter 
+att tilldelas fondavtalet.
+
+17 &#167; Talan om skadest&#229;nd f&#229;r v&#228;ckas vid allm&#228;n domstol inom 
+ett &#229;r fr&#229;n den tidpunkt d&#229; fondavtal har slutits mellan 
+Fondtorgsn&#228;mnden och en fondf&#246;rvaltare eller har f&#246;rklarats 
+ogiltigt enligt 12 &#167; genom ett avg&#246;rande som har f&#229;tt laga 
+kraft. V&#228;cks inte talan inom denna tid, &#228;r r&#228;tten till 
+skadest&#229;nd f&#246;rlorad.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=225">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=227">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

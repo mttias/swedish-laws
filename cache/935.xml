@@ -1,0 +1,881 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2016-11-29" /> 
+ <meta id="rattsinfo-edited" content="2018-12-18" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>935</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=934">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=936">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2016:1013 ·
+                    <a href="/sfsr?bet=2016:1013">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2016:1013) om personnamn</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2016-11-17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:1295
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2017-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens inneh&#229;ll
+
+1 &#167; I denna lag finns best&#228;mmelser om f&#246;rv&#228;rv och &#228;ndring av 
+personnamn. Med personnamn avses efternamn, f&#246;rnamn och 
+g&#229;rdsnamn.
+
+Lagen inneh&#229;ller ocks&#229; best&#228;mmelser om
+
+– f&#246;rlust av efternamn,
+
+– s&#228;rskilt skydd f&#246;r efternamn,
+
+– internationella f&#246;rh&#229;llanden,
+
+– samtycke eller pr&#246;vning vid byte av barns efternamn,
+
+– tidpunkten f&#246;r f&#246;rv&#228;rv eller &#228;ndring av personnamn,
+
+– f&#246;rfarandet i m&#229;l och &#228;renden.
+
+Allm&#228;nt om f&#246;rv&#228;rv och &#228;ndring av personnamn
+
+2 &#167; En person f&#229;r f&#246;rv&#228;rva eller &#228;ndra ett personnamn enligt 
+vad som f&#246;reskrivs i denna lag.
+
+Ett efternamn kan f&#246;rv&#228;rvas genom f&#246;delsen eller adoption 
+enligt 4–8 &#167;&#167;, genom byte enligt 9–12 &#167;&#167;, 13 &#167; f&#246;rsta stycket 
+och 14–20 &#167;&#167; eller enligt 30 &#167;. Ett efternamn kan &#228;ndras 
+enligt 13 &#167; andra stycket.
+
+Ett f&#246;rnamn eller ett g&#229;rdsnamn kan f&#246;rv&#228;rvas eller &#228;ndras 
+enligt 26–30 &#167;&#167;.
+
+3 &#167; Den som vill f&#246;rv&#228;rva eller &#228;ndra ett personnamn ska 
+ans&#246;ka om detta hos Skatteverket.
+
+Efternamn
+
+F&#246;rv&#228;rv av efternamn genom f&#246;delsen
+
+4 &#167; N&#228;r ett barn har f&#246;tts ska barnet ges ett efternamn.
+
+Barnets efternamn f&#229;r vara
+
+1. ett efternamn som f&#246;r&#228;ldrarna eller n&#229;gon av dem b&#228;r,
+
+2. ett efternamn som n&#229;gon av f&#246;r&#228;ldrarna har burit,
+
+3. ett dubbelt efternamn enligt 20 &#167; andra stycket som &#228;r 
+bildat av efternamn som f&#246;r&#228;ldrarna b&#228;r,
+
+4. ett efternamn som &#228;r bildat av n&#229;got av f&#246;r&#228;ldrarnas 
+f&#246;rnamn med till&#228;gg av n&#229;gon av &#228;ndelserna -son eller 
+-dotter, eller som &#228;r bildat p&#229; j&#228;mf&#246;rligt s&#228;tt, eller
+
+5. ett efternamn som n&#229;got av f&#246;r&#228;ldrarnas gemensamma barn 
+b&#228;r.
+
+Ett efternamn enligt andra stycket 2 f&#229;r inte vara ett namn 
+som har f&#246;rv&#228;rvats genom &#228;ktenskap, utom i det fall en 
+f&#246;r&#228;lder som avlidit bar namnet vid sin d&#246;d.
+
+5 &#167; En ans&#246;kan om f&#246;rv&#228;rv av det efternamn ett barn ska ges 
+enligt 4 &#167; ska g&#246;ras inom tre m&#229;nader fr&#229;n barnets f&#246;delse. 
+Det &#228;r f&#246;rh&#229;llandena vid ans&#246;kningstillf&#228;llet som &#228;r 
+avg&#246;rande f&#246;r bed&#246;mningen av om ett namn f&#229;r f&#246;rv&#228;rvas.
+
+Om det inte g&#246;rs n&#229;gon ans&#246;kan inom den tid som anges i 
+f&#246;rsta stycket, f&#246;rv&#228;rvar barnet det efternamn som den 
+f&#246;r&#228;lder som har f&#246;tt barnet b&#228;r eller, om den f&#246;r&#228;ldern har 
+avlidit, det efternamn som den f&#246;r&#228;ldern bar vid sin d&#246;d.
+
+F&#246;rv&#228;rv av efternamn genom adoption
+
+6 &#167; Efter ett beslut om adoption ska adoptivbarnet ges ett 
+nytt efternamn. Detta g&#228;ller dock inte om en make eller sambo 
+adopterar den andra makens eller sambons barn eller om en 
+domstol har beslutat enligt 8 &#167;.
+
+N&#228;r makar eller sambor adopterar gemensamt f&#229;r adoptivbarnets 
+efternamn vara
+
+1. ett efternamn som adoptivf&#246;r&#228;ldrarna eller n&#229;gon av dem 
+b&#228;r,
+
+2. ett efternamn som n&#229;gon av adoptivf&#246;r&#228;ldrarna har burit,
+
+3. ett dubbelt efternamn enligt 20 &#167; andra stycket som &#228;r 
+bildat av efternamn som adoptivf&#246;r&#228;ldrarna b&#228;r,
+
+4. ett efternamn som &#228;r bildat av n&#229;got av 
+adoptivf&#246;r&#228;ldrarnas f&#246;rnamn med till&#228;gg av n&#229;gon av 
+&#228;ndelserna -son eller -dotter, eller som &#228;r bildat p&#229; 
+j&#228;mf&#246;rligt s&#228;tt, eller
+
+5. ett efternamn som n&#229;got av adoptivf&#246;r&#228;ldrarnas gemensamma 
+barn b&#228;r. 
+
+Ett efternamn enligt andra stycket 2 f&#229;r inte vara ett namn 
+som har f&#246;rv&#228;rvats genom &#228;ktenskap, utom i det fall en 
+adoptivf&#246;r&#228;lder som avlidit bar namnet vid sin d&#246;d.
+
+N&#228;r ett adoptivbarn adopteras av en person ensam g&#228;ller andra 
+stycket 1, 2 och 4 och tredje stycket den f&#246;r&#228;ldern.
+Lag (2018:1295).
+
+7 &#167; En ans&#246;kan om f&#246;rv&#228;rv av det efternamn ett adoptivbarn 
+ska ges enligt 6 &#167; ska g&#246;ras inom tre m&#229;nader fr&#229;n beslutet 
+om adoption. Det &#228;r f&#246;rh&#229;llandena vid ans&#246;kningstillf&#228;llet 
+som &#228;r avg&#246;rande f&#246;r bed&#246;mningen av om ett namn f&#229;r 
+f&#246;rv&#228;rvas.
+
+Om det inte g&#246;rs n&#229;gon ans&#246;kan inom den tid som anges i 
+f&#246;rsta stycket, f&#246;rv&#228;rvar adoptivbarnet den &#228;ldre av 
+adoptivf&#246;r&#228;ldrarnas efternamn eller, n&#228;r ett adoptivbarn 
+adopteras av en person ensam, adoptivf&#246;r&#228;lderns efternamn.
+
+8 &#167; En domstol f&#229;r i adoptions&#228;rendet besluta att 
+adoptivbarnet ska beh&#229;lla sitt efternamn, eller f&#246;rv&#228;rva ett 
+dubbelt efternamn enligt 20 &#167; andra stycket som &#228;r bildat av 
+det efternamn som barnet b&#228;r och ett efternamn som en 
+adoptivf&#246;r&#228;lder b&#228;r.
+
+Byte till ett efternamn med anknytning till en f&#246;r&#228;lder
+
+9 &#167; En person f&#229;r byta sitt efternamn till
+
+1. ett efternamn som f&#246;r&#228;ldrarna eller n&#229;gon av dem b&#228;r,
+
+2. ett efternamn som n&#229;gon av f&#246;r&#228;ldrarna har burit,
+
+3. ett dubbelt efternamn enligt 20 &#167; andra stycket som &#228;r 
+bildat av efternamn som f&#246;r&#228;ldrarna b&#228;r eller har burit, 
+eller
+
+4. ett efternamn som &#228;r bildat av n&#229;got av f&#246;r&#228;ldrarnas 
+f&#246;rnamn med till&#228;gg av n&#229;gon av &#228;ndelserna -son eller 
+-dotter, eller som &#228;r bildat p&#229; j&#228;mf&#246;rligt s&#228;tt.
+
+Ett efternamn enligt f&#246;rsta stycket 2 och 3 som n&#229;gon av 
+f&#246;r&#228;ldrarna har burit f&#229;r inte vara ett namn som har 
+f&#246;rv&#228;rvats genom &#228;ktenskap, utom i det fall en f&#246;r&#228;lder som 
+avlidit bar namnet vid sin d&#246;d.
+
+10 &#167; En person som har f&#246;rv&#228;rvat sitt efternamn genom 
+adoption enligt 6 &#167; f&#229;r byta namnet till ett dubbelt 
+efternamn enligt 20 &#167; andra stycket som &#228;r bildat av det 
+efternamn som han eller hon b&#228;r och det efternamn som bars 
+f&#246;re adoptionen.
+
+Byte till en familjehemsf&#246;r&#228;lders efternamn
+
+11 &#167; Ett barn som f&#246;r stadigvarande v&#229;rd och fostran i ett 
+enskilt hem har tagits emot av n&#229;gon annan &#228;n barnets 
+f&#246;r&#228;ldrar, f&#229;r byta sitt efternamn till 
+
+1. ett efternamn som familjehemsf&#246;r&#228;ldern eller n&#229;gon av 
+familjehemsf&#246;r&#228;ldrarna b&#228;r,
+
+2. ett dubbelt efternamn enligt 20 &#167; andra stycket som &#228;r 
+bildat av efternamn som familjehemsf&#246;r&#228;ldrarna b&#228;r, eller 
+
+3. ett dubbelt efternamn enligt 20 &#167; andra stycket som &#228;r 
+bildat av det efternamn som barnet b&#228;r och ett efternamn som 
+en familjehemsf&#246;r&#228;lder b&#228;r. 
+
+Byte till en makes efternamn
+
+12 &#167; En make f&#229;r byta sitt efternamn till den andra makens 
+efternamn.
+
+En make f&#229;r byta sitt efternamn till ett dubbelt efternamn 
+enligt 20 &#167; andra stycket som &#228;r bildat av det efternamn som 
+maken b&#228;r och det efternamn som den andra maken b&#228;r. 
+
+F&#246;rsta och andra styckena g&#228;ller &#228;ven en efterlevande makes 
+byte till den avlidna makens efternamn. 
+
+Byte till andra efternamn och &#228;ndring av efternamn
+
+13 &#167; En person f&#229;r byta sitt efternamn till ett nybildat 
+efternamn eller till ett befintligt efternamn som inte kan 
+f&#246;rv&#228;rvas enligt 4–12 eller 30 &#167;, om f&#246;ruts&#228;ttningarna i 
+14–19 &#167;&#167; &#228;r uppfyllda eller om det annars finns s&#228;rskilda 
+sk&#228;l.
+
+En person f&#229;r &#228;ndra sitt efternamn utan att det anses som 
+byte till ett annat efternamn genom
+
+1. en enkel stavnings&#228;ndring som inte f&#246;r&#228;ndrar namnets 
+uttal,
+
+2. en &#228;ndring av namnets genusform, eller
+
+3. en &#228;ndring av ordningsf&#246;ljden mellan namnen i ett dubbelt 
+efternamn. 
+
+14 &#167; En person f&#229;r byta till ett nybildat efternamn endast om 
+namnet inte
+
+1. anv&#228;nds som f&#246;rnamn,
+
+2. best&#229;r av mer &#228;n ett ord,
+
+3. kan v&#228;cka anst&#246;t,
+
+4. kan antas leda till obehag f&#246;r den som ska b&#228;ra namnet, 
+eller
+
+5. av n&#229;gon annan anledning &#228;r ol&#228;mpligt som efternamn.
+
+15 &#167; Om inte annat f&#246;ljer av 16–19 &#167;&#167;, f&#229;r en person endast 
+byta till ett efternamn som inte kan f&#246;rv&#228;xlas med
+
+1. ett efternamn som n&#229;gon annan lagligen b&#228;r,
+
+2. ett historiskt k&#228;nt efternamn som har burits av en utd&#246;d 
+sl&#228;kt,
+
+3. ett allm&#228;nt k&#228;nt utl&#228;ndskt efternamn,
+
+4. n&#229;gon annans allm&#228;nt k&#228;nda konstn&#228;rsnamn eller ett 
+likartat namn,
+
+5. en beteckning f&#246;r en stiftelse, en ideell f&#246;rening eller 
+en liknande sammanslutning,
+
+6. n&#229;gon annans i Sverige skyddade n&#228;ringsk&#228;nnetecken eller 
+varuk&#228;nnetecken, eller
+
+7. n&#229;got som finns i ett litter&#228;rt eller konstn&#228;rligt verk 
+och som kr&#228;nker n&#229;gon annans upphovsr&#228;tt till verket.
+
+Vid en pr&#246;vning enligt f&#246;rsta stycket ska ett dubbelt 
+efternamn anses som tv&#229; efternamn.
+
+16 &#167; En person f&#229;r byta till ett efternamn som lagligen b&#228;rs 
+av minst 2 000 personer.
+
+En person f&#229;r &#228;ven byta till ett efternamn som lagligen b&#228;rs 
+av f&#228;rre &#228;n 2 000 personer, om namnet n&#229;gon g&#229;ng har kunnat 
+f&#246;rv&#228;rvas enligt f&#246;rsta stycket.
+
+Vid en pr&#246;vning enligt f&#246;rsta eller andra stycket ska ett 
+dubbelt efternamn anses som tv&#229; efternamn.
+
+17 &#167; Om en person har f&#246;rv&#228;rvat ett nybildat efternamn enligt 
+denna lag, f&#229;r d&#228;refter den personens f&#246;r&#228;lder, syskon eller 
+syskonbarn byta till det namnet, om personen samtycker till 
+det. Om det f&#246;rsta f&#246;rv&#228;rvet har gjorts av flera, kr&#228;vs att 
+alla samtycker.
+
+18 &#167; En person f&#229;r byta till ett efternamn som har funnits i 
+hans eller hennes sl&#228;kt i rakt uppstigande led i minst tv&#229; 
+generationer. Det f&#229;r dock inte vara l&#228;ngre sedan n&#229;gon i 
+sl&#228;kten bar namnet &#228;n fyra generationer tillbaka, r&#228;knat fr&#229;n 
+och med personens f&#246;r&#228;ldrar.
+
+19 &#167; En person f&#229;r byta till ett efternamn som han eller hon 
+tidigare har burit utan att ha f&#246;rlorat det enligt 21 &#167;.
+
+En person f&#229;r byta till ett efternamn genom att stryka ett av 
+namnen i sitt dubbla efternamn.
+
+Byte till dubbelt efternamn
+
+20 &#167; En person f&#229;r byta sitt efternamn till ett dubbelt 
+efternamn som inte kan f&#246;rv&#228;rvas enligt 4–13 eller 30 &#167;.
+
+Ett dubbelt efternamn enligt f&#246;rsta stycket f&#229;r endast best&#229; 
+av tv&#229; enkla efternamn som den personen kan f&#246;rv&#228;rva var f&#246;r 
+sig enligt denna lag. Namnen i det dubbla efternamnet ska 
+b&#228;ras i en best&#228;md ordning och f&#229;r f&#246;renas med ett 
+bindestreck.
+
+F&#246;rlust av efternamn
+
+21 &#167; Om n&#229;gon har f&#246;rv&#228;rvat ett efternamn som han eller hon 
+inte har r&#228;tt till och detta leder till besv&#228;r f&#246;r n&#229;gon 
+annan, ska en domstol p&#229; talan av den sistn&#228;mnde besluta att 
+namnet f&#246;rloras, om det inte finns s&#228;rskilda sk&#228;l mot det.
+
+Om n&#229;gon f&#246;rlorar sitt efternamn enligt f&#246;rsta stycket, ska 
+domstolen besluta att ocks&#229; den som genom denne har f&#246;rv&#228;rvat 
+namnet f&#246;rlorar namnet, om talan f&#246;rs om detta och det inte 
+finns s&#228;rskilda sk&#228;l mot det. Detsamma g&#228;ller om n&#229;gon som 
+skulle ha f&#246;rlorat sitt efternamn enligt f&#246;rsta stycket har 
+avlidit.
+
+En talan enligt f&#246;rsta stycket som grundar sig p&#229; att ett 
+faderskap eller f&#246;r&#228;ldraskap enligt 1 kap. 9 &#167; f&#246;r&#228;ldrabalken 
+har h&#228;vts f&#229;r inte v&#228;ckas senare &#228;n ett &#229;r efter h&#228;vandet. I 
+&#246;vriga fall f&#229;r talan inte v&#228;ckas senare &#228;n fem &#229;r efter det 
+att Skatteverkets beslut fick laga kraft.
+
+22 &#167; Om n&#229;gon f&#246;rlorar sitt efternamn enligt 21 &#167;, ska 
+domstolen med till&#228;mpning av 4–12 &#167;&#167; fastst&#228;lla vilket namn 
+som f&#246;rv&#228;rvas i st&#228;llet f&#246;r det som f&#246;rloras.
+
+S&#228;rskilt skydd f&#246;r efternamn
+
+23 &#167; Ingen f&#229;r obeh&#246;rigen, till nackdel f&#246;r den som har skydd 
+f&#246;r sitt efternamn enligt 15 &#167;,
+
+1. anv&#228;nda ett namn som kan f&#246;rv&#228;xlas med efternamnet,
+
+2. i n&#228;ringsverksamhet anv&#228;nda en beteckning f&#246;r en 
+stiftelse, en ideell f&#246;rening eller en liknande 
+sammanslutning som kan f&#246;rv&#228;xlas med efternamnet, eller
+
+3. i n&#228;ringsverksamhet anv&#228;nda ett n&#228;ringsk&#228;nnetecken, 
+varuk&#228;nnetecken eller annat k&#228;nnetecken som kan f&#246;rv&#228;xlas med 
+efternamnet.
+
+Vid en pr&#246;vning enligt f&#246;rsta stycket ska ett dubbelt 
+efternamn anses som tv&#229; efternamn.
+
+24 &#167; R&#228;tten till ett inarbetat n&#228;ringsk&#228;nnetecken eller 
+varuk&#228;nnetecken eller ett allm&#228;nt k&#228;nt konstn&#228;rsnamn eller 
+likartat namn ska g&#228;lla vid sidan av en &#228;ldre r&#228;tt till ett 
+s&#229;dant efternamn som har s&#228;rskilt skydd enligt 23 &#167; och som 
+k&#228;nnetecknet eller konstn&#228;rsnamnet kan f&#246;rv&#228;xlas med, om den 
+som b&#228;r efternamnet inte inom rimlig tid vidtar &#229;tg&#228;rder f&#246;r 
+att hindra anv&#228;ndningen av k&#228;nnetecknet eller 
+konstn&#228;rsnamnet.
+
+P&#229; yrkande av en part f&#229;r en domstol, om det &#228;r sk&#228;ligt, 
+besluta att ett k&#228;nnetecken eller ett konstn&#228;rsnamn endast 
+f&#229;r anv&#228;ndas p&#229; ett s&#228;rskilt s&#228;tt.
+
+Vid en pr&#246;vning enligt f&#246;rsta stycket ska ett dubbelt 
+efternamn anses som tv&#229; efternamn.
+
+25 &#167; Den som g&#246;r intr&#229;ng i n&#229;gon annans r&#228;tt enligt 23 &#167; &#228;r 
+skyldig att ers&#228;tta den kr&#228;nkning och annan skada som 
+intr&#229;nget har medf&#246;rt, om han eller hon har insett eller 
+borde ha insett att anv&#228;ndandet var till nackdel f&#246;r den 
+andre.
+
+F&#246;rnamn
+
+26 &#167; Varje barn ska ges ett eller flera f&#246;rnamn.
+
+En ans&#246;kan om f&#246;rv&#228;rv av barnets f&#246;rnamn ska g&#246;ras inom tre 
+m&#229;nader fr&#229;n barnets f&#246;delse.
+
+27 &#167; En person f&#229;r f&#246;rv&#228;rva eller &#228;ndra f&#246;rnamn genom
+
+1. till&#228;gg av ett eller flera namn,
+
+2. byte av ett eller flera namn,
+
+3. strykning av ett eller flera namn, dock inte alla, eller
+
+4. &#228;ndring av ordningsf&#246;ljden mellan tv&#229; eller flera namn.  
+Lag (2018:1295).
+
+28 &#167; Som f&#246;rnamn f&#229;r endast f&#246;rv&#228;rvas ett namn som inte
+
+1. kan v&#228;cka anst&#246;t,
+
+2. kan antas leda till obehag f&#246;r den som ska b&#228;ra namnet, 
+eller
+
+3. av n&#229;gon annan anledning &#228;r ol&#228;mpligt som f&#246;rnamn.
+
+G&#229;rdsnamn
+
+29 &#167; Ett g&#229;rdsnamn som enligt gammal sedv&#228;nja anv&#228;nds eller 
+har anv&#228;nts som tillnamn f&#229;r f&#246;rv&#228;rvas av den som har 
+anknytning till g&#229;rdsnamnet genom sl&#228;ktskap eller &#228;ktenskap. 
+G&#229;rdsnamnet ska b&#228;ras n&#228;rmast f&#246;re eller efter f&#246;rnamnen.
+
+Den som b&#228;r ett g&#229;rdsnamn f&#229;r stryka namnet eller &#228;ndra 
+ordningsf&#246;ljden mellan namnet och f&#246;rnamnen.
+
+Internationella f&#246;rh&#229;llanden
+
+30 &#167; Den som har f&#246;rv&#228;rvat ett namn i en annan stat inom 
+Europeiska ekonomiska samarbetsomr&#229;det eller i Schweiz genom 
+f&#246;delse, &#228;ndrat civilst&#229;nd eller annat familjer&#228;ttsligt 
+f&#246;rh&#229;llande har r&#228;tt att f&#246;rv&#228;rva det namnet ocks&#229; i Sverige, 
+om han eller hon vid f&#246;rv&#228;rvet i den andra staten var 
+medborgare eller hade hemvist d&#228;r eller hade n&#229;gon annan 
+s&#228;rskild anknytning dit.
+
+F&#246;rsta stycket ger inte en person r&#228;tt att som f&#246;rnamn 
+f&#246;rv&#228;rva ett namn som 
+
+1. kan v&#228;cka anst&#246;t,
+
+2. kan antas leda till obehag f&#246;r den som ska b&#228;ra namnet, 
+eller
+
+3. av n&#229;gon annan anledning &#228;r ol&#228;mpligt som f&#246;rnamn.
+
+31 &#167; Lagen g&#228;ller inte f&#246;r svenska medborgare som har hemvist 
+i Danmark, Finland eller Norge.
+
+32 &#167; Lagen till&#228;mpas p&#229; danska, finska och norska medborgare 
+som har hemvist i Sverige.
+
+Lagen f&#229;r till&#228;mpas p&#229; andra utl&#228;ndska medborgare som har 
+hemvist i Sverige. I fr&#229;ga om efternamn som har f&#246;rv&#228;rvats 
+enligt lagen g&#228;ller 21–25 &#167;&#167;.
+
+N&#228;r utl&#228;ndska medborgare adopteras h&#228;r i landet till&#228;mpas 
+alltid 6–8 &#167;&#167;.
+
+33 &#167; Lagen till&#228;mpas p&#229; statsl&#246;sa personer som har hemvist i 
+Sverige eller, om de inte har hemvist i n&#229;got land, har sin 
+vistelseort h&#228;r.
+
+Samtycke eller pr&#246;vning vid byte av barns efternamn
+
+34 &#167; Om ett barn b&#228;r n&#229;gon av f&#246;r&#228;ldrarnas efternamn utan att 
+denna f&#246;r&#228;lder &#228;r v&#229;rdnadshavare, kr&#228;vs f&#246;r att barnet ska f&#229; 
+byta efternamn att f&#246;r&#228;ldern har samtyckt till bytet eller 
+att en domstol har f&#246;rklarat att bytet &#228;r f&#246;renligt med 
+barnets b&#228;sta.
+
+F&#246;r att ett barn ska f&#229; byta efternamn enligt 11 &#167; kr&#228;vs att 
+den eller de vars namn ska f&#246;rv&#228;rvas har samtyckt till bytet 
+och att en domstol har f&#246;rklarat att bytet &#228;r f&#246;renligt med 
+barnets b&#228;sta.
+
+Tidpunkten f&#246;r f&#246;rv&#228;rv eller &#228;ndring av personnamn
+
+35 &#167; Ett personnamn f&#246;rv&#228;rvas eller &#228;ndras n&#228;r namnet 
+registreras, om inte annat anges i andra–fj&#228;rde stycket.
+
+Ett efternamn enligt 4 eller 5 &#167; anses vara f&#246;rv&#228;rvat vid 
+f&#246;delsen. Detsamma g&#228;ller ett efternamn enligt 22 &#167;, om det 
+namn som har f&#246;rlorats har f&#246;rv&#228;rvats vid f&#246;delsen.
+
+Ett efternamn enligt 6 eller 7 &#167; anses vara f&#246;rv&#228;rvat vid 
+adoptionen. Detsamma g&#228;ller ett dubbelt efternamn enligt 8 
+&#167;.
+
+Ett efternamn enligt 12 &#167; anses vara f&#246;rv&#228;rvat vid vigseln om 
+ans&#246;kan g&#246;rs senast samma dag som vigseln.
+
+F&#246;rfarandet i m&#229;l och &#228;renden
+
+F&#246;rfarandet hos Skatteverket
+
+36 &#167; Skatteverket beslutar om f&#246;rv&#228;rv eller &#228;ndring av 
+personnamn efter en ans&#246;kan enligt 3 &#167;. Om namnet beslutas av 
+domstol enligt 8 eller 22 &#167;, ska dock ingen ans&#246;kan g&#246;ras.
+
+37 &#167; En ans&#246;kan ska vara skriftlig.
+
+Ans&#246;kan ska inneh&#229;lla uppgifter om
+
+1. s&#246;kandens namn och personnummer eller samordningsnummer,
+
+2. s&#246;kandens adress och telefonnummer,
+
+3. det som yrkas, och
+
+4. de omst&#228;ndigheter som &#229;beropas till st&#246;d f&#246;r ans&#246;kan.
+
+38 &#167; Regeringen kan med st&#246;d av 8 kap. 7 &#167; regeringsformen 
+meddela f&#246;reskrifter om avgifter f&#246;r ans&#246;kan om namn enligt 
+denna lag.
+
+39 &#167; Om en ans&#246;kan &#228;r s&#229; bristf&#228;llig att den inte kan l&#228;ggas 
+till grund f&#246;r en pr&#246;vning i sak, ska Skatteverket f&#246;rel&#228;gga 
+s&#246;kanden att avhj&#228;lpa bristen inom en viss tid. Detsamma 
+g&#228;ller om s&#246;kanden inte har betalat ans&#246;kningsavgiften. 
+F&#246;rel&#228;ggandet beh&#246;ver inte delges. 
+
+Om s&#246;kanden inte f&#246;ljer f&#246;rel&#228;ggandet, ska ans&#246;kan avvisas. 
+S&#246;kanden ska upplysas om detta i f&#246;rel&#228;ggandet.
+
+40 &#167; Skatteverket ska beg&#228;ra in ett yttrande fr&#229;n en 
+myndighet eller annan om det beh&#246;vs f&#246;r att pr&#246;va ett namns 
+l&#228;mplighet med h&#228;nsyn till spr&#229;kliga eller andra f&#246;rh&#229;llanden 
+eller namnets f&#246;renlighet med namnskyddet.
+
+41 &#167; Om en ans&#246;kan om f&#246;rv&#228;rv av ett efternamn enligt 13 &#167; 
+inte avvisas eller avsl&#229;s, ska den kung&#246;ras i Post- och 
+Inrikes Tidningar. Detsamma g&#228;ller en ans&#246;kan om f&#246;rv&#228;rv av 
+ett dubbelt efternamn enligt 20 &#167; om n&#229;got av namnen som 
+ing&#229;r i det dubbla efternamnet inte kan f&#246;rv&#228;rvas enligt 4–12 
+eller 30 &#167;. Ett kung&#246;rande beh&#246;ver dock inte ske om det 
+skulle sakna betydelse.
+
+N&#228;r kung&#246;rande har skett ska den som vill inv&#228;nda mot ans&#246;kan 
+g&#246;ra detta skriftligen inom en m&#229;nad fr&#229;n kung&#246;relsedagen. 
+Skatteverket f&#229;r inte meddela beslut i &#228;rendet innan tiden 
+f&#246;r att g&#246;ra en inv&#228;ndning har g&#229;tt ut.
+
+&#214;verklagande av Skatteverkets beslut 
+
+42 &#167; Skatteverkets beslut enligt denna lag f&#229;r &#246;verklagas 
+till allm&#228;n f&#246;rvaltningsdomstol. 
+
+Den som har gjort en inv&#228;ndning med anledning av en ans&#246;kan 
+som anges i 41 &#167; f&#229;r &#246;verklaga ett beslut som inneb&#228;r att 
+ans&#246;kan bifalls. Den som har avst&#229;tt fr&#229;n att g&#246;ra en s&#229;dan 
+inv&#228;ndning f&#229;r inte &#246;verklaga beslutet.
+
+Beslutet &#246;verklagas till den f&#246;rvaltningsr&#228;tt inom vars 
+domkrets personen vars namn det g&#228;ller var folkbokf&#246;rd vid 
+tidpunkten f&#246;r beslutet. Om det inte finns n&#229;gon s&#229;dan 
+beh&#246;rig domstol, &#246;verklagas beslutet till F&#246;rvaltningsr&#228;tten 
+i Stockholm.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till 
+kammarr&#228;tten.
+F&#246;rel&#228;ggande att ans&#246;ka om barns f&#246;rnamn
+
+43 &#167; Om barnets v&#229;rdnadshavare inte har ans&#246;kt om f&#246;rv&#228;rv av 
+sitt barns f&#246;rnamn inom den tid som anges i 26 &#167; andra 
+stycket, f&#229;r Skatteverket f&#246;rel&#228;gga v&#229;rdnadshavaren att inom 
+en viss tid fullg&#246;ra denna skyldighet.
+
+Ett nytt f&#246;rel&#228;ggande om samma sak f&#229;r f&#246;renas med vite.
+
+En fr&#229;ga om utd&#246;mande av vite pr&#246;vas av den f&#246;rvaltningsr&#228;tt 
+som &#228;r beh&#246;rig att pr&#246;va ett &#246;verklagande av ett beslut 
+enligt 42 &#167;.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till 
+kammarr&#228;tten.
+
+F&#246;rfarandet i allm&#228;n domstol
+
+44 &#167; En ans&#246;kan om f&#246;rklaring att ett namnbyte &#228;r f&#246;renligt 
+med barnets b&#228;sta enligt 34 &#167; pr&#246;vas av den tingsr&#228;tt som tar 
+upp fr&#229;gor om v&#229;rdnaden om barnet.
+
+Domstolen ska, om det kan ske, h&#246;ra den vars efternamn barnet 
+b&#228;r, om han eller hon inte &#228;r v&#229;rdnadshavare. Domstolen ska 
+&#228;ven, om det kan ske, h&#246;ra den vars namn barnet ska f&#229;.
+
+Domstolen ska h&#228;mta in ett yttrande fr&#229;n socialn&#228;mnden, om 
+det inte &#228;r uppenbart obeh&#246;vligt. Socialn&#228;mnden ska ge barnet 
+m&#246;jlighet att framf&#246;ra sina &#229;sikter och redovisa dem f&#246;r 
+domstolen.
+
+Domstolen f&#229;r besluta att vardera parten ska svara f&#246;r sina 
+r&#228;tteg&#229;ngskostnader. Vid domstolens handl&#228;ggning till&#228;mpas i 
+&#246;vrigt lagen (1996:242) om domstols&#228;renden.
+
+45 &#167; En talan i tvist om efternamn v&#228;cks i tingsr&#228;tten i den 
+ort d&#228;r den mot vilken talan f&#246;rs ska svara i tvistem&#229;l i 
+allm&#228;nhet.
+
+En talan om f&#246;rlust av efternamn som grundar sig p&#229; att ett 
+faderskap eller f&#246;r&#228;ldraskap enligt 1 kap. 9 &#167; f&#246;r&#228;ldrabalken 
+har h&#228;vts v&#228;cks i tingsr&#228;tten i den ort d&#228;r barnet har sin 
+hemvist. En s&#229;dan fr&#229;ga f&#229;r v&#228;ckas &#228;ven i samband med ett m&#229;l 
+om h&#228;vande av faderskap eller f&#246;r&#228;ldraskap enligt 1 kap. 9 &#167; 
+f&#246;r&#228;ldrabalken. 
+
+Om barnet &#228;r under 18 &#229;r, ska domstolen &#228;ven h&#228;mta in ett 
+yttrande fr&#229;n socialn&#228;mnden, om det inte &#228;r uppenbart 
+obeh&#246;vligt. Socialn&#228;mnden ska ge barnet m&#246;jlighet att 
+framf&#246;ra sina &#229;sikter och redovisa dem f&#246;r domstolen.
+
+Om det inte finns n&#229;gon beh&#246;rig tingsr&#228;tt enligt f&#246;rsta eller 
+andra stycket, v&#228;cks talan i Stockholms tingsr&#228;tt.
+
+Gemensamma best&#228;mmelser
+
+46 &#167; En ans&#246;kan f&#246;r ett barn som har fyllt 12 &#229;r i ett m&#229;l 
+eller &#228;rende enligt denna lag f&#229;r inte g&#246;ras utan barnets 
+samtycke, utom i de fall barnet &#228;r varaktigt f&#246;rhindrat att 
+l&#228;mna samtycke till f&#246;ljd av en psykisk sjukdom eller n&#229;got 
+annat liknande f&#246;rh&#229;llande.
+
+Vid bed&#246;mningen av om ett namnbyte &#228;r f&#246;renligt med barnets 
+b&#228;sta enligt 34 &#167; ska domstolen, &#228;ven n&#228;r barnets samtycke 
+inte beh&#246;vs, ta h&#228;nsyn till barnets &#229;sikter med beaktande av 
+barnets &#229;lder och mognad.
+
+47 &#167; Ett samtycke enligt denna lag ska l&#228;mnas skriftligen.
+
+Om ett samtycke har l&#228;mnats till en domstol i ett &#228;rende 
+enligt 34 &#167;, beh&#246;ver det inte l&#228;mnas n&#229;got nytt samtycke n&#228;r 
+en ans&#246;kan g&#246;rs enligt 3 &#167;.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2016:1013
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2017.
+
+2. Genom lagen upph&#228;vs namnlagen (1982:670).
+
+3. &#196;renden som vid ikrafttr&#228;dandet handl&#228;ggs av Patent- och 
+registreringsverket ska &#246;verl&#228;mnas till Skatteverket.
+
+4. Den upph&#228;vda lagen g&#228;ller fortfarande vid &#246;verklagande av 
+Patent- och registreringsverkets beslut.
+
+5. Om det f&#246;re ikrafttr&#228;dandet har fastst&#228;llts att en viss 
+person inte &#228;r far eller f&#246;r&#228;lder enligt 1 kap. 9 &#167; 
+f&#246;r&#228;ldrabalken till ett barn som har f&#246;rv&#228;rvat personens 
+efternamn eller ett efternamn som personen har burit, ska i 
+fr&#229;ga om f&#246;rlust av barnets efternamn den upph&#228;vda lagen 
+g&#228;lla.
+
+6. Den upph&#228;vda lagen g&#228;ller fortfarande f&#246;r talan om f&#246;rlust 
+av efternamn som har v&#228;ckts vid domstol enligt 17–19 &#167;&#167; i den 
+lagen f&#246;re ikrafttr&#228;dandet.
+
+7. Den upph&#228;vda lagen g&#228;ller fortfarande f&#246;r m&#229;l om skydd f&#246;r 
+egenartade efternamn som har v&#228;ckts vid domstol f&#246;re 
+ikrafttr&#228;dandet.
+
+8. Namn som har f&#246;rv&#228;rvats enligt den upph&#228;vda lagen eller 
+enligt namnlagen (1963:521) anses som personnamn som har 
+f&#246;rv&#228;rvats enligt den best&#228;mmelse i den nya lagen som g&#228;ller 
+f&#246;r motsvarande fall.
+
+9. Den som vid ikrafttr&#228;dandet b&#228;r ett mellannamn f&#229;r till 
+Skatteverket ans&#246;ka om att namnet ska strykas eller f&#246;rv&#228;rvas 
+som ett enkelt efternamn eller som en del i ett dubbelt 
+efternamn.
+
+10. Vid byte till ett dubbelt efternamn ska mellannamnet 
+strykas.
+
+11. Vid en pr&#246;vning enligt 15, 16, 23 och 24 &#167;&#167; ska ett 
+dubbelt efternamn som har f&#246;rv&#228;rvats f&#246;re lagens 
+ikrafttr&#228;dande anses som ett enda efternamn.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=934">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=936">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

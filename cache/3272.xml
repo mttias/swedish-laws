@@ -1,0 +1,775 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="1994-01-21" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3272</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3271">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3273">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1993:1646 ·
+                    <a href="/sfsr?bet=1993:1646">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1993:1646) om ikrafttr&#228;dande av vissa lagar och 
+f&#246;rordningar med anledning av Sveriges tilltr&#228;de till avtalet om 
+Europeiska ekonomiska samarbetsomr&#229;det (EES-avtalet)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Utrikesdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1993-12-16
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1994-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 &#167; Avtalet om Europeiska ekonomiska samarbetsomr&#229;det (EES-avtalet)
+mellan Europeiska ekonomiska gemenskapen (EEG), Europeiska kol- och
+st&#229;lgemenskapen (EKSG), Belgien, Danmark, Tyskland, Grekland, Spanien,
+Frankrike, Irland, Italien, Luxemburg, Nederl&#228;nderna, Portugal,
+Storbritannien och Nordirland samt Finland, Island, Liechtenstein,
+Norge, Sverige och &#214;sterrike tr&#228;der, utom vad avser Liechtenstein,
+i kraft den 1 januari 1994.
+
+2 &#167; F&#246;ljande lagar och f&#246;rordningar skall tr&#228;da i kraft den 1 januari
+1994:
+
+Justitiedepartementet
+
+1. Lagen (1992:1121) om &#228;ndring i trafikskadelagen (1975:1410), 8 &#167;,
+
+2. Lagen (1992:1137) om &#228;ndring i produktansvarslagen (1992:18), 6
+och 7 &#167;&#167;,
+
+3. Lagen (1992:1238) om &#228;ndring i aktiebolagslagen (1975:1385), 2
+kap. 1 &#167;, 8 kap. 4, 11 och 15 &#167;&#167;,
+
+4. Lagen (1992:1242) om &#228;ndring i lagen (1987:667) om
+ekonomiska  f&#246;reningar,
+
+5. Lagen (1992:1249) om &#228;ndring i lagen (1980:1103) om &#229;rsredovisning
+m. m. i vissa f&#246;retag,
+
+6. Lagen (1992:1366) om &#228;ndring i lagen (1991:435) med vissa
+best&#228;mmelser om internationellt samarbete p&#229; brottm&#229;lsomr&#229;det,
+
+7. Lagen (1992:1511) om &#228;ndring i r&#228;tteg&#229;ngsbalken,
+
+8. Lagen (1992:1616) om &#228;ndring i kreditupplysningslagen
+(1973:1173),
+
+9. Lagen (1992:1617) om &#228;ndring i ackordslagen (1970:847),
+
+10. Lagen (1992:1621) om &#228;ndring i f&#246;r&#228;ldrabalken,
+
+11. Lagen (1992:1685) om skydd f&#246;r kretsm&#246;nster f&#246;r halvledarprodukter,
+
+12. Lagen (1992:1689) om &#228;ndring i m&#246;nsterskyddslagen (1970:485),
+
+13. Lagen (1992:1690) om &#228;ndring i v&#228;xtf&#246;r&#228;dlarr&#228;ttslagen (1971:392), 4 &#167;,
+
+14. Lagen (1993:83) om &#228;ndring i brottsbalken,
+
+15. Lagen (1993:302) om &#228;ndring i trafikskadelagen (1975:1410), 16 &#167;
+f&#246;rsta stycket,
+
+16. Lagen (1993:645) om till&#228;mplig lag f&#246;r vissa f&#246;rs&#228;kringsavtal,
+
+17. Lagen (1993:646) om &#228;ndring i lagen (1927:77) om f&#246;rs&#228;kringsavtal,
+
+18. Lagen (1993:962) om &#228;ndring i riksdagsordningen,
+
+19. Lagen (1993:1007) om &#228;ndring i lagen (1960:729) om upphovsr&#228;tt till
+litter&#228;ra och konstn&#228;rliga verk, 19 &#167; tredje meningen,
+
+20. Lagen (1993:1303) om vissa avtalsvillkor f&#246;r r&#228;ttsskyddsf&#246;rs&#228;kring,
+
+21. Lagen (1993:1307) om &#228;ndring i trafikskadelagen (1975:1410),
+
+22. Lagen (1993:1310) om &#228;ndring i f&#246;rm&#229;nsr&#228;ttslagen (1970:979),
+
+23. Lagen (1993:1382) om &#228;ndring i trafikskadelagen (1975:1410),
+
+24. F&#246;rordningen (1993:1072) om beh&#246;rig myndighet f&#246;r informationsutbyte
+och &#228;kthetskontroll r&#246;rande domar och beslut enligt EES-avtalet,
+
+25. F&#246;rordningen (1993:1339) om &#228;ndringar i aktiebolagsf&#246;rordningen
+(1975:1387),
+
+26. F&#246;rordningen (1993:1405) om &#228;ndring i f&#246;rordningen (1987:978) om
+ekonomiska f&#246;reningar,
+
+27. F&#246;rordningen (1993:1434) om till&#228;mpning i f&#246;rh&#229;llande till andra
+stater av lagen (1992:1685) om skydd f&#246;r kretsm&#246;nster f&#246;r
+halvledarprodukter,
+
+28. F&#246;rordningen (1993:1437) om &#228;ndring i trafikf&#246;rs&#228;kringsf&#246;rordningen
+(1976:359),
+
+29. F&#246;rordningen (1993:1580) om &#228;ndring i kung&#246;relsen (1974:1048) om
+placering av omyndigs medel m. m.,
+
+30. F&#246;rordningen (1993:1581) om &#228;ndring i dataf&#246;rordningen (1982:480).
+
+6 och 7 &#167;&#167; i lagen under 2 tr&#228;der inte i kraft i f&#246;rh&#229;llande till
+Schweiz och  Liechtenstein.
+
+8 &#167; i lagen under 1 och lagen under 23 tr&#228;der inte i kraft i
+f&#246;rh&#229;llande till Liechtenstein.
+
+Utrikesdepartementet
+
+1. Lagen (1992:1317) om ett europeiskt ekonomiskt
+samarbetsomr&#229;de  (EES),
+
+2. Lagen (1992:1367) om &#228;ndring i lagen (1976:661) om immunitet
+och  privilegier i vissa fall,
+
+3. F&#246;rordningen (1993:1128) om &#228;ndring i handelskammarf&#246;rordningen
+(1990:733),
+
+4. F&#246;rordningen (1993:1129) om &#228;ndring i f&#246;rordningen (1985:613)
+om auktorisation av tolkar och &#246;vers&#228;ttare,
+
+5. F&#246;rordningen (1993:1166) om till&#228;mpning av ett i EES-avtalet
+intaget protokoll om &#246;msesidigt bist&#229;nd i tullfr&#229;gor,
+
+6. F&#246;rordningen (1993:1337) om &#228;ndring i f&#246;rordningen (1990:986)
+om tekniska regler,
+
+7. F&#246;rordningen (1993:1428) om &#228;ndring i tullfrihetsf&#246;rordningen
+(1987:1289),
+
+8. F&#246;rordningen (1993:1435) om vissa skyldigheter f&#246;r myndigheter
+vid till&#228;mpning av EES-avtalet,
+
+9. F&#246;rordningen (1993:1637) om till&#228;mpning av artikel 8 i bilaga 1
+till lagen (1992:1317) om ett europeiskt ekonomiskt samarbetsomr&#229;de,
+
+10. F&#246;rordningen (KFS 1993:4) om &#228;ndring i f&#246;rordningen (KFS
+1987:1) om import- och exportlicenser inom Kommerskollegiets
+ansvarsomr&#229;de.
+
+Lagen under 1 tr&#228;der inte i kraft i f&#246;rh&#229;llande till Liechtenstein.
+
+F&#246;rsvarsdepartementet
+
+1. F&#246;rordningen (1992:1113) om &#228;ndring i f&#246;rordningen (1982:517)
+om beredskapsl&#229;n och beredskapsgaranti,
+
+2. F&#246;rordningen (1992:1114) om &#228;ndring i f&#246;rordningen (1984:1129) om
+f&#246;rs&#246;rjningsberedskapsst&#246;d.
+
+Socialdepartementet
+
+1. L&#228;kemedelslagen (1992:859), 17 &#167; f&#246;rsta stycket och 20 &#167; tredje
+stycket,
+
+2. Lagen (1992:1513) om &#228;ndring i lagen (1977:292) om tillverkning
+av drycker, m. m.,
+
+3. Lagen (1992:1544) om &#228;ndring i h&#228;lsoskyddslagen (1982:1080),
+
+4. Lagen (1992:1562) om &#228;ndring i lagen (1984:542) om beh&#246;righet
+att ut&#246;va yrke inom h&#228;lso- och sjukv&#229;rden m. m., 3 a, 5 och 8 &#167;&#167;,
+
+5. Lagen (1992:1564) om &#228;ndring i lagen (1980:11) om tillsyn &#246;ver
+sjukv&#229;rdspersonalen m. fl.,
+
+6. Lagen (1992:1622) om &#228;ndring i reglementet (1961:265) ang&#229;ende
+f&#246;rvaltningen av Riksf&#246;rs&#228;kringsverkets fonder,
+
+7. Lagen (1992:1776) om samordning av systemen f&#246;r social trygghet
+n&#228;r personer flyttar inom Europeiska ekonomiska samarbetsomr&#229;det (EES),
+
+8. Tobakslagen (1993:581), 12 &#167; andra stycket andra meningen,
+
+9. L&#228;kemedelsf&#246;rordningen (1992:1752), 13 &#167; s&#229;vitt avser f&#246;reskrifter
+om handl&#228;ggningstid f&#246;r beslut av L&#228;kemedelsverket enligt 17 &#167; f&#246;rsta
+stycket l&#228;kemedelslagen (1992:859),
+
+10. F&#246;rordningen (1993:1313) om &#228;ndring i l&#228;kemedelsf&#246;rordningen (1992:1752),
+
+11. F&#246;rordningen (1992:1777) om till&#228;mpning av lagen (1992:1776) om
+samordning av systemen f&#246;r social trygghet n&#228;r personer flyttar inom
+
+Europeiska ekonomiska samarbetsomr&#229;det (EES),
+
+12. F&#246;rordningen (1993:1185) om &#228;ndring i h&#228;lsoskyddsf&#246;rordningen
+(1983:616),
+
+13. F&#246;rordningen (1993:1529) om till&#228;mpning av en nordisk konvention
+den 15 juni 1992 om social trygghet,
+
+14. F&#246;rordningen (1993:1530) om till&#228;mpning av en &#246;verenskommelse den
+18 augusti 1993 om till&#228;mpning av den nordiska konventionen om social
+trygghet den 15 juni 1993.
+
+Lagen under 7 och f&#246;rordningen under 11 tr&#228;der inte i kraft i f&#246;rh&#229;llande
+till Liechtenstein.
+
+Kommunikationsdepartementet
+
+1. Lagen (1993:41) om datoriserade bokningssystem f&#246;r luftfart,
+
+2. Lagen (1993:42) om kompensation till passagerare som nekas
+ombordstigning p&#229; luftfartyg i regelbunden lufttrafik,
+
+3. Lagen (1993:43) om &#228;ndring i luftfartslagen (1957:297),
+
+4. Lagen (1993:44) om redovisning av vissa infrastrukturkostnader
+m. m.,
+
+5. F&#246;rordningen (1993:184) om k&#246;r- och vilotider samt f&#228;rdskrivare
+vid  v&#228;gtransporter,
+
+6. F&#246;rordningen (1993:185) om arbetsf&#246;rh&#229;llanden vid vissa
+internationella v&#228;gtransporter,
+
+7. F&#246;rordningen (1993:186) om &#228;ndring i kung&#246;relsen (1972:602)
+om arbetstid vid v&#228;gtransport, m. m.,
+
+8. F&#246;rordningen (1993:925) om priss&#228;ttning vid internationella
+godstransporter p&#229; v&#228;g,
+
+9. F&#246;rordningen (1993:1326) om j&#228;rnv&#228;gsf&#246;retags redovisningar,
+prisbildningen f&#246;r internationell godsbefordran p&#229; j&#228;rnv&#228;g m. m.,
+
+10. F&#246;rordningen (1993:1327) om allm&#228;n trafikplikt och
+transportst&#246;d n&#228;r det g&#228;ller j&#228;rnv&#228;g, v&#228;g och inre vattenv&#228;gar,
+
+11. F&#246;rordningen (1993:1347) om den civila luftfarten och
+Europeiska ekonomiska samarbetsomr&#229;det (EES),
+
+12. F&#246;rordningen (1993:1348) om &#228;ndring i luftfartsf&#246;rordningen
+(1986:171),
+
+13. F&#246;rordningen (1993:1349) om &#228;ndring i f&#246;rordningen
+(1988:1114) med instruktion f&#246;r Statens haverikommission,
+
+14. F&#246;rordningen (1993:1351) om &#228;ndring i fordonskung&#246;relsen
+(1972:595).
+
+F&#246;rordningen under 14 tr&#228;der i kraft i de delar f&#246;r vilka en best&#228;md
+ikrafttr&#228;dandedag inte angivits.
+
+Finansdepartementet
+
+1. Lagen (1992:1240) om &#228;ndring i f&#246;reningsbankslagen (1987:620),
+
+2. Lagen (1992:1241) om &#228;ndring i f&#246;rs&#228;kringsr&#246;relselagen
+(1982:713),
+
+3. Lagen (1992:1320) om &#228;ndring i lagen (1990:1114) om
+v&#228;rdepappersfonder,
+
+4. Lagen (1992:1323) om &#228;ndring i lagen (1992:557) om &#228;ndring i
+insiderlagen (1990:1342),
+
+5. Lagen (1992:1364) om &#228;ndring i lagen (1973:431) om utredning
+ang&#229;ende brott mot utl&#228;ndsk tullag,
+
+6. Lagen (1992:1365) om &#228;ndring i lagen (1969:200) om uttagande
+av utl&#228;ndsk tull, annan skatt, avgift eller p&#229;laga,
+
+7. Lagen (1992:1528) om offentlig upphandling,
+
+8. Lagen (1992:1610) om kreditmarknadsbolag,
+
+9. Lagen (1992:1611) om &#228;ndring i bankaktiebolagslagen (1987:618),
+
+10. Lagen (1992:1613) om &#228;ndring i bankr&#246;relselagen (1987:617),
+
+11. Lagen (1992:1614) om &#228;ndring i sparbankslagen (1987:619),
+
+12. Lagen (1992:1615) om &#228;ndring i f&#246;reningsbankslagen (1987:620),
+
+13. Lagen (1992:1619) om &#228;ndring i lagen (1988:1385) om Sveriges
+riksbank,
+
+14. Lagen (1992:1620) om &#228;ndring i lagen (1992:559) om &#228;ndring i
+lagen (1991:981) om v&#228;rdepappersr&#246;relse,
+
+15. Lagen (1992:1624) om &#228;ndring i lagen (1972:262) om
+underst&#246;dsf&#246;reningar,
+
+16. Lagen (1992:1626) om &#228;ndring i f&#246;rs&#228;kringsr&#246;relselagen
+(1982:713),
+
+17. Lagen (1992:1628) om &#228;ndring i insiderlagen (1990:1342),
+
+18. Lagen (1992:1629) om &#228;ndring i lagen (1992:551) om &#228;ndring i
+lagen (1983:890) om allemanssparande,
+
+19. Lagen (1992:1641) om &#228;ndring i lagen (1988:1385) om Sveriges
+riksbank,
+
+20. Lagen (1992:1712) om &#228;ndring i lagen (1992:543) om b&#246;rs- och
+clearingverksamhet,
+
+21. Lagen (1992:1713) om &#228;ndring i lagen (1992:558) om &#228;ndring i
+lagen (1991:980) om handel med finansiella instrument,
+
+22. Lagen (1992:1714) om &#228;ndring i lagen (1991:980) om handel
+med finansiella instrument,
+
+23. Lagen (1993:768) om &#229;tg&#228;rder mot penningtv&#228;tt,
+
+24. Lagen (1993:1302) om EES-f&#246;rs&#228;kringsgivares verksamhet i
+Sverige,
+
+25. Lagen (1993:1304) om &#228;ndring i f&#246;rs&#228;kringsr&#246;relselagen
+(1982:713),
+
+26. Lagen (1993:1305) om &#228;ndring i lagen (1950:272) om r&#228;tt f&#246;r
+utl&#228;ndska f&#246;rs&#228;kringsf&#246;retag att driva f&#246;rs&#228;kringsr&#246;relse i Sverige,
+
+27. Lagen (1993:1306) om &#228;ndring i lagen (1989:1079) om
+livf&#246;rs&#228;kringar med anknytning till v&#228;rdepappersfonder,
+
+28. Lagen (1993:1308) om &#228;ndring i lagen (1989:508) om f&#246;rs&#228;kringsm&#228;klare,
+
+29. F&#246;rordningen (1993:1436) om &#228;ndring i f&#246;rs&#228;kringsr&#246;relsef&#246;rordningen
+(1982:790),
+
+30. F&#246;rordningen (1993:1438) om &#228;ndring i f&#246;rordningen
+(1989:854) om f&#246;rs&#228;kringsm&#228;klare,
+
+31. F&#246;rordningen (1993:1469) om &#228;ndring i f&#246;rordningen (1990:1123) om
+v&#228;rdepappersfonder,
+
+32. F&#246;rordningen (1993:1470) om &#228;ndring i f&#246;rordningen (1992:561) om
+b&#246;rs- och clearingverksamhet,
+
+33. F&#246;rordningen (1993:1471) om &#228;ndring i f&#246;rordningen (1991:1007) om
+handel och tj&#228;nster p&#229; v&#228;rdepappersmarknaden,
+
+34. F&#246;rordningen (1993:1526) om &#229;tg&#228;rder mot penningtv&#228;tt,
+
+35. F&#246;rordningen (1993:1582) om &#228;ndring i bankr&#246;relsef&#246;rordningen (1987:647),
+
+36. F&#246;rordningen (1993:1583) om &#228;ndring i f&#246;rordningen (1989:1096) om
+kapitalkravet i banker och andra kreditinstitut,
+
+37. F&#246;rordningen (1993:1585) om &#228;ndring i f&#246;rordningen (1992:102) med
+instruktion f&#246;r Finansinspektionen,
+
+38. F&#246;rordningen (1993:1586) om kreditmarknadsbolag.
+
+Lagarna under 2--4, 9--12, 14--16, 18 och 19 skall tr&#228;da i kraft i de
+delar som inte tidigare har tr&#228;tt i kraft.
+
+Jordbruksdepartementet
+
+1. Lagen (1992:1565) om &#228;ndring i lagen (1965:61) om beh&#246;righet
+att ut&#246;va veterin&#228;ryrket m. m.,
+
+2. Lagen (1992:1680) om &#228;ndring i livsmedelslagen (1971:511),
+
+3. Lagen (1992:1681) om &#228;ndring i lagen (1985:295) om foder,
+
+4. Lagen (1992:1682) om &#228;ndring i uts&#228;deslagen (1976:298),
+
+5. Lagen (1992:1684) om EEG-handelsg&#246;dsel,
+
+6. Lagen (1993:1481) om &#228;ndring i lagen (1985:342) om kontroll av
+husdjur m. m., 2 &#167;,
+
+7. F&#246;rordningen (1993:1135) om &#228;ndring i f&#246;rordningen (1985:879)
+om  foder,
+
+8. F&#246;rordningen (1993:1136) om EEG-handelsg&#246;dsel,
+
+9. F&#246;rordningen (1993:1137) om &#228;ndring i f&#246;rordningen (1965:62)
+om  beh&#246;righet att ut&#246;va veterin&#228;ryrket,
+
+10. Uts&#228;desf&#246;rordningen (1993:1375),
+
+11. F&#246;rordningen (1993:1376) om &#228;ndring i livsmedelsf&#246;rordningen (1971:807),
+
+12. F&#246;rordningen (1993:1377) om &#228;ndring i f&#246;rordningen (1988:860) med
+instruktion f&#246;r Statens uts&#228;deskontroll,
+
+13. F&#246;rordningen (1993:1378) om &#228;ndring i f&#246;rordningen (1988:865) med
+instruktion f&#246;r Statens v&#228;xtsortn&#228;mnd,
+
+14. F&#246;rordningen (1993:1487) om &#228;ndring i f&#246;rordningen (1985:343) om
+kontroll av husdjur m. m., 2 &#167;,
+
+15. F&#246;rordningen (1993:1535) om informationsutbyte inom
+Europeiska ekonomiska samarbetsomr&#229;det i fr&#229;ga om livsmedel.
+
+Arbetsmarknadsdepartementet
+
+F&#246;rordningen (1993:1584) om &#228;ndring i f&#246;rordningen (1991:1158) med
+instruktion f&#246;r Arbetsmilj&#246;fonden.
+
+Kulturdepartementet
+
+1. Lagen (1992:1163) om arbetskraftens fria r&#246;rlighet inom Europeiska
+ekonomiska samarbetsomr&#229;det (EES),
+
+2. Lagen (1992:1165) om &#228;ndring i utl&#228;nningslagen (1989:529),
+
+3. Lagen (1992:1356) om satellits&#228;ndningar av televisionsprogram
+till  allm&#228;nheten,
+
+4. Lagen (1992:1357) om &#228;ndring i radiolagen (1966:755),
+
+5. Lagen (1992:1362) om &#228;ndring i radiolagen (1966:755),
+
+6. F&#246;rordningen (1992:1164) om arbetskraftens fria r&#246;rlighet inom
+
+Europeiska ekonomiska samarbetsomr&#229;det (EES),
+
+7. F&#246;rordningen (1992:1166) om &#228;ndring i utl&#228;nningsf&#246;rordningen
+(1989:547),
+
+8. F&#246;rordningen (1992:1167) om arbetstagares och egna f&#246;retagares
+r&#228;tt att efter avslutad verksamhet stanna kvar i ett land inom
+Europeiska  ekonomiska samarbetsomr&#229;det (EES).
+
+Lagen under 1 och f&#246;rordningen under 6 tr&#228;der inte i kraft i
+f&#246;rh&#229;llande  till Liechtenstein.
+
+N&#228;ringsdepartementet
+
+1. Lagen (1992:1119) om teknisk kontroll,
+
+2. Lagen (1992:1243) om &#228;ndring i lagen (1992:160) om utl&#228;ndska
+filialer m. m.,
+
+3. Lagen (1992:1324) om &#228;ndring i lagen (1992:560) om &#228;ndring i
+lagen (1992:160) om utl&#228;ndska filialer m. m., 3 &#167; 1, 3 och 6,
+
+4. Lagen (1992:1512) om elektromagnetisk kompatibilitet,
+
+5. Lagen (1992:1514) om m&#229;ttenheter, m&#228;tningar och m&#228;tdon,
+
+6. Lagen (1992:1534) om EG-m&#228;rket,
+
+7. Byggproduktlagen (1992:1535),
+
+8. Lagen (1992:1625) om &#228;ndring i lagen (1978:403) om beslutander&#228;tt
+f&#246;r svenskt kreditaktiebolag i fr&#229;ga om exportkredit i vissa fall,
+
+9. Lagen (1993:711) om &#228;ndring i lagen (1902:71 s.1), innefattande
+vissa best&#228;mmelser om elektriska anl&#228;ggningar,
+
+10. Lagen (1993:1311) om &#228;ndring i lagen (1993:1324) om &#228;ndring i
+lagen (1992:560) om &#228;ndring i lagen (1992:160) om utl&#228;ndska filialer
+m. m., 3 &#167; 1, 3, 4 och 6,
+
+11. F&#246;rordningen (1992:1222) om &#228;ndring i f&#246;rordningen (1973:221) om
+auktorisation och godk&#228;nnande av revisorer,
+
+12. Byggproduktf&#246;rordningen (1993:1051),
+
+13. F&#246;rordningen (1993:1065) om teknisk kontroll,
+
+14. F&#246;rordningen (1993:1066) om m&#229;ttenheter, m&#228;tningar och
+m&#228;tdon,
+
+15. F&#246;rordningen (1993:1067) om elektromagnetisk
+kompatibilitet,
+
+16. F&#246;rordningen (1993:1068) om elektrisk materiel,
+
+17. F&#246;rordningen (1993:1070) om gruppundantag m. m. enligt EES-avtalet,
+
+18. F&#246;rordningen (1993:1287) om &#228;ndring i f&#246;rordningen (1989:527) om
+riksprovplatser och riksm&#228;tplatser,
+
+19. F&#246;rordningen (1993:1292) om &#228;ndring i f&#246;rordningen (1988:764) om
+statligt st&#246;d till n&#228;ringslivet,
+
+20. F&#246;rordningen (1993:1328) om &#228;ndring i radiost&#246;rningsf&#246;rordningen
+(1985:625),
+
+21. F&#246;rordningen (1993:1527) om &#228;ndring i f&#246;rordningen (1992:308) om
+utl&#228;ndska filialer, m. m.
+
+Civildepartementet
+
+1. Lagen (1992:1231) om m&#228;rkning av textilier,
+
+2. Lagen (1992:1232) om m&#228;rkning av hush&#229;llsapparater,
+
+3. Lagen (1992:1326) om personlig skyddsutrustning f&#246;r privat bruk,
+
+4. Lagen (1992:1327) om leksakers s&#228;kerhet,
+
+5. Lagen (1992:1328) om farliga livsmedelsimitationer,
+
+6. Lagen (1992:1359) om &#228;ndring i lagen (1978:763) med vissa best&#228;mmelser
+om marknadsf&#246;ring av alkoholdrycker,
+
+7. Lagen (1992:1361) om &#228;ndring i marknadsf&#246;ringslagen (1975:1418),
+
+8. F&#246;rordningen (1993:969) om m&#228;rkning av textilier,
+
+9. F&#246;rordningen (1993:970) om m&#228;rkning av hush&#229;llsapparater,
+
+10. F&#246;rordningen (1993:971) om leksakers s&#228;kerhet,
+
+11. F&#246;rordningen (1993:972) om personlig skyddsutrustning f&#246;r privat bruk,
+
+12. F&#246;rordningen (1993:1322) om informationsutbyte inom Europeiska
+ekonomiska samarbetsomr&#229;det i fr&#229;ga om farliga konsumentvaror.
+
+Milj&#246;- och naturresursdepartementet
+
+1. Lagen (1992:1542) om &#228;ndring i lagen (1970:244) om allm&#228;nna
+vatten- och avloppsanl&#228;ggningar,
+
+2. Lagen (1992:1543) om &#228;ndring i milj&#246;skyddslagen (1969:387),
+
+3. Lagen (1992:1769) om &#228;ndring i plan- och bygglagen (1987:10),
+
+4. F&#246;rordningen (1993:1204) om &#228;ndring i f&#246;rordningen (1989:974)
+om milj&#246;farliga batterier.
+
+5. F&#246;rordningen (1993:1265) om &#228;ndring i milj&#246;skyddsf&#246;rordningen (1989:364),
+
+6. F&#246;rordningen (1993:1266) om &#228;ndring i f&#246;rordningen (1985:841)
+om milj&#246;farligt avfall,
+
+7. F&#246;rordningen (1993:1267) om &#228;ndring i f&#246;rordningen (1985:835)
+om kemiska produkter,
+
+8. F&#246;rordningen (1993:1268) om spillolja,
+
+9. F&#246;rordningen (1993:1271) om &#228;ndring i f&#246;rordningen (1985:840)
+om vissa h&#228;lso- och milj&#246;farliga produkter m. m.,
+
+Lagen under 3 skall tr&#228;da i kraft i de delar som inte tidigare har
+tr&#228;tt i kraft.
+
+F&#246;rordningen under 4 tr&#228;der i kraft i de delar f&#246;r vilka en best&#228;md
+ikrafttr&#228;dandedag inte angivits.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3271">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3273">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

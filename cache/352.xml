@@ -1,0 +1,982 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2021-10-13" /> 
+ <meta id="rattsinfo-edited" content="2022-09-08 14:33:16" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>352</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=351">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=353">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2021:890 ·
+                    <a href="/sfsr?bet=2021:890">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2021:890) om skydd f&#246;r personer som rapporterar om missf&#246;rh&#229;llanden</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Arbetsmarknadsdepartementet ARM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2021-10-07
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2021-12-17 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+Lagens inneh&#229;ll
+
+1 &#167; Inneh&#229;llet i denna lag &#228;r uppdelat enligt f&#246;ljande:
+
+1 kap. - Inledande best&#228;mmelser 
+
+2 kap. - Skydd i form av ansvarsfrihet
+
+3 kap. - Skydd mot hindrande &#229;tg&#228;rder och repressalier
+
+4 kap. - F&#246;ruts&#228;ttningar f&#246;r att omfattas av skyddet
+
+5 kap. - Interna rapporteringskanaler och f&#246;rfaranden f&#246;r 
+rapportering och uppf&#246;ljning
+
+6 kap. - Externa rapporteringskanaler och f&#246;rfaranden f&#246;r 
+rapportering och uppf&#246;ljning
+
+7 kap. - Behandling av personuppgifter
+
+8 kap. - Dokumentation, bevarande och rensning av rapporter
+
+9 kap. - Tystnadsplikt
+
+10 kap. - Tillsyn
+
+Lagens till&#228;mpningsomr&#229;de
+
+2 &#167; Lagen g&#228;ller vid rapportering i ett arbetsrelaterat 
+sammanhang av information om missf&#246;rh&#229;llanden som det finns 
+ett allm&#228;nintresse av att de kommer fram. 
+
+Lagen g&#228;ller &#228;ven vid rapportering i ett arbetsrelaterat 
+sammanhang av information om missf&#246;rh&#229;llanden som utg&#246;rs av 
+ett handlande eller en underl&#229;tenhet som  
+
+1. strider mot en direkt till&#228;mplig unionsr&#228;ttsakt inom 
+till&#228;mpningsomr&#229;det f&#246;r Europaparlamentets och r&#229;dets 
+direktiv (EU) 2019/1937 av den 23 oktober 2019 om skydd f&#246;r 
+personer som rapporterar om &#246;vertr&#228;delser av unionsr&#228;tten, 
+
+2. strider mot lag eller andra f&#246;reskrifter som avses i 8 kap. 
+regeringsformen och som genomf&#246;r eller kompletterar en 
+unionsr&#228;ttsakt inom till&#228;mpningsomr&#229;det f&#246;r samma direktiv, 
+eller  
+
+3. motverkar m&#229;let eller syftet med best&#228;mmelserna i en 
+unionsr&#228;ttsakt inom till&#228;mpningsomr&#229;det f&#246;r samma direktiv.
+
+3 &#167; Lagen g&#228;ller inte vid rapportering av 
+
+1. s&#228;kerhetsskyddsklassificerade uppgifter enligt 
+s&#228;kerhetsskyddslagen (2018:585), eller 
+
+2. information som r&#246;r nationell s&#228;kerhet i verksamhet hos en 
+myndighet inom f&#246;rsvars- och s&#228;kerhetsomr&#229;det. 
+
+Regeringen kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela 
+n&#228;rmare f&#246;reskrifter om vilka myndigheter som avses i f&#246;rsta 
+stycket 2.
+
+F&#246;rh&#229;llandet till annat skydd
+
+4 &#167; Lagen inskr&#228;nker inte skydd som g&#228;ller enligt annan lag, 
+f&#246;rordning eller p&#229; annan grund.
+
+5 &#167; I 1 kap. 1 och 7 &#167;&#167; tryckfrihetsf&#246;rordningen och 1 kap. 1 
+och 10 &#167;&#167; yttrandefrihetsgrundlagen finns best&#228;mmelser om r&#228;tt 
+f&#246;r var och en att i vissa medier meddela och offentligg&#246;ra 
+uppgifter i vilket &#228;mne som helst.
+
+Ett avtals ogiltighet
+
+6 &#167; Ett avtal &#228;r ogiltigt i den utstr&#228;ckning som det upph&#228;ver 
+eller inskr&#228;nker n&#229;gons r&#228;ttigheter enligt denna lag, om inte 
+n&#229;got annat f&#246;ljer av 7 &#167;.
+
+Avvikelser i kollektivavtal
+
+7 &#167; Genom ett kollektivavtal som har slutits eller godk&#228;nts av 
+en central arbetstagarorganisation f&#229;r avvikelser g&#246;ras fr&#229;n 
+5 kap. 2-9 &#167;&#167; om interna rapporteringskanaler och f&#246;rfaranden 
+f&#246;r rapportering och uppf&#246;ljning, under f&#246;ruts&#228;ttning att 
+avtalet inte upph&#228;ver eller inskr&#228;nker n&#229;gons r&#228;ttigheter som 
+avses i Europaparlamentets och r&#229;dets direktiv (EU) 2019/1937.
+
+Ord och uttryck i lagen
+
+8 &#167; I denna lag avses med 
+
+1. rapport eller rapportering: muntligt eller skriftligt 
+l&#228;mnande av information om missf&#246;rh&#229;llanden genom intern 
+rapportering, extern rapportering eller offentligg&#246;rande, 
+
+2. rapporterande person: den som i ett arbetsrelaterat 
+sammanhang har f&#229;tt del av eller inh&#228;mtat information om 
+missf&#246;rh&#229;llanden och rapporterar den och som tillh&#246;r n&#229;gon 
+eller n&#229;gra av f&#246;ljande personkategorier:
+
+a) arbetstagare,
+
+b) personer som g&#246;r en f&#246;rfr&#229;gan om eller s&#246;ker arbete,
+
+c) personer som s&#246;ker eller utf&#246;r volont&#228;rarbete,
+
+d) personer som s&#246;ker eller fullg&#246;r praktik,
+
+e) personer som annars st&#229;r till f&#246;rfogande f&#246;r att utf&#246;ra 
+eller utf&#246;r arbete under en verksamhetsut&#246;vares kontroll och 
+ledning,
+
+f) egenf&#246;retagare som s&#246;ker eller utf&#246;r uppdrag,
+
+g) personer som st&#229;r till f&#246;rfogande f&#246;r att ing&#229; eller ing&#229;r 
+i ett f&#246;retags f&#246;rvaltnings-, lednings- eller tillsynsorgan,
+
+h) aktie&#228;gare som st&#229;r till f&#246;rfogande f&#246;r att vara eller som 
+&#228;r verksamma i aktiebolaget, eller
+
+i) personer som har tillh&#246;rt n&#229;gon av personkategorierna ovan 
+och har f&#229;tt del av eller inh&#228;mtat informationen under tiden i 
+verksamheten,
+
+3. verksamhetsut&#246;vare: i privat verksamhet en fysisk eller 
+juridisk person och i allm&#228;n verksamhet en statlig 
+f&#246;rvaltningsmyndighet, domstol eller kommun, och
+
+4. uppf&#246;ljnings&#228;rende: ett &#228;rende som best&#229;r i att
+
+a) via en intern eller extern rapporteringskanal ta emot en 
+rapport och ha kontakt med den rapporterande personen,
+
+b) p&#229; n&#229;got annat s&#228;tt inom en myndighet som &#228;r skyldig att ha 
+externa rapporteringskanaler ta emot en rapport som har varit 
+avsedd f&#246;r rapporteringskanalerna och vidarebefordra den till 
+n&#229;gon som &#228;r ansvarig f&#246;r att ta emot rapporten, 
+
+c) vidta &#229;tg&#228;rder f&#246;r att bed&#246;ma riktigheten i de p&#229;st&#229;enden 
+som framst&#228;lls i rapporten,
+
+d) &#246;verl&#228;mna uppgifter om de utredda p&#229;st&#229;endena f&#246;r fortsatta 
+&#229;tg&#228;rder, och
+
+e) l&#228;mna &#229;terkoppling om uppf&#246;ljningen till den rapporterande 
+personen.
+
+2 kap. Skydd i form av ansvarsfrihet
+
+1 &#167; En rapporterande person f&#229;r inte g&#246;ras ansvarig f&#246;r att ha 
+&#229;sidosatt tystnadsplikt, under f&#246;ruts&#228;ttning att personen vid 
+rapporteringen hade sk&#228;lig anledning att anta att 
+rapporteringen av informationen var n&#246;dv&#228;ndig f&#246;r att avsl&#246;ja 
+det rapporterade missf&#246;rh&#229;llandet.
+
+Ansvarsfriheten enligt f&#246;rsta stycket g&#228;ller inte vid
+
+1. upps&#229;tligt &#229;sidos&#228;ttande av s&#229;dan tystnadsplikt som enligt 
+offentlighets- och sekretesslagen (2009:400) inskr&#228;nker r&#228;tten 
+att meddela och offentligg&#246;ra uppgifter enligt 
+tryckfrihetsf&#246;rordningen eller yttrandefrihetsgrundlagen, 
+eller
+
+2. &#229;sidos&#228;ttande av tystnadsplikt enligt lagen (1971:1078) om 
+f&#246;rsvarsuppfinningar.
+
+2 &#167; Ansvarsfriheten enligt 1 &#167; medf&#246;r inte r&#228;tt att l&#228;mna ut 
+handlingar.
+
+3 &#167; En rapporterande person f&#229;r inte g&#246;ras ansvarig f&#246;r 
+&#246;vertr&#228;delse av best&#228;mmelser som g&#228;ller inh&#228;mtande av 
+information, om personen vid inh&#228;mtandet hade sk&#228;lig anledning 
+att anta att inh&#228;mtandet var n&#246;dv&#228;ndigt f&#246;r att avsl&#246;ja ett 
+missf&#246;rh&#229;llande.
+
+4 &#167; Ansvarsfriheten enligt 3 &#167; g&#228;ller inte om den 
+rapporterande personen genom inh&#228;mtandet g&#246;r sig skyldig till 
+brott. 
+
+3 kap. Skydd mot hindrande &#229;tg&#228;rder och repressalier
+
+F&#246;rbud att vidta hindrande &#229;tg&#228;rder och repressalier
+
+1 &#167; En verksamhetsut&#246;vare f&#229;r inte 
+
+1. hindra eller f&#246;rs&#246;ka hindra rapportering, eller
+
+2. p&#229; grund av rapportering vidta repressalier mot
+
+a) en rapporterande person,
+
+b) n&#229;gon hos verksamhetsut&#246;varen som bist&#229;r den rapporterande 
+personen vid rapporteringen, s&#229;som en f&#246;rtroendevald eller ett 
+skyddsombud,
+
+c) n&#229;gon hos verksamhetsut&#246;varen som har koppling till den 
+rapporterande personen, s&#229;som en anh&#246;rig eller kollega, eller
+
+d) en juridisk person som den rapporterande personen &#228;ger, 
+arbetar f&#246;r eller p&#229; annat s&#228;tt har koppling till.
+
+2 &#167; En verksamhetsut&#246;vare f&#229;r inte vidta repressalier p&#229; grund 
+av att n&#229;gon v&#228;nder sig till sin arbetstagarorganisation f&#246;r 
+samr&#229;d i fr&#229;ga om rapportering. Verksamhetsut&#246;varen f&#229;r inte 
+heller hindra eller f&#246;rs&#246;ka hindra s&#229;dant samr&#229;d. 
+
+Undantag fr&#229;n skyddet vid brott
+
+3 &#167; Den som genom rapporteringen eller inh&#228;mtandet av 
+information g&#246;r sig skyldig till ett brott har inte skydd mot 
+repressalier.
+
+Skadest&#229;nd
+
+4 &#167; En verksamhetsut&#246;vare som bryter mot n&#229;got av f&#246;rbuden mot 
+hindrande &#229;tg&#228;rder eller repressalier ska betala skadest&#229;nd 
+f&#246;r den f&#246;rlust som uppkommer och f&#246;r den kr&#228;nkning som 
+&#246;vertr&#228;delsen inneb&#228;r. 
+
+Om talan f&#246;rs med anledning av upps&#228;gning eller avskedande 
+eller annat f&#246;rfarande som omfattas av lagen (1982:80) om 
+anst&#228;llningsskydd f&#229;r ers&#228;ttning f&#246;r f&#246;rlust som avser tid 
+efter anst&#228;llningens upph&#246;rande under alla f&#246;rh&#229;llanden 
+best&#228;mmas till h&#246;gst det belopp som anges i 39 &#167; samma lag.
+
+Om det &#228;r sk&#228;ligt, f&#229;r skadest&#229;ndet s&#228;ttas ned eller helt 
+falla bort.
+
+Bevisb&#246;rda
+
+5 &#167; Om den som anser sig ha blivit hindrad att rapportera, 
+utsatt f&#246;r f&#246;rs&#246;k att hindra rapportering eller utsatt f&#246;r 
+repressalier i strid med denna lag visar omst&#228;ndigheter som 
+ger anledning att anta att s&#229; &#228;r fallet, &#228;r det svaranden som 
+ska visa att s&#229;dana &#229;tg&#228;rder inte har vidtagits.
+
+Skiljeavtal
+
+6 &#167; Ett avtal som f&#246;re tvistens uppkomst har tr&#228;ffats om att 
+tvisten ska avg&#246;ras av skiljem&#228;n utan f&#246;rbeh&#229;ll om r&#228;tt f&#246;r 
+parterna att klandra skiljedomen f&#229;r inte g&#246;ras g&#228;llande i 
+tvist enligt denna lag.
+
+R&#228;tteg&#229;ngen
+
+7 &#167; M&#229;l enligt 1 och 2 &#167;&#167; ska handl&#228;ggas enligt lagen 
+(1974:371) om r&#228;tteg&#229;ngen i arbetstvister, &#228;ven om m&#229;let r&#246;r
+
+1. en person som g&#246;r en f&#246;rfr&#229;gan om eller s&#246;ker arbete,
+
+2. en person som s&#246;ker eller utf&#246;r volont&#228;rarbete,
+
+3. en person som s&#246;ker eller fullg&#246;r praktik,
+
+4. en person som annars st&#229;r till f&#246;rfogande f&#246;r att utf&#246;ra 
+eller utf&#246;r arbete under en verksamhetsut&#246;vares kontroll och 
+ledning, eller
+
+5. en person som har tillh&#246;rt n&#229;gon av personkategorierna ovan 
+och har f&#229;tt del av informationen under tiden i verksamheten.
+
+I s&#229;dana m&#229;l ska som arbetstagare anses ocks&#229; personer enligt 
+f&#246;rsta stycket 1-5. Som arbetsgivare ska anses 
+verksamhetsut&#246;varen. Detta g&#228;ller ocks&#229; n&#228;r best&#228;mmelserna om 
+tvistef&#246;rhandling i lagen (1976:580) om medbest&#228;mmande i 
+arbetslivet till&#228;mpas.
+
+Tidsfrister och preskription
+
+8 &#167; I m&#229;l som avses i 7 &#167; ska f&#246;ljande best&#228;mmelser i lagen 
+(1976:580) om medbest&#228;mmande i arbetslivet till&#228;mpas:
+
+- 64 &#167; om tidsfrist f&#246;r p&#229;kallande av f&#246;rhandling,
+
+- 65 &#167; om tidsfrist f&#246;r v&#228;ckande av talan,
+
+- 66 &#167; om f&#246;rl&#228;ngd tidsfrist f&#246;r den som inte f&#246;retr&#228;ds av en 
+arbetstagarorganisation, med den skillnaden att den tidsfrist 
+som anges i 66 &#167; f&#246;rsta stycket f&#246;rsta meningen ska vara tv&#229; 
+m&#229;nader, och
+
+- 68 &#167; om f&#246;rlorad taler&#228;tt p&#229; grund av preskription.
+
+Om talan r&#246;r ers&#228;ttning med anledning av ett 
+anst&#228;llningsbeslut som har meddelats av en arbetsgivare med 
+offentlig st&#228;llning, r&#228;knas tidsfristerna enligt f&#246;rsta 
+stycket fr&#229;n den dag d&#229; anst&#228;llningsbeslutet vann laga kraft.
+
+4 kap. F&#246;ruts&#228;ttningar f&#246;r att omfattas av skyddet
+
+1 &#167; Skyddet enligt 2 och 3 kap. g&#228;ller under f&#246;ruts&#228;ttning att
+
+1. missf&#246;rh&#229;llandena f&#246;rekommer i s&#229;dan verksamhet som anges i 
+2 &#167;,
+
+2. den rapporterande personen vid tidpunkten f&#246;r 
+rapporteringen hade sk&#228;lig anledning att anta att 
+informationen om missf&#246;rh&#229;llandena var sann enligt 3 &#167;, och
+
+3. rapporteringen sker internt, externt eller genom 
+offentligg&#246;rande enligt 4-9 &#167;&#167;.
+
+Var missf&#246;rh&#229;llandena f&#246;rekommer
+
+2 &#167; Skyddet g&#228;ller vid rapportering av missf&#246;rh&#229;llanden som 
+har uppst&#229;tt eller som h&#246;gst sannolikt kommer att uppst&#229; i
+
+1. den verksamhet som den rapporterande personen &#228;r, har varit 
+eller kan komma att bli verksam i, eller
+
+2. en annan verksamhet som den rapporterande personen &#228;r eller 
+har varit i kontakt med genom sitt arbete.
+
+Sk&#228;lig anledning att anta att informationen &#228;r sann
+
+3 &#167; Skyddet g&#228;ller om den rapporterande personen vid 
+tidpunkten f&#246;r rapporteringen av missf&#246;rh&#229;llandena hade sk&#228;lig 
+anledning att anta att informationen om missf&#246;rh&#229;llandena var 
+sann.
+
+Skyddet vid intern rapportering
+
+4 &#167; Skyddet g&#228;ller om rapporteringen sker via interna 
+rapporteringskanaler enligt 5 kap.
+
+5 &#167; Skyddet g&#228;ller ocks&#229; om n&#229;gon rapporterar internt p&#229; annat 
+s&#228;tt &#228;n via interna rapporteringskanaler om 
+
+1. det saknas s&#229;dana kanaler eller om de kanaler och 
+f&#246;rfaranden som finns tillg&#228;ngliga inte uppfyller kraven i 
+denna lag, eller
+
+2. rapporteringen sker innan personen har b&#246;rjat inom 
+verksamheten.
+
+Skyddet vid extern rapportering
+
+6 &#167; Skyddet g&#228;ller om rapporteringen sker till en myndighet 
+via externa rapporteringskanaler enligt 6 kap.
+
+7 &#167; Skyddet g&#228;ller ocks&#229; om den rapporterande personen 
+rapporterar externt till en myndighet p&#229; annat s&#228;tt &#228;n via 
+externa rapporteringskanaler, under f&#246;ruts&#228;ttning att personen 
+
+1. f&#246;rst har rapporterat internt i enlighet med denna lag utan 
+att
+
+a) mottagaren har vidtagit sk&#228;liga uppf&#246;ljnings&#229;tg&#228;rder med 
+anledning av rapporteringen, eller
+
+b) mottagaren i sk&#228;lig utstr&#228;ckning har l&#228;mnat &#229;terkoppling om 
+uppf&#246;ljningen inom den tidsfrist som anges i 5 kap. 8 &#167; 3,
+
+2. har sk&#228;lig anledning att anta att missf&#246;rh&#229;llandet utg&#246;r en 
+&#246;verh&#228;ngande eller uppenbar fara f&#246;r liv, h&#228;lsa, s&#228;kerhet 
+eller risk f&#246;r omfattande skada i milj&#246;n eller av annat sk&#228;l 
+har befogad anledning att rapportera till myndigheten, eller
+
+3. har sk&#228;lig anledning att anta att en intern rapportering 
+skulle inneb&#228;ra en risk f&#246;r repressalier eller leda till att 
+missf&#246;rh&#229;llandet sannolikt inte skulle avhj&#228;lpas p&#229; ett 
+effektivt s&#228;tt. 
+
+8 &#167; Skyddet g&#228;ller ocks&#229; vid rapportering av missf&#246;rh&#229;llanden 
+enligt 1 kap. 2 &#167; andra stycket till n&#229;gon av EU:s 
+institutioner, organ och byr&#229;er som har inr&#228;ttat externa 
+rapporteringskanaler och f&#246;rfaranden f&#246;r att ta emot rapporter 
+om missf&#246;rh&#229;llanden, under f&#246;ruts&#228;ttning att den rapporterande 
+personen rapporterar i enlighet med de f&#246;rfaranden som g&#228;ller 
+f&#246;r den aktuella rapporteringskanalen.
+
+Skyddet vid offentligg&#246;rande
+
+9 &#167; Skyddet g&#228;ller vid offentligg&#246;rande av information under 
+f&#246;ruts&#228;ttning att den rapporterande personen
+
+1. har rapporterat externt i enlighet med denna lag utan att
+
+a) mottagaren har vidtagit sk&#228;liga uppf&#246;ljnings&#229;tg&#228;rder med 
+anledning av rapporteringen, eller
+
+b) mottagaren i sk&#228;lig utstr&#228;ckning har l&#228;mnat &#229;terkoppling om 
+uppf&#246;ljningen inom tre m&#229;nader fr&#229;n mottagandet av rapporten 
+eller, om det finns s&#228;rskilda sk&#228;l, sex m&#229;nader och den 
+rapporterande personen har informerats om sk&#228;len att f&#246;rl&#228;nga 
+tidsfristen, 
+
+2. har sk&#228;lig anledning att anta att missf&#246;rh&#229;llandet utg&#246;r en 
+&#246;verh&#228;ngande eller uppenbar fara f&#246;r liv, h&#228;lsa, s&#228;kerhet 
+eller risk f&#246;r omfattande skada i milj&#246;n eller av annat sk&#228;l 
+har befogad anledning att offentligg&#246;ra informationen, eller
+
+3. har sk&#228;lig anledning att anta att en extern rapportering 
+skulle inneb&#228;ra en risk f&#246;r repressalier eller leda till att 
+missf&#246;rh&#229;llandet sannolikt inte skulle avhj&#228;lpas p&#229; ett 
+effektivt s&#228;tt.
+
+5 kap. Interna rapporteringskanaler och f&#246;rfaranden f&#246;r 
+rapportering och uppf&#246;ljning 
+
+Best&#228;mmelsernas f&#246;rh&#229;llande till annan reglering
+
+1 &#167; Om en annan lag eller en f&#246;rordning som genomf&#246;r eller 
+kompletterar en unionsr&#228;ttsakt som ing&#229;r i del II av bilagan 
+till Europaparlamentets och r&#229;dets direktiv (EU) 2019/1937 
+inneh&#229;ller best&#228;mmelser om tillhandah&#229;llande av interna 
+rapporteringskanaler och f&#246;rfaranden f&#246;r rapportering och 
+uppf&#246;ljning som avviker fr&#229;n best&#228;mmelserna i detta kapitel, 
+ska de best&#228;mmelserna till&#228;mpas. 
+
+Best&#228;mmelserna i detta kapitel och i 7-9 kap. ska dock 
+komplettera de s&#228;rskilda f&#246;reskrifterna om f&#246;reskrifterna 
+saknar motsvarande best&#228;mmelser.
+
+Skyldighet att ha kanaler och f&#246;rfaranden
+
+2 &#167; En verksamhetsut&#246;vare som vid ing&#229;ngen av kalender&#229;ret 
+hade 50 eller fler arbetstagare &#228;r skyldig att ha interna 
+rapporteringskanaler och f&#246;rfaranden f&#246;r rapportering och 
+uppf&#246;ljning.
+
+Gemensamma kanaler och f&#246;rfaranden
+
+3 &#167; Verksamhetsut&#246;vare som driver privat verksamhet och som 
+vid ing&#229;ngen av kalender&#229;ret hade mellan 50 och 249 
+arbetstagare f&#229;r dela interna rapporteringskanaler och 
+f&#246;rfaranden f&#246;r rapportering och uppf&#246;ljning med varandra.
+
+De f&#246;rfaranden som f&#229;r delas &#228;r
+
+1. mottagande av rapporter, och
+
+2. utredning av de f&#246;rh&#229;llanden som har rapporterats, vilket 
+dock inte innefattar att ha kontakt med den rapporterande 
+personen.
+
+4 &#167; Kommuner f&#229;r dela interna rapporteringskanaler och 
+f&#246;rfaranden f&#246;r rapportering och uppf&#246;ljning med andra 
+kommuner samt med kommunala bolag, stiftelser och f&#246;reningar 
+som ocks&#229; omfattas av skyldigheten att ha kanaler och 
+f&#246;rfaranden. 
+
+Skyldighet att utse beh&#246;riga personer eller enheter
+
+5 &#167; En verksamhetsut&#246;vare enligt 2 &#167; ska utse oberoende och 
+sj&#228;lvst&#228;ndiga personer eller enheter som ska vara beh&#246;riga 
+att p&#229; verksamhetsut&#246;varens v&#228;gnar
+
+1. ta emot rapporter och ha kontakt med rapporterande 
+personer,
+
+2. f&#246;lja upp det som rapporteras, och
+
+3. l&#228;mna &#229;terkoppling om uppf&#246;ljningen till rapporterande 
+personer.
+
+De som utses f&#229;r antingen vara anst&#228;llda hos 
+verksamhetsut&#246;varen eller hos n&#229;gon som har anlitats f&#246;r att 
+hantera rapporteringskanalerna och f&#246;rfarandena f&#246;r 
+verksamhetsut&#246;varens r&#228;kning.
+
+Dokumentation av kanaler och f&#246;rfaranden
+
+6 &#167; Verksamhetsut&#246;varen ska skriftligen dokumentera sina 
+interna rapporteringskanaler och f&#246;rfaranden.
+
+Utformning av kanaler och f&#246;rfaranden
+
+7 &#167; Verksamhetsut&#246;varen ska g&#246;ra de interna 
+rapporteringskanalerna tillg&#228;ngliga s&#229; att f&#246;ljande personer 
+som &#228;r verksamma hos verksamhetsut&#246;varen kan rapportera om 
+missf&#246;rh&#229;llanden som f&#246;rekommer i verksamhetsut&#246;varens 
+verksamhet:
+
+1. arbetstagare,
+
+2. volont&#228;rer,
+
+3. praktikanter,
+
+4. personer som annars utf&#246;r arbete under en 
+verksamhetsut&#246;vares kontroll och ledning,
+
+5. egenf&#246;retagare,
+
+6. personer som ing&#229;r i ett f&#246;retags f&#246;rvaltnings-, lednings- 
+eller tillsynsorgan, om verksamhetsut&#246;varen &#228;r ett f&#246;retag, 
+och
+
+7. aktie&#228;gare som &#228;r verksamma i bolaget, om 
+verksamhetsut&#246;varen &#228;r ett aktiebolag.
+
+8 &#167; Verksamhetsut&#246;varen ska utforma sina interna 
+rapporteringskanaler och f&#246;rfaranden f&#246;r rapportering och 
+uppf&#246;ljning s&#229; att den rapporterande personen 
+
+1. kan rapportera b&#229;de skriftligt och muntligt och, om s&#229; 
+beg&#228;rs, vid ett fysiskt m&#246;te inom en sk&#228;lig tid,
+
+2. f&#229;r en bekr&#228;ftelse p&#229; att rapporten &#228;r mottagen inom sju 
+dagar fr&#229;n mottagandet, om inte den rapporterande personen har 
+avsagt sig bekr&#228;ftelse eller mottagaren har anledning att anta 
+att en bekr&#228;ftelse skulle avsl&#246;ja personens identitet,
+
+3. f&#229;r &#229;terkoppling i sk&#228;lig utstr&#228;ckning om &#229;tg&#228;rder som har 
+vidtagits vid uppf&#246;ljning av rapporten och om sk&#228;len f&#246;r dessa 
+inom tre m&#229;nader fr&#229;n bekr&#228;ftelsen eller, om n&#229;gon bekr&#228;ftelse 
+inte har l&#228;mnats och det inte har berott p&#229; den rapporterande 
+personen, sju dagar fr&#229;n mottagandet, och
+
+4. i f&#246;rekommande fall, f&#229;r information om att en uppgift som 
+kan identifiera den rapporterande personen kommer att l&#228;mnas 
+ut, om inte informationen g&#246;r att syftet med uppf&#246;ljningen 
+eller &#229;tg&#228;rderna hindras eller f&#246;rsv&#229;ras. 
+
+Information som verksamhetsut&#246;varen ska l&#228;mna
+
+9 &#167; Verksamhetsut&#246;varen ska l&#228;mna tydlig och l&#228;ttillg&#228;nglig 
+information om
+
+1. hur rapportering ska g&#246;ras via de interna 
+rapporteringskanalerna,
+
+2. hur rapportering ska g&#246;ras till beh&#246;riga myndigheter via de 
+externa rapporteringskanalerna och, i till&#228;mpliga fall, till 
+EU:s institutioner, organ eller byr&#229;er, och
+
+3. meddelarfrihet och anskaffarfrihet och, i verksamheter d&#228;r 
+det &#228;r aktuellt, om efterforskningsf&#246;rbud och 
+repressalief&#246;rbud.
+
+Uppgiftsskyldighet i det allm&#228;nnas verksamhet
+
+10 &#167; Om det vid handl&#228;ggningen av ett uppf&#246;ljnings&#228;rende hos 
+en myndighet bed&#246;ms finnas sk&#228;l f&#246;r en annan myndighet eller 
+en annan enhet inom myndigheten att vidta fortsatta &#229;tg&#228;rder 
+med anledning av det som har framkommit i &#228;rendet, ska de 
+uppgifter som &#228;r n&#246;dv&#228;ndiga f&#246;r att &#229;tg&#228;rden ska kunna vidtas 
+l&#228;mnas till den andra myndigheten eller enheten.
+
+6 kap. Externa rapporteringskanaler och f&#246;rfaranden f&#246;r 
+rapportering och uppf&#246;ljning 
+
+1 &#167; Den myndighet som regeringen utser som beh&#246;rig myndighet 
+inom ett visst ansvarsomr&#229;de &#228;r skyldig att
+
+1. ha externa rapporteringskanaler och f&#246;rfaranden f&#246;r 
+rapportering och uppf&#246;ljning, och
+
+2. ta emot, f&#246;lja upp och l&#228;mna &#229;terkoppling p&#229; rapporter om 
+missf&#246;rh&#229;llanden inom ansvarsomr&#229;det.
+
+Regeringen kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela 
+ytterligare f&#246;reskrifter om skyldigheter f&#246;r myndigheter som 
+har utsetts som beh&#246;riga myndigheter.
+
+7 kap. Behandling av personuppgifter
+
+Best&#228;mmelsernas till&#228;mpningsomr&#229;de
+
+1 &#167; Best&#228;mmelserna i detta kapitel g&#228;ller vid behandling av 
+personuppgifter i ett uppf&#246;ljnings&#228;rende. 
+
+Best&#228;mmelserna till&#228;mpas endast p&#229; helt eller delvis 
+automatiserad behandling av personuppgifter och annan 
+behandling av personuppgifter som ing&#229;r eller kommer att ing&#229; 
+i ett register.
+
+F&#246;rh&#229;llandet till annan reglering
+
+2 &#167; Best&#228;mmelserna kompletterar Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2016/679 av den 27 april 2016 om skydd f&#246;r 
+fysiska personer med avseende p&#229; behandling av personuppgifter 
+och om det fria fl&#246;det av s&#229;dana uppgifter och om upph&#228;vande 
+av direktiv 95/46/EG (allm&#228;n dataskyddsf&#246;rordning). 
+
+Vid behandling av personuppgifter enligt denna lag g&#228;ller 
+lagen (2018:218) med kompletterande best&#228;mmelser till EU:s 
+dataskyddsf&#246;rordning och f&#246;reskrifter som har meddelats i 
+anslutning till den lagen, om inte annat f&#246;ljer av denna lag 
+eller f&#246;reskrifter som har meddelats i anslutning till denna 
+lag.
+
+&#196;ndam&#229;len med behandlingen
+
+3 &#167; Personuppgifter f&#229;r behandlas bara om behandlingen &#228;r 
+n&#246;dv&#228;ndig f&#246;r ett uppf&#246;ljnings&#228;rende. 
+
+Regeringen eller den myndighet som regeringen best&#228;mmer kan 
+med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela f&#246;reskrifter om 
+begr&#228;nsningar av &#228;ndam&#229;len och om begr&#228;nsningar av vilka 
+personuppgifter som f&#229;r behandlas f&#246;r ett visst &#228;ndam&#229;l.
+
+4 &#167; Personuppgifter som behandlas f&#246;r &#228;ndam&#229;let i 3 &#167; f&#229;r 
+ocks&#229; behandlas f&#246;r att fullg&#246;ra ett uppgiftsl&#228;mnande som
+
+1. &#228;r n&#246;dv&#228;ndigt f&#246;r att &#229;tg&#228;rder ska kunna vidtas med 
+anledning av det som har framkommit i ett &#228;rende,
+
+2. &#228;r n&#246;dv&#228;ndigt f&#246;r att rapporter ska kunna anv&#228;ndas som 
+bevisning i r&#228;ttsliga f&#246;rfaranden, eller
+
+3. sker i &#246;verensst&#228;mmelse med lag eller f&#246;rordning.
+
+5 &#167; Personuppgifter som behandlas f&#246;r &#228;ndam&#229;let i 3 &#167; f&#229;r 
+behandlas &#228;ven f&#246;r andra &#228;ndam&#229;l, under f&#246;ruts&#228;ttning att 
+uppgifterna inte behandlas p&#229; ett s&#228;tt som &#228;r of&#246;renligt med 
+det &#228;ndam&#229;l f&#246;r vilket uppgifterna samlades in.
+
+Tillg&#229;ng till personuppgifter
+
+6 &#167; Endast personer som har utsetts som beh&#246;riga eller 
+personer som arbetar vid enheter som har utsetts som beh&#246;riga 
+att ta emot, f&#246;lja upp och l&#228;mna &#229;terkoppling p&#229; rapporter f&#229;r 
+ha tillg&#229;ng till personuppgifter som behandlas i ett 
+uppf&#246;ljnings&#228;rende. Tillg&#229;ngen till personuppgifter ska 
+begr&#228;nsas till vad var och en beh&#246;ver f&#246;r att kunna fullg&#246;ra 
+sina arbetsuppgifter.
+
+L&#228;ngsta tid som personuppgifter f&#229;r behandlas
+
+7 &#167; Personuppgifter som uppenbart inte &#228;r relevanta f&#246;r 
+handl&#228;ggningen av en viss rapport f&#229;r inte samlas in och ska 
+raderas snarast m&#246;jligt om de har samlats in av misstag.
+
+8 &#167; Personuppgifter i ett uppf&#246;ljnings&#228;rende f&#229;r inte 
+behandlas l&#228;ngre &#228;n tv&#229; &#229;r efter det att &#228;rendet avslutades.  
+
+Best&#228;mmelsen i f&#246;rsta stycket hindrar inte att en myndighet 
+arkiverar och bevarar allm&#228;nna handlingar eller att 
+arkivmaterial l&#228;mnas till en arkivmyndighet. 
+
+8 kap. Dokumentation, bevarande och rensning av rapporter
+
+Dokumentation av muntlig rapportering
+
+1 &#167; Den som &#228;r skyldig att ha interna eller externa 
+rapporteringskanaler och f&#246;rfaranden f&#246;r rapportering och 
+uppf&#246;ljning och tar emot muntliga rapporter ska dokumentera 
+rapporteringen genom en inspelning som kan sparas i en 
+varaktig och &#229;tkomlig form eller genom ett uppr&#228;ttat 
+protokoll. 
+
+Om den muntliga rapporteringen sker p&#229; annat s&#228;tt &#228;n vid ett 
+fysiskt m&#246;te, f&#229;r dokumentationsskyldigheten ocks&#229; fullg&#246;ras 
+genom en utskrift av inspelningen eller p&#229; annat l&#228;mpligt 
+s&#228;tt.
+
+2 &#167; F&#246;r att rapporteringen ska f&#229; spelas in kr&#228;vs att den 
+rapporterande personen samtycker till det. 
+
+3 &#167; Den rapporterande personen ska ges tillf&#228;lle att 
+kontrollera, r&#228;tta och genom underskrift godk&#228;nna en utskrift 
+eller ett protokoll.
+
+Bevarande och rensning av rapporter i privat verksamhet
+
+4 &#167; Den verksamhetsut&#246;vare som driver privat verksamhet och &#228;r 
+skyldig att ha interna rapporteringskanaler och f&#246;rfaranden 
+f&#246;r rapportering och uppf&#246;ljning ska bevara skriftliga 
+rapporter och dokumentation av muntlig rapportering s&#229; l&#228;nge 
+som det &#228;r n&#246;dv&#228;ndigt, dock inte l&#228;ngre &#228;n tv&#229; &#229;r efter att 
+ett uppf&#246;ljnings&#228;rende har avslutats.
+
+Dokumentation och bevarande som fullg&#246;rs av n&#229;gon annan
+
+5 &#167; En verksamhetsut&#246;vares dokumentation av muntliga rapporter 
+samt bevarande av rapporter enligt 4 &#167; f&#229;r fullg&#246;ras av n&#229;gon 
+som har anlitats f&#246;r att hantera de interna 
+rapporteringskanalerna och f&#246;rfarandena f&#246;r rapportering och 
+uppf&#246;ljning f&#246;r verksamhetsut&#246;varens r&#228;kning.
+
+9 kap. Tystnadsplikt
+
+1 &#167; Den som hanterar ett uppf&#246;ljnings&#228;rende f&#229;r inte 
+obeh&#246;rigen r&#246;ja en uppgift som kan avsl&#246;ja identiteten p&#229; den 
+rapporterande personen eller p&#229; n&#229;gon annan enskild som 
+f&#246;rekommer i &#228;rendet.
+
+2 &#167; I det allm&#228;nnas verksamhet till&#228;mpas offentlighets- och 
+sekretesslagen (2009:400) i st&#228;llet f&#246;r 1 &#167;.
+
+10 kap. Tillsyn
+
+1 &#167; Den eller de myndigheter som regeringen utser som 
+tillsynsmyndighet ska se till att verksamhetsut&#246;vare f&#246;ljer 
+lagens best&#228;mmelser om interna rapporteringskanaler och 
+f&#246;rfaranden f&#246;r rapportering och uppf&#246;ljning.
+
+En verksamhetsut&#246;vares uppgiftsskyldighet
+
+2 &#167; En verksamhetsut&#246;vare som &#228;r f&#246;rem&#229;l f&#246;r tillsyn ska p&#229; 
+beg&#228;ran av en tillsynsmyndighet l&#228;mna de upplysningar och 
+handlingar som beh&#246;vs f&#246;r tillsynen.
+
+Beslut om f&#246;rel&#228;gganden
+
+3 &#167; En tillsynsmyndighet f&#229;r besluta de f&#246;rel&#228;gganden som 
+beh&#246;vs f&#246;r att verksamhetsut&#246;varen ska fullg&#246;ra sin 
+uppgiftsskyldighet eller f&#246;r att verksamhetsut&#246;varen ska 
+fullg&#246;ra de krav som st&#228;lls p&#229; de interna 
+rapporteringskanalerna och f&#246;rfarandena f&#246;r rapportering och 
+uppf&#246;ljning.
+
+4 &#167; Ett beslut om f&#246;rel&#228;ggande f&#229;r f&#246;renas med vite.
+
+&#214;verklagande av en tillsynsmyndighets beslut
+
+5 &#167; En tillsynsmyndighets beslut om f&#246;rel&#228;ggande som f&#246;renas 
+med vite f&#229;r &#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. Andra 
+beslut av tillsynsmyndigheten enligt denna lag f&#229;r inte 
+&#246;verklagas.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2021:890
+
+1. Denna lag tr&#228;der i kraft den 17 december 2021.
+
+2. Best&#228;mmelserna i 5 kap. till&#228;mpas f&#246;rsta g&#229;ngen
+
+a) den 17 december 2023 f&#246;r verksamhetsut&#246;vare som driver 
+privat verksamhet och som har 50 till 249 arbetstagare, och
+
+b) den 17 juli 2022 f&#246;r &#246;vriga verksamhetsut&#246;vare.
+
+3. Genom lagen upph&#228;vs lagen (2016:749) om s&#228;rskilt skydd mot 
+repressalier f&#246;r arbetstagare som sl&#229;r larm om allvarliga 
+missf&#246;rh&#229;llanden.
+
+4. Den upph&#228;vda lagen g&#228;ller dock fortfarande i fr&#229;ga om 
+repressalier som har vidtagits f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=351">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=353">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

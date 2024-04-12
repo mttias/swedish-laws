@@ -1,0 +1,520 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2018-10-26" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4123</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4122">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4124">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1974:1063 ·
+                    <a href="/sfsr?bet=1974:1063">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Kung&#246;relse (1974:1063) om fastighetsbevis m.m.
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1974-12-13
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:656
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad SFS 2000:318 har iakttagits.
+
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna kung&#246;relse inneh&#229;ller best&#228;mmelser om bevis och andra
+uppgifter r&#246;rande inneh&#229;llet i fastighetsregistret.
+
+Om bevis r&#246;rande inskrivningsmyndighetens beslut finns
+s&#228;rskilda best&#228;mmelser.
+
+Best&#228;mmelserna i kung&#246;relsen inneb&#228;r ingen inskr&#228;nkning i den
+skyldighet som enligt lag &#229;vilar myndighet att pr&#246;va
+framst&#228;llningar om utl&#228;mnande av upptagning f&#246;r automatiserad
+behandling som anses som allm&#228;n eller av utskrift av s&#229;dan
+upptagning. F&#246;rordning (2008:170).
+
+2 &#167; Uppgift om inneh&#229;llet i fastighetsregistret ska 
+l&#228;mnas i form av
+
+1. fastighetsbevis,
+
+2. gravationsbevis,
+
+3. samf&#228;llighetsbevis, eller
+
+4. anl&#228;ggningsbevis.
+
+Ett bevis som avses i f&#246;rsta stycket framst&#228;lls maskinellt av 
+Lantm&#228;teriet p&#229; blankett enligt formul&#228;r som fastst&#228;lls av 
+Lantm&#228;teriet. Beviset expedieras genom Lantm&#228;teriets 
+f&#246;rsorg.
+
+Trots f&#246;rsta stycket f&#229;r Lantm&#228;teriet, efter s&#228;rskild 
+framst&#228;llan fr&#229;n en myndighet eller n&#229;gon annan, 
+tillhandah&#229;lla de utdrag och sammanst&#228;llningar av inneh&#229;llet 
+i fastighetsregistret som Lantm&#228;teriet best&#228;mmer, om det &#228;r 
+f&#246;renligt med 
+
+1. Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2016/679 av 
+den 27 april 2016 om skydd f&#246;r fysiska personer med avseende 
+p&#229; behandling av personuppgifter och om det fria fl&#246;det av 
+s&#229;dana uppgifter och om upph&#228;vande av direktiv 95/46/EG 
+(allm&#228;n dataskyddsf&#246;rordning), och
+
+2. lagen (2000:224) om fastighetsregister.
+F&#246;rordning (2018:656).
+
+Fastighetsbevis
+
+3 &#167; Fastighetsbevis utf&#228;rdas s&#228;rskilt f&#246;r varje fastighet.
+
+Ett fastighetsbevis skall inneh&#229;lla
+
+1. de uppgifter om fastigheten som enligt 21-23 &#167;&#167; f&#246;rordningen
+(2000:308) om fastighetsregister skall redovisas i
+fastighetsregistrets allm&#228;nna del,
+
+2. de uppgifter som enligt 44-49 &#167;&#167; f&#246;rordningen om
+fastighetsregister skall redovisas i fastighetsregistrets
+inskrivningsdel,
+
+3. den till&#228;ggsinformation som avses i 67 och 68 &#167;&#167;
+f&#246;rordningen om fastighetsregister, dock inte uppgift om
+lagfaren &#228;gares eller tomtr&#228;ttshavares civilst&#229;nd.
+
+4. uppgifter enligt 64 &#167; f&#246;rsta och andra styckena f&#246;rordningen
+om fastighetsregister.
+
+Fastighetsbevis g&#228;ller som gravationsbevis. F&#246;rordning (2000:318).
+
+4 &#167; I fastighetsbevis redovisas uppgifter om
+
+registerbeteckning,
+
+administrativ tillh&#246;righet m.m.,
+
+tidigare registerbeteckning,
+
+ursprung,
+
+avregistrering,
+
+adress,
+
+area, l&#228;ge,
+
+frist&#229;ende fiske,
+
+andel i samf&#228;llighet,
+
+andel i gemensamhetsanl&#228;ggning,
+
+skattetal,
+
+&#229;tg&#228;rder,
+
+avskild mark,
+
+r&#228;ttigheter,
+
+planer, best&#228;mmelser och &#246;vriga uppgifter enligt 27 och 28 &#167;&#167;
+f&#246;rordningen (2000:308) om fastighetsregister,
+
+taxering m.m.,
+
+i fastighetsl&#228;ngd antecknad &#228;gare,
+
+&#246;vriga f&#246;rh&#229;llanden som har anm&#228;rkts i fastighetsregistrets
+allm&#228;nna del,
+
+lagfart,
+
+tomtr&#228;ttsuppl&#229;telse,
+
+tomtr&#228;ttsinnehav,
+
+inteckningar m.m.,
+
+anteckningar.
+
+F&#246;r inteckningar redovisas &#228;ven s&#229;dan till&#228;ggsinformation som
+avses i 68 &#167; f&#246;rordningen om fastighetsregister.
+
+Av beviset ska framg&#229; aktualitetsdatum enligt 42 &#167; andra
+stycket f&#246;rordningen om fastighetsregister och s&#229;dan
+till&#228;ggsinformation som avses i 68 a &#167; samma f&#246;rordning.
+F&#246;rordning (2011:59).
+
+Gravationsbevis
+
+5 &#167; Gravationsbevis utf&#228;rdas s&#228;rskilt f&#246;r varje fastighet.
+
+Ett gravationsbevis skall inneh&#229;lla de uppgifter som avses i 3 &#167;
+andra stycket. Uppgifter ur fastighetsregistrets allm&#228;nna del
+redovisas dock endast i den utstr&#228;ckning som anges i 6 &#167;.
+F&#246;rordning (2000:318).
+
+6 &#167; I gravationsbevis redovisas uppgifter om
+
+registerbeteckning,
+
+lagfart,
+
+tomtr&#228;ttsuppl&#229;telse,
+
+tomtr&#228;ttsinnehav,
+
+inteckningar m.m.,
+
+anteckningar,
+
+taxering m.m.,
+
+tidigare registerbeteckning,
+
+ursprung,
+
+totalareal,
+
+andel i gemensamhetsanl&#228;ggning,
+
+avskild mark.
+
+F&#246;r inteckningar redovisas &#228;ven s&#229;dan till&#228;ggsinformation som
+avses i 68 &#167; f&#246;rordningen (2000:308) om fastighetsregister.
+
+Av beviset ska framg&#229; aktualitetsdatum enligt 42 &#167; andra
+stycket f&#246;rordningen om fastighetsregister och s&#229;dan
+till&#228;ggsinformation som avses i 68 a &#167; samma f&#246;rordning.
+F&#246;rordning (2011:59).
+
+7 &#167; Har upph&#228;vts genom f&#246;rordning (2006:158).
+
+8 &#167; Har upph&#228;vts genom f&#246;rordning (2006:158).
+
+Samf&#228;llighetsbevis
+
+9 &#167; Samf&#228;llighetsbevis utf&#228;rdas s&#228;rskilt f&#246;r varje
+samf&#228;llighet.
+
+Ett samf&#228;llighetsbevis skall inneh&#229;lla
+
+1. de uppgifter om samf&#228;lligheten som enligt 21 och 22 &#167;&#167;
+f&#246;rordningen (2000:308) om fastighetsregister skall redovisas i
+fastighetsregistrets allm&#228;nna del,
+
+2. de uppgifter som enligt 64 &#167; f&#246;rsta och andra styckena
+f&#246;rordningen (2000:308) om fastighetsregister skall redovisas i
+fastighetsregistrets taxeringsuppgiftsdel. F&#246;rordning (2000:318).
+
+10 &#167; I samf&#228;llighetsbevis redovisas uppgifter om
+
+registerbeteckning,
+administrativ tillh&#246;righet m.m.,
+tidigare registerbeteckning,
+ursprung,
+avregistrering,
+adress,
+area, l&#228;ge,
+frist&#229;ende fiske,
+andel i gemensamhetsanl&#228;ggning,
+&#228;ndam&#229;l,
+del&#228;gande fastigheter,
+&#229;tg&#228;rder,
+avskild mark,
+r&#228;ttigheter,
+planer, best&#228;mmelser och &#246;vriga uppgifter enligt 27 och 28 &#167;&#167;
+f&#246;rordningen (2000:308) om fastighetsregister,
+taxering m.m.,
+i fastighetsl&#228;ngd antecknad &#228;gare,
+&#246;vriga f&#246;rh&#229;llanden som anm&#228;rkts i fastighetsregistrets
+allm&#228;nna del. F&#246;rordning (2000:318).
+
+11 &#167; har upph&#228;vts genom f&#246;rordning (2000:318).
+
+12 &#167; har upph&#228;vts genom f&#246;rordning (2000:318).
+
+13 &#167; har upph&#228;vts genom f&#246;rordning (2000:318).
+
+14 &#167; har upph&#228;vts genom f&#246;rordning (2000:318).
+
+15 &#167; har upph&#228;vts genom f&#246;rordning (2000:318).
+
+16 &#167; Har upph&#228;vts genom f&#246;rordning (2018:656).
+
+Anl&#228;ggningsbevis
+
+17 &#167; Anl&#228;ggningsbevis skall inneh&#229;lla de uppgifter om en
+anl&#228;ggning eller v&#228;gf&#246;rening som enligt f&#246;rordningen (2000:308)
+om fastighetsregister skall redovisas i fastighetsregistrets
+allm&#228;nna del.
+
+Uppgifterna i ett anl&#228;ggningsbevis redovisas enligt vad som
+anges i 35 &#167; f&#246;rordningen om fastighetsregister.
+F&#246;rordning (2000:318).
+
+S&#228;rskilda bevis i vissa fall
+
+18 &#167; har upph&#228;vts genom f&#246;rordning (1985:791).
+
+19 &#167; har upph&#228;vts genom f&#246;rordning (2000:318).
+
+20 &#167; har upph&#228;vts genom f&#246;rordning (2000:318).
+
+Slutbest&#228;mmelse
+
+21 &#167; Den som i tj&#228;nsten tar befattning med en uppgift som
+enligt denna kung&#246;relse har l&#228;mnats av Lantm&#228;teriet och har
+anledning att anta att uppgiften &#228;r oriktig, ska genast anm&#228;la
+det till Lantm&#228;teriet och till den eller de andra
+lantm&#228;terimyndigheter som &#228;r ber&#246;rda. F&#246;rordning (2008:683).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1989:752
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 oktober 1989. De nya
+best&#228;mmelserna g&#228;ller &#228;ven i fr&#229;ga om bevis som h&#228;nf&#246;r sig till en
+inskrivningsdag f&#246;re ikrafttr&#228;dandet.
+
+1995:1432
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1996.
+
+2. Vad som s&#228;gs om ordet &quot;fastighetsregistermyndigheten&quot; i &#228;ldre
+best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om
+fastighetsregistermyndigheter som inr&#228;ttats enligt lagen (1971:133)
+om kommunal fastighetsbildningsmyndighet och
+fastighetsregistermyndighet.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4122">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4124">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

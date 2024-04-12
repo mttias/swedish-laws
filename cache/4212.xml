@@ -1,0 +1,525 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2018-04-24" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4212</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4211">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4213">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1971:1078 ·
+                    <a href="/sfsr?bet=1971:1078">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1971:1078) om f&#246;rsvarsuppfinningar
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1971-12-17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m SFS 2016:195
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Med f&#246;rsvarsuppfinning f&#246;rst&#229;s i denna lag uppfinning som s&#228;rskilt
+avser krigsmateriel.
+
+Regeringen meddelar f&#246;reskrifter om vad som i denna lag avses med
+krigsmateriel. Lag (1975:734).
+
+2 &#167; Fr&#229;ga om hemligh&#229;llande av f&#246;rsvarsuppfinning pr&#246;vas av
+Granskningsn&#228;mnden f&#246;r f&#246;rsvarsuppfinningar och F&#246;rsvarets
+materielverk.
+
+F&#246;rsvarets materielverk skall vid sin pr&#246;vning samr&#229;da med
+F&#246;rsvarsmakten. Lag (1997:916).
+
+3 &#167; Granskningsn&#228;mnden best&#229;r av ordf&#246;rande och sex andra ledam&#246;ter.
+F&#246;r ledam&#246;terna finns ers&#228;ttare till det antal regeringen best&#228;mmer.
+Ledam&#246;ter och ers&#228;ttare f&#246;rordnas av regeringen.
+
+N&#228;mnden &#228;r beslutf&#246;r, n&#228;r ordf&#246;randen och tre andra ledam&#246;ter &#228;r
+n&#228;rvarande. Lag (1986:1161).
+
+Svenska f&#246;rsvarsuppfinningar
+
+4 &#167; En f&#246;rsvarsuppfinning som har tillkommit i Sverige eller
+tillh&#246;r en h&#228;r bosatt fysisk person eller tillh&#246;r en svensk
+juridisk person (svensk f&#246;rsvarsuppfinning) f&#229;r inte
+offentligg&#246;ras eller p&#229; annat s&#228;tt obeh&#246;rigen r&#246;jas, innan det
+enligt vad nedan s&#228;gs har pr&#246;vats huruvida uppfinningen skall
+h&#229;llas hemlig. Lag (1997:916).
+
+5 &#167; Om en ans&#246;kan om patent p&#229; en svensk f&#246;rsvarsuppfinning
+ges in till Patent- och registreringsverket, skall verket
+snarast tillst&#228;lla F&#246;rsvarets materielverk ans&#246;kningen f&#246;r
+pr&#246;vning, huruvida uppfinningen skall h&#229;llas hemlig.
+
+Den som vill att en svensk f&#246;rsvarsuppfinning, p&#229; vilken patent
+inte har s&#246;kts, skall f&#229; offentligg&#246;ras eller p&#229; annat s&#228;tt
+r&#246;jas skall hos F&#246;rsvarets materielverk ans&#246;ka om s&#229;dan
+pr&#246;vning som avses i f&#246;rsta stycket. Detsamma g&#228;ller den som
+vill s&#246;ka patent p&#229; en svensk f&#246;rsvarsuppfinning genom att till
+annan mottagare &#228;n Patent- och registreringsverket inge
+internationell patentans&#246;kan som avses i 3 kap. patentlagen
+(1967:837) eller europeisk patentans&#246;kan som avses i 11 kap.
+samma lag. Lag (1997:916).
+
+6 &#167; Finner F&#246;rsvarets materielverk vid s&#229;dan pr&#246;vning som
+avses i 5 &#167; att det &#228;r av v&#228;sentlig betydelse f&#246;r f&#246;rsvaret att
+uppfinningen h&#229;lls hemlig skall F&#246;rsvarets materielverk med ett
+eget motiverat yttrande &#246;verl&#228;mna &#228;rendet till
+granskningsn&#228;mnden f&#246;r slutlig pr&#246;vning. Om granskningsn&#228;mnden
+delar bed&#246;mningen att det &#228;r av v&#228;sentlig betydelse f&#246;r
+f&#246;rsvaret att uppfinningen h&#229;lls hemlig, skall n&#228;mnden f&#246;rordna
+att uppfinningen inte f&#229;r offentligg&#246;ras eller p&#229; annat s&#228;tt
+obeh&#246;rigen r&#246;jas.
+
+&#214;verl&#228;mnande enligt f&#246;rsta stycket av patentans&#246;kningar och
+&#228;renden som avses i 5 &#167; andra stycket skall ske senast tv&#229;
+m&#229;nader efter det att ans&#246;kningen kom in till F&#246;rsvarets
+materielverk. F&#246;r internationella och europeiska ans&#246;kningar,
+d&#228;r prioritet har yrkats, skall s&#229;dant &#246;verl&#228;mnande dock ske
+senast tre veckor efter det att ans&#246;kningen kom in till
+F&#246;rsvarets materielverk. Lag (1997:916).
+
+7 &#167; Har i &#228;rende, som Patent- och registreringsverket
+tillst&#228;llt F&#246;rsvarets materielverk, f&#246;rordnande enligt 6 &#167; ej
+meddelats inom tid som anges i andra stycket, upph&#246;r
+uppfinningen att vara hemlig enligt denna lag.
+
+Den i f&#246;rsta stycket n&#228;mnda tiden utg&#246;r
+
+1. om &#228;rendet avser internationell patentans&#246;kan, tre m&#229;nader
+fr&#229;n den internationella ingivningsdagen, dock, i fall d&#229;
+prioritet har yrkats, h&#246;gst tretton m&#229;nader fr&#229;n den dag fr&#229;n
+vilken prioriteten beg&#228;rts,
+
+2. om &#228;rendet avser europeisk patentans&#246;kan, tre m&#229;nader fr&#229;n
+det ans&#246;kan inkom till Patent- och registreringsverket, dock, i
+fall d&#229; prioritet har yrkats, h&#246;gst tretton m&#229;nader fr&#229;n den
+dag fr&#229;n vilken prioriteten beg&#228;rts,
+
+3. om &#228;rendet avser svensk patentans&#246;kan, tre m&#229;nader fr&#229;n den
+dag d&#229; beskrivning &#246;ver uppfinningen med tillh&#246;rande ritningar
+och patentkrav inkommit till Patent- och registreringsverket.
+
+Har &#228;rende anh&#228;ngiggjorts hos F&#246;rsvarets materielverk enligt 5 &#167;
+andra stycket, upph&#246;r uppfinningen att vara hemlig enligt
+denna lag, om f&#246;rordnande enligt 6 &#167; ej meddelats inom tre
+m&#229;nader fr&#229;n den dag d&#229; ans&#246;kan om pr&#246;vning och f&#246;r pr&#246;vningen
+erforderliga handlingar inkommit till F&#246;rsvarets materielverk.
+Lag (1997:916).
+
+8 &#167; Granskningsn&#228;mnden skall p&#229; ans&#246;kan eller n&#228;r annan
+anledning d&#228;rtill f&#246;religger pr&#246;va, om f&#246;rordnande enligt 6 &#167;
+skall best&#229;. Ompr&#246;vning av f&#246;rordnandet skall i varje fall ske
+inom ett &#229;r fr&#229;n det f&#246;rordnandet meddelades eller senast
+pr&#246;vades.
+
+Vid ompr&#246;vning skall granskningsn&#228;mnden f&#246;rst tillst&#228;lla
+F&#246;rsvarets materielverk &#228;rendet f&#246;r pr&#246;vning. Om F&#246;rsvarets
+materielverk d&#228;rvid finner att uppfinningen inte l&#228;ngre beh&#246;ver
+h&#229;llas hemlig, f&#229;r F&#246;rsvarets materielverk upph&#228;va
+f&#246;rordnandet. I annat fall skall F&#246;rsvarets materielverk med
+eget motiverat yttrande &#246;verl&#228;mna &#228;rendet till
+granskningsn&#228;mnden f&#246;r slutlig pr&#246;vning.
+
+Om f&#246;rordnandet upph&#228;vs, f&#229;r Patent- och registreringsverket
+inte h&#229;lla handlingarna i &#228;rendet tillg&#228;ngliga f&#246;rr&#228;n tre
+m&#229;nader f&#246;rslutit fr&#229;n den dag f&#246;rordnandet upph&#246;rde att g&#228;lla, 
+om inte s&#246;kanden beg&#228;r det. Lag (1997:916).
+
+9 &#167; Om s&#228;rskilda sk&#228;l f&#246;religger, kan regeringen f&#246;rordna, att en
+uppfinning som omfattas av f&#246;rordnande enligt 6 &#167; utan hinder av
+f&#246;rordnandet f&#229;r r&#246;jas f&#246;r annan, under f&#246;ruts&#228;ttning att
+hemligh&#229;llandet i &#246;vrigt av uppfinningen inte d&#228;rigenom &#228;ventyras. Lag
+(1980:211).
+
+10 &#167; Ans&#246;kan om patent eller annan skyddsr&#228;tt avseende fr&#228;mmande stat
+p&#229; svensk f&#246;rsvarsuppfinning, som skall h&#229;llas hemlig, f&#229;r g&#246;ras
+endast om regeringen medger det. S&#229;dant medgivande f&#229;r l&#228;mnas endast
+under f&#246;ruts&#228;ttning att uppfinningen hemligh&#229;lles &#228;ven i den fr&#228;mmande
+staten. Lag (1978:157).
+
+11 &#167; Har f&#246;rordnande enligt 6 &#167; meddelats, kan uppfinnaren
+eller hans r&#228;ttsinnehavare hos granskningsn&#228;mnden ans&#246;ka om att
+staten &#246;vertar uppfinningen. Granskningsn&#228;mnden skall d&#229; efter
+h&#246;rande av F&#246;rsvarets materielverk ompr&#246;va f&#246;rordnandet. Finner
+granskningn&#228;mnden att f&#246;rordnandet skall best&#229;, skall n&#228;mnden
+&#246;verl&#228;mna handlingarna i &#228;rendet till regeringen eller
+myndighet som regeringen best&#228;mmer.
+
+Har staten ej &#246;vertagit uppfinningen inom fyra m&#229;nader efter
+det att ans&#246;kningen d&#228;rom kom in till granskningsn&#228;mnden, skall
+f&#246;rordnandet upph&#246;ra att g&#228;lla. Om s&#228;rskilda sk&#228;l f&#246;religger,
+kan regeringen f&#246;rl&#228;nga tiden med h&#246;gst tv&#229; m&#229;nader.
+Lag (1997:916).
+
+12 &#167; Om det har l&#228;mnats en underr&#228;ttelse enligt 19 &#167; f&#246;rsta
+stycket patentlagen (1967:837) med anledning av en ans&#246;kan om
+patent p&#229; en uppfinning som avses med f&#246;rordnande enligt 6 &#167;,
+skall ans&#246;kningen f&#246;rklaras vilande i avvaktan p&#229; att
+f&#246;rordnandet upph&#246;r att g&#228;lla. S&#229; l&#228;nge f&#246;rordnandet best&#229;r
+skall 19 &#167; andra stycket och 20-22 &#167;&#167; patentlagen inte
+till&#228;mpas p&#229; ans&#246;kningen. Vid till&#228;mpning d&#228;refter skall de
+tider som anges i 19 &#167; andra och tredje styckena r&#228;knas fr&#229;n
+den dag f&#246;rordnandet upph&#246;rde att g&#228;lla, och Patent- och
+registreringsverket f&#229;r inte h&#229;lla handlingarna i &#228;rendet
+tillg&#228;ngliga f&#246;rr&#228;n tre m&#229;nader har f&#246;rflutit fr&#229;n den dagen,
+om inte s&#246;kanden beg&#228;r det.
+
+Om ett f&#246;rordnande enligt 6 &#167; har medelats i fr&#229;ga om en
+internationell eller en europeisk patentans&#246;kan, f&#229;r
+ans&#246;kningen inte vidarebefordras f&#246;r fortsatt handl&#228;ggning som
+internationell eller europeisk patentans&#246;kan. Lag (1997:916).
+
+13 &#167; &#196;r svensk f&#246;rsvarsuppfinning av v&#228;sentlig betydelse f&#246;r
+f&#246;rsvaret, kan regeringen f&#246;rordna, att uppfinningen f&#229;r utnyttjas f&#246;r
+statens r&#228;kning eller av den som regeringen best&#228;mmer eller att all
+r&#228;tt till uppfinningen skall avst&#229;s till staten. Lag (1975:734).
+
+14 &#167; Om ett beslut meddelas om att en uppfinning ska h&#229;llas 
+hemlig, l&#228;mnas sk&#228;lig ers&#228;ttning av allm&#228;nna medel f&#246;r den 
+skada som uppkommer genom beslutet.
+
+Om ett beslut meddelas enligt 13 &#167;, l&#228;mnas sk&#228;lig ers&#228;ttning 
+av allm&#228;nna medel f&#246;r den r&#228;tt till uppfinningen som beslutet 
+avser och f&#246;r den ytterligare skada som beslutet medf&#246;r.
+Lag (2016:195).
+
+Utl&#228;ndska f&#246;rsvarsuppfinningar
+
+15 &#167; Om patent s&#246;ks i Sverige p&#229; annan f&#246;rsvarsuppfinning &#228;n
+s&#229;dan som avses i 4 &#167; (utl&#228;ndsk f&#246;rsvarsuppfinning), skall
+Patent- och registreringsverket tillst&#228;lla F&#246;rsvarets
+materielverk ans&#246;kningen f&#246;r pr&#246;vning, huruvida uppfinningen
+skall h&#229;llas hemlig. Vad nu sagts g&#228;ller dock ej internationell
+patentans&#246;kan eller europeisk patentans&#246;kan. Lag (1997:916).
+
+16 &#167; &#196;r i fall som avses i 15 &#167; uppfinningen hemlig enligt lag
+i en fr&#228;mmande stat, skall F&#246;rsvarets materielverk f&#246;rordna att
+uppfinningen inte f&#229;r offentligg&#246;ras eller p&#229; annat s&#228;tt r&#246;jas,
+om patent p&#229; uppfinningen enligt &#246;verenskommelse mellan Sverige
+och den fr&#228;mmande staten f&#229;r s&#246;kas under f&#246;ruts&#228;ttning att
+uppfinningen h&#229;lls hemlig h&#228;r.
+
+Om F&#246;rsvarets materielverk i annat fall, betr&#228;ffande en
+utl&#228;ndsk f&#246;rsvarsuppfinning som &#228;r hemlig enligt lag i en
+fr&#228;mmande stat, finner att det &#228;r av v&#228;sentlig betydelse f&#246;r
+f&#246;rsvaret att uppfinningen h&#229;lls hemlig h&#228;r, skall slutlig
+pr&#246;vning ske p&#229; det s&#228;tt som anges i 6 &#167;.
+
+Om F&#246;rsvarets materielverk finner att f&#246;ruts&#228;ttningar inte
+finns att h&#228;r hemligh&#229;lla en utl&#228;ndsk f&#246;rsvarsuppfinning, som
+&#228;r hemlig enligt lag i en fr&#228;mmande stat, skall verket fatta
+s&#228;rskilt beslut om detta. Ans&#246;kningen f&#229;r dock inte
+offentligg&#246;ras f&#246;rr&#228;n tre m&#229;nader har f&#246;rflutit fr&#229;n
+beslutsdagen, om inte s&#246;kanden beg&#228;r det. Lag (1997:916).
+
+17 &#167; N&#228;r en uppfinning som omfattas av f&#246;rordnande enligt 16 &#167;
+upph&#246;r att vara hemlig i den fr&#228;mmande staten, f&#229;r F&#246;rsvarets
+materielverk upph&#228;va f&#246;rordnandet. Om F&#246;rsvarets materielverk
+finner att uppfinningen av s&#228;rskilda sk&#228;l alltj&#228;mt b&#246;r h&#229;llas
+hemlig h&#228;r, skall verket med ett eget motiverat yttrande
+&#246;verl&#228;mna &#228;rendet till granskningsn&#228;mnden f&#246;r slutlig pr&#246;vning.
+Lag (1997:916).
+
+18 &#167; Best&#228;mmelserna i 4 &#167;, 8 &#167; tredje stycket, 12 &#167; f&#246;rsta
+stycket samt 13 och 14 &#167;&#167; skall till&#228;mpas &#228;ven i fr&#229;ga om
+utl&#228;ndsk f&#246;rsvarsuppfinning. Lag (1997:916).
+
+Best&#228;mmelser om sekretess hos myndigheter
+
+19 &#167; Sekretess g&#228;ller i m&#229;l och &#228;renden enligt denna lag f&#246;r
+uppgifter som enligt 4 eller 18 &#167; eller till f&#246;ljd av
+f&#246;rordnande enligt 6 eller 16 &#167; inte f&#229;r offentligg&#246;ras eller
+p&#229; annat s&#228;tt obeh&#246;rigen r&#246;jas. F&#246;reskrifterna i 2, 3, 7–12
+och 14 kap., 36 kap. 5 &#167;, 40 kap. 4 &#167;, 41 kap., 42 kap. 1–8,
+10 och 11 &#167;&#167; samt 43 kap. offentlighets- och sekretesslagen
+(2009:400) g&#228;ller i fr&#229;ga om denna sekretess.
+
+Andra best&#228;mmelser om sekretess med h&#228;nsyn till rikets
+s&#228;kerhet samt best&#228;mmelser till skydd f&#246;r enskildas
+personliga eller ekonomiska f&#246;rh&#229;llanden finns i
+offentlighets- och  sekretesslagen. Lag (2009:410).
+
+20 &#167; Ut&#246;ver vad som f&#246;ljer av 5 kap. 1 &#167; r&#228;tteg&#229;ngsbalken f&#229;r en
+domstol f&#246;rordna att en f&#246;rhandling i m&#229;l om ers&#228;ttning eller ansvar
+som grundar sig p&#229; denna lag skall h&#229;llas inom st&#228;ngda d&#246;rrar, om det
+kan antas att vid f&#246;rhandlingen kommer att f&#246;rebringas uppgifter f&#246;r
+vilka hos domstolen g&#228;ller sekretess som avses i 19 &#167;. Lag (1980:211).
+
+&#214;vriga best&#228;mmelser
+
+21 &#167; Den som upps&#229;tligen bryter mot 10 &#167; d&#246;mes, om g&#228;rningen ej &#228;r
+belagd med straff i brottsbalken, till b&#246;ter eller f&#228;ngelse i h&#246;gst
+ett &#229;r. Lag (1980:211).
+
+22 &#167; Den som yrkesm&#228;ssigt utnyttjar uppfinning var&#229; patent har s&#246;kts i
+Sverige och som omfattas av f&#246;rordnande enligt 6 eller 16 &#167; skall, i
+den m&#229;n patent meddelas p&#229; uppfinningen, utge sk&#228;lig ers&#228;ttning f&#246;r
+utnyttjandet samt ers&#228;ttning f&#246;r den ytterligare skada som
+f&#246;rordnandet medf&#246;rt, om han hade vetskap om patentans&#246;kningen.
+Ers&#228;ttning utg&#229;r dock endast f&#246;r utnyttjande som sker efter det att
+handlingarna i patent&#228;rendet tidigast skulle ha offentliggjorts enligt
+22 &#167; patentlagen (1967:837), om f&#246;rordnande enligt 6 eller 16 &#167; ej
+hade meddelats.
+
+I fr&#229;ga om talan om ers&#228;ttning enligt f&#246;rsta stycket &#228;ger 58 &#167; tredje
+stycket och 60 &#167; andra stycket patentlagen motsvarande till&#228;mpning.
+Lag (1980:211).
+
+23 &#167; Granskningsn&#228;mndens och F&#246;rsvarets materielverks beslut
+om att en uppfinning skall h&#229;llas hemlig enligt denna lag f&#229;r
+&#246;verklagas hos regeringen. Lag (1997:916).
+
+24 &#167; Patent- och marknadsdomstolen &#228;r r&#228;tt domstol i m&#229;l 
+enligt denna lag. Lag (2016:195).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1993:1407
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1994.
+
+2. Om en patentans&#246;kan har godk&#228;nts f&#246;r utl&#228;ggning f&#246;re
+ikrafttr&#228;dandet, g&#228;ller &#228;ldre best&#228;mmelser.
+
+2016:195
+
+1. Denna lag tr&#228;der i kraft den 1 september 2016.
+
+2. M&#229;l som har inletts i Stockholms tingsr&#228;tt eller Svea 
+hovr&#228;tt f&#246;re ikrafttr&#228;dandet ska &#246;verl&#228;mnas till Patent- och 
+marknadsdomstolen respektive Patent- och 
+marknads&#246;verdomstolen. 
+
+3. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r &#246;vriga m&#229;l som 
+har inletts i allm&#228;n domstol f&#246;re ikrafttr&#228;dandet.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4211">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4213">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

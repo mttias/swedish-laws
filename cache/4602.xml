@@ -1,0 +1,624 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2004-02-20" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4602</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4601">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4603">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1866:37 s.1 ·
+                    <a href="/sfsr?bet=1866:37 s.1">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Riddarhusordning (1866:37 s.1)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L6
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1866-06-22
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2003:178
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> Utg&#229;r, se prop. 2002/03:34, bet. 2002/03:KU28, rskr. 2002/03:144.
+
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+&#167; 1 Sveriges ridderskap och adel utg&#246;res av de grevliga, friherrliga
+och adliga &#228;tter, som p&#229; riddarhuset &#228;ro introducerade; dock, vad
+ang&#229;r de efter den 6 juni 1809 tillkomna &#228;tter, med den inskr&#228;nkning
+som f&#246;ljer av &#167; 37 i den numera upph&#228;vda regeringsformen av samma dag.
+Varje &#228;tt &#228;ger efter den vid 1809 &#229;rs riksdag stadgade nummerf&#246;ljd
+s&#228;te och st&#228;mma p&#229; riddarhuset i enlighet med vad h&#228;r nedan
+f&#246;reskrives. F&#246;rordning (1977:1142).
+
+&#167; 2 Har upph&#246;rt att g&#228;lla genom f&#246;rordning (1977:1142).
+
+&#167; 3 Alla de kommend&#246;rs&#228;tter, vilka tillkommit f&#246;re den 6 juni 1809,
+bibeh&#229;lla det h&#246;gre s&#228;te &#229; riddarhuset de innehade d&#229; denna
+riddarhusordning i sin ursprungliga lydelse tr&#228;dde i kraft. F&#246;rordning
+(1977:1142).
+
+&#167; 4 Stamfader f&#246;r en &#228;tt &#228;r den, som till samma &#228;tts v&#228;rdighet f&#246;rst
+upph&#246;jd blivit, och &#228;tteman var och en, som d&#228;rav sedermera &#228;r
+lagligen delaktig vorden och som sj&#228;lv ej innehar h&#246;gre v&#228;rdighet p&#229;
+riddarhuset.
+
+Huvudman &#228;r stamfadern och efter honom &#228;ldste &#228;ttemannen av den
+&#228;ttegren, som i varje led varit &#228;ldre &#228;n n&#229;gon av de &#246;vriga levande
+grenarna av &#228;tten.
+
+&#196;ldre &#228;tteman &#228;r den, som f&#246;rr, och yngre &#228;tteman den, som senare kan
+&#228;rva huvudmannar&#228;tten. Kung&#246;relse (1917:131).
+
+&#167; 5 Mom. 1 En var till myndig &#229;lder kommen adelsman, som &#228;r
+mantalsskriven i riket, &#228;r skyldig att varje &#229;r, under vilket
+han taxeras till statlig eller kommunal inkomstskatt erl&#228;gga
+den avgift - riddarhuskapitationsavgift - som f&#246;r riddarhusets
+underh&#229;ll och d&#228;rmed sammanh&#228;ngande &#228;ndam&#229;l kan varda av
+ridderskapet och adeln beslutad. Avgiften skall erl&#228;ggas f&#246;re
+&#229;rets slut. Lag (2003:178).
+
+Mom. 2 Befrielse fr&#229;n erl&#228;ggande av kapitationsavgift m&#229;, d&#229; s&#228;rskilda
+omst&#228;ndigheter f&#246;religga, medgivas av riddarhusdirektionen. F&#246;rordning
+(1977:1142).
+
+&#167; 6 Ridderskapet och adeln skall sammantr&#228;da &#229; riddarhuset
+till lagtima adelsm&#246;te vart tredje &#229;r den tredje l&#246;rdagen i
+februari.
+
+Skulle ridderskapet och adelns sammantr&#228;dande &#229; annan tid, &#228;n
+nu sagt &#228;r, av riddarhusdirektionen anses n&#246;dv&#228;ndigt f&#246;r
+avg&#246;rande av n&#229;got &#228;rende, som ej t&#229;l uppskov, skall urtima
+adelsm&#246;te &#228;ga rum &#229; dag, som av direktionen best&#228;mmes samt i
+allm&#228;nna tidningarna sist trettio dagar f&#246;re den utsatta dagen
+kung&#246;res; d&#228;rvid tillika b&#246;r uppgivas det eller de &#228;renden, som
+f&#246;ranlett ridderskapet och adelns sammankallande. Lag (2003:178).
+
+&#167; 7 Vid adelsm&#246;te &#228;ger huvudman, som sig vid den i &#167; 12 f&#246;rsta stycket
+omf&#246;rm&#228;lda anteckning anm&#228;ler, r&#228;tt att s&#228;te och st&#228;mma f&#246;r &#228;tten
+intaga och, d&#228;r huvudman sig icke infinner, &#228;tteman med f&#246;retr&#228;de f&#246;r
+den, bland flera, som &#228;r huvudmannar&#228;tten n&#228;rmast.
+
+Har icke heller &#228;tteman sig anm&#228;lt, m&#229; s&#228;te f&#246;r &#228;tten intagas av den,
+som d&#228;rtill blivit befullm&#228;ktigad av huvudman eller den hans r&#228;tt, p&#229;
+s&#228;tt h&#228;r nedan f&#246;rordnas, ut&#246;var.
+
+Under loppet av adelsm&#246;te vare huvudman, &#228;tteman eller fullm&#228;ktig, som
+sig f&#246;rst anm&#228;ler, ber&#228;ttigad att s&#228;te f&#246;r &#228;tten intaga, och, d&#228;r de
+sig p&#229; en g&#229;ng anm&#228;la, huvudman framf&#246;r &#228;tteman, &#228;ldre &#228;tteman framf&#246;r
+yngre samt &#228;tteman framf&#246;r fullm&#228;ktig. F&#246;rordning (1977:1142).
+
+&#167; 8 F&#246;r r&#228;ttighet att uti adelsm&#246;te deltaga erfordras att hava uppn&#229;tt
+21 &#229;rs &#229;lder samt vara svensk medborgare och &#228;ga hemvist h&#228;r i riket.
+
+Svensk medborgare, som ej h&#228;r &#228;ger hemvist, m&#229; dock deltaga i
+adelsm&#246;te sedan han erlagt kapitationsavgift f&#246;r de tre n&#228;rmast
+f&#246;reg&#229;ende &#229;ren. F&#246;rordning (1977:1142).
+
+&#167; 9 Fr&#229;n ut&#246;vning av r&#228;ttighet att i adelsm&#246;te deltaga &#228;ro uteslutna:
+
+1:o) den, som &#228;r omyndigf&#246;rklarad;
+
+2:o) den, som h&#228;ftar f&#246;r ogulden kapitationsavgift f&#246;r n&#229;got av de tre
+n&#228;rmast f&#246;re m&#246;tet f&#246;rflutna &#229;ren; och
+
+3:o) den, som enligt &#167; 5 mom. 3 &#229;tnjuter befrielse fr&#229;n erl&#228;ggande av
+kapitationsavgift.
+
+S&#228;te och st&#228;mma m&#229; ej heller tillkomma den vars &#228;tteledning fr&#229;n
+stamfadern ej av riddarhusets genealogiska tabeller tydligen utvisas
+eller, d&#228;r dessa befinnas bristf&#228;lliga, ej styrkas kan. F&#246;rordning
+(1977:1142).
+
+&#167; 10 Huvudman, som sj&#228;lv &#228;r ber&#228;ttigad att s&#228;te och st&#228;mma &#229;
+riddarhuset intaga, m&#229; kunna d&#228;rtill annan adelsman f&#246;r &#228;tten
+skriftligen befullm&#228;ktiga. &#196;r &#229;ter huvudman, enligt vad nu sagt &#228;r, ej
+till utgivande av fullmakt beh&#246;rig, d&#229; intr&#228;der f&#246;r tillf&#228;llet
+n&#228;rmaste &#228;tteman, f&#246;r vilken n&#229;got av ovann&#228;mnda hinder icke m&#246;ter, i
+huvudmannens st&#228;lle att fullmakt f&#246;r &#228;tten utf&#228;rda. F&#246;rordning
+(1977:1142).
+
+&#167; 11 B&#228;nkarne i Riddarhussalen numereras s&#229;, att f&#246;rsta b&#228;nken
+blifwer den fr&#228;msta till h&#246;ger om ordf&#246;randens plats, andra den
+fr&#228;msta till wenster, tredje den andra till h&#246;ger o.s.w. Wid b&#246;rjan af
+hwarje Adelsm&#246;te best&#228;mmas alla lefwande &#228;tters s&#228;ten &#229; Riddarhuset,
+s&#229; att de fr&#228;mste intaga f&#246;rsta b&#228;nken, de derefter f&#246;ljande andra
+o.s.w.
+
+&#167; 12 Adelsman, som uti Adelsm&#246;te will taga del och, enligt hwad h&#228;r
+ofwan s&#228;gs, &#228;r dertill ber&#228;ttigad, b&#246;r f&#246;r s&#229;dant &#228;ndam&#229;l sig
+personligen anm&#228;la wid den anledning, som efter upprop inf&#246;r
+Riddarhus-Direktionen skall ega rum &#229; den f&#246;r m&#246;tets b&#246;rjan best&#228;mda
+dag.
+
+Pr&#246;vningen av gjord anm&#228;lan tillkommer h&#228;rvid riddarhusdirektionen.
+Uppst&#229; skiljaktiga meningar, avg&#246;ra de flesta r&#246;sterna, men &#228;ro f&#246;r
+s&#228;rskilda meningar lika m&#229;nga r&#246;ster, g&#228;ller den, som bitr&#228;tts av
+ordf&#246;randen vid sammantr&#228;det. M&#246;ter f&#246;r adelsman, som sig s&#229;lunda
+anm&#228;lt, icke n&#229;got hinder att s&#228;te och st&#228;mma p&#229; riddarhuset under
+m&#246;tet intaga, varde hans namn och v&#228;rdighet antecknad uti en f&#246;r
+s&#229;dant &#228;ndam&#229;l inr&#228;ttad uppropslista och honom tillst&#228;lld en med
+riddarhusets sigill p&#229;tryckt polett med p&#229;skrift av &#228;ttens nummer och
+namn, den antecknades f&#246;rnamn samt nummer p&#229; den b&#228;nk, varest s&#228;te f&#246;r
+&#228;tten &#228;r anordnat.
+
+Under loppet af Adelsm&#246;te m&#229; anteckning jemw&#228;l werkst&#228;llas och
+polletter utdelas af Riddarhus-Utskottet, hwilket den i n&#228;stf&#246;reg&#229;ende
+moment omf&#246;rm&#228;lda pr&#246;fning d&#229; tillkommer; b&#246;rande n&#228;mnda Utskott f&#246;r
+s&#229;dant &#228;ndam&#229;l sammantr&#228;da en half timma f&#246;re b&#246;rjan af hwarje
+Ridderskapet och Adelns sammantr&#228;de. Kung&#246;relse (1947:668).
+
+&#167; 13 Har &#228;tteman i beh&#246;rig ordning antecknad blifwit, ege i s&#229;dant
+fall hufwudman r&#228;ttighet att, p&#229; grund af beh&#246;rig fullmakt, s&#228;te f&#246;r
+annan &#228;tt intaga. Har hufwudman fullmakt utgifwit, ware han f&#246;r det
+Adelsm&#246;tet skiljd fr&#229;n r&#228;ttigheten att deruti taga del, s&#229; framt icke
+fullm&#228;ktig aflidit, sin r&#228;tt f&#246;rlorat eller sin pollett till
+Riddarhus-Utskottet &#229;terlemnat.
+
+D&#246;r den, som fullmakt utgifwit, eller blifwer han n&#228;mnda r&#228;ttighet
+f&#246;rlustig, lemne fullm&#228;ktig det s&#228;te, han p&#229; grund af samma fullmakt
+innehaft.
+
+&#167; 14 Uppwisas wid en och samma anteckning tw&#229; eller flera fullmakter
+f&#246;r samma &#228;tt, warde alla, ehuru af beh&#246;rig man utgifne, ogillade.
+Anm&#228;las s&#229;dana fullmakter wid olika anteckningar, g&#228;lle den som f&#246;rst
+uppwisad blifwit.
+
+&#167; 15 Den hwilkens anh&#229;llan om pollett icke blifwit bewiljad eller som
+anser sig ega anledning klaga der&#246;fwer, att pollett blifwit obeh&#246;rigen
+utlemnad, ware ber&#228;ttigad, om han det &#228;skar, att f&#229; f&#246;rh&#229;llandet genom
+Ordf&#246;randen i Riddarhus-Direktionen eller Riddarhus-Utskottet anm&#228;ldt
+wid f&#246;rst intr&#228;ffande sammantr&#228;de hos Ridderskapet och Adeln, p&#229; hwars
+afg&#246;rande fr&#229;gan beror.
+
+&#167; 16 Sedan anteckning av deltagare i adelsm&#246;tet skett enligt &#167; 12
+f&#246;rsta stycket, skall adelsm&#246;tet f&#246;rklaras &#246;ppnat samt val av
+ordf&#246;rande och vice ordf&#246;rande under m&#246;tet f&#246;rr&#228;ttas. D&#228;rvid f&#246;res
+ordet av den fr&#228;mste n&#228;rvarande ledamoten av ridderskapet och adeln.
+F&#246;rordning (1977:1142).
+
+&#167; 17 Sedan ordf&#246;randeval f&#246;rr&#228;ttats, skall ridderskapet och adeln p&#229;
+&#246;ppningssammantr&#228;det utse ett utskott om sexton ledam&#246;ter, vilket det
+&#229;ligger att meddela yttrande ej mindre &#246;ver de &#228;renden, som av
+ridderskapet och adeln till detsamma &#246;verl&#228;mnas, &#228;n &#228;ven &#246;ver den
+ber&#228;ttelse, som vid varje lagtima adelsm&#246;te skall av
+riddarhusdirektionen till ridderskapet och adeln avl&#228;mnas ang&#229;ende
+f&#246;rvaltningen av riddarhus- och adliga jungfrustifts&#228;rendena,
+riddarhuskassan, adliga kadettskolefonden samt &#246;vriga under
+direktionens styrelse st&#228;llda kassor, donationer och legater. Detta
+utskott skall ock &#246;verse och granska direktionens f&#246;rvaltning, taga
+k&#228;nnedom om de ber&#228;ttelser, som avgivits av de utav ridderskapet och
+adeln utsedda revisorerna ang&#229;ende de av dem f&#246;rr&#228;ttade revisioner av
+de hos direktionen &#246;ver riddarhusets kassor och fonder f&#246;rda
+r&#228;kenskaper, samt &#246;ver allt detta meddela utl&#229;tande, innefattande
+j&#228;mv&#228;l f&#246;rslag till de f&#246;r&#228;ndringar, vilka utskottet i n&#229;got avseende
+kan finna n&#246;diga, &#228;vensom yttrande, huruvida riddarhusdirektionen sina
+&#229;ligganden r&#228;tteligen fullgjort.
+
+Detta utskott, som ben&#228;mnes riddarhusutskottet, &#228;ger &#228;ven att, p&#229; s&#228;tt
+i &#167; 12 f&#246;rm&#228;les, utl&#228;mna polletter till dem, som under loppet av
+adelsm&#246;tena anm&#228;la sig till anteckning.
+
+Utskottet &#228;r beslutf&#246;rt, om minst &#229;tta ledam&#246;ter &#228;r n&#228;rvarande och
+s&#229;vitt m&#246;jligt samtliga ledam&#246;ter beretts tillf&#228;lle att deltaga i
+utskottets beslut. Som utskottets beslut g&#228;ller den mening f&#246;r vilken
+mer &#228;n h&#228;lften av de n&#228;rvarande r&#246;sta eller, vid lika r&#246;stetal, den
+mening som bitr&#228;des av ordf&#246;randen. &#196;r utskottet icke fulltaligt,
+skola de som r&#246;sta f&#246;r beslutet dock vara minst sex.
+
+Skulle ridderskapet och adeln anse n&#246;digt att f&#246;r s&#228;rskild behandling
+av n&#229;gon eller n&#229;gra fr&#229;gor annat utskott tills&#228;tta, m&#229; s&#229;dant &#228;ven
+kunna ske.
+
+Utskott v&#228;ljer inom sig ordf&#246;rande och vice ordf&#246;rande. Intill dess
+ber&#246;rda val skett, f&#246;res ordet av den fr&#228;mste n&#228;rvarande ledamoten.
+
+Vid utskotts sammantr&#228;den skall f&#246;ras protokoll. Ledamot &#228;ger f&#229;
+avvikande mening antecknad till protokollet. F&#246;rordning (1977:1142).
+
+&#167; 18 Kallelse till annat ridderskapet och adelns sammantr&#228;de &#228;n
+&#246;ppningssammantr&#228;det utf&#228;rdas av ordf&#246;randen. Kallelsen skall ansl&#229;s i
+riddarhuset minst en vecka i f&#246;rv&#228;g, med angivande av de &#228;renden som
+skola f&#246;rekomma p&#229; sammantr&#228;det.
+
+Ridderskapet och adeln kan besluta att sammantr&#228;de, vid vilket
+behandlingen av angivna &#228;renden av tidssk&#228;l eller annan anledning ej
+kunnat slutf&#246;ras p&#229; den utsatta dagen, skall forts&#228;tta en senare dag.
+Meddelande h&#228;rom skall genast ansl&#229;s i riddarhuset. F&#246;rordning
+(1977:1142).
+
+&#167; 19 Ordf&#246;randen &#229;ligger att leda ridderskapet och adelns sammantr&#228;den
+och s&#229;lunda att f&#246;redraga &#228;rendena, att upptaga, reda och framst&#228;lla
+de yttrade meningarna, att g&#246;ra proposition f&#246;r besluts fattande och
+att vidmakth&#229;lla ordning vid sammantr&#228;dena allt efter vad i denna
+riddarhusordning &#228;r f&#246;reskrivet eller kan varda &#246;verenskommet och
+belutat; ej m&#229; han kunna utan st&#229;ndets samtycke ett sammantr&#228;de
+uppl&#246;sa.
+
+Ordf&#246;randen &#228;ger ej att uti &#246;verl&#228;ggningarna och besluten deltaga.
+F&#246;rordning (1977:1142).
+
+&#167; 20 Varje ledamot &#228;ger att fr&#229;n talarstolen eller fr&#229;n sin plats i
+riddarhussalen tala och yttra sig i alla de fr&#229;gor, som under
+&#246;verl&#228;ggning komma. En var yttrar sig i den ordning, han d&#228;rtill sig
+anm&#228;lt och uppropad bliver. Ingen m&#229; till&#229;ta sig personligen
+f&#246;rol&#228;mpande uttryck; sker det, &#228;ger st&#229;ndet pr&#246;va, huruvida den
+ledamot, som s&#229;lunda sig f&#246;rg&#229;tt, m&#229; av ordf&#246;randen erh&#229;lla tj&#228;nlig
+f&#246;rest&#228;llning och varning. F&#246;rordning (1977:1142).
+
+&#167; 21 Utom de i &#167; 15 omf&#246;rm&#228;lda fr&#229;gor, &#228;vensom s&#229;dana, vilka
+ang&#229; arbetss&#228;ttet, m&#229; till &#246;verl&#228;ggning och beslut hos
+ridderskapet och adeln f&#246;rekomma:
+
+vid lagtima adelsm&#246;te:
+
+1:o) fr&#229;gor, som f&#246;ranledas av den utav riddarhusdirektionen
+avgivna ber&#228;ttelse ang&#229;ende f&#246;rvaltningen av riddarhus- och
+adliga stifts&#228;rendena &#228;vensom revisorernas ber&#228;ttelser, s&#229; ock
+framst&#228;llningar, vilka i &#246;vrigt m&#229; av riddarhusdirektionen
+g&#246;ras ang&#229;ende n&#228;mnda samt andra d&#228;rmed sammanhang &#228;gande
+&#228;renden;
+
+2:o) riddarhusutskottets eller s&#228;rskilt tillsatt utskotts
+utl&#229;tande och f&#246;rslag enligt vad i &#167; 17 s&#228;ges; och
+
+3:o) motion, som av n&#229;gon ledamot v&#228;ckes ang&#229;ende ej mindre
+f&#246;ren&#228;mnda &#228;renden &#228;n &#228;ven fr&#229;gor, som avse dels f&#246;rslag till
+&#228;ndring i denna riddarhusordning, dels vad i &#246;vrigt till
+ridderskapet och adelns gemensamma angel&#228;genheter &#228;r att
+h&#228;nf&#246;ra; samt
+
+&#229; urtima adelsm&#246;te:
+
+allenast det eller de &#228;renden, som f&#246;ranlett ridderskapet och
+adelns sammankallande. Lag (2003:178).
+
+&#167; 22 Motion m&#229; ej v&#228;ckas under l&#228;ngre tid &#228;n till och med den sj&#228;tte
+dagen efter &#246;ppningssammantr&#228;det, s&#229; framt den ej av n&#229;got fattat
+beslut eller annan under adelsm&#246;te intr&#228;ffad tilldragelse
+omedelbarligen f&#246;ranledes.
+
+Motion skall vara skriftligen avfattad; och m&#229; i en skrift ej flera
+m&#229;l av olika beskaffenhet sammanf&#246;ras.
+
+Efter &#246;ppningssammantr&#228;det v&#228;ckes motion genom att motionsskriften
+ingives till riddarhuskansliet. F&#246;rordning (1977:1142).
+
+&#167; 23 Fr&#229;gor, vilka f&#246;ranledas av riddarhusdirektionens
+f&#246;ren&#228;mnda ber&#228;ttelse eller i &#246;vrigt av direktionen till
+ridderskapet och adeln hemst&#228;llas, s&#229; ock fr&#229;gor, vartill
+revisorernas ber&#228;ttelser giva anledning eller varom motion
+blivit v&#228;ckt, m&#229; ej till avg&#246;rande f&#246;retagas, innan utskott
+d&#228;r&#246;ver sig yttrat.
+
+Efter &#246;ppningssammantr&#228;det &#228;ger adelsm&#246;tets ordf&#246;rande att p&#229;
+ridderskapet och adelns v&#228;gnar besluta om remiss till utskott.
+Finnes motion s&#229;som f&#246;r sent v&#228;ckt ej f&#246;ranleda remiss, &#228;ger
+motion&#228;ren vid n&#228;stkommande sammantr&#228;de med ridderskapet och
+adeln p&#229;kalla st&#229;ndets beslut huruvida remiss skall ske.
+Lag (2003:178).
+
+&#167; 24 N&#228;r utskott avgivit utl&#229;tande, skall meddelande d&#228;rom ansl&#229;s i
+riddarhuset, med angivande att utl&#229;tandet finnes tillg&#228;ngligt p&#229;
+riddarhuskansliet. Vad nu sagts g&#228;ller &#228;ven avvikande mening, som
+antecknats i utskottets protokoll. &#196;rendet f&#229;r f&#246;retagas till
+avg&#246;rande tidigast en vecka efter det anslaget skett. F&#246;rordning
+(1977:1142).
+
+&#167; 25 N&#228;r &#228;rende till afg&#246;rande f&#246;rekommer, b&#246;r Ordf&#246;randen, sedan,
+p&#229; framst&#228;llning af honom, &#246;fwerl&#228;ggningen f&#246;rklarats slutad, till
+St&#229;ndet g&#246;ra proposition, s&#229; affattad, att den kan med ja eller nej
+beswaras. Ordf&#246;randen tillk&#228;nnagifwer, huru efter hans uppfattning
+swaret utfallit; och skall derwid bero, derest icke omr&#246;stning
+beg&#228;res, hwilken d&#229;, efter f&#246;rut uppgjord och justerad proposition,
+samt kontraproposition, straxt derefter skall werkst&#228;llas med tryckta
+och om&#228;rkta, enkla, slutna och hoprullade sedlar; och m&#229; proposition
+ej g&#246;ras, om det voteras skall, ej eller votering derom till&#229;tas. F&#246;re
+&#246;ppnandet af sedlarne skall uti fr&#229;gor, som genom enkel r&#246;st&#246;fwervigt
+afg&#246;ras, en sedel f&#246;rseglad afl&#228;ggas f&#246;r att, derest r&#246;sterna utfalla
+lika, best&#228;mma beslutet.
+
+Likaledes skola alla wal werkst&#228;llas med enkla och slutna sedlar, fria
+fr&#229;n all twetydighet i anseende till personernas namn &#228;fwensom fr&#229;n
+oriktighet i anseende till deras antal. Der tw&#229; eller flera erh&#229;llit
+lika m&#229;nga r&#246;ster, skiljes dem emellan genom lottning.
+
+&#167; 26 I fr&#229;gor, som ang&#229; f&#246;rslag till &#228;ndring i denna riddarhusordning
+eller best&#228;mmande av kapitationsavgiften till h&#246;gre belopp &#228;n det
+senast beslutade eller ock avse avh&#228;ndande eller anv&#228;ndande av
+riddarhusets tomt eller d&#228;r&#229; befintliga byggnader, erfordras f&#246;r
+bifall till vad i avseende d&#228;r&#229; &#228;r f&#246;reslaget tv&#229; tredjedelar av de
+avgivna r&#246;sterna. F&#246;rordning (1977:1142).
+
+&#167; 27 Under hwarje Adelsm&#246;te skall ett fullst&#228;ndigt diarium &#246;fwer alla
+wid detsamma f&#246;rekommande &#228;renden f&#246;ras och i Riddarhuskansliet wara
+att tillg&#229;. F&#246;r hwarje sammantr&#228;de uppg&#246;res en f&#246;redragningslista,
+hwaraf en afskrift b&#246;r wara i Riddarhussalen uppsatt, der&#229; alla
+f&#246;r&#228;ndringar i f&#246;redragnings-ordningen, hwarom St&#229;ndet m&#229;
+&#246;fwerenskomma, genast skola anm&#228;rkas.
+
+&#167; 28 Protokollet wid sammantr&#228;dena skall i korthet angifwa hwarje
+f&#246;redraget &#228;rendes beskaffenhet och det deraf f&#246;ranledda beslut samt,
+der omr&#246;stning egt rum, uppgift om, huru m&#229;nga r&#246;stat f&#246;r eller emot.
+I protokollet m&#229; muntliga yttranden icke inflyta, derest icke i n&#229;gon
+fr&#229;ga af st&#246;rre wigt Ridderskapet och Adeln annorlunda beslutar; dock
+eger ledamot, som wid ett besluts fattande tillh&#246;rt minoriteten, r&#228;tt
+att f&#229; s&#229;dant till protokollet antecknadt; &#228;fwensom det st&#229;r hwarje
+ledamot &#246;ppet att senast wid protokollets justering skriftligen anf&#246;ra
+de sk&#228;l, p&#229; hwilka han sin mening st&#246;djer. S&#229;dana anf&#246;randen skola
+s&#229;som bilagor &#229;tf&#246;lja protokollet.
+
+Det wid ett sammantr&#228;de f&#246;rda protokoll skall wid b&#246;rjan af det
+n&#228;stf&#246;ljande justeras.
+
+&#167; 29 Wid wal och voteringar skall upprop ske efter anteckningslistan.
+De som till en och samma b&#228;nk h&#246;ra tr&#228;da inom skranket, n&#228;r deras
+b&#228;nknummer uppropas; och en hwar framl&#228;gge wid upprop af dess namn sin
+wal- eller voteringssedel p&#229; det pappersark, som h&#229;lles af Ordf&#246;randen
+eller en ledamot wid bordet. Ordf&#246;randen eller den hans st&#228;lle
+f&#246;retr&#228;der anmode sex ledam&#246;ter af Ridderskapet och Adeln att jemte
+honom wid bordet sitta f&#246;r att wid wal- och voterings-sedlarnes
+&#246;ppnande och granskande bitr&#228;da samt der&#246;fwer f&#246;ra protokoll.
+
+&#167; 30 Vid varje lagtima adelsm&#246;te utser ridderskapet och adeln efter
+f&#246;rslag av riddarhusutskottet en riddarhusdirektion, best&#229;ende av
+ordf&#246;rande, vice ordf&#246;rande och ytterligare fem ledam&#246;ter, j&#228;mte tre
+suppleanter. Direktionen bes&#246;rjer och f&#246;rvaltar riddarhusets
+angel&#228;genheter enligt utf&#228;rdad instruktion, som &#228;ven inneh&#229;ller
+f&#246;reskrifter f&#246;r riddarhusets tj&#228;nstem&#228;n.
+
+Likaledes utser vid varje lagtima adelsm&#246;te ridderskapet och adeln
+efter f&#246;rslag av riddarhusutskottet tre revisorer och tre suppleanter
+f&#246;r dem att &#229;rligen &#246;verse och granska de hos direktionen under
+n&#228;stf&#246;reg&#229;ende &#229;r f&#246;rda r&#228;kenskaper &#246;ver de under direktionens
+styrelse st&#228;llda kassor och fonder &#228;vensom att f&#246;rr&#228;tta inventering av
+riddarhusets l&#229;ne- och s&#228;kerhetshandlingar. En av revisorerna och en
+av suppleanterna skall vara auktoriserad revisor.
+
+Slutligen utser vid varje lagtima adelsm&#246;te ridderskapet och adeln
+efter f&#246;rslag av riddarhusutskottet f&#246;r tiden intill n&#228;sta lagtima
+adelsm&#246;tes b&#246;rjan en valn&#228;mnd, best&#229;ende av ordf&#246;rande, en f&#246;rste och
+en andre vice ordf&#246;rande samt ytterligare &#229;tta ledam&#246;ter. N&#228;mnden
+skall enligt n&#228;rmare best&#228;mmelser f&#246;rbereda de val som skola &#228;ga rum
+vid adelsm&#246;tets b&#246;rjan. F&#246;rordning (1977:1142).
+
+&#167; 31 Har upph&#228;vts genom f&#246;rordning (1977:1142).
+
+&#167; 32 Har upph&#228;vts genom f&#246;rordning (1977:1142).
+
+&#167; 33 Har upph&#228;vts lag (2003:178).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1977:1142
+
+&#214;verg&#229;ngsbest&#228;mmelsen har upph&#228;vts genom lag (2003:178).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4601">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4603">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

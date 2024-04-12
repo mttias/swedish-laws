@@ -1,0 +1,805 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2006-06-08" /> 
+ <meta id="rattsinfo-edited" content="2021-03-03" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2247</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2246">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2248">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2006:451 ·
+                    <a href="/sfsr?bet=2006:451">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2006:451) om offentliga uppk&#246;pserbjudanden p&#229; aktiemarknaden</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2006-05-24
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2020:992
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2006-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+Lagens till&#228;mpningsomr&#229;de
+
+1 &#167; I denna lag finns best&#228;mmelser om offentliga
+uppk&#246;pserbjudanden avseende aktier.
+
+Lagen skall inte till&#228;mpas p&#229; offentliga uppk&#246;pserbjudanden som
+avser aktier som har getts ut av budgivaren.
+
+Det som f&#246;reskrivs i lagen om aktier skall till&#228;mpas ocks&#229; p&#229;
+aktie&#228;gares r&#228;tt gentemot den som f&#246;rvarar aktier f&#246;r hans
+eller hennes r&#228;kning (dep&#229;bevis).
+
+Definitioner
+
+2 &#167; I denna lag f&#246;rst&#229;s med 
+
+1. offentligt uppk&#246;pserbjudande: ett offentligt erbjudande 
+till innehavare av aktier som har getts ut av ett svenskt 
+eller utl&#228;ndskt aktiebolag att &#246;verl&#229;ta samtliga eller en del 
+av dessa aktier,
+
+2. b&#246;rs: det som anges i 1 kap. 4 b &#167; lagen (2007:528) om 
+v&#228;rdepappersmarknaden och s&#229;dant utl&#228;ndskt f&#246;retag som har 
+tillst&#229;nd att driva en reglerad marknad fr&#229;n filial i 
+Sverige,
+
+3. budgivare: den som l&#228;mnar ett offentligt 
+uppk&#246;pserbjudande, 
+
+4. koncern: s&#229;dana f&#246;retagsgrupper som avses i 1 kap. 11 och 
+12 &#167;&#167; aktiebolagslagen (2005:551), varvid det som s&#228;gs om 
+moderbolag ska till&#228;mpas &#228;ven p&#229; andra svenska eller 
+utl&#228;ndska r&#228;ttssubjekt &#228;n aktiebolag, och
+
+5. reglerad marknad: det som anges i 1 kap. 4 b &#167; lagen om 
+v&#228;rdepappersmarknaden. Lag (2017:694).
+
+2 kap. Skyldigheter f&#246;r budgivaren
+
+1 &#167; Ett offentligt uppk&#246;pserbjudande i fr&#229;ga om s&#229;dana aktier
+som avses i andra stycket f&#229;r l&#228;mnas bara av den som gentemot
+den b&#246;rs som driver den reglerade marknad d&#228;r bolagets aktier
+&#228;r upptagna till handel har &#229;tagit sig att
+
+1. f&#246;lja de regler som b&#246;rsen har fastst&#228;llt f&#246;r s&#229;dana
+erbjudanden, och
+
+2. underkasta sig de sanktioner som b&#246;rsen f&#229;r besluta om vid
+&#246;vertr&#228;delse av dessa regler.
+
+F&#246;rsta stycket skall till&#228;mpas p&#229; offentliga uppk&#246;pserbjudanden
+som avser
+
+1. aktier i ett svenskt aktiebolag, vars aktier &#228;r upptagna
+till handel p&#229; en reglerad marknad i Sverige,
+
+2. aktier i ett utl&#228;ndskt aktiebolag, vars aktier &#228;r upptagna
+till handel bara p&#229; en reglerad marknad i Sverige,
+
+3. aktier i ett utl&#228;ndskt aktiebolag, vars aktier inte &#228;r
+noterade i den stat d&#228;r bolaget har sin hemvist men som &#228;r
+upptagna till handel p&#229; en reglerad marknad i Sverige och &#228;r
+upptagna till handel ocks&#229; p&#229; en annan reglerad marknad inom
+Europeiska ekonomiska samarbetsomr&#229;det, om aktierna f&#246;rst
+upptogs till handel p&#229; den reglerade marknaden i Sverige, eller
+
+4. aktier i ett utl&#228;ndskt aktiebolag, vars aktier inte &#228;r
+noterade i den stat d&#228;r bolaget har sin hemvist men som &#228;r
+upptagna till handel p&#229; en reglerad marknad i Sverige och som
+f&#246;rsta g&#229;ngen de upptogs till handel d&#229; upptogs till handel
+samtidigt ocks&#229; p&#229; en eller flera andra reglerade marknader
+inom Europeiska ekonomiska samarbetsomr&#229;det, om bolaget har
+anm&#228;lt att Finansinspektionen skall vara tillsynsmyndighet.
+
+Finansinspektionen skall offentligg&#246;ra en s&#229;dan anm&#228;lan som
+avses i andra stycket 4. Lag (2007:568).
+
+2 &#167; Budgivaren skall i samband med att ett erbjudande enligt
+1 &#167; l&#228;mnas informera Finansinspektionen om erbjudandet och
+&#229;tagandet gentemot b&#246;rsen.
+
+Om budgivaren offentligg&#246;r information om ett planerat
+erbjudande, skall den informationen samtidigt l&#228;mnas till
+Finansinspektionen. Lag (2007:568).
+
+3 &#167; Budgivaren skall inom fyra veckor fr&#229;n ett erbjudande
+enligt 1 &#167; uppr&#228;tta en erbjudandehandling och hos
+Finansinspektionen ans&#246;ka om godk&#228;nnande av den. I 2 a kap.
+lagen (1991:980) om handel med finansiella instrument finns
+ytterligare best&#228;mmelser om en s&#229;dan handling.
+
+Om det finns s&#228;rskilda sk&#228;l, f&#229;r Finansinspektionen f&#246;rl&#228;nga
+tidsfristen i f&#246;rsta stycket.
+
+3 kap. Budplikt
+
+F&#246;ruts&#228;ttningarna f&#246;r att budplikt skall uppkomma
+
+1 &#167; Den som inte innehar n&#229;gra aktier eller innehar aktier som
+representerar mindre &#228;n tre tiondelar av r&#246;stetalet f&#246;r
+samtliga aktier i ett s&#229;dant bolag som avses i andra stycket
+och genom f&#246;rv&#228;rv av aktier i bolaget, ensam eller tillsammans
+med n&#229;gon som &#228;r n&#228;rst&#229;ende enligt 5 &#167;, uppn&#229;r ett aktieinnehav
+som representerar minst tre tiondelar av r&#246;stetalet f&#246;r
+samtliga aktier i bolaget skall
+
+1. omedelbart offentligg&#246;ra hur stort hans eller hennes
+aktieinnehav i bolaget &#228;r, och
+
+2. inom fyra veckor d&#228;refter l&#228;mna ett offentligt
+uppk&#246;pserbjudande avseende resterande aktier i bolaget
+(budplikt).
+
+F&#246;rsta stycket g&#228;ller vid f&#246;rv&#228;rv av aktier i ett svenskt
+aktiebolag vars aktier &#228;r upptagna till handel p&#229; en reglerad
+marknad eller en motsvarande marknad utanf&#246;r Europeiska
+ekonomiska samarbetsomr&#229;det.
+
+I 4 &#167; finns best&#228;mmelser om att Finansinspektionen kan besluta
+att budplikten skall fullg&#246;ras av annan &#228;n vad som f&#246;ljer av
+denna paragraf. Lag (2007:568).
+
+2 &#167; Det som s&#228;gs i 1 &#167; om budplikt g&#228;ller ocks&#229; om
+
+1. n&#229;gon som inte innehar n&#229;gra aktier eller innehar aktier som
+representerar mindre &#228;n tre tiondelar av r&#246;stetalet f&#246;r
+samtliga aktier i ett s&#229;dant bolag som avses i 1 &#167; andra
+stycket, genom &#229;tg&#228;rder fr&#229;n bolagets eller n&#229;gon annan
+aktie&#228;gares sida, ensam eller tillsammans med n&#229;gon som &#228;r
+n&#228;rst&#229;ende enligt 5 &#167; uppn&#229;r ett aktieinnehav som representerar
+minst tre tiondelar av r&#246;stetalet f&#246;r samtliga aktier och
+d&#228;refter, p&#229; annat s&#228;tt &#228;n genom ett offentligt erbjudande om
+f&#246;rv&#228;rv av resterande aktier i bolaget, &#246;kar sin r&#246;standel
+genom f&#246;rv&#228;rv av en eller flera aktier i bolaget, eller
+
+2. ett n&#228;rst&#229;endef&#246;rh&#229;llande enligt 5 &#167; 1 eller 4 etableras och
+parterna d&#228;rigenom tillsammans uppn&#229;r ett aktieinnehav som
+representerar minst tre tiondelar av r&#246;stetalet f&#246;r samtliga
+aktier i ett s&#229;dant bolag som avses i 1 &#167; andra stycket.
+
+Om budplikt uppkommer enligt f&#246;rsta stycket 2 g&#228;ller f&#246;ljande.
+Budplikten skall, i fall som avses i 5 &#167; 1, fullg&#246;ras av
+moderbolaget eller ett s&#229;dant motsvarande r&#228;ttssubjekt som
+avses i 1 kap. 2 &#167; 4, och, i fall som avses i 5 &#167; 4, av den
+vars aktieinnehav representerar st&#246;rst andel av r&#246;stetalet f&#246;r
+samtliga aktier i bolaget. Om flera n&#228;rst&#229;ende i det sistn&#228;mnda
+fallet innehar lika r&#246;standelar, svarar var och en av dem f&#246;r
+att budplikten fullg&#246;rs.
+
+I 4 &#167; finns best&#228;mmelser om att Finansinspektionen kan besluta
+att budplikten skall fullg&#246;ras av annan &#228;n vad som f&#246;ljer av
+denna paragraf.
+
+3 &#167; Best&#228;mmelserna i 1 och 2 &#167;&#167; g&#228;ller inte om n&#229;gon uppn&#229;r ett
+aktieinnehav som representerar minst tre tiondelar av
+r&#246;stetalet f&#246;r samtliga aktier genom ett offentligt
+uppk&#246;pserbjudande som avser samtliga aktier i bolaget.
+
+4 &#167; Om det finns s&#228;rskilda sk&#228;l, kan Finansinspektionen besluta
+att budplikten skall fullg&#246;ras av n&#229;gon som &#228;r n&#228;rst&#229;ende till
+den som &#228;r budpliktig enligt 1 eller 2 &#167;.
+
+Inneb&#246;rden av begreppet n&#228;rst&#229;ende
+
+5 &#167; Vid till&#228;mpningen av 1 &#167; skall som n&#228;rst&#229;ende anses
+
+1. f&#246;retag inom samma koncern som f&#246;rv&#228;rvaren,
+
+2. make eller sambo till f&#246;rv&#228;rvaren,
+
+3. barn till f&#246;rv&#228;rvaren som st&#229;r under f&#246;rv&#228;rvarens v&#229;rdnad,
+
+4. den med vilken har tr&#228;ffats en &#246;verenskommelse om att genom
+ett samordnat ut&#246;vande av r&#246;str&#228;tten inta en l&#229;ngsiktigt
+gemensam h&#229;llning i syfte att uppn&#229; ett best&#228;mmande inflytande
+&#246;ver bolagets f&#246;rvaltning, samt
+
+5. n&#229;gon som samarbetar med f&#246;rv&#228;rvaren i syfte att uppn&#229;
+kontroll &#246;ver bolaget.
+
+F&#246;ruts&#228;ttningarna f&#246;r att budplikt skall bortfalla
+
+6 &#167; Om budplikt har uppkommit enligt 1-4 &#167;&#167; och den budpliktige
+eller, i f&#246;rekommande fall, n&#229;gon som enligt 5 &#167; &#228;r n&#228;rst&#229;ende
+till denne inom fyra veckor fr&#229;n den tidpunkt d&#229; budplikten
+uppkom avyttrar aktier s&#229; att aktieinnehavet inte representerar
+tre tiondelar av r&#246;stetalet f&#246;r samtliga aktier i bolaget,
+g&#228;ller inte l&#228;ngre budplikt. Detsamma g&#228;ller om den
+budpliktige, n&#229;gon annan eller bolaget inom samma tid vidtar
+n&#229;gon annan &#229;tg&#228;rd som medf&#246;r att aktieinnehavet inte
+representerar minst tre tiondelar av r&#246;stetalet f&#246;r samtliga
+aktier i bolaget.
+
+Om budplikt har uppkommit och den budpliktige inom fyra veckor
+fr&#229;n den tidpunkt d&#229; budplikten uppkom p&#229;kallar inl&#246;sen av
+resterande aktier enligt 22 kap. aktiebolagslagen (2005:551),
+g&#228;ller inte l&#228;ngre budplikt. Om en s&#229;dan beg&#228;ran om inl&#246;sen
+&#229;terkallas, avvisas eller ogillas, g&#228;ller dock budplikt.
+
+Om budplikt inte l&#228;ngre g&#228;ller p&#229; grund av det som s&#228;gs i
+f&#246;rsta eller andra styckena, ska f&#246;rv&#228;rvaren omedelbart
+offentligg&#246;ra detta. Lag (2010:2072).
+
+4 kap. Information till anst&#228;llda
+
+1 &#167; En budgivare med hemvist i Sverige skall informera sina
+anst&#228;llda om ett l&#228;mnat offentligt uppk&#246;pserbjudande och om
+erbjudandehandlingen. Informationen skall l&#228;mnas s&#229; snart som
+uppk&#246;pserbjudandet respektive erbjudandehandlingen har
+offentliggjorts.
+
+2 &#167; Styrelsen i ett s&#229;dant bolag som avses i 3 kap. 1 &#167; andra
+stycket, och till vars aktie&#228;gare ett offentligt
+uppk&#246;pserbjudande l&#228;mnas, skall informera sina anst&#228;llda om
+uppk&#246;pserbjudandet, om erbjudandehandlingen och om sin
+rekommendation till aktie&#228;garna med anledning av
+uppk&#246;pserbjudandet. Informationen skall l&#228;mnas s&#229; snart som
+uppk&#246;pserbjudandet, erbjudandehandlingen respektive
+rekommendationen har offentliggjorts.
+
+3 &#167; Information enligt 1 och 2 &#167;&#167; skall l&#228;mnas till
+arbetstagarorganisationer som f&#246;retr&#228;der arbetstagare hos den
+informationsskyldige. Information skall &#228;ven l&#228;mnas till
+arbetstagare som inte f&#246;retr&#228;ds av n&#229;gon
+arbetstagarorganisation.
+
+5 kap. F&#246;rsvars&#229;tg&#228;rder
+
+1 &#167; Om styrelsen eller verkst&#228;llande direkt&#246;ren i ett s&#229;dant
+bolag som avses i 3 kap. 1 &#167; andra stycket, p&#229; grund av
+information som h&#228;rr&#246;r fr&#229;n den som avser att l&#228;mna ett
+offentligt uppk&#246;pserbjudande avseende aktier i bolaget, har
+grundad anledning att anta att ett s&#229;dant erbjudande &#228;r n&#228;ra
+f&#246;rest&#229;ende, eller om ett s&#229;dant erbjudande har l&#228;mnats, f&#229;r
+bolaget endast efter beslut av bolagsst&#228;mman vidta &#229;tg&#228;rder,
+som &#228;r &#228;gnade att f&#246;rs&#228;mra f&#246;ruts&#228;ttningarna f&#246;r erbjudandets
+l&#228;mnande eller genomf&#246;rande.
+
+Trots vad som s&#228;gs i f&#246;rsta stycket f&#229;r bolaget s&#246;ka efter
+alternativa erbjudanden.
+
+6 kap. Best&#228;mmelse om genombrott i bolagsordningen
+
+1 &#167; I bolagsordningen f&#246;r ett s&#229;dant bolag som avses i 3 kap.
+1 &#167; andra stycket f&#229;r det tas in en best&#228;mmelse om genombrott
+enligt vad som f&#246;reskrivs i detta kapitel. I s&#229;dant fall skall
+2-6 &#167;&#167; till&#228;mpas.
+
+Ett beslut om att inf&#246;ra en s&#229;dan best&#228;mmelse som avses i
+f&#246;rsta stycket i bolagsordningen &#228;r giltigt endast om det har
+bitr&#228;tts av samtliga vid bolagsst&#228;mman n&#228;rvarande aktie&#228;gare
+och dessa tillsammans f&#246;retr&#228;der minst nio tiondelar av
+samtliga aktier i bolaget.
+
+Bolaget skall informera tillsynsmyndigheten i den eller de
+stater inom Europeiska ekonomiska samarbetsomr&#229;det d&#228;r bolagets
+aktier &#228;r upptagna till handel om ett beslut enligt andra
+stycket.
+
+2 &#167; Om n&#229;gon har l&#228;mnat ett offentligt uppk&#246;pserbjudande enligt
+2 kap. 1 &#167; avseende aktier i ett bolag vars bolagsordning
+inneh&#229;ller en best&#228;mmelse enligt 1 &#167;, g&#228;ller inte
+hembudsf&#246;rbeh&#229;ll enligt 4 kap. 27 &#167; aktiebolagslagen (2005:551)
+vid s&#229;dan &#246;verl&#229;telse av aktier som sker inom ramen f&#246;r
+erbjudandet. Inte heller g&#228;ller begr&#228;nsningar av r&#228;tten att
+&#246;verl&#229;ta aktier i ett avtal mellan aktie&#228;gare.
+Lag (2010:2072).
+
+3 &#167; Om bolagsst&#228;mman, i fall som avses i 2 &#167;, skall ta
+st&#228;llning till om bolaget skall vidta en s&#229;dan &#229;tg&#228;rd som avses
+i 5 kap. 1 &#167;, skall en best&#228;mmelse i bolagsordningen eller i
+ett avtal mellan aktie&#228;gare som begr&#228;nsar det antal r&#246;ster som
+en aktie&#228;gare f&#229;r avge vid en bolagsst&#228;mma sakna verkan. Vid en
+s&#229;dan st&#228;mma skall vidare alla aktier med lika r&#228;tt till andel
+i bolagets tillg&#229;ngar och vinst ha samma r&#246;stv&#228;rde.
+
+4 &#167; Om en budgivare som, till f&#246;ljd av ett offentligt
+uppk&#246;pserbjudande enligt 2 kap. 1 &#167;, har uppn&#229;tt ett
+aktieinnehav motsvarande minst tre fj&#228;rdedelar av aktierna i
+ett bolag, vars bolagsordning inneh&#229;ller en best&#228;mmelse enligt
+1 &#167;, beg&#228;r att bolagsst&#228;mma sammankallas f&#246;r att &#228;ndra
+bolagsordningen eller f&#246;r att entlediga eller tills&#228;tta
+styrelseledam&#246;ter, ska detta ske s&#229; snart som m&#246;jligt.
+Kallelse ska utf&#228;rdas tidigast fyra veckor och senast tv&#229; veckor f&#246;re
+bolagsst&#228;mman. Vid till&#228;mpning av 7 kap. 56 c &#167;
+aktiebolagslagen (2005:551) ska de i den paragrafen avsedda
+formul&#228;ren h&#229;llas tillg&#228;ngliga p&#229; bolagets webbplats under
+minst tv&#229; veckor n&#228;rmast f&#246;re bolagsst&#228;mman och dagen f&#246;r
+st&#228;mman. Lag (2010:1517).
+
+5 &#167; Vid en bolagsst&#228;mma som h&#229;lls med anledning av en beg&#228;ran
+enligt 4 &#167; skall alla aktier med lika r&#228;tt till andel i
+bolagets tillg&#229;ngar och vinst ha samma r&#246;stv&#228;rde vid beslut som
+g&#228;ller en fr&#229;ga om att &#228;ndra bolagsordningen eller en fr&#229;ga om
+att entlediga eller v&#228;lja styrelseledam&#246;ter.
+
+Vid en s&#229;dan st&#228;mma skall en s&#229;dan best&#228;mmelse i
+bolagsordningen eller i avtal mellan aktie&#228;gare som begr&#228;nsar
+det antal r&#246;ster som en aktie&#228;gare f&#229;r avge vid en bolagsst&#228;mma
+sakna verkan. Detsamma g&#228;ller en s&#229;dan best&#228;mmelse i
+bolagsordningen som ger en viss aktie&#228;gare s&#228;rskilda
+r&#228;ttigheter vid val av styrelse.
+
+6 &#167; Om en till&#228;mpning av en s&#229;dan best&#228;mmelse som avses i 1 &#167;
+inneb&#228;r att en aktie&#228;gares eller annans r&#228;ttighet bortfaller
+eller f&#246;rs&#228;mras, skall budgivaren betala sk&#228;lig ers&#228;ttning till
+r&#228;ttighetsinnehavaren.
+
+7 kap. Tillsyn m.m.
+
+1 &#167; Finansinspektionen &#246;vervakar att best&#228;mmelserna i 2-5 kap.
+f&#246;ljs.
+
+I 6 kap. 1 a, 1 c och 1 d &#167;&#167; lagen (1991:980) om handel med
+finansiella instrument finns best&#228;mmelser som ger
+Finansinspektionen r&#228;tt att
+
+- f&#229; de uppgifter som inspektionen beh&#246;ver f&#246;r sin &#246;vervakning,
+
+- f&#246;rbjuda ett offentligt uppk&#246;pserbjudande, och
+
+- f&#246;rbjuda reklam som avser ett offentligt uppk&#246;pserbjudande.
+
+S&#228;rskild avgift
+
+2 &#167; Om en budgivare inte har gjort ett s&#229;dant &#229;tagande som 
+avses i 2 kap. 1 &#167; och Finansinspektionen d&#228;rf&#246;r har 
+f&#246;rbjudit erbjudandet enligt 6 kap. 1 c &#167; tredje stycket 
+lagen (1991:980) om handel med finansiella instrument, ska 
+Finansinspektionen besluta att budgivaren ska betala en 
+s&#228;rskild avgift.
+
+Den s&#228;rskilda avgiften ska uppg&#229; till l&#228;gst 50 000 kronor och 
+h&#246;gst 100 miljoner kronor.
+
+F&#246;r avgiften g&#228;ller ocks&#229; best&#228;mmelserna i 6 kap. 3 l &#167; 
+f&#246;rsta stycket 1 och 3 g, 3 m och 3 n &#167;&#167; lagen om handel med 
+finansiella instrument. Lag (2016:894).
+
+F&#246;rbud att godk&#228;nna en erbjudandehandling
+
+3 &#167; Finansinspektionen f&#229;r inte godk&#228;nna en s&#229;dan
+erbjudandehandling som avses i 2 kap. 3 &#167;, om inte budgivaren
+har gjort ett s&#229;dant &#229;tagande som avses i 2 kap. 1 &#167;.
+
+Tolkningsbesked
+
+4 &#167; Finansinspektionen skall efter ans&#246;kan ge besked om
+huruvida budplikt g&#228;ller enligt best&#228;mmelserna i 3 kap. eller
+besked om huruvida en viss &#229;tg&#228;rd st&#229;r i strid med
+best&#228;mmelserna om f&#246;rsvars&#229;tg&#228;rder i 5 kap. En s&#229;dan ans&#246;kan
+kan g&#246;ras av den som har ett ber&#228;ttigat intresse i saken.
+
+Dispens
+
+5 &#167; Om det finns s&#228;rskilda sk&#228;l, f&#229;r Finansinspektionen efter
+ans&#246;kan medge undantag fr&#229;n best&#228;mmelserna om budplikt och
+f&#246;rsvars&#229;tg&#228;rder. Undantag f&#229;r f&#246;renas med villkor.
+
+En ans&#246;kan enligt f&#246;rsta stycket kan, i fr&#229;ga om budplikt,
+g&#246;ras av en aktie&#228;gare i ett s&#229;dant bolag som avses i 3 kap. 1
+&#167; andra stycket eller n&#229;gon annan med ett ber&#228;ttigat intresse i
+saken.
+
+En ans&#246;kan enligt f&#246;rsta stycket kan, i fr&#229;ga om
+f&#246;rsvars&#229;tg&#228;rder, g&#246;ras av ett s&#229;dant bolag som avses i 3 kap.
+1 &#167; andra stycket.
+
+F&#246;rel&#228;ggande
+
+6 &#167; Finansinspektionen f&#229;r f&#246;rel&#228;gga den som inte fullg&#246;r sin
+budplikt enligt 3 kap. 1 &#167; att g&#246;ra r&#228;ttelse genom att fullg&#246;ra
+budplikten, avyttra s&#229; m&#229;nga aktier att budplikt inte l&#228;ngre
+g&#228;ller eller l&#246;sa upp ett s&#229;dant n&#228;rst&#229;endef&#246;rh&#229;llande som
+avses i 3 kap. 5 &#167; 1, 4 eller 5 s&#229; att budplikt inte l&#228;ngre
+g&#228;ller.
+
+Finansinspektionen f&#229;r f&#246;rel&#228;gga den som inte informerar sina
+anst&#228;llda enligt 4 kap. att g&#246;ra r&#228;ttelse genom att fullg&#246;ra
+skyldigheten att informera.
+
+Finansinspektionen f&#229;r f&#246;rel&#228;gga ett bolag som inte f&#246;ljer vad
+som s&#228;gs i 5 kap. 1 &#167; om vissa &#229;tg&#228;rder fr&#229;n bolagets sida att
+g&#246;ra r&#228;ttelse genom att avbryta &#229;tg&#228;rden.
+
+Ett f&#246;rel&#228;ggande enligt f&#246;rsta, andra eller tredje stycket f&#229;r
+f&#246;renas med vite.
+
+F&#246;rbud att f&#246;retr&#228;da aktierna
+
+7 &#167; Om ett f&#246;rbud enligt 6 kap. 1 d &#167; f&#246;rsta stycket lagen 
+(1991:980) om handel med finansiella instrument eller ett 
+f&#246;rel&#228;ggande enligt 6 &#167; f&#246;rsta stycket har meddelats, f&#229;r 
+Finansinspektionen besluta att den som f&#246;rbudet eller 
+f&#246;rel&#228;ggandet riktar sig mot inte f&#229;r f&#246;retr&#228;da de aktier som 
+han eller hon innehar i det bolag till vars aktie&#228;gare ett 
+offentligt uppk&#246;pserbjudande l&#228;mnas eller ska l&#228;mnas.
+Lag (2020:992).
+
+8 &#167; Om det finns s&#228;rskilda sk&#228;l, f&#229;r Finansinspektionen beg&#228;ra
+att tingsr&#228;tten f&#246;rordnar en l&#228;mplig person att som f&#246;rvaltare
+f&#246;retr&#228;da s&#229;dana aktier som enligt 7 &#167; inte f&#229;r f&#246;retr&#228;das av
+&#228;garen. En s&#229;dan ans&#246;kan pr&#246;vas av tingsr&#228;tten i den ort d&#228;r
+&#228;garen har sitt hemvist, eller om &#228;garen inte har hemvist i
+Sverige, av Stockholms tingsr&#228;tt.
+
+En f&#246;rvaltare har r&#228;tt till sk&#228;lig ers&#228;ttning f&#246;r arbete och
+utl&#228;gg. Ers&#228;ttningen skall betalas av &#228;garen till aktierna. Om
+den betalningsskyldige inte godtar f&#246;rvaltarens anspr&#229;k,
+fastst&#228;lls ers&#228;ttningen av tingsr&#228;tten.
+
+Kung&#246;rande av beslut
+
+9 &#167; Beslut i fr&#229;gor som avses i 4 och 5 &#167;&#167; skall kung&#246;ras, om
+beslutet inneb&#228;r att en ans&#246;kan helt eller delvis bifalls.
+Kung&#246;rande skall ske omedelbart eller, om det finns s&#228;rskilda
+sk&#228;l, vid den senare tidpunkt som Finansinspektionen eller, i
+f&#246;rekommande fall, ett s&#229;dant organ som avses i 10 &#167; best&#228;mmer.
+Regeringen eller den myndighet som regeringen best&#228;mmer
+meddelar n&#228;rmare f&#246;reskrifter om kung&#246;rande.
+
+&#214;verl&#229;telse av f&#246;rvaltningsuppgifter
+
+10 &#167; Regeringen eller den myndighet som regeringen 
+best&#228;mmer f&#229;r meddela f&#246;reskrifter om att fr&#229;gor som avses i 
+4 och 5 &#167;&#167; samt 2 kap. 3 &#167; andra stycket och 3 kap. 4 &#167; f&#229;r 
+beslutas av ett organ med representativa f&#246;retr&#228;dare f&#246;r 
+n&#228;ringslivet. Vid handl&#228;ggningen av &#228;renden hos ett s&#229;dant 
+organ till&#228;mpas f&#246;ljande best&#228;mmelser i f&#246;rvaltningslagen 
+(2017:900):
+
+– 5 &#167; om legalitet, objektivitet och proportionalitet,
+
+– 10 &#167; om partsinsyn,
+
+– 16–18 &#167;&#167; om j&#228;v,
+
+– 23 &#167; om utredningsansvaret,
+
+– 24 &#167; om n&#228;r man f&#229;r l&#228;mna uppgifter muntligt,
+
+– 25 &#167; om kommunikation,
+
+– 27 &#167; om dokumentation av uppgifter,
+
+– 31 &#167; om dokumentation av beslut,
+
+– 32 &#167; om motivering av beslut,
+
+– 33 &#167; om underr&#228;ttelse om inneh&#229;llet i beslut och hur ett 
+&#246;verklagande g&#229;r till, och
+
+– 36–39 &#167;&#167; om r&#228;ttelse och &#228;ndring av beslut.
+Lag (2018:825).
+
+Tillsynssamarbete
+
+11 &#167; Finansinspektionen skall i sin tillsynsverksamhet
+samarbeta och utbyta information med utl&#228;ndska beh&#246;riga
+myndigheter i den utstr&#228;ckning som f&#246;ljer av Europaparlamentets
+och r&#229;dets direktiv 2004/25/EG av den 21 april 2004 om
+uppk&#246;pserbjudanden.
+
+Vissa svenska aktiebolags anm&#228;lningsskyldighet ang&#229;ende tillsyn
+
+12 &#167; Om aktierna i ett svenskt aktiebolag, vars aktier inte
+tidigare &#228;r upptagna till handel p&#229; en reglerad marknad i
+Sverige och inte heller &#228;r upptagna till handel i n&#229;gon annan
+stat, tas upp till handel samtidigt vid tv&#229; eller flera
+reglerade marknader i andra stater inom Europeiska ekonomiska
+samarbetsomr&#229;det &#228;n Sverige g&#228;ller f&#246;ljande. Bolaget skall p&#229;
+den f&#246;rsta handelsdagen best&#228;mma vilken tillsynsmyndighet i de
+staterna som skall vara beh&#246;rig att ut&#246;va tillsyn &#246;ver
+offentliga uppk&#246;pserbjudanden avseende aktierna i bolaget genom
+att anm&#228;la detta till de reglerade marknaderna och
+tillsynsmyndigheterna. Lag (2007:568).
+
+Avgifter f&#246;r &#246;vervakning m.m.
+
+13 &#167; F&#246;r att bekosta Finansinspektionens &#246;vervakning enligt
+denna lag skall de institut som st&#229;r under Finansinspektionens
+tillsyn betala &#229;rliga avgifter. Regeringen f&#229;r meddela
+f&#246;reskrifter om s&#229;dana avgifter. Om Finansinspektionen enligt
+10 &#167; har &#246;verl&#229;tit till ett annat organ att fatta vissa beslut
+om budplikt eller f&#246;rsvars&#229;tg&#228;rder f&#229;r detta organ ta ut en
+sk&#228;lig avgift av s&#246;kanden f&#246;r arbete och kostnader.
+
+8 kap. &#214;verklagande m.m.
+
+1 &#167; Ett beslut av ett s&#229;dant organ som avses i 7 kap. 10 &#167; 
+f&#229;r &#246;verklagas till Finansinspektionen av den som beslutet 
+ang&#229;r, om det har g&#229;tt honom eller henne emot. &#214;verklagandet 
+ska g&#246;ras skriftligt. I skrivelsen ska klaganden ange vilket 
+beslut som &#246;verklagas och vilken &#228;ndring som beg&#228;rs.
+
+Skrivelsen med &#246;verklagandet ska ha kommit in till det organ 
+som fattat det &#246;verklagade beslutet inom tre veckor fr&#229;n den 
+dag d&#229; klaganden fick del av beslutet. I fall som avses i 
+7 kap. 4 eller 5 &#167; ska, om beslutet &#246;verklagas av n&#229;gon annan 
+&#228;n s&#246;kanden, &#246;verklagandet ha kommit in inom tre veckor fr&#229;n 
+det att beslutet kungjordes.
+
+Det organ som avses i f&#246;rsta stycket pr&#246;var om &#246;verklagandet 
+har kommit in i r&#228;tt tid. Vid pr&#246;vningen till&#228;mpas 45 &#167; och 
+46 &#167; f&#246;rsta stycket f&#246;rvaltningslagen (2017:900).
+
+Ett beslut av det organ som avses i f&#246;rsta stycket att avvisa 
+en skrivelse med &#246;verklagande som f&#246;r sent inkommen f&#229;r 
+&#246;verklagas i samma ordning som beslutet i huvudsaken.
+Lag (2018:825).
+
+2 &#167; Finansinspektionen och ett s&#229;dant organ som avses i 7 kap.
+10 &#167; f&#229;r best&#228;mma att ett beslut skall g&#228;lla omedelbart.
+
+3 &#167; Finansinspektionens beslut enligt denna lag f&#229;r &#246;verklagas
+hos allm&#228;n f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+Om Finansinspektionen har fattat beslut i en s&#229;dan fr&#229;ga som
+avses i 7 kap. 4 eller 5 &#167;, utan att det &#228;r fr&#229;ga om
+&#246;verpr&#246;vning av ett beslut av ett s&#229;dant organ som avses i 7
+kap. 10 &#167;, g&#228;ller 8 kap. 1 &#167; andra stycket i fr&#229;ga om tiden f&#246;r
+&#246;verklagande av inspektionens beslut.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2006:451
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2006.
+
+2. Vad som s&#228;gs i 6 kap. 2, 3 och 5 &#167;&#167; om avtal mellan
+aktie&#228;gare skall till&#228;mpas endast p&#229; avtal som har ing&#229;tts
+efter den 21 april 2004.
+
+3. Vad som s&#228;gs i 2 kap. 1 &#167; skall, ut&#246;ver vad som framg&#229;r av
+den paragrafen, till&#228;mpas i fr&#229;ga om uppk&#246;pserbjudanden som
+avser aktier i ett utl&#228;ndskt bolag, om aktierna den 20 maj 2006
+var noterade p&#229; s&#228;tt som s&#228;gs i 2 kap. 1 &#167; andra stycket 4 och
+Finansinspektionen inom fyra veckor fr&#229;n angivet datum efter
+samr&#229;d har kommit &#246;verens med andra ber&#246;rda tillsynsmyndigheter
+om att inspektionen skall vara beh&#246;rig att ut&#246;va tillsyn.
+
+4. Vad som s&#228;gs i 7 kap. 12 &#167; om ett svenskt bolags skyldighet
+att best&#228;mma vilken tillsynsmyndighet som skall vara beh&#246;rig
+skall g&#228;lla ocks&#229; om bolagets aktier f&#246;re den 20 maj 2006 var
+upptagna till handel i flera andra stater inom Europeiska
+ekonomiska samarbetsomr&#229;det &#228;n Sverige och de hade upptagits
+till handel d&#228;r samtidigt samt ber&#246;rda tillsynsmyndigheter inte
+inom fyra veckor fr&#229;n angivet datum har kommit &#246;verens om
+vilken myndighet som skall vara beh&#246;rig att ut&#246;va tillsyn.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2246">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2248">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

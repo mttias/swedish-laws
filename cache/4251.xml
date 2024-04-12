@@ -1,0 +1,778 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-20" /> 
+ <meta id="rattsinfo-edited" content="2023-01-20 13:29:20" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4251</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4250">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4252">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1970:486 ·
+                    <a href="/sfsr?bet=1970:486">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">M&#246;nsterskyddsf&#246;rordning (1970:486)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSN
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1970-08-03
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:376
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Registreringsans&#246;kan och diarium
+
+1 &#167; Ans&#246;kan om registrering av m&#246;nster inges till patent- och
+registreringsverket (registreringsmyndigheten).
+
+2 &#167; Ans&#246;kan om registrering av m&#246;nster skall best&#229; av en
+skrivelse (ans&#246;kningshandling) med bilagor.
+
+Ans&#246;kningshandlingen skall vara undertecknad av s&#246;kanden eller
+hans ombud och inneh&#229;lla
+
+1. s&#246;kandens namn, hemvist och adress samt, om s&#246;kanden
+f&#246;retr&#228;des av ombud, &#228;ven ombudets namn, hemvist och adress,
+
+2. formgivarens namn och adress,
+
+3. uppgift om den produkt eller de produkter som m&#246;nstret &#228;r
+avsett att anv&#228;ndas p&#229; eller ing&#229; i och om den klass enligt
+Locarno&#246;verenskommelsen av den 8 oktober 1968 om uppr&#228;ttande av
+en internationell klassificering f&#246;r m&#246;nster1 till vilken
+produkten skall h&#228;nf&#246;ras enligt s&#246;kanden,
+
+4. n&#228;r registrering s&#246;ks av flera gemensamt, uppgift om
+huruvida n&#229;gon av dem &#228;r utsedd att f&#246;r alla ta emot
+meddelanden fr&#229;n registreringsmyndigheten,
+
+5. uppgift om huruvida prioritet enligt 8 &#167; m&#246;nsterskyddslagen
+(1970:485) beg&#228;rs samt uppgift om var och n&#228;r den tidigare
+ans&#246;kan har gjorts,
+
+6. uppgift om huruvida s&#246;kanden beg&#228;r att handling som visar
+m&#246;nstret skall h&#229;llas hemlig,
+
+7. uppgift om hur m&#229;nga fem&#229;rsperioder ans&#246;kan avser, om
+s&#246;kanden enligt 24 &#167; m&#246;nsterskyddslagen ans&#246;ker om registrering
+f&#246;r flera fem&#229;rsperioder,
+
+8. uppgift om vilka bilagor som bifogas ans&#246;kningshandlingen.
+
+Som bilagor skall till ans&#246;kningshandlingen fogas
+
+a) bildmaterial som visar m&#246;nstret,
+
+b) om s&#246;kanden f&#246;retr&#228;ds av ombud, fullmakt f&#246;r ombudet,
+
+c) om m&#246;nstret skapats av annan &#228;n s&#246;kanden, handling som
+styrker s&#246;kandens r&#228;tt till m&#246;nstret.
+
+Med ans&#246;kningen skall i 29 &#167; angivna ans&#246;knings- och
+till&#228;ggsavgifter ges in. F&#246;rordning (2002:572).
+
+3 &#167; Ans&#246;kningshandling och bilagor skall vara skrivna p&#229;
+svenska, danska eller norska. Registreringsmyndigheten kan dock
+f&#246;r visst fall best&#228;mma att produktuppgiften skall skrivas p&#229;
+svenska.
+
+&#196;r ingiven handling skriven p&#229; annat spr&#229;k &#228;n som g&#228;ller enligt
+f&#246;rsta stycket f&#246;rsta punkten, skall &#246;vers&#228;ttning ges in, om
+registreringsmyndigheten beg&#228;r det. F&#246;rordning (2002:572).
+
+4 &#167; Bildmaterial som visar m&#246;nstret skall ges in i det antal
+exemplar som registreringsmyndigheten best&#228;mmer och i format
+som inte &#246;verstiger A 4 (21 x 29,7 cm). &#196;r formatet mindre &#228;n
+A 4, skall ett exemplar vara monterat p&#229; vitt papper i format
+A 4. Bildmaterialet skall vara l&#228;mpat f&#246;r reproduktion i svart-
+vitt i annan storlek.
+
+Om s&#246;kanden ger in en modell av m&#246;nstret, skall den vara av
+h&#229;llbart material och f&#229;r inte &#246;verstiga 40 centimeter p&#229; n&#229;gon
+led eller v&#228;ga mer &#228;n 4 kilogram. Ett f&#246;rem&#229;l som kan
+f&#246;rsk&#228;mmas eller &#228;r farligt f&#229;r inte ges in som modell.
+
+Omfattar en ans&#246;kan flera m&#246;nster, skall s&#228;rskilt bildmaterial
+ges in f&#246;r varje m&#246;nster. Vid s&#229;dan ans&#246;kan skall bilder och, i
+f&#246;rekommande fall, modeller vara tydligt m&#228;rkta med fortl&#246;pande
+nummer. F&#246;rordning (2002:572).
+
+5 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+6 &#167; Registreringsmyndigheten f&#246;r diarium &#246;ver inkomna
+ans&#246;kningar om registrering av m&#246;nster. Diariet &#228;r tillg&#228;ngligt
+f&#246;r allm&#228;nheten.
+
+I diariet antecknas f&#246;r varje ans&#246;kan
+
+1. ans&#246;kningens ingivningsdag och diarienummer,
+
+2. dag d&#229; bildmaterial eller modell som visar m&#246;nstret f&#246;rst
+gavs in, om den dagen inte sammanfaller med ingivningsdagen,
+
+3. produkt som m&#246;nstret &#228;r avsett att anv&#228;ndas p&#229; eller ing&#229; i
+och klass till vilken m&#246;nstret skall h&#228;nf&#246;ras enligt s&#246;kanden,
+
+4. s&#246;kandens namn, hemvist och adress,
+
+5. om s&#246;kanden f&#246;retr&#228;ds av ombud, ombudets namn, hemvist och
+adress,
+
+6. formgivarens namn och adress,
+
+7. om prioritet beg&#228;rts, var &#229;beropad tidigare ans&#246;kan har
+gjorts, dagen f&#246;r denna ans&#246;kan och ans&#246;kningens nummer,
+
+8. uppgift om sista giltighetsdag f&#246;r den beg&#228;rda
+skyddsperioden,
+
+9. om s&#246;kanden beg&#228;rt att handling som visar m&#246;nstret skall
+h&#229;llas hemlig,
+
+10. modell som givits in, skrivelser som l&#228;mnats in och
+avgifter som betalats i &#228;rendet,
+
+11. beslut som fattats i &#228;rendet,
+
+12. uppskov som enligt 28 f &#167; meddelats i ett
+inv&#228;ndnings&#228;rende. F&#246;rordning (2002:572).
+
+7 &#167; Anm&#228;les att m&#246;nster som s&#246;kts registrerat &#246;verg&#229;tt till annan, f&#229;r
+denne antecknas som s&#246;kande i diariet endast om r&#228;tts&#246;verg&#229;ngen styrkts.
+
+8 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+9 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+10 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+11 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+Delning
+
+12 &#167; Omfattar en ans&#246;kan flera m&#246;nster kan s&#246;kanden dela ans&#246;kningen i
+flera ans&#246;kningar, vilka skall anses gjorda samtidigt med den
+ursprungliga ans&#246;kningen.
+
+Handl&#228;ggning av registreringsans&#246;kan
+
+13 &#167; Vid pr&#246;vning enligt 14 &#167; m&#246;nsterskyddslagen (1970:485)
+beaktar registreringsmyndigheten allt som myndigheten har
+k&#228;nnedom om.
+
+Unders&#246;kning enligt 14 &#167; m&#246;nsterskyddslagen av om hinder mot
+registrering f&#246;religger sker i den omfattning som f&#246;ranleds av
+m&#246;nstrets inneh&#229;ll och i den utstr&#228;ckning det kan ske utan att
+behandlingen av ans&#246;kan v&#228;sentligt f&#246;rdr&#246;js.
+F&#246;rordning (2002:572).
+
+14 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+15 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+16 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+17 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+18 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+19 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+M&#246;nsterregistret m.m.
+
+20 &#167; Det register som avses i 18 &#167; m&#246;nsterskyddslagen
+(1970:485), m&#246;nsterregistret, f&#246;rs av registreringsmyndigheten.
+
+M&#246;nsterregistret och det diarium som avses i 6 &#167; f&#246;rs med hj&#228;lp
+av automatiserad behandling.
+
+Registren skall h&#229;llas tillg&#228;ngliga hos
+registreringsmyndigheten. F&#246;rordning (2002:572).
+
+20 a &#167; M&#246;nsterregistret och det diarium som avses i 6 &#167; skall
+ge offentlighet &#229;t den information som ing&#229;r i registren.
+
+I fr&#229;ga om personuppgifter skall registren ha till &#228;ndam&#229;l att
+tillhandh&#229;lla uppgifter f&#246;r
+
+1. aff&#228;rsverksamhet, kreditgivning, f&#246;rs&#228;kringsgivning eller
+annan allm&#228;n eller enskild verksamhet d&#228;r den registrerade
+informationen utg&#246;r underlag f&#246;r pr&#246;vningar eller beslut,
+
+2. f&#246;rv&#228;rv, uppl&#229;telse eller avyttring av egendom som
+registreras eller av verksamhet som har anknytning till s&#229;dan
+egendom,
+
+3. aktualisering, komplettering eller kontroll av information
+som finns i kund- eller medlemsregister eller liknande
+register,
+
+4. fullg&#246;rande av &#229;liggande som f&#246;ljer av ett f&#246;r Sverige
+bindande internationellt &#229;tagande, eller
+
+5. verksamhet f&#246;r vilken staten eller en kommun ansvarar enligt
+lag eller annan f&#246;rfattning och
+
+a) som avser verksamhet som har anknytning till egendom som
+registreras,
+
+b) som f&#246;r att kunna utf&#246;ras f&#246;ruts&#228;tter tillg&#229;ng till
+registrerad information, eller
+
+c) som avser fullg&#246;rande av underr&#228;ttelseskyldighet.
+F&#246;rordning (2001:776).
+
+20 b &#167; Registreringsmyndigheten &#228;r personuppgiftsansvarig 
+f&#246;r behand-lingen av personuppgifter i m&#246;nsterregistret och i 
+det diarium som avses i 6 &#167;. F&#246;rordning (2018:376).
+
+20 c &#167; Registreringsmyndigheten skall se till att det inte
+uppkommer n&#229;got otillb&#246;rligt intr&#229;ng i de registrerades
+personliga integritet eller n&#229;gra risker fr&#229;n
+s&#228;kerhetssynpunkt. F&#246;r dessa syften f&#229;r myndigheten i enskilda
+fall st&#228;lla upp villkor f&#246;r behandlingen av personuppgifter.
+F&#246;rordning (2001:776).
+
+20 d &#167; Registreringsmyndigheten f&#229;r f&#246;r de &#228;ndam&#229;l som anges 
+i 20 a &#167; medge direkt&#229;tkomst till m&#246;nsterregistret och det 
+diarium som avses i 6 &#167;. F&#246;rordning (2017:1059).
+
+20 e &#167; Har upph&#228;vts genom f&#246;rordning (2018:376).
+
+20 f &#167; Har upph&#228;vs genom f&#246;rordning (2018:376).
+
+21 &#167; N&#228;r m&#246;nster tas in i m&#246;nsterregistret, tilldelas det ett
+registernummer. Vid samregistrering tilldelas samtliga m&#246;nster
+ett gemensamt registernummer. M&#246;nsterhavaren skall tillst&#228;llas
+bevis om registreringen.
+
+Registret skall inneh&#229;lla
+
+1. ans&#246;kningens diarienummer och m&#246;nstrets registernummer,
+
+2. m&#246;nsterhavarens namn, hemvist och adress samt, om
+m&#246;nsterhavaren
+
+f&#246;retr&#228;ds av ombud, ombudets namn, hemvist och adress,
+
+3. formgivarens namn och adress,
+
+4. uppgift om den produkt som m&#246;nstret &#228;r avsett att anv&#228;ndas
+p&#229; eller ing&#229; i och om den klass till vilken det h&#228;nf&#246;rts,
+
+5. uppgift om den dag
+
+a) d&#229; registreringsans&#246;kningen gavs in eller enligt 13 &#167; f&#246;rsta
+stycket m&#246;nsterskyddslagen (1970:485) skall anses gjord,
+
+b) d&#229; handling som visar m&#246;nstret blev allm&#228;nt tillg&#228;nglig,
+
+c) d&#229; m&#246;nstret registrerades och kungjordes,
+
+6. uppgift om registreringens sista giltighetsdag,
+
+7. uppgift om beg&#228;rd prioritet med angivande av var den
+prioritetsgrundande ans&#246;kningen gjorts, dagen f&#246;r denna ans&#246;kan
+samt ans&#246;kningens nummer,
+
+8. bildmaterial som visar m&#246;nstret,
+
+9. uppgift om huruvida modell givits in.
+F&#246;rordning (2002:572).
+
+22 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+23 &#167; Har upph&#228;vts genom f&#246;rordning (2002:572).
+
+24 &#167; Har n&#229;gon till registreringsmyndigheten anm&#228;lt, att han
+vill v&#228;cka talan om h&#228;vande av m&#246;nsterregistrering eller om
+&#246;verf&#246;ring av registrering, antecknas det i registret.
+
+N&#228;r avskrift av dom eller slutligt beslut s&#228;nts till
+registreringsmyndigheten enligt 44 &#167; m&#246;nsterskyddslagen
+(1970:485), antecknas det i registret. N&#228;r domen eller beslutet
+vunnit laga kraft, g&#246;res s&#229;dan anteckning att den huvudsakliga
+utg&#229;ngen i m&#229;let kan utl&#228;sas av registret.
+F&#246;rordning (2002:572).
+
+25 &#167; Anteckning enligt 27 &#167; m&#246;nsterskyddslagen (1970:485) skall ange
+r&#228;ttsinnehavarens namn, hemvist och adress samt dagen f&#246;r &#246;verg&#229;ng eller
+uppl&#229;telse. P&#229; beg&#228;ran skall betr&#228;ffande licens antecknas huruvida
+m&#246;nsterhavarens r&#228;tt att uppl&#229;ta ytterligare licens begr&#228;nsats.
+
+Kan fr&#229;ga om anteckning ej omedelbart avg&#246;ras, skall likv&#228;l i registret
+anm&#228;rkas att anteckning har beg&#228;rts.
+
+Har m&#246;nsterr&#228;tt utm&#228;tts, belagts med kvarstad eller tagits i anspr&#229;k
+genom betalningss&#228;kring, antecknas det efter anm&#228;lan i registret.
+
+Anm&#228;lan om &#228;ndring r&#246;rande ombud antecknas i registret. F&#246;rordning
+(1981:1016).
+
+26 &#167; Anm&#228;ler m&#246;nsterhavare enligt 33 &#167; f&#246;rsta stycket m&#246;nsterskyddslagen
+(1970:485) att han avst&#229;r fr&#229;n m&#246;nsterr&#228;tten och &#228;r licens antecknad i
+registret, skall licenstagaren underr&#228;ttas och sk&#228;ligt r&#229;drum beredas
+honom att tillvarataga sina intressen i &#228;rendet, innan m&#246;nstret avf&#246;res
+ur registret.
+
+27 &#167; Kung&#246;relse om f&#246;rnyelse skall inneh&#229;lla uppgift om
+m&#246;nstrets registernummer, f&#246;rnyelseperiodens begynnelse- och
+slutdag samt m&#246;nsterhavarens namn och adress.
+F&#246;rordning (2002:572).
+
+28 &#167; Har registrering upph&#246;rt att g&#228;lla, skall myndigheten avf&#246;ra
+m&#246;nstret ur registret.
+
+Har m&#246;nster avf&#246;rts ur registret eller har registrering blivit &#246;verf&#246;rd
+p&#229; annan genom lagakraftvunnen dom, skall registreringsmyndigheten
+utf&#228;rda kung&#246;relse d&#228;rom.
+
+Kung&#246;relse om registrering
+
+28 a &#167; Kung&#246;relse om registrering enligt 18 &#167; f&#246;rsta stycket
+m&#246;nsterskyddslagen (1970:485) skall inneh&#229;lla
+
+1. ans&#246;kningens diarienummer och registreringsnummer,
+
+2. m&#246;nsterhavarens namn, hemvist och adress samt, om
+innehavaren f&#246;retr&#228;ds av ombud, ombudets namn, hemvist och
+adress,
+
+3. formgivarens namn och adress,
+
+4. uppgift om produkt som m&#246;nstret &#228;r avsett att anv&#228;ndas p&#229;
+eller ing&#229; i och om klass till vilken m&#246;nstret h&#228;nf&#246;rts,
+
+5. uppgift om dag d&#229; ans&#246;kningen gavs in eller enligt 13 &#167;
+f&#246;rsta stycket m&#246;nsterskyddslagen skall anses gjord,
+
+6. uppgift om beg&#228;rd prioritet samt om var &#229;beropad tidigare
+ans&#246;kan gjorts, dagen f&#246;r denna ans&#246;kan och ans&#246;kningens
+nummer,
+
+7. bildmaterial som visar m&#246;nstret,
+
+8. uppgift om huruvida modell ingivits,
+
+9. uppgift om huruvida bildmaterialet &#228;r utf&#246;rt i f&#228;rg,
+
+10. uppgift om sista giltighetsdagen f&#246;r registreringen.
+F&#246;rordning (2002:572).
+
+Inv&#228;ndningsf&#246;rfarande
+
+28 b &#167; Inv&#228;ndning mot registrering samt senare skrivelser fr&#229;n
+m&#246;nsterhavare och inv&#228;ndare skall tillsammans med bilagor ges
+in till registreringsmyndigheten i tre exemplar.
+
+N&#228;r inv&#228;ndning g&#246;rs, skall grunderna f&#246;r inv&#228;ndningen anges.
+F&#246;rordning (2002:572).
+
+28 c &#167; Om inv&#228;ndaren f&#246;retr&#228;ds av ombud, skall fullmakt f&#246;r
+ombudet ges in. F&#246;rordning (2002:572).
+
+28 d &#167; M&#246;nsterhavaren skall tillst&#228;llas exemplar av samtliga
+skrivelser fr&#229;n inv&#228;ndare.
+
+Om m&#246;nsterhavaren kommer in med yttrande &#246;ver inv&#228;ndningen,
+beslutar registreringsmyndigheten om ytterligare skriftv&#228;xling
+kr&#228;vs i &#228;rendet. F&#246;rordning (2002:572).
+
+28 e &#167; Om det under pr&#246;vningen av registreringsans&#246;kningen
+kommer in en skrivelse av betydelse f&#246;r pr&#246;vningen till
+registreringsmyndigheten, skall s&#246;kanden underr&#228;ttas om det.
+Har n&#229;gon s&#228;nt in en s&#229;dan skrivelse innan registreringen har
+kungjorts skall registreringsmyndigheten, om det inte &#228;r fr&#229;ga
+om b&#228;ttre r&#228;tt till m&#246;nstret, g&#246;ra denne uppm&#228;rksam p&#229;
+m&#246;jligheten att g&#246;ra inv&#228;ndning. F&#246;rordning (2002:572).
+
+28 f &#167; Om en framst&#228;lld inv&#228;ndning grundas p&#229; 4 &#167; 3
+m&#246;nsterskyddslagen (1970:485) f&#229;r registreringsmyndigheten
+skjuta upp behandlingen av inv&#228;ndnings&#228;rendet till dess att
+m&#246;nstret med den tidigare ans&#246;knings- eller prioritetsdagen
+blir allm&#228;nt tillg&#228;ngligt. F&#246;rordning (2002:572).
+
+28 g &#167; Registreringsmyndighetens beslut i ett inv&#228;ndnings&#228;rende
+skall kung&#246;ras. Om beslutet inneb&#228;r att registreringen h&#228;vs
+delvis skall m&#246;nstret i den &#228;ndrade formen framg&#229; av
+kung&#246;relsen. F&#246;rordning (2002:572).
+
+Avgifter
+
+29 &#167; Avgifter i &#228;renden som r&#246;r ans&#246;kan om registrering av 
+m&#246;nster ska betalas med f&#246;ljande belopp.
+
+1. Ans&#246;kningsavgift enligt 48 &#167; m&#246;nsterskyddslagen
+(1970:485) f&#246;r den f&#246;rsta fem&#229;rsperioden  
+
+a) om ans&#246;kan g&#246;rs elektroniskt				2 000 kr
+
+b) om ans&#246;kan g&#246;rs p&#229; annat s&#228;tt			2 500 kr
+
+2. Ans&#246;kningsavgift f&#246;r varje fem&#229;rsperiod ut&#246;ver 
+den f&#246;rsta, om ans&#246;kan avser registrering f&#246;r flera 
+fem&#229;rsperioder						2 200 kr
+
+3. Till&#228;ggsavgift enligt 48 &#167; m&#246;nsterskyddslagen	
+
+a) klassavgift f&#246;r varje klass till vilken m&#246;nstret 
+h&#228;nf&#246;rs ut&#246;ver den f&#246;rsta				500 kr
+
+b) samregistreringsavgift f&#246;r varje m&#246;nster ut&#246;ver 
+det f&#246;rsta						1 400 kr
+
+c) f&#246;rvaringsavgift f&#246;r varje modell			800 kr
+
+d) kung&#246;relseavgift f&#246;r varje bild ut&#246;ver den f&#246;rsta	200 kr
+
+4. &#197;terupptagningsavgift enligt 14 &#167; fj&#228;rde stycket 
+m&#246;nsterskyddslagen					500 kr
+
+Till&#228;ggsavgift ska, utom n&#228;r det g&#228;ller kung&#246;relseavgift, 
+betalas &#228;ven f&#246;r varje fem&#229;rsperiod ut&#246;ver den f&#246;rsta.
+
+F&#246;r att ans&#246;kningsavgiften ska ber&#228;knas enligt f&#246;rsta stycket 
+1 a ska ans&#246;kan g&#246;ras p&#229; det s&#228;tt som 
+registreringsmyndigheten f&#246;reskriver. 
+F&#246;rordning (2017:1059).
+
+30 &#167; Avgifter i &#228;renden som r&#246;r registrerat m&#246;nster ska 
+betalas med f&#246;ljande belopp.
+
+1. F&#246;rnyelseavgift enligt 48 &#167; m&#246;nsterskyddslagen 
+(1970:485) per fem&#229;rsperiod
+
+a) om ans&#246;kan g&#246;rs elektroniskt				2 500 kr
+
+b) om ans&#246;kan g&#246;rs p&#229; annat s&#228;tt			3 000 kr
+
+2. Till&#228;ggsavgift enligt samma paragraf vid ans&#246;kan 
+om f&#246;rnyelse	
+
+a) klassavgift f&#246;r varje klass till vilken m&#246;nstret 
+h&#228;nf&#246;rs ut&#246;ver den f&#246;rsta				500 kr
+
+b) samregistreringsavgift f&#246;r varje m&#246;nster ut&#246;ver 
+det f&#246;rsta						1 400 kr
+
+c) f&#246;rvaringsavgift f&#246;r varje modell			800 kr
+
+d) om f&#246;rnyelseavgift betalas efter utg&#229;ngen av 
+l&#246;pande registreringsperiod				500 kr
+
+3. Ans&#246;kan om anteckning av ny innehavare eller 
+licens							900 kr
+
+F&#246;r att ans&#246;kningsavgiften ska ber&#228;knas enligt f&#246;rsta stycket 
+1 a ska ans&#246;kan g&#246;ras p&#229; det s&#228;tt som 
+registreringsmyndigheten f&#246;reskriver. 
+F&#246;rordning (2017:1059).
+
+30 a &#167; I &#228;renden i anslutning till r&#229;dets f&#246;rordning (EG) nr
+6/2002 av den 12 december 2001 om gemenskapsformgivning ska
+avgifter betalas till Patent- och registreringsverket med
+nedanst&#229;ende belopp.
+
+1. Ans&#246;kan om gemenskapsformgivning enligt artikel
+35.2 i r&#229;dets f&#246;rordning                                500 kr
+
+2. Intyg enligt artikel 78.5 i r&#229;dets f&#246;rordning        1 200 kr
+F&#246;rordning (2009:1576).
+
+31 &#167; Avgift, som icke erlagts i r&#228;tt tid eller som erlagts med
+otillr&#228;ckligt belopp s&#229; att betalningen icke kan godtagas, skall
+&#229;terbetalas.
+
+&#214;vriga best&#228;mmelser
+
+32 &#167; M&#246;nster indelas i klasser enligt Locarno&#246;verenskommelsen
+av den 8 oktober 1968 om uppr&#228;ttande av internationell
+klassificering f&#246;r m&#246;nster. Klassindelningen skall h&#229;llas
+tillg&#228;nglig hos registreringsmyndigheten.
+F&#246;rordning (2002:572).
+
+33 &#167; Kung&#246;relser i m&#246;nsterskydds&#228;renden inf&#246;res i en av
+registreringsmyndigheten utgiven publikation.
+
+34 &#167; Modell som har givits in till registreringsmyndigheten
+enligt 10 &#167; tredje stycket m&#246;nsterskyddslagen (1970:485)
+f&#246;rvaras hos myndigheten till dess fem &#229;r f&#246;rflutit efter det
+att registreringen upph&#246;rt att g&#228;lla. Har m&#246;nsterhavaren vid
+fem&#229;rsperiodens utg&#229;ng inte beg&#228;rt att f&#229; tillbaka modellen,
+f&#229;r registreringsmyndigheten f&#246;rst&#246;ra den.
+F&#246;rordning (2002:572).
+
+35 &#167; Har upph&#228;vts f&#246;rordning (2002:572).
+
+36 &#167; Talan som grundas p&#229; n&#229;gon av best&#228;mmelserna i 4 &#167; 1
+eller 2 m&#246;nsterskyddslagen (1970:485) f&#246;rs av &#229;klagare.
+F&#246;rordning (2002:572).
+
+37 &#167; N&#228;r dom eller slutligt beslut i m&#229;l som avses i 16, 31-32,
+35-38 eller 41 &#167; m&#246;nsterskyddslagen (1970:485) vunnit laga
+kraft, skall domstolen, s&#229; snart det kan ske, underr&#228;tta
+registreringsmyndigheten. F&#246;rordning (2002:572).
+
+38 &#167; Registreringsmyndigheten f&#229;r meddela n&#228;rmare f&#246;reskrifter
+om registreringsans&#246;kan och handl&#228;ggningen av den, om &#228;rende
+r&#246;rande registrerat m&#246;nster, om m&#246;nsterregistret samt om
+kung&#246;relser i m&#246;nsterskydds&#228;renden. F&#246;rordning (2002:572).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1970:486
+
+Denna kung&#246;relse tr&#228;der i kraft den 1 oktober 1970.
+
+Genom kung&#246;relsen upph&#228;ves
+
+kung&#246;relsen (1899:94 s.1) ang&#229;ende beskaffenheten av de handlingar som i
+&#228;renden r&#246;rande registrering av m&#246;nster och modeller inl&#228;mnas,
+
+kung&#246;relsen (1899:94 s.4) om m&#246;nsterregistrets f&#246;rande m.m.
+
+De upph&#228;vda kung&#246;relserna g&#228;ller dock fortfarande i fall d&#229;
+registreringsans&#246;kan gjorts f&#246;re den 1 oktober 1970.
+
+1981:1016
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1982. Vad som s&#228;gs om
+kvarstad i 25 &#167; i dess nya lydelse g&#228;ller &#228;ven skingringsf&#246;rbud som har
+meddelats f&#246;re ikrafttr&#228;dandet.
+
+2002:572
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2002.
+
+2. De nya best&#228;mmelserna skall till&#228;mpas &#228;ven p&#229; m&#246;nster som &#228;r
+registrerade vid tidpunkten f&#246;r ikrafttr&#228;dandet eller som
+registreras p&#229; grund av ans&#246;kningar som har gjorts innan dess,
+om inte annat f&#246;ljer av vad som f&#246;reskrivs nedan.
+
+3. &#196;ldre best&#228;mmelser skall till&#228;mpas p&#229;
+registreringsans&#246;kningar som har givits in f&#246;re den 28 oktober
+2001.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4250">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4252">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

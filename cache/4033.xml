@@ -1,0 +1,951 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2018-05-23" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4033</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4032">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4034">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1977:480 ·
+                    <a href="/sfsr?bet=1977:480">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Semesterlag (1977:480)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Arbetsmarknadsdepartementet ARM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1977-06-09
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2014:424
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad 2009:1439 har iakttagits.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1978-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Semesterf&#246;rm&#229;ner
+
+1 &#167; Arbetstagare har r&#228;tt till semesterf&#246;rm&#229;ner enligt denna
+lag. Semesterf&#246;rm&#229;nerna utg&#246;rs av semesterledighet,
+semesterl&#246;n och semesterers&#228;ttning.
+
+S&#228;rskilda best&#228;mmelser f&#246;r vissa arbetstagare finns i
+
+1. lagen (1963:115) om f&#246;rl&#228;ngd semester f&#246;r vissa
+arbetstagare med radiologiskt arbete,
+
+2. lagen (2010:449) om F&#246;rsvarsmaktens personal vid
+internationella milit&#228;ra insatser, och
+
+3. lagen (2012:332) om vissa f&#246;rsvarsmaktsanst&#228;llningar.
+Lag (2012:333).
+
+&#214;verenskommelser mellan arbetsgivare och arbetstagare
+
+2 &#167; Ett avtal, som inneb&#228;r att arbetstagares r&#228;ttigheter
+enligt denna lag inskr&#228;nks, &#228;r ogiltigt i den delen. Detta
+g&#228;ller dock inte, om n&#229;got annat framg&#229;r av lagen.
+Lag (2009:1439).
+
+2 a &#167; Genom avtal f&#229;r avvikelse g&#246;ras fr&#229;n 5, 12, 12 b, 19–21
+och 30 a &#167;&#167;, i den utstr&#228;ckning som framg&#229;r av de
+best&#228;mmelserna.
+
+Genom kollektivavtal, som p&#229; arbetstagarsidan har slutits
+eller godk&#228;nts av en central arbetstagarorganisation, f&#229;r
+avvikelse g&#246;ras fr&#229;n 3, 3 a, 9, 11 &#167; andra stycket, 16–16 b,
+22, 26, 26 a, 29, 29 a och 30 &#167;&#167;.
+
+En arbetsgivare, som &#228;r bunden av ett kollektivavtal som
+omfattar fr&#229;gor som avses i f&#246;rsta och andra styckena, f&#229;r i
+dessa fr&#229;gor till&#228;mpa avtalet &#228;ven p&#229; en arbetstagare som
+inte &#228;r medlem av den avtalsslutande
+arbetstagarorganisationen. Detta g&#228;ller under f&#246;ruts&#228;ttning
+att arbetstagaren syssels&#228;tts i arbete som avses med avtalet
+och inte omfattas av n&#229;got annat till&#228;mpligt kollektivavtal.
+Lag (2009:1439).
+
+Semester&#229;r och intj&#228;nande&#229;r
+
+3 &#167; Med semester&#229;r avses tiden fr&#229;n och med den 1 april ett
+&#229;r till och med den 31 mars p&#229;f&#246;ljande &#229;r. Motsvarande tid
+n&#228;rmast f&#246;re ett semester&#229;r kallas intj&#228;nande&#229;r.
+Lag (2009:1439).
+
+Semesterledighet och semesterdagar
+
+3 a &#167; Semesterledighet avser hela dagar. I ledigheten ing&#229;r
+enstaka semesterdagar eller en period av semesterdagar,
+inklusive arbetsfria dagar. Ledigheten b&#246;rjar och slutar med
+en semesterdag.
+
+L&#246;rdag och s&#246;ndag r&#228;knas inte som semesterdagar annat &#228;n i
+fall som avses i 9 &#167; tredje stycket. Med s&#246;ndag j&#228;mst&#228;lls
+allm&#228;n helgdag samt midsommarafton, julafton och ny&#229;rsafton.
+Lag (2009:1439).
+
+4 &#167; En arbetstagare har r&#228;tt till tjugofem semesterdagar
+varje semester&#229;r. Om anst&#228;llningen p&#229;b&#246;rjas efter den 31
+augusti under semester&#229;ret, har arbetstagaren r&#228;tt till
+endast fem semesterdagar.
+
+Under semesterledighet ska arbetstagaren ha semesterl&#246;n, om
+s&#229;dan har tj&#228;nats in enligt 7 &#167;. Lag (2009:1439).
+
+5 &#167; N&#228;r det g&#228;ller en anst&#228;llning som avses p&#229;g&#229; i h&#246;gst tre
+m&#229;nader och som inte varar l&#228;ngre tid, f&#229;r det avtalas att
+semesterledighet inte ska l&#228;ggas ut. I s&#229;dant fall har
+arbetstagaren r&#228;tt till semesterers&#228;ttning.
+
+Arbetstagare i gymnasial l&#228;rlingsanst&#228;llning har r&#228;tt till
+semesterledighet enbart om detta har avtalats s&#228;rskilt. En
+arbetstagare i s&#229;dan anst&#228;llning har r&#228;tt till
+semesterers&#228;ttning f&#246;r den semesterl&#246;n som tj&#228;nats in men
+inte tagits ut. S&#229;dan ers&#228;ttning ska, om inte annat avtalats
+eller f&#246;ljer av 28 &#167; f&#246;rsta och andra styckena eller 30 &#167;,
+betalas ut senast en m&#229;nad efter v&#229;rterminens slut.
+Lag (2014:424).
+
+6 &#167; En arbetstagare som byter anst&#228;llning har r&#228;tt till
+semesterledighet i den nya anst&#228;llningen endast i den
+utstr&#228;ckning arbetstagaren inte redan har haft s&#229;dan ledighet
+i den tidigare anst&#228;llningen.
+
+Om &#246;verf&#246;ring av semesterf&#246;rm&#229;ner till ny anst&#228;llning hos
+samma arbetsgivare finns best&#228;mmelser i 30 b &#167;.
+Lag (2009:1439).
+
+Semesterdagar med semesterl&#246;n
+
+7 &#167; Antalet semesterdagar med semesterl&#246;n ber&#228;knas p&#229;
+f&#246;ljande s&#228;tt. Fr&#229;n de dagar arbetstagaren har varit anst&#228;lld
+hos arbetsgivaren under intj&#228;nande&#229;ret (anst&#228;llningstiden)
+subtraheras de dagar d&#229; arbetstagaren varit helt fr&#229;nvarande
+fr&#229;n arbetet utan l&#246;n. Fr&#229;nvaro som beror p&#229;
+semesterledighet, permittering, korttidsarbete eller ledighet
+som enligt 17–17 b &#167;&#167; &#228;r semesterl&#246;negrundande, liksom
+arbetsfria dagar som infaller under s&#229;dana fr&#229;nvaroperioder,
+ska dock r&#228;knas in i anst&#228;llningstiden. Differensen divideras
+med antalet dagar under intj&#228;nande&#229;ret. Kvoten multipliceras
+med tjugofem. Om ett brutet tal d&#229; uppst&#229;r, avrundas detta
+till n&#228;rmast h&#246;gre hela tal. Lag (2013:950).
+
+Semesterdagar utan semesterl&#246;n
+
+8 &#167; En arbetstagare f&#229;r avst&#229; fr&#229;n r&#228;tt till semesterledighet
+som inte &#228;r f&#246;renad med semesterl&#246;n.
+
+En arbetstagare ska p&#229; beg&#228;ran l&#228;mna arbetsgivaren besked om
+sina &#246;nskem&#229;l n&#228;r det g&#228;ller utl&#228;ggningen av semesterledighet
+utan semesterl&#246;n eller i vilken omfattning arbetstagaren
+&#246;nskar avst&#229; fr&#229;n s&#229;dan ledighet. Besked beh&#246;ver inte l&#228;mnas
+innan arbetsgivaren har meddelat hur m&#229;nga semesterdagar utan
+l&#246;n arbetstagaren har eller kan ber&#228;knas f&#229; r&#228;tt till.
+
+Har semesterledighet utan l&#246;n lagts ut med anledning av
+arbetstagarens besked enligt f&#246;rsta stycket, f&#229;r
+arbetstagaren inte senare avst&#229; fr&#229;n ledigheten utom i fall
+som anges i 13 &#167;. Lag (2009:1439).
+
+Semesterledighet f&#246;r arbetstagare som regelbundet arbetar
+l&#246;rdag eller s&#246;ndag
+
+9 &#167; En arbetstagare, som regelbundet arbetar l&#246;rdag eller
+s&#246;ndag eller b&#229;da dessa dagar, har vid semesterledighet som
+omfattar minst fem dagar r&#228;tt till ledighet motsvarande tid
+av veckoslut, dels under semesterledigheten, dels antingen
+omedelbart f&#246;re eller omedelbart efter denna. Omfattar
+semesterledigheten minst nitton dagar har arbetstagaren r&#228;tt
+till ledighet motsvarande tid av veckoslut s&#229;v&#228;l omedelbart
+f&#246;re som omedelbart efter ledigheten, om inte s&#228;rskilda sk&#228;l
+talar emot detta.
+
+Har i fall som avses i f&#246;rsta stycket arbetstagaren ledighet
+av motsvarande omfattning en veckodag, som inte &#228;r l&#246;rdag
+eller s&#246;ndag, och som infaller under semesterledigheten,
+r&#228;knas den veckodagen som semesterdag.
+
+Om semesterledigheten &#228;r kortare &#228;n fem dagar och
+arbetstagaren &#228;r ledig en l&#246;rdag eller s&#246;ndag, som annars
+skulle ha utgjort arbetsdag, r&#228;knas s&#229;dan dag som
+semesterdag. Arbetsfri dag ska d&#229; inte anses som semesterdag.
+Lag (2009:1439).
+
+Semesterledighetens f&#246;rl&#228;ggning
+
+10 &#167; Mellan parter som tr&#228;ffar kollektivavtal om l&#246;ner och
+allm&#228;nna anst&#228;llningsvillkor b&#246;r det, om arbetstagarparten
+beg&#228;r det, &#228;ven tr&#228;ffas kollektivavtal om medbest&#228;mmander&#228;tt
+f&#246;r arbetstagarna i fr&#229;gor som r&#246;r f&#246;rl&#228;ggningen av
+semesterledighet. I fr&#229;ga om en arbetstagare f&#246;r vilken ett
+s&#229;dant avtal inte har tr&#228;ffats g&#228;ller best&#228;mmelserna i andra
+och tredje styckena.
+
+Det som f&#246;reskrivs om arbetsgivares f&#246;rhandlingsskyldighet i
+11 och 13 &#167;&#167; lagen (1976:580) om medbest&#228;mmande i arbetslivet
+ska till&#228;mpas p&#229; motsvarande s&#228;tt n&#228;r det g&#228;ller f&#246;rl&#228;ggning
+av s&#229;dan semesterledighet som avses i 12 &#167;. Om arbetstagaren
+inte f&#246;retr&#228;ds av en f&#246;rhandlingsber&#228;ttigad organisation
+eller om en s&#229;dan organisation inte &#246;nskar f&#246;rhandla, ska
+arbetsgivaren samr&#229;da med arbetstagaren om ledighetens
+f&#246;rl&#228;ggning.
+
+N&#228;r det g&#228;ller f&#246;rl&#228;ggningen av annan semesterledighet &#228;n
+s&#229;dan som avses i 12 &#167;, ska arbetsgivaren samr&#229;da med
+arbetstagaren, om f&#246;rhandling med arbetstagarens organisation
+inte har &#228;gt rum. Lag (2009:1439).
+
+11 &#167; Om det inte g&#229;r att komma &#246;verens om hur
+semesterledighet ska f&#246;rl&#228;ggas, best&#228;mmer arbetsgivaren om
+f&#246;rl&#228;ggningen, om inte n&#229;got annat har avtalats.
+
+Har beslut om f&#246;rl&#228;ggning av semesterledigheten tr&#228;ffats p&#229;
+n&#229;got annat s&#228;tt &#228;n genom &#246;verenskommelse med en arbetstagare
+eller dennes f&#246;retr&#228;dare, ska arbetsgivaren underr&#228;tta
+arbetstagaren om beslutet. Underr&#228;ttelsen ska l&#228;mnas senast
+tv&#229; m&#229;nader f&#246;re ledighetens b&#246;rjan. Om det finns s&#228;rskilda
+sk&#228;l, f&#229;r den l&#228;mnas senare, dock om m&#246;jligt minst en m&#229;nad
+f&#246;re ledighetens b&#246;rjan. Lag (2009:1439).
+
+12 &#167; Om inte annat har avtalats, ska semesterledigheten
+f&#246;rl&#228;ggas s&#229;, att arbetstagaren f&#229;r en ledighetsperiod av
+minst fyra veckor under juni–augusti. &#196;ven utan st&#246;d av avtal
+f&#229;r en s&#229;dan semesterperiod f&#246;rl&#228;ggas till annan tid, n&#228;r
+s&#228;rskilda sk&#228;l f&#246;ranleder det. Lag (2009:1439).
+
+12 a &#167; Semesterledighet ska f&#246;rl&#228;ggas s&#229;, att arbetstagare
+med l&#228;gre syssels&#228;ttningsgrad &#228;n heltid eller med
+oregelbunden arbetstid f&#229;r lika l&#229;ng ledighet som en
+arbetstagare som arbetar heltid eller en arbetstagare med
+regelbunden arbetstid. Lag (2009:1439).
+
+12 b &#167; Av semesterdagar som l&#228;ggs ut under ett visst
+semester&#229;r ska dagar med semesterl&#246;n l&#228;ggas ut f&#246;rst, om inte
+annat har avtalats. Lag (2009:1439).
+
+Semesterledighet vid permittering eller korttidsarbete
+
+13 &#167; Beslutar en arbetsgivare om permittering som
+arbetstagaren inte hade anledning att r&#228;kna med n&#228;r besked
+l&#228;mnades enligt 8 &#167;, har arbetstagaren r&#228;tt att avst&#229; fr&#229;n
+utlagd semesterledighet utan semesterl&#246;n, om ledigheten
+sammanfaller med permitteringsperioden.
+
+Har en arbetstagare l&#228;mnat besked enligt 8 &#167; innan han eller
+hon f&#229;tt information om hur arbetstiden ska l&#228;ggas ut vid
+korttidsarbete, har arbetstagaren r&#228;tt att avst&#229; fr&#229;n utlagd
+semesterledighet utan semesterl&#246;n, om semesterledigheten
+sammanfaller med tid d&#229; arbetstagaren ska vara helt
+fr&#229;nvarande p&#229; grund av korttidsarbete.
+
+F&#246;rsta och andra styckena g&#228;ller dock endast om arbetstagaren
+underr&#228;ttar arbetsgivaren senast tv&#229; veckor f&#246;re
+semesterledighetens b&#246;rjan. F&#229;r arbetstagaren f&#246;rst senare
+k&#228;nnedom om permitteringen eller hur arbetstiden ska l&#228;ggas
+ut vid korttidsarbete, f&#229;r arbetstagaren avst&#229; fr&#229;n
+semesterledigheten om han eller hon utan dr&#246;jsm&#229;l underr&#228;ttar
+arbetsgivaren. Har semesterledigheten d&#229; inletts, upph&#246;r
+ledigheten vid utg&#229;ngen av den dag d&#229; arbetsgivaren
+underr&#228;ttades. Lag (2013:950).
+
+Semesterledighet i samband med upps&#228;gning och sjukdom m.m.
+
+14 &#167; Semesterledighet f&#229;r inte utan arbetstagarens medgivande
+f&#246;rl&#228;ggas till upps&#228;gningstid.
+
+Skulle vid upps&#228;gning fr&#229;n arbetsgivarens sida
+upps&#228;gningstiden helt eller delvis infalla under redan utlagd
+semesterledighet och beror upps&#228;gningen p&#229; f&#246;rh&#229;llanden som
+inte h&#228;nf&#246;r sig till arbetstagaren personligen, ska
+semesterledighetens f&#246;rl&#228;ggning i samma m&#229;n upph&#228;vas, om
+arbetstagaren beg&#228;r det.
+
+F&#246;rsta och andra styckena g&#228;ller inte om upps&#228;gningstiden
+&#246;verstiger sex m&#229;nader. Lag (2009:1439).
+
+15 &#167; Om det under semesterledigheten infaller en eller
+flera dagar d&#229; arbetstagaren inte hade kunnat arbeta p&#229;
+grund av sjukdom eller arbetsskada, eller en eller flera
+dagar som &#228;r semesterl&#246;negrundande enligt 17 a och 17 b &#167;&#167;
+ska, om arbetstagaren utan dr&#246;jsm&#229;l beg&#228;r det, s&#229;dana
+dagar inte r&#228;knas som semesterdagar. I s&#229;dant fall ska de
+semesterdagar som &#229;terst&#229;r f&#246;rl&#228;ggas i ett sammanhang, om
+arbetstagaren inte medger annat. Lag (2011:129).
+
+Ber&#228;kning av semesterl&#246;n
+
+16 &#167; Semesterl&#246;n f&#246;r en arbetstagare som har l&#246;n best&#228;md per
+vecka eller m&#229;nad ber&#228;knas enligt 16 a &#167;, om inte annat
+framg&#229;r av andra stycket eller arbetsgivaren v&#228;ljer att
+ber&#228;kna semesterl&#246;nen enligt 16 b &#167;.
+
+Semesterl&#246;n ber&#228;knas enligt 16 b &#167; f&#246;r en arbetstagare som
+har
+
+1. l&#246;n som inte &#228;r best&#228;md per vecka eller m&#229;nad,
+
+2. l&#246;n som regelbundet best&#229;r av en fast och en r&#246;rlig del om
+den r&#246;rliga l&#246;nedelen kan uppskattas till minst tio procent
+av den sammanlagda l&#246;nen under semester&#229;ret, eller
+
+3. en syssels&#228;ttningsgrad som har varierat under
+intj&#228;nande&#229;ret, eller som har
+
+4. &#228;ndrat syssels&#228;ttningsgrad mellan intj&#228;nande&#229;ret och
+semestertillf&#228;llet, eller
+
+5. varit fr&#229;nvarande under intj&#228;nande&#229;ret av sk&#228;l som inte &#228;r
+semesterl&#246;negrundande enligt 17–17 b &#167;&#167;, dock inte om
+fr&#229;nvaron p&#229;g&#229;tt i samma omfattning under hela intj&#228;nande&#229;ret
+och p&#229;g&#229;r i den omfattningen vid semestertillf&#228;llet.
+
+S&#228;rskilda best&#228;mmelser om vissa f&#246;rm&#229;ner vid ber&#228;kning av
+semesterl&#246;n finns i 24 och 25 &#167;&#167;. Lag (2009:1439).
+
+Semesterl&#246;n enligt sammal&#246;neregeln
+
+16 a &#167; Semesterl&#246;n enligt sammal&#246;neregeln &#228;r den vid
+semestertillf&#228;llet aktuella vecko- eller m&#229;nadsl&#246;nen,
+eventuella fasta l&#246;netill&#228;gg samt ett semestertill&#228;gg.
+
+Semestertill&#228;gget f&#246;r varje betald semesterdag &#228;r f&#246;r
+veckoavl&#246;nade arbetstagare 1,82 procent av veckol&#246;nen och f&#246;r
+m&#229;nadsavl&#246;nade arbetstagare 0,43 procent av m&#229;nadsl&#246;nen. Har
+arbetstagaren fasta l&#246;netill&#228;gg ska vecko- respektive
+m&#229;nadsl&#246;nen &#246;kas med dessa till&#228;gg f&#246;re ber&#228;kningen av
+semestertill&#228;gget.
+
+Har arbetstagaren &#228;ven r&#246;rliga l&#246;nedelar &#228;r semesterl&#246;nen f&#246;r
+dessa l&#246;nedelar tolv procent av arbetstagarens sammanlagda
+f&#246;rfallna r&#246;rliga l&#246;n under semester&#229;ret. Lag (2009:1439).
+
+Semesterl&#246;n enligt procentregeln
+
+16 b &#167; Semesterl&#246;n enligt procentregeln utg&#246;r tolv procent av
+arbetstagarens f&#246;rfallna l&#246;n i en anst&#228;llning under
+intj&#228;nande&#229;ret.
+
+I l&#246;nesumman ska inte f&#246;ljande inr&#228;knas:
+
+1. semesterl&#246;n,
+
+2. ers&#228;ttning f&#246;r dag d&#229; arbetstagaren helt eller delvis har
+haft semesterl&#246;negrundande fr&#229;nvaro enligt 17–17 b &#167;&#167;, eller
+
+3. permitteringsl&#246;n som l&#228;mnas i anledning av driftsuppeh&#229;ll
+med samtidig semester n&#228;r r&#228;tt till semesterl&#246;n inte
+f&#246;religger f&#246;r samma tid.
+
+F&#246;r varje s&#229;dan fr&#229;nvarodag som anges i andra stycket 2 &#246;kas
+i st&#228;llet l&#246;nesumman med ett belopp motsvarande den inkomst
+arbetstagaren skulle ha haft om arbete i st&#228;llet utf&#246;rts i
+normal omfattning f&#246;r arbetsgivarens r&#228;kning. Med normal
+omfattning avses arbetstagarens ordinarie arbetstidsm&#229;tt. G&#229;r
+beloppet inte att fastst&#228;lla ska det uppskattas till den
+inkomst som kan antas skulle ha betalats om arbetstagaren
+under fr&#229;nvarotiden hade arbetat f&#246;r arbetsgivarens r&#228;kning.
+Lag (2009:1439).
+
+Semesterl&#246;negrundande fr&#229;nvaro
+
+17 &#167; Fr&#229;nvaro fr&#229;n arbetet &#228;r semesterl&#246;negrundande n&#228;r det
+g&#228;ller ledighet p&#229; grund av sjukdom, om fr&#229;nvaron under
+intj&#228;nande&#229;ret inte &#246;verstiger 180 dagar, eller om fr&#229;nvaron
+beror p&#229; arbetsskada. I s&#229;dan fr&#229;nvaroperiod inr&#228;knas &#228;ven
+dagar n&#228;r arbetstagaren inte skulle ha utf&#246;rt arbete.
+
+Fr&#229;nvaron upph&#246;r att vara semesterl&#246;negrundande d&#229;
+arbetstagaren varit helt eller delvis fr&#229;nvarande fr&#229;n
+arbetet under ett helt intj&#228;nande&#229;r, utan l&#228;ngre avbrott i
+fr&#229;nvaron &#228;n fjorton dagar i en f&#246;ljd. Lag (2009:1439).
+
+17 a &#167; Fr&#229;nvaro fr&#229;n arbetet &#228;r semesterl&#246;negrundande n&#228;r
+det g&#228;ller ledighet enligt f&#246;r&#228;ldraledighetslagen
+(1995:584) i fr&#229;ga om
+
+1. ledighet enligt 8 &#167; f&#246;rsta stycket n&#228;mnda lag, om
+fr&#229;nvaron under intj&#228;nande&#229;ret inte &#246;verstiger 120 dagar,
+eller f&#246;r ensamst&#229;ende f&#246;r&#228;lder 180 dagar,
+
+2. tid f&#246;r vilken graviditetspenning utges enligt 10 kap.
+socialf&#246;rs&#228;kringsbalken, eller
+
+3. tid f&#246;r vilken f&#246;r&#228;ldrapenning l&#228;mnas med anledning av
+barns f&#246;delse eller adoption enligt 12 kap.
+socialf&#246;rs&#228;kringsbalken, om fr&#229;nvaron f&#246;r varje barn eller
+vid flerbarnsb&#246;rd sammanlagt inte &#246;verstiger 120 dagar
+eller f&#246;r ensamst&#229;ende f&#246;r&#228;lder 180 dagar.
+
+I en fr&#229;nvaroperiod enligt f&#246;rsta stycket r&#228;knas in &#228;ven
+dagar n&#228;r arbetstagaren inte skulle ha utf&#246;rt arbete.
+Lag (2010:1223).
+
+17 b &#167; Fr&#229;nvaro fr&#229;n arbetet &#228;r semesterl&#246;negrundande n&#228;r det
+g&#228;ller
+
+1. ledighet med anledning av risk f&#246;r &#246;verf&#246;rande av smitta,
+
+a) om arbetstagaren &#228;r ber&#228;ttigad till smittb&#228;rarers&#228;ttning
+enligt 46 kap. socialf&#246;rs&#228;kringsbalken, och
+
+b) om fr&#229;nvaron under intj&#228;nande&#229;ret inte &#246;verstiger 180
+dagar,
+
+2. ledighet enligt lagen (1988:1465) om ledighet f&#246;r
+n&#228;rst&#229;endev&#229;rd, om fr&#229;nvaron under intj&#228;nande&#229;ret inte
+&#246;verstiger 45 dagar,
+
+3. ledighet f&#246;r utbildning som till v&#228;sentlig del avser
+fackliga eller med facklig verksamhet sammanh&#228;ngande fr&#229;gor
+eller f&#246;r ers&#228;ttningsber&#228;ttigande teckenspr&#229;ksutbildning f&#246;r
+vissa f&#246;r&#228;ldrar (TUFF), om fr&#229;nvaron under intj&#228;nande&#229;ret inte
+&#246;verstiger 180 dagar och ledigheten inte ger r&#228;tt till
+semesterl&#246;n enligt n&#229;gon annan lag,
+
+4. ledighet p&#229; grund av grundutbildning om h&#246;gst 60 dagar eller
+repetitionsutbildning enligt lagen (1994:1809) om
+totalf&#246;rsvarsplikt, om fr&#229;nvaron under intj&#228;nande&#229;ret inte
+&#246;verstiger 60 dagar, eller
+
+5. ledighet enligt lagen (1986:163) om r&#228;tt till ledighet f&#246;r
+utbildning i svenska f&#246;r invandrare.
+
+I en fr&#229;nvaroperiod enligt f&#246;rsta stycket r&#228;knas in &#228;ven dagar
+n&#228;r arbetstagaren inte skulle ha utf&#246;rt arbete.
+Lag (2010:1224).
+
+R&#228;tt att spara semesterledighet
+
+18 &#167; En arbetstagare, som under ett semester&#229;r har r&#228;tt till
+mer &#228;n tjugo semesterdagar med l&#246;n, f&#229;r spara en eller flera
+s&#229;dana &#246;verskjutande dagar till ett senare semester&#229;r.
+
+En sparad semesterdag ska l&#228;ggas ut inom fem &#229;r fr&#229;n utg&#229;ngen
+av det semester&#229;r d&#229; den sparades, om inte annat f&#246;ljer av
+20 &#167; andra stycket.
+
+Semesterdagar f&#229;r inte sparas under ett semester&#229;r d&#229;
+arbetstagaren f&#229;r ut semesterdagar, som har sparats fr&#229;n
+tidigare &#229;r. Lag (2009:1439).
+
+19 &#167; Vill en arbetstagare spara semesterdagar eller ta ut
+sparade semesterdagar i anslutning till semesterledigheten i
+&#246;vrigt, ska arbetsgivaren underr&#228;ttas i samband med att
+f&#246;rl&#228;ggningen av &#229;rets semesterledighet best&#228;ms.
+Underr&#228;ttelse beh&#246;ver dock inte l&#228;mnas f&#246;rr&#228;n arbetsgivaren
+har meddelat hur m&#229;nga semesterdagar med l&#246;n arbetstagaren
+har eller kan ber&#228;knas f&#229; r&#228;tt till. En arbetstagare som vill
+ta ut sparade semesterdagar utan sammanhang med
+semesterledigheten i &#246;vrigt, ska meddela arbetsgivaren detta
+senast tv&#229; m&#229;nader i f&#246;rv&#228;g.
+
+F&#246;rsta stycket g&#228;ller endast om inte annat har avtalats.
+Lag (2009:1439).
+
+F&#246;rl&#228;ggning av sparade semesterdagar
+
+20 &#167; Sparade semesterdagar ska f&#246;rl&#228;ggas till det semester&#229;r
+som arbetstagaren v&#228;ljer. Detta g&#228;ller dock inte om n&#229;got
+annat har avtalats eller om det finns s&#228;rskilda sk&#228;l mot att
+semesterdagarna f&#246;rl&#228;ggs till det &#229;ret.
+
+Om arbetstagaren har avsett att sparade semesterdagar ska
+f&#246;rl&#228;ggas till det femte &#229;ret efter det semester&#229;r d&#229; de
+sparades och om s&#229;dan f&#246;rl&#228;ggning skulle medf&#246;ra betydande
+ol&#228;genhet, f&#229;r &#246;verenskommelse tr&#228;ffas om att semesterdagarna
+ska l&#228;ggas ut under det sj&#228;tte &#229;ret. Lag (2009:1439).
+
+21 &#167; &#214;nskar en arbetstagare samtidigt f&#229; ut minst fem sparade
+semesterdagar, ska dessa och hela semesterledigheten f&#246;r
+semester&#229;ret l&#228;ggas ut i en f&#246;ljd, om inte annat har
+avtalats. Lag (2009:1439).
+
+Semesterl&#246;n f&#246;r sparade semesterdagar
+
+22 &#167; Semesterl&#246;n f&#246;r sparade semesterdagar ber&#228;knas enligt
+16–16 b &#167;&#167;. Samtliga sparade semesterdagar som l&#228;ggs ut ska
+betraktas som intj&#228;nade under det n&#228;rmast f&#246;reg&#229;ende
+intj&#228;nande&#229;ret. Lag (2009:1439).
+
+23 &#167; Har upph&#228;vts genom lag (2009:1439).
+
+S&#228;rskilda best&#228;mmelser om semesterl&#246;n
+
+24 &#167; Vid ber&#228;kning av semesterl&#246;n ska h&#228;nsyn inte tas till
+f&#246;rm&#229;n av fri bostad eller till en l&#246;nef&#246;rm&#229;n, som &#228;r avsedd
+att utg&#246;ra ers&#228;ttning f&#246;r s&#228;rskilda kostnader.
+Lag (2009:1439).
+
+25 &#167; En arbetstagare, som f&#229;r fri kost i arbetsgivarens
+hush&#229;ll, har r&#228;tt till sk&#228;lig kosters&#228;ttning f&#246;r de
+semesterdagar d&#229; f&#246;rm&#229;nen inte har utnyttjats till n&#229;gon del.
+Lag (2009:1439).
+
+Utbetalning av semesterl&#246;n
+
+26 &#167; Arbetsgivaren ska betala ut semesterl&#246;n till
+arbetstagaren i samband med semesterledigheten.
+
+Semesterl&#246;n f&#246;r r&#246;rliga l&#246;nedelar som avses i 16 a &#167; tredje
+stycket ska betalas senast en m&#229;nad efter semester&#229;rets
+utg&#229;ng. Lag (2009:1439).
+
+Semesterl&#246;n f&#246;r semester som inte har kunnat l&#228;ggas ut
+
+26 a &#167; Semesterdagar med semesterl&#246;n som inte har sparats
+enligt 18 &#167; och som inte har kunnat l&#228;ggas ut under
+semester&#229;ret ers&#228;tts med semesterl&#246;n. S&#229;dan semesterl&#246;n
+best&#228;ms enligt grunderna f&#246;r ber&#228;kning av semesterl&#246;n i
+16–16 b &#167;&#167;, och ska betalas ut senast en m&#229;nad efter
+semester&#229;rets utg&#229;ng. Semesterl&#246;n betalas dock ut endast f&#246;r
+det antal dagar som tillsammans med det antal dagar som
+intj&#228;nats under intj&#228;nande&#229;ret &#246;verstiger tjugofem.
+Lag (2009:1439).
+
+27 &#167; Har upph&#228;vts genom lag (2009:1439).
+
+Semesterers&#228;ttning
+
+28 &#167; Om anst&#228;llningen upph&#246;r innan arbetstagaren har f&#229;tt den
+semesterl&#246;n som tj&#228;nats in, ska arbetstagaren i st&#228;llet f&#229;
+semesterers&#228;ttning. Detta g&#228;ller inte om annat f&#246;ljer av 30 b
+eller 31 &#167;.
+
+Motsvarande ska g&#228;lla om arbetstagarens anst&#228;llningsvillkor
+&#228;ndras s&#229; att semesterledighet med semesterl&#246;n ska f&#246;rl&#228;ggas
+redan under intj&#228;nande&#229;ret. I s&#229;dant fall ska best&#228;mmelserna
+om semesterers&#228;ttning till&#228;mpas som om anst&#228;llningen hade
+upph&#246;rt vid den tidpunkt fr&#229;n vilken de nya
+anst&#228;llningsvillkoren ska g&#228;lla.
+
+S&#228;rskilda best&#228;mmelser om semesterers&#228;ttning finns i 5 &#167;
+f&#246;r
+
+1. arbetstagare som anst&#228;lls f&#246;r arbete som avses p&#229;g&#229; i
+h&#246;gst tre m&#229;nader, och
+
+2. arbetstagare i gymnasial l&#228;rlingsanst&#228;llning.
+Lag (2014:424).
+
+29 &#167; Semesterers&#228;ttning best&#228;ms enligt grunderna f&#246;r
+ber&#228;kning av semesterl&#246;n.
+
+F&#246;r sparade semesterdagar ska semesterers&#228;ttning ber&#228;knas som
+om de tagits ut under det semester&#229;r d&#229; anst&#228;llningen
+upph&#246;rde. Lag (2009:1439).
+
+29 a &#167; Har en arbetstagare mottagit semesterl&#246;n i f&#246;rskott,
+minskas semesterers&#228;ttningen med s&#229;dan semesterl&#246;n. Detta
+g&#228;ller dock inte, om den semesterl&#246;n som togs emot i f&#246;rskott
+utbetalades mer &#228;n fem &#229;r f&#246;re anst&#228;llningens upph&#246;rande
+eller om anst&#228;llningen har upph&#246;rt p&#229; grund av
+
+1. arbetstagarens sjukdom,
+
+2. f&#246;rh&#229;llanden som avses i 4 &#167; tredje stycket lagen
+(1982:80) om anst&#228;llningsskydd, eller
+
+3. upps&#228;gning fr&#229;n arbetsgivarens sida som beror p&#229;
+f&#246;rh&#229;llanden som inte h&#228;nf&#246;r sig till arbetstagaren
+personligen, utom n&#228;r upps&#228;gning sker i samband med en
+konkurs. Lag (2009:1439).
+
+Utbetalning av semesterers&#228;ttning
+
+30 &#167; Semesterers&#228;ttning ska betalas ut till arbetstagaren
+utan osk&#228;ligt dr&#246;jsm&#229;l och senast en m&#229;nad efter
+anst&#228;llningens upph&#246;rande.
+
+Om det inte g&#229;r att ber&#228;kna semesterers&#228;ttning inom en m&#229;nad
+efter anst&#228;llningens upph&#246;rande, ska den betalas ut inom en
+vecka efter det att hindret mot att ber&#228;kna ers&#228;ttningen
+upph&#246;rde. Lag (2009:1439).
+
+Okontrollerade arbetstagare
+
+30 a &#167; Om en arbetstagare utf&#246;r arbete under s&#229;dana
+f&#246;rh&#229;llanden att det inte kan anses vara arbetsgivarens
+uppgift att vaka &#246;ver hur arbetet &#228;r ordnat, f&#229;r avtal
+tr&#228;ffas om avvikelse fr&#229;n best&#228;mmelserna om f&#246;rl&#228;ggning av
+semesterledighet i 9–15 &#167;&#167;. S&#229;dan avvikelse f&#229;r inte inneb&#228;ra
+en inskr&#228;nkning i arbetstagarens r&#228;tt att ta ut tjugofem
+semesterdagar, eller det mindre antal semesterdagar som
+arbetstagaren har r&#228;tt till varje semester&#229;r.
+Lag (2009:1439).
+
+Ny anst&#228;llning i anslutning till en tidigare anst&#228;llning
+
+30 b &#167; Om det innan en anst&#228;llning har upph&#246;rt st&#229;r klart att
+en ny anst&#228;llning mellan parterna kommer att p&#229;b&#246;rjas i n&#228;ra
+anslutning till den tidigare, ska anst&#228;llningarna i
+semesterh&#228;nseende r&#228;knas som en enda anst&#228;llning.
+
+F&#246;rsta stycket till&#228;mpas endast om
+
+1. den intj&#228;nade semesterledigheten inte redan har lagts ut,
+
+2. semesterers&#228;ttning inte redan har betalats ut, och
+
+3. arbetstagaren har f&#246;rklarat att intj&#228;nade semesterf&#246;rm&#229;ner
+ska &#246;verf&#246;ras till den nya anst&#228;llningen. Lag (2009:1439).
+
+&#214;verg&#229;ng till ny arbetsgivare
+
+31 &#167; En arbetstagares r&#228;tt enligt denna lag p&#229;verkas inte av
+att ett f&#246;retag, en verksamhet eller en del av en verksamhet,
+&#246;verg&#229;r till en ny arbetsgivare genom en s&#229;dan &#246;verg&#229;ng som
+omfattas av 6 b &#167; lagen (1982:80) om anst&#228;llningsskydd.
+Arbetstagarens r&#228;tt p&#229;verkas inte heller av att ett f&#246;retag
+eller en del av ett f&#246;retag &#246;verg&#229;r till en ny arbetsgivare i
+samband med konkurs.
+
+&#214;verg&#229;r en arbetstagare till en ny arbetsgivare inom samma
+koncern, ska arbetstagaren i semesterh&#228;nseende ha samma r&#228;tt
+i den nya anst&#228;llningen som i den tidigare. Detta f&#246;ruts&#228;tter
+dock, att arbetstagaren inte f&#229;r semesterers&#228;ttning av den
+tidigare arbetsgivaren och att arbetstagaren senast en m&#229;nad
+efter anst&#228;llningens upph&#246;rande f&#246;rklarar f&#246;r b&#229;de den
+tidigare och den nye arbetsgivaren, att han eller hon vill
+&#246;verf&#246;ra intj&#228;nade semesterf&#246;rm&#229;ner till den nya
+anst&#228;llningen.
+
+I fall som avses i andra stycket &#228;r den nye arbetsgivaren
+ber&#228;ttigad att av den tidigare arbetsgivaren f&#229; ett belopp
+motsvarande den semesterers&#228;ttning som den tidigare
+arbetsgivaren annars skulle ha betalat till arbetstagaren.
+Lag (2009:1439).
+
+Skadest&#229;nd
+
+32 &#167; Arbetsgivare som bryter mot denna lag skall till arbetstagaren utge,
+f&#246;rutom den semesterl&#246;n eller semesterers&#228;ttning vartill arbetstagaren
+kan vara ber&#228;ttigad, ers&#228;ttning f&#246;r uppkommen skada.
+
+Vid bed&#246;mande om och i vad m&#229;n skada har uppst&#229;tt skall h&#228;nsyn tagas &#228;ven
+till arbetstagarens intresse av att erh&#229;lla semesterledighet och till
+&#246;vriga omst&#228;ndigheter av annan &#228;n rent ekonomisk betydelse.
+
+Om det med h&#228;nsyn till skadans storlek eller andra omst&#228;ndigheter &#228;r
+sk&#228;ligt, kan skadest&#229;ndet neds&#228;ttas eller helt bortfalla.
+
+Preskription
+
+33 &#167; En arbetstagare som vill beg&#228;ra semesterl&#246;n,
+semesterers&#228;ttning eller skadest&#229;nd enligt denna lag ska
+v&#228;cka talan inom tv&#229; &#229;r fr&#229;n utg&#229;ngen av det semester&#229;r d&#229;
+arbetstagaren enligt lagen skulle ha f&#229;tt den f&#246;rm&#229;n som
+beg&#228;ran g&#228;ller. F&#246;rsummar arbetstagaren det, &#228;r r&#228;tten till
+talan f&#246;rlorad. Lag (2009:1439).
+
+R&#228;tteg&#229;ng
+
+34 &#167; M&#229;l om till&#228;mpning av denna lag handl&#228;gges enligt lagen (1974:371)
+om r&#228;tteg&#229;ngen i arbetstvister.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1985:86
+
+Denna lag tr&#228;der i kraft den 1 juli 1985. Den nya best&#228;mmelsen om
+semesterl&#246;negrundande fr&#229;nvaro i samband med havandeskapspenning
+till&#228;mpas endast p&#229; fr&#229;nvaro som har intr&#228;ffat efter ikrafttr&#228;dandet.
+
+1988:1468
+
+1. Denna lag tr&#228;der i kraft den 1 juli 1989.
+
+2. &#196;ldre best&#228;mmelser skall g&#228;lla i fr&#229;ga om ers&#228;ttning enligt lagen
+(1956:293) om ers&#228;ttning &#229;t smittb&#228;rare. Lag (1989:339).
+
+1990:102
+
+1. Denna lag tr&#228;der i kraft den 1 april 1990. Semesterledighet enligt
+den nya lagen utg&#229;r dock f&#246;rst under semester&#229;ret den 1 april 1991 - den
+31 mars 1992, om ej annat &#246;verenskommes.
+
+
+2. Kollektivavtal eller annat avtal, som har tr&#228;ffats med utg&#229;ngspunkt i
+&#228;ldre lag och innefattar s&#228;mre f&#246;rm&#229;ner &#228;n som f&#246;ljer av den nya lagen,
+&#228;r i s&#229;dan del utan verkan.
+
+1992:1329
+
+Denna lag tr&#228;der i kraft den 1 april 1993. S&#229;vitt avser semesterledighet
+till&#228;mpas den nya lagen dock f&#246;rst under semester&#229;ret den 1 april
+1994--den 31 mars 1995.
+
+1993:334
+
+Denna lag tr&#228;der i kraft den 1 juni 1993. De nya best&#228;mmelserna till&#228;mpas
+vid ber&#228;kning av semesterl&#246;n f&#246;r tid fr&#229;n och med den 1 april 1993.
+Semesterl&#246;n som intj&#228;nats f&#246;re ikrafttr&#228;dandet skall dock inte minskas.
+
+1994:1688
+
+Denna lag tr&#228;der i kraft den 1 januari 1995. Lagen skall dock inte
+till&#228;mpas betr&#228;ffande en &#246;verg&#229;ng av ett f&#246;retag, en verksamhet
+eller en del av en verksamhet som intr&#228;ffat f&#246;re ikrafttr&#228;dandet.
+
+1999:1399
+
+Denna lag tr&#228;der i kraft den 1 juli 2001. Den &#228;ldre lydelsen
+g&#228;ller fortfarande i fr&#229;ga om studiest&#246;d som beviljats enligt
+den upph&#228;vda studiest&#246;dslagen (1973:349) eller enligt
+&#246;verg&#229;ngsbest&#228;mmelserna till studiest&#246;dslagen (1999:1395).
+
+2002:625
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2003.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r s&#228;rskilt
+utbildningsbidrag som avser tid f&#246;re ikrafttr&#228;dandet.
+
+2006:1529
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2007.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande i fr&#229;ga om
+rekryteringsbidrag som har l&#228;mnats enligt den upph&#228;vda lagen
+(2002:624) om rekryteringsbidrag till vuxenstuderande.
+
+2009:1439
+
+1. Denna lag tr&#228;der i kraft den 1 april 2010.
+
+2. De nya best&#228;mmelserna i 17 &#167; till&#228;mpas f&#246;rsta g&#229;ngen p&#229;
+fr&#229;nvaroperioder som p&#229;b&#246;rjas efter ikrafttr&#228;dandet. N&#228;r det
+g&#228;ller den som vid lagens ikrafttr&#228;dande p&#229; deltid &#228;r
+fr&#229;nvarande fr&#229;n arbetet p&#229; grund av sjukdom eller arbetsskada,
+ska de nya best&#228;mmelserna till&#228;mpas redan fr&#229;n ikrafttr&#228;dandet.
+Lag (2011:129).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4032">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4034">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

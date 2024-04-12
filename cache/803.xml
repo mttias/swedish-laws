@@ -1,0 +1,923 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-11" /> 
+ <meta id="rattsinfo-edited" content="2023-01-11 13:12:26" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>803</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=802">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=804">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2017:1179 ·
+                    <a href="/sfsr?bet=2017:1179">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2017:1179) om finansiering av k&#228;rntekniska restprodukter</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2017-11-23
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:254
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2017-12-20 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av
+
+– 10 &#167; lagen (2006:647) om finansiering av k&#228;rntekniska 
+restprodukter i fr&#229;ga om 23 &#167;,
+
+– 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 55 och 56 &#167;&#167;, och
+
+– 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga 
+best&#228;mmelser.
+
+2 &#167; Med Studsviksavgifter avses i denna f&#246;rordning avgifter 
+enligt lagen (1988:1597) om finansiering av hanteringen av 
+visst radioaktivt avfall m.m.
+
+I &#246;vrigt har ord och uttryck i denna f&#246;rordning samma 
+betydelse som i lagen (2006:647) om finansiering av 
+k&#228;rntekniska restprodukter.
+
+Ber&#228;kning av k&#228;rnavfallsavgifter, finansieringsbelopp och 
+kompletteringsbelopp
+
+3 &#167; Vid ber&#228;kning av k&#228;rnavfallsavgifter, finansieringsbelopp 
+och kompletteringsbelopp ska 
+
+1. grundkostnader och merkostnader r&#228;knas om fr&#229;n fast till 
+l&#246;pande penningv&#228;rde baserat p&#229; en inflationskurva, och 
+
+2. de omr&#228;knade grundkostnaderna och merkostnaderna och de 
+f&#246;rv&#228;ntade inbetalningarna till k&#228;rnavfallsfonden, vid 
+diskontering enligt 7 &#167; lagen (2006:647) om finansiering av 
+k&#228;rntekniska restprodukter, ber&#228;knas med en riskfri 
+diskonteringsr&#228;ntekurva med ett till&#228;gg p&#229; 0,75 
+procentenheter. 
+
+4 &#167; Vid bed&#246;mning av f&#246;rv&#228;ntade inbetalningar enligt 7 &#167; 
+andra stycket 1 lagen (2006:647) om finansiering av 
+k&#228;rntekniska restprodukter ska varje k&#228;rnkraftsreaktor som 
+inte &#228;r permanent avst&#228;ngd antas ha
+
+1. en total driftstid om 50 &#229;r, eller
+
+2. en &#229;terst&#229;ende driftstid om minst sex &#229;r, om reaktorn har 
+varit i drift i minst 44 &#229;r.
+
+Om det finns s&#228;rskilda sk&#228;l att anta att driften kan komma 
+att upph&#246;ra vid en tidigare tidpunkt, ska den f&#246;rv&#228;ntade 
+driftstiden i st&#228;llet best&#228;mmas utifr&#229;n den tidpunkten.
+
+5 &#167; De f&#246;rv&#228;ntade inbetalningarna enligt 7 &#167; andra stycket 2 
+lagen (2006:647) om finansiering av k&#228;rntekniska 
+restprodukter ska avse avgifter under de n&#228;rmast kommande tre 
+kalender&#229;ren.
+
+Om det finns s&#228;rskilda sk&#228;l, f&#229;r en k&#228;rnavfallsavgift 
+best&#228;mmas utifr&#229;n inbetalningar under en kortare eller l&#228;ngre 
+tidsperiod.
+
+6 &#167; En k&#228;rnavfallsavgift ska anges som ett &#229;rligt belopp i 
+kronor. F&#246;r en reaktorinnehavare som har tillst&#229;nd f&#246;r en 
+eller flera k&#228;rnkraftsreaktorer som inte &#228;r permanent 
+avst&#228;ngda ska avgiften dock anges i kronor per levererad 
+kilowattimme el och best&#228;mmas utifr&#229;n den m&#228;ngd el som 
+reaktorinnehavaren kan antas leverera under &#229;terst&#229;ende 
+driftstid. 
+
+7 &#167; K&#228;rnavfallsavgifter, finansieringsbelopp och 
+kompletteringsbelopp ska best&#228;mmas f&#246;r en period om tre 
+kalender&#229;r i taget. Om det finns s&#228;rskilda sk&#228;l, f&#229;r de 
+best&#228;mmas f&#246;r en kortare period.
+
+Reaktorinnehavares kostnadsber&#228;kningar
+
+8 &#167; Reaktorinnehavarna ska tillsammans ge in den 
+kostnadsber&#228;kning som avses i 21 &#167; 2 lagen (2006:647) om 
+finansiering av k&#228;rntekniska restprodukter till 
+Riksg&#228;ldskontoret. Ber&#228;kningen ska ges in senast under 
+september m&#229;nad vart tredje &#229;r, samma &#229;r som det program som 
+avses i 12 &#167; lagen (1984:3) om k&#228;rnteknisk verksamhet ges in 
+enligt 25 &#167; f&#246;rordningen (1984:14) om k&#228;rnteknisk verksamhet. 
+F&#246;rordning (2018:1450).
+
+9 &#167; Kostnadsber&#228;kningen ska 
+
+1. redovisa den sammanlagda grundkostnaden f&#246;r alla 
+reaktorinnehavare,
+
+2. redovisa den del av grundkostnaden som &#228;r gemensam f&#246;r 
+alla reaktorinnehavare,
+
+3. f&#246;r varje reaktorinnehavare redovisa den del av 
+grundkostnaden som &#228;r h&#228;nf&#246;rlig till reaktorinnehavarens 
+reaktorer,
+
+4. redovisa hur stor del av grundkostnaden som avser
+
+a) behandling, mellanlagring och slutf&#246;rvaring av anv&#228;nt 
+k&#228;rnbr&#228;nsle,
+
+b) avveckling, inklusive mellanlagring av restprodukter, 
+specificerat f&#246;r varje reaktor,
+
+c) slutligt omh&#228;ndertagande av restprodukter fr&#229;n avveckling, 
+specificerat f&#246;r varje reaktor, och
+
+d) forsknings- och utvecklingsverksamhet, och
+
+5. i fr&#229;ga om den del av grundkostnaden som avser tiden fr&#229;n 
+det att kostnadsber&#228;kningen ges in och &#229;terstoden av den 
+driftstid som f&#246;ljer av 4 &#167; redovisa hur stor kostnaden &#228;r 
+sammanlagt f&#246;r alla reaktorinnehavare och hur stor del som
+
+a) &#228;r gemensam f&#246;r alla reaktorinnehavare,
+
+b) &#228;r h&#228;nf&#246;rlig till var och en av reaktorinnehavarna, och
+
+c) b&#246;r l&#228;ggas till grund f&#246;r varje reaktorinnehavares 
+finansieringsbelopp. 
+
+De redovisade grundkostnaderna ska avse det sannolikhetsv&#228;gda 
+medelv&#228;rdet av samtliga kostnader i den utfallsm&#228;ngd som har 
+antagits f&#246;r ber&#228;kningen.
+
+10 &#167; Tillsammans med kostnadsber&#228;kningen ska det ges in 
+uppgifter om hur mycket el som varje reaktorinnehavare 
+&#229;rligen planerar att leverera per reaktor under tiden fr&#229;n 
+det att kostnadsber&#228;kningen ges in och &#229;terstoden av den 
+driftstid som f&#246;ljer av 4 &#167;.
+
+Andra tillst&#229;ndshavares kostnadsber&#228;kningar
+
+11 &#167; En tillst&#229;ndshavare som inte &#228;r reaktorinnehavare 
+ska, enskilt eller tillsammans med andra s&#229;dana 
+tillst&#229;ndshavare, ge in den kostnadsber&#228;kning som avses i 
+21 &#167; 2 lagen (2006:647) om finansiering av k&#228;rntekniska 
+restprodukter till Riksg&#228;ldskontoret senast den 7 januari 
+vart tredje &#229;r. F&#246;rordning (2018:1450).
+
+12 &#167; Kostnadsber&#228;kningen ska redovisa
+
+1. grundkostnaden f&#246;r de anl&#228;ggningar som omfattas av 
+tillst&#229;ndshavarens eller de redovisande tillst&#229;ndshavarnas 
+tillst&#229;nd,
+
+2. hur stor del av grundkostnaden som b&#246;r l&#228;ggas till grund 
+f&#246;r finansieringsbeloppet, 
+
+3. hur stor del av grundkostnaden som avser
+
+a) behandling, mellanlagring och slutf&#246;rvaring av k&#228;rnavfall 
+och k&#228;rn&#228;mne som inte ska anv&#228;ndas igen,
+
+b) avveckling, inklusive mellanlagring av restprodukter,
+
+c) slutligt omh&#228;ndertagande av restprodukter fr&#229;n avveckling, 
+och
+
+d) forsknings- och utvecklingsverksamhet, och
+
+4. vilka &#229;tg&#228;rder och vilken verksamhet som kan ber&#228;ttiga 
+till fondmedel enligt 15 &#167; lagen (2006:647) om finansiering 
+av k&#228;rntekniska restprodukter.
+
+13 &#167; Tillsammans med kostnadsber&#228;kningen ska det ges in 
+uppgift om den f&#246;rv&#228;ntade &#229;terst&#229;ende driftstiden f&#246;r 
+anl&#228;ggningar som inte permanent har st&#228;ngts av.
+
+F&#246;rslag till och beslut om k&#228;rnavfallsavgifter, 
+finansieringsbelopp och kompletteringsbelopp
+
+14 &#167; Riksg&#228;ldskontoret ska inf&#246;r varje avgiftsperiod 
+enligt 7 &#167; f&#246;resl&#229; den k&#228;rnavfallsavgift och det 
+finansieringsbelopp som ska g&#228;lla f&#246;r var och en av 
+tillst&#229;ndshavarna. F&#246;r reaktorinnehavare ska ocks&#229; ett 
+kompletteringsbelopp f&#246;resl&#229;s. F&#246;rslaget ska 
+
+1. utg&#229; fr&#229;n kostnadsber&#228;kningen enligt 8 eller 11 &#167;, och 
+
+2. ta h&#228;nsyn till den totala merkostnaden och 
+tillst&#229;ndshavarens eventuella r&#228;tt till s&#229;dana fondmedel som 
+avses i 15 &#167; lagen (2006:647) om finansiering av k&#228;rntekniska 
+restprodukter. F&#246;rordning (2018:1450).
+
+15 &#167; Riksg&#228;ldskontoret ska ge tillst&#229;ndshavaren tillf&#228;lle 
+att l&#228;mna synpunkter p&#229; f&#246;rslaget. Om f&#246;rslaget g&#228;ller en 
+reaktorinnehavare, ska &#228;ven ber&#246;rda myndigheter, kommuner och 
+organisationer ges tillf&#228;lle att l&#228;mna synpunkter.
+F&#246;rordning (2018:1450).
+
+16 &#167; F&#246;r varje reaktorinnehavare ska Riksg&#228;ldskontoret, 
+med h&#228;nsyn till det som kommit fram i synpunkter enligt 15 &#167;, 
+ge in ett f&#246;rslag till regeringen om vilken k&#228;rnavfallsavgift 
+och vilka finansierings- och kompletteringsbelopp som ska 
+g&#228;lla under den kommande avgiftsperioden. F&#246;rslagen ska ges 
+in inom tolv m&#229;nader fr&#229;n det att reaktorinnehavarnas 
+kostnadsber&#228;kning senast ska ha getts in enligt 8 &#167;.
+F&#246;rordning (2018:1450).
+
+17 &#167; F&#246;r varje tillst&#229;ndshavare som inte &#228;r 
+reaktorinnehavare ska Riksg&#228;ldskontoret, med h&#228;nsyn till det 
+som kommit fram i synpunkter enligt 15 &#167;, besluta den 
+k&#228;rnavfallsavgift och det finansieringsbelopp som ska g&#228;lla 
+under den kommande avgiftsperioden. 
+
+Om ett &#228;rende har principiell betydelse eller annars &#228;r av 
+s&#228;rskild vikt, ska Riksg&#228;ldskontoret l&#228;mna &#246;ver &#228;rendet till 
+regeringen f&#246;r beslut tillsammans med ett eget f&#246;rslag till 
+beslut. &#196;rendet ska d&#229; l&#228;mnas &#246;ver inom sex m&#229;nader fr&#229;n det 
+att tillst&#229;ndshavarens kostnadsber&#228;kning senast ska ha getts 
+in enligt 11 &#167;. F&#246;rordning (2018:1450).
+
+18 &#167; I f&#246;rslagen till regeringen ska Riksg&#228;ldskontoret 
+yttra sig &#246;ver kostnadsber&#228;kningen och redovisa 
+
+1. de n&#228;rmare sk&#228;len f&#246;r myndighetens bed&#246;mning, 
+
+2. merkostnaden och ber&#228;kningsunderlaget f&#246;r den, och 
+
+3. vilka faktorer som anses vara s&#228;rskilt kritiska f&#246;r 
+kostnadsutvecklingen. F&#246;rordning (2018:1450).
+
+Dispens fr&#229;n avgiftsskyldigheten
+
+19 &#167; Riksg&#228;ldskontoret f&#229;r ge dispens fr&#229;n 
+avgiftsskyldigheten enligt 8 &#167; lagen (2006:647) om 
+finansiering av k&#228;rntekniska restprodukter.
+F&#246;rordning (2018:1450).
+
+Avgifternas betalning
+
+20 &#167; En reaktorinnehavare ska betala k&#228;rnavfallsavgiften 
+kvartalsvis senast en m&#229;nad efter varje kalenderkvartals 
+utg&#229;ng.
+
+21 &#167; En tillst&#229;ndshavare som inte &#228;r reaktorinnehavare ska 
+betala k&#228;rnavfallsavgiften &#229;rsvis senast en m&#229;nad efter varje 
+kalender&#229;rs utg&#229;ng.
+
+22 &#167; K&#228;rnavfallsavgifterna ska betalas till 
+K&#228;rnavfallsfonden.
+
+S&#228;kerheter
+
+23 &#167; En s&#228;kerhet som st&#228;lls av en reaktorinnehavare ska vara 
+utan tidsbegr&#228;nsning och f&#229;r inte vara en fastighet som det 
+bedrivs k&#228;rnteknisk verksamhet p&#229;.
+
+24 &#167; En tillst&#229;ndshavare ska f&#246;resl&#229; s&#228;kerheter enligt 9 &#167; 
+lagen (2006:647) om finansiering av k&#228;rntekniska 
+restprodukter till Riksg&#228;ldskontoret senast tv&#229; m&#229;nader efter 
+det att 
+
+1. regeringen har beslutat om finansieringsbelopp och 
+kompletteringsbelopp, om tillst&#229;ndshavaren &#228;r 
+reaktorinnehavare, och 
+
+2. Riksg&#228;ldskontoret har beslutat om finansieringsbelopp, i 
+&#246;vriga fall. F&#246;rordning (2018:1450).
+
+25 &#167; Riksg&#228;ldskontoret ska, inom tv&#229; m&#229;nader fr&#229;n det att 
+tillst&#229;ndshavaren senast ska ha l&#228;mnat sitt f&#246;rslag enligt 
+24 &#167;, &#246;verl&#228;mna f&#246;rslaget tillsammans med ett eget yttrande 
+till regeringen f&#246;r pr&#246;vning av om f&#246;rslaget &#228;r godtagbart. 
+
+Om det beh&#246;vs f&#246;r att s&#228;kerst&#228;lla statens r&#228;tt, ska 
+Riksg&#228;ldskontoret f&#246;resl&#229; de villkor som en s&#228;kerhet b&#246;r 
+f&#246;renas med.
+
+26 &#167; En tillst&#229;ndshavare ska st&#228;lla godtagbara 
+till&#228;ggss&#228;kerheter motsvarande ett visst belopp, om 
+
+1. v&#228;rdebest&#228;ndigheten p&#229; den eller de s&#228;kerheter som har 
+st&#228;llts har f&#246;rs&#228;mrats och inte l&#228;ngre &#228;r godtagbar, eller 
+
+2. s&#229;dana villkor som avses i 25 &#167; andra stycket har 
+&#229;sidosatts. 
+
+27 &#167; S&#228;kerheter enligt 9 &#167; lagen (2006:647) om finansiering 
+av k&#228;rntekniska restprodukter och enligt 26 &#167; denna 
+f&#246;rordning ska st&#228;llas till K&#228;rnavfallsfonden och f&#246;rvaltas 
+av Riksg&#228;ldskontoret.
+
+28 &#167; Riksg&#228;ldskontoret ska 
+
+1. f&#246;lja v&#228;rdet p&#229; de s&#228;kerheter som st&#228;llts enligt 9 &#167; lagen 
+(2006:647) om finansiering av k&#228;rntekniska restprodukter och 
+enligt 26 &#167; denna f&#246;rordning, 
+
+2. bevaka att de villkor som s&#228;kerheterna har f&#246;renats med 
+f&#246;ljs, och
+
+3. meddela regeringen om myndigheten bed&#246;mer att st&#228;llda 
+s&#228;kerheters v&#228;rdebest&#228;ndighet har f&#246;rs&#228;mrats v&#228;sentligt eller 
+att s&#229;dana villkor som avses i 25 &#167; andra stycket har 
+&#229;sidosatts. 
+
+29 &#167; Om Riksg&#228;ldskontoret anser att en till&#228;ggss&#228;kerhet 
+beh&#246;vs, ska myndigheten f&#246;resl&#229; ett l&#228;mpligt belopp f&#246;r en 
+s&#229;dan s&#228;kerhet och yttra sig till regeringen &#246;ver 
+tillst&#229;ndshavarens f&#246;rslag till s&#228;kerhet. 
+
+30 &#167; Riksg&#228;ldskontoret ska meddela regeringen om 
+myndigheten bed&#246;mer att st&#228;llda s&#228;kerheter b&#246;r tas i 
+anspr&#229;k. F&#246;rordning (2018:1450).
+
+Tillst&#229;ndshavares anv&#228;ndning av fondmedel som &#228;r h&#228;nf&#246;rliga 
+till k&#228;rnavfallsavgifter
+
+31 &#167; En tillst&#229;ndshavare ska senast den 30 oktober varje 
+&#229;r ge in den utbetalningsplan som avses i 21 &#167; 1 lagen 
+(2006:647) om finansiering av k&#228;rntekniska restprodukter till 
+Riksg&#228;ldskontoret. F&#246;rordning (2018:1450).
+
+32 &#167; En tillst&#229;ndshavare f&#229;r ans&#246;ka om utbetalning av 
+fondmedel f&#246;r s&#229;dana kostnader som avses i 4 &#167; 1-3 och 8 lagen 
+(2006:647) om finansiering av k&#228;rntekniska restprodukter. 
+Ans&#246;kan ska l&#228;mnas in till Riksg&#228;ldskontoret senast 
+
+1. den 31 oktober f&#246;r utbetalningar som avser n&#228;sta 
+kalender&#229;rs f&#246;rsta kvartal, 
+
+2. den 28 februari f&#246;r utbetalningar som avser innevarande 
+kalender&#229;rs andra kvartal,
+
+3. den 30 maj f&#246;r utbetalningar som avser innevarande 
+kalender&#229;rs tredje kvartal, och
+
+4. den 31 augusti f&#246;r utbetalningar som avser innevarande 
+kalender&#229;rs fj&#228;rde kvartal.
+
+En tillst&#229;ndshavare f&#229;r &#228;ven ans&#246;ka om utbetalning av s&#229;dana 
+fondmedel i efterskott f&#246;r kostnader som tillst&#229;ndshavaren har 
+haft under innevarande eller tidigare kvartal. Ans&#246;kan f&#229;r i 
+s&#229; fall l&#228;mnas in vid en senare tidpunkt.
+
+I ans&#246;kan ska det anges vilka kostnader som de utbetalade 
+medlen ska finansiera. F&#246;rordning (2022:254).
+
+33 &#167; Riksg&#228;ldskontoret pr&#246;var ans&#246;kningarna om utbetalning och 
+beslutar hur och i vilken utstr&#228;ckning fondmedel f&#229;r anv&#228;ndas 
+av tillst&#229;ndshavaren. Beslutet f&#229;r endast avse kostnader som 
+tillst&#229;ndshavaren f&#246;rv&#228;ntas f&#229; under det kvartal som ans&#246;kan 
+avser och som avser &#229;tg&#228;rder och verksamheter som ing&#229;r i de 
+kostnadsber&#228;kningar som har anv&#228;nts d&#229; k&#228;rnavfallsavgiften 
+beslutades.
+
+Om det finns s&#228;rskilda sk&#228;l, f&#229;r Riksg&#228;ldskontoret besluta om 
+utbetalning av fondmedel
+
+1. f&#246;r &#229;tg&#228;rder och verksamheter som inte har ing&#229;tt i de 
+kostnadsber&#228;kningar som avses i f&#246;rsta stycket, eller
+
+2. i efterskott efter ans&#246;kan enligt 32 &#167; andra stycket.
+
+Fondmedlen ska betalas ut i f&#246;rskott f&#246;r kvartal. Om 
+fondmedlen ska betalas ut i efterskott enligt andra stycket 2 
+ska fondmedlen i st&#228;llet betalas ut senast under det kvartal 
+som infaller n&#228;rmast efter beslutet. F&#246;rordning (2022:254).
+
+Kommuners anv&#228;ndning av fondmedel som &#228;r h&#228;nf&#246;rliga till 
+k&#228;rnavfallsavgifter
+
+34 &#167; En kommuns ans&#246;kan om fondmedel f&#246;r s&#229;dana pr&#246;vnings- 
+och informationskostnader som avses i 4 &#167; 7 a och 8 lagen 
+(2006:647) om finansiering av k&#228;rntekniska restprodukter ska 
+ges in till Riksg&#228;ldskontoret senast tre m&#229;nader f&#246;re den 
+period som ans&#246;kan avser. 
+
+I ans&#246;kan ska det anges vilka kostnader som de utbetalade 
+medlen ska finansiera. F&#246;rordning (2018:1450).
+
+35 &#167; Riksg&#228;ldskontoret pr&#246;var ans&#246;kningarna om utbetalning 
+och beslutar hur och i vilken utstr&#228;ckning fondmedel f&#229;r 
+anv&#228;ndas av kommunen. Ers&#228;ttning f&#229;r endast ges till kommuner 
+d&#228;r en anl&#228;ggning f&#246;r slutf&#246;rvar f&#246;r restprodukter planeras 
+eller byggs och f&#229;r best&#228;mmas till h&#246;gst 10 miljoner kronor 
+per kommun och kalender&#229;r. 
+
+Fondmedlen ska betalas ut i f&#246;rskott. 
+F&#246;rordning (2018:1450).
+
+Ideella f&#246;reningars anv&#228;ndning av fondmedel som &#228;r h&#228;nf&#246;rliga 
+till k&#228;rnavfallsavgifter
+
+36 &#167; En ideell f&#246;renings ans&#246;kan om fondmedel f&#246;r s&#229;dant 
+st&#246;d som avses i 4 &#167; 9 lagen (2006:647) om finansiering av 
+k&#228;rntekniska restprodukter ska ges in till Riksg&#228;ldskontoret 
+senast den 30 september &#229;ret f&#246;re det kalender&#229;r som ans&#246;kan 
+avser. F&#246;rordning (2018:1450).
+
+37 &#167; Riksg&#228;ldskontoret pr&#246;var ans&#246;kningarna om 
+utbetalning och beslutar hur och i vilken utstr&#228;ckning 
+fondmedel f&#229;r anv&#228;ndas av den ideella f&#246;reningen. St&#246;d f&#229;r 
+endast ges till en ideell f&#246;rening som 
+
+1. utnyttjar r&#228;tten att delta i s&#229;dant samr&#229;d som f&#246;reskrivs 
+i 6 kap. 28 &#167; 1 a milj&#246;balken avseende anl&#228;ggning f&#246;r 
+hantering och slutf&#246;rvaring av anv&#228;nt k&#228;rnbr&#228;nsle, 
+
+2. har en styrelse som utses av medlemmarna i demokratiska 
+former och &#229;rligen h&#229;ller st&#228;mma som medlemmarna f&#229;r delta i, 
+
+3. har stadgar som beslutas av st&#228;mman och anger f&#246;reningens 
+namn och &#228;ndam&#229;l, hur beslut fattas, hur styrelsen utses samt 
+hur revisorer som kontrollerar styrelsens verksamhet utses, 
+
+4. inte har n&#228;ringsverksamhet som sin huvudsakliga 
+inkomstk&#228;lla, och 
+
+5. har minst 1 000 medlemmar, eller &#228;r en sammanslutning av 
+ideella f&#246;reningar som tillsammans har minst 1 000 olika 
+personer som medlemmar och d&#228;r varje f&#246;rening som ing&#229;r 
+uppfyller kraven i 2 och 4. 
+
+St&#246;d f&#229;r ges med h&#246;gst 2,5 miljoner kronor per f&#246;rening och 
+kalender&#229;r och med totalt h&#246;gst 3,5 miljoner kronor per 
+kalender&#229;r. F&#246;rordning (2018:1450).
+
+38 &#167; St&#246;det ska avse f&#246;reningens kostnader f&#246;r att delta 
+i samr&#229;dsf&#246;rfaranden enligt 6 kap. milj&#246;balken eller 5 c &#167; 
+lagen (1984:3) om k&#228;rnteknisk verksamhet och yttra sig enligt 
+6 kap. 39 &#167; f&#246;rsta stycket milj&#246;balken &#246;ver ans&#246;kan om 
+tillst&#229;nd och milj&#246;konsekvensbeskrivning f&#246;r en anl&#228;ggning 
+f&#246;r hantering och slutf&#246;rvaring av anv&#228;nt k&#228;rnbr&#228;nsle samt 
+kostnader f&#246;r att kunna f&#246;lja och bed&#246;ma fr&#229;gor som r&#246;r 
+slutf&#246;rvaring av anv&#228;nt k&#228;rnbr&#228;nsle och slutf&#246;rvaringens 
+p&#229;verkan p&#229; m&#228;nniskors h&#228;lsa eller milj&#246;n. Kostnaderna f&#229;r 
+omfatta l&#246;nekostnader, lokalkostnader och &#246;vriga 
+administrativa kostnader. St&#246;det f&#229;r inte avse kostnader f&#246;r 
+information riktad direkt till allm&#228;nheten ut&#246;ver vad som 
+avser samr&#229;dsf&#246;rfarandet. St&#246;det f&#229;r inte avse insatser som 
+f&#246;reningen g&#246;r efter att tolv m&#229;nader har f&#246;rflutit fr&#229;n det 
+att tillst&#229;ndsans&#246;kan och milj&#246;konsekvensbeskrivningen har 
+kungjorts enligt 6 kap. 39–41 &#167;&#167; milj&#246;balken.
+
+Om de ans&#246;kningar som avser godtagbara kostnader totalt 
+omfattar st&#246;rre belopp &#228;n vad som finns tillg&#228;ngligt f&#246;r st&#246;d 
+under ett visst kalender&#229;r, ska Riksg&#228;ldskontoret f&#246;rdela 
+st&#246;det s&#229; att det ges en j&#228;mn geografisk spridning och med 
+beaktande av f&#246;reningarnas medlemsantal och behov samt 
+tidigare erh&#229;llet st&#246;d.
+
+Fondmedlen ska betalas ut i f&#246;rskott f&#246;r kalender&#229;r. 
+F&#246;rordning (2018:1450).
+
+Statliga myndigheters anv&#228;ndning av fondmedel som &#228;r 
+h&#228;nf&#246;rliga till k&#228;rnavfallsavgifter
+
+39 &#167; En statlig myndighets ans&#246;kan om ers&#228;ttning f&#246;r s&#229;dana 
+kostnader som avses i 4 &#167; 4–8 lagen (2006:647) om 
+finansiering av k&#228;rntekniska restprodukter ska ges in till 
+och pr&#246;vas av regeringen. 
+
+I ans&#246;kan ska det anges vilka kostnader som de utbetalade 
+medlen ska finansiera.
+
+Utbetalning av fondmedel som &#228;r h&#228;nf&#246;rliga till 
+k&#228;rnavfallsavgifter
+
+40 &#167; K&#228;rnavfallsfonden betalar ut fondmedel efter beslut 
+enligt 33, 35 och 37 &#167;&#167; p&#229; beg&#228;ran av Riksg&#228;ldskontoret.
+F&#246;rordning (2018:1450).
+
+41 &#167; Fondmedel som betalas ut efter beslut enligt 35, 37 och 
+39 &#167;&#167; ska, om inte annat anges i beslutet, dras fr&#229;n varje 
+tillst&#229;ndshavares fondmedel med en s&#229; stor andel att det 
+motsvarar tillst&#229;ndshavarens ansvar f&#246;r kostnaderna enligt 
+6 &#167; andra stycket lagen (2006:647) om finansiering av 
+k&#228;rntekniska restprodukter.
+
+Anv&#228;ndning och utbetalning av fondmedel som &#228;r h&#228;nf&#246;rliga 
+till Studsviksavgifter
+
+42 &#167; En ans&#246;kan om utbetalning av fondmedel som &#228;r h&#228;nf&#246;rliga 
+till Studsviksavgifter ska l&#228;mnas in till Riksg&#228;ldskontoret 
+senast
+
+1. den 31 oktober f&#246;r utbetalningar som avser n&#228;sta 
+kalender&#229;rs f&#246;rsta kvartal, 
+
+2. den 28 februari f&#246;r utbetalningar som avser innevarande 
+kalender&#229;rs andra kvartal,
+
+3. den 30 maj f&#246;r utbetalningar som avser innevarande 
+kalender&#229;rs tredje kvartal, och
+
+4. den 31 augusti f&#246;r utbetalningar som avser innevarande 
+kalender&#229;rs fj&#228;rde kvartal.
+
+En tillst&#229;ndshavare f&#229;r &#228;ven ans&#246;ka om utbetalning av s&#229;dana 
+fondmedel i efterskott f&#246;r kostnader under innevarande eller 
+tidigare kvartal. Ans&#246;kan f&#229;r i s&#229; fall l&#228;mnas in vid en 
+senare tidpunkt.
+
+I ans&#246;kan ska det anges vilka kostnader som medlen ska 
+finansiera och under vilket kvartal de f&#246;rv&#228;ntas uppkomma 
+eller har uppkommit. Det ska &#228;ven anges om kostnaderna &#228;r 
+h&#228;nf&#246;rliga till
+
+1. behandling, mellanlagring och slutf&#246;rvaring av k&#228;rnavfall 
+och k&#228;rn&#228;mne som inte ska anv&#228;ndas igen,
+
+2. avveckling, inklusive mellanlagring av restprodukter, eller
+
+3. slutligt omh&#228;ndertagande av restprodukter fr&#229;n avveckling.
+F&#246;rordning (2022:254).
+
+43 &#167; Riksg&#228;ldskontoret pr&#246;var ans&#246;kningarna om utbetalning och 
+beslutar hur och i vilken utstr&#228;ckning fondmedel som &#228;r 
+h&#228;nf&#246;rliga till Studsviksavgifter f&#229;r anv&#228;ndas. Fondmedel f&#229;r 
+betalas ut endast till den som &#228;r skyldig att genomf&#246;ra s&#229;dana 
+&#229;tg&#228;rder som Studsviksavgifterna har fonderats f&#246;r eller till 
+en myndighet som &#228;r huvudman f&#246;r ett s&#229;dant genomf&#246;rande. 
+Beslutet f&#229;r endast avse kostnader f&#246;r &#229;tg&#228;rder som f&#246;rv&#228;ntas 
+genomf&#246;ras under det kvartal som ans&#246;kan avser och som ing&#229;tt 
+i de kostnadsber&#228;kningar som har anv&#228;nts d&#229; 
+Studsviksavgifterna beslutades.
+
+Om det finns s&#228;rskilda sk&#228;l, f&#229;r Riksg&#228;ldskontoret besluta om 
+utbetalning i efterskott efter ans&#246;kan enligt 42 &#167; andra 
+stycket.
+
+Fondmedel ska betalas ut i f&#246;rskott f&#246;r kvartal. Om fondmedlen 
+ska betalas ut i efterskott enligt andra stycket ska 
+fondmedlen i st&#228;llet betalas ut senast under det kvartal som 
+infaller n&#228;rmast efter beslutet. F&#246;rordning (2022:254).
+
+44 &#167; K&#228;rnavfallsfonden betalar ut fondmedel efter beslut 
+enligt 43 &#167; p&#229; beg&#228;ran av Riksg&#228;ldskontoret. 
+F&#246;rordning (2018:1450).
+
+Redovisning och kontroll
+
+45 &#167;Riksg&#228;ldskontoret f&#229;r besluta att en tillst&#229;ndshavare 
+ska l&#228;mna in en kostnadsber&#228;kning enligt 8 eller 11 &#167; vid en 
+annan tidpunkt &#228;n som anges d&#228;r, om det finns s&#228;rskilda 
+sk&#228;l. F&#246;rordning (2018:1450).
+
+46 &#167; Redovisning av hur utbetalade fondmedel har anv&#228;nts 
+ska
+
+1. f&#246;r tillst&#229;ndshavare avse f&#246;reg&#229;ende kalender&#229;r och ges in 
+till Riksg&#228;ldskontoret senast den 28 februari varje &#229;r,
+
+2. f&#246;r kommuner avse varje ers&#228;ttningsperiod och ges in till 
+Riksg&#228;ldskontoret senast tre m&#229;nader efter periodens slut,
+
+3. f&#246;r ideella f&#246;reningar avse f&#246;reg&#229;ende kalender&#229;r och ges 
+in till Riksg&#228;ldskontoret senast den 31 mars varje &#229;r,
+
+4. f&#246;r statliga myndigheter avse f&#246;reg&#229;ende kalender&#229;r och 
+ges in till regeringen senast den 31 mars varje &#229;r, och
+
+5. f&#246;r &#246;vriga som har mottagit fondmedel efter beslut enligt 
+43 &#167; avse f&#246;reg&#229;ende kalender&#229;r och ges in till 
+Riksg&#228;ldskontoret senast den 31 mars varje &#229;r.
+F&#246;rordning (2018:1450).
+
+47 &#167; En reaktorinnehavare ska senast den 1 februari varje 
+&#229;r redovisa till Riksg&#228;ldskontoret hur mycket el som 
+reaktorinnehavaren har levererat under f&#246;reg&#229;ende 
+kalender&#229;r. F&#246;rordning (2018:1450).
+
+48 &#167; Riksg&#228;ldskontoret ska 
+
+1. kontrollera att beslutade k&#228;rnavfallsavgifter har betalats 
+in och revidera hur utbetalade fondmedel har anv&#228;nts,
+
+2. senast den 1 februari varje &#229;r underr&#228;tta 
+K&#228;rnavfallsfonden om alla planerade och prognostiserade 
+inbetalningar till och utbetalningar fr&#229;n fonden, och 
+
+3. f&#246;r varje kalender&#229;r l&#228;mna en sammanfattning till 
+regeringen &#246;ver anv&#228;ndningen av utbetalade medel. 
+F&#246;rordning (2018:1450).
+
+49 &#167; Riksg&#228;ldskontoret pr&#246;var fr&#229;gor om &#229;terbetalning, 
+avr&#228;kning och kompensation enligt 17 &#167; f&#246;rsta stycket 1 och 
+2 lagen (2006:647) om finansiering av k&#228;rntekniska 
+restprodukter. F&#246;rordning (2018:1450).
+
+&#197;terbetalning av fondmedel som inte beh&#246;vs
+
+50 &#167; Riksg&#228;ldskontoret ska anm&#228;la till regeringen att 
+&#229;terbetalning av fondmedel enligt 14 &#167; andra stycket lagen 
+(2006:647) om finansiering av k&#228;rntekniska restprodukter b&#246;r 
+ske, om
+
+1. en tillst&#229;ndshavares skyldigheter enligt 11 &#167; samma lag 
+har upph&#246;rt, eller
+
+2. det dessf&#246;rinnan finns s&#228;rskilda sk&#228;l att &#229;terbetala medel 
+som inte beh&#246;vs. F&#246;rordning (2018:1450).
+
+51 &#167; En ans&#246;kan om &#229;terbetalning enligt 14 &#167; andra stycket 
+lagen (2006:647) om finansiering av k&#228;rntekniska 
+restprodukter ska ges in till Riksg&#228;ldskontoret.
+F&#246;rordning (2018:1450).
+
+52 &#167; Riksg&#228;ldskontoret ska med ett eget yttrande &#246;verl&#228;mna 
+en ans&#246;kan enligt 51 &#167; till regeringen. 
+F&#246;rordning (2018:1450).
+
+Dispenser
+ 
+53 &#167; Riksg&#228;ldskontoret f&#229;r i det enskilda fallet ge 
+dispens fr&#229;n best&#228;mmelserna om tidsfrister i 8, 10, 11, 13, 
+20, 21, 24, 31, 32, 34, 36, 42, 46 och 47 &#167;&#167;, om det kan ske 
+utan att syftet med best&#228;mmelserna &#229;sidos&#228;tts.
+F&#246;rordning (2018:1450).
+
+54 &#167; Har upph&#228;vts genom f&#246;rordning (2018:1450).
+
+Bemyndiganden
+
+55 &#167; Riksg&#228;ldskontoret f&#229;r meddela 
+
+1. f&#246;reskrifter om hur inflationskurvan och den riskfria 
+diskonteringsr&#228;ntekurvan enligt 3 &#167; ska ber&#228;knas, och 
+
+2. f&#246;reskrifter som beh&#246;vs f&#246;r verkst&#228;lligheten av 8, 9, 11, 
+12, 20, 21, 24–29, 31–38 och 45–49 &#167;&#167;. 
+F&#246;rordning (2018:1450).
+
+56 &#167; Har upph&#228;vts genom f&#246;rordning (2018:1450).
+
+Tillsyn
+
+57 &#167; Tillsynen &#246;ver att lagen (2006:647) om finansiering 
+av k&#228;rntekniska restprodukter, denna f&#246;rordning och 
+f&#246;reskrifter som meddelats med st&#246;d av f&#246;rordningen f&#246;ljs 
+ut&#246;vas av Riksg&#228;ldskontoret. F&#246;rordning (2018:1450).
+
+&#214;verklagande
+
+58 &#167; Beslut enligt 17 &#167; f&#246;rsta stycket, 19, 33, 35, 37, 
+43, 45, 49, 53 och 57 &#167;&#167; f&#229;r &#246;verklagas till regeringen. 
+Andra beslut enligt denna f&#246;rordning f&#229;r inte &#246;verklagas. 
+Beslut enligt denna f&#246;rordning g&#228;ller omedelbart om inte 
+annat best&#228;ms i beslutet. F&#246;rordning (2018:1450).  
+
+59 &#167; N&#228;r Riksg&#228;ldskontoret &#246;verl&#228;mnar ett &#246;verklagat &#228;rende 
+till regeringen enligt 58 &#167; ska myndigheten samtidigt yttra 
+sig &#246;ver &#246;verklagandet.
+
+Om ett samtidigt &#246;verl&#228;mnande av yttrandet hindrar att &#228;rendet 
+&#246;verl&#228;mnas skyndsamt ska Riksg&#228;ldskontoret i st&#228;llet yttra sig 
+&#246;ver &#246;verklagandet s&#229; snart som m&#246;jligt efter det att &#228;rendet 
+&#246;verl&#228;mnats till regeringen. F&#246;rordning (2022:254).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2017:1179
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 20 december 2017.
+
+2. Genom f&#246;rordningen upph&#228;vs f&#246;rordningen (2008:715) om 
+finansiella &#229;tg&#228;rder f&#246;r hanteringen av restprodukter fr&#229;n 
+k&#228;rnteknisk verksamhet.
+
+3. Reaktorinnehavarna ska f&#246;rsta g&#229;ngen ge in en 
+kostnadsber&#228;kning enligt 8 &#167; senast den 30 september 2019.
+
+4. Tillst&#229;ndshavaren ska f&#246;rsta g&#229;ngen ge in en 
+kostnadsber&#228;kning enligt 11 &#167; senast den 7 januari 2019.
+
+2022:254
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 10 maj 2022.
+
+2. Ans&#246;kan om medel i efterskott enligt 32 &#167; andra stycket 
+eller 42 &#167; andra stycket f&#229;r inte avse kostnader som uppst&#229;tt 
+f&#246;re 2018.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=802">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=804">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

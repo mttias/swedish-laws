@@ -1,0 +1,822 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-25" /> 
+ <meta id="rattsinfo-edited" content="2024-01-26 09:20:36" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1100</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1099">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1101">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2015:485 ·
+                    <a href="/sfsr?bet=2015:485">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2015:485) om erk&#228;nnande och uppf&#246;ljning av beslut om &#246;vervaknings&#229;tg&#228;rder inom Europeiska unionen</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet BIRS
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2015-06-25
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2024:10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2015-08-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+Lagens inneh&#229;ll och till&#228;mplighet
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser f&#246;r genomf&#246;rande av
+r&#229;dets rambeslut 2009/829/RIF om till&#228;mpning mellan
+Europeiska unionens medlemsstater av principen om &#246;msesidigt
+erk&#228;nnande p&#229; beslut om &#246;vervaknings&#229;tg&#228;rder som ett
+alternativ till tillf&#228;lligt frihetsber&#246;vande.
+
+2 &#167; Om Europeiska unionen genom ett s&#228;rskilt beslut har
+avbrutit till&#228;mpningen av r&#229;dets rambeslut 2009/829/RIF i
+f&#246;rh&#229;llande till en medlemsstat eller om en medlemsstat har
+upph&#246;rt att till&#228;mpa rambeslutet eller den nationella
+lagstiftning som genomf&#246;r rambeslutet, g&#228;ller inte denna lag
+i f&#246;rh&#229;llande till den staten.
+
+Ett svenskt beslut om &#246;vervaknings&#229;tg&#228;rder
+
+3 &#167; Med ett svenskt beslut om &#246;vervaknings&#229;tg&#228;rder avses i
+denna lag ett beslut om att en person som &#228;r misst&#228;nkt f&#246;r
+brott
+
+1. f&#246;rbjuds att utan tillst&#229;nd l&#228;mna anvisad vistelseort i en
+annan medlemsstat, eller
+
+2. f&#246;rel&#228;ggs att p&#229; vissa tider anm&#228;la sig hos myndighet i en
+annan medlemsstat.
+
+Ett f&#246;rbud enligt f&#246;rsta stycket 1 f&#229;r f&#246;renas med ett
+f&#246;rel&#228;ggande enligt f&#246;rsta stycket 2.
+
+Ett utl&#228;ndskt beslut om &#246;vervaknings&#229;tg&#228;rder
+
+4 &#167; Med ett utl&#228;ndskt beslut om &#246;vervaknings&#229;tg&#228;rder avses i
+denna lag ett verkst&#228;llbart beslut, meddelat av en beh&#246;rig
+myndighet i en annan medlemsstat i samband med ett
+straffr&#228;ttsligt f&#246;rfarande, som inneb&#228;r att en person som &#228;r
+misst&#228;nkt f&#246;r brott ska omfattas av en eller flera
+&#246;vervaknings&#229;tg&#228;rder.
+
+F&#246;reskrifter om verkst&#228;lligheten av denna lag
+
+5 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela n&#228;rmare
+f&#246;reskrifter om verkst&#228;lligheten av denna lag.
+
+2 kap. Ett svenskt beslut om &#246;vervaknings&#229;tg&#228;rder som ska
+erk&#228;nnas och f&#246;ljas upp i en annan medlemsstat
+
+F&#246;ruts&#228;ttningar f&#246;r att meddela ett svenskt beslut om
+&#246;vervaknings&#229;tg&#228;rder
+
+1 &#167; Om n&#229;gon &#228;r sk&#228;ligen misst&#228;nkt f&#246;r ett brott p&#229; vilket
+f&#228;ngelse kan f&#246;lja och det med h&#228;nsyn till brottets
+beskaffenhet, den misst&#228;nktes f&#246;rh&#229;llande eller n&#229;gon annan
+omst&#228;ndighet finns risk f&#246;r att han eller hon avviker eller
+p&#229; n&#229;got annat s&#228;tt undandrar sig lagf&#246;ring eller straff men
+det i &#246;vrigt inte finns anledning att anh&#229;lla eller h&#228;kta den
+misst&#228;nkte, f&#229;r han eller hon, om det &#228;r tillr&#228;ckligt, i
+st&#228;llet meddelas ett beslut om &#246;vervaknings&#229;tg&#228;rder enligt 1
+kap. 3 &#167;.
+
+Ett beslut om &#246;vervaknings&#229;tg&#228;rder f&#229;r &#228;ven meddelas om det
+finns sk&#228;l att anh&#229;lla eller h&#228;kta n&#229;gon enligt 24 kap. 1 &#167;
+f&#246;rsta stycket 2 eller 3 r&#228;tteg&#229;ngsbalken men det kan antas
+att syftet med ett s&#229;dant frihetsber&#246;vande kan tillgodoses
+genom ett beslut om &#246;vervaknings&#229;tg&#228;rder.
+
+Ett beslut om &#246;vervaknings&#229;tg&#228;rder f&#229;r meddelas endast om
+
+1. den misst&#228;nkte &#228;r stadigvarande bosatt i eller har annan
+stark anknytning till en annan medlemsstat,
+
+2. den misst&#228;nkte samtycker till att beslutet f&#246;ljs upp i den
+andra medlemsstaten,
+
+3. sk&#228;len f&#246;r &#229;tg&#228;rden uppv&#228;ger det intr&#229;ng eller men i
+&#246;vrigt som &#229;tg&#228;rden inneb&#228;r f&#246;r den misst&#228;nkte eller n&#229;got
+annat motst&#229;ende intresse, och
+
+4. det inte &#228;r ol&#228;mpligt med h&#228;nsyn till utredningen och
+lagf&#246;ringen av brottet.
+
+S&#228;rskilda villkor i samband med ett beslut om
+&#246;vervaknings&#229;tg&#228;rder
+
+2 &#167; Ett beslut om &#246;vervaknings&#229;tg&#228;rder f&#229;r f&#246;renas med
+villkor att den misst&#228;nkte ska vara tillg&#228;nglig i sin bostad
+eller p&#229; sin arbetsplats p&#229; vissa tider. Det f&#229;r ocks&#229;
+st&#228;llas upp andra s&#228;rskilda villkor som beh&#246;vs f&#246;r
+&#246;vervakningen av den misst&#228;nkte.
+
+Meddelande av ett beslut om &#246;vervaknings&#229;tg&#228;rder
+
+3 &#167; &#197;klagare eller allm&#228;n domstol pr&#246;var om ett beslut om
+&#246;vervaknings&#229;tg&#228;rder ska meddelas.
+
+Vid en pr&#246;vning enligt f&#246;rsta stycket och i fr&#229;ga om
+f&#246;rfarandet efter det att ett beslut om &#246;vervaknings&#229;tg&#228;rder
+har meddelats till&#228;mpas det som f&#246;reskrivs i r&#228;tteg&#229;ngsbalken
+om resef&#246;rbud, om inte n&#229;got annat f&#246;ljer av denna lag.
+
+Tid f&#246;r v&#228;ckande av &#229;tal
+
+4 &#167; N&#228;r ett beslut om &#246;vervaknings&#229;tg&#228;rder har meddelats
+enligt 3 &#167; ska &#229;tal v&#228;ckas inom en m&#229;nad efter det att den
+misst&#228;nktes skyldighet enligt 6 &#167; f&#246;rsta stycket intr&#228;tt, om
+&#229;tal inte redan har v&#228;ckts.
+
+R&#228;tten f&#229;r medge f&#246;rl&#228;ngning av tiden, om framst&#228;llning om
+det g&#246;rs f&#246;re tidens utg&#229;ng. Den f&#246;rl&#228;ngda tiden f&#229;r inte
+vara l&#228;ngre &#228;n vad som &#228;r n&#246;dv&#228;ndigt.
+
+&#214;vers&#228;ndande av beslutet
+
+5 &#167; &#197;klagaren ska s&#228;nda &#246;ver ett beslut om
+&#246;vervaknings&#229;tg&#228;rder till en beh&#246;rig myndighet i den
+medlemsstat d&#228;r beslutet ska erk&#228;nnas och f&#246;ljas upp.
+
+Skyldighet att f&#246;lja ett beslut om &#246;vervaknings&#229;tg&#228;rder
+
+6 &#167; Den misst&#228;nktes skyldighet att f&#246;lja ett beslut om
+&#246;vervaknings&#229;tg&#228;rder och s&#228;rskilda villkor som meddelats
+enligt 2 &#167; intr&#228;der f&#246;rst n&#228;r han eller hon har delgetts
+underr&#228;ttelse om att beh&#246;rig myndighet i den andra staten
+beslutat att erk&#228;nna beslutet om &#246;vervaknings&#229;tg&#228;rder.
+
+&#197;klagaren ska ansvara f&#246;r att underr&#228;ttelsen delges den
+misst&#228;nkte.
+
+Tillf&#228;lliga undantag fr&#229;n ett beslut om
+&#246;vervaknings&#229;tg&#228;rder
+7 &#167; R&#228;tten f&#229;r besluta om tillf&#228;lliga
+undantag fr&#229;n ett beslut om &#246;vervaknings&#229;tg&#228;rder eller fr&#229;n
+de s&#228;rskilda villkor som har meddelats med st&#246;d av 2 &#167;.
+
+&#196;ven &#229;klagaren f&#229;r besluta om tillf&#228;lliga undantag, om inte
+beslutet om &#246;vervaknings&#229;tg&#228;rder har meddelats eller
+fastst&#228;llts av r&#228;tten och &#229;tal har v&#228;ckts. R&#228;tten f&#229;r dock
+&#246;verl&#229;ta till &#229;klagaren att besluta om tillf&#228;lliga undantag
+&#228;ven i s&#229;dana fall.
+
+&#196;ndring av ett beslut om &#246;vervaknings&#229;tg&#228;rder
+
+8 &#167; Ett beslut om &#246;vervaknings&#229;tg&#228;rder eller de s&#228;rskilda
+villkor som har meddelats med st&#246;d av 2 &#167; f&#229;r &#228;ndras av
+r&#228;tten. &#196;ven &#229;klagaren f&#229;r besluta om &#228;ndring, om inte
+beslutet om &#246;vervaknings&#229;tg&#228;rder har meddelats eller
+fastst&#228;llts av r&#228;tten och &#229;tal har v&#228;ckts.
+
+F&#246;r den misst&#228;nktes skyldighet att f&#246;lja ett beslut enligt
+f&#246;rsta stycket tilll&#228;mpas 6 &#167;.
+
+Upph&#228;vande av ett beslut om &#246;vervaknings&#229;tg&#228;rder
+
+9 &#167; Ett beslut om &#246;vervaknings&#229;tg&#228;rder ska omedelbart
+upph&#228;vas om
+
+1. &#229;tal inte har v&#228;ckts i r&#228;tt tid eller f&#246;rl&#228;ngning av tiden
+inte har beg&#228;rts,
+
+2. beslutet inte erk&#228;nns eller f&#246;ljs upp av den andra staten,
+eller
+
+3. beslutet av n&#229;got annat sk&#228;l inte l&#228;ngre b&#246;r g&#228;lla.
+
+Ett beslut om &#246;vervaknings&#229;tg&#228;rder upph&#228;vs av r&#228;tten. &#196;ven
+&#229;klagaren f&#229;r upph&#228;va beslutet, om inte beslutet har
+meddelats eller fastst&#228;llts av r&#228;tten och &#229;tal har v&#228;ckts.
+
+&#214;vertr&#228;delse av ett beslut om &#246;vervaknings&#229;tg&#228;rder
+
+10 &#167; Om den misst&#228;nkte &#246;vertr&#228;der ett beslut om
+&#246;vervaknings&#229;tg&#228;rder eller inte f&#246;ljer ett s&#228;rskilt villkor
+enligt 2 &#167;, ska han eller hon omedelbart anh&#229;llas eller
+h&#228;ktas, om det inte &#228;r uppenbart att det saknas sk&#228;l f&#246;r
+detta.
+
+Beslut i samband med dom
+
+11 &#167; Om den som har meddelats ett beslut om
+&#246;vervaknings&#229;tg&#228;rder d&#246;ms f&#246;r brottet, ska r&#228;tten pr&#246;va om
+beslutet ska g&#228;lla till dess domen f&#229;tt laga kraft.
+
+3 kap. Ett utl&#228;ndskt beslut om &#246;vervaknings&#229;tg&#228;rder som ska
+erk&#228;nnas och f&#246;ljas upp i Sverige
+
+Skyldighet att erk&#228;nna och f&#246;lja upp ett utl&#228;ndskt beslut om
+&#246;vervaknings&#229;tg&#228;rder
+
+1 &#167; Ett utl&#228;ndskt beslut om &#246;vervaknings&#229;tg&#228;rder som s&#228;nds
+&#246;ver fr&#229;n en annan medlemsstat ska erk&#228;nnas och f&#246;ljas upp i
+Sverige om f&#246;ruts&#228;ttningarna i 2 och 3 &#167;&#167; &#228;r uppfyllda och
+inte annat f&#246;ljer av denna lag.
+
+Allm&#228;nna f&#246;ruts&#228;ttningar f&#246;r erk&#228;nnande och uppf&#246;ljning
+
+2 &#167; F&#246;r att ett beslut om &#246;vervaknings&#229;tg&#228;rder ska f&#229;
+erk&#228;nnas och f&#246;ljas upp enligt 1 &#167; kr&#228;vs att den misst&#228;nkte
+
+1. &#228;r stadigvarande bosatt i Sverige, eller
+
+2. har annan stark anknytning till Sverige och det i &#246;vrigt
+framst&#229;r som l&#228;mpligt.
+
+3 &#167; F&#246;r att ett beslut om &#246;vervaknings&#229;tg&#228;rder ska f&#229;
+erk&#228;nnas och f&#246;ljas upp enligt 1 &#167; kr&#228;vs det &#228;ven att
+beslutet g&#228;ller f&#246;r en viss tid och inneb&#228;r en skyldighet f&#246;r
+den misst&#228;nkte
+
+1. att anm&#228;la byte av bos&#228;ttning till en myndighet i
+Sverige,
+
+2. att inte bes&#246;ka vissa st&#228;llen, orter eller fastst&#228;llda
+omr&#229;den i Sverige eller i den medlemsstat d&#228;r beslutet om
+&#246;vervaknings&#229;tg&#228;rder har meddelats,
+
+3. att stanna kvar p&#229; anvisad ort, i till&#228;mpliga fall under
+angivna tider,
+
+4. att f&#246;lja beslutade begr&#228;nsningar av m&#246;jligheten att l&#228;mna
+svenskt territorium,
+
+5. att vid best&#228;mda tidpunkter anm&#228;la sig hos en viss
+myndighet, eller
+
+6. att undvika kontakt med vissa s&#228;rskilt angivna personer
+som har anknytning till det p&#229;st&#229;dda brottet.
+
+Hinder mot erk&#228;nnande och uppf&#246;ljning
+
+4 &#167; Ett beslut om &#246;vervaknings&#229;tg&#228;rder f&#229;r inte erk&#228;nnas och
+f&#246;ljas upp i Sverige om
+
+1. den g&#228;rning som beslutet avser inte motsvarar brott enligt
+svensk lag och det inte &#228;r fr&#229;ga om en s&#229;dan g&#228;rning som
+finns angiven i bilagan till denna lag och f&#246;r vilken det i
+den andra statens lagstiftning &#228;r f&#246;reskrivet en
+frihetsber&#246;vande p&#229;f&#246;ljd i tre &#229;r eller mer,
+
+2. det f&#246;r samma g&#228;rning som beslutet avser har meddelats en
+dom i Sverige eller i en annan stat och domen f&#229;tt laga kraft
+och p&#229;f&#246;ljden vid en f&#228;llande dom har avtj&#228;nats, &#228;r under
+verkst&#228;llighet eller inte l&#228;ngre kan verkst&#228;llas enligt lagen
+i den stat som meddelat domen,
+
+3. det skulle strida mot best&#228;mmelser om immunitet och
+privilegier, eller
+
+4. den g&#228;rning som beslutet avser har &#228;gt rum innan den
+misst&#228;nkte fyllt 15 &#229;r.
+
+5 &#167; Om det med h&#228;nsyn till den misst&#228;nktes personliga
+f&#246;rh&#229;llanden och omst&#228;ndigheterna i &#246;vrigt finns s&#228;rskilda
+sk&#228;l, f&#229;r ett utl&#228;ndskt beslut om &#246;vervaknings&#229;tg&#228;rder, trots
+hinder enligt 4 &#167;, erk&#228;nnas och f&#246;ljas upp i Sverige.
+
+Hur f&#246;rfarandet inleds
+
+6 &#167; Ett utl&#228;ndskt beslut om &#246;vervaknings&#229;tg&#228;rder ska s&#228;ndas
+skriftligen till beh&#246;rig &#229;klagare. Beslutet ska &#229;tf&#246;ljas av
+ett intyg som &#228;r uppr&#228;ttat i enlighet med bilaga 1 till
+r&#229;dets rambeslut 2009/829/RIF.
+
+Beslutet och intyget ska s&#228;ndas &#246;ver genom post, bud eller
+telefax eller, efter &#246;verenskommelse i det enskilda fallet,
+p&#229; annat s&#228;tt.
+
+Intyget ska vara skrivet p&#229; svenska, danska, norska eller
+engelska eller &#229;tf&#246;ljas av en &#246;vers&#228;ttning till n&#229;got av
+dessa spr&#229;k.
+
+7 &#167; Om intyget saknas eller till form eller inneh&#229;ll &#228;r s&#229;
+bristf&#228;lligt att det inte utan v&#228;sentlig ol&#228;genhet kan l&#228;ggas
+till grund f&#246;r pr&#246;vning av fr&#229;gan om erk&#228;nnande och
+uppf&#246;ljning, ska &#229;klagaren ge den beh&#246;riga myndigheten i den
+andra medlemsstaten m&#246;jlighet att inom en viss tid komma in
+med komplettering. Detsamma g&#228;ller om beslutet om
+&#246;vervaknings&#229;tg&#228;rder saknas.
+
+Om de brister som anges i f&#246;rsta stycket kvarst&#229;r efter den
+tid som angetts, f&#229;r beslut fattas om att inte erk&#228;nna och
+f&#246;lja upp beslutet om &#246;vervaknings&#229;tg&#228;rder.
+
+Beslut i fr&#229;ga om erk&#228;nnande och uppf&#246;ljning
+
+8 &#167; &#197;klagare pr&#246;var om ett utl&#228;ndskt beslut om
+&#246;vervaknings&#229;tg&#228;rder ska erk&#228;nnas och f&#246;ljas upp i Sverige.
+
+9 &#167; Om det utl&#228;ndska beslutet om &#246;vervaknings&#229;tg&#228;rder kan
+erk&#228;nnas och f&#246;ljas upp i Sverige, ska beslut meddelas om att
+uppf&#246;ljning ska ske (uppf&#246;ljningsf&#246;rklaring).
+
+Uppf&#246;ljningsf&#246;rklaringen ska inneh&#229;lla uppgift om
+
+1. vilka &#246;vervaknings&#229;tg&#228;rder enligt 3 &#167; som ska f&#246;ljas upp
+och, i f&#246;rekommande fall, om anpassning har skett med st&#246;d av
+12 &#167;, och
+
+2. den tid som uppf&#246;ljningen ska p&#229;g&#229;.
+
+10 &#167; &#197;klagarens beslut i fr&#229;ga om erk&#228;nnande och uppf&#246;ljning
+ska meddelas senast inom fyra veckor efter det att &#229;klagaren
+enligt 6 &#167; tagit emot det utl&#228;ndska beslutet. Om &#229;klagaren
+har beg&#228;rt in komplettering enligt 7 &#167;, ska fristen p&#229; fyra
+veckor b&#246;rja l&#246;pa efter det att kompletteringen kommit in
+till &#229;klagaren.
+
+&#197;klagaren f&#229;r, om det finns s&#228;rskilda sk&#228;l, meddela sitt
+beslut vid en senare tidpunkt &#228;n vad som anges i f&#246;rsta
+stycket.
+
+11 &#167; &#197;klagarens beslut i fr&#229;ga om erk&#228;nnande och uppf&#246;ljning
+ska inneh&#229;lla de sk&#228;l som har best&#228;mt utg&#229;ngen och en
+upplysning om hur den misst&#228;nkte kan &#246;verklaga beslutet.
+Beslutet ska delges den misst&#228;nkte.
+
+&#197;klagaren ska vid behov &#246;vers&#228;tta beslutet och andra
+handlingar i &#228;rendet till ett spr&#229;k som den misst&#228;nkte
+f&#246;rst&#229;r.
+
+Anpassning av en &#246;vervaknings&#229;tg&#228;rd
+
+12 &#167; /Upph&#246;r att g&#228;lla U:2024-02-01/
+En &#246;vervaknings&#229;tg&#228;rd i ett utl&#228;ndskt beslut ska anpassas 
+om &#229;tg&#228;rden, helt eller delvis, &#228;r of&#246;renlig med
+
+1. s&#229;dana f&#246;rbud, f&#246;rel&#228;gganden eller villkor som kan meddelas 
+enligt 25 kap. r&#228;tteg&#229;ngsbalken, eller
+
+2. f&#246;rbud enligt lagen (1988:688) om kontaktf&#246;rbud, lagen 
+(2005:321) om tilltr&#228;desf&#246;rbud vid idrottsarrangemang eller 
+lagen (2021:34) om tilltr&#228;desf&#246;rbud till butiker, 
+badanl&#228;ggningar och bibliotek.
+
+En helt of&#246;renlig &#246;vervaknings&#229;tg&#228;rd ska anpassas genom att 
+den ers&#228;tts med en &#229;tg&#228;rd som motsvarar ett f&#246;rbud, 
+f&#246;rel&#228;ggande eller villkor som anges i f&#246;rsta stycket 1. I 
+&#246;vriga fall ska &#246;vervaknings&#229;tg&#228;rden anpassas till en &#229;tg&#228;rd 
+som motsvarar ett f&#246;rbud, f&#246;rel&#228;ggande eller villkor som anges 
+i f&#246;rsta stycket 1 eller 2.
+
+En &#229;tg&#228;rd som har anpassats ska s&#229; l&#229;ngt det &#228;r m&#246;jligt 
+motsvara &#246;vervaknings&#229;tg&#228;rden i det utl&#228;ndska beslutet och f&#229;r 
+inte vara str&#228;ngare &#228;n denna. Lag (2022:409).
+
+12 &#167; /Tr&#228;der i kraft I:2024-02-01/
+En &#246;vervaknings&#229;tg&#228;rd i ett utl&#228;ndskt beslut ska anpassas 
+om &#229;tg&#228;rden, helt eller delvis, &#228;r of&#246;renlig med 
+
+1. s&#229;dana f&#246;rbud, f&#246;rel&#228;gganden eller villkor som kan meddelas 
+enligt 25 kap. r&#228;tteg&#229;ngsbalken, eller 
+
+2. f&#246;rbud enligt lagen (1988:688) om kontaktf&#246;rbud, lagen 
+(2005:321) om tilltr&#228;desf&#246;rbud vid idrottsarrangemang, lagen 
+(2021:34) om tilltr&#228;desf&#246;rbud till butiker, badanl&#228;ggningar 
+och bibliotek eller lagen (2024:7) om preventiva 
+vistelsef&#246;rbud.
+
+En helt of&#246;renlig &#246;vervaknings&#229;tg&#228;rd ska anpassas genom att 
+den ers&#228;tts med en &#229;tg&#228;rd som motsvarar ett f&#246;rbud, 
+f&#246;rel&#228;ggande eller villkor som anges i f&#246;rsta stycket 1. I 
+&#246;vriga fall ska &#246;vervaknings&#229;tg&#228;rden anpassas till en &#229;tg&#228;rd 
+som motsvarar ett f&#246;rbud, f&#246;rel&#228;ggande eller villkor som anges 
+i f&#246;rsta stycket 1 eller 2.
+
+En &#229;tg&#228;rd som har anpassats ska s&#229; l&#229;ngt det &#228;r m&#246;jligt 
+motsvara &#246;vervaknings&#229;tg&#228;rden i det utl&#228;ndska beslutet och f&#229;r 
+inte vara str&#228;ngare &#228;n denna. Lag (2024:10).
+
+Uppf&#246;ljning i Sverige
+
+13 &#167; En uppf&#246;ljningsf&#246;rklaring som beslutats enligt 9 &#167;
+g&#228;ller omedelbart. Uppf&#246;ljningen f&#229;r p&#229;b&#246;rjas f&#246;rst n&#228;r den
+misst&#228;nkte har delgetts f&#246;rklaringen enligt 11 &#167; f&#246;rsta
+stycket och den beh&#246;riga myndigheten i den andra
+medlemsstaten har underr&#228;ttats om f&#246;rklaringen. Om anpassning
+har skett med st&#246;d av 12 &#167;, f&#229;r uppf&#246;ljningen p&#229;b&#246;rjas
+tidigast tio dagar efter en s&#229;dan underr&#228;ttelse.
+
+&#197;klagaren ansvarar f&#246;r uppf&#246;ljningen. Vid uppf&#246;ljningen f&#229;r
+&#229;klagaren anlita bitr&#228;de av Polismyndigheten.
+
+Uppf&#246;ljning f&#229;r inte ske genom elektronisk &#246;vervakning.
+
+&#214;verklagande
+
+14 &#167; &#197;klagarens beslut i fr&#229;ga om erk&#228;nnande och uppf&#246;ljning
+f&#229;r &#246;verklagas till tingsr&#228;tten av den misst&#228;nkte.
+
+&#214;verklagandet ska g&#246;ras skriftligen och ges in till &#229;klagaren
+inom tre veckor fr&#229;n den dag d&#229; den misst&#228;nkte fick del av
+beslutet. Ett &#246;verklagande som inte har kommit in i r&#228;tt tid
+ska avvisas av &#229;klagaren. Om &#246;verklagandet har kommit in till
+tingsr&#228;tten inom tiden f&#246;r &#246;verklagande, ska den
+omst&#228;ndigheten att &#246;verklagandet har kommit in till &#229;klagaren
+f&#246;rst d&#228;refter inte f&#246;ranleda att det avvisas. Om
+&#246;verklagandet inte avvisas, ska &#229;klagaren s&#228;nda det och
+&#246;vriga handlingar i &#228;rendet till tingsr&#228;tten.
+
+Beh&#246;rig tingsr&#228;tt &#228;r den tingsr&#228;tt inom vars domkrets det
+&#246;verklagade beslutet har fattats.
+
+15 &#167; R&#228;ttens handl&#228;ggning ska ske skyndsamt. &#197;klagare &#228;r
+motpart till den misst&#228;nkte sedan handlingarna i &#228;rendet har
+&#246;verl&#228;mnats till tingsr&#228;tten.
+
+Om r&#228;tten &#246;verv&#228;ger att upph&#228;va den uppf&#246;ljningsf&#246;rklaring
+som beslutats enligt 9 &#167;, ska &#229;klagaren ges tillf&#228;lle att
+yttra sig.
+
+R&#228;ttens slutliga beslut i fr&#229;ga om erk&#228;nnande och uppf&#246;ljning
+ska delges den misst&#228;nkte.
+
+Vid r&#228;ttens pr&#246;vning g&#228;ller i &#246;vrigt lagen (1996:242) om
+domstols&#228;renden.
+
+F&#246;rl&#228;ngning av tiden f&#246;r uppf&#246;ljning
+
+16 &#167; Om den beh&#246;riga myndigheten i den andra medlemsstaten
+beg&#228;r det, ska tiden f&#246;r uppf&#246;ljning f&#246;rl&#228;ngas. Beslut i
+fr&#229;ga om f&#246;rl&#228;ngning meddelas av &#229;klagaren. Beslutet ska
+delges den misst&#228;nkte.
+
+Om den tid som angetts i uppf&#246;ljningsf&#246;rklaringen eller i ett
+beslut enligt f&#246;rsta stycket &#228;r p&#229; v&#228;g att l&#246;pa ut, ska
+&#229;klagaren beg&#228;ra besked fr&#229;n den beh&#246;riga myndigheten i den
+andra medlemsstaten om huruvida uppf&#246;ljningen ska
+forts&#228;tta.
+&#196;ndring av en uppf&#246;ljningsf&#246;rklaring
+
+17 &#167; Om den beh&#246;riga myndigheten i den andra medlemsstaten
+&#228;ndrar p&#229; beslutet om &#246;vervaknings&#229;tg&#228;rder, ska
+uppf&#246;ljningsf&#246;rklaringen &#228;ndras i enlighet med den andra
+statens beslut, om f&#246;ruts&#228;ttningarna i 3 &#167; &#228;r uppfyllda. Vid
+&#228;ndring av uppf&#246;ljningsf&#246;rklaringen ska 10–13 &#167;&#167; till&#228;mpas.
+Ett beslut om att &#228;ndra uppf&#246;ljningsf&#246;rklaringen ska
+inneh&#229;lla uppgift om den &#228;ndring som har gjorts och, i
+f&#246;rekommande fall, huruvida anpassning har skett med st&#246;d av
+12 &#167;.
+
+Beslut i fr&#229;ga om &#228;ndring av en uppf&#246;ljningsf&#246;rklaring
+meddelas av &#229;klagaren.
+
+&#197;klagarens beslut i fr&#229;ga om &#228;ndring av
+uppf&#246;ljningsf&#246;rklaringen f&#229;r &#246;verklagas av den misst&#228;nkte.
+Vid &#246;verklagandet ska 14 och 15 &#167;&#167; till&#228;mpas.
+
+Upph&#228;vande av en uppf&#246;ljningsf&#246;rklaring
+
+18 &#167; En uppf&#246;ljningsf&#246;rklaring ska upph&#228;vas om
+
+1. det framkommer omst&#228;ndigheter som medf&#246;r att beslutet om
+&#246;vervaknings&#229;tg&#228;rder inte f&#229;r f&#246;ljas upp i Sverige,
+
+2. beslutet om &#246;vervaknings&#229;tg&#228;rder och intyget &#229;terkallas,
+
+3. den misst&#228;nkte inte kan p&#229;tr&#228;ffas i Sverige,
+
+4. &#229;klagaren till den andra medlemsstatens beh&#246;riga myndighet
+vid flera tillf&#228;llen har rapporterat om &#246;vertr&#228;delser av
+beslutet om &#246;vervaknings&#229;tg&#228;rder i enlighet med bilaga 2 till
+r&#229;dets rambeslut 2009/829/RIF och myndigheten i den andra
+staten, trots beg&#228;ran om detta, inte fattar n&#229;got beslut
+eller vidtar n&#229;gon annan &#229;tg&#228;rd med anledning av
+rapporteringen, eller
+
+5. det inte l&#228;ngre finns f&#246;ruts&#228;ttningar att f&#246;lja upp ett
+beslut om &#246;vervaknings&#229;tg&#228;rder till f&#246;ljd av att det i ett
+straffr&#228;ttsligt eller n&#229;got annat f&#246;rfarande har vidtagits
+tv&#229;ngs&#229;tg&#228;rder mot den misst&#228;nkte eller till f&#246;ljd av att den
+misst&#228;nkte har p&#229;b&#246;rjat verkst&#228;lligheten av en p&#229;f&#246;ljd.
+
+Beslut om upph&#228;vande av uppf&#246;ljningsf&#246;rklaringen meddelas av
+&#229;klagaren. Beslutet ska delges den misst&#228;nkte.
+
+Ett beslut om upph&#228;vande enligt f&#246;rsta stycket 1 f&#229;r
+&#246;verklagas av den misst&#228;nkte. Vid &#246;verklagandet ska 14 och
+15 &#167;&#167; till&#228;mpas.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2015:485
+
+1. Denna lag tr&#228;der i kraft den 1 augusti 2015.
+
+2. Lagen till&#228;mpas inte i f&#246;rh&#229;llande till en annan
+medlemsstat inom Europeiska unionen som inte har genomf&#246;rt
+r&#229;dets rambeslut 2009/829/RIF om till&#228;mpning mellan
+Europeiska unionens medlemsstater av principen om &#246;msesidigt
+erk&#228;nnande p&#229; beslut om &#246;vervaknings&#229;tg&#228;rder som ett
+alternativ till tillf&#228;lligt frihetsber&#246;vande.
+
+
+Bilaga
+
+G&#228;rningar som avses i 3 kap. 4 &#167; f&#246;rsta stycket 1 i lagen.
+
+1.  Deltagande i en kriminell organisation
+
+2.  Terrorism
+
+3.  M&#228;nniskohandel
+
+4.  Sexuellt utnyttjande av barn samt barnpornografi
+
+5.  Olaglig handel med narkotika och psykotropa &#228;mnen
+
+6.  Olaglig handel med vapen, ammunition och spr&#228;ng&#228;mnen
+
+7.  Korruption
+
+8.  Bedr&#228;geri, inbegripet bedr&#228;geri som riktar sig mot
+    Europeiska gemenskapernas ekonomiska intressen enligt
+    konventionen av den 26 juli 1995 om skydd av Europeiska
+    gemenskapernas finansiella intressen
+
+9.  Tv&#228;tt av vinning av brott
+
+10. Penningf&#246;rfalskning, inklusive f&#246;rfalskning av euron
+
+11. IT-brottslighet
+
+12. Milj&#246;brott, inbegripet olaglig handel med hotade
+    djurarter och hotade v&#228;xtarter och v&#228;xtsorter
+
+13. Hj&#228;lp till olovlig inresa och olovlig vistelse
+
+14. Mord och grov misshandel
+
+15. Olaglig handel med m&#228;nskliga organ och v&#228;vnader
+
+16. M&#228;nniskorov, olaga frihetsber&#246;vande och tagande av
+    gisslan
+
+17. Rasism och fr&#228;mlingsfientlighet
+
+18. Organiserad st&#246;ld eller v&#228;pnat r&#229;n
+
+19. Olaglig handel med kulturf&#246;rem&#229;l, inbegripet antikviteter
+    och konstverk
+
+20. Svindleri
+
+21. Beskyddarverksamhet och utpressning
+
+22. F&#246;rfalskning och piratkopiering
+
+23. F&#246;rfalskning av administrativa dokument och handel med
+    s&#229;dana f&#246;rfalskningar
+
+24. F&#246;rfalskning av betalningsmedel
+
+25. Olaglig handel med hormonpreparat och andra
+    tillv&#228;xtsubstanser
+
+26. Olaglig handel med nukle&#228;ra eller radioaktiva &#228;mnen
+
+27. Handel med stulna fordon
+
+28. V&#229;ldt&#228;kt
+
+29. Mordbrand
+
+30. Brott som omfattas av den internationella
+    brottm&#229;lsdomstolens beh&#246;righet
+
+31. Kapning av flygplan eller fartyg
+
+32. Sabotage</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1099">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1101">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

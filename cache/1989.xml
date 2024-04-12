@@ -1,0 +1,783 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2008-05-28" /> 
+ <meta id="rattsinfo-edited" content="2018-10-16" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1989</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1988">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1990">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2008:286 ·
+                    <a href="/sfsr?bet=2008:286">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2008:286) om kvalitets- och s&#228;kerhetsnormer vid hantering av m&#228;nskliga v&#228;vnader och celler</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2008-05-15
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:446
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2008-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Allm&#228;nna best&#228;mmelser
+
+Inneh&#229;ll och syfte
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om kvalitets- och 
+s&#228;kerhetsnormer vid hantering av m&#228;nskliga v&#228;vnader och 
+celler avsedda f&#246;r anv&#228;ndning p&#229; m&#228;nniskor eller f&#246;r 
+tillverkning av l&#228;kemedel avsedda f&#246;r anv&#228;ndning p&#229; 
+m&#228;nniskor. Lagen inneh&#229;ller &#228;ven best&#228;mmelser om import av 
+v&#228;vnadsprodukter.
+
+Syftet med lagen &#228;r att skydda m&#228;nniskors h&#228;lsa.
+Lag (2017:224).
+
+Definitioner
+
+2 &#167; I denna lag anv&#228;nds f&#246;ljande beteckningar med nedan 
+angiven betydelse.
+
+Allvarlig avvikande h&#228;ndelse	H&#228;ndelse i samband med 
+				tillvaratagande, kontroll, 
+				bearbetning, f&#246;rvaring och 
+				distribution av v&#228;vnader och 
+				celler som kan
+
+				1. leda till &#246;verf&#246;ring av en 
+				smittsam sjukdom eller till 
+				d&#246;den, 
+
+				2. vara livshotande, vara 
+				invalidiserande eller medf&#246;ra 
+				betydande funktionsneds&#228;ttning 
+				f&#246;r patienten, eller
+
+				3. leda till eller f&#246;rl&#228;nga 
+				sjukdom eller behov av 
+				sjukhusv&#229;rd.	
+
+Allvarlig biverkning		S&#229;dan icke avsedd reaktion, 
+				inbegripet smittsam sjukdom, 
+				hos givare eller mottagare i 
+				samband med att v&#228;vnader och 
+				celler tillvaratas fr&#229;n givare 
+				eller anv&#228;nds p&#229; mottagare, som 
+				kan leda till d&#246;den, livshotande 
+				eller invalidiserande tillst&#229;nd 
+				eller som medf&#246;r betydande 
+				funktionsneds&#228;ttning eller leder 
+				till eller f&#246;rl&#228;nger sjukdom 
+				eller behov av sjukhusv&#229;rd.
+
+Celler				Enskilda m&#228;nskliga celler eller 
+				en grupp m&#228;nskliga celler, som 
+				inte &#228;r f&#246;renade av n&#229;got slag 
+				av bindv&#228;v.
+
+Organ				En differentierad och vital del 
+				av m&#228;nniskokroppen best&#229;ende av 
+				olika sorters v&#228;vnad, vilken 
+				uppr&#228;tth&#229;ller sin struktur, 
+				k&#228;rlbildning och f&#246;rm&#229;ga att 
+				utveckla fysiologiska 
+				funktioner med en betydande 
+				grad av autonomi.
+
+Organisation f&#246;r 
+tillvaratagande			En v&#229;rdinr&#228;ttning, en avdelning 
+				p&#229; ett sjukhus eller en annan 
+				inr&#228;ttning som tillvaratar 
+				m&#228;nskliga v&#228;vnader eller 
+				celler, och som inte beh&#246;ver ha 
+				tillst&#229;nd att bedrivas som en 
+				v&#228;vnadsinr&#228;ttning.
+
+Organisation med ansvar f&#246;r 
+anv&#228;ndning p&#229; m&#228;nniska		En v&#229;rdinr&#228;ttning, en avdelning 
+				p&#229; ett sjukhus eller en annan 
+				inr&#228;ttning som anv&#228;nder 
+				m&#228;nskliga v&#228;vnader eller celler 
+				p&#229; m&#228;nniska.
+
+Tredjeland			En stat som varken ing&#229;r i 
+				Europeiska unionen eller &#228;r 
+				ansluten till Europeiska 
+				ekonomiska samarbetsomr&#229;det. 
+
+V&#228;vnad				Alla de best&#229;ndsdelar av 
+				m&#228;nniskokroppen som best&#229;r av 
+				celler.
+
+V&#228;vnadsinr&#228;ttning		Inr&#228;ttning d&#228;r fysisk eller 
+				juridisk person 
+
+				1. bedriver verksamhet som 
+				innefattar kontroll, bearbetning, 
+				konservering, f&#246;rvaring eller 
+				distribution av m&#228;nskliga 
+				v&#228;vnader eller celler avsedda 
+				f&#246;r anv&#228;ndning p&#229; m&#228;nniskor 
+				eller f&#246;r tillverkning av 
+				l&#228;kemedel avsedda f&#246;r anv&#228;ndning 
+				p&#229; m&#228;nniskor, och som ocks&#229; kan 
+				innefatta tillvaratagande eller 
+				export av m&#228;nskliga v&#228;vnader 
+				eller celler, eller 
+
+				2. har ing&#229;tt avtal med en 
+				leverant&#246;r i ett tredjeland om 
+				import av m&#228;nskliga v&#228;vnader 
+				eller celler avsedda f&#246;r 
+				anv&#228;ndning p&#229; m&#228;nniskor eller 
+				f&#246;r tillverkning av l&#228;kemedel 
+				avsedda f&#246;r anv&#228;ndning p&#229; 
+				m&#228;nniskor eller om import av 
+				en v&#228;vnadsprodukt.
+
+V&#228;vnadsprodukt			En produkt som &#228;r tillverkad 
+				av m&#228;nskliga v&#228;vnader eller 
+				celler avsedd f&#246;r anv&#228;ndning 
+				p&#229; m&#228;nniskor som inte &#228;r ett 
+				l&#228;kemedel och inte heller &#228;r 
+				en produkt som omfattas av n&#229;gon 
+				annan EU-r&#228;ttsakt &#228;n 
+				kommissionens direktiv (EU) 
+				2015/566 av den 8 april 2015 om 
+				genomf&#246;rande av direktiv 
+				2004/23/EG vad g&#228;ller 
+				f&#246;rfarandena f&#246;r kontroll av 
+				likv&#228;rdiga kvalitets- och 
+				s&#228;kerhetsnormer f&#246;r importerade 
+				v&#228;vnader och celler.
+Lag (2017:224).
+
+Till&#228;mpningsomr&#229;de
+
+3 &#167; Lagen &#228;r till&#228;mplig p&#229; verksamhet vid v&#228;vnadsinr&#228;ttningar.
+Best&#228;mmelsen om anm&#228;lningsplikt i 20 a &#167; till&#228;mpas &#228;ven p&#229;
+verksamhet vid organisationer f&#246;r tillvaratagande och
+best&#228;mmelserna om anm&#228;lningsplikt i 20 b &#167; och om
+uppgiftsskyldighet i 21 a &#167; till&#228;mpas &#228;ven p&#229; verksamhet vid
+organisationer med ansvar f&#246;r anv&#228;ndning p&#229; m&#228;nniska.
+Lag (2008:1060).
+
+4 &#167; Lagen &#228;r inte till&#228;mplig vid forskning d&#228;r m&#228;nskliga
+v&#228;vnader och celler anv&#228;nds f&#246;r annat syfte &#228;n f&#246;r anv&#228;ndning
+p&#229; m&#228;nniskor.
+
+5 &#167; Lagen &#228;r inte till&#228;mplig
+
+1. n&#228;r v&#228;vnader och celler tas fr&#229;n och anv&#228;nds p&#229; samma
+m&#228;nniska vid samma kirurgiska ingrepp, eller
+
+2. p&#229; organ eller delar av organ, som ska anv&#228;ndas f&#246;r samma
+&#228;ndam&#229;l som ett helt organ i m&#228;nniskokroppen.
+
+F&#246;rh&#229;llandet till best&#228;mmelser i annan lag
+
+6 &#167; Denna lag g&#228;ller inte n&#228;r lagen (2006:496) om blods&#228;kerhet
+&#228;r till&#228;mplig.
+
+7 &#167; Vid bearbetning, konservering, f&#246;rvaring och distribution 
+av m&#228;nskliga v&#228;vnader och celler som &#228;r avsedda att anv&#228;ndas 
+f&#246;r framst&#228;llning av l&#228;kemedel g&#228;ller i st&#228;llet 
+l&#228;kemedelslagen (2015:315). Lag (2015:322).
+
+F&#246;rh&#229;llandet till annan dataskyddsreglering
+
+8 &#167; Denna lag inneh&#229;ller best&#228;mmelser som kompletterar 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2016/679 av den 
+27 april 2016 om skydd f&#246;r fysiska personer med avseende p&#229; 
+behandling av personuppgifter och om det fria fl&#246;det av 
+s&#229;dana uppgifter och om upph&#228;vande av direktiv 95/46/EG 
+(allm&#228;n dataskyddsf&#246;rordning).
+
+Vid behandling av personuppgifter enligt denna lag g&#228;ller 
+lagen (2018:218) med kompletterande best&#228;mmelser till EU:s 
+dataskyddsf&#246;rordning och f&#246;reskrifter som har meddelats i 
+anslutning till den lagen, om inte annat f&#246;ljer av denna lag 
+eller f&#246;reskrifter som har meddelats i anslutning till 
+lagen. Lag (2018:446).
+
+Tillst&#229;nd och villkor
+
+9 &#167; Verksamhet vid en v&#228;vnadsinr&#228;ttning f&#229;r bedrivas endast av
+den som har tillst&#229;nd. Tillst&#229;ndet ska vara tidsbegr&#228;nsat och
+f&#246;renat med villkor.
+
+Tillst&#229;nd f&#229;r meddelas endast om verksamheten h&#229;ller en h&#246;g
+kvalitet och s&#228;kerhet.
+
+Den som bedriver en v&#228;vnadsinr&#228;ttning ska systematiskt och
+fortl&#246;pande utveckla och s&#228;kra verksamheten.
+
+10 &#167; Regeringen meddelar f&#246;reskrifter om vilken eller vilka
+myndigheter som beslutar om tillst&#229;nd till att bedriva en
+v&#228;vnadsinr&#228;ttning och de villkor som ska g&#228;lla f&#246;r
+verksamheten.
+
+11 &#167; Den som bedriver en v&#228;vnadsinr&#228;ttning f&#229;r inte g&#246;ra n&#229;gon
+v&#228;sentlig f&#246;r&#228;ndring av verksamheten utan att
+tillst&#229;ndsmyndigheten i f&#246;rv&#228;g har l&#228;mnat ett skriftligt
+godk&#228;nnande av f&#246;r&#228;ndringen.
+
+12 &#167; Om en v&#228;vnadsinr&#228;ttning uppdrar &#229;t n&#229;gon annan att utf&#246;ra
+visst arbete f&#246;r inr&#228;ttningens r&#228;kning, ska inr&#228;ttningen
+uppr&#228;tta ett skriftligt avtal med uppdragstagaren om det finns
+risk f&#246;r att arbetet kan komma att p&#229;verka v&#228;vnadernas och
+cellernas kvalitet och s&#228;kerhet.
+
+Det ska framg&#229; av avtalet vilka skyldigheter uppdragstagaren
+har gentemot v&#228;vnadsinr&#228;ttningen.
+
+13 &#167; Vid en v&#228;vnadsinr&#228;ttning ska det finnas n&#229;gon som svarar
+f&#246;r verksamheten (verksamhetschef).
+
+Verksamhetschefen ska vara en s&#228;rskilt utsedd befattningshavare
+med tillr&#228;cklig kompetens och erfarenhet.
+
+Verksamhetschefen f&#229;r uppdra &#229;t s&#229;dana befattningshavare inom
+verksamheten som har tillr&#228;cklig kompetens och erfarenhet att
+utf&#246;ra vissa ledningsuppgifter.
+
+Import och export
+
+13 a &#167; En v&#228;vnadsinr&#228;ttning som avser att importera m&#228;nskliga 
+v&#228;vnader och celler som tillvaratas, kontrolleras, bearbetas, 
+konserveras eller f&#246;rvaras i ett tredjeland, eller avser att 
+importera en v&#228;vnadsprodukt fr&#229;n ett tredjeland, ska ing&#229; ett 
+skriftligt avtal med ber&#246;rd leverant&#246;r.
+
+Avtalet ska precisera de krav som ska uppfyllas f&#246;r att 
+s&#228;kerst&#228;lla att kvalitets- och s&#228;kerhetsnormerna f&#246;r det som 
+ska importeras &#228;r likv&#228;rdiga med de normer som g&#228;ller enligt 
+denna lag och f&#246;reskrifter som meddelats med st&#246;d av denna 
+lag. Lag (2017:224).
+
+14 &#167; Endast v&#228;vnadsinr&#228;ttningar som har beviljats tillst&#229;nd 
+till export enligt 9 &#167; f&#229;r exportera v&#228;vnader och celler till 
+ett tredjeland. Lag (2017:224).
+
+14 a &#167; Regeringen eller den myndighet som regeringen 
+best&#228;mmer f&#229;r meddela f&#246;reskrifter om undantag fr&#229;n kraven i 
+denna lag och i f&#246;reskrifter meddelade i anslutning till 
+lagen n&#228;r det g&#228;ller export av v&#228;vnader eller celler till ett 
+tredjeland eller import av v&#228;vnader, celler eller 
+v&#228;vnadsprodukter fr&#229;n ett tredjeland. 
+
+Den myndighet som regeringen best&#228;mmer f&#229;r i enskilda fall 
+besluta om undantag fr&#229;n s&#229;dana krav. Beslut f&#229;r f&#246;renas med 
+s&#228;rskilda villkor. Lag (2017:224).
+
+Tillsyn m.m.
+
+15 &#167; Regeringen meddelar f&#246;reskrifter om vilken eller vilka
+myndigheter som ut&#246;var tillsyn &#246;ver efterlevnaden av denna lag
+och av de f&#246;reskrifter och villkor som har meddelats i
+anslutning till lagen.
+
+16 &#167; En tillsynsmyndighet har r&#228;tt att p&#229; beg&#228;ran f&#229; de
+upplysningar, handlingar, prover och annat material som beh&#246;vs
+f&#246;r tillsynen.
+
+Har flera tillsynsmyndigheter utsetts, ska de l&#228;mna varandra de
+uppgifter som de beh&#246;ver f&#246;r tillsynen.
+
+17 &#167; En tillsynsmyndighet ska regelbundet inspektera och
+kontrollera v&#228;vnadsinr&#228;ttningar. Det f&#229;r inte g&#229; l&#228;ngre tid &#228;n
+tv&#229; &#229;r mellan inspektionerna.
+
+Tillsynsmyndigheten ska dessutom vid behov inspektera och
+kontrollera v&#228;vnadsinr&#228;ttningar, om allvarlig biverkning hos
+givare eller mottagare uppkommit eller allvarligt avvikande
+h&#228;ndelse intr&#228;ffat.
+
+Tillsynsmyndigheten har r&#228;tt till tilltr&#228;de till omr&#229;den,
+lokaler och andra utrymmen som anv&#228;nds i verksamheten och f&#229;r i
+s&#229;dana utrymmen g&#246;ra unders&#246;kningar. Den vars verksamhet
+inspekteras &#228;r skyldig att l&#228;mna den hj&#228;lp som beh&#246;vs vid
+inspektionen.
+
+18 &#167; En tillsynsmyndighet f&#229;r meddela de f&#246;rel&#228;gganden som
+beh&#246;vs f&#246;r genomf&#246;rande av tillsyn, inspektioner och
+kontroller. Ett f&#246;rel&#228;ggande f&#229;r f&#246;renas med vite.
+
+19 &#167; Vid inspektion enligt denna lag har den som utf&#246;r
+inspektionen r&#228;tt att av Polismyndigheten f&#229; den hj&#228;lp som
+beh&#246;vs f&#246;r att inspektionen ska kunna genomf&#246;ras.
+
+Beg&#228;ran om hj&#228;lp enligt f&#246;rsta stycket f&#229;r g&#246;ras endast om
+
+1. det p&#229; grund av s&#228;rskilda omst&#228;ndigheter kan befaras att
+&#229;tg&#228;rden inte kan utf&#246;ras utan att en polismans s&#228;rskilda
+befogenheter enligt 10 &#167; polislagen (1984:387) beh&#246;ver
+tillgripas, eller
+
+2. det annars finns synnerliga sk&#228;l.
+Lag (2014:767).
+
+Anm&#228;lan av allvarliga biverkningar och allvarliga avvikande
+h&#228;ndelser
+
+20 &#167; Verksamhetschefen ska se till att misst&#228;nkta eller
+konstaterade allvarliga biverkningar och allvarliga avvikande
+h&#228;ndelser anm&#228;ls till tillsynsmyndigheten utan dr&#246;jsm&#229;l.
+
+20 a &#167; En organisation f&#246;r tillvaratagande ska till den
+v&#228;vnadsinr&#228;ttning som har tagit emot v&#228;vnaderna eller cellerna
+utan dr&#246;jsm&#229;l anm&#228;la varje misst&#228;nkt eller konstaterad
+
+a) allvarlig biverkning hos levande givare som kan p&#229;verka
+v&#228;vnadernas eller cellernas kvalitet och s&#228;kerhet, och
+
+b) allvarlig avvikande h&#228;ndelse under tillvaratagandet som kan
+p&#229;verka de m&#228;nskliga v&#228;vnadernas eller cellernas kvalitet och
+s&#228;kerhet. Lag (2008:1060).
+
+20 b &#167; En organisation med ansvar f&#246;r anv&#228;ndning p&#229; m&#228;nniska
+ska till den v&#228;vnadsinr&#228;ttning som har distribuerat v&#228;vnaderna
+eller cellerna utan dr&#246;jsm&#229;l anm&#228;la varje misst&#228;nkt eller
+konstaterad
+
+a) allvarlig biverkning som iakttagits under eller efter den
+kliniska anv&#228;ndningen och som kan h&#228;nf&#246;ras till v&#228;vnadernas
+eller cellernas kvalitet och s&#228;kerhet, och
+
+b) allvarlig avvikande h&#228;ndelse som kan p&#229;verka v&#228;vnadernas
+eller cellernas kvalitet och s&#228;kerhet. Lag (2008:1060).
+
+Register
+
+21 &#167; Den som har tillst&#229;nd att bedriva en v&#228;vnadsinr&#228;ttning ska
+f&#246;ra ett register med uppgifter om
+
+1. sin verksamhet,
+
+2. givare och mottagare av m&#228;nskliga v&#228;vnader och celler, och
+
+3. kontroller som utf&#246;rts av m&#228;nskliga v&#228;vnader och celler.
+
+Registret f&#229;r ha till &#228;ndam&#229;l endast att s&#228;kerst&#228;lla sp&#229;rbarhet
+av m&#228;nskliga v&#228;vnader och celler f&#246;r att f&#246;rhindra &#246;verf&#246;ring
+av sjukdomar. Registret f&#229;r f&#246;ras med hj&#228;lp av automatiserad
+behandling.
+
+Registret f&#229;r i fr&#229;ga om personuppgifter inneh&#229;lla uppgifter
+endast om
+
+1. givarens identitet,
+
+2. givarens uppgivna sjukdomshistoria,
+
+3. resultatet av unders&#246;kningar p&#229; givaren och av kontroller av
+de m&#228;nskliga v&#228;vnaderna och cellerna, och
+
+4. mottagarens identitet.
+
+Uppgifterna i registret ska gallras 30 &#229;r efter inf&#246;randet.
+
+Den som har tillst&#229;nd att bedriva en v&#228;vnadsinr&#228;ttning &#228;r
+personuppgiftsansvarig f&#246;r registret. Lag (2008:1060).
+
+21 a &#167; En organisation med ansvar f&#246;r anv&#228;ndning p&#229; m&#228;nniska
+ska l&#228;mna uppgifter om mottagarens identitet till den
+v&#228;vnadsinr&#228;ttning som har distribuerat v&#228;vnaderna eller
+cellerna. Lag (2008:1060).
+
+22 &#167; Regeringen, eller den myndighet som regeringen best&#228;mmer,
+f&#229;r meddela f&#246;reskrifter om att uppgifterna i det register som
+anges i 21 &#167; ska bevaras under en l&#228;ngre tid &#228;n vad som s&#228;gs
+d&#228;r.
+
+23 &#167; Inspektionen f&#246;r v&#229;rd och omsorg ska med hj&#228;lp av
+automatiserad behandling f&#246;ra ett register &#246;ver dem som har
+tillst&#229;nd att bedriva en v&#228;vnadsinr&#228;ttning. Registret har till
+&#228;ndam&#229;l att ge offentlighet &#229;t vilka v&#228;vnadsinr&#228;ttningar som
+har tillst&#229;nd och f&#246;r vilken verksamhet dessa har beviljats
+tillst&#229;nd.
+
+Registret f&#229;r ocks&#229; anv&#228;ndas f&#246;r tillsyn, forskning och
+statistik.
+
+Registret f&#229;r i fr&#229;ga om personuppgifter inneh&#229;lla uppgifter
+endast om den som har tillst&#229;nd att bedriva en
+v&#228;vnadsinr&#228;ttning och om verksamhetschefen.
+
+Inspektionen f&#246;r v&#229;rd och omsorg &#228;r personuppgiftsansvarig f&#246;r
+registret. Lag (2012:953).
+
+24 &#167; Regeringen meddelar f&#246;reskrifter om vilken myndighet som
+ska l&#228;mna de uppgifter till Inspektionen f&#246;r v&#229;rd och omsorg
+som &#228;r n&#246;dv&#228;ndiga f&#246;r att inspektionen ska kunna f&#246;ra register
+enligt 23 &#167;.
+
+Regeringen meddelar f&#246;reskrifter om vilka myndigheter som f&#229;r
+ha direkt&#229;tkomst till uppgifterna i Inspektionen f&#246;r v&#229;rd och
+omsorgs register. Lag (2012:953).
+
+25 &#167; Regeringen, eller den myndighet som regeringen best&#228;mmer,
+meddelar n&#228;rmare f&#246;reskrifter om vilka uppgifter registren i 21
+och 23 &#167;&#167; ska inneh&#229;lla.
+
+26 &#167; Har upph&#228;vts genom lag (2018:446).
+
+Tystnadsplikt
+
+27 &#167; Den som tillh&#246;r eller har tillh&#246;rt personal inom en 
+enskilt bedriven v&#228;vnadsinr&#228;ttning d&#228;r det sker 
+tillvaratagande och kontroll av m&#228;nskliga v&#228;vnader och celler 
+avsedda att anv&#228;ndas vid tillverkning av l&#228;kemedel avsedda 
+f&#246;r anv&#228;ndning p&#229; m&#228;nniskor eller import av v&#228;vnadsprodukter, 
+f&#229;r inte obeh&#246;rigen r&#246;ja vad han eller hon i verksamheten har 
+f&#229;tt veta om en enskild givares h&#228;lsotillst&#229;nd eller andra 
+personliga f&#246;rh&#229;llanden. Som obeh&#246;rigt r&#246;jande anses inte att 
+n&#229;gon fullg&#246;r uppgiftsskyldighet som f&#246;ljer av lag eller 
+f&#246;rordning.
+
+I verksamhet inom den enskilda h&#228;lso- och sjukv&#229;rden 
+till&#228;mpas best&#228;mmelserna i 6 kap. 12 &#167; patients&#228;kerhetslagen 
+(2010:659).
+
+F&#246;r det allm&#228;nnas verksamhet g&#228;ller best&#228;mmelserna i 
+offentlighets- och sekretesslagen (2009:400).
+Lag (2017:224).
+
+Avgifter
+
+28 &#167; Den som ans&#246;ker om tillst&#229;nd enligt 9 &#167; ska betala
+ans&#246;kningsavgift. S&#229; l&#228;nge ett tillst&#229;nd g&#228;ller ska &#228;ven
+&#229;rsavgift betalas.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om avgifternas storlek.
+
+&#197;terkallelse av tillst&#229;nd m.m.
+
+29 &#167; Om en tillsynsmyndighet f&#229;r k&#228;nnedom om att n&#229;gon brutit
+mot en best&#228;mmelse som g&#228;ller verksamhet som st&#229;r under
+myndighetens tillsyn enligt denna lag, ska myndigheten vidta
+&#229;tg&#228;rder f&#246;r att vinna r&#228;ttelse.
+
+30 &#167; Om en tillsynsmyndighet finner att en v&#228;vnadsinr&#228;ttning
+inte uppfyller kraven enligt denna lag eller de f&#246;reskrifter
+som meddelats med st&#246;d av lagen, f&#229;r myndigheten f&#246;rel&#228;gga
+v&#228;vnadsinr&#228;ttningen att avhj&#228;lpa missf&#246;rh&#229;llandena.
+F&#246;rel&#228;ggandet f&#229;r f&#246;renas med vite.
+
+Ett f&#246;rel&#228;ggande enligt f&#246;rsta stycket ska inneh&#229;lla uppgifter
+om de &#229;tg&#228;rder som tillsynsmyndigheten anser b&#246;r vidtas f&#246;r att
+de p&#229;talade missf&#246;rh&#229;llandena ska kunna avhj&#228;lpas.
+
+31 &#167; Om ett f&#246;rel&#228;ggande enligt 30 &#167; inte f&#246;ljs och om
+missf&#246;rh&#229;llandena &#228;r allvarliga, f&#229;r tillsynsmyndigheten
+&#229;terkalla tillst&#229;ndet att bedriva en v&#228;vnadsinr&#228;ttning.
+
+Om det finns sannolika sk&#228;l f&#246;r att ett tillst&#229;nd kommer att
+&#229;terkallas enligt f&#246;rsta stycket och ett s&#229;dant beslut inte kan
+avvaktas, f&#229;r tillsynsmyndigheten besluta om &#229;terkallelse av
+tillst&#229;ndet tills vidare i avvaktan p&#229; slutligt avg&#246;rande.
+
+Beslut enligt andra stycket g&#228;ller i h&#246;gst sex m&#229;nader. Om det
+finns synnerliga sk&#228;l, f&#229;r beslutets giltighetstid f&#246;rl&#228;ngas
+med ytterligare h&#246;gst sex m&#229;nader.
+
+32 &#167; Om det &#228;r fara f&#246;r m&#228;nniskors liv eller h&#228;lsa, f&#229;r
+tillsynsmyndigheten utan f&#246;reg&#229;ende f&#246;rel&#228;ggande &#229;terkalla
+tillst&#229;ndet att bedriva en v&#228;vnadsinr&#228;ttning.
+
+33 &#167; En tillsynsmyndighet som f&#229;r k&#228;nnedom om att verksamhet
+bedrivs utan tillst&#229;nd enligt 9 &#167; ska anm&#228;la detta till
+Polismyndigheten eller till &#197;klagarmyndigheten om det finns
+misstanke om brott. Lag (2014:767).
+
+Ansvar m.m.
+
+34 &#167; Den som upps&#229;tligen bedriver en v&#228;vnadsinr&#228;ttning utan
+tillst&#229;nd enligt 9 &#167; d&#246;ms till b&#246;ter eller f&#228;ngelse i h&#246;gst ett
+&#229;r. I ringa fall ska inte d&#246;mas till ansvar.
+
+35 &#167; M&#228;nskliga v&#228;vnader eller celler som varit f&#246;rem&#229;l f&#246;r
+brott enligt denna lag eller v&#228;rdet d&#228;rav samt utbyte av s&#229;dant
+brott ska f&#246;rklaras f&#246;rverkade, om det inte &#228;r uppenbart
+osk&#228;ligt.
+
+F&#246;rsta stycket g&#228;ller &#228;ven k&#228;rl eller utrustning d&#228;r m&#228;nskliga
+v&#228;vnader eller celler f&#246;rvarats.
+
+&#214;verklagande m.m.
+
+36 &#167; En myndighets beslut enligt denna lag f&#229;r &#246;verklagas hos
+allm&#228;n f&#246;rvaltningsdomstol, om beslutet g&#228;ller
+
+1. tillst&#229;nd eller &#229;terkallelse av tillst&#229;nd enligt 9, 31 eller
+32 &#167;, eller
+
+2. f&#246;rel&#228;ggande enligt 18 eller 30 &#167;.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+37 &#167; Beslut som en tillst&#229;nds- eller tillsynsmyndighet,
+f&#246;rvaltningsr&#228;tt eller kammarr&#228;tt meddelar enligt denna lag
+g&#228;ller omedelbart, om inte annat anges i beslutet.
+Lag (2009:855).
+
+Ytterligare bemyndigande
+
+38 &#167; Regeringen, eller den myndighet som regeringen best&#228;mmer,
+f&#229;r meddela ytterligare f&#246;reskrifter om v&#228;vnadsinr&#228;ttningar och
+hanteringen av m&#228;nskliga v&#228;vnader och celler som beh&#246;vs till
+skydd f&#246;r liv eller h&#228;lsa.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2008:286
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2008.
+
+2. En v&#228;vnadsinr&#228;ttning som har inr&#228;ttats f&#246;re lagens
+ikrafttr&#228;dande f&#229;r forts&#228;tta att bedriva sin verksamhet, om
+verksamhetschefen senast den 1 december 2008 ans&#246;ker om
+tillst&#229;nd som s&#228;gs i 9 &#167;. Verksamheten f&#229;r efter en s&#229;dan
+ans&#246;kan forts&#228;tta i avvaktan p&#229; tillst&#229;ndsmyndighetens eller
+domstols beslut.
+
+2012:953
+
+1. Denna lag tr&#228;der i kraft den 1 juni 2013.
+
+2. Vid till&#228;mpning av 7 a &#167; f&#246;rvaltningsprocesslagen
+(1971:291) ska Inspektionen f&#246;r v&#229;rd och omsorg vara den
+enskildes motpart, om inspektionen efter ikrafttr&#228;dandet &#228;r
+beh&#246;rig att handl&#228;gga den typ av fr&#229;ga som &#228;r f&#246;rem&#229;l f&#246;r
+pr&#246;vning.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1988">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1990">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,641 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2020-01-27" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3749</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3748">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3750">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1985:125 ·
+                    <a href="/sfsr?bet=1985:125">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Tandv&#229;rdslag (1985:125)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1985-03-14
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:860
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1986-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelse
+
+1 &#167; Med tandv&#229;rd avses i denna lag &#229;tg&#228;rder f&#246;r att f&#246;rebygga,
+utreda och behandla sjukdomar och skador i munh&#229;lan.
+
+M&#229;l f&#246;r tandv&#229;rden
+
+2 &#167; M&#229;let f&#246;r tandv&#229;rden &#228;r en god tandh&#228;lsa och en tandv&#229;rd p&#229; lika
+villkor f&#246;r hela befolkningen.
+
+Krav p&#229; tandv&#229;rden
+
+3 &#167; Tandv&#229;rden ska bedrivas s&#229; att den uppfyller kravet p&#229; en
+god tandv&#229;rd. Detta inneb&#228;r att den ska
+
+1. vara av god kvalitet med en god hygienisk standard och
+l&#228;gga s&#228;rskild vikt vid f&#246;rebyggande &#229;tg&#228;rder,
+
+2. tillgodose patientens behov av trygghet i v&#229;rden och
+behandlingen,
+
+3. vara l&#228;tt tillg&#228;nglig,
+
+4. bygga p&#229; respekt f&#246;r patientens sj&#228;lvbest&#228;mmande och
+integritet,
+
+5. fr&#228;mja goda kontakter mellan patienten och
+tandv&#229;rdspersonalen.
+
+Akuta fall ska behandlas med f&#246;rtur.
+
+N&#228;r tandv&#229;rd ges till barn ska barnets b&#228;sta s&#228;rskilt
+beaktas.
+
+Best&#228;mmelser om skyldighet att anm&#228;la till socialn&#228;mnden att
+ett barn kan beh&#246;va n&#228;mndens skydd finns i 14 kap. 1 &#167;
+socialtj&#228;nstlagen (2001:453). Lag (2014:823).
+
+3 a &#167; V&#229;rden och behandlingen ska s&#229; l&#229;ngt som m&#246;jligt
+utformas och genomf&#246;ras i samr&#229;d med patienten.
+
+N&#228;r patienten &#228;r ett barn ska barnets inst&#228;llning till den
+aktuella &#229;tg&#228;rden s&#229; l&#229;ngt som m&#246;jligt klarl&#228;ggas. Barnets
+inst&#228;llning ska tillm&#228;tas betydelse i f&#246;rh&#229;llande till hans
+eller hennes &#229;lder och mognad. Lag (2014:823).
+
+3 b &#167; Patienten ska f&#229; information om sitt tandh&#228;lsotillst&#229;nd
+och om de behandlingsmetoder som st&#229;r till buds.
+
+N&#228;r patienten &#228;r ett barn ska &#228;ven patientens v&#229;rdnadshavare
+f&#229; information enligt f&#246;rsta stycket. Informationen f&#229;r inte
+l&#228;mnas om best&#228;mmelser om sekretess eller tystnadsplikt
+hindrar detta. Lag (2014:823).
+
+3 c &#167; Om kostnaden f&#246;r tandv&#229;rdsbehandlingen av en patient 
+ska ers&#228;ttas i enlighet med Europaparlamentets och r&#229;dets 
+direktiv 2011/24/EU av den 9 mars 2011 om till&#228;mpning av 
+patientr&#228;ttigheter vid gr&#228;ns&#246;verskridande h&#228;lso- och 
+sjukv&#229;rd, i den ursprungliga lydelsen, ska v&#229;rdgivaren 
+informera patienten om
+
+1. att tandv&#229;rden och dess personal st&#229;r under tillsyn av 
+Inspektionen f&#246;r v&#229;rd och omsorg (IVO),
+
+2. det register om anm&#228;lan av verksamhet m.m. som f&#246;rs av IVO 
+enligt 2 kap. patients&#228;kerhetslagen (2010:659), och
+
+3. m&#246;jligheten att beg&#228;ra ers&#228;ttning enligt patientskadelagen 
+(1996:799) eller fr&#229;n l&#228;kemedelsf&#246;rs&#228;kringen och om 
+patientn&#228;mndernas verksamhet. Lag (2016:656).
+
+4 &#167; V&#229;rdgivaren f&#229;r ta ut ers&#228;ttning f&#246;r unders&#246;kning och
+tandbehandling. Ers&#228;ttningen ska vara sk&#228;lig med h&#228;nsyn
+till behandlingens art, omfattning och utf&#246;rande samt
+omst&#228;ndigheterna i &#246;vrigt. I 15 a &#167; finns s&#228;rskilda
+best&#228;mmelser om avgifter.
+
+Innan en unders&#246;kning eller viss behandling p&#229;b&#246;rjas ska
+v&#229;rdgivaren upplysa patienten om kostnaden f&#246;r &#229;tg&#228;rden.
+Om en f&#246;ljd av behandlingar beh&#246;vs ska v&#229;rdgivaren upplysa
+patienten om de ber&#228;knade sammanlagda kostnaderna f&#246;r
+behandlingarna. Om f&#246;ruts&#228;ttningarna f&#246;r
+behandlingsf&#246;rslaget eller kostnadsber&#228;kningen &#228;ndras ska
+patienten upplysas om detta och om anledningen till
+&#228;ndringen.
+
+V&#229;rdgivaren &#228;r skyldig att p&#229; beg&#228;ran av patienten ge
+honom eller henne ett intyg med uppgifter om vilka
+material som anv&#228;nts vid protetiska arbeten och andra
+behandlingar som syftat till att permanent ers&#228;tta
+f&#246;rlorad v&#228;vnad. Lag (2011:1188).
+
+4 a &#167; D&#228;r det bedrivs tandv&#229;rdsverksamhet skall det finnas den
+personal, de lokaler och den utrustning som beh&#246;vs f&#246;r att god v&#229;rd
+skall kunna ges. Lag (1996:788).
+
+4 b &#167; V&#229;rdgivaren ska tillhandah&#229;lla en specificerad faktura 
+avseende kostnaderna f&#246;r den tandv&#229;rd en patient tagit emot 
+om patienten avser att beg&#228;ra ers&#228;ttning f&#246;r sina kostnader 
+f&#246;r v&#229;rden i enlighet med Europaparlamentets och r&#229;dets 
+direktiv 2011/24/EU av den 9 mars 2011 om till&#228;mpning av 
+patientr&#228;ttigheter vid gr&#228;ns&#246;verskridande h&#228;lso- och 
+sjukv&#229;rd, i den ursprungliga lydelsen. Lag (2016:656).
+
+Tandv&#229;rd som bedrivs av regioner
+
+Regionens ansvar
+
+5 &#167; Varje region ska erbjuda en god tandv&#229;rd &#229;t dem som &#228;r 
+bosatta inom regionen. Detsamma g&#228;ller dem som har skyddad 
+folkbokf&#246;ring enligt 16 &#167; folkbokf&#246;ringslagen (1991:481) och 
+stadigvarande vistas inom regionen. &#196;ven i &#246;vrigt ska regionen 
+verka f&#246;r en god tandh&#228;lsa hos befolkningen. Tandv&#229;rd som 
+regionen sj&#228;lv bedriver ben&#228;mns i denna lag folktandv&#229;rd. 
+
+Vad som i denna lag s&#228;gs om regioner g&#228;ller ocks&#229; kommuner som 
+inte ing&#229;r i en region. 
+
+En region f&#229;r sluta avtal med n&#229;gon annan om att utf&#246;ra de 
+uppgifter som regionen och dess folktandv&#229;rd ansvarar f&#246;r 
+enligt denna lag. Uppgifter som innefattar myndighetsut&#246;vning 
+f&#229;r dock inte med st&#246;d av denna best&#228;mmelse &#246;verl&#228;mnas till en 
+juridisk person eller en enskild individ. Lag (2019:860).
+
+5 a &#167; Regionen ska &#228;ven erbjuda en god tandv&#229;rd &#229;t dem som, 
+utan att vara bosatta i Sverige, har r&#228;tt till v&#229;rdf&#246;rm&#229;ner i 
+Sverige vid sjukdom enligt vad som f&#246;ljer av 
+Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 883/2004 av 
+den 29 april 2004 om samordning av de sociala trygghets-
+systemen. Detsamma ska g&#228;lla f&#246;r den som avses i 5 kap. 7 &#167; 
+f&#246;rsta stycket socialf&#246;rs&#228;kringsbalken och som omfattas av 
+n&#228;mnda f&#246;rordning. Tandv&#229;rden ska i dessa fall erbjudas av den 
+region inom vars omr&#229;de personen &#228;r f&#246;rv&#228;rvsverksam eller, n&#228;r 
+det g&#228;ller en person som &#228;r arbetsl&#246;s, den region inom vars 
+omr&#229;de denne &#228;r registrerad som arbetss&#246;kande. I den utstr&#228;ck-
+ning familjemedlemmar till dessa personer har r&#228;tt till 
+v&#229;rdf&#246;rm&#229;ner i Sverige vid sjukdom, enligt vad som f&#246;ljer av 
+den n&#228;mna f&#246;rordningen, ska familjemedlemmarna erbjudas 
+tandv&#229;rd av samma region. Om familjemedlemmarna &#228;r bosatta i 
+Sverige g&#228;ller dock 5 &#167;. Lag (2019:860).
+
+6 &#167; Om n&#229;gon som vistas i regionen utan att vara bosatt d&#228;r 
+beh&#246;ver omedelbar tandv&#229;rd, ska regionen erbjuda s&#229;dan 
+tandv&#229;rd.
+
+S&#228;rskilda best&#228;mmelser om tandv&#229;rd finns i lagen (2008:344) om 
+h&#228;lso- och sjukv&#229;rd &#229;t asyls&#246;kande m.fl. och lagen (2013:407) 
+om h&#228;lso- och sjukv&#229;rd till vissa utl&#228;nningar som vistas i 
+Sverige utan n&#246;dv&#228;ndiga tillst&#229;nd. Lag (2019:860).
+
+7 &#167; Folktandv&#229;rden ska svara f&#246;r 
+
+1. regelbunden och fullst&#228;ndig tandv&#229;rd f&#246;r personer till och 
+med det &#229;r d&#229; de fyller 23 &#229;r, 
+
+2. specialisttandv&#229;rd f&#246;r personer fr&#229;n och med det &#229;r d&#229; de 
+fyller 24 &#229;r, och
+
+3. &#246;vrig tandv&#229;rd f&#246;r personer fr&#229;n och med det &#229;r d&#229; de 
+fyller 24 &#229;r i den omfattning som regionen bed&#246;mer l&#228;mplig.
+Lag (2019:860).
+
+8 &#167; Regionen ska planera tandv&#229;rden med utg&#229;ngspunkt i 
+befolkningens behov av tandv&#229;rd. Regionen ska se till att det 
+finns tillr&#228;ckliga resurser f&#246;r patienter med s&#228;rskilda behov 
+av tandv&#229;rdsinsatser och att patientgrupper med behov av 
+s&#228;rskilt st&#246;d erbjuds tandv&#229;rd. 
+
+Planeringen ska avse &#228;ven den tandv&#229;rd som erbjuds av annan &#228;n 
+regionen. Lag (2019:860).
+
+8 a &#167; Vid till&#228;mpningen av 8 &#167; ska regionen s&#228;rskilt se till 
+att upps&#246;kande verksamhet bedrivs bland dem som
+
+1. omfattas av lagen (1993:387) om st&#246;d och service till vissa 
+funktionshindrade, eller 
+
+2. har ett varaktigt behov av omfattande v&#229;rd- och 
+omsorgsinsatser och som 
+
+a) omfattas av en kommuns ansvar f&#246;r h&#228;lso- och sjukv&#229;rd 
+enligt 12 kap. 1 &#167; h&#228;lso- och sjukv&#229;rdslagen (2017:30), 
+
+b) f&#229;r h&#228;lso- och sjukv&#229;rd i hemmet (hemsjukv&#229;rd), eller 
+
+c) &#228;r bosatta i egen bostad och har motsvarande behov av v&#229;rd 
+eller omsorg som personer som omfattas av 2 a eller 2 b ovan.
+
+Regionen ska ocks&#229; se till att n&#246;dv&#228;ndig tandv&#229;rd erbjuds 
+patienter som avses i f&#246;rsta stycket. 
+
+Regionen ska vidare se till att tandv&#229;rd kan erbjudas
+
+1. dem som har behov av s&#228;rskilda tandv&#229;rdsinsatser som ett 
+led i en sjukdomsbehandling under en begr&#228;nsad tid, och 
+
+2. dem som har stora behov av tandv&#229;rd p&#229; grund av en 
+l&#229;ngvarig sjukdom eller funktionsneds&#228;ttning.
+Lag (2019:860).
+
+9 &#167; I planeringen och utvecklingen av tandv&#229;rden ska regionen 
+samverka med samh&#228;llsorgan, organisationer och enskilda.
+Lag (2019:860).
+
+10 &#167; Regionerna ska samverka i tandv&#229;rdsfr&#229;gor som ber&#246;r flera 
+regioner. Lag (2019:860).
+
+N&#228;mnder
+
+11 &#167; Ledningen av folktandv&#229;rden ska ut&#246;vas av en eller flera 
+n&#228;mnder. F&#246;r en s&#229;dan n&#228;mnd g&#228;ller vad som &#228;r f&#246;reskrivet om 
+n&#228;mnder i kommunallagen (2017:725). S&#228;rskilda best&#228;mmelser om 
+gemensam n&#228;mnd finns i lagen (2003:192) om gemensam n&#228;mnd 
+inom v&#229;rd- och omsorgsomr&#229;det. Lag (2017:733).
+
+12 &#167; Har upph&#228;vts genom lag (1991:905).
+
+Personal
+
+13 &#167; I regionerna ska det finnas m&#246;jlighet till anst&#228;llning 
+f&#246;r tandl&#228;kares specialiseringstj&#228;nstg&#246;ring enligt 
+patients&#228;kerhetslagen (2010:659) i en omfattning som motsvarar 
+det planerade framtida behovet av tandl&#228;kare med 
+specialistkompetens i klinisk verksamhet. Lag (2019:860).
+
+14 &#167; Tandl&#228;kare under specialistutbildning enligt 4 kap.
+patients&#228;kerhetslagen (2010:659) ska f&#246;rordnas f&#246;r viss tid.
+
+Tandl&#228;kare i vars arbetsuppgifter ing&#229;r att i v&#228;sentlig
+omfattning medverka i h&#246;gskoleutbildning f&#246;r tandl&#228;karexamen,
+ska anst&#228;llas f&#246;r begr&#228;nsad tid, om regeringen f&#246;reskriver
+det. Lag (2010:663).
+
+15 &#167; Har upph&#228;vts genom lag (2011:1188).
+
+Avgifter
+
+15 a &#167; Tandv&#229;rd som avses i 7 &#167; 1 ska vara avgiftsfri f&#246;r 
+patienten. Uppkommer kostnader med anledning av att patienten 
+uteblivit fr&#229;n avtalat tandv&#229;rdsbes&#246;k, f&#229;r avgift tas ut av 
+patienten enligt grunder som regionen best&#228;mmer. Regionen f&#229;r 
+ocks&#229; ta ut avgift, om patienten p&#229; beg&#228;ran ges tandv&#229;rd som 
+inte &#228;r n&#246;dv&#228;ndig f&#246;r att uppn&#229; ett fr&#229;n odontologisk synpunkt 
+funktionellt och utseendem&#228;ssigt godtagbart resultat.
+
+Avgiften tas ut av patientens f&#246;rmyndare om patienten &#228;r under 
+18 &#229;r n&#228;r 
+
+1. v&#229;rden ges, eller 
+
+2. patienten uteblir fr&#229;n ett avtalat bes&#246;k. 
+
+Om det finns flera f&#246;rmyndare svarar de solidariskt f&#246;r 
+avgiften. 
+
+Om det finns s&#228;rskilda sk&#228;l f&#229;r avgiften tas ut av den 
+under&#229;rige.
+
+Av patienter som f&#229;r tandv&#229;rd som avses i 7 &#167; 2 och 3 f&#229;r 
+regionen ta ut v&#229;rdavgifter enligt grunder som 
+regionfullm&#228;ktige best&#228;mmer, om inte n&#229;got annat &#228;r s&#228;rskilt 
+f&#246;reskrivet.
+
+Vid tandv&#229;rd som avses i 8 a &#167; samt vid unders&#246;kning f&#246;r och 
+utf&#246;rande av oralkirurgisk behandling som kr&#228;ver ett sjukhus 
+tekniska och medicinska resurser g&#228;ller best&#228;mmelserna om 
+avgifter i den &#246;ppna v&#229;rden enligt h&#228;lso- och sjukv&#229;rdslagen 
+(2017:30).
+
+Patienten ska ha r&#228;tt att v&#228;lja om s&#229;dan tandbehandling som 
+avses i 8 a &#167; ska utf&#246;ras av folktandv&#229;rden eller av en 
+enskild n&#228;ringsidkare, ett bolag eller en annan juridisk 
+person vars v&#229;rd kan ber&#228;ttiga till ers&#228;ttning enligt lagen 
+(2008:145) om statligt tandv&#229;rdsst&#246;d. Lag (2019:860).
+
+Ers&#228;ttning
+
+15 b &#167; F&#246;r tandv&#229;rd enligt 8 a &#167; andra och tredje styckena 
+l&#228;mnar regionen ers&#228;ttning till v&#229;rdgivaren med belopp som 
+motsvarar folktandv&#229;rdens priser f&#246;r tandv&#229;rd om inte regionen 
+kommer &#246;verens med v&#229;rdgivaren om n&#229;got annat. Den 
+patientavgift som patienten betalat ska r&#228;knas av fr&#229;n 
+ers&#228;ttningen. Lag (2019:860).
+
+Uppgiftsskyldighet
+
+15 c &#167; V&#229;rdgivaren ska, n&#228;r det g&#228;ller tandv&#229;rd enligt 8 a
+&#167; andra stycket och tredje stycket 2, till Socialstyrelsen
+l&#228;mna uppgifter om patientens tandh&#228;lsa och om den
+tandv&#229;rd som har utf&#246;rts. Lag (2011:1188).
+
+Gemensamma best&#228;mmelser f&#246;r all tandv&#229;rd
+
+Kvalitetss&#228;kring
+
+16 &#167; Inom tandv&#229;rd skall kvaliteten i verksamheten systematiskt och
+fortl&#246;pande utvecklas och s&#228;kras. Lag (1996:788).
+
+Ledningen av tandv&#229;rden
+
+16 a &#167; Inom tandv&#229;rden ska det finnas n&#229;gon som svarar f&#246;r
+verksamheten (verksamhetschef). Verksamhetschefen f&#229;r dock
+best&#228;mma &#246;ver diagnostik eller v&#229;rd och behandling av enskilda
+patienter endast om han eller hon har tillr&#228;cklig kompetens
+och erfarenhet f&#246;r detta.
+
+Verksamhetschefen f&#229;r uppdra &#229;t s&#229;dana befattningshavare inom
+verksamheten som har tillr&#228;cklig kompetens och erfarenhet att
+fullg&#246;ra enskilda ledningsuppgifter. Lag (2010:663).
+
+Bemyndiganden
+
+17 &#167; Regeringen eller den myndighet som regeringen
+best&#228;mmer f&#229;r meddela f&#246;reskrifter om
+
+1. upps&#246;kande verksamhet enligt 8 a &#167; f&#246;rsta stycket,
+
+2. de sjukdomar och funktionsneds&#228;ttningar som avses i 8 a &#167;
+tredje stycket och om tandv&#229;rd i &#246;vrigt enligt 8 a &#167;,
+
+3. unders&#246;kning f&#246;r och utf&#246;rande av oralkirurgisk
+behandling som kr&#228;ver ett sjukhus tekniska och medicinska
+resurser,
+
+4. v&#229;rdgivares uppgiftsskyldighet enligt 15 c &#167;, och
+
+5. beh&#246;righet till och villkor f&#246;r anst&#228;llningar inom
+folktandv&#229;rden. Lag (2011:1188).
+
+18 &#167; Regeringen bemyndigas att meddela s&#228;rskilda f&#246;reskrifter om
+tandv&#229;rden i krig, vid krigsfara eller under s&#229;dana utomordentliga
+f&#246;rh&#229;llanden som &#228;r f&#246;ranledda av att det &#228;r krig utanf&#246;r Sveriges
+gr&#228;nser eller av att Sverige har varit i krig  eller krigsfara.
+Lag (1992:1421).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1985:125
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1986, d&#229; folktandv&#229;rdslagen
+(1973:457) skall upph&#246;ra att g&#228;lla.
+
+2. F&#246;rekommer i lag eller annan f&#246;rfattning h&#228;nvisning till en
+f&#246;reskrift som har ersatts genom best&#228;mmelse i denna lag till&#228;mpas i
+st&#228;llet den nya best&#228;mmelsen.
+
+1994:743
+
+1. Denna lag tr&#228;der i kraft den 1 juli 1994.
+
+2. F&#246;r tandv&#229;rd som har givits f&#246;re ikrafttr&#228;dandet g&#228;ller
+fortfarande &#228;ldre best&#228;mmelser.
+
+1995:842
+
+Denna lag tr&#228;der i kraft den 1 juli 1995. &#196;ldre f&#246;reskrifter g&#228;ller
+fortfarande f&#246;r tandl&#228;kare med examen enligt best&#228;mmelser som g&#228;llde
+f&#246;re den 1 juli 1994 som fullg&#246;r allm&#228;ntj&#228;nstg&#246;ring.
+
+1998:554
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1999.
+
+2. F&#246;r oralkirurgisk behandling och tandv&#229;rdsbehandling som har
+p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet g&#228;ller &#228;ldre f&#246;reskrifter.
+
+2003:1209
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2004.
+
+2. F&#246;r en tandv&#229;rdsbehandling som har p&#229;b&#246;rjats f&#246;re
+ikrafttr&#228;dandet g&#228;ller &#228;ldre f&#246;reskrifter.
+
+2010:246
+
+1. Denna lag tr&#228;der i kraft den 1 juni 2010.
+
+2. De nya best&#228;mmelserna g&#228;ller inte avgifter f&#246;r vilka
+betalningsskyldighet uppkommit f&#246;re ikrafttr&#228;dandet.
+
+2010:1315
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2011.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r den som
+omfattas av r&#229;dets f&#246;rordning (EEG) nr 1408/71 av den 14
+juni 1971 om till&#228;mpningen av systemen f&#246;r social trygghet
+n&#228;r anst&#228;llda, egenf&#246;retagare eller deras familjemedlemmar
+flyttar inom gemenskapen.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3748">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3750">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

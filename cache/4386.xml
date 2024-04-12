@@ -1,0 +1,588 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2015-02-20" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4386</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4385">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4387">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1959:290 ·
+                    <a href="/sfsr?bet=1959:290">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Kung&#246;relse (1959:290) med best&#228;mmelser om vissa pensionsf&#246;rm&#229;ner enligt f&#246;reskrifter meddelade f&#246;re utf&#228;rdandet av statens allm&#228;nna tj&#228;nstepensionsreglemente</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet ESA
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1959-05-28
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 1974:544
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 &#167;
+Inledande best&#228;mmelse
+
+Denna kung&#246;relse &#228;ger till&#228;mpning i fr&#229;ga om s&#229;dana pensionsf&#246;rm&#229;ner 
+enligt f&#246;reskrifter meddelade f&#246;re ikrafttr&#228;dandet av SPR (&#228;ldre 
+best&#228;mmelser),  &#229; vilka m&#229; utg&#229; r&#246;rligt till&#228;gg av statsmedel enligt 
+beslut eller best&#228;mmelser som meddelats av Kungl. Maj:t.
+
+Kung&#246;relsen &#228;ger likv&#228;l icke till&#228;mpning i s&#229;dant fall, som avses i
+punkten 4 &#246;verg&#229;ngsbest&#228;mmelserna till statens l&#246;nef&#246;rordning den 31
+maj 1957, nr 228. Kung&#246;relse (1959:290).
+
+2 &#167;
+Basbelopp
+
+Till grund f&#246;r ber&#228;kningen av pensionsf&#246;rm&#229;n skall ligga f&#246;rm&#229;nens
+basbelopp, omfattande grundbelopp j&#228;mte f&#246;rekommande r&#246;rliga
+till&#228;ggsf&#246;rm&#229;ner. Basbeloppet &#228;ndras i den m&#229;n Kungl. Maj:t beslutar
+d&#228;rom.
+
+Basbelopp, som slutar p&#229; &#246;retal, skall j&#228;mkas till n&#228;rmaste krontal
+eller, om det slutar p&#229; 50 &#246;re, till n&#228;rmast h&#246;gre krontal.
+
+Pensionsf&#246;rm&#229;n skall, d&#228;r ej annat f&#246;ljer av vad nedan stadgas eller  av
+Kungl. Maj:t f&#246;r visst fall eller viss grupp av fall f&#246;reskrives,  utg&#229;
+med babeloppet. Kung&#246;relse (1969:460).
+
+3 &#167;
+Samordning med folkpension m.m.
+
+Samordning med f&#246;rm&#229;ner p&#229; grund av socialf&#246;rs&#228;kring m.m. skall, p&#229;
+s&#228;tt i det f&#246;ljande s&#228;gs, ske i fr&#229;ga om s&#229;dan i denna kung&#246;relse
+avsedd personalpension, som utg&#229;r enligt pensionsbest&#228;mmelser, vilka
+avses i 2 &#167; 2 mom. SPR.
+
+J&#228;mv&#228;l i fr&#229;ga om pension, som &#228;r best&#228;md enligt grunder motsvarande  de
+i nyssn&#228;mnda best&#228;mmelser innefattade, skall dylik samordning ske.
+
+F&#246;reskrifterna om samordning skola icke till&#228;mpas betr&#228;ffande
+uppskjuten pension, ber&#228;knad f&#246;rs&#228;kringstekniskt p&#229; annat s&#228;tt &#228;n
+enligt grunder som &#228;ro till&#228;mpliga f&#246;r fall av avg&#229;ng p&#229; grund av
+befattnings indragning, eller betr&#228;ffande d&#228;remot svarande
+familjepension, s&#229;vida icke pensionstagaren h&#228;rj&#228;mte &#228;r ber&#228;ttigad  till
+egen- respektive familjepension av annat i denna paragraf avsett  slag
+eller Kungl. Maj:t s&#228;rskilt f&#246;rordnar om samordning. Kung&#246;relse
+(1962:356).
+
+4 &#167;
+Personalpensions anknytning till riktniv&#229;
+
+F&#246;r den som &#228;r ber&#228;ttigad till personalpension, i fr&#229;ga om vilken
+samordning enligt 3 &#167; skall ske, skall genom s&#228;rskild ber&#228;kning  j&#228;mlikt
+5 &#167; fastst&#228;llas, till vilket belopp pensionen eller i  f&#246;rekommande fall
+denna j&#228;mte de i sistn&#228;mnda paragraf angivna  f&#246;rm&#229;nerna p&#229; grund av
+socialf&#246;rs&#228;kring m.m. skulle ha uppg&#229;tt, om  personalpensionen beviljats
+enligt SPR. Detta belopp ben&#228;mnes riktniv&#229;. Personalpensionen skall,
+i den m&#229;n s&#229; kan ske utan  minskning av grundbelopp eller h&#228;remot
+svarande belopp, avv&#228;gas s&#229; att den till beloppet &#246;verensst&#228;mmer med den
+i riktniv&#229;n ing&#229;ende  personalpensionen. Kung&#246;relse (1962:356).
+
+5 &#167;
+Till&#228;mpning av SPR f&#246;r best&#228;mmande av riktniv&#229;
+
+Riktniv&#229;n skall motsvara den personalpension och de f&#246;rm&#229;ner p&#229; grund
+av socialf&#246;rs&#228;kring m.m., som i motsvarande fall med beaktande av
+f&#246;ljande s&#228;rskilda best&#228;mmelser sammanlagt skulle kunnat utg&#229; vid
+till&#228;mpning betr&#228;ffande personalpensionen av best&#228;mmelserna i SPR.
+Kung&#246;relse (1974:544).
+
+A. Till 6 och 7 &#167;&#167; SPR
+
+1. Vid till&#228;mpning av 6 &#167; SPR beaktas andra d&#228;r avsedda f&#246;rm&#229;ner p&#229;
+grund av socialf&#246;rs&#228;kring m.m. &#228;n pension enligt lagen den 25 maj 1962
+(nr 381) om allm&#228;n f&#246;rs&#228;kring och pensionstillskott enligt lagen den 9
+maj 1969 (nr 205) om pensionstillskott endast d&#229; detta f&#246;ljer av
+punkten 2 h&#228;r nedan och skall, d&#229; den enligt &#228;ldre best&#228;mmelser
+fastst&#228;llda pensionen grundats &#229; annan reservstatsbest&#228;llning &#228;n s&#229;dan
+med beteckningen Rs, till&#228;ggspension beaktas s&#229;som om
+tj&#228;nst&#229;rsber&#228;kningen f&#246;r tid efter &#229;r 1959 skett enligt de f&#246;r sist
+avsedd best&#228;llning meddelade f&#246;reskrifterna.
+
+Utg&#246;res personalpensionen av avkortad sjukpension och har folkpension  i
+form av hel f&#246;rtidspension (helt sjukbidrag) eller, s&#229;vitt g&#228;ller  tid
+f&#246;re den 1 januari 1963, invalidpension eller sjukbidrag  beviljats,
+g&#228;lla i fr&#229;ga om sjukpensionens best&#228;mmande &#228;ven de  f&#246;reskrifter Kungl.
+Maj:t meddelar i s&#228;rskild ordning.
+
+2. Minskas den enligt &#228;ldre best&#228;mmelser fastst&#228;llda pensionen med
+anledning av att pensionstagaren tillika &#228;r ber&#228;ttigad till f&#246;rm&#229;n p&#229;
+grund av yrkesskadef&#246;rs&#228;kring eller till pensionsf&#246;rm&#229;n, som utg&#229;r med
+fast belopp, skall den i riktniv&#229;n ing&#229;ende personalpensionen icke  till
+f&#246;ljd d&#228;rav avkortas men skall denna pension likv&#228;l minskas med  samma
+belopp som g&#228;ller i fr&#229;ga om pensionen enligt de &#228;ldre  best&#228;mmelserna.
+
+3. Vid till&#228;mpning av 7 &#167; SPR skall endast beaktas s&#229;dan i punkten 2  ej
+avsedd pensionsf&#246;rm&#229;n, som inverkar p&#229; pensionen enligt de &#228;ldre
+best&#228;mmelserna. Kung&#246;relse (1974:544).
+
+B. Till 9 &#167; SPR
+
+1. S&#228;rskilt pensionsunderlag skall med iakttagande av vad nedan s&#228;gs
+ber&#228;knas f&#246;r egenpension och f&#246;r familjepension.
+
+F&#246;r den som &#228;r ber&#228;ttigad till mer &#228;n en egenpension, som omfattas av
+best&#228;mmelserna om riktniv&#229;, skola de sammanlagda, i f&#246;rekommande fall
+efter reglering p&#229; grund av sammantr&#228;ffandet beh&#229;llna grundbeloppen
+behandlas som grundbelopp av en pension. Detsamma skall g&#228;lla
+den som p&#229; grund av en och samme persons anst&#228;llningar &#228;r ber&#228;ttigad
+till mer &#228;n en familjepension, som omfattas av best&#228;mmelserna om
+riktniv&#229;. Pensionen skall i h&#228;r avsedda fall anses vara fastst&#228;lld p&#229;
+grundval av det st&#246;rsta av de underlag, som skolat beaktas vid
+best&#228;mmande av riktniv&#229; f&#246;r de s&#228;rskilda pensionerna, dock l&#228;gst  summan
+av de beh&#229;llna grundbeloppen respektive familjepensionstalen.
+
+2. Pensionsunderlaget betr&#228;ffande egenpension skall utg&#246;ra 23,97
+procent av &#229;rsbeloppet av f&#246;ljande tj&#228;nstepensionsunderlag enligt
+&#228;ldre best&#228;mmelser, n&#228;mligen
+
+a) betr&#228;ffande tj&#228;nstepension, som fastst&#228;llts enligt eller efter
+beaktande av best&#228;mmelserna, enligt vilka olika  tj&#228;nstepensionsunderlag
+g&#228;lla f&#246;re och fr&#229;n 67 &#229;rs &#229;lder:  begynnelseunderlaget eller, vad ang&#229;r
+f&#246;rtidspension f&#246;r tid f&#246;re pensioneringsperiodens nedre gr&#228;ns
+respektive pensions&#229;ldern, begynnelseunderlaget minskat i samma grad
+som under sistn&#228;mnda tid g&#228;ller i fr&#229;ga om det eljest till&#228;mpliga
+grundbeloppet;
+
+b) betr&#228;ffande pensionsf&#246;rm&#229;n, som beviljats enligt kung&#246;relsen
+1947:490 eller enligt d&#228;rmed j&#228;mf&#246;rliga best&#228;mmelser eller ock
+fastst&#228;llts enligt grunderna f&#246;r nyssn&#228;mnda kung&#246;relse eller
+best&#228;mmelser: det mot 30 &#229;rs innehav av anst&#228;llningen svarande
+underlagsbeloppet f&#246;rh&#246;jt med 88 procent;
+
+c) betr&#228;ffande annan i 3 &#167; f&#246;rsta stycket avsedd tj&#228;nstepension &#228;n  ovan
+n&#228;mnts: det belopp som vid till&#228;mpning av best&#228;mmelser, enligt  vilka
+olika underlag g&#228;lla f&#246;re och fr&#229;n 67 &#229;rs &#229;lder, skolat utg&#246;ra
+begynnelseunderlag, dock f&#246;rh&#246;jt med 180 kronor;
+
+d) betr&#228;ffande annan i 3 &#167; andra stycket avsedd tj&#228;nstepension &#228;n ovan
+n&#228;mnts: begynnelseunderlaget f&#246;r den l&#246;negrad, vilken varit
+utg&#229;ngspunkt f&#246;r pensionens fastst&#228;llande.
+
+I fr&#229;ga om pension till den, som &#228;r pensionsber&#228;ttigad s&#229;som f.d.
+bet&#228;llningshavare &#229; reservstat, skall i st&#228;llet beaktas
+begynnelseunderlaget f&#246;r motsvarande best&#228;llningshavare i den  l&#246;negrad,
+till vilken den vid &#246;verg&#229;ngen till reservstat innehavda  best&#228;llningen
+p&#229; aktiv stat vid pensionsavg&#229;ngen var h&#228;nf&#246;rlig.
+
+3. Pensionsunderlaget betr&#228;ffande familjepension skall utg&#246;ra
+23,97 procent av &#229;rsbeloppet av f&#246;ljande tj&#228;nstepensionsunderlag enligt
+&#228;ldre best&#228;mmelser, n&#228;mligen det h&#246;gsta begynnelseunderlag, som enligt
+vederb&#246;rliga best&#228;mmelser svarar mot det familjepensionsunderlag, efter
+vilket pensionen enligt de &#228;ldre best&#228;mmelserna &#228;r fastst&#228;lld.
+
+I fr&#229;ga om pension till efterlevande till den, som var
+pensionsber&#228;ttigad s&#229;som best&#228;llningshavare eller f.d.
+best&#228;llningshavare &#229; reservstat, skall beaktas begynnelseunderlaget f&#246;r
+den l&#246;negrad, till vilken vid tidpunkten f&#246;r pensionsavg&#229;ngen eller,
+d&#228;r best&#228;llningshavaren avlidit dessf&#246;rinnan, vid tidpunkten f&#246;r
+fr&#229;nf&#228;llet den best&#228;llning p&#229; aktiv stat var h&#228;nf&#246;rlig, vilken svarar
+mot den vid ifr&#229;gavarande tidpunkt innehavda best&#228;llningen &#229;
+reservstat.
+
+4. Vid till&#228;mpningen av best&#228;mmelserna i punkten 2 f&#246;rsta stycket och
+punkten 3 f&#246;rsta stycket skall pension, vilken fastst&#228;llts enligt eller
+efter beaktande av best&#228;mmelser, inneb&#228;rande att hel pension normalt
+skall utg&#246;ra ett angivet antal procent av en pension, som best&#228;mmes p&#229;
+grundval av ett visst underlagsbelopp, anses vara fastst&#228;lld p&#229;
+grundval av detta underlagsbelopp. Kung&#246;relse (1974:544).
+
+C. Till 10, 12 och 14 &#167;&#167; SPR
+
+1. I st&#228;llet f&#246;r vad i 10, 12 och 14 &#167;&#167; SPR s&#228;gs om ber&#228;kning av
+tj&#228;nst&#229;r och om avkortning av pension skall g&#228;lla f&#246;ljande.
+
+Pensionen skall i f&#246;rekommande fall avkortas i den utstr&#228;ckning som
+framg&#229;r betr&#228;ffande egenpension av kvoten mellan grundbeloppet
+och tj&#228;nstepensionsunderlaget och betr&#228;ffande familjepension
+av kvoten mellan familjepensionstalet och familjepensionsunderlaget.
+
+H&#228;rvid skall iakttagas, dels att s&#229;som tj&#228;nstepensions
+grundbelopp skall beaktas det f&#246;r tid fr&#229;n pensioneringsperiodens nedre
+gr&#228;ns respektive pensions&#229;ldern intill 67 &#229;rs &#229;lder g&#228;llande  beloppet,
+dels ock att s&#229;som tj&#228;nste- respektive familjepensionsunderlag skall, 
+i f&#246;rekommande fall med iakttagande av  vad under B, punkten 4,
+s&#228;gs, beaktas det underlag, efter vilket grundbeloppet respektive
+famljepensionstalet fastst&#228;llts eller, vad betr&#228;ffar pension, som avses
+under B, punkten 2 f&#246;rsta stycket a), begynnelseunderlaget.
+
+S&#229;som undantag fr&#229;n vad ovan i denna punkt s&#228;gs skall g&#228;lla,
+
+dels att egenpension, som motsvarar s&#229;dan pensionsf&#246;rm&#229;n, vilken 
+avses under B, punkten 2 f&#246;rsta stycket b), skall avkortas i  den
+utstr&#228;ckning, som framg&#229;r av kvoten mellan tv&#229; tredjedelar av f&#246;rm&#229;nens
+grundbelopp och det mot 30 &#229;rs innehav av anst&#228;llningen  svarande
+underlagsbeloppet enligt de &#228;ldre best&#228;mmelserna,
+
+dels att egenpension, som motsvarar s&#229;dan pensionsf&#246;rm&#229;n, vilken 
+avses under B, punkten 2 f&#246;rsta stycket d), skall avkortas i den
+utstr&#228;ckning som framg&#229;r av kvoten mellan det vid varje tid g&#228;llande
+grundbeloppet och det f&#246;r samma tid g&#228;llande tj&#228;nstepensionsunderlaget
+f&#246;r den tj&#228;nst, vilken varit utg&#229;ngspunkt f&#246;r pensionens fastst&#228;llande,
+
+
+dels att egenpension, som motsvarar reservstatspension, som
+avses under B, punkten 2 andra stycket, skall avkortas i den
+utstr&#228;ckning, som framg&#229;r av kvoten mellan det vid varje tid 
+g&#228;llande grundbeloppet och det f&#246;r samma tid g&#228;llande 
+tj&#228;nstepensionsunderlaget f&#246;r motsvarande best&#228;llningshavare i den 
+enligt n&#228;mnda stycke betr&#228;ffande egenpension till&#228;mpliga l&#246;negraden,
+
+dels ock att familjepension, som motsvarar s&#229;dan p&#229; grund av
+reservstatsbest&#228;llning utg&#229;ende pension, som avses under B, punkten 3
+andra stycket, skall avkortas i den utstr&#228;ckning, som framg&#229;r av kvoten
+mellan familjepensionstalet och familjepensionsunderlaget f&#246;r den
+enligt n&#228;mnda stycke betr&#228;ffande familjepension till&#228;mpliga l&#246;negraden.
+
+2. Betr&#228;ffande f&#246;rtidspension skall icke till&#228;mpas stadgandet i 12 &#167; 1
+mom. sista stycket SPR.
+
+3. Vid till&#228;mpning av 12 &#167; 3 mom. SPR skall, om avg&#229;ng skett f&#246;re &#229;r
+1959, avg&#229;ngs&#229;ret anses vara 1959. Kung&#246;relse (1974:544).
+
+D. Till 15 &#167; SPR
+
+Beloppet av s&#229;dan bruttopension av vilken riktniv&#229;n beror &#228;ndras i den
+m&#229;n Kungl. Maj:t och riksdagen besluta h&#228;rom. Kung&#246;relse (1974:544).
+
+6 &#167;
+Omreglering av vissa pensioner
+
+D&#228;rest i 3 &#167; f&#246;rsta stycket avsedd personalpension skulle hava
+beviljats enligt SPR, om reglementet j&#228;mte d&#228;rtill anslutande
+f&#246;rfattningar tr&#228;tt i kraft den 1 april 1958 och det i 3 &#167; reglementet
+angivna villkoret om kvalifikationstid varit uppfyllt, skall pensionen
+eller i f&#246;rekommande fall de sammanlagda f&#246;rm&#229;nerna av personalpension,
+pension enligt lagen om allm&#228;n f&#246;rs&#228;kring och pensionstillskott enligt
+lagen om pensionstillskott icke understiga vad som under s&#229;dana
+f&#246;rh&#229;llanden skulle hava tillkommit pensionstagaren.
+
+Vid ber&#228;kning av detta j&#228;mf&#246;relsebelopp &#228;ga f&#246;reskrifterna i 5 &#167; under A
+och under C, punkten 3, motsvarande till&#228;mpning. D&#228;rj&#228;mte till&#228;mpas den
+avkortning, som enligt f&#246;reskrifterna under C, punkten 1, i n&#228;mnda
+paragraf g&#228;ller betr&#228;ffande den i riktniv&#229;n ing&#229;ende personalpensionen.
+J&#228;mf&#246;relsebeloppet och sistn&#228;mnda pension skola dock ber&#228;knas med
+mindre avkortning, dels i den m&#229;n s&#229;dan f&#246;ljer av 10 &#167; 4 mom.
+SPR, dels om pensionsmyndigheten medgiver tj&#228;nst&#229;rsber&#228;kning
+med motsvarande till&#228;mpning av best&#228;mmelserna i &#246;vrigt i n&#228;mnda
+paragraf.
+
+S&#229;dan bruttopension, av vilken j&#228;mf&#246;relsebeloppet &#228;r beroende och p&#229;
+vilken icke inverkat h&#246;jning under &#229;r 1959 av l&#246;ner enligt statens
+l&#246;nef&#246;rordning, skall f&#246;rh&#246;jas med 2 procent. D&#228;rvid skall f&#246;rh&#246;jt
+belopp som slutar p&#229; &#246;retal j&#228;mkas till n&#228;rmaste krontal eller, om det
+slutar p&#229; 50 &#246;re, till n&#228;rmast h&#246;gre krontal.
+
+Beloppet av bruttopensionen &#228;ndras i den m&#229;n Kungl. Maj:t och riksdagen
+besluta h&#228;rom. Kung&#246;relse (1974:544).
+
+7 &#167;
+S&#228;rskilda fr&#229;gor
+
+D&#228;r i s&#228;rskilt fall tvekan uppkommer r&#246;rande till&#228;mpningen av ovan
+meddelade f&#246;reskrifter, &#228;ger vederb&#246;rande myndighet underst&#228;lla den
+s&#229;lunda uppkomna fr&#229;gan Kungl. Maj:ts pr&#246;vning.
+
+Myndighet &#228;ger verkst&#228;lla i kung&#246;relsen avsedda ber&#228;kningar p&#229; annat
+s&#228;tt &#228;n som angives i det f&#246;reg&#229;ende, d&#228;rest s&#229; finnes l&#228;mpligt med
+h&#228;nsyn till arbetstekniska f&#246;rh&#229;llanden och bed&#246;mes kunna endast i
+mindre grad p&#229;verka ber&#228;kningens resultat. Kung&#246;relse (1959:290).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1959:290
+
+Denna kung&#246;relse tr&#228;der i kraft den 1 juli 1959, dock skall vad i 1, 2
+och 7 &#167;&#167; s&#228;gs l&#228;nda till efterr&#228;ttelse fr&#229;n och med den 1 januari  1959.
+
+
+1962:356
+
+1. Till grund f&#246;r ber&#228;kningen av basbelopp f&#246;r juli 1962 /k/  (basbelopp
+62) /-k/ skall l&#228;ggas motsvarande basbelopp 61.
+
+2. Vad i kung&#246;relsen s&#228;gs om folkpension skall &#228;ven avse p&#229; tiden
+juli--december 1962 bel&#246;pande barnpension enligt lagen om
+barnpensioner.
+
+3. F&#246;r den, som f&#246;r juni 1962 &#228;r ber&#228;ttigad till personalpension, i
+fr&#229;ga om vilken samordning enligt 3 &#167; kung&#246;relsen den 28 maj 1959, nr
+290, skall ske, skall i nedan under a)--c) angivna fall
+personalpensionens fr&#229;n och med den 1 juli 1962 g&#228;llande bruttobelopp
+l&#228;gst utg&#246;ra 106,5 procent av det belopp, som vid a)--c) angives.
+Sistn&#228;mnda belopp skall dock, om visst d&#228;ri ing&#229;ende respektive
+ber&#228;knat folkpensionsbelopp &#228;r av s&#229;dant slag, att det ej skall  beaktas
+d&#229; den i riktniv&#229;n f&#246;r juni 1962 ing&#229;ende personalpensionens
+bruttobelopp best&#228;mmes, vid ifr&#229;gavarande ber&#228;kning minskas med samma
+folkpensionsbelopp.
+
+a) F&#246;r den, som f&#246;r juni 1962 j&#228;mv&#228;l &#228;r ber&#228;ttigad till folkpension i
+form av allm&#228;n &#229;lderspension, utg&#246;res ifr&#229;gavarande belopp av summan  av
+personalpensionen och folkpensionen f&#246;r m&#229;naden.
+
+b) F&#246;r den, som &#228;r f&#246;dd under tiden juli 1895--juni 1897 och som f&#246;r
+juni 1962 uppb&#228;r avsedd personalpension i form av familjepension,
+utg&#246;res ifr&#229;gavarande belopp av summan f&#246;r juni 1962 av det
+folkpensionsbelopp, som ber&#228;knas skola hava utg&#229;tt, om pensionstagaren
+varit f&#246;dd f&#246;re den 1 juli 1895, och det belopp, vartill
+personalpensionen med beaktande h&#228;rav skulle hava avv&#228;gts.
+
+c) F&#246;r den, som i annat &#228;n under b) avsett fall &#228;r f&#246;r juni 1962
+ber&#228;ttigad till folkpension i form av invalidpension eller sjukbidrag,
+utg&#246;res ifr&#229;gavarande belopp av summan f&#246;r n&#228;mnda m&#229;nad av
+personalpensionen och folkpensionen. I detta fall skall vad h&#228;r ovan
+s&#228;gs om visst l&#228;gsta belopp g&#228;lla endast under tid, f&#246;r vilken utg&#229;r
+folkpension i form av invalidpension eller sjukbidrag respektive i  form
+av f&#246;rtidspension.
+
+4. Den, som f&#246;r december 1962 &#228;r ber&#228;ttigad till personalpension, i
+fr&#229;ga om vilken samordning enligt 3 &#167; kung&#246;relsen den 28 maj 1959, nr
+290, skall ske, och h&#228;rj&#228;mte till inkomstpr&#246;vad folkpension i form av
+invalidpension eller sjukbidrag, skall f&#246;r tid efter f&#246;rstn&#228;mnda  m&#229;nad,
+d&#229; j&#228;mte personalpensionen utg&#229;r folkpension i form av  f&#246;rtidspension,
+&#228;ga j&#228;mte de sist avsedda f&#246;rm&#229;nerna utf&#229; ett belopp,  motsvarande
+personalpensionens p&#229; grundval av f&#246;rh&#229;llandena i december 1962
+ber&#228;knade minskning i januari 1963 p&#229; grund av inkomstpr&#246;vningens
+slopande. Ifr&#229;gavarande belopp skall behandlas s&#229;som personalpension.
+
+1969:460
+
+Denna kung&#246;relse tr&#228;der i kraft dagen efter den, d&#229; kung&#246;relsen enligt
+d&#228;r&#229; meddelad uppgift utkommit fr&#229;n trycket i Svensk
+f&#246;rfattningssamling. De nya best&#228;mmelserna skall dock till&#228;mpas f&#246;r  tid
+fr&#229;n och med den 1 juli 1969. Detta g&#228;ller &#228;ven om anst&#228;llningen
+upph&#246;rt f&#246;re kung&#246;relsens ikrafttr&#228;dande men under den tid f&#246;r vilken
+de nya best&#228;mmelserna skall till&#228;mpas.
+
+1974:544
+
+Denna kung&#246;relse tr&#228;der i kraft den 1 juli 1974. De nya best&#228;mmelserna
+till&#228;mpas dock f&#246;r tid fr&#229;n och med den 1 januari 1974.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4385">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4387">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

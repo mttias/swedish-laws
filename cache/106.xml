@@ -1,0 +1,868 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-07-26" /> 
+ <meta id="rattsinfo-edited" content="2023-07-26 15:43:28" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>106</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=105">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=107">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2023:328 ·
+                    <a href="/sfsr?bet=2023:328">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Merv&#228;rdesskattef&#246;rordning (2023:328)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2023-05-25
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2023-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning g&#228;ller vid till&#228;mpning av 
+merv&#228;rdesskattelagen (2023:200). 
+
+F&#246;rordningen inneh&#229;ller, f&#246;rutom inledande best&#228;mmelser, 
+best&#228;mmelser om 
+
+- formul&#228;r (5 &#167;),
+
+- import i vissa fall (6 och 7 &#167;&#167;), 
+
+- intyg i vissa fall vid transaktioner till andra EU-l&#228;nder 
+eller till en plats utanf&#246;r EU (8-13 &#167;&#167;), 
+
+- intyg vid leverans av motorfordon till utl&#228;ndska 
+beskickningar m.fl. (14 &#167;), 
+
+- varor i vissa lager (15 och 16 &#167;&#167;), 
+
+- frivillig beskattning (17 &#167;), 
+
+- &#229;terbetalning till beskattningsbara personer etablerade i 
+andra EU-l&#228;nder (18-26 &#167;&#167;), 
+
+- &#229;terbetalning till beskattningsbara personer som inte &#228;r 
+etablerade inom EU (27-29 &#167;&#167;), 
+
+- &#229;terbetalningsans&#246;kningar riktade till andra EU-l&#228;nder (30 
+och 31 &#167;&#167;), 
+
+- handel med investeringsguld (32 &#167;), 
+
+- s&#228;rskilda ordningar f&#246;r distansf&#246;rs&#228;ljning av varor och 
+vissa tillhandah&#229;llanden av tj&#228;nster (33-41 &#167;&#167;), och 
+
+- verkst&#228;llighetsf&#246;reskrifter (42-44 &#167;&#167;).
+
+2 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av 
+
+- 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 5 &#167; f&#246;rsta och andra 
+styckena, 18 &#167; andra stycket, 27, 30, 36 och 42-44 &#167;&#167;,
+
+- 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga best&#228;mmelser.
+
+3 &#167; I denna f&#246;rordning avses med 
+
+- f&#246;rordningen om administrativt samarbete: r&#229;dets f&#246;rordning 
+(EU) nr 904/2010 av den 7 oktober 2010 om administrativt 
+samarbete och kampen mot merv&#228;rdesskattebedr&#228;geri, 
+
+- kommissionens genomf&#246;randef&#246;rordning nr 79/2012: 
+kommissionens genomf&#246;randef&#246;rordning (EU) nr 79/2012 av den 31 
+januari 2012 om fastst&#228;llande av till&#228;mpningsf&#246;reskrifter f&#246;r 
+vissa best&#228;mmelser i r&#229;dets f&#246;rordning (EU) nr 904/2010 
+ang&#229;ende administrativt samarbete och bedr&#228;geribek&#228;mpning i 
+fr&#229;ga om merv&#228;rdesskatt,
+
+- merv&#228;rdesskattedirektivet: r&#229;dets direktiv 2006/112/EG av 
+den 28 november 2006 om ett gemensamt system f&#246;r 
+merv&#228;rdesskatt, i lydelsen enligt r&#229;dets direktiv (EU) 
+2022/890.
+
+4 &#167; Termer och uttryck som anv&#228;nds i denna f&#246;rordning har i 
+&#246;vrigt samma inneb&#246;rd som i merv&#228;rdesskattelagen (2023:200).
+
+Formul&#228;r
+
+5 &#167; Skatteverket fastst&#228;ller formul&#228;r som beh&#246;vs f&#246;r 
+till&#228;mpningen av merv&#228;rdesskattelagen (2023:200). 
+
+Tullverket ska dock fastst&#228;lla formul&#228;r f&#246;r en s&#229;dan 
+sammanst&#228;llning som avses i 23 kap. 3 &#167; merv&#228;rdesskattelagen. 
+Tullverket ska ocks&#229; fastst&#228;lla hur det underlag som avses i 
+23 kap. 5 &#167; andra stycket i den lagen ska g&#246;ras tillg&#228;ngligt 
+p&#229; elektronisk v&#228;g. 
+
+Fastst&#228;llda formul&#228;r ska tillhandah&#229;llas kostnadsfritt.
+
+Import i vissa fall
+
+6 &#167; Vid till&#228;mpning av 10 kap. 55 &#167; merv&#228;rdesskattelagen 
+(2023:200) ska Tullverket l&#228;mna uppgift om importen till 
+Skatteverket. Om importen inte f&#246;ljs av en leverans av varan 
+till ett annat EU-land, ska Skatteverket underr&#228;tta 
+Tullverket.
+
+7 &#167; Den som &#228;r skyldig att betala merv&#228;rdesskatt till staten 
+f&#246;r import av en vara ska p&#229; uppmaning av Tullverket l&#228;mna en 
+skriftlig f&#246;rs&#228;kran om &#228;ndam&#229;let med inf&#246;rseln.
+
+Intyg i vissa fall vid transaktioner till andra EU-l&#228;nder 
+eller till en plats utanf&#246;r EU
+
+Leverans av nya transportmedel
+
+8 &#167; En beskattningsbar person vars leverans av nya 
+transportmedel undantas fr&#229;n skatteplikt enligt 10 kap. 42 och 
+45 &#167;&#167; merv&#228;rdesskattelagen (2023:200) ska till Skatteverket ge 
+in en kopia av den faktura som utf&#228;rdats f&#246;r leveransen.
+
+Transaktioner till beskickningar, konsulat, EU-organ och andra 
+internationella organisationer samt till vissa v&#228;pnade styrkor
+
+9 &#167; Vid s&#229;dana leveranser av varor eller tillhandah&#229;llanden av 
+tj&#228;nster som undantas fr&#229;n skatteplikt enligt 10 kap. 84, 88, 
+89, 90, 92, 93 eller 94 &#167; merv&#228;rdesskattelagen (2023:200), ska 
+s&#228;ljaren styrka skattefriheten genom att i sina r&#228;kenskaper ha 
+ett intyg fr&#229;n f&#246;rv&#228;rvaren motsvarande det som avses i 4 a &#167; 
+f&#246;rordningen (1994:224) om &#229;terbetalning av merv&#228;rdesskatt och 
+vissa punktskatter till hj&#228;lporganisationer, utl&#228;ndska 
+beskickningar m.fl.
+
+Intyget ska vara utf&#228;rdat av beh&#246;rig myndighet i det EU-land 
+d&#228;r f&#246;rv&#228;rvaren &#228;r stationerad.
+
+10 &#167; Vid s&#229;dan leverans av varor som undantas fr&#229;n skatteplikt 
+enligt 10 kap. 84, 88, 92, 93 eller 94 &#167; merv&#228;rdesskattelagen 
+(2023:200) och d&#228;r varutransporten ombes&#246;rjs av f&#246;rv&#228;rvaren, 
+ska s&#228;ljaren i sina r&#228;kenskaper ha ett intyg som f&#246;rv&#228;rvaren 
+utf&#228;rdat och som visar att denne i n&#228;ra anslutning till 
+leveransen har f&#246;r avsikt att f&#246;ra varorna fr&#229;n Sverige till 
+ett annat EU-land.
+
+Varor som ska medf&#246;ras i resandes personliga bagage
+
+11 &#167; Om varor ska medf&#246;ras av f&#246;rv&#228;rvaren i dennes personliga 
+bagage ska s&#228;ljaren vid till&#228;mpning av undantaget fr&#229;n 
+skatteplikt i 10 kap. 65 &#167; f&#246;rsta stycket merv&#228;rdesskattelagen 
+(2023:200) i sina r&#228;kenskaper ha 
+
+1. ett intyg som visar att f&#246;rv&#228;rvaren har medf&#246;rt varorna 
+till en plats utanf&#246;r EU och som &#228;r utf&#228;rdat av en 
+intygsgivare som &#228;r godk&#228;nd av Skatteverket, eller 
+
+2. en faktura eller en motsvarande handling p&#229;st&#228;mplad av det 
+tullkontor d&#228;r varan l&#228;mnade EU f&#246;r att medf&#246;ras till en plats 
+utanf&#246;r EU.
+
+12 &#167; Vid f&#246;rs&#228;ljning i transithallar p&#229; flygplatser, eller om 
+det annars finns s&#228;rskilda sk&#228;l, kan s&#228;ljaren anses ha 
+fullgjort sin skyldighet enligt 11 &#167; &#228;ven utan de handlingar 
+som anges d&#228;r.
+
+13 &#167; Om en vara har f&#246;rv&#228;rvats i ett annat EU-land av en 
+fysisk person som &#228;r bosatt eller stadigvarande vistas p&#229; en 
+plats utanf&#246;r EU och f&#246;rv&#228;rvaren vid utresa fr&#229;n Sverige f&#246;r 
+med sig varan till en plats utanf&#246;r EU, ska tullkontoret d&#228;r 
+varan l&#228;mnar Sverige p&#229; f&#246;rv&#228;rvarens beg&#228;ran intyga utf&#246;rseln 
+genom en st&#228;mpel p&#229; den faktura eller motsvarande handling som 
+ligger till grund f&#246;r varuleveransen.
+
+Intyg vid leverans av motorfordon till utl&#228;ndska beskickningar 
+m.fl.
+
+14 &#167; Det intyg som avses i 10 kap. 78 &#167; andra stycket 
+merv&#228;rdesskattelagen (2023:200) ska vara utf&#228;rdat av 
+Utrikesdepartementet.
+
+Leverant&#246;ren ska ge in en kopia av intyget och en kopia av 
+fakturan till Skatteverket.
+
+Varor i vissa lager
+
+15 &#167; I fr&#229;ga om beskattning enligt 11 kap. 6 &#167; 
+merv&#228;rdesskattelagen (2023:200) &#228;r Skatteverket 
+beskattningsmyndighet om inte annat f&#246;ljer av andra stycket. 
+
+I fr&#229;ga om varor i en anl&#228;ggning f&#246;r tillf&#228;llig lagring, ett 
+tullager eller en frizon &#228;r Tullverket beskattningsmyndighet i 
+de fall varorna inte levereras enligt 11 kap. 4 &#167; 3 
+merv&#228;rdesskattelagen och det f&#246;ljer av 2 kap. 1 och 2 &#167;&#167; 
+tullagen (2016:253) att merv&#228;rdesskatt ska tas ut i enlighet 
+med tullagen.
+
+16 &#167; Om varor ska levereras p&#229; s&#229;dant s&#228;tt som avses i 11 kap. 
+4 &#167; 3 merv&#228;rdesskattelagen (2023:200), ska den som lagt upp 
+varorna i anl&#228;ggningen f&#246;r tillf&#228;llig lagring, tullagret eller 
+frizonen l&#228;mna uppgift om detta till Tullverket snarast och 
+senast n&#228;r varorna upph&#246;r att vara placerade p&#229; ett s&#229;dant 
+s&#228;tt. 
+
+Om en s&#229;dan uppgift har l&#228;mnats ska Tullverket underr&#228;tta 
+Skatteverket om det.
+
+Frivillig beskattning
+
+17 &#167; Det intyg som avses i 12 kap. 10 &#167; merv&#228;rdesskattelagen 
+(2023:200) ska vara utf&#228;rdat av Utrikesdepartementet.
+
+&#197;terbetalning till beskattningsbara personer etablerade i 
+andra EU-l&#228;nder
+
+18 &#167; I 19-25 &#167;&#167; finns f&#246;reskrifter om s&#229;dana ans&#246;kningar om 
+&#229;terbetalning av ing&#229;ende skatt till beskattningsbara personer 
+etablerade i andra EU-l&#228;nder som avses i 14 kap. 12 &#167; f&#246;rsta 
+stycket merv&#228;rdesskattelagen (2023:200). 
+
+Skatteverket f&#229;r meddela f&#246;reskrifter om verkst&#228;lligheten av 
+best&#228;mmelserna i 23 och 24 &#167;&#167;.
+
+Vilka spr&#229;k som f&#229;r anv&#228;ndas i ans&#246;kan och vid kommunikation
+
+19 &#167; En ans&#246;kan om &#229;terbetalning ska vara skriven p&#229; svenska 
+eller engelska. 
+
+Detsamma g&#228;ller den kommunikation som sker med anledning av 
+att Skatteverket beg&#228;r ytterligare uppgifter enligt 14 kap. 18 
+eller 19 &#167; merv&#228;rdesskattelagen (2023:200).
+
+Ans&#246;kans inneh&#229;ll
+
+20 &#167; En ans&#246;kan ska inneh&#229;lla f&#246;ljande uppgifter: 
+
+1. s&#246;kandens namn och fullst&#228;ndiga adress, 
+
+2. en adress f&#246;r kontakt p&#229; elektronisk v&#228;g, 
+
+3. en beskrivning av s&#246;kandens aff&#228;rsverksamhet f&#246;r vilken 
+varorna och tj&#228;nsterna f&#246;rv&#228;rvats, 
+
+4. uppgift om vilken &#229;terbetalningsperiod ans&#246;kan avser, 
+
+5. s&#246;kandens registreringsnummer f&#246;r merv&#228;rdesskatt eller 
+skatteregistreringsnummer, och 
+
+6. uppgifter om bankkonto f&#246;r &#229;terbetalning, inbegripet IBAN- 
+och BIC-koder. 
+
+Ans&#246;kan ska ocks&#229; inneh&#229;lla en f&#246;rklaring fr&#229;n s&#246;kanden om att 
+denne under &#229;terbetalningsperioden inte har levererat n&#229;gra 
+andra varor eller tillhandah&#229;llit n&#229;gra andra tj&#228;nster inom 
+landet &#228;n s&#229;dana som anges i 14 kap. 4-6 &#167;&#167; 
+merv&#228;rdesskattelagen (2023:200).
+
+21 &#167; Den beskrivning av s&#246;kandens aff&#228;rsverksamhet som avses i 
+20 &#167; 3 ska anges med hj&#228;lp av de harmoniserade koder som 
+fastst&#228;llts i enlighet med artikel 48.3 andra stycket i 
+f&#246;rordningen om administrativt samarbete.
+
+22 &#167; En ans&#246;kan ska f&#246;r varje faktura eller importdokument 
+inneh&#229;lla f&#246;ljande uppgifter: 
+
+1. varu- eller tj&#228;nsteleverant&#246;rens namn och fullst&#228;ndiga 
+adress, 
+
+2. varu- eller tj&#228;nsteleverant&#246;rens registreringsnummer f&#246;r 
+merv&#228;rdesskatt, 
+
+3. prefixet f&#246;r Sverige enligt artikel 215 i 
+merv&#228;rdesskattedirektivet, 
+
+4. fakturans eller importdokumentets datum och nummer, 
+
+5. beskattningsunderlaget och merv&#228;rdesskattebeloppet, 
+
+6. den ing&#229;ende skatt f&#246;r vilken det finns r&#228;tt till 
+&#229;terbetalning enligt 14 kap. 7-9 &#167;&#167; merv&#228;rdesskattelagen 
+(2023:200) uttryckt i svenska kronor, 
+
+7. den avdragsgilla andelen, uttryckt i procent, som ber&#228;knats 
+i enlighet med till&#228;mpning av artikel 173 i 
+merv&#228;rdesskattedirektivet i det EU-land d&#228;r s&#246;kanden &#228;r 
+etablerad, om s&#246;kanden utf&#246;r transaktioner som medf&#246;r 
+respektive inte medf&#246;r r&#228;tt till avdrag av ing&#229;ende skatt, och 
+
+8. de f&#246;rv&#228;rvade varornas och tj&#228;nsternas art, beskrivna med 
+koderna i 23 &#167;. 
+
+F&#246;rsta stycket 2 och 3 g&#228;ller inte i fr&#229;ga om import.
+
+23 &#167; I ans&#246;kan ska de f&#246;rv&#228;rvade varornas och tj&#228;nsternas art, 
+f&#246;r varje faktura eller importdokument, beskrivas med f&#246;ljande 
+koder:
+
+F&#246;r		                        anv&#228;nds kod
+
+br&#228;nsle,		                1
+hyra av transportmedel,		        2
+utgifter med anknytning till 
+transportmedel (bortsett fr&#229;n de 
+varor och tj&#228;nster som h&#228;nf&#246;rs till 
+kod 1 eller 2),	                        3
+v&#228;gtullar och v&#228;gavgifter,		4
+utgifter f&#246;r resor, s&#229;som 
+passageraravgift f&#246;r taxi och 
+kollektivtrafik,                        5
+logi,	                        	6
+mat, dryck och restaurangtj&#228;nster,	7
+intr&#228;desavgifter till m&#228;ssor och 
+utst&#228;llningar,	                        8
+utgifter f&#246;r lyxartiklar, underh&#229;llning 
+och representation,                     9
+&#246;vrigt		                        10
+
+Om s&#246;kanden anv&#228;nder kod 10 ska de levererade varornas och 
+tillhandah&#229;llna tj&#228;nsternas art anges.
+
+24 &#167; S&#246;kanden ska l&#228;mna ytterligare uppgifter f&#246;r att beskriva 
+varornas eller tj&#228;nsternas art n&#228;r uppgifterna beh&#246;vs p&#229; grund 
+av 
+
+1. begr&#228;nsningar av avdragsr&#228;tten enligt f&#246;ljande best&#228;mmelser 
+i merv&#228;rdesskattelagen (2023:200):  
+
+- 13 kap. 18 och 19 &#167;&#167; om f&#246;rs&#228;ljning fr&#229;n fartyg p&#229; vissa 
+linjer, 
+
+- 13 kap. 20-23 &#167;&#167; om personbilar och motorcyklar, 
+
+- 13 kap. 24 och 25 &#167;&#167; om representation och liknande &#228;ndam&#229;l, 
+
+- 13 kap. 26 och 27 &#167;&#167; om stadigvarande bostad, 
+
+- 19 kap. 8 &#167; om tillhandah&#229;llande av resetj&#228;nster, eller 
+
+2. vad som f&#246;reskrivs i lagen (2000:142) om avtal med Danmark 
+om merv&#228;rdesskatt f&#246;r den fasta v&#228;gf&#246;rbindelsen &#246;ver &#214;resund.
+
+25 &#167; S&#246;kanden ska l&#228;mna de uppgifter som avses i 24 &#167; genom 
+att anv&#228;nda f&#246;ljande av de koder som anges i bilaga III till 
+kommissionens genomf&#246;randef&#246;rordning nr 79/2012: 
+
+F&#246;r		                        anv&#228;nds kod
+
+hyra av transportmedel med en vikt av 
+mer &#228;n 3 500 kilogram, bortsett fr&#229;n 
+transportmedel f&#246;r betalande 
+passagerare,                            2.1
+
+hyra av transportmedel med en vikt av 
+h&#246;gst 3 500 kilogram, bortsett fr&#229;n 
+transportmedel f&#246;r betalande 
+passagerare,                            2.2
+
+hyra av transportmedel f&#246;r betalande 
+passagerare,	                        2.3
+
+f&#246;rv&#228;rv av transportmedel med en vikt 
+av mer &#228;n 3 500 kilogram, bortsett 
+fr&#229;n transportmedel f&#246;r betalande 
+passagerare,	                        3.1.1
+
+f&#246;rv&#228;rv av transportmedel med en vikt 
+av h&#246;gst 3 500 kilogram, bortsett fr&#229;n 
+transportmedel f&#246;r betalande 
+passagerare,                            3.2.1
+
+f&#246;rv&#228;rv av transportmedel f&#246;r 
+betalande passagerare,	                3.3.1
+
+v&#228;gtullar f&#246;r &#214;resundsbron,		4.5
+
+utgifter f&#246;r mottagningar och 
+representation,		                9.3
+
+arbete p&#229; fastighet,		        10.4.1
+
+arbete p&#229; fastighet som anv&#228;nds som 
+bostad,		                        10.4.2
+
+f&#246;rv&#228;rv eller hyra av fastighet som 
+anv&#228;nds som bostad eller f&#246;r 
+rekreations- eller fritids&#228;ndam&#229;l,      10.5.2
+
+varor och tj&#228;nster som f&#246;rv&#228;rvas av 
+en researrang&#246;r och kommer 
+resen&#228;ren direkt till godo	        10.13
+
+N&#228;r originalhandlingar ska &#229;ters&#228;ndas
+
+26 &#167; Skatteverket ska senast i samband med att s&#246;kanden 
+meddelas beslut om &#229;terbetalning &#229;ters&#228;nda en originalhandling 
+som tagits emot i enlighet med 14 kap. 19 &#167; 
+merv&#228;rdesskattelagen (2023:200) till den som gett in 
+handlingen till Skatteverket. Detsamma g&#228;ller om en ans&#246;kan 
+anses ha avslagits enligt 14 kap. 23 &#167; samma lag.
+
+&#197;terbetalning till beskattningsbara personer som inte &#228;r 
+etablerade inom EU
+
+Verkst&#228;llighetsf&#246;reskrifter
+
+27 &#167; Skatteverket f&#229;r meddela de n&#228;rmare f&#246;reskrifter som 
+avses i 14 kap. 41 &#167; andra stycket merv&#228;rdesskattelagen 
+(2023:200) om ans&#246;kans inneh&#229;ll, vilka spr&#229;k som f&#229;r anv&#228;ndas 
+i en ans&#246;kan och om vilka handlingar som ska bifogas en 
+ans&#246;kan om &#229;terbetalning.
+
+Handlingar som ska bifogas en ans&#246;kan
+
+28 &#167; Till en ans&#246;kan ska f&#246;ljande handlingar ges in: 
+
+1. Ett av en beh&#246;rig myndighet utf&#228;rdat intyg som visar att 
+s&#246;kanden kan anses som en beskattningsbar person. 
+
+2. Om den ing&#229;ende skatten avser ett f&#246;rv&#228;rv: fakturan i 
+original. Om en faktura h&#228;nvisar till underliggande fakturor 
+ska &#228;ven dessa bifogas. 
+
+3. Om den ing&#229;ende skatten avser en s&#229;dan leverans av varor 
+eller ett s&#229;dant tillhandah&#229;llande av tj&#228;nster i Sverige som 
+avses i 14 kap. 35 &#167; merv&#228;rdesskattelagen (2023:200) f&#246;r vilka 
+f&#246;rv&#228;rvaren &#228;r skyldig att betala merv&#228;rdesskatten: fakturan 
+avseende s&#246;kandens efterf&#246;ljande leverans av varor eller 
+tillhandah&#229;llande av tj&#228;nster i Sverige. Om en faktura 
+h&#228;nvisar till underliggande fakturor ska &#228;ven dessa bifogas. 
+
+4. Om den ing&#229;ende skatten avser en import av varor: ett 
+importdokument utf&#228;rdat av Tullverket. 
+
+5. Andra handlingar som beh&#246;vs f&#246;r att Skatteverket ska kunna 
+bed&#246;ma s&#246;kandens r&#228;tt till &#229;terbetalning.
+
+N&#228;r originalhandlingar ska &#229;ters&#228;ndas
+
+29 &#167; Skatteverket ska senast i samband med att beslut om 
+&#229;terbetalning meddelas den s&#246;kande &#229;ters&#228;nda en 
+originalhandling som tagits emot i enlighet med 28 &#167; till den 
+som gett in handlingen till Skatteverket.
+
+&#197;terbetalningsans&#246;kningar riktade till andra EU-l&#228;nder
+
+Verkst&#228;llighetsf&#246;reskrifter
+
+30 &#167; Skatteverket f&#229;r meddela f&#246;reskrifter om verkst&#228;lligheten 
+av best&#228;mmelserna om hur en ans&#246;kan om &#229;terbetalning ska g&#246;ras 
+enligt 14 kap. 55 &#167; f&#246;rsta stycket merv&#228;rdesskattelagen 
+(2023:200).
+
+Kreditering p&#229; skattekonto
+
+31 &#167; En &#246;verf&#246;ring av &#229;terbetalning av merv&#228;rdesskatt enligt 
+artikel 48.1 andra stycket i f&#246;rordningen om administrativt 
+samarbete ska krediteras ett s&#229;dant skattekonto som avses i 
+61 kap. 1 &#167; skattef&#246;rfarandelagen (2011:1244).
+
+Handel med investeringsguld
+
+32 &#167; Skatteverket ska senast den 1 juni varje &#229;r underr&#228;tta 
+Finansdepartementet om vilka guldmynt som uppfyller de 
+kriterier som anges i 21 kap. 2 &#167; 2 merv&#228;rdesskattelagen 
+(2023:200) och som &#228;r f&#246;rem&#229;l f&#246;r handel i Sverige.
+
+S&#228;rskilda ordningar f&#246;r distansf&#246;rs&#228;ljning av varor och vissa 
+tillhandah&#229;llanden av tj&#228;nster
+
+Ans&#246;kan om identifieringsbeslut f&#246;r tredjelandsordningen
+
+33 &#167; En ans&#246;kan om s&#229;dant identifieringsbeslut f&#246;r 
+tredjelandsordningen som avses i 22 kap. 11 &#167; 
+merv&#228;rdesskattelagen (2023:200) ska inneh&#229;lla f&#246;ljande 
+uppgifter: 
+
+1. namn, 
+
+2. postadress, 
+
+3. elektroniska adresser (inbegripet webbplatser), och 
+
+4. nationellt skattenummer, 
+
+5. en f&#246;rs&#228;kran om att s&#246;kanden inte har s&#228;tet f&#246;r sin 
+ekonomiska verksamhet eller ett fast etableringsst&#228;lle i 
+Sverige eller i ett annat EU-land, och 
+
+6. uppgift om n&#228;r den beskattningsbara verksamheten &#228;r 
+planerad att inledas.
+
+Ans&#246;kan om identifieringsbeslut f&#246;r importordningen
+
+34 &#167; En ans&#246;kan om s&#229;dant identifieringsbeslut f&#246;r 
+importordningen som avses i 22 kap. 15 &#167; merv&#228;rdesskattelagen 
+(2023:200) ska, om ans&#246;kan g&#246;rs av en beskattningsbar person 
+som inte f&#246;retr&#228;ds av en representant, inneh&#229;lla f&#246;ljande 
+uppgifter: 
+
+1. namn, 
+
+2. postadress, 
+
+3. elektroniska adresser (inbegripet webbplatser), och 
+
+4. registreringsnummer f&#246;r merv&#228;rdesskatt eller nationellt 
+skattenummer.
+
+Ans&#246;kan ska ocks&#229; inneh&#229;lla uppgift om n&#228;r den 
+beskattningsbara verksamheten inom ramen f&#246;r importordningen 
+&#228;r planerad att inledas.
+
+35 &#167; En representants ans&#246;kan om ett identifieringsbeslut 
+enligt 22 kap. 15 &#167; 1 b merv&#228;rdesskattelagen (2023:200) ska 
+inneh&#229;lla f&#246;ljande uppgifter om representanten: 
+
+1. namn, 
+
+2. postadress,
+
+3. elektronisk adress, och 
+
+4. registreringsnummer f&#246;r merv&#228;rdesskatt. 
+
+Ans&#246;kan ska ocks&#229; inneh&#229;lla de uppgifter som avses i 34 &#167; f&#246;r 
+varje beskattningsbar person som representanten f&#246;retr&#228;der och 
+det s&#228;rskilda identifieringsnummer som representanten har 
+tilldelats.
+
+Identifieringsnummer
+
+36 &#167; Skatteverket f&#229;r meddela f&#246;reskrifter om utformningen av 
+identifieringsnummer enligt 22 kap. 23 &#167; merv&#228;rdesskattelagen 
+(2023:200).
+
+37 &#167; Den som omfattas av ett identifieringsbeslut enligt 
+22 kap. merv&#228;rdesskattelagen (2023:200) och som inte redan har 
+ett registreringsnummer f&#246;r merv&#228;rdesskatt h&#228;r i landet ska p&#229; 
+elektronisk v&#228;g f&#229; underr&#228;ttelse fr&#229;n Skatteverket om sitt 
+identifieringsnummer enligt 22 kap. 23 &#167; i den lagen. 
+
+Vid ett identifieringsbeslut enligt 22 kap. 15 &#167; 1 b 
+merv&#228;rdesskattelagen ska Skatteverket p&#229; elektronisk v&#228;g 
+underr&#228;tta representanten om 
+
+1. det s&#228;rskilda identifieringsnummer som tilldelats 
+representanten, och 
+
+2. det separata identifieringsnummer som tilldelats 
+representanten f&#246;r varje beskattningsbar person som 
+representanten f&#246;retr&#228;der enligt 22 kap. 25 &#167; andra stycket i 
+den lagen.
+
+Valutaomr&#228;kning till euro
+
+38 &#167; Om ett belopp ska redovisas i en s&#228;rskild 
+merv&#228;rdesskattedeklaration enligt 22 kap. merv&#228;rdesskattelagen 
+(2023:200) och varorna har levererats eller tj&#228;nsterna har 
+tillhandah&#229;llits i en annan valuta &#228;n euro, ska beloppet 
+r&#228;knas om till euro. Omr&#228;kningen ska g&#246;ras enligt den 
+v&#228;xelkurs som offentliggjorts av Europeiska centralbanken f&#246;r 
+den sista dagen i redovisningsperioden eller, om n&#229;gon kurs 
+inte har offentliggjorts f&#246;r den dagen, enligt den v&#228;xelkurs 
+som offentligg&#246;rs n&#228;rmast d&#228;refter.
+
+Redovisning av inbetald skatt fr&#229;n konto f&#246;r skattebetalningar
+
+39 &#167; Den som f&#246;r det konto f&#246;r skattebetalningar som avses i 
+22 kap. 44 &#167; andra stycket merv&#228;rdesskattelagen (2023:200) ska 
+redovisa inbetald skatt till Skatteverket.
+
+Informationsutbyte mellan EU-l&#228;nder
+
+40 &#167; Best&#228;mmelser om f&#246;rfarandet f&#246;r utbyte av information och 
+&#246;verf&#246;ring av pengar mellan EU-l&#228;ndernas beh&#246;riga myndigheter 
+n&#228;r det g&#228;ller s&#229;dan merv&#228;rdesskatt som omfattas av 
+best&#228;mmelserna i 22 kap. merv&#228;rdesskattelagen (2023:200) eller 
+av motsvarande best&#228;mmelser i ett annat EU-land finns i r&#229;dets 
+f&#246;rordning om administrativt samarbete.
+
+F&#246;rvaring och gallring
+
+41 &#167; F&#246;r deklarationer och &#246;vriga uppgifter som har l&#228;mnats 
+till Skatteverket enligt 22 kap. merv&#228;rdesskattelagen 
+(2023:200) eller enligt motsvarande best&#228;mmelser i ett annat 
+EU-land till&#228;mpas best&#228;mmelserna om f&#246;rvaring och gallring i 
+20 kap. 1 &#167;, 2 &#167; f&#246;rsta stycket och 3 &#167; 
+skattef&#246;rfarandef&#246;rordningen (2011:1261). Detsamma g&#228;ller f&#246;r 
+uppgifter i handlingar som har uppr&#228;ttats eller tagits om hand 
+f&#246;r granskning av Skatteverket enligt 22 kap. 
+merv&#228;rdesskattelagen eller enligt motsvarande best&#228;mmelser i 
+ett annat EU-land.
+
+Verkst&#228;llighetsf&#246;reskrifter
+
+42 &#167; Skatteverket f&#229;r meddela f&#246;reskrifter om verkst&#228;lligheten 
+av best&#228;mmelserna i merv&#228;rdesskattelagen (2023:200) som r&#246;r 
+
+1. merv&#228;rdesskattegrupper i 4 kap. 7-14 &#167;&#167;, 
+
+2. anm&#228;lningsskyldighet vid frivillig beskattning f&#246;r 
+fastighetsuppl&#229;telser i 12 kap. 20 och 21 &#167;&#167;,
+
+3. f&#246;renklad faktura i 17 kap. 26 &#167; 1 och 2, 
+
+4. faktura som utf&#228;rdas och tas emot i ett elektroniskt 
+format, 
+
+5. investeringsguld i 21 kap. 5-9 &#167;&#167;, 
+
+6. s&#228;rskilda ordningar f&#246;r distansf&#246;rs&#228;ljning av varor och 
+vissa tillhandah&#229;llanden av tj&#228;nster i 22 kap., och 
+
+7. verksamhet i exportbutik enligt lagen (1999:445) om 
+exportbutiker.
+
+43 &#167; Skatteverket f&#229;r, efter att ha gett Tullverket tillf&#228;lle 
+att yttra sig, meddela f&#246;reskrifter om verkst&#228;lligheten av 
+best&#228;mmelserna i merv&#228;rdesskattelagen (2023:200) som r&#246;r 
+
+1. varor i vissa lager i 11 kap., och 
+
+2. import av varor.
+
+44 &#167; Skatteverket f&#229;r meddela f&#246;reskrifter om verkst&#228;lligheten 
+av best&#228;mmelserna i 33-41 &#167;&#167;.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2023:328
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2023.
+
+2. Genom f&#246;rordningen upph&#228;vs
+
+a) merv&#228;rdesskattef&#246;rordningen (1994:223), och
+
+b) f&#246;rordningen (2011:1262) om s&#228;rskilda ordningar f&#246;r 
+merv&#228;rdesskatt f&#246;r distansf&#246;rs&#228;ljning av varor och f&#246;r 
+tj&#228;nster.
+
+3. De upph&#228;vda f&#246;rordningarna g&#228;ller fortfarande f&#246;r 
+f&#246;rh&#229;llanden som h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=105">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=107">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

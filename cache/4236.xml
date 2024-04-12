@@ -1,0 +1,956 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2020-07-13" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4236</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4235">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4237">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1970:995 ·
+                    <a href="/sfsr?bet=1970:995">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1970:995) om inf&#246;rande av nya jordabalken</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1970-12-17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2020:364
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Allm&#228;nna best&#228;mmelser
+
+1 &#167; Den nu antagna jordabalken samt denna lag tr&#228;der i kraft den 1
+januari 1972.
+
+2 &#167; Genom nya balken upph&#228;ves med den begr&#228;nsning som f&#246;ljer av denna
+lag
+
+jordabalken i 1734 &#229;rs lag,
+
+f&#246;rordningen den 10 april 1810 ang&#229;ende lagfart med f&#246;rpantad fast
+egendom, n&#228;r pant&#228;garen ej &#228;r till namn eller vistelseort bekant, samt
+om fr&#228;lser&#228;ntas f&#246;rv&#228;rvande och lagfart d&#228;r&#229;,
+
+f&#246;rordningen den 1 maj 1810 ang&#229;ende f&#246;rbud att, vid k&#246;p eller skifte
+av fastighet, f&#246;rbeh&#229;lla sig att egendomen framdeles &#229;tervinna,
+
+f&#246;rordningen (1835:16 s. 1) ang&#229;ende hembud av fr&#228;lser&#228;nta till den,
+som skattejorden &#228;ger, n&#228;r fr&#228;lser&#228;ntan s&#228;ljes utom b&#246;rd,
+
+f&#246;rordningen (1857:60) ang&#229;ende vad i testamente givas m&#229;, s&#229; ock om
+g&#229;va av fast egendom,
+
+f&#246;rordningen (1875: 42 s. 1) ang&#229;ende lagfart &#229; f&#229;ng till fast
+egendom,
+
+f&#246;rordningen (1875:42 s. 12) ang&#229;ende inteckning i fast egendom,
+
+f&#246;rordningen (1875:42 s. 35) ang&#229;ende s&#228;rskilda protokoll &#246;ver
+lagfarter, inteckningar och andra &#228;renden,
+
+f&#246;rordningen (1880:36), innefattande s&#228;rskilda f&#246;reskrifter ang&#229;ende
+lagfart, inteckning och utm&#228;tning av j&#228;rnv&#228;g, s&#229; ock i fr&#229;ga om
+f&#246;rvaltning av j&#228;rnv&#228;g under konkurs,
+
+f&#246;rordningen (1881:17 s. 1) om tjugu&#229;rig h&#228;vd,
+
+lagen (1884:32 s. 3) ang&#229;ende utstr&#228;ckt till&#228;mpning av de i
+f&#246;rordningen den 15 oktober 1880 meddelade s&#228;rskilda f&#246;reskrifter
+ang&#229;ende lagfart, inteckning och utm&#228;tning av j&#228;rnv&#228;g, s&#229; ock i fr&#229;ga
+om f&#246;rvaltning av j&#228;rnv&#228;g under konkurs,
+
+lagen (1907:36 s. 1) om nyttjander&#228;tt till fast egendom,
+
+lagen (1907:36 s. 25) om servitut,
+
+lagen (1907:36 s. 27) om inskrivning av tomtr&#228;tt och vattenfallsr&#228;tt
+samt av f&#229;ng till s&#229;dan r&#228;tt,
+
+lagen (1920:474) med vissa best&#228;mmelser om registrering av elektriska
+anl&#228;ggningar samt om r&#228;tt till elektrisk kraft m.m.,
+
+lagen (1932:170) med s&#228;rskilda best&#228;mmelser om handl&#228;ggning av
+inskrivnings&#228;renden,
+
+lagen (1932:230) med s&#228;rskilda best&#228;mmelser om &#228;ldre &#228;gogr&#228;nser,
+
+lagen (1934:255) ang&#229;ende anteckning om innehav av fordringshandling
+p&#229; grund varav inteckning beviljats i fast egendom m.m.,
+
+lagen (1943:884) om arrendators f&#246;rk&#246;psr&#228;tt,
+
+lagen (1946:147) med s&#228;rskilda best&#228;mmelser om arrende av viss
+kommunal jord,
+
+lagen (1952:95) om ogiltighet av s&#228;mjedelning av jord inom vissa
+delar av Kopparbergs l&#228;n,
+
+lagen (1953:422) om inteckning i tomtr&#228;tt och vattenfallsr&#228;tt,
+
+lagen (1962:166) ang&#229;ende f&#246;rbud mot s&#228;mjedelning av fast egendom,
+
+lagen (1966:453) om vad som &#228;r fast egendom,
+
+vad som i annan f&#246;rfattning strider mot nya balken eller denna lag.
+
+3 &#167; F&#246;rekommer i lag eller annan f&#246;rfattning h&#228;nvisning till
+f&#246;reskrift som ersatts genom best&#228;mmelse i nya balken eller i denna
+lag, skall i st&#228;llet den nya best&#228;mmelsen till&#228;mpas.
+
+Best&#228;mmelse i lag eller annan f&#246;rfattning om inteckning f&#246;r
+nyttjander&#228;tt, servitut eller r&#228;tt till elektrisk kraft skall g&#228;lla
+inskrivning av s&#229;dan r&#228;tt enligt nya balken.
+
+Best&#228;mmelser ang&#229;ende vissa &#228;ldre r&#228;ttsinstitut
+
+4 &#167; S&#229;dan l&#246;sningsr&#228;tt avseende ofri tomt i stad, som f&#246;ljer av 4 kap.
+6 &#167; &#228;ldre jordabalken j&#228;mf&#246;rd med f&#246;rordningen (1875:42 s. 9) ang&#229;ende
+upph&#246;rande av hembudsskyldighet, skall intill utg&#229;ngen av &#229;r 1988
+fortfarande tillkomma markens &#228;gare men upph&#246;r d&#228;refter att g&#228;lla.
+S&#228;ljes ofri tomt f&#246;re n&#228;mnda tidpunkt utan att l&#246;sningsr&#228;tten ut&#246;vas,
+upph&#246;r l&#246;sningsr&#228;tten till tomten.
+
+&#196;r m&#229;l om ut&#246;vande av l&#246;sningsr&#228;tt anh&#228;ngigt hos domstol vid utg&#229;ngen
+av &#229;r 1988 pr&#246;vas talan i m&#229;let utan hinder av f&#246;rsta stycket f&#246;rsta
+punkten enligt &#228;ldre lag.
+
+Vid den tidpunkt d&#229; l&#246;sningsr&#228;tt som avses i f&#246;rsta stycket upph&#246;r,
+&#246;verg&#229;r &#228;gander&#228;tten till den fastighet eller del av fastighet som har
+uppl&#229;tits som ofri tomt i stad p&#229; den som d&#229; innehar besittningsr&#228;tten
+till grunden som ofri tomt.
+
+Talan om ut&#246;vande av l&#246;sningsr&#228;tten v&#228;ckes genom ans&#246;kan om st&#228;mning
+till fastighetsdomstol. I fr&#229;ga om anteckning i fastighetsboken
+ang&#229;ende talan som nyss sagts &#228;ger 19 kap. 20 &#167; f&#246;rsta och andra
+styckena nya balken motsvarande till&#228;mpning.
+
+&#196;r m&#229;l om ut&#246;vande av l&#246;sningsr&#228;tt anh&#228;ngigt hos domstol vid nya
+balkens ikrafttr&#228;dande handl&#228;gges m&#229;let enligt &#228;ldre best&#228;mmelser. Lag
+(1973:897).
+
+5 &#167; H&#228;ftar fast egendom, som &#246;verl&#229;tits f&#246;re nya balkens
+ikrafttr&#228;dande, f&#246;r fordran p&#229; ogulden k&#246;peskilling med r&#228;tt till
+f&#246;retr&#228;de enligt 11 kap. 2 &#167; &#228;ldre jordabalken eller f&#246;r r&#228;ttighet
+varmed f&#246;ljer samma r&#228;tt i f&#246;rh&#229;llande till k&#246;parens borgen&#228;rer p&#229;
+grund av f&#246;rordningen (1875:42 s. 12) ang&#229;ende inteckning i fast
+egendom, &#228;r innehavaren av fordringen eller r&#228;ttigheten efter
+ikrafttr&#228;dandet bibeh&#229;llen vid sin f&#246;retr&#228;desr&#228;tt. Har inteckning ej
+s&#246;kts f&#246;re ikrafttr&#228;dandet, g&#228;ller f&#246;retr&#228;desr&#228;tten dock endast om
+inteckning eller inskrivning enligt nya balken s&#246;kes inom den i 11
+kap. 2 &#167; &#228;ldre jordabalken angivna tiden efter det att lagfart
+beviljats p&#229; grund av &#246;verl&#229;telsen och sist f&#246;re utg&#229;ngen av &#229;r 1981.
+
+F&#246;r att f&#246;retr&#228;desr&#228;tt som anges i f&#246;rsta stycket skall ha blivit
+bevarad genom ans&#246;kan om inteckning eller inskrivning fordras, att
+f&#246;retr&#228;desr&#228;tten anm&#228;rkts i beslutet om inteckning eller inskrivning.
+Har inteckning meddelats f&#246;re nya balkens ikrafttr&#228;dande utan att
+s&#229;dan anm&#228;rkning gjorts, &#228;r f&#246;retr&#228;desr&#228;tten likv&#228;l bevarad, s&#229;vitt
+ang&#229;r fordran dock endast om innehavaren f&#246;re utg&#229;ngen av &#229;r 1972
+ans&#246;ker hos inskrivningsmyndigheten om att f&#246;retr&#228;desr&#228;tten anm&#228;rkes
+i fastighetsboken.
+
+Avstyckas samf&#228;llighet eller viss &#228;govidd av samf&#228;llighet enligt
+fastighetsbildningslagen (1970:988), &#228;ger 6 kap. 16 &#167; andra stycket
+nya balken motsvarande till&#228;mpning p&#229; fordran som avses i f&#246;rsta
+stycket och p&#229; s&#229;dan i samma stycke avsedd r&#228;ttighet som inneb&#228;r r&#228;tt
+till avkomst eller annan f&#246;rm&#229;n.
+
+6 &#167; Genom nya balken inskr&#228;nkes ej den r&#228;tt som f&#246;re balkens
+ikrafttr&#228;dande tillkommit n&#229;gon p&#229; grund av urminnes h&#228;vd.
+
+7 &#167; Best&#228;mmelserna i 16 kap. samt 17 kap. 1, 2 och 5 &#167;&#167; &#228;ldre
+jordabalken &#228;ger fortfarande till&#228;mpning p&#229; stadgad &#229;bor&#228;tt och annan
+nyttjander&#228;tt som ej omfattas av lagen (1907:36 s. 1) om nyttjander&#228;tt
+till fast egendom.
+
+8 &#167; I fr&#229;ga om r&#228;tt till avkomst eller annan f&#246;rm&#229;n av fast egendom
+som uppl&#229;tits f&#246;re nya balkens ikrafttr&#228;dande &#228;ger &#228;ldre best&#228;mmelser
+fortfarande till&#228;mpning, i den m&#229;n ej annat anges i andra-fj&#228;rde
+styckena.
+
+Vid handl&#228;ggning p&#229; inskrivningsdag efter nya balkens ikraftr&#228;dande
+av &#228;rende om r&#228;ttighet som avses i f&#246;rsta stycket &#228;ger best&#228;mmelserna
+i nya balken och denna lag om annan nyttjander&#228;tt &#228;n tomtr&#228;tt
+motsvarande till&#228;mpning.
+
+Vad som f&#246;reskrivits i 54 &#167; tredje stycket f&#246;rordningen (1875:42 s.
+12) ang&#229;ende inteckning i fast egendom om till&#228;mpning av 18 &#167; 2 mom.
+f&#246;rsta stycket samt 32--37 &#167;&#167; n&#228;mnda f&#246;rordning skall avse motsvarande
+best&#228;mmelser i nya balken. H&#228;rvid skall s&#229;vitt ang&#229;r till&#228;mpningen av
+de mot mot 32--37 &#167;&#167; svarande best&#228;mmelserna i nya balken iakttagas
+vad som s&#228;gs i 31 &#167; och 32 &#167; f&#246;rsta stycket denna lag.
+
+Betr&#228;ffande f&#246;retr&#228;de p&#229; grund av inskrivning &#228;ger best&#228;mmelserna i
+nya balken och denna lag om nyttjander&#228;tt motsvarande till&#228;mpning.
+
+Avstyckas samf&#228;llighet eller viss &#228;govidd av samf&#228;llighet enligt
+fastighetsbildningslagen (1970:988), &#228;ger 6 kap. 16 &#167; andra stycket
+nya balken motsvarande till&#228;mpning p&#229; r&#228;ttighet som avses i f&#246;rsta
+stycket.
+
+9 &#167; I fr&#229;ga om j&#228;rnv&#228;g, p&#229; vilken f&#246;rordningen (1880:36),
+innefattande s&#228;rskilda f&#246;reskrifter ang&#229;ende lagfart,
+inteckning och utm&#228;tning av j&#228;rnv&#228;g, s&#229; ock i fr&#229;ga om
+f&#246;rvaltning av j&#228;rnv&#228;g under konkurs &#228;r till&#228;mplig vid nya
+balkens ikrafttr&#228;dande, &#228;ger 1, 2, 4-7, 9, 11, 12 och 14 &#167;&#167;
+nyssn&#228;mnda f&#246;rordning fortfarande till&#228;mpning. Fr&#229;ga om
+tillst&#229;nd som avses i 2 och 7 &#167;&#167; angivna f&#246;rordning pr&#246;vas av
+regeringen eller myndighet som regeringen best&#228;mmer.
+Lag (2008:155).
+
+10 &#167; Best&#228;mmelserna i 5 &#167; lagen (1895:36 s. 1) ang&#229;ende vad
+till fast egendom &#228;r att h&#228;nf&#246;ra skall fortfarande till&#228;mpas i
+fr&#229;ga om byggnad p&#229; ofri tomt i stad, vattenverk p&#229; annans
+grund samt fiskeri, som &#228;r upptaget i kronans jordebok
+(fiskefastighet), om besittningsr&#228;tten best&#229;r efter nya balkens
+ikrafttr&#228;dande. Lag (2000:227).
+
+11 &#167; I fr&#229;ga om arrende- eller hyresavtal betr&#228;ffande s&#229;dan
+fideikommissfastighet som ej &#228;r att anse s&#229;som huvudg&#229;rd till
+fideikomiss &#228;ger 1 kap. 9 &#167; lagen (1907:36 s. 1) om nyttjander&#228;tt till
+fast egendom fortfarande till&#228;mpning.
+
+12 &#167; I fr&#229;ga om vattenfallsr&#228;tt som uppl&#229;tits enligt lagen
+(1907:36 s. 1) om nyttjander&#228;tt till fast egendom skall &#228;ldre
+best&#228;mmelser fortfarande g&#228;lla. Nya balkens best&#228;mmelser om tomtr&#228;tt
+&#228;ger dock motsvarande till&#228;mpning i den m&#229;n de enligt denna lag skall
+g&#228;lla betr&#228;ffande tomtr&#228;tt som uppl&#229;tits f&#246;re ikrafttr&#228;dandet, med det
+undantaget att h&#228;nvisningarna i 52 &#167; denna lag till 13 kap. 21 och 25
+&#167;&#167; nya balken icke skall avse vattenfallsr&#228;tt.
+
+13 &#167; Det f&#246;rbud mot uppl&#229;telse av ofri tomt i stad, som finns i 5 &#167;
+lagen (1907:36 s. 22) om vad iakttagas skall i avseende &#229; inf&#246;rande av
+lagen om nyttjander&#228;tt till fast egendom, skall fortfarande g&#228;lla.
+
+14 &#167; Vad som i lagen (1920:474) med vissa best&#228;mmelser om registrering
+av elektriska anl&#228;ggningar samt om r&#228;tt till elektrisk kraft m.m.
+f&#246;reskrivits ang&#229;ende verkan av registrering av ledning och
+understation samt ang&#229;ende upph&#228;vande av s&#229;dan registrering g&#228;ller
+till utg&#229;ngen av &#229;r 1976.
+
+Har borgen&#228;r vid nya balkens ikrafttr&#228;dande pantr&#228;tt i fastighet med
+huvudstation p&#229; vilken ledning eller understation registrerats och
+intr&#228;ffar den med pantr&#228;tten f&#246;renade fordringens f&#246;rfallodag efter
+utg&#229;ngen av &#229;r 1976, f&#229;r borgen&#228;ren s&#228;ga upp fordringen till betalning
+inom sex m&#229;nader, om s&#228;kerhetens v&#228;rde v&#228;sentligt nedg&#229;r till f&#246;ljd av
+att verkan av registreringen upph&#246;r och g&#228;lden&#228;ren ej efter anfordran
+st&#228;ller ytterligare s&#228;kerhet varmed borgen&#228;ren sk&#228;ligen kan n&#246;jas.
+Upps&#228;gningen f&#229;r icke ske f&#246;rr&#228;n sex m&#229;nader f&#246;rflutit fr&#229;n det
+g&#228;lden&#228;ren anmodats st&#228;lla ytterligare s&#228;kerhet och ej heller f&#246;re
+utg&#229;ngen av &#229;r 1974.
+
+&#214;verg&#229;ngsbest&#228;mmelser ang&#229;ende 1 kap. nya jordabalken
+
+15 &#167; Fr&#229;ga om giltigheten av s&#228;mjedelning som skett f&#246;re nya balkens
+ikrafttr&#228;dande skall fortfarande bed&#246;mas enligt &#228;ldre best&#228;mmelse.
+
+16 &#167; Betr&#228;ffande gr&#228;ns som f&#246;re nya balkens ikrafttr&#228;dande tillkommit
+i annan ordning &#228;n vid lantm&#228;terif&#246;rr&#228;ttning eller s&#229;dan f&#246;rr&#228;ttning
+enligt 6 kap. lagen (1917:269) om fastighetsbildning i stad som
+fastst&#228;llts efter utg&#229;ngen av &#229;r 1932 &#228;ger 1 kap. 3 &#167; f&#246;rsta och andra
+punkterna nya balken icke till&#228;mpning, n&#228;r tvist om gr&#228;nsen uppkommer
+inom tio &#229;r fr&#229;n balkens ikrafttr&#228;dande. Detsamma g&#228;ller annan gr&#228;ns
+som efter sin tillkomst men f&#246;re balkens ikrafttr&#228;dande best&#228;mts vid
+f&#246;rr&#228;ttning. Tvist skall anses ha uppkommit, f&#246;rutom n&#228;r talan v&#228;ckts
+vid domstol, n&#228;r ans&#246;kan om fastighetsbest&#228;mning gjorts eller fr&#229;ga om
+fastighetsindelningens beskaffenhet upptagits till pr&#246;vning vid
+fastighetsbest&#228;mning i samband med fastighetsbildning.
+
+Har betr&#228;ffande gr&#228;ns som avses i f&#246;rsta stycket tvist uppkommit inom
+den d&#228;r angivna tio&#229;rsfristen och f&#246;religger vid f&#246;rr&#228;ttning f&#246;r
+gr&#228;nsens best&#228;mmande s&#229;dana f&#246;rh&#229;llanden att den r&#228;tta str&#228;ckningen av
+&#228;ven annan samtidigt tillkommen gr&#228;ns l&#228;mpligen b&#246;r pr&#246;vas, f&#229;r
+f&#246;rr&#228;ttningen utvidgas till att avse best&#228;mmande ocks&#229; av den andra
+gr&#228;nsen. I s&#229;dant fall anses &#228;ven i fr&#229;ga om denna gr&#228;ns tvist ha
+uppkommit inom tio&#229;rsfristen.
+
+Best&#228;mmes med anledning av tvist som avses i denna paragraf gr&#228;ns till
+annan str&#228;ckning &#228;n den som blivit i laga ordning utm&#228;rkt p&#229; marken,
+har den som avtr&#228;der mark med v&#228;xande skog r&#228;tt till sk&#228;lig ers&#228;ttning
+f&#246;r skogen av den som erh&#229;ller marken.
+
+Har tvisten uppkommit f&#246;re nya balkens ikrafttr&#228;dande, &#228;ger andra och
+tredje styckena till&#228;mpning endast om tvisten d&#229; &#228;nnu ej avgjorts av
+f&#246;rr&#228;ttningsm&#228;n eller &#228;godelningsr&#228;tt.
+
+17 &#167; Om fastighetsgr&#228;ns tillkommit genom &#246;verl&#229;telse av jord f&#246;re nya
+balkens ikrafttr&#228;dande har gr&#228;nsen den str&#228;ckning som med ledning av
+f&#229;ngeshandling, innehav och andra omst&#228;ndigheter kan antagas ha varit
+&#229;syftad.
+
+18 &#167; Har fastighetsgr&#228;ns under minst tjugo &#229;r oklandrat h&#228;vdats i
+annan str&#228;ckning &#228;n den skulle ha enligt lag och framg&#229;r av
+omst&#228;ndigheterna att h&#228;vden grundats p&#229; &#246;verenskommelse som f&#246;re
+balkens ikrafttr&#228;dande ing&#229;tts mellan &#228;garna p&#229; &#246;mse sidor, g&#228;ller den
+str&#228;ckning i vilken gr&#228;nsen s&#229;lunda h&#228;vdats.
+
+&#214;verg&#229;ngsbest&#228;mmelse ang&#229;ende 2 kap. nya jordabalken
+
+19 &#167; Best&#228;mmelsen i 2 kap. 1 &#167; andra stycket nya balken skall i fr&#229;ga
+om elektrisk starkstr&#246;msledning, som omfattas av registrering enligt
+lagen (1920:474) med vissa best&#228;mmelser om registrering av elektrisk
+anl&#228;ggningar samt om r&#228;tt till elektrisk kraft m.m., till&#228;mpas f&#246;rst
+efter utg&#229;ngen av &#229;r 1976 eller, om registreringen upph&#228;ves tidigare,
+efter upph&#246;randet.
+
+&#214;verg&#229;ngsbest&#228;mmelser ang&#229;ende 4 kap. nya jordabalken
+
+20 &#167; I fr&#229;ga om f&#246;rv&#228;rv av fast egendom som &#228;gt rum f&#246;re nya balkens
+ikrafttr&#228;dande &#228;ger &#228;ldre best&#228;mmer fortfarande till&#228;mpning.
+
+21 &#167; Best&#228;mmelsen i 4 kap. 16 &#167; andra stycket nya balken skall i det
+fall att inteckningen beviljats eller s&#246;kts f&#246;re balkens
+ikrafttr&#228;dande ej &#228;ga till&#228;mpning f&#246;rr&#228;n efter utg&#229;ngen av &#229;r 1986.
+
+&#214;verg&#229;ngsbest&#228;mmelse ang&#229;ende 5 kap. nya jordabalken
+
+22 &#167; Best&#228;mmelserna i 5 kap. nya balken skall, d&#229; egendomen avtr&#228;des
+efter balkens ikrafttr&#228;dande, &#228;ga till&#228;mpning &#228;ven om det f&#246;rh&#229;llande
+som f&#246;ranlett avtr&#228;dandet h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+&#214;verg&#229;ngsbest&#228;mmelser ang&#229;ende 6 kap. nya jordabalken
+
+23 &#167; Inteckning f&#246;r fordran som beviljats eller s&#246;kts f&#246;re nya balkens
+ikrafttr&#228;dande skall anses som en enligt nya balkens best&#228;mmelser
+beviljad eller s&#246;kt inteckning p&#229; belopp motsvarande den tidigare
+beviljade eller s&#246;kta inteckningens kapitalbelopp.
+Inteckningshandlingen skall anses som pantbrev p&#229; samma belopp, om
+inteckningen &#228;r beviljad, och som vilandebevis p&#229; beloppet, om
+ans&#246;kningen om inteckning &#228;r f&#246;rklarad vilande.
+
+24 &#167; Utg&#246;r inteckningshandling s&#228;kerhet f&#246;r fordran vid nya balkens
+ikrafttr&#228;dande, skall pantr&#228;tt enligt 6 kap. 2 &#167; nya balken anses
+uppl&#229;ten i fastigheten till s&#228;kerhet f&#246;r fordringen. Om borgen&#228;r
+innehar inteckningshandling vid n&#228;mnda tidpunkt utan att handlingen
+utg&#246;r s&#228;kerhet f&#246;r fordran, skall pantr&#228;tt anses uppl&#229;ten till
+s&#228;kerhet f&#246;r borgen&#228;rens r&#228;tt p&#229; grund av handlingen.
+
+Utan hinder av f&#246;rsta stycket skall 59 &#167; f&#246;rordningen (1875:42 s. 12)
+ang&#229;ende inteckning i fast egendom fortfarande g&#228;lla.
+
+25 &#167; Best&#228;mmelserna i 24 &#167; &#228;ger motsvarande till&#228;mpning i fall d&#229;
+borgen&#228;r vid nya balkens ikrafttr&#228;dande innehar fordringshandling, p&#229;
+grund varav inteckning s&#246;kts, eller s&#229;dan handling som ber&#228;ttigar till
+inteckning enligt 2 &#167; f&#246;rordningen (1875:42 s. 12) ang&#229;ende
+inteckning i fast egendom samt inteckning sedermera beviljas med st&#246;d
+av 61 &#167; f&#246;rsta eller andra stycket denna lag.
+
+Best&#228;mmelserna i 24 &#167; &#228;ger likaledes motsvarande till&#228;mpning, om
+borgen&#228;r vid nya balkens ikrafttr&#228;dande innehar fordringshandling, p&#229;
+vilken tecknats inteckningsmedgivande, och inteckning sedermera
+beviljas med st&#246;d av 61 &#167; tredje stycket.
+
+26 &#167; Har borgen&#228;r pantr&#228;tt f&#246;r sin fordran p&#229; grund av inteckning
+som beviljats f&#246;re nya balkens ikrafttr&#228;dande eller d&#228;refter med st&#246;d
+av 61 &#167; f&#246;rsta eller andra stycket, skall i fr&#229;ga om hans r&#228;tt till
+betalning ur medel, som myndighet vid uts&#246;kning eller eljest f&#246;rdelar
+mellan r&#228;tts&#228;gare i den av inteckningen besv&#228;rade fastigheten, &#228;ldre
+best&#228;mmelser till&#228;mpas i st&#228;llet f&#246;r 6 kap. 3 &#167; nya balken, om det
+yrkas av n&#229;gon vars r&#228;tt beror d&#228;rav. Vad som sagts nu g&#228;ller dock
+endast om f&#246;rdelningen f&#246;ranledes av utm&#228;tning som skett f&#246;re utg&#229;ngen
+av &#229;r 1976 eller av konkurs efter ans&#246;kan som gjorts inom samma tid
+eller, s&#229;vitt ang&#229;r f&#246;rdelning av annan anledning &#228;n utm&#228;tning eller
+konkurs, om medlen nedsatts inom den angivna tiden.
+
+F&#246;rsta stycket g&#228;ller &#228;ven i fall d&#229; efter nya balkens ikrafttr&#228;dande
+inteckningen utstr&#228;ckts eller inteckningshandlingen utbytts mot tv&#229;
+eller flera nya pantbrev.
+
+27 &#167; Grundas pantr&#228;tt i fastighet p&#229; f&#246;rh&#229;llande som anges i 24 &#167;
+eller 25 &#167; f&#246;rsta stycket, har fastighets&#228;garen &#228;ven i annat fall &#228;n
+d&#229; 26 &#167; &#228;r till&#228;mplig r&#228;tt att p&#229;fordra, att vid f&#246;rdelning av medel
+mellan r&#228;tts&#228;gare i fastigheten betalning till borgen&#228;ren begr&#228;nsas i
+enlighet med &#228;ldre best&#228;mmelser.
+
+28 &#167; Medf&#246;r 6 kap. 3 &#167; nya balken, i fall d&#229; pantr&#228;tt i fastighet
+grundas p&#229; f&#246;rh&#229;llande som anges i 24 &#167; eller 25 &#167; f&#246;rsta stycket
+denna lag och fordringens f&#246;rfallodag intr&#228;ffar efter utg&#229;ngen av &#229;r
+1976, att inteckningss&#228;kerhetens v&#228;rde nedg&#229;r v&#228;sentligt och st&#228;ller
+g&#228;lden&#228;ren ej efter anfordran ytterligare s&#228;kerhet varmed borgen&#228;ren
+sk&#228;ligen kan n&#246;jas, f&#229;r borgen&#228;ren s&#228;ga upp fordringen till betalning
+inom sex m&#229;nader. Upps&#228;gning p&#229; grund av vad som sagts nu f&#229;r icke ske
+f&#246;rr&#228;n sex m&#229;nader f&#246;rflutit fr&#229;n det g&#228;lden&#228;ren anmodats st&#228;lla
+ytterligare s&#228;kerhet och ej heller f&#246;re utg&#229;ngen av &#229;r 1974 eller
+senare &#228;n att tiden f&#246;r betalningsskyldighetens fullg&#246;rande infaller
+f&#246;re utg&#229;ngen av &#229;r 1976.
+
+29 &#167; Best&#228;mmelserna i denna lag utg&#246;r ej hinder f&#246;r borgen&#228;r att g&#246;ra
+g&#228;llande personligt betalningsansvar p&#229; grund av inteckningshandling.
+Best&#228;mmelserna i 28 och 29 &#167;&#167; samt 34 &#167; tredje stycket f&#246;rordningen
+(1875:42 s. 12) ang&#229;ende inteckning i fast egendom &#228;ger fortfarande
+till&#228;mpning.
+
+30 &#167; Best&#228;mmelsen i 6 kap. 8 &#167; andra stycket nya balken om verkan av
+att avtal om fastighetsf&#246;rv&#228;rv h&#228;ves av &#246;verl&#229;taren &#228;ger ej
+till&#228;mpning n&#228;r n&#229;gon enligt 11 kap. 4 &#167; &#228;ldre jordabalken &#229;tertager
+jord som han bytt bort mot annan jord.
+
+31 &#167; Har i fr&#229;ga om gemensam inteckning, som beviljats f&#246;re nya
+balkens ikrafttr&#228;dande eller med st&#246;d av 61 &#167; f&#246;rsta eller andra
+stycket denna lag, i inteckningshandlingen visst v&#228;rde blivit utsatt
+p&#229; varje intecknad fastighet, g&#228;ller detta v&#228;rde vid till&#228;mpning av 6
+kap. 10 &#167; f&#246;rsta stycket nya balken.
+
+I fr&#229;ga om avstyckning som verkst&#228;llts f&#246;re nya balkens ikrafttr&#228;dande
+&#228;ger 6 kap. 11 &#167; andra stycket nya balken till&#228;mpning endast om den
+avstyckade fastighetens ansvar f&#246;r inteckningen vid till&#228;mpning av
+&#228;ldre best&#228;mmelser varit att bed&#246;ma enligt 37 &#167; 5 mom. f&#246;rordningen
+(1875:42 s. 12) ang&#229;ende inteckning i fast egendom. Har delning skett
+genom jordavs&#246;ndring och har den avs&#246;ndrade fastighetens ansvar f&#246;r
+inteckningen enligt &#228;ldre best&#228;mmelser varit att bed&#246;ma enligt 37 &#167;
+3 mom. samma f&#246;rordning, &#228;ger 6 kap. 11 &#167; andra stycket nya balken
+motsvarande till&#228;mpning.
+
+Den verkan i fr&#229;ga om fastighets ansvar f&#246;r gemensam inteckning som
+kan ha intr&#228;tt till f&#246;ljd av 33 eller 34 &#167; nyssn&#228;mnda f&#246;rordning skall
+fortfarande best&#229;.
+
+32 &#167; Har fastighet s&#229;lts p&#229; exekutiv auktion f&#246;re nya balkens
+ikrafttr&#228;dande eller har myndighet av annan anledning dessf&#246;rinnan
+f&#246;rdelat medel mellan r&#228;tts&#228;gare i fastighet, &#228;ger &#228;ldre best&#228;mmelser
+till&#228;mpning betr&#228;ffande &#229;tg&#228;rdens verkan p&#229; fastighetens ansvar f&#246;r
+inteckning, &#228;ven om auktionen eller f&#246;rdelningen ej vunnit laga kraft
+vid ikrafttr&#228;dandet.
+
+Avser inteckning andel i fastighet och s&#228;ljes fastigheten p&#229; exekutiv
+auktion efter nya balkens ikrafttr&#228;dande, &#228;r inteckningen utan verkan
+i andelen sedan auktionen vunnit laga kraft och k&#246;peskillingen
+erlagts.
+
+33 &#167; Best&#228;mmelsen i 6 kap. 16 &#167; andra stycket nya balken &#228;ger
+till&#228;mpning endast om avstyckningen skett enligt
+fastighetsbildningslagen (1970:988). Om upph&#246;rande av
+inteckningsansvar i fastighet som enligt &#228;ldre best&#228;mmelser bildats av
+samf&#228;lld mark finns s&#228;rskilda best&#228;mmelser.
+
+&#214;verg&#229;ngsbest&#228;mmelser ang&#229;ende 7--15 kap. nya jordabalken
+
+34 &#167; I fr&#229;ga om nyttjander&#228;tt, servitut och r&#228;tt till elektrisk kraft
+som uppl&#229;tits f&#246;re nya balkens ikrafttr&#228;dande &#228;ger &#228;ldre best&#228;mmelser
+fortfarande till&#228;mpning, om ej annat &#228;r f&#246;reskrivet i denna lag.
+
+35 &#167; Har genom avtal som tr&#228;ffats f&#246;re nya balkens ikrafttr&#228;dande r&#228;tt
+till andel i samf&#228;llt str&#246;mfall uppl&#229;tits s&#229;som nyttjander&#228;tt eller
+servitut och &#228;r vid ikrafttr&#228;dandet andelens &#228;gare bunden av
+uppl&#229;telsen p&#229; den grund att han sj&#228;lv &#228;r uppl&#229;tare eller att han
+f&#246;rv&#228;rvat andelen med f&#246;rbeh&#229;ll om r&#228;ttighetens best&#229;nd, har avtalet
+r&#228;ttsverkan enligt sitt inneh&#229;ll utan hinder av att uppl&#229;telsen avser
+andel i samf&#228;lld egendom. Detsamma g&#228;ller, om r&#228;ttigheten vid
+ikrafttr&#228;dandet &#228;r intecknad eller ans&#246;kan om inteckning av
+r&#228;ttigheten d&#229; &#228;r beroende p&#229; pr&#246;vning.
+
+36 &#167; Vad 7 kap. 14 &#167; nya balken inneh&#229;ller om verkan av att vid
+&#246;verl&#229;telse av fastighet nye &#228;garen &#228;gt eller bort &#228;ga k&#228;nnedom om
+uppl&#229;telse av r&#228;ttighet i fastigheten skall, n&#228;r &#246;verl&#229;telsen &#228;gt rum
+efter balkens ikrafttr&#228;dande, till&#228;mpas &#228;ven i fr&#229;ga om uppl&#229;telse av
+nyttjander&#228;tt eller servitut som skett dessf&#246;rinnan.
+
+37 &#167; Best&#228;mmelserna i 7 kap. 25 &#167; nya balken &#228;ger till&#228;mpning &#228;ven i
+fr&#229;ga om nyttjander&#228;tt, servitut eller r&#228;tt till elektrisk kraft som
+uppl&#229;tits f&#246;re balkens ikrafttr&#228;dande. &#197;tertager n&#229;gon enligt 11 kap.
+4 &#167; &#228;ldre jordabalken jord som han bytt bort mot annan jord, g&#228;ller
+dock i fr&#229;ga om best&#229;ndet av intecknad eller inskriven s&#229;dan r&#228;ttighet
+vad som sagts i n&#228;mnda lagrum.
+
+38 &#167; Best&#228;mmelserna i 8 kap. 8, 8 a, 25 och 26 &#167;&#167; nya balken 
+ska till&#228;mpas &#228;ven p&#229; arrendeavtal som har tr&#228;ffats f&#246;re 
+balkens ikrafttr&#228;dande, om inte n&#229;got annat f&#246;ljer av andra 
+och tredje styckena.
+
+Om avtalet har sagts upp f&#246;re nya balkens ikrafttr&#228;dande ska 
+&#228;ldre best&#228;mmelser om s&#228;ttet f&#246;r upps&#228;gning och om 
+arrender&#228;ttens f&#246;rverkande fortfarande till&#228;mpas.
+
+I fr&#229;ga om avtal som har upph&#246;rt att g&#228;lla f&#246;re nya balkens 
+ikrafttr&#228;dande ska &#228;ldre best&#228;mmelser till&#228;mpas vid ber&#228;kning 
+av den tid inom vilken en jord&#228;gare eller arrendator har att 
+vid talans f&#246;rlust g&#246;ra fordringsanspr&#229;k p&#229; grund av 
+arrendef&#246;rh&#229;llandet g&#228;llande.
+
+Best&#228;mmelserna i 8 kap. 17 och 18 &#167;&#167; samt 9 kap. 30 &#167; nya 
+balken till&#228;mpas n&#228;r en arrendator har f&#246;rsatts i konkurs p&#229; 
+grund av en ans&#246;kan som gjorts efter balkens ikrafttr&#228;dande.
+Lag (2020:364).
+
+39 &#167; &#196;r arrendeavtal som ing&#229;tts f&#246;re nya balkens ikrafttr&#228;dande
+tr&#228;ffat f&#246;r obest&#228;md tid eller med f&#246;rbeh&#229;ll om r&#228;tt f&#246;r s&#229;v&#228;l
+jord&#228;garen som arrendatorn att upps&#228;ga avtalet och sker ej, sedan nya
+balken tr&#228;tt i kraft, upps&#228;gning till den tidpunkt d&#229; p&#229; grund av
+s&#229;dan upps&#228;gning avtalet tidigast kunnat fr&#229;ntr&#228;das, &#228;ger 7--11 kap.
+nya balken till&#228;mpning p&#229; avtalet fr&#229;n n&#228;mnda tidpunkt.
+
+40 &#167; Best&#228;mmelserna i 9 kap. 8--13 &#167;&#167; nya balken &#228;ger till&#228;mpning &#228;ven
+p&#229; avtal om jordbruksarrende som tr&#228;ffats f&#246;re balkens ikrafttr&#228;dande,
+om 2 kap. 51--56 &#167;&#167; lagen (1907:36 s. 1) om nyttjander&#228;tt till fast
+egendom g&#228;ller f&#246;r avtalet. Har underr&#228;ttelse som avses i 2 kap.
+52--54 &#167;&#167; n&#228;mnda lag skett f&#246;re ikrafttr&#228;dandet, &#228;ger dock &#228;ldre
+best&#228;mmelser alltj&#228;mt till&#228;mpning.
+
+41 &#167; Har avtal om jordbruksarrende tr&#228;ffats f&#246;re nya balkens
+ikrafttr&#228;dande och &#228;r uppl&#229;telsen s&#229;dan att 2 kap. 51--56 &#167;&#167; lagen
+(1907:36 s. 1) om nyttjander&#228;tt till fast egendom ej kunnat till&#228;mpas
+p&#229; den, &#228;ger 9 kap. 7--13 &#167;&#167; nya balken till&#228;mpning p&#229; avtalet, om
+antingen arrendatorn ensam eller arrendatorn och f&#246;re honom hans make
+eller n&#229;gon av hans f&#246;r&#228;ldrar vid arrendetidens utg&#229;ng brukat
+arrendest&#228;llet under sammanlagt minst tio &#229;r. Detsamma g&#228;ller, om den
+arrendetid som l&#246;per vid ikrafttr&#228;dandet enligt avtalet utg&#229;r f&#246;rst
+sedan arrendef&#246;rh&#229;llandet varat minst tio &#229;r.
+
+R&#228;tt till f&#246;rl&#228;ngning av arrendeavtal enligt f&#246;rsta stycket tillkommer
+dock ej arrendatorn, om jord&#228;garen f&#246;re utg&#229;ngen av &#229;r 1973, dock
+senast i samband med att tvist som avses i 9 kap. 10 &#167; nya balken
+pr&#246;vas av arrenden&#228;mnden, hos n&#228;mnden beg&#228;r f&#246;rklaring att
+arrender&#228;tten icke skall vara f&#246;renad med r&#228;tt till f&#246;rl&#228;ngning och
+n&#228;mnden med h&#228;nsyn till omst&#228;ndigheterna finner sk&#228;l meddela s&#229;dan
+f&#246;rklaring. Lag (1971:1210).
+
+42 &#167; Inneh&#229;ller arrendeavtal som avses i 40 eller 41 &#167; ej f&#246;rbeh&#229;ll om
+upps&#228;gning, &#228;ger &#228;ven 9 kap. 3 &#167; nya balken till&#228;mpning. Om
+arrendetiden g&#229;r till &#228;nda inom ett &#229;r fr&#229;n balkens ikrafttr&#228;dande,
+anses dock upps&#228;gning som skett inom en m&#229;nad fr&#229;n ikrafttr&#228;dandet ha
+skett i r&#228;tt tid.
+
+F&#246;rl&#228;nges arrendeavtal till f&#246;ljd av f&#246;rsta stycket eller 40 eller
+41 &#167;, &#228;ger d&#228;refter 7--9 kap. nya balken i sin helhet till&#228;mpning p&#229;
+avtalet.
+
+43 &#167; &#196;ger 9 kap. 15--22 &#167; nya balken till&#228;mpning i fr&#229;ga om
+arrendef&#246;rh&#229;llande som tagit sin b&#246;rjan f&#246;re balkens ikrafttr&#228;dande,
+skall avr&#228;kning enligt 9 kap. 23 &#167; nya balken &#228;ga rum, om jord&#228;garen
+eller arrendatorn beg&#228;r det inom tv&#229; m&#229;nader fr&#229;n det att f&#246;rstn&#228;mnda
+best&#228;mmelser blev till&#228;mpliga.
+
+44 &#167; I fr&#229;ga om avtal om jordbruksarrende, som f&#246;re utg&#229;ngen av &#229;r
+1981 ing&#229;s betr&#228;ffande s&#229;dan brukningsdel som avses i 2 kap. 49 &#167;
+lagen (1907:36 s. 1) om nyttjander&#228;tt till fast egendom, &#228;ger 2 kap.
+63 och 64 &#167;&#167; samt, s&#229;vitt ang&#229;r f&#246;rbeh&#229;ll stridande mot n&#229;gon av dessa
+b&#229;da paragrafer, 2 kap. 65 &#167; andra stycket och 68 &#167; f&#246;rsta och andra
+styckena n&#228;mnda lag fortfarande till&#228;mpning.
+
+F&#246;rsta stycket &#228;ger motsvarande till&#228;mpning i fr&#229;ga om avtal om
+jordbruksarrende som f&#246;re utg&#229;ngen av &#229;r 1981 ing&#229;s betr&#228;ffande s&#229;dan
+brukningsdel som avses i 1 &#167; lagen (1946:147) med s&#228;rskilda
+best&#228;mmelser om arrende av viss kommunal jord. I st&#228;llet f&#246;r 2 kap.
+68 &#167; f&#246;rsta och andra styckena lagen (1907:36 s. 1) om nyttjander&#228;tt
+till fast egendom till&#228;mpas 4 &#167; f&#246;rsta och andra styckena f&#246;rstn&#228;mnda
+lag. Lag (1971:1210).
+
+45 &#167; Best&#228;mmelserna i 10 kap. 5, 6 och 6 a &#167;&#167; nya balken ska 
+till&#228;mpas &#228;ven p&#229; arrendeavtal som har tr&#228;ffats f&#246;re balkens 
+ikrafttr&#228;dande, om 2 kap. 75-80 &#167;&#167; lagen (1907:36 s. 1) om 
+nyttjander&#228;tt till fast egendom g&#228;ller f&#246;r avtalet. Om 
+arrendeavtalet har sagts upp f&#246;re ikrafttr&#228;dandet, ska &#228;ldre 
+best&#228;mmelser dock fortfarande till&#228;mpas.
+
+Om ett arrendeavtal f&#246;rl&#228;ngs till f&#246;ljd av f&#246;rsta stycket, ska 
+d&#228;refter 7, 8 och 10 kap. nya balken i sin helhet till&#228;mpas p&#229; 
+avtalet. Lag (2020:364).
+
+46 &#167; Arrendetvist, vari talan v&#228;ckt f&#246;re nya balkens ikrafttr&#228;dande,
+behandlas enligt &#228;ldre best&#228;mmelser.
+
+&#196;rende, som enligt &#228;ldre best&#228;mmelser skall handl&#228;ggas av arrenden&#228;mnd
+eller som enligt 2 kap. 82 &#167; lagen (1907:36 s. 1) om nyttjander&#228;tt
+till fast egendom skall handl&#228;ggas av r&#228;tten, pr&#246;vas av arrenden&#228;mnd
+som avses i 8 kap. 29 &#167; nya balken, om &#228;rendet anh&#228;ngigg&#246;res efter
+balkens ikrafttr&#228;dande. Arrenden&#228;mnds beslut i s&#229;dant &#228;rende f&#229;r ej
+klandras.
+
+Syn som p&#229;b&#246;rjats f&#246;re nya balkens ikrafttr&#228;dande handl&#228;gges enligt
+&#228;ldre best&#228;mmelser.
+
+47 &#167; Best&#228;mmelserna i 12 kap. 8 &#167; nya balken &#228;ger till&#228;mpning &#228;ven p&#229;
+hyresavtal som tr&#228;ffats f&#246;re balkens ikrafttr&#228;dande, om ej avtalet
+uppsagts dessf&#246;rinnan.
+
+Best&#228;mmelserna i 12 kap. 31 &#167; nya balken till&#228;mpas n&#228;r hyresg&#228;st
+f&#246;rsatts i konkurs p&#229; grund av ans&#246;kan som gjorts efter balkens
+ikrafttr&#228;dande.
+
+48 &#167; &#196;r hyresavtal som ing&#229;tts f&#246;re nya balkens ikrafttr&#228;dande tr&#228;ffat
+f&#246;r obest&#228;md tid eller med f&#246;rbeh&#229;ll om r&#228;tt f&#246;r s&#229;v&#228;l hyresv&#228;rden
+som hyresg&#228;sten att upps&#228;ga avtalet och sker ej, sedan balken tr&#228;tt i
+kraft, upps&#228;gning till den tidpunkt d&#229; p&#229; grund av s&#229;dan upps&#228;gning
+avtalet tidigast kunnat fr&#229;ntr&#228;das, &#228;ger 7 och 12 kap. nya balken
+till&#228;mpning p&#229; avtalet fr&#229;n n&#228;mnda tidpunkt.
+
+49 &#167; Om hyresavtal efter nya balkens ikrafttr&#228;dande f&#246;rl&#228;nges enligt
+3 kap. 45--53 &#167;&#167; lagen (1907:36 s. 1) om nyttjander&#228;tt till fast
+egendom, &#228;ger d&#228;refter 7 och 12 kap. nya balken till&#228;mpning p&#229;
+avtalet.
+
+Fr&#229;n och med den 1 januari 1974 skall 12 kap. nya balken till&#228;mpas p&#229;
+hyresavtal, som slutits f&#246;re balkens ikrafttr&#228;dande och som alltj&#228;mt
+g&#228;ller n&#228;mnda dag.
+
+50 &#167; Hyrestvist, vari talan v&#228;ckts f&#246;re nya balkens ikrafttr&#228;dande,
+behandlas enligt &#228;ldre best&#228;mmelser.
+
+51 &#167; har upph&#228;vts genom lag (1984:699).
+
+52 &#167; I fr&#229;ga om r&#228;ttighet i eller till f&#246;rm&#229;n f&#246;r tomtr&#228;tt, som
+uppl&#229;tits f&#246;re nya balkens ikrafttr&#228;dande, g&#228;ller 13 kap. 7 &#167; nya
+balken med iakttagande i till&#228;mpliga delar av best&#228;mmelserna i denna
+lag. &#196;ven i &#246;vrigt g&#228;ller 13 kap. 7 &#167; nya balken p&#229; angivet s&#228;tt, om 4
+kap. lagen (1907:36 s. 1) om nyttjander&#228;tt till fast egendom i dess
+lydelse enligt lagen (1953:415) ang&#229;ende &#228;ndring i n&#228;mnda lag &#228;r
+till&#228;mpligt p&#229; tomtr&#228;tten.
+
+Best&#228;mmelserna i 13 kap. 26 &#167; nya balken &#228;ger till&#228;mpning &#228;ven
+betr&#228;ffande tomtr&#228;tt, som uppl&#229;tits f&#246;re balkens ikrafttr&#228;dande.
+Detsamma g&#228;ller best&#228;mmelserna i 13 kap. 21 och 25 &#167;&#167; nya balken,
+s&#229;vitt ang&#229;r tomtr&#228;tt p&#229; vilken 4 kap. lagen (1907:36 s. 1) om
+nyttjander&#228;tt till fast egendom i dess f&#246;rut angivna lydelse &#228;r
+till&#228;mpligt.
+
+&#196;r m&#229;l ang&#229;ende tomtr&#228;tt som enligt &#228;ldre best&#228;mmelser skall upptagas
+av expropriationsdomstol anh&#228;ngigt hos s&#229;dan domstol vid nya balkens
+ikrafttr&#228;dande, pr&#246;vas det av fastighetsdomstol, om huvudf&#246;rhandling
+ej p&#229;b&#246;rjats vid ikrafttr&#228;dandet. Lag (1971:547).
+
+53 &#167; Best&#228;mmelserna i 4 &#167; andra stycket samt 5--8 &#167;&#167; lagen
+(1907:36 s. 25) om servitut &#228;ger till&#228;mpning endast i fall d&#229; m&#229;l om
+begr&#228;nsning, f&#246;rflyttning, f&#246;r&#228;ndring eller upph&#246;rande av servitut &#228;r
+anh&#228;ngigt hos domstol vid nya balkens ikrafttr&#228;dande.
+
+54 &#167; F&#246;rordnande om tv&#229;ngsf&#246;rvaltning av elektrisk anl&#228;ggning enligt
+24--35 &#167;&#167; lagen (1920:474) med vissa best&#228;mmelser om registrering av
+elektriska anl&#228;ggningar samt om r&#228;tt till elektrisk kraft m.m. f&#229;r ej
+meddelas efter nya balkens ikrafttr&#228;dande. Har s&#229;dant f&#246;rordnande
+meddelats f&#246;re ikrafttr&#228;dandet, &#228;ger n&#228;mnda best&#228;mmelser alltj&#228;mt
+till&#228;mpning.
+
+&#214;verg&#229;ngsbest&#228;mmelser ang&#229;ende 16--18 kap. nya jordabalken
+
+55 &#167; Best&#228;mmelserna i 16 kap. nya balken &#228;ger till&#228;mpning &#228;ven om
+lagfart p&#229; fast egendom, sedan denna kommit ur r&#228;tte &#228;garens hand,
+beviljats f&#246;re balkens ikrafttr&#228;dande. Tid f&#246;re ikrafttr&#228;dandet f&#229;r
+dock d&#228;rvid ej inr&#228;knas i h&#228;vdetiden. &#196;ldre best&#228;mmelser f&#229;r &#229;beropas,
+om frihet fr&#229;n r&#228;tte &#228;garens talan d&#228;rigenom vinnes tidigare.
+
+Om lagfart avslutats f&#246;re den 1 januari 1876 med den som erh&#229;llit
+lagfarten ej vid nya balkens ikrafttr&#228;dande blivit inf&#246;rd i
+fastighetsboken s&#229;som &#228;gare, f&#229;r vid till&#228;mpning av nya balken i
+h&#228;vdetiden ej inr&#228;knas tid innan s&#229;dan inf&#246;ring skett.
+
+Best&#228;mmelsen i 4 &#167; f&#246;rordningen (1881:17 s. 1) om tjugu&#229;rig h&#228;vd &#228;ger
+alltj&#228;mt till&#228;mpning i fr&#229;ga om inteckning som tillkommit f&#246;re nya
+balkens ikrafttr&#228;dande.
+
+56 &#167; Best&#228;mmelserna i 17 kap. nya balken om f&#246;retr&#228;de p&#229; grund av
+inskrivning &#228;ger, med iakttagande av vad som f&#246;reskrives i 5 &#167; denna
+lag om f&#246;retr&#228;de f&#246;r innehavare av fordran enligt 11 kap. 2 &#167; &#228;ldre
+jordabalken eller av r&#228;ttighet varmed f&#246;ljer samma r&#228;tt i f&#246;rh&#229;llande
+till ny &#228;gares borgen&#228;rer, till&#228;mpning &#228;ven om inskrivningen s&#246;kts
+f&#246;re nya balkens ikrafttr&#228;dande.
+
+Har &#246;verl&#229;telse av fast egendom skett f&#246;re nya balkens ikrafttr&#228;dande,
+medf&#246;r ans&#246;kan om lagfart p&#229; grund av &#246;verl&#229;telsen, oavsett om den
+g&#246;res f&#246;re eller efter ikrafttr&#228;dandet, f&#246;retr&#228;de enligt &#228;ldre
+best&#228;mmelser i f&#246;rh&#229;llande till tidigare uppl&#229;telse av nyttjander&#228;tt
+eller servitut.
+
+57 &#167; Best&#228;mmelserna i 18 kap. 1--7 &#167;&#167; nya balken om godtrosf&#246;rv&#228;rv p&#229;
+grund av inskrivning &#228;ger till&#228;mpning endast i fr&#229;ga om f&#246;rv&#228;rv som
+sker efter balkens ikrafttr&#228;dande. Lagfart som avslutats f&#246;re den 1
+januari 1876 f&#229;r &#229;beropas f&#246;r godtrosf&#246;rv&#228;rv endast om den f&#246;r vilken
+lagfarten meddelats var inf&#246;rd i fastighetsboken s&#229;som &#228;gare vid tiden
+f&#246;r &#246;verl&#229;telsen eller uppl&#229;telsen eller, s&#229;vitt ang&#229;r uppl&#229;telse av
+pantr&#228;tt, senare blivit inf&#246;rd s&#229;som &#228;gare.
+
+Best&#228;mmelserna i 18 kap. 8--10 &#167;&#167; nya balken om betydelsen av
+inskrivning i vissa fall &#228;ger till&#228;mpning &#228;ven om de f&#246;rh&#229;llanden som
+avses i best&#228;mmelserna intr&#228;tt f&#246;re balkens ikrafttr&#228;dande.
+
+&#214;verg&#229;ngsbest&#228;mmelser ang&#229;ende 19--23 kap. nya jordabalken
+
+58 &#167; Nya balkens best&#228;mmelser om handl&#228;ggning av inskrivnings&#228;rende
+skall, d&#229; fr&#229;ga &#228;r om r&#228;ttsf&#246;rh&#229;llande som tillkommit f&#246;re balkens
+ikrafttr&#228;dande, till&#228;mpas med iakttagande av vad som enligt denna lag
+g&#228;ller om till&#228;mpning av &#228;ldre best&#228;mmelser p&#229; r&#228;ttsf&#246;rh&#229;llandet.
+
+58 a &#167; har upph&#228;vts genom lag (2000:227).
+
+59 &#167; har upph&#228;vts genom lag (2000:227).
+
+60 &#167; Har tid f&#246;r s&#246;kande av lagfart b&#246;rjat l&#246;pa f&#246;re nya balkens
+ikrafttr&#228;dande, g&#228;ller &#228;ldre best&#228;mmelser i fr&#229;ga om n&#228;mnda tid.
+
+Har kung&#246;relse ang&#229;ende lagfartsans&#246;kan utf&#228;rdats enligt 10 &#167; andra
+stycket f&#246;rordningen (1875:42 s. 1) ang&#229;ende lagfart &#229; f&#229;ng till fast
+egendom, g&#228;ller om &#228;rendets fortsatta behandling vad i n&#228;mnda paragraf
+f&#246;reskrives, om ej s&#246;kanden beg&#228;r uts&#228;ttande av lagfartssammantr&#228;de
+enligt 20 kap. 10 &#167; nya balken.
+
+Betr&#228;ffande anteckning om lagfart, som avslutats f&#246;re den 1 januari
+1876, g&#228;ller alltj&#228;mt 22 &#167; andra stycket nyssn&#228;mnda f&#246;rordning.
+
+Vad som i 21 kap. 1 &#167; nya balken &#228;r f&#246;reskrivet om skyldighet att s&#246;ka
+inskrivning av tomtr&#228;tt g&#228;ller ej betr&#228;ffande tomtr&#228;tt som uppl&#229;tits
+f&#246;re den 1 januari 1954. I fr&#229;ga om tomtr&#228;tt som uppl&#229;tits f&#246;re nya
+balkens ikrafttr&#228;dande f&#246;religger skyldighet f&#246;r ny innehavare av
+tomtr&#228;tten att s&#246;ka inskrivning av sitt f&#246;rv&#228;rv enligt 21 kap. 7 &#167; nya
+balken endast om 4 kap. lagen (1907:36 s. 1) om nyttjander&#228;tt till
+fast egendom i dess lydelse enligt lagen (1953:415) ang&#229;ende &#228;ndring
+i n&#228;mnda lag &#228;ger till&#228;mpning p&#229; tomtr&#228;tten. Har tid f&#246;r s&#246;kande av
+inskrivning b&#246;rjat l&#246;pa f&#246;re nya balkens ikrafttr&#228;dande, g&#228;ller &#228;ldre
+best&#228;mmelser i fr&#229;ga om n&#228;mnda tid.
+
+60 a &#167; Vid till&#228;mpningen av 20 kap. 7 &#167; 2, 21 kap. 2 &#167; f&#246;rsta stycket
+3, 22 kap. 4 &#167; f&#246;rsta stycket 1 och 23 kap. 3 &#167; f&#246;rsta stycket 1 nya
+balken skall den som inte var skyldig att lagfara sitt f&#246;rv&#228;rv enligt
+de regler som g&#228;llde n&#228;r f&#246;rv&#228;rvet skedde anses ha lagfart, om hans
+&#228;gander&#228;tt styrks. Han skall d&#229; ocks&#229; anses ha beh&#246;righet som
+fastighets&#228;gare enligt 22 och 24 kap. nya balken, om inte lagfart har
+s&#246;kts f&#246;r annan. Lag (1984:663).
+
+61 &#167; Fullf&#246;ljes efter nya balkens ikrafttr&#228;dande en dessf&#246;rinnan gjord
+ans&#246;kan om inteckning f&#246;r fordran, skall inteckning enligt nya balken
+beviljas, om ans&#246;kningen uppfyller villkoren f&#246;r inteckning enligt
+f&#246;rordningen (1875:42 s. 12) ang&#229;ende inteckning i fast egendom.
+Ans&#246;kningen skall d&#228;rvid anses avse ett penningbelopp motsvarande
+fordringens kapitalbelopp.
+
+F&#246;rsta stycket g&#228;ller &#228;ven om efter nya balkens ikrafttr&#228;dande ans&#246;kan
+g&#246;res enligt 2 &#167; n&#228;mnda f&#246;rordning om inteckning p&#229; grund av
+k&#246;pehandling som uppr&#228;ttats f&#246;re nya balkens ikrafttr&#228;dande eller dom
+som meddelats f&#246;re ikrafttr&#228;dandet.
+
+S&#246;kes efter nya balkens ikrafttr&#228;dande inteckning p&#229; grund av
+fordringshandling, p&#229; vilken f&#246;re ikrafttr&#228;dandet tecknats s&#229;dant
+bevittnat medgivande som avses i 1 &#167; f&#246;rutn&#228;mnda f&#246;rordning, skall
+ans&#246;kningen upptagas och pr&#246;vas som ans&#246;kan om inteckning enligt 22
+kap. nya balken. &#196;ven i detta fall skall ans&#246;kningen anses avse ett
+penningbelopp motsvarande fordringens kapitalbelopp.
+
+62 &#167; Vid till&#228;mpning av 22 kap. 2 &#167; andra stycket sista punkten nya
+balken skall icke f&#246;rr&#228;n efter utg&#229;ngen av &#229;r 1986 h&#228;nsyn tagas till
+inteckning som beviljats eller s&#246;kts f&#246;re balkens ikrafttr&#228;dande.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4235">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4237">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

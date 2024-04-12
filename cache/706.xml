@@ -1,0 +1,605 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-02-13" /> 
+ <meta id="rattsinfo-edited" content="2023-02-13 16:01:16" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>706</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=705">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=707">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2018:1251 ·
+                    <a href="/sfsr?bet=2018:1251">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Strafftidslag (2018:1251)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L5
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2018-06-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:933
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2019-04-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelse
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om n&#228;r 
+f&#228;ngelsestraff f&#229;r verkst&#228;llas och hur strafftid ska 
+ber&#228;knas.
+
+Inledande av verkst&#228;llighet
+
+F&#246;ruts&#228;ttningar f&#246;r verkst&#228;llighet
+
+2 &#167; Ett f&#228;ngelsestraff f&#229;r verkst&#228;llas n&#228;r 
+
+1. en dom eller ett beslut i den del som avser f&#228;ngelsestraff 
+f&#229;tt laga kraft mot den d&#246;mde, eller 
+
+2. ett beslut om verkst&#228;llighet i Sverige av ett motsvarande 
+utl&#228;ndskt straff f&#229;tt laga kraft. 
+
+Om ett beslut enligt f&#246;rsta stycket 2 inneb&#228;r att en ny 
+p&#229;f&#246;ljd ska best&#228;mmas genom svensk dom f&#229;r verkst&#228;llighet ske 
+f&#246;rst n&#228;r den domen f&#229;tt laga kraft.
+
+3 &#167; Ett f&#228;ngelsestraff f&#229;r, om det f&#246;ljer av s&#228;rskilda 
+best&#228;mmelser, verkst&#228;llas utan att en dom eller ett beslut 
+som avses i 2 &#167; f&#229;tt laga kraft.
+
+4 &#167; Kriminalv&#229;rden ska kontrollera om ett f&#228;ngelsestraff 
+&#228;r verkst&#228;llbart.
+
+R&#228;tten att p&#229;b&#246;rja verkst&#228;llighet
+
+5 &#167; En d&#246;md har r&#228;tt att p&#229;b&#246;rja verkst&#228;lligheten av ett 
+f&#228;ngelsestraff om han eller hon beg&#228;r det och straffet &#228;r 
+verkst&#228;llbart.
+
+D&#246;mda som inte &#228;r frihetsber&#246;vade
+
+6 &#167; Om en d&#246;md inte &#228;r frihetsber&#246;vad n&#228;r f&#228;ngelsestraffet 
+&#228;r verkst&#228;llbart ska han eller hon utan dr&#246;jsm&#229;l f&#246;rel&#228;ggas 
+att senast en viss dag inst&#228;lla sig vid den 
+kriminalv&#229;rdsanstalt d&#228;r f&#228;ngelsestraffet ska verkst&#228;llas.
+
+Om den d&#246;mde inte f&#246;ljer eller inte kan n&#229;s av ett 
+f&#246;rel&#228;ggande enligt f&#246;rsta stycket eller om det finns risk 
+f&#246;r det, ska Polismyndigheten p&#229; beg&#228;ran av Kriminalv&#229;rden 
+f&#246;rpassa honom eller henne till ett h&#228;kte eller en 
+kriminalv&#229;rdsanstalt.
+
+Om det bed&#246;ms kunna ske utan risk f&#246;r att den d&#246;mde undandrar 
+sig verkst&#228;llighet, f&#229;r Polismyndigheten f&#246;rel&#228;gga honom 
+eller henne att inst&#228;lla sig vid en kriminalv&#229;rdsanstalt i 
+st&#228;llet f&#246;r att f&#246;rpassa honom eller henne dit.
+
+7 &#167; Kriminalv&#229;rden f&#229;r skjuta upp verkst&#228;lligheten av ett 
+f&#228;ngelsestraff 
+
+1. f&#246;r domar eller beslut p&#229; f&#228;ngelse i h&#246;gst tre m&#229;nader om 
+syftet &#228;r att &#229;stadkomma en j&#228;mnare bel&#228;ggning i 
+kriminalv&#229;rdsanstalterna, 
+
+2. i avvaktan p&#229; ett st&#228;llningstagande om &#246;verf&#246;rande av 
+verkst&#228;llighet av en svensk dom eller ett svenskt beslut p&#229; 
+f&#228;ngelse till en annan stat, eller 
+
+3. i avvaktan p&#229; regeringens beslut i ett &#228;rende om n&#229;d. 
+
+I de fall som avses i f&#246;rsta stycket 1 f&#229;r verkst&#228;lligheten 
+skjutas upp under h&#246;gst sex m&#229;nader fr&#229;n den dag 
+f&#228;ngelsestraffet &#228;r verkst&#228;llbart.
+
+D&#246;mda som &#228;r frihetsber&#246;vade
+
+8 &#167; Om en d&#246;md &#228;r h&#228;ktad, omh&#228;ndertagen enligt 26 kap. 22 &#167; 
+eller 28 kap. 11 &#167; brottsbalken eller intagen i 
+kriminalv&#229;rdsanstalt f&#246;r verkst&#228;llighet i ett annat m&#229;l n&#228;r 
+f&#228;ngelsestraffet &#228;r verkst&#228;llbart, ska verkst&#228;lligheten 
+p&#229;b&#246;rjas omedelbart d&#228;r han eller hon f&#246;rvaras.
+
+Om den d&#246;mde inte f&#246;rvaras i kriminalv&#229;rdsanstalt n&#228;r 
+verkst&#228;lligheten enligt f&#246;rsta stycket p&#229;b&#246;rjas och inte 
+heller samtidigt &#228;r h&#228;ktad eller omh&#228;ndertagen enligt 26 kap. 
+22 &#167; eller 28 kap. 11 &#167; brottsbalken i ett annat m&#229;l, ska han 
+eller hon &#246;verf&#246;ras till kriminalv&#229;rdsanstalt f&#246;r fortsatt 
+verkst&#228;llighet. Lag (2022:933).
+
+Intagning i h&#228;kte
+
+9 &#167; En d&#246;md som ska &#246;verf&#246;ras eller f&#246;rpassas till 
+kriminalv&#229;rdsanstalt f&#246;r verkst&#228;llighet av f&#228;ngelsestraff f&#229;r 
+i anslutning till det tas in i h&#228;kte 
+
+1. i avvaktan p&#229; anstaltsplacering, eller 
+
+2. om det beh&#246;vs med h&#228;nsyn till transportf&#246;rh&#229;llandena. 
+
+Den d&#246;mde f&#229;r i de fall som avses i f&#246;rsta stycket 
+tillf&#228;lligt tas in i polisarrest. &#196;r den d&#246;mde under arton &#229;r 
+f&#229;r han eller hon tas in i polisarrest endast om det &#228;r 
+absolut n&#246;dv&#228;ndigt.
+
+10 &#167; Tiden i h&#228;kte med st&#246;d av 9 &#167; f&#246;rsta stycket f&#229;r inte 
+vara l&#228;ngre &#228;n n&#246;dv&#228;ndigt och inte l&#228;ngre &#228;n sju dagar, om 
+det inte finns s&#228;rskilda sk&#228;l f&#246;r en l&#228;ngre tid. &#196;ven om det 
+finns s&#228;rskilda sk&#228;l f&#229;r tiden inte vara l&#228;ngre &#228;n trettio 
+dagar.
+
+Vid till&#228;mpning av f&#246;rsta stycket ska tid i polisarrest 
+r&#228;knas som tid i h&#228;kte.
+
+N&#246;jdf&#246;rklaring
+
+11 &#167; En d&#246;md f&#229;r f&#246;rklara att han eller hon avst&#229;r fr&#229;n 
+att &#246;verklaga eller fullf&#246;lja ett &#246;verklagande av en dom 
+eller ett beslut i den del som avser f&#228;ngelsestraff 
+(n&#246;jdf&#246;rklaring). 
+
+En n&#246;jdf&#246;rklaring f&#229;r l&#228;mnas inf&#246;r Kriminalv&#229;rden. Om en d&#246;md 
+inte &#228;r frihetsber&#246;vad f&#229;r en n&#246;jdf&#246;rklaring ocks&#229; l&#228;mnas 
+inf&#246;r Polismyndigheten.
+
+Formkrav
+
+12 &#167; En n&#246;jdf&#246;rklaring f&#229;r inte tas emot utan att b&#229;de den 
+som tar emot f&#246;rklaringen och den d&#246;mde har tillg&#229;ng till 
+domen, beslutet eller r&#228;ttens bevis om utg&#229;ngen i m&#229;let som 
+r&#246;r den d&#246;mde (domsbevis). Om den d&#246;mde &#228;r frihetsber&#246;vad, 
+kr&#228;vs &#228;ven att han eller hon har haft bet&#228;nketid till den 
+andra dagen efter den d&#229; domen avkunnades f&#246;r honom eller 
+henne vid r&#228;tten eller p&#229; annat s&#228;tt delgavs honom eller 
+henne i sin helhet. Den d&#246;mde ska om m&#246;jligt ges tillf&#228;lle 
+att under bet&#228;nketiden samr&#229;da med sin f&#246;rsvarare.
+
+Innan en n&#246;jdf&#246;rklaring l&#228;mnas ska den som tar emot 
+f&#246;rklaringen p&#229; l&#228;mpligt s&#228;tt ha klargjort inneb&#246;rden och 
+verkan av n&#246;jdf&#246;rklaringen f&#246;r den d&#246;mde. 
+
+N&#228;r en n&#246;jdf&#246;rklaring l&#228;mnas ska ett vittne n&#228;rvara. En 
+n&#246;jdf&#246;rklaring ska dokumenteras.
+
+Effekterna av en n&#246;jdf&#246;rklaring
+
+13 &#167; En n&#246;jdf&#246;rklaring f&#229;r inte tas tillbaka. 
+
+En n&#246;jdf&#246;rklaring inneb&#228;r att domen eller beslutet i den del 
+som avser f&#228;ngelsestraff f&#229;r laga kraft mot den d&#246;mde.
+
+Uppskov
+
+F&#246;ruts&#228;ttningar f&#246;r uppskov
+
+14 &#167; P&#229; ans&#246;kan av en d&#246;md och i den utstr&#228;ckning som 
+intresset av samh&#228;llsskydd medger det, f&#229;r uppskov med 
+verkst&#228;lligheten av ett f&#228;ngelsestraff beviljas under h&#246;gst 
+sex m&#229;nader fr&#229;n den dag f&#228;ngelsestraffet &#228;r verkst&#228;llbart, 
+om det finns s&#228;rskilda sk&#228;l med h&#228;nsyn till den d&#246;mdes h&#228;lsa, 
+familje-, arbets- eller utbildningsf&#246;rh&#229;llanden eller andra 
+liknande omst&#228;ndigheter. Om det finns synnerliga sk&#228;l, f&#229;r 
+uppskov beviljas under ytterligare h&#246;gst sex m&#229;nader. En d&#246;md 
+som &#228;r gravid eller ammar barn f&#229;r beviljas uppskov under s&#229; 
+l&#229;ng tid som anses sk&#228;lig. 
+
+En ans&#246;kan om uppskov f&#229;r inte bifallas om den d&#246;mde &#228;r 
+ber&#246;vad friheten som h&#228;ktad eller intagen i 
+kriminalv&#229;rdsanstalt f&#246;r verkst&#228;llighet i ett annat m&#229;l.
+
+&#197;terkallelse
+
+15 &#167; Ett beslut om uppskov f&#229;r &#229;terkallas om 
+
+1. det v&#228;sentligen brister i de f&#246;ruts&#228;ttningar som legat 
+till grund f&#246;r beslutet, eller 
+
+2. den d&#246;mde lagf&#246;rs f&#246;r nytt brott.
+
+Hinder mot verkst&#228;llighet innan en f&#246;rsta ans&#246;kan pr&#246;vats
+
+16 &#167; Om en d&#246;md har ans&#246;kt om uppskov senast den dag han 
+eller hon enligt f&#246;rel&#228;ggande som avses i 6 &#167; f&#246;rsta stycket 
+skulle ha inst&#228;llt sig i en kriminalv&#229;rdsanstalt f&#246;r 
+verkst&#228;llighet av straffet och har uppskov inte tidigare 
+s&#246;kts i &#228;rendet, f&#229;r den d&#246;mde inte tas in i 
+kriminalv&#229;rdsanstalt f&#246;r att p&#229;b&#246;rja verkst&#228;lligheten innan 
+Kriminalv&#229;rden pr&#246;vat ans&#246;kan.
+
+Ber&#228;kning av strafftid
+
+Tidpunkten f&#246;r strafftidens b&#246;rjan
+
+17 &#167; Om inte annat framg&#229;r av s&#228;rskilda best&#228;mmelser ska 
+strafftiden ber&#228;knas fr&#229;n och med den dag f&#228;ngelsestraffet &#228;r 
+verkst&#228;llbart och
+
+1. den d&#246;mde av den anledningen ber&#246;vas friheten, eller 
+
+2. den d&#246;mde ber&#246;vas friheten eller redan &#228;r ber&#246;vad friheten 
+som h&#228;ktad eller omh&#228;ndertagen enligt 26 kap. 22 &#167; eller 
+28 kap. 11 &#167; brottsbalken.
+
+Strafftiden ska ber&#228;knas till och med den dag den d&#246;mde blir 
+frigiven. 
+
+Om ett f&#228;ngelsestraff redan har avtj&#228;nats f&#246;re den dag som 
+avses i f&#246;rsta stycket, ska tidpunkten f&#246;r strafftidens b&#246;rjan 
+i st&#228;llet anses vara den dag domen eller beslutet i den del 
+som avser f&#228;ngelsestraff f&#229;tt laga kraft. Lag (2022:933).
+
+Ber&#228;kningsgrunder
+
+18 &#167; N&#228;r ett f&#228;ngelsestraff p&#229; viss tid verkst&#228;lls ska 
+strafftiden ber&#228;knas i dagar. Ett f&#228;ngelsestraff i m&#229;nader 
+eller &#229;r ska omr&#228;knas till dagar. Med en m&#229;nad ska avses 
+trettio dagar och med ett &#229;r trehundrasextiofem dagar.
+
+19 &#167; Om flera f&#228;ngelsestraff p&#229; viss tid verkst&#228;lls 
+samtidigt, ska den sammanlagda f&#228;ngelsetiden i dagar l&#228;ggas 
+till grund f&#246;r ber&#228;kningen av strafftiden.
+
+20 &#167; I lagen (2018:1250) om tillgodor&#228;knande av tid f&#246;r 
+frihetsber&#246;vande finns best&#228;mmelser om tillgodor&#228;knande av 
+tid f&#246;r frihetsber&#246;vande som verkst&#228;llighet av p&#229;f&#246;ljd. 
+
+I 26 kap. brottsbalken finns best&#228;mmelser om villkorlig 
+frigivning och pr&#246;votid efter villkorlig frigivning.
+
+Strafftidsbeslut
+
+21 &#167; En d&#246;md ska meddelas ett strafftidsbeslut som 
+fastst&#228;ller 
+
+1. dagen f&#246;r strafftidens b&#246;rjan, 
+
+2. f&#228;ngelsestraffets l&#228;ngd i dagar, 
+
+3. antalet dagar som ska tillgodor&#228;knas av tidigare 
+frihetsber&#246;vande, och 
+
+4. dagen f&#246;r strafftidens slut. 
+
+Om f&#228;ngelsestraffet uppg&#229;r till mer &#228;n trettio dagar, ska 
+beslutet &#228;ven fastst&#228;lla 
+
+1. tidigaste dag f&#246;r villkorlig frigivning, 
+
+2. &#229;terst&#229;ende strafftid i dagar, och 
+
+3. dagen f&#246;r pr&#246;votidens utg&#229;ng. 
+
+Om ett beslut enligt f&#246;rsta stycket avser ett f&#228;ngelsestraff 
+p&#229; livstid, ska beslutet fastst&#228;lla 
+
+1. dagen f&#246;r strafftidens b&#246;rjan, och 
+
+2. antalet dagar som ska tillgodor&#228;knas av tidigare 
+frihetsber&#246;vande om straffet tidsbest&#228;ms. 
+
+Beslutet ska meddelas utan dr&#246;jsm&#229;l.
+
+&#196;ndring av strafftidsbeslut
+
+22 &#167; Ett strafftidsbeslut ska &#228;ndras n&#228;r omst&#228;ndigheterna 
+ger anledning till det. Beslutet ska meddelas utan 
+dr&#246;jsm&#229;l.
+
+&#214;vriga best&#228;mmelser
+
+Bemyndigande
+
+23 &#167; Regeringen eller den myndighet som regeringen 
+best&#228;mmer f&#229;r meddela ytterligare f&#246;reskrifter om inledande 
+av verkst&#228;llighet, n&#246;jdf&#246;rklaring, uppskov och ber&#228;kning av 
+strafftid.
+
+Beslutsmyndighet
+
+24 &#167; Beslut enligt denna lag fattas av Kriminalv&#229;rden. 
+
+Beslut enligt denna lag g&#228;ller omedelbart om inte n&#229;got annat 
+beslutas.
+
+&#214;verklagande
+
+25 &#167; Kriminalv&#229;rdens beslut f&#229;r &#246;verklagas till allm&#228;n 
+f&#246;rvaltningsdomstol om beslutet g&#228;ller 
+
+1. inst&#228;llelse vid kriminalv&#229;rdsanstalt enligt 6 &#167; f&#246;rsta 
+stycket, 
+
+2. uppskov enligt 14 &#167; eller &#229;terkallelse av ett beviljat 
+uppskov enligt 15 &#167;, eller 
+
+3. strafftidsbeslut enligt 21 &#167; eller &#228;ndring av 
+strafftidsbeslut enligt 22 &#167;. 
+
+Andra beslut enligt denna lag f&#229;r inte &#246;verklagas. 
+
+Ett beslut &#246;verklagas till den f&#246;rvaltningsr&#228;tt inom vars 
+domkrets den kriminalv&#229;rdsanstalt, det h&#228;kte eller det 
+friv&#229;rdskontor &#228;r bel&#228;get d&#228;r den klagande var inskriven n&#228;r 
+det f&#246;rsta beslutet i &#228;rendet fattades. Pr&#246;vningstillst&#229;nd 
+kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+26 &#167; Ett beslut f&#229;r inte &#246;verklagas enligt 25 &#167; f&#246;rsta 
+stycket innan beslutet har ompr&#246;vats av Kriminalv&#229;rden. En 
+s&#229;dan ompr&#246;vning f&#229;r beg&#228;ras av den som beslutet ang&#229;r om det 
+har g&#229;tt honom eller henne emot. Ett &#246;verklagande av ett 
+beslut som inte har ompr&#246;vats ska anses som en beg&#228;ran om 
+ompr&#246;vning. 
+
+Vid ompr&#246;vning enligt f&#246;rsta stycket f&#229;r beslutet inte &#228;ndras 
+till den klagandes nackdel.
+
+27 &#167; En beg&#228;ran om ompr&#246;vning ska vara skriftlig och ha 
+kommit in till Kriminalv&#229;rden inom tre veckor fr&#229;n den dag d&#229; 
+den klagande fick del av beslutet. I beg&#228;ran om ompr&#246;vning 
+ska den klagande ange vilket beslut som avses och vilken 
+&#228;ndring i beslutet som han eller hon beg&#228;r. 
+
+Kriminalv&#229;rden pr&#246;var om skrivelsen med beg&#228;ran om ompr&#246;vning 
+har kommit in i r&#228;tt tid. Om skrivelsen har kommit in f&#246;r 
+sent ska den avvisas, om inte f&#246;rseningen beror p&#229; att 
+myndigheten l&#228;mnat den klagande felaktig underr&#228;ttelse om hur 
+man beg&#228;r ompr&#246;vning.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2018:1251
+
+1. Denna lag tr&#228;der i kraft den 1 april 2019.
+
+2. Genom lagen upph&#228;vs lagen (1974:202) om ber&#228;kning av 
+strafftid m.m.
+
+3. Den upph&#228;vda lagen g&#228;ller dock fortfarande 
+
+a) i fr&#229;ga om s&#229;dan tillf&#228;llig f&#246;rvaring i h&#228;kte eller 
+polisarrest som p&#229;g&#229;r vid ikrafttr&#228;dandet, 
+
+b) f&#246;r pr&#246;vning av en n&#246;jdf&#246;rklaring som har l&#228;mnats f&#246;re 
+ikrafttr&#228;dandet, 
+
+c) f&#246;r ompr&#246;vning och &#246;verklagande av beslut i &#228;renden eller 
+m&#229;l om uppskov som har meddelats f&#246;re ikrafttr&#228;dandet, och 
+
+d) vid ber&#228;kning av strafftid f&#246;r den som f&#246;re 
+ikrafttr&#228;dandet meddelats ett strafftidsbeslut. Dock ska vid 
+till&#228;mpningen av best&#228;mmelsen i 22 &#167; i den upph&#228;vda lagen med 
+19 &#167; andra stycket och 19 a &#167; samma lag samt 33 kap. 7 &#167; 
+brottsbalken &#228;ven avses lagen (2018:1250) om tillgodor&#228;knande 
+av tid f&#246;r frihetsber&#246;vande. Avser strafftidsbeslutet ett 
+f&#228;ngelsestraff p&#229; livstid ska beslutet dock anses ha 
+meddelats enligt den nya lagen.
+
+4. Ett beslut om &#229;terkallelse enligt 15 &#167; f&#229;r endast grundas 
+p&#229; f&#246;rh&#229;llanden som har intr&#228;ffat efter ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=705">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=707">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

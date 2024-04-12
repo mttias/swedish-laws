@@ -1,0 +1,823 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="1995-12-18" /> 
+ <meta id="rattsinfo-edited" content="2020-07-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3105</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3104">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3106">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1995:1280 ·
+                    <a href="/sfsr?bet=1995:1280">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Stiftelsef&#246;rordning (1995:1280)
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1995-11-23
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2020:411
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1996-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; I denna f&#246;rordning finns best&#228;mmelser om 
+
+1. det register som ska f&#246;ras av l&#228;nsstyrelsen enligt 10 kap. 
+stiftelselagen (1994:1220), 
+
+2. det register som ska f&#246;ras av l&#228;nsstyrelsen enligt 36 &#167; 
+lagen (1967:531) om tryggande av pensionsutf&#228;stelse m.m., 
+
+3. pr&#246;vning av och avgifter f&#246;r vissa &#228;renden r&#246;rande 
+stiftelser och f&#246;r tillsyn, registerh&#229;llning och utf&#228;rdande av 
+registreringsbevis, 
+
+4. f&#246;rvaring av de handlingar om stiftelser som ges in till 
+tillsyns- och registreringsmyndigheterna, 
+
+5. utseende och entledigande av revisorer i stiftelser som 
+f&#246;rvaltas av statliga myndigheter, samt 
+
+6. tillsynsmyndighet f&#246;r stiftelser.
+F&#246;rordning (2020:411).
+
+2 &#167; De register som anges i 1 &#167; f&#246;rs med hj&#228;lp av 
+automatiserad behandling. 
+
+Registren f&#229;r inneh&#229;lla de uppgifter som framg&#229;r av 10 kap. 
+stiftelselagen (1994:1220) eller 31 b &#167; lagen (1967:531) om 
+tryggande av pensionsutf&#228;stelse m.m. F&#246;rordning (2020:411).
+
+2 a &#167; De register som anges i 1 &#167; ska ge offentlighet &#229;t 
+den information som ing&#229;r i registren. 
+
+I fr&#229;ga om personuppgifter ska registren ha till &#228;ndam&#229;l att 
+tillhandah&#229;lla uppgifter f&#246;r
+
+1. aff&#228;rsverksamhet, kreditgivning eller annan allm&#228;n eller 
+enskild verksamhet d&#228;r den information som ing&#229;r i registren 
+utg&#246;r underlag f&#246;r pr&#246;vningar eller beslut,
+
+2. f&#246;rvaltning av f&#246;retag som registreras i 
+stiftelseregistren,
+
+3. aktualisering, komplettering eller kontroll av information 
+som finns i kund- eller medlemsregister eller liknande 
+register,
+
+4. uttag av urval av personuppgifter f&#246;r direkt 
+marknadsf&#246;ring, dock med den begr&#228;nsning som f&#246;ljer av 
+artikel 21.2 och 21.3 i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2016/679 av den 27 april 2016 om skydd f&#246;r 
+fysiska personer med avseende p&#229; behandling av 
+personuppgifter och om det fria fl&#246;det av s&#229;dana uppgifter 
+och om upph&#228;vande av direktiv 95/46/EG (allm&#228;n 
+dataskyddsf&#246;rordning), eller
+
+5. verksamhet f&#246;r vilken staten eller en kommun ansvarar 
+enligt lag eller annan f&#246;rfattning och
+
+a) som avser stiftelser som registreras i registren,
+
+b) som f&#246;r att kunna utf&#246;ras f&#246;ruts&#228;tter tillg&#229;ng till 
+information som ing&#229;r i registren, eller
+
+c) som avser fullg&#246;rande av underr&#228;ttelseskyldighet.
+F&#246;rordning (2018:293).
+
+2 b &#167; Den l&#228;nsstyrelse som f&#246;r ett s&#229;dant register som 
+anges i 1 &#167; (registreringsmyndigheten) &#228;r 
+personuppgiftsansvarig f&#246;r den behandling av personuppgifter 
+som sker i registret. F&#246;rordning (2018:293).
+
+2 c &#167; Registreringsmyndigheten skall se till att det inte
+uppkommer n&#229;got otillb&#246;rligt intr&#229;ng i registrerades personliga
+integritet eller n&#229;gra risker fr&#229;n s&#228;kerhetssynpunkt. F&#246;r dessa
+syften f&#229;r myndigheten i enskilda fall st&#228;lla upp villkor f&#246;r
+behandlingen av personuppgifter. F&#246;rordning (2001:896).
+
+2 d &#167; Registreringsmyndigheten f&#229;r f&#246;r de &#228;ndam&#229;l som anges i
+2 a &#167; medge direkt&#229;tkomst till de stiftelseregister som
+myndigheten f&#246;r. F&#246;rordning (2001:896).
+
+2 e &#167; Har upph&#228;vts genom f&#246;rordning (2018:293)./
+
+2 f &#167; En personuppgift i de register som anges i 1 &#167; ska 
+r&#228;ttas om uppgiften inneh&#229;ller n&#229;gon uppenbar felaktighet 
+till f&#246;ljd av registreringsmyndighetens eller n&#229;gon annans 
+skrivfel, r&#228;knefel eller n&#229;got annat liknande f&#246;rbiseende. 
+Detta g&#228;ller i st&#228;llet f&#246;r r&#228;tten till r&#228;ttelse enligt 
+artikel 16 i Europaparlamentets och r&#229;dets f&#246;rordning (EU) 
+2016/679. F&#246;rordning (2018:293).
+
+2 g &#167; R&#228;tten till begr&#228;nsning av behandling av 
+personuppgifter enligt artikel 18 i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2016/679 g&#228;ller inte i fr&#229;ga om 
+personuppgifter i de register som anges i 1 &#167;.
+F&#246;rordning (2018:293).
+
+2 h &#167; Har upph&#228;vts genom f&#246;rordning (2018:293).
+
+3 &#167; En anm&#228;lan eller ans&#246;kan som avses i stiftelselagen
+(1994:1220) eller i denna f&#246;rordning ska vara skriftlig.
+
+Anm&#228;lan eller ans&#246;kan f&#229;r &#246;verf&#246;ras elektroniskt till
+tillsynsmyndigheten eller registreringsmyndigheten enligt
+f&#246;reskrifter som myndigheten f&#229;r meddela.
+F&#246;rordning (2008:106).
+
+3 a &#167; En anm&#228;lan f&#246;r registrering ska undertecknas av en 
+styrelseledamot eller, om stiftelsen har f&#246;rvaltare, av en 
+f&#246;retr&#228;dare f&#246;r f&#246;rvaltaren. 
+
+En anm&#228;lan eller ans&#246;kan som &#246;verf&#246;rs elektroniskt till 
+tillsynsmyndigheten eller registreringsmyndigheten ska vara 
+undertecknad med en elektronisk underskrift.
+
+Myndigheten f&#229;r meddela f&#246;reskrifter om elektronisk 
+underskrift. F&#246;rordning (2016:635).
+
+3 b &#167; Handlingar som ska fogas till anm&#228;lningar och 
+ans&#246;kningar och som har uppr&#228;ttats elektroniskt f&#229;r &#246;verf&#246;ras 
+elektroniskt till tillsynsmyndigheten eller 
+registreringsmyndigheten.
+
+Myndigheten f&#229;r meddela f&#246;reskrifter om elektronisk 
+&#246;verf&#246;ring. Myndigheten f&#229;r &#228;ven meddela f&#246;reskrifter om 
+vilka elektroniska underskrifter som f&#229;r anv&#228;ndas f&#246;r att en 
+handling ska f&#229; ges in som elektroniskt original.
+F&#246;rordning (2016:635).
+
+4 &#167; Kopior som ges in enligt denna f&#246;rordning, stiftelselagen
+(1994:1220) eller lagen (1967:531) om tryggande av
+pensionsutf&#228;stelse m.m. ska vara bestyrkta. En elektronisk
+kopias &#246;verensst&#228;mmelse med originalet ska vara bestyrkt enligt
+f&#246;reskrifter som registreringsmyndigheten f&#229;r meddela.
+
+En handling som enligt denna f&#246;rordning f&#229;r ges in i kopia f&#229;r
+&#228;ven ges in i original. Om handlingen har uppr&#228;ttats
+elektroniskt, ska best&#228;mmelserna i 3 b &#167; till&#228;mpas.
+
+Om en handling som har uppr&#228;ttats i pappersform har getts in i
+b&#229;de original och kopia, ska originalhandlingen &#229;terst&#228;llas.
+F&#246;rordning (2008:106).
+
+Tillsynsmyndighet
+
+4 a &#167; Tillsynsmyndighet f&#246;r en stiftelse enligt 9 kap. 1 &#167;
+f&#246;rsta stycket stiftelselagen (1994:1220) &#228;r
+
+1. L&#228;nsstyrelsen i Stockholms l&#228;n i Stockholms, Uppsala,
+S&#246;dermanlands, Gotlands och V&#228;stmanlands l&#228;n,
+
+2. L&#228;nsstyrelsen i &#214;sterg&#246;tlands l&#228;n i &#214;sterg&#246;tlands,
+J&#246;nk&#246;pings och Kalmar l&#228;n,
+
+3. L&#228;nsstyrelsen i Sk&#229;ne l&#228;n i Kronobergs, Blekinge och Sk&#229;ne
+l&#228;n,
+
+4. L&#228;nsstyrelsen i V&#228;stra G&#246;talands l&#228;n i Hallands och V&#228;stra
+G&#246;talands l&#228;n,
+
+5. L&#228;nsstyrelsen i Dalarnas l&#228;n i V&#228;rmlands, &#214;rebro, Dalarnas
+och G&#228;vleborgs l&#228;n,
+
+6. L&#228;nsstyrelsen i V&#228;sternorrlands l&#228;n i V&#228;sternorrlands och
+J&#228;mtlands l&#228;n, och
+
+7. L&#228;nsstyrelsen i Norrbottens l&#228;n i V&#228;sterbottens och
+Norrbottens l&#228;n. F&#246;rordning (2009:295).
+
+4 b &#167; Tillsynsmyndighet f&#246;r en pensions- eller
+personalstiftelse enligt 31 &#167; lagen (1967:531) om tryggande
+av pensionsutf&#228;stelse m.m. &#228;r
+
+1. L&#228;nsstyrelsen i Stockholms l&#228;n om arbetsgivaren har sitt
+hemvist i Stockholms, Uppsala, S&#246;dermanlands, Gotlands eller
+V&#228;stmanlands l&#228;n,
+
+2. L&#228;nsstyrelsen i &#214;sterg&#246;tlands l&#228;n om arbetsgivaren har
+sitt hemvist i &#214;sterg&#246;tlands, J&#246;nk&#246;pings eller Kalmar l&#228;n,
+
+3. L&#228;nsstyrelsen i Sk&#229;ne l&#228;n om arbetsgivaren har sitt
+hemvist i Kronobergs, Blekinge eller Sk&#229;ne l&#228;n,
+
+4. L&#228;nsstyrelsen i V&#228;stra G&#246;talands l&#228;n om arbetsgivaren har
+sitt hemvist i Hallands eller V&#228;stra G&#246;talands l&#228;n,
+
+5. L&#228;nsstyrelsen i Dalarnas l&#228;n om arbetsgivaren har sitt
+hemvist i V&#228;rmlands, &#214;rebro, Dalarnas eller G&#228;vleborgs l&#228;n,
+
+6. L&#228;nsstyrelsen i V&#228;sternorrlands l&#228;n om arbetsgivaren har
+sitt hemvist i V&#228;sternorrlands eller J&#228;mtlands l&#228;n, och
+
+7. L&#228;nsstyrelsen i Norrbottens l&#228;n om arbetsgivaren har sitt
+hemvist i V&#228;sterbottens eller Norrbottens l&#228;n.
+F&#246;rordning (2009:295).
+
+Registret enligt 10 kap. stiftelselagen (1994:1220)
+
+5 &#167; Ut&#246;ver vad som anges i 10 kap. 2 &#167; stiftelselagen
+(1994:1220) skall till en anm&#228;lan om registrering fogas
+
+1. en beskrivning av stiftelsens &#228;ndam&#229;l, om det inte &#228;r
+m&#246;jligt att inge en kopia av stiftelsef&#246;rordnandet, samt
+
+2. en uppgift om v&#228;rdet av stiftelsens tillg&#229;ngar, v&#228;rderade
+enligt 3 kap. 3 &#167; stiftelselagen. F&#246;rordning (1999:1164).
+
+5 a &#167; Till en anm&#228;lan f&#246;r registrering enligt 10 kap. 2 &#167; 
+eller 3 &#167; f&#246;rsta stycket 2 stiftelselagen (1994:1220) av 
+revisor ska det fogas en kopia av en av revisorn undertecknad 
+bekr&#228;ftelse p&#229; att han eller hon har &#229;tagit sig uppdraget. 
+Undertecknande f&#229;r ske med en elektronisk underskrift.
+
+Registreringsmyndigheten f&#229;r meddela f&#246;reskrifter om 
+elektronisk underskrift. F&#246;rordning (2016:635).
+
+6 &#167; Till en anm&#228;lan enligt 10 kap. 3 &#167; f&#246;rsta stycket 1
+stiftelselagen (1994:1220) skall det fogas en kopia av styrelsens
+eller f&#246;rvaltarens beslut och i f&#246;rekommande fall av Kammarkollegiets
+eller regeringens beslut.
+
+7 &#167; Har upph&#228;vts genom f&#246;rordning (2009:295).
+
+7 a &#167; Om den som anm&#228;ls som styrelseledamot, styrelsesuppleant
+eller bemyndigad att f&#246;retr&#228;da stiftelsen enligt 2 kap. 16 &#167;
+andra stycket eller 23 &#167; andra stycket stiftelselagen
+(1994:1220) inte &#228;r folkbokf&#246;rd i Sverige, ska det vid anm&#228;lan
+enligt 10 kap. 2 eller 3 &#167; stiftelselagen ges in en kopia av
+passhandling eller annan identitetshandling som avser den
+anm&#228;lde.
+
+Registreringsmyndigheten f&#229;r kr&#228;va in ytterligare handlingar,
+om det beh&#246;vs f&#246;r att s&#228;kerst&#228;lla den anm&#228;ldes identitet.
+F&#246;rordning (2008:106).
+
+7 b &#167; Om den som anm&#228;ls som f&#246;rvaltare &#228;r en utl&#228;ndsk juridisk
+person, ska det vid anm&#228;lan enligt 10 kap. 2 eller 3 &#167;
+stiftelselagen (1994:1220) ges in en kopia av
+registreringshandling eller annan handling som avser den
+anm&#228;lde.
+
+Registreringsmyndigheten f&#229;r kr&#228;va in ytterligare handlingar om
+det beh&#246;vs f&#246;r att s&#228;kerst&#228;lla identiteten hos f&#246;rvaltaren.
+F&#246;rordning (2008:106).
+
+8 &#167; N&#228;r s&#229;dana uppgifter som avses i 10 kap. 6 &#167; f&#246;rsta 
+stycket stiftelselagen (1994:1220) l&#228;mnas f&#246;r registrering 
+ska det till dessa uppgifter i f&#246;rekommande fall bifogas en 
+kopia av styrelsens eller f&#246;rvaltarens beslut om f&#246;retagsnamn 
+f&#246;r stiftelsen. F&#246;rordning (2018:1820).
+
+9 &#167; Till en s&#229;dan anm&#228;lan som avses i 7 kap. 7 &#167; andra stycket eller
+15 &#167; stiftelselagen (1994:1220) skall det fogas en kopia av
+domstolens beslut.
+
+10 &#167; Ett registreringsbevis f&#246;r en stiftelse ska 
+inneh&#229;lla f&#246;ljande uppgifter: 
+
+1. stiftelsens namn, postadress och telefon, 
+
+2. stiftelsens &#228;ndam&#229;l, 
+
+3. om stiftelsen har egen f&#246;rvaltning: styrelseledam&#246;ternas 
+och styrelsesuppleanternas namn, personnummer, postadress och 
+telefon samt den ort d&#228;r styrelsen har sitt s&#228;te eller, om 
+s&#228;te inte &#228;r best&#228;mt, d&#228;r f&#246;rvaltningen huvudsakligen ut&#246;vas, 
+
+4. om stiftelsen har anknuten f&#246;rvaltning: f&#246;rvaltarens namn 
+eller f&#246;retagsnamn, organisationsnummer, postadress och 
+telefon samt den ort d&#228;r f&#246;rvaltaren har sitt s&#228;te eller, om 
+s&#228;te inte &#228;r best&#228;mt, d&#228;r f&#246;rvaltarens egen f&#246;rvaltning 
+huvudsakligen ut&#246;vas eller, om f&#246;rvaltaren &#228;r ett 
+handelsbolag, d&#228;r bolaget har sitt huvudkontor inr&#228;ttat, 
+
+5. om stiftelsen ut&#246;var n&#228;ringsverksamhet: stiftelsens 
+f&#246;retagsnamn, s&#228;rskilt f&#246;retagsnamn, om s&#229;dant har antagits, 
+och n&#228;ringsverksamhetens art, 
+
+6. revisorns och revisorssuppleantens namn, personnummer och 
+postadress samt, om revisorn &#228;r ett registrerat 
+revisionsbolag, vem som &#228;r huvudansvarig f&#246;r revisionen och 
+bolagets organisationsnummer, 
+
+7. om n&#229;gon har bemyndigats att f&#246;retr&#228;da stiftelsen enligt 
+2 kap. 16 &#167; andra stycket eller 23 &#167; andra stycket 
+stiftelselagen (1994:1220): f&#246;retr&#228;darens namn, personnummer, 
+postadress och telefon samt hur stiftelsens namn och firma 
+tecknas, om inte f&#246;retr&#228;daren f&#229;r g&#246;ra det ensam, och 
+
+8. om n&#229;gon enligt 2 kap. 16 a eller 23 a &#167; stiftelselagen 
+har bemyndigats att ta emot delgivning p&#229; stiftelsens v&#228;gnar: 
+dennes namn, personnummer, postadress och telefon. 
+
+Av ett registreringsbevis ska det f&#246;r varje anteckning i 
+registret framg&#229; den dag d&#229; anm&#228;lan om registrering kom in 
+samt datum f&#246;r anteckningen och i f&#246;rekommande fall dess 
+kung&#246;rande i Post- och Inrikes Tidningar.
+F&#246;rordning (2018:1820).
+
+10 a &#167; N&#228;r n&#229;gon registreras som styrelseledamot,
+styrelsesuppleant, f&#246;rvaltare, s&#228;rskild delgivningsmottagare,
+revisor eller revisorssuppleant eller n&#228;r n&#229;gon bemyndigats
+att f&#246;retr&#228;da stiftelsen enligt 2 kap. 16 &#167; andra stycket
+eller 23 &#167; andra stycket stiftelselagen (1994:1220), ska
+registreringsmyndigheten underr&#228;tta den registrerade om
+&#229;tg&#228;rden. N&#228;r myndigheten tar bort en s&#229;dan registrering fr&#229;n
+registret, ska den som ber&#246;rs av &#229;tg&#228;rden underr&#228;ttas.
+
+Om registreringen avser ett revisionsbolag, ska den
+huvudansvariga revisorn underr&#228;ttas.
+
+Underr&#228;ttelsen ska omedelbart efter registreringen eller
+borttagandet av registreringen s&#228;ndas till den som ber&#246;rs av
+&#229;tg&#228;rden p&#229; hans eller hennes folkbokf&#246;ringsadress eller, om
+en s&#229;dan adressuppgift saknas, till den adress som har
+uppgetts i &#228;rendet.
+
+Registreringsmyndigheten ska en g&#229;ng varje &#229;r underr&#228;tta den
+som &#228;r registrerad som likvidator eller suppleant f&#246;r
+likvidator om registreringen. Underr&#228;ttelsen ska s&#228;ndas till
+den adress som har uppgetts i &#228;rendet.
+
+Registreringsmyndigheten beh&#246;ver inte s&#228;nda ut n&#229;gon
+underr&#228;ttelse om det &#228;r uppenbart att en s&#229;dan inte fyller
+n&#229;got syfte. F&#246;rordning (2015:132).
+
+11 &#167; Registreringsmyndigheten ska underr&#228;tta Bolagsverket 
+
+1. n&#228;r ett f&#246;retagsnamn eller s&#228;rskilt f&#246;retagsnamn har 
+registrerats eller avregistrerats i stiftelseregistret, 
+
+2. n&#228;r en styrelseledamot eller en f&#246;rvaltare registreras 
+eller avregistreras i en stiftelse som &#228;r bolagsman i ett 
+handelsbolag. 
+
+Vid en underr&#228;ttelse enligt f&#246;rsta stycket 1 ska &#228;ven en 
+uppgift om n&#228;ringsverksamhetens art l&#228;mnas.
+F&#246;rordning (2018:1820).
+
+11 a &#167; Om tillsynsmyndigheten har f&#246;rordnat en s&#228;rskild
+delgivningsmottagare enligt 9 kap. 7 &#167; f&#246;rsta stycket 3 eller
+8 &#167; f&#246;rsta stycket 2 stiftelselagen (1994:1220), skall
+tillsynsmyndigheten s&#228;nda en underr&#228;ttelse om beslutet till
+stiftelsen. Underr&#228;ttelsen skall s&#228;ndas till stiftelsens senast
+k&#228;nda adress. F&#246;rordning (2005:351).
+
+12 &#167; Handlingar som avser en anm&#228;lan till stiftelseregistret
+ska hos registreringsmyndigheten bil&#228;ggas stiftelseregistret.
+S&#229;dana handlingar ska f&#246;r varje stiftelse sammanf&#246;ras i
+akter.
+
+Handlingar som ges in till tillsynsmyndigheten ska hos denna
+sammanf&#246;ras i akter f&#246;r varje stiftelse. Handlingarna ska
+sammanf&#246;ras med de handlingar som avser anm&#228;lan till
+stiftelseregistret, om tillsynsmyndigheten &#228;r en l&#228;nsstyrelse
+som ocks&#229; &#228;r registreringsmyndighet f&#246;r stiftelsen.
+F&#246;rordning (2009:295).
+
+12 a &#167; Vid s&#246;kning efter uppgifter som avser en stiftelse som 
+inte l&#228;ngre &#228;r registrerad f&#229;r endast organisationsnummer och 
+stiftelsens namn anv&#228;ndas som s&#246;kbegrepp, om det har g&#229;tt mer 
+&#228;n fem &#229;r sedan stiftelsen avregistrerades. 
+
+Vid s&#246;kning efter uppgifter och handlingar som avses i 12 &#167; 
+f&#229;r endast uppgifter som avses i 5 kap. 2 &#167; f&#246;rsta stycket 1 
+och 2 offentlighets- och sekretesslagen (2009:400) samt 
+stiftelsens namn anv&#228;ndas som s&#246;kbegrepp. 
+F&#246;rordning (2020:411).
+
+13 &#167; Om styrelsen eller f&#246;rvaltaren f&#246;r en stiftelse till
+registreringsmyndigheten har anm&#228;lt n&#229;got f&#246;rh&#229;llande som leder till
+att stiftelsen skall vara registrerad hos en annan
+registreringsmyndighet, skall den f&#246;rra registreringsmyndigheten
+s&#228;nda &#246;ver ett utdrag ur stiftelseregistret och den f&#246;r stiftelsen
+inr&#228;ttade akten till den senare registreringsmyndigheten och avf&#246;ra
+stiftelsen fr&#229;n sitt stiftelseregister.
+
+Registret enligt lagen om tryggande av pensionsutf&#228;stelse m.m.
+
+13 a &#167; Best&#228;mmelserna i 7 a &#167; ska till&#228;mpas vid anm&#228;lan enligt 
+31 a &#167; lagen (1967:531) om tryggande av pensionsutf&#228;stelse 
+m.m. F&#246;rordning (2020:411).
+
+14 &#167; Registreringsbevis f&#246;r en pensions- eller
+personalstiftelse ska inneh&#229;lla f&#246;ljande uppgifter:
+
+1. stiftelsens namn, postadress och telefon,
+
+2. styrelseledam&#246;ternas och styrelsesuppleanternas namn,
+personnummer, postadress och telefon, och
+
+3. revisorns och revisorssuppleantens namn, personnummer och
+postadress samt, om revisorn &#228;r ett registrerat
+revisionsbolag, vem som &#228;r huvudansvarig f&#246;r revisionen och
+bolagets organisationsnummer.
+
+Av registreringsbeviset ska f&#246;r varje anteckning i registret
+framg&#229; den dag d&#229; anm&#228;lan om registrering kom in samt datum
+f&#246;r anteckningen. F&#246;rordning (2009:295).
+
+14 a &#167; N&#228;r n&#229;gon registreras som styrelseledamot,
+styrelsesuppleant, revisor eller revisorssuppleant, ska
+registreringsmyndigheten underr&#228;tta den registrerade om
+&#229;tg&#228;rden. N&#228;r myndigheten tar bort en s&#229;dan registrering fr&#229;n
+registret, ska underr&#228;ttelse l&#228;mnas till den som &#229;tg&#228;rden
+ber&#246;r.
+
+Om registreringen avser ett revisionsbolag, ska den
+huvudansvarige revisorn underr&#228;ttas.
+
+Underr&#228;ttelsen ska omedelbart efter registreringen eller
+avf&#246;randet av registreringen s&#228;ndas till den som &#229;tg&#228;rden
+ber&#246;r p&#229; hans eller hennes folkbokf&#246;ringsadress enligt det
+statliga person- och adressregistret (SPAR) eller, om en
+s&#229;dan adressuppgift saknas, till den adress som har uppgetts
+i &#228;rendet.
+
+Registreringsmyndigheten beh&#246;ver inte s&#228;nda ut underr&#228;ttelser
+om det &#228;r uppenbart att en s&#229;dan underr&#228;ttelse inte fyller
+n&#229;got syfte. F&#246;rordning (2009:295).
+
+15 &#167; Handlingar som avser anm&#228;lan f&#246;r tillsyn och de &#246;vriga
+handlingar som enligt lagen (1967:531) om tryggande av
+pensionsutf&#228;stelse m.m. ges in till tillsynsmyndigheten skall hos
+myndigheten f&#246;rvaras s&#228;rskilt f&#246;r varje stiftelse.
+
+16 &#167; Om arbetsgivaren f&#246;r en pensions- eller
+personalstiftelse har bytt hemvist fr&#229;n ett l&#228;n till ett
+annat och detta leder till att stiftelsen ska vara
+registrerad hos en annan tillsynsmyndighet, ska
+tillsynsmyndigheten i det f&#246;rra l&#228;net s&#228;nda &#246;ver ett utdrag
+av registret och den f&#246;r stiftelsen inr&#228;ttade akten till
+tillsynsmyndigheten i det senare l&#228;net samt d&#228;refter avf&#246;ra
+stiftelsen fr&#229;n sitt register. F&#246;rordning (2009:295).
+
+Pr&#246;vning av och avgifter f&#246;r vissa &#228;renden
+
+17 &#167; Beslut enligt 4 kap. 4 &#167; fj&#228;rde stycket stiftelselagen
+(1994:1220) fattas av tillsynsmyndigheten.
+F&#246;rordning (1999:1164).
+
+18 &#167; Beslut enligt 9 kap. 1 &#167; tredje stycket stiftelselagen
+(1994:1220) fattas av Kammarkollegiet. Ett s&#229;dant beslut f&#229;r
+inte &#246;verklagas. F&#246;rordning (2009:295).
+
+19 &#167; Avgift ska med till&#228;mpning av 10–14 &#167;&#167;
+avgiftsf&#246;rordningen (1992:191) tas ut f&#246;r pr&#246;vning av &#228;renden
+enligt stiftelselagen (1994:1220) och lagen (1967:531) om
+tryggande av pensionsutf&#228;stelse m.m. i de fall som framg&#229;r av
+f&#246;ljande uppst&#228;llning.
+
+&#196;rendeslag                                      Avgiftsklass
+
+Undantag fr&#229;n kravet att ha auktoriserad
+revisor (4 kap. 4 &#167; stiftelselagen)             2
+
+Tillst&#229;nd enligt 6 kap. 1 &#167; stiftelselagen
+till &#228;ndring, upph&#228;vande eller
+&#229;sidos&#228;ttande i s&#228;rskilt fall av
+f&#246;reskrifter i stiftelsef&#246;rordnandet
+avseende
+
+a) en stiftelse                                 7
+
+b) 2–29 stiftelser                              8
+
+c) fler &#228;n 29 stiftelser                        9
+
+I fall som avses i a) ska avgiftsklass 4
+till&#228;mpas om v&#228;rdet p&#229; stiftelsens
+tillg&#229;ngar v&#228;rderade med till&#228;mpning av
+3 kap. 3 &#167; stiftelselagen vid utg&#229;ngen av
+de tre senaste r&#228;kenskaps&#229;ren har
+understigit det d&#229; g&#228;llande
+prisbasbeloppet enligt 2 kap. 6 och 7 &#167;&#167;
+socialf&#246;rs&#228;kringsbalken.
+
+F&#246;rordnande om &#228;ndring av stiftelsens
+stadgar (22 &#167; lagen om tryggande av
+pensionsutf&#228;stelse m.m.)                        7
+F&#246;rordning (2010:1693).
+
+Tillsynsavgift
+
+20 &#167; En stiftelse som &#228;r skyldig att uppr&#228;tta &#229;rsredovisning
+ska betala en &#229;rlig tillsynsavgift. F&#246;r stiftelser som ut&#246;var
+n&#228;ringsverksamhet &#228;r avgiften 600 kronor och f&#246;r &#246;vriga
+stiftelser 400 kronor.
+
+Stiftelser som enligt 9 kap. 10 &#167; f&#246;rsta stycket
+stiftelselagen (1994:1220) st&#229;r under begr&#228;nsad tillsyn eller
+som st&#229;r under kontroll av Svensk Insamlingskontroll ska
+betala tillsynsavgift endast om de f&#246;rvaltas av en statlig
+myndighet och v&#228;rdet av deras tillg&#229;ngar vid utg&#229;ngen av
+f&#246;reg&#229;ende r&#228;kenskaps&#229;r &#246;verstiger etthundra prisbasbelopp
+enligt 2 kap. 6 och 7 &#167;&#167; socialf&#246;rs&#228;kringsbalken. F&#246;r s&#229;dana
+stiftelser &#228;r avgiften 200 kronor.
+
+En pensionsstiftelse eller personalstiftelse enligt lagen
+(1967:531) om tryggande av pensionsutf&#228;stelse m.m. ska betala
+600 kronor i &#229;rlig tillsynsavgift.
+
+Tillsynsavgiften ska betalas senast sex m&#229;nader efter utg&#229;ngen
+av stiftelsens senaste r&#228;kenskaps&#229;r. F&#246;rordning (2010:1693).
+
+Registerh&#229;llningsavgift m.m.
+
+21 &#167; En stiftelse som &#228;r registrerad i stiftelseregistret ska
+betala en &#229;rlig registerh&#229;llningsavgift. F&#246;r stiftelser som
+ut&#246;var n&#228;ringsverksamhet &#228;r avgiften 600 kronor. F&#246;r &#246;vriga
+stiftelser &#228;r avgiften 425 kronor om v&#228;rdet av stiftelsens
+tillg&#229;ngar ber&#228;knat enligt 2 kap. 4 &#167; bokf&#246;ringslagen
+(1999:1078) vid utg&#229;ngen av f&#246;reg&#229;ende r&#228;kenskaps&#229;r
+&#246;verstiger en och en halv miljon kronor och i annat fall 200
+kronor.
+
+En pensionsstiftelse eller personalstiftelse enligt lagen
+(1967:531) om tryggande av pensionsutf&#228;stelse m.m. ska betala
+425 kronor i &#229;rlig registerh&#229;llningsavgift.
+
+Avgiften enligt f&#246;rsta eller andra stycket ska betalas senast
+sex m&#229;nader efter utg&#229;ngen av stiftelsens senaste
+r&#228;kenskaps&#229;r. F&#246;rordning (2013:495).
+
+22 &#167; F&#246;r registreringsbevis som avses i denna f&#246;rordning skall det
+tas ut avgift efter avgiftsklass A enligt 20 &#167; avgiftsf&#246;rordningen
+(1992:191).
+
+Revisorer i stiftelser som f&#246;rvaltas av statliga myndigheter
+
+23 &#167; Uppg&#229;r v&#228;rdet av tillg&#229;ngarna i en stiftelse som
+f&#246;rvaltas av en statlig myndighet vid utg&#229;ngen av f&#246;reg&#229;ende
+r&#228;kenskaps&#229;r till minst etthundra prisbasbelopp enligt 2 kap.
+6 och 7 &#167;&#167; socialf&#246;rs&#228;kringsbalken, ska L&#228;nsstyrelsen i
+Stockholms l&#228;n utse och entlediga revisor i stiftelsen.
+
+Om L&#228;nsstyrelsen i Stockholms l&#228;n enligt f&#246;rsta stycket ska
+utse och entlediga revisor i en stiftelse, ska l&#228;nsstyrelsen
+utse och entlediga revisor &#228;ven i andra stiftelser som
+f&#246;rvaltas av myndigheten, om myndigheten beg&#228;r det.
+L&#228;nsstyrelsen f&#229;r i s&#229;dana fall ta ut en avgift av myndigheten
+och disponera avgiftsinkomsterna.
+
+I andra fall &#228;n som avses i f&#246;rsta och andra styckena ska
+myndighetens styrelse, om det finns en s&#229;dan, och annars
+myndighetens chef utse och entlediga revisor i stiftelsen.
+
+F&#246;rsta–tredje styckena g&#228;ller inte om annat f&#246;ljer av
+stiftelsef&#246;rordnandet eller om annat har beslutats av
+regeringen f&#246;r ett s&#228;rskilt fall. F&#246;rordning (2012:54).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1995:1280
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1996.
+
+2. Genom denna f&#246;rordning upph&#228;vs kung&#246;relsen (1930:217) med vissa
+best&#228;mmelser i anledning av lagen om tillsyn &#246;ver stiftelser d. 24
+maj 1929 (nr 116). Best&#228;mmelserna i 1 &#167; kung&#246;relsen skall dock
+till&#228;mpas i fr&#229;ga om r&#228;kenskaps&#229;r som har inletts f&#246;re den 1 januari
+1996.
+
+2003:75
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2003.
+
+2. F&#246;r tiden fr&#229;n och med den 1 juli 2003 till och med den 31
+december 2003 &#228;r avgiften enligt 20 &#167; andra stycket 100 kr.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3104">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3106">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

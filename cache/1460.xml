@@ -1,0 +1,934 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-05-25" /> 
+ <meta id="rattsinfo-edited" content="2023-05-25 10:20:50" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1460</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1459">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1461">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2012:238 ·
+                    <a href="/sfsr?bet=2012:238">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Taxitrafikf&#246;rordning (2012:238)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSIB TM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2012-05-03
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1481
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2012-06-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller f&#246;reskrifter som ansluter till
+taxitrafiklagen (2012:211).
+
+2 &#167; De begrepp som anv&#228;nds i denna f&#246;rordning har samma 
+betydelse som i taxitrafiklagen (2012:211) och lagen 
+(2001:559) om v&#228;gtrafikdefinitioner.
+
+Best&#228;mmelser om registrering av tillst&#229;ndsinnehav m.m. enligt 
+taxitrafiklagen finns i v&#228;gtrafikdataf&#246;rordningen (2019:382).
+
+I f&#246;rordningen (1999:1134) om belastningsregister och 
+f&#246;rordningen (1999:1135) om misstankeregister finns 
+best&#228;mmelser om r&#228;tt f&#246;r Transportstyrelsen att f&#229; uppgifter 
+ur dessa register. F&#246;rordning (2019:401).
+
+Till&#228;mpningsomr&#229;de
+
+3 &#167; Som taxitrafik anses inte
+
+1. transport av passagerare till eller fr&#229;n en arbetsplats,
+skola eller annan lokal d&#228;r bilf&#246;raren eller passageraren
+arbetar eller utbildar sig, om transporten sker i samband med
+att bilf&#246;raren f&#228;rdas till sitt arbete eller sin
+utbildningsplats,
+
+2. transport med personbil av skolelever mellan bostad och
+skola eller del av en s&#229;dan transportstr&#228;cka, om transporten
+utf&#246;rs av en f&#246;r&#228;lder eller annan anh&#246;rig till n&#229;gon av
+eleverna, eller
+
+3. transport med utryckningsfordon.
+
+2 kap. Taxitrafiktillst&#229;nd
+
+Pr&#246;vningsmyndighet m.m.
+
+1 &#167; Transportstyrelsen &#228;r pr&#246;vningsmyndighet enligt 2 kap. 2 &#167;
+taxitrafiklagen (2012:211).
+
+2 &#167; Trafikverket utformar och anordnar skriftliga prov i 
+yrkeskunnande enligt 2 kap. 8 &#167; taxitrafiklagen (2012:211). 
+
+Den som genom anv&#228;ndning av otill&#229;tna hj&#228;lpmedel eller p&#229; 
+annat s&#228;tt f&#246;rs&#246;ker vilseleda vid prov enligt f&#246;rsta stycket 
+ska st&#228;ngas av fr&#229;n deltagande i s&#229;dana prov under ett eller 
+tv&#229; &#229;r fr&#229;n tidpunkten f&#246;r f&#246;rs&#246;ket. 
+
+Vid bed&#246;mningen av avst&#228;ngningstidens l&#228;ngd ska det s&#228;rskilt 
+beaktas hur allvarlig &#246;vertr&#228;delsen har varit, hur 
+sv&#229;ruppt&#228;ckt anv&#228;ndningen av ett otill&#229;tet hj&#228;lpmedel eller 
+ett annat vilseledande har varit och andra liknande 
+omst&#228;ndigheter. F&#246;rordning (2022:1481).
+
+3 &#167; Fr&#229;gor om avst&#228;ngning enligt 2 &#167; pr&#246;vas av Trafikverket. 
+F&#246;rordning (2022:1481).
+
+Ans&#246;kan
+
+4 &#167; En ans&#246;kan om taxitrafiktillst&#229;nd ska vara skriftlig.
+
+S&#246;kanden ska ge in s&#229;dana handlingar som visar att kraven
+enligt 2 kap. 5 &#167; taxitrafiklagen (2012:211) &#228;r uppfyllda.
+
+I fr&#229;ga om utl&#228;ndska medborgare som inte har hemvist i Sverige
+ska &#228;ven en utredning om gott anseende ges in. I s&#229;dana fall
+ska Transportstyrelsen godta ett utdrag ur en beh&#246;rig
+myndighets register eller ett intyg som &#228;r utf&#228;rdat av en
+beh&#246;rig myndighet eller ett organ i det land d&#228;r utl&#228;nningen &#228;r
+medborgare eller har sitt hemvist.
+
+Tillst&#229;ndspr&#246;vning m.m.
+
+5 &#167; S&#246;kanden ska p&#229; beg&#228;ran av Transportstyrelsen ge in de
+uppgifter som styrelsen beh&#246;ver f&#246;r att pr&#246;va en ans&#246;kan om
+taxitrafiktillst&#229;nd.
+
+6 &#167; Transportstyrelsen f&#229;r p&#229; ans&#246;kan medge att den som har
+genomg&#229;tt en viss gymnasieutbildning eller annan h&#246;gre
+utbildning med godk&#228;nt betyg i ett visst eller vissa &#228;mnen som
+ing&#229;r i prov som avses i 2 kap. 8 &#167; taxitrafiklagen (2012:211)
+undantas fr&#229;n skyldigheten att avl&#228;gga prov i ett s&#229;dant &#228;mne.
+
+Transportstyrelsen f&#229;r &#228;ven medge undantag fr&#229;n skyldigheten
+att avl&#228;gga prov f&#246;r den som har minst fem &#229;rs praktisk
+erfarenhet som trafikansvarig eller p&#229; f&#246;retagsledningsniv&#229; i
+ett transportf&#246;retag under f&#246;ruts&#228;ttning att s&#246;kanden godk&#228;nns
+vid ett kontrollprov som anordnas av Trafikverket.
+
+7 &#167; Vid pr&#246;vningen enligt 2 kap. 9 &#167; taxitrafiklagen (2012:211)
+av s&#246;kandens ekonomiska resurser ska s&#228;rskilt f&#246;ljande beaktas:
+
+– tillg&#228;ngliga medel inr&#228;knat sparmedel, m&#246;jligheter till
+krediter och l&#229;n,
+
+– alla tillg&#229;ngar inr&#228;knat egendom som s&#246;kanden kan utnyttja
+som s&#228;kerhet,
+
+– kostnader inr&#228;knat ink&#246;pskostnader eller f&#246;rsta betalning f&#246;r
+fordon, lokaler, anl&#228;ggningar och utrustning, samt
+
+– behovet av r&#246;relsekapital.
+
+8 &#167; Den ekonomiska pr&#246;vningen enligt 2 kap. 5 och 9 &#167;&#167;
+taxitrafiklagen (2012:211) f&#229;r g&#246;ras p&#229; grundval av
+redovisningshandlingar, inkomstdeklaration med bilagor eller
+andra handlingar som kan belysa s&#246;kandens ekonomiska situation,
+s&#229;som en finansieringsplan eller budget.
+
+Som bevis p&#229; att s&#246;kanden uppfyller kraven p&#229; ekonomiska
+resurser f&#229;r Transportstyrelsen &#228;ven godta ett intyg av en
+auktoriserad eller godk&#228;nd revisor eller en bekr&#228;ftelse eller
+f&#246;rs&#228;kran av en bank eller ett kreditmarknadsf&#246;retag.
+
+Taxitrafiktillst&#229;nd
+
+9 &#167; Ett beslut om taxitrafiktillst&#229;nd ska inneh&#229;lla
+
+1. tillst&#229;ndshavarens namn, adress, personnummer eller
+organisationsnummer, och
+
+2. de villkor och begr&#228;nsningar som g&#228;ller f&#246;r trafiken.
+
+Om tillst&#229;ndshavaren &#228;r en juridisk person eller en
+n&#228;ringsidkare som &#228;r bosatt utanf&#246;r Europeiska ekonomiska
+samarbetsomr&#229;det (EES), ska beslutet ocks&#229; inneh&#229;lla uppgift om
+vem som &#228;r trafikansvarig och vilka som i &#246;vrigt pr&#246;vats enligt
+2 kap. 6 &#167; andra stycket och 7 &#167; taxitrafiklagen (2012:211).
+
+Tillst&#229;ndet ska vidare inneh&#229;lla upplysningar om inneh&#229;llet i
+10 &#167; och 4 kap. 2 och 6 &#167;&#167; samt en upplysning om under vilka
+f&#246;ruts&#228;ttningar tillst&#229;ndet kan komma att &#229;terkallas.
+
+Utbyte av trafikansvariga m.fl.
+
+10 &#167; Tillst&#229;ndshavaren ska till Transportstyrelsen anm&#228;la om
+den eller de som &#228;r trafikansvariga eller n&#229;gon annan som
+l&#228;mplighetspr&#246;vningen ska avse byts ut. Detsamma g&#228;ller om
+n&#229;gon s&#229;dan person tillkommer.
+
+11 &#167; Det som f&#246;reskrivits om ans&#246;kan om tillst&#229;nd och pr&#246;vning
+av en s&#229;dan ans&#246;kan i 4–6 &#167;&#167; g&#228;ller i till&#228;mpliga delar en
+anm&#228;lan enligt 10 &#167; och pr&#246;vningen med anledning av en s&#229;dan
+anm&#228;lan.
+
+3 kap. Taxif&#246;rarlegitimation
+
+Pr&#246;vningsmyndighet
+
+1 &#167; Transportstyrelsen &#228;r pr&#246;vningsmyndighet enligt 3 kap. 2 &#167;
+taxitrafiklagen (2012:211).
+
+Ans&#246;kan
+
+2 &#167; S&#246;kanden ska p&#229; beg&#228;ran av Transportstyrelsen ge in de
+uppgifter som styrelsen beh&#246;ver f&#246;r att pr&#246;va en ans&#246;kan om
+taxif&#246;rarlegitimation.
+
+3 &#167; Om s&#246;kanden inte f&#246;ljer ett f&#246;rel&#228;ggande att inom en viss
+tid ge in ett l&#228;karintyg, ska ans&#246;kningen avvisas.
+F&#246;rel&#228;ggandet ska inneh&#229;lla en upplysning om detta.
+
+K&#246;rprov
+
+4 &#167; Den som ans&#246;ker om taxif&#246;rarlegitimation ska ha avlagt ett
+godk&#228;nt k&#246;rprov f&#246;r en s&#229;dan legitimation tidigast 12 m&#229;nader
+innan ans&#246;kan ges in till Transportstyrelsen.
+
+5 &#167; K&#246;rprov f&#246;r taxif&#246;rarlegitimation ska avl&#228;ggas inf&#246;r den 
+som Transportstyrelsen har f&#246;rordnat att f&#246;rr&#228;tta f&#246;rarprov 
+enligt k&#246;rkortslagen (1998:488).
+
+Den som genom anv&#228;ndning av otill&#229;tna hj&#228;lpmedel eller p&#229; 
+annat s&#228;tt f&#246;rs&#246;ker vilseleda vid prov enligt f&#246;rsta stycket 
+ska st&#228;ngas av fr&#229;n deltagande i s&#229;dana prov under ett eller 
+tv&#229; &#229;r fr&#229;n tidpunkten f&#246;r f&#246;rs&#246;ket. 
+
+Vid bed&#246;mningen av avst&#228;ngningstidens l&#228;ngd ska det s&#228;rskilt 
+beaktas hur allvarlig &#246;vertr&#228;delsen har varit, hur 
+sv&#229;ruppt&#228;ckt anv&#228;ndningen av ett otill&#229;tet hj&#228;lpmedel eller 
+ett annat vilseledande har varit och andra liknande 
+omst&#228;ndigheter. F&#246;rordning (2022:1481).
+
+5 a &#167; Fr&#229;gor om avst&#228;ngning enligt 5 &#167; pr&#246;vas av Trafikverket.
+F&#246;rordning (2022:1481).
+
+6 &#167; Den som avl&#228;gger ett k&#246;rprov f&#246;r taxif&#246;rarlegitimation
+inf&#246;r en f&#246;rarpr&#246;vare hos Trafikverket ska tillhandah&#229;lla en
+personbil som &#228;r l&#228;mplig f&#246;r provet.
+
+7 &#167; K&#246;rprov f&#246;r taxif&#246;rarlegitimation avser s&#246;kandens
+
+1. f&#246;rm&#229;ga att till&#228;mpa kunskaper om konstruktionen och
+verkningss&#228;ttet hos fordon av det slag som provet avser,
+
+2. f&#246;rm&#229;ga att till&#228;mpa kunskaper om passagerares s&#228;kerhet i
+fordon av det slag som provet avser,
+
+3. f&#246;rm&#229;ga att i landsv&#228;gs- och gatutrafik k&#246;ra fordon av det
+slag som provet avser,
+
+4. f&#246;rm&#229;ga att till&#228;mpa kunskaper f&#246;r att hitta till
+passagerares resm&#229;l, och
+
+5. sinnesn&#228;rvaro och omd&#246;mesf&#246;rm&#229;ga.
+F&#246;rordning (2014:1092).
+
+8 &#167; Ett k&#246;rprov f&#246;r taxif&#246;rarlegitimation ska godk&#228;nnas om det
+visar att s&#246;kanden, i de avseenden som anges i 7 &#167;, har de
+f&#246;rm&#229;gor och den sinnesn&#228;rvaro som b&#246;r kr&#228;vas av en taxif&#246;rare.
+
+Skriftligt prov i yrkeskompetens
+
+9 &#167; Trafikverket utformar och anordnar skriftliga prov i 
+yrkeskompetens enligt 3 kap. 7 &#167; taxitrafiklagen (2012:211). 
+
+Den som genom anv&#228;ndning av otill&#229;tna hj&#228;lpmedel eller p&#229; 
+annat s&#228;tt f&#246;rs&#246;ker vilseleda vid prov enligt f&#246;rsta stycket 
+ska st&#228;ngas av fr&#229;n deltagande i s&#229;dana prov under ett eller 
+tv&#229; &#229;r fr&#229;n tidpunkten f&#246;r f&#246;rs&#246;ket. 
+
+Vid bed&#246;mningen av avst&#228;ngningstidens l&#228;ngd ska det s&#228;rskilt 
+beaktas hur allvarlig &#246;vertr&#228;delsen har varit, hur 
+sv&#229;ruppt&#228;ckt anv&#228;ndningen av ett otill&#229;tet hj&#228;lpmedel eller 
+ett annat vilseledande har varit och andra liknande 
+omst&#228;ndigheter. F&#246;rordning (2022:1481).
+
+10 &#167; Fr&#229;gor om avst&#228;ngning enligt 9 &#167; pr&#246;vas av Trafikverket.
+F&#246;rordning (2022:1481).
+
+11 &#167; Den som ans&#246;ker om taxif&#246;rarlegitimation ska ha avlagt
+godk&#228;nt skriftligt prov i yrkeskompetens f&#246;r en s&#229;dan
+legitimation tidigast tre &#229;r innan ans&#246;kan ges in till
+Transportstyrelsen. F&#246;rordning (2014:1486).
+
+Erk&#228;nnande av utl&#228;ndska yrkeskvalifikationer
+
+11 a &#167; Best&#228;mmelser om tillf&#228;llig yrkesut&#246;vning och 
+erk&#228;nnande av yrkeskvalifikationer som har f&#246;rv&#228;rvats eller 
+erk&#228;nts i en annan stat &#228;n Sverige inom Europeiska ekonomiska 
+samarbetsomr&#229;det eller i Schweiz finns i lagen (2016:145) om 
+erk&#228;nnande av yrkeskvalifikationer och i de f&#246;reskrifter som 
+meddelas i anslutning till den lagen. F&#246;rordning (2016:175).
+
+Utf&#228;rdande av taxif&#246;rarlegitimation
+
+12 &#167; Taxif&#246;rarlegitimation utf&#228;rdas av Transportstyrelsen
+sedan s&#246;kanden gett in en ans&#246;kan som uppfyller kraven i 15 &#167;
+andra stycket. F&#246;rordning (2012:480).
+
+Medf&#246;rande av taxif&#246;rarlegitimation
+
+13 &#167; En giltig taxif&#246;rarlegitimation ska medf&#246;ras i taxitrafik
+och vara v&#228;l synlig f&#246;r passagerarna. Den ska visas upp f&#246;r en
+bilinspekt&#246;r eller polisman om han eller hon beg&#228;r det.
+
+F&#246;rst&#246;rd eller borttappad taxif&#246;rarlegitimation
+
+14 &#167; Om en taxif&#246;rarlegitimation har f&#246;rst&#246;rts eller kommit
+bort ska innehavaren anm&#228;la detta till Transportstyrelsen.
+
+Till en anm&#228;lan ska om m&#246;jligt den f&#246;rst&#246;rda legitimationen
+bifogas. Om en legitimation som har kommit bort senare hittas,
+ska den genast s&#228;ndas till Transportstyrelsen.
+
+Utf&#228;rdande och f&#246;rnyelse av taxif&#246;rarlegitimation
+
+15 &#167; Transportstyrelsen ska skicka underlag f&#246;r ans&#246;kan om
+
+1. utf&#228;rdande av taxif&#246;rarlegitimation till den som har 
+beviljats taxif&#246;rarlegitimation enligt 3 kap. 3 &#167; 
+taxitrafiklagen (2012:211), och
+
+2. f&#246;rnyelse av taxif&#246;rarlegitimation till innehavaren.
+
+En ans&#246;kan som avses i f&#246;rsta stycket ska g&#246;ras p&#229; en s&#228;rskild 
+blankett (grundhandling) och vara egenh&#228;ndigt undertecknad. 
+Ett v&#228;lliknande fotografi ska f&#246;lja med ans&#246;kan. 
+
+Transportstyrelsen f&#229;r meddela f&#246;reskrifter om att en ans&#246;kan 
+om utf&#228;rdande och f&#246;rnyelse av taxif&#246;rarlegitimation i st&#228;llet 
+ska ges in p&#229; elektronisk v&#228;g. F&#246;rordning (2022:1481).
+
+16 &#167; Om en ans&#246;kan om f&#246;rnyelse av taxif&#246;rarlegitimation enligt
+3 kap. 12 &#167; taxitrafiklagen (2012:211) inte har getts in inom
+en av Transportstyrelsen angiven tid, ska Transportstyrelsen
+f&#246;rel&#228;gga innehavaren att inom en viss tid efter det att han
+eller hon f&#229;tt del av f&#246;rel&#228;ggandet ans&#246;ka om f&#246;rnyelse av
+taxif&#246;rarlegitimationen.
+
+F&#246;rel&#228;ggandet ska inneh&#229;lla en upplysning om att
+taxif&#246;rarlegitimationen blir ogiltig enligt 3 kap. 11 &#167; f&#246;rsta
+stycket 1 taxitrafiklagen om f&#246;rel&#228;ggandet inte f&#246;ljs.
+
+&#197;terkallelse och omh&#228;ndertagande av taxif&#246;rarlegitimation
+
+17 &#167; Ett f&#246;rel&#228;ggande f&#246;r en innehavare av
+taxif&#246;rarlegitimation att inom en viss tid ge in ett l&#228;karintyg
+ska inneh&#229;lla en upplysning om att legitimationen kan
+&#229;terkallas enligt 4 kap. 6 &#167; f&#246;rsta stycket 3 taxitrafiklagen
+(2012:211) om f&#246;rel&#228;ggandet inte f&#246;ljs.
+
+18 &#167; Ett beslut enligt 4 kap. 9 &#167; taxitrafiklagen (2012:211)
+att ta hand om en taxif&#246;rarlegitimation ska meddelas skyndsamt
+och delges innehavaren.
+
+Beslutet samt uppgift om delgivning, f&#246;religgande utredning och
+redog&#246;relse f&#246;r de sk&#228;l som har lett till omh&#228;ndertagandet ska
+inom 48 timmar s&#228;ndas till Transportstyrelsen. Om beslutet
+delges eller om taxif&#246;rarlegitimationen &#246;verl&#228;mnas senare, ska
+detta snarast meddelas Transportstyrelsen. En omh&#228;ndertagen
+legitimation ska s&#228;ndas till Transportstyrelsen.
+
+19 &#167; En uppmaning i samband med ett beslut om &#229;terkallelse att
+&#246;verl&#228;mna en taxif&#246;rarlegitimation enligt 4 kap. 11 &#167;
+taxitrafiklagen (2012:211) f&#229;r delges innehavaren genom
+st&#228;mningsmannadelgivning. I ett s&#229;dant fall ska handlingen
+l&#228;mnas till den som utf&#246;r delgivningen.
+
+4 kap. Allm&#228;nna best&#228;mmelser om kontrollen av taxitrafik
+
+1 &#167; Transportstyrelsen &#228;r tillsynsmyndighet enligt 4 kap. 16 &#167;
+taxitrafiklagen (2012:211).
+
+2 &#167; En personbil eller en l&#228;tt lastbil som ska anv&#228;ndas i
+taxitrafik enligt ett taxitrafiktillst&#229;nd ska skriftligen
+anm&#228;las till Transportstyrelsen av tillst&#229;ndshavaren.
+Fordonet f&#229;r inte anv&#228;ndas i taxitrafik f&#246;rr&#228;n en anm&#228;lan,
+som uppfyller kraven i 3 &#167;, har kommit in till
+Transportstyrelsen. F&#246;rordning (2014:1092).
+
+3 &#167; En anm&#228;lan enligt 2 &#167; ska inneh&#229;lla uppgift om fordonets
+registreringsnummer och, i f&#246;rekommande fall, uppgift om att
+ett fordon innehas med nyttjander&#228;tt. Med
+anm&#228;lningshandlingarna ska f&#246;lja en kompletterande utredning
+om att kravet p&#229; ekonomiska resurser enligt 2 kap. 9 &#167;
+taxitrafiklagen (2012:211) &#228;r uppfyllt, om det &#228;r fr&#229;ga om en
+ut&#246;kning av antalet fordon som ska anv&#228;ndas enligt
+taxitrafiktillst&#229;ndet.
+
+F&#246;r ett fordon som innehas med nyttjander&#228;tt ska en kopia av
+kontraktet ges in om Transportstyrelsen beg&#228;r det.
+F&#246;rordning (2014:1092).
+
+4 &#167; Transportstyrelsen ska kontrollera i v&#228;gtrafikregistret 
+att ett fordon som har anm&#228;lts enligt 2 &#167; uppfyller de villkor 
+om registrering och om beskaffenhet och utrustning som 
+f&#246;reskrivs i fordonsf&#246;rordningen (2009:211) och f&#246;rordningen 
+(2019:383) om fordons registrering och anv&#228;ndning samt i 
+f&#246;reskrifter som har meddelats med st&#246;d av fordonsf&#246;rordningen 
+f&#246;r den fordonstyp som taxitrafiktillst&#229;ndet avser. Styrelsen 
+ska ocks&#229; kontrollera att tillst&#229;ndshavaren &#228;ger fordonet 
+eller, om s&#229; beh&#246;vs, kontrollera att denne har nyttjander&#228;tt 
+till det. F&#246;rordning (2019:401).
+
+5 &#167; Om en ut&#246;kning sker av det antal personbilar eller l&#228;tta
+lastbilar som tillst&#229;ndshavaren ska anv&#228;nda ska
+Transportstyrelsen pr&#246;va att de ekonomiska f&#246;ruts&#228;ttningarna &#228;r
+uppfyllda. &#196;ven i &#246;vrigt ska l&#228;mpligheten enligt 2 kap. 5 &#167;
+f&#246;rsta stycket taxitrafiklagen (2012:211), utom i fr&#229;ga om
+yrkeskunnande, pr&#246;vas. Om r&#246;relsen ut&#246;kas beh&#246;ver en ny
+l&#228;mplighetspr&#246;vning inte g&#246;ras, om en s&#229;dan pr&#246;vning nyligen
+har genomf&#246;rts eller om en l&#228;mplighetspr&#246;vning av andra sk&#228;l
+framst&#229;r som obeh&#246;vlig.
+
+6 &#167; Om ett fordon som har anm&#228;lts enligt 2 &#167; ska &#228;ndras s&#229; att
+det inte l&#228;ngre uppfyller villkoren enligt 4 &#167; eller om
+fordonet inte l&#228;ngre ska anv&#228;ndas enligt taxitrafiktillst&#229;ndet,
+ska tillst&#229;ndshavaren anm&#228;la detta till Transportstyrelsen
+innan fordonet &#228;ndras eller tas i bruk f&#246;r annan trafik.
+
+5 kap. S&#228;rskilda best&#228;mmelser om taxameterutrustning och s&#228;rskild 
+utrustning f&#246;r taxifordon m.m.
+
+Taxameterutrustning och s&#228;rskild utrustning f&#246;r taxifordon
+
+1 &#167; Ett fordon f&#229;r anv&#228;ndas i taxitrafik endast om det &#228;r 
+f&#246;rsett med n&#229;got av f&#246;ljande:
+
+1. En taxameterutrustning som &#228;r av godk&#228;nd typ och som 
+fungerar tillfredsst&#228;llande i enlighet med f&#246;reskrifter som 
+har meddelats med st&#246;d av 8 kap. 1 &#167;. Taxameterutrustningen 
+och fasts&#228;ttningen av denna ska vara kontrollerade och 
+plomberade p&#229; det s&#228;tt som anges i dessa f&#246;reskrifter.
+
+2. S&#229;dan s&#228;rskild utrustning f&#246;r taxifordon som avses i 
+2 b kap. 1 &#167; andra stycket taxitrafiklagen (2012:211) och som 
+fungerar tillfredsst&#228;llande i enlighet med f&#246;reskrifter som 
+har meddelats med st&#246;d av 8 kap. 2 a &#167;. 
+F&#246;rordning (2019:196).
+
+2 &#167; Ett taxifordon f&#229;r inte samtidigt vara f&#246;rsett med 
+taxameterutrustning och s&#228;rskild utrustning f&#246;r taxifordon.
+F&#246;rordning (2019:196).
+
+3 &#167; Taxameterutrustning ska besiktas senast ett &#229;r fr&#229;n 
+installationen eller den senaste besiktningen av ett godk&#228;nt 
+besiktningsorgan. Vid besiktningen ska en kontrollrapport 
+uppr&#228;ttas.
+
+Godk&#228;nnande av besiktningsorgan ska ske genom ackreditering 
+enligt Europaparlamentets och r&#229;dets f&#246;rordning (EG) 
+nr 765/2008 av den 9 juli 2008 om krav f&#246;r ackreditering och 
+upph&#228;vande av f&#246;rordning (EEG) nr 339/93 och lagen (2011:791) 
+om ackreditering och teknisk kontroll. F&#246;rordning (2022:1180).
+
+4 &#167; I fordonslagen (2002:574) finns det best&#228;mmelser om r&#228;tten 
+att kontrollera ett fordons taxameterutrustning eller s&#228;rskilda 
+utrustning f&#246;r taxifordon och om provk&#246;rning av fordonet vid en 
+s&#229;dan kontroll. F&#246;rordning (2019:196).
+
+Taxans uppbyggnad
+
+5 &#167; F&#246;r s&#229;dana transporter d&#228;r avtal om taxitrafik, genom
+upphandling eller p&#229; liknande s&#228;tt, har ing&#229;tts enligt andra
+villkor i fr&#229;ga om taxans uppbyggnad &#228;n de som anges i
+taxitrafiklagen (2012:211) och i f&#246;reskrifter som har meddelats
+med st&#246;d av lagen, g&#228;ller inte det som s&#228;gs i n&#228;mnda lag och
+f&#246;reskrifter i fr&#229;ga om taxans uppbyggnad.
+
+Omh&#228;ndertagen registreringsskylt f&#246;r taxi
+
+6 &#167; Vid f&#228;rd med ett fordon vars registreringsskyltar har
+tagits om hand ska det i fordonet finnas ett bevis om en
+polismans eller tulltj&#228;nstemans medgivande enligt 5 kap. 8 &#167;
+andra stycket taxitrafiklagen (2012:211).
+
+7 &#167; Registreringsskyltar som har tagits om hand ska f&#246;rvaras
+hos Polismyndigheten respektive Tullverket under en vecka
+efter omh&#228;ndertagandet. Skyltarna f&#229;r under denna tid
+&#229;terl&#228;mnas till fordonets &#228;gare, om det visas att ett s&#229;dant
+f&#246;rh&#229;llande som avses i 5 kap. 8 &#167; f&#246;rsta stycket
+taxitrafiklagen (2012:211) inte l&#228;ngre g&#228;ller. Om skyltarna
+inte &#229;terl&#228;mnas ska myndigheten f&#246;rst&#246;ra dem.
+F&#246;rordning (2014:1286).
+
+6 kap. Underr&#228;ttelseskyldighet
+
+1 &#167; En myndighet ska anm&#228;la till Transportstyrelsen om
+myndigheten uppm&#228;rksammar en omst&#228;ndighet som kan vara av
+betydelse f&#246;r pr&#246;vningen av om en tillst&#229;ndshavare eller en
+innehavare av taxif&#246;rarlegitimation ska tilldelas en varning,
+eller om tillst&#229;ndet eller legitimationen ska &#229;terkallas.
+
+Om det finns anledning att anta att det har skett en
+&#246;vertr&#228;delse i trafikut&#246;vningen, ska Transportstyrelsen
+anm&#228;la det till Polismyndigheten eller en &#229;klagarmyndighet.
+F&#246;rordning (2014:1286).
+
+2 &#167; Skatteverket och andra myndigheter som uppb&#228;r eller driver
+in skatter eller avgifter ska p&#229; beg&#228;ran av Transportstyrelsen
+l&#228;mna de uppgifter som styrelsen beh&#246;ver f&#246;r sin pr&#246;vning eller
+tillsyn.
+
+3 &#167; N&#228;r en domstol har d&#246;mt n&#229;gon f&#246;r ett brott som anges i 
+6 kap. 3 &#167; v&#228;gtrafikdataf&#246;rordningen (2019:382) eller n&#228;r en 
+h&#246;gre r&#228;tt har avgjort ett m&#229;l d&#228;r en s&#229;dan fr&#229;ga har pr&#246;vats, 
+ska en kopia av domen eller beslutet omedelbart s&#228;ndas till 
+Transportstyrelsen om domen eller beslutet avser
+
+1. n&#229;gon som har taxif&#246;rarlegitimation,
+
+2. n&#229;gon som har taxitrafiktillst&#229;nd, eller
+
+3. n&#229;gon annan pr&#246;vad som avses i 2 kap. 6 eller 7 &#167; 
+taxitrafiklagen (2012:211). F&#246;rordning (2019:401).
+
+7 kap. Ansvarsbest&#228;mmelser och &#246;verklagande
+
+Straffbest&#228;mmelser
+
+1 &#167; Den som upps&#229;tligen eller av oaktsamhet bryter mot 3 kap. 
+13 &#167;, 4 kap. 2 eller 6 &#167; eller 5 kap. 6 &#167; d&#246;ms till 
+penningb&#246;ter. F&#246;rordning (2022:476).
+
+2 &#167; En tillst&#229;ndshavare eller f&#246;rare d&#246;ms till penningb&#246;ter om 
+han eller hon upps&#229;tligen eller av oaktsamhet anv&#228;nder ett 
+fordon 
+
+1. i strid mot det som har f&#246;reskrivits i denna f&#246;rordning
+
+a) om taxameterutrustning,
+
+b) om s&#228;rskild utrustning f&#246;r taxifordon,
+
+c) om anv&#228;ndning och kontroll av s&#229;dana utrustningar, eller 
+
+2. i strid mot f&#246;reskrifter som har meddelats i dessa 
+h&#228;nseenden med st&#246;d av 8 kap. 1 &#167;, 2 &#167; f&#246;rsta stycket 1 eller 
+2 a &#167;. F&#246;rordning (2019:196).
+
+3 &#167; En tillst&#229;ndshavare eller f&#246;rare som upps&#229;tligen eller av
+oaktsamhet bryter mot f&#246;reskrifter som har meddelats med st&#246;d
+av 8 kap. 2 &#167; f&#246;rsta stycket 2 d&#246;ms till penningb&#246;ter.
+
+Sanktionsavgift
+
+4 &#167; En sanktionsavgift om 10 000 kronor ska p&#229;f&#246;ras den 
+tillst&#229;ndshavare som inte f&#246;ljer krav p&#229; anm&#228;lan i 2 kap. 
+10 &#167;. F&#246;rordning (2022:476).
+
+5 &#167; Fr&#229;gor om p&#229;f&#246;rande av sanktionsavgift enligt 4 &#167; pr&#246;vas 
+av Transportstyrelsen.
+
+Innan sanktionsavgift p&#229;f&#246;rs ska f&#246;retaget ges tillf&#228;lle att 
+yttra sig. 
+
+Sanktionsavgiften f&#229;r s&#228;ttas ned eller efterges om det finns 
+s&#228;rskilda sk&#228;l. F&#246;rordning (2022:476).
+
+6 &#167; En sanktionsavgift ska betalas inom trettio dagar efter 
+det att beslutet har f&#229;tt laga kraft eller den l&#228;ngre tid som 
+anges i beslutet.
+
+Sanktionsavgiften ska betalas till Transportstyrelsen.
+
+Sanktionsavgiften tillfaller staten. F&#246;rordning (2022:476).
+
+7 &#167; Sanktionsavgift f&#229;r p&#229;f&#246;ras bara om den som anspr&#229;ket 
+riktas mot har getts tillf&#228;lle att yttra sig inom tv&#229; &#229;r fr&#229;n 
+det att f&#246;ruts&#228;ttningarna att besluta om avgift har uppfyllts.
+F&#246;rordning (2022:476).
+
+8 &#167; En sanktionsavgift faller bort, om beslutet om avgiften 
+inte har verkst&#228;llts inom fem &#229;r fr&#229;n det att beslutet f&#229;tt 
+laga kraft. F&#246;rordning (2022:476).
+
+&#214;verklagande
+
+9 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser 
+om &#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. Ytterligare 
+best&#228;mmelser om &#246;verklagande finns i 6 kap. 3 &#167; 
+taxitrafiklagen (2012:211). F&#246;rordning (2022:476).
+
+8 kap. &#214;vriga best&#228;mmelser
+
+Bemyndiganden
+
+1 &#167; Styrelsen f&#246;r ackreditering och teknisk kontroll f&#229;r
+meddela f&#246;reskrifter om krav p&#229; och kontroll av
+taxameterutrustning samt om fasts&#228;ttning, installation och
+plombering av s&#229;dan utrustning.
+
+Innan Styrelsen f&#246;r ackreditering och teknisk kontroll meddelar
+s&#229;dana f&#246;reskrifter ska den h&#246;ra Transportstyrelsen.
+
+2 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om
+
+1. anv&#228;ndning av taxameterutrustning,
+
+2. taxans uppbyggnad och prisinformation i taxitrafik,
+
+3. medicinska krav f&#246;r innehav av taxif&#246;rarlegitimation,
+
+4. krav p&#229; lokalk&#228;nnedom f&#246;r taxif&#246;rare och prov i s&#229;dan
+k&#228;nnedom, och
+
+5. skriftliga prov i yrkeskunnande och yrkeskompetens samt
+k&#246;rprov f&#246;r taxif&#246;rarlegitimation.
+
+F&#246;reskrifter om krav p&#229; lokalk&#228;nnedom f&#229;r begr&#228;nsas till att
+g&#228;lla inom ett l&#228;n eller en del av ett l&#228;n.
+
+Innan Transportstyrelsen meddelar f&#246;reskrifter som avses i
+f&#246;rsta stycket ska styrelsen h&#246;ra
+
+1. Konsumentverket, om f&#246;reskrifterna avser taxans uppbyggnad
+och prisinformation, och
+
+2. Socialstyrelsen, om f&#246;reskrifterna avser medicinska krav.
+F&#246;rordning (2014:1486).
+
+2 a &#167; Transportstyrelsen f&#229;r, efter att ha gett Skatteverket 
+tillf&#228;lle att yttra sig, meddela f&#246;reskrifter om s&#228;rskild 
+utrustning f&#246;r taxifordon samt anv&#228;ndning och kontroll av s&#229;dan 
+utrustning. F&#246;rordning (2019:196).
+
+3 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om
+verkst&#228;llighet av taxitrafiklagen (2012:211) och denna
+f&#246;rordning, dock inte i fall som avses i 4–6 &#167;&#167;.
+
+4 &#167; Polismyndigheten f&#229;r meddela f&#246;reskrifter om
+verkst&#228;llighet av 5 kap. 7 &#167; taxitrafiklagen (2012:211) inom
+myndighetens verksamhetsomr&#229;de.
+
+Innan Polismyndigheten meddelar s&#229;dana f&#246;reskrifter ska
+myndigheten h&#246;ra Tullverket. F&#246;rordning (2014:1286).
+
+5 &#167; Tullverket f&#229;r meddela f&#246;reskrifter om verkst&#228;llighet av
+5 kap. 7 &#167; taxitrafiklagen (2012:211) inom verkets
+verksamhetsomr&#229;de.
+
+Innan Tullverket meddelar s&#229;dana f&#246;reskrifter ska verket h&#246;ra
+Polismyndigheten. F&#246;rordning (2014:1286).
+
+6 &#167; Polismyndigheten f&#229;r meddela f&#246;reskrifter om
+Transportstyrelsens inh&#228;mtande av s&#229;dan personutredning som
+beh&#246;vs f&#246;r till&#228;mpningen av taxitrafiklagen (2012:211) och
+denna f&#246;rordning.
+
+Polismyndigheten f&#229;r ocks&#229; meddela f&#246;reskrifter om
+omh&#228;ndertagande av taxif&#246;rarlegitimation och
+registreringsskylt f&#246;r taxi.
+
+Innan Polismyndigheten meddelar f&#246;reskrifter med st&#246;d av
+f&#246;rsta eller andra stycket ska myndigheten h&#246;ra
+Transportstyrelsen. F&#246;rordning (2014:1286).
+
+7 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om eller i
+enskilda fall besluta om undantag fr&#229;n f&#246;reskrifterna om
+
+1. prisinformation och om taxans uppbyggnad i 2 kap. 17 &#167;
+taxitrafiklagen (2012:211),
+
+2. krav f&#246;r innehav av taxif&#246;rarlegitimation i 3 kap. 3 &#167; 1–3
+taxitrafiklagen, och
+
+3. krav p&#229; att taxametern &#228;r av godk&#228;nd typ i 5 kap. 1 &#167;.
+
+F&#246;reskrifter och undantag enligt f&#246;rsta stycket f&#229;r beslutas
+endast om det finns s&#228;rskilda sk&#228;l f&#246;r det.
+
+Ett beslut om undantag f&#229;r f&#246;renas med villkor.
+
+Undantag
+
+8 &#167; Transportstyrelsen f&#229;r medge att en innehavare av ett
+utl&#228;ndskt k&#246;rkort som &#228;r medborgare i en stat utanf&#246;r
+Europeiska ekonomiska samarbetsomr&#229;det (EES) k&#246;r ett
+svenskregistrerat motordrivet fordon i taxitrafik en kortare
+str&#228;cka eller tid, om det kan ske utan fara f&#246;r
+trafiks&#228;kerheten.
+
+Avgifter
+
+9 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om avgifter
+f&#246;r tillsyn och &#228;rendehandl&#228;ggning enligt taxitrafiklagen
+(2012:211) och f&#246;reskrifter som har meddelats i anslutning
+till lagen.
+
+Avgifter f&#246;r pr&#246;vning av undantag fr&#229;n medicinska krav f&#246;r
+taxif&#246;rarlegitimation f&#229;r best&#228;mmas upp till full
+kostnadst&#228;ckning. F&#246;rordning (2013:995).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2012:238
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juni 2012.
+
+2. F&#246;reskrifter om taxitrafik som har meddelats med st&#246;d av
+yrkestrafikf&#246;rordningen (1998:779) och som g&#228;ller n&#228;r denna
+f&#246;rordning tr&#228;der i kraft ska anses meddelade enligt denna
+f&#246;rordning.
+
+3. Om det i en lag eller annan f&#246;rfattning h&#228;nvisas till en
+f&#246;reskrift i yrkestrafikf&#246;rordningen (1998:779) som har ersatts
+genom en f&#246;reskrift i denna f&#246;rordning, till&#228;mpas i st&#228;llet den
+nya f&#246;reskriften.
+
+2019:196
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2021.
+
+2. Beslut om undantag som har fattats enligt den upph&#228;vda 
+best&#228;mmelsen i 5 kap. 2 &#167; och som avser tid efter 
+ikrafttr&#228;dandet g&#228;ller fortfarande.
+
+2022:476
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2023. 
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r &#246;vertr&#228;delser som 
+&#228;gt rum f&#246;re ikrafttr&#228;dandet.
+
+2022:1481
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2023.
+
+2. Beslut om avst&#228;ngning enligt 2 kap. 2 &#167;, 3 kap. 5 och 9 &#167;&#167; 
+i de nya lydelserna f&#229;r inte grundas p&#229; omst&#228;ndigheter som har 
+intr&#228;ffat f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1459">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1461">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

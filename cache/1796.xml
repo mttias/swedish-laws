@@ -1,0 +1,656 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2009-12-01" /> 
+ <meta id="rattsinfo-edited" content="2013-08-29" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1796</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1795">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1797">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2009:1127 ·
+                    <a href="/sfsr?bet=2009:1127">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2009:1127) om avtal mellan Sverige och Guernsey f&#246;r undvikande av dubbelbeskattning av f&#246;retag som anv&#228;nder skepp eller luftfartyg i internationell trafik</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2009-11-19
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2009:1135
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2009-12-31 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Det avtal mellan Konungariket Sverige och Guernsey f&#246;r
+undvikande av dubbelbeskattning av f&#246;retag som anv&#228;nder skepp
+eller luftfartyg i internationell trafik som undertecknades
+den 28 oktober 2008 ska g&#228;lla som lag h&#228;r i landet. Avtalet
+&#228;r avfattat p&#229; engelska och framg&#229;r av bilaga till denna lag.
+
+2 &#167; Avtalets beskattningsregler ska till&#228;mpas endast till den
+del dessa medf&#246;r inskr&#228;nkning av den skattskyldighet i
+Sverige som annars skulle f&#246;religga.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2009:1127
+
+1. Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer.
+
+2. Denna lag ska till&#228;mpas p&#229; skatt som tas ut f&#246;r
+beskattnings&#229;r som b&#246;rjar den 1 januari det &#229;r som f&#246;ljer
+n&#228;rmast efter det &#229;r d&#229; lagen tr&#228;der i kraft eller senare.
+
+
+Bilaga
+
+AGREEMENT BETWEEN THE KINGDOM OF SWEDEN AND THE STATES OF 
+GUERNSEY FOR THE AVOIDANCE OF DOUBLE TAXATION ON ENTERPRISES 
+OPERATING SHIPS OR AIRCRAFT IN INTERNATIONAL TRAFFIC
+
+The Government of the Kingdom of Sweden and the States of 
+Guernsey (“the Parties”), desiring to conclude an Agreement 
+for the avoidance of double taxation on enterprises operating 
+ships or aircraft in international traffic, have agreed as 
+follows:
+
+Article 1
+
+Definitions
+
+1. For the purposes of this Agreement, unless the context 
+otherwise requires:
+
+(a) the term “Sweden” means the Kingdom of Sweden and, when 
+used in a geographical sense, includes the national 
+territory, the territorial sea of Sweden as well as other 
+maritime areas over which Sweden in accordance with 
+international law exercises sovereign rights or jurisdiction;
+
+(b) the term “Guernsey” means Guernsey, Alderney and Herm, 
+including the territorial sea adjacent to those islands, in 
+accordance with international law;
+
+(c) the term “person” includes an individual, a company and 
+any other body of persons;
+
+(d) the term “company” means any body corporate or any entity 
+that is treated as a body corporate for tax purposes;
+
+(e) the term “resident of a Party” means any person, who 
+under the law of that Party is liable to tax therein by 
+reason of his domicile, residence, place of management, place 
+of incorporation or any other criterion of a similar nature;
+
+(f) the term “enterprise of a Party” means an enterprise 
+carried on by a resident of a Party;
+
+(g) the term “international traffic” means any transport by a 
+ship or aircraft operated by an enterprise of a Party, except 
+when the ship or aircraft is operated solely between places 
+in the other Party;
+
+(h) the term “income derived from the operation of ships or 
+aircraft in international traffic” means revenues, gross 
+receipts and profits derived from:
+
+i) such operation of ships or aircraft for the transport of 
+passengers or cargo;
+
+ii) the rental on a charter basis of ships or aircraft where 
+the rental is ancillary to the operation of ships or aircraft 
+in international traffic;
+
+iii) the sale of tickets or similar documents and the 
+provision of services connected with such operation, either 
+for the enterprise itself or for any other enterprise, where 
+such sale of tickets or similar documents or provision of 
+services is directly connected with or ancillary to the 
+operation of ships or aircraft in international traffic;
+
+iv) the use, maintenance or rental of containers (including 
+trailers and related equipment for the transport of 
+containers) used for the transport of goods or merchandise, 
+where the use, maintenance or rental is directly connected 
+with or ancillary to the operation of ships or aircraft in 
+international traffic;
+
+v) interest on funds deposited directly in connection with 
+the operation of ships or aircraft in international traffic;
+
+(i) the term “competent authority” means:
+
+i) in the case of Guernsey, the Administrator of Income Tax 
+or his delegate;
+
+ii) in the case of Sweden, the Minister of Finance, his 
+authorised representative or the authority which is 
+designated as a competent authority for the purposes of this 
+Agreement.
+
+2. As regards the application of the Agreement at any time by 
+a Party, any term not defined therein shall, unless the 
+context otherwise requires, have the meaning that it has at 
+that time under the law of that Party for the purposes of the 
+taxes to which the Agreement applies, any meaning under the 
+applicable tax laws of that Party prevailing over a meaning 
+given to the term under other laws of that Party.
+
+Article 2
+
+Avoidance of double taxation
+
+1. Income derived from the operation of ships or aircraft in 
+international traffic by an enterprise of a Party shall be 
+taxable only in that Party.
+
+2. The provisions of paragraph 1 shall also apply to income 
+derived by an enterprise of a Party from the participation in 
+a pool, a joint business or an international operating 
+agency.
+
+Article 3
+
+Mutual agreement procedure
+
+1. Where a person considers that the actions of one or both 
+of the Parties result or will result for him in taxation not 
+in accordance with the provisions of this Agreement, he may, 
+irrespective of the remedies provided by the domestic law of 
+those Parties, present his case to the competent authority of 
+the Party of which he is a resident. The case must be 
+presented within three years from the first notification of 
+the action resulting in taxation not in accordance with the 
+provisions of the Agreement.
+
+2. The competent authority shall endeavour, if the objection 
+appears to it to be justified and if it is not itself able to 
+arrive at a satisfactory solution, to resolve the case by 
+mutual agreement with the competent authority of the other 
+Party, with a view to the avoidance of taxation which is not 
+in accordance with the Agreement. Any agreement reached shall 
+be implemented notwithstanding any time limits in the 
+domestic law of the Parties.
+
+3. The competent authorities of the Parties shall endeavour 
+to resolve by mutual agreement any difficulties or doubts 
+arising as to the interpretation or application of the 
+Agreement.
+
+4. The competent authorities of the Parties may communicate 
+with each other directly for the purpose of reaching an 
+agreement in the sense of the preceding paragraphs.
+
+Article 4
+
+Entry into force
+
+1. This Agreement shall enter into force on the thirtieth day 
+after the later of the dates on which each of the Parties has 
+notified the other in writing that the procedures required by 
+its law have been complied with. The Agreement shall have 
+effect on taxes chargeable for any tax year beginning on or 
+after the first day of January of the calendar year next 
+following that in which this Agreement enters into force.
+
+2. Notwithstanding paragraph 1, this Agreement shall only 
+have effect when the Agreement signed on 28 October 2008 
+between the Kingdom of Sweden and the States of Guernsey for 
+the exchange of information relating to tax matters shall 
+have effect.
+
+Article 5
+
+Termination
+
+1. This Agreement shall remain in force until terminated by 
+either Party. Either Party may terminate the Agreement by 
+giving written notice of termination at least six months 
+before the end of any calendar year. In such event, the 
+Agreement shall cease to have effect on taxes chargeable for 
+any tax year beginning on or after the first day of January 
+of the calendar year next following the end of the six months 
+period.
+
+2. Notwithstanding paragraph 1, this Agreement will be 
+terminated, without giving notice of termination, on the date 
+of termination of the Agreement signed on 28 October 2008 
+between the Kingdom of Sweden and the States of Guernsey for 
+the exchange of information relating to tax matters.
+
+In witness whereof the undersigned being duly authorised 
+thereto have signed this Agreement.
+
+Done at Helsinki, this 28th day of October 2008, in duplicate 
+in the English language.
+
+For the Government of the Kingdom of Sweden
+
+Anders Borg
+
+For the States of Guernsey
+
+Lyndon Trott
+
+
+(&#214;vers&#228;ttning)
+
+AVTAL MELLAN KONUNGARIKET SVERIGE OCH GUERNSEY F&#214;R UNDVIKANDE 
+AV DUBBELBESKATTNING AV F&#214;RETAG SOM ANV&#196;NDER SKEPP ELLER 
+LUFTFARTYG I INTERNATIONELL TRAFIK
+
+Sveriges regering och Guernseys regering (”parterna”), som 
+&#246;nskar ing&#229; ett avtal f&#246;r undvikande av dubbelbeskattning av 
+f&#246;retag som anv&#228;nder skepp eller luftfartyg i internationell 
+trafik, har kommit &#246;verens om f&#246;ljande:
+
+Artikel 1
+
+Definitioner
+
+1. Om inte sammanhanget f&#246;ranleder annat, har vid 
+till&#228;mpningen av detta avtal f&#246;ljande uttryck nedan angiven 
+betydelse:
+
+a) ”Sverige” avser Konungariket Sverige och innefattar, n&#228;r 
+uttrycket anv&#228;nds i geografisk betydelse, Sveriges 
+territorium, Sveriges territorialvatten och andra havsomr&#229;den 
+&#246;ver vilka Sverige, i &#246;verensst&#228;mmelse med folkr&#228;ttens 
+regler, ut&#246;var suver&#228;na r&#228;ttigheter eller jurisdiktion,
+
+b) ”Guernsey” avser Guernsey, Alderney och Herm, innefattande 
+territorialvattnet i anslutning till dessa &#246;ar i 
+&#246;verensst&#228;mmelse med folkr&#228;tten,
+
+c) ”person” inbegriper fysisk person, bolag och annan 
+sammanslutning,
+
+d) ”bolag” avser juridisk person eller annan som vid 
+beskattningen behandlas s&#229;som juridisk person,
+
+e) ”person med hemvist i en part” avser person som enligt 
+lagstiftningen i denna part &#228;r skattskyldig d&#228;r p&#229; grund av 
+domicil, bos&#228;ttning, plats f&#246;r f&#246;retagsledning, 
+bolagsbildning eller annan liknande omst&#228;ndighet,
+
+f) ”f&#246;retag i en part” avser f&#246;retag som bedrivs av person 
+med hemvist i en part,
+
+g) ”internationell trafik” avser transport med skepp eller 
+luftfartyg som anv&#228;nds av f&#246;retag i en part utom d&#229; skeppet 
+eller luftfartyget anv&#228;nds uteslutande mellan platser i den 
+andra parten,
+
+h) ”inkomst som f&#246;rv&#228;rvas genom anv&#228;ndning av skepp eller 
+luftfartyg i internationell trafik” avser int&#228;kter, 
+bruttoinkomster och vinst som f&#246;rv&#228;rvas genom:
+
+1) s&#229;dan anv&#228;ndning av skepp eller luftfartyg f&#246;r transport 
+av passagerare eller gods,
+
+2) uthyrning p&#229; charterbasis av skepp eller luftfartyg n&#228;r 
+uthyrningen &#228;r av underordnad betydelse i f&#246;rh&#229;llande till 
+anv&#228;ndningen av skepp eller luftfartyg i internationell 
+trafik,
+
+3) f&#246;rs&#228;ljning av biljetter eller motsvarande handlingar samt 
+tillhandah&#229;llande av tj&#228;nster i samband med s&#229;dan anv&#228;ndning, 
+antingen f&#246;r f&#246;retaget eller f&#246;r annat f&#246;retag, n&#228;r s&#229;dan 
+f&#246;rs&#228;ljning av biljetter eller motsvarande handlingar eller 
+s&#229;dant tillhandah&#229;llande av tj&#228;nster har omedelbart samband 
+med eller &#228;r av underordnad betydelse i f&#246;rh&#229;llande till 
+anv&#228;ndningen av skepp eller luftfartyg i internationell 
+trafik,
+
+4) anv&#228;ndning, underh&#229;ll eller uthyrning av containrar (d&#228;ri 
+inbegripet sl&#228;pvagn och annan utrustning f&#246;r transport av 
+containrar) som anv&#228;nds f&#246;r transport av gods eller varor, 
+n&#228;r anv&#228;ndningen, underh&#229;llet eller uthyrningen har direkt 
+samband med eller &#228;r av underordnad betydelse i f&#246;rh&#229;llande 
+till anv&#228;ndningen av skepp eller luftfartyg i internationell 
+trafik,
+
+5) r&#228;nta p&#229; insatta medel som &#228;r direkt h&#228;nf&#246;rliga till 
+anv&#228;ndningen av skepp eller luftfartyg i internationell 
+trafik,
+
+i) ”beh&#246;rig myndighet” avser:
+
+1) i Guernsey, “the Administrator of Income Tax” eller dennes 
+ombud,
+
+2) i Sverige, finansministern, dennes befullm&#228;ktigade ombud 
+eller den myndighet &#229;t vilken uppdras att vara beh&#246;rig 
+myndighet vid till&#228;mpningen av detta avtal.
+
+2. D&#229; en part till&#228;mpar avtalet vid n&#229;gon tidpunkt anses, 
+s&#229;vida inte sammanhanget f&#246;ranleder annat, varje uttryck som 
+inte definierats i avtalet ha den betydelse som uttrycket har 
+vid denna tidpunkt enligt den partens lagstiftning i fr&#229;ga om 
+s&#229;dana skatter p&#229; vilka avtalet till&#228;mpas och den betydelse 
+som uttrycket har enligt till&#228;mplig skattelagstiftning i 
+denna part &#228;ger f&#246;retr&#228;de framf&#246;r den betydelse som uttrycket 
+har enligt annan lagstiftning i denna part.
+
+Artikel 2
+
+Undvikande av dubbelbeskattning
+
+1. Inkomst som f&#246;rv&#228;rvas genom anv&#228;ndning av skepp eller 
+luftfartyg i internationell trafik av ett f&#246;retag i en part, 
+beskattas endast i denna part.
+
+2. Best&#228;mmelserna i punkt 1 till&#228;mpas &#228;ven p&#229; inkomst som 
+ett f&#246;retag i en part f&#246;rv&#228;rvar genom deltagande i en pool, 
+ett gemensamt f&#246;retag eller en internationell 
+driftsorganisation.
+
+Artikel 3
+
+F&#246;rfarandet vid &#246;msesidig &#246;verenskommelse
+
+1. Om en person anser att en part eller b&#229;da parterna 
+vidtagit &#229;tg&#228;rder som f&#246;r honom medf&#246;r eller kommer att 
+medf&#246;ra beskattning som strider mot best&#228;mmelserna i detta 
+avtal, kan han, utan att detta p&#229;verkar hans r&#228;tt att anv&#228;nda 
+sig av de r&#228;ttsmedel som finns i dessa parters interna 
+r&#228;ttsordning, l&#228;gga fram saken f&#246;r den beh&#246;riga myndigheten i 
+den part d&#228;r han har hemvist. Saken ska l&#228;ggas fram inom tre 
+&#229;r fr&#229;n den tidpunkt d&#229; personen i fr&#229;ga fick vetskap om den 
+&#229;tg&#228;rd som givit upphov till beskattning som strider mot 
+best&#228;mmelserna i avtalet.
+
+2. Om den beh&#246;riga myndigheten finner inv&#228;ndningen grundad 
+men inte sj&#228;lv kan f&#229; till st&#229;nd en tillfredsst&#228;llande 
+l&#246;sning, ska myndigheten s&#246;ka avg&#246;ra saken genom &#246;msesidig 
+&#246;verenskommelse med den beh&#246;riga myndigheten i den andra 
+parten i syfte att undvika beskattning som strider mot 
+avtalet. &#214;verenskommelse som tr&#228;ffats genomf&#246;rs utan hinder 
+av tidsgr&#228;nser i parternas interna lagstiftning.
+
+3. Parternas beh&#246;riga myndigheter ska genom &#246;msesidig 
+&#246;verenskommelse s&#246;ka avg&#246;ra sv&#229;righeter eller tvivelsm&#229;l som 
+uppkommer i fr&#229;ga om tolkningen eller till&#228;mpningen av 
+avtalet.
+
+4. Parternas beh&#246;riga myndigheter kan tr&#228;da i direkt 
+f&#246;rbindelse med varandra i syfte att tr&#228;ffa &#246;verenskommelse i 
+den mening som avses i f&#246;reg&#229;ende punkter.
+
+Artikel 4
+
+Ikrafttr&#228;dande
+
+1. Detta avtal tr&#228;der i kraft den trettionde dagen efter den 
+dag d&#229; den sista av de skriftliga underr&#228;ttelser – som 
+parterna ska l&#228;mna n&#228;r de &#229;tg&#228;rder vidtagits som kr&#228;vs enligt 
+respektive parts lagstiftning – har l&#228;mnats. Avtalet ska 
+till&#228;mpas p&#229; skatt som tas ut f&#246;r beskattnings&#229;r som b&#246;rjar 
+den 1 januari det kalender&#229;r som f&#246;ljer n&#228;rmast efter det &#229;r 
+d&#229; avtalet tr&#228;der i kraft eller senare.
+
+2. Utan hinder av punkt 1, &#228;r detta avtal endast till&#228;mpligt 
+n&#228;r avtalet mellan Konungariket Sverige och Guernsey om 
+utbyte av upplysningar i skatte&#228;renden undertecknat den 
+28 oktober 2008 &#228;r till&#228;mpligt.
+
+Artikel 5
+
+Upph&#246;rande
+
+1. Detta avtal f&#246;rblir i kraft till dess det s&#228;gs upp av 
+n&#229;gon part. Vardera parten kan skriftligen s&#228;ga upp avtalet 
+genom underr&#228;ttelse h&#228;rom minst sex m&#229;nader f&#246;re utg&#229;ngen av 
+n&#229;got kalender&#229;r. I h&#228;ndelse av s&#229;dan upps&#228;gning upph&#246;r 
+avtalet att g&#228;lla i fr&#229;ga om skatt som tas ut f&#246;r beskattnings&#229;r 
+som b&#246;rjar den 1 januari det kalender&#229;r som f&#246;ljer n&#228;rmast 
+efter utg&#229;ngen av sexm&#229;nadersperioden eller senare.
+
+2. Utan hinder av punkt 1, upph&#246;r detta avtal att g&#228;lla, utan 
+upps&#228;gning, den dag d&#229; avtalet mellan Konungariket Sverige 
+och Guernsey om utbyte av upplysningar i skatte&#228;renden 
+undertecknat den 28 oktober 2008 upph&#246;r att g&#228;lla.
+
+Till bekr&#228;ftelse h&#228;rav har undertecknade, d&#228;rtill 
+vederb&#246;rligen bemyndigade, undertecknat detta avtal.
+
+Som skedde i Helsingfors den 28 oktober 2008 i tv&#229; exemplar 
+p&#229; engelska spr&#229;ket.
+
+F&#246;r Konungariket Sveriges regering
+
+Anders Borg
+
+F&#246;r Guernseys regering
+
+Lyndon Trott
+
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1795">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1797">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,943 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2019-05-10" /> 
+ <meta id="rattsinfo-edited" content="2019-06-13" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>588</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=587">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=589">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2019:234 ·
+                    <a href="/sfsr?bet=2019:234">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2019:234) om makars och sambors f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i internationella situationer</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2019-05-02
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2019-06-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Lagens inneh&#229;ll
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om makars och sambors 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i internationella situationer.
+
+2 &#167; Inneh&#229;llet i lagen &#228;r uppdelat enligt f&#246;ljande:
+
+- I 2 kap. finns best&#228;mmelser som kompletterar EU:s 
+f&#246;rordningar om makars och registrerade partners 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden, n&#228;mligen r&#229;dets f&#246;rordning (EU) 
+2016/1103 av den 24 juni 2016 om genomf&#246;rande av ett f&#246;rdjupat 
+samarbete p&#229; omr&#229;det f&#246;r domstols beh&#246;righet, till&#228;mplig lag 
+samt erk&#228;nnande och verkst&#228;llighet av domar i m&#229;l om makars 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden, och r&#229;dets f&#246;rordning (EU) 2016/1104 
+av den 24 juni 2016 om genomf&#246;rande av ett f&#246;rdjupat samarbete 
+p&#229; omr&#229;det f&#246;r domstols beh&#246;righet, till&#228;mplig lag samt 
+erk&#228;nnande och verkst&#228;llighet av domar i m&#229;l om 
+f&#246;rm&#246;genhetsr&#228;ttsliga verkningar av registrerade partnerskap.
+
+- I 3 kap. finns s&#228;rskilda best&#228;mmelser om makars 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i nordiska situationer.
+
+- I 4 kap. finns best&#228;mmelser om makars 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i andra internationella situationer.
+
+- I 5 kap. finns best&#228;mmelser om sambors 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i internationella situationer.
+
+- I 6 kap. finns best&#228;mmelser om registrering av lagvalsavtal 
+mellan makar och om hemvist och reservforum.
+
+2 kap. EU:s f&#246;rordningar om makars och registrerade partners 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden
+
+Till&#228;mpningsomr&#229;de
+
+1 &#167; Detta kapitel inneh&#229;ller best&#228;mmelser som kompletterar 
+EU:s f&#246;rordningar om makars och registrerade partners 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+Det som f&#246;reskrivs i kapitlet om makar g&#228;ller &#228;ven f&#246;r 
+registrerade partner som omfattas av EU:s f&#246;rordning om 
+registrerade partners f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+Registrering av &#228;ktenskapsf&#246;rord och lagvalsavtal
+
+2 &#167; Best&#228;mmelser om formkrav f&#246;r &#228;ktenskapsf&#246;rord finns i 
+artikel 25 i EU:s f&#246;rordning om makars 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden. Best&#228;mmelser om formkrav f&#246;r 
+partnerskapsf&#246;rord finns i artikel 25 i EU:s f&#246;rordning om 
+registrerade partners f&#246;rm&#246;genhetsf&#246;rh&#229;llanden. I 7 kap. 3 &#167; 
+tredje stycket och 16 kap. &#228;ktenskapsbalken finns best&#228;mmelser 
+om registrering som kompletterar f&#246;rordningarna.
+
+Best&#228;mmelser om formkrav f&#246;r lagvalsavtal finns i artikel 23 i 
+EU:s f&#246;rordning om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden och 
+artikel 23 i EU:s f&#246;rordning om registrerade partners 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden. I 6 kap. 1 &#167; i denna lag och i 
+16 kap. &#228;ktenskapsbalken finns best&#228;mmelser om registrering 
+som kompletterar f&#246;rordningarna.
+
+F&#246;rfarandet vid bodelning
+
+3 &#167; P&#229; beg&#228;ran av en make eller en d&#246;dsbodel&#228;gare ska svensk 
+lag till&#228;mpas betr&#228;ffande f&#246;rfarandet vid en bodelning &#228;ven om 
+utl&#228;ndsk lag &#228;r till&#228;mplig p&#229; makarnas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden. Svensk lag om f&#246;rfarandet vid 
+bodelning f&#229;r till&#228;mpas ocks&#229; n&#228;r den utl&#228;ndska lagen 
+f&#246;reskriver en annan form f&#246;r delning eller avr&#228;kning i fr&#229;ga 
+om makars egendom.
+
+Begr&#228;nsningar i till&#228;mpningen av utl&#228;ndsk lag
+
+4 &#167; &#196;ktenskapsbalkens best&#228;mmelser i 7 kap. 4-9 &#167;&#167; och 
+11 kap. 8 och 10 &#167;&#167; om f&#246;rfogande &#246;ver makars gemensamma 
+bostad och bohag och om en makes r&#228;tt att &#246;verta s&#229;dan egendom 
+vid bodelning ska alltid till&#228;mpas, om bostaden och bohaget 
+finns i Sverige.
+
+&#196;ktenskapsbalkens best&#228;mmelser i 12 kap. 2 &#167; om en 
+efterlevande makes r&#228;tt att vid bodelning beh&#229;lla 
+giftor&#228;ttsgods och om en efterlevande makes f&#246;rlust av r&#228;tten 
+att f&#229; del i eller beh&#229;lla giftor&#228;ttsgods ska alltid 
+till&#228;mpas.
+
+5 &#167; Vid en bodelning f&#229;r j&#228;mkning ske enligt 12 kap. 1 och 
+3 &#167;&#167; &#228;ktenskapsbalken &#228;ven om utl&#228;ndsk lag &#228;r till&#228;mplig p&#229; 
+makarnas f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+Bodelning efter legal separation
+
+6 &#167; Om det utomlands har meddelats ett avg&#246;rande om legal 
+separation och makarna inte har &#229;terupptagit sammanlevnaden, 
+ska egendom som makarna har f&#246;rv&#228;rvat efter det att avg&#246;randet 
+f&#229;tt laga kraft inte ing&#229; i en bodelning d&#228;r svensk lag &#228;r 
+till&#228;mplig p&#229; makarnas f&#246;rm&#246;genhetsf&#246;rh&#229;llanden. Vid en s&#229;dan 
+bodelning ska t&#228;ckning f&#246;r skulder ber&#228;knas med h&#228;nsyn till 
+f&#246;rh&#229;llandena d&#229; avg&#246;randet fick laga kraft.
+
+Erk&#228;nnande och verkst&#228;llighet
+
+7 &#167; En ans&#246;kan om att ett utl&#228;ndskt avg&#246;rande ska erk&#228;nnas 
+eller f&#246;rklaras verkst&#228;llbart i Sverige enligt n&#229;gon av EU:s 
+f&#246;rordningar om makars och registrerade partners 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden g&#246;rs till tingsr&#228;tten. Regeringen kan 
+med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela f&#246;reskrifter om 
+vilka tingsr&#228;tter som f&#229;r pr&#246;va en ans&#246;kan.
+
+8 &#167; En ans&#246;kan om &#228;ndring av ett beslut med anledning av en 
+ans&#246;kan enligt 7 &#167; g&#246;rs till den tingsr&#228;tt som har meddelat 
+beslutet.
+
+Om en s&#229;dan ans&#246;kan g&#246;rs av den som har gjort ans&#246;kan enligt 
+7 &#167;, ska den ha kommit in till tingsr&#228;tten inom fyra veckor 
+fr&#229;n den dag d&#229; beslutet meddelades.
+
+9 &#167; Vid handl&#228;ggning i domstol av &#228;renden som avses i 7 och 
+8 &#167;&#167; till&#228;mpas i &#246;vrigt lagen (1996:242) om domstols&#228;renden, 
+om inte n&#229;got annat f&#246;ljer av EU:s f&#246;rordningar om makars och 
+registrerade partners f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+10 &#167; Om ett avg&#246;rande f&#246;rklaras verkst&#228;llbart, verkst&#228;lls 
+avg&#246;randet enligt uts&#246;kningsbalken p&#229; samma s&#228;tt som en svensk 
+dom som har f&#229;tt laga kraft, om inte n&#229;got annat f&#246;ljer av 
+EU:s f&#246;rordningar om makars och registrerade partners 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+Vid verkst&#228;llighet av ett avg&#246;rande som r&#246;r en s&#228;kerhets&#229;tg&#228;rd 
+till&#228;mpas i st&#228;llet best&#228;mmelserna i uts&#246;kningsbalken om 
+verkst&#228;llighet av beslut om kvarstad eller n&#229;gon annan 
+s&#228;kerhets&#229;tg&#228;rd.
+
+11 &#167; Om tingsr&#228;tten vid det f&#246;rfarande som avses i 7 &#167; 
+bifaller en ans&#246;kan om verkst&#228;llbarhetsf&#246;rklaring, ska 
+tingsr&#228;ttens beslut anses innefatta ett beslut om kvarstad 
+eller n&#229;gon annan &#229;tg&#228;rd som avses i 15 kap. r&#228;tteg&#229;ngsbalken.
+
+3 kap. S&#228;rskilda best&#228;mmelser om makars 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i nordiska situationer
+
+Till&#228;mpningsomr&#229;de
+
+1 &#167; Detta kapitel g&#228;ller f&#246;r vissa fr&#229;gor om makars 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i nordiska situationer.
+
+I f&#246;rh&#229;llande till Finland g&#228;ller kapitlet endast i den 
+utstr&#228;ckning som f&#246;ljer av artikel 62 i EU:s f&#246;rordning om 
+makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden. F&#246;r avg&#246;randen som har 
+meddelats i Finland g&#228;ller best&#228;mmelserna om erk&#228;nnande och 
+verkst&#228;llighet i 14 och 15 &#167;&#167;.
+
+Kapitlet g&#228;ller inte f&#246;r registrerade partner.
+
+2 &#167; Det som f&#246;reskrivs i 5 och 8-12 &#167;&#167; g&#228;ller om b&#229;da makarna
+
+1. &#228;r medborgare i n&#229;gon nordisk stat,
+
+2. n&#228;r de ingick &#228;ktenskapet var medborgare i n&#229;gon nordisk 
+stat och d&#229; tog sin hemvist i en nordisk stat, och
+
+3. efter att &#228;ktenskapet ingicks inte har tagit sin hemvist 
+utanf&#246;r Norden.
+
+Svensk domstols beh&#246;righet
+
+3 &#167; Om en svensk domstol tar upp ett yrkande om 
+&#228;ktenskapsskillnad enligt 7 &#167; f&#246;rordningen (1931:429) om vissa 
+internationella r&#228;ttsf&#246;rh&#229;llanden r&#246;rande &#228;ktenskap, adoption 
+och f&#246;rmynderskap, f&#229;r domstolen ocks&#229; ta upp en fr&#229;ga om 
+bodelning, s&#229;vida det inte redan p&#229;g&#229;r ett f&#246;rfarande i en 
+annan nordisk stat som kan leda till ett motstridigt 
+avg&#246;rande.
+
+4 &#167; En fr&#229;ga om bodelning med anledning av en makes d&#246;d f&#229;r 
+tas upp av svensk domstol, om svensk lag ska till&#228;mpas 
+betr&#228;ffande f&#246;rfarandet enligt 6 &#167;.
+
+En fr&#229;ga om bodelning med anledning av en makes d&#246;d f&#229;r ocks&#229; 
+tas upp av svensk domstol, trots att en domstol i en annan 
+nordisk stat &#228;r beh&#246;rig, om parterna &#228;r &#246;verens om det. Det 
+g&#228;ller dock inte om en fr&#229;ga som r&#246;r d&#246;dsboet handl&#228;ggs i 
+domstol, av en testamentsexekutor eller bobestyrer eller av en 
+av domstol utsedd boutredningsman eller skiftesman, eller om 
+yrkandet g&#228;ller klander av bodelning.
+
+5 &#167; En fr&#229;ga om boskillnad f&#229;r tas upp av svensk domstol om
+
+1. makarna har sin hemvist i Sverige, eller
+
+2. makarna har sin hemvist i olika stater i Norden och den 
+make som ans&#246;kan riktar sig mot har sin hemvist i Sverige.
+
+F&#246;rfarandet vid bodelning med anledning av en makes d&#246;d
+
+6 &#167; Svensk lag ska till&#228;mpas betr&#228;ffande f&#246;rfarandet vid 
+bodelning med anledning av en makes d&#246;d, om den avlidne var 
+medborgare i en annan nordisk stat och vid sin d&#246;d hade sin 
+hemvist i Sverige. Detsamma g&#228;ller om en efterlevande make som 
+&#228;r medborgare i en annan nordisk stat har suttit i oskiftat bo 
+och han eller hon har sin hemvist i Sverige eller om en 
+efterlevande make har suttit i oskiftat bo och vid sin d&#246;d var 
+medborgare i en annan nordisk stat och d&#229; hade sin hemvist i 
+Sverige.
+
+7 &#167; Vid en s&#229;dan bodelning med anledning av en makes d&#246;d som 
+f&#246;rr&#228;ttas i Sverige efter en medborgare i en annan nordisk 
+stat ska makarnas samtliga tillg&#229;ngar och skulder i Sverige 
+och utomlands omfattas.
+
+Till&#228;mplig lag
+
+8 &#167; Om makar eller blivande makar har avtalat att en viss 
+stats lag ska till&#228;mpas p&#229; deras f&#246;rm&#246;genhetsf&#246;rh&#229;llanden, 
+g&#228;ller det under f&#246;ruts&#228;ttning att
+
+1. avtalet avser
+
+a) lagen i en nordisk stat d&#228;r n&#229;gon av dem hade sin hemvist 
+eller var medborgare n&#228;r avtalet ingicks, eller
+
+b) lagen i en nordisk stat d&#228;r de b&#229;da senast samtidigt hade 
+sin hemvist, under f&#246;ruts&#228;ttning att den ena maken eller b&#229;da 
+makarna under &#228;ktenskapet har tagit sin hemvist i en annan 
+nordisk stat &#228;n den d&#228;r de tog sin hemvist n&#228;r de gifte sig, 
+och
+
+2. n&#229;got annat inte f&#246;ljer av 10-12 &#167;&#167;.
+
+9 &#167; Om till&#228;mplig lag inte har best&#228;mts genom avtal, till&#228;mpas 
+lagen i den nordiska stat d&#228;r makarna tog sin hemvist n&#228;r de 
+gifte sig.
+
+Om b&#229;da makarna senare har tagit sin hemvist i en annan 
+nordisk stat och varit bosatta d&#228;r i minst tv&#229; &#229;r, till&#228;mpas 
+i st&#228;llet den statens lag. Om b&#229;da makarna tidigare under 
+&#228;ktenskapet har haft sin hemvist i den staten eller om makarna 
+&#228;r medborgare i den staten, till&#228;mpas dock den statens lag s&#229; 
+snart de har tagit sin hemvist d&#228;r.
+
+10 &#167; Ett byte av den lag som till&#228;mpas p&#229; makarnas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden inverkar inte p&#229; r&#228;ttsverkningarna av 
+en r&#228;ttshandling som har &#228;gt rum f&#246;re bytet.
+
+Giltigheten av best&#228;mmelserna i ett &#228;ktenskapsf&#246;rord bed&#246;ms 
+enligt den lag som ska till&#228;mpas p&#229; makarnas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden n&#228;r fr&#229;gan blir aktuell.
+
+11 &#167; I fr&#229;ga om en makes beh&#246;righet att r&#229;da &#246;ver fast 
+egendom, &#246;ver egendom som &#228;r likst&#228;lld med fast egendom eller 
+&#246;ver en bostad ska lagen i den nordiska stat d&#228;r egendomen 
+finns alltid till&#228;mpas.
+
+Formkrav f&#246;r &#228;ktenskapsf&#246;rord och lagvalsavtal
+
+12 &#167; Ett &#228;ktenskapsf&#246;rord eller lagvalsavtal &#228;r giltigt till 
+formen, om det n&#228;r det ingicks uppfyllde formkraven i
+
+1. den lag som enligt 8 eller 9 &#167; var till&#228;mplig p&#229; makarnas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden, eller
+
+2. lagen i en nordisk stat d&#228;r makarna eller en av dem var 
+medborgare.
+
+Om fr&#229;gan om ett lagvalsavtals giltighet ska bed&#246;mas enligt 
+svensk lag, ska lagvalsavtalet anses giltigt om det &#228;r 
+skriftligt, daterat och undertecknat av makarna. Av 6 kap. 1 &#167; 
+framg&#229;r att lagvalsavtalet dessutom ska registreras hos 
+Skatteverket. Om giltigheten ska bed&#246;mas enligt en annan 
+nordisk stats lag och den lagen saknar formkrav f&#246;r 
+lagvalsavtal, ska giltigheten bed&#246;mas enligt den lagens 
+formkrav f&#246;r &#228;ktenskapsf&#246;rord.
+
+Ett &#228;ktenskapsf&#246;rord eller lagvalsavtal mellan makar som har 
+sin hemvist i Sverige n&#228;r &#228;ktenskapsf&#246;rordet eller 
+lagvalsavtalet ing&#229;s g&#228;ller h&#228;r i landet mot tredje man endast 
+om registrering sker enligt 7 kap. 3 &#167; tredje stycket 
+&#228;ktenskapsbalken eller enligt 6 kap. 1 &#167; i denna lag.
+
+Bodelning efter legal separation
+
+13 &#167; Om det i en annan nordisk stat har meddelats ett 
+avg&#246;rande om legal separation och det saknas regler om makars 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden efter legal separation i den lag som 
+&#228;r till&#228;mplig, ska
+
+1. egendom som en make f&#246;rv&#228;rvar efter det att avg&#246;randet f&#229;tt 
+laga kraft vara hans eller hennes enskilda,
+
+2. avdrag f&#246;r att t&#228;cka skulder ber&#228;knas med h&#228;nsyn till 
+f&#246;rh&#229;llandena n&#228;r avg&#246;randet fick laga kraft, och
+
+3. i &#246;vrigt best&#228;mmelserna i den lagen om bodelning efter 
+&#228;ktenskapsskillnad till&#228;mpas.
+
+Erk&#228;nnande och verkst&#228;llighet
+
+14 &#167; En dom eller ett beslut som har meddelats i en annan 
+nordisk stat med till&#228;mpning av best&#228;mmelser om beh&#246;righet som 
+motsvarar 3 eller 5 &#167; och som har f&#229;tt laga kraft ska g&#228;lla i 
+Sverige.
+
+15 &#167; I fr&#229;ga om erk&#228;nnande, i andra fall &#228;n som avses i 14 &#167;, 
+och verkst&#228;llighet av dom, beslut eller f&#246;rlikning fr&#229;n en 
+annan nordisk stat om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden finns 
+best&#228;mmelser i lagen (1932:540) om erk&#228;nnande och 
+verkst&#228;llighet av dom som meddelats i Island och lagen 
+(1977:595) om erk&#228;nnande och verkst&#228;llighet av nordiska domar 
+p&#229; privatr&#228;ttens omr&#229;de. Om dessa lagar inte &#228;r till&#228;mpliga, 
+ska 4 kap. till&#228;mpas, under f&#246;ruts&#228;ttning att n&#229;got annat inte 
+f&#246;ljer av EU:s f&#246;rordning om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+4 kap. Makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i andra internationella 
+situationer
+
+Till&#228;mpningsomr&#229;de
+
+1 &#167; Detta kapitel g&#228;ller f&#246;r fr&#229;gor om konkurrerande 
+f&#246;rfaranden och erk&#228;nnande och verkst&#228;llighet av utl&#228;ndska 
+avg&#246;randen n&#228;r det g&#228;ller makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i 
+internationella situationer.
+
+Kapitlet g&#228;ller inte om n&#229;got annat f&#246;ljer av EU:s 
+f&#246;rordningar om makars och registrerade partners 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden, 3 kap. i denna lag eller annan lag.
+
+Konkurrerande f&#246;rfaranden
+
+2 &#167; Framst&#228;lls ett yrkande om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden 
+i en svensk domstol n&#228;r det redan p&#229;g&#229;r ett f&#246;rfarande 
+utomlands som kan leda till ett motstridigt avg&#246;rande, ska 
+talan avvisas om det kan antas att avg&#246;randet i det utl&#228;ndska 
+f&#246;rfarandet blir g&#228;llande i Sverige. I st&#228;llet f&#246;r att talan 
+avvisas f&#229;r m&#229;let eller &#228;rendet f&#246;rklaras vilande i avvaktan 
+p&#229; att ett avg&#246;rande i det utl&#228;ndska f&#246;rfarandet har f&#229;tt laga 
+kraft. Talan f&#229;r dock pr&#246;vas om det finns s&#228;rskilda sk&#228;l.
+
+Erk&#228;nnande och verkst&#228;llighet
+
+3 &#167; Ett utl&#228;ndskt avg&#246;rande om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden 
+som har meddelats av en domstol eller en annan myndighet eller 
+av en bodelningsf&#246;rr&#228;ttare och som har f&#229;tt laga kraft g&#228;ller 
+i Sverige, om det har meddelats i
+
+1. den stat d&#228;r svaranden hade sin hemvist, eller
+
+2. en stat vars lag var till&#228;mplig p&#229; fr&#229;gor om makarnas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden enligt artikel 22 eller 26 i EU:s 
+f&#246;rordning om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden, i den 
+ursprungliga lydelsen, eller artikel 22 eller 26 i EU:s 
+f&#246;rordning om registrerade partners f&#246;rm&#246;genhetsf&#246;rh&#229;llanden, 
+i den ursprungliga lydelsen.
+
+4 &#167; &#196;ven om f&#246;ruts&#228;ttningarna i 3 &#167; &#228;r uppfyllda g&#228;ller det 
+utl&#228;ndska avg&#246;randet inte i Sverige, om
+
+1. avg&#246;randet har meddelats mot en part som inte har avgett 
+svarom&#229;l och som inte har f&#229;tt k&#228;nnedom om den v&#228;ckta talan i 
+tillr&#228;cklig tid f&#246;r att kunna avge svarom&#229;l eller mot en part 
+som annars inte har f&#229;tt rimliga m&#246;jligheter att f&#246;ra sin 
+talan i det utl&#228;ndska f&#246;rfarandet,
+
+2. avg&#246;randet strider mot ett svenskt avg&#246;rande,
+
+3. avg&#246;randet strider mot ett i Sverige g&#228;llande utl&#228;ndskt 
+avg&#246;rande i ett f&#246;rfarande som b&#246;rjade tidigare &#228;n det andra 
+utl&#228;ndska f&#246;rfarandet,
+
+4. det i Sverige p&#229;g&#229;r ett f&#246;rfarande som kan leda till ett 
+motstridigt avg&#246;rande,
+
+5. det utomlands p&#229;g&#229;r ett f&#246;rfarande som kan leda till ett 
+motstridigt avg&#246;rande, s&#229;vida det f&#246;rfarandet har b&#246;rjat 
+tidigare &#228;n det andra utl&#228;ndska f&#246;rfarandet och kan antas leda 
+till ett i Sverige g&#228;llande avg&#246;rande, eller
+
+6. det skulle vara uppenbart of&#246;renligt med grunderna f&#246;r den 
+svenska r&#228;ttsordningen att erk&#228;nna avg&#246;randet.
+
+5 &#167; Ett utl&#228;ndskt domstolsavg&#246;rande om makars 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden som &#228;r verkst&#228;llbart i den stat d&#228;r 
+det meddelades och som g&#228;ller i Sverige f&#229;r verkst&#228;llas, om 
+avg&#246;randet har f&#246;rklarats verkst&#228;llbart h&#228;r.
+
+En ans&#246;kan om att avg&#246;randet ska f&#246;rklaras verkst&#228;llbart i 
+Sverige g&#246;rs till tingsr&#228;tten. Regeringen kan med st&#246;d av 
+8 kap. 7 &#167; regeringsformen meddela f&#246;reskrifter om vilka 
+tingsr&#228;tter som f&#229;r pr&#246;va en ans&#246;kan.
+
+S&#246;kanden ska tillsammans med ans&#246;kan ge in avg&#246;randet i 
+original eller i kopia som har bestyrkts av en beh&#246;rig 
+myndighet samt de ytterligare handlingar som tingsr&#228;tten 
+beh&#246;ver f&#246;r sin pr&#246;vning. S&#246;kanden ska samtidigt ge in en 
+&#246;vers&#228;ttning av handlingarna till svenska, om inte tingsr&#228;tten 
+anser att det &#228;r obeh&#246;vligt.
+
+6 &#167; Vid handl&#228;ggning i domstol av ett &#228;rende om 
+verkst&#228;llbarhetsf&#246;rklaring till&#228;mpas i &#246;vrigt lagen (1996:242) 
+om domstols&#228;renden.
+
+7 &#167; Om ett avg&#246;rande f&#246;rklaras verkst&#228;llbart, verkst&#228;lls 
+avg&#246;randet p&#229; samma s&#228;tt som ett motsvarande svenskt avg&#246;rande 
+som har f&#229;tt laga kraft. Ett beslut om tv&#229;ngsmedel i 
+avg&#246;randet ska dock inte till&#228;mpas.
+
+5 kap. Sambors f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i internationella 
+situationer
+
+Till&#228;mpningsomr&#229;de
+
+1 &#167; Detta kapitel g&#228;ller f&#246;r fr&#229;gor om sambors 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i internationella situationer.
+
+Kapitlet g&#228;ller endast s&#229;dana sambof&#246;rh&#229;llanden d&#228;r ingen av 
+samborna &#228;r gift.
+
+Kapitlet g&#228;ller inte om n&#229;got annat f&#246;ljer av en annan lag.
+
+Svensk domstols beh&#246;righet
+
+2 &#167; En fr&#229;ga om sambors f&#246;rm&#246;genhetsf&#246;rh&#229;llanden f&#229;r tas upp 
+av svensk domstol, om
+
+1. svaranden har sin hemvist i Sverige,
+
+2. k&#228;randen har sin hemvist i Sverige och svensk lag enligt 5 
+eller 6 &#167; &#228;r till&#228;mplig p&#229; sambornas f&#246;rm&#246;genhetsf&#246;rh&#229;llanden,
+
+3. fr&#229;gan r&#246;r egendom i Sverige, eller
+
+4. svaranden i en uppkommen fr&#229;ga har godtagit att saken 
+pr&#246;vas i Sverige eller har avgett svarom&#229;l i saken utan 
+inv&#228;ndning om domstolens beh&#246;righet.
+
+Om fr&#229;gan g&#228;ller bodelning med anledning av en sambos d&#246;d 
+till&#228;mpas 3 &#167; i st&#228;llet f&#246;r f&#246;rsta stycket.
+
+3 &#167; En fr&#229;ga om bodelning med anledning av en sambos d&#246;d f&#229;r 
+tas upp av svensk domstol
+
+1. om den avlidna sambon hade sin hemvist i Sverige,
+
+2. i fall som anges i 2 &#167; f&#246;rsta stycket 1, 2 och 4, eller
+
+3. p&#229; beg&#228;ran av den efterlevande sambon om svensk domstol, i 
+andra fall &#228;n som avses i 1, &#228;r beh&#246;rig att ta upp en fr&#229;ga om 
+arv efter den avlidne enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) nr 650/2012 av den 4 juli 2012 om beh&#246;righet, 
+till&#228;mplig lag, erk&#228;nnande och verkst&#228;llighet av domar samt 
+godk&#228;nnande och verkst&#228;llighet av officiella handlingar i 
+samband med arv och om inr&#228;ttandet av ett europeiskt arvsintyg, i 
+den ursprungliga lydelsen.
+
+Konkurrerande f&#246;rfaranden
+
+4 &#167; Framst&#228;lls ett yrkande om sambors f&#246;rm&#246;genhetsf&#246;rh&#229;llanden 
+i en svensk domstol n&#228;r det redan p&#229;g&#229;r ett f&#246;rfarande 
+utomlands som kan leda till ett motstridigt avg&#246;rande, ska 
+talan avvisas om det kan antas att avg&#246;randet i det utl&#228;ndska 
+f&#246;rfarandet blir g&#228;llande i Sverige. I st&#228;llet f&#246;r att talan 
+avvisas f&#229;r m&#229;let eller &#228;rendet f&#246;rklaras vilande i avvaktan 
+p&#229; att ett avg&#246;rande i det utl&#228;ndska f&#246;rfarandet har f&#229;tt laga 
+kraft. Talan f&#229;r dock pr&#246;vas om det finns s&#228;rskilda sk&#228;l.
+
+Till&#228;mplig lag
+
+5 &#167; Om sambor eller blivande sambor skriftligen har avtalat 
+att en viss stats lag ska till&#228;mpas p&#229; deras 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden, ska det g&#228;lla under f&#246;ruts&#228;ttning 
+att
+
+1. avtalet avser lagen i en stat d&#228;r n&#229;gon av dem hade sin 
+hemvist eller var medborgare n&#228;r avtalet ingicks, och
+
+2. n&#229;got annat inte f&#246;ljer av 7-14 &#167;&#167;.
+
+6 &#167; Om till&#228;mplig lag inte har best&#228;mts genom avtal, g&#228;ller 
+lagen i den stat d&#228;r samborna tog sin hemvist n&#228;r 
+sambof&#246;rh&#229;llandet inleddes.
+
+Om b&#229;da samborna senare har tagit sin hemvist i en annan stat 
+och varit bosatta d&#228;r i minst tv&#229; &#229;r, till&#228;mpas i st&#228;llet den 
+statens lag. Om b&#229;da samborna tidigare under sambof&#246;rh&#229;llandet 
+har haft sin hemvist i den staten eller om b&#229;da samborna &#228;r 
+medborgare i den staten, till&#228;mpas dock den statens lag s&#229; 
+snart de har tagit sin hemvist i staten.
+
+7 &#167; En r&#228;ttshandling mellan sambor avseende deras 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden &#228;r giltig, om r&#228;ttshandlingen st&#228;mmer 
+&#246;verens med den lag som &#228;r till&#228;mplig p&#229; sambornas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden n&#228;r den &#228;ger rum. En r&#228;ttshandling 
+som &#228;ger rum f&#246;re sambof&#246;rh&#229;llandet &#228;r giltig om den st&#228;mmer 
+&#246;verens med den lag som blir till&#228;mplig n&#228;r sambof&#246;rh&#229;llandet 
+inleds.
+
+R&#228;ttshandlingen ska alltid anses giltig till formen, om 
+r&#228;ttshandlingen uppfyller formkraven enligt lagen i den stat 
+d&#228;r den &#228;ger rum eller d&#228;r samborna d&#229; har sin hemvist.
+
+S&#228;rskilda best&#228;mmelser om bodelning
+
+8 &#167; P&#229; beg&#228;ran av en sambo eller en d&#246;dsbodel&#228;gare ska svensk 
+lag till&#228;mpas betr&#228;ffande f&#246;rfarandet vid en bodelning &#228;ven om 
+utl&#228;ndsk lag &#228;r till&#228;mplig p&#229; sambornas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden. Svensk lag om f&#246;rfarandet vid 
+bodelning f&#229;r till&#228;mpas ocks&#229; n&#228;r den utl&#228;ndska lagen 
+f&#246;reskriver en annan form f&#246;r delning eller avr&#228;kning n&#228;r det 
+g&#228;ller sambornas egendom.
+
+9 &#167; En utl&#228;ndsk bodelning med anledning av en sambos d&#246;d ska 
+anses giltig till formen, om den uppfyller formkraven enligt
+
+1. den lag som var till&#228;mplig p&#229; sambornas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden,
+
+2. lagen i den stat d&#228;r den f&#246;rr&#228;ttades, eller
+
+3. lagen i den stat d&#228;r den avlidne hade sin hemvist eller var 
+medborgare.
+
+10 &#167; Vid en bodelning ska sambornas samtliga tillg&#229;ngar och 
+skulder i Sverige och utomlands beaktas, om inte n&#229;got annat 
+f&#246;ljer av den lag som &#228;r till&#228;mplig p&#229; sambornas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden. Vid lottl&#228;ggningen b&#246;r en sambo i 
+f&#246;rsta hand tilldelas egendom som tillh&#246;r honom eller henne 
+utomlands.
+
+Om det finns egendom utomlands och det kan antas att 
+bodelningen inte kommer att g&#228;lla i det landet, f&#229;r 
+bodelningen begr&#228;nsas till att g&#228;lla en viss del av sambornas 
+egendom. En s&#229;dan begr&#228;nsning f&#229;r dock inte g&#246;ras om n&#229;gon av 
+samborna med rimliga sk&#228;l mots&#228;tter sig det.
+
+Vid bodelningen ska det beaktas vad som har tillkommit 
+samborna vid motsvarande f&#246;rr&#228;ttning utomlands.
+
+Begr&#228;nsningar i till&#228;mpningen av utl&#228;ndsk lag
+
+11 &#167; Best&#228;mmelserna i 16-18 och 22-25 &#167;&#167; sambolagen (2003:376) 
+om f&#246;rfogande &#246;ver sambors gemensamma bostad och bohag, om en 
+sambos r&#228;tt att &#246;verta s&#229;dan egendom vid bodelning och om 
+f&#246;rlust av r&#228;tten f&#246;r den efterlevande sambon att f&#229; del i den 
+avlidnes egendom ska alltid till&#228;mpas, om bostaden och bohaget 
+finns i Sverige.
+
+12 &#167; Vid en bodelning f&#229;r j&#228;mkning ske enligt 15 &#167; sambolagen 
+(2003:376) &#228;ven om utl&#228;ndsk lag &#228;r till&#228;mplig p&#229; sambornas 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+13 &#167; Inskr&#228;nkningar som en utl&#228;ndsk lag inneh&#229;ller i en sambos 
+r&#228;tt att f&#246;rfoga &#246;ver s&#229;dan fast egendom eller tomtr&#228;tt som 
+tillh&#246;r denna sambo och finns i Sverige kan inte g&#246;ras 
+g&#228;llande mot tredje man i vidare m&#229;n &#228;n vad som f&#246;ljer av 
+svensk lag.
+
+Detsamma g&#228;ller inskr&#228;nkningar i en sambos r&#228;tt att f&#246;rfoga 
+&#246;ver sin &#246;vriga egendom eller att skulds&#228;tta sig, om tredje 
+man och sambon befann sig i Sverige n&#228;r r&#228;ttshandlingen &#228;gde 
+rum och tredje mannen inte k&#228;nde till eller borde ha k&#228;nt till 
+inskr&#228;nkningen.
+
+14 &#167; Begr&#228;nsningar som en utl&#228;ndsk lag inneh&#229;ller i en sambos 
+skyldighet att med sin egendom svara f&#246;r sina skulder kan inte 
+g&#246;ras g&#228;llande i Sverige, om skulden h&#228;nf&#246;r sig till en 
+r&#228;ttshandling varigenom en sambo har f&#246;rfogat &#246;ver sin fasta 
+egendom eller tomtr&#228;tt och egendomen finns h&#228;r i landet.
+
+Detsamma g&#228;ller om skulden h&#228;nf&#246;r sig till en r&#228;ttshandling 
+varigenom en sambo har f&#246;rfogat &#246;ver annan egendom eller 
+skuldsatt sig, om sambon och tredje man befann sig i Sverige 
+n&#228;r r&#228;ttshandlingen &#228;gde rum och tredje mannen inte k&#228;nde till 
+eller borde ha k&#228;nt till inskr&#228;nkningen.
+
+Erk&#228;nnande och verkst&#228;llighet
+
+15 &#167; Ett utl&#228;ndskt avg&#246;rande om sambors 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden som har meddelats av en domstol eller 
+en annan myndighet eller av en bodelningsf&#246;rr&#228;ttare och som 
+har f&#229;tt laga kraft g&#228;ller i Sverige, om det har meddelats i
+
+1. den stat d&#228;r svaranden hade sin hemvist, eller
+
+2. en stat vars lag enligt 5 eller 6 &#167; var till&#228;mplig p&#229; 
+fr&#229;gor om sambornas f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+16 &#167; &#196;ven om f&#246;ruts&#228;ttningarna i 15 &#167; &#228;r uppfyllda g&#228;ller det 
+utl&#228;ndska avg&#246;randet inte i Sverige, om
+
+1. avg&#246;randet har meddelats mot en part som inte har avgett 
+svarom&#229;l och som inte har f&#229;tt k&#228;nnedom om den v&#228;ckta talan i 
+tillr&#228;cklig tid f&#246;r att kunna avge svarom&#229;l eller mot en part 
+som annars inte har f&#229;tt rimliga m&#246;jligheter att f&#246;ra sin 
+talan i det utl&#228;ndska f&#246;rfarandet,
+
+2. avg&#246;randet strider mot ett svenskt avg&#246;rande,
+
+3. avg&#246;randet strider mot ett i Sverige g&#228;llande utl&#228;ndskt 
+avg&#246;rande i ett f&#246;rfarande som b&#246;rjade tidigare &#228;n det andra 
+utl&#228;ndska f&#246;rfarandet,
+
+4. det i Sverige p&#229;g&#229;r ett f&#246;rfarande som kan leda till ett 
+motstridigt avg&#246;rande, eller
+
+5. det utomlands p&#229;g&#229;r ett f&#246;rfarande som kan leda till ett 
+motstridigt avg&#246;rande, s&#229;vida det f&#246;rfarandet har b&#246;rjat 
+tidigare &#228;n det andra utl&#228;ndska f&#246;rfarandet och kan antas leda 
+till ett i Sverige g&#228;llande avg&#246;rande.
+
+17 &#167; Ett utl&#228;ndskt domstolsavg&#246;rande om sambors 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden som &#228;r verkst&#228;llbart i den stat d&#228;r 
+det meddelades och som g&#228;ller i Sverige f&#229;r verkst&#228;llas, om 
+avg&#246;randet har f&#246;rklarats verkst&#228;llbart h&#228;r.
+
+En ans&#246;kan om att avg&#246;randet ska f&#246;rklaras verkst&#228;llbart i 
+Sverige g&#246;rs till tingsr&#228;tten. Regeringen kan med st&#246;d av 
+8 kap. 7 &#167; regeringsformen meddela f&#246;reskrifter om vilka 
+tingsr&#228;tter som f&#229;r pr&#246;va en ans&#246;kan.
+
+S&#246;kanden ska tillsammans med ans&#246;kan ge in avg&#246;randet i 
+original eller i kopia som har bestyrkts av en beh&#246;rig 
+myndighet samt de ytterligare handlingar som tingsr&#228;tten 
+beh&#246;ver f&#246;r sin pr&#246;vning. S&#246;kanden ska samtidigt ge in en 
+&#246;vers&#228;ttning av handlingarna till svenska, om inte tingsr&#228;tten 
+anser att det &#228;r obeh&#246;vligt.
+
+18 &#167; Vid handl&#228;ggning i domstol av ett &#228;rende om 
+verkst&#228;llbarhetsf&#246;rklaring till&#228;mpas i &#246;vrigt lagen (1996:242) 
+om domstols&#228;renden.
+
+19 &#167; Om ett avg&#246;rande f&#246;rklaras verkst&#228;llbart, verkst&#228;lls 
+avg&#246;randet p&#229; samma s&#228;tt som ett motsvarande svenskt avg&#246;rande 
+som har f&#229;tt laga kraft. Ett beslut om tv&#229;ngsmedel i 
+avg&#246;randet ska dock inte till&#228;mpas.
+
+Ordre public
+
+20 &#167; En best&#228;mmelse i utl&#228;ndsk lag f&#229;r inte till&#228;mpas och ett 
+utl&#228;ndskt avg&#246;rande g&#228;ller inte i Sverige, om det skulle vara 
+uppenbart of&#246;renligt med grunderna f&#246;r den svenska 
+r&#228;ttsordningen att till&#228;mpa best&#228;mmelsen eller att erk&#228;nna 
+avg&#246;randet.
+
+6 kap. &#214;vriga best&#228;mmelser
+
+Registrering av lagvalsavtal mellan makar
+
+1 &#167; Ett lagvalsavtal om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden ska 
+registreras hos Skatteverket i &#228;ktenskapsregistret. Ett 
+lagvalsavtal som har slutits mellan blivande makar g&#228;ller fr&#229;n 
+&#228;ktenskapets ing&#229;ende, om det ges in till Skatteverket inom en 
+m&#229;nad fr&#229;n det att &#228;ktenskapet ingicks. I annat fall g&#228;ller 
+lagvalsavtalet f&#246;rst fr&#229;n och med den dag d&#229; det ges in till 
+Skatteverket.
+
+Vid handl&#228;ggningen av en ans&#246;kan om registrering av ett 
+lagvalsavtal till&#228;mpas 16 kap. &#228;ktenskapsbalken.
+
+Hemvist
+
+2 &#167; Vid till&#228;mpningen av denna lag ska den som &#228;r bosatt i en 
+viss stat anses ha sin hemvist d&#228;r, om bos&#228;ttningen med h&#228;nsyn 
+till vistelsens varaktighet och omst&#228;ndigheterna i &#246;vrigt f&#229;r 
+anses stadigvarande.
+
+Reservforum
+
+3 &#167; Om svensk domstol &#228;r beh&#246;rig enligt EU:s f&#246;rordningar om 
+makars och registrerade partners f&#246;rm&#246;genhetsf&#246;rh&#229;llanden 
+eller enligt denna lag och annan beh&#246;rig domstol saknas, &#228;r 
+Stockholms tingsr&#228;tt beh&#246;rig.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2019:234
+
+1. Denna lag tr&#228;der i kraft den 1 juni 2019.
+
+2. Genom lagen upph&#228;vs lagen (1990:272) om internationella 
+fr&#229;gor r&#246;rande makars och sambors f&#246;rm&#246;genhetsf&#246;rh&#229;llanden.
+
+3. Best&#228;mmelserna i 3-12 &#167;&#167; i den upph&#228;vda lagen g&#228;ller 
+fortfarande i fr&#229;gor om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden, om 
+&#228;ktenskapet har ing&#229;tts f&#246;re den 29 januari 2019 och makarna 
+inte den dagen eller d&#228;refter ing&#229;r ett lagvalsavtal som &#228;r 
+giltigt till formen.
+
+4. Den upph&#228;vda lagen g&#228;ller fortfarande f&#246;r handl&#228;ggningen i 
+domstol av s&#229;dana m&#229;l och &#228;renden om makars 
+f&#246;rm&#246;genhetsf&#246;rh&#229;llanden som har inletts f&#246;re den 29 januari 
+2019.
+
+5. S&#228;rskilda best&#228;mmelser om vad som &#246;verg&#229;ngsvis g&#228;ller i 
+fr&#229;gor om makars f&#246;rm&#246;genhetsf&#246;rh&#229;llanden i nordiska 
+situationer finns i lagen (2019:236) om &#228;ndring i f&#246;rordningen 
+(1931:429) om vissa internationella r&#228;ttsf&#246;rh&#229;llanden r&#246;rande 
+&#228;ktenskap, adoption och f&#246;rmynderskap.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=587">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=589">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,783 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2013-08-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3928</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3927">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3929">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1980:864 ·
+                    <a href="/sfsr?bet=1980:864">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1980:864) om dubbelbeskattningsavtal mellan Sverige och Tjeckoslovakien</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1980-11-13
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+Det avtal f&#246;r att undvika dubbelbeskattning betr&#228;ffande skatter p&#229;
+inkomst och f&#246;rm&#246;genhet som Sverige och Tjeckoslovakien undertecknade
+den 16 februari 1979 skall l&#228;nda till efterr&#228;ttelse f&#246;r Sveriges del.
+Avtalets inneh&#229;ll framg&#229;r av bilaga 1 till denna f&#246;rordning.
+
+Vid till&#228;mpning av avtalet skall iakttas de anvisningar som &#228;r fogade
+till f&#246;rordningen som bilaga 2.
+
+Bilaga 2
+
+Anvisningar
+
+A. Allm&#228;nna anvisningar
+
+ Fr&#229;gan huruvida och i vilken omfattning en person &#228;r skattskyldig i
+Sverige avg&#246;rs i f&#246;rsta hand med ledning av de svenska
+skattef&#246;rfattningarna. Om enligt dessa f&#246;rfattningar skattskyldighet
+inte f&#246;religger, kan s&#229;dan ej heller intr&#228;da p&#229; grund av avtalet. I
+den m&#229;n avtalet inneb&#228;r inskr&#228;nkning av den skattskyldighet i Sverige,
+som f&#246;reskrivs i de svenska skattef&#246;rfattningarna, skall avtalet
+d&#228;remot l&#228;nda till efterr&#228;ttelse.
+
+&#196;ven om enligt avtalet skattskyldigs inkomst eller f&#246;rm&#246;genhet helt
+eller delvis skall vara undantagen fr&#229;n beskattning i Sverige, skall
+den skattskyldige l&#228;mna alla de uppgifter till ledning f&#246;r taxeringen
+som han annars varit skyldig att l&#228;mna.
+
+Om skattskyldig kan visa att &#229;tg&#228;rd som beskattningsmyndighet eller
+domstol vidtagit har medf&#246;rt eller kommer att medf&#246;ra beskattning som
+strider mot avtalets best&#228;mmelser, f&#229;r han enligt art. 25 punkt 1 g&#246;ra
+framst&#228;llning om r&#228;ttelse. S&#229;dan framst&#228;llning g&#246;rs hos regeringen och
+b&#246;r inges snarast m&#246;jligt efter det den skattskyldige erh&#246;ll k&#228;nnedom
+om den avtalsstridiga beskattningen.
+
+S&#229;dan pr&#246;vning av avtalets till&#228;mpning som avses i f&#246;reg&#229;ende stycke
+kan p&#229;kallas av fysisk person, som &#228;r bosatt eller stadigvarande
+vistas i Sverige, samt av svensk juridisk person. De flesta
+inkomstslagen &#228;r s&#228;rskilt behandlade i avtalet. N&#229;gra speciella arter
+av inkomst
+
+- t.ex. vissa slag av periodiskt underst&#246;d - &#228;r dock ej n&#228;mnda i
+avtalet. I s&#229;dana fall till&#228;mpas art. 21.
+
+Vissa slag av f&#246;rm&#246;genhet &#228;r s&#228;rskilt behandlade i art. 22 punkterna
+1-3. I &#246;vrigt sker beskattningen enligt art. 22 punkt 4. Jfr &#228;ven art.
+23.
+
+B. S&#228;rskilda anvisningar
+
+till art. 1 och 4.
+
+Avtalets best&#228;mmelser &#228;r i allm&#228;nhet till&#228;mpliga endast p&#229; fysiska och
+juridiska personer som har hemvist i Sverige eller Tjeckoslovakien.
+
+Huruvida fysisk eller juridisk person skall anses ha hemvist i endera
+staten avg&#246;rs i f&#246;rsta hand med ledning av lagstiftningen i denna
+stat. I art. 4 punkterna 2 och 3 regleras fall av s.k. dubbel
+bos&#228;ttning, dvs. fall d&#228;r den skattskyldige enligt svenska
+beskattningsregler anses bosatt i Sverige och enligt tjeckoslovakiska
+beskattningsregler anses bosatt i Tjeckoslovakien. Vid till&#228;mpningen
+av avtalet skall i s&#229;dana fall den skattskyldige anses ha hemvist
+endast i den avtalsslutande stat i vilken han har hemvist enligt
+n&#228;mnda avtalsbest&#228;mmelser.
+
+Person, som avses i 69 &#167; kommunalskattelagen (1928:370), 17 &#167; lagen
+(1947:576) om statlig inkomstskatt och 17 &#167; lagen (1947:577) om
+statlig f&#246;rm&#246;genhetsskatt, skall vid till&#228;mpning av art. 4 anses
+bosatt i Sverige, s&#229;vitt fr&#229;ga &#228;r om svensk beskickning eller l&#246;nat
+svenskt konsulat i Tjeckoslovakien.
+
+Person, som avses i 70 &#167; 1 mom. kommunalskattelagen (1928:370), 18 &#167; 1
+mom. lagen (1947:576) om statlig inkomstskatt och 18 &#167; lagen
+(1947:577) om statlig f&#246;rm&#246;genhetsskatt, skall vid till&#228;mpning av art.
+4 anses bosatt i Tjeckoslovakien, s&#229;vitt fr&#229;ga &#228;r om tjeckoslovakisk
+beskickning eller l&#246;nat tjeckoslovakiskt konsulat i Sverige.
+
+till art. 2.
+
+Avtalet g&#228;ller de skatter som anges i art.
+
+2. Ang&#229;ende annan beskattning se dock art. 24 punkt 5.
+
+till art. 6.
+
+Enligt svensk skattelagstiftning beskattas inkomst som h&#228;rr&#246;r fr&#229;n
+fastighet i vissa fall som inkomst av r&#246;relse *(jfr bl.a. 27 &#167;
+kommunalskattelagen (1928:370)*). Inkomst som omfattas av art. 6
+beskattas emellertid alltid i den stat d&#228;r fastigheten &#228;r bel&#228;gen.
+Denna regel g&#228;ller &#228;ven betr&#228;ffande royalty fr&#229;n fastighet eller f&#246;r
+nyttjandet av eller r&#228;tten att nyttja mineralfyndighet, k&#228;lla eller
+annan naturtillg&#229;ng.
+
+Annan royalty beskattas enligt art. 12.
+
+till art. 7.
+
+Inkomst av r&#246;relse, som bedrivs fr&#229;n fast driftst&#228;lle, beskattas i
+regel enligt art. 7. Vad som f&#246;rst&#229;s med uttrycket &#39;&#39;fast
+driftst&#228;lle&#39;&#39; anges i art. 5.
+
+Om fysisk eller juridisk person med hemvist i Sverige bedriver r&#246;relse
+fr&#229;n fast driftst&#228;lle i Tjeckoslovakien, f&#229;r den till verksamheten vid
+driftst&#228;llet h&#228;nf&#246;rliga inkomsten beskattas i Sverige men
+tjeckoslovakisk skatt p&#229; inkomsten avr&#228;knas fr&#229;n den svenska skatten
+enligt art. 23 punkt 2 a. I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen
+h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+Inkomst av r&#246;relse, som fysisk eller juridisk person med hemvist i
+Tjeckoslovakien bedriver fr&#229;n fast driftst&#228;lle i Sverige, ber&#228;knas
+enligt art. 7 punkterna 2 och 3. Till grund f&#246;r inkomstber&#228;kningen b&#246;r
+l&#228;ggas i f&#246;rsta hand den s&#228;rskilda bokf&#246;ring som kan ha f&#246;rts vid det
+fasta driftst&#228;llet. I m&#229;n av behov skall denna bokf&#246;ring justeras s&#229;
+att inkomstber&#228;kningen sker i enlighet med den i n&#228;mnda best&#228;mmelser
+angivna principen. Avdrag medges f&#246;r s&#229; stor del av huvudkontorets
+allm&#228;nna omkostnader som sk&#228;ligen kan anses bel&#246;pa p&#229; det fasta
+driftst&#228;llet.
+
+
+Om inkomst av sj&#246;fart och luftfart finns s&#228;rskilda best&#228;mmelser i art.
+8.
+
+till art. 8.
+
+Inkomst av sj&#246;fart och luftfart i internationell trafik beskattas
+enligt art. 8 punkt 1 endast i den stat d&#228;r f&#246;retaget har sin verkliga
+ledning.
+
+till art. 9.
+
+Art. 9 inneh&#229;ller en allm&#228;n regel om omr&#228;kning av vinstf&#246;rdelningen
+mellan koncernf&#246;retag. F&#246;r Sveriges del kan omr&#228;kning vid taxering ske
+enligt 43 &#167; 1 mom. kommunalskattelagen (1928:370).
+
+&#196;ger s&#229;dan omr&#228;kning rum mellan f&#246;retag i Sverige och Tjeckoslova
+kien, skall l&#228;nsstyrelsen anm&#228;la detta till regeringen och i korthet
+redog&#246;ra f&#246;r vad som f&#246;rekommit.
+
+till art. 10.
+
+1. Vad som f&#246;rst&#229;s med uttrycket &#39;&#39;utdelning&#39;&#39; anges i art. 10 punkt
+6.
+
+2. N&#228;r fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Tjeckoslovakien och utdelningen
+inte &#228;r h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med fast
+driftst&#228;lle eller */ny rad/ stadigvarande anordning som den
+utdelningsber&#228;ttigade har i Tjeckoslovakien, iakttas best&#228;mmelserna i
+andra och tredje styckena.
+
+Om utdelningen uppb&#228;rs av aktiebolag eller ekonomisk f&#246;rening, &#228;r
+utdelningen undantagen fr&#229;n beskattning i Sverige i den m&#229;n art. 10
+punkt 7 f&#246;ranleder det. De svenska best&#228;mmelserna om befrielse fr&#229;n
+skattskyldighet f&#246;r utdelning som avses i art. 10 punkt 7 finns i 54 &#167;
+kommunalskattelagen (1928:370) och 7 &#167; lagen (1947:576) om statlig
+inkomstskatt.
+
+
+I &#246;vriga fall ber&#228;knas svensk skatt p&#229; utdelningens bruttobelopp utan
+avdrag f&#246;r tjeckoslovakisk skatt. Avdrag medges dock i vanlig ordning
+f&#246;r f&#246;rvaltningskostnader och r&#228;nta p&#229; skuld som bel&#246;per p&#229;
+utdelningen. I fall som avses i art. 10 punkt 3 f&#229;r utdelningen inte
+beskattas i Tjeckoslovakien. I &#246;vriga fall neds&#228;tts svensk skatt p&#229;
+utdelningen enligt art. 23 punkt 2 a genom avr&#228;kning av den
+tjeckoslovakiska skatten. Den tjeckoslovakiska skatten f&#229;r d&#228;rvid
+enligt art. 10 punkt 2 inte &#246;verstiga 10 % av utdelningens
+bruttobelopp. I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till
+anvisningspunkten 2 till art. 23.
+
+3. N&#228;r fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Tjeckoslovakien och utdelningen &#228;r
+h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med fast driftst&#228;lle
+eller stadigvarande anordning som den utdelningsber&#228;ttigade har i
+Tjeckoslovakien, till&#228;mpas art. 7 resp. art. 14. Utdelningen skall,
+om inte annat g&#228;ller p&#229; grund av art. 10 punkt 7, i detta fall
+beskattas i Sverige men tjeckoslovakisk skatt p&#229; utdelningen avr&#228;knas
+fr&#229;n den svenska skatten enligt art. 23 punkt 2 a. I fr&#229;ga om
+f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 23.
+
+4. N&#228;r aktiebolag i Sverige verkst&#228;ller utdelning till fysisk eller
+juridisk person med hemvist i Tjeckoslovakien och utdelningen inte &#228;r
+h&#228;nf&#246;rlig till andel som &#228;ger verkligt samband med fast driftst&#228;lle
+eller stadigvarande anordning som den utdelningsber&#228;ttigade har i
+Sverige skall, om inte skattebefrielse f&#246;religger p&#229; grund av art. 10
+punkt 3, kupongskatt tas ut med 10 % av utdelningens bruttobelopp.
+Utdelning fr&#229;n svensk ekonomisk f&#246;rening beskattas i s&#229;dant fall
+enligt 6 &#167; 1 mom. a eller c lagen (1947:576) om statlig inkomstskatt
+men den statliga inkomstskatten f&#229;r inte &#246;verstiga 10 % av
+utdelningens bruttobelopp. Vid taxering till statlig inkomstskatt f&#246;r
+utdelning fr&#229;n svensk ekonomisk f&#246;rening skall taxeringsn&#228;mnd i
+deklaration anteckna de uppgifter som beh&#246;vs f&#246;r debitering.
+L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning f&#246;rs &#246;ver till
+skattel&#228;ngden.
+
+Ang&#229;ende f&#246;rfarandet vid neds&#228;ttning av svensk skatt p&#229; utdelning
+till&#228;mpas i &#246;vrigt s&#228;rskilda best&#228;mmelser.
+
+Om den utdelningsber&#228;ttigade har fast driftst&#228;lle eller stadigvarande
+anordning i Sverige och utdelningen &#228;r h&#228;nf&#246;rlig till andel, som &#228;ger
+verkligt samband med det fasta driftst&#228;llet eller den stadigvarande
+anordningen, till&#228;mpas art. 7 resp. art. 14. I s&#229;dant fall g&#228;ller inte
+ovan angivna regler om begr&#228;nsning av eller befrielse fr&#229;n svensk
+skatt p&#229; utdelning.
+
+till art. 11.
+
+1. R&#228;nta, som utbetalas fr&#229;n Tjeckoslovakien till fysisk eller
+juridisk person med hemvist i Sverige, beskattas h&#228;r. &#196;r r&#228;ntan
+h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt samband med fast driftst&#228;lle
+eller stadigvarande anordning som inkomsttagaren har i
+Tjeckoslovakien, f&#229;r r&#228;ntan beskattas &#228;ven i Tjeckoslovakien.
+Tjeckoslovakisk skatt p&#229; r&#228;ntan avr&#228;knas i s&#229;dant fall fr&#229;n den
+svenska skatten enligt art. 23 punkt 2 a. I fr&#229;ga om f&#246;rfarandet vid
+avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+2. R&#228;nta, som utbetalas fr&#229;n Sverige till fysisk eller juridisk person
+med hemvist i Tjeckoslovakien, kan inte beskattas i Sverige. Detta
+g&#228;ller dock endast betr&#228;ffande r&#228;nta som utg&#246;r inkomst i
+f&#246;rv&#228;rvsk&#228;llan kapital. &#196;r r&#228;ntan att h&#228;nf&#246;ra till inkomst av r&#246;relse
+*(jfr punkt 2 av anvisningarna till 28 &#167; kommunalskattelagen
+(1928:370)*), beskattas r&#228;ntan i Sverige, under f&#246;ruts&#228;ttning att
+r&#228;ntan &#228;r h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt samband med fast
+driftst&#228;lle eller stadigvarande anordning som inkomsttagaren har i
+Sverige.
+
+till art. 12.
+
+1. Betr&#228;ffande beskattning av s&#229;dan royalty som avses i art. 12 punkt
+4 g&#228;ller f&#246;ljande.
+
+Royalty, som utbetalas fr&#229;n Tjeckoslovakien till fysisk eller juridisk
+person med hemvist i  Sverige, beskattas h&#228;r.
+
+&#196;r royaltyn inte h&#228;nf&#246;rlig till r&#228;tt eller egendom, som &#228;ger verkligt
+samband med fast driftst&#228;lle eller stadigvarande anordning som
+inkomsttagaren har i Tjeckoslovakien, ber&#228;knas svensk skatt p&#229;
+royaltyns bruttobelopp utan avdrag f&#246;r tjeckoslovakisk skatt. Avdrag
+medges dock i vanlig ordning f&#246;r kostnader. I fall som avses i art. 12
+punkt 3 f&#229;r tjeckoslovakisk skatt inte tas ut. I &#246;vriga fall neds&#228;tts
+svensk skatt p&#229; royaltyn enligt art. 23 punkt 2 a genom avr&#228;kning av
+tjeckoslovakisk skatt som uttagits enligt art. 12 punkt 2. Denna skatt
+f&#229;r inte &#246;verstiga 5 % av royaltyns bruttobelopp.
+
+&#196;r royaltyn h&#228;nf&#246;rlig till r&#228;tt eller egendom, som &#228;ger verkligt
+samband med fast driftst&#228;lle eller stadigvarande anordning som
+inkomsttagaren har i Tjeckoslovakien, till&#228;mpas art. 7 resp. art. 14.
+Tjeckoslovakisk skatt p&#229; royaltyn avr&#228;knas i s&#229;dant fall fr&#229;n den
+svenska skatten enligt art. 23 punkt 2 a. I fr&#229;ga om f&#246;rfarandet vid
+avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+Royalty, som utbetalas fr&#229;n Sverige till fysisk eller juridisk person
+med hemvist i Tjeckoslovakien, skall, om inte annat g&#228;ller p&#229; grund av
+art. 12 punkt 3, beskattas i Sverige enligt 28 &#167; 1 mom. tredje stycket
+och punkt 3 av anvisningarna till 53 &#167; kommunalskattelagen (1928:370)
+j&#228;mf&#246;rt med 2 och 3 &#167;&#167; lagen (1947:576) om statlig inkomstskatt. Om
+inte fall som avses i art. 12 punkt 5 f&#246;religger, f&#229;r emellertid
+summan av den statliga och kommunala inkomstskatt som bel&#246;per p&#229;
+royaltyn enligt art. 12 punkt 2 inte &#246;verstiga 5 % av royaltyns
+bruttobelopp. Vid till&#228;mpningen av denna maximeringsregel iakttas
+best&#228;mmelserna i f&#246;ljande stycke.
+
+Om inkomsttagaren uppb&#228;r &#228;ven annan inkomst fr&#229;n Sverige &#228;n s&#229;dan
+royalty, anses p&#229; royaltyn bel&#246;pa s&#229; stor andel av hela den statliga
+inkomstskatten som royaltyn - efter avdrag f&#246;r kostnader som &#228;r
+h&#228;nf&#246;rliga till royaltyn - utg&#246;r av inkomsttagarens sammanlagda
+inkomst av olika f&#246;rv&#228;rvsk&#228;llor. Taxeringsn&#228;mnd skall i deklaration
+anteckna royaltyns bruttobelopp och i f&#246;rekommande fall den nyss
+angivna delen av den statliga inkomstskatten samt ange dels att summan
+av den enligt allm&#228;nna regler */ny rad/
+
+utr&#228;knade och p&#229; royaltyn bel&#246;pande statliga och kommunala
+inkomstskatten skall, om den &#246;verstiger 5 % av royaltyns bruttobelopp,
+neds&#228;ttas med det &#246;verskjutande beloppet, dels att den kommunala
+inkomstskatten f&#229;r nedbringas endast i den m&#229;n det &#246;verskjutande
+beloppet &#246;verstiger den statliga inkomstskatten. L&#228;ngdf&#246;rande
+myndighet svarar f&#246;r att s&#229;dan anteckning f&#246;rs &#246;ver till
+skattel&#228;ngden.
+
+*/kurs/ Exempel:*/slut kurs/  En person med hemvist i Tjeckoslovakien
+uppb&#228;r royalty fr&#229;n Sverige med ett bruttobelopp av 10000 kronor. Till
+royaltyn h&#228;nf&#246;rliga avdragsgilla kostnader uppg&#229;r till 500 kronor. Den
+skattskyldige antas vidare uppb&#228;ra i Sverige skattepliktig nettoint&#228;kt
+av andra f&#246;rv&#228;rvsk&#228;llor med ett belopp av 5000 kronor och vid
+taxeringen till statlig inkomstskatt &#229;tnjuta allm&#228;nna avdrag med 1000
+kronor. Den till statlig inkomstskatt taxerade inkomsten blir s&#229;lunda
+(9500 - 5000 - 1000 6) 13500 kronor. I deklarationen antecknas:
+&quot;Enligt avtalet med Tjeckoslovakien skall den statliga resp. den
+kommunala inkomstskatten neds&#228;ttas med det belopp varmed summan av
+9500 av hela den statliga inkomstskatten och den kommunala
+inkomstskatt, som bel&#246;per p&#229; 9500 kronor, &#246;verstiger 5 % av 10000
+kronor. Den kommunala inkomstskatten f&#229;r nedbringas endast i den m&#229;n
+det &#246;verskjutande beloppet &#246;verstiger  9500 av hela den statliga
+inkomstskatten.&quot;
+
+14500  14500
+
+2. Royalty eller annat belopp, som utbetalas s&#229;som ers&#228;ttning f&#246;r
+nyttjandet av mineralfyndighet, k&#228;lla eller annan naturtillg&#229;ng,
+beskattas enligt art. 6.
+
+till art. 13.
+
+Vinst, som fysisk eller juridisk person med hemvist i Tjeckoslovakien
+f&#246;rv&#228;rvar genom avyttring av fastighet i Sverige eller aktier i bolag
+vars tillg&#229;ngar huvudsakligen utg&#246;rs av h&#228;r bel&#228;gen fastighet,
+beskattas h&#228;r. De svenska best&#228;mmelserna om beskattning av vinst genom
+avyttring av aktier i bolag som avses i art. 13 punkt 1 finns i 35 &#167;
+
+3 mom. sjunde stycket kommunalskattelagen (1928:370). Vidare beskattas
+i Sverige vinst genom inte yrkesm&#228;ssig avyttring av l&#246;s egendom som
+utg&#246;r anl&#228;ggnings- eller driftkapital i fast driftst&#228;lle, som
+inkomsttagaren har h&#228;r. Motsvarande g&#228;ller i fr&#229;ga om l&#246;s egendom, som
+ing&#229;r i en i Sverige bel&#228;gen stadigvarande anordning f&#246;r ut&#246;vande av
+fritt yrke.
+
+Realisationsvinst, som f&#246;rv&#228;rvas av fysisk eller juridisk person med
+hemvist i Sverige, beskattas h&#228;r, om inte annat f&#246;ljer av sista
+meningen av art. 13 punkt 2. Enligt art. 13 punkt 1 f&#229;r
+tjeckoslovakisk skatt tas ut p&#229; realisationsvinsten, om den avyttrade
+egendomen utg&#246;rs av fastighet bel&#228;gen i Tjeckoslovakien eller aktier i
+bolag vars tillg&#229;ngar huvudsakligen utg&#246;rs av d&#228;r bel&#228;gen fastighet.
+Motsvarande g&#228;ller enligt art. 13 punkt 2 i fr&#229;ga om l&#246;s egendom som
+utg&#246;r anl&#228;ggnings- eller driftkapital i fast driftst&#228;lle, som
+inkomsttagaren har i Tjeckoslovakien, eller l&#246;s egendom h&#228;nf&#246;rlig till
+stadigvarande anordning f&#246;r ut&#246;vande av fritt yrke, vilken
+inkomsttagaren har i Tjeckoslovakien.
+
+Svensk skatt p&#229; realisationsvinsten neds&#228;tts enligt art. 23 punkt 2 a
+genom avr&#228;kning av den tjeckoslovakiska skatt som har p&#229;f&#246;rts samma
+vinst. I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till
+anvisningspunkten 2 till art. 23.
+
+till art. 14.
+
+1. Vad som f&#246;rst&#229;s med uttrycket &#39;&#39;fritt yrke&#39;&#39; anges i art. 14 punkt
+2.
+
+2. Inkomst av fritt yrke beskattas i regel endast i den stat d&#228;r den
+skattskyldige har hemvist. &#196;r inkomsten h&#228;nf&#246;rlig till verksamhet, som
+ut&#246;vas vid s&#229;dan stadigvarande anordning som avses i art. 14 punkt 1,
+f&#229;r inkomsten beskattas i den stat d&#228;r anordningen finns.
+
+Om person med hemvist i Sverige f&#246;rv&#228;rvar inkomst av fritt yrke genom
+verksamhet vid
+
+stadigvarande anordning i Tjeckoslovakien, f&#229;r inkomsten beskattas i
+Sverige men tjeckoslovakisk skatt p&#229; samma inkomst avr&#228;knas fr&#229;n den
+svenska skatten enligt art. 23 punkt 2 a. I fr&#229;ga om f&#246;rfarandet vid
+avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+3. Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av sk&#229;despelare,
+musiker m.fl. se anvisningarna till art. 17.
+
+till art. 15.
+
+Inkomst av enskild tj&#228;nst f&#229;r enligt art. 15 punkt 1 i regel beskattas
+i den stat d&#228;r arbetet utf&#246;rs. Undantag fr&#229;n denna regel f&#246;reskrivs i
+art. 15 punkterna 2 och 3, art. 16, art. 17 punkt 3 och art. 20.
+
+Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av sk&#229;despelare,
+musiker m.fl. se anvisningarna till art. 17.
+
+till art. 16.
+
+N&#228;r svenskt bolag utbetalar styrelsearvode till person med hemvist i
+Tjeckoslovakien, beskattas ers&#228;ttningen i Sverige, om det kan ske
+enligt g&#228;llande beskattningsregler. Har s&#229;dan ers&#228;ttning uppburits av
+person med hemvist i Sverige fr&#229;n bolag med hemvist i Tjeckoslovakien,
+f&#229;r inkomsten beskattas i Sverige men tjeckoslovakisk skatt p&#229;
+inkomsten avr&#228;knas fr&#229;n den svenska skatten enligt art. 23 punkt 2 a.
+I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten
+2 till art. 23.
+
+till art. 17.
+
+Inkomst, som teater- eller filmsk&#229;despelare, radio- eller
+televisionsartister, musiker och liknande yrkesut&#246;vare samt idrottsm&#228;n
+f&#246;rv&#228;rvar genom sin yrkesverksamhet, beskattas i regel i den stat d&#228;r
+verksamheten ut&#246;vas (art. 17 punkt 1). Detta g&#228;ller oavsett om
+inkomsten f&#246;rv&#228;rvas under ut&#246;vande av fritt yrke eller p&#229; grund av
+anst&#228;llning. Enligt art. 17 punkt 2 f&#229;r inkomsten i regel beskattas i
+den stat d&#228;r artisten eller
+
+idrottsmannen utf&#246;r arbetet, &#228;ven om ers&#228;ttningen utbetalas till annan
+person (t.ex. arbetsgivare hos vilken artisten eller idrottsmannen &#228;r
+anst&#228;lld) &#228;n artisten eller idrottsmannen sj&#228;lv. Best&#228;mmelserna i art.
+17 punkterna 1 och 2 till&#228;mpas inte i fall som avses i art. 17 punkt
+3. F&#246;r Sveriges vidkommande iakttas vid till&#228;mpningen av art. 17
+punkterna 1 och 2 best&#228;mmelserna i 54 &#167; f&#246;rsta stycket c
+kommunalskattelagen (1928:370) och 7 &#167; f&#246;rsta stycket b lagen
+(1947:576) om statlig inkomstskatt.
+
+till art. 18.
+
+Ers&#228;ttning, med undantag f&#246;r pension, som utbetalas av n&#229;gon av
+staterna, dess politiska underavdelningar eller lokala myndigheter f&#246;r
+arbete utf&#246;rt i allm&#228;n tj&#228;nst beskattas enligt huvudregeln i art. 18
+punkt 1 a endast i den stat varifr&#229;n ers&#228;ttningen utbetalas. Har
+arbetet utf&#246;rts i den andra staten av person med hemvist i denna stat,
+beskattas emellertid ers&#228;ttningen enligt art. 18 punkt 1 b endast i
+den staten, om mottagaren antingen &#228;r medborgare i den staten eller
+inte erh&#246;ll hemvist d&#228;r endast f&#246;r att utf&#246;ra ifr&#229;gavarande arbete
+eller inte &#228;r skattskyldig f&#246;r ers&#228;ttningen i den avtalsslutande stat
+fr&#229;n vilken den utbetalas.
+
+Pension, som utbetalas av - eller fr&#229;n fonder inr&#228;ttade av - en av
+staterna, dess politiska underavdelningar eller lokala myndigheter p&#229;
+grund av allm&#228;n tj&#228;nst, beskattas enligt art. 18 punkt 2 a i regel
+endast i denna stat. Om mottagaren av pensionen &#228;r medborgare i den
+andra staten och har hemvist d&#228;r, beskattas emellertid pensionen
+enligt art. 18 punkt 2 b endast i denna stat.
+
+Ers&#228;ttning (inkl. pension), som utbetalas f&#246;r tj&#228;nst utf&#246;rd i samband
+med r&#246;relse, som den utbetalande staten, dess politiska
+underavdelningar eller lokala myndigheter bedrivit, beskattas som
+inkomst p&#229; grund av enskild tj&#228;nst enligt art. 15, 16 och 19.
+
+till art. 19.
+
+Pension, som inte utg&#229;r p&#229; grund av allm&#228;n tj&#228;nst, samt annan liknande
+ers&#228;ttning beskattas endast i den stat varifr&#229;n ers&#228;ttningen h&#228;rr&#246;r.
+
+till art. 23.
+
+1. Inkomst fr&#229;n Sverige beskattas h&#228;r i den m&#229;n svenska
+skattef&#246;rfattningar f&#246;ranleder det och inskr&#228;nkning av
+skattskyldigheten inte f&#246;ljer av &#246;vriga artiklar. Detsamma g&#228;ller i
+fr&#229;ga om f&#246;rm&#246;genhetstillg&#229;ng som &#228;r bel&#228;gen i Sverige. Om inkomsten
+eller f&#246;rm&#246;genheten kan beskattas &#228;ven i Tjeckoslovakien, medges
+l&#228;ttnad vid den tjeckoslovakiska beskattningen enligt art. 23 punkt 1.
+
+2. Inkomst fr&#229;n Tjeckoslovakien, som uppb&#228;rs av person med hemvist i
+Sverige, medtas vid taxering i Sverige med undantag f&#246;r utdelning i
+vissa fall fr&#229;n bolag i Tjeckoslovakien. I fr&#229;ga om utdelning se punkt
+2 andra stycket och punkt 3 av anvisningarna till art. 10. Likas&#229;
+medtas f&#246;rm&#246;genhetstillg&#229;ng, som &#228;r bel&#228;gen i Tjeckoslovakien, vid
+taxering till svensk f&#246;rm&#246;genhetsskatt. Svensk skatt p&#229; inkomsten
+eller f&#246;rm&#246;genheten neds&#228;tts genom avr&#228;kning enligt art. 23 punkt 2 a,
+om inte fall f&#246;religger som anges i anvisningspunkten 3.
+
+Svensk inkomstskatt ber&#228;knas p&#229; inkomstens bruttobelopp utan avdrag
+f&#246;r tjeckoslovakisk skatt som omfattas av avtalet. Avdrag medges i
+vanlig ordning f&#246;r kostnader som h&#228;nf&#246;r sig till inkomsten. Fr&#229;n den
+s&#229;lunda ber&#228;knade svenska skatten avr&#228;knas enligt art. 23 punkt 2 a
+ett belopp motsvarande den tjeckoslovakiska skatt som bel&#246;per p&#229;
+inkomsten. Betr&#228;ffande storleken av tjeckoslovakisk skatt p&#229; utdelning
+och royalty h&#228;nvisas till anvisningspunkten 2 till art. 10 och
+anvisningspunkten 1 till art. 12. Har tjeckoslovakisk skatt enligt
+avtalet tagits ut p&#229; inkomst av r&#246;relse, som har */ny rad/ bedrivits i
+Tjeckoslovakien, iakttas att inkomsten ber&#228;knats enligt art. 7.
+
+Den skattskyldige b&#246;r i samband med sin sj&#228;lvdeklaration f&#246;r det
+beskattnings&#229;r, f&#246;r vilket inkomsten upptas till beskattning, f&#246;rete
+bevis eller annan utredning av den tjeckoslovakiska skatt som har
+p&#229;f&#246;rts inkomsten.
+
+
+Avr&#228;kning av tjeckoslovakisk inkomstskatt f&#229;r ske med belopp
+motsvarande h&#246;gst summan av de svenska skatter som bel&#246;per p&#229;
+inkomsten. Vid till&#228;mpningen av denna regel anses p&#229; inkomsten fr&#229;n
+Tjeckoslovakien bel&#246;pa s&#229; stor andel av hela den statliga
+inkomstskatten som inkomsten - efter avdrag f&#246;r kostnader - utg&#246;r av
+den skattskyldiges sammanlagda inkomst av olika f&#246;rv&#228;rvsk&#228;llor.
+Kommunal inkomstskatt anses bel&#246;pa p&#229; inkomst fr&#229;n Tjeckoslovakien
+till s&#229; stor andel som inkomsten - efter avdrag f&#246;r kostnader - utg&#246;r
+av den skattskyldiges sammanlagda inkomst av olika f&#246;rv&#228;rvsk&#228;llor som
+skall taxeras i samma kommun som inkomsten fr&#229;n Tjeckoslovakien.
+
+Avr&#228;kning sker i f&#246;rsta hand fr&#229;n den statliga inkomstskatten.
+F&#246;rsl&#229;r ej denna, avr&#228;knas &#229;terstoden fr&#229;n kommunal inkomstskatt som
+bel&#246;per p&#229; inkomsten.
+
+Taxeringsn&#228;mnd skall i deklaration anteckna motv&#228;rdet i svenska kronor
+av den tjeckoslovakiska skatten p&#229; inkomsten och ange att avr&#228;kning
+skall ske med detta skattebelopp, dock h&#246;gst med de svenska skatterna
+p&#229; inkomsten. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning
+f&#246;rs &#246;ver till skattel&#228;ngden.
+
+*/kurs/  Exempel:*/slut kurs/  En person med hemvist i Sverige uppb&#228;r
+inkomst av fastighet i Tjeckoslovakien med ett belopp av 10000 kronor.
+P&#229; inkomsten antas bel&#246;pa tjeckoslovakisk skatt med ett belopp av 1500
+kronor. Avdragsgilla kostnader uppg&#229;r till 500 kronor. Den
+skattskyldige antas vidare uppb&#228;ra nettoint&#228;kter av andra
+f&#246;rv&#228;rvsk&#228;llor med ett belopp av 90000 kronor och vid taxeringen till
+statlig inkomstskatt &#229;tnjuta allm&#228;nna avdrag med 10000 kronor. Den
+till statlig inkomstskatt taxerade inkomsten blir s&#229;lunda
+(9500-90000-100006) 89500 kronor. I deklarationen antecknas:
+&#39;&#39;Avr&#228;kning fr&#229;n inkomstskatt enligt avtalet med Tjeckoslovakien skall
+ske med 1500 kronor, dock h&#246;gst med summan av den kommunala
+inkomstskatt, som bel&#246;per p&#229; 9500 kronor, och 99500 av hela den
+statliga
+
+inkomstskatten. Avr&#228;kning sker i f&#246;rsta hand fr&#229;n den statliga
+inkomstskatten.&#39;&#39;
+
+9500
+
+Anvisningarna i denna punkt om avr&#228;kning av svensk inkomstskatt g&#228;ller
+i till&#228;mpliga delar &#228;ven i fr&#229;ga om avr&#228;kning av tjeckoslovakisk skatt
+p&#229; f&#246;rm&#246;genhet fr&#229;n svensk f&#246;rm&#246;genhetsskatt.
+
+3. Om en person med hemvist i Sverige uppb&#228;r inkomst eller innehar
+f&#246;rm&#246;genhet som enligt art. 8 punkterna 1 och 3, art. 13 punkt 2 sista
+meningen, art. 18 punkt 1 a eller punkt 2 a eller art. 22 punkt 3
+skall beskattas endast i Tjeckoslovakien, medtas inkomsten eller
+f&#246;rm&#246;genheten vid taxering i Sverige. Statlig och kommunal
+inkomstskatt resp. statlig f&#246;rm&#246;genhetsskatt utr&#228;knas i vanlig
+ordning. Fr&#229;n de s&#229;lunda utr&#228;knade inkomstskatterna resp.
+f&#246;rm&#246;genhetsskatten avr&#228;knas ett belopp motsvarande den del av
+inkomstskatterna resp. f&#246;rm&#246;genhetsskatten som vid proportionell
+f&#246;rdelning bel&#246;per p&#229; den inkomst eller f&#246;rm&#246;genhet som enligt avtalet
+skall beskattas endast i Tjeckoslovakien.
+
+*/kurs/ Exempel:*/slut kurs/  En tjeckoslovakisk medborgare med
+hemvist i Sverige uppb&#228;r pension fr&#229;n tjeckoslovakiska staten med ett
+belopp som efter avdrag f&#246;r */ny rad/ kostnader motsvarar 10050
+kronor. Den skattskyldige antas uppb&#228;ra i Sverige skattepliktiga
+nettoint&#228;kter av andra f&#246;rv&#228;rvsk&#228;llor med 50000 kronor och &#229;tnjuta
+allm&#228;nna avdrag och grundavdrag med 9000 kronor. Den beskattningsbara
+inkomsten blir s&#229;v&#228;l statligt som kommunalt (10050-50000-90006) 51000
+kronor, sedan avrundning skett. Hade pensionen inte medr&#228;knats skulle
+den beskattningsbara inkomsten ha blivit (50000-90006) 41000 kronor.
+Den statliga och kommunala inkomstskatten, ber&#228;knad p&#229; 51000 kronor,
+neds&#228;tts med vardera 51000-41000.
+
+51000
+
+I de fall som nu har n&#228;mnts skall taxeringsn&#228;mnd i deklarationen
+anteckna grunden f&#246;r utr&#228;kningen
+
+av inkomstskatterna eller f&#246;rm&#246;genhetsskatten. L&#228;ngdf&#246;rande myndighet
+svarar f&#246;r att s&#229;dan anteckning f&#246;rs &#246;ver till skattel&#228;ngden.
+
+till art. 24.
+
+Av art. 24 punkt 2 f&#246;ljer att bolag i Tjeckoslovakien inte f&#229;r p&#229;f&#246;ras
+f&#246;rm&#246;genhetsskatt i Sverige. Best&#228;mmelsen inneb&#228;r ett undantag fr&#229;n
+regeln i 6 &#167; 1 mom. f&#246;rsta stycket c lagen (1947:577) om statlig
+f&#246;rm&#246;genhetsskatt.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3927">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3929">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

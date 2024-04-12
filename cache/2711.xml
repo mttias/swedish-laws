@@ -1,0 +1,783 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-11" /> 
+ <meta id="rattsinfo-edited" content="2023-01-11 11:27:26" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2711</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2710">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2712">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2000:271 ·
+                    <a href="/sfsr?bet=2000:271">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2000:271) om innesluten anv&#228;ndning av genetiskt modifierade organismer</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2000-05-04
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2011:125
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2000-06-05 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Definitioner
+
+1 &#167; Termer och uttryck som anv&#228;nds i denna f&#246;rordning har samma
+betydelse som i 13 kap. milj&#246;balken. F&#246;rordning (2011:32).
+
+2 &#167; I denna f&#246;rordning avses med
+
+mikroorganism: varje mikrobiologisk enhet, cellul&#228;r eller icke-
+cellul&#228;r, som kan f&#246;r&#246;ka sig eller &#246;verf&#246;ra genetiskt material,
+inbegripet virus, viroider samt cellkulturer av djur och v&#228;xter,
+
+genetiskt modifierad mikroorganism: en mikroorganism vars
+genetiska material har &#228;ndrats p&#229; ett s&#228;tt som inte intr&#228;ffar
+naturligt genom parning eller naturlig rekombination,
+
+skydds&#229;tg&#228;rd: en inneslutnings&#229;tg&#228;rd eller ett f&#246;rsiktighetsm&#229;tt
+i &#246;vrigt som vidtas f&#246;r att f&#246;rebygga, hindra eller motverka att
+verksamheten medf&#246;r skada f&#246;r m&#228;nniskors h&#228;lsa eller milj&#246;n,
+
+tillsynsmyndighet: en myndighet som enligt 2 kap. 4, 12, 13
+eller 18 &#167; milj&#246;tillsynsf&#246;rordningen (2011:13) har ansvar f&#246;r
+tillsyn i fr&#229;ga om innesluten anv&#228;ndning,
+
+F-verksamhet: innesluten anv&#228;ndning av genetiskt modifierade
+mikroorganismer med f&#246;rsumbar eller ingen risk f&#246;r skador p&#229;
+m&#228;nniskors h&#228;lsa eller milj&#246;n,
+
+L-verksamhet: innesluten anv&#228;ndning av genetiskt modifierade
+mikroorganismer med l&#229;g risk f&#246;r skador p&#229; m&#228;nniskors h&#228;lsa
+eller milj&#246;n,
+
+R-verksamhet: innesluten anv&#228;ndning av genetiskt modifierade
+mikroorganismer med m&#229;ttlig eller h&#246;g risk f&#246;r skador p&#229;
+m&#228;nniskors h&#228;lsa eller milj&#246;n,
+
+ny anv&#228;ndning: en innesluten anv&#228;ndning av genetiskt modifierade
+organismer i en redan anm&#228;ld verksamhet och som j&#228;mf&#246;rt med den
+anm&#228;lda verksamheten p&#229; ett inte obetydligt s&#228;tt skiljer sig i
+fr&#229;ga om vilka genetiskt modifierade organismer som anv&#228;nds
+eller i fr&#229;ga om metoderna f&#246;r framst&#228;llningen eller
+anv&#228;ndningen av organismerna,
+
+olycka: varje h&#228;ndelse som inneb&#228;r ett betydande och oavsiktligt
+utsl&#228;pp av genetiskt modifierade organismer vid innesluten
+anv&#228;ndning och som kan inneb&#228;ra omedelbar eller f&#246;rdr&#246;jd fara
+f&#246;r m&#228;nniskors h&#228;lsa eller f&#246;r milj&#246;n. F&#246;rordning (2011:32).
+
+2 a &#167; I denna f&#246;rordning avses med
+
+direktiv 90/220/EEG: r&#229;dets direktiv 90/220/EEG av den 23 april
+1990 om avsiktlig uts&#228;ttning av genetiskt modifierade
+organismer i milj&#246;n, senast &#228;ndrat genom kommissionens direktiv
+97/35/EG,
+
+direktiv 2001/18/EG: Europaparlamentets och r&#229;dets direktiv
+2001/18/EG av den 12 mars 2001 om avsiktlig uts&#228;ttning av
+genetiskt modifierade organismer i milj&#246;n och om upph&#228;vande av
+r&#229;dets direktiv 90/220/EEG, senast &#228;ndrat genom
+Europaparlamentets och r&#229;dets direktiv 2008/27/EG, och
+
+direktiv 2009/41/EG: Europaparlamentets och r&#229;dets direktiv
+2009/41/EG av den 6 maj 2009 om innesluten anv&#228;ndning av
+genetiskt modifierade mikroorganismer (omarbetning).
+F&#246;rordning (2011:125).
+
+Undantag f&#246;r vissa verksamheter
+
+3 &#167; Best&#228;mmelserna i 8-11 och 13-34 &#167;&#167; skall inte till&#228;mpas i
+fr&#229;ga om innesluten anv&#228;ndning av
+
+1. organismer som framst&#228;lls eller har framst&#228;llts genom
+mutagenes,
+
+2. v&#228;xter som framst&#228;lls eller har framst&#228;llts genom cellfusion
+(inklusive protoplastfusion) av v&#228;xtceller i fall d&#229; v&#228;xten
+&#228;ven kan framst&#228;llas med traditionella f&#246;r&#228;dlingsmetoder,
+
+3. mikroorganismer som framst&#228;lls eller har framst&#228;llts genom
+cellfusion (inklusive protoplastfusion) av prokaryota arter som
+utv&#228;xlar genetiskt material genom k&#228;nda fysiologiska processer,
+om det &#228;r osannolikt att mikroorganismen &#228;r skadlig f&#246;r
+m&#228;nniskors h&#228;lsa eller milj&#246;n,
+
+4. mikroorganismer som framst&#228;lls eller har framst&#228;llts genom
+cellfusion (inklusive protoplastfusion) av celler av eukaryota
+arter, inklusive framst&#228;llning av hybridomceller och fusioner
+av v&#228;xtceller,
+
+5. mikroorganismer som framst&#228;lls eller har framst&#228;llts genom
+sj&#228;lvkloning i celler av samma art eller i celler av
+fylogenetiskt n&#228;ra besl&#228;ktade arter, som kan utv&#228;xla genetiskt
+material genom naturliga fysiologiska processer, om det &#228;r
+osannolikt att mikroorganismen &#228;r skadlig f&#246;r m&#228;nniskors h&#228;lsa
+eller milj&#246;n.
+
+Sj&#228;lvkloning best&#229;r i att nukleinsyrasekvenser avl&#228;gsnas fr&#229;n
+en cell i en organism och eventuellt att hela eller del av
+nukleinsyran eller en syntetisk motsvarighet sedan &#229;terinf&#246;rs
+med eller utan f&#246;reg&#229;ende enzymatiska eller mekaniska steg.
+Sj&#228;lvkloning som avses i f&#246;rsta stycket 5 f&#229;r inkludera
+anv&#228;ndning av s&#229;dana under l&#229;ng tid bepr&#246;vade rekombinanta
+vektorer som har visat sig inneb&#228;ra att anv&#228;ndningen i de
+enskilda organismerna &#228;r s&#228;ker.
+
+Undantagsbest&#228;mmelsen i f&#246;rsta stycket f&#229;r inte till&#228;mpas om
+verksamheten omfattar anv&#228;ndning av rekombinanta
+nukleinsyramolekyler eller om verksamheten f&#246;rutom s&#229;dan
+innesluten anv&#228;ndning som anges i f&#246;rsta stycket ocks&#229; omfattar
+anv&#228;ndning av genetiskt modifierade organismer som framst&#228;lls
+eller har framst&#228;llts p&#229; annat s&#228;tt &#228;n som anges i f&#246;rsta
+stycket 1-5.
+
+4 &#167; Best&#228;mmelserna i 13 kap. 8 &#167; milj&#246;balken samt 7–11 och 
+13–34 &#167;&#167; denna f&#246;rordning ska inte till&#228;mpas p&#229; innesluten
+anv&#228;ndning som endast omfattar s&#229;dana genetiskt modifierade
+mikroorganismer som &#228;r s&#228;kra f&#246;r m&#228;nniskors h&#228;lsa och milj&#246;n
+enligt direktiv 2009/41/EG.
+
+Arbetsmilj&#246;verket ska uppr&#228;tta en f&#246;rteckning &#246;ver de typer av
+genetiskt modifierade mikroorganismer som avses i f&#246;rsta
+stycket. F&#246;rteckningen ska motsvara f&#246;rteckningen i del C i
+bilaga 2 till direktiv 2009/41/EG. F&#246;rordning (2011:125).
+
+5 &#167; Best&#228;mmelserna i 7–34 &#167;&#167; g&#228;ller inte f&#246;rvaring, odling,
+transport, destruktion, bortskaffande eller anv&#228;ndning av
+genetiskt modifierade organismer som har sl&#228;ppts ut p&#229;
+marknaden i enlighet med
+
+1. direktiv 90/220/EEG eller direktiv 2001/18/EG,
+
+2. annan EU-lagstiftning som inneh&#229;ller f&#246;reskrifter om en
+s&#228;rskild milj&#246;riskbed&#246;mning som liknar den som f&#246;reskrivs i
+direktiv 2001/18/EG,
+
+3. f&#246;rordningen (1994:901) om genetiskt modifierade organismer
+eller f&#246;rordningen (2002:1086) om uts&#228;ttning av genetiskt
+modifierade organismer i milj&#246;n.
+
+Undantagsbest&#228;mmelserna i f&#246;rsta stycket f&#229;r inte till&#228;mpas om
+den inneslutna anv&#228;ndningen avviker fr&#229;n villkor f&#246;r tillst&#229;nd
+att sl&#228;ppa ut organismerna p&#229; marknaden. F&#246;rordning (2011:125).
+
+6 &#167; Best&#228;mmelserna i 8-11 och 13-29 &#167;&#167; g&#228;ller inte transport av
+genetiskt modifierade organismer p&#229; landsv&#228;g, j&#228;rnv&#228;g eller
+inre vattenv&#228;g, till havs eller med flyg.
+
+Riskbed&#246;mning
+
+7 &#167; Den som bedriver eller avser att bedriva verksamhet med
+innesluten anv&#228;ndning av genetiskt modifierade organismer skall
+g&#246;ra den utredning f&#246;r bed&#246;mning av skaderisker som avses i 13
+kap. 8 &#167; milj&#246;balken.
+
+Tillsynsmyndigheten f&#229;r inom sitt tillsynsomr&#229;de meddela
+n&#228;rmare f&#246;reskrifter om utredningen och vad den skall omfatta.
+
+8 &#167; En verksamhet med innesluten anv&#228;ndning av genetiskt
+modifierade mikroorganismer skall klassificeras som en F-
+verksamhet, L-verksamhet eller R-verksamhet. Den riskbed&#246;mning
+som avses i 7 &#167; skall ligga till grund f&#246;r klassificeringen.
+
+Arbetsmilj&#246;verket f&#229;r inom sitt tillsynsomr&#229;de meddela
+n&#228;rmare f&#246;reskrifter om vad som avses med F-verksamhet, L-
+verksamhet och R-verksamhet samt om klassificeringen. Innan
+Arbetsmilj&#246;verket meddelar s&#229;dana f&#246;reskrifter, skall den
+samr&#229;da med Genteknikn&#228;mnden och Naturv&#229;rdsverket.
+F&#246;rordning (2000:968).
+
+Skydds&#229;tg&#228;rder
+
+9 &#167; Den som bedriver eller avser att bedriva verksamhet med
+innesluten anv&#228;ndning av genetiskt modifierade organismer
+skall, i samband med den riskbed&#246;mning som avses i 7 &#167;, bed&#246;ma
+vilka skydds&#229;tg&#228;rder som beh&#246;vs. I 2 kap. 3 &#167; milj&#246;balken finns
+en best&#228;mmelse om skyldighet att utf&#246;ra s&#229;dana skydds&#229;tg&#228;rder.
+
+Tillsynsmyndigheten f&#229;r inom sitt tillsynsomr&#229;de meddela
+f&#246;reskrifter om hur behovet av skydds&#229;tg&#228;rder skall
+identifieras och bed&#246;mas.
+
+10 &#167; Vid innesluten anv&#228;ndning av genetiskt modifierade
+organismer skall fysiskt hinder eller en kombination av fysiska
+och andra hinder anv&#228;ndas f&#246;r att begr&#228;nsa organismernas
+kontakt med allm&#228;nheten och milj&#246;n.
+
+11 &#167; Tillsynsmyndigheten f&#229;r inom sitt tillsynsomr&#229;de meddela
+f&#246;reskrifter om att den som bedriver verksamhet med innesluten
+anv&#228;ndning av genetiskt modifierade organismer skall
+uppr&#228;tth&#229;lla en viss niv&#229; av skydd f&#246;r m&#228;nniskors h&#228;lsa och
+milj&#246;n (skyddsniv&#229;). S&#229;dana f&#246;reskrifter f&#229;r inneb&#228;ra att en
+viss omst&#228;ndighet i riskbed&#246;mningen eller att behovet av en
+viss skydds&#229;tg&#228;rd blir best&#228;mmande f&#246;r valet av skyddsniv&#229; f&#246;r
+hela eller del av verksamheten.
+
+12 &#167; Tillsynsmyndigheten f&#229;r inom sitt tillsynsomr&#229;de meddela
+de ytterligare f&#246;reskrifter om skydds&#229;tg&#228;rder som beh&#246;vs vid
+innesluten anv&#228;ndning av genetiskt modifierade organismer.
+
+Tillsynsmyndigheten ska samr&#229;da med Myndigheten f&#246;r
+samh&#228;llsskydd och beredskap, Naturv&#229;rdsverket och
+Genteknikn&#228;mnden innan den meddelar f&#246;reskrifter om transport
+av genetiskt modifierade organismer eller som annars avser
+&#229;tg&#228;rder till skydd f&#246;r milj&#246;n eller f&#246;r m&#228;nniskor utanf&#246;r de
+anl&#228;ggningar d&#228;r verksamheter med genetiskt modifierade
+organismer bedrivs. F&#246;rordning (2008:1032).
+
+Uppdatering av gjorda bed&#246;mningar
+
+13 &#167; De bed&#246;mningar som avses i 7 och 9 &#167;&#167; skall ses &#246;ver och
+uppdateras regelbundet.
+
+En s&#229;dan &#246;versyn skall g&#246;ras omedelbart om
+
+1. klassificeringen enligt 8 &#167; inte l&#228;ngre &#228;r riktig,
+
+2. vald skyddsniv&#229; enligt 10 &#167; inte l&#228;ngre &#228;r tillr&#228;cklig,
+
+3. de vidtagna skydds&#229;tg&#228;rderna inte l&#228;ngre &#228;r tillr&#228;ckliga,
+eller
+
+4. det mot bakgrund av ny vetenskaplig eller teknisk kunskap
+finns anledning att misst&#228;nka att en bed&#246;mning inte l&#228;ngre &#228;r
+riktig.
+
+Dokumentation
+
+14 &#167; Tillsynsmyndigheten f&#229;r inom sitt tillsynsomr&#229;de meddela
+f&#246;reskrifter om skyldighet att dokumentera de bed&#246;mningar som
+g&#246;rs enligt 7 och 9 &#167;&#167;, att h&#229;lla dokumentationen tillg&#228;nglig
+samt att l&#228;mna in den till tillsynsmyndigheten.
+
+Anm&#228;lnings- och tillst&#229;ndsplikt m.m.
+
+15 &#167; En verksamhet med innesluten anv&#228;ndning av genetiskt
+modifierade organismer f&#229;r bedrivas endast om anm&#228;lan har
+fullgjorts eller tillst&#229;nd har beviljats enligt best&#228;mmelserna
+i 16-29 &#167;&#167;.
+
+16 &#167; Anm&#228;lan skall g&#246;ras till den tillsynsmyndighet som &#228;r
+ansvarig p&#229; tillsynsomr&#229;det. Den myndigheten pr&#246;var ocks&#229;
+fr&#229;gor om tillst&#229;nd.
+
+17 &#167; En anm&#228;lan eller ans&#246;kan om tillst&#229;nd skall alltid
+inneh&#229;lla en sammanfattning av en s&#229;dan riskbed&#246;mning som avses
+i 7 &#167; samt en redog&#246;relse f&#246;r behovet av skydds&#229;tg&#228;rder enligt
+den bed&#246;mning som avses i 9 &#167;.
+
+Tillsynsmyndigheten f&#229;r inom sitt tillsynsomr&#229;de meddela
+ytterligare f&#246;reskrifter om vad en anm&#228;lan eller ans&#246;kan skall
+inneh&#229;lla.
+
+18 &#167; N&#228;r tillsynsmyndigheten har tagit emot en anm&#228;lan eller
+ans&#246;kan skall den pr&#246;va om
+
+1. de krav som f&#246;ljer av 17 &#167; &#228;r uppfyllda och om de uppgifter
+som l&#228;mnats kan godtas som riktiga och fullst&#228;ndiga,
+
+2. riskbed&#246;mningen kan anses riktig,
+
+3. de f&#246;reslagna skydds&#229;tg&#228;rderna &#228;r tillr&#228;ckliga.
+
+Tillsynsmyndigheten f&#229;r f&#246;rel&#228;gga anm&#228;laren eller s&#246;kanden att
+tillhandah&#229;lla de ytterligare uppgifter som beh&#246;vs f&#246;r
+pr&#246;vningen.
+
+19 &#167; N&#228;r tillsynsmyndigheten har f&#229;tt de uppgifter som beh&#246;vs
+f&#246;r att uppgifterna och bed&#246;mningarna skall kunna godtas som
+fullst&#228;ndiga och riktiga, skall myndigheten underr&#228;tta
+anm&#228;laren eller s&#246;kanden om att en fullst&#228;ndig anm&#228;lan eller
+ans&#246;kan har tagits emot.
+
+20 &#167; Om inneh&#229;llet i en anm&#228;lan f&#246;ranleder det eller om
+tillsynsmyndigheten f&#229;r k&#228;nnedom om omst&#228;ndigheter som kan ha
+p&#229;taglig betydelse f&#246;r riskerna med verksamheten, f&#229;r
+myndigheten besluta
+
+1. att s&#228;rskilda villkor skall g&#228;lla f&#246;r verksamheten,
+
+2. att verksamheten inte f&#229;r p&#229;b&#246;rjas eller bedrivas utan
+s&#228;rskilt tillst&#229;nd,
+
+3. att verksamheten endast f&#229;r bedrivas under en begr&#228;nsad tid,
+eller
+
+4. att verksamheten inte l&#228;ngre f&#229;r bedrivas.
+
+21 &#167; Om verksamheten &#228;ndras p&#229; ett s&#228;tt som kan ha p&#229;taglig
+betydelse f&#246;r riskerna med verksamheten, skall den som bedriver
+verksamheten snarast m&#246;jligt underr&#228;tta tillsynsmyndigheten.
+Underr&#228;ttelseskyldigheten g&#228;ller ocks&#229; om den som bedriver
+verksamheten f&#229;r k&#228;nnedom om omst&#228;ndigheter som kan ha en s&#229;dan
+betydelse.
+
+22 &#167; Om uppgifter som tidigare l&#228;mnats i en anm&#228;lan eller
+ans&#246;kan inte l&#228;ngre &#228;r riktiga eller har blivit inaktuella,
+skall den som bedriver verksamheten se till att den tidigare
+gjorda anm&#228;lan eller ans&#246;kan &#228;ndras eller uppdateras i
+relevanta delar. Denna skyldighet g&#228;ller ocks&#229; om verksamheten
+har upph&#246;rt.
+
+Tillsynsmyndigheten f&#229;r inom sitt tillsynsomr&#229;de meddela
+n&#228;rmare f&#246;reskrifter om &#228;ndring och uppdatering.
+
+S&#228;rskilda best&#228;mmelser om verksamheter med mikroorganismer
+
+23 &#167; Om tillsynsmyndigheten inte beslutar annat, f&#229;r en F-
+verksamhet eller L-verksamhet p&#229;b&#246;rjas tidigast 45 dagar efter
+det att en fullst&#228;ndig anm&#228;lan har gjorts enligt best&#228;mmelserna
+i 16-19 &#167;&#167;.
+
+24 &#167; Utan att en s&#228;rskild anm&#228;lan beh&#246;ver g&#246;ras, f&#229;r en ny
+anv&#228;ndning i en F-verksamhet bedrivas p&#229; en plats eller i en
+anl&#228;ggning som redan omfattas av en fullst&#228;ndig anm&#228;lan enligt
+16-19 &#167;&#167;. Best&#228;mmelserna i 21 och 22 &#167;&#167; om skyldighet att
+underr&#228;tta tillsynsmyndigheten samt att &#228;ndra och uppdatera den
+tidigare gjorda anm&#228;lan skall dock till&#228;mpas.
+
+25 &#167; En ny anv&#228;ndning i en L-verksamhet f&#229;r inte bedrivas utan
+att anv&#228;ndningen har anm&#228;lts enligt best&#228;mmelserna i 16-19 &#167;&#167;.
+
+Om tillsynsmyndigheten inte beslutar annat, f&#229;r den nya
+anv&#228;ndningen p&#229;b&#246;rjas omedelbart efter det att en fullst&#228;ndig
+anm&#228;lan har gjorts, om man avser att bedriva anv&#228;ndningen p&#229; en
+plats eller i en anl&#228;ggning som redan omfattas av en
+fullst&#228;ndig anm&#228;lan eller ett tillst&#229;nd f&#246;r en L-verksamhet
+eller R-verksamhet och de villkor som &#228;r f&#246;renade med den
+verksamheten har uppfyllts.
+
+26 &#167; En R-verksamhet eller en ny anv&#228;ndning i en R-verksamhet
+f&#229;r inte bedrivas utan tillsynsmyndighetens tillst&#229;nd.
+
+Om den nya anv&#228;ndningen avser en anv&#228;ndning enligt 25 &#167; andra
+stycket som bedrivs inom ramen f&#246;r ett tillst&#229;nd f&#246;r en R-
+verksamhet, r&#228;cker det att en anm&#228;lan g&#246;rs i enlighet med 25 &#167;
+f&#246;rsta stycket. F&#246;rordning (2011:125).
+
+27 &#167; Om tillsynsmyndigheten inte beslutar annat med st&#246;d av 20 &#167;,
+skall den skriftligen meddela sitt tillst&#229;nd
+
+1. senast 90 dagar efter det att en fullst&#228;ndig ans&#246;kan har
+tagits emot,
+
+2. senast 45 dagar efter det att en fullst&#228;ndig ans&#246;kan har
+tagits emot, om ans&#246;kan avser en ny anv&#228;ndning som avses att
+bedrivas p&#229; en plats eller i en anl&#228;ggning som redan omfattas
+av ett tillst&#229;nd f&#246;r en R-verksamhet och de villkor som &#228;r
+f&#246;renade med den verksamheten har uppfyllts.
+
+S&#228;rskilda best&#228;mmelser om verksamheter med andra organismer &#228;n
+mikroorganismer
+
+28 &#167; En anl&#228;ggning f&#246;r innesluten anv&#228;ndning av andra genetiskt
+modifierade organismer &#228;n mikroorganismer f&#229;r inte brukas f&#246;r
+s&#229;dan verksamhet utan tillsynsmyndighetens tillst&#229;nd.
+
+Tillst&#229;nd f&#229;r l&#228;mnas endast om anl&#228;ggningen &#228;r godtagbar fr&#229;n
+h&#228;lso- och milj&#246;skyddssynpunkt.
+
+Tillsynsmyndigheten skall meddela sitt beslut i
+tillst&#229;ndsfr&#229;gan senast 90 dagar efter det att en fullst&#228;ndig
+ans&#246;kan har gjorts.
+
+29 &#167; En verksamhet med innesluten anv&#228;ndning av andra genetiskt
+modifierade organismer &#228;n mikroorganismer f&#229;r bedrivas endast
+om verksamheten har anm&#228;lts enligt best&#228;mmelserna i 16-19 &#167;&#167;.
+Om tillsynsmyndigheten inom sitt tillsynsomr&#229;de inte
+f&#246;reskriver annat, g&#228;ller anm&#228;lningsskyldighet ocks&#229; f&#246;r varje
+ny anv&#228;ndning.
+
+Om tillsynsmyndigheten inte beslutar annat, f&#229;r verksamheten
+eller den nya anv&#228;ndningen p&#229;b&#246;rjas tidigast 45 dagar efter det
+att en fullst&#228;ndig anm&#228;lan har gjorts.
+
+Tillsynsmyndigheten f&#229;r i det enskilda fallet besluta om
+undantag fr&#229;n anm&#228;lningsskyldigheten, om anl&#228;ggningens
+konstruktion och omst&#228;ndigheterna i &#246;vrigt g&#246;r att skyddet f&#246;r
+m&#228;nniskors h&#228;lsa och milj&#246;n kan anses tillr&#228;ckligt
+tillgodosett.
+
+Beredskapsplaner
+
+30 &#167; Tillsynsmyndigheten f&#229;r inom sitt tillsynsomr&#229;de meddela
+f&#246;reskrifter om skyldighet f&#246;r den som bedriver verksamhet med
+innesluten anv&#228;ndning av genetiskt modifierade organismer att
+uppr&#228;tta en beredskapsplan f&#246;r verksamheten.
+
+31 &#167; Tillsynsmyndigheten ska se till att beredskapsplaner
+uppr&#228;ttas f&#246;r verksamheter med innesluten anv&#228;ndning av
+genetiskt modifierade mikroorganismer som, om
+inneslutnings&#229;tg&#228;rderna inte fungerar, kan medf&#246;ra omedelbar
+eller f&#246;rdr&#246;jd allvarlig fara f&#246;r m&#228;nniskor utanf&#246;r de
+anl&#228;ggningar d&#228;r verksamheterna bedrivs eller f&#246;r milj&#246;n.
+
+En beredskapsplan ska inneb&#228;ra att den som bedriver
+verksamheten ger information om planerade skydds&#229;tg&#228;rder.
+Informationen ska l&#228;mnas till ber&#246;rda myndigheter och andra som
+kan p&#229;verkas av en olycka. Den ska l&#228;mnas p&#229; l&#228;mpligt s&#228;tt och
+utan att mottagarna beh&#246;ver beg&#228;ra att den l&#228;mnas.
+Informationen ska h&#229;llas uppdaterad och vara tillg&#228;nglig f&#246;r
+allm&#228;nheten. F&#246;rordning (2008:52).
+
+32 &#167; Vid handl&#228;ggning av &#228;renden om beredskapsplaner och
+f&#246;reskrifter om s&#229;dana planer, ska tillsynsmyndigheterna
+samr&#229;da med Myndigheten f&#246;r samh&#228;llsskydd och beredskap.
+Tillsynsmyndigheterna ska underr&#228;tta Myndigheten f&#246;r
+samh&#228;llsskydd och beredskap om de beredskapsplaner som
+uppr&#228;ttas. F&#246;rordning (2008:1032).
+
+Olyckor m.m.
+
+
+33 &#167; I lagen (2003:778) om skydd mot olyckor finns best&#228;mmelser
+om skyldigheter vid farlig verksamhet m.m.
+
+Tillsynsmyndigheten f&#229;r inom sitt tillsynsomr&#229;de meddela
+ytterligare f&#246;reskrifter om skyldighet f&#246;r den som bedriver en
+verksamhet med innesluten anv&#228;ndning av genetiskt modifierade
+organismer att i h&#228;ndelse av olycka, olyckstillbud eller oh&#228;lsa
+som kan ha samband med anv&#228;ndningen av organismerna underr&#228;tta
+ber&#246;rda myndigheter. Vidare f&#229;r f&#246;reskrifter meddelas om
+skyldighet f&#246;r den som bedriver verksamheten att l&#228;mna den
+information som beh&#246;vs f&#246;r att n&#246;dv&#228;ndiga skydds&#229;tg&#228;rder skall
+kunna vidtas. F&#246;rordning (2003:799).
+
+34 &#167; Om det i en verksamhet med anv&#228;ndning av genetiskt
+modifierade organismer intr&#228;ffar en olycka ska
+tillsynsmyndigheten
+
+1. se till att n&#246;dv&#228;ndiga skydds&#229;tg&#228;rder vidtas,
+
+2. omedelbart varna de medlemsstater i Europeiska unionen som
+kan p&#229;verkas av olyckan,
+
+3. om m&#246;jligt samla in de uppgifter som &#228;r n&#246;dv&#228;ndiga f&#246;r en
+fullst&#228;ndig analys av olyckan, och
+
+4. utf&#228;rda de rekommendationer som beh&#246;vs f&#246;r att f&#246;rebygga
+liknande olyckor i framtiden och begr&#228;nsa s&#229;dana olyckors
+effekter.
+
+Om det finns en omedelbar allvarlig fara f&#246;r milj&#246;n eller f&#246;r
+m&#228;nniskor utanf&#246;r de anl&#228;ggningar d&#228;r verksamheterna bedrivs,
+ska tillsynsmyndigheten genast underr&#228;tta den kommunala
+organisationen f&#246;r r&#228;ddningstj&#228;nst och Myndigheten f&#246;r
+samh&#228;llsskydd och beredskap. F&#246;rordning (2008:1032).
+
+35 &#167; Arbetsmilj&#246;verket ska svara f&#246;r de samr&#229;d och
+underr&#228;ttelser som avses i artikel 15 i direktiv 2009/41/EG.
+F&#246;rordning (2011:125).
+
+Rapportering
+
+36 &#167; Arbetsmilj&#246;verket ska fullg&#246;ra den rapportering till
+Europeiska kommissionen som avses i artikel 17 i direktiv
+2009/41/EG. F&#246;rordning (2011:125).
+
+Gr&#228;ns&#246;verskridande f&#246;rflyttning av genetiskt modifierade
+organismer
+
+36 a &#167; Naturv&#229;rdsverket skall samordna det nationella arbetet
+med Sveriges deltagande i det internationella
+informationsf&#246;rfarandet enligt Europaparlamentets och r&#229;dets
+f&#246;rordning (EG) nr 1946/2003 av den 15 juli 2003 om
+gr&#228;ns&#246;verskridande f&#246;rflyttning av genetiskt modifierade
+organismer.
+
+Tillsynsmyndigheterna skall l&#228;mna uppgifter till
+Naturv&#229;rdsverket i enlighet med artikel 15.1 samma f&#246;rordning.
+Tillsynsmyndigheterna skall samr&#229;da med Naturv&#229;rdsverket om hur
+uppgifterna skall l&#228;mnas. F&#246;rordning (2006:1503).
+
+&#214;verklagande samt straff och f&#246;rverkande
+
+37 &#167; I 19 kap. 1 &#167; och 29 kap. milj&#246;balken finns best&#228;mmelser
+om &#246;verklagande samt om straff och f&#246;rverkande.
+
+Ikrafttr&#228;dande- och &#246;verg&#229;ngsbest&#228;mmelser
+
+2000:271
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 5 juni 2000. I fr&#229;ga om
+verksamheter med andra genetiskt modifierade organismer &#228;n
+mikroorganismer till&#228;mpas dock best&#228;mmelserna i 3-7, 9, 11-22,
+28-30 och 32-34 &#167;&#167; f&#246;rst fr&#229;n och med den 1 maj 2001.
+
+2. F&#246;ljande g&#228;ller f&#246;r en verksamhet med genetiskt modifierade
+mikroorganismer som har p&#229;b&#246;rjats f&#246;re den 5 juni 2000 och som
+&#228;r anm&#228;ld eller omfattas av tillst&#229;nd enligt f&#246;rordningen
+(1994:901) om genetiskt modifierade organismer. Verksamheten
+f&#229;r forts&#228;tta att bedrivas som om anm&#228;lan har fullgjorts eller
+tillst&#229;ndet har meddelats enligt denna f&#246;rordning. Ut&#246;ver vad
+som f&#246;ljer av 20 eller 21 &#167; denna f&#246;rordning, skall den som
+bedriver verksamheten se till att uppgifter om &#228;ndringar eller
+uppdateringar enligt 22 &#167; l&#228;mnas in till tillsynsmyndigheten
+senast den 30 september 2000. Tillsynsmyndigheten f&#229;r i det
+enskilda fallet besluta om en senare tidpunkt.
+
+3. F&#246;ljande g&#228;ller f&#246;r en verksamhet med genetiskt modifierade
+mikroorganismer som har p&#229;b&#246;rjats f&#246;re den 5 juni 2000 och som
+&#228;r anm&#228;lnings- eller tillst&#229;ndspliktig enligt denna f&#246;rordning
+men som inte har anm&#228;lts eller omfattas av tillst&#229;nd enligt
+f&#246;rordningen (1994:901) om genetiskt modifierade organismer.
+Den som bedriver verksamheten skall senast den 5 juni 2000
+underr&#228;tta tillsynsmyndigheten om att verksamheten bedrivs och
+l&#228;mna de upplysningar som tillsynsmyndigheten beg&#228;r f&#246;r att
+prelimin&#228;rt kunna bed&#246;ma om verksamheten &#228;r en F-verksamhet, L-
+verksamhet eller R-verksamhet. Om det &#228;r sannolikt att
+verksamheten &#228;r en F-verksamhet, f&#229;r den forts&#228;tta att bedrivas
+utan hinder av att anm&#228;lan inte fullgjorts enligt 16-19 &#167;&#167;
+denna f&#246;rordning. I &#246;vriga fall skall tillsynsmyndigheten
+besluta om de villkor p&#229; vilka verksamheten f&#229;r bedrivas trots
+att anm&#228;lan inte har fullgjorts eller tillst&#229;nd meddelats
+enligt denna f&#246;rordning. Verksamheten f&#229;r bedrivas i avvaktan
+p&#229; tillsynsmyndighetens beslut. Best&#228;mmelserna i 20-22 &#167;&#167; skall
+till&#228;mpas som om underr&#228;ttelsen vore en fullgjord anm&#228;lan. Om
+tillsynsmyndigheten inte beslutar annat, f&#229;r en verksamhet inte
+bedrivas med st&#246;d av denna &#246;verg&#229;ngsbest&#228;mmelse efter den 30
+september 2000. En verksamhet f&#229;r inte heller bedrivas med st&#246;d
+av denna &#246;verg&#229;ngsbest&#228;mmelse, om verksamheten f&#246;re den 5 juni
+2000 har bedrivits i strid mot best&#228;mmelserna om tillst&#229;ndskrav
+i f&#246;rordningen (1994:901) om genetiskt modifierade organismer.
+
+4. F&#246;ljande g&#228;ller f&#246;r en verksamhet med andra genetiskt
+modifierade organismer &#228;n mikroorganismer om verksamheten har
+p&#229;b&#246;rjats f&#246;re den 1 maj 2001. Verksamheten f&#229;r forts&#228;tta att
+bedrivas som om anm&#228;lan har fullgjorts eller tillst&#229;nd har
+meddelats enligt denna f&#246;rordning till dess att
+tillsynsmyndigheten beslutar annat. Detta g&#228;ller under
+f&#246;ruts&#228;ttning att anm&#228;lan enligt 29 &#167; l&#228;mnas till
+tillsynsmyndigheten senast den 1 juni 2001 och att ans&#246;kan om
+tillst&#229;nd enligt 28 &#167; l&#228;mnas till tillsynsmyndigheten senast
+den 1 september 2001. Tillsynsmyndigheten f&#229;r i det enskilda
+fallet besluta om en senare tidpunkt. F&#246;rordning (2001:19).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2710">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2712">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

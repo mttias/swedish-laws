@@ -1,0 +1,640 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2019-01-17" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3775</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3774">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3776">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1984:692 ·
+                    <a href="/sfsr?bet=1984:692">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1984:692) om det allm&#228;nna f&#246;retagsregistret</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet ESA
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1984-06-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Omtryck:</span> SFS 1986:549
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:1809
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1984-09-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Allm&#228;nna best&#228;mmelser
+
+1 &#167; Statistiska centralbyr&#229;n ska f&#246;ra ett allm&#228;nt 
+f&#246;retagsregister. Myndigheten &#228;r personuppgiftsansvarig f&#246;r 
+registret. F&#246;rordning (2018:358).
+
+1 a &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser som 
+kompletterar Europaparlamentets och r&#229;dets f&#246;rordning (EU) 
+2016/679 av den 27 april 2016 om skydd f&#246;r fysiska personer 
+med avseende p&#229; behandling av personuppgifter och om det fria 
+fl&#246;det av s&#229;dana uppgifter och om upph&#228;vande av direktiv 
+95/46/EG (allm&#228;n dataskyddsf&#246;rordning), h&#228;r ben&#228;mnd EU:s 
+dataskyddsf&#246;rordning.
+
+Vid behandling av personuppgifter enligt denna f&#246;rordning 
+g&#228;ller lagen (2018:218) med kompletterande best&#228;mmelser till 
+EU:s dataskyddsf&#246;rordning och f&#246;reskrifter som har meddelats 
+i anslutning till den lagen, om inte annat f&#246;ljer av denna 
+f&#246;rordning. F&#246;rordning (2018:358).
+
+2 &#167; Registret skall omfatta uppgifter om
+
+1. dem som har tilldelats organisationsnummer enligt lagen
+(1974:174) om identitetsbeteckning f&#246;r juridiska personer
+m.fl., med undantag f&#246;r d&#246;dsbon,
+
+2. enskilda n&#228;ringsidkare som har f&#246;rts in i ett
+handelsregister,
+
+3. fysiska personer och d&#246;dsbon som regelbundet bedriver
+n&#228;ringsverksamhet eller som regelbundet har n&#229;gon anst&#228;lld,
+
+4. n&#228;ringsidkare som avses i 1, 2 eller 3 och som driver
+jordbruk, skogsbruk, tr&#228;dg&#229;rdsodling eller som h&#229;ller djur,
+
+5. den som &#228;ger mark d&#228;r n&#229;gon annan driver verksamhet som
+avses i 4. F&#246;rordning (2001:103).
+
+3 &#167; I 2 &#167; 3 avses s&#229;dana fysiska personer eller d&#246;dsbon
+
+1. som hos Skatteverket har registrerats f&#246;r merv&#228;rdesskatt
+enligt 7 kap. 1 &#167; skattef&#246;rfarandelagen (2011:1244),
+
+2. som enligt 10 kap. 2 &#167; skattef&#246;rfarandelagen ska g&#246;ra
+skatteavdrag, dock inte
+
+– s&#229;dana enskilda arbetsgivare eller d&#246;dsbon som bara har
+arbetstagare som &#228;r anst&#228;llda f&#246;r arbete i arbetsgivarens
+eller d&#246;dsboets hush&#229;ll
+
+– enskilda arbetsgivare som i beskattningsdatabasen enligt
+lagen (2001:181) om behandling av uppgifter i Skatteverkets
+beskattningsverksamhet har antecknats som tillf&#228;lliga
+arbetsgivare eller som annars inte bedriver n&#229;gon
+n&#228;ringsverksamhet,
+
+3. som efter beslut om debitering av prelimin&#228;r skatt enligt
+55 kap. 2 &#167; skattef&#246;rfarandelagen ska betala F-skatt eller
+s&#228;rskild A-skatt f&#246;r inkomst av n&#228;ringsverksamhet enligt
+inkomstskattelagen (1999:1229). F&#246;rordning (2011:1443).
+
+4 &#167; Uppgifterna i det allm&#228;nna f&#246;retagsregistret skall anv&#228;ndas av
+registerf&#246;raren f&#246;r att
+
+-- avisera andra register om &#228;ndringar av uppgifterna i registret
+(&#228;ndringsavisering)
+
+-- g&#246;ra urval av uppgifter ur registret (urvalsdragning)
+
+Uppgifterna i registret skall dessutom kunna utnyttjas av andra f&#246;r att
+
+-- komplettera och kontrollera uppgifter i andra register
+
+-- komplettera och kontrollera uppgifter i &#246;vrigt om de fysiska och
+juridiska personer som omfattas av registret
+
+5 &#167; Registret f&#229;r anv&#228;ndas av myndigheter och enskilda.
+
+Registeruppgifter
+
+6 &#167; Registret ska inneh&#229;lla f&#246;ljande uppgifter: 
+
+– organisations- eller personnummer 
+
+– f&#246;retagsnamn 
+
+– fysisk persons namn 
+
+– juridisk form enligt Skatteverkets register &#246;ver tilldelade 
+organisationsnummer enligt 5 &#167; lagen (1974:174) om 
+identitetsbeteckning f&#246;r juridiska personer m.fl.
+
+– l&#228;n och kommun d&#228;r styrelsen har sitt s&#228;te eller – i fr&#229;ga 
+om handelsbolag och enskild n&#228;ringsidkare – d&#228;r bolagets 
+huvudkontor &#228;r bel&#228;get eller n&#228;ringsidkaren &#228;r folkbokf&#246;rd 
+
+– postadress 
+
+– huvudn&#228;ringsgren enligt svensk standard f&#246;r 
+n&#228;ringsgrensindelning (SNI) 
+
+– antal anst&#228;llda (storleksklass)
+
+– arbetsst&#228;llen 
+
+– arbetsst&#228;llenummer f&#246;r de arbetsgivare som av Statistiska 
+centralbyr&#229;n har tilldelats s&#229;dana nummer enligt lagen 
+(1984:533) om arbetsst&#228;llenummer m.m.
+
+– uppgift (statusmarkering) huruvida f&#246;retaget &#228;r aktivt, 
+vilande eller avregistrerat 
+
+– uppgift om att en fysisk eller juridisk person inte &#246;nskar 
+adresserad direktreklam. F&#246;rordning (2018:1809).
+
+6 a &#167; F&#246;r s&#229;dana n&#228;ringsidkare som anges i 2 &#167; 4 skall det i
+registret ocks&#229; f&#246;ras in uppgifter om
+
+- fastighetsbeteckning betr&#228;ffande fastighet d&#228;r verksamheten
+bedrivs,
+
+- &#228;gar- eller arrendef&#246;rh&#229;llanden betr&#228;ffande fastighet d&#228;r
+verksamheten bedrivs,
+
+- f&#246;retagets huvudsakliga inriktning, och
+
+- f&#246;retagets storlek.
+F&#246;rordning (2001:103).
+
+7 &#167; I registret f&#229;r det ocks&#229; f&#246;ras in uppgifter om 
+
+– bes&#246;ksadress 
+
+– telefonnummer 
+
+– faxnummer 
+
+– e-post 
+
+– s&#228;rskilt f&#246;retagsnamn eller f&#246;retagsnamn i dess lydelse p&#229; 
+fr&#228;mmande spr&#229;k 
+
+– &#246;vriga n&#228;ringsgrenar (bin&#228;ringar) 
+
+– export- och importstorlek samt export- och importland 
+(klass) 
+
+– utl&#228;ndskt &#228;gande och land 
+
+– &#228;garkontroll 
+
+– statuskod och sektorskod 
+
+– oms&#228;ttningsklasser 
+
+– k&#246;nskvot. 
+
+F&#246;r uppgift om arbetsst&#228;lle enligt 6 &#167; f&#229;r det ocks&#229; anges om 
+arbetsst&#228;llet &#228;r huvudarbetsst&#228;lle. 
+
+Tidpunkten f&#246;r den senaste &#228;ndringen av det register fr&#229;n 
+vilket uppgifterna har h&#228;mtats f&#229;r ocks&#229; anges i det allm&#228;nna 
+f&#246;retagsregistret. F&#246;rordning (2018:1809).
+
+8 &#167; F&#246;r varje arbetsst&#228;lle som har registrerats enligt 6 &#167; skall anges
+
+-- arbetsst&#228;llenummer
+
+-- arbetsst&#228;lleben&#228;mning
+
+-- postadress
+
+-- verksamhetsadress
+
+-- huvudn&#228;ringsgren
+
+-- antal anst&#228;llda (storleksklass)
+
+-- uppgift (statusmarkering) huruvida arbetsst&#228;llet &#228;r nystartat,
+&#246;vertaget eller nedlagt
+
+9 &#167; I registret f&#229;r ocks&#229; f&#246;r varje arbetsst&#228;lle f&#246;ras in uppgifter om
+
+-- telefonnummer
+
+-- beteckning p&#229; den fastighet d&#228;r arbetsst&#228;llet &#228;r bel&#228;get
+
+-- &#246;vriga n&#228;ringsgrenar (bin&#228;ringar)
+
+-- hj&#228;lparbetsst&#228;lle
+
+-- statistiskt sambandsnummer f&#246;r arbetsst&#228;lle
+
+-- uppgifter som avses i 7 &#167; andra stycket
+
+Inh&#228;mtande av uppgifter
+
+10 &#167; F&#246;r det allm&#228;nna f&#246;retagsregistret ska det p&#229; 
+beg&#228;ran l&#228;mnas uppgifter till Statistiska centralbyr&#229;n fr&#229;n 
+nedan angivna register enligt f&#246;ljande: 
+
+1. Beskattningsdatabasen enligt lagen (2001:181) om 
+behandling av uppgifter i Skatteverkets 
+beskattningsverksamhet 
+
+– organisations- eller personnummer 
+
+– fysisk persons namn 
+
+– f&#246;retagsnamn samt markering om det finns flera f&#246;retagsnamn 
+ 
+– juridisk form 
+
+– l&#228;n och kommun d&#228;r styrelsen har sitt s&#228;te eller – i fr&#229;ga 
+om handelsbolag och enskild n&#228;ringsidkare – d&#228;r bolagets 
+huvudkontor &#228;r bel&#228;get eller n&#228;ringsidkaren &#228;r folkbokf&#246;rd 
+
+– postadress 
+
+– antal anst&#228;llda hos den som har nyregistrerats i 
+beskattningsdatabasen 
+
+– bes&#246;ksadress 
+
+– markering om den registrerade driver sin verksamhet p&#229; 
+flera arbetsst&#228;llen 
+
+– bin&#228;ringar inklusive till&#228;ggsnummer och 
+verksamhetsben&#228;mning, om s&#229;dan finns, i fr&#229;ga om den som har 
+registrerats som redovisningsskyldig f&#246;r merv&#228;rdesskatt 
+
+– huvudn&#228;ringsgren 
+
+– tidigare organisations- eller personnummer (vid ombildning 
+och vissa &#246;verl&#229;telser) 
+
+– statusmarkeringar 
+
+– tidpunkt f&#246;r registrering av uppgifterna 
+
+2. Bolagsverkets aktiebolagsregister
+
+– aktiebolags s&#228;rskilda f&#246;retagsnamn eller f&#246;retagsnamn i 
+dess lydelse p&#229; fr&#228;mmande spr&#229;k 
+
+3. Bolagsverkets europabolagsregister 
+
+– europabolags s&#228;rskilda f&#246;retagsnamn eller f&#246;retagsnamn i 
+dess lydelse p&#229; fr&#228;mmande spr&#229;k 
+
+4. Bolagsverkets europakooperativsregister 
+
+– europakooperativs s&#228;rskilda f&#246;retagsnamn eller f&#246;retagsnamn 
+i dess lydelse p&#229; fr&#228;mmande spr&#229;k 
+
+5. Bolagsverkets handelsregister 
+
+– enskild n&#228;ringsidkares eller handelsbolags s&#228;rskilda 
+f&#246;retagsnamn eller f&#246;retagsnamn i dess lydelse p&#229; fr&#228;mmande 
+spr&#229;k 
+
+6. Lantbruksregistret vid Jordbruksverket 
+
+– uppgifter som ska registreras om den som driver jordbruk, 
+skogsbruk, tr&#228;dg&#229;rdsodling eller som h&#229;ller djur.
+F&#246;rordning (2018:1809).
+
+11 &#167; Myndigheter som l&#228;mnar uppgifter f&#246;r registret skall i f&#246;rv&#228;g
+underr&#228;tta statistiska centralbyr&#229;n om s&#229;dana organisatoriska eller
+andra f&#246;r&#228;ndringar som har betydelse f&#246;r databehandlingen av registret.
+
+12 &#167; Uppgifterna enligt 10 &#167; f&#229;r l&#228;mnas till statistiska centralbyr&#229;n p&#229;
+medium f&#246;r automatisk databehandling.
+
+13 &#167; &#214;vriga uppgifter som enligt 6 och 7 &#167;&#167; skall f&#246;ras in i registret
+h&#228;mtas fr&#229;n Statistiska centralbyr&#229;ns f&#246;retagsdatabas p&#229; medium f&#246;r
+utomatiserad behandling eller p&#229; n&#229;got annat l&#228;mpligt s&#228;tt. (2001:103).
+
+14 &#167; har upph&#228;vts genom f&#246;rordning (1993:1733).
+
+Utl&#228;mnande av uppgifter
+
+15 &#167; F&#246;reskrifterna i denna f&#246;rordning inskr&#228;nker inte 
+myndigheternas skyldigheter enligt reglerna om allm&#228;nna 
+handlingars offentlighet i tryckfrihetsf&#246;rordningen eller 
+enligt best&#228;mmelserna i offentlighets- och sekretesslagen 
+(2009:400). F&#246;rordning (2018:358).
+
+16 &#167; S&#229;dant utl&#228;mnande av uppgifter fr&#229;n det allm&#228;nna 
+f&#246;retagsregistret som inte grundas p&#229; myndighetens 
+skyldigheter enligt EU:s dataskyddsf&#246;rordning, 
+tryckfrihetsf&#246;rordningen eller offentlighets- och 
+sekretesslagen (2009:400) sker mot avgift.
+
+Utl&#228;mnande enligt f&#246;rsta stycket sker i form av utskrift, p&#229; 
+medium f&#246;r automatisk databehandling eller genom att en eller 
+flera terminaler eller datorer ansluts till registret. 
+F&#246;rordning (2018:358).
+
+17 &#167; har upph&#228;vts genom f&#246;rordning (1986:549).
+
+18 &#167; har upph&#228;vts genom f&#246;rordning (1986:549).
+
+19 &#167; har upph&#228;vts genom f&#246;rordning (1986:549).
+
+20 &#167; Inneh&#229;ller registret uppgifter om att en fysisk eller juridisk
+person inte &#246;nskar n&#229;gon adresserad direktreklam, f&#229;r uppgifter om den
+personens adress inte l&#228;mnas ut till n&#229;gon som avser att anv&#228;nda
+adressen f&#246;r s&#229;dan reklam.
+
+21 &#167; S&#228;rskilda villkor om anv&#228;ndningen av uppgifterna i registret
+best&#228;ms i avtal.
+
+Statistiska centralbyr&#229;n f&#229;r l&#228;mna ut kopior p&#229; registret till
+servicebyr&#229;er och andra f&#246;retag. Villkoren f&#246;r detta best&#228;ms genom avtal
+mellan parterna. F&#246;rordning (1986:549).
+
+22 &#167; Den som hos Skatteverket beg&#228;r att f&#229; uppgifter ur
+beskattningsdatabasen f&#246;r ett s&#229;dant &#228;ndam&#229;l som avses i 4 &#167; och
+som lika v&#228;l kan tillgodoses genom det allm&#228;nna f&#246;retagsregistret
+skall h&#228;nvisas till detta register. F&#246;rordning (2003:937).
+
+Gallring och arkivering
+
+23 &#167; Om en uppgift i registret inte l&#228;ngre beh&#246;vs f&#246;r att tillgodose
+registrets &#228;ndam&#229;l, skall uppgiften tas bort ur registret.
+
+24 &#167; Statistiska centralbyr&#229;n skall &#229;rligen l&#228;mna riksarkivet en
+registerkopia som visar inneh&#229;llet i registret vid &#229;rets utg&#229;ng.
+
+Avgifter
+
+25 &#167; Statistiska centralbyr&#229;ns verksamhet med registret finansieras
+genom avgifter, som fastst&#228;lls av centralbyr&#229;n. F&#246;rordning (1991:1828).
+
+26 &#167; har upph&#228;vts genom f&#246;rordning (1986:549).
+
+27 &#167; F&#246;r de uppgifter som enligt 10 &#167; skall l&#228;mnas f&#246;r registret betalar
+statistiska centralbyr&#229;n avgifter, som best&#228;ms i avtal mellan
+centralbyr&#229;n och ber&#246;rda myndigheter.
+
+28 &#167; har upph&#228;vts genom f&#246;rordning (1986:549).
+
+Avslutande best&#228;mmelser
+
+29 &#167; Den som i tj&#228;nsten har tagit befattning med uppgifter som
+har l&#228;mnats fr&#229;n registret och som misst&#228;nker att uppgifterna
+&#228;r oriktiga skall genast anm&#228;la detta till Statistiska
+centralbyr&#229;n. F&#246;rordning (1999:38).
+
+30 &#167; har upph&#228;vts genom f&#246;rordning (1986:549).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1992:1458
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1993. &#196;ldre best&#228;mmelser i
+3 &#167; g&#228;ller dock i fr&#229;ga om prelimin&#228;r skatt som avser tid f&#246;re den 1
+april 1993.
+
+Om en l&#228;nsstyrelses handelsregister inte &#246;verf&#246;rts till Patent- och
+registreringsverket enligt f&#246;rordningen (1992:1454) om f&#246;rande av
+handels- och f&#246;reningsregister hos Patent- och registreringsverket
+g&#228;ller 6 och 10 &#167;&#167;  i sin &#228;ldre lydelse fram till den tidpunkt d&#229; s&#229;dan
+&#246;verf&#246;ring sker.
+
+1994:226
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1994. Den &#228;ldre lydelsen
+av 3 &#167; g&#228;ller dock fortfarande i fr&#229;ga om merv&#228;rdesskatt som
+bel&#246;per p&#229; tid f&#246;re ikrafttr&#228;dandet.
+
+1997:1076
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1998. &#196;ldre
+f&#246;reskrifter i 3 &#167; till&#228;mpas fortfarande i fr&#229;ga om
+merv&#228;rdesskatt och skatteavdrag som h&#228;nf&#246;r sig till tid f&#246;re
+ikrafttr&#228;dandet.
+
+2011:1443
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2012.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r f&#246;rh&#229;llanden som
+h&#228;nf&#246;r sig till tiden f&#246;re ikrafttr&#228;dandet.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3774">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3776">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,592 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2002-07-19" /> 
+ <meta id="rattsinfo-edited" content="2020-06-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2552</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2551">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2553">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2002:687 ·
+                    <a href="/sfsr?bet=2002:687">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2002:687) om l&#228;kemedelsf&#246;rm&#229;ner m.m.
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2002-07-04
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:1191
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2002-10-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelse
+
+1 &#167; I denna f&#246;rordning finns f&#246;reskrifter som ansluter till 
+lagen (2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. De termer och 
+begrepp som anv&#228;nds i lagen har samma betydelse i denna 
+f&#246;rordning.
+
+Det som s&#228;gs om regioner i denna f&#246;rordning g&#228;ller &#228;ven 
+kommuner som inte ing&#229;r i en region. F&#246;rordning (2019:1042).
+
+Inskr&#228;nkningar i l&#228;kemedelsf&#246;rm&#229;nerna
+
+2 &#167; L&#228;kemedelsf&#246;rm&#229;ner enligt 5 &#167; lagen (2002:160) om
+l&#228;kemedelsf&#246;rm&#229;ner m.m. och kostnadsfrihet enligt 19 &#167; samma
+lag f&#229;r inte avse st&#246;rre m&#228;ngd l&#228;kemedel eller andra varor &#228;n
+som motsvarar det ber&#228;knade behovet f&#246;r 90 dagar eller, om
+l&#228;mplig f&#246;rpackningsstorlek f&#246;r 90 dagar saknas, n&#228;rmast st&#246;rre
+f&#246;rpackning. Detta g&#228;ller dock inte varor som avses i 18 &#167; 1
+n&#228;mnda lag.
+
+Ett l&#228;kemedel eller en annan vara som har f&#246;rskrivits f&#229;r inte
+f&#246;rskrivas p&#229; nytt s&#229; l&#228;nge f&#246;rskrivningen fortfarande &#228;r
+giltig, om syftet enbart &#228;r att f&#229; l&#228;kemedlet eller varan
+utl&#228;mnat p&#229; f&#246;rm&#229;nligare villkor.
+
+Om det finns s&#228;rskilda sk&#228;l f&#229;r dock l&#228;kemedelsf&#246;rm&#229;nen avse en
+st&#246;rre m&#228;ngd l&#228;kemedel och andra varor &#228;n vad som s&#228;gs i f&#246;rsta
+stycket. F&#246;rordning (2006:1118).
+
+3 &#167; En ny ett&#229;rsperiod enligt 5 &#167; lagen (2002:160) om
+l&#228;kemedelsf&#246;rm&#229;ner m.m. kan inte p&#229;b&#246;rjas f&#246;rr&#228;n f&#246;reg&#229;ende
+ett&#229;rsperiod har g&#229;tt till &#228;nda, om inget annat f&#246;ljer av 3 a &#167;
+denna f&#246;rordning. F&#246;rordning (2006:1118).
+
+3 a &#167; Om den m&#228;ngd l&#228;kemedel eller andra varor som expedieras
+avser en st&#246;rre m&#228;ngd &#228;n vad som s&#228;gs i 2 &#167; f&#246;rsta stycket,
+skall de l&#228;kemedel och andra varor som &#228;r avsedda att
+tillgodose tid efter det att den ett&#229;rsperiod som avses i 5 &#167;
+andra stycket lagen (2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m.
+ber&#228;knas ha l&#246;pt ut, omfattas av en kostnadsreducering.
+Kostnadsreduceringen skall ber&#228;knas p&#229; en ny s&#229;dan
+ett&#229;rsperiod, r&#228;knad fr&#229;n den f&#246;rsta dagen efter att f&#246;reg&#229;ende
+ett&#229;rsperiod ber&#228;knas ha l&#246;pt ut. F&#246;rordning (2006:1118).
+
+Arbetsplatskod
+
+4 &#167; Alla som har en arbetsplats och &#228;r beh&#246;riga att f&#246;rskriva 
+l&#228;kemedel eller s&#229;dana varor som avses i 18 &#167; 2 och 3 lagen 
+(2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. har r&#228;tt att f&#229; en 
+arbetsplatskod.
+
+Regionen f&#229;r i &#246;vrigt besluta om utformning och f&#246;rdelning av 
+arbetsplatskod f&#246;r den som har sin arbetsplats inom regionens 
+omr&#229;de.
+
+Om regionen finner att den s&#246;kande inte har r&#228;tt till 
+arbetsplatskod ska &#228;rendet &#246;verl&#228;mnas till Socialstyrelsen f&#246;r 
+pr&#246;vning.
+
+En arbetsplatskod g&#228;ller endast s&#229; l&#228;nge f&#246;ruts&#228;ttningarna i 
+f&#246;rsta stycket &#228;r uppfyllda. F&#246;rordning (2019:1042).
+
+Fastst&#228;llande av ink&#246;ps- och f&#246;rs&#228;ljningspris
+
+4 a &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket f&#229;r meddela
+f&#246;reskrifter om hur ink&#246;pspris och f&#246;rs&#228;ljningspris enligt
+7 &#167; lagen (2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. ska
+fastst&#228;llas. F&#246;rordning (2009:633).
+
+4 b &#167;Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket f&#229;r meddela
+f&#246;reskrifter om f&#246;ruts&#228;ttningar f&#246;r &#228;ndring av ink&#246;pspris och
+f&#246;rs&#228;ljningspris f&#246;r ett l&#228;kemedel som ing&#229;r i
+l&#228;kemedelsf&#246;rm&#229;nerna om det
+
+1. har g&#229;tt 15 &#229;r efter det att l&#228;kemedlet godk&#228;nts f&#246;r
+f&#246;rs&#228;ljning, eller
+
+2. finns l&#228;kemedel som &#228;r utbytbara mot l&#228;kemedlet och som
+marknadsf&#246;rs till &#246;ppenv&#229;rdsapotek i Sverige.
+F&#246;rordning (2014:466).
+
+4 c &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket f&#229;r meddela 
+f&#246;reskrifter om
+
+1. vem som f&#229;r ans&#246;ka om att ett l&#228;kemedel ska f&#229; ing&#229; i 
+l&#228;kemedelsf&#246;rm&#229;nerna i fr&#229;ga om s&#229;dana l&#228;kemedel som f&#229;r 
+s&#228;ljas enligt 4 kap. 10 &#167; eller 5 kap. 1 &#167; andra stycket 
+l&#228;kemedelslagen (2015:315), och
+
+2. villkoren f&#246;r att ett l&#228;kemedel som avses i 16 &#167; f&#246;rsta 
+stycket lagen (2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. eller 16 
+a &#167; f&#246;rsta stycket samma lag ska f&#229; ing&#229; i 
+l&#228;kemedelsf&#246;rm&#229;nerna och om ink&#246;pspris, f&#246;rs&#228;ljningspris och 
+&#228;ndring av ett tidigare fastst&#228;llt ink&#246;pspris och 
+f&#246;rs&#228;ljningspris f&#246;r l&#228;kemedlet. F&#246;rordning (2018:490).
+
+Receptfria l&#228;kemedel
+
+5 &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket f&#229;r meddela
+f&#246;reskrifter om f&#246;ruts&#228;ttningarna f&#246;r att ett visst receptfritt
+l&#228;kemedel eller en viss grupp av s&#229;dana l&#228;kemedel ska ing&#229; i
+l&#228;kemedelsf&#246;rm&#229;nerna. F&#246;rordning (2008:656).
+
+Andra varor &#228;n l&#228;kemedel
+
+6 &#167; Den neds&#228;ttning av priset p&#229; vissa livsmedel som f&#246;reskrivs
+i 20 &#167; lagen (2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. g&#228;ller n&#228;r
+ett barn lider av n&#229;gon av de sjukdomar som anges i bilagan
+till denna f&#246;rordning.
+
+L&#228;kemedelsverket skall uppr&#228;tta en f&#246;rteckning &#246;ver de
+livsmedel som omfattas av prisneds&#228;ttningen. Verket skall ocks&#229;
+ange vilken specialistkompetens som skall kr&#228;vas f&#246;r att l&#228;kare
+skall vara beh&#246;riga att f&#246;rskriva s&#229;dana livsmedel.
+
+7 &#167; En s&#229;dan f&#246;rskrivning av livsmedel som avses i 20 &#167; lagen
+(2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m., skall g&#246;ras p&#229;
+livsmedelsanvisning.
+
+P&#229; livsmedelsanvisningen skall det anges hur m&#229;nga g&#229;nger
+f&#246;rskrivningen f&#229;r expedieras. F&#246;rskrivningen f&#229;r f&#246;r varje
+expedition avse h&#246;gst den m&#228;ngd livsmedel som motsvarar det
+ber&#228;knade behovet f&#246;r 90 dagar.
+
+8 &#167; En f&#246;rskrivning av f&#246;rbrukningsartiklar som avses i 18 &#167; 
+2 och 3 lagen (2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. samt i 
+8 kap. 9 &#167; och 12 kap. 6 &#167; h&#228;lso- och sjukv&#229;rdslagen (2017:30) 
+ska g&#246;ras p&#229; ett hj&#228;lpmedelskort.
+
+P&#229; hj&#228;lpmedelskortet ska det anges en s&#229;dan arbetsplatskod 
+som avses i 4 &#167;. Det ska ocks&#229; anges hur m&#229;nga g&#229;nger 
+f&#246;rskrivningen f&#229;r expedieras. F&#246;rordning (2017:90).
+
+Handl&#228;ggning m.m.
+
+9 &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket ska meddela beslut
+inom 180 dagar fr&#229;n det att en fullst&#228;ndig ans&#246;kan om att ett
+l&#228;kemedel eller en vara ska ing&#229; i l&#228;kemedelsf&#246;rm&#229;nerna kom in
+till myndigheten.
+
+Ett beslut om h&#246;jning av ett tidigare fastst&#228;llt
+f&#246;rs&#228;ljningspris ska meddelas inom 90 dagar fr&#229;n det att
+ans&#246;kan kom in till myndigheten. Om de uppgifter som l&#228;mnats
+till st&#246;d f&#246;r ans&#246;kan &#228;r otillr&#228;ckliga, ska myndigheten snarast
+underr&#228;tta s&#246;kanden om vilka ytterligare uppgifter som kr&#228;vs
+och fatta sitt beslut inom 90 dagar efter att dessa
+kompletterande uppgifter tagits emot. Om antalet ans&#246;kningar &#228;r
+mycket stort, kan tidsfristen f&#246;rl&#228;ngas endast en g&#229;ng med
+ytterligare 60 dagar. S&#246;kanden ska informeras om en s&#229;dan
+f&#246;rl&#228;ngning innan fristen l&#246;pt ut.
+
+Om inget beslut meddelas inom den tid eller de tider som anges
+i andra stycket har s&#246;kanden r&#228;tt att verkst&#228;lla den beg&#228;rda
+prish&#246;jningen fullt ut.
+
+Ett beslut om s&#228;nkning av ett tidigare fastst&#228;llt
+f&#246;rs&#228;ljningspris ska meddelas s&#229; snart det &#228;r m&#246;jligt.
+F&#246;rordning (2008:656).
+
+10 &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket ska offentligg&#246;ra
+en f&#246;rteckning &#246;ver de l&#228;kemedel som ing&#229;r i
+l&#228;kemedelsf&#246;rm&#229;nerna samt uppgifter om vilka priser som f&#229;r tas
+ut f&#246;r dessa produkter. Denna f&#246;rteckning och dessa uppgifter
+ska minst en g&#229;ng per &#229;r &#246;verl&#228;mnas till Europeiska
+kommissionen. F&#246;rordning (2010:1381).
+
+Giltighet av recept m.m.
+
+11 &#167; En f&#246;rskrivning p&#229; recept &#228;r giltig ett &#229;r fr&#229;n 
+utf&#228;rdandet om inte f&#246;rskrivaren anger kortare giltighetstid. 
+Det ska framg&#229; av f&#246;rskrivningen hur m&#229;nga g&#229;nger den f&#229;r 
+expedieras.
+
+F&#246;rskrivningar som avses i 7 och 8 &#167;&#167; &#228;r giltiga ett &#229;r fr&#229;n 
+utf&#228;rdandet.
+
+Vid varje expedition ska &#246;ppenv&#229;rdsapotekets namn och dagen 
+f&#246;r expeditionen anges p&#229; f&#246;rskrivningen. F&#246;r att varorna ska 
+omfattas av l&#228;kemedelsf&#246;rm&#229;ner enligt 5 &#167; lagen (2002:160) om 
+l&#228;kemedelsf&#246;rm&#229;ner m.m. eller kostnadsfrihet enligt 19 &#167; 
+samma lag f&#229;r f&#246;rskrivningen expedieras p&#229; nytt f&#246;rst d&#229; 
+minst tv&#229; tredjedelar av den tid f&#246;rflutit som den tidigare 
+expedierade m&#228;ngden l&#228;kemedel eller andra varor &#228;r avsedd att 
+tillgodose. F&#246;rskrivningen f&#229;r dock expedieras dessf&#246;rinnan 
+om det finns s&#228;rskilda sk&#228;l till detta.
+
+Vid expedition av en f&#246;rskrivning ska en verifikation 
+uppr&#228;ttas &#246;ver utl&#228;mnandet. Verifikationen ska inneh&#229;lla 
+uppgifter om vad som har f&#246;rskrivits och l&#228;mnats ut. 
+&#214;ppenv&#229;rdsapoteket f&#229;r beh&#229;lla f&#246;rskrivningen. F&#246;rskrivningen 
+eller en kopia av denna utg&#246;r &#246;ppenv&#229;rdsapotekets 
+verifikation. F&#246;rordning (2016:343).
+
+Utbyte av l&#228;kemedel
+
+12 &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket f&#229;r meddela 
+f&#246;reskrifter om utbyte mot l&#228;kemedel som omfattas av 
+f&#246;rm&#229;nsbegr&#228;nsningar och utbyte av l&#228;kemedel i &#246;vrigt.
+
+S&#229;dana f&#246;reskrifter f&#229;r dock inte avse i vilka fall som en 
+farmaceut f&#229;r mots&#228;tta sig utbyte enligt 21 &#167; tredje stycket 
+2, 21 a &#167; andra stycket 2 och 21 b &#167; andra stycket 2 lagen 
+(2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. 
+
+L&#228;kemedelsverket f&#229;r, efter att ha gett Tandv&#229;rds- och 
+l&#228;kemedelsf&#246;rm&#229;nsverket tillf&#228;lle att yttra sig, meddela 
+f&#246;reskrifter som avses i andra stycket.
+F&#246;rordning (2019:1191).
+
+Sanktionsavgifter
+
+12 a &#167; Den sanktionsavgift som f&#229;r tas ut enligt 25 a &#167; lagen
+(2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. ska best&#228;mmas till
+l&#228;gst femtusen kronor och h&#246;gst tio miljoner kronor.
+F&#246;rordning (2014:466).
+
+Utl&#228;mnande fr&#229;n &#246;ppenv&#229;rdsapotek
+
+13 &#167; L&#228;kemedel och andra varor som omfattas av lagen 
+(2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. f&#229;r i br&#229;dskande fall 
+l&#228;mnas ut trots att f&#246;rskrivningen inte har gjorts p&#229; 
+f&#246;reskriven blankett. I s&#229;dant fall ska den som f&#246;rskriver 
+intyga att det &#228;r ett br&#229;dskande fall samt l&#228;mna de uppgifter 
+som skulle ha l&#228;mnats, om den f&#246;reskrivna blanketten hade 
+anv&#228;nts. 
+
+En f&#246;rskrivning som avses i denna paragraf f&#229;r expedieras 
+endast en g&#229;ng. &#214;ppenv&#229;rdsapoteket ska beh&#229;lla handlingen som 
+sin verifikation eller dokumentera uppgifterna och beh&#229;lla 
+dessa som sin verifikation. F&#246;rordning (2015:974).
+
+14 &#167; Vid expedition av en f&#246;rskrivning som beh&#229;lls av
+&#246;ppenv&#229;rdsapoteket ska, om kunden beg&#228;r det,
+&#246;ppenv&#229;rdsapoteket l&#228;mna denne en kopia av handlingen. P&#229;
+denna handling ska anges att den inte g&#228;ller f&#246;r expedition.
+F&#246;rordning (2009:633).
+
+15 &#167; Vid varje expeditionstillf&#228;lle ska &#246;ppenv&#229;rdsapoteket
+tillhandah&#229;lla ett s&#228;rskilt kvitto p&#229; det belopp som kunden
+betalat f&#246;r varor som omfattas av l&#228;kemedelsf&#246;rm&#229;nerna.
+&#214;ppenv&#229;rdsapoteket ska vidta &#228;ven de &#246;vriga &#229;tg&#228;rder som
+beh&#246;vs f&#246;r att kunden ska f&#229; l&#228;kemedelsf&#246;rm&#229;ner.
+F&#246;rordning (2009:633).
+
+&#214;ppenv&#229;rdsapotekets r&#228;tt till ers&#228;ttning
+
+16 &#167; Har l&#228;kemedel eller annan vara som avses i lagen 
+(2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. l&#228;mnats ut kostnadsfritt 
+eller med kostnadsreducering fr&#229;n &#246;ppenv&#229;rdsapoteket mot 
+f&#246;rskrivning, har &#246;ppenv&#229;rdsapoteket r&#228;tt att f&#229; ers&#228;ttning av 
+den region som avses i 22 &#167; samma lag med ett belopp som 
+motsvarar f&#246;rs&#228;ljningspriset respektive den f&#246;reskrivna kost-
+nadsreduceringen. 
+
+Ers&#228;ttning ska betalas i efterhand, varvid ers&#228;ttning som h&#246;r 
+till en viss m&#229;nad ska betalas den f&#246;rsta vardag som inte &#228;r 
+l&#246;rdag i den andra m&#229;naden d&#228;refter. Ers&#228;ttningen ska betalas 
+till E-h&#228;lsomyndigheten som f&#246;rmedlar den till 
+&#246;ppenv&#229;rdsapoteken. I &#246;vrigt ska ers&#228;ttning betalas p&#229; det 
+s&#228;tt regionerna, E-h&#228;lsomyndigheten och &#246;ppenv&#229;rdsapoteket 
+kommer &#246;verens om. F&#246;rordning (2019:1042).
+
+Verifikationer
+
+17 &#167; De handlingar som enligt denna f&#246;rordning utg&#246;r 
+&#246;ppenv&#229;rds-apotekets verifikationer ska f&#246;rvaras i tre &#229;r fr&#229;n 
+den dag &#246;ppenv&#229;rdsapoteket beg&#228;rde ers&#228;ttning f&#246;r dem.
+
+Verifikationerna ska p&#229; beg&#228;ran av en region &#246;verl&#228;mnas till 
+regionen f&#246;r granskning. F&#246;rordning (2019:1042).
+
+18 &#167; Regionen f&#229;r granska ers&#228;ttningsanspr&#229;k enligt 16 &#167; samt 
+kontrollera att l&#228;kemedel och andra varor som l&#228;mnats ut 
+kostnadsfritt eller till nedsatt pris omfattas av lagen 
+(2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. 
+F&#246;rordning (2019:1042).
+
+Fastst&#228;llande av blanketter
+
+19 &#167; L&#228;kemedelsverket ska, efter samr&#229;d med Tandv&#229;rds- och 
+l&#228;kemedelsf&#246;rm&#229;nsverket och regionerna, fastst&#228;lla blanketter 
+som avses i 7 och 8 &#167;&#167;. F&#246;rordning (2019:1042).
+
+&#214;verklagande
+
+20 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser 
+om &#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol.
+F&#246;rordning (2018:997).
+
+Ytterligare f&#246;reskrifter
+
+21 &#167; Tandv&#229;rds- och l&#228;kemedelsf&#246;rm&#229;nsverket f&#229;r meddela 
+ytterligare f&#246;reskrifter om verkst&#228;llighet av lagen 
+(2002:160) om l&#228;kemedelsf&#246;rm&#229;ner m.m. Socialstyrelsen f&#229;r 
+meddela f&#246;reskrifter om arbetsplatskoder samt om 
+verkst&#228;llighet av 18 &#167; 2 och 3 samma lag. 
+F&#246;rordning (2015:974).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2002:765
+
+Denna f&#246;rordning tr&#228;der i kraft den 15 november 2002 men
+till&#228;mpas f&#246;r tid fr&#229;n och med den 1 oktober 2002. Beslut om
+f&#246;rs&#228;ljningspris f&#246;r receptfria l&#228;kemedel som
+Riksf&#246;rs&#228;kringsverket har fattat enligt lagen (1996:1150) om
+h&#246;gkostnadsskydd vid k&#246;p av l&#228;kemedel m.m. g&#228;ller fortfarande.
+
+2014:466
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2015 i fr&#229;ga om
+12 &#167; och i &#246;vrigt den 1 juli 2014.
+
+
+Bilaga
+
+F&#246;rteckning &#246;ver s&#229;dana sjukdomar som ber&#228;ttigar till
+prisneds&#228;ttning av livsmedel enligt 20 &#167; lagen (2002:160) om
+l&#228;kemedelsf&#246;rm&#229;ner m.m.
+
+Chron&#39;s sjukdom
+
+Fenylketonuri
+
+Galaktosemi
+
+Glutenintolerans
+
+Komj&#246;lksproteinintolerans
+
+Kort tunntarm
+
+Laktosintolerans (medf&#246;dd och sekund&#228;r)
+
+Kronisk njurinsufficiens
+
+Sojaproteinintolerans
+
+Ulcer&#246;s colit
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2551">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2553">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

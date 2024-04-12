@@ -1,0 +1,913 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2018-07-11" /> 
+ <meta id="rattsinfo-edited" content="2018-12-11" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>721</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=720">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=722">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2018:1180 ·
+                    <a href="/sfsr?bet=2018:1180">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2018:1180) om flygpassageraruppgifter i brottsbek&#228;mpningen</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L4
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2018-06-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2018-08-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+Lagens inneh&#229;ll 
+
+1 &#167; Denna lag genomf&#246;r Europaparlamentets och r&#229;dets 
+direktiv (EU) 2016/681 av den 27 april 2016 om anv&#228;ndning av 
+passageraruppgiftssamlingar (PNR-uppgifter) f&#246;r att 
+f&#246;rebygga, f&#246;rhindra, uppt&#228;cka, utreda och lagf&#246;ra 
+terroristbrott och grov brottslighet, h&#228;r ben&#228;mnt 
+PNR-direktivet. Med PNR-uppgifter avses i lagen uppgifter om 
+varje enskild passagerare som har l&#228;mnats vid bokning av en 
+flygresa och vid incheckning.
+
+Lagen inneh&#229;ller best&#228;mmelser om lufttrafikf&#246;retags 
+&#246;verf&#246;ring av PNR-uppgifter till enheten f&#246;r 
+passagerarinformation och om behandling av PNR-uppgifter i 
+verksamhet f&#246;r att f&#246;rebygga, f&#246;rhindra, uppt&#228;cka, utreda 
+eller lagf&#246;ra terroristbrottslighet eller annan allvarlig 
+brottslighet.
+
+Med terroristbrottslighet avses i lagen brott enligt 
+artiklarna 3–12 och 14 i Europaparlamentets och r&#229;dets 
+direktiv (EU) 2017/541 av den 15 mars 2017 om bek&#228;mpande av 
+terrorism, om ers&#228;ttande av r&#229;dets rambeslut 2002/475/RIF och 
+om &#228;ndring av r&#229;dets beslut 2005/671/RIF. 
+
+Med annan allvarlig brottslighet avses i lagen de brott som 
+anges i bilaga II till PNR-direktivet och f&#246;r vilka det i 
+Sverige eller andra medlemsstater &#228;r f&#246;reskrivet f&#228;ngelse i 
+tre &#229;r eller mer. 
+
+Lagens syfte
+
+2 &#167; Syftet med lagen &#228;r att tillgodose behovet av tillg&#229;ng 
+till PNR-uppgifter i verksamhet f&#246;r att f&#246;rebygga, f&#246;rhindra, 
+uppt&#228;cka, utreda eller lagf&#246;ra terroristbrottslighet eller 
+annan allvarlig brottslighet och att skydda m&#228;nniskor mot att 
+deras personliga integritet kr&#228;nks vid behandlingen av 
+uppgifterna om dem. 
+
+Andra uttryck i lagen 
+
+3 &#167; I lagen anv&#228;nds f&#246;ljande uttryck med nedan angiven 
+betydelse.
+
+Uttryck				Betydelse
+
+Beh&#246;righetsbegr&#228;nsade 
+PNR-uppgifter			Personuppgifter som har gjorts 
+				otillg&#228;ngliga f&#246;r en anv&#228;ndare 
+				som saknar s&#228;rskild beh&#246;righet 
+				f&#246;r att f&#229; tillg&#229;ng till 
+				uppgifterna.
+
+Beh&#246;rig mottagare		En beh&#246;rig myndighet i Sverige, 
+				en enhet f&#246;r passagerarinformation 
+				i en annan medlemsstat, en 
+				myndighet som har utsetts som 
+				beh&#246;rig i en annan medlemsstat 
+				eller Europol.
+
+Beh&#246;rig myndighet		En myndighet utsedd av regeringen 
+				som har beh&#246;righet att behandla 
+				PNR-information i verksamhet f&#246;r 
+				att f&#246;rebygga, f&#246;rhindra, uppt&#228;cka, 
+				utreda eller lagf&#246;ra 
+				terroristbrottslighet eller annan 
+				allvarlig brottslighet.
+
+Lufttrafikf&#246;retag		Ett f&#246;retag som har giltig operativ 
+				licens eller motsvarande som ger 
+				r&#228;tt att mot ers&#228;ttning utf&#246;ra 
+				lufttransporter av passagerare, 
+				och som i sin normala verksamhet 
+				samlar in och behandlar 
+				PNR-uppgifter i ett elektroniskt 
+				system f&#246;r hantering av 
+				reservationer.
+
+Medlemsstat			En stat som &#228;r medlem i Europeiska 
+				unionen och har antagit 
+				PNR-direktivet.
+
+Passagerare			Alla personer, f&#246;rutom 
+				bes&#228;ttningsmedlemmar, som 
+				transporteras eller ska 
+				transporteras med ett flygplan och 
+				som finns upptagna i 
+				passagerarf&#246;rteckningen.
+
+PNR-information			PNR-uppgifter och resultatet av en 
+				enhet f&#246;r passagerarinformations 
+				behandling av s&#229;dana uppgifter.
+
+Tredjeland			En stat som inte &#228;r en medlemsstat.
+
+Enhet f&#246;r passagerarinformation
+
+4 &#167; Det ska vid Polismyndigheten finnas en enhet f&#246;r 
+passagerarinformation. Enheten ska ansvara f&#246;r att 
+
+1. samla in PNR-uppgifter fr&#229;n lufttrafikf&#246;retag, bevara och 
+i &#246;vrigt behandla uppgifterna, och
+
+2. &#246;verf&#246;ra PNR-information till beh&#246;riga mottagare och 
+tredjel&#228;nder. 
+
+Till&#229;ten behandling av PNR-information
+
+5 &#167; PNR-information f&#229;r endast behandlas i syfte att 
+f&#246;rebygga, f&#246;rhindra, uppt&#228;cka, utreda eller lagf&#246;ra 
+terroristbrottslighet eller annan allvarlig brottslighet, om 
+inte annat anges i 6 &#167; eller 5 kap. 3 &#167;.
+
+Nationell s&#228;kerhet
+
+6 &#167; Lagens best&#228;mmelser om behandling av personuppgifter 
+g&#228;ller inte f&#246;r beh&#246;riga myndigheter i verksamhet som r&#246;r 
+nationell s&#228;kerhet. 
+
+Enheten f&#246;r passagerarinformation f&#229;r behandla 
+PNR-information n&#228;r det &#228;r n&#246;dv&#228;ndigt f&#246;r att tillhandah&#229;lla 
+uppgifter som beh&#246;vs f&#246;r s&#229;dan verksamhet.
+
+F&#246;rbud mot behandling av k&#228;nsliga personuppgifter
+
+7 &#167; PNR-uppgifter som utg&#246;r s&#229;dana personuppgifter som 
+avsl&#246;jar ras, etniskt ursprung, politiska &#229;sikter, religi&#246;s 
+eller filosofisk &#246;vertygelse eller medlemskap i fackf&#246;rening 
+eller som r&#246;r h&#228;lsa, sexualliv eller sexuell l&#228;ggning f&#229;r 
+inte behandlas enligt lagen.
+
+2 kap. Lufttrafikf&#246;retagens skyldigheter
+
+&#214;verf&#246;ring av PNR-uppgifter till enheten f&#246;r 
+passagerarinformation
+
+1 &#167; Lufttrafikf&#246;retag ska till enheten f&#246;r 
+passagerarinformation inf&#246;r varje flygning som ankommer till 
+eller avg&#229;r fr&#229;n Sverige &#246;verf&#246;ra s&#229;dana PNR-uppgifter som 
+anges i bilagan till lagen. PNR-uppgifterna ska endast 
+&#246;verf&#246;ras i de fall lufttrafikf&#246;retagen samlar in uppgifterna 
+som en del av sin normala verksamhet. 
+
+Om flygningens linjebeteckning delas med ett eller flera 
+andra lufttrafikf&#246;retag, ska det lufttrafikf&#246;retag som utf&#246;r 
+flygningen &#246;verf&#246;ra PNR-uppgifter om samtliga passagerare.
+
+2 &#167; PNR-uppgifterna ska &#246;verf&#246;ras
+
+1. 24–48 timmar f&#246;re flygningens avg&#229;ng, och 
+
+2. omedelbart efter det att gatens d&#246;rrar har st&#228;ngts.
+
+Den andra &#246;verf&#246;ringen f&#229;r begr&#228;nsas till uppdateringar och 
+kompletteringar av de uppgifter som &#246;verf&#246;rdes vid det f&#246;rsta 
+tillf&#228;llet.
+
+3 &#167; Lufttrafikf&#246;retag ska p&#229; beg&#228;ran av enheten f&#246;r 
+passagerarinformation &#246;verf&#246;ra PNR-uppgifter &#228;ven vid andra 
+tidpunkter &#228;n de som anges i 2 &#167;, om enheten bed&#246;mer att det 
+i ett enskilt fall &#228;r n&#246;dv&#228;ndigt med tillg&#229;ng till 
+PNR-uppgifter f&#246;r att avv&#228;rja en specifik och faktisk fara 
+med anknytning till terroristbrottslighet eller annan 
+allvarlig brottslighet.
+
+4 &#167; Lufttrafikf&#246;retag ska &#246;verf&#246;ra PNR-uppgifterna 
+elektroniskt. Enheten f&#246;r passagerarinformation f&#229;r inte 
+medges direkt&#229;tkomst till PNR-uppgifter som behandlas vid 
+lufttrafikf&#246;retagen.
+
+5 &#167; Lufttrafikf&#246;retag som &#228;r skyldiga att &#246;verf&#246;ra 
+PNR-uppgifter f&#229;r anlita ett personuppgiftsbitr&#228;de f&#246;r att 
+utf&#246;ra &#246;verf&#246;ringen.
+
+Information till passagerare
+
+6 &#167; Lufttrafikf&#246;retag ska informera passagerare om 
+&#246;verf&#246;ringen av PNR-uppgifter till enheten f&#246;r 
+passagerarinformation och om sk&#228;len till &#246;verf&#246;ringen.
+
+R&#228;tt att meddela f&#246;reskrifter
+
+7 &#167; Regeringen eller den myndighet som regeringen 
+best&#228;mmer kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela 
+f&#246;reskrifter om lufttrafikf&#246;retagens &#246;verf&#246;ring av 
+PNR-uppgifter till enheten f&#246;r passagerarinformation.
+
+3 kap. Behandling av PNR-information vid enheten f&#246;r 
+passagerarinformation 
+
+PNR-databas
+
+1 &#167; PNR-uppgifter som har &#246;verf&#246;rts fr&#229;n ett 
+lufttrafikf&#246;retag ska bevaras i en databas vid enheten f&#246;r 
+passagerarinformation.
+
+2 &#167; Enheten f&#246;r passagerarinformation ska behandla 
+PNR-informationen i Sverige.
+
+Personuppgiftsansvar
+
+3 &#167; Polismyndigheten &#228;r personuppgiftsansvarig f&#246;r den 
+behandling av personuppgifter som utf&#246;rs vid enheten f&#246;r 
+passagerarinformation.
+
+Till&#229;tna &#228;ndam&#229;l f&#246;r behandling av PNR-uppgifter 
+
+4 &#167; Enheten f&#246;r passagerarinformation f&#229;r, om inte 1 kap. 
+6 &#167; &#228;r till&#228;mplig, endast behandla PNR-uppgifter som har 
+&#246;verf&#246;rts fr&#229;n ett lufttrafikf&#246;retag f&#246;r att 
+
+1. g&#246;ra en f&#246;rhandsbed&#246;mning av passagerare f&#246;re deras 
+ber&#228;knade ankomst till eller avresa fr&#229;n Sverige i syfte att 
+v&#228;lja ut personer som beh&#246;ver utredas ytterligare av beh&#246;riga 
+myndigheter eller Europol, p&#229; grund av att dessa personer kan 
+vara inblandade i terroristbrottslighet eller annan allvarlig 
+brottslighet,
+
+2. fullg&#246;ra sina uppgifter att &#246;verf&#246;ra PNR-information till 
+beh&#246;riga mottagare eller tredjel&#228;nder, eller 
+
+3. g&#246;ra analyser f&#246;r att uppdatera eller skapa nya kriterier 
+som ska anv&#228;ndas vid f&#246;rhandsbed&#246;mningar. 
+
+5 &#167; Vid en f&#246;rhandsbed&#246;mning f&#229;r PNR-uppgifter 
+
+1. j&#228;mf&#246;ras med register eller andra uppgiftssamlingar som &#228;r 
+relevanta f&#246;r att f&#246;rebygga, f&#246;rhindra, uppt&#228;cka, utreda 
+eller lagf&#246;ra terroristbrottslighet eller annan allvarlig 
+brottslighet, och 
+
+2. behandlas enligt p&#229; f&#246;rhand utformade och fastst&#228;llda 
+kriterier som &#228;r riktade, proportionella och avgr&#228;nsade och 
+som inte grundas p&#229; s&#229;dana k&#228;nsliga personuppgifter som avses 
+i 1 kap. 7 &#167;. 
+
+6 &#167; Om enheten f&#246;r passagerarinformation har mottagit 
+PNR-information fr&#229;n motsvarande enheter i andra 
+medlemsstater f&#229;r enheten bara behandla informationen f&#246;r att 
+vidarebefordra den till beh&#246;riga myndigheter.
+
+Tillg&#229;ng till PNR-information
+
+7 &#167; Endast den som tj&#228;nstg&#246;r vid enheten f&#246;r 
+passagerarinformation och den som fullg&#246;r uppgifter enligt 
+lagen f&#229;r ha tillg&#229;ng till PNR-information som behandlas vid 
+enheten. Tillg&#229;ngen ska begr&#228;nsas till vad han eller hon 
+beh&#246;ver f&#246;r att kunna fullg&#246;ra sina arbetsuppgifter.
+
+F&#246;rbud mot direkt&#229;tkomst 
+
+8 &#167; Direkt&#229;tkomst till PNR-information som behandlas vid 
+enheten f&#246;r passagerarinformation f&#229;r inte medges.
+
+Tid som PNR-uppgifter ska bevaras
+
+9 &#167; PNR-uppgifter som behandlas vid enheten f&#246;r 
+passagerarinformation ska bevaras i fem &#229;r fr&#229;n det att de 
+kommit in fr&#229;n ett lufttrafikf&#246;retag. D&#228;refter ska de 
+f&#246;rst&#246;ras.
+
+10 &#167; PNR-uppgifter som inte anges i bilagan till lagen 
+eller som utg&#246;r s&#229;dana k&#228;nsliga personuppgifter som avses i 
+1 kap. 7 &#167; ska omedelbart f&#246;rst&#246;ras om de kommer in till 
+enheten f&#246;r passagerarinformation.
+
+Beh&#246;righetsbegr&#228;nsning av PNR-uppgifter
+
+11 &#167; F&#246;ljande PNR-uppgifter ska beh&#246;righetsbegr&#228;nsas sex 
+m&#229;nader efter att de har kommit in fr&#229;n ett lufttrafikf&#246;retag 
+om de kan anv&#228;ndas f&#246;r att identifiera en person:
+
+1. namn p&#229; passagerare, 
+
+2. antal passagerare som reser tillsammans, 
+
+3. adress och kontaktuppgifter, 
+
+4. alla former av betalningsinformation, inklusive 
+faktureringsadress,
+
+5. uppgifter om bonusprogram, 
+
+6. allm&#228;nna anm&#228;rkningar, och 
+
+7. uppgifter enligt punkt 18 i bilagan till lagen. 
+
+Dataskyddsombud
+
+12 &#167; Polismyndigheten ska utse ett dataskyddsombud f&#246;r 
+enheten f&#246;r passagerarinformation. 
+
+Dataskyddsombudet ska ha tillg&#229;ng till alla uppgifter som 
+behandlas vid enheten. 
+
+13 &#167; Dataskyddsombudet vid enheten f&#246;r 
+passagerarinformation ansvarar f&#246;r att fullg&#246;ra de uppgifter 
+som anges i 3 kap. 14 &#167; brottsdatalagen (2018:177). 
+
+En enskild ska ha r&#228;tt att kontakta dataskyddsombudet i alla 
+fr&#229;gor som r&#246;r behandling av hans eller hennes PNR-uppgifter 
+enligt denna lag. 
+
+14 &#167; Om dataskyddsombudet vid enheten f&#246;r 
+passagerarinformation anser att den personuppgiftsansvarige 
+bryter mot best&#228;mmelser f&#246;r behandling av PNR-uppgifter, ska 
+han eller hon anm&#228;la det till tillsynsmyndigheten.
+
+R&#228;tt att meddela f&#246;reskrifter
+
+15 &#167; Regeringen eller den myndighet som regeringen 
+best&#228;mmer kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela 
+f&#246;reskrifter om enheten f&#246;r passagerarinformations behandling 
+av PNR-information och dataskyddsombudets uppgifter.
+
+4 kap. &#214;verf&#246;ring av PNR-information fr&#229;n enheten 
+
+f&#246;r passagerarinformation
+
+&#214;verf&#246;ring till beh&#246;riga myndigheter
+
+1 &#167; Enheten f&#246;r passagerarinformation ska s&#229; snart som 
+m&#246;jligt &#246;verf&#246;ra PNR-information till en eller flera beh&#246;riga 
+myndigheter f&#246;r att 
+
+1. en vidare granskning ska g&#246;ras av PNR-information 
+betr&#228;ffande passagerare som har valts ut vid en 
+f&#246;rhandsbed&#246;mning, 
+
+2. besvara en beg&#228;ran fr&#229;n en beh&#246;rig myndighet om att ta del 
+av PNR-information, eller 
+
+3. vidarebefordra PNR-information som har mottagits fr&#229;n en 
+motsvarande enhet i en annan medlemsstat. 
+
+En befattningshavare vid enheten ska f&#246;re &#246;verf&#246;ring enligt 
+f&#246;rsta stycket 1 bed&#246;ma om PNR-informationen &#228;r relevant f&#246;r 
+vidare granskning av den beh&#246;riga myndigheten. 
+
+&#214;verf&#246;ring till andra medlemsstater
+
+2 &#167; Enheten f&#246;r passagerarinformation ska s&#229; snart som 
+m&#246;jligt &#246;verf&#246;ra PNR-information till en motsvarande enhet i 
+en annan medlemsstat f&#246;r att
+
+1. en vidare granskning ska g&#246;ras av PNR-information 
+betr&#228;ffande passagerare som har valts ut vid en 
+f&#246;rhandsbed&#246;mning, eller 
+
+2. besvara en beg&#228;ran fr&#229;n enheten i den andra medlemsstaten 
+om att ta del av PNR-information.
+
+En befattningshavare vid enheten ska f&#246;re &#246;verf&#246;ring enligt 
+f&#246;rsta stycket 1 bed&#246;ma om PNR-informationen &#228;r relevant f&#246;r 
+vidare granskning i den andra medlemsstaten. 
+
+3 &#167; N&#228;r det i ett enskilt br&#229;dskande fall &#228;r absolut 
+n&#246;dv&#228;ndigt ska enheten f&#246;r passagerarinformation besvara en 
+beg&#228;ran fr&#229;n en myndighet som har utsetts som beh&#246;rig i en 
+annan medlemsstat och &#246;verf&#246;ra PNR-information direkt till 
+den myndigheten.
+
+4 &#167; N&#228;r det i ett enskilt fall &#228;r n&#246;dv&#228;ndigt med tillg&#229;ng 
+till PNR-uppgifter f&#246;r att avv&#228;rja en specifik och faktisk 
+fara med anknytning till terroristbrottslighet eller annan 
+allvarlig brottslighet, ska enheten f&#246;r passagerarinformation 
+p&#229; beg&#228;ran av en motsvarande enhet i en annan medlemsstat 
+inh&#228;mta PNR-uppgifter vid andra tidpunkter &#228;n de som anges i 
+2 kap. 2 &#167; och &#246;verf&#246;ra dessa till den enhet som har beg&#228;rt 
+dem.
+
+&#214;verf&#246;ring till Europol
+
+5 &#167; Enheten f&#246;r passagerarinformation ska s&#229; snart som 
+m&#246;jligt &#246;verf&#246;ra PNR-information till Europol f&#246;r att 
+
+1. en vidare granskning ska g&#246;ras av PNR-information 
+betr&#228;ffande passagerare som har valts ut vid en 
+f&#246;rhandsbed&#246;mning, eller 
+
+2. besvara en beg&#228;ran fr&#229;n Europol om att ta del av 
+PNR-information. 
+
+En befattningshavare vid enheten ska f&#246;re &#246;verf&#246;ring enligt 
+f&#246;rsta stycket 1 bed&#246;ma om PNR-informationen &#228;r relevant f&#246;r 
+vidare granskning av Europol.
+
+Villkor f&#246;r &#246;verf&#246;ring 
+
+6 &#167; &#214;verf&#246;ring enligt 1 &#167; f&#246;rsta stycket 2, 2 &#167; f&#246;rsta 
+stycket 2, 3 &#167; och 5 &#167; f&#246;rsta stycket 2 f&#229;r endast ske om det 
+av beg&#228;ran framg&#229;r att PNR-informationen ska anv&#228;ndas i syfte 
+att f&#246;rebygga, f&#246;rhindra, uppt&#228;cka, utreda eller lagf&#246;ra 
+terroristbrottslighet eller annan allvarlig brottslighet.
+
+&#214;verf&#246;ring till tredjeland 
+
+7 &#167; Enheten f&#246;r passagerarinformation f&#229;r besvara en 
+beg&#228;ran och &#246;verf&#246;ra PNR-information till en myndighet i ett 
+tredjeland som &#228;r beh&#246;rig att bedriva verksamhet f&#246;r att 
+f&#246;rebygga, f&#246;rhindra, uppt&#228;cka, utreda eller lagf&#246;ra 
+terroristbrottslighet eller annan allvarlig brottslighet. 
+PNR-information f&#229;r &#246;verf&#246;ras under f&#246;ruts&#228;ttning att 
+
+1. &#246;verf&#246;ringen omfattas av ett beslut om adekvat skyddsniv&#229;, 
+tillr&#228;ckliga skydds&#229;tg&#228;rder eller ett undantag f&#246;r s&#228;rskilda 
+situationer enligt 8 kap. 1 &#167; f&#246;rsta stycket 3 
+brottsdatalagen (2018:177), 
+
+2. &#246;verf&#246;ringen &#228;r n&#246;dv&#228;ndig f&#246;r att f&#246;rebygga, f&#246;rhindra, 
+uppt&#228;cka, utreda eller lagf&#246;ra terroristbrottslighet eller 
+annan allvarlig brottslighet, och
+
+3. tredjelandet har godtagit att uppgifterna f&#229;r 
+vidare&#246;verf&#246;ras till ett annat tredjeland endast om det &#228;r 
+absolut n&#246;dv&#228;ndigt f&#246;r att f&#246;rebygga, f&#246;rhindra, uppt&#228;cka, 
+utreda eller lagf&#246;ra terroristbrottslighet eller annan 
+allvarlig brottslighet och efter det att ett uttryckligt 
+medgivande till vidare&#246;verf&#246;ringen har inh&#228;mtats fr&#229;n enheten 
+f&#246;r passagerarinformation. 
+
+8 &#167; Enheten f&#246;r passagerarinformation ska vid &#246;verf&#246;ring 
+av PNR-information till ett tredjeland st&#228;lla upp villkor som 
+begr&#228;nsar m&#246;jligheten att anv&#228;nda informationen i strid med 
+lagens syften. 
+
+9 &#167; Om enheten f&#246;r passagerarinformation har f&#229;tt 
+PNR-information fr&#229;n en annan medlemsstat kr&#228;vs ett 
+medgivande fr&#229;n den medlemsstaten till &#246;verf&#246;ringen enligt 
+8 kap. 2 &#167; f&#246;rsta stycket brottsdatalagen (2018:177). 
+
+Om medgivande till &#246;verf&#246;ringen p&#229; grund av tidsbrist inte 
+kan h&#228;mtas in i f&#246;rv&#228;g, f&#229;r informationen &#228;nd&#229; &#246;verf&#246;ras om 
+det &#228;r absolut n&#246;dv&#228;ndigt f&#246;r att avv&#228;rja en specifik och 
+faktisk fara med anknytning till terroristbrottslighet eller 
+annan allvarlig brottslighet. 
+
+R&#228;tt att meddela f&#246;reskrifter
+
+10 &#167; Regeringen eller den myndighet som regeringen 
+best&#228;mmer kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela 
+f&#246;reskrifter om uppst&#228;llande av villkor vid &#246;verf&#246;ring till 
+tredjeland och om information till en annan medlemsstat n&#228;r 
+PNR-information har &#246;verf&#246;rts utan f&#246;rhandsmedgivande.
+
+&#214;verf&#246;ring av beh&#246;righetsbegr&#228;nsade PNR-uppgifter i sin 
+fullst&#228;ndiga form
+
+11 &#167; PNR-uppgifter som &#228;r beh&#246;righetsbegr&#228;nsade enligt 
+3 kap. 11 &#167; f&#229;r endast &#246;verf&#246;ras i sin fullst&#228;ndiga form till 
+beh&#246;riga mottagare eller ett tredjeland om det rimligen kan 
+antas vara n&#246;dv&#228;ndigt f&#246;r att f&#246;rebygga, f&#246;rhindra, uppt&#228;cka, 
+utreda eller lagf&#246;ra terroristbrottslighet eller annan 
+allvarlig brottslighet. 
+
+Om en f&#246;runders&#246;kning p&#229;g&#229;r ska en beg&#228;ran fr&#229;n en beh&#246;rig 
+myndighet om att f&#229; tillg&#229;ng till fullst&#228;ndiga PNR-uppgifter 
+beslutas av en &#229;klagare. 
+
+I de fall som inte omfattas av andra stycket kr&#228;vs att 
+tillst&#229;nd till &#246;verf&#246;ringen har l&#228;mnats av Polismyndigheten. 
+
+5 kap. Beh&#246;riga myndigheters behandling av PNR-information
+
+F&#246;rst&#246;ring av PNR-information
+
+1 &#167; En beh&#246;rig myndighet som har mottagit PNR-information 
+fr&#229;n enheten f&#246;r passagerarinformation efter enhetens 
+f&#246;rhandsbed&#246;mning ska omedelbart f&#246;rst&#246;ra informationen om 
+den visar sig sakna betydelse f&#246;r att f&#246;rebygga, f&#246;rhindra, 
+uppt&#228;cka, utreda eller lagf&#246;ra terroristbrottslighet eller 
+annan allvarlig brottslighet.
+
+2 &#167; Om en beh&#246;rig myndighet mottar PNR-uppgifter som utg&#246;r 
+s&#229;dana k&#228;nsliga personuppgifter som avses i 1 kap. 7 &#167; ska 
+uppgifterna omedelbart f&#246;rst&#246;ras.
+
+Behandling av PNR-information f&#246;r annan brottslighet
+
+3 &#167; Om det har kommit fram uppgifter om ett annat brott &#228;n 
+terroristbrottslighet eller annan allvarlig brottslighet i 
+samband med en brottsbek&#228;mpande &#229;tg&#228;rd som en beh&#246;rig 
+myndighet vidtar till f&#246;ljd av behandling av PNR-information, 
+f&#229;r informationen, ut&#246;ver vad som anges i 1 kap. 5 &#167;, 
+anv&#228;ndas f&#246;r att f&#246;rhindra, utreda eller lagf&#246;ra brottet.
+
+Automatiserade beslut
+
+4 &#167; Ett beslut som har r&#228;ttsliga f&#246;ljder f&#246;r en fysisk 
+person eller annars i betydande grad p&#229;verkar honom eller 
+henne f&#229;r inte enbart grundas p&#229; en automatiserad behandling 
+av PNR-uppgifter.
+
+R&#228;tt att meddela f&#246;reskrifter
+
+5 &#167; Regeringen eller den myndighet som regeringen 
+best&#228;mmer kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela 
+f&#246;reskrifter om beh&#246;riga myndigheters inh&#228;mtande av 
+PNR-information.
+
+6 kap. Sanktionsavgifter 
+
+&#214;vertr&#228;delser av lufttrafikf&#246;retag
+
+1 &#167; En sanktionsavgift ska tas ut av ett lufttrafikf&#246;retag 
+som inte har &#246;verf&#246;rt PNR-uppgifter enligt best&#228;mmelserna i 
+denna lag eller f&#246;reskrifter som har meddelats i anslutning 
+till lagen.
+
+2 &#167; Sanktionsavgiften ska f&#246;r varje flygning som har 
+utf&#246;rts utan att lufttrafikf&#246;retaget har fullgjort sin 
+&#246;verf&#246;ringsskyldighet best&#228;mmas till l&#228;gst 20 000 kronor och 
+h&#246;gst 100 000 kronor. N&#228;r sanktionsavgiftens storlek 
+fastst&#228;lls ska s&#228;rskild h&#228;nsyn tas till antal passagerare p&#229; 
+flygningen och om lufttrafikf&#246;retaget tidigare har beg&#229;tt en 
+&#246;vertr&#228;delse.
+
+Sanktionsavgiften f&#229;r s&#228;ttas ned helt eller delvis om 
+&#246;vertr&#228;delsen &#228;r urs&#228;ktlig eller om det annars med h&#228;nsyn 
+till omst&#228;ndigheterna skulle vara osk&#228;ligt att ta ut 
+avgiften. 
+
+3 &#167; Polismyndigheten beslutar om sanktionsavgift f&#246;r 
+lufttrafikf&#246;retag.
+
+Sanktionsavgiften tillfaller staten.
+
+4 &#167; En sanktionsavgift f&#229;r endast beslutas om den som 
+avgiften ska tas ut av har f&#229;tt tillf&#228;lle att yttra sig inom 
+tv&#229; &#229;r fr&#229;n den dag d&#229; &#246;vertr&#228;delsen &#228;gde rum.
+
+5 &#167; En sanktionsavgift ska betalas till Polismyndigheten 
+inom 30 dagar fr&#229;n det att beslutet om att ta ut avgiften 
+fick laga kraft eller inom den l&#228;ngre tid som anges i 
+beslutet. 
+
+Om sanktionsavgiften inte betalas inom den tid som anges i 
+f&#246;rsta stycket, ska Polismyndigheten l&#228;mna den obetalda 
+avgiften f&#246;r indrivning. Best&#228;mmelser om indrivning finns i 
+lagen (1993:891) om indrivning av statliga fordringar m.m. 
+Vid indrivning f&#229;r verkst&#228;llighet ske enligt 
+uts&#246;kningsbalken. 
+
+Avgiften faller bort i den utstr&#228;ckning verkst&#228;llighet inte 
+har skett inom fem &#229;r fr&#229;n det att beslutet fick laga kraft. 
+
+6 &#167; Polismyndighetens beslut om sanktionsavgift f&#229;r 
+&#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. 
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten. 
+
+&#214;vertr&#228;delser av personuppgiftsansvarig myndighet 
+
+7 &#167; En sanktionsavgift f&#229;r tas ut av en 
+personuppgiftsansvarig myndighet vid &#246;vertr&#228;delse av 
+best&#228;mmelserna i 
+
+1. 1 kap. 5 eller 7 &#167;,
+
+2. n&#229;gon av 3 kap. 2 eller 4–11 &#167;&#167;,
+
+3. 4 kap. 7, 9 eller 11 &#167;, eller
+
+4. 5 kap. 1, 2 eller 4 &#167;. 
+
+8 &#167; Vad som anges i 6 kap. 3 &#167; tredje stycket och 4–8 &#167;&#167; 
+brottsdatalagen (2018:177) ska till&#228;mpas n&#228;r en 
+sanktionsavgift tas ut enligt 7 &#167;.
+
+Sanktionsavgiften ska vara h&#246;gst 10 000 000 kronor. 
+
+Det framg&#229;r av 7 kap. 3 &#167; brottsdatalagen att 
+tillsynsmyndighetens beslut om sanktionsavgift kan 
+&#246;verklagas. 
+
+R&#228;tt att meddela f&#246;reskrifter
+
+9 &#167; Regeringen eller den myndighet som regeringen 
+best&#228;mmer kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela 
+n&#228;rmare f&#246;reskrifter om sanktionsavgifter enligt denna lag.
+
+7 kap. &#214;vriga best&#228;mmelser
+
+Enskildas r&#228;ttigheter
+
+1 &#167; Vid behandling i strid med 1 kap. 5 eller 7 &#167; eller 
+3 kap. 9 &#167; ska 4 kap. 10 &#167; brottsdatalagen (2018:177) om en 
+registrerads r&#228;tt till radering eller begr&#228;nsning av 
+behandling av personuppgifter till&#228;mpas.
+
+2 &#167; Vid behandling i strid med best&#228;mmelser till skydd f&#246;r 
+personuppgifter i denna lag eller f&#246;reskrifter som har 
+meddelats i anslutning till lagen ska best&#228;mmelsen om 
+skadest&#229;nd i 7 kap. 1 &#167; brottsdatalagen (2018:177) till&#228;mpas. 
+
+Tillsyn
+
+3 &#167; Tillsyn &#246;ver personuppgiftsbehandling enligt denna lag 
+ska utf&#246;ras av den nationella tillsynsmyndigheten enligt 
+brottsdatalagen (2018:177) och i enlighet med best&#228;mmelserna 
+om tillsyn i den lagen.
+
+
+Bilaga
+
+PNR-uppgifter som enligt 2 kap. 1 &#167; ska &#246;verf&#246;ras fr&#229;n 
+lufttrafikf&#246;retag till enheten f&#246;r passagerarinformation:
+
+1. PNR-uppgifternas lokaliseringskod,
+
+2. datum f&#246;r bokning och utf&#228;rdande av biljett,
+
+3. planerat eller planerade resedatum,
+
+4. namn,
+
+5. adress och kontaktuppgifter (telefonnummer och 
+e-postadress),
+
+6. all betalningsinformation, inklusive faktureringsadress,
+
+7. fullst&#228;ndig resplan,
+
+8. uppgifter om bonusprogram,
+
+9. resebyr&#229; eller reseagent,
+
+10. passagerarens resestatus, inklusive resebekr&#228;ftelser, 
+incheckningsstatus, upplysningar om passagerare som inte 
+infinner sig och passagerare utan bokning,
+
+11. delade PNR-uppgifter,
+
+12. allm&#228;nna anm&#228;rkningar, inklusive alla tillg&#228;ngliga 
+uppgifter om ensamresande barn under 18 &#229;r, s&#229;som namn, k&#246;n, 
+&#229;lder, spr&#229;kkunskaper, namn och kontaktuppgifter f&#246;r den 
+person som f&#246;ljer barnet till incheckning f&#246;r avresan och 
+denna persons f&#246;rh&#229;llande till barnet, namn och 
+kontaktuppgifter f&#246;r den person som h&#228;mtar barnet vid 
+ankomsten och denna persons f&#246;rh&#229;llande till barnet samt 
+flygplatspersonal som ledsagar barnet vid avresan respektive 
+ankomsten,
+
+13. biljettinformation, inklusive biljettnummer, datum f&#246;r 
+utf&#228;rdande av biljetten, enkelbiljetter och automatisk 
+biljettprisuppgift,
+
+14. platsnummer och annan platsinformation,
+
+15. information om gemensam linjebeteckning,
+
+16. all bagageinformation,
+
+17. antal medresen&#228;rer och deras namn,
+
+18. all eventuell f&#246;rhandsinformation (API-uppgifter) som har 
+samlats in, inklusive typ av identitetshandling, 
+identitetshandlingens nummer, utf&#228;rdandeland, sista 
+giltighetsdag, nationalitet, efternamn, f&#246;rnamn, k&#246;n, 
+f&#246;delsedatum, lufttrafikf&#246;retag, flygnummer, utresedatum, 
+ankomstdatum, avreseflygplats, ankomstflygplats, avresetid 
+och ankomsttid, och
+
+19. alla &#228;ndringar som har gjorts av de PNR-uppgifter som 
+anges i punkt 1–18.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=720">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=722">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

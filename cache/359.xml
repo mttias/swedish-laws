@@ -1,0 +1,576 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-07-12" /> 
+ <meta id="rattsinfo-edited" content="2023-07-12 10:33:52" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>359</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=358">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=360">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2021:808 ·
+                    <a href="/sfsr?bet=2021:808">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2021:808) om n&#228;tkoncession</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSE
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2021-07-08
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:249
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2021-08-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">F&#246;rordningens inneh&#229;ll
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om ans&#246;kan och 
+handl&#228;ggning av &#228;renden om n&#228;tkoncession enligt 2 kap. ellagen 
+(1997:857).
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen.
+
+Ord och uttryck
+
+2 &#167; Ord och uttryck som anv&#228;nds i denna f&#246;rordning har samma 
+betydelse som i ellagen (1997:857).
+
+N&#228;tmyndighet
+
+3 &#167; Av 4 &#167; f&#246;rordningen (2023:241) om det nationella 
+elsystemet framg&#229;r att Energimarknadsinspektionen &#228;r 
+n&#228;tmyndighet enligt 1 kap. 5 &#167; ellagen (1997:857).
+
+N&#228;tmyndigheten ska handl&#228;gga de &#228;renden som anges i denna 
+f&#246;rordning. F&#246;rordning (2023:249).
+
+Handl&#228;ggning av en ans&#246;kan som ska pr&#246;vas av regeringen
+
+4 &#167; En ans&#246;kan i ett &#228;rende om n&#228;tkoncession som ska pr&#246;vas av 
+regeringen enligt 2 kap. 4 &#167; andra stycket ellagen (1997:857) 
+ska l&#228;mnas in till n&#228;tmyndigheten. 
+
+N&#228;tmyndigheten ska utreda &#228;rendet och d&#228;refter &#246;verl&#228;mna det 
+tillsammans med ett eget yttrande till regeringen f&#246;r 
+pr&#246;vning.
+
+Ans&#246;kan om n&#228;tkoncession f&#246;r linje
+
+5 &#167; En ans&#246;kan om n&#228;tkoncession f&#246;r linje ska inneh&#229;lla 
+
+1. uppgifter om vilket &#246;verf&#246;ringsbehov som ledningen avser 
+att tillgodose,
+
+2. en uppgift om ledningens sp&#228;nning, 
+
+3. de s&#228;rskilda sk&#228;l som &#229;beropas, om ledningens sp&#228;nning inte 
+&#246;verstiger h&#246;gsta till&#229;tna sp&#228;nning f&#246;r de omr&#229;den med 
+n&#228;tkoncession som ber&#246;rs av ledningen, 
+
+4. en redog&#246;relse f&#246;r hur de allm&#228;nna h&#228;nsynsreglerna i 2 kap. 
+milj&#246;balken kommer att iakttas, och
+
+5. en uppgift om vilka alternativa ledningsstr&#228;ckningar som 
+s&#246;kanden har unders&#246;kt. 
+
+Om ledningen syftar till att f&#246;rst&#228;rka befintliga ledningar, 
+ska detta anges. Av ans&#246;kan ska det d&#229; &#228;ven framg&#229; vilken 
+belastning som befintliga ledningar t&#229;l och om det finns behov 
+av ytterligare ledningsutbyggnad med anledning av den ledning 
+som ans&#246;kan avser. 
+
+6 &#167; S&#246;kanden ska, ut&#246;ver det som anges i 5 &#167;, l&#228;mna in
+
+1. den milj&#246;konsekvensbeskrivning som kr&#228;vs enligt 2 kap. 17 &#167; 
+andra stycket 2 eller 3 ellagen (1997:857),
+
+2. en teknisk beskrivning av den planerade ledningen, vilken 
+bland annat ska inneh&#229;lla en ritning &#246;ver ledningens 
+konstruktion och anslutning till en produktionsanl&#228;ggning, 
+station eller befintlig ledning,
+
+3. en kostnadsber&#228;kning,
+
+4. en karta &#246;ver ledningens f&#246;reslagna str&#228;ckning,
+
+5. bestyrkta f&#246;rteckningar &#246;ver &#228;gare och innehavare av 
+s&#228;rskild r&#228;tt till de fastigheter som ledningen ska dras fram 
+&#246;ver eller av fastigheter som p&#229; n&#229;got annat s&#228;tt ber&#246;rs av 
+anl&#228;ggningen, och
+
+6. uppgifter om vilka &#246;verenskommelser som har tr&#228;ffats om 
+uppl&#229;telse av mark f&#246;r ledningen eller de hinder som finns mot 
+s&#229;dana &#246;verenskommelser.
+
+S&#246;kanden ska l&#228;mna in en samh&#228;llsekonomisk 
+l&#246;nsamhetsbed&#246;mning, om ledningen ing&#229;r i ett 
+transmissionsn&#228;t.
+
+Med en bestyrkt f&#246;rteckning j&#228;mst&#228;lls ett elektroniskt 
+dokument som har undertecknats med en elektronisk underskrift. 
+
+Ans&#246;kan om n&#228;tkoncession f&#246;r omr&#229;de
+
+7 &#167; En ans&#246;kan om n&#228;tkoncession f&#246;r omr&#229;de ska inneh&#229;lla
+
+1. en plan &#246;ver omr&#229;dets framtida behov av &#246;verf&#246;ring av el,
+
+2. en karta &#246;ver omr&#229;det,
+
+3. uppgifter om vilken h&#246;gsta sp&#228;nning och i f&#246;rekommande fall 
+vilken l&#228;gsta sp&#228;nning f&#246;r omr&#229;det som s&#246;kanden ans&#246;ker om,
+
+4. en beskrivning av den inverkan p&#229; milj&#246;n som en framtida 
+utbyggnad av ledningsn&#228;tet kan komma att f&#229;,
+
+5. en samh&#228;llsekonomisk kostnads-nyttoanalys, och
+
+6. en redog&#246;relse f&#246;r vilka konsekvenser som den s&#246;kta 
+n&#228;tkoncessionen f&#229;r f&#246;r ber&#246;rda kunder och 
+n&#228;tkoncessionshavare. 
+
+Ans&#246;kan om f&#246;rhandsmedgivande
+
+8 &#167; En ans&#246;kan om medgivande att bygga eller anv&#228;nda en 
+starkstr&#246;msledning i avvaktan p&#229; att en ans&#246;kan om 
+n&#228;tkoncession slutligt avg&#246;rs enligt 2 kap. 8 &#167; ellagen 
+(1997:857) ska inneh&#229;lla
+
+1. en karta d&#228;r ledningen och tillh&#246;rande anl&#228;ggningar anges,
+
+2. uppgifter om ledningens tekniska utf&#246;rande,
+
+3. en uppgift om ledningens sp&#228;nning,
+
+4. uppgifter om vilket &#246;verf&#246;ringsbehov som ledningen avser 
+att tillgodose,
+
+5. de s&#228;rskilda sk&#228;l som &#229;beropas, och 
+
+6. de uppgifter som anges i 8 &#167; f&#246;rsta stycket 
+milj&#246;bed&#246;mningsf&#246;rordningen (2017:966).
+
+Om s&#246;kanden ans&#246;ker om att beslutet ska g&#228;lla omedelbart 
+enligt 2 kap. 9 &#167; ellagen, ska s&#246;kanden visa att byggandet 
+eller driften av anl&#228;ggningen har liten betydelse f&#246;r 
+motst&#229;ende intressen. 
+
+Ans&#246;kan om &#228;ndring av n&#228;tkoncession
+
+9 &#167; En ans&#246;kan om &#228;ndring av en n&#228;tkoncession enligt 2 kap. 27 
+och 28 &#167;&#167; ellagen (1997:857) ska inneh&#229;lla
+
+1. uppgifter om den n&#228;tkoncession som ans&#246;kan avser,
+
+2. sk&#228;len f&#246;r ans&#246;kan,
+
+3. en karta &#246;ver den str&#228;ckning som ans&#246;kan avser, och
+
+4. den milj&#246;konsekvensbeskrivning som kr&#228;vs enligt 2 kap. 17 &#167; 
+andra stycket 2 eller 3 ellagen, om ans&#246;kan avser &#228;ndring av 
+en n&#228;tkoncession enligt 2 kap. 27 &#167; ellagen. 
+
+Ans&#246;kan om &#228;ndring av villkor
+
+10 &#167; En ans&#246;kan om &#228;ndring av villkor f&#246;r en n&#228;tkoncession 
+enligt 2 kap. 29 &#167; ellagen (1997:857) ska inneh&#229;lla
+
+1. uppgifter om vilken n&#228;tkoncession som ans&#246;kan avser,
+
+2. uppgifter om de g&#228;llande villkoren,
+
+3. sk&#228;len f&#246;r ans&#246;kan, och
+
+4. en karta som anger den ledning eller de ledningar som 
+omfattas av n&#228;tkoncessionen. 
+
+Ans&#246;kan om ompr&#246;vning av n&#228;tkoncession f&#246;r linje
+
+11 &#167; En ans&#246;kan om ompr&#246;vning av en n&#228;tkoncession enligt 
+2 kap. 31 &#167; ellagen (1997:857) ska inneh&#229;lla
+
+1. uppgifter om den n&#228;tkoncession som ans&#246;kan avser,
+
+2. en uppgift om den ber&#246;rda n&#228;tkoncessionshavaren,
+
+3. sk&#228;len f&#246;r ans&#246;kan, och
+
+4. en karta &#246;ver den str&#228;ckning som ans&#246;kan avser.
+
+Ans&#246;kan om sammanl&#228;ggning av n&#228;tkoncessioner
+
+12 &#167; En ans&#246;kan om sammanl&#228;ggning av n&#228;tkoncessioner enligt 
+2 kap. 39 &#167; ellagen (1997:857) ska inneh&#229;lla
+
+1. uppgifter om vilka n&#228;tkoncessioner som ans&#246;kan avser,
+
+2. en beskrivning av de ledningar som omfattas av 
+n&#228;tkoncessionerna,
+
+3. sk&#228;len f&#246;r ans&#246;kan, och
+
+4. en karta som anger den sammanlagda n&#228;tkoncessionen f&#246;r 
+linje eller omr&#229;de.
+
+Ans&#246;kan om delning av en n&#228;tkoncession
+
+13 &#167; En ans&#246;kan om delning av en n&#228;tkoncession enligt 2 kap. 
+41 &#167; ellagen (1997:857) ska inneh&#229;lla
+
+1. uppgifter om vilken n&#228;tkoncession som ans&#246;kan avser,
+
+2. sk&#228;len f&#246;r ans&#246;kan, och
+
+3. kartor som anger de ledningar som omfattas av respektive 
+n&#228;tkoncession efter delningen.
+
+Ans&#246;kan om tilltr&#228;de till mark f&#246;r unders&#246;kning
+
+14 &#167; En ans&#246;kan om tilltr&#228;de till mark f&#246;r unders&#246;kning enligt 
+2 kap. 57 &#167; ellagen (1997:857) ska inneh&#229;lla 
+
+1. uppgifter om vilken ledning som unders&#246;kningen avser,
+
+2. sk&#228;len f&#246;r ans&#246;kan,
+
+3. en uppgift om vilken tidsperiod som tilltr&#228;det avser och 
+under vilken &#229;rstid som s&#246;kanden planerar att utf&#246;ra 
+unders&#246;kningen,
+
+4. fastighetsbeteckningarna f&#246;r de fastigheter som s&#246;kanden 
+beh&#246;ver f&#229; tilltr&#228;de till, och
+
+5. namn och adress till de fastighets&#228;gare och andra k&#228;nda 
+sak&#228;gare som ber&#246;rs. 
+
+Gemensamma best&#228;mmelser om ans&#246;kningar
+
+15 &#167; En ans&#246;kan som avses i 5-14 &#167;&#167; ska l&#228;mnas in till 
+n&#228;tmyndigheten. 
+
+Ans&#246;kan f&#229;r l&#228;mnas in elektroniskt. 
+
+16 &#167; N&#228;tmyndigheten f&#229;r i det enskilda fallet medge undantag 
+fr&#229;n kraven i 5-14 &#167;&#167;.
+
+17 &#167; I 8 &#167; lagen (2009:1079) om tj&#228;nster p&#229; den inre marknaden 
+finns best&#228;mmelser om att ett mottagningsbevis ska skickas 
+till s&#246;kanden n&#228;r en fullst&#228;ndig ans&#246;kan har kommit in och 
+best&#228;mmelser om inneh&#229;llet i ett s&#229;dant bevis.
+
+Handl&#228;ggning av ans&#246;kningar om n&#228;tkoncession
+
+18 &#167; Om en ans&#246;kan om n&#228;tkoncession inte omedelbart avvisas 
+eller avsl&#229;s, ska yttranden inh&#228;mtas fr&#229;n
+
+1. F&#246;rsvarsmakten,
+
+2. l&#228;nsstyrelser och &#246;vriga statliga myndigheter som ber&#246;rs av 
+ans&#246;kan,
+
+3. kommuner som ber&#246;rs av ans&#246;kan,
+
+4. &#228;gare och innehavare av s&#228;rskild r&#228;tt till fastigheter som 
+ber&#246;rs av ans&#246;kan, om &#228;rendet avser n&#228;tkoncession f&#246;r linje,
+
+5. andra k&#228;nda sak&#228;gare som ber&#246;rs av ans&#246;kan, och
+
+6. innehavare av n&#228;tkoncession som ber&#246;rs av ans&#246;kan.
+
+I ett &#228;rende d&#228;r ett yttrande inh&#228;mtas ska n&#228;tmyndigheten 
+underr&#228;tta F&#246;rsvarets radioanstalt om ans&#246;kan.
+
+19 &#167; I ett &#228;rende om meddelande av n&#228;tkoncession enligt 2 kap. 
+1 &#167; ellagen (1997:857) ska beslut meddelas av n&#228;tmyndigheten 
+inom tv&#229; &#229;r fr&#229;n det att en fullst&#228;ndig ans&#246;kan kom in till 
+myndigheten. Om &#228;rendet ska pr&#246;vas av regeringen enligt 2 kap. 
+4 &#167; andra stycket ellagen, ska beslut meddelas inom fyra &#229;r 
+fr&#229;n det att en fullst&#228;ndig ans&#246;kan kom in till 
+n&#228;tmyndigheten.
+
+I ett &#228;rende om f&#246;rl&#228;ngning av en n&#228;tkoncessions giltighetstid 
+enligt 2 kap. 22 eller 26 &#167; ellagen ska beslut meddelas av 
+n&#228;tmyndigheten inom &#229;tta &#229;r efter det att en fullst&#228;ndig 
+ans&#246;kan kom in till myndigheten. Om &#228;rendet ska pr&#246;vas av 
+regeringen enligt 2 kap. 4 &#167; andra stycket ellagen, ska beslut 
+meddelas inom tio &#229;r fr&#229;n det att en fullst&#228;ndig ans&#246;kan kom 
+in till n&#228;tmyndigheten.
+
+Om det &#228;r n&#246;dv&#228;ndigt p&#229; grund av utredningen av &#228;rendet, f&#229;r 
+handl&#228;ggningstiden f&#246;rl&#228;ngas en g&#229;ng med h&#246;gst den 
+ursprungliga tidsfristens l&#228;ngd. S&#246;kanden ska informeras om 
+sk&#228;len f&#246;r att handl&#228;ggningstiden f&#246;rl&#228;ngs innan den 
+ursprungliga tidsfristen har g&#229;tt ut. F&#246;rordning (2022:663).
+
+Handl&#228;ggning av ans&#246;kningar om tilltr&#228;de till mark f&#246;r 
+unders&#246;kning
+
+20 &#167; Innan n&#228;tmyndigheten beslutar om tilltr&#228;de till mark f&#246;r 
+unders&#246;kning enligt 14 &#167;, ska F&#246;rsvarsmakten ges tillf&#228;lle att 
+yttra sig &#246;ver ans&#246;kan.
+
+N&#228;tmyndigheten ska &#228;ven underr&#228;tta F&#246;rsvarets radioanstalt om 
+ans&#246;kan. 
+
+Bemyndiganden
+
+21 &#167; N&#228;tmyndigheten f&#229;r meddela n&#228;rmare f&#246;reskrifter om
+
+1. kraven i 5-14 &#167;&#167;,
+
+2. elektronisk underskrift enligt 6 &#167; tredje stycket, och
+
+3. elektronisk inl&#228;mning enligt 15 &#167; andra stycket. 
+
+&#214;verklagande
+
+22 &#167; N&#228;tmyndigheten ska underr&#228;tta regeringen n&#228;r ett 
+&#246;verklagande &#246;verl&#228;mnas till allm&#228;n f&#246;rvaltningsdomstol i ett 
+&#228;rende d&#228;r sakfr&#229;gan &#246;verklagas till regeringen enligt 13 kap. 
+5 &#167; ellagen (1997:857). N&#228;tmyndigheten ska i st&#228;llet 
+underr&#228;tta mark- och milj&#246;domstolen om sakfr&#229;gan &#246;verklagas 
+till mark- och milj&#246;domstol enligt 13 kap. 6 &#167; ellagen.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2021:808
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 augusti 2021.
+
+2. F&#246;rordningen till&#228;mpas inte p&#229; ans&#246;kningar som har l&#228;mnats 
+in till n&#228;tmyndigheten f&#246;re ikrafttr&#228;dandet.
+
+2022:663
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2022.
+
+2. F&#246;r ans&#246;kningar som har l&#228;mnats in till n&#228;tmyndigheten f&#246;re 
+ikrafttr&#228;dandet g&#228;ller 19 &#167; i den &#228;ldre lydelsen.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=358">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=360">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

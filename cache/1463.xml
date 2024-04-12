@@ -1,0 +1,815 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-04-14" /> 
+ <meta id="rattsinfo-edited" content="2023-04-14 14:42:39" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1463</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1462">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1464">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2012:210 ·
+                    <a href="/sfsr?bet=2012:210">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Yrkestrafiklag (2012:210)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSIB TM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2012-04-26
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1210
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2012-06-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+1 &#167; Best&#228;mmelser om de villkor som ska uppfyllas av den som
+bedriver eller har f&#246;r avsikt att bedriva yrkesm&#228;ssig trafik
+och om tilltr&#228;de till de internationella marknaderna f&#246;r
+godstransporter p&#229; v&#228;g och persontransporter med buss finns i
+
+1. Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 1071/2009
+av den 21 oktober 2009 om gemensamma regler betr&#228;ffande de
+villkor som ska uppfyllas av personer som bedriver yrkesm&#228;ssig
+trafik och om upph&#228;vande av r&#229;dets direktiv 96/26/EG,
+
+2. Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 1072/2009
+av den 21 oktober 2009 om gemensamma regler f&#246;r tilltr&#228;de till
+den internationella marknaden f&#246;r godstransporter p&#229; v&#228;g, och
+
+3. Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 1073/2009
+av den 21 oktober 2009 om gemensamma regler f&#246;r tilltr&#228;de till
+den internationella marknaden f&#246;r persontransporter med buss
+och om &#228;ndring av f&#246;rordning (EG) nr 561/2006.
+
+2 &#167; Denna lag inneh&#229;ller kompletterande best&#228;mmelser till
+f&#246;rordning (EG) nr 1071/2009 samt best&#228;mmelser om vissa
+internationella v&#228;gtransporter.
+
+3 &#167; F&#246;rordning (EG) nr 1071/2009 och denna lag ska &#228;ven
+till&#228;mpas p&#229; f&#246;retag som yrkesm&#228;ssigt bedriver godstransporter
+p&#229; v&#228;g med l&#228;tta lastbilar eller personbilar med en h&#246;gsta
+till&#229;ten vikt av 3,5 ton.
+
+4 &#167; Fordonsbegreppen i denna lag har samma betydelse som i
+lagen (2001:559) om v&#228;gtrafikdefinitioner.
+
+Ytterligare definitioner finns i artikel 2 i f&#246;rordning (EG)
+nr 1071/2009.
+
+5 &#167; I denna lag betyder
+
+1. Linjetrafik          S&#229;dan yrkesm&#228;ssig trafik f&#246;r
+                        persontransporter som &#228;r
+                        tidtabellsbunden och d&#228;r ers&#228;ttningen
+                        best&#228;ms s&#228;rskilt f&#246;r varje passagerare
+                        f&#246;r sig. En f&#246;ruts&#228;ttning &#228;r vidare
+                        att trafiken inte ing&#229;r som ett led i
+                        ett sammanh&#228;ngande arrangemang, d&#228;r
+                        huvudsyftet &#228;r ett annat &#228;n sj&#228;lva
+                        transporten.
+
+2. Best&#228;llningstrafik   S&#229;dan yrkesm&#228;ssig trafik f&#246;r
+                        persontransporter med buss som
+                        inte &#228;r linjetrafik.
+
+Beh&#246;rig myndighet
+
+6 &#167; Den myndighet som regeringen best&#228;mmer &#228;r beh&#246;rig
+myndighet enligt f&#246;rordning (EG) nr 1071/2009 och ska fullg&#246;ra
+de uppgifter om rapportering som ankommer p&#229; Sverige som
+medlemsstat enligt artikel 26 i samma f&#246;rordning. Den beh&#246;riga
+myndigheten pr&#246;var ocks&#229; fr&#229;gor enligt denna lag.
+
+2 kap. Tillst&#229;nd att bedriva yrkesm&#228;ssig trafik
+
+Tillst&#229;ndsplikt
+
+1 &#167; Yrkesm&#228;ssig trafik f&#229;r bedrivas endast av den som har ett
+s&#229;dant gemenskapstillst&#229;nd som avses i artikel 4 i f&#246;rordning
+(EG) nr 1072/2009 eller i artikel 4 i f&#246;rordning (EG) nr
+1073/2009, och som har utf&#228;rdats av den beh&#246;riga myndigheten,
+eller ett yrkestrafiktillst&#229;nd.
+
+Den som bedriver linjetrafik f&#229;r anlita n&#229;gon annan f&#246;r att
+utf&#246;ra trafiken. Den som utf&#246;r trafiken ska ha tillst&#229;nd till
+yrkesm&#228;ssig trafik f&#246;r persontransporter p&#229; v&#228;g eller
+taxitrafiktillst&#229;nd enligt taxitrafiklagen (2012:211).
+
+Krav p&#229; gott anseende
+
+2 &#167; Vilka som omfattas av pr&#246;vningen i fr&#229;ga om kravet p&#229; gott 
+anseende framg&#229;r av artikel 6.1 i f&#246;rordning (EG) nr 
+1071/2009. 
+
+D&#228;rut&#246;ver ska pr&#246;vningen i fr&#229;ga om en privatr&#228;ttslig juridisk 
+person eller en n&#228;ringsidkare som &#228;r bosatt utanf&#246;r Europeiska 
+ekonomiska samarbetsomr&#229;det (EES) avse f&#246;ljande personer:
+
+1. n&#229;gon annan som genom en ledande st&#228;llning eller p&#229; annat 
+s&#228;tt har ett best&#228;mmande inflytande &#246;ver verksamheten,
+
+2. de styrelseledam&#246;ter och styrelsesuppleanter som till f&#246;ljd 
+av eget eller n&#228;rst&#229;endes ekonomiska intresse har en v&#228;sentlig 
+gemenskap med den juridiska personen som &#228;r grundad p&#229; 
+andelsr&#228;tt eller d&#228;rmed j&#228;mf&#246;rligt ekonomiskt intresse, och
+
+3. bolagsm&#228;nnen i kommanditbolag eller andra handelsbolag.
+
+Som n&#228;rst&#229;ende till en styrelseledamot eller en 
+styrelsesuppleant anses den som enligt 4 kap. 3 &#167; f&#246;rsta 
+stycket konkurslagen (1987:672) &#228;r att anse som n&#228;rst&#229;ende 
+till g&#228;lden&#228;ren. Lag (2022:465).
+
+3 &#167; Om n&#229;gon av dem som anges i 2 &#167; byts ut eller om det
+tillkommer n&#229;gon s&#229;dan person, ska den nya personens goda
+anseende pr&#246;vas.
+
+4 &#167; Vid pr&#246;vningen av om ett f&#246;retag, en trafikansvarig, en 
+verkst&#228;llande direkt&#246;r eller n&#229;gon som anges i 2 &#167; andra 
+stycket eller 3 &#167; uppfyller kravet p&#229; gott anseende ska 
+laglydnad och andra omst&#228;ndigheter av betydelse beaktas.
+
+Kravet p&#229; gott anseende anses inte uppfyllt av den som har
+
+1. d&#246;mts f&#246;r eller p&#229; annat s&#228;tt p&#229;f&#246;rts en sanktion f&#246;r en 
+eller flera allvarliga eller upprepade &#246;vertr&#228;delser av 
+best&#228;mmelser inom de omr&#229;den som anges i artikel 6.1 tredje 
+stycket i f&#246;rordning (EG) nr 1071/2009, eller
+
+2. i annat fall d&#246;mts f&#246;r ett allvarligt brott, inr&#228;knat ett 
+allvarligt ekonomiskt brott. Lag (2022:465).
+
+5 &#167; Om en ans&#246;kan om tillst&#229;nd avsl&#229;s p&#229; grund av 
+omst&#228;ndigheter som avses i 4 &#167; ska en tid p&#229; l&#228;gst sex m&#229;nader 
+och h&#246;gst fem &#229;r best&#228;mmas, under vilken den pr&#246;vade ska anses 
+ol&#228;mplig att bedriva yrkesm&#228;ssig trafik (ol&#228;mplighetstid). En 
+ans&#246;kan f&#229;r dock avsl&#229;s utan att en ol&#228;mplighetstid best&#228;ms, 
+om det finns s&#228;rskilda sk&#228;l. Lag (2022:465).
+
+Krav p&#229; ekonomiska resurser
+
+5 a &#167; Vid pr&#246;vningen av om ett f&#246;retag uppfyller kravet p&#229; 
+ekonomiska resurser enligt artikel 3.1 c i f&#246;rordning (EG) nr 
+1071/2009, ska viljan och f&#246;rm&#229;gan hos f&#246;retaget, den 
+trafikansvarige, den verkst&#228;llande direkt&#246;ren och dem som 
+anges i 2 &#167; andra stycket att fullg&#246;ra sina skyldigheter mot 
+det allm&#228;nna beaktas. 
+
+Om den trafikansvarige, den verkst&#228;llande direkt&#246;ren eller 
+n&#229;gon av dem som anges i 2 &#167; andra stycket byts ut eller om 
+det tillkommer n&#229;gon s&#229;dan person, ska viljan och f&#246;rm&#229;gan hos 
+den nya personen att fullg&#246;ra sina skyldigheter mot det 
+allm&#228;nna pr&#246;vas. Lag (2022:465).
+
+5 b &#167; Ett f&#246;retag ska f&#246;rfoga &#246;ver kapital och reserver enligt 
+artikel 7.1 i f&#246;rordning (EG) nr 1071/2009 till ett v&#228;rde av 
+minst 
+
+- 9 000 euro f&#246;r det f&#246;rsta motordrivna fordon som anv&#228;nds i 
+verksamheten, och 
+
+- 5 000 euro f&#246;r varje ytterligare s&#229;dant fordon som anv&#228;nds.
+Lag (2022:465).
+
+Yrkeskunnande
+
+6 &#167; Den myndighet som regeringen best&#228;mmer utformar respektive
+anordnar skriftliga examensprov i yrkeskunnande i enlighet med
+artikel 8 i f&#246;rordning (EG) nr 1071/2009.
+
+Villkor f&#246;r tillst&#229;nd
+
+7 &#167; Har upph&#228;vts genom lag (2022:465).
+
+Yrkestrafiktillst&#229;ndets giltighet
+
+8 &#167; Ett yrkestrafiktillst&#229;nd g&#228;ller tills vidare. Om det finns
+s&#228;rskilda sk&#228;l, f&#229;r tillst&#229;ndet begr&#228;nsas till en viss tid.
+
+S&#228;rskild regel f&#246;r persontransporter
+
+9 &#167; Den som har tillst&#229;nd till persontransporter f&#229;r &#228;ven
+frakta gods med de fordon som tillst&#229;ndet avser, under
+f&#246;ruts&#228;ttning att persontransporter utg&#246;r den huvudsakliga
+delen av transportverksamheten.
+
+Krav p&#229; f&#246;rarbeh&#246;righet i vissa fall
+
+10 &#167; Traktort&#229;g eller tung terr&#228;ngvagn f&#229;r vid yrkesm&#228;ssiga
+gods-transporter endast f&#246;ras av den som har k&#246;rkort med
+beh&#246;righeten C eller CE.
+
+11 &#167; Ett utl&#228;ndskt k&#246;rkort medf&#246;r inte r&#228;tt f&#246;r n&#229;gon annan &#228;n
+en medborgare i en stat inom Europeiska ekonomiska
+samarbetsomr&#229;det (EES) att k&#246;ra ett svenskregistrerat
+motordrivet fordon i yrkesm&#228;ssig trafik.
+
+F&#246;r internationella transporter inom EES finns det s&#228;rskilda
+best&#228;mmelser i f&#246;rordningarna (EG) nr 1072/2009 och (EG) nr
+1073/2009.
+
+3 kap. Internationella v&#228;gtransporter
+
+Inledande best&#228;mmelse
+
+1 &#167; Med internationella v&#228;gtransporter avses i denna lag
+yrkesm&#228;ssiga transporter p&#229; v&#228;g av personer eller gods till
+eller fr&#229;n Sverige eller i transittrafik genom Sverige.
+
+F&#246;r internationella transporter inom Europeiska ekonomiska
+samarbetsomr&#229;det (EES) finns det s&#228;rskilda best&#228;mmelser i
+f&#246;rordningarna (EG) nr 1072/2009 och (EG) nr 1073/2009.
+
+Tillst&#229;ndsplikt f&#246;r transporter med fordon som &#228;r registrerade
+i Sverige
+
+2 &#167; Internationella v&#228;gtransporter och yrkesm&#228;ssig trafik utom
+landet med fordon som &#228;r registrerade i Sverige f&#229;r bedrivas
+endast av den som har tillst&#229;nd att bedriva yrkesm&#228;ssig trafik
+enligt denna lag.
+
+3 &#167; P&#229; grund av en &#246;verenskommelse mellan Sverige och en annan
+stat kan det vid trafik som avses i 2 &#167; kr&#228;vas s&#228;rskilt
+tillst&#229;nd f&#246;r transport av personer eller gods med ett fordon
+som &#228;r registrerat i Sverige (transporttillst&#229;nd).
+
+Tillst&#229;ndsplikt f&#246;r transporter med fordon som &#228;r registrerade
+i utlandet
+
+4 &#167; Internationella v&#228;gtransporter och annan yrkesm&#228;ssig
+trafik i Sverige med fordon som &#228;r registrerade i utlandet f&#229;r
+utf&#246;ras endast av den som har getts tillst&#229;nd av en beh&#246;rig
+utl&#228;ndsk myndighet till s&#229;dana transporter.
+
+5 &#167; P&#229; grund av en &#246;verenskommelse mellan Sverige och en annan
+stat kan det vid trafik som avses i 4 &#167; ut&#246;ver tillst&#229;nd
+enligt den best&#228;mmelsen kr&#228;vas s&#228;rskilt tillst&#229;nd av en
+beh&#246;rig utl&#228;ndsk myndighet f&#246;r transport av personer eller
+gods med ett fordon som &#228;r registrerat i utlandet.
+
+Vid trafik som avses i 4 &#167;, med fordon registrerade i en stat
+med vilken Sverige inte har n&#229;gon &#246;verenskommelse om
+v&#228;gtransporter, kr&#228;vs ut&#246;ver tillst&#229;nd enligt den best&#228;mmelsen
+tillst&#229;nd av beh&#246;rig svensk myndighet.
+
+Tillst&#229;ndspr&#246;vning
+
+6 &#167; Transporttillst&#229;nd f&#229;r endast meddelas den som kan
+f&#246;rv&#228;ntas iaktta de best&#228;mmelser som g&#228;ller f&#246;r trafiken.
+
+7 &#167; N&#228;r ett transporttillst&#229;nd meddelas ska det f&#246;renas med de
+villkor som beh&#246;vs.
+
+8 &#167; Ett transporttillst&#229;nd f&#229;r inte &#246;verl&#229;tas utan medgivande
+av den myndighet som har meddelat det.
+
+4 kap. Ol&#228;mplighetsf&#246;rklaring, &#229;terkallelse och tillsyn
+
+Ol&#228;mplighetsf&#246;rklaring
+
+1 &#167; Om ett tillst&#229;nd att bedriva yrkesm&#228;ssig trafik &#229;terkallas 
+enligt artikel 13 i f&#246;rordning (EG) nr 1071/2009 p&#229; grund av 
+att en verkst&#228;llande direkt&#246;r eller n&#229;gon som pr&#246;vats enligt 
+2 kap. 2 &#167; andra stycket eller 3 &#167; inte l&#228;ngre uppfyller 
+kravet p&#229; gott anseende enligt 2 kap. 4 &#167;, ska den pr&#246;vade 
+f&#246;rklaras ol&#228;mplig att bedriva yrkesm&#228;ssig trafik. 
+Lag (2022:465).
+
+&#197;teruppr&#228;ttande av gott anseende
+
+2 &#167; En tid p&#229; l&#228;gst tre och h&#246;gst fem &#229;r, under vilken den 
+pr&#246;vade ska anses ol&#228;mplig att bedriva yrkesm&#228;ssig trafik, ska 
+best&#228;mmas 
+
+1. vid en ol&#228;mplighetsf&#246;rklaring av en trafikansvarig enligt 
+artikel 14 i f&#246;rordning (EG) nr 1071/2009, eller
+
+2. vid en ol&#228;mplighetsf&#246;rklaring enligt 1 &#167;.
+
+En trafikansvarig ska inte l&#228;ngre anses ol&#228;mplig att bedriva 
+yrkesm&#228;ssig trafik n&#228;r ol&#228;mplighetstiden enligt f&#246;rsta stycket 
+f&#246;rflutit och den trafikansvarige d&#228;refter avlagt ett s&#229;dant 
+skriftligt examensprov som avses i artikel 8.1 i f&#246;rordning 
+(EG) nr 1071/2009. Lag (2022:465).
+
+3 &#167; Har upph&#228;vts genom lag (2022:465).
+
+Tidsfrister
+
+4 &#167; Tidsfristerna vid tillf&#228;llig indragning eller &#229;terkallelse 
+av ett tillst&#229;nd att bedriva yrkesm&#228;ssig trafik i artikel 13.1 
+a i f&#246;rordning (EG) nr 1071/2009 ska ocks&#229; till&#228;mpas n&#228;r en 
+verkst&#228;llande direkt&#246;r eller n&#229;gon som pr&#246;vats enligt 2 kap. 
+2 &#167; andra stycket inte l&#228;ngre uppfyller kravet p&#229; gott 
+anseende. Lag (2022:465).
+
+&#197;terkallelse av tillst&#229;nd att bedriva yrkesm&#228;ssig trafik p&#229;
+tillst&#229;ndshavarens beg&#228;ran
+
+5 &#167; Ett tillst&#229;nd att bedriva yrkesm&#228;ssig trafik ska
+&#229;terkallas p&#229; tillst&#229;ndshavarens beg&#228;ran om
+transportverksamhet inte har bedrivits eller upph&#246;r.
+
+&#197;terkallelse av transporttillst&#229;nd
+
+6 &#167; N&#228;r ett tillst&#229;nd att bedriva yrkesm&#228;ssig trafik
+&#229;terkallas eller tillf&#228;lligt dras in enligt artikel 13 i
+f&#246;rordning (EG) nr 1071/2009 ska den beh&#246;riga myndigheten &#228;ven
+&#229;terkalla eller tillf&#228;lligt dra in tillst&#229;ndshavarens
+transporttillst&#229;nd.
+
+Best&#228;mmelserna om &#229;terkallelse och tillf&#228;llig indragning av
+tillst&#229;nd att bedriva yrkesm&#228;ssig trafik i artikel 13 i
+f&#246;rordning (EG) nr 1071/2009 och best&#228;mmelserna i 1–5 &#167;&#167; ska
+till&#228;mpas &#228;ven i fr&#229;ga om transporttillst&#229;nd.
+
+Gemensamma best&#228;mmelser
+
+7 &#167; Till grund f&#246;r tillf&#228;llig indragning eller &#229;terkallelse av
+ett tillst&#229;nd att bedriva yrkesm&#228;ssig trafik med anledning av
+brottslig g&#228;rning, ska betr&#228;ffande fr&#229;gan om brott f&#246;religger
+l&#228;ggas
+
+1. en lagakraftvunnen dom,
+
+2. ett godk&#228;nt straff&#246;rel&#228;ggande,
+
+3. ett godk&#228;nt f&#246;rel&#228;ggande av ordningsbot, eller
+
+4. ett beslut om &#229;talsunderl&#229;telse enligt 20 kap. 7 &#167;
+r&#228;tteg&#229;ngsbalken eller motsvarande best&#228;mmelse i annan
+f&#246;rfattning.
+
+8 &#167; Med en svensk dom j&#228;mst&#228;lls en brottm&#229;lsdom eller ett
+annat likv&#228;rdigt avg&#246;rande som har meddelats av en utl&#228;ndsk
+domstol eller n&#229;gon annan utl&#228;ndsk myndighet.
+
+9 &#167; Den som &#229;tg&#228;rden g&#228;ller ska delges
+
+1. en underr&#228;ttelse enligt artikel 13.1 i f&#246;rordning (EG) nr
+1071/2009 om att ett f&#246;retag riskerar att inte l&#228;ngre uppfylla
+kraven f&#246;r att bedriva yrkesm&#228;ssig trafik,
+
+2. ett beslut om tillf&#228;llig indragning eller &#229;terkallelse av
+ett tillst&#229;nd att bedriva yrkesm&#228;ssig trafik enligt artikel 13
+i f&#246;rordning (EG) nr 1071/2009,
+
+3. ett beslut om tillf&#228;llig indragning eller &#229;terkallelse av
+ett transporttillst&#229;nd, eller
+
+4. ett beslut om ol&#228;mplighetsf&#246;rklaring enligt artikel 14 i
+f&#246;rordning (EG) nr 1071/2009 eller 1 &#167;.
+
+Tillsyn
+
+10 &#167; Den myndighet som regeringen best&#228;mmer ut&#246;var tillsyn
+&#246;ver att tillst&#229;ndshavare bedriver verksamheten i enlighet med
+denna lag och f&#246;reskrifter som har meddelats i anslutning till
+lagen.
+
+11 &#167; Best&#228;mmelser om tillsyn &#246;ver handikappanpassning av
+kollektivtrafik finns i lagen (1979:558) om handikappanpassad
+kollektivtrafik.
+
+5 kap. Straffbest&#228;mmelser, hindrande av fortsatt f&#228;rd och
+bitr&#228;de vid f&#246;runders&#246;kning
+
+Olaga yrkesm&#228;ssig trafik
+
+1 &#167; Den som upps&#229;tligen bedriver yrkesm&#228;ssig trafik enligt 
+f&#246;rordning (EG) nr 1071/2009 eller denna lag utan tillst&#229;nd 
+d&#246;ms f&#246;r olaga yrkesm&#228;ssig trafik till b&#246;ter eller f&#228;ngelse i 
+h&#246;gst ett &#229;r. Lag (2022:465).
+
+Best&#228;llaransvar
+
+2 &#167; Har yrkesm&#228;ssig trafik enligt f&#246;rordning (EG) nr 
+1071/2009 eller denna lag bedrivits utan tillst&#229;nd, d&#246;ms den 
+som yrkesm&#228;ssigt f&#246;r egen eller annans r&#228;kning har best&#228;llt 
+transporten till b&#246;ter eller f&#228;ngelse i h&#246;gst ett &#229;r, om han 
+eller hon 
+
+1. vid tidpunkten f&#246;r best&#228;llningen k&#228;nde till eller hade 
+sk&#228;lig anledning att anta att tillst&#229;nd saknades, eller 
+
+2. best&#228;llt transporten av trafikut&#246;varen och upps&#229;tligen 
+eller av oaktsamhet inte kontrollerat innehavet av tillst&#229;nd 
+vid tidpunkten f&#246;r transporten p&#229; ett s&#228;tt som sk&#228;ligen kan 
+beg&#228;ras. Lag (2018:629).
+
+Brott mot best&#228;mmelserna om krav p&#229; f&#246;rarbeh&#246;righet i vissa
+fall
+
+3 &#167; Den som upps&#229;tligen bryter mot best&#228;mmelserna i 2 kap. 10
+eller 11 &#167; f&#246;rsta stycket d&#246;ms till b&#246;ter.
+
+4 &#167; Den som i fall som avses i 2 kap. 10 eller 11 &#167; f&#246;rsta
+stycket upps&#229;tligen eller av oaktsamhet &#246;verl&#228;mnar &#229;t eller p&#229;
+annat s&#228;tt till&#229;ter n&#229;gon annan att f&#246;ra fordon utan att denne
+&#228;r ber&#228;ttigad till det d&#246;ms till b&#246;ter.
+
+Hindrande av fortsatt f&#228;rd
+
+5 &#167; Om ett fordon framf&#246;rs i strid med f&#246;rordning (EG) nr 
+1071/2009, denna lag eller en f&#246;reskrift som har meddelats med 
+st&#246;d av lagen f&#229;r en polisman eller tulltj&#228;nsteman hindra 
+fortsatt f&#228;rd. Polismannen eller tulltj&#228;nstemannen f&#229;r d&#229; 
+medge att det fordon med vilket transporten sker f&#246;rs till 
+n&#228;rmaste l&#228;mpliga uppst&#228;llnings- eller avlastningsplats eller 
+verkstad. I fr&#229;ga om ett fordon som &#228;r registrerat i utlandet 
+och som f&#246;rs in i Sverige f&#229;r polismannen eller 
+tulltj&#228;nstemannen medge att det omedelbart f&#246;rs ut ur landet.
+Lag (2022:465).
+
+Bitr&#228;de vid f&#246;runders&#246;kning
+
+6 &#167; Vid f&#246;runders&#246;kning som g&#228;ller brott enligt 1 &#167; f&#229;r 
+&#229;klagare beg&#228;ra hj&#228;lp av Tullverket och ge en tulltj&#228;nsteman 
+i uppdrag att genomf&#246;ra en viss &#229;tg&#228;rd under 
+f&#246;runders&#246;kningen, om det &#228;r l&#228;mpligt med h&#228;nsyn till 
+omst&#228;ndigheterna. Polismyndigheten har motsvarande r&#228;tt d&#229; 
+den leder f&#246;runders&#246;kningen.
+
+Om det finns anledning att anta att brott enligt f&#246;rsta 
+stycket har f&#246;r&#246;vats, har en tulltj&#228;nsteman samma befogenhet 
+som en polisman att h&#229;lla f&#246;rh&#246;r och vidta andra &#229;tg&#228;rder 
+enligt 23 kap. 3 &#167; fj&#228;rde stycket r&#228;tteg&#229;ngsbalken.
+Lag (2016:541).
+
+6 kap. &#214;verklagande och verkst&#228;llighet
+
+Yrkesm&#228;ssig trafik
+
+1 &#167; Den beh&#246;riga myndighetens beslut i fr&#229;gor om yrkesm&#228;ssig
+trafik f&#229;r &#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol.
+
+2 &#167; Beslut i fr&#229;ga om skriftliga examensprov som avses i
+artikel 8.1 i f&#246;rordning (EG) nr 1071/2009 f&#229;r inte
+&#246;verklagas.
+
+Transporttillst&#229;nd
+
+3 &#167; Den beh&#246;riga myndighetens beslut i fr&#229;gor om
+transporttillst&#229;nd och tillst&#229;nd enligt 3 kap. 5 &#167; andra
+stycket f&#229;r &#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol.
+
+Gemensamma best&#228;mmelser
+
+4 &#167; I fr&#229;ga om den beh&#246;riga myndighetens beslut enligt 
+f&#246;rordning (EG) nr 1071/2009, denna lag eller f&#246;reskrifter som 
+har meddelats i anslutning till lagen, som f&#229;r &#246;verklagas till 
+allm&#228;n f&#246;rvaltningsdomstol g&#228;ller f&#246;ljande. 
+
+Ett beslut som r&#246;r en fysisk person &#246;verklagas till den 
+f&#246;rvaltningsr&#228;tt inom vars domkrets personen &#228;r folkbokf&#246;rd 
+eller, om denne inte &#228;r folkbokf&#246;rd i Sverige, till den 
+f&#246;rvaltningsr&#228;tt inom vars domkrets personen vistas.
+
+Ett beslut som r&#246;r en juridisk person, varmed avses &#228;ven 
+offentligr&#228;ttsliga juridiska personer som staten, en kommun, 
+ett kommunalf&#246;rbund eller en region, &#246;verklagas till den 
+f&#246;rvaltningsr&#228;tt inom vars domkrets f&#246;retagets eller 
+verksamhetens ledning finns.
+
+Beslut i andra fall &#228;n som s&#228;gs i andra och tredje styckena 
+&#246;verklagas till den f&#246;rvaltningsr&#228;tt inom vars domkrets 
+beslutet meddelades. Lag (2019:955).
+
+5 &#167; Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tt.
+
+6 &#167; Den beh&#246;riga myndigheten f&#229;r f&#246;ra talan &#228;ven till f&#246;rm&#229;n
+f&#246;r den enskilda parten.
+
+Verkst&#228;llighet
+
+7 &#167; Den beh&#246;riga myndighetens beslut enligt f&#246;rordning (EG) nr
+
+1071/2009, denna lag eller f&#246;reskrifter som har meddelats i
+anslutning till lagen och regeringens beslut enligt denna lag
+ska g&#228;lla omedelbart, om inte annat f&#246;rordnas.
+
+7 kap. Bemyndiganden
+
+1 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+f&#229;r meddela f&#246;reskrifter om eller i enskilda fall medge
+undantag fr&#229;n f&#246;rordning (EG) nr 1071/2009 eller denna lag.
+Ett beslut om undantag f&#229;r f&#246;renas med villkor.
+
+2 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+f&#229;r meddela ytterligare f&#246;reskrifter om
+
+1. krav f&#246;r att f&#229; bedriva yrkesm&#228;ssig trafik,
+
+2. tillst&#229;nd att bedriva yrkesm&#228;ssig trafik,
+
+3. trafikansvariga,
+
+4. prov i yrkeskunnande f&#246;r tillst&#229;nd att bedriva yrkesm&#228;ssig
+trafik,
+
+5. kontroll av yrkesm&#228;ssig trafik, och
+
+6. internationella v&#228;gtransporter.
+
+3 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om 
+
+1. kunskapskrav f&#246;r fordonsbes&#228;ttningar vid v&#228;gtransporter,
+
+2. avgifter f&#246;r tillsyn och &#228;rendehandl&#228;ggning enligt 
+f&#246;rordning (EG) nr 1071/2009, denna lag och enligt 
+f&#246;reskrifter som har meddelats i anslutning till lagen, och
+
+3. avst&#228;ngning under viss tid fr&#229;n prov i yrkeskunnande. 
+Lag (2022:1210).
+
+4 &#167; Regeringen f&#229;r meddela f&#246;reskrifter om sanktionsavgifter 
+vid &#246;vertr&#228;delser av 
+
+1. anm&#228;lningskrav i f&#246;rordning (EG) nr 1071/2009 och i 
+f&#246;reskrifter som har meddelats med st&#246;d av denna lag, 
+
+2. krav p&#229; tillst&#229;nd i f&#246;rordning (EG) nr 1072/2009, 
+
+3. krav p&#229; kontrolldokument och tillst&#229;nd i f&#246;rordning (EG) nr 
+1073/2009, 
+
+4. krav p&#229; kontrolldokument och tillst&#229;nd i den 
+&#246;verenskommelse som bifogats r&#229;dets beslut 2002/917/EG av den 
+3 oktober 2002 om ing&#229;endet av Interbus-&#246;verenskommelsen om 
+tillf&#228;llig internationell persontransport med buss, och 
+
+5. krav p&#229; tillst&#229;nd som avses i 3 kap. 3 eller 5 &#167; denna lag. 
+
+Regeringen f&#229;r &#228;ven meddela f&#246;reskrifter om sanktionsavgifter 
+vid &#246;vertr&#228;delser av best&#228;mmelser om cabotagetransport i 
+f&#246;rordning (EG) nr 1072/2009. Lag (2022:465).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2012:210
+
+1. Denna lag tr&#228;der i kraft den 1 juni 2013 i fr&#229;ga om 2 kap.
+10 &#167; och i &#246;vrigt den 1 juni 2012.
+
+2. Yrkestrafiklagen (1998:490) ska upph&#246;ra att g&#228;lla den 1
+juni 2012.
+
+3. F&#246;r krav p&#229; f&#246;rarbeh&#246;righet i vissa fall g&#228;ller 3 kap. 10 &#167;
+i den upph&#228;vda lagen till och med den 31 maj 2013.
+
+4. Trafiktillst&#229;nd f&#246;r linjetrafik, best&#228;llningstrafik med
+buss eller godstrafik som har meddelats enligt &#228;ldre
+best&#228;mmelser g&#228;ller fortfarande.
+
+5. Om ett tillst&#229;nd som har meddelats enligt &#228;ldre
+best&#228;mmelser har begr&#228;nsats till att g&#228;lla endast under viss
+tid, ska begr&#228;nsningen fortfarande g&#228;lla. &#196;ven &#246;vriga villkor
+f&#246;renade med och begr&#228;nsningar av ett s&#229;dant tillst&#229;nd ska
+fortfarande g&#228;lla.
+
+6. F&#246;reskrifter om annan yrkesm&#228;ssig trafik &#228;n taxitrafik som
+har meddelats med st&#246;d av yrkestrafiklagen (1998:490) och som
+g&#228;ller n&#228;r denna lag tr&#228;der i kraft ska anses meddelade enligt
+denna lag.
+
+7. Om det i en lag eller annan f&#246;rfattning h&#228;nvisas till en
+f&#246;reskrift i yrkestrafiklagen (1998:490) som har ersatts genom
+en f&#246;reskrift i f&#246;rordning (EG) nr 1071/2009 eller denna lag,
+till&#228;mpas i st&#228;llet den nya f&#246;reskriften.
+
+2022:465
+
+1. Denna lag tr&#228;der i kraft den 15 juni 2022.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande vid pr&#246;vning i 
+domstol av beslut som har meddelats f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1462">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1464">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

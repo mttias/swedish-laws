@@ -1,0 +1,815 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2005-04-04" /> 
+ <meta id="rattsinfo-edited" content="2018-10-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2362</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2361">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2363">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2005:142 ·
+                    <a href="/sfsr?bet=2005:142">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2005:142) om inskrivning av r&#228;tt till luftfartyg
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2005-03-17
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:298
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2005-04-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller n&#228;rmare f&#246;reskrifter om
+inskrivning av r&#228;tt till luftfartyg.
+
+2 &#167; Transportstyrelsen &#228;r inskrivningsmyndighet enligt 1 b &#167;
+lagen (1955:227) om inskrivning av r&#228;tt till luftfartyg.
+F&#246;rordning (2008:1221).
+
+Personuppgifter och register&#228;ndam&#229;l
+
+3 &#167; Inskrivningsmyndigheten &#228;r personuppgiftsansvarig f&#246;r 
+den behandling av personuppgifter som sker i 
+inskrivningsregistret f&#246;r luftfartyg.
+
+Inskrivningsmyndigheten ska se till att det inte f&#246;rekommer 
+n&#229;got otillb&#246;rligt intr&#229;ng i de registrerades personliga 
+integritet eller n&#229;gra risker fr&#229;n s&#228;kerhetssynpunkt. F&#246;r 
+dessa syften f&#229;r inskrivningsmyndigheten i enskilda fall 
+st&#228;lla upp s&#228;rskilda villkor f&#246;r behandlingen av 
+personuppgifter. F&#246;rordning (2018:298).
+
+4 &#167; I fr&#229;ga om personuppgifter skall registret ha till &#228;ndam&#229;l
+att tillhandah&#229;lla uppgifter f&#246;r
+
+1. verksamhet som staten ansvarar f&#246;r enligt lag eller annan
+f&#246;rfattning och
+
+a) som avser s&#229;dan egendom som registreras i registret,
+
+b) som avser fullg&#246;rande av underr&#228;ttelseskyldighet, eller
+
+c) som f&#246;r att kunna utf&#246;ras f&#246;ruts&#228;tter tillg&#229;ng till den
+information som finns i registret,
+
+2. f&#246;rv&#228;rv, avyttring eller nyttjande av s&#229;dan egendom som
+registreras i registret, och
+
+3. kreditgivning eller annan allm&#228;n eller enskild verksamhet
+d&#228;r den information som ing&#229;r i registret utg&#246;r underlag f&#246;r
+pr&#246;vningar eller beslut.
+
+5 &#167; Inskrivningsmyndigheten f&#229;r f&#246;r de &#228;ndam&#229;l som anges i 4 &#167;
+ge en annan myndighet eller n&#229;gon annan direkt&#229;tkomst till
+inskrivningsregistret.
+
+Inskrivningsregistrets inneh&#229;ll
+
+6 &#167; Registret skall inneh&#229;lla de uppgifter som framg&#229;r av
+7-–12 &#167;&#167;.
+
+Registret f&#229;r &#228;ven inneh&#229;lla annan information som har samband
+med information som ing&#229;r i registret (till&#228;ggsinformation).
+Best&#228;mmelser om s&#229;dan information finns i 24 &#167;.
+
+Till&#228;ggsinformation skall redovisas skild fr&#229;n &#246;vriga uppgifter
+i registret.
+
+7 &#167; Inskrivningsregistret skall vara uppdelat i avdelningar f&#246;r
+
+1. luftfartyg,
+
+2. f&#246;rv&#228;rv,
+
+3. nyttjander&#228;tter,
+
+4. inteckningar, och
+
+5. &#246;vriga anteckningar.
+
+8 &#167; I avdelningen f&#246;r luftfartyg inf&#246;rs
+
+1. luftfartygets nationalitets- och registreringsbeteckning,
+
+2. luftfartygets tillverkare och tillverkarens typbeteckning,
+
+3. luftfartygets tillverkningsnummer,
+
+4. anteckning om att luftfartyget avf&#246;rts ur
+luftfartygsregistret, och
+
+5. anteckning om att luftfartyget enligt 2 kap. 6 &#167;
+luftfartslagen (2010:500) ska avf&#246;ras fr&#229;n
+luftfartygsregistret, men att medgivande enligt 2 kap. 7 &#167;
+samma lag inte har l&#228;mnats. F&#246;rordning (2010:1082).
+
+9 &#167; I avdelningen f&#246;r f&#246;rv&#228;rv inf&#246;rs
+
+1. s&#246;kandens person-, samordnings- eller organisationsnummer,
+om s&#229;dant finns, namn, hemvist och postadress och, betr&#228;ffande
+utl&#228;nning, nationalitet,
+
+2. anteckning om inskrivningsdag och dagboksnummer f&#246;r ans&#246;kan
+om inskrivning,
+
+3. anteckning om f&#246;rv&#228;rvets omfattning och art samt dagen f&#246;r
+f&#246;rv&#228;rvet,
+
+4. anteckning om &#228;gander&#228;ttsf&#246;rbeh&#229;ll eller annat villkor som
+inskr&#228;nker r&#228;tten att &#246;verl&#229;ta, uppl&#229;ta eller inteckna
+luftfartyget, tillsammans med namn, person-, samordnings- eller
+organisationsnummer, om s&#229;dant finns, hemvist och postadress
+f&#246;r den till vars f&#246;rm&#229;n villkoret g&#228;ller,
+
+5. beslut som innefattar bifall till ans&#246;kan, om beslutsdagen
+inte &#228;r densamma som dagen f&#246;r ans&#246;kan,
+
+6. beslut som inte innefattar bifall till ans&#246;kan,
+
+7. h&#228;nvisning till en ny f&#246;rv&#228;rvares ans&#246;kan och omfattningen
+av dennes f&#246;rv&#228;rv, om ans&#246;kan inte bifallits,
+
+8. anteckning om namn&#228;ndring f&#246;r &#228;gare,
+
+9. anteckning om att f&#246;rv&#228;rvet &#228;r ofullbordat,
+
+10. anteckning om &#246;verklagande av beslut om inskrivning av
+f&#246;rv&#228;rv och om lagakraftvunnet beslut i anledning av
+&#246;verklagandet,
+
+11. anteckning om att talan har v&#228;ckts om h&#228;vning eller
+&#229;terg&#229;ng av f&#246;rv&#228;rv av ett luftfartyg eller om b&#228;ttre r&#228;tt till
+s&#229;dan egendom,
+
+12. anteckning om att m&#229;l som avses i 11 har avgjorts genom dom
+eller slutligt beslut som vunnit laga kraft, och
+
+13. anteckning om att &#228;garen till ett luftfartyg har f&#246;rsatts i
+konkurs.
+
+Om s&#246;kanden f&#246;rv&#228;rvat luftfartyget eller andel i detta genom
+flera f&#246;rv&#228;rv, anges det sammanlagda innehav f&#246;r vilket
+inskrivning s&#246;kts eller beviljats. Omfattningen av de skilda
+f&#246;rv&#228;rven skall i s&#229;dant fall inte anges.
+
+Har inskrivning beviljats eller s&#246;kts f&#246;r staten, inf&#246;rs
+uppgift om vilken myndighet som f&#246;rvaltar luftfartyget.
+
+10 &#167; I avdelningen f&#246;r nyttjander&#228;tter inf&#246;rs
+
+1. s&#246;kandens person-, samordnings- eller organisationsnummer,
+om s&#229;dant finns, namn, hemvist och postadress och, betr&#228;ffande
+utl&#228;nning, nationalitet,
+
+2. anteckning om nyttjander&#228;ttens beskaffenhet och dagen f&#246;r
+uppl&#229;telsen,
+
+3. anteckning om inskrivningsdag och dagboksnummer f&#246;r ans&#246;kan,
+
+4. beslut som innefattar bifall till ans&#246;kan, om beslutsdagen
+inte &#228;r densamma som dagen f&#246;r ans&#246;kan,
+
+5. beslut som inte innefattar bifall till ans&#246;kan,
+
+6. h&#228;nvisning till en ny nyttjander&#228;ttshavares ans&#246;kan, om
+ans&#246;kan inte bifallits, och
+
+7. anteckning om &#246;verklagande av ett beslut om inskrivning av
+nyttjander&#228;tt och om lagakraftvunnet beslut i anledning av
+&#246;verklagandet.
+
+Nyttjander&#228;tter redovisas i g&#228;llande f&#246;retr&#228;desordning. G&#228;ller
+nyttjander&#228;tter med lika r&#228;tt anges det s&#228;rskilt.
+
+11 &#167; I avdelningen f&#246;r inteckningar inf&#246;rs
+
+1. s&#246;kandens person-, samordnings- eller organisationsnummer,
+om s&#229;dant finns, namn, hemvist och postadress och, betr&#228;ffande
+utl&#228;nning, nationalitet,
+
+2. inteckningsbelopp med siffror och uppgift om valuta,
+
+3. anteckning om inskrivningsdag och dagboksnummer f&#246;r ans&#246;kan
+om inteckning,
+
+4. anteckning om att luftfartyget &#228;r intecknat f&#246;r en fordran
+tillsammans med ett annat luftfartyg,
+
+5. anteckning om att luftfartyget &#228;r intecknat tillsammans med
+ett lager av reservdelar eller en andel av ett lager av
+reservdelar,
+
+6. beslut som innefattar bifall till ans&#246;kan om inteckning, om
+beslutsdagen inte &#228;r densamma som dagen f&#246;r ans&#246;kan,
+
+7. beslut som inte innefattar bifall till ans&#246;kan om
+inteckning,
+
+8. vid anteckning om innehav av inteckning, h&#228;nvisning till
+dagboken, innehavarens namn och postadress eller i den m&#229;n
+&#228;garen gjort en avbetalning p&#229; det intecknade beloppet,
+h&#228;nvisning till denne,
+
+9. anteckning om att innehav av inteckning upph&#246;rt,
+
+10. anteckning om utbyte, avskrivning, d&#246;dning eller annan
+f&#246;r&#228;ndring av inteckning,
+
+11. anteckning om &#246;verklagande av ett beslut om inteckning och
+om lagakraftvunnet beslut i anledning av &#246;verklagandet, och
+
+12. anteckning om att en inteckning helt eller delvis &#228;r
+ogiltig enligt en dom eller ett slutligt beslut som vunnit laga
+kraft, eller p&#229; grund av f&#246;rh&#229;llande som avses i 36 &#167; lagen
+(1955:227) om inskrivning av r&#228;tt till luftfartyg.
+
+Inteckningar redovisas i g&#228;llande f&#246;retr&#228;desordning. G&#228;ller
+inteckningar med lika r&#228;tt anges det s&#228;rskilt.
+
+12 &#167; I avdelningen f&#246;r &#246;vriga anteckningar inf&#246;rs
+
+1. anteckning om att ett luftfartyg eller en r&#228;ttighet som
+skrivits in i s&#229;dan egendom blivit f&#246;rem&#229;l f&#246;r kvarstad,
+betalningss&#228;kring eller utm&#228;tning, eller n&#228;r en
+konkursf&#246;rvaltare har beg&#228;rt att ett luftfartyg eller en
+r&#228;ttighet som skrivits in i s&#229;dan egendom ska s&#228;ljas
+exekutivt,
+
+2. beslut som avses i 1 om kvarstad, betalningss&#228;kring eller
+utm&#228;tning har upph&#228;vts eller &#229;terg&#229;tt eller n&#228;r fr&#229;ga om
+exekutiv f&#246;rs&#228;ljning av ett luftfartyg eller en r&#228;ttighet som
+skrivits in i s&#229;dan egendom har f&#246;rfallit av annan anledning,
+
+3. anteckning om att anm&#228;lan, bevis eller f&#246;rdelningsl&#228;ngd
+kommit in som visar inverkan p&#229; inteckning av exekutiv
+f&#246;rs&#228;ljning,
+
+4. anteckning om att n&#229;gon i enlighet med 10 kap. 6 &#167;
+luftfartslagen (2010:500) skriftligen anm&#228;ler att han eller
+hon har en fordran f&#246;r vilken luftpantr&#228;tt g&#228;ller i
+luftfartyget,
+
+5. anteckning om att luftfartyget &#228;r f&#246;rem&#229;l f&#246;r luftpantr&#228;tt
+som ska erk&#228;nnas enligt lagen (1955:229) i anledning av
+Sveriges tilltr&#228;de till 1948 &#229;rs konvention r&#246;rande
+internationellt erk&#228;nnande av r&#228;tt till luftfartyg,
+
+6. anteckning om att luftpantr&#228;tt som avses i 4 och 5 har
+upph&#246;rt att g&#228;lla,
+
+7. anteckning om att domstol har meddelat s&#229;dan f&#246;rklaring
+som avses i 26 &#167; lagen (1955:227) om inskrivning av r&#228;tt till
+luftfartyg,
+
+8. anteckning om r&#228;ttelse avseende inf&#246;ring i registret,
+
+9. anteckning om f&#246;rh&#229;llanden som annars enligt lag eller
+annan f&#246;rfattning ska antecknas i registret och som inte ska
+inf&#246;ras i annan avdelning, och
+
+10. datum f&#246;r anteckningen och aktnummer.
+F&#246;rordning (2010:1082).
+
+Ans&#246;kningsf&#246;rfarandet
+
+13 &#167; En ans&#246;kan i ett inskrivnings&#228;rende skall inneh&#229;lla de
+uppgifter som anges i 8 &#167; 1–3. D&#228;rut&#246;ver skall i f&#246;rekommande
+fall ans&#246;kan inneh&#229;lla
+
+1. de uppgifter som anges i 9 &#167; f&#246;rsta stycket 1, 3, 4 och 9,
+om ans&#246;kan avser inskrivning av f&#246;rv&#228;rv,
+
+2. de uppgifter som anges i 10 &#167; f&#246;rsta stycket 1 och 2, om
+ans&#246;kan avser inskrivning av nyttjander&#228;tt, och
+
+3. de uppgifter som anges i 11 &#167; f&#246;rsta stycket 1, 2, 4, 5, 8
+och 10, om ans&#246;kan avser inteckning.
+
+14 &#167; En handling som &#229;beropas som bevis om f&#246;rv&#228;rv av
+luftfartyg eller avtal om nyttjander&#228;tt skall ges in
+tillsammans med tv&#229; bestyrkta kopior. Om s&#246;kanden inte g&#246;r det
+skall inskrivningsmyndigheten framst&#228;lla kopior p&#229; s&#246;kandens
+bekostnad.
+
+15 &#167; Om en handling, som &#229;beropas inf&#246;r
+inskrivningsmyndigheten, &#228;r skriven p&#229; n&#229;got annat spr&#229;k &#228;n
+svenska, danska, norska eller engelska, f&#229;r myndigheten beg&#228;ra
+att den &#246;vers&#228;tts.
+
+Inskrivningsmyndigheten f&#229;r ocks&#229; beg&#228;ra en &#246;vers&#228;ttning av en
+handling som skrivits p&#229; engelska om det &#228;r n&#246;dv&#228;ndigt f&#246;r
+f&#246;rst&#229;elsen av den. Om n&#229;gon tillf&#246;rlitlig &#246;vers&#228;ttning inte
+ges in f&#229;r myndigheten &#246;vers&#228;tta handlingen p&#229; s&#246;kandens
+bekostnad.
+
+16 &#167; I inskrivnings&#228;renden och i &#228;renden om exekutiv &#229;tg&#228;rd
+avseende luftfartyg f&#229;r inskrivningsmyndigheten p&#229; l&#228;mpligt
+s&#228;tt ta kontakt direkt med utl&#228;ndska myndigheter.
+
+I dessa fall f&#229;r s&#229;dana personuppgifter som &#228;r n&#246;dv&#228;ndiga f&#246;r
+handl&#228;ggningen av &#228;rendet &#246;verf&#246;ras till de utl&#228;ndska
+myndigheterna.
+
+Dagb&#246;cker
+
+17 &#167; Inskrivningsmyndigheten skall f&#246;ra dagbok &#246;ver
+inskrivnings&#228;rendena (A). &#214;ver de &#228;renden som inte omedelbart
+leder till inf&#246;ring i inskrivningsregistret f&#246;rs ocks&#229; dagbok
+(B).
+
+Dagb&#246;ckerna f&#246;rs enligt formul&#228;r som fastst&#228;lls av
+inskrivningsmyndigheten. Dagb&#246;ckerna f&#246;rs i s&#228;rskilda
+nummerserier.
+
+18 &#167; &#196;rendena tas upp i dagboken efter hand som de handl&#228;ggs
+och numreras i l&#246;pande f&#246;ljd f&#246;r kalender&#229;r. P&#229; varje handling
+anges vilken dag den inkommit eller uppr&#228;ttats och
+dagboksnummer.
+
+F&#246;r varje inskrivningsdag som inskrivnings&#228;rende enligt lagen
+(1955:227) om inskrivning av r&#228;tt till luftfartyg handl&#228;ggs,
+skall den som har fattat beslut i &#228;rendet med sitt namn
+bestyrka vad som har f&#246;rts in i dagboken.
+
+19 &#167; En uppgift i en dagbok f&#229;r inte &#228;ndras eller tas bort
+sedan &#228;rendet expedierats. R&#228;ttelse i dagboken sker genom att
+korrekta uppgifter l&#228;ggs till de tidigare uppgifterna med en
+anteckning om datum f&#246;r r&#228;ttelsen. R&#228;ttelsen skall bestyrkas av
+den som fattat beslut om denna.
+
+Minnesbok
+
+20 &#167; Inskrivningsmyndigheten skall f&#246;ra en minnesbok som dag
+f&#246;r dag visar vilka sammantr&#228;den som skall h&#229;llas och vad som i
+&#246;vrigt kan beh&#246;va iakttas en viss dag p&#229; grund av meddelade
+beslut.
+
+Aktbildning
+
+21 &#167; F&#246;r varje luftfartyg f&#246;rs handlingarna samman till en akt.
+Akten f&#246;rvaras efter nationalitets- och
+registreringsbeteckning.
+
+F&#246;r varje akt skall ett f&#246;rteckningsblad f&#246;ras. P&#229;
+f&#246;rteckningsbladet skall det finnas uppgift om de handlingar
+som akten inneh&#229;ller. Handlingar som tas in i akten numreras i
+l&#246;pande f&#246;ljd i den ordning de inkommit eller uppr&#228;ttats.
+
+Sammantr&#228;den
+
+22 &#167; Sammantr&#228;den h&#229;lls p&#229; inskrivningsmyndighetens kansliort
+eller, om det finns s&#228;rskilda sk&#228;l, p&#229; annan ort inom landet
+d&#228;r det &#228;r l&#228;mpligt med h&#228;nsyn till utredningen.
+
+Protokoll skall f&#246;ras om vad som f&#246;rekommer vid sammantr&#228;det.
+Protokollet tillf&#246;rs handlingarna i &#228;rendet, n&#228;r detta tas upp
+till fortsatt handl&#228;ggning.
+
+Har inskrivningsmyndigheten kallat n&#229;gon som inte &#228;r s&#246;kande
+f&#246;r att h&#246;ras i &#228;rendet, har den som inst&#228;llt sig r&#228;tt till
+ers&#228;ttning av allm&#228;nna medel. Om det finns s&#228;rskilda sk&#228;l, f&#229;r
+inskrivningsmyndigheten besluta att kostnaderna skall betalas
+av s&#246;kanden eller att den som inst&#228;llt sig skall st&#229; f&#246;r sina
+kostnader.
+
+Ers&#228;ttning av allm&#228;nna medel betalas enligt f&#246;rordningen
+(1982:805) om ers&#228;ttning av allm&#228;nna medel till vittnen, m.m.
+S&#229;dan kostnad skall stanna p&#229; staten.
+
+Inf&#246;ring i registret
+
+23 &#167; Inf&#246;ring i inskrivningsregistret sker &#246;ver terminal och
+anses verkst&#228;lld n&#228;r handl&#228;ggarens instruktion att
+databehandlingen skall slutf&#246;ras l&#228;mnats &#246;ver terminalen. Varje
+inf&#246;rings&#229;tg&#228;rd skall bestyrkas av handl&#228;ggaren.
+
+Uppst&#229;r avbrott i informationssystemets drift eller finns det
+andra s&#228;rskilda sk&#228;l, f&#229;r inf&#246;ring i st&#228;llet g&#246;ras p&#229;
+tillf&#228;lligt uppr&#228;ttat registeruppl&#228;gg. S&#229;dan inf&#246;ring anses
+gjord n&#228;r den bestyrkts av handl&#228;ggaren. Den skall f&#246;ras &#246;ver
+till informationssystemet snarast m&#246;jligt efter driftavbrottet.
+
+&#196;ldre f&#246;rh&#229;llanden
+
+24 &#167; F&#246;rh&#229;llanden som inte l&#228;ngre g&#228;ller skall inte redovisas i
+inskrivningsregistret.
+
+N&#228;r luftfartyg avf&#246;rs fr&#229;n registret, skall uppgifterna om
+egendomen f&#246;ras &#246;ver till en s&#228;rskild arkivf&#246;rteckning.
+Uppgifterna skall anses utg&#246;ra till&#228;ggsinformation till
+inskrivningsregistret.
+
+Bevis om beslut
+
+25 &#167; Ett bevis skall utf&#228;rdas i inskrivnings&#228;rende som r&#246;r
+
+1. inskrivning av f&#246;rv&#228;rv,
+
+2. inskrivning av nyttjander&#228;tt,
+
+3. inteckning, intecknings&#229;tg&#228;rd eller anteckning om innehav om
+innehavaren &#228;r n&#229;gon annan &#228;n &#228;garen,
+
+4. &#228;ndring av luftfartygets nationalitets- och
+registreringsbeteckning,
+
+5. avf&#246;rande fr&#229;n registret och
+
+6. r&#228;ttelse av oriktig uppgift i registret.
+
+26 &#167; Bevis utf&#228;rdas p&#229; en blankett enligt ett formul&#228;r som
+fastst&#228;lls av inskrivningsmyndigheten. Best&#229;r ett bevis om
+inskrivning av f&#246;rv&#228;rv, nyttjander&#228;tt eller inteckning av flera
+sidor numreras dessa i f&#246;ljd f&#246;r hela beviset. P&#229; sista sidan
+av ett s&#229;dant bevis skall uppgift l&#228;mnas om det antal sidor
+beviset omfattar.
+
+Ett bevis dateras och undertecknas av den som fattat beslutet.
+Best&#229;r ett bevis om inskrivning av f&#246;rv&#228;rv, nyttjander&#228;tt eller
+inteckning av tv&#229; eller flera blad dateras och undertecknas
+varje blad. P&#229; varje blad anges nationalitets- och
+registreringsbeteckningen f&#246;r det luftfartyg som beviset
+g&#228;ller.
+
+27 &#167; Bevis om inskrivning av f&#246;rv&#228;rv, nyttjander&#228;tt eller
+inteckning skall inneh&#229;lla uppgift om
+
+1. luftfartygets nationalitets- och registreringsbeteckning,
+
+2. inskrivningsdag och dagboksnummer f&#246;r ans&#246;kan,
+
+3. s&#246;kandens person-, samordnings- eller organisationsnummer,
+om s&#229;dant finns, namn, hemvist och postadress och, betr&#228;ffande
+utl&#228;nning, nationalitet,
+
+4. i fr&#229;ga om inteckning, inteckningsbelopp med siffror och
+uppgift om valuta, och
+
+5. de uppgifter som enligt lag eller annan f&#246;rfattning har
+f&#246;rts in i registret (registerutdrag).
+
+Tillsammans med ett s&#229;dant bevis skall upplysning l&#228;mnas om
+verkan av inskrivning av f&#246;rv&#228;rv, nyttjander&#228;tt eller
+inteckning i luftfartyg enligt svensk r&#228;tt.
+
+Efter utbyte av inteckningshandling utf&#228;rdas bevis om
+inteckning enligt f&#246;rsta stycket. Utbytt bevis om inteckning
+skall g&#246;ras obrukbart och beh&#229;llas av inskrivningsmyndigheten.
+
+28 &#167; Omfattar inteckning i luftfartyg &#228;ven reservdelar till
+s&#229;dant fartyg, skall inskrivningsmyndigheten p&#229; beg&#228;ran utf&#228;rda
+ett s&#228;rskilt bevis betr&#228;ffande reservdelarna. Beviset skall
+inneh&#229;lla de uppgifter som anges i 27 &#167;.
+
+29 &#167; N&#228;r inskrivningsmyndigheten utf&#228;rdar bevis om avf&#246;rande
+fr&#229;n registret skall den p&#229; beg&#228;ran ocks&#229; tillhandah&#229;lla en
+upplysning om registrets inneh&#229;ll betr&#228;ffande egendomen vid
+avf&#246;randet. Upplysningen l&#228;mnas genom registerutdrag.
+
+Om det beh&#246;vs, skall inskrivningsmyndigheten, tillsammans med
+ett beslut om avf&#246;rande, l&#228;mna en skriftlig upplysning p&#229;
+engelska eller franska om beslutets inneb&#246;rd.
+
+30 &#167; Om en inteckning d&#246;das enligt 22 &#167; lagen (1955:227) om
+inskrivning av r&#228;tt till luftfartyg, skall det ingivna beviset
+om inteckning g&#246;ras obrukbart och beh&#229;llas av
+inskrivningsmyndigheten.
+
+31 &#167; Om det uppm&#228;rksammas att det finns en felskrivning i ett
+utf&#228;rdat bevis i ett inskrivnings&#228;rende, skall ett nytt bevis
+utf&#228;rdas. Den tidigare utf&#228;rdade handlingen skall kr&#228;vas
+tillbaka, g&#246;ras obrukbar och beh&#229;llas av
+inskrivningsmyndigheten.
+
+Upplysning om registrets inneh&#229;ll
+
+32 &#167; Uppgifter ur inskrivningsregistret ska p&#229; 
+beg&#228;ran l&#228;mnas i form av registerutdrag. Registerutdrag ska 
+inneh&#229;lla de uppgifter som enligt lag eller annan f&#246;rfattning 
+har f&#246;rts in i registret betr&#228;ffande egendomen. &#196;ven 
+rubrikerna till s&#229;dana avdelningar i inskrivningsregistret 
+som inte inneh&#229;ller n&#229;gon uppgift ska ing&#229; i 
+registerutdraget. Av registerutdraget ska det framg&#229; till 
+vilken inskrivningsdag det h&#228;nf&#246;r sig.
+
+Registerutdraget ska &#228;ven inneh&#229;lla en upplysning om att det 
+i det internationella registret f&#246;r luftfartsobjekt, som 
+tillkommit genom konventionen om internationella 
+s&#228;kerhetsr&#228;tter i l&#246;sa saker och det tillh&#246;rande 
+luftfartsprotokollet, kan finnas ytterligare r&#228;ttigheter som 
+belastar egendomen. F&#246;rordning (2015:879).
+
+33 &#167; Ett registerutdrag utf&#228;rdas p&#229; en blankett enligt ett
+formul&#228;r som fastst&#228;lls av inskrivningsmyndigheten. Best&#229;r ett
+registerutdrag av flera sidor numreras dessa i f&#246;ljd f&#246;r hela
+utdraget. P&#229; sista sidan av ett s&#229;dant registerutdrag skall
+uppgift l&#228;mnas om det antal sidor detta omfattar.
+
+Registerutdraget dateras och undertecknas av den som &#228;r
+ansvarig f&#246;r dess riktighet. Best&#229;r utdraget av tv&#229; eller flera
+blad dateras och undertecknas varje blad. P&#229; varje blad anges
+nationalitets- och registreringsbeteckningen f&#246;r det luftfartyg
+som utdraget g&#228;ller.
+
+34 &#167; P&#229; beg&#228;ran skall inskrivningsmyndigheten utf&#228;rda ett
+s&#228;rskilt intyg om att ett visst luftfartyg inte finns upptaget
+i inskrivningsregistret.
+
+Underr&#228;ttelser
+
+35 &#167; &#196;ndras en inf&#246;ring i inskrivningsregistret utan ans&#246;kan
+eller anm&#228;lan av &#228;gare, skall inskrivningsmyndigheten genast
+underr&#228;tta denne om &#228;ndringen.
+
+36 &#167; Underr&#228;ttas inskrivningsmyndigheten om att ett luftfartyg,
+som har skrivits in i inskrivningsregistret, utomlands
+
+1. belagts med kvarstad,
+
+2. utm&#228;tts,
+
+3. skall s&#228;ljas exekutivt, eller
+
+4. att en s&#229;dan &#229;tg&#228;rd mot luftfartyget h&#228;vts eller &#229;terg&#229;tt,
+
+skall myndigheten genast s&#228;nda meddelande till &#228;garen och var
+och en som enligt anteckning i registret &#228;r
+nyttjander&#228;ttshavare eller innehavare av inteckning i
+luftfartyget. &#196;r luftfartyget ocks&#229; utm&#228;tt i Sverige skall
+upplysning l&#228;mnas om utm&#228;tningen och utm&#228;tningss&#246;kanden samt om
+att den r&#228;tt som vunnits genom utm&#228;tningen enligt 4 kap. 30 &#167;
+uts&#246;kningsbalken g&#228;ller som pantr&#228;tt.
+
+Avser underr&#228;ttelsen en beslutad utm&#228;tning eller en beslutad
+exekutiv f&#246;rs&#228;ljning, skall inskrivningsmyndigheten snarast
+s&#228;nda ett registerutdrag f&#246;r luftfartyget till den utl&#228;ndska
+myndighet som handl&#228;gger exekutions&#228;rendet. Till
+registerutdraget skall fogas en upplysning om verkan av
+inskrivning av f&#246;rv&#228;rv, nyttjander&#228;tt eller inteckning i
+luftfartyg enligt svensk r&#228;tt. &#196;r luftfartyget utm&#228;tt ocks&#229; i
+Sverige skall upplysning l&#228;mnas om att den r&#228;tt som vunnits
+genom utm&#228;tningen enligt 4 kap. 30 &#167; uts&#246;kningsbalken g&#228;ller
+som pantr&#228;tt.
+
+Avgifter
+
+37 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om avgifter
+f&#246;r registrering och om expeditionsavgifter f&#246;r bevis om
+inskrivnings&#229;tg&#228;rd. Transportstyrelsen f&#229;r ocks&#229; meddela
+f&#246;reskrifter om avgifter f&#246;r anv&#228;ndningen av registret.
+F&#246;rordning (2011:784).
+
+38 &#167; Har upph&#228;vts genom f&#246;rordning (2011:784).
+
+&#214;vriga best&#228;mmelser
+
+Delgivning m.m.
+
+39 &#167; Skall inskrivningsmyndigheten underr&#228;tta n&#229;gon om
+inneh&#229;llet i en handling eller om n&#229;got annat f&#229;r det ske genom
+delgivning.
+
+En underr&#228;ttelse till s&#246;kanden eller annan enligt lagen
+(1955:227) om inskrivning av r&#228;tt till luftfartyg eller denna
+f&#246;rordning f&#229;r skickas till denne i rekommenderat brev.
+
+Bitr&#228;de &#229;t inskrivningsmyndigheten
+
+40 &#167; Kronofogdemyndigheten och Luftfartsverket ska ge hj&#228;lp i
+form av s&#229;dan utredning om luftfartyg som
+inskrivningsmyndigheten beh&#246;ver f&#246;r att f&#246;ra ett
+tillf&#246;rlitligt register. F&#246;rordning (2010:1082).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2361">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2363">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

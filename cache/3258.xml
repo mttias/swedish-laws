@@ -1,0 +1,865 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-03-30" /> 
+ <meta id="rattsinfo-edited" content="2023-03-30 14:34:27" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3258</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3257">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3259">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1994:193 ·
+                    <a href="/sfsr?bet=1994:193">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Internationell upphovsr&#228;ttsf&#246;rordning (1994:193)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1994-04-14
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1716
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1994-07-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; I denna f&#246;rordning finns f&#246;reskrifter om till&#228;mpningen av lagen
+(1960:729) om upphovsr&#228;tt till litter&#228;ra och konstn&#228;rliga verk
+(upphovsr&#228;ttslagen) med avseende p&#229; andra l&#228;nder och mellanstatliga
+organisationer.
+
+Vid till&#228;mpningen av upphovsr&#228;ttslagen skall den som &#228;r medborgare i
+ett land som ing&#229;r i Europeiska ekonomiska samarbetsomr&#229;det (ett
+EES-land) alltid behandlas som om han vore svensk medborgare. Vid
+till&#228;mpningen av lagen skall en juridisk person fr&#229;n ett EES-land
+alltid behandlas som en svensk juridisk person och en juridisk person
+med s&#228;te i ett EES-land alltid behandlas som en juridisk person med
+s&#228;te i Sverige. F&#246;rordning (1995:1275).
+
+Bernkonventionen f&#246;r skydd av litter&#228;ra och konstn&#228;rliga verk
+
+2 &#167; Best&#228;mmelserna om upphovsr&#228;tt i upphovsr&#228;ttslagen skall
+till&#228;mpas p&#229;
+
+1. verk av den som &#228;r medborgare eller har sin vanliga
+vistelseort i ett annat land &#228;n Sverige inom den
+internationella unionen f&#246;r skydd av litter&#228;ra och konstn&#228;rliga
+verk (Bernunionen),
+
+2. verk som f&#246;rst har getts ut i ett annat unionsland &#228;n
+Sverige,
+
+3. verk som f&#246;rst har getts ut i ett land utanf&#246;r unionen och
+d&#228;refter inom trettio dagar i ett unionsland,
+
+4. filmverk vars producent har sitt s&#228;te eller sin vanliga
+vistelseort i ett annat unionsland &#228;n Sverige,
+
+5. byggnadsverk som &#228;r uppf&#246;rda i ett annat unionsland &#228;n
+Sverige, och
+
+6. verk av grafisk eller plastisk konst som utg&#246;r del av en
+byggnad som &#228;r uppf&#246;rd i ett annat unionsland &#228;n Sverige eller
+som p&#229; n&#229;got annat s&#228;tt &#228;r fast f&#246;renade med marken i ett
+s&#229;dant land.
+
+Vid till&#228;mpningen av f&#246;rsta stycket 4 anses den vars namn p&#229;
+sedvanligt s&#228;tt har satts ut p&#229; exemplar av filmverket som dess
+producent, om inte n&#229;got annat visas.
+
+Best&#228;mmelserna i 26 n-26 p &#167;&#167; upphovsr&#228;ttslagen skall till&#228;mpas
+p&#229; verk av den som &#228;r medborgare eller har sin vanliga
+vistelseort i ett annat unionsland &#228;n Sverige, om det andra
+unionslandet har genomf&#246;rt en s&#229;dan ers&#228;ttningsordning som
+avses i artikel 14 ter i Bernkonventionen f&#246;r skydd av
+litter&#228;ra och konstn&#228;rliga verk.
+
+Vad som s&#228;gs i f&#246;rsta stycket g&#228;ller inte best&#228;mmelserna i
+44 a &#167; upphovsr&#228;ttslagen. F&#246;rordning (2007:520).
+
+3 &#167; Skyddet enligt svensk lag skall inte g&#228;lla n&#228;r skyddstiden i
+verkets hemland har g&#229;tt ut.
+
+Om verket f&#246;rst har getts ut i ett unionsland, &#228;r detta land verkets
+hemland. Om verket inom trettio dagar har getts ut i flera
+unionsl&#228;nder, &#228;r hemlandet det land som har den kortaste
+skyddstiden. Om verket inom trettio dagar har getts ut i ett land
+utanf&#246;r unionen och i ett unionsland, &#228;r unionslandet hemland.
+
+Om ett verk inte har hemland inom unionen enligt andra stycket, &#228;r
+hemlandet det unionsland d&#228;r upphovsmannen &#228;r medborgare eller
+har sin vanliga vistelseort. F&#246;r filmverk vars producent har sitt s&#228;te
+eller sin vanliga vistelseort i ett unionsland &#228;r dock detta land
+hemland. F&#246;r byggnadsverk som &#228;r uppf&#246;rda i ett unionsland, f&#246;r
+konstverk som utg&#246;r del av en byggnad som &#228;r uppf&#246;rd i ett
+unionsland och f&#246;r konstverk som p&#229; n&#229;got annat s&#228;tt &#228;r fast
+f&#246;renade med marken i ett s&#229;dant land &#228;r detta land hemland.
+
+4 &#167; I fr&#229;ga om ett avtal om bidrag till ett filmverk som avses i 2 &#167;
+1--4 g&#228;ller vad som s&#228;gs i 39 &#167; upphovsr&#228;ttslagen, om inte n&#229;got annat
+f&#246;ljer av avtalet. Lagen i det land d&#228;r filmproducenten har sitt s&#228;te
+eller sin vanliga vistelseort best&#228;mmer huruvida ett s&#229;dant avtal
+skall vara skriftligt f&#246;r att det skall ha en s&#229;dan verkan som avses i
+f&#246;rsta meningen.
+
+F&#246;rsta stycket till&#228;mpas ocks&#229; p&#229; avtal om bidrag till s&#229;dana
+filmverk som avses i 60 &#167; upphovsr&#228;ttslagen om verket enligt 3 &#167;
+
+1. har hemland i ett annat unionsland &#228;n Sverige, eller
+
+2. har hemland i Sverige utan att svensk lag skall till&#228;mpas p&#229;
+avtalet.
+
+5 &#167; Best&#228;mmelserna i 2--4 &#167;&#167; skall till&#228;mpas ocks&#229; i fr&#229;ga om r&#228;tten
+till fotografisk bild enligt upphovsr&#228;ttslagen.
+
+V&#228;rldskonventionen om upphovsr&#228;tt
+
+6 &#167; Best&#228;mmelserna om upphovsr&#228;tt i upphovsr&#228;ttslagen skall
+till&#228;mpas p&#229;
+
+1. verk av den som &#228;r medborgare i ett annat land &#228;n Sverige
+vilket &#228;r anslutet till V&#228;rldskonventionen om upphovsr&#228;tt i
+dess ursprungliga lydelse eller den &#228;ndrade lydelse som den
+fick i Paris den 24 juli 1971,
+
+2. verk av den som har hemvist i ett land som avses i 1, om
+landet genom sin lagstiftning likst&#228;ller honom eller henne med
+sina egna medborgare n&#228;r det g&#228;ller till&#228;mpningen av
+V&#228;rldskonventionen,
+
+3. verk av statsl&#246;sa eller flyktingar som har sin vanliga
+vistelseort i ett land som &#228;r anslutet till till&#228;ggsprotokoll 1
+till konventionen i dess ursprungliga eller &#228;ndrade lydelse,
+och
+
+4. verk som f&#246;rst har getts ut i ett land som &#228;r anslutet till
+konventionen i dess ursprungliga eller &#228;ndrade lydelse.
+
+Vad som s&#228;gs i f&#246;rsta stycket g&#228;ller inte best&#228;mmelserna i
+26 n-26 p och 44 a &#167;&#167; upphovsr&#228;ttslagen. 
+F&#246;rordning (2008:851).
+
+7 &#167; Skyddet enligt svensk lag ska inte g&#228;lla n&#228;r skyddstiden i
+verkets hemland har g&#229;tt ut.
+
+Om verket f&#246;rst har getts ut i ett land som &#228;r anslutet till
+v&#228;rldskonventionen, &#228;r detta land verkets hemland. Om verket
+inom trettio dagar har getts ut i flera s&#229;dana l&#228;nder, &#228;r
+hemlandet det land som har den kortaste skyddstiden. Om verket
+f&#246;rst har getts ut i ett land som inte &#228;r anslutet till
+konventionen eller om verket inte har getts ut, &#228;r hemlandet
+det konventionsland d&#228;r upphovsmannen &#228;r medborgare eller,
+under de f&#246;ruts&#228;ttningar som anges i 6 &#167; f&#246;rsta stycket 2 och
+3, har hemvist eller sin vanliga vistelseort.
+F&#246;rordning (2008:851).
+
+8 &#167; Best&#228;mmelserna i 6 och 7 &#167;&#167; g&#228;ller inte verk vars hemland
+enligt 3 &#167; &#228;r
+
+1. ett land inom Bernunionen, eller
+
+2. ett land som har tr&#228;tt ut ur unionen efter den 1 januari
+1951.
+
+Best&#228;mmelserna g&#228;ller dock om landet
+
+1. &#228;r ett utvecklingsland enligt b i till&#228;ggsdeklarationen om
+artikel XVII i den &#228;ndrade lydelsen av v&#228;rldskonventionen, och
+
+2. vid uttr&#228;det ur Bernunionen deponerade ett meddelande hos
+generaldirekt&#246;ren f&#246;r F&#246;renta nationernas organisation f&#246;r
+uppfostran, vetenskap och kultur (UNESCO) om att landet
+betraktar sig som ett utvecklingsland. F&#246;rordning (2008:851).
+
+9 &#167; Best&#228;mmelserna i 6-8 &#167;&#167; ska till&#228;mpas ocks&#229; i fr&#229;ga om
+r&#228;tten till fotografisk bild enligt upphovsr&#228;ttslagen.
+F&#246;rordning (2008:851).
+
+Verk av F&#246;renta nationerna m. m.
+
+10 &#167; Best&#228;mmelserna om upphovsr&#228;tt och r&#228;tt till fotografisk
+bild i upphovsr&#228;ttslagen skall till&#228;mpas p&#229;
+
+1. verk och fotografiska bilder som f&#246;rst har getts ut av
+F&#246;renta nationerna, n&#229;got av F&#246;renta nationernas fackorgan
+eller Organisationen av amerikanska stater, och
+
+2. outgivna verk och fotografiska bilder som n&#229;gon av dessa
+organisationer f&#229;r ge ut.
+
+Vad som s&#228;gs i f&#246;rsta stycket g&#228;ller inte best&#228;mmelserna i
+26 n-26 p och 44 a &#167;&#167; upphovsr&#228;ttslagen. 
+F&#246;rordning (2008:851).
+
+Romkonventionen
+
+11 &#167; Best&#228;mmelserna i 45 &#167; upphovsr&#228;ttslagen och till denna
+anslutande best&#228;mmelser i lagen i &#246;vrigt ska till&#228;mpas p&#229;
+
+1. framf&#246;randen som har gjorts i ett annat land &#228;n Sverige
+vilket &#228;r anslutet till internationella konventionen den 26
+oktober 1961 om skydd f&#246;r ut&#246;vande konstn&#228;rer, framst&#228;llare av
+fonogram och radiof&#246;retag (Romkonventionen),
+
+2. framf&#246;randen i en ljudupptagning, om ljudupptagningen har
+gjorts i ett konventionsland,
+
+3. framf&#246;randen i en ljudupptagning vars framst&#228;llare &#228;r
+medborgare eller har sin vanliga vistelseort i eller &#228;r en
+juridisk person fr&#229;n ett konventionsland, och
+
+4. framf&#246;randen som inte har tagits upp p&#229; en anordning genom
+vilken framf&#246;randet kan &#229;terges och som ing&#229;r i en ljudradio-
+eller televisionsuts&#228;ndning som s&#228;nds fr&#229;n ett konventionsland
+eller av ett radio- eller televisionsf&#246;retag som har sitt s&#228;te
+i ett konventionsland.
+
+Det som s&#228;gs i f&#246;rsta stycket g&#228;ller dock inte best&#228;mmelserna
+om tillg&#228;ngligg&#246;rande f&#246;r allm&#228;nheten av upptagningar i 45 &#167;
+f&#246;rsta stycket 3 upphovsr&#228;ttslagen. F&#246;rordning (2008:851).
+
+12 &#167; Best&#228;mmelserna i 48 &#167; upphovsr&#228;ttslagen och till denna
+anslutande best&#228;mmelser i lagen i &#246;vrigt ska till&#228;mpas p&#229;
+
+1. ljudradio- och televisionsuts&#228;ndningar som har gjorts i ett
+annat land &#228;n Sverige vilket &#228;r anslutet till Romkonventionen,
+och
+
+2. uts&#228;ndningar av radio- eller televisionsf&#246;retag som har sitt
+s&#228;te i ett konventionsland.
+
+Det som s&#228;gs i f&#246;rsta stycket g&#228;ller dock inte best&#228;mmelserna
+om spridning till allm&#228;nheten i 48 &#167; f&#246;rsta stycket 3 samt om
+&#246;verf&#246;ring av upptagna uts&#228;ndningar i 48 &#167; f&#246;rsta stycket 5
+upphovsr&#228;ttslagen. F&#246;rordning (2008:851).
+
+13 &#167; En framst&#228;llare av en ljudupptagning och de ut&#246;vande
+konstn&#228;rer vars framf&#246;rande finns p&#229; en s&#229;dan ska ha r&#228;tt till
+ers&#228;ttning p&#229; motsvarande s&#228;tt som anges i 47 &#167; andra-fj&#228;rde
+styckena upphovsr&#228;ttslagen, om
+
+1. ljudupptagningen har gjorts i ett annat land &#228;n Sverige och
+det landet &#228;r anslutet till Romkonventionen, eller
+
+2. framst&#228;llaren &#228;r medborgare eller har sin vanliga
+vistelseort i eller &#228;r en juridisk person fr&#229;n ett
+konventionsland.
+
+R&#228;tten till ers&#228;ttning enligt f&#246;rsta stycket g&#228;ller endast om
+ljudupptagningen anv&#228;nds
+
+1. vid en ljudradio- eller televisionsuts&#228;ndning,
+
+2. vid annan &#246;verf&#246;ring till allm&#228;nheten, eller
+
+3. vid ett offentligt framf&#246;rande.
+
+R&#228;tten till ers&#228;ttning enligt f&#246;rsta och andra stycket g&#228;ller
+inte ljudfilm.
+
+Best&#228;mmelserna i 45 &#167; tredje stycket och 46 &#167; tredje stycket
+upphovsr&#228;ttslagen ska till&#228;mpas p&#229; r&#228;tten till ers&#228;ttning
+enligt f&#246;rsta och andra stycket.
+
+R&#228;tten till ers&#228;ttning enligt f&#246;rsta och andra stycket g&#228;ller
+endast i den omfattning och under den tid som det andra landet
+ger en r&#228;tt till ers&#228;ttning f&#246;r anv&#228;ndning av ljudupptagningar
+med anknytning till Sverige. Den omst&#228;ndigheten att landet i
+fr&#229;ga endast ger r&#228;tt till ers&#228;ttning till antingen
+framst&#228;llaren eller de ut&#246;vande konstn&#228;rer vars framf&#246;rande
+finns p&#229; ljudupptagningen, ska dock inte p&#229;verka r&#228;tten till
+ers&#228;ttning. F&#246;rordning (2008:851).
+
+14 &#167; R&#228;ttigheterna enligt 11 &#167; f&#246;rsta stycket 1 och 2 samt 12 &#167;
+f&#246;rsta stycket 1 ska inte g&#228;lla n&#228;r skyddstiden har g&#229;tt ut i
+det land d&#228;r framf&#246;randet, ljudupptagningen eller uts&#228;ndningen
+gjordes. R&#228;ttigheterna enligt 11 &#167; f&#246;rsta stycket 3 ska inte
+g&#228;lla n&#228;r skyddstiden i det land som framst&#228;llaren &#228;r
+medborgare eller har sin vanliga vistelseort i eller &#228;r en
+juridisk person fr&#229;n har g&#229;tt ut. I fr&#229;ga om framf&#246;randen och
+uts&#228;ndningar som skyddas enligt 11 &#167; f&#246;rsta stycket 4 eller
+12 &#167; f&#246;rsta stycket 2 ska skyddet inte g&#228;lla n&#228;r skyddstiden i
+det land d&#228;r f&#246;retaget har sitt s&#228;te har g&#229;tt ut.
+F&#246;rordning (2008:851).
+
+Den Europeiska televisions&#246;verenskommelsen
+
+15 &#167; Best&#228;mmelserna i 48 &#167; upphovsr&#228;ttslagen och till denna
+anslutande best&#228;mmelser i lagen i &#246;vrigt ska till&#228;mpas p&#229;
+televisionsuts&#228;ndningar som g&#246;rs i ett annat land &#228;n Sverige
+vilket &#228;r anslutet till europeiska &#246;verenskommelsen den 22 juni
+1960 om skydd f&#246;r televisionsuts&#228;ndningar samt
+till&#228;ggsprotokoll den 22 januari 1965 och den 21 mars 1983.
+Best&#228;mmelserna ska ocks&#229; till&#228;mpas p&#229; uts&#228;ndningar av
+televisionsf&#246;retag som har sitt s&#228;te i ett s&#229;dant land.
+
+Det som s&#228;gs i f&#246;rsta stycket g&#228;ller dock inte best&#228;mmelserna
+om spridning till allm&#228;nheten i 48 &#167; f&#246;rsta stycket 3
+upphovsr&#228;ttslagen.
+
+Skyddet enligt f&#246;rsta stycket ska inte g&#228;lla n&#228;r skyddstiden
+har g&#229;tt ut i det land d&#228;r uts&#228;ndningen &#228;gde rum eller
+televisionsf&#246;retaget har sitt s&#228;te.
+
+I fr&#229;ga om televisionsuts&#228;ndningar fr&#229;n Storbritannien ska
+r&#228;tten till upptagning av en uts&#228;ndning p&#229; en anordning genom
+vilken den kan &#229;terges och r&#228;tten till exemplarframst&#228;llning av
+en upptagning av uts&#228;ndningen inte g&#228;lla upptagning av
+stillbilder genom fotografi och framst&#228;llning av exemplar av
+s&#229;dana bilder. F&#246;rordning (2008:851).
+
+Avtalet om handelsrelaterade aspekter av immaterialr&#228;tter
+
+16 &#167; Best&#228;mmelserna om upphovsr&#228;tt i upphovsr&#228;ttslagen skall
+till&#228;mpas p&#229; verk av den som &#228;r medborgare eller har sin
+vanliga vistelseort i ett annat land &#228;n Sverige som &#228;r anslutet
+till V&#228;rldshandelsorganisationen och d&#228;rmed har godk&#228;nt avtalet
+om handelsrelaterade aspekter av immaterialr&#228;tter (ett WTO-
+land).
+
+Best&#228;mmelserna i 26 n-26 p &#167;&#167; upphovsr&#228;ttslagen skall till&#228;mpas
+p&#229; verk av den som &#228;r medborgare eller har sin vanliga
+vistelseort i ett WTO-land, om det andra landet har genomf&#246;rt
+en s&#229;dan ers&#228;ttningsordning som avses i artikel 14 ter i
+Bernkonventionen f&#246;r skydd av litter&#228;ra och konstn&#228;rliga verk.
+
+Vad som s&#228;gs i f&#246;rsta stycket g&#228;ller inte best&#228;mmelserna i
+44 a &#167; upphovsr&#228;ttslagen. F&#246;rordning (2008:851).
+
+17 &#167; Best&#228;mmelserna i 3 &#167; skall till&#228;mpas &#228;ven p&#229; verk av den som &#228;r
+medborgare eller har sin vanliga vistelseort i ett WTO-land.
+
+Best&#228;mmelserna i 4 &#167; skall till&#228;mpas &#228;ven i fr&#229;ga om ett avtal om
+bidrag till ett filmverk av den som &#228;r medborgare eller har sin
+vanliga vistelseort i ett WTO-land. F&#246;rordning (2008:851).
+
+18 &#167; Best&#228;mmelserna i 45 &#167; upphovsr&#228;ttslagen och till
+paragrafen anslut-ande best&#228;mmelser i lagen i &#246;vrigt ska
+till&#228;mpas p&#229; ett framf&#246;rande av den som &#228;r medborgare i ett
+WTO-land, dock endast n&#228;r det g&#228;ller
+
+1. upptagning av framf&#246;randet p&#229; ljudanordning genom vilken det
+kan &#229;terges,
+
+2. tr&#229;dl&#246;s uts&#228;ndning av framf&#246;randet i ljudradio eller
+television eller tillg&#228;ngligg&#246;rande f&#246;r allm&#228;nheten av
+framf&#246;randet genom direkt &#246;verf&#246;ring,
+
+3. exemplarframst&#228;llning av upptagningar av uts&#228;ndningen, och
+
+4. tillg&#228;ngligg&#246;rande f&#246;r allm&#228;nheten av framf&#246;randet genom
+uthyrning av ljudupptagningar. F&#246;rordning (2008:851).
+
+19 &#167; Best&#228;mmelserna i 46 &#167; upphovsr&#228;ttslagen och till paragrafen
+anslutande best&#228;mmelser i lagen i &#246;vrigt skall till&#228;mpas p&#229;
+ljudupptagningar vars framst&#228;llare &#228;r medborgare i ett WTO-land eller
+juridisk person fr&#229;n ett WTO-land s&#229;vitt avser tillg&#228;ngligg&#246;rande f&#246;r
+allm&#228;nheten genom uthyrning. F&#246;rordning (2008:851).
+
+20 &#167; Best&#228;mmelserna i 48 &#167; upphovsr&#228;ttslagen och till
+paragrafen anslutande best&#228;mmelser i lagen i &#246;vrigt ska
+till&#228;mpas p&#229; uts&#228;ndningar av radio- eller televisionsf&#246;retag
+som har s&#228;te i ett WTO-land, dock endast n&#228;r det g&#228;ller
+
+1. upptagning av uts&#228;ndningar p&#229; anordningar genom vilka de kan
+&#229;terges,
+
+2. tr&#229;dl&#246;s &#229;teruts&#228;ndning av uts&#228;ndningar,
+
+3. &#229;tergivning f&#246;r allm&#228;nheten av televisionsuts&#228;ndningar p&#229;
+platser d&#228;r allm&#228;nheten har tilltr&#228;de mot intr&#228;desavgift,
+
+4. exemplarframst&#228;llning av upptagningar av uts&#228;ndningen, och
+
+5. spridning till allm&#228;nheten av ljudupptagningar genom
+uthyrning. F&#246;rordning (2008:851).
+
+WIPO-f&#246;rdraget om upphovsr&#228;tt
+
+21 &#167; Best&#228;mmelserna om upphovsr&#228;tt samt best&#228;mmelserna om skydd
+f&#246;r tekniska &#229;tg&#228;rder och f&#246;r elektronisk information om
+r&#228;ttighetsf&#246;rvaltning i upphovsr&#228;ttslagen ska till&#228;mpas p&#229;
+
+1. verk av den som &#228;r medborgare eller har sin vanliga
+vistelseort i ett annat land &#228;n Sverige vilket &#228;r anslutet till
+WIPO-f&#246;rdraget om upphovsr&#228;tt, antaget den 20 december 1996,
+
+2. verk som f&#246;rst har getts ut i ett annat f&#246;rdragsland &#228;n
+Sverige,
+
+3. verk som f&#246;rst har getts ut i ett land som inte &#228;r
+f&#246;rdragsland och d&#228;refter inom trettio dagar i ett
+f&#246;rdragsland,
+
+4. filmverk vars producent har sitt s&#228;te eller sin vanliga
+vistelseort i ett annat f&#246;rdragsland &#228;n Sverige,
+
+5. byggnadsverk som &#228;r uppf&#246;rda i ett annat f&#246;rdragsland &#228;n
+Sverige, och
+
+6. verk av grafisk eller plastisk konst som utg&#246;r del av en
+byggnad som &#228;r uppf&#246;rd i ett annat f&#246;rdragsland &#228;n Sverige
+eller som p&#229; n&#229;got annat s&#228;tt &#228;r fast f&#246;renade med marken i ett
+s&#229;dant f&#246;rdragsland.
+
+Vid till&#228;mpningen av f&#246;rsta stycket 4 anses den vars namn p&#229;
+sedvanligt s&#228;tt har satts ut p&#229; exemplar av filmverket som dess
+producent, om inte n&#229;got annat visas.
+
+Best&#228;mmelserna i 26 n-26 p &#167;&#167; upphovsr&#228;ttslagen ska till&#228;mpas
+p&#229; verk av den som &#228;r medborgare eller har sin vanliga
+vistelseort i ett annat f&#246;rdragsland &#228;n Sverige, om det andra
+f&#246;rdragslandet har genomf&#246;rt en s&#229;dan ers&#228;ttningsordning som
+avses i artikel 14 ter i Bernkonventionen f&#246;r skydd av
+litter&#228;ra och konstn&#228;rliga verk.
+
+Det som s&#228;gs i f&#246;rsta stycket g&#228;ller inte best&#228;mmelserna i
+44 a &#167; upphovsr&#228;ttslagen. F&#246;rordning (2008:851).
+
+22 &#167; Best&#228;mmelserna i 3 &#167; ska till&#228;mpas &#228;ven p&#229; verk av den som
+&#228;r medborgare eller har sin vanliga vistelseort i ett annat
+land &#228;n Sverige vilket &#228;r anslutet till WIPO-f&#246;rdraget om
+upphovsr&#228;tt.
+
+Best&#228;mmelserna i 4 &#167; ska till&#228;mpas &#228;ven i fr&#229;ga om ett avtal om
+bidrag till ett filmverk av den som &#228;r medborgare eller har sin
+vanliga vistelseort i ett f&#246;rdragsland. F&#246;rordning (2008:851).
+
+23 &#167; Best&#228;mmelserna i 21 och 22 &#167;&#167; ska till&#228;mpas ocks&#229; i fr&#229;ga
+om r&#228;tten till fotografisk bild enligt upphovsr&#228;ttslagen.
+F&#246;rordning (2008:851).
+
+WIPO-f&#246;rdraget om framf&#246;randen och fonogram
+
+24 &#167; Best&#228;mmelserna i 45 &#167; upphovsr&#228;ttslagen och till denna
+anslutande best&#228;mmelser i lagen i &#246;vrigt ska till&#228;mpas p&#229;
+
+1. framf&#246;randen som har gjorts i ett annat land &#228;n Sverige
+vilket &#228;r anslutet till WIPO-f&#246;rdraget om framf&#246;randen och
+fonogram, antaget den 20 december 1996,
+
+2. framf&#246;randen i en ljudupptagning, om ljudupptagningen har
+gjorts i ett f&#246;rdragsland,
+
+3. framf&#246;randen i en ljudupptagning vars framst&#228;llare &#228;r
+medborgare eller har sin vanliga vistelseort i eller &#228;r en
+juridisk person fr&#229;n ett f&#246;rdragsland, och
+
+4. framf&#246;randen som inte har tagits upp p&#229; en anordning genom
+vilken framf&#246;randet kan &#229;terges och som ing&#229;r i en ljudradio-
+eller televisionsuts&#228;ndning av ett radio- eller
+televisionsf&#246;retag som har sitt s&#228;te i ett f&#246;rdragsland.
+
+Det som s&#228;gs i f&#246;rsta stycket g&#228;ller dock inte best&#228;mmelserna
+om tillg&#228;ngligg&#246;rande f&#246;r allm&#228;nheten av upptagningar i 45 &#167;
+f&#246;rsta stycket 3 upphovsr&#228;ttslagen utom n&#228;r det &#228;r fr&#229;ga om
+
+1. spridning i form av &#246;verl&#229;telse eller uthyrning av en
+ljudupptagning, eller
+
+2. &#246;verf&#246;ring till allm&#228;nheten som sker p&#229; ett s&#229;dant s&#228;tt att
+enskilda kan f&#229; tillg&#229;ng till en ljudupptagning av ett
+framf&#246;rande fr&#229;n en plats och vid en tidpunkt som de sj&#228;lva
+v&#228;ljer. F&#246;rordning (2008:851).
+
+25 &#167; Best&#228;mmelserna i 46 &#167; upphovsr&#228;ttslagen och till denna
+anslutande best&#228;mmelser i lagen i &#246;vrigt ska, ut&#246;ver vad som
+f&#246;ljer av 61 &#167; upphovsr&#228;ttslagen, till&#228;mpas p&#229;
+
+1. ljudupptagningar som har gjorts i ett annat land &#228;n Sverige
+vilket &#228;r anslutet till WIPO-f&#246;rdraget om framf&#246;randen och
+fonogram, och
+
+2. ljudupptagningar vars framst&#228;llare &#228;r medborgare eller har
+sin vanliga vistelseort i eller &#228;r en juridisk person fr&#229;n ett
+f&#246;rdragsland.
+
+Det som s&#228;gs i f&#246;rsta stycket g&#228;ller dock inte best&#228;mmelserna
+om tillg&#228;ngligg&#246;rande f&#246;r allm&#228;nheten i 46 &#167; f&#246;rsta stycket 2
+upphovsr&#228;ttslagen utom n&#228;r det &#228;r fr&#229;ga om
+
+1. spridning i form av &#246;verl&#229;telse eller uthyrning av en
+ljudupptagning, eller
+
+2. &#246;verf&#246;ring till allm&#228;nheten som sker p&#229; ett s&#229;dant s&#228;tt att
+enskilda kan f&#229; tillg&#229;ng till en ljudupptagning fr&#229;n en plats
+och vid en tidpunkt som de sj&#228;lva v&#228;ljer.
+F&#246;rordning (2008:851).
+
+26 &#167; En framst&#228;llare av en ljudupptagning och de ut&#246;vande
+konstn&#228;rer vars framf&#246;rande finns p&#229; en s&#229;dan ska ha r&#228;tt till
+ers&#228;ttning p&#229; motsvarande s&#228;tt som anges i 47 &#167; andra-fj&#228;rde
+styckena upphovsr&#228;ttslagen, om
+
+1. ljudupptagningen har gjorts i ett annat land &#228;n Sverige och
+det landet &#228;r anslutet till WIPO-f&#246;rdraget om framf&#246;randen och
+fonogram, eller
+
+2. framst&#228;llaren &#228;r medborgare eller har sin vanliga
+vistelseort i eller &#228;r en juridisk person fr&#229;n ett
+f&#246;rdragsland.
+
+R&#228;tten till ers&#228;ttning enligt f&#246;rsta stycket g&#228;ller endast om
+ljudupptagningen anv&#228;nds
+
+1. vid en ljudradio- eller televisionsuts&#228;ndning,
+
+2. vid annan &#246;verf&#246;ring till allm&#228;nheten utom i fall d&#229;
+&#246;verf&#246;ringen sker p&#229; ett s&#229;dant s&#228;tt att enskilda kan f&#229;
+tillg&#229;ng till ljudupptagningen fr&#229;n en plats och vid en
+tidpunkt som de sj&#228;lva v&#228;ljer, eller
+
+3. vid ett offentligt framf&#246;rande.
+
+R&#228;tten till ers&#228;ttning enligt f&#246;rsta och andra stycket g&#228;ller
+inte ljudfilm.
+
+Best&#228;mmelserna i 45 &#167; tredje stycket och 46 &#167; tredje stycket
+upphovsr&#228;ttslagen ska till&#228;mpas p&#229; r&#228;tten till ers&#228;ttning
+enligt f&#246;rsta och andra stycket.
+
+R&#228;tten till ers&#228;ttning enligt f&#246;rsta och andra stycket g&#228;ller
+endast i den omfattning och under den tid som det andra landet
+ger en r&#228;tt till ers&#228;ttning f&#246;r anv&#228;ndning av ljudupptagningar
+med anknytning till Sverige. F&#246;rordning (2008:851).
+
+Ers&#228;ttning vid tillverkning och inf&#246;rsel av anordningar f&#246;r
+ljud- eller bildupptagningar
+
+27 &#167; Best&#228;mmelserna i 26 k-26 m &#167;&#167; upphovsr&#228;ttslagen skall,
+under de f&#246;ruts&#228;ttningar som anges i andra stycket, till&#228;mpas
+p&#229;
+
+1. verk av den som &#228;r medborgare eller har sin vanliga
+vistelseort i ett annat land &#228;n Sverige, och
+
+2. filmverk vars producent har sitt s&#228;te eller sin vanliga
+vistelseort i ett annat land &#228;n Sverige.
+
+Best&#228;mmelserna i f&#246;rsta stycket g&#228;ller endast om det andra
+landet har genomf&#246;rt en ers&#228;ttningsordning f&#246;r anordningar p&#229;
+vilka ljud eller r&#246;rliga bilder kan tas upp, vilken ger
+motsvarande m&#246;jlighet till ers&#228;ttning f&#246;r svenska
+r&#228;ttighetshavare. De skall inte till&#228;mpas om skyddstiden f&#246;r
+verket har l&#246;pt ut i r&#228;ttighetshavarens hemland.
+F&#246;rordning (2006:10).
+
+28 &#167; Best&#228;mmelserna i 45 och 46 &#167;&#167; upphovsr&#228;ttslagen skall n&#228;r
+det g&#228;ller h&#228;nvisningarna till 26 k-26 m &#167;&#167; samma lag, under de
+f&#246;ruts&#228;ttningar som anges i andra stycket, till&#228;mpas p&#229;
+
+1. framf&#246;randen av den som &#228;r medborgare i ett annat land &#228;n
+Sverige, och
+
+2. upptagningar av ljud eller r&#246;rliga bilder vars framst&#228;llare
+&#228;r medborgare eller har sin vanliga vistelseort i ett annat
+land &#228;n Sverige eller &#228;r en juridisk person fr&#229;n ett annat
+land.
+
+Best&#228;mmelserna i f&#246;rsta stycket g&#228;ller endast om det andra
+landet har genomf&#246;rt en ers&#228;ttningsordning f&#246;r anordningar p&#229;
+vilka ljud eller r&#246;rliga bilder kan tas upp, vilken ger
+motsvarande m&#246;jlighet till ers&#228;ttning f&#246;r svenska
+r&#228;ttighetshavare. De skall inte till&#228;mpas om skyddstiden f&#246;r
+framf&#246;randet eller upptagningen har l&#246;pt ut i
+r&#228;ttighetshavarens hemland. F&#246;rordning (2006:10).
+
+Kompletterande best&#228;mmelser om ers&#228;ttning vid vidaref&#246;rs&#228;ljning
+av originalkonstverk (f&#246;ljer&#228;tt)
+
+29 &#167; Best&#228;mmelserna i 26 n-26 p &#167;&#167; upphovsr&#228;ttslagen skall,
+ut&#246;ver vad som i &#246;vrigt g&#228;ller enligt denna f&#246;rordning,
+till&#228;mpas p&#229; verk av den som &#228;r medborgare i ett annat land &#228;n
+Sverige, om det andra landet har genomf&#246;rt en s&#229;dan
+ers&#228;ttningsordning som avses i artikel 14 ter i
+Bernkonventionen f&#246;r skydd av litter&#228;ra och konstn&#228;rliga verk
+och ger svenska r&#228;ttighetshavare r&#228;tt till ers&#228;ttning enligt
+denna.
+
+Best&#228;mmelserna skall inte till&#228;mpas om skyddstiden f&#246;r verket
+har l&#246;pt ut i r&#228;ttighetshavarens hemland.
+F&#246;rordning (2007:520).
+
+Framst&#228;llare av kataloger och presspublikationer
+
+30 &#167; Best&#228;mmelserna i 49 &#167; upphovsr&#228;ttslagen och till
+paragrafen anslutande best&#228;mmelser i lagen i &#246;vrigt skall,
+ut&#246;ver vad som f&#246;ljer av 1 &#167; andra stycket, till&#228;mpas p&#229;
+arbeten vars framst&#228;llare har sin vanliga vistelseort i ett
+EES-land. Best&#228;mmelserna skall till&#228;mpas &#228;ven p&#229; arbeten vars
+framst&#228;llare &#228;r juridisk person fr&#229;n ett EES-land och har sitt
+s&#228;te, sitt huvudkontor eller sin huvudsakliga verksamhet i ett
+EES-land. Om den juridiska personen har sitt s&#228;te i ett EES-
+land men inte sitt huvudkontor eller sin huvudsakliga
+verksamhet d&#228;r, skall best&#228;mmelserna dock till&#228;mpas endast om
+arbetet ing&#229;r i en ekonomisk verksamhet som har etablerats i
+ett EES-land.
+
+Detta till&#228;mpas ocks&#229; p&#229; arbeten vars framst&#228;llare har
+motsvarande anknytning till Isle of Man. 
+F&#246;rordning (2008:851).
+
+30 a &#167; Best&#228;mmelserna i 48 b &#167; upphovsr&#228;ttslagen ska till&#228;mpas 
+p&#229; presspublikationer vars framst&#228;llare &#228;r etablerade i ett 
+annat EES-land. F&#246;rordning (2022:1716).
+
+Till&#228;mpning av det internationella skyddet i tiden
+
+31 &#167; Best&#228;mmelserna i 2-9, 16, 17 och 21-23 &#167;&#167; g&#228;ller &#228;ven verk
+som har kommit till f&#246;re den dag d&#229; landet blev medlem av
+Bernunionen, bundet av v&#228;rldskonventionen, anslutet till
+V&#228;rldshandelsorganisationen eller anslutet till WIPO-f&#246;rdraget
+om upphovsr&#228;tt.
+
+Exemplar av verk som har framst&#228;llts f&#246;re den dag som avses i
+f&#246;rsta stycket f&#229;r fritt spridas och visas. Best&#228;mmelserna om
+uthyrning och utl&#229;ning i 19 &#167; upphovsr&#228;ttslagen till&#228;mpas dock
+ocks&#229; p&#229; s&#229;dana exemplar.
+
+Trycksatser, klich&#233;er, formar och andra hj&#228;lpmedel som f&#246;r
+m&#229;ngfaldigande av ett visst verk har framst&#228;llts f&#246;re den dagen
+f&#229;r anv&#228;ndas f&#246;r sitt &#228;ndam&#229;l under tv&#229; &#229;r och sex m&#229;nader fr&#229;n
+den dagen. I fr&#229;ga om exemplar som har framst&#228;llts med st&#246;d av
+denna best&#228;mmelse ska best&#228;mmelserna i andra stycket till&#228;mpas.
+F&#246;rordning (2008:851).
+
+32 &#167; Best&#228;mmelserna i 31 &#167; till&#228;mpas ocks&#229; p&#229; r&#228;ttigheter som
+skyddas p&#229; grund av 5, 9, 11-15, 17-20 och 24-26 &#167;&#167;.
+F&#246;rordning (2008:851).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1994:193
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 juli 1994, d&#229; f&#246;rordningen
+(1973:529) om till&#228;mpning av lagen (1960:729) om upphovsr&#228;tt till
+litter&#228;ra och konstn&#228;rliga verk och lagen (1960:730) om r&#228;tt till
+fotografisk bild med avseende p&#229; andra l&#228;nder och omr&#229;den m. m.
+skall upph&#246;ra att g&#228;lla.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3257">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3259">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,754 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-11" /> 
+ <meta id="rattsinfo-edited" content="2023-01-11 11:08:15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2888</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2887">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2889">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1998:811 ·
+                    <a href="/sfsr?bet=1998:811">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1998:811) om inf&#246;rande av milj&#246;balken</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1998-06-11
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:1420
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1999-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Allm&#228;nna best&#228;mmelser
+
+1 &#167; Milj&#246;balken och denna lag tr&#228;der i kraft den 1 januari
+1999.
+
+Utan hinder av f&#246;rsta stycket skall vad som s&#228;gs i 21 och 22 &#167;&#167;
+denna lag tr&#228;da i kraft den dag regeringen best&#228;mmer.
+
+2 &#167; Genom milj&#246;balken upph&#228;vs med de begr&#228;nsningar som framg&#229;r
+av denna lag
+
+1. naturv&#229;rdslagen (1964:822),
+
+2. milj&#246;skyddslagen (1969:387),
+
+3. lagen (1971:1154) om f&#246;rbud mot dumpning av avfall i vatten,
+
+4. lagen (1976:1054) om svavelhaltigt br&#228;nsle,
+
+5. lagen (1979:425) om sk&#246;tsel av jordbruksmark,
+
+6. renh&#229;llningslagen (1979:596),
+
+7. h&#228;lsoskyddslagen (1982:1080),
+
+8. vattenlagen (1983:291),
+
+9. lagen (1983:292) om inf&#246;rande av vattenlagen (1983:291),
+
+10. lagen (1983:428) om spridning av bek&#228;mpningsmedel &#246;ver
+skogsmark,
+
+11. lagen (1985:426) om kemiska produkter,
+
+12. milj&#246;skadelagen (1986:225),
+
+13. lagen (1987:12) om hush&#229;llning med naturresurser m.m.,
+
+14. lagen (1991:639) om f&#246;rhandsgranskning av biologiska
+bek&#228;mpningsmedel,
+
+15. lagen (1994:900) om genetiskt modifierade organismer, och
+
+16. lagen (1994:1818) om &#229;tg&#228;rder betr&#228;ffande djur och v&#228;xter
+som tillh&#246;r skyddade arter.
+
+3 &#167; Om det i en lag eller n&#229;gon annan f&#246;rfattning h&#228;nvisas till
+best&#228;mmelser som har ersatts genom best&#228;mmelser i milj&#246;balken
+eller i denna lag, skall i st&#228;llet de nya best&#228;mmelserna
+till&#228;mpas.
+
+4 &#167; F&#246;reskrifter som g&#228;ller vid milj&#246;balkens ikrafttr&#228;dande
+skall anses meddelade med st&#246;d av motsvarande best&#228;mmelser i
+balken, om de har meddelats med st&#246;d av best&#228;mmelser i en lag
+som anges i 2 &#167; eller motsvarande best&#228;mmelser i en &#228;ldre lag.
+Detta g&#228;ller dock inte om regeringen f&#246;reskriver n&#229;got annat.
+Det g&#228;ller inte heller f&#246;r f&#246;reskrifter som har meddelats av en
+annan myndighet &#228;n regeringen, om den myndighet som regeringen
+best&#228;mmer f&#246;reskriver n&#229;got annat.
+
+5 &#167; Tillst&#229;nd, godk&#228;nnanden, lagligf&#246;rklaringar, undantag,
+dispenser, beslut om &#246;verl&#229;telse av tillsynsansvar,
+medgivanden, f&#246;rel&#228;gganden och f&#246;rbud enligt 20 &#167;
+naturv&#229;rdslagen (1964:822), villkor eller registreringar som
+avser verksamheter, hanteringar eller andra &#229;tg&#228;rder skall
+forts&#228;tta att g&#228;lla, om de har meddelats genom beslut enligt
+best&#228;mmelser i en lag som anges i 2 &#167; eller motsvarande
+best&#228;mmelser i &#228;ldre lag eller enligt f&#246;reskrifter som har
+meddelats med st&#246;d av s&#229;dana best&#228;mmelser. Besluten skall anses
+meddelade med st&#246;d av motsvarande best&#228;mmelser i milj&#246;balken
+eller i f&#246;reskrifter som har meddelats med st&#246;d av milj&#246;balken,
+om det inte f&#246;ljer n&#229;got annat av denna lag eller av
+f&#246;reskrifterna.
+
+F&#246;rsta stycket g&#228;ller inte s&#229;dan dispens fr&#229;n skyldigheten att
+s&#246;ka tillst&#229;nd som anges i 10 &#167; andra stycket eller 17 &#167; andra
+stycket milj&#246;skyddslagen (1969:387) i dess lydelse f&#246;re den 1
+juli 1981. Villkoren f&#246;r en s&#229;dan dispens skall dock forts&#228;tta
+att g&#228;lla till dess n&#229;got annat best&#228;ms. Best&#228;mmelserna i 26
+kap. 9 &#167; milj&#246;balken till&#228;mpas p&#229; villkoren. Den som
+upps&#229;tligen eller av oaktsamhet bryter mot s&#229;dant villkor, d&#246;ms
+till b&#246;ter eller f&#228;ngelse i h&#246;gst tv&#229; &#229;r.
+
+5 a &#167; En verksamhet som bedrivs i enlighet med en urminnes 
+h&#228;vd, ett privilegiebrev eller en annan s&#229;dan s&#228;rskild 
+r&#228;ttighet att f&#246;rfoga &#246;ver vatten som avses i 2 kap. 41 &#167; 
+vattenlagen (1918:523) ska anses bedrivas med st&#246;d av en 
+r&#228;ttighet som har tillkommit enligt motsvarande best&#228;mmelser 
+i milj&#246;balken eller i f&#246;reskrifter som har meddelats med st&#246;d 
+av milj&#246;balken, om det inte f&#246;ljer n&#229;got annat av denna lag 
+eller av f&#246;reskrifterna. Lag (2018:1419).
+
+6 &#167; M&#229;l och &#228;renden som har inletts f&#246;re milj&#246;balkens
+ikrafttr&#228;dande skall handl&#228;ggas och bed&#246;mas enligt &#228;ldre
+best&#228;mmelser, om det inte f&#246;ljer n&#229;got annat av denna lag.
+Best&#228;mmelserna om milj&#246;kvalitetsnormer i 5 kap. och 16 kap. 5 &#167;
+milj&#246;balken skall till&#228;mpas omedelbart.
+
+Mark- och milj&#246;domstolarna och Mark- och milj&#246;&#246;verdomstolen
+skall i &#246;verklagade eller &#246;verl&#228;mnade m&#229;l och &#228;renden som har
+inletts f&#246;re milj&#246;balkens ikrafttr&#228;dande till&#228;mpa
+best&#228;mmelserna i milj&#246;balken i fr&#229;ga om f&#246;rfarandet. &#196;ldre
+best&#228;mmelser skall dock fortfarande till&#228;mpas i fr&#229;ga om
+milj&#246;konsekvensbeskrivningar. Lag (2010:936).
+
+7 &#167; Vad som enligt milj&#246;balken g&#228;ller om &#228;gare av en fastighet
+skall till&#228;mpas &#228;ven p&#229; den som innehar en fastighet med
+st&#228;ndig besittningsr&#228;tt eller med fideikommissr&#228;tt.
+
+S&#228;rskilda &#246;verg&#229;ngsbest&#228;mmelser till 2 kap. milj&#246;balken m.m.
+
+8 &#167; Best&#228;mmelserna i 2 kap. 8 &#167; och 10 kap. 2 &#167; milj&#246;balken
+skall till&#228;mpas i fr&#229;ga om milj&#246;farlig verksamhet vars faktiska
+drift har p&#229;g&#229;tt efter den 30 juni 1969, om verkningarna av
+verksamheten alltj&#228;mt p&#229;g&#229;r vid tiden f&#246;r milj&#246;balkens
+ikrafttr&#228;dande enligt 1 &#167;, och det f&#246;religger behov av att
+avhj&#228;lpa skador eller ol&#228;genheter som har orsakats av
+verksamheten.
+
+S&#228;rskilda &#246;verg&#229;ngsbest&#228;mmelser till 7 kap. milj&#246;balken
+
+9 &#167; Beslut som har meddelats f&#246;re milj&#246;balkens ikrafttr&#228;dande
+om att skydda och v&#229;rda ett omr&#229;de eller f&#246;rem&#229;l samt beslut om
+&#228;ndring av tidigare s&#229;dana beslut g&#228;ller fortfarande. S&#229;dana
+beslut skall anses meddelade med st&#246;d av motsvarande
+best&#228;mmelser i milj&#246;balken. Naturv&#229;rdsomr&#229;den skall vid
+till&#228;mpningen av milj&#246;balken anses som naturreservat.
+
+Om ett f&#246;rordnande enligt 2 kap. 14 &#167; tredje stycket
+vattenlagen (1918:523) till skydd mot f&#246;rorening eller 2 kap.
+62 &#167; samma lag till skydd f&#246;r vattenf&#246;rs&#246;rjningen &#228;ndras eller
+upph&#228;vs, skall det antecknas i inskrivningsregistret.
+
+10 &#167; Strandomr&#229;den som vid utg&#229;ngen av juni 1975 ingick i
+fastst&#228;lld generalplan, stadsplan eller byggnadsplan skall inte
+omfattas av strandskydd enligt milj&#246;balken, om det inte best&#228;ms
+n&#229;got annat.
+
+10 a &#167; Strandskydd intr&#228;der n&#228;r en fastst&#228;lld generalplan,
+stadsplan eller byggnadsplan upph&#228;vs eller ers&#228;tts av en ny
+detaljplan enligt plan- och bygglagen (2010:900). Detta g&#228;ller
+&#228;ven n&#228;r en detaljplan f&#246;r ett omr&#229;de som tidigare har
+omfattats av en fastst&#228;lld generalplan, stadsplan eller
+byggnadsplan upph&#228;vs eller ers&#228;tts av en ny detaljplan.
+Lag (2011:337).
+
+11 &#167; F&#246;rordnanden om undantag fr&#229;n strandskydd som har
+meddelats enligt 15 &#167; andra stycket f&#246;rsta meningen
+naturv&#229;rdslagen (1964:822) i dess lydelse f&#246;re den 1 juli 1994
+skall ompr&#246;vas med till&#228;mpning av 7 kap. 13 &#167; milj&#246;balken
+senast den 30 juni 1999. Har ett f&#246;rordnande inte ompr&#246;vats
+innan dess, upph&#246;r f&#246;rordnandet att g&#228;lla.
+
+12 &#167; Best&#228;mmelsen i 7 kap. 18 h &#167; milj&#246;balken om n&#228;r ett
+beslut om dispens fr&#229;n f&#246;rbudet att vidta &#229;tg&#228;rder i ett
+strandskyddsomr&#229;de upph&#246;r, ska till&#228;mpas ocks&#229; p&#229; dispenser
+meddelade f&#246;re den 1 augusti 1991. Lag (2009:531).
+
+13 &#167; F&#246;reskrifter enligt 7 kap. 20 &#167; milj&#246;balken f&#246;r ett
+milj&#246;skyddsomr&#229;de inneb&#228;r inte inskr&#228;nkningar av tillst&#229;nd
+enligt milj&#246;skyddslagen (1969:387).
+
+14 &#167; Best&#228;mmelserna om f&#246;rl&#228;ngning av interimistiska f&#246;rbud i
+naturv&#229;rdslagen (1964:822) skall fortfarande till&#228;mpas i fr&#229;ga
+om f&#246;rbud som g&#228;ller vid milj&#246;balkens ikrafttr&#228;dande.
+
+S&#228;rskilda &#246;verg&#229;ngsbest&#228;mmelser till 10 kap. milj&#246;balken
+
+15 &#167; Vid till&#228;mpningen av 10 kap. 3 &#167; beaktas inte f&#246;rv&#228;rv som
+har skett f&#246;re milj&#246;balkens ikrafttr&#228;dande.
+
+S&#228;rskilda &#246;verg&#229;ngsbest&#228;mmelser till 11 kap. milj&#246;balken
+
+16 &#167; I fr&#229;ga om allm&#228;nna flottleder skall fortfarande till&#228;mpas
+best&#228;mmelserna i vattenlagen (1983:291) om
+
+1. r&#229;dighet i 2 kap. 4 &#167; 4 och 5 &#167; f&#246;rsta stycket 2,
+
+2. s&#228;rskilda tv&#229;ngsr&#228;tter i 8 kap. 1 &#167; f&#246;rsta stycket 3,
+
+3. ers&#228;ttning i 9 kap. 3 &#167; andra stycket, 11 &#167; tredje stycket,
+14 &#167; och 15 &#167;,
+
+4. pr&#246;vningen av vattenm&#229;l i 13 kap. 13 &#167; f&#246;rsta stycket 8,
+
+5. utrivning i 14 kap. 3 &#167;, och
+
+6. ompr&#246;vning i 15 kap. 9 &#167;.
+
+Vad som s&#228;gs i 14 kap. 3 &#167; och 15 kap. 9 &#167; vattenlagen
+(1983:291) om vattendomstolen skall i st&#228;llet g&#228;lla
+mark- och milj&#246;domstolen.
+
+Ut&#246;ver vad som har sagts nu g&#228;ller vattenlagen (1983:291) &#228;ven
+i den utstr&#228;ckning som framg&#229;r av 7 och 13 &#167;&#167; lagen (1919:426)
+om flottning i allm&#228;n flottled samt i 12 och 25 &#167;&#167; lagen
+(1976:997) om vattenf&#246;rbund. Lag (2010:936).
+
+17 &#167; Om en vattenanl&#228;ggning har tillkommit utan tillst&#229;nd
+enligt vattenlagen (1983:291) eller motsvarande &#228;ldre
+lagstiftning eller om tillst&#229;ndsfr&#229;gan betr&#228;ffande en s&#229;dan
+anl&#228;ggning &#228;r oklar, f&#229;r den som &#228;ger anl&#228;ggningen eller avser
+att utnyttja den f&#246;r vattenverksamhet beg&#228;ra pr&#246;vning av
+anl&#228;ggningens laglighet hos mark- och milj&#246;domstolen.
+
+Beg&#228;rs tillst&#229;nd att &#228;ndra en vattenanl&#228;ggning som har
+tillkommit utan tillst&#229;nd f&#246;re milj&#246;balkens ikrafttr&#228;dande,
+skall ans&#246;kan samtidigt g&#246;ras om pr&#246;vning av anl&#228;ggningens
+laglighet.
+
+Andra stycket g&#228;ller ocks&#229; n&#228;r ans&#246;kan g&#246;rs enligt 28 kap. 12 &#167;
+milj&#246;balken om att f&#229; anv&#228;nda n&#229;gon annans anl&#228;ggning. Den som
+g&#246;r en s&#229;dan ans&#246;kan f&#229;r &#228;ven beg&#228;ra pr&#246;vning av anl&#228;ggningens
+laglighet.
+
+En lagligf&#246;rklaring f&#229;r f&#246;renas med villkor.
+
+Den som upps&#229;tligen eller av oaktsamhet bryter mot ett s&#229;dant
+villkor, d&#246;ms till b&#246;ter eller f&#228;ngelse i h&#246;gst tv&#229; &#229;r.
+
+Om en g&#228;rning som avses i femte stycket &#228;r att anse som ringa,
+d&#246;ms inte till ansvar. En g&#228;rning &#228;r att anse som ringa om den
+framst&#229;r som obetydlig med h&#228;nsyn till det intresse som &#228;r
+avsett att skyddas genom straffbest&#228;mmelsen. Lag (2010:936).
+
+17 a &#167; Trots 17 &#167; f&#229;r en anl&#228;ggning som anv&#228;nds f&#246;r en 
+s&#229;dan verksamhet som avses i 11 kap. 6 &#167; milj&#246;balken inte 
+lagligf&#246;rklaras. Lag (2018:1419).
+
+18 &#167; Fr&#229;gan om lagligheten av en vattenanl&#228;ggning som har
+tillkommit f&#246;re ikrafttr&#228;dandet av milj&#246;balken utan tillst&#229;nd
+enligt vattenlagen (1983:291) eller motsvarande &#228;ldre
+best&#228;mmelser bed&#246;ms enligt de best&#228;mmelser som g&#228;llde vid
+anl&#228;ggningens tillkomst.
+
+19 &#167; Vad som f&#246;reskrivs om underh&#229;ll i 11 kap. 17 &#167; andra
+stycket milj&#246;-balken g&#228;ller &#228;ven den som med st&#246;d av 8 kap. 2 &#167;
+vattenlagen (1983:291) eller motsvarande &#228;ldre best&#228;mmelser har
+getts r&#228;tt att anv&#228;nda n&#229;gon annans vattenanl&#228;ggning.
+
+Vad som f&#246;reskrivs om en ny fastighets&#228;gares skyldigheter i 11
+kap. 21 &#167; f&#246;rsta stycket milj&#246;balken g&#228;ller &#228;ven n&#228;r den f&#246;rra
+&#228;garen har &#246;vertagit underh&#229;llsskyldigheten med st&#246;d av 14 kap.
+2 &#167; vattenlagen (1983:291).
+
+S&#228;rskilda &#246;verg&#229;ngsbest&#228;mmelser till 16-23 kap. milj&#246;balken
+
+20 &#167; M&#229;l och &#228;renden som f&#246;re milj&#246;balkens ikrafttr&#228;dande har
+inletts hos en domstol, en annan myndighet eller en
+f&#246;rr&#228;ttningsman som enligt milj&#246;balken eller f&#246;reskrifter
+meddelade med st&#246;d av balken inte skall handl&#228;gga s&#229;dana m&#229;l
+eller &#228;renden, skall slutf&#246;ras av den domstolen, myndigheten
+eller f&#246;rr&#228;ttningsmannen, om inte annat f&#246;ljer av denna lag.
+
+21 &#167; Ett &#228;rende hos Koncessionsn&#228;mnden f&#246;r milj&#246;skydd som inte
+har avgjorts vid milj&#246;balkens ikrafttr&#228;dande skall d&#228;refter
+handl&#228;ggas av den mark- och milj&#246;domstol som &#228;r beh&#246;rig enligt
+20 kap. 8 &#167; milj&#246;balken. Lag (2010:936).
+
+21 a &#167; I fr&#229;ga om &#228;renden som handl&#228;ggs hos milj&#246;domstolen
+enligt 4 kap. lagen (1987:12) om hush&#229;llning med naturresurser
+m.m. till&#228;mpas 14 &#167; milj&#246;skyddslagen (1969:387). Vad som d&#228;r
+s&#228;gs om Koncessionsn&#228;mnden skall i st&#228;llet g&#228;lla
+milj&#246;domstolen. Lag (1999:369).
+
+22 &#167; Ett m&#229;l hos en vattendomstol som inte har avgjorts vid
+milj&#246;balkens ikrafttr&#228;dande skall d&#228;refter handl&#228;ggas av den
+mark- och milj&#246;domstol som &#228;r beh&#246;rig enligt 20 kap. 8 &#167;
+milj&#246;balken.
+
+Ett m&#229;l hos Vatten&#246;verdomstolen som vid ikrafttr&#228;dandet inte
+har avgjorts skall d&#228;refter handl&#228;ggas av Mark- och
+milj&#246;&#246;verdomstolen. Lag (2010:935).
+
+23 &#167; &#196;ldre best&#228;mmelser g&#228;ller i fr&#229;ga om &#246;verklagande och krav
+p&#229; pr&#246;vningstillst&#229;nd, om
+
+1. en dom eller ett beslut har meddelats f&#246;re milj&#246;balkens
+ikrafttr&#228;dande, eller
+
+2. en dom eller ett beslut har meddelats av en allm&#228;n
+f&#246;rvaltningsdomstol efter milj&#246;balkens ikrafttr&#228;dande.
+
+Beslut som efter milj&#246;balkens ikrafttr&#228;dande meddelas av
+statlig f&#246;rvaltningsmyndighet enligt n&#229;gon av de lagar som
+upph&#228;vs genom 2 &#167; skall &#246;verklagas till mark- och milj&#246;domstol,
+om ett beslut i motsvarande fr&#229;ga enligt milj&#246;balken skall
+&#246;verklagas till s&#229;dan domstol. Beslut som efter ikrafttr&#228;dandet
+meddelas av Koncessionsn&#228;mnden f&#246;r milj&#246;skydd skall dock
+&#246;verklagas till Mark- och milj&#246;&#246;verdomstolen.
+
+Har f&#246;re milj&#246;balkens ikrafttr&#228;dande beslut i &#228;rende enligt
+n&#229;gon av de lagar som upph&#228;vs genom 2 &#167; &#246;verklagats hos
+regeringen och har &#228;rendet vid milj&#246;balkens ikrafttr&#228;dande &#228;nnu
+inte avgjorts, f&#229;r regeringen f&#246;reskriva eller i det enskilda
+&#228;rendet besluta att &#246;verl&#228;mna &#228;rendet f&#246;r pr&#246;vning vid den
+mark- och milj&#246;domstol som &#228;r beh&#246;rig eller till Mark- och
+milj&#246;&#246;verdomstolen. Lag (2010:934).
+
+24 &#167; Domar och beslut som en tingsr&#228;tt eller en
+fastighetsdomstol meddelar efter milj&#246;balkens ikrafttr&#228;dande
+och som innefattar pr&#246;vning av fr&#229;gor som regleras i 31 och 32
+kap. milj&#246;balken &#246;verklagas till Mark- och milj&#246;&#246;verdomstolen.
+Detsamma g&#228;ller i fr&#229;ga om beslut under r&#228;tteg&#229;ngen i m&#229;l vari
+s&#229;dan fr&#229;ga skall pr&#246;vas. Lag (2010:936).
+
+25 &#167; Beslut som en f&#246;rr&#228;ttningsman meddelar efter
+milj&#246;balkens ikrafttr&#228;dande i fr&#229;gor som regleras i 12 kap.
+vattenlagen (1983:291) ska &#246;verklagas till mark- och
+milj&#246;domstolen.
+
+N&#228;r mark- och milj&#246;domstolen pr&#246;var s&#229;dana &#246;verklaganden ska
+den till&#228;mpa 13 kap. 30–33, 36, 38, 41–43 och 45 &#167;&#167;, 46 &#167;
+f&#246;rsta stycket, 47–50 &#167;&#167; samt 56–63 &#167;&#167; vattenlagen
+(1983:291). Vad som s&#228;gs om vattendomstol ska g&#228;lla mark- och
+milj&#246;domstol. Vad som i 61 &#167; s&#228;gs om n&#228;mndem&#228;n ska g&#228;lla
+s&#228;rskilda ledam&#246;ter. Lag (2010:936).
+
+26 &#167; Tillst&#229;nd, godk&#228;nnanden, undantag eller dispenser som
+enligt &#228;ldre best&#228;mmelser har l&#228;mnats f&#246;r obegr&#228;nsad tid f&#229;r
+vid en ompr&#246;vning tidsbegr&#228;nsas enligt 16 kap. 2 &#167; f&#246;rsta
+stycket milj&#246;balken, endast om
+
+1. det f&#246;ljer av Sveriges internationella &#229;taganden att en
+s&#229;dan tidsbe-gr&#228;nsning skall ske, eller
+
+2. tidsbegr&#228;nsning kunde ske vid en ompr&#246;vning enligt de &#228;ldre
+best&#228;mmelserna.
+
+27 &#167; Har l&#228;nsstyrelsen enligt v&#228;glagen (1971:948) eller lagen
+(1995:1649) om byggande av j&#228;rnv&#228;g godk&#228;nt
+milj&#246;konsekvensbeskrivning f&#246;r ny v&#228;g eller j&#228;rnv&#228;g f&#246;re
+milj&#246;balkens ikrafttr&#228;dande, kr&#228;vs inte regeringens
+till&#229;tlighetspr&#246;vning enligt 17 kap. 1 &#167; 2 eller 3 milj&#246;balken
+om arbetsplan f&#246;r v&#228;gen eller j&#228;rnv&#228;gsplan f&#246;r j&#228;rnv&#228;gen
+fastst&#228;llts f&#246;re den 1 januari 2001. Lag (2005:581).
+
+28 &#167; M&#229;l som g&#228;ller lagligf&#246;rklaring enligt 17 &#167; denna lag
+ska utg&#246;ra ans&#246;kningsm&#229;l enligt 21 kap. 1 a &#167; milj&#246;balken.
+
+Reglerna i 16 kap. 13 &#167; milj&#246;balken om en ideell f&#246;renings
+eller annan juridisk persons r&#228;tt att &#246;verklaga g&#228;ller &#228;ven i
+de fall den &#246;verklagbara domen eller beslutet avser en
+lagligf&#246;rklaring. Lag (2010:936).
+
+29 &#167; Om ett vattenf&#246;retag har utf&#246;rts under vattenlagens
+(1983:291) giltighetstid utan tillst&#229;nd, &#228;r f&#246;retagaren
+bevisskyldig i fr&#229;ga om de f&#246;rh&#229;llanden som r&#229;dde i vattnet
+innan f&#246;retaget utf&#246;rdes.
+
+Detsamma g&#228;ller andra vattenf&#246;retag &#228;n dikning som har utf&#246;rts
+under vattenlagens (1918:523) giltighetstid, om den lagen var
+till&#228;mplig p&#229; f&#246;retaget.
+
+S&#228;rskilda &#246;verg&#229;ngsbest&#228;mmelser till 24 och 25 kap. milj&#246;balken
+
+30 &#167; Betr&#228;ffande lagligf&#246;rklaring enligt 17 &#167; denna lag g&#228;ller
+detsamma som f&#246;reskrivs om tillst&#229;nd i 24 kap. milj&#246;balken.
+
+31 &#167; Vid ompr&#246;vning enligt 24 kap. 5 &#167; milj&#246;balken av ett
+tillst&#229;nd enligt milj&#246;skyddslagen (1969:387) f&#229;r en
+produktionsm&#228;ngd eller annan omfattning av verksamheten som
+angetts i tillst&#229;ndet &#228;ndras mot tillst&#229;ndshavarens bestridande
+endast n&#228;r ompr&#246;vningen g&#246;rs enligt den paragrafen f&#246;rsta
+stycket 2.
+
+32 &#167; Best&#228;mmelsen i 24 kap. 5 &#167; f&#246;rsta stycket 1 milj&#246;balken om
+att ompr&#246;vning f&#229;r g&#246;ras tio &#229;r efter det att ett
+tillst&#229;ndsbeslut har vunnit laga kraft inneb&#228;r inte n&#229;gon
+inskr&#228;nkning av ompr&#246;vningstider som har best&#228;mts i domar och
+beslut meddelade enligt &#228;ldre best&#228;mmelser.
+
+33 &#167; Ett tillst&#229;nd enligt vattenlagen (1918:523) till
+vattenkraftverk eller vattenreglering f&#246;r kraft&#228;ndam&#229;l eller
+villkoren f&#246;r ett s&#229;dant tillst&#229;nd f&#229;r ompr&#246;vas enligt 24 kap.
+5 &#167; f&#246;rsta stycket 1 milj&#246;balken tidigast trettio &#229;r efter den
+dag d&#229; f&#246;retaget enligt meddelade f&#246;reskrifter skall vara
+fullbordat, om inte n&#229;got annat f&#246;ljer av andra stycket. Om
+nypr&#246;vning har gjorts enligt vattenlagen (1918:523), f&#229;r en
+s&#229;dan ompr&#246;vning g&#246;ras tidigast trettio &#229;r efter den dag d&#229;
+domen om nypr&#246;vning vann laga kraft.
+
+Om f&#246;retaget skulle ha kunnat underkastas nypr&#246;vning enligt 4
+kap. vattenlagen (1918:523) vid en tidpunkt efter den 31
+december 1983, f&#229;r ompr&#246;vning g&#246;ras s&#229; snart den f&#246;r nypr&#246;vning
+g&#228;llande tiden har g&#229;tt ut.
+
+Ett tillst&#229;nd enligt vattenlagen (1918:523) eller villkoren f&#246;r
+ett s&#229;dant tillst&#229;nd f&#229;r ompr&#246;vas enligt 24 kap. 5 &#167; f&#246;rsta
+stycket 6 milj&#246;balken endast om f&#246;r&#228;ndringen i omgivningen har
+skett efter den 31 december 1983.
+
+34 &#167; Ompr&#246;vning enligt milj&#246;balken kan g&#246;ras av en s&#229;dan 
+s&#228;rskild r&#228;ttighet att f&#246;rfoga &#246;ver vatten som avses i 2 kap. 
+41 &#167; vattenlagen (1918:523). 
+
+Vid ompr&#246;vning enligt 24 kap. 5 &#167; milj&#246;balken av en s&#229;dan 
+r&#228;ttighet ska r&#228;ttighetshavaren ers&#228;tta s&#229;dana kostnader som 
+avses i 25 kap. 8 &#167; f&#246;rsta stycket milj&#246;balken. 
+Lag (2018:1419).
+
+S&#228;rskilda &#246;verg&#229;ngsbest&#228;mmelser till 26 kap. milj&#246;balken
+
+35 &#167; Ett f&#246;rel&#228;ggande eller f&#246;rbud skall anses beslutat enligt
+26 kap. milj&#246;balken, om en tillsynsmyndighet har beslutat det
+enligt best&#228;mmelser i en lag som anges i 2 &#167; denna lag eller
+motsvarande best&#228;mmelser i &#228;ldre lag eller enligt f&#246;reskrifter
+som har meddelats med st&#246;d av s&#229;dana best&#228;mmelser.
+
+36 &#167; S&#228;rskild handr&#228;ckning enligt 26 kap. 17 &#167; andra stycket
+milj&#246;balken f&#229;r meddelas &#228;ven vid en g&#228;rning som har beg&#229;tts
+f&#246;re milj&#246;balkens ikrafttr&#228;dande, om g&#228;rningen var straffbar
+n&#228;r den begicks.
+
+S&#228;rskilda &#246;verg&#229;ngsbest&#228;mmelser till 30 kap. milj&#246;balken
+
+37 &#167; Best&#228;mmelserna om milj&#246;sanktionsavgift i 30 kap.
+milj&#246;balken tilll&#228;mpas endast p&#229; &#246;vertr&#228;delser som har &#228;gt rum
+efter att balken har tr&#228;tt i kraft.
+
+Best&#228;mmelserna om milj&#246;skyddsavgift i milj&#246;skyddslagen
+(1969:387) skall fortfarande till&#228;mpas i m&#229;l och &#228;renden om
+s&#229;dan avgift, om ans&#246;kan om p&#229;f&#246;rande av avgift har kommit in
+till Koncessionsn&#228;mnden f&#246;r milj&#246;skydd innan milj&#246;balken tr&#228;dde
+i kraft.
+
+S&#228;rskilda &#246;verg&#229;ngsbest&#228;mmelser till 31 kap. milj&#246;balken
+
+38 &#167; I st&#228;llet f&#246;r reglerna i 31 kap. milj&#246;balken om ers&#228;ttning
+vid vissa ingripanden av det allm&#228;nna skall &#228;ldre best&#228;mmelser
+g&#228;lla i fr&#229;ga om r&#228;tt till ers&#228;ttning eller inl&#246;sen p&#229; grund av
+beslut som har meddelats f&#246;re balkens ikrafttr&#228;dande.
+
+Reglerna i 31 kap. milj&#246;balken om tillst&#229;nd till
+vattenverksamhet skall &#228;ven g&#228;lla lagligf&#246;rklaring enligt 17 &#167;
+denna lag.
+
+39 &#167; /Upph&#246;r att g&#228;lla U:2029-01-01 genom lag (2018:1420)./
+Vid ompr&#246;vning av ett tillst&#229;nd enligt vattenlagen
+(1918:523) eller motsvarande &#228;ldre best&#228;mmelser g&#228;ller f&#246;ljande
+i fr&#229;ga om ers&#228;ttning enligt 31 kap. 20-22 &#167;&#167; milj&#246;balken:
+
+1. Vad som s&#228;gs om andelskraft i 31 kap. 21 &#167; tredje stycket
+milj&#246;balken till&#228;mpas &#228;ven p&#229; ers&#228;ttning genom &#246;verf&#246;ring av
+kraft enligt vattenlagen (1918:523) i dess lydelse f&#246;re den 1
+juli 1974.
+
+2. I st&#228;llet f&#246;r vad som s&#228;gs i 31 kap. 22 &#167; andra-fj&#228;rde
+stycket milj&#246;balken &#228;r tillst&#229;ndshavaren skyldig att utan
+ers&#228;ttning t&#229;la f&#246;rlusten eller inskr&#228;nkningen till s&#229; stor del
+som, tillsammans med vad tillst&#229;ndshavaren tidigare efter den 1
+januari 1984 har avst&#229;tt enligt 12 eller 14 &#167; lagen (1983:292)
+om inf&#246;rande av vattenlagen (1983:291), motsvarar en tjugondel
+av det produktionsv&#228;rde eller det v&#228;rde av vattenm&#228;ngd,
+fallh&#246;jd eller magasinsvolym som avses i 31 kap. 22 &#167; andra
+stycket milj&#246;balken.
+
+Har ans&#246;kan om ompr&#246;vning gjorts f&#246;re den 1 juli 1995 skall i
+st&#228;llet tilll&#228;mpas 11 och 12 &#167;&#167; lagen (1983:292) om inf&#246;rande
+av vattenlagen (1983:291) i deras lydelse f&#246;re detta datum.
+
+40 &#167; Best&#228;mmelserna i 38 &#167; skall till&#228;mpas ocks&#229; vid ompr&#246;vning
+av en s&#229;dan s&#228;rskild r&#228;ttighet att f&#246;rfoga &#246;ver vattnet som
+avses i 2 kap. 41 &#167; vattenlagen (1918:523).
+
+41 &#167; /Upph&#246;r att g&#228;lla U:2029-01-01 genom lag (2018:1420)./
+Best&#228;mmelsen i 31 kap. 23 &#167; milj&#246;balken om begr&#228;nsning av
+r&#228;tten till ers&#228;ttning skall g&#228;lla innehavare av tillst&#229;nd
+enligt vattenlagen (1918:523) eller &#228;ldre best&#228;mmelser, endast
+om best&#228;mmelserna om kungs&#229;dra var till&#228;mpliga p&#229;
+vattenf&#246;retaget. Begr&#228;nsning skall i s&#229;dana fall &#228;ven ske om
+det nya vattenf&#246;retaget &#228;r en markavvattning eller en
+vattent&#228;kt f&#246;r bevattning.
+
+F&#246;rsta stycket g&#228;ller ocks&#229; i fr&#229;ga om f&#246;rlust eller
+inskr&#228;nkning som den drabbats av som utan s&#228;rskilt tillst&#229;nd
+driver ett vattenf&#246;retag som har kommit till f&#246;re den 1 januari
+1984.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2006:1013
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2007.
+
+2. Best&#228;mmelsen i 17 &#167; femte stycket skall inte till&#228;mpas p&#229;
+villkor som meddelats under tiden fr&#229;n och med den 1 januari
+1999 till och med den 31 december 2006.
+
+2009:531
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2009.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r detaljplane&#228;renden som har
+inletts f&#246;re den 1 juli 2009 och som avslutas genom antagande
+av planen f&#246;re den 1 juli 2010.
+
+2009:1323
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2010.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r detaljplane&#228;renden som har
+inletts f&#246;re den 1 januari 2010 och som avslutas genom
+antagande av planen f&#246;re den 1 januari 2011.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2887">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2889">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

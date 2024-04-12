@@ -1,0 +1,793 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2024-01-04" /> 
+ <meta id="rattsinfo-edited" content="2024-01-04 16:28:05" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>350</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=349">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=351">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2021:899 ·
+                    <a href="/sfsr?bet=2021:899">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2021:899) med kompletterande best&#228;mmelser till EU:s f&#246;rordning om gr&#228;srotsfinansiering</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2021-10-15
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:835
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2021-11-10
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+Lagens syfte
+
+1 &#167; Denna lag kompletterar Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2020/1503 av den 7 oktober 2020 om europeiska 
+leverant&#246;rer av gr&#228;srotsfinansieringstj&#228;nster f&#246;r f&#246;retag och 
+om &#228;ndring av f&#246;rordning (EU) 2017/1129 och direktiv (EU) 
+2019/1937, i denna lag kallad EU-f&#246;rordningen.
+
+Termer och uttryck har samma betydelse som i EU-f&#246;rordningen. 
+
+Beh&#246;rig myndighet
+
+2 &#167; Finansinspektionen &#228;r beh&#246;rig myndighet enligt EU-
+f&#246;rordningen.
+
+3 &#167; F&#246;r att bekosta Finansinspektionens verksamhet enligt 
+denna lag ska de f&#246;retag som st&#229;r under inspektionens tillsyn 
+betala &#229;rliga avgifter.
+
+Finansinspektionen f&#229;r ta ut avgifter f&#246;r pr&#246;vning av 
+ans&#246;kningar och underr&#228;ttelser enligt EU-f&#246;rordningen. 
+
+Regeringen f&#229;r meddela f&#246;reskrifter om avgifterna. 
+
+Till&#228;mpning av marknadsf&#246;ringslagen 
+
+4 &#167; Om marknadsf&#246;ringsmaterial inte tillhandah&#229;lls p&#229; det s&#228;tt 
+och i den form som f&#246;ljer av EU-f&#246;rordningen, ska &#228;ven 
+marknadsf&#246;ringslagen (2008:486) till&#228;mpas, med undantag f&#246;r 
+best&#228;mmelserna i 29-36 &#167;&#167; om marknadsst&#246;rningsavgift. Detsamma 
+g&#228;ller i fr&#229;ga om information som ska l&#228;mnas
+
+1. till kunder enligt artikel 19 i EU-f&#246;rordningen, och
+
+2. i investeringsfaktablad enligt artikel 23 eller 24 i EU-
+f&#246;rordningen.
+
+S&#229;dan information ska anses vara v&#228;sentlig enligt 10 &#167; tredje 
+stycket marknadsf&#246;ringslagen.
+
+Spr&#229;k i investeringsfaktablad och klagom&#229;l
+
+5 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om p&#229; vilket spr&#229;k som 
+investeringsfaktablad enligt artiklarna 23 och 24 och klagom&#229;l 
+enligt artikel 38 i EU-f&#246;rordningen ska uppr&#228;ttas.
+
+Tystnadsplikt
+
+6 &#167; Den som &#228;r eller har varit knuten till en leverant&#246;r av 
+gr&#228;srotsfinansieringstj&#228;nster som anst&#228;lld eller 
+uppdragstagare f&#229;r inte obeh&#246;rigen r&#246;ja eller utnyttja vad han 
+eller hon i anst&#228;llningen eller under uppdraget har f&#229;tt veta 
+om n&#229;gon annans aff&#228;rsf&#246;rh&#229;llanden eller personliga 
+f&#246;rh&#229;llanden.
+
+I det allm&#228;nnas verksamhet till&#228;mpas i st&#228;llet best&#228;mmelserna 
+i offentlighets- och sekretesslagen (2009:400).
+
+Uppgiftsskyldighet
+
+7 &#167; En leverant&#246;r av gr&#228;srotsfinansieringstj&#228;nster &#228;r skyldig 
+att l&#228;mna ut uppgifter om enskildas f&#246;rh&#229;llanden till 
+f&#246;retaget, om det under en utredning enligt best&#228;mmelserna om 
+f&#246;runders&#246;kning i brottm&#229;l beg&#228;rs av unders&#246;kningsledaren 
+eller om det beg&#228;rs av &#229;klagare i ett &#228;rende om r&#228;ttslig hj&#228;lp 
+i brottm&#229;l, p&#229; framst&#228;llning av en annan stat eller en 
+mellanfolklig domstol, eller i ett &#228;rende om erk&#228;nnande och 
+verkst&#228;llighet av en europeisk utredningsorder. Uppgifterna 
+ska l&#228;mnas ut utan dr&#246;jsm&#229;l och i elektronisk form.
+
+Meddelandef&#246;rbud
+
+8 &#167; Den unders&#246;kningsledare eller &#229;klagare som beg&#228;r uppgifter 
+enligt 7 &#167; f&#229;r besluta att leverant&#246;ren av 
+gr&#228;srotsfinansieringstj&#228;nster samt dess styrelseledam&#246;ter och 
+anst&#228;llda inte f&#229;r r&#246;ja f&#246;r kunden eller f&#246;r n&#229;gon utomst&#229;ende 
+att uppgifter har l&#228;mnats enligt 7 &#167; eller att det p&#229;g&#229;r en 
+f&#246;runders&#246;kning, ett &#228;rende om r&#228;ttslig hj&#228;lp i brottm&#229;l eller 
+ett &#228;rende om erk&#228;nnande och verkst&#228;llighet av en europeisk 
+utredningsorder.
+
+Ett s&#229;dant f&#246;rbud f&#229;r meddelas om det kr&#228;vs f&#246;r att en 
+utredning om brott inte ska &#228;ventyras eller f&#246;r att uppfylla 
+en internationell &#246;verenskommelse som &#228;r bindande f&#246;r Sverige.
+
+F&#246;rbudet ska vara tidsbegr&#228;nsat, med m&#246;jlighet till 
+f&#246;rl&#228;ngning, och f&#229;r inte avse l&#228;ngre tid &#228;n vad som &#228;r 
+motiverat med h&#228;nsyn till syftet med f&#246;rbudet. I ett &#228;rende om 
+r&#228;ttslig hj&#228;lp i brottm&#229;l eller om erk&#228;nnande och 
+verkst&#228;llighet av en europeisk utredningsorder f&#229;r dock 
+f&#246;rbudet tidsbegr&#228;nsas bara om den stat eller mellanfolkliga 
+domstol som ans&#246;kt om r&#228;ttslig hj&#228;lp eller den utl&#228;ndska 
+myndighet som har utf&#228;rdat utredningsordern samtycker till 
+detta.
+
+Om ett f&#246;rbud inte l&#228;ngre &#228;r motiverat med h&#228;nsyn till syftet 
+med f&#246;rbudet, ska unders&#246;kningsledaren eller &#229;klagaren besluta 
+att f&#246;rbudet ska upph&#246;ra.
+
+Ansvarsbest&#228;mmelse
+
+9 &#167; Till b&#246;ter d&#246;ms den som upps&#229;tligen eller av grov 
+oaktsamhet bryter mot ett meddelandef&#246;rbud enligt 8 &#167;.
+
+Skadest&#229;nd
+
+10 &#167; En projekt&#228;gare ska ers&#228;tta ren f&#246;rm&#246;genhetsskada som 
+denne upps&#229;tligen eller av oaktsamhet orsakar en investerare 
+genom att i ett s&#229;dant investeringsfaktablad som avses i 
+artikel 23 i EU-f&#246;rordningen utel&#228;mna v&#228;sentlig information 
+eller l&#228;mna felaktiga eller vilseledande uppgifter. Detsamma 
+g&#228;ller en leverant&#246;r av gr&#228;srotsfinansieringstj&#228;nster som 
+erbjuder individuell portf&#246;ljf&#246;rvaltning av l&#229;n och som har 
+uppr&#228;ttat ett s&#229;dant investeringsfaktablad som avses i 
+artikel 24 i EU-f&#246;rordningen.
+
+
+11 &#167; Den som vill g&#246;ra anspr&#229;k p&#229; skadest&#229;nd enligt 10 &#167; ska 
+underr&#228;tta den som &#228;r ansvarig f&#246;r investeringsfaktabladet om 
+detta inom sk&#228;lig tid efter det att han eller hon m&#228;rkt eller 
+borde ha m&#228;rkt att skada har uppkommit. 
+
+Om underr&#228;ttelse inte g&#246;rs inom sk&#228;lig tid, faller r&#228;tten till 
+skadest&#229;nd enligt denna lag bort. Detsamma g&#228;ller om talan 
+inte v&#228;cks inom tio &#229;r fr&#229;n investeringstillf&#228;llet.
+
+2 kap. Tillsyns- och utredningsbefogenheter
+
+Tillsynens omfattning
+
+1 &#167; Finansinspektionen har tillsyn &#246;ver att leverant&#246;rer av 
+gr&#228;srotsfinansieringstj&#228;nster f&#246;ljer best&#228;mmelserna i EU-
+f&#246;rordningen samt lagen (2017:630) om &#229;tg&#228;rder mot 
+penningtv&#228;tt och finansiering av terrorism och f&#246;reskrifter 
+som meddelats med st&#246;d av den lagen.
+
+F&#246;rel&#228;ggande om att l&#228;mna uppgifter
+
+2 &#167; F&#246;r tillsynen enligt 1 &#167; f&#229;r Finansinspektionen besluta 
+att f&#246;rel&#228;gga 
+
+1. en fysisk eller juridisk person att tillhandah&#229;lla 
+uppgifter, handlingar eller annat, och 
+
+2. den som f&#246;rv&#228;ntas kunna l&#228;mna upplysningar i saken att 
+inst&#228;lla sig till f&#246;rh&#246;r p&#229; tid och plats som inspektionen 
+best&#228;mmer. 
+
+F&#246;rsta stycket g&#228;ller inte i den utstr&#228;ckning 
+uppgiftsl&#228;mnandet skulle strida mot den i lag reglerade 
+tystnadsplikten f&#246;r advokater.
+
+Platsunders&#246;kning 
+
+3 &#167; Finansinspektionen f&#229;r n&#228;r det &#228;r n&#246;dv&#228;ndigt f&#246;r tillsynen 
+enligt 1 &#167; genomf&#246;ra en unders&#246;kning i verksamhetslokalerna 
+hos en leverant&#246;r av gr&#228;srotsfinansieringstj&#228;nster.
+
+F&#246;rbud
+
+4 &#167; Finansinspektionen f&#229;r tillf&#228;lligt f&#246;rbjuda ett erbjudande 
+om gr&#228;srotsfinansiering, om det finns sk&#228;lig anledning att 
+anta att erbjudandet strider mot best&#228;mmelserna i EU-
+f&#246;rordningen. 
+
+Finansinspektionen f&#229;r tillf&#228;lligt f&#246;rbjuda 
+marknadsf&#246;ringskommunikation avseende ett erbjudande om 
+gr&#228;srotsfinansiering, om det finns sk&#228;lig anledning att anta 
+att marknadsf&#246;ringskommunikationen eller erbjudandet strider 
+mot best&#228;mmelserna i EU-f&#246;rordningen. 
+
+Ett beslut om f&#246;rbud som avses i f&#246;rsta eller andra stycket 
+f&#229;r g&#228;lla under h&#246;gst tio arbetsdagar.
+
+5 &#167; Finansinspektionen f&#229;r f&#246;rbjuda ett erbjudande om 
+gr&#228;srotsfinansiering, om erbjudandet strider mot 
+best&#228;mmelserna i EU-f&#246;rordningen eller om det finns sk&#228;lig 
+anledning att anta att det skulle g&#246;ra det.
+
+Finansinspektionen f&#229;r f&#246;rbjuda marknadsf&#246;ringskommunikation 
+avseende ett erbjudande om gr&#228;srotsfinansiering, om 
+marknadsf&#246;ringskommunikationen eller erbjudandet strider mot 
+best&#228;mmelserna i EU-f&#246;rordningen eller om det finns sk&#228;lig 
+anledning att anta att erbjudandet skulle g&#246;ra det.
+
+Ett beslut om f&#246;rbud som avses i f&#246;rsta eller andra stycket 
+ska upph&#228;vas om erbjudandet eller 
+marknadsf&#246;ringskommunikationen inte l&#228;ngre strider mot 
+best&#228;mmelserna i EU-f&#246;rordningen eller om det inte l&#228;ngre 
+finns sk&#228;lig anledning att anta att erbjudandet skulle g&#246;ra 
+det.
+
+6 &#167; Finansinspektionen f&#229;r tillf&#228;lligt f&#246;rbjuda en leverant&#246;r 
+av gr&#228;srotsfinansieringstj&#228;nster att tillhandah&#229;lla s&#229;dana 
+tj&#228;nster, om
+
+1. det finns sk&#228;lig anledning att anta att best&#228;mmelserna i 
+EU-f&#246;rordningen har &#246;vertr&#228;tts, eller
+
+2. leverant&#246;rens st&#228;llning &#228;r s&#229;dan att tillhandah&#229;llandet av 
+gr&#228;srotsfinansieringstj&#228;nster skulle skada investerares 
+intressen. 
+
+Ett beslut enligt f&#246;rsta stycket 1 f&#229;r g&#228;lla under h&#246;gst tio 
+arbetsdagar.
+
+7 &#167; Finansinspektionen f&#229;r f&#246;rbjuda en leverant&#246;r av 
+gr&#228;srotsfinansieringstj&#228;nster att tillhandah&#229;lla s&#229;dana 
+tj&#228;nster om best&#228;mmelserna i EU-f&#246;rordningen har &#246;vertr&#228;tts. 
+Beslutet ska upph&#228;vas om &#246;vertr&#228;delsen har upph&#246;rt.
+
+Korrigering av bristf&#228;llig, felaktig eller vilseledande 
+information 
+
+8 &#167; Om den information som ska l&#228;mnas till kunder enligt 
+artikel 19 i EU-f&#246;rordningen eller framg&#229; av ett 
+investeringsfaktablad enligt artikel 23 eller 24 i EU-
+f&#246;rordningen &#228;r bristf&#228;llig, felaktig eller vilseledande, f&#229;r 
+Finansinspektionen offentligg&#246;ra korrekta uppgifter. 
+
+Finansinspektionen f&#229;r &#228;ven f&#246;rel&#228;gga den ansvariga 
+leverant&#246;ren av gr&#228;srotsfinansieringstj&#228;nster att korrigera 
+informationen eller se till att den korrigeras. 
+
+Ut&#246;vande av tillsynsbefogenheter
+
+9 &#167; Vid val av &#229;tg&#228;rd enligt 4-8 &#167;&#167; till&#228;mpas det som anges om 
+ingripanden i 3 kap. 13, 14 och 16 &#167;&#167;.  
+
+3 kap. Ingripanden
+
+Ingripanden mot &#246;vertr&#228;delser
+
+1 &#167; Finansinspektionen ska ingripa mot en leverant&#246;r av 
+gr&#228;srotsfinansieringstj&#228;nster som har auktoriserats enligt 
+artikel 12 i EU-f&#246;rordningen och som
+
+1. har &#229;sidosatt sina skyldigheter enligt n&#229;gon av artiklarna 
+3-5,  
+6.1-6.6, 7.1-7.4, 8.1-8.6, 9.1, 9.2, 10, 11, 13.2, 15.2, 15.3, 
+16.1, 18.1, 18.4, 19.1-19.6, 20.1, 20.2, 21.1-21.7, 22, 23.2-
+23.13, 24-26 och  
+27.1-27.3 i EU-f&#246;rordningen,
+
+2. inte har f&#246;ljt ett f&#246;rel&#228;ggande enligt 2 kap. 2 &#167; eller som 
+inte har gett tilltr&#228;de till verksamhetslokaler enligt 
+2 kap. 3 &#167;, eller
+
+3. har &#229;sidosatt sina skyldigheter enligt lagen (2017:630) om 
+&#229;tg&#228;rder mot penningtv&#228;tt och finansiering av terrorism eller 
+f&#246;reskrifter som meddelats med st&#246;d av den lagen.
+
+Finansinspektionen ska ingripa mot den som tillhandah&#229;ller 
+gr&#228;srotsfinansieringstj&#228;nster utan auktorisation enligt 
+artikel 12 i EU-f&#246;rordningen.
+
+2 &#167; Ett ingripande enligt 1 &#167; sker genom beslut om 
+
+1. f&#246;rel&#228;ggande att inom en viss tid vidta en viss &#229;tg&#228;rd 
+eller upph&#246;ra med ett visst agerande,
+
+2. anm&#228;rkning, eller
+
+3. vid allvarliga &#246;vertr&#228;delser, &#229;terkallelse av 
+auktorisationen eller, om det &#228;r tillr&#228;ckligt, varning.
+
+Ett ingripande f&#229;r inte ske om &#246;vertr&#228;delsen omfattas av ett 
+f&#246;rel&#228;ggande som har f&#246;renats med vite och en ans&#246;kan om 
+utd&#246;mande av vitet har gjorts.
+
+3 &#167; Om beslut om anm&#228;rkning eller varning enligt 2 &#167; har 
+meddelats, f&#229;r Finansinspektionen besluta att den som har 
+gjort sig skyldig till &#246;vertr&#228;delsen ska betala en 
+sanktionsavgift.
+
+4 &#167; Om auktorisationen av en leverant&#246;r av 
+gr&#228;srotsfinansieringstj&#228;nster &#229;terkallas f&#229;r 
+Finansinspektionen besluta om hur r&#246;relsen ska avvecklas.
+
+Ett beslut om &#229;terkallelse f&#229;r f&#246;renas med f&#246;rbud att 
+forts&#228;tta r&#246;relsen.
+
+Om auktorisationen &#229;terkallas enligt artikel 17.1 f&#246;rsta 
+stycket c i EU-f&#246;rordningen, f&#229;r Finansinspektionen f&#246;rel&#228;gga 
+leverant&#246;ren att &#246;verl&#229;ta sina avtal med kunder till en annan 
+leverant&#246;r av gr&#228;srotsfinansieringstj&#228;nster som &#228;r 
+auktoriserad av Finansinspektionen. Av ett s&#229;dant f&#246;rel&#228;ggande 
+ska det framg&#229; att kunden och den mottagande leverant&#246;ren ska 
+samtycka till &#246;verl&#229;telsen.
+
+Ingripanden mot vissa f&#246;retr&#228;dare f&#246;r leverant&#246;rer av 
+gr&#228;srotsfinansieringstj&#228;nster
+
+5 &#167; Om en leverant&#246;r av gr&#228;srotsfinansieringstj&#228;nster har 
+&#229;sidosatt sina skyldigheter i ett fall som anges i 1 &#167; f&#246;rsta 
+stycket, ska Finansinspektionen ingripa mot den som ing&#229;r i 
+dess styrelse eller &#228;r dess verkst&#228;llande direkt&#246;r, eller 
+ers&#228;ttare f&#246;r n&#229;gon av dem. Ingripande f&#229;r ske genom en eller 
+b&#229;da av f&#246;ljande sanktioner: 
+
+1. att den fysiska personen under en viss tid, l&#228;gst tre och 
+h&#246;gst tio &#229;r, inte f&#229;r vara styrelseledamot eller 
+verkst&#228;llande direkt&#246;r, eller ers&#228;ttare f&#246;r n&#229;gon av dem, i en 
+leverant&#246;r av gr&#228;srotsfinansieringstj&#228;nster, eller 
+
+2. sanktionsavgift. 
+
+Ett ingripande enligt f&#246;rsta stycket f&#229;r ske bara om 
+leverant&#246;rens &#246;vertr&#228;delse &#228;r allvarlig och den fysiska 
+personen i fr&#229;ga upps&#229;tligen eller av grov oaktsamhet orsakat 
+&#246;vertr&#228;delsen.
+
+Sanktionsf&#246;rel&#228;ggande
+
+6 &#167; Fr&#229;gor om ingripande mot fysiska personer enligt 5 &#167; tas 
+upp av Finansinspektionen genom sanktionsf&#246;rel&#228;ggande.
+
+Ett sanktionsf&#246;rel&#228;ggande inneb&#228;r att den fysiska personen 
+f&#246;rel&#228;ggs att inom en viss tid godk&#228;nna en sanktion som &#228;r 
+best&#228;md till tid eller belopp.
+
+N&#228;r f&#246;rel&#228;ggandet har godk&#228;nts, g&#228;ller det som ett 
+domstolsavg&#246;rande som f&#229;tt laga kraft. Ett godk&#228;nnande som 
+g&#246;rs efter den tid som angetts i f&#246;rel&#228;ggandet &#228;r utan verkan. 
+
+7 &#167; Ett sanktionsf&#246;rel&#228;ggande ska inneh&#229;lla uppgift om 
+
+1. den fysiska person som f&#246;rel&#228;ggandet avser, 
+
+2. &#246;vertr&#228;delsen och de omst&#228;ndigheter som beh&#246;vs f&#246;r att 
+k&#228;nneteckna den, 
+
+3. de best&#228;mmelser som &#228;r till&#228;mpliga p&#229; &#246;vertr&#228;delsen, och 
+
+4. den sanktion som f&#246;rel&#228;ggs personen.
+
+F&#246;rel&#228;ggandet ska ocks&#229; inneh&#229;lla en upplysning om att ans&#246;kan 
+om sanktion kan komma att ges in till domstol, om 
+f&#246;rel&#228;ggandet inte godk&#228;nns inom den tid som 
+Finansinspektionen anger. 
+
+8 &#167; Om ett sanktionsf&#246;rel&#228;ggande inte har godk&#228;nts inom 
+angiven tid, f&#229;r Finansinspektionen ans&#246;ka hos domstol om att 
+sanktion ska beslutas. En s&#229;dan ans&#246;kan ska g&#246;ras hos den 
+f&#246;rvaltningsr&#228;tt som &#228;r beh&#246;rig att pr&#246;va ett &#246;verklagande av 
+Finansinspektionens beslut om ingripande mot leverant&#246;ren av 
+gr&#228;srotsfinansieringstj&#228;nster f&#246;r samma &#246;vertr&#228;delse. 
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+9 &#167; Ett sanktionsf&#246;rel&#228;ggande enligt 6 &#167; &#228;r utan verkan, om 
+f&#246;rel&#228;ggandet inte har delgetts den som det riktas mot inom 
+tv&#229; &#229;r fr&#229;n den tidpunkt d&#229; &#246;vertr&#228;delsen &#228;gde rum. I ett 
+s&#229;dant fall f&#229;r inte heller n&#229;gon sanktion enligt 8 &#167; f&#246;rsta 
+stycket beslutas. Lag (2023:835).
+
+Sanktionsavgifter 
+
+10 &#167; Sanktionsavgiften f&#246;r en leverant&#246;r av 
+gr&#228;srotsfinansieringstj&#228;nster i ett fall som anges i 1 &#167; 
+f&#246;rsta stycket 1 eller 2 eller andra stycket ska fastst&#228;llas 
+till h&#246;gst det h&#246;gsta av 
+
+1. ett belopp som per den 9 november 2020 i svenska kronor 
+motsvarade 500 000 euro, 
+
+2. fem procent av leverant&#246;rens oms&#228;ttning n&#228;rmast f&#246;reg&#229;ende 
+r&#228;kenskaps&#229;r eller, i f&#246;rekommande fall, motsvarande 
+oms&#228;ttning p&#229; koncernniv&#229;, eller
+
+3. tv&#229; g&#229;nger den vinst som leverant&#246;ren gjort till f&#246;ljd av 
+regel&#246;vertr&#228;delsen, om beloppet g&#229;r att fastst&#228;lla.
+
+Sanktionsavgiften f&#246;r en leverant&#246;r av 
+gr&#228;srotsfinansieringstj&#228;nster i ett fall som anges i 1 &#167; 
+f&#246;rsta stycket 3 ska fastst&#228;llas till h&#246;gst det h&#246;gsta av
+
+1. ett belopp som per den 9 november 2020 i svenska kronor 
+motsvarade fem miljoner euro,
+
+2. tio procent av leverant&#246;rens oms&#228;ttning n&#228;rmast f&#246;reg&#229;ende 
+r&#228;kenskaps&#229;r eller, i f&#246;rekommande fall, motsvarande 
+oms&#228;ttning p&#229; koncernniv&#229;, eller
+
+3. tv&#229; g&#229;nger den vinst som leverant&#246;ren gjort till f&#246;ljd av 
+regel&#246;vertr&#228;delsen, om beloppet g&#229;r att fastst&#228;lla. 
+
+Sanktionsavgiften f&#229;r inte best&#228;mmas till ett l&#228;gre belopp &#228;n 
+5 000 kronor. Avgiften f&#229;r inte vara s&#229; stor att leverant&#246;ren 
+d&#228;refter inte uppfyller kraven enligt artikel 11 i EU-
+f&#246;rordningen eller andra best&#228;mmelser om soliditet och 
+likviditet som g&#228;ller f&#246;r leverant&#246;ren. 
+
+Avgiften tillfaller staten.
+
+11 &#167; Om en &#246;vertr&#228;delse har skett under leverant&#246;rens f&#246;rsta 
+verksamhets&#229;r eller om uppgifter om oms&#228;ttningen annars saknas 
+eller &#228;r bristf&#228;lliga, f&#229;r oms&#228;ttningen uppskattas n&#228;r den 
+h&#246;gsta sanktionsavgiften ska ber&#228;knas enligt 10 &#167;.
+
+12 &#167; Sanktionsavgiften f&#246;r en fysisk person i ett fall som 
+anges i 1 &#167; f&#246;rsta stycket 1 eller 2 eller andra stycket ska 
+fastst&#228;llas till h&#246;gst det h&#246;gsta av
+
+1. ett belopp som per den 9 november 2020 i svenska kronor 
+motsvarade 500 000 euro, eller 
+
+2. tv&#229; g&#229;nger den vinst som den fysiska personen gjort till 
+f&#246;ljd av regel&#246;vertr&#228;delsen, om beloppet g&#229;r att fastst&#228;lla.
+
+Sanktionsavgiften f&#246;r en fysisk person i ett fall som anges i 
+1 &#167; f&#246;rsta stycket 3 ska fastst&#228;llas till h&#246;gst det h&#246;gsta av
+
+1. ett belopp som per den 9 november 2020 i svenska kronor 
+motsvarade fem miljoner euro, eller
+
+2. tv&#229; g&#229;nger den vinst som den fysiska personen gjort till 
+f&#246;ljd av regel&#246;vertr&#228;delsen, om beloppet g&#229;r att fastst&#228;lla.
+
+Avgiften tillfaller staten. 
+
+Val av ingripande 
+
+13 &#167; Vid valet av ingripande ska Finansinspektionen ta h&#228;nsyn 
+till hur allvarlig &#246;vertr&#228;delsen &#228;r och hur l&#228;nge den har 
+p&#229;g&#229;tt. S&#228;rskild h&#228;nsyn ska tas till &#246;vertr&#228;delsens konkreta 
+och potentiella effekter p&#229; det finansiella systemet, 
+&#246;vertr&#228;delsens inverkan p&#229; investerares intressen, skador som 
+uppst&#229;tt och graden av ansvar f&#246;r den som har beg&#229;tt 
+&#246;vertr&#228;delsen.
+
+14 &#167; Ut&#246;ver det som anges i 13 &#167; ska det i f&#246;rsv&#229;rande 
+riktning beaktas om den som har beg&#229;tt &#246;vertr&#228;delsen tidigare 
+har beg&#229;tt en &#246;vertr&#228;delse. Vid denna bed&#246;mning ska s&#228;rskild 
+vikt f&#228;stas vid om &#246;vertr&#228;delserna &#228;r likartade och den tid 
+som har g&#229;tt mellan de olika &#246;vertr&#228;delserna. 
+
+I f&#246;rmildrande riktning ska det beaktas om den som har beg&#229;tt 
+&#246;vertr&#228;delsen 
+
+1. i v&#228;sentlig utstr&#228;ckning genom ett aktivt samarbete har 
+underl&#228;ttat Finansinspektionens utredning, och 
+
+2. snabbt upph&#246;rt med &#246;vertr&#228;delsen eller snabbt verkat f&#246;r 
+att &#246;vertr&#228;delsen ska upph&#246;ra, sedan den anm&#228;lts till eller 
+p&#229;talats av Finansinspektionen. 
+
+15 &#167; N&#228;r sanktionsavgiftens storlek ska best&#228;mmas, ska 
+s&#228;rskild h&#228;nsyn tas till s&#229;dana omst&#228;ndigheter som anges i 13 
+och 14 &#167;&#167; samt till leverant&#246;rens eller den fysiska personens 
+finansiella st&#228;llning och, om det g&#229;r att best&#228;mma, den vinst 
+som leverant&#246;ren eller den fysiska personen gjort till f&#246;ljd 
+av &#246;vertr&#228;delsen.
+
+16 &#167; Finansinspektionen f&#229;r avst&#229; fr&#229;n ingripande, om 
+
+1. &#246;vertr&#228;delsen &#228;r ringa eller urs&#228;ktlig, 
+
+2. leverant&#246;ren eller den fysiska personen i fr&#229;ga g&#246;r 
+r&#228;ttelse,
+
+3. den fysiska personen verkat f&#246;r att leverant&#246;ren g&#246;r 
+r&#228;ttelse,
+
+4. n&#229;gon annan myndighet eller n&#229;got annat organ har vidtagit 
+&#229;tg&#228;rder mot leverant&#246;ren eller den fysiska personen och dessa 
+&#229;tg&#228;rder bed&#246;ms tillr&#228;ckliga, eller 
+
+5. det finns andra s&#228;rskilda sk&#228;l.
+
+Verkst&#228;llighet av beslut om sanktionsavgift
+
+17 &#167; En sanktionsavgift ska betalas till Finansinspektionen 
+inom 30 dagar efter det att ett beslut eller en dom om att ta 
+ut avgiften har f&#229;tt laga kraft eller sanktionsf&#246;rel&#228;ggandet 
+godk&#228;nts eller den l&#228;ngre tid som anges i beslutet eller 
+f&#246;rel&#228;ggandet.
+
+18 &#167; Finansinspektionens beslut om sanktionsavgift f&#229;r 
+verkst&#228;llas enligt uts&#246;kningsbalken, om avgiften inte har 
+betalats inom den tid som anges i 17 &#167;. 
+
+19 &#167; Om sanktionsavgiften inte har betalats inom den tid som 
+anges i 17 &#167;, ska Finansinspektionen l&#228;mna avgiften f&#246;r 
+indrivning. 
+
+Best&#228;mmelser om indrivning finns i lagen (1993:891) om 
+indrivning av statliga fordringar m.m. 
+
+20 &#167; En sanktionsavgift som har beslutats faller bort i den 
+utstr&#228;ckning verkst&#228;llighet inte har skett inom fem &#229;r fr&#229;n 
+det att beslutet eller domen om att ta ut avgiften fick laga 
+kraft eller sanktionsf&#246;rel&#228;ggandet godk&#228;ndes.
+
+Vite
+
+21 &#167; Ett beslut om f&#246;rel&#228;ggande enligt denna lag f&#229;r f&#246;renas 
+med vite.
+
+4 kap. &#214;verklagande och beslut som ska g&#228;lla omedelbart 
+
+1 &#167; Finansinspektionens beslut om sanktionsf&#246;rel&#228;ggande enligt 
+denna lag f&#229;r inte &#246;verklagas. 
+
+Andra beslut som Finansinspektionen meddelar enligt denna lag 
+f&#229;r &#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. 
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten. 
+
+2 &#167; Finansinspektionen f&#229;r best&#228;mma att f&#246;ljande beslut av 
+inspektionen ska g&#228;lla omedelbart: 
+
+1. beslut om f&#246;rel&#228;ggande enligt 
+
+- n&#229;gon av 2 kap. 4-7 &#167;&#167; eller 8 &#167; andra stycket, 
+
+- 3 kap. 2 &#167; f&#246;rsta stycket 1 eller 5 &#167; f&#246;rsta stycket 1, 
+eller 
+
+2. beslut om &#229;terkallelse enligt 
+
+- 3 kap. 2 &#167; f&#246;rsta stycket 3, eller 
+
+- artikel 17.1 i EU-f&#246;rordningen. 
+
+3 &#167; Om Finansinspektionen i ett &#228;rende om ans&#246;kan om 
+auktorisation f&#246;r att bedriva verksamhet som leverant&#246;r av 
+gr&#228;srotsfinansieringstj&#228;nster inte meddelar beslut inom sex 
+m&#229;nader fr&#229;n det att en fullst&#228;ndig ans&#246;kan gavs in, ska 
+inspektionen underr&#228;tta s&#246;kanden om sk&#228;len f&#246;r detta. S&#246;kanden 
+f&#229;r d&#228;refter beg&#228;ra f&#246;rklaring av domstol att &#228;rendet on&#246;digt 
+uppeh&#229;lls. 
+
+En beg&#228;ran om en f&#246;rklaring ska g&#246;ras hos allm&#228;n 
+f&#246;rvaltningsdomstol. Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande 
+till kammarr&#228;tten. 
+
+Om Finansinspektionen inte har meddelat ett beslut som avses i 
+f&#246;rsta stycket inom tre m&#229;nader fr&#229;n det att en f&#246;rklaring har 
+l&#228;mnats, ska ans&#246;kan anses ha avslagits.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=349">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=351">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

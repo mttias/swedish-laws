@@ -1,0 +1,887 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2019-10-15" /> 
+ <meta id="rattsinfo-edited" content="2020-01-20" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>553</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=552">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=554">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2019:601 ·
+                    <a href="/sfsr?bet=2019:601">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2019:601) om tvistl&#246;sningsf&#246;rfarande i &#228;renden som r&#246;r skatteavtal inom Europeiska unionen</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2019-10-10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2019-11-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser
+
+Lagens till&#228;mpningsomr&#229;de
+
+1 &#167; Denna lag g&#228;ller n&#228;r det uppkommer en tvist mellan Sverige 
+och en annan stat inom Europeiska unionen om tolkningen och 
+till&#228;mpningen av ett skatteavtal mellan Sverige och den andra 
+staten som ska l&#246;sas p&#229; s&#229;dant s&#228;tt som avses i r&#229;dets 
+direktiv (EU) 2017/1852 av den 10 oktober 2017 om 
+skattetvistl&#246;sningsmekanismer i Europeiska unionen 
+(skattetvistl&#246;sningsdirektivet), i den ursprungliga lydelsen.
+
+Ord och uttryck i lagen
+
+2 &#167; I denna lag avses med
+
+1. beh&#246;rig myndighet: en beh&#246;rig myndighet enligt definitionen 
+i artikel 2.1 a i skattetvistl&#246;sningsdirektivet, i den 
+ursprungliga lydelsen, i n&#229;gon av de stater inom Europeiska 
+unionen som &#228;r part i en tvist enligt denna lag,
+
+2. skatteavtal: ett avtal f&#246;r undvikande av dubbelbeskattning 
+p&#229; inkomst och, i f&#246;rekommande fall, p&#229; f&#246;rm&#246;genhet som 
+ing&#229;tts av Sverige med en stat inom Europeiska unionen.
+
+Tolkning av ord och uttryck
+
+3 &#167; Ord och uttryck som inte definieras i denna lag har samma 
+betydelse som de har i det skatteavtal som &#228;r f&#246;rem&#229;l f&#246;r 
+tolkning och till&#228;mpning i tvisten.
+
+Ord och uttryck som inte definieras i skatteavtalet har samma 
+betydelse som i den svenska lagstiftning som var g&#228;llande n&#228;r 
+beslutet eller beskedet om den &#229;tg&#228;rd som gett upphov till en 
+tvist enligt denna lag fattades eller meddelades. Betydelsen 
+som ett ord eller ett uttryck har i den svenska 
+skattelagstiftningen har f&#246;retr&#228;de framf&#246;r ordets eller 
+uttryckets betydelse i annan lagstiftning.
+
+Beh&#246;rig myndighet i Sverige 
+
+4 &#167; Skatteverket ska vara beh&#246;rig myndighet i Sverige enligt 
+denna lag.
+
+Skyldigheter enligt skattetvistl&#246;sningsdirektivet
+
+5 &#167; I skattetvistl&#246;sningsdirektivet, i den ursprungliga 
+lydelsen, finns best&#228;mmelser om krav p&#229; att s&#246;kanden i vissa 
+fall ocks&#229; ska ge in handlingar till utl&#228;ndsk beh&#246;rig 
+myndighet.
+
+2 kap. Ans&#246;kan om tvistl&#246;sning 
+
+Vem kan ge in en ans&#246;kan om tvistl&#246;sning?
+
+1 &#167; En fysisk eller juridisk person som enligt 
+skattelagstiftningen i en stat inom Europeiska unionen anses 
+h&#246;ra hemma d&#228;r och vars inkomst- eller f&#246;rm&#246;genhetsbeskattning 
+p&#229;verkas direkt av en tvist mellan Sverige och en annan stat 
+inom Europeiska unionen om tolkningen och till&#228;mpningen av ett 
+skatteavtal dem emellan, har r&#228;tt att ans&#246;ka om att dessa 
+stater ska l&#246;sa tvisten.
+
+N&#228;r och hur ska ans&#246;kan om tvistl&#246;sning ges in?
+
+2 &#167; En ans&#246;kan om tvistl&#246;sning ska ges in till Skatteverket 
+inom tre &#229;r fr&#229;n den dag d&#229; s&#246;kanden fick del av det beslut 
+eller besked om en &#229;tg&#228;rd som gett eller kommer att ge upphov 
+till en s&#229;dan tvist som anges i 1 kap. 1 &#167;. Ans&#246;kan ska vara 
+skriftlig. 
+
+Vad ans&#246;kan om tvistl&#246;sning ska inneh&#229;lla 
+
+3 &#167; En ans&#246;kan om tvistl&#246;sning ska inneh&#229;lla 
+
+1. uppgift om vilka medlemsstater som ber&#246;rs av tvisten,
+
+2. identifikationsuppgifter i form av namn och postadress, 
+personnummer, samordningsnummer, organisationsnummer eller 
+motsvarande registreringsnummer och motsvarande utl&#228;ndska 
+nummer och andra uppgifter som beh&#246;vs f&#246;r att identifiera den 
+eller de personer som &#228;r ber&#246;rda av tvisten, 
+
+3. uppgift om vilka beskattnings&#229;r tvisten avser,
+
+4. relevanta fakta och omst&#228;ndigheter i tvisten, 
+
+5. uppgift om till&#228;mpligt skatteavtal och nationella 
+f&#246;reskrifter,
+
+6. uppgift om vilka omst&#228;ndigheter som ligger till grund f&#246;r 
+ans&#246;kan, 
+
+7. kopia av beslut, f&#246;rslag till beslut eller annat liknande 
+dokument som ligger till grund f&#246;r tvistefr&#229;gan, 
+
+8. en f&#246;rs&#228;kran om att s&#246;kanden ska l&#228;mna fullst&#228;ndiga och 
+skyndsamma svar p&#229; f&#246;rfr&#229;gningar fr&#229;n Skatteverket och 
+tillhandah&#229;lla de uppgifter som Skatteverket beg&#228;r, 
+
+9. uppgift om &#246;verklaganden, r&#228;ttsliga f&#246;rfaranden och 
+domstolsavg&#246;randen som har koppling till tvistefr&#229;gan i de 
+fall s&#229;dana uppgifter finns tillg&#228;ngliga, 
+
+10. uppgift om huruvida en beg&#228;ran om &#246;msesidig 
+&#246;verenskommelse som r&#246;r tvistefr&#229;gan har l&#228;mnats in inom ramen 
+f&#246;r ett annat liknande f&#246;rfarande i de fall s&#229;dana uppgifter 
+finns tillg&#228;ngliga, och
+
+11. en f&#246;rs&#228;kran om att s&#246;kanden &#228;r medveten om att ingivandet 
+av ans&#246;kan om tvistl&#246;sning enligt denna lag inneb&#228;r att ett 
+s&#229;dant annat liknande f&#246;rfarande r&#246;rande tvistefr&#229;gan som 
+avses i 10 ska avslutas. 
+
+Komplettering av ans&#246;kan 
+
+4 &#167; Skatteverket f&#229;r f&#246;rel&#228;gga s&#246;kanden att ge in de uppgifter 
+som myndigheten anser beh&#246;vs f&#246;r att tvisten ska kunna pr&#246;vas 
+i sak. F&#246;rel&#228;ggandet ska utf&#228;rdas inom tre m&#229;nader fr&#229;n det 
+att ans&#246;kan om tvistl&#246;sning togs emot. 
+
+I f&#246;rel&#228;ggandet ska det anges att s&#246;kanden ska l&#228;mna svar inom 
+tre m&#229;nader fr&#229;n det att f&#246;rel&#228;ggandet togs emot och att 
+f&#246;ljden av att s&#246;kanden inte l&#228;mnar svar inom denna tid kan 
+bli att ans&#246;kan om tvistl&#246;sning avvisas.
+
+Pr&#246;vning av ans&#246;kan om tvistl&#246;sning
+
+5 &#167; Skatteverket ska pr&#246;va om en ans&#246;kan om tvistl&#246;sning ska 
+godtas. Pr&#246;vningen ska g&#246;ras inom sex m&#229;nader fr&#229;n den dag som 
+&#228;r senast av 
+
+1. dagen f&#246;r mottagandet av ans&#246;kan, eller 
+
+2. dagen f&#246;r mottagandet av kompletterande uppgifter efter ett 
+f&#246;rel&#228;ggande enligt 4 &#167;. 
+
+Tidsfristen g&#228;ller inte om s&#246;kanden har &#246;verklagat ett beslut 
+som gett upphov till den tvist som ligger till grund f&#246;r 
+ans&#246;kan. Tidsfristen ska d&#229; r&#228;knas fr&#229;n den dag d&#229; en dom 
+eller ett slutligt beslut i det f&#246;rfarandet har f&#229;tt laga 
+kraft eller f&#246;rfarandet har vilandef&#246;rklarats. 
+
+6 &#167; En ans&#246;kan om tvistl&#246;sning ska avvisas om
+
+1. det inte finns n&#229;gon tvist, 
+
+2. ans&#246;kan inte har l&#228;mnats in inom den tid som anges i 2 &#167;, 
+
+3. ans&#246;kan inte inneh&#229;ller de uppgifter som anges i 3 &#167;, eller
+
+4. ans&#246;kan inte har kompletterats enligt 4 &#167;. 
+
+7 &#167; En ans&#246;kan om tvistl&#246;sning som inte pr&#246;vas inom den tid 
+som anges i 5 &#167; ska anses ha godtagits.
+
+S&#246;kandens &#229;terkallelse av ans&#246;kan om tvistl&#246;sning 
+
+8 &#167; S&#246;kanden f&#229;r n&#228;r som helst under f&#246;rfarandet enligt denna 
+lag &#229;terkalla en ans&#246;kan om tvistl&#246;sning. En &#229;terkallelse ska 
+vara skriftlig och ges in till Skatteverket.
+
+3 kap. F&#246;rfarandet vid &#246;msesidig &#246;verenskommelse 
+
+Inledande best&#228;mmelse
+
+1 &#167; Om samtliga beh&#246;riga myndigheter har godtagit ans&#246;kan om 
+tvistl&#246;sning, ska Skatteverket f&#246;rs&#246;ka l&#246;sa tvisten genom en 
+&#246;msesidig &#246;verenskommelse med utl&#228;ndsk beh&#246;rig myndighet.
+
+Komplettering av uppgifter 
+
+2 &#167; Skatteverket f&#229;r beg&#228;ra att s&#246;kanden ger in de uppgifter 
+som myndigheten anser beh&#246;vs f&#246;r att kunna tr&#228;ffa en &#246;msesidig 
+&#246;verenskommelse enligt denna lag. 
+
+S&#246;kanden ska l&#228;mna svar p&#229; en beg&#228;ran om komplettering inom 
+tre m&#229;nader fr&#229;n det att beg&#228;ran togs emot. 
+
+F&#246;ljder av en &#246;msesidig &#246;verenskommelse
+
+3 &#167; Skatteverket ska s&#229; snart som m&#246;jligt underr&#228;tta s&#246;kanden 
+n&#228;r en &#246;msesidig &#246;verenskommelse tr&#228;ffats och om 
+&#246;verenskommelsens inneb&#246;rd.
+
+4 &#167; S&#246;kanden ska inom 60 dagar fr&#229;n det att denne 
+underr&#228;ttades om den &#246;msesidiga &#246;verenskommelsens inneb&#246;rd 
+meddela Skatteverket om &#246;verenskommelsen godtas och om 
+s&#246;kanden, i fr&#229;gor som omfattas av den &#246;msesidiga 
+&#246;verenskommelsen, avst&#229;r fr&#229;n att vidta andra r&#228;ttsliga 
+&#229;tg&#228;rder eller &#229;terkallar s&#229;dana &#229;tg&#228;rder som redan har 
+vidtagits. Om s&#246;kanden &#229;terkallar &#229;tg&#228;rder som redan har 
+vidtagits ska denne inom samma tid ge in bevis om detta. 
+
+5 &#167; Skatteverket ska vidta de &#229;tg&#228;rder som kr&#228;vs f&#246;r att en 
+&#246;msesidig &#246;verenskommelse ska kunna verkst&#228;llas s&#229; snart som 
+m&#246;jligt efter det att s&#246;kanden, i enlighet med 4 &#167;, har 
+meddelat att &#246;verenskommelsen godtas och att denne avst&#229;r fr&#229;n 
+att vidta andra r&#228;ttsliga &#229;tg&#228;rder eller ger in bevis f&#246;r att 
+s&#229;dana &#229;tg&#228;rder som redan vidtagits har &#229;terkallats.
+
+Om Skatteverket inte har vidtagit de &#229;tg&#228;rder som kr&#228;vs f&#246;r 
+att verkst&#228;lla &#246;verenskommelsen inom en m&#229;nad fr&#229;n det att 
+s&#246;kanden har meddelat att &#246;verenskommelsen godtas och att 
+denne avst&#229;r fr&#229;n att vidta andra r&#228;ttsliga &#229;tg&#228;rder eller ger 
+in bevis f&#246;r att s&#229;dana &#229;tg&#228;rder som redan vidtagits har 
+&#229;terkallats, f&#229;r s&#246;kanden beg&#228;ra att Skatteverket vidtar de 
+&#229;tg&#228;rder som kr&#228;vs f&#246;r att verkst&#228;lla &#246;verenskommelsen. 
+Skatteverket ska s&#229; snart som m&#246;jligt antingen vidta s&#229;dana 
+&#229;tg&#228;rder eller i ett beslut avsl&#229; beg&#228;ran. 
+
+Om en &#246;msesidig &#246;verenskommelse inte tr&#228;ffas
+
+6 &#167; Om myndigheterna inte tr&#228;ffar en &#246;verenskommelse inom tv&#229; 
+&#229;r, eller h&#246;gst tre &#229;r efter f&#246;rl&#228;ngning av en beh&#246;rig 
+myndighet, fr&#229;n det senaste av n&#229;gon av de beh&#246;riga 
+myndigheternas beslut att godta en ans&#246;kan om tvistl&#246;sning, 
+ska Skatteverket underr&#228;tta s&#246;kanden om detta. En s&#229;dan 
+underr&#228;ttelse ska inneh&#229;lla en f&#246;rklaring till varf&#246;r en 
+&#246;verenskommelse inte har tr&#228;ffats. 
+
+Tidsfristen g&#228;ller inte om s&#246;kanden har &#246;verklagat ett beslut 
+som gett upphov till tvisten. Tidsfristen ska d&#229; r&#228;knas fr&#229;n 
+den dag d&#229; en dom eller ett slutligt beslut i det f&#246;rfarandet 
+har f&#229;tt laga kraft eller f&#246;rfarandet har vilandef&#246;rklarats. 
+
+4 kap. R&#229;dgivande kommitt&#233; och kommitt&#233; f&#246;r alternativ 
+tvistl&#246;sning
+
+Allm&#228;nna best&#228;mmelser
+
+Beg&#228;ran om inr&#228;ttande av en r&#229;dgivande kommitt&#233; 
+
+1 &#167; En s&#246;kande som underr&#228;ttats om att de beh&#246;riga 
+myndigheterna inte tr&#228;ffat en &#246;msesidig &#246;verenskommelse f&#229;r 
+beg&#228;ra att en r&#229;dgivande kommitt&#233; inr&#228;ttas f&#246;r att l&#246;sa 
+tvisten. 
+
+En s&#246;kande vars ans&#246;kan avvisats av en beh&#246;rig myndighet, men 
+inte av alla beh&#246;riga myndigheter, f&#229;r beg&#228;ra att en 
+r&#229;dgivande kommitt&#233; inr&#228;ttas f&#246;r att pr&#246;va ans&#246;kan om 
+tvistl&#246;sning. En s&#229;dan beg&#228;ran ska dock inte tas upp till 
+pr&#246;vning, om
+
+1. en avvisad ans&#246;kan om tvistl&#246;sning &#228;r f&#246;rem&#229;l f&#246;r 
+&#246;verpr&#246;vning, 
+
+2. avvisningsbeslutet kan &#246;verklagas, eller
+
+3. avvisningsbeslutet f&#229;tt laga kraft eller det av annan 
+anledning inte g&#229;r att avvika fr&#229;n beslutet. 
+
+Formerna f&#246;r beg&#228;ran om inr&#228;ttande av en r&#229;dgivande kommitt&#233;
+
+2 &#167; Beg&#228;ran om att inr&#228;tta en r&#229;dgivande kommitt&#233; ska vara 
+skriftlig och ges in till Skatteverket inom 50 dagar fr&#229;n den 
+dag som &#228;r senast av 
+
+1. dagen d&#229; s&#246;kanden tog emot en underr&#228;ttelse om att de 
+beh&#246;riga myndigheterna inte tr&#228;ffat en &#246;msesidig 
+&#246;verenskommelse inom f&#246;reskriven tid, 
+
+2. dagen d&#229; s&#246;kanden tog emot det senaste av beh&#246;riga 
+myndigheters beslut att avvisa eller godta en ans&#246;kan om 
+tvistl&#246;sning, eller 
+
+3. dagen d&#229; s&#246;kanden tog emot ett beslut om att en tidigare 
+avvisad ans&#246;kan om tvistl&#246;sning slutligt pr&#246;vats. 
+
+3 &#167; Tillsammans med en beg&#228;ran om att inr&#228;tta en r&#229;dgivande 
+kommitt&#233; enligt 1 &#167; andra stycket ska s&#246;kanden l&#228;mna en 
+f&#246;rs&#228;kran om att det aktuella avvisningsbeslutet inte kan 
+&#246;verklagas eller om att ingen &#246;verpr&#246;vning av 
+avvisningsbeslutet p&#229;g&#229;r och att s&#246;kanden avst&#229;r fr&#229;n sin r&#228;tt 
+att &#246;verklaga beslutet.
+
+4 &#167; Skatteverket ska avsl&#229; en beg&#228;ran om att inr&#228;tta en 
+r&#229;dgivande kommitt&#233;, om s&#246;kanden eller en f&#246;retr&#228;dare f&#246;r 
+s&#246;kanden avseende den fr&#229;ga som &#228;r f&#246;rem&#229;l f&#246;r tvisten har 
+d&#246;mts till p&#229;f&#246;ljd enligt skattebrottslagen (1971:69). 
+
+Inr&#228;ttande av en r&#229;dgivande kommitt&#233;
+
+5 &#167; Skatteverket ska, i samr&#229;d med utl&#228;ndsk beh&#246;rig myndighet, 
+inr&#228;tta en r&#229;dgivande kommitt&#233; inom 120 dagar fr&#229;n den dag d&#229; 
+beg&#228;ran om inr&#228;ttande togs emot. Detta g&#228;ller dock inte om
+
+1. beg&#228;ran om inr&#228;ttande har avslagits enligt 4 &#167;, eller
+
+2. utl&#228;ndsk beh&#246;rig myndighet har avslagit en s&#229;dan beg&#228;ran.
+
+Vid inr&#228;ttandet ska Skatteverket utn&#228;mna en eller flera 
+oberoende personer f&#246;r Sveriges r&#228;kning.
+
+Underr&#228;ttelse till s&#246;kanden 
+
+6 &#167; Om en r&#229;dgivande kommitt&#233; inr&#228;ttas ska Skatteverket, inom 
+120 dagar fr&#229;n mottagandet av beg&#228;ran om att inr&#228;tta 
+kommitt&#233;n, underr&#228;tta s&#246;kanden om 
+
+1. att en r&#229;dgivande kommitt&#233; har inr&#228;ttats,
+
+2. kommitt&#233;ns arbetsordning, 
+
+3. den dag d&#229; den r&#229;dgivande kommitt&#233;n senast ska l&#228;mna ett 
+yttrande om hur tvisten ska l&#246;sas, och 
+
+4. till&#228;mpliga skatteavtal och nationella f&#246;reskrifter.
+
+Beg&#228;ran om att utn&#228;mna oberoende personer
+
+7 &#167; Om en r&#229;dgivande kommitt&#233; inte har inr&#228;ttats enligt 5 &#167; 
+inom 120 dagar f&#229;r s&#246;kanden beg&#228;ra att Skatteverket f&#246;r 
+Sveriges r&#228;kning utn&#228;mner oberoende personer till den 
+r&#229;dgivande kommitt&#233;n.
+
+Beg&#228;ran ska ges in till Skatteverket inom 30 dagar fr&#229;n det 
+att 120-dagarsperioden har l&#246;pt ut. I beg&#228;ran ska det anges om 
+n&#229;gon utl&#228;ndsk beh&#246;rig myndighet inte har utn&#228;mnt oberoende 
+personer.
+
+Om en s&#246;kande som &#228;r obegr&#228;nsat skattskyldig i Sverige ger in 
+en beg&#228;ran om att utn&#228;mna oberoende personer f&#246;r en annan 
+medlemsstats r&#228;kning till Skatteverket, ska myndigheten hj&#228;lpa 
+denne till r&#228;tta.
+
+8 &#167; Skatteverket ska s&#229; snart som m&#246;jligt pr&#246;va en beg&#228;ran om 
+att utn&#228;mna oberoende personer. Om Skatteverket avsl&#229;r en 
+beg&#228;ran ska det ske i ett beslut.
+
+9 &#167; Om Skatteverket inte har utn&#228;mnt minst en oberoende person 
+till den r&#229;dgivande kommitt&#233;n enligt 5 &#167; andra stycket ska 
+Skatteverket, efter en beg&#228;ran enligt 7 &#167;, utn&#228;mna en s&#229;dan 
+person och en ers&#228;ttare f&#246;r Sveriges r&#228;kning.
+
+Om varken Skatteverket eller n&#229;gon utl&#228;ndsk beh&#246;rig myndighet 
+har utn&#228;mnt minst var sin oberoende person till kommitt&#233;n, ska 
+Skatteverket utn&#228;mna tv&#229; oberoende personer f&#246;r Sveriges 
+r&#228;kning. 
+
+Oberoende personer och ers&#228;ttare ska utn&#228;mnas fr&#229;n 
+f&#246;rteckningen &#246;ver oberoende personer som anges i artikel 9 i 
+skattetvistl&#246;sningsdirektivet, i den ursprungliga lydelsen.
+
+Komplettering av den standardiserade arbetsordningen 
+
+10 &#167; Om en s&#246;kande inte har f&#229;tt del av den r&#229;dgivande 
+kommitt&#233;ns arbetsordning inom tv&#229; veckor fr&#229;n inr&#228;ttandet av 
+kommitt&#233;n, ska Skatteverket p&#229; beg&#228;ran av s&#246;kanden skicka &#246;ver 
+den standardiserade arbetsordning som fastst&#228;llts av 
+Europeiska kommissionen enligt artikel 11.3 i skattetvistl&#246;s-
+ningsdirektivet, i den ursprungliga lydelsen, till kommitt&#233;n 
+f&#246;r komplettering. 
+
+Bevis och n&#228;rvaro under f&#246;rfarandet i den r&#229;dgivande kommitt&#233;n
+
+Bevis
+
+11 &#167; S&#246;kanden eller en annan person som &#228;r ber&#246;rd av tvisten 
+f&#229;r ge in bevis av betydelse f&#246;r tvisten till den r&#229;dgivande 
+kommitt&#233;n om de beh&#246;riga myndigheterna samtycker till det, 
+eller om kommitt&#233;n beg&#228;r det. 
+
+12 &#167; Skatteverket ska ge in bevis till den r&#229;dgivande 
+kommitt&#233;n om kommitt&#233;n beg&#228;r det. Skatteverket f&#229;r dock v&#228;gra 
+att ge in bevis, om 
+
+1. ett inh&#228;mtande av uppgifterna skulle kr&#228;va att en svensk 
+myndighet vidtar f&#246;rvaltnings&#229;tg&#228;rder som &#228;r of&#246;renliga med 
+svensk r&#228;tt, 
+
+2. uppgifterna inte &#228;r tillg&#228;ngliga enligt svensk r&#228;tt, 
+
+3. uppgifterna avser handels-, aff&#228;rs-, industri- eller 
+yrkeshemlighet eller kommersiell hemlighet eller i 
+n&#228;ringsverksamhet nyttjat f&#246;rfaringss&#228;tt, eller
+
+4. ett utl&#228;mnande av uppgifterna skulle strida mot grunderna 
+f&#246;r r&#228;ttsordningen (ordre public).
+
+N&#228;rvaro
+
+13 &#167; S&#246;kanden eller en annan person som &#228;r ber&#246;rd av tvisten 
+f&#229;r n&#228;rvara under f&#246;rfarandet i en r&#229;dgivande kommitt&#233; om de 
+beh&#246;riga myndigheterna samtycker till det, eller om kommitt&#233;n 
+beg&#228;r det. 
+
+Tystnadsplikt och sekretess 
+
+14 &#167; S&#246;kanden, en annan person som &#228;r ber&#246;rd av tvisten eller 
+en f&#246;retr&#228;dare f&#246;r n&#229;gon av dessa personer f&#229;r inte till n&#229;gon 
+obeh&#246;rigen r&#246;ja vad han eller hon har f&#229;tt reda p&#229; under 
+f&#246;rfarandet i en r&#229;dgivande kommitt&#233;.
+
+Motsvarande tystnadsplikt g&#228;ller ocks&#229; f&#246;r en oberoende 
+person.
+
+I det allm&#228;nnas verksamhet till&#228;mpas offentlighets- och 
+sekretesslagen (2009:400).
+
+Kommitt&#233; f&#246;r alternativ tvistl&#246;sning
+
+15 &#167; Skatteverket f&#229;r komma &#246;verens med utl&#228;ndsk beh&#246;rig 
+myndighet om att inr&#228;tta en kommitt&#233; f&#246;r alternativ 
+tvistl&#246;sning i st&#228;llet f&#246;r en r&#229;dgivande kommitt&#233;. 
+
+16 &#167; Best&#228;mmelserna om underr&#228;ttelse till s&#246;kanden och 
+komplettering av den standardiserade arbetsordningen i 6 och 
+10 &#167;&#167; g&#228;ller &#228;ven vid f&#246;rfarandet i en kommitt&#233; f&#246;r alternativ 
+tvistl&#246;sning.
+
+17 &#167; Best&#228;mmelserna om bevis och n&#228;rvaro och om tystnadsplikt 
+och sekretess i 11-14 &#167;&#167; samt om kostnader f&#246;r f&#246;rfarandet i 
+9 kap. g&#228;ller &#228;ven vid f&#246;rfarandet i en kommitt&#233; f&#246;r 
+alternativ tvistl&#246;sning, om inte n&#229;got annat anges i 
+kommitt&#233;ns arbetsordning.
+
+5 kap. &#214;msesidig &#246;verenskommelse efter yttrande fr&#229;n en 
+kommitt&#233; 
+
+Inledande best&#228;mmelser
+
+1 &#167; Best&#228;mmelserna i detta kapitel till&#228;mpas om en r&#229;dgivande 
+kommitt&#233; som har inr&#228;ttats enligt 4 kap. 1 &#167; har l&#228;mnat ett 
+yttrande. Det som s&#228;gs om en r&#229;dgivande kommitt&#233; g&#228;ller &#228;ven 
+f&#246;r en kommitt&#233; f&#246;r alternativ tvistl&#246;sning som har inr&#228;ttats 
+enligt 4 kap. 15 &#167;. 
+
+2 &#167; Skatteverket ska, inom sex m&#229;nader fr&#229;n den dag d&#229; 
+Skatteverket tar emot ett yttrande fr&#229;n den r&#229;dgivande 
+kommitt&#233;n, l&#246;sa tvisten genom en &#246;msesidig &#246;verenskommelse med 
+utl&#228;ndsk beh&#246;rig myndighet.
+
+Den &#246;msesidiga &#246;verenskommelsen ska grundas p&#229; yttrandet fr&#229;n 
+den r&#229;dgivande kommitt&#233;n om inte Skatteverket kommer &#246;verens 
+med utl&#228;ndsk beh&#246;rig myndighet om att l&#246;sa tvisten p&#229; annat 
+s&#228;tt. 
+
+3 &#167; Skatteverket ska s&#229; snart som m&#246;jligt underr&#228;tta s&#246;kanden 
+n&#228;r en &#246;msesidig &#246;verenskommelse tr&#228;ffats och om 
+&#246;verenskommelsens inneb&#246;rd. 
+
+Om s&#246;kanden inte inom 30 dagar fr&#229;n det att &#246;verenskommelsen 
+tr&#228;ffades skriftligen har underr&#228;ttats om den &#246;msesidiga 
+&#246;verenskommelsens inneb&#246;rd, f&#229;r s&#246;kanden hos Skatteverket 
+beg&#228;ra att f&#229; en s&#229;dan underr&#228;ttelse. Skatteverket ska s&#229; 
+snart som m&#246;jligt antingen underr&#228;tta s&#246;kanden om inneb&#246;rden 
+av &#246;verenskommelsen eller i ett beslut avsl&#229; beg&#228;ran. 
+
+F&#246;ljder av en &#246;msesidig &#246;verenskommelse efter yttrande fr&#229;n en 
+kommitt&#233;
+
+4 &#167; S&#246;kanden ska inom 60 dagar fr&#229;n det att denne 
+underr&#228;ttades om den &#246;msesidiga &#246;verenskommelsens inneb&#246;rd 
+meddela Skatteverket om &#246;verenskommelsen godtas och om 
+s&#246;kanden, i fr&#229;gor som omfattas av den &#246;msesidiga 
+&#246;verenskommelsen, avst&#229;r fr&#229;n att vidta andra r&#228;ttsliga 
+&#229;tg&#228;rder eller &#229;terkallar s&#229;dana &#229;tg&#228;rder som redan har 
+vidtagits. Om s&#246;kanden &#229;terkallar &#229;tg&#228;rder som redan har 
+vidtagits ska denne inom samma tid ge in bevis om detta. 
+
+5 &#167; Om Skatteverket har tr&#228;ffat en &#246;msesidig &#246;verenskommelse 
+med utl&#228;ndsk beh&#246;rig myndighet om att l&#246;sa tvisten p&#229; annat 
+s&#228;tt &#228;n vad som f&#246;ljer av yttrandet fr&#229;n den r&#229;dgivande 
+kommitt&#233;n, ska Skatteverket vidta de &#229;tg&#228;rder som kr&#228;vs f&#246;r 
+att den &#246;msesidiga &#246;verenskommelsen ska kunna verkst&#228;llas s&#229; 
+snart som m&#246;jligt efter det att s&#246;kanden, i enlighet med 4 &#167;, 
+har meddelat att &#246;verenskommelsen godtas och att denne avst&#229;r 
+fr&#229;n att vidta andra r&#228;ttsliga &#229;tg&#228;rder eller ger in bevis f&#246;r 
+att s&#229;dana &#229;tg&#228;rder som redan vidtagits har &#229;terkallats.
+
+Om Skatteverket inte har vidtagit de &#229;tg&#228;rder som kr&#228;vs f&#246;r 
+att verkst&#228;lla &#246;verenskommelsen inom en m&#229;nad fr&#229;n det att 
+s&#246;kanden har meddelat att &#246;verenskommelsen godtas och att 
+denne avst&#229;r fr&#229;n att vidta andra r&#228;ttsliga &#229;tg&#228;rder eller ger 
+in bevis f&#246;r att s&#229;dana &#229;tg&#228;rder som redan vidtagits har 
+&#229;terkallats, f&#229;r s&#246;kanden beg&#228;ra att Skatteverket vidtar de 
+&#229;tg&#228;rder som kr&#228;vs f&#246;r att verkst&#228;lla &#246;verenskommelsen. 
+Skatteverket ska s&#229; snart som m&#246;jligt antingen vidta s&#229;dana 
+&#229;tg&#228;rder eller i ett beslut avsl&#229; beg&#228;ran. 
+
+6 &#167; Om Skatteverket har tr&#228;ffat en &#246;msesidig &#246;verenskommelse 
+med utl&#228;ndsk beh&#246;rig myndighet om att l&#246;sa tvisten i enlighet 
+med yttrandet fr&#229;n den r&#229;dgivande kommitt&#233;n, ska Skatteverket 
+vidta de &#229;tg&#228;rder som kr&#228;vs f&#246;r att den &#246;msesidiga 
+&#246;verenskommelsen ska verkst&#228;llas om 
+
+1. s&#246;kanden, i enlighet med 4 &#167;, har meddelat att 
+&#246;verenskommelsen godtas och att denne avst&#229;r fr&#229;n att vidta 
+andra r&#228;ttsliga &#229;tg&#228;rder eller ger in bevis f&#246;r att s&#229;dana 
+&#229;tg&#228;rder som redan vidtagits har &#229;terkallats, och 
+
+2. det inte genom utl&#228;ndsk beh&#246;rig myndighet eller 
+Skatteverkets pr&#246;vning enligt artikel 8 i 
+skattetvistl&#246;sningsdirektivet, i den ursprungliga lydelsen, 
+framkommit att det finns brister i opartiskhet hos en 
+oberoende person i en r&#229;dgivande kommitt&#233; eller hos en medlem 
+i en kommitt&#233; f&#246;r alternativ tvistl&#246;sning. 
+
+Skatteverket ska vidta de &#229;tg&#228;rder som kr&#228;vs f&#246;r att 
+&#246;verenskommelsen ska verkst&#228;llas senast 13 m&#229;nader efter att 
+yttrandet &#246;verl&#228;mnats till myndigheten. 
+
+Om Skatteverket inte har vidtagit de &#229;tg&#228;rder som kr&#228;vs f&#246;r 
+att verkst&#228;lla &#246;verenskommelsen inom 13 m&#229;nader efter att 
+yttrandet &#246;verl&#228;mnats till myndigheten, f&#229;r s&#246;kanden beg&#228;ra 
+att de &#229;tg&#228;rder som kr&#228;vs f&#246;r att verkst&#228;lla &#246;verenskommelsen 
+vidtas. Skatteverket ska s&#229; snart som m&#246;jligt antingen vidta 
+s&#229;dana &#229;tg&#228;rder eller i ett beslut avsl&#229; beg&#228;ran. 
+
+6 kap. Tvistl&#246;sningsf&#246;rfarandets upph&#246;rande 
+
+1 &#167; Tvistl&#246;sningsf&#246;rfarandet enligt denna lag ska upph&#246;ra om
+
+1. Skatteverket meddelar ett beslut som inneb&#228;r att det inte 
+l&#228;ngre finns n&#229;gon tvist, 
+
+2. Skatteverket tar emot en skriftlig &#229;terkallelse av ans&#246;kan 
+om tvistl&#246;sning fr&#229;n s&#246;kanden, eller
+
+3. tvisten av n&#229;gon annan anledning upph&#246;r. 
+
+2 &#167; Tvistl&#246;sningsf&#246;rfarandet enligt denna lag ska upph&#246;ra om 
+en domstol i en ber&#246;rd medlemsstat har meddelat beslut i 
+tvistefr&#229;gan som det inte &#228;r m&#246;jligt att avvika fr&#229;n och
+
+1. de beh&#246;riga myndigheterna inte har tr&#228;ffat en &#246;msesidig 
+&#246;verenskommelse, eller
+
+2. den r&#229;dgivande kommitt&#233;n eller kommitt&#233;n f&#246;r alternativ 
+tvistl&#246;sning inte har l&#228;mnat ett yttrande till de beh&#246;riga 
+myndigheterna.
+
+7 kap. S&#228;rskilda best&#228;mmelser f&#246;r fysiska personer och mindre 
+f&#246;retag 
+
+1 &#167; En s&#246;kande som &#228;r en fysisk person eller ett mindre 
+f&#246;retag enligt Europaparlamentets och r&#229;dets direktiv 
+2013/34/EU av den 26 juni 2013 om &#229;rsbokslut, 
+koncernredovisning och rapporter i vissa typer av f&#246;retag, om 
+&#228;ndring av Europaparlamentets och r&#229;dets direktiv 2006/43/EG 
+och om upph&#228;vande av r&#229;dets direktiv 78/660/EEG och 83/349/EEG 
+och som &#228;r obegr&#228;nsat skattskyldig i Sverige f&#229;r, med 
+&#229;beropande av artikel 17 i skattetvistl&#246;sningsdirektivet, i 
+den ursprungliga lydelsen, till Skatteverket ge in 
+
+1. en ans&#246;kan om tvistl&#246;sning, 
+
+2. ett svar p&#229; ett f&#246;rel&#228;ggande om komplettering av en 
+ans&#246;kan, 
+
+3. ett svar p&#229; en beg&#228;ran om kompletterande uppgifter till 
+ans&#246;kan, 
+
+4. en &#229;terkallelse av ans&#246;kan, eller 
+
+5. en beg&#228;ran om inr&#228;ttande av en r&#229;dgivande kommitt&#233;.
+
+2 &#167; Skatteverket ska inom tv&#229; m&#229;nader fr&#229;n mottagandet av en 
+handling som getts in enligt 1 &#167; &#246;vers&#228;nda handlingen till 
+utl&#228;ndsk beh&#246;rig myndighet. Vid &#246;vers&#228;ndandet ska Skatteverket 
+ange att handlingen har getts in med st&#246;d av artikel 17 i 
+skattetvistl&#246;sningsdirektivet. En handling som har getts in p&#229; 
+detta s&#228;tt ska anses ha kommit Skatteverket tillhanda den dag 
+d&#229; verket &#246;vers&#228;nde handlingen till utl&#228;ndsk beh&#246;rig 
+myndighet.
+
+Om Skatteverket tar emot ytterligare uppgifter som svar p&#229; ett 
+f&#246;rel&#228;ggande enligt 2 kap. 4 &#167; eller en beg&#228;ran om att ge in 
+uppgifter enligt 3 kap. 2 &#167;, ska Skatteverket skicka en kopia 
+av svaret till utl&#228;ndsk beh&#246;rig myndighet. S&#229;dana uppgifter 
+ska anses ha kommit Skatteverket tillhanda den dag d&#229; de togs 
+emot av Skatteverket. 
+
+3 &#167; Om Skatteverket f&#229;r en underr&#228;ttelse fr&#229;n utl&#228;ndsk beh&#246;rig 
+myndighet om att den har tagit emot en s&#229;dan handling som 
+anges i 1 &#167;, ska handlingen anses ha kommit Skatteverket 
+tillhanda den dag d&#229; verket tog emot underr&#228;ttelsen. Om 
+underr&#228;ttelsen inneh&#229;ller en kopia med ytterligare uppgifter 
+som svar p&#229; ett f&#246;rel&#228;ggande om komplettering av ans&#246;kan eller 
+p&#229; en beg&#228;ran om kompletterande uppgifter under f&#246;rfarandet 
+vid &#246;msesidig &#246;verenskommelse, ska handlingen i st&#228;llet anses 
+ha kommit Skatteverket tillhanda den dag d&#229; den &#246;verl&#228;mnande 
+beh&#246;riga myndigheten tog emot handlingen.
+
+8 kap. F&#246;rh&#229;llandet till andra nationella f&#246;rfaranden
+
+1 &#167; En s&#246;kande kan ans&#246;ka om tvistl&#246;sning enligt denna lag 
+&#228;ven om ett beslut avseende tvistefr&#229;gan har f&#229;tt laga kraft. 
+
+2 &#167; Skatteverket f&#229;r f&#246;rklara tvistl&#246;sningsf&#246;rfarandet enligt 
+denna lag vilande om det samtidigt p&#229;g&#229;r ett straffr&#228;ttsligt 
+f&#246;rfarande som grundas p&#229; skattebrottslagen (1971:69) i den 
+fr&#229;ga som gett upphov till tvisten. Tvistl&#246;sningsf&#246;rfarandet 
+f&#229;r vilandef&#246;rklaras fr&#229;n och med den dag d&#229; ans&#246;kan om 
+tvistl&#246;sning godtogs till dess att ett slutligt beslut har 
+f&#229;tt laga kraft i det straffr&#228;ttsliga f&#246;rfarandet. 
+
+3 &#167; Om en ans&#246;kan om tvistl&#246;sning l&#228;mnas in enligt 2 kap. 2 &#167; 
+ska Skatteverket avsluta varje annat liknande f&#246;rfarande vid 
+&#246;msesidig &#246;verenskommelse om den aktuella tvisten som p&#229;g&#229;r 
+enligt ett skatteavtal mellan Sverige och en annan stat inom 
+Europeiska unionen. 
+
+9 kap. Kostnader f&#246;r tvistl&#246;sningsf&#246;rfarandet 
+
+1 &#167; Skatteverket f&#229;r besluta att s&#246;kanden ska st&#229; f&#246;r 
+oberoende personers kostnader och arvoden med anledning av en 
+tvist enligt denna lag om Skatteverket har kommit &#246;verens med 
+utl&#228;ndsk beh&#246;rig myndighet om det och
+
+1. s&#246;kanden har &#229;terkallat ans&#246;kan om tvistl&#246;sning, eller
+
+2. en r&#229;dgivande kommitt&#233; har bekr&#228;ftat att utl&#228;ndsk beh&#246;rig 
+myndighets beslut att avvisa ans&#246;kan om tvistl&#246;sning var 
+riktigt. 
+
+Skatteverket ska inte ers&#228;tta kostnader som uppst&#229;r f&#246;r 
+s&#246;kanden eller en annan person som &#228;r ber&#246;rd av tvisten. 
+
+10 kap. &#214;verklagande
+
+1 &#167; Beslut enligt 2 kap. 6 &#167;, 3 kap. 5 &#167; andra stycket, 4 kap. 
+4 &#167; och 8 &#167; andra meningen, 5 kap. 3 &#167; andra stycket, 5 &#167; 
+andra stycket och 6 &#167; tredje stycket och 9 kap. 1 &#167; f&#229;r 
+&#246;verklagas till allm&#228;n f&#246;rvaltningsdomstol. Andra beslut 
+enligt denna lag f&#229;r inte &#246;verklagas.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2019:601
+
+1. Denna lag tr&#228;der i kraft den 1 november 2019. 
+
+2. Lagen till&#228;mpas f&#246;r beskattnings&#229;r som b&#246;rjar efter den 
+31 december 2017 och ska till&#228;mpas p&#229; ans&#246;kningar om 
+tvistl&#246;sning som getts in efter den 30 juni 2019.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=552">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=554">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

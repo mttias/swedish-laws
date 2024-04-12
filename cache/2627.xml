@@ -1,0 +1,795 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-17" /> 
+ <meta id="rattsinfo-edited" content="2023-01-17 12:50:47" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2627</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2626">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2628">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2001:559 ·
+                    <a href="/sfsr?bet=2001:559">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2001:559) om v&#228;gtrafikdefinitioner</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSIB TM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2001-06-14
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2017:360
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad 2002:583 och 2012:875 har iakttagits.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2001-10-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; De beteckningar som finns i 2 &#167; med den betydelse som d&#228;r
+anges &#228;r avsedda att anv&#228;ndas i andra f&#246;rfattningar i den
+utstr&#228;ckning som f&#246;reskrivs i dessa.
+
+Det som i denna lag eller i n&#229;gon f&#246;rfattning som avses i
+f&#246;rsta stycket s&#228;gs i fr&#229;ga om ett visst slag av fordon
+till&#228;mpas &#228;ven p&#229; chassiet till ett s&#229;dant fordon. Detta g&#228;ller
+dock inte i fall d&#229; n&#229;got annat s&#228;rskilt f&#246;reskrivs.
+
+2 &#167; 
+Beteckning              Betydelse
+
+Axeltryck               Den sammanlagda statiska vikt som hjulen p&#229; en
+                        hjulaxel f&#246;r &#246;ver till v&#228;gbanan.
+
+Bil                     Ett motorfordon som &#228;r f&#246;rsett med tre eller flera
+                        hjul eller medar eller med band och som inte &#228;r att
+                        anse som en motorcykel eller en moped. Bilar delas
+                        in i personbilar, lastbilar och bussar.
+
+Boggi                   Tv&#229; hjulaxlar p&#229; ett fordon med ett inb&#246;rdes avst&#229;nd
+                        som &#228;r mindre &#228;n 2 meter.
+
+Boggitryck              Den sammanlagda statiska vikt som hjulen i en boggi
+                        f&#246;r &#246;ver till v&#228;gbanan.
+
+Bruttovikt p&#229; fordon    Den sammanlagda statiska vikt som samtliga hjul, band
+                        eller medar p&#229; ett fordon vid ett visst tillf&#228;lle f&#246;r
+                        &#246;ver till v&#228;gbanan.
+
+Buss                    En bil som &#228;r inr&#228;ttad huvudsakligen f&#246;r
+                        personbefordran och &#228;r f&#246;rsedd med fler
+                        &#228;n &#229;tta sittplatser ut&#246;ver f&#246;rarplatsen.
+                        Bussar delas in i l&#228;tta och tunga bussar.
+
+B&#228;righetsklass          Indelning av v&#228;gar efter till&#229;tet axel-, 
+			boggi- och trippelaxeltryck samt till&#229;ten 
+			bruttovikt. B&#228;righetsklasserna &#228;r 
+			b&#228;righetsklass 1 (BK1), b&#228;righetsklass 2 
+			(BK2), b&#228;righetsklass 3 (BK3) och 
+			b&#228;righetsklass 4 (BK4).
+
+Cykel                   1. Ett fordon som &#228;r avsett att drivas
+                        med tramp- eller vevanordning och inte
+                        &#228;r ett lekfordon.
+
+                        2. Ett eldrivet fordon med en tramp-
+                        eller vevanordning om elmotorn
+
+                        a. endast f&#246;rst&#228;rker kraften fr&#229;n tramp-
+                        eller vevanordningen,
+
+                        b. inte ger n&#229;got krafttillskott vid
+                        hastigheter &#246;ver 25 kilometer i timmen,
+                        och
+
+                        c. har en kontinuerlig m&#228;rkeffekt som
+                        inte &#246;verstiger 250 watt.
+
+                        3. Ett eldrivet fordon utan tramp-
+                        eller vevanordning som &#228;r avsett f&#246;r
+                        anv&#228;ndning av personer med fysisk
+                        funktionsneds&#228;ttning, och &#228;r
+
+                        a. inr&#228;ttat huvudsakligen f&#246;r befordran
+                        av en person,
+
+                        b. inr&#228;ttat f&#246;r att f&#246;ras av den &#229;kande,
+                        och
+
+                        c. konstruerat f&#246;r en hastighet av
+                        h&#246;gst 20 kilometer i timmen.
+
+                        4. Ett eldrivet fordon utan tramp-
+                        eller vevanordning som uppfyller
+                        villkoren i 3 a–c och som antingen
+
+                        a. har en elmotor vars kontinuerliga
+                        m&#228;rkeffekt inte &#246;verstiger 250 watt,
+                        eller
+
+                        b. &#228;r sj&#228;lvbalanserande.
+
+Cykelk&#228;rra              Ett fordon som &#228;r avsett att dras av en moped
+                        klass II eller en cykel och inte &#228;r en sidvagn. En
+                        tillkopplad cykelk&#228;rra anses inte som ett s&#228;rskilt
+                        fordon.
+
+Dolly                   En sl&#228;pk&#228;rra som &#228;r avsedd att vara styraxel f&#246;r en
+                        p&#229;h&#228;ngsvagn och som &#228;r utrustad med en
+                        kopplingsanordning (v&#228;ndskiva) f&#246;r en p&#229;h&#228;ngsvagn.
+
+Efterfordon             Ett fordon som &#228;r kopplat till en bil, en
+                        traktor, ett motorredskap eller ett
+                        terr&#228;ngmotorfordon och som inte &#228;r ett
+                        sl&#228;pfordon.
+
+EG-mobilkran            En tung lastbil som inte &#228;r utrustad f&#246;r
+                        godstransporter och som &#228;r f&#246;rsedd med en kran vars
+                        lyftmoment &#228;r minst 400 kilonewtonmeter.
+
+Fordon                  En anordning p&#229; hjul, band, medar eller liknande
+                        som &#228;r inr&#228;ttad huvudsakligen f&#246;r f&#228;rd p&#229; marken
+                        och inte l&#246;per p&#229; skenor. Fordon delas in i
+                        motordrivna fordon, sl&#228;pfordon, efterfordon,
+                        sidvagnar, cyklar, h&#228;stfordon och &#246;vriga fordon.
+
+Fordonst&#229;g              Ett motordrivet fordon med ett eller flera
+                        tillkopplade fordon.
+
+H&#228;stfordon              Ett fordon som &#228;r f&#246;rsp&#228;nt med dragare.
+
+Lastbil                 1. En bil som &#228;r inr&#228;ttad huvudsakligen f&#246;r
+                        godsbefordran.
+
+                        2. En annan bil som inte &#228;r att anse som en
+                        personbil eller en buss.
+
+                        Lastbilar delas in i l&#228;tta och tunga lastbilar.
+
+Lekfordon               Ett fordon som ska anses som leksak enligt
+                        lagen (2011:579) om leksakers s&#228;kerhet.
+
+L&#228;tt buss               En buss med en totalvikt av h&#246;gst 3,5 ton.
+
+L&#228;tt lastbil            En lastbil med en totalvikt av h&#246;gst 3,5 ton.
+
+L&#228;tt motorcykel         1. En motorcykel p&#229; tv&#229; eller fyra hjul
+
+                        a) som drivs av f&#246;rbr&#228;nningsmotor med en
+                        slagvolym om h&#246;gst 125 kubikcentimeter,
+                        en nettoeffekt av h&#246;gst 11 kilowatt och
+                        ett f&#246;rh&#229;llande mellan nettoeffekt och
+                        tj&#228;nstevikt som inte &#246;verstiger 0,1
+                        kilowatt/kilogram,
+
+                        b) med annan motor &#228;n f&#246;rbr&#228;nningsmotor
+                        som har en nettoeffekt av h&#246;gst 11
+                        kilowatt och ett f&#246;rh&#229;llande mellan
+                        nettoeffekt och tj&#228;nstevikt som inte
+                        &#246;verstiger 0,1 kilowatt/kilogram.
+
+                        2. En motorcykel p&#229; tre hjul med en
+                        nettoeffekt av h&#246;gst 15 kilowatt.
+
+L&#228;tt sl&#228;pfordon         1. Ett sl&#228;pfordon med en totalvikt av
+                        h&#246;gst 750 kilogram.
+
+                        2. Ett sl&#228;pfordon med en totalvikt
+                        &#246;ver 750 kilogram under f&#246;ruts&#228;ttning
+                        att dragfordonets och sl&#228;pfordonets
+                        sammanlagda totalvikt inte &#246;verstiger
+                        3,5 ton.
+
+L&#228;tt terr&#228;ngvagn        En terr&#228;ngvagn vars tj&#228;nstevikt &#228;r h&#246;gst 2 ton.
+
+Maximilast f&#246;r ett      Skillnaden mellan fordonets totalvikt och tj&#228;nstevikt.
+motorfordon, en
+traktor, ett
+motorredskap, ett
+terr&#228;ngmotorfordon,
+ett sl&#228;pfordon eller
+en sidvagn
+
+Moped                   Ett motorfordon som &#228;r konstruerat f&#246;r
+                        en hastighet av h&#246;gst 45 kilometer i
+                        timmen som, om det drivs av en
+                        f&#246;rbr&#228;nningsmotor med gnistt&#228;ndning,
+                        har en slagvolym av h&#246;gst 50
+                        kubikcentimeter, eller, om det drivs av
+                        en f&#246;rbr&#228;nningsmotor med
+                        kompressionst&#228;ndning, har en slagvolym
+                        av h&#246;gst 500 kubikcentimeter, eller &#228;r
+                        f&#246;rsett med annan motor f&#246;r
+                        framdrivande och som har
+
+                        1. tv&#229; hjul samt en nettoeffekt som
+                        inte &#246;verstiger 4 kilowatt,
+
+                        2. tre hjul och en vikt i k&#246;rklart
+                        skick av h&#246;gst 270 kilogram samt en
+                        nettoeffekt som inte &#246;verstiger 4
+                        kilowatt, eller
+
+                        3. fyra hjul och en vikt i k&#246;rklart
+                        skick av h&#246;gst 425 kilogram samt
+                        en nettoeffekt som inte &#246;verstiger 4
+                        kilowatt, eller
+
+                        4. fyra hjul, ett karosseri med h&#246;gst
+                        tre d&#246;rrar och en vikt i k&#246;rklart skick
+                        av h&#246;gst 425 kilogram samt en
+                        nettoeffekt som inte &#246;verstiger 6
+                        kilowatt.
+
+                        Vid ber&#228;kningen av en mopeds vikt ska i
+                        fr&#229;ga om ett eldrivet fordon
+                        batterierna inte r&#228;knas in.
+
+                        Mopeder delas in i klass I och klass II.
+
+Moped klass I           En moped som inte h&#246;r till klass II.
+
+Moped klass II          En moped som har en motor vars
+                        nettoeffekt inte &#246;verstiger 1 kilowatt
+                        och
+
+                        1. &#228;r konstruerad f&#246;r en hastighet av
+                        h&#246;gst 25 kilometer i timmen, eller
+
+                        2. &#228;r konstruerad f&#246;r att drivas med en
+                        tramp- och vevanordning och d&#228;r motorn
+                        inte ger n&#229;got krafttillskott vid
+                        hastigheter &#246;ver 25 kilometer i timmen.
+
+Motorcykel              Ett motorfordon vars nettoeffekt,
+                        konstruktiva hastighet eller
+                        motorstorlek &#246;verstiger villkoren f&#246;r
+                        moped och som har
+
+                        1. tv&#229; hjul, eller
+
+                        2. tre symmetriskt placerade hjul och
+                        en vikt i k&#246;rklart skick av h&#246;gst 1 000
+                        kilogram, eller
+
+                        3. fyra hjul och en vikt i k&#246;rklart
+                        skick av h&#246;gst 450 kilogram eller h&#246;gst
+                        600 kilogram om fordonet &#228;r inr&#228;ttat
+                        f&#246;r godsbefordran, samt en nettoeffekt
+                        som inte &#246;verstiger 15 kilowatt.
+
+                        Vid ber&#228;kningen av en motorcykels vikt
+                        ska i fr&#229;ga om ett eldrivet fordon
+                        batterierna inte r&#228;knas in.
+
+                        Motorcyklar delas in i l&#228;tta och tunga
+                        motorcyklar.
+
+Motordrivet fordon      Ett fordon som f&#246;r framdrivande &#228;r f&#246;rsett med
+                        motor, dock inte ett s&#229;dant eldrivet fordon som &#228;r
+                        att anse som cykel. Motordrivna fordon delas in i
+                        motorfordon, traktorer, motorredskap och
+                        terr&#228;ngmotorfordon.
+
+Motorfordon             Ett motordrivet fordon som &#228;r avsett att anv&#228;ndas
+                        huvudsakligen p&#229; v&#228;g, oavsett om det &#228;r
+                        f&#228;rdigbyggt eller inte, och som &#228;r inr&#228;ttat
+
+                        1. huvudsakligen f&#246;r att sj&#228;lvst&#228;ndigt anv&#228;ndas
+                        till person- eller godsbefordran, eller
+
+                        2. f&#246;r n&#229;got annat &#228;ndam&#229;l &#228;n som avses under 1,
+                        om fordonet inte &#228;r att anse som en traktor eller
+                        ett motorredskap.
+
+                        Motorfordon delas in i bilar, motorcyklar och
+                        mopeder.
+
+Motorredskap            Ett motordrivet fordon som &#228;r inr&#228;ttat huvudsakligen
+                        som ett arbetsredskap eller f&#246;r kortare f&#246;rflyttningar
+                        av gods. Motorredskap delas in i klass I och klass II.
+
+Motorredskap            Ett motorredskap som &#228;r konstruerat f&#246;r en h&#246;gsta
+klass I                 hastighet som &#246;verstiger 30 kilometer i timmen.
+
+Motorredskap            Ett motorredskap som &#228;r konstruerat f&#246;r en hastighet
+klass II                av h&#246;gst 30 kilometer i timmen.
+
+Personbil               En bil som &#228;r f&#246;rsedd med h&#246;gst &#229;tta
+                        sittplatser ut&#246;ver f&#246;rarplatsen och
+
+                        1. &#228;r inr&#228;ttad huvudsakligen f&#246;r
+                        personbefordran eller
+
+                        2. &#228;r permanent f&#246;rsedd med ett karosseri
+                        som &#228;r inr&#228;ttat som bostadsutrymme och
+                        utrustat med &#229;tminstone
+
+                        a. fast monterade sittplatser,
+
+                        b. fast monterade sovplatser som kan
+                        utg&#246;ras av sittplatser som kan omvandlas
+                        till sovplatser,
+
+                        c. fast monterad utrustning f&#246;r
+                        matlagning och lagring och
+
+                        d. bord.
+
+                        Personbilar delas in i klass I och
+                        klass II.
+
+Personbil klass I       En personbil som inte tillh&#246;r klass II.
+
+Personbil klass II      En personbil som &#228;r permanent f&#246;rsedd
+                        med ett karosseri som &#228;r inr&#228;ttat som
+                        bostadsutrymme och utrustat med
+                        &#229;tminstone
+
+                        a. fast monterade sittplatser,
+
+                        b. fast monterade sovplatser som kan
+                        utg&#246;ras av sittplatser som kan omvandlas
+                        till sovplatser,
+
+                        c. fast monterad utrustning f&#246;r
+                        matlagning och lagring och
+
+                        d. bord.
+
+P&#229;h&#228;ngsvagn             En sl&#228;pvagn som &#228;r inr&#228;ttad f&#246;r att genom tapp med
+                        v&#228;ndskiva eller liknande anordning f&#246;renas med en bil,
+                        en traktor eller ett motorredskap och som &#228;r s&#229; utf&#246;rd
+                        att chassiet eller karosseriet vilar direkt p&#229; det
+                        dragande fordonet.
+
+Sidvagn                 Ett fordon som &#228;r inr&#228;ttat f&#246;r att kopplas vid sidan
+                        av en tv&#229;hjulig motorcykel eller en cykel. En
+                        tillkopplad sidvagn anses dock inte som ett s&#228;rskilt
+                        fordon.
+
+Sl&#228;pfordon              Ett fordon som &#228;r inr&#228;ttat f&#246;r koppling till ett
+                        annat motordrivet fordon &#228;n en moped klass II och
+                        &#228;r avsett f&#246;r person- eller godsbefordran eller
+                        f&#246;r att b&#228;ra en anordning f&#246;r att driva dessa
+                        fordon. Sl&#228;pfordon delas in i sl&#228;pvagnar,
+                        sl&#228;psl&#228;dar och terr&#228;ngsl&#228;p samt i l&#228;tta sl&#228;pfordon
+                        och tunga sl&#228;pfordon.
+
+Sl&#228;pk&#228;rra               En sl&#228;pvagn med oledad dragst&#229;ng d&#228;r den statiskt
+                        vertikala last som f&#246;rs &#246;ver till dragfordonet inte
+                        &#246;verskrider 10 procent av sl&#228;pvagnens totalvikt
+                        eller 1 ton.
+
+Sl&#228;psl&#228;de               Ett sl&#228;pfordon p&#229; medar som &#228;r inr&#228;ttat f&#246;r att
+                        dras av ett motorfordon, en traktor eller ett
+                        motorredskap.
+
+Sl&#228;pvagn                Ett sl&#228;pfordon p&#229; hjul eller band som &#228;r inr&#228;ttat
+                        f&#246;r att dras av ett motorfordon, en traktor eller
+                        ett motorredskap.
+
+Sl&#228;pvagnsvikt           Den sammanlagda vikten av en sl&#228;pvagns egenvikt och
+                        last.
+
+Sn&#246;skoter               En terr&#228;ngskoter som &#228;r avsedd f&#246;r f&#228;rd p&#229; sn&#246;t&#228;ckt
+                        mark och som &#228;r f&#246;rsedd med band och medar.
+
+Terr&#228;nghjuling          En annan terr&#228;ngskoter &#228;n en sn&#246;skoter.
+
+Terr&#228;ngmotorfordon      Ett motordrivet fordon som inte &#228;r ett motorfordon
+                        och som &#228;r inr&#228;ttat huvudsakligen f&#246;r att
+                        sj&#228;lvst&#228;ndigt anv&#228;ndas till person- eller
+                        godsbefordran i terr&#228;ng. Terr&#228;ngmotorfordon
+                        delas in i terr&#228;ngvagnar och terr&#228;ngskotrar.
+
+Terr&#228;ngskoter           Ett terr&#228;ngmotorfordon med en
+                        tj&#228;nstevikt av h&#246;gst 450 kilogram.
+                        Terr&#228;ngskotrar delas in i sn&#246;skotrar
+                        och terr&#228;nghjulingar.
+
+Terr&#228;ngsl&#228;p             Ett sl&#228;pfordon som &#228;r inr&#228;ttat f&#246;r att dras av ett
+                        terr&#228;ngmotorfordon.
+
+Terr&#228;ngvagn             Ett terr&#228;ngmotorfordon med en tj&#228;nstevikt &#246;ver 450 
+			kilogram. Terr&#228;ngvagnar delas in i l&#228;tta och tunga 
+			terr&#228;ngvagnar.
+
+Tj&#228;nstevikt f&#246;r         Den sammanlagda vikten av fordonet i normalt, fullt
+en bil, en              driftf&#228;rdigt skick med det tyngsta karosseri som
+traktor eller           h&#246;r till fordonet, verktyg och reservhjul som h&#246;r
+ett motorredskap        till fordonet, br&#228;nsle, sm&#246;rjolja och vatten, samt
+                        f&#246;raren.
+
+Tj&#228;nstevikt f&#246;r         Den sammanlagda vikten av fordonet i normalt, fullt
+en motorcykel           driftf&#228;rdigt skick utan sidvagn, med verktyg som h&#246;r
+eller en moped          till fordonet, br&#228;nsle, sm&#246;rjolja och vatten.
+
+Tj&#228;nstevikt f&#246;r         Vikten av fordonet i normalt, fullt driftf&#228;rdigt
+ett sl&#228;pfordon,         skick med det tyngsta karosseri som h&#246;r till fordonet.
+ett terr&#228;ngsl&#228;p
+eller en sidvagn
+
+Tj&#228;nstevikt f&#246;r         Den sammanlagda vikten av fordonet i normalt, fullt
+ett terr&#228;ng-            driftf&#228;rdigt skick med det tyngsta karosseri som h&#246;r
+motorfordon             till fordonet, verktyg som h&#246;r till fordonet, samt
+                        br&#228;nsle, sm&#246;rjolja och vatten. F&#246;r en tung terr&#228;ngvagn
+                        r&#228;knas &#228;ven vikten av f&#246;raren och reservhjul med.
+
+Totalvikt f&#246;r           Summan av fordonets tj&#228;nstevikt och den ber&#228;knade
+en bil, en              vikten av det st&#246;rsta antal personer utom f&#246;raren och
+traktor, ett            den st&#246;rsta m&#228;ngd gods som fordonet &#228;r inr&#228;ttat f&#246;r.
+motorredskap
+eller en tung
+terr&#228;ngvagn
+
+Totalvikt f&#246;r en        Summan av fordonets tj&#228;nstevikt och den ber&#228;knade
+motorcykel, ett         vikten av det st&#246;rsta antal personer och den st&#246;rsta
+terr&#228;ngfordon           m&#228;ngd gods som fordonet &#228;r inr&#228;ttat f&#246;r. I totalvikten
+utom en tung            f&#246;r en motorcykel ing&#229;r inte sidvagnens totalvikt.
+terr&#228;ngvagn, ett
+sl&#228;pfordon eller
+en sidvagn
+
+Traktor                 Ett motordrivet fordon med minst tv&#229;
+                        hjulaxlar som &#228;r inr&#228;ttat huvudsakligen
+                        f&#246;r att dra ett annat fordon eller ett
+                        arbetsredskap. En traktor f&#229;r vara
+                        utrustad f&#246;r transport av gods och f&#246;r
+                        befordran av passagerare.
+
+                        Traktorer delas in i traktor a och
+                        traktor b.
+
+Traktor a               En traktor som &#228;r konstruerad f&#246;r en
+                        hastighet av h&#246;gst 40 kilometer i
+                        timmen.
+
+Traktor b               En traktor som &#228;r konstruerad f&#246;r en
+                        hastighet som &#246;verstiger 40 kilometer i
+                        timmen.
+
+Traktor skatteklass I   En traktor som enligt
+                        v&#228;gtrafikskattelagen (2006:227) h&#246;r
+                        till skatteklass I.
+
+Traktor skatteklass II  En traktor som enligt
+                        v&#228;gtrafikskattelagen (2006:227) h&#246;r
+                        till skatteklass II.
+
+
+Traktort&#229;g              En traktor med ett eller flera tillkopplade sl&#228;pfordon.
+
+Trippelaxel             Tre hjulaxlar p&#229; ett fordon med ett inb&#246;rdes avst&#229;nd
+                        mellan den f&#246;rsta och den tredje axeln som &#228;r mindre
+                        &#228;n 5 meter.
+
+Trippelaxeltryck        Den sammanlagda statiska vikt som hjulen i en
+                        trippelaxel f&#246;r &#246;ver till v&#228;gbanan.
+
+Tung buss               En buss med en totalvikt &#246;ver 3,5 ton.
+
+Tung lastbil            En lastbil med en totalvikt &#246;ver 3,5 ton.
+
+Tung motorcykel         1. En motorcykel p&#229; tv&#229; eller fyra hjul
+                        vars motor har en slagvolym som &#246;verstiger
+                        125 kubikcentimeter, en netto-effekt som
+                        &#246;verstiger 11 kilowatt eller ett
+                        f&#246;rh&#229;llande mellan nettoeffekt och
+                        tj&#228;nstevikt som &#246;verstiger 0,1
+                        kilowatt/kilogram.
+
+                        2. En motorcykel p&#229; tre hjul med en
+                        nettoeffekt som &#246;verstiger 15 kilowatt.
+
+Tungt sl&#228;pfordon        Ett annat sl&#228;pfordon &#228;n ett l&#228;tt
+                        sl&#228;pfordon.
+
+Tung terr&#228;ngvagn        En terr&#228;ngvagn med en tj&#228;nstevikt &#246;ver
+                        2 ton.
+
+Vikt i k&#246;rklart skick
+f&#246;r en motorcykel
+eller en moped          Vikten i k&#246;rklart skick f&#246;r en
+                        motorcykel eller en moped fastst&#228;lls
+                        enligt artikel 5 i Europaparlamentets
+                        och r&#229;dets f&#246;rordning (EU) nr 168/2013
+                        av den 15 januari 2013 om godk&#228;nnande
+                        av och marknadskontroll f&#246;r tv&#229;- och
+                        trehjuliga fordon och fyrhjulingar, i
+                        den ursprungliga lydelsen.
+Lag (2017:360).
+
+2 a &#167; Trots 2 &#167; ska ett fordon som registreras med st&#246;d av
+ett godk&#228;nnande enligt en EU-r&#228;ttsakt h&#246;ra till det slag av
+fordon som motsvarar den fordonskategori som anges i
+godk&#228;nnandet. Lag (2015:793).
+
+3 &#167; Om det inte med ledning av 2 eller 2 a &#167; kan best&#228;mmas
+till vilket slag av fordon som ett visst fordon eller en viss
+fordonstyp ska h&#246;ra, beslutar den myndighet som regeringen
+best&#228;mmer i fr&#229;gan. Lag (2009:226).
+
+4 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+f&#229;r
+
+1. meddela f&#246;reskrifter eller i enskilda fall besluta om
+undantag fr&#229;n denna lag, och
+
+2. meddela f&#246;reskrifter om avgifter f&#246;r pr&#246;vning av ans&#246;kan om
+undantag i enskilda fall enligt denna lag och enligt
+f&#246;reskrifter som har meddelats med st&#246;d av lagen.
+Lag (2010:1566).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2001:559
+
+1. Denna lag tr&#228;der i kraft den 1 oktober 2001.
+
+2. F&#246;r en moped som tagits upp i typintyg enligt 63 &#167;
+fordonskung&#246;relsen (1972:595) i dess lydelse f&#246;re den 1
+november 1998 eller godk&#228;nts vid mopedbesiktning enligt
+48-54 &#167;&#167; fordonskung&#246;relsen i dess lydelse f&#246;re den 1 november
+1998 och d&#228;refter inte &#228;ndrats p&#229; s&#229;dant s&#228;tt som anges i 50 &#167;
+n&#228;mnda kung&#246;relse, g&#228;ller vad som s&#228;gs om mopeder klass II.
+
+2002:583
+
+1. Denna lag tr&#228;der i kraft den 1 maj 2003.
+
+2. En klassificering enligt &#228;ldre best&#228;mmelser av ett fordon
+som personbil, buss eller lastbil g&#228;ller fortfarande.
+
+2003:219
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2003.
+
+2. En klassificering enligt &#228;ldre best&#228;mmelser av ett fordon
+som moped g&#228;ller fortfarande.
+
+3. En moped som f&#246;re ikrafttr&#228;dandet har klassificerats som
+moped klass I skall i forts&#228;ttningen klassificeras som klass II
+om mopeden &#228;r att h&#228;nf&#246;ra till den klassen enligt de nya
+f&#246;reskrifterna.
+
+2006:240
+
+1. Denna lag tr&#228;der i kraft den 1 maj 2006.
+
+2. En klassificering enligt &#228;ldre best&#228;mmelser av ett fordon
+som personbil eller lastbil g&#228;ller fortfarande.
+
+2015:793
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2016.
+
+2. En klassificering enligt &#228;ldre best&#228;mmelser av ett fordon
+som moped, motorcykel, personbil, terr&#228;ngskoter, terr&#228;ngvagn,
+traktor klass I eller klass II g&#228;ller fortfarande.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2626">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2628">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

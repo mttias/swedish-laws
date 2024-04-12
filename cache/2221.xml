@@ -1,0 +1,787 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-06-14" /> 
+ <meta id="rattsinfo-edited" content="2023-06-14 13:43:05" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2221</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2220">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2222">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2006:806 ·
+                    <a href="/sfsr?bet=2006:806">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2006:806) om provtagning p&#229; djur, m.m.</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2006-06-08
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:89
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2006-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens till&#228;mpningsomr&#229;de
+
+1 &#167; Denna lag ska till&#228;mpas p&#229;
+
+1. kartl&#228;ggning och kontroll av smittsamma djursjukdomar,
+
+2. kontroll av restsubstanser och andra &#228;mnen i djur och 
+djurprodukter,
+
+3. m&#228;rkning och registrering av djur, samt
+
+4. &#229;tg&#228;rder f&#246;r att f&#246;rebygga och hindra spridning av 
+smittsamma djursjukdomar.
+
+Lagen ska till&#228;mpas &#228;ven p&#229; anv&#228;ndning av l&#228;kemedel f&#246;r 
+behandling av djur.
+
+Vad som s&#228;gs i denna lag om djursjukdomar g&#228;ller &#228;ven 
+f&#246;rekomsten av smitt&#228;mnen hos djur. Lag (2023:89).
+
+EU-best&#228;mmelser som lagen kompletterar
+
+2 &#167; Lagen kompletterar s&#229;dana best&#228;mmelser i EU-f&#246;rordningar 
+(EU-best&#228;mmelser) som faller inom lagens till&#228;mpningsomr&#229;de. 
+Regeringen ska i Svensk f&#246;rfattningssamling tillk&#228;nnage vilka 
+grundf&#246;rordningar som avses.
+
+I fr&#229;ga om EU-best&#228;mmelser som faller inom flera lagars 
+till&#228;mpningsomr&#229;de ska regeringen p&#229; samma s&#228;tt som i f&#246;rsta 
+stycket tillk&#228;nnage vilka best&#228;mmelser som denna lag 
+kompletterar.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela f&#246;reskrifter eller i det enskilda fallet fatta de 
+beslut som beh&#246;vs f&#246;r att komplettera EU-best&#228;mmelserna.
+Lag (2021:171).
+
+Ord och uttryck
+
+2 a &#167; I denna lag betyder
+
+1. uttrycket offentlig kontroll
+
+a) offentlig kontroll enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2017/625 av den 15 mars 2017 om offentlig 
+kontroll och annan offentlig verksamhet f&#246;r att s&#228;kerst&#228;lla 
+till&#228;mpningen av livsmedels- och foderlagstiftningen och av 
+best&#228;mmelser om djurs h&#228;lsa och djurskydd, v&#228;xtskydd och 
+v&#228;xtskyddsmedel samt om &#228;ndring av Europaparlamentets och 
+r&#229;dets f&#246;rordningar (EG) nr 999/2001, (EG) nr 396/2005, (EG) 
+nr 1069/2009, (EG) nr 1107/2009, (EU) nr 1151/2012, (EU) nr 
+652/2014, (EU) 2016/429 och (EU) 2016/2031, r&#229;dets 
+f&#246;rordningar (EG) nr 1/2005 och (EG) nr 1099/2009 och r&#229;dets 
+direktiv 98/58/EG, 1999/74/EG, 2007/43/EG, 2008/119/EG och 
+2008/120/EG och om upph&#228;vande av Europaparlamentets och r&#229;dets 
+f&#246;rordningar (EG) nr 854/2004 och (EG) nr 882/2004, r&#229;dets 
+direktiv 89/608/EEG, 89/662/EEG, 90/425/EEG, 91/496/EEG, 
+96/23/EG, 96/93/EG och 97/78/EG samt r&#229;dets beslut 92/438/EEG 
+(f&#246;rordningen om offentlig kontroll), och
+
+b) kontroll i &#246;vrigt av att denna lag och f&#246;reskrifter och 
+beslut som har meddelats med st&#246;d av lagen f&#246;ljs, 
+
+2. uttrycket annan offentlig verksamhet
+
+a) annan offentlig verksamhet enligt f&#246;rordning (EU) 2017/625, 
+och
+
+b) s&#229;dan offentlig verksamhet som i &#246;vrigt utf&#246;rs med st&#246;d av 
+lagen eller f&#246;reskrifter eller beslut som har meddelats med 
+st&#246;d av lagen, och
+
+3. uttrycket organ med delegerade uppgifter samma sak som i 
+f&#246;rordning (EU) 2017/625. Lag (2021:171).
+
+Till&#228;mpning av f&#246;rordning (EU) 2017/625
+
+2 b &#167; F&#246;rordning (EU) 2017/625 ska till&#228;mpas &#228;ven i fr&#229;ga om 
+offentlig kontroll och annan offentlig verksamhet som faller 
+utanf&#246;r f&#246;rordningens till&#228;mpningsomr&#229;de. Lag (2021:171).
+
+Provtagning och unders&#246;kning
+
+3 &#167; F&#246;r att kartl&#228;gga f&#246;rekomst av, fastst&#228;lla frihet fr&#229;n
+eller kontrollera smittsamma djursjukdomar f&#229;r regeringen eller
+den myndighet som regeringen best&#228;mmer meddela f&#246;reskrifter
+eller i det s&#228;rskilda fallet besluta om provtagning eller
+unders&#246;kning enligt denna lag.
+
+F&#246;r att kontrollera f&#246;rekomsten av restsubstanser och andra
+&#228;mnen i djur och djurprodukter f&#229;r regeringen eller den
+myndighet som regeringen best&#228;mmer meddela f&#246;reskrifter eller i
+det s&#228;rskilda fallet besluta om provtagning eller unders&#246;kning
+enligt denna lag.
+
+4 &#167; Provtagning eller unders&#246;kning enligt 3 &#167; skall utf&#246;ras av
+veterin&#228;r eller annan person som utses av regeringen eller den
+myndighet som regeringen best&#228;mmer.
+
+Provtagningen eller unders&#246;kningen f&#229;r utf&#246;ras p&#229; djur och
+djurprodukter, foder samt material i &#246;vrigt enligt vad som
+f&#246;reskrivs av regeringen eller den myndighet som regeringen
+best&#228;mmer.
+
+Provtagningen eller unders&#246;kningen f&#229;r utf&#246;ras utan samtycke av
+&#228;gare eller annan r&#228;ttsinnehavare och skall genomf&#246;ras p&#229; ett
+s&#228;tt som inneb&#228;r s&#229; sm&#229; ol&#228;genheter som m&#246;jligt f&#246;r denne.
+
+H&#228;lso&#246;vervakning, uppgifter om l&#228;kemedelsanv&#228;ndning och villkor
+f&#246;r livdjursf&#246;rs&#228;ljning
+
+5 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela f&#246;reskrifter om vad en veterin&#228;r eller den som &#228;r
+ansvarig f&#246;r ett laboratorium skall iaktta i fr&#229;ga om
+skyldighet att anm&#228;la och rapportera misst&#228;nkta eller
+intr&#228;ffade fall av smittsamma djursjukdomar.
+
+6 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela f&#246;reskrifter om vad den som h&#229;ller djur skall iaktta i
+fr&#229;ga om
+
+1. skyldighet att anm&#228;la verksamheten till en myndighet och att
+f&#246;ra anteckningar om verksamheten,
+
+2. skyldighet att anm&#228;la misstanke om djursjukdom till en
+veterin&#228;r,
+
+3. skyldighet att f&#246;ra register &#246;ver behandling med l&#228;kemedel
+och bevara journaler som r&#246;r s&#229;dan behandling, samt
+
+4. krav p&#229; hygien i djurh&#229;llningen.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+vidare meddela f&#246;reskrifter eller i ett enskilt fall besluta
+att djur f&#229;r s&#228;ljas till annat &#228;n slakt eller flyttas fr&#229;n ett
+omr&#229;de till ett annat inom landet, endast om djuren &#228;r fria
+fr&#229;n viss sjukdom.
+
+Anv&#228;ndning av antimikrobiella medel och immunologiska 
+veterin&#228;rmedicinska l&#228;kemedel 
+
+6 a &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om
+
+1. begr&#228;nsningar av eller f&#246;rbud mot anv&#228;ndning av 
+antimikrobiella medel vid behandling av djur i de fall s&#229;dana 
+begr&#228;nsningar eller f&#246;rbud &#228;r f&#246;renliga med artikel 107.7 och 
+107.8 i Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2019/6 
+av den 11 december 2018 om veterin&#228;rmedicinska l&#228;kemedel och 
+om upph&#228;vande av direktiv 2001/82/EG, och
+
+2. f&#246;rbud mot anv&#228;ndning eller innehav av immunologiska 
+veterin&#228;rmedicinska l&#228;kemedel om n&#229;got av villkoren i 
+artikel 110.1 i f&#246;rordning (EU) 2019/6 &#228;r uppfyllt.
+Lag (2023:89).
+
+Spridning av smitta och &#228;mnen som kan skada m&#228;nniskors eller
+djurs h&#228;lsa
+
+7 &#167; F&#246;r att f&#246;rebygga och hindra spridning av smittsamma
+djursjukdomar f&#229;r regeringen eller den myndighet som regeringen
+best&#228;mmer meddela f&#246;reskrifter eller i det enskilda fallet
+besluta om
+
+1. avlivning av djur,
+
+2. isolering av djur, samt
+
+3. begr&#228;nsningar eller andra villkor n&#228;r det g&#228;ller hanteringen
+av djur eller produkter av djur och andra varor eller n&#228;r det
+g&#228;ller kontakter mellan djur och m&#228;nniskor.
+
+Om bek&#228;mpning av epizootiska sjukdomar och vissa zoonoser finns
+s&#228;rskilda best&#228;mmelser i epizootilagen (1999:657) och
+zoonoslagen (1999:658).
+
+8 &#167; I fr&#229;ga om livsmedelsproducerande djur eller produkter fr&#229;n
+s&#229;dana djur som inneh&#229;ller eller kan antas inneh&#229;lla s&#229;dana
+&#228;mnen eller restsubstanser som kan g&#246;ra livsmedlet icke s&#228;kert
+f&#229;r regeringen eller den myndighet som regeringen best&#228;mmer
+meddela f&#246;reskrifter eller i det enskilda fallet besluta om
+
+1. omh&#228;ndertagande eller m&#228;rkning av djur eller djurprodukter,
+
+2. f&#246;rbud mot att djur eller djurprodukter flyttas, &#246;verl&#229;ts
+eller anv&#228;nds till livsmedel, samt
+
+3. avlivning av djur.
+
+M&#228;rkning m.m.
+
+9 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela f&#246;reskrifter om
+
+1. m&#228;rkning, journalf&#246;ring och registrering av djur samt
+utf&#228;rdande av identitetshandlingar f&#246;r djur,
+
+2. djurh&#228;lsa, flyttningsdokument f&#246;r djur och hygien vid
+transport av djur,
+
+3. registrering av djurh&#229;llare och anl&#228;ggningar f&#246;r djur, samt
+
+4. f&#246;rbud mot anv&#228;ndning av anl&#228;ggningar som inte uppfyller
+krav p&#229; registrering som f&#246;reskrivs med st&#246;d av 3.
+
+I f&#246;reskrifter enligt f&#246;rsta stycket kan det f&#246;reskrivas att en
+organisation f&#229;r f&#246;ra register och utf&#228;rda
+identitetshandlingar.
+
+Offentlig kontroll och annan offentlig verksamhet
+
+10 &#167; Offentlig kontroll ut&#246;vas av Statens jordbruksverk och 
+andra statliga myndigheter enligt f&#246;reskrifter som regeringen 
+meddelar.
+
+Annan offentlig verksamhet utf&#246;rs av kontrollmyndigheterna och 
+andra statliga myndigheter enligt vad som anges i denna lag 
+och i f&#246;reskrifter som regeringen meddelar.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om att Jordbruksverket f&#229;r 
+&#246;verl&#228;mna &#229;t l&#228;nsstyrelserna eller kommunerna att ut&#246;va 
+offentlig kontroll och annan offentlig verksamhet. En kommuns 
+uppgift ska fullg&#246;ras av den eller de kommunala n&#228;mnder som 
+fullg&#246;r uppgifter inom milj&#246;- och h&#228;lsoskyddsomr&#229;det.
+Lag (2021:171).
+
+11 &#167; Jordbruksverket samordnar den kontrollverksamhet som 
+verket har &#246;verl&#228;mnat till l&#228;nsstyrelserna eller kommunerna 
+samt l&#228;mnar r&#229;d och hj&#228;lp i kontrollverksamheten.
+
+Den myndighet som ut&#246;var offentlig kontroll ska genom 
+r&#229;dgivning, information och p&#229; annat s&#228;tt underl&#228;tta f&#246;r den 
+enskilde att fullg&#246;ra sina skyldigheter enligt lagen, de 
+f&#246;reskrifter och beslut som har meddelats med st&#246;d av lagen, 
+de EU-best&#228;mmelser som lagen kompletterar och de beslut som 
+har meddelats med st&#246;d av EU-best&#228;mmelserna. Lag (2021:171).
+
+Delegering av vissa uppgifter
+
+11 a &#167; I f&#246;rordning (EU) 2017/625 finns best&#228;mmelser om att 
+vissa uppgifter som ing&#229;r i den offentliga kontrollen och 
+vissa uppgifter i samband med annan offentlig verksamhet f&#229;r 
+delegeras till ett organ eller till en fysisk person.
+Lag (2021:171).
+
+F&#246;rvaltningslagens till&#228;mpning
+
+11 b &#167; Vid offentlig kontroll eller annan offentlig verksamhet 
+som utf&#246;rs av ett organ med delegerade uppgifter eller av en 
+fysisk person som har delegerats vissa uppgifter ska f&#246;ljande 
+best&#228;mmelser i f&#246;rvaltningslagen (2017:900) till&#228;mpas:
+
+- 5 &#167; om legalitet, objektivitet och proportionalitet, 
+
+- 10 &#167; om partsinsyn, 
+
+- 16-18 &#167;&#167; om j&#228;v, 
+
+- 23 &#167; om utredningsansvaret, 
+
+- 24 &#167; om n&#228;r man f&#229;r l&#228;mna uppgifter muntligt, 
+
+- 25 &#167; om kommunikation, 
+
+- 27 &#167; om dokumentation av uppgifter, 
+
+- 31 &#167; om dokumentation av beslut, 
+
+- 32 &#167; om motivering av beslut, 
+
+- 33 och 34 &#167;&#167; om underr&#228;ttelse om inneh&#229;llet i beslut och hur 
+ett &#246;verklagande g&#229;r till, 
+
+- 36 &#167; om r&#228;ttelse av skrivfel och liknande, och
+
+- 42 &#167; om vem som f&#229;r &#246;verklaga ett beslut.
+Lag (2021:171).
+
+Tystnadsplikt
+
+11 c &#167; Den som i enskild verksamhet utf&#246;r eller har utf&#246;rt 
+offentlig kontroll eller annan offentlig verksamhet f&#229;r inte 
+obeh&#246;rigen r&#246;ja eller utnyttja det som han eller hon har f&#229;tt 
+k&#228;nnedom om medan uppgifterna utf&#246;rdes. Detsamma ska g&#228;lla den 
+som i enskild verksamhet utf&#246;r eller har utf&#246;rt 
+laboratorieanalyser, laboratorietester eller 
+laboratoriediagnostik p&#229; prover som tas vid offentlig kontroll 
+och annan offentlig verksamhet.
+
+I det allm&#228;nnas verksamhet till&#228;mpas offentlighets- och 
+sekretesslagen (2009:400) i st&#228;llet f&#246;r f&#246;rsta stycket.
+Lag (2021:171).
+
+F&#246;reskrifter om offentlig kontroll och annan offentlig 
+verksamhet
+
+12 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om
+
+1. hur offentlig kontroll och annan offentlig verksamhet ska 
+bedrivas,
+
+2. skyldighet f&#246;r en kontrollmyndighet, ett organ med 
+delegerade uppgifter eller en fysisk person som har delegerats 
+vissa uppgifter att l&#228;mna information till Jordbruksverket, 
+och
+
+3. skyldighet f&#246;r ett organ med delegerade uppgifter eller en 
+fysisk person som har delegerats vissa uppgifter att l&#228;mna 
+information och ge in handlingar till den myndighet som har 
+delegerat uppgiften. Lag (2021:171).
+
+R&#228;tt till upplysningar och tilltr&#228;de
+
+13 &#167; En kontrollmyndighet, en officiell veterin&#228;r som har 
+f&#246;rordnats enligt lagen (2009:1254) om officiella veterin&#228;rer, 
+ett organ med delegerade uppgifter eller en fysisk person som 
+har delegerats vissa uppgifter har, i den utstr&#228;ckning det 
+beh&#246;vs f&#246;r den offentliga kontrollen, r&#228;tt att
+
+1. p&#229; beg&#228;ran f&#229; upplysningar och ta del av handlingar, och
+
+2. f&#229; tilltr&#228;de till omr&#229;den, anl&#228;ggningar, byggnader, lokaler 
+och andra utrymmen d&#228;r djur h&#229;lls eller d&#228;r djurprodukter, 
+foder eller material i &#246;vrigt f&#246;rvaras eller annars hanteras 
+och d&#228;r g&#246;ra unders&#246;kningar och ta prover.
+
+Det som s&#228;gs i f&#246;rsta stycket g&#228;ller ocks&#229; den som utf&#246;r annan 
+offentlig verksamhet. Lag (2021:171).
+
+14 &#167; Best&#228;mmelserna i 13 &#167; g&#228;ller ocks&#229; f&#246;r Europeiska 
+kommissionen och Europeiska revisionsr&#228;tten och f&#246;r 
+inspekt&#246;rer och experter som utsetts av dessa institutioner i 
+den utstr&#228;ckning det beh&#246;vs f&#246;r att kontrollera att Sverige 
+f&#246;ljer
+
+1. de EU-best&#228;mmelser som lagen kompletterar, och
+
+2. EU-best&#228;mmelser om unionens medfinansiering av &#229;tg&#228;rder 
+inom lagens till&#228;mpningsomr&#229;de. Lag (2021:171).
+
+14 a &#167; Best&#228;mmelserna i 13 och 14 &#167;&#167; ska inte till&#228;mpas vid 
+kontroller och inspektioner p&#229; plats som utf&#246;rs enligt lagen 
+(2017:244) om kontroller och inspektioner p&#229; plats av 
+Europeiska byr&#229;n f&#246;r bedr&#228;geribek&#228;mpning. Lag (2021:171).
+
+Skyldighet att l&#228;mna hj&#228;lp
+
+15 &#167; Best&#228;mmelser om skyldighet f&#246;r den som &#228;r f&#246;rem&#229;l f&#246;r 
+offentlig kontroll eller annan offentlig verksamhet att l&#228;mna 
+den hj&#228;lp som beh&#246;vs f&#246;r att kontrollen eller verksamheten ska 
+kunna utf&#246;ras finns i artikel 15.2 och 15.6 i f&#246;rordning (EU) 
+2017/625. Lag (2021:171).
+
+F&#246;rel&#228;gganden
+
+16 &#167; Ut&#246;ver vad som f&#246;ljer av de EU-best&#228;mmelser som lagen 
+kompletterar f&#229;r en kontrollmyndighet besluta de f&#246;rel&#228;gganden 
+som beh&#246;vs f&#246;r att lagen, de f&#246;reskrifter och beslut som har 
+meddelats med st&#246;d av lagen, de EU-best&#228;mmelser som lagen 
+kompletterar och de beslut som har meddelats med st&#246;d av EU-
+best&#228;mmelserna ska f&#246;ljas. Lag (2021:171).
+
+Vite
+
+17 &#167; F&#246;rel&#228;gganden enligt denna lag eller enligt de EU-
+best&#228;mmelser som lagen kompletterar f&#229;r f&#246;renas med vite.
+Lag (2021:171).
+
+R&#228;ttelse
+
+18 &#167; Om n&#229;gon inte fullg&#246;r sina skyldigheter enligt lagen, de 
+f&#246;reskrifter eller beslut som har meddelats med st&#246;d av lagen, 
+de EU-best&#228;mmelser som lagen kompletterar eller de beslut som 
+har meddelats med st&#246;d av EU-best&#228;mmelserna, f&#229;r 
+kontrollmyndigheten besluta om r&#228;ttelse p&#229; hans eller hennes 
+bekostnad. Lag (2021:171).
+
+Rapporteringssystem f&#246;r &#246;vertr&#228;delser
+
+18 a &#167; En kontrollmyndighet ska ha ett &#228;ndam&#229;lsenligt 
+rapporteringssystem f&#246;r den som vill anm&#228;la misst&#228;nkta 
+&#246;vertr&#228;delser av f&#246;rordning (EU) 2017/625. Lag (2021:171).
+
+Hj&#228;lp av Polismyndigheten
+
+19 &#167; Polismyndigheten ska l&#228;mna den hj&#228;lp som beh&#246;vs f&#246;r
+ut&#246;vande av offentlig kontroll eller verkst&#228;llighet av beslut
+enligt denna lag, de f&#246;reskrifter eller beslut som har
+meddelats med st&#246;d av lagen, de EU-best&#228;mmelser som
+kompletteras av lagen eller de beslut som har meddelats med
+st&#246;d av EU-best&#228;mmelserna.
+
+Hj&#228;lp enligt f&#246;rsta stycket f&#229;r beg&#228;ras endast om
+
+1. det p&#229; grund av s&#228;rskilda omst&#228;ndigheter kan befaras att
+&#229;tg&#228;rden inte kan utf&#246;ras utan att en polismans s&#228;rskilda
+befogenheter enligt 10 &#167; polislagen (1984:387) beh&#246;ver
+tillgripas, eller
+
+2. det annars finns synnerliga sk&#228;l.
+Lag (2014:705).
+
+Ers&#228;ttning
+
+19 a &#167; Ers&#228;ttning av statsmedel kan, om det finns s&#228;rskilda
+sk&#228;l, l&#228;mnas f&#246;r kostnader eller f&#246;rluster som uppkommit p&#229;
+grund av
+
+1. s&#229;dana beslut enligt denna lag eller enligt f&#246;reskrifter
+meddelade med st&#246;d av lagen som syftar till att kartl&#228;gga
+f&#246;rekomst av, fastst&#228;lla frihet fr&#229;n, kontrollera eller
+f&#246;rebygga och hindra spridning av djursjukdomar, eller
+
+2. s&#229;dana f&#246;reskrifter meddelade med st&#246;d av lagen som har
+det syfte som anges i 1.
+
+Fr&#229;gor om ers&#228;ttning pr&#246;vas av regeringen eller den myndighet
+som regeringen best&#228;mmer.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela ytterligare f&#246;reskrifter om f&#246;ruts&#228;ttningarna f&#246;r att
+ers&#228;ttning ska kunna l&#228;mnas och om de kostnader och f&#246;rluster
+som ska kunna ers&#228;ttas. Lag (2014:518).
+
+Avgifter
+
+20 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om skyldighet att betala avgifter f&#246;r 
+offentlig kontroll och annan offentlig verksamhet.
+
+Bemyndigandena enligt f&#246;rsta stycket innefattar r&#228;tt att 
+meddela f&#246;reskrifter om skyldighet f&#246;r kommuner att ta ut 
+s&#229;dana avgifter.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela f&#246;reskrifter om ber&#228;kningen av avgifter som tas ut av 
+statliga myndigheter, ett organ med delegerade uppgifter eller 
+en fysisk person som har delegerats vissa uppgifter och s&#229;dana 
+organisationer som avses i 9 &#167; andra stycket. Lag (2021:171).
+
+Straffbest&#228;mmelser
+
+21 &#167; Till b&#246;ter d&#246;ms den som med upps&#229;t eller av grov 
+oaktsamhet
+
+1. bryter mot en f&#246;reskrift eller ett beslut som har meddelats 
+med st&#246;d av 6 &#167;, 7 &#167; f&#246;rsta stycket, 8 &#167; eller 9 &#167; f&#246;rsta 
+stycket, eller
+
+2. inte fullg&#246;r sina skyldigheter enligt 15 &#167;.
+
+Till b&#246;ter d&#246;ms &#228;ven den som med upps&#229;t eller av grov 
+oaktsamhet bryter mot skyldigheter, villkor eller f&#246;rbud som 
+finns i de EU-best&#228;mmelser som lagen kompletterar. Detta 
+g&#228;ller dock inte om &#246;vertr&#228;delsen avser best&#228;mmelser om 
+myndighetsut&#246;vning eller andra best&#228;mmelser i f&#246;rordning (EU) 
+2017/625. Lag (2021:171).
+
+22 &#167; Om en g&#228;rning som avses i 21 &#167; &#228;r att anse som ringa, 
+d&#246;ms inte till ansvar.
+
+Det ska inte d&#246;mas till ansvar enligt denna lag f&#246;r en g&#228;rning 
+som omfattas av ett f&#246;rel&#228;ggande om vite om g&#228;rningen ligger 
+till grund f&#246;r en ans&#246;kan om utd&#246;mande av vitet.
+Lag (2021:171).
+
+&#214;verklagande m.m.
+
+23 &#167; Beslut av en kommunal n&#228;mnd enligt denna lag, enligt de 
+f&#246;reskrifter som meddelats med st&#246;d av lagen eller enligt de 
+EU-best&#228;mmelser som lagen kompletterar f&#229;r &#246;verklagas till 
+l&#228;nsstyrelsen. Lag (2021:171).
+
+24 &#167; En statlig f&#246;rvaltningsmyndighets beslut f&#229;r &#246;verklagas 
+till allm&#228;n f&#246;rvaltningsdomstol, om det har meddelats
+
+1. enligt denna lag, 
+
+2. enligt de f&#246;reskrifter som meddelats med st&#246;d av lagen, 
+eller
+
+3. enligt de EU-best&#228;mmelser som lagen kompletterar.
+
+Detsamma g&#228;ller beslut som har meddelats av en officiell 
+veterin&#228;r som har f&#246;rordnats enligt lagen (2009:1254) om 
+officiella veterin&#228;rer, av en s&#229;dan organisation som avses i 9 
+&#167; andra stycket, av ett annat organ med delegerade uppgifter 
+eller av en fysisk person som har delegerats vissa uppgifter.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2021:171).
+
+24 a &#167; Det allm&#228;nnas talan i f&#246;rvaltningsdomstol ska f&#246;ras av
+
+1. den myndighet som ut&#246;var offentlig kontroll om det 
+&#246;verklagade beslutet har meddelats av en organisation, 
+
+2. den myndighet som har f&#246;rordnat den officiella veterin&#228;ren, 
+eller
+
+3. den myndighet som har delegerat uppgiften att ut&#246;va 
+offentlig kontroll eller annan offentlig verksamhet till ett 
+organ eller till en fysisk person om det &#246;verklagade beslutet 
+har meddelats av ett s&#229;dant organ eller en s&#229;dan fysisk 
+person.
+
+Lagen (1986:1142) om &#246;verklagande av beslut av enskilda organ 
+med offentliga f&#246;rvaltningsuppgifter ska g&#228;lla &#228;ven f&#246;r 
+&#246;verklagande av beslut som har meddelats av en fysisk person 
+som har delegerats vissa uppgifter. Lag (2021:171).
+
+25 &#167; Beslut enligt denna lag, enligt de f&#246;reskrifter som har 
+meddelats med st&#246;d av lagen eller enligt de EU-best&#228;mmelser 
+som lagen kompletterar ska g&#228;lla omedelbart om inte n&#229;got 
+annat beslutas. Lag (2021:171).
+
+26 &#167; Om beslutet har meddelats av en organisation 
+till&#228;mpas 36–39 &#167;&#167; och 42–47 &#167;&#167; f&#246;rvaltningslagen 
+(2017:900). Lag (2018:827).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2006:806
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2006. Genom lagen
+upph&#228;vs lagen (1992:1683) om provtagning p&#229; djur, m.m.
+
+2. F&#246;rbud, f&#246;rel&#228;gganden och andra beslut om skyldigheter f&#246;r
+enskilda som har meddelats med st&#246;d av &#228;ldre f&#246;reskrifter och
+som avser hantering av djurkadaver eller andra animaliska
+biprodukter skall anses beslutade enligt lagen (2006:805) om
+foder och animaliska biprodukter. &#214;vriga f&#246;rbud, f&#246;rel&#228;gganden
+och andra beslut om skyldigheter f&#246;r enskilda som har meddelats
+med st&#246;d av &#228;ldre f&#246;reskrifter skall anses meddelade med st&#246;d
+av denna lag.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2220">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2222">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

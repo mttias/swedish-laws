@@ -1,0 +1,807 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-11" /> 
+ <meta id="rattsinfo-edited" content="2023-01-11 12:43:55" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1394</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1393">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1395">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2012:861 ·
+                    <a href="/sfsr?bet=2012:861">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2012:861) om farliga &#228;mnen i elektrisk och elektronisk utrustning</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2012-12-06
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1181
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2013-01-02 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">F&#246;rordningens inneh&#229;ll och till&#228;mpningsomr&#229;de
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om begr&#228;nsning av
+farliga &#228;mnen i elektrisk och elektronisk utrustning och om
+hantering av s&#229;dan utrustning.
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 14 kap. 8 &#167; milj&#246;balken i
+fr&#229;ga om 3, 7-11, 13-33 och 35 &#167;&#167; och i &#246;vrigt med st&#246;d av
+8 kap. 7 &#167; regeringsformen.
+
+2 &#167; F&#246;r till&#228;mpningen av denna f&#246;rordning och f&#246;reskrifter som
+har meddelats med st&#246;d av f&#246;rordningen g&#228;ller att elektrisk
+och elektronisk utrustning &#228;r indelad i kategorierna
+
+1. stora hush&#229;llsapparater,
+
+2. sm&#229; hush&#229;llsapparater,
+
+3. it- och telekommunikationsutrustning,
+
+4. konsumentutrustning,
+
+5. belysningsutrustning,
+
+6. elektriska och elektroniska verktyg,
+
+7. leksaker, sport- och fritidsprodukter,
+
+8. medicintekniska produkter,
+
+9. industriella och andra &#246;vervaknings- och
+kontrollinstrument,
+
+10. automater, och
+
+11. annan elektrisk och elektronisk utrustning.
+
+3 &#167; F&#246;rordningen ska inte till&#228;mpas p&#229;
+
+1. vapen, ammunition och krigsmateriel som &#228;r avsedda att 
+anv&#228;ndas f&#246;r specifikt milit&#228;ra &#228;ndam&#229;l samt annan utrustning 
+som &#228;r n&#246;dv&#228;ndig vid skydd av v&#228;sentliga s&#228;kerhetsintressen 
+hos en medlemsstat i Europeiska unionen,
+
+2. utrustning som &#228;r avsedd att skickas ut i rymden,
+
+3. utrustning som &#228;r tillverkad enbart f&#246;r att ing&#229; som en del 
+av en annan typ av utrustning som inte omfattas av eller &#228;r 
+undantagen fr&#229;n denna f&#246;rordnings till&#228;mpningsomr&#229;de, om den 
+kan fylla sin funktion endast som en del av den utrustningen 
+och endast kan ers&#228;ttas av samma slags utrustning,
+
+4. s&#229;dana storskaliga station&#228;ra industriverktyg som
+
+a) utg&#246;rs av grupper av maskiner, utrustning, komponenter 
+eller kombinationer av dessa,
+
+b) fungerar tillsammans f&#246;r en viss till&#228;mpning,
+
+c) installeras permanent och monteras ned av fackm&#228;n p&#229; en 
+viss plats, och
+
+d) anv&#228;nds och underh&#229;lls av fackm&#228;n i en industriell 
+produktionsanl&#228;ggning eller anl&#228;ggning f&#246;r forskning eller 
+utveckling,
+
+5. s&#229;dana storskaliga fasta installationer som utg&#246;rs av 
+kombinationer av tv&#229; eller flera slags apparater eller annan 
+utrustning som s&#228;tts samman, installeras och monteras ned av 
+fackm&#228;n och &#228;r avsedda att anv&#228;ndas permanent p&#229; en p&#229; f&#246;rhand 
+best&#228;md och s&#228;rskilt avsedd plats,
+
+6. transportmedel f&#246;r personer eller varor, om transportmedlen 
+&#228;r n&#229;got annat &#228;n elektriska tv&#229;hjuliga fordon som inte &#228;r 
+typgodk&#228;nda,
+
+7. maskiner som uteslutande tillhandah&#229;lls f&#246;r yrkesm&#228;ssig 
+anv&#228;ndning, har en inbyggd k&#228;lla f&#246;r kraftgenerering eller 
+traktionsdrift med extern str&#246;mk&#228;lla, &#228;r r&#246;rliga eller 
+f&#246;rflyttas kontinuerligt eller halvkontinuerligt mellan en 
+f&#246;ljd av fasta arbetsstationer under arbetet, men inte &#228;r 
+avsedda att anv&#228;ndas p&#229; v&#228;g,
+
+8. s&#229;dana aktiva implantat som avses i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2017/745 av den 5 april 2017 om 
+medicintekniska produkter, om &#228;ndring av direktiv 2001/83/EG, 
+f&#246;rordning (EG) nr 178/2002 och f&#246;rordning (EG) nr 1223/2009 
+och om upph&#228;vande av r&#229;dets direktiv 90/385/EEG och 93/42/EEG,
+
+9. solcellspaneler avsedda att anv&#228;ndas i ett system som 
+fackm&#228;n har utformat, sammansatt och installerat och som 
+permanent p&#229; en fastst&#228;lld plats ska producera energi av 
+solljus f&#246;r offentlig, aff&#228;rsm&#228;ssig eller industriell 
+anv&#228;ndning eller anv&#228;ndning i bost&#228;der,
+
+10. produkter som utformats uteslutande f&#246;r forsknings- och 
+utvecklingssyften och som endast tillhandah&#229;lls f&#246;r 
+yrkesm&#228;ssig verksamhet, och
+
+11. orgelpipor.
+F&#246;rordning (2021:635).
+
+Definitioner
+
+4 &#167; I denna f&#246;rordning avses med
+
+elektrisk och elektronisk utrustning: utrustning som beh&#246;ver 
+elektrisk str&#246;m eller elektromagnetiska f&#228;lt f&#246;r att 
+&#229;tminstone en av utrustningens avsedda funktioner ska fungera 
+korrekt samt utrustning f&#246;r generering, &#246;verf&#246;ring och m&#228;tning 
+av s&#229;dan str&#246;m och s&#229;dana f&#228;lt, om utrustningen &#228;r avsedd att 
+anv&#228;ndas med en sp&#228;nning p&#229; h&#246;gst 1 000 volt v&#228;xelstr&#246;m eller 
+1 500 volt likstr&#246;m,
+
+kabel: en kabel med en m&#228;rksp&#228;nning under 250 volt som tj&#228;nar 
+som anslutning eller f&#246;rl&#228;ngning f&#246;r att f&#246;rbinda elektrisk 
+eller elektronisk utrustning till ett eluttag eller f&#246;r att 
+ansluta tv&#229; eller flera s&#229;dana utrustningar till varandra,
+
+medicinteknisk produkt: en medicinteknisk produkt som avses i 
+f&#246;rordning (EU) 2017/745 och en annan produkt som omfattas av 
+den f&#246;rordningen, och som ocks&#229; &#228;r en elektrisk eller 
+elektronisk utrustning,
+
+medicinteknisk produkt f&#246;r in vitro-diagnostik: en 
+medicinteknisk produkt f&#246;r in vitro-diagnostik som avses i 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2017/746 av den 
+5 april 2017 om medicintekniska produkter f&#246;r in vitro-
+diagnostik och om upph&#228;vande av direktiv 98/79/EG och 
+kommissionens beslut 2010/227/EU,
+
+reservdel: en separat del som kan ers&#228;tta en del i en 
+elektrisk eller elektronisk utrustning, om utrustningen inte 
+kan fungera som avsett utan denna del och utrustningens 
+funktionsduglighet kvarst&#229;r eller uppgraderas n&#228;r delen 
+ers&#228;tts av den separata delen. F&#246;rordning (2022:400).
+
+5 &#167; I denna f&#246;rordning avses med
+
+tillhandah&#229;llande p&#229; marknaden: yrkesm&#228;ssig leverans f&#246;r
+distribution, f&#246;rbrukning eller anv&#228;ndning p&#229; unionsmarknaden,
+
+utsl&#228;ppande p&#229; marknaden: tillhandah&#229;llande f&#246;r f&#246;rsta g&#229;ngen
+p&#229; unionsmarknaden, och
+
+&#229;terkallelse: en &#229;tg&#228;rd f&#246;r att f&#246;rhindra att utrustning
+tillhandah&#229;lls p&#229; marknaden eller f&#246;r att dra tillbaka
+utrustning som redan finns hos slutanv&#228;ndaren.
+
+6 &#167; I denna f&#246;rordning avses med
+
+tillverkare: en fysisk eller juridisk person som tillverkar
+eller l&#229;ter tillverka elektrisk eller elektronisk utrustning
+och som marknadsf&#246;r den i eget namn eller under eget
+varum&#228;rke,
+
+import&#246;r: en fysisk eller juridisk person i Europeiska unionen
+som fr&#229;n ett land utanf&#246;r unionen tar in elektrisk eller
+elektronisk utrustning och sl&#228;pper ut den p&#229; unionsmarknaden,
+
+distribut&#246;r: en fysisk eller juridisk person som
+tillhandah&#229;ller elektrisk eller elektronisk utrustning p&#229;
+marknaden utan att vara utrustningens tillverkare eller
+import&#246;r, och
+
+ekonomisk akt&#246;r: en tillverkare, import&#246;r, distribut&#246;r eller
+s&#229;dan representant som avses i 20 &#167;.
+
+Krav p&#229; elektrisk och elektronisk utrustning
+
+7 &#167; Elektrisk och elektronisk utrustning f&#229;r sl&#228;ppas ut p&#229;
+marknaden endast om den uppfyller kraven i denna f&#246;rordning
+och de f&#246;reskrifter som har meddelats med st&#246;d av
+f&#246;rordningen.
+
+F&#246;rbud mot farliga &#228;mnen
+
+8 &#167; Elektrisk och elektronisk utrustning, kablar och 
+reservdelar som ska sl&#228;ppas ut p&#229; marknaden f&#229;r inte 
+inneh&#229;lla bly, kvicksilver, kadmium, sexv&#228;rt krom, 
+polybromerade bifenyler, polybromerade difenyletrar, 
+di(2-etylhexyl) ftalat, butylbensylftalat, dibutylftalat 
+eller diisobutylftalat. F&#246;rordning (2016:1191).
+
+9 &#167; Ett material som &#228;r homogent p&#229; s&#229; s&#228;tt att det har en 
+genomg&#229;ende konstant sammans&#228;ttning eller best&#229;r av en 
+kombination av material som inte kan &#229;tskiljas eller 
+separeras i enskilda material genom is&#228;rskruvning, kapning, 
+krossning, slipning eller andra mekaniska &#229;tg&#228;rder f&#229;r trots 
+f&#246;rbudet i 8 &#167; inneh&#229;lla en koncentration av 
+
+1. h&#246;gst 0,01 viktprocent kadmium, och
+
+2. h&#246;gst 0,1 viktprocent av vart och ett av &#228;mnena bly, 
+kvicksilver, sexv&#228;rt krom, polybromerade bifenyler, 
+polybromerade difenyletrar, di(2-etylhexyl)ftalat, 
+butylbensylftalat, dibutylftalat och diisobutylftalat.
+F&#246;rordning (2016:1191).
+
+10 &#167; F&#246;rbudet i 8 &#167; g&#228;ller inte reservdelar som &#229;tervunnits 
+fr&#229;n 
+
+1. elektrisk och elektronisk utrustning som sl&#228;ppts ut p&#229; 
+marknaden f&#246;re den 1 juli 2006 och anv&#228;nds i elektronisk 
+utrustning som sl&#228;ppts ut p&#229; marknaden f&#246;re den 1 juli 2016, 
+
+2. medicintekniska produkter eller &#246;vervaknings- och 
+kontrollinstrument som sl&#228;ppts ut p&#229; marknaden f&#246;re den 
+22 juli 2014 och anv&#228;nds i elektrisk och elektronisk 
+utrustning som sl&#228;ppts ut p&#229; marknaden f&#246;re den 22 juli 2024, 
+
+3. medicintekniska produkter f&#246;r in vitro-diagnostik som 
+sl&#228;ppts ut p&#229; marknaden f&#246;re den 22 juli 2016 och anv&#228;nds i 
+elektrisk och elektronisk utrustning som sl&#228;ppts ut p&#229; 
+marknaden f&#246;re den 22 juli 2026,
+
+4. industriella &#246;vervaknings- och kontrollinstrument som 
+sl&#228;ppts ut p&#229; marknaden f&#246;re den 22 juli 2017 och anv&#228;nds i 
+elektrisk och elektronisk utrustning som sl&#228;ppts ut p&#229; 
+marknaden f&#246;re den 22 juli 2027,
+
+5. all annan elektrisk eller elektronisk utrustning som inte 
+omfattas av r&#229;dets och Europaparlamentets direktiv 2002/95/EG 
+av den 27 januari 2003 om begr&#228;nsning av anv&#228;ndningen av vissa 
+farliga &#228;mnen i elektriska och elektroniska produkter, i 
+lydelsen enligt kommissionens beslut 2011/534/EU och som 
+sl&#228;ppts ut p&#229; marknaden f&#246;re den 22 juli 2019 och anv&#228;nds i 
+elektrisk och elektronisk utrustning som sl&#228;ppts ut p&#229; 
+marknaden f&#246;re den 22 juli 2029.
+
+F&#246;rsta stycket g&#228;ller endast om &#229;teranv&#228;ndningen sker i slutna 
+kretslopp mellan f&#246;retag och kan underkastas granskning samt 
+om utrustningens konsumenter informeras om att &#229;teranv&#228;ndning 
+av reservdelar har skett. F&#246;rordning (2019:557).
+
+10 a &#167; F&#246;rbudet mot di(2-etylhexyl)ftalat, butylbensylftalat 
+och dibutylftalat i 8 &#167; g&#228;ller inte leksaker som omfattas av 
+f&#246;rbudet i punkt 51 i bilaga XVII till Europaparlamentets och 
+r&#229;dets f&#246;rordning (EG) nr 1907/2006 av den 18 december 2006 
+om registrering, utv&#228;rdering, godk&#228;nnande och begr&#228;nsning av 
+kemikalier (Reach), inr&#228;ttande av en europeisk 
+kemikaliemyndighet, &#228;ndring av direktiv 1999/45/EG och 
+upph&#228;vande av r&#229;dets f&#246;rordning (EEG) nr 793/93 och 
+kommissionens f&#246;rordning (EG) nr 1488/94 samt r&#229;dets direktiv 
+76/769/EEG och kommissionens direktiv 91/155/EEG, 93/67/EEG, 
+93/105/EG och 2000/21/EG. F&#246;rordning (2016:1191).
+
+10 b &#167; F&#246;rbudet i 8 &#167; g&#228;ller inte kablar och reservdelar som 
+&#228;r avsedda f&#246;r reparation, &#229;teranv&#228;ndning, uppgradering av 
+funktioner eller f&#246;rb&#228;ttrad kapacitet av 
+
+1. elektrisk eller elektronisk utrustning som sl&#228;ppts ut p&#229; 
+marknaden f&#246;re den 1 juli 2006, 
+
+2. medicintekniska produkter som sl&#228;ppts ut p&#229; marknaden f&#246;re 
+den 22 juli 2014,
+
+3. medicintekniska produkter f&#246;r in vitro-diagnostik som 
+sl&#228;ppts ut p&#229; marknaden f&#246;re den 22 juli 2016,
+
+4. &#246;vervaknings- eller kontrollinstrument som sl&#228;ppts ut p&#229; 
+marknaden f&#246;re den 22 juli 2014,
+
+5. industriella &#246;vervaknings- och kontrollinstrument som 
+sl&#228;ppts ut p&#229; marknaden f&#246;re den 22 juli 2017,
+
+6. elektrisk eller elektronisk utrustning som omfattats av ett 
+undantag och sl&#228;ppts ut p&#229; marknaden innan undantaget upph&#246;rde 
+att g&#228;lla,
+
+7. all annan elektrisk och elektronisk utrustning som inte 
+omfattades av till&#228;mpningsomr&#229;det f&#246;r direktiv 2002/95/EG, i 
+lydelsen enligt kommissionens beslut 2011/534/EU, och som 
+sl&#228;ppts ut p&#229; marknaden f&#246;re den 22 juli 2019.
+F&#246;rordning (2019:557).
+
+11 &#167; Kemikalieinspektionen f&#229;r meddela ytterligare
+f&#246;reskrifter om undantag fr&#229;n f&#246;rbudet i 8 &#167; och f&#246;reskrifter
+om verkst&#228;llighet av 9 &#167;.
+
+12 &#167; I artikel 5 och i bilaga V till Europaparlamentets och
+r&#229;dets direktiv 2011/65/EU av den 8 juni 2011 om begr&#228;nsning
+av anv&#228;ndning av vissa farliga &#228;mnen i elektrisk och
+elektronisk utrustning finns best&#228;mmelser om att en ekonomisk
+akt&#246;r f&#229;r ans&#246;ka om att Europeiska kommissionen ska besluta om
+undantag fr&#229;n det f&#246;rbud i direktivet som genomf&#246;rs med 8 &#167;
+samt om f&#246;rnyelse eller &#229;terkallelse av s&#229;dana undantag.
+
+Bed&#246;mning av &#246;verensst&#228;mmelse
+
+13 &#167; Innan elektrisk eller elektronisk utrustning sl&#228;pps ut p&#229;
+marknaden ska tillverkaren se till att det g&#246;rs en bed&#246;mning
+av om utrustningen &#246;verensst&#228;mmer med de krav som f&#246;ljer av 8–
+10 &#167;&#167; och f&#246;reskrifter som har meddelats med st&#246;d av 11 &#167;.
+Tillverkaren ska ta fram teknisk dokumentation som ligger till
+grund f&#246;r bed&#246;mningen av &#246;verensst&#228;mmelse.
+
+14 &#167; Kemikalieinspektionen f&#229;r meddela ytterligare
+f&#246;reskrifter om f&#246;rfarandet f&#246;r bed&#246;mning av &#246;verensst&#228;mmelse.
+
+EU-f&#246;rs&#228;kran om &#246;verensst&#228;mmelse
+
+15 &#167; Om bed&#246;mningen av &#246;verensst&#228;mmelse enligt 13 &#167; visar att
+utrustningen uppfyller kraven, ska tillverkaren ta ansvar f&#246;r
+detta genom att uppr&#228;tta en EU-f&#246;rs&#228;kran om &#246;verensst&#228;mmelse.
+
+16 &#167; Kemikalieinspektionen f&#229;r meddela ytterligare
+f&#246;reskrifter om EU-f&#246;rs&#228;kran enligt 15 &#167;.
+
+M&#228;rkning av utrustning
+
+17 &#167; Om bed&#246;mningen av &#246;verensst&#228;mmelse enligt 13 &#167; visar att 
+utrustningen uppfyller kraven, ska tillverkaren f&#246;rse den 
+f&#228;rdiga utrustningen med CE-m&#228;rkning innan den sl&#228;pps ut p&#229; 
+marknaden. 
+
+Best&#228;mmelser om CE-m&#228;rkning finns i lagen (2011:791) om 
+ackreditering och teknisk kontroll samt i artikel 30 i 
+Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 765/2008 av 
+den 9 juli 2008 om krav f&#246;r ackreditering och upph&#228;vande av 
+f&#246;rordning (EEG) nr 339/93. F&#246;rordning (2022:1181).
+
+18 &#167; Tillverkaren ska f&#246;rse utrustningen med 
+identifieringsm&#228;rkning samt tillverkarens namn, registrerade 
+f&#246;retagsnamn eller registrerade varum&#228;rke och en 
+kontaktadress. F&#246;rordning (2018:1845).
+
+19 &#167; Kemikalieinspektionen f&#229;r meddela ytterligare
+f&#246;reskrifter om m&#228;rkning av elektrisk och elektronisk
+utrustning.
+
+Tillverkares representant
+
+20 &#167; En tillverkare f&#229;r genom skriftlig fullmakt utse en
+fysisk eller juridisk person som &#228;r etablerad inom Europeiska
+unionen som sin representant att fullg&#246;ra tillverkarens
+skyldigheter enligt denna f&#246;rordning. Detta g&#228;ller dock inte i
+fr&#229;ga om skyldigheten att uppfylla de krav som f&#246;ljer av
+8–10 &#167;&#167; och f&#246;reskrifter som har meddelats med st&#246;d av 11 &#167;
+samt skyldigheten enligt 13 &#167; att ta fram teknisk
+dokumentation.
+
+21 &#167; Kemikalieinspektionen f&#229;r meddela f&#246;reskrifter om vad en
+fullmakt enligt 20 &#167; ska inneh&#229;lla.
+
+Skyldigheter f&#246;r import&#246;rer och distribut&#246;rer
+
+22 &#167; Det som s&#228;gs i denna f&#246;rordning om tillverkaren ska &#228;ven
+till&#228;mpas p&#229; en import&#246;r eller distribut&#246;r som
+
+1. sl&#228;pper ut eller tillhandah&#229;ller elektrisk eller
+elektronisk utrustning p&#229; marknaden i eget namn eller under
+eget varum&#228;rke, eller
+
+2. &#228;ndrar elektrisk eller elektronisk utrustning som redan har
+sl&#228;ppts ut p&#229; marknaden p&#229; ett s&#229;dant s&#228;tt att
+&#246;verensst&#228;mmelsen med till&#228;mpliga krav p&#229;verkas.
+
+23 &#167; Innan en import&#246;r sl&#228;pper ut elektrisk eller 
+elektronisk utrustning p&#229; marknaden ska import&#246;ren 
+
+1. f&#246;rvissa sig om att tillverkaren har gjort en bed&#246;mning av 
+&#246;verensst&#228;mmelse och tagit fram teknisk dokumentation enligt 
+13 &#167;, och 
+
+2. f&#246;rse utrustningen med sitt namn, registrerade 
+f&#246;retagsnamn eller registrerade varum&#228;rke och en 
+kontaktadress. F&#246;rordning (2018:1845).
+
+24 &#167; Import&#246;rer och distribut&#246;rer ska se till att elektrisk
+och elektronisk utrustning som de sl&#228;pper ut eller
+tillhandah&#229;ller p&#229; marknaden
+
+1. har f&#246;rsetts med CE-m&#228;rkning, identifieringsm&#228;rkning och
+annan m&#228;rkning som kr&#228;vs enligt denna f&#246;rordning eller
+f&#246;reskrifter som har meddelats med st&#246;d av f&#246;rordningen, och
+
+2. &#229;tf&#246;ljs av de dokument som kr&#228;vs enligt f&#246;reskrifter som
+har meddelats med st&#246;d av f&#246;rordningen.
+
+Dokumentation
+
+25 &#167; En tillverkare ska bevara sin EU-f&#246;rs&#228;kran om
+&#246;verensst&#228;mmelse och den tekniska dokumentation som ligger
+till grund f&#246;r bed&#246;mningen av &#246;verensst&#228;mmelse i tio &#229;r fr&#229;n
+det att den elektriska eller elektroniska utrustningen
+sl&#228;pptes ut p&#229; marknaden.
+
+26 &#167; En import&#246;r ska under tio &#229;r fr&#229;n det att den elektriska
+eller elektroniska utrustningen sl&#228;pptes ut p&#229; marknaden kunna
+uppvisa tillverkarens EU-f&#246;rs&#228;kran om &#246;verensst&#228;mmelse f&#246;r en
+tillsynsmyndighet och p&#229; myndighetens beg&#228;ran ge den tillg&#229;ng
+till den tekniska dokumentation som ligger till grund f&#246;r
+bed&#246;mningen av &#246;verensst&#228;mmelse.
+
+27 &#167; Kemikalieinspektionen f&#229;r meddela f&#246;reskrifter om att
+dokumentation ska finnas tillg&#228;nglig p&#229; visst spr&#229;k.
+
+Sp&#229;rbarhet
+
+28 &#167; I fr&#229;ga om elektrisk och elektronisk utrustning som en
+ekonomisk akt&#246;r hanterar ska akt&#246;ren under tio &#229;r fr&#229;n det att
+utrustningen sl&#228;pptes ut p&#229; marknaden p&#229; beg&#228;ran av en
+tillsynsmyndighet redovisa
+
+1. fr&#229;n vilken ekonomisk akt&#246;r som utrustningen har tagits
+emot, och
+
+2. till vilken ekonomisk akt&#246;r som utrustningen har
+levererats.
+
+Presumtion f&#246;r &#246;verensst&#228;mmelse
+
+29 &#167; Elektrisk och elektronisk utrustning ska f&#246;ruts&#228;ttas
+uppfylla de krav p&#229; utrustningens inneh&#229;ll som f&#246;ljer av
+8–10 &#167;&#167; och f&#246;reskrifter som har meddelats med st&#246;d av 11 &#167;, om
+
+1. utrustningen &#228;r CE-m&#228;rkt enligt 17 &#167;,
+
+2. tester och m&#228;tningar visar att utrustningen uppfyller
+kraven, eller
+
+3. utrustningen har bed&#246;mts enligt en harmoniserad standard
+f&#246;r s&#229;dan utrustning och Europeiska kommissionen har h&#228;nvisat
+till standarden i Europeiska unionens officiella tidning.
+
+30 &#167; Det som s&#228;gs om elektrisk och elektronisk utrustning i
+29 &#167; 2 och 3 ska till&#228;mpas ocks&#229; p&#229; material och komponenter
+till s&#229;dan utrustning.
+
+Skyldigheter vid bristande &#246;verensst&#228;mmelse
+
+31 &#167; En import&#246;r eller distribut&#246;r som trots 29 och 30 &#167;&#167; har
+anledning att anta att en elektrisk eller elektronisk
+utrustning inte &#246;verensst&#228;mmer med de krav som f&#246;ljer av
+8–10 &#167;&#167; och f&#246;reskrifter som har meddelats med st&#246;d av 11 &#167;,
+ska
+
+1. se till att utrustningen &#246;verensst&#228;mmer med kraven innan
+den sl&#228;pps ut eller tillhandah&#229;lls p&#229; marknaden, och
+
+2. underr&#228;tta tillverkaren och tillsynsmyndigheten om
+avvikelserna.
+
+En distribut&#246;r f&#229;r fullg&#246;ra skyldigheten enligt f&#246;rsta stycket
+2 genom att underr&#228;tta import&#246;ren i st&#228;llet f&#246;r tillverkaren.
+
+32 &#167; En tillverkare, import&#246;r eller distribut&#246;r som trots 29
+och 30 &#167;&#167; har anledning att anta att en elektrisk eller
+elektronisk utrustning som akt&#246;ren har sl&#228;ppt ut eller
+tillhandah&#229;llit p&#229; marknaden inte uppfyller de krav som avses
+i 7 &#167; ska omedelbart
+
+1. vidta &#229;tg&#228;rder f&#246;r att f&#229; utrustningen att &#246;verensst&#228;mma
+med kraven eller &#229;terkalla utrustningen, och
+
+2. underr&#228;tta tillsynsmyndigheten och de beh&#246;riga
+myndigheterna i de EU-medlemsstater d&#228;r akt&#246;ren har sl&#228;ppt ut
+eller tillhandah&#229;llit utrustningen samt upplysa myndigheterna
+om felaktigheten och vilka &#229;tg&#228;rder som vidtagits.
+
+33 &#167; Kemikalieinspektionen f&#229;r meddela f&#246;reskrifter om
+
+1. uppgifter som ska l&#228;mnas i en underr&#228;ttelse enligt 32 &#167;,
+och
+
+2. skyldighet f&#246;r ekonomiska akt&#246;rer att uppr&#228;tta register
+&#246;ver utrustning som inte &#246;verensst&#228;mmer med de krav som avses
+i 7 &#167;.
+
+Tillsyn
+
+34 &#167; Best&#228;mmelser om tillsyn finns i 26 kap. milj&#246;balken, 
+milj&#246;tillsynsf&#246;rordningen (2011:13) och Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2019/1020 av den 20 juni 2019 om 
+marknadskontroll och &#246;verensst&#228;mmelse f&#246;r produkter och om 
+&#228;ndring av direktiv 2004/42/EG och f&#246;rordningarna (EG) 
+nr 765/2008 och (EU) nr 305/2011.
+
+Best&#228;mmelser om det tillsynsansvar som h&#246;r samman med denna 
+f&#246;rordning finns i 2 kap. 4, 21, 22 och 31-34 &#167;&#167; 
+milj&#246;tillsynsf&#246;rordningen. F&#246;rordning (2022:1181).
+
+35 &#167; En ekonomisk akt&#246;r ska p&#229; tillsynsmyndighetens beg&#228;ran
+l&#228;mna de uppgifter som beh&#246;vs f&#246;r att unders&#246;ka om elektrisk
+eller elektronisk utrustning uppfyller de krav som avses i 7 &#167;
+och medverka till att &#229;tg&#228;rder vidtas f&#246;r att se till att
+utrustningen uppfyller kraven.
+
+Sanktioner
+
+36 &#167; Best&#228;mmelser om straff finns i 29 kap. milj&#246;balken och i
+17 &#167; lagen (2011:791) om ackreditering och teknisk kontroll.
+
+Best&#228;mmelser om milj&#246;sanktionsavgifter finns i f&#246;rordningen
+(2012:259) om milj&#246;sanktionsavgifter.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2012:861
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 2 januari 2013.
+
+2. Om inte n&#229;gon s&#228;rskild &#246;verg&#229;ngstid f&#246;reskrivs i punkterna
+3-6, f&#229;r elektrisk och elektronisk utrustning som ing&#229;r i
+n&#229;gon av kategorierna i 2 &#167; 8, 9 eller 11 tillhandah&#229;llas p&#229;
+marknaden till och med den 21 juli 2019, trots att
+utrustningen inte uppfyller kraven i denna f&#246;rordning eller
+f&#246;reskrifter som har meddelats med st&#246;d av f&#246;rordningen.
+
+3. Trots 8 &#167; f&#229;r medicintekniska produkter f&#246;r in vitro-
+diagnostik som avses i artikel 1.2 b i Europaparlamentets och
+r&#229;dets direktiv 98/79/EG av den 27 oktober 1998 om
+medicintekniska produkter f&#246;r in vitro-diagnostik, senast
+&#228;ndrat genom kommissionens direktiv 2011/100/EU, sl&#228;ppas ut p&#229;
+marknaden till och med den 21 juli 2016.
+
+4. Trots 8 &#167; f&#229;r medicintekniska produkter som avses i artikel
+1.2 a i r&#229;dets direktiv 93/42/EEG av den 14 juni 1993 om
+medicintekniska produkter, senast &#228;ndrat genom
+Europaparlamentets och r&#229;dets direktiv
+2007/47/EG, sl&#228;ppas ut p&#229; marknaden till och med den 21 juli
+2014.
+
+5. Trots 8 &#167; f&#229;r &#246;vervaknings- och kontrollinstrument sl&#228;ppas
+ut p&#229; marknaden till och med den 21 juli 2017, om instrumenten
+har utformats uteslutande f&#246;r industriell eller professionell
+anv&#228;ndning, och i &#246;vrigt till och med den 21 juli 2014.
+
+6. Har upph&#228;vts genom f&#246;rordning (2019:557).
+
+2016:1191
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 22 juli 2019.
+
+2. Trots f&#246;rbudet mot di(2-etylhexyl)ftalat, 
+butylbensylftalat, dibutylftalat eller diisobutylftalat i 8 &#167; 
+f&#229;r medicintekniska produkter och &#246;vervaknings- och 
+kontrollinstrument som inneh&#229;ller dessa &#228;mnen sl&#228;ppas ut p&#229; 
+marknaden till och med den 21 juli 2021.
+
+3. Trots f&#246;rbudet mot di(2-etylhexyl)ftalat, 
+butylbensylftalat, dibutylftalat eller diisobutylftalat i 8 &#167; 
+f&#229;r kablar och reservdelar som inneh&#229;ller dessa &#228;mnen sl&#228;ppas 
+ut p&#229; marknaden, om de &#228;r avsedda f&#246;r reparation, 
+&#229;teranv&#228;ndning, uppgradering av funktioner eller f&#246;rb&#228;ttrad 
+kapacitet av 
+
+a) utrustning som sl&#228;ppts ut p&#229; marknaden f&#246;re den 22 juli 
+2019, eller
+
+b) medicintekniska produkter eller &#246;vervaknings- eller 
+kontrollinstrument som har sl&#228;ppts ut p&#229; marknaden f&#246;re den 
+22 juli 2021.
+
+4. Har upph&#228;vts genom f&#246;rordning (2019:557).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1393">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1395">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

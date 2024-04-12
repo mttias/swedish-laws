@@ -1,0 +1,855 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2013-08-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3802</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3801">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3803">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1983:858 ·
+                    <a href="/sfsr?bet=1983:858">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1983:858) om dubbelbeskattningsavtal mellan Sverige och Bangladesh</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1983-10-20
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> Endast den svenska texten finns med i bilagorna. 
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1983-12-06
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 &#167; Lagen (1983:534) om dubbelbeskattningsavtal mellan Sverige och
+Bangladesh skall tr&#228;da i kraft den dag denna f&#246;rordning tr&#228;der i kraft
+och till&#228;mpas p&#229; utdelning som blir tillg&#228;nglig f&#246;r lyftning den 1
+januari 1984 eller senare och betr&#228;ffande andra inkomster vilka
+f&#246;rv&#228;rvas den 1 januari 1984 eller senare. Avtalet tr&#228;dde i kraft den
+19 augusti 1983.
+
+2 &#167; Vid till&#228;mpningen av dubbelbeskattningsavtalet skall iakttas de
+anvisningar som framg&#229;r av bilagorna 1 och 2.
+Bilaga 1
+
+
+Anvisningar till best&#228;mmelserna i avtalet
+
+till art. 1 och 4
+
+Avtalets best&#228;mmelser &#228;r i allm&#228;nhet till&#228;mpliga endast p&#229; fysiska och
+juridiska personer som har hemvist i Sverige eller Bangladesh.
+
+Huruvida en fysisk eller juridisk person skall anses ha hemvist i
+endera staten avg&#246;rs i f&#246;rsta hand med ledning av lagstiftningen i
+denna stat. I art. 4 punkterna 2 och 3 regleras fall av s.k. dubbel
+bos&#228;ttning, dvs. fall d&#228;r den skattskyldige enligt svenska
+beskattningsregler anses bosatt i Sverige och enligt bangladeshiska
+beskattningsregler anses bosatt i Bangladesh. Vid till&#228;mpningen av
+avtalet skall i s&#229;dana fall den skattskyldige anses ha hemvist endast
+i den avtalsslutande stat i vilken han har hemvist enligt n&#228;mnda
+avtalsbest&#228;mmelser.
+
+Person, som avses i 69 &#167; kommunalskattelagen (1928:370) och 17 &#167; lagen
+(1947:576) om statlig inkomstskatt och som tillh&#246;r svensk beskickning
+eller l&#246;nat svenskt konsulat i Bangladesh, skall vid till&#228;mpningen av
+art. 4 punkt 1 anses bosatt i Sverige.
+
+Person, som avses i 70 &#167; 1 mom. kommunalsskattelagen och 18 &#167; 1 mom.
+lagen om statlig inkomstskatt och som tillh&#246;r bangladshisk beskickning
+eller l&#246;nat bangladeshiskt konsulat i Sverige, skall vid till&#228;mpningen
+av art. 4 punkt 1 anses bosatt i Bangladesh.
+
+till art. 2
+
+Avtalet g&#228;ller de skatter som anges i art. 2. Ang&#229;ende annan
+beskattning se dock art. 24 punkt 5.
+
+till art. 6.
+
+Enligt svensk lagstiftning beskattas inkomst som h&#228;rr&#246;r fr&#229;n fast
+egendom i vissa fall som inkomst av r&#246;relse (jfr bl.a. 27 &#167;
+kommunalskattelagen (1928:370). Inkomst som omfattas av art. 6
+beskattas emellertid alltid i den stat d&#228;r den fasta egendomen &#228;r
+bel&#228;gen. Denna regel g&#228;ller &#228;ven betr&#228;ffande royalty fr&#229;n fast egendom
+eller f&#246;r nyttjandet av eller r&#228;tten att nyttja mineralf&#246;rekomst,
+k&#228;lla eller annan naturtillg&#229;ng.
+
+Annan royalty beskattas enligt art. 13.
+
+till art. 7
+
+Inkomst av r&#246;relse, som bedrivs fr&#229;n fast driftst&#228;lle, beskattas i
+regel enligt art. 7. Vad som f&#246;rst&#229;s med uttrycket &quot;fast driftst&#228;lle&quot;
+anges i art. 5.
+
+Om en fysisk eller juridisk person med hemvist i Sverige bedriver
+r&#246;relse fr&#229;n fast driftst&#228;lle i Bangladesh, f&#229;r den till driftst&#228;llet
+h&#228;nf&#246;rliga inkomsten beskattas i Sverige men bagladeshisk skatt p&#229;
+inkomsten avr&#228;knas fr&#229;n den svenska skatten enligt art. 23 punkt 2. I
+fr&#229;ga om avr&#228;kning i vissa fall d&#229; bangladeshisk skatt eftergivits
+(art. 23 punkt 4) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till
+anvisningspunkten 2 till art. 23.
+
+Inkomst av r&#246;relse, som en fysisk eller juridisk person med hemvist i
+Bangladesh bedriver fr&#229;n fast driftst&#228;lle i Sverige, ber&#228;knas enligt
+art. 7 punkterna 2-6. Till grund f&#246;r inkomstber&#228;kningen b&#246;r l&#228;ggas i
+f&#246;rsta hand den s&#228;rskilda bokf&#246;ring som kan ha f&#246;rts vid det fasta
+driftst&#228;llet. I m&#229;n av behov skall denna bokf&#246;ring justeras s&#229;, att
+inkomstber&#228;kningen sker i enlighet med den i punkterna 2 och 3 angivna
+principen. Avdrag medges f&#246;r s&#229; stor del av huvudkontorets allm&#228;nna
+omkostnader som sk&#228;ligen kan antas bel&#246;pa p&#229; det fasta driftst&#228;llet.
+
+I fr&#229;ga om inkomst av luftfart och sj&#246;fart i internationell trafik
+finns s&#228;rskilda best&#228;mmelser i art. 8 resp. art. 9.
+
+till art. 8
+
+Inkomst av luftfart i internationell trafik beskattas enligt art. 8
+punkt 1 endast i den stat d&#228;r f&#246;retaget har hemvist.
+
+till art. 9
+
+Om en fysisk eller juridisk person med hemvist i Sverige f&#246;rv&#228;rvar
+inkomst i Bangladesh av sj&#246;fart i internationell trafik, beskattas
+inkomsten i Sverige men bangladeshisk skatt p&#229; inkomsten avr&#228;knas fr&#229;n
+den svenska skatten. H&#228;rvid iakttas, att den bangladeshiska skatten
+har ber&#228;knats p&#229; inkomst som har f&#246;rv&#228;rvats genom befrodran av
+passagerare, post, kreatur eller gods som har utskeppats fr&#229;n
+Bangladesh samt att skatten satts ned till halva beloppet (art. 9
+punkt 1). I fr&#229;ga om avr&#228;kning i vissa fall av bangladeshisk skatt som
+eftergivits (art. 23 punkt 4) samt f&#246;rfarandet vid avr&#228;kningen
+h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+Om en fysisk eller judidisk person med hemvist i Bangladesh f&#246;rv&#228;rvar
+inkomst fr&#229;n Sverige av sj&#246;fart i internationell trafik, beskattas
+inkomsten h&#228;r, om det kan ske enligt g&#228;llande beskattningsregler. Vid
+ber&#228;kning av den svenska skatten skall dock f&#246;ljande g&#228;lla.
+
+Nettoint&#228;kten av sj&#246;fartsr&#246;relsen ber&#228;knas p&#229; vanligt s&#228;tt. Om den
+skattepliktiga nettoint&#228;kten har f&#246;rv&#228;rvats genom befordran av
+passagerare, post, kreatur eller gods som har utskeppats fr&#229;n Sverige
+skall s&#229;v&#228;l den statliga som den kommunala inkomstskatten som bel&#246;per
+p&#229; n&#228;mnda inkomst neds&#228;ttas till halva beloppet (art. 9 punkt 1).
+Taxeringsn&#228;mnd skall i deklarationen anteckna de uppgifter som beh&#246;vs
+f&#246;r debitering. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning
+f&#246;rs &#246;ver till skattel&#228;ngden.
+
+till art. 10
+
+Art. 10 inneh&#229;ller en allm&#228;n regel om omr&#228;kning av vinstf&#246;rdelningen
+mellan f&#246;retag med intressegemenskap. F&#246;r Sveriges del kan omr&#228;kning
+vid taxering ske enligt 43 &#167; kommunalskattelagen (1928:370).
+
+Om s&#229;dan omr&#228;kning sker mellan f&#246;retag i Sverige och Bangladesh, skall
+l&#228;nsstyrelsen anm&#228;la detta till regeringen och i korthet redog&#246;ra f&#246;r
+vad som f&#246;rekommit.
+
+till art. 11
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;utdelning&quot; anges i art. 11 punkt 3.
+
+2. N&#228;r en fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Bangladesh och utdelningen inte &#228;r
+h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med fast driftst&#228;lle
+eller stadigvarande anordning som den utdelningsber&#228;ttigade har i
+Bangladesh, iakttas best&#228;mmelserna i andra och tredje styckena.
+
+Om utdelningen uppb&#228;rs av aktiebolag eller ekonomisk f&#246;rening, &#228;r
+utdelningen undantagen fr&#229;n taxering i Sverige i den m&#229;n art. 11 punkt
+6 f&#246;ranleder det. De svenska best&#228;mmelserna om befrielse fr&#229;n
+skattskyldighet f&#246;r utdelning som avses i art. 11 punkt 6 finns i 54 &#167;
+kommunalskattelagen (1928:370) och 7 &#167; lagen (1947:576) om statlig
+inkomstskatt.
+
+I &#246;vriga fall ber&#228;knas svensk skatt p&#229; utdelningens bruttobelopp utan
+avdrag f&#246;r bangladeshisk skatt. Avdrag medges dock i vanlig ordning
+f&#246;r f&#246;rvaltningskostnader och r&#228;nta p&#229; skuld som bel&#246;per p&#229;
+utdelningen. Svensk skatt p&#229; utdelningen neds&#228;tts enligt art. 23 punkt
+2 genom avr&#228;kning av bangladeshisk skatt som uttagits enligt art. 11
+punkt 2. Den bangladeshiska skatten f&#229;r d&#228;rvid inte &#246;verstiga 15 %
+eller, i fall som avses i art. 11 punkt 2 a), 10 % av utdelningens
+bruttobelopp. I fr&#229;ga om avr&#228;kning i vissa fall d&#229; bangladeshisk skatt
+eftergivits (art. 23 punkt 4) samt f&#246;rfarandet vid avr&#228;kningen
+h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+3. N&#228;r en fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Bangladesh och utdelningen &#228;r
+h&#228;nf&#246;rig till andel, som &#228;ger verkligt samband med fast driftst&#228;lle
+eller stadigvarande anordning som den utdelningsber&#228;ttigade har i
+Bangladesh, till&#228;mpas art. 7 resp. art. 15. Utdelningen skall, om inte
+annat f&#246;ljer av art. 11 punkt 6, i detta fall beskattas i Sverige men
+bangladeshisk skatt p&#229; utdelningen avr&#228;knas fr&#229;n den svenska skatten
+enligt art. 23 punkt 2. I fr&#229;ga om avr&#228;kning i vissa fall d&#229;
+bangladeshisk skatt eftergivits (art. 23 punkt 4) samt f&#246;rfarandet vid
+avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+4. N&#228;r aktiebolag i Sverige verkst&#228;ller utdelning till en fysisk eller
+juridisk person med hemvist i Bangladesh och utdelningen inte &#228;r
+h&#228;nf&#246;rlig till andel som &#228;ger verkligt samband med fast driftst&#228;lle
+eller stadigvarande anordning som den utdelningsber&#228;ttigade har i
+Sverige, tas kupongskatt ut med 15 % eller, i fall som avses i art. 11
+punkt 2 a), 10 % av utdelningens bruttobelopp. Utdelning fr&#229;n svensk
+ekonomisk f&#246;rening beskattas i s&#229;dant fall enligt 6 &#167; 1 mom. a eller c
+lagen (1947:576) om statlig inkomstskatt men den statliga inkomst
+skatten f&#229;r inte &#246;verstiga 15 % eller, i fall som avses i art. 11
+punkt 2 a), 10 % av utdelningens bruttobelopp. Vid taxering till
+statlig inkomstskatt f&#246;r utdelning fr&#229;n svensk ekonomisk f&#246;rening
+skall taxeringsn&#228;mnd i deklarationen anteckna de uppgifter som beh&#246;vs
+f&#246;r debitering. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning
+f&#246;rs &#246;ver till skattel&#228;ngden.
+
+Ang&#229;ende f&#246;rfarandet vid neds&#228;ttning av svensk skatt p&#229; utdelning
+till&#228;mpas i &#246;vrigt s&#228;rskilda best&#228;mmelser; se bilaga 2.
+
+Om den som har r&#228;tt till utdelningen har fast driftst&#228;lle eller
+stadigvarande anordning i Sverige och utdelningen &#228;r h&#228;nf&#246;rlig till
+andel, som &#228;ger verkligt samband med det fasta driftst&#228;llet eller den
+sadigvarande anordningen, till&#228;mpas art. 7 resp. art. 15. I s&#229;dant
+fall g&#228;ller inte ovan angivna regler om begr&#228;nsning av svensk skatt p&#229;
+utdelning.
+
+till art. 12
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;r&#228;nta&quot; anges i art. 12 punkt 4.
+
+2. R&#228;nta, som betalas fr&#229;n Bangladesh till en fysisk eller juridisk
+person med hemvist i Sverige, beskattas h&#228;r.
+
+&#196;r r&#228;ntan inte h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt samband med
+fast driftst&#228;lle eller stadigvarande anordning, som den som har r&#228;tt
+till r&#228;ntan har i Bangladesh, ber&#228;knas svensk skatt p&#229; r&#228;ntas
+bruttobelopp utan avdrag f&#246;r bangladeshisk skatt. Avdrag medges dock i
+vanlig ordning f&#246;r f&#246;rvaltningskostnader. Svensk skatt p&#229; r&#228;ntan
+neds&#228;tts enligt art. 23 punkt 2 genom avr&#228;kning av bangladeshisk skatt
+som tagits ut enligt art. 12 punkt 2. Denna skatt f&#229;r inte &#246;verstiga
+15 % eller, i fall som avses i art. 12 punkt 2 a), 10 % av r&#228;ntans
+bruttobelopp. I fr&#229;ga om avr&#228;kning i vissa fall d&#229; bangladeshisk skatt
+eftergivits (art. 23 punkt 4) samt f&#246;rfarandet vid avr&#228;kningen
+h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+&#196;r r&#228;ntan h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt samband med fast
+driftst&#228;lle eller stadigvarande anordning som den som har r&#228;tt till
+r&#228;ntan har i Bangladesh, till&#228;mpas art. 7 resp. art. 15. Bangladeshisk
+skatt p&#229; r&#228;ntan avr&#228;knas i s&#229;dant fall fr&#229;n den svenska skatten enligt
+art. 23 punkt 2. I fr&#229;ga om avr&#228;kning i vissa fall d&#229; bangladeshisk
+skatt eftergivits (art. 23 punkt 4) samt f&#246;rfarandet vid avr&#228;kningen
+h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+3. R&#228;nta, som utbetalas fr&#229;n Sverige till en fysisk eller juridisk
+person med hemvist i Bangladesh, kan enligt g&#228;llande
+skattef&#246;rfattningar inte beskattas i Sverige. Detta g&#228;ller dock endast
+betr&#228;ffane r&#228;nta som utg&#246;r inkomst av f&#246;rv&#228;rvsk&#228;llan kapital. &#196;r
+r&#228;ntan att h&#228;nf&#246;ra till inkomst av r&#246;relse /jfr punkt 2 av
+anvisningarna till 28 &#167; kommunalskattelagen (1928:370)/, beskattas
+r&#228;ntan i Sverige - utom i fall som avses i art. 12 punkt 3 - under
+f&#246;ruts&#228;ttning att r&#228;ntan &#228;r h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt
+samband med fast driftst&#228;lle eller stadigvarande anordning som den som
+har r&#228;tt till r&#228;ntan har i Sverige (art. 12 punkt 5).
+
+till art. 13
+
+1. Betr&#228;ffande beskattning av s&#229;dan royalty som avses i art. 13 punkt
+3 g&#228;ller f&#246;ljande.
+
+Royalty, som utbetalas fr&#229;n Bangladesh till en fysisk eller juridisk
+person med hemvist i Sverige, beskattas h&#228;r.
+
+&#196;r royaltyn inte h&#228;nf&#246;rlig till r&#228;ttighet eller egendom, som &#228;ger
+verkligt samband med fast driftst&#228;lle eller stadigvarande anordning
+som den som har r&#228;tt till royaltyn har i Bangladesh, ber&#228;knas svensk
+skatt p&#229; royaltyns bruttobelopp utan avdrag f&#246;r bangladeshisk skatt.
+Avdrag medges dock i vanlig ordning f&#246;r f&#246;rvaltningskostnader. Svensk
+skatt p&#229; royaltyn neds&#228;tts enligt art. 23 punkt 2 genom avr&#228;kning av
+bangladeshisk skatt som tagits ut enligt art. 13 punkt 2. Denna skatt
+f&#229;r inte &#246;verstiga 10 % av royaltyns bruttobelopp. I fr&#229;ga om
+avr&#228;kning i vissa fall d&#229; bangladeshisk skatt eftergivits (art. 23
+punkt 4) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisnings
+punkten 2 till art. 23.
+
+&#196;r royaltyn h&#228;nf&#246;rlig till r&#228;ttighet eller egendom, som &#228;ger verkligt
+samband med fast driftst&#228;lle eller stadigvarande anordning som den som
+har r&#228;tt till royaltyn har i Bangladesh, till&#228;mpas art. 7 resp. art.
+15. Bangladeshisk skatt p&#229; royaltyn avr&#228;knas i s&#229;dant fall fr&#229;n den
+svenska skatten enligt art. 23 punkt 2. I fr&#229;ga om avr&#228;kning i vissa
+fall d&#229; bangladeshisk skatt eftergivits (art. 23 punkt 4) samt
+f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 23.
+
+Royalty, som utbetalas fr&#229;n Sverige till en fysisk eller juridisk
+person med hemvist i Bangladesh, beskattas i Sverige enligt 28 &#167; 1
+mom. kommunalskattelagen (1928:370) j&#228;mf&#246;rt med 2 och 3 &#167;&#167; lagen
+(1947:576) om statlig inkomstskatt. Om inte fall som avses i art. 13
+punkt 4 f&#246;religger, f&#229;r emellertid summan av den statliga och
+kommunala inkomstskatt som bel&#246;per p&#229; royaltyn inte &#246;verstiga 10 %  av
+royaltyns bruttobelopp. Vid till&#228;mpningen av denna maximeringsregel
+iakttas best&#228;mmelserna i f&#246;ljande stycke.
+
+Om inkomsttagaren uppb&#228;r &#228;ven annan inkomst fr&#229;n Sverige &#228;n royaltyn,
+anses p&#229; royaltyn bel&#246;pa s&#229; stor andel av hela den statliga
+inkomstskatten som royaltyn - efter avdrag f&#246;r kostnader som &#228;r
+h&#228;nf&#246;rliga till royaltyn - utg&#246;r av inkomsttagarens sammanlagda
+inkomst av olika f&#246;rv&#228;rvsk&#228;llor. Taxeringsn&#228;mnd skall i deklaration
+anteckna royaltyns bruttobelopp och i f&#246;rekommande fall den nyss
+angivna delen av den statliga inkomstskatten samt ange dels att summan
+av den enligt allm&#228;nna regler utr&#228;knade och p&#229; royaltyn bel&#246;pande
+statliga och kommunala inkomstskatten skall, om den &#246;verstiger 10 % av
+royaltyns bruttobelopp, neds&#228;ttas med det &#246;verskjutande beloppet, dels
+av den kommunala inkomstskatten f&#229;r nedbringas endast i den m&#229;n det
+&#246;verskjutande beloppet &#246;verstiger den statliga inkomstskatten.
+L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning f&#246;rs &#246;ver till
+skattel&#228;ngden.
+
+Exempel: En person med hemvist i Bangladesh uppb&#228;r royalty fr&#229;n
+Sverige med att bruttobelopp av 10 000 kronor. Till royaltyn
+h&#228;nf&#246;rliga avdragsgilla kostnader uppg&#229;r till 500 kronor. Den
+skattskyldige antas vidare uppb&#228;ra i Sverige skattepliktig nettoint&#228;kt
+av i Sverige lokaliserade f&#246;rv&#228;rvsk&#228;llor med ett belopp av 5 000
+kronor och vid taxeringen till statlig inkomstskatt &#229;tnjuta allm&#228;nna
+avdrag med 1 000 kronor. Den till statlig inkomstskatt taxerade
+inkomsten blir s&#229;lunda (9 500+5 000-1 000=) 13 500 kronor. I
+deklarationen antecknas: &quot;Enligt avtalet med Bangladesh skall den
+statliga resp. den kommunala inkomstskatten neds&#228;ttas med det beloppet
+                 9 500
+varmed summan av -------- av hela den statliga inkomstskatten och
+                 14 500
+den kommunala inkomstskatt, som bel&#246;per p&#229; 9 500 kronor, &#246;verstiger 10
+% av 10 000 kronor. Den kommunala inkomstskatten f&#229;r nedbringas endast
+                                                9 500
+i den m&#229;n det &#246;verskjutande beloppet &#246;verstiger -------- av hela den
+                                                14 500
+statliga inkomstskatten.&quot;
+
+Har den skattskyldige flera inkomster fr&#229;n utlandet kan vid
+avr&#228;kningsf&#246;rfarandet &#228;ven best&#228;mmelserna i 25 &#167; f&#246;rsta stycket lagen
+(1947:576) om statlig inkomstskatt blir till&#228;mpliga.
+
+2. Royalty eller annat belopp, som utbetalas s&#229;som ers&#228;ttning f&#246;r
+utnyttjandet av mineralf&#246;rekomst, k&#228;lla eller annan naturtillg&#229;ng,
+beskattas enligt art. 6.
+
+till art. 14
+
+Vinst, som en fysisk eller juridisk person med hemvist i Bangladesh
+f&#246;rv&#228;rvar genom avyttring av fast egendom i Sverige, beskattas h&#228;r
+(art. 14 punkt 1). Med fast egendom i Sverige likst&#228;lls aktier i bolag
+vars huvudsakliga tillg&#229;ngar utg&#246;rs av s&#229;dan fast egendom. Vidare
+beskattas i Sverige vinst genom icke yrkesm&#228;ssig avyttring av l&#246;s
+egendom som ing&#229;r i fast driftst&#228;lle eller stadigvarande anordning som
+person med hemvist i Bangladesh har h&#228;r (art. 14 punkt 2).
+
+Realisationsvinst, som f&#246;rv&#228;rvas av en fysisk eller juridisk person
+med hemvist i Sverige, beskattas h&#228;r. Enligt art. 14 punkt 1 f&#229;r
+bangladeshisk skatt tas ut p&#229; realisationsvinsten, om den avyttrade
+egendomen utg&#246;rs av fast egendom i Bangladesh eller av aktier i bolag
+vars huvudsakliga tillg&#229;ngar utg&#246;rs av s&#229;dan fast egendom. Motsvarande
+g&#228;ller enligt art. 14 punkt 2 i fr&#229;ga om l&#246;s egendom som ing&#229;r i fast
+driftst&#228;lle som inkomsttagaren har i Bangladesh, eller l&#246;s egendom som
+ing&#229;r i stadigvarande anordning f&#246;r attut&#246;va sj&#228;lvst&#228;ndig
+yrkesverksamhet vilken inkomsttagaren har i Bangladesh.
+
+Svensk skatt p&#229; realisationsvinsten neds&#228;tts enligt art. 23 punkt 2
+genom avr&#228;kning av den bangladeshiska skatt som i enlighet med
+best&#228;mmelserna i art. 14 p&#229;f&#246;rts samma vinst. I fr&#229;ga om f&#246;rfarandet
+vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+till art. 15
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;fritt yrke&quot; exemplifieras i art. 15
+punkt 2.
+
+2. Inkomst av fritt yrke eller annan sj&#228;lvst&#228;ndig verksamhet beskattas
+i regel endast i den stat d&#228;r den skattskyldige har hemvist. &#196;r
+inkomsten h&#228;nf&#246;rlig till verksamhet, som ut&#246;vas vid s&#229;dan
+stadigvarande anordning som avses i art. 15 punkt 1 a), eller vistas
+inkomsttagaren under mer &#228;n 120 dagar av beskattnings&#229;ret i den andra
+staten (art. 15 punkt 1 b), f&#229;r inkomsten skattas i den stat d&#228;r
+anordningen finns resp. inkomsttagaren vistas.
+
+Om en person med hemvist i Sverige f&#246;rv&#228;rvar inkomst av fritt yrke
+eller annan sj&#228;lvst&#228;ndig verksamhet vid stadigvarande anordning i
+Bangladesh eller vid vistelse d&#228;r under mer &#228;n 120 dagar av
+Bangladeshs beskattnings&#229;r, f&#229;r inkomsten beskattas i Sverige men
+bangladeshisk skatt p&#229; samma inkomst avr&#228;knas fr&#229;n den svenska skatten
+enligt art. 23 punkt 2. Ifr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas
+till anvisningspunkten 2 till art. 23.
+
+till art. 16
+
+Inkomst av enskild tj&#228;nst f&#229;r enligt art. 16 punkt 1 i regel beskattas
+i den stat d&#228;r arbetet utf&#246;rs. Undantag fr&#229;n denna regel f&#246;reskrivs i
+art. 16 punkterna 2 och 3 samt i art. 17, 19 och 21.
+
+Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av artister, musiker
+och idrottsm&#228;n m.fl., se anvisningarna till art. 18.
+
+till art. 17
+
+N&#228;r ett svensk bolag utbetalar styrelsearvode till en person med
+hemvist i Bangladesh, beskattas ers&#228;ttningen i Sverige, om det kan ske
+enligt g&#228;llande beskattningsregler. Har s&#229;dan ers&#228;ttning uppburits av
+en person med hemvist i Sverige fr&#229;n ett bolag med hemvist i
+Bangladesh, f&#229;r inkomsten beskattas i Sverige men bangladeshisk skatt
+p&#229; inkomsten avr&#228;knas fr&#229;n den svenska skatten enligt art. 23 punkt 2.
+I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten
+2 till art. 23.
+
+till art. 18
+
+Inkomst, som teater- eller filmsk&#229;despelare, radio- eller
+televisionsartister, musiker och liknande yrkesut&#246;vare samt idrottsm&#228;n
+f&#246;rv&#228;rvar genom sin yrkesverksamhet, beskattas enligt art. 18 punkt 1
+i den stat d&#228;r verksamheten ut&#246;vas utom i fall som avses i art. 18
+punkt 1 sista meningen. Detta g&#228;ller oavsett om inkomsten f&#246;rv&#228;rvas
+under ut&#246;vande av fritt yrke eller p&#229; grund av anst&#228;llning. Enligt
+art. 18 punkt 2 f&#229;r inkomsten i regel beskattas i den stat d&#228;r
+artisten eller idrottsmannen utf&#246;r arbetet, &#228;ven om ers&#228;ttningen
+utbetalas till annan person (t.ex. arbetsgivare hos vilken artisten
+eller idrottsmannen &#228;r anst&#228;lld) &#228;n artisten eller idrottsmannen
+sj&#228;lv. F&#246;r Sveriges vidkommande iakttas vid till&#228;mpningen av art. 18
+best&#228;mmelserna i 54 &#167; f&#246;rsta stycket c kommunalskattelagen (1928:370)
+och 7 &#167; f&#246;rsta stycket b lagen (1947:576) om statlig inkomstskatt.
+
+till art. 19
+
+Pension och annan liknande ers&#228;ttning t.ex. svensk folkpension och
+ATP, beskattas endast i den stat d&#228;r mottagaren har hemvist om inte
+best&#228;mmelserna i art. 20 punkt 2 f&#246;ranleder annat.
+
+till art. 20
+
+Ers&#228;ttning, med undantag f&#246;r pension, som utbetalas av n&#229;gon av
+staterna eller dess lokala myndigheter f&#246;r arbete i denna stats eller
+i dess lokala myndigheters tj&#228;nst beskattas enligt huvudregeln i art.
+20 punkt 1 a) endast i den stat varifr&#229;n ers&#228;ttningen utbetals. Har
+arbetet utf&#246;rts i den andra staten av person med hemvist i denna stat,
+beskattas emellertid ers&#228;ttningen enligt art. 20 punkt 1 b) endast i
+den staten, om mottagaren &#228;r medborgare i den staten eller inte fick
+hemvist d&#228;r uteslutande f&#246;r att utf&#246;ra ifr&#229;gavarande arbete.
+
+Pension, som utbetalas av n&#229;gon av staterna eller dess lokala
+myndigheter p&#229; grund av arbete som utf&#246;rts i denna stats eller dess
+lokala myndigheters tj&#228;nst, beskattas enligt art. 20 punkt 2 a) i
+regel endast i denna stat. Om mottagaren av pensionen &#228;r medborgare i
+den andra staten och har hemvist d&#228;r, beskattas emellertid pensionen
+enligt art. 20 punkt 2 b) endast i denna stat.
+
+Ers&#228;ttning (inkl. pension), som utbetalas f&#246;r tj&#228;nst utf&#246;rd i samband
+med r&#246;relse, som den utbetalande staten eller dess lokala myndigheter
+bedrivit, beskattas som inkomst p&#229; grund av enskild tj&#228;nst enligt art.
+16, 17 och 19.
+
+till art. 22
+
+Enligt art. 22 punkt 1 beskattas inkomst som inte har behandlats
+s&#228;rskilt i f&#246;reg&#229;ende artiklar i avtalet endast i den stat d&#228;r
+inkomsttagaren har hemvist. Om emellertid inkomsten h&#228;rr&#246;r fr&#229;n den
+andra staten f&#229;r inkomsten enligt art. 22 punkt 2 beskattas d&#228;r.
+
+Person med hemvist i Sverige, som uppb&#228;r inkomst som avses i art. 22
+punkt 2 och som h&#228;rr&#246;r fr&#229;n Bangladesh, beskattas h&#228;r f&#246;r s&#229;dan
+inkomst men bangladeshisk skatt p&#229; inkomsten avr&#228;knas fr&#229;n den svenska
+skatten enligt art. 23 punkt 2. I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen
+h&#228;nvisas till anvisningpunkten 2 till art. 23.
+
+till art. 23
+
+1. Inkomst fr&#229;n Sverige beskattas h&#228;r i den m&#229;n svenska
+skattef&#246;rfattningar f&#246;ranleder det och inskr&#228;nkning av skattskyldig
+heten inte f&#246;ljer av &#246;vriga artiklar. Om inkomsten kan beskattas &#228;ven
+i Bangladesh, medges l&#228;ttnad vid en bangladeshiska beskattningen
+enligt art. 23 punkt 1.
+
+2. Inkomst fr&#229;n Bangladesh, som uppb&#228;rs av en person med hemvist i
+Sverige, tas med vid taxering i Sverige med undantag f&#246;r utdelning i
+vissa fall fr&#229;n bolag i Bangladesh. I fr&#229;ga om s&#229;dan utdelning, se
+punkt 2 andra stycket av anvisningarna till art. 11. Svensk skatt p&#229;
+inkomsten s&#228;tts ned genom avr&#228;kning enligt art. 23 punkt 2, om inte
+fall f&#246;religger som anges i anvisningspunkten 3.
+
+Svensk inkomstskatt ber&#228;knas p&#229; inkomstens bruttobelopp utan avdrag
+f&#246;r bangladeshisk skatt som omfattas av avtalet. Avdrag medges i
+vanlig ordning f&#246;r kostnader som h&#228;nf&#246;r sig till inkomsten. Fr&#229;n den
+s&#229;lunda ber&#228;knade svenska skatten avr&#228;knas enligt art. 23 punkt 2
+ett belopp motsvarande den bangladeshiska skatt som bel&#246;per p&#229;
+inkomsten. Betr&#228;ffande storleken av bangladeshisk skatt p&#229;
+utdelning, r&#228;nta och royalty h&#228;nvisas till anvisningspunkten 2 till
+art. 11, anvisningspunkten 2 till art. 12 resp. anvisningspunkten 1
+till art. 13. Vidare iakttas att i fall som avses i art. 23 punkt 4
+h&#246;gre bangladeshisk skatt skall avr&#228;knas &#228;n vad som utg&#229;tt p&#229;
+inkomsten i fr&#229;ga. Har bangladeshisk skatt enligt avtalet tagits ut p&#229;
+inkomst av r&#246;relse som har bedrivits i Bangladesh, iakttas att
+inkomsten ber&#228;knats enligt art. 7.
+
+Den skattskyldige b&#246;r i samband med sin sj&#228;lvdeklaration f&#246;r det
+beskattnings&#229;r, f&#246;r vilket inkomsten tas upp till beskattning, f&#246;rete
+bevis eller annan utredning om den bangladeshiska skatt som har
+p&#229;f&#246;rts inkomsten.
+
+Avr&#228;kning av bangladeshisk inkomstskatt f&#229;r ske med belopp motsvarande
+h&#246;gst summan av de svenska skatter som bel&#246;per p&#229; inkomsten. Vid
+till&#228;mpningen av denna regel anses p&#229; inkomsten fr&#229;n Bangladesh bel&#246;pa
+s&#229; stor andel av hela den statliga inkomstskatten som inkomsten -
+efter avdrag f&#246;r kostnader - utg&#246;r av den skattskyldiges sammanlagda
+inkomst av olika f&#246;rv&#228;rvsk&#228;llor. Kommunal inkomstskatt anses bel&#246;pa p&#229;
+inkomst fr&#229;n Bangladesh till s&#229; stor andel som inkomsten - efter
+avdrag f&#246;r kostnder - utg&#246;r av den skattskyldiges sammanlagda inkomst
+av olika f&#246;rv&#228;rvsk&#228;llor som skall taxeras i samma kommun som inkomsten
+fr&#229;n Bangladesh.
+
+Avr&#228;kning sker i f&#246;rsta hand fr&#229;n den statliga inkomstskatten. F&#246;rsl&#229;r
+ej denna, avr&#228;knas &#229;terstoden fr&#229;n kommunal inkomstskatt som bel&#246;per
+p&#229; inkomsten.
+
+Taxeringsn&#228;mnd skall i deklaration anteckna motv&#228;rdet i svenska kronor
+av den bangladeshiska skatten p&#229; inkomsten och ange att avr&#228;kning
+skall ske med detta skattebelopp, dock h&#246;gst med beloppet av de
+svenska skatterna p&#229; inkomsten. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att
+anteckning om avr&#228;kning g&#246;rs i skattel&#228;ngden.
+
+Exempel: En person med hemvist i Sverige uppb&#228;r inkomst av fast
+egendom i Bangladesh med ett belopp av 10 000 kronor. P&#229; inkomsten
+antas bel&#246;pa bangladeshisk skatt med ett belopp av 1 500 kronor.
+Avdragsgilla kostnader uppg&#229;r till 500 kronor. Den skattskyldige antas
+vidare uppb&#228;ra nettoint&#228;kter av i Sverige lokaliserade f&#246;rv&#228;rvsk&#228;llor
+med ett belopp av 90 000 kronor och vid taxeringen till statlig
+inkomstskatt &#229;tnjuta allm&#228;nna avdra med 10 000 kronor. Den till
+statlig inkomstskatt taxerade inkomsten blir s&#229;lunda (9 500+90 000 -
+10 000=) 89 500 kronor. I deklarationen antecknas: &quot;Avr&#228;kning fr&#229;n
+inkomstskatt enligt avtalet med Bangladesh skall ske med 1 500
+kronor, dock h&#246;gst med summan av den
+kommunla inkomstskatt, som bel&#246;per
+                     9 500
+p&#229; 9 500 kronor, och -------  av hela den statliga inkomstskatten.
+                     99 500
+Avr&#228;kning sker i f&#246;rsta hand fr&#229;n den statliga inkomstskatten.&quot;
+
+Har den skattskyldige flera inkomster fr&#229;n utlandet kan vid
+avr&#228;kningsf&#246;rfarandet &#228;ven best&#228;mmelserna i 25 &#167; f&#246;rsta stycket lagen
+(1947:576) om statlig inkomstskatt bli till&#228;mpliga.
+
+3. Om en person med hemvist i Sverige uppb&#228;r inkomst som enligt art.
+20 punkt 1 a) eller punkt 2 a) skall beskattas endast i Bangladesh,
+medtas inkomsten vid taxering i Sverige. Statlig och kommunal
+inkomstskatt utr&#228;knas i vanlig ordning. De s&#229;lunda utr&#228;knade
+inkomstskatterna s&#228;tts ned med ett belopp motsvarande den del av
+inkomstskatterna som vid en proportionell ber&#228;kning bel&#246;per p&#229; den
+inkomst som enligt avtalet skall beskattas endast i Bangladesh.
+
+Exempel: En bangladeshisk medborgare med hemvist i Sverige uppb&#228;r
+pension fr&#229;n bangladeshiska staten med ett belopp som efter avdrag f&#246;r
+kostnader motsvarar 10 050 kronor. Den skattskyldige antas uppb&#228;ra i
+Sverige skattepliktiga nettoint&#228;kter av andra f&#246;rv&#228;rvsk&#228;llor med 50
+000 kronor samt &#229;tnjuta allm&#228;nna avdrag och grundavdrag med 4 500
+kronor resp. 7 500 kronor. Den beskattningsbara inkomsten blir
+statligt (10 050+50 000-4 500=) 55 500 kronor och kommunalt (10 050+50
+000-4 500-7 500=)48 000 kronor, sedan avrundning skett. Hade pensionen
+inte medr&#228;knats skulle den beskattningsbara inkomsten ha blivit
+statligt (50 000-4 500=) 45 500 kronor och kommunalt (50 000-4 500-7
+500=) 38 000 kronor. Den statliga och kommunala inkomstskatten
+                                                     55 500-45 500
+ber&#228;knad p&#229; 55 500 resp. 48 000 kronor, neds&#228;tts med -------------
+                                                         55 500
+      48 000-38 000
+resp. -------------.
+         48 000
+
+I fall som nu n&#228;mnts skall taxeringsn&#228;mnd i deklarationen anteckna
+grunden f&#246;r utr&#228;kningen av inkomstskatterna. L&#228;ngdf&#246;rande myndighet
+svarar f&#246;r att anteckning om neds&#228;ttning g&#246;rs i skattel&#228;ngden.
+
+till art. 24
+
+Av art. 24 punkterna 2 och 5 f&#246;ljer att bolag i Bangladesh inte f&#229;r
+p&#229;f&#246;ras f&#246;rm&#246;genhetsskatt i Sverige. Best&#228;mmelsen inneb&#228;r ett undantag
+fr&#229;n regeln i 6 &#167; 1 mom. f&#246;rsta stycket c lagen (1947:577) om statlig
+f&#246;rm&#246;genhetsskatt.
+
+Bilaga 2
+
+
+Anvisningar om kupongskatt, m.m.
+
+Kupongskatt f&#246;r person med hemvist i Bangladesh
+
+1. Den som enligt lagen (1983:534) om dubbelbeskattningsavtal mellan
+Sverige och Bangladesh har hemvist i Bangladesh kan, under de
+f&#246;ruts&#228;ttningar som anges i art. 11 i avtalet, f&#229; neds&#228;ttning av den
+skatt p&#229; utdelning som annars skulle utg&#229; enligt kupongskattelagen
+(1970:624).
+
+2. Om r&#228;tt till neds&#228;ttning f&#246;religger enligt art. 11 i avtalet tas
+kupongskatt ut efter den skattesats som anges d&#228;r. I &#246;vrigt skall den
+som betalar utdelningen till&#228;mpa best&#228;mmelserna i kupongskattelagen
+(1970:624) och kupongskattekung&#246;relsen (1971:49).
+
+S&#229;lunda g&#228;ller att uppgifter enligt 14 &#167; kupongskattelagen (1970:624)
+skall l&#228;mnas d&#229; det &#228;r fr&#229;ga om utdelning fr&#229;n aktiebolag eller
+aktiefond som avses i 13 &#167; samma lag. Som ytterligare f&#246;ruts&#228;ttning
+f&#246;r neds&#228;ttning av kupongskatten p&#229; s&#229;dan utdelning g&#228;ller att
+utbetalaren genom intyg av bangladeshisk myndighet eller bank i
+Bangladesh visar att den utdelningsber&#228;ttigade har hemvist i
+Bangladesh.
+
+3. Har kupongskatt inneh&#229;llits med h&#246;gre belopp &#228;n den skatteskyldige
+skall erl&#228;gga enligt lagen (1983:534) om dubbelbeskattningsavtal
+mellan Sverige och Bangladesh, kan den skattskyldige f&#229; ut det f&#246;r
+h&#246;gt uttagna beloppet (restitution) efter ans&#246;kan hos riksskatteverket
+enligt 27 &#167; kupongskattelagen (1970:624).
+
+4. Riksskatteverkets beslut i &#228;rende om restitution f&#229;r &#246;verklagas p&#229;
+det s&#228;tt som anges i 29 &#167; kupongskattelagen (1970:624).
+
+Statlig inkomstskatt p&#229; utdelning fr&#229;n svensk ekonomisk f&#246;rening till
+person med hemvist i Bangladesh
+
+5. Den som enligt lagen (1983:534) om dubbelbeskattningsavtal mellan
+Sverige och Bangladesh har hemvist i Bangladesh och som enligt 6 &#167; 1
+mom. a och c lagen (1947:576) om statlig inkomstskatt &#228;r skattskyldig
+i Sverige f&#246;r utdelning p&#229; andel i svensk ekonomisk f&#246;rening kan
+erh&#229;lla neds&#228;ttning av statlig inkomstskatt enligt art. 11 i avtalet
+under de f&#246;ruts&#228;ttningar som anges d&#228;r.
+
+6. Ans&#246;kan om neds&#228;ttning g&#246;rs hos den taxeringsn&#228;mnd som taxerar den
+utdelningsber&#228;ttigade till statlig inkomstskatt f&#246;r det &#229;r d&#229;
+utdelningen beskattas eller, om taxeringsn&#228;mnndens arbete betr&#228;ffande
+taxeringen detta &#229;r avslutats, hos den domstol som handl&#228;gger besv&#228;r
+&#246;ver n&#228;mnda taxering. Ans&#246;kan b&#246;r g&#246;ras f&#246;re utg&#229;ngen av tredje
+kalender&#229;ret efter det d&#229; utdelningen blev tillg&#228;ngliga f&#246;r lyftning.
+
+I samband med ans&#246;kningen skall den utdelningsber&#228;ttigade genom intyg
+fr&#229;n bangladeshisk myndighet eller bank i Bangladesh visa att han har
+hemvist i Bangladesh.
+
+7. Beslut i &#228;rende som avses i punkt 6 f&#229;r &#246;verklagas p&#229; det s&#228;tt om
+anges i taxeringslagen (1956:623) och f&#246;rvaltningsprocesslagen
+(1971:291).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3801">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3803">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

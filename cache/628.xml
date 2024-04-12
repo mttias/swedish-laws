@@ -1,0 +1,818 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-11" /> 
+ <meta id="rattsinfo-edited" content="2023-01-11 13:14:49" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>628</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=627">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=629">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2018:1939 ·
+                    <a href="/sfsr?bet=2018:1939">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2018:1939) om invasiva fr&#228;mmande arter</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2018-11-22
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2019-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om invasiva 
+fr&#228;mmande arter. Den kompletterar Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) nr 1143/2014 av den 22 oktober 2014 om 
+f&#246;rebyggande och hantering av introduktion och spridning av 
+invasiva fr&#228;mmande arter.
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 
+
+– 8 kap. 4 &#167; milj&#246;balken i fr&#229;ga om 10 och 19 &#167;&#167;, 22 &#167; f&#246;rsta 
+stycket, 26 &#167;, 27 &#167; f&#246;rsta stycket, 28 &#167; f&#246;rsta stycket, 35 &#167; 
+f&#246;rsta stycket, 39 &#167;, 46 &#167; f&#246;rsta stycket, 48 &#167;, 49 &#167; f&#246;rsta 
+stycket, 50 &#167; och 51 &#167; f&#246;rsta stycket,
+
+– 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 9 &#167; f&#246;rsta stycket 
+och 55 &#167;, och
+
+– 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga 
+best&#228;mmelser.
+Ordf&#246;rklaringar
+
+2 &#167; Ord och uttryck i denna f&#246;rordning har samma betydelse 
+som i f&#246;rordning (EU) nr 1143/2014.
+
+3 &#167; Med den ansvariga myndigheten avses i denna 
+f&#246;rordning
+1. Naturv&#229;rdsverket i fr&#229;ga om arter som lever p&#229; land, och
+
+2. Havs- och vattenmyndigheten i fr&#229;ga om arter som lever i 
+vatten.
+
+4 &#167; I denna f&#246;rordning avses med
+
+unionsf&#246;rteckningen: den f&#246;rteckning &#246;ver invasiva fr&#228;mmande 
+arter av unionsbetydelse som avses i artikel 4 i f&#246;rordning 
+(EU) nr 1143/2014, och
+
+den nationella f&#246;rteckningen: den f&#246;rteckning &#246;ver invasiva 
+fr&#228;mmande arter av medlemsstatsbetydelse f&#246;r Sverige som 
+best&#228;ms enligt denna f&#246;rordning.
+
+Riskbed&#246;mning
+
+5 &#167; Den ansvariga myndigheten ska g&#246;ra de riskbed&#246;mningar 
+som beh&#246;vs enligt artikel 5.2 andra stycket i f&#246;rordning (EU) 
+nr 1143/2014.
+
+N&#228;r en riskbed&#246;mning g&#246;rs ska den ansvariga myndigheten ge 
+ber&#246;rda myndigheter tillf&#228;lle att yttra sig. 
+
+6 &#167; Om en riskbed&#246;mning visar att en art b&#246;r tas upp i 
+unionsf&#246;rteckningen, ska den ansvariga myndigheten l&#228;mna 
+riskbed&#246;mningen till regeringen tillsammans med uppgifter om 
+
+1. hur kriterierna i artikel 4.3 i f&#246;rordning (EU) nr 
+1143/2014 uppfylls, och 
+
+2. hur ett upptagande i unionsf&#246;rteckningen &#228;r f&#246;renligt med 
+V&#228;rldshandelsorganisationens (WTO:s) avtal om sanit&#228;ra och 
+fytosanit&#228;ra &#229;tg&#228;rder (SPS-avtalet).
+
+Innan uppgifter enligt f&#246;rsta stycket 2 l&#228;mnas till 
+regeringen ska den ansvariga myndigheten ge Kommerskollegium 
+tillf&#228;lle att yttra sig.
+
+F&#246;rbud och undantag f&#246;r arter i unionsf&#246;rteckningen
+
+7 &#167; Best&#228;mmelser om f&#246;rbud som avser invasiva fr&#228;mmande 
+arter i unionsf&#246;rteckningen finns i artikel 7.1 i f&#246;rordning 
+(EU) nr 1143/2014. 
+
+I samma f&#246;rordning finns det best&#228;mmelser om att det trots 
+f&#246;rbuden &#228;r m&#246;jligt att
+
+1. ge tillst&#229;nd till viss hantering av s&#229;dana arter 
+(artiklarna 8 och 9), 
+
+2. i enlighet med beslutade hanterings&#229;tg&#228;rder hantera s&#229;dana 
+arter som omfattas av ett beslut om att avst&#229; fr&#229;n utrotning 
+och s&#229;dana arter som konstaterats ha stor spridning 
+(artiklarna 18 och 19), och
+
+3. under s&#228;rskilda f&#246;ruts&#228;ttningar ha s&#229;dana arter som 
+s&#228;llskapsdjur eller kommersiellt hantera s&#229;dana arter 
+(artiklarna 31 och 32).
+
+Tillst&#229;nd till viss hantering av arter i 
+unionsf&#246;rteckningen
+
+8 &#167; Den ansvariga myndigheten
+
+1. f&#229;r ge tillst&#229;nd som avses i artiklarna 8.1 och 9.1 i 
+f&#246;rordning (EU) nr 1143/2014, 
+
+2. f&#229;r &#229;terkalla ett s&#229;dant tillst&#229;nd enligt artikel 8.5 i 
+f&#246;rordningen, och
+
+3. ska offentligg&#246;ra information om givna tillst&#229;nd enligt 
+artikel 8.7 i f&#246;rordningen.
+
+
+9 &#167; Den ansvariga myndigheten f&#229;r inom sitt ansvarsomr&#229;de 
+meddela f&#246;reskrifter om verkst&#228;lligheten av 8 &#167;.
+
+Myndigheten ska ge Tullverket tillf&#228;lle att yttra sig innan 
+f&#246;reskrifterna meddelas.
+
+10 &#167; Om ett tillst&#229;nd enligt 8 &#167; 1 har &#229;terkallats eller 
+l&#246;pt ut eller om verksamhetsut&#246;varen bryter mot ett villkor i 
+tillst&#229;ndet, f&#229;r l&#228;nsstyrelsen besluta att delar av eller 
+hela exemplar av ett djur, en v&#228;xt eller en organism som 
+omfattas av tillst&#229;ndet ska avlivas, f&#246;rst&#246;ras eller hanteras 
+p&#229; n&#229;got annat s&#228;tt som f&#246;rhindrar introduktion eller 
+begr&#228;nsar spridning av arten.
+
+Om beslutet inte f&#246;ljs, f&#229;r l&#228;nsstyrelsen se till att det 
+verkst&#228;lls p&#229; verksamhetsut&#246;varens bekostnad.
+
+N&#246;d&#229;tg&#228;rder i fr&#229;ga om arter som inte finns i 
+unionsf&#246;rteckningen
+
+11 &#167; Om det i fr&#229;ga om en art som inte finns i 
+unionsf&#246;rteckningen uppkommer en s&#229;dan situation som avses i 
+artikel 10.1 i f&#246;rordning (EU) nr 1143/2014, ska den 
+ansvariga myndigheten underr&#228;tta regeringen och f&#246;resl&#229; vilka 
+n&#246;d&#229;tg&#228;rder i form av f&#246;rbud enligt artikel 7 i samma 
+f&#246;rordning som b&#246;r g&#228;lla f&#246;r arten.
+
+12 &#167; Den ansvariga myndigheten ska underr&#228;tta Europeiska 
+kommissionen och Europeiska unionens medlemsstater enligt 
+artikel 10.2 och g&#246;ra den riskbed&#246;mning som kr&#228;vs enligt 
+artikel 10.3 i f&#246;rordning (EU) nr 1143/2014.
+
+13 &#167; Om en art som avses i 11 &#167; inte kan tas upp i 
+unionsf&#246;rteckningen men situationen i &#246;vrigt &#228;r s&#229;dan att 
+n&#246;d&#229;tg&#228;rder b&#246;r vidtas, ska den ansvariga myndigheten
+
+1. i underr&#228;ttelsen till regeringen informera om detta, och
+
+2. vidta de &#229;tg&#228;rder som beh&#246;vs f&#246;r att arten ska kunna tas 
+upp i den nationella f&#246;rteckningen.
+
+Arter som b&#246;r tas upp i den nationella f&#246;rteckningen
+
+14 &#167; Den ansvariga myndigheten ska till regeringen f&#246;resl&#229; 
+
+1. de arter som b&#246;r tas upp i den nationella f&#246;rteckningen 
+och vad som b&#246;r g&#228;lla f&#246;r dem, och
+
+2. de arter i den nationella f&#246;rteckningen som b&#246;r omfattas 
+av ett ut&#246;kat regionalt samarbete enligt artikel 11 i 
+f&#246;rordning (EU) nr 1143/2014.
+
+F&#246;r varje art som f&#246;resl&#229;s enligt f&#246;rsta stycket 1 ska den 
+ansvariga myndigheten g&#246;ra en riskbed&#246;mning motsvarande den 
+som avses i artikel 5.1 i f&#246;rordning (EU) nr 1143/2014. 
+Myndigheten ska redovisa sk&#228;len f&#246;r att bed&#246;ma arten som en 
+invasiv fr&#228;mmande art och f&#246;r att ta upp den i den nationella 
+f&#246;rteckningen.
+
+F&#246;r f&#246;rslag om vad som ska g&#228;lla f&#246;r en art ska det finnas en 
+konsekvensutredning och en bed&#246;mning av f&#246;rslagets 
+f&#246;renlighet med V&#228;rldshandelsorganisationens (WTO:s) avtal om 
+sanit&#228;ra och fytosanit&#228;ra &#229;tg&#228;rder (SPS-avtalet).
+
+15 &#167; Innan den ansvariga myndigheten f&#246;resl&#229;r vad som ska 
+g&#228;lla f&#246;r en art som b&#246;r tas upp i den nationella 
+f&#246;rteckningen ska myndigheten ge 
+
+1. Skogsstyrelsen, Statens jordbruksverk och andra ber&#246;rda 
+myndigheter tillf&#228;lle att yttra sig, och
+
+2. Sametinget tillf&#228;lle att yttra sig, om f&#246;rslaget kan antas 
+ha betydelse f&#246;r renn&#228;ringen eller samisk kultur.
+
+I 5 &#167; f&#246;rordningen (1994:2029) om tekniska regler finns 
+best&#228;mmelser om skyldighet att samr&#229;da med Kommerskollegium 
+om utformningen av en teknisk regel, n&#228;r det kan finnas risk 
+f&#246;r att regeln f&#229;r handelshindrande verkningar.
+
+16 &#167; Om en skogstr&#228;dart som anv&#228;nds f&#246;r virkesproduktion 
+b&#246;r tas upp i den nationella f&#246;rteckningen eller omfattas av 
+ett ut&#246;kat regionalt samarbete, ska 
+
+1. Skogsstyrelsen ta fram ett f&#246;rslag om vad som ska g&#228;lla 
+f&#246;r den arten p&#229; mark som omfattas av skogsv&#229;rdslagen 
+(1979:429) och l&#228;mna f&#246;rslaget till den ansvariga 
+myndigheten, och
+
+2. den ansvariga myndigheten i sitt f&#246;rslag till regeringen 
+ocks&#229; redovisa Skogsstyrelsens f&#246;rslag, eventuella skillnader 
+mellan myndigheternas f&#246;rslag och sk&#228;len f&#246;r f&#246;rslagen.
+
+Arters spridningsv&#228;gar
+
+17 &#167; Den ansvariga myndigheten ska vidta de &#229;tg&#228;rder i 
+fr&#229;ga om arters spridningsv&#228;gar som kr&#228;vs enligt artikel 13 i 
+f&#246;rordning (EU) nr 1143/2014.
+
+ Innan myndigheten beslutar att anta eller &#228;ndra en 
+handlingsplan f&#246;r en arts spridningsv&#228;gar ska myndigheten ge 
+
+1. Skogsstyrelsen, Statens jordbruksverk och andra ber&#246;rda 
+myndigheter tillf&#228;lle att yttra sig, och
+
+2. Sametinget tillf&#228;lle att yttra sig, om handlingsplanen kan 
+antas ha betydelse f&#246;r renn&#228;ringen eller samisk kultur.
+
+Best&#228;mmelser om allm&#228;nhetens deltagande finns i artikel 26 i 
+f&#246;rordning (EU) nr 1143/2014. Best&#228;mmelser om strategiska 
+milj&#246;bed&#246;mningar finns i 6 kap. milj&#246;balken och i 
+milj&#246;bed&#246;mningsf&#246;rordningen (2017:966).
+
+&#214;vervakningssystem 
+
+18 &#167; Den ansvariga myndigheten ska se till att det f&#246;r 
+arter i unionsf&#246;rteckningen finns ett s&#229;dant 
+&#246;vervakningssystem som avses i artikel 14 i f&#246;rordning (EU) 
+nr 1143/2014.
+
+19 &#167; Om en statlig f&#246;rvaltningsmyndighet eller kommun som 
+ansvarar f&#246;r eller utf&#246;r milj&#246;&#246;vervakning f&#229;r k&#228;nnedom om att 
+en art i unionsf&#246;rteckningen finns i milj&#246;n, ska myndigheten 
+eller kommunen skyndsamt underr&#228;tta den ansvariga 
+myndigheten.
+
+Offentliga kontroller
+
+20 &#167; Livsmedelsverket ska utf&#246;ra de kontroller som avses i 
+artikel 15.2 i f&#246;rordning (EU) nr 1143/2014 i fr&#229;ga om de 
+kategorier av varor som
+
+1. &#228;r levande animaliska livsmedel f&#246;r omedelbar konsumtion, 
+eller
+
+2. ska anm&#228;las till Livsmedelsverket enligt f&#246;reskrifter 
+meddelade med st&#246;d av denna f&#246;rordning eller enligt 
+n&#246;d&#229;tg&#228;rder som regeringen har beslutat om enligt artikel 
+10.1 i f&#246;rordning (EU) nr 1143/2014.
+
+
+21 &#167; Statens jordbruksverk ska utf&#246;ra de kontroller som 
+avses i artikel 15.2 i f&#246;rordning (EU) nr 1143/2014 i fr&#229;ga 
+om de kategorier av varor som
+
+1. &#228;r f&#246;rem&#229;l f&#246;r v&#228;xtskyddskontroll eller veterin&#228;r 
+gr&#228;nskontroll inf&#246;r import, eller
+
+2. ska anm&#228;las till Jordbruksverket enligt f&#246;reskrifter 
+meddelade med st&#246;d av denna f&#246;rordning eller enligt 
+n&#246;d&#229;tg&#228;rder som regeringen har beslutat om enligt artikel 
+10.1 i f&#246;rordning (EU) nr 1143/2014.
+
+22 &#167; Livsmedelsverket och Statens jordbruksverk f&#229;r i 
+samband med kontroll enligt artikel 15 i f&#246;rordning (EU) nr 
+1143/2014 h&#229;lla kvar en art som 
+
+1. finns i unionsf&#246;rteckningen, eller 
+
+2. omfattas av n&#246;d&#229;tg&#228;rder som regeringen beslutat.
+
+N&#228;r Livsmedelsverket eller Jordbruksverket h&#229;ller kvar en art 
+ska myndigheten utan dr&#246;jsm&#229;l underr&#228;tta den ansvariga 
+myndigheten.
+
+23 &#167; N&#228;r of&#246;rtullade arter som omfattas av inf&#246;rself&#246;rbud 
+enligt artikel 7 i f&#246;rordning (EU) nr 1143/2014 h&#229;lls kvar, 
+ska Tullverket utan dr&#246;jsm&#229;l underr&#228;tta
+
+1. Livsmedelverket och Statens jordbruksverk enligt den 
+f&#246;rdelning av kontrollansvar som f&#246;ljer av 20 och 21 &#167;&#167;, 
+och
+
+2. den ansvariga myndigheten.
+
+24 &#167; Of&#246;rtullade levande djur som h&#229;lls kvar p&#229; grund av 
+att de omfattas av inf&#246;rself&#246;rbud enligt artikel 7 i 
+f&#246;rordning (EU) nr 1143/2014 ska f&#246;rvaras i en anl&#228;ggning som 
+&#228;r godtagbar fr&#229;n djurskyddssynpunkt och som &#228;r utformad och 
+h&#229;lls i s&#229;dant skick att djuret inte kan slippa ut eller 
+reproducera sig.
+
+25 &#167; Of&#246;rtullade v&#228;xter och organismer som h&#229;lls kvar p&#229; 
+grund av att de omfattas av inf&#246;rself&#246;rbud enligt artikel 7 i 
+f&#246;rordning (EU) nr 1143/2014 ska f&#246;rvaras p&#229; en plats som &#228;r 
+l&#228;mplig f&#246;r v&#228;xten eller organismen och som &#228;r inr&#228;ttad s&#229; 
+att fr&#246;, sporer eller livskraftiga delar inte kan slippa ut 
+eller reproducera sig.
+
+26 &#167; Livsmedelsverket och Statens jordbruksverk f&#229;r i 
+samband med kontroll eller kvarh&#229;llande p&#229; &#228;garens bekostnad 
+besluta om och verkst&#228;lla &#229;tg&#228;rder f&#246;r att f&#246;rhindra 
+introduktion eller begr&#228;nsa spridning av en art som
+
+1. finns i unionsf&#246;rteckningen, eller 
+
+2. omfattas av n&#246;d&#229;tg&#228;rder som regeringen beslutat. 
+
+&#197;tg&#228;rderna kan avse f&#246;rst&#246;ring, avlivning, avvisning eller 
+annat som beh&#246;vs f&#246;r att f&#246;rhindra introduktion eller 
+begr&#228;nsa spridning.
+
+27 &#167; Livsmedelsverket f&#229;r i fr&#229;ga om de kategorier av 
+varor som &#228;r levande animaliska livsmedel f&#246;r omedelbar 
+konsumtion meddela f&#246;reskrifter f&#246;r genomf&#246;rande av offentlig 
+kontroll enligt artikel 15 i f&#246;rordning (EU) nr 1143/2014 
+samt om avgifter f&#246;r dessa kontroller.
+
+Livsmedelsverket ska ge de ansvariga myndigheterna, Statens 
+jordbruksverk och Tullverket tillf&#228;lle att yttra sig innan 
+f&#246;reskrifterna meddelas.
+
+28 &#167; Statens jordbruksverk f&#229;r i fr&#229;ga om andra kategorier 
+av varor &#228;n levande animaliska livsmedel f&#246;r omedelbar 
+konsumtion meddela f&#246;reskrifter f&#246;r genomf&#246;rande av offentlig 
+kontroll enligt artikel 15 i f&#246;rordning (EU) nr 1143/2014 
+samt om avgifter f&#246;r dessa kontroller.
+
+Jordbruksverket ska ge de ansvariga myndigheterna, 
+Livsmedelsverket och Tullverket tillf&#228;lle att yttra sig innan 
+f&#246;reskrifterna meddelas.
+
+Anm&#228;lan och information n&#228;r en invasiv fr&#228;mmande art 
+uppt&#228;cks
+29 &#167; N&#228;r en invasiv fr&#228;mmande art som finns i 
+unionsf&#246;rteckningen uppt&#228;cks, ska den ansvariga myndigheten 
+fullg&#246;ra den anm&#228;lnings- och informationsskyldighet som 
+f&#246;ljer av artikel 16.2 i f&#246;rordning (EU) nr 1143/2014.
+
+Utrotnings&#229;tg&#228;rder
+
+30 &#167; L&#228;nsstyrelsen ska besluta om utrotnings&#229;tg&#228;rder som 
+avses i artikel 17.1 i f&#246;rordning (EU) nr 1143/2014 f&#246;r arter 
+som
+
+1. finns i unionsf&#246;rteckningen, eller
+
+2. omfattas av n&#246;d&#229;tg&#228;rder som regeringen beslutat enligt 
+artikel 10.1 i den f&#246;rordningen.
+
+L&#228;nsstyrelsen f&#229;r &#246;verl&#229;ta &#229;t en kommun som beg&#228;r det att 
+besluta om s&#229;dana &#229;tg&#228;rder inom kommunen.
+
+31 &#167; L&#228;nsstyrelsen ska ansvara f&#246;r att 
+utrotnings&#229;tg&#228;rderna verkst&#228;lls och underr&#228;tta den ansvariga 
+myndigheten om &#229;tg&#228;rderna. 
+
+L&#228;nsstyrelsen f&#229;r &#246;verl&#229;ta &#229;t en kommun som beg&#228;r det att 
+ansvara f&#246;r verkst&#228;llighet inom kommunen och underr&#228;tta den 
+ansvariga myndigheten om &#229;tg&#228;rderna.
+
+32 &#167; Den ansvariga myndigheten ska &#246;vervaka att 
+utrotningen &#228;r effektiv enligt artikel 17.3 i f&#246;rordning (EU) 
+nr 1143/2014 och vid behov se till att &#229;tg&#228;rderna samordnas 
+nationellt.
+
+33 &#167; Om det beh&#246;vs f&#246;r effektiv utrotning p&#229; nationell 
+niv&#229;, f&#229;r den ansvariga myndigheten besluta att &#246;verta 
+l&#228;nsstyrelsens ansvar enligt 30 och 31 &#167;&#167;.
+
+34 &#167; Den ansvariga myndigheten ska fullg&#246;ra den 
+anm&#228;lnings- och informationsskyldighet som f&#246;ljer av artikel 
+17.1 och 17.4 i f&#246;rordning (EU) nr 1143/2014.
+
+35 &#167; Den ansvariga myndigheten f&#229;r inom sitt ansvarsomr&#229;de 
+meddela f&#246;reskrifter om metoder f&#246;r att utrota invasiva 
+fr&#228;mmande arter.
+
+Myndigheten ska ge Statens jordbruksverk tillf&#228;lle att yttra 
+sig innan f&#246;reskrifterna meddelas.
+
+M&#246;jlighet att inte utrota arter som finns i 
+unionsf&#246;rteckningen
+
+36 &#167; Om den ansvariga myndigheten bed&#246;mer att en art som 
+finns i unionsf&#246;rteckningen inte b&#246;r utrotas p&#229; grund av 
+s&#229;dana f&#246;rh&#229;llanden som avses i artikel 18.1 i f&#246;rordning 
+(EU) nr 1143/2014, ska myndigheten underr&#228;tta regeringen om 
+detta och i &#246;vrigt vidta de &#229;tg&#228;rder och fatta de beslut som 
+kr&#228;vs enligt artikeln.
+
+Arter i unionsf&#246;rteckningen med stor spridning i Sverige
+
+37 &#167; Den ansvariga myndigheten ska identifiera vilka arter 
+i unionsf&#246;rteckningen som har stor spridning i Sverige i 
+enlighet med artikel 19.1 i f&#246;rordning (EU) nr 1143/2014.
+
+Hanterings&#229;tg&#228;rder f&#246;r arter i unionsf&#246;rteckningen
+
+38 &#167; Om en art i unionsf&#246;rteckningen inte ska utrotas 
+enligt 36 &#167; eller har stor spridning i Sverige, ska den 
+ansvariga myndigheten 
+
+1. utreda vilka hanterings&#229;tg&#228;rder som kr&#228;vs enligt artikel 
+18.4 eller 19.1–19.3 i f&#246;rordning (EU) nr 1143/2014,
+
+2. l&#228;mna motiverade och konsekvensutredda f&#246;rfattningsf&#246;rslag 
+till regeringen i fr&#229;ga om hanterings&#229;tg&#228;rder som f&#246;ruts&#228;tter 
+ny eller &#228;ndrad reglering i lag eller f&#246;rordning, och
+
+3. besluta om de hanterings&#229;tg&#228;rder som inte f&#246;ruts&#228;tter ny 
+eller &#228;ndrad reglering i lag eller f&#246;rordning.
+
+39 &#167; Den ansvariga myndigheten f&#229;r inom sitt ansvarsomr&#229;de 
+meddela f&#246;reskrifter om 
+
+1. inneslutnings&#229;tg&#228;rder som ska vidtas i fall som avses i 
+artikel 18.4 i f&#246;rordning (EU) nr 1143/2014, och 
+
+2. hanteringsomr&#229;den och hanterings&#229;tg&#228;rder enligt artikel 19 
+i samma f&#246;rordning f&#246;r arter som finns i unionsf&#246;rteckningen 
+och har stor spridning i Sverige.
+
+40 &#167; Innan den ansvariga myndigheten l&#228;mnar f&#246;rslag eller 
+beslutar enligt 38 &#167; eller meddelar f&#246;reskrifter enligt 39 &#167; 
+ska myndigheten ge 
+
+1. Skogsstyrelsen, Statens jordbruksverk och andra ber&#246;rda 
+myndigheter tillf&#228;lle att yttra sig, och
+
+2. Sametinget tillf&#228;lle att yttra sig, om beslutet eller 
+f&#246;rslaget kan antas ha betydelse f&#246;r renn&#228;ringen eller samisk 
+kultur.
+
+Best&#228;mmelser om allm&#228;nhetens deltagande finns i artikel 26 i 
+f&#246;rordning (EU) nr 1143/2014. Best&#228;mmelser om strategiska 
+milj&#246;bed&#246;mningar finns i 6 kap. milj&#246;balken och i 
+milj&#246;bed&#246;mningsf&#246;rordningen (2017:966).
+
+41 &#167; Den ansvariga myndigheten ska i ett hanteringsprogram 
+redovisa de hanterings&#229;tg&#228;rder som till f&#246;ljd av 38 och 39 &#167;&#167; 
+g&#228;ller f&#246;r en art. Programmet ska h&#229;llas aktuellt.
+
+42 &#167; L&#228;nsstyrelsen ska se till att beslutade 
+hanterings&#229;tg&#228;rder vidtas, om inte annat anges i beslutet 
+eller i f&#246;reskrifter som g&#228;ller hanteringen.
+
+L&#228;nsstyrelsen f&#229;r &#246;verl&#229;ta &#229;t en kommun som beg&#228;r det att se 
+till att beslutade hanterings&#229;tg&#228;rder vidtas inom kommunen.
+
+43 &#167; I fr&#229;ga om hanterings&#229;tg&#228;rder p&#229; mark som omfattas av 
+skogsv&#229;rdslagen (1979:429) och som g&#228;ller skogstr&#228;darter som 
+anv&#228;nds f&#246;r virkesproduktion ska 
+
+1. det som s&#228;gs i 38–41 &#167;&#167; om den ansvariga myndigheten och 
+det som s&#228;gs i 42 &#167; om l&#228;nsstyrelsen i st&#228;llet g&#228;lla 
+Skogsstyrelsen, och
+
+2. det som s&#228;gs i 40 &#167; f&#246;rsta stycket 1 om Skogsstyrelsen i 
+st&#228;llet g&#228;lla den ansvariga myndigheten.
+
+Information om spridningsrisk
+
+44 &#167; Den ansvariga myndigheten ska fullg&#246;ra de 
+skyldigheter i fr&#229;ga om underr&#228;ttelser och information som 
+f&#246;ljer av artikel 19.5 i f&#246;rordning (EU) nr 1143/2014. Om det 
+finns en betydande risk att spridningen av en art p&#229;verkar 
+Norge, ska Norge underr&#228;ttas.
+
+&#197;terst&#228;llande&#229;tg&#228;rder
+
+45 &#167; L&#228;nsstyrelsen ska vidta de &#229;terst&#228;llande&#229;tg&#228;rder som 
+kr&#228;vs enligt artikel 20 i f&#246;rordning (EU) nr 1143/2014.
+
+L&#228;nsstyrelsen f&#229;r &#246;verl&#229;ta &#229;t en kommun som beg&#228;r det att 
+vidta &#229;terst&#228;llande&#229;tg&#228;rder inom kommunen.
+
+46 &#167; Den ansvariga myndigheten f&#229;r inom sitt ansvarsomr&#229;de 
+meddela f&#246;reskrifter om &#229;tg&#228;rder f&#246;r att &#229;terst&#228;lla skadade 
+ekosystem enligt artikel 20 i f&#246;rordning (EU) nr 1143/2014.
+
+Myndigheten ska ge Statens jordbruksverk tillf&#228;lle att yttra 
+sig innan f&#246;reskrifterna meddelas.
+
+S&#228;llskapsdjur som finns i unionsf&#246;rteckningen
+
+47 &#167; I fr&#229;ga om ett s&#228;llskapsdjur av en art som finns i 
+unionsf&#246;rteckningen, ska den ansvariga myndigheten fullg&#246;ra 
+den informationsskyldighet som f&#246;ljer av artikel 31.2 i 
+f&#246;rordning (EU) nr 1143/2014. Informationen ska ocks&#229; riktas 
+till den som utan att vara &#228;gare &#228;r djurh&#229;llare.
+
+48 &#167; L&#228;nsstyrelsen ska besluta att ett s&#228;llskapsdjur av en 
+art som finns i unionsf&#246;rteckningen ska avlivas eller 
+hanteras p&#229; n&#229;got annat s&#228;tt som f&#246;rhindrar introduktion 
+eller begr&#228;nsar spridning, om &#228;garen inte kan
+
+1. s&#228;kerst&#228;lla att de villkor f&#246;r att h&#229;lla djuret som anges 
+i artikel 31.1 i f&#246;rordning (EU) nr 1143/2014 uppfylls, eller 
+
+2. &#246;verl&#228;mna djuret enligt artikel 31.3 och 31.4 i samma 
+f&#246;rordning.
+
+Om beslutet inte f&#246;ljs, f&#229;r l&#228;nsstyrelsen se till att det 
+verkst&#228;lls p&#229; &#228;garens bekostnad.
+
+49 &#167; Den ansvariga myndigheten f&#229;r inom sitt ansvarsomr&#229;de 
+meddela f&#246;reskrifter om att h&#229;lla s&#228;llskapsdjur med anledning 
+av artikel 31 i f&#246;rordning (EU) nr 1143/2014.
+
+Myndigheten ska ge Statens jordbruksverk tillf&#228;lle att yttra 
+sig innan f&#246;reskrifterna meddelas.
+
+Kommersiella lager av arter som finns i unionsf&#246;rteckningen
+
+50 &#167; Om ett exemplar eller en del av ett exemplar av en 
+art i unionsf&#246;rteckningen har reproduktionsf&#246;rm&#229;ga och lagras 
+kommersiellt med st&#246;d av artikel 32 i f&#246;rordning (EU) nr 
+1143/2014 och den som lagrar inte kan s&#228;kerst&#228;lla att kraven 
+i den artikeln f&#246;ljs, ska l&#228;nsstyrelsen besluta att 
+exemplaret eller delen ska avlivas, f&#246;rst&#246;ras eller hanteras 
+p&#229; n&#229;got annat s&#228;tt som f&#246;rhindrar introduktion eller 
+begr&#228;nsar spridning. 
+
+Om beslutet inte f&#246;ljs, f&#229;r l&#228;nsstyrelsen se till att det 
+verkst&#228;lls p&#229; lagerinnehavarens bekostnad.
+
+51 &#167; Den ansvariga myndigheten f&#229;r inom sitt ansvarsomr&#229;de 
+meddela f&#246;reskrifter om att h&#229;lla lager med anledning av 
+artikel 32 i f&#246;rordning (EU) nr 1143/2014.
+
+Myndigheten ska ge Statens jordbruksverk tillf&#228;lle att yttra 
+sig innan f&#246;reskrifterna meddelas.
+
+Rapportering till Europeiska kommissionen
+
+52 &#167; Naturv&#229;rdsverket ska rapportera till Europeiska 
+kommissionen enligt artikel 24.1 i f&#246;rordning (EU) nr 
+1143/2014 och de genomf&#246;randeakter som kommissionen antar 
+enligt artikel 24.4 samma f&#246;rordning. 
+
+53 &#167; Havs- och vattenmyndigheten ska i fr&#229;ga om arter inom 
+myndighetens ansvarsomr&#229;de f&#246;rse Naturv&#229;rdsverket med den 
+information som verket beh&#246;ver f&#246;r att fullg&#246;ra 
+rapporteringen enligt 52 &#167;.
+
+54 &#167; L&#228;nsstyrelsen ska bist&#229; med de uppgifter som beh&#246;vs 
+f&#246;r att den ansvariga myndigheten ska kunna fullg&#246;ra sitt 
+ansvar enligt 52 och 53 &#167;&#167;.
+
+55 &#167; Den ansvariga myndigheten f&#229;r inom sitt ansvarsomr&#229;de 
+meddela f&#246;reskrifter f&#246;r verkst&#228;lligheten av 52–54 &#167;&#167;. 
+
+De ansvariga myndigheternas f&#246;reskrifter
+
+56 &#167; Naturv&#229;rdsverket och Havs- och vattenmyndigheten ska 
+ge varandra tillf&#228;lle att yttra sig innan de meddelar 
+f&#246;reskrifter enligt denna f&#246;rordning.
+
+Tillsyn
+
+57 &#167; Best&#228;mmelser om tillsyn finns i 26 kap. milj&#246;balken 
+och 2 kap. 6, 8 och 10 &#167;&#167; milj&#246;tillsynsf&#246;rordningen 
+(2011:13).
+
+Tillsynsmyndigheten ska utf&#246;ra de inspektioner som avses i 
+artikel 8.8 i f&#246;rordning (EU) nr 1143/2014.
+
+Avgifter
+
+58 &#167; Best&#228;mmelser om avgifter finns i f&#246;rordningen 
+(1998:940) om avgifter f&#246;r pr&#246;vning och tillsyn enligt 
+milj&#246;balken.
+
+Straff och f&#246;rverkande
+
+59 &#167; Best&#228;mmelser om straff och f&#246;rverkande finns i 29 
+kap. milj&#246;balken.
+
+&#214;verklagande
+
+60 &#167; Best&#228;mmelser om &#246;verklagande finns i 19 kap. 1 &#167; 
+milj&#246;balken.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=627">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=629">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

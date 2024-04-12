@@ -1,0 +1,961 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-18" /> 
+ <meta id="rattsinfo-edited" content="2023-01-18 15:09:23" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3686</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3685">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3687">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1987:259 ·
+                    <a href="/sfsr?bet=1987:259">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Jaktlag (1987:259)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1987-05-14
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:1026
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1988-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna lag g&#228;ller viltv&#229;rden, r&#228;tten till jakt och jaktens
+bedrivande inom svenskt territorium samt fr&#229;gor som har samband
+d&#228;rmed.
+
+Lagen g&#228;ller ocks&#229; i de fall som anges s&#228;rskilt
+
+1. inom Sveriges ekonomiska zon,
+
+2. betr&#228;ffande jakt fr&#229;n svenskt fartyg p&#229; det fria havet
+utanf&#246;r den ekonomiska zonen,
+
+3. betr&#228;ffande jakt fr&#229;n svenskt luftfartyg &#246;ver det fria havet
+utanf&#246;r den ekonomiska zonen.
+
+Ut&#246;ver best&#228;mmelserna i denna lag g&#228;ller f&#246;reskrifter i andra
+f&#246;rfattningar i fr&#229;ga om skyddet och v&#229;rden av viltet.
+
+Best&#228;mmelser om att tillst&#229;nd kr&#228;vs f&#246;r vissa verksamheter och
+&#229;tg&#228;rder finns i 7 kap. 28 a-29 b &#167;&#167; milj&#246;balken.
+Lag (2001:443).
+
+2 &#167; Med vilt avses i lagen vilda d&#228;ggdjur och f&#229;glar. Med jakt avses att
+f&#229;nga eller d&#246;da vilt och att i s&#229;dant syfte s&#246;ka efter, sp&#229;ra eller
+f&#246;rf&#246;lja vilt. Till jakt r&#228;knas ocks&#229; att g&#246;ra ingrepp i viltets bon och
+att ta eller f&#246;rst&#246;ra f&#229;glars &#228;gg.
+
+3 &#167; Viltet &#228;r fredat och f&#229;r jagas endast om detta f&#246;ljer av denna lag
+eller av f&#246;reskrifter eller beslut som har meddelats med st&#246;d av
+lagen. N&#228;r viltet &#228;r fredat, g&#228;ller fredningen ocks&#229; dess &#228;gg och bon.
+
+Detta g&#228;ller &#228;ven inom Sveriges ekonomiska zon. Lag (1994:1820).
+
+Viltv&#229;rden
+
+4 &#167; Viltet skall v&#229;rdas i syfte att
+
+- bevara de viltarter som tillh&#246;r landets viltbest&#229;nd och de
+f&#229;gelarter som tillf&#228;lligt f&#246;rekommer naturligt i landet, och
+
+- fr&#228;mja en med h&#228;nsyn till allm&#228;nna och enskilda intressen
+l&#228;mplig utveckling av viltstammarna.
+
+I viltv&#229;rden ing&#229;r att genom s&#228;rskilda &#229;tg&#228;rder s&#246;rja f&#246;r att
+viltet f&#229;r skydd och st&#246;d och att anpassa jakten efter
+tillg&#229;ngen p&#229; vilt. F&#246;r att &#229;tg&#228;rderna utf&#246;rs och anpassningen
+sker svarar mark&#228;garen och jaktr&#228;ttshavaren. Lag (1997:343).
+
+5 &#167; Var och en skall visa viltet h&#228;nsyn. Idrottst&#228;vlingar och
+annan liknande friluftsverksamhet i marker d&#228;r det finns vilt
+skall genomf&#246;ras s&#229; att viltet st&#246;rs i s&#229; liten utstr&#228;ckning
+som m&#246;jligt.
+
+Viltet f&#229;r inte ofredas och inte heller f&#246;rf&#246;ljas annat &#228;n vid
+jakt. F&#246;rbudet hindrar dock inte att l&#228;mpliga &#229;tg&#228;rder vidtas
+av markinnehavaren i syfte att motverka skador av vilt, om
+s&#229;dana skador inte kan motverkas p&#229; annat tillfredsst&#228;llande
+s&#228;tt.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela f&#246;reskrifter om f&#246;rbudet att ofreda viltet och om
+villkoren f&#246;r att trots f&#246;rbudet vidta &#229;tg&#228;rder som avses i
+andra stycket. Lag (2001:443).
+
+6 &#167; L&#228;nsstyrelsen f&#229;r i enskilda fall besluta om f&#246;rbud mot 
+eller villkor f&#246;r utfodring av vilt som inte h&#229;lls i h&#228;gn, om 
+det beh&#246;vs f&#246;r att f&#246;rebygga eller minska risken f&#246;r 
+trafikolyckor med vilt eller risken f&#246;r att viltet orsakar 
+allvarliga skador p&#229; egendom.
+
+Beslutet ska avse ett visst begr&#228;nsat omr&#229;de och vara 
+tidsbegr&#228;nsat.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om vad f&#246;rbud eller 
+villkor enligt f&#246;rsta stycket f&#229;r omfatta. Lag (2021:793).
+
+7 &#167; Om det p&#229; grund av ett viltbest&#229;nds storlek finns p&#229;tagliga risker
+f&#246;r trafikolyckor eller f&#246;r allvarliga skador av vilt, f&#229;r den myndighet
+som regeringen best&#228;mmer besluta om jakt f&#246;r att f&#246;rebygga eller minska
+dessa risker.
+
+I myndighetens beslut skall best&#228;mmas hur jakten skall bedrivas och om
+den skall ske genom jaktr&#228;ttshavarens f&#246;rsorg, om han har &#229;tagit sig
+det, eller genom s&#228;rskilt utsedda j&#228;gare. I beslutet skall ocks&#229;
+best&#228;mmas hur det skall f&#246;rfaras med djur som d&#246;das eller f&#229;ngas vid
+jakten.
+
+8 &#167; Om f&#246;rekomsten av en viss viltart inneb&#228;r betydande skaderisker,
+f&#229;r regeringen i fr&#229;ga om denna art f&#246;reskriva att den myndighet som
+regeringen best&#228;mmer f&#229;r besluta om s&#229;dan jakt som avses i 7 &#167;.
+
+9 &#167; Om ett vilt djur orsakar avsev&#228;rd skada eller om det kan
+antas vara farligt f&#246;r m&#228;nniskors s&#228;kerhet, f&#229;r
+Polismyndigheten l&#229;ta avliva djuret, om det inte finns n&#229;gon
+annan tillfredsst&#228;llande l&#246;sning.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om att Polismyndigheten
+f&#229;r l&#229;ta avliva eller f&#229;nga vilt, n&#228;r detta &#228;r befogat fr&#229;n
+djurskyddssynpunkt. Lag (2014:698).
+
+Jaktr&#228;tten m. m.
+
+Vem som har jaktr&#228;tten
+
+10 &#167; Fastighets&#228;garen har jaktr&#228;tten p&#229; den mark som h&#246;r till
+fastigheten, om inte annat f&#246;ljer av andra stycket eller av 10 a &#167; eller
+11 &#167;. I jaktr&#228;tten ing&#229;r r&#228;tt att tillgodog&#246;ra sig vilt som omh&#228;ndertas,
+p&#229;tr&#228;ffas d&#246;tt eller d&#246;das i n&#229;got annat sammanhang &#228;n vid jakt, om inte
+annat f&#246;ljer av f&#246;reskrifter meddelade med st&#246;d av 25 &#167;.
+
+Vid jordbruksarrende har arrendatorn jaktr&#228;tten p&#229; den arrenderade
+marken, om inte annat har avtalats.
+
+Om samernas r&#228;tt att jaga finns s&#228;rskilda best&#228;mmelser. Lag (1992:787).
+
+10 a &#167; Staten har jaktr&#228;tten p&#229; den mark som vid utg&#229;ngen av
+juni 1992 ingick i kronoparken Tullgarn och angr&#228;nsande
+kronoegendomar &#228;ven som kronoegendomarna p&#229; Eriks&#246; i Stockholms
+och S&#246;dermanlands l&#228;n, kronoparken Karlsby i &#214;sterg&#246;tlands l&#228;n,
+kronoegendomen Ottenby kungsladug&#229;rd i Kalmar l&#228;n, kronoparken
+Halle- och Hunneberg i V&#228;stra G&#246;talands l&#228;n, kronoparken
+Haddebo i &#214;rebro l&#228;n, kronoparken Gr&#246;nbo i &#214;rebro och
+V&#228;stmanlands l&#228;n samt kronoparken Kloten i &#214;rebro, V&#228;stmanlands
+och Dalarnas l&#228;n. Lag (2000:593).
+
+11 &#167; Jaktr&#228;tten p&#229; en v&#228;g tillkommer den som har jaktr&#228;tten p&#229; den
+angr&#228;nsande marken. G&#229;r v&#228;gen i gr&#228;nsen mellan marker med skilda &#228;gare
+och &#228;ger inte n&#229;gon av dem v&#228;gmarken, har var och en av dem jaktr&#228;tten
+p&#229; den marken.
+
+12 &#167; P&#229; allm&#228;nt vatten, som gr&#228;nsar till en fastighets strand, har
+fastighets&#228;garen jaktr&#228;tt intill etthundra meter fr&#229;n strandlinjen. Om
+detta skulle medf&#246;ra att flera fastighets&#228;gare f&#229;r jaktr&#228;tt p&#229; samma
+vattenomr&#229;de, skall var och en av dem ha jaktr&#228;tt p&#229; den del av omr&#229;det
+som &#228;r n&#228;rmast hans strand.
+
+P&#229; annat allm&#228;nt vatten liksom p&#229; s&#229;dana holmar, klippor och sk&#228;r, som
+inte h&#246;r till n&#229;got hemman, f&#229;r jakt bedrivas endast efter s&#228;rskilt
+tillst&#229;nd. Regeringen eller, efter regeringens best&#228;mmande,
+l&#228;nsstyrelsen bemyndigas att genom beslut i det s&#228;rskilda fallet eller
+genom f&#246;reskrifter meddela tillst&#229;nd.
+
+13 &#167; P&#229; en samf&#228;llighet f&#229;r del&#228;garna bara ut&#246;va sin jaktr&#228;tt f&#246;r egna
+behov. Har de kommit &#246;verens om n&#229;got annat eller har de beslutat n&#229;got
+annat enligt vad som g&#228;ller f&#246;r samf&#228;llighetens f&#246;rvaltning, f&#229;r de dock
+ut&#246;va jaktr&#228;tten i enlighet med &#246;verenskommelsen eller beslutet.
+
+&#214;verl&#229;telse av jaktr&#228;tt m.m.
+
+14 &#167; Jaktr&#228;tt som har uppl&#229;tits i andra fall &#228;n i samband med
+jordbruksarrende f&#229;r inte &#246;verl&#229;tas eller uppl&#229;tas utan
+fastighets&#228;garens samtycke.
+
+F&#246;rsta stycket g&#228;ller ocks&#229; i fr&#229;ga om &#246;verg&#229;ng genom bodelning, arv,
+testamente, bolagsskifte eller liknande f&#246;rv&#228;rv.
+
+Uppl&#229;telse av jaktr&#228;tt i vissa fall
+
+15 &#167; Om jaktr&#228;tt har uppl&#229;tits genom avtal mot ers&#228;ttning,
+g&#228;ller, ut&#246;ver vad som f&#246;ljer av 7 kap. jordabalken om
+nyttjander&#228;tt i allm&#228;nhet, vad som s&#228;gs i 16 &#167;.
+
+Best&#228;mmelserna i 16 &#167; g&#228;ller dock inte uppl&#229;telser med st&#246;d av
+renn&#228;ringslagen (1971:437). F&#246;r uppl&#229;telser som ing&#229;r i arrende
+eller hyra g&#228;ller s&#228;rskilda best&#228;mmelser.
+
+F&#246;rbeh&#229;ll som strider mot 16 &#167; &#228;r utan verkan.
+Lag (2000:593).
+
+16 &#167; Vid uppl&#229;telse p&#229; viss tid som &#228;r minst ett &#229;r, skall
+avtalet alltid s&#228;gas upp f&#246;r att det skall upph&#246;ra att g&#228;lla
+vid avtalstidens utg&#229;ng. Avtalet skall, om inte l&#228;ngre
+upps&#228;gningstid har avtalats, s&#228;gas upp senast sex m&#229;nader f&#246;re
+avtalstidens utg&#229;ng.
+
+Om ett avtal som avses i f&#246;rsta stycket inte s&#228;gs upp inom r&#228;tt
+tid anses det f&#246;rl&#228;ngt p&#229; tid som motsvarar uppl&#229;telsetiden,
+dock l&#228;ngst fem &#229;r.
+
+Ett avtal som slutits p&#229; obest&#228;md tid skall, om inte l&#228;ngre
+upps&#228;gningstid har avtalats, s&#228;gas upp f&#246;r att upph&#246;ra att
+g&#228;lla vid det m&#229;nadsskifte som intr&#228;ffar n&#228;rmast sex m&#229;nader
+efter upps&#228;gningen.
+
+Upps&#228;gning skall ske p&#229; det s&#228;tt som g&#228;ller f&#246;r upps&#228;gning
+enligt 8 kap. 8 &#167; jordabalken. Lag (2000:593).
+
+17 &#167; har upph&#228;vts genom lag (2000:593).
+
+18 &#167; har upph&#228;vts genom lag (2000:593).
+
+19 &#167; har upph&#228;vts genom lag (2000:593).
+
+20 &#167; har upph&#228;vts genom lag (2000:593).
+
+21 &#167; har upph&#228;vts genom lag (2000:593).
+
+22 &#167; har upph&#228;vts genom lag (2000:593).
+
+R&#228;tt till jakt efter vissa djur
+
+23 &#167; Under de tider som regeringen f&#246;reskriver f&#229;r
+
+1. den som bor p&#229; en g&#229;rd eller har en tr&#228;dg&#229;rd men saknar jaktr&#228;tt d&#228;r
+d&#246;da eller f&#229;nga och beh&#229;lla f&#246;ljande djur som kommer in p&#229; g&#229;rden eller
+i tr&#228;dg&#229;rden: vildsvin, r&#228;v, m&#229;rdhund, gr&#228;vling, m&#229;rd, iller, mink,
+hermelin, vessla, ekorre, vildkanin, mullvad, sorkar, l&#228;mlar, r&#229;ttor,
+skogsm&#246;ss, husmus, duvh&#246;k, sparvh&#246;k, kr&#229;ka, r&#229;ka, kaja, skata,
+bj&#246;rktrast (sn&#246;skata), gr&#229;sparv eller pilfink,
+
+2. den som har en handelstr&#228;dg&#229;rd, anl&#228;ggning f&#246;r yrkesm&#228;ssig
+fruktodling eller plantskola men saknar jaktr&#228;tt d&#228;r d&#246;da hare, om det
+beh&#246;vs f&#246;r att f&#246;rhindra skador p&#229; tr&#228;d eller tr&#228;dplantor; d&#228;rvid skall
+djur som d&#246;dats tillfalla jaktr&#228;ttshavaren,
+
+3. den som innehar mark men saknar jaktr&#228;tt d&#228;r f&#229;nga vildkanin och
+beh&#229;lla de f&#229;ngade djuren.
+
+Regeringen f&#229;r medge att jakt efter bj&#246;rn, varg, j&#228;rv, lo eller s&#228;l
+bedrivs p&#229; annans jaktomr&#229;de.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om undantag fr&#229;n f&#246;rsta stycket.
+Lag (1991:1769).
+
+Ringm&#228;rkning m.m.
+
+24 &#167; Regeringen f&#229;r meddela f&#246;reskrifter om att vilt f&#229;r f&#229;ngas eller
+f&#228;llas p&#229; annans jaktmark f&#246;r m&#228;rkning, unders&#246;kning eller andra
+&#229;tg&#228;rder som f&#246;retas f&#246;r att tillgodose vetenskapliga behov.
+
+Vilt som tillfaller staten
+
+25 &#167; F&#246;r att skydda utrotningshotade, s&#228;llsynta eller s&#228;rskilt
+v&#228;rdefulla djurarter och tillf&#246;rs&#228;kra vetenskapen och undervisningen
+djur av s&#229;dana arter f&#229;r regeringen f&#246;reskriva att vilt som
+omh&#228;ndertas, p&#229;tr&#228;ffas d&#246;tt eller d&#246;das skall tillfalla staten.
+
+Anm&#228;lningsskyldighet
+
+26 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+f&#229;r meddela f&#246;reskrifter om anm&#228;lningsskyldighet i fr&#229;ga om
+
+1. vilt som har f&#228;llts under jakt,
+
+2. vilt som ska tillfalla staten,
+
+3. vilt som har varit inblandat i en sammanst&#246;tning med ett
+motorfordon, och
+
+4. vilt som har varit inblandat i en sammanst&#246;tning med ett
+sp&#229;rbundet fordon.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+&#228;ven meddela f&#246;reskrifter om skyldighet att m&#228;rka ut en plats
+d&#228;r en sammanst&#246;tning skett mellan ett motorfordon och vilt.
+Lag (2012:153).
+
+Polismyndighetens befogenhet i vissa fall
+
+26 a &#167; Om ett vilt har varit inblandat i en sammanst&#246;tning med
+ett motorfordon eller med ett sp&#229;rbundet fordon, f&#229;r
+Polismyndigheten vidta de &#229;tg&#228;rder som beh&#246;vs f&#246;r att djuret
+ska kunna sp&#229;ras upp och avlivas. Polismyndigheten f&#229;r &#228;ven ge
+n&#229;gon annan i uppdrag att vidta s&#229;dana &#229;tg&#228;rder. 
+Lag (2014:698).
+
+Jakten
+
+27 &#167; Jakten skall bedrivas s&#229; att viltet inte uts&#228;tts f&#246;r on&#246;digt
+lidande och s&#229; att m&#228;nniskor och egendom inte uts&#228;tts f&#246;r fara.
+
+28 &#167; Om vilt har skadats vid jakt, ska j&#228;garen snarast vidta
+de &#229;tg&#228;rder som beh&#246;vs f&#246;r att djuret ska kunna sp&#229;ras upp
+och avlivas.
+
+Om &#228;lg, hjort eller r&#229;djur har skadats vid jakt p&#229; ett
+jaktomr&#229;de och tar sig in p&#229; ett annat jaktomr&#229;de, ska
+j&#228;garen se till att jaktr&#228;ttshavaren d&#228;r eller mark&#228;garen
+snarast underr&#228;ttas. Om jaktr&#228;ttshavaren eller mark&#228;garen
+endast kan n&#229;s med sv&#229;righet, f&#229;r Polismyndigheten
+underr&#228;ttas i st&#228;llet. Lag (2014:698).
+
+29 &#167; Regeringen f&#229;r meddela f&#246;reskrifter om
+
+1. de tider n&#228;r olika slag av vilt f&#229;r jagas inom skilda delar av
+landet,
+
+2. tillst&#229;nd till jakt under en s&#228;rskild jakttid (licens),
+
+3. tillst&#229;nd till jakt f&#246;r att f&#246;rhindra skador av vilt,
+
+4. att hund skall finnas tillg&#228;nglig vid jakt f&#246;r uppsp&#229;rning av skadat
+vilt.
+
+29 a &#167; F&#246;r att uppfylla Sveriges internationella &#229;taganden om skydd
+av vilt f&#229;r regeringen meddela f&#246;reskrifter om f&#246;rbud mot eller
+s&#228;rskilda villkor f&#246;r jakt fr&#229;n
+
+1. svenskt fartyg p&#229; det fria havet utanf&#246;r Sveriges ekonomiska zon,
+
+2. svenskt luftfartyg &#246;ver det fria havet utanf&#246;r den ekonomiska
+zonen. Lag (1994:1820).
+
+30 &#167; Vid jakten f&#229;r anv&#228;ndas endast de vapen och jaktmedel i &#246;vrigt som
+regeringen f&#246;reskriver.
+
+Regeringen f&#229;r f&#246;reskriva att vapen och &#246;vriga jaktmedel skall vara av
+godk&#228;nd typ och att avgift skall betalas f&#246;r den pr&#246;vning som beh&#246;vs f&#246;r
+s&#229;dant typgodk&#228;nnande.
+
+Regeringen f&#229;r f&#246;reskriva att jakt med skjutvapen f&#229;r ske endast under
+vissa tider av dygnet.
+
+31 &#167; Jakt f&#229;r inte ske fr&#229;n motordrivna fortskaffningsmedel. S&#229;dana
+fortskaffningsmedel eller andra motordrivna anordningar f&#229;r inte
+heller anv&#228;ndas f&#246;r att s&#246;ka efter, sp&#229;ra, f&#246;rf&#246;lja eller genskjuta vilt,
+f&#246;r att hindra vilt att undkomma eller f&#246;r att avleda viltets
+uppm&#228;rksamhet fr&#229;n den som jagar.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om undantag fr&#229;n f&#246;rsta
+stycket.
+
+Regeringen f&#229;r meddela f&#246;reskrifter som f&#246;rbjuder eller st&#228;ller upp
+s&#228;rskilda villkor f&#246;r medf&#246;rande av skjutvapen vid f&#228;rd med
+motordrivna fortskaffningsmedel. Lag (1994:1820).
+
+32 &#167; Jakt med drivande hund f&#229;r inte ske p&#229; ett omr&#229;de som &#228;r s&#229;
+beskaffat att det kan f&#246;rutses att drevet huvudsakligen kommer att g&#229;
+fram &#246;ver annans jaktomr&#229;de.
+
+33 &#167; Jakt efter &#228;lg f&#229;r ske efter licens av l&#228;nsstyrelsen och
+inom ett omr&#229;de som l&#228;nsstyrelsen har registrerat
+(licensomr&#229;de). Jakt efter &#228;lg f&#229;r &#228;ven ske utan licens inom
+ett omr&#229;de som l&#228;nsstyrelsen har registrerat
+(&#228;lgsk&#246;tselomr&#229;de).
+
+Ett licensomr&#229;de ska vara av s&#229;dan storlek och beskaffenhet i
+&#246;vrigt att det &#228;r l&#228;mpat f&#246;r &#228;lgjakt. L&#228;nsstyrelsen f&#229;r v&#228;gra
+att registrera ett omr&#229;de som licensomr&#229;de eller besluta om
+avregistrering, om omr&#229;dets beskaffenhet inte medger en
+avskjutning av minst en &#228;lgkalv om &#229;ret.
+
+Ett &#228;lgsk&#246;tselomr&#229;de ska vara l&#228;mpat f&#246;r &#228;lgjakt och vara av
+s&#229;dan storlek att det medger en avskjutning av minst tio vuxna
+&#228;lgar om &#229;ret. L&#228;nsstyrelsen f&#229;r v&#228;gra att registrera ett
+omr&#229;de som &#228;lgsk&#246;tselomr&#229;de, om omr&#229;det inte uppfyller dessa
+krav. L&#228;nsstyrelsen f&#229;r vidare besluta att avregistrera ett
+omr&#229;de som inte uppfyller kraven, eller om f&#246;rvaltningen inte
+sker i enlighet med de f&#246;reskrifter eller beslut som har
+meddelats med st&#246;d av denna lag.
+
+I omr&#229;den som inte omfattas av f&#246;rsta stycket f&#229;r jakt efter
+&#228;lg avse endast &#228;lgkalv.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om undantag fr&#229;n kravet i
+tredje stycket p&#229; att ett &#228;lgsk&#246;tselomr&#229;de ska vara av s&#229;dan
+storlek att det medger en avskjutning av minst tio vuxna &#228;lgar
+om &#229;ret.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela ytterligare f&#246;reskrifter om &#228;lgsk&#246;tselomr&#229;den.
+Lag (2010:2001).
+
+34 &#167; Utan lov &#228;r det inte till&#229;tet att skr&#228;mma eller mota vilt fr&#229;n
+n&#229;gon annans jaktomr&#229;de i andra fall &#228;n som avses i 5 &#167; andra stycket
+andra meningen. Det &#228;r inte heller till&#229;tet att utan lov locka vilt fr&#229;n
+n&#229;gon annans jaktomr&#229;de genom utfodring eller p&#229; n&#229;got annat s&#228;tt.
+
+35 &#167; Utan medgivande av jaktr&#228;ttshavaren &#228;r det inte till&#229;tet att med
+f&#229;ngstredskap eller vapen som kan anv&#228;ndas f&#246;r jakt ta v&#228;gen &#246;ver annans
+jaktomr&#229;de. Detta f&#229;r dock ske p&#229; v&#228;gar som &#228;r uppl&#229;tna f&#246;r allm&#228;nheten
+och &#228;ven annars, om det sker i lovliga &#228;renden. Om hund medf&#246;rs, skall
+den h&#229;llas kopplad.
+
+Utplantering av vilt m.m.
+
+36 &#167; Regeringen f&#229;r meddela f&#246;reskrifter om att vissa slag av vilt inte
+f&#229;r s&#228;ttas ut i frihet eller h&#229;llas i h&#228;gn utan s&#228;rskilt tillst&#229;nd eller
+att andra s&#228;rskilda f&#246;reskrifter eller villkor skall g&#228;lla f&#246;r s&#229;dan
+verksamhet.
+
+37 &#167; Har upph&#228;vts genom lag (1994:1820).
+
+38 &#167; Har upph&#228;vts genom lag (1994:1820).
+
+Viltv&#229;rdsn&#228;mnden
+
+39 &#167; Har upph&#228;vts genom lag (2009:1262).
+
+Kunskapsprov m.m.
+
+40 &#167; Regeringen f&#229;r meddela f&#246;reskrifter om skyldighet att avl&#228;gga prov
+i fr&#229;ga om kunskaper och skjutf&#246;rm&#229;ga som villkor f&#246;r att f&#229; jaga.
+
+Regeringen f&#229;r meddela f&#246;reskrifter om skyldighet att betala avgift f&#246;r
+prov som avses i f&#246;rsta stycket.
+
+Regeringen f&#229;r &#246;verl&#228;mna &#229;t sammanslutning p&#229; jaktens och viltv&#229;rdens
+omr&#229;de att anordna prov, att utf&#228;rda bevis om avlagda prov samt att ta
+ut avgift f&#246;r proven.
+
+Avgifter
+
+41 &#167; F&#246;r att fr&#228;mja viltv&#229;rden eller andra liknande &#228;ndam&#229;l
+som &#228;r f&#246;renliga med syftet med denna lag f&#229;r regeringen
+meddela f&#246;reskrifter om skyldighet f&#246;r den som jagar
+
+1. att betala en &#229;rlig avgift (viltv&#229;rdsavgift),
+
+2. att betala en avgift f&#246;r vissa slag av vilt som f&#228;lls,
+
+3. att betala en s&#228;rskild avgift f&#246;r vilt som f&#228;llts i strid
+mot vad som best&#228;mts i en f&#246;r jakt meddelad licens.
+
+Avgifter som avses i f&#246;rsta stycket 1 skall bilda en fond
+(viltv&#229;rdsfonden) som efter regeringens best&#228;mmande f&#229;r
+anv&#228;ndas f&#246;r angivna &#228;ndam&#229;l. Lag (2000:593).
+
+Tillsyn
+
+42 &#167; F&#246;r tillsyn &#246;ver efterlevnaden av denna lag och f&#246;reskrifter, som
+har meddelats med st&#246;d av lagen, f&#229;r regeringen eller den myndighet som
+regeringen best&#228;mmer utse jakttillsynsm&#228;n.
+
+Jakttillsynsm&#228;n f&#229;r f&#246;rordnas att med st&#246;d av 47 &#167; ta egendom i beslag.
+
+42 a &#167; L&#228;nsstyrelsen ut&#246;var tillsyn &#246;ver att beslut enligt 6 &#167; 
+om utfodring av vilt f&#246;ljs. 
+
+L&#228;nsstyrelsen f&#229;r besluta de f&#246;rel&#228;gganden som beh&#246;vs f&#246;r 
+tillsynen och f&#246;r att beslut om utfodring ska f&#246;ljas. 
+F&#246;rel&#228;gganden f&#229;r f&#246;renas med vite. Lag (2021:793).
+
+Handl&#228;ggningen i domstol
+
+42 b &#167; M&#229;l om jakt efter bj&#246;rn, varg, j&#228;rv, lo eller kungs&#246;rn 
+ska handl&#228;ggas skyndsamt. Lag (2021:793).
+
+Ansvar m.m.
+
+43 &#167; F&#246;r jaktbrott d&#246;ms till b&#246;ter eller f&#228;ngelse i h&#246;gst ett
+&#229;r den som
+
+1. med upps&#229;t eller av grov oaktsamhet olovligen jagar p&#229;
+annans jaktomr&#229;de eller d&#228;r till&#228;gnar sig vilt eller vid jakt
+som sker med st&#246;d av licens bryter mot en f&#246;r jakten v&#228;sentlig
+best&#228;mmelse i licensen,
+
+2. med upps&#229;t eller av oaktsamhet bryter mot 3 &#167; eller 31 &#167;
+f&#246;rsta stycket eller mot en f&#246;reskrift som har meddelats med
+st&#246;d av 29 &#167; 1 eller 30 &#167; f&#246;rsta stycket eller
+
+3. med upps&#229;t eller av grov oaktsamhet bryter mot 32 &#167; eller
+mot en f&#246;reskrift som meddelats med st&#246;d av 25 eller 29 a &#167;.
+Lag (2001:163).
+
+44 &#167; Om ett jaktbrott &#228;r att anse som grovt, d&#246;ms till
+f&#228;ngelse, l&#228;gst sex m&#229;nader och h&#246;gst fyra &#229;r.
+
+Vid bed&#246;mandet av om brottet &#228;r grovt skall s&#228;rskilt beaktas
+
+1. om det avs&#229;g ett hotat, s&#228;llsynt eller annars s&#228;rskilt
+skyddsv&#228;rt vilt,
+
+2. om det har utf&#246;rts vanem&#228;ssigt eller i st&#246;rre omfattning,
+
+3. om det utf&#246;rts med otill&#229;ten hj&#228;lp av ett motordrivet
+fortskaffningsmedel eller n&#229;gon annan motordriven anordning,
+
+4. om det utf&#246;rts med en s&#228;rskilt pl&#229;gsam jaktmetod.
+Lag (2001:163).
+
+45 &#167; Till b&#246;ter d&#246;ms den som med upps&#229;t eller av grov
+oaktsamhet
+
+1. bryter mot 5 &#167; andra stycket eller 13 &#167;,
+
+2. underl&#229;ter att fullg&#246;ra anm&#228;lningsskyldighet enligt
+f&#246;reskrifter som har meddelats med st&#246;d av 26 &#167; f&#246;rsta stycket
+1, 2 eller 3 om g&#228;rningen inte &#228;r belagd med straff i lagen
+(1951:649) om straff f&#246;r vissa trafikbrott,
+
+3. bryter mot 27 &#167; om g&#228;rningen inte &#228;r belagd med straff i
+brottsbalken,
+
+4. underl&#229;ter att fullg&#246;ra skyldighet enligt 28 &#167;,
+
+5. bryter mot en f&#246;reskrift som har meddelats med st&#246;d av 29 &#167;
+4, 30 &#167; tredje stycket eller 31 &#167; tredje stycket eller
+
+6. bryter mot 35 &#167; eller mot en f&#246;reskrift som har meddelats
+med st&#246;d av 36 &#167;, 40 &#167; f&#246;rsta stycket eller 41 &#167; f&#246;rsta
+stycket.
+
+Den som med upps&#229;t bryter mot 34 &#167; d&#246;ms till b&#246;ter.
+
+I ringa fall ska inte d&#246;mas till ansvar enligt denna paragraf.
+Lag (2012:153).
+
+46 &#167; Den som obeh&#246;rigen tar befattning med vilt som han vet
+eller har sk&#228;lig anledning anta har d&#246;dats eller &#229;tkommits
+genom jaktbrott, d&#246;ms f&#246;r jakth&#228;leri till b&#246;ter eller f&#228;ngelse
+i h&#246;gst ett &#229;r.
+
+Om brottet &#228;r att anse som grovt, d&#246;ms till f&#228;ngelse, l&#228;gst sex
+m&#229;nader och h&#246;gst fyra &#229;r. Vid bed&#246;mandet av om brottet &#228;r
+grovt skall s&#228;rskilt beaktas s&#229;dana omst&#228;ndigheter som anges i
+44 &#167; andra stycket 1 och 2.
+
+Till ansvar enligt denna paragraf d&#246;ms inte om g&#228;rningen &#228;r
+belagd med straff i milj&#246;balken. Lag (2001:163).
+
+46 a &#167; F&#246;r f&#246;rs&#246;k eller f&#246;rberedelse till jaktbrott enligt 44 &#167;
+eller jakth&#228;leri enligt 46 &#167; andra stycket d&#246;ms till ansvar
+enligt 23 kap. brottsbalken. Lag (2011:514).
+
+47 &#167; P&#229;tr&#228;ffas n&#229;gon p&#229; bar g&#228;rning d&#229; han eller hon 
+beg&#229;r jaktbrott, f&#229;r vilt och s&#229;dan egendom som enligt 49 &#167; 
+kan antas bli f&#246;rverkad eller som kan antas ha betydelse f&#246;r 
+utredning om brottet tas i beslag av jaktr&#228;ttshavaren eller 
+av n&#229;gon som f&#246;retr&#228;der honom eller henne. Samma befogenhet 
+har s&#228;rskilt f&#246;rordnade jakttillsynsm&#228;n och beh&#246;riga 
+tj&#228;nstem&#228;n vid Kustbevakningen och Tullverket.
+
+Om egendom har tagits i beslag, ska anm&#228;lan om detta 
+skyndsamt g&#246;ras till Polismyndigheten eller &#229;klagaren. Den 
+polisman eller &#229;klagare som tar emot en s&#229;dan anm&#228;lan om 
+beslag ska vidta samma &#229;tg&#228;rder som om han eller hon sj&#228;lv 
+gjort beslaget.
+
+En kustbevakningstj&#228;nsteman som tagit egendom i beslag ska 
+anm&#228;la beslaget till unders&#246;kningsledaren eller &#229;klagaren.
+
+F&#246;r att undvika att vilt som har tagits i beslag f&#246;rst&#246;rs, 
+f&#229;r djuret efter v&#228;rdering s&#228;ljas p&#229; l&#228;mpligt s&#228;tt.
+Lag (2019:38).
+
+48 &#167; Om n&#229;gon har beg&#229;tt jaktbrott eller jakth&#228;leri, skall vilt
+som han eller hon kommit &#246;ver genom brottet f&#246;rklaras
+f&#246;rverkat, om det inte &#228;r uppenbart osk&#228;ligt. I st&#228;llet f&#246;r
+viltet kan dess v&#228;rde helt eller delvis f&#246;rklaras f&#246;rverkat.
+&#196;ven annat utbyte av s&#229;dant brott skall f&#246;rklaras f&#246;rverkat, om
+det inte &#228;r uppenbart osk&#228;ligt.
+
+Vilt som f&#246;rverkats tillfaller jaktr&#228;ttshavaren i de fall som
+f&#246;reskrivs av regeringen. Lag (2005:298).
+
+49 &#167; Jaktredskap, fortskaffningsmedel och annan egendom som
+har anv&#228;nts som hj&#228;lpmedel vid jaktbrott eller jakth&#228;leri f&#229;r
+f&#246;rklaras f&#246;rverkade, om det beh&#246;vs f&#246;r att f&#246;rebygga brott
+eller om det annars finns s&#228;rskilda sk&#228;l. Detsamma g&#228;ller
+egendom som varit avsedd att anv&#228;ndas som hj&#228;lpmedel vid
+s&#229;dana brott, om brottet har fullbordats eller om f&#246;rfarandet
+har utgjort ett straffbart f&#246;rs&#246;k eller en straffbar
+f&#246;rberedelse.
+
+I st&#228;llet f&#246;r egendomen kan dess v&#228;rde helt eller delvis
+f&#246;rklaras f&#246;rverkat. Lag (2011:514).
+
+50 &#167; I fr&#229;ga om f&#246;rverkad egendom g&#228;ller s&#228;rskilda best&#228;mmelser om
+f&#246;rfarandet med s&#229;dan egendom i den m&#229;n inte annat f&#246;ljer av 47 &#167; tredje
+stycket eller 48 &#167; andra stycket. Regeringen f&#229;r meddela f&#246;reskrifter om
+undantag fr&#229;n de s&#228;rskilda best&#228;mmelserna i fr&#229;ga om djur som beh&#246;vs f&#246;r
+forsknings&#228;ndam&#229;l eller av n&#229;gon annan s&#228;rskild anledning inte b&#246;r
+s&#228;ljas p&#229; det s&#228;tt som anges i best&#228;mmelserna.
+
+51 &#167; Vad som s&#228;gs i 46--48 &#167;&#167; om vilt g&#228;ller &#228;ven i fr&#229;ga om skinn, &#228;gg
+och bon.
+
+51 a &#167; Svensk domstol &#228;r beh&#246;rig att d&#246;ma &#246;ver brott enligt 
+denna lag som har beg&#229;tts inom Sveriges ekonomiska zon &#228;ven om 
+det inte finns domsr&#228;tt enligt 2 kap. 3 &#167; brottsbalken.
+Lag (2021:1026).
+
+51 b &#167; Om ett brott enligt denna lag har f&#246;r&#246;vats inom den
+ekonomiska zonen, f&#229;r &#229;tal f&#246;r brottet v&#228;ckas vid den tingsr&#228;tt vars
+domkrets &#228;r n&#228;rmast den plats d&#228;r brottet f&#246;r&#246;vades. Lag (1994:1820).
+
+Bemyndiganden
+
+52 &#167; Regeringen f&#229;r &#246;verl&#229;ta &#229;t en f&#246;rvaltningsmyndighet att
+meddela s&#229;dana f&#246;reskrifter eller beslut som avses i 23–25
+och 29–30 &#167;&#167;, 31 &#167; andra och tredje styckena, 36 &#167;, 40 &#167;
+f&#246;rsta och andra styckena, 41 &#167; f&#246;rsta stycket 2, 48 &#167; andra
+stycket och 50 &#167;. Lag (2009:1261).
+
+Hur beslut f&#229;r &#246;verklagas
+
+53 &#167; Har upph&#228;vts genom lag (2000:593).
+
+54 &#167; F&#246;ljande beslut f&#229;r &#246;verklagas till allm&#228;n 
+f&#246;rvaltningsdomstol:
+
+1. l&#228;nsstyrelsens beslut enligt 6 &#167; om f&#246;rbud mot eller 
+villkor f&#246;r utfodring av vilt,
+
+2. l&#228;nsstyrelsens beslut enligt 33 &#167; om registrering och 
+avregistrering av licensomr&#229;de eller &#228;lgsk&#246;tselomr&#229;de, och
+
+3. l&#228;nsstyrelsens beslut om f&#246;rel&#228;gganden enligt 42 a &#167;.
+
+Andra beslut enligt denna lag f&#229;r inte &#246;verklagas.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+Lag (2021:793).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1987:259
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1988, d&#229; lagen (1938:274) om
+r&#228;tt till jakt skall upph&#246;ra att g&#228;lla.
+
+2. Best&#228;mmelserna i 15--22 &#167;&#167; g&#228;ller inte i fr&#229;ga om uppl&#229;telser av
+jaktr&#228;tt som har skett f&#246;re lagens ikrafttr&#228;dande.
+
+3. &#196;ldre best&#228;mmelser om jaktr&#228;tt f&#246;r bost&#228;llshavare, kronohemmans &#229;bor
+och innehavare av kronotorp, skogstorp, odlingsl&#228;genheter, kolonat och
+fj&#228;ll&#228;genheter och om ansvar och s&#228;rskild r&#228;ttsverkan vid brott mot
+s&#229;dana best&#228;mmelser skall fortfarande g&#228;lla.
+
+4. Den nya lagen inskr&#228;nker inte de r&#228;ttigheter som avses i 8 &#167; f&#246;rsta
+stycket lagen (1938:274) om r&#228;tt till jakt. Best&#228;mmelserna i 8 &#167; andra
+stycket samma lag skall till&#228;mpas ifr&#229;ga om servitut som innefattar
+jaktr&#228;tten p&#229; viss fastighet och som uppl&#229;tits senast den 31 december
+1987.
+
+5. Inom omr&#229;de, som f&#246;r 1987 &#229;rs jakt har registrerats med
+st&#246;d av 13 &#167; jaktstadgan (1938:279) som &#228;lgjaktsomr&#229;de utan att
+vara licensomr&#229;de, f&#229;r &#228;lgjakt ske enligt &#228;ldre best&#228;mmelser tills
+vidare, dock l&#228;ngst till utg&#229;ngen av &#229;r 1994.
+
+Om omr&#229;det best&#229;r av minst fem hektar sammanh&#228;ngande mark,
+skall det f&#246;r tid efter &#229;r 1994 p&#229; ans&#246;kan av omr&#229;dets innehavare
+registreras som licensomr&#229;de enligt 33 &#167; tredje stycket 1 &#228;ven om
+det inte finns s&#228;rskilda sk&#228;l f&#246;r en s&#229;dan registrering. Om omr&#229;det
+best&#229;r av minst tjugo hektar sammanh&#228;ngande mark, skall det, om
+s&#246;kanden beg&#228;r det, i st&#228;llet registreras som licensomr&#229;de enligt
+33 &#167; tredje stycket 2. Ans&#246;kan om registrering skall g&#246;ras f&#246;re utg&#229;ngen
+av &#229;r 1994. Lag (1994:626).
+
+6. F&#246;r &#228;lgjakten inom rensk&#246;tselomr&#229;det f&#229;r regeringen eller myndighet
+som regeringen best&#228;mmer f&#246;r en &#246;verg&#229;ngstid meddela f&#246;reskrifter som
+avviker fr&#229;n best&#228;mmelserna i 33 &#167;.
+
+1991:1769
+
+Denna lag tr&#228;der i kraft den 1 januari 1992. &#196;ldre best&#228;mmelser
+till&#228;mpas dock i fr&#229;ga om beslut som har meddelats f&#246;re ikrafttr&#228;dandet.
+
+1994:1819
+
+1. Denna lag tr&#228;der i kraft samtidigt med lagen (1994:1500) med
+anledning av Sveriges anslutning till Europeiska unionen.
+
+2. 45 &#167; i dess &#228;ldre lydelse g&#228;ller fortfarande i fall d&#229; n&#229;gon f&#246;re
+ikrafttr&#228;dandet har underl&#229;tit att fullg&#246;ra vad som &#229;legat honom
+enligt 38 &#167; andra stycket eller brutit mot en f&#246;reskrift som har
+meddelats med st&#246;d av 37 &#167; eller 38 &#167; f&#246;rsta stycket.
+
+1994:1820
+
+1. Denna lag tr&#228;der i kraft samtidigt med lagen (1994:1500) med
+anledning av Sveriges anslutning till Europeiska unionen.
+
+2. Beslut om f&#246;rbud, f&#246;reskrift, tillst&#229;nd, medgivande eller liknande
+som fattats enligt 37 och 38 &#167; skall anses meddelat med st&#246;d av
+motsvarande best&#228;mmelse i lagen (1994:1818) om &#229;tg&#228;rder
+betr&#228;ffande djur och v&#228;xter som tillh&#246;r skyddade arter, om inte
+regeringen eller den myndighet regeringen best&#228;mmer f&#246;rordnar
+annat.
+
+1995:65
+
+Denna lag tr&#228;der i kraft den 1 april 1995. Beslut som har meddelats
+f&#246;re ikrafttr&#228;dandet &#246;verklagas enligt &#228;ldre best&#228;mmelser.
+
+1996:1554
+
+Denna lag tr&#228;der i kraft den 1 januari 1997, men skall inte
+till&#228;mpas f&#246;r beslut om uppl&#229;telse som fattats med st&#246;d av
+renn&#228;ringslagen (1971:437) f&#246;re denna lags i krafttr&#228;dande.
+
+2000:593
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2001.
+
+2. I fr&#229;ga om s&#229;dana uppl&#229;telser som skett f&#246;re ikrafttr&#228;dandet
+till&#228;mpas &#228;ldre best&#228;mmelser. Om avtalet f&#246;rl&#228;ngs efter
+ikrafttr&#228;dandet till&#228;mpas dock d&#228;refter de nya best&#228;mmelserna i
+st&#228;llet f&#246;r 16-21 &#167;&#167; i sin &#228;ldre lydelse.
+
+3. M&#229;l som &#228;r anh&#228;ngiga vid arrenden&#228;mnden vid ikrafttr&#228;dandet
+skall &#228;ven d&#228;refter handl&#228;ggas av arrenden&#228;mnden.
+
+4. I fr&#229;ga om arrenden&#228;mndens beslut skall best&#228;mmelserna i
+53 &#167; andra och tredje stycket fortfarande till&#228;mpas.
+
+2010:2001
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2012. &#196;lgjakt f&#229;r
+dock bedrivas enligt &#228;ldre f&#246;reskrifter till och med den 29
+februari 2012.
+
+2. Ett omr&#229;de som har registrerats som licensomr&#229;de enligt 33 &#167;
+i dess &#228;ldre lydelse ska utan ans&#246;kan registreras som
+licensomr&#229;de enligt 33 &#167; f&#246;rsta stycket, om omr&#229;det &#228;r av s&#229;dan
+storlek och beskaffenhet i &#246;vrigt att det &#228;r l&#228;mpat f&#246;r &#228;lgjakt
+och medger en avskjutning av minst en &#228;lgkalv om &#229;ret.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3685">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3687">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

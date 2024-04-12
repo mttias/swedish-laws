@@ -1,0 +1,885 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-11-01" /> 
+ <meta id="rattsinfo-edited" content="2023-11-01 09:49:34" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>505</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=504">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=506">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2020:62 ·
+                    <a href="/sfsr?bet=2020:62">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2020:62) om hemlig dataavl&#228;sning</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet D&#197;
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2020-02-27
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:540
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2020-04-01
+                </div>
+                                
+                <div class="result-inner-box">
+                    <span class="bold">Tidsbegränsad:</span> 2025-04-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Ord och uttryck i lagen
+
+1 &#167; Hemlig dataavl&#228;sning inneb&#228;r att uppgifter, som &#228;r avsedda 
+f&#246;r automatiserad behandling, i hemlighet och med ett tekniskt 
+hj&#228;lpmedel l&#228;ses av eller tas upp i ett avl&#228;sningsbart 
+informationssystem. 
+
+I lagen avses med
+
+avl&#228;sningsbart informationssystem: en elektronisk 
+kommunikationsutrustning eller ett anv&#228;ndarkonto till, eller 
+en p&#229; motsvarande s&#228;tt avgr&#228;nsad del av, en 
+kommunikationstj&#228;nst, lagringstj&#228;nst eller liknande tj&#228;nst,
+
+kommunikationsavlyssningsuppgifter: uppgifter om inneh&#229;ll i 
+meddelanden som i ett elektroniskt kommunikationsn&#228;t &#246;verf&#246;rs 
+eller har &#246;verf&#246;rts till eller fr&#229;n ett telefonnummer eller 
+n&#229;gon annan adress,
+
+kommunikations&#246;vervakningsuppgifter: uppgifter om meddelanden 
+som i ett elektroniskt kommunikationsn&#228;t &#246;verf&#246;rs eller har 
+&#246;verf&#246;rts till eller fr&#229;n ett telefonnummer eller n&#229;gon annan 
+adress,
+
+platsuppgifter: uppgifter om i vilket geografiskt omr&#229;de en 
+viss elektronisk kommunikationsutrustning finns eller har 
+funnits,
+
+kamera&#246;vervakningsuppgifter: uppgifter som framkommer genom 
+optisk person&#246;vervakning,
+
+rumsavlyssningsuppgifter: uppgifter som avser tal i enrum, 
+samtal mellan andra eller f&#246;rhandlingar vid sammantr&#228;den 
+eller andra sammankomster som allm&#228;nheten inte har tilltr&#228;de 
+till.
+
+Typer av uppgifter som f&#229;r l&#228;sas av eller tas upp
+
+2 &#167; Tillst&#229;nd till hemlig dataavl&#228;sning f&#229;r beviljas f&#246;r att 
+l&#228;sa av eller ta upp 
+
+1. kommunikationsavlyssningsuppgifter,
+
+2. kommunikations&#246;vervakningsuppgifter,
+
+3. platsuppgifter,
+
+4. kamera&#246;vervakningsuppgifter,
+
+5. rumsavlyssningsuppgifter,
+
+6. uppgifter som finns lagrade i ett avl&#228;sningsbart 
+informationssystem men som inte avses i 1-5, eller
+
+7. uppgifter som visar hur ett avl&#228;sningsbart 
+informationssystem anv&#228;nds men som inte avses i 1-6.
+
+Vid hemlig dataavl&#228;sning som g&#228;ller kommunikationsavlyssnings- 
+eller kommunikations&#246;vervakningsuppgifter f&#229;r meddelanden som 
+&#246;verf&#246;rs eller har &#246;verf&#246;rts i ett elektroniskt 
+kommunikationsn&#228;t &#228;ven hindras fr&#229;n att n&#229; fram.
+
+Grundl&#228;ggande f&#246;ruts&#228;ttning f&#246;r hemlig dataavl&#228;sning
+
+3 &#167; Ett tillst&#229;nd till hemlig dataavl&#228;sning f&#229;r beviljas 
+endast om sk&#228;len f&#246;r &#229;tg&#228;rden uppv&#228;ger det intr&#229;ng eller men i 
+&#246;vrigt som &#229;tg&#228;rden inneb&#228;r f&#246;r den som &#229;tg&#228;rden riktas mot 
+eller f&#246;r n&#229;got annat motst&#229;ende intresse. 
+
+Hemlig dataavl&#228;sning under en f&#246;runders&#246;kning
+
+4 &#167; Ett tillst&#229;nd till hemlig dataavl&#228;sning som inte g&#228;ller 
+rumsavlyssningsuppgifter f&#229;r beviljas vid en f&#246;runders&#246;kning 
+om brott som avses i 27 kap. 18 a &#167; andra stycket 
+r&#228;tteg&#229;ngsbalken, om n&#229;gon &#228;r sk&#228;ligen misst&#228;nkt f&#246;r brottet 
+eller brotten och &#229;tg&#228;rden &#228;r av synnerlig vikt f&#246;r 
+utredningen. Lag (2023:540).
+
+4 a &#167; Ett tillst&#229;nd enligt 4 &#167; f&#229;r endast avse ett 
+avl&#228;sningsbart informationssystem som anv&#228;nds, eller som det 
+finns s&#228;rskild anledning att anta har anv&#228;nts eller kommer att 
+anv&#228;ndas, av den misst&#228;nkte.
+
+Ett tillst&#229;nd enligt 4 &#167; som g&#228;ller kommunikationsavlyssnings-, 
+kommunikations&#246;vervaknings- eller platsuppgifter f&#229;r &#228;ven 
+avse ett avl&#228;sningsbart informationssystem som det finns 
+synnerlig anledning att anta att den misst&#228;nkte under den tid 
+som tillst&#229;ndet avser har kontaktat eller kommer att kontakta.
+
+Ett tillst&#229;nd enligt 4 &#167; som g&#228;ller 
+kamera&#246;vervakningsuppgifter f&#229;r endast avse en plats d&#228;r den 
+misst&#228;nkte kan antas komma att uppeh&#229;lla sig. En s&#229;dan plats 
+f&#229;r dock inte vara n&#229;gons stadigvarande bostad.
+
+Trots tredje stycket f&#229;r ett tillst&#229;nd enligt 4 &#167; som g&#228;ller 
+kamera&#246;vervakningsuppgifter avse den sk&#228;ligen misst&#228;nkte i 
+st&#228;llet f&#246;r en viss plats, om det finns s&#228;rskilda sk&#228;l f&#246;r 
+det. Den hemliga dataavl&#228;sningen f&#229;r d&#229; endast anv&#228;ndas p&#229; en 
+plats d&#228;r den misst&#228;nkte kan antas komma att uppeh&#229;lla sig. En 
+s&#229;dan plats f&#229;r dock inte vara n&#229;gons stadigvarande bostad.
+Lag (2023:540).
+
+4 b &#167; Ett tillst&#229;nd till hemlig dataavl&#228;sning som g&#228;ller 
+kommunikationsavlyssningsuppgifter f&#229;r, om &#229;tg&#228;rden &#228;r av 
+synnerlig vikt f&#246;r utredningen, &#228;ven beviljas f&#246;r att utreda 
+vem som sk&#228;ligen kan misst&#228;nkas f&#246;r brottet eller brotten vid 
+en f&#246;runders&#246;kning om brott som avses i 27 kap. 18 b &#167; andra 
+stycket r&#228;tteg&#229;ngsbalken.
+
+Hemlig dataavl&#228;sning enligt f&#246;rsta stycket f&#229;r endast avse ett 
+avl&#228;sningsbart informationssystem som 
+
+1. det finns s&#228;rskild anledning att anta att g&#228;rningsmannen 
+eller n&#229;gon annan som har medverkat till brottet eller brotten 
+under den tid som tillst&#229;ndet avser har anv&#228;nt eller kommer 
+att anv&#228;nda, eller 
+
+2. det finns synnerlig anledning att anta att g&#228;rningsmannen 
+eller n&#229;gon annan som har medverkat till brottet eller brotten 
+under den tid som tillst&#229;ndet avser har kontaktat eller kommer 
+att kontakta. Lag (2023:540).
+
+5 &#167; Ett tillst&#229;nd till hemlig dataavl&#228;sning som g&#228;ller 
+kommunikations&#246;vervaknings- eller platsuppgifter f&#229;r, om 
+&#229;tg&#228;rden &#228;r av synnerlig vikt f&#246;r utredningen, beviljas f&#246;r 
+att utreda vem som sk&#228;ligen kan misst&#228;nkas f&#246;r brottet eller 
+brotten vid en f&#246;runders&#246;kning om brott som avses i 27 kap. 
+19 b &#167; andra stycket r&#228;tteg&#229;ngsbalken.
+
+Hemlig dataavl&#228;sning enligt f&#246;rsta stycket f&#229;r endast avse ett 
+avl&#228;sningsbart informationssystem som har anv&#228;nts vid ett 
+brott eller i anslutning till en brottsplats vid 
+brottstidpunkten eller som av n&#229;gon annan anledning &#228;r av 
+synnerlig vikt f&#246;r utredningen. Lag (2023:540).
+
+6 &#167; Ett tillst&#229;nd till hemlig dataavl&#228;sning som g&#228;ller 
+rumsavlyssningsuppgifter f&#229;r beviljas vid en f&#246;runders&#246;kning 
+om brott som avses i 27 kap. 20 d &#167; andra stycket 
+r&#228;tteg&#229;ngsbalken, om n&#229;gon &#228;r sk&#228;ligen misst&#228;nkt f&#246;r brottet 
+eller brotten och &#229;tg&#228;rden &#228;r av synnerlig vikt f&#246;r 
+utredningen.
+
+Ett tillst&#229;nd enligt f&#246;rsta stycket f&#229;r endast avse ett 
+avl&#228;sningsbart informationssystem som anv&#228;nds, eller som det 
+finns s&#228;rskild anledning att anta har anv&#228;nts eller kommer att 
+anv&#228;ndas, av den misst&#228;nkte.
+
+Ett tillst&#229;nd enligt f&#246;rsta stycket f&#229;r endast avse en plats 
+d&#228;r det finns s&#228;rskild anledning att anta att den misst&#228;nkte 
+kommer att uppeh&#229;lla sig. Om platsen &#228;r n&#229;gon annan 
+stadigvarande bostad &#228;n den misst&#228;nktes, f&#229;r tillst&#229;nd till 
+hemlig dataavl&#228;sning beviljas endast om det finns synnerlig 
+anledning att anta att den misst&#228;nkte kommer att uppeh&#229;lla sig 
+d&#228;r.
+
+Trots tredje stycket f&#229;r ett tillst&#229;nd enligt f&#246;rsta stycket 
+avse den sk&#228;ligen misst&#228;nkte i st&#228;llet f&#246;r en viss plats, om 
+det finns s&#228;rskilda sk&#228;l f&#246;r det. Den hemliga dataavl&#228;sningen 
+f&#229;r d&#229; endast anv&#228;ndas p&#229; en plats d&#228;r det finns s&#228;rskild 
+anledning att anta att den misst&#228;nkte kommer att uppeh&#229;lla 
+sig. Om platsen &#228;r n&#229;gon annan stadigvarande bostad &#228;n den 
+misst&#228;nktes, f&#229;r den hemliga dataavl&#228;sningen anv&#228;ndas endast 
+om det finns synnerlig anledning att anta att den misst&#228;nkte 
+kommer att uppeh&#229;lla sig d&#228;r. Lag (2023:540). 
+
+6 a &#167; Hemlig dataavl&#228;sning som g&#228;ller kamera&#246;vervaknings- 
+eller rumsavlyssningsuppgifter f&#229;r aldrig anv&#228;ndas p&#229; en plats 
+dit tilltr&#228;destillst&#229;nd enligt 13 &#167; inte f&#229;r beviljas.
+Lag (2023:540).
+
+Hemlig dataavl&#228;sning utanf&#246;r en f&#246;runders&#246;kning
+
+F&#246;rhindrande av vissa s&#228;rskilt allvarliga brott
+
+7 &#167; Ett tillst&#229;nd till hemlig dataavl&#228;sning f&#229;r beviljas om 
+det med h&#228;nsyn till omst&#228;ndigheterna finns en p&#229;taglig risk 
+f&#246;r
+
+1. att en person kommer att ut&#246;va brottslig verksamhet som 
+innefattar brott som anges i 1 &#167; lagen (2007:979) om &#229;tg&#228;rder 
+f&#246;r att f&#246;rhindra vissa s&#228;rskilt allvarliga brott, eller
+
+2. att brottslig verksamhet som innefattar brott som anges i 
+1 &#167; eller 1 a &#167; den lagen kommer att ut&#246;vas inom en 
+organisation eller grupp och det kan befaras att en person som 
+tillh&#246;r eller verkar f&#246;r organisationen eller gruppen medvetet 
+kommer att fr&#228;mja denna verksamhet.
+
+Ett tillst&#229;nd enligt f&#246;rsta stycket f&#229;r beviljas endast om 
+&#229;tg&#228;rden &#228;r av synnerlig vikt f&#246;r att f&#246;rhindra s&#229;dan 
+brottslig verksamhet som anges i det stycket.
+
+Hemlig dataavl&#228;sning som g&#228;ller kamera&#246;vervakningsuppgifter 
+f&#229;r anv&#228;ndas endast p&#229; en plats d&#228;r den person som anges i 
+f&#246;rsta stycket kan antas komma att uppeh&#229;lla sig. En s&#229;dan 
+plats f&#229;r dock inte vara n&#229;gons stadigvarande bostad.
+
+Ett tillst&#229;nd f&#229;r inte avse rumsavlyssningsuppgifter.
+Lag (2023:540).
+
+8 &#167; Hemlig dataavl&#228;sning enligt 7 &#167; f&#229;r avse ett 
+avl&#228;sningsbart informationssystem som anv&#228;nds, eller som det 
+finns s&#228;rskild anledning att anta har anv&#228;nts eller kommer att 
+anv&#228;ndas, av en person som anges i den best&#228;mmelsen.
+
+Hemlig dataavl&#228;sning som g&#228;ller kommunikationsavlyssnings-, 
+kommunikations&#246;vervaknings- eller platsuppgifter f&#229;r &#228;ven avse 
+ett avl&#228;sningsbart informationssystem som det finns synnerlig 
+anledning att anta att en person som anges i 7 &#167; under den tid 
+som tillst&#229;ndet avser har kontaktat eller kommer att kontakta.
+
+S&#228;rskild kontroll av vissa utl&#228;nningar
+
+9 &#167; Ett tillst&#229;nd till hemlig dataavl&#228;sning f&#229;r beviljas f&#246;r 
+att l&#228;sa av eller ta upp uppgifter i ett avl&#228;sningsbart 
+informationssystem som anv&#228;nds, eller som det finns s&#228;rskild 
+anledning att anta har anv&#228;nts eller kommer att anv&#228;ndas, av 
+en utl&#228;nning som omfattas av
+
+1. ett utvisningsbeslut enligt 2 kap. 1 &#167; lagen (2022:700) om 
+s&#228;rskild kontroll av vissa utl&#228;nningar, eller
+
+2. ett avvisnings- eller utvisningsbeslut enligt 8 kap. eller 
+8 a kap. utl&#228;nningslagen (2005:716) om det finns s&#229;dana 
+omst&#228;ndigheter i fr&#229;ga om utl&#228;nningen som avses i 2 kap. 1 &#167; 
+lagen om s&#228;rskild kontroll av vissa utl&#228;nningar.
+
+Ett tillst&#229;nd till hemlig dataavl&#228;sning som g&#228;ller 
+kommunikationsavlyssnings-, kommunikations&#246;vervaknings- eller 
+platsuppgifter f&#229;r ocks&#229; beviljas f&#246;r att l&#228;sa av eller ta upp 
+uppgifter i ett avl&#228;sningsbart informationssystem som det 
+finns synnerlig anledning att anta att utl&#228;nningen under den 
+tid som tillst&#229;ndet avser har kontaktat eller kommer att 
+kontakta.
+
+Tillst&#229;ndet f&#229;r beviljas endast om Migrationsverket, 
+regeringen eller en domstol har beslutat att 5 kap. 5 och 6 &#167;&#167; 
+lagen om s&#228;rskild kontroll av vissa utl&#228;nningar samt denna lag 
+ska till&#228;mpas p&#229; utl&#228;nningen. Det f&#246;rfarande och de 
+f&#246;ruts&#228;ttningar som g&#228;ller f&#246;r ett beslut om att 5 kap. 5 och 
+6 &#167;&#167; lagen om s&#228;rskild kontroll av vissa utl&#228;nningar ska 
+till&#228;mpas i fr&#229;ga om utl&#228;nningen g&#228;ller ocks&#229; f&#246;r ett beslut i 
+fr&#229;ga om hemlig dataavl&#228;sning.
+
+Ett tillst&#229;nd f&#229;r beviljas endast om det finns synnerliga sk&#228;l 
+och det &#228;r av betydelse f&#246;r att klarl&#228;gga om
+
+1. utl&#228;nningen tillh&#246;r eller verkar f&#246;r en organisation eller 
+grupp som planl&#228;gger eller f&#246;rbereder brott enligt 
+terroristbrottslagen (2022:666) eller om det finns en risk f&#246;r 
+att utl&#228;nningen kan komma att engagera sig i en s&#229;dan 
+organisation eller grupp,
+
+2. det finns risk f&#246;r att utl&#228;nningen sj&#228;lv planl&#228;gger eller 
+f&#246;rbereder brott som avses i 1, eller
+
+3. det finns risk f&#246;r att utl&#228;nningen sj&#228;lv eller tillsammans 
+med andra medverkar i eller p&#229; annat s&#228;tt fr&#228;mjar ett 
+allvarligt brott som r&#246;r Sveriges s&#228;kerhet.
+
+Ett tillst&#229;nd f&#229;r inte avse rumsavlyssningsuppgifter.
+Lag (2022:711).
+
+F&#246;rebyggande, f&#246;rhindrande och uppt&#228;ckande av brottslig 
+verksamhet
+
+10 &#167; Ett tillst&#229;nd till hemlig dataavl&#228;sning som g&#228;ller 
+kommunikations&#246;vervaknings- eller platsuppgifter f&#229;r beviljas 
+om &#229;tg&#228;rden &#228;r av synnerlig vikt f&#246;r att f&#246;rebygga, f&#246;rhindra 
+eller uppt&#228;cka brottslig verksamhet som innefattar brott som 
+anges i 2 &#167; lagen (2012:278) om inh&#228;mtning av uppgifter om 
+elektronisk kommunikation i de brottsbek&#228;mpande myndigheternas 
+underr&#228;ttelseverksamhet.
+
+Vid hemlig dataavl&#228;sning enligt f&#246;rsta stycket f&#229;r meddelanden 
+inte hindras att n&#229; fram enligt 2 &#167; andra stycket.
+
+Ett tillst&#229;nd till hemlig dataavl&#228;sning som g&#228;ller 
+kommunikations&#246;vervakningsuppgifter f&#229;r endast avse uppgifter 
+i f&#246;rfluten tid.
+
+F&#246;rbud mot hemlig dataavl&#228;sning
+
+11 &#167; Ett tillst&#229;nd till hemlig dataavl&#228;sning f&#229;r inte avse ett 
+avl&#228;sningsbart informationssystem som stadigvarande anv&#228;nds 
+eller &#228;r s&#228;rskilt avsett att anv&#228;ndas
+
+1. i verksamhet d&#228;r tystnadsplikt g&#228;ller enligt 3 kap. 3 &#167; 
+tryckfrihetsf&#246;rordningen eller 2 kap. 3 &#167; 
+yttrandefrihetsgrundlagen,
+
+2. i verksamhet som bedrivs av advokater, l&#228;kare, tandl&#228;kare, 
+barnmorskor, sjuksk&#246;terskor, psykologer, psykoterapeuter eller 
+familjer&#229;dgivare enligt socialtj&#228;nstlagen (2001:453), eller
+
+3. av pr&#228;ster inom trossamfund eller av dem som har 
+motsvarande st&#228;llning inom s&#229;dana samfund, i verksamhet f&#246;r 
+bikt eller enskild sj&#228;lav&#229;rd.
+
+Tilltr&#228;destillst&#229;nd
+
+12 &#167; Vid hemlig dataavl&#228;sning f&#229;r den verkst&#228;llande 
+myndigheten, efter s&#228;rskilt tillst&#229;nd, i hemlighet skaffa sig 
+tilltr&#228;de till och installera tekniska hj&#228;lpmedel p&#229; en plats 
+som annars skyddas mot intr&#229;ng. Ett s&#229;dant tillst&#229;nd f&#229;r 
+endast avse en plats d&#228;r det finns s&#228;rskild anledning att anta 
+att det avl&#228;sningsbara informationssystemet finns 
+tillg&#228;ngligt. Om platsen &#228;r en bostad som stadigvarande 
+anv&#228;nds av n&#229;gon annan &#228;n den misst&#228;nkte eller en s&#229;dan person 
+som anges i 7 &#167; f&#246;rsta stycket eller 9 &#167; f&#246;rsta stycket, f&#229;r 
+tillst&#229;nd beviljas endast om det finns synnerlig anledning att 
+anta att informationssystemet finns d&#228;r.
+
+13 &#167; Ett tilltr&#228;destillst&#229;nd enligt 12 &#167; f&#229;r inte avse en 
+plats som stadigvarande anv&#228;nds eller &#228;r s&#228;rskilt avsedd att 
+anv&#228;ndas
+
+1. f&#246;r verksamhet d&#228;r tystnadsplikt g&#228;ller enligt 3 kap. 3 &#167; 
+tryckfrihetsf&#246;rordningen eller 2 kap. 3 &#167; 
+yttrandefrihetsgrundlagen,
+
+2. f&#246;r verksamhet som bedrivs av advokater, l&#228;kare, 
+tandl&#228;kare, barnmorskor, sjuksk&#246;terskor, psykologer, 
+psykoterapeuter eller familjer&#229;dgivare enligt 
+socialtj&#228;nstlagen (2001:453), eller
+
+3. av pr&#228;ster inom trossamfund eller av dem som har 
+motsvarande st&#228;llning inom s&#229;dana samfund, f&#246;r bikt eller 
+enskild sj&#228;lav&#229;rd.
+
+Tillst&#229;ndspr&#246;vning
+
+14 &#167; Fr&#229;gor om hemlig dataavl&#228;sning pr&#246;vas av r&#228;tten p&#229; 
+ans&#246;kan av &#229;klagaren. En ans&#246;kan om hemlig dataavl&#228;sning 
+enligt 9 &#167; ska dock g&#246;ras av S&#228;kerhetspolisen.
+
+Om ans&#246;kan avser den sk&#228;ligen misst&#228;nkte enligt 4 a &#167; fj&#228;rde 
+stycket eller 6 &#167; fj&#228;rde stycket, ska &#229;klagaren i samband med 
+ans&#246;kan f&#246;resl&#229; s&#229;dana villkor som avses i 18 &#167; f&#246;rsta stycket 
+4. Lag (2023:540).
+
+15 &#167; Fr&#229;gor om hemlig dataavl&#228;sning under en f&#246;runders&#246;kning 
+pr&#246;vas av den domstol som anges i 19 kap. r&#228;tteg&#229;ngsbalken. Om 
+f&#246;runders&#246;kningen avser ett brott som anges i 27 kap. 34 &#167; 
+r&#228;tteg&#229;ngsbalken, f&#229;r fr&#229;gan &#228;ven pr&#246;vas av Stockholms 
+tingsr&#228;tt.
+
+Fr&#229;gor om hemlig dataavl&#228;sning enligt 7 och 8 &#167;&#167; pr&#246;vas av den 
+domstol som &#228;r beh&#246;rig enligt 6 &#167; lagen (2007:979) om &#229;tg&#228;rder 
+f&#246;r att f&#246;rhindra vissa s&#228;rskilt allvarliga brott.
+
+Fr&#229;gor om hemlig dataavl&#228;sning enligt 9 eller 10 &#167; pr&#246;vas av 
+Stockholms tingsr&#228;tt. Lag (2023:540).
+
+16 &#167; N&#228;r en ans&#246;kan eller anm&#228;lan om hemlig dataavl&#228;sning har 
+kommit in till r&#228;tten, ska r&#228;tten s&#229; snart som m&#246;jligt utse 
+ett offentligt ombud i &#228;rendet och h&#229;lla ett sammantr&#228;de. Vid 
+sammantr&#228;det ska den som gjort ans&#246;kan eller anm&#228;lan och det 
+offentliga ombudet n&#228;rvara. 
+
+F&#246;r offentliga ombud i &#228;renden om hemlig dataavl&#228;sning g&#228;ller 
+27 kap. 26 och 27 &#167;&#167;, 28 &#167; andra stycket samt 29 och 30 &#167;&#167; 
+r&#228;tteg&#229;ngsbalken.
+
+17 &#167; Om det kan befaras att det skulle medf&#246;ra en f&#246;rdr&#246;jning 
+av v&#228;sentlig betydelse f&#246;r utredningen eller f&#246;r m&#246;jligheterna 
+att f&#246;rebygga, f&#246;rhindra eller uppt&#228;cka den brottsliga 
+verksamheten att inh&#228;mta r&#228;ttens tillst&#229;nd i en fr&#229;ga om 
+hemlig dataavl&#228;sning, f&#229;r tillst&#229;nd ges av &#229;klagaren i 
+avvaktan p&#229; r&#228;ttens beslut. Ett s&#229;dant tillst&#229;nd f&#229;r dock 
+aldrig avse hemlig dataavl&#228;sning vid s&#228;rskild 
+utl&#228;nningskontroll enligt 9 &#167;.
+
+Om &#229;klagaren har gett ett tillst&#229;nd enligt f&#246;rsta stycket, ska 
+&#229;klagaren snarast m&#246;jligt skriftligt anm&#228;la beslutet till 
+r&#228;tten. I anm&#228;lan ska sk&#228;len f&#246;r &#229;tg&#228;rden anges. R&#228;tten ska 
+skyndsamt pr&#246;va &#228;rendet. Om r&#228;tten finner att det inte finns 
+sk&#228;l f&#246;r &#229;tg&#228;rden, ska den upph&#228;va beslutet.
+
+Om &#229;klagarens beslut har verkst&#228;llts innan r&#228;tten gjort en 
+pr&#246;vning som avses i andra stycket, ska r&#228;tten pr&#246;va om det 
+funnits sk&#228;l f&#246;r &#229;tg&#228;rden. Om r&#228;tten finner att det saknats 
+s&#229;dana sk&#228;l, f&#229;r de uppgifter som l&#228;sts av eller tagits upp 
+inte anv&#228;ndas i en brottsutredning till nackdel f&#246;r den som 
+har omfattats av &#229;tg&#228;rden, eller f&#246;r n&#229;gon annan som 
+uppgifterna avser. Lag (2023:540).
+
+18 &#167; I ett tillst&#229;nd till hemlig dataavl&#228;sning ska f&#246;ljande 
+anges:
+
+1. vilken tid tillst&#229;ndet avser,
+
+2. vilket avl&#228;sningsbart informationssystem tillst&#229;ndet avser,
+
+3. vilken typ av uppgift enligt 2 &#167; f&#246;rsta stycket som f&#229;r 
+l&#228;sas av eller tas upp,
+
+4. villkor f&#246;r att tillgodose intresset av att enskildas 
+personliga integritet inte kr&#228;nks i on&#246;dan, och
+
+5. vem som &#228;r sk&#228;ligen misst&#228;nkt f&#246;r brottet eller brotten, 
+vid &#229;tg&#228;rd som g&#228;ller rumsavlyssningsuppgifter.
+
+Om tillst&#229;ndet avser en plats enligt 4 a &#167; tredje stycket, 6 &#167; 
+tredje stycket eller 7 &#167; tredje stycket ska &#228;ven platsen anges 
+i tillst&#229;ndet. Om tillst&#229;ndet &#228;r f&#246;renat med ett 
+tilltr&#228;destillst&#229;nd enligt 12 &#167;, ska det anges i beslutet.
+
+Om tillst&#229;ndet avser den sk&#228;ligen misst&#228;nkte enligt 4 a &#167; 
+fj&#228;rde stycket eller 6 &#167; fj&#228;rde stycket, ska det anges i 
+beslutet.
+
+Tiden f&#246;r tillst&#229;ndet f&#229;r inte best&#228;mmas l&#228;ngre &#228;n n&#246;dv&#228;ndigt. 
+N&#228;r det g&#228;ller tid som infaller efter beslutet f&#229;r tiden inte 
+&#246;verstiga en m&#229;nad fr&#229;n dagen f&#246;r beslutet. Lag (2023:540).
+
+19 &#167; P&#229; f&#246;rfarandet enligt denna lag till&#228;mpas reglerna i 
+r&#228;tteg&#229;ngsbalken om handl&#228;ggning vid domstol av fr&#229;gor om 
+tv&#229;ngsmedel i brottm&#229;l och om &#246;verklagande av beslut i s&#229;dana 
+fr&#229;gor, om inte n&#229;got annat anges i denna lag. Handl&#228;ggningen 
+ska ske skyndsamt.
+
+20 &#167; Ett beslut i fr&#229;gor om hemlig dataavl&#228;sning f&#229;r 
+verkst&#228;llas omedelbart.
+
+Om det inte l&#228;ngre finns sk&#228;l f&#246;r ett tillst&#229;nd till hemlig 
+dataavl&#228;sning, ska den som ans&#246;kt om &#229;tg&#228;rden eller r&#228;tten 
+omedelbart upph&#228;va beslutet.
+
+21 &#167; N&#228;r r&#228;tten har beslutat i fr&#229;gor om hemlig dataavl&#228;sning 
+ska den skyndsamt underr&#228;tta S&#228;kerhets- och 
+integritetsskyddsn&#228;mnden om beslutet. 
+
+Genomf&#246;rande av hemlig dataavl&#228;sning
+
+Till&#229;tna tekniska metoder
+
+22 &#167; N&#228;r ett tillst&#229;nd till hemlig dataavl&#228;sning har beviljats 
+f&#229;r de tekniska hj&#228;lpmedel som beh&#246;vs f&#246;r avl&#228;sningen och 
+upptagningen anv&#228;ndas. Om det &#228;r n&#246;dv&#228;ndigt f&#229;r systemskydd 
+brytas eller kringg&#229;s och tekniska s&#229;rbarheter utnyttjas. 
+
+Teknikanpassning och otill&#229;ten till&#228;ggsinformation
+
+23 &#167; Den teknik som anv&#228;nds i samband med hemlig dataavl&#228;sning 
+ska anpassas efter det tillst&#229;nd som beviljats. Tekniken f&#229;r 
+inte g&#246;ra det m&#246;jligt att l&#228;sa av eller ta upp n&#229;gon annan typ 
+av uppgift &#228;n vad som anges i tillst&#229;ndet. Om s&#229;dana uppgifter 
+har l&#228;sts av eller tagits upp ska upptagningar och 
+uppteckningar av dessa uppgifter omedelbart f&#246;rst&#246;ras och 
+S&#228;kerhets- och integritetsskyddsn&#228;mnden underr&#228;ttas. 
+
+Uppgifter som anges i f&#246;rsta stycket f&#229;r inte anv&#228;ndas i en 
+brottsutredning till nackdel f&#246;r den som har omfattats av 
+&#229;tg&#228;rden eller f&#246;r n&#229;gon annan som uppgifterna avser. 
+
+Skyldighet att medverka
+
+24 &#167; Den som bedriver verksamhet som ska anm&#228;las enligt 
+2 kap. 1 &#167; lagen (2022:482) om elektronisk kommunikation &#228;r p&#229; 
+beg&#228;ran av den verkst&#228;llande myndigheten skyldig att medverka 
+i samband med verkst&#228;llighet av hemlig dataavl&#228;sning.
+
+Den som medverkar enligt f&#246;rsta stycket har r&#228;tt till 
+ers&#228;ttning f&#246;r kostnader som uppst&#229;r vid s&#229;dan medverkan. 
+Ers&#228;ttningen ska betalas av den verkst&#228;llande myndigheten.
+Lag (2022:510).
+
+Aktsamhetskrav
+
+25 &#167; N&#228;r ett beslut om hemlig dataavl&#228;sning verkst&#228;lls f&#229;r 
+n&#229;gon ol&#228;genhet eller skada inte f&#246;rorsakas ut&#246;ver vad som &#228;r 
+absolut n&#246;dv&#228;ndigt. Informationss&#228;kerheten i andra 
+avl&#228;sningsbara informationssystem &#228;n det tillst&#229;ndet avser f&#229;r 
+dock inte &#229;sidos&#228;ttas, f&#246;rs&#228;mras eller skadas till f&#246;ljd av 
+verkst&#228;lligheten. 
+
+N&#228;r verkst&#228;lligheten avslutas ska den verkst&#228;llande 
+myndigheten vidta de &#229;tg&#228;rder som beh&#246;vs f&#246;r att 
+informationss&#228;kerheten i det avl&#228;sningsbara informationssystem 
+som tillst&#229;ndet avser ska h&#229;lla minst samma niv&#229; som vid 
+verkst&#228;llighetens b&#246;rjan.
+
+Ett tekniskt hj&#228;lpmedel som har anv&#228;nts ska tas bort, 
+avinstalleras eller annars g&#246;ras obrukbart s&#229; snart det kan 
+ske efter att tiden f&#246;r tillst&#229;ndet har g&#229;tt ut eller 
+tillst&#229;ndet upph&#228;vts.
+
+26 &#167; Den verkst&#228;llande myndigheten ska utse en eller flera 
+personer som f&#229;r verkst&#228;lla hemlig dataavl&#228;sning. S&#229;dana 
+personer ska vara s&#228;rskilt l&#228;mpade f&#246;r uppdraget och ha 
+s&#228;rskilda kunskaper om informationss&#228;kerhet samt den 
+s&#228;rskilda kompetens, utbildning och erfarenhet som i &#246;vrigt &#228;r 
+n&#246;dv&#228;ndig. 
+
+F&#246;rbud att l&#228;sa av eller ta upp vissa uppgifter
+
+27 &#167; Hemlig dataavl&#228;sning enligt 2 &#167; f&#246;rsta stycket 6 eller 7 
+f&#229;r inte avse uppgifter som enligt 27 kap. 2 &#167; 
+r&#228;tteg&#229;ngsbalken hindrar beslag.
+
+Hemlig dataavl&#228;sning som g&#228;ller kommunikationsavlyssnings- 
+eller rumsavlyssningsuppgifter f&#229;r inte avse uppgifter i 
+telefonsamtal, samtal eller andra meddelanden eller tal d&#228;r 
+n&#229;gon som yttrar sig, p&#229; grund av best&#228;mmelserna i 36 kap. 5 &#167; 
+andra-sj&#228;tte styckena r&#228;tteg&#229;ngsbalken, inte skulle ha kunnat 
+h&#246;ras som vittne om det som har sagts eller p&#229; annat s&#228;tt 
+kommit fram.
+
+Om det under verkst&#228;lligheten kommer fram uppgifter som 
+omfattas av f&#246;rsta eller andra stycket ska verkst&#228;lligheten 
+omedelbart avbrytas och upptagningar och uppteckningar 
+omedelbart f&#246;rst&#246;ras i de delar som de omfattas av f&#246;rbudet.
+Lag (2023:540).
+
+&#214;verskottsinformation, granskning och underr&#228;ttelse till 
+enskilda
+
+F&#246;runders&#246;kning
+
+28 &#167; N&#228;r hemlig dataavl&#228;sning anv&#228;nds eller har anv&#228;nts under 
+en f&#246;runders&#246;kning ska det som g&#228;ller f&#246;r hemlig avlyssning av 
+elektronisk kommunikation enligt 27 kap. 23 a och 24 &#167;&#167; 
+r&#228;tteg&#229;ngsbalken i lydelsen f&#246;re den 1 oktober 2023 till&#228;mpas 
+f&#246;r &#229;tg&#228;rden. Det som g&#228;ller f&#246;r hemlig rumsavlyssning ska 
+dock till&#228;mpas f&#246;r hemlig dataavl&#228;sning som g&#228;ller 
+rumsavlyssningsuppgifter.
+
+F&#246;r underr&#228;ttelse till en enskild vid hemlig dataavl&#228;sning 
+under f&#246;runders&#246;kning g&#228;ller 27 kap. 31-33 &#167;&#167; 
+r&#228;tteg&#229;ngsbalken. Det som anges d&#228;r om
+
+- hemlig kamera&#246;vervakning ska till&#228;mpas f&#246;r hemlig 
+dataavl&#228;sning som g&#228;ller kamera&#246;vervakningsuppgifter
+
+- hemlig rumsavlyssning ska till&#228;mpas f&#246;r hemlig dataavl&#228;sning 
+som g&#228;ller rumsavlyssningsuppgifter
+
+- hemlig avlyssning av elektronisk kommunikation ska till&#228;mpas 
+f&#246;r hemlig dataavl&#228;sning i &#246;vrigt
+
+- telefonnummer, annan adress eller en viss elektronisk 
+kommunikationsutrustning ska avse avl&#228;sningsbart 
+informationssystem. Lag (2023:540).
+
+F&#246;rhindrande av vissa s&#228;rskilt allvarliga brott
+
+29 &#167; N&#228;r hemlig dataavl&#228;sning anv&#228;nds eller har anv&#228;nts i fall 
+som anges i 7 &#167; ska 12 och 13 &#167;&#167; lagen (2007:979) om &#229;tg&#228;rder 
+f&#246;r att f&#246;rhindra vissa s&#228;rskilt allvarliga brott i lydelsen 
+f&#246;re den 1 oktober 2023 till&#228;mpas.
+
+F&#246;r underr&#228;ttelse till en enskild vid hemlig dataavl&#228;sning i 
+fall som anges i 7 &#167; g&#228;ller 16-18 &#167;&#167; lagen om &#229;tg&#228;rder f&#246;r att 
+f&#246;rhindra vissa s&#228;rskilt allvarliga brott. Det som anges d&#228;r 
+om
+
+- hemlig kamera&#246;vervakning ska till&#228;mpas f&#246;r hemlig 
+dataavl&#228;sning som g&#228;ller kamera&#246;vervakningsuppgifter
+
+- hemlig avlyssning av elektronisk kommunikation ska till&#228;mpas 
+f&#246;r hemlig dataavl&#228;sning i &#246;vrigt
+
+- telefonnummer, annan adress eller en viss elektronisk 
+kommunikationsutrustning ska avse avl&#228;sningsbart 
+informationssystem. Lag (2023:540).
+
+S&#228;rskild kontroll av vissa utl&#228;nningar
+
+30 &#167; N&#228;r hemlig dataavl&#228;sning anv&#228;nds eller har anv&#228;nts i fall 
+som anges i 9 &#167; ska 5 kap. 20 och 23 &#167;&#167; lagen (2022:700) om 
+s&#228;rskild kontroll av vissa utl&#228;nningar till&#228;mpas. Det som 
+anges d&#228;r om hemlig avlyssning av elektronisk kommunikation, 
+hemlig &#246;vervakning av elektronisk kommunikation och hemlig 
+kamera&#246;vervakning ska till&#228;mpas f&#246;r hemlig dataavl&#228;sning.
+Lag (2022:711).
+
+F&#246;rebyggande, f&#246;rhindrande och uppt&#228;ckande av brottslig 
+verksamhet
+
+31 &#167; N&#228;r hemlig dataavl&#228;sning anv&#228;nds eller har anv&#228;nts i fall 
+som anges i 10 &#167; ska 6 och 8 &#167;&#167; lagen (2012:278) om inh&#228;mtning 
+av uppgifter om elektronisk kommunikation i de 
+brottsbek&#228;mpande myndigheternas underr&#228;ttelseverksamhet 
+till&#228;mpas. Det som anges d&#228;r om inh&#228;mtning av uppgifter ska 
+till&#228;mpas f&#246;r hemlig dataavl&#228;sning.
+
+Uppgifter som har kommit fram vid hemlig dataavl&#228;sning enligt 
+10 &#167; f&#229;r anv&#228;ndas i en f&#246;runders&#246;kning endast efter tillst&#229;nd 
+till hemlig dataavl&#228;sning enligt 4 eller 5 &#167; som g&#228;ller 
+kommunikations&#246;vervaknings- eller platsuppgifter. Utan ett 
+s&#229;dant tillst&#229;nd f&#229;r dock inh&#228;mtade uppgifter ligga till grund 
+f&#246;r beslut om att inleda en f&#246;runders&#246;kning.
+
+Tystnadsplikt
+
+32 &#167; Den som i samband med verksamhet som ska anm&#228;las enligt 
+2 kap. 1 &#167; lagen (2022:482) om elektronisk kommunikation har 
+f&#229;tt del av eller tillg&#229;ng till en uppgift som h&#228;nf&#246;r sig till 
+anv&#228;ndning av hemlig dataavl&#228;sning, f&#229;r inte obeh&#246;rigen f&#246;ra 
+vidare eller utnyttja det han eller hon f&#229;tt del av eller 
+tillg&#229;ng till. Lag (2022:510).
+
+R&#228;tt att meddela f&#246;reskrifter
+
+33 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+kan med st&#246;d av 8 kap. 7 &#167; regeringsformen meddela n&#228;rmare 
+f&#246;reskrifter om 
+
+1. underr&#228;ttelser enligt 23 &#167;, och
+
+2. medverkan och ers&#228;ttning enligt 24 &#167;.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2022:711
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2022.
+
+2. Best&#228;mmelsen i 9 &#167; f&#246;rsta stycket 1 i den nya lydelsen 
+till&#228;mpas &#228;ven vid ett beslut om utvisning som har meddelats 
+f&#246;re ikrafttr&#228;dandet enligt 1 &#167; 2 och 2 &#167; f&#246;rsta stycket i den 
+upph&#228;vda lagen (1991:572) om s&#228;rskild utl&#228;nningskontroll.
+
+2023:540
+
+1. Denna lag tr&#228;der i kraft den 1 oktober 2023.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r tillst&#229;nd som har 
+beviljats f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=504">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=506">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

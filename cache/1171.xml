@@ -1,0 +1,634 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2014-12-04" /> 
+ <meta id="rattsinfo-edited" content="2018-10-31" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1171</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1170">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1172">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2014:1374 ·
+                    <a href="/sfsr?bet=2014:1374">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2014:1374) om f&#246;rvaltning av fonden f&#246;r europeiskt bist&#229;nd till dem som har det s&#228;mst st&#228;llt</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Socialdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2014-11-13
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:870
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2015-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning g&#228;ller f&#246;rvaltningen av fonden f&#246;r
+europeiskt bist&#229;nd till dem som har det s&#228;mst st&#228;llt f&#246;r att
+genomf&#246;ra det operativa programmet. F&#246;rordningen inneh&#229;ller
+best&#228;mmelser som kompletterar
+
+1. Europaparlamentets och r&#229;dets f&#246;rordning (EU, Euratom) nr
+966/2012 av den 25 oktober 2012 om finansiella regler f&#246;r
+unionens allm&#228;nna budget och om upph&#228;vande av r&#229;dets
+f&#246;rordning (EG, Euratom) nr 1605/2002,
+
+2. Europaparlamentets och r&#229;dets f&#246;rordning (EU) nr 223/2014
+av den 11 mars 2014 om fonden f&#246;r europeiskt bist&#229;nd till dem
+som har det s&#228;mst st&#228;llt, och
+
+3. kommissionens delegerade f&#246;rordning (EU) nr 532/2014 av
+den 13 mars 2014 om komplettering av Europaparlamentets och
+r&#229;dets f&#246;rordning (EU) nr 223/2014 om fonden f&#246;r europeiskt
+bist&#229;nd till dem som har det s&#228;mst st&#228;llt.
+
+2 &#167; I denna f&#246;rordning betyder operativt program det
+operativa programmet f&#246;r social delaktighet f&#246;r dem som har
+det s&#228;mst st&#228;llt.
+
+Organisation
+
+3 &#167; R&#229;det f&#246;r Europeiska socialfonden i Sverige (Svenska
+ESF-r&#229;det) &#228;r f&#246;rvaltande myndighet enligt artikel 31.1 i
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) nr 223/2014 f&#246;r
+det operativa programmet.
+
+Svenska ESF-r&#229;det &#228;r &#228;ven attesterande myndighet enligt
+artikel 31.2 i den f&#246;rordningen f&#246;r det operativa
+programmet.
+
+4 &#167; F&#246;r det operativa programmet ska det finnas en
+&#246;vervakningskommitt&#233;.
+
+Ordf&#246;rande i &#246;vervakningskommitt&#233;n utses av regeringen.
+Regeringen beslutar om vilka ber&#246;rda myndigheter och andra
+parter som ska vara f&#246;retr&#228;dda i &#246;vervakningskommitt&#233;n. Dessa
+ska i sin tur utse sina f&#246;retr&#228;dare i &#246;vervakningskommitt&#233;n
+enligt &#246;ppna f&#246;rfaranden.
+
+F&#246;r beslut av &#246;vervakningskommitt&#233;n kr&#228;vs enh&#228;llighet.
+
+5 &#167; Svenska ESF-r&#229;det ska bist&#229; &#246;vervakningskommitt&#233;n och
+offentligg&#246;ra en f&#246;rteckning &#246;ver kommitt&#233;ns medlemmar.
+
+6 &#167; Ekonomistyrningsverket &#228;r revisionsmyndighet enligt
+artikel 31.4 i Europaparlamentets och r&#229;dets f&#246;rordning (EU)
+nr 223/2014 f&#246;r det operativa programmet.
+
+Handl&#228;ggning av st&#246;d&#228;renden
+
+7 &#167; Fr&#229;gor om st&#246;d pr&#246;vas av Svenska ESF-r&#229;det och en ans&#246;kan
+om s&#229;dant st&#246;d ska ges in till Svenska ESF-r&#229;det.
+
+8 &#167; Svenska ESF-r&#229;det ska kontrollera att ans&#246;kan avser st&#246;d
+som &#228;r f&#246;renligt med det operativa programmet och med
+till&#228;mpliga unionsr&#228;ttsliga och nationella best&#228;mmelser.
+
+Svenska ESF-r&#229;det ska till&#228;mpa s&#229;dana urvalskriterier som
+avses i artikel 32.3 i Europaparlamentets och r&#229;dets
+f&#246;rordning (EU) nr 223/2014 och bed&#246;ma vilka projekt som
+bidrar till att uppn&#229; de specifika m&#229;len och resultaten inom
+insatsomr&#229;dena.
+
+St&#246;d f&#229;r inte beviljas f&#246;r aktiviteter f&#246;r vilka statsbidrag
+beviljats enligt f&#246;rordningen (2011:1062) om statsbidrag till
+vissa organisationer inom det sociala omr&#229;det m.m.
+
+9 &#167; Svenska ESF-r&#229;dets beslut om beviljande av st&#246;d ska
+inneh&#229;lla uppgifter om vilka f&#246;reskrifter som till&#228;mpats och
+vilka omst&#228;ndigheter som varit avg&#246;rande f&#246;r utg&#229;ngen samt
+ange det f&#246;rv&#228;ntade resultatet av projektet. De villkor som
+beslutet &#228;r f&#246;renat med samt projektets budget och
+finansieringsplan ska s&#228;rskilt framg&#229; av beslutet.
+
+Om det finns flera st&#246;dmottagare i ett projekt, ska detta
+framg&#229; av beslutet om st&#246;d.
+
+10 &#167; Svenska ESF-r&#229;det ska i beslutet om beviljande av st&#246;d
+ange hur utgifterna i projektet ska redovisas. Det ska framg&#229;
+vilket av de alternativ som avses i 13 &#167; f&#246;rsta stycket 6 som
+g&#228;ller f&#246;r varje utgiftsslag.
+
+11 &#167; St&#246;d f&#229;r betalas ut endast om utgifterna &#228;r
+st&#246;dber&#228;ttigande enligt 13–30 &#167;&#167;. I annat fall ska Svenska
+ESF-r&#229;det besluta att inte betala ut motsvarande del av
+st&#246;det.
+
+12 &#167; Svenska ESF-r&#229;det f&#229;r, om det finns s&#228;rskilda sk&#228;l och
+efter pr&#246;vning av projektets ekonomiska b&#228;rkraft, besluta om
+f&#246;rskott p&#229; st&#246;det. F&#246;rskott f&#229;r l&#228;mnas med h&#246;gst h&#228;lften av
+det beviljade st&#246;det, dock h&#246;gst 250 000 kronor.
+
+St&#246;dber&#228;ttigande utgifter
+
+Inledande best&#228;mmelser
+
+13 &#167; Utgifter &#228;r st&#246;dber&#228;ttigande om de
+
+1. har uppkommit f&#246;r att genomf&#246;ra projektet,
+
+2. &#228;r sk&#228;liga,
+
+3. har uppkommit under den projektperiod som Svenska
+ESF-r&#229;det har fastst&#228;llt,
+
+4. &#228;r f&#246;renliga med unionsr&#228;ttsliga och nationella
+best&#228;mmelser,
+
+5. uppfyller de villkor som angetts i st&#246;dbeslutet, och
+
+6. antingen kan styrkas av st&#246;dmottagaren genom kopior av
+fakturor, bokf&#246;ringsunderlag eller andra handlingar som har
+bokf&#246;rts i enlighet med god redovisningssed eller uppfyller
+de krav som g&#228;ller f&#246;renklade redovisningsalternativ enligt
+vad som n&#228;rmare framg&#229;r av artikel 25 i Europaparlamentets
+och r&#229;dets f&#246;rordning (EU) nr 223/2014.
+
+Best&#228;mmelserna i 18–30 &#167;&#167; g&#228;ller inte f&#246;r utgifter som
+omfattas av ett s&#229;dant f&#246;renklat redovisningsalternativ som
+avses i f&#246;rsta stycket 6.
+
+14 &#167; Om det finns s&#228;rskilda sk&#228;l, kan en utgift som inte
+uppfyller de krav som st&#228;lls i 13 &#167; f&#246;rsta stycket 4 och 5
+&#228;nd&#229; vara st&#246;dber&#228;ttigande till viss del. St&#246;det f&#246;r utgiften
+ska d&#229; s&#228;ttas ned i proportion till avvikelsens art och
+allvar. Neds&#228;ttningen ska &#229;tminstone motsvara den ekonomiska
+f&#246;rlust f&#246;r det allm&#228;nna som avvikelsen kan bed&#246;mas orsaka.
+
+Vid en bed&#246;mning enligt f&#246;rsta stycket ska de riktlinjer om
+finansiella korrigeringar som Europeiska kommissionen ger ut
+tj&#228;na som v&#228;gledning.
+
+15 &#167; Projekt ska bedrivas p&#229; ett kostnadseffektivt s&#228;tt. 
+Utgifter som med h&#228;nsyn till omst&#228;ndigheterna framst&#229;r som 
+osk&#228;liga &#228;r helt eller delvis inte st&#246;dber&#228;ttigande.
+
+En st&#246;dmottagare som inte till&#228;mpar lagen (2016:1145) om 
+offentlig upphandling ska vid k&#246;p, hyra och leasing f&#246;lja de 
+principer som framg&#229;r av 4 kap. 1 &#167; den lagen.
+F&#246;rordning (2016:1173).
+
+16 &#167; St&#246;det ska minskas med de int&#228;kter som projektet medf&#246;r.
+Int&#228;kter i eller genom ett projekt ska l&#246;pande redovisas av
+st&#246;dmottagaren.
+
+Vissa utgifter som inte kan vara st&#246;dber&#228;ttigande
+
+17 &#167; F&#246;ljande utgifter kan inte vara st&#246;dber&#228;ttigande:
+
+1. finansiella utgifter,
+
+2. b&#246;ter, sanktionsavgifter eller r&#228;tteg&#229;ngskostnader,
+
+3. utgifter f&#246;r underleverant&#246;rskontrakt, om
+
+a) anlitande av en underleverant&#246;r &#246;kar kostnaden f&#246;r
+projektet utan att tillf&#246;ra n&#229;got motsvarande v&#228;rde, eller
+
+b) utgiften f&#246;r underleverant&#246;ren ber&#228;knats med en
+procentuell andel av totalkostnaden f&#246;r projektet, och
+
+4. utgifter f&#246;r k&#246;p av fastigheter.
+
+Utgifter f&#246;r g&#229;vor
+
+18 &#167; Utgifter f&#246;r g&#229;vor &#228;r st&#246;dber&#228;ttigande upp till ett
+belopp om 450 kronor per g&#229;va och endast n&#228;r de h&#246;r samman
+med marknadsf&#246;ring, kommunikation, reklam eller information.
+
+Utgifter f&#246;r personal
+
+19 &#167; Utgifter f&#246;r personal ska avse bruttol&#246;nekostnader f&#246;r
+personal med f&#246;ljande typ av anst&#228;llning hos
+st&#246;dmottagaren:
+
+1. heltidsanst&#228;llning,
+
+2. deltidsanst&#228;llning med en fast andel av arbetstiden per
+m&#229;nad,
+
+3. deltidsanst&#228;llning med ett varierande antal arbetstimmar
+per m&#229;nad, och
+
+4. timanst&#228;llning.
+
+20 &#167; Utgifter f&#246;r arvodering av personal som inte &#228;r anst&#228;lld
+av st&#246;dmottagaren &#228;r st&#246;dber&#228;ttigande endast om arvodet
+fastst&#228;llts i ett avtal som har godk&#228;nts av Svenska ESF-r&#229;det
+eller om arvodet framg&#229;r av lag eller annan f&#246;rfattning.
+
+21 &#167; F&#246;ljande utgifter f&#246;r personal &#228;r st&#246;dber&#228;ttigande:
+
+1. l&#246;ner som betalats ut i samband med verksamhet som
+st&#246;dmottagaren inte skulle utf&#246;ra om det inte vore f&#246;r det
+ber&#246;rda projektet, som fastst&#228;llts i ett anst&#228;llningsavtal,
+arbetsavtal eller anst&#228;llningsbeslut (nedan kallade
+anst&#228;llningsbevis) eller i lag eller annan f&#246;rfattning och
+som g&#228;ller de arbetsuppgifter som anges i arbetsbeskrivningen
+f&#246;r den ber&#246;rda arbetstagaren,
+
+2. andra kostnader som arbetsgivaren haft och betalat och som
+&#228;r direkt kopplade till l&#246;ner och f&#246;rm&#229;ner, s&#229;som skatter och
+sociala avgifter inklusive pensioner, f&#246;rutsatt att
+
+a) de har fastst&#228;llts i ett anst&#228;llningsbevis, framg&#229;r av lag
+eller annan f&#246;rfattning eller avser personalv&#229;rdande
+kostnader av mindre omfattning som inte ska beskattas som
+inkomst av tj&#228;nst hos den anst&#228;llde, och
+
+b) de inte kan &#229;terkr&#228;vas av arbetsgivaren.
+
+22 &#167; Om personalutgifterna ska ers&#228;ttas utifr&#229;n faktiska
+kostnader, ska dessa styrkas genom att l&#246;nespecifikationer
+ges in.
+
+23 &#167; Personalutgifter f&#246;r personer som arbetar deltid med
+projektet ska ber&#228;knas som
+
+1. en fast procentsats av bruttopersonalkostnaden, i enlighet
+med att en fast andel av arbetstiden &#228;gnas &#229;t projektet, utan
+skyldighet att inf&#246;ra ett separat tidsregistreringssystem,
+eller
+
+2. en varierande andel av bruttopersonalkostnaden, i enlighet
+med att det antal arbetstimmar som &#228;gnas &#229;t projektet
+varierar fr&#229;n m&#229;nad till m&#229;nad, baserat p&#229; ett
+tidsregistreringssystem som t&#228;cker 100 procent av den
+anst&#228;lldes arbetstid.
+
+24 &#167; F&#246;r deltidsuppgifter enligt 23 &#167; 1 ska arbetsgivaren
+utf&#228;rda ett intyg f&#246;r varje anst&#228;lld och i det ange hur stor
+andel av tiden som den anst&#228;llde ska arbeta med projektet.
+
+F&#246;r deltidsuppgifter enligt 23 &#167; 2 ska ers&#228;ttningen av
+personalkostnaderna ber&#228;knas p&#229; grundval av en timl&#246;n som
+fastst&#228;lls
+
+1. genom att bruttopersonalkostnaden per m&#229;nad divideras med
+det antal arbetstimmar per m&#229;nad som anges i
+anst&#228;llningsbeviset, eller
+
+2. genom att den senaste dokumenterade
+bruttopersonalkostnaden per &#229;r divideras med 1 720 timmar.
+
+Timl&#246;nen ska multipliceras med det faktiska antalet timmar
+som &#228;gnats &#229;t projektet.
+
+25 &#167; Personalkostnader f&#246;r personer som enligt
+anst&#228;llningsbeviset &#228;r timanst&#228;llda ska vara
+st&#246;dber&#228;ttigande. Det faktiska antalet timmar som personerna
+enligt ett tidsregistreringssystem har arbetat med projektet
+ska multipliceras med den timl&#246;n som anges i
+anst&#228;llningsbeviset.
+
+Utgifter f&#246;r kontorslokaler, kontorsmateriel och
+administration
+
+26 &#167; F&#246;ljande utgifter f&#246;r kontorslokaler, kontorsmateriel
+och administration &#228;r st&#246;dber&#228;ttigande:
+
+1. hyra f&#246;r kontorslokaler,
+
+2. f&#246;rs&#228;kringsavgifter och skatter f&#246;r kontorslokaler och f&#246;r
+kontorsutrustning,
+
+3. kontorsmateriel,
+
+4. ekonomi- och l&#246;neadministration,
+
+5. bankavgifter f&#246;r konton och kort,
+
+6. arkiv,
+
+7. underh&#229;ll, st&#228;dning och reparationer,
+
+8. s&#228;kerhet,
+
+9. it-system,
+
+10. el, gas, v&#228;rme och vatten, och
+
+11. kommunikation.
+
+Utgifter f&#246;r resor och logi
+
+27 &#167; F&#246;ljande utgifter f&#246;r resor och logi &#228;r
+st&#246;dber&#228;ttigande:
+
+1. f&#246;r resor, s&#229;som biljetter, rese- och bilf&#246;rs&#228;kring,
+br&#228;nsle, milers&#228;ttning, v&#228;gtullar och parkeringsavgifter,
+
+2. f&#246;r m&#229;ltider, om de inte t&#228;cks av traktamente,
+
+3. f&#246;r logi,
+
+4. f&#246;r visum, och
+
+5. f&#246;r dagtraktamenten.
+
+Utgifter f&#246;r utrustning,  materiel och externa lokaler
+
+28 &#167; Utgifter f&#246;r finansiering av utrustning och materiel som
+k&#246;ps, hyrs eller leasas av st&#246;dmottagaren f&#246;r att genomf&#246;ra
+projektet &#228;r st&#246;dber&#228;ttigande.
+
+&#196;ven hyra av externa lokaler f&#246;r att genomf&#246;ra projektet &#228;r
+st&#246;dber&#228;ttigande.
+
+Om det st&#229;r klart att den utrustning som k&#246;ps in kommer att
+ha ett v&#228;rde n&#228;r projektet avslutas, f&#229;r Svenska ESF-r&#229;det
+besluta att utgiften &#228;r st&#246;dber&#228;ttigande endast till viss
+del. Om utrustningen s&#228;ljs i samband med att projektet
+avslutas, ska inkomsten r&#228;knas av fr&#229;n st&#246;det.
+
+29 &#167; Ut&#246;ver vad som s&#228;gs i 28 &#167; g&#228;ller att utgifter f&#246;r k&#246;p
+av begagnad utrustning &#228;r st&#246;dber&#228;ttigande endast om
+
+1. inget annat st&#246;d f&#246;r utrustningen har mottagits,
+
+2. utrustningens pris &#228;r marknadsm&#228;ssigt, och
+
+3. utrustningen har de tekniska egenskaper som beh&#246;vs f&#246;r
+projektet och uppfyller g&#228;llande normer och standarder.
+
+Utgifter f&#246;r extern sakkunskap och externa tj&#228;nster
+
+30 &#167; Utgifter f&#246;r extern sakkunskap och externa tj&#228;nster f&#246;r
+att genomf&#246;ra projektet &#228;r st&#246;dber&#228;ttigande.
+
+Upph&#228;vande av beslut, &#229;terbetalningsskyldighet och
+rapportering
+
+31 &#167; Om beslut om st&#246;d har fattats p&#229; grund av oriktig,
+vilseledande eller ofullst&#228;ndig uppgift fr&#229;n s&#246;kanden eller
+om denne brutit mot de villkor som g&#228;ller f&#246;r st&#246;det, f&#229;r
+Svenska ESF-r&#229;det upph&#228;va beslutet helt eller delvis.
+
+32 &#167; Om ett st&#246;dbeslut upph&#228;vs sedan st&#246;d har betalats ut
+till f&#246;ljd av beslutet, eller om en st&#246;dmottagare i &#246;vrigt
+har tagit emot st&#246;d f&#246;r utgifter som inte &#228;r
+st&#246;dber&#228;ttigande, &#228;r st&#246;dmottagaren &#229;terbetalningsskyldig f&#246;r
+beloppet. Svenska ESF-r&#229;det ska kr&#228;va att motsvarande del av
+st&#246;det betalas tillbaka. &#197;terbetalning f&#229;r kr&#228;vas inom tio &#229;r
+fr&#229;n det att beloppet betalades ut.
+
+Om det belopp som ska &#229;terbetalas understiger 2 000 kronor
+f&#229;r, Svenska ESF-r&#229;det l&#229;ta bli att kr&#228;va tillbaka st&#246;det.
+
+33 &#167; Om st&#246;dmottagaren inte &#228;r ber&#228;ttigad till ett st&#246;dbelopp
+och detta ska &#229;terbetalas, ska r&#228;nta tas ut enligt r&#228;ntelagen
+(1975:635). Svenska ESF-r&#229;det f&#229;r s&#228;tta ned r&#228;ntekravet om
+det finns s&#228;rskilda sk&#228;l.
+
+34 &#167; &#196;r n&#229;gon &#229;terbetalningsskyldig enligt 32 &#167; eller skyldig
+att betala r&#228;nta enligt 33 &#167; f&#229;r annat st&#246;d enligt denna
+f&#246;rordning kvittas mot skulden.
+
+35 &#167; Svenska ESF-r&#229;det ska ansvara f&#246;r rapporteringen av
+oriktigheter inom det operativa programmet i enlighet med
+artikel 30.2 i Europaparlamentets och r&#229;dets f&#246;rordning (EU)
+nr 223/2014.
+
+En underr&#228;ttelse om inneh&#229;llet i rapporteringen ska s&#228;ndas
+till Ekobrottsmyndigheten och Ekonomistyrningsverket.
+
+&#214;verklagande
+
+36 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns 
+best&#228;mmelser om &#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. 
+Andra beslut &#228;n beslut enligt 11, 31 och 34 &#167;&#167; f&#229;r dock inte 
+&#246;verklagas. F&#246;rordning (2018:870).
+
+Bemyndigande
+
+37 &#167; Svenska ESF-r&#229;det f&#229;r meddela f&#246;reskrifter om
+verkst&#228;lligheten av denna f&#246;rordning.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1170">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1172">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

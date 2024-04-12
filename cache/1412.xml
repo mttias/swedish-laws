@@ -1,0 +1,935 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-17" /> 
+ <meta id="rattsinfo-edited" content="2023-01-17 15:03:59" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1412</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1411">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1413">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2012:707 ·
+                    <a href="/sfsr?bet=2012:707">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">V&#228;gf&#246;rordning (2012:707)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSIB TP
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2012-11-22
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:1251
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2013-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+F&#246;rordningens till&#228;mpningsomr&#229;de
+
+1 &#167; Denna f&#246;rordning g&#228;ller allm&#228;n v&#228;g och inneh&#229;ller
+f&#246;reskrifter i anslutning till v&#228;glagen (1971:948). Allm&#228;n v&#228;g
+&#228;r riksv&#228;g eller l&#228;nsv&#228;g.
+
+V&#228;ganordningar
+
+2 &#167; En parkeringsplats, rastplats eller annan
+uppst&#228;llningsplats f&#246;r fordon r&#228;knas som v&#228;ganordning endast
+om den har anslutning till och ligger i n&#228;rheten av v&#228;gbanan
+samt &#228;r huvudsakligen avsedd som hj&#228;lpmedel &#229;t
+v&#228;gtrafikanterna f&#246;r f&#228;rden p&#229; v&#228;gen.
+
+En anordning f&#246;r skydd mot v&#228;gtrafikbuller f&#229;r r&#228;knas som
+v&#228;ganordning endast om den ligger p&#229; eller i anslutning till
+ett omr&#229;de som har tagits i anspr&#229;k f&#246;r n&#229;gon annan
+v&#228;ganordning.
+
+3 &#167; Mark intill v&#228;gbanan eller annan v&#228;ganordning som &#228;r
+avsedd till kantremsa f&#229;r vara v&#228;ganordning endast till en
+bredd av h&#246;gst tv&#229; meter.
+
+2 kap. V&#228;gh&#229;llning
+
+V&#228;gh&#229;llningsmyndighet
+
+1 &#167; Trafikverkets region &#228;r statlig v&#228;gh&#229;llningsmyndighet.
+Kommunala v&#228;gh&#229;llningsmyndigheter regleras i 6 &#167; andra stycket
+v&#228;glagen (1971:948).
+
+&#196;ndring av en kommuns v&#228;gh&#229;llningsomr&#229;de
+
+2 &#167; &#196;ndring av en kommuns v&#228;gh&#229;llningsomr&#229;de beslutas av
+Trafikverket. Innan ett s&#229;dant beslut meddelas, ska
+Trafikverket h&#246;ra kommunen och l&#228;nsstyrelsen.
+
+Kommunen och l&#228;nsstyrelsen ska underr&#228;ttas om beslut i &#228;renden
+om &#228;ndring av v&#228;gh&#229;llningsomr&#229;de. L&#228;nsstyrelsen ska i l&#228;nets
+f&#246;rfattningssamling f&#246;ra in meddelande om ett beslut som
+inneb&#228;r att ett v&#228;gh&#229;llningsomr&#229;de &#228;ndrats.
+
+3 kap. Byggande av v&#228;g
+
+Inledande best&#228;mmelser
+
+Ansvar f&#246;r samordning
+
+1 &#167; Den som avser att bygga en v&#228;g ansvarar f&#246;r att
+planeringen av v&#228;gen s&#229; l&#229;ngt m&#246;jligt samordnas med den
+kommunala planeringen.
+
+Begr&#228;nsning av intr&#229;ng till f&#246;ljd av v&#228;gbygge
+
+2 &#167; Den som uppr&#228;ttar en v&#228;gplan ska utreda m&#246;jligheterna att
+genom fastighetsr&#228;ttsliga &#229;tg&#228;rder eller &#229;tg&#228;rder enligt
+anl&#228;ggningslagen (1973:1149) avhj&#228;lpa eller minska intr&#229;ng
+till f&#246;ljd av v&#228;gbygget.
+
+Naturv&#229;rdsf&#246;reskrifter
+
+3 &#167; Undantag fr&#229;n best&#228;mmelser om marks bebyggande eller
+anv&#228;ndning som avses i 14 &#167; tredje stycket v&#228;glagen (1971:948)
+beslutas av l&#228;nsstyrelsen. Att regeringens till&#229;telse beh&#246;vs i
+vissa fall f&#246;ljer av 7 kap. 29 &#167; milj&#246;balken.
+
+L&#228;nsstyrelsen ska underr&#228;tta s&#246;kanden, Trafikverket samt
+ber&#246;rda enskilda, kommuner och myndigheter om beslutet.
+
+Samr&#229;d
+
+Allm&#228;nna best&#228;mmelser
+
+4 &#167; Genom samr&#229;d ska den som avser att bygga v&#228;gen utbyta
+information med och inh&#228;mta synpunkter fr&#229;n ber&#246;rda enskilda,
+myndigheter och organisationer under planeringsprocessen.
+Samr&#229;d kan vara s&#229;v&#228;l muntligt som skriftligt.
+
+Regler om samr&#229;dskretsen och vad samr&#229;det ska avse finns i
+14 b–15c &#167;&#167; v&#228;glagen (1971:948).
+
+5 &#167; Antalet samr&#229;dstillf&#228;llen ska anpassas s&#229; att
+samr&#229;dskretsen ges m&#246;jlighet att f&#246;rst&#229; och p&#229;verka projektets
+inriktning. Formerna f&#246;r samr&#229;det och antalet
+samr&#229;dstillf&#228;llen f&#229;r anpassas till omst&#228;ndigheterna i det
+enskilda fallet.  &#196;gare till fastigheter d&#228;r mark eller
+utrymme kan komma att tas i anspr&#229;k f&#246;r v&#228;gen ska dock alltid
+erbjudas minst ett samr&#229;dsm&#246;te p&#229; orten.
+
+Inbjudan till samr&#229;d
+
+6 &#167; Inbjudan till samr&#229;d ska ske genom brev, kung&#246;relse i
+ortstidning eller p&#229; annat l&#228;mpligt s&#228;tt. Underlag f&#246;r
+samr&#229;det ska bifogas inbjudan eller finnas tillg&#228;ngligt p&#229;
+annat s&#228;tt.
+
+Samr&#229;dsredog&#246;relse
+
+7 &#167; Resultatet av samr&#229;det ska redovisas i en
+samr&#229;dsredog&#246;relse som successivt uppdateras fram till dess
+att v&#228;gplanen kung&#246;rs.
+
+Beslut om betydande milj&#246;p&#229;verkan
+
+8 &#167; Vid bed&#246;mningen av om ett projekt kan antas medf&#246;ra en 
+betydande milj&#246;p&#229;verkan enligt 15 &#167; v&#228;glagen (1971:948), ska 
+l&#228;nsstyrelsen ta h&#228;nsyn till det som anges i 10 &#167; 1–3 och 
+11–13 &#167;&#167; milj&#246;bed&#246;mningsf&#246;rordningen (2017:966). 
+L&#228;nsstyrelsens beslut ska redovisa de omst&#228;ndigheter som 
+talar f&#246;r eller emot att projektet kan antas medf&#246;ra en 
+betydande milj&#246;p&#229;verkan.
+
+Best&#228;mmelser om vilka projekt som ska antas medf&#246;ra en 
+betydande milj&#246;p&#229;verkan finns i 
+milj&#246;bed&#246;mningsf&#246;rordningen. F&#246;rordning (2017:982).
+
+8 a &#167; Innan fr&#229;gan om betydande milj&#246;p&#229;verkan enligt 15 &#167; 
+v&#228;glagen (1971:948) l&#228;mnas till l&#228;nsstyrelsen f&#246;r beslut, ska 
+den som avser att bygga v&#228;gen genom brev, kung&#246;relse i 
+ortstidning eller p&#229; annat l&#228;mpligt s&#228;tt ge de enskilda som 
+kan antas bli s&#228;rskilt ber&#246;rda m&#246;jlighet att yttra sig. Det 
+ska ocks&#229; framg&#229; var handlingar om projektet h&#229;lls 
+tillg&#228;ngliga. De handlingar som h&#229;lls tillg&#228;ngliga och som 
+l&#228;mnas till l&#228;nsstyrelsen f&#246;r beslut i fr&#229;gan om betydande 
+milj&#246;p&#229;verkan ska uppfylla kraven i 8 &#167; och 9 &#167; 1 
+milj&#246;bed&#246;mningsf&#246;rordningen (2017:966).
+F&#246;rordning (2017:982).
+
+9 &#167; Om handlingarna &#228;r fullst&#228;ndiga och de enskilda som kan 
+antas bli s&#228;rskilt ber&#246;rda har getts m&#246;jlighet att yttra sig 
+enligt 8 a &#167;, ska l&#228;nsstyrelsen avg&#246;ra fr&#229;gan om betydande 
+milj&#246;p&#229;verkan s&#229; snart som m&#246;jligt och senast 90 dagar efter 
+att den som avser att bygga v&#228;gen l&#228;mnat fr&#229;gan till 
+l&#228;nsstyrelsen f&#246;r beslut. F&#246;rordning (2017:982).
+
+Inneh&#229;ll i v&#228;gplanen
+
+Inskr&#228;nkt v&#228;gr&#228;tt
+
+10 &#167; I en v&#228;gplan ska det, ut&#246;ver vad som f&#246;ljer av 16 a &#167;
+v&#228;glagen (1971:948), anges om den v&#228;gr&#228;tt som v&#228;gh&#229;llaren
+avser att f&#246;rv&#228;rva ska vara inskr&#228;nkt. Det ska framg&#229; av
+planen var inskr&#228;nkningen ska g&#228;lla och hur v&#228;gr&#228;tten ska vara
+inskr&#228;nkt.
+
+Upplysning om v&#228;gr&#228;tt m.m.
+
+11 &#167; I en v&#228;gplan ska det finnas upplysning om att den, n&#228;r
+den f&#229;tt laga kraft, ger v&#228;gh&#229;llaren r&#228;tt att ta mark i
+anspr&#229;k med v&#228;gr&#228;tt enligt 30 &#167; v&#228;glagen (1971:948) eller med
+s&#229;dan tillf&#228;llig nyttjander&#228;tt som avses i 35 &#167; samma lag.
+
+Underlag till v&#228;gplanen
+
+Uppgifter om verksamheters f&#246;rutsebara p&#229;verkan p&#229; m&#228;nniskors
+h&#228;lsa och p&#229; milj&#246;n
+
+12 &#167; En redovisning av en verksamhets f&#246;rutsebara p&#229;verkan p&#229;
+m&#228;nniskors h&#228;lsa och p&#229; milj&#246;n enligt 16 a &#167; tredje stycket 3
+v&#228;glagen (1971:948) ska inneh&#229;lla uppgifter om
+milj&#246;f&#246;ruts&#228;ttningarna i det omr&#229;de som kan komma att p&#229;verkas
+av den planerade v&#228;gen, de f&#246;r&#228;ndringar i milj&#246;kvalitet som
+v&#228;gprojektet kan medf&#246;ra och vad dessa f&#246;r&#228;ndringar bed&#246;ms
+inneb&#228;ra f&#246;r m&#228;nniskors h&#228;lsa och milj&#246;n.
+
+Fastighetsf&#246;rteckning
+
+13 &#167; Tillsammans med v&#228;gplanen ska det, ut&#246;ver vad som f&#246;ljer
+av 16 a &#167; tredje stycket v&#228;glagen (1971:948), finnas en
+fastighetsf&#246;rteckning. I f&#246;rteckningen ska det redovisas
+
+1. fastigheter d&#228;r mark eller utrymme beh&#246;ver tas i anspr&#229;k
+permanent eller tillf&#228;lligt och k&#228;nda &#228;gare till dessa
+fastigheter,
+
+2. mark- och vattenomr&#229;den som &#228;r samf&#228;llda f&#246;r flera
+fastigheter och inom vilka mark eller utrymme beh&#246;ver tas i
+anspr&#229;k permanent eller tillf&#228;lligt och k&#228;nda &#228;gare till k&#228;nda
+del&#228;gande fastigheter,
+
+3. nyttjander&#228;tt eller annan s&#228;rskild r&#228;tt, utom hyresr&#228;tt och
+bostadsr&#228;tt, till fastigheter d&#228;r mark eller utrymme beh&#246;ver
+tas i anspr&#229;k permanent eller tillf&#228;lligt och k&#228;nda innehavare
+av dessa r&#228;ttigheter,
+
+4. fastigheter med bostadsbyggnader som utan bullerd&#228;mpande
+&#229;tg&#228;rder ber&#228;knas uts&#228;ttas f&#246;r buller som &#246;verskrider
+riktv&#228;rden f&#246;r v&#228;gtrafikbuller och k&#228;nda &#228;gare till dessa
+fastigheter och bostadsbyggnader,
+
+5. fastigheter vars utfart till allm&#228;n v&#228;g planeras &#228;ndras med
+anledning av v&#228;gbygget och k&#228;nda &#228;gare till dessa fastigheter,
+
+6. gemensamhetsanl&#228;ggningar enligt anl&#228;ggningslagen
+(1973:1149) och d&#228;rmed j&#228;mst&#228;llda v&#228;gsamf&#228;lligheter och
+v&#228;gf&#246;reningar, i den m&#229;n de ber&#246;rs av v&#228;gplanen, samt k&#228;nda
+&#228;gare till de k&#228;nda fastigheter som deltar i anl&#228;ggningarna.
+
+Om en samf&#228;llighetsf&#246;rening enligt lagen (1973:1150)  om
+f&#246;rvaltning av samf&#228;lligheter f&#246;rvaltar en samf&#228;llighet,
+s&#228;rskild r&#228;tt eller gemensamhetsanl&#228;ggning, ska f&#246;reningen
+anges i st&#228;llet f&#246;r &#228;gare eller innehavare.
+
+Kostnader och finansiering
+
+14 &#167; Tillsammans med v&#228;gplanen ska det finnas uppgifter om
+projektets ber&#228;knade kostnader och hur byggandet av v&#228;gen
+avses finansieras.
+
+Kung&#246;rande och granskning av v&#228;gplan
+
+15 &#167; N&#228;r samr&#229;det enligt 14 b–15 c &#167;&#167; v&#228;glagen (1971:948) &#228;r 
+avslutat, ska den som avser att bygga v&#228;gen kung&#246;ra sitt 
+f&#246;rslag till v&#228;gplan och underlaget till detta och l&#229;ta 
+handlingarna granskas under en viss tid (granskningstid), som 
+ska vara minst 30 dagar.
+
+Under granskningstiden ska planf&#246;rslaget med underlag finnas 
+tillg&#228;ngligt hos den som avser att bygga v&#228;gen samt hos 
+ber&#246;rda kommuner.
+
+Undantag fr&#229;n kraven p&#229; kung&#246;rande och granskning finns i 
+17 a och 17 b &#167;&#167; v&#228;glagen. F&#246;rordning (2017:982).
+
+16 &#167; Den som avser att bygga v&#228;gen ska kung&#246;ra granskningen i 
+Post- och Inrikes Tidningar och en ortstidning eller endera 
+av dessa. Om en milj&#246;konsekvensbeskrivning har tagits fram, 
+ska kung&#246;relsen &#228;ven ske p&#229; en l&#228;mplig webbplats.
+
+I kung&#246;relsen ska det anges var f&#246;rslaget till plan med 
+underlag h&#229;lls tillg&#228;ngligt och inom vilken tid synpunkter 
+ska l&#228;mnas. F&#246;rordning (2017:982).
+
+S&#228;rskild underr&#228;ttelse
+
+17 &#167; Den som avser att bygga v&#228;gen ska s&#228;rskilt underr&#228;tta dem
+som redovisas i den fastighetsf&#246;rteckning som avses i 13 &#167;
+samt ber&#246;rda kommuner och myndigheter om var f&#246;rslaget till
+v&#228;gplan med underlag finns tillg&#228;ngligt och om den tid inom
+vilken synpunkter kan l&#228;mnas.
+
+Underr&#228;ttelsen ska postas i en rekommenderad f&#246;rs&#228;ndelse till
+dem som avses i 13 &#167; 1–3 och inneh&#229;lla uppgifter om
+
+1. att mark eller utrymme kan komma att tas i anspr&#229;k med
+v&#228;gr&#228;tt eller med s&#229;dan nyttjander&#228;tt som avses i 35 &#167;
+v&#228;glagen (1971:948), och
+
+2. att &#228;garen eller innehavaren &#228;r skyldig att mot ers&#228;ttning
+uppl&#229;ta marken eller utrymmet till den som avser att bygga
+v&#228;gen, om ett beslut att fastst&#228;lla planen vinner laga kraft.
+
+18 &#167; I fr&#229;ga om mark eller annat utrymme som h&#246;r till flera
+fastigheter gemensamt f&#229;r, om fastigheterna har skilda &#228;gare,
+14 &#167; eller 47 &#167; och 49 &#167; f&#246;rsta stycket 3 delgivningslagen
+(2010:1932) i st&#228;llet till&#228;mpas vid underr&#228;ttelse till de
+s&#228;rskilda del&#228;garna i samf&#228;lligheten, trots att
+delgivningslagen inte &#228;r till&#228;mplig i &#246;vrigt.
+
+Hur synpunkter ska l&#228;mnas
+
+19 &#167; Synpunkter p&#229; f&#246;rslaget till v&#228;gplan och underlaget till
+detta ska l&#228;mnas skriftligen inom den tid som best&#228;mts enligt
+15 &#167; till den som avser att bygga v&#228;gen.
+
+Granskningsutl&#229;tande
+
+20 &#167; Efter granskningstiden ska den som avser att bygga v&#228;gen
+i ett granskningsutl&#229;tande sammanst&#228;lla och kommentera de
+skriftliga synpunkter som har kommit in under
+granskningstiden.
+
+&#196;ndring av en v&#228;gplan efter granskning
+
+21 &#167; Om f&#246;rslaget till v&#228;gplan efter granskningen &#228;ndras
+v&#228;sentligt eller p&#229; annat s&#228;tt som &#228;r av betydelse f&#246;r
+allm&#228;nheten, ska ett nytt kung&#246;rande- och
+granskningsf&#246;rfarande genomf&#246;ras enligt 15–20 &#167;&#167;.
+
+Om v&#228;gplanen &#228;ndras p&#229; ett s&#228;tt som inte kr&#228;ver ett nytt
+kung&#246;rande- och granskningsf&#246;rfarande enligt f&#246;rsta stycket,
+ska i st&#228;llet de som ber&#246;rs av &#228;ndringen ges m&#246;jlighet att
+under minst tv&#229; veckor l&#228;mna skriftliga synpunkter p&#229;
+&#228;ndringen. Den som avser att bygga v&#228;gen ska sammanst&#228;lla och
+kommentera inkomna synpunkter.
+
+L&#228;nsstyrelsens yttrande &#246;ver v&#228;gplan
+
+22 &#167; Trafikverket ska inh&#228;mta ber&#246;rda l&#228;nsstyrelsers yttranden
+&#246;ver ett f&#246;rslag till v&#228;gplan med underlag som har kungjorts
+och granskats. L&#228;nsstyrelsen ska ha tillg&#229;ng till ett
+granskningsutl&#229;tande enligt 20 &#167; innan yttrandet avges.
+
+Fastst&#228;llelse av en v&#228;gplan
+
+Aktualitetskrav
+
+23 &#167; Om en v&#228;gplan tillstyrkts av l&#228;nsstyrelsen och om
+v&#228;gbyggnadsprojektet har tillr&#228;cklig aktualitet, ska
+Trafikverket pr&#246;va fr&#229;gan om att fastst&#228;lla v&#228;gplanen enligt
+18 &#167; v&#228;glagen (1971:948).
+
+Kung&#246;rande och underr&#228;ttelse om fastst&#228;llelsebeslut
+
+24 &#167; Ett beslut att fastst&#228;lla en v&#228;gplan ska kung&#246;ras p&#229; det
+s&#228;tt som anges i 16 &#167;. I kung&#246;relsen ska det anges var
+beslutet h&#229;lls tillg&#228;ngligt samt inom vilken tid beslutet f&#229;r
+&#246;verklagas och var skriftligt &#246;verklagande ska l&#228;mnas.
+
+25 &#167; Trafikverket ska s&#228;rskilt underr&#228;tta dem som avses i 13 &#167;
+1–3, v&#228;gh&#229;llningsmyndigheten, ber&#246;rda kommuner och
+l&#228;nsstyrelser, lantm&#228;terimyndigheten samt &#246;vriga som
+framst&#228;llt skriftliga synpunkter i &#228;rendet under
+granskningstiden eller s&#228;rskilt ber&#246;rs. Av underr&#228;ttelsen ska
+det framg&#229; inom vilken tid beslutet f&#229;r &#246;verklagas och var
+skriftligt &#246;verklagande ska l&#228;mnas.
+
+I fr&#229;ga om mark eller utrymme som h&#246;r till flera fastigheter
+gemensamt g&#228;ller, om fastigheterna har skilda &#228;gare, 18 &#167;.
+Beslut om f&#246;rl&#228;ngning av giltighetstiden f&#246;r ett
+fastst&#228;llelsebeslut
+
+26 &#167; Om regeringen fastst&#228;llt en v&#228;gplan med st&#246;d av 18 &#167;
+andra stycket v&#228;glagen (1971:948), fattas ett beslut om
+f&#246;rl&#228;ngning av giltighetstiden enligt 18 a &#167; andra stycket
+v&#228;glagen av regeringen. I annat fall fattas beslutet av
+Trafikverket.
+
+27 &#167; Ett beslut om f&#246;rl&#228;ngning av giltighetstiden ska kung&#246;ras
+p&#229; det s&#228;tt som anges i 16 &#167;. I kung&#246;relsen ska det anges var
+beslutet h&#229;lls tillg&#228;ngligt, inom vilken tid beslutet f&#229;r
+&#246;verklagas och var skriftligt &#246;verklagande ska l&#228;mnas.
+
+Trafikverket ska s&#228;rskilt underr&#228;tta dem som avses i 13 &#167; 1–3,
+v&#228;gh&#229;llningsmyndigheten, ber&#246;rda kommuner och l&#228;nsstyrelser,
+lantm&#228;terimyndigheten samt &#246;vriga som yttrat sig eller
+s&#228;rskilt ber&#246;rs. I fr&#229;ga om mark eller annat utrymme som h&#246;r
+till flera fastigheter gemensamt g&#228;ller, om fastigheterna har
+skilda &#228;gare, 18 &#167;.
+
+Beslut att upph&#228;va ett fastst&#228;llelsebeslut
+
+28 &#167; Om regeringen fastst&#228;llt en v&#228;gplan med st&#246;d av 18 &#167;
+andra stycket v&#228;glagen (1971:948), fattas ett beslut att
+upph&#228;va fastst&#228;llebeslutet enligt 18 b &#167; v&#228;glagen av
+regeringen. I annat fall fattas beslutet av Trafikverket.
+
+29 &#167; Ett beslut att upph&#228;va ett fastst&#228;llelsebeslut ska
+kung&#246;ras p&#229; det s&#228;tt som anges i 16 &#167;. I kung&#246;relsen ska det
+anges var beslutet h&#229;lls tillg&#228;ngligt.
+
+Trafikverket ska s&#228;rskilt underr&#228;tta dem som avses i 13 &#167; 1–3,
+v&#228;gh&#229;llningsmyndigheten, ber&#246;rda kommuner och l&#228;nsstyrelser,
+lantm&#228;terimyndigheten samt &#246;vriga som yttrat sig eller
+s&#228;rskilt ber&#246;rs. I fr&#229;ga om mark eller annat utrymme som h&#246;r
+till flera fastigheter gemensamt g&#228;ller, om fastigheterna har
+skilda &#228;gare, 18 &#167;.
+
+Till&#228;gg till v&#228;gplaner
+
+30 &#167; Till&#228;gg till v&#228;gplaner enligt 20 &#167; v&#228;glagen (1971:948)
+g&#246;rs av den som avser att bygga v&#228;gen. Denne ska underr&#228;tta
+l&#228;nsstyrelsen om till&#228;gget. Underr&#228;ttelse ska l&#228;mnas &#228;ven till
+k&#228;nda &#228;gare av mark eller annat utrymme som ber&#246;rs av
+till&#228;gget och k&#228;nda innehavare av nyttjander&#228;tt eller annan
+s&#228;rskild r&#228;tt till s&#229;dan mark eller s&#229;dant utrymme. I fr&#229;ga om
+mark eller annat utrymme som h&#246;r till flera fastigheter
+gemensamt g&#228;ller, om fastigheterna har skilda &#228;gare, 18 &#167;.
+
+4 kap. Enskild v&#228;gs f&#246;r&#228;ndring till allm&#228;n m.m.
+
+Handl&#228;ggningen av en fr&#229;ga om enskild v&#228;gs f&#246;r&#228;ndring till
+allm&#228;n
+
+1 &#167; V&#228;gh&#229;llningsmyndigheten utreder en fr&#229;ga om enskild v&#228;gs
+f&#246;r&#228;ndring till allm&#228;n. Utredningen ska avse v&#228;gens betydelse
+f&#246;r allm&#228;n samf&#228;rdsel och det skick den befinner sig i. Vid
+utredningen ska v&#228;gh&#229;llningsmyndigheten inh&#228;mta yttranden fr&#229;n
+ber&#246;rda kommuner och &#246;vriga myndigheter vars verksamhetsomr&#229;de
+ber&#246;rs av fr&#229;gan samt fr&#229;n andra som kan l&#228;mna upplysningar i
+saken. D&#228;refter ska l&#228;nsstyrelsens yttrande &#246;ver &#228;rendet
+inh&#228;mtas.
+
+Efter genomf&#246;rd utredning &#246;verl&#228;mnar v&#228;gh&#229;llningsmyndigheten
+med eget yttrande &#228;rendet till Trafikverket f&#246;r avg&#246;rande.
+&#196;rendet pr&#246;vas enligt 22 &#167; v&#228;glagen (1971:948).
+
+Om fr&#229;ga om enskild v&#228;gs f&#246;r&#228;ndring till allm&#228;n i st&#228;llet
+v&#228;ckts hos l&#228;nsstyrelsen och det med h&#228;nsyn till k&#228;nda
+f&#246;rh&#229;llanden &#228;r uppenbart att f&#246;r&#228;ndringen inte b&#246;r ske, f&#229;r
+l&#228;nsstyrelsen avg&#246;ra &#228;rendet utan s&#229;dan utredning som avses i
+f&#246;rsta stycket.
+
+Om v&#228;gens uppl&#229;telse f&#246;r allm&#228;n trafik f&#246;ruts&#228;tter omfattande
+ombyggnadsarbeten
+
+2 &#167; Om l&#228;nsstyrelsen efter v&#228;gh&#229;llningsmyndighetens utredning
+finner att v&#228;gen &#228;r av s&#229;dan betydelse att den b&#246;r f&#246;r&#228;ndras
+till allm&#228;n v&#228;g men att den inte kan uppl&#229;tas f&#246;r allm&#228;n
+trafik utan betydande ombyggnadsarbeten, g&#228;ller i st&#228;llet f&#246;r
+1 &#167; f&#246;ljande. Fr&#229;gan om ombyggnadsarbetet ska utf&#246;ras pr&#246;vas i
+den ordning som anges i f&#246;rordningen (1997:263) om l&#228;nsplaner
+f&#246;r regional transportinfrastruktur om arbetena kr&#228;ver medel
+som i statsbudgeten anvisats f&#246;r byggande av v&#228;gar. Fr&#229;gan om
+att f&#246;r&#228;ndra v&#228;gen till allm&#228;n ska avg&#246;ras i samband med den
+pr&#246;vningen.
+
+Inskr&#228;nkt v&#228;gr&#228;tt ska anges i beslutet
+
+3 &#167; Ska v&#228;gr&#228;tten efter f&#246;r&#228;ndringen vara inskr&#228;nkt, ska detta
+anges i beslutet om att f&#246;r&#228;ndra den enskilda v&#228;gen till
+allm&#228;n. I beslutet ska det anges var inskr&#228;nkningen ska g&#228;lla
+och hur v&#228;gr&#228;tten ska vara inskr&#228;nkt.
+
+Underr&#228;ttelse om beslut
+
+4 &#167; S&#246;kanden eller den som p&#229; annat s&#228;tt v&#228;ckt fr&#229;gan samt
+v&#228;gh&#229;llningsmyndigheten, ber&#246;rda kommuner och l&#228;nsstyrelser
+ska underr&#228;ttas om ett beslut i &#228;rende om f&#246;r&#228;ndring av
+enskild v&#228;g till allm&#228;n. D&#228;rut&#246;ver ska &#246;vriga myndigheter som
+yttrat sig i &#228;rendet underr&#228;ttas om beslutet. L&#228;nsstyrelsen
+ska f&#246;ra in meddelande om beslutet i l&#228;nets
+f&#246;rfattningssamling.
+
+Till&#228;mpning av best&#228;mmelserna i &#246;vriga &#228;renden m.m.
+
+5 &#167; Best&#228;mmelserna i 1–4 &#167;&#167; g&#228;ller i till&#228;mpliga delar i fr&#229;ga
+om &#228;renden om f&#246;rklaring att en gata &#228;ven ska vara allm&#228;n v&#228;g,
+&#228;renden om inr&#228;ttande av s&#228;rskild vinterv&#228;g och &#228;renden om
+indragning av allm&#228;n v&#228;g.
+
+Vid utredning av en fr&#229;ga om indragning av allm&#228;n v&#228;g ska
+v&#228;gh&#229;llningsmyndigheten alltid ge fastighets&#228;gare och andra,
+som kan ha ett v&#228;sentligt intresse i saken, m&#246;jlighet att
+yttra sig.
+
+Innan en allm&#228;n v&#228;g dras in, ska den som avser att ta &#246;ver
+v&#228;gh&#229;llningen efter indragningen f&#229; sk&#228;lig tid p&#229; sig att
+ordna v&#228;gh&#229;llningen.
+
+5 kap. Drift av v&#228;g
+
+Allm&#228;nt
+
+1 &#167; Drift av v&#228;g innefattar &#229;tg&#228;rder som
+
+1. s&#228;kerst&#228;ller att trafiken kan komma fram, s&#229;som
+sn&#246;plogning, halkbek&#228;mpning, reparation av mindre skador samt
+hyvling och dammbindning p&#229; grusv&#228;gar (servicearbeten),
+
+2. vidmakth&#229;ller v&#228;gens standard, s&#229;som f&#246;rnyelse av slitlager
+och v&#228;gmarkeringar samt dikning (underh&#229;llsarbeten),
+
+3. f&#246;rb&#228;ttrar v&#228;gens standard genom sm&#228;rre &#229;tg&#228;rder, s&#229;som
+bel&#228;ggning av grusv&#228;g, f&#246;rst&#228;rkning av b&#228;righeten och
+punkt&#229;tg&#228;rder f&#246;r att &#246;ka trafiks&#228;kerheten
+(f&#246;rb&#228;ttringsarbeten),
+
+4. h&#229;ller v&#228;gen ren, s&#229;som sopning, borttagande av skr&#228;p och
+smuts samt ogr&#228;sbek&#228;mpning (renh&#229;llning), eller
+
+5. p&#229; annat s&#228;tt h&#229;ller v&#228;gen i ett f&#246;r samf&#228;rdseln
+tillfredst&#228;llande skick.
+
+F&#228;rjor och r&#246;rliga broar
+
+2 &#167; F&#228;rjor, som &#228;r v&#228;ganordningar, ska h&#229;llas i trafik i den
+utstr&#228;ckning som beh&#246;vs. Turlistor f&#246;r trafiken fastst&#228;lls av
+v&#228;gh&#229;llningsmyndigheten eller, om flera
+v&#228;gh&#229;llningsmyndigheter ber&#246;rs, av v&#228;gh&#229;llningsmyndigheterna i
+samr&#229;d.
+
+I fr&#229;ga om r&#246;rliga broar, som &#228;r v&#228;ganordningar, meddelar
+v&#228;gh&#229;llningsmyndigheten f&#246;reskrifter om n&#228;r varje bro ska
+&#246;ppnas f&#246;r sj&#246;trafik. Om en bro ber&#246;r flera
+v&#228;gh&#229;llningsmyndigheter, meddelar v&#228;gh&#229;llningsmyndigheterna
+s&#229;dana f&#246;reskrifter i samr&#229;d.
+
+Kan v&#228;gh&#229;llningsmyndigheterna i de fall som avses i f&#246;rsta
+eller andra stycket inte enas, beslutar Trafikverket i
+&#228;rendet. Best&#228;mmelserna i andra stycket g&#228;ller endast om inte
+annat f&#246;ljer av annan f&#246;rfattning eller s&#228;rskilda beslut.
+
+Innan en v&#228;gh&#229;llningsmyndighet meddelar beslut enligt f&#246;rsta
+eller andra stycket, ska Trafikverket h&#246;ras i &#228;rendet om
+v&#228;gh&#229;llningsmyndigheten &#228;r kommunal. Innan
+v&#228;gh&#229;llningsmyndigheten meddelar beslut enligt andra stycket,
+ska &#228;ven Sj&#246;fartsverket h&#246;ras.
+
+Underr&#228;ttelse om beslut
+
+3 &#167; Trafikverket ska underr&#228;tta v&#228;gh&#229;llningsmyndigheten om
+beslut enligt 26 &#167; tredje stycket v&#228;glagen (1971:948).
+
+V&#228;gh&#229;llningsmyndigheten ska underr&#228;tta Trafikverket om beslut
+enligt 2 &#167; om v&#228;gh&#229;llningsmyndigheten &#228;r kommunal.
+
+L&#228;nsstyrelsen ska i l&#228;nets f&#246;rfattningssamling f&#246;ra in
+meddelande om ett beslut enligt 26 &#167; tredje stycket v&#228;glagen.
+Beslut enligt 2 &#167; ska kung&#246;ras p&#229; det s&#228;tt som &#228;r f&#246;reskrivet
+i fr&#229;ga om f&#246;rfattningar i allm&#228;nhet.
+
+V&#228;gplaner f&#246;r drift av v&#228;g
+
+4 &#167; I fr&#229;ga om v&#228;gplaner som avses i 28 &#167; v&#228;glagen (1971:948)
+ska 3 kap. denna f&#246;rordning till&#228;mpas.
+
+6 kap. &#214;vrigt
+
+L&#228;nsstyrelsens beslut om begr&#228;nsningar f&#246;r v&#228;gh&#229;llaren vid
+upph&#246;rande av v&#228;gr&#228;tt
+
+1 &#167; V&#228;gh&#229;llningsmyndigheten och, om denna &#228;r kommunal,
+Trafikverket ska underr&#228;ttas om beslut enligt 32 &#167; v&#228;glagen
+(1971:948).
+
+Ordnings- och s&#228;kerhetsf&#246;reskrifter
+
+Vid avsp&#228;rrning av enskild v&#228;gs anslutning till allm&#228;n v&#228;g
+
+2 &#167; I &#228;renden om tillst&#229;nd enligt 39 &#167; v&#228;glagen (1971:948)
+eller om f&#246;rordnande eller f&#246;reskrifter enligt 40 eller 41 &#167;
+samma lag ska v&#228;gh&#229;llningsmyndigheten utreda hur ber&#246;rda
+fastigheters behov av utfart till allm&#228;n v&#228;g kan tillgodoses.
+
+N&#228;r ett f&#246;rordnande eller en f&#246;reskrift meddelas med st&#246;d av
+40 eller 41 &#167; v&#228;glagen i fr&#229;ga om befintliga anslutningar till
+allm&#228;n v&#228;g, ska &#228;gare eller innehavare av ber&#246;rda fastigheter
+f&#229; sk&#228;lig tid p&#229; sig att ordna utfart till allm&#228;n v&#228;g p&#229; annat
+s&#228;tt.
+
+V&#228;g- och ledningsarbeten inom v&#228;gomr&#229;de
+
+3 &#167; V&#228;g- och ledningsarbeten inom v&#228;gomr&#229;det ska utf&#246;ras s&#229;
+skyndsamt som m&#246;jligt och s&#229; att fara inte uppst&#229;r f&#246;r
+trafiken p&#229; v&#228;gen.
+
+I fall som avses i 44 &#167; fj&#228;rde stycket v&#228;glagen (1971:948)
+kr&#228;vs inget tillst&#229;nd till avsp&#228;rrning av v&#228;g eller annan
+v&#228;sentlig trafikinskr&#228;nkning. I de fall d&#229; det beh&#246;vs ett
+beslut av myndighet f&#246;r att f&#229; sp&#228;rra av en v&#228;g eller g&#246;ra
+annan v&#228;sentlig trafikinskr&#228;nkning, ska v&#228;gh&#229;llningsmyndigheten
+beg&#228;ra att myndigheten fattar ett s&#229;dant beslut.
+
+4 &#167; Sedan ledningsarbete utf&#246;rts inom ett v&#228;gomr&#229;de, ska
+omr&#229;det genom ledningshavarens f&#246;rsorg &#229;terst&#228;llas i det skick
+som det befann sig i f&#246;re arbetets b&#246;rjan. Om
+v&#228;gh&#229;llningsmyndigheten beg&#228;r det, ska dock v&#228;gbel&#228;ggning som
+skadats vid ledningsarbetet &#229;terst&#228;llas genom
+v&#228;gh&#229;llningsmyndighetens f&#246;rsorg. Uppst&#229;r s&#228;ttningar till
+f&#246;ljd av ledningsarbete, ska de arbeten som s&#228;ttningarna
+f&#246;ranleder, om v&#228;gh&#229;llningsmyndigheten beg&#228;r det, utf&#246;ras
+genom v&#228;gh&#229;llningsmyndighetens f&#246;rsorg. &#197;tg&#228;rder som vidtas
+genom v&#228;gh&#229;llningsmyndighetens f&#246;rsorg utf&#246;rs p&#229;
+ledningshavarens bekostnad.
+
+Uppf&#246;rande av byggnader m.m. intill v&#228;gomr&#229;de
+
+5 &#167; Innan l&#228;nsstyrelsen meddelar beslut enligt 45–47 &#167;, 48 &#167;
+andra stycket eller 52 &#167; v&#228;glagen (1971:948) ska
+v&#228;gh&#229;llningsmyndigheten h&#246;ras. Om v&#228;gh&#229;llningsmyndigheten &#228;r
+kommunal ska ocks&#229; Trafikverket h&#246;ras.
+
+6 &#167; Om det i ett tillst&#229;nds&#228;rende hos l&#228;nsstyrelsen visar sig
+att l&#228;nsstyrelsens tillst&#229;nd beh&#246;vs enligt s&#229;v&#228;l v&#228;glagen
+(1971:948) som milj&#246;balken och lagen (1998:814) med s&#228;rskilda
+best&#228;mmelser om gaturenh&#229;llning och skyltning, ska
+l&#228;nsstyrelsen pr&#246;va &#228;rendet enligt samtliga dessa
+f&#246;rfattningar.
+
+Om det finns anledning att anta att en &#229;tg&#228;rd som fordrar
+tillst&#229;nd enligt v&#228;glagen &#228;ven fordrar tillst&#229;nd av n&#229;gon
+annan myndighet, ska l&#228;nsstyrelsen och v&#228;gh&#229;llningsmyndigheten
+upplysa s&#246;kanden om detta.
+
+7 &#167; L&#228;nsstyrelsen ska underr&#228;tta v&#228;gh&#229;llningsmyndigheten om
+beslut enligt 36, 37 och 45–47 &#167;&#167;, 48 &#167; andra stycket, 52
+eller 53 &#167; v&#228;glagen (1971:948). Om v&#228;gh&#229;llningsmyndigheten &#228;r
+kommunal, ska ocks&#229; Trafikverket underr&#228;ttas om s&#229;dana beslut.
+
+Kommunal v&#228;gh&#229;llningsmyndighet ska underr&#228;tta Trafikverket om
+beslut enligt 39–41 eller 43 &#167; eller 48 &#167; f&#246;rsta stycket
+v&#228;glagen.
+
+L&#228;nsstyrelsen ska underr&#228;tta kommunen och
+lantm&#228;terimyndigheten om beslut enligt 47 &#167; f&#246;rsta stycket
+andra meningen v&#228;glagen. L&#228;nsstyrelsen ska f&#246;ra in ett s&#229;dant
+beslut i l&#228;nets f&#246;rfattningssamling.
+
+Om beslut enligt 44 &#167; v&#228;glagen ska l&#228;nsstyrelsen underr&#228;ttas.
+Kommunal v&#228;gh&#229;llningsmyndighet ska underr&#228;tta &#228;ven
+Trafikverket om s&#229;dana beslut.
+
+I f&#246;rordningen (2007:231) om elektroniskt kung&#246;rande av vissa
+trafikf&#246;reskrifter finns best&#228;mmelser om kung&#246;rande av
+trafikf&#246;reskrifter.
+
+Avgifter f&#246;r vissa &#228;renden
+
+8 &#167; Avgift tas ut f&#246;r pr&#246;vning av ans&#246;kan enligt v&#228;glagen 
+(1971:948) i de fall som framg&#229;r av andra stycket.
+
+F&#246;r ans&#246;kningsavgiftens storlek m.m. g&#228;ller best&#228;mmelserna i 
+9-14 &#167;&#167; avgiftsf&#246;rordningen (1992:191), varvid f&#246;ljande 
+avgiftsklasser till&#228;mpas:
+
+&#196;rendeslag 			        Avgiftsklass
+
+Tillst&#229;nd enligt 39 &#167; f&#246;rsta stycket
+utom s&#229;dana som avser &#228;ndring av
+enskild k&#246;rv&#228;gs anslutning till allm&#228;n
+v&#228;g			                5
+
+Undantag enligt 41 &#167; andra meningen	2
+
+Tillst&#229;nd enligt 43 &#167; f&#246;rsta stycket
+utom s&#229;dana som avser uppf&#246;rande av
+v&#228;derskydd f&#246;r kollektivtrafik eller, 
+om staten &#228;r v&#228;gh&#229;llare, som avser 
+upplag av virke eller skogsbr&#228;nsle	4
+
+Tillst&#229;nd enligt 45 &#167; f&#246;rsta stycket	4
+
+Tillst&#229;nd enligt 46 &#167; f&#246;rsta stycket	2
+
+Tillst&#229;nd enligt 47 &#167; f&#246;rsta eller 
+andra stycket			        4
+
+Tillst&#229;nd enligt 48 &#167; f&#246;rsta stycket	3
+F&#246;rordning (2021:1251).
+
+Bemyndigande
+
+9 &#167; Trafikverket f&#229;r meddela f&#246;reskrifter om vilka v&#228;gar som 
+ska vara riksv&#228;gar och om nummer p&#229; riksv&#228;gar och p&#229; 
+l&#228;nsv&#228;gar i nummergruppen 100–499.
+
+Trafikverket f&#229;r ocks&#229; meddela de verkst&#228;llighetsf&#246;reskrifter 
+som beh&#246;vs f&#246;r till&#228;mpningen av v&#228;glagen (1971:948) och denna 
+f&#246;rordning. F&#246;rordning (2017:924).
+
+&#214;verklagande m.m.
+
+10 &#167; V&#228;gh&#229;llningsmyndighetens beslut enligt denna f&#246;rordning
+f&#229;r &#246;verklagas hos l&#228;nsstyrelsen.
+
+Trafikverkets och l&#228;nsstyrelsens beslut i enskilda fall enligt
+denna f&#246;rordning f&#229;r &#246;verklagas hos regeringen.
+
+11 &#167; Trafikverket f&#229;r &#246;verklaga en l&#228;nsstyrelses beslut enligt
+denna f&#246;rordning.
+
+L&#228;nsstyrelserna f&#229;r &#246;verklaga beslut av Trafikverket enligt
+denna f&#246;rordning, om beslutet ber&#246;r deras verksamhetsomr&#229;de.
+
+12 &#167; Trafikverkets och l&#228;nsstyrelses beslut enligt denna
+f&#246;rordning ska g&#228;lla omedelbart om inte annat f&#246;rordnas i
+beslutet.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2012:707
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2013.
+
+2. Genom f&#246;rordningen upph&#228;vs v&#228;gkung&#246;relsen (1971:954).
+
+3. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r plan&#228;renden som
+vid ikrafttr&#228;dandet inneh&#229;ller en milj&#246;konsekvensbeskrivning
+f&#246;r en arbetsplan som har &#246;verl&#228;mnats till l&#228;nsstyrelsen f&#246;r
+godk&#228;nnande enligt 15 &#167; andra stycket v&#228;glagen (1971:948) i
+dess lydelse f&#246;re den 1 januari 2013.  
+
+2017:982
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2018.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r handl&#228;ggningen 
+och bed&#246;mningen av &#228;renden i vilka det ing&#229;r en 
+milj&#246;konsekvensbeskrivning som vid f&#246;rordningens 
+ikrafttr&#228;dande har &#246;verl&#228;mnats till l&#228;nsstyrelsen f&#246;r 
+godk&#228;nnande enligt 16 &#167; tredje stycket eller 16 b &#167; v&#228;glagen 
+(1971:948).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1411">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1413">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,587 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="1999-07-08" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3707</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3706">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3708">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1986:710 ·
+                    <a href="/sfsr?bet=1986:710">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1986:710) om till&#228;mpning av en &#246;verenskommelse 
+mellan Sverige och Storbritannien och Nordirland r&#246;rande
+&#246;msesidigt administrativt bist&#229;nd mellan deras tullmyndigheter
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Utrikesdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1986-10-02
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 1999:503
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> Endast den svenska texten med h&#228;r. 
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1986-10-28
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 &#167; Den &#246;verenskommelse mellan Sverige och Storbritannien och
+Nordirland r&#246;rande &#246;msesidigt administrativt bist&#229;nd mellan deras
+tullmyndigheter som har undertecknats den 2 maj 1985 skall g&#228;lla h&#228;r i
+riket.
+
+&#214;verenskommelsen i engelsk och svensk text bifogas denna f&#246;rordning
+som bilaga.
+
+2 &#167; Tullverket fullg&#246;r f&#246;r svensk del de uppgifter som anges
+i paragraf 19 punkt 2 i &#246;verenskommelsen. F&#246;rordning (1999:503).
+
+Bilaga
+
+&#214;verenskommelse
+
+mellan Konungariket Sveriges regering och Det F&#246;renade Konungariket
+Storbritannien och Nordirlands regering r&#246;rande &#246;msesidigt
+administrativt bist&#229;nd mellan deras tullmyndigheter.
+
+Konungariket Sveriges regering och Det F&#246;renade Konungariket
+Storbritannien och Nordirlands regering
+
+som beaktar att &#246;vertr&#228;delser av tullagarna skadar deras respektive
+l&#228;nders ekonomiska, fiskala och sociala intressen;
+
+som beaktar vikten av att s&#228;kerst&#228;lla ett riktigt fastst&#228;llande av
+tullar, skatter och andra avgifter som uppb&#228;rs p&#229; import eller export
+och en korrekt till&#228;mpning av f&#246;reskrifter om f&#246;rbud, restriktioner
+och kontroll;
+
+som &#228;r &#246;vertygade om att bem&#246;danden att f&#246;rhindra &#246;vertr&#228;delser av
+tullagar och att uppn&#229; st&#246;rre noggrannhet i tulluppb&#246;rden skulle bli
+effektivare genom samarbete mellan deras tullmyndigheter;
+
+som uppm&#228;rksammar tullsamarbetsr&#229;dets rekommendation om &#246;msesidigt
+administrativt bist&#229;nd av den 5 december 1953;
+
+har kommit &#246;verens om f&#246;ljande.
+
+Definitioner
+
+Paragraf 1
+
+I denna &#246;verenskommelse avses med
+
+a. termen &quot;stat&quot; en av de stater vars regering undertecknat
+&#246;verenskommelsen;
+
+b. termen &quot;tullagar&quot; f&#246;reskrifter i lagar eller andra f&#246;rfattningar
+eller till&#228;mpningsf&#246;reskrifter r&#246;rande import, export eller
+transitering av varor vare sig det g&#228;ller tullar, skatter eller andra
+avgifter eller &#228;r fr&#229;ga om f&#246;rbud, restriktioner eller kontroll;
+
+c. termen &quot;tullmyndighet&quot; i Konungariket Sverige generaltullstyrelsen,
+och i Det F&#246;renade Konungariket Her Majesty&#39;s Customs and Excise.
+
+Till&#228;mpningsomr&#229;de
+
+Paragraf 2
+
+1. Regeringarna skall, genom sina tullmyndigheter och i enlighet
+med best&#228;mmelserna i denna &#246;verenskommelse, l&#228;mna varandra
+&#246;msesidigt bist&#229;nd
+
+a. i syfte att s&#228;kerst&#228;lla att tullagarna vederb&#246;rligen efterlevs;
+
+b. i syfte att f&#246;rhindra, utreda och beivra &#246;vertr&#228;delser av
+tullagarna;
+
+c. i &#228;renden ang&#229;ende delgivning i samband med till&#228;mpning av
+tullagarna.
+
+2. Bist&#229;nd enligt denna &#246;verenskommelse skall l&#228;mnas i enlighet med
+den anmodade statens lagar och andra f&#246;rfattningar och inom ramen f&#246;r
+tullmyndighetens befogenheter och resurser.
+
+3. Denna &#246;verenskommelse avser inte indrivning av tullar, skatter
+eller andra avgifter.
+
+&#214;vervakning av personer, varor och transportmedel
+
+Paragraf 3
+
+Tullmyndigheterna skall, sj&#228;lvmant eller p&#229; beg&#228;ran, s&#228;rskilt &#246;vervaka
+bl. a.
+
+a. personer som &#228;r k&#228;nda f&#246;r eller misst&#228;nkta f&#246;r att &#246;vertr&#228;da den
+andra statens tullagar;
+
+b. transportmedel som har anv&#228;nts eller som misst&#228;nks f&#246;r att anv&#228;ndas
+vid &#246;vertr&#228;delser av den andra statens tullagar;
+
+c. varur&#246;relser som av den andra statens tullmyndighet rapporteras ge
+upphov till betydande olovlig trafik till eller fr&#229;n dess omr&#229;de.
+
+Utbyte av upplysningar
+
+Paragraf 4
+
+1. Staternas tullmyndigheter skall, p&#229; beg&#228;ran, l&#228;mna varandra alla
+upplysningar som kan bidra till att s&#228;kerst&#228;lla noggrannhet vid
+
+a. uppb&#246;rd av tullar och andra import- och exportavgifter, och
+s&#228;rskilt upplysningar som kan vara till hj&#228;lp vid tullv&#228;rdebest&#228;mning
+och klassificering enligt tulltaxan;
+
+b. till&#228;mpning av best&#228;mmelser om import- och exportf&#246;rbud och
+restriktioner;
+
+c. till&#228;mpning av ursprungsregler som inte omfattas av andra
+arrangemang.
+
+2. Om den anmodade myndigheten inte har de efterfr&#229;gade
+upplysningarna, skall den s&#246;ka inh&#228;mta dessa i enlighet med
+f&#246;reskrifterna i sina tullagar.
+
+Paragraf 5
+
+Den ena statens tullmyndighet skall, p&#229; beg&#228;ran, l&#228;mna den andra
+statens tullmyndighet upplysningar i f&#246;ljande fr&#229;gor:
+
+a. huruvida varor som importeras till en stat har exporterats lagligt
+fr&#229;n den andra staten;
+
+b. huruvida varor som exporteras fr&#229;n en stat har importerats lagligt
+till den andra staten.
+
+Paragraf 6
+
+1. Tullmyndigheten i den ena staten skall, sj&#228;lvmant eller p&#229; beg&#228;ran,
+l&#228;mna den andra statens tullmyndighet alla upplysningar som denna kan
+ha nytta av vid beivrande av &#246;vertr&#228;delser av tullagarna och s&#228;rskilt
+upplysningar om
+
+a. personer som &#228;r k&#228;nda f&#246;r eller misst&#228;nkta f&#246;r &#246;vertr&#228;delser av den
+andra statens tullagar;
+
+b. nya hj&#228;lpmedel eller metoder som anv&#228;nds vid &#246;vertr&#228;delser av
+tullagar;
+
+c. varor som &#228;r k&#228;nda f&#246;r att vara f&#246;rem&#229;l f&#246;r olovlig trafik;
+
+d. transportmedel som misst&#228;nks f&#246;r att anv&#228;ndas vid &#246;vertr&#228;delser av
+tullagar i den andra staten.
+
+2. Tullmyndigheten i den ena staten skall l&#228;mna tullmyndigheten i den
+andra staten kopior av, eller utdrag ur, rapporter som uppr&#228;ttats av
+dess utredningsenheter och som beskriver brottsmetoder som anv&#228;nts.
+
+Paragraf 7
+
+Tullmyndigheten i den ena staten skall, sj&#228;lvmant eller p&#229; beg&#228;ran,
+l&#228;mna tullmyndigheten i den andra staten rapporter, bevisprotokoll
+eller bestyrkta kopior av handlingar med alla tillg&#228;ngliga
+upplysningar om planerade eller uppt&#228;ckta transaktioner som utg&#246;r,
+eller f&#246;refaller utg&#246;ra, &#246;vertr&#228;delse av den senare statens tullagar.
+
+Paragraf 8
+
+De handlingar som avses i denna &#246;verenskommelse kan ers&#228;ttas av
+datoriserad information med samma inneh&#229;ll. Anvisningar f&#246;r tolkning
+och anv&#228;ndning av materialet b&#246;r samtidigt tillhandah&#229;llas.
+
+Paragraf 9
+
+1. Akter och handlingar i original skall efterfr&#229;gas enbart d&#229;
+bestyrkta kopior ej &#228;r tillfyllest.
+
+2. Akter och handlingar som har &#246;verl&#228;mnats skall &#229;terl&#228;mnas s&#229; snart
+som m&#246;jligt.
+
+Unders&#246;kningar
+
+Paragraf 10
+
+1. Om den ena statens tullmyndighet beg&#228;r det, skall den andra statens
+tullmyndighet inleda utredningar av f&#246;rfaranden som st&#229;r eller
+f&#246;refaller st&#229; i strid mot tullagarna. Resultaten av s&#229;dana
+utredningar skall meddelas den anmodande myndigheten.
+
+2. Utredningarna skall f&#246;retas i enlighet med den anmodade statens
+lagar och andra f&#246;rfattningar.
+
+Sakkunniga och vittnen
+
+Paragraf 11
+
+P&#229; anmodan av endera statens domstolar eller myndigheter, hos vilka
+m&#229;l eller &#228;renden ang&#229;ende &#246;vertr&#228;delser av tullagarna anh&#228;ngiggjorts,
+kan den andra statens tullmyndighet bemyndiga sina tj&#228;nstem&#228;n att
+inst&#228;lla sig som vittnen eller sakkunniga inf&#246;r dessa domstolar eller
+myndigheter f&#246;r att h&#246;ras om s&#229;dana fakta som de inh&#228;mtat i tj&#228;nsten.
+I en framst&#228;llning om inst&#228;llelse skall klart anges i vilket &#228;rende
+och i vilken egenskap tj&#228;nstemannen skall h&#246;ras.
+
+Paragraf 12
+
+N&#228;r tj&#228;nstem&#228;n fr&#229;n en stat &#228;r n&#228;rvarande p&#229; den andra statens
+territorium i enlighet med best&#228;mmelserna i denna &#246;verenskommelse,
+skall de kunna styrka sin tj&#228;nstest&#228;llning. De f&#229;r inte b&#228;ra uniform
+eller vara bev&#228;pnade.
+
+Bruk av upplysningar och handlingar
+
+Paragraf 13
+
+1. Upplysningar, meddelanden och handlingar som erh&#229;llits skall
+anv&#228;ndas enbart f&#246;r denna &#246;verenskommelses syften. De skall inte
+spridas eller anv&#228;ndas f&#246;r andra syften, om inte den myndighet som
+l&#228;mnat uppgifterna uttryckligen samtycker d&#228;rtill och de f&#246;reskrifter
+som &#228;r till&#228;mpliga p&#229; den myndighet som mottar dem till&#229;ter att s&#229;
+sker.
+
+2. F&#246;r framst&#228;llningar, upplysningar, sakkunnigutl&#229;tanden och andra
+meddelanden som en stats tullmyndighet f&#246;rfogar &#246;ver genom till&#228;mpning
+av denna &#246;verenskommelse g&#228;ller samma sekretesskydd i den mottagande
+staten, som enligt denna stats nationella lagstiftning g&#228;ller f&#246;r
+handlingar och upplysningar av samma slag.
+
+Paragraf 14
+
+De b&#229;da staternas tullmyndigheter f&#229;r, i enlighet med syftena och inom
+ramen f&#246;r denna &#246;verenskommelse, i sina bevisprotokoll, rapporter och
+vittnesm&#229;l samt vid f&#246;rhandlingar och &#229;tal inf&#246;r domstol som bevisning
+anv&#228;nda upplysningar och handlingar som erh&#229;llits enligt
+&#246;verenskommelsen.
+
+R&#228;tten att &#229;beropa s&#229;dana upplysningar och handlingar som bevisning
+inf&#246;r domstol och den vikt som skall f&#228;stas d&#228;rvid avg&#246;rs av den
+nationella lagstiftningen.
+
+Undantag fr&#229;n skyldigheten att l&#228;mna bist&#229;nd
+
+Paragraf 15
+
+1. Om efterkommandet av en beg&#228;ran om bist&#229;nd anses strida mot den
+anmodade statens suver&#228;nitet, s&#228;kerhet, allm&#228;nna r&#228;ttsprinciper,
+&quot;public policy&quot; eller andra v&#228;sentliga intressen eller av denna stat
+skulle anses inneb&#228;ra en kr&#228;nkning av en industriell, kommersiell
+eller yrkesm&#228;ssig hemlighet, kan denna stats tullmyndighet v&#228;gra
+bist&#229;nd.
+
+2. Om en beg&#228;ran om bist&#229;nd inte efterkoms, skall den anmodande staten
+utan dr&#246;jsm&#229;l skriftligen underr&#228;ttas om beslutet och sk&#228;len till
+detta.
+
+3. Om tullmyndigheten i den ena staten beg&#228;r bist&#229;nd som den inte
+sj&#228;lv skulle kunna l&#228;mna om den blev anmodad d&#228;rtill, skall den
+framh&#229;lla detta i sin framst&#228;llning. I s&#229;dant fall skall
+den anmodade myndigheten ha handlingsfrihet att best&#228;mma om
+framst&#228;llningen skall efterkommas.
+
+Delgivning
+
+Paragraf 16
+
+1. Tullmyndigheten i den ena staten skall, p&#229; beg&#228;ran av
+tullmyndigheten i den andra staten, delge ber&#246;rda parter, som &#228;r
+bosatta eller som vistas p&#229; dess territorium, handlingar avseende
+beslut som fattats och &#229;tg&#228;rder som vidtagits av administrativa
+myndigheter vid till&#228;mpningen av tullagarna.
+
+2. Delgivning av handlingar enligt denna &#246;verenskommelse skall ske i
+enlighet med de lagar och andra f&#246;rfattningar och den praxis som
+g&#228;ller i den anmodade staten. Beg&#228;ran om delgivning skall inneh&#229;lla en
+kortfattad redog&#246;relse f&#246;r inneh&#229;llet i handlingen.
+
+3. Om den stat som beg&#228;r delgivningen s&#229; &#246;nskar, kan delgivning ske i
+s&#228;rskild form, i den m&#229;n det beg&#228;rda f&#246;rfarandet st&#229;r i
+&#246;verensst&#228;mmelse med lagar, andra f&#246;rfattningar och praxis som g&#228;ller
+i den anmodade staten.
+
+4. S&#229;som bevis om delgivningen skall g&#228;lla ett daterat och bestyrkt
+erk&#228;nnande av den med vilken delgivningen skett, eller ett intyg av
+vederb&#246;rande myndighet i den stat hos vilken delgivningen beg&#228;rts, som
+ger besked om formen och tidpunkten f&#246;r delgivningen.
+
+Bist&#229;nd mellan utredningsenheterna
+
+Paragraf 17
+
+Staternas tullmyndigheter f&#229;r bemyndiga sina utredningsenheter att st&#229;
+i direkt kontakt med varandra f&#246;r att genom utbyte av upplysningar
+underl&#228;tta f&#246;rhindrande, utredning och beivrande av &#246;vertr&#228;delser av
+sina respektive l&#228;nders tullagar.
+
+Kostnader
+
+Paragraf 18
+
+Tullmyndigheterna skall avst&#229; fr&#229;n att kr&#228;va ers&#228;ttning f&#246;r kostnader
+som f&#246;ranletts av till&#228;mpningen av denna &#246;verenskommelse, utom vad
+ang&#229;r den gottg&#246;relse som utg&#229;tt till sakkunniga och vittnen.
+
+Giltighetsomr&#229;de
+
+Genomf&#246;rande
+
+Paragraf 19
+
+1. Denna &#246;verenskommelse skall till&#228;mpas p&#229; Konungariket Sveriges
+territorium samt p&#229; Det F&#246;renade Konungariket Storbritannien och
+Nordirlands territorium.
+
+2. Staternas tullmyndigheter skall gemensamt fastst&#228;lla
+till&#228;mpningsbest&#228;mmelser f&#246;r genomf&#246;randet av denna &#246;verenskommelse.
+
+Ikrafttr&#228;dande och upps&#228;gning
+
+Paragraf 20
+
+Varje regering skall notifiera den andra regeringen n&#228;r de
+konstitutionella f&#246;rfaranden som den anser n&#246;dv&#228;ndiga f&#246;r
+ikrafttr&#228;dandet har uppfyllts. &#214;verenskommelsen tr&#228;der i kraft dagen
+f&#246;r den sista regeringsnotifikationen och f&#246;rblir i kraft tills
+upps&#228;gning sker skriftligt till den andra regeringen. &#214;verenskommelsen
+slutar d&#228;rmed att g&#228;lla efter sex m&#229;nader.
+
+Undertecknat i Stockholm den 2 maj 1985 i tv&#229; exemplar p&#229; svenska och
+engelska spr&#229;ken, vilka b&#229;da texter har lika giltighet.
+
+F&#246;r Konungariket Sveriges regering:
+
+F&#246;r Det F&#246;renade Konungariket Storbritannien och Nordirlands
+regering:
+
+Carl Johan &#197;berg
+Angus Fraser
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3706">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3708">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

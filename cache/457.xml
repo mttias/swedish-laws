@@ -1,0 +1,746 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2020-10-19" /> 
+ <meta id="rattsinfo-edited" content="2022-07-22 11:11:36" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>457</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=456">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=458">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2020:838 ·
+                    <a href="/sfsr?bet=2020:838">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2020:838) om omst&#228;llningsst&#246;d f&#246;r maj-juli 2020</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2020-10-16
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:90
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2020-10-19
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Till&#228;mpningsomr&#229;de
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller kompletterande best&#228;mmelser om 
+s&#229;dant omst&#228;llningsst&#246;d som Skatteverket f&#229;r l&#228;mna till 
+f&#246;retag enligt lagen (2020:548) om omst&#228;llningsst&#246;d.
+
+F&#246;rordningen &#228;r meddelad med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen. 
+
+Omst&#228;llningsst&#246;d f&#229;r l&#228;mnas i enlighet med Europeiska 
+kommissionens beslut den 12 oktober 2020 i &#228;rende SA.58631 
+(2020/N) respektive SA.58822 (2020/N), med de &#228;ndringar som 
+f&#246;ljer av kommissionens &#228;ndringsbeslut den 23 november 2020 i 
+&#228;rende SA.59563 (2020/N).
+
+Enligt kommissionens beslut f&#229;r ett beslut av Skatteverket att 
+bevilja omst&#228;llningsst&#246;d inte fattas efter den 30 juni 2021. 
+F&#246;rordning (2020:1097).
+
+F&#246;rordningens inneh&#229;ll
+
+2 &#167; I denna f&#246;rordning finns best&#228;mmelser om 
+
+- uttryck i f&#246;rordningen (3 &#167; ),
+
+- st&#246;dperioder och referensperioder (4 &#167; ),
+
+- n&#228;r omst&#228;llningsst&#246;d f&#229;r l&#228;mnas (5-10 &#167;&#167; ),
+
+- vissa ombildningar (11 &#167; ),
+
+- ber&#228;kning av omst&#228;llningsst&#246;d (12-20 &#167;&#167; ),
+
+- hur ans&#246;kan ska g&#246;ras (21 och 22 &#167;&#167; ),
+
+- utbetalning av omst&#228;llningsst&#246;d (23 &#167; ),
+
+- r&#228;tt att meddela f&#246;reskrifter (24 &#167; ), och
+
+- anm&#228;lan om brott (25 &#167; ).
+
+Uttryck i f&#246;rordningen
+
+3 &#167; Uttryck som anv&#228;nds i denna f&#246;rordning har samma inneb&#246;rd 
+och till&#228;mpningsomr&#229;de som i lagen (2020:548) om 
+omst&#228;llningsst&#246;d.
+
+St&#246;dperioder och referensperioder
+
+4 &#167; St&#246;dperioder enligt denna f&#246;rordning &#228;r
+
+1. maj 2020, samt
+
+2. juni och juli 2020.
+
+En st&#246;dperiods motsvarande m&#229;nad eller m&#229;nader 2019 utg&#246;r 
+st&#246;dperiodens referensperiod.
+
+N&#228;r omst&#228;llningsst&#246;d f&#229;r l&#228;mnas
+
+5 &#167; Ett f&#246;retag har efter ans&#246;kan r&#228;tt till omst&#228;llningsst&#246;d 
+f&#246;r st&#246;dperioden maj 2020 om f&#246;retagets sammanlagda 
+nettooms&#228;ttning f&#246;r denna period understiger 60 procent av den 
+sammanlagda nettooms&#228;ttningen f&#246;r referensperioden. 
+
+Ett f&#246;retag har efter ans&#246;kan r&#228;tt till omst&#228;llningsst&#246;d f&#246;r 
+st&#246;dperioden juni och juli 2020 om f&#246;retagets sammanlagda 
+nettooms&#228;ttning f&#246;r denna period understiger 50 procent av den 
+sammanlagda nettooms&#228;ttningen f&#246;r referensperioden.
+
+6 &#167; F&#246;r att omst&#228;llningsst&#246;d ska f&#229; l&#228;mnas kr&#228;vs &#228;ven att 
+
+1. nedg&#229;ngen i f&#246;retagets nettooms&#228;ttning f&#246;r st&#246;dperioden s&#229; 
+gott som uteslutande &#228;r orsakad av effekterna av spridningen 
+av sjukdomen covid-19,
+
+2. f&#246;retagets nettooms&#228;ttning uppgick till minst 250 000 
+kronor under det r&#228;kenskaps&#229;r som avslutats n&#228;rmast f&#246;re den 1 
+januari 2020,
+
+3. st&#246;det f&#246;r st&#246;dperioden, ber&#228;knat enligt 12-20 &#167;&#167;, uppg&#229;r 
+till minst 5 000 kronor,
+
+4. f&#246;retaget under perioden april 2020-juni 2021 inte 
+verkst&#228;ller ett beslut om vinstutdelning, gottg&#246;relse, f&#246;rv&#228;rv 
+av egna aktier eller minskning av aktiekapitalet eller 
+reservfonden f&#246;r &#229;terbetalning till aktie&#228;garna eller 
+medlemmarna, och ett s&#229;dant beslut om v&#228;rde&#246;verf&#246;ring inte 
+heller fattas av f&#246;retagets st&#228;mma, styrelse eller motsvarande 
+organ under denna period,
+
+5. f&#246;retaget har gjort vad som sk&#228;ligen kan kr&#228;vas f&#246;r att 
+utt&#246;mma m&#246;jligheterna till f&#246;rs&#228;kringsers&#228;ttning, skadest&#229;nd 
+och liknande ers&#228;ttning samt annat statligt st&#246;d f&#246;r s&#229;dan 
+f&#246;rlorad oms&#228;ttning eller s&#229;dana kostnader som st&#246;det ber&#228;knas 
+p&#229;, och
+
+6. ans&#246;kan om st&#246;d har inkommit till Skatteverket senast den 
+30 november 2020.
+
+Om r&#228;kenskaps&#229;ret som avses i f&#246;rsta stycket 2 &#228;r l&#228;ngre eller 
+kortare &#228;n tolv m&#229;nader, ska kravet p&#229; minsta nettooms&#228;ttning 
+justeras i motsvarande m&#229;n.
+
+Om f&#246;retaget ing&#229;r i en koncern av s&#229;dant slag som anges i 
+1 kap. 4 &#167; &#229;rsredovisningslagen (1995:1554) g&#228;ller vad som 
+anges om v&#228;rde&#246;verf&#246;ringar i f&#246;rsta stycket 4 &#228;ven det eller 
+de moderf&#246;retag till f&#246;retaget som ing&#229;r i koncernen.
+
+7 &#167; Med nettooms&#228;ttning avses int&#228;kter fr&#229;n s&#229;lda varor och 
+utf&#246;rda tj&#228;nster som ing&#229;r i f&#246;retagets normala verksamhet med 
+avdrag f&#246;r l&#228;mnade rabatter, merv&#228;rdesskatt och annan skatt 
+som &#228;r direkt knuten till oms&#228;ttningen, under f&#246;ruts&#228;ttning 
+att int&#228;kterna &#228;r h&#228;nf&#246;rliga till en n&#228;ringsverksamhet som 
+bedrivs i Sverige. Int&#228;kter fr&#229;n finansiella instrument och 
+valutahandel ing&#229;r dock inte i nettooms&#228;ttningen. 
+
+En int&#228;kt ska anses h&#228;nf&#246;rlig till den m&#229;nad som den hade 
+ansetts bel&#246;pa sig p&#229; om varje kalenderm&#229;nad hade utgjort ett 
+separat r&#228;kenskaps&#229;r f&#246;r f&#246;retaget, med till&#228;mpning av de 
+redovisningsprinciper som f&#246;retaget till&#228;mpat f&#246;r det 
+r&#228;kenskaps&#229;r som avslutats n&#228;rmast f&#246;re den 1 januari 2020. 
+
+Om en hyresv&#228;rd har tagit emot st&#246;d enligt f&#246;rordningen 
+(2020:237) om statligt st&#246;d n&#228;r vissa lokalhyresg&#228;ster f&#229;tt 
+rabatt p&#229; hyran, ska den del av st&#246;det som avser hyresrabatt 
+f&#246;r maj eller juni 2020 anses ing&#229; i hyresv&#228;rdens 
+nettooms&#228;ttning f&#246;r den m&#229;naden. 
+
+Om nettooms&#228;ttningen f&#246;r en st&#246;dperiod eller en 
+referensperiod, vid en ber&#228;kning enligt f&#246;rsta-tredje 
+styckena, uppg&#229;r till ett negativt belopp ska 
+nettooms&#228;ttningen f&#246;r perioden anses vara noll kronor.
+
+8 &#167; Omst&#228;llningsst&#246;d f&#229;r beviljas endast om f&#246;retaget har 
+l&#228;mnat ett skriftligt, undertecknat yttrande fr&#229;n en revisor 
+tillsammans med ans&#246;kan. Revisorn ska yttra sig &#246;ver f&#246;ljande 
+uppgifter i f&#246;retagets ans&#246;kan: 
+
+1. nedg&#229;ngen i f&#246;retagets nettooms&#228;ttning vid en j&#228;mf&#246;relse 
+mellan nettooms&#228;ttningen f&#246;r st&#246;dperioden och 
+nettooms&#228;ttningen f&#246;r referensperioden, 
+
+2. huruvida de villkor som anges i 6 &#167; f&#246;rsta stycket 1, 2 och 
+4 &#228;r uppfyllda,
+
+3. summan av f&#246;retagets fasta kostnader enligt 13-15 &#167;&#167; f&#246;r 
+st&#246;dperioden, 
+
+4. i vilken omfattning f&#246;retaget har tagit emot s&#229;dan 
+ers&#228;ttning eller s&#229;dant st&#246;d som avses i 16 &#167;, och
+
+5. nedg&#229;ngen i f&#246;retagets bruttoresultat vid en j&#228;mf&#246;relse 
+mellan bruttoresultatet f&#246;r st&#246;dperioden och bruttoresultatet 
+f&#246;r referensperioden, om f&#246;retaget &#228;r ett s&#229;dant 
+f&#246;rlustf&#246;retag som avses i 20 &#167; andra stycket. 
+
+Revisorn ska granska r&#228;kenskapsmaterial, sammanst&#228;llningar och 
+annat underlag som ligger till grund f&#246;r uppgifterna i 
+ans&#246;kan. Granskningen ska utf&#246;ras med professionell skepticism 
+och vara s&#229; ing&#229;ende och omfattande som god revisionssed 
+kr&#228;ver, med beaktande av vad som anges i tredje stycket.
+
+Revisorn ska granska de uppgifter i ans&#246;kan som yttrandet 
+avser och rapportera sina iakttagelser. Om det s&#246;kta 
+omst&#228;llningsst&#246;det avser maj 2020 och uppg&#229;r till minst 
+600 000 kronor, ska revisorn i st&#228;llet bestyrka dessa 
+uppgifter med rimlig s&#228;kerhet.
+
+Kravet p&#229; yttrande fr&#229;n revisor enligt f&#246;rsta stycket g&#228;ller 
+inte om det s&#246;kta omst&#228;llningsst&#246;det understiger 100 000 
+kronor och Skatteverket inte enligt 8 &#167; andra stycket lagen 
+(2020:548) om omst&#228;llningsst&#246;d har beg&#228;rt att f&#246;retaget ger in 
+ett s&#229;dant yttrande. 
+
+Om ett f&#246;retag ans&#246;ker om omst&#228;llningsst&#246;d f&#246;r fler &#228;n en 
+st&#246;dperiod enligt 4 &#167; f&#246;rsta stycket g&#228;ller vad som anges i 
+tredje och fj&#228;rde styckena f&#246;r respektive st&#246;dperiod var f&#246;r 
+sig.
+
+9 &#167; Omst&#228;llningsst&#246;d f&#229;r inte l&#228;mnas om f&#246;retaget den 29 
+februari 2020 var ett f&#246;retag i sv&#229;righeter enligt artikel 
+2.18 i Europeiska kommissionens f&#246;rordning (EU) nr 651/2014 av 
+den 17 juni 2014 genom vilken dessa kategorier av st&#246;d 
+f&#246;rklaras f&#246;renliga med den inre marknaden enligt artiklarna 
+107 och 108 i f&#246;rdraget.
+
+Omst&#228;llningsst&#246;d f&#229;r inte heller l&#228;mnas om f&#246;retaget vid 
+tidpunkten f&#246;r pr&#246;vningen av ans&#246;kan f&#246;r respektive st&#246;dperiod
+
+1. kan anses vara p&#229; obest&#229;nd,
+
+2. har n&#228;ringsf&#246;rbud,
+
+3. har skatte- eller avgiftsskulder som har &#246;verl&#228;mnats till 
+Kronofogdemyndigheten f&#246;r indrivning, eller
+
+4. &#228;r f&#246;rem&#229;l f&#246;r betalningskrav p&#229; grund av ett tidigare 
+kommissionsbeslut som f&#246;rklarar ett st&#246;d olagligt och 
+of&#246;renligt med den inre marknaden. 
+
+Om f&#246;retaget &#228;r en juridisk person g&#228;ller vad som anges i 
+andra stycket 2 &#228;ven den eller de fysiska personer som har ett 
+betydande inflytande i verksamheten.
+
+10 &#167; Omst&#228;llningsst&#246;d f&#229;r inte l&#228;mnas f&#246;r st&#246;dperioden juni 
+och juli 2020 om f&#246;retaget 
+
+1. &#228;r verksamt inom prim&#228;r jordbruksproduktion i den mening 
+som avses i artikel 2.5 i kommissionens f&#246;rordning (EU) nr 
+702/2014 av den 25 juni 2014 genom vilken vissa kategorier av 
+st&#246;d inom jordbruks- och skogsbrukssektorn och i 
+landsbygdsomr&#229;den f&#246;rklaras f&#246;renliga med den inre marknaden 
+enligt artiklarna 107 och 108 i f&#246;rdraget om Europeiska 
+unionens funktionss&#228;tt, eller 
+
+2. &#228;r ett f&#246;retag inom fiskeri- och vattenbrukssektorn i den 
+mening som avses i artikel 2.1 i kommissionens f&#246;rordning (EU) 
+nr 717/2014 av den 27 juni 2014 om till&#228;mpningen av artiklarna 
+107 och 108 i f&#246;rdraget om Europeiska unionens funktionss&#228;tt 
+p&#229; st&#246;d av mindre betydelse inom fiskeri- och 
+vattenbrukssektorn.
+
+Om det s&#246;kta omst&#228;llningsst&#246;det f&#246;r st&#246;dperioden juni och juli 
+2020 uppg&#229;r till ett belopp som &#246;verstiger 1 miljon kronor 
+kr&#228;vs f&#246;r att omst&#228;llningsst&#246;d ska l&#228;mnas att f&#246;retaget l&#228;mnar 
+f&#246;ljande uppgifter om sin verksamhet:
+
+1. vilken typ av f&#246;retag (sm&#229; eller medelstora respektive 
+stora) f&#246;retaget h&#246;r till enligt bilaga I till kommissionens 
+f&#246;rordning (EU) nr 651/2014 av den 17 juni 2014 genom vilken 
+vissa kategorier av st&#246;d f&#246;rklaras f&#246;renliga med den inre 
+marknaden enligt artiklarna 107 och 108 i f&#246;rdraget,
+
+2. den region d&#228;r f&#246;retaget &#228;r bel&#228;get p&#229; NUTS 2-niv&#229; enligt 
+bilaga 1 i Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 
+1059/2003 av den 26 maj 2003 om inr&#228;ttande av en gemensam 
+nomenklatur f&#246;r statistiska territoriella enheter (NUTS), i 
+lydelsen enligt kommissionens f&#246;rordning (EU) nr 868/2014 av 
+den 8 augusti 2014 om &#228;ndring av bilagorna till 
+Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 1059/2003 om 
+inr&#228;ttande av en gemensam nomenklatur f&#246;r statistiska 
+territoriella enheter (Nuts), och
+
+3. f&#246;retagets verksamhetsomr&#229;de p&#229; Nace-gruppniv&#229; enligt 
+bilaga 1 i Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 
+1893/2006 av den 20 december 2006 om fastst&#228;llande av den 
+statistiska n&#228;ringsgrensindelningen Nace rev. 2 och om &#228;ndring 
+av r&#229;dets f&#246;rordning (EEG) nr 3037/90, i den ursprungliga 
+lydelsen.
+
+Den region respektive det verksamhetsomr&#229;de som ska anges 
+enligt andra stycket 2 och 3 &#228;r den region respektive det 
+verksamhetsomr&#229;de som st&#246;rst andel av f&#246;retagets 
+nettooms&#228;ttning f&#246;r det r&#228;kenskaps&#229;r som avslutats n&#228;rmast f&#246;r 
+den 1 januari 2020 kan h&#228;nf&#246;ras till.
+
+Vissa ombildningar
+
+11 &#167; Om en enskild n&#228;ringsidkare under perioden 1 maj 2019-
+30 april 2020 har &#246;verl&#229;tit hela n&#228;ringsverksamheten till ett 
+nybildat aktiebolag g&#228;ller f&#246;ljande. Vid till&#228;mpning av 5 &#167;, 
+6 &#167; f&#246;rsta stycket 1 och 3 samt 12 &#167; f&#229;r den enskilda 
+n&#228;ringsidkarens sammanlagda nettooms&#228;ttning f&#246;r 
+referensperioden anses utg&#246;ra aktiebolagets totala 
+nettooms&#228;ttning f&#246;r denna period. Vid till&#228;mpning av 6 &#167; 
+f&#246;rsta stycket 2 f&#229;r den enskilda n&#228;ringsidkarens 
+nettooms&#228;ttning f&#246;r det r&#228;kenskaps&#229;r som avslutats n&#228;rmast 
+f&#246;re den 1 januari 2020 anses utg&#246;ra aktiebolagets totala 
+nettooms&#228;ttning f&#246;r detta r&#228;kenskaps&#229;r. 
+
+F&#246;rsta stycket f&#229;r endast till&#228;mpas under f&#246;ruts&#228;ttning att 
+
+1. den enskilda n&#228;ringsidkaren &#228;ger samtliga andelar i 
+aktiebolaget vid tidpunkten f&#246;r pr&#246;vningen av ans&#246;kan om 
+omst&#228;llningsst&#246;d, och 
+
+2. omst&#228;llningsst&#246;d f&#246;r st&#246;dperioden inte s&#246;ks av den enskilda 
+n&#228;ringsidkaren eller ett annat aktiebolag som den enskilda 
+n&#228;ringsidkaren &#228;ger samtliga andelar i.
+
+Ber&#228;kning av omst&#228;llningsst&#246;d
+
+12 &#167; Omst&#228;llningsst&#246;d ges med ett belopp som motsvarar en 
+andel av f&#246;retagets fasta kostnader f&#246;r st&#246;dperioden. Andelen 
+fasta kostnader f&#246;r st&#246;dperioden ber&#228;knas som den procentuella 
+nedg&#229;ngen i nettooms&#228;ttning f&#246;r st&#246;dperioden j&#228;mf&#246;rd med 
+referensperioden, multiplicerad med 0,75. Andelen fasta 
+kostnader ska allts&#229; ber&#228;knas enligt f&#246;ljande formel:  
+
+((nettooms&#228;ttningen f&#246;r referensperioden - nettooms&#228;ttningen 
+f&#246;r st&#246;dperioden) / nettooms&#228;ttningen f&#246;r referensperioden) &#215; 
+0,75 
+
+Om st&#246;d enligt f&#246;rsta stycket f&#246;r en st&#246;dperiod uppg&#229;r till 
+minst 100 000 kronor, ges omst&#228;llningsst&#246;d &#228;ven f&#246;r 
+administrativa kostnader som uppkommit med anledning av 
+ans&#246;kan om omst&#228;llningsst&#246;d f&#246;r den st&#246;dperioden. S&#229;dant st&#246;d 
+ges med h&#246;gst 10 000 kronor per st&#246;dber&#228;ttigat f&#246;retag och 
+st&#246;dperiod som st&#246;d beviljas f&#246;r.
+
+13 &#167; Med fasta kostnader avses kostnader f&#246;r
+
+1. hyra och leasing, med avdrag f&#246;r l&#228;mnade rabatter, om 
+avtalstiden &#228;r minst sex m&#229;nader,
+
+2. r&#228;ntor, med undantag f&#246;r vinstandelsr&#228;ntor och r&#228;ntor 
+enligt s&#229;dana finansiella instrument som avses i 24 b kap. 5 &#167; 
+inkomstskattelagen (1999:1229), till den del de &#246;verstiger 
+r&#228;nteint&#228;kter f&#246;r perioden,
+
+3. v&#228;rdeminskning p&#229; anl&#228;ggningstillg&#229;ngar samt n&#246;dv&#228;ndiga 
+reparationer och underh&#229;ll av s&#229;dana tillg&#229;ngar,
+
+4. fastighetsskatt och kommunal fastighetsavgift som f&#246;retaget 
+&#228;r skatt- eller avgiftsskyldigt f&#246;r,
+
+5. f&#246;rbrukning av vatten och elektricitet, med undantag f&#246;r 
+elektricitet som f&#246;rbrukas i tillverkningsprocessen i 
+industriell verksamhet, avlopp, internet och telefoni samt 
+uppv&#228;rmning av lokaler,
+
+6. tj&#228;nster som avser st&#228;dning, sophantering, larm och 
+bevakning, 
+
+7. tj&#228;nster som avser tv&#228;tt av textilier, till den del 
+kostnaden inte &#228;r beroende av m&#228;ngden textilier eller 
+liknande, om avtalstiden &#228;r minst tre m&#229;nader,
+
+8. f&#246;rs&#228;kringar mot ekonomisk f&#246;rlust genom sakskada, 
+ers&#228;ttningsskyldighet eller ren f&#246;rm&#246;genhetsskada i &#246;vrigt,
+
+9. djurfoder,
+
+10. franchiseavgifter, 
+
+11. offentligr&#228;ttsliga tillst&#229;nd samt &#229;terkommande tillsyns- 
+och kontrollavgifter som betalas f&#246;r en viss tidsperiod,
+
+12. royalties och licensavgifter f&#246;r immateriella r&#228;ttigheter, 
+och
+
+13. farledsavgifter inom sj&#246;fart, till den del avgiften inte 
+&#228;r beroende av antalet passagerare eller lasten ombord 
+fartyget.
+
+Kostnaden f&#246;r v&#228;rdeminskning p&#229; anl&#228;ggningstillg&#229;ngar enligt 
+f&#246;rsta stycket 3 utg&#246;rs av f&#246;retagets planm&#228;ssiga 
+avskrivningar av anl&#228;ggningstillg&#229;ngar enligt r&#228;kenskaperna.
+
+S&#229;dana avgifter som avses i f&#246;rsta stycket 10 och 12 ska inte 
+r&#228;knas som fasta kostnader till den del avgiften &#228;r beroende 
+av f&#246;rs&#228;ljningsvolym eller liknande.
+
+14 &#167; Som fasta kostnader r&#228;knas inte kostnader som
+
+1. &#228;r m&#246;jliga f&#246;r f&#246;retaget att undvika genom s&#229;dana &#229;tg&#228;rder 
+som sk&#228;ligen kan kr&#228;vas vid en pl&#246;tslig nedg&#229;ng i produktionen 
+eller oms&#228;ttningen av varor eller tj&#228;nster,
+
+2. utg&#246;rs av ing&#229;ende merv&#228;rdesskatt som f&#246;retaget har r&#228;tt 
+att g&#246;ra avdrag f&#246;r enligt 8 kap. merv&#228;rdesskattelagen 
+(1994:200) eller f&#229; &#229;terbetald enligt 10 kap. samma lag,
+
+3. &#228;r h&#228;nf&#246;rliga till f&#246;rbrukning av br&#228;nsle f&#246;r uppv&#228;rmning 
+av lokaler eller elektricitet enligt 13 &#167; 5 till den del s&#229;dan 
+f&#246;rbrukning ger r&#228;tt till skattebefrielse enligt lagen 
+(1994:1776) om skatt p&#229; energi,
+
+4. &#228;r h&#228;nf&#246;rliga till en verksamhet som bedrivs i utlandet, 
+
+5. motsvaras av en int&#228;kt hos n&#229;gon som ing&#229;r i samma koncern 
+av s&#229;dant slag som anges i 1 kap. 4 &#167; &#229;rsredovisningslagen 
+(1995:1554), eller
+
+6. &#228;r h&#228;nf&#246;rliga till verksamhet som inte utg&#246;r 
+n&#228;ringsverksamhet enligt 13 kap. 1 &#167; inkomstskattelagen 
+(1999:1229).
+
+15 &#167; Vid till&#228;mpning av 12 &#167; ska en kostnad anses h&#228;nf&#246;rlig 
+till den m&#229;nad som den hade ansetts bel&#246;pa sig p&#229; om varje 
+kalenderm&#229;nad hade utgjort ett separat r&#228;kenskaps&#229;r f&#246;r 
+f&#246;retaget, med till&#228;mpning av de redovisningsprinciper som 
+f&#246;retaget till&#228;mpat f&#246;r det r&#228;kenskaps&#229;r som avslutats n&#228;rmast 
+f&#246;re den 1 januari 2020.
+
+16 &#167; Omst&#228;llningsst&#246;det ska minskas med belopp som f&#246;retaget 
+f&#229;tt eller kommer att f&#229; i 
+
+1. f&#246;rs&#228;kringsers&#228;ttning, skadest&#229;nd och annan liknande 
+ers&#228;ttning f&#246;r s&#229;dan f&#246;rlorad oms&#228;ttning eller s&#229;dana 
+kostnader som omst&#228;llningsst&#246;det ber&#228;knas p&#229;, eller 
+
+2. annat statligt st&#246;d f&#246;r s&#229;dan f&#246;rlorad oms&#228;ttning eller 
+s&#229;dana kostnader som omst&#228;llningsst&#246;det ber&#228;knas p&#229;.
+
+F&#246;rsta stycket 2 ska inte till&#228;mpas p&#229; st&#246;d enligt 
+f&#246;rordningen (2020:893) om oms&#228;ttningsst&#246;d till enskilda 
+n&#228;ringsidkare f&#246;r mars-juli 2020, f&#246;rordningen (2021:194) om 
+omst&#228;llningsst&#246;d till vissa s&#228;rskilt drabbade f&#246;retag eller 
+f&#246;rordningen (2021:208) om oms&#228;ttningsst&#246;d till handelsbolag.
+F&#246;rordning (2022:90).
+
+17 &#167; F&#246;r st&#246;dperioden maj 2020 f&#229;r omst&#228;llningsst&#246;det ges med 
+h&#246;gst 75 miljoner kronor per st&#246;dber&#228;ttigat f&#246;retag.
+
+18 &#167; F&#246;r st&#246;dperioden juni och juli 2020 f&#229;r omst&#228;llningsst&#246;d 
+ges med h&#246;gst 8 miljoner kronor per st&#246;dber&#228;ttigat f&#246;retag. 
+
+Om f&#246;retaget eller ett annat f&#246;retag i samma koncern av s&#229;dant 
+slag som anges i 1 kap. 4 &#167; &#229;rsredovisningslagen (1995:1554) i 
+egenskap av hyresg&#228;st har ing&#229;tt ett s&#229;dant avtal om rabatt p&#229; 
+hyran som ger hyresv&#228;rden r&#228;tt till st&#246;d enligt f&#246;rordningen 
+(2020:237) om statligt st&#246;d n&#228;r vissa lokalhyresg&#228;ster har 
+f&#229;tt rabatt p&#229; hyran, ska det maximala st&#246;det enligt f&#246;rsta 
+stycket minskas med belopp som hyresv&#228;rden har f&#229;tt eller 
+kommer att f&#229; i st&#246;d p&#229; grund av hyresrabatten.
+
+19 &#167; Om flera f&#246;retag i en koncern av s&#229;dant slag som anges i 
+1 kap. 4 &#167; &#229;rsredovisningslagen (1995:1554) &#228;r ber&#228;ttigade 
+till omst&#228;llningsst&#246;d f&#246;r samma st&#246;dperiod, avser det maximala 
+st&#246;det f&#246;r st&#246;dperioden enligt  
+17 eller 18 &#167; hela koncernen och f&#246;rdelas p&#229; respektive 
+st&#246;dber&#228;ttigat f&#246;retag i f&#246;rh&#229;llande till storleken p&#229; det 
+omst&#228;llningsst&#246;d f&#246;retaget hade varit ber&#228;ttigat till utan 
+till&#228;mpning av 17 och 18 &#167;&#167;.
+
+20 &#167; Om f&#246;retaget &#228;r ett f&#246;rlustf&#246;retag g&#228;ller f&#246;ljande. 
+Ut&#246;ver vad som f&#246;ljer av &#246;vriga best&#228;mmelser i denna 
+f&#246;rordning f&#229;r omst&#228;llningsst&#246;d inte l&#228;mnas med ett belopp som 
+&#246;verstiger den nominella nedg&#229;ngen i bruttoresultat f&#246;r 
+st&#246;dperioden j&#228;mf&#246;rt med referensperioden. 
+
+Ett f&#246;retag anses vara ett f&#246;rlustf&#246;retag om
+
+1. f&#246;retaget har redovisat ett negativt r&#246;relseresultat f&#246;re 
+finansiella poster f&#246;r det r&#228;kenskaps&#229;r som avslutats n&#228;rmast 
+f&#246;re den 1 januari 2020, eller 
+
+2. st&#246;det f&#246;r st&#246;dperioden, ber&#228;knat enligt 12-19 &#167;&#167;, 
+&#246;verstiger den nominella nedg&#229;ngen i nettooms&#228;ttning f&#246;r 
+st&#246;dperioden j&#228;mf&#246;rt med referensperioden.
+
+Med bruttoresultat avses nettooms&#228;ttningen enligt 7 &#167; minskad 
+med periodens ink&#246;p av r&#229;varor, f&#246;rn&#246;denheter och handelsvaror 
+samt justerad f&#246;r periodens f&#246;r&#228;ndring av lager av produkter i 
+arbete, f&#228;rdiga varor och p&#229;g&#229;ende arbete f&#246;r n&#229;gon annans 
+r&#228;kning.
+
+Med r&#246;relseresultat f&#246;re finansiella poster avses &#229;rets 
+resultat f&#246;re 
+
+- skatter,
+
+- bokslutsdispositioner,
+
+- r&#228;ntor och liknande int&#228;kter och kostnader,
+
+- nedskrivningar av finansiella anl&#228;ggningstillg&#229;ngar och 
+kortfristiga placeringar, och
+
+- int&#228;kter fr&#229;n andelar i koncernf&#246;retag, intressef&#246;retag, 
+gemensamt styrda f&#246;retag och andra f&#246;retag som det finns ett 
+&#228;garintresse i samt &#246;vriga v&#228;rdepapper och fordringar som &#228;r 
+anl&#228;ggningstillg&#229;ngar.
+
+Hur ans&#246;kan ska g&#246;ras
+
+21 &#167; En ans&#246;kan om omst&#228;llningsst&#246;d ska g&#246;ras elektroniskt p&#229; 
+ett av Skatteverket fastst&#228;llt formul&#228;r.
+
+22 &#167; Om flera f&#246;retag som vid tidpunkten f&#246;r ans&#246;kan ing&#229;r i 
+en koncern av s&#229;dant slag som anges i 1 kap. 4 &#167; 
+&#229;rsredovisningslagen (1995:1554) ans&#246;ker om omst&#228;llningsst&#246;d, 
+ska ans&#246;kningarna ges in samtidigt. Dessa f&#246;retag ska ocks&#229; 
+l&#228;mna uppgifter om koncernstrukturen.
+
+Utbetalning av omst&#228;llningsst&#246;d
+
+23 &#167; Om det finns ett &#246;verskott p&#229; skattekontot efter att ett 
+omst&#228;llningsst&#246;d krediterats enligt 7 &#167; lagen (2020:548) om 
+omst&#228;llningsst&#246;d, ska det &#246;verskjutande beloppet automatiskt 
+betalas ut till det konto som har registrerats hos ett bank- 
+eller kreditmarknadsf&#246;retag enligt 14 kap. 8 &#167; 
+skattef&#246;rfarandef&#246;rordningen (2011:1261).
+
+R&#228;tt att meddela f&#246;reskrifter
+
+24 &#167; Skatteverket f&#229;r meddela f&#246;reskrifter om verkst&#228;lligheten 
+av lagen (2020:548) om omst&#228;llningsst&#246;d och denna f&#246;rordning.
+
+Anm&#228;lan om brott
+
+25 &#167; I 18 kap. 8 &#167; skattef&#246;rfarandef&#246;rordningen (2011:1261) 
+finns en skyldighet f&#246;r Skatteverket att till &#229;klagare anm&#228;la 
+brott enligt lagen (2020:548) om omst&#228;llningsst&#246;d.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=456">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=458">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

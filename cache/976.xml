@@ -1,0 +1,943 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2016-06-16" /> 
+ <meta id="rattsinfo-edited" content="2022-11-17 15:44:46" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>976</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=975">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=977">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2016:676 ·
+                    <a href="/sfsr?bet=2016:676">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2016:676) om skuldsanering f&#246;r f&#246;retagare</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L2
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2016-06-02
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:999
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2016-11-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens inneh&#229;ll
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser om en s&#228;rskild form av 
+skuldsanering f&#246;r f&#246;retagare och n&#228;rst&#229;ende till f&#246;retagare 
+(F-skuldsanering). F-skuldsanering inneb&#228;r att en g&#228;lden&#228;r 
+delvis befrias fr&#229;n ansvar f&#246;r betalningen av de skulder som 
+omfattas av F-skuldsaneringen. 
+
+Definitioner
+
+2 &#167; I lagen avses med 
+
+f&#246;retagare: en fysisk person som &#228;r eller har varit engagerad 
+i en n&#228;ringsverksamhet, antingen genom att driva eller ha 
+drivit enskild n&#228;ringsverksamhet eller genom att vara eller 
+ha varit f&#246;retr&#228;dare f&#246;r en juridisk person som driver eller 
+har drivit n&#228;ringsverksamhet,
+
+n&#228;rst&#229;ende: make, sambo, f&#246;r&#228;lder, syskon eller barn och 
+makes eller sambos barn.
+
+Information om F-skuldsanering
+
+3 &#167; Kronofogdemyndigheten ska l&#228;mna upplysningar om 
+F-skuldsanering till sv&#229;rt skuldsatta f&#246;retagare och 
+n&#228;rst&#229;ende till f&#246;retagare som &#228;r eller har varit f&#246;rem&#229;l f&#246;r 
+verkst&#228;llighet enligt uts&#246;kningsbalken. 
+
+Pr&#246;vningsmyndighet
+
+4 &#167; Kronofogdemyndigheten pr&#246;var &#228;renden om F-skuldsanering 
+och &#228;renden om ompr&#246;vning av ett beslut om F-skuldsanering.
+
+Villkor f&#246;r F-skuldsanering 
+
+5 &#167; F-skuldsanering f&#229;r beviljas en g&#228;lden&#228;r om villkoren i 
+6–11 &#167;&#167; &#228;r uppfyllda.
+
+6 &#167; F-skuldsanering f&#229;r beviljas om g&#228;lden&#228;ren &#228;r 
+
+1. en f&#246;retagare som har varit engagerad i en 
+n&#228;ringsverksamhet, om hans eller hennes skuldb&#246;rda till 
+huvudsaklig del har anknytning till denna verksamhet, 
+
+2. en f&#246;retagare som &#228;r engagerad i en n&#228;ringsverksamhet, om 
+de skulder som uppkommer i denna r&#228;tteligen kan betalas eller 
+om of&#246;rm&#229;gan att betala dessa skulder endast &#228;r tillf&#228;llig, 
+eller 
+
+3. en n&#228;rst&#229;ende till en f&#246;retagare, om den n&#228;rst&#229;endes 
+skuldb&#246;rda till huvudsaklig del har anknytning till 
+f&#246;retagarens n&#228;ringsverksamhet.
+
+F&#246;rsta stycket 1 hindrar inte att en f&#246;retagare som har varit 
+engagerad i en n&#228;ringsverksamhet beviljas F-skuldsanering om 
+hans eller hennes skuldb&#246;rda med anknytning till 
+n&#228;ringsverksamheten g&#246;r att han eller hon uppfyller kraven i 
+8 &#167;. Lag (2022:999).
+
+7 &#167; F-skuldsanering f&#229;r beviljas om g&#228;lden&#228;ren har sina 
+huvudsakliga intressen i Sverige.
+
+8 &#167; F-skuldsanering f&#229;r beviljas om g&#228;lden&#228;ren &#228;r insolvent 
+och s&#229; skuldsatt att han eller hon med h&#228;nsyn till samtliga 
+omst&#228;ndigheter inte kan antas ha f&#246;rm&#229;ga att betala sina 
+skulder inom &#246;versk&#229;dlig tid.
+
+En bed&#246;mning av om g&#228;lden&#228;ren uppfyller kraven i f&#246;rsta 
+stycket ska g&#246;ras &#228;ven om hans eller hennes framtida 
+inkomstf&#246;rh&#229;llanden &#228;r oklara. Lag (2022:999).
+
+9 &#167; F-skuldsanering f&#229;r inte beviljas om 
+
+1. f&#246;retagarens n&#228;ringsverksamhet drivs eller har drivits p&#229; 
+ett of&#246;rsvarligt s&#228;tt,
+
+2. g&#228;lden&#228;ren har n&#228;ringsf&#246;rbud enligt lagen (2014:836) om 
+n&#228;ringsf&#246;rbud, eller 
+
+3. g&#228;lden&#228;ren har ett betalningsutrymme som per kvartal 
+understiger en sjundedel av prisbasbeloppet enligt 2 kap. 6 
+och 7 &#167;&#167; socialf&#246;rs&#228;kringsbalken.
+
+10 &#167; F-skuldsanering f&#229;r beviljas om det &#228;r sk&#228;ligt med 
+h&#228;nsyn till g&#228;lden&#228;rens personliga och ekonomiska 
+f&#246;rh&#229;llanden. 
+
+Vid sk&#228;lighetsbed&#246;mningen ska s&#228;rskilt beaktas 
+omst&#228;ndigheterna vid skuldernas tillkomst, de anstr&#228;ngningar 
+g&#228;lden&#228;ren har gjort f&#246;r att fullg&#246;ra sina f&#246;rpliktelser, det 
+s&#228;tt p&#229; vilket g&#228;lden&#228;ren har medverkat under handl&#228;ggningen 
+av &#228;rendet om F-skuldsanering och F-skuldsaneringens 
+betydelse f&#246;r g&#228;lden&#228;rens framtida f&#246;rv&#228;rvsf&#246;rm&#229;ga. 
+
+11 &#167; Om g&#228;lden&#228;ren tidigare har beviljats skuldsanering, f&#229;r 
+F-skuldsanering beviljas endast om det finns s&#228;rskilda 
+sk&#228;l.
+Ans&#246;kan om F-skuldsanering
+
+12 &#167; En ans&#246;kan om F-skuldsanering ska vara skriftlig.
+
+Ans&#246;kan ska vara egenh&#228;ndigt undertecknad av g&#228;lden&#228;ren. Om 
+ans&#246;kan ges in p&#229; elektronisk v&#228;g, ska den vara undertecknad 
+med en s&#229;dan avancerad elektronisk underskrift som avses i 
+artikel 3 i Europaparlamentets och r&#229;dets f&#246;rordning (EU) nr 
+910/2014 av den 23 juli 2014 om elektronisk identifiering och 
+betrodda tj&#228;nster f&#246;r elektroniska transaktioner p&#229; den inre 
+marknaden och om upph&#228;vande av direktiv 1999/93/EG, i den 
+ursprungliga lydelsen.
+
+13 &#167; Ans&#246;kan ska inneh&#229;lla uppgifter om 
+
+1. g&#228;lden&#228;ren enligt 5 &#167; f&#246;rsta stycket lagen (1996:242) om 
+domstols&#228;renden och uppgifter som visar att g&#228;lden&#228;ren har 
+sina huvudsakliga intressen i Sverige, 
+
+2. g&#228;lden&#228;rens inkomster och utgifter,
+
+3. g&#228;lden&#228;rens tillg&#229;ngar och skulder med uppgift om varje 
+borgen&#228;rs namn, person- eller organisationsnummer, eller 
+motsvarande identifieringsnummer, adress och telefonnummer,
+
+4. vilka av skulderna som har anknytning till f&#246;retagarens 
+n&#228;ringsverksamhet,
+
+5. huruvida den person som driver eller har drivit 
+n&#228;ringsverksamheten &#228;r eller har varit f&#246;rsatt i konkurs eller 
+genomg&#229;r eller har genomg&#229;tt en f&#246;retagsrekonstruktion,
+
+6. hur n&#228;ringsverksamheten drivs eller har drivits,
+
+7. omst&#228;ndigheterna vid skuldernas tillkomst, de 
+anstr&#228;ngningar g&#228;lden&#228;ren har gjort f&#246;r att fullg&#246;ra sina 
+f&#246;rpliktelser och F-skuldsaneringens betydelse f&#246;r g&#228;lden&#228;rens 
+framtida f&#246;rv&#228;rvsf&#246;rm&#229;ga, och
+
+8. g&#228;lden&#228;rens och dennes familjs personliga och ekonomiska 
+f&#246;rh&#229;llanden som i &#246;vrigt &#228;r av betydelse f&#246;r pr&#246;vningen av 
+&#228;rendet.
+
+Uppgifterna ska l&#228;mnas av g&#228;lden&#228;ren p&#229; heder och samvete.
+Lag (2022:999).
+
+14 &#167; Till ans&#246;kan ska bifogas &#229;rsredovisning eller &#229;rsbokslut 
+avseende det senast avslutade r&#228;kenskaps&#229;ret f&#246;r f&#246;retagarens 
+n&#228;ringsverksamhet. Om det har uppr&#228;ttats en 
+revisionsber&#228;ttelse, ska &#228;ven denna bifogas. 
+
+Om den person som driver eller har drivit n&#228;ringsverksamheten 
+&#228;r eller har varit f&#246;rsatt i konkurs, ska till ans&#246;kan bifogas 
+f&#246;rvaltarber&#228;ttelse, bouppteckning och eventuell 
+slutredovisning enligt 7 kap. 13 och 15 &#167;&#167; samt 13 kap. 
+konkurslagen (1987:672).
+
+Om den person som driver eller har drivit n&#228;ringsverksamheten 
+har genomg&#229;tt en planf&#246;rhandling enligt lagen (2022:964) om 
+f&#246;retagsrekonstruktion, ska till ans&#246;kan bifogas 
+rekonstrukt&#246;rsber&#228;ttelse och f&#246;rteckning &#246;ver tillg&#229;ngar och 
+skulder enligt 4 kap. 8 &#167; 1 och 2 den lagen. Lag (2022:999).
+
+Komplettering och avvisning av ans&#246;kan
+
+15 &#167; Om en ans&#246;kan &#228;r bristf&#228;llig, ska g&#228;lden&#228;ren f&#246;rel&#228;ggas 
+att avhj&#228;lpa bristen. Av f&#246;rel&#228;ggandet ska det framg&#229; att 
+ans&#246;kan kan avvisas om f&#246;rel&#228;ggandet inte f&#246;ljs. 
+F&#246;rel&#228;ggandet beh&#246;ver inte delges.
+
+En ans&#246;kan om F-skuldsanering ska avvisas om den &#228;r s&#229; 
+bristf&#228;llig att den inte kan l&#228;ggas till grund f&#246;r pr&#246;vning i 
+sak och g&#228;lden&#228;ren inte har f&#246;ljt ett f&#246;rel&#228;ggande att 
+avhj&#228;lpa bristen. 
+
+16 &#167; En ans&#246;kan om F-skuldsanering ska avvisas om g&#228;lden&#228;ren 
+&#228;r f&#246;rem&#229;l f&#246;r ett annat f&#246;rfarande om skuldsanering. 
+
+Inledande av F-skuldsanering
+
+17 &#167; Kronofogdemyndigheten ska i den utstr&#228;ckning det beh&#246;vs 
+
+1. kontrollera i sina register att uppgifterna i ans&#246;kan &#228;r 
+korrekta, och
+
+2. inh&#228;mta upplysningar fr&#229;n andra myndigheter om g&#228;lden&#228;rens 
+personliga och ekonomiska f&#246;rh&#229;llanden och om f&#246;retagarens 
+n&#228;ringsverksamhet.
+
+Ett sammantr&#228;de enligt 24 &#167; f&#229;r h&#229;llas f&#246;r att avg&#246;ra om 
+F-skuldsanering ska inledas.
+
+18 &#167; Om det framg&#229;r av ans&#246;kan eller annan tillg&#228;nglig 
+utredning att villkoren f&#246;r F-skuldsanering inte &#228;r 
+uppfyllda, ska ans&#246;kan avsl&#229;s.
+
+Ans&#246;kan f&#229;r ocks&#229; avsl&#229;s om g&#228;lden&#228;ren inte infinner sig 
+personligen vid ett sammantr&#228;de eller i &#246;vrigt inte medverkar 
+under &#228;rendets handl&#228;ggning.
+
+19 &#167; Om ans&#246;kan inte avvisas eller avsl&#229;s, ska 
+Kronofogdemyndigheten snarast besluta att F-skuldsanering ska 
+inledas (inledandebeslut).
+
+20 &#167; I inledandebeslutet ska det best&#228;mmas vilket belopp som 
+g&#228;lden&#228;ren ska betala f&#246;r tiden till dess att fr&#229;gan om 
+F-skuldsanering slutligt har avgjorts eller n&#229;got annat har 
+best&#228;mts. Det ska ocks&#229; best&#228;mmas n&#228;r och hur betalning ska 
+ske.
+
+Det belopp som g&#228;lden&#228;ren ska betala ska best&#228;mmas enligt 35 
+&#167;.
+
+G&#228;lden&#228;ren ska betala till Kronofogdemyndigheten. 
+Betalningarna ska genomf&#246;ras trots att inledandebeslutet inte 
+har f&#229;tt laga kraft. F&#246;r g&#228;lden&#228;rens betalningar g&#228;ller i 
+&#246;vrigt 40 &#167; f&#246;rsta stycket och 41 &#167;.
+
+21 &#167; N&#228;r ett inledandebeslut har meddelats ska detta genast 
+kung&#246;ras i Post- och Inrikes Tidningar. Om det finns s&#228;rskilda 
+sk&#228;l, f&#229;r kung&#246;relsen inf&#246;ras &#228;ven i en eller flera 
+ortstidningar. 
+
+I kung&#246;relsen ska varje borgen&#228;r som har en fordran mot 
+g&#228;lden&#228;ren uppmanas att inom en m&#229;nad fr&#229;n dagen f&#246;r 
+kung&#246;relsen skriftligen
+
+1. uppge sitt namn och person- eller organisationsnummer eller 
+motsvarande identifieringsnummer,
+
+2. anm&#228;la sina fordringar mot g&#228;lden&#228;ren,
+
+3. l&#228;mna n&#228;rmare uppgifter om fordringarna och andra uppgifter 
+av betydelse f&#246;r pr&#246;vningen av &#228;rendet, och
+
+4. ange till vilket konto som betalning ska ske.
+
+Fristen i andra stycket f&#229;r f&#246;rl&#228;ngas till tv&#229; m&#229;nader, om det 
+finns s&#228;rskilda sk&#228;l. Lag (2022:999).
+
+Handl&#228;ggningen efter inledandebeslut
+
+22 &#167; Efter inledandebeslutet ska Kronofogdemyndigheten se 
+till att &#228;rendet blir s&#229; utrett som dess beskaffenhet 
+kr&#228;ver.
+
+23 &#167; En underr&#228;ttelse ska skickas till de borgen&#228;rer som &#228;r 
+k&#228;nda i &#228;rendet senast en vecka efter att det enligt 21 &#167; har 
+kungjorts att ett inledandebeslut har meddelats. 
+
+I underr&#228;ttelsen ska borgen&#228;ren upplysas om att ett 
+inledandebeslut har meddelats och om borgen&#228;rens fordran i 
+&#228;rendet. Borgen&#228;ren ska &#228;ven uppmanas att inom den tidsfrist 
+som anges i kung&#246;relsen komma in med uppgifter enligt 21 &#167; 
+andra stycket.
+
+24 &#167; Ett sammantr&#228;de ska h&#229;llas om det kan antas vara till 
+f&#246;rdel f&#246;r utredningen. Vid sammantr&#228;det ska g&#228;lden&#228;ren l&#228;mna 
+de ytterligare upplysningar som beh&#246;vs f&#246;r pr&#246;vningen av 
+&#228;rendet.
+
+G&#228;lden&#228;ren ska kallas att infinna sig personligen vid 
+sammantr&#228;det. Kallelsen ska s&#228;ndas till g&#228;lden&#228;ren under den 
+adress som han eller hon senast har uppgett i &#228;rendet. 
+Kallelsen beh&#246;ver inte delges.
+
+I kallelsen ska g&#228;lden&#228;ren upplysas om syftet med 
+sammantr&#228;det och om att ans&#246;kan kan avsl&#229;s om han eller hon 
+inte infinner sig personligen.
+
+25 &#167; Till ett sammantr&#228;de enligt 24 &#167; f&#229;r &#228;ven en borgen&#228;r 
+eller n&#229;gon annan som kan bidra till utredningen av &#228;rendet 
+kallas. Kallelsen beh&#246;ver inte delges.
+
+26 &#167; Om det efter inledandebeslutet framkommer att villkoren 
+f&#246;r F-skuldsanering inte &#228;r uppfyllda, ska ans&#246;kan avsl&#229;s.
+
+Ans&#246;kan f&#229;r ocks&#229; avsl&#229;s om g&#228;lden&#228;ren inte infinner sig 
+personligen vid ett sammantr&#228;de eller i &#246;vrigt inte medverkar 
+under &#228;rendets handl&#228;ggning.
+
+Beslut om F-skuldsanering
+
+27 &#167; N&#228;r det finns tillr&#228;cklig utredning i &#228;rendet, ska 
+Kronofogdemyndigheten tillsammans med g&#228;lden&#228;ren uppr&#228;tta ett 
+f&#246;rslag om F-skuldsanering som inneh&#229;ller de uppgifter som 
+anges i 31 &#167;.
+
+28 &#167; F&#246;rslaget om F-skuldsanering ska s&#228;ndas till samtliga 
+k&#228;nda borgen&#228;rer vars fordringar omfattas av f&#246;rslaget med 
+f&#246;rel&#228;ggande f&#246;r dem att yttra sig inom viss tid. Av 
+f&#246;rel&#228;ggandet ska det framg&#229; att ett uteblivet yttrande inte 
+hindrar ett beslut om F-skuldsanering. F&#246;rel&#228;ggandet ska 
+delges borgen&#228;rerna. 
+
+Om en fordran i &#228;rendet inte omfattas av f&#246;rslaget, ska 
+borgen&#228;ren underr&#228;ttas om detta.
+
+29 &#167; Efter utg&#229;ngen av den tid som avses i 28 &#167; ska 
+Kronofogdemyndigheten besluta att F-skuldsanering ska 
+beviljas, om villkoren f&#246;r F-skuldsanering &#228;r uppfyllda.
+
+30 &#167; N&#228;r ett beslut om F-skuldsanering har meddelats ska 
+detta genast kung&#246;ras i Post- och Inrikes Tidningar.
+
+Inneh&#229;llet i en F-skuldsanering
+
+31 &#167; I beslutet om F-skuldsanering ska det best&#228;mmas
+
+1. vilka fordringar som ska omfattas av F-skuldsaneringen 
+(32–34 &#167;&#167;),
+
+2. en betalningsplan som anger 
+
+a) det belopp som g&#228;lden&#228;ren ska betala (35 &#167;),
+
+b) planens l&#228;ngd och n&#228;r den l&#246;per ut (36 &#167;), och
+
+c) n&#228;r och hur g&#228;lden&#228;ren ska betala (40 &#167;),
+
+3. vilken avgift som Kronofogdemyndigheten ska ta ut 
+(37 &#167;),
+
+4. vilket belopp som ska f&#246;rdelas mellan borgen&#228;rerna 
+(38 &#167;) och hur stor procentandel av varje fordran som ska bli 
+betald,
+
+5. vad som ska g&#228;lla f&#246;r fordringarna (39 &#167;), och
+
+6. n&#228;r och hur borgen&#228;rerna ska f&#229; betalt (43 &#167;).
+
+32 &#167; En F-skuldsanering omfattar, om inte annat f&#246;reskrivs i 
+33 &#167; eller best&#228;ms enligt 34 &#167;, alla fordringar p&#229; pengar mot 
+g&#228;lden&#228;ren som har uppkommit f&#246;re den dag d&#229; 
+inledandebeslutet meddelades. 
+
+33 &#167; En F-skuldsanering omfattar inte
+
+1. en fordran p&#229; familjer&#228;ttsligt underh&#229;ll,
+
+2. en fordran f&#246;r vilken borgen&#228;ren har f&#246;rm&#229;nsr&#228;tt enligt 5 
+&#167; f&#246;rm&#229;nsr&#228;ttslagen (1970:979), till den del s&#228;kerheten 
+r&#228;cker till f&#246;r betalning av fordran,
+
+3. en fordran f&#246;r vilken borgen&#228;ren har pantr&#228;tt eller annan 
+f&#246;rm&#229;nsr&#228;tt enligt 6 eller 7 &#167; f&#246;rm&#229;nsr&#228;ttslagen eller 
+retentionsr&#228;tt, till den del s&#228;kerheten r&#228;cker till f&#246;r 
+betalning av fordran,
+
+4. en fordran f&#246;r vilken borgen&#228;ren, innan ett 
+inledandebeslut har meddelats, har f&#229;tt f&#246;rm&#229;nsr&#228;tt enligt 8 
+&#167; f&#246;rm&#229;nsr&#228;ttslagen, n&#228;r det g&#228;ller egendom som har tagits i 
+anspr&#229;k vid verkst&#228;lligheten,
+
+5. en fordran som inte &#228;r f&#246;rfallen till betalning och som &#228;r 
+beroende av att borgen&#228;ren tillhandah&#229;ller en motprestation, 
+eller
+
+6. en fordran som &#228;r tvistig.
+
+En fordran enligt f&#246;rsta stycket 1 omfattas dock av 
+F-skuldsaneringen om F&#246;rs&#228;kringskassan eller ett utl&#228;ndskt 
+offentligt organ har intr&#228;tt i den underh&#229;llsber&#228;ttigades 
+r&#228;tt till underh&#229;llsbidrag.
+
+34 &#167; Om en fordran &#228;r beroende av villkor, inte &#228;r till 
+beloppet fastst&#228;lld eller inte &#228;r f&#246;rfallen till betalning, 
+f&#229;r det best&#228;mmas att den inte ska omfattas av 
+F-skuldsaneringen. 
+
+Om en fordran kan antas vara ogrundad, ska det best&#228;mmas att 
+den inte ska omfattas av F-skuldsaneringen.
+
+35 &#167; Det belopp som g&#228;lden&#228;ren ska betala enligt 
+betalningsplanen ska best&#228;mmas s&#229; att F-skuldsaneringen tar i 
+anspr&#229;k g&#228;lden&#228;rens samtliga tillg&#229;ngar och inkomster efter 
+avdrag f&#246;r vad som ska f&#246;rbeh&#229;llas g&#228;lden&#228;ren f&#246;r dennes och 
+dennes familjs f&#246;rs&#246;rjning. Best&#228;mmelserna i 7 kap. 4 och 5 
+&#167;&#167; uts&#246;kningsbalken om f&#246;rbeh&#229;llsbelopp ska d&#229; vara 
+v&#228;gledande.
+
+Det f&#229;r best&#228;mmas att f&#246;rbeh&#229;ll &#228;ven ska g&#246;ras f&#246;r betalning 
+av en fordran som inte omfattas av F-skuldsaneringen.
+
+36 &#167; Betalningsplanens l&#228;ngd ska vara tre &#229;r.
+
+Betalningsplanen b&#246;rjar l&#246;pa fr&#229;n beslutet om 
+F-skuldsanering. 
+
+Vid best&#228;mmandet av tidpunkten f&#246;r n&#228;r betalningsplanen l&#246;per 
+ut ska den tid som inledandebeslutet g&#228;llt r&#228;knas av fr&#229;n 
+betalningsplanens l&#228;ngd, om det inte med h&#228;nsyn till 
+g&#228;lden&#228;rens agerande efter beslutet &#228;r motiverat att r&#228;kna av 
+en kortare tid.
+
+37 &#167; Kronofogdemyndigheten ska ta ut en &#229;rlig avgift av 
+g&#228;lden&#228;ren f&#246;r myndighetens hantering av hans eller hennes 
+betalningar. 
+
+Regeringen f&#229;r meddela f&#246;reskrifter om avgiftens storlek. 
+
+38 &#167; Det belopp som ska f&#246;rdelas mellan borgen&#228;rerna utg&#246;rs 
+av de medel som g&#228;lden&#228;ren ska betala enligt 
+inledandebeslutet och betalningsplanen med avdrag f&#246;r den 
+avgift som avses i 37 &#167;.
+
+39 &#167; Alla fordringar som omfattas av F-skuldsaneringen har 
+lika r&#228;tt.
+
+Trots f&#246;rsta stycket f&#229;r en fordran
+
+1. ges s&#228;mre r&#228;tt, om borgen&#228;ren samtycker till det, eller 
+
+2. betalas f&#246;re andra fordringar, om den efter f&#246;rdelning 
+enligt 38 &#167; avser ett mindre belopp och det &#228;r sk&#228;ligt med 
+h&#228;nsyn till omfattningen av skulderna och &#246;vriga 
+omst&#228;ndigheter.
+
+G&#228;lden&#228;rens betalningar
+
+40 &#167; G&#228;lden&#228;ren ska betala en g&#229;ng i kvartalet. Om det finns 
+s&#228;rskilda sk&#228;l, f&#229;r det best&#228;mmas att g&#228;lden&#228;ren i st&#228;llet 
+ska betala m&#229;nadsvis eller halv&#229;rsvis.
+
+G&#228;lden&#228;ren ska betala till Kronofogdemyndigheten. Om det 
+finns s&#228;rskilda sk&#228;l, f&#229;r det best&#228;mmas att g&#228;lden&#228;ren i 
+st&#228;llet ska betala direkt till borgen&#228;rerna.
+
+Betalningarna ska genomf&#246;ras trots att beslutet om 
+F-skuldsanering inte har f&#229;tt laga kraft.
+
+41 &#167; G&#228;lden&#228;ren f&#246;rlorar r&#229;digheten &#246;ver medel som han eller 
+hon har betalat in till Kronofogdemyndigheten. Myndigheten 
+ska genast placera de inbetalda medlen p&#229; ett r&#228;nteb&#228;rande 
+konto.
+
+42 &#167; Inbetalda medel tillfaller de borgen&#228;rer vars fordringar 
+omfattas av F-skuldsaneringen, n&#228;r beslutet om 
+F-skuldsanering har f&#229;tt laga kraft och den avgift som avses 
+i 37 &#167; har r&#228;knats av.
+
+43 &#167; Inbetalda medel som tillh&#246;r borgen&#228;rerna j&#228;mte r&#228;nta ska 
+Kronofogdemyndigheten betala ut till borgen&#228;rerna en g&#229;ng om 
+&#229;ret.
+
+Utbetalning till en borgen&#228;r ska g&#246;ras till det konto som 
+angetts av borgen&#228;ren. Om det finns s&#228;rskilda sk&#228;l, f&#229;r 
+utbetalning g&#246;ras p&#229; annat s&#228;tt.
+
+Om utbetalning till en borgen&#228;r inte g&#246;rs, ska en 
+underr&#228;ttelse skickas till borgen&#228;ren. Lag (2022:999).
+
+43 a &#167; En borgen&#228;r f&#246;rlorar sin r&#228;tt till inbetalda medel 
+enligt 42 &#167; om borgen&#228;ren inte inom tre m&#229;nader fr&#229;n dagen f&#246;r 
+den sista utbetalningen till borgen&#228;rerna enligt beslutet om 
+F-skuldsanering l&#228;mnar s&#229;dana uppgifter till 
+Kronofogdemyndigheten att medlen kan betalas ut till 
+borgen&#228;ren enligt 43 &#167; andra stycket.
+
+De medel som en borgen&#228;r har f&#246;rlorat sin r&#228;tt till ska 
+f&#246;rdelas mellan &#246;vriga borgen&#228;rer och i andra hand betalas 
+tillbaka till g&#228;lden&#228;ren. Om utbetalning eller &#229;terbetalning 
+inte &#228;r m&#246;jlig, tillfaller medlen staten. Lag (2022:999).
+
+Exekutiva &#229;tg&#228;rder
+
+44 &#167; Efter inledandebeslutet f&#229;r utm&#228;tning f&#246;r fordringar som 
+uppkommit dessf&#246;rinnan inte ske innan fr&#229;gan om 
+F-skuldsanering &#228;r avgjord genom ett beslut som har f&#229;tt laga 
+kraft. Om utm&#228;tning &#228;nd&#229; sker, &#228;r &#229;tg&#228;rden utan verkan.
+
+F&#246;rsta stycket g&#228;ller inte fordringar som enligt 33 &#167; inte 
+omfattas av F-skuldsaneringen. Det g&#228;ller inte heller om, 
+efter &#246;verklagande, r&#228;tten p&#229; beg&#228;ran av en borgen&#228;r 
+best&#228;mmer att utm&#228;tning f&#229;r ske.
+
+Denna paragraf till&#228;mpas &#228;ven i fr&#229;ga om ett beslut om 
+betalningss&#228;kring och verkst&#228;llighet av ett s&#229;dant beslut.
+
+45 &#167; Inbetalda medel som fortfarande tillh&#246;r g&#228;lden&#228;ren f&#229;r 
+inte utm&#228;tas eller tas i anspr&#229;k f&#246;r verkst&#228;llighet av ett 
+beslut om betalningss&#228;kring.
+
+46 &#167; Ett beslut om F-skuldsanering f&#229;r verkst&#228;llas n&#228;r det 
+har f&#229;tt laga kraft. Verkst&#228;llighet f&#229;r inte avse annat &#228;n 
+vad som redan skulle ha betalats ut till borgen&#228;ren enligt 
+beslutet om F-skuldsanering.
+
+&#214;verklagande
+
+47 &#167; Kronofogdemyndighetens beslut f&#229;r &#246;verklagas. Ett beslut 
+som inte inneb&#228;r att &#228;rendet avg&#246;rs f&#229;r &#246;verklagas endast i 
+samband med &#246;verklagande av ett beslut som inneb&#228;r att 
+&#228;rendet avg&#246;rs. Inledandebeslutet och beslut om &#228;ndring av 
+inledandebeslutet f&#229;r dock &#246;verklagas s&#228;rskilt. 
+
+Kronofogdemyndighetens beslut &#246;verklagas till tingsr&#228;tten i 
+den ort d&#228;r g&#228;lden&#228;ren &#228;r bosatt. Om g&#228;lden&#228;ren inte &#228;r 
+bosatt i Sverige, &#246;verklagas beslutet till Stockholms 
+tingsr&#228;tt. Ett &#246;verklagande ska ges in till 
+Kronofogdemyndigheten inom tre veckor fr&#229;n dagen f&#246;r 
+beslutet. 
+
+Vid ett &#246;verklagande g&#228;ller lagen (1996:242) om 
+domstols&#228;renden, om inte annat f&#246;ljer av denna lag. 
+Kronofogdemyndigheten ska inte vara part i domstolen.
+
+48 &#167; Om en domstol bifaller ett &#246;verklagande av g&#228;lden&#228;ren, 
+ska den &#229;terf&#246;rvisa &#228;rendet till Kronofogdemyndigheten. Om 
+Kronofogdemyndigheten har avslagit g&#228;lden&#228;rens ans&#246;kan med 
+till&#228;mpning av 26 &#167; och tillr&#228;cklig utredning finns, f&#229;r 
+domstolen dock besluta om F-skuldsanering.
+
+Ett beslut att &#229;terf&#246;rvisa ett &#228;rende till 
+Kronofogdemyndigheten f&#229;r inte &#246;verklagas.
+
+Verkan av en F-skuldsanering
+
+49 &#167; Genom en F-skuldsanering befrias g&#228;lden&#228;ren fr&#229;n ansvar 
+f&#246;r betalningen av de skulder som omfattas av 
+F-skuldsaneringen i den utstr&#228;ckning som dessa s&#228;tts ned. 
+Genom F-skuldsaneringen befrias g&#228;lden&#228;ren &#228;ven fr&#229;n ansvar 
+f&#246;r betalningen av skulder som inte &#228;r k&#228;nda i &#228;rendet, om 
+det inte &#228;r en s&#229;dan skuld som avses i 33 &#167;.
+
+F-skuldsaneringen medf&#246;r att r&#228;tten till r&#228;nta eller 
+dr&#246;jsm&#229;lsavgift p&#229; en fordran som omfattas av 
+F-skuldsaneringen faller bort f&#246;r tiden efter den dag d&#229; 
+inledandebeslutet meddelades. 
+
+F-skuldsaneringen inverkar inte p&#229; den r&#228;tt en borgen&#228;r har 
+mot en borgensman eller n&#229;gon annan som f&#246;rutom g&#228;lden&#228;ren 
+svarar f&#246;r skulden.
+
+Ompr&#246;vning av ett beslut om F-skuldsanering 
+
+50 &#167; P&#229; ans&#246;kan av en borgen&#228;r vars fordran omfattas av 
+F-skuldsaneringen f&#229;r beslutet om F-skuldsanering upph&#228;vas 
+eller, i fall som avses i 6 och 7, &#228;ndras betr&#228;ffande det som 
+har best&#228;mts i en fr&#229;ga som avses i 31 &#167; 2–6, om
+
+1. g&#228;lden&#228;ren har gjort sig skyldig till oredlighet mot 
+borgen&#228;rer,
+
+2. g&#228;lden&#228;ren har gjort sig skyldig till upps&#229;tligt 
+f&#246;rsv&#229;rande av konkurs eller exekutiv f&#246;rr&#228;ttning, 
+
+3. g&#228;lden&#228;ren i hemlighet har gynnat n&#229;gon borgen&#228;r f&#246;r att 
+inverka p&#229; fr&#229;gan om F-skuldsaneringens avg&#246;rande,
+
+4. g&#228;lden&#228;ren i sin ans&#246;kan om F-skuldsanering eller annars 
+under &#228;rendets handl&#228;ggning medvetet har l&#228;mnat oriktiga 
+uppgifter till men f&#246;r borgen&#228;ren, 
+
+5. g&#228;lden&#228;ren har l&#228;mnat oriktiga uppgifter till ledning f&#246;r 
+en myndighets beslut i fr&#229;ga om skatt eller avgift som 
+omfattas av F-skuldsaneringen eller inte har l&#228;mnat uppgifter 
+trots att han eller hon &#228;r uppgiftsskyldig och detta har 
+medf&#246;rt att ett beslut blivit felaktigt eller inte fattats,
+
+6. g&#228;lden&#228;ren inte f&#246;ljer betalningsplanen och avvikelsen 
+inte &#228;r ringa, eller
+
+7. g&#228;lden&#228;rens ekonomiska f&#246;rh&#229;llanden v&#228;sentligen har 
+f&#246;rb&#228;ttrats efter beslutet om F-skuldsanering. 
+
+I fall som avses i f&#246;rsta stycket 7 ska ans&#246;kan g&#246;ras inom 
+tre &#229;r fr&#229;n dagen f&#246;r inledandebeslutet eller, om en 
+betalningsplan l&#246;per ut senare, senast den dag d&#229; planen 
+l&#246;per ut. 
+
+51 &#167; P&#229; ans&#246;kan av g&#228;lden&#228;ren f&#229;r beslutet om F-skuldsanering 
+
+1. upph&#228;vas, om g&#228;lden&#228;rens ekonomiska f&#246;rh&#229;llanden efter 
+beslutet om F-skuldsanering har f&#246;rb&#228;ttrats i s&#229;dan grad att 
+g&#228;lden&#228;ren kan betala samtliga skulder som omfattas av 
+F-skuldsaneringen eller f&#246;rs&#228;mrats i s&#229;dan grad att 
+g&#228;lden&#228;ren inte l&#228;ngre uppfyller villkoret i 9 &#167; 3, eller
+
+2. &#228;ndras betr&#228;ffande det som har best&#228;mts i en fr&#229;ga som 
+avses i 31 &#167; 2–6, om g&#228;lden&#228;rens ekonomiska f&#246;rh&#229;llanden 
+efter beslutet om F-skuldsanering v&#228;sentligen har f&#246;r&#228;ndrats. 
+
+En &#228;ndring enligt f&#246;rsta stycket 2 f&#229;r g&#246;ras endast om 
+g&#228;lden&#228;ren fortfarande uppfyller villkoret i 9 &#167; 3 eller det 
+finns synnerliga sk&#228;l och g&#228;lden&#228;ren har fullgjort tv&#229; 
+tredjedelar av den tid som betalningsplanen ska l&#246;pa. 
+
+52 &#167; Om ett beslut om F-skuldsanering upph&#228;vs, blir en borgen 
+eller annan s&#228;kerhet som tredje man har st&#228;llt f&#246;r betalning 
+av ett belopp som avses i 31 &#167; 4 ogiltig. Detta g&#228;ller dock 
+inte om tredje mannen k&#228;nde till eller borde ha k&#228;nt till de 
+omst&#228;ndigheter som anges i 50 &#167; f&#246;rsta stycket 1–3 eller 
+medverkade till att g&#228;lden&#228;ren har &#229;sidosatt sina 
+f&#246;rpliktelser enligt 50 &#167; f&#246;rsta stycket 4. 
+
+53 &#167; Vid en &#228;ndring av ett beslut om F-skuldsanering f&#229;r 
+betalningsplanens l&#228;ngd best&#228;mmas till som l&#228;ngst fem &#229;r. 
+
+54 &#167; En ans&#246;kan om ompr&#246;vning av ett beslut om 
+F-skuldsanering ska vara skriftlig. Ans&#246;kan ska inneh&#229;lla 
+uppgifter om
+
+1. det beslut som avses, 
+
+2. det som yrkas, och
+
+3. de omst&#228;ndigheter som &#229;beropas till st&#246;d f&#246;r ans&#246;kan.
+
+Om en ans&#246;kan &#228;r bristf&#228;llig till&#228;mpas 15 &#167;.
+
+55 &#167; Best&#228;mmelserna i 22, 24 och 25 &#167;&#167; g&#228;ller vid 
+handl&#228;ggningen av ett &#228;rende om ompr&#246;vning av ett beslut om 
+F-skuldsanering.
+
+&#214;vriga best&#228;mmelser
+
+56 &#167; Om g&#228;lden&#228;ren f&#246;rs&#228;tts i konkurs, f&#246;rfaller ans&#246;kan om 
+F-skuldsanering.
+
+Om en ans&#246;kan om planf&#246;rhandling under f&#246;retagsrekonstruktion 
+tas upp sedan g&#228;lden&#228;ren har ans&#246;kt om F-skuldsanering, ska 
+&#228;rendet om F-skuldsanering f&#246;rklaras vilande. Om en 
+rekonstruktionsplan fastst&#228;lls, f&#246;rfaller ans&#246;kan om F-
+skuldsanering.
+
+Om den n&#228;ringsverksamhet som f&#246;retagaren &#228;r eller har varit 
+engagerad i drivs av en juridisk person som &#228;r f&#246;rsatt i 
+konkurs eller har inlett en planf&#246;rhandling, ska &#228;rendet om F-
+skuldsanering f&#246;rklaras vilande om det med h&#228;nsyn till behovet 
+av utredning finns sk&#228;l f&#246;r det.
+
+Om g&#228;lden&#228;ren avlider, f&#246;rfaller ans&#246;kan om F-skuldsanering.
+Lag (2022:999).
+
+57 &#167; Om g&#228;lden&#228;ren &#229;terkallar en ans&#246;kan om F-skuldsanering, 
+ska &#228;rendet avskrivas fr&#229;n vidare handl&#228;ggning. Detsamma 
+g&#228;ller om ans&#246;kan f&#246;rfaller enligt 56 &#167;.
+
+58 &#167; Om en ans&#246;kan om F-skuldsanering avsl&#229;s eller avvisas 
+eller &#228;rendet avskrivs fr&#229;n vidare handl&#228;ggning sedan ett 
+inledandebeslut har meddelats, ska samtliga k&#228;nda borgen&#228;rer 
+underr&#228;ttas.
+
+Vid beslut om avslag, avvisning eller avskrivning ska medel 
+som g&#228;lden&#228;ren har betalat in till Kronofogdemyndigheten 
+&#229;terbetalas till honom eller henne n&#228;r beslutet har f&#229;tt laga 
+kraft. Om en p&#229;g&#229;ende utm&#228;tning har avbrutits genom 
+inledandebeslutet, ska i st&#228;llet inbetalda medel f&#246;rdelas 
+mellan de fordringar f&#246;r vilka utm&#228;tningen p&#229;gick.
+
+59 &#167; Om det har best&#228;mts att en fordran enligt 34 &#167; f&#246;rsta 
+stycket inte ska omfattas av F-skuldsaneringen, f&#229;r 
+borgen&#228;ren trots f&#246;reskrifter i annan f&#246;rfattning bevilja 
+anst&#229;nd med betalningen under den tid betalningsplanen 
+l&#246;per.
+
+60 &#167; En &#246;verenskommelse som inneb&#228;r att g&#228;lden&#228;ren eller 
+tredje man tillf&#246;rs&#228;krar n&#229;gon borgen&#228;r, vars fordran 
+omfattas av F-skuldsaneringen, b&#228;ttre villkor &#228;n enligt 
+F-skuldsaneringen &#228;r ogiltig.
+
+61 &#167; Socialn&#228;mnder och andra myndigheter ska till 
+Kronofogdemyndigheten eller en domstol som handl&#228;gger ett 
+&#228;rende om F-skuldsanering p&#229; beg&#228;ran l&#228;mna uppgifter om 
+g&#228;lden&#228;rens personliga och ekonomiska f&#246;rh&#229;llanden som &#228;r av 
+betydelse f&#246;r pr&#246;vningen av &#228;rendet. S&#229;dana uppgifter ska 
+ocks&#229; l&#228;mnas av myndigheter som anm&#228;ler fordringar enligt 21 
+eller 23 &#167;.
+
+62 &#167; I lagen (2017:473) med kompletterande best&#228;mmelser till 
+2015 &#229;rs insolvensf&#246;rordning finns best&#228;mmelser om 
+registrering av F-skuldsaneringar i ett insolvensregister.
+Lag (2019:254).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2022:999
+
+1. Denna lag tr&#228;der i kraft den 1 augusti 2022.
+
+2. Best&#228;mmelsen i 21 &#167; i den nya lydelsen g&#228;ller inte f&#246;r 
+&#228;renden d&#228;r ett beslut att inleda F-skuldsanering har 
+meddelats f&#246;re ikrafttr&#228;dandet.
+
+3. Den nya 43 a &#167; g&#228;ller &#228;ven i fr&#229;ga om &#228;renden d&#228;r 
+betalningsplanen l&#246;pt ut f&#246;re ikrafttr&#228;dandet. F&#246;r s&#229;dana 
+&#228;renden till&#228;mpas paragrafen dock fr&#229;n och med den 1 november 
+2022.
+
+4. Den &#228;ldre lydelsen av 56 &#167; g&#228;ller fortfarande f&#246;r det fall 
+beslut om f&#246;rhandling om offentligt ackord meddelas eller ett 
+ackord fastst&#228;lls enligt den upph&#228;vda lagen (1996:764) om 
+f&#246;retagsrekonstruktion efter att g&#228;lden&#228;ren ans&#246;kt om F-
+skuldsanering.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=975">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=977">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,780 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2020-01-24" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3757</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3756">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3758">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1984:1052 ·
+                    <a href="/sfsr?bet=1984:1052">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1984:1052) om statlig fastighetsskatt
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1984-12-18
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2017:398
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1985-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Till fastighetsskatt skattepliktiga fastigheter &#228;r, i den
+utstr&#228;ckning som framg&#229;r av 3 &#167;, s&#229;dana som vid
+fastighetstaxeringen betecknas som sm&#229;husenhet,
+&#228;garl&#228;genhetsenhet, hyreshusenhet, industrienhet,
+elproduktionsenhet eller lantbruksenhet om det p&#229;
+lantbruksenheten finns vad som vid fastighetstaxeringen
+betecknas som sm&#229;hus eller tomtmark f&#246;r sm&#229;hus. Fr&#229;n
+skatteplikt undantas fastighet som &#229;ret f&#246;re det kalender&#229;r d&#229;
+beslutet om slutlig skatt ska fattas inte varit skattepliktig
+enligt fastighetstaxeringslagen (1979:1152). Lag (2011:1320).
+
+2 &#167; Skattskyldig till fastighetsskatt &#228;r den som vid ing&#229;ngen
+av kalender&#229;ret &#228;r &#228;gare till fastigheten eller enligt 1 kap.
+5 &#167; fastighetstaxeringslagen (1979:1152) ska anses som &#228;gare.
+
+Fastighetsskatt ber&#228;knas f&#246;r kalender&#229;r p&#229; grundval av det
+taxeringsv&#228;rde som g&#228;ller under kalender&#229;ret.
+Lag (2007:1417).
+
+2 a &#167; Har upph&#228;vts genom lag (2007:1417).
+
+3 &#167; Fastighetsskatten utg&#246;r
+
+a) 1,0 procent av:
+
+taxeringsv&#228;rdet avseende sm&#229;husenhet till den del det avser 
+v&#228;rderingsenhet f&#246;r sm&#229;hus som &#228;r under uppf&#246;rande, 
+v&#228;rderingsenhet f&#246;r tillh&#246;rande tomtmark och v&#228;rderingsenhet 
+f&#246;r tomtmark som &#228;r obebyggd, 
+
+bostadsbyggnadsv&#228;rdet avseende v&#228;rderingsenhet f&#246;r sm&#229;hus som 
+&#228;r under uppf&#246;rande p&#229; lantbruksenhet, tomtmarksv&#228;rdet 
+avseende v&#228;rderingsenhet f&#246;r tillh&#246;rande tomtmark och 
+tomtmarksv&#228;rdet avseende tomtmark avsedd f&#246;r sm&#229;hus p&#229; 
+lantbruksenhet som &#228;r obebyggd,
+
+taxeringsv&#228;rdet avseende &#228;garl&#228;genhetsenhet till den del det 
+avser v&#228;rderingsenhet f&#246;r &#228;garl&#228;genhet som &#228;r under 
+uppf&#246;rande, v&#228;rderingsenhet f&#246;r tillh&#246;rande tomtmark, 
+v&#228;rderingsenhet f&#246;r tomtmark som &#228;r obebyggd eller som h&#246;r 
+till &#228;garl&#228;genhet som inte ing&#229;r i samma taxeringsenhet,
+
+b) 0,4 procent av:
+
+taxeringsv&#228;rdet avseende hyreshusenhet till den del det avser 
+v&#228;rderingsenhet f&#246;r bost&#228;der som &#228;r under uppf&#246;rande, 
+v&#228;rderingsenhet f&#246;r tillh&#246;rande tomtmark, v&#228;rderingsenhet f&#246;r 
+tomtmark avsedd f&#246;r bost&#228;der som &#228;r obebyggd eller som h&#246;r 
+till bost&#228;der som inte ing&#229;r i samma taxeringsenhet samt 
+annan v&#228;rderingsenhet f&#246;r tomtmark som &#228;r obebyggd,
+
+c) 1,0 procent av:
+
+taxeringsv&#228;rdet avseende hyreshusenhet till den del det avser 
+v&#228;rderingsenhet f&#246;r lokaler, v&#228;rderingsenhet f&#246;r lokaler 
+under uppf&#246;rande och v&#228;rderingsenhet avseende tomtmark som 
+h&#246;r till dessa lokaler,
+
+d) 0,5 procent av:
+
+taxeringsv&#228;rdet avseende industrienhet och elproduktionsenhet 
+med undantag f&#246;r s&#229;dan elproduktionsenhet som utg&#246;rs av 
+taxeringsenhet med vindkraftverk,
+
+e) 0,2 procent av:
+
+taxeringsv&#228;rdet avseende s&#229;dan elproduktionsenhet som utg&#246;rs 
+av taxeringsenhet med vindkraftverk.
+
+Om det p&#229; en v&#228;rderingsenhet f&#246;r tomtmark finns ett eller 
+flera sm&#229;hus som &#228;r uppf&#246;rda och ett eller flera sm&#229;hus som 
+&#228;r under uppf&#246;rande, ska tomtmarken anses h&#246;ra till det eller 
+de sm&#229;hus som &#228;r uppf&#246;rda.
+
+F&#246;r fastighet som avses i 2 kap. 13 &#167; inkomstskattelagen 
+(1999:1229) ska fastighetens andel av taxeringsv&#228;rdet p&#229; 
+annan samf&#228;llighet &#228;n s&#229;dan som avses i 6 kap. 6 &#167; f&#246;rsta 
+stycket n&#228;mnda lag r&#228;knas in i underlaget f&#246;r 
+fastighetsskatten om samf&#228;lligheten utg&#246;r en s&#228;rskild 
+taxeringsenhet.
+
+Om fastighetsskatt och fastighetsavgift ska ber&#228;knas f&#246;r 
+skilda delar av fastigheten ska underlaget f&#246;r ber&#228;kningen av 
+fastighetsskatten utg&#246;ras av den del av v&#228;rdet som bel&#246;per p&#229; 
+respektive fastighetsdel.
+
+Att skillnaden mellan den fastighetsskatt som i f&#246;rsta 
+stycket d f&#246;reskrivs f&#246;r elproduktionsenhet och den 
+fastighetsskatt som enligt f&#246;rsta stycket e f&#246;reskrivs f&#246;r 
+s&#229;dan elproduktionsenhet som utg&#246;rs av taxeringsenhet med 
+vindkraftverk kan utg&#246;ra st&#246;d av mindre betydelse framg&#229;r av 
+kommissionens f&#246;rordning (EU) nr 1407/2013 av den 18 december 
+2013 om till&#228;mpningen av artiklarna 107 och 108 i f&#246;rdraget 
+om Europeiska unionens funktionss&#228;tt p&#229; st&#246;d av mindre 
+betydelse. Lag (2017:398).
+
+3 a &#167; Har upph&#228;vts genom lag (2007:1417).
+
+4 &#167; Best&#228;mmelserna i denna lag om fastighet som &#228;r
+sm&#229;husenhet, &#228;garl&#228;genhetsenhet, hyreshusenhet,
+industrienhet, elproduktionsenhet eller lantbruksenhet g&#228;ller
+ocks&#229; betr&#228;ffande del av fastighet, flera fastigheter eller
+delar av fastigheter som utg&#246;r s&#229;dan enhet. Lag (2009:106).
+
+5 &#167; har upph&#228;vts genom lag (1990:394).
+
+6 &#167; Best&#228;mmelser om f&#246;rfarandet vid uttag av fastighetsskatt
+finns i skattef&#246;rfarandelagen (2011:1244). Lag (2011:1320).
+
+7 &#167; Har upph&#228;vts genom lag (2011:1320).
+
+8 &#167; Fastighetsskatt tillfaller staten. Lag (1984:1078).
+
+9 &#167; Termer och uttryck i denna lag som anv&#228;nds &#228;ven i
+fastighetstaxeringslagen (1979:1152) eller inkomstskattelagen
+(1999:1229) har samma betydelse och till&#228;mpningsomr&#229;den som i
+dessa lagar. Lag (1999:1254).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1984:1052
+
+Denna lag tr&#228;der i kraft den 1 januari 1985 och till&#228;mpas f&#246;rsta g&#229;ngen
+vid 1986 &#229;rs taxering. Ing&#229;r fastighet i f&#246;rv&#228;rvsk&#228;lla f&#246;r vilken
+beskattnings&#229;ret har b&#246;rjat f&#246;re ikrafttr&#228;dandet skall skatten vid 1986
+&#229;rs taxering p&#229;f&#246;ras med s&#229; stor del som svarar mot f&#246;rh&#229;llandet mellan
+den del av beskattnings&#229;ret som infaller efter ikrafttr&#228;dandet och hela
+beskattnings&#229;ret.
+
+I st&#228;llet f&#246;r vad som d&#228;rom f&#246;reskrivs i 3 &#167; f&#246;rsta stycket b, f, g, i
+och k skall procenttalet vid 1986 &#229;rs taxering utg&#246;ra 0,7 och vid 1987
+&#229;rs taxering 1,4. I st&#228;llet f&#246;r vad som d&#228;rom f&#246;reskrivs i 3 &#167; f&#246;rsta
+stycket c och e skall procenttalet vid 1986 &#229;rs taxering utg&#246;ra 0,5 och
+vid 1987 &#229;rs taxering 1. Lag (1984:1078).
+
+1986:1246
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1987.
+
+2. De nya best&#228;mmelserna i 3 &#167; f&#246;rsta stycket till&#228;mpas f&#246;rsta g&#229;ngen
+vid 1988 &#229;rs taxering. &#196;ldre best&#228;mmelser i 3 &#167; f&#246;rsta stycket g&#228;ller
+i fr&#229;ga om fastighetsskatt f&#246;r beskattnings&#229;r som har p&#229;b&#246;rjats f&#246;re
+ikrafttr&#228;dandet.
+
+1987:565
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1988 och till&#228;mpas f&#246;rsta
+g&#229;ngen vid 1989 &#229;rs taxering.
+
+2. I fr&#229;ga om fastighetsskatt f&#246;r beskattnings&#229;r som har p&#229;b&#246;rjats f&#246;re
+ikrafttr&#228;dandet skall underlaget f&#246;r ber&#228;kningen av fastighetsskatten f&#246;r
+hyreshusenheter utg&#246;ra hela det taxeringsv&#228;rde som &#229;satts f&#246;r &#229;r 1987. Om
+taxeringsv&#228;rdet s&#228;nkts vid 1988 &#229;rs allm&#228;nna fastighetstaxering skall f&#246;r
+n&#228;mnda bekattnings&#229;r underlaget f&#246;r ber&#228;kningen av fastighetsskatten f&#246;r
+hyreshusenheter utg&#246;ra hela det nya taxeringsv&#228;rdet. Lag (1987:1157).
+
+1989:1019
+
+Denna lag tr&#228;der i kraft den 1 januari 1990 och till&#228;mpas f&#246;rsta g&#229;ngen
+vid 1991 &#229;rs taxering. &#196;ldre best&#228;mmelser g&#228;ller i fr&#229;ga om fastighetsskatt
+f&#246;r beskattnings&#229;r som p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet.
+
+1990:394
+
+Denna lag tr&#228;der i kraft den 30 juni 1990 och till&#228;mpas f&#246;rsta g&#229;ngen
+vid 1991 &#229;rs taxering.
+
+1990:652
+
+1. Denna lag tr&#228;der i kraft den 1 juli 1990 och till&#228;mpas f&#246;rsta g&#229;ngen
+vid 1992 &#229;rs taxering. Best&#228;mmelserna i 3 &#167; andra stycket till&#228;mpas dock
+f&#246;rst vid 1993 &#229;rs taxering.
+
+2. &#196;ldre best&#228;mmelser i 3 &#167; f&#246;rsta stycket g&#228;ller i fr&#229;ga om fastighetsskatt
+f&#246;r beskattnings&#229;r som har p&#229;b&#246;rjats f&#246;re utg&#229;ngen av &#229;r 1990.
+
+3. I st&#228;llet f&#246;r det procenttal som f&#246;reskrivs i 3 &#167; f&#246;rsta stycket skall,
+i fr&#229;ga om sm&#229;husenhet samt sm&#229;hus och tomtmark f&#246;r sm&#229;hus p&#229; lantbruksenhet
+med ber&#228;knat v&#228;rde&#229;r f&#246;re &#229;r 1991, procenttalet vid 1992 och 1993 &#229;rs
+taxeringar utg&#246;ra 1,2.
+
+4. I st&#228;llet f&#246;r vad som f&#246;ljer av 3 &#167; f&#246;rsta stycket och punkt 3 skall vid
+f&#246;ljande &#229;rs taxeringar endast halv fastighetsskatt utg&#229; i fr&#229;ga om fastig-
+heter, bebyggda med byggnader med nedan angivna v&#228;rde&#229;r, om fastigheterna
+utg&#246;r sm&#229;husenhet eller sm&#229;hus och tomtmark f&#246;r sm&#229;hus p&#229; lantbruksenhet.
+Detta g&#228;ller dock inte i fr&#229;ga om s&#229;dant sm&#229;hus som &#228;r inr&#228;ttat till bostad
+&#229;t minst tre och h&#246;gst tio familjer och som ing&#229;r i lantbruksenhet. Vid
+ber&#228;kningen enligt denna punkt skall vad som anges i 3 &#167; femte stycket ha
+motsvarande till&#228;mpning:
+
+Taxerings&#229;r             V&#228;rde&#229;r
+
+1992                    1986--1990
+1993                    1987--1990
+1994                    1988--1990
+1995                    1989--1990
+1996                    1990
+
+5. I st&#228;llet f&#246;r vad som f&#246;ljer av 3 &#167; f&#246;rsta stycket skall vid f&#246;ljande
+&#229;rs taxeringar fastighetsskatt inte utg&#229; eller endast halv fastighetsskatt
+utg&#229; f&#246;r  fastigheter, bebyggda med byggnader vilka inneh&#229;ller bost&#228;der
+och har nedan angivna v&#228;rde&#229;r, om fastigheterna utg&#246;r hyreshusenhet. Vid
+denna ber&#228;kning skall vad som anges i 3 &#167; femte stycket ha motsvarande
+till&#228;mpning. Detsamma g&#228;ller i fr&#229;ga om s&#229;dant sm&#229;hus som &#228;r inr&#228;ttat till
+bostad &#229;t minst tre och h&#246;gst tio familjer och som ing&#229;r i lantbruksenhet:
+
+Taxerings&#229;r     Halv fastighetsskatt    Ingen fastighetsskatt
+                V&#228;rde&#229;r                 V&#228;rde&#229;r
+
+1992            1973--1976              1977--1990
+1993            1975--1978              1979--1990
+1994            1977--1980              1981--1990
+1995            1979--1982              1983--1990
+1996            1981--1984              1985--1990
+1997            1983--1986              1987--1990
+1998            1985--1988              1989--1990
+1999            1987--1990
+2000            1989--1990
+Lag (1992:1593).
+
+6. I st&#228;llet f&#246;r vad som f&#246;ljer av 3 &#167; f&#246;rsta stycket skall
+det vid 1998 &#229;rs taxering inte tas ut fastighetsskatt p&#229; bostadsdelen f&#246;r
+fastigheter bebyggda med byggnader vilka inneh&#229;ller bost&#228;der och har
+v&#228;rde&#229;r 1991. Om fastighetsskatt skall ber&#228;knas enligt olika grunder
+f&#246;r skilda delar av fastigheten skall 3 &#167; femte stycket till&#228;mpas.
+Lag (1996:432).
+
+1990:1383
+
+Denna lag tr&#228;der i kraft den 1 januari 1991 och till&#228;mpas f&#246;rsta g&#229;ngen vid
+1992 &#229;rs taxering. Vid 1992 &#229;rs taxering skall dock vad som g&#228;ller f&#246;r
+sm&#229;hus enligt 3 &#167; f&#246;rsta stycket a och punkt 3 av &#246;verg&#229;ngsbest&#228;mmelserna
+till lagen (1990:652) om &#228;ndring i lagen om statlig fastighetsskatt ocks&#229;
+g&#228;lla f&#246;r hyreshus som &#228;r inr&#228;ttat till bostad &#229;t h&#246;gst tio familjer och
+som ing&#229;r i lantbruksenhet. F&#246;r annat hyreshus p&#229; lantbruksenhet skall
+vid 1992 &#229;rs taxering till&#228;mpas vad som g&#228;ller f&#246;r hyreshus enligt 3 &#167;
+f&#246;rsta stycket b och punkt 5 av n&#228;mnda &#246;verg&#229;ngsbest&#228;mmelser.
+
+1991:1914
+
+Denna lag tr&#228;der i kraft den 1 januari 1992 och till&#228;mpas fr&#229;n och med
+1992 &#229;rs taxering.
+
+1992:842
+
+Denna lag tr&#228;der i kraft den 1 januari 1993 och till&#228;mpas f&#246;rsta g&#229;ngen vid
+1994 &#229;rs taxering. F&#246;r s&#229;dan hyreshusenhet som huvudsakligen best&#229;r av
+lokaler och f&#246;r vars f&#246;rv&#228;rvsk&#228;lla beskattnings&#229;ret har b&#246;rjat f&#246;re
+ikrafttr&#228;dandet skall skatt vid 1994 &#229;rs taxering p&#229;f&#246;ras enligt &#228;ldre
+best&#228;mmelser med s&#229; stor del som svarar mot f&#246;rh&#229;llandet mellan den del
+av beskattnings&#229;ret som infaller f&#246;re ikrafttr&#228;dandet och hela
+beskattnings&#229;ret.
+
+1992:1593
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1993 och till&#228;mpas f&#246;rsta
+g&#229;ngen vid 1995 &#229;rs taxering.
+
+2. Vid 1994 &#229;rs taxering skall, s&#229;vitt avser hyreshusenhet, skatteuttaget
+enligt 3 &#167; f&#246;rsta stycket b) i dess &#228;ldre lydelse g&#246;ras p&#229; den del av
+taxeringsv&#228;rdet som inte bel&#246;per p&#229; lokaler med tillh&#246;rande tomtmark.
+Neds&#228;ttning av skatteuttaget enligt den &#228;ldre lydelsen av 3 &#167; andra
+stycket och  punkt 5 &#246;verg&#229;ngsbest&#228;mmelserna skall vid n&#228;mnda taxerings&#229;r
+endast g&#246;ras p&#229; den del av taxeringsv&#228;rdet som bel&#246;per p&#229; hyreshus som
+avser bost&#228;der med tillh&#246;rande tomtmark, om tomtmarken och hyreshuset
+ing&#229;r i samma taxeringsenhet.
+
+3. F&#246;r hyreshusenhet som inneh&#229;ller lokaler och f&#246;r vars f&#246;rv&#228;rvsk&#228;lla
+beskattnings&#229;ret har b&#246;rjat f&#246;re den 1 januari 1993 skall skatt som
+avser lokaler med tillh&#246;rande tomtmark vid 1994 &#229;rs taxering p&#229;f&#246;ras
+enligt &#228;ldre best&#228;mmelser med s&#229; stor del som svarar mot f&#246;rh&#229;llandet
+mellan den del av beskattnings&#229;ret som infaller f&#246;re den 1 januari 1993
+och hela beskattnings&#229;ret.
+
+1993:1525
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1994 och till&#228;mpas f&#246;rsta g&#229;ngen
+vid 1995 &#229;rs taxering. Endast kostnader f&#246;r om- eller tillbyggnad som
+nedlagts i fastigheter efter 1992 &#229;rs utg&#229;ng beaktas vid till&#228;mpningen av
+denna lag.
+
+2. I st&#228;llet f&#246;r vad som f&#246;ljer av punkt 5 av
+&#246;verg&#229;ngsbest&#228;mmelserna till lagen (1990:652) om &#228;ndring i lagen
+(1984:1052) om statlig fastighetsskatt skall, om ett
+reduceringsbelopp enligt 3 a &#167; har best&#228;mts f&#246;r hyreshusenhet,
+skatten ber&#228;knas p&#229; s&#228;tt som f&#246;ljer av 3 och 3 a &#167;&#167; om en s&#229;dan
+ber&#228;kning leder till l&#228;gre fastighetsskatt. Om fastighetsskatt skall
+ber&#228;knas enligt punkt 5 av &#246;verg&#229;ngsbest&#228;mmelserna till lagen
+(1990:652) om &#228;ndring i lagen (1984:1052) om statlig
+fastighetsskatt skall ett reduceringsbelopp inte beaktas.
+Lag (1994:1910).
+
+1993:1560
+
+Denna lag tr&#228;der i kraft den 1 januari 1994 och till&#228;mpas f&#246;rsta g&#229;ngen
+vid 1995 &#229;rs taxering.
+
+1994:51
+
+Denna lag tr&#228;der i kraft dagen efter den dag d&#229; lagen enligt uppgift p&#229; den
+utkom fr&#229;n trycket i Svensk f&#246;rfattningssamling och till&#228;mpas f&#246;rsta g&#229;ngen
+vid 1995 &#229;rs taxering.
+
+1994:1872
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1995 och till&#228;mpas f&#246;rsta
+g&#229;ngen vid 1997 &#229;rs taxering.
+
+2. &#196;ldre best&#228;mmelser i 3 &#167; f&#246;rsta stycket g&#228;ller i fr&#229;ga om
+fastighetsskatt f&#246;r beskattnings&#229;r som har p&#229;b&#246;rjats f&#246;re utg&#229;ngen
+av &#229;r 1994.
+
+1994:1910
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1995 och till&#228;mpas f&#246;rsta
+g&#229;ngen vid 1996 &#229;rs taxering.
+
+2. &#196;ldre f&#246;reskrifter i 2 &#167; andra stycket till&#228;mpas f&#246;r beskattnings&#229;r
+som har p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet.
+
+3. Best&#228;mmelserna i 2 &#167; sj&#228;tte stycket skall g&#228;lla vid 1996 &#229;rs
+taxering endast om den skattskyldige yrkar det.
+
+4. Best&#228;mmelserna i 2 &#167; sj&#228;tte stycket skall inte g&#228;lla fastigheter som
+avses i punkterna 4 och 5 av &#246;verg&#229;ngsbest&#228;mmelserna till lagen
+(1990:652) om &#228;ndring i lagen (1984:1052) om statlig
+fastighetsskatt vid till&#228;mpning av n&#228;mnda punkter i dessa
+&#246;verg&#229;ngsbest&#228;mmelser.
+
+1994:1911
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1995 och till&#228;mpas f&#246;rsta
+g&#229;ngen i fr&#229;ga om 3 &#167; f&#246;rsta stycket vid 1997 &#229;rs taxering och i
+&#246;vrigt vid 1996 &#229;rs taxering.
+
+2. I st&#228;llet f&#246;r procenttalet 1,7 som f&#246;reskrivs i 3 &#167; f&#246;rsta stycket
+skall, i fr&#229;ga om fastighetsskatt f&#246;r beskattnings&#229;r som har
+p&#229;b&#246;rjats f&#246;re utg&#229;ngen av &#229;r 1994, procenttalet utg&#246;ra 1,5.
+
+3. Till den del fastighetsskatt skall ber&#228;knas p&#229; grundval av
+taxeringsv&#228;rde som best&#228;mts vid fastighetstaxering &#229;r 1995 eller
+tidigare till&#228;mpas inte de nya best&#228;mmelserna om underlaget f&#246;r
+fastighetsskatt i 3 &#167; f&#246;rsta stycket.
+
+1995:918
+
+1. Denna lag tr&#228;der i kraft den 1 juli 1995 och till&#228;mpas f&#246;rsta
+g&#229;ngen vid 1997 &#229;rs taxering.
+
+2. &#196;ldre best&#228;mmelser i 3 &#167; f&#246;rsta stycket g&#228;ller i fr&#229;ga om
+fastighetsskatt f&#246;r beskattnings&#229;r som har p&#229;b&#246;rjats f&#246;re utg&#229;ngen av
+juni 1995.
+
+1996:1173
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1997 och till&#228;mpas f&#246;rsta
+g&#229;ngen vid 1998 &#229;rs taxering.
+
+2. Har beskattnings&#229;ret p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet till&#228;mpas
+&#228;ldre regler f&#246;r den delen av beskattnings&#229;ret som infaller f&#246;re
+ikrafttr&#228;dandet. Lag (1996:1173).
+
+1996:1402
+
+Denna lag tr&#228;der i kraft den 1 januari 1997 och till&#228;mpas f&#246;rsta
+g&#229;ngen vid 1998 &#229;rs taxering. &#196;ldre best&#228;mmelser till&#228;mpas dock f&#246;r
+r&#228;kenskaps&#229;r hos handelsbolaget eller den europeiska ekonomiska
+intressegrupperingen som har p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet.
+
+1997:442
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1998 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 1999 &#229;rs taxering.
+
+2. Har beskattnings&#229;ret p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet
+till&#228;mpas &#228;ldre regler f&#246;r den del av beskattnings&#229;ret som
+infaller f&#246;re ikrafttr&#228;dandet.
+
+1998:526
+
+1. Denna lag tr&#228;der i kraft, s&#229;vitt avser best&#228;mmelserna i 3 &#167;
+f&#246;rsta stycket punkten a och punkten b, den 1 augusti 1998, och
+i &#246;vrigt den 1 januari 1999.
+
+2. Best&#228;mmelserna i 3 &#167; f&#246;rsta stycket punkten a och punkten b
+till&#228;mpas f&#246;rsta g&#229;ngen vid 1999 &#229;rs taxering. Har
+beskattnings&#229;ret p&#229;b&#246;rjats f&#246;re den 1 januari 1998 till&#228;mpas
+&#228;ldre regler f&#246;r den del av beskattnings&#229;ret som infaller f&#246;re
+denna tidpunkt.
+
+3. Best&#228;mmelserna i &#246;vrigt till&#228;mpas f&#246;rsta g&#229;ngen vid 2000 &#229;rs
+taxering. Har beskattnings&#229;ret p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet
+till&#228;mpas &#228;ldre regler f&#246;r den del av beskattnings&#229;ret som
+infaller f&#246;re ikrafttr&#228;dandet.
+
+4. I st&#228;llet f&#246;r det procenttal som f&#246;reskrivs i 3 &#167; f&#246;rsta
+stycket punkten b skall procenttalet vid 2000 &#229;rs taxering
+utg&#246;ra 1,3. Har beskattnings&#229;ret p&#229;b&#246;rjats f&#246;re den 1 januari
+1999 till&#228;mpas &#228;ldre regler f&#246;r den del av beskattnings&#229;ret som
+infaller f&#246;re denna tidpunkt. Lag (1998:1478).
+
+5. I st&#228;llet f&#246;r det procenttal som f&#246;reskrivs i 3 &#167; f&#246;rsta
+stycket b skall procenttalet vid 2001 &#229;rs taxering utg&#246;ra 1,2.
+P&#229; bostadsdelen f&#246;r fastighet som utg&#246;r hyreshusenhet och som
+har v&#228;rde&#229;r 1989 eller 1990 skall endast halv fastighetsskatt
+utg&#229; vid 2001 &#229;rs taxering. Om fastighetsskatt skall ber&#228;knas
+enligt olika grunder f&#246;r skilda delar av fastigheten skall 3 &#167;
+femte stycket till&#228;mpas. Lag (1999:995).
+
+1999:632
+
+Denna lag tr&#228;der i kraft den 1 juli 1999 och till&#228;mpas f&#246;rsta
+g&#229;ngen vid 2001 &#229;rs taxering. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r den
+del av beskattnings&#229;ret som infaller f&#246;re utg&#229;ngen av &#229;r 1999.
+
+1999:1254
+
+Denna lag tr&#228;der i kraft den 1 januari 2000 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2002 &#229;rs taxering.
+
+2000:950
+
+Denna lag tr&#228;der i kraft den 1 januari 2001 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2002 &#229;rs taxering. F&#246;r den del av
+beskattnings&#229;ret som infaller f&#246;re utg&#229;ngen av &#229;r 2000
+till&#228;mpas de procenttal som g&#228;ller vid 2001 &#229;rs taxering.
+
+2001:835
+
+Denna lag tr&#228;der i kraft den 31 december 2001 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2002 &#229;rs taxering. F&#246;r den del av
+beskattnings&#229;ret som infaller f&#246;re utg&#229;ngen av &#229;r 2000
+till&#228;mpas de procenttal som g&#228;ller vid 2001 &#229;rs taxering.
+
+2001:1219
+
+Denna lag tr&#228;der i kraft den 1 januari 2002 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2006 &#229;rs taxering. Till den del
+fastighetsskatt skall ber&#228;knas p&#229; grundval av taxeringsv&#228;rde
+som best&#228;mts vid fastighetstaxering &#229;r 2004 eller tidigare
+till&#228;mpas inte den nya lydelsen.
+
+2003:1203
+
+Denna lag tr&#228;der i kraft den 31 december 2003 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2004 &#229;rs taxering s&#229;vitt avser sm&#229;husenheter,
+vid 2005 &#229;rs taxering s&#229;vitt avser hyreshusenheter och vid 2006
+&#229;rs taxering s&#229;vitt avser lantbruksenheter.
+
+2006:3
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2006 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2007 &#229;rs taxering.
+
+2. Har beskattnings&#229;ret p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet
+till&#228;mpas &#228;ldre regler f&#246;r den del av beskattnings&#229;ret som
+infaller f&#246;re ikrafttr&#228;dandet.
+
+2006:1008
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2007 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2008 &#229;rs taxering.
+
+2. Har beskattnings&#229;ret p&#229;b&#246;rjats f&#246;re ikrafttr&#228;dandet
+till&#228;mpas &#228;ldre regler f&#246;r den del av beskattnings&#229;ret som
+infaller f&#246;re ikrafttr&#228;dandet.
+
+2007:1417
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2008 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2009 &#229;rs taxering.
+
+2. &#196;ldre best&#228;mmelser till&#228;mpas i fr&#229;ga om fastighetsskatt som
+avser tid f&#246;re ikrafttr&#228;dandet.
+
+2009:106
+
+Denna lag tr&#228;der i kraft den 1 maj 2009 och till&#228;mpas f&#246;rsta
+g&#229;ngen vid 2010 &#229;rs taxering.
+
+2009:1408
+
+Denna lag tr&#228;der i kraft den 1 januari 2010 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2011 &#229;rs taxering.
+
+2010:773
+
+Denna lag tr&#228;der i kraft den 1 januari 2011 och till&#228;mpas
+f&#246;rsta g&#229;ngen vid 2012 &#229;rs taxering.
+
+2011:1320
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2012.
+
+2. Den nya lydelsen av 1 &#167; till&#228;mpas vid beslut om slutlig
+skatt f&#246;r beskattnings&#229;r som b&#246;rjar efter den 31 januari 2012.
+Den nya lydelsen till&#228;mpas &#228;ven vid beslut om slutlig skatt
+f&#246;r f&#246;rl&#228;ngda r&#228;kenskaps&#229;r som avslutas efter utg&#229;ngen av 2012
+och f&#246;r f&#246;rkortade r&#228;kenskaps&#229;r som b&#229;de p&#229;b&#246;rjas och avslutas
+under 2012.
+
+2017:395
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2017.
+
+2. Lagen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; fastighetsskatt f&#246;r 
+kalender&#229;ret 2017.
+
+2017:396
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2018.
+
+2. Lagen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; fastighetsskatt f&#246;r 
+kalender&#229;ret 2018.
+
+2017:397
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2019.
+
+2. Lagen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; fastighetsskatt f&#246;r 
+kalender&#229;ret 2019.
+
+2017:398
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2020.
+
+2. Lagen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; fastighetsskatt f&#246;r 
+kalender&#229;ret 2020.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3756">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3758">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,932 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-11" /> 
+ <meta id="rattsinfo-edited" content="2023-01-11 11:02:19" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3790</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3789">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3791">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1984:14 ·
+                    <a href="/sfsr?bet=1984:14">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1984:14) om k&#228;rnteknisk verksamhet</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1984-01-12
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Omtryck:</span> SFS 2008:456
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2018:507
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1984-02-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; I denna f&#246;rordning avses med
+
+naturligt uran: uran som inneh&#229;ller den i naturen f&#246;rekommande
+blandningen av isotoper,
+
+anrikat uran: uran vari halten av isotopen uran 235 &#228;r h&#246;gre &#228;n
+i naturligt uran,
+
+utarmat uran: uran vari halten av isotopen uran 235 &#228;r l&#228;gre &#228;n
+i naturligt uran.
+
+1 a &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av 
+
+– 2 a &#167; lagen (1984:3) om k&#228;rnteknisk verksamhet i fr&#229;ga om 
+4–6, 8–12, 15 och 15 a &#167;&#167;, 
+
+– 3 &#167; andra stycket lagen om k&#228;rnteknisk verksamhet i fr&#229;ga 
+om 20 a &#167; f&#246;rsta stycket 1 och 22 a &#167;,
+
+– 5 d &#167; lagen om k&#228;rnteknisk verksamhet i fr&#229;ga om 19 a och 
+19 b &#167;&#167;,
+
+– 5 e &#167; lagen om k&#228;rnteknisk verksamhet i fr&#229;ga om 3 a och 
+22 a &#167;&#167;,
+
+– 5 f &#167; lagen om k&#228;rnteknisk verksamhet i fr&#229;ga om 22 a &#167;,
+
+– 7 d &#167; lagen om k&#228;rnteknisk verksamhet i fr&#229;ga om 2 &#167; andra 
+stycket andra meningen,
+
+– 10 b &#167; lagen om k&#228;rnteknisk verksamhet i fr&#229;ga om 14 &#167;, 
+20 a &#167; f&#246;rsta stycket 2–5, 20 b &#167; andra och tredje styckena, 
+21 och 22 a &#167;&#167;,
+
+– 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 2 &#167; andra stycket 
+f&#246;rsta meningen och 3 b &#167;, och
+
+– 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga 
+best&#228;mmelser. F&#246;rordning (2017:778).
+
+Fr&#229;gor om anm&#228;lningsskyldighet
+
+2 &#167; En anm&#228;lan enligt 7 a-7 c &#167;&#167; lagen (1984:3) om k&#228;rnteknisk
+verksamhet ska g&#246;ras till Str&#229;ls&#228;kerhetsmyndigheten.
+
+Str&#229;ls&#228;kerhetsmyndigheten f&#229;r meddela n&#228;rmare f&#246;reskrifter om
+vad en anm&#228;lan ska inneh&#229;lla samt om andra fr&#229;gor som r&#246;r
+anm&#228;lningsskyldigheten. Str&#229;ls&#228;kerhetsmyndigheten f&#229;r ocks&#229;
+meddela f&#246;reskrifter om undantag fr&#229;n anm&#228;lningsskyldigheten.
+F&#246;rordning (2008:456).
+
+Fr&#229;gor om tillst&#229;nd
+
+Allm&#228;nt
+
+3 &#167; F&#246;r radioaktiva &#228;mnen som omfattas av undantag enligt 
+4–11 &#167;&#167; eller 15 &#167; denna f&#246;rordning kr&#228;vs tillst&#229;nd enligt 
+str&#229;lskyddslagen (2018:396), om inte annat f&#246;ljer av 
+f&#246;reskrifter som har meddelats med st&#246;d av 2 kap. 5 &#167; 1 den 
+lagen.
+
+Best&#228;mmelser om transport finns i lagen (2006:263) om 
+transport av farligt gods. F&#246;rordning (2018:507).
+
+Milj&#246;bed&#246;mningar
+
+3 a &#167; Str&#229;ls&#228;kerhetsmyndigheten f&#229;r meddela f&#246;reskrifter om 
+att 6 kap. milj&#246;balken ska till&#228;mpas i fr&#229;ga om s&#229;dana 
+&#228;renden om tillst&#229;nd som avses i 5 e &#167; lagen (1984:3) om 
+k&#228;rnteknisk verksamhet. F&#246;rordning (2017:968).
+
+3 b &#167; Str&#229;ls&#228;kerhetsmyndigheten f&#229;r i ett &#228;rende om tillst&#229;nd 
+som avses i 5 e &#167; lagen (1984:3) om k&#228;rnteknisk verksamhet 
+besluta att 6 kap. milj&#246;balken ska till&#228;mpas.
+F&#246;rordning (2017:968).
+
+3 c &#167; Om en milj&#246;konsekvensbeskrivning ska tas fram 
+enligt f&#246;reskrifter som avses i 3 a &#167; eller enligt ett beslut 
+som avses i 3 b &#167;, ska beskrivningen kung&#246;ras enligt 5 kap. 
+25 &#167; str&#229;lskyddsf&#246;rordningen (2018:506). 
+F&#246;rordning (2018:507).
+
+Ans&#246;kan om tillst&#229;nd
+
+3 d &#167; Str&#229;ls&#228;kerhetsmyndigheten f&#229;r meddela n&#228;rmare
+f&#246;reskrifter om inneh&#229;llet i och utformningen av en
+ans&#246;kan om tillst&#229;nd till k&#228;rnteknisk verksamhet.
+F&#246;reskrifterna ska p&#229; l&#228;mpligt s&#228;tt anpassas till 22 kap.
+1 &#167; milj&#246;balken s&#229; att en ans&#246;kan om tillst&#229;nd till
+k&#228;rnteknisk verksamhet kan samordnas med en ans&#246;kan om
+tillst&#229;nd enligt milj&#246;balken. F&#246;rordning (2017:968).
+
+F&#246;reskrifter om undantag
+
+4 &#167; Var och en f&#229;r, efter en anm&#228;lan till
+Str&#229;ls&#228;kerhetsmyndigheten, f&#246;rv&#228;rva, inneha, hantera, bearbeta,
+transportera eller p&#229; annat s&#228;tt ta befattning med eller till
+Sverige f&#246;ra in
+
+1. anrikat uran eller f&#246;rening vari s&#229;dant uran ing&#229;r som
+inneh&#229;ller h&#246;gst 15 gram av isotopen uran 235,
+
+2. h&#246;gst 15 gram av isotopen uran 233 i ren form eller ing&#229;ende
+i f&#246;rening,
+
+3. h&#246;gst 15 gram plutonium i ren form eller ing&#229;ende i
+f&#246;rening,
+
+4. h&#246;gst 5 kilogram naturligt eller utarmat uran i ren form
+eller ing&#229;ende i f&#246;rening, eller
+
+5. h&#246;gst 5 kilogram torium i ren form eller ing&#229;ende i
+f&#246;rening.
+
+Vid samtidigt innehav enligt f&#246;rsta stycket 1-3 f&#229;r den
+sammanlagda vikten av innehavet inte &#246;verstiga 15 gram.
+F&#246;rordning (2008:456).
+
+5 &#167; Efter en anm&#228;lan till Str&#229;ls&#228;kerhetsmyndigheten f&#229;r
+universitet, h&#246;gskolor, forskningsanstalter och liknande
+vetenskapliga institutioner f&#246;r vetenskaplig anv&#228;ndning, ut&#246;ver
+vad som f&#246;ljer av 4 &#167;, f&#246;rv&#228;rva, inneha, hantera, bearbeta,
+transportera eller p&#229; annat s&#228;tt ta befattning med
+
+1. naturligt eller utarmat uran eller f&#246;rening vari naturligt
+eller utarmat uran ing&#229;r,
+
+2. k&#228;rnavfall, och
+
+3. torium eller annat &#228;mne &#228;n anrikat uran eller plutonium som
+&#228;r &#228;gnat att omvandlas till k&#228;rnbr&#228;nsle.
+
+En institution som avses i f&#246;rsta stycket f&#229;r &#228;ven f&#246;r
+vetenskaplig anv&#228;ndning efter en anm&#228;lan till
+Str&#229;ls&#228;kerhetsmyndigheten f&#246;ra in s&#229;dana &#228;mnen som anges i
+f&#246;rsta stycket 1 och 3 till Sverige.
+
+Innehav av s&#229;dant k&#228;rnavfall som utg&#246;r h&#246;gaktivt avfall fr&#229;n
+upparbetning ska anm&#228;las till Str&#229;ls&#228;kerhetsmyndigheten.
+F&#246;rordning (2008:456).
+
+5 a &#167; En statlig tillsynsmyndighet f&#229;r f&#246;r sin
+tillsynsverksamhet f&#246;rv&#228;rva, inneha, bearbeta, transportera
+eller p&#229; annat s&#228;tt ta befattning med k&#228;rn&#228;mne eller
+k&#228;rnavfall.
+
+Innehav av k&#228;rn&#228;mne eller s&#229;dant k&#228;rnavfall som utg&#246;r h&#246;gaktivt
+avfall fr&#229;n upparbetning ska anm&#228;las till
+Str&#229;ls&#228;kerhetsmyndigheten. F&#246;rordning (2008:456).
+
+5 b &#167; N&#228;ringsidkare som utf&#246;r servicearbeten p&#229; uppdrag av
+n&#229;gon som har tillst&#229;nd enligt lagen (1984:3) om k&#228;rnteknisk
+verksamhet f&#229;r inneha, hantera, bearbeta eller p&#229; annat s&#228;tt &#228;n
+att transportera ta befattning med k&#228;rn&#228;mne eller k&#228;rnavfall i
+den omfattning som beh&#246;vs f&#246;r att fullg&#246;ra uppdraget.
+
+Innehav av k&#228;rn&#228;mne eller s&#229;dant k&#228;rnavfall som utg&#246;r h&#246;gaktivt
+avfall fr&#229;n upparbetning ska anm&#228;las till
+Str&#229;ls&#228;kerhetsmyndigheten. F&#246;rordning (2008:456).
+
+6 &#167; Var och en f&#229;r f&#246;rv&#228;rva, inneha, &#246;verl&#229;ta, hantera,
+bearbeta, transportera eller p&#229; annat s&#228;tt ta befattning med
+eller till Sverige f&#246;ra in deuterium, tritium eller litium
+eller f&#246;rening vari n&#229;got av dessa &#228;mnen ing&#229;r f&#246;r att anv&#228;nda
+&#228;mnet f&#246;r annat &#228;ndam&#229;l &#228;n att &#229;stadkomma sj&#228;lvunderh&#229;llande
+k&#228;rnreaktioner.
+
+Var och en f&#229;r f&#246;rv&#228;rva, inneha, &#246;verl&#229;ta, hantera, bearbeta,
+transportera eller p&#229; annat s&#228;tt ta befattning med eller till
+Sverige f&#246;ra in produkter, s&#229;som instrument, apparater eller
+preparat f&#246;r medicinskt eller liknande &#228;ndam&#229;l, vari deuterium,
+tritium eller litium ing&#229;r. F&#246;rordning (2008:456).
+
+7 &#167; Har upph&#228;vts genom f&#246;rordning (1992:1538).
+
+8 &#167; Efter en anm&#228;lan till Str&#229;ls&#228;kerhetsmyndigheten f&#229;r
+naturligt eller utarmat uran eller f&#246;rening vari s&#229;dant uran
+ing&#229;r f&#246;rv&#228;rvas, innehas, bearbetas, transporteras eller f&#246;ras
+in till Sverige f&#246;r
+
+1. anv&#228;ndning som motvikter i flygplan eller barlast i fartyg
+som tillverkas i Sverige,
+
+2. framst&#228;llning av str&#229;lsk&#228;rmningsanordningar,
+
+3. f&#228;rgning av keramiska produkter och glas, eller
+
+4. framst&#228;llning av legering, om denna avses f&#246;r annan
+anv&#228;ndning &#228;n som k&#228;rnbr&#228;nsle och halten av uran inte
+&#246;verstiger en viktprocent.
+
+S&#229;dan anm&#228;lan till Str&#229;ls&#228;kerhetsmyndigheten som avses i f&#246;rsta
+stycket 1 beh&#246;ver endast g&#246;ras i samband med tillverkningen av
+flygplanet eller fartyget.
+
+Var och en f&#229;r f&#246;rv&#228;rva, inneha, &#246;verl&#229;ta, hantera,
+transportera eller p&#229; annat s&#228;tt ta befattning med eller till
+Sverige f&#246;ra in motvikt eller anordning som avses i f&#246;rsta
+stycket samt f&#246;rv&#228;rva, inneha, &#246;verl&#229;ta, hantera, bearbeta,
+transportera eller p&#229; annat s&#228;tt ta befattning med eller till
+Sverige f&#246;ra in produkt som avses i f&#246;rsta stycket 3 och 4.
+F&#246;rordning (2008:456).
+
+9 &#167; Efter en anm&#228;lan till Str&#229;ls&#228;kerhetsmyndigheten f&#229;r torium
+eller f&#246;rening vari torium ing&#229;r f&#246;rv&#228;rvas, innehas, hanteras,
+bearbetas, transporteras eller f&#246;ras in till Sverige f&#246;r
+framst&#228;llning av
+
+1. aktiveringsmassor f&#246;r elektroder till gasurladdningslampor,
+gasurladdningsr&#246;r eller elektronr&#246;r,
+
+2. gl&#246;dn&#228;t och gl&#246;dstrumpor,
+
+3. h&#246;geldfasta keramer som inte &#228;r k&#228;rnbr&#228;nsle,
+
+4. lys&#228;mne (lyspulver),
+
+5. linser eller filter f&#246;r elektromagnetisk str&#229;lning, eller
+
+6. legering vari halten av torium inte &#246;verstiger fem
+viktprocent.
+
+Var och en f&#229;r f&#246;rv&#228;rva, inneha, &#246;verl&#229;ta, hantera, bearbeta,
+transportera eller p&#229; annat s&#228;tt ta befattning med eller till
+Sverige f&#246;ra in produkt som avses i f&#246;rsta stycket. F&#246;rordning
+(2008:456).
+
+10 &#167; Efter en anm&#228;lan till Str&#229;ls&#228;kerhetsmyndigheten f&#229;r uran,
+plutonium eller torium eller f&#246;rening vari n&#229;got av dessa &#228;mnen
+ing&#229;r &#246;verl&#229;tas till den som enligt lagen (1984:3) om
+k&#228;rnteknisk verksamhet eller enligt denna f&#246;rordning f&#229;r
+f&#246;rv&#228;rva eller inneha s&#229;dant &#228;mne eller s&#229;dan f&#246;rening till den
+m&#228;ngd som &#246;verl&#229;telsen avser. F&#246;rordning (2008:456).
+
+11 &#167; Var och en f&#229;r f&#246;rv&#228;rva, inneha, &#246;verl&#229;ta, hantera,
+bearbeta, transportera eller p&#229; annat s&#228;tt ta befattning med
+eller till Sverige f&#246;ra in &#228;mne vars halt av naturligt eller
+utarmat uran eller av torium inte &#246;verstiger 200 gram per ton.
+F&#246;rordning (2008:456).
+
+12 &#167; Efter en anm&#228;lan till Str&#229;ls&#228;kerhetsmyndigheten f&#229;r den
+som har tillst&#229;nd enligt lagen (1984:3) om k&#228;rnteknisk
+verksamhet att f&#246;rv&#228;rva, inneha, &#246;verl&#229;ta, bearbeta eller p&#229;
+annat s&#228;tt ta befattning med k&#228;rn&#228;mne, fr&#229;n ett annat land i
+Europeiska unionen till Sverige f&#246;ra in
+
+1. anrikat uran eller f&#246;rening vari s&#229;dant uran ing&#229;r som
+inneh&#229;ller h&#246;gst 20 procent av isotopen 235 eller 233,
+
+2. naturligt eller utarmat uran eller f&#246;rening vari naturligt
+eller utarmat uran ing&#229;r,
+
+3. torium eller f&#246;rening vari torium ing&#229;r, eller
+
+4. anv&#228;nt k&#228;rnbr&#228;nsle.
+
+F&#246;rsta stycket f&#229;r till&#228;mpas endast om tillst&#229;ndet omfattar
+s&#229;dant k&#228;rn&#228;mne som avses att f&#246;ras in till Sverige. F&#246;rordning
+(2008:456).
+
+13 &#167; Har upph&#228;vts genom f&#246;rordning (1993:142).
+
+14 &#167; Den som har tillst&#229;nd enligt lagen (1984:3) om k&#228;rnteknisk
+verksamhet att f&#246;rv&#228;rva, inneha, &#246;verl&#229;ta, bearbeta eller
+annars ta befattning med uran, plutonium eller annat &#228;mne som
+anv&#228;nds som k&#228;rnbr&#228;nsle ska
+
+1. genast anm&#228;la ett f&#246;rv&#228;rv av s&#229;dana &#228;mnen i ett annat land
+&#228;n Sverige till Str&#229;ls&#228;kerhetsmyndigheten, och
+
+2. innan s&#229;dana &#228;mnen f&#246;rs in till Sverige anm&#228;la detta till
+Str&#229;ls&#228;kerhetsmyndigheten. F&#246;rordning (2008:456).
+
+15 &#167; F&#246;r hantering, bearbetning eller annan befattning med ett
+k&#228;rn&#228;mne som avses i 4-11 &#167;&#167; f&#229;r s&#229;dana anordningar och
+anl&#228;ggningar som beh&#246;vs uppf&#246;ras, innehas och drivas.
+F&#246;rordning (1995:153).
+
+15 a &#167; Ut&#246;ver det som f&#246;ljer av 4-15 &#167;&#167;, f&#229;r
+Str&#229;ls&#228;kerhetsmyndigheten i fr&#229;ga om k&#228;rn&#228;mne eller k&#228;rnavfall
+meddela f&#246;reskrifter om undantag eller i det enskilda fallet ge
+dispens fr&#229;n lagen (1984:3) om k&#228;rnteknisk verksamhet. S&#229;dana
+f&#246;reskrifter och dispenser f&#229;r endast avse undantag som det
+finns s&#228;rskilda sk&#228;l f&#246;r och som kan g&#246;ras utan att syftet med
+lagen &#229;sidos&#228;tts. F&#246;rordning (2008:456).
+
+Tillst&#229;ndsfr&#229;gor som pr&#246;vas av Str&#229;ls&#228;kerhetsmyndigheten
+
+16 &#167; Str&#229;ls&#228;kerhetsmyndigheten pr&#246;var fr&#229;gor om tillst&#229;nd att
+f&#246;rv&#228;rva, inneha, &#246;verl&#229;ta, hantera, bearbeta eller p&#229; annat
+s&#228;tt ta befattning med
+
+1. anrikat uran eller f&#246;rening vari s&#229;dant uran ing&#229;r som
+inneh&#229;ller h&#246;gst 20 procent av isotopen 235 eller 233,
+
+2. anrikat uran eller f&#246;rening vari s&#229;dant uran ing&#229;r som
+inneh&#229;ller mer &#228;n 20 procent av isotopen 235 eller 233 om
+isotopen 235 eller 233 utg&#246;r h&#246;gst 5 kilogram,
+
+3. h&#246;gst 5 kilogram plutonium i ren form eller ing&#229;ende i
+f&#246;rening,
+
+4. naturligt eller utarmat uran eller f&#246;rening vari naturligt
+eller utarmat uran ing&#229;r,
+
+5. torium eller f&#246;rening vari torium ing&#229;r,
+
+6. k&#228;rnavfall, eller
+
+7. anv&#228;nt k&#228;rnbr&#228;nsle som inneh&#229;ller h&#246;gst 20 kilogram uran.
+
+Str&#229;ls&#228;kerhetsmyndigheten pr&#246;var fr&#229;gor om tillst&#229;nd att
+uppf&#246;ra, inneha eller driva de anl&#228;ggningar som beh&#246;vs f&#246;r de
+verksamheter som avses i f&#246;rsta stycket, under f&#246;ruts&#228;ttning
+att aktiviteten hos den totala m&#228;ngden avfall i anl&#228;ggningen
+inte vid n&#229;gon tidpunkt &#246;verstiger 10 terabecquerel (TBq),
+varav h&#246;gst 10 gigabecquerel (GBq) utg&#246;rs av alfaaktiva &#228;mnen.
+F&#246;rordning (2008:456).
+
+16 a &#167; Str&#229;ls&#228;kerhetsmyndigheten pr&#246;var, i andra fall &#228;n som
+avses i 14 &#167;, fr&#229;gor om tillst&#229;nd att fr&#229;n ett land utanf&#246;r
+Europeiska unionen till Sverige f&#246;ra in
+
+1. anrikat uran eller f&#246;rening vari s&#229;dant uran ing&#229;r som
+inneh&#229;ller h&#246;gst 20 procent av isotopen 235 eller 233,
+
+2. anrikat uran eller f&#246;rening vari s&#229;dant uran ing&#229;r som
+inneh&#229;ller mer &#228;n 20 procent av isotopen 235 eller 233 om
+isotopen 235 eller 233 utg&#246;r h&#246;gst 5 kilogram,
+
+3. h&#246;gst 5 kilogram plutonium i ren form eller ing&#229;ende i
+f&#246;rening,
+
+4. naturligt eller utarmat uran eller f&#246;rening vari naturligt
+eller utarmat uran ing&#229;r,
+
+5. torium eller f&#246;rening vari torium ing&#229;r, eller
+
+6. anv&#228;nt k&#228;rnbr&#228;nsle som inneh&#229;ller h&#246;gst 20 kilogram uran.
+
+Str&#229;ls&#228;kerhetsmyndigheten pr&#246;var &#228;ven, i andra fall &#228;n som
+avses i 14 &#167;, fr&#229;gor om tillst&#229;nd att fr&#229;n ett annat land i
+Europeiska unionen till Sverige f&#246;ra in
+
+1. anrikat uran eller f&#246;rening vari s&#229;dant uran ing&#229;r som
+inneh&#229;ller mer &#228;n 20 procent av isotopen 235 eller 233 om
+isotopen 235 eller 233 utg&#246;r h&#246;gst 5 kilogram, eller
+
+2. h&#246;gst 5 kilogram plutonium i ren form eller ing&#229;ende i
+f&#246;rening. F&#246;rordning (2008:456).
+
+17 &#167; Har upph&#228;vts genom f&#246;rordning (2017:778).
+
+18 &#167; Str&#229;ls&#228;kerhetsmyndigheten pr&#246;var fr&#229;gor om tillst&#229;nd att
+transportera eller till Sverige f&#246;ra in eller genom Sverige
+transitera k&#228;rn&#228;mnen eller k&#228;rnavfall samt tillst&#229;nd att f&#246;ra
+ut k&#228;rnavfall fr&#229;n Sverige. F&#246;rordning (2008:456).
+
+18 a &#167; Str&#229;ls&#228;kerhetsmyndigheten pr&#246;var fr&#229;gor om tillst&#229;nd
+enligt 5 a &#167; f&#246;rsta stycket 2 lagen (1984:3) om k&#228;rnteknisk
+verksamhet att utomlands slutf&#246;rvara k&#228;rnavfall eller
+k&#228;rn&#228;mne som inte &#228;r avsett att anv&#228;ndas p&#229; nytt.
+
+Om Str&#229;ls&#228;kerhetsmyndigheten finner att ett &#228;rende som avses
+i f&#246;rsta stycket har principiell betydelse eller annars &#228;r av
+s&#228;rskild vikt, ska myndigheten med ett eget yttrande l&#228;mna
+&#246;ver &#228;rendet till regeringens pr&#246;vning. F&#246;rordning (2014:363).
+
+19 &#167; Str&#229;ls&#228;kerhetsmyndigheten ska ta emot och pr&#246;va s&#229;dana
+ans&#246;kningar om transport av anv&#228;nt k&#228;rnbr&#228;nsle eller
+k&#228;rnavfall till eller genom Sverige som ges in av en beh&#246;rig
+myndighet i ett annat land inom Europeiska
+atomenergigemenskapen i enlighet med r&#229;dets direktiv
+2006/117/Euratom av den 20 november 2006 om &#246;vervakning och
+kontroll av transporter av radioaktivt avfall och anv&#228;nt
+k&#228;rnbr&#228;nsle. Myndigheten ska f&#246;lja de tidsfrister som anges
+i artiklarna 8 och 9 i direktivet. Om myndigheten inte har
+svarat inom den tid som anges i artikel 9.1, ska myndigheten
+anses ha l&#228;mnat sitt medgivande till transporten.
+F&#246;rordning (2009:119).
+
+F&#246;ruts&#228;ttningar f&#246;r att till&#229;ta slutf&#246;rvaring utomlands
+
+19 a &#167; F&#246;r att ett s&#229;dant avtal om slutf&#246;rvaring utomlands
+som avses i 5 b &#167; tredje stycket lagen (1984:3) om
+k&#228;rnteknisk verksamhet ska kunna godtas vid en
+tillst&#229;ndspr&#246;vning kr&#228;vs det att det land d&#228;r slutf&#246;rvaring
+ska ske
+
+1. &#228;r medlem i Internationella atomenergiorganet och f&#246;ljer
+dess till&#228;mpliga s&#228;kerhetsstandarder,
+
+2. har undertecknat, ratificerat och f&#246;ljer
+
+a) konventionen om s&#228;kerheten vid hantering av anv&#228;nt
+k&#228;rnbr&#228;nsle och om s&#228;kerheten vid hantering av radioaktivt
+avfall (S&#214; 1999:60),
+
+b) konventionen om fysiskt skydd av k&#228;rn&#228;mne (S&#214; 1985:24) och
+dess tilll&#228;gg,
+
+c) konventionen om k&#228;rns&#228;kerhet (S&#214; 1995:71),
+
+d) konventionen om bist&#229;nd i h&#228;ndelse av k&#228;rnteknisk olycka
+eller ett n&#246;dl&#228;ge med radioaktiva &#228;mnen (S&#214; 1992:81), och
+
+e) konventionen om tidig information vid en k&#228;rnenergiolycka
+(S&#214; 1987:3),
+
+3. i samband med undertecknande och ratificering av f&#246;rdraget
+om f&#246;rhindrade av spridning av k&#228;rnvapen (S&#214; 1970:12) har
+inkluderat den anl&#228;ggning d&#228;r slutf&#246;rvaring av anv&#228;nt
+k&#228;rnbr&#228;nsle ska ske, i ett avtal om k&#228;rn&#228;mneskontroll och
+dess till&#228;ggsprotokoll med Internationella atomenergiorganet,
+
+4. har undertecknat, ratificerat och f&#246;ljer
+
+a) Wienkonventionen om civilr&#228;ttsligt ansvar f&#246;r atomskada av
+den 21 maj 1963,
+
+b) Wienkonventionens &#228;ndringsprotokoll av den 29 september
+1997,
+
+c) konventionen om supplerande ers&#228;ttning f&#246;r atomskada av
+den 12 september 1997, eller
+
+d) Pariskonventionen om skadest&#229;ndsansvar p&#229; atomenergins
+omr&#229;de av den 29 juli 1960 (S&#214; 1968:17) i dess lydelse enligt
+till&#228;ggsprotokollet av den 28 januari 1964 och
+&#228;ndringsprotokollet av den 16 november 1982, och
+
+5. f&#246;ljer Solaskonventionen av den 1 november 1974 och dess
+till&#228;gg, Chicagokonventionen av den 7 december 1944 och dess
+till&#228;gg samt andra internationella instrument avseende
+s&#228;kerhet vid transport av farligt gods. F&#246;rordning (2014:363).
+
+19 b &#167; Ett s&#229;dant avtal om slutf&#246;rvaring utomlands som avses
+i 5 b &#167; tredje stycket lagen (1984:3) om k&#228;rnteknisk
+verksamhet f&#229;r godtas vid en tillst&#229;ndspr&#246;vning endast om
+avtalet kan anses l&#228;mpligt med h&#228;nsyn till politiska,
+ekonomiska, sociala, etiska och vetenskapliga faktorer samt
+allm&#228;n s&#228;kerhet. F&#246;rordning (2014:363).
+
+19 c &#167; Innan en fr&#229;ga om tillst&#229;nd till slutf&#246;rvaring i ett
+land utanf&#246;r Europeiska atomenergigemenskapen enligt 5 a &#167;
+f&#246;rsta stycket 2 lagen (1984:3) om k&#228;rnteknisk verksamhet
+avg&#246;rs ska Str&#229;ls&#228;kerhetsmyndigheten vidta rimliga &#229;tg&#228;rder
+f&#246;r att f&#246;rs&#228;kra sig om att
+
+1. det land d&#228;r slutf&#246;rvaring ska ske har ing&#229;tt ett avtal
+med Europeiska atomenergigemenskapen som omfattar k&#228;rnavfall,
+k&#228;rn&#228;mne som inte &#228;r avsett att anv&#228;ndas p&#229; nytt och annat
+radioaktivt avfall,
+
+2. det land d&#228;r slutf&#246;rvaring ska ske har ett program f&#246;r
+hantering och slutf&#246;rvaring av radioaktivt avfall med s&#229;dana
+m&#229;l om en h&#246;g s&#228;kerhetsniv&#229; som &#228;r likv&#228;rdiga med m&#229;len i
+r&#229;dets direktiv 2011/70/Euratom av den 19 juli 2011 om
+inr&#228;ttande av ett gemenskapsramverk f&#246;r ansvarsfull och s&#228;ker
+hantering av anv&#228;nt k&#228;rnbr&#228;nsle och radioaktivt avfall, i den
+ursprungliga lydelsen, och
+
+3. den anl&#228;ggning d&#228;r slutf&#246;rvaring ska ske
+
+a) omfattas av ett tillst&#229;nd att ta emot det k&#228;rnavfall eller
+k&#228;rn&#228;mne som &#228;r avsett att slutf&#246;rvaras,
+
+b) &#228;r i drift innan transporten av k&#228;rnavfallet eller
+k&#228;rn&#228;mnet fr&#229;n Sverige &#228;r ber&#228;knad att p&#229;b&#246;rjas, och
+
+c) sk&#246;ts i enlighet med kraven i det program som avses i 2.
+F&#246;rordning (2014:363).
+
+Villkor
+
+20 &#167; Str&#229;ls&#228;kerhetsmyndigheten pr&#246;var fr&#229;gor om villkor 
+enligt 8 och 8 a &#167;&#167; lagen (1984:3) om k&#228;rnteknisk verksamhet. 
+
+Best&#228;mmelser om de villkor och f&#246;reskrifter som avser 
+str&#229;lskyddet finns i str&#229;lskyddslagen (2018:396). 
+F&#246;rordning (2018:507).
+
+Andra bemyndiganden
+
+20 a &#167; Str&#229;ls&#228;kerhetsmyndigheten f&#229;r meddela f&#246;reskrifter om 
+
+1. &#229;tg&#228;rder som kr&#228;vs f&#246;r att s&#229;dana f&#246;rpliktelser ska 
+uppfyllas som ing&#229;r i Sveriges &#246;verenskommelser i syfte att 
+f&#246;rhindra spridning av k&#228;rnvapen och obeh&#246;rig befattning med 
+k&#228;rn&#228;mne och s&#229;dant k&#228;rnavfall som utg&#246;rs av anv&#228;nt 
+k&#228;rnbr&#228;nsle, 
+
+2. vad som kr&#228;vs i fr&#229;ga om v&#228;rdering, verifiering och 
+f&#246;rb&#228;ttring av s&#228;kerheten enligt 10 &#167; 1 lagen om k&#228;rnteknisk 
+verksamhet, 
+
+3. &#229;tg&#228;rder som, ut&#246;ver anm&#228;lningar enligt 14 &#167;, kr&#228;vs f&#246;r 
+att uppfylla kravet i 10 &#167; 2 lagen om k&#228;rnteknisk 
+verksamhet,
+
+4. &#229;tg&#228;rder i fr&#229;ga om avfall och avveckling som kr&#228;vs f&#246;r 
+att uppfylla kraven i 10 &#167; 3 och 4 lagen om k&#228;rnteknisk 
+verksamhet,
+
+5. upplysningar och &#246;verf&#246;ring av v&#228;rden f&#246;r 
+processparametrar enligt 10 &#167; 5 lagen om k&#228;rnteknisk 
+verksamhet, och 
+
+6. de befogenheter som ska g&#228;lla f&#246;r s&#229;dana internationella 
+&#246;vervakare som avses i 17 &#167; andra stycket lagen om 
+k&#228;rnteknisk verksamhet. 
+
+Innan Str&#229;ls&#228;kerhetsmyndigheten meddelar f&#246;reskrifter enligt 
+f&#246;rsta stycket 1 eller 2 som r&#246;r fysiska skydds&#229;tg&#228;rder vid 
+k&#228;rntekniska anl&#228;ggningar, ska myndigheten h&#246;ra den myndighet 
+som &#228;r elberedskapsmyndighet enligt elberedskapslagen 
+(1997:288). F&#246;rordning (2017:778).
+
+20 b &#167; Str&#229;ls&#228;kerhetsmyndigheten pr&#246;var fr&#229;gor om
+helhetsbed&#246;mning av en k&#228;rnteknisk anl&#228;ggnings s&#228;kerhet
+och str&#229;lskydd enligt 10 a &#167; lagen (1984:3) om k&#228;rnteknisk
+verksamhet.
+
+Str&#229;ls&#228;kerhetsmyndigheten f&#229;r meddela f&#246;reskrifter om
+eller i det enskilda fallet besluta om tidpunkten f&#246;r och
+inneh&#229;llet i en s&#229;dan helhetsbed&#246;mning.
+
+Str&#229;ls&#228;kerhetsmyndigheten f&#229;r meddela f&#246;reskrifter om
+undantag eller i det enskilda fallet ge dispens fr&#229;n
+kraven p&#229; en helhetsbed&#246;mning. S&#229;dana undantag och
+dispenser f&#229;r endast avse k&#228;rntekniska anl&#228;ggningar d&#228;r
+den risk som &#228;r f&#246;renad med anl&#228;ggningarna &#228;r liten.
+F&#246;rordning (2010:1328).
+
+21 &#167; K&#228;rntekniska anl&#228;ggningar samt anordningar f&#246;r innehav,
+hantering, bearbetning eller transport av k&#228;rn&#228;mne eller
+k&#228;rnavfall ska provas, kontrolleras eller besiktigas i den
+utstr&#228;ckning det beh&#246;vs f&#246;r kontroll av att de s&#228;kerhetskrav
+uppfylls som anges i lagen (1984:3) om k&#228;rnteknisk verksamhet.
+
+Str&#229;ls&#228;kerhetsmyndigheten f&#229;r meddela n&#228;rmare f&#246;reskrifter om
+s&#229;dan provning, kontroll och besiktning. F&#246;rordning (2008:456).
+
+Tillsyn
+
+22 &#167; Str&#229;ls&#228;kerhetsmyndigheten ska ha tillsyn &#246;ver att 
+lagen (1984:3) om k&#228;rnteknisk verksamhet och villkor och 
+f&#246;reskrifter som har meddelats med st&#246;d av lagen f&#246;ljs samt 
+&#246;vervakar och kontrollerar slutf&#246;rvar. 
+
+Best&#228;mmelser om tillsyn fr&#229;n str&#229;lskyddssynpunkt finns i 
+str&#229;lskyddslagen (2018:396). F&#246;rordning (2018:507).
+
+Ansvar
+
+22 a &#167; Till b&#246;ter d&#246;ms den som med upps&#229;t eller av oaktsamhet 
+&#229;sidos&#228;tter f&#246;reskrifter som Str&#229;ls&#228;kerhetsmyndigheten har 
+meddelat med st&#246;d av 3 a, 3 b, 20 a och 21 &#167;&#167; denna 
+f&#246;rordning. F&#246;rordning (2017:778).
+
+Underr&#228;ttelse till Europeiska kommissionen
+
+23 &#167; Om ett tillst&#229;nd till slutf&#246;rvaring utanf&#246;r Europeiska
+atomenergigemenskapen har getts enligt 5 a &#167; f&#246;rsta stycket 2
+lagen (1984:3) om k&#228;rnteknisk verksamhet, ska
+Str&#229;ls&#228;kerhetsmyndigheten underr&#228;tta Europeiska kommissionen
+om inneh&#229;llet i det avtal som avses i 5 b &#167; tredje stycket
+samma lag. Underr&#228;ttelsen ska ske innan transporten av
+k&#228;rnavfallet eller k&#228;rn&#228;mnet fr&#229;n Sverige p&#229;b&#246;rjas.
+F&#246;rordning (2014:363).
+
+&#214;vriga best&#228;mmelser
+
+24 &#167; Ans&#246;kan om tillst&#229;nd enligt 5 &#167; eller 5 a &#167; f&#246;rsta 
+stycket lagen (1984:3) om k&#228;rnteknisk verksamhet ska ges in 
+till Str&#229;ls&#228;kerhetsmyndigheten. Om ans&#246;kan avser en fr&#229;ga som 
+regeringen ska pr&#246;va, ska myndigheten h&#228;mta in de yttranden 
+som beh&#246;vs och med ett eget yttrande &#246;verl&#228;mna handlingarna i 
+&#228;rendet till regeringen. Om ans&#246;kan avser en ny 
+k&#228;rnkraftsreaktor eller &#228;ndring av h&#246;gsta till&#229;tna termiska 
+effekt f&#246;r en k&#228;rnkraftsreaktor, ska myndigheten ge 
+Aff&#228;rsverket svenska kraftn&#228;t tillf&#228;lle att yttra sig &#246;ver 
+ans&#246;kan.
+
+Ans&#246;kan om tillst&#229;nd enligt 5 &#167; lagen om k&#228;rnteknisk 
+verksamhet ska inneh&#229;lla den milj&#246;konsekvensbeskrivning som 
+kr&#228;vs enligt 5 c &#167; 3 eller 4 lagen om k&#228;rnteknisk 
+verksamhet. F&#246;rordning (2017:968).
+
+24 a &#167; Str&#229;ls&#228;kerhetsmyndighetens beslut enligt denna
+f&#246;rordning f&#229;r &#246;verklagas hos regeringen. F&#246;rordning
+(2008:456).
+
+24 b &#167; En ans&#246;kan om inf&#246;rsel av anv&#228;nt k&#228;rnbr&#228;nsle eller
+k&#228;rnavfall fr&#229;n en k&#228;rnteknisk anl&#228;ggning eller en annan
+k&#228;rnteknisk verksamhet i ett annat land ska inneh&#229;lla
+uppgifter om hur l&#228;nge materialet ska finnas i Sverige och
+vart det d&#228;refter ska s&#228;ndas.
+
+Tillst&#229;nd till s&#229;dan inf&#246;rsel f&#229;r ges endast om det &#228;r
+klarlagt att materialet kommer att f&#246;ras ut fr&#229;n Sverige
+inom en viss tid eller om tillst&#229;nd till slutf&#246;rvaring har
+getts enligt 5 a &#167; f&#246;rsta stycket lagen (1984:3) om
+k&#228;rnteknisk verksamhet. F&#246;rordning (2010:1328).
+
+24 c &#167; En ans&#246;kan om utf&#246;rsel av k&#228;rnavfall ska inneh&#229;lla
+uppgifter om hur materialet slutligt ska tas om hand. I fr&#229;ga
+om material som h&#228;rr&#246;r fr&#229;n en k&#228;rnteknisk verksamhet i Sverige
+ska ans&#246;kan inneh&#229;lla en f&#246;rs&#228;kran fr&#229;n export&#246;ren att
+materialet kommer att &#229;tertas om det inte kan tas om hand p&#229;
+ber&#228;knat s&#228;tt. F&#246;rordning (2008:456).
+
+24 d &#167; En ans&#246;kan om ett s&#229;dant tillst&#229;nd till slutf&#246;rvaring
+utomlands som avses i 5 a &#167; f&#246;rsta stycket 2 lagen (1984:3)
+om k&#228;rnteknisk verksamhet ska inneh&#229;lla
+
+1. uppgifter om hur k&#228;rn&#228;mnet eller avfallet slutligt ska tas
+om hand, och
+
+2. en skriftlig f&#246;rs&#228;kran fr&#229;n det andra landet om att
+f&#246;ruts&#228;ttningarna i 19 a &#167; &#228;r uppfyllda och, om ans&#246;kan avser
+slutf&#246;rvaring utanf&#246;r Europeiska atomenergigemenskapen, om
+att f&#246;ruts&#228;ttningarna i 19 c &#167; &#228;r uppfyllda.
+F&#246;rordning (2014:363).
+
+25 &#167; Det program som avses i 12 &#167; lagen (1984:3) om k&#228;rnteknisk
+verksamhet ska senast under september m&#229;nad vart tredje &#229;r med
+b&#246;rjan 1986 ges in till Str&#229;ls&#228;kerhetsmyndigheten f&#246;r att
+granskas och utv&#228;rderas. F&#246;rordning (2008:456).
+
+26 &#167; Str&#229;ls&#228;kerhetsmyndigheten ska senast sex m&#229;nader efter den
+tidpunkt som anges i 25 &#167; med ett eget yttrande &#246;ver det
+program som avses d&#228;r &#246;verl&#228;mna handlingarna i &#228;rendet till
+regeringen.
+
+Yttrandet ska inneh&#229;lla en granskning och utv&#228;rdering av
+programmet i fr&#229;ga om
+
+1. planerad forsknings- och utvecklingsverksamhet,
+
+2. redovisade forskningsresultat,
+
+3. alternativa hanterings- och f&#246;rvaringsmetoder, och
+
+4. de &#229;tg&#228;rder som avses bli vidtagna. F&#246;rordning (2008:456).
+
+27 &#167; Str&#229;ls&#228;kerhetsmyndigheten pr&#246;var fr&#229;gor om dispens
+enligt 14 &#167; lagen (1984:3) om k&#228;rnteknisk verksamhet i de
+fall myndigheten har gett tillst&#229;nd till verksamheten med
+st&#246;d av 16 eller 18 &#167; denna f&#246;rordning. F&#246;rordning (2010:1328).
+
+28 &#167; En ans&#246;kan om dispens enligt 14 &#167; andra stycket lagen
+(1984:3) om k&#228;rnteknisk verksamhet ska vara skriftlig och ges
+in till Str&#229;ls&#228;kerhetsmyndigheten.
+
+Om ans&#246;kan avser en fr&#229;ga om dispens som regeringen ska pr&#246;va,
+ska Str&#229;ls&#228;kerhetsmyndigheten h&#228;mta in de yttranden som beh&#246;vs
+och med ett eget yttrande &#246;verl&#228;mna handlingarna i &#228;rendet till
+regeringen. F&#246;rordning (2011:315).
+
+29 &#167; Beslut om tillst&#229;nd enligt 16 &#167; andra stycket f&#229;r
+&#246;verklagas av en s&#229;dan ideell f&#246;rening eller annan juridisk
+person som avses i 16 kap. 13 &#167; milj&#246;balken.
+F&#246;rordning (2010:967).
+
+
+Bilagan har upph&#228;vts genom f&#246;rordning (1995:153).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2017:968
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2018.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r handl&#228;ggningen 
+av &#228;renden som har inletts f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3789">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3791">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

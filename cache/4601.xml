@@ -1,0 +1,612 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="1994-01-19" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4601</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4600">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4602">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1873:26 ·
+                    <a href="/sfsr?bet=1873:26">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Kongl. Maj:ts n&#229;diga Stadga (1873:26) om avvittring i 
+V&#228;sterbottens och Norrbottens l&#228;ns lappmarker
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L1
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1873-05-30
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Stadga om avvittring i V&#228;sterbottens och Norrbottens l&#228;ns lappmarker.
+
+1 &#167; Genom allm&#228;n avvittring skola fr&#229;n Kronans marker n&#246;diga omr&#229;den
+tilldelas s&#229; v&#228;l de i lappmarken f&#246;rut varande, icke beh&#246;rigen
+avvittrade hemman och nybyggen, som ock de nybyggen, vilka kunna vid
+avvittringen i laga ordning tillkomma.
+
+Tillika best&#228;mmes r&#228;nta och mantal f&#246;r provisionelt skattlagda hemman
+och f&#246;rut beh&#246;rigen uppl&#229;tna nybyggen och dylika jordl&#228;genheter, evad de
+&#228;ro st&#246;rre eller mindre, samt f&#246;r nybyggen, som vid avvittringen
+tillkomma.
+
+Vid avvittringen skall ock en gr&#228;ns best&#228;mmas emellan de delar av
+lappmarken, som &#228;ro tj&#228;nliga f&#246;r odling, och den mark, d&#228;r
+nybyggesanl&#228;ggningar icke vidare m&#229; till&#229;tas.
+
+2 &#167; I fr&#229;ga om anl&#228;ggande av nybyggen, skattl&#228;ggning, befrielse fr&#229;n
+skatt och r&#228;nta under vissa &#229;r, kronoparkers bildande, utbrytning av
+skogsmark &#229;t s&#229;gverk i ers&#228;ttning f&#246;r &#229;tnjuten stockf&#229;ngst, s&#229; ock om
+avvittrings-lantm&#228;tares och avvittrings-styresm&#228;ns tills&#228;ttning och
+entledigande samt avl&#246;ning, &#228;vensom V&#229;re Befallningshavandes och
+Lantm&#228;teristyrelsens tillsyn &#246;ver avvittringsverket, skall, j&#228;mte vad i
+denna stadga ang&#229;ende n&#229;gra av dessa &#228;mnen f&#246;rekommer, g&#228;lla vad
+s&#228;rskilt &#228;r eller varder f&#246;rordnat.
+
+3 &#167; Avvittringslantm&#228;tare och styresm&#228;n skola noggrannt och flitigt
+fullg&#246;ra sina &#229;ligganden enligt denna stadga, &#228;vensom st&#228;lla sig till
+efterr&#228;ttelse &#246;vriga p&#229; dem till&#228;mpliga allm&#228;nna f&#246;rfattningar och de
+s&#228;rskilda f&#246;reskrifter, vilka dem av deras f&#246;rm&#228;n meddelas. Ej m&#229; de
+syssels&#228;ttas med lantm&#228;terif&#246;rr&#228;ttningar f&#246;r enskilde.
+
+Styresman b&#246;r, s&#229;vitt ske kan, uppeh&#229;lla sig inom avvittringslaget under
+den tid, avvittringsarbeten d&#228;r f&#246;rehavas.
+
+4 &#167; Avvittringen skall socknevis f&#246;retagas, men m&#229; f&#246;r st&#246;rre eller
+mindre del av en sockens omr&#229;de s&#228;rskilt pr&#246;vas, d&#228;r s&#229;dant l&#228;mpligen
+och utan f&#246;rn&#228;rmande av n&#229;gons r&#228;tt kan &#228;ga rum.
+
+5 &#167; Varder, sedan allm&#228;n avvittring i en socken blivit b&#246;rjad, fr&#229;ga
+v&#228;ckt om bildande av kronopark eller om utbrytning av mark &#229;t s&#229;gverk i
+ers&#228;ttning f&#246;r privilegierad stockf&#229;ngst; eller har s&#229;dan fr&#229;ga blivit
+vid s&#228;rskild avvittring behandlad, men, n&#228;r allm&#228;n avvittring f&#246;retages,
+&#228;nnu icke slutligen pr&#246;vad; d&#229; skall fr&#229;gan vid den allm&#228;nna
+avvittringen f&#246;retagas och, s&#229; fort ske kan, pr&#246;vas.
+
+6 &#167; Ans&#246;kning om tillst&#229;nd till nybygges anl&#228;ggande m&#229; ej behandlas i
+sammanhang med avvittringen, d&#228;r ej s&#229;dan ans&#246;kning till V&#229;r
+Befallningshavande inkommit f&#246;re den 1 Mars det &#229;r, d&#229;, enligt planen
+f&#246;r avvittringsarbetet, skattl&#228;ggningsberedning, varom i &#167; 16 s&#228;gs,
+kommer att f&#246;retagas &#229; den trakt, som &#228;r i fr&#229;ga f&#246;r nybyggets
+anl&#228;ggande, eller ock V&#229;r Befallningshavande finner, att ans&#246;kning, som
+senare inkommit, &#228;nd&#229; kan, utan hinder f&#246;r avvittringen, i sammanhang
+d&#228;rmed behandlas.
+
+Efter den allm&#228;nna avvittringens fullbordande m&#229; nybyggen p&#229; odisponerad
+mark inom de till odling tj&#228;nliga delarna av landet &#229;t hugade s&#246;kande
+uppl&#229;tas och genom s&#228;rkilda avvittrings&#229;tg&#228;rder utbrytas.
+
+7 &#167; Kronan och andra virkes&#228;gare f&#246;rbeh&#229;lles r&#228;tt till flottning i alla
+de vattendrag, d&#228;r flottled finnes eller kan upprensas; och skall f&#246;r
+allm&#228;nt begagnande undantagas mark, som kan erfordras till upplagsplats
+f&#246;r virke fr&#229;n kronans skogar, s&#229; ock till n&#246;diga utfartsv&#228;gar fr&#229;n
+dessa skogar ned till vattendragen.
+
+D&#228;rj&#228;mte f&#246;rbeh&#229;lles kronan r&#228;tt till de p&#229; kronomarker och inom
+kronohemmans och bost&#228;llens omr&#229;den befintliga st&#246;rre str&#246;mfall, som
+till farleders &#246;ppnande, sj&#246;ars uttappning, ovanf&#246;re bel&#228;gna &#228;gors
+befrielse fr&#229;n &#246;versv&#228;mningar, med mera dylikt kunna anv&#228;ndas; och b&#246;r
+av kringliggande mark n&#246;digt utm&#229;l d&#228;rtill avs&#228;ttas.
+
+8 &#167; Hemman och nybyggen skola, s&#229;vitt tillg&#229;ng finnes, erh&#229;lla skog ej
+blott till husbehov utan ock till avsalu; dock att &#228;gare av fr&#228;lse- och
+skatte-hemman och l&#228;genheter ej m&#229; &#246;ver den vid avvittring tilldelade
+skogen &#228;ga vidstr&#228;cktare dispositionsr&#228;tt, &#228;n enligt &#167; 1 av n&#229;diga
+f&#246;rordningen den 29 Juni 1866, ang&#229;ende dispositionsr&#228;tten &#246;ver skogen &#229;
+vissa skattehemman, &#228;r &#228;gare av d&#228;ri omf&#246;rm&#228;lda hemman f&#246;runnad; och
+skola, &#228;ven efter avvittringen, Lapparne vara, s&#229;som hittills,
+ber&#228;ttigade att f&#246;r renhjordarna begagna bete &#229; all skogsmark inom
+lappmarkernas nuvarande omr&#229;de, dock &#229; enskildes skogar inom de till
+odling tj&#228;nliga delarna av landet endast vintertiden, &#228;vensom &#228;ga att, i
+den m&#229;n f&#246;r betesr&#228;ttens ut&#246;vande &#228;r n&#246;digt, till hush&#229;llsbehov begagna
+skogen.
+
+Renbetesland, som kunna finnas inom den blivande gr&#228;nsen f&#246;r de till
+odling tj&#228;nliga delarna av lappmarken, m&#229;, s&#229;vitt f&#246;r Lapparnes behov av
+renbete erfordras, fortfarande d&#228;rtill anv&#228;ndas.
+
+9 &#167; Vid sammantr&#228;den med del&#228;gare &#228;vensom vid markens besiktning och
+uppskattning samt vid r&#246;rl&#228;ggning skall lantm&#228;taren vara bitr&#228;dd av tv&#229;
+gode m&#228;n, utsedde i den ordning, g&#228;llande stadga om skiftesverket i
+riket best&#228;mmer; skolande j&#228;mv&#228;l i &#246;vrigt vid avvittringen
+skiftesstadgans f&#246;reskrifter ang&#229;ende lantm&#228;teri-
+f&#246;rr&#228;ttningar i allm&#228;nhet tj&#228;na till efterr&#228;ttelse, s&#229; vitt ej
+annorlunda &#228;r f&#246;rordnat.
+
+10 &#167; Vederb&#246;rande skogstj&#228;nsteman skall s&#229;som kronoombud vid
+avvittringen f&#246;ra talan i fr&#229;ga om avs&#228;ttande av mark till kronopark, om
+utbrytning av skogsmark &#229;t s&#229;gverk i ers&#228;ttning f&#246;r &#229;tnjuten stockf&#229;ngst
+och om skogsanslag f&#246;r hemman ocn nybyggen.
+			    V&#229;r Befallningshavande &#228;ger f&#246;rordna ombud
+att f&#246;ra kronans talan vid &#228;gobesiktning och skattl&#228;ggning samt i andra
+vid avvittringen f&#246;rekommande, i n&#228;st f&#246;reg&#229;ende mom. ej n&#228;mnda fr&#229;gor,
+som r&#246;ra det allm&#228;nnas r&#228;tt.
+
+Om allm&#228;nna ombuds tillf&#246;rordnande f&#246;r civila och ecklesiastika
+bost&#228;llen g&#246;re f&#246;rr&#228;ttningsmannen anm&#228;lan hos V&#229;r Befallningshavande i
+god tid f&#246;re sammantr&#228;de, d&#229; fr&#229;ga skall f&#246;rekomma, som r&#246;rer s&#229;dant
+bost&#228;lles r&#228;tt.
+
+11 &#167; Kostnaden till lantm&#228;tare och gode m&#228;n samt allm&#228;nna ombud och
+tolkar &#228;vensom till all erforderlig hantlangning vid f&#246;rr&#228;ttningen skall
+av allm&#228;nna medel bestridas.
+
+Husrum, ljus och ved under den tid, avvittringsarbeten &#229; f&#228;ltet p&#229;g&#229;,
+skall, p&#229; lantm&#228;tarens tills&#228;gelse, l&#228;mnas av del&#228;garna mot ers&#228;ttning,
+som, i brist av &#229;s&#228;mjande, best&#228;mmes av V&#229;r Befallningshavande.
+
+12 &#167; Till sammantr&#228;den med del&#228;gare skall dag uts&#228;ttas och
+tillk&#228;nnagivas, p&#229; s&#228;tt g&#228;llande skiftesstadga f&#246;reskriver; dock att
+kung&#246;relse om f&#246;rsta allm&#228;nna sammantr&#228;det uppl&#228;ses i socknens och
+angr&#228;nsande socknars kyrkor &#229; tv&#229; s&#246;ndagar, f&#246;rsta g&#229;ngen minst en m&#229;nad
+f&#246;re sammantr&#228;det, &#228;vensom, d&#228;r Lapparnes r&#228;tt &#228;r av avvittringen
+beroende, underr&#228;ttelse om f&#246;rsta sammantr&#228;det f&#246;r &#229;ret meddelas dem
+genom kung&#246;relse, som uppl&#228;ses i kyrkan &#229; tv&#229; s&#246;ndagar, f&#246;rsta g&#229;ngen
+f&#246;re slutet av Mars m&#229;nad.
+
+F&#246;rsta allm&#228;nna sammantr&#228;det skall h&#229;llas av avvittringtsstyresmannen;
+och skall d&#228;rvid fr&#229;gan om r&#229;g&#229;ngarna mot angr&#228;nsande socknar f&#246;retagas
+till behandling. Tillika &#229;ligger styresmannen att, med ledning av dels i
+lantm&#228;terikontoret befintliga eller eljest f&#246;r honom tillg&#228;ngliga kartor
+och beskrivningar, dels jordeb&#246;cker och mantalsl&#228;ngder samt andra om
+&#228;gande- och besittningsr&#228;tt &#228;vensom verkst&#228;llda skattl&#228;ggningar
+upplysande handlingar, vilka finnas i landskontoret och d&#228;rifr&#229;n skola
+styresmannen, s&#229; vida de ej kunna utl&#229;nas, utan l&#246;sen i bestyrkta
+avskrifter eller utdrag tillst&#228;llas, samt dels enskilde del&#228;gares
+&#229;tkomsthandlingar, j&#228;mte muntliga upplysningar av de vid sammantr&#228;det
+n&#228;rvarande, s&#246;ka utr&#246;na, vilka hemman, nybyggen och l&#228;genheter av alla
+slag i socknen finnas, deras natur samt av vem och med vilken r&#228;tt de
+innehavas, och om de m&#246;jligen redan underg&#229;tt slutlig skattl&#228;ggning
+eller avvittring, med mera dylikt; om vilket allt noggranna anteckningar
+skola i protokollet g&#246;ras.
+
+Yrkar n&#229;gon, att verkst&#228;lld skattl&#228;ggning eller avvittring m&#229; &#228;ga
+best&#229;nd och f&#246;rty viss del av socknens omr&#229;de fr&#229;n den allm&#228;nna
+avvittringen undantagas; d&#229; b&#246;r fr&#229;gan av styresmannen j&#228;mte eget och
+gode m&#228;nnens utl&#229;tande till V&#229;r Befallningshavandes pr&#246;vning &#246;verl&#228;mnas.
+
+14 &#167; Vid avvittring inom Norrbottens l&#228;ns lappmarker skola de kartor,
+som f&#246;r l&#228;nets ekonomiskt-geografiska kartverk efter m&#228;tning i skalan
+1:20,000 uppr&#228;ttas, tj&#228;na till ledning s&#229;, att ny m&#228;tning ej m&#229; &#228;ga rum
+vidare, &#228;n oundg&#228;ngligen erfordras.
+			
+Inom lappmarkerna i V&#228;sterbottens l&#228;n skola de f&#246;r avvittringen n&#246;diga
+m&#228;tningar verkst&#228;llas i skalan 1:16,000, d&#228;r ej s&#228;rskilda omst&#228;ndigheter
+p&#229;kalla m&#228;tning i annan skala.
+
+V&#229;re Befallningshavande &#228;ga, efter vederb&#246;rande avvittringsstyresmans
+h&#246;rande, pr&#246;va f&#246;rekommande fr&#229;gor om &#228;ldre kartors anv&#228;ndande f&#246;r
+avvittring och i vad m&#229;n ny m&#228;tning b&#246;r ske samt meddela n&#228;rmare
+f&#246;reskrifter ang&#229;ende skala och m&#228;tningss&#228;tt.
+
+15 &#167; I sammanhang med m&#228;tningen skall lantm&#228;taren uppr&#228;tta
+&#228;gobeskrivning, som visar &#228;gornas nummer &#229; kartan, &#228;goslag och areal;
+b&#246;rande s&#228;rskilt upptagas vad som &#228;r att h&#228;nf&#246;ra till impediment, varmed
+f&#246;rst&#229;s sj&#246;ar, vattendrag samt s&#229;dana berg, sandhedar och stenbunden
+mark, var&#229; duglig skog varken finnes eller kan v&#228;xa, eller bete finnes
+eller kan erh&#229;llas, samt kala och odugliga eller med dv&#228;rgtr&#228;d bevuxna
+mossar och k&#228;rr, som hava sten till grund eller sakna avfall och s&#229;ledes
+&#228;ro till odling otj&#228;nliga; dock att sm&#228;rre impediment &#229; skogsmarken m&#229;
+h&#228;rvid utel&#228;mnas.
+
+16 &#167; Lantm&#228;tare, som utses att uppr&#228;tta f&#246;rslag till skattl&#228;ggning och
+omr&#229;destilldelning, skall med bitr&#228;de av gode m&#228;n verkst&#228;lla
+&#228;gobesiktning och d&#228;rvid uppskatta in&#228;gorna efter deras avkastning, p&#229;
+s&#228;tt i g&#228;llande skattl&#228;ggningsmetod &#228;r f&#246;reskrivet, &#228;vensom tillse, att
+under impediment ej inbegripes duglig mark, som kan komma i fr&#229;ga att
+anv&#228;ndas till skogsanslag &#229;t hemman och nybyggen, s&#229; ock pr&#246;va
+anm&#228;rkningar, som kunna av del&#228;gare g&#246;ras d&#228;rom, att oduglig mark blivit
+upptagen s&#229;som duglig.
+			
+Ej m&#229; vid avvittringen taxering eller gradering ske &#229; skogsmark f&#246;r
+omr&#229;destilldelning &#229;t hemman och nybyggen; dock att avdrag f&#246;r sm&#228;rre
+impediment, som ej s&#228;rskilt upptagas, m&#229;, s&#229;vitt n&#246;digt &#228;r, av
+lantm&#228;tare med gode m&#228;n best&#228;mmas till h&#246;gst en fj&#228;rdedel av vidden utav
+&#228;gofigur, var&#229; s&#229;dant avdrag i fr&#229;ga kommer.
+
+17 &#167; Lantm&#228;tare, som f&#246;rr&#228;ttar &#228;gobesiktning, &#229;ligger att uppr&#228;tta en
+handling, innefattande h&#228;vdef&#246;rteckning och taxeringsl&#228;ngd. D&#228;ri skall
+upptagas icke allenast vilka &#228;gor varje del&#228;gare innehar och, f&#246;r
+in&#228;gorna, deras naturliga beskaffenhet och vid uppskattning ber&#228;knade
+avkastning, utan &#228;ven av skogsmarken de &#228;gostycken, i avseende &#229; vilka
+lantm&#228;taren med gode m&#228;nnen antingen funnit &#228;ndring b&#246;ra ske, i vad
+&#228;gobeskrivningen inneh&#229;ller ang&#229;ende urskiljande av impediment fr&#229;n
+duglig mark, eller ock ansett avdrag b&#246;ra &#228;ga rum f&#246;r s&#229;dana impediment,
+som ej &#229; kartan utm&#228;rkas och i beskrivningen s&#228;rskilt upptagas.
+			
+H&#228;vdef&#246;rteckning skall f&#246;r del&#228;garne uppl&#228;sas och d&#228;r&#229; tagas deras
+erk&#228;nnande, att uppteckningen av innehavet &#228;r riktig.
+
+18 &#167; Skogsanslag, varom i &#167; 8 &#228;r sagt, m&#229;, med h&#228;nsyn till skogens och
+betets b&#228;ttre eller s&#228;mre beskaffenhet samt markens olika v&#228;xtlighet,
+best&#228;mmas efter ber&#228;kning av 5,000 eller d&#228;rut&#246;ver till h&#246;gst 20,000
+kvadratrev skogsmark f&#246;r helt mantal och i f&#246;rh&#229;llande d&#228;refter f&#246;r
+st&#246;rre eller mindre hemmantal. D&#228;ri inber&#228;knas ej s&#229;dan mark, som, efter
+vad ovan &#228;r sagt, b&#246;r h&#228;nf&#246;ras till impediment.
+
+19 &#167; Vid omr&#229;des tilldelning skall i akt tagas:
+
+1:o att gemensamt omr&#229;de tilldelas hemman och nybyggen, som h&#246;ra till en
+by eller eljest hava s&#229;dant l&#228;ge, att de synas l&#228;mpligen kunna utg&#246;ra
+ett skifteslag;
+
+2:o att varje omr&#229;de l&#228;gges i ett skifte, innefattande b&#229;de skogsmark
+och in&#228;gor, eller, d&#228;r s&#229;dant, utan verklig skada f&#246;r n&#229;gon del&#228;gare, ej
+kan &#228;ga rum, i s&#229; f&#229; skiften, omst&#228;ndigheterna medgiva; men skulle flera
+skiften &#228;n fyra anses erforderliga, underst&#228;lles fr&#229;gan V&#229;r
+Befallningshavande, som &#228;ger att d&#228;rom f&#246;rordna;
+
+3:o att varje del&#228;gare bibeh&#229;lles vid sina in&#228;gor, s&#229; vitt de falla inom
+skogsomr&#229;det;
+
+4:o att f&#246;r beredande av s&#229; l&#228;mpligt skifte, bel&#228;genheten medgiver,
+del&#228;gare &#228;r pliktig att med sina in&#228;gor, i den m&#229;n de ej skulle falla
+inom det blivande skogsomr&#229;det, ing&#229; i &#228;goutbyte med annan del&#228;gare
+eller med kronan, evad det &#229; n&#229;gondera sidan yrkas eller ej; samt
+
+5:o att mark, som, utan att vara odlad, innehaves av hemmans &#228;gare eller
+&#229;bo eller av nybyggare, m&#229;, s&#229;vitt den ej f&#246;r hemmanets eller nybyggets
+best&#229;nd erfordras, kunna, f&#246;r beredande av l&#228;mpligt skifte, innehavaren
+fr&#229;nh&#228;ndas utan vederlag; men &#228;r marken odlad och till hemmanet eller
+nybygget i beh&#246;rig ordning uppl&#229;ten eller av &#229;lder lydande, m&#229; den ej
+innehavaren fr&#229;nh&#228;ndas utan emot vederlag av annan mark, som &#228;r odlad
+eller till odling tj&#228;nlig.
+
+20 &#167; &#196;goutbyten inom avvittringslaget verkst&#228;llas efter m&#229;ttet av
+h&#246;avkastningen, ber&#228;knad enligt skattl&#228;ggningsmetoden, eller ock, d&#228;r
+med h&#228;nsyn till markens v&#228;rde st&#246;rre noggrannhet finnes n&#246;dig, efter
+gradering, verkst&#228;lld enligt f&#246;reskrifterna i g&#228;llande skiftesstadga.
+
+D&#229; &#228;goutbyte anses b&#246;ra ske, uppr&#228;tte lantm&#228;taren d&#228;r&#246;ver s&#228;rskild
+beskrivning.
+
+Fr&#229;ga om &#228;goutbyte inom avvittringslaget skall, d&#229; f&#246;rening ej kan
+tr&#228;ffas, av V&#229;r Befallningshavande pr&#246;vas i sammanhang med
+omr&#229;destilldelningen.
+
+21 &#167; Del&#228;gare, som genom avvittring mister odlad mark, b&#246;r tilldelas
+odlingsers&#228;ttning, p&#229; s&#228;tt i skiftesstadgan &#228;r om s&#229;dan ers&#228;ttning
+f&#246;reskrivet; dock att, d&#228;r den odlade marken tillfaller antingen enskild
+del&#228;gare, som ej f&#246;rm&#229;r utgiva odlingsers&#228;ttning, eller ock kronan,
+f&#246;rre innehavaren m&#229; i st&#228;llet fortfarande nyttja marken under h&#246;gst fem
+&#229;r, efter det han tilltr&#228;tt sin nya &#228;golott.
+
+22 &#167; Alla vid avvittringen uppkommande r&#229;tvister eller s&#229;dana
+stridigheter, som p&#229; &#228;gander&#228;tten hava inflytande och hindra
+f&#246;rr&#228;ttningens fortg&#229;ng, samt icke kunna genom f&#246;rr&#228;ttningsmannens
+bemedling i godo bil&#228;ggas, skola upptagas och avg&#246;ras av
+&#196;goskillnadsr&#228;tt.
+			
+N&#228;r tvist eller stridighet av n&#228;mnda beskaffenhet fordrar lagligt
+avg&#246;rande, skall f&#246;rr&#228;ttningsmannen d&#228;rom g&#246;ra anm&#228;lan hos
+&#228;goskillnadsr&#228;ttens ordf&#246;rande inom trettio dagar fr&#229;n det sammantr&#228;de,
+d&#228;r fr&#229;gan senast f&#246;revarit, och tillika ins&#228;nda till &#228;rendet h&#246;rande
+protokoll.
+
+23 &#167; &#196;goskillnadsr&#228;tt best&#229;r av domaren i orten eller den hans tj&#228;nst
+bestrider, s&#229;som ordf&#246;rande, j&#228;mte tv&#229; ledam&#246;ter.
+
+Ang&#229;ende val av ledam&#246;ter i R&#228;tten och om r&#228;tteg&#229;ngen och kostnaderna
+d&#228;rf&#246;r, s&#229; ock om s&#246;kande av &#228;ndring i R&#228;ttens beslut, g&#228;lle vad d&#228;rom
+f&#246;r &#196;godelningsr&#228;tt &#228;r stadgat.
+
+N&#228;r de f&#246;r avvittring n&#246;diga beredelser f&#246;reg&#229;tt, skall lantm&#228;taren f&#246;r
+det honom anvisade arbetsdistrikt, efter samr&#229;d med
+avvittringsstyresmannen, f&#246;rslag till skattl&#228;ggning och
+omr&#229;destilldelning uppr&#228;tta samt f&#246;reslagen skiftesl&#228;ggning &#229; kartan
+utm&#228;rka och f&#246;r vederb&#246;rande del&#228;gare och allm&#228;nna ombud vid sammantr&#228;de
+f&#246;redraga; och skall styresmannen vid det sammantr&#228;de vara tillst&#228;des,
+d&#228;r ej laga hinder m&#246;ter.
+			
+&#214;ver anm&#228;rkningar, som vid sammantr&#228;det g&#246;ras, avgive lantm&#228;tare och
+gode m&#228;n sitt utl&#229;tande; b&#246;rande f&#246;rslag j&#228;mte karta,
+sammantr&#228;desprotokoll och &#246;vriga till &#228;rendet h&#246;rande handlingar
+of&#246;rdr&#246;jligen till avvittringsstyresmannen &#246;verl&#228;mnas.
+
+25 &#167; Styresmannen &#229;ligger att, allt efter som avvittringsf&#246;rslag till
+honom inkomma, desamma granska och d&#228;rvid tillse, huruvida avvittring m&#229;
+kunna, s&#229;som i &#167; 4 s&#228;gs, f&#246;r st&#246;rre eller mindre del av en sockens
+omr&#229;de s&#228;rskilt pr&#246;vas, &#228;vensom att, n&#228;r inom socknens hela omr&#229;de eller
+s&#229;dan del d&#228;rav, som nyss &#228;r n&#228;mnd, laga hinder ej m&#246;ter f&#246;r
+avvittringens pr&#246;vning, d&#228;r&#246;ver till V&#229;r Befallningshavande avgiva
+utl&#229;tande.
+
+26 &#167; Sedan styresmannens i n&#228;st f&#246;reg&#229;ende &#167; omn&#228;mnda utl&#229;tande med
+kartor och handlingar till V&#229;r Befallningshavande inkommit, b&#246;r V&#229;r
+Befallningshavande, d&#228;r avvittringen finnes kunna f&#246;r det av
+styresmannen f&#246;reslagna avvittringsomr&#229;de s&#228;rskilt pr&#246;vas, meddela
+avvittringsutslag, som tillst&#228;lles parterne, med f&#246;rel&#228;ggande f&#246;r
+vederb&#246;rande skogstj&#228;nsteman eller annan, som bevakat kronans r&#228;tt, att,
+inom fyrtiofem dagar efter erh&#229;llen del av utslaget, detsamma till V&#229;r
+Befallningshavande &#229;terst&#228;lla och d&#228;rvid avl&#228;mna en till Advokatfiskalen
+i V&#229;rt och Rikets Kammarkollegium st&#228;lld skrift, innefattande vad
+ombudet, i anledning av samma utslag, kan hava att upplysa och anm&#228;rka.
+D&#228;refter skall V&#229;r Befallningshavande of&#246;rdr&#246;jligen emot bevis &#246;verl&#228;mna
+ombudets skrift till bem&#228;lde Advokatfiskal, vilken det tillkommer att
+kronans talan emot utslaget i fall av befogenhet fullf&#246;lja. Den med
+utslaget missn&#246;jde m&#229; sist f&#246;re klockan tolv &#229; sextionde dagen efter
+delf&#229;endet, vilken tid, vad kronans r&#228;tt ang&#229;r, skall r&#228;knas fr&#229;n det
+utslaget j&#228;mte ombudets skrift kommit Advokatfiskalen till handa, vid
+talans f&#246;rlust, varom uti utslaget tydlig f&#246;reskrift inf&#246;ras b&#246;r, sina
+till Oss st&#228;llda underd&#229;niga besv&#228;r till v&#229;r Befallningshavande ingiva.
+V&#229;r Befallningshavande infordrar d&#228;r&#246;ver vederb&#246;randes underd&#229;ninga
+f&#246;rklaring inom viss, den enskilde parten vid Tjugufem riksdaler
+riksmynt vite f&#246;relagd tid, och ins&#228;nder besv&#228;ren, j&#228;mte de f&#246;r pr&#246;vning
+d&#228;rav erforderliga kartor och handlingar samt eget underd&#229;nigt
+utl&#229;tande, till V&#229;rt Civildepartement.
+
+Senast &#229; den tid, d&#229; utslaget avs&#228;ndes f&#246;r att tillst&#228;llas
+skogstj&#228;nsteman eller annat kronans ombud, skall V&#229;r Befallningshavande
+ins&#228;nda till Lantm&#228;teristyrelsen och till Skogsstyrelsen transsumt av
+utslaget, utvisande beloppet av skogsanslag f&#246;r helt mantal samt, f&#246;r
+varje vid avvittringen utbrutet omr&#229;de, beloppet av in&#228;gor, av duglig
+skogsmark och av impediment, s&#229; ock vilken mark blivit avsatt till
+kronopark eller utbruten &#229;t s&#229;gverk i ers&#228;ttning f&#246;r &#229;tnjuten
+stockf&#229;ngst. Har Lantm&#228;teristyrelsen eller Skogsstyrelsen, efter
+verkst&#228;lld granskning, funnit sk&#228;l till anm&#228;rkning emot utslaget
+f&#246;rekomma, b&#246;r Advokatfiskalen i Kammarkollegium tidigt f&#246;re
+besv&#228;rstidens utg&#229;ng givas del av s&#229;dan anm&#228;rkning.
+
+27 &#167; N&#228;r V&#229;r Befallningshavandes utslag vunnit laga kraft eller, i
+h&#228;ndelse av besv&#228;r, blivit av Oss slutligen pr&#246;vat, b&#246;r V&#229;r
+Befallningshavande teckna bevis d&#228;rom &#229; kartan och bes&#246;rja, att
+Kammarkollegium erh&#229;ller k&#228;nnedom om beslutet f&#246;r beh&#246;rig anteckning i
+jordeboken, och att detsamma meddelas avvittringsstyresmannen, som d&#228;rav
+giver vederb&#246;rande lantm&#228;tare del, s&#229; vitt n&#246;digt &#228;r f&#246;r verkst&#228;llande
+av utstakning och r&#246;rl&#228;ggning.
+
+28 &#167; Till utstaknings f&#246;retagande skola vederb&#246;rande del&#228;gare och
+allm&#228;nna ombud kallas genom kung&#246;relse, som minst fjorton dagar f&#246;rut i
+kyrkan uppl&#228;ses.
+			
+S&#229; snart utstakning blivit verkst&#228;lld, sker tilltr&#228;de av de nya
+&#228;golotterna; dock att var sin v&#228;xande gr&#246;da sj&#228;lv bergar, d&#228;r ej
+annorledes &#229;s&#228;mjes.
+
+29 &#167; Inom ett &#229;r efter verkst&#228;lld utstakning skall renoverad karta med
+beskrivning &#246;ver varje vid avvittring utbrutet omr&#229;de, kartan f&#246;rsedd
+med bestyrkt avskrift av V&#229;r Befallningshavandes bevis, att avvittringen
+vunnit laga kraft, vederb&#246;rande del&#228;gare utan l&#246;sen bevisligen
+tillst&#228;llas. &#196;ro inom omr&#229;det flera del&#228;gare, l&#228;mnas kartan i f&#246;rvar hos
+den, som de fleste del&#228;garne d&#228;rtill utse.
+
+30 &#167; Den med omr&#229;des utstakning missn&#246;jde m&#229;, vid talans f&#246;rlust, inom
+ett &#229;r efter det karta med beskrivning, p&#229; s&#228;tt i n&#228;st f&#246;reg&#229;ende &#167; &#228;r
+sagt, blivit vederb&#246;rande tillst&#228;lld, klander emot utstakningen hos V&#229;r
+Befallningshavande anm&#228;la. P&#229; s&#229;dan klandertalan &#228;ge, sedan
+avvittringsstyresmannen och &#246;vrige vederb&#246;rande blivit h&#246;rda och, d&#228;r s&#229;
+n&#246;digt pr&#246;vas, unders&#246;kning &#229; st&#228;llet &#228;gt rum, vartill kostnaden skall
+av klaganden f&#246;rskjutas, V&#229;r Befallningshavande meddela utslag, d&#228;r&#246;ver
+klagan m&#229; f&#246;ras i den ordning, som f&#246;r avvittringsutslags &#246;verklagande
+&#228;r f&#246;reskriven.
+
+31 &#167; Vad denna stadga ang&#229;ende allm&#228;n avvittring inneh&#229;ller, g&#228;lle i
+till&#228;mpliga delar &#228;ven f&#246;r s&#229;dan s&#228;rskild avvittrings&#229;tg&#228;rd, som i
+senare stycket av &#167; 6 omf&#246;rm&#228;les; dock att, i fall den &#228;skade &#229;tg&#228;rden
+pr&#246;vas ej kunna lagligen &#228;ga rum, s&#246;kanden &#229;ligger att g&#228;lda den
+kostnad, som av ans&#246;kningen f&#246;ranledes.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4600">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4602">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

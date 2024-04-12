@@ -1,0 +1,663 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="1999-11-30" /> 
+ <meta id="rattsinfo-edited" content="2013-08-22" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2767</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2766">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2768">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1999:892 ·
+                    <a href="/sfsr?bet=1999:892">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1999:892) om dubbelbeskattningsavtal mellan Sverige och Oman betr&#228;ffande inkomst som h&#228;rr&#246;r fr&#229;n internationell flygtransport</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1999-10-28
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2006:13
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2006-03-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 &#167; Det avtal f&#246;r undvikande av dubbelbeskattning p&#229; inkomst
+som h&#228;rr&#246;r fr&#229;n internationell flygtransport som Sverige och
+Oman undertecknade den 8 juli 1998 skall g&#228;lla som lag h&#228;r i
+landet. Avtalet &#228;r avfattat p&#229; svenska, arabiska och engelska.
+Den svenska och engelska texten framg&#229;r av bilaga till denna
+lag.
+
+2 &#167; Avtalets beskattningsregler skall till&#228;mpas endast om dessa
+medf&#246;r inskr&#228;nkning av den skattskyldighet i Sverige som annars
+skulle f&#246;religga.
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1999:892
+
+Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer och
+till&#228;mpas p&#229; inkomst som f&#246;rv&#228;rvas fr&#229;n och med den 1 januari
+1995.
+
+Bilaga
+
+AVTAL MELLAN
+KONUNGARIKET SVERIGES
+REGERING OCH
+SULTANATET OMANS
+REGERING F&#214;R
+UNDVIKANDE AV
+DUBBELBESKATTNING P&#197;
+INKOMST SOM H&#196;RR&#214;R
+FR&#197;N INTERNATIONELL
+FLYGTRANSPORT
+
+Konungariket Sveriges regering och Sultanatet Omans regering;
+
+Som &#246;nskar ing&#229; ett avtal f&#246;r undvikande av dubbelbeskattning
+p&#229; inkomst som h&#228;rr&#246;r fr&#229;n internationell flygtransport;
+
+Har kommit &#246;verens om f&#246;ljande:
+
+Artikel 1
+
+Skatter som omfattas av avtalet
+
+1. De skatter p&#229; vilka avtalet till&#228;mpas &#228;r:
+
+a) I Konungariket Sverige:
+
+1)      den statliga inkomstskatten,
+
+2)      den kommunala inkomstskatten,
+
+	(i det f&#246;ljande ben&#228;mnda &quot;svensk skatt&quot;),
+
+b) I Sultanatet Oman:
+
+1)      bolagsskatten p&#229; inkomster,
+
+2)      vinstskatten p&#229; kommersiella och industriella
+	etableringar,
+
+	(i det f&#246;ljande ben&#228;mnda &quot;omansk skatt&quot;).
+
+2. Avtalet till&#228;mpas &#228;ven p&#229; skatter av samma eller i huvudsak
+likartat slag som i endera avtalsslutande staten efter
+undertecknandet av avtalet p&#229;f&#246;rs vid sidan av eller i st&#228;llet
+f&#246;r de skatter som anges i punkt 1 i denna artikel.
+
+De beh&#246;riga myndigheterna i de avtalsslutande staterna skall
+omedelbart meddela varandra de v&#228;sentliga &#228;ndringar som
+vidtagits i respektive skattelagstiftning vilka ber&#246;r detta
+avtal.
+
+Artikel 2
+
+Definitioner
+
+1. Om inte sammanhanget f&#246;ranleder annat, har i detta avtal
+f&#246;ljande uttryck nedan angiven betydelse:
+
+a) &quot;en avtalsslutande stat&quot; och &quot;den andra avtalsslutande
+staten&quot; &#229;syftar Konungariket Sverige eller Sultanatet Oman,
+beroende p&#229; sammanhanget;
+
+b) &quot;skatt&quot; &#229;syftar svensk skatt eller omansk skatt, beroende p&#229;
+sammanhanget;
+
+c) &quot;f&#246;retag i en avtalsslutande stat&quot; &#229;syftar
+
+1)      Oman Air och Gulf Air, eller
+
+2)      Scandinavian Airlines System (SAS);
+
+ovan angivna f&#246;retag kan till antalet ut&#246;kas eller ers&#228;ttas av
+andra f&#246;retag genom utv&#228;xlande av brev eller annat motsvarande
+arrangemang mellan de b&#229;da avtalsslutande staterna;
+
+d) &quot;internationell trafik&quot; &#229;syftar transport med luftfartyg som
+anv&#228;nds av ett f&#246;retag i en avtalsslutande stat, utom d&#229;
+luftfartyget anv&#228;nds uteslutande mellan platser i den andra
+avtalsslutande staten;
+
+e) &quot;beh&#246;rig myndighet&quot; &#229;syftar:
+
+- i Konungariket Sverige, finansministern eller dennes
+befullm&#228;ktigade ombud,
+
+- i Sultanatet Oman, st&#228;llf&#246;retr&#228;dande premi&#228;rministern f&#246;r
+finansiella och ekonomiska angel&#228;genheter eller dennes
+befullm&#228;ktigade ombud.
+
+2. D&#229; en avtalsslutande stat till&#228;mpar best&#228;mmelserna i detta
+avtal anses, s&#229;vida inte sammanhanget f&#246;ranleder annat, varje
+uttryck som inte definierats i avtalet ha den betydelse som
+uttrycket har enligt den statens lagstiftning i fr&#229;ga om s&#229;dana
+skatter som &#228;r f&#246;rem&#229;l f&#246;r detta avtal.
+
+Artikel 3
+
+Undvikande av dubbelbeskattning
+
+1. Inkomst och vinst som f&#246;retag i en avtalsslutande stat
+f&#246;rv&#228;rvar genom anv&#228;ndning av luftfartyg i internationell
+trafik undantas fr&#229;n beskattning i den andra avtalsslutande
+staten.
+
+2. Best&#228;mmelserna i punkt 1 i denna artikel till&#228;mpas ocks&#229; p&#229;
+andel i inkomst och vinst som f&#246;retag i en avtalsslutande stat
+f&#246;rv&#228;rvar genom anv&#228;ndning av luftfartyg i internationell
+trafik genom deltagande i en pool, ett gemensamt f&#246;retag eller
+en internationell driftsorganisation.
+
+3. Vid till&#228;mpningen av denna artikel:
+
+a) &#229;syftar uttrycket &quot;anv&#228;ndning av luftfartyg&quot; verksamhet i
+form av flygtransport av passagerare, bagage, levande
+inventarier, varor eller post som bedrivs av f&#246;retag i en
+avtalsslutande stat och inbegriper f&#246;rs&#228;ljning av biljetter
+eller motsvarande handlingar f&#246;r s&#229;dan transport;
+
+b) r&#228;nta p&#229; medel som &#228;r direkt h&#228;nf&#246;rliga till anv&#228;ndningen av
+luftfartyg i internationell trafik anses som inkomst fr&#229;n
+anv&#228;ndning av s&#229;dant luftfartyg.
+
+4. Vinst som f&#246;retag i en avtalsslutande stat f&#246;rv&#228;rvar p&#229;
+grund av &#246;verl&#229;telse av luftfartyg, som detta f&#246;retag &#228;ger och
+anv&#228;nder i internationell trafik och vars inkomst av denna
+verksamhet beskattas endast i denna stat, samt vinst som detta
+f&#246;retag f&#246;rv&#228;rvar p&#229; grund av avyttring av reservdelar och
+annan utrustning h&#228;nf&#246;rlig till anv&#228;ndningen av s&#229;dant
+luftfartyg, skall undantas fr&#229;n beskattning i den andra
+avtalsslutande staten.
+
+Artikel 4
+
+Omf&#246;rhandling
+
+Om f&#246;retag i Konungariket Sverige p&#229;f&#246;rs skatt av s&#229;dant slag
+som anges i artikel 1, p&#229; s&#229;dan inkomst som anges i artikel 3,
+i en stat i vilken Gulf Air &#228;r det nationella
+lufttransportbolaget, skall de avtalsslutande staterna utan
+dr&#246;jsm&#229;l inleda f&#246;rhandlingar i syfte att i motsvarande m&#229;n
+justera de undantag fr&#229;n beskattning som f&#246;ljer av artikel 3 i
+detta avtal.
+
+Artikel 5
+
+F&#246;rfarandet vid &#246;msesidig &#246;verenskommelse
+
+De beh&#246;riga myndigheterna i de avtalsslutande staterna skall
+genom &#246;msesidig &#246;verenskommelse s&#246;ka avg&#246;ra sv&#229;righeter eller
+tvivelsm&#229;l som uppkommer i fr&#229;ga om tolkningen eller
+till&#228;mpningen av avtalet. De kan &#228;ven &#246;verl&#228;gga i syfte att
+undanr&#246;ja dubbelbeskattning i fall som inte omfattas av detta
+avtal.
+
+Artikel 6
+
+Ikrafttr&#228;dande
+
+De avtalsslutande staterna skall p&#229; diplomatisk v&#228;g underr&#228;tta
+varandra n&#228;r de konstitutionella &#229;tg&#228;rder som enligt respektive
+lagstift-ning kr&#228;vs f&#246;r att detta avtal skall tr&#228;da i kraft har
+vidtagits. Avtalet tr&#228;der i kraft den dag d&#229; den sista av dessa
+underr&#228;ttelser tas emot och skall d&#228;rvid till&#228;mpas p&#229; inkomst
+och vinst som f&#246;rv&#228;rvas fr&#229;n och med den f&#246;rsta januari 1995.
+
+Artikel 7
+
+Upph&#246;rande
+
+Detta avtal f&#246;rblir i kraft utan tidsbegr&#228;nsning men endera
+avtalsslutande staten kan p&#229; diplomatisk v&#228;g s&#228;ga upp avtalet
+genom underr&#228;ttelse h&#228;rom minst sex m&#229;nader f&#246;re utg&#229;ngen av
+n&#229;got kalender&#229;r som f&#246;ljer efter fem &#229;r r&#228;knat fr&#229;n den dag d&#229;
+avtalet tr&#228;der i kraft. I h&#228;ndelse av s&#229;dan upps&#228;gning upph&#246;r
+avtalet att g&#228;lla avseende r&#228;kenskaps&#229;r som b&#246;rjar den f&#246;rsta
+januari det kalender&#229;r som f&#246;ljer n&#228;rmast efter utg&#229;ngen av det
+&#229;r d&#229; upps&#228;gningen &#228;gde rum eller senare.
+
+Till bekr&#228;ftelse h&#228;rav har undertecknade, d&#228;rtill vederb&#246;rligen
+bemyndigade av respektive regering, undertecknat detta avtal.
+
+Som skedde i Muscat den 8 juli 1998,...., i tv&#229; exemplar p&#229;
+arabiska, svenska och engelska spr&#229;ken. Alla spr&#229;ken &#228;ger lika
+vitsord. F&#246;r den h&#228;ndelse att tvist uppkommer vid tolkningen
+skall den engelska texten &#228;ga f&#246;retr&#228;de.
+
+F&#246;r Konungariket
+Sveriges regering
+
+Lave Johnsson
+
+F&#246;r Sultanatet
+Omans regering
+
+Ahmed bin Abdulnabi Makki
+
+
+AGREEMENT BETWEEN THE
+GOVERNMENT OF THE
+KINGDOM OF SWEDEN AND
+THE GOVERNMENT OF THE
+SULTANATE OF OMAN FOR
+THE AVOIDANCE OF DOUBLE
+TAXATION OF INCOME
+DERIVED FROM
+INTERNATIONAL AIR
+TRANSPORT
+
+The Government of the Kingdom of Sweden and the Government of
+the Sultanate of Oman;
+
+Desiring to conclude an Agreement for the Avoidance of Double
+Taxation of Income derived from international air transport;
+
+Have agreed as follows:
+
+Article 1
+
+Taxes covered
+
+(1) The taxes which are the subject of this Agreement are:
+
+(a) In the Kingdom of Sweden:
+
+(i)     the National income tax;
+
+(ii)    the Municipal income tax;
+
+	(hereinafter referred to as&quot;Swedish tax&quot;);
+
+(b) In the Sultanate of Oman:
+
+(i)     the Company Income Tax;
+
+(ii)    the Profit Tax on Commercial and Industrial
+	establishments;
+
+	(hereinafter referred to as &quot;Omani tax&quot;).
+
+(2) This Agreement shall also apply to any identical or
+substantially similar taxes which are imposed by either
+Contracting State after the date of signature of this Agreement
+in addition to, or in place of, the taxes referred to in
+paragraph (1) of this Article.
+
+Each Contracting State shall immediately inform the other
+Contracting State of any substantial changes which have been
+made in its respective taxation laws which affect this
+Agreement.
+
+Article 2
+
+Definitions
+
+(1) In this Agreement, unless the context otherwise requires:
+
+(a) the terms &quot;a Contracting State&quot; and &quot;the other Contracting
+State&quot; mean the Kingdom of Sweden or the Sultanate of Oman as
+the context requires;
+
+(b) the term &quot;tax&quot; means Swedish tax or Omani tax as the
+context requires;
+
+(c) the term &quot;enterprise of a Contracting State&quot; means:
+
+1)      Oman Air or Gulf Air, or
+
+2)      Scandinavian Airlines System (SAS);
+
+the above mentioned enterprises may be added to or replaced by
+other enterprises through the exchange of letters or any other
+similar arrangements between the two Contracting States;
+
+(d) the term &quot;international traffic&quot; means any transport by an
+aircraft operated by an enterprise of a Contracting State
+except when the aircraft is operated solely between places in
+the other Contracting State;
+
+(e) the term &quot;competent authority&quot; means:
+
+- in the case of the Kingdom of Sweden, the Minister of Finance
+or his authorised representative,
+
+- in the case of the Sultanate of Oman, the Deputy Prime
+Minister for Financial and Economic Affairs or his authorised
+representa-tive.
+
+(2) In the application of the provisions of this Agreement by a
+Contracting State any term not otherwise defined shall, unless
+the context otherwise requires, have the meaning which it has
+under the laws of that Contracting State relating to the taxes
+which are the subject of this Agreement.
+
+Article 3
+
+Avoidance of double taxation
+
+(1) Income and profits derived from the operation of aircraft
+in international traffic by an enterprise of a Contracting
+State shall be exempt from tax in the other Contracting State.
+
+(2) The provisions of paragraph (1) of this Article shall also
+apply to the share of income and profits from the operation of
+aircraft in international traffic derived by an enterprise of a
+Contracting State through participation in a pool, a joint
+business or an international operating agency.
+
+(3) For the purposes of this Article:
+
+(a) the term &quot;operation of aircraft&quot; means transportation by
+air of passengers, baggage, livestock, goods or mail, carried
+on by an enterprise of a Contracting State, and includes the
+sale of tickets or similar documents for such transportation,
+
+(b) interest on funds directly connected with the operation of
+aircraft in international traffic shall be regarded as income
+from the operation of such aircraft.
+
+(4) Gains derived by an enterprise of a Contracting State from
+the alienation of aircraft owned and operated by the enterprise
+in international traffic, the income from which is taxable only
+in that State, and gains from the alienation of spares and
+equipment used by the enterprise in the operation of such
+aircraft shall be exempt from tax in the other Contracting
+State.
+
+Article 4
+
+Renegotiation
+
+If an enterprise of the Kingdom of Sweden is charged to tax of
+the kind referred to in Article 1, with respect to income and
+profits referred to in Article 3, in any State of which Gulf
+Air is the national carrier, the Contracting States shall open
+negotiations without delay with a view to adjusting accordingly
+the exemptions afforded by Article 3 of this Agreement.
+
+Article 5
+
+Mutual agreement procedure
+
+The competent authorities of the Contracting States shall
+endeavour to resolve by mutual agreement any difficulties or
+doubts arising as to the interpretation or application of the
+Agreement. They may also consult together for the elimination
+of double taxation in cases not provided for in this Agreement.
+
+Article 6
+
+Entry into force
+
+Each Contracting State shall notify the other through
+diplomatic channels of the completion of the relevant
+procedures required by its law to bring this Agreement into
+force. The Agreement shall enter into force on the date of the
+later of these notifications and shall thereupon have effect as
+regards income and gains arising on or after the first day of
+January, 1995.
+
+Article 7
+
+Termination
+
+This Agreement shall remain in force indefinitely but either
+Contracting State may terminate it by giving notice of
+termination through diplomatic channels, at least six months
+before the end of any calendar year after the fifth year
+following that of the entry into force. In such event this
+Agreement shall cease to be effective for any year of
+assessment commencing on or after 1 January in the calendar
+year next following that in which such notice is given.
+
+In witness whereof the undersigned, duly authorised thereto by
+their respective Governments, have signed this Agreement.
+
+Done in duplicate at Muscat this eighth day of July 1998
+AD,...., in Arabic, Swedish and English languages, all texts
+being equally authentic. In case of divergence of
+interpretation, the English text shall prevail.
+
+For the Government
+of the Kingdom of Sweden
+
+Lave Johnsson
+
+For the Government of
+the Sultanate of Oman
+
+Ahmed bin Abdulnabi Makki
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2766">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2768">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

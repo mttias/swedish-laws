@@ -1,0 +1,736 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-07-05" /> 
+ <meta id="rattsinfo-edited" content="2023-07-05 10:45:17" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>114</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=113">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=115">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2023:233 ·
+                    <a href="/sfsr?bet=2023:233">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2023:233) om elst&#246;d till f&#246;retag</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSE
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2023-05-08
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2023-05-09
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser om st&#246;d till 
+f&#246;retag f&#246;r att mildra effekterna av h&#246;ga elpriser (elst&#246;d).
+
+2 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av
+
+- 6 kap. 4 &#167; ellagen (1997:857) i fr&#229;ga om 20 &#167;, 
+
+- 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga best&#228;mmelser.
+
+3 &#167; Elst&#246;d f&#229;r endast l&#228;mnas i enlighet med Europeiska 
+kommissionens beslut den 5 maj 2023 i &#228;rende SA. 106512 
+(2023/N). 
+
+4 &#167; Elst&#246;d enligt denna f&#246;rordning l&#228;mnas som bidrag f&#246;r 2023.
+
+5 &#167; Skatteverket pr&#246;var fr&#229;gor om elst&#246;d enligt denna 
+f&#246;rordning.
+
+Ord och uttryck
+
+6 &#167; I denna f&#246;rordning avses med
+
+n&#228;ringsidkare: en fysisk person som bedriver s&#229;dan 
+n&#228;ringsverksamhet i Sverige som avses i 13 kap. 1 &#167; 
+inkomstskattelagen (1999:1229),
+
+f&#246;retag: en juridisk person eller n&#228;ringsidkare,
+
+elslutkund: ett f&#246;retag vars k&#246;p av el avser eget bruk,
+
+fastprisavtal: ett avtal som f&#246;r en f&#246;rutbest&#228;md tid 
+garanterar en elslutkund ett fast pris per kilowattimme eller 
+liknande.
+
+F&#246;retag ska anses vara i intressegemenskap om f&#246;retagen ing&#229;r 
+i en koncern av s&#229;dant slag som anges i 1 kap. 4 &#167; 
+&#229;rsredovisningslagen (1995:1554).
+
+I &#246;vrigt har ord och uttryck som anv&#228;nds i denna f&#246;rordning 
+samma betydelse som i ellagen. 
+
+Finansiering
+
+7 &#167; Elst&#246;det och den administration som kr&#228;vs f&#246;r 
+utbetalningen finansieras genom anv&#228;ndning av &#246;verint&#228;kter 
+till f&#246;ljd av int&#228;kter fr&#229;n &#246;verbelastning p&#229; det s&#228;tt som 
+avses i artikel 9 i r&#229;dets f&#246;rordning (EU) 2022/1854 av den 
+6 oktober 2022 om en krisintervention f&#246;r att komma till r&#228;tta 
+med de h&#246;ga energipriserna.
+
+F&#246;ruts&#228;ttningar f&#246;r st&#246;d
+
+8 &#167; Ett f&#246;retag som &#228;r en elslutkund har, efter ans&#246;kan, r&#228;tt 
+till elst&#246;d, om 
+
+1. f&#246;retaget hade r&#228;tt att ta ut el i en uttagspunkt enligt 
+ett avtal med ett n&#228;tf&#246;retag den 17 november 2022,
+
+2. uttagspunkten finns i n&#229;got av de tv&#229; sydligaste elomr&#229;dena 
+(elomr&#229;dena 3 och 4), 
+
+3. el togs ut f&#246;r f&#246;rbrukning i uttagspunkten n&#229;gon g&#229;ng under 
+oktober 2021-september 2022 (referensperioden), och
+
+4. uttaget av el inte ber&#228;ttigar till elst&#246;d enligt 
+f&#246;rordningen (2022:1872) om elst&#246;d till konsumenter f&#246;r 
+oktober 2021-september 2022.
+
+Ett d&#246;dsbo efter en n&#228;ringsidkare som har avlidit den 17 
+november 2022 eller senare har, efter ans&#246;kan, r&#228;tt till 
+elst&#246;d, om villkoren i f&#246;rsta stycket 1-4 &#228;r uppfyllda i fr&#229;ga 
+om den avlidne. 
+
+En n&#228;ringsidkare som upph&#246;rt att bedriva n&#228;ringsverksamhet 
+efter den 17 november 2022 har, efter ans&#246;kan, r&#228;tt till 
+elst&#246;d, om villkoren i f&#246;rsta stycket 1-4 &#228;r uppfyllda. 
+
+9 &#167; Om ett f&#246;retag som haft ett s&#229;dant avtal som avses i 8 &#167; 
+f&#246;rsta stycket 1 har uppl&#246;sts utan likvidation till f&#246;ljd av 
+fusion, &#246;verg&#229;r r&#228;tten till elst&#246;d enligt 8 &#167; till det 
+&#246;vertagande f&#246;retaget.
+
+Om ett &#246;verl&#229;tande f&#246;retag som haft ett s&#229;dant avtal som avses 
+i 8 &#167; f&#246;rsta stycket 1 har uppl&#246;sts utan likvidation till 
+f&#246;ljd av delning d&#228;r det &#246;verl&#229;tande f&#246;retagets samtliga 
+tillg&#229;ngar och skulder &#246;vertagits av tv&#229; eller flera andra 
+f&#246;retag &#246;verg&#229;r r&#228;tten till elst&#246;d enligt 8 &#167; till det eller 
+de &#246;vertagande f&#246;retag som &#246;vertagit uttagspunkten eller 
+uttagspunkterna.
+
+F&#246;rsta och andra styckena g&#228;ller endast om det &#246;vertagande 
+f&#246;retaget &#228;r ett s&#229;dant f&#246;retag som anges i 37 kap. 9 &#167; 
+inkomstskattelagen (1999:1229).
+
+10 &#167; Genom att ans&#246;ka om elst&#246;d samtycker s&#246;kanden till att 
+den information som avses i 38 och 39 &#167;&#167; offentligg&#246;rs.
+
+11 &#167; Elst&#246;d f&#229;r inte l&#228;mnas om den s&#246;kande eller n&#229;gon som ska 
+pr&#246;vas enligt andra stycket vid tidpunkten f&#246;r beslutet
+
+1. under de senaste tv&#229; &#229;ren har brutit mot villkor som har 
+meddelats enligt 9 kap. 3 &#167; skattef&#246;rfarandelagen (2011:1244) 
+eller p&#229; annat s&#228;tt missbrukat ett godk&#228;nnande f&#246;r F-skatt och 
+missbruket inte &#228;r obetydligt,
+
+2. inte har redovisat eller betalat skatter eller avgifter 
+enligt skattef&#246;rfarandelagen eller motsvarande utl&#228;ndska 
+skatter eller avgifter i en utstr&#228;ckning som inte &#228;r 
+obetydlig,
+
+3. inte har f&#246;ljt ett f&#246;rel&#228;ggande att l&#228;mna 
+inkomstdeklaration eller s&#229;dana s&#228;rskilda uppgifter som avses 
+i 33 kap. 6 &#167; skattef&#246;rfarandelagen, eller har l&#228;mnat eller 
+godk&#228;nt s&#229; bristf&#228;lliga uppgifter att de uppenbarligen inte 
+kan l&#228;ggas till grund f&#246;r beskattning, eller
+
+4. har n&#228;ringsf&#246;rbud.
+
+Om den s&#246;kande enligt 56 kap. inkomstskattelagen (1999:1229) 
+&#228;r ett f&#229;mansf&#246;retag eller f&#229;manshandelsbolag, ska pr&#246;vningen 
+enligt f&#246;rsta stycket &#228;ven avse en f&#246;retagsledare i f&#246;retaget 
+eller bolaget och andra f&#229;mansf&#246;retag eller f&#229;manshandelsbolag 
+som han eller hon &#228;r eller under de senaste tv&#229; &#229;ren har varit 
+f&#246;retagsledare i. Om den s&#246;kande &#228;r n&#228;ringsidkare och &#228;r eller 
+under de senaste tv&#229; &#229;ren har varit f&#246;retagsledare i 
+f&#229;mansf&#246;retag eller f&#229;manshandelsbolag, ska pr&#246;vningen &#228;ven 
+avse dessa f&#246;retag eller bolag. Pr&#246;vningen av f&#229;mansf&#246;retag 
+eller f&#229;manshandelsbolag ska bara avse missf&#246;rh&#229;llanden som 
+kan h&#228;nf&#246;ras till f&#246;retagsledaren.
+
+F&#246;rsta och andra styckena g&#228;ller inte f&#246;r 
+
+1. f&#246;retag som &#228;r godk&#228;nda f&#246;r F-skatt enligt 9 kap. 1 &#167; 
+skattef&#246;rfarandelagen,
+
+2. s&#229;dana stiftelser, f&#246;reningar eller registrerade 
+trossamfund som undantas fr&#229;n skattskyldighet enligt 7 kap. 
+3 &#167; inkomstskattelagen, 
+
+3. privatbostadsf&#246;retag enligt 2 kap. 17 &#167; inkomstskattelagen,
+
+4. d&#246;dsbon, eller 
+
+5. samf&#228;llighetsf&#246;reningar.
+
+12 &#167; Elst&#246;d f&#229;r inte l&#228;mnas till ett f&#246;retag som vid 
+tidpunkten f&#246;r beslutet
+
+1. &#228;r f&#246;rem&#229;l f&#246;r betalningskrav p&#229; grund av ett beslut av 
+Europeiska kommissionen som f&#246;rklarar ett st&#246;d fr&#229;n en svensk 
+st&#246;dgivare olagligt och of&#246;renligt med den inre marknaden, 
+
+2. har skatte- eller avgiftsskulder eller andra skulder som 
+vid beslutstillf&#228;llet har &#246;verl&#228;mnats till 
+Kronofogdemyndigheten och som vid indrivning handl&#228;ggs som 
+allm&#228;nt m&#229;l, eller 
+
+3. &#228;r i likvidation eller f&#246;rsatt i konkurs.
+
+Elst&#246;d f&#229;r inte heller l&#228;mnas till ett f&#246;retag om f&#246;retaget 
+eller en fysisk person som &#228;ger eller kontrollerar f&#246;retaget 
+omfattas av sanktioner antagna av Europeiska unionen i 
+enlighet med punkt 52 i Europeiska kommissionens meddelande 
+Tillf&#228;llig kris- och omst&#228;llningsram f&#246;r statliga st&#246;d&#229;tg&#228;rder 
+till st&#246;d f&#246;r ekonomin till f&#246;ljd av Rysslands angrepp mot 
+Ukraina (2023/C 101/03).
+
+Elst&#246;d f&#229;r inte heller l&#228;mnas till ett f&#246;retag som hade ett 
+eller flera fastprisavtal som b&#246;rjade g&#228;lla f&#246;re den 
+24 februari 2022, som fortfarande g&#228;llde med samma fasta pris 
+den 24 februari 2023 och som avs&#229;g f&#246;retagets hela 
+elf&#246;rbrukning.
+
+13 &#167; Elst&#246;d f&#229;r inte l&#228;mnas till statliga myndigheter eller 
+till s&#229;dana kreditinstitut och v&#228;rdepappersbolag som avses i 
+1 kap. 1 &#167; lagen (2015:1016) om resolution.
+
+14 &#167; Elst&#246;d f&#229;r inte l&#228;mnas till en s&#246;kande som tidigare har 
+beviljats st&#246;d enligt denna f&#246;rordning.
+
+Elst&#246;d f&#229;r inte heller l&#228;mnas till en s&#246;kande om ett annat 
+f&#246;retag som tidigare har beviljats elst&#246;d enligt denna 
+f&#246;rordning var i intressegemenskap med det s&#246;kande f&#246;retaget 
+n&#228;r det st&#246;det beviljades. Detta g&#228;ller dock inte om f&#246;retagen 
+ans&#246;kt om st&#246;d samtidigt enligt 30 &#167; f&#246;rsta stycket eller 
+Skatteverket har beslutat att ans&#246;kningarna inte beh&#246;ver 
+l&#228;mnas samtidigt enligt 30 &#167; andra stycket.
+
+St&#246;dets storlek 
+
+15 &#167; Elst&#246;dets storlek ska ber&#228;knas utifr&#229;n den m&#228;ngd el som 
+tagits ut f&#246;r f&#246;rbrukning under referensperioden 
+
+1. med 79 &#246;re per kilowattimme f&#246;r en uttagspunkt som finns i 
+det sydligaste elomr&#229;det (elomr&#229;de 4), och 
+
+2. med 50 &#246;re per kilowattimme f&#246;r &#246;vriga uttagspunkter 
+(elomr&#229;de 3).
+
+16 &#167; Elst&#246;d f&#229;r l&#228;mnas med h&#246;gst 20 miljoner kronor per 
+st&#246;dber&#228;ttigat f&#246;retag. 
+
+Om ett st&#246;dber&#228;ttigat f&#246;retag &#228;r verksamt inom 
+prim&#228;rproduktion av jordbruksprodukter eller inom fiskeri- och 
+vattenbrukssektorerna g&#228;ller i st&#228;llet de st&#246;dbelopp som 
+f&#246;ljer av 18 och 19 &#167;&#167;, oavsett om f&#246;retaget ing&#229;r i en 
+intressegemenskap eller inte.
+
+17 &#167; Om flera f&#246;retag i en intressegemenskap har r&#228;tt till 
+elst&#246;d avser det maximala st&#246;det enligt 16 &#167; hela 
+intressegemenskapen.
+
+18 &#167; Om ett eller flera f&#246;retag i en intressegemenskap till 
+n&#229;gon del &#228;r verksamma inom prim&#228;rproduktion av 
+jordbruksprodukter f&#229;r det sammanlagda elst&#246;det till de 
+f&#246;retagen inte &#246;verstiga 2,5 miljoner kronor. Fr&#229;n detta 
+belopp och det maximala st&#246;det enligt 16 &#167; ska avdrag g&#246;ras 
+f&#246;r st&#246;d som har beviljats samma f&#246;retag enligt f&#246;rordningen 
+(2022:1365) om statligt st&#246;d f&#246;r &#246;kade kostnader inom 
+jordbrukssektorn eller enligt f&#246;rordningen (2022:1363) om 
+statligt st&#246;d f&#246;r &#246;kade br&#228;nslekostnader f&#246;r yrkesfiskare.
+
+19 &#167; Om ett eller flera f&#246;retag i en intressegemenskap till 
+n&#229;gon del &#228;r verksamma inom fiskeri- och 
+vattenbrukssektorerna, men inte inom prim&#228;rproduktion av 
+jordbruksprodukter, f&#229;r det sammanlagda st&#246;det till de 
+f&#246;retagen inte &#246;verstiga 3 miljoner kronor. Fr&#229;n detta belopp 
+och det maximala st&#246;det enligt 16 &#167; ska avdrag g&#246;ras f&#246;r st&#246;d 
+som har beviljats samma f&#246;retag enligt f&#246;rordningen 
+(2022:1363) om statligt st&#246;d f&#246;r &#246;kade br&#228;nslekostnader f&#246;r 
+yrkesfiskare.
+
+N&#228;tf&#246;retagens rapportering av m&#228;tresultat
+
+20 &#167; Ett n&#228;tf&#246;retag ska i fr&#229;ga om uttagspunkter f&#246;r f&#246;retag 
+som &#228;r elslutkunder i elomr&#229;dena 3 och 4 till Skatteverket 
+rapportera f&#246;ljande uppgifter som beh&#246;vs f&#246;r att besluta om 
+elst&#246;d: 
+
+1. m&#228;ngden el som tagits ut f&#246;r f&#246;rbrukning i uttagspunkten 
+under referensperioden, 
+
+2. namn och person-, samordnings- eller organisationsnummer 
+f&#246;r den elslutkund som hade r&#228;tt att ta ut el i uttagspunkten 
+enligt ett avtal med n&#228;tf&#246;retaget den 17 november 2022, 
+
+3. i vilket elomr&#229;de uttagspunkten finns, och
+
+4. anl&#228;ggningsidentitet f&#246;r uttagspunkten.
+
+Rapportering enligt f&#246;rsta stycket ska inte ske f&#246;r 
+
+1. en uttagspunkt, om den som tagit ut el har bed&#246;mts vara 
+ber&#228;ttigad till elst&#246;d enligt f&#246;rordningen (2022:1872) om 
+elst&#246;d till konsumenter f&#246;r oktober 2021-september 2022 f&#246;r 
+den uttagspunkten, 
+
+2. statliga myndigheter, och 
+
+3. s&#229;dana f&#246;retag d&#228;r uppgifterna till n&#229;gon del avser s&#229;dana 
+s&#228;kerhetsskyddsklassificerade uppgifter som avses i 1 kap. 2 &#167; 
+s&#228;kerhetsskyddslagen (2018:585).
+
+Skatteverket f&#229;r besluta om n&#228;r och i vilket format 
+uppgifterna ska l&#228;mnas.
+
+21 &#167; Om ett n&#228;tf&#246;retag inte fullg&#246;r sina skyldigheter enligt 
+20 &#167; f&#229;r Skatteverket f&#246;rel&#228;gga f&#246;retaget att l&#228;mna in 
+uppgifterna.
+
+F&#246;r f&#246;retag som omfattas av 20 &#167; andra stycket 3 ska 
+n&#228;tf&#246;retag l&#228;mna de uppgifter som framg&#229;r av 20 &#167; f&#246;rsta 
+stycket efter beg&#228;ran av Skatteverket.
+
+Myndigheters skyldigheter att l&#228;mna uppgifter till 
+Skatteverket
+
+22 &#167; Boverket och ber&#246;rda l&#228;nsstyrelser ska till Skatteverket 
+l&#228;mna de uppgifter om beslut i &#228;renden enligt f&#246;rordningen 
+(2022:1363) om statligt st&#246;d f&#246;r &#246;kade br&#228;nslekostnader f&#246;r 
+yrkesfiskare och f&#246;rordningen (2022:1365) om statligt st&#246;d f&#246;r 
+&#246;kade kostnader inom jordbrukssektorn som beh&#246;vs f&#246;r 
+Skatteverkets handl&#228;ggning av &#228;renden om elst&#246;d.
+
+23 &#167; Bolagsverket ska p&#229; beg&#228;ran l&#228;mna f&#246;ljande uppgifter till 
+Skatteverket:
+
+1. om en person har n&#228;ringsf&#246;rbud,
+
+2. vilka personer som &#228;ger eller kontrollerar ett f&#246;retag, och 
+
+3. om ett f&#246;retag &#228;r i likvidation eller f&#246;rsatt i konkurs.
+
+Bolagsverket ska &#228;ven p&#229; beg&#228;ran l&#228;mna de uppgifter som beh&#246;vs 
+f&#246;r Skatteverkets kontroll av f&#246;retags intressegemenskap och 
+av om en person &#228;r f&#246;retagsledare.
+
+24 &#167; F&#246;rs&#228;kringskassan ska p&#229; beg&#228;ran till Skatteverket l&#228;mna 
+uppgift om huruvida st&#246;d enligt f&#246;rordningen (2022:1872) om 
+elst&#246;d till konsumenter f&#246;r oktober 2021-september 2022 har 
+beviljats f&#246;r el som tagits ut f&#246;r f&#246;rbrukning i en viss 
+uttagspunkt.
+
+25 &#167; Aff&#228;rsverket svenska kraftn&#228;t ska p&#229; beg&#228;ran till 
+Skatteverket l&#228;mna de uppgifter som beh&#246;vs f&#246;r att kunna 
+genomf&#246;ra kontroller och s&#228;kerst&#228;lla korrekta utbetalningar av 
+elst&#246;d.
+
+Handl&#228;ggning av st&#246;d&#228;renden 
+
+26 &#167; En ans&#246;kan om elst&#246;d ska inneh&#229;lla f&#246;ljande uppgifter:
+
+1. vilket f&#246;retag som ans&#246;ker om st&#246;d, 
+
+2. om f&#246;retaget uppfyller f&#246;ruts&#228;ttningarna enligt 8 och 9 &#167;&#167;, 
+
+3. en f&#246;rs&#228;kran om att ingen av de omst&#228;ndigheter r&#229;der som 
+enligt 11-14 &#167;&#167; hindrar att st&#246;d l&#228;mnas, 
+
+4. om f&#246;retaget &#228;r verksamt inom prim&#228;rproduktion av 
+jordbruksprodukter eller inom fiskeri- och 
+vattenbrukssektorerna, 
+
+5. m&#228;ngden el som tagits ut f&#246;r f&#246;rbrukning i de aktuella 
+uttagspunkterna under referensperioden, 
+
+6. anl&#228;ggningsidentitet f&#246;r de aktuella uttagspunkterna, 
+
+7. om f&#246;retaget &#228;r i intressegemenskap med n&#229;got annat f&#246;retag 
+och, i s&#229; fall, om elst&#246;d har beviljats till det f&#246;retaget, 
+
+8. om det s&#246;kande f&#246;retaget och f&#246;retag i dess 
+intressegemenskap har beviljats st&#246;d enligt f&#246;rordningen 
+(2022:1363) om statligt st&#246;d f&#246;r &#246;kade br&#228;nslekostnader f&#246;r 
+yrkesfiskare eller enligt f&#246;rordningen (2022:1365) om statligt 
+st&#246;d f&#246;r &#246;kade kostnader inom jordbrukssektorn, och 
+
+9. de &#246;vriga uppgifter som Skatteverket beh&#246;ver f&#246;r pr&#246;vningen 
+av ans&#246;kan. 
+
+27 &#167; Om det s&#246;kta elst&#246;det &#246;verstiger en miljon kronor ska 
+ans&#246;kan &#228;ven inneh&#229;lla uppgifter om 
+
+1. vilken kategori f&#246;retaget h&#246;r till enligt kommissionens 
+f&#246;rordning (EU) nr 651/2014 av den 17 juni 2014 genom vilken 
+vissa kategorier av st&#246;d f&#246;rklaras f&#246;renliga med den inre 
+marknaden enligt artiklarna 107 och 108 i f&#246;rdraget, 
+
+2. den region d&#228;r f&#246;retaget &#228;r bel&#228;get p&#229; NUTS 2-niv&#229; enligt 
+bilaga 1 till Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 
+1059/2003 av den 26 maj 2003 om inr&#228;ttande av en gemensam 
+nomenklatur f&#246;r statistiska territoriella enheter (NUTS), i 
+lydelsen enligt kommissionens f&#246;rordning (EU) nr 868/2014, och 
+
+3. f&#246;retagets verksamhetsomr&#229;de p&#229; Nace-gruppniv&#229; enligt 
+bilaga 1 till Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 
+1893/2006 av den 20 december 2006 om fastst&#228;llande av den 
+statistiska n&#228;ringsgrensindelningen Nace rev. 2 och om &#228;ndring 
+av r&#229;dets f&#246;rordning (EEG) nr 3037/90, i den ursprungliga 
+lydelsen. 
+
+Uppgifter enligt f&#246;rsta stycket ska ocks&#229; l&#228;mnas av ett 
+f&#246;retag som &#228;r verksamt inom prim&#228;rproduktion av 
+jordbruksprodukter eller inom fiskeri- och 
+vattenbrukssektorerna, om det s&#246;kta elst&#246;det &#246;verstiger 
+100 000 kronor. 
+
+Den region respektive det verksamhetsomr&#229;de som ska anges 
+enligt f&#246;rsta stycket 2 och 3 &#228;r den region respektive det 
+verksamhetsomr&#229;de som st&#246;rst andel av den el som tagits ut f&#246;r 
+f&#246;rbrukning under referensperioden kan h&#228;nf&#246;ras till.
+
+28 &#167; Skatteverket f&#229;r f&#246;rel&#228;gga ett f&#246;retag att l&#228;mna de 
+ytterligare handlingar eller uppgifter som beh&#246;vs f&#246;r att 
+pr&#246;va en ans&#246;kan om elst&#246;d. Det ska anges i f&#246;rel&#228;ggandet att 
+&#228;rendet kan avg&#246;ras &#228;ven om handlingarna eller uppgifterna 
+inte l&#228;mnas in.
+
+29 &#167; En ans&#246;kan om elst&#246;d ska l&#228;mnas elektroniskt till 
+Skatteverket. Ans&#246;kan ska l&#228;mnas i ett formul&#228;r som fastst&#228;lls 
+av Skatteverket. Om det finns s&#228;rskilda sk&#228;l f&#229;r Skatteverket 
+besluta att en ans&#246;kan ska l&#228;mnas p&#229; annat s&#228;tt.
+
+Ans&#246;kan om st&#246;d f&#229;r g&#246;ras tidigast den 30 maj 2023 och ska ha 
+kommit in senast den 25 september 2023.
+
+Uppgifterna i en ans&#246;kan om elst&#246;d ska l&#228;mnas p&#229; heder och 
+samvete.
+
+30 &#167; Om flera f&#246;retag vid tidpunkten f&#246;r ans&#246;kan anses vara i 
+intressegemenskap, ska de ge in sina ans&#246;kningar samtidigt. 
+Dessa f&#246;retag ska ocks&#229; l&#228;mna uppgifter om strukturen f&#246;r 
+intressegemenskapen.
+
+Om det finns s&#228;rskilda sk&#228;l f&#229;r Skatteverket besluta att en 
+ans&#246;kan inte beh&#246;ver l&#228;mnas samtidigt f&#246;r ett eller flera 
+f&#246;retag i intressegemenskap. 
+
+31 &#167; Om det totala elst&#246;d som f&#246;retagen i intressegemenskapen 
+ans&#246;ker om &#246;verstiger de h&#246;gsta belopp som avses i 16 och 
+17 &#167;&#167;, ska det st&#246;d som beviljas f&#246;rdelas p&#229; respektive 
+f&#246;retag i f&#246;rh&#229;llande till storleken p&#229; det st&#246;d som vart och 
+ett av f&#246;retagen hade haft r&#228;tt till om de h&#246;gsta beloppen 
+enligt 16 och 17 &#167;&#167; inte hade g&#228;llt. 
+
+Om en f&#246;rdelning av elst&#246;d inneb&#228;r att det totala st&#246;det till 
+f&#246;retag i en intressegemenskap &#246;verskrider de h&#246;gsta belopp 
+som avses i 18 och 19 &#167;&#167;, ska st&#246;det till de f&#246;retag som 
+omfattas av 18 och 19 &#167;&#167; f&#246;rdelas p&#229; respektive f&#246;retag i 
+f&#246;rh&#229;llande till storleken p&#229; det st&#246;d som vart och ett av 
+f&#246;retagen hade haft r&#228;tt till om de h&#246;gsta beloppen enligt 18 
+och 19 &#167;&#167; inte hade g&#228;llt. En eventuell &#246;verskjutande del av 
+st&#246;det ska d&#229; f&#246;rdelas till de f&#246;retag i intressegemenskapen 
+som inte omfattas av 18 och 19 &#167;&#167; enligt den f&#246;rdelning som 
+anges i f&#246;rsta stycket.
+
+32 &#167; Ett f&#246;retag som har ans&#246;kt om eller beviljats elst&#246;d ska 
+omg&#229;ende anm&#228;la till Skatteverket om de uppgifter som l&#228;mnats 
+till Skatteverket visar sig vara felaktiga eller om det 
+intr&#228;ffat s&#229;dana f&#246;r&#228;ndringar som kan p&#229;verka r&#228;tten till st&#246;d 
+eller st&#246;dets storlek. 
+
+Beslut om st&#246;d
+
+33 &#167; Ett beslut om att bevilja elst&#246;d ska fattas senast den 
+31 december 2023. 
+
+34 &#167; Ett beslut om elst&#246;d ska inneh&#229;lla villkor om att 
+st&#246;dmottagaren p&#229; Skatteverkets beg&#228;ran ska l&#228;mna de uppgifter 
+och handlingar som kr&#228;vs f&#246;r kontroll av st&#246;det. 
+
+Ett beslut om elst&#246;d ska &#228;ven inneh&#229;lla en upplysning om 
+skyldigheten enligt 32 &#167;.
+
+Tillgodor&#228;knande och &#229;terbetalning av st&#246;d
+
+35 &#167; Regler om tillgodor&#228;knande av elst&#246;d, 
+&#229;terbetalningsskyldighet och &#229;terkrav finns i lagen (2023:230) 
+om f&#246;rfarande f&#246;r elst&#246;d till f&#246;retag. 
+
+Offentligg&#246;rande, rapportering och registerf&#246;ring
+
+36 &#167; Best&#228;mmelser om offentligg&#246;rande och rapportering finns i 
+12 a &#167; lagen (2013:388) om till&#228;mpning av Europeiska unionens 
+statsst&#246;dsregler och i f&#246;rordningen (2016:605) om till&#228;mpning 
+av Europeiska unionens statsst&#246;dsregler.
+
+37 &#167; Skatteverket ska f&#246;ra det register som avses i punkt 90 i 
+Europeiska kommissionens meddelande Tillf&#228;llig kris- och 
+omst&#228;llningsram f&#246;r statliga st&#246;d&#229;tg&#228;rder till st&#246;d f&#246;r 
+ekonomin till f&#246;ljd av Rysslands angrepp mot Ukraina (2023/C 
+101/03) f&#246;r det st&#246;d som beslutats enligt denna f&#246;rordning.
+
+38 &#167; F&#246;r elst&#246;d som &#246;verstiger en miljon kronor ska 
+Skatteverket offentligg&#246;ra den information som avses i 
+
+- bilaga III till f&#246;rordning (EU) nr 651/2014, och
+
+- bilaga III till kommissionens f&#246;rordning (EU) nr 702/2014 av 
+den 25 juni 2014 genom vilken vissa kategorier av st&#246;d inom 
+jordbruks- och skogsbrukssektorn och i landsbygdsomr&#229;den 
+f&#246;rklaras f&#246;renliga med den inre marknaden enligt 
+artiklarna 107 och 108 i f&#246;rdraget om Europeiska unionens 
+funktionss&#228;tt. 
+
+39 &#167; F&#246;r elst&#246;d till f&#246;retag som bedriver s&#229;dan verksamhet som 
+avses i 18 och 19 &#167;&#167; och som &#246;verstiger 100 000 kronor ska 
+Skatteverket offentligg&#246;ra den information som avses i 
+
+- bilaga III till kommissionens f&#246;rordning (EU) nr 702/2014, 
+och
+
+- bilaga III till kommissionens f&#246;rordning (EU) nr 1388/2014 
+av den 16 december 2014 genom vilken vissa kategorier av st&#246;d 
+till f&#246;retag som &#228;r verksamma inom produktion, beredning och 
+saluf&#246;ring av fiskeri- och vattenbruksprodukter f&#246;rklaras 
+f&#246;renliga med den inre marknaden enligt artiklarna 107 och 108 
+i f&#246;rdraget om Europeiska unionens funktionss&#228;tt. 
+
+R&#228;tt att meddela f&#246;reskrifter 
+
+40 &#167; Skatteverket f&#229;r meddela f&#246;reskrifter om verkst&#228;lligheten 
+av denna f&#246;rordning.
+
+&#214;verklagande 
+
+41 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser om 
+&#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=113">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=115">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

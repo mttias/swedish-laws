@@ -1,0 +1,921 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-18" /> 
+ <meta id="rattsinfo-edited" content="2023-01-18 15:25:57" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2222</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2221">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2223">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2006:805 ·
+                    <a href="/sfsr?bet=2006:805">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2006:805) om foder och animaliska biprodukter</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2006-06-08
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:170
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2006-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Lagens syfte och till&#228;mpningsomr&#229;de
+
+1 &#167; Denna lag syftar till att s&#228;kerst&#228;lla en h&#246;g skyddsniv&#229; f&#246;r
+djurs och m&#228;nniskors h&#228;lsa n&#228;r det g&#228;ller foder och animaliska
+biprodukter.
+
+2 &#167; I denna lag betyder
+
+1. uttrycken foder och utsl&#228;ppande p&#229; marknaden av foder samma 
+sak som i Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 
+178/2002 av den 28 januari 2002 om allm&#228;nna principer och krav 
+f&#246;r livsmedelslagstiftning, om inr&#228;ttande av Europeiska 
+myndigheten f&#246;r livsmedelss&#228;kerhet och om f&#246;rfaranden i fr&#229;gor 
+som g&#228;ller livsmedelss&#228;kerhet, 
+
+2. uttrycket prim&#228;rproduktion av foder samma sak som i 
+Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 183/2005 av 
+den 12 januari 2005 om fastst&#228;llande av krav f&#246;r foderhygien, 
+
+3. uttrycken animaliska biprodukter och d&#228;rav framst&#228;llda 
+produkter samt utsl&#228;ppande p&#229; marknaden av dessa produkter 
+samma sak som i Europaparlamentets och r&#229;dets f&#246;rordning (EG) 
+nr 1069/2009 av den 21 oktober 2009 om h&#228;lsobest&#228;mmelser f&#246;r 
+animaliska biprodukter och d&#228;rav framst&#228;llda produkter som 
+inte &#228;r avsedda att anv&#228;ndas som livsmedel och om upph&#228;vande 
+av f&#246;rordning (EG) nr 1774/2002 (f&#246;rordning om animaliska 
+biprodukter), och
+
+4. f&#246;ljande uttryck samma sak som i Europaparlamentets och 
+r&#229;dets f&#246;rordning (EU) 2017/625 av den 15 mars 2017 om 
+offentlig kontroll och annan offentlig verksamhet f&#246;r att 
+s&#228;kerst&#228;lla till&#228;mpningen av livsmedels- och 
+foderlagstiftningen och av best&#228;mmelser om djurs h&#228;lsa och 
+djurskydd, v&#228;xtskydd och v&#228;xtskyddsmedel samt om &#228;ndring av 
+Europaparlamentets och r&#229;dets f&#246;rordningar (EG) nr 999/2001, 
+(EG) nr 396/2005, (EG) nr 1069/2009, (EG) nr 1107/2009, (EU) 
+nr 1151/2012, (EU) nr 652/2014, (EU) 2016/429 och (EU) 
+2016/2031, r&#229;dets f&#246;rordningar (EG) nr 1/2005 och (EG) nr 
+1099/2009 och r&#229;dets direktiv 98/58/EG, 1999/74/EG, 
+2007/43/EG, 2008/119/EG och 2008/120/EG och om upph&#228;vande av 
+Europaparlamentets och r&#229;dets f&#246;rordningar (EG) nr 854/2004 
+och (EG) nr 882/2004, r&#229;dets direktiv 89/608/EEG, 89/662/EEG, 
+90/425/EEG, 91/496/EEG, 96/23/EG, 96/93/EG och 97/78/EG samt 
+r&#229;dets beslut 92/438/EEG (f&#246;rordningen om offentlig kontroll):
+
+- offentlig kontroll, 
+
+- annan offentlig verksamhet, och
+
+- organ med delegerade uppgifter.
+Lag (2021:170).
+
+3 &#167; Lagen g&#228;ller i alla led fr&#229;n och med prim&#228;rproduktionen av
+foder till och med utsl&#228;ppande av foder p&#229; marknaden eller
+utfodring av djur. Lagen g&#228;ller ocks&#229; f&#246;r befattning med
+animaliska biprodukter och d&#228;rav framst&#228;llda produkter.
+
+4 &#167; Lagen till&#228;mpas inte p&#229; privat enskild produktion av foder
+avsett f&#246;r s&#228;llskapsdjur och p&#229; utfodring av s&#229;dana djur i
+enskilda hem. Denna begr&#228;nsning g&#228;ller dock inte i den m&#229;n
+lagen kompletterar best&#228;mmelser i EU-f&#246;rordningar (EU-
+best&#228;mmelser). Lag (2011:410).
+
+EU-best&#228;mmelser som kompletteras av lagen
+
+5 &#167; Lagen kompletterar s&#229;dana EU-best&#228;mmelser som har samma
+syfte som lagen och som faller inom lagens till&#228;mpningsomr&#229;de.
+Regeringen ska i Svensk f&#246;rfattningssamling ge till k&#228;nna
+vilka grundf&#246;rordningar som avses.
+
+I fr&#229;ga om EU-best&#228;mmelser som faller inom flera lagars
+till&#228;mpningsomr&#229;de tillk&#228;nnager regeringen p&#229; samma s&#228;tt som i
+f&#246;rsta stycket vilka best&#228;mmelser som kompletteras av denna
+lag.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela f&#246;reskrifter eller i det enskilda fallet fatta beslut
+som beh&#246;vs som komplettering av EU-best&#228;mmelserna.
+Lag (2011:410).
+
+Anv&#228;ndning av djur som foder
+
+6 &#167; I de EU-best&#228;mmelser som kompletteras av lagen finns
+f&#246;rbud mot att som foder anv&#228;nda djur, djurdelar eller varor
+som framst&#228;lls av djur.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela f&#246;reskrifter om att djur eller delar av djur f&#229;r
+anv&#228;ndas som foder i enlighet med undantagsbest&#228;mmelserna i
+artikel 18 i Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr
+1069/2009. Lag (2011:410).
+
+Vilda djur som foder
+
+7 &#167; Vilda djur som inte omfattas av de EU-best&#228;mmelser som
+kompletteras av lagen f&#229;r anv&#228;ndas som foder endast om djuren
+har avlivats, slaktats upp och d&#228;refter veterin&#228;rbesiktigats.
+
+Det som s&#228;gs i f&#246;rsta stycket g&#228;ller ocks&#229; delar av s&#229;dana
+djur och fodermj&#246;l eller andra varor som framst&#228;llts av djuren
+eller delar av djuren.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela f&#246;reskrifter om undantag fr&#229;n kraven i f&#246;rsta och
+andra styckena. Lag (2011:410).
+
+F&#246;rbud mot att sl&#228;ppa ut foder p&#229; marknaden
+
+8 &#167; Ut&#246;ver vad som f&#246;ljer av de EU-best&#228;mmelser som
+kompletteras av lagen &#228;r det f&#246;rbjudet att anv&#228;nda eller p&#229;
+marknaden sl&#228;ppa ut foder
+
+1. om det kan antas att fodret har en skadlig inverkan p&#229;
+milj&#246;n,
+
+2. om det har en s&#229;dan beskaffenhet som inte &#228;r till&#229;ten
+enligt 7 &#167; f&#246;rsta eller andra stycket,
+
+3. f&#246;r vilket upplysningsskyldighet enligt f&#246;reskrifter eller
+beslut som har meddelats med st&#246;d av 9 &#167; inte fullgjorts,
+
+4. som inte uppfyller de krav eller villkor om foders&#228;kerhet
+som f&#246;reskrivits eller beslutats med st&#246;d av 9 &#167;.
+Lag (2011:410).
+
+F&#246;reskrifter och beslut om foder samt om laboratorier f&#246;r
+foderanalyser
+
+9 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r
+meddela f&#246;reskrifter eller i enskilda fall besluta om villkor
+f&#246;r eller f&#246;rbud mot inf&#246;rsel, utf&#246;rsel, tillverkning,
+utsl&#228;ppande p&#229; marknaden, anv&#228;ndning och bortskaffande av samt
+annan befattning med foder eller ett visst parti av foder.
+
+10 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+f&#229;r meddela f&#246;reskrifter eller i enskilda fall besluta om
+villkor f&#246;r laboratorier f&#246;r foderanalyser och metoder f&#246;r
+s&#229;dana analyser.
+
+F&#246;reskrifter och beslut om animaliska biprodukter
+
+11 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer
+f&#229;r meddela f&#246;reskrifter eller i det enskilda fallet besluta om
+villkor f&#246;r eller f&#246;rbud mot inf&#246;rsel, utf&#246;rsel, tillverkning,
+utsl&#228;ppande p&#229; marknaden, omh&#228;ndertagande, bearbetning och
+bortskaffande av samt annan befattning med animaliska
+biprodukter och d&#228;rav framst&#228;llda produkter.
+
+Offentlig kontroll och annan offentlig verksamhet
+
+12 &#167; Offentlig kontroll ut&#246;vas av Statens jordbruksverk, 
+l&#228;nsstyrelserna, andra statliga myndigheter och kommunerna 
+(kontrollmyndigheterna) enligt f&#246;reskrifter som regeringen 
+meddelar.
+
+Annan offentlig verksamhet utf&#246;rs av kontrollmyndigheterna och 
+andra statliga myndigheter enligt vad som anges i denna lag 
+och i f&#246;reskrifter som regeringen meddelar.
+
+En kommuns uppgift ska fullg&#246;ras av den eller de kommunala 
+n&#228;mnder som fullg&#246;r uppgifter inom milj&#246;- och 
+h&#228;lsoskyddsomr&#229;det. Lag (2021:170).
+
+Delegering av vissa uppgifter
+
+12 a &#167; I f&#246;rordning (EU) 2017/625 finns best&#228;mmelser om att 
+vissa uppgifter som ing&#229;r i den offentliga kontrollen och 
+vissa uppgifter i samband med annan offentlig verksamhet f&#229;r 
+delegeras till ett organ eller till en fysisk person.
+Lag (2021:170).
+
+F&#246;rvaltningslagens till&#228;mpning
+
+12 b &#167; Vid offentlig kontroll eller annan offentlig verksamhet 
+som utf&#246;rs av ett organ med delegerade uppgifter eller av en 
+fysisk person som har delegerats vissa uppgifter ska f&#246;ljande 
+best&#228;mmelser i f&#246;rvaltningslagen (2017:900) till&#228;mpas:
+
+- 5 &#167; om legalitet, objektivitet och proportionalitet, 
+
+- 10 &#167; om partsinsyn, 
+
+- 16-18 &#167;&#167; om j&#228;v, 
+
+- 23 &#167; om utredningsansvaret, 
+
+- 24 &#167; om n&#228;r man f&#229;r l&#228;mna uppgifter muntligt,
+
+- 25 &#167; om kommunikation, 
+
+- 27 &#167; om dokumentation av uppgifter, 
+
+- 31 &#167; om dokumentation av beslut, 
+
+- 32 &#167; om motivering av beslut, 
+
+- 33 och 34 &#167;&#167; om underr&#228;ttelse om inneh&#229;llet i beslut och hur 
+ett &#246;verklagande g&#229;r till, 
+
+- 36 &#167; om r&#228;ttelse av skrivfel och liknande, och
+
+- 42 &#167; om vem som f&#229;r &#246;verklaga ett beslut.
+Lag (2021:170).
+
+13 &#167; Jordbruksverket samordnar &#246;vriga kontrollmyndigheters
+verksamhet och l&#228;mnar r&#229;d och hj&#228;lp i denna verksamhet, om
+inte regeringen f&#246;reskriver n&#229;got annat.
+
+Den myndighet som ut&#246;var offentlig kontroll ska genom
+r&#229;dgivning, information och p&#229; annat s&#228;tt underl&#228;tta f&#246;r den
+enskilde att fullg&#246;ra sina skyldigheter enligt lagen, de
+f&#246;reskrifter och beslut som har meddelats med st&#246;d av lagen,
+de EU-best&#228;mmelser som kompletteras av lagen och de beslut som
+har meddelats med st&#246;d av EU-best&#228;mmelserna. Lag (2011:410).
+
+14 &#167; Den myndighet som ut&#246;var offentlig kontroll ska verka f&#246;r
+att &#229;tg&#228;rder vidtas mot &#246;vertr&#228;delser av lagen, av de
+f&#246;reskrifter eller beslut som har meddelats med st&#246;d av lagen
+eller av de EU-best&#228;mmelser som kompletteras av lagen.
+Lag (2011:410).
+
+Tystnadsplikt
+
+15 &#167; Den som i enskild verksamhet utf&#246;r eller har utf&#246;rt 
+offentlig kontroll eller annan offentlig verksamhet f&#229;r inte 
+obeh&#246;rigen r&#246;ja eller utnyttja det som han eller hon har f&#229;tt 
+k&#228;nnedom om medan uppgifterna utf&#246;rdes. Detsamma ska g&#228;lla den 
+som i enskild verksamhet utf&#246;r eller har utf&#246;rt 
+laboratorieanalyser, laboratorietester eller 
+laboratoriediagnostik p&#229; prover som tas vid offentlig kontroll 
+och annan offentlig verksamhet.
+
+I det allm&#228;nnas verksamhet till&#228;mpas offentlighets- och 
+sekretesslagen (2009:400) i st&#228;llet f&#246;r f&#246;rsta stycket.
+Lag (2021:170).
+
+&#214;verflyttning av offentlig kontroll och annan offentlig 
+verksamhet
+
+16 &#167; Jordbruksverket eller en annan statlig kontrollmyndighet 
+som regeringen best&#228;mt enligt denna lag f&#229;r, i samr&#229;d med en 
+kommun, besluta att ansvaret f&#246;r offentlig kontroll och annan 
+offentlig verksamhet i fr&#229;ga om en viss verksamhet ska flyttas 
+&#246;ver fr&#229;n kommunen till verket eller myndigheten. Ett s&#229;dant 
+beslut f&#229;r fattas om verksamheten har stor omfattning, &#228;r 
+s&#228;rskilt komplicerad eller om det finns andra s&#228;rskilda sk&#228;l.
+
+Jordbruksverket eller myndigheten f&#229;r besluta att ansvaret ska 
+l&#228;mnas tillbaka till kommunen, om verket eller myndigheten och 
+kommunen &#228;r &#246;verens om det. Lag (2021:170).
+
+17 &#167; Jordbruksverket eller en annan statlig kontrollmyndighet 
+som regeringen best&#228;mt enligt denna lag f&#229;r, i samr&#229;d med en 
+kommun, besluta att ansvaret f&#246;r offentlig kontroll och annan 
+offentlig verksamhet i fr&#229;ga om en viss anl&#228;ggning ska flyttas 
+fr&#229;n verket eller myndigheten till en kommun. Lag (2021:170).
+
+18 &#167; Om en kommun grovt eller under l&#228;ngre tid har &#229;sidosatt 
+sin skyldighet att utf&#246;ra offentlig kontroll eller annan 
+offentlig verksamhet n&#228;r det g&#228;ller en viss verksamhet, f&#229;r 
+regeringen, p&#229; ans&#246;kan av Jordbruksverket eller en annan 
+statlig kontrollmyndighet som regeringen best&#228;mt enligt denna 
+lag, besluta att ansvaret f&#246;r den offentliga kontrollen och 
+den offentliga verksamheten i fr&#229;ga om den verksamheten ska 
+flyttas &#246;ver till Jordbruksverket eller myndigheten.
+
+Regeringen f&#229;r besluta att ansvaret ska l&#228;mnas tillbaka till 
+kommunen. Lag (2021:170).
+
+F&#246;rel&#228;gganden riktade till kommuner
+
+19 &#167; Om en kommun inte fullg&#246;r de skyldigheter som f&#246;ljer av 
+dess uppdrag att utf&#246;ra offentlig kontroll eller annan 
+offentlig verksamhet, f&#229;r Jordbruksverket eller en annan 
+statlig kontrollmyndighet som regeringen best&#228;mt enligt denna 
+lag f&#246;rel&#228;gga kommunen att avhj&#228;lpa bristen. Ett s&#229;dant 
+f&#246;rel&#228;ggande ska inneh&#229;lla uppgifter om de &#229;tg&#228;rder som 
+Jordbruksverket eller myndigheten anser n&#246;dv&#228;ndiga f&#246;r att 
+bristen ska kunna avhj&#228;lpas. Lag (2021:170).
+
+F&#246;reskrifter om offentlig kontroll och annan offentlig 
+verksamhet
+
+20 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om
+
+1. hur offentlig kontroll och annan offentlig verksamhet ska 
+bedrivas,
+
+2. skyldighet f&#246;r en kontrollmyndighet, ett organ med 
+delegerade uppgifter eller en fysisk person som har delegerats 
+vissa uppgifter att l&#228;mna information till en s&#229;dan 
+samordnande kontrollmyndighet som avses i 13 &#167; f&#246;rsta stycket, 
+
+3. skyldighet f&#246;r ett organ med delegerade uppgifter eller en 
+fysisk person som har delegerats vissa uppgifter att l&#228;mna 
+information och ge in handlingar till den myndighet som har 
+delegerat uppgiften, och 
+
+4. skyldighet f&#246;r foderf&#246;retagare eller f&#246;r den som befattar 
+sig med animaliska biprodukter eller d&#228;rav framst&#228;llda 
+produkter att ut&#246;va en egenkontroll av verksamheten som &#228;r 
+l&#228;mplig utifr&#229;n verksamhetens art. Lag (2021:170).
+
+F&#246;reskrifter om uppgiftsl&#228;mnande
+
+20 a &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om skyldighet f&#246;r foderf&#246;retagare och 
+f&#246;r den som befattar sig med animaliska biprodukter eller 
+d&#228;rav framst&#228;llda produkter att l&#228;mna uppgifter om sin 
+verksamhet till en kontrollmyndighet, ett organ med delegerade 
+uppgifter eller en fysisk person som har delegerats vissa 
+uppgifter. Lag (2021:170).
+
+R&#228;tt till upplysningar och tilltr&#228;de
+
+21 &#167; En kontrollmyndighet och ett organ med delegerade 
+uppgifter eller en fysisk person som har delegerats vissa 
+uppgifter har r&#228;tt att, i den utstr&#228;ckning det beh&#246;vs f&#246;r 
+offentlig kontroll och annan offentlig verksamhet, 
+
+1. p&#229; beg&#228;ran f&#229; upplysningar och ta del av handlingar, samt
+
+2. f&#229; tilltr&#228;de till omr&#229;den, lokaler och andra utrymmen som 
+har anknytning till verksamheten och d&#228;r g&#246;ra unders&#246;kningar 
+och ta prover.
+
+F&#246;rsta stycket g&#228;ller ocks&#229; f&#246;r Europeiska kommissionen och 
+f&#246;r inspekt&#246;rer och experter som utsetts av kommissionen.
+Lag (2021:170).
+
+Skyldighet att l&#228;mna hj&#228;lp
+
+22 &#167; Best&#228;mmelser om skyldighet f&#246;r den som &#228;r f&#246;rem&#229;l f&#246;r 
+offentlig kontroll eller annan offentlig verksamhet att l&#228;mna 
+den hj&#228;lp som beh&#246;vs f&#246;r att kontrollen eller verksamheten ska 
+kunna utf&#246;ras finns i artikel 15.2 och 15.6 i f&#246;rordning (EU) 
+2017/625. Lag (2021:170).
+
+F&#246;rel&#228;gganden
+
+23 &#167; Ut&#246;ver vad som f&#246;ljer av de EU-best&#228;mmelser som lagen 
+kompletterar eller vad som s&#228;rskilt anges i 19 &#167; f&#229;r en 
+kontrollmyndighet besluta de f&#246;rel&#228;gganden som beh&#246;vs f&#246;r att 
+lagen, de f&#246;reskrifter eller beslut som har meddelats med st&#246;d 
+av lagen, de EU-best&#228;mmelser som lagen kompletterar och de 
+beslut som har meddelats med st&#246;d av EU-best&#228;mmelserna ska 
+f&#246;ljas. Lag (2021:170).
+
+Vite
+
+24 &#167; F&#246;rel&#228;gganden enligt 23 &#167; eller enligt de EU-best&#228;mmelser 
+som lagen kompletterar f&#229;r f&#246;renas med vite. Lag (2021:170).
+
+Ink&#246;p under dold identitet
+
+24 a &#167; En kontrollmyndighet f&#229;r k&#246;pa in produkter under dold 
+identitet om det &#228;r n&#246;dv&#228;ndigt f&#246;r att kontrollera att 
+produkten uppfyller kraven i
+
+1. denna lag, 
+
+2. f&#246;reskrifter som har meddelats med st&#246;d av lagen, och
+
+3. EU-f&#246;rordningar som lagen kompletterar.
+
+Verksamhetsut&#246;varen ska underr&#228;ttas om det ink&#246;p som har skett 
+under dold identitet och om resultatet av det s&#229; snart det kan 
+ske utan att &#229;tg&#228;rden f&#246;rlorar sin betydelse. Lag (2021:170).
+
+Rapporteringssystem f&#246;r &#246;vertr&#228;delser
+
+24 b &#167; En kontrollmyndighet ska ha ett &#228;ndam&#229;lsenligt 
+rapporteringssystem f&#246;r den som vill anm&#228;la misst&#228;nkta 
+&#246;vertr&#228;delser av f&#246;rordning (EU) 2017/625. Lag (2021:170).
+
+S&#228;rskilda ingripanden
+
+25 &#167; Ut&#246;ver vad som f&#246;ljer av de EU-best&#228;mmelser som
+kompletteras av lagen f&#229;r en kontrollmyndighet ta hand om en
+vara som
+
+1. har sl&#228;ppts ut p&#229; marknaden, uppenbart &#228;r avsedd att
+sl&#228;ppas ut p&#229; marknaden eller anv&#228;ndas i strid med 7 och 8 &#167;&#167;,
+de f&#246;reskrifter som meddelats med st&#246;d av 9 eller 11 &#167; eller
+de EU-best&#228;mmelser som kompletteras av lagen, samt
+
+2. avses med ett f&#246;rel&#228;ggande eller ett f&#246;rbud enligt 23 &#167;, om
+f&#246;rel&#228;ggandet eller f&#246;rbudet inte f&#246;ljs.
+
+Om en vara har tagits om hand, f&#229;r &#228;garen under &#246;verinseende
+av kontrollmyndigheten g&#246;ra varan duglig till utfodring eller
+till annat avsett &#228;ndam&#229;l eller anv&#228;nda den f&#246;r n&#229;got annat
+till&#229;tet &#228;ndam&#229;l. Annars ska kontrollmyndigheten l&#229;ta f&#246;rst&#246;ra
+varan p&#229; &#228;garens bekostnad. Lag (2011:410).
+
+R&#228;ttelse
+
+26 &#167; Om n&#229;gon inte fullg&#246;r sina skyldigheter enligt lagen, de
+f&#246;reskrifter eller beslut som har meddelats med st&#246;d av lagen,
+de EU-best&#228;mmelser som kompletteras av lagen eller de beslut
+som har meddelats med st&#246;d av EU-best&#228;mmelserna, f&#229;r
+kontrollmyndigheten besluta om r&#228;ttelse p&#229; hans eller hennes
+bekostnad. Lag (2011:410).
+
+Hj&#228;lp av Polismyndigheten
+
+27 &#167; Polismyndigheten ska l&#228;mna den hj&#228;lp som beh&#246;vs f&#246;r
+ut&#246;vande av offentlig kontroll eller verkst&#228;llighet av beslut
+enligt denna lag, de f&#246;reskrifter eller beslut som har
+meddelats med st&#246;d av lagen, de EU-best&#228;mmelser som
+kompletteras av lagen eller de beslut som har meddelats med
+st&#246;d av EU-best&#228;mmelserna.
+
+Hj&#228;lp enligt f&#246;rsta stycket f&#229;r beg&#228;ras endast om
+
+1. det p&#229; grund av s&#228;rskilda omst&#228;ndigheter kan befaras att
+&#229;tg&#228;rden inte kan utf&#246;ras utan att en polismans s&#228;rskilda
+befogenheter enligt 10 &#167; polislagen (1984:387) beh&#246;ver
+tillgripas, eller
+
+2. det annars finns synnerliga sk&#228;l.
+Lag (2014:704).
+
+Avgifter
+
+28 &#167; Regeringen eller den myndighet som regeringen best&#228;mmer 
+f&#229;r meddela f&#246;reskrifter om skyldighet att betala avgifter f&#246;r 
+offentlig kontroll och annan offentlig verksamhet.
+
+Bemyndigandet enligt f&#246;rsta stycket innefattar r&#228;tt att 
+meddela f&#246;reskrifter om skyldighet f&#246;r kommunerna att ta ut 
+s&#229;dana avgifter.
+
+Regeringen eller den myndighet som regeringen best&#228;mmer f&#229;r 
+meddela f&#246;reskrifter om ber&#228;kningen av de avgifter som tas ut 
+av statliga myndigheter, ett organ med delegerade uppgifter 
+eller en fysisk person som har delegerats vissa uppgifter.
+Lag (2021:170).
+
+Straffbest&#228;mmelser
+
+28 a &#167; Till b&#246;ter eller f&#228;ngelse i h&#246;gst tv&#229; &#229;r d&#246;ms den 
+som med upps&#229;t eller av oaktsamhet
+
+1. producerar, bearbetar, distribuerar eller p&#229; n&#229;got annat 
+s&#228;tt handhar, eller m&#228;rker, marknadsf&#246;r eller presenterar, 
+foder eller fodertillsatser, eller utfodrar djur med foder, 
+p&#229; ett s&#228;tt som orsakar eller kan orsaka en fara f&#246;r 
+m&#228;nniskors eller djurs liv eller h&#228;lsa,
+
+2. samlar in, bearbetar eller p&#229; n&#229;got annat s&#228;tt handhar 
+animaliska biprodukter eller d&#228;rav framst&#228;llda produkter p&#229; 
+ett s&#228;tt som orsakar eller kan orsaka en fara f&#246;r m&#228;nniskors 
+eller djurs liv eller h&#228;lsa,
+
+3. inte vidtar &#229;tg&#228;rder i samband med produktion, 
+bearbetning, distribution, utfodring eller annat handhavande 
+av foder, animaliska biprodukter eller d&#228;rav framst&#228;llda 
+produkter och d&#228;rigenom f&#246;ranleder att ett foder, en 
+animalisk biprodukt eller en d&#228;rav framst&#228;lld produkt utg&#246;r 
+eller kan komma att utg&#246;ra en fara f&#246;r m&#228;nniskors eller djurs 
+liv eller h&#228;lsa,
+
+4. brister n&#228;r det g&#228;ller att m&#228;rka, marknadsf&#246;ra, eller 
+presentera ett foder eller en fodertillsats och d&#228;rigenom 
+f&#246;ranleder att ett foder eller en fodertillsats utg&#246;r eller 
+kan komma att utg&#246;ra en fara f&#246;r m&#228;nniskors eller djurs liv 
+eller h&#228;lsa,
+
+5. i st&#246;rre omfattning m&#228;rker, marknadsf&#246;r eller presenterar 
+ett foder eller en fodertillsats p&#229; ett s&#228;tt som &#228;r eller kan 
+vara vilseledande, eller
+
+6. brister n&#228;r det g&#228;ller &#229;tg&#228;rder f&#246;r identifiering och 
+d&#228;rigenom p&#229; ett omfattande eller annars s&#228;rskilt allvarligt 
+s&#228;tt orsakar att m&#246;jligheten att sp&#229;ra ett foder, en 
+fodertillsats, en animalisk biprodukt eller d&#228;rav framst&#228;llda 
+produkter f&#246;rsv&#229;ras eller kan komma att f&#246;rsv&#229;ras.
+Lag (2018:645).
+
+29 &#167; Till b&#246;ter d&#246;ms den som, om g&#228;rningen inte ska leda till 
+ansvar enligt 28 a &#167;, med upps&#229;t eller av oaktsamhet
+
+1. bryter mot en f&#246;reskrift eller ett beslut som meddelats med 
+st&#246;d av 5 &#167; tredje stycket, 9 eller 11 &#167;, 
+
+2. bryter mot 8 &#167;, eller
+
+3. inte fullg&#246;r sina skyldigheter enligt 21 &#167; f&#246;rsta stycket 
+1.
+
+Till b&#246;ter d&#246;ms &#228;ven den som med upps&#229;t eller av oaktsamhet 
+bryter mot skyldigheter, villkor eller f&#246;rbud som finns i de 
+EU-best&#228;mmelser som lagen kompletterar. Detta g&#228;ller dock inte 
+om &#246;vertr&#228;delsen avser best&#228;mmelser om myndighetsut&#246;vning 
+eller andra best&#228;mmelser i f&#246;rordning (EU) 2017/625.
+
+I ringa fall ska det inte d&#246;mas till ansvar.
+Lag (2021:170).
+
+30 &#167; Om en g&#228;rning &#228;r belagd med straff i brottsbalken 
+eller i lagen (2000:1225) om straff f&#246;r smuggling ska det 
+inte d&#246;mas till ansvar enligt 28 a eller 29 &#167;. 
+
+Det ska inte d&#246;mas till ansvar enligt denna lag f&#246;r en 
+g&#228;rning som omfattas av ett f&#246;rel&#228;ggande om vite om g&#228;rningen 
+ligger till grund f&#246;r en ans&#246;kan om utd&#246;mande av vitet. 
+
+Det ska inte d&#246;mas till ansvar enligt 29 &#167; om g&#228;rningen kan 
+leda till en sanktionsavgift enligt f&#246;reskrifter som har 
+meddelats med st&#246;d av 30 a &#167;. Lag (2018:645).
+
+Sanktionsavgifter
+
+30 a &#167; Regeringen f&#229;r meddela f&#246;reskrifter om att en 
+sanktionsavgift ska betalas av den som 
+
+1. p&#229;b&#246;rjar en verksamhet som &#228;r registreringspliktig utan 
+att n&#229;gon anm&#228;lan om registrering har gjorts, eller 
+
+2. brister n&#228;r det g&#228;ller att uppfylla krav p&#229; journalf&#246;ring 
+eller annan dokumentation. 
+
+Avgiftens storlek ska framg&#229; av regeringens f&#246;reskrifter. 
+Avgiften ska uppg&#229; till minst 1 000 kronor och h&#246;gst 100 000 
+kronor. N&#228;r regeringen meddelar f&#246;reskrifter om avgiftens 
+storlek ska h&#228;nsyn tas till hur allvarlig &#246;vertr&#228;delsen &#228;r 
+och till betydelsen av den best&#228;mmelse som &#246;vertr&#228;delsen 
+avser.
+
+Sanktionsavgiften ska tillfalla staten. Lag (2018:645).
+
+30 b &#167; En sanktionsavgift ska tas ut &#228;ven om &#246;vertr&#228;delsen 
+inte &#228;r upps&#229;tlig eller oaktsam. 
+
+N&#229;gon sanktionsavgift ska dock inte tas ut om det &#228;r 
+osk&#228;ligt. Vid pr&#246;vningen av denna fr&#229;ga ska det s&#228;rskilt 
+beaktas 
+
+1. om &#246;vertr&#228;delsen berott p&#229; sjukdom som medf&#246;rt att den 
+avgiftsskyldige inte f&#246;rm&#229;tt att p&#229; egen hand g&#246;ra det som 
+han eller hon varit skyldig att g&#246;ra och inte heller f&#246;rm&#229;tt 
+att uppdra &#229;t n&#229;gon annan att g&#246;ra det,
+
+2. om &#246;vertr&#228;delsen annars berott p&#229; en omst&#228;ndighet som den 
+avgiftsskyldige varken kunnat f&#246;rutse eller borde ha 
+f&#246;rutsett och inte heller kunnat p&#229;verka, eller
+
+3. vad den avgiftsskyldige gjort f&#246;r att undvika 
+&#246;vertr&#228;delsen. Lag (2018:645).
+
+30 c &#167; Kontrollmyndigheten pr&#246;var fr&#229;gor om 
+sanktionsavgifter. 
+
+Innan kontrollmyndigheten beslutar om avgift ska den som 
+anspr&#229;ket riktas mot ges tillf&#228;lle att yttra sig. Om s&#229; inte 
+har skett inom tv&#229; &#229;r fr&#229;n det att &#246;vertr&#228;delsen skedde f&#229;r 
+n&#229;gon sanktionsavgift inte beslutas. Lag (2018:645).
+
+30 d &#167; Det ska inte beslutas om sanktionsavgift f&#246;r en 
+&#246;vertr&#228;delse som omfattas av ett f&#246;rel&#228;ggande om vite om 
+&#246;vertr&#228;delsen ligger till grund f&#246;r en ans&#246;kan om utd&#246;mande 
+av vitet. Lag (2018:645).
+
+30 e &#167; Ett beslut om sanktionsavgift f&#229;r verkst&#228;llas 
+enligt uts&#246;kningsbalken n&#228;r det har f&#229;tt laga kraft.
+Lag (2018:645).
+
+30 f &#167; En beslutad sanktionsavgift faller bort om beslutet 
+inte har verkst&#228;llts inom fem &#229;r fr&#229;n det att beslutet har 
+f&#229;tt laga kraft. Lag (2018:645).
+
+&#214;verklagande m.m.
+
+31 &#167; Beslut av en kommunal n&#228;mnd enligt denna lag, enligt 
+de f&#246;reskrifter som har meddelats med st&#246;d av lagen eller 
+enligt de EU-best&#228;mmelser som kompletteras av lagen f&#229;r 
+&#246;verklagas hos l&#228;nsstyrelsen. 
+
+En kommunal n&#228;mnds beslut om sanktionsavgift &#246;verklagas dock 
+till allm&#228;n f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till 
+kammarr&#228;tten. Lag (2018:645).
+
+32 &#167; Beslut av Jordbruksverket eller av en annan statlig 
+f&#246;rvaltningsmyndighet enligt denna lag, enligt de 
+f&#246;reskrifter som har meddelats med st&#246;d av lagen eller enligt 
+de EU-best&#228;mmelser som lagen kompletterar, f&#229;r &#246;verklagas till 
+allm&#228;n f&#246;rvaltningsdomstol.
+
+Detsamma g&#228;ller beslut som har meddelats av ett organ med 
+delegerade uppgifter eller av en fysisk person som har 
+delegerats vissa uppgifter.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+Beslut som g&#228;ller F&#246;rsvarsmakten eller F&#246;rsvarets materielverk 
+&#246;verklagas dock till regeringen. Lag (2021:170).
+
+32 a &#167; Den myndighet som har delegerat uppgiften att ut&#246;va 
+offentlig kontroll eller annan offentlig verksamhet till ett 
+organ eller till en fysisk person ska f&#246;ra det allm&#228;nnas talan 
+i allm&#228;n f&#246;rvaltningsdomstol, om det &#246;verklagade beslutet har 
+meddelats av ett s&#229;dant organ eller en s&#229;dan fysisk person.
+
+Lagen (1986:1142) om &#246;verklagande av beslut av enskilda organ 
+med offentliga f&#246;rvaltningsuppgifter ska g&#228;lla &#228;ven f&#246;r 
+&#246;verklagande av beslut som har meddelats av en fysisk person 
+som har delegerats vissa uppgifter. Lag (2021:170).
+
+33 &#167; En myndighet f&#229;r best&#228;mma att dess beslut ska g&#228;lla 
+omedelbart &#228;ven om det &#246;verklagas. Detta g&#228;ller dock inte 
+beslut om sanktionsavgift. Lag (2018:645).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2006:805
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2006. Genom lagen
+upph&#228;vs lagen (1985:295) om foder.
+
+2. F&#246;rbud, f&#246;rel&#228;gganden och andra beslut om skyldigheter f&#246;r
+enskilda som har meddelats med st&#246;d av &#228;ldre f&#246;reskrifter skall
+anses beslutade enligt denna lag.
+
+3. F&#246;r &#246;verklagande av beslut som har meddelats f&#246;re
+ikrafttr&#228;dandet av l&#228;nsstyrelsen eller av en annan myndighet
+till vilken Statens jordbruksverk har &#246;verl&#229;tit att ut&#246;va
+tillsyn g&#228;ller &#228;ldre f&#246;reskrifter.
+
+4. Fram till och med den 31 december 2006 skall i st&#228;llet f&#246;r
+28 &#167; f&#246;ljande g&#228;lla. Regeringen eller den myndighet som
+regeringen best&#228;mmer f&#229;r meddela f&#246;reskrifter om att avgifter
+f&#229;r tas ut f&#246;r offentlig kontroll och i &#228;renden enligt lagen,
+de f&#246;reskrifter som har meddelats med st&#246;d av lagen eller de
+EG-best&#228;mmelser som kompletteras av lagen. Regeringen f&#229;r
+&#246;verl&#229;ta &#229;t kommunen att meddela f&#246;reskrifter om s&#229;dana
+avgifter. Regeringen eller den myndighet som regeringen
+best&#228;mmer f&#229;r meddela f&#246;reskrifter om ber&#228;kningen av avgifter
+som tas ut av statliga myndigheter och av kontrollorgan.
+
+2008:661
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2009.
+
+2. Beslut som har meddelats av en kommunal n&#228;mnd med st&#246;d av
+&#228;ldre f&#246;reskrifter g&#228;ller fortfarande.
+
+2017:752
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2018.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller f&#246;r &#246;verklagande av beslut som 
+har tillk&#228;nnagetts f&#246;re ikrafttr&#228;dandet.
+
+2017:784
+
+1. Denna lag tr&#228;der i kraft den 1 oktober 2017.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r &#246;verklagande av 
+beslut som har meddelats f&#246;re den 1 oktober 2017.
+
+2018:645
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2019.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r &#246;vertr&#228;delser 
+som har skett f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2221">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2223">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

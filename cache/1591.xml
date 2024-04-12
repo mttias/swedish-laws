@@ -1,0 +1,763 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2011-03-22" /> 
+ <meta id="rattsinfo-edited" content="2020-02-14" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1591</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1590">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1592">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2011:231 ·
+                    <a href="/sfsr?bet=2011:231">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2011:231) om underlag f&#246;r &#229;rsredovisning f&#246;r staten</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet BA ToT
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2011-03-10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:578
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2011-04-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; I denna f&#246;rordning finns best&#228;mmelser om det underlag som
+regeringen beh&#246;ver vid uppr&#228;ttandet av &#229;rsredovisning f&#246;r
+staten enligt 10 kap. 2 och 5–10 &#167;&#167; budgetlagen (2011:203).
+
+2 &#167; Ekonomistyrningsverket och Riksg&#228;ldskontoret ska senast 
+den 15 mars varje &#229;r till regeringen l&#228;mna underlag till 
+&#229;rsredovisningen f&#246;r staten f&#246;r det n&#228;rmast f&#246;reg&#229;ende 
+budget&#229;ret.
+
+Ekonomistyrningsverket ska senast den 25 mars varje &#229;r l&#228;mna 
+kompletterande underlag till regeringen om hel- och del&#228;gda 
+f&#246;retag utifr&#229;n reviderade &#229;rsredovisningar.
+F&#246;rordning (2019:578).
+
+2 a &#167; Kammarkollegiet ska senast den 1 mars och den 24 mars 
+varje &#229;r l&#228;mna v&#228;rderingsunderlag avseende statens hel- och 
+del&#228;gda f&#246;retag till Ekonomistyrningsverket. 
+
+Uppgifterna om v&#228;rderingsunderlag ska l&#228;mnas efter samr&#229;d med 
+Ekonomistyrningsverket. F&#246;rordning (2019:578).
+
+3 &#167; Ekonomistyrningsverkets underlag ska avse
+
+1. en uppf&#246;ljning av utfallet av utgiftstaket f&#246;r staten,
+
+2. utfallet p&#229; budgetens inkomsttitlar och anslag samt av
+statens l&#229;nebehov,
+
+3. en redovisning av hur bemyndiganden som regeringen f&#229;tt med
+st&#246;d av 6 kap. 1 &#167; f&#246;rsta stycket budgetlagen (2011:203) har
+utnyttjats,
+
+4. en resultatr&#228;kning, en balansr&#228;kning, en
+finansieringsanalys och noter,
+
+5. en redovisning av utvecklingen av statsskulden, samt
+
+6. en resultatr&#228;kning och en balansr&#228;kning avseende EU-medel
+samt en kassam&#228;ssig redovisning av anslag och inkomsttitlar
+avseende in- och utbetalningar till och fr&#229;n Europeiska
+unionen.
+
+Uppgifterna enligt f&#246;rsta stycket 5 ska l&#228;mnas efter samr&#229;d
+med Riksg&#228;ldskontoret.
+
+4 &#167; Riksg&#228;ldskontorets underlag ska inneh&#229;lla en redovisning
+av hur bemyndiganden som regeringen f&#229;tt med st&#246;d av 6 kap.
+3 &#167; budgetlagen (2011:203) har utnyttjats, samt upplysningar
+om f&#246;rv&#228;ntade f&#246;rluster och v&#228;sentliga risker i statens
+utl&#229;ning och garantier som utst&#228;llts enligt 6 kap. 3 &#167;
+budgetlagen. Uppgifterna ska l&#228;mnas efter samr&#229;d med
+Ekonomistyrningsverket.
+
+5 &#167; Redovisningen ska fullg&#246;ras p&#229; ett s&#228;tt som &#246;verensst&#228;mmer
+med god redovisningssed.
+
+Redovisningen ska ge en r&#228;ttvisande bild av verksamheten, det
+ekonomiska resultatet och st&#228;llningen samt f&#246;rvaltningen av
+statens tillg&#229;ngar.
+
+Utfallet p&#229; statens budget
+
+6 &#167; Ut&#246;ver utfallet p&#229; inkomsttitlar och anslag samt statens
+l&#229;nebehov enligt 3 &#167; f&#246;rsta stycket 2 ska &#228;ven utfallet f&#246;r
+Riksg&#228;ldskontorets nettoutl&#229;ning och kassam&#228;ssig korrigering
+redovisas.
+
+7 &#167; Redovisningen av utgifterna under utgiftstaket samt f&#246;r
+inkomsttitlar och anslag ska inneh&#229;lla en j&#228;mf&#246;relse med de
+ber&#228;knade inkomsterna och de budgeterade utgifterna. Dessutom
+ska en j&#228;mf&#246;relse g&#246;ras med utfallet f&#246;reg&#229;ende &#229;r. V&#228;sentliga
+skillnader i f&#246;rh&#229;llande till budgeterade och ber&#228;knade belopp
+samt i f&#246;rh&#229;llande till utfallet f&#246;r f&#246;reg&#229;ende &#229;r ska
+f&#246;rklaras.
+
+8 &#167; Redovisningen av budgetens utfall enligt 3 &#167; f&#246;rsta
+stycket 2 ska inneh&#229;lla en realekonomisk f&#246;rdelning av
+utfallet p&#229; budgetens anslag.
+
+9 &#167; Redovisningen av bemyndiganden enligt 3 &#167; f&#246;rsta stycket 3
+ska inneh&#229;lla en redovisning av beslutade
+best&#228;llningsbemyndiganden och utfallet f&#246;r dessa.
+
+10 &#167; Redovisningen av utl&#229;ning och garantier enligt 4 &#167; ska
+inneh&#229;lla uppgifter om
+
+1. beslutade ramar,
+
+2. utf&#228;rdade l&#229;n, garantier och utf&#228;stelser,
+
+3. avs&#228;ttningar f&#246;r f&#246;rv&#228;ntade f&#246;rluster,
+
+4. tillg&#229;ngar i garanti- och utl&#229;ningsverksamheten, samt
+
+5. konstaterade f&#246;rluster (infrianden).
+
+Redovisningen ska &#228;ven omfatta en analys av riskerna i statens
+samlade utl&#229;ning och utf&#228;rdade garantier.
+
+Resultatr&#228;kning, balansr&#228;kning och finansieringsanalys
+
+11 &#167; Resultatr&#228;kningen, balansr&#228;kningen och
+finansieringsanalysen ska omfatta statens samtliga int&#228;kter
+och kostnader, tillg&#229;ngar och skulder samt betalningar som
+p&#229;verkar statens nettouppl&#229;ning. Riksbankens grundfond ska i
+detta sammanhang anses utg&#246;ra en tillg&#229;ng hos staten.
+
+Redovisningen enligt f&#246;rsta stycket ska utg&#246;ra en
+konsolidering av &#229;rsredovisningarna hos myndigheterna under
+riksdagen och regeringen. Underlaget f&#229;r kompletteras med
+ekonomiska h&#228;ndelser som inte har redovisats av myndigheterna.
+
+Int&#228;kter och kostnader, tillg&#229;ngar och skulder samt
+betalningar som redovisas av Riksbanken samt F&#246;rsta–Fj&#228;rde,
+Sj&#228;tte och Sjunde AP-fonden ska dock inte konsolideras. Inte
+heller ska premiepensionssystemets tillg&#229;ngar och skulder i
+&#246;vrigt med dess avkastning ing&#229; i konsolideringen.
+
+12 &#167; Vid uppr&#228;ttandet av resultatr&#228;kningen, balansr&#228;kningen
+och finansieringsanalysen ska
+
+1. samma principer f&#246;r v&#228;rdering, klassificering och indelning
+av de olika posterna i &#229;rsredovisningen till&#228;mpas fr&#229;n ett
+budget&#229;r till ett annat,
+
+2. v&#228;rderingen av de olika posterna g&#246;ras med rimlig
+f&#246;rsiktighet,
+
+3. int&#228;kter och kostnader som &#228;r h&#228;nf&#246;rliga till budget&#229;ret
+tas med oavsett tidpunkten f&#246;r betalningen,
+
+4. de olika best&#229;ndsdelar som balansr&#228;kningen best&#229;r av
+v&#228;rderas var f&#246;r sig,
+
+5. tillg&#229;ngar och skulder eller int&#228;kter och kostnader inte
+kvittas mot varandra, samt
+
+6. den ing&#229;ende balansen f&#246;r ett budget&#229;r &#246;verensst&#228;mma med
+den utg&#229;ende balansen f&#246;r det n&#228;rmast f&#246;reg&#229;ende budget&#229;ret.
+
+Om det finns sk&#228;l till det och det &#228;r f&#246;renligt med vad som
+f&#246;reskrivs i 5 &#167;, f&#229;r avvikelse g&#246;ras fr&#229;n f&#246;rsta stycket. I
+s&#229; fall ska upplysningar l&#228;mnas om sk&#228;len f&#246;r avvikelsen och
+en bed&#246;mning av dess effekt p&#229; den ekonomiska st&#228;llningen och
+resultatet redovisas.
+
+13 &#167; Resultatr&#228;kningen ska st&#228;llas upp med f&#246;ljande rubriker
+och poster:
+
+Int&#228;kter
+
+Skatteint&#228;kter
+
+Int&#228;kter av avgifter och andra ers&#228;ttningar
+
+Int&#228;kter av bidrag
+
+Summa int&#228;kter
+
+Kostnader
+
+Transfereringar m.m.
+
+ Transfereringar till hush&#229;ll
+
+ Transfereringar till f&#246;retag
+
+ Transfereringar till kommuner
+
+ Transfereringar till utlandet
+
+ Netto&#246;verf&#246;ring till &#229;lderspensionssystemet
+
+ Avs&#228;ttningar till/uppl&#246;sning av fonder
+
+Summa transfereringar m.m.
+
+Statens egen verksamhet
+
+ Kostnader f&#246;r personal
+
+ Kostnader f&#246;r lokaler
+
+ Vissa garanti- och kreditkostnader
+
+ &#214;vriga driftkostnader
+
+ Avskrivningar och nedskrivningar
+
+Summa statens egen verksamhet
+
+Summa kostnader
+
+Saldo f&#246;re resultat fr&#229;n andelar och finansiella poster
+
+Resultat fr&#229;n andelar i hel- och del&#228;gda f&#246;retag
+
+Finansiella int&#228;kter och kostnader
+
+Nettokostnad f&#246;r statsskulden
+
+&#214;vriga finansiella int&#228;kter
+
+&#214;vriga finansiella kostnader
+
+Summa finansiella poster
+
+&#197;rets &#246;ver- eller underskott
+
+14 &#167; Balansr&#228;kningen ska st&#228;llas upp med f&#246;ljande rubriker och 
+poster: 
+
+Tillg&#229;ngar 
+
+Anl&#228;ggningstillg&#229;ngar 
+
+Immateriella anl&#228;ggningstillg&#229;ngar 
+
+Balanserade utgifter f&#246;r utveckling 
+
+R&#228;ttigheter och andra immateriella anl&#228;ggningstillg&#229;ngar 
+
+F&#246;rskott avseende immateriella anl&#228;ggningstillg&#229;ngar 
+
+Summa immateriella anl&#228;ggningstillg&#229;ngar 
+
+Materiella anl&#228;ggningstillg&#229;ngar 
+
+Statliga v&#228;ganl&#228;ggningar 
+
+Statliga j&#228;rnv&#228;gsanl&#228;ggningar 
+
+Byggnader, mark och annan fast egendom 
+
+F&#246;rb&#228;ttringsutgifter p&#229; annans fastighet 
+
+Maskiner, inventarier, installationer m.m. 
+
+P&#229;g&#229;ende nyanl&#228;ggningar 
+
+Beredskapstillg&#229;ngar 
+
+F&#246;rskott avseende materiella anl&#228;ggningstillg&#229;ngar 
+
+Summa materiella anl&#228;ggningstillg&#229;ngar 
+
+Finansiella anl&#228;ggningstillg&#229;ngar 
+
+Andelar i hel- och del&#228;gda f&#246;retag 
+
+Andra l&#229;ngfristiga v&#228;rdepappersinnehav 
+
+L&#229;ngfristiga fordringar 
+
+Summa finansiella anl&#228;ggningstillg&#229;ngar 
+
+Summa anl&#228;ggningstillg&#229;ngar 
+
+Utl&#229;ning 
+
+Varulager m.m. 
+
+Varulager och f&#246;rr&#229;d 
+
+P&#229;g&#229;ende arbeten 
+
+Fastigheter 
+
+F&#246;rskott till leverant&#246;rer 
+
+Summa varulager m.m. 
+
+Fordringar 
+
+Kundfordringar 
+
+&#214;vriga kortfristiga fordringar 
+
+Summa fordringar 
+
+Periodavgr&#228;nsningsposter 
+
+F&#246;rutbetalda kostnader 
+
+Upplupna bidragsint&#228;kter 
+
+&#214;vriga upplupna int&#228;kter 
+
+Summa periodavgr&#228;nsningsposter 
+
+Kortfristiga placeringar 
+
+V&#228;rdepapper och andelar 
+
+Summa kortfristiga placeringar 
+
+Kassa och bank 
+
+Summa tillg&#229;ngar 
+
+Kapital och skulder 
+
+Nettof&#246;rm&#246;genhet 
+
+Fonder 
+
+Avs&#228;ttningar 
+
+Avs&#228;ttningar f&#246;r pensioner och liknande f&#246;rpliktelser 
+
+Avs&#228;ttningar f&#246;r garantier 
+
+Avs&#228;ttningar f&#246;r avhj&#228;lpande av milj&#246;skador 
+
+&#214;vriga avs&#228;ttningar 
+
+Summa avs&#228;ttningar 
+
+Statsskulden 
+
+L&#229;n i svenska kronor 
+
+L&#229;n i utl&#228;ndsk valuta 
+
+Summa statsskulden 
+
+Skulder m.m. 
+
+L&#229;ngfristiga skulder 
+
+Leverant&#246;rsskulder 
+
+&#214;vriga kortfristiga skulder 
+
+Depositioner 
+
+F&#246;rskott fr&#229;n uppdragsgivare och kunder 
+
+Summa skulder m.m. 
+
+Periodavgr&#228;nsningsposter 
+
+Upplupna kostnader 
+
+Of&#246;rbrukade bidrag 
+
+&#214;vriga f&#246;rutbetalda int&#228;kter 
+
+Summa periodavgr&#228;nsningsposter 
+
+Summa kapital och skulder 
+
+Garantif&#246;rbindelser 
+
+&#214;vriga ansvarsf&#246;rbindelser
+F&#246;rordning (2019:578).
+
+15 &#167; Finansieringsanalysen ska st&#228;llas upp med f&#246;ljande
+rubriker och poster:
+
+Statens verksamhet
+
+Skatter
+
+Avgifter och andra ers&#228;ttningar
+
+Int&#228;kter av bidrag
+
+Summa justerade int&#228;kter
+
+Transfereringar
+
+Statens egen verksamhet
+
+Summa justerade kostnader
+
+Justeringar till betalningar
+
+Saldo statens verksamhet
+
+Investeringar
+
+Finansiella investeringar
+
+Materiella investeringar
+
+Immateriella investeringar
+
+Summa investeringsutgifter
+
+F&#246;rs&#228;ljning av anl&#228;ggningstillg&#229;ngar
+
+Summa investeringsverksamhet
+
+Utl&#229;ning
+
+Nyutl&#229;ning
+
+Amorteringar
+
+Summa utl&#229;ning
+
+Finansiella aktiviteter
+
+Finansiellt netto f&#246;r statens uppl&#229;ning
+
+&#214;vrigt finansiellt netto
+
+Justeringar till betalningar
+
+Summa finansiella aktiviteter
+
+Totalt
+
+Statens nettouppl&#229;ning
+
+F&#246;r&#228;ndring av statsskulden
+
+Orealiserade valutakursf&#246;r&#228;ndringar
+
+Totalt
+
+16 &#167; F&#246;r varje post i balansr&#228;kningen, resultatr&#228;kningen och
+finansieringsanalysen ska beloppet f&#246;r det n&#228;rmast f&#246;reg&#229;ende
+budget&#229;ret anges.
+
+Om principerna f&#246;r v&#228;rdering, klassificering eller indelning i
+poster &#228;ndrats, ska posterna f&#246;r n&#228;rmast f&#246;reg&#229;ende budget&#229;r
+r&#228;knas om eller &#228;ndras p&#229; det s&#228;tt som beh&#246;vs f&#246;r att de ska
+kunna j&#228;mf&#246;ras med budget&#229;rets poster p&#229; ett meningsfullt
+s&#228;tt. Om det finns s&#228;rskilda sk&#228;l, och det &#228;r f&#246;renligt med
+god redovisningssed, f&#229;r Ekonomistyrningsverket avst&#229; fr&#229;n
+omr&#228;kning av j&#228;mf&#246;relsetal. I s&#229; fall ska sk&#228;len f&#246;r detta
+anges.
+
+Ben&#228;mningen p&#229; en post enligt 13–15 &#167;&#167; (den l&#228;gsta niv&#229;n under
+respektive rubrik i de angivna uppst&#228;llningsformerna) f&#229;r
+&#228;ndras och en post f&#229;r delas upp p&#229; flera poster om det &#228;r
+motiverat med h&#228;nsyn till informationens inneh&#229;ll.
+
+17 &#167; Vid v&#228;rdering av tillg&#229;ngar och skulder ska de principer
+som framg&#229;r av 5 kap. f&#246;rordningen (2000:605) om
+&#229;rsredovisning och budgetunderlag till&#228;mpas.
+
+17 a &#167; Vid v&#228;rdering av aktier och andelar i hel- och del&#228;gda 
+f&#246;retag ska f&#246;renklad substansv&#228;rdering till&#228;mpas. 
+
+Med del&#228;gt f&#246;retag avses ett f&#246;retag som staten &#228;ger minst 
+20 procent av aktierna eller andelarna i.
+F&#246;rordning (2019:578).
+
+18 &#167; Information om principerna f&#246;r v&#228;rdering av poster i
+balansr&#228;kningen och resultatr&#228;kningen, liksom annan v&#228;sentlig
+information som beh&#246;vs f&#246;r bed&#246;mningen av redovisningen, ska
+l&#228;mnas i till&#228;ggsupplysningar.
+
+19 &#167; I anslutning till finansieringsanalysen ska information
+om sambandet mellan budgetens saldo och resultatr&#228;kningens
+&#246;ver- eller underskott l&#228;mnas s&#228;rskilt.
+
+20 &#167; Redovisningen av utvecklingen av statsskulden enligt 3 &#167;
+f&#246;rsta stycket 5 ska avse den konsoliderade statsskulden
+enligt balansr&#228;kningen. Den ska &#246;versiktligt beskriva
+utvecklingen av statsskulden och dess sammans&#228;ttning,
+statsskuldens kostnader under de senaste fem &#229;ren samt de
+huvudsakliga skillnaderna mellan den konsoliderade och
+okonsoliderade statsskulden.
+
+Sammanst&#228;llning av EU-r&#228;kenskaper
+
+21 &#167; Sammanst&#228;llningen av EU-r&#228;kenskaperna enligt 3 &#167; f&#246;rsta
+stycket 6 ska avse medel under gemensam f&#246;rvaltning fr&#229;n och
+med den fler&#229;riga budgetramen 2007–2013.
+
+&#214;vrig information
+
+22 &#167; Ut&#246;ver informationen enligt 3 &#167; ska
+Ekonomistyrningsverket i anslutning till att myndigheten
+l&#228;mnar sitt underlag till regeringen redovisa en &#246;versiktlig
+sammanst&#228;llning av tillg&#229;ngar och skulder f&#246;r verksamheter som
+staten har ett v&#228;sentligt inflytande &#246;ver. Sammanst&#228;llningen
+ska ut&#246;ver vad som anges i 11 &#167; omfatta
+
+1. bolag (inklusive banker och finansinstitut) d&#228;r statens
+&#228;garandel uppg&#229;r till minst 20 procent,
+
+2. AP-fonderna,
+
+3. Riksbanken, och
+
+4. Allm&#228;nna arvsfonden.
+
+23 &#167; Ekonomistyrningsverket och Riksg&#228;ldskontoret ska &#228;ven
+l&#228;mna annan information som beh&#246;vs f&#246;r uppr&#228;ttandet av
+&#229;rsredovisningen f&#246;r staten.
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2011:231
+
+Denna f&#246;rordning tr&#228;der i kraft den 1 april 2011 och till&#228;mpas
+f&#246;rsta g&#229;ngen i fr&#229;ga om &#229;rsredovisningen f&#246;r staten f&#246;r 2011.
+
+2019:578
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2020.
+
+2. Best&#228;mmelsen i 17 a &#167; till&#228;mpas f&#246;rsta g&#229;ngen i fr&#229;ga om 
+&#229;rsredovisningen f&#246;r staten 2020.
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1590">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1592">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

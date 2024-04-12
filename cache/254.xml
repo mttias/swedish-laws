@@ -1,0 +1,982 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-07-10" /> 
+ <meta id="rattsinfo-edited" content="2023-07-10 12:40:48" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>254</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=253">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=255">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2022:416 ·
+                    <a href="/sfsr?bet=2022:416">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">J&#228;rnv&#228;gsmarknadsf&#246;rordning (2022:416)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSIB TM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2022-05-12
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:269
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2022-06-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Inledande best&#228;mmelser 
+
+F&#246;rordningens inneh&#229;ll
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller f&#246;reskrifter i anslutning till 
+j&#228;rnv&#228;gsmarknadslagen (2022:365). 
+
+I f&#246;rordningen finns d&#228;rut&#246;ver s&#228;rskilda best&#228;mmelser om 
+nedl&#228;ggning, upph&#246;rande av underh&#229;ll, uppl&#229;telse och 
+&#246;verl&#229;telse av en del av det j&#228;rnv&#228;gsn&#228;t eller de andra 
+j&#228;rnv&#228;gssp&#229;ranl&#228;ggningar som &#228;gs och f&#246;rvaltas av staten. 
+
+2 &#167; Best&#228;mmelserna i f&#246;rordningen avser 
+
+- inledande best&#228;mmelser (1 kap.), 
+
+- licens (2 kap.), 
+
+- krav f&#246;r att s&#228;kerst&#228;lla infrastrukturf&#246;rvaltares oberoende 
+(3 kap.), 
+
+- krav f&#246;r att s&#228;kerst&#228;lla infrastrukturf&#246;rvaltares oberoende 
+i vertikalt integrerade f&#246;retag (4 kap.), 
+
+- infrastrukturkapacitet, avgifter, tj&#228;nster m.m. (5 kap.), 
+
+- s&#228;rskilda best&#228;mmelser f&#246;r Trafikverket som 
+infrastrukturf&#246;rvaltare f&#246;r det statliga j&#228;rnv&#228;gsn&#228;tet m.m. 
+(6 kap.), 
+
+- &#246;vriga best&#228;mmelser (7 kap.). 
+
+3 &#167; F&#246;r ett j&#228;rnv&#228;gsf&#246;retag ska 2-4 kap. till&#228;mpas endast om 
+f&#246;retaget i egenskap av j&#228;rnv&#228;gsf&#246;retag har som huvudsaklig 
+verksamhet, eller som en av flera huvudsakliga verksamheter, 
+att tillhandah&#229;lla gods- eller persontrafik eller dragkraft 
+f&#246;r s&#229;dan trafik.
+
+4 &#167; F&#246;rordningen &#228;r meddelad med st&#246;d av 
+
+- 1 kap. 12 och 13 &#167;&#167; j&#228;rnv&#228;gsmarknadslagen (2022:365) i fr&#229;ga 
+om 1 kap. 7 och 8 &#167;&#167;, 
+
+- 2 kap. 6 &#167; i samma lag i fr&#229;ga om 2 kap. 12-15 &#167;&#167;, 
+
+- 3 kap. 6 &#167; i samma lag i fr&#229;ga om 5 kap. 9 &#167; 1,
+
+- 4 kap. 10 &#167; i samma lag i fr&#229;ga om 3 kap. 1-6 &#167;&#167;, 
+
+- 5 kap. 11 &#167; i samma lag i fr&#229;ga om 4 kap.1-5 &#167;&#167;, 
+
+- 6 kap. 4 &#167; i samma lag i fr&#229;ga om 5 kap. 8 &#167;, 
+
+- 7 kap. 31 &#167; i samma lag i fr&#229;ga om 5 kap. 1-4 och 7 &#167;&#167; och 
+9 &#167; 2-4,
+
+- 8 kap. 11 &#167; i samma lag i fr&#229;ga om 5 kap. 9 &#167; 5 och 6,
+
+- 9 kap. 8 och 9 &#167;&#167; i samma lag i fr&#229;ga om 5 kap. 9 &#167; 7-9 &#167;&#167;,
+
+- 10 kap. 10 &#167; i samma lag i fr&#229;ga om 7 kap. 7 &#167;, 
+
+- 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 1 kap. 5 &#167; andra 
+stycket och 6 kap. 13 &#167;, och
+
+- 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga best&#228;mmelser.
+
+Tillsynsmyndighet
+
+5 &#167; Transportstyrelsen &#228;r tillsynsmyndighet enligt 
+j&#228;rnv&#228;gsmarknadslagen (2022:365). 
+
+Transportstyrelsen f&#229;r meddela f&#246;reskrifter om 
+verkst&#228;lligheten av j&#228;rnv&#228;gsmarknadslagen och 1-5 och 7 kap. i 
+denna f&#246;rordning.
+
+Ord och uttryck
+
+6 &#167; De ord och uttryck som anv&#228;nds i denna f&#246;rordning har 
+samma betydelse som i j&#228;rnv&#228;gsmarknadslagen (2022:365). 
+D&#228;rut&#246;ver betyder
+
+ERA: Europeiska unionens j&#228;rnv&#228;gsbyr&#229;,
+
+regional kollektivtrafikmyndighet: den som &#228;r regional 
+kollektivtrafikmyndighet enligt lagen (2010:1065) om 
+kollektivtrafik. 
+
+Bemyndiganden
+
+7 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om 
+skyldigheter f&#246;r infrastrukturf&#246;rvaltare att f&#246;ra register 
+&#246;ver sin j&#228;rnv&#228;gsinfrastruktur och andra liknande anl&#228;ggningar 
+och anordningar.
+
+8 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om avgifter 
+f&#246;r tillsyn, registrering och &#228;rendehandl&#228;ggning enligt 
+
+1. j&#228;rnv&#228;gsmarknadslagen (2022:365), denna f&#246;rordning och 
+f&#246;reskrifter som har meddelats med st&#246;d av f&#246;rordningen, och 
+
+2. s&#229;dana direkt till&#228;mpliga EU-r&#228;ttsakter som har utf&#228;rdats 
+med st&#246;d av Europaparlamentets och r&#229;dets direktiv 2012/34/EU 
+av den 21 november 2012 om inr&#228;ttande av ett gemensamt 
+europeiskt j&#228;rnv&#228;gsomr&#229;de och av Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) nr 913/2010 av den 22 september 2010 om ett 
+europeiskt j&#228;rnv&#228;gsn&#228;t f&#246;r konkurrenskraftig godstrafik. 
+
+Avgifter f&#246;r kulturhistorisk verksamhet p&#229; j&#228;rnv&#228;g som bedrivs 
+i begr&#228;nsad omfattning och utan vinstsyfte f&#229;r best&#228;mmas upp 
+till full kostnadst&#228;ckning. 
+
+2 kap. Licens
+
+Tidsfrist f&#246;r pr&#246;vning av en ans&#246;kan om licens
+
+1 &#167; Transportstyrelsen ska p&#229; ans&#246;kan fatta ett beslut om 
+licens enligt 2 kap. 2 &#167; j&#228;rnv&#228;gsmarknadslagen (2022:365) 
+senast tre m&#229;nader efter det att en fullst&#228;ndig ans&#246;kan har 
+getts in till Transportstyrelsen. 
+
+Offentligg&#246;rande av en beskrivning av f&#246;rfarandet f&#246;r att 
+beviljas en licens
+
+2 &#167; Transportstyrelsen ska p&#229; sin webbplats offentligg&#246;ra en 
+beskrivning av f&#246;rfarandet f&#246;r att beviljas en licens. 
+Transportstyrelsen ska informera Europeiska kommissionen om 
+var beskrivningen finns tillg&#228;nglig. 
+
+Underr&#228;ttelser om licens
+
+3 &#167; N&#228;r Transportstyrelsen har utf&#228;rdat, &#228;ndrat eller 
+&#229;terkallat en licens ska Transportstyrelsen omedelbart 
+underr&#228;tta ERA om detta. 
+
+4 &#167; Om Transportstyrelsen konstaterar att ett j&#228;rnv&#228;gsf&#246;retag 
+som har beviljats en licens i ett annat land inom EES eller i 
+Schweiz inte uppfyller uppst&#228;llda krav, ska Transportstyrelsen 
+genast underr&#228;tta tillst&#229;ndsmyndigheten i det land som har 
+beviljat licensen.
+
+Krav f&#246;r att beviljas en licens
+
+Kravet p&#229; yrkeskunnande
+
+5 &#167; Kravet p&#229; yrkeskunnande i 2 kap. 2 &#167; f&#246;rsta stycket 2 
+j&#228;rnv&#228;gsmarknadslagen (2022:365) ska anses uppfyllt av den som 
+f&#246;rfogar &#246;ver en ledningsorganisation som har den kunskap och 
+erfarenhet som kr&#228;vs f&#246;r att ut&#246;va en s&#228;ker och p&#229;litlig 
+operativ kontroll &#246;ver den typ av verksamhet som ans&#246;kan 
+g&#228;ller.
+
+Kravet p&#229; ekonomisk f&#246;rm&#229;ga
+
+6 &#167; Kravet p&#229; ekonomisk f&#246;rm&#229;ga i 2 kap. 2 &#167; f&#246;rsta stycket 2 
+j&#228;rnv&#228;gsmarknadslagen (2022:365) ska anses uppfyllt av den som 
+kan visa att denne enligt realistiska antaganden kan uppfylla 
+sina ekonomiska skyldigheter under 12 m&#229;nader fr&#229;n det att en 
+fullst&#228;ndig ans&#246;kan om licens har getts in till 
+Transportstyrelsen. 
+
+7 &#167; Den som ans&#246;ker om en licens enligt 2 kap. 2 &#167; 
+j&#228;rnv&#228;gsmarknadslagen (2022:365) ska i ans&#246;kan l&#228;mna uppgifter 
+om sin ekonomiska f&#246;rm&#229;ga. 
+
+Uppgifter ska l&#228;mnas om &#229;tminstone
+
+1. tillg&#228;ngliga medel, inklusive beviljade 
+checkr&#228;kningskrediter och l&#229;n, 
+
+2. medel och tillg&#229;ngar som kan anv&#228;ndas som s&#228;kerhet,
+
+3. r&#246;relsekapital,
+
+4. fasta och r&#246;rliga kostnader, inklusive ink&#246;pskostnader 
+eller f&#246;rskottsbetalningar f&#246;r fordon och annan rullande 
+materiel, mark, byggnader och anl&#228;ggningar, och 
+
+5. skatter och sociala avgifter. 
+
+8 &#167; Transportstyrelsen ska kontrollera den ekonomiska f&#246;rm&#229;gan 
+enligt 6 &#167; genom en granskning av &#229;rsredovisningen eller, i de 
+fall en &#229;rsredovisning inte finns, &#229;rets balansr&#228;kning. 
+
+9 &#167; Kravet p&#229; ekonomisk f&#246;rm&#229;ga enligt 2 kap. 2 &#167; f&#246;rsta 
+stycket 2 j&#228;rnv&#228;gsmarknadslagen (2022:365) ska inte anses 
+uppfyllt av den som har betydande skulder f&#246;r skatter och 
+sociala avgifter. 
+
+10 &#167; Transportstyrelsen f&#229;r, f&#246;r att kunna kontrollera den 
+ekonomiska f&#246;rm&#229;gan enligt 2 kap. 2 &#167; f&#246;rsta 
+stycket 2 j&#228;rnv&#228;gsmarknadslagen (2022:365), beg&#228;ra att den 
+s&#246;kande l&#228;mnar en revisionsber&#228;ttelse eller andra handlingar 
+som inneh&#229;ller de uppgifter som avses i 7 &#167; och som har 
+uppr&#228;ttats av en bank, en bokf&#246;ringsbyr&#229; eller en auktoriserad 
+revisor.
+
+Kravet p&#229; gott anseende
+
+11 &#167; Kravet p&#229; gott anseende enligt 2 kap. 2 &#167; f&#246;rsta 
+stycket 2 j&#228;rnv&#228;gsmarknadslagen (2022:365) ska inte anses 
+uppfyllt av den som &#228;r f&#246;rsatt i konkurs. Det ska inte heller 
+anses uppfyllt om n&#229;gon som ing&#229;r i f&#246;retagets ledning &#228;r 
+f&#246;rsatt i konkurs eller har d&#246;mts f&#246;r 
+
+1. allvarliga brott, inklusive ekonomiska brott, 
+
+2. allvarliga &#246;vertr&#228;delser av lagstiftning som g&#228;ller 
+transporter, eller 
+
+3. allvarlig eller upprepad underl&#229;tenhet att uppfylla 
+skyldigheter enligt sociallagstiftning, arbetsr&#228;ttslig 
+lagstiftning eller arbetsmilj&#246;lagstiftning eller, n&#228;r det 
+g&#228;ller f&#246;retag som avser att bedriva gr&#228;ns&#246;verskridande 
+godstransporter, tullagstiftning.
+
+Tillf&#228;llig licens
+
+12 &#167; Om Transportstyrelsen har &#229;terkallat en licens med st&#246;d 
+av 2 kap. 4 &#167; j&#228;rnv&#228;gsmarknadslagen (2022:365) p&#229; grund av att 
+j&#228;rnv&#228;gsf&#246;retaget inte har uppfyllt kravet p&#229; ekonomisk 
+f&#246;rm&#229;ga, f&#229;r en tillf&#228;llig licens utf&#228;rdas under den tid som 
+j&#228;rnv&#228;gsf&#246;retaget omorganiseras. Detta g&#228;ller dock endast om 
+Transportstyrelsen bed&#246;mer att s&#228;kerheten inte &#228;ventyras. 
+
+En tillf&#228;llig licens f&#229;r vara giltig i h&#246;gst sex m&#229;nader fr&#229;n 
+den dag d&#229; den beviljades.
+
+F&#246;rnyad pr&#246;vning av licens
+
+13 &#167; Om ett j&#228;rnv&#228;gsf&#246;retag inte har bedrivit sin verksamhet 
+under sex m&#229;nader eller inte har p&#229;b&#246;rjat verksamheten inom 
+sex m&#229;nader efter det att licensen beviljades, f&#229;r 
+Transportstyrelsen besluta att j&#228;rnv&#228;gsf&#246;retaget ska ans&#246;ka om 
+f&#246;rnyad pr&#246;vning av licensen eller att licensen tillf&#228;lligt 
+ska &#229;terkallas.
+
+Transportstyrelsen f&#229;r p&#229; beg&#228;ran av j&#228;rnv&#228;gsf&#246;retaget besluta 
+att tidsfristen f&#246;r p&#229;b&#246;rjande av verksamheten ska f&#246;rl&#228;ngas. 
+Transportstyrelsen ska vid bed&#246;mningen s&#228;rskilt beakta om de 
+transporttj&#228;nster som j&#228;rnv&#228;gsf&#246;retaget avser att bedriva 
+kr&#228;ver l&#228;ngre tid &#228;n sex m&#229;nader f&#246;r att kunna p&#229;b&#246;rjas.
+
+F&#246;r&#228;ndring av ett j&#228;rnv&#228;gsf&#246;retags &#228;garf&#246;rh&#229;llanden m.m.
+
+14 &#167; Om ett j&#228;rnv&#228;gsf&#246;retag byter &#228;gare eller sl&#229;s samman med 
+ett annat f&#246;retag, f&#229;r Transportstyrelsen besluta att 
+j&#228;rnv&#228;gsf&#246;retaget ska ans&#246;ka om f&#246;rnyad pr&#246;vning av licensen. 
+J&#228;rnv&#228;gsf&#246;retaget f&#229;r dock forts&#228;tta att bedriva verksamheten 
+medan den f&#246;rnyade pr&#246;vningen p&#229;g&#229;r, om inte 
+Transportstyrelsen p&#229; grund av s&#228;kerhetssk&#228;l beslutar n&#229;got 
+annat. 
+
+Bemyndiganden
+
+15 &#167; Transportstyrelsen f&#229;r meddela ytterligare f&#246;reskrifter 
+om 
+
+1. ompr&#246;vning av licenser, 
+
+2. tillf&#228;lliga licenser, och 
+
+3. tillf&#228;llig indragning av licenser.
+
+3 kap. Krav f&#246;r att s&#228;kerst&#228;lla infrastrukturf&#246;rvaltares 
+oberoende
+
+S&#228;rskilt om krav p&#229; opartiskhet vid trafikledning och 
+planering av underh&#229;ll 
+
+1 &#167; En infrastrukturf&#246;rvaltare som ger ett j&#228;rnv&#228;gsf&#246;retag 
+tillg&#229;ng till ytterligare information om 
+trafikledningsprocessen &#228;n vad som framg&#229;r av 5 kap. 1 &#167; 
+f&#246;rsta stycket &#228;r skyldig att g&#246;ra det p&#229; ett opartiskt och 
+icke-diskriminerande s&#228;tt i f&#246;rh&#229;llande till &#246;vriga 
+j&#228;rnv&#228;gsf&#246;retag och andra som ans&#246;ker om 
+infrastrukturkapacitet. 
+
+2 &#167; En infrastrukturf&#246;rvaltare ska vid den l&#229;ngsiktiga 
+planeringen av mer omfattande underh&#229;ll eller modernisering av 
+j&#228;rnv&#228;gsinfrastrukturen samr&#229;da med ber&#246;rda j&#228;rnv&#228;gsf&#246;retag 
+och andra som ans&#246;ker om infrastrukturkapacitet. 
+Infrastrukturf&#246;rvaltaren ska s&#229; l&#229;ngt det &#228;r m&#246;jligt ta h&#228;nsyn 
+till de synpunkter som framf&#246;rs i s&#229;dana samr&#229;d. 
+
+Uppdrag &#229;t n&#229;gon annan att sk&#246;ta infrastrukturf&#246;rvaltarens 
+uppgifter 
+
+3 &#167; En infrastrukturf&#246;rvaltare som uppdrar &#229;t n&#229;gon annan att 
+utf&#246;ra drift, underh&#229;ll eller modernisering av 
+j&#228;rnv&#228;gsinfrastrukturen ska se till att &#228;nd&#229; b&#228;ra det yttersta 
+ansvaret f&#246;r verksamheten. Infrastrukturf&#246;rvaltaren ska 
+beh&#229;lla sin r&#228;tt att kontrollera hur uppdraget utf&#246;rs. 
+
+4 &#167; Infrastrukturf&#246;rvaltaren ska se till att den som av 
+infrastrukturf&#246;rvaltaren har uppdragits att utf&#246;ra v&#228;sentliga 
+uppgifter uppfyller kraven i fr&#229;ga om s&#229;dana uppgifter i 4 och 
+5 kap. j&#228;rnv&#228;gsmarknadslagen (2022:365). 
+
+Infrastrukturf&#246;rvaltares finansiering av verksamheten 
+
+5 &#167; I en infrastrukturf&#246;rvaltares finansiering av den egna 
+verksamheten enligt 4 kap. 8 &#167; j&#228;rnv&#228;gsmarknadslagen 
+(2022:365) ska det ing&#229; avbetalning p&#229; egna l&#229;n och utdelning 
+av vinst till &#228;gare.
+
+Bemyndigande
+
+6 &#167; Transportstyrelsen f&#229;r meddela ytterligare f&#246;reskrifter om 
+krav f&#246;r att s&#228;kerst&#228;lla infrastrukturf&#246;rvaltares oberoende.
+
+4 kap. Krav f&#246;r att s&#228;kerst&#228;lla infrastrukturf&#246;rvaltares 
+oberoende i vertikalt integrerade f&#246;retag
+
+S&#228;rskilda krav p&#229; oberoende i fr&#229;ga om v&#228;sentliga uppgifter
+
+1 &#167; Om ett informationssystem delas av olika enheter i ett 
+vertikalt integrerat f&#246;retag, ska infrastrukturf&#246;rvaltaren 
+s&#228;kerst&#228;lla att endast beh&#246;rig personal hos f&#246;rvaltaren ges 
+tillg&#229;ng till k&#228;nslig information om v&#228;sentliga uppgifter. 
+
+2 &#167; En infrastrukturf&#246;rvaltare i ett vertikalt integrerat 
+f&#246;retag f&#229;r inte l&#229;ta andra enheter inom f&#246;retaget ha ett 
+avg&#246;rande inflytande &#246;ver vilka befattningshavare som 
+tilldelas eller fr&#229;ntas ansvar f&#246;r v&#228;sentliga uppgifter hos 
+f&#246;rvaltaren. 
+
+Finansiella krav
+
+3 &#167; En infrastrukturf&#246;rvaltare i ett vertikalt integrerat 
+f&#246;retag ska betala av sina skulder separat fr&#229;n andra enheter 
+i f&#246;retaget. Slutbetalningen av skulden f&#229;r dock g&#246;ras via en 
+annan enhet i f&#246;retaget. 
+
+4 &#167; En infrastrukturf&#246;rvaltare i ett vertikalt integrerat 
+f&#246;retag ska f&#246;r varje r&#228;kenskaps&#229;r bevara detaljerade 
+uppgifter om alla kommersiella och finansiella f&#246;rbindelser 
+med andra enheter i det vertikalt integrerade f&#246;retaget till 
+och med det sjunde &#229;ret efter utg&#229;ngen av det kalender&#229;r d&#229; 
+r&#228;kenskaps&#229;ret avslutades. 
+
+Bemyndiganden
+
+5 &#167; Transportstyrelsen f&#229;r meddela ytterligare f&#246;reskrifter om 
+
+1. krav f&#246;r att s&#228;kerst&#228;lla infrastrukturf&#246;rvaltares oberoende 
+i ett vertikalt integrerat f&#246;retag, 
+
+2. &#246;verl&#229;telse av infrastrukturf&#246;rvaltares uppgifter till en 
+annan enhet i samma vertikalt integrerade f&#246;retag, och
+
+3. gemensamma informationssystem och hur k&#228;nslig information 
+ska hanteras i vertikalt integrerade f&#246;retag.
+
+5 kap. Infrastrukturkapacitet, avgifter, tj&#228;nster m.m.
+
+&#197;tg&#228;rder vid st&#246;rningar i trafiken 
+
+1 &#167; En infrastrukturf&#246;rvaltare ska vid st&#246;rningar i 
+j&#228;rnv&#228;gstrafiken s&#229; snart som m&#246;jligt ge ber&#246;rda 
+j&#228;rnv&#228;gsf&#246;retag tillg&#229;ng till all tillg&#228;nglig relevant 
+information om st&#246;rningen. 
+
+Om en st&#246;rning i j&#228;rnv&#228;gstrafiken kan f&#229; p&#229;verkan p&#229; 
+internationell trafik, ska infrastrukturf&#246;rvaltaren informera 
+andra ber&#246;rda infrastrukturf&#246;rvaltare. 
+Infrastrukturf&#246;rvaltarna ska samarbeta f&#246;r att &#229;terst&#228;lla 
+trafiken till normala f&#246;rh&#229;llanden.
+
+2 &#167; En beredskapsplan enligt 7 kap. 21 &#167; f&#246;rsta stycket 
+j&#228;rnv&#228;gsmarknadslagen (2022:365) ska inneh&#229;lla en f&#246;rteckning 
+&#246;ver de myndigheter och andra akt&#246;rer som ska informeras i 
+h&#228;ndelse av en allvarlig olycka eller en allvarlig st&#246;rning i 
+j&#228;rnv&#228;gstrafiken. 
+
+3 &#167; En infrastrukturf&#246;rvaltare ska s&#229; snart som m&#246;jligt 
+informera ber&#246;rda parter om att infrastrukturkapacitet inte 
+finns att tillg&#229; till f&#246;ljd av ett oplanerat banarbete som 
+beror p&#229; en s&#229;dan st&#246;rning i j&#228;rnv&#228;gstrafiken som avses i 
+7 kap. 21 &#167; j&#228;rnv&#228;gsmarknadslagen (2022:365).
+
+4 &#167; Ett j&#228;rnv&#228;gsf&#246;retag ska ha en beredskapsplan f&#246;r att vid 
+avbrott i trafiken kunna ge sina passagerare s&#229;dan assistans 
+som avses i artikel 20 i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2021/782 av den 29 april 2021 om r&#228;ttigheter 
+och skyldigheter f&#246;r t&#229;gresen&#228;rer.
+
+Ett j&#228;rnv&#228;gsf&#246;retag ska, om det bed&#246;ms l&#228;mpligt och i den 
+utstr&#228;ckning det bed&#246;ms m&#246;jligt med h&#228;nsyn till behovet av att 
+skydda k&#228;nslig information, samordna sin beredskapsplan med 
+andra j&#228;rnv&#228;gsf&#246;retags beredskapsplaner. F&#246;rordning (2023:269).
+
+Verksamhetsstyrning med kvalitetsavgifter
+
+5 &#167; Den verksamhetsstyrning med kvalitetsavgifter som avses i 
+7 kap. 28 &#167; j&#228;rnv&#228;gsmarknadslagen (2022:365) ska utformas i 
+enlighet med de grundprinciper som framg&#229;r av bilaga VI 
+punkt 2 a, b och d-h till direktiv 2012/34/EU, i lydelsen 
+enligt direktiv (EU) 2016/2370. 
+
+6 &#167; En infrastrukturf&#246;rvaltare ska registrera och rapportera 
+avvikelser fr&#229;n s&#229;dant utnyttjande av infrastrukturen enligt 
+7 kap. 7 &#167; j&#228;rnv&#228;gsmarknadslagen (2022:00) som &#228;r fastst&#228;llt i 
+t&#229;gplan och trafikeringsavtal, i enlighet med en kodstruktur 
+som motsvarar bilaga VI punkt 2 c i direktiv 2012/34/EU, i 
+lydelsen enligt direktiv (EU) 2016/2370.
+
+Samordning vid intressekonflikter i kapacitetstilldelningen
+
+7 &#167; Vid samr&#229;d och samordning av ans&#246;kningar i 
+kapacitetstilldelningen enligt 7 kap. 12 &#167; tredje stycket och 
+13 &#167;&#167; j&#228;rnv&#228;gsmarknadslagen (2022:365) ska 
+infrastrukturf&#246;rvaltaren se till att de s&#246;kande kostnadsfritt 
+inom rimlig tid skriftligen f&#229;r tillg&#229;ng till &#229;tminstone
+
+1. uppgifter om t&#229;gl&#228;gen som har beg&#228;rts av andra s&#246;kande p&#229; 
+samma linjer,
+
+2. uppgifter om f&#246;reslagna t&#229;gl&#228;gen som har tilldelats andra 
+s&#246;kande p&#229; samma linjer,
+
+3. f&#246;reslagna alternativa t&#229;gl&#228;gen f&#246;r den s&#246;kande, och
+
+4. fullst&#228;ndig information om de kriterier som anv&#228;nds i 
+kapacitetstilldelningsf&#246;rfarandet.
+
+Om uppgifterna enligt f&#246;rsta stycket 1-4 framg&#229;r av 
+beskrivningen av j&#228;rnv&#228;gsn&#228;tet enligt 7 kap. 8 &#167; 
+j&#228;rnv&#228;gsmarknadslagen eller av f&#246;rslaget till t&#229;gplan enligt 
+7 kap. 12 &#167; f&#246;rsta stycket i samma lag, beh&#246;ver inte 
+infrastrukturf&#246;rvaltaren uppr&#228;tta n&#229;got s&#228;rskilt dokument. 
+
+8 &#167; Endast det j&#228;rnv&#228;gsf&#246;retag som Arlandabanan Infrastructure 
+AB har godk&#228;nt har r&#228;tt att ta upp och l&#228;mna av passagerare 
+som reser till eller fr&#229;n Arlanda flygplats p&#229; linjen mellan 
+Stockholms centralstation och Arlanda flygplats. Godk&#228;nnandet 
+f&#229;r l&#228;mnas endast efter regeringens medgivande.
+
+Ett godk&#228;nnande beh&#246;vs inte f&#246;r den som utf&#246;r annan trafik om 
+det f&#246;retag som enligt f&#246;rsta stycket har trafikeringsr&#228;tten 
+gett sitt samtycke till trafiken.
+
+Bemyndiganden
+
+9 &#167; Transportstyrelsen f&#229;r meddela ytterligare f&#246;reskrifter om
+
+1. redovisning och bokf&#246;ring enligt 3 kap. 1 och 2 &#167;&#167; 
+j&#228;rnv&#228;gsmarknadslagen (2022:365), 
+
+2. kapacitetstilldelning, 
+
+3. beskrivning av j&#228;rnv&#228;gsn&#228;t, 
+
+4. beredskapsplaner,
+
+5. avgiftssamarbete enligt 8 kap. 2 &#167; j&#228;rnv&#228;gsmarknadslagen, 
+
+6. analyser av marknadssegment enligt 8 kap. 6 &#167; i samma lag 
+och krav p&#229; offentligg&#246;rande av s&#229;dana analyser,
+
+7. tillhandah&#229;llande, redovisning och bokf&#246;ring av tj&#228;nster 
+enligt 9 kap. i samma lag, 
+
+8. skyldigheter f&#246;r tj&#228;nsteleverant&#246;rer att tillhandah&#229;lla 
+information om sina tilltr&#228;desvillkor och avgifter, och 
+
+9. i vilken utstr&#228;ckning genomf&#246;randeakter om tilltr&#228;de till 
+tj&#228;nster i enlighet med artikel 13.9 i direktiv 2012/34/EU ska 
+till&#228;mpas p&#229; andra &#228;n j&#228;rnv&#228;gsf&#246;retag som ans&#246;ker om tilltr&#228;de 
+till en tj&#228;nst.
+
+6 kap. S&#228;rskilda best&#228;mmelser f&#246;r Trafikverket som 
+infrastrukturf&#246;rvaltare f&#246;r det statliga j&#228;rnv&#228;gsn&#228;tet m.m.
+
+Avgifter
+
+1 &#167; Trafikverket f&#229;r ta ut avgifter enligt 8 kap. och 9 kap. 
+6 &#167; j&#228;rnv&#228;gsmarknadslagen (2022:365). F&#246;rordning (2022:1423).
+
+Incitament att s&#228;nka kostnaderna f&#246;r att tillhandah&#229;lla 
+infrastruktur
+
+2 &#167; Trafikverket ska genom en effektiv f&#246;rvaltning av 
+infrastrukturen, och utan att g&#246;ra avkall p&#229; s&#228;kerhet och 
+kvalitet p&#229; infrastrukturtj&#228;nsten, verka f&#246;r att s&#228;nka sina 
+kostnader f&#246;r att tillhandah&#229;lla infrastruktur och till f&#246;ljd 
+av detta s&#228;nka niv&#229;n p&#229; tilltr&#228;desavgifter.
+
+Trafikverkets ansvar f&#246;r inr&#228;ttande av en samordningsmekanism
+
+3 &#167; Trafikverket ska inr&#228;tta och uppr&#228;tth&#229;lla en mekanism f&#246;r 
+att s&#228;kerst&#228;lla samordningen mellan Trafikverket och ber&#246;rda 
+j&#228;rnv&#228;gsf&#246;retag och andra som ans&#246;ker om 
+infrastrukturkapacitet. Om det &#228;r l&#228;mpligt ska f&#246;retr&#228;dare f&#246;r 
+anv&#228;ndare av j&#228;rnv&#228;gstj&#228;nster f&#246;r godstransport och 
+persontrafik p&#229; j&#228;rnv&#228;g samt nationella, lokala eller 
+regionala myndigheter inbjudas att delta. Transportstyrelsen 
+f&#229;r delta som observat&#246;r. 
+
+Samordningen ska omfatta &#229;tminstone
+
+1. de s&#246;kandes behov n&#228;r det g&#228;ller underh&#229;ll och utveckling 
+av infrastrukturkapaciteten, 
+
+2. inneh&#229;llet i och genomf&#246;randet av beskrivningen av 
+j&#228;rnv&#228;gsn&#228;tet enligt 7 kap. 8 &#167; j&#228;rnv&#228;gsmarknadslagen 
+(2022:365),
+
+3. intermodalitets- och driftskompatibilitetsfr&#229;gor, och
+
+4. &#246;vriga fr&#229;gor som r&#246;r villkoren f&#246;r tilltr&#228;de till och 
+anv&#228;ndningen av infrastrukturen samt kvaliteten p&#229; 
+Trafikverkets tj&#228;nster. 
+
+Trafikverket ska efter det att ber&#246;rda parter har getts 
+tillf&#228;lle att yttra sig utarbeta och offentligg&#246;ra riktlinjer 
+f&#246;r samordningen. Samordningen ska ske minst en g&#229;ng per &#229;r. 
+Trafikverket ska p&#229; sin webbplats offentligg&#246;ra en &#246;versikt 
+&#246;ver verksamhet som genomf&#246;rs med anledning av samordningen. 
+Om samr&#229;d erbjuds ber&#246;rda parter i de fr&#229;gor som anges i andra 
+stycket enligt andra best&#228;mmelser i j&#228;rnv&#228;gsmarknadslagen 
+eller f&#246;reskrifter som har meddelats i anslutning till lagen, 
+beh&#246;ver inget s&#228;rskilt samr&#229;d i s&#229;dana fr&#229;gor genomf&#246;ras 
+enligt denna paragraf.
+
+Trafikverkets deltagande i det europeiska n&#228;tverket f&#246;r 
+infrastrukturf&#246;rvaltare
+
+4 &#167; I syfte att underl&#228;tta tillhandah&#229;llandet av en effektiv 
+och &#228;ndam&#229;lsenlig j&#228;rnv&#228;gstrafik inom unionen ska Trafikverket 
+delta och samarbeta i ett n&#228;tverk som h&#229;ller regelbundna m&#246;ten 
+f&#246;r att 
+
+1. utveckla unionens j&#228;rnv&#228;gsinfrastruktur,
+
+2. fr&#228;mja ett snabbt och effektivt genomf&#246;rande av det 
+gemensamma europeiska j&#228;rnv&#228;gsomr&#229;det,
+
+3. utbyta b&#228;sta praxis,
+
+4. &#246;vervaka och j&#228;mf&#246;ra prestandan p&#229; j&#228;rnv&#228;gsn&#228;tet,
+
+5. bidra till Europeiska kommissionens 
+marknads&#246;vervakningsverksamhet, 
+
+6. hantera gr&#228;ns&#246;verskridande flaskhalsar, och
+
+7. diskutera till&#228;mpningen av artiklarna 37 och 40 i 
+direktiv 2012/34/EU.
+
+Vid till&#228;mpningen av f&#246;rsta stycket 4 ska Trafikverket bidra 
+till att n&#228;tverket identifierar gemensamma principer och 
+metoder f&#246;r enhetlig &#246;vervakning och j&#228;mf&#246;relse av prestandan.
+
+Skyldighet att l&#228;mna uppgifter till Trafikverket
+
+5 &#167; Den som bedriver verksamhet som omfattas av 
+j&#228;rnv&#228;gsmarknadslagen (2022:365) ska till Trafikverket l&#228;mna 
+s&#229;dana uppgifter som beh&#246;vs f&#246;r f&#246;rvaltningen och utvecklingen 
+av det statliga j&#228;rnv&#228;gsn&#228;tet enligt 10 kap. 4 &#167; i samma lag.
+
+Nedl&#228;ggning, upph&#246;rande av underh&#229;ll, uppl&#229;telse m.m. av delar 
+av j&#228;rnv&#228;gsn&#228;t eller andra j&#228;rnv&#228;gssp&#229;ranl&#228;ggningar som &#228;gs 
+och f&#246;rvaltas av staten
+
+&#214;verf&#246;ring
+
+6 &#167; Trafikverket f&#229;r besluta att en j&#228;rnv&#228;gssp&#229;ranl&#228;ggning 
+eller en del av den ska f&#246;rvaltas av staten genom 
+Trafikverket, om &#228;garen till anl&#228;ggningen beg&#228;r det. 
+
+Innan Trafikverket beslutar om s&#229;dan f&#246;rvaltning, ska verket 
+ge ber&#246;rda l&#228;nsstyrelser, regionala kollektivtrafikmyndigheter 
+och andra sp&#229;rinnehavare som ber&#246;rs tillf&#228;lle att yttra sig.
+
+Upph&#246;rande av underh&#229;ll
+
+7 &#167; Trafikverket f&#229;r besluta att upph&#246;ra med underh&#229;ll av en 
+del av det j&#228;rnv&#228;gsn&#228;t eller av en annan 
+j&#228;rnv&#228;gssp&#229;ranl&#228;ggning som &#228;gs och f&#246;rvaltas av staten, om 
+trafiken p&#229; denna del av n&#228;tet eller anl&#228;ggningen &#228;r av endast 
+obetydlig omfattning. 
+
+Innan Trafikverket beslutar om att underh&#229;llet ska upph&#246;ra ska 
+verket h&#246;ra F&#246;rsvarsmakten och &#246;vriga ber&#246;rda 
+totalf&#246;rsvarsmyndigheter, ber&#246;rda l&#228;nsstyrelser, regioner, 
+kommuner, regionala kollektivtrafikmyndigheter och 
+j&#228;rnv&#228;gsf&#246;retag samt andra som &#228;r ber&#246;rda.
+
+8 &#167; Trafikverket f&#229;r besluta att &#229;teruppta underh&#229;llet av en 
+del av det j&#228;rnv&#228;gsn&#228;t eller av en annan 
+j&#228;rnv&#228;gssp&#229;ranl&#228;ggning som &#228;gs och f&#246;rvaltas av staten, om det 
+kan antas att trafik i tillr&#228;cklig omfattning kommer att 
+drivas p&#229; denna del av n&#228;tet eller anl&#228;ggningen.
+
+N&#228;r Trafikverket har beslutat att underh&#229;llet ska &#229;terupptas 
+ska verket underr&#228;tta dem som anges i 7 &#167; andra stycket om 
+&#229;terupptagandet.
+
+Nedl&#228;ggning
+
+9 &#167; Trafikverket f&#229;r besluta att en del av det j&#228;rnv&#228;gsn&#228;t 
+eller en annan j&#228;rnv&#228;gssp&#229;ranl&#228;ggning som &#228;gs och f&#246;rvaltas av 
+staten och som inte underh&#229;lls ska l&#228;ggas ner. Ett beslut om 
+nedl&#228;ggning f&#229;r fattas f&#246;rst tre &#229;r efter beslutet om att 
+Trafikverkets underh&#229;ll ska upph&#246;ra. 
+
+Innan Trafikverket beslutar om nedl&#228;ggning ska verket ge dem 
+som anges i 7 &#167; andra stycket tillf&#228;lle att yttra sig.
+
+10 &#167; Trafikverket f&#229;r besluta att en del av det j&#228;rnv&#228;gsn&#228;t 
+eller en annan j&#228;rnv&#228;gssp&#229;ranl&#228;ggning som &#228;gs och f&#246;rvaltas av 
+staten ska l&#228;ggas ner och ers&#228;ttas p&#229; annan plats i eller i 
+anslutning till det statliga j&#228;rnv&#228;gsn&#228;tet, under 
+f&#246;ruts&#228;ttning att den alternativa lokaliseringen medf&#246;r att 
+motsvarande funktioner uppr&#228;tth&#229;lls. I s&#229;dana fall g&#228;ller inte 
+7-9 &#167;&#167;.
+
+Innan Trafikverket beslutar enligt f&#246;rsta stycket ska verket 
+ge dem som anges i 7 &#167; andra stycket tillf&#228;lle att yttra sig. 
+
+Uppl&#229;telse
+
+11 &#167; Trafikverket f&#229;r med nyttjander&#228;tt uppl&#229;ta en del av det 
+j&#228;rnv&#228;gsn&#228;t eller en annan j&#228;rnv&#228;gssp&#229;ranl&#228;ggning som &#228;gs och 
+f&#246;rvaltas av staten. Inf&#246;r en uppl&#229;telse ska Trafikverket, 
+ut&#246;ver det som framg&#229;r av f&#246;rordningen (1993:527) om 
+f&#246;rvaltning av statliga fastigheter, m.m., h&#246;ra dem som anges 
+i 7 &#167; andra stycket.
+
+En uppl&#229;telse f&#229;r ske endast om nyttjander&#228;ttshavaren &#246;vertar 
+ansvaret f&#246;r underh&#229;llet av den uppl&#229;tna delen och f&#246;r de 
+investeringar som beh&#246;vs f&#246;r nyttjandet samt &#246;vertar ansvaret 
+som infrastrukturf&#246;rvaltare enligt j&#228;rnv&#228;gstrafiklagen 
+(2018:181). 
+
+F&#246;r att utf&#246;ra uppgifter som infrastrukturf&#246;rvaltare kr&#228;vs 
+s&#228;kerhetstillst&#229;nd enligt 3 kap. 6 &#167; j&#228;rnv&#228;gss&#228;kerhetslagen 
+(2022:367). 
+
+&#214;verl&#229;telse
+
+12 &#167; En s&#229;dan del av det j&#228;rnv&#228;gsn&#228;t eller en annan 
+j&#228;rnv&#228;gssp&#229;ranl&#228;ggning som &#228;gs och f&#246;rvaltas av staten och som 
+Trafikverket har beslutat att l&#228;gga ner enligt 9 eller 10 &#167; 
+f&#229;r &#246;verl&#229;tas. F&#246;r &#246;verl&#229;telse av fast egendom g&#228;ller 
+f&#246;rordningen (1996:1190) om &#246;verl&#229;telse av statens fasta 
+egendom, m.m.
+
+Bemyndigande
+
+13 &#167; Trafikverket f&#229;r meddela f&#246;reskrifter om verkst&#228;lligheten 
+av 3-12 &#167;&#167;. 
+
+7 kap. &#214;vriga best&#228;mmelser
+
+S&#228;rskilda uppgifter f&#246;r Transportstyrelsen i egenskap av 
+regleringsorgan 
+
+Marknads&#246;vervakning
+
+1 &#167; Transportstyrelsen ska ut&#246;ver sin tillsyn enligt 
+j&#228;rnv&#228;gsmarknadslagen (2022:365) &#246;vervaka att marknaderna f&#246;r 
+j&#228;rnv&#228;gstj&#228;nster, inklusive marknaderna f&#246;r 
+j&#228;rnv&#228;gstransporter, fungerar effektivt ur ett 
+konkurrensperspektiv. 
+
+Transportstyrelsen ska regelbundet, &#229;tminstone vartannat &#229;r, 
+inh&#228;mta information fr&#229;n f&#246;retr&#228;dare f&#246;r anv&#228;ndare av tj&#228;nster 
+f&#246;r godstransport och persontrafik om deras syn p&#229; hur 
+j&#228;rnv&#228;gsmarknaden fungerar.
+
+S&#228;rskilda krav f&#246;r att s&#228;kerst&#228;lla oberoende
+
+2 &#167; Myndighetschefen vid Transportstyrelsen &#228;r den 
+befattningshavare som avses i 10 kap. 5 och 6 &#167;&#167; 
+j&#228;rnv&#228;gsmarknadslagen (2022:365). 
+
+Offentligg&#246;rande av beslut
+
+3 &#167; Transportstyrelsen ska p&#229; sin webbplats offentligg&#246;ra de 
+beslut som styrelsen i egenskap av regleringsorgan fattar med 
+st&#246;d av j&#228;rnv&#228;gsmarknadslagen (2022:365), f&#246;reskrifter som har 
+meddelats i anslutning till lagen eller s&#229;dana direkt 
+till&#228;mpliga EU-r&#228;ttsakter som avses i 10 kap. 1 &#167; andra 
+stycket i samma lag.
+
+Samarbete med &#246;vriga regleringsorgan 
+
+4 &#167; Transportstyrelsen ska samarbeta n&#228;ra med &#246;vriga 
+regleringsorgan inom EES och i Schweiz och utbyta information 
+om arbetet och om principer och rutiner f&#246;r beslut, framf&#246;r 
+allt i fr&#229;ga om att tolka inf&#246;rlivad unionslagstiftning.
+
+5 &#167; Om Transportstyrelsens tillsyn eller pr&#246;vning av en tvist 
+enligt 10 kap. 8 &#167; j&#228;rnv&#228;gsmarknadslagen (2022:365) omfattar 
+trafik som ocks&#229; kr&#228;ver beslut av ett annat regleringsorgan 
+inom EES eller i Schweiz, ska Transportstyrelsen samarbeta med 
+det andra regleringsorganet f&#246;r att n&#229; en l&#246;sning i fr&#229;gan 
+innan beslut fattas.
+
+Informationsutbyte om t&#229;gl&#228;gen f&#246;r internationell trafik
+
+6 &#167; Transportstyrelsen ska p&#229; beg&#228;ran av ett regleringsorgan 
+inom EES eller i Schweiz l&#228;mna s&#229;dana uppgifter om t&#229;gl&#228;gen 
+f&#246;r internationell trafik som det regleringsorganet beh&#246;ver 
+f&#246;r sin tillsyn.
+
+Bemyndigande
+
+7 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om pr&#246;vning av 
+tvister enligt 10 kap. 8 &#167; j&#228;rnv&#228;gsmarknadslagen (2022:365).
+
+&#214;verklagande
+
+8 &#167; Trafikverkets beslut i fr&#229;gor som avses i 6 kap. 
+9 och 10 &#167;&#167; f&#229;r &#246;verklagas till regeringen. Andra beslut av 
+Trafikverket enligt denna f&#246;rordning och j&#228;rnv&#228;gsmarknadslagen 
+(2022:365) f&#229;r inte &#246;verklagas.
+
+I 11 kap. 1 &#167; j&#228;rnv&#228;gsmarknadslagen finns best&#228;mmelser om 
+&#246;verklagande av Transportstyrelsens beslut. 
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2022:416
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juni 2022.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r pr&#246;vning av m&#229;l 
+eller &#228;renden som har inletts f&#246;re ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=253">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=255">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,616 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-20" /> 
+ <meta id="rattsinfo-edited" content="2023-01-20 15:29:12" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>4006</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4005">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4007">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1978:160 ·
+                    <a href="/sfsr?bet=1978:160">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (1978:160) om vissa r&#246;rledningar</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSE
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1978-04-13
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:853
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Koncessionsplikt
+
+1 &#167; En r&#246;rledning f&#246;r transport av r&#229;olja eller produkt av
+r&#229;olja eller av annan v&#228;tska eller gas som &#228;r &#228;gnad att
+anv&#228;ndas som br&#228;nsle f&#229;r inte dras fram eller anv&#228;ndas utan
+s&#228;rskilt tillst&#229;nd (koncession). Koncession kr&#228;vs &#228;ven f&#246;r
+att dra fram och anv&#228;nda en r&#246;rledning f&#246;r transport av
+koldioxid som ska lagras geologiskt. Best&#228;mmelser om
+naturgasledningar finns i naturgaslagen (2005:403).
+
+Koncession kr&#228;vs inte f&#246;r en ledning som
+
+1. har eller avses f&#229; en l&#228;ngd av h&#246;gst 20 kilometer,
+
+2. huvudsakligen ska nyttjas f&#246;r tillgodoseende av enskilda
+hush&#229;lls behov, eller
+
+3. uteslutande ska nyttjas inom en hamn eller ett
+industriomr&#229;de.
+
+Regeringen f&#229;r i ett enskilt fall medge undantag fr&#229;n
+koncessionsplikt. Lag (2012:432).
+
+2 &#167; I ledning ing&#229;r f&#246;r driften erforderliga tillbeh&#246;r och anordningar.
+
+3 &#167; Fr&#229;ga om koncession pr&#246;vas av regeringen.
+
+Ans&#246;kan om koncession ges in till den myndighet som regeringen
+best&#228;mmer. Den som s&#246;ker koncession skall erl&#228;gga ans&#246;kningsavgift i
+enlighet med vad regeringen f&#246;reskriver. Lag (1982:486).
+
+F&#246;ruts&#228;ttningar f&#246;r koncession
+
+4 &#167; Koncession f&#229;r meddelas endast om det fr&#229;n allm&#228;n 
+synpunkt &#228;r l&#228;mpligt att ledningen dras fram och anv&#228;nds och 
+s&#246;kanden &#228;r l&#228;mplig att ut&#246;va verksamhet som avses med 
+koncessionen.
+
+Koncession f&#229;r inte strida mot en detaljplan eller 
+omr&#229;desbest&#228;mmelser. Om syftet med planen eller 
+best&#228;mmelserna inte motverkas, f&#229;r dock mindre avvikelser 
+g&#246;ras.
+
+Vid koncessionspr&#246;vning ska 2–4 kap. och 5 kap. 3–5 och 18 &#167;&#167; 
+milj&#246;balken till&#228;mpas.
+
+F&#246;r verksamheter och &#229;tg&#228;rder som ska pr&#246;vas f&#246;r en 
+koncession ska
+
+1. fr&#229;gan om verksamheten eller &#229;tg&#228;rden kan antas medf&#246;ra en 
+betydande milj&#246;p&#229;verkan avg&#246;ras i ett s&#228;rskilt beslut enligt 
+6 kap. 26 och 27 &#167;&#167; milj&#246;balken efter att en unders&#246;kning 
+enligt 6 kap. 23–25 &#167;&#167; har gjorts, om annat inte f&#246;ljer av 
+undantagen i 6 kap. 23 &#167; andra stycket, 
+
+2. en specifik milj&#246;bed&#246;mning g&#246;ras, information l&#228;mnas och 
+samordning ske enligt 6 kap. 28–46 &#167;&#167; milj&#246;balken, om en 
+betydande milj&#246;p&#229;verkan kan antas, och
+
+3. en liten milj&#246;konsekvensbeskrivning tas fram enligt 6 kap. 
+47 &#167; milj&#246;balken, om l&#228;nsstyrelsen beslutar att en betydande 
+milj&#246;p&#229;verkan inte kan antas. Lag (2018:1412).
+
+Villkor f&#246;r koncession
+
+5 &#167; Koncession ska avse ledning med en i huvudsak best&#228;md
+str&#228;ckning och g&#228;lla viss tid. Giltighetstiden f&#229;r best&#228;mmas
+till l&#228;ngst 40 &#229;r. Lag (2012:432).
+
+5 a &#167; Koncessionens giltighetstid f&#229;r efter ans&#246;kan av
+koncessionshavaren f&#246;rl&#228;ngas med 40 &#229;r i taget. Om det finns
+s&#228;rskilda sk&#228;l eller om s&#246;kanden beg&#228;r det, f&#229;r dock en
+kortare tid best&#228;mmas.
+
+I ett &#228;rende om f&#246;rl&#228;ngning av giltighetstiden ska 4 &#167;
+till&#228;mpas.
+
+En ans&#246;kan om f&#246;rl&#228;ngning av giltighetstiden ska g&#246;ras senast
+tv&#229; &#229;r f&#246;re koncessionstidens utg&#229;ng. Om koncessionshavaren
+har ans&#246;kt om f&#246;rl&#228;ngning inom den angivna tiden, forts&#228;tter
+koncessionen att g&#228;lla till dess att ans&#246;kan har pr&#246;vats
+slutligt. Lag (2012:432).
+
+6 &#167; En koncession skall f&#246;renas med de villkor som beh&#246;vs f&#246;r
+att skydda allm&#228;nna intressen och enskild r&#228;tt, s&#229;som att
+trygga s&#228;kerheten, skydda m&#228;nniskors h&#228;lsa och milj&#246;n mot
+skador och ol&#228;genheter och fr&#228;mja en l&#229;ngsiktigt god
+hush&#229;llning med mark och vatten och andra resurser.
+
+Som villkor f&#246;r koncession f&#229;r f&#246;reskrivas att staten skall ha
+r&#228;tt att deltaga i verksamheten eller att koncessionshavaren
+skall utge s&#228;rskild avgift till staten eller iakttaga annat
+liknande villkor.
+
+Vidare f&#229;r som villkor f&#246;r koncession f&#246;reskrivas att ledningen
+skall vara f&#228;rdigst&#228;lld inom viss tid. Regeringen kan f&#246;rl&#228;nga
+f&#246;reskriven tid, om s&#228;rskilda sk&#228;l f&#246;religger. Ans&#246;kan h&#228;rom
+skall g&#246;ras f&#246;re utg&#229;ngen av den f&#246;reskrivna tiden.
+Lag (1998:826).
+
+6 a &#167; En koncession f&#229;r f&#246;r sin giltighet g&#246;ras beroende av 
+att s&#228;kerhet st&#228;lls f&#246;r att den som innehar koncessionen ska 
+fullg&#246;ra skyldigheten enligt 16 &#167; att ta bort ledningen och 
+vidta andra &#229;tg&#228;rder f&#246;r &#229;terst&#228;llning. Staten, kommuner, 
+regioner och kommunalf&#246;rbund beh&#246;ver inte st&#228;lla s&#228;kerhet.
+
+Om det kan antas att den st&#228;llda s&#228;kerheten inte &#228;r 
+tillr&#228;cklig, f&#229;r regeringen eller den myndighet som regeringen 
+best&#228;mmer besluta om ytterligare s&#228;kerhet.
+
+I fr&#229;ga om beskaffenheten av s&#228;kerheten g&#228;ller 2 kap. 25 &#167; 
+uts&#246;kningsbalken. S&#228;kerheten ska pr&#246;vas av regeringen eller 
+den myndighet som regeringen best&#228;mmer och f&#246;rvaras av 
+l&#228;nsstyrelsen i det l&#228;n d&#228;r verksamheten bedrivs.
+Lag (2019:853).
+
+7 &#167; Uppkommer genom verksamhet f&#246;r vilken koncession har
+meddelats enligt denna lag en ol&#228;genhet av n&#229;gon betydelse
+som inte f&#246;ruts&#229;gs n&#228;r   koncessionen meddelades eller
+medverkar verksamheten med n&#229;gon betydelse till att en
+milj&#246;kvalitetsnorm enligt 5 kap. milj&#246;balken inte f&#246;ljs, f&#229;r
+regeringen eller den myndighet som regeringen best&#228;mmer
+f&#246;reskriva ytterligare eller &#228;ndrade villkor f&#246;r att
+f&#246;rebygga eller minska ol&#228;genheten f&#246;r framtiden.
+
+Villkor enligt f&#246;rsta stycket f&#229;r inte vara s&#229; ingripande att
+verksamheten inte l&#228;ngre kan bedrivas eller att den avsev&#228;rt
+f&#246;rsv&#229;ras. Lag (2010:885).
+
+8 &#167; Koncessionshavaren &#228;r skyldig att mot ers&#228;ttning ombes&#246;rja
+transport genom ledningen &#229;t annan, om det kan ske utan
+v&#228;sentligt f&#246;rf&#229;ng f&#246;r koncessionshavaren.
+
+Fr&#229;ga om skyldighet enligt f&#246;rsta stycket pr&#246;vas av den
+myndighet som regeringen best&#228;mmer. Lag (1982:486).
+
+8 a &#167; Om ledningen avser transport av koldioxid som ska
+lagras geologiskt, g&#228;ller 8 b–8 d &#167;&#167; i st&#228;llet f&#246;r 8 &#167;.
+Lag (2012:432).
+
+8 b &#167; Koncessionshavaren f&#246;r en ledning som avses i 8 a &#167; &#228;r
+skyldig att p&#229; sk&#228;liga villkor transportera koldioxid &#229;t
+andra, om ledningen har kapacitet f&#246;r det.
+
+Vid bed&#246;mningen av om villkoren &#228;r sk&#228;liga ska h&#228;nsyn tas
+till
+
+1. den kapacitet som &#228;r eller rimligen kan g&#246;ras tillg&#228;nglig
+i r&#246;rledningen,
+
+2. behovet av att samordna olika tekniker,
+
+3. koncessionshavarens och andras behov av r&#246;rledningens
+kapacitet, och
+
+4. p&#229;verkan p&#229; andra som anv&#228;nder r&#246;rledningen eller driver
+en verksamhet som har samband med r&#246;rledningen.
+Lag (2012:432).
+
+8 c &#167; Om koncessionshavaren nekar att transportera koldioxid
+&#229;t annan p&#229; grund av bristande kapacitet eller f&#246;r att
+anslutning inte &#228;r m&#246;jlig, ska koncessionshavaren
+
+1. ange sk&#228;len f&#246;r sitt nekande, och
+
+2. mot sk&#228;lig ers&#228;ttning g&#246;ra de f&#246;rb&#228;ttringar som beh&#246;vs f&#246;r
+att m&#246;jligg&#246;ra transport &#229;t andra, om det inte f&#246;rs&#228;mrar
+s&#228;kerheten vid transport eller geologisk lagring av
+koldioxiden. Lag (2012:432).
+
+8 d &#167; Fr&#229;gor om skyldigheterna enligt 8 b och 8 c &#167;&#167; pr&#246;vas
+av den myndighet som regeringen best&#228;mmer. Lag (2012:432).
+
+9 &#167; Koncessionshavaren och den som har p&#229;kallat transport
+&#228;r skyldiga att p&#229; anfordran tillhandah&#229;lla den myndighet
+som har att pr&#246;va fr&#229;gor enligt 8 &#167; de tekniska och
+ekonomiska uppgifter som beh&#246;vs f&#246;r pr&#246;vningen. En s&#229;dan
+anfordran f&#229;r f&#246;renas med vite.
+
+Den som &#228;r uppgiftsskyldig enligt f&#246;rsta stycket f&#229;r inte
+betungas on&#246;digt och &#228;r inte skyldig att r&#246;ja
+f&#246;retagshemligheter av teknisk natur. Lag (2010:1351).
+
+R&#246;rledning inom omr&#229;de f&#246;r trafikled
+
+10 &#167; Har ledning framdragits inom omr&#229;de f&#246;r befintlig allm&#228;n v&#228;g, till
+farv&#228;g nyttjad enskild v&#228;g, j&#228;rnv&#228;g, sp&#229;rv&#228;g eller kanal eller annan
+vattentrafikled (trafikled), &#228;r koncessionshavaren skyldig att vid
+&#228;ndring av trafikleden vidtaga och bekosta de &#229;tg&#228;rder betr&#228;ffande
+ledningen som beh&#246;vs f&#246;r att &#228;ndringen av trafikleden skall kunna
+genomf&#246;ras. Har s&#229;dan &#229;tg&#228;rd vidtagits d&#228;r ledningen korsar trafikleden,
+skall dock den som f&#246;rvaltar trafikleden ers&#228;tta koncessionshavaren
+kostnaden f&#246;r &#229;tg&#228;rden.
+
+11 &#167; F&#246;ranleder ledning som har framdragits inom omr&#229;de f&#246;r befintlig
+trafikled &#246;kade kostnader f&#246;r trafikledens underh&#229;ll, skall
+koncessionshavaren ers&#228;tta kostnads&#246;kningen.
+
+12 &#167; Kan arbete med framdragande av ledning inom omr&#229;de f&#246;r befintlig
+trafikled som ej &#228;r allm&#228;n v&#228;g inverka p&#229; trafiks&#228;kerheten eller medf&#246;ra
+ingrepp i trafikleden, skall, innan arbetet ig&#229;ngs&#228;ttes, anm&#228;lan g&#246;ras
+hos den som f&#246;rvaltar trafikleden. Denne meddelar de f&#246;reskrifter om
+arbetets bedrivande och om r&#228;tt till upplag eller annan anordning som,
+ut&#246;ver vad som &#228;r s&#228;rskilt f&#246;reskrivet, beh&#246;vs med h&#228;nsyn till
+trafikledens be st&#229;nd, drift eller brukande. Kostnaden f&#246;r arbetet
+&#229;vilar dock koncessionshavaren.
+
+F&#246;rsta stycket till&#228;mpas &#228;ven i fr&#229;ga om arbete p&#229; redan dragen ledning
+inom omr&#229;de f&#246;r annan trafikled &#228;n allm&#228;n v&#228;g, om arbetet kan inverka p&#229;
+trafiks&#228;kerheten eller medf&#246;ra ingrepp i trafikleden. P&#229;kallas p&#229; grund
+av intr&#228;ffad skada skyndsam reparation av ledningen och skulle dr&#246;jsm&#229;l
+v&#229;lla avsev&#228;rd ol&#228;genhet, f&#229;r arbetet p&#229;b&#246;rjas utan att anm&#228;lan har
+gjorts. Koncessionshavaren skall dock snarast underr&#228;tta den som
+f&#246;rvaltar trafikleden om arbetet.
+
+I fr&#229;ga om arbete med ledning inom omr&#229;de f&#246;r allm&#228;n v&#228;g finns
+best&#228;mmelser i 44&#167; v&#228;glagen (1971:948).
+
+&#214;verl&#229;telse och upph&#246;rande av koncession
+
+13 &#167; Koncession f&#229;r ej &#246;verl&#229;tas utan medgivande av regeringen 
+eller den myndighet som regeringen best&#228;mmer. Lag (1982:486).
+
+14 &#167; Anm&#228;ler koncessionshavaren till regeringen att
+koncessionshavaren vill fr&#229;ntr&#228;da sin r&#228;tt, upph&#246;r denna tv&#229;
+&#229;r efter det att anm&#228;lningen kom in, om inte annat f&#246;ljer av
+koncessionen. Lag (2012:432).
+
+15 &#167; &#197;sidos&#228;tter koncessionshavare f&#246;r koncessionen g&#228;llande villkor
+eller f&#246;r ledningens drift g&#228;llande s&#228;kerhetsbest&#228;mmelse eller uppfyller
+han ej f&#246;rpliktelse som &#229;vilar honom enligt denna lag, f&#229;r regeringen
+eller den myndighet som regeringen best&#228;mmer, &#229;terkalla koncessionen.
+Detsamma g&#228;ller om koncessionshavare under tre &#229;r i f&#246;ljd ej har haft
+ledningen i bruk. Lag (1982:486).
+
+16 &#167; Upph&#246;r koncession att g&#228;lla, &#228;r den som senast har innehaft
+koncessionen skyldig att taga bort ledningen och vidtaga andra &#229;tg&#228;rder
+f&#246;r &#229;terst&#228;llning, om detta &#228;r p&#229;kallat fr&#229;n allm&#228;n eller enskild
+synpunkt.
+
+Fr&#229;gan om skyldighet att vidtaga s&#229;dana &#229;terst&#228;llnings&#229;tg&#228;rder skall
+pr&#246;vas av regeringen eller den myndighet som regeringen best&#228;mmer.
+Pr&#246;vningen skall ske i samband med att koncessionen upph&#246;r.
+
+Iakttager den som har innehaft koncessionen icke vad som har &#229;lagts
+honom, f&#229;r den myndighet som har att pr&#246;va fr&#229;gor om &#229;terst&#228;llnings
+&#229;tg&#228;rder vid vite f&#246;rel&#228;gga honom att fullg&#246;ra sina &#229;ligganden.
+Vitesf&#246;rel&#228;ggande skall delges. Lag (1982:486).
+
+17 &#167; Har n&#229;gon framdragit ledning utan att inneha koncession, d&#228;r s&#229;dan
+kr&#228;ves, f&#229;r den myndighet som regeringen best&#228;mmer f&#246;rel&#228;gga honom att
+taga bort ledningen och vidtaga andra &#229;tg&#228;rder f&#246;r &#229;terst&#228;llning, om
+detta &#228;r p&#229;kallat fr&#229;n allm&#228;n eller enskild synpunkt.
+
+F&#246;rel&#228;ggandet f&#229;r f&#246;renas med vite. Vitesf&#246;rel&#228;ggande skall delges.
+Lag (1982:486).
+
+18 &#167; Kr&#228;ves f&#246;r vidtagande av &#229;terst&#228;llnings&#229;tg&#228;rder enligt 16
+eller 17 &#167; att annans mark tages i anspr&#229;k, f&#229;r den myndighet
+som regeringen best&#228;mmer besluta att tilltr&#228;de till marken
+skall l&#228;mnas under viss tid.
+
+&#197;terst&#228;llnings&#229;tg&#228;rderna skall utf&#246;ras s&#229;, att minsta skada och
+intr&#229;ng v&#229;llas. Byggnad f&#229;r uppf&#246;ras och v&#228;g byggas endast om
+markens &#228;gare och innehavare av nyttjander&#228;tt eller servitut
+avseende marken samtyckt d&#228;rtill eller den myndighet som
+regeringen best&#228;mmer l&#228;mnat tillst&#229;nd till &#229;tg&#228;rden. Tillst&#229;nd
+till s&#229;dan &#229;tg&#228;rd f&#229;r l&#228;mnas endast om &#229;tg&#228;rden &#228;r
+oundg&#228;ngligen n&#246;dv&#228;ndig f&#246;r att &#229;terst&#228;llnings&#229;tg&#228;rder skall
+kunna vidtagas.
+
+F&#246;ranleder &#229;terst&#228;llnings&#229;tg&#228;rderna skada eller intr&#229;ng, skall
+ers&#228;ttning h&#228;rf&#246;r utg&#229;. Talan om ers&#228;ttning v&#228;ckes vid den
+mark- och milj&#246;domstol inom vars omr&#229;de marken eller st&#246;rre
+delen d&#228;rav ligger. Lag (2010:928).
+
+19 &#167; Den myndighet som regeringen best&#228;mmer ut&#246;var tillsyn &#246;ver
+efterlevnaden av vad som i eller med st&#246;d av denna lag f&#246;reskrives om
+framdragande eller begagnande av r&#246;rledning eller om vidtagande av
+&#229;terst&#228;llnings&#229;tg&#228;rder.
+
+Koncessionshavare skall p&#229; anfordran l&#228;mna den myndighet som avses i
+f&#246;rsta stycket de upplysningar och handlingar som beh&#246;vs f&#246;r tillsynen.
+Myndigheten f&#229;r f&#246;r visst fall meddela best&#228;mmelser f&#246;r att trygga
+efterlevnaden av vad som i eller med st&#246;d av denna lag f&#246;reskrives i
+fr&#229;ga om framdragande eller begagnande av r&#246;rledning eller om vidtagande
+av &#229;terst&#228;llnings&#229;tg&#228;rder.
+
+Den som har att ut&#246;va tillsyn &#228;ger tilltr&#228;de till anl&#228;ggning, d&#228;r
+verksamhet som omfattas av denna lag bedrives, och f&#229;r g&#246;ra sig
+underr&#228;ttad om f&#246;rh&#229;llande av betydelse f&#246;r till&#228;mpningen av f&#246;reskrift
+eller villkor f&#246;r verksamheten. Lag (1982:486).
+
+20 &#167; Uppfyller koncessionshavare icke villkor som har meddelats med st&#246;d
+av 6 &#167; f&#246;rsta stycket eller 7 &#167; eller efterkommer han icke vad som
+f&#246;reskrives eller beg&#228;res med st&#246;d av 19 &#167; andra eller tredje stycket,
+f&#229;r den myndighet som regeringen best&#228;mmer vid vite f&#246;rel&#228;gga honom att
+fullg&#246;ra sina skyldigheter. Vitesf&#246;rel&#228;ggande skall delges.
+
+Bedrives verksamhet p&#229; s&#229;dant s&#228;tt att uppenbar fara f&#246;r allm&#228;nt eller
+enskilt intresse uppkommer, f&#229;r den myndighet som regeringen best&#228;mmer
+f&#246;rbjuda verksamhetens fortsatta bedrivande. S&#229;dant f&#246;rbud l&#228;nder
+omedelbart till efterr&#228;ttelse. Lag (1982:486).
+
+21 &#167; &#197;sidos&#228;ttes f&#246;rbud som har meddelats enligt 20 &#167; andra stycket, f&#229;r
+kronofogdemyndigheten p&#229; ans&#246;kan av den myndighet som har meddelat
+f&#246;rbudet meddela s&#228;rskild handr&#228;ckning f&#246;r att &#229;stadkomma r&#228;ttelse.
+
+I fr&#229;ga om handr&#228;ckning som avses i f&#246;rsta stycket finns best&#228;mmelser i
+lagen (1990:746) om betalningsf&#246;rel&#228;ggande och handr&#228;ckning. Lag
+(1991:868).
+
+22 &#167; Den som upps&#229;tligen eller av oaktsamhet framdrager eller begagnar
+ledning utan att inneha koncession, d&#228;r s&#229;dan kr&#228;ves, d&#246;mes till b&#246;ter
+eller f&#228;ngelse i h&#246;gst sex m&#229;nader.
+
+Till samma p&#229;f&#246;ljd d&#246;mes ocks&#229; den som vid fullg&#246;rande av
+uppgiftsskyldighet, som &#228;r f&#246;rbunden med koncession eller som avses i
+19 &#167; andra stycket, l&#228;mnar oriktig uppgift, om detta sker upps&#229;tligen
+eller av grov oaktsamhet.
+
+23 &#167; F&#246;rbud f&#229;r inte meddelas med st&#246;d av milj&#246;balken mot en
+r&#246;rlednings framdragande eller begagnande, om regeringen har
+till&#229;tit r&#246;rledningen i en koncession enligt denna lag.
+Lag (1998:826).
+
+24 &#167; har upph&#246;rt att g&#228;lla genom lag (1982:486).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1991:868
+
+Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer. &#196;ldre
+f&#246;reskrifter g&#228;ller fortfarande i fr&#229;ga om m&#229;l om handr&#228;ckning d&#228;r talan
+v&#228;ckts f&#246;re ikrafttr&#228;dandet.
+
+1998:826
+
+1. Denna lag tr&#228;der i kraft den 1 januari 1999.
+
+2. Ett &#228;rende om pr&#246;vning av koncession skall handl&#228;ggas och
+bed&#246;mas enligt &#228;ldre best&#228;mmelser, om &#228;rendet har inletts f&#246;re
+denna lags ikrafttr&#228;dande. Best&#228;mmelserna om
+milj&#246;kvalitetsnormer i milj&#246;balken skall dock till&#228;mpas
+omedelbart.
+
+2006:330
+
+1. Denna lag tr&#228;der i kraft den 1 juli 2006.
+
+2. &#196;ldre f&#246;reskrifter skall till&#228;mpas p&#229; ett &#228;rende om pr&#246;vning
+av koncession f&#246;r r&#246;rledning f&#246;r transport av fj&#228;rrv&#228;rme som
+har inletts f&#246;re den 1 juli 2006.
+
+3. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r tillst&#229;nd som har
+beviljats f&#246;re den 1 juli 2006.
+
+2017:1032
+
+1. Denna lag tr&#228;der i kraft den 1 januari 2018.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r handl&#228;ggningen 
+och pr&#246;vningen av &#228;renden som har inletts f&#246;re 
+ikrafttr&#228;dandet.
+
+3. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande i fr&#229;ga om beslut 
+att en verksamhet eller &#229;tg&#228;rd inte kan antas medf&#246;ra en 
+betydande milj&#246;p&#229;verkan som har meddelats f&#246;re 
+ikrafttr&#228;dandet och i fr&#229;ga om samr&#229;d som har skett f&#246;re 
+ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4005">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4007">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

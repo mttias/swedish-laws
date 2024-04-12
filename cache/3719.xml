@@ -1,0 +1,839 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-07-10" /> 
+ <meta id="rattsinfo-edited" content="2023-07-10 15:21:13" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3719</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3718">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3720">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1986:172 ·
+                    <a href="/sfsr?bet=1986:172">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1986:172) om luftfartygsregistret m.m.</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSIB TM
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1986-02-27
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:226
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad 2008:1151 har iakttagits.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1987-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av 8 kap. 7 &#167; 
+regeringsformen. F&#246;rordning (2023:226).
+
+1 a &#167; I f&#246;rordningen avses med
+
+dr&#246;narf&#246;rordningen: kommissionens genomf&#246;randef&#246;rordning (EU) 
+2019/947 av den 24 maj 2019 om regler och f&#246;rfaranden f&#246;r 
+drift av obemannade luftfartyg,
+
+U-space-f&#246;rordningen: kommissionens genomf&#246;randef&#246;rordning 
+(EU) 2021/664 av den 22 april 2021 om ett regelverk f&#246;r U-
+space,
+
+luftfartygsregistret: det register &#246;ver luftfartyg med svensk 
+registrering som avses i 2 kap. 1 &#167; f&#246;rsta stycket 
+luftfartslagen (2010:500),
+
+bihanget till luftfartygsregistret: bihang till 
+luftfartygsregistret i vilket ett luftfartyg antecknas i 
+samband med en svensk interimistisk registrering, och
+
+operat&#246;rsregistret: det register som avses i artikel 14 i 
+dr&#246;narf&#246;rordningen. F&#246;rordning (2023:226).
+
+1 b &#167; F&#246;rordningen inneh&#229;ller
+
+1. best&#228;mmelser om registrering i luftfartygsregistret och om 
+anteckningar i registrets bihang,
+
+2. best&#228;mmelser som kompletterar dr&#246;narf&#246;rordningens 
+artikel 14 om operat&#246;rsregistret och U-space-f&#246;rordningens 
+artikel 3.5 a om tillg&#229;ng till data fr&#229;n operat&#246;rsregistret, 
+och
+
+3. best&#228;mmelser som kompletterar Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2016/679 av den 27 april 2016 om skydd f&#246;r 
+fysiska personer med avseende p&#229; behandling av personuppgifter 
+och om det fria fl&#246;det av s&#229;dana uppgifter och om upph&#228;vande 
+av direktiv 95/46/EG (allm&#228;n dataskyddsf&#246;rordning).
+F&#246;rordning (2023:226).
+
+1 c &#167; Vid behandling av personuppgifter enligt denna 
+f&#246;rordning g&#228;ller lagen (2018:218) med kompletterande 
+best&#228;mmelser till EU:s dataskyddsf&#246;rordning och f&#246;reskrifter 
+som har meddelats i anslutning till den lagen, om inte annat 
+f&#246;ljer av denna f&#246;rordning eller f&#246;reskrifter som har 
+meddelats i anslutning till f&#246;rordningen. 
+F&#246;rordning (2023:226).
+
+1 d &#167; Transportstyrelsen &#228;r personuppgiftsansvarig f&#246;r den 
+behandling av personuppgifter som myndigheten utf&#246;r enligt 
+denna f&#246;rordning och dr&#246;narf&#246;rordningen. F&#246;rordning (2023:226).
+
+2 &#167; I luftfartygsregistret eller i bihanget till detta skall
+f&#246;ras in uppgifter om motordrivna luftfartyg och segelflygplan.
+Detsamma g&#228;ller andra luftfartyg som skall anv&#228;ndas till luftfart
+utom svenskt omr&#229;de. Transportstyrelsen kan medge att &#228;ven andra
+luftfartyg f&#246;rs in i registret eller i bihanget.
+F&#246;rordning (2008:1151).
+
+3 &#167; Det som g&#228;ller enligt denna f&#246;rordning n&#228;r ett luftfartyg &#228;r
+intecknat g&#228;ller ocks&#229; n&#228;r ett luftfartyg ber&#246;rs av en ans&#246;kan om
+inteckning.
+
+4 &#167; De best&#228;mmelser i denna f&#246;rordning som g&#228;ller i fr&#229;ga om
+luftfartyg som &#228;r eller har varit registrerade i en annan stat skall
+p&#229; motsvarande s&#228;tt till&#228;mpas i fr&#229;ga om luftfartyg som &#228;r eller har
+varit registrerade hos en internationell organisation.
+
+Luftfartygsregistrets inneh&#229;ll
+
+5 &#167; Luftfartygsregistret ska f&#246;r varje registrerat luftfartyg 
+inneh&#229;lla uppgifter om f&#246;ljande. 
+
+1. Betr&#228;ffande luftfartyget 
+
+a) nationalitets- och registreringsbeteckning,
+
+b) tillverkare, tillverkningsort, tillverknings&#229;r, 
+tillverkningsnummer och typbeteckning,
+
+c) klass, 
+
+d) omfattningen av g&#228;llande luftv&#228;rdighetsbevis och 
+milj&#246;v&#228;rdighetsbevis, 
+
+e) om luftfartyget har avregistrerats, anledningen till detta, 
+
+f) om luftfartyget tidigare har varit registrerat i en annan 
+stat, denna registrering, 
+
+g) f&#246;rekomsten av o&#229;terkalleliga fullmakter f&#246;r avregistrering 
+och export enligt lagen (2015:860) om internationella 
+s&#228;kerhetsr&#228;tter i l&#246;sa saker. 
+
+2. &#196;garens namn, nationalitet och adress samt arten av 
+f&#246;rv&#228;rvet. F&#246;r certifierade obemannade luftfartyg ska &#228;ven 
+uppgift om &#228;garens e-postadress och telefonnummer f&#246;ras in. 
+F&#246;r &#246;vriga luftfartyg f&#229;r uppgift om &#228;garens e-postadress och 
+telefonnummer f&#246;ras in.
+
+3. Dagen f&#246;r 
+
+a) registrering, 
+
+b) anteckning om att luftfartyget har bytt &#228;gare, 
+
+c) avregistrering, 
+
+d) anteckning enligt 7, 8 eller 9 &#167;. 
+
+4. F&#246;rekomsten av inteckningar. 
+F&#246;rordning (2020:1065).
+
+6 &#167; Om det anm&#228;ls att ett registrerat luftfartyg har f&#229;tt en ny &#228;gare
+och om den nye &#228;garen inte kan f&#246;ras in i registret p&#229; grund av n&#229;gon
+brist i utredningen, skall hans namn, det uppgivna f&#246;rv&#228;rvets art och
+dagen f&#246;r anm&#228;lningen antecknas i registret.
+
+7 &#167; En anteckning enligt 2 kap. 8 &#167; luftfartslagen (2010:500)
+om att n&#229;gon annan &#228;n &#228;garen brukar ett registrerat luftfartyg
+f&#246;r en obest&#228;md tid eller f&#246;r en best&#228;md tid om minst en m&#229;nad
+ska inneh&#229;lla uppgift om
+
+1. nyttjander&#228;ttshavarens  namn, nationalitet och adress, samt
+
+2. huruvida nyttjander&#228;ttshavaren enligt 3 a &#167; lagen
+(1922:382) ang&#229;ende ansvarighet f&#246;r skada i f&#246;ljd av luftfart
+&#228;r ansvarig f&#246;r s&#229;dana skador.
+
+En anm&#228;lan f&#246;r anteckning enligt f&#246;rsta stycket ska inneh&#229;lla
+de uppgifter som beh&#246;vs f&#246;r anteckningen samt
+nyttjander&#228;ttsavtalet eller en uppgift om innehavarens r&#228;tt
+som undertecknats av parterna. F&#246;rordning (2010:775).
+
+8 &#167; Har upph&#228;vts genom f&#246;rordning (2010:775).
+
+9 &#167; Om ett luftfartyg ska avregistreras enligt 2 kap. 6 &#167;
+luftfartslagen (2010:500) men det inte kan g&#246;ras p&#229; grund av 2
+kap. 7 &#167; samma lag, ska det antecknas i luftfartygsregistret.
+F&#246;rordning (2010:775).
+
+10 &#167; I luftfartygsregistret skall antecknas anm&#228;lan om f&#246;ljande
+f&#246;rh&#229;llanden r&#246;rande ett registrerat luftfartyg, en lott i eller
+intecknade reservdelar till ett registrerat luftfartyg.
+
+1. &#196;garen har f&#246;rsatts i konkurs.
+
+2. Egendomen har utm&#228;tts.
+
+3. Beg&#228;ran att ett i konkursbo ing&#229;ende registrerat luftfartyg eller
+intecknade reservdelar till ett s&#229;dant luftfartyg skall s&#228;ljas
+exekutivt.
+
+Dagen f&#246;r ett konkursbeslut eller en utm&#228;tning skall anges.
+
+Om en anteckning har gjorts enligt f&#246;rsta stycket, skall i registret
+ocks&#229; antecknas anm&#228;lan att konkursbeslutet eller utm&#228;tningen har
+upph&#228;vts, att fr&#229;gan om egendomens f&#246;rs&#228;ljning p&#229; annat s&#228;tt har
+f&#246;rfallit eller att egendomen har f&#246;rs&#229;lts exekutivt.
+
+11 &#167; I luftfartygsregistret skall antecknas anm&#228;lan om att n&#229;gon har
+v&#228;ckt talan om klander av f&#246;rv&#228;rv av ett registrerat luftfartyg eller
+om &#229;terg&#229;ng av k&#246;p, byte eller g&#229;va av ett registrerat luftfartyg.
+
+Om en anteckning har gjorts enligt f&#246;rsta stycket, skall i registret
+ocks&#229; antecknas anm&#228;lan om utg&#229;ngen av m&#229;let.
+
+Operat&#246;rsregistrets inneh&#229;ll och &#228;ndam&#229;len med behandling av 
+uppgifter i registret
+
+11 a &#167; Ut&#246;ver de uppgifter som anges i artikel 14.2 i 
+dr&#246;narf&#246;rordningen ska operat&#246;rsregistret inneh&#229;lla uppgifter 
+om det unika digitala registreringsnummer som ska utf&#228;rdas 
+enligt artikel 14.6 i den f&#246;rordningen. F&#246;r fysiska personer 
+ska operat&#246;rsregistret &#228;ven inneh&#229;lla person- eller 
+samordningsnummer. F&#246;rordning (2023:226).
+
+11 b &#167; Personuppgifter f&#229;r behandlas i operat&#246;rsregistret om 
+det &#228;r n&#246;dv&#228;ndigt f&#246;r att
+
+1. hantera fr&#229;gor om tillst&#229;ndspr&#246;vning och tillsyn &#246;ver att 
+dr&#246;narf&#246;rordningen och U-space-f&#246;rordningen f&#246;ljs, 
+
+2. hantera fr&#229;gor som g&#228;ller ut&#246;vningen av den 
+marknadskontroll som ska s&#228;kerst&#228;lla att produkter 
+&#246;verensst&#228;mmer med kraven i kommissionens delegerade 
+f&#246;rordning (EU) 2019/945 av den 12 mars 2019 om obemannade 
+luftfartygssystem och om tredjelandsoperat&#246;rer av obemannade 
+luftfartygssystem,
+
+3. hantera fr&#229;gor om avgifter, eller
+
+4. tillhandah&#229;lla s&#229;dana uppgifter om operat&#246;rer som beh&#246;vs i
+
+a) en verksamhet som staten, en kommun, en leverant&#246;r av 
+flygtrafikledningstj&#228;nst eller en leverant&#246;r av U-space-
+tj&#228;nster ansvarar f&#246;r enligt lag eller f&#246;rordning, n&#228;r det 
+g&#228;ller statlig eller kommunal r&#228;ddningstj&#228;nst eller n&#228;r det 
+g&#228;ller s&#228;kerhets-, flygs&#228;kerhets- eller milj&#246;&#228;ndam&#229;l,
+
+b) Polismyndighetens, S&#228;kerhetspolisens, Kustbevakningens 
+eller Tullverkets verksamhet f&#246;r att f&#246;rebygga, f&#246;rhindra 
+eller uppt&#228;cka brottslig verksamhet eller utreda eller lagf&#246;ra 
+brott,
+
+c) Polismyndighetens eller Kustbevakningens verksamhet f&#246;r att 
+uppr&#228;tth&#229;lla allm&#228;n ordning och s&#228;kerhet, eller
+
+d) F&#246;rsvarsmaktens arbete med att f&#246;rsvara Sverige och fr&#228;mja 
+samh&#228;llets s&#228;kerhet. F&#246;rordning (2023:226).
+
+11 c &#167; Personuppgifter som behandlas enligt 11 b &#167; f&#229;r &#228;ven 
+behandlas om det &#228;r n&#246;dv&#228;ndigt f&#246;r att
+
+1. fullg&#246;ra en f&#246;rpliktelse som f&#246;ljer av ett internationellt 
+&#229;tagande, eller
+
+2. tillhandah&#229;lla information till
+
+a) riksdagen eller regeringen,
+
+b) en annan myndighet eller en enskild, om uppgifterna l&#228;mnas 
+med st&#246;d av lag eller f&#246;rordning, eller
+
+c) en utl&#228;ndsk myndighet, ett EU-organ eller en mellanfolklig 
+organisation, om utl&#228;mnandet av uppgifterna sker med anledning 
+av Sveriges medlemskap i Europeiska unionen eller i enlighet 
+med en internationell konvention som Sverige har tilltr&#228;tt 
+eller ett av riksdagen godk&#228;nt avtal med en fr&#228;mmande stat 
+eller en mellanfolklig organisation. F&#246;rordning (2023:226).
+
+Registreringen i luftfartygsregistret
+
+12 &#167; I en ans&#246;kan om registrering av ett luftfartyg skall l&#228;mnas
+uppgifter om vem som tidigare har &#228;gt luftfartyget och om de
+f&#246;rh&#229;llanden som avses i 5 &#167; 1 b och 2.
+
+Till ans&#246;kningen skall fogas
+
+1. handlingar som visar luftfartygets tillverkare, tillverkningsort,
+tillverknings&#229;r, tillverkningsnummer och typbeteckning,
+
+2. personbevis, registreringsbevis eller motsvarande handling som
+visar &#228;garens nationalitet, samt
+
+3. f&#246;rv&#228;rvshandlingar eller annan utredning om &#228;garens f&#246;rv&#228;rv av
+luftfartyget.
+
+13 &#167; Har upph&#228;vts genom f&#246;rordning (2010:775).
+
+14 &#167; Om ans&#246;kningen om registrering avser ett luftfartyg som &#228;r eller
+n&#228;rmast f&#246;rut har varit registrerat i en annan stat, skall den
+inneh&#229;lla uppgift om fartygets tidigare nationalitets- och
+registreringsbeteckning. Om den andra staten har tilltr&#228;tt den i
+Gen&#232;ve den 19 juni 1948 avslutade konventionen r&#246;rande internationellt
+erk&#228;nnande av r&#228;tt till luftfartyg, skall ans&#246;kningen dessutom
+inneh&#229;lla uppgift om de inskrivna r&#228;ttigheter som besv&#228;rar
+luftfartyget.
+
+Till ans&#246;kningen skall fogas
+
+1. luftfartygets luftv&#228;rdighetsbevis och milj&#246;v&#228;rdighetsbevis,
+
+2. utredning om att luftfartyget har avregistrerats i den andra
+staten eller att s&#229; kommer att ske automatiskt om luftfartyget
+registreras i Sverige, samt
+
+3. i ett s&#229;dant fall som avses i f&#246;rsta stycket andra meningen
+
+a) ett i den andra staten utf&#228;rdat gravationsbevis eller annan
+motsvarande handling f&#246;r fartyget,
+
+b) utredning som visar att de r&#228;ttigheter som antecknats i beviset
+eller handlingen &#228;r utan verkan p&#229; grund av exekutiv f&#246;rs&#228;ljning av
+fartyget eller att innehavarna av r&#228;ttigheterna har medgett att
+fartyget registreras i Sverige.
+
+Registreringen i operat&#246;rsregistret
+
+14 a &#167; En ans&#246;kan om registrering i operat&#246;rsregistret ska, i 
+de fall operat&#246;ren &#228;r en fysisk person, inneh&#229;lla uppgifter om 
+hans eller hennes fullst&#228;ndiga namn och person- eller 
+samordningsnummer. I de fall operat&#246;ren &#228;r en juridisk person 
+ska ans&#246;kan inneh&#229;lla 
+
+1. uppgifter om dennes namn och organisationsnummer, och 
+
+2. en bekr&#228;ftelse p&#229; att de anst&#228;llda som direkt medverkar i 
+driften av det obemannade luftfartyget har kompetens att 
+utf&#246;ra sina uppgifter och att luftfartyget kommer att sk&#246;tas 
+enbart av fj&#228;rrpiloter som har den kompetensniv&#229; som kr&#228;vs.
+
+En ans&#246;kan enligt f&#246;rsta stycket ska alltid inneh&#229;lla 
+uppgifter om
+
+1. operat&#246;rens adress, e-postadress och telefonnummer, och
+
+2. f&#246;rs&#228;kringsavtalsnummer f&#246;r det obemannade luftfartyget om 
+det kr&#228;vs enligt unionsregler eller nationella regler. 
+F&#246;rordning (2020:1065).
+
+&#196;ndring av f&#246;rh&#229;llanden som finns antecknade i
+luftfartygsregistret
+
+15 &#167; Till Transportstyrelsen skall r&#246;rande ett registrerat
+luftfartyg genast anm&#228;las
+
+1. om luftfartyget byter &#228;gare,
+
+2. om &#228;garens nationalitet &#228;ndras,
+
+3. om luftfartyget &#228;ndras p&#229; ett s&#228;tt som har betydelse f&#246;r
+identifieringen av det. F&#246;rordning (2008:1151).
+
+16 &#167; En s&#229;dan anm&#228;lan som avses i 15 &#167; 1 skall g&#246;ras s&#229;v&#228;l av den
+tidigare som av den nye &#228;garen. Anm&#228;lningen skall inneh&#229;lla uppgifter
+om
+
+1. den tidigare &#228;garens namn, samt
+
+2. den nye &#228;garens namn, nationalitet och adress samt arten av hans
+f&#246;rv&#228;rv.
+
+Till den nye &#228;garens anm&#228;lan skall fogas
+
+1. luftfartygets nationalitets- och registreringsbevis,
+
+2. personbevis, registreringsbevis eller motsvarande handling som
+visar den nye &#228;garens nationalitet, samt
+
+3. f&#246;rv&#228;rvshandlingar eller annan utredning om den nye &#228;garens f&#246;rv&#228;rv
+av luftfartyget.
+
+17 &#167; En s&#229;dan anm&#228;lan som avses i 15 &#167; 2 eller 3 skall g&#246;ras av &#228;garen
+och inneh&#229;lla de uppgifter och &#229;tf&#246;ljas av de handlingar som beh&#246;vs
+f&#246;r registerf&#246;ringen.
+
+18 &#167; Har upph&#228;vts genom f&#246;rordning (2010:775).
+
+19 &#167; Har upph&#228;vts genom f&#246;rordning (2010:775).
+
+20 &#167; N&#228;r en &#228;ndring av s&#229;dana f&#246;rh&#229;llanden som finns angivna p&#229;
+luftfartygets nationalitets- och registreringsbevis har inf&#246;rts i
+luftfartygsregistret, skall beviset &#246;verl&#228;mnas till
+Transportstyrelsen.
+
+Transportstyrelsen antecknar &#228;ndringen p&#229; beviset eller utf&#228;rdar
+ett nytt bevis. F&#246;rordning (2008:1151).
+
+&#196;ndring av uppgifter i operat&#246;rsregistret
+
+20 a &#167; Operat&#246;ren ska omedelbart l&#228;mna information till 
+Transportstyrelsen om &#228;ndrad e-postadress eller &#228;ndrat 
+telefonnummer och, i de fall operat&#246;ren &#228;r en juridisk person, 
+&#228;ven information om namnbyte, &#246;verl&#229;telse och avveckling. 
+F&#246;rordning (2020:1065).
+
+Avregistrering i luftfartygsregistret m.m.
+
+21 &#167; Best&#228;mmelser om avregistrering av ett luftfartyg finns i
+2 kap. 6 och 7 &#167;&#167; luftfartslagen (2010:500).
+F&#246;rordning (2010:775).
+
+22 &#167; I en ans&#246;kan om avregistrering av ett luftfartyg skall
+s&#246;kanden ange om det finns en inskrivning i luftfartyget. &#196;r
+detta fallet, skall s&#246;kanden ocks&#229; l&#228;mna uppgift om den till
+vars f&#246;rm&#229;n inskrivningen g&#228;ller har medgett att luftfartyget
+avregistreras.
+
+Till ans&#246;kningen skall fogas
+
+1. luftfartygets nationalitets- och registreringsbevis, och
+
+2. om en inskrivning finns i luftfartyget, handling som visar
+att den till vars f&#246;rm&#229;n inskrivningen g&#228;ller har medgett att
+luftfartyget avregistreras. F&#246;rordning (2005:145).
+
+23 &#167; I en anm&#228;lan om att n&#229;got har intr&#228;ffat som inneb&#228;r att
+ett luftfartyg ska avregistreras enligt 2 kap. 6 &#167; f&#246;rsta
+stycket 2, 3, 4 eller 5 luftfartslagen (2010:500) ska de
+uppgifter l&#228;mnas som f&#246;reskrivs i 22 &#167; f&#246;rsta stycket. De
+handlingar som f&#246;reskrivs i 22 &#167; andra stycket ska f&#246;lja med
+anm&#228;lningen. F&#246;rordning (2010:775).
+
+24 &#167; I ett s&#229;dant fall som avses i 2 kap. 6 &#167; f&#246;rsta stycket 5
+luftfartslagen (2010:500) f&#229;r Transportstyrelsen f&#246;rel&#228;gga
+luftfartygets &#228;gare att inom en viss tid l&#228;mna de uppgifter
+och ge in de handlingar som avses i 22 &#167;. Detta g&#228;ller dock
+inte, om &#228;garen inom den tid som Transportstyrelsen har
+best&#228;mt har visat att luftfartyget &#228;r luftv&#228;rdigt och
+milj&#246;v&#228;rdigt. F&#246;rordning (2010:775).
+
+25 &#167; En ans&#246;kan enligt 2 kap. 2 &#167; tredje stycket
+luftfartslagen (2010:500) om medgivande att ett luftfartyg ska
+f&#229; st&#229; kvar i luftfartygsregistret trots att kravet f&#246;r
+registrering i 2 kap. 2 &#167; f&#246;rsta stycket samma lag inte l&#228;ngre
+&#228;r uppfyllt, ska &#229;tf&#246;ljas av luftfartygets nationalitets- och
+registreringsbevis. F&#246;rordning (2010:775).
+
+26 &#167; Om en s&#229;dan ans&#246;kan som avses i 25 &#167; inte beviljas och en
+inskrivning finns i luftfartyget, f&#229;r Transportstyrelsen
+f&#246;rel&#228;gga luftfartygets &#228;gare att inom viss tid l&#228;mna uppgift
+om den till vars f&#246;rm&#229;n inskrivningen g&#228;ller medger att
+luftfartyget avregistreras. Tillsammans med denna uppgift skall
+s&#246;kanden ge in en s&#229;dan handling som avses i 22 &#167; andra stycket
+2. F&#246;rordning (2008:1151).
+
+Avregistrering i operat&#246;rsregistret m.m.
+
+26 a &#167; Transportstyrelsen ska besluta om avregistrering i 
+operat&#246;rsregistret n&#228;r
+
+1. en operat&#246;r har ans&#246;kt om avregistrering f&#246;r att denne inte 
+l&#228;ngre anv&#228;nder eller avser att anv&#228;nda ett eller flera 
+obemannade luftfartyg, 
+
+2. en operat&#246;r som &#228;r en fysisk person har avlidit, eller
+
+3. en operat&#246;r som &#228;r en juridisk person har f&#246;rsatts i 
+konkurs eller likvidation. 
+
+Transportstyrelsen f&#229;r avregistrera en operat&#246;r om myndigheten 
+f&#229;r k&#228;nnedom om att denne &#228;r registrerad i en annan 
+medlemsstat inom Europeiska unionen. Innan ett s&#229;dant beslut 
+om avregistrering fattas ska operat&#246;ren ges tillf&#228;lle att 
+yttra sig. F&#246;rordning (2020:1065).
+
+Bihanget till luftfartygsregistret
+
+27 &#167; Om ett luftfartyg med st&#246;d av 2 kap. 9 &#167; luftfartslagen
+(2010:500) antecknas i bihanget till luftfartygsregistret,
+g&#228;ller anteckningen i h&#246;gst tre m&#229;nader.
+
+Om luftfartyget registreras, f&#246;rfaller anteckningen.
+Registreringen ska antecknas i bihanget. F&#246;rordning (2010:775).
+
+28 &#167; Bihanget skall f&#246;r varje antecknat luftfartyg inneh&#229;lla uppgifter
+om f&#246;ljande.
+
+1. Betr&#228;ffande luftfartyget
+
+a) nationalitets- och registreringsbeteckning, samt
+
+b) tillverkare, tillverkningsort, tillverknings&#229;r, tillverkningsnummer
+och typbeteckning.
+
+2. &#196;garens namn, nationalitet och adress.
+
+3. Dagen f&#246;r anteckningen i bihanget och anteckningens giltighetstid.
+
+29 &#167; En ans&#246;kan om att ett luftfartyg skall antecknas i bihanget skall
+g&#246;ras skriftligen av luftfartygets &#228;gare. Best&#228;mmelserna i 12--14 &#167;&#167;
+g&#228;ller p&#229; motsvarande s&#228;tt i fr&#229;ga om en s&#229;dan ans&#246;kan. I ans&#246;kningen
+skall alltid l&#228;mnas uppgifter om luftfartygets luftv&#228;rdighet och
+milj&#246;v&#228;rdighet.
+
+30 &#167; Har upph&#228;vts genom f&#246;rordning (2010:775).
+
+31 &#167; Har upph&#228;vts genom f&#246;rordning (2010:775).
+
+F&#246;rs&#228;kring eller annan s&#228;kerhet
+
+32 &#167; Luftfartygsregistret, bihanget till luftfartygsregistret
+och brukarf&#246;rteckningen skall inneh&#229;lla uppgift om att det f&#246;r
+luftfartyget finns en f&#246;rs&#228;kring som uppfyller kraven i
+Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 785/2004 av
+den 21 april 2004 om f&#246;rs&#228;kringskrav f&#246;r lufttrafikf&#246;retag och
+luftfartygsoperat&#246;rer.
+
+I fr&#229;ga om luftfartyg som inte omfattas av dessa
+f&#246;rs&#228;kringskrav, f&#229;r Transportstyrelsen meddela f&#246;reskrifter om
+att luftfartygsregistret, bihanget till luftfartygsregistret
+och brukarf&#246;rteckningen skall inneh&#229;lla uppgift om den
+trafikf&#246;rs&#228;kring som har tecknats f&#246;r s&#229;dant luftfartyg eller
+den s&#228;kerhet som finns i st&#228;llet f&#246;r en s&#229;dan f&#246;rs&#228;kring.
+
+En ans&#246;kan om registrering av ett luftfartyg eller om
+anteckning i bihanget eller i brukarf&#246;rteckningen skall, n&#228;r
+det f&#246;ljer av f&#246;rsta eller andra stycket, inneh&#229;lla uppgift om
+f&#246;rs&#228;kring eller s&#228;kerhet. Till ans&#246;kningen skall fogas
+f&#246;rs&#228;kringsbevis eller annat bevis p&#229; giltig f&#246;rs&#228;kring eller
+s&#228;kerhet.
+
+N&#228;r luftfartygsregistret, bihanget eller brukarf&#246;rteckningen
+inneh&#229;ller de uppgifter som anges i denna paragraf, &#228;r
+luftfartygets &#228;gare respektive brukare skyldig att anm&#228;la om
+n&#229;gon &#228;ndring intr&#228;ffar betr&#228;ffande f&#246;rs&#228;kringen eller
+s&#228;kerheten. Till anm&#228;lningen skall fogas bevis om den &#228;ndrade
+f&#246;rs&#228;kringen eller s&#228;kerheten. F&#246;rordning (2008:1151).
+
+Underr&#228;ttelser till inskrivningsmyndigheten
+
+33 &#167; Transportstyrelsen skall underr&#228;tta
+inskrivningsmyndigheten
+
+1. n&#228;r en ny &#228;gare till ett luftfartyg, i vilket det finns en
+inskrivning, f&#246;rs in i registret,
+
+2. n&#228;r ett luftfartyg, i vilket det finns en inskrivning,
+avregistreras, och
+
+3. n&#228;r en s&#229;dan anteckning som avses i 9 &#167; g&#246;rs betr&#228;ffande ett
+luftfartyg i vilket det finns en inskrivning.
+F&#246;rordning (2008:1151).
+
+34 &#167; Om ett luftfartyg tidigare varit registrerat i en s&#229;dan
+stat som avses i 14 &#167; f&#246;rsta stycket andra meningen och sedan
+registreras i Sverige, skall Transportstyrelsen underr&#228;tta
+inskrivningsmyndigheten om registreringen. De handlingar som
+anges i 14 &#167; andra stycket 3 skall bifogas.
+F&#246;rordning (2008:1151).
+
+S&#228;rskilda best&#228;mmelser f&#246;r luftfartygsregistret
+
+35 &#167; Om en handling som bifogas en ans&#246;kan eller en anm&#228;lan till
+Transportstyrelsen &#228;r avfattad p&#229; ett annat spr&#229;k &#228;n svenska,
+danska, norska eller engelska, skall den &#229;tf&#246;ljas av en bestyrkt
+&#246;vers&#228;ttning till n&#229;got av dessa spr&#229;k. F&#246;rordning (2008:1151).
+
+36 &#167; Om en anm&#228;lan till Transportstyrelsen inte uppfyller de
+krav som anges i 16, 17, 23, 32 eller 35 &#167;, f&#229;r myndigheten
+f&#246;rel&#228;gga den som ska g&#246;ra anm&#228;lningen att inom en viss tid
+fullg&#246;ra sina skyldigheter. F&#246;rordning (2010:775).
+
+37 &#167; Handlingarna i &#228;renden som avser ans&#246;kningar eller anm&#228;lningar
+till luftfartygsregistret skall sammanf&#246;ras i akter, en f&#246;r varje
+luftfartyg. Detsamma g&#228;ller handlingarna i &#228;renden som avser
+anteckningar i bihanget till luftfartygsregistret och anteckningar i
+brukarf&#246;rteckningen.
+
+S&#228;rskilda best&#228;mmelser f&#246;r operat&#246;rsregistret
+
+37 a &#167; Den registrerade f&#229;r ha direkt&#229;tkomst till 
+personuppgifter som r&#246;r honom eller henne.
+F&#246;rordning (2020:1065).
+
+37 b &#167; Uppgifter i operat&#246;rsregistret f&#229;r l&#228;mnas ut till 
+statliga myndigheter, kommuner och leverant&#246;rer av 
+flygtrafikledningstj&#228;nst genom elektroniskt utl&#228;mnande f&#246;r de 
+&#228;ndam&#229;l som anges i 11 b &#167; 4. F&#246;rordning (2023:226).
+
+Bemyndigande
+
+38 &#167; Transportstyrelsen f&#229;r meddela ytterligare f&#246;reskrifter i
+de avseenden som anges i denna f&#246;rordning och f&#246;reskrifter om
+undantag fr&#229;n f&#246;rordningen. Styrelsen f&#229;r ocks&#229; i enskilda
+fall medge undantag fr&#229;n f&#246;rordningen.
+
+Vid till&#228;mpning av 2 kap. 2 &#167; luftfartslagen (2010:500) ska
+Transportstyrelsen beakta vad som f&#246;ljer av g&#228;llande avtal
+mellan Europeiska gemenskapen och Schweiziska edsf&#246;rbundet om
+luftfart. F&#246;rordning (2010:775).
+
+Ansvarsbest&#228;mmelser
+
+39 &#167; Till b&#246;ter d&#246;ms den som i fr&#229;ga om luftfartygsregistret 
+
+1. l&#228;mnar oriktiga uppgifter i samband med en ans&#246;kan eller 
+anm&#228;lan om registrering enligt denna f&#246;rordning, 
+
+2. inte fullg&#246;r en anm&#228;lningsskyldighet enligt denna 
+f&#246;rordning, eller
+
+3. inte r&#228;ttar sig efter ett f&#246;rel&#228;ggande som har meddelats 
+enligt 24, 26 eller 36 &#167;. F&#246;rordning (2020:1065).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1986:172
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1987, d&#229; kung&#246;relsen
+(1955:635) med n&#228;rmare best&#228;mmelser om luftfartygsregistret m. m.
+skall upph&#246;ra att g&#228;lla.
+
+2. Best&#228;mmelserna i 8 &#167; 2 g&#228;ller inte i fr&#229;ga om s&#229;dana anteckningar
+om nyttjander&#228;tt som har gjorts f&#246;re ikrafttr&#228;dandet.
+
+3. Om det i en lag eller i en f&#246;rfattning som har beslutats av
+regeringen h&#228;nvisas till en f&#246;reskrift som har ersatts genom en
+f&#246;reskrift i denna f&#246;rordning till&#228;mpas i st&#228;llet den nya
+f&#246;reskriften.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3718">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3720">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

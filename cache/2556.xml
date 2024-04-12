@@ -1,0 +1,804 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2002-06-24" /> 
+ <meta id="rattsinfo-edited" content="2021-10-04 14:01:16" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2556</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2555">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2557">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2002:599 ·
+                    <a href="/sfsr?bet=2002:599">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2002:599) om gruppr&#228;tteg&#229;ng</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet D&#197;
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2002-05-30
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2020:926
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2003-01-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+Grupptalan
+
+1 &#167; Med grupptalan avses i denna lag en talan som en k&#228;rande
+f&#246;r som f&#246;retr&#228;dare f&#246;r flera personer med r&#228;ttsverkningar f&#246;r
+dem, trots att de inte &#228;r parter i m&#229;let. Grupptalan kan v&#228;ckas
+som enskild grupptalan, organisationstalan eller offentlig
+grupptalan.
+
+Med gruppen avses de personer f&#246;r vilka k&#228;randen f&#246;r talan.
+
+Gruppr&#228;tteg&#229;ng
+
+2 &#167; En r&#228;tteg&#229;ng d&#228;r grupptalan f&#246;rs kallas gruppr&#228;tteg&#229;ng. 
+En gruppr&#228;tteg&#229;ng f&#229;r avse anspr&#229;k som kan tas upp av allm&#228;n 
+domstol enligt reglerna i r&#228;tteg&#229;ngsbalken om tvistem&#229;l. 
+
+F&#246;r gruppr&#228;tteg&#229;ng till&#228;mpas best&#228;mmelserna om tvistem&#229;l i 
+r&#228;tteg&#229;ngsbalken, med undantag av 1 kap. 3 d &#167;, om inte n&#229;got 
+annat anges i denna lag.
+
+En gruppr&#228;tteg&#229;ng kan ocks&#229; f&#246;ras enligt s&#228;rskilda 
+best&#228;mmelser i milj&#246;balken och i konkurrensskadelagen 
+(2016:964). Lag (2016:965).
+
+Hur grupptalan v&#228;cks m.m.
+
+Beh&#246;riga domstolar
+
+3 &#167; De tingsr&#228;tter som regeringen best&#228;mmer skall vara beh&#246;riga
+att handl&#228;gga m&#229;l enligt denna lag. Det skall finnas minst en
+beh&#246;rig tingsr&#228;tt i varje l&#228;n.
+
+Taler&#228;tt
+
+4 &#167; Enskild grupptalan f&#229;r v&#228;ckas av en fysisk eller juridisk
+person som sj&#228;lv har ett anspr&#229;k som omfattas av talan.
+
+5 &#167; Organisationstalan f&#229;r v&#228;ckas av en ideell f&#246;rening som i
+enlighet med sina stadgar tillvaratar konsument- eller
+l&#246;ntagarintressen i tvister mellan konsumenter och en
+n&#228;ringsidkare om n&#229;gon vara, tj&#228;nst eller annan nyttighet som
+n&#228;ringsidkaren erbjuder till konsumenter.
+
+I f&#246;rsta stycket avses med
+
+konsumenter: fysiska personer som handlat huvudsakligen f&#246;r
+&#228;ndam&#229;l som faller utanf&#246;r n&#228;ringsverksamhet,
+
+n&#228;ringsidkare: en fysisk eller juridisk person som handlat f&#246;r
+&#228;ndam&#229;l som har samband med den egna n&#228;ringsverksamheten.
+
+En organisationstalan som avses i f&#246;rsta stycket f&#229;r omfatta
+&#228;ven en tvist av annat slag, om det medf&#246;r betydande f&#246;rdelar
+med h&#228;nsyn till utredningen och &#246;vriga omst&#228;ndigheter att
+tvisterna handl&#228;ggs gemensamt.
+
+6 &#167; Offentlig grupptalan f&#229;r v&#228;ckas av en myndighet som med
+h&#228;nsyn till vad tvisten r&#246;r &#228;r l&#228;mpad att f&#246;retr&#228;da
+gruppmedlemmarna. Regeringen best&#228;mmer vilka myndigheter som
+f&#229;r v&#228;cka offentlig grupptalan.
+
+7 &#167; R&#228;tten att f&#246;retr&#228;da gruppen upph&#246;r inte om det intr&#228;ffar
+en f&#246;r&#228;ndring i de f&#246;rh&#229;llanden p&#229; vilka r&#228;tten att v&#228;cka talan
+enligt 4-6 &#167;&#167; har grundats.
+
+S&#228;rskilda processf&#246;ruts&#228;ttningar
+
+8 &#167; En grupptalan f&#229;r tas upp till pr&#246;vning om
+
+1. talan grundas p&#229; omst&#228;ndigheter som &#228;r gemensamma eller
+likartade f&#246;r gruppmedlemmarnas anspr&#229;k,
+
+2. en gruppr&#228;tteg&#229;ng inte framst&#229;r som ol&#228;mplig p&#229; grund av att
+vissa gruppmedlemmars anspr&#229;k till sina grunder skiljer sig
+v&#228;sentligt fr&#229;n &#246;vriga anspr&#229;k,
+
+3. merparten av de anspr&#229;k som talan avser inte lika v&#228;l kan
+g&#246;ras g&#228;llande genom talan av gruppmedlemmarna sj&#228;lva,
+
+4. gruppen med h&#228;nsyn till storlek, avgr&#228;nsning och &#246;vrigt &#228;r
+l&#228;mpligt best&#228;md samt
+
+5. k&#228;randen med h&#228;nsyn till sitt intresse i saken, sina
+ekonomiska f&#246;ruts&#228;ttningar att f&#246;ra en grupptalan och
+f&#246;rh&#229;llandena i &#246;vrigt &#228;r l&#228;mpad att f&#246;retr&#228;da gruppmedlemmarna
+i m&#229;let.
+
+Ans&#246;kans inneh&#229;ll
+
+9 &#167; En ans&#246;kan om st&#228;mning skall, ut&#246;ver vad som s&#228;gs i 42 kap.
+2 &#167; r&#228;tteg&#229;ngsbalken, inneh&#229;lla uppgifter om
+
+1. den grupp som talan avser,
+
+2. de omst&#228;ndigheter som &#228;r gemensamma eller likartade f&#246;r
+gruppmedlemmarnas anspr&#229;k,
+
+3. de f&#246;r k&#228;randen k&#228;nda f&#246;rh&#229;llanden som har betydelse f&#246;r
+pr&#246;vningen av endast vissa gruppmedlemmars anspr&#229;k samt
+
+4. andra omst&#228;ndigheter som har betydelse f&#246;r fr&#229;gan om
+anspr&#229;ken b&#246;r handl&#228;ggas i en gruppr&#228;tteg&#229;ng.
+
+K&#228;randen skall i ans&#246;kan ange namn och adress p&#229; samtliga
+gruppmedlemmar. S&#229;dana uppgifter f&#229;r utel&#228;mnas om de inte
+beh&#246;vs f&#246;r m&#229;lets handl&#228;ggning. K&#228;randen skall dessutom l&#228;mna
+upplysningar om f&#246;rh&#229;llanden i &#246;vrigt av betydelse f&#246;r
+underr&#228;ttelse till gruppmedlemmarna.
+
+Byte av taleform
+
+10 &#167; Den som &#228;r k&#228;rande i en r&#228;tteg&#229;ng kan hos tingsr&#228;tten
+skriftligen ans&#246;ka om att m&#229;let skall omvandlas till en
+gruppr&#228;tteg&#229;ng. D&#229; skall best&#228;mmelserna i 9 &#167; och 42 kap.
+2-4 &#167;&#167; r&#228;tteg&#229;ngsbalken till&#228;mpas. En ans&#246;kan f&#229;r bifallas
+endast om svaranden medger detta eller om det &#228;r uppenbart att
+f&#246;rdelarna med en gruppr&#228;tteg&#229;ng &#246;verv&#228;ger de ol&#228;genheter som
+en s&#229;dan kan antas medf&#246;ra f&#246;r svaranden.
+
+Ans&#246;kan skall delges svaranden f&#246;r yttrande. &#196;r ans&#246;kan
+ogrundad f&#229;r domstolen omedelbart avsl&#229; den.
+
+Om den tingsr&#228;tt d&#228;r m&#229;let p&#229;g&#229;r inte &#228;r beh&#246;rig att ta upp
+grupptalan skall ans&#246;kan &#246;verl&#228;mnas till en beh&#246;rig domstol. &#196;r
+ans&#246;kan uppenbart ogrundad f&#229;r domstolen omedelbart avsl&#229;
+ans&#246;kan i st&#228;llet f&#246;r att &#246;verl&#228;mna den.
+
+Ombud
+
+11 &#167; Enskild grupptalan och organisationstalan skall f&#246;ras
+genom ombud som &#228;r advokat. Om det finns s&#228;rskilda sk&#228;l, f&#229;r
+r&#228;tten medge att talan f&#246;rs utan ombud eller genom ombud som
+inte &#228;r advokat.
+
+12 &#167; En fullmakt som avser r&#228;tteg&#229;ng i allm&#228;nhet ger inte
+ombudet beh&#246;righet att v&#228;cka grupptalan eller att ta emot
+st&#228;mning i en gruppr&#228;tteg&#229;ng.
+
+Underr&#228;ttelse till medlemmarna om att en gruppr&#228;tteg&#229;ng har
+inletts
+
+13 &#167; Avvisas inte k&#228;randens ans&#246;kan om att inleda en
+gruppr&#228;tteg&#229;ng, skall gruppmedlemmarna underr&#228;ttas om
+r&#228;tteg&#229;ngen.
+
+Underr&#228;ttelsen skall efter vad domstolen finner l&#228;mpligt
+inneh&#229;lla
+
+1. en kortfattad redog&#246;relse f&#246;r ans&#246;kan,
+
+2. upplysningar om
+
+a) gruppr&#228;tteg&#229;ngen som handl&#228;ggningsform,
+
+b) medlemmarnas m&#246;jligheter att sj&#228;lva delta i r&#228;tteg&#229;ngen,
+
+c) r&#228;ttsverkan av en dom i en gruppr&#228;tteg&#229;ng, och
+
+d) vad som g&#228;ller i fr&#229;ga om r&#228;tteg&#229;ngskostnader,
+
+3. uppgifter om k&#228;randens och ombudets namn och adress,
+
+4. besked om tiden som r&#228;tten best&#228;mmer f&#246;r anm&#228;lan enligt
+14 &#167;, samt
+
+5. uppgifter om andra f&#246;rh&#229;llanden som har betydelse f&#246;r
+gruppmedlemmarnas r&#228;tt.
+
+Gruppens best&#228;mning
+
+14 &#167; En gruppmedlem som inte skriftligen inom den tid som
+r&#228;tten best&#228;mmer har anm&#228;lt till domstolen att han eller hon
+vill omfattas av grupptalan skall anses ha tr&#228;tt ur gruppen.
+
+Gruppmedlemmens st&#228;llning
+
+15 &#167; En gruppmedlem skall likst&#228;llas med part vid till&#228;mpning
+av r&#228;tteg&#229;ngsbalkens regler om j&#228;vsf&#246;rh&#229;llanden, p&#229;g&#229;ende
+r&#228;tteg&#229;ng, f&#246;rening av m&#229;l, h&#246;rande under r&#228;tteg&#229;ngen och andra
+fr&#229;gor som r&#246;r bevisningen.
+
+J&#228;v
+
+16 &#167; En gruppmedlem som inte &#228;r part f&#229;r, &#228;ven om han eller hon
+inte intr&#228;tt i r&#228;tteg&#229;ngen som intervenient, framst&#228;lla en
+inv&#228;ndning om j&#228;v mot en domare inom tv&#229; veckor fr&#229;n den dag
+n&#228;r han eller hon fick veta att domaren deltar i m&#229;lets
+handl&#228;ggning. Om den j&#228;vsgrundande omst&#228;ndigheten d&#229; inte var
+k&#228;nd f&#246;r medlemmen, f&#229;r inv&#228;ndningen framst&#228;llas inom tv&#229;
+veckor fr&#229;n den dag medlemmen fick s&#229;dan k&#228;nnedom.
+
+Den fortsatta handl&#228;ggningen
+
+K&#228;randens skyldigheter
+
+17 &#167; Vid talans utf&#246;rande skall k&#228;randen ta till vara
+gruppmedlemmarnas intressen.
+
+I viktiga fr&#229;gor skall k&#228;randen ge gruppmedlemmarna tillf&#228;lle
+att yttra sig, om det kan ske utan st&#246;rre ol&#228;genhet. Om en
+gruppmedlem beg&#228;r det skall k&#228;randen l&#228;mna s&#229;dana upplysningar
+som har betydelse f&#246;r medlemmens r&#228;tt.
+
+Utvidgning av talan
+
+18 &#167; R&#228;tten f&#229;r medge k&#228;randen att utvidga en grupptalan till
+att omfatta andra anspr&#229;k hos gruppmedlemmarna eller nya
+gruppmedlemmar, om detta kan ske utan att det f&#246;ranleder en
+betydande f&#246;rsening av avg&#246;randet i m&#229;let och utan betydande
+ol&#228;genheter i &#246;vrigt f&#246;r svaranden. En ans&#246;kan om utvidgning av
+talan skall ske skriftligen och inneh&#229;lla s&#229;dana uppgifter som
+anges i 9 &#167;.
+
+&#214;verl&#229;telse av tvistef&#246;rem&#229;let
+
+19 &#167; Om k&#228;randen eller en gruppmedlem &#246;verl&#229;ter det som tvisten
+r&#246;r till n&#229;gon annan, skall vad som s&#228;gs i 13 kap. 7 &#167;
+r&#228;tteg&#229;ngsbalken g&#228;lla om f&#246;rv&#228;rvarens r&#228;tt och skyldighet att
+tr&#228;da in som medlem i gruppen.
+
+Undergrupper
+
+20 &#167; R&#228;tten f&#229;r f&#246;rordna n&#229;gon att vid sidan av k&#228;randen eller
+i st&#228;llet f&#246;r k&#228;randen f&#246;ra talan i en viss fr&#229;ga eller en del
+av saken som g&#228;ller endast vissa gruppmedlemmars r&#228;tt, om det
+fr&#228;mjar en &#228;ndam&#229;lsenlig handl&#228;ggning. Ett s&#229;dant f&#246;rordnande
+f&#229;r ges en gruppmedlem eller, om det inte &#228;r m&#246;jligt, n&#229;gon
+annan.
+
+Parterna och ber&#246;rda gruppmedlemmar skall ges tillf&#228;lle att
+yttra sig innan r&#228;tten fattar beslut, om detta inte &#228;r
+uppenbart obeh&#246;vligt. I beslutet skall r&#228;tten ange den del av
+gruppen och den fr&#229;ga eller del av saken som f&#246;rordnandet
+avser.
+
+Best&#228;mmelserna i denna lag om k&#228;randen g&#228;ller i till&#228;mpliga
+delar ocks&#229; den som har f&#246;rordnats att f&#246;ra talan enligt f&#246;rsta
+stycket.
+
+Byte av k&#228;rande
+
+21 &#167; Om k&#228;randen inte l&#228;ngre bed&#246;ms vara l&#228;mpad att f&#246;retr&#228;da
+gruppmedlemmarna i m&#229;let, skall r&#228;tten utse n&#229;gon annan som har
+taler&#228;tt enligt 4-6 &#167;&#167; att som k&#228;rande f&#246;ra gruppens talan.
+
+Om n&#229;gon ny k&#228;rande inte kan utses enligt f&#246;rsta stycket, skall
+grupptalan avvisas. Om k&#228;randen &#228;r klagandens motpart i h&#246;gre
+r&#228;tt f&#229;r dock r&#228;tten f&#246;rordna n&#229;gon annan som bed&#246;ms vara
+l&#228;mpad att som k&#228;rande f&#246;ra gruppens talan.
+
+22 &#167; I andra fall &#228;n som avses i 21 &#167; f&#229;r n&#229;gon annan &#246;verta
+k&#228;randens talan endast om k&#228;randen &#246;verl&#229;tit sin del av det som
+tvisten r&#246;r eller det finns andra s&#228;rskilda sk&#228;l.
+
+Avbrytande av gruppr&#228;tteg&#229;ngen eller del av den
+
+23 &#167; &#197;terkallar k&#228;randen grupptalan inom tiden f&#246;r anm&#228;lan
+enligt 14 &#167; skall m&#229;let avskrivas i dess helhet. Om k&#228;randen
+inom den tiden &#229;terkallar m&#229;let i en del som h&#228;nf&#246;r sig till en
+viss gruppmedlems anspr&#229;k skall det k&#228;rom&#229;let avskrivas.
+
+Om det efter anm&#228;lningstidens utg&#229;ng uppkommer en fr&#229;ga om att
+avskriva m&#229;let i dess helhet eller att avvisa grupptalan skall
+r&#228;tten l&#228;mna parterna och gruppmedlemmarna tillf&#228;lle att yttra
+sig, om det inte &#228;r uppenbart obeh&#246;vligt.
+
+Andra stycket till&#228;mpas ocks&#229; om fr&#229;ga uppkommer om att
+avskriva m&#229;let eller avvisa talan i en del som h&#228;nf&#246;r sig till
+en viss gruppmedlems anspr&#229;k.
+
+24 &#167; R&#228;tten f&#229;r best&#228;mma en tid inom vilken en gruppmedlem
+skriftligen till domstolen kan anm&#228;la att han eller hon, om
+gruppr&#228;tteg&#229;ngen n&#228;r det g&#228;ller hans eller hennes anspr&#229;k
+avbryts, vill tr&#228;da in som part och f&#246;ra talan ang&#229;ende sin
+r&#228;tt.
+
+G&#246;rs en anm&#228;lan om intr&#228;de enligt f&#246;rsta stycket, skall r&#228;tten
+avskilja det k&#228;rom&#229;l som anm&#228;lan g&#228;ller och besluta om den
+fortsatta handl&#228;ggningen. R&#228;tten f&#229;r under de f&#246;ruts&#228;ttningar
+som anges i 1 kap. 3 d &#167; r&#228;tteg&#229;ngsbalken besluta att m&#229;let
+skall handl&#228;ggas med till&#228;mpning av den paragrafen.
+
+R&#228;tten kan flytta &#246;ver ett avskilt m&#229;l till en annan beh&#246;rig
+domstol, om detta &#228;r b&#228;st med h&#228;nsyn till utredningen och
+&#246;vriga omst&#228;ndigheter.
+
+25 &#167; Om ett &#246;verklagande &#229;terkallas eller skall avvisas av
+annan anledning &#228;n att det har kommit in f&#246;r sent till&#228;mpas
+best&#228;mmelserna i 23 &#167; andra och tredje styckena och 24 &#167; f&#246;rsta
+och andra styckena.
+
+Om ett &#246;verklagande har f&#246;rfallit p&#229; grund av att k&#228;randen
+uteblivit fr&#229;n ett sammantr&#228;de f&#246;r huvudf&#246;rhandling, skall
+m&#229;let &#229;terupptas enligt 50 kap. 22 &#167; r&#228;tteg&#229;ngsbalken p&#229;
+ans&#246;kan av en gruppmedlem, &#228;ven om k&#228;randen saknat laga f&#246;rfall
+f&#246;r sin utevaro. Gruppmedlemmens ans&#246;kan f&#229;r begr&#228;nsas till ett
+visst k&#228;rom&#229;l.
+
+F&#246;rlikning
+
+26 &#167; En f&#246;rlikning som k&#228;randen ing&#229;r f&#246;r en grupps r&#228;kning
+g&#228;ller, om r&#228;tten stadf&#228;ster den genom dom. F&#246;rlikningen skall
+p&#229; beg&#228;ran av parterna stadf&#228;stas, om den inte &#228;r
+diskriminerande mot vissa gruppmedlemmar eller p&#229; annat s&#228;tt
+uppenbart osk&#228;lig.
+
+Om uppskov med pr&#246;vningen av en viss fr&#229;ga
+
+27 &#167; Om det &#228;r l&#228;mpligt med h&#228;nsyn till utredningen och kan ske
+utan betydande ol&#228;genhet f&#246;r svaranden, f&#229;r r&#228;tten meddela en
+dom som f&#246;r vissa gruppmedlemmar inneb&#228;r ett slutligt avg&#246;rande
+av saken och som f&#246;r andra gruppmedlemmar inneb&#228;r att
+pr&#246;vningen av en viss fr&#229;ga skjuts upp.
+
+R&#228;tten skall f&#246;rel&#228;gga varje gruppmedlem f&#246;r vilken m&#229;let inte
+slutligt avgjorts att inom en viss tid beg&#228;ra att den
+&#229;terst&#229;ende fr&#229;gan pr&#246;vas. I fr&#229;ga om gruppmedlemmar som l&#228;mnar
+in en s&#229;dan beg&#228;ran skall r&#228;tten besluta enligt 24 &#167; andra och
+tredje styckena om avskiljande och om den fortsatta
+handl&#228;ggningen. Om en gruppmedlem inte l&#228;mnar in en beg&#228;ran om
+pr&#246;vning av den &#229;terst&#229;ende fr&#229;gan, skall medlemmens talan
+ogillas, om inte svaranden har medgett yrkandet eller det &#228;r
+uppenbart att talan &#228;r grundad.
+
+Avg&#246;randets inneh&#229;ll
+
+28 &#167; I en dom skall r&#228;tten ange de gruppmedlemmar som domen
+avser. Detta g&#228;ller ocks&#229; ett beslut, om det beh&#246;vs med h&#228;nsyn
+till fr&#229;gans beskaffenhet.
+
+R&#228;ttskraft
+
+29 &#167; R&#228;ttens avg&#246;rande i en gruppr&#228;tteg&#229;ng har r&#228;ttskraft i
+f&#246;rh&#229;llande till alla gruppmedlemmar som omfattas av
+avg&#246;randet.
+
+S&#228;rskilda regler om r&#228;tteg&#229;ngskostnader m.m.
+
+R&#228;tt till ers&#228;ttning och ansvar f&#246;r kostnader
+
+30 &#167; Den som enligt 21 &#167; andra stycket har f&#246;rordnats att som
+k&#228;rande f&#246;ra en grupps talan har r&#228;tt till ers&#228;ttning av
+allm&#228;nna medel som motsvarar kostnaden f&#246;r r&#228;tteg&#229;ngens
+f&#246;rberedande och talans utf&#246;rande samt arvode till ombud eller
+bitr&#228;de, om kostnaden sk&#228;ligen varit p&#229;kallad f&#246;r att ta till
+vara gruppmedlemmarnas r&#228;tt. Ers&#228;ttning skall ocks&#229; ges f&#246;r
+k&#228;randens eget arbete och tidsspillan med anledning av
+r&#228;tteg&#229;ngen. S&#229;som &#229;tg&#228;rd f&#246;r r&#228;tteg&#229;ngens f&#246;rberedande anses
+f&#246;rhandling f&#246;r bil&#228;ggande av en tvistefr&#229;ga som har omedelbar
+betydelse f&#246;r den f&#246;rda talan.
+
+R&#228;tten f&#229;r besluta om f&#246;rskott p&#229; ers&#228;ttningen med sk&#228;ligt
+belopp om det &#228;r rimligt med h&#228;nsyn till omfattningen av de
+kostnader eller det arbete som uppdraget har medf&#246;rt, den tid
+som r&#228;tteg&#229;ngen kan ber&#228;knas p&#229;g&#229; samt &#246;vriga f&#246;rh&#229;llanden.
+
+31 &#167; Den som enligt 21 &#167; andra stycket har f&#246;rordnats att som
+k&#228;rande f&#246;ra en grupps talan &#228;r inte skyldig att betala
+ers&#228;ttning f&#246;r motpartens r&#228;tteg&#229;ngskostnader i annat fall &#228;n
+som avses i 18 kap. 6 &#167; r&#228;tteg&#229;ngsbalken. I st&#228;llet skall den
+som tidigare varit k&#228;rande i m&#229;let s&#229;som part svara f&#246;r dessa
+r&#228;tteg&#229;ngskostnader. Han eller hon skall ocks&#229; ers&#228;tta staten
+f&#246;r vad som utg&#229;tt av allm&#228;nna medel enligt 30 &#167;, i den
+utstr&#228;ckning inte klaganden eller n&#229;gon annan &#228;r skyldig att
+betala s&#229;dan ers&#228;ttning.
+
+Har n&#229;gon i samband med &#246;verklagande eller d&#228;refter &#246;vertagit
+k&#228;randens talan i annat fall &#228;n som avses i f&#246;rsta stycket
+svarar han eller hon s&#229;som part endast f&#246;r r&#228;tteg&#229;ngskostnader
+som har uppkommit i den h&#246;gre r&#228;tten. F&#246;r r&#228;tteg&#229;ngskostnader i
+l&#228;gre r&#228;tt svarar i st&#228;llet den som tidigare varit k&#228;rande i
+m&#229;let.
+
+32 &#167; Best&#228;mmelserna i r&#228;tteg&#229;ngsbalken om ansvar f&#246;r
+r&#228;tteg&#229;ngskostnader skall till&#228;mpas &#228;ven i fr&#229;ga om s&#229;dan
+ers&#228;ttning av allm&#228;nna medel som betalats till en k&#228;rande med
+st&#246;d av 30 &#167;. Ers&#228;ttning f&#246;r en s&#229;dan kostnad skall betalas
+till staten. R&#228;tten skall pr&#246;va fr&#229;gan om ers&#228;ttning utan
+yrkande.
+
+Kostnadsansvaret f&#246;r en gruppmedlem
+
+33 &#167; En gruppmedlem som inte &#228;r part i r&#228;tteg&#229;ngen svarar f&#246;r
+r&#228;tteg&#229;ngskostnaderna i m&#229;let endast i de fall som avses i 34
+och 35 &#167;&#167;.
+
+34 &#167; Har svaranden &#229;lagts att ers&#228;tta k&#228;randens
+r&#228;tteg&#229;ngskostnader eller att till staten betala s&#229;dana
+kostnader som avses i 32 &#167; och kan svaranden inte betala, &#228;r de
+ber&#246;rda gruppmedlemmarna skyldiga att ers&#228;tta dessa kostnader.
+Detsamma g&#228;ller merkostnader vid riskavtal som svaranden enligt
+41 &#167; inte f&#246;rpliktats betala. Varje gruppmedlem svarar f&#246;r sin
+andel av kostnaderna och &#228;r inte skyldig att betala mer &#228;n som
+har kommit honom eller henne till godo genom r&#228;tteg&#229;ngen.
+
+35 &#167; En gruppmedlem som inte &#228;r part i r&#228;tteg&#229;ngen skall
+ers&#228;tta de kostnader som medlemmen har v&#229;llat genom n&#229;gon
+&#229;tg&#228;rd som avses i 18 kap. 3 &#167; f&#246;rsta stycket r&#228;tteg&#229;ngsbalken
+eller genom s&#229;dan v&#229;rdsl&#246;shet eller f&#246;rsummelse som avses i 6 &#167;
+samma kapitel.
+
+36 &#167; Om en medlem har intr&#228;tt som part i gruppr&#228;tteg&#229;ngen i
+samband med ett &#246;verklagande eller d&#228;refter, svarar medlemmen
+som part endast f&#246;r kostnader som har uppkommit i den h&#246;gre
+r&#228;tten.
+
+Avskilda k&#228;rom&#229;l
+
+37 &#167; Om ett k&#228;rom&#229;l har avskilts enligt 24 &#167;, svarar k&#228;randen
+och gruppmedlemmen solidariskt f&#246;r de r&#228;tteg&#229;ngskostnader som
+har uppkommit f&#246;re avskiljandet. F&#246;r kostnader som har
+uppkommit d&#228;refter svarar gruppmedlemmen ensam.
+
+Har k&#228;randen eller gruppmedlemmen orsakat r&#228;tteg&#229;ngskostnad
+genom v&#229;rdsl&#246;shet eller f&#246;rsummelse, skall han eller hon ensam
+svara f&#246;r denna kostnad.
+
+Riskavtal
+
+38 &#167; Har k&#228;randen ing&#229;tt ett avtal med ett ombud om att arvodet
+till ombudet skall best&#228;mmas med h&#228;nsyn till i vilken
+utstr&#228;ckning gruppmedlemmarnas anspr&#229;k tillgodoses (riskavtal)
+f&#229;r avtalet endast &#229;beropas mot gruppmedlemmarna om det har
+godk&#228;nts av domstol.
+
+39 &#167; Ett riskavtal f&#229;r godk&#228;nnas endast om avtalet &#228;r sk&#228;ligt
+med h&#228;nsyn till sakens beskaffenhet. Avtalet skall vara
+uppr&#228;ttat i skriftlig form. Av avtalet skall framg&#229; p&#229; vilket
+s&#228;tt arvodet &#228;r avsett att avvika fr&#229;n ett normalarvode om
+gruppmedlemmarnas anspr&#229;k bifalls eller ogillas helt. Avtalet
+f&#229;r inte godk&#228;nnas om arvodet grundas enbart p&#229;
+tvistef&#246;rem&#229;lets v&#228;rde.
+
+40 &#167; Fr&#229;gan om godk&#228;nnande av ett riskavtal pr&#246;vas i en
+p&#229;g&#229;ende gruppr&#228;tteg&#229;ng av domstolen p&#229; yrkande av k&#228;randen.
+Har den r&#228;ttsliga angel&#228;genhet som riskavtalet omfattar inte
+inletts vid domstol, f&#229;r den som vill f&#246;ra grupptalan beg&#228;ra
+att fr&#229;gan om godk&#228;nnande pr&#246;vas av en domstol som &#228;r beh&#246;rig
+att pr&#246;va tvisten. G&#229;r det inte att avg&#246;ra vilken domstol som
+&#228;r beh&#246;rig, pr&#246;vas fr&#229;gan om godk&#228;nnande av Stockholms
+tingsr&#228;tt.
+
+Ett godk&#228;nnande enligt f&#246;rsta stycket upph&#246;r att g&#228;lla, om en
+gruppr&#228;tteg&#229;ng inte har inletts inom sex m&#229;nader fr&#229;n
+godk&#228;nnandet. Om det finns sk&#228;l f&#246;r det f&#229;r domstolen f&#246;rl&#228;nga
+den tiden.
+
+41 &#167; Vid pr&#246;vning av vad som &#228;r ers&#228;ttningsgill
+r&#228;tteg&#229;ngskostnad enligt 18 kap. 8 &#167; r&#228;tteg&#229;ngsbalken skall
+h&#228;nsyn inte tas till s&#229;dana merkostnader som har uppkommit p&#229;
+grund av ett riskavtal.
+
+&#214;verklagande
+
+42 &#167; N&#228;r pr&#246;vningen av en viss fr&#229;ga har skjutits upp enligt
+27 &#167;, skall r&#228;ttten best&#228;mma om domen i den del d&#228;r avg&#246;randet
+inte &#228;r slutligt f&#229;r &#246;verklagas s&#228;rskilt. En s&#229;dan del av domen
+f&#229;r dock alltid &#246;verklagas s&#228;rskilt, om domen i den del den &#228;r
+slutlig &#246;verklagas f&#246;r eller mot en grupp.
+
+Om en dom &#246;verklagas s&#228;rskilt enligt f&#246;rsta stycket, f&#229;r r&#228;tten
+best&#228;mma att m&#229;let i &#246;vrigt skall vila till dess att domen har
+vunnit laga kraft.
+
+43 &#167; Tingsr&#228;ttens beslut med anledning av en &#229;terkallelse av
+talan f&#229;r inte &#246;verklagas, om &#229;terkallelsen har skett inom
+tiden f&#246;r anm&#228;lan enligt 14 &#167;. Ett beslut i fr&#229;ga om
+r&#228;tteg&#229;ngskostnader som meddelats i samband med avskrivningen
+f&#229;r dock &#246;verklagas.
+
+44 &#167; En tingsr&#228;tts beslut att utse en ny k&#228;rande f&#229;r &#246;verklagas
+av den tidigare k&#228;randen och av en gruppmedlem som har
+f&#246;reslagit en annan k&#228;rande. En tingsr&#228;tts beslut att avsl&#229; en
+beg&#228;ran om byte av k&#228;rande f&#229;r &#246;verklagas av en gruppmedlem som
+har f&#246;reslagit ett s&#229;dant byte. I fr&#229;ga om &#246;verklagandet
+till&#228;mpas best&#228;mmelserna i 49 kap. 4 &#167; och 11 &#167; f&#246;rsta stycket
+r&#228;tteg&#229;ngsbalken.
+
+45 &#167; En tingsr&#228;tts beslut under r&#228;tteg&#229;ngen f&#229;r, ut&#246;ver vad som
+s&#228;gs i r&#228;tteg&#229;ngsbalken och 44 &#167;, &#246;verklagas s&#228;rskilt, om
+tingsr&#228;tten i beslutet har
+
+1. avslagit k&#228;randens beg&#228;ran att f&#229; f&#246;ra enskild grupptalan
+eller organisationstalan utan ombud eller genom ombud som inte
+&#228;r advokat,
+
+2. pr&#246;vat en fr&#229;ga enligt 19 &#167; om intr&#228;de som medlem i gruppen,
+eller
+
+3. pr&#246;vat en fr&#229;ga om godk&#228;nnande av ett riskavtal enligt 39 &#167;.
+
+Den som vill &#246;verklaga ett beslut som avses i f&#246;rsta stycket
+skall f&#246;rst anm&#228;la missn&#246;je. Anm&#228;lan skall g&#246;ras genast, om
+beslutet har meddelats vid ett sammantr&#228;de, och annars inom en
+vecka fr&#229;n den dag d&#229; klaganden fick del av beslutet. Den som
+f&#246;rsummar detta har inte l&#228;ngre r&#228;tt att &#246;verklaga beslutet.
+Anm&#228;ler n&#229;gon missn&#246;je f&#229;r r&#228;tten f&#246;rklara m&#229;let vilande till
+dess att &#246;verklagandet pr&#246;vats, om det finns s&#228;rskilda sk&#228;l.
+
+46 &#167; Best&#228;mmelserna i 44 och 45 &#167;&#167; g&#228;ller ocks&#229; vid ett
+&#246;verklagande av en hovr&#228;tts beslut som inte &#228;r slutligt i
+fr&#229;gor som avses i de paragraferna och som har uppkommit i
+hovr&#228;tten eller som har &#246;verklagats dit.
+
+47 &#167; En gruppmedlem f&#229;r &#246;verklaga en dom eller ett slutligt
+beslut f&#246;r en grupps r&#228;kning samt ett beslut om godk&#228;nnande av
+ett riskavtal enligt 39 &#167;.
+
+En gruppmedlem &#228;r vidare beh&#246;rig att f&#246;r egen r&#228;kning &#246;verklaga
+en dom eller ett beslut som r&#246;r hans eller hennes r&#228;tt.
+
+48 &#167; En missn&#246;jesanm&#228;lan av en gruppmedlem som inte &#228;r part i
+r&#228;tteg&#229;ngen f&#229;r g&#246;ras inom en vecka fr&#229;n dagen f&#246;r beslutet, om
+beslutet har meddelats vid ett sammantr&#228;de till vilket
+medlemmen inte har kallats och inte heller &#228;nd&#229; har inst&#228;llt
+sig. Detsamma g&#228;ller om beslutet inte har meddelats vid ett
+sammantr&#228;de och inte delges medlemmen.
+
+Underr&#228;ttelse till gruppmedlemmarna
+
+49 &#167; R&#228;tten skall, ut&#246;ver vad som f&#246;ljer av &#246;vriga
+best&#228;mmelser, underr&#228;tta en ber&#246;rd gruppmedlem om en dom eller
+ett slutligt beslut samt om en f&#246;rlikning som beg&#228;rs stadf&#228;st
+enligt 26 &#167;.
+
+Om det beh&#246;vs med h&#228;nsyn till den betydelse uppgiften kan antas
+ha f&#246;r medlemmens r&#228;tt, skall r&#228;tten vidare underr&#228;tta en
+ber&#246;rd gruppmedlem om
+
+1. att k&#228;randen har ersatts med en ny k&#228;rande,
+
+2. att k&#228;randen har anlitat ett nytt ombud,
+
+3. att k&#228;randen har eftergett talan,
+
+4. att fr&#229;ga uppkommit om att godk&#228;nna ett riskavtal,
+
+5. att en dom eller ett beslut &#246;verklagats, samt
+
+6. andra beslut, &#229;tg&#228;rder och f&#246;rh&#229;llanden i &#246;vrigt.
+
+50 &#167; Underr&#228;ttelser enligt denna lag till gruppmedlemmar ska 
+ske p&#229; det s&#228;tt r&#228;tten finner l&#228;mpligt och med beaktande av 
+33 kap. 3 a &#167; r&#228;tteg&#229;ngsbalken.
+
+R&#228;tten f&#229;r f&#246;rel&#228;gga en part att ombes&#246;rja en underr&#228;ttelse om 
+det inneb&#228;r betydande f&#246;rdelar f&#246;r handl&#228;ggningen. Parten har 
+i s&#229; fall r&#228;tt till ers&#228;ttning av allm&#228;nna medel f&#246;r 
+kostnader.
+
+Andra stycket g&#228;ller &#228;ven n&#228;r en underr&#228;ttelse sker genom 
+delgivning. Lag (2020:926).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2555">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2557">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

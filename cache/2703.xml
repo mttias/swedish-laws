@@ -1,0 +1,605 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2000-06-07" /> 
+ <meta id="rattsinfo-edited" content="2021-12-09 15:16:17" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2703</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2702">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2704">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2000:344 ·
+                    <a href="/sfsr?bet=2000:344">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2000:344) om Schengens informationssystem</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet L4
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2000-05-25
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2020:1006
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2000-12-01
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Författningen har upphävts genom:</span> SFS 2021:1187
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">En svensk enhet av Schengens informationssystem
+
+1 &#167; Polismyndigheten ska med hj&#228;lp av automatiserad
+behandling f&#246;ra ett register som ska vara den svenska
+nationella enheten i Schengens informationssystem (SIS).
+Myndigheten ska ocks&#229; behandla till&#228;ggsinformation enligt
+12 &#167;.
+
+Registret ska vara anslutet till den centrala enheten i SIS.
+Polismyndigheten &#228;r personuppgiftsansvarig f&#246;r den behandling
+av personuppgifter som myndigheten utf&#246;r enligt denna lag.
+Lag (2014:595).
+
+F&#246;rh&#229;llandet till annan reglering
+
+1 a &#167; Denna lag g&#228;ller ut&#246;ver brottsdatalagen (2018:1177).
+Lag (2019:433).
+
+1 b &#167; Vid behandling av personuppgifter som inte omfattas av 
+brottsdatalagen (2018:1177) kompletterar denna lag 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2016/679 av den 
+27 april 2016 om skydd f&#246;r fysiska personer med avseende p&#229; 
+behandling av personuppgifter och om det fria fl&#246;det av s&#229;dana 
+uppgifter och om upph&#228;vande av direktiv 95/46/EG (allm&#228;n data-
+skyddsf&#246;rordning). 
+
+Vid behandling av personuppgifter enligt f&#246;rsta stycket g&#228;ller 
+lagen (2018:218) med kompletterande best&#228;mmelser till EU:s 
+dataskyddsf&#246;rordning och f&#246;reskrifter som har meddelats i 
+anslutning till den lagen, om inte annat f&#246;ljer av denna lag 
+eller f&#246;reskrifter som har meddelats i anslutning till lagen.
+Lag (2019:433).
+
+&#196;ndam&#229;l
+
+2 &#167; Registret ska vara ett hj&#228;lpmedel f&#246;r de stater som anges
+i andra stycket att g&#246;ra framst&#228;llningar som avses i 3 &#167;, f&#246;r
+att fr&#228;mja samarbete som avser polisi&#228;ra och r&#228;ttsliga fr&#229;gor.
+Av Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 1987/2006
+av den 20 december 2006 om inr&#228;ttande, drift och anv&#228;ndning av
+andra generationen av Schengens informationssystem (SIS II),
+nedan ben&#228;mnd SIS II-f&#246;rordningen, framg&#229;r att registret ocks&#229;
+ska vara ett hj&#228;lpmedel f&#246;r att g&#246;ra framst&#228;llningar om att en
+person ska nekas tilltr&#228;de till eller uppeh&#229;llstillst&#229;nd i
+Schengenstaterna.
+
+Det samarbete som avses i f&#246;rsta stycket bedrivs mellan de
+stater (Schengenstaterna) som har tilltr&#228;tt eller anslutit sig
+till konventionen om till&#228;mpning av Schengenavtalet av den 14
+juni 1985, som har slutit avtal om samarbete enligt
+konventionen med dessa stater eller med Europeiska unionens
+r&#229;d, eller som efter beslut av Europeiska unionens r&#229;d helt
+eller delvis till&#228;mpar konventionens best&#228;mmelser.
+Lag (2010:380).
+
+Inneh&#229;ll
+
+Framst&#228;llningar som f&#229;r f&#246;ras in i registret
+
+3 &#167; Registret ska inneh&#229;lla framst&#228;llningar om
+
+1. omh&#228;ndertagande av en person som har efterlysts f&#246;r
+&#246;verl&#228;mnande eller utl&#228;mning,
+
+2. l&#228;mnande av uppgift om uppeh&#229;llsort f&#246;r en person som har
+anm&#228;lts f&#246;rsvunnen,
+
+3. tillf&#228;lligt omh&#228;ndertagande av en person med h&#228;nsyn till
+dennes eller n&#229;gon annans s&#228;kerhet,
+
+4. l&#228;mnande av uppgift om uppeh&#229;llsort f&#246;r
+
+- en person som har f&#246;relagts att inst&#228;lla sig f&#246;r att h&#246;ras
+vid domstolsf&#246;rhandling i brottm&#229;l,
+
+- en &#229;talad person som ska delges handlingar inom ramen f&#246;r
+ett brottm&#229;lsf&#246;rfarande,
+
+- en person som ska inst&#228;lla sig f&#246;r verkst&#228;llighet av
+frihetsber&#246;vande p&#229;f&#246;ljd, eller
+
+- en person som ska delges ett f&#246;rel&#228;ggande av ordningsbot
+eller ett strafff&#246;rel&#228;ggande,
+
+5. dold &#246;vervakning eller s&#228;rskilda kontroll&#229;tg&#228;rder, och
+
+6. omh&#228;ndertagande eller annan &#229;tg&#228;rd betr&#228;ffande fordon eller
+f&#246;rem&#229;l som har efterlysts f&#246;r att tas i beslag eller f&#246;r att
+anv&#228;ndas som bevismaterial vid en r&#228;tteg&#229;ng i brottm&#229;l.
+
+I SIS II-f&#246;rordningen finns best&#228;mmelser om att registret &#228;ven
+ska inneh&#229;lla framst&#228;llningar om att en person ska nekas
+tilltr&#228;de till eller uppeh&#229;llstillst&#229;nd i Schengenstaterna.
+Lag (2010:380).
+
+3 a &#167; Kan en person, om vilken uppgifter har registrerats
+enligt 3 &#167;, f&#246;rv&#228;xlas med en person vars identitet har
+missbrukats, ska registreringen kompletteras med uppgifter om
+den andra personen.
+
+Registrering av kompletterande uppgifter enligt f&#246;rsta stycket
+f&#229;r ske endast om den som uppgifterna avser har l&#228;mnat sitt
+samtycke. Lag (2010:380).
+
+Uppgifter som f&#229;r registreras n&#228;r det g&#228;ller framst&#228;llningar
+som r&#246;r personer
+
+4 &#167; N&#228;r det g&#228;ller framst&#228;llningar som r&#246;r personer f&#229;r
+endast f&#246;ljande uppgifter registreras:
+
+1. efternamn, f&#246;rnamn, tidigare anv&#228;nda namn, namn vid
+f&#246;dseln och annat namn som personen anv&#228;nder,
+
+2. s&#228;rskilda best&#229;ende fysiska k&#228;nnetecken,
+
+3. fotografier och fingeravtryck,
+
+4. f&#246;delsedatum och f&#246;delseort,
+
+5. k&#246;n,
+
+6. medborgarskap,
+
+7. om personen kan vara bev&#228;pnad eller kan tillgripa v&#229;ld,
+
+8. om personen har avvikit fr&#229;n en inr&#228;ttning d&#228;r han eller
+hon med st&#246;d av lag har varit ber&#246;vad friheten,
+
+9. syftet med framst&#228;llningen,
+
+10. beg&#228;rd &#229;tg&#228;rd,
+
+11. om en f&#246;rsvunnen person beh&#246;ver omh&#228;ndertas eller inte,
+
+12. den myndighet som har lagt in registreringen,
+
+13. en h&#228;nvisning till det beslut som har f&#246;ranlett
+registreringen,
+
+14. typ av brott som avses i framst&#228;llningen, samt
+
+15. &#246;vriga uppgifter som ska anges i en europeisk eller
+nordisk arresteringsorder.
+
+D&#228;rut&#246;ver f&#229;r det, om det beh&#246;vs, f&#246;rekomma l&#228;nkar till andra
+registreringar i registret, och uppgifter om
+verkst&#228;llighetsf&#246;rbud i Sverige med anledning av
+framst&#228;llningar fr&#229;n andra Schengenstater.
+
+Kompletterande uppgifter enligt 3 a &#167; f&#229;r endast avse s&#229;dana
+uppgifter om personen som anges i f&#246;rsta stycket 1–6 samt
+uppgifter om nummer och datum f&#246;r personens
+identitetshandlingar. Lag (2013:335).
+
+Krav f&#246;r att en framst&#228;llning ska f&#229; registreras
+
+4 a &#167; En person f&#229;r bli f&#246;rem&#229;l f&#246;r registrering endast om
+uppgifter om efternamn, f&#246;rnamn, k&#246;n, beg&#228;rd &#229;tg&#228;rd och, i
+f&#246;rekommande fall, en h&#228;nvisning till det beslut som har
+f&#246;ranlett registreringen, kan registreras om honom eller
+henne. &#214;vriga uppgifter enligt 4 &#167; f&#246;rsta stycket ska
+registreras om de finns tillg&#228;ngliga. Lag (2010:380).
+
+Till&#229;ten behandling
+
+5 &#167; Registret ska endast inneh&#229;lla uppgifter som har 
+behandlats av beh&#246;riga myndigheter i Schengenstaterna, i 
+enlighet med respektive stats nationella lagstiftning.
+
+Polismyndigheten f&#229;r f&#246;ra in uppgifter i registret endast om 
+behandling av motsvarande slag av uppgifter &#228;r till&#229;ten 
+enligt brottsdatalagen (2018:1177), lagen (2018:1693) om 
+polisens behandling av personuppgifter inom brottsdatalagens 
+omr&#229;de eller n&#229;gon annan f&#246;rfattning. Lag (2018:1704).
+
+6 &#167; Polismyndigheten f&#229;r registrera uppgifter endast om det
+&#228;r n&#246;dv&#228;ndigt f&#246;r att vidta de &#229;tg&#228;rder som anges i 3 &#167; och
+endast i &#228;renden som &#228;r av s&#229;dan vikt att registreringen
+framst&#229;r som ber&#228;ttigad. Lag (2014:595).
+
+F&#246;rbud mot registrering av vissa uppgifter
+
+7 &#167; Polismyndigheten f&#229;r inte registrera uppgifter i SIS som
+avsl&#246;jar etniskt ursprung, politiska &#229;sikter, religi&#246;s eller
+filosofisk &#246;vertygelse, medlemskap i fackf&#246;rening, eller
+uppgifter som r&#246;r h&#228;lsa eller sexualliv. Lag (2014:595).
+
+Sekretess
+
+8 &#167; Att uppgifter i registret kan omfattas av sekretess
+f&#246;ljer av offentlighets- och sekretesslagen (2009:400).
+Lag (2009:486).
+
+R&#228;tt att f&#229; uppgifter ur registret
+
+9 &#167; Uppgifter som finns i registret ska l&#228;mnas ut om det
+beg&#228;rs av S&#228;kerhetspolisen, &#229;klagarmyndigheter, Tullverket
+eller Kustbevakningen n&#228;r dessa utf&#246;r unders&#246;kningar och
+andra kontroller &#228;n gr&#228;nskontroller i sin verksamhet f&#246;r att
+f&#246;rebygga och utreda brott.
+
+I SIS II-f&#246;rordningen finns s&#228;rskilda best&#228;mmelser om
+utl&#228;mnande av uppgifter ur registret till myndigheter som
+ansvarar f&#246;r identifiering av tredjelandsmedborgare i samband
+med gr&#228;nskontroller och andra kontroller. I
+Europaparlamentets och r&#229;dets f&#246;rordning (EG) nr 1986/2006 av
+den 20 december 2006 om tilltr&#228;de till andra generationen av
+Schengens informationssystem (SIS II) f&#246;r de enheter i
+medlemsstaterna som ansvarar f&#246;r att utf&#228;rda
+registreringsbevis f&#246;r fordon, finns best&#228;mmelser som inneb&#228;r
+att en s&#229;dan enhet ska ha direkt&#229;tkomst till registret.
+
+Kompletterande uppgifter enligt 3 a &#167; f&#229;r endast l&#228;mnas ut
+till en myndighet
+
+1. som har r&#228;tt att f&#229; ut uppgifter om den registrering
+enligt 3 &#167; som de kompletterande uppgifterna avser, och
+
+2. som beh&#246;ver uppgifterna f&#246;r att undvika en felaktig
+identifiering.
+
+Regeringen meddelar f&#246;reskrifter om att myndigheter som
+pr&#246;var ans&#246;kningar om visering och uppeh&#229;llstillst&#229;nd ska ha
+tillg&#229;ng till uppgifter som avses i 3 &#167; andra stycket.
+
+Regeringen meddelar ocks&#229; f&#246;reskrifter om att de myndigheter
+som n&#228;mns i f&#246;rsta och fj&#228;rde styckena f&#229;r ha direkt&#229;tkomst
+till registret. Lag (2014:595).
+
+Anv&#228;ndning av uppgifter i registret
+
+10 &#167; En uppgift, som behandlas i registret, f&#229;r inte &#246;verf&#246;ras 
+eller g&#246;ras tillg&#228;nglig f&#246;r ett tredjeland eller en 
+internationell organisation.
+
+En uppgift i registret f&#229;r inte heller i &#246;vrigt anv&#228;ndas i 
+n&#229;got annat syfte &#228;n det som den registrerande staten har 
+angett vid registreringen, om inte staten har l&#228;mnat sitt 
+samtycke.
+
+S&#229;dana uppgifter om en person, som har registrerats med st&#246;d 
+av 3 a &#167;, f&#229;r endast anv&#228;ndas i syfte att skilja personen fr&#229;n 
+en person som har registrerats med st&#246;d av 3 &#167; eller f&#246;r att 
+den person vars identitet har missbrukats ska kunna styrka sin 
+identitet.
+
+Fotografier och fingeravtryck f&#229;r anv&#228;ndas f&#246;r att fastst&#228;lla 
+n&#229;gons identitet vid en tr&#228;ff i registret efter en s&#246;kning med 
+hj&#228;lp av bokst&#228;ver, siffror, s&#228;rskilda tecken eller 
+skiljetecken.
+
+En s&#246;kning med hj&#228;lp av fingeravtryck f&#246;r att identifiera en 
+person f&#229;r g&#246;ras i samtliga fall. Lag (2020:1006).
+
+Gallring
+
+11 &#167; Uppgifter som Polismyndigheten har f&#246;rt in i registret
+f&#229;r inte bevaras l&#228;ngre &#228;n vad som &#228;r n&#246;dv&#228;ndigt med h&#228;nsyn
+till &#228;ndam&#229;let med registreringen. S&#229;dana uppgifter ska
+gallras om de avser en
+
+1. framst&#228;llning som r&#246;r en person enligt 3 &#167; f&#246;rsta stycket
+5, senast ett &#229;r efter registreringen,
+
+2. framst&#228;llning som r&#246;r en person i annat fall &#228;n som avses
+i 1, senast tre &#229;r efter registreringen,
+
+3. framst&#228;llning som r&#246;r ett f&#246;rem&#229;l enligt 3 &#167; f&#246;rsta
+stycket 5, senast fem &#229;r efter registreringen, och
+
+4. framst&#228;llning som r&#246;r ett f&#246;rem&#229;l enligt 3 &#167; f&#246;rsta
+stycket 6, senast tio &#229;r efter registreringen.
+
+Polismyndigheten f&#229;r dock, innan den tid som anges i f&#246;rsta
+stycket har l&#246;pt ut, besluta att en uppgift ska st&#229; kvar i
+registret om det &#228;r n&#246;dv&#228;ndigt f&#246;r att uppn&#229; syftet med
+registreringen. Ett s&#229;dant beslut ska framg&#229; av registret. Om
+uppgifter st&#229;r kvar med st&#246;d av ett s&#229;dant beslut, ska de
+gallras eller fr&#229;gan om bevarande pr&#246;vas p&#229; nytt senast vid
+utg&#229;ngen av de tidsfrister som anges i f&#246;rsta stycket. I
+s&#229;dana fall ska tidsfristen anses l&#246;pa fr&#229;n dagen f&#246;r
+beslutet.
+
+Uppgifter som har registrerats med st&#246;d av 3 a &#167; ska gallras
+samtidigt som uppgifterna i den registrering enligt 3 &#167; som
+de h&#228;nf&#246;r sig till. Uppgifterna ska gallras tidigare om den
+person som de avser beg&#228;r det. Lag (2014:595).
+
+Till&#228;ggsinformation
+
+12 &#167; Till&#228;ggsinformation &#228;r information som inte ska
+registreras i SIS men som h&#228;nf&#246;r sig till registreringar i SIS
+och som med hj&#228;lp av automatiserad behandling utbyts mellan
+Schengenstaterna
+
+- i samband med att de l&#228;gger in en registrering,
+
+- efter en tr&#228;ff,
+
+- n&#228;r en &#229;tg&#228;rd inte kan vidtas, eller
+
+- n&#228;r kontroller ska utf&#246;ras. Lag (2010:380).
+
+13 &#167; Till&#228;ggsinformation f&#229;r endast anv&#228;ndas f&#246;r att uppn&#229; det
+syfte f&#246;r vilket den har &#246;verl&#228;mnats. Lag (2010:380).
+
+14 &#167; Om till&#228;ggsinformationen utg&#246;rs av personuppgifter som
+har tagits emot fr&#229;n en annan stat, f&#229;r den bevaras endast
+under s&#229; l&#229;ng tid som beh&#246;vs f&#246;r att uppn&#229; det syfte f&#246;r
+vilket den har mottagits. Den f&#229;r aldrig bevaras l&#228;ngre &#228;n
+ett &#229;r efter det att de uppgifter i SIS som den avser har
+gallrats. Lag (2014:595).
+
+15 &#167; Har upph&#228;vts genom lag (2019:433).
+
+Skadest&#229;nd vid personuppgiftsbehandling som omfattas av 
+brottsdatalagen
+
+16 &#167; Best&#228;mmelsen om skadest&#229;nd i 7 kap. 1 &#167; brottsdatalagen 
+(2018:1177) ska till&#228;mpas om behandling av personuppgifter som 
+omfattas av brottsdatalagen skett i strid med denna lag eller 
+f&#246;reskrifter som har meddelats i anslutning till den.
+Lag (2019:433).
+
+Administrativa sanktionsavgifter vid personuppgiftsbehandling 
+som omfattas av brottsdatalagen
+
+17 &#167; En sanktionsavgift f&#229;r tas ut av den 
+personuppgiftsansvarige vid &#246;vertr&#228;delse av best&#228;mmelserna om 
+gallring och bevarande av personuppgifter i 11 och 14 &#167;&#167;, om 
+&#246;vertr&#228;delsen skett vid behandling av personuppgifter som 
+omfattas av brottsdatalagen (2018:1177).
+
+Sanktionsavgiften ska best&#228;mmas till h&#246;gst 10 000 000 kronor.
+Lag (2019:433).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2010:380
+
+1. Denna lag tr&#228;der i kraft den dag regeringen best&#228;mmer.
+
+2. &#196;ldre best&#228;mmelser f&#229;r forts&#228;tta att till&#228;mpas p&#229; uppgifter
+som redan finns i registret, dock l&#228;ngst tre &#229;r efter
+ikrafttr&#228;dandet. Om en uppgift &#228;ndras eller nya uppgifter f&#246;rs
+in i registret efter ikrafttr&#228;dandet ska dock de nya
+best&#228;mmelserna till&#228;mpas p&#229; den framst&#228;llning som uppgifterna
+h&#246;r till. De nya best&#228;mmelserna ska ocks&#229; till&#228;mpas om det
+blir tr&#228;ff i registret p&#229; en framst&#228;llning som fanns i
+registret n&#228;r denna lag tr&#228;dde i kraft.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2702">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2704">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

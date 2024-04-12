@@ -1,0 +1,942 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2015-12-29" /> 
+ <meta id="rattsinfo-edited" content="2022-01-13 15:17:19" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1035</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1034">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1036">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2015:1034 ·
+                    <a href="/sfsr?bet=2015:1034">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2015:1034) om resolution</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet B
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2015-12-18
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2021:472
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2016-02-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Denna f&#246;rordning inneh&#229;ller best&#228;mmelser som kompletterar 
+lagen (2015:1016) om resolution. 
+
+2 &#167; I denna f&#246;rordning betyder
+
+1. kapitalt&#228;ckningsdirektivet: Europaparlamentets och r&#229;dets 
+direktiv 2013/36/EU av den 26 juni 2013 om beh&#246;righet att 
+ut&#246;va verksamhet i kreditinstitut och om tillsyn av 
+kreditinstitut, om &#228;ndring av direktiv 2002/87/EG och om 
+upph&#228;vande av direktiven 2006/48/EG och 2006/49/EG, i lydelsen 
+enligt Europaparlamentets och r&#229;dets direktiv (EU) 2019/2034,
+
+2. krishanteringsdirektivet: Europaparlamentets och r&#229;dets 
+direktiv 2014/59/EU av den 15 maj 2014 om inr&#228;ttande av en ram 
+f&#246;r &#229;terh&#228;mtning och resolution av kreditinstitut och 
+v&#228;rdepappersf&#246;retag och om &#228;ndring av r&#229;dets direktiv 
+82/891/EEG och Europaparlamentets och r&#229;dets direktiv 
+2001/24/EG, 2002/47/EG, 2004/25/EG, 2005/56/EG, 2007/36/EG, 
+2011/35/EU, 2012/30/EU och 2013/36/EU samt Europaparlamentets 
+och r&#229;dets f&#246;rordningar (EU) nr 1093/2010 och (EU) nr 
+648/2012, i lydelsen enligt Europaparlamentets och r&#229;dets 
+direktiv (EU) 2019/2034, och
+
+3. tillsynsf&#246;rordningen: Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) nr 575/2013 av den 26 juni 2013 om 
+tillsynskrav f&#246;r kreditinstitut och om &#228;ndring av f&#246;rordning 
+(EU) nr 648/2012.
+
+Termer och uttryck i &#246;vrigt som anv&#228;nds i denna f&#246;rordning har 
+samma betydelse som i lagen (2015:1016) om resolution.
+F&#246;rordning (2021:472).
+
+Resolutionsplaner
+
+Resolutionsplaner f&#246;r institut som inte ing&#229;r i en finansiell 
+koncern
+
+3 &#167; En resolutionsplan som Riksg&#228;ldskontoret uppr&#228;ttar i 
+enlighet med 3 kap. 1 &#167; lagen (2015:1016) om resolution ska 
+beakta relevanta scenarier, inbegripet att fallissemang kan 
+vara en isolerad h&#228;ndelse eller kan intr&#228;ffa i en tid av 
+finansiell instabilitet eller &#246;vergripande systemp&#229;verkande 
+h&#228;ndelser. Planen f&#229;r inte f&#246;ruts&#228;tta att det l&#228;mnas 
+likviditetsst&#246;d p&#229; s&#228;rskilda villkor fr&#229;n Riksbanken eller 
+n&#229;gon annan centralbank eller n&#229;got annat statligt st&#246;d &#228;n 
+medel ur resolutionsreserven.
+
+4 &#167; Ut&#246;ver vad som f&#246;reskrivs i 3 kap. 1 &#167; lagen (2015:1016) 
+om resolution och tekniska standarder beslutade av Europeiska 
+kommissionen enligt artikel 10.9 i krishanteringsdirektivet, 
+ska en resolutionsplan f&#246;r ett institut som inte ing&#229;r i en 
+finansiell koncern inneh&#229;lla f&#246;ljande:
+
+1. Sammanfattning av huvudinslagen i planen.
+
+2. Sammanfattning av de v&#228;sentliga f&#246;r&#228;ndringar f&#246;r institutet 
+som intr&#228;ffat sedan den senaste resolutionsinformationen 
+l&#228;mnades in.
+
+3. Beskrivning av hur kritisk verksamhet och aff&#228;rsverksamhet 
+som &#228;r viktig f&#246;r institutets intj&#228;ning eller l&#246;nsamhet skulle 
+kunna avskiljas juridiskt och ekonomiskt fr&#229;n &#246;vriga 
+funktioner f&#246;r att s&#228;kerst&#228;lla fortsatt verksamhet efter 
+institutets fallissemang.
+
+4. Uppskattning av tidsramen f&#246;r att genomf&#246;ra varje v&#228;sentlig 
+del av planen.
+
+5. Detaljerad beskrivning av den pr&#246;vning av m&#246;jligheten att 
+rekonstruera eller avveckla ett institut som gjorts i enlighet 
+med 3 kap. 10 &#167; lagen om resolution.
+
+6. Beskrivning av alla &#229;tg&#228;rder som kr&#228;vs enligt 3 kap. 24 &#167; 
+lagen om resolution f&#246;r att undanr&#246;ja eller begr&#228;nsa hinder 
+mot att rekonstruera eller avveckla ett institut som 
+identifierats vid den pr&#246;vning som gjorts i enlighet med 10 &#167; 
+samma kapitel.
+
+7. Detaljerad beskrivning av f&#246;rfarandena f&#246;r att fastst&#228;lla 
+v&#228;rdet av och m&#246;jligheten att s&#228;lja institutets kritiska 
+verksamhet, aff&#228;rsverksamhet som &#228;r viktig f&#246;r institutets 
+intj&#228;ning eller l&#246;nsamhet och tillg&#229;ngar.
+
+8. Detaljerad beskrivning av arrangemangen f&#246;r att s&#228;kerst&#228;lla 
+att den beg&#228;rda informationen enligt 3 kap. 25 &#167; lagen om 
+resolution &#228;r aktuell och tillg&#228;nglig f&#246;r Riksg&#228;ldskontoret.
+
+9. Analys av hur och n&#228;r ett institut, i enlighet med de 
+villkor som anges i planen, f&#229;r ans&#246;ka om att f&#229; utnyttja 
+centralbanksfaciliteter och en sammanst&#228;llning av tillg&#229;ngar 
+som kan f&#246;rv&#228;ntas godtas som s&#228;kerhet.
+
+10. F&#246;rklaring fr&#229;n Riksg&#228;ldskontoret av hur 
+resolutionsalternativen skulle kunna finansieras utan att det 
+l&#228;mnas likviditetsst&#246;d p&#229; s&#228;rskilda villkor fr&#229;n Riksbanken 
+eller n&#229;gon annan centralbank eller n&#229;got annat statligt st&#246;d 
+&#228;n medel ur resolutionsreserven.
+
+11. Detaljerad beskrivning av de olika resolutionsstrategier 
+som skulle kunna till&#228;mpas enligt de olika m&#246;jliga scenarierna 
+samt de till&#228;mpliga tidsfristerna.
+
+12. Beskrivning av kritiska &#246;msesidiga beroenden.
+
+13. Beskrivning av handlingsalternativen f&#246;r att bevara 
+tillg&#229;ng till betalnings- och clearingtj&#228;nster och annan 
+infrastruktur och en bed&#246;mning av &#246;verf&#246;rbarheten f&#246;r kunders 
+positioner.
+
+14. Analys av planens effekter p&#229; institutets anst&#228;llda, 
+inbegripet en bed&#246;mning av d&#228;rmed f&#246;rknippade kostnader, och 
+en beskrivning av planerade f&#246;rfaranden f&#246;r samr&#229;d med 
+personalen under resolutionsprocessen, i till&#228;mpliga fall med 
+beaktande av nationella system f&#246;r dialog mellan 
+arbetsmarknadens parter.
+
+15. Plan f&#246;r kommunikation med medier och allm&#228;nheten.
+
+16. Uppgifter om
+
+a) kravet p&#229; kapitalbas och kvalificerade skulder enligt 
+4 kap. 1-23 &#167;&#167; lagen om resolution, och 
+
+b) n&#228;r kravet ska vara uppfyllt enligt 4 kap. 24-27 &#167;&#167; lagen 
+om resolution och punkt 2 och 3 i ikrafttr&#228;dande- och 
+&#246;verg&#229;ngsbest&#228;mmelserna till lagen (2021:467) om &#228;ndring i 
+lagen om resolution. 
+
+17. Beskrivning av grundl&#228;ggande verksamhet och system f&#246;r 
+kontinuerlig drift av institutets operativa processer.
+
+18. Eventuella yttranden fr&#229;n institutet om resolutionsplanen.
+F&#246;rordning (2021:472).
+
+Koncernresolutionsplaner
+
+5 &#167; Ut&#246;ver vad som f&#246;reskrivs i 3 kap. 2 &#167; lagen (2015:1016) 
+om resolution och tekniska standarder beslutade av Europeiska 
+kommissionen enligt artikel 12.6 i krishanteringsdirektivet, 
+ska en koncernresolutionsplan inneh&#229;lla uppgifter om f&#246;ljande:
+
+1. De resolutions&#229;tg&#228;rder som ska vidtas i fr&#229;ga om en 
+resolutionsenhet
+
+i s&#229;dana scenarier som avses i 3 &#167; och effekterna av dessa 
+&#229;tg&#228;rder f&#246;r andra koncernf&#246;retag som avses i artikel 1.1 b, c 
+eller d i krishanteringsdirektivet, moderf&#246;retaget och 
+dotterinstituten i koncernen. 
+
+2. De resolutions&#229;tg&#228;rder som ska vidtas i fr&#229;ga om en 
+resolutionsenhet om det finns flera resolutionsgrupper i 
+koncernen och effekterna av dessa &#229;tg&#228;rder f&#246;r andra 
+koncernf&#246;retag i samma resolutionsgrupp och f&#246;r andra 
+resolutionsgrupper.
+
+3. I vilken utstr&#228;ckning det &#228;r m&#246;jligt att vidta 
+resolutions&#229;tg&#228;rder p&#229; ett samordnat s&#228;tt i fr&#229;ga om 
+resolutionsenheter inom EES, inklusive &#229;tg&#228;rder f&#246;r att 
+underl&#228;tta tredje mans f&#246;rv&#228;rv av koncernen eller 
+aff&#228;rsverksamhet eller aktiviteter som tillhandah&#229;lls av ett 
+flertal koncernf&#246;retag eller av s&#228;rskilda koncernf&#246;retag eller 
+resolutionsgrupper. &#196;ven potentiella hinder f&#246;r en samordnad 
+resolution ska uppges.
+
+4. Om en koncern inbegriper f&#246;retag med s&#228;te i tredjeland, 
+uppgifter om l&#228;mpliga arrangemang f&#246;r samarbete och samordning 
+med relevanta myndigheter i det landet och f&#246;ljderna av 
+resolutionen inom EES.
+
+5. N&#246;dv&#228;ndiga &#229;tg&#228;rder, inklusive att juridiskt och ekonomiskt 
+avskilja s&#228;rskilda funktioner eller aff&#228;rsverksamhet, f&#246;r att 
+underl&#228;tta koncernresolution n&#228;r f&#246;ruts&#228;ttningarna f&#246;r 
+resolution &#228;r uppfyllda.
+
+6. Andra &#229;tg&#228;rder &#228;n de som anges i krishanteringsdirektivet 
+och som Riksg&#228;ldskontoret eller ber&#246;rda utl&#228;ndska 
+resolutionsmyndigheter har f&#246;r avsikt att vidta mot ett 
+f&#246;retag i en resolutionsgrupp.
+
+7. Finansiering av koncernresolutions&#229;tg&#228;rder och, om 
+finansieringsarrangemangen f&#246;r resolution skulle beh&#246;vas, 
+principer f&#246;r att dela upp ansvaret f&#246;r finansieringen mellan 
+resolutionsreserven och motsvarande utl&#228;ndska 
+finansieringsarrangemang inom EES, utan att f&#246;ruts&#228;tta att det 
+l&#228;mnas likviditetsst&#246;d p&#229; s&#228;rskilda villkor fr&#229;n Riksbanken 
+eller n&#229;gon annan centralbank eller n&#229;got annat statligt st&#246;d 
+&#228;n medel ur resolutionsreserven eller motsvarande utl&#228;ndskt 
+finanseringsarrangemang inom EES. Principerna ska fastst&#228;llas 
+p&#229; grundval av r&#228;ttvisa och v&#228;lavv&#228;gda kriterier och ska 
+s&#228;rskilt beakta artikel 107.5 i krishanteringsdirektivet och 
+effekterna p&#229; den finansiella stabiliteten i alla ber&#246;rda EES-
+l&#228;nder.
+
+8. En detaljerad beskrivning av Riksg&#228;ldskontorets pr&#246;vning 
+enligt 3 kap. 11 &#167; lagen om resolution av m&#246;jligheten att 
+rekonstruera eller avveckla koncernen.
+
+I 3 kap. 3 &#167; lagen om resolution finns best&#228;mmelser om 
+&#246;verenskommelser om koncernresolutionsplaner f&#246;r en 
+gr&#228;ns&#246;verskridande koncern. F&#246;rordning (2021:472).
+
+6 &#167; Vid utformningen av en koncernresolutionsplan ska 
+Riksg&#228;ldskontoret str&#228;va efter att planen inte f&#229;r en 
+oproportionerlig inverkan p&#229; den finansiella stabiliteten i 
+n&#229;got EES-land.
+
+Uppdatering av resolutions- och koncernresolutionsplaner
+
+7 &#167; Riksg&#228;ldskontoret ska uppdatera resolutionsplaner och 
+koncernresolutionsplaner enligt 3 kap. 1 och 2 &#167;&#167; lagen 
+(2015:1016) om resolution &#229;rligen och vid varje f&#246;r&#228;ndring av 
+institutets respektive koncernens juridiska eller 
+organisatoriska struktur, aff&#228;rsverksamhet eller finansiella 
+st&#228;llning som skulle kunna ha en v&#228;sentlig negativ inverkan p&#229; 
+planens effektivitet eller annars n&#246;dv&#228;ndigg&#246;ra en &#228;ndring av 
+planen.
+
+En resolutionsplan ska dessutom uppdateras efter genomf&#246;rande 
+av nedskrivning eller konvertering enligt 6 kap. lagen om 
+resolution eller efter en resolutions&#229;tg&#228;rd. 
+F&#246;rordning (2021:472).
+
+&#214;vers&#228;ndande av resolutions- och koncernresolutionsplaner
+
+8 &#167; Riksg&#228;ldskontoret ska skicka en kopia av en resolutions- 
+eller koncernresolutionsplan och eventuella &#228;ndringar i 
+planen till Finansinspektionen. Om Riksg&#228;ldskontoret &#228;r 
+samordnande resolutionsmyndighet, ska en kopia av en 
+koncernresolutionsplan och eventuella &#228;ndringar i planen &#228;ven 
+skickas till andra beh&#246;riga myndigheter som ber&#246;rs av 
+planen.
+
+M&#246;jligheten att rekonstruera eller att avveckla ett institut 
+eller en koncern
+
+9 &#167; Vid pr&#246;vningen enligt 3 kap. 10 och 11 &#167;&#167; lagen 
+(2015:1016) om resolution av m&#246;jligheten att rekonstruera 
+eller avveckla ett institut respektive en koncern, ska 
+Riksg&#228;ldskontoret beakta f&#246;ljande:
+
+1. Institutets f&#246;rm&#229;ga att klarl&#228;gga b&#229;de aff&#228;rsverksamhet som 
+&#228;r viktig f&#246;r dess intj&#228;ning eller l&#246;nsamhet och kritisk 
+verksamhet i f&#246;rh&#229;llande till juridiska personer inom samma 
+koncern.
+
+2. Graden av anpassning mellan juridiska strukturer och 
+f&#246;retagsstrukturer i f&#246;rh&#229;llande till aff&#228;rsverksamhet som &#228;r 
+viktig f&#246;r intj&#228;ning eller l&#246;nsamhet och kritisk verksamhet.
+
+3. I vilken utstr&#228;ckning det finns arrangemang f&#246;r att 
+tillhandah&#229;lla n&#246;dv&#228;ndig personal, infrastruktur, 
+finansiering, likviditet och kapital f&#246;r att st&#246;dja och 
+uppr&#228;tth&#229;lla aff&#228;rsverksamhet som &#228;r viktig f&#246;r intj&#228;ning 
+eller l&#246;nsamhet och kritisk verksamhet.
+
+4. I vilken utstr&#228;ckning serviceavtal som institutet ing&#229;tt 
+kan h&#228;vdas om institutet f&#246;rs&#228;tts i resolution.
+
+5. I vilken utstr&#228;ckning institutets styrningsstruktur &#228;r 
+l&#228;mplig f&#246;r att hantera och s&#228;kra efterlevnaden av institutets 
+interna riktlinjer f&#246;r serviceniv&#229;avtal.
+
+6. I vilken utstr&#228;ckning institutet har ett f&#246;rfarande f&#246;r att 
+f&#246;ra &#246;ver tj&#228;nster som tillhandah&#229;llits en tredje part inom 
+ramen f&#246;r ett serviceniv&#229;avtal, om kritisk verksamhet eller 
+s&#229;dan aff&#228;rsverksamhet som &#228;r viktig f&#246;r institutets intj&#228;ning 
+eller l&#246;nsamhet skulle separeras.
+
+7. I vilken utstr&#228;ckning det finns beredskapsplaner och 
+&#229;tg&#228;rder f&#246;r att garantera fortsatt tillg&#229;ng till betalnings- 
+och avvecklingssystem.
+
+8. I vilken utstr&#228;ckning ledningsinformationssystemen 
+garanterar att Riksg&#228;ldskontoret kan inh&#228;mta korrekta och 
+fullst&#228;ndiga uppgifter om aff&#228;rsverksamhet som &#228;r viktig f&#246;r 
+intj&#228;ning eller l&#246;nsamhet och kritisk verksamhet i syfte att 
+p&#229;skynda beslutsprocessen.
+
+9. Ledningsinformationssystemens kapacitet att tillhandah&#229;lla 
+uppgifter som &#228;r v&#228;sentliga f&#246;r att p&#229; ett effektivt s&#228;tt 
+kunna f&#246;rs&#228;tta institutet i resolution.
+
+10. I vilken utstr&#228;ckning institutet har testat sina 
+ledningsinformationssystem i det stresscenario som fastst&#228;llts 
+av Riksg&#228;ldskontoret.
+
+11. I vilken utstr&#228;ckning institutet kan garantera att dess 
+ledningsinformationssystem kommer att forts&#228;tta att fungera 
+f&#246;r b&#229;de det ber&#246;rda och det nya institutet, om den kritiska 
+verksamheten och s&#229;dan aff&#228;rsverksamhet som &#228;r viktig f&#246;r 
+intj&#228;ning eller l&#246;nsamhet avskiljs fr&#229;n den &#246;vriga 
+verksamheten och &#246;vrig aff&#228;rsverksamhet.
+
+12. I vilken utstr&#228;ckning institutet har inr&#228;ttat l&#228;mpliga 
+f&#246;rfaranden f&#246;r att s&#228;kerst&#228;lla att Riksg&#228;ldskontoret f&#229;r 
+n&#246;dv&#228;ndiga uppgifter f&#246;r att identifiera ins&#228;ttare och de 
+belopp som omfattas av ins&#228;ttningsgarantin.
+
+13. Om koncernen anv&#228;nder koncerninterna s&#228;kerheter, i vilken 
+utstr&#228;ckning dessa s&#228;kerheter tillhandh&#229;lls p&#229; marknadsvillkor 
+och om riskhanteringssystemen f&#246;r dessa s&#228;kerheter &#228;r stabila.
+
+14. Om koncernen till&#228;mpar &#246;msesidiga transaktioner, i vilken 
+utstr&#228;ckning dessa transaktioner g&#246;rs p&#229; marknadsvillkor och 
+om riskhanteringssystemen f&#246;r denna transaktionsverksamhet &#228;r 
+stabila.
+
+15. I vilken utstr&#228;ckning anv&#228;ndningen av koncerninterna 
+s&#228;kerheter eller &#246;msesidigt bokf&#246;rda transaktioner &#246;kar 
+spridningseffekten inom koncernen.
+
+16. I vilken utstr&#228;ckning koncernens juridiska struktur utg&#246;r 
+ett hinder mot att till&#228;mpa resolutionsverktygen p&#229; grund av 
+antalet juridiska personer, koncernstrukturens komplexitet 
+eller problem med att f&#246;ra aff&#228;rsverksamhet till 
+koncernf&#246;retag.
+
+17. Hur m&#229;nga och vilken typ av nedskrivningsbara skulder 
+institutet har.
+
+18. Om pr&#246;vningen omfattar ett holdingf&#246;retag med blandad 
+verksamhet, i vilken utstr&#228;ckning en resolution av 
+koncernf&#246;retag som &#228;r institut eller finansiella institut 
+skulle f&#229; negativa konsekvenser f&#246;r koncernens icke 
+finansiella del.
+
+19. F&#246;rekomst av och stabilitet hos serviceniv&#229;avtal.
+
+20. Huruvida myndigheter i tredjeland har n&#246;dv&#228;ndiga 
+resolutionsverktyg f&#246;r att st&#246;dja resolutions&#229;tg&#228;rder fr&#229;n 
+resolutionsmyndigheter inom EES, och omfattningen av 
+samordnade &#229;tg&#228;rder mellan EES och myndigheter i tredjeland.
+
+21. M&#246;jligheten att anv&#228;nda resolutionsverktyg p&#229; ett s&#228;tt som 
+uppfyller resolutions&#228;ndam&#229;len, med h&#228;nsyn till tillg&#228;ngliga 
+verktyg och institutets struktur.
+
+22. I vilken omfattning koncernstrukturen till&#229;ter att 
+Riksg&#228;ldskontoret, i syfte att maximera v&#228;rdet p&#229; koncernen 
+som helhet, rekonstruerar eller avvecklar hela koncernen eller 
+en eller flera av dess koncernf&#246;retag utan att orsaka en 
+betydande direkt eller indirekt negativ effekt p&#229; det 
+finansiella systemet, marknadens f&#246;rtroende eller ekonomin.
+
+23. De arrangemang och &#229;tg&#228;rder genom vilka resolution kan 
+underl&#228;ttas i fall d&#228;r koncerner har dotterf&#246;retag som &#228;r 
+etablerade i olika jurisdiktioner.
+
+24. Trov&#228;rdigheten i att anv&#228;nda resolutionsverktyg p&#229; ett 
+s&#228;tt som uppfyller resolutions&#228;ndam&#229;len, med tanke p&#229; 
+eventuella f&#246;ljder f&#246;r borgen&#228;rer, motparter, kunder och 
+anst&#228;llda, och eventuella &#229;tg&#228;rder som myndigheter i 
+tredjeland kan vidta.
+
+25. I vilken utstr&#228;ckning effekterna av institutets resolution 
+p&#229; det finansiella systemet och p&#229; finansiella marknadens 
+f&#246;rtroende kan utv&#228;rderas tillr&#228;ckligt.
+
+26. I vilken utstr&#228;ckning resolution av institutet kan komma 
+att ha en betydande direkt eller indirekt negativ effekt p&#229; 
+det finansiella systemet, marknadens f&#246;rtroende eller 
+ekonomin.
+
+27. I vilken utstr&#228;ckning spridning till andra institut eller 
+till finansiella marknader skulle kunna begr&#228;nsas genom 
+vidtagande av resolutions&#229;tg&#228;rder.
+
+28. I vilken utstr&#228;ckning resolution av institutet kan komma 
+att ha en betydande effekt p&#229; betalnings- och 
+avvecklingssystem.
+
+Vid pr&#246;vningen av m&#246;jligheten att rekonstruera eller avveckla 
+en koncern ska det som anges om ett institut i f&#246;rsta stycket 
+g&#228;lla alla institut eller f&#246;retag som avses i artikel 1.1 b, c 
+eller d i krishanteringsdirektivet inom koncernen.
+
+Vid pr&#246;vningen enligt 3 kap. 10 och 11 &#167;&#167; lagen om resolution 
+ska Riksg&#228;ldskontoret dessutom str&#228;va efter att betydande 
+negativa effekter p&#229; de finansiella systemen inom EES i 
+st&#246;rsta m&#246;jliga m&#229;n undviks. F&#246;rordning (2021:472).
+
+F&#246;renklade skyldigheter
+
+10 &#167; Riksg&#228;ldskontoret f&#229;r f&#246;r ett institut g&#246;ra undantag 
+fr&#229;n kraven i 3–5 och 7 &#167;&#167; p&#229; en resolutions- eller en 
+koncernresolutionsplans inneh&#229;ll och uppdateringsfrekvens, om 
+institutets fallissemang, till f&#246;ljd av omst&#228;ndigheter som 
+anges i andra stycket, och d&#228;rp&#229; f&#246;ljande avveckling genom 
+konkurs eller likvidation sannolikt inte skulle f&#229; betydande 
+inverkan p&#229; finansmarknaderna, andra institut, 
+finansieringsvillkor eller ekonomin i stort.
+
+Vid pr&#246;vningen av om ett institut ska omfattas av f&#246;renklade 
+skyldigheter enligt f&#246;rsta stycket ska Riksg&#228;ldskontoret 
+beakta 
+
+1. arten av den verksamhet som institutet bedriver,
+
+2. institutets aktie&#228;garstruktur, 
+
+3. institutets associationsr&#228;ttsliga form, 
+
+4. institutets riskprofil, 
+
+5. institutets storlek och juridiska st&#228;llning, 
+
+6. institutets grad av sammankoppling med andra institut 
+eller med det finansiella systemet i allm&#228;nhet, 
+
+7. omfattningen och komplexiteten hos institutets 
+verksamheter, 
+
+8. eventuellt medlemskap i ett institutionellt skyddssystem 
+eller n&#229;gon annan form av system f&#246;r solidariskt ansvar 
+enligt artikel 113.7 i tillsynsf&#246;rordningen, och 
+
+9. eventuellt tillhandah&#229;llande av investeringstj&#228;nster eller 
+verksamheter enligt definitionen i artikel 4.1.2 i 
+Europaparlamentets och r&#229;dets direktiv 2014/65/EU av den 15 
+maj 2014 om marknader f&#246;r finansiella instrument och om 
+&#228;ndring av direktiv 2002/92/EG och av direktiv 2011/61/EU, i 
+den ursprungliga lydelsen.
+
+Om Riksg&#228;ldskontoret finner att ett institut ska omfattas av 
+f&#246;renklade skyldigheter enligt f&#246;rsta stycket, f&#229;r 
+myndigheten &#228;ven begr&#228;nsa niv&#229;n p&#229; detaljerna i sin pr&#246;vning 
+enligt 3 kap. 10 och 11 &#167;&#167; lagen (2015:1016) om resolution 
+och 9 &#167; denna f&#246;rordning av m&#246;jligheten att rekonstruera 
+eller avveckla institutet eller koncernen som institutet 
+ing&#229;r i.
+
+11 &#167; Pr&#246;vningen av om ett institut ska omfattas av f&#246;renklade 
+skyldigheter enligt 10 &#167; f&#246;rsta stycket ska, vid behov, g&#246;ras 
+efter samr&#229;d med Finansinspektionen.
+
+12 &#167; Riksg&#228;ldskontoret f&#229;r n&#228;r som helst ompr&#246;va ett beslut 
+att ett institut ska omfattas av f&#246;renklade skyldigheter 
+enligt 10 &#167; f&#246;rsta stycket.
+
+13 &#167; Ett beslut att ett institut ska omfattas av f&#246;renklade 
+skyldigheter enligt 10 &#167; f&#246;rsta stycket p&#229;verkar inte 
+Riksg&#228;ldskontorets och Finansinspektionens befogenheter att 
+vidta krisavv&#228;rjande &#229;tg&#228;rder som anges i 2 kap. 1 &#167; lagen 
+(2015:1016) om resolution och inte heller Riksg&#228;ldskontorets 
+befogenhet att vidta resolutions&#229;tg&#228;rder enligt den lagen.
+
+14 &#167; Riksg&#228;ldskontoret ska informera Europeiska 
+bankmyndigheten om ett beslut att ett institut ska omfattas 
+av f&#246;renklade skyldigheter enligt 10 &#167; f&#246;rsta stycket.
+
+Kravet p&#229; kapitalbas och kvalificerade skulder 
+
+14 a &#167; Riksg&#228;ldskontoret ska 
+
+1. vid beslut enligt 4 kap. 26 &#167; lagen (2015:1016) om 
+resolution beakta de omst&#228;ndigheter som anges i artikel 45m.7 
+i krishanteringsdirektivet och den tidsfrist som anges i 
+artikel 10.6 fj&#228;rde stycket i samma direktiv, och
+
+2. vid beslut enligt 4 kap. 31 &#167; lagen om resolution beakta de 
+omst&#228;ndigheter som anges i artikel 16a.2 i 
+krishanteringsdirektivet. F&#246;rordning (2021:472).
+
+Underr&#228;ttelser och offentligg&#246;rande 
+
+15 &#167; Riksg&#228;ldskontoret ska s&#229; snart som m&#246;jligt efter att ha 
+beslutat att f&#246;rs&#228;tta ett f&#246;retag i resolution enligt 8 kap. 
+lagen (2015:1016) om resolution eller att vidta 
+resolutions&#229;tg&#228;rder enligt den lagen, underr&#228;tta
+
+1. f&#246;retaget i resolution,
+
+2. Finansinspektionen,
+
+3. den beh&#246;riga myndigheten f&#246;r filialerna till f&#246;retaget i 
+resolution,
+
+4. Riksbanken,
+
+5. om beslutet avser ett kreditinstitut, det 
+ins&#228;ttningsgarantisystem till vilket kreditinstitutet h&#246;r,
+
+6. i till&#228;mpliga fall, den samordnande resolutionsmyndigheten,
+
+7. Finansdepartementet,
+
+8. i de fall f&#246;retaget i resolution omfattas av gruppbaserad 
+tillsyn enligt avdelning VII kapitel 3 i 
+kapitalt&#228;ckningsdirektivet, den samordnande 
+tillsynsmyndigheten,
+
+9. Europeiska systemriskn&#228;mnden,
+
+10. Europeiska kommissionen, Europeiska centralbanken, 
+Europeiska v&#228;rdepappers- och marknadsmyndigheten, Europeiska 
+f&#246;rs&#228;krings- och tj&#228;nstepensionsmyndigheten och Europeiska 
+bankmyndigheten, och
+
+11. om f&#246;retaget i resolution deltar i ett anm&#228;lt 
+avvecklingssystem, operat&#246;rerna av det systemet.
+
+Riksg&#228;ldskontoret ska s&#229; snart som m&#246;jligt efter att ha 
+beslutat om tillf&#228;lliga &#229;tg&#228;rder f&#246;r ett f&#246;retag enligt 5 kap. 
+7 &#167; lagen om resolution underr&#228;tta f&#246;retaget och de 
+myndigheter som anges i f&#246;rsta stycket 2-8.
+
+En underr&#228;ttelse enligt f&#246;rsta eller andra stycket ska 
+inneh&#229;lla en kopia av beslutet och uppgift om n&#228;r beslutet ska 
+verkst&#228;llas. F&#246;rordning (2021:472).
+
+16 &#167; Riksg&#228;ldskontoret ska offentligg&#246;ra beslut om resolution 
+enligt 8 kap. 13 &#167; lagen (2015:1016) om resolution och beslut 
+om resolutions&#229;tg&#228;rder enligt 12 kap. 5 &#167; samma lag genom 
+att
+
+1. tillhandah&#229;lla en kopia av beslutet p&#229; sin webbplats och 
+p&#229; webbplatsen f&#246;r f&#246;retaget i resolution,
+
+2. skicka en kopia av beslutet till Europeiska 
+bankmyndigheten och till Finansinspektionen f&#246;r 
+offentligg&#246;rande p&#229; de myndigheternas webbplatser, och
+
+3. om aktierna, andra &#228;gander&#228;ttsinstrument eller 
+skuldinstrument i f&#246;retaget i resolution &#228;r upptagna till 
+handel p&#229; en reglerad marknad, offentligg&#246;ra obligatorisk 
+information om f&#246;retaget i resolution i enlighet med 4 kap. 
+20 och 21 &#167;&#167; lagen (1991:980) om handel med finansiella 
+instrument och 17 kap. 2 och 3 &#167;&#167; lagen (2007:528) om 
+v&#228;rdepappersmarknaden samt f&#246;reskrifter som meddelats med 
+st&#246;d av 4 &#167; 13 f&#246;rordningen (2007:375) om handel med 
+finansiella instrument och 6 kap. 1 &#167; 49 och 50 f&#246;rordningen 
+(2007:572) om v&#228;rdepappersmarknaden.
+
+Om aktierna, andra &#228;gander&#228;ttsinstrument eller 
+skuldinstrument i f&#246;retaget i resolution inte &#228;r upptagna 
+till handel p&#229; en reglerad marknad, ska Riksg&#228;ldskontoret 
+skicka en kopia av beslut om resolution och beslut om 
+resolutions&#229;tg&#228;rder till &#228;gare och borgen&#228;rer som &#228;r k&#228;nda 
+genom f&#246;retagets register eller databaser, om de &#228;r 
+tillg&#228;ngliga f&#246;r Riksg&#228;ldskontoret. F&#246;rordning (2017:714).
+
+Gr&#228;ns&#246;verskridande samarbete
+
+17 &#167; Om beslut eller &#229;tg&#228;rder enligt lagen (2015:1016) om 
+resolution kan f&#229; effekter i ett annat land inom EES, ska 
+Riksg&#228;ldskontoret och, i f&#246;rekommande fall Finansinspektionen 
+och Regeringskansliet (Finansdepartementet), beakta
+
+1. kravet p&#229; effektivt beslutsfattande och p&#229; att h&#229;lla 
+resolutionskostnaderna s&#229; l&#229;ga som m&#246;jligt n&#228;r 
+resolutions&#229;tg&#228;rder vidtas,
+
+2. kravet p&#229; skyndsamhet,
+
+3. kravet p&#229; samarbete f&#246;r att se till att beslut fattas och 
+&#229;tg&#228;rder vidtas p&#229; ett samordnat och effektivt s&#228;tt,
+
+4. att roller och ansvar f&#246;r ber&#246;rda myndigheter i varje land 
+inom EES &#228;r tydligt definierade,
+
+5. intressena i de EES-l&#228;nder d&#228;r moderf&#246;retag inom EES &#228;r 
+etablerade, s&#228;rskilt effekten av beslut, &#229;tg&#228;rder eller 
+bristen p&#229; &#229;tg&#228;rder p&#229; den finansiella stabiliteten, 
+skattemedel, finansieringsarrangemang, 
+ins&#228;ttningsgarantisystem eller system f&#246;r ers&#228;ttning till 
+investerare i de l&#228;nderna.
+
+6. intressena i varje land inom EES d&#228;r ett dotterf&#246;retag &#228;r 
+etablerat, s&#228;rskilt n&#228;r det g&#228;ller effekter p&#229; den 
+finansiella stabiliteten, skattemedel, 
+finansieringsarrangemang, ins&#228;ttningsgarantisystem eller 
+system f&#246;r ers&#228;ttning till investerare i dessa l&#228;nder,
+
+7. intressena i de l&#228;nder inom EES d&#228;r betydande filialer &#228;r 
+etablerade eller bel&#228;gna, s&#228;rskilt n&#228;r det g&#228;ller effekter p&#229; 
+den finansiella stabiliteten i dessa l&#228;nder,
+
+8. m&#229;len om en avv&#228;gning mellan de olika ber&#246;rda 
+EES-l&#228;ndernas intressen och behovet av att undvika att ett 
+visst EES-lands intressen &#228;ventyras eller skyddas p&#229; ett 
+or&#228;ttvist s&#228;tt, inbegripet undvikande av en or&#228;ttvis 
+f&#246;rdelning av b&#246;rdan mellan EES-l&#228;nderna,
+
+9. samr&#229;dsskyldigheten enligt lagen om resolution, som 
+&#229;tminstone inneb&#228;r en skyldighet att samr&#229;da om inslagen i 
+ett beslut eller en &#229;tg&#228;rd som har eller som sannolikt kan f&#229; 
+effekt p&#229;
+
+a) moderf&#246;retaget inom EES, dotterf&#246;retaget eller filialen, 
+och
+
+b) stabiliteten i det EES-land d&#228;r moderf&#246;retaget inom EES, 
+dotterf&#246;retaget eller filialen har etablerats eller finns,
+
+10. kravet p&#229; transparens n&#228;r ett beslut eller en &#229;tg&#228;rd som 
+f&#246;resl&#229;s sannolikt kan f&#229; konsekvenser f&#246;r den finansiella 
+stabiliteten, budgetmedel, finansieringsarrangemang, 
+ins&#228;ttningsgarantisystem eller system f&#246;r ers&#228;ttning till 
+investerare i ber&#246;rda l&#228;nder inom EES, och
+
+11. principen att samordning och samarbete sannolikt 
+resulterar i l&#228;gre totalkostnad f&#246;r resolutionen.
+
+18 &#167; Vid deltagande i ett resolutionskollegium ska 
+Riksg&#228;ldskontoret, Finansinspektionen och Regeringskansliet 
+(Finansdepartementet) samarbeta och utbyta information med 
+samtliga medlemmar i kollegiet i den utstr&#228;ckning som f&#246;ljer 
+av krishanteringsdirektivet.
+
+19 &#167; Riksg&#228;ldskontorets beslut i egenskap av samordnande 
+resolutionsmyndighet enligt lagen (2015:1016) om resolution 
+och f&#246;reskrifter som meddelats i anslutning till lagen, f&#229;r 
+vara avfattade p&#229; engelska. En &#246;vers&#228;ttning till svenska av 
+beslutet, d&#228;r det framg&#229;r att det &#228;r den engelska lydelsen av 
+beslutet som g&#228;ller, ska i s&#229;dant fall bil&#228;ggas beslutet.
+
+Internationella &#246;verenskommelser
+
+20 &#167; Riksg&#228;ldskontoret f&#229;r ing&#229; s&#229;dana internationella 
+&#246;verenskommelser som f&#246;ljer av artiklarna 13.4, 13.7, 18.1, 
+18.4, 18.5, 45h.1, 45h.2, 45h.5-45h.7, 89, 91.7, 91.9, 92.3, 
+92.5, 94.2, 106.4 och 106.5 i krishanteringsdirektivet. Detta 
+g&#228;ller dock inte om &#246;verenskommelsen kr&#228;ver riksdagens eller 
+Utrikesn&#228;mndens medverkan. F&#246;rordning (2021:472).
+
+F&#246;rteckning 
+
+21 &#167; Finansinspektionen ska f&#246;ra en f&#246;rteckning &#246;ver de 
+f&#246;retag som avses i 1 kap. 1 &#167; f&#246;rsta stycket lagen 
+(2015:1016) om resolution. F&#246;rteckningen ska h&#229;llas aktuell 
+och tillg&#228;nglig p&#229; inspektionens webbplats. 
+
+Bemyndiganden 
+
+22 &#167; Riksg&#228;ldskontoret f&#229;r i fr&#229;ga om lagen (2015:1016) om 
+resolution meddela f&#246;reskrifter om
+
+1. avgifter enligt 1 kap. 3 &#167; andra stycket,
+
+2. hur det h&#246;gsta s&#228;rskilda f&#246;rfogandebeloppet enligt 4 kap. 
+29 &#167; ska ber&#228;knas,
+
+3. hur stor andel av globalt systemviktiga resolutionsenheter, 
+europeiskt systemviktiga resolutionsenheter eller nationellt 
+systemviktiga resolutionsenheter som f&#229;r omfattas av kravet 
+enligt 4 kap. 15 &#167;,
+
+4. offentligg&#246;rande enligt 4 kap. 28 &#167;,
+
+5. vilken information om nedskrivningsbara skulder ett f&#246;retag 
+ska l&#228;mna till Riksg&#228;ldskontoret och n&#228;r den ska l&#228;mnas,
+
+6. undantag fr&#229;n skyldigheten enligt 5 kap. 2 &#167; om att ta in 
+vissa villkor i avtalen f&#246;r sina skulder enligt
+
+- 5 kap. 3 &#167;, och
+
+- 5 kap. 3 a &#167; n&#228;r det g&#228;ller vilka kategorier av skulder som 
+kan undantas,
+
+7. vilka f&#246;retag som ska uppr&#228;tta register som avses i 5 kap. 
+5 &#167;, vad registren ska inneh&#229;lla och n&#228;r f&#246;retagen ska ge in 
+register f&#246;r olika typer av avtal,
+
+8. hur beloppet enligt 13 kap. 5 &#167; andra stycket ska 
+fastst&#228;llas och betalas ut,
+
+9. vad en omstruktureringsplan enligt 21 kap. 5 &#167; ska 
+inneh&#229;lla,
+
+10. hur storleken p&#229; de skulder som &#228;r h&#228;nf&#246;rliga till derivat 
+enligt 21 kap. 17 &#167; ska ber&#228;knas,
+
+11. metoden f&#246;r riskjustering av resolutionsavgift enligt 
+27 kap. 13 &#167; tredje stycket,
+
+12. vilka uppgifter en avgiftsskyldig ska l&#228;mna till 
+Riksg&#228;ldskontoret enligt 27 kap. 20 &#167;, 
+
+13. vilka upplysningar ett institut eller n&#229;got annat 
+koncernf&#246;retag ska l&#228;mna till Riksg&#228;ldskontoret f&#246;r dess 
+verksamhet enligt lagen, och
+
+14. att vissa uppgifter som ska l&#228;mnas till Riksg&#228;ldskontoret 
+enligt 27 kap. 20 &#167; och 28 kap. 1 &#167; ocks&#229; eller i st&#228;llet ska 
+l&#228;mnas till Finansinspektionen.
+
+Innan Riksg&#228;ldskontoret meddelar f&#246;reskrifter med st&#246;d av 
+f&#246;rsta stycket 14, ska Finansinspektionen ges tillf&#228;lle att 
+yttra sig. F&#246;rordning (2021:472).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1034">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1036">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

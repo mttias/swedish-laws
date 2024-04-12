@@ -1,0 +1,784 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-12" /> 
+ <meta id="rattsinfo-edited" content="2023-01-12 10:57:55" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3999</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3998">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4000">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1978:268 ·
+                    <a href="/sfsr?bet=1978:268">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ransoneringslag (1978:268)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> F&#246;rsvarsdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1978-05-18
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2014:683
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; Kommer riket i krig, tr&#228;der 6-9 &#167;&#167; i till&#228;mpning.
+
+2 &#167; Regeringen f&#229;r f&#246;reskriva att 6-9 &#167;&#167; helt eller delvis skall
+till&#228;mpas fr&#229;n tidpunkt som regeringen best&#228;mmer,
+
+1. om riket &#228;r i krigsfara,
+
+2. om det till f&#246;ljd av krig eller av krigsfara vari riket har
+befunnit sig eller av annan utomordentlig h&#228;ndelse f&#246;religger knapphet
+eller betydande fara f&#246;r knapphet inom riket p&#229; f&#246;rn&#246;denhet av vikt
+f&#246;r totalf&#246;rsvaret eller folkf&#246;rs&#246;rjningen.
+
+F&#246;reskrift enligt f&#246;rsta stycket 2 skall avse viss tid, h&#246;gst ett &#229;r
+varje g&#229;ng.
+
+3 &#167; F&#246;reskrift enligt 2 &#167; f&#246;rsta stycket skall underst&#228;llas
+riksdagens pr&#246;vning inom en m&#229;nad fr&#229;n det den utf&#228;rdades. Sker ej
+underst&#228;llning eller godk&#228;nner riksdagen ej f&#246;reskriften inom tv&#229;
+m&#229;nader fr&#229;n det underst&#228;llningen skedde, upph&#246;r f&#246;reskriften att
+g&#228;lla. Lag (1994:1638).
+
+4 &#167; Upph&#246;r riket att vara i krig eller i krigsfara som har f&#246;ranlett
+f&#246;reskrift enligt 2 &#167; f&#246;rsta stycket 1, skall regeringen f&#246;reskriva
+att 6-9 &#167;&#167; ej l&#228;ngre skall till&#228;mpas. Dock f&#229;r regeringen, om
+f&#246;ruts&#228;ttningar h&#228;rf&#246;r finns, i st&#228;llet f&#246;reskriva att de skall
+till&#228;mpas med st&#246;d av 2 &#167; f&#246;rsta stycket 2.
+
+5 &#167; Vid till&#228;mpning av denna lag och med st&#246;d av lagen meddelade
+f&#246;reskrifter skall tillses att den vars r&#228;tt ber&#246;res icke lider st&#246;rre
+f&#246;rf&#229;ng &#228;n som &#228;r n&#246;dv&#228;ndigt.
+
+Beslut enligt 13 &#167; 1 f&#229;r ej utan tvingande sk&#228;l meddelas i fr&#229;ga om
+f&#246;rn&#246;denhet, som n&#228;ringsidkare oundg&#228;ngligen beh&#246;ver f&#246;r sin n&#228;ring.
+
+Reglering av handel m.m.
+
+6 &#167; Om det &#228;r n&#246;dv&#228;ndigt f&#246;r hush&#229;llning med f&#246;rn&#246;denhet som &#228;r av
+vikt f&#246;r totalf&#246;rsvaret eller folkf&#246;rs&#246;rjningen, f&#229;r regeringen
+f&#246;reskriva att f&#246;rn&#246;denheten
+
+1. under viss tid icke f&#229;r saluh&#229;llas, utbjudas mot vederlag,
+&#246;verl&#229;tas eller f&#246;rv&#228;rvas,
+
+2. f&#229;r saluh&#229;llas, utbjudas mot vederlag, &#246;verl&#229;tas eller f&#246;rv&#228;rvas
+endast i den ordning och p&#229; de villkor som f&#246;reskrives av regeringen
+eller myndighet som regeringen best&#228;mmer,
+
+3. f&#229;r anv&#228;ndas endast f&#246;r de &#228;ndam&#229;l, p&#229; de villkor och med de
+begr&#228;nsningar som f&#246;reskrives av regeringen eller myndighet som
+regeringen best&#228;mmer.
+
+F&#246;reskrift enligt f&#246;rsta stycket f&#229;r meddelas &#228;ven i fr&#229;ga om annan
+f&#246;rn&#246;denhet, om det beh&#246;vs f&#246;r att reglering som d&#228;r avses skall kunna
+tillfredsst&#228;llande kontrolleras.
+
+F&#246;reskrift enligt f&#246;rsta stycket 1 eller 2 i fr&#229;ga om &#246;verl&#229;telse av
+viss f&#246;rn&#246;denhet g&#228;ller &#228;ven n&#228;ringsidkares uttag av f&#246;rn&#246;denheten ur
+r&#246;relsen, om ej annat f&#246;reskrives av regeringen eller myndighet som
+regeringen best&#228;mmer.
+
+7 &#167; Om det &#228;r n&#246;dv&#228;ndigt f&#246;r hush&#229;llning som avses i 6 &#167; eller f&#246;r
+kontroll av reglering enligt 6 &#167;, f&#229;r regeringen f&#246;reskriva att viss
+f&#246;rn&#246;denhet icke f&#229;r frambringas, tillverkas, beredas, anv&#228;ndas eller
+yrkesm&#228;ssigt k&#246;pas eller s&#228;ljas av annan &#228;n den som har f&#229;tt tillst&#229;nd
+d&#228;rtill av regeringen eller myndighet som regeringen best&#228;mmer.
+
+S&#228;rskilda avgifter
+
+8 &#167; Om det &#228;r n&#246;dv&#228;ndigt f&#246;r att tillgodose behov av f&#246;rn&#246;denhet som
+&#228;r av vikt f&#246;r totalf&#246;rsvaret eller folkf&#246;rs&#246;rjningen, f&#229;r regeringen
+f&#246;reskriva att clearing skall ske f&#246;r utj&#228;mning av priserna p&#229;
+f&#246;rn&#246;denheter av samma eller likartat slag, som inf&#246;res till riket,
+eller av priserna p&#229; f&#246;rn&#246;denhet, som inf&#246;res till riket, och
+f&#246;rn&#246;denhet av samma eller likartat slag, som frambringas, tillverkas
+eller beredes inom riket.
+
+Med clearing avses i f&#246;rsta stycket att i vissa fall avgift
+(clearingavgift) skall erl&#228;ggas och i andra fall bidrag
+(clearingbidrag) skall utg&#229; f&#246;r f&#246;rn&#246;denhet, som inf&#246;res till riket
+eller som frambringas, tillverkas eller beredes inom riket. Regeringen
+best&#228;mmer grunderna f&#246;r hur avgift och bidrag skall ber&#228;knas.
+
+Om s&#228;rskilda sk&#228;l f&#246;religger, f&#229;r clearing avse &#228;ven f&#246;rr&#229;d av
+f&#246;rn&#246;denhet som finns inom riket n&#228;r f&#246;reskriften om clearing tr&#228;der i
+kraft.
+
+9 &#167; Om det &#228;r n&#246;dv&#228;ndigt f&#246;r att tillgodose behov av f&#246;rn&#246;denhet som
+&#228;r av vikt f&#246;r totalf&#246;rsvaret eller folkf&#246;rs&#246;rjningen, f&#229;r regeringen
+f&#246;reskriva att avgift (prisutj&#228;mningsavgift) skall erl&#228;ggas f&#246;r
+f&#246;rn&#246;denhet som utf&#246;res ur riket. Regeringen best&#228;mmer grunderna f&#246;r
+hur avgiften skall ber&#228;knas.
+
+10 &#167; Regeringen f&#229;r meddela f&#246;reskrifter om restitution av och
+befrielse fr&#229;n clearingavgift och prisutj&#228;mningsavgift.
+
+11 &#167; Riksdagen best&#228;mmer hur &#246;verskott som kan ha uppst&#229;tt vid
+clearing skall anv&#228;ndas.
+
+Erlagda prisutj&#228;mningsavgifter skall &#246;verf&#246;ras till en fond. Fondens
+medel skall enligt regeringens n&#228;rmare best&#228;mmande tillf&#246;ras
+n&#228;ringsgren som har ber&#246;rts av f&#246;reskrift om prisutj&#228;mningsavgift.
+
+Inl&#246;sen
+
+12 &#167; Har regeringen p&#229; grund av knapphet eller befarad knapphet p&#229;
+viss f&#246;rn&#246;denhet meddelat f&#246;reskrift enligt 6 eller 7 &#167; i fr&#229;ga om den
+f&#246;rn&#246;denheten, kan &#228;gare av s&#229;dan f&#246;rn&#246;denhet ans&#246;ka att hans f&#246;rr&#229;d
+av f&#246;rn&#246;denheten skall inl&#246;sas. Ans&#246;kan st&#228;lles till regeringen men
+ges in till l&#228;nsstyrelsen.
+
+Regeringen eller myndighet som regeringen best&#228;mmer skall inom en
+m&#229;nad fr&#229;n det ans&#246;kningen gavs in besluta i fr&#229;ga om inl&#246;sen av
+f&#246;rn&#246;denheten f&#246;r statens eller annans r&#228;kning. Har i fall, d&#229; inl&#246;sen
+ej sker, f&#246;reskrift enligt 6 eller 7 &#167; i betydande m&#229;n begr&#228;nsat
+&#228;garens m&#246;jlighet att tillgodog&#246;ra sig v&#228;rdet av f&#246;rn&#246;denheten och har
+f&#246;reskriften f&#246;r &#228;garen medf&#246;rt men, som ej &#228;r ringa, skall best&#228;mmas
+att f&#246;rn&#246;denheten f&#229;r av &#228;garen &#246;verl&#229;tas eller anv&#228;ndas utan hinder
+av vad som har f&#246;reskrivits med st&#246;d av 6 eller 7 &#167;.
+
+F&#246;rfogande
+
+13 &#167; &#196;r 6 &#167; i till&#228;mpning och &#228;r det oundg&#228;ngligen n&#246;dv&#228;ndigt f&#246;r att
+reglering som d&#228;r avses skall kunna genomf&#246;ras, f&#229;r regeringen eller
+myndighet, som regeringen best&#228;mmer, genom beslut om f&#246;rfogande f&#246;r
+statens eller annans r&#228;kning i s&#228;rskilt fall &#229;l&#228;gga
+
+1. n&#228;ringsidkare, vilken i sin r&#246;relse &#228;ger f&#246;rn&#246;denhet som omfattas
+av regleringen, att avst&#229; f&#246;rn&#246;denheten,
+
+2. n&#228;ringsidkare, som i sin r&#246;relse &#228;ger eller innehar fastighet,
+gruva, byggnad, industrianl&#228;ggning eller annan anl&#228;ggning eller
+transportmedel, arbetsmaskin eller liknande, att ut&#246;va verksamhet f&#246;r
+eller p&#229; annat s&#228;tt medverka till framst&#228;llning av f&#246;rn&#246;denhet, som
+omfattas av regleringen, i den m&#229;n det kan ske inom ramen f&#246;r hans
+vanliga verksamhet,
+
+3. n&#228;ringsidkare, som i sin r&#246;relse &#228;ger eller innehar
+lageranl&#228;ggning, att f&#246;rvara f&#246;rn&#246;denhet som omfattas av regleringen,
+
+4. n&#228;ringsidkare, som i sin r&#246;relse &#228;ger eller innehar transportmedel,
+att ombes&#246;rja transporter.
+
+14 &#167; &#196;r 6 &#167; i till&#228;mpning och kan beslut om f&#246;rfogande antagas bli
+n&#246;dv&#228;ndigt betr&#228;ffande viss egendom, f&#229;r regeringen eller myndighet,
+som regeringen best&#228;mmer, i avvaktan p&#229; s&#229;dant beslut f&#246;rbjuda
+n&#228;ringsidkaren att &#246;verl&#229;ta, f&#246;rbruka, skada, g&#246;mma undan eller f&#246;ra
+bort egendomen (dispositionsf&#246;rbud).
+
+Har ej beslut om f&#246;rfogande meddelats och blivit g&#228;llande mot
+n&#228;ringsidkaren inom en m&#229;nad fr&#229;n det dispositionsf&#246;rbud enligt f&#246;rsta
+stycket beslutades, upph&#246;r f&#246;rbudet att g&#228;lla mot honom. F&#246;religger
+s&#228;rskilda sk&#228;l, kan dock myndighet som har meddelat f&#246;rbudet f&#246;rl&#228;nga
+tiden med h&#246;gst en m&#229;nad.
+
+15 &#167; N&#228;ringsidkare som avses med beslut om f&#246;rfogande eller
+dispositionsf&#246;rbud &#228;r skyldig att v&#229;rda egendomen och att, om
+det beg&#228;rs, avl&#228;mna f&#246;rn&#246;denhet som ska avst&#229;s enligt beslut
+om f&#246;rfogande. Tid och plats f&#246;r avl&#228;mnande fastst&#228;lls av den
+myndighet som har meddelat beslutet eller av den myndighet
+som regeringen best&#228;mmer.
+
+Kan n&#228;ringsidkaren inte tillfredsst&#228;llande fullg&#246;ra
+skyldighet enligt f&#246;rsta stycket, ska han eller hon utan
+dr&#246;jsm&#229;l anm&#228;la detta till den myndighet som har meddelat
+beslutet eller best&#228;mmelse om fullg&#246;rande av det.
+
+Om en n&#228;ringsidkare inte p&#229; r&#228;tt s&#228;tt eller i r&#228;tt tid
+tillhandah&#229;ller egendom som omfattas av beslut om f&#246;rfogande,
+ska Polismyndigheten l&#228;mna den handr&#228;ckning som beh&#246;vs f&#246;r
+att verkst&#228;lla beslutet. Lag (2014:683).
+
+16 &#167; Beslut om f&#246;rfogande och om dispositionsf&#246;rbud blir g&#228;llande mot
+n&#228;ringsidkaren, n&#228;r han har f&#229;tt del av beslutet.
+
+F&#246;rn&#246;denhet, som n&#228;ringsidkare p&#229; grund av beslut enligt 13 &#167; 1 eller
+2 skall avst&#229; till annan eller framst&#228;lla f&#246;r annans r&#228;kning, &#246;verg&#229;r
+i dennes &#228;go n&#228;r den avl&#228;mnas eller p&#229; annat s&#228;tt kommer i hans
+besittning.
+
+17 &#167; Mot beslut om f&#246;rfogande och dispositionsf&#246;rbud som har meddelats
+av annan myndighet &#228;n regeringen f&#229;r talan f&#246;ras hos regeringen genom
+besv&#228;r.
+
+Ers&#228;ttning
+
+18 &#167; Inl&#246;ses f&#246;rn&#246;denhet enligt 12 &#167;, utg&#229;r ers&#228;ttning f&#246;r kostnader
+f&#246;r tillverkning eller ink&#246;p och f&#246;r transport och lagring av
+f&#246;rn&#246;denheten. Ers&#228;ttning f&#229;r dock icke best&#228;mmas till h&#246;gre belopp &#228;n
+som skulle ha utg&#229;tt om f&#246;rn&#246;denheten hade avst&#229;tts till staten enligt
+f&#246;rfogandelagen (1978:262).
+
+19 &#167; Avst&#229;s f&#246;rn&#246;denhet enligt 13 &#167; 1, utg&#229;r sk&#228;lig ers&#228;ttning f&#246;r
+n&#246;dv&#228;ndiga kostnader vid tillverkning eller &#229;teranskaffning eller, om
+f&#246;rn&#246;denheten avst&#229;s av &#229;terf&#246;rs&#228;ljare, vid &#229;teranskaffning och
+&#229;terf&#246;rs&#228;ljning av s&#229;dan f&#246;rn&#246;denhet.
+
+Ut&#246;vas verksamhet enligt 13 &#167; 2-4, utg&#229;r ers&#228;ttning med h&#228;nsyn till
+n&#246;dv&#228;ndiga kostnader f&#246;r verksamheten.
+
+20 &#167; Upph&#246;r dispositionsf&#246;rbud att g&#228;lla enligt 14 &#167; andra stycket,
+utg&#229;r sk&#228;lig ers&#228;ttning f&#246;r skada som till f&#246;ljd av f&#246;rbudet har
+uppkommit p&#229; den med f&#246;rbudet avsedda egendomen.
+
+21 &#167; F&#246;r &#229;tg&#228;rd enligt 15 &#167; f&#246;rsta stycket f&#246;rsta meningen utg&#229;r
+sk&#228;lig ers&#228;ttning.
+
+22 &#167; Ers&#228;ttning best&#228;mmes med h&#228;nsyn till omst&#228;ndigheterna vid den tid
+d&#229; f&#246;rn&#246;denheten avst&#229;s eller verksamheten ut&#246;vas. &#196;r f&#246;rn&#246;denheten i
+f&#228;rdigt skick vid den tidpunkt d&#229; beslutet om inl&#246;sen eller f&#246;rfogande
+meddelas, best&#228;mmes ers&#228;ttningen med h&#228;nsyn till omst&#228;ndigheterna vid
+den tidpunkten. Fastst&#228;lld ers&#228;ttning f&#229;r j&#228;mkas efter vad som &#228;r
+sk&#228;ligt, om &#228;ndrade f&#246;rh&#229;llanden p&#229;kallar det.
+
+I fall som avses i denna lag har best&#228;mmelserna i 17 &#167; andra stycket,
+36 &#167; och 41-44 &#167;&#167; f&#246;rfogandelagen (1978:262) motsvarande till&#228;mpning.
+
+23 &#167; Ers&#228;ttning enligt 18-21 &#167;&#167; best&#228;mmes av oljekrisn&#228;mnden s&#229;vitt
+avser inl&#246;sen av eller f&#246;rfogande eller dispositionsf&#246;rbud betr&#228;ffande
+r&#229;olja och oljeprodukter som omfattas av oljekrislagen (1975:197).
+Best&#228;mmelser om n&#228;mnden finns i samma lag.
+
+I annat fall &#228;n som avses i f&#246;rsta stycket best&#228;mmes ers&#228;ttning enligt
+18 &#167; av lokal v&#228;rderingsn&#228;mnd och ers&#228;ttning enligt 19-21 &#167;&#167; av
+riksv&#228;rderingsn&#228;mnden. Best&#228;mmelser om dessa n&#228;mnder finns i
+f&#246;rfogandelagen (1978:262).
+
+I fr&#229;ga om bevakning av statens r&#228;tt inf&#246;r n&#228;mnderna g&#228;ller vad som
+f&#246;reskrives i 13 &#167; oljekrislagen och 28 &#167; f&#246;rfogandelagen.
+
+24 &#167; Talan mot beslut av lokal v&#228;rderingsn&#228;mnd f&#246;res hos
+riksv&#228;rderingsn&#228;mnden.
+
+Mot beslut av riksv&#228;rderingsn&#228;mnden eller av oljekrisn&#228;mnden f&#229;r talan
+ej f&#246;ras.
+
+Ransoneringsbevis
+
+25 &#167; Bevis om r&#228;tt att f&#246;rv&#228;rva eller anv&#228;nda f&#246;rn&#246;denhet vid
+reglering enligt 6 &#167; (ransoneringsbevis) f&#229;r icke utbjudas till
+avyttring mot vederlag eller &#246;verl&#229;tas mot vederlag. Ej heller f&#229;r
+s&#229;dant bevis &#246;verl&#228;mnas mot vederlag i pengar att anv&#228;ndas av annan.
+
+Ransoneringsbevis f&#229;r icke heller utan vederlag &#246;verl&#229;tas eller mot
+annat vederlag &#228;n pengar &#246;verl&#228;mnas att anv&#228;ndas av annan i andra fall
+eller p&#229; andra villkor &#228;n som f&#246;reskrives av regeringen eller
+myndighet som regeringen best&#228;mmer.
+
+26 &#167; Ut&#246;ver vad i 25 &#167; s&#228;gs g&#228;ller i fr&#229;ga om n&#228;ringsidkare, att han
+icke f&#229;r utan vederlag till begagnande av annan &#246;verl&#228;mna eller ur sin
+r&#246;relse taga ransoneringsbevis, som han har mottagit i eller f&#246;r
+r&#246;relsen, annat &#228;n i den ordning och p&#229; de villkor som f&#246;reskrives av
+regeringen eller myndighet som regeringen best&#228;mmer.
+
+27 &#167; Ransoneringsbevis f&#229;r &#229;terkallas av myndighet som har utf&#228;rdat
+beviset, om tilldelningen av beviset har f&#246;ranletts av oriktig uppgift
+eller om den, f&#246;r vilken beviset har utf&#228;rdats, enligt g&#228;llande
+f&#246;reskrifter icke &#228;r ber&#228;ttigad att inneha eller begagna beviset eller
+om s&#228;rskilda omst&#228;ndigheter eljest f&#246;ranleder att beviset &#229;terkallas.
+
+28 &#167; Har ransoneringsbevis &#229;terkallats, skall innehavaren genast
+&#246;verl&#228;mna beviset till den myndighet som har &#229;terkallat det eller, om
+annan myndighet har angetts i beslutet om &#229;terkallelse, till denna
+myndighet.
+
+29 &#167; Har n&#229;gon f&#246;r vilken ransoneringsbevis har utf&#228;rdats erh&#229;llit
+flyttningsbetyg till utlandet, skall han &#246;verl&#228;mna beviset till den
+myndighet som har utf&#228;rdat det. Avlider n&#229;gon f&#246;r vilken s&#229;dant bevis
+har utf&#228;rdats, skall d&#246;dsbodel&#228;gare eller annan, som har den d&#246;des
+egendom i sin v&#229;rd, skyndsamt &#246;verl&#228;mna beviset till myndigheten.
+
+30 &#167; Vad i denna lag s&#228;gs om ransoneringsbevis g&#228;ller &#228;ven
+legitimationskort som har utst&#228;llts av myndighet f&#246;r att anv&#228;ndas vid
+utdelning av ransoneringsbevis.
+
+Uppgiftsskyldighet m.m.
+
+31 &#167; Regeringen eller myndighet som regeringen best&#228;mmer f&#229;r
+f&#246;reskriva, att den som innehar f&#246;rn&#246;denhet av vikt f&#246;r totalf&#246;rsvaret
+eller folkf&#246;rs&#246;rjningen eller f&#246;rn&#246;denhet, som avses med f&#246;reskrift
+enligt 6 &#167; andra stycket eller 7 &#167;, skall l&#228;mna uppgift om innehavet.
+
+32 &#167; Regeringen eller myndighet som regeringen best&#228;mmer f&#229;r
+f&#246;reskriva, att den som yrkesm&#228;ssigt frambringar, tillverkar, bereder,
+k&#246;per, s&#228;ljer eller i yrkesm&#228;ssig verksamhet anv&#228;nder f&#246;rn&#246;denhet som
+avses med f&#246;reskrift enligt 6-9 &#167; skall l&#228;mna de skriftliga uppgifter
+ang&#229;ende r&#246;relsen och f&#246;ra de anteckningar som finnes beh&#246;vliga f&#246;r
+kontroll av f&#246;reskriftens efterlevnad.
+
+33 &#167; I samband med reglering enligt 6 eller 7 &#167; i fr&#229;ga om energi &#228;r
+var och en skyldig att, i den utstr&#228;ckning som f&#246;reskrives av
+regeringen eller myndighet som regeringen best&#228;mmer, l&#228;mna de
+uppgifter och g&#246;ra de avl&#228;sningar som finnes beh&#246;vliga f&#246;r
+genomf&#246;rande av regleringen.
+
+Den som r&#229;der &#246;ver utrymme, inom vilket &#229;tg&#228;rd enligt f&#246;rsta stycket
+skall vidtagas, skall l&#228;mna erforderligt tilltr&#228;de till utrymmet.
+
+34 &#167; F&#246;r kontroll av att uppgift enligt 32 eller 33 &#167; &#228;r riktig och
+fullst&#228;ndig skall uppgiftsskyldig p&#229; beg&#228;ran av l&#228;nsstyrelse eller av
+annan myndighet, som regeringen best&#228;mmer, tillhandah&#229;lla myndigheten
+handelsb&#246;cker och andra aff&#228;rshandlingar p&#229; tid och plats som
+myndigheten fastst&#228;ller.
+
+Vad som s&#228;gs i f&#246;rsta stycket har motsvarande till&#228;mpning i fr&#229;ga om
+anteckningar som avses i 32 &#167;.
+
+35 &#167; Om en uppgiftsskyldig inte efterkommer en beg&#228;ran enligt
+34 &#167; eller om det betr&#228;ffande n&#229;gon finns s&#228;rskild anledning
+att kontrollera om uppgiftsskyldigheten har fullgjorts, f&#229;r
+en myndighet som avses i 34 &#167; besluta om unders&#246;kning av
+kontor, fabrik, butik, serveringslokal, lagerlokal, ladug&#229;rd
+eller annat utrymme eller f&#246;rvaringsst&#228;lle, som den
+uppgiftsskyldige r&#229;der &#246;ver, och om omh&#228;ndertagande av hans
+eller hennes handelsb&#246;cker och andra aff&#228;rshandlingar. &#196;ven
+utrymme som avses i 33 &#167; andra stycket f&#229;r unders&#246;kas.
+
+Vid unders&#246;kning och omh&#228;ndertagande enligt f&#246;rsta stycket
+ska best&#228;mmelserna i 28 kap. r&#228;tteg&#229;ngsbalken om husrannsakan
+g&#228;lla i till&#228;mpliga delar. Myndigheten ut&#246;var d&#229; den
+befogenhet som vid husrannsakan tillkommer
+unders&#246;kningsledaren, &#229;klagaren eller r&#228;tten.
+Polismyndigheten ska l&#228;mna den handr&#228;ckning som beh&#246;vs f&#246;r
+unders&#246;kningen och omh&#228;ndertagandet. Lag (2014:683).
+
+36 &#167; Den mot vilken f&#246;rfogande riktas &#228;r skyldig att l&#228;mna uppgift om
+r&#228;tt som annan har i fr&#229;ga om den med f&#246;rfogandet avsedda egendomen.
+
+Vite m.m.
+
+37 &#167; Har n&#229;gon underl&#229;tit att fullg&#246;ra skyldighet enligt 28 eller 29
+&#167;, f&#229;r l&#228;nsstyrelsen eller enligt regeringens best&#228;mmande annan
+myndighet f&#246;rel&#228;gga honom vid vite att fullg&#246;ra skyldigheten. Detsamma
+g&#228;ller, om n&#229;gon har eller kan antagas ha underl&#229;tit att fullg&#246;ra
+skyldighet enligt 31-33 &#167;.
+
+38 &#167; Har reglering enligt 6 &#167; inf&#246;rts i fr&#229;ga om energi, f&#229;r
+f&#246;rbrukare &#229;l&#228;ggas att till staten utge s&#228;rskild avgift
+(&#246;verf&#246;rbrukningsavgift), om han har
+
+1. f&#246;rbrukat mer ledningsbunden energi &#228;n som har tillkommit honom
+enligt regleringen,
+
+2. misshush&#229;llat med energi, som har tilldelats honom, och myndighet
+till f&#246;ljd d&#228;rav n&#246;dgats tilldela honom ytterligare energi.
+
+Avgiften utg&#229;r f&#246;r &#246;verf&#246;rbrukningen ut&#246;ver det belopp som skall
+erl&#228;ggas s&#229;som vederlag f&#246;r energin. Den f&#229;r best&#228;mmas till h&#246;gst fem
+eller, om s&#228;rskilda sk&#228;l f&#246;religger, h&#246;gst tio g&#229;nger n&#228;mnda belopp.
+Regeringen meddelar n&#228;rmare f&#246;reskrifter om grunderna f&#246;r ber&#228;kning
+och p&#229;f&#246;ring av &#246;verf&#246;rbrukningsavgift. Enligt regeringens best&#228;mmande
+&#229;l&#228;gges avgiften av l&#228;nsstyrelse, kristidsn&#228;mnd eller annan myndighet.
+
+Har den som &#229;lagts &#246;verf&#246;rbrukningsavgift icke kunnat i v&#228;sentlig m&#229;n
+p&#229;verka f&#246;rbrukningen eller f&#246;religger eljest s&#228;rskilda sk&#228;l, f&#229;r
+regeringen eller myndighet som regeringen best&#228;mmer befria honom fr&#229;n
+avgiften.
+
+39 &#167; Underl&#229;ter n&#229;gon att r&#228;tta sig efter f&#246;reskrift som betr&#228;ffande
+viss f&#246;rn&#246;denhet har meddelats med st&#246;d av 6 &#167; och kan &#229;tg&#228;rd enligt
+27 &#167; ej vidtagas, f&#229;r myndighet som regeringen best&#228;mmer under viss
+tid avst&#228;nga honom fr&#229;n att erh&#229;lla ytterligare m&#228;ngd av f&#246;rn&#246;denheten
+eller tilldela honom mindre m&#228;ngd &#228;n han eljest skulle erh&#229;lla.
+
+Utg&#246;res f&#246;rn&#246;denheten av ledningsbunden energi, skall den som
+tillhandah&#229;ller denna verkst&#228;lla beslut enligt f&#246;rsta stycket. H&#228;rvid
+har 33 &#167; andra stycket motsvarande till&#228;mpning.
+
+Underl&#229;ter n&#229;gon att fullg&#246;ra skyldighet enligt andra stycket, f&#229;r
+myndighet som avses i f&#246;rsta stycket f&#246;rel&#228;gga honom vid vite att
+fullg&#246;ra skyldigheten.
+
+40 &#167; Mot beslut om f&#246;rel&#228;ggande av vite enligt denna lag f&#229;r talan ej
+f&#246;ras annat &#228;n i samband med talan mot beslut om utd&#246;mande av vitet.
+
+41 &#167; Har &#229;tal v&#228;ckts mot n&#228;ringsidkare f&#246;r att han betr&#228;ffande viss
+f&#246;rn&#246;denhet i v&#228;sentlig m&#229;n &#229;sidosatt f&#246;reskrift som har meddelats
+enligt 6 &#167;, f&#229;r myndighet som regeringen best&#228;mmer meddela honom
+f&#246;rbud att yrkesm&#228;ssigt saluh&#229;lla, &#246;verl&#229;ta eller anv&#228;nda s&#229;dan
+f&#246;rn&#246;denhet. F&#246;religger s&#228;rskilda sk&#228;l, f&#229;r f&#246;rbudet omfatta ocks&#229;
+annan f&#246;rn&#246;denhet som &#228;r f&#246;rem&#229;l f&#246;r reglering enligt 6 &#167;.
+
+Har &#229;tal v&#228;ckts mot n&#228;ringsidkare f&#246;r att han i v&#228;sentlig m&#229;n
+&#229;sidosatt f&#246;reskrift som har meddelats enligt 7 &#167;, f&#229;r om s&#228;rskilda
+sk&#228;l f&#246;religger f&#246;rbud som avses i f&#246;rsta stycket meddelas honom
+betr&#228;ffande f&#246;rn&#246;denhet, som &#228;r f&#246;rem&#229;l f&#246;r reglering enligt 6 &#167;.
+
+&#197;talas n&#229;gon, som har handlat p&#229; n&#228;ringsidkares v&#228;gnar, f&#246;r brott som
+avses i f&#246;rsta eller andra stycket, har vad d&#228;r s&#228;gs motsvarande
+till&#228;mpning p&#229; s&#229;v&#228;l den &#229;talade som n&#228;ringsidkaren.
+
+42 &#167; F&#246;rbud enligt 41 &#167; best&#229;r till dess reglering enligt 6 &#167; upph&#246;r i
+fr&#229;ga om f&#246;rn&#246;denheten. Myndighet som har meddelat f&#246;rbudet f&#229;r dock
+upph&#228;va det dessf&#246;rinnan. Ogillas &#229;tal f&#246;r brott som har f&#246;ranlett
+f&#246;rbud, skall myndighet som har meddelat f&#246;rbudet omedelbart h&#228;va det.
+
+43 &#167; N&#228;ringsidkare som innehar f&#246;rr&#229;d som omfattas av f&#246;rbud enligt 41
+&#167; har r&#228;tt att f&#229; f&#246;rr&#229;det inl&#246;st efter ans&#246;kan hos den myndighet som
+har meddelat f&#246;rbudet. H&#228;rvid skall 18, 22 och 23 &#167;&#167; till&#228;mpas.
+
+Ansvarsbest&#228;mmelser m.m.
+
+44 &#167; Till b&#246;ter eller f&#228;ngelse i h&#246;gst sex m&#229;nader d&#246;mes, om ej
+g&#228;rningen &#228;r belagd med straff i brottsbalken, den som upps&#229;tligen
+
+1. bryter mot f&#246;reskrift, &#229;l&#228;ggande, f&#246;rbud eller villkor som g&#228;ller
+enligt eller har meddelats med st&#246;d av 6, 7, 13-15 eller 41 &#167;,
+
+2. l&#228;mnar oriktig uppgift i &#228;rende om utf&#229;ende av ransoneringsbevis
+eller vid f&#246;rv&#228;rv mot kvitto eller liknande handling av f&#246;rn&#246;denhet
+som &#228;r f&#246;rem&#229;l f&#246;r reglering enligt 6 &#167;, om &#229;tg&#228;rden inneb&#228;r fara i
+bevish&#228;nseende,
+
+3. l&#228;mnar oriktig uppgift i &#228;rende om tillst&#229;nd enligt 7 &#167; eller
+&#228;rende som avses i 27 eller 39 &#167;, om &#229;tg&#228;rden inneb&#228;r fara i
+bevish&#228;nseende,
+
+4. bryter mot 25 eller 26 &#167; eller obeh&#246;rigen f&#246;rskaffar sig &#228;kta eller
+falskt ransoneringsbevis,
+
+5. obeh&#246;rigen anv&#228;nder ransoneringsbevis som &#228;r utf&#228;rdat f&#246;r annan
+eller &#229;terkallat,
+
+6. underl&#229;ter att fullg&#246;ra skyldighet som &#229;ligger honom enligt 31-34
+eller 36 &#167;.
+
+7. l&#228;mnar oriktig uppgift vid fullg&#246;rande av skyldighet enligt 31-33
+eller 36 &#167;, om &#229;tg&#228;rden inneb&#228;r fara i bevish&#228;nseende,
+
+8. inf&#246;r oriktig uppgift i anteckningar enligt 32 &#167;, om &#229;tg&#228;rden
+inneb&#228;r fara i bevish&#228;nseende.
+
+&#196;r brott som avses i f&#246;rsta stycket att anse som grovt, d&#246;mes till
+f&#228;ngelse i h&#246;gst tv&#229; &#229;r. Vid bed&#246;mande huruvida brottet &#228;r grovt skall
+s&#228;rskilt beaktas, om det har skett i vinningssyfte eller har avsett en
+betydande m&#228;ngd av egendom eller eljest har varit av s&#228;rskilt farlig
+art.
+
+Beg&#229;r n&#229;gon av oaktsamhet g&#228;rning som avses i f&#246;rsta stycket, d&#246;mes
+till b&#246;ter eller, om brottet &#228;r grovt, till f&#228;ngelse i h&#246;gst sex
+m&#229;nader. I ringa fall d&#246;mes ej till ansvar enligt detta stycke.
+
+45 &#167; Den som har underl&#229;tit att fullg&#246;ra skyldighet, som omfattas av
+vitesf&#246;rel&#228;ggande enligt denna lag, f&#229;r icke d&#246;mas till straff f&#246;r
+underl&#229;tenheten.
+
+Den som har &#229;lagts &#246;verf&#246;rbrukningsavgift enligt 38 &#167; f&#229;r icke d&#246;mas
+till straff f&#246;r &#246;verf&#246;rbrukningen.
+
+46 &#167; Har n&#228;ringsidkare ej iakttagit erforderlig omsorg vid
+omh&#228;nderhavandet av f&#246;rr&#229;d av f&#246;rn&#246;denhet som avses i 6 eller 7 &#167;
+eller av ransoneringsbevis som har mottagits i eller f&#246;r r&#246;relsen och
+kan han till f&#246;ljd d&#228;rav icke redovisa f&#246;rr&#229;det eller bevisen i
+f&#246;reskriven ordning, d&#246;mes till b&#246;ter.
+
+Vad i f&#246;rsta stycket f&#246;reskrives i fr&#229;ga om ransoneringsbevis har mot
+svarande till&#228;mpning i fr&#229;ga om anteckningar som avses i 32 &#167; och
+andra handlingar som skall uppr&#228;ttas enligt f&#246;reskrift utf&#228;rdad med
+anledning av reglering enligt 6 eller 7 &#167;.
+
+47 &#167; Om flera har medverkat till brott som avses i denna lag, har 23
+kap. 4 och 5 &#167;&#167; brottsbalken motsvarande till&#228;mpning.
+
+48 &#167; N&#228;ringsidkare ansvarar f&#246;r g&#228;rning som avses i 44 &#167;, om den har
+beg&#229;tts i hans r&#246;relse och han har haft eller bort ha vetskap om
+g&#228;rningen.
+
+49 &#167; Har n&#229;gon beg&#229;tt brott som avses i denna lag, skall
+egendom, som han i samband med brottet har mottagit eller genom
+brottet har saluh&#229;llit eller utbjudit till avyttring mot
+vederlag eller undanh&#229;llit, anv&#228;nt, frambringat, tillverkat
+eller berett, f&#246;rklaras f&#246;rverkad. Detsamma g&#228;ller annat utbyte
+av s&#229;dant brott. I st&#228;llet f&#246;r egendomen kan dess v&#228;rde
+f&#246;rklaras f&#246;rverkat. F&#246;rverkande f&#229;r inte ske om det &#228;r
+uppenbart osk&#228;ligt.
+
+&#196;ger den brottslige ytterligare s&#229;dan f&#246;rn&#246;denhet som brottet
+har avsett, kan &#228;ven denna f&#246;rklaras f&#246;rverkad. F&#246;rr&#229;d av annan
+f&#246;rn&#246;denhet som han eller hon &#228;ger och som &#228;r f&#246;rem&#229;l f&#246;r
+reglering enligt 6 eller 7 &#167; kan, om det finns s&#228;rskilda sk&#228;l,
+ocks&#229; f&#246;rklaras f&#246;rverkat.
+
+Vad i f&#246;rsta stycket s&#228;gs om egendom g&#228;ller i till&#228;mpliga delar
+&#228;ven ransoneringsbevis. Lag (2005:297).
+
+50 &#167; Har beslag lagts p&#229; egendom, som kan antagas bli f&#246;rverkad, och
+&#228;r den underkastad f&#246;rsk&#228;mning eller snar f&#246;rst&#246;relse eller annan
+nedg&#229;ng i v&#228;rde, f&#229;r den genast f&#246;rs&#228;ljas. S&#229;dan f&#246;rs&#228;ljning skall
+alltid ske, om &#228;garen beg&#228;r det. Uppskattas egendomens v&#228;rde till
+ettusen kronor eller mera och har ej f&#246;rs&#228;ljning p&#229;kallats av &#228;garen,
+skall dock tillst&#229;nd till f&#246;rs&#228;ljning s&#246;kas hos r&#228;tten, om
+omst&#228;ndigheterna medger detta. R&#228;tten f&#229;r utan att h&#246;ra &#228;garen meddela
+beslut i &#228;rendet.
+
+51 &#167; Allm&#228;nt &#229;tal f&#246;r brott som avses i 46 &#167; f&#229;r v&#228;ckas endast efter
+medgivande av myndighet som regeringen best&#228;mmer. Lag (1984:426).
+
+S&#228;rskilda best&#228;mmelser
+
+52 &#167; Beslut som har meddelats enligt 27 &#167;, 35 &#167;, 38 &#167;, 39 &#167; f&#246;rsta
+stycket, 41 eller 42 &#167; f&#229;r &#246;verklagas hos allm&#228;n f&#246;rvaltningsdomstol.
+
+Pr&#246;vningstillst&#229;nd kr&#228;vs vid &#246;verklagande till kammarr&#228;tten.
+
+S&#229;dant beslut enligt denna lag som har meddelats av annan myndighet
+&#228;n domstol och som inte avses i f&#246;rsta stycket eller i 17 eller 23 &#167;
+&#246;verklagas hos f&#246;rvaltningsmyndighet i den ordning regeringen
+f&#246;reskriver. M&#246;jligheten att &#246;verklaga f&#229;r d&#228;rvid begr&#228;nsas till att
+g&#228;lla endast en instans. Lag (1995:44).
+
+53 &#167; F&#246;rvaltningsmyndighets, f&#246;rvaltningsr&#228;tts eller
+kammarr&#228;tts beslut vid till&#228;mpning av denna lag och av
+f&#246;reskrifter som har meddelats med st&#246;d av lagen f&#229;r
+verkst&#228;llas &#228;ven om det &#246;verklagas, om inte annat f&#246;ljer av
+22 &#167; andra stycket eller f&#246;reskrivs i beslutet.
+Lag (2009:789).
+
+54 &#167; N&#228;r till&#228;mpningen av 6-9 &#167;&#167; upph&#246;r, skall vad som i fr&#229;ga om
+f&#246;rfogande och dispositionsf&#246;rbud f&#246;reskrives i 57, 58, 60 och 61 &#167;&#167;
+f&#246;rfogandelagen (1978:262) ha motsvarande till&#228;mpning.
+
+55 &#167; Den som p&#229; grund av best&#228;mmelse i denna lag har f&#229;tt
+k&#228;nnedom om en enskilds aff&#228;rs- eller driftf&#246;rh&#229;llanden eller
+f&#246;rh&#229;llande av betydelse f&#246;r folkf&#246;rs&#246;rjningen eller f&#246;r
+rikets s&#228;kerhet f&#229;r inte obeh&#246;rigen r&#246;ja eller utnyttja vad
+han eller hon s&#229;lunda har erfarit.
+
+I det allm&#228;nnas verksamhet till&#228;mpas i st&#228;llet best&#228;mmelserna
+i offentlighets- och sekretesslagen (1980:100).
+Lag (2009:424).
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1995:44
+
+Denna lag tr&#228;der i kraft den 1 april 1995. Beslut som har meddelats
+f&#246;re ikrafttr&#228;dandet &#246;verklagas enligt &#228;ldre best&#228;mmelser.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3998">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=4000">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

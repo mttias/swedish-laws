@@ -1,0 +1,828 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-09-13" /> 
+ <meta id="rattsinfo-edited" content="2023-09-13 09:20:46" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>1042</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1041">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1043">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2015:922 ·
+                    <a href="/sfsr?bet=2015:922">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2015:922) om automatiskt utbyte av upplysningar om finansiella konton</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2015-12-10
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2023:488
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2016-01-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning g&#228;ller vid s&#229;dant utbyte av upplysningar
+som avses i lagen (2015:912) om automatiskt utbyte av
+upplysningar om finansiella konton.
+
+2 &#167; Uppgifterna som avses i 2 &#167; lagen (2015:912) om
+automatiskt utbyte av upplysningar om finansiella konton ska
+&#246;verf&#246;ras till de beh&#246;riga myndigheterna i
+rapporteringspliktiga jurisdiktioner snarast m&#246;jligt, men
+senast den 30 september kalender&#229;ret efter det kalender&#229;r som
+uppgifterna avser.
+
+3 &#167; Skatteverket ska ing&#229; &#246;verenskommelser med de beh&#246;riga 
+myndigheterna i deltagande stater och jurisdiktioner om hur 
+det automatiska utbytet av upplysningar ska genomf&#246;ras och om 
+formerna f&#246;r annan kommunikation mellan Skatteverket och de 
+beh&#246;riga myndigheterna i andra deltagande stater och 
+jurisdiktioner.
+
+Skatteverket ska arbeta med de beh&#246;riga myndigheterna i andra 
+stater och jurisdiktioner f&#246;r att enas om en eller flera 
+metoder f&#246;r data&#246;verf&#246;ring, inklusive krypteringsstandarder, 
+i syfte att &#229;stadkomma st&#246;rsta m&#246;jliga standardisering och 
+minsta m&#246;jliga komplexitet samt att minimera kostnaderna. 
+Skatteverket ska meddela dessa metoder till sekretariatet vid 
+det koordineringsorgan som avses i artikel 24.3 i bilaga 1 
+till lagen (1990:313) om Europar&#229;ds- och OECD-konventionen om 
+&#246;msesidig handr&#228;ckning i skatte&#228;renden.
+
+Skatteverket ska meddela koordineringsorganets sekretariat 
+n&#228;r l&#228;mpliga &#229;tg&#228;rder vidtagits f&#246;r att s&#228;kerst&#228;lla att 
+n&#246;dv&#228;ndiga krav p&#229; sekretess och datas&#228;kerhet &#228;r uppfyllda 
+och bifoga det besvarade fr&#229;geformul&#228;r om sekretess och 
+datas&#228;kerhet som ska ing&#229; i bilaga D till det multilaterala 
+avtalet mellan beh&#246;riga myndigheter om automatiskt utbyte av 
+upplysningar om finansiella konton som undertecknades den 29 
+oktober 2014. 
+
+Om det uppst&#229;r sv&#229;righeter i samband med genomf&#246;randet av det 
+avtal som avses i tredje stycket, f&#229;r Skatteverket beg&#228;ra att 
+samr&#229;d h&#229;lls med beh&#246;riga myndigheter i en eller flera andra 
+stater eller jurisdiktioner s&#229; att l&#228;mpliga &#229;tg&#228;rder kan 
+vidtas f&#246;r att s&#228;kerst&#228;lla att avtalet uppfylls. Om 
+Skatteverket beg&#228;r samr&#229;d ska verket s&#228;kerst&#228;lla att 
+koordineringsorganets sekretariat p&#229; l&#228;mpligt s&#228;tt 
+underr&#228;ttas om &#229;tg&#228;rder som utformats. F&#246;rordning (2016:20).
+
+4 &#167; Skatteverket ska kontrollera att de rapporteringsskyldiga
+finansiella instituten till&#228;mpar de granskningsprocedurer som
+framg&#229;r av lagen (2015:911) om identifiering av
+rapporteringspliktiga konton vid automatiskt utbyte av
+upplysningar om finansiella konton och att de l&#228;mnar
+kontrolluppgifter i enlighet med 22 b kap.
+skattef&#246;rfarandelagen (2011:1244).
+
+Skatteverket ska underr&#228;tta Finansinspektionen n&#228;r
+
+1. Skatteverket beslutar att f&#246;rel&#228;gga ett
+rapporteringsskyldigt finansiellt institut som inte fullgjort
+sin skyldighet att l&#228;mna kontrolluppgifter enligt 22 b kap.
+skattef&#246;rfarandelagen att fullg&#246;ra skyldigheten, eller
+
+2. det finns sk&#228;l att tro att ett rapporteringsskyldigt
+finansiellt institut inte har fullgjort sina skyldigheter
+enligt lagen (2015:911) om identifiering av
+rapporteringspliktiga konton vid automatiskt utbyte av
+upplysningar om finansiella konton eller 22 b kap.
+skattef&#246;rfarandelagen.
+
+5 &#167; Med deltagande jurisdiktion avses vid till&#228;mpning av 
+lagen (2015:912) om automatiskt utbyte av upplysningar om 
+finansiella konton och lagen (2015:911) om identifiering av 
+rapporteringspliktiga konton vid automatiskt utbyte av 
+upplysningar om finansiella konton en s&#229;dan stat eller 
+jurisdiktion som anges i avsnitt A i bilagan till denna 
+f&#246;rordning. D&#228;rut&#246;ver avses en s&#229;dan stat eller jurisdiktion 
+med vars beh&#246;riga myndighet Skatteverket har ing&#229;tt en 
+&#246;verenskommelse om automatiskt utbyte av upplysningar om 
+finansiella konton med st&#246;d av 16 &#167; f&#246;rsta stycket 
+f&#246;rordningen (1990:320) om &#246;msesidig handr&#228;ckning i 
+skatte&#228;renden.
+
+Med rapporteringspliktig jurisdiktion avses vid till&#228;mpning 
+av lagen (2015:912) om automatiskt utbyte av upplysningar om 
+finansiella konton och lagen (2015:911) om identifiering av 
+rapporteringspliktiga konton vid automatiskt utbyte av 
+upplysningar om finansiella konton en s&#229;dan stat eller 
+jurisdiktion som anges i avsnitt B i bilagan till denna 
+f&#246;rordning. D&#228;rut&#246;ver avses en s&#229;dan stat eller jurisdiktion 
+med vars beh&#246;riga myndighet Skatteverket har ing&#229;tt en 
+&#246;verenskommelse om automatiskt utbyte av upplysningar om 
+finansiella konton med st&#246;d av 16 &#167; f&#246;rsta stycket 
+f&#246;rordningen (1990:320) om &#246;msesidig handr&#228;ckning i 
+skatte&#228;renden. Detta g&#228;ller dock endast om &#246;verenskommelsen 
+&#228;r g&#228;llande och inneb&#228;r att Skatteverket ska &#246;verf&#246;ra 
+upplysningar om finansiella konton till den andra statens 
+eller jurisdiktionens beh&#246;riga myndighet. 
+F&#246;rordning (2016:1236).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2015:922
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2016.
+
+2. Best&#228;mmelserna i 2 &#167; till&#228;mpas f&#246;rsta g&#229;ngen kalender&#229;ret
+2017 avseende uppgifter som g&#228;ller kalender&#229;ret 2016.
+
+2017:954
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 december 2017.
+
+2. F&#246;rordningen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; uppgifter som 
+avser kalender&#229;ret 2017.
+
+2018:1540
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 18 september 2018.
+
+2. F&#246;rteckning B i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen 
+p&#229; uppgifter som avser kalender&#229;ret 2017.
+
+3. F&#246;rteckning A i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen 
+p&#229; uppgifter som avser kalender&#229;ret 2018.
+
+2019:150
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 april 2019.
+
+2. F&#246;rteckning A i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2019.
+
+3. F&#246;rteckning B i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2018.
+
+4. F&#246;rteckning B i den nya lydelsen f&#229;r till&#228;mpas &#228;ven p&#229; 
+uppgifter som avser kalender&#229;ret 2017.
+
+2020:47
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 4 mars 2020.
+
+2. F&#246;rteckning A i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2020.
+
+3. F&#246;rteckning B i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2019.
+
+4. F&#246;rteckning B i den nya lydelsen f&#229;r till&#228;mpas &#228;ven p&#229; 
+uppgifter som avser kalender&#229;ret 2018.
+
+2020:760
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 16 september 2020.
+
+2. F&#246;rteckning A i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2020.
+
+3. F&#246;rteckning B i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2019.
+
+2021:837
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 15 september 2021.
+
+2. F&#246;rteckning A i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2021.
+
+3. F&#246;rteckning B i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2020.
+
+2022:293
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 24 maj 2022.
+
+2. F&#246;rteckning A i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2022.
+
+2022:1417
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 15 september 2022.
+
+2. F&#246;rteckning A i den nya lydelsen till&#228;mpas f&#246;rsta g&#229;ngen p&#229; 
+uppgifter som avser kalender&#229;ret 2022.
+
+
+Bilaga 
+
+A. Deltagande jurisdiktioner
+
+F&#246;ljande stater och jurisdiktioner &#228;r deltagande 
+jurisdiktioner.
+
+- Albanien
+
+- Andorra
+
+- Anguilla
+
+- Antigua och Barbuda
+
+- Argentina
+
+- Aruba
+
+- Australien
+
+- Azerbajdzjan
+
+- Bahamas
+
+- Bahrain
+
+- Barbados
+
+- Belgien
+
+- Belize
+
+- Bermuda
+
+- Bonaire, Sint Eustatius och Saba
+
+- Brasilien
+
+- Brittiska Jungfru&#246;arna
+
+- Brunei
+
+- Bulgarien
+
+- Cayman&#246;arna
+
+- Chile
+
+- Colombia
+
+- Cook&#246;arna
+
+- Costa Rica
+
+- Curacao
+
+- Cypern
+
+- Danmark
+
+- Dominica
+
+- Ecuador
+
+- Estland
+
+- Finland
+
+- Frankrike
+
+- F&#228;r&#246;arna
+
+- F&#246;renade Arabemiraten
+
+- F&#246;renade kungariket
+
+- Ghana
+
+- Gibraltar
+
+- Grekland
+
+- Grenada
+
+- Gr&#246;nland
+
+- Guernsey
+
+- Hong Kong
+
+- Indien
+
+- Indonesien
+
+- Irland
+
+- Island
+
+- Isle of Man
+
+- Israel
+
+- Italien
+
+- Japan
+
+- Jersey
+
+- Kanada
+
+- Kazakstan
+
+- Kina
+
+- Kroatien
+
+- Kuwait
+
+- Lettland
+
+- Libanon
+
+- Liechtenstein
+
+- Litauen
+
+- Luxemburg
+
+- Macao
+
+- Malaysia
+
+- Maldiverna
+
+- Malta
+
+- Marshall&#246;arna
+
+- Mauritius
+
+- Mexiko
+
+- Monaco
+
+- Montserrat
+
+- Nauru
+
+- Nederl&#228;nderna
+
+- Nigeria
+
+- Niue
+
+- Norge
+
+- Nya Kaledonien
+
+- Nya Zeeland
+
+- Oman
+
+- Pakistan
+
+- Panama
+
+- Peru
+
+- Polen
+
+- Portugal
+
+- Qatar
+
+- Rum&#228;nien
+
+- Saint Kitts och Nevis
+
+- Saint Lucia
+
+- Saint Vincent och Grenadinerna
+
+- Samoa
+
+- San Marino
+
+- Saudiarabien
+
+- Schweiz
+
+- Seychellerna
+
+- Singapore
+
+- Sint Maarten
+
+- Slovakien
+
+- Slovenien
+
+- Spanien
+
+- Sverige
+
+- Sydafrika
+
+- Sydkorea
+
+- Tjeckien
+
+- Turkiet
+
+- Turks- och Caicos&#246;arna
+
+- Tyskland
+
+- Ungern
+
+- Uruguay
+
+- Vanuatu
+
+- &#214;sterrike
+
+B. Rapporteringspliktiga jurisdiktioner
+
+F&#246;ljande stater och jurisdiktioner &#228;r rapporteringspliktiga 
+jurisdiktioner.
+
+- Albanien
+
+- Andorra
+
+- Antigua och Barbuda
+
+- Argentina
+
+- Australien
+
+- Azerbajdzjan
+
+- Barbados
+
+- Belgien
+
+- Bonaire, Sint Eustatius och Saba
+
+- Brasilien
+
+- Bulgarien
+
+- Chile
+
+- Colombia
+
+- Cook&#246;arna
+
+- Curacao
+
+- Cypern
+
+- Danmark
+
+- Ecuador
+
+- Estland
+
+- Finland
+
+- Frankrike
+
+- F&#228;r&#246;arna
+
+- F&#246;renade kungariket
+
+- Ghana
+
+- Gibraltar
+
+- Grekland
+
+- Grenada
+
+- Gr&#246;nland
+
+- Guernsey
+
+- Hong Kong
+
+- Indien
+
+- Indonesien
+
+- Irland
+
+- Isle of Man
+
+- Island
+
+- Israel
+
+- Italien
+
+- Japan
+
+- Jersey
+
+- Kanada
+
+- Kazakstan
+
+- Kina
+
+- Kroatien
+
+- Lettland
+
+- Liechtenstein
+
+- Litauen
+
+- Luxemburg
+
+- Malaysia
+
+- Maldiverna
+
+- Malta
+
+- Mauritius
+
+- Mexiko
+
+- Monaco
+
+- Nederl&#228;nderna
+
+- Nigeria
+
+- Norge
+
+- Nya Zeeland
+
+- Pakistan
+
+- Panama
+
+- Peru
+
+- Polen
+
+- Portugal
+
+- Rum&#228;nien
+
+- Saint Kitts och Nevis
+
+- Saint Lucia
+
+- San Marino
+
+- Saudiarabien
+
+- Schweiz
+
+- Seychellerna
+
+- Singapore
+
+- Slovakien
+
+- Slovenien
+
+- Spanien
+
+- Sydafrika
+
+- Sydkorea
+
+- Tjeckien
+
+- Turkiet
+
+- Tyskland
+
+- Ungern
+
+- Uruguay
+
+- &#214;sterrike
+F&#246;rordning (2023:488).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1041">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=1043">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

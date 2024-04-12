@@ -1,0 +1,773 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-20" /> 
+ <meta id="rattsinfo-edited" content="2023-01-20 14:45:29" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>865</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=864">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=866">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2017:218 ·
+                    <a href="/sfsr?bet=2017:218">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Els&#228;kerhetsf&#246;rordning (2017:218)</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSE
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2017-03-16
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1198
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2017-07-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 &#167; Denna f&#246;rordning &#228;r meddelad med st&#246;d av
+
+– 47 &#167; els&#228;kerhetslagen (2016:732) i fr&#229;ga om 3–20, 23 och 
+24 &#167;&#167; och 33 &#167; 1, 2, 4–9, 11 och 12, 
+
+– 8 kap. 11 &#167; regeringsformen i fr&#229;ga om 33 &#167; 3 och 10, och
+
+– 8 kap. 7 &#167; regeringsformen i fr&#229;ga om &#246;vriga 
+best&#228;mmelser.
+
+Ordf&#246;rklaringar 
+
+2 &#167; Med elv&#228;g avses i denna f&#246;rordning v&#228;g som 
+kompletterats med en elektrisk anl&#228;ggning avsedd f&#246;r 
+&#246;verf&#246;ring av elektrisk energi till fordon under f&#228;rd. 
+
+I &#246;vrigt har ord och uttryck i f&#246;rordningen samma betydelse 
+som i els&#228;kerhetslagen (2016:732).
+F&#246;rordning (2018:2097).
+
+Anm&#228;lningar i fr&#229;ga om elektriska anl&#228;ggningar
+
+3 &#167; Den som avser att bygga en starkstr&#246;msanl&#228;ggning f&#246;r en 
+sp&#228;nning av h&#246;gst 1 000 volt mellan fasledare ska anm&#228;la 
+detta till innehavaren av en s&#229;dan redan befintlig 
+starkstr&#246;msanl&#228;ggning som avses i 11 &#167; els&#228;kerhetslagen 
+(2016:732), om det inte &#228;r uppenbart att det saknas ett 
+s&#229;dant p&#229;verkanssamband som avses i den paragrafen. 
+
+4 &#167; Den som avser att ta en kontaktledning i bruk f&#246;r 
+drift av j&#228;rnv&#228;g, sp&#229;rv&#228;g, tunnelbana eller elv&#228;g ska anm&#228;la 
+detta till Els&#228;kerhetsverket. F&#246;rordning (2018:2097).
+
+5 &#167; Den som &#228;r n&#228;tkoncessionshavare enligt ellagen 
+(1997:857) eller innehar en starkstr&#246;msanl&#228;ggning f&#246;r drift 
+av j&#228;rnv&#228;g, sp&#229;rv&#228;g, tunnelbana eller elv&#228;g ska snarast 
+m&#246;jligt anm&#228;la till Els&#228;kerhetsverket 
+
+1. olycksfall i den egna starkstr&#246;msanl&#228;ggningen som 
+intr&#228;ffat p&#229; grund av el och allvarliga tillbud till s&#229;dana 
+olycksfall, och
+
+2. driftst&#246;rningar i den egna starkstr&#246;msanl&#228;ggningen som kan 
+ha v&#228;sentlig betydelse f&#246;r els&#228;kerheten.
+F&#246;rordning (2018:2097).
+
+6 &#167; Den som avser att p&#229;b&#246;rja arbete med att dra fram en 
+starkstr&#246;msledning inom ett omr&#229;de f&#246;r sj&#246;trafik ska anm&#228;la 
+detta till Sj&#246;fartsverket. N&#228;r arbetet avslutats ska 
+ledningens innehavare anm&#228;la till Sj&#246;fartsverket hur 
+ledningen slutligen har placerats.
+
+Drifttillst&#229;nd f&#246;r elektriska anl&#228;ggningar
+
+7 &#167; Om en h&#246;gsp&#228;nningsledning  ing&#229;r i en direktjordad 
+anl&#228;ggning d&#228;r det vid enfasigt fel kan uppkomma 
+jordslutningsstr&#246;m med st&#246;rre styrka &#228;n 500 ampere, f&#229;r 
+ledningen inte tas i bruk innan Els&#228;kerhetsverket gett 
+tillst&#229;nd till det (drifttillst&#229;nd).
+
+Tillst&#229;nd beh&#246;vs dock inte om h&#246;gsp&#228;nningsledningen &#228;r en 
+kontaktledning f&#246;r j&#228;rnv&#228;gsdrift.
+
+Vid till&#228;mpningen av f&#246;rsta stycket ska h&#246;gsp&#228;nning avse 
+nominell sp&#228;nning &#246;ver 1 000 volt v&#228;xelsp&#228;nning eller &#246;ver 
+1 500 volt liksp&#228;nning.
+
+8 &#167; Ett drifttillst&#229;nd enligt 7 &#167;
+
+1. f&#229;r ges endast om anl&#228;ggningen ger betryggande s&#228;kerhet 
+mot person- eller sakskada, och
+
+2. f&#229;r begr&#228;nsas till att g&#228;lla f&#246;r viss tid.
+
+Starkstr&#246;msledningar inom omr&#229;de med detaljplan
+
+9 &#167; Om en detaljplan antas f&#246;r ett omr&#229;de d&#228;r en luftledning 
+f&#246;r starkstr&#246;m har dragits fram med st&#246;d av n&#228;tkoncession f&#246;r 
+omr&#229;de, &#228;r ledningens innehavare skyldig att p&#229; 
+Els&#228;kerhetsverkets beg&#228;ran g&#246;ra de &#228;ndringar av ledningen som 
+&#228;r n&#246;dv&#228;ndiga fr&#229;n els&#228;kerhetssynpunkt med h&#228;nsyn till 
+omr&#229;dets bebyggande.
+
+10 &#167; Om en detaljplan antas f&#246;r ett omr&#229;de d&#228;r det finns en 
+luftledning f&#246;r svagstr&#246;m och en s&#229;dan luftledning med 
+l&#229;gsp&#228;nning som &#228;r en starkstr&#246;msanl&#228;ggning, &#228;r 
+l&#229;gsp&#228;nningsledningens innehavare skyldig att p&#229; 
+Els&#228;kerhetsverkets beg&#228;ran g&#246;ra de &#228;ndringar av ledningen som 
+&#228;r n&#246;dv&#228;ndiga fr&#229;n els&#228;kerhetssynpunkt.
+
+Vid till&#228;mpningen av f&#246;rsta stycket ska l&#229;gsp&#228;nning avse 
+nominell sp&#228;nning upp till och med 1 000 volt v&#228;xelsp&#228;nning 
+eller upp till och med 1 500 volt liksp&#228;nning.
+
+Starkstr&#246;msledningar inom omr&#229;den f&#246;r trafik
+
+11 &#167; En luftledning f&#246;r starkstr&#246;m ska placeras och vara 
+utf&#246;rd p&#229; ett s&#229;dant s&#228;tt att den inte kan medf&#246;ra risk eller 
+hinder f&#246;r trafiken p&#229; grund av el eller ledningens 
+placering, om ledningen byggs
+
+1. inom omr&#229;det f&#246;r en befintlig eller planerad allm&#228;n v&#228;g 
+eller en enskild v&#228;g som h&#229;lls &#246;ppen f&#246;r trafik,
+
+2. inom eller invid ett omr&#229;de f&#246;r j&#228;rnv&#228;g, eller
+
+3. inom ett omr&#229;de invid en flygplats.
+
+Invid en flygplats f&#229;r ledningen aldrig placeras n&#228;rmare &#228;n 
+4 000 meter fr&#229;n den referenspunkt som har best&#228;mts f&#246;r 
+flygplatsen av den som har inr&#228;ttat flygplatsen.
+
+12 &#167; Om det inom ett omr&#229;de f&#246;r sj&#246;trafik byggs en 
+luftledning f&#246;r starkstr&#246;m eller en ledning f&#246;r starkstr&#246;m i 
+vatten, ska ledningen placeras och vara utf&#246;rd p&#229; ett s&#229;dant 
+s&#228;tt att den inte kan orsaka risk eller hinder f&#246;r trafiken 
+p&#229; grund av el eller ledningens placering.
+
+S&#228;kerhetskrav i fr&#229;ga om elektrisk utrustning
+
+13 &#167; Elektrisk utrustning ska vara konstruerad och 
+tillverkad i enlighet med god s&#228;kerhetsteknisk praxis inom 
+Europeiska unionen s&#229; att utrustningen, n&#228;r den &#228;r korrekt 
+installerad och underh&#229;llen och anv&#228;nds f&#246;r avsett &#228;ndam&#229;l, 
+inte riskerar s&#228;kerheten f&#246;r m&#228;nniskor, husdjur eller 
+egendom.
+
+F&#246;rsta stycket och 14–19 &#167;&#167; inneh&#229;ller s&#229;dana s&#228;kerhetskrav 
+som avses i 16 &#167; els&#228;kerhetslagen (2016:732).
+F&#246;rordning (2018:2097).
+
+14 &#167; Elektrisk utrustning ska genom m&#228;rkning p&#229; utrustningen 
+eller, om detta inte &#228;r m&#246;jligt, p&#229; en medf&#246;ljande 
+bruksanvisning vara f&#246;rsedd med s&#229;dan information som beh&#246;vs 
+fr&#229;n s&#228;kerhetssynpunkt f&#246;r att s&#228;kerst&#228;lla att den anv&#228;nds p&#229; 
+ett s&#228;kert s&#228;tt och f&#246;r avsett &#228;ndam&#229;l.
+
+15 &#167; Tillverkarens eller fabrikatets namn eller varum&#228;rke 
+samt typbeteckning ska finnas klart och tydligt angivna p&#229; 
+utrustningen eller, om detta inte &#228;r m&#246;jligt, p&#229; 
+f&#246;rpackningen.
+
+16 &#167; Elektrisk utrustning och tillh&#246;rande komponenter ska ha 
+ett s&#229;dant utf&#246;rande att de kan s&#228;ttas samman och anslutas p&#229; 
+ett korrekt och s&#228;kert s&#228;tt.
+
+17 &#167; Tekniska &#229;tg&#228;rder ska vidtas till skydd mot risker 
+orsakade av elektrisk utrustning s&#229; att
+
+1. m&#228;nniskor och husdjur &#228;r tillfredsst&#228;llande skyddade mot 
+fara f&#246;r fysisk skada eller annan skada som kan orsakas av 
+direkt eller indirekt ber&#246;ring med sp&#228;nningsf&#246;rande delar,
+
+2. det inte kan uppst&#229; temperaturer, ljusb&#229;gar eller 
+str&#229;lning som kan orsaka faror,
+
+3. m&#228;nniskor, husdjur och egendom &#228;r tillfredsst&#228;llande 
+skyddade mot risker som inte &#228;r av elektrisk natur men som 
+enligt erfarenhet kan orsakas av elektrisk utrustning, och
+
+4. isoleringen hos elektrisk utrustning &#228;r anpassad till de 
+f&#246;rh&#229;llanden som kan f&#246;rutses.
+
+18 &#167; Tekniska &#229;tg&#228;rder ska vidtas till skydd mot risker 
+orsakade av yttre p&#229;verkan p&#229; elektrisk utrustning s&#229; att 
+utrustningen
+
+1. uppfyller det som vid mekanisk p&#229;verkan sk&#228;ligen kan 
+f&#246;rv&#228;ntas av utrustningen i fr&#229;ga om att m&#228;nniskor, husdjur 
+och egendom inte uts&#228;tts f&#246;r fara, 
+
+2. i den omgivning d&#228;r det kan f&#246;rutses att utrustningen 
+kommer att anv&#228;ndas kan st&#229; emot icke-mekanisk p&#229;verkan i 
+s&#229;dan utstr&#228;ckning att m&#228;nniskor, husdjur och egendom inte 
+uts&#228;tts f&#246;r fara, och
+
+3. inte uts&#228;tter m&#228;nniskor, husdjur och egendom f&#246;r fara vid 
+s&#229;dana &#246;verbelastningsf&#246;rh&#229;llanden eller felfall som kan 
+f&#246;rutses.
+
+Presumtion om &#246;verensst&#228;mmelse med s&#228;kerhetskraven
+
+19 &#167; Om annat inte visas, ska en elektrisk utrustning anses 
+uppfylla s&#228;kerhetskraven i denna f&#246;rordning n&#228;r utrustningen 
+&#228;r utf&#246;rd enligt en harmoniserad standard enligt definitionen 
+i artikel 2.1 c i Europaparlamentets och r&#229;dets f&#246;rordning 
+(EU) nr 1025/2012 av den 25 oktober 2012 om europeisk 
+standardisering och om &#228;ndring av r&#229;dets direktiv 89/686/EEG 
+och 93/15/EEG samt av Europaparlamentets och r&#229;dets direktiv 
+94/9/EG, 94/25/EG, 95/16/EG, 97/23/EG, 98/34/EG, 2004/22/EG, 
+2007/23/EG, 2009/23/EG och 2009/105/EG samt om upph&#228;vande av 
+r&#229;dets beslut 87/95/EEG och Europaparlamentets och r&#229;dets 
+beslut 1673/2006/EG,  eller, n&#228;r en s&#229;dan standard saknas, 
+enligt n&#229;gon annan teknisk specifikation som har angetts i 
+f&#246;reskrifter som Els&#228;kerhetsverket har meddelat och &#228;r 
+till&#228;mplig p&#229; utrustningen.
+
+Marknadstilltr&#228;de f&#246;r elektrisk utrustning
+
+20 &#167; En elektrisk utrustning f&#229;r sl&#228;ppas ut p&#229; marknaden 
+eller tas i bruk endast om 
+
+1. utrustningen uppfyller g&#228;llande s&#228;kerhetskrav enligt denna 
+f&#246;rordning eller f&#246;reskrifter som har meddelats med st&#246;d av 
+f&#246;rordningen, och
+
+2. det f&#246;rfarande f&#246;r bed&#246;mning och verifiering av 
+&#246;verensst&#228;mmelse som Els&#228;kerhetsverket har meddelat 
+f&#246;reskrifter om med st&#246;d av 33 &#167; 5 har f&#246;ljts.
+
+Best&#228;mmelser om elektrisk utrustning i andra f&#246;rfattningar
+
+21 &#167; I fr&#229;ga om s&#228;rskilda skydds- och s&#228;kerhetsaspekter finns 
+det ocks&#229; best&#228;mmelser om elektrisk utrustning i
+
+- lagen (1992:1512) om elektromagnetisk kompatibilitet, 
+
+- lagen (2011:579) om leksakers s&#228;kerhet, 
+
+- Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2017/745 av 
+den 5 april 2017 om medicintekniska produkter, om &#228;ndring av 
+direktiv 2001/83/EG, f&#246;rordning (EG) nr 178/2002 och 
+f&#246;rordning (EG) nr 1223/2009 och om upph&#228;vande av r&#229;dets 
+direktiv 90/385/EEG och 93/42/EEG, och
+
+- Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2017/746 av 
+den 5 april 2017 om medicintekniska produkter f&#246;r in vitro-
+diagnostik och om upph&#228;vande av direktiv 98/79/EG och 
+kommissionens beslut 2010/227/EU. F&#246;rordning (2022:402).
+
+22 &#167; I fr&#229;ga om elektrisk utrustning som &#228;r avsedd f&#246;r 
+konsumenter eller som kan antas komma att anv&#228;ndas av 
+konsumenter finns det ocks&#229; best&#228;mmelser i 
+produkts&#228;kerhetslagen (2004:451).
+
+Ans&#246;kan om auktorisation
+
+23 &#167; Den som ans&#246;ker om auktorisation som elinstallat&#246;r ska 
+betala en ans&#246;kningsavgift till tillsynsmyndigheten. 
+
+24 &#167; I fr&#229;ga om ans&#246;kningsavgiften ska 10–14 &#167;&#167; 
+avgiftsf&#246;rordningen (1992:191) och avgiftsklass 3 
+till&#228;mpas.
+
+Anm&#228;lningar i fr&#229;ga om elinstallationsarbete p&#229; 
+andras anl&#228;ggningar
+
+25 &#167; Ett elinstallationsf&#246;retags anm&#228;lan enligt 25 &#167; 
+els&#228;kerhetslagen (2016:732) ska inneh&#229;lla uppgifter om 
+
+1. de slag av elinstallationsarbeten som anm&#228;lan avser, 
+
+2. elinstallationsf&#246;retagets f&#246;retagsnamn, 
+organisationsnummer och form, 
+
+3. elinstallationsf&#246;retagets postadress, 
+
+4. elinstallationsf&#246;retagets kontaktperson, 
+
+5. elinstallationsf&#246;retagets webbadress, om 
+elinstallationsf&#246;retaget har en webbplats, 
+
+6. adresser till elinstallationsf&#246;retagets alla 
+verksamhetsst&#228;llen i Sverige, och 
+
+7. namn och personnummer i fr&#229;ga om auktoriserad 
+elinstallat&#246;r enligt 23 &#167; els&#228;kerhetslagen.
+F&#246;rordning (2018:1849).
+
+Register
+
+26 &#167; Els&#228;kerhetsverket ska f&#246;ra register &#246;ver auktoriserade 
+elinstallat&#246;rer enligt 20 &#167; els&#228;kerhetslagen (2016:732). 
+Registret ska inneh&#229;lla uppgifter om varje auktoriserad 
+elinstallat&#246;rs namn, personnummer och bostadsadress. Om 
+elinstallat&#246;ren saknar personnummer, ska registret i st&#228;llet 
+inneh&#229;lla uppgift om elinstallat&#246;rens f&#246;delsedatum. 
+
+27 &#167; Els&#228;kerhetsverket ska f&#246;ra register &#246;ver 
+elinstallationsf&#246;retag som har gjort en anm&#228;lan enligt 25 &#167; 
+els&#228;kerhetslagen (2016:732). Registret ska inneh&#229;lla de 
+uppgifter som anm&#228;lan ska inneh&#229;lla enligt 25 &#167; denna 
+f&#246;rordning.
+
+28 &#167; Beslut om f&#246;rbud mot fortsatt verksamhet, varning och 
+inskr&#228;nkning i eller &#229;terkallelse av auktorisation ska 
+antecknas i registren.
+
+29 &#167; Registren ska ordnas s&#229; att de underl&#228;ttar f&#246;r den som 
+vill anlita ett elinstallationsf&#246;retag att f&#229; tillg&#229;ng till 
+information om vilka f&#246;retag som utf&#246;r vilka slags arbeten 
+under s&#229;dana kontrollerade former som els&#228;kerhetslagens 
+best&#228;mmelser om egenkontrollprogram och auktorisation syftar 
+till.
+
+Registret &#246;ver elinstallationsf&#246;retag ska p&#229; l&#228;mpligt s&#228;tt 
+h&#229;llas tillg&#228;ngligt p&#229; Els&#228;kerhetsverkets webbplats. 
+Uppgifter om personnummer, f&#246;delsedatum och bostadsadresser 
+ska inte h&#229;llas tillg&#228;ngliga p&#229; webbplatsen.
+
+30 &#167; Els&#228;kerhetsverket &#228;r personuppgiftsansvarig f&#246;r 
+behandling av personuppgifter i registren.
+
+31 &#167; Har upph&#228;vts genom f&#246;rordning (2018:311).
+
+Skyldighet att anm&#228;la &#228;ndringar
+
+32 &#167; Ett elinstallationsf&#246;retag som omfattas av en anm&#228;lan 
+enligt 25 &#167; els&#228;kerhetslagen (2016:732) ska anm&#228;la varje 
+f&#246;r&#228;ndring av de uppgifter som enligt 25 &#167; 1, 4 och 7 denna 
+f&#246;rordning ska finnas med i anm&#228;lan. 
+
+Bemyndiganden
+
+33 &#167; Els&#228;kerhetsverket f&#229;r meddela 
+
+1. f&#246;reskrifter om beskaffenhet, placering, provning, 
+kontroll, besiktning, anv&#228;ndning och sk&#246;tsel av elektriska 
+starkstr&#246;msanl&#228;ggningar och elektrisk utrustning som &#228;r 
+avsedd att anslutas till en starkstr&#246;msanl&#228;ggning samt om 
+arbete p&#229; eller i anslutning till s&#229;dana anl&#228;ggningar och 
+utrustning,
+
+2. f&#246;reskrifter om tillst&#229;ndsplikt enligt els&#228;kerhetslagen 
+(2016:732) eller denna f&#246;rordning och vad en ans&#246;kan om 
+tillst&#229;nd ska inneh&#229;lla,
+
+3. ytterligare f&#246;reskrifter om anm&#228;lningar i fr&#229;ga om 
+elinstallationsarbete,
+
+4. f&#246;reskrifter om annan anm&#228;lningsplikt enligt 
+els&#228;kerhetslagen eller denna f&#246;rordning och vad en anm&#228;lan 
+ska inneh&#229;lla,
+
+5. f&#246;reskrifter om s&#228;kerhetskraven f&#246;r elektrisk utrustning 
+enligt 16–18 &#167;&#167; els&#228;kerhetslagen, 
+
+6. f&#246;reskrifter om skyldigheter i fr&#229;ga om information som 
+ska f&#246;lja med elektrisk utrustning,
+
+7. f&#246;reskrifter om skyldigheter att i fr&#229;ga om elektrisk 
+utrustning vidta skadef&#246;rebyggande arbete och vidta &#229;tg&#228;rder 
+n&#228;r det finns anledning att anta att s&#229;dan utrustning inte 
+&#246;verensst&#228;mmer med s&#228;kerhetskraven,
+
+8. f&#246;reskrifter om vilken utbildning och praktisk erfarenhet 
+som kr&#228;vs f&#246;r att bli auktoriserad som elinstallat&#246;r, 
+
+9. f&#246;reskrifter om de slag av elinstallationsarbete som 
+auktorisation kan ges f&#246;r enligt 20 &#167; andra stycket 
+els&#228;kerhetslagen och de som anm&#228;lan kan g&#246;ras f&#246;r enligt 25 &#167; 
+els&#228;kerhetslagen,
+
+10. f&#246;reskrifter om vad en ans&#246;kan om auktorisation som 
+elinstallat&#246;r ska inneh&#229;lla,
+
+11. f&#246;reskrifter om vad ett egenkontrollprogram enligt 24 &#167; 
+els&#228;kerhetslagen ska inneh&#229;lla, och
+
+12. f&#246;reskrifter om ers&#228;ttning f&#246;r uttaget prov enligt 39 &#167; 
+els&#228;kerhetslagen och om skyldighet att ers&#228;tta kostnaderna 
+f&#246;r provningen.
+
+34 &#167; Innan Els&#228;kerhetsverket meddelar f&#246;reskrifter enligt 
+33 &#167; 1 ska myndigheten h&#246;ra Transportstyrelsen, om 
+f&#246;reskrifterna g&#228;ller
+
+1. luftledningar f&#246;r starkstr&#246;m inom ett omr&#229;de f&#246;r allm&#228;n 
+eller enskild v&#228;g,
+
+2. luftledningar f&#246;r starkstr&#246;m inom ett omr&#229;de f&#246;r j&#228;rnv&#228;g, 
+eller
+
+3. luftledningar f&#246;r starkstr&#246;m i n&#228;rheten av flygplatser.
+
+N&#228;r det g&#228;ller luftledningar f&#246;r starkstr&#246;m eller 
+starkstr&#246;msledningar i vattnet inom omr&#229;den f&#246;r sj&#246;trafik ska 
+myndigheten i st&#228;llet h&#246;ra Sj&#246;fartsverket och, n&#228;r det g&#228;ller 
+luftledningar i n&#228;rheten av milit&#228;ra flygplatser, 
+F&#246;rsvarsmakten.
+
+35 &#167; Els&#228;kerhetsverket f&#229;r meddela f&#246;reskrifter om s&#229;dana 
+undantag fr&#229;n
+
+1. kraven i 16–27 &#167;&#167; els&#228;kerhetslagen (2016:732) och 4, 5 och 
+7 &#167;&#167;, 11 &#167; f&#246;rsta stycket och 12 &#167; denna f&#246;rordning som det 
+finns s&#228;rskilda sk&#228;l f&#246;r, och
+
+2. kraven i 14–20 &#167;&#167; denna f&#246;rordning som &#228;r f&#246;renliga med 
+avtalet om Europeiska ekonomiska samarbetsomr&#229;det och som det 
+finns s&#228;rskilda sk&#228;l f&#246;r.
+
+36 &#167; Transportstyrelsen f&#229;r meddela f&#246;reskrifter om 
+
+1. undantag fr&#229;n 11 &#167; andra stycket, och
+
+2. avgifter f&#246;r pr&#246;vning av en ans&#246;kan om dispens enligt 11 &#167; 
+andra stycket.
+
+37 &#167; F&#246;r att f&#246;rebygga person- eller sakskada p&#229; grund av el 
+eller risk f&#246;r hinder f&#246;r trafiken f&#229;r F&#246;rsvarsmakten meddela 
+f&#246;reskrifter om anm&#228;lningsskyldighet f&#246;r den som avser att 
+p&#229;b&#246;rja ledningsdragning inom ett omr&#229;de som disponeras av 
+F&#246;rsvarsmakten, F&#246;rsvarets materielverk eller F&#246;rsvarets 
+radioanstalt.
+
+Dispens
+
+38 &#167; Els&#228;kerhetsverket f&#229;r i det enskilda fallet ge dispens 
+fr&#229;n
+
+1. kraven i 16–27 &#167;&#167; els&#228;kerhetslagen (2016:732) och 4, 5, 7 
+och 8 &#167;&#167;, 11 &#167; f&#246;rsta stycket och 12 &#167; denna f&#246;rordning, om 
+det finns s&#228;rskilda sk&#228;l, och
+
+2. kraven i 14–20 &#167;&#167; denna f&#246;rordning, om det &#228;r f&#246;renligt 
+med avtalet om Europeiska ekonomiska samarbetsomr&#229;det och det 
+finns s&#228;rskilda sk&#228;l.
+
+Transportstyrelsen f&#229;r i det enskilda fallet ge dispens fr&#229;n 
+11 &#167; andra stycket. 
+
+Tillsyn
+
+39 &#167; Els&#228;kerhetsverket &#228;r tillsynsmyndighet enligt 36 &#167; 
+els&#228;kerhetslagen (2016:732).
+
+40 &#167; Els&#228;kerhetsverket &#228;r marknadskontrollmyndighet och ut&#246;var 
+marknadskontroll enligt Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2019/1020 av den 20 juni 2019 om 
+marknadskontroll och &#246;verensst&#228;mmelse f&#246;r produkter och om 
+&#228;ndring av direktiv 2004/42/EG och f&#246;rordningarna (EG) 
+nr 765/2008 och (EU) nr 305/2011 &#246;ver att elektrisk utrustning 
+&#246;verensst&#228;mmer med kraven i 
+
+1. Europaparlamentets och r&#229;dets direktiv 2014/34/EU av den 
+26 februari 2014 om harmonisering av medlemsstaternas 
+lagstiftning om utrustning och skyddssystem som &#228;r avsedda f&#246;r 
+anv&#228;ndning i potentiellt explosiva atmosf&#228;rer, och
+
+2. Europaparlamentets och r&#229;dets direktiv 2014/35/EU av den 
+26 februari 2014 om harmonisering av medlemsstaternas 
+lagstiftning om tillhandah&#229;llande p&#229; marknaden av elektrisk 
+utrustning avsedd f&#246;r anv&#228;ndning inom vissa sp&#228;nningsgr&#228;nser.
+
+Best&#228;mmelser om en marknadskontrollmyndighets befogenhet att 
+besluta om &#229;tg&#228;rder enligt f&#246;rordning (EU) 2019/1020 finns i 
+els&#228;kerhetslagen (2016:732). F&#246;rordning (2022:1198).
+
+41 &#167; Els&#228;kerhetsverket ska underr&#228;tta Europeiska kommissionen 
+och andra medlemsstater om
+
+1. elektrisk utrustning som inte uppfyller g&#228;llande krav, om 
+Els&#228;kerhetsverket anser att den bristande &#246;verensst&#228;mmelsen 
+inte bara g&#228;ller i Sverige, och i underr&#228;ttelsen informera om 
+den bristande &#246;verensst&#228;mmelsen, utv&#228;rderingsresultat, 
+fattade beslut och eventuella synpunkter fr&#229;n den som beslut 
+har riktats mot,
+
+2. de &#229;tg&#228;rder som Els&#228;kerhetsverket har vidtagit med 
+anledning av information som en annan medlemsstat har l&#228;mnat 
+p&#229; ett motsvararande s&#228;tt som i 1, och
+
+3. elektrisk utrustning som, trots att den uppfyller g&#228;llande 
+krav, bed&#246;ms utg&#246;ra en risk, och i underr&#228;ttelsen l&#228;mna alla 
+tillg&#228;ngliga uppgifter. 
+
+42 &#167; Els&#228;kerhetsverket ska
+
+1. n&#228;r det &#228;r befogat, f&#246;r Sveriges r&#228;kning inv&#228;nda mot ett 
+beslut som en marknadskontrollmyndighet i en annan 
+medlemsstat har fattat om elektrisk utrustning och skyndsamt 
+informera Europeiska kommissionen, andra medlemsstater och 
+regeringen om inv&#228;ndningen och sk&#228;len f&#246;r den, och
+
+2. delta i samr&#229;d mellan kommissionen och andra 
+medlemsstater
+
+a) n&#228;r Europeiska kommissionen har utv&#228;rderat s&#229;dana beslut 
+och inv&#228;ndningar som avses i 1 eller som f&#246;ljer av 
+inv&#228;ndningar fr&#229;n en annan medlemsstat, eller 
+
+b) med anledning av elektrisk utrustning som, trots att den 
+uppfyller g&#228;llande krav, bed&#246;ms utg&#246;ra en risk.
+
+Ansvar
+
+43 &#167; I 49 &#167; 4 els&#228;kerhetslagen (2016:732) finns best&#228;mmelser 
+om straff vid &#246;vertr&#228;delse av 14, 15, 16, 17, 18 eller 20 &#167; 
+denna f&#246;rordning eller vid &#246;vertr&#228;delse av f&#246;reskrifter som 
+har meddelats med st&#246;d av 33 &#167; 5, 6 eller 7 denna 
+f&#246;rordning.
+
+&#214;verklagande
+
+44 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns 
+best&#228;mmelser om &#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. 
+Andra beslut &#228;n beslut om drifttillst&#229;nd enligt 7 och 8 &#167;&#167;, 
+beslut om skyldighet att g&#246;ra &#228;ndringar av 
+starkstr&#246;msledningar enligt 9 och 10 &#167;&#167;, beslut om ers&#228;ttning 
+enligt f&#246;reskrifter som har meddelats med st&#246;d av 33 &#167; 12 och 
+beslut om dispens enligt 38 &#167; f&#229;r dock inte &#246;verklagas.
+F&#246;rordning (2018:915).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2017:218
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2017.
+
+2. Genom f&#246;rordningen upph&#228;vs 
+
+a) elinstallat&#246;rsf&#246;rordningen (1990:806),
+
+b) f&#246;rordningen (1993:1068) om elektrisk materiel, och
+
+c) starkstr&#246;msf&#246;rordningen (2009:22).
+
+3. Den som med st&#246;d av &#228;ldre f&#246;reskrifter har f&#229;tt beh&#246;righet 
+som elinstallat&#246;r ska vid till&#228;mpningen av denna f&#246;rordning 
+anses vara auktoriserad enligt 20 &#167; els&#228;kerhetslagen 
+(2016:732).</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=864">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=866">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

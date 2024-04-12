@@ -1,0 +1,604 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2020-11-20" /> 
+ <meta id="rattsinfo-edited" content="2022-10-19 10:49:16" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>440</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=439">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=441">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2020:968 ·
+                    <a href="/sfsr?bet=2020:968">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Lag (2020:968) med kompletterande best&#228;mmelser till EU:s f&#246;rordning om &#246;msesidigt erk&#228;nnande av beslut om frysning och beslut om f&#246;rverkande</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Justitiedepartementet BIRS
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2020-11-19
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:692
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2020-12-19
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">1 kap. Allm&#228;nna best&#228;mmelser
+
+1 &#167; Denna lag inneh&#229;ller best&#228;mmelser som kompletterar 
+Europaparlamentets och r&#229;dets f&#246;rordning (EU) 2018/1805 av den 
+14 november 2018 om &#246;msesidigt erk&#228;nnande av beslut om 
+frysning och beslut om f&#246;rverkande, i denna lag kallad EU-
+f&#246;rordningen.
+
+2 &#167; Termer och uttryck i denna lag har samma betydelse som i 
+EU-f&#246;rordningen.
+
+3 &#167; F&#246;r erk&#228;nnande och verkst&#228;llighet i Sverige av ett beslut 
+om frysning eller ett beslut om f&#246;rverkande f&#229;r det uppst&#228;llas 
+krav p&#229; att de g&#228;rningar som beslutet avser utg&#246;r ett brott 
+enligt svensk r&#228;tt. Det g&#228;ller dock inte f&#246;r de brott som 
+avses i artikel 3.1 i EU-f&#246;rordningen.
+
+2 kap. N&#228;r Sverige &#228;r utf&#228;rdande stat av beslut om frysning
+
+Utf&#228;rdande myndighet
+
+1 &#167; &#197;klagare &#228;r utf&#228;rdande myndighet n&#228;r ett svenskt beslut om 
+frysning genom beslag, penningbeslag eller kvarstad i brottm&#229;l 
+s&#228;nds &#246;ver till en annan medlemsstat enligt EU-f&#246;rordningen.
+
+Beslut i Sverige om beslag och penningbeslag enligt denna lag
+
+2 &#167; En &#229;klagare f&#229;r besluta om beslag av ett f&#246;rem&#229;l trots att 
+det inte &#228;r tillg&#228;ngligt vid beslutet, om f&#246;rem&#229;let
+
+1. sk&#228;ligen kan antas vara f&#246;rverkat p&#229; grund av brott, och
+
+2. kan antas komma att p&#229;tr&#228;ffas i en annan medlemsstat som &#228;r 
+bunden av EU-f&#246;rordningen. 
+
+Det som s&#228;gs om f&#246;rem&#229;l i f&#246;rsta stycket g&#228;ller ocks&#229; om 
+skriftlig handling. I fr&#229;ga om beslag av s&#229;dan egendom som 
+avses i 27 kap. 2 och 3 &#167;&#167; r&#228;tteg&#229;ngsbalken g&#228;ller &#228;ven de 
+f&#246;ruts&#228;ttningar som anges i de paragraferna.
+
+3 &#167; En &#229;klagare f&#229;r besluta om beslag av egendom i form av 
+pengar, fordran eller n&#229;gon annan r&#228;ttighet som sk&#228;ligen kan 
+antas vara f&#246;rem&#229;l f&#246;r finansiering av terrorism eller 
+s&#228;rskilt allvarlig brottslighet enligt 6 &#167; 
+terroristbrottslagen (2022:666) eller f&#246;rs&#246;k till s&#229;dant brott 
+eller f&#246;r brott enligt lagen (2014:307) om straff f&#246;r 
+penningtv&#228;ttsbrott, eller av ett motsvarande v&#228;rde 
+(penningbeslag), trots att egendomen i fr&#229;ga inte &#228;r 
+tillg&#228;nglig vid beslutet, om egendomen
+
+1. sk&#228;ligen kan antas vara f&#246;rverkad p&#229; grund av brott, och
+
+2. kan antas komma att p&#229;tr&#228;ffas i en annan medlemsstat som &#228;r 
+bunden av EU-f&#246;rordningen. Lag (2022:692).
+
+4 &#167; Beslag enligt 2 eller 3 &#167; f&#229;r beslutas endast om sk&#228;len 
+f&#246;r &#229;tg&#228;rden uppv&#228;ger det intr&#229;ng eller de men i &#246;vrigt som 
+&#229;tg&#228;rden inneb&#228;r f&#246;r den misst&#228;nkte eller f&#246;r n&#229;got annat 
+motst&#229;ende intresse.
+
+Beslag enligt 2 eller 3 &#167; f&#229;r inte verkst&#228;llas i Sverige.
+
+Verkst&#228;llighet genom alternativa &#229;tg&#228;rder
+
+5 &#167; &#197;klagaren f&#229;r inte l&#228;mna samtycke till att ett beslut om 
+frysning som har s&#228;nts &#246;ver till en annan medlemsstat 
+verkst&#228;lls genom alternativa &#229;tg&#228;rder enligt artikel 23.3 i 
+EU-f&#246;rordningen.
+
+Det efterf&#246;ljande f&#246;rfarandet
+
+6 &#167; N&#228;r ett beslag enligt 2 eller 3 &#167; har verkst&#228;llts i den 
+verkst&#228;llande staten till&#228;mpas f&#246;ljande best&#228;mmelser i 27 kap. 
+r&#228;tteg&#229;ngsbalken:
+
+- 4 a &#167; om utl&#228;mnande av f&#246;rem&#229;l till m&#229;ls&#228;gande eller n&#229;gon 
+annan som tr&#228;tt i dennes st&#228;lle,
+
+- 6 &#167; om r&#228;ttens pr&#246;vning,
+
+- 7 &#167; om tid f&#246;r &#229;tals v&#228;ckande,
+
+- 8 &#167; f&#246;rsta, andra och fj&#228;rde styckena om h&#228;vande av beslag,
+
+- 11 &#167; om underr&#228;ttelseskyldighet, och
+
+- 13 &#167; om protokoll och om r&#228;tt f&#246;r den som drabbats av ett 
+beslag att f&#229; ett bevis om beslaget.
+
+N&#228;r brottm&#229;let avg&#246;rs, ska r&#228;tten med till&#228;mpning av 27 kap. 
+8 &#167; femte stycket r&#228;tteg&#229;ngsbalken pr&#246;va om beslaget eller 
+penningbeslaget fortfarande ska best&#229;. Lag (2022:329).
+
+7 &#167; N&#228;r brottm&#229;let avg&#246;rs f&#229;r r&#228;tten, p&#229; yrkande av &#229;klagaren, 
+i domen f&#246;rordna att ett beslut om beslag enligt 2 eller 3 &#167; 
+eller ett beslut om kvarstad till s&#228;kerhet f&#246;r beslut om 
+f&#246;rverkande ska g&#228;lla under en viss tid efter det att domen 
+har f&#229;tt laga kraft, dock l&#228;ngst till dess att beslutet om 
+f&#246;rverkande har verkst&#228;llts i den verkst&#228;llande staten.
+
+3 kap. N&#228;r Sverige &#228;r utf&#228;rdande stat av beslut om f&#246;rverkande
+
+Utf&#228;rdande myndighet
+
+1 &#167; Kronofogdemyndigheten &#228;r utf&#228;rdande myndighet n&#228;r ett 
+svenskt beslut om f&#246;rverkande s&#228;nds &#246;ver till en annan 
+medlemsstat enligt EU-f&#246;rordningen.
+
+Verkst&#228;llighet genom alternativa &#229;tg&#228;rder
+
+2 &#167; Kronofogdemyndigheten f&#229;r inte l&#228;mna samtycke till att ett 
+beslut om f&#246;rverkande som har s&#228;nts &#246;ver till en annan 
+medlemsstat verkst&#228;lls genom alternativa &#229;tg&#228;rder enligt 
+artikel 23.3 i EU-f&#246;rordningen.
+
+4 kap. Erk&#228;nnande och verkst&#228;llighet i Sverige av ett 
+utl&#228;ndskt beslut om frysning
+
+Intyg
+
+1 &#167; Ett intyg om frysning som s&#228;nds &#246;ver till Sverige i 
+enlighet med artikel 4.1 i EU-f&#246;rordningen ska &#229;tf&#246;ljas av det 
+beslut om frysning som intyget avser.
+
+Intyget ska vara skrivet p&#229; eller &#246;versatt till svenska eller 
+engelska. 
+
+Verkst&#228;llande myndighet
+
+2 &#167; &#197;klagare &#228;r verkst&#228;llande myndighet n&#228;r ett utl&#228;ndskt 
+beslut om frysning s&#228;nds &#246;ver till Sverige enligt EU-
+f&#246;rordningen. 
+
+Beslut om erk&#228;nnande och verkst&#228;llighet
+
+3 &#167; Ett beslut om erk&#228;nnande och verkst&#228;llighet enligt 
+artikel 7.1 i EU-f&#246;rordningen ska inneh&#229;lla uppgift om det 
+belopp eller den egendom som verkst&#228;lligheten ska avse och om 
+huruvida beslutet om frysning ska verkst&#228;llas som ett beslut 
+om beslag, penningbeslag eller kvarstad i brottm&#229;l.
+
+Av beslutet om erk&#228;nnande och verkst&#228;llighet ska det i 
+f&#246;rekommande fall &#228;ven framg&#229; om uppskov med verkst&#228;lligheten 
+har beslutats enligt artikel 10.1 i EU-f&#246;rordningen.
+
+Motivering av beslut
+
+4 &#167; &#197;klagarens beslut i fr&#229;ga om erk&#228;nnande och 
+verkst&#228;llighet, om avbrytande av verkst&#228;lligheten enligt 
+artikel 8.4 i EU-f&#246;rordningen och om &#229;terst&#228;llande av fryst 
+egendom till ett brottsoffer ska inneh&#229;lla sk&#228;len f&#246;r 
+beslutet. Detsamma g&#228;ller &#229;klagarens beslut att skjuta upp, 
+st&#228;lla in eller i andra fall avbryta verkst&#228;lligheten.
+
+F&#246;rfarandet vid verkst&#228;lligheten
+
+5 &#167; N&#228;r ett beslut om frysning ska verkst&#228;llas som ett beslut 
+om beslag f&#229;r husrannsakan, kroppsvisitation eller 
+kroppsbesiktning g&#246;ras med till&#228;mpning av reglerna i 28 kap. 
+r&#228;tteg&#229;ngsbalken. 
+
+Om beslutet om frysning avser en f&#246;rs&#228;ndelse som v&#228;ntas komma 
+in till ett befordringsf&#246;retag, f&#229;r &#229;klagaren beg&#228;ra att 
+r&#228;tten beslutar om att f&#246;rs&#228;ndelsen, n&#228;r den kommer in, ska 
+h&#229;llas kvar till dess att verkst&#228;llighet har skett. 
+Best&#228;mmelserna i 27 kap. 9 &#167; andra stycket och tredje stycket 
+f&#246;rsta meningen r&#228;tteg&#229;ngsbalken ska d&#229; till&#228;mpas. Beh&#246;rig 
+domstol &#228;r den tingsr&#228;tt inom vars domkrets &#229;tg&#228;rden ska 
+vidtas.
+
+Om det kan befaras att det skulle medf&#246;ra en f&#246;rdr&#246;jning av 
+v&#228;sentlig betydelse f&#246;r utredningen i den utf&#228;rdande staten 
+att inh&#228;mta r&#228;ttens beslut enligt andra stycket, f&#229;r ett 
+s&#229;dant beslut meddelas av &#229;klagaren. Best&#228;mmelserna i 27 kap. 
+9 a &#167; f&#246;rsta stycket andra meningen samt andra och tredje 
+styckena r&#228;tteg&#229;ngsbalken ska d&#229; till&#228;mpas. 
+
+6 &#167; N&#228;r ett beslut om frysning ska verkst&#228;llas som ett beslut 
+om kvarstad i brottm&#229;l f&#229;r &#229;klagaren, under de f&#246;ruts&#228;ttningar 
+som anges i 26 kap. 3 &#167; tredje stycket r&#228;tteg&#229;ngsbalken, ta 
+egendom i f&#246;rvar till dess beslutet om frysning har 
+verkst&#228;llts. Husrannsakan, kroppsvisitation eller 
+kroppsbesiktning f&#229;r d&#229; g&#246;ras enligt reglerna i 28 kap. samma 
+balk. 
+
+Om egendom tas i f&#246;rvar ska 26 kap. 3 a och 3 b &#167;&#167; 
+r&#228;tteg&#229;ngsbalken till&#228;mpas. 
+
+7 &#167; De &#229;tg&#228;rder som anges i 5 och 6 &#167;&#167; f&#229;r vidtas &#228;ven om den 
+g&#228;rning som beslutet om frysning avser inte motsvarar ett 
+brott enligt svensk lag, om det f&#246;r g&#228;rningen kan d&#246;mas till 
+f&#228;ngelse i den utf&#228;rdande staten.
+
+8 &#167; &#197;klagaren f&#229;r anlita bitr&#228;de av Polismyndigheten, 
+S&#228;kerhetspolisen, Tullverket eller Kustbevakningen n&#228;r ett 
+beslut om frysning ska verkst&#228;llas som ett beslut om beslag 
+eller penningbeslag och n&#228;r egendom ska tas i f&#246;rvar enligt 6 
+&#167;.
+
+Avbruten eller inst&#228;lld verkst&#228;llighet
+
+9 &#167; Om verkst&#228;lligheten av ett beslut om frysning avbryts 
+eller st&#228;lls in med st&#246;d av artikel 8.4, 12.2, 13.3 eller 27.3 
+i EU-f&#246;rordningen, ska beslutet om erk&#228;nnande och 
+verkst&#228;llighet upph&#246;ra att g&#228;lla. Samma f&#246;rfarande ska d&#229; 
+till&#228;mpas som n&#228;r motsvarande &#229;tg&#228;rd har h&#228;vts under en svensk 
+f&#246;runders&#246;kning eller r&#228;tteg&#229;ng i brottm&#229;l.
+
+F&#246;rsta stycket g&#228;ller &#228;ven n&#228;r verkst&#228;lligheten avbryts med 
+st&#246;d av artikel 12.1 i EU-f&#246;rordningen d&#228;rf&#246;r att beslutet om 
+frysning inte l&#228;ngre &#228;r verkst&#228;llbart eller erk&#228;nnande och 
+verkst&#228;llighet av ett beslut om f&#246;rverkande v&#228;gras. 
+
+&#197;terst&#228;llande av fryst egendom enligt artikel 29 i EU-
+f&#246;rordningen
+
+10 &#167; Om &#229;klagaren beslutar att &#229;terst&#228;lla fryst egendom till 
+ett brottsoffer enligt artikel 29.2 i EU-f&#246;rordningen, ska en 
+underr&#228;ttelse om beslutet genast s&#228;ndas till den som 
+verkst&#228;lligheten av beslutet om frysning har skett hos.
+
+Egendomen f&#229;r &#229;terst&#228;llas f&#246;rst tre veckor efter det att 
+underr&#228;ttelsen har &#246;vers&#228;nts. Om den som verkst&#228;lligheten av 
+beslutet om frysning har skett hos medger det, f&#229;r dock 
+egendomen &#229;terst&#228;llas omedelbart. Detsamma g&#228;ller om domstol 
+fastst&#228;ller &#229;klagarens beslut att &#229;terst&#228;lla egendom enligt 
+artikel 29.2 i EU-f&#246;rordningen.
+
+Pr&#246;vning i domstol
+
+11 &#167; N&#228;r ett beslut om frysning har verkst&#228;llts, f&#229;r den som 
+drabbats av &#229;tg&#228;rden beg&#228;ra pr&#246;vning i domstol av &#229;klagarens 
+beslut om
+
+1. erk&#228;nnande och verkst&#228;llighet enligt artikel 7.1 i EU-
+f&#246;rordningen,
+
+2. att inte avbryta verkst&#228;lligheten enligt artikel 8.4 i EU-
+f&#246;rordningen, och
+
+3. att &#229;terst&#228;lla fryst egendom enligt artikel 29.2 i EU-
+f&#246;rordningen.
+
+Beg&#228;ran om en s&#229;dan pr&#246;vning ska g&#246;ras skriftligen hos 
+&#229;klagaren, som ska &#246;verl&#228;mna &#228;rendet till r&#228;tten.
+
+12 &#167; N&#228;r en beg&#228;ran enligt 11 &#167; har kommit in till r&#228;tten, ska 
+r&#228;tten s&#229; snart det kan ske h&#229;lla en f&#246;rhandling i &#228;rendet, om 
+inte en f&#246;rhandling uppenbart skulle sakna betydelse f&#246;r 
+pr&#246;vningen. 
+
+Vid en f&#246;rhandling g&#228;ller best&#228;mmelserna i 24 kap. 17 &#167; 
+r&#228;tteg&#229;ngsbalken i till&#228;mpliga delar. I de fall som avses i 
+11 &#167; f&#246;rsta stycket 3 ska den som &#229;klagaren har beslutat att 
+&#229;terst&#228;lla egendomen till underr&#228;ttas om f&#246;rhandlingen. 
+
+13 &#167; Har upph&#228;vts genom lag (2022:329).
+
+14 &#167; Beh&#246;rig domstol enligt 11 och 13 &#167;&#167; &#228;r den tingsr&#228;tt inom 
+vars domkrets beslutet om frysning har verkst&#228;llts.
+
+Vid r&#228;ttens handl&#228;ggning till&#228;mpas best&#228;mmelserna i 
+r&#228;tteg&#229;ngsbalken om domstols handl&#228;ggning i brottm&#229;l. 
+
+Om r&#228;tten upph&#228;ver ett beslut om erk&#228;nnande och 
+verkst&#228;llighet, ska samma f&#246;rfarande till&#228;mpas som n&#228;r 
+motsvarande &#229;tg&#228;rd har h&#228;vts under en svensk f&#246;runders&#246;kning 
+eller r&#228;tteg&#229;ng i brottm&#229;l.
+
+5 kap. Erk&#228;nnande och verkst&#228;llighet i Sverige av ett 
+utl&#228;ndskt beslut om f&#246;rverkande
+
+Intyg
+
+1 &#167; Ett intyg om f&#246;rverkande som s&#228;nds &#246;ver till Sverige i 
+enlighet med artikel 14.1 i EU-f&#246;rordningen ska &#229;tf&#246;ljas av 
+det beslut om f&#246;rverkande som intyget avser. 
+
+Intyget ska vara skrivet p&#229; eller &#246;versatt till svenska eller 
+engelska. 
+
+Verkst&#228;llande myndighet
+
+2 &#167; Kronofogdemyndigheten &#228;r verkst&#228;llande myndighet n&#228;r ett 
+utl&#228;ndskt beslut om f&#246;rverkande s&#228;nds &#246;ver till Sverige enligt 
+EU-f&#246;rordningen.
+
+Beslut om erk&#228;nnande och verkst&#228;llighet 
+
+3 &#167; Ett beslut om erk&#228;nnande och verkst&#228;llighet enligt 
+artikel 18.1 i EU-f&#246;rordningen ska inneh&#229;lla uppgift om det 
+belopp eller den egendom som verkst&#228;lligheten ska avse. 
+
+Av beslutet om erk&#228;nnande och verkst&#228;llighet ska det i 
+f&#246;rekommande fall &#228;ven framg&#229; om en &#246;verenskommelse enligt 
+artikel 18.2 i EU-f&#246;rordningen har ing&#229;tts, med angivande av 
+beloppet, och om uppskov med verkst&#228;lligheten har beslutats 
+enligt artikel 21.1 i EU-f&#246;rordningen. 
+
+Ett beslut om erk&#228;nnande och verkst&#228;llighet ska delges den som 
+beslutet g&#228;ller mot. Om Kronofogdemyndigheten beslutar om 
+uppskov med verkst&#228;lligheten enligt artikel 21.1 a i EU-
+f&#246;rordningen, beh&#246;ver delgivning inte ske s&#229; l&#228;nge sk&#228;len f&#246;r 
+uppskovet best&#229;r.
+
+Beslutet om erk&#228;nnande och verkst&#228;llighet g&#228;ller omedelbart.
+
+Efterf&#246;ljande beslut om att inte verkst&#228;lla beslutet om 
+f&#246;rverkande
+
+4 &#167; Ett beslut om erk&#228;nnande och verkst&#228;llighet ska upph&#246;ra 
+att g&#228;lla om Kronofogdemyndigheten, sedan beslutet har 
+meddelats, beslutar att inte verkst&#228;lla beslutet om 
+f&#246;rverkande med st&#246;d av artikel 19, 22.3 eller 27.3 i EU-
+f&#246;rordningen. Verkst&#228;llighets&#229;tg&#228;rder som har gjorts ska d&#229; 
+&#229;terg&#229; s&#229; l&#229;ngt det &#228;r m&#246;jligt.
+
+&#214;verklagande
+
+5 &#167; Kronofogdemyndighetens beslut om erk&#228;nnande och 
+verkst&#228;llighet enligt artikel 18.1 i EU-f&#246;rordningen f&#229;r 
+&#246;verklagas till tingsr&#228;tten. Andra beslut som fattas av 
+Kronofogdemyndigheten med st&#246;d av EU-f&#246;rordningen eller den 
+h&#228;r lagen f&#229;r inte &#246;verklagas. 
+
+Beh&#246;rig tingsr&#228;tt &#228;r den tingsr&#228;tt som enligt 18 kap. 1 &#167; 
+uts&#246;kningsbalken ska pr&#246;va ett &#246;verklagande av 
+Kronofogdemyndighetens beslut. 
+
+Vid handl&#228;ggningen i domstol till&#228;mpas lagen (1996:242) om 
+domstols&#228;renden.
+
+Om r&#228;tten upph&#228;ver ett beslut om erk&#228;nnande och 
+verkst&#228;llighet, ska de verkst&#228;llighets&#229;tg&#228;rder som har gjorts 
+&#229;terg&#229; s&#229; l&#229;ngt det &#228;r m&#246;jligt.
+
+F&#246;rfogande &#246;ver f&#246;rverkad egendom 
+
+6 &#167; Egendom som erh&#229;llits vid verkst&#228;lligheten och som kan 
+befaras komma till brottslig anv&#228;ndning eller annars &#228;r 
+ol&#228;mplig f&#246;r f&#246;rs&#228;ljning f&#229;r inte s&#228;ljas enligt artikel 30.6 a 
+i EU-f&#246;rordningen. 
+
+Om egendom som erh&#229;llits vid verkst&#228;lligheten utg&#246;r ett s&#229;dant 
+kulturf&#246;rem&#229;l f&#246;r vilket en ans&#246;kan om utf&#246;rseltillst&#229;nd 
+enligt 5 kap. kulturmilj&#246;lagen (1988:950) har avslagits eller 
+vid en pr&#246;vning skulle ha avslagits, f&#229;r egendomen inte 
+&#229;terst&#228;llas till ett brottsoffer i en annan stat eller 
+&#246;verf&#246;ras till den utf&#228;rdande staten enligt artikel 30.2 eller 
+30.6 b i EU-f&#246;rordningen.
+
+7 &#167; Beslut enligt artikel 30.6 i EU-f&#246;rordningen om f&#246;rfogande 
+&#246;ver egendom som erh&#229;llits vid verkst&#228;lligheten fattas av 
+Kronofogdemyndigheten.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=439">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=441">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

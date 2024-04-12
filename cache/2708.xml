@@ -1,0 +1,754 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-01-18" /> 
+ <meta id="rattsinfo-edited" content="2023-01-18 15:22:42" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2708</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2707">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2709">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2000:284 ·
+                    <a href="/sfsr?bet=2000:284">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (2000:284) om st&#246;d till kommersiell service</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Landsbygds- och infrastrukturdepartementet RSL
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2000-05-11
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2019:1037
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad 2003:591 har iakttagits. R&#228;ttelsesida 2018:1983 har iakttagits.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2000-06-01 &#246;verg.best.
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Allm&#228;nna best&#228;mmelser
+
+Syfte och allm&#228;nna f&#246;ruts&#228;ttningar f&#246;r st&#246;d till kommersiell
+service
+
+1 &#167; F&#246;r att fr&#228;mja kommersiell service f&#229;r, i den utstr&#228;ckning 
+det finns medel, st&#246;d l&#228;mnas enligt denna f&#246;rordning.
+
+St&#246;d till kommersiell service ska bidra till att uppfylla m&#229;let 
+f&#246;r den regionala tillv&#228;xtpolitiken. F&#246;rordning (2011:1205).
+
+2 &#167; St&#246;det f&#229;r inte vara st&#246;rre &#228;n vad som beh&#246;vs med h&#228;nsyn
+till &#246;vriga finansieringsm&#246;jligheter och andra omst&#228;ndigheter
+f&#246;r att den &#229;tg&#228;rd som st&#246;det avser skall kunna genomf&#246;ras.
+
+3 &#167; I lagen (2010:630) om regionalt utvecklingsansvar finns 
+best&#228;mmelser om att regioner och Gotlands kommun ska besluta 
+om anv&#228;ndningen av vissa statliga medel f&#246;r regionalt 
+tillv&#228;xtarbete. 
+
+Det som s&#228;gs i denna f&#246;rordning om regioner g&#228;ller ocks&#229; 
+Gotlands kommun. F&#246;rordning (2019:1037).
+
+St&#246;dmottagare
+
+4 &#167; St&#246;d f&#229;r l&#228;mnas till
+
+1. kommuner,
+
+2. n&#228;ringsidkare med f&#246;rs&#228;ljningsst&#228;llen f&#246;r dagligvaror eller 
+drivmedel,
+
+3. n&#228;ringsidkare med f&#246;rs&#228;ljningsst&#228;llen f&#246;r fackhandelsvaror, 
+om det finns s&#228;rskilda sk&#228;l, och
+
+4. n&#228;ringsidkare som p&#229; annat s&#228;tt s&#228;ljer och levererar
+dagligvaror i omr&#229;det, om det finns s&#228;rskilda sk&#228;l. 
+F&#246;rordning (2011:1205).
+
+Omr&#229;den f&#246;r st&#246;d
+
+5 &#167; St&#246;d f&#229;r l&#228;mnas i omr&#229;den d&#228;r servicen &#228;r gles.
+
+L&#228;nsstyrelsen f&#229;r meddela n&#228;rmare f&#246;reskrifter om i vilka 
+omr&#229;den st&#246;d f&#229;r l&#228;mnas. F&#246;rordning (2011:1205).
+
+Allm&#228;nna villkor f&#246;r st&#246;d
+
+6 &#167; St&#246;d f&#229;r l&#228;mnas endast om kommunen har planerat
+varuf&#246;rs&#246;rjningen p&#229; ett s&#229;dant s&#228;tt att behovet av st&#246;d kan
+bed&#246;mas.
+
+7 &#167; St&#246;det f&#229;r inte otillb&#246;rligt gynna en viss n&#228;ringsidkare.
+
+8 &#167; St&#246;d kan l&#228;mnas f&#246;r att det i glesbygd och landsbygd skall
+kunna uppr&#228;tth&#229;llas en f&#246;rs&#246;rjning med dagligvaror och
+drivmedel som &#228;r tillfredsst&#228;llande med h&#228;nsyn till geografiska
+och befolkningsm&#228;ssiga f&#246;rh&#229;llanden. St&#246;d kan i vissa fall
+l&#228;mnas &#228;ven till fackhandelsservice.
+
+St&#246;dformer
+
+9 &#167; St&#246;d till kommersiell service l&#228;mnas som 
+investeringsbidrag, investeringsl&#229;n, servicebidrag, 
+hems&#228;ndningsbidrag och s&#228;rskilt driftst&#246;d. 
+F&#246;rordnning (2016:126).
+
+Statligt st&#246;d och registerskyldighet
+
+9 a &#167; Investeringsbidrag, investeringsl&#229;n och servicebidrag 
+f&#229;r endast l&#228;mnas i enlighet med kommissionens f&#246;rordning 
+(EU) nr 1407/2013 av den 18 december 2013 om till&#228;mpningen av 
+artiklarna 107 och 108 i f&#246;rdraget om Europeiska unionens 
+funktionss&#228;tt p&#229; st&#246;d av mindre betydelse.
+
+S&#228;rskilt driftst&#246;d f&#229;r endast l&#228;mnas i enlighet med 
+kommissionens f&#246;rordning (EU) nr 360/2012 av den 25 april 
+2012 om till&#228;mpningen av artiklarna 107 och 108 i f&#246;rdraget 
+om Europeiska unionens funktionss&#228;tt p&#229; st&#246;d av mindre 
+betydelse som beviljas f&#246;retag som tillhandah&#229;ller tj&#228;nster 
+av allm&#228;nt ekonomiskt intresse. F&#246;rordnning (2016:126).
+
+9 b &#167; Regionen ska i beslut om st&#246;d l&#228;mna st&#246;dmottagaren de 
+uppgifter som f&#246;ljer av artikel 6.1 i kommissionens f&#246;rordning 
+(EU) nr 1407/2013 och artikel 3.1 i kommissionens f&#246;rordning 
+(EU) nr 360/2012. F&#246;rordning (2019:1037).
+
+9 c &#167; Regionen ska f&#246;ra de register som avses i artikel 6.4 i 
+kommissionens f&#246;rordning (EU) nr 1407/2013 och artikel 3.3 i 
+kommissionens f&#246;rordning (EU) nr 360/2012.
+F&#246;rordning (2019:1037).
+
+&#196;ndam&#229;l f&#246;r vilka investeringsbidrag och investeringsl&#229;n f&#229;r
+l&#228;mnas
+
+10 &#167; St&#246;d till kommersiell service f&#229;r l&#228;mnas som
+investeringsbidrag och investeringsl&#229;n f&#246;r
+
+1. anskaffning eller ny-, till- eller ombyggnad eller st&#246;rre 
+reparation av lokaler som beh&#246;vs f&#246;r verksamheten och f&#246;r 
+inredning eller annan utrustning av s&#229;dana lokaler,
+
+2. anskaffning eller ombyggnad eller st&#246;rre reparation av
+utrustning som beh&#246;vs f&#246;r s&#229;dan f&#246;rs&#228;ljning och leverans som 
+avses i 4 &#167; 4,
+
+3. kompetensh&#246;jande insatser f&#246;r n&#228;ringsidkare och anst&#228;llda 
+inom dagligvaruhandeln och drivmedelsbranschen, och
+
+4. kostnader f&#246;r utarbetande av &#229;tg&#228;rdsprogram som syftar till 
+att f&#246;rb&#228;ttra f&#246;retagets l&#246;nsamhet. F&#246;rordning (2011:1205).
+
+Investeringsbidrag
+
+11 &#167; Investeringsbidrag f&#229;r l&#228;mnas med belopp som motsvarar 
+h&#246;gst 50 procent av de utgifter som har godk&#228;nts f&#246;r 
+investering som avses i 10 &#167; 1–3.
+
+Investeringsbidrag f&#229;r l&#228;mnas med belopp som motsvarar h&#246;gst 85 
+procent av godk&#228;nda utgifter f&#246;r
+
+1. investeringar som avses i 10 &#167; 4,
+
+2. st&#246;rre investeringar som avses i 10 &#167; 1 och som g&#228;ller ett 
+f&#246;rs&#228;ljningsst&#228;lle f&#246;r dagligvaror eller drivmedel med ett v&#228;l 
+utbyggt utbud av grundl&#228;ggande servicefunktioner eller som g&#246;rs 
+f&#246;r att komplettera ett f&#246;rs&#228;ljningsst&#228;lle f&#246;r dagligvaror 
+eller drivmedel med grundl&#228;ggande servicefunktioner,
+
+3. kostnader f&#246;r samlokalisering av f&#246;rs&#228;ljningsst&#228;llen som 
+avses i 4 &#167; 2 och 3 inb&#246;rdes eller med annat detaljhandels- 
+eller tj&#228;nstef&#246;retag,
+
+4. investeringar som genomf&#246;rs f&#246;r att uppfylla krav som har 
+&#229;lagts verksamheten genom f&#246;reskrifter i lag eller f&#246;rordning, 
+och
+
+5. andra investeringar som avses i 10 &#167; 1–3, om det finns 
+s&#228;rskilda sk&#228;l.
+
+Tillv&#228;xtverket f&#229;r meddela f&#246;reskrifter om s&#229;dana investeringar 
+som avses i andra stycket 4. F&#246;rordning (2011:1205).
+
+12 &#167; Om investeringsbidrag och investeringsl&#229;n l&#228;mnas f&#246;r samma
+investering f&#229;r det totala st&#246;det inte &#246;verstiga
+
+1. tv&#229; tredjedelar av de godk&#228;nda utgifterna f&#246;r investeringar
+som avses i 11 &#167; f&#246;rsta stycket, eller
+
+2. ett belopp som motsvarar 85 procent av de godk&#228;nda
+utgifterna f&#246;r investeringar som avses i 11 &#167; andra stycket.
+F&#246;rordning (2005:530).
+
+Investeringsl&#229;n
+
+13 &#167; St&#246;d till kommersiell service kan l&#228;mnas som
+investeringsl&#229;n f&#246;r
+
+1. l&#229;n som tas upp f&#246;r &#228;ndam&#229;l som anges i 10 &#167;, och
+
+2. l&#229;n eller annan kredit f&#246;r anskaffning av varulager.
+F&#246;rordning (2005:530).
+
+14 &#167; Investeringsl&#229;n i samband med en investering f&#229;r l&#228;mnas
+endast om uppl&#229;ning inte bed&#246;ms kunna ske p&#229; den allm&#228;nna
+kreditmarknaden. F&#246;rordning (2005:530).
+
+15 &#167; P&#229; ett investeringsl&#229;n ska r&#228;nta betalas fr&#229;n dagen f&#246;r 
+utbetalning till l&#229;ntagaren efter den r&#228;ntesats som fastst&#228;lls 
+som referensr&#228;nta f&#246;r Sverige av kommissionen. Om r&#228;nta eller 
+avbetalning inte betalas p&#229; f&#246;rfallodagen, ska en fyra 
+procentenheter h&#246;gre r&#228;nta tas ut p&#229; den f&#246;rfallna l&#229;neskulden 
+till dess att det f&#246;rfallna l&#229;nebeloppet har betalats. 
+
+Regionen f&#229;r i undantagsfall medge l&#229;ntagaren anst&#229;nd med 
+r&#228;ntebetalningen under sammanlagt l&#228;ngst fem &#229;r av l&#229;nets 
+l&#246;ptid. Upplupen r&#228;nta l&#228;ggs till l&#229;nebeloppet.
+F&#246;rordning (2019:1037).
+
+16 &#167; Ett investeringsl&#229;n som l&#228;mnas i samband med en 
+investering ska &#229;terbetalas inom en viss tid som anpassas i 
+huvudsak efter den ekonomiska livsl&#228;ngden p&#229; de tillg&#229;ngar som 
+ska anskaffas med l&#229;nemedlen. L&#229;net ska &#229;terbetalas enligt en 
+plan som fastst&#228;lls av regionen genom lika stora avbetalningar 
+under h&#246;gst 20 &#229;r.
+
+Regionen f&#229;r medge anst&#229;nd med avbetalning under sammanlagt 
+l&#228;ngst fem &#229;r av l&#229;nets l&#246;ptid. F&#246;rordning (2019:1037).
+
+Servicebidrag
+
+17 &#167; St&#246;d till kommersiell service kan l&#228;mnas som servicebidrag
+till n&#228;ringsidkare som anges i 4 &#167; 2-4.
+
+Bidrag l&#228;mnas endast om det finns s&#228;rskilda sk&#228;l och andra
+&#229;tg&#228;rder har pr&#246;vats, men inte visat sig vara &#228;ndam&#229;lsenliga.
+
+18 &#167; Bidrag f&#229;r l&#228;mnas med h&#246;gst 250 000 kronor per &#229;r till 
+samma mottagare. Bidrag som avser dagligvarubutiker med ett 
+v&#228;l utbyggt utbud av grundl&#228;ggande servicefunktioner, eller 
+som av servicestrategiska sk&#228;l bed&#246;ms som betydelsefulla, f&#229;r 
+dock utstr&#228;ckas till h&#246;gst 300 000 kronor per &#229;r. Fr&#229;gan om 
+huruvida bidrag kan l&#228;mnas ska pr&#246;vas s&#228;rskilt f&#246;r varje &#229;r. 
+
+Bidrag f&#229;r l&#228;mnas f&#246;r sammanlagt h&#246;gst tre &#229;r. Om det finns 
+synnerliga sk&#228;l f&#229;r bidrag l&#228;mnas under en l&#228;ngre tid.
+
+Om s&#228;rskilt driftst&#246;d enligt 21 a &#167; l&#228;mnas ska driftst&#246;det 
+r&#228;knas av fr&#229;n det h&#246;gsta belopp som f&#229;r l&#228;mnas enligt f&#246;rsta 
+stycket. F&#246;rordnning (2016:126).
+
+Hems&#228;ndningsbidrag
+
+19 &#167; St&#246;d till kommersiell service kan l&#228;mnas som 
+hems&#228;ndningsbidrag till kommuner f&#246;r att bekosta kommunens 
+hems&#228;ndning av dagligvaror till de hush&#229;ll som har st&#246;rst 
+avst&#229;nd till eller saknar m&#246;jligheter att p&#229; annat s&#228;tt ta 
+sig till butiken.
+
+Bidrag f&#229;r l&#228;mnas endast om s&#228;ndningen sker p&#229; ett 
+&#228;ndam&#229;lsenligt s&#228;tt och utan on&#246;diga kostnader.
+
+Bidrag enligt f&#246;rsta stycket l&#228;mnas f&#246;r kommunens kostnader 
+antingen f&#246;r hems&#228;ndning av dagligvaror eller f&#246;r anordnande 
+av s&#228;rskilda ink&#246;psturer till en n&#228;rliggande butik. 
+F&#246;rordnning (2016:126).
+
+20 &#167; Hems&#228;ndningsbidrag enligt 19 &#167; f&#229;r l&#228;mnas med ett belopp 
+som motsvarar h&#246;gst 50 procent av kommunens nettoutgift f&#246;r 
+hems&#228;ndningen eller ink&#246;psturerna. Bidraget f&#229;r dock inte 
+&#246;verstiga 100 kronor per hush&#229;ll och hems&#228;ndningstillf&#228;lle.
+
+Bidrag l&#228;mnas endast om nettoutgiften eller de direkta 
+kostnaderna uppg&#229;r till minst ett halvt prisbasbelopp enligt 
+2 kap. 6 och 7 &#167;&#167; socialf&#246;rs&#228;kringsbalken. 
+F&#246;rordnning (2016:126).
+
+21 &#167; Bidraget betalas ut &#229;rsvis i efterskott.
+
+S&#228;rskilt driftst&#246;d i s&#229;rbara och utsatta omr&#229;den
+
+21 a &#167; S&#228;rskilt driftst&#246;d f&#229;r l&#228;mnas till ett 
+f&#246;rs&#228;ljningsst&#228;lle som har ett m&#229;ngsidigt utbud av 
+dagligvaror och som 
+
+1. &#228;r bel&#228;get mer &#228;n 10 kilometer fr&#229;n ett annat 
+f&#246;rs&#228;ljningsst&#228;lle som har ett m&#229;ngsidigt utbud av 
+dagligvaror, eller som &#228;r bel&#228;get i ett sk&#228;rg&#229;rdsomr&#229;de utan 
+fast landf&#246;rbindelse, 
+
+2. har fasta lokaler som &#228;r &#246;ppna s&#229; att kunderna kan f&#229; 
+tillg&#229;ng till dagligvaror p&#229; &#229;retruntbasis, och 
+
+3. har en nettooms&#228;ttning f&#246;r dagligvaror som uppgick till 
+h&#246;gst 11 miljoner kronor enligt det senaste &#229;rets 
+&#229;rsredovisning, &#229;rsbokslut eller annat liknande underlag. 
+
+Om det finns s&#228;rskilda sk&#228;l f&#246;r det, f&#229;r s&#228;rskilt driftst&#246;d 
+l&#228;mnas till ett f&#246;rs&#228;ljningsst&#228;lle trots att det inte 
+uppfyller f&#246;ruts&#228;ttningarna enligt f&#246;rsta stycket 1 och 3.
+F&#246;rordning (2018:150).
+
+21 b &#167; Vid en bed&#246;mning av ans&#246;kningar om s&#228;rskilt driftst&#246;d 
+enligt 21 a &#167; ska f&#246;rs&#228;ljningsst&#228;llen som &#228;r betydelsefulla 
+&#228;ven f&#246;r tillg&#228;ngligheten till annan grundl&#228;ggande 
+kommersiell service &#228;n f&#246;rs&#228;ljning av dagligvaror 
+prioriteras. F&#246;rordnning (2016:126).
+
+21 c &#167; S&#228;rskilt driftst&#246;d enligt 21 a &#167; f&#229;r l&#228;mnas med h&#246;gst 
+300 000 kronor per &#229;r och f&#246;rs&#228;ljningsst&#228;lle. 
+
+Fr&#229;gan om st&#246;d ska pr&#246;vas f&#246;r varje &#229;r.
+F&#246;rordnning (2016:126).
+
+21 d &#167; St&#246;dmottagaren ska som villkor f&#246;r st&#246;d &#229;ta sig att 
+utf&#246;ra en tj&#228;nst av allm&#228;nt ekonomiskt intresse. 
+
+Regionen ska i st&#246;dbeslutet ange de n&#228;rmare villkoren f&#246;r 
+tj&#228;nsten. Dessa ska innefatta &#229;tminstone vilket utbud av 
+dagligvaror som ska tillhandah&#229;llas och under vilken tid som 
+f&#246;rs&#228;ljningsst&#228;llet ska h&#229;llas &#246;ppet. F&#246;rordning (2019:1037).
+
+F&#246;rfarandet i &#228;renden om st&#246;d till kommersiell service
+
+Ans&#246;kan
+
+22 &#167; Ans&#246;kan om st&#246;d till kommersiell service ges in till och 
+pr&#246;vas av regionen i det l&#228;n d&#228;r verksamheten ska bedrivas.
+F&#246;rordning (2019:1037).
+
+23 &#167; St&#246;d f&#229;r inte l&#228;mnas till en &#229;tg&#228;rd som utan s&#228;rskilt
+medgivande har p&#229;b&#246;rjats innan fr&#229;gan om st&#246;d har avgjorts. Ett
+s&#229;dant medgivande f&#229;r l&#228;mnas endast innan &#229;tg&#228;rden har
+p&#229;b&#246;rjats. Medgivandet f&#229;r l&#228;mnas endast om det finns s&#228;rskilda
+sk&#228;l. Medgivandet kan l&#228;mnas av den som skall avg&#246;ra &#228;rendet om
+st&#246;d.
+
+23 a &#167; En ans&#246;kan om investeringsbidrag, investeringsl&#229;n, 
+servicebidrag och s&#228;rskilt driftst&#246;d f&#229;r endast beviljas ett 
+f&#246;retag som l&#228;mnat en skriftlig redog&#246;relse f&#246;r allt annat 
+st&#246;d av mindre betydelse som f&#246;retaget f&#229;tt under de tv&#229; 
+f&#246;reg&#229;ende beskattnings&#229;ren och det innevarande 
+beskattnings&#229;ret. F&#246;rordnning (2016:126).
+
+S&#228;kerhet f&#246;r investeringsbidrag och investeringsl&#229;n
+
+24 &#167; F&#246;r investeringsbidrag och investeringsl&#229;n skall st&#228;llas
+den s&#228;kerhet som beh&#246;vs med h&#228;nsyn till st&#246;dets storlek,
+mottagarens ekonomiska st&#228;llning och behov av rimlig ekonomisk
+r&#246;relsefrihet samt till &#246;vriga omst&#228;ndigheter.
+F&#246;rordning (2005:530).
+
+Tillsyn och uppf&#246;ljning
+
+25 &#167; Beslut om st&#246;d skall, f&#246;rutom de s&#228;rskilda villkor som
+g&#228;ller f&#246;r st&#246;dformen, inneh&#229;lla f&#246;reskrifter och villkor som
+kan beh&#246;vas f&#246;r tillsyn och uppf&#246;ljning av hur st&#246;det anv&#228;nds.
+
+26 &#167; Regionen ska svara f&#246;r uppf&#246;ljningen av st&#246;d&#228;rendet och 
+ut&#246;va tillsyn &#246;ver att st&#246;det utnyttjas f&#246;r det avsedda 
+&#228;ndam&#229;let och i &#246;verensst&#228;mmelse med de f&#246;reskrifter och 
+villkor som g&#228;ller f&#246;r st&#246;det. F&#246;rordning (2019:1037).
+
+27 &#167; F&#246;r uppf&#246;ljningen av st&#246;d&#228;renden skall det finnas rutiner
+som &#228;r anpassade f&#246;r st&#246;dformen och som medger en flexibel
+till&#228;mpning med utg&#229;ngspunkt fr&#229;n st&#246;dbeloppets storlek.
+
+28 &#167; I uppf&#246;ljnings&#228;renden ska regionen samr&#229;da med 
+Kronofogde-myndigheten och andra ber&#246;rda organ, om inte 
+tidssk&#228;l eller fr&#229;gans art motiverar annat.
+F&#246;rordning (2019:1037).
+
+29 &#167; Om det uppst&#229;r en p&#229;taglig risk f&#246;r att syftet med st&#246;det 
+inte kommer att kunna uppn&#229;s eller om risken f&#246;r staten som 
+l&#229;ngivare &#246;kar avsev&#228;rt j&#228;mf&#246;rt med f&#246;rh&#229;llandena vid 
+tidpunkten f&#246;r beslutet om st&#246;d, ska regionen vidta de 
+&#229;tg&#228;rder som motiveras av st&#246;dets &#228;ndam&#229;l och statens 
+intressen som fordrings&#228;gare. F&#246;rordning (2019:1037).
+
+30 &#167; Regionen f&#229;r anta ackordsf&#246;rslag eller p&#229; annat s&#228;tt 
+eftersk&#228;nka statens anspr&#229;k p&#229; grund av investeringsbidrag och 
+investeringsl&#229;n.
+
+Om st&#246;dmottagaren har beviljats statligt st&#246;d av n&#229;gon annan 
+&#228;n regionen ska regionen samr&#229;da med den myndighet som har 
+beviljat st&#246;det. F&#246;rordning (2019:1037).
+
+31 &#167; Regionen ska vid domstolar och andra myndigheter bevaka 
+statens r&#228;tt mot st&#246;dmottagaren. F&#246;rordning (2019:1037).
+
+32 &#167; Innan regionen beslutar om st&#246;d till kommersiell service 
+ska den h&#246;ra ber&#246;rda kommuner. Regionen ska ocks&#229; h&#246;ra ber&#246;rda 
+lokala organisationer i den omfattning som beh&#246;vs. Om &#228;rendet 
+g&#228;ller en fr&#229;ga av principiell vikt, ska regionen h&#246;ra 
+Tillv&#228;xtverket. F&#246;rordning (2019:1037).
+
+Utbetalning av st&#246;d
+
+32 a &#167; Regionen ska besluta att ett beviljat st&#246;d helt eller 
+delvis inte ska betalas ut vid ett f&#246;rh&#229;llande som anges i 
+33 &#167; 1, 2, 4, 5, 6 eller 7. F&#246;rordning (2019:1037).
+
+&#197;terkrav och upps&#228;gning
+
+33 &#167; Ett investeringsl&#229;n f&#229;r s&#228;gas upp till omedelbar betalning
+om
+
+1. det kommer fram att beslutet har grundats p&#229; oriktiga eller
+vilseledande uppgifter fr&#229;n st&#246;dmottagaren,
+
+2. st&#246;dmottagaren utan medgivande anv&#228;nder st&#246;det f&#246;r n&#229;got
+annat &#228;ndam&#229;l &#228;n det beviljats f&#246;r,
+
+3. st&#246;dmottagaren f&#246;rsummar att betala f&#246;reskriven r&#228;nta eller
+amortering,
+
+4. st&#228;lld s&#228;kerhet v&#228;sentligt f&#246;rs&#228;mras,
+
+5. det sker en v&#228;sentlig &#228;ndring i &#228;gander&#228;tten eller av
+ledningen av den verksamhet f&#246;r vilken st&#246;det har beviljats,
+
+6. st&#246;dmottagaren i &#246;vrigt bryter mot villkor eller
+f&#246;reskrifter som g&#228;ller f&#246;r st&#246;det, eller
+
+7. n&#229;got annat intr&#228;ffar som f&#246;ranleder att st&#246;dmottagaren med
+h&#228;nsyn till st&#246;dets syfte uppenbarligen inte l&#228;ngre b&#246;r f&#229;
+beh&#229;lla det.
+
+Beslut om investeringsl&#229;n skall inneh&#229;lla upplysningar om
+best&#228;mmelserna i f&#246;rsta stycket. F&#246;rordning (2005:530).
+
+34 &#167; Hems&#228;ndningsbidrag, servicebidrag och s&#228;rskilt driftst&#246;d 
+kan kr&#228;vas &#229;ter vid f&#246;rh&#229;llanden som anges i 33 &#167; 1, 2, 4, 5, 
+6 och 7.
+
+Beslut om s&#229;dana bidrag ska inneh&#229;lla upplysningar om 
+best&#228;mmelserna i f&#246;rsta stycket. F&#246;rordnning (2016:126).
+
+35 &#167; Investeringsbidrag kan av regionen helt eller delvis 
+kr&#228;vas &#229;ter inom tio &#229;r fr&#229;n den dag bidraget utbetalats i sin 
+helhet, om
+
+1. bidragsmottagaren genom oriktiga eller ofullst&#228;ndiga 
+uppgifter har orsakat att bidraget beviljades, eller
+
+2. bidraget utan tillst&#229;nd har anv&#228;nts f&#246;r n&#229;got annat &#228;ndam&#229;l 
+&#228;n det var avsett f&#246;r. F&#246;rordning (2019:1037).
+
+36 &#167; Ett investeringsbidrag eller en del av det kan kr&#228;vas 
+&#229;ter av regionen under en tid av fem &#229;r fr&#229;n den dag bidragets 
+storlek har best&#228;mts slutligt, om
+
+1. syftet med bidraget inte uppn&#229;s,
+
+2. n&#229;gon v&#228;sentlig del av verksamheten l&#228;ggs ned eller n&#229;gon 
+v&#228;sentlig &#228;ndring direkt eller indirekt intr&#228;ffar i 
+&#228;gander&#228;tten till r&#246;relsen eller till s&#229;dana tillg&#229;ngar i 
+r&#246;relsen som &#228;r av betydelse f&#246;r verksamheten,
+
+3. bidragsmottagaren i n&#229;got annat fall bryter mot villkor 
+eller f&#246;reskrifter som g&#228;ller f&#246;r bidraget,
+
+4. en st&#228;lld s&#228;kerhet v&#228;sentligt f&#246;rs&#228;mras, eller
+
+5. n&#229;got annat intr&#228;ffar som f&#246;ranleder att bidragsmottagaren 
+med h&#228;nsyn till syftet med bidraget uppenbarligen inte l&#228;ngre 
+b&#246;r f&#229; beh&#229;lla det.
+
+Ett bidrag f&#229;r dock inte &#229;terkr&#228;vas enligt f&#246;rsta stycket 1 om 
+bidragsmottagaren har gjort vad som sk&#228;ligen kan beg&#228;ras f&#246;r 
+att syftet med bidraget ska uppn&#229;s. F&#246;rordning (2019:1037).
+
+37 &#167; M&#246;jligheten till &#229;terkrav enligt 36 &#167; upph&#246;r successivt 
+under fem&#229;rsperioden p&#229; s&#229; s&#228;tt att den del av 
+investeringsbidraget som kan kr&#228;vas &#229;ter varje &#229;r minskar med 
+30, 25, 20, 15 respektive 10 procent av det ursprungliga 
+bidragsbeloppet. Regionen f&#229;r samtidigt som bidraget beviljas 
+besluta att minskningen ska ske p&#229; annat s&#228;tt om det finns 
+s&#228;rskilda sk&#228;l f&#246;r det. F&#246;rordning (2019:1037).
+
+38 &#167; Minskningen enligt 37 &#167; av den del av bidragsbeloppet som 
+kan kr&#228;vas &#229;ter sker &#229;rligen, om inte regionen beslutar att 
+minskningen ett visst &#229;r ska v&#228;gras. Om minskningen v&#228;gras kan 
+den del av bidragsbeloppet som fortfarande kan kr&#228;vas &#229;ter 
+helt eller delvis omvandlas till ett l&#229;n med villkor som anges 
+i beslutet.
+
+Beslut att v&#228;gra minskning ska fattas senast tre m&#229;nader efter 
+det att regionen f&#229;tt k&#228;nnedom om f&#246;rh&#229;llanden som kan medf&#246;ra 
+att minskningen ska v&#228;gras. F&#246;rordning (2019:1037).
+
+39 &#167; Om det direkt eller indirekt sker n&#229;gon v&#228;sentlig 
+f&#246;r&#228;ndring i &#228;gander&#228;tten till den r&#246;relse som 
+investeringsbidraget har beviljats f&#246;r, ska regionen ompr&#246;va 
+bidragsfr&#229;gan. Regionen kan d&#229;
+
+1. medge att bidraget &#246;vertas med of&#246;r&#228;ndrade villkor av den 
+nya &#228;garen, om denna styrker att syftet med bidraget inte 
+f&#246;rfelas genom &#228;ndringen,
+
+2. helt eller delvis omvandla den del av bidraget som vid 
+tidpunkten f&#246;r f&#246;r&#228;ndringen kan &#229;terkr&#228;vas enligt 36-38 &#167;&#167; 
+till ett l&#229;n med villkor som anges i beslutet, eller
+
+3. helt eller delvis kr&#228;va att den del av bidraget som kan 
+&#229;terkr&#228;vas betalas tillbaka. F&#246;rordning (2019:1037).
+
+40 &#167; Beslut om investeringsbidrag skall inneh&#229;lla upplysningar
+om best&#228;mmelserna i 35-39 &#167;&#167;.
+
+&#214;verklagande
+
+41 &#167; I 40 &#167; f&#246;rvaltningslagen (2017:900) finns best&#228;mmelser om 
+&#246;verklagande till allm&#228;n f&#246;rvaltningsdomstol. Andra beslut &#228;n 
+regionens beslut enligt 32 a &#167; att inte betala ut ett st&#246;d f&#229;r 
+dock inte &#246;verklagas. F&#246;rordning (2019:1037).
+
+Ytterligare f&#246;reskrifter
+
+42 &#167; Tillv&#228;xtverket f&#229;r meddela de f&#246;reskrifter som beh&#246;vs f&#246;r
+verkst&#228;lligheten av denna f&#246;rordning. F&#246;rordning (2009:156).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+2000:284
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juni 2000.
+
+2. Den upph&#228;vda f&#246;rordningen (1994:577) om landsbygdsst&#246;d och
+st&#246;d till kommersiell service g&#228;ller dock fortfarande f&#246;r
+ans&#246;kningar som kommit in till l&#228;nsstyrelsen eller det
+regionala sj&#228;lvstyrelseorganet f&#246;re den 1 juni 2000.
+
+2018:150
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 19 april 2018.
+
+2. F&#246;rordningen till&#228;mpas dock f&#246;r tid fr&#229;n och med den 1 
+januari 2018.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2707">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2709">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,881 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2013-08-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3980</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3979">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3981">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1979:57 ·
+                    <a href="/sfsr?bet=1979:57">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1979:57) om dubbelbeskattningsavtal mellan Sverige och Rum&#228;nien</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S3
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1979-02-08
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> F&#246;rfattningen har 3 bilagor. Endast bilaga 3 &#228;r med h&#228;r.
+
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+Det avtal f&#246;r att undvika dubbelbeskattning betr&#228;ffande skatter p&#229;
+inkomst och f&#246;rm&#246;genhet som Sverige och Rum&#228;nien undertecknade den 22
+december 1976 skall tillsammans med det protokoll, som &#228;r fogat till
+avtalet, l&#228;nda till efterr&#228;ttelse f&#246;r Sveriges del. Avtalets och
+protokollets inneh&#229;ll framg&#229;r av bilaga 1 och 2 till denna f&#246;rordning.
+
+Vid till&#228;mpning av avtalet och protokollet skall iakttas de
+anvisningar som &#228;r fogade till f&#246;rordningen som bilaga 3.
+
+
+Bilaga 3
+
+Anvisningar
+
+A. Allm&#228;nna anvisningar
+
+Fr&#229;gan huruvida och i vilken omfattning en person &#228;r skattskyldig i
+Sverige avg&#246;rs i f&#246;rsta hand med ledning av de svenska
+skattef&#246;rfattningarna. Om enligt dessa f&#246;rfattningar skattskyldighet
+inte f&#246;religger, kan s&#229;dan ej heller intr&#228;da p&#229; grund av avtalet. I
+den m&#229;n avtalet inneb&#228;r inskr&#228;nkning av den skattskyldighet i Sverige,
+som f&#246;reskrivs i de svenska skattef&#246;rfattningarna, skall avtalet
+d&#228;remot l&#228;nda till efterr&#228;ttelse.
+
+&#196;ven om enligt avtalet skattskyldigs inkomst eller f&#246;rm&#246;genhet helt
+eller delvis skall vara undantagen fr&#229;n beskattning i Sverige, skall
+den skattskyldige l&#228;mna alla de uppgifter till ledning f&#246;r taxeringen
+som han annars varit skyldig att l&#228;mna.
+
+Om skattskyldig kan visa att &#229;tg&#228;rd som beskattningsmyndighet eller
+domstol vidtagit har medf&#246;rt eller kommer att medf&#246;ra beskattning som
+strider mot avtalets best&#228;mmelser, f&#229;r han enligt  art. 27 punkt 1
+g&#246;ra framst&#228;llning om r&#228;ttelse. S&#229;dan framst&#228;llning g&#246;rs hos
+regeringen och b&#246;r inges snarast m&#246;jligt efter det den skattskyldige
+erh&#246;ll k&#228;nnedom om den avtalsstridiga beskattningen.
+
+S&#229;dan pr&#246;vning av avtalets till&#228;mpning som avses i f&#246;reg&#229;ende stycke
+kan p&#229;kallas av fysisk person, som &#228;r bosatt eller stadigvarande
+vistas i Sverige samt av svensk juridisk person.
+
+De flesta inkomstslagen &#228;r s&#228;rskilt behandlade i avtalet. N&#229;gra
+speciella arter av inkomst - t.ex. vissa slag av periodiskt underst&#246;d
+- &#228;r dock ej n&#228;mnda i avtalet. I s&#229;dana fall till&#228;mpas art. 23.
+
+Vissa slag av f&#246;rm&#246;genhet &#228;r s&#228;rskilt behandlade i art. 24 punkterna
+1-3. I &#246;vrigt sker beskattningen enligt art. 24 punkt 4. Jfr &#228;ven
+art. 25.
+
+B. S&#228;rskilda anvisningar
+
+till art. 1 och 4.
+
+Avtalets best&#228;mmelser &#228;r i allm&#228;nhet till&#228;mpliga endast p&#229; fysiska
+och juridiska personer som har hemvist i Sverige eller Rum&#228;nien.
+
+Huruvida fysisk eller juridisk person skall anses ha hemvist i endera
+staten avg&#246;rs i f&#246;rsta hand med ledning av lagstiftningen i denna
+stat. I art. 4 punkterna 2 och 3 regleras fall av s.k. dubbel
+bos&#228;ttning, dvs. fall d&#228;r den skattskyldige enligt svenska
+beskattningsregler anses bosatt i Sverige och enligt rum&#228;nska
+beskattningsregler anses bosatt i Rum&#228;nien. Vid till&#228;mpningen av
+avtalet skall i s&#229;dana fall den skattskyldige anses ha hemvist endast
+i den avtalsslutande stat i vilken han har hemvist enligt n&#228;mnda
+avtalsbest&#228;mmelser.
+
+Person, som avses i 69 &#167; kommunalskattelagen (1928:370), 17 &#167; lagen
+(1947:576) om statlig inkomstskatt och 17 &#167; lagen (1947:577) om
+statlig f&#246;rm&#246;genhetsskatt, skall vid till&#228;mpning av art. 4 anses
+bosatt i Sverige, s&#229;vitt fr&#229;ga &#228;r om svensk beskickning eller l&#246;nat
+svenskt konsulat i Rum&#228;nien.
+
+Person, som avses i 70 &#167; 1 mom. kommunalskattelagen (1928:370), 18 &#167; 1
+mom. lagen (1947:576) om statlig inkomstskatt och 18 &#167; lagen (1947:577)
+om statlig f&#246;rm&#246;genhetsskatt, skall vid till&#228;mpning av art. 4 anses
+bosatt i Rum&#228;nien, s&#229;vitt fr&#229;ga &#228;r om rum&#228;nsk beskickning eller l&#246;nat
+rum&#228;nskt konsulat i Sverige.
+
+till art. 2.
+
+Avtalet g&#228;ller de skatter som anges i art. 2. Ang&#229;ende annan
+beskattning se dock art. 26 punkt 5.
+
+till art. 6.
+
+Enligt svensk skattelagstiftning beskattas inkomst som h&#228;rr&#246;r fr&#229;n
+fastighet i vissa fall som inkomst av r&#246;relse /jfr bl.a. 27 &#167;
+kommunalskattelagen (1928:370)/. Inkomst som omfattas av art. 6
+beskattas emellertid alltid i den stat d&#228;r fastigheten &#228;r bel&#228;gen.
+Denna regel g&#228;ller &#228;ven betr&#228;ffande royalty fr&#229;n fastighet eller f&#246;r
+nyttjandet av eller r&#228;tten att nyttja gruva, k&#228;lla eller annan
+naturtillg&#229;ng.
+
+Annan royalty beskattas enligt art. 13.
+
+till art. 7.
+
+Inkomst av r&#246;relse, som bedrivs fr&#229;n fast driftst&#228;lle, beskattas i
+regel enligt art. 7. Vad som f&#246;rst&#229;s med uttrycket &quot;fast driftst&#228;lle&quot;
+anges i art. 5.
+
+Om fysisk eller juridisk person med hemvist i Sverige bedriver r&#246;relse
+fr&#229;n fast driftst&#228;lle i Rum&#228;nien, f&#229;r den till verksamheten vid
+driftst&#228;llet h&#228;nf&#246;rliga inkomsten beskattas i Sverige men rum&#228;nsk
+skatt p&#229; inkomsten avr&#228;knas fr&#229;n den svenska skatten enligt art. 25
+punkterna 1 och 3. I fr&#229;ga om avr&#228;kning i vissa fall av rum&#228;nsk skatt
+som eftergivits (art. 25 punkt 2) samt f&#246;rfarandet vid avr&#228;kningen
+h&#228;nvisas till anvisningspunkten 2 till art. 25.
+
+Inkomst av r&#246;relse, som fysisk eller juridisk person med hemvist i
+Rum&#228;nien bedriver fr&#229;n fast driftst&#228;lle i Sverige, ber&#228;knas enligt
+art. 7 punkterna 2 och 3. Till grund f&#246;r inkomstber&#228;kningen b&#246;r l&#228;ggas
+i f&#246;rsta hand den s&#228;rskilda bokf&#246;ring som kan ha f&#246;rts vid det fasta
+driftst&#228;llet. I m&#229;n av behov skall denna bokf&#246;ring justeras s&#229; att
+inkomstber&#228;kningen sker i enlighet med den i n&#228;mnda best&#228;mmelser
+angivna principen. Avdrag medges f&#246;r s&#229; stor del av huvudkontorets
+allm&#228;nna omkostnader som sk&#228;ligen kan anses bel&#246;pa p&#229; det fasta
+driftst&#228;llet.
+
+Om inkomst av internationella transporter finns s&#228;rskilda best&#228;mmelser
+i art. 8.
+
+till art. 8.
+
+Inkomst av sj&#246;fart, luftfart, j&#228;rnv&#228;gs- eller landsv&#228;gstransport i
+internationell trafik beskattas enligt art. 8 punkt 1 endast i den
+stat d&#228;r f&#246;retaget har sin verkliga ledning.
+
+till art. 9.
+
+Art. 9 inneh&#229;ller en allm&#228;n regel om omr&#228;kning av vinstf&#246;rdelningen
+mellan koncernf&#246;retag. F&#246;r Sveriges del kan omr&#228;kning vid taxering
+ske enligt 43 &#167; 1 mom. kommunalskattelagen (1928:370).
+
+&#196;ger s&#229;dan omr&#228;kning rum mellan f&#246;retag i Sverige och Rum&#228;nien, skall
+skattechefen anm&#228;la detta till regeringen och i korthet redog&#246;ra f&#246;r
+vad som f&#246;rekommit.
+
+till art. 10.
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;utdelning&quot; anges i art. 10 punkt 3.
+
+2. N&#228;r fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Rum&#228;nien och utdelningen inte &#228;r
+h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med fast driftst&#228;lle
+som den utdelningsber&#228;ttigade har i Rum&#228;nien, iakttas best&#228;mmelserna i
+andra och tredje styckena.
+
+Om utdelningen uppb&#228;rs av aktiebolag eller ekonomisk f&#246;rening, &#228;r
+utdelningen undantagen fr&#229;n beskattning i Sverige i den m&#229;n art. 10
+punkt 4 f&#246;ranleder det. De svenska best&#228;mmelserna om befrielse fr&#229;n
+skattskyldighet f&#246;r utdelning som avses i art. 10 punkt 4 finns i 54 &#167;
+kommunalskattelagen (1928:370) och 7 &#167; lagen (1947:576) om statlig
+inkomstskatt. Fr&#229;gan om avdrag f&#246;r r&#228;nta p&#229; skuld, som bel&#246;per p&#229;
+aktier eller andelar i det rum&#228;nska bolaget, bed&#246;ms vid till&#228;mpningen
+av 39 &#167; 1 mom. kommunalskattelagen (1928:370) som om utdelning, f&#246;r
+vilken skattefrihet &#229;tnjuts enligt avtalet, hade undantagits fr&#229;n
+skatteplikt enligt 54 &#167; samma lag.
+
+I &#246;vriga fall ber&#228;knas svensk skatt p&#229; utdelningens bruttobelopp utan
+avdrag f&#246;r rum&#228;nsk skatt. Avdrag medges dock i vanlig ordning f&#246;r
+f&#246;rvaltningskostnader och r&#228;nta p&#229; skuld som bel&#246;per p&#229; utdelningen.
+Svensk skatt p&#229; utdelningen neds&#228;tts enligt art. 25 punkterna 1 och 3
+genom avr&#228;kning av rum&#228;nsk skatt som uttagits enligt art. 10 punkt 2.
+Den rum&#228;nska skatten f&#229;r d&#228;rvid inte &#246;verstiga 10 % av utdelningens
+bruttobelopp. I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till
+anvisningspunkten 2 till art. 25.
+
+3. N&#228;r fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Rum&#228;nien och utdelningen &#228;r
+h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med fast driftst&#228;lle
+som den utdelningsber&#228;ttigade har i Rum&#228;nien, till&#228;mpas art. 7.
+Utdelningen skall, om inte annat g&#228;ller p&#229; grund av art. 10 punkt 4, i
+detta fall beskattas i Sverige men rum&#228;nsk skatt p&#229; utdelningen
+avr&#228;knas fr&#229;n den svenska skatten enligt art. 25 punkterna 1 och 3. I
+fr&#229;ga om avr&#228;kning i vissa fall av rum&#228;nsk skatt som eftergivits (art.
+25 punkt 2) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till
+anvisningspunkten 2 till art. 25.
+
+4. N&#228;r aktiebolag i Sverige verkst&#228;ller utdelning till fysisk eller
+juridisk person med hemvist i Rum&#228;nien och utdelningen inte &#228;r
+h&#228;nf&#246;rlig till andel som &#228;ger verkligt samband med fast driftst&#228;lle
+som den utdelningsber&#228;ttigade har i Sverige, uttages kupongskatt med
+10 % av utdelningens bruttobelopp. Utdelning fr&#229;n svensk ekonomisk
+f&#246;rening beskattas i s&#229;dant fall enligt 6 &#167; 1 mom. a eller c lagen
+(1947:576) om statlig inkomstskatt men den statliga inkomstskatten f&#229;r
+inte &#246;verstiga 10 % av utdelningens bruttobelopp. Vid taxering till
+statlig inkomstskatt f&#246;r utdelning fr&#229;n svensk ekonomisk f&#246;rening
+skall taxeringsn&#228;mnd i deklaration anteckna de uppgifter som beh&#246;vs
+f&#246;r debitering. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning
+f&#246;rs &#246;ver till inkomst- och debiteringsl&#228;ngderna.
+
+Ang&#229;ende f&#246;rfarandet vid neds&#228;ttning av svensk skatt p&#229; utdelning
+till&#228;mpas i &#246;vrigt s&#228;rskilda best&#228;mmelser.
+
+Om den utdelningsber&#228;ttigade har fast driftst&#228;lle i Sverige och
+utdelningen &#228;r h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med det
+fasta driftst&#228;llet, till&#228;mpas art. 7. I s&#229;dant fall g&#228;ller inte ovan
+angivna regler om begr&#228;nsning av svensk skatt p&#229; utdelning.
+
+till art. 11.
+
+1. R&#228;nta som utbetalas fr&#229;n Rum&#228;nien till fysisk eller juridisk
+person med hemvist i Sverige beskattas h&#228;r.
+
+&#196;r r&#228;ntan inte h&#228;nf&#246;rlig till fordran som &#228;ger verkligt samband med
+fast driftst&#228;lle som inkomsttagaren har i Rum&#228;nien, ber&#228;knas svensk
+skatt p&#229; r&#228;ntans bruttobelopp utan avdrag f&#246;r rum&#228;nsk skatt. Avdrag
+medges dock i vanlig ordning f&#246;r f&#246;rvaltningskostnader etc. Svensk
+skatt p&#229; r&#228;ntan neds&#228;tts enligt art. 25 punkterna 1 och 3 genom
+avr&#228;kning av rum&#228;nsk skatt, som uttagits enligt art. 11 punkt 2. Den
+rum&#228;nska skatten f&#229;r d&#228;rvid inte &#246;verstiga 10% av r&#228;ntans belopp. I
+fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2
+till art. 25.
+
+&#196;r r&#228;ntan h&#228;nf&#246;rlig till fordran som &#228;ger verkligt samband med fast
+driftst&#228;lle som inkomsttagaren har i Rum&#228;nien, till&#228;mpas art. 7.
+Rum&#228;nsk skatt p&#229; r&#228;ntan avr&#228;knas i s&#229;dant fall fr&#229;n den svenska
+skatten enligt art. 25 punkterna 1 och 3. I fr&#229;ga om avr&#228;kning i vissa
+fall av rum&#228;nsk skatt som eftergivits (art. 25 punkt 2) samt
+f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 25.
+
+2. R&#228;nta, som utbetalas fr&#229;n Sverige till  fysisk eller juridisk
+person med hemvist i Rum&#228;nien, kan enligt g&#228;llande skattef&#246;rfattningar
+inte beskattas  i Sverige. Detta g&#228;ller dock endast betr&#228;ffande r&#228;nta
+som utg&#246;r inkomst i f&#246;rv&#228;rvsk&#228;llan kapital. &#196;r r&#228;ntan att h&#228;nf&#246;ra till
+inkomst av r&#246;relse /jfr. punkt 2 av anvisningarna till 28 &#167;
+kommunalskattelagen (1928:370)/, beskattas r&#228;ntan i Sverige, under
+f&#246;ruts&#228;ttning att r&#228;ntan &#228;r h&#228;nf&#246;rlig till fordran, som &#228;ger verkligt
+samband med fast driftst&#228;lle eller stadigvarande anordning som
+inkomsttagaren har i Sverige.
+
+till art. 12.
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;provision&quot; anges  i art. 12 punkt 3.
+
+2. Provision, som utbetalas fr&#229;n Rum&#228;nien till fysisk eller juridisk
+person med hemvist i Sverige, beskattas h&#228;r.
+
+Har den verksamhet som ger upphov till provisionen inte verkligt
+samband med fast driftst&#228;lle som inkomsttagaren har i Rum&#228;nien,
+ber&#228;knas svensk skatt p&#229; provisionens bruttobelopp utan avdrag f&#246;r
+rum&#228;nsk skatt. Avdrag medges dock i vanlig ordning f&#246;r kostnader.
+Svensk skatt p&#229; provisionen neds&#228;tts enligt art. 25 punkterna 1 och 3
+genom avr&#228;kning av rum&#228;nsk skatt, som uttagits enligt art. 12 punkt 2.
+Den rum&#228;nska skatten f&#229;r d&#228;rvid inte &#246;verstiga 10 % av provisionens
+belopp efter avdrag f&#246;r kostnader h&#228;nf&#246;rliga till den utbetalade
+provisionen. S&#229;dant avdrag skall enligt det till avtalet fogade
+protokollet medges med ett belopp motsvarande 50% av provisionens
+bruttobelopp. I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till
+anvisningspunkten 2 till art. 25.
+
+Har den verksamhet som ger upphov till provisionen verkligt samband
+med fast driftst&#228;lle som inkomsttagaren har i Rum&#228;nien, till&#228;mpas art.
+7. Rum&#228;nsk skatt p&#229; provisionen avr&#228;knas i s&#229;dant fall fr&#229;n den
+svenska skatten enligt art. 25 punkterna 1 och 3. I fr&#229;ga om
+avr&#228;kning i vissa fall av rum&#228;nsk skatt som eftergivits (art. 25 punkt
+2) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2
+till art. 25.
+
+3. Provision, som utbetalas fr&#229;n Sverige till fysisk eller juridisk
+person med hemvist i Rum&#228;nien, beskattas i Sverige, om det kan ske
+enligt g&#228;llande beskattningsregler. Om inte fall som avses i art. 12
+punkt 4 f&#246;religger, f&#229;r emellertid summan av den  statliga och
+kommunala inkomstskatt som bel&#246;per p&#229; provisionen enligt art. 12 punkt
+2 inte &#246;verstiga 10 % av provisionens  belopp. Vid till&#228;mpningen av
+denna maximeringsregel iakttas best&#228;mmelserna i f&#246;ljande stycke.
+
+Vid ber&#228;kning av det belopp som f&#229;r beskattas skall avdrag i vanlig
+ordning medges f&#246;r kostnader h&#228;nf&#246;rliga till den utbetalade
+provisionen. F&#246;r det fall att dessa kostnader understiger 50 % av
+provisionens bruttobelopp skall s&#229;dant avdrag enligt det till avtalet
+fogade protokollet &#228;ndock medges med ett belopp motsvarande 50 % av
+provisionens bruttobelopp. Om inkomsttagaren uppb&#228;r &#228;ven annan inkomst
+fr&#229;n Sverige &#228;n provisionen, anses p&#229; provisionen bel&#246;pa s&#229; stor andel
+av hela den statliga inkomstskatten som provisionen - efter avdrag f&#246;r
+kostnader som nyss angivits - utg&#246;r av inkomsttagarens sammanlagda
+inkomst av olika f&#246;rv&#228;rvsk&#228;llor. Taxeringsn&#228;mnd skall i deklaration
+anteckna provisionens bruttobelopp och i f&#246;rekommande fall den nyss
+angivna delen av den statliga inkomstskatten samt ange dels att summan
+av den enligt allm&#228;nna regler utr&#228;knade och p&#229; provisionen bel&#246;pande
+statliga och kommunala inkomstskatten skall, om den &#246;verstiger 10 % av
+provisionens belopp, neds&#228;ttas med det &#246;verskjutande beloppet, dels
+att den kommunala inkomstskatten f&#229;r nedbringas endast i den m&#229;n det
+&#246;verskjutande beloppet &#246;verstiger den statliga inkomstskatten.
+L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning f&#246;rs &#246;ver till
+inkomst- och debiteringsl&#228;ngderna.
+
+Exempel: En person med hemvist i Rum&#228;nien uppb&#228;r provision fr&#229;n Sverige
+med ett bruttobelopp av 10000 kronor. Till provisionen h&#228;nf&#246;rliga
+kostnader uppg&#229;r till 5000 kronor. Den skattskyldige antas vidare
+uppb&#228;ra i Sverige skattepliktig nettoint&#228;kt av andra f&#246;rv&#228;rvsk&#228;llor
+med ett belopp av 10000 kronor och vid taxeringen till statlig
+inkomstskatt &#229;tnjuta allm&#228;nna avdrag med 1000 kronor. Den till statlig
+inkomstskatt taxerade inkomsten blir s&#229;lunda (5000-10000-10006)
+14000 kronor. I deklarationen antecknas: &quot;Enligt avtalet med
+Rum&#228;nien skall den statliga resp. den kommunala inkomstskatten
+neds&#228;ttas med det belopp varmed summan av   5000   av hela
+                                           15000
+den statliga inkomstskatten och den kommunala inkomstskatt,
+som bel&#246;per p&#229; 5000 kronor, &#246;verstiger 10% av 5000 kronor. Den
+kommunala inkomstskatten f&#229;r nedbringas endast i den m&#229;n det
+&#246;verskjutande beloppet &#246;verstiger  5000   av hela den statliga
+                                  1500
+inkomstskatten.&quot;
+
+till art. 13.
+
+1. Betr&#228;ffande beskattning av s&#229;dan royalty som avses i art. 13 punkt
+3 g&#228;ller f&#246;ljande.
+
+Royalty, som utbetalas fr&#229;n Rum&#228;nien till fysisk eller juridisk person
+med hemvist i Sverige, beskattas h&#228;r.
+
+&#196;r royaltyn inte h&#228;nf&#246;rlig till r&#228;tt eller egendom, som &#228;ger verkligt
+samband med fast driftst&#228;lle som inkomsttagaren har i Rum&#228;nien,
+ber&#228;knas svensk skatt p&#229; royaltyns bruttobelopp utan avdrag f&#246;r
+rum&#228;nsk skatt. Avdrag medges dock i vanlig ordning f&#246;r kostnader.
+Svensk skatt p&#229; royaltyn neds&#228;tts enligt art. 25 punkterna 1 och 3
+genom avr&#228;kning av rum&#228;nsk skatt som uttagits enligt art. 13 punkt 2.
+Denna skatt f&#229;r inte &#246;verstiga 10 % av royaltyns bruttobelopp.
+
+&#196;r royaltyn h&#228;nf&#246;rlig till r&#228;tt eller egendom, som &#228;ger verkligt
+samband med fast driftst&#228;lle som inkomsttagaren har i Rum&#228;nien,
+till&#228;mpas art. 7. Rum&#228;nsk skatt p&#229; royaltyn avr&#228;knas i s&#229;dant fall
+fr&#229;n den svenska skatten enligt art. 25 punkterna 1 och 3. I fr&#229;ga om
+avr&#228;kning i vissa fall av rum&#228;nsk skatt som eftergivits (art. 25
+punkt 2) samt f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till
+anvisningspunkten 2 till art. 25.
+
+Royalty, som utbetalas fr&#229;n Sverige till fysisk eller juridisk person
+med hemvist i Rum&#228;nien, beskattas i Sverige enligt 28 &#167; 1 mom. tredje
+stycket och punkt 3 av anvisningarna till 53 &#167; kommunalskattelagen
+(1928:370) j&#228;mf&#246;rt med 2 och 3 &#167;&#167; lagen (1947:576) om statlig
+inkomstskatt. Om inte fall som avses i art. 13 punkt 4 f&#246;religger,
+f&#229;r emellertid summan av den statliga och kommunala inkomstskatt som
+bel&#246;per p&#229; royaltyn enligt art. 13 punkt 2 inte &#246;verstiga 10 % av
+royaltyns bruttobelopp. Vid till&#228;mpningen av denna maximeringsregel
+iakttas best&#228;mmelserna i f&#246;ljande stycke.
+
+Om inkomsttagaren uppb&#228;r &#228;ven annan inkomst fr&#229;n Sverige &#228;n royaltyn,
+anses p&#229; royaltyn bel&#246;pa s&#229; stor andel av hela den statliga
+inkomstskatten som royaltyn - efter avdrag f&#246;r kostnader som &#228;r
+h&#228;nf&#246;rliga till royaltyn - utg&#246;r av inkomsttagarens sammanlagda
+inkomst av olika f&#246;rv&#228;rvsk&#228;llor. Taxeringsn&#228;mnd skall i deklaration
+anteckna royaltyns bruttobelopp och i f&#246;rekommande fall den nyss
+angivna delen av den statliga inkomstskatten samt ange dels att summan
+av den enligt allm&#228;nna regler utr&#228;knade och p&#229; royaltyn bel&#246;pande
+statliga och kommunala inkomstskatten skall, om den &#246;verstiger 10 % av
+royaltyns bruttobelopp, neds&#228;ttas med det &#246;verskjutande beloppet, dels
+att den kommunala inkomstskatten f&#229;r nedbringas endast i den m&#229;n det
+&#246;verskjutande beloppet &#246;verstiger den statliga inkomstskatten.
+L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning f&#246;rs &#246;ver till
+inkomst- och debiteringsl&#228;ngderna.
+
+Exempel:* En person med hemvist i Rum&#228;nien uppb&#228;r royalty fr&#229;n Sverige
+med ett bruttobelopp av 10000 kronor. Till royaltyn h&#228;nf&#246;rliga avdrags-
+gilla kostnader uppg&#229;r till 500 kronor. Den skattskyldige antas vidare
+uppb&#228;ra i Sverige skattepliktig nettoint&#228;kt av andra f&#246;rv&#228;rvsk&#228;llor
+med ett belopp av 5000 kronor och vid taxeringen till statlig
+inkomstskatt &#229;tnjuta allm&#228;nna avdrag med 1000 kronor. Den till statlig
+inkomstskatt taxerade inkomsten blir s&#229;lunda (9500-5000-10006)
+13500 kronor. I deklarationen antecknas: &quot;Enligt avtalet med Rum&#228;nien
+skall den statliga resp. den kommunala inkomstskatten neds&#228;ttas med
+det belopp varmed summan av   9500   av hela den statliga
+                             14500
+inkomstskatten och den kommunala inkomstskatt, som bel&#246;per p&#229; 9500
+kronor, &#246;verstiger 10 % av 10000 kronor. Den kommunala inkomstskatten f&#229;r
+nedbringas endast i den m&#229;n det &#246;verskjutande beloppet &#246;verstiger 9500
+                                                                 14500
+av hela den statliga inkomstskatten.&quot;
+
+
+2. Royalty eller annat belopp, som utbetalas s&#229;som ers&#228;ttning f&#246;r
+nyttjandet av gruva, k&#228;lla eller annan naturtillg&#229;ng, beskattas enligt
+art. 6.
+
+till art. 14.
+
+Vinst, som fysisk eller juridisk person med hemvist i Rum&#228;nien f&#246;rv&#228;rvar
+genom avyttring av fastighet i Sverige eller aktier i bolag vars
+v&#228;sentliga tillg&#229;ng utg&#246;rs av h&#228;r bel&#228;gen fastighet, beskattas h&#228;r.
+De svenska best&#228;mmelserna om beskattning av vinst genom avyttring
+av aktier i bolag som avses i art. 14 punkt 1 finns i  35 &#167; 3 mom.
+sjunde stycket kommunalskattelagen (1928:370). Enligt art. 14
+punkt 4 f&#229;r vidare svensk skatt under vissa f&#246;ruts&#228;ttningar uttagas
+&#228;ven p&#229; vinst som f&#246;rv&#228;rvas av fysisk eller juridisk person med hemvist
+i Rum&#228;nien genom avyttring av aktier i svenskt bolag. Slutligen
+beskattas i Sverige vinst genom icke yrkesm&#228;ssig avyttring av l&#246;s
+egendom som utg&#246;r anl&#228;ggnings- eller driftkapital i fast driftst&#228;lle,
+som inkomsttagaren har h&#228;r. Motsvarande g&#228;ller i fr&#229;ga om l&#246;s egendom,
+som ing&#229;r i en i Sverige bel&#228;gen stadigvarande anordning f&#246;r ut&#246;vande
+av fritt yrke.
+
+Realisationsvinst, som f&#246;rv&#228;rvas av fysisk eller juridisk person med
+hemvist i Sverige, beskattas h&#228;r, om inte annat f&#246;ljer av sista
+meningen av art. 14 punkt 2. Enligt art. 14 punkt 1 f&#229;r rum&#228;nsk skatt
+uttagas p&#229; realisationsvinsten, om den avyttrade egendomen utg&#246;rs av
+fastighet bel&#228;gen i Rum&#228;nien eller aktier i bolag  vars v&#228;sentliga
+tillg&#229;ng utg&#246;rs av d&#228;r bel&#228;gen fastighet. Motsvarande g&#228;ller enligt
+art. 14 punkt 2 i fr&#229;ga om l&#246;s egendom som utg&#246;r anl&#228;ggnings- eller
+driftkapital i fast driftst&#228;lle, som inkomsttagaren har i Rum&#228;nien,
+eller l&#246;s egendom h&#228;nf&#246;rlig till stadigvarande anordning f&#246;r ut&#246;vande
+av fritt yrke, vilken inkomsttagaren har i Rum&#228;nien. Vidare f&#229;r
+rum&#228;nsk skatt under de f&#246;ruts&#228;ttningar som anges i art. 14 punkt 4
+uttagas p&#229; vinst som f&#246;rv&#228;rvas av fysisk eller juridisk person med
+hemvist i Sverige genom avyttring av aktier i rum&#228;nskt bolag.
+
+Svensk skatt p&#229; realisationsvinsten neds&#228;tts enligt art. 25 punkterna
+1 och 3 genom avr&#228;kning av den rum&#228;nska skatt som har p&#229;f&#246;rts samma
+vinst. I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till
+anvisningspunkten 2 till art. 25.
+
+till art. 15
+
+ 1. Vad som f&#246;rst&#229;s med uttrycket &quot;fritt yrke&quot; anges i art. 15 punkt 2.
+
+2. Inkomst av fritt yrke beskattas i regel endast i den stat d&#228;r den
+skattskyldige har hemvist. &#196;r inkomsten h&#228;nf&#246;rlig till verksamhet, som
+ut&#246;vas vid s&#229;dan stadigvarande anordning som avses i art. 15 punkt 1
+eller ut&#246;vas verksamheten under mer &#228;n 183 dagar av beskattnings&#229;ret i
+den andra staten, f&#229;r inkomsten beskattas i den stat d&#228;r anordningen
+finns eller d&#228;r verksamheten annars ut&#246;vas.
+
+Om person med hemvist i Sverige f&#246;rv&#228;rvar inkomst av fritt yrke genom
+verksamhet vid stadigvarande anordning i Rum&#228;nien eller genom
+verksamhet d&#228;r under mer &#228;n 183 dagar av beskattnings&#229;ret, f&#229;r
+inkomsten beskattas i Sverige men rum&#228;nsk skatt p&#229; samma inkomst
+avr&#228;knas fr&#229;n den svenska skatten enligt art. 25 punkterna 1 och 3. I
+fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2
+till art. 25.
+
+3. Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av sk&#229;despelare,
+musiker m.fl. se anvisningarna till art. 18.
+
+till art. 16.
+
+Inkomst av enskild tj&#228;nst f&#229;r enligt art. 16 punkt 1 i regel
+beskattas i den stat d&#228;r arbetet utf&#246;rs. Undantag fr&#229;n denna regel
+f&#246;reskrivs i art. 16 punkterna 2 och 3, art. 17, art. 18 punkt 3 samt
+art. 21 och 22.
+
+Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av sk&#229;despelare,
+musiker m.fl. se anvisningarna till art. 18.
+
+till art. 17.
+
+N&#228;r svenskt bolag utbetalar styrelsearvode till person med hemvist i
+Rum&#228;nien, beskattas ers&#228;ttningen i Sverige, om det kan ske enligt
+g&#228;llande beskattningsregler. Har s&#229;dan ers&#228;ttning uppburits av person
+med hemvist i Sverige fr&#229;n bolag med hemvist i Rum&#228;nien, f&#229;r inkomsten
+beskattas i Sverige men rum&#228;nsk skatt p&#229; inkomsten avr&#228;knas fr&#229;n den
+svenska skatten enligt art. 25 punkterna 1 och 3. I fr&#229;ga om
+f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 25.
+
+till art. 18.
+
+Inkomst, som teater- eller filmsk&#229;despelare, radio- eller
+televisionsartister, musiker och liknande yrkesut&#246;vare samt
+professionella idrottsm&#228;n f&#246;rv&#228;rvar genom sin yrkesverksamhet,
+beskattas i regel i den stat d&#228;r verksamheten ut&#246;vas (art. 18 punkt
+1). Detta g&#228;ller oavsett om inkomsten f&#246;rv&#228;rvas under ut&#246;vande av
+fritt yrke eller p&#229; grund av anst&#228;llning. Enligt art. 18 punkt 2 f&#229;r
+inkomsten i regel beskattas i den stat d&#228;r artisten eller
+idrottsmannen utf&#246;r arbetet, &#228;ven om ers&#228;ttningen utbetalas till annan
+person (t.ex. arbetsgivare hos vilken artisten &#228;r anst&#228;lld) &#228;n
+artisten eller idrottsmannen sj&#228;lv. Best&#228;mmelserna i art. 18 punkterna
+1 och 2 till&#228;mpas inte i fall som avses i art. 18 punkt 3. F&#246;r
+Sveriges vidkommande iakttas vid till&#228;mpningen av art. 18 punkterna 1
+och 2 best&#228;mmelserna i 54 &#167; f&#246;rsta stycket c kommunalskattelagen
+(1928:370) och 7 &#167; f&#246;rsta stycket b lagen (1947:576) om statlig
+inkomstskatt.
+
+till art. 19.
+
+Pension p&#229; grund av enskild tj&#228;nst samt livr&#228;nta beskattas i  regel
+endast i inkomsttagarens hemviststat (art. 19 punkterna 1 och 3).
+
+Pension och annan utbetalning enligt svensk socialf&#246;rs&#228;kringslag
+stiftning till person med hemvist i Rum&#228;nien f&#229;r enligt art. 19 punkt
+2 beskattas h&#228;r.
+
+Person med hemvist i Sverige, som uppb&#228;r utbetalning enligt rum&#228;nsk
+socialf&#246;rs&#228;kringslagstiftning, beskattas i Sverige f&#246;r s&#229;dan
+utbetalning men rum&#228;nsk skatt p&#229; inkomsten avr&#228;knas fr&#229;n den svenska
+skatten p&#229; inkomsten enligt art. 25 punkterna 1 och 3. I fr&#229;ga om
+f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 25.
+
+till art. 20.
+
+Ers&#228;ttning, med undantag f&#246;r pension, som utbetalas av n&#229;gon av
+staterna, dess administrativa underavdelningar eller lokala
+myndigheter f&#246;r arbete utf&#246;rt i allm&#228;n tj&#228;nst beskattas enligt
+huvudregeln i art. 20 punkt 1 a endast i den stat varifr&#229;n
+ers&#228;ttningen utbetalas. Har arbetet utf&#246;rts i den andra staten av
+person med hemvist i denna stat, beskattas emellertid ers&#228;ttningen
+enligt art. 20 punkt 1 b endast i den staten, om mottagaren &#228;r
+medborgare i den staten eller inte har hemvist d&#228;r endast f&#246;r att
+utf&#246;ra ifr&#229;gavarande arbete.
+
+Pension, som utbetalas av - eller fr&#229;n fonder inr&#228;ttade av - en av
+staterna, dess administrativa underavdelningar eller lokala
+myndigheter p&#229; grund av allm&#228;n tj&#228;nst, beskattas enligt art. 20 punkt
+2 a i regel endast i denna stat. Om mottagaren av pensionen &#228;r
+medborgare i den andra staten och har hemvist d&#228;r, beskattas
+emellertid pensionen enligt art. 20 punkt 2 b endast i denna stat.
+
+Ers&#228;ttning (inkl. pension), som utbetalas f&#246;r tj&#228;nst utf&#246;rd i samband
+med r&#246;relse, som den utbetalande staten, dess administrativa
+underavdelningar eller lokala myndigheter bedrivit, beskattas som
+inkomst p&#229; grund av enskild tj&#228;nst enligt art. 16, 17 och 19.
+
+till art. 25.
+
+1. Inkomst fr&#229;n Sverige beskattas h&#228;r i den m&#229;n svenska
+skattef&#246;rfattningar f&#246;ranleder det och inskr&#228;nkning av
+skattskyldigheten inte f&#246;ljer av &#246;vriga artiklar. Detsamma g&#228;ller i
+fr&#229;ga om f&#246;rm&#246;genhetstillg&#229;ng som &#228;r bel&#228;gen i Sverige. Om inkomsten
+eller f&#246;rm&#246;genheten kan beskattas &#228;ven i Rum&#228;nien, medges l&#228;ttnad vid
+den rum&#228;nska beskattningen enligt art. 25 punkterna 1 och 3.
+
+2. Inkomst fr&#229;n Rum&#228;nien, som uppb&#228;rs av person med hemvist i
+Sverige, medtas vid taxering i Sverige med undantag f&#246;r utdelning i
+vissa fall fr&#229;n bolag i Rum&#228;nien. I fr&#229;ga om utdelning se punkt 2
+andra stycket och punkt 3 av anvisningarna till art. 10. Likas&#229; medtas
+f&#246;rm&#246;genhetstillg&#229;ng, som &#228;r bel&#228;gen i Rum&#228;nien, vid taxering till
+svensk f&#246;rm&#246;genhetsskatt. Svensk skatt p&#229; inkomsten eller
+f&#246;rm&#246;genheten neds&#228;tts genom avr&#228;kning enligt art. 25 punkterna 1 och
+3, om inte fall f&#246;religger som anges i anvisningspunkten 3.
+
+Svensk inkomstskatt ber&#228;knas p&#229; inkomstens bruttobelopp utan avdrag
+f&#246;r rum&#228;nsk skatt som omfattas av avtalet. Avdrag medges i vanlig
+ordning f&#246;r kostnader som h&#228;nf&#246;r sig till inkomsten. Fr&#229;n den s&#229;lunda
+ber&#228;knade svenska  skatten avr&#228;knas enligt art. 25 punkt 1 ett belopp
+motsvarande den rum&#228;nska skatt som bel&#246;per p&#229; inkomsten. Betr&#228;ffande
+storleken av rum&#228;nsk skatt p&#229; utdelning, r&#228;nta, provision och royalty
+h&#228;nvisas till anvisningspunkten 2 till art. 10, anvisningspunkten 1
+till art. 11, anvisningspunkten 2 till art. 12 samt anvisningspunkten
+1 till art. 13. Har rum&#228;nsk skatt enligt avtalet uttagits p&#229; inkomst
+av r&#246;relse, som har bedrivits i Rum&#228;nien, iakttas att inkomsten
+ber&#228;knats enligt art. 7.
+
+Har befrielse eller neds&#228;ttning meddelats i fr&#229;ga om rum&#228;nsk skatt som
+enligt art. 7 kan utg&#229;  p&#229; inkomst vilken f&#246;rv&#228;rvas av fast
+driftst&#228;lle som person med hemvist i Sverige har i Rum&#228;nien, skall p&#229;
+grund av f&#246;reskriften i art. 25 punkt 2 fr&#229;n den svenska skatten p&#229;
+s&#229;dan inkomst avr&#228;knas ett belopp motsvarande den  rum&#228;nska skatt som
+skulle ha utg&#229;tt, om s&#229;dan befrielse eller neds&#228;ttning ej hade
+meddelats.
+
+Den skattskyldige b&#246;r i samband med sin sj&#228;lvdeklaration f&#246;r det
+beskattnings&#229;r, f&#246;r vilket inkomsten upptas till beskattning, f&#246;rete
+bevis eller annan utredning av den rum&#228;nska skatt som har p&#229;f&#246;rts
+inkomsten eller skulle ha p&#229;f&#246;rts denna om skattebefrielse eller
+skatteneds&#228;ttning som avses i f&#246;reg&#229;ende stycke ej hade meddelats.
+
+Avr&#228;kning av rum&#228;nsk inkomstskatt f&#229;r ske med belopp motsvarande h&#246;gst
+summan av de svenska skatter som bel&#246;per p&#229; inkomsten. Vid
+till&#228;mpningen av denna regel anses p&#229; inkomsten fr&#229;n Rum&#228;nien bel&#246;pa
+s&#229; stor andel av hela den statliga inkomstskatten som inkomsten -
+efter avdrag f&#246;r kostnader - utg&#246;r av den skattskyldiges sammanlagda
+inkomst av olika f&#246;rv&#228;rvsk&#228;llor. Kommunal inkomstskatt anses bel&#246;pa p&#229;
+inkomst fr&#229;n Rum&#228;nien till s&#229; stor andel som inkomsten - efter avdrag
+f&#246;r kostnader - utg&#246;r av den skattskyldiges sammanlagda inkomst av
+olika f&#246;rv&#228;rvsk&#228;llor som skall taxeras i samma kommun som inkomsten
+fr&#229;n Rum&#228;nien.
+
+Avr&#228;kning sker i f&#246;rsta hand fr&#229;n den statliga inkomstskatten. F&#246;rsl&#229;r
+ej denna, avr&#228;knas &#229;terstoden fr&#229;n kommunal inkomstskatt som bel&#246;per
+p&#229; inkomsten.
+
+Taxeringsn&#228;mnd skall i deklaration anteckna motv&#228;rdet i svenska kronor
+av den rum&#228;nska skatten p&#229; inkomsten och ange att avr&#228;kning skall ske
+med detta skattebelopp, dock h&#246;gst med de svenska skatterna p&#229;
+inkomsten. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning f&#246;rs
+&#246;ver till inkomst- och debiteringsl&#228;ngderna.
+
+Exempel: En person med hemvist i Sverige uppb&#228;r inkomst av fastighet
+i Rum&#228;nien med ett belopp av 10000 kronor. P&#229; inkomsten antas bel&#246;pa
+rum&#228;nsk skatt med ett belopp av 1500 kronor. Avdragsgilla kostnader
+uppg&#229;r till 500 kronor. Den skattskyldige antas vidare uppb&#228;ra
+nettoint&#228;kter av andra f&#246;rv&#228;rvsk&#228;llor med ett belopp av
+90000 kronor och vid taxeringen till statlig inkomstskatt &#229;tnjuta
+allm&#228;nna avdrag med 10000 kronor. Den till statlig inkomstskatt
+taxerade inkomsten blir s&#229;lunda (9500-90000-100006) 89500 kronor.
+I deklarationen antecknas: &quot;Avr&#228;kning fr&#229;n inkomstskatt enligt avtalet
+med Rum&#228;nien skall ske med 1500 kronor, dock h&#246;gst med summan av den
+kommunala inkomstskatt, som bel&#246;per p&#229; 9500 kronor, och  9500 av
+                                                        99500
+hela den statliga inkomstskatten. Avr&#228;kning sker i f&#246;rsta hand
+fr&#229;n den statliga inkomstskatten.&quot;
+
+Anvisningarna i denna punkt om avr&#228;kning av svensk inkomstskatt
+g&#228;ller i till&#228;mpliga delar &#228;ven i fr&#229;ga om avr&#228;kning av rum&#228;nsk skatt
+p&#229; f&#246;rm&#246;genhet fr&#229;n svensk f&#246;rm&#246;genhetsskatt.
+
+3. Om person med hemvist i Sverige uppb&#228;r inkomst eller innehar
+f&#246;rm&#246;genhet, som enligt art. 8 punkterna 1 och 3, art. 14 punkt 2
+sista meningen, art. 20 punkt 1 a eller punkt  2 a eller art. 24 punkt
+3 skall beskattas endast i Rum&#228;nien, medtas inkomsten eller
+f&#246;rm&#246;genheten vid taxering i Sverige. Statlig och kommunal
+inkomstskatt resp. statlig f&#246;rm&#246;genhetsskatt utr&#228;knas i vanlig
+ordning. Fr&#229;n de s&#229;lunda utr&#228;knade inkomstskatterna resp.
+f&#246;rm&#246;genhetsskatten avr&#228;knas ett belopp motsvarande den del av
+inkomstskatterna resp. f&#246;rm&#246;genhetsskatten som vid proportionell
+ber&#228;kning bel&#246;per p&#229; den inkomst eller f&#246;rm&#246;genhet som enligt avtalet
+skall beskattas endast i Rum&#228;nien.
+
+Exempel: En rum&#228;nsk medborgare med hemvist i Sverige uppb&#228;r
+pension fr&#229;n rum&#228;nska staten med ett belopp som efter avdrag f&#246;r
+kostnader motsvarar 10000 kronor. Den skattskyldige antas uppb&#228;ra
+i Sverige skattepliktiga nettoint&#228;kter av andra f&#246;rv&#228;rvsk&#228;llor
+med 50000 kronor och &#229;tnjuta allm&#228;nna  avdrag med 5000 kronor. Den
+till statlig och kommunal inkomstskatt taxerade inkomsten blir s&#229;lunda
+(10000-50000-50006) 55000 kronor. S&#229;v&#228;l den statliga som den kommunala
+inkomstskatten neds&#228;tts med  10000      .
+                             60000
+
+I fall som nu har n&#228;mnts skall taxeringsn&#228;mnd i deklarationen
+anteckna grunden f&#246;r utr&#228;kningen av inkomstskatterna eller
+f&#246;rm&#246;genhetsskatten. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan
+anteckning f&#246;rs &#246;ver till inkomst- resp. f&#246;rm&#246;genhetsl&#228;ngden samt
+debiteringsl&#228;ngden.
+
+till art. 26.
+
+Av art. 26 punkt 2 f&#246;ljer att bolag i Rum&#228;nien inte f&#229;r p&#229;f&#246;ras
+f&#246;rm&#246;genhetsskatt i Sverige. Best&#228;mmelsen inneb&#228;r ett undantag fr&#229;n
+regeln i 6 &#167; 1 mom. f&#246;rsta stycket c lagen (1947:577) om statlig
+f&#246;rm&#246;genhetsskatt.
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3979">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3981">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

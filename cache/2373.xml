@@ -1,0 +1,782 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2004-12-29" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>2373</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2372">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2374">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    2004:1360 ·
+                    <a href="/sfsr?bet=2004:1360">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Tillk&#228;nnagivande (2004:1360) om EG-f&#246;rordningar med anledning av 
+lagen (1996:95) om vissa internationella sanktioner
+</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Utrikesdepartementet
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 2004-12-16
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 2004-12-29
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+Regeringen tillk&#228;nnager enligt 15 &#167; lagen (1996:95) om vissa
+internationella sanktioner att Europeiska gemenskapen har
+beslutat f&#246;ljande f&#246;rordningar om ekonomiska sanktioner f&#246;r
+vilka straffansvar g&#228;ller h&#228;r i landet direkt enligt 8 &#167; andra
+stycket samma lag.
+
+1. R&#229;dets f&#246;rordning (EEG) nr 3541/92 av den 7 december 1992 om
+f&#246;rbud mot att tillm&#246;tesg&#229; irakiska krav i samband med kontrakt
+och transaktioner som omfattas av FN:s s&#228;kerhetsr&#229;ds resolution
+661 (1990) och d&#228;rmed f&#246;rknippade resolutioner (EGT L 361,
+10.12.1992, s. 1, Celex 31992R3541).
+
+2. R&#229;dets f&#246;rordning (EEG) nr 3275/93 av den 29 november 1993
+om f&#246;rbud mot att tillm&#246;tesg&#229; krav i samband med kontrakt och
+transaktioner som omfattas av F&#246;renta nationernas s&#228;kerhetsr&#229;ds
+resolution 883 (1993) och d&#228;rmed f&#246;rknippade resolutioner (EGT
+L 295, 30.11.1993, s. 4, Celex 31993R3275).
+
+3. R&#229;dets f&#246;rordning (EG) nr 1264/94 av den 30 maj 1994 om
+f&#246;rbud mot att fullg&#246;ra de haitiska myndigheternas krav vad
+avser avtal och transaktioner som omfattas av &#229;tg&#228;rder enligt
+F&#246;renta nationernas s&#228;kerhetsr&#229;ds resolutioner 917 (1994), 841
+(1993), 873 (1993) och 875 (1993) (EGT L 139, 2.6.1994, s. 4,
+Celex 31994R1264).
+
+4. R&#229;dets f&#246;rordning (EG) nr 1733/94 av den 11 juli 1994 om
+f&#246;rbud mot att fullg&#246;ra krav avseende avtal och transaktioner
+som omfattas av F&#246;renta nationernas s&#228;kerhetsr&#229;ds resolution
+757 (1992) och d&#228;rtill knutna resolutioner (EGT L 182,
+16.7.1994, s. 1, Celex 31994R1733).
+
+5. R&#229;dets f&#246;rordning (EG) nr 2488/2000 av den 10 november 2000
+om fortsatt frysande av tillg&#229;ngar med anknytning till Slobodan
+Milosevic och med honom associerade personer och om upph&#228;vande
+av f&#246;rordningarna (EG) nr 1294/1999 och (EG) nr 607/2000 samt
+artikel 2 i f&#246;rordning (EG) nr 926/98 (EGT L 287, 14.11.2000,
+s. 19, Celex 32000R2488).
+
+6. Kommissionens f&#246;rordning (EG) nr 1205/2001 av den 19 juni
+2001 om &#228;ndring, f&#246;r f&#246;rsta g&#229;ngen, av r&#229;dets f&#246;rordning (EG)
+nr 2488/2000 om fortsatt frysande av tillg&#229;ngar med anknytning
+till Slobodan Milosevic och med honom associerade personer (EGT
+L 163, 20.6.2001, s. 14, Celex 32001R1205).
+
+7. R&#229;dets f&#246;rordning (EG) nr 2580/2001 av den 27 december 2001
+om s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa personer och
+enheter i syfte att bek&#228;mpa terrorism (EGT L 344, 28.12.2001,
+s. 70, Celex 32001R2580).
+
+8. R&#229;dets f&#246;rordning (EG) nr 881/2002 av den 27 maj 2002 om
+inf&#246;rande av vissa s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med
+Usama bin Ladin, n&#228;tverket al-Qaida och talibanerna associerade
+personer och enheter och om upph&#228;vande av f&#246;rordning (EG) nr
+467/2001 om f&#246;rbud mot export av vissa varor och tj&#228;nster till
+Afghanistan, sk&#228;rpning av flygf&#246;rbudet och f&#246;rl&#228;ngning av
+sp&#228;rrandet av tillg&#229;ngar och andra finansiella medel
+betr&#228;ffande talibanerna i Afghanistan (EGT L 139, 29.5.2002, s.
+9, Celex 32002R0881).
+
+9. Kommissionens f&#246;rordning (EG) nr 951/2002 av den 3 juni 2002
+om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 881/2002 r&#246;rande
+inf&#246;rande av vissa s&#228;rskilda restriktiva &#229;tg&#228;rder riktade mot
+vissa med Usama bin Ladin, al-Qaidan&#228;tet och talibanerna
+associerade personer och enheter och om upph&#228;vande av r&#229;dets
+f&#246;rordning (EG) nr 467/2001 (EGT L 145, 4.6.2002, s. 14, Celex
+32002R0951).
+
+10. Kommissionens f&#246;rordning (EG) nr 1580/2002 av den 4
+september 2002 om &#228;ndring f&#246;r andra g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 r&#246;rande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+r&#246;rande upph&#228;vande av f&#246;rordning (EG) nr 467/2001 (EGT L 237,
+5.9.2002, s. 3, Celex 32002R1580).
+
+11. Kommissionens f&#246;rordning (EG) nr 1644/2002 av den 13
+september 2002 om &#228;ndring f&#246;r tredje g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 r&#246;rande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och r&#246;rande upph&#228;vande av f&#246;rordning (EG) nr 467/2001
+(EGT L 247, 14.9.2002, s. 25, Celex 32002R1644).
+
+12. Kommissionens f&#246;rordning (EG) nr 1754/2002 av den 1 oktober
+2002 om &#228;ndring f&#246;r fj&#228;rde g&#229;ngen av r&#229;dets f&#246;rordning (EG) nr
+881/2002 r&#246;rande inf&#246;rande av vissa s&#228;rskilda restriktiva
+&#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket al-Qaida och
+talibanerna associerade personer och enheter och r&#246;rande
+upph&#228;vande av f&#246;rordning (EG) nr 467/2001 (EGT L 264,
+2.10.2002, s. 23, Celex 32002R1754).
+
+13. Kommissionens f&#246;rordning (EG) nr 1823/2002 av den 11
+oktober 2002 om &#228;ndring f&#246;r femte g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 r&#246;rande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+r&#246;rande upph&#228;vande av f&#246;rordning (EG) nr 467/2001 (EGT L 276,
+12.10.2002, s. 26, Celex 32002R1823).
+
+14. Kommissionens f&#246;rordning (EG) nr 1893/2002 av den 23
+oktober 2002 om &#228;ndring f&#246;r sj&#228;tte g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 r&#246;rande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+r&#246;rande upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EGT L
+286, 24.10.2002, s. 19, Celex 32002R1893).
+
+15. Kommissionens f&#246;rordning (EG) nr 1935/2002 av den 29
+oktober 2002 om &#228;ndring f&#246;r sjunde g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 r&#246;rande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+r&#246;rande upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EGT L
+295, 30.10.2002, s. 11, Celex 32002R1935).
+
+16. Kommissionens f&#246;rordning (EG) nr 2083/2002 av den 22
+november 2002 om &#228;ndring f&#246;r &#229;ttonde g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EGT L 319, 23.11.2002, s. 22, Celex 32002R2083).
+
+17. Kommissionens f&#246;rordning (EG) nr 145/2003 av den 27 januari
+2003 om &#228;ndring f&#246;r nionde g&#229;ngen av f&#246;rordning (EG) nr
+881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda restriktiva
+&#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket al-Qaida och
+talibanerna associerade personer och enheter och om upph&#228;vande
+av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EGT L 23, 28.1.2003, s.
+22, Celex 32003R0145).
+
+18. R&#229;dets f&#246;rordning (EG) nr 147/2003 av den 27 januari 2003
+om vissa restriktiva &#229;tg&#228;rder mot Somalia (EGT L 24, 29.1.2003,
+s. 2, Celex 32003R0147).
+
+19. Kommissionens f&#246;rordning (EG) nr 215/2003 av den 3 februari
+2003 om &#228;ndring f&#246;r tionde g&#229;ngen av r&#229;dets f&#246;rordning 881/2002
+betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda restriktiva &#229;tg&#228;rder
+mot vissa med Usama bin Ladin, n&#228;tverket al-Qaida och
+talibanerna associerade personer och enheter och om upph&#228;vande
+av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 28, 4.2.2003, s.
+41, Celex 32003R0215).
+
+20. Kommissionens f&#246;rordning (EG) nr 244/2003 av den 7 februari
+2003 om &#228;ndring f&#246;r elfte g&#229;ngen av r&#229;dets f&#246;rordning (EG) nr
+881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda restriktiva
+&#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket al-Qaida och
+talibanerna associerade personer och enheter och om upph&#228;vande
+av f&#246;rordning (EG) nr 467/2001 (EUT L 33, 8.2.2003, s. 28,
+Celex 32003R0244).
+
+21. Kommissionens f&#246;rordning (EG) nr 342/2003 av den 21
+februari 2003 om &#228;ndring f&#246;r tolfte g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 49,
+22.2.2003, s. 13, Celex 32003R0342).
+
+22. Kommissionens f&#246;rordning (EG) nr 350/2003 av den 25
+februari 2003 om &#228;ndring f&#246;r trettonde g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 51, 26.2.2003, s. 19, Celex 32003R0350).
+
+23. Kommissionens f&#246;rordning (EG) nr 370/2003 av den 27
+februari 2003 om &#228;ndring f&#246;r fjortonde g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 53, 28.2.2003, s. 33, Celex 32003R0370).
+
+24. Kommissionens f&#246;rordning (EG) nr 414/2003 av den 5 mars
+2003 om &#228;ndring f&#246;r femtonde g&#229;ngen av r&#229;dets f&#246;rordning (EG)
+nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 62,
+6.3.2003, s. 24, Celex 32003R0414).
+
+25. R&#229;dets f&#246;rordning (EG) nr 561/2003 av den 27 mars 2003 om
+&#228;ndring, n&#228;r det g&#228;ller undantag fr&#229;n frysning av penningmedel
+och ekonomiska resurser, av f&#246;rordning (EG) nr 881/2002 om
+inf&#246;rande av vissa s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med
+Usama bin Ladin, n&#228;tverket al-Qaida och talibanerna associerade
+personer och enheter (EUT L 82, 29.3.2003, s. 1, Celex
+32003R0561).
+
+26. Kommissionens f&#246;rordning (EG) nr 742/2003 av den 28 april
+2003 om &#228;ndring f&#246;r sjuttonde g&#229;ngen av r&#229;dets f&#246;rordning (EG)
+nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 106,
+29.4.2003, s. 16, Celex 32003R0742).
+
+27. Kommissionens f&#246;rordning (EG) nr 745/2003 av den 28 april
+2003 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 2580/2001 om
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa personer och enheter i
+syfte att bek&#228;mpa terrorism (EUT L 106, 29.4.2003, s. 22, Celex
+32003R0745).
+
+28. Kommissionens f&#246;rordning (EG) nr 866/2003 av den 19 maj
+2003 om &#228;ndring f&#246;r artonde g&#229;ngen av r&#229;dets f&#246;rordning (EG) nr
+881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda restriktiva
+&#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket al-Qaida och
+talibanerna associerade personer och enheter och om upph&#228;vande
+av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 124, 20.5.2003, s.
+19, Celex 32003R0866).
+
+29. Kommissionens f&#246;rordning (EG) nr 1012/2003 av den 12 juni
+2003 om &#228;ndring f&#246;r nittonde g&#229;ngen av r&#229;dets f&#246;rordning (EG)
+nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 146,
+13.6.2003, s. 50, Celex 32003R1012).
+
+30. Kommissionens f&#246;rordning (EG) nr 1184/2003 av den 2 juli
+2003 om &#228;ndring f&#246;r tjugonde g&#229;ngen av r&#229;dets f&#246;rordning (EG)
+nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 165,
+3.7.2003, s. 21, Celex 32003R1184).
+
+31. R&#229;dets f&#246;rordning (EG) nr 1210/2003 av den 7 juli 2003 om
+vissa specifika begr&#228;nsningar av de ekonomiska och finansiella
+f&#246;rbindelserna med Irak och om upph&#228;vande av f&#246;rordning (EG) nr
+2465/96 (EUT L 169, 8.7.2003, s. 6, Celex 32003R1210).
+
+32. Kommissionens f&#246;rordning (EG) nr 1456/2003 av den 14
+augusti 2003 om &#228;ndring f&#246;r tjugof&#246;rsta g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 206, 15.8.2003, s. 27, Celex 32003R1456).
+
+33. Kommissionens f&#246;rordning (EG) nr 1607/2003 av den 12
+september 2003 om &#228;ndring f&#246;r tjugoandra g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 229, 13.9.2003, s. 19, Celex 32003R1607).
+
+34. Kommissionens f&#246;rordning (EG) nr 1724/2003 av den 29
+september 2003 om &#228;ndring f&#246;r tjugotredje g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 247, 30.9.2003, s. 18, Celex 32003R1724).
+
+35. R&#229;dets f&#246;rordning (EG) nr 1727/2003 av den 29 september
+2003 om vissa restriktiva &#229;tg&#228;rder mot Demokratiska republiken
+Kongo (EUT L 249, 1.10.2003, s. 5, Celex 32003R1727).
+
+36. R&#229;dets f&#246;rordning (EG) nr 1799/2003 av den 13 oktober 2003
+om &#228;ndring av f&#246;rordning (EG) nr 1210/2003 om vissa specifika
+begr&#228;nsningar av de ekonomiska och finansiella f&#246;rbindelserna
+med Irak (EUT L 264, 15.10.2003, s. 12, Celex 32003R1799).
+
+37. Kommissionens f&#246;rordning (EG) nr 1991/2003 av den 12
+november 2003 om &#228;ndring f&#246;r tjugofj&#228;rde g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 295, 13.11.2003, s. 81, Celex 32003R1991).
+
+38. Kommissionens f&#246;rordning (EG) nr 2049/2003 av den 20
+november 2003 om &#228;ndring f&#246;r tjugofemte g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Osama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 303, 21.11.2003, s. 20, Celex 32003R2049).
+
+39. Kommissionens f&#246;rordning (EG) nr 2119/2003 av den 2
+december 2003 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 1210/2003
+om vissa specifika begr&#228;nsningar av de ekonomiska och
+finansiella f&#246;rbindelserna med Irak och om upph&#228;vande av
+f&#246;rordning (EG) nr 2465/96 (EUT L 318, 3.12.2003, s. 9, Celex
+32003R2119).
+
+40. Kommissionens f&#246;rordning (EG) nr 2157/2003 av den 10
+december 2003 om &#228;ndring f&#246;r tjugosj&#228;tte g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 324, 11.12.2003, s. 17, Celex 32003R2157).
+
+41. Kommissionens f&#246;rordning (EG) nr 2204/2003 av den 17
+december 2003 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 1210/2003
+r&#246;rande vissa specifika begr&#228;nsningar av de ekonomiska och
+finansiella f&#246;rbindelserna med Irak (EUT L 330, 18.12.2003, s.
+7, Celex 32003R2204).
+
+42. Kommissionens f&#246;rordning (EG) nr 19/2004 av den 7 januari
+2004 om &#228;ndring f&#246;r tjugosjunde g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 4,
+8.1.2004, s. 11, Celex 32004R0019).
+
+43. Kommissionens f&#246;rordning (EG) nr 100/2004 av den 21 januari
+2004 om &#228;ndring f&#246;r tjugo&#229;ttonde g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 15,
+22.1.2004, s. 18, Celex 32004R0100).
+
+44. R&#229;dets f&#246;rordning (EG) nr 131/2004 av den 26 januari 2004
+om vissa restriktiva &#229;tg&#228;rder mot Sudan (EUT L 21, 28.01.2004,
+s. 1, Celex 32004R0131).
+
+45. Kommissionens f&#246;rordning (EG) nr 180/2004 av den 30 januari
+2004 om &#228;ndring f&#246;r tjugonionde g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 28,
+31.1.2004, s. 15, Celex 32004R0180).
+
+46. R&#229;dets f&#246;rordning (EG) nr 234/2004 av den 10 februari 2004
+om vissa restriktiva &#229;tg&#228;rder med avseende p&#229; Liberia och om
+upph&#228;vande av f&#246;rordning (EG) nr 1030/2003 (EUT L 40,
+12.2.2004, s. 1, Celex 32004R0234).
+
+47. R&#229;dets f&#246;rordning (EG) nr 314/2004 av den 19 februari 2004
+om vissa restriktiva &#229;tg&#228;rder mot Zimbabwe (EUT L 55,
+24.2.2004, s. 1, Celex 32004R0314).
+
+48. Kommissionens f&#246;rordning (EG) nr 391/2004 av den 1 mars
+2004 om &#228;ndring f&#246;r trettionde g&#229;ngen av r&#229;dets f&#246;rordning (EG)
+nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av f&#246;rordning (EG) nr 467/2001 (EUT L 64,
+2.3.2004, s. 36, Celex 32004R0391).
+
+49. Kommissionens f&#246;rordning (EG) nr 524/2004 av den 19 mars
+2004 om &#228;ndring f&#246;r trettiof&#246;rsta g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 83,
+20.3.2004, s. 10, Celex 32004R0524).
+
+50. Kommissionens f&#246;rordning (EG) nr 667/2004 av den 7 april
+2004 om &#228;ndring f&#246;r trettioandra g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 104,
+8.4.2004, s. 110, Celex 32004R0667).
+
+51. R&#229;dets f&#246;rordning (EG) nr 798/2004 av den 26 april 2004 om
+f&#246;rl&#228;ngning av de restriktiva &#229;tg&#228;rderna mot Burma/Myanmar och
+om upph&#228;vande av f&#246;rordning (EG) nr 1081/2000 (EUT L 125,
+28.4.2004, s. 4, Celex 32004R0798).
+
+52. R&#229;dets f&#246;rordning (EG) nr 872/2004 av den 29 april 2004 om
+ytterligare restriktiva &#229;tg&#228;rder mot Liberia (EUT L 162,
+30.4.2004, s. 32, Celex 32004R0872).
+
+53. Kommissionens f&#246;rordning (EG) nr 924/2004 av den 29 april
+2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 1210/2003 r&#246;rande
+vissa specifika begr&#228;nsningar av de ekonomiska och finansiella
+f&#246;rbindelserna med Irak (EUT L 163, 30.4.2004, s. 100, Celex
+32004R0924).
+
+54. Kommissionens f&#246;rordning (EG) nr 950/2004 av den 6 maj 2004
+om &#228;ndring f&#246;r trettiotredje g&#229;ngen av r&#229;dets f&#246;rordning (EG)
+nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 173,
+7.5.2004, s. 6, Celex 32004R0950).
+
+55. Kommissionens f&#246;rordning (EG) nr 979/2004 av den 14 maj
+2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 1210/2003 r&#246;rande
+vissa specifika begr&#228;nsningar av de ekonomiska och finansiella
+f&#246;rbindelserna med Irak (EUT L 180, 15.5.2004, s. 9, Celex
+32004R0979).
+
+56. Kommissionens f&#246;rordning (EG) nr 984/2004 av den 14 maj
+2004 om &#228;ndring f&#246;r trettiofj&#228;rde g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 180,
+15.5.2004, s. 24, Celex 32004R0984).
+
+57. Kommissionens f&#246;rordning (EG) nr 1086/2004 av den 9 juni
+2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 1210/2003 r&#246;rande
+vissa specifika begr&#228;nsningar av de ekonomiska och finansiella
+f&#246;rbindelserna med Irak (EUT L 207, 10.6.2004, s. 10, Celex
+32004R1086).
+
+58. Kommissionens f&#246;rordning (EG) nr 1149/2004 av den 22 juni
+2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 872/2004 om
+ytterligare restriktiva &#229;tg&#228;rder mot Liberia (EUT L 222,
+23.6.2004, s. 17, Celex 32004R1149).
+
+59. Kommissionens f&#246;rordning (EG) nr 1187/2004 av den 25 juni
+2004 om &#228;ndring f&#246;r trettiofemte g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 227,
+26.6.2004, s. 19, Celex 32004R1187).
+
+60. Kommissionens f&#246;rordning (EG) nr 1237/2004 av den 5 juli
+2004 om &#228;ndring f&#246;r trettiosj&#228;tte g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 235,
+6.7.2004, s. 5, Celex 32004R1237).
+
+61. Kommissionens f&#246;rordning (EG) nr 1277/2004 av den 12 juli
+2004 om &#228;ndring f&#246;r trettiosjunde g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 241,
+13.7.2004, s. 12, Celex 32004R1277).
+
+62. R&#229;dets f&#246;rordning (EG) nr 1353/2004 av den 26 juli 2004 om
+&#228;ndring av f&#246;rordning (EG) nr 131/2004 om vissa restriktiva
+&#229;tg&#228;rder mot Sudan (EUT L 251, 27.7.2004, s. 1, Celex
+32004R1353).
+
+63. R&#229;dets f&#246;rordning (EG) nr 1412/2004 av den 3 augusti 2004
+om &#228;ndring av f&#246;rordning (EG) nr 1210/2003 om vissa specifika
+begr&#228;nsningar av de ekonomiska och finansiella f&#246;rbindelserna
+med Irak (EUT L 257, 4.8.2004, s. 1, Celex 32004R1412).
+
+64. Kommissionens f&#246;rordning (EG) nr 1478/2004 av den 18
+augusti 2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 872/2004
+om ytterligare restriktiva &#229;tg&#228;rder mot Liberia (EUT L 271,
+19.8.2004, s. 36, Celex 32004R1478).
+
+65. Kommissionens f&#246;rordning (EG) nr 1488/2004 av den 20
+augusti 2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 314/2004
+om vissa restriktiva &#229;tg&#228;rder mot Zimbabwe (EUT L 273,
+21.8.2004, s. 12, Celex 32004R1488).
+
+66. Kommissionens f&#246;rordning (EG) nr 1489/2004 av den 20
+augusti 2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 234/2004
+om vissa restriktiva &#229;tg&#228;rder med avseende p&#229; Liberia och om
+upph&#228;vande av f&#246;rordning (EG) nr 1030/2003 (EUT L 273,
+21.8.2004, s. 16, Celex 32004R1489).
+
+67. Kommissionens f&#246;rordning (EG) nr 1516/2004 av den 25
+augusti 2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 131/2004
+om vissa restriktiva &#229;tg&#228;rder mot Sudan (EUT L 278, 27.8.2004,
+s. 15, Celex 32004R1516).
+
+68. Kommissionens f&#246;rordning (EG) nr 1517/2004 av den 25
+augusti 2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 798/2004
+om f&#246;rl&#228;ngning av de restriktiva &#229;tg&#228;rderna mot Burma/Myanmar
+och om upph&#228;vande av f&#246;rordning (EG) nr 1081/2000 (EUT L 278,
+27.8.2004, s. 18, Celex 32004R1517).
+
+69. Kommissionens f&#246;rordning (EG) nr 1566/2004 av den 31
+augusti 2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 1210/2003
+om vissa specifika begr&#228;nsningar av de ekonomiska och
+finansiella f&#246;rbindelserna med Irak och om upph&#228;vande av
+f&#246;rordning (EG) nr 2465/96 (EUT L 285, 4.9.2004, s. 6, Celex
+32004R1566).
+
+70. Kommissionens f&#246;rordning (EG) nr 1567/2004 av den 31
+augusti 2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 1727/2003
+om vissa restriktiva &#229;tg&#228;rder mot Demokratiska republiken Kongo
+(EUT L 285, 4.9.2004, s. 10, Celex 32004R1567).
+
+71. Kommissionens f&#246;rordning (EG) nr 1580/2004 av den 8
+september 2004 om &#228;ndring av r&#229;dets f&#246;rordning (EG) nr 872/2004
+om ytterligare restriktiva &#229;tg&#228;rder mot Liberia (EUT L 284,
+10.9.2004, s. 4, Celex 32004R1580).
+
+72. Kommissionens f&#246;rordning (EG) nr 1728/2004 av den 1 oktober
+2004 om &#228;ndring f&#246;r trettio&#229;ttonde g&#229;ngen av r&#229;dets f&#246;rordning
+(EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa s&#228;rskilda
+restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin, n&#228;tverket
+al-Qaida och talibanerna associerade personer och enheter och
+om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001 (EUT L 306,
+2.10.2004, s. 13, Celex 32004R1728).
+
+73. R&#229;dets f&#246;rordning (EG) nr 1763/2004 av den 11 oktober 2004
+om inf&#246;rande av vissa restriktiva &#229;tg&#228;rder till st&#246;d f&#246;r ett
+effektivt genomf&#246;rande av Internationella tribunalen f&#246;r f.d.
+Jugoslaviens (ICTY) uppgift (EUT L 315, 14.10.2004, s. 14,
+Celex 32004R1763).
+
+74. Kommissionens f&#246;rordning (EG) nr 1840/2004 av den 21
+oktober 2004 om &#228;ndring f&#246;r trettionionde g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 322, 23.10.2004, s. 5, Celex 32004R1840).
+
+75. R&#229;dets f&#246;rordning (EG) nr 1853/2004 av den 25 oktober 2004
+om ytterligare restriktiva &#229;tg&#228;rder mot Burma/Myanmar och om
+&#228;ndring av f&#246;rordning (EG) nr 798/2004 (EUT L 323, 26.10.2004,
+s. 11, Celex 32004R1853).
+
+76. Kommissionens f&#246;rordning (EG) nr 1965/2004 av den 15
+november 2004 om &#228;ndring av f&#246;rordning (EG) nr 1763/2004 om
+inf&#246;rande av vissa restriktiva &#229;tg&#228;rder till st&#246;d f&#246;r ett
+effektivt genomf&#246;rande av Internationella
+krigsf&#246;rbrytartribunalens f&#246;r f.d. Jugoslavien (ICTY) uppgift
+(EUT L 339, 16.11.2004, s. 4, Celex 32004R1965).
+
+77. Kommissionens f&#246;rordning (EG) nr 2034/2004 av den 26
+november 2004 om &#228;ndring f&#246;r fyrtionde g&#229;ngen av r&#229;dets
+f&#246;rordning (EG) nr 881/2002 betr&#228;ffande inf&#246;rande av vissa
+s&#228;rskilda restriktiva &#229;tg&#228;rder mot vissa med Usama bin Ladin,
+n&#228;tverket al-Qaida och talibanerna associerade personer och
+enheter och om upph&#228;vande av r&#229;dets f&#246;rordning (EG) nr 467/2001
+(EUT L 353, 27.11.2004, s. 11, Celex 32004R2034).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2372">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=2374">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

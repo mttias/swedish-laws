@@ -1,0 +1,752 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-edited" content="2013-08-15" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3839</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3838">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3840">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1982:985 ·
+                    <a href="/sfsr?bet=1982:985">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1982:985) om dubbelbeskattningsavtal mellan Sverige och Ungern</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Finansdepartementet S4
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1982-11-11
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">
+1 &#167; Lagen (1982:709) om dubbelbeskattningsavtal mellan Sverige och
+Ungern tr&#228;der i kraft den 1 januari 1983 och till&#228;mpas betr&#228;ffande
+inkomst som f&#246;rv&#228;rvas n&#228;mnda dag eller senare och betr&#228;ffande
+f&#246;rm&#246;genhet som taxeras &#229;r 1984 eller senare. Avtalet tr&#228;dde i kraft
+den 15 augusti 1982.
+
+2 &#167; Vid till&#228;mpningen av dubbelbeskattningsavtalet skall iakttas de
+anvisningar som framg&#229;r av bilagorna 1 och 2.
+
+Bilaga 1
+
+
+Anvisningar till best&#228;mmelserna i avtalet
+
+till art. 1 och 4
+
+Avtalets best&#228;mmelser &#228;r i allm&#228;nhet till&#228;mpliga endast p&#229; fysiska och
+juridiska personer som har hemvist i Sverige eller Ungern.
+
+Huruvida fysisk eller juridisk person skall anses ha hemvist i endera
+staten avg&#246;rs i f&#246;rsta hand med ledning av lagstiftningen i denna
+stat. I art. 4 punkterna 2 och 3 regleras fall av s.k. dubbel
+bos&#228;ttning, dvs. fall d&#228;r den skattskyldige enligt svenska
+beskattningsregler anses bosatt i Sverige och enligt ungerska
+beskattningsregler anses bosatt i Ungern. Vid till&#228;mpningen av avtalet
+skall i s&#229;dana fall den skattskyldige anses ha hemvist endast i den
+avtalsslutande stat i vilken han har hemvist enligt n&#228;mnda
+avtalsbest&#228;mmelser.
+
+Person, som avses i 69 &#167; kommunalskattelagen (1928:370), 17 &#167; lagen
+(1947:576) om statlig inkomstskatt och 17 &#167; lagen (1947:577) om
+statlig f&#246;rm&#246;genhetsskatt och som tillh&#246;r svensk beskickning eller
+l&#246;nat svenskt konsulat i Ungern, skall vid till&#228;mpningen av art. 4
+punkt 1 anses bosatt i Sverige.
+
+Person, som avses i 70 &#167; 1 mom. kommunalskattelagen, 18 &#167; 1mom. lagen
+om statlig inkomstskatt och 18 &#167; lagen om statlig f&#246;rm&#246;genhetsskatt
+och som tillh&#246;r ungersk beskickning eller l&#246;nat ungerskt konsulat i
+Sverige, skall vid till&#228;mpningen av art. 4 punkt 1 anses bosatt i
+Ungern.
+
+till art. 2
+
+Avtalet g&#228;ller de skatter som anges i art. 2 och i punkt 1 av det till
+avtalet fogade protokollet. Ang&#229;ende annan beskattning se dock art. 24
+punkt 5.
+
+till art. 6
+
+Enligt svensk lagstiftning beskattas inkomst som h&#228;rr&#246;r fr&#229;n fastighet
+i vissa fall som inkomst av r&#246;relse /jfr. bl.a. 27 &#167; kommunalskatte
+lagen (1928:370)/. Inkomst som omfattas av art. 6 beskattas emellertid
+alltid i den stat d&#228;r fastigheten &#228;r bel&#228;gen. Denna regel g&#228;ller &#228;ven
+betr&#228;ffande roaylty fr&#229;n fastighet eller f&#246;r nyttjandet av eller
+r&#228;tten att nyttja mineralfyndighet, k&#228;lla eller annan naturtillg&#229;ng.
+
+Annan royalty beskattas enligt art. 12.
+
+till art. 7
+
+Inkomst av r&#246;relse, som bedrivs fr&#229;n fast driftst&#228;lle, beskattas i
+regel enligt art. 7. Vad som f&#246;rst&#229;s med uttrycket &quot;fast driftst&#228;lle&quot;
+anges i art. 5 och i punkt 2 av protokollet.
+
+Om en fysisk eller juridisk person med hemvist i Sverige bedriver
+r&#246;relse fr&#229;n fast driftst&#228;lle i Ungern, f&#229;r den till driftst&#228;let
+h&#228;nf&#246;rliga inkomsten beskattas i Sverige men ungersk skatt p&#229;
+inkomsten avr&#228;knas fr&#229;n den svenska skatten enligt art. 23 punkt 2 a).
+I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten
+2 till art. 23.
+
+Inkomst av r&#246;relse, som fysisk eller juridisk person med hemvist i
+Ungern bedriver fr&#229;n fast driftst&#228;lle i Sverige, ber&#228;knas enligt art.
+7 punkterna 2-5. Till grund f&#246;r inkomstber&#228;kningen b&#246;r l&#228;ggas i f&#246;rsta
+hand den s&#228;rskilda bokf&#246;ring som kan ha f&#246;rts vid det fasta
+driftst&#228;llet. I m&#229;n av behov skall denna bokf&#246;ring justeras s&#229;, att
+inkomstber&#228;kningen sker i enlighet med den i punkterna 2 och 3 angivna
+principen. Avdrag medges f&#246;r s&#229; stor del av huvudkontorets allm&#228;nna
+omkostnader som sk&#228;ligen kan antas bel&#246;pa p&#229; det fasta driftst&#228;llet.
+
+Om inkomst av sj&#246;fart, luftfart och landsv&#228;gstransport i inter
+nationell trafik finns s&#228;rskilda best&#228;mmelser i art. 8.
+
+till art. 8
+
+Inkomst av sj&#246;fart, luftfart och landsv&#228;gstransport i internationell
+trafik beskattas enligt art. 8 punkt 1 endast i den stat d&#228;r f&#246;retaget
+har sin verkliga ledning.
+
+till art. 9
+
+Art. 9 inneh&#229;ller en allm&#228;n regel om omr&#228;kning av vinstf&#246;rdelningen
+mellan koncernf&#246;retag. F&#246;r Sveriges del kan omr&#228;kning vid taxering ske
+enligt 43 &#167; kommunalskattelagen (1928:370).
+
+Om s&#229;dan omr&#228;kning sker mellan f&#246;retag i Sverige och Ungern, skall
+l&#228;nsstyrelsen anm&#228;la detta till regeringen och i korthet redog&#246;ra f&#246;r
+vad som f&#246;rekommit.
+
+till art. 10 (jfr punkt 3 av protokollet)
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;utdelning&quot; anges i art. 10 punkt 3.
+
+2. N&#228;r fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Ungern och utdelningen inte &#228;r
+h&#228;nf&#246;rlig till andel, som &#228;ger verkligt samband med fast driftst&#228;lle
+eller stadigvarande anordning som den som har r&#228;tt till utdelningen
+har i Ungern, iakttas best&#228;mmelserna i andra och tredje styckena.
+
+Om utdelningen uppb&#228;rs av aktiebolag eller ekonomisk f&#246;rening, &#228;r
+utdelningen undantagen fr&#229;n beskattning i Sverige i den m&#229;n art. 10
+punkt 4 f&#246;ranleder det. De svenska best&#228;mmelserna om befrielse fr&#229;n
+skattskyldighet f&#246;r utdelning som avses i art. 10 punkt 4 finns i 54 &#167;
+kommunalskattelagen (1928:370) och 7 &#167; lagen (1947:576) om statlig
+inkomstskatt.
+
+I &#246;vriga fall ber&#228;knas svensk skatt p&#229; utdelningens bruttobelopp utan
+avdrag f&#246;r ungersk skatt. Avdrag medges dock i vanlig ordning f&#246;r
+f&#246;rvaltningskostnader och r&#228;nta p&#229; skuld som bel&#246;per p&#229; utdelningen.
+Svensk skatt p&#229; utdelningen neds&#228;tts enligt art. 23 punkt 2 a) genom
+avr&#228;kning av ungersk skatt som uttagits enligt art. 10 punkt 2. Den
+ungerska skatten f&#229;r d&#228;rvid inte &#246;verstiga 15 % eller, i fall som
+avses i art. 10 punkt 2 a), 5 % av utdelningens bruttobelopp. I fr&#229;ga
+om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 23.
+
+3. N&#228;r fysisk eller juridisk person med hemvist i Sverige uppb&#228;r
+utdelning fr&#229;n bolag med hemvist i Ungern och utdelningen &#228;r h&#228;nf&#246;rlig
+till andel, som &#228;ger verkligt samband med fast driftst&#228;lle eller
+stadigvarande anordning som den utdelningsber&#228;ttigade har i Ungern,
+till&#228;mpas art. 7 resp. art 14. Utdelningen skall, om inte annat g&#228;ller
+p&#229; grund av art. 10 punkt 4, i detta fall beskattas i Sverige men
+ungersk skatt p&#229; utdelningen avr&#228;knas fr&#229;n den svenska skatten enligt
+art. 23 punkt 2 a). I fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas
+till anvisningspunkten 2 till art. 23.
+
+4. N&#228;r aktiebolag i Sverige verkst&#228;ller utdelning till fysisk eller
+juridisk person med hemvist i Ungern och utdelningen inte &#228;r h&#228;nf&#246;rlig
+till andel som &#228;ger verkligt samband med fast driftst&#228;lle eller
+stadigvarande anordning som den utdelningsber&#228;ttigade har i Sverige,
+tas kupongskatt ut med 15 % eller, i fall som avses i art. 10 punkt 2
+a), 5 % av utdelningens bruttobelopp. Utdelning fr&#229;n svensk ekonomisk
+f&#246;rening beskattas i s&#229;dant fall enligt 6 &#167; 1 mom. a eller c lagen
+(1947:576) om statlig inkomstskatt men den statliga inkomstskatten f&#229;r
+inte &#246;verstiga 15 % eller, i fall som avses i art. 10 punkt 2 a), 5 %
+av utdelningens bruttobelopp. Vid taxering till statlig inkomstskatt
+f&#246;r utdelning fr&#229;n svensk ekonomisk f&#246;rening skall taxeringsn&#228;mnd i
+deklarationen anteckna de uppgifter som beh&#246;vs f&#246;r debitering.
+L&#228;ngdf&#246;rande myndighet svarar f&#246;r att s&#229;dan anteckning g&#246;rs i
+skattel&#228;ngden.
+
+Ang&#229;ende f&#246;rfarandet vid neds&#228;ttning av svensk skatt p&#229; utdelning
+till&#228;mpas i &#246;vrigt s&#228;rskilda best&#228;mmelser; se bilaga 2.
+
+Om den som har r&#228;tt till utdelningen har fast driftst&#228;lle eller
+stadigvarande anordning i Sverige och utdelningen &#228;r h&#228;nf&#246;rlig till
+andel, som &#228;ger verkligt samband med det fasta driftst&#228;llet eller den
+stadigvarande anordningen, till&#228;mpas art. 7 resp. art. 14. I s&#229;dant
+fall g&#228;ller inte ovan angivna regler om begr&#228;nsning av svensk skatt p&#229;
+utdelning.
+
+till art. 11
+
+1. Vad som f&#246;rst&#229;s med uttrycket &quot;r&#228;nta&quot; anges i art. 11 punkt 2.
+
+2. R&#228;nta, som betalas fr&#229;n Ungern till fysisk eller juridisk person
+med hemvist i Sverige, beskattas h&#228;r. &#196;r r&#228;ntan h&#228;nf&#246;rlig till skuld,
+som &#228;ger verkligt samband med fast driftst&#228;lle eller stadigvarande
+anordning, som den som har r&#228;tt till r&#228;ntan har i Ungern, f&#229;r r&#228;ntan
+beskattas &#228;ven i Ungern. Ungersk skatt p&#229; r&#228;ntan avr&#228;knas i s&#229;dant
+fall fr&#229;n den svenska skatten enligt art. 23 punkt 2 a). I fr&#229;ga om
+f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 23.
+
+3. R&#228;nta, som utbetalas fr&#229;n Sverige till fysisk eller juridisk person
+med hemvist i Ungern, kan enligt g&#228;llande skattef&#246;rfattningar inte
+beskattas i Sverige. Detta g&#228;ller dock endast betr&#228;ffande r&#228;nta som
+utg&#246;r inkomst av f&#246;rv&#228;rvsk&#228;llan kapital. &#196;r r&#228;ntan att h&#228;nf&#246;ra till
+inkomst av r&#246;relse /jfr punkt 2 av anvisningarna till 28 &#167; kommunal
+skattelagen (1928:370)/, beskattas r&#228;ntan i Sverige, under
+f&#246;ruts&#228;ttning att r&#228;ntan &#228;r h&#228;nf&#246;rlig till skuld, som &#228;ger verkligt
+samband med fast driftst&#228;lle eller stadigvarande anordning som den som
+har r&#228;tt till r&#228;ntan har i Sverige (art. 11 punkt 3).
+
+till art. 12
+
+1. Betr&#228;ffande beskattning av s&#229;dan royalty som avses i art. 12 punkt
+2 g&#228;ller f&#246;ljande.
+
+Royalty, som utbetalas fr&#229;n Ungern till fysisk eller juridisk person
+med hemvist i Sverige, beskattas h&#228;r.
+
+&#196;r royaltyn h&#228;nf&#246;rlig till r&#228;ttighet eller egendom, som &#228;ger verkligt
+samband med fast driftst&#228;lle eller stadigvarande anordning som den som
+har r&#228;tt till royaltyn har i Ungern, f&#229;r royaltyn beskattas &#228;ven i
+Ungern. Ungersk skatt p&#229; royaltyn avr&#228;knas i s&#229;dant fall fr&#229;n den
+svenska skatten enligt art. 23 punkt 2 a). I fr&#229;ga om f&#246;rfarandet vid
+avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+Royalty, som utbetalas fr&#229;n Sverige till fysisk eller juridisk peron
+med hemvist i Ungern, beskattas i Sverige endast under f&#246;ruts&#228;ttning
+att den r&#228;ttighet eller egendom f&#246;r vilken royaltyn betalas &#228;ger
+verkligt samband med fast driftst&#228;lle eller stadigvarande anordning
+som den som har r&#228;tt till royaltyn har i Sverige (art. 12 punkt 3). &#196;r
+detta fallet, beskattas royaltyn enligt 28 &#167; 1 mom. kommunalskatte
+lagen (1928:370) j&#228;mf&#246;rt med 2 och 3 &#167;&#167; lagen (1947:576) om statlig
+inkomstskatt.
+
+2. Royalty eller annat belopp, som utbetalas s&#229;som ers&#228;ttning f&#246;r
+nyttjandet av mineralfyndighet, k&#228;lla eller annan naturtillg&#229;ng,
+beskattas enligt art. 6.
+
+till art. 13
+
+Vinst, som fysisk eller juridisk person med hemvist i Ungern f&#246;rv&#228;rvar
+genom avyttring av fast egendom i Sverige eller av aktier eller
+liknande r&#228;ttigheter i ett bolag, vars tillg&#229;ngar huvudsakligen utg&#246;rs
+av s&#229;dan fast egendom, beskattas h&#228;r (art. 13 punkt 1).
+
+Vidare beskattas i Sverige vinst genom icke yrkesm&#228;ssig avyttring av
+l&#246;s egendom som ing&#229;r i fast driftst&#228;lle som person med hemvist i
+Ungern har h&#228;r (art. 13 punkt 2). Motsvarande g&#228;ller i fr&#229;ga om l&#246;s
+egendom h&#228;nf&#246;rligt till stadigvarande anordning f&#246;r att ut&#246;va
+sj&#228;lvst&#228;ndig yrkesverksamhet vilken inkomsttagaren har i Sverige.
+
+Realisationsvinst, som f&#246;rv&#228;rvas av fysisk eller juridisk person med
+hemvist i Sverige, beskattas h&#228;r. Enligt art. 13 punkt 1 f&#229;r ungersk
+skatt tas ut p&#229; realisationsvinsten, om den avyttrade egendomen utg&#246;rs
+av fast egendom i Ungern eller av aktier eller liknande r&#228;ttigheter i
+ett bolag, vars tillg&#229;ngar huvudsakligen utg&#246;rs av s&#229;dan fast egendom.
+Motsvarande g&#228;ller enligt art. 13 punkt 2 i fr&#229;ga om l&#246;s egendom som
+ing&#229;r i fast driftst&#228;lle som inkomsttagaren har i Ungern, eller l&#246;s
+egendom som ing&#229;r i stadigvarande anordning f&#246;r att ut&#246;va sj&#228;lvst&#228;ndig
+yrkesverksamhet vilken inkomsttagaren har i Ungern.
+
+Svensk skatt p&#229; realisationsvinsten neds&#228;tts enligt art. 23 punkt 2 a)
+genom avr&#228;kning av den ungerska skatt som i enlighet med
+best&#228;mmelserna i art. 13 p&#229;f&#246;rts samma vinst. I fr&#229;ga om f&#246;rfarandet
+vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+till art. 14
+
+1. i art. 14 punkt 2 ges exempel p&#229; vad som avses med uttrycket &quot;fritt
+yrke&quot;.
+
+2. Inkomst av fritt yrke eller annan sj&#228;lvst&#228;ndig verksamhet beskattas
+i regel endast i den stat d&#228;r den skattskyldige har hemvist. &#196;r
+inkomsten h&#228;nf&#246;rlig till verksamhet, som ut&#246;vas vid s&#229;dan
+stadigvarande anordning som avses i art. 14 punkt 1, f&#229;r inkomsten
+beskattas i den stat d&#228;r anordningen finns.
+
+Om person med hemvist i Sverige f&#246;rv&#228;rvar inkomst av fritt yrke eller
+annan sj&#228;lvst&#228;ndig verksamhet vid stadigvarande anordning i Ungern,
+f&#229;r inkomsten beskattas i Sverige men ungersk skatt p&#229; samma inkomst
+avr&#228;knas fr&#229;n den svenska skatten enligt art. 23 punkt 2 a). I fr&#229;ga
+om f&#246;rfarandet vid avvr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till
+art. 23.
+
+3. Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av idrottsm&#228;n,
+sk&#229;despelare, musiker m.fl. se anvisningarna till art. 17.
+
+till art. 15
+
+Inkomst av enskild tj&#228;nst f&#229;r enligt art. 15 punkt 1 i regel beskattas
+i den stat d&#228;r arbetet utf&#246;rs. Undantag fr&#229;n denna regel f&#246;reskrivs i
+art. 15 punkterna 2 och 3 samt i art. 16 och 20.
+
+Betr&#228;ffande beskattning av inkomst som f&#246;rv&#228;rvas av idrottsm&#228;n,
+sk&#229;despelare, musiker m.fl. se anvisningarna till art. 17.
+
+till art. 16
+
+N&#228;r svenskt bolag utbetalar styrelsearvode till person med hemvist i
+Ungern, beskattas ers&#228;ttningen i Sverige, om det kan ske enligt
+g&#228;llande beskattningsregler. Har s&#229;dan ers&#228;ttning uppburits av person
+med hemvist i Sverige fr&#229;n bolag med hemvist i Ungern, f&#229;r inkomsten
+beskattas i Sverige men ungersk skatt p&#229; inkomsten avr&#228;knas fr&#229;n den
+svenska skatten enligt art. 23 punkt 2 a). I fr&#229;ga om f&#246;rfarandet vid
+avr&#228;kningen h&#228;nvisas till anvisningspunkten 2 till art. 23.
+
+till art. 17
+
+Inkomst, som teater- eller filmsk&#229;despelare, radio- eller televisions
+artister, musiker och liknande yrkesut&#246;vare samt idrottsm&#228;n f&#246;rv&#228;rvar
+genom sin yrkesverksamhet, beskattas i regel i den stat d&#228;r verksam
+heten ut&#246;vas (art. 17 punkt 1). Detta g&#228;ller oavsett om inkomsten
+f&#246;rv&#228;rvas under ut&#246;vande av fritt yrke eller p&#229; grund av anst&#228;llning.
+Enligt art. 17 punkt 2 beskattas inkomsten i den stat d&#228;r
+idrottsmannen eller artisten utf&#246;r arbetet, &#228;ven om ers&#228;ttningen
+utbetalas till annan person &#228;n artisten eller idrottsmannen sj&#228;lv,
+under f&#246;ruts&#228;ttning att denna person direkt eller indirekt
+kontrolleras av artisten eller idrottsmannen. Best&#228;mmelserna i art. 17
+punkt 1 till&#228;mpas inte i fall som avses i art. 17 punkt 3. F&#246;r
+Sveriges vidkommande iakttas vid till&#228;mpningen av art. 17 punkterna 1
+och 2 best&#228;mmelserna i 54 &#167; f&#246;rsta stycket c kommunalskattelagen
+(1928:370) och 7 &#167; f&#246;rsta stycket b lagen (1947:576) om statlig
+inkomstskatt.
+
+till art. 18
+
+Pension, som inte utg&#229;r p&#229; grund av offentlig tj&#228;nst, annan liknande
+ers&#228;ttning p&#229; grund av tidigare anst&#228;llning och livr&#228;nta som utbetalas
+fr&#229;n Sverige samt utbetalning enligt svensk socialf&#246;rs&#228;kringslag
+stiftning till person med hemvist i Ungern f&#229;r enligt art. 18
+beskattas h&#228;r.
+
+Person med hemvist i Sverige, som uppb&#228;r pension, som inte utg&#229;r p&#229;
+grund av offentlig tj&#228;nst, eller annan liknande ers&#228;ttning p&#229; grund av
+tidigare anst&#228;llning eller livr&#228;nta som utbetalas fr&#229;n Ungern eller
+utbetalning enligt ungersk socialf&#246;rs&#228;kringslagstiftning, beskattas i
+Sverige f&#246;r s&#229;dan utbetalning men ungersk skatt p&#229; inkomsten avr&#228;knas
+fr&#229;n den svenska skatten p&#229; inkomsten enligt art. 23 punkt 2 a). I
+fr&#229;ga om f&#246;rfarandet vid avr&#228;kningen h&#228;nvisas till anvisningspunkten 2
+till art. 23.
+
+till art. 19
+
+Ers&#228;ttning, med undantag f&#246;r pension, som utbetalas av en av staterna
+eller dess lokala myndigheter f&#246;r arbete utf&#246;rt i allm&#228;n tj&#228;nst,
+beskattas enligt huvudregeln i art. 19 punkt 1 a) endast i den stat
+varifr&#229;n ers&#228;ttningen utbetalas. Har arbetet utf&#246;rts i den andra
+staten av person med hemvist i denna stat, beskattas emellertid
+ers&#228;ttningen enligt art. 19 punkt 1 b) endast i den staten, om
+mottagaren &#228;r medborgare i den staten eller inte fick hemvist d&#228;r
+endast f&#246;r att utf&#246;ra ifr&#229;gavarande arbete.
+
+Pension, som utbetalas av, eller fr&#229;n fonder inr&#228;ttade av en av
+staterna eller dess lokala myndigheter p&#229; grund av allm&#228;n tj&#228;nst,
+beskattas enligt art. 19 punkt 2 a) i regel endast i denna stat. Om
+mottagaren av pensionen &#228;r medborgare i den andra staten och har
+hemvist d&#228;r, beskattas emellertid pensionen enligt art. 19 punkt 2 b)
+endast i denna stat.
+
+Ers&#228;ttning (inkl. pension), som utbetalas f&#246;r tj&#228;nst utf&#246;rd i samband
+med r&#246;relse, som den utbetalande staten eller dess lokala myndigheter
+bedrivit, beskattas som inkomst p&#229; grund av enskild tj&#228;nst enligt art.
+15, 16 och 18.
+
+till art. 23
+
+1. Inkomst fr&#229;n Sverige beskattas h&#228;r i den m&#229;n svenska skattef&#246;r
+fattningar f&#246;ranleder det och inskr&#228;nkning av skattskyldigheten inte
+f&#246;ljer av &#246;vriga artiklar. Detsamma g&#228;ller i fr&#229;ga om f&#246;rm&#246;genhets
+tillg&#229;ng som &#228;r bel&#228;gen i Sverige. Om inkomsten eller f&#246;rm&#246;genheten
+kan beskattas &#228;ven i Ungern, medges l&#228;ttnad vid den ungerska
+beskattningen enligt art. 23 punkt 1 a) och b).
+
+2. Inkomst fr&#229;n Ungern, som uppb&#228;rs av person med hemvist i Sverige,
+tas med vid taxering i Sverige med undantag f&#246;r utdelning i vissa fall
+fr&#229;n bolag i Ungern. Ifr&#229;ga om utdelning se punkt 2 andra stycket och
+punkt 3 av anvisningarna till art. 10. Likas&#229; tas f&#246;rm&#246;genhetstill
+g&#229;ng med, som &#228;r bel&#228;gen i Ungern, vid taxering till svensk
+f&#246;rm&#246;genhetsskatt. Svensk skatt p&#229; inkomsten eller f&#246;rm&#246;genheten s&#228;tts
+ned genom avr&#228;kning enligt art. 23 punkt 2 a), om inte fall f&#246;religger
+som anges i anvisningspunkten 3.
+
+Svensk inkomstskatt ber&#228;knas p&#229; inkomstens bruttobelopp utan avdrag
+f&#246;r ungersk skatt som omfattas av avtalet. Avdrag medges i vanlig
+ordning f&#246;r kostnader som h&#228;nf&#246;r sig till inkomsten. Fr&#229;n den s&#229;lunda
+ber&#228;knade svenska skatten avr&#228;knas enligt art. 23 punkt 2 a) ett
+belopp motsvarande den ungerska skatt som bel&#246;per p&#229; inkomsten.
+Betr&#228;ffande storleken av ungersk skatt p&#229; utdelning h&#228;nvisas till
+anvisningspunkten 2 till art 10. Har ungersk skatt enligt avtalet
+tagits ut p&#229; inkomst av r&#246;relse som har bedrivits i Ungern, iakttas
+att inkomsten ber&#228;knats enligt art. 7.
+
+Den skattskyldige b&#246;r i samband med sin sj&#228;lvdeklaration f&#246;r det
+beskattnings&#229;r f&#246;r vilket inkomsten resp. f&#246;rm&#246;genheten tas upp till
+beskattning f&#246;rete bevis eller annan utredning om den ungerska skatt
+som har p&#229;f&#246;rts inkomsten resp. f&#246;rm&#246;genheten.
+
+Avr&#228;kning av ungersk inkomstskatt f&#229;r ske med belopp motsvarande h&#246;gst
+summan av de svenska skatter som bel&#246;per p&#229; inkomsten. Vid
+till&#228;mpningen av denna regel anses p&#229; inkomsten fr&#229;n Ungern bel&#246;pa s&#229;
+stor andel av hela den statliga inkomstskatten som inkomsten - efter
+avdrag f&#246;r kostnader - utg&#246;r av den skattskyldiges sammanlagda inkomst
+av olika f&#246;rv&#228;rvsk&#228;llor. Kommunal inkomstskatt anses bel&#246;pa p&#229; inkomst
+fr&#229;n Ungern till s&#229; stor andel som inkomsten - efter avdrag f&#246;r
+kostnader - utg&#246;r av den skattskyldiges sammanlagda inkomst av olika
+f&#246;rv&#228;rvsk&#228;llor som skall taxeras i samma kommun som inkomsten fr&#229;n
+Ungern.
+
+Avr&#228;kning sker i f&#246;rsta hand fr&#229;n den statliga inkomstskatten.
+F&#246;rsl&#229;r ej denna, avr&#228;knas &#229;terstoden fr&#229;n kommunal inkomstskatt som
+bel&#246;per p&#229; inkomsten.
+
+Taxeringsn&#228;mnd skall i deklaration anteckna motv&#228;rdet i svenska kronor
+av den ungerska skatten p&#229; inkomsten och ange att avr&#228;kning skall ske
+med detta skattebelpp, dock h&#246;gst med beloppet av de svenska
+skatterna p&#229; inkomsten. L&#228;ngdf&#246;rande myndighet svarar f&#246;r att
+anteckning om avr&#228;kning g&#246;rs i skattel&#228;ngden.
+
+Exempel: En person med hemvist i Sverige uppb&#228;r inkomst av fastighet i
+Ungern med ett belopp av 10 000 kronor. P&#229; inkomsten antas bel&#246;pa
+ungersk skatt med ett belopp av 1 500 kronor. Avdragsgilla kostnader
+uppg&#229;r till 500 kronor. Den skattskyldige antas vidare uppb&#228;ra
+nettoint&#228;kter av andra f&#246;rv&#228;rvsk&#228;llor med ett belopp av 90 000 kronor
+och vid taxeringen till statlig inkomstskatt &#229;tnjuta allm&#228;nna avdrag
+med 10 000 kronor. Den till statlig inkomstskatt taxerade inkomsten
+blir s&#229;lunda (9 500+90 000-10 000=)89 500 kronor. I deklarationen
+antecknas: &quot;Avr&#228;kning fr&#229;n inkomstskatt enligt avtalet med Ungern
+skall ske med 1 500 kronor, dock h&#246;gst med summan av den kommunala
+inkomstskatt, som bel&#246;per p&#229; 9 500 kronor, och  9 500  av hela den
+                                               99 500
+statliga inkomstskatten. Avr&#228;kning sker i f&#246;rsta hand fr&#229;n den
+statliga inkomstskatten&quot;.
+
+3. Om person med hemvist i Sverige uppb&#228;r inkomst som enligt art. 8
+punkt 1, art. 13 punkt 3 eller art. 19 punkt 1 a) eller punkt 2 a)
+skall beskattas endast i Ungern, medtas inkomsten vid taxering i
+Sverige. Statlig och kommunal inkomstskatt utr&#228;knas i vanlig ordning.
+De s&#229;lunda utr&#228;knade inkomstskatterna s&#228;tts ned med ett belopp
+motsvarande den del av inkomstskatterna som vid en proportionell
+ber&#228;kning bel&#246;per p&#229; den inkomst som enligt avtalet skall beskattas
+endast i Ungern. Motsvarande g&#228;ller i fr&#229;ga om f&#246;rm&#246;genhet som enligt
+art. 22 punkt 3 skall beskattas endast i Ungern.
+
+Exempel: En ungersk medborgare med hemvist i Sverige uppb&#228;r pension
+fr&#229;n ungerska staten med ett belopp som efter avdrag f&#246;r kostnader
+motsvarar 10 050 kronor. Den skattskyldige antas uppb&#228;ra i Sverige
+skattepliktiga nettoint&#228;kter och inkomster av andra f&#246;rv&#228;rvsk&#228;llor med
+50 000 kronor samt &#229;tnjuta allm&#228;nna avdrag och grundavdrag med 4 500
+kronor resp. 7 500 kronor. Den beskattningsbara inkomsten blir
+statligt (10 050+50 000-4 500=)55 500 kronor och kommunalt
+(10 050+50 000-4 500-7 500=) 48 000 kronor, sedan avrundning skett.
+Hade pensionen inte medr&#228;knats skulle den beskattningsbara inkomsten
+ha blivit statligt (50 000-4 500=)45 500 kronor och kommunalt
+(50 000-4 500-7 500=)38 000 kronor. Den statliga och kommunala
+inkomstskatten, ber&#228;knad p&#229; 55 500 resp. 48 000 kronor, neds&#228;tts med
+55 500-45 500 resp. 48 000-38 000.
+   55 500              48 000
+
+I fall som nu n&#228;mnts skall taxeringsn&#228;mnd i deklarationen anteckna
+grunden f&#246;r utr&#228;kningen av inkomstskatterna resp. f&#246;rm&#246;genhetsskatten.
+L&#228;ngdf&#246;rande myndighet svarar f&#246;r att anteckning om neds&#228;ttning g&#246;rs i
+skattel&#228;ngden.
+
+till art. 24
+
+Av art. 24 punkt 2 f&#246;ljer att bolag i Ungern inte f&#229;r p&#229;f&#246;ras
+f&#246;rm&#246;genhetsskatt i Sverige. Best&#228;mmelserna inneb&#228;r ett undantag fr&#229;n
+regeln i 6 &#167; 1 mom. f&#246;rsta stycket c lagen (1947:577) om statlig
+f&#246;rm&#246;genhetsskatt.
+
+Bilaga 2
+
+
+Anvisningar om kupongskatt, m.m.
+
+Kupongskatt f&#246;r person med hemvist i Ungern
+
+1. Utg&#229;r enligt lagen (1982:709) om dubbelbeskattningsavtal mellan
+Sverige och Ungern kuponskatt efter l&#228;gre skattesats &#228;n enligt
+kupongskattelagen (1970:624), inneh&#229;lls vid utbetalning av utdelning
+p&#229; aktie i svenskt aktiebolag s&#229;dan skatt enligt f&#246;rstn&#228;mnda lag.
+
+Vid till&#228;mpning av f&#246;rsta stycket g&#228;ller f&#246;reskrifterna i punkt 2.
+
+Utbetalas utdelning som avses i f&#246;rsta stycket till n&#229;gon som innehar
+aktien under s&#229;dana f&#246;rh&#229;lladen att annan d&#228;rigenom obeh&#246;rigen bereds
+f&#246;rm&#229;n vid taxering till inkomstskatt eller vinner neds&#228;ttning av
+kupongskatt eller &#228;r det i annat fall inte uppenbart att r&#228;tt till
+neds&#228;ttning av kupongskatt f&#246;religger, inneh&#229;lls s&#229;dan skatt med
+belopp enligt 5 &#167; kupongskattelagen.
+
+2. Betr&#228;ffande utdelning i avst&#228;mningsbolag och i aktiefond som
+f&#246;rvaltas av registrerande fondbolag till&#228;mpas kupongskattekung&#246;relsen
+(1971:49).
+
+I fr&#229;ga om utdelning i aktiebolag eller aktiefond som avses i 13 &#167;
+kupongskattelagen (1970:624) skall utbetalaren se till, att uppgifter
+enligt 14 &#167; samma lag l&#228;mnas j&#228;mte intyg av ungersk myndighet eller
+bank i Ungern att den utdelningsber&#228;ttigade har hemvist i Ungern.
+
+3. Har kupongskatt inneh&#229;llits med h&#246;gre belopp &#228;n den skattskyldige
+skall erl&#228;gga enligt lagen (1982:709) om dubbelbeskattningsavtal
+mellan Sverige och Ungern, restitueras det f&#246;r h&#246;gt uttagna beloppet.
+
+4. Ans&#246;kan om restitution pr&#246;vas av riksskatteverket.
+
+5. Ans&#246;kan om restitution g&#246;rs skriftligen av den utdelnings
+ber&#228;ttigade. Ans&#246;kningshandlingen skall ha kommit in till riksskatte
+verket f&#246;re utg&#229;ngen av femte kalender&#229;ret efter utdelningstillf&#228;llet.
+Vid ans&#246;kningshandlingen fogas intyg eller annan utredning om den
+erlagda kupongskatten och utredning om de omst&#228;ndigheter s&#246;kanden
+&#229;beropar f&#246;r neds&#228;ttning av kupongskatten.
+
+6. Riksskatteverkets beslut i &#228;rende om resitution &#246;verklagas i den
+ordning som anges i 29 &#167; kupongskattelagen (1970:624).
+
+Statlig inkomstskatt p&#229; utdelning fr&#229;n svensk ekonomisk f&#246;rening till
+person med hemvist i Ungern.
+
+7. Ans&#246;kan om neds&#228;ttning av statlig inkomstskatt p&#229; utdelning p&#229;
+andel i svensk ekonomisk f&#246;rening enligt artikel 10 punkt 2 i avtalet
+g&#246;rs skriftligen av den utdelningsber&#228;ttigade. Ans&#246;kan g&#246;rs hos den
+taxeringsn&#228;mnd som har att fastst&#228;lla den utdelningsber&#228;ttigades
+taxering till statlig inkomstskatt f&#246;r det &#229;r d&#229; utdelningen tas till
+beskattning eller, om taxeringsn&#228;mndens arbete betr&#228;ffande taxeringen
+detta &#229;r avslutats, hos den domstol som har att uppta besv&#228;r &#246;ver
+n&#228;mnda taxering. Ans&#246;kan g&#246;rs dock senast f&#246;re utg&#229;ngen av tredje
+kalender&#229;ret efter det d&#229; utdelningen blev tillg&#228;nglig f&#246;r lyftning.
+
+I samband med ans&#246;kningen skall den utdelningsber&#228;ttigade ge in intyg
+om hemvist enligt punkt 2 andra stycket.
+
+8. Beslut som avses i punkt 7 &#246;verklagas i den ordning som anges i
+taxeringslagen (1956:623) och f&#246;rvaltningsprocesslagen (1971:291).
+
+</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3838">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3840">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,787 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regeringskansliets rättsdatabaser</title>
+    <meta name="Author" content="Regeringskansliet">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta name="Content" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+    <meta name="Keywords" content="Lag, lagar, lagstiftning, förordning, förordningar, kommitt&eacute; kommitt&eacute;er, direktiv,juridik, jurist, law, lawyer, legal">
+
+    <!-- Begin favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/Images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/Images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/Images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/Images/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="/Images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <!-- End favicon -->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/Css/main.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="/Css/print.css" type="text/css" media="print"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/Scripts/Regeringskansliet.js"></script>
+    
+    <meta id="rattsinfo-new" content="2023-02-02" /> 
+ <meta id="rattsinfo-edited" content="2023-02-02 15:34:18" /> 
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="popup-container">
+            <div class="popup-inner-container">
+                <div class="popup-inner">
+                    <div class="popup-close">
+                        <span class="popup-exit">
+                            Stäng
+                        </span>
+                        <div class="popup-close-icon close"></div>
+                    </div>
+                    <div class="popup-content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header wrapper">
+            <div class="inner-wrapper">
+                <div class="header-logo">
+                    <img src="/Images/logo-sv.png" alt="Regeringskansliet logo" class="logo" />
+                </div>
+                <div class="header-more">
+
+                    
+                    <div class="header-list">
+                        <a href="/Tillganglighetsredogorelse/">
+                            <div class="header-li">
+                                <div class="arrow-fwd"></div>
+                                <div class="header-li-text">
+                                    Tillgänglighetsredogörelse
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="header-main">
+                    <div class="header-text">
+                        <h1>Regeringskansliets rättsdatabaser</h1>
+                    </div>
+                    <div class="header-desc">
+                        Regeringskansliets rättsdatabaser innehåller lagar, förordningar,
+                        kommittédirektiv och kommittéregistret.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main wrapper" style="margin-bottom:10px; border: 8px solid rgb(37 174 104);">
+             <h3 class="header-desc" style="padding: 30px 120px 10px 120px; font-size: 30px;"><b>Testa betasidan för Regeringskansliets rättsdatabaser</b></h3> 
+                <b><p style="padding: 0px 120px 0px 120px; font-size: 23px; margin: 0;">
+                   Söker du efter lagar och förordningar? Testa gärna betasidan för den nya webbplatsen för Regeringskansliets rättsdatabaser. </p>
+                   <p style="padding: 0px 120px 30px 120px; font-size: 23px; margin: 0;">
+                      <a href="https://beta.rkrattsbaser.gov.se">Klicka här för att komma dit</a></b></p>
+       </div>
+
+        <div class="main wrapper">
+            <div class="inner-wrapper">
+                <div class="nav-bar">
+                    
+                    <a href="/sfsr">
+                        <div class="nav-item">
+                            Författningsregister
+                        </div>
+                    </a>
+                    
+                    <a href="/sfst">
+                        <div class="nav-item active">
+                            Författningar fulltext
+                        </div>
+                    </a>
+                    
+                    <a href="/dir">
+                        <div class="nav-item">
+                            Kommittédirektiv
+                        </div>
+                    </a>
+                    
+                    <a href="/komm">
+                        <div class="nav-item">
+                            Kommittéregistret
+                        </div>
+                    </a>
+                    
+
+                    <a href="/info" class="popup">
+                        <div class="nav-help">
+                            Om
+                        </div>
+                    </a>
+                </div>
+                <div class="content">
+                    
+    
+    <div class="search-results">
+        <div class="search-more">
+            &nbsp;
+        </div>
+        <div class="search-main">
+            <div class="search-results-header">
+                <div class="search-hits">
+                    Post <strong>3410</strong> av <strong>4610</strong> träffar
+                </div>
+
+                <div class="search-results-opts-top">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3409">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3411">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-results-content">
+                
+                <div class="result-inner-box bold">
+                    SFS-nummer ·
+                    1992:308 ·
+                    <a href="/sfsr?bet=1992:308">
+                        Visa register
+                    </a>
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">F&#246;rordning (1992:308) om utl&#228;ndska filialer m.m.</span>
+                </div>
+
+                
+                <div class="result-inner-box">
+                    <span class="bold">Departement:</span> Klimat- och n&#228;ringslivsdepartementet RSN
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Utfärdad:</span> 1992-05-14
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ändring införd:</span> t.o.m. SFS 2022:1289
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Övrigt:</span> R&#228;ttelseblad 2008:109 har iakttagits.
+                </div>
+                
+                <div class="result-inner-box">
+                    <span class="bold">Ikraft:</span> 1992-07-01
+                </div>
+                
+
+                <div class="result-inner-box">
+                    <div class="result-box-text body-text">Inledande best&#228;mmelser
+
+1 &#167; En anm&#228;lan f&#246;r registrering av en filial enligt lagen 
+(1992:160) om utl&#228;ndska filialer m.m. ska g&#246;ras skriftligen 
+hos Bolagsverket (registreringsmyndigheten). Anm&#228;lan ska vara 
+undertecknad av verkst&#228;llande direkt&#246;ren. 
+
+En anm&#228;lan f&#229;r &#246;verf&#246;ras elektroniskt till 
+registreringsmyndigheten och ska i s&#229; fall vara undertecknad 
+med en elektronisk underskrift. Registreringsmyndigheten f&#229;r 
+meddela f&#246;reskrifter om s&#229;dan &#246;verf&#246;ring och underskrift. 
+F&#246;rordning (2016:582).
+
+2 &#167; En anm&#228;lan om f&#246;rest&#229;ndare enligt lagen (1992:160) om 
+utl&#228;ndska filialer m.m. ska g&#246;ras skriftligen hos 
+registreringsmyndigheten. Anm&#228;lan ska vara undertecknad av 
+n&#228;ringsidkaren. 
+
+Anm&#228;lan f&#229;r &#246;verf&#246;ras elektroniskt till 
+registreringsmyndigheten och ska i s&#229; fall vara undertecknad 
+med en elektronisk underskrift. Registreringsmyndigheten f&#229;r 
+meddela f&#246;reskrifter om s&#229;dan underskrift. 
+F&#246;rordning (2016:582).
+
+3 &#167; Byggentreprenad som drivs under h&#246;gst ett &#229;r av ett
+utl&#228;ndskt f&#246;retag som &#228;r etablerat utanf&#246;r Europeiska
+ekonomiska samarbetsomr&#229;det (EES) eller av en svensk eller
+utl&#228;ndsk medborgare som &#228;r bosatt utanf&#246;r EES omfattas inte av
+kravet p&#229; filial eller f&#246;rest&#229;ndare. F&#246;rordning (2011:724).
+
+3 a &#167; Med systemet f&#246;r sammankoppling av register avses i 
+denna f&#246;rordning det system f&#246;r sammankoppling av register som 
+inr&#228;ttats genom artikel 22 i Europaparlamentets och r&#229;dets 
+direktiv (EU) 2017/1132 av den 14 juni 2017 om vissa aspekter 
+av bolagsr&#228;tt. F&#246;rordning (2022:1289).
+
+Registreringsf&#246;rfarandet
+
+4 &#167; En anm&#228;lan f&#246;r registrering av en filial ska ange
+
+1. det utl&#228;ndska f&#246;retagets f&#246;retagsnamn, r&#228;ttsliga form, 
+nationalitet, s&#228;te och adress samt filialens f&#246;retagsnamn,
+
+2. f&#246;retagets och filialens verksamhet angiven till sin art, 
+
+3. filialens postadress, 
+
+4. namn, postadress och personnummer eller, om s&#229;dant saknas, 
+f&#246;delsedatum, f&#246;r personer som f&#229;tt bemyndigande enligt 10 &#167; 
+andra stycket lagen (1992:160) om utl&#228;ndska filialer m.m., f&#246;r 
+filialens verkst&#228;llande direkt&#246;r och revisor, f&#246;r vice 
+verkst&#228;llande direkt&#246;r och revisorssuppleant, om s&#229;dan blivit 
+utsedd, samt f&#246;r firmatecknare, om det utl&#228;ndska f&#246;retaget &#228;r 
+ett bankf&#246;retag, 
+
+5. hemvist f&#246;r verkst&#228;llande direkt&#246;ren, om postadressen 
+avviker fr&#229;n hemvisten, 
+
+6. den som &#228;r huvudansvarig f&#246;r revisionen, om revisionsbolag 
+blivit utsett, 
+
+7. f&#246;retagets och filialens r&#228;kenskaps&#229;r, 
+
+8. i vilket utl&#228;ndskt register f&#246;retaget &#228;r registrerat, 
+
+9. f&#246;retagets organisationsnummer i det utl&#228;ndska registret, 
+och
+
+10. namn, postadress och personnummer eller, om s&#229;dant saknas, 
+f&#246;delsedatum, f&#246;r personer som &#228;r beh&#246;riga att teckna 
+f&#246;retagets firma enligt lagen i det land d&#228;r f&#246;retaget &#228;r 
+registrerat och f&#246;r personer som deltar i ledning, tillsyn 
+eller kontroll av f&#246;retaget enligt lagen i det landet. 
+
+Anm&#228;lan ska &#228;ven inneh&#229;lla 
+
+1. en f&#246;rs&#228;kran p&#229; heder och samvete om att filialens 
+verkst&#228;llande direkt&#246;r inte &#228;r i konkurs, eller har f&#246;rvaltare 
+enligt 11 kap. 7 &#167; f&#246;r&#228;ldrabalken, 
+
+2. en f&#246;rs&#228;kran p&#229; heder och samvete om att firmatecknare inte 
+&#228;r i konkurs, eller har f&#246;rvaltare enligt 11 kap. 7 &#167; 
+f&#246;r&#228;ldrabalken, om anm&#228;lan avser en bankfilial, 
+
+3. en f&#246;rs&#228;kran p&#229; heder och samvete om att personer som har 
+f&#229;tt bemyndigande enligt 10 &#167; andra stycket lagen om utl&#228;ndska 
+filialer m.m. inte har f&#246;rvaltare enligt 11 kap. 7 &#167; 
+f&#246;r&#228;ldrabalken, 
+
+4. en f&#246;rs&#228;kran p&#229; heder och samvete om att revisorerna 
+uppfyller de krav som enligt revisorslagen (2001:883) 
+uppst&#228;lls f&#246;r auktoriserad respektive godk&#228;nd revisor, och 
+
+5. en f&#246;rs&#228;kran p&#229; heder och samvete att de personer som avses 
+i f&#246;rsta stycket 4 har &#229;tagit sig uppdragen. 
+
+N&#228;r anm&#228;lan ges in ska avgift enligt 20 &#167; betalas.
+F&#246;rordning (2022:1289).
+
+5 &#167; Tillsammans med anm&#228;lan f&#246;r registrering ska anm&#228;laren ge 
+in
+
+1. bevis att f&#246;retaget &#228;r beh&#246;rigen bildat och registrerat,
+
+2. kopia av bolagsordning, stadgar eller motsvarande handling 
+som g&#228;ller f&#246;r f&#246;retaget,
+
+3. kopia av f&#246;retagets och i f&#246;rekommande fall moderf&#246;retagets 
+&#229;rsredovisningshandlingar f&#246;r de tv&#229; senaste r&#228;kenskaps&#229;ren,
+
+4. bevis att f&#246;retaget inte &#228;r i konkurs,
+
+5. bestyrkt kopia av s&#229;dan fullmakt f&#246;r verkst&#228;llande 
+direkt&#246;ren som avses i 10 &#167; f&#246;rsta stycket lagen (1992:160) om 
+utl&#228;ndska filialer m.m., och 
+
+6. kopia av tillst&#229;nd fr&#229;n Finansinspektionen om att f&#229; driva 
+bankr&#246;relse fr&#229;n filial i Sverige, om filialen &#228;r en 
+bankfilial till ett utl&#228;ndskt kreditinstitut med s&#228;te utanf&#246;r 
+EES.
+
+De handlingar som avses i f&#246;rsta stycket 1-4 beh&#246;ver inte ges 
+in om de tidigare har getts in till en annan 
+registreringsmyndighet i en annan stat inom EES och &#228;r 
+tillg&#228;ngliga f&#246;r registreringsmyndigheten genom systemet f&#246;r 
+sammankoppling av register.
+
+Om den som anm&#228;ls som verkst&#228;llande direkt&#246;r, vice 
+verkst&#228;llande direkt&#246;r eller, om det utl&#228;ndska bolaget &#228;r ett 
+bankf&#246;retag, firmatecknare inte &#228;r folkbokf&#246;rd i Sverige, ska 
+det vid anm&#228;lan ges in en kopia av passhandling eller annan 
+identitetshandling som avser den anm&#228;lde. Bolagsverket f&#229;r 
+kr&#228;va in ytterligare handlingar om det beh&#246;vs f&#246;r att 
+s&#228;kerst&#228;lla den anm&#228;ldes identitet. F&#246;rordning (2022:1289).
+
+6 &#167; Best&#228;mmelserna i 4 &#167; g&#228;ller &#228;ven s&#229;dan anm&#228;lan enligt 
+lagen (1992:160) om utl&#228;ndska filialer m.m. som g&#246;rs efter det 
+att en filial har registrerats. Om anm&#228;lan avser mer &#228;n en 
+&#228;ndring av adress eller hemvist, ska det f&#246;rh&#229;llande som 
+anm&#228;ls styrkas med kopia av protokoll, skriftlig f&#246;rklaring av 
+det utl&#228;ndska f&#246;retaget eller annan handling. Vid anm&#228;lan om 
+att en ny verkst&#228;llande direkt&#246;r, vice verkst&#228;llande direkt&#246;r 
+eller s&#229;dan bemyndigad person som avses i 10 &#167; andra stycket 
+lagen om utl&#228;ndska filialer m.m. blivit utsedd tilll&#228;mpas 4 &#167; 
+f&#246;rsta stycket 4 och 5 och andra stycket samt 5 &#167; f&#246;rsta 
+stycket 5. 
+
+En anm&#228;lan beh&#246;ver inte omfatta uppgifter som 
+registreringsmyndigheten uppdaterat i enlighet med 14 a &#167;.
+F&#246;rordning (2022:1289).
+
+7 &#167; N&#228;r ans&#246;kan g&#246;rs av annat utl&#228;ndskt f&#246;retag &#228;n ett aktiebolag
+eller en ekonomisk f&#246;rening, g&#228;ller best&#228;mmelserna i 4 &#167; i till&#228;mpliga
+delar.
+
+8 &#167; En anm&#228;lan om f&#246;rest&#229;ndare ska ange
+
+1. n&#228;ringsverksamhetens art och den kommun d&#228;r verksamheten ska
+bedrivas, och
+
+2. f&#246;rest&#229;ndarens namn, personnummer och postadress.
+F&#246;rest&#229;ndarens hemvist ska anges om postadressen avviker fr&#229;n
+hemvistet.
+
+Anm&#228;lan ska &#228;ven inneh&#229;lla en f&#246;rs&#228;kran p&#229; heder och samvete om
+att f&#246;rest&#229;ndaren har &#229;tagit sig uppdraget och att han eller
+hon inte &#228;r i konkurs eller har f&#246;rvaltare enligt 11 kap. 7 &#167;
+f&#246;r&#228;ldrabalken. F&#246;rordning (2008:109).
+
+9 &#167; Tillsammans med anm&#228;lan om f&#246;rest&#229;ndare ska det ges in en
+bestyrkt kopia av s&#229;dan fullmakt som avses i 24 &#167; andra stycket
+lagen (1992:160) om utl&#228;ndska filialer m.m.
+F&#246;rordning (2008:109).
+
+10 &#167; Vid anm&#228;lan om att en ny f&#246;rest&#229;ndare blivit utsedd skall
+iakttas vad som s&#228;gs i 8 &#167; f&#246;rsta stycket 2 och andra stycket
+samt 9 &#167;.
+
+11 &#167; Vid registrering av en filial till ett f&#246;retag som &#228;r 
+registrerat i en annan stat inom EES f&#229;r 
+registreringsmyndigheten genom systemet f&#246;r sammankoppling av 
+register kontrollera den information som har l&#228;mnats i en 
+anm&#228;lan enligt denna f&#246;rordning. F&#246;rordning (2022:1289).
+
+12 &#167; Om dokument som avses i 5 &#167; f&#246;rsta stycket 1, 2 eller 3 
+&#228;r skrivna p&#229; ett annat spr&#229;k &#228;n svenska, f&#229;r 
+registreringsmyndigheten beg&#228;ra att s&#246;kanden ger in en 
+&#246;vers&#228;ttning till svenska av inneh&#229;llet i dokumenten. 
+Myndigheten f&#229;r inte beg&#228;ra att en s&#229;dan &#246;vers&#228;ttning ska vara 
+utf&#246;rd av en auktoriserad &#246;vers&#228;ttare. F&#246;rordning (2022:1289).
+
+12 a &#167; En f&#246;rs&#228;kran p&#229; heder och samvete enligt denna 
+f&#246;rordning f&#229;r undertecknas med elektronisk underskrift. 
+Registreringsmyndigheten f&#229;r meddela f&#246;reskrifter om s&#229;dan 
+underskrift. F&#246;rordning (2016:582).
+
+12 b &#167; Handlingar som ska fogas till anm&#228;lningar och som har 
+uppr&#228;ttats elektroniskt f&#229;r &#246;verf&#246;ras elektroniskt till 
+registreringsmyndigheten. Registreringsmyndigheten f&#229;r 
+meddela f&#246;reskrifter om s&#229;dan &#246;verf&#246;ring och om vilka 
+elektroniska underskrifter som f&#229;r anv&#228;ndas f&#246;r att en 
+handling ska f&#229; ges in som elektroniskt original. 
+F&#246;rordning (2016:582).
+
+12 c &#167; En elektronisk kopias &#246;verensst&#228;mmelse med originalet
+ska vara bestyrkt enligt f&#246;reskrifter som
+registreringsmyndigheten f&#229;r meddela.
+
+En handling som enligt denna f&#246;rordning ska ges in i kopia f&#229;r
+&#228;ven ges in i original. Om handlingen har uppr&#228;ttats
+elektroniskt, ska best&#228;mmelserna i 12 b &#167; till&#228;mpas.
+F&#246;rordning (2008:109).
+
+Filialregistret
+
+13 &#167; Filialregistret f&#246;rs med hj&#228;lp av automatiserad
+behandling. Registret skall h&#229;llas tillg&#228;ngligt hos
+registreringsmyndigheten. F&#246;rordning (2001:931).
+
+13 a &#167; Filialregistret ska ge offentlighet &#229;t den 
+information som ing&#229;r i registret.
+
+I fr&#229;ga om personuppgifter ska registret ha till &#228;ndam&#229;l att 
+tillhandah&#229;lla uppgifter f&#246;r
+
+1. aff&#228;rsverksamhet, kreditgivning eller annan allm&#228;n eller 
+enskild verksamhet d&#228;r f&#246;retagsanknuten information utg&#246;r 
+underlag f&#246;r pr&#246;vningar eller beslut,
+
+2. f&#246;rv&#228;rv, avyttring eller f&#246;rvaltning av f&#246;retag som 
+registreras i filialregistret,
+
+3. aktualisering, komplettering eller kontroll av 
+f&#246;retagsanknuten information som finns i kund- eller 
+medlemsregister eller liknande register,
+
+4. uttag av urval av personuppgifter f&#246;r direkt 
+marknadsf&#246;ring, dock med den begr&#228;nsning som f&#246;ljer av 
+artikel 21.2 och 21.3 i Europaparlamentets och r&#229;dets 
+f&#246;rordning (EU) 2016/679 av den 27 april 2016 om skydd f&#246;r 
+fysiska personer med avseende p&#229; behandling av 
+personuppgifter och om det fria fl&#246;det av s&#229;dana uppgifter 
+och om upph&#228;vande av direktiv 95/46/EG (allm&#228;n 
+dataskyddsf&#246;rordning), eller
+
+5. verksamhet f&#246;r vilken staten eller en kommun ansvarar 
+enligt lag eller annan f&#246;rfattning och
+
+a) som avser filialer som registreras i filialregistret,
+
+b) som f&#246;r att kunna utf&#246;ras f&#246;ruts&#228;tter tillg&#229;ng till 
+f&#246;retagsanknuten information, eller
+
+c) som avser fullg&#246;rande av underr&#228;ttelseskyldighet.
+F&#246;rordning (2018:381).
+
+13 b &#167; Registreringsmyndigheten &#228;r personuppgiftsansvarig 
+f&#246;r behandlingen av personuppgifter i filialregistret.
+F&#246;rordning (2018:381).
+
+13 c &#167; Registreringsmyndigheten skall se till att det inte
+uppkommer n&#229;got otillb&#246;rligt intr&#229;ng i registrerades personliga
+integritet eller n&#229;gra risker fr&#229;n s&#228;kerhetssynpunkt. F&#246;r dessa
+syften f&#229;r myndigheten i enskilda fall st&#228;lla upp villkor f&#246;r
+behandlingen av personuppgifter. F&#246;rordning (2001:931).
+
+13 d &#167; Registreringsmyndigheten f&#229;r f&#246;r de &#228;ndam&#229;l som anges i
+13 a &#167; medge direkt&#229;tkomst till filialregistret.
+F&#246;rordning (2001:931).
+
+13 e &#167; Registreringsmyndigheten ska bestyrka utdrag ur 
+filialregistret om inte best&#228;llaren avst&#229;r fr&#229;n det.
+F&#246;rordning (2022:1289).
+
+13 f &#167; Har upph&#228;vts genom f&#246;rordning (2018:381).
+
+13 g &#167; Har upph&#228;vts genom f&#246;rordning (2018:381).
+
+14 &#167; Om registrering beviljas skall de uppgifter som anges i 4 &#167; f&#246;rsta
+stycket f&#246;ras in i filialregistret.
+
+Best&#228;mmelser om f&#246;ruts&#228;ttningar f&#246;r vice verkst&#228;llande direkt&#246;rs
+tj&#228;nstg&#246;ring eller om inskr&#228;nkningar i &#246;vrigt i r&#228;tten att teckna
+filialens firma f&#229;r inte registreras.
+
+14 a &#167; N&#228;r registreringsmyndigheten genom systemet f&#246;r 
+sammankoppling av register underr&#228;ttats om s&#229;dana &#228;ndringar 
+som avses i 6 &#167; f&#246;rsta stycket ska myndigheten uppdatera 
+uppgifterna om f&#246;retaget i registret s&#229; snart som m&#246;jligt och 
+informera filialen om uppdateringen. 
+
+Registreringsmyndigheten ska genom systemet f&#246;r sammankoppling 
+av register bekr&#228;fta att underr&#228;ttelsen har tagits emot. 
+F&#246;rordning (2022:1289).
+
+15 &#167; Om det genom dom som &#228;ger laga kraft har f&#246;rklarats att en
+registrering, som avser annat &#228;n personuppgift, inte skulle
+gjorts eller att andra f&#246;rh&#229;llanden som antecknats inte l&#228;ngre
+g&#228;ller, skall det p&#229; anm&#228;lan av en part antecknas i registret
+att den tidigare anteckningen avf&#246;rs ur registret. Vid anm&#228;lan
+skall bestyrkt kopia av domen med lagakraftbevis ges in till
+registreringsmyndigheten. F&#246;rordning (2001:931).
+
+16 &#167; Om registrering beviljas, ska de handlingar som ges in i
+samband med anm&#228;lan bil&#228;ggas filialregistret. S&#229;dana handlingar
+ska f&#246;r varje filial sammanf&#246;ras i akter.
+F&#246;rordning (2008:109).
+
+16 a &#167; P&#229; beg&#228;ran av en filial ska filialens e-postadress och
+telefonnummer antecknas i filialregistret.
+F&#246;rordning (2012:59).
+
+17 &#167; Handlingar som anges i 13 &#167; lagen (1992:160) om utl&#228;ndska
+filialer m.m. ska h&#229;llas tillg&#228;ngliga hos
+registreringsmyndigheten. F&#246;rordning (2008:109).
+
+17 a &#167; Vid s&#246;kning efter uppgifter som avser en filial 
+som inte l&#228;ngre &#228;r registrerad f&#229;r endast det utl&#228;ndska 
+f&#246;retagets organisationsnummer och f&#246;retagsnamn och filialens 
+organisationsnummer och f&#246;retagsnamn anv&#228;ndas som s&#246;kbegrepp, 
+om det har g&#229;tt mer &#228;n fem &#229;r sedan filialen avregistrerades. 
+
+Vid s&#246;kning efter uppgifter och handlingar som avses i 16 &#167; 
+f&#229;r endast uppgifter som avses i 5 kap. 2 &#167; f&#246;rsta stycket 1 
+och 2 offentlighets- och sekretesslagen (2009:400) samt det 
+utl&#228;ndska f&#246;retagets organisationsnummer och f&#246;retagsnamn och 
+filialens organisationsnummer och f&#246;retagsnamn anv&#228;ndas som 
+s&#246;kbegrepp. F&#246;rordning (2018:1814).
+
+17 b &#167; Registreringsmyndigheten f&#229;r meddela f&#246;reskrifter enligt
+13 a &#167; lagen (1992:160) om utl&#228;ndska filialer m.m.
+F&#246;rordning (2008:109).
+
+Kung&#246;rande av uppgifter i registret
+
+18 &#167; I en kung&#246;relse enligt 22 &#167; lagen (1992:160) om utl&#228;ndska filialer
+m.m. skall anges dagen f&#246;r registreringen, den filial som &#229;syftas, den
+kommun d&#228;r filialkontoret &#228;r bel&#228;get och den anteckning som gjorts i
+registret.
+
+Handl&#228;ggning av &#228;rende om registrering av filial eller
+anm&#228;lan av f&#246;rest&#229;ndare
+
+18 a &#167; I ett &#228;rende om registrering av filial eller anm&#228;lan av 
+f&#246;rest&#229;ndare enligt 2 &#167; lagen (1992:160) om utl&#228;ndska filialer 
+m.m. ska registreringsmyndigheten meddela beslut inom tio 
+arbetsdagar efter det att en fullst&#228;ndig anm&#228;lan kom in till 
+myndigheten. Om det &#228;r n&#246;dv&#228;ndigt p&#229; grund av utredningen av 
+&#228;rendet, f&#229;r handl&#228;ggningstiden vid h&#246;gst ett tillf&#228;lle 
+f&#246;rl&#228;ngas med h&#246;gst tv&#229; veckor. S&#246;kanden ska informeras om 
+sk&#228;len f&#246;r att handl&#228;ggningstiden f&#246;rl&#228;ngs innan den 
+ursprungliga tidsfristen har g&#229;tt ut.
+
+I 8 &#167; lagen (2009:1079) om tj&#228;nster p&#229; den inre marknaden 
+finns best&#228;mmelser om att ett mottagningsbevis ska skickas 
+till s&#246;kanden n&#228;r en fullst&#228;ndig anm&#228;lan har kommit in och om 
+inneh&#229;llet i ett s&#229;dant bevis.
+
+Ett beslut att f&#246;rl&#228;nga handl&#228;ggningstiden f&#229;r inte 
+&#246;verklagas. F&#246;rordning (2022:1289).
+
+Pr&#246;vning av vissa fr&#229;gor
+
+19 &#167; Bolagsverket pr&#246;var fr&#229;gor om undantag enligt 2 a &#167; andra 
+stycket och 9 &#167; f&#246;rsta stycket lagen (1992:160) om utl&#228;ndska 
+filialer m.m. 
+
+Finansinspektionen pr&#246;var fr&#229;gor om undantag enligt 10 &#167; 
+tredje stycket samma lag. F&#246;rordning (2022:1289).
+
+Elektronisk ingivning
+
+19 a &#167; Ans&#246;kningar enligt 2 a &#167; andra stycket och 9 &#167; f&#246;rsta 
+stycket lagen (1992:160) om utl&#228;ndska filialer m.m. f&#229;r 
+&#246;verf&#246;ras elektroniskt till registreringsmyndigheten. 
+
+Registreringsmyndigheten f&#229;r meddela f&#246;reskrifter om 
+elektronisk &#246;verf&#246;ring enligt f&#246;rsta stycket.
+F&#246;rordning (2022:1289).
+
+Bemyndigande
+
+19 b &#167; Finansinspektionen f&#229;r meddela n&#228;rmare f&#246;reskrifter 
+enligt 8 kap. 2 &#167; bokf&#246;ringslagen (1999:1078) om 
+bokf&#246;ringsskyldighetens fullg&#246;rande enligt 4 kap. 7 &#167; samma 
+lag, och om utformning av och inneh&#229;ll i den redovisning som 
+enligt 6 kap. 3 a &#167; samma lag ska l&#228;mnas f&#246;r verksamhet i en 
+filial till
+
+1. ett utl&#228;ndskt kreditinstitut, betalningsinstitut eller 
+v&#228;rdepappersbolag av motsvarande slag som de f&#246;retag som 
+omfattas av lagen (1995:1559) om &#229;rsredovisning i 
+kreditinstitut och v&#228;rdepappersbolag, och
+
+2. ett utl&#228;ndskt f&#246;rs&#228;kringsf&#246;retag av motsvarande slag som 
+de f&#246;retag som omfattas av lagen (1995:1560) om 
+&#229;rsredovisning i f&#246;rs&#228;kringsf&#246;retag.
+
+R&#228;tten att meddela f&#246;reskrifter g&#228;ller &#228;ven s&#229;dan verksamhet 
+som avses i 4 kap. 8 &#167; och 6 kap. 3 b &#167; bokf&#246;ringslagen. 
+F&#246;rordning (2017:440).
+
+Avgifter
+
+20 &#167; I &#228;renden som r&#246;r registrering enligt denna f&#246;rordning 
+ska f&#246;r registreringen och dess kung&#246;rande samt f&#246;r &#228;rendets 
+handl&#228;ggning och pr&#246;vning, avgifter betalas med f&#246;ljande 
+belopp: 
+
+1. vid anm&#228;lan f&#246;r registrering av en filial, 2 500 kronor, 
+och 
+
+2. vid anm&#228;lan eller anteckning i registret i &#246;vrigt, 
+800 kronor. 
+
+Avgiften f&#246;r en anm&#228;lan om registrering &#229;terbetalas inte om 
+handl&#228;ggningen av &#228;rendet har p&#229;b&#246;rjats. F&#246;rordning (2021:983).
+
+20 a &#167; Avgift ska inte betalas i &#228;renden som g&#228;ller
+
+1. avregistrering av filial,
+
+2. registrering av &#228;ndrad postadress,
+
+3. anm&#228;lan enligt 15 &#167;,
+
+4. anm&#228;lan enligt 19 &#167; andra stycket lagen (1992:160) om
+utl&#228;ndska filialer m.m. som g&#246;rs av en borgen&#228;r eller av den
+vars r&#228;tt &#228;r beroende av att det finns n&#229;gon som f&#229;r f&#246;retr&#228;da
+filialen, eller
+
+5. eget uttr&#228;de fr&#229;n uppdrag som revisor eller
+revisorssuppleant. F&#246;rordning (2011:105).
+
+21 &#167; F&#246;r handl&#228;ggning och pr&#246;vning av vissa fr&#229;gor enligt
+lagen (1992:160) om utl&#228;ndska filialer m.m. ska avgifter
+betalas med f&#246;ljande belopp:
+
+1. undantag fr&#229;n kravet p&#229; filial eller f&#246;rest&#229;ndare (2 a &#167;
+andra stycket), 1 200 kronor,
+
+2. undantag fr&#229;n bos&#228;ttningskravet (9 &#167;), 685 kronor, och
+
+3. anm&#228;lan om f&#246;rest&#229;ndare (25 &#167;), 800 kr.
+
+Avgift ska betalas n&#228;r ans&#246;kan ges in. Avgiften &#229;terbetalas
+inte om handl&#228;ggningen av en ans&#246;kan har p&#229;b&#246;rjats.
+
+N&#228;r Finansinspektionen pr&#246;var en fr&#229;ga om undantag enligt 10 &#167;
+tredje stycket lagen om utl&#228;ndska filialer m.m. g&#228;ller 9–14 &#167;&#167;
+avgiftsf&#246;rordningen (1992:191) i fr&#229;ga om avgiftens storlek
+m.m., varvid avgiftsklass 2 till&#228;mpas. F&#246;rordning (2011:724).
+
+Underr&#228;ttelser
+
+22 &#167; N&#228;r n&#229;gon registreras som verkst&#228;llande direkt&#246;r, vice
+verkst&#228;llande direkt&#246;r, person som bemyndigats att ta emot
+delgivning enligt 10 &#167; andra stycket lagen (1992:160) om
+utl&#228;ndska filialer m.m., revisor, revisorssuppleant eller
+firmatecknare f&#246;r utl&#228;ndskt bankf&#246;retags filial, ska
+Bolagsverket underr&#228;tta den registrerade om &#229;tg&#228;rden. N&#228;r
+verket tar bort en s&#229;dan registrering fr&#229;n registret, ska den
+som ber&#246;rs av &#229;tg&#228;rden underr&#228;ttas.
+
+Om registreringen avser ett revisionsbolag, ska den
+huvudansvariga revisorn underr&#228;ttas.
+
+Underr&#228;ttelsen ska omedelbart efter registreringen eller
+borttagandet av registreringen s&#228;ndas till den som ber&#246;rs av
+&#229;tg&#228;rden p&#229; hans eller hennes s&#228;rskilda postadress eller
+folkbokf&#246;ringsadress eller, om en s&#229;dan adressuppgift saknas,
+den adress som har uppgetts i &#228;rendet.
+
+Bolagsverket beh&#246;ver inte s&#228;nda ut n&#229;gon underr&#228;ttelse om det
+&#228;r uppenbart att en s&#229;dan inte fyller n&#229;got syfte.
+F&#246;rordning (2015:129).
+
+23 &#167; N&#228;r en filial till ett f&#246;retag som &#228;r registrerat i en 
+annan stat inom EES har registrerats eller avregistrerats 
+enligt denna f&#246;rordning, ska registreringsmyndigheten 
+underr&#228;tta registreringsmyndigheten i den staten om 
+registreringen. Underr&#228;ttelsen ska g&#246;ras genom systemet f&#246;r 
+sammankoppling av register. F&#246;rordning (2022:1289).
+
+
+&#214;verg&#229;ngsbest&#228;mmelser
+
+1995:1604
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 1996.
+
+2. I fr&#229;ga om f&#246;rh&#229;llanden som avser ett r&#228;kenskaps&#229;r vilket har
+inletts f&#246;re ikrafttr&#228;dandet till&#228;mpas &#228;ldre best&#228;mmelser.
+
+2000:1082
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2001.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r anm&#228;lan som kommit
+in till Patent- och registreringsverket f&#246;re f&#246;rordningens
+ikrafttr&#228;dande.
+
+2003:1045
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 januari 2004.
+
+2. &#196;ldre best&#228;mmelser g&#228;ller fortfarande f&#246;r &#228;renden enligt 2 &#167;
+som har inletts f&#246;re ikrafttr&#228;dandet.
+
+2004:31
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 15 mars 2004.
+
+2. &#196;ldre f&#246;reskrifter g&#228;ller fortfarande f&#246;r anm&#228;lan som kommit
+in till Patent- och registreringsverket f&#246;re f&#246;rordningens
+ikrafttr&#228;dande.
+
+2004:373
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 1 juli 2004.
+
+2. &#196;renden som har kommit in till Patent- och
+registreringsverket men i vilka verket inte har fattat beslut
+f&#246;re ikrafttr&#228;dandet skall &#246;verl&#228;mnas till Bolagsverket f&#246;r
+fortsatt handl&#228;ggning.
+
+2009:1097
+
+1. Denna f&#246;rordning tr&#228;der i kraft den 27 december 2009.
+
+2. Best&#228;mmelserna i 18 a &#167; till&#228;mpas endast i fr&#229;ga om
+ans&#246;kningar som kommit in till registreringsmyndigheten
+efter ikrafttr&#228;dandet.</div>
+                </div>
+            </div>
+
+            <div class="search-results-footer">
+                <div class="search-results-opts-bot">
+                    <div class="search-results-all">
+                        <a href="/sfst?fritext=&amp;upph=false">
+                            Sökresultat
+                        </a>
+                    </div>
+
+                    <div class="search-results-steps">
+                        <div class="search-results-prev">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3409">
+                                <div class="arrow-bk"></div>
+                                Föregående
+                            </a>
+                        
+                        </div>
+                        ·
+                        <div class="search-results-next">
+                        
+                            <a href="/sfst?fritext=&amp;upph=false&amp;post_id=3411">
+                                Nästa
+                                <div class="arrow-fwd"></div>
+                            </a>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
