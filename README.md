@@ -1,6 +1,7 @@
 # swedish-laws
 
 This project takes data from regeringen.se and parses it through zod.
+More specifically, it takes all laws, propositions, utskottsutlåtanden etc from https://rkrattsbaser.gov.se and parses the XML.
 
 To install dependencies:
 
