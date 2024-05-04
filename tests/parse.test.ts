@@ -6,8 +6,7 @@ describe("fromHTML", () => {
 	it("should return the content of the file", async () => {
 		const content = await fromHTML("parse.test.xml");
 
-		const tag = parse.title(content);
-
-		expect(tag).toBe("Regeringskansliets rättsdatabaser");
+		expect(parse.title(content)).toBe("Regeringskansliets rättsdatabaser");
+		expect(parse.sfs(content)).toBe("2024:199");
 	});
 });

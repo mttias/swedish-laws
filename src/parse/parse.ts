@@ -1,5 +1,6 @@
 export const parse = {
 	title,
+	sfs: (v: string) => v.match(/SFS-nummer ·[\s\n\r]+(.*?)\s*[·]/)?.at(1),
 };
 
 export function title(data: string): string | null {
