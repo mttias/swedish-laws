@@ -17,9 +17,16 @@ export async function cachedRequest(url: string) {
 	if (cache.includes(`${urlId}.xml`)) {
 		const data = await fs.readFile(`cache/${urlId}.xml`, "utf8");
 
-		const tag = parse.title(data);
+		const res = parse(data);
 
-		console.log(tag);
+		if (!res) {
+			return;
+		}
+
+		const { body, ...rest } = res;
+
+		void body;
+		console.log({ ...rest });
 
 		return;
 	}
