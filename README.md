@@ -1,4 +1,6 @@
-# legaltech
+# swedish-laws
+
+This project takes data from regeringen.se and parses it through zod.
 
 To install dependencies:
 
