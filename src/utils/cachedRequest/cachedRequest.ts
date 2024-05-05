@@ -1,6 +1,5 @@
 import axios from "axios";
 import { toHTML } from "../toHTML";
-import { parse } from "../../parse/parse";
 import * as fs from "node:fs/promises";
 import path from "node:path";
 
@@ -21,21 +20,7 @@ export async function cachedRequest(url: string) {
 	if (cache.includes(`${urlId}.xml`)) {
 		const data = await fs.readFile(`cache/${urlId}.xml`, "utf8");
 
-		const res = parse(data);
-
-		if (!res) {
-			return;
-		}
-		const embedded = await embed(res);
-
-		const { body, embedding, ...rest } = embedded;
-
-		void body;
-		void embedding;
-
-		console.log({ ...rest });
-
-		return;
+		return data;
 	}
 
 	const response = await axios.get(url);
@@ -43,10 +28,12 @@ export async function cachedRequest(url: string) {
 	const data = response.data;
 
 	await toHTML(data, `${urlId}.xml`);
+
+	return data;
 }
 
 export async function cachedRequestWithId(id: number | string) {
-	await cachedRequest(getUrl(id));
+	return await cachedRequest(getUrl(id));
 }
 
 export async function embed(data: {

@@ -12,7 +12,6 @@ const document = z.object({
 
 export const parse = (html: string) => {
 	const cleaned = clean(html);
-
 	const res = {
 		title: cleaned.match(/nner-box">\s*<span class="bold">(.*)<\/span>/)?.at(1),
 		sfs: cleaned.match(/SFS-nummer ·[\s\n\r]+(.*?)\s*[·]/)?.at(1),
