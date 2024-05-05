@@ -10,8 +10,6 @@ const document = z.object({
 	body: z.string(),
 });
 
-type Document = z.infer<typeof document>;
-
 export const parse = (html: string) => {
 	const cleaned = clean(html);
 
